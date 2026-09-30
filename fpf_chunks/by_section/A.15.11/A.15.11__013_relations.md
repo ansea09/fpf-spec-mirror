@@ -6,12 +6,12 @@ section_id: "A.15.11:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__013_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.15.11 — Make Applicable Methods Noticeable in Work"
   - "A.15.11:12 — Relations"
-line_start: 29988
-line_end: 29998
+line_start: 30007
+line_end: 30017
 dependencies:
   - "A.15"
   - "A.15.7"
@@ -30,7 +30,7 @@ keywords:
 
 - **A.15.7** chooses an action from the available situation and applicable methods. This pattern constructs an encounter when a relevant possibility repeatedly fails to enter that choice.
 - **A.15.8** examines performer and support dependencies. **A.15.10** retains or reconstructs an interrupted continuation; this pattern can introduce a method that has never belonged to the present work.
-- **B.1.5.EW** recovers the concurrent vertical of methods and work needed to judge the contribution.
+- **B.1.5.EW** recovers how constituent actions enact encompassing work and which whole conditions constrain those actions.
 - **B.5.PI** connects ordinary work with inquiry before a known problem or help request; **B.5.EA** develops an unformulated distinction. They supply what merely arranging a known-method cue cannot.
 - **C.40** and **C.40.CD** develop problems and useful possibilities where the candidate relation is still missing.
 - **C.11.CRC** compares the finite change with the current configuration. **C.11.DUA** examines and repairs the demands imposed by advice. **C.11** supplies the resulting choice when it needs explicit treatment.

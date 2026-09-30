@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__006_worked-slices.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:5 — Worked slices"
-line_start: 95549
-line_end: 95667
+line_start: 95856
+line_end: 95974
 dependencies:
   - "A.10"
   - "A.15"

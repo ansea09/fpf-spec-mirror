@@ -6,12 +6,12 @@ section_id: "A.19.UNM:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 35182
-line_end: 35207
+line_start: 35201
+line_end: 35226
 dependencies:
 keywords:
   - "CV→NCV"

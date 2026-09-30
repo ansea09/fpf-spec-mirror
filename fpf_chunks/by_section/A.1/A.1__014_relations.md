@@ -6,12 +6,12 @@ section_id: "A.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__014_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:12 — Relations"
-line_start: 2167
-line_end: 2176
+line_start: 2186
+line_end: 2195
 dependencies:
   - "A.1.1"
   - "A.1.STM"

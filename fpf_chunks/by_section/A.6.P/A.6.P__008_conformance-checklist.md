@@ -6,12 +6,12 @@ section_id: "A.6.P:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__008_conformance-checklist.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:7 — Conformance Checklist"
-line_start: 17963
-line_end: 17985
+line_start: 17982
+line_end: 18004
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"

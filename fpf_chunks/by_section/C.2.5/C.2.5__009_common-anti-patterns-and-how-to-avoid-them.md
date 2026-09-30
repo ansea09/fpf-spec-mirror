@@ -6,12 +6,12 @@ section_id: "C.2.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 49984
-line_end: 49988
+line_start: 50024
+line_end: 50028
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,25 +6,35 @@ section_id: "C.39:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__012_sota-echoing.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:11 — SoTA-Echoing"
-line_start: 76902
-line_end: 76909
+line_start: 77077
+line_end: 77089
 dependencies:
-  - "A.10"
+  - "A.22.CGUS"
   - "A.3.1"
   - "A.3.2"
+  - "B.1.5"
   - "C.11"
+  - "C.30.ASV"
+  - "C.32.MWA"
   - "C.38"
+  - "C.39.RO"
   - "C.40"
+  - "E.4.CM"
   - "F.0.1"
   - "F.1"
 keywords:
 ---
 
 ### C.39:11 - SoTA-Echoing
+For construction and connection beyond retrieval, compare actual operations and assumptions. [Stacey et al. (2025), §§2.4 and 4.4](https://doi.org/10.1017/dsj.2025.9) explain method knowledge as explicit how-to knowledge that connects inputs, reasoning and outputs while relying on its users and context. **Adapt** that connected explanation in §§4.3 and 4.5; keep the FPF distinctions among Method, description and Work. The source's situated method-in-use terminology is not adopted as an identification of these objects.
+
+[OMG Essence 2.0 beta2](https://www.omg.org/spec/Essence/2.0/Beta2/PDF) is a concrete alternative when practices represented in its language can be composed using its common elements and merging rules. **Use** such qualified domain machinery where it answers the receiving problem. The general branch here also permits independently sourced operations and ordinary descriptions; their shared words or source units do not establish valid Method composition.
+
+[Ralyté, Koutsopoulos and Stirna (2025, published online)](https://doi.org/10.1007/s10270-025-01304-2) distinguish correctness of a modeling method, fit to its domain and practical worth. **Adapt** those different questions in §4.5, without requiring separate studies or making a modeling-method procedure universal. [Cash, Daalhuizen and Hekkert (2023)](https://doi.org/10.1016/j.destud.2023.101204) supplies the complementary connection from need and development decisions to content and claims; an end-result test alone can leave those grounds missing. Neither source establishes the effectiveness of the studio construction.
 
 For the question “How can an unexplained way become usable enough for the next decision?”, the selected line is source-guided constructive explanation with target-condition testing and bounded refinement. Trace a relevant professional operation on target material, make the missing connecting action explicit, and refine the explanation while that refinement can change the next decision. This exposes what label generation or source retrieval alone can leave hidden. One sufficiently explained way can finish the search.
 

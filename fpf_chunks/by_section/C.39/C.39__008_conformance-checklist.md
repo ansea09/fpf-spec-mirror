@@ -6,19 +6,24 @@ section_id: "C.39:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__008_conformance-checklist.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:7 — Conformance Checklist"
-line_start: 76872
-line_end: 76881
+line_start: 77041
+line_end: 77053
 dependencies:
-  - "A.10"
+  - "A.22.CGUS"
   - "A.3.1"
   - "A.3.2"
+  - "B.1.5"
   - "C.11"
+  - "C.30.ASV"
+  - "C.32.MWA"
   - "C.38"
+  - "C.39.RO"
   - "C.40"
+  - "E.4.CM"
   - "F.0.1"
   - "F.1"
 keywords:
@@ -33,4 +38,7 @@ keywords:
 - Further refinement is tied to a result-, feasibility- or burden-changing gap.
 - The returned explanation, unresolved support and actual realization remain distinguishable.
 - The next inquiry has a use that can warrant its effort, or the search stops.
+- For a connected use, result transfer, composition, enactment, variation and replacement are distinguished where their consequences differ; independent Methods retain their direct uses.
+- An explanation intended for later performance or change supplies the needed inputs, actions, reasons, conditions and returns without making the promised construction an undeclared reader prerequisite.
+- A changed-condition claim identifies affected connections and retained uses; a correct construction, practical fit and worthwhile application have the evidence their distinct claims need.
 

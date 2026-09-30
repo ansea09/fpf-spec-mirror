@@ -6,12 +6,12 @@ section_id: "E.10:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__004_problem.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:2 — Problem"
-line_start: 85735
-line_end: 85742
+line_start: 86034
+line_end: 86041
 dependencies:
   - "A.10"
   - "A.15"

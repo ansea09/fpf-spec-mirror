@@ -1,21 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.0.2"
-pattern_title: "Conceptual Synthesis across Source Ontologies"
+pattern_title: "Semantic Synthesis across Source Ontologies"
 section_id: "F.0.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__002_problem-frame.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
-  - "F.0.2 — Conceptual Synthesis across Source Ontologies"
+  - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:1 — Problem frame"
-line_start: 103504
-line_end: 103515
+line_start: 103811
+line_end: 103822
 dependencies:
   - "A.2.4"
   - "C.2.1"
+  - "C.39"
   - "E.10.ARCH"
+  - "E.4.CM"
   - "E.4.DPF"
   - "F.0.1"
   - "F.1"
@@ -34,7 +36,7 @@ keywords:
 
 Use this pattern when several sources describe the same working question through materially different concepts, relations, explanations, or boundaries, and those differences can change a named authoring decision or a contribution to one subject pattern.
 
-The primary concern is one bounded conceptual-synthesis question for one declared receiving use. The first useful move is to state that question and the difference that could change the next decision. Keep each source claim local through `F.0.1`, choose the source cut through `F.1`, then compare the claims here.
+Here semantic synthesis means comparing and developing claims through the concepts, relations and boundaries used by their sources. Conceptual synthesis names this semantic work; it can concern theories of action as well as other subject matters. The primary concern is one bounded semantic-synthesis question for one declared receiving use. The first useful move is to state that question and the difference that could change the next decision. Keep each source claim local through `F.0.1`, choose the source cut through `F.1`, then compare the claims here.
 
 **What goes wrong if missed.** An author either leaves a crosswalk or literature narrative where a positive contribution is needed, or merges similar words before checking whether the sources describe the same entity, relation, explanation, and use. A large research package may also be demanded for a question that one bounded comparison can settle.
 

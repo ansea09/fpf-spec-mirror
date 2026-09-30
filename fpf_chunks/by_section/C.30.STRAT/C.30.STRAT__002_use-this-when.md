@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__002_use-this-when.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:0 — Use this when"
-line_start: 68611
-line_end: 68624
+line_start: 68651
+line_end: 68664
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,7 +67,7 @@ keywords:
 
 Use this pattern when a source uses a compact architecture or stratification label and that word alone does not tell you what technical claim is being made.
 
-Typical labels are `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, and architecture-operation words such as `block`, `expert`, `cache`, `router`, and `gate`.
+Typical labels are `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, structural uses of `vertical` or `horizontal`, and architecture-operation words such as `block`, `expert`, `cache`, `router`, and `gate`.
 
 **What goes wrong if missed.** A useful local label starts acting as ontology. A `layer` is assumed to be a holon level, control layer, publication layer, scale window, or module boundary without deciding which. A `stack` becomes architecture by name; a `block` becomes a module; an `expert` becomes a system-role kind or performer; a `cache` becomes a state or memory relation; a `router` becomes a decision policy; a `gate` becomes a gate decision. Word shape establishes none of these.
 

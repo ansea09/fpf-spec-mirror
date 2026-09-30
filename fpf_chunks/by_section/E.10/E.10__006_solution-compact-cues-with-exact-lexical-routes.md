@@ -6,12 +6,12 @@ section_id: "E.10:4"
 section_title: "Solution - compact cues with exact lexical routes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__006_solution-compact-cues-with-exact-lexical-routes.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:4 — Solution - compact cues with exact lexical routes"
-line_start: 85752
-line_end: 85761
+line_start: 86051
+line_end: 86060
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,7 +62,7 @@ keywords:
 
 Apply the connected `F.19` reading to the complete natural span. If ordinary meaning settles the issue, repair the text and stop. Only a surviving FPF lexical question opens the subordinate `LEX-BUNDLE` or `ULR` material.
 
-**LEX-BUNDLE** and **ULR (Unified Lexical Rules)** name subordinate register, naming, morphology, and local rewrite checks inside the current `E.10` pattern. They do not name a second pattern, a second ontology, or a second audit. The retained detail covers vertical register stratification, Tech and Plain pairs, token generality, naming morphology, overloaded FPF heads, and conformance of durable lexical choices. Use only the detail needed for the selected problem.
+**LEX-BUNDLE** and **ULR (Unified Lexical Rules)** name subordinate register, naming, morphology, and local rewrite checks inside the current `E.10` pattern. They do not name a second pattern, a second ontology, or a second audit. The retained detail covers lexical strata and their meaning constraints, Tech and Plain pairs, token generality, naming morphology, overloaded FPF heads, and conformance of durable lexical choices. Use only the detail needed for the selected problem.
 
 This subordinate material does not replace `F.19`, `E.10.ARCH`, a selected precision-restoration pattern, the concrete pattern for the recovered claim, or `F.18`. `F.19` governs the ordinary semantic and pragmatic reading. When subordinate material conflicts with `E.10:0.2`, `E.10.ARCH`, `A.3.4.P`, `A.6.F`, `C.2.P`, `E.24.*`, `F.18`, or another named pattern, the current applicability table and the pattern that defines the claim control the repair.
 

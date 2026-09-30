@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__006_archetypal-grounding.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:5 — Archetypal grounding"
-line_start: 94759
-line_end: 94995
+line_start: 95066
+line_end: 95302
 dependencies:
   - "A.15"
   - "A.15.2"

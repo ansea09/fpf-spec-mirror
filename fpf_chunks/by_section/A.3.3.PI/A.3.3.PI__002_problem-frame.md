@@ -6,12 +6,12 @@ section_id: "A.3.3.PI:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.PI/A.3.3.PI__002_problem-frame.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
   - "A.3.3.PI:1 — Problem frame"
-line_start: 10240
-line_end: 10251
+line_start: 10259
+line_end: 10270
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"

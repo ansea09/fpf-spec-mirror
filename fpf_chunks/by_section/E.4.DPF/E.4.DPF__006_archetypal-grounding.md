@@ -6,12 +6,12 @@ section_id: "E.4.DPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__006_archetypal-grounding.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:5 — Archetypal Grounding"
-line_start: 81431
-line_end: 81503
+line_start: 81676
+line_end: 81748
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -29,6 +29,7 @@ dependencies:
   - "C.33"
   - "C.34"
   - "C.35"
+  - "C.39"
   - "E.10"
   - "E.10.ARCH"
   - "E.11"
@@ -40,6 +41,7 @@ dependencies:
   - "E.23.CDI"
   - "E.24.PUB"
   - "E.4"
+  - "E.4.CM"
   - "E.4.DPF.DA"
   - "E.4.PFAD"
   - "E.4.PFR"
@@ -91,9 +93,9 @@ Replayable authoring slice:
 | Selected source basis and synthesis route | `G.2` pack selected because the four-pattern framework needs a broad, refreshable source basis: greenhouse climate-control sources, crop nutrition sources, and local production logs; rejected source: generic gardening advice without controlled-environment evidence |
 | Architecture answer | One `E.9` DRR guided by `E.4.PFAD` records the field promised by the public name, the connected problem families and selected problem-family pattern sets, four candidate first patterns and their material relations, one representative application, honest omissions and source returns, and a one-way dependency on FPF Core; no PFAD relation or mandatory PFR row is created. |
 | Framework-scale boundary | The four patterns count as a candidate first-edition language only if their coverage map, material relations, representative application, and edition, change, and refresh boundary make a new DPF edition more useful than contributing them to an existing framework, using FPF and the sources directly, publishing a guide, or adding no new maintained product now. One useful pattern would trigger the same test and would usually remain a seed or contribution. |
-| Several-structure synthesis | Greenhouse Work, control Methods, crop and equipment subjects, descriptions and models, provider capabilities, and production-practice change do not line up one-for-one. `C.32.MWA` therefore supplies one practice-architecture synthesis for the architecture answer without choosing whether to create a DPF or another result. `E.23.CDI` is used only if the selected architecture includes capability development for a named Work family. |
+| Several-structure synthesis | Greenhouse Work, control Methods, crop and equipment subjects, descriptions and models, provider capabilities, and production-practice change do not line up one-for-one. `C.32.MWA` therefore supplies one architecture synthesis for those Methods and their use without choosing whether to create a DPF or another result. `E.23.CDI` is used only if the selected architecture includes capability development for a named Work family. |
 | First-use closure | Every selected Hydroponic Cucumber pattern and same-framework prerequisite needed for the grower's first use is included. The exact FPF Core edition and relied-on content remain external and are named with their use, direction, reason, refresh condition, and any required availability or compatibility result. A missing required result blocks first use. |
-| Contribution destinations and claim strength | Each adopted or rejected source contribution has one stated outcome: it enters a DPF pattern, returns to an existing FPF or DPF, stays in a maintained guide or source result, is used directly from its source, or is deliberately not maintained together with an observation that would reopen the choice. Conceptual synthesis may support a candidate architecture claim, but it is not reported as demonstrated effectiveness or transfer. |
+| Contribution destinations and claim strength | Each adopted or rejected source contribution has one stated outcome: it enters a DPF pattern, returns to an existing FPF or DPF, stays in a maintained guide or source result, is used directly from its source, or is deliberately not maintained together with an observation that would reopen the choice. Semantic synthesis can support a proposed architecture claim; methodological synthesis develops the proposed ways and their connections. Neither is reported as demonstrated effectiveness or transfer. |
 | Naming route | provisional `HydroponicCucumberPrincipleFramework`; the public abbreviation remains provisional until an `F.18` NameCard is current |
 | First pattern draft | `HC.NutrientMonitoring` drafted with `E.8`: problem frame, solution, worked greenhouse slice, SoTA row, conformance checks |
 | Relation and edition record | `PFR-HC-source-reuse` links nutrient pattern to source pack; dependency record points to `FPFCorePatternSet@current` |

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:9"
 section_title: "Examples and near misses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__015_examples-and-near-misses.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:9 — Examples and near misses"
-line_start: 87833
-line_end: 87856
+line_start: 88139
+line_end: 88162
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -83,7 +83,7 @@ Read each wording with its stated use. Apply a route only while that FPF questio
 | "The solver algorithm is the mechanism." | Use `A.3.1` to recover whether the wording denotes one exact method or a direct method-side relation. A current A.3.2 assertion obtains only when one exact episteme describes that Method. Formal substrate, C.29 representation, mechanism declaration or realization, Work, result, and quote-only wording remain separate subject assertions under their own defining or constraining rules. | The method or method-side relation and any independently admitted mechanism claim. |
 | "This record is admissible." | State the record's admissible use and the exact assertion under the rule that establishes it. Recover the bearer, claim kind, source relation, or value frame only while that basis remains unclear. Use `A.19.SPR` only if a state-family object or frame remains hidden; otherwise use the direct subject rule. | The use for which the record is admissible and the rule establishing it. |
 | "This score proves readiness." | Use `C.16.P` to recover characteristic, scale, value, score, threshold, and comparison reference set; state gate, evidence, and decision assertions separately under their own defining or constraining rules. | The measured score, readiness criterion, and evidence or decision supporting the readiness claim. |
-| "This source supports the claim." | Use the direct subject rule for an already clear support claim. Use `C.2.P` while a source-currentness relation or publication relation set remains unresolved, and `A.6.P` only while the direct predicate or an actual participant remains hidden. State the recovered relation or grounded non-use result. | What the identified source contributes to the identified claim. |
+| "This source supports the claim." | Use the direct subject rule for an already clear support claim. Use `C.2.P` while a source-currentness relation or publication relation set remains unresolved, and `A.6.P` only while the direct predicate or an actual participant remains hidden. State the recovered relation or grounded non-use result. | The exact passage used as a premise, rule or evidence, the receiving claim and the limit of that use. |
 | "Quality improved." | Use `C.16.Q` to recover quality characterization or evaluative characterization, or state the exact characteristic, evaluation, relation, action, Work, or bridge assertion under the rule located through `C.16.P`, `C.16.Q`, `C.25`, or the pattern that defines or tests the recovered assertion. | The quality or evaluative characterization and the particular change being claimed. |
 | "The function improved maintainability." | Use `A.6.F` to recover the FPF kind, relation, or claim when hidden; then state the exact quality or maintainability assertion under the rule located through `C.16.P`, `C.16.Q`, `C.25`, or the pattern that defines or tests the recovered assertion. | The recovered function claim and the separately stated maintainability change. |
 | "Read this pattern for improvement proposals." | Follow an ordinary reading instruction without restoration. Use `E.22` only when a declared pattern-under-improvement evaluation makes this an improvement-oriented quality review. Distinguish source-publication use or a bounded comparative review unit only when that use is claimed. | An ordinary reading instruction versus a declared improvement-oriented quality review. |

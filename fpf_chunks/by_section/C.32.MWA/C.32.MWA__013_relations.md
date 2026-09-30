@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.MWA"
-pattern_title: "Practice Architecture Synthesis from Several Structures"
+pattern_title: "Synthesize an Architecture Account of Methods and Their Use"
 section_id: "C.32.MWA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__013_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
-  - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
+  - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:12 — Relations"
-line_start: 74070
-line_end: 74076
+line_start: 74157
+line_end: 74163
 dependencies:
   - "A.15.1"
   - "A.22"

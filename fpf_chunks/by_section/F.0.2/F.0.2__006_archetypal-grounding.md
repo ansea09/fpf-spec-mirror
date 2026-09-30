@@ -1,21 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.0.2"
-pattern_title: "Conceptual Synthesis across Source Ontologies"
+pattern_title: "Semantic Synthesis across Source Ontologies"
 section_id: "F.0.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__006_archetypal-grounding.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
-  - "F.0.2 — Conceptual Synthesis across Source Ontologies"
+  - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:5 — Archetypal Grounding"
-line_start: 103590
-line_end: 103640
+line_start: 103903
+line_end: 103953
 dependencies:
   - "A.2.4"
   - "C.2.1"
+  - "C.39"
   - "E.10.ARCH"
+  - "E.4.CM"
   - "E.4.DPF"
   - "F.0.1"
   - "F.1"
@@ -66,7 +68,7 @@ A cross-disciplinary data framework proposes one shared classification relation 
 
 #### F.0.2:5.4 - Cheap anti-case
 
-An engineer consults a handbook and its later edition only to recover the current pump tolerance. The later edition gives the needed claim, and no ontological difference changes the authoring decision. The engineer records direct source reliance and stops without conceptual synthesis.
+An engineer consults a handbook and its later edition only to recover the current pump tolerance. The later edition gives the needed claim, and no ontological difference changes the authoring decision. The engineer records direct source reliance and stops without semantic synthesis.
 
 #### F.0.2:5.5 - Compare causal accounts on one sensor case
 

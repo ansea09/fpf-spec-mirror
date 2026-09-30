@@ -6,12 +6,12 @@ section_id: "B.5.MPC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__001_intro.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:intro — Intro"
-line_start: 43864
-line_end: 43869
+line_start: 43904
+line_end: 43909
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -36,6 +36,6 @@ keywords:
 ## B.5.MPC - Connect Physical, Mathematical and Computational Reasoning
 
 > **Type:** Method pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 

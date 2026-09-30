@@ -6,12 +6,12 @@ section_id: "G.6:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__002_problem-frame.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:1 — Problem Frame"
-line_start: 114839
-line_end: 114863
+line_start: 115155
+line_end: 115179
 dependencies:
   - "A.10"
   - "A.13"

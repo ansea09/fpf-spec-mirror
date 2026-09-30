@@ -1,20 +1,24 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.4.CM"
-pattern_title: "Develop Composite Methods as Framework Contributions"
+pattern_title: "Develop Connected Methods as Framework Contributions"
 section_id: "E.4.CM:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
-  - "E.4.CM — Develop Composite Methods as Framework Contributions"
+  - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 80305
-line_end: 80315
+line_start: 80527
+line_end: 80538
 dependencies:
+  - "A.3.1"
+  - "B.1.5"
   - "B.1.5.EW"
   - "B.1.5.RS"
+  - "C.32.MWA"
+  - "C.39"
   - "C.39.RO"
   - "E.11"
   - "E.11.PFP"
@@ -22,6 +26,7 @@ dependencies:
   - "E.21"
   - "E.4"
   - "E.8"
+  - "F.0.2"
   - "F.19"
 keywords:
 ---
@@ -31,6 +36,7 @@ keywords:
 | Anti-pattern | Repair |
 | --- | --- |
 | “All parts exist, so nothing remains to publish” | Compare the whole's connections and the reader's required reconstruction. |
+| One unlabeled axis for composition, generality, disciplines and frameworks | Recover each structure's participants and relations. Name what each arrow represents before using the diagram's vertical or horizontal direction as shorthand. |
 | One new pattern for every row or action | Select independently recognizable recurring difficulties; combine inseparable contributions. |
 | A mandatory tour through all suppliers | State branch conditions and stop when the useful result is supplied. |
 | A card as the only explanation | Develop the reusable Method in a normal public owner, then derive the card. |

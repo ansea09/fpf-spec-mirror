@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__013_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
   - "A.6.RSIG:12 — Relations"
-line_start: 12260
-line_end: 12266
+line_start: 12279
+line_end: 12285
 dependencies:
   - "A.6"
   - "A.6.P"

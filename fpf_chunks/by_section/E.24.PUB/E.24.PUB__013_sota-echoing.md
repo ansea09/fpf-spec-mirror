@@ -6,12 +6,12 @@ section_id: "E.24.PUB:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__013_sota-echoing.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:11 — SoTA-Echoing"
-line_start: 102759
-line_end: 102770
+line_start: 103066
+line_end: 103077
 dependencies:
   - "A.6.3"
   - "A.6.REL"

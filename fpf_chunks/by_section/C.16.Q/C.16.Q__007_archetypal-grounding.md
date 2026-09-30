@@ -6,12 +6,12 @@ section_id: "C.16.Q:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__007_archetypal-grounding.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:5 — Archetypal Grounding"
-line_start: 55825
-line_end: 55988
+line_start: 55865
+line_end: 56028
 dependencies:
   - "A.10"
   - "A.16"

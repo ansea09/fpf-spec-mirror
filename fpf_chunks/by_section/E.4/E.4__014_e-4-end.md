@@ -6,12 +6,12 @@ section_id: "E.4:End"
 section_title: "E.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__014_e-4-end.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:End — E.4:End"
-line_start: 80115
-line_end: 80116
+line_start: 80298
+line_end: 80301
 dependencies:
   - "C.33"
   - "C.34"
@@ -44,4 +44,6 @@ keywords:
 ---
 
 ### E.4:End
+
+<a id="fpf-pattern-E.4.CM"></a>
 

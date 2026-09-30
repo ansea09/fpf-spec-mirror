@@ -1,21 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.0.2"
-pattern_title: "Conceptual Synthesis across Source Ontologies"
+pattern_title: "Semantic Synthesis across Source Ontologies"
 section_id: "F.0.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__005_solution.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
-  - "F.0.2 — Conceptual Synthesis across Source Ontologies"
+  - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:4 — Solution"
-line_start: 103539
-line_end: 103589
+line_start: 103846
+line_end: 103902
 dependencies:
   - "A.2.4"
   - "C.2.1"
+  - "C.39"
   - "E.10.ARCH"
+  - "E.4.CM"
   - "E.4.DPF"
   - "F.0.1"
   - "F.1"
@@ -75,9 +77,15 @@ The methods combine in one direction. An author may use identified claims and pr
 
 #### F.0.2:4.5 - Boundary to wording-use precision restoration
 
-Conceptual synthesis and wording restoration both pass through ontology, but they answer different questions. Conceptual synthesis forms or revises a cross-source claim. Wording restoration starts from an already current subject claim and repairs a consequential wording use so that the intended entity, relation, claim kind, and admissible action can again be recovered.
+Semantic synthesis and wording restoration both pass through ontology, but they answer different questions. Semantic synthesis forms or revises a cross-source claim. Wording restoration starts from an already current subject claim and repairs a consequential wording use so that the intended entity, relation, claim kind, and admissible action can again be recovered.
 
 A recurring wording failure may supply evidence that a subject distinction is missing or unstable. The system maintaining the affected FPF or DPF edition then uses that evidence in a named content decision. The findings do not themselves revise the synthesis claim. A DPF keeps its domain wording entries beside the domain patterns that use them; `E.10.ARCH` supplies the shared restoration method.
 
 A DPF may need a reliable current domain ontology so practitioners can recognize situations, distinguish Methods and results, and use its solution moves. An author can use F.0.2 to synthesize or revise that ontology as a proposed contribution. Ontology alone is not a DPF: use `E.4` and `E.4.DPF` to connect it to recurring problems, constructive Methods, a usable first cut, evidence practice, access, and maintenance.
+
+#### F.0.2:4.6 - Semantic and methodological results
+
+A semantic result explains what may be claimed, which distinctions matter and where source accounts agree or differ. It can include claims about actions and Methods. Methodological synthesis constructs ways of acting: selecting, adapting and connecting operations, their conditions, intermediate results and returns for a needed use. The difference concerns the question and what is constructed, not nouns versus verbs or the document in which the result is written.
+
+Use C.39 to construct, connect, explain or change ways of obtaining the needed results. E.4.CM applies that general methodological work to a framework author's public account of one composite Method or several independent Methods. Those constructions can use the semantic result returned here; trying a proposed way can expose a missing distinction or reopen source comparison. Neither operation requires completing a universal ontology before acting. A sufficient existing Method can be used directly.
 

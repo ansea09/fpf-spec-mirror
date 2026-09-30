@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__002_problem-frame.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:1 — Problem frame"
-line_start: 81628
-line_end: 81637
+line_start: 81874
+line_end: 81883
 dependencies:
   - "A.1.1"
   - "A.10"

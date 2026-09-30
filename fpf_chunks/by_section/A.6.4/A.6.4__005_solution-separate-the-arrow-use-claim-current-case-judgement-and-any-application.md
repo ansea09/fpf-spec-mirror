@@ -6,12 +6,12 @@ section_id: "A.6.4:4"
 section_title: "Solution — separate the arrow, use claim, current-case judgement, and any application"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__005_solution-separate-the-arrow-use-claim-current-case-judgement-and-any-application.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:4 — Solution — separate the arrow, use claim, current-case judgement, and any application"
-line_start: 17333
-line_end: 17439
+line_start: 17352
+line_end: 17458
 dependencies:
   - "A.10"
   - "A.15"

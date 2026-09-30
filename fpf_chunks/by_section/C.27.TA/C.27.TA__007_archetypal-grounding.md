@@ -6,12 +6,12 @@ section_id: "C.27.TA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__007_archetypal-grounding.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:5 — Archetypal Grounding"
-line_start: 63202
-line_end: 63247
+line_start: 63242
+line_end: 63287
 dependencies:
   - "A.10"
   - "A.15.1"

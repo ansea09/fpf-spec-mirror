@@ -6,12 +6,12 @@ section_id: "E.4:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__013_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:12 — Relations"
-line_start: 80102
-line_end: 80114
+line_start: 80285
+line_end: 80297
 dependencies:
   - "C.33"
   - "C.34"

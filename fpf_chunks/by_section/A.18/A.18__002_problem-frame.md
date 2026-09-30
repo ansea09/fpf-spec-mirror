@@ -6,12 +6,12 @@ section_id: "A.18:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__002_problem-frame.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:1 — Problem Frame"
-line_start: 31714
-line_end: 31725
+line_start: 31733
+line_end: 31744
 dependencies:
   - "A.17"
   - "A.18"

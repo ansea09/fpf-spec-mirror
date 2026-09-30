@@ -6,12 +6,12 @@ section_id: "G.11:4"
 section_title: "Solution — RSCR-driven refresh as a P2W-scoped orchestration kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__006_solution-rscr-driven-refresh-as-a-p2w-scoped-orchestration-kit.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:4 — Solution — RSCR-driven refresh as a P2W-scoped orchestration kit"
-line_start: 117059
-line_end: 117308
+line_start: 117375
+line_end: 117624
 dependencies:
   - "A.6.RCD"
   - "B.3.4"

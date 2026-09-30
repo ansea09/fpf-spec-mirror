@@ -6,12 +6,12 @@ section_id: "B.2.3:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__011_consequences.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:8 — Consequences"
-line_start: 41549
-line_end: 41562
+line_start: 41589
+line_end: 41602
 dependencies:
   - "A.1"
   - "A.10"

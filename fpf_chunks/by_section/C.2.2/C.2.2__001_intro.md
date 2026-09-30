@@ -6,12 +6,12 @@ section_id: "C.2.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__001_intro.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:intro — Intro"
-line_start: 48554
-line_end: 48560
+line_start: 48594
+line_end: 48600
 dependencies:
   - "A.1.1"
   - "A.10"

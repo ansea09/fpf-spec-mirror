@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:4"
 section_title: "Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__005_solution-entityofconcernref-preserving-textual-re-expression-under-a-6-3.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:4 — Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
-line_start: 15825
-line_end: 15972
+line_start: 15844
+line_end: 15991
 dependencies:
   - "A.15"
   - "A.6.2"

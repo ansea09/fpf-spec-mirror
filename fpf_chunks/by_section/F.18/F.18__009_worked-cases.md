@@ -6,12 +6,12 @@ section_id: "F.18:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__009_worked-cases.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:7 — Worked Cases"
-line_start: 110785
-line_end: 110951
+line_start: 111101
+line_end: 111267
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "C.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__001_intro.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:intro — Intro"
-line_start: 52631
-line_end: 52638
+line_start: 52671
+line_end: 52678
 dependencies:
   - "A.10"
   - "A.13"

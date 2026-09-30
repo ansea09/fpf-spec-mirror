@@ -6,12 +6,12 @@ section_id: "A.1.STM:1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__003_problem.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
   - "A.1.STM:1 — Problem"
-line_start: 3378
-line_end: 3383
+line_start: 3397
+line_end: 3402
 dependencies:
   - "A.1"
   - "A.1.CSD"

@@ -6,12 +6,12 @@ section_id: "E.4.DPF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__013_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:12 — Relations"
-line_start: 81608
-line_end: 81619
+line_start: 81853
+line_end: 81865
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -29,6 +29,7 @@ dependencies:
   - "C.33"
   - "C.34"
   - "C.35"
+  - "C.39"
   - "E.10"
   - "E.10.ARCH"
   - "E.11"
@@ -40,6 +41,7 @@ dependencies:
   - "E.23.CDI"
   - "E.24.PUB"
   - "E.4"
+  - "E.4.CM"
   - "E.4.DPF.DA"
   - "E.4.PFAD"
   - "E.4.PFR"
@@ -61,7 +63,8 @@ keywords:
 ### E.4.DPF:12 - Relations
 
 
-- **Uses:** direct source reliance when one source closes the question; `F.0.1` for source-local meaning; `F.1` for a relevance-based source cut; `F.0.2` for one bounded conceptual-synthesis result; and `G.2` only for the broad, refreshable `CG-Frame` pack. Identified pack claims and provenance may enter F.0.2, but the pack does not establish its result.
+- **Uses for methodological construction:** C.39 for general construction, connection, explanation and change; E.4.CM for applying that way to the framework's developed public account of Methods.
+- **Uses:** direct source reliance when one source closes the question; `F.0.1` for source-local meaning; `F.1` for a relevance-based source cut; `F.0.2` for one bounded semantic-synthesis result; and `G.2` only for the broad, refreshable `CG-Frame` pack. Identified pack claims and provenance may enter F.0.2, but the pack does not establish its result.
 - **Uses:** `A.3.1` for the framework-authoring Method and `A.3.2` for this independently qualified MethodDescription; A.13 for every precise performer's core and same obtaining assignment; `A.15.1` for independently admitted dated authoring Work; `F.6` only for a current precise assignment-bound attribution; `A.15.PROD` for any local inception or production-completion claim; `A.6.1` for an actual application and its bindings; `E.8`, `E.10`, and `F.18` for pattern drafting, wording discipline, and names; and `E.10.ARCH` for local domain wording restoration when a recurring problem has been shown.
 - **Coordinates with:** `E.4` for family membership and the proportional support-unit/adjacent-product boundary, and `E.4.PFAD` for architecture decisions; uses `C.32.MWA` when several practice structures need one synthesis and `E.23.CDI` only when capability development for a named Work family is current.
 - **Coordinates with:** `C.2.1` and `A.2.6` for framework/result episteme identity, effective ReferenceScheme, empirical-grounding relations, and ClaimScope; `A.1.1`/`A.22` only for an independently selected model-use structure; `A.22.CGUS` only for a genuinely admitted conditional unfolding; `E.4.PFR` for separately identified relation records and for dependency, edition, compatibility, deprecation, and supersession effects; `C.30.AD` for post-existence architecture-description use and its retrieval-only project card name; and `E.24.PUB` for publication occurrence, form, and carrier.

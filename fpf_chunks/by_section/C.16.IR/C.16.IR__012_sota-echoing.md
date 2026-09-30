@@ -6,12 +6,12 @@ section_id: "C.16.IR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__012_sota-echoing.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:11 — SoTA-Echoing"
-line_start: 54822
-line_end: 54833
+line_start: 54862
+line_end: 54873
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"
@@ -33,5 +33,5 @@ keywords:
 
 **Computational contribution.** [IBEX 2.9, Contractors, Introduction and Forward-Backward](https://ibex-team.github.io/ibex-lib/contractor.html) describes filtering a domain while preserving its feasible solutions. **Adopt** that preservation requirement for the bounded numerical branch in :4.3. A surviving outer domain can still contain infeasible points, which motivates the feasible-witness distinction. Symbolic elimination and finite enumeration suffice for the worked cases.
 
-The common question, target projection, sufficient-result return and diverse cases are conceptual synthesis. Specialized inverse, statistical and decision methods contribute where the question needs their further operations or guarantees. Reopen the comparison when a cheaper analysis settles the same use with equivalent uncertainty, when a proposed bound misses a compatible branch, or when a changed measurement relation invalidates the result.
+Connecting the common question, target projection and sufficient-result return is a methodological synthesis. The cases are constructed under their stated conditions. Specialized inverse, statistical and decision methods contribute where the question needs their further operations or guarantees. Reopen the comparison when a cheaper analysis settles the same use with equivalent uncertainty, when a proposed bound misses a compatible branch, or when a changed measurement relation invalidates the result.
 

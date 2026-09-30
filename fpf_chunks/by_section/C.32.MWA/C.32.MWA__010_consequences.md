@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.MWA"
-pattern_title: "Practice Architecture Synthesis from Several Structures"
+pattern_title: "Synthesize an Architecture Account of Methods and Their Use"
 section_id: "C.32.MWA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__010_consequences.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
-  - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
+  - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:9 — Consequences"
-line_start: 74042
-line_end: 74049
+line_start: 74129
+line_end: 74136
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -36,7 +36,7 @@ keywords:
 
 ### C.32.MWA:9 - Consequences
 
-The Method preserves useful differences among Method, Work, subject, description, capability/provider, and cultural structures while producing one decision-ready account. It prevents source tables, lifecycle diagrams, and models from silently becoming practice ontology. It also makes future-practice claims and moved burdens inspectable.
+The Method preserves useful differences among Method, Work, subject, description, capability/provider, and cultural structures while producing one decision-ready account. It prevents source tables, lifecycle diagrams, and models from silently defining the objects and relations under discussion. It also makes prospective claims and moved burdens inspectable.
 
 The cost is a small amount of relation recovery and alternative construction before a clean diagram can be accepted. Some attractive source organizations will remain unresolved or will be retained only as descriptions. That cost is proportional: the first result is short, structures that cannot change the decision are omitted, and formal assurance is optional.
 

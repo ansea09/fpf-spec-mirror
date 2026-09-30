@@ -6,12 +6,12 @@ section_id: "B.2.P:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__007_archetypal-grounding-worked-cases.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:5 — Archetypal Grounding (Worked Cases)"
-line_start: 41033
-line_end: 41077
+line_start: 41073
+line_end: 41117
 dependencies:
   - "A.1.1"
   - "A.10"

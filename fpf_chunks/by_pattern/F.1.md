@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.1.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
-line_start: 103727
-line_end: 104052
+line_start: 104041
+line_end: 104368
 dependencies:
   - "A.10"
   - "A.7"
@@ -117,6 +117,8 @@ A source cut used to claim SoTA has a stricter role test because source relevanc
 The first three roles can supply answer-changing evidence. An official or popular comparator may stay only when its named defect is necessary to the comparison. Roles are assigned by contribution, not institution: an official standard or widely used practice may instead be a best-known-line candidate when its substantive answer wins against the serious alternatives. Officiality, prevalence, maintenance, citation, freshness, or academic praise contributes nothing to that rank. An official catalogue, publisher page, or registry entry may verify the source's identity, edition, publication date, or maintenance state; it establishes neither truth, adequacy, nor SoTA rank.
 
 For a SoTA claim, disable the generic one-source cheap exit unless the one source is itself a current critical synthesis that compares the serious alternatives for the named question and the author can state why no known action-changing rival or counterexample remains hidden. Otherwise retain the necessary rival and failure evidence or return an unresolved source gap. Do not manufacture confidence from a one-source cut.
+
+An original FPF or DPF answer is compared under E.8:11 on the same basis as a source-derived answer. Select the sources needed to expose serious alternatives, their limits and relevant failure evidence; do not require a prior external publication containing the authored answer. The original answer still needs that comparison, so its authorship does not restore the generic one-source exit.
 
 The `SourceCutNote` records the `E.8:11` roles and the missing comparison, but it does not itself select the best-known line. Use `F.0.2` when an actual cross-source synthesis claim is required. Use `G.2` only when a broader refreshable evidence pack is justified; a bounded comparison does not require that apparatus by default.
 

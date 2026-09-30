@@ -6,12 +6,12 @@ section_id: "B.2.P:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__011_consequences.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:8 — Consequences"
-line_start: 41117
-line_end: 41130
+line_start: 41157
+line_end: 41170
 dependencies:
   - "A.1.1"
   - "A.10"

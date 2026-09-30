@@ -6,12 +6,12 @@ section_id: "F.0.1:4"
 section_title: "Solution — recover locally, strengthen only for use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__005_solution-recover-locally-strengthen-only-for-use.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:4 — Solution — recover locally, strengthen only for use"
-line_start: 103281
-line_end: 103344
+line_start: 103588
+line_end: 103651
 dependencies:
   - "E.10"
   - "E.10.D1"

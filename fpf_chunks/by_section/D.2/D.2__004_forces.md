@@ -6,12 +6,12 @@ section_id: "D.2:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__004_forces.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:1.1 — Forces"
-line_start: 78342
-line_end: 78351
+line_start: 78525
+line_end: 78534
 dependencies:
   - "A.1"
   - "A.15"

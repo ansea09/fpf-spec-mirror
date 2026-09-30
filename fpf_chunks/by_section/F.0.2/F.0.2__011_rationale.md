@@ -1,21 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.0.2"
-pattern_title: "Conceptual Synthesis across Source Ontologies"
+pattern_title: "Semantic Synthesis across Source Ontologies"
 section_id: "F.0.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__011_rationale.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
-  - "F.0.2 — Conceptual Synthesis across Source Ontologies"
+  - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:10 — Rationale"
-line_start: 103694
-line_end: 103699
+line_start: 104007
+line_end: 104012
 dependencies:
   - "A.2.4"
   - "C.2.1"
+  - "C.39"
   - "E.10.ARCH"
+  - "E.4.CM"
   - "E.4.DPF"
   - "F.0.1"
   - "F.1"
@@ -32,7 +34,7 @@ keywords:
 
 ### F.0.2:10 - Rationale
 
-Conceptual synthesis is the middle move between preserving local meaning and publishing a unified term or subject-pattern contribution. It cannot be reduced to lexical alignment because a correspondence does not decide what the receiving framework should claim. It cannot be reduced to literature review because a source inventory does not state the practitioner action. It should not require a full `G.2` pack because many authoring decisions need only one bounded comparison.
+Semantic synthesis is the middle move between preserving local meaning and publishing a unified term or subject-pattern contribution. It cannot be reduced to lexical alignment because a correspondence does not decide what the receiving framework should claim. It cannot be reduced to literature review because a source inventory does not state the practitioner action. It should not require a full `G.2` pack because many authoring decisions need only one bounded comparison.
 
 The three result branches keep the method constructive without forcing agreement. A provisional synthesis opens a positive contribution, a contrast preserves a decision-relevant difference, and an unresolved inquiry turns a real source limitation into a defined next action. Ordinary `C.2.1` claim identity keeps those results separately revisable.
 

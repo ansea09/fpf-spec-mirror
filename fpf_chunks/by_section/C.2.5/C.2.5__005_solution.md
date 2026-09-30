@@ -6,12 +6,12 @@ section_id: "C.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__005_solution.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:4 — Solution"
-line_start: 49929
-line_end: 49967
+line_start: 49969
+line_end: 50007
 dependencies:
   - "A.16"
   - "A.16.0"

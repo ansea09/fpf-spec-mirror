@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.CD.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
-line_start: 102174
-line_end: 102497
+line_start: 102481
+line_end: 102804
 dependencies:
   - "A.1"
   - "A.14"

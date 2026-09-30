@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.P.RI.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
-line_start: 18097
-line_end: 18292
+line_start: 18116
+line_end: 18311
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"
@@ -147,7 +147,7 @@ The first receiving task is to understand the report. Recover the dancer as the 
 
 A second task is to decide how to change the movement. The report and external observation can inform that inquiry, but do not themselves identify the tissue, force, cause or suitable exercise. The relevant bodily practice must supply the further operation.
 
-In this figure, maintaining balance during the turn contributes to performing the figure; regulating bodily effort helps enact that balance, while the steps keep their required rhythm. Changing whose account is used can make another question accessible; it does not by itself identify which constituent needs development. B.1.5.EW supplies that vertical inquiry, and B.5.EA helps articulate a distinction the dancer cannot yet express.
+In this figure, maintaining balance during the turn is part of performing the figure; regulating bodily effort helps enact that balance, while the steps keep their required rhythm. Changing whose account is used can make another question accessible; it does not by itself identify which constituent needs development. B.1.5.EW supplies the inquiry into these constituent–whole connections, and B.5.EA helps articulate a distinction the dancer cannot yet express.
 
 ### A.6.P.RI:6 - Bias-Annotation
 

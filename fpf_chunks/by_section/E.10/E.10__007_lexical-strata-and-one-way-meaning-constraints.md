@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.10"
 pattern_title: "Unified Lexical Rules for FPF"
 section_id: "E.10:5"
-section_title: "Vertical Stratification (four strata; no cross-bleed)"
+section_title: "Lexical strata and one-way meaning constraints"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.10/E.10__007_vertical-stratification-four-strata-no-cross-bleed.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+output_path: "by_section/E.10/E.10__007_lexical-strata-and-one-way-meaning-constraints.md"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
-  - "E.10:5 — Vertical Stratification (four strata; no cross-bleed)"
-line_start: 85762
-line_end: 85778
+  - "E.10:5 — Lexical strata and one-way meaning constraints"
+line_start: 86061
+line_end: 86077
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ dependencies:
 keywords:
 ---
 
-### E.10:5 - Vertical Stratification (four strata; no cross-bleed)
+### E.10:5 - Lexical strata and one-way meaning constraints
 
 > **Rule V‑0 (Strata).** Every technical token whose lexical stratum is being governed belongs to exactly one **stratum**:
 
@@ -67,7 +67,7 @@ keywords:
 3. **Local use** — the exact source or practice boundary, effective scheme, local meaning statements, aliases, local kind distinctions and classification rules that the use actually needs; cite an F.9 Bridge only when an exact relation between distinct local senses obtains.
 4. **Instance** — concrete identifiers for admitted holder Systems, exact `U.SystemRoleAssignment` occurrences, Work occurrences, and carriers.
 
-**V‑1 (Unidirectional meaning).** Meaning is constrained from Kernel to extension patterns to local use to Instance. A local source, practice, or scheme may add a narrower designation or distinction, but it does not silently redefine a higher stratum's term; any actual relation between distinct local senses is stated separately.
+**V‑1 (Unidirectional meaning).** The relation between these lexical strata is a constraint on meaning in the direction Kernel → extension patterns → local use → Instance. Each arrow says that the preceding stratum constrains the next; it does not describe their position on a page. A local source, practice, or scheme may add a narrower designation or distinction, but it does not silently redefine a constraining stratum's term; any actual relation between distinct local senses is stated separately.
 
 **V‑2 (Strata and authoring stances).** The four lexical strata above constrain **tokens**. They are independent of a claim-bearing unit's **stance** (its `CtxState` pins such as `DesignRunTag`, `ReferencePlane`, and `Locus`). Strata answer “what words mean here”; stance answers “where this claim is situated” and which evidence-lane expectations apply.
 

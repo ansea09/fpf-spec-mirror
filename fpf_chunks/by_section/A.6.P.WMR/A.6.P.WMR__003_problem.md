@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__003_problem.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:2 — Problem"
-line_start: 18329
-line_end: 18334
+line_start: 18348
+line_end: 18353
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"

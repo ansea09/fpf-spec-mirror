@@ -6,12 +6,12 @@ section_id: "B.5.FM:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__011_architectural-rationale.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:10 — Architectural Rationale"
-line_start: 45331
-line_end: 45338
+line_start: 45371
+line_end: 45378
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

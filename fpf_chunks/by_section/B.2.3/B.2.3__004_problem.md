@@ -6,12 +6,12 @@ section_id: "B.2.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__004_problem.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:2 — Problem"
-line_start: 41414
-line_end: 41424
+line_start: 41454
+line_end: 41464
 dependencies:
   - "A.1"
   - "A.10"

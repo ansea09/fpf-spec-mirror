@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:3"
 section_title: "Shared recovery algorithm"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__009_shared-recovery-algorithm.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:3 — Shared recovery algorithm"
-line_start: 87726
-line_end: 87753
+line_start: 88028
+line_end: 88059
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -77,9 +77,13 @@ Use this five-step object-preserving order only for the ontology question that r
 
 Perform a terminology-source audit only when source ontology can change the governed object, direct relation kind, participant meaning, actual participant kind, declaration-local `SlotSpec`, assertion-side participant designation, exact use, admissible use, or the defining or testing rule selected for the claim. Stable ordinary prose remains ordinary. A source tuple or argument place remains representation-side until an explicit correspondence to a declared `SlotSpec` is current.
 
+For unclear collective-work or methodology wording, use E.10:0.2c.7 for result, output, outcome or work product; :0.2c.7a for goal, purpose or Method concern; and :0.2c.13a for contribution. A.6.P recovers the predicate and participants; C.2.P handles an unresolved source/content/use distinction. Continue under the rule for that claim, including the conditional Method/Work branch below. Preserve clear ordinary or locally defined uses. Missing facts and an absent defining rule are different stops. Add a new restoration pattern only if §6 identifies a recurring question the existing methods do not answer.
+
 #### E.10.ARCH:3.1 - Method, work, and P2W claim-rule constellation in wording restoration
 
 Use this branch when one source label, project handle, or project concern points to changing, producing, selecting, deriving, controlling, or maintaining an `EntityOfConcern` rather than to one typed FPF value.
+
+For the naming choice between *method*, *practice*, *culture* and other contextual synonyms, apply E.10:0.2c.21a. A.3.1 already recovers the reusable way from the actual claim. When that meaning is clear, use the chosen explanatory name and return to F.19; the synonym itself opens no further restoration.
 
 Do not name a new recovery object. Recover each current value and claim separately: one locally used `U.Method`; a `U.MethodDescription` episteme that describes that method; exact method-side relations and, only when a named use depends on their organization, the A.22-selected structure locally designated `MethodRelationStructure`; a mechanism or formal-substrate declaration; a mathematical-lens or other representation use; a `U.WorkPlan`; dated `U.Work`; an actual transformation; a production, inception, or completion claim; a changed-referent relation; a measurement, evaluation, choice, or decision result; an evidence, source, gate, publication, temporal, delivery, or acceptance relation; a selected structure; an obtaining C.30 `ArchitectureRelation` with its actual holon and structure participants; a separate `ArchitectureClaim` episteme; an architecture-description episteme only when that use is current; or another object named under its defining or testing rule. A.15 keeps system-role classification, assignment, Method, MethodDescription, WorkPlan, dated Work, and F.6 attribution separate. Unresolved *role* wording still uses `E.10.ROLE`.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.MWA"
-pattern_title: "Practice Architecture Synthesis from Several Structures"
+pattern_title: "Synthesize an Architecture Account of Methods and Their Use"
 section_id: "C.32.MWA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__003_problem.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
-  - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
+  - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:2 — Problem"
-line_start: 73911
-line_end: 73922
+line_start: 73998
+line_end: 74009
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -41,7 +41,7 @@ Professional-practice sources commonly mix several useful accounts. One may show
 Three failures follow.
 
 1. **Layout substitution.** The source's visible order or nesting is copied before the practitioner knows whether it means Method composition, Work order or overlap, subject composition, model grouping, provider dependency, cultural scale, or only chapter order.
-2. **Present/future substitution.** A possible-future practice is described as though a representative Work occurrence had already happened, so the architecture gains evidence it does not have.
+2. **Present/future substitution.** A proposed organization of Method use is described as though a representative Work occurrence had already happened, so the architecture gains evidence it does not have.
 3. **Local-success substitution.** A candidate resolves one visible conflict but hides the residual or burden it moves elsewhere. The account reports the gain and loses the trade-off.
 
 A fourth failure appears only in some uses: a live product-boundary question is reduced to one favored publication arrangement, or a product comparison is forced into an architecture question that does not concern product identity. Both errors confuse a conditional comparison with a universal step.

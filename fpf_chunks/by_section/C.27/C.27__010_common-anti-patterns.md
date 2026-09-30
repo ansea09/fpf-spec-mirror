@@ -6,12 +6,12 @@ section_id: "C.27:8"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__010_common-anti-patterns.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:8 — Common Anti-Patterns"
-line_start: 62921
-line_end: 62939
+line_start: 62961
+line_end: 62979
 dependencies:
   - "A.10"
   - "A.3.3"

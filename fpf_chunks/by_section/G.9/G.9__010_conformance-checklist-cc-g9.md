@@ -6,12 +6,12 @@ section_id: "G.9:6"
 section_title: "Conformance Checklist (CC‑G9)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__010_conformance-checklist-cc-g9.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:6 — Conformance Checklist (CC‑G9)"
-line_start: 116461
-line_end: 116518
+line_start: 116777
+line_end: 116834
 dependencies:
   - "A.19"
   - "A.2.6"

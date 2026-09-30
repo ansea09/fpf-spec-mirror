@@ -6,12 +6,12 @@ section_id: "B.5.PI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__005_solution.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:4 — Solution"
-line_start: 47170
-line_end: 47225
+line_start: 47210
+line_end: 47265
 dependencies:
   - "A.15.11"
   - "A.16.1"
@@ -76,5 +76,5 @@ After use, examine whether this occasion brought something consequential into co
 
 Make it possible to respond. A worker with no access to receiving outcomes cannot inspect them. A request that nobody can answer does not supply assistance. When raising a concern is punished, changing the conditions of joint work may be necessary; asking for greater personal vigilance does not repair those conditions. Use the smallest attainable support that answers the need, without assuming a permanent observer.
 
-Producing a result, keeping it usable and learning from the attempt can be enacted together in the same action. B.1.5 helps recover that method vertical, including constituent capabilities and the encompassing use. In a time-critical or bodily action, a pause, later replay or another participant's observation may preserve the whole better than an added question during execution. Human learning and changes to an AI system's access, instructions or training require their respective methods. An answer obtained with supplied guidance is not evidence of later independent recognition.
+Producing a result, keeping it usable and learning from the attempt can be enacted together in the same action. B.1.5 and B.1.5.EW help recover the relevant Method composition and how those actions enact encompassing work, including the constituent capabilities and receiving use. In a time-critical or bodily action, a pause, later replay or another participant's observation may preserve the whole better than an added question during execution. Human learning and changes to an AI system's access, instructions or training require their respective methods. An answer obtained with supplied guidance is not evidence of later independent recognition.
 

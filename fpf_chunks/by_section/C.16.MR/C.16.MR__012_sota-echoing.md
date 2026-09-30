@@ -6,12 +6,12 @@ section_id: "C.16.MR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.MR/C.16.MR__012_sota-echoing.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.16.MR — Construct a Measurement Relation"
   - "C.16.MR:11 — SoTA-Echoing"
-line_start: 54601
-line_end: 54612
+line_start: 54641
+line_end: 54652
 dependencies:
   - "A.3.3"
   - "B.5.FM"
@@ -33,5 +33,5 @@ The voltmeter case exhibits the trade-off. Reading V directly is sufficient for 
 
 [Dounas-Frazer and Lewandowski (2018), §2](https://arxiv.org/pdf/1805.10334), distinguishes the investigated phenomenon, measuring equipment and their models. **Adapt:** :4.1-:4.2 recover the measurement contribution, while :4.5 preserves the separate model and arrangement repairs. The source studies experimental physics education; this cross-practice construction does not claim that its educational findings establish transfer to all agents or domains.
 
-The common procedure and worked cases are a conceptual synthesis. Reopen the construction choice when a supplied calibration achieves the same interpretation with less work, or when a newly consequential interaction or response condition defeats the existing relation. Detailed uncertainty propagation, calibration design and model identification remain substantial specialized Methods.
+The common procedure is a methodological synthesis. The worked cases are constructed under their stated conditions. Reopen the construction choice when a supplied calibration achieves the same interpretation with less work, or when a newly consequential interaction or response condition defeats the existing relation. Detailed uncertainty propagation, calibration design and model identification remain substantial specialized Methods.
 

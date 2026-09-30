@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__005_solution.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:4 — Solution"
-line_start: 40036
-line_end: 40094
+line_start: 40076
+line_end: 40134
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"
@@ -48,9 +48,9 @@ Choose the occurrence account that fits the work. Several descriptions do not re
 
 A useful test is to explain the positive connection, not just what would fail if the action disappeared. Removing an external power supply can stop a calculation; that fact alone does not make power generation part of the analyst's Work.
 
-#### B.1.5.EW:4.3 - Follow the relevant vertical and recover its constituents
+#### B.1.5.EW:4.3 - Follow constituent and encompassing work
 
-Continue upward through another encompassing work only while its conditions change the selected action, its learning or its use. Explain each intervening connection. If an action serves two wholes, keep both uses and their different conditions visible.
+Continue through the constituent–whole connections in the selected Method or Work structure only while the next encompassing whole's conditions change the action, its learning or its use. Explain each intervening connection. If an action serves two wholes, keep both uses and their different conditions visible.
 
 Then ask what you must be able to do, or obtain from another participant, to perform the selected action. If a described construction remains unclear, use B.5.RC to recover its inputs, operations, conditions and a small execution. If you lack the domain know-how, obtain an explanation or demonstration. If you understand the operation but cannot perform it in the combination, practise with the encompassing conditions, obtain support or use another qualified contributor. Stop a branch at an understood operation or an available contribution sufficient for this use.
 

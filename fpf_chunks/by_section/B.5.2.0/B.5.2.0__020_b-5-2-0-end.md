@@ -6,12 +6,12 @@ section_id: "B.5.2.0:End"
 section_title: "B.5.2.0:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__020_b-5-2-0-end.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:End — B.5.2.0:End"
-line_start: 46740
-line_end: 46741
+line_start: 46780
+line_end: 46781
 dependencies:
   - "A.16"
   - "A.16.0"

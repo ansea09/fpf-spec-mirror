@@ -6,12 +6,12 @@ section_id: "D.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__002_problem-frame.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:1 — Problem Frame"
-line_start: 78493
-line_end: 78500
+line_start: 78676
+line_end: 78683
 dependencies:
   - "A.1"
   - "A.10"

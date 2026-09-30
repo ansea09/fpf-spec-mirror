@@ -6,12 +6,12 @@ section_id: "A.16.0:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__007_bias-annotation.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:6 — Bias-Annotation"
-line_start: 30950
-line_end: 30952
+line_start: 30969
+line_end: 30971
 dependencies:
   - "A.16"
   - "A.16.1"

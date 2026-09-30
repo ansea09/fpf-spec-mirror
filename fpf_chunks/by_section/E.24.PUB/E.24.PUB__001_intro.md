@@ -6,12 +6,12 @@ section_id: "E.24.PUB:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__001_intro.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:intro — Intro"
-line_start: 102498
-line_end: 102503
+line_start: 102805
+line_end: 102810
 dependencies:
   - "A.6.3"
   - "A.6.REL"

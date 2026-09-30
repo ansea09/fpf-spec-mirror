@@ -6,12 +6,12 @@ section_id: "G.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__009_problem.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:2 — Problem"
-line_start: 114174
-line_end: 114188
+line_start: 114490
+line_end: 114504
 dependencies:
   - "C.11"
   - "C.18"

@@ -6,12 +6,12 @@ section_id: "A.6.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__008_conformance-checklist.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:7 — Conformance Checklist"
-line_start: 14657
-line_end: 14680
+line_start: 14676
+line_end: 14699
 dependencies:
   - "A.1"
   - "A.1.1"

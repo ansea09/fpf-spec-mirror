@@ -6,12 +6,12 @@ section_id: "C.29.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 65868
-line_end: 65880
+line_start: 65908
+line_end: 65920
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

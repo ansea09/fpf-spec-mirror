@@ -6,12 +6,12 @@ section_id: "C.2.6:17"
 section_title: "Anchoring Shift and Transport Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__018_anchoring-shift-and-transport-discipline.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:17 — Anchoring Shift and Transport Discipline"
-line_start: 50242
-line_end: 50252
+line_start: 50282
+line_end: 50292
 dependencies:
   - "A.16"
   - "A.16.0"

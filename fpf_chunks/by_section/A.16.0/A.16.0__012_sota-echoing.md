@@ -6,12 +6,12 @@ section_id: "A.16.0:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__012_sota-echoing.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:11 — SoTA-Echoing"
-line_start: 30977
-line_end: 30990
+line_start: 30996
+line_end: 31009
 dependencies:
   - "A.16"
   - "A.16.1"

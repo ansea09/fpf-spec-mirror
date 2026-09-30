@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__010_consequences.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:9 — Consequences"
-line_start: 81986
-line_end: 81991
+line_start: 82232
+line_end: 82237
 dependencies:
   - "A.1.1"
   - "A.10"

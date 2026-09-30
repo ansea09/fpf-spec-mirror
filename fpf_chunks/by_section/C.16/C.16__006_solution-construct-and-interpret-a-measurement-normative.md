@@ -6,12 +6,12 @@ section_id: "C.16:5"
 section_title: "Solution - Construct and interpret a measurement (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__006_solution-construct-and-interpret-a-measurement-normative.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:5 — Solution - Construct and interpret a measurement (Normative)"
-line_start: 54127
-line_end: 54210
+line_start: 54167
+line_end: 54250
 dependencies:
   - "A.10"
   - "A.15.1"

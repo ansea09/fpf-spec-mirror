@@ -6,12 +6,12 @@ section_id: "E.24.PUB:8"
 section_title: "Common Misuses and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__010_common-misuses-and-repairs.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:8 — Common Misuses and Repairs"
-line_start: 102735
-line_end: 102746
+line_start: 103042
+line_end: 103053
 dependencies:
   - "A.6.3"
   - "A.6.REL"

@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:0"
 section_title: "At a glance (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__002_at-a-glance-didactic-informative.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:0 — At a glance (didactic, informative)"
-line_start: 35270
-line_end: 35279
+line_start: 35289
+line_end: 35298
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

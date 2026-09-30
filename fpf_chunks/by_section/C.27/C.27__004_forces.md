@@ -6,12 +6,12 @@ section_id: "C.27:2"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__004_forces.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:2 — Forces"
-line_start: 62617
-line_end: 62626
+line_start: 62657
+line_end: 62666
 dependencies:
   - "A.10"
   - "A.3.3"

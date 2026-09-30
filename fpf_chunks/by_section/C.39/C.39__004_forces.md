@@ -6,19 +6,24 @@ section_id: "C.39:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__004_forces.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:3 — Forces"
-line_start: 76775
-line_end: 76784
+line_start: 76866
+line_end: 76875
 dependencies:
-  - "A.10"
+  - "A.22.CGUS"
   - "A.3.1"
   - "A.3.2"
+  - "B.1.5"
   - "C.11"
+  - "C.30.ASV"
+  - "C.32.MWA"
   - "C.38"
+  - "C.39.RO"
   - "C.40"
+  - "E.4.CM"
   - "F.0.1"
   - "F.1"
 keywords:

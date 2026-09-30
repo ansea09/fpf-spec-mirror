@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__005_solution.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:4 — Solution"
-line_start: 80685
-line_end: 80821
+line_start: 80928
+line_end: 81064
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -122,7 +122,7 @@ When the architecture question is open, the framework-specific part of the DRR s
 3. its field boundary: who can first use it without unpublished authoring context and for what; the connected problem families and useful results; what the current FPF and admitted DPFs already provide and what remains uncovered; serious alternatives, such as splitting or merging the proposed framework, using existing sources directly, contributing to one existing framework, composing exact contributions across several admitted DPFs and FPF, selecting a programme or service, selecting a separate evidence-package episteme, or selecting no new maintained product now; the limits of evidence; and what change will require a refresh;
 
 4. the selected problem-family pattern sets, first patterns and their material relations, representative cross-problem application, and important omissions;
-5. which practice structures change the answer and how their Methods, descriptions, patterns, direct subjects, and managed result boundaries fit together. When those structures do not line up one-for-one, use a completed `C.32.MWA` synthesis; use `E.23.CDI` only when capability development for a named Work family changes the answer;
+5. which structures of Methods, their use, support and development change the answer, and how the identified Methods, descriptions, patterns, direct subjects and managed result boundaries fit together. When those structures do not line up one-for-one, use a completed `C.32.MWA` synthesis; use `E.23.CDI` only when capability development for a named Work family changes the answer;
 6. the existing or intended-edition boundary, selected FPF Core dependency, and only the other exact edition dependencies required by this answer;
 7. the sources to revisit for each important claim, whether the evidence supports, suggests, or only motivates it, the limits of that evidence, and the publication or access consequence; and
 8. material alternatives, accepted costs or losses, practical consequences, the first authoring action or stop, and the reopen condition.

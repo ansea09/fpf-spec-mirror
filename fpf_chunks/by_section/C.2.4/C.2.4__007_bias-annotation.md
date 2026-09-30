@@ -6,12 +6,12 @@ section_id: "C.2.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__007_bias-annotation.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:6 — Bias-Annotation"
-line_start: 49770
-line_end: 49772
+line_start: 49810
+line_end: 49812
 dependencies:
   - "A.15"
   - "A.15.1"

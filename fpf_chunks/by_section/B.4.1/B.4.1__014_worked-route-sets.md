@@ -6,12 +6,12 @@ section_id: "B.4.1:13"
 section_title: "Worked Route Sets"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__014_worked-route-sets.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:13 — Worked Route Sets"
-line_start: 43272
-line_end: 43297
+line_start: 43312
+line_end: 43337
 dependencies:
   - "A.15"
   - "A.16"

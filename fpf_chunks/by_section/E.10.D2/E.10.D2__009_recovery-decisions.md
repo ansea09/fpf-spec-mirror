@@ -6,12 +6,12 @@ section_id: "E.10.D2:7"
 section_title: "Recovery decisions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__009_recovery-decisions.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:7 — Recovery decisions"
-line_start: 88515
-line_end: 88526
+line_start: 88821
+line_end: 88832
 dependencies:
   - "A.1.1"
   - "A.10"

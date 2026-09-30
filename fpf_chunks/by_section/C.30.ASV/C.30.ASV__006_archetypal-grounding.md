@@ -6,12 +6,12 @@ section_id: "C.30.ASV:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__006_archetypal-grounding.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:5 — Archetypal Grounding"
-line_start: 69563
-line_end: 69570
+line_start: 69640
+line_end: 69649
 dependencies:
   - "A.1"
   - "A.10"
@@ -70,4 +70,6 @@ keywords:
 | Tell | A practitioner looks at an architecture "view" and asks whether it is functional, flow, control, module-interface, information or data, placement, scale, work, evidence, or declared logical structure. C.30.ASV turns that question into structure-kind triage or a full description-plus-conformance record. |
 | Show: `U.System` | A plant, vehicle, software system, product platform, AI-agent system, or neural-network model can require several structural descriptions over the same exact subject-side architecture. One module view does not exhaust the system architecture, and one flow graph does not prove work, evidence, safety, or release. |
 | Show: `U.Episteme` | A diagram, model, generated relation graph, ADR, dashboard, SysML view, or C4 diagram may express or publish a description episteme. That same episteme is an architecture structural view only when exact C.2.1 identity, selected structure, structure kind, exact viewpoint, obtaining E.17.0 conformance relation, hidden and lost structure, correspondence, source or reliance relation, and admissible use are recoverable. |
+
+The Method case in §4.5a shows a different use: composition, result acceptance, method development and performer placement answer different change questions. The practitioner chooses the needed structures before drawing their representations.
 

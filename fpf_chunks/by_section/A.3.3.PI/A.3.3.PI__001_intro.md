@@ -6,12 +6,12 @@ section_id: "A.3.3.PI:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.PI/A.3.3.PI__001_intro.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
   - "A.3.3.PI:intro — Intro"
-line_start: 10234
-line_end: 10239
+line_start: 10253
+line_end: 10258
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"
@@ -27,6 +27,6 @@ keywords:
 ## A.3.3.PI - Retain the Information Needed for Prediction
 
 > **Type:** Method pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative
 

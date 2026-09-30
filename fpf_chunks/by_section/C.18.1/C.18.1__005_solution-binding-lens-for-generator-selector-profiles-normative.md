@@ -6,12 +6,12 @@ section_id: "C.18.1:4"
 section_title: "Solution — binding lens for generator/selector profiles (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__005_solution-binding-lens-for-generator-selector-profiles-normative.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:4 — Solution — binding lens for generator/selector profiles (normative)"
-line_start: 56923
-line_end: 56952
+line_start: 56963
+line_end: 56992
 dependencies:
   - "A.10"
   - "A.15.1"

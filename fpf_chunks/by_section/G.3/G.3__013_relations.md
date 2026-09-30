@@ -6,12 +6,12 @@ section_id: "G.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__013_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:12 — Relations"
-line_start: 113572
-line_end: 113578
+line_start: 113888
+line_end: 113894
 dependencies:
   - "A.10"
   - "A.15.3"

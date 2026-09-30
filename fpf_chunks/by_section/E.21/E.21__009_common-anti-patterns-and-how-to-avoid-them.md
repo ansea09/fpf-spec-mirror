@@ -6,12 +6,12 @@ section_id: "E.21:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 100129
-line_end: 100147
+line_start: 100436
+line_end: 100454
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

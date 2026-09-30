@@ -6,12 +6,12 @@ section_id: "A.6.A:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__002_problem-frame.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:1 — Problem frame"
-line_start: 19441
-line_end: 19476
+line_start: 19460
+line_end: 19495
 dependencies:
   - "A.15"
   - "A.16"

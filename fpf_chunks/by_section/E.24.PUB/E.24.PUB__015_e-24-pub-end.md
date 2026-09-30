@@ -6,12 +6,12 @@ section_id: "E.24.PUB:End"
 section_title: "E.24.PUB:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__015_e-24-pub-end.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:End — E.24.PUB:End"
-line_start: 102778
-line_end: 102779
+line_start: 103085
+line_end: 103086
 dependencies:
   - "A.6.3"
   - "A.6.REL"

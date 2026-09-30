@@ -6,12 +6,12 @@ section_id: "A.14:2"
 section_title: "Problem — what breaks without these distinctions?"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__003_problem-what-breaks-without-these-distinctions.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:2 — Problem — what breaks without these distinctions?"
-line_start: 25914
-line_end: 25927
+line_start: 25933
+line_end: 25946
 dependencies:
   - "A.1"
   - "A.15"

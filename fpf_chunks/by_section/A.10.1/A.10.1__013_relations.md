@@ -6,12 +6,12 @@ section_id: "A.10.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__013_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:12 — Relations"
-line_start: 24975
-line_end: 24993
+line_start: 24994
+line_end: 25012
 dependencies:
   - "A.10"
   - "A.10.1"

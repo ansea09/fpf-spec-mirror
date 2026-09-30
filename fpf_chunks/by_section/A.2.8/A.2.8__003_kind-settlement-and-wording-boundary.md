@@ -6,12 +6,12 @@ section_id: "A.2.8:0.1"
 section_title: "Kind Settlement and Wording Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__003_kind-settlement-and-wording-boundary.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:0.1 — Kind Settlement and Wording Boundary"
-line_start: 7209
-line_end: 7214
+line_start: 7228
+line_end: 7233
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "G.10:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__012_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:9 — Relations"
-line_start: 116977
-line_end: 116982
+line_start: 117293
+line_end: 117298
 dependencies:
   - "A.10"
   - "A.15.3"

@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__004_forces.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:3 — Forces"
-line_start: 40201
-line_end: 40209
+line_start: 40241
+line_end: 40249
 dependencies:
   - "A.3.1"
   - "B.1.5"

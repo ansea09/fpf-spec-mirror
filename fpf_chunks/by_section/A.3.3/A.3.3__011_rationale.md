@@ -6,12 +6,12 @@ section_id: "A.3.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__011_rationale.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:10 — Rationale"
-line_start: 9743
-line_end: 9746
+line_start: 9762
+line_end: 9765
 dependencies:
   - "A.1.1"
   - "A.10"

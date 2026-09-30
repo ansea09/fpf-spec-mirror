@@ -6,12 +6,12 @@ section_id: "E.2:End"
 section_title: "E.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__014_e-2-end.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:End — E.2:End"
-line_start: 79353
-line_end: 79354
+line_start: 79536
+line_end: 79537
 dependencies:
   - "A.10"
   - "A.15.1"

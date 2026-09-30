@@ -6,12 +6,12 @@ section_id: "E.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__016_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:12 — Relations"
-line_start: 84575
-line_end: 84583
+line_start: 84826
+line_end: 84834
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "G.0:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__004_forces.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:3 — Forces"
-line_start: 111860
-line_end: 111867
+line_start: 112176
+line_end: 112183
 dependencies:
   - "A.10"
   - "A.17"

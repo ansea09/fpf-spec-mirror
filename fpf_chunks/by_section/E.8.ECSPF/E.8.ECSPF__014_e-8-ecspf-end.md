@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:End"
 section_title: "E.8.ECSPF:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__014_e-8-ecspf-end.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:End — E.8.ECSPF:End"
-line_start: 84225
-line_end: 84226
+line_start: 84476
+line_end: 84477
 dependencies:
   - "A.19.ECS"
   - "C.25"

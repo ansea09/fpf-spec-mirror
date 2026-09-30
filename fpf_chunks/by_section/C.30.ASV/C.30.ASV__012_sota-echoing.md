@@ -6,12 +6,12 @@ section_id: "C.30.ASV:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__012_sota-echoing.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:11 — SoTA-Echoing"
-line_start: 69634
-line_end: 69646
+line_start: 69715
+line_end: 69729
 dependencies:
   - "A.1"
   - "A.10"
@@ -75,4 +75,6 @@ SysML v2 is intentionally excluded from C.30.ASV's SoTA basis. This pattern trea
 | Systems security engineering, secure-by-design, SSDF, and CSF-style practice | Adopt security as architecture-side structure when trust boundaries, authority, untrusted input, secure defaults, hardening, update channels, and detection and response boundaries change action. | Use `SecurityTrustBoundaryStructure` before evidence, assurance, gate, risk score, or compliance proof. | A security framework, checklist, risk color, or control catalog is not security architecture adequacy, evidence sufficiency, assurance, or gate passage by itself. |
 | Theory of Code Space, arXiv:2603.00601 and related code-agent architecture relation-graph probing | Adopt partial-observability, typed relation discovery, invariant discovery, uncertainty reporting, and externalized architecture relation graphs as ASV practice source. | Treat an externalized code-agent relation graph as a diagnostic description, representation, or ASV publication only with observed, inferred, or unknown observation value, evidence pointers, unexplored regions, and typed relation semantics. Add source-return conditions when the intended use relies on hidden distinctions. | Do not mint `U.CodeSpace`; do not treat probe JSON, cognitive-model publication, dependency-F1 result, or diagnostic relation graph as architecture adequacy, internal belief proof, agent authority, safe-code-change authority, assurance, or release authority. |
 | GonzoML neural-network architecture discussions | Adopt practitioner operation language for architecture views: block substitution, relation retargeting, dataflow changes, memory placement or cache placement, path-selection or gating, MoE expert-selection, pruning, distillation, NAS, ablation, and compute, memory, or latency tradeoffs. | Use those phrases as recognition cues for changed structure kind, flow relation, module-interface claim kind, security or trust boundary, data-custody relation, preserved and lost structure, affected characteristic, source relation, and the applicable decision or evidence pattern. | Neural-network labels, benchmarks, ablations, pruning masks, block, layer, router, cache, or state labels, or search outputs do not become FPF ontology, architecture decisions, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
+
+**Which structures help a Method change without inventing a universal Method diagram?** The selected answer in §4.5a is an FPF construction from A.3.1, B.1.5 and A.22: select by the actual change question, then connect composition, interfaces and result use to separately grounded performance facts. A generic view catalogue is a useful starting alternative, but its names leave the studio's failed 2 ms connection unresolved. [Essence 2.0 beta 2, §§7.3–7.4 and 9.3–9.4](https://www.omg.org/spec/Essence/2.0/Beta2/PDF), is the serious method-engineering comparator: it supports composable and adaptable Practices in a common descriptive language. **Adapt** its attention to coherent composition; recover the FPF participants and relations instead of transferring its Method/Practice metaclasses by name. The studio case demonstrates the narrower gain: under the separately supplied interval basis, preserve viewing while reopening the stricter analysis condition, without first imposing a common method-description metamodel. It does not establish superior expressiveness, lower measured effort or a general ranking of the frameworks. The cost is explicit relation recovery; an existing suitable domain model can reduce that cost. Reopen the profile when a case needs a decision-changing structure it cannot recover, or another explanation supplies the same distinctions with less reconstruction.
 

@@ -6,12 +6,12 @@ section_id: "C.23:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__002_problem-frame.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:1 — Problem frame"
-line_start: 59926
-line_end: 59929
+line_start: 59966
+line_end: 59969
 dependencies:
   - "A.10"
   - "B.3"

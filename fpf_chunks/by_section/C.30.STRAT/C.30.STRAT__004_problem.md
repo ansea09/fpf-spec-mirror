@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__004_problem.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:2 — Problem"
-line_start: 68633
-line_end: 68636
+line_start: 68673
+line_end: 68676
 dependencies:
   - "A.10"
   - "A.15"

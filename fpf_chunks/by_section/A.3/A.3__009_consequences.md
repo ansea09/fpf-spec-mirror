@@ -6,12 +6,12 @@ section_id: "A.3:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__009_consequences.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:8 — Consequences"
-line_start: 8374
-line_end: 8387
+line_start: 8393
+line_end: 8406
 dependencies:
   - "A.10"
   - "A.12-A.15"

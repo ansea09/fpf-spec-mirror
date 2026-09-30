@@ -6,12 +6,12 @@ section_id: "A.22:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__012_sota-echoing.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:11 — SoTA-Echoing"
-line_start: 38030
-line_end: 38041
+line_start: 38068
+line_end: 38081
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -78,4 +78,6 @@ keywords:
 | [arXiv:2603.00601](https://arxiv.org/abs/2603.00601) code-space architecture relation-graph work and related code-probing practice | Adapt partial-observability, typed-relation, uncertainty, and structure-use return pressure for extracted structural views. | Use extracted structural-view records with validation boundaries and an observation value selected from `observed`, `inferred`, or `unknown` where needed, plus structure-use return conditions. | Do not mint `U.CodeSpace` and do not treat probe output, probe JSON, or benchmark output as structure adequacy, assurance, release evidence, or assurance evidence. |
 | Coarsening, compression, and RG-adjacent traditions | Adopt the need to say what structure is preserved and what is lost. | Use `StructuralCoarseningDescription@Context` and `StructureUseReturnCondition` before relying on a coarsened structure for action. | For RG, epiplexity, structural information, or equivalence reasoning, use C.29, C.16, or the cited pattern that defines or tests the exact claim. |
 | GonzoML neural-network architecture discussions as practitioner-language intake | Adapt block replacement, dataflow change, memory placement, cache placement, path-selection, pruning, distillation, and architecture-search wording as general architecture-operation recognition material. | When such wording is used, keep block, cache, expert, router, gate, and similar words as `C.30.STRAT` source labels until changed structure kind, source-description relation, source-use relation, base-dependence relation, evidence relation, lens output, preserved structure, lost structure, and FPF pattern applications are recovered. | Neural-network labels, benchmark results, ablations, or pruning masks do not become structure ontology, architecture decisions, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
+
+**How can an orientation cue preserve a structural claim across different diagrams?** The selected answer in §4.3a uses the named subject, relation and representation convention. The serious default is to read height, nesting or direction as one common relation across holons, kinds and activities. That reading fails when the same Method is shown inside one composition and beside a Method using its result. The FPF construction retains each claim when the drawing rotates or changes layout, at the cost of naming the relation once. [OMG Essence 2.0 beta 2, Figure 7.1](https://www.omg.org/spec/Essence/2.0/Beta2/PDF) is a useful positive comparator: its vertically arranged boxes already have differently labelled relations for composition, description and definition. **Adopt** that relation-sensitive reading; the figure does not establish FPF parthood or a universal holon lattice. Reopen this explanation if an actual representation cannot preserve its action-relevant relations with the stated convention, or a simpler account preserves the same distinctions.
 

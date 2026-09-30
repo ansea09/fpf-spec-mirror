@@ -6,12 +6,12 @@ section_id: "C.3.3:9"
 section_title: "Worked Examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__010_worked-examples-informative.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:9 — Worked Examples (informative)"
-line_start: 51754
-line_end: 51767
+line_start: 51794
+line_end: 51807
 dependencies:
   - "A.2.6"
   - "A.6.REL"

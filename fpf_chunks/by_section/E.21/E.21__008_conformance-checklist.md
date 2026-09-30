@@ -6,12 +6,12 @@ section_id: "E.21:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__008_conformance-checklist.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:6 — Conformance checklist"
-line_start: 100103
-line_end: 100128
+line_start: 100410
+line_end: 100435
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -52,7 +52,7 @@ keywords:
 | `CC-E21-7` | For any `5`, name the reinforcing evidence loci required by that coordinate's `5` meaning; otherwise lower the coordinate to `4` or below. |
 | `CC-E21-8` | For `MaturePatternParityAndSelectedContentSufficiency = 4` or `5`, include a compact maturity-discharge payload: comparator id, selected ingredient, current locus, and missing or lowering item if any; category lists without loci cap the coordinate at `3`. |
 | `CC-E21-9` | Invoke the canonical definition and positive comparison contract in `E.8:11` for every positive SoTA judgement; use `F.1` only to inspect whether its source cut can support that comparison. For `SoTABindingAndCurrentness = 4` or `5`, include one complete `E.8:11` comparison payload by value. A relevance/currentness table plus adopt/adapt/reject labels is below the ordinary floor when that comparison is absent. |
-| `CC-E21-9a` | Treat source identity and currentness as supporting traceability only. Official, popular, maintained, canonical, highly cited, recent, or academically praised status supplies zero positive evidence for `bestKnownLine`; a registry or publisher check cannot raise `SoTABindingAndCurrentness`. An official or widespread source can still fill `bestKnownLine` when its substantive answer independently wins the required comparison. A value `5` additionally names the replayable comparison and reinforcing loci that make `4` too weak rather than adding bibliography, prevalence, or freshness. |
+| `CC-E21-9a` | Treat source identity and currentness as supporting traceability only. Official, popular, maintained, canonical, highly cited, recent, or academically praised status supplies zero positive evidence for `bestKnownLine`; a registry or publisher check cannot raise `SoTABindingAndCurrentness`. An official or widespread source can still fill `bestKnownLine` when its substantive answer independently wins the required comparison. An original FPF or DPF construction can also be selected under E.8:11; own authorship neither raises nor lowers its value, and a prior external publication with the same answer is not required. A value `5` additionally names the replayable comparison and reinforcing loci that make `4` too weak rather than adding bibliography, prevalence, or freshness. |
 | `CC-E21-10` | Keep measurement, score, scale, formal, causal, mathematical, QL, simulation, representation, or learned-lens claims under `C.16`, `A.17`, `A.18`, `A.19`, or the pattern that defines, constrains, or tests the claim when the evaluated pattern makes those claims. |
 | `CC-E21-11` | State floor satisfaction, next usable action, stop or repair, and lowering or reopen conditions. Add a non-use boundary only for an independently grounded reading that a plausible intended reader could make here. |
 | `CC-E21-12` | Keep coordinate rationale separate from improvement proposal rows. |

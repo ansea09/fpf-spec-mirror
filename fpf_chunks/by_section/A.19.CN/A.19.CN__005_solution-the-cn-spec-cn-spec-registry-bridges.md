@@ -6,12 +6,12 @@ section_id: "A.19.CN:4"
 section_title: "Solution — The CN‑Spec (CN‑Spec) + Registry + Bridges"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__005_solution-the-cn-spec-cn-spec-registry-bridges.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:4 — Solution — The CN‑Spec (CN‑Spec) + Registry + Bridges"
-line_start: 33853
-line_end: 33935
+line_start: 33872
+line_end: 33954
 dependencies:
   - "A.19"
   - "A.6.1"

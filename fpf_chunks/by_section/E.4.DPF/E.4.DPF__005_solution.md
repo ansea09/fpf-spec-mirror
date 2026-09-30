@@ -6,12 +6,12 @@ section_id: "E.4.DPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__005_solution.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:4 — Solution"
-line_start: 81030
-line_end: 81430
+line_start: 81273
+line_end: 81675
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -29,6 +29,7 @@ dependencies:
   - "C.33"
   - "C.34"
   - "C.35"
+  - "C.39"
   - "E.10"
   - "E.10.ARCH"
   - "E.11"
@@ -40,6 +41,7 @@ dependencies:
   - "E.23.CDI"
   - "E.24.PUB"
   - "E.4"
+  - "E.4.CM"
   - "E.4.DPF.DA"
   - "E.4.PFAD"
   - "E.4.PFR"
@@ -93,12 +95,14 @@ Choose the source route from the current question and the result it needs.
 
 | Source situation | Authoring move | Boundary |
 | --- | --- | --- |
-| One identified source claim answers the question | Record direct source reliance and carry the claim, edition, Context, and limits into the subject pattern. | Do not open conceptual synthesis or a SoTA pack merely to repeat one sufficient source. |
+| One identified source claim answers the question | Record direct source reliance and carry the claim, edition, Context, and limits into the subject pattern. | Do not open semantic synthesis or a SoTA pack merely to repeat one sufficient source. |
 | A maintained synthesis or guide already maps the field | Use it as the starting conceptual map. Recover each occurrence that can change the DPF decision, follow its cited sources where a load-bearing distinction depends on them, and inspect current rivals that could change the answer. | The maintained synthesis does not independently confirm the claims it integrates. |
 | Several source ontologies can change one pattern contribution | Use the light route `F.0.2 → F.0.1 → F.1 → F.0.2`. Return a provisional synthesis claim, contrast claim, or unresolved-inquiry claim before the later DPF content decision accepts, changes, rejects, or reopens it. | The reusable method is in FPF; the resulting domain claim stays in the DPF subject pattern. |
 | A `CG-Frame` needs broad, refreshable SoTA harvesting and G.3-G.5 handoffs | Use `G.2` to build the SoTA Synthesis Pack. A later F.0.2 comparison may consume identified claims, editions, alignment records, and provenance from that pack. | Pack conformance, coverage readings, and fusion records do not establish the receiving DPF claim. |
 | An earlier DPF supplies a useful pattern or claim | Reuse its current edition through an explicit dependency when its subject, Context, use, and limits fit. Otherwise keep the result local to the receiving DPF, or return a transdisciplinary improvement proposal through an FPF amendment decision. | An earlier DPF is precedent and source material, not ecosystem law. |
 | A search index, generated crosswalk, or other derived lookup proposes contributions | Resolve each useful result to the authoritative pattern or source body and edition. Report partial coverage and unresolved returns; widen the lookup when a known contribution is missing. | A derived hit aids discovery, and a miss does not show that the contribution is absent. |
+
+Choose the constructive route by the missing result. C.39 supplies general construction, connection, explanation and change of Methods for a receiving use. E.4.CM applies that way to the framework author's public account of one composite Method or several independently usable Methods. F.0.2 compares source ontologies for a semantic result. Developing the Method can expose a missing distinction, and comparing source ontologies can change the proposed action. The work need not follow a fixed sequence from a complete ontology to a complete methodology.
 
 #### E.4.DPF:4.0 - Establish framework scale before edition authoring
 
@@ -125,7 +129,7 @@ Before placing a proposed narrower contribution, apply `E.8:4.1.3` to it and the
 
 The first-edition set is internally usable only when it contains every selected pattern and every prerequisite from the same framework needed for the named first use. Keep relied-on results from an FPF, DPF, LPF, or separate non-framework product external when they are not members of this framework. For each external result, identify the result and the content relied on, and state the result's direct kind, supplying product, edition or current state, receiving use, discovery route, and any currentness or availability condition that can change the use; say that it remains external. When the receiving use also needs a separate availability or compatibility result, identify that result and the basis on which it applies. When an edition dependency obtains, also name its direction, reason, and refresh condition. If these facts are missing or the result does not answer the promised use, keep the family as a gap or omission; do not hide it behind the word *closed*. When a keep, merge, removal, profile move, or external reliance materially changes the stable set for a promised problem family, obtain a current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition. Reuse a matching current result when that edition and its basis are unchanged; authoring history is not part of the D12 result.
 
-Several sources may describe the same practice through structures that do not line up one-for-one—for example Methods, Work, subjects, descriptions, capabilities, providers, and cultural processes. When those differences affect the framework architecture, use `C.32.MWA` to produce one readable synthesis for the `E.4.PFAD` answer; that synthesis does not choose whether to create a DPF or another result. Use `E.23.CDI` only when the selected architecture includes developing capability for a named Work family, and use its result instead of copying its action sequence here.
+Several sources may describe related Methods, their performance, support and development through structures that do not line up one-for-one—for example Method composition, Work order, model use, provider capability and cultural transmission. When those differences affect the framework architecture, use `C.32.MWA` to produce one readable synthesis for the `E.4.PFAD` answer; that synthesis does not choose whether to create a DPF or another result. Use `E.23.CDI` only when the selected architecture includes developing capability for a named Work family, and use its result instead of copying its action sequence here.
 
 When the DPF promises professional Method coverage, consume one exact accepted `E.4.PFAD` answer before treating a source list or pattern list as the authoring boundary. That answer already projects five connected claim groups from its compact eight-part answer; E.4.DPF consumes the projection and does not create a second input record. Keep the accepted answer, its accepting decision, the E.9 DRR, the later framework edition, and any publication carrier distinct.
 
@@ -149,7 +153,7 @@ Turn the accepted input into one bounded authoring disposition for every selecte
 
 The same case or source may support several coordinates, but each coordinate is judged once in the D1-D12 aggregate. Do not add a second project-Method architecture checklist, proof-of-revisit requirement, or second pass over the same evidence.
 The input can be compact prose and a few selected structures. It is not a universal record schema, fixed view set, mandatory diagram count, source-chapter destination map, project lifecycle, or proof that a Method works or transfers. If no accepted answer identifies which practice questions change first use, or a required domain filling is missing, keep the affected contribution as a seed, gap, or omission and return to the exact E.4.PFAD or domain-source question. Do not infer Method parthood from a required contribution, transformation, Work enactment, capability, provider contribution, or cultural change merely because a source lists them together.
-Keep the mapped objects distinct. A Method may be described by a MethodDescription, and a pattern may contain such a description only when `A.3.2` applies. Selected patterns and their material relations make up the pattern language; a framework edition contains one version of that language; an exact `U.PresentationCarrier` may bear a selected publication or access-facing form; and an access route may help a reader or System reach the edition or a named carrier. Publication, availability, and actual access remain separate claims. Conceptual synthesis may support a candidate architecture or distinction, but it is not evidence that a Method works or transfers.
+Keep the mapped objects distinct. A Method may be described by a MethodDescription, and a pattern may contain such a description only when `A.3.2` applies. Selected patterns and their material relations make up the pattern language; a framework edition contains one version of that language; an exact `U.PresentationCarrier` may bear a selected publication or access-facing form; and an access route may help a reader or System reach the edition or a named carrier. Publication, availability, and actual access remain separate claims. Semantic synthesis can support proposed claims and distinctions in the architecture. Methodological synthesis constructs the proposed ways of acting and their connections. Neither construction by itself establishes that a Method works or transfers.
 
 Use *product* here only as Plain management wording for a deliberately identified result or service boundary. It helps a team state intended use, identity or current state, access, later change and retirement rules, and any maintenance that actually obtains. It is not one FPF technical kind and it creates no `U.Product`. Before making a product-boundary claim, name the direct subject—the thing the claim is about—and the relation that carries its identity, edition, current state, provision, publication, availability, or maintenance. Constitution or publication establishes only the claims made by those acts; maintenance and future Work need their own evidence. If the direct kind or relation is not settled, keep the management boundary as a proposal and return that question instead of inventing a common object kind.
 
@@ -227,7 +231,7 @@ Quality route: which first drafts should be evaluated and improved:
 Refresh triggers: source change, Core edition change, local-use telemetry, or policy change:
 
 Return the current result and only the adjacent source, naming, pattern-draft, relation, publication or access, quality, and currentness notes that its receiving use needs. If the result is a cheap route or stop, create no framework-decision record. If the requester wants a ready DPF rather than a seed, keep the E.9 DRR or decision carrier separate from the user DPF publication form, exact presentation carrier, and any access route, then name which `E.21`, `E.4.DPF.DA`, and currentness checks remain before reliance.
-Do not present generated text as authoritative. Before relying on it, name the unresolved claims and the contribution still needed: direct source return; a relevance-based source cut through `F.1`; a bounded conceptual-synthesis result through `F.0.2`; an optional broad `G.2` pack; authoritative return and partial-failure handling for a derived lookup; truthful identification and admission of an exact generated or discovered result for its intended architecture use through `C.35`; framework-decision profiling from `E.4.PFAD`; an optional relation or edition representation from `E.4.PFR`; local wording restoration through `E.10.ARCH`; naming from `F.18`; quality evaluation from `E.21`; or a currentness check from `G.11`.
+Do not present generated text as authoritative. Before relying on it, name the unresolved claims and the contribution still needed: direct source return; a relevance-based source cut through `F.1`; a bounded semantic-synthesis result through `F.0.2`; general construction, connection, explanation or change of Methods through `C.39`; their framework-authoring application through `E.4.CM`; an optional broad `G.2` pack; authoritative return and partial-failure handling for a derived lookup; truthful identification and admission of an exact generated or discovered result for its intended architecture use through `C.35`; framework-decision profiling from `E.4.PFAD`; an optional relation or edition representation from `E.4.PFR`; local wording restoration through `E.10.ARCH`; naming from `F.18`; quality evaluation from `E.21`; or a currentness check from `G.11`.
 ```
 
 1. **Domain or local use-frame declaration.** State the intended reader, first use, stop or wrong-turn return, effective ReferenceScheme, ClaimScope, qualification window, and any non-use boundary admitted by `F.19`'s grounded-contribution test. Select a BoundedModelUseStructure only when its exact organization changes interpretation for this receiving use. Record each of these values through its direct pattern and predicate.

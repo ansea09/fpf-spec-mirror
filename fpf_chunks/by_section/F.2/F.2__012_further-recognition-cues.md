@@ -6,12 +6,12 @@ section_id: "F.2:11"
 section_title: "Further recognition cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__012_further-recognition-cues.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:11 — Further recognition cues"
-line_start: 104175
-line_end: 104199
+line_start: 104491
+line_end: 104515
 dependencies:
   - "A.11"
   - "A.7"

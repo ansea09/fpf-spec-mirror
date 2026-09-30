@@ -6,12 +6,12 @@ section_id: "C.11:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__003_problem.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:2 — Problem"
-line_start: 52681
-line_end: 52690
+line_start: 52721
+line_end: 52730
 dependencies:
   - "A.10"
   - "A.13"

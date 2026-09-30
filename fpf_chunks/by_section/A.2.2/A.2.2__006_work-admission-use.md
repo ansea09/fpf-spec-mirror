@@ -6,12 +6,12 @@ section_id: "A.2.2:5"
 section_title: "Work-Admission Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__006_work-admission-use.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:5 — Work-Admission Use"
-line_start: 4405
-line_end: 4429
+line_start: 4424
+line_end: 4448
 dependencies:
   - "A.1"
   - "A.15"

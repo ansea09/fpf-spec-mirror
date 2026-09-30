@@ -6,12 +6,12 @@ section_id: "F.17:12.5"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__015_bias-annotation.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:12.5 — Bias-Annotation"
-line_start: 110059
-line_end: 110062
+line_start: 110375
+line_end: 110378
 dependencies:
   - "A.1.1"
   - "A.10"

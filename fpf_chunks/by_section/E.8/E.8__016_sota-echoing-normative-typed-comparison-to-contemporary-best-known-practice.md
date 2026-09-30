@@ -6,12 +6,12 @@ section_id: "E.8:11"
 section_title: "SoTA-Echoing (normative; typed comparison to contemporary best-known practice)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__016_sota-echoing-normative-typed-comparison-to-contemporary-best-known-practice.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:11 — SoTA-Echoing (normative; typed comparison to contemporary best-known practice)"
-line_start: 83925
-line_end: 83967
+line_start: 84172
+line_end: 84218
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -60,6 +60,10 @@ keywords:
 
 **Canonical definition and contract.** This is the FPF definition of `SoTA`: the best-known currently defensible answer to one named practice question. `F.1` may prepare the question-relative source cut and `E.21` may evaluate the resulting pattern, but neither redefines SoTA. A `SoTA-Echoing` section earns its place by changing the pattern's Solution, boundary, case, check, relation, evidence requirement, stop, or reopen condition. It is not a bibliography, source-currentness register, or lineage shelf.
 
+**An original answer can be the selected line.** A `bestKnownLine` may be an original semantic or methodological synthesis developed in FPF or a DPF. It need not occur whole in an external publication. State the unresolved problem, the actual limitation of the serious alternatives, the new distinction or constructive move, and the useful consequence it makes possible. Support that consequence at the scope claimed, with its cost, limits and reopening condition. Originality permits consideration; comparison supports selection.
+
+For example, an authored connection may preserve two independent uses when a changed requirement defeats only one. Work that difference through the case and compare the available alternatives. A conceptual construction or conditional derivation can support that bounded result; empirical effectiveness or practitioner learning requires its own evidence. Neither an external publication with the same answer nor a publication date later than all rivals is required. One such gain establishes no ranking of the entire framework.
+
 **Source roles in plain wording.** Classify each retained source by what it can do for the question:
 
 - a **best-known-line candidate** supplies or critically synthesizes the strongest current answer being considered;
@@ -81,7 +85,7 @@ Only the best-known line, serious rivals, failure evidence, and a necessary expl
 6. `sourceRolesAndLimits` — the exact source edition or stable locator, why it has this comparison role, and what it does not establish; source identity supports replay, not rank; and
 7. `reopenCondition` — the smallest new evidence, rival, failure, or use change that would require comparison again.
 
-Mark material moves `adopt`, `adapt`, or `reject`. Explain which defect of the incumbent, popular, or official answer is repaired and why the selected line is no worse at comparable application effort on the values that matter and better on at least one, or state the trade-off deliberately accepted. More sources, a later date, a wider deployment, institutional praise, or a longer review cannot replace that comparison.
+For each material source use, name the claim, distinction or method being considered and mark its disposition `adopt`, `adapt`, or `reject`. Distinguish those uses from any newly constructed move. The origin of the selected answer and the disposition of its sources are different questions: an original answer can retain a source's premise, adapt its method and reject its proposed generalization. Explain which defect of the incumbent, popular, or official answer is repaired and why the selected line is no worse at comparable application effort on the values that matter and better on at least one, or state the trade-off deliberately accepted. More sources, a later date, a wider deployment, institutional praise, or a longer review cannot replace that comparison.
 
 **Honest gap and lightest sufficient evidence.** If an adequate best-known comparison cannot be established, say which rival, counterexample, or source role is missing and return that source gap. Do not fill the section with a current standard or recent paper. Use `F.1` for the smallest question-relative cut and its SoTA-specific role branch. Use `F.0.2` only when the conclusion actually needs cross-source synthesis. Use a broader `G.2` pack only when repeated refresh or a wider claim justifies that cost.
 

@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__013_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:12 — Relations"
-line_start: 16125
-line_end: 16131
+line_start: 16144
+line_end: 16150
 dependencies:
   - "A.15"
   - "A.6.2"

@@ -6,12 +6,12 @@ section_id: "G.11:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__009_conformance-checklist-normative.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:7 — Conformance Checklist (normative)"
-line_start: 117335
-line_end: 117351
+line_start: 117651
+line_end: 117667
 dependencies:
   - "A.6.RCD"
   - "B.3.4"

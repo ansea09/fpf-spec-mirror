@@ -6,12 +6,12 @@ section_id: "E.24:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__014_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:8 — Relations"
-line_start: 102163
-line_end: 102171
+line_start: 102470
+line_end: 102478
 dependencies:
   - "A.19.ECS"
   - "A.6.0"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.4.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
-line_start: 10476
-line_end: 10838
+line_start: 10495
+line_end: 10857
 dependencies:
   - "A.1"
   - "A.10"

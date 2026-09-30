@@ -6,12 +6,12 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:4 — Solution"
-line_start: 37654
-line_end: 37959
+line_start: 37673
+line_end: 37997
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -228,6 +228,25 @@ StructuralView@Context ::= {
 ```
 
 The exact EntityOfConcern and effective scheme identify the episteme with its claim content under C.2.1. `selectedViewpointRef`, when present, records that this named describing use selects exact viewpoint P; it does not establish conformance or `U.View` membership. `selectedModelUseStructureRef`, when present, resolves one independently selected `BoundedModelUseStructure` used by the receiving assertion or calculation; it is neither episteme identity nor another viewpoint field. When reliance is on a named claim, `U.EpistemeRef` resolves the exact C.2.1 claim-bearing episteme; a PatternID normally locates the definition, constraint, or test it uses, and an exact ClaimGraph is added only when that identity changes the use.
+
+#### A.22:4.3a - Orientation belongs to a representation of a named structure
+
+Use *vertical*, *horizontal*, *above*, *below*, or *at the same level* as structural shorthand only when the reader can recover **which object's structure is represented, which relation is shown, and how the drawing or ordering convention represents it**. These words can make an explanation easier to follow. Their useful content comes from the named structure and convention.
+
+For example, a diagram of a Method's composition may place encompassing Methods above their constituents and draw each established `methodPartOf` connection upward. A diagram of result use may place a supplying Method to the left of a receiving Method. The second diagram needs to state what result is used and under what conditions; its horizontal arrow supplies no parthood claim. Rotating either diagram changes its orientation, not those relations. Conversely, two boxes at the same height need not denote peers, independent participants, objects of one kind, or simultaneous work.
+
+Recover the relation before choosing an axis:
+
+| Represented subject and question | What gives the orientation meaning |
+| --- | --- |
+| A System or Method and its constituents | The exact whole–part relation and its independently established participants; nesting or height alone supplies neither. |
+| Kinds, concepts, or Methods ordered by generality | The declared classification, inclusion, subsumption, or refinement relation and its direction. This is a different structure from composition. |
+| Actions, result uses, or possible continuations | The named order, dependency, guard, overlap, or return relation. Several relation kinds may require different arrow labels in one picture. |
+| Systems, resources, or performed work in space | Their actual placement, adjacency, or spatial relation in the stated reference frame. Literal vertical and horizontal directions remain spatial claims about these participants. |
+
+A holon can participate in several structures, each with its own relevant relations and constraints. A family of holons drawn as a hierarchy need not be one tree. Calling a representation a *lattice* requires the mathematical claim actually used: a specified order, the requisite meets and joins, and a justified correspondence to the represented subject under C.29. A branching picture or the presence of several encompassing wholes establishes none of these properties.
+
+For a first explanation, a sentence such as “in this diagram of Method composition, upward arrows connect a constituent to its encompassing Method” is sufficient when the relations are already clear. Add a separate structure, view, or mathematical account only when the intended use needs it. C.30.ASV:4.5a develops the selection of structures for Methods; C.30.STRAT recovers an unresolved architecture label.
 
 #### A.22:4.4 - Extracted and transformed structural views
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.IR.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
-line_start: 54625
-line_end: 54845
+line_start: 54665
+line_end: 54885
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"
@@ -25,7 +25,7 @@ keywords:
 ## C.16.IR - Determine What a Measurement Indication Can Resolve
 
 > **Type:** Method pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### C.16.IR:1 - Problem frame
@@ -229,7 +229,7 @@ The same reasoning connects physical measurement, mathematical inverse relations
 
 **Computational contribution.** [IBEX 2.9, Contractors, Introduction and Forward-Backward](https://ibex-team.github.io/ibex-lib/contractor.html) describes filtering a domain while preserving its feasible solutions. **Adopt** that preservation requirement for the bounded numerical branch in :4.3. A surviving outer domain can still contain infeasible points, which motivates the feasible-witness distinction. Symbolic elimination and finite enumeration suffice for the worked cases.
 
-The common question, target projection, sufficient-result return and diverse cases are conceptual synthesis. Specialized inverse, statistical and decision methods contribute where the question needs their further operations or guarantees. Reopen the comparison when a cheaper analysis settles the same use with equivalent uncertainty, when a proposed bound misses a compatible branch, or when a changed measurement relation invalidates the result.
+Connecting the common question, target projection and sufficient-result return is a methodological synthesis. The cases are constructed under their stated conditions. Specialized inverse, statistical and decision methods contribute where the question needs their further operations or guarantees. Reopen the comparison when a cheaper analysis settles the same use with equivalent uncertainty, when a proposed bound misses a compatible branch, or when a changed measurement relation invalidates the result.
 
 ### C.16.IR:12 - Relations
 

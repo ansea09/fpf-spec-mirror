@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.3.PI.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
-line_start: 10234
-line_end: 10475
+line_start: 10253
+line_end: 10494
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"
@@ -26,7 +26,7 @@ keywords:
 ## A.3.3.PI - Retain the Information Needed for Prediction
 
 > **Type:** Method pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### A.3.3.PI:1 - Problem frame
@@ -252,7 +252,7 @@ Compare the alternatives for the same law, observations, inputs, horizon and dec
 
 **Prediction at the intended horizon.** De Jong, Breschi, Schoukens and Lazar's [Koopman Data-Driven Predictive Control with Robust Stability and Recursive Feasibility Guarantees](https://arxiv.org/html/2405.01292v1) constructs multi-step predictors from past inputs and outputs and addresses errors from iterated approximate one-step dynamics. **Adapt:** :4.4-:4.5 compare the predictor at its intended horizon and input policy. The paper's controller guarantees require its specialized construction; the present Method adopts the comparison question, not those guarantees for every predictor.
 
-The common procedure is a conceptual synthesis. Reopen its comparative choice when another description or estimator answers the same question under the same available observations, reader preparation and acceptable error at lower cost, or when a changed law, input policy or consequential prediction failure exposes a distinction it lost. Delay reconstruction, observability, filtering, system identification and model reduction then supply concrete alternative constructions.
+The common procedure is a methodological synthesis. Reopen its comparative choice when another description or estimator answers the same question under the same available observations, reader preparation and acceptable error at lower cost, or when a changed law, input policy or consequential prediction failure exposes a distinction it lost. Delay reconstruction, observability, filtering, system identification and model reduction then supply concrete alternative constructions.
 
 ### A.3.3.PI:12 - Relations
 

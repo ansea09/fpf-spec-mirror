@@ -6,19 +6,24 @@ section_id: "C.39:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 76882
-line_end: 76891
+line_start: 77054
+line_end: 77065
 dependencies:
-  - "A.10"
+  - "A.22.CGUS"
   - "A.3.1"
   - "A.3.2"
+  - "B.1.5"
   - "C.11"
+  - "C.30.ASV"
+  - "C.32.MWA"
   - "C.38"
+  - "C.39.RO"
   - "C.40"
+  - "E.4.CM"
   - "F.0.1"
   - "F.1"
 keywords:
@@ -33,4 +38,6 @@ keywords:
 | A decomposition tree stands in for explanation. | Follow only the unresolved contribution that can change the whole answer. |
 | A sufficient way is kept open until a second rival appears. | Finish this search; enter same-result comparison only when that question is live. |
 | A candidate correction is described as an achieved result. | State the candidate and missing support separately, as in the timing case. |
+| A description format is treated as the way of developing every Method. | Construct and explain for the actual use, then select the necessary form. |
+| One failed receiver discards all uses of a shared result. | Follow the changed condition and preserve uses whose premises and requirements still hold. |
 

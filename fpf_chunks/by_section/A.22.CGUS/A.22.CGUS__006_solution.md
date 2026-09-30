@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__006_solution.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:4 — Solution"
-line_start: 38098
-line_end: 38261
+line_start: 38138
+line_end: 38301
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,7 +66,7 @@ That corrected card is already useful. It keeps both potential alternatives visi
 
 ##### A.22.CGUS:4.1.1 - Conditions through constituent and encompassing work
 
-When a continuation is a way of performing work, recover the part of its Method/Work vertical that can change availability. Ask what constituent actions must be performable and what encompassing work is being done through them. B.1.5.EW supplies that recovery; knowing a Method's description does not supply the capability or resources to perform it.
+When a continuation is a way of performing work, recover the constituent–whole relations in the relevant Method and Work structures that can change availability. Ask what constituent actions must be performable and what encompassing work is being done through them. B.1.5.EW supplies that recovery; knowing a Method's description does not supply the capability or resources to perform it.
 
 Distinguish conditions needed at entry, conditions that must remain satisfied during combined performance, and the result required by the encompassing use. In particular:
 

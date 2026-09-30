@@ -6,12 +6,12 @@ section_id: "C.30.AD:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__008_bias-annotation.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:5.1 — Bias-Annotation"
-line_start: 67995
-line_end: 68004
+line_start: 68035
+line_end: 68044
 dependencies:
   - "A.1"
   - "A.10"

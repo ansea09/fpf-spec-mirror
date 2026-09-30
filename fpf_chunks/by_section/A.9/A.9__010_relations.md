@@ -6,12 +6,12 @@ section_id: "A.9:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__010_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:9 — Relations"
-line_start: 24243
-line_end: 24255
+line_start: 24262
+line_end: 24274
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"

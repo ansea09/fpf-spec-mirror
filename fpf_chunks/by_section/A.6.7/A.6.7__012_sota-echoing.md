@@ -6,12 +6,12 @@ section_id: "A.6.7:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__012_sota-echoing.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:11 — SoTA-Echoing"
-line_start: 22066
-line_end: 22075
+line_start: 22085
+line_end: 22094
 dependencies:
   - "A.21"
   - "A.6.1"

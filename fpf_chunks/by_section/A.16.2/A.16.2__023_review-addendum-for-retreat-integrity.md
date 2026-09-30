@@ -6,12 +6,12 @@ section_id: "A.16.2:22"
 section_title: "Review Addendum for Retreat Integrity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__023_review-addendum-for-retreat-integrity.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:22 — Review Addendum for Retreat Integrity"
-line_start: 31561
-line_end: 31569
+line_start: 31580
+line_end: 31588
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "A.11:2.1"
 section_title: "Archetypal Grounding - Maintenance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__007_archetypal-grounding-maintenance.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:2.1 — Archetypal Grounding - Maintenance"
-line_start: 25088
-line_end: 25098
+line_start: 25107
+line_end: 25117
 dependencies:
   - "A.6.P"
   - "A.6.RCD"

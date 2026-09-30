@@ -6,12 +6,12 @@ section_id: "A.19.CPM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__011_consequences.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:9 — Consequences"
-line_start: 36523
-line_end: 36530
+line_start: 36542
+line_end: 36549
 dependencies:
 keywords:
   - "ComparatorSet"

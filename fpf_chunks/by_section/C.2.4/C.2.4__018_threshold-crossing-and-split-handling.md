@@ -6,12 +6,12 @@ section_id: "C.2.4:17"
 section_title: "Threshold Crossing and Split Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__018_threshold-crossing-and-split-handling.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:17 — Threshold Crossing and Split Handling"
-line_start: 49860
-line_end: 49881
+line_start: 49900
+line_end: 49921
 dependencies:
   - "A.15"
   - "A.15.1"

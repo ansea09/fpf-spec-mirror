@@ -6,12 +6,12 @@ section_id: "A.2.8:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__008_archetypal-grounding.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:5 — Archetypal Grounding"
-line_start: 7385
-line_end: 7415
+line_start: 7404
+line_end: 7434
 dependencies:
   - "A.10"
   - "A.15.1"

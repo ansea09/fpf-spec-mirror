@@ -6,12 +6,12 @@ section_id: "E.10:14"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__016_conformance-checklist.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:14 — Conformance checklist"
-line_start: 86493
-line_end: 86503
+line_start: 86792
+line_end: 86805
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,4 +68,7 @@ Use this checklist when changing an E.10 rule, a governed token, or a durable le
 4. The replacement preserves the intended object, kind, relation, scope, and action and does not substitute another umbrella head.
 5. The accepted text contains the concrete sentence or selected pattern result, not a menu of possible interpretations or a mandatory rejected overread.
 6. The changed sentence and its meaning-dependent neighbors pass the local `F.19` reread.
+7. For a reusable way of doing, the explanation uses *method* as its main Plain name under §0.2c.21a while preserving useful contextual synonyms and established expressions. Different words do not create different objects; any Method, Work, community, discipline or description distinction follows from the actual claim. Ordinary synonyms do not require separate Plain-Twin registration.
+8. A *contribution/contributes* phrase leaves its participants and the asserted action, content use, evidence use or comparison recoverable under §0.2c.13a; the word does not substitute for that statement.
+9. Goal, purpose, Method concern, expected effect and work-product wording preserve the claims distinguished in §0.2c.7–7a. The text states the wanted, planned or actual meaning being used, and supplies no participant, binding, produced entity, completed work or successful use from a label alone. Missing facts remain distinct from a missing defining rule.
 

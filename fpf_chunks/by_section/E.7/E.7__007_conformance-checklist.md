@@ -6,12 +6,12 @@ section_id: "E.7:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__007_conformance-checklist.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.7 — Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases"
   - "E.7:6 — Conformance Checklist"
-line_start: 83202
-line_end: 83210
+line_start: 83448
+line_end: 83456
 dependencies:
   - "E.5.4"
   - "E.6"

@@ -6,12 +6,12 @@ section_id: "A.19.CPM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__006_solution.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:4 — Solution"
-line_start: 36277
-line_end: 36412
+line_start: 36296
+line_end: 36431
 dependencies:
 keywords:
   - "ComparatorSet"

@@ -1,20 +1,24 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.4.CM"
-pattern_title: "Develop Composite Methods as Framework Contributions"
+pattern_title: "Develop Connected Methods as Framework Contributions"
 section_id: "E.4.CM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__004_forces.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
-  - "E.4.CM — Develop Composite Methods as Framework Contributions"
+  - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:3 — Forces"
-line_start: 80141
-line_end: 80153
+line_start: 80326
+line_end: 80338
 dependencies:
+  - "A.3.1"
+  - "B.1.5"
   - "B.1.5.EW"
   - "B.1.5.RS"
+  - "C.32.MWA"
+  - "C.39"
   - "C.39.RO"
   - "E.11"
   - "E.11.PFP"
@@ -22,6 +26,7 @@ dependencies:
   - "E.21"
   - "E.4"
   - "E.8"
+  - "F.0.2"
   - "F.19"
 keywords:
 ---
@@ -33,7 +38,7 @@ keywords:
 | Reuse and missing construction | Existing operations save invention; their availability does not establish an available way to combine them. |
 | Whole and constituents | A whole has its own result and conditions; each constituent can retain other encompassing uses. |
 | Guidance and premature sequence | Readers need to know what makes the next move possible; many useful compositions have alternatives, iteration and returns rather than one linear order. |
-| Horizontal and vertical organization | A way unfolds through dependencies and possible continuations while actions at several scales constitute the work being performed. |
+| Several structures, one useful account | Method composition, result-use dependencies, conditional continuations and performed Work answer different questions; a diagram must make their consequential connections readable. |
 | Operational and ontological construction | Connecting actions may require choosing what their objects and relations are; labels alone cannot settle those choices. |
 | Public usefulness and maintenance | A developed composition can remove repeated reconstruction; duplicate explanations can drift apart. |
 | Explanation and capability | A readable method can still require unavailable skills, instruments or authority. |

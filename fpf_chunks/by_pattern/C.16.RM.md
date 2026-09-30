@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.RM.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
-line_start: 54846
-line_end: 55082
+line_start: 54886
+line_end: 55122
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"
@@ -26,7 +26,7 @@ keywords:
 ## C.16.RM - Repair a Measurement Model or Arrangement
 
 > **Type:** Method pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### C.16.RM:1 - Problem frame
@@ -245,7 +245,7 @@ The result can be epistemic, such as a corrected interpretation, or include an a
 
 **Adequacy and computational comparison.** [JCGM GUM-6:2020, §12](https://www.bipm.org/documents/20126/2071204/JCGM_GUM_6_2020.pdf) distinguishes comparisons with reference situations, computational tests using generated data, fit over the intended range and the adequacy of a simpler model. **Adapt** those distinctions in :4.2 and :4.5: select a comparison for the contribution and claim being repaired. Section :4.3 applies C.11.DUA to its attainable value and cost. The numerical cases are constructed demonstrations; the source does not supply their instrument laws or performed observations.
 
-The integrated repair sequence, target continuity and return through a useful conclusion are conceptual synthesis. Reopen the choice when a cheaper remedy settles the same question, a changed condition invalidates the correction, or a comparison reveals a consequential influence left outside the model.
+The integrated repair sequence, target continuity and return through a useful conclusion are methodological synthesis. Reopen the choice when a cheaper remedy settles the same question, a changed condition invalidates the correction, or a comparison reveals a consequential influence left outside the model.
 
 ### C.16.RM:12 - Relations
 

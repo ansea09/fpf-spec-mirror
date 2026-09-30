@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.BB.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
-line_start: 66691
-line_end: 66910
+line_start: 66731
+line_end: 66950
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"
@@ -23,7 +23,7 @@ keywords:
 ## C.29.BB - Construct a Balance across a Boundary
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### C.29.BB:1 - Problem frame
@@ -224,7 +224,7 @@ The finite-interval relation is the first construction because it works for disc
 
 For the changed tank question, compare two adequate accounts with the same supplied interval amounts and elementary arithmetic. Direct accounting at the tank boundary uses the line's 15 L departure and 13 L arrival to obtain 43 L. Accounting over tanks plus line gives 45 L; recovering the tank amount then needs the line's final 2 L store. Choose the account whose needed quantities are available. Applying only the outside exchange to A+B gives the wrong 45 L answer because it omits the line's increase. If an applicable balance already answers the question, another account adds no benefit.
 
-The boundary-revision procedure and the tank and job continuations are a conceptual synthesis of additive accounting, physical storage and computational conservation. Detailed continuum transport, chemical reaction accounting and stochastic queue models need their own subject Methods.
+The boundary-revision procedure is a methodological synthesis of additive accounting, physical storage and computational conservation. The tank and job continuations are constructed cases under their stated models. Detailed continuum transport, chemical reaction accounting and stochastic queue models need their own subject Methods.
 
 Reconsider the quantity, boundary or balance form when membership changes, needed storage information is unavailable, boundary motion changes the crossing law, or a cheaper adequate construction becomes available.
 

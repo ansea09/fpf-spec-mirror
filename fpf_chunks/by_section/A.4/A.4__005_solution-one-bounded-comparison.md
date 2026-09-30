@@ -6,12 +6,12 @@ section_id: "A.4:4"
 section_title: "Solution - One Bounded Comparison"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__005_solution-one-bounded-comparison.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:4 — Solution - One Bounded Comparison"
-line_start: 11131
-line_end: 11153
+line_start: 11150
+line_end: 11172
 dependencies:
   - "A.1"
   - "A.1.1"

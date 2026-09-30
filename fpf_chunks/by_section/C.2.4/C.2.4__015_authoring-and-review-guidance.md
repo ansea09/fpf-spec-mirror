@@ -6,12 +6,12 @@ section_id: "C.2.4:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__015_authoring-and-review-guidance.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:14 — Authoring and Review Guidance"
-line_start: 49813
-line_end: 49829
+line_start: 49853
+line_end: 49869
 dependencies:
   - "A.15"
   - "A.15.1"

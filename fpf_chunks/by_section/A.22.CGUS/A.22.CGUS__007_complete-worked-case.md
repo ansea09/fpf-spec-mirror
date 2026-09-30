@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:5"
 section_title: "Complete Worked Case"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__007_complete-worked-case.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:5 — Complete Worked Case"
-line_start: 38262
-line_end: 38349
+line_start: 38302
+line_end: 38389
 dependencies:
   - "A.10"
   - "A.15"

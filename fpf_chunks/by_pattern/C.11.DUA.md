@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.DUA.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
-line_start: 53565
-line_end: 53821
+line_start: 53605
+line_end: 53861
 dependencies:
   - "A.10"
   - "C.11"

@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__006_solution.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:4 — Solution"
-line_start: 68647
-line_end: 68768
+line_start: 68687
+line_end: 68810
 dependencies:
   - "A.10"
   - "A.15"
@@ -115,6 +115,8 @@ The note is neither the selected structure nor the relation, claim, publication,
 | Ordinary source-label non-use | any source label | No FPF claim remains after the sentence is read in context. | No precision-restoration pattern; keep ordinary wording, quote it, reduce its use, or block reliance. |
 
 **When a level claim matters.** When a later decision or design relies on a sentence such as “X is at level L” or “A is above B,” name the subject at stake (the `EntityOfConcern`), what is being ordered, compared, grouped, or mapped, the relation or scale mapping that gives the claim its meaning, when it applies, and whether the sentence asserts, proposes, assumes, or merely illustrates the claim. Apply the same test when `layer`, `tier`, `band`, `scale`, or `stage` carries the stronger claim. A named model or standard may provide this mapping within its declared use; its status does not extend the claim beyond that use. The source word may remain, but these facts—not the label—carry the claim. A list, diagram row, first-then order, carrier section, curriculum, scale label, stage sequence, or coarse-grained description does not establish a subject level by form. If the facts are missing, keep the wording local or illustrative and block reliance on the stronger level claim.
+
+**When orientation carries the claim.** Recover the structure's subject, the represented relation and the convention that gives vertical or horizontal its meaning through A.22:4.3a. Keep literal spatial directions under their actual reference frame. For a Method-architecture question, C.30.ASV:4.5a helps choose the structure; the axis does not choose it.
 
 #### C.30.STRAT:4.2a - Same-sentence claim boundary
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.MWA"
-pattern_title: "Practice Architecture Synthesis from Several Structures"
+pattern_title: "Synthesize an Architecture Account of Methods and Their Use"
 section_id: "C.32.MWA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__001_intro.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
-  - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
+  - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:intro — Intro"
-line_start: 73879
-line_end: 73886
+line_start: 73962
+line_end: 73969
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -34,11 +34,11 @@ dependencies:
 keywords:
 ---
 
-## C.32.MWA - Practice Architecture Synthesis from Several Structures
+## C.32.MWA - Synthesize an Architecture Account of Methods and Their Use
 
-> **Tech-name:** `PracticeArchitectureSynthesisFromSeveralStructures`
-> **Plain-name:** build one usable practice architecture from several structures that do not line up one-for-one
+> **Tech-name:** `MethodArchitectureSynthesisFromSeveralStructures`
+> **Plain-name:** connect methods with their performance, support and development in one usable architecture account
 > **Type:** Method-description pattern under `C.32`
-> **Status:** Candidate
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 

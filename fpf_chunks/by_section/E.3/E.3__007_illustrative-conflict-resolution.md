@@ -6,12 +6,12 @@ section_id: "E.3:6"
 section_title: "Illustrative Conflict Resolution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__007_illustrative-conflict-resolution.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:6 — Illustrative Conflict Resolution"
-line_start: 79695
-line_end: 79756
+line_start: 79878
+line_end: 79939
 dependencies:
   - "E.1"
   - "E.2"

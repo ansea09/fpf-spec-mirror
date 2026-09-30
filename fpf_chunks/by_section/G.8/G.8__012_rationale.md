@@ -6,12 +6,12 @@ section_id: "G.8:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__012_rationale.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:11 — Rationale"
-line_start: 115991
-line_end: 115994
+line_start: 116307
+line_end: 116310
 dependencies:
   - "A.10"
   - "A.21"

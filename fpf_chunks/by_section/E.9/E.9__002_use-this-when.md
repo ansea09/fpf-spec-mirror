@@ -6,12 +6,12 @@ section_id: "E.9:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__002_use-this-when.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:0 — Use this when"
-line_start: 84233
-line_end: 84241
+line_start: 84484
+line_end: 84492
 dependencies:
   - "A.10"
   - "A.15.1"

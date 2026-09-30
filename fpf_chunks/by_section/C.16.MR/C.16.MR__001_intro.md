@@ -6,12 +6,12 @@ section_id: "C.16.MR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.MR/C.16.MR__001_intro.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.16.MR — Construct a Measurement Relation"
   - "C.16.MR:intro — Intro"
-line_start: 54414
-line_end: 54419
+line_start: 54454
+line_end: 54459
 dependencies:
   - "A.3.3"
   - "B.5.FM"
@@ -26,6 +26,6 @@ keywords:
 ## C.16.MR - Construct a Measurement Relation
 
 > **Type:** Method pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative
 

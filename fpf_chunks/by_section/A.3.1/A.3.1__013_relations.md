@@ -6,12 +6,12 @@ section_id: "A.3.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__013_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:12 — Relations"
-line_start: 8895
-line_end: 8903
+line_start: 8914
+line_end: 8922
 dependencies:
   - "A.1"
   - "A.1.1"

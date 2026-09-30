@@ -6,12 +6,12 @@ section_id: "A.1.STM:3"
 section_title: "The attention map"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__005_the-attention-map.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
   - "A.1.STM:3 — The attention map"
-line_start: 3396
-line_end: 3414
+line_start: 3415
+line_end: 3433
 dependencies:
   - "A.1"
   - "A.1.CSD"

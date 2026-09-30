@@ -6,12 +6,12 @@ section_id: "B.1.1:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__007_archetypal-grounding-worked-cases.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:5 — Archetypal Grounding (Worked Cases)"
-line_start: 38785
-line_end: 38804
+line_start: 38825
+line_end: 38844
 dependencies:
   - "A.1"
   - "A.10"

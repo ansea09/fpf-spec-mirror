@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `d131d30a44e78523e78da9d22aefd83e59f5e4a4`
+Commit SHA: `b112256466bff620bbee2b72ab8cfe4ad976e60d`
 
 Chunking method: `pattern-aware`
 
@@ -236,7 +236,7 @@ Patterns: `355`
 - [C.32.ACE — Architecture Characteristic Eval Programs](by_pattern/C.32.ACE.md)
 - [C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence](by_pattern/C.32.CONWAY.md)
 - [C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals](by_pattern/C.32.MLAO.md)
-- [C.32.MWA — Practice Architecture Synthesis from Several Structures](by_pattern/C.32.MWA.md)
+- [C.32.MWA — Synthesize an Architecture Account of Methods and Their Use](by_pattern/C.32.MWA.md)
 - [C.32.FAIL — Architecture Failure Recognition and Repair](by_pattern/C.32.FAIL.md)
 - [C.32.PAD — Project Architecture Decision After Candidate Synthesis](by_pattern/C.32.PAD.md)
 - [C.32.ADR — Architecture Decision Record Projection](by_pattern/C.32.ADR.md)
@@ -264,7 +264,7 @@ Patterns: `355`
 - [E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)](by_pattern/E.2.DA.md)
 - [E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)](by_pattern/E.3.md)
 - [E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites](by_pattern/E.4.md)
-- [E.4.CM — Develop Composite Methods as Framework Contributions](by_pattern/E.4.CM.md)
+- [E.4.CM — Develop Connected Methods as Framework Contributions](by_pattern/E.4.CM.md)
 - [E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes](by_pattern/E.4.FPF.md)
 - [E.4.PFAD — Principle-Framework Architecture Decision](by_pattern/E.4.PFAD.md)
 - [E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish](by_pattern/E.4.DPF.md)
@@ -328,7 +328,7 @@ Patterns: `355`
 - [E.24.PUB — Episteme Publication: Availability, Form and Carrier](by_pattern/E.24.PUB.md)
 - [E.24.UK — U-kind Admission and Ontic Settlement](by_pattern/E.24.UK.md)
 - [F.0.1 — Source-Local Meaning Recovery](by_pattern/F.0.1.md)
-- [F.0.2 — Conceptual Synthesis across Source Ontologies](by_pattern/F.0.2.md)
+- [F.0.2 — Semantic Synthesis across Source Ontologies](by_pattern/F.0.2.md)
 - [F.1 — Question-Relative Source Selection](by_pattern/F.1.md)
 - [F.2 — Source-Local Term Harvesting & Normalisation](by_pattern/F.2.md)
 - [F.3 — Source-Local Sense Clustering](by_pattern/F.3.md)

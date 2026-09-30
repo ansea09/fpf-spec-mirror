@@ -6,12 +6,12 @@ section_id: "A.3:6"
 section_title: "Illustrative scenarios (substrate‑neutral)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__007_illustrative-scenarios-substrate-neutral.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:6 — Illustrative scenarios (substrate‑neutral)"
-line_start: 8322
-line_end: 8338
+line_start: 8341
+line_end: 8357
 dependencies:
   - "A.10"
   - "A.12-A.15"

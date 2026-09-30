@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:2"
 section_title: "Distribution architecture"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__008_distribution-architecture.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:2 — Distribution architecture"
-line_start: 87656
-line_end: 87725
+line_start: 87958
+line_end: 88027
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -127,11 +127,11 @@ A conforming specialized restoration pattern states:
 
 #### E.10.ARCH:2.3 - DPF-local application
 
-When authoring or maintaining a DPF, use this shared method only when the `E.4.DPF` entry condition holds: recurring domain wording obstructs a named reader use. Identify the domain object or relation, the relied claim, and its use boundary in the affected DPF subject pattern; use `E.10.ARCH` for the recovery method and `F.19` for the final plain technical rewrite. Conceptual synthesis and wording restoration remain separate: restoration preserves the meaning of an identified claim in the current DPF edition; it neither establishes nor revises that claim.
+When authoring or maintaining a DPF, use this shared method only when the `E.4.DPF` entry condition holds: recurring domain wording obstructs a named reader use. Identify the domain object or relation, the relied claim, and its use boundary in the affected DPF subject pattern; use `E.10.ARCH` for the recovery method and `F.19` for the final plain technical rewrite. Semantic synthesis and wording restoration remain separate: restoration preserves the meaning of an identified claim in the current DPF edition; it neither establishes nor revises that claim.
 
 Write the resulting domain entry beside the DPF claim whose wording it restores. The entry identifies the recurring wording, the relied DPF claim, the DPF edition in which that claim is current, the recovered domain object or relation, the surviving reader use, the repaired wording, and the condition that reopens either the entry or its relied claim. Add a negative or non-use boundary only under the `F.19` plausible-intended-reader test; it is not a required entry field. Do not copy the domain trigger into the FPF-wide applicability table. One isolated wording failure stays a local `F.19` rewrite, a compact `E.10` route, or a direct rewrite under the DPF claim's defining or constraining rule.
 
 Identify a separate DPF-local profile only when several entries are consumed together by a named maintained use. Identify the profile as a claim-bearing episteme, state its receiving use and edition, and keep the constituent entries independently revisable; if a table publishes the profile, keep the table as its publication form. Existing local profiles remain local applications of this method.
 
-If the attempted repair exposes a missing or unstable domain distinction, stop the wording route. Return to the DPF source, conceptual-synthesis, or content decision that can establish the missing claim; only then resume the wording repair.
+If the attempted repair exposes a missing or unstable domain distinction, stop the wording route. Return to the DPF source, semantic-synthesis, or content decision that can establish the missing claim; only then resume the wording repair.
 

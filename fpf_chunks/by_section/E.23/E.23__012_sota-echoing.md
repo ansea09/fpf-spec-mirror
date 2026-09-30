@@ -6,12 +6,12 @@ section_id: "E.23:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__012_sota-echoing.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:11 — SoTA-Echoing"
-line_start: 100964
-line_end: 100978
+line_start: 101271
+line_end: 101285
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"

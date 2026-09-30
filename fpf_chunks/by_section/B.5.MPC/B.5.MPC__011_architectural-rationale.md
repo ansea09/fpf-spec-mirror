@@ -6,12 +6,12 @@ section_id: "B.5.MPC:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__011_architectural-rationale.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:10 — Architectural Rationale"
-line_start: 44218
-line_end: 44265
+line_start: 44258
+line_end: 44305
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -69,7 +69,7 @@ For this Method, the practical consequence is precise. Naming the same count N i
 
 A second alternative is to make one formal language carry the whole inquiry. This can help when a mature language expresses the required physical, mathematical and execution distinctions and its users can work with it. If it cannot express a necessary distinction, use another representation or develop the language. Retaining interpretable correspondences allows several forms to contribute without assuming that one form already covers the whole problem.
 
-Levenchuk's [2012 robotics account](https://ailev.livejournal.com/1034484.html) describes difficulty combining familiar speed calculations, several distance quantities, program expressions and physical timing. It motivates changing the question while retaining the interpreted relations in :4.3, and examining the timing of observation and execution in :4.5. The account is a historical report of a particular learning situation. The resulting Method here is a conceptual synthesis.
+Levenchuk's [2012 robotics account](https://ailev.livejournal.com/1034484.html) describes difficulty combining familiar speed calculations, several distance quantities, program expressions and physical timing. It motivates changing the question while retaining the interpreted relations in :4.3, and examining the timing of observation and execution in :4.5. The account is a historical report of a particular learning situation. The resulting Method here is a methodological synthesis.
 
 AI can reduce the cost of obtaining a calculation, candidate proof or explanation while leaving the choice and interpretation of the receiving question open. Klowden and Tao discuss the difference between a formally checked statement, its intended meaning and the understanding that enables further use. Section :4.8 turns that distinction into a contribution question: who can recover the decisive connection and adapt it when the premise changes? This is a capability to arrange, not an assertion that every participant must reproduce every proof. See [*Mathematical Methods and Human Thought in the Age of AI*, 2026, §4](https://arxiv.org/html/2603.26524v1).
 

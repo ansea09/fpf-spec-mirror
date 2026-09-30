@@ -1,21 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.0.2"
-pattern_title: "Conceptual Synthesis across Source Ontologies"
+pattern_title: "Semantic Synthesis across Source Ontologies"
 section_id: "F.0.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__013_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
-  - "F.0.2 — Conceptual Synthesis across Source Ontologies"
+  - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:12 — Relations"
-line_start: 103714
-line_end: 103724
+line_start: 104027
+line_end: 104038
 dependencies:
   - "A.2.4"
   - "C.2.1"
+  - "C.39"
   - "E.10.ARCH"
+  - "E.4.CM"
   - "E.4.DPF"
   - "F.0.1"
   - "F.1"
@@ -37,6 +39,7 @@ keywords:
 - **Coordinates with:** `F.2`-`F.8`, `F.14`, `F.17`, and `F.18` when the next authoring question requires harvesting, clustering, Concept-Set, naming, or UTS work.
 - **Coordinates with:** `G.2` as the optional broad harvesting method. Identified claims and provenance from a `G.2` pack may supply inputs here; the pack does not replace the receiving comparison.
 - **Coordinates with:** `E.4.DPF` for DPF entry and result placement, `E.10.ARCH` for DPF-local wording entries under the shared restoration method, and `G.11` for source-currentness and refresh work.
+- **Coordinates with:** C.39 for general Method construction, connected explanation and change, and E.4.CM for their application to framework authoring. Their methodological results and this semantic comparison remain distinct and can revise each other.
 - **Boundary:** Domain claims produced through this method remain in the subject FPF pattern or named DPF selected by the later content decision.
 
 [fpf-c28-4-4-ref]: C.28-CausalUse-CAL-Causal-Use-Questions-Causality-Ladder-Rungs-Identification-and-Realizability.md#c2844---identification-result

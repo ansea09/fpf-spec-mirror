@@ -6,12 +6,12 @@ section_id: "A.6.B:7"
 section_title: "Mini-register: Claim Register (informative, recommended)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__009_mini-register-claim-register-informative-recommended.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:7 — Mini-register: Claim Register (informative, recommended)"
-line_start: 12588
-line_end: 12608
+line_start: 12607
+line_end: 12627
 dependencies:
   - "A.10"
   - "A.2.3"

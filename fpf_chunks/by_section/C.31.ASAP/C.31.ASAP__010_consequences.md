@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__010_consequences.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:9 — Consequences"
-line_start: 71712
-line_end: 71720
+line_start: 71795
+line_end: 71803
 dependencies:
   - "A.1.1"
   - "A.10"

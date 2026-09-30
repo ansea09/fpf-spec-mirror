@@ -6,12 +6,12 @@ section_id: "A.2.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__002_problem-frame.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:1 — Problem Frame"
-line_start: 4317
-line_end: 4335
+line_start: 4336
+line_end: 4354
 dependencies:
   - "A.1"
   - "A.15"

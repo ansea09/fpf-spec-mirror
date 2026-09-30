@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__012_sota-echoing.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:11 — SoTA-Echoing"
-line_start: 80967
-line_end: 80980
+line_start: 81210
+line_end: 81223
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -63,5 +63,5 @@ keywords:
 | When is shared content worth the dependency it creates? | Compare consumer and producer costs, compatibility and independent change alongside reuse. | Maximize reuse, or assume duplication always restores modularity. | **Adapt:** :4.1.1 varies one use's premise and compares a common supplier, bounded interface and independent variants. | Badampudi, Usman and Chen, [Ericsson industrial case](https://arxiv.org/html/2309.15175v1) (2023), reports benefits and costs including understanding, compatibility, coordination and upgrades. Transfer from software implementation reuse to framework content is a stated architectural analogy, not an established effect size. | Reopen if an actual change reaches unrelated uses or the cost of separate variants defeats the expected independence. |
 | How much research or protection is justified before inclusion? | Treat prospective benefit as a testable hypothesis and spend decision effort where its result could change the choice. | Exhaustive prevention of conceivable mistakes or inclusion from novelty alone. | **Adapt:** :4.1.1 uses C.11.DUA/C.11.CRC and bounded inquiry rather than a universal admission survey. | Camuffo et al., [four entrepreneurial trials](https://doi.org/10.1002/smj.3580) (2024), supports disciplined hypothesis testing and termination with bounded transfer to framework investment. De Sabbata et al., [LLM metareasoning](https://arxiv.org/html/2410.05563v2) (2024), supplies a computation-allocation comparator, not evidence that shorter instructions always improve reasoning. | Reopen when a material cost, expected frequency or failure consequence changes the decision. |
 
-The external comparisons above supply bounded grounds for the selected construction. The whole-cost method is their conceptual synthesis with C.11.DUA/C.11.CRC, not a claim that any source established one optimal library size or audience-independent publication form.
+The external comparisons above supply bounded grounds for the selected construction. The whole-cost method is their methodological synthesis with C.11.DUA/C.11.CRC, not a claim that any source established one optimal library size or audience-independent publication form.
 

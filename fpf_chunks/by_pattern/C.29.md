@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.29 — Mathematical Lens Use"
-line_start: 64506
-line_end: 65519
+line_start: 64546
+line_end: 65559
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -1006,7 +1006,7 @@ Adapt the obstructions and failures-of-compositionality perspective into `LostSt
 
 [Horsman, Stepney, Wagner and Kendon 2014, §§VI–VIII](https://arxiv.org/abs/1309.7979) connect abstract computation with physical preparation, evolution and interpretation. C.29.3 adopts this comparison and explains its current extensions to digital, analog and stochastic realizations. Its source discussion distinguishes the resulting computational claim, the system model and performed execution.
 
-These Methods and their worked constructions are conceptual synthesis. Algorithm design, numerical analysis, learning, coding and distributed computation supply further construction techniques, guarantees and cost analysis when the working question needs them.
+These Methods are a methodological synthesis. Their worked cases are constructed under the stated models and conditions. Algorithm design, numerical analysis, learning, coding and distributed computation supply further construction techniques, guarantees and cost analysis when the working question needs them.
 
 ### C.29:13a - References
 

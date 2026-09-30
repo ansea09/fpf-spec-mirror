@@ -6,12 +6,12 @@ section_id: "E.17.2:8"
 section_title: "Pattern contributions and boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__009_pattern-contributions-and-boundaries.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:8 — Pattern contributions and boundaries"
-line_start: 93229
-line_end: 93240
+line_start: 93536
+line_end: 93547
 dependencies:
   - "A.22"
   - "A.6.3"

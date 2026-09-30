@@ -6,12 +6,12 @@ section_id: "C.24:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__004_what-this-buys.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:0.2 — What this buys"
-line_start: 60157
-line_end: 60169
+line_start: 60197
+line_end: 60209
 dependencies:
   - "A.10"
   - "A.15"

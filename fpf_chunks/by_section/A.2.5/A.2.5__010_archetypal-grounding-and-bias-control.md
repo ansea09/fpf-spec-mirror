@@ -6,12 +6,12 @@ section_id: "A.2.5:7"
 section_title: "Archetypal Grounding and Bias Control"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__010_archetypal-grounding-and-bias-control.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:7 — Archetypal Grounding and Bias Control"
-line_start: 5644
-line_end: 5655
+line_start: 5663
+line_end: 5674
 dependencies:
   - "A.15"
   - "A.15.1"

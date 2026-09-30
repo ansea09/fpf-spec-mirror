@@ -6,12 +6,12 @@ section_id: "C.11:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__010_consequences.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:9 — Consequences"
-line_start: 53252
-line_end: 53263
+line_start: 53292
+line_end: 53303
 dependencies:
   - "A.10"
   - "A.13"

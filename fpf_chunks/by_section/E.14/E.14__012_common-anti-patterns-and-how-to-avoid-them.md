@@ -6,12 +6,12 @@ section_id: "E.14:9"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:9 — Common Anti-Patterns and How to Avoid Them"
-line_start: 91380
-line_end: 91389
+line_start: 91687
+line_end: 91696
 dependencies:
   - "B.3.5"
   - "C.13"

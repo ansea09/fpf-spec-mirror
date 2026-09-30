@@ -6,12 +6,12 @@ section_id: "C.30.ASV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__005_solution.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:4 — Solution"
-line_start: 68924
-line_end: 69562
+line_start: 68966
+line_end: 69639
 dependencies:
   - "A.1"
   - "A.10"
@@ -345,7 +345,7 @@ Classifier values defined outside C.30.ASV remain admissible when they are the a
 
 | Classifier value defined outside C.30.ASV | ASV use | Full semantics and applicable patterns |
 | --- | --- | --- |
-| `WorkMethodStructure` | Method arrangement or work arrangement changes the architecture move. | `A.15` keeps `MethodDescription`, one exact `U.WorkPlan`, and dated `U.Work` occurrences separate; use the applicable pattern for any exception-handling, launch, or gate claim. Do not turn a work-method diagram into work authority. |
+| `WorkMethodStructure` | A Method's organization or an arrangement of performed work changes the architecture move. | §4.5a selects the relevant questions for Methods. `A.3.1` supplies Method identity and relation recovery; `B.1.5` qualifies Method composition and interfaces. `A.15` keeps MethodDescription, one exact WorkPlan and dated Work occurrences separate. Use the applicable rule for an actual allocation, exception, launch or gate claim. |
 | `AllocationResponsibilityStructure` | Exact responsibility relations or enactor-allocation relations change the architecture move. | Preserve each admitted direct responsibility predicate and occurrence through the view. Keep the System, local system-role kind, separate System-classification judgment, assignment, enactor relation, organization relation, actual Work basis, concern or affected-party relation, authority, ownership, stewardship, and responsibility distinct. Recover `owner`, `steward`, and `stakeholder` from the claim they make and use the corresponding direct ownership, governance, stewardship, concern, affected-party, participation, responsibility, authority, or ordinary-label route. Use `E.10.ROLE` only when the source wording actually uses unresolved claim-bearing *role*. Return the exact `missing-governor` for a required relation rather than treating an org chart, title, assignment, or Work as that relation. |
 | `EvidenceAssuranceStructure` | Evidence reuse or assurance arrangement changes affected structure or source return. | Use `A.10` for bounded source-to-use reliance, `G.6` for citable provenance paths, and `B.3` only for a named assurance claim; the applicable result pattern establishes evidence sufficiency. ASV only names the structure and loss boundary. |
 | `ScaleEvolutionStructure` | Scale window, replacement or change policy, trajectory reference, or coarse-graining changes the architecture move. | Use `C.29`, `C.16`, temporal, source-return, or decision patterns for scale, characterization, or selection claims. |
@@ -418,6 +418,41 @@ SafetyLossControlStructureNote:
 ```
 
 The note gives a positive first architecture move: find the loss-control structure, controlled process or plant, constraint, foreseeable misuse, operational design scope, and action-relevant boundary. It does not replace evidence, assurance, gate, causal, dynamics, or temporal claims.
+
+#### C.30.ASV:4.5a - Select structures for a Method and its uses
+
+Use this profile when “the architecture of the method” is too vague to decide what can change, what must remain compatible, or what a drawing leaves out. Start from one identified Method and the decision at hand. A.3.1 supplies that non-agentive holon's identity; C.30 relates an exact holon to a selected A.22 structure when its architecture predicate obtains. For several independently usable Methods, retain that plurality until a particular encompassing Method is established. A useful account of their connections can remain ordinary prose.
+
+Start with the Method concern and intended effect or preserved condition under A.3.1:4.1 and :4.4. They explain what future enactments are for. A proposed receiving use, an actual use of a particular recording, a statement in a description and a binding in a declaration answer different questions; state the one needed by the architecture decision. E.10:0.2c.7–7a helps when result, purpose or work-product wording hides that choice.
+
+**Choose questions that change the decision.** The following questions are a first-use repertoire, not a mandatory collection of views or new universal structure kinds. Answer in the language of the work. Select an A.22 structure only when reliance on its organization matters, and apply the rule that defines each relation. A proposed dependency or correspondence remains a claim until its obtaining relation is established; a convenient name or a local graph edge does not admit it.
+
+| Working question | Structure or account to inspect | What the answer lets the practitioner do |
+| --- | --- | --- |
+| What constitutes this Method, and what conditions belong to the whole? | Exact Methods and `methodPartOf` relations under B.1.5, including admitted alternatives and the whole's stable construction rule. | Change or replace a constituent against the whole's applicability, result and preserved conditions. A step in a description or part of a Work occurrence does not settle Method parthood. |
+| What action or result is required under which conditions? | The intended effect or preserved condition, actions required to achieve it, and the conditions on what each action uses or supplies, with any stated correspondences to a functional structure. | Find a missing action or test whether a particular supplied result meets its receiving condition. This functional question is separate from which System will perform the Method. Use §4.6 and A.6.F for an actual function claim. |
+| What can another Method use or replace at the boundary? | Exposed, forwarded or encapsulated inputs, results and controls under B.1.5:4.4; independently defined interface or module claims where needed. | Tell whether a change is internal, changes a receiving condition, or changes the Method's identity. Publishing a constituent's description does not expose its interface. |
+| What may follow, run together, repeat or return? | Order and guard conditions, result-use dependencies, joins and feedback. Use B.1.5 for the composite construction and A.22.CGUS when the availability of alternatives is the question. | Preserve genuine prerequisites while allowing independent or conditional continuations. A planned result flow differs from actual Work order; use E.18 only when its transformation-flow claims are made. |
+| Is this a part, a variant, a more specific Method, or a replacement? | A.3.1 identity and comparison conditions, with separately justified parameterization, refinement, classification or substitution claims. | Keep a permitted variation within one Method, or compare distinct Methods without turning generality into parthood. Follow B.1.5.RS for an affected constituent replacement. |
+| What changes the Method itself? | A proposed new or revised Method, the basis for its construction, and its justified introduction into later use. | Separate developing or revising a Method from enacting it, and preserve unaffected uses. A Method that develops another Method is not thereby its encompassing whole. |
+| What makes its performance possible, and where? | Separate structures of participating Systems, capabilities, resources, roles and assignments, actual Work and its spatial placement; relate them to the Method only through their own applicable rules. | Check combined demand, available capability and access; change a performer or equipment placement without silently changing Method identity. The non-agentive Method is not the performer, and a box's position is not equipment placement. |
+
+**Connect the answers through one changed condition.** Suppose a studio proposes a recording-preparation Method for correcting relative timing while preserving the recorded movements. Its construction requires corresponding time marks and observed offsets, a calculation of the correction, a domain basis for applying it between marks, a suitable editing operation, and a check against the receiving-use criterion. B.1.5 supplies the question for admitting the constituent calculation as part of this exact preparation Method under its stable construction rule. Another calibration Method could include that same calculation under its own rule; the shared part would not merge the two wholes.
+
+At three marks the observed offsets are 40, 42 and 45 ms. Subtracting 42.5 ms gives residuals −2.5, −0.5 and 2.5 ms; no constant correction can lower the largest absolute residual at these marks below 2.5 ms. **Separately**, stipulate that the recording engineer supplies a justified domain claim that the relative offset remains within 40–45 ms throughout the stated interval, and an editing operation qualified to apply the chosen constant correction without adding timing distortion. That timing envelope is a supplied premise of this hypothetical case, not an inference from three observations. With those premises, the corrected recording has an absolute timing error of at most 2.5 ms throughout the interval. Without them, the calculation qualifies only the marks.
+
+Now select only the structures needed by the studio's choice:
+
+1. The composition account explains why the calculation is a constituent of preparation. An interface account says whether the receiving Method gets the corrected recording alone or also the timing qualification and its limits.
+2. The result-use account connects preparation to movement analysis and demonstration viewing. Under the separately supplied timing envelope and qualified editing operation, the recording meets the interval bound of 2.5 ms. Analysis accepts 3 ms and viewing 8 ms, so both receiving conditions are met. Neither receiving use becomes a constituent of preparation by consuming the recording.
+3. Analysis tightens its requirement to 2 ms. The lower bound at the marks rules out meeting it with any constant correction of these offsets. Viewing remains supported under its 8 ms condition while the timing envelope and editing qualification remain valid. The failed analysis connection calls for a warranted better correction, another recording or a justified change of requirement. If the envelope or editing qualification instead loses its basis, reopen interval qualification for both uses; the pointwise calculation alone preserves neither one.
+4. If the team develops a replacement correction rule, compare it against the affected preparation and receiving uses before introduction. If only the editor workstation moves to another room, inspect the changed access, timing or resource conditions; Method identity changes only if its own defining conditions change.
+
+C.39:5.3 develops the same calculation and changed-condition case for ordinary method development; E.4.CM:5.4 applies it to framework authorship. The interval claim here depends on the separately stipulated domain envelope and editing qualification; neither the numbers at the marks nor a diagram supplies those premises. This is a conditional construction, not evidence of practitioner success. Performing the preparation later supplies Work occurrences and evidence under their own rules.
+
+**Choose the picture last.** A composition drawing may place the preparation above its constituents, with each edge naming Method parthood. A result-use drawing may place preparation to the left of analysis and viewing, with each edge naming the used result and its acceptance condition. These are the vertical and horizontal directions of those particular representations, as A.22:4.3a explains. Neither axis gives a universal Method level, a lattice, a performer hierarchy or a place in a room.
+
+The first useful result is a short explanation of what changes and what remains usable. A typed structural view adds value when the decision depends on exact correspondence, hidden structure or viewpoint conformance. If several structures expose a conflict or move burden between participants, C.32.MWA supplies the synthesis and comparison; a clear single connection can stop here.
 
 #### C.30.ASV:4.6 - Functional structure view boundary
 

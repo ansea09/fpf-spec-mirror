@@ -6,12 +6,12 @@ section_id: "C.13:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__007_archetypal-grounding.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:5 — Archetypal Grounding"
-line_start: 53923
-line_end: 53956
+line_start: 53963
+line_end: 53996
 dependencies:
   - "A.1"
   - "A.14"

@@ -6,12 +6,12 @@ section_id: "B.5.1:6"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__007_rationale.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.5.1 — Coordinate Development States: Explore → Shape → Evidence → Operate"
   - "B.5.1:6 — Rationale"
-line_start: 46223
-line_end: 46226
+line_start: 46263
+line_end: 46266
 dependencies:
   - "B.3.3"
   - "B.4"

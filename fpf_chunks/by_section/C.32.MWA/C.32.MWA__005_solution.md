@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.MWA"
-pattern_title: "Practice Architecture Synthesis from Several Structures"
+pattern_title: "Synthesize an Architecture Account of Methods and Their Use"
 section_id: "C.32.MWA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__005_solution.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
-  - "C.32.MWA — Practice Architecture Synthesis from Several Structures"
+  - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:4 — Solution"
-line_start: 73935
-line_end: 73987
+line_start: 74022
+line_end: 74074
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -36,15 +36,15 @@ keywords:
 
 ### C.32.MWA:4 - Solution
 
-Build one readable synthesis from the relations supported by the current case. Keep the following eight actions in order as an attention aid, not as a claim that the practice itself is one eight-stage process.
+Build one readable synthesis from the relations supported by the current case. Keep the following eight actions in order as an attention aid, not as a claim that the activity being studied is one eight-stage process.
 
 #### C.32.MWA:4.1 - Eight actions
 
-1. **Choose a truthful entry.** For an obtaining practice, anchor one independently admitted representative performed Work occurrence and the useful result at stake. For a possible-future practice, anchor an intended-use case, `WorkPlan`, or another correctly typed prospective account; state what would realize it and how later representative Work would test it. Do not invent performed Work.
+1. **Choose a truthful entry.** For an obtaining organization of Method use, anchor one independently admitted representative performed Work occurrence and the useful result at stake; establish the other relied-on relations separately. For a possible-future organization, anchor an intended-use case, `WorkPlan`, or another correctly typed prospective account; state what would put that proposal into use and how later representative Work would test it. Keep actual development or support Work separate from the proposed use. Actual and prospective claims can coexist in the same account.
 2. **Name the subject and participants.** State the subject under discussion (`EntityOfConcern`) and the actual kinds of the participants before classifying rows or positions. A source word such as *practice*, *layer*, *role*, *model*, or *provider* does not settle those kinds.
-3. **Generate genuinely different organizations.** Prepare alternatives that differ in a way that can change use or fail on different cases. When NQD is the current generation test, retain NQD-distinct candidates: their novelty is not a relabeling, their use-value preserves the declared constraints, and their diversity exposes different failure modes. Do not accept the source's first layout as the option set, and do not turn NQD into one scalar score.
-4. **Recover each relation actually used.** In ordinary words first, state whether the source claim concerns Method composition or order, Work parthood or overlap, a subject relation, description or model use, a capability or provider dependency, cultural dynamics, or another admitted relation. Use the pattern that defines or constrains that relation when the claim matters to the answer.
-5. **Separate practice from description.** Keep obtaining practice wholes and relations distinct from descriptions, models, views, and coarse-grained accounts. State their correspondence and the distinctions each description preserves or loses.
+3. **Build alternatives for the question.** State whether the alternatives are competing architecture accounts of the same arrangement, proposed changes to that arrangement, or both. Competing accounts can reveal a relation that a sequence-only description misses; proposed changes alter how the Methods would be used or supported. Keep those comparisons distinct. Prepare alternatives that can change the decision or fail on different cases. When NQD is the current generation test, retain NQD-distinct candidates: their novelty is not a relabeling, their use-value preserves the declared constraints, and their diversity exposes different failure modes. Do not accept the source's first layout as the option set, and do not turn NQD into one scalar score.
+4. **Recover each relation actually used.** In ordinary words first, state whether the source claim concerns Method composition or order, Work parthood or overlap, a subject relation, description or model use, a capability or provider dependency, cultural dynamics, or another admitted relation. Use the pattern that defines or constrains that relation when the claim matters to the answer. For structures of a Method and its uses, C.30.ASV:4.5a helps select the question before drawing its representation.
+5. **Separate the described objects from their descriptions.** Keep identified Methods, Work, Systems and their relations distinct from the descriptions, models, views and coarse-grained accounts about them. A description can itself be used in Work; name that use separately from what it describes. State the correspondence and the distinctions each description preserves or loses.
 6. **Reidentify a whole when needed.** Use `B.2` when the previously identified Method, Work, System, or Discipline whole cannot carry the current claim. Reidentify a selected structure under `A.22`'s four identity discriminators when the current claim requires a different selected structure. Do not keep the old identity merely to preserve a neat stack.
 7. **Compare conflict and moved burden.** Expose conflicts between candidate structures. For every apparent local repair, ask what residual, constraint, cost, evidence burden, delay, or loss moved to another structure or scope. Compare the alternatives against the named architecture question, not against visual tidiness.
 8. **Keep deliberate and distributed change distinct.** Separate a project's architecture choice or intervention from cultural generation, transmission, recognition, selection, rejection, retention, and loss. A project can influence those processes without controlling or proving them.
@@ -55,12 +55,12 @@ Write the first result as a short account that another practitioner can use with
 
 ```text
 Current architecture question:
-Entry: obtaining practice / possible-future practice
+Entry: obtaining / possible-future organization of Method use; status of each relied-on claim
 Representative occurrence or prospective anchor:
 Useful result at stake:
 Selected structures and the relations used:
-Practice-description correspondences and losses:
-Genuinely different alternatives:
+Correspondences between described objects and descriptions, with losses:
+Alternatives: competing accounts / proposed arrangements / both
 Main conflict and any moved residual or burden:
 Alternative that changes the current decision:
 Source-return or later-test condition:
@@ -85,5 +85,5 @@ Stop when the short synthesis identifies the truthful entry, selected structures
 
 Lower the claim when the subject, representative occurrence or prospective anchor, relation, evidence boundary, or alternative is not recoverable. Preserve the useful source cue and return to the direct pattern or source instead of completing the architecture by guesswork.
 
-Reopen when representative Work contradicts the synthesis, a future practice becomes obtaining, a new structure changes the decision, a moved burden becomes material, a direct source changes, or the product-boundary question enters or leaves scope.
+Reopen when representative Work contradicts the synthesis, a proposed organization of Method use is put into practice, a new structure changes the decision, a moved burden becomes material, a direct source changes, or the product-boundary question enters or leaves scope.
 

@@ -6,12 +6,12 @@ section_id: "C.30.ASV:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__008_conformance-checklist.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:7 — Conformance Checklist"
-line_start: 69585
-line_end: 69602
+line_start: 69664
+line_end: 69683
 dependencies:
   - "A.1"
   - "A.10"
@@ -80,4 +80,6 @@ keywords:
 | **CC-ASV-11 Source return.** | When compression, extraction, coarsening, evidence reuse, publication, or many-to-many allocation hides distinctions on which the intended use relies, `SourceReturnCondition` is present. | Add one source-return trigger, or narrow the view's admissible use so omitted distinctions are not used for action, assurance, causal use, law-domain review, regulatory review, or reopening. |
 | **CC-ASV-12 Architecture-name recovery.** | Every `<X>Architecture` phrase recovers exact selected structure, `<X>StructureKind`, or a declared local relation or claim. | Rewrite the phrase through `ArchitectureStructureKindTriage@Project`; if no relation is being claimed, keep the name as Plain prose and do not let it carry ontology. |
 | **CC-ASV-13 Useful action.** | The repair leaves a surviving admissible architecture move: inspect, split, relate, downgrade, generate candidates, state a structural description or view, add correspondence, add source return, use the applicable pattern, or stop. | Restore one move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
+
+For a Method-architecture use, check that the selected questions in §4.5a recover the affected Method, its exact relations and the consequence of a changed condition. A calculation and a domain claim used to extend its application retain their separate premises and limits; state which uses must be reconsidered if either loses its basis. Keep allocation and Work facts under their own rules. When orientation carries a claim, apply A.22:4.3a to its named structure and representation convention.
 

@@ -6,12 +6,12 @@ section_id: "B.1.2:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__014_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:11 — Relations"
-line_start: 39077
-line_end: 39082
+line_start: 39117
+line_end: 39122
 dependencies:
   - "A.1"
   - "A.10"

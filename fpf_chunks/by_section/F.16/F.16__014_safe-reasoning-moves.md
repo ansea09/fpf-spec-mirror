@@ -6,12 +6,12 @@ section_id: "F.16:13"
 section_title: "Safe reasoning moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__014_safe-reasoning-moves.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:13 — Safe reasoning moves"
-line_start: 109031
-line_end: 109042
+line_start: 109347
+line_end: 109358
 dependencies:
   - "A.10"
   - "A.15"

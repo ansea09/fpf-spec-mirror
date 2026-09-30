@@ -6,12 +6,12 @@ section_id: "C.25:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__012_sota-echoing.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:11 — SoTA-Echoing"
-line_start: 60639
-line_end: 60653
+line_start: 60679
+line_end: 60693
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.6.C:11"
 section_title: "SoTA‑Echoing (informative; post‑2015 alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__012_sota-echoing-informative-post-2015-alignment.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:11 — SoTA‑Echoing (informative; post‑2015 alignment)"
-line_start: 13397
-line_end: 13405
+line_start: 13416
+line_end: 13424
 dependencies:
   - "A.10"
   - "A.15.1"

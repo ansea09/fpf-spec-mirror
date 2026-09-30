@@ -6,12 +6,12 @@ section_id: "D.3:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__014_sota-echoing.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:10 — SoTA-Echoing"
-line_start: 78680
-line_end: 78690
+line_start: 78863
+line_end: 78873
 dependencies:
   - "A.1"
   - "A.10"

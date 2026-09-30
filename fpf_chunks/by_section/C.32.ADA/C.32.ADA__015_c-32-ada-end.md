@@ -6,12 +6,12 @@ section_id: "C.32.ADA:End"
 section_title: "C.32.ADA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__015_c-32-ada-end.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:End — C.32.ADA:End"
-line_start: 75218
-line_end: 75219
+line_start: 75305
+line_end: 75306
 dependencies:
   - "A.1.1"
   - "A.10"

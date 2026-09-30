@@ -6,12 +6,12 @@ section_id: "C.30:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__013_relations.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:12 — Relations"
-line_start: 67609
-line_end: 67616
+line_start: 67649
+line_end: 67656
 dependencies:
   - "A.1"
   - "A.10"

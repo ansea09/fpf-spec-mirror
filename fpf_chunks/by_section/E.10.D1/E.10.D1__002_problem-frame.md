@@ -6,12 +6,12 @@ section_id: "E.10.D1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__002_problem-frame.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:1 — Problem frame"
-line_start: 88206
-line_end: 88215
+line_start: 88512
+line_end: 88521
 dependencies:
   - "A.1.1"
   - "A.2.6"

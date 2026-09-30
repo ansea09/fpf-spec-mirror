@@ -1,20 +1,24 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.4.CM"
-pattern_title: "Develop Composite Methods as Framework Contributions"
+pattern_title: "Develop Connected Methods as Framework Contributions"
 section_id: "E.4.CM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__005_solution.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
-  - "E.4.CM — Develop Composite Methods as Framework Contributions"
+  - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:4 — Solution"
-line_start: 80154
-line_end: 80250
+line_start: 80339
+line_end: 80434
 dependencies:
+  - "A.3.1"
+  - "B.1.5"
   - "B.1.5.EW"
   - "B.1.5.RS"
+  - "C.32.MWA"
+  - "C.39"
   - "C.39.RO"
   - "E.11"
   - "E.11.PFP"
@@ -22,19 +26,24 @@ dependencies:
   - "E.21"
   - "E.4"
   - "E.8"
+  - "F.0.2"
   - "F.19"
 keywords:
 ---
 
 ### E.4.CM:4 - Solution
 
-Develop the whole from its recurring difficulty, construct its missing connections, and place the reusable contribution where practitioners can obtain it. Reuse exact supplied operations, while explaining the organization that turns their contributions into this whole. Then expose a short entry if it helps recognition.
+Apply C.39's general construction and explanation to the framework reader's recurring difficulty, then give the resulting content its appropriate public owner and form. For a composite Method, explain the organization that produces its whole result. For independent Methods, explain their material relations while preserving direct use. The steps below add the framework-authoring decisions; they do not make framework publication a prerequisite for developing Methods.
 
-#### E.4.CM:4.1 - Recover the whole before assigning its parts
+#### E.4.CM:4.1 - Recover the working question before assigning parts
 
-Start with the practitioner, working situation, sought result and conditions that make the result useful. Recover a worked attempt, a failure or a sufficiently explicit proposed case. Keep the original need when exploring a smaller attainable result.
+Start with the practitioner, working situation, sought result and conditions that make the result useful. Recover a worked attempt, a failure or a sufficiently explicit proposed case. Keep the original need when exploring a smaller attainable result. If the difficulty is not yet named, follow an ordinary result to its receiving use with B.5.PI: a document can have been delivered while its recipient still cannot continue the work.
+
+Find candidate methods, rules and results by the change needed. In each candidate description recover the input, action, result, conditions and limits. A shared topic helps find a text; the receiving action determines what can be used from it. Include the necessary performer, preparation, means and access: an obtainable description does not supply them.
 
 For a source-derived Method, recover the source's constructive synthesis as well as its component results: the proposed objects, relations, operations, dependencies, choices and claimed result. Verify those contributions at the scope being used. Known ingredients are not grounds for discarding the source's organization; the source's novelty claim is not proof that the organization works.
+
+Method-engineering sources may call their reusable units *fragments*, *chunks*, *slices* or *practices*. Recover what each unit contains and what its source composition rules mean. Transfer the useful selection, adaptation or joining move, then establish the receiving FPF claim through A.3.1 and B.1.5. A source unit can combine an action account, notation, role, deliverable and guidance; its name alone does not make it a constituent Method. Use E.10:0.2c.21a for explanatory naming without erasing the source's distinctions.
 
 Trace what participants do, what each action needs and what it makes available. Include preparation or support that changes the result. Distinguish constituent actions from documents describing them, learning how to perform them, and environmental conditions. A table of pattern names describes neither their enactment nor their composition.
 
@@ -42,42 +51,31 @@ Ask where the same connection will matter again: another input, performer, recei
 
 Use B.1.5 to determine whether the actions form one Method: the whole needs its own reusable action, applicability, result, constituent relations and preserved conditions. Keep a repertoire of alternatives as a repertoire when no common whole is being asserted. A composition can contain other compositions, and a constituent can serve several wholes. Neither Method depth nor the number of patterns establishes a framework boundary.
 
-#### E.4.CM:4.2 - Locate and resolve the actual composition difficulty
+When several Methods remain independently usable, select the relations their readers need explained. Preparing a recording, analysing movement in it, showing it to an audience and developing a better preparation method can be connected without constituting one Method. Recover the result uses, shared conditions and returns that make a difference. This connected account is ordinary content about Methods and their uses. Call it a MethodDescription of one Method only when that Method and the description's membership have been established under A.3.1 and A.3.2. A list, diagram or larger time window does not establish a new whole or a U.Structure.
 
-The following are recurring questions, not a complete taxonomy or a compulsory traversal. Start with the one exposed by the case. Use its remedy, follow any resulting dependency, and stop when the needed whole works within its stated scope.
+#### E.4.CM:4.2 - Develop the missing way before choosing its framework form
 
-| Recognizable difficulty | Constructive move and useful result | Developed supplier |
-| --- | --- | --- |
-| Each operation works, but its result cannot be used by the next contribution | Follow the receiving input backward to the producing result. Align meaning, scope, units, state and preconditions; construct an adapter, reorder, or change an operation where needed. Check the join and the whole's result. Preserve overlapping contributions once instead of performing two incompatible versions. | B.1.5:4.2–4.4 qualifies the construction and exposed interfaces; C.39.RO:4.3 develops a reusable operation when adaptation is missing. |
-| Improving one action defeats the encompassing work | Recover what larger work is performed through the action. Change a relevant whole condition and derive which action, timing or coordination must change. Retain parts whose conditions still hold. | B.1.5.EW:4 recovers vertical enactment; B.1.5 supplies the whole's conditions. |
-| A response or operation is available, but a useful application is not | Construct a receiving problem the response could help answer. Try the necessary connection; let its result revise the use or the means while keeping the original need visible. | C.40.CD:4.2–4.5 develops problems and ways together; C.40.CU:4.2–4.5 carries a construct from an uncertain response into a candidate useful arrangement. |
-| Success depends on assistance that was left outside the account | Separate what the trial revealed from what it supplied or changed. Obtain only the contrast needed for the receiving decision, then include the necessary preparation and support in the reproducible arrangement. | C.40.CU:4.3–4.6 connects causal and measurement construction to use and reproduction; E.23.CAE applies when an already grounded capability claim needs explanation. |
-| Replacing a constituent preserves one use and breaks another | Recover the affected encompassing uses, compare the replacement under each use's conditions, and include shared or simultaneous demands. Retain, restrict, adapt or reject the replacement by those results. | B.1.5.RS:4 develops the replacement comparison. |
-| Basic operations and the higher purpose are known, but the whole cannot be performed | Attempt the intermediate coordination. Distinguish an unexplained connection from missing acquisition, access or support. Explain the former; develop or obtain the latter at the scale where the gap occurs. | B.1.5.EW:4 locates the missing intermediate performance; E.23.CDI develops capability for the named Work family; C.36.RP:4 arranges continuing availability. |
-| A branch returns a result, but nobody can decide what to do next | State which condition the result answers, leaves open or contradicts. Supply a conditional return, narrower use or affordable stop instead of restarting every constituent inquiry. | C.40.CD:4.4–4.6; C.40 supplies material retention and continuation. |
-| The same words connect steps that concern different objects or relations | Recover the actual inputs, outputs and claims. Choose or repair the distinction whose consequences make the connection valid; test it on the failed use. | A.7.1 supplies consequence-guided ontological problem solving; B.1.5 then qualifies the resulting composition. |
-| A displayed chain hides live alternatives or an unjustified order | Recover which continuations are possible under which conditions. Prescribe a sequence when a dependency or selected Method requires it; retain branches, joins and returns when it does not. | A.22.CGUS supplies the continuation question and its conditional formal branch; B.1.5 qualifies order-sensitive composition. |
-| The explanation is only in a card, synthesis or development conversation | Separate the reusable organization from case particulars. Give its problem, constructive Solution, limits and changed-condition case a public owner; derive the short entry from that owner. | E.4.CM:4.3–4.7; E.8 and E.11.PFP govern the developed public explanation. |
+Use C.39:4.3 to work backward from the reader's needed result and forward through a proposed connection. Its difficulty/remedy account in C.39:4.3.2 covers incompatible intermediate results, whole conditions, missing useful applications, hidden assistance, replacements, unavailable coordination, unclear returns, mistaken distinctions and unwarranted sequence. Follow the actual failure and its operative supplier; the table is not a traversal to repeat for every framework contribution.
 
-Two diagnoses can concern the same failure. A transfer may reveal both a missing conversion and unavailable capability to perform it. Repair the identified dependency, then return to the original result. Do not count a second label as a second required pattern.
+For framework authoring, distinguish two gaps. An operation or relation may be missing from the proposed Method itself; construct it with the relevant professional Methods. Alternatively, the way may already be understood by its developers while the public explanation fails to teach it. Develop that explanation through C.39:4.5 and E.8:4.2.1.1. A reader's successful private invention exposes useful candidate content; it does not establish that the framework already supplies it.
 
-The list remains open to a consequential difficulty it does not name. Recover the failed relation or missing action from the case, construct a remedy, and compare it with exact existing treatments before extending the list.
+Follow the construction to its receiving use and include necessary preparation, performer capability, means and access. Unknown facts, wrong object distinctions, missing operations and incompatible demands call for different remedies. Two of them may arise at the same join. General authoring guidance can explain the needed contribution without possessing a professional means to supply it; retain that precise gap instead of publishing an executable promise.
 
-#### E.4.CM:4.3 - Construct the connections, not a route through titles
+Then identify what the public framework must carry: the reusable action or relation, its reason, applicability and limits, and an obtainable return to each supplied explanation. Preserve source constructions as well as their ingredients. A familiar set of operations can still have a useful new organization through selection, joining, coordination, adaptation or return.
 
-For each consequential connection, explain what arrives, how its meaning and conditions are interpreted, what the next action does with it, and what permits that next action. Develop the transformation where it is missing. A supplied operation can stay in its existing pattern when the receiving reader can actually obtain and use it.
+#### E.4.CM:4.3 - Apply the actual relations at the framework's chosen scale
 
-**Horizontal organization concerns unfolding.** State how results, conditions and constraints determine what can follow, occur together, repeat or return. A direct prescription “first prepare, then measure” is appropriate when the Method or receiving use requires that order. For serial composition, show why a result satisfies the next precondition. For parallel work, show independence where relied on and how the results join. For alternatives, state the distinguishing condition, including an unresolved or no-applicable-option outcome. For iteration, state what a result changes and when another attempt is unwarranted. A fallback needs a recognizable trigger and a result that still serves the whole.
+C.39:4.3.1 supplies the general distinctions among result use, continuation, Method composition, enactment, variation, refinement, replacement and cross-domain use. C.30.ASV:4.5a helps choose the relations needed for the reader's question. Develop their account for that question; an FPF or DPF publication does not require one universal view set.
 
-When several continuations are possible across the relevant cases, A.22.CGUS asks which are available now and what blocks each one. Use its ordinary explanation first, marking an alternative unknown at its first missing fact or rule. Qualify a CGUS only when a stronger structure claim is needed. One prescribed chain does not by itself establish such a branching structure, and a displayed path is not automatically an instruction to enact it.
+For example, an author connecting recording preparation to analysis must explain how a corrected recording obtains its interval qualification and how the analysis uses that result. Three marker offsets alone do not justify the interval, and a correction number alone is not an edited recording. The public account must expose the independent interval basis and editing operation or return the precise gap. C.39:5.2–5.3 develops both the missing-way case and the qualified conditional connection.
 
-**Vertical organization concerns encompassing and constituent Methods and work.** Also develop vertical relations. Show how one action already performs part of the encompassing Method, which whole conditions constrain it, and how a changed whole affects its constituents. A sequence diagram alone does not explain this relation. The vertical and horizontal descriptions constrain each other: missing constituent capability can make a continuation unavailable; a changed whole condition can change which lower operation is admissible. A constituent hierarchy by itself does not require a CGUS. There is no fixed bottom level: expand the connection only to the depth needed for use, learning or change.
+If several Methods remain independently usable, explain shared results and conditions, independent branches and selective returns. Where constituent operations form one Method, qualify that composition under B.1.5. Where their performance constitutes encompassing Work, use B.1.5.EW. Where continuations vary by condition, explain them through the ordinary question in A.22.CGUS and use its formal branch only for the stronger claim. A chapter order, heading tree or longer time window establishes none of those relations.
 
-**Choose the object distinctions that the construction needs.** If one step produces a measurement indication and the next consumes a capability judgement, supply the interpreting relation and its evidence instead of renaming the indication. If a method description is treated as the performer's acquired capability, separate them and provide the missing acquisition or access. A.7.1 develops a consequential ontological repair; a new durable FPF kind has its own admission route. The synthesis can reuse, refine or construct an operation and its working account together.
+A source's procedure or reusable unit can guide construction without becoming an FPF Method part by name. Recover what the source actually makes available and establish the receiving claim. When two Methods are related by variation or refinement, explain the preserved meaning and actual delta under A.3.1:4.7–4.8. When one replaces another, follow affected uses with B.1.5.RS.
 
-Keep an unavailable domain contribution visible. General guidance can identify the required reset, calibration, joint movement or negotiation without possessing a means to perform it. The result may be a supported conditional construction with that gap, rather than an executable Method.
+Keep framework-scope relations equally precise. FPF→DPF→LPF concerns framework scope and basis, not a ready-made composition or execution order. A DPF's use of a mathematical result does not place its domain below mathematics in a universal hierarchy. A profile can inherit shared explanation and state a narrower use without becoming a part of one composite Method. Several such relations may hold together; label each where it changes the reader's decision.
 
-Use C.39.RO to retain the resulting organization as a reusable operation. The contribution can be new even when every primitive operation was available. Its useful difference can lie in selection, joining, coordination, adaptation, return or explanation needed to reproduce the whole.
+If a diagram uses “vertical” for Method composition and “horizontal” for result use, state those conventions under A.22:4.3a. Its directions do not provide the explanation. Keep a genuine supplier's content in that supplier when the reader can find and use it; add the missing receiving relation at the scope where it applies.
 
 #### E.4.CM:4.4 - Compare the proposed contribution with what readers already receive
 
@@ -97,29 +95,35 @@ Keep the contribution in the existing pattern when it completes that pattern's p
 
 Place transdisciplinary guidance in FPF and domain-specific fillings in the relevant DPF. Use E.4.PFAD when a material placement, framework boundary or cross-framework relation remains open. Shared constituents do not establish a parent DPF, and a cross-DPF method does not by itself require a Suite.
 
-A developed example or reference treatment can be the right owner when it explains an application of an already available Method rather than a new recurring move. Preserve the reusable explanation at a stable public location needed by that use. Campaign decisions and private source notes can retain provenance, but must not carry essential practitioner instructions that the public owner omits.
+A developed example or reference treatment can be the right owner when it explains an application of an already available Method rather than a new recurring move. For several independently usable Methods, develop the material relations in the pattern language's existing Preface or Reference as E.11.PFP:4.7 provides. Explain entry, result use, composition where present, independent branches, changed conditions and returns. Such an account need not become a new Method pattern. Preserve the reusable explanation at a stable public location needed by that use. Campaign decisions and private source notes can retain provenance, but must not carry essential practitioner instructions that the public owner omits.
 
 There can be several useful scales of pattern. Select them by independently recognizable difficulties and reusable remedies, not by equal text length, one file per step, or a rule against “large” methods.
 
-#### E.4.CM:4.6 - Explain, try and adapt the whole
+#### E.4.CM:4.6 - Apply the pattern functions to the developed explanation
 
-Develop the pattern as an episteme about the Method and its use. E.8:4.1.4 and E.11.PFP:4.7 supply the substantive questions at the chosen scale: the problem and its frame, forces, solution, cases, biases, conformance, anti-patterns, consequences, rationale, SoTA comparison and relations. Give the whole its needed answers, reusing a supplier's explanation where it actually answers them. A list of operations or complete section headings cannot replace this content.
+First obtain the practical account through C.39:4.5–4.6: intended use and preparation, inputs and actions, reasons for the connections, supported result and limits, and the consequences of a changed condition. Its general questions about construction, fit and practical worth apply to the Method and its connected uses before any framework form is chosen. Select their evidence at the strength of the claim; a worked derivation is neither empirical effectiveness nor unassisted practitioner transfer.
 
-Then choose the publication form: section template, natural language, notation, reading order, files, medium and publication location. These choices should make the content accessible while preserving distinctions that change use. A translation or shorter entry can retain the Method; dropping a force or applicability condition can change its meaning even when all the Solution steps remain. A pattern language also has substantive relations among its patterns; it is not merely a file arrangement.
+For a pattern about that Method, apply E.8:4.1.4's twelve content functions. The problem frame helps a reader recognize the use; the problem and forces expose the live difficulty and trade-offs; the Solution explains the way; the grounding, biases, conformance and anti-patterns make its use and limits inspectable; the consequences, rationale, SoTA comparison and relations support informed choice and adaptation. Each function asks for substantive content, not a filled heading. The functions organize and examine the developed Method explanation; they do not derive the Method from twelve labels.
 
-Use E.8:4.2.1.1 to develop missing instructions through the whole's promised use. Explain what the reader does with a constituent's result, why the connection works under the stated conditions, and when to return or stop. Recover the recurring difficulty and conditional remedy: say which relations remain and which inputs, choices or constituent actions can change on another application. Reproducing the way of obtaining a result need not reproduce the same output values. Keep source reasoning public when adapting the Method depends on it.
+For an account of several Methods, apply the corresponding questions to their material relations: why and where they connect, what each supplies, how their conditions affect use and what changes when one result or receiver changes. E.11.PFP:4.7 governs its placement in the framework's Preface and declared reference or support units. Exact inherited answers can satisfy a question when the public reader can obtain and use them. Neither this account nor its profiles automatically become a new Method or pattern.
 
-Develop one complete case through the useful result and its limits. Then change a condition of the whole that should change a constituent or a connection. Work out that difference rather than adding an unrelated second illustration. Use an unlike case when it can expose a falsely universal relation or a hidden domain assumption.
+Choose the expression that makes those answers usable: prose, notation, reading order, media and publication location. Each individually declared pattern keeps E.8's body form; the whole account keeps E.11.PFP's publication form. These are additional obligations of this framework use, not requirements on every ordinary Method description. A translation or short entry can preserve the Method; omitting an applicability condition can change it even when every Solution step remains.
 
-Select evidence proportionate to the claim. A mathematical derivation can support its conditional result. A stipulated example explains the method; it does not establish empirical performance or successful practitioner transfer. An actual receiving-use trial can expose missing instructions and capabilities. Distinguish what the text supplied from what the reader invented or obtained elsewhere.
+Develop one complete receiving case and a consequential changed condition. Follow the actual public returns, including the supplying explanation. The reader must get the missing constructive step and its reason from the publication or a declared obtainable supplier, rather than invent it during the trial. Distinguish changing a Method from performing it again and from revising its description. Reuse unaffected branches and valid earlier evidence. Use an unlike case when it can expose a falsely universal relation or hidden domain assumption.
 
-For a new pattern-quality or admission conclusion, use E.21 and E.19 at their declared scope. Fix the connected omission when a finding reveals it; do not count complete headings as adequate construction. Preserve valid source assurance and unaffected constituent results.
+Keep the grounds connected as C.39:4.5 requires: need, nature of the proposal, development choices, actual supplied content and claims. The framework adds a publication concern: the arrangement described and examined must be the one its readers receive, with necessary source reasoning and support still accessible. A local repair belongs at the source of the connected omission. Short cards, headings and source lists cannot close an absent public explanation.
+
+In §5.4, the timing requirements motivate a stipulated use, the minimax reasoning selects the constant correction, and independent professional premises support the conditional interval result. The framework account must expose those grounds. Nothing in the pattern form supplies evidence of improved movement analysis, lower learning cost or widespread studio need.
+
+For a new pattern-quality or admission conclusion, apply E.21 and E.19 at their declared scope. Preserve valid source assurance and unaffected constituent results. A correct constituent, a compatible repertoire and a useful composite are different units of judgement; publication form does not make one answer stand for the others.
 
 #### E.4.CM:4.7 - Expose a short entry and keep the explanation usable
 
-A practical-use card or long mantra can be a short presentation of a composite Method. It should lead to its developed public explanation. E.11 selects when that entry is useful. A card that only helps choose among methods can remain navigation.
+A practical-use card or long mantra can remind a reader how to use one composite Method or several connected Methods. It should lead to their developed public explanation. E.11 selects when that entry is useful. A card that only helps choose among methods can remain navigation.
+
+Discover useful combinations from recurring situations as well as from already named patterns. Follow a result that readers repeatedly struggle to use, or a connection they repeatedly invent. Compare the methods, rules and worked constructions supplied by independently developed patterns and earlier treatments. Reuse a complete available construction; where none exists, develop the missing joins through §§4.1–4.6. A combination need not have been assembled in one source before the author can construct it. Conversely, co-occurrence in a source or a long list of relevant patterns does not establish a useful combination.
 
 Do not require every public Method to have a separate card. Start from a recognition problem that changes use. The short form may omit detail available at the direct destination; it must retain the conditions that determine the first move and an honest stop.
 
-When a supplier or receiving condition changes, return to the affected connection and encompassing uses. B.1.5.RS governs replacing a constituent; E.19 governs a corresponding pattern-edition change. Retain the explanation's useful conditions even when a shorter public form is desired.
+When a supplier or receiving condition changes, return to the affected connection and encompassing uses. Separate permitted Method variation from a different Method with A.3.1 when that question matters. B.1.5.RS governs replacing a constituent; E.19 governs a corresponding pattern-edition change. Retain the explanation's useful conditions even when a shorter public form is desired.
 

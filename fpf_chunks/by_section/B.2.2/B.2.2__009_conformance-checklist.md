@@ -6,12 +6,12 @@ section_id: "B.2.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__009_conformance-checklist.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
   - "B.2.2:6 — Conformance Checklist"
-line_start: 41318
-line_end: 41330
+line_start: 41358
+line_end: 41370
 dependencies:
   - "A.1"
   - "A.10"

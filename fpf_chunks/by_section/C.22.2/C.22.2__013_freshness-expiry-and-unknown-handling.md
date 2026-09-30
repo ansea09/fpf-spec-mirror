@@ -6,12 +6,12 @@ section_id: "C.22.2:12"
 section_title: "Freshness, Expiry, and Unknown Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__013_freshness-expiry-and-unknown-handling.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:12 — Freshness, Expiry, and Unknown Handling"
-line_start: 59631
-line_end: 59660
+line_start: 59671
+line_end: 59700
 dependencies:
   - "A.10"
   - "A.15"

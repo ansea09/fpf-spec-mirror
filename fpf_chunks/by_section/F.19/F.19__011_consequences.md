@@ -6,12 +6,12 @@ section_id: "F.19:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__011_consequences.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:9 — Consequences"
-line_start: 111328
-line_end: 111333
+line_start: 111644
+line_end: 111649
 dependencies:
   - "A.19.SPR"
   - "A.6.P"

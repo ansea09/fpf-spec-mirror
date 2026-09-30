@@ -1,20 +1,24 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.4.CM"
-pattern_title: "Develop Composite Methods as Framework Contributions"
+pattern_title: "Develop Connected Methods as Framework Contributions"
 section_id: "E.4.CM:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__007_bias-annotation.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
-  - "E.4.CM — Develop Composite Methods as Framework Contributions"
+  - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:6 — Bias-Annotation"
-line_start: 80287
-line_end: 80290
+line_start: 80507
+line_end: 80510
 dependencies:
+  - "A.3.1"
+  - "B.1.5"
   - "B.1.5.EW"
   - "B.1.5.RS"
+  - "C.32.MWA"
+  - "C.39"
   - "C.39.RO"
   - "E.11"
   - "E.11.PFP"
@@ -22,6 +26,7 @@ dependencies:
   - "E.21"
   - "E.4"
   - "E.8"
+  - "F.0.2"
   - "F.19"
 keywords:
 ---

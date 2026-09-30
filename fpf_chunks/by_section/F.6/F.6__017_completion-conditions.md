@@ -6,12 +6,12 @@ section_id: "F.6:15"
 section_title: "Completion Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__017_completion-conditions.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:15 — Completion Conditions"
-line_start: 105489
-line_end: 105496
+line_start: 105805
+line_end: 105812
 dependencies:
   - "A.1.1"
   - "A.10"

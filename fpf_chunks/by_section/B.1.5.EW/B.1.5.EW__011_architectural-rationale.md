@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__011_architectural-rationale.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:10 — Architectural Rationale"
-line_start: 40150
-line_end: 40155
+line_start: 40190
+line_end: 40195
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"

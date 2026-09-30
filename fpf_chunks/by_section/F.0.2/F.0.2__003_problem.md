@@ -1,21 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.0.2"
-pattern_title: "Conceptual Synthesis across Source Ontologies"
+pattern_title: "Semantic Synthesis across Source Ontologies"
 section_id: "F.0.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__003_problem.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
-  - "F.0.2 — Conceptual Synthesis across Source Ontologies"
+  - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:2 — Problem"
-line_start: 103516
-line_end: 103527
+line_start: 103823
+line_end: 103834
 dependencies:
   - "A.2.4"
   - "C.2.1"
+  - "C.39"
   - "E.10.ARCH"
+  - "E.4.CM"
   - "E.4.DPF"
   - "F.0.1"
   - "F.1"
@@ -40,5 +42,5 @@ Three failures follow:
 2. a source difference that changes action is hidden as terminology variation; or
 3. missing or weak source material is reported as if the disputed domain claim were false.
 
-Conceptual synthesis must preserve source-local meanings while returning a positive next move or an honest bounded stop.
+Semantic synthesis must preserve source-local meanings while returning a positive next move or an honest bounded stop.
 

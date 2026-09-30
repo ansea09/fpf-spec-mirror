@@ -6,12 +6,12 @@ section_id: "F.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__010_consequences.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
   - "F.1:9 — Consequences"
-line_start: 103998
-line_end: 104015
+line_start: 104314
+line_end: 104331
 dependencies:
   - "A.10"
   - "A.7"

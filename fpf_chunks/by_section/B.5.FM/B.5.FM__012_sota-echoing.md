@@ -6,12 +6,12 @@ section_id: "B.5.FM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__012_sota-echoing.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:11 — SoTA-Echoing"
-line_start: 45339
-line_end: 45356
+line_start: 45379
+line_end: 45396
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

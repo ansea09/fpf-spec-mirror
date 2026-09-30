@@ -6,12 +6,12 @@ section_id: "C.2.7:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__007_bias-annotation.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:6 — Bias-Annotation"
-line_start: 50340
-line_end: 50342
+line_start: 50380
+line_end: 50382
 dependencies:
   - "A.16"
   - "A.16.0"

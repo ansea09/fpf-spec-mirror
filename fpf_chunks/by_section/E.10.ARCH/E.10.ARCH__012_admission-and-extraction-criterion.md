@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:6"
 section_title: "Admission and extraction criterion"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__012_admission-and-extraction-criterion.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:6 — Admission and extraction criterion"
-line_start: 87788
-line_end: 87804
+line_start: 88094
+line_end: 88110
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -76,7 +76,7 @@ Add or retain a `WordingUseRestorationApplicabilityRow` when all of the followin
 - a useful remaining reader use survives the repair and the row helps recover it;
 - no existing subject pattern already carries the row without duplicating repair-only doctrine inside subject patterns.
 
-Do not add a new realization pattern when an existing subject pattern such as `A.6.F`, `A.6.A`, `A.6.M`, `A.15.4`, `A.6.6`, `A.6.3.CSC`, `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, or another subject pattern already contains the rule that defines, constrains, or tests the EntityOfConcern under repair, relation, claim, or field. Record the PatternID that locates that rule as `subjectPatternLocator` and state the rule's contribution.
+Do not add a new realization pattern when an existing subject pattern such as `A.6.F`, `A.6.A`, `A.6.M`, `A.15.4`, `A.6.6`, `A.6.3.CSC`, `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, or another subject pattern already contains the rule that defines, constrains, or tests the EntityOfConcern under repair, relation, claim, or field. Record the PatternID that locates that rule as `subjectPatternLocator` and state what the rule defines, constrains or tests.
 
 Extract repair-only material from a subject pattern when the material is only wording-recognition lists, false-friend rows, anti-umbrella prose, or repair fields that must run before the subject pattern can state its own invariant. Leave a narrow first-use cue or subject-pattern relation in the subject pattern.
 

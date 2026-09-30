@@ -6,12 +6,12 @@ section_id: "C.29.3:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.3/C.29.3__012_sota-echoing.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.29.3 — Computational Realization"
   - "C.29.3:11 — SoTA-Echoing"
-line_start: 66656
-line_end: 66670
+line_start: 66696
+line_end: 66710
 dependencies:
   - "A.3.3"
   - "A.6.1"
@@ -23,7 +23,7 @@ keywords:
 
 ### C.29.3:11 - SoTA-Echoing
 
-The selected answer combines a physical-realization comparison with scope-sensitive result use and a return to formulation when the available means suggest a different construction. The examples are authored conceptual synthesis under their stated models.
+The selected answer combines a physical-realization comparison with scope-sensitive result use and a return to formulation when the available means suggest a different construction. The examples are constructed under their stated models.
 
 | Working question | Source contribution and selected use | Comparison and limit |
 | --- | --- | --- |

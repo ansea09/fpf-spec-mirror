@@ -6,12 +6,12 @@ section_id: "B.1.4:End"
 section_title: "B.1.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__016_b-1-4-end.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:End — B.1.4:End"
-line_start: 39577
-line_end: 39578
+line_start: 39617
+line_end: 39618
 dependencies:
   - "A.1.1"
   - "A.14"

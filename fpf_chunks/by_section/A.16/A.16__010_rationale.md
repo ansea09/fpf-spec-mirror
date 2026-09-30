@@ -6,12 +6,12 @@ section_id: "A.16:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__010_rationale.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:9 — Rationale"
-line_start: 30726
-line_end: 30729
+line_start: 30745
+line_end: 30748
 dependencies:
   - "A.13"
   - "A.15.1"

@@ -6,19 +6,24 @@ section_id: "C.39:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__003_problem.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:2 — Problem"
-line_start: 76769
-line_end: 76774
+line_start: 76860
+line_end: 76865
 dependencies:
-  - "A.10"
+  - "A.22.CGUS"
   - "A.3.1"
   - "A.3.2"
+  - "B.1.5"
   - "C.11"
+  - "C.30.ASV"
+  - "C.32.MWA"
   - "C.38"
+  - "C.39.RO"
   - "C.40"
+  - "E.4.CM"
   - "F.0.1"
   - "F.1"
 keywords:
@@ -28,5 +33,5 @@ keywords:
 
 A desired result and a plausible label leave a gap. A found source can describe something successful without showing how to reproduce the relevant contribution under different conditions. Conversely, a useful description may be rejected because its vocabulary differs from the receiving practice.
 
-The practitioner needs to construct and examine the obtaining explanation. Listing more sources does not do that work. Detailing every constituent action can also waste effort: a single unknown connection may decide feasibility, while an already qualified operation needs no further reconstruction.
+The practitioner needs to construct and examine the obtaining explanation. Listing sources or drawing arrows does not do that work. A usable connection may need an input conversion, a choice, a shared condition or a return after failure; repeating each available operation can leave exactly that connection unexplained. Detailing every action is also wasteful when one unknown join decides feasibility and the other operations are already qualified.
 

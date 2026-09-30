@@ -6,12 +6,12 @@ section_id: "A.15.7:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__010_consequences.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:9 — Consequences"
-line_start: 29141
-line_end: 29150
+line_start: 29160
+line_end: 29169
 dependencies:
   - "A.10"
   - "A.13"

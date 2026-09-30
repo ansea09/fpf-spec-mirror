@@ -6,12 +6,12 @@ section_id: "A.2.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__002_use-this-when.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:0 — Use This When"
-line_start: 3944
-line_end: 3977
+line_start: 3963
+line_end: 3996
 dependencies:
   - "A.1.1"
   - "A.15"

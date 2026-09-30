@@ -6,12 +6,12 @@ section_id: "E.5.2:4"
 section_title: "Solution - Keep meaning portable while choosing a useful expression"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__005_solution-keep-meaning-portable-while-choosing-a-useful-expression.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:4 — Solution - Keep meaning portable while choosing a useful expression"
-line_start: 82838
-line_end: 82858
+line_start: 83084
+line_end: 83104
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:11"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__019_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:11 — Common Anti-Patterns and How to Avoid Them"
-line_start: 87899
-line_end: 87920
+line_start: 88205
+line_end: 88226
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -77,7 +77,7 @@ keywords:
 | Trigger registry copying | `E.19`, `C.30.P`, `C.16.P`, `C.16.Q`, or a subject pattern copies the full `E.10` trigger list. | Keep only the thin cues needed for independent unresolved questions and cite `E.10` and `E.10.ARCH` through ordinary references or `Relations`. |
 | DPF entry promoted to FPF vocabulary | A domain trigger or its local repair is copied into the shared applicability table merely because one DPF uses it. | Keep the entry beside the DPF claim whose wording it restores; propose an FPF amendment only when the same participants, relation, failure, move, and use remain meaningful across domains. |
 | DPF wording profile by default | A DPF creates a trigger registry, profile, table, or package-wide no-profile result before recurring wording or a maintained multi-entry use has been shown. | Repair one case locally; create entries only for demonstrated recurrence, identify a separate profile only for a named maintained multi-entry use, and keep any table that publishes it as a publication form. |
-| Wording repair settles domain doctrine | An author changes a domain claim while presenting the work as lexical repair. | Stop and reopen the DPF source, conceptual-synthesis, or content decision; resume wording restoration only after the relied domain claim is current. |
+| Wording repair settles domain doctrine | An author changes a domain claim while presenting the work as lexical repair. | Stop and reopen the DPF source, semantic-synthesis, or content decision; resume wording restoration only after the relied domain claim is current. |
 | Umbrella-to-umbrella replacement | `support` becomes `basis`, `display` becomes `view`, `reading` becomes `evaluation`, or `function` becomes `role` without a recovered governed object and exact use. | Recover the governed object, any direct relation use, admissible use, and remaining reader use; otherwise demote or block. |
 | Source-ontology smuggling | `interface`, `schema`, `record`, `profile`, `path`, or another familiar source-domain word is used because it sounds precise, but the recovered governed object or direct relation is different. | Recover the source ontology, governed object, exact direct relation, any declaration-local SlotSpec or assertion-side designation, and the rule that defines or tests the claim; keep the source word only when that rule makes the meaning current. |
 | Over-annotated restoration | A clear subject sentence is expanded into type labels or source-ontology commentary even though no object, kind, relation, slot, admissible use, or subject pattern changes. | Keep the ordinary wording; annotate only the claim-governing term under repair and use `F.19` if phrase apparatus remains. |

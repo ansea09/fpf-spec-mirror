@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__005_forces.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:3 — Forces"
-line_start: 35299
-line_end: 35315
+line_start: 35318
+line_end: 35334
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

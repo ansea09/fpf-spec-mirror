@@ -6,12 +6,12 @@ section_id: "C.2.2a:14"
 section_title: "Position Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__016_position-publication-package-discipline.md"
-commit_sha: "d131d30a44e78523e78da9d22aefd83e59f5e4a4"
+commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:14 — Position Publication Package Discipline"
-line_start: 49114
-line_end: 49125
+line_start: 49154
+line_end: 49165
 dependencies:
   - "A.16"
   - "A.16.0"
