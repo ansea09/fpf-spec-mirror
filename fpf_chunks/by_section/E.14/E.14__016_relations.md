@@ -6,12 +6,12 @@ section_id: "E.14:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__016_relations.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:13 — Relations"
-line_start: 91727
-line_end: 91748
+line_start: 91741
+line_end: 91762
 dependencies:
   - "B.3.5"
   - "C.13"

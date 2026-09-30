@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.RSIG.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
-line_start: 11874
-line_end: 12287
+line_start: 11868
+line_end: 12281
 dependencies:
   - "A.6"
   - "A.6.P"

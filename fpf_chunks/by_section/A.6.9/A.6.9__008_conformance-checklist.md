@@ -6,12 +6,12 @@ section_id: "A.6.9:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__008_conformance-checklist.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:7 — Conformance Checklist"
-line_start: 22378
-line_end: 22401
+line_start: 22372
+line_end: 22395
 dependencies:
   - "A.1.1"
   - "A.10"

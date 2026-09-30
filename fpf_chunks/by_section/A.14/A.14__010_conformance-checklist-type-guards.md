@@ -6,12 +6,12 @@ section_id: "A.14:9"
 section_title: "Conformance Checklist - type guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__010_conformance-checklist-type-guards.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:9 — Conformance Checklist - type guards"
-line_start: 26085
-line_end: 26184
+line_start: 26079
+line_end: 26178
 dependencies:
   - "A.1"
   - "A.15"
@@ -69,7 +69,7 @@ keywords:
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | **CC‑POR‑1 (Domain)**              | `PortionOf(x,y)` is valid only if the modelling scope declares at least one **extensive measure** μ for y (mass, volume, token count, byte size, wall‑time budget, etc.). | Prevents “portion” without a measure.   |
 | **CC‑POR‑2 (Kind)**                | x and y **SHALL** share the same μ‑kind and compatible units (or an explicit conversion).                                                                                 | Prevents apples‑to‑oranges addition.    |
-| **CC‑POR‑3 (Monotone additivity)** | For disjoint portions `x ⟂ z` with `PortionOf(-,y)`, whose join is admitted under the same measure and boundary rule: μ(x ⊔ z) = μ(x)+μ(z). | Secures Σ‑reasoning and Γ\_sys proofs. |
+| **CC-POR-3 (Monotone additivity)** | For disjoint portions `x ⟂ z` with `PortionOf(-,y)`, whose join is admitted under the same measure and boundary rule: μ(x ⊔ z) = μ(x)+μ(z). | Justifies the additive measure of that admitted join; additions, removals and boundary flows still need their applicable conservation account. |
 | **CC‑POR‑4 (Boundary)**            | For physical systems, the whole’s boundary encloses the union of portions; cross‑boundary flows are **not** portions.                                                     | Distinguishes stock vs flow.            |
 | **CC‑POR‑5 (Non‑replacement)** | When replacing a measured portion of y, state the removed and inserted amounts under their applicable measure and boundary rules, and test y's identity under its governing rule. Add **ComponentOf** or **ConstituentOf** only when that separate structural or content relation obtains. | Avoids inferring another relation from a measured replacement. |
 
@@ -142,11 +142,11 @@ keywords:
 | “Spec v2 overlaps v1.” | A version label is asked to decide identity and phase. | Compare C.2.1 identities and test edition continuity; use PhaseOf only for one unchanged episteme over a proper interval. |
 | “Team is part of the project.” | Collection belonging is confused with constructive parthood. | State the affiliation rule. If an integrated whole is also claimed, apply all six A.1 matters and state the part relation separately. |
 
-#### A.14:9.9 - Interplay with Γ‑flavours (how these relations behave under aggregation)
+#### A.14:9.9 - Mereology in composition and aggregation
 
-| Γ‑flavour                    | Mereological hooks (what A.14 supplies)                                                                                                                | Key effect                                                                                    |
+| Receiving use | Mereological hooks (what A.14 supplies) | Key effect |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
-| **Γ\_sys (B.1.2)** | Treat PortionOf as additive stocks; ComponentOf respects boundary integration; AspectOf remains facet-local structural parthood and is not a separate aggregation operator; PhaseOf is not aggregated here. | Conserves extensive measures and prevents facets from becoming system decompositions. |
+| **System aggregation decision (B.1.2:4)** | Add measures of disjoint portions only under :5.1 and the selected whole-characteristic rule in B.1.2:4.4. Establish ComponentOf and boundary integration separately. AspectOf remains facet-local structural parthood; PhaseOf requires its own carrier identity and temporal restriction. | Supports justified quantitative roll-up while preserving the distinct component, aspect and phase claims. |
 | **Γ\_epist (B.1.3)** | PortionOf of text or data uses a declared measure; ConstituentOf composes arguments or sections; AspectOf is available only for an independently admitted episteme-dependent structural aspect under a declared facet rule. A viewpoint, view, heading, or projection remains with E.17 or C.29. PhaseOf may restrict one unchanged episteme to a proper interval. | Preserves provenance and prevents description choices from creating episteme parts. |
 | **Γ\_ctx / Γ\_time (B.1.4)** | **PhaseOf** supplies proper temporal restrictions, including nested or overlapping windows. A separately selected partition supplies non-overlap and coverage only for its own cells. Order/dependencies live in **Γ\_ctx** and method graphs (A.15/B.1.5). **PortionOf** is orthogonal (quantities inside steps/runs). | Ensures chronological consistency without turning every temporal restriction into one partition. |
 | **Γ\_method (B.1.5)** | Γ\_method composes Methods rather than A.14 structural parts. A recipe-labelled claim-bearing episteme is a **MethodDescription** only when its `EntityOfConcern` is one admitted `U.Method` and at least one substantive way-of-doing claim obtains under A.3.2; any graph form is a representation handled by C.29. When a recipe refers to stuff-like inputs, those are **PortionOf** statements on resources. | Separates recipe composition from structure. |

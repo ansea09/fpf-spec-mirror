@@ -6,12 +6,12 @@ section_id: "A.3:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__004_problem.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:3 — Problem"
-line_start: 8267
-line_end: 8277
+line_start: 8261
+line_end: 8271
 dependencies:
   - "A.10"
   - "A.12-A.15"

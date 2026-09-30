@@ -6,12 +6,12 @@ section_id: "A.2.2:3"
 section_title: "Positive Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__004_positive-solution.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:3 — Positive Solution"
-line_start: 4376
-line_end: 4411
+line_start: 4370
+line_end: 4405
 dependencies:
   - "A.1"
   - "A.15"

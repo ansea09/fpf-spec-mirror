@@ -6,12 +6,12 @@ section_id: "C.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__004_problem.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:2 — Problem"
-line_start: 51101
-line_end: 51104
+line_start: 51103
+line_end: 51106
 dependencies:
   - "A.1"
   - "A.11"

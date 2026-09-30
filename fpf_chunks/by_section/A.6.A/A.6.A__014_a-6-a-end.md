@@ -6,12 +6,12 @@ section_id: "A.6.A:End"
 section_title: "A.6.A:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__014_a-6-a-end.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:End — A.6.A:End"
-line_start: 20027
-line_end: 20028
+line_start: 20021
+line_end: 20022
 dependencies:
   - "A.15"
   - "A.16"

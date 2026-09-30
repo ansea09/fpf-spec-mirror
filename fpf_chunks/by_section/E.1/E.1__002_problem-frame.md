@@ -1,26 +1,28 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.1"
-pattern_title: "Vision & Mission: “Operating System for Thought”"
+pattern_title: "Vision & Mission"
 section_id: "E.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__002_problem-frame.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
-  - "E.1 — Vision & Mission: “Operating System for Thought”"
+  - "E.1 — Vision & Mission"
   - "E.1:1 — Problem frame"
-line_start: 79298
-line_end: 79303
+line_start: 79300
+line_end: 79305
 dependencies:
   - "E.2"
 keywords:
+  - "first principles"
   - "goals"
   - "mission"
   - "non-goals"
-  - "operating system for thought"
   - "purpose"
+  - "reusable methods"
   - "scope"
+  - "shared grounds"
   - "vision"
 ---
 

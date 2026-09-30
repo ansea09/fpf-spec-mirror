@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__002_problem-frame.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:1 — Problem frame"
-line_start: 82634
-line_end: 82652
+line_start: 82648
+line_end: 82666
 dependencies:
   - "C.2.1"
   - "C.33"

@@ -6,12 +6,12 @@ section_id: "A.2:9"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__011_common-anti-patterns.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:9 — Common Anti-Patterns"
-line_start: 3894
-line_end: 3907
+line_start: 3888
+line_end: 3901
 dependencies:
   - "A.1"
   - "A.1.1"

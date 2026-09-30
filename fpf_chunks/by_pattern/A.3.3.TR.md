@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.3.TR.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
-line_start: 10012
-line_end: 10252
+line_start: 10006
+line_end: 10246
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"

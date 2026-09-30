@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__012_sota-echoing.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:11 — SoTA-Echoing"
-line_start: 82244
-line_end: 82255
+line_start: 82258
+line_end: 82269
 dependencies:
   - "A.1.1"
   - "A.10"

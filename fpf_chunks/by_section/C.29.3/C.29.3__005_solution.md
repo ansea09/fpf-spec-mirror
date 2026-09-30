@@ -6,12 +6,12 @@ section_id: "C.29.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.3/C.29.3__005_solution.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.29.3 — Computational Realization"
   - "C.29.3:4 — Solution"
-line_start: 66421
-line_end: 66518
+line_start: 66423
+line_end: 66520
 dependencies:
   - "A.3.3"
   - "A.6.1"

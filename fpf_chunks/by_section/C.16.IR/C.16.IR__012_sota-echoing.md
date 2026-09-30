@@ -6,12 +6,12 @@ section_id: "C.16.IR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__012_sota-echoing.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:11 — SoTA-Echoing"
-line_start: 54862
-line_end: 54873
+line_start: 54864
+line_end: 54875
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

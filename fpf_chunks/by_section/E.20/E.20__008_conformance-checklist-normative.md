@@ -6,12 +6,12 @@ section_id: "E.20:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__008_conformance-checklist-normative.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:7 — Conformance Checklist (normative)"
-line_start: 99819
-line_end: 99839
+line_start: 99833
+line_end: 99853
 dependencies:
   - "A.15.3"
   - "A.6.1"

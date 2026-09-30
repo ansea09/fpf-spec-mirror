@@ -6,12 +6,12 @@ section_id: "A.6.REL:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__013_relations.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
   - "A.6.REL:12 — Relations"
-line_start: 13818
-line_end: 13833
+line_start: 13812
+line_end: 13827
 dependencies:
   - "A.6.0"
   - "A.6.5"

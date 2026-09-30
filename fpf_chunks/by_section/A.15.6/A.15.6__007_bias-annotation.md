@@ -6,12 +6,12 @@ section_id: "A.15.6:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__007_bias-annotation.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:6 — Bias-Annotation"
-line_start: 28891
-line_end: 28898
+line_start: 28885
+line_end: 28892
 dependencies:
   - "A.1"
   - "A.1.STM"

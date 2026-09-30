@@ -6,12 +6,12 @@ section_id: "B.5.MPC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__010_consequences.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:9 — Consequences"
-line_start: 44250
-line_end: 44257
+line_start: 44252
+line_end: 44259
 dependencies:
   - "A.15.9"
   - "A.3.3"

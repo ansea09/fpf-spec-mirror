@@ -6,12 +6,12 @@ section_id: "A.19.UNM:End"
 section_title: "A.19.UNM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__015_a-19-unm-end.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:End — A.19.UNM:End"
-line_start: 35280
-line_end: 35281
+line_start: 35274
+line_end: 35275
 dependencies:
 keywords:
   - "CV→NCV"

@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__006_archetypal-grounding.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:5 — Archetypal grounding"
-line_start: 96255
-line_end: 96329
+line_start: 96269
+line_end: 96343
 dependencies:
   - "A.10"
   - "A.15"

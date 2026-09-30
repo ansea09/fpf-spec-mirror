@@ -6,12 +6,12 @@ section_id: "E.4.PFR:4"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__006_archetypal-grounding.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:4 — Archetypal Grounding"
-line_start: 82462
-line_end: 82533
+line_start: 82476
+line_end: 82547
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -56,9 +56,9 @@ If a later Core relation-function maintenance replay must enumerate every CGUS p
 
 #### E.4.PFR:4.2 - Framework edition dependency
 
-Start with the readable dependency assertion:
+Start with the readable dependency assertion. The edition labels below are illustrative; `FPF@C1` contains the cited Core claims:
 
-> `CodexProcessFramework@current` uses the selected `FPFCorePatternSet@current` authoring and quality rules as required constraints on local process authoring. Without those rules, or after a relevant change to them, the affected local guidance cannot remain current without recheck. `CodexProcessFramework@current` therefore depends on that exact Core content for local process authoring.
+> `CodexProcessFramework@L1` depends on `FPF@C1` for local process authoring: its revision guidance applies E.8:4.1.2, item 6, which requires repair of stale direct consumers in the same authoring increment; its evaluation guidance applies E.21:4.3's rule for an adjacent-value rationale in each coordinate result. Removing or materially changing either claim reopens the corresponding local guidance. Changing the selected FPF edition also requires checking these dependencies.
 
 Choose the representation from the receiver's job. A cross-relation comparison may use one generic PFR row. An edition-impact or refresh receiver may use one dependency-specific record. This receiver needs the relied-on content and refresh fields, so it uses only the dependency record:
 
@@ -67,13 +67,13 @@ FrameworkEditionDependencyRecord@CodexProcessFramework:
   subjectAssertionRef: CodexProcessFramework-CoreDependencyAssertion
   dependencyPredicateClaimRef: E.4.PFR:3.4-framework-edition-dependency-predicate
   directionConstraintClaimRef: E.5.3-local-to-Core-direction-and-Core-acyclicity
-  dependentEditionRef: CodexProcessFramework@current
-  reliedOnEditionRef: FPFCorePatternSet@current
-  reliedOnContentRefs: [selected_Core_authoring_and_quality_rules]
+  dependentEditionRef: CodexProcessFramework@L1
+  reliedOnEditionRef: FPF@C1
+  reliedOnContentRefs: ["FPF@C1 E.8:4.1.2 item 6", "FPF@C1 E.21:4.3 adjacent-value rationale rule"]
   namedUse: local_process_authoring
-  dependencyDirection: local_to_Core
+  dependencyDirection: CodexProcessFramework@L1 -> FPF@C1
   dependencyReason: the selected Core rules are required constraints on the affected local guidance; removing or relevantly changing them invalidates or reopens that guidance
-  refreshConditionRefs: [G.11-Core_pin_or_selected_rule_change]
+  refreshConditionRefs: [FPF_edition_change_or_material_change_to_either_relied_on_claim_as_stated_above]
 ```
 
 If one named cross-relation receiver also needs the generic view, add one `PatternFrameworkRelationRecord`, give both forms the same `subjectAssertionRef`, and set the dependency record's `genericRelationRecordRef` to that row. In the generic row, `relationFunctionClaimRef` points to the E.4.PFR:3.4 dependency predicate, `dependencyOrEditionEffect` states the E.5.3-constrained direction, and `refreshOrSupersessionCondition` cites the G.11 refresh condition. Derive their shared endpoints, use, direction/effect, and refresh condition from the subject assertion. A change to that assertion refreshes both views together; neither carries an independently maintained copy of the dependency fact.
@@ -96,7 +96,7 @@ PatternFrameworkRelationRecord@HydroponicCucumberDomain:
   sourceReturnCondition: reconsider when including an omitted rival horticulture tradition could change the selected source answer or bounded nutrient-monitoring use
 ```
 
-A hydroponic framework may separately carry a Core-edition dependency, publication relation to its all-in-one carrier, access relation to a grower-assistant skill pack, specialization relation for a narrowed authoring pattern, and quality relations for evaluated drafts. Each remains a different assertion and optional row.
+A hydroponic framework may separately carry a dependency on Core content in an FPF edition, publication relation to its all-in-one carrier, access relation to a grower-assistant skill pack, specialization relation for a narrowed authoring pattern, and quality relations for evaluated drafts. Each remains a different assertion and optional row.
 
 #### E.4.PFR:4.4 - Genuine overlap conflict
 

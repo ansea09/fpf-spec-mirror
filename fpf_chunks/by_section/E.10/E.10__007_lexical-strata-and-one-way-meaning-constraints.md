@@ -6,12 +6,12 @@ section_id: "E.10:5"
 section_title: "Lexical strata and one-way meaning constraints"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__007_lexical-strata-and-one-way-meaning-constraints.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:5 — Lexical strata and one-way meaning constraints"
-line_start: 86061
-line_end: 86077
+line_start: 86075
+line_end: 86091
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.9.DA:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__008_conformance-checklist.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:7 — Conformance checklist"
-line_start: 85188
-line_end: 85210
+line_start: 85202
+line_end: 85224
 dependencies:
   - "A.19.ECS"
   - "E.10"

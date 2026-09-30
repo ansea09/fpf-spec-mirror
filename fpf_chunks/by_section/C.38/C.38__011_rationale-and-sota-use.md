@@ -6,12 +6,12 @@ section_id: "C.38:10"
 section_title: "Rationale and SoTA use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__011_rationale-and-sota-use.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:10 — Rationale and SoTA use"
-line_start: 76818
-line_end: 76827
+line_start: 76820
+line_end: 76829
 dependencies:
   - "A.10"
   - "A.15.9"

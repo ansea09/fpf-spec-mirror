@@ -6,12 +6,12 @@ section_id: "E.4.DPF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__004_forces.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:3 — Forces"
-line_start: 81262
-line_end: 81272
+line_start: 81276
+line_end: 81286
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -69,5 +69,5 @@ keywords:
 | Problem-solving primacy | A DPF may need terms and ontology, but those are supports for recognizing recurring domain problems and choosing SoTA solution moves, not the framework's payoff by themselves. |
 | FPF reuse | FPF Core gives strong authoring, relation, and quality patterns, but direct copying can mask domain-specific concerns. |
 | Publication need | A framework publication carrier helps readers, but it can hide relation, dependency, and currentness records. |
-| Evolution | Domain and local frameworks change and improve as sources, uses, and Core editions change. |
+| Evolution | Domain and local frameworks change and improve as sources, uses, relied-on framework editions, and the required Core claims change. |
 

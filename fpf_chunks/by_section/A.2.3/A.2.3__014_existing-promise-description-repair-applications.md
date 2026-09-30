@@ -6,12 +6,12 @@ section_id: "A.2.3:10"
 section_title: "Existing promise-description repair applications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__014_existing-promise-description-repair-applications.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:10 — Existing promise-description repair applications"
-line_start: 5081
-line_end: 5089
+line_start: 5075
+line_end: 5083
 dependencies:
   - "A.1.1"
   - "A.10"

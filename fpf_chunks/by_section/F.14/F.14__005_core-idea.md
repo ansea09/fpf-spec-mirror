@@ -6,12 +6,12 @@ section_id: "F.14:4"
 section_title: "Core idea"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__005_core-idea.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:4 — Core idea"
-line_start: 108424
-line_end: 108436
+line_start: 108438
+line_end: 108450
 dependencies:
   - "A.10"
   - "A.15.1"

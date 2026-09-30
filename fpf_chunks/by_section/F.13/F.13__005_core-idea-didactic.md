@@ -6,12 +6,12 @@ section_id: "F.13:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__005_core-idea-didactic.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:4 — Core idea (didactic)"
-line_start: 108113
-line_end: 108125
+line_start: 108127
+line_end: 108139
 dependencies:
   - "F.1"
   - "F.17"

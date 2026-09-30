@@ -6,12 +6,12 @@ section_id: "B.5.EA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__004_forces.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.5.EA — Articulate a Working Distinction from Experience"
   - "B.5.EA:3 — Forces"
-line_start: 43751
-line_end: 43760
+line_start: 43753
+line_end: 43762
 dependencies:
   - "B.5"
   - "B.5.4"

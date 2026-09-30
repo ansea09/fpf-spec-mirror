@@ -6,12 +6,12 @@ section_id: "F.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__014_relations.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:12 — Relations"
-line_start: 105441
-line_end: 105450
+line_start: 105455
+line_end: 105464
 dependencies:
   - "A.10"
   - "A.15"

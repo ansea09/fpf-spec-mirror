@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__005_solution.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:4 — Solution"
-line_start: 81907
-line_end: 82123
+line_start: 81921
+line_end: 82137
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -100,7 +100,7 @@ DPFPackageAdequacyEvaluationConfiguration:
   FrameworkEpistemeEditionOfConcernRef: <one exact authored U.Episteme>
   DeclaredVisiblePackageFormOrUse: <plain description of the exact visible form or use being evaluated; not a U-kind>
   PackageArchitectureRefs:
-  FPFCoreEditionRef:
+  FPFEditionRef: <the selected FPF edition; required Core claims are identified in DependencyAndEditionRefs>
   DependencyAndEditionRefs:
   SourceBasisRefs:
   PFADDecisionRefs:
@@ -272,5 +272,5 @@ When a coordinate is below floor, return a finding or repair proposal. When a co
 | `seedOnly` | The package is useful as a seed or prompt output but not for reliance-bearing use. |
 | `holdForPFADDecision` | The package architecture, pattern set, dependency, or publication unit needs a framework architecture decision. |
 | `holdForCoreAmendmentDecision` | A package claim may belong in FPF Core and must not be hidden inside a DPF. |
-| `refreshNeeded` | The package was adequate before, but source, Core edition, local use, telemetry, or dependency state has changed. |
+| `refreshNeeded` | The package was adequate before, but a source, relied-on framework edition, local use, telemetry, or dependency state has changed, or a relied-on Core claim has changed materially. |
 

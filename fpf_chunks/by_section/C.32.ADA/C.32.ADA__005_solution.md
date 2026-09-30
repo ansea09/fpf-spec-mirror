@@ -6,12 +6,12 @@ section_id: "C.32.ADA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__005_solution.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:4 — Solution"
-line_start: 75105
-line_end: 75210
+line_start: 75107
+line_end: 75212
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `b112256466bff620bbee2b72ab8cfe4ad976e60d`
+Commit SHA: `becbad541e7cc23731542d1e14370b3b4e423a65`
 
 Chunking method: `pattern-aware`
 
@@ -259,7 +259,7 @@ Patterns: `355`
 - [D.3 — Describe an Ethical Conflict Across Levels or Scopes](by_pattern/D.3.md)
 - [D.4 — Ethical Mediation and Decision Use](by_pattern/D.4.md)
 - [D.5 — Bias Audit and Ethical Assurance](by_pattern/D.5.md)
-- [E.1 — Vision & Mission: “Operating System for Thought”](by_pattern/E.1.md)
+- [E.1 — Vision & Mission](by_pattern/E.1.md)
 - [E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)](by_pattern/E.2.md)
 - [E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)](by_pattern/E.2.DA.md)
 - [E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)](by_pattern/E.3.md)

@@ -6,12 +6,12 @@ section_id: "A.1.CSD:5"
 section_title: "Four First-Screen Situations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__008_four-first-screen-situations.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:5 — Four First-Screen Situations"
-line_start: 3239
-line_end: 3272
+line_start: 3233
+line_end: 3266
 dependencies:
   - "A.1"
   - "A.1.SCR"

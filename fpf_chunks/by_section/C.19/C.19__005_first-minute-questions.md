@@ -6,12 +6,12 @@ section_id: "C.19:0.3"
 section_title: "First-minute questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__005_first-minute-questions.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:0.3 — First-minute questions"
-line_start: 57109
-line_end: 57116
+line_start: 57111
+line_end: 57118
 dependencies:
   - "A.10"
   - "A.19.CPM"

@@ -6,12 +6,12 @@ section_id: "C.40:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__008_conformance-checklist.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:7 — Conformance Checklist"
-line_start: 77434
-line_end: 77444
+line_start: 77436
+line_end: 77446
 dependencies:
   - "C.11"
   - "C.18"

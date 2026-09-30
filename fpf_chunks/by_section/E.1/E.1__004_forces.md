@@ -1,26 +1,28 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.1"
-pattern_title: "Vision & Mission: “Operating System for Thought”"
+pattern_title: "Vision & Mission"
 section_id: "E.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__004_forces.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
-  - "E.1 — Vision & Mission: “Operating System for Thought”"
+  - "E.1 — Vision & Mission"
   - "E.1:3 — Forces"
-line_start: 79307
-line_end: 79324
+line_start: 79309
+line_end: 79326
 dependencies:
   - "E.2"
 keywords:
+  - "first principles"
   - "goals"
   - "mission"
   - "non-goals"
-  - "operating system for thought"
   - "purpose"
+  - "reusable methods"
   - "scope"
+  - "shared grounds"
   - "vision"
 ---
 
@@ -30,7 +32,7 @@ keywords:
 | ------------------------------- | ----------------------------------------------------------------------- |
 | **Conceptual Unity**            | Freedom to evolve ↔ invariant principles that prevent vocabulary drift. |
 | **Rigor vs Agility**            | Formal verifiability ↔ rapid, iterative exploration.                    |
-| **Universality vs Specificity** | Domain‑agnostic kernel ↔ problem‑specific leverage.                     |
+| **Universality vs Specificity** | Shared conceptual grounds ↔ methods suited to a particular problem. |
 | **Didactic Clarity**            | Human comprehension ↔ abstract purity and density.                      |
 | **Physical Grounding** | Proposed material realization or physical intervention ↔ a feasibility basis for that action under its resource and physical constraints. |
 
@@ -40,5 +42,5 @@ keywords:
 
 **Vision Statement**
 
-> *Reliable reasoning should be as accessible as version control: clone the conceptual kernel, extend it with domain patterns, and commit decisions that remain traceable across time, scale, and discipline.*
+> *Make reliable reasoning accessible across disciplines: combine the relevant shared grounds and reusable methods of FPF Core with suitable domain methods, and keep decisions traceable to their premises, evidence and revisions.*
 

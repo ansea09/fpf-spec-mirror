@@ -6,12 +6,12 @@ section_id: "A.7:14"
 section_title: "Practitioner one-page review (copy-paste)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__016_practitioner-one-page-review-copy-paste.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:14 — Practitioner one-page review (copy-paste)"
-line_start: 23433
-line_end: 23459
+line_start: 23427
+line_end: 23453
 dependencies:
   - "A.1"
   - "A.10"
@@ -27,9 +27,14 @@ dependencies:
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
+  - "B.1.2"
+  - "B.1.4"
+  - "B.1.5"
+  - "B.1.6"
   - "E.10"
   - "E.17"
   - "E.18"
+  - "E.24.PUB"
   - "F.17"
   - "F.9"
 keywords:
@@ -56,7 +61,7 @@ Keep the sentence this short when the receiving use needs no stronger distinctio
 1. **Acting subject:** Is the acting System recoverable? If assignment identity is not used, do not invent it.
 2. **Current distinctions:** Are Method, Capability, Work, assignment, local kind, and MethodDescription named only for claims that actually use them?
 3. **Description boundary:** Is each Description episteme independently identified by claim content, EntityOfConcern, and effective scheme, with any authoring, measurement, source-use, representation, or refinement relation stated separately?
-4. **Right operator:** `Gamma_method` composes Method; time and resource actuals belong to Work or their direct relations.
+4. **Method and Work:** Use B.1.5 to judge Method composition; use A.15.1 and B.1.6 for the Work occurrence and its resource actuals, and B.1.4 when already established temporal relations need aggregation.
 5. **Episteme and carrier:** Does the episteme remain non-acting and distinct from its publication form and carrier?
 6. **Grouping:** If a group acts, is it recoverable as a collective System rather than merely a set?
 

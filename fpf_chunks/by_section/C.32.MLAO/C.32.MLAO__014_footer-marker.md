@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__014_footer-marker.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:13 — Footer marker"
-line_start: 73956
-line_end: 73959
+line_start: 73958
+line_end: 73961
 dependencies:
   - "A.10"
   - "A.19.CPM"

@@ -6,12 +6,12 @@ section_id: "E.24.CD:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__003_problem-frame.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:1 — Problem Frame"
-line_start: 102516
-line_end: 102521
+line_start: 102530
+line_end: 102535
 dependencies:
   - "A.1"
   - "A.14"

@@ -6,12 +6,12 @@ section_id: "A.6.F:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__011_rationale.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:10 — Rationale"
-line_start: 20422
-line_end: 20429
+line_start: 20416
+line_end: 20423
 dependencies:
   - "A.10"
   - "A.15"

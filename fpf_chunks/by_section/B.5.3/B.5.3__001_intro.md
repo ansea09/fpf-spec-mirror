@@ -6,12 +6,12 @@ section_id: "B.5.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__001_intro.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.5.3 — Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)"
   - "B.5.3:intro — Intro"
-line_start: 46958
-line_end: 46959
+line_start: 46960
+line_end: 46961
 dependencies:
   - "A.13"
   - "A.15"

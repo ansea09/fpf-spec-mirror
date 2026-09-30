@@ -6,12 +6,12 @@ section_id: "E.14:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__002_use-this-when.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:0 — Use This When"
-line_start: 91401
-line_end: 91412
+line_start: 91415
+line_end: 91426
 dependencies:
   - "B.3.5"
   - "C.13"

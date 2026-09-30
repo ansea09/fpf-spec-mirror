@@ -6,12 +6,12 @@ section_id: "A.15.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__006_archetypal-grounding.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:5 — Archetypal Grounding"
-line_start: 27746
-line_end: 27806
+line_start: 27740
+line_end: 27800
 dependencies:
   - "A.15.1"
   - "A.15.2"

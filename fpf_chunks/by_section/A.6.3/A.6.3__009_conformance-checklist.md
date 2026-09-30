@@ -6,12 +6,12 @@ section_id: "A.6.3:8"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__009_conformance-checklist.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:8 — Conformance checklist"
-line_start: 15418
-line_end: 15431
+line_start: 15412
+line_end: 15425
 dependencies:
   - "A.13"
   - "A.15.1"

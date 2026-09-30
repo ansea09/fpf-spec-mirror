@@ -6,12 +6,12 @@ section_id: "E.11.PFP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 90816
-line_end: 90837
+line_start: 90830
+line_end: 90851
 dependencies:
   - "A.3.2"
   - "C.29"

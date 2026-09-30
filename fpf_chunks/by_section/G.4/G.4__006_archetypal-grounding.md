@@ -6,12 +6,12 @@ section_id: "G.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__006_archetypal-grounding.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:5 — Archetypal Grounding"
-line_start: 114199
-line_end: 114241
+line_start: 114213
+line_end: 114255
 dependencies:
   - "A.10"
   - "A.13"

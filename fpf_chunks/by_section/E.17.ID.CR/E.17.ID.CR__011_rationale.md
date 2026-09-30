@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__011_rationale.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:10 — Rationale"
-line_start: 95377
-line_end: 95385
+line_start: 95391
+line_end: 95399
 dependencies:
   - "A.15"
   - "A.15.2"

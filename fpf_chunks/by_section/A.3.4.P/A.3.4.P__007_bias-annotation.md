@@ -6,12 +6,12 @@ section_id: "A.3.4.P:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__007_bias-annotation.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:6 — Bias-Annotation"
-line_start: 11046
-line_end: 11056
+line_start: 11040
+line_end: 11050
 dependencies:
   - "A.10"
   - "A.15.1"

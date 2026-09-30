@@ -6,12 +6,12 @@ section_id: "E.4.FPF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__011_rationale.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:10 — Rationale"
-line_start: 80856
-line_end: 80861
+line_start: 80870
+line_end: 80875
 dependencies:
   - "C.33"
   - "C.34"

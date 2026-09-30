@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__008_conformance-checklist.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:7 — Conformance Checklist"
-line_start: 81155
-line_end: 81177
+line_start: 81169
+line_end: 81191
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -64,11 +64,11 @@ keywords:
 | CC-PFAD.3c Professional-practice projection and several structures | When professional Method coverage changes the answer, the same compact answer projects five connected groups by value: claim-scoped practice truth and first use; project and Method positions; selected structures and correspondences; pressures and evidence; and contribution, subtraction, gaps, and reopen. One answer may carry several bounded practice claims with different obtaining or possible-future status, and every selected question names the claim or claims it consumes. The answer, one ordinary E.9 DRR that records it, and the separately identified accepting decision remain distinct. A missing required group or claim-to-question binding returns a bounded PFAD gap before DPF authoring. `C.32.MWA` is used only when several selected structures do not line up one-for-one and `E.23.CDI` only when capability development changes the answer. `B.1.5`'s complete predicate supplies Method parthood. Realize the five claim groups by value in the one answer and ordinary DRR even when the source begins as a fixed view list, layout, or Method hierarchy. |
 | CC-PFAD.3d Direct-subject account | *Product* remains Plain management wording. A selected product names every direct subject and the identity, current-state, provision, publication, availability, or other relation used by the answer. It names a maintenance relation only when that claim separately obtains and changes the answer. A programme case also distinguishes any provider System, maintenance relation, accepted commitment, or admitted service state that independently obtains, together with bounded Work and evidence-package epistemes. An unresolved kind remains an explicit question, not `U.Product`. |
 | CC-PFAD.3e Exact subtraction and composition | Every outcome-changing candidate contribution is classified as carried by an exact current owner, supplied by an exact external result, an action-bearing remainder, or unresolved through same-situation action, first-result, return, and source-or-refresh comparison. A broad owner counts only when it carries those values. An existing-framework answer distinguishes one DPF receiving a contribution from cross-DPF composition. Record composition under one of the five outcomes and submit Suite membership to the Suite decision. |
-| CC-PFAD.4 Compact payload | The DRR carries only the applicable content groups in `E.4.PFAD:4.2` and ordinary E.9 grounds and rationale; the selected outcome determines the applicable fields for a non-framework product, thinner route, or stop. |
+| CC-PFAD.4 Compact payload | The DRR carries the applicable content groups in `E.4.PFAD:4.2` and ordinary E.9 grounds and rationale. A framework answer names its selected FPF edition, the relied-on Core claims and receiving uses, and separately any other required framework-edition dependencies. The selected outcome determines the applicable content for a non-framework product, thinner route, or stop. |
 | CC-PFAD.5 Direct relation assertions | Relations among initial patterns are stated directly under their actual relation functions; an optional PFR row represents them for a named maintenance use. |
 | CC-PFAD.6 Object boundaries | Answer, acceptance, DRR, authoring Work, Method results, edition, and publication remain distinct; proposal locators serve discovery. For a programme answer, the exact persisting subjects, any provider System, maintenance relation, accepted commitment, or admitted service state that independently obtains, each bounded inquiry Work occurrence, and each evidence-package edition remain distinct. |
 | CC-PFAD.7 Conditional apparatus | Naming, quality, admission, currentness, and package details appear only when they change the answer or serve a named use. |
-| CC-PFAD.8 Reopen condition | The DRR states what change in field boundary, framework architecture, evidence, or receiving use requires reconsideration. |
+| CC-PFAD.8 Reopen condition | The DRR states what change in field boundary, framework architecture, evidence, or receiving use requires reconsideration. For each framework-edition dependency, it distinguishes a change of the relied-on edition from a material change to a relied-on claim and names the dependent use to reopen. |
 | CC-PFAD.9 DPF Suite decision | A selected Suite answer states the ecosystem use, which product series may belong, Suite constitution, inclusion and removal rules, identity when product series change, source return, later-review and retirement conditions, exposure choice, alternatives, consequences, and reopen condition. It separately states edition-to-product belonging and whether a DPF Suite Reference product series has been constituted and included. A maintained-Suite or maintained-Reference claim separately states its supporting maintenance relation, refresh response, and evidence. Record belonging as collection membership; assert holonhood, constructive parthood, dependency, or compatibility only through its own complete predicate. |
 
 

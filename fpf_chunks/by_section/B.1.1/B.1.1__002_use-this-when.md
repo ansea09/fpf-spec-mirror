@@ -6,12 +6,12 @@ section_id: "B.1.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__002_use-this-when.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:0 — Use This When"
-line_start: 38704
-line_end: 38728
+line_start: 38698
+line_end: 38722
 dependencies:
   - "A.1"
   - "A.10"

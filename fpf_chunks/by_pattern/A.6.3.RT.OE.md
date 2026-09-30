@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.RT.OE.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
-line_start: 16662
-line_end: 16909
+line_start: 16656
+line_end: 16903
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"

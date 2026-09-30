@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:End"
 section_title: "C.32.FAIL:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__015_c-32-fail-end.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:End — C.32.FAIL:End"
-line_start: 74413
-line_end: 74414
+line_start: 74415
+line_end: 74416
 dependencies:
   - "A.10"
   - "A.13"

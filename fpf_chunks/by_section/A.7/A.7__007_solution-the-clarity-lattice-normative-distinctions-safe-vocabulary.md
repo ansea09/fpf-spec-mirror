@@ -6,12 +6,12 @@ section_id: "A.7:5"
 section_title: "Solution — The Clarity Lattice (normative distinctions & safe vocabulary)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__007_solution-the-clarity-lattice-normative-distinctions-safe-vocabulary.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:5 — Solution — The Clarity Lattice (normative distinctions & safe vocabulary)"
-line_start: 23151
-line_end: 23293
+line_start: 23145
+line_end: 23287
 dependencies:
   - "A.1"
   - "A.10"
@@ -27,9 +27,14 @@ dependencies:
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
+  - "B.1.2"
+  - "B.1.4"
+  - "B.1.5"
+  - "B.1.6"
   - "E.10"
   - "E.17"
   - "E.18"
+  - "E.24.PUB"
   - "F.17"
   - "F.9"
 keywords:
@@ -66,7 +71,7 @@ Safe rewrite for earlier "Holonic Duality (Substance vs Function)": **Holonic Du
 #### A.7:5.3 - MethodDescription vs Method vs Capability vs Work (description vs way-of-doing vs ability envelope vs occurrence)
 
 * **MethodDescription** — one already identified claim-bearing `U.Episteme` whose exact C.2.1 `EntityOfConcern` is one admitted `U.Method` and whose claims, under its effective `U.ReferenceScheme`, say something substantive about that Method as a way of doing. A transformation or enactment concern, generic participant meanings, applicability, precondition, intended effect or preserved condition, bound, or internal method composition can satisfy the positive threshold. The labels *algorithm*, *SOP*, *recipe*, *script*, *procedure*, code, diagram, or design-time artifact are cues only. Authoring, revision, citation, publication, approval, or use time establishes neither episteme identity nor `U.MethodDescription` membership. Its publication cites A.10 carrier/source-currentness refs when the carrier is used as evidence or source.
-* **Method** — the **abstract order-sensitive way-of-doing** composed with **Γ\_method** (B.1.5). A Method is not an occurrence, description episteme, or system ability. Actual participants and operation values remain occurrence-side facts of separately admitted `U.Work` and its direct bindings.
+* **Method** — the **abstract order-sensitive way of doing**, whose composition is governed by B.1.5. A Method is not an occurrence, description episteme, or system ability. Actual participants and operation values remain occurrence-side facts of separately admitted `U.Work` and its direct bindings.
 * **Capability** — a named holder System's **bounded ability or envelope** for a Work family or result class, stated with its operating and resource conditions, measures, qualification window, and currentness condition. Name a Method or system-role assignment only when that exact condition or fit input is current. It is not the MethodDescription and not the performed Work.
 * **Work** — the **dated run-time occurrence** (what actually happened), with resource spend (Γ\_work) and temporal coverage (Γ\_time).
 
@@ -112,14 +117,14 @@ Safe rewrite for earlier "Holonic Duality (Substance vs Function)": **Holonic Du
 
 **Normative guard:** Formal inclusion establishes no world-side belonging. Collection belonging establishes neither constructive parthood nor holonhood and does not make either impossible. If a grouping is claimed to act, test it against all six `A.1` matters. Add a local system-role kind, assignment, Method, Work, or constructive part relation only when that separate claim obtains.
 
-#### A.7:5.7 - Operator alignment (required names)
+#### A.7:5.7 - Match composition to its subject
 
-* **Γ\_sys** — composition of **system** properties (physical/systemic).
-* **Γ\_method** — composition of **Method** (order, branching).
-* **Γ\_time** — composition of **Work** histories and temporal parts.
-* **Γ\_work** — composition of **resource spend** and yields tied to Work. Do not track costs with Γ\_method; costs (resources/yield) belong to Γ\_work.
+* **System aggregation and delimitation** — use B.1.2:4 to coordinate the independently established parts, crossings and whole-characteristic claims needed by the engineering decision. Each characteristic keeps its own aggregation or inference rule.
+* **Method composition** — use B.1.5 to determine whether constituent Methods and their relations construct one reusable way of doing, including its order and branching.
+* **Temporal aggregation** — first establish Work occurrences and temporal parts under A.15.1, or the identities and temporal relations of other subjects under their own rules. B.1.4 combines those recovered relations for a stated window and use.
+* **Work-resource aggregation** — use B.1.6 for resource spend and yields tied to admitted Work, with the required measurements, accounting boundary and aggregation policy.
 
-**Normative guard:** Use the four exact operator names for their respective composition claims. For domain “process” or “behaviour”, recover the object and predicate under its direct rule; it may concern a Method, Work, A.3.4 transformation, A.6.F functional behaviour, mechanism, or another domain object. Add an explicit distinction only when the intended value is not cheaply recoverable.
+**Normative guard:** Select the rule for the actual composition claim. For domain “process” or “behaviour”, recover the object and predicate under its direct rule; it may concern a Method, Work, A.3.4 transformation, A.6.F functional behaviour, mechanism, or another domain object. Add an explicit distinction only when the intended value is not cheaply recoverable.
 
 #### A.7:5.8 - EntityOfConcern and Description-episteme boundary vs publication face, form, unit, and carrier boundary (orthogonal, normative)
 * **EntityOfConcern-to-description boundary.** A.7 keeps the EntityOfConcern and an episteme that describes it distinct; E.10.D2 supplies the Description and specification-use repair. What the `EntityOfConcern` value is and how it is described are different questions. A Description is a `U.Episteme` about that exact entity under its effective scheme. A named describing use may separately select one viewpoint when the selection changes what is read or checked. Specification is a checkable use or refinement of the independently constituted Description episteme and requires checkable claims plus a named harness, validation, conformance, measurement, or evaluation relation capable of checking them for the stated use. Formality, acceptance, a C.16 measurement criterion, or verification practice may contribute to that test but does not substitute for it. When viewpoint selection affects reliance, preserve or explicitly update the named describing use and its exact selected viewpoint. EntityOfConcern, Description, selected viewpoint, and specification use remain distinct.
@@ -166,7 +171,7 @@ If the EntityOfConcern is itself an episteme, the new Description does not autom
 
 A Description episteme becomes usable as a specification when its C.2.1 constitution, checkable claims, and a named harness, validation, conformance, measurement, or evaluation relation capable of checking them for the stated use are recoverable under E.10.D2 and the applicable direct pattern. When viewpoint selection affects reliance, preserve or explicitly update the named describing use and its selected viewpoint. Formality, acceptance conditions, measurement criteria, and verification practice contribute under their own rules; formal notation alone is insufficient. Specification use remains separate from the EntityOfConcern, Description identity, publication expression, and Work.
 
-A Description episteme, its specification-use status, and a publication result are distinct from the dated activity that produces them. An actual describing, formalizing, specifying, or publishing activity may be admitted separately as Work. Use `Gamma_method` for the composition of its Method, `Gamma_time` for Work histories and temporal parts, and `Gamma_work` for resource spend and yields tied to that Work. An ordinary statement about authoring needs those relations only when its claim uses them.
+A Description episteme, its specification-use status, and a publication result are distinct from the dated activity that produces them. An actual describing, formalizing, specifying, or publishing activity may be admitted separately as Work. Use B.1.5 for Method composition, A.15.1 for Work occurrences and temporal parts, B.1.4 for aggregation of already established temporal relations, and B.1.6 for resource spend and yields tied to that Work. An ordinary statement about authoring needs those relations only when its claim uses them.
 
 #### A.7:5.10 - Outcome specification strict distinction
 

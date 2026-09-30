@@ -6,12 +6,12 @@ section_id: "B.1.3:5"
 section_title: "Archetypal grounding (worked, didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__006_archetypal-grounding-worked-didactic.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:5 — Archetypal grounding (worked, didactic)"
-line_start: 39288
-line_end: 39323
+line_start: 39286
+line_end: 39325
 dependencies:
   - "A.1"
   - "A.10"
@@ -55,6 +55,10 @@ This is a didactic evidence-composition case, not a clinical recommendation. The
 * **Contrary-result case:** a credible `E₂` result conflicts with `E₁` in an overlapping subgroup. Keep the disagreement. Different baseline severity is a possible explanation only to the extent supported by the sources. Narrow or qualify the guidance claim; do not silently average the conflict away or call it an uninformative study.
 * **Completion:** return the bounded guidance statement with its distinct supporting contributions, contrary result, scope, and unresolved interpretation. No common quantitative model has been supplied, so no aggregate R is returned. Whether another study is feasible and worth its total burden is a separate C.11/C.19.2 decision, not a condition for completing this synthesis.
 
+**Concrete completion of the case.** Use the following invented findings only to illustrate the synthesis. `P` is the trial's enrolled acute low-back-pain cohort; `S` is its identified high-baseline-severity subgroup. `E₁` reports lower pain at six weeks with intervention X than with its comparator, both in P and in S. `E₂` reports no such benefit in a separately observed cohort matching S; the sources have not resolved whether confounding or another difference explains the disagreement. `E₃` supplies a mechanism compatible with benefit but no clinical effect estimate. No common quantitative support model is available.
+
+The resulting guidance statement is: “The trial supports lower recorded pain at six weeks for X versus its comparator in P. The finding for S conflicts with the observational result and remains unresolved. The mechanism explains how benefit could occur but does not resolve that conflict or establish its magnitude. These sources support neither extrapolation beyond P and six weeks nor a combined reliability score.” The SCR retains all three contributions. A supported explanation of the disagreement or a corrected source result reopens the affected claim. A request for another population opens a separate question and synthesis. Identify the new claim, its subject and scope (C.2.1; A.2.6), and establish the evidence or warranted transport needed for that use. The request alone leaves the result for P unchanged. This is a completed bounded synthesis of the fictional findings, not advice to use X.
+
 For **Γ_epist^compile**, map the retained claims into the journal's scheme, carry the same limitations and any justified recalculation, and produce the compilation SCR and required hashes. C.2.1 identifies the target-scheme episteme “Guidance Statement v1.0”; later journal publication remains a separate occurrence.
 
 #### B.1.3:5.2 - Episteme — **Controller proof and a real protective function**
@@ -69,11 +73,11 @@ For **Γ_epist^compile**, map the retained claims to the certification scheme. W
 
 #### B.1.3:5.3 - Contrast (didactic)
 
-| Aspect          | **Γ\_epist (Knowledge)**                                         | **Γ\_sys (Physical)**                       |
+| Aspect | Knowledge composition (B.1.3:4) | System aggregation decisions (B.1.2:4) |
 | --------------- | ---------------------------------------------------------------- | -------------------------------------------- |
-| What is folded? | Claims, models, datasets, arguments                              | Components, materials, assemblies            |
+| What is combined? | Claims, models, datasets and arguments, with their provenance and semantic relations | Established component, material-portion and assembly facts for one engineering decision; each whole-characteristic claim uses its applicable aggregation rule |
 | Conservatism | Support roles, dependence, and mapping limits under the named B.3 model; no invented aggregate | WLNK for a quantity whose physical model justifies a weakest-part bound |
-| Fit             | **Mappings** with declared **CL**                                | **Interfaces/BIC** compatibility             |
-| Order/time | Optional **Γ\_ctx** for argument order; C.2.1 for distinct episteme identities and edition relations; A.14 for a proper restriction of one unchanged episteme; B.1.4/**Γ\_time** for bounded aggregation of recovered temporal relations | Γ\_ctx for workflows; Γ\_time for phases of directly governed enduring carriers |
-| Work/cost       | External in **Γ\_work** (compute, curation)                      | External in **Γ\_work** (energy, labour)     |
+| Fit | Semantic mappings and their calibration evidence, with a separately warranted receiving use | Interfaces, crossings and compatibility choices under B.1.2:4.3 and their direct relation rules |
+| Order/time | Argument order; C.2.1 episteme identities and edition relations; A.14 proper temporal restrictions; B.1.4 aggregation of recovered order or temporal relations | A.15.1 for assembly Work and its temporal parts; A.14 for proper phases of enduring carriers; B.1.4 for aggregation of recovered order or temporal relations |
+| Work/cost | Resources spent in synthesis, compilation or validation Work, aggregated under B.1.6 | Resources spent in assembly or operation Work, aggregated under B.1.6 |
 

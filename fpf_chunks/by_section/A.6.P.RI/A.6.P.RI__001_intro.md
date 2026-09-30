@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__001_intro.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:intro — Intro"
-line_start: 18116
-line_end: 18121
+line_start: 18110
+line_end: 18115
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"

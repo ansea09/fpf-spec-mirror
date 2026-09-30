@@ -6,12 +6,12 @@ section_id: "A.8:4.2"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__011_consequences.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:4.2 — Consequences"
-line_start: 24150
-line_end: 24153
+line_start: 24144
+line_end: 24147
 dependencies:
   - "A.11"
   - "C.3"

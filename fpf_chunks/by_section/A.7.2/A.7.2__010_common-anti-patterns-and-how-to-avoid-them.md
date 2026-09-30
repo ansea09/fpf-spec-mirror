@@ -6,12 +6,12 @@ section_id: "A.7.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 23792
-line_end: 23802
+line_start: 23786
+line_end: 23796
 dependencies:
   - "A.10"
   - "A.7.1"

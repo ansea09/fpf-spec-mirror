@@ -6,12 +6,12 @@ section_id: "F.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__001_intro.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:intro — Intro"
-line_start: 104578
-line_end: 104585
+line_start: 104592
+line_end: 104599
 dependencies:
   - "A.11"
   - "A.7"

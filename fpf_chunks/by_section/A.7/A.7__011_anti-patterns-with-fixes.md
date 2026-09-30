@@ -6,12 +6,12 @@ section_id: "A.7:9"
 section_title: "Anti‑patterns (with fixes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__011_anti-patterns-with-fixes.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:9 — Anti‑patterns (with fixes)"
-line_start: 23350
-line_end: 23392
+line_start: 23344
+line_end: 23386
 dependencies:
   - "A.1"
   - "A.10"
@@ -27,9 +27,14 @@ dependencies:
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
+  - "B.1.2"
+  - "B.1.4"
+  - "B.1.5"
+  - "B.1.6"
   - "E.10"
   - "E.17"
   - "E.18"
+  - "E.24.PUB"
   - "F.17"
   - "F.9"
 keywords:
@@ -50,8 +55,8 @@ keywords:
 3. **Triad everywhere** — omitting **Work** entirely.
    **Fix:** Add a Work occurrence only when performed action is claimed; a design-time distinction diagram need not pretend that Work occurred.
 
-4. **Operator blur** — using one “process operator” for everything.
-   **Fix:** Choose among **Γ\_method**, **Γ\_time**, **Γ\_work**, **Γ\_sys**.
+4. **Composition blur** — using one “process operator” for unlike claims.
+   **Fix:** Recover the subject and intended result, then use :5.7 to select the system, Method, temporal or Work-resource rule and its prerequisites.
 
 5. **Formal set, world-side collection, and collective collapse** — mathematical inclusion or collection belonging is used to make a grouping act or to infer constructive parthood.
    **Fix:** Keep formal inclusion with its mathematical or representation rule; state world-side belonging under the collection's own rule; require all six `A.1` matters for a collective System; state any constructive part relation separately.

@@ -6,12 +6,12 @@ section_id: "G.8:7"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__008_bias-annotation.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:7 — Bias‑Annotation"
-line_start: 116236
-line_end: 116239
+line_start: 116250
+line_end: 116253
 dependencies:
   - "A.10"
   - "A.21"

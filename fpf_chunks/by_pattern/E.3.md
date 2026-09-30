@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.3.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
-line_start: 79815
-line_end: 79982
+line_start: 79821
+line_end: 79988
 dependencies:
   - "E.1"
   - "E.2"
@@ -37,7 +37,7 @@ Pattern E.2 supplies eleven immutable pillars, yet experience shows that a **fla
 
 ### E.3:2 - Problem
 
-When two pillars or derived principles pull in opposite directions, architectural decisions stall—or worse, drift toward the loudest voice. Without an explicit **taxonomy and precedence cascade**, FPF risks devolving into subjective debate, breaking its claim to be a rigorously *auditable* “operating system for thought.”
+When two pillars or derived principles pull in opposite directions, architectural decisions stall—or worse, drift toward the loudest voice. Without an explicit **taxonomy and precedence cascade**, participants lack an agreed basis for identifying the governing principle and explaining the decision.
 
 ### E.3:3 - Forces
 | Force                                 | Tension                                                            |

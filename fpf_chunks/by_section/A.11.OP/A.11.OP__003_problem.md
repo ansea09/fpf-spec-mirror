@@ -6,12 +6,12 @@ section_id: "A.11.OP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__003_problem.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:2 — Problem"
-line_start: 25219
-line_end: 25226
+line_start: 25213
+line_end: 25220
 dependencies:
   - "A.10"
   - "A.11"

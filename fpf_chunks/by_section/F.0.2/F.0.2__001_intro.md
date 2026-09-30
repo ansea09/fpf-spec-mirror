@@ -6,12 +6,12 @@ section_id: "F.0.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__001_intro.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:intro — Intro"
-line_start: 103805
-line_end: 103810
+line_start: 103819
+line_end: 103824
 dependencies:
   - "A.2.4"
   - "C.2.1"

@@ -6,12 +6,12 @@ section_id: "G.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__004_forces.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:3 — Forces"
-line_start: 115901
-line_end: 115911
+line_start: 115915
+line_end: 115925
 dependencies:
   - "A.10"
   - "A.21"

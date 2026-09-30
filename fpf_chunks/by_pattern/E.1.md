@@ -1,29 +1,31 @@
 ---
 chunk_kind: "parent"
 pattern_id: "E.1"
-pattern_title: "Vision & Mission: “Operating System for Thought”"
+pattern_title: "Vision & Mission"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.1.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
-  - "E.1 — Vision & Mission: “Operating System for Thought”"
-line_start: 79295
-line_end: 79401
+  - "E.1 — Vision & Mission"
+line_start: 79297
+line_end: 79407
 dependencies:
   - "E.2"
 keywords:
+  - "first principles"
   - "goals"
   - "mission"
   - "non-goals"
-  - "operating system for thought"
   - "purpose"
+  - "reusable methods"
   - "scope"
+  - "shared grounds"
   - "vision"
 ---
 
-## E.1 - Vision & Mission: “Operating System for Thought”
+## E.1 - Vision & Mission
 
 
 ### E.1:1 - Problem frame
@@ -41,7 +43,7 @@ When a claim crosses domains without its meaning, basis or conditions, the recei
 | ------------------------------- | ----------------------------------------------------------------------- |
 | **Conceptual Unity**            | Freedom to evolve ↔ invariant principles that prevent vocabulary drift. |
 | **Rigor vs Agility**            | Formal verifiability ↔ rapid, iterative exploration.                    |
-| **Universality vs Specificity** | Domain‑agnostic kernel ↔ problem‑specific leverage.                     |
+| **Universality vs Specificity** | Shared conceptual grounds ↔ methods suited to a particular problem. |
 | **Didactic Clarity**            | Human comprehension ↔ abstract purity and density.                      |
 | **Physical Grounding** | Proposed material realization or physical intervention ↔ a feasibility basis for that action under its resource and physical constraints. |
 
@@ -51,13 +53,17 @@ When a claim crosses domains without its meaning, basis or conditions, the recei
 
 **Vision Statement**
 
-> *Reliable reasoning should be as accessible as version control: clone the conceptual kernel, extend it with domain patterns, and commit decisions that remain traceable across time, scale, and discipline.*
+> *Make reliable reasoning accessible across disciplines: combine the relevant shared grounds and reusable methods of FPF Core with suitable domain methods, and keep decisions traceable to their premises, evidence and revisions.*
 
-### E.1:4 - Solution — *FPF as an Operating System for Thought*
-FPF delivers a **generative scaffold** realised as:
+### E.1:4 - Solution — Shared Grounds and Reusable Methods
+FPF helps practitioners construct and revise ways of doing from explicit shared grounds. Its first principles are cross-domain starting commitments that govern the framework's architecture, use, evaluation and development, including the distinctions, inferences and grounds for claims used in reasoning. The constitutional and defining patterns explain these commitments and their scope. A premise introduced in one task model has the scope justified for that model; using it does not establish a framework-wide commitment. All eleven pillars in E.2 retain their role as FPF's constitutional first principles. For example, P-2 gives human comprehension priority over theoretical or tooling purity, and P-7 directs proofs, metrics and models towards real-world objectives.
 
-1. a **Kernel** of non‑derivable, cross‑domain **first principles**;
-2. pluggable **patterns**—Systemic Calculus, Knowledge Dynamics, etc.—that instantiate those principles;
+The Kernel is the subset of Core content that defines admitted universal meta-concepts and their relations. The eleven pillars are constitutional requirements outside that subset; they govern the Kernel and other Core content. P-2 and P-7 therefore remain first principles without becoming Kernel definitions. Broader Core content also explains reusable methods. Describing a method does not establish that someone can perform it or has performed it. Practitioners use domain methods to perform the subject work; domain evidence supports bounded claims about the suitability of a method or its result for the intended use. These grounds and methods remain open to justified revision under the invariants below and E.2.
+
+FPF expresses these shared grounds and reusable contributions through:
+
+1. a **Kernel** of admitted universal meta-concepts and the rules that define their meanings and relations;
+2. **patterns** that explain reusable methods, state their conditions and grounds, and apply or extend shared distinctions without replacing their governing meanings;
 3. a **pattern language** (*Architectural* ► why/ how; *Definitional* ► what) with embedded **Conformance Checklist (CC)**;
 4. **Design Rationale Records (DRRs)** that govern safe, auditable evolution;
 5. three **core invariants** that every artefact must honour

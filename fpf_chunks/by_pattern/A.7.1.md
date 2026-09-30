@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.7.1.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
-line_start: 23462
-line_end: 23622
+line_start: 23456
+line_end: 23616
 dependencies:
   - "A.7"
   - "A.7.2"

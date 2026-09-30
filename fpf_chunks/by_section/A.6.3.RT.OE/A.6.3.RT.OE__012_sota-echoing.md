@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__012_sota-echoing.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:11 — SoTA-Echoing"
-line_start: 16879
-line_end: 16896
+line_start: 16873
+line_end: 16890
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"

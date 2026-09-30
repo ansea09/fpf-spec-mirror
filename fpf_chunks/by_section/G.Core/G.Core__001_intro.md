@@ -6,12 +6,12 @@ section_id: "G.Core:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__001_intro.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:intro — Intro"
-line_start: 111695
-line_end: 111707
+line_start: 111709
+line_end: 111721
 dependencies:
   - "A.15.3"
   - "A.19"

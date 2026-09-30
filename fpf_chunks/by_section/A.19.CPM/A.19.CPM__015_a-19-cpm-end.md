@@ -6,12 +6,12 @@ section_id: "A.19.CPM:End"
 section_title: "A.19.CPM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__015_a-19-cpm-end.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:End — A.19.CPM:End"
-line_start: 36605
-line_end: 36606
+line_start: 36599
+line_end: 36600
 dependencies:
 keywords:
   - "ComparatorSet"

@@ -6,12 +6,12 @@ section_id: "C.3.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__002_use-this-when.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:0 — Use This When"
-line_start: 51412
-line_end: 51425
+line_start: 51414
+line_end: 51427
 dependencies:
   - "A.14"
   - "A.2.6"

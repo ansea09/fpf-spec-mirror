@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__006_archetypal-grounding.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:5 — Archetypal Grounding"
-line_start: 81065
-line_end: 81132
+line_start: 81079
+line_end: 81146
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -58,7 +58,7 @@ keywords:
 A systems-management group considers a public DPF for recurring problems in service launch, cross-team coordination, incident response, and feedback-based improvement. A broad FPF route covers several shared distinctions, and an admitted neighboring DPF covers one specialist branch, but neither gives this practitioner group a coherent first use across the four problem families. The field-boundary assessment compares a new DPF with direct FPF-and-source use, a guide, contribution to the neighboring DPF, two existing DPF edition series, and no new maintained product now. It favors one DPF because a representative service-launch case needs patterns from several problem-family sets together and has an independent edition, change, and refresh boundary, including its later-review rule.
 
 
-The source accounts organize Methods, dated Work, service and equipment subjects, descriptions, provider capabilities, and cultural change differently. A completed `C.32.MWA` result makes those correspondences and conflicts readable; the selected problem families and relations supply the DPF structure. The `E.9` DRR records the public promise, selected problem-family sets and material relations, representative case, Core and other exact dependencies, omitted procurement and certification questions, the sources to revisit, which claims the evidence supports, suggests, or only motivates, the publication consequence, first authoring action, and reopen condition. Capability development does not change this case, so `E.23.CDI` is absent. PFR rows and proposal locators serve their conditional representation and discovery uses.
+The source accounts organize Methods, dated Work, service and equipment subjects, descriptions, provider capabilities, and cultural change differently. A completed `C.32.MWA` result makes those correspondences and conflicts readable; the selected problem families and relations supply the DPF structure. The `E.9` DRR records the public promise, selected problem-family sets and material relations, representative case, omitted procurement and certification questions, the sources to revisit, which claims the evidence supports, suggests, or only motivates, the publication consequence, first authoring action, and reopen condition. It also identifies the selected FPF edition and any other relied-on framework editions, their required claims and receiving uses. Capability development does not change this case, so `E.23.CDI` is absent. PFR rows and proposal locators serve their conditional representation and discovery uses.
 
 #### Exploratory access result
 
@@ -82,7 +82,7 @@ Three separately constituted DPF product series already cover one recurring prac
 
 #### Existing framework
 
-A local practice framework already has an accepted architecture answer and a source record. Reopen when its selected edition boundary, dependencies, initial pattern architecture, or publication or access consequence changes; otherwise, an example or publication-carrier edit follows the existing answer.
+A local practice framework already has an accepted architecture answer and a source record. Reopen that answer when its selected edition boundary, dependencies, initial pattern architecture, or publication or access consequence changes. A change of a relied-on edition or a material change to a relied-on claim first reopens the affected use; reconsider the architecture answer when that affects one of those architectural choices. An example or publication-carrier edit that leaves those choices intact follows the existing answer.
 
 #### Candidate recognition before product form
 

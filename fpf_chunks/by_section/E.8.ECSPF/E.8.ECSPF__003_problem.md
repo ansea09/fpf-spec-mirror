@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__003_problem.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:2 — Problem"
-line_start: 84261
-line_end: 84275
+line_start: 84275
+line_end: 84289
 dependencies:
   - "A.19.ECS"
   - "C.25"

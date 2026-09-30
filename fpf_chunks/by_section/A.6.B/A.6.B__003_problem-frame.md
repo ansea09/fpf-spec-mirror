@@ -6,12 +6,12 @@ section_id: "A.6.B:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__003_problem-frame.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:1 — Problem frame"
-line_start: 12336
-line_end: 12341
+line_start: 12330
+line_end: 12335
 dependencies:
   - "A.10"
   - "A.2.3"

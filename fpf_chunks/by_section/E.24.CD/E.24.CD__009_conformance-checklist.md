@@ -6,12 +6,12 @@ section_id: "E.24.CD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__009_conformance-checklist.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:7 — Conformance Checklist"
-line_start: 102724
-line_end: 102746
+line_start: 102738
+line_end: 102760
 dependencies:
   - "A.1"
   - "A.14"

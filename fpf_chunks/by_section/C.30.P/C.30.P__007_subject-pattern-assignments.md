@@ -6,12 +6,12 @@ section_id: "C.30.P:5"
 section_title: "Subject pattern assignments"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__007_subject-pattern-assignments.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:5 — Subject pattern assignments"
-line_start: 68523
-line_end: 68555
+line_start: 68525
+line_end: 68557
 dependencies:
   - "A.10"
   - "A.15"

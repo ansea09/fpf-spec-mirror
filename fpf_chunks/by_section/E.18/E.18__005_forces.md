@@ -6,12 +6,12 @@ section_id: "E.18:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__005_forces.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:4 — Forces"
-line_start: 96508
-line_end: 96518
+line_start: 96522
+line_end: 96532
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

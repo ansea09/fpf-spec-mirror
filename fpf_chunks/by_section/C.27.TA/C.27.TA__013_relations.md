@@ -6,12 +6,12 @@ section_id: "C.27.TA:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__013_relations.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:11 — Relations"
-line_start: 63342
-line_end: 63348
+line_start: 63344
+line_end: 63350
 dependencies:
   - "A.10"
   - "A.15.1"

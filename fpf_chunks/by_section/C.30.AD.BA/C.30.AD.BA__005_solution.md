@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__005_solution.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:2 — Solution"
-line_start: 68164
-line_end: 68312
+line_start: 68166
+line_end: 68314
 dependencies:
   - "A.1"
   - "A.10"

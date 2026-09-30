@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:12a"
 section_title: "Boundary with quantum-like state-representation coarsening"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__014_boundary-with-quantum-like-state-representation-coarsening.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:12a — Boundary with quantum-like state-representation coarsening"
-line_start: 15787
-line_end: 15796
+line_start: 15781
+line_end: 15790
 dependencies:
   - "A.15"
   - "A.20"

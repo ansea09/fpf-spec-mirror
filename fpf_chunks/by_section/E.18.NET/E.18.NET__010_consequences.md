@@ -6,12 +6,12 @@ section_id: "E.18.NET:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__010_consequences.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:9 — Consequences"
-line_start: 98648
-line_end: 98659
+line_start: 98662
+line_end: 98673
 dependencies:
   - "A.1.STM"
   - "A.12"

@@ -6,12 +6,12 @@ section_id: "F.12:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__009_invariants.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:8 — Invariants"
-line_start: 107943
-line_end: 107957
+line_start: 107957
+line_end: 107971
 dependencies:
   - "A.10"
   - "A.15.1"

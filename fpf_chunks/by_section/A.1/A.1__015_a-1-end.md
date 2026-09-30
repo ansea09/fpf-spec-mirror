@@ -6,12 +6,12 @@ section_id: "A.1:End"
 section_title: "A.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__015_a-1-end.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:End — A.1:End"
-line_start: 2196
-line_end: 2197
+line_start: 2190
+line_end: 2191
 dependencies:
   - "A.1.1"
   - "A.1.STM"

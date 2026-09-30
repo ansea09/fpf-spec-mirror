@@ -6,12 +6,12 @@ section_id: "A.3.3.PI:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.PI/A.3.3.PI__001_intro.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
   - "A.3.3.PI:intro — Intro"
-line_start: 10253
-line_end: 10258
+line_start: 10247
+line_end: 10252
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"

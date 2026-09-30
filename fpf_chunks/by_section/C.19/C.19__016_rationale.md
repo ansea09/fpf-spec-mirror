@@ -6,12 +6,12 @@ section_id: "C.19:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__016_rationale.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:10 — Rationale"
-line_start: 57452
-line_end: 57459
+line_start: 57454
+line_end: 57461
 dependencies:
   - "A.10"
   - "A.19.CPM"

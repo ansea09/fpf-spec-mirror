@@ -6,12 +6,12 @@ section_id: "F.9.1:10"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__011_bias-annotation.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:10 — Bias-Annotation"
-line_start: 107266
-line_end: 107269
+line_start: 107280
+line_end: 107283
 dependencies:
   - "A.10"
   - "A.6.3.CSC"

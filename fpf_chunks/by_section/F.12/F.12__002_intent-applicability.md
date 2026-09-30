@@ -6,12 +6,12 @@ section_id: "F.12:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__002_intent-applicability.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:1 — Intent & applicability"
-line_start: 107832
-line_end: 107839
+line_start: 107846
+line_end: 107853
 dependencies:
   - "A.10"
   - "A.15.1"

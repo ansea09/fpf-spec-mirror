@@ -6,12 +6,12 @@ section_id: "B.5.RC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__008_conformance-checklist.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:7 — Conformance Checklist"
-line_start: 44722
-line_end: 44735
+line_start: 44724
+line_end: 44737
 dependencies:
   - "A.6.3.RT"
   - "B.5"

@@ -6,12 +6,12 @@ section_id: "B.5.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__013_relations.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:12 — Relations"
-line_start: 46426
-line_end: 46439
+line_start: 46428
+line_end: 46441
 dependencies:
   - "A.10"
   - "A.16"

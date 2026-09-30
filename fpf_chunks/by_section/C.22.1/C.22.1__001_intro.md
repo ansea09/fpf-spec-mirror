@@ -6,12 +6,12 @@ section_id: "C.22.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__001_intro.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:intro — Intro"
-line_start: 58817
-line_end: 58827
+line_start: 58819
+line_end: 58829
 dependencies:
   - "A.15"
   - "C.19.1"

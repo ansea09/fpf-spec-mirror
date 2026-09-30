@@ -6,12 +6,12 @@ section_id: "A.2.8:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__015_sota-echoing.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:12 — SoTA-Echoing"
-line_start: 7522
-line_end: 7531
+line_start: 7516
+line_end: 7525
 dependencies:
   - "A.10"
   - "A.15.1"

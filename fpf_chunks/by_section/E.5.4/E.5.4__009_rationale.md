@@ -6,12 +6,12 @@ section_id: "E.5.4:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__009_rationale.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:8 — Rationale"
-line_start: 83308
-line_end: 83314
+line_start: 83322
+line_end: 83328
 dependencies:
   - "E.3"
   - "E.5"

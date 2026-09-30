@@ -6,12 +6,12 @@ section_id: "E.10.INT:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__001_intro.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:intro — Intro"
-line_start: 87125
-line_end: 87130
+line_start: 87139
+line_end: 87144
 dependencies:
   - "C.11"
   - "C.16"

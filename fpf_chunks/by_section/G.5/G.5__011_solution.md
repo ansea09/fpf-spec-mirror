@@ -6,12 +6,12 @@ section_id: "G.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__011_solution.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:4 — Solution"
-line_start: 114514
-line_end: 114951
+line_start: 114528
+line_end: 114965
 dependencies:
   - "C.11"
   - "C.18"
@@ -299,7 +299,7 @@ SelectorOutcome(
   setResultFamily = JointUseSet,
   namedUse = cohort_review,
   memberEntries = [
-    { memberRef = Core@C },
+    { memberRef = FPF@C },
     { memberRef = Domain@D },
     { memberRef = Local@L }
   ],
@@ -361,7 +361,7 @@ When the source is `TraditionFront` or `TraditionArchive`, keep its base `SoTAPa
 | --- | --- |
 | The two pump Methods in §0.5 survive, with no admitted ordering. | Emit its unordered `Shortlist`; the receiver still has a choice to make. |
 | A declared comparator orders family_B before family_A for the specialist handoff. | Emit a `RankedShortlist` with `[family_B, family_A]`, the comparator and supporting basis pins, and the handoff use. A request for an order alone supplies no comparator. |
-| The cohort decision includes `Core@C`, `Domain@D` and `Local@L` together. | Emit the §4.4b `JointUseSet`; the receiver uses all three exact editions under the inclusion conditions. |
+| The cohort decision includes `FPF@C`, `Domain@D` and `Local@L` together. | Emit the §4.4b `JointUseSet`; the receiver uses all three exact editions under the inclusion conditions. |
 | No candidate clears the applicable admissibility/evidence gates. | Emit `AbstainOutcome` or `EscalationOutcome`, naming the blocking pins, basis and next use; an empty shortlist leaves the stop unexplained. |
 
 The following extensions apply only when their corresponding mode is active. Their declared `Uses` and pins cite the governing semantics.

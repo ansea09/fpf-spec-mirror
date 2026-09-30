@@ -6,12 +6,12 @@ section_id: "E.4.CM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__010_consequences.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:9 — Consequences"
-line_start: 80539
-line_end: 80544
+line_start: 80553
+line_end: 80558
 dependencies:
   - "A.3.1"
   - "B.1.5"

@@ -6,12 +6,12 @@ section_id: "C.2.6:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__007_bias-annotation.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:6 — Bias-Annotation"
-line_start: 50200
-line_end: 50202
+line_start: 50202
+line_end: 50204
 dependencies:
   - "A.16"
   - "A.16.0"

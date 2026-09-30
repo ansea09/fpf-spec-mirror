@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__008_conformance-checklist.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:7 — Conformance Checklist"
-line_start: 9074
-line_end: 9086
+line_start: 9068
+line_end: 9080
 dependencies:
   - "A.10"
   - "A.13"

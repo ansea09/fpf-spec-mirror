@@ -6,12 +6,12 @@ section_id: "C.19.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__014_relations.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:12 — Relations"
-line_start: 57799
-line_end: 57806
+line_start: 57801
+line_end: 57808
 dependencies:
   - "A.15.1"
   - "A.15.2"

@@ -6,12 +6,12 @@ section_id: "C.22.PFR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__011_rationale.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:10 — Rationale"
-line_start: 59262
-line_end: 59267
+line_start: 59264
+line_end: 59269
 dependencies:
   - "A.10"
   - "A.15.1"

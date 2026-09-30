@@ -6,12 +6,12 @@ section_id: "C.11:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__011_rationale.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:10 — Rationale"
-line_start: 53304
-line_end: 53315
+line_start: 53306
+line_end: 53317
 dependencies:
   - "A.10"
   - "A.13"

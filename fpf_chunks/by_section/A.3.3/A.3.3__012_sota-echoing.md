@@ -6,12 +6,12 @@ section_id: "A.3.3:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__012_sota-echoing.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:11 — SoTA-Echoing"
-line_start: 9766
-line_end: 9789
+line_start: 9760
+line_end: 9783
 dependencies:
   - "A.1.1"
   - "A.10"

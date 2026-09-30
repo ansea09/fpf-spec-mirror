@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.19.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
-line_start: 57072
-line_end: 57482
+line_start: 57074
+line_end: 57484
 dependencies:
   - "A.10"
   - "A.19.CPM"

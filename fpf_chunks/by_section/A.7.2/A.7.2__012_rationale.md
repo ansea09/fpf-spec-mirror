@@ -6,12 +6,12 @@ section_id: "A.7.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__012_rationale.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:10 — Rationale"
-line_start: 23807
-line_end: 23812
+line_start: 23801
+line_end: 23806
 dependencies:
   - "A.10"
   - "A.7.1"

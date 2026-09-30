@@ -6,12 +6,12 @@ section_id: "C.36:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 76302
-line_end: 76314
+line_start: 76304
+line_end: 76316
 dependencies:
   - "A.1"
   - "A.10"

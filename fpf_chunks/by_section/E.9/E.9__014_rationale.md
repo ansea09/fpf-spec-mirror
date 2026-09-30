@@ -6,12 +6,12 @@ section_id: "E.9:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__014_rationale.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:10 — Rationale"
-line_start: 84792
-line_end: 84810
+line_start: 84806
+line_end: 84824
 dependencies:
   - "A.10"
   - "A.15.1"

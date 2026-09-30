@@ -6,12 +6,12 @@ section_id: "B.1.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__003_problem-frame.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:1 — Problem Frame"
-line_start: 38947
-line_end: 38960
+line_start: 38941
+line_end: 38954
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,5 +50,5 @@ Keep five frequently collapsed objects distinct:
 4. **The project system-of-interest.** Project designation or selection is a separate claim from `U.System` identity, environment, parthood, system-role kind or assignment, and architecture. B.1.2 does not derive it from a box or aggregation decision.
 5. **Use qualification and neighboring relations.** `Context` is not one world-side container supplied by B.1.2. When claim scope, effective reference scheme, or a bounded model-use structure qualifies a use, recover that exact qualifier under its subject pattern. Recover any system-role assignment or other neighboring relation separately. None delimits the system, identifies its environment, or establishes containment by itself.
 
-B.1.2 does not make `Gamma_sys` the pattern head, create generic boundary or interaction U-kinds, or infer a part-whole relation from transformation, coordination, responsibility, or representation.
+For a system-aggregation decision, use :4.1 to recover the system, parthood, delimitation, crossing, and whole-characteristic results or their blockers. Use :4.2 only when their joint organization changes that decision.
 

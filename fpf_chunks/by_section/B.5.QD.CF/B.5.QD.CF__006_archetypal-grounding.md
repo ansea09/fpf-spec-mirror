@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__006_archetypal-grounding.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:5 — Archetypal Grounding"
-line_start: 46115
-line_end: 46156
+line_start: 46117
+line_end: 46158
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"

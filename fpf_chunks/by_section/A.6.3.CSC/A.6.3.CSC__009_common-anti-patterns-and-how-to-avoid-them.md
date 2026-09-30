@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 15730
-line_end: 15742
+line_start: 15724
+line_end: 15736
 dependencies:
   - "A.15"
   - "A.20"

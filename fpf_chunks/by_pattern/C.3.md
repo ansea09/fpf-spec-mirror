@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
-line_start: 51075
-line_end: 51245
+line_start: 51077
+line_end: 51247
 dependencies:
   - "A.1"
   - "A.11"

@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__005_solution.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:4 — Solution"
-line_start: 80928
-line_end: 81064
+line_start: 80942
+line_end: 81078
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -60,7 +60,7 @@ Ask whether choosing a framework, a non-framework product, a thinner route, an e
 
 - the public field promise, a first use that does not depend on unpublished authoring context, or the problem-family coverage of a proposed DPF;
 - an intended or existing framework edition;
-- an FPF Core or other current edition dependency;
+- a dependency on a selected FPF edition for named Core claims and a receiving use, or on another identified framework edition;
 - initial pattern placement or a material relation among those patterns that changes the architecture;
 - the direct subjects and identity or change rules for a continuing programme, an admitted service, or a separate editioned result, plus any maintenance relation when later work separately claims or uses it;
 
@@ -123,9 +123,9 @@ When the architecture question is open, the framework-specific part of the DRR s
 
 4. the selected problem-family pattern sets, first patterns and their material relations, representative cross-problem application, and important omissions;
 5. which structures of Methods, their use, support and development change the answer, and how the identified Methods, descriptions, patterns, direct subjects and managed result boundaries fit together. When those structures do not line up one-for-one, use a completed `C.32.MWA` synthesis; use `E.23.CDI` only when capability development for a named Work family changes the answer;
-6. the existing or intended-edition boundary, selected FPF Core dependency, and only the other exact edition dependencies required by this answer;
+6. the existing or intended framework-edition boundary; the selected FPF edition, the Core claims this framework relies on and the receiving use that requires each claim; and any other framework-edition dependencies required by this answer, under `E.4.PFR`;
 7. the sources to revisit for each important claim, whether the evidence supports, suggests, or only motivates it, the limits of that evidence, and the publication or access consequence; and
-8. material alternatives, accepted costs or losses, practical consequences, the first authoring action or stop, and the reopen condition.
+8. material alternatives, accepted costs or losses, practical consequences, the first authoring action or stop, and the reopen condition. For each framework-edition dependency, distinguish a change of the relied-on edition from a material change to a relied-on claim, and identify the dependent use that each reopens.
 
 For any opened question, record only candidate contributions that can change the outcome. For each, state whether an exact current FPF or admitted-DPF owner carries its action, first result, return, and source or refresh duty; an exact external result supplies it; an action-bearing remainder survives; or ownership remains unresolved. A shared topic or broad framework name can locate candidates; assign a disposition only after exact contribution comparison.
 

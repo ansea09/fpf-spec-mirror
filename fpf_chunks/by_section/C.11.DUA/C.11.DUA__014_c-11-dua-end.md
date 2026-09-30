@@ -6,12 +6,12 @@ section_id: "C.11.DUA:End"
 section_title: "C.11.DUA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__014_c-11-dua-end.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:End — C.11.DUA:End"
-line_start: 53860
-line_end: 53861
+line_start: 53862
+line_end: 53863
 dependencies:
   - "A.10"
   - "C.11"

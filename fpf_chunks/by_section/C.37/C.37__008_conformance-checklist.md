@@ -6,12 +6,12 @@ section_id: "C.37:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__008_conformance-checklist.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:7 — Conformance Checklist"
-line_start: 76576
-line_end: 76593
+line_start: 76578
+line_end: 76595
 dependencies:
   - "A.10"
   - "A.2.4"

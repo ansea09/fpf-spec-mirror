@@ -6,12 +6,12 @@ section_id: "C.2.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__006_archetypal-grounding.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:5 — Archetypal Grounding"
-line_start: 50008
-line_end: 50014
+line_start: 50010
+line_end: 50016
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "G.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__013_relations.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:12 — Relations"
-line_start: 112919
-line_end: 112924
+line_start: 112933
+line_end: 112938
 dependencies:
   - "A.10"
   - "A.15.3"

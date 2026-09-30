@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__001_intro.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:intro — Intro"
-line_start: 18312
-line_end: 18319
+line_start: 18306
+line_end: 18313
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"

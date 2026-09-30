@@ -6,12 +6,12 @@ section_id: "B.5.2.0:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__013_sota-echoing.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:11 — SoTA-Echoing"
-line_start: 46688
-line_end: 46690
+line_start: 46690
+line_end: 46692
 dependencies:
   - "A.16"
   - "A.16.0"

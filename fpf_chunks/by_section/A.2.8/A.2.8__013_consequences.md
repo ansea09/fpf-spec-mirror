@@ -6,12 +6,12 @@ section_id: "A.2.8:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__013_consequences.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:10 — Consequences"
-line_start: 7502
-line_end: 7517
+line_start: 7496
+line_end: 7511
 dependencies:
   - "A.10"
   - "A.15.1"

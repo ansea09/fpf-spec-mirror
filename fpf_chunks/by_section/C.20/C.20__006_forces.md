@@ -6,12 +6,12 @@ section_id: "C.20:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__006_forces.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:3 — Forces"
-line_start: 57860
-line_end: 57870
+line_start: 57862
+line_end: 57872
 dependencies:
   - "A.1"
   - "A.14"

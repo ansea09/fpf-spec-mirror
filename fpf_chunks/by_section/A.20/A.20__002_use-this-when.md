@@ -6,12 +6,12 @@ section_id: "A.20:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__002_use-this-when.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:0 — Use this when"
-line_start: 37050
-line_end: 37072
+line_start: 37044
+line_end: 37066
 dependencies:
   - "A.10"
   - "A.15"

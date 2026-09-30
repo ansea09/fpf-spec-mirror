@@ -6,12 +6,12 @@ section_id: "C.20:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__012_consequences.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:8 — Consequences"
-line_start: 58127
-line_end: 58134
+line_start: 58129
+line_end: 58136
 dependencies:
   - "A.1"
   - "A.14"

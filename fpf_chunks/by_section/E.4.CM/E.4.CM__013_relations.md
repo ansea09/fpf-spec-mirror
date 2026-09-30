@@ -6,12 +6,12 @@ section_id: "E.4.CM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__013_relations.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:12 — Relations"
-line_start: 80578
-line_end: 80590
+line_start: 80592
+line_end: 80604
 dependencies:
   - "A.3.1"
   - "B.1.5"

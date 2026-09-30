@@ -6,12 +6,12 @@ section_id: "B.1.4:1.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__003_problem.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:1.1 — Problem"
-line_start: 39423
-line_end: 39428
+line_start: 39425
+line_end: 39430
 dependencies:
   - "A.1.1"
   - "A.14"

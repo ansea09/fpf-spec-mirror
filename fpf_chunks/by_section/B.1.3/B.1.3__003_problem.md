@@ -6,12 +6,12 @@ section_id: "B.1.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__003_problem.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:2 — Problem"
-line_start: 39151
-line_end: 39161
+line_start: 39149
+line_end: 39159
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,5 +50,5 @@ Naive aggregation of knowledge holons causes recurring failures:
 3. **Semantic drift.** Folding across mismatched concepts without explicit **mappings** (and their **CL**) yields incoherent composites that look formal but mean nothing.
 4. **Order blindness.** Arguments with essential **dependency order** (premise ⇒ lemma ⇒ conclusion) are treated as sets; non‑commutativity is lost and results become non‑reproducible.
 5. **Semantic-context chimeras.** Combining claims whose local senses or reference schemes differ, without exact mappings and—when meanings cross—an F.9 Bridge plus a separately warranted bounded-use claim, silently corrupts claims and inflates **R**.
-6. **Category errors.** Importing **Γ\_sys** rules (e.g., “sum truth,” “avg formality”) into knowledge composition produces physically sounding but epistemically nonsensical models.
+6. **Category errors.** Applying a physical quantity’s addition rule to truth, or averaging ordinal formality, ignores the value’s meaning and scale. Use C.16 for admissible scale operations and B.3 for the warranted support inference.
 

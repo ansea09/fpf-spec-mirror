@@ -6,12 +6,12 @@ section_id: "A.14:2"
 section_title: "Problem — what breaks without these distinctions?"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__003_problem-what-breaks-without-these-distinctions.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:2 — Problem — what breaks without these distinctions?"
-line_start: 25933
-line_end: 25946
+line_start: 25927
+line_end: 25940
 dependencies:
   - "A.1"
   - "A.15"
@@ -56,11 +56,11 @@ keywords:
 
 If we only have “generic partOf” plus Component/Constituent, five classes of errors appear:
 
-1. **Conservation errors.** Counting “20 L of fuel from Tank A” as a component supplies no measure, additivity or conservation account for additions and removals. Γ_sys proofs still require Σ-balance.
+1. **Conservation errors.** Counting “20 L of fuel from Tank A” as a component supplies no measure, additivity or conservation account for additions and removals. Establish the common measure and boundary under :5.1, then reconcile the remaining fuel with the actual additions and removals under the applicable conservation law.
 
 2. **Aspect creation by wording.** A selected Characteristic, view, projection, partition rule, dashboard slice, or concern label is turned into a world-side part without identifying the aspect, bearer, facet rule, or identity condition.
 
-3. **Temporal smearing.** Flattening “before/after” for one enduring carrier into a timeless whole collapses history; treating two changed epistemes or two Work occurrences as temporal pieces of that carrier collapses identity and occurrence history. Γ_time and Γ_method cannot repair either mistake after the fact.
+3. **Temporal smearing.** Flattening “before/after” for one enduring carrier into a timeless whole collapses history; treating two changed epistemes or two Work occurrences as temporal pieces of that carrier collapses identity and occurrence history. Resolve those identities and Work relations before temporal aggregation (B.1.4) or Method composition (B.1.5).
 
 4. **Identity confusion.** Modelling a “new version” as a component or phase lets a label decide identity. For an episteme, first compare the C.2.1 identity triple and then test edition continuity separately; for another enduring holon, apply its direct identity rule to determine whether the same individual persists or a reidentification question opens.
 

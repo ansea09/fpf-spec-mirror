@@ -6,12 +6,12 @@ section_id: "G.12:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__004_problem-frame.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:2 — Problem Frame"
-line_start: 117776
-line_end: 117788
+line_start: 117790
+line_end: 117802
 dependencies:
   - "A.19"
   - "A.2.6"

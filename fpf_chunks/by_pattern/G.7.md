@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.7.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
-line_start: 115475
-line_end: 115876
+line_start: 115489
+line_end: 115890
 dependencies:
   - "A.21"
   - "B.3"
@@ -374,10 +374,10 @@ In C.3.3 §9.3's AdultPatient/AdultPerson_Y case, the age-boundary loss and `CL^
 
 ### G.7:5 - Archetypal Grounding (System / Episteme)
 
-**System (Γ_sys):** *Cross‑standard safety assurance comparison (bridge‑first).*
+**System case:** *Cross-standard comparison of safety claims about one physical system (bridge-first).*
 A team must compare a safety assurance claim across two regulatory Traditions (e.g., a “functional safety case” tradition and a “ML system testing” tradition) for the *same physical system scope*. `G.7` forces explicit SenseCell‑level bridges (what exactly is the “hazard”, what is the “evidence carrier”, what is the “pass criterion”), records losses, pins planes, and provides sentinels so that changes in the safety evidence protocol editions trigger path‑local RSCR rather than re‑authoring the entire safety case.
 
-**Episteme (Γ_epist):** *Benchmark protocol pluralism (post‑2015 evaluation practice).*
+**Episteme case:** *Benchmark protocol pluralism (post-2015 evaluation practice).*
 A research group wants to compare “state‑of‑the‑art” across multiple evaluation Traditions (IID performance, shift robustness, preference‑based evaluation). `G.7` turns “these are comparable” into explicit BridgeCards with declared row scope, pins the evaluation protocol editions, and registers sentinels so that when a benchmark protocol or policy pin changes, downstream selector decisions can be re‑audited by replaying the affected PathSlice‑scoped evidence.
 
 ### G.7:6 - Bias‑Annotation

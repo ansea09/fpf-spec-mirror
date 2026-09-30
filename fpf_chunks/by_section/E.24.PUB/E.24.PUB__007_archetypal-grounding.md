@@ -6,12 +6,12 @@ section_id: "E.24.PUB:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__007_archetypal-grounding.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:5 — Archetypal Grounding"
-line_start: 102986
-line_end: 103015
+line_start: 103000
+line_end: 103029
 dependencies:
   - "A.6.3"
   - "A.6.REL"

@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__014_relations.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:12 — Relations"
-line_start: 19389
-line_end: 19404
+line_start: 19383
+line_end: 19398
 dependencies:
   - "A.10"
   - "A.15"

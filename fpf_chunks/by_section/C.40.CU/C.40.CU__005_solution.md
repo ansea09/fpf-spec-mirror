@@ -6,12 +6,12 @@ section_id: "C.40.CU:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__005_solution.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:4 — Solution"
-line_start: 77739
-line_end: 77842
+line_start: 77741
+line_end: 77844
 dependencies:
   - "B.1.5.EW"
   - "C.11"

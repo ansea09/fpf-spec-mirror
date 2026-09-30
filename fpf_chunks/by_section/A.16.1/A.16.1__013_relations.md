@@ -6,12 +6,12 @@ section_id: "A.16.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__013_relations.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:12 — Relations"
-line_start: 31214
-line_end: 31218
+line_start: 31208
+line_end: 31212
 dependencies:
   - "A.16"
   - "A.16.0"

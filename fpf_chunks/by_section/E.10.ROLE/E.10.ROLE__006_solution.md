@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__006_solution.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:4 — Solution"
-line_start: 88350
-line_end: 88393
+line_start: 88364
+line_end: 88407
 dependencies:
   - "A.2"
   - "A.2.1"

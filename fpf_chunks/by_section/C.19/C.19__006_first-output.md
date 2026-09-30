@@ -6,12 +6,12 @@ section_id: "C.19:0.4"
 section_title: "First output"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__006_first-output.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:0.4 — First output"
-line_start: 57117
-line_end: 57126
+line_start: 57119
+line_end: 57128
 dependencies:
   - "A.10"
   - "A.19.CPM"

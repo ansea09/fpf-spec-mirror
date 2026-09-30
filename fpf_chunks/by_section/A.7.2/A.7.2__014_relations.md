@@ -6,12 +6,12 @@ section_id: "A.7.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__014_relations.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:12 — Relations"
-line_start: 23824
-line_end: 23832
+line_start: 23818
+line_end: 23826
 dependencies:
   - "A.10"
   - "A.7.1"

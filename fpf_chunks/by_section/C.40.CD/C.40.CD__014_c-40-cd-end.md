@@ -6,12 +6,12 @@ section_id: "C.40.CD:End"
 section_title: "C.40.CD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__014_c-40-cd-end.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:End — C.40.CD:End"
-line_start: 77704
-line_end: 77705
+line_start: 77706
+line_end: 77707
 dependencies:
   - "B.5.MPC"
   - "B.5.QD"

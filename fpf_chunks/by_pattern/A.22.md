@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.22.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
-line_start: 37589
-line_end: 38095
+line_start: 37583
+line_end: 38089
 dependencies:
   - "A.1"
   - "A.1.1"

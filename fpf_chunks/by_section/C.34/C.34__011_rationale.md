@@ -6,12 +6,12 @@ section_id: "C.34:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__011_rationale.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:10 — Rationale"
-line_start: 75676
-line_end: 75683
+line_start: 75678
+line_end: 75685
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

@@ -6,12 +6,12 @@ section_id: "A.13:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__002_use-this-when.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:0 — Use This When"
-line_start: 25745
-line_end: 25752
+line_start: 25739
+line_end: 25746
 dependencies:
   - "A.10"
   - "A.12"

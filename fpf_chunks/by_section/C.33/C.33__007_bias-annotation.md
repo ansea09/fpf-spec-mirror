@@ -6,12 +6,12 @@ section_id: "C.33:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__007_bias-annotation.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:6 — Bias-Annotation"
-line_start: 75441
-line_end: 75450
+line_start: 75443
+line_end: 75452
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

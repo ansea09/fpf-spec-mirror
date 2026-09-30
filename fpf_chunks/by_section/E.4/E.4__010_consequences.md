@@ -6,16 +6,17 @@ section_id: "E.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__010_consequences.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:9 — Consequences"
-line_start: 80263
-line_end: 80268
+line_start: 80277
+line_end: 80282
 dependencies:
   - "C.33"
   - "C.34"
   - "C.35"
+  - "C.39"
   - "E.1"
   - "E.11"
   - "E.11.DSG"

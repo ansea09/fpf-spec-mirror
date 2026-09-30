@@ -6,12 +6,12 @@ section_id: "F.17:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__005_forces.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:3 — Forces"
-line_start: 109464
-line_end: 109474
+line_start: 109478
+line_end: 109488
 dependencies:
   - "A.1.1"
   - "A.10"

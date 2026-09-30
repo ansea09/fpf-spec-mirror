@@ -6,12 +6,12 @@ section_id: "C.22.2:10"
 section_title: "Structure Cue That Improves Formulation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__011_structure-cue-that-improves-formulation.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:10 — Structure Cue That Improves Formulation"
-line_start: 59628
-line_end: 59649
+line_start: 59630
+line_end: 59651
 dependencies:
   - "A.10"
   - "A.15"

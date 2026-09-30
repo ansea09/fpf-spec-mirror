@@ -6,12 +6,12 @@ section_id: "E.8:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__015_architectural-rationale.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:10 — Architectural Rationale"
-line_start: 84157
-line_end: 84171
+line_start: 84171
+line_end: 84185
 dependencies:
   - "E.10"
   - "E.10.MOVE"

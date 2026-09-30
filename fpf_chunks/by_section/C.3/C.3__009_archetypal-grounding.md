@@ -6,12 +6,12 @@ section_id: "C.3:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__009_archetypal-grounding.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:7 — Archetypal Grounding"
-line_start: 51167
-line_end: 51177
+line_start: 51169
+line_end: 51179
 dependencies:
   - "A.1"
   - "A.11"

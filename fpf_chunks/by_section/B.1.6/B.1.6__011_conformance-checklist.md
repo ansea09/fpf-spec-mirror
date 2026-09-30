@@ -6,12 +6,12 @@ section_id: "B.1.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__011_conformance-checklist.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:7 — Conformance Checklist"
-line_start: 40566
-line_end: 40579
+line_start: 40568
+line_end: 40581
 dependencies:
   - "A.1"
   - "A.10"

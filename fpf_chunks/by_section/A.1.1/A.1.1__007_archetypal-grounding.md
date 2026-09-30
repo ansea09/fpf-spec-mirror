@@ -6,12 +6,12 @@ section_id: "A.1.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__007_archetypal-grounding.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:5 — Archetypal Grounding"
-line_start: 2695
-line_end: 2753
+line_start: 2689
+line_end: 2747
 dependencies:
   - "A.1"
   - "A.14"

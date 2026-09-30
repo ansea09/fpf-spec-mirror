@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__002_problem-frame.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:1 — Problem frame"
-line_start: 18122
-line_end: 18131
+line_start: 18116
+line_end: 18125
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"

@@ -6,12 +6,12 @@ section_id: "A.16.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__004_forces.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:3 — Forces"
-line_start: 31101
-line_end: 31108
+line_start: 31095
+line_end: 31102
 dependencies:
   - "A.16"
   - "A.16.0"

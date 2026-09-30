@@ -6,12 +6,12 @@ section_id: "G.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__003_problem.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:2 — Problem"
-line_start: 112958
-line_end: 112966
+line_start: 112972
+line_end: 112980
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

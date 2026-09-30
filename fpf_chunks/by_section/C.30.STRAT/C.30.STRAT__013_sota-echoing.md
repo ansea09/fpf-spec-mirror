@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__013_sota-echoing.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:11 — SoTA-Echoing"
-line_start: 68865
-line_end: 68877
+line_start: 68867
+line_end: 68879
 dependencies:
   - "A.10"
   - "A.15"

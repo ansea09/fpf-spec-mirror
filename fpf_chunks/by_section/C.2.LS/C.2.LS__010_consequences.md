@@ -6,12 +6,12 @@ section_id: "C.2.LS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__010_consequences.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:9 — Consequences"
-line_start: 49595
-line_end: 49597
+line_start: 49597
+line_end: 49599
 dependencies:
   - "A.16"
   - "A.16.0"

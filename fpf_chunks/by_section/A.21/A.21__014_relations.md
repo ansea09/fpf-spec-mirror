@@ -6,12 +6,12 @@ section_id: "A.21:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__014_relations.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:12 — Relations"
-line_start: 37576
-line_end: 37586
+line_start: 37570
+line_end: 37580
 dependencies:
   - "A.10"
   - "A.15.5"

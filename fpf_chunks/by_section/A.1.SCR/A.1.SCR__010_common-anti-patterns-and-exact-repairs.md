@@ -6,12 +6,12 @@ section_id: "A.1.SCR:8"
 section_title: "Common Anti-Patterns and Exact Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__010_common-anti-patterns-and-exact-repairs.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:8 — Common Anti-Patterns and Exact Repairs"
-line_start: 3052
-line_end: 3064
+line_start: 3046
+line_end: 3058
 dependencies:
   - "A.1"
   - "A.1.CSD"

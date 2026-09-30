@@ -6,12 +6,12 @@ section_id: "A.15.6:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 28917
-line_end: 28935
+line_start: 28911
+line_end: 28929
 dependencies:
   - "A.1"
   - "A.1.STM"

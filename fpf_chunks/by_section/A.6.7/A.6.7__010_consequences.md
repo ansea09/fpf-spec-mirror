@@ -6,12 +6,12 @@ section_id: "A.6.7:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__010_consequences.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:9 — Consequences"
-line_start: 22061
-line_end: 22073
+line_start: 22055
+line_end: 22067
 dependencies:
   - "A.21"
   - "A.6.1"

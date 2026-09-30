@@ -6,12 +6,12 @@ section_id: "E.5.2:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__009_rationale.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:8 — Rationale"
-line_start: 83132
-line_end: 83146
+line_start: 83146
+line_end: 83160
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"

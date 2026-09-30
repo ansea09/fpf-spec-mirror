@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.6.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
-line_start: 83322
-line_end: 83401
+line_start: 83336
+line_end: 83415
 dependencies:
   - "E.2"
 keywords:
@@ -74,7 +74,7 @@ This publication order does not require readers to traverse every Part. Practica
 |-----------------|---------------------------|-----------------------------|
 | Preface | Coffee‑machine story (pump as system). | Meta‑analysis story (study bundle as episteme). |
 | Part A | Formal definition states the System criterion and applicable boundary conditions. | Formal definition states the Episteme criterion; F‑G‑R coordinates characterize a claim under the C.2.2 profile. |
-| Part B Tell‑Show‑Show | Γ\_sys example: assemble pump. | Γ_epist example: merge study bundle. |
+| Part B Tell-Show-Show | B.1.2:5.1: identify pump-skid parts and external relations for an aggregation decision. | B.1.3:5.1: synthesize a study bundle into a bounded guidance statement. |
 
 ### E.6:6 - Conformance Checklist
 

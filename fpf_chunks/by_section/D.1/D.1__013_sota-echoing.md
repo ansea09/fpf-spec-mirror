@@ -6,12 +6,12 @@ section_id: "D.1:9"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__013_sota-echoing.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:9 — SoTA-Echoing"
-line_start: 78479
-line_end: 78487
+line_start: 78481
+line_end: 78489
 dependencies:
   - "A.1"
   - "A.1.CSD"

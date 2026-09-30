@@ -6,12 +6,12 @@ section_id: "B.2.2:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__007_archetypal-grounding-worked-cases.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
   - "B.2.2:5 — Archetypal Grounding (Worked Cases)"
-line_start: 41323
-line_end: 41347
+line_start: 41325
+line_end: 41349
 dependencies:
   - "A.1"
   - "A.10"

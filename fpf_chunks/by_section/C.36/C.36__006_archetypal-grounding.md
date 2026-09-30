@@ -6,12 +6,12 @@ section_id: "C.36:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__006_archetypal-grounding.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:5 — Archetypal Grounding"
-line_start: 76181
-line_end: 76273
+line_start: 76183
+line_end: 76275
 dependencies:
   - "A.1"
   - "A.10"

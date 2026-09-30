@@ -6,12 +6,12 @@ section_id: "E.5.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__007_conformance-checklist.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:6 — Conformance Checklist"
-line_start: 83292
-line_end: 83300
+line_start: 83306
+line_end: 83314
 dependencies:
   - "E.3"
   - "E.5"

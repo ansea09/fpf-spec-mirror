@@ -6,12 +6,12 @@ section_id: "E.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__001_intro.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:intro — Intro"
-line_start: 79815
-line_end: 79816
+line_start: 79821
+line_end: 79822
 dependencies:
   - "E.1"
   - "E.2"

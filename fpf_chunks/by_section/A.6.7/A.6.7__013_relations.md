@@ -6,12 +6,12 @@ section_id: "A.6.7:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__013_relations.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:12 — Relations"
-line_start: 22095
-line_end: 22102
+line_start: 22089
+line_end: 22096
 dependencies:
   - "A.21"
   - "A.6.1"

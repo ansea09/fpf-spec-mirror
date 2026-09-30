@@ -6,12 +6,12 @@ section_id: "A.1.SCR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__001_intro.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:intro — Intro"
-line_start: 2840
-line_end: 2847
+line_start: 2834
+line_end: 2841
 dependencies:
   - "A.1"
   - "A.1.CSD"

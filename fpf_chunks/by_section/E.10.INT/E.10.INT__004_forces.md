@@ -6,12 +6,12 @@ section_id: "E.10.INT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__004_forces.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:3 — Forces"
-line_start: 87145
-line_end: 87153
+line_start: 87159
+line_end: 87167
 dependencies:
   - "C.11"
   - "C.16"

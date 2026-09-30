@@ -6,12 +6,12 @@ section_id: "A.22:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__001_intro.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:intro — Intro"
-line_start: 37589
-line_end: 37594
+line_start: 37583
+line_end: 37588
 dependencies:
   - "A.1"
   - "A.1.1"

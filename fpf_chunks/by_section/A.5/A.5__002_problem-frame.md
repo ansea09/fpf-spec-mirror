@@ -6,12 +6,12 @@ section_id: "A.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.5/A.5__002_problem-frame.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.5 — Open-Ended FPF Kernel and Extension Layering"
   - "A.5:1 — Problem frame"
-line_start: 11241
-line_end: 11251
+line_start: 11235
+line_end: 11245
 dependencies:
 keywords:
   - "FPF architecture"
@@ -24,8 +24,8 @@ keywords:
 
 ### A.5:1 - Problem frame
 
-FPF’s ambition is to act as an *“operating system for thought.”*
-That ambition can only be realised if the framework:
+FPF helps practitioners combine shared conceptual grounds and reusable methods with suitable domain methods.
+FPF can support that use across changing disciplines only if it:
 
 * **(i)** remains *stable* and *self‑consistent* over multi‑decade timespans;
 * **(ii)** *invites*, rather than resists, the continual influx of new disciplinary knowledge; and

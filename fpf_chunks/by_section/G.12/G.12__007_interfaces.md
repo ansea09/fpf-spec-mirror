@@ -6,12 +6,12 @@ section_id: "G.12:5"
 section_title: "Interfaces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__007_interfaces.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:5 — Interfaces"
-line_start: 117948
-line_end: 117958
+line_start: 117962
+line_end: 117972
 dependencies:
   - "A.19"
   - "A.2.6"

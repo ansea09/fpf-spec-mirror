@@ -6,12 +6,12 @@ section_id: "E.15:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__011_rationale.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:10 — Rationale"
-line_start: 91958
-line_end: 91965
+line_start: 91972
+line_end: 91979
 dependencies:
   - "C.18"
   - "C.19"

@@ -6,12 +6,12 @@ section_id: "D.3:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__005_solution.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:2 — Solution"
-line_start: 78699
-line_end: 78779
+line_start: 78701
+line_end: 78781
 dependencies:
   - "A.1"
   - "A.10"

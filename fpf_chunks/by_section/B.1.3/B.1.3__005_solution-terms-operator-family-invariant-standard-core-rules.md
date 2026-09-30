@@ -6,12 +6,12 @@ section_id: "B.1.3:4"
 section_title: "Solution — Terms, operator family, invariant Standard, core rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__005_solution-terms-operator-family-invariant-standard-core-rules.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:4 — Solution — Terms, operator family, invariant Standard, core rules"
-line_start: 39172
-line_end: 39287
+line_start: 39170
+line_end: 39285
 dependencies:
   - "A.1"
   - "A.10"
@@ -136,8 +136,8 @@ When computing **Γ_epist^synth(D_know)**:
 * **Constructive derivations.** State the chosen proof basis and the correspondence needed by the conclusion. An induction proof may use its stated non-UF foundation. A UF-based equivalence claim supplies the required equivalence or isomorphism witness and the structure that the receiving theorem needs preserved. A lossy mapping cannot transport a theorem that depends on an erased distinction. If the required proof basis or correspondence is unavailable, leave that inference unresolved while retaining independently supported conclusions. A CL summary describes mapping evidence; it establishes neither equivalence nor theorem transport.
 
 **8. Order-aware arguments (optional).**
-   If the argument requires premise ordering, embed a **Γ\_ctx** fold inside Γ\_epist; record the **OrderSpec** for reproducibility (NC‑1..3).
-   **Condition:** state the `OrderSpec` whenever the conclusion depends on premise or derivation order; use B.1.4 for the bounded aggregation of those recovered order relations. No unspecified maturity level determines this requirement.
+   If the conclusion depends on premise or derivation order, identify the ordered relations and positions, declare the **OrderSpec**, and retain the branch, join and independence conditions needed by the argument. Use B.1.4:4 to check the bounded aggregation and its determinacy under those conditions.
+
 
 **9. No costs here.**
    Any compute/collection effort is **Γ\_work**; attach references but do not mix costs into epistemic aggregation.
@@ -146,14 +146,14 @@ When computing **Γ_epist^synth(D_know)**:
 
 When computing **Γ_epist^compile(E_synth, TargetScheme)**:
 
-**1. Reference-scheme bindings.** # [M-1+]
+**1. Reference-scheme bindings.**
    Map every operative concept, unit, and claim into **TargetScheme** and record the exact mapping and its **CL** evidence summary. For a meaning that crosses semantic contexts, name the source and receiving `SchemeSenseCell` values, the obtaining F.9 Bridge, the proposed use, direction, use-specific rule, and permitted loss; establish reliance separately. C.2.1 identifies the compiled episteme from its resulting claims, exact EntityOfConcern, and target scheme. A changed identity discriminator identifies another episteme; it does not by itself open a whole-reidentification question.
 
 **2. Re-express the assurance basis.**
    Re-express F, G, and the support account in **TargetScheme**. Preserve the formal conclusion and empirical limitations separately. Recalculate R or a mapping loss only if the target use has the required meanings, scales, and model under B.3/C.2.2; a change of vocabulary or increased formality is not additional warrant. Without a justified aggregate, carry the separate support and bounded synthesis. A quantitative or formal application proves the calculations or derivations it actually claims, not a fictitious tuple imposed by its mode.
 
 **3. Compilation trace.**
-   Produce the compiled episteme's SCR and the carrier hashes needed to reconstruct this application; at **L2** require independent re-hash verification. This trace establishes neither publication nor release. # [M-1/L2]
+   Produce the compiled episteme's SCR and the carrier hashes needed to reconstruct this application. Require independent re-hash verification when the receiving claim needs independent carrier-integrity evidence under B.3 or an applicable B.3.3 assurance profile. A level label alone does not select that check. The trace establishes neither publication nor release.
 **4. Order/time hooks.**
    If the compiled episteme includes an internal derivation, carry the **OrderSpec**. If it selects knowledge for a time-bounded use, name the exact C.2.1 episteme identity and link to the already recovered proper temporal restriction, edition relation order, applicability window, or B.1.4/**Γ_time** aggregation actually used.
 

@@ -6,12 +6,12 @@ section_id: "F.13:6"
 section_title: "Solution — Continuity, not “registries”"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__007_solution-continuity-not-registries.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:6 — Solution — Continuity, not “registries”"
-line_start: 108134
-line_end: 108161
+line_start: 108148
+line_end: 108175
 dependencies:
   - "F.1"
   - "F.17"

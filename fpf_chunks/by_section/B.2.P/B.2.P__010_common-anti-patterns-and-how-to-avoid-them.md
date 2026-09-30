@@ -6,12 +6,12 @@ section_id: "B.2.P:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 41144
-line_end: 41156
+line_start: 41146
+line_end: 41158
 dependencies:
   - "A.1.1"
   - "A.10"

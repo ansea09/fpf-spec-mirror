@@ -6,12 +6,12 @@ section_id: "E.5:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__008_consequences.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:7 — Consequences"
-line_start: 82945
-line_end: 82952
+line_start: 82959
+line_end: 82966
 dependencies:
   - "E.2"
   - "E.3"

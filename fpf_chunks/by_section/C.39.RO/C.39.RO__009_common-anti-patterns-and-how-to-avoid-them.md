@@ -6,12 +6,12 @@ section_id: "C.39.RO:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 77263
-line_end: 77273
+line_start: 77265
+line_end: 77275
 dependencies:
   - "A.3.1"
   - "A.3.2"

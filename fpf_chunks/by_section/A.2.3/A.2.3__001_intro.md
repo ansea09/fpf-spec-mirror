@@ -6,12 +6,12 @@ section_id: "A.2.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__001_intro.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:intro — Intro"
-line_start: 4636
-line_end: 4639
+line_start: 4630
+line_end: 4633
 dependencies:
   - "A.1.1"
   - "A.10"

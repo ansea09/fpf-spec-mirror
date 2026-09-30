@@ -6,12 +6,12 @@ section_id: "C.2.6:13"
 section_title: "Worked Examples and Bridge-Loss Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__014_worked-examples-and-bridge-loss-cases.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:13 — Worked Examples and Bridge-Loss Cases"
-line_start: 50227
-line_end: 50237
+line_start: 50229
+line_end: 50239
 dependencies:
   - "A.16"
   - "A.16.0"

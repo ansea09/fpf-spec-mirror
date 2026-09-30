@@ -6,12 +6,12 @@ section_id: "G.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__004_forces.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:3 — Forces"
-line_start: 113935
-line_end: 113942
+line_start: 113949
+line_end: 113956
 dependencies:
   - "A.10"
   - "A.13"

@@ -6,12 +6,12 @@ section_id: "A.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__008_conformance-checklist-normative.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:7 — Conformance Checklist (normative)"
-line_start: 8358
-line_end: 8392
+line_start: 8352
+line_end: 8386
 dependencies:
   - "A.10"
   - "A.12-A.15"

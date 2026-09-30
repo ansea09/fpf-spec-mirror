@@ -6,12 +6,12 @@ section_id: "C.25:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__001_intro.md"
-commit_sha: "b112256466bff620bbee2b72ab8cfe4ad976e60d"
+commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:intro — Intro"
-line_start: 60543
-line_end: 60563
+line_start: 60545
+line_end: 60565
 dependencies:
   - "A.10"
   - "A.15"
