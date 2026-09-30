@@ -6,12 +6,12 @@ section_id: "E.22:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__011_rationale.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:10 — Rationale"
-line_start: 100842
-line_end: 100845
+line_start: 100863
+line_end: 100866
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

@@ -6,12 +6,12 @@ section_id: "C.32.ACS:6"
 section_title: "Kind and Receiving-Claim Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__007_kind-and-receiving-claim-boundary.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:6 — Kind and Receiving-Claim Boundary"
-line_start: 72939
-line_end: 72952
+line_start: 72955
+line_end: 72968
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -39,12 +39,12 @@ dependencies:
   - "G.5"
 keywords:
   - "Q-Bundle"
-  - "anti-Goodhart guard"
-  - "architecture characteristic criteria set"
-  - "criteria row"
-  - "improvement cycle"
-  - "protected counter-characteristic"
+  - "architecture criteria"
+  - "attainable observation"
+  - "protected qualities"
   - "proxy risk"
+  - "required result"
+  - "structural alternatives"
 ---
 
 ### C.32.ACS:6 - Kind and Receiving-Claim Boundary

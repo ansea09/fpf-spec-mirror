@@ -6,12 +6,12 @@ section_id: "C.32.ACS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__004_forces.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:3 — Forces"
-line_start: 72853
-line_end: 72863
+line_start: 72867
+line_end: 72877
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -39,12 +39,12 @@ dependencies:
   - "G.5"
 keywords:
   - "Q-Bundle"
-  - "anti-Goodhart guard"
-  - "architecture characteristic criteria set"
-  - "criteria row"
-  - "improvement cycle"
-  - "protected counter-characteristic"
+  - "architecture criteria"
+  - "attainable observation"
+  - "protected qualities"
   - "proxy risk"
+  - "required result"
+  - "structural alternatives"
 ---
 
 ### C.32.ACS:3 - Forces

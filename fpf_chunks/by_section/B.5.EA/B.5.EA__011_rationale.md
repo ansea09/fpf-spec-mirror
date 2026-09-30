@@ -6,12 +6,12 @@ section_id: "B.5.EA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__011_rationale.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "B.5.EA — Articulate a Working Distinction from Experience"
   - "B.5.EA:10 — Rationale"
-line_start: 43880
-line_end: 43885
+line_start: 43887
+line_end: 43892
 dependencies:
   - "B.5"
   - "B.5.4"

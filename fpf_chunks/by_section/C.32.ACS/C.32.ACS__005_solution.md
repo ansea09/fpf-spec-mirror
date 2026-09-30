@@ -6,12 +6,12 @@ section_id: "C.32.ACS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__005_solution.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:4 — Solution"
-line_start: 72864
-line_end: 72928
+line_start: 72878
+line_end: 72944
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -39,12 +39,12 @@ dependencies:
   - "G.5"
 keywords:
   - "Q-Bundle"
-  - "anti-Goodhart guard"
-  - "architecture characteristic criteria set"
-  - "criteria row"
-  - "improvement cycle"
-  - "protected counter-characteristic"
+  - "architecture criteria"
+  - "attainable observation"
+  - "protected qualities"
   - "proxy risk"
+  - "required result"
+  - "structural alternatives"
 ---
 
 ### C.32.ACS:4 - Solution
@@ -55,17 +55,19 @@ Build an `ArchitectureCharacteristicCriteriaSet@Project` from starter heads, sou
 
 `ArchitectureCharacteristicCriteriaSet@Project` is a C.32.ACS-local project working record: it holds criteria-row references and use classifications for improvement work. Each `draftProjectCriteriaRows` entry is another local record form, not the referenced `U.Characteristic`, Q-Bundle slot, scale, predicate, measurement result, eval program, or eval result. The set and rows create no new `U.*` kind and replace none of those direct objects.
 
-An architecture characteristic is the property or quality-like head under discussion. A C.25 Q-Bundle is the structured form for a composite quality family. A scale row binds one characteristic or Q-Bundle slot to a bearer, scale form, use class, and receiving use. A row whose scale form exposes exception growth, interface variation, or another scale-sensitive characteristic remains a criterion row; a preference between architecture alternatives over a declared scale window is a separate `C.31.ASAP` claim. An architecture-characteristic eval program belongs to `C.32.ACE`; it frames evaluation of one declared row, coupled rows, Q-Bundle slots, or C.32 candidate palettes while each actual typed result remains under the pattern that defines and tests that result.
+For a particular architecture decision, a characteristic is architecturally relevant when it matters to a required result or constraint and a difference between the considered structures can change its attainable expression under stated conditions. Name the bearer, relevant structural alternatives and reason for that connection. A domain or functional quality can satisfy this condition; the name of an `-ility` alone cannot. Architectural relevance frames a hypothesis or justified dependence, not proof of a causal effect.
+
+A C.25 Q-Bundle is the structured form for a composite quality family. A scale row binds one characteristic or Q-Bundle slot to a bearer, scale form, use class, and receiving use. A row whose scale form exposes exception growth, interface variation, or another scale-sensitive characteristic remains a criterion row; a preference between architecture alternatives over a declared scale window is a separate `C.31.ASAP` claim. An architecture-characteristic eval program belongs to `C.32.ACE`; it frames evaluation of one declared row, coupled rows, Q-Bundle slots, or C.32 candidate palettes while each actual typed result remains under the pattern that defines and tests that result.
 
 #### C.32.ACS:4.2 - Criteria-set construction
 
 Work in this order:
 
-1. Name the described holon, architecture use, and improvement cycle or one-pass eval use. For every proposed row, bind the exact claim scope and selected context slices, effective reference scheme and plane, and qualification or evaluation window. Designate a selected A.1.1 `BoundedModelUseStructure` only when it independently changes that row's interpretation.
+1. Name the described holon, architecture use, and improvement cycle or one-pass eval use. Connect the receiving role and situation to a needed result, the quality that matters, the structural alternatives that could change it, and an attainable observation. Keep a Method, its description, a performed Work occurrence and the performing System distinct when choosing that bearer. For every proposed row, bind the claim scope and selected context slices, effective reference scheme and plane, and qualification or evaluation window. Designate a selected A.1.1 `BoundedModelUseStructure` only when it independently changes that row's interpretation.
 2. Start from a `C.32.HCS` starter pack when the project has no draft criteria rows yet. Use source catalogues only as input, not as the criteria set.
 3. Build draft project criteria rows. There may be dozens of draft rows when broad scanning is needed, but each row must have a possible bearer, use reason, and pattern for the next question.
 4. For each source or starter head, decide whether it is one architecture characteristic, one C.25 Q-Bundle, one Q-Bundle slot, or only source vocabulary.
-5. Narrow the optimization-indicator core. The ordinary target is three to five rows. More rows require an explicit reason, such as a regulated trade-off study or a multi-team decision use.
+5. Narrow the optimization-indicator core. Three to five rows is an attention heuristic. More rows require a use reason, such as a regulated trade-off study or a multi-team decision. Preserve every applicable non-compensable constraint and necessary guardrail; the small core does not limit their number.
 6. Classify remaining admitted rows as `monitoredGuardrail` or `contextOnly`. A guardrail protects against a loss caused by optimizing another row; a context-only row helps interpretation but does not drive optimization now.
 7. Bind each admitted row to bearer or selected structure, scale form, polarity, current reading or no-reading reason, proxy risk, protected counter-characteristics, receiving use, and source-return condition.
 8. Reference `C.32.ACE` only after the row exists and an eval program is needed for current characterization, candidate comparison, monitoring, or preparing inputs for `A.19.SelectorMechanism`.

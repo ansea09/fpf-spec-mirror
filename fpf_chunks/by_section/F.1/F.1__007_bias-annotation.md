@@ -6,12 +6,12 @@ section_id: "F.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__007_bias-annotation.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "F.1 — Question-Relative Source Selection"
   - "F.1:6 — Bias-Annotation"
-line_start: 104274
-line_end: 104282
+line_start: 104308
+line_end: 104316
 dependencies:
   - "A.10"
   - "A.7"

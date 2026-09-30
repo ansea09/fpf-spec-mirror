@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__005_solution.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:4 — Solution"
-line_start: 44377
-line_end: 44454
+line_start: 44384
+line_end: 44461
 dependencies:
   - "A.15.9"
   - "A.3.3"

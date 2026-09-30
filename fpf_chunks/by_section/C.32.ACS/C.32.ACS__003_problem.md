@@ -6,12 +6,12 @@ section_id: "C.32.ACS:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__003_problem.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:2 — Problem"
-line_start: 72843
-line_end: 72852
+line_start: 72857
+line_end: 72866
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -39,12 +39,12 @@ dependencies:
   - "G.5"
 keywords:
   - "Q-Bundle"
-  - "anti-Goodhart guard"
-  - "architecture characteristic criteria set"
-  - "criteria row"
-  - "improvement cycle"
-  - "protected counter-characteristic"
+  - "architecture criteria"
+  - "attainable observation"
+  - "protected qualities"
   - "proxy risk"
+  - "required result"
+  - "structural alternatives"
 ---
 
 ### C.32.ACS:2 - Problem

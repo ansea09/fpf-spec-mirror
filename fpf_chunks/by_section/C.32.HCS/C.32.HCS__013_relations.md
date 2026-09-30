@@ -6,12 +6,12 @@ section_id: "C.32.HCS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__013_relations.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:12 — Relations"
-line_start: 72737
-line_end: 72742
+line_start: 72751
+line_end: 72756
 dependencies:
   - "A.19"
   - "C.11"
@@ -28,11 +28,12 @@ dependencies:
   - "E.13"
   - "G.5"
 keywords:
-  - "architecture characteristic heads"
-  - "architecture-bearing family characteristic starter pack"
-  - "characteristic transfer"
-  - "first criteria questions"
-  - "source catalogue narrowing"
+  - "Method"
+  - "System"
+  - "Work"
+  - "architecture-bearing family"
+  - "domain transfer"
+  - "starter characteristics"
 ---
 
 ### C.32.HCS:12 - Relations

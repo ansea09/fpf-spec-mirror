@@ -6,12 +6,12 @@ section_id: "B.5.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__011_rationale.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
   - "B.5.4:10 — Rationale"
-line_start: 47145
-line_end: 47148
+line_start: 47152
+line_end: 47155
 dependencies:
   - "A.7.1"
   - "B.5"

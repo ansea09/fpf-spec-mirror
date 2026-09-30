@@ -6,12 +6,12 @@ section_id: "C.32.ACS:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__012_sota-echoing.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:11 — SoTA-Echoing"
-line_start: 73001
-line_end: 73016
+line_start: 73017
+line_end: 73034
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -39,12 +39,12 @@ dependencies:
   - "G.5"
 keywords:
   - "Q-Bundle"
-  - "anti-Goodhart guard"
-  - "architecture characteristic criteria set"
-  - "criteria row"
-  - "improvement cycle"
-  - "protected counter-characteristic"
+  - "architecture criteria"
+  - "attainable observation"
+  - "protected qualities"
   - "proxy risk"
+  - "required result"
+  - "structural alternatives"
 ---
 
 ### C.32.ACS:11 - SoTA-Echoing
@@ -60,6 +60,8 @@ These rows document how source practice contributes to criteria-row fields, use-
 | Ford, Parsons, Kua, and Sadalage, `Building Evolutionary Architectures`, 2nd ed. (`https://www.oreilly.com/library/view/building-evolutionary-architectures/9781492097532/`), `Software Architecture Metrics` (`https://www.oreilly.com/library/view/software-architecture-metrics/9781098112226/`), and `C.32.ACE` | Current practitioner line for guided change and repeatable eval over architecture characteristics. | Restore source-side fitness-function wording as eval programs over declared ACS rows. | Row shape has `evalProgramRefs?` and names ACE for eval-program construction after the row exists. | An eval program or metric is not a characteristic kind, project criterion, selected architecture, or decision. |
 | Current FPF `C.25` and `E.13` | Local receiving law for composite quality families and proxy-for-value drift. | Keep Q-Bundle structure and proxy repair outside ACS while carrying the needed links. | Row shape includes `endpointShape`, `qBundleRef?`, `proxyRisk`, and `protectedCounterCharacteristicRefs`; proxy drift requires `E.13`. | A composite quality family is not one scalar row, and a convenient indicator is not the declared architecture concern. |
 | ATAM lineage and ATRAF 2025 (`https://arxiv.org/abs/2505.00688`) | Mature and current architecture-evaluation practice binds quality attributes to scenarios, trade-offs, sensitivity points, risks, and repeated refinement. | Admit a quality word as a project row with bearer, scale, polarity, counter-characteristics, and receiving use before it affects synthesis. | Explicit comparison belongs to `A.19.CPM`; composite quality bundles belong to `C.25`; ACS retains row preparation. | Scenario analysis and trade-off vocabulary do not compare or choose candidates until the receiving comparison, selection, choice, or decision pattern is being used. |
+
+For the role-to-result construction in §4.2, Crawley, Cameron and Selva, *System Architecture*, Global Edition (2016), chapter 11, supplies a developed systems treatment of beneficiary, operator and supplier interests, benefits, goals and constraints. **Adapt:** recover these distinct interests before selecting structure and observation. Richards and Ford, *Fundamentals of Software Architecture*, second edition (2025), chapters 4–6, supplies the software branch of structural relevance; its non-domain criterion is not generalized to all bearers. Ciceri et al., *Software Architecture Metrics*, finished May 2022 edition, chapters 7 and 10, supplies the goal/question/measure and collection-cost connection. Together these contributions support §4.1’s use-relative architecture condition; they do not establish a universal catalogue or arithmetic over ordinal preferences. Reopen the transfer when the target bearer, domain or decision cannot be represented by that connection.
 
 **Source-currentness boundary.** Use each source row only for the ACS field, use-class rule, or receiving-pattern boundary named in that row. Recheck the row when a named standard, book edition, source presentation, FPF pattern for the next question, or current architecture-evaluation line changes the transferred move. If the project wants measurement, eval-program design, comparison, selection, selected-set result declaration, actual publication, local choice, evidence, assurance, or decision use, leave ACS and open the pattern for the next question.
 

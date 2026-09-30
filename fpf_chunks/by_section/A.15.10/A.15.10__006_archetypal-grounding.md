@@ -6,7 +6,7 @@ section_id: "A.15.10:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__006_archetypal-grounding.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "A.15.10 — Resume Interrupted Work"
   - "A.15.10:5 — Archetypal Grounding"

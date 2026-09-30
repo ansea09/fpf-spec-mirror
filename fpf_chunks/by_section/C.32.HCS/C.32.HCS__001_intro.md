@@ -6,12 +6,12 @@ section_id: "C.32.HCS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__001_intro.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:intro — Intro"
-line_start: 72544
-line_end: 72549
+line_start: 72551
+line_end: 72556
 dependencies:
   - "A.19"
   - "C.11"
@@ -28,11 +28,12 @@ dependencies:
   - "E.13"
   - "G.5"
 keywords:
-  - "architecture characteristic heads"
-  - "architecture-bearing family characteristic starter pack"
-  - "characteristic transfer"
-  - "first criteria questions"
-  - "source catalogue narrowing"
+  - "Method"
+  - "System"
+  - "Work"
+  - "architecture-bearing family"
+  - "domain transfer"
+  - "starter characteristics"
 ---
 
 ## C.32.HCS - Architecture-Bearing Family Characteristic Starter Packs

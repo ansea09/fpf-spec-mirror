@@ -6,12 +6,12 @@ section_id: "E.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__003_problem.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:2 — Problem"
-line_start: 79417
-line_end: 79419
+line_start: 79437
+line_end: 79439
 dependencies:
   - "A.10"
   - "A.15.1"

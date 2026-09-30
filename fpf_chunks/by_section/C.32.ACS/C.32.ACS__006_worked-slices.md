@@ -6,12 +6,12 @@ section_id: "C.32.ACS:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__006_worked-slices.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:5 — Worked slices"
-line_start: 72929
-line_end: 72938
+line_start: 72945
+line_end: 72954
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -39,19 +39,19 @@ dependencies:
   - "G.5"
 keywords:
   - "Q-Bundle"
-  - "anti-Goodhart guard"
-  - "architecture characteristic criteria set"
-  - "criteria row"
-  - "improvement cycle"
-  - "protected counter-characteristic"
+  - "architecture criteria"
+  - "attainable observation"
+  - "protected qualities"
   - "proxy risk"
+  - "required result"
+  - "structural alternatives"
 ---
 
 ### C.32.ACS:5 - Worked slices
 
 **Manufacturing cell.** HCS suggests maintainability, locality, function-bearer fit, change reach, and scale amenability. ACS keeps nine draft criteria rows, then marks setup-change reach, function-bearer fit, and exception growth as optimization indicators. ACS records safety and evidence reuse as monitored guardrails. C.32 later synthesizes universal-fixture candidates under those criteria.
 
-**Method-family architecture.** HCS suggests repeatability, teachability, transferability, evidence reuse, exception growth, and change reach. ACS marks evidence reuse, exception growth, and transferability as optimization indicators. Teachability goes to C.25 because it depends on learner scope, measures, mechanisms, and evidence.
+**Method-family architecture.** A review lead needs a method that detects affected dependent claims without repeating unrelated reading. HCS supplies evidence reuse, change reach and exception growth as possible heads. ACS prepares criteria for comparing a fixed local search with a method that follows the changed claim into its direct uses. The bearer is the Method; the relevant structure is the connection between source recovery and dependent-use comparison. Candidate rows concern missed dependent claims under the declared task family and effort to obtain a useful review, with preservation of correct content as a guardrail. Known defective and difficult admissible cases can support a bounded comparison; a claim about actual release effort requires observations from performed Work. Teachability remains a C.25 question when learner preparation and support matter.
 
 **AI-agent architecture.** HCS suggests evidence refresh, policy controllability, latency, observability, and rollback. ACS marks policy controllability, evidence refresh, and latency as optimization indicators. Benchmark performance is not an architecture characteristic by name; it can supply an eval reading only after the bearer, scale, parity frame, and receiving use are declared.
 

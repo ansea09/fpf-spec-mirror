@@ -6,12 +6,12 @@ section_id: "B.5.QD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD/B.5.QD__002_problem-frame.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "B.5.QD — Develop a New Question from a Result or Construction"
   - "B.5.QD:1 — Problem frame"
-line_start: 45813
-line_end: 45822
+line_start: 45820
+line_end: 45829
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

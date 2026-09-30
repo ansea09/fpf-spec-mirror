@@ -6,12 +6,12 @@ section_id: "C.32.HCS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__002_problem-frame.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:1 — Problem frame"
-line_start: 72550
-line_end: 72609
+line_start: 72557
+line_end: 72616
 dependencies:
   - "A.19"
   - "C.11"
@@ -28,11 +28,12 @@ dependencies:
   - "E.13"
   - "G.5"
 keywords:
-  - "architecture characteristic heads"
-  - "architecture-bearing family characteristic starter pack"
-  - "characteristic transfer"
-  - "first criteria questions"
-  - "source catalogue narrowing"
+  - "Method"
+  - "System"
+  - "Work"
+  - "architecture-bearing family"
+  - "domain transfer"
+  - "starter characteristics"
 ---
 
 ### C.32.HCS:1 - Problem frame
@@ -49,7 +50,7 @@ Typical entry phrases:
 "A system-role assignment, organization, built asset, or evidence workflow has reliability-like pressure, but the bearer and scale are unclear."
 ```
 
-**First-minute use slice.** A review lead sees a long quality catalogue and a software-oriented checklist, while the source wording calls the object a reusable review practice. Using C.32.HCS, the practitioner first resolves that label: the live holon is the review organization-as-system; exact review Work occurrences and any presentation carrier remain separate. Relevant structures include a method relation structure and work-product structures; method descriptions, local system-role kinds, separately obtaining assignments, and evidence records remain distinct. Only then does the practitioner inspect repeatability, transferability, evidence reuse, and exception growth. A.2.7 tests kind substitutability. Assignment continuity, holder replacement, staffing, and Work coverage remain separate candidate characteristics; use the pattern that defines or tests each claim, or return `missing-governor`. Teachability is recorded as a likely C.25 Q-Bundle. The project carries only those starter heads and first project questions to `C.32.ACS` instead of copying hundreds of names or admitting "practice" as a holon kind.
+**First-minute use slice.** A review lead must choose qualities for a reusable review method. Recovering the source word "practice" through A.3.1 identifies the Method itself as the described non-agentive holon. The lead inspects how its parts connect evidence, judgement and repair, then asks which of repeatability, transferability, evidence reuse and exception growth matters for the receiving work. A particular completed review is a separate A.15.1 Work occurrence; its actual coverage, elapsed time and rework require their own observations. The organization that performs reviews is another possible System, with different coordination and staffing questions. Teachability is a likely C.25 Q-Bundle. HCS returns these distinct starter questions to `C.32.ACS`; it does not replace the Method with the performing organization.
 
 The primary `EntityOfConcern` is one architecture-bearing family starter pack for beginning to turn broad architecture-characteristic names into project criteria rows. A starter head is only a possible characteristic head before project bearer, scale, use class, proxy risk, and protected counter-characteristics are bound. Carry admitted starter heads to ACS. Keep Q-Bundles, measurements, eval programs, candidate palettes, comparison rules, G.5 result declarations, actual publications, and architecture decisions as separate objects handled by their applicable patterns.
 

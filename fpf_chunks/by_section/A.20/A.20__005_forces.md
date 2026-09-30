@@ -6,12 +6,12 @@ section_id: "A.20:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__005_forces.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:3 — Forces"
-line_start: 37084
-line_end: 37093
+line_start: 37091
+line_end: 37100
 dependencies:
   - "A.10"
   - "A.15"

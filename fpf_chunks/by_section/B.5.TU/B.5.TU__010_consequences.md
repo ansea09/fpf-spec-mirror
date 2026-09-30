@@ -6,12 +6,12 @@ section_id: "B.5.TU:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__010_consequences.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
   - "B.5.TU:9 — Consequences"
-line_start: 45569
-line_end: 45574
+line_start: 45576
+line_end: 45581
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"

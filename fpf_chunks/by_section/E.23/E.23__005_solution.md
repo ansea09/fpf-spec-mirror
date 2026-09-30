@@ -6,12 +6,12 @@ section_id: "E.23:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__005_solution.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:4 — Solution"
-line_start: 100925
-line_end: 101193
+line_start: 100946
+line_end: 101226
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -49,15 +49,27 @@ For one quality-improvement loop:
 5. Record each returned finding or proposal separately. A grouped memory summary does not close skipped items, and a proposal remains a proposed next action rather than performed Work.
 6. Select the next change. Selection does not perform it. When the account asserts dated improvement Work, identify that Work and connect it to a returned value or changed object only through an obtaining A.6.1 binding or declared Work-to-result or Work-to-change relation. If that relation is unavailable, keep proposal, Work, changed object, and Transformation separate and return the missing relation.
 
-   Repair below-floor findings first. Above the floor, prefer a substantive gain—such as clearer action, a missing case or countercase, current source support, restored predecessor content, cleaner relations, or a split of overloaded material. Do not add guards, catalogues, or quality proof merely to defend a higher score. Close with no change only after the evidence shows that no feasible non-dominated improvement remains under the protected trade-offs.
+   Repair below-floor findings first. Above the floor, prefer a substantive gain—such as clearer action, a missing case or countercase, current source support, restored predecessor content, cleaner relations, or a split of overloaded material. Do not add guards, catalogues, or quality proof merely to defend a higher score. Close with no change only after the evidence shows that no feasible non-dominated improvement remains worth its cost under the protected trade-offs.
 
    For a precision-restoration defect, apply `F.19` and open a restoration or subject pattern for an unresolved FPF-specific meaning. Claim a Method or MethodDescription only when A.3.1 and A.3.2 admit it. Keep locator, Method, description, performer, assignment, Work, result, and responsibility separate. Run one bounded `KindRestorationCheck` when the changed expression can alter FPF-governed meaning; otherwise F.19's local revalidation completes the ordinary repair.
-7. Re-evaluate the changed object as a separate pass through the same declared evaluation and evidence basis, unless a stronger evaluation was explicitly selected. Keep the later Work, application or direct result relation, evidence, returned value, and result episteme distinct from the first pass.
+7. Re-evaluate the changed object as a separate pass through the same declared evaluation with comparable evidence and conditions. If the evaluation itself needs to change, use §4.1a before comparing values across that change. Keep the later Work, application or direct result relation, evidence, returned value, and result episteme distinct from the first pass.
 8. Record what improved, what stayed at the floor, what was unchanged by value, what became worse, and which findings moved outside this evaluation. Compare the two result epistemes rather than treating the later pass as a continuation field of the first Work.
 9. Decide `stop`, `continue`, `switchMethodFamily`, `openNewFrame`, or `holdUntilInformationBasisSufficient`. When later replay depends on alternatives and guards, use the conditional structure block below. A decision or selected continuation neither authorizes nor performs the next Work.
 10. Leave an account that lets the next reader recover the object versions, evaluation, proposals, performed passes, result or change bases, evidence, trade-offs, cost and risk, continuation, stop and return boundaries, and the reason for the decision. Use the structured `QualityImprovementLoopRecord` only when a named replay, handoff, audit, or machine-facing use needs that form; otherwise a short result with the same recoverable facts is enough.
 
 Stop here when this route answers the current use. Open the names, record schemas, and unfolding-structure block below only when a named receiving use depends on that added assurance detail.
+
+#### E.23:4.1a - When the evaluation needs to change
+
+Use this branch when a missed defect, false objection, harmful proposed repair, changed use or excessive evaluation cost gives reason to reconsider the evaluation. An ordinary object repair can keep using the existing adequate evaluation.
+
+First identify what changed. A new object version, a new requirement, a different task population, a different measuring procedure and a different evaluator implementation can require different responses. Fixing an implementation error can preserve the intended evaluation while invalidating the results affected by that error. A threshold that varies with load under a fixed rule still uses that rule; it does not by itself change the evaluation.
+
+Keep the evaluation meanings and comparison conditions stable within one comparison. To change them between cycles, use `A.19.ECS:4.5`: compare the old and proposed evaluations on independently grounded defect and admissible cases, inspect harmful repairs and full cost, and use a new independent case when known cases were used for tuning. Decide whether to adopt the change for a stated use, retain it on trial, revise it, reject it or keep the current evaluation. A stricter result or higher evaluator agreement is not the adoption criterion.
+
+After adoption, name which earlier conclusions depend on the changed rule. Re-evaluate affected preserved cases where cross-evaluation comparison is needed; otherwise retain earlier results with their original scope. Declare a bridge when it is justified, and leave unlike values incomparable when it is not. New task populations and requirements create new questions without retroactively falsifying supported old answers.
+
+**Worked slice.** A review evaluation rewards concise explanations but misses an omitted dependency that makes the instruction unusable. Adding the missing dependency improves the object under its existing usefulness requirement. Changing the evaluator so it notices that defect is a different proposal. Compare that evaluator with its predecessor on the defective text and a concise, fully usable alternative; reject a repair that makes every explanation longer without need. A new independently grounded case supports adoption beyond those development cases. Previously supported readability judgements remain scoped to their text and reading conditions; only conclusions depending on the missed dependency need reopening.
 
 #### E.23:4.2 - Conditional names and kind settlement
 
@@ -248,7 +260,7 @@ Stop when the current object version meets the declared floor or improvement aim
 
 Continue only when at least one predicted evaluation-result change states a scale-qualified change worth its cost and risk. Use `ExpectedEvaluationResultChange@Context` when the conditional account in §4.2a is needed. Switch method when the current method family is not changing the evaluated result, is too costly, or no longer fits the evaluation. Use `holdUntilInformationBasisSufficient` only with non-empty unfilled-position descriptions and the sufficiency condition that would make continuation admissible.
 
-An all-`5`, all-exceptional, current-front-reaching, or current-front-improving result closes this loop locally. It does not say that future development is impossible. A new use, `Q` component, source anchor, `SoTA` front, comparison set, affordability boundary, or higher-payoff proposal can open a later loop.
+An all-`5`, all-exceptional, current-front-reaching, or current-front-improving result is neither necessary nor sufficient to stop. Use the practical gain, protected trade-offs and attainable cost in the preceding rule. A stopped loop can reopen when a new use, `Q` component, source anchor, `SoTA` front, comparison set, affordability boundary or worthwhile proposal changes that judgement. If the object still fails its required use and no repair is feasible, choose replacement, withdrawal or another admissible continuation; stopping work does not make that object adequate.
 
 Treat the five decision values as current continuation dispositions, not as Work states. When the admitted A.22 structure is used, a branch is usable only when its guarded continuation cites the exact current guard or constraint claim and the already-obtaining relation occurrences that make that alternative admissible. A stop or subject-assertion reconsideration is a boundary until an exact stronger predicate and current facts establish another relation. Naming A.15, E.22, G.11, G.5, or another subject pattern as a locator neither performs Work nor creates an object described there.
 
@@ -285,7 +297,7 @@ Typical operation families are specification articulation, task decomposition, c
 
 Net-cost arithmetic is permitted only after every term has been converted to one declared unit through an admissible conversion whose basis, uncertainty, and scope remain visible. Until then, avoided loss is a separate project estimate rather than a quantity subtracted from concrete burden. A justified avoided loss can still make an expensive loop preferable. For a simple object, a direct edit or adjustment, small repair, lower-cost performer, specialized cycle, or one-shot evaluation can remain the better option.
 
-Harness improvement is usually the first high-leverage intervention when it reduces blind retry: better frames, row shapes, test cases, source references, local tools, memory, verification, and stop conditions.
+Choose harness improvement when a named defect in framing, tools, memory, verification or stopping causes avoidable retry and repairing it compares favourably with direct object repair or another available method. Apply `C.11.DUA` to preparation, recurring use, transition, independent judgement, maintenance and displaced useful work. Leave unavailable cost evidence unknown; a larger harness is not itself a gain.
 
 #### E.23:4.7 - Source-composed, OEE, and NQD improvement
 

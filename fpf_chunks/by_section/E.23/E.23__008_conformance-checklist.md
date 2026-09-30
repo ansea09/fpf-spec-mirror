@@ -6,12 +6,12 @@ section_id: "E.23:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__008_conformance-checklist.md"
-commit_sha: "becbad541e7cc23731542d1e14370b3b4e423a65"
+commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:7 — Conformance Checklist"
-line_start: 101233
-line_end: 101254
+line_start: 101266
+line_end: 101287
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -38,7 +38,7 @@ keywords:
 | `CC-E23-4` | Every asserted evaluation or improvement `U.Work` first recovers each exact actual performer through A.13, then uses A.15.1 to identify the occurrence, time, Method, and containing System independently. Add A.2.1 and F.6 only when the record or receiving use expressly represents precise assignment-bound attribution; their absence or failure leaves the Work intact. Then name the evaluation application and result binding or direct result or change relation, plus any separate result episteme. Re-evaluate the changed object before claiming coordinate, status, `Q`, or front-relation change. |
 | `CC-E23-5` | Record what became worse and protected trade-offs. |
 | `CC-E23-6` | Continue only when a scale-qualified expected evaluation-result change and the cost and risk account support another pass. |
-| `CC-E23-7` | Treat all-`5`, exceptional, or front-reaching results as local loop stops, not permanent maturity endings. |
+| `CC-E23-7` | Decide a local stop from the achieved aim, protected trade-offs and absence of a worthwhile feasible improvement under §4.3. All-`5`, exceptional or front-reaching results neither require nor suffice for that decision. |
 | `CC-E23-7a` | Do not treat `5`, all-`5`, or `5-defensible` as a repair target. Repair below-floor results first. Exceptional-improvement work proceeds through non-dominated proposal rows that name the expected substantive content change, protected trade-offs, and cost and risk. A no-proposal or stay-at-current-value disposition is admitted only when it names the checked evaluation evidence basis, using `LoopEvaluationEvidenceBasis@Context` when the conditional structured account is needed, and explains why every plausible content improvement is dominated, unavailable, or outside the declared scope. Reject changes that add guards, relation catalogues, evidence theatre, or quality proof while reducing use, affordability, locality, or ecology. |
 | `CC-E23-8` | When a neighboring claim appears during a loop, name the live claim and its subject pattern before continuing. `E.23` may cite that pattern in the loop record, but it does not absorb the neighbor's authority unless the neighbor's object version is itself the declared object under improvement. |
 | `CC-E23-8a` | For a precision-restoration defect, apply F.19 as guidance and open a subject pattern only for unresolved FPF-specific meaning; claim Method or MethodDescription only after A.3.1 and A.3.2 admit it. Apply `CC-E23-4` only when actual repair Work is asserted. Consume E.21's compact `PrecisionRestorationProfile` when that evaluation is active. Require one bounded `KindRestorationCheck` when the changed expression can alter the object, kind, relation, slot or use position, claim kind, admissible use, or scope; otherwise F.19's local revalidation completes the ordinary repair. |
