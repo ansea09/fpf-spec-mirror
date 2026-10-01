@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.13.md"
-commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
+commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
-line_start: 118058
-line_end: 118407
+line_start: 118161
+line_end: 118510
 dependencies:
   - "A.18"
   - "A.19"

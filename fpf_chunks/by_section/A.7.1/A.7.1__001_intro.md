@@ -6,12 +6,12 @@ section_id: "A.7.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__001_intro.md"
-commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
+commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:intro — Intro"
-line_start: 23456
-line_end: 23461
+line_start: 23474
+line_end: 23479
 dependencies:
   - "A.7"
   - "A.7.2"

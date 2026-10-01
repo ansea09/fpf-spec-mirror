@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__011_consequences.md"
-commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
+commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:9 — Consequences"
-line_start: 7820
-line_end: 7823
+line_start: 7838
+line_end: 7841
 dependencies:
   - "A.10"
   - "A.13"

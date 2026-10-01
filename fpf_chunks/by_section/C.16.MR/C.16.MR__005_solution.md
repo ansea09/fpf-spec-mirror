@@ -6,12 +6,12 @@ section_id: "C.16.MR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.MR/C.16.MR__005_solution.md"
-commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
+commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
 heading_path:
   - "C.16.MR — Construct a Measurement Relation"
   - "C.16.MR:4 — Solution"
-line_start: 54500
-line_end: 54551
+line_start: 54518
+line_end: 54569
 dependencies:
   - "A.3.3"
   - "B.5.FM"

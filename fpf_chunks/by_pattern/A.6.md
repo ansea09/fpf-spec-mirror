@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.md"
-commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
+commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
-line_start: 11281
-line_end: 11867
+line_start: 11299
+line_end: 11885
 dependencies:
   - "A.10"
   - "A.15"

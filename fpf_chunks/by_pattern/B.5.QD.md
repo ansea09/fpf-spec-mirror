@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.QD.md"
-commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
+commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
 heading_path:
   - "B.5.QD — Develop a New Question from a Result or Construction"
-line_start: 45814
-line_end: 46027
+line_start: 45832
+line_end: 46045
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

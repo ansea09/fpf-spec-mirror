@@ -6,12 +6,12 @@ section_id: "A.6.M:End"
 section_title: "A.6.M:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__014_a-6-m-end.md"
-commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
+commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:End — A.6.M:End"
-line_start: 20833
-line_end: 20834
+line_start: 20851
+line_end: 20852
 dependencies:
   - "A.10"
   - "A.20"

@@ -3,7 +3,7 @@
 > A standards-style pattern language for turning difficult engineering, research, management, and mixed human/AI work into explicit, reviewable, improvable reasoning.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** September 2026
+- **Version:** October 2026
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 
 - **Status:** Normative Core, eternal alpha: already used in working projects and development programs, while still evolving.
@@ -52,7 +52,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | FPF.Preface:13 - Architecture As Structure Of Holons | full text | Explains architecture as selected structures of a holon in context rather than the diagram or document that describes them. |
 | FPF.Preface:14 - Boundary Statements | full text | Shows where language carries commitments, admissibility, evidence, gates, and other boundary claims. |
 | FPF.Preface:15 - Raising Semantic Precision | full text | Explains ontology-first restoration from overloaded wording to explicit kinds, relations, slots, and admissible uses. |
-| FPF.Preface:16 - Big FPF Storylines | full text | Follows a report-review inquiry through qualified evidence, a shared-resource shortfall and the remaining comparison; explains Architectural Rationale, direct entry, profiles, shared source synthesis, alternatives, costs and changed-condition reuse. |
+| FPF.Preface:16 - Big FPF Storylines | full text | Follows a report-review inquiry and the construction of a usable method from received material; explains Architectural Rationale, qualified evidence, direct entry, profiles, shared sources, alternatives, costs and selective return after changed conditions. |
 | FPF.Preface:17 - Transdisciplinarity As A Meta-Theory Of Thinking | full text | Shows how shared distinctions can connect disciplines without flattening their bounded meanings. |
 | FPF.Preface:18 - The Culinary Architecture Of Collective Thought | full text | Uses an assembly analogy to explain why familiar ingredients still need an explicit architecture and quality discipline. |
 | FPF.Preface:19 - The Intellect Stack As A Pedagogical Map | full text | Gives a teaching map for locating capabilities without turning the map into the ontology or work order. |
@@ -1479,6 +1479,24 @@ The resulting episteme is a coherent answer: under these inputs, compliance is u
 Suppose a later applicable measurement keeps the same central readings but bounds gauge error by 2 kPa and atmospheric error by 1 kPa. The new absolute interval is [292, 298] kPa. Its upper endpoint is below 300 kPa, so the stipulated information now supports the pressure-limit comparison for this regime at the later measurement occasion. Actual release can still require other conditions that this assessment never claimed to decide.
 
 The assessment still concerns P17 under the stated regime. Its unit, pressure reference and applicability rule remain, while the later measurement changes the input, derived interval and threshold conclusion. The engineer reuses the conversion relation and comparison rule and updates the affected claims. C.2.1 distinguishes the assessment's claim content and reference scheme from the pump those claims concern. To ground the assessment in an installation, the records must refer to applicable measurements of P17, and the calculation must warrant its claims from those measurements. The stipulated inputs here illustrate the inference without establishing that measurement relation or installation-side grounding. The assessment informs the release decision; its other conditions and authority remain separate.
+
+### FPF.Preface:16.6 - Develop a useful way from received material
+
+A practitioner may receive a chapter, paper or discussion before knowing which of its ideas deserve adoption. Begin with what the material could help someone do or understand. Follow a proposed result into its receiving use and recover what the source actually supplies. B.5.PI makes that ordinary occasion available without requiring a known error; B.5.RC helps recover a construction, and C.39:4.2–4.6 develops the way needed by the receiver. An adequate direct answer can finish the work.
+
+For example, a historical discussion connects proposing an action, exposing its reasons to criticism, revising the proposal and taking the outcome seriously. C.39:5.4 follows that material into an instruction for examining a proposal and deciding how to continue. It preserves the constructive connection while distinguishing a useful proposal from an action whose necessary conditions and grounds have been established. Recovery begins with the source's constructive proposal; following its application exposes a question about the grounds for action.
+
+Source interpretation, development and evaluation contribute different results. F.0.1 can settle what a consequential passage means; F.0.2 compares source accounts when their difference changes the receiving claim. C.39 constructs and explains the missing operation or connection. A.10 qualifies reliance on the claims actually used; C.11 makes a choice among available continuations. E.22 asks what the evaluation must establish for that use, and A.19.ECS is needed when no adequate evaluation exists or an actual failure warrants developing it. Start at the contribution whose inputs are present. This account does not require applying every listed method.
+
+The distinction between Kernel and broader Core has a practical consequence here. The definitions of Episteme, Method and Work keep a source claim, a proposed way and a performed action apart. Those definitions alone do not construct the instruction: general Methods such as C.39 supply that work. Domain Methods and evidence supply the particular operation and its conditions. E.4.CM adds the framework author's publication work only when the resulting contribution is to be maintained in a framework.
+
+A Preface or Reference can explain how independently useful contributions meet in this situation. Their direct bodies retain the reusable operations and governing distinctions; an appropriate DPF retains its domain contribution. A short entry can point to the connected explanation. This provides a smaller return path for a familiar use while leaving the reasons needed for adaptation accessible.
+
+Evaluation follows the same receiving use. A good summary and good constituent patterns are evidence for their own questions. To judge whether the reader can obtain the promised result, examine the connecting explanation and its application on the material, including necessary support. E.22:4.3 and its source-to-method example show how to frame that question without changing the meanings of the constituent scales. A supported conditional next inquiry can be a useful complete answer to an inquiry-selection question; it does not fulfil a request for a performed intervention.
+
+Finally, change a premise that one application actually uses. In C.39:5.4 a tighter timing requirement reopens the movement-analysis proposal while demonstration viewing can retain the same prepared recording under its unchanged conditions. Follow the relevant claim and result use, update the explanation that the receiver needs, and preserve what the change does not affect. Separate publication units can help obtain the right explanation; only the semantic dependency determines which conclusion needs reconsideration.
+
+Conceptual compactification here keeps a developed connection available for reuse, together with the distinctions and reasons needed for application and change. Its effect on a particular reader's effort, acquired capability or work result remains a question for observations under that reader's actual conditions.
 
 ## FPF.Preface:17 - Transdisciplinarity As A Meta-Theory Of Thinking
 

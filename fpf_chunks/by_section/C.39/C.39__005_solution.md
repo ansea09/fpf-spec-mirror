@@ -6,12 +6,12 @@ section_id: "C.39:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__005_solution.md"
-commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
+commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:4 — Solution"
-line_start: 76896
-line_end: 77004
+line_start: 76914
+line_end: 77026
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -49,6 +49,10 @@ Search through the sought result or unresolved change. In a useful source, recov
 - what the operation does and what it obtains;
 - the conditions and support for that contribution; and
 - the difference between the source situation and the receiving use that could defeat the transfer.
+
+When the source offers a connected proposal, recover what the connection contributes before distributing its ingredients among familiar methods. Start with what someone is trying to make possible, follow the actions and intermediate results, and retain the choices, revisions and conditions that make the whole useful. A remembered term or a known defect can guide a search but should not determine everything extracted. Use B.5.PI when ordinary use has not yet yielded a question, and B.5.RC when the source's construction itself needs recovery. One passage may leave a needed operation unwritten; name that gap without treating the rest of its contribution as absent.
+
+Keep three things distinguishable during this recovery: what the source proposes, what supports the proposal's use under its own conditions, and what the receiving situation additionally needs. A source can supply a useful way to generate or revise a proposal without supplying enough grounds to enact it. Conversely, a limitation in one inference can leave its constructive operations useful. F.0.1 recovers an action-changing source meaning; F.0.2 is needed only when comparing accounts can change the answer. Apply the direct reliance or subject method to a relied-on claim. Do not turn every extraction into a new synthesis, assurance study or framework.
 
 Follow the described operations on one available piece of target material, by inspection or an appropriately permitted small application. Stop at the first needed input, operation, relation or result that the account does not supply. An inspected trace is not a performed application.
 

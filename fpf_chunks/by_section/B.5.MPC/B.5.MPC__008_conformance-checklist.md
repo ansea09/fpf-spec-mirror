@@ -6,12 +6,12 @@ section_id: "B.5.MPC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__008_conformance-checklist.md"
-commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
+commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:7 — Conformance Checklist"
-line_start: 44228
-line_end: 44245
+line_start: 44246
+line_end: 44263
 dependencies:
   - "A.15.9"
   - "A.3.3"

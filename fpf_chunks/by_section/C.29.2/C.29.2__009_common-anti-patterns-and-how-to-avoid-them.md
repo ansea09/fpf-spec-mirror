@@ -6,12 +6,12 @@ section_id: "C.29.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
+commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 66314
-line_end: 66327
+line_start: 66332
+line_end: 66345
 dependencies:
   - "A.10"
   - "A.3.1"

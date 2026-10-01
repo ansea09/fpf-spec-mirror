@@ -6,12 +6,12 @@ section_id: "B.5.TU:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__011_architectural-rationale.md"
-commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
+commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
 heading_path:
   - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
   - "B.5.TU:10 — Architectural Rationale"
-line_start: 45582
-line_end: 45591
+line_start: 45600
+line_end: 45609
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"

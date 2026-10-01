@@ -6,12 +6,12 @@ section_id: "E.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__005_solution.md"
-commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
+commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:4 — Solution"
-line_start: 100584
-line_end: 100803
+line_start: 100622
+line_end: 100864
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -32,7 +32,27 @@ keywords:
 
 `E.22` gives one compact declaration for improvement-oriented quality evaluation questions. It keeps the question from replacing the evaluation and keeps the evaluation result from becoming a decision or work product beyond its authority.
 
+#### E.22:4.0 - Form a usable first request
+
+Start from the result the recipient needs. A document can be required to explain an operation; the operation can be required to obtain a result; that result can support another decision. Select the object and judgement needed now. A candidate's narrower description cannot establish that the larger receiving need has been satisfied.
+
+1. **Name the use and object version.** Say who needs the answer, what work or decision it will inform, and which version is being evaluated. Include the conditions that make a difference to that use. If the receiving need is unclear, recover it with the recipient or the applicable problem-formulation method.
+2. **Choose the question and criterion.** Say whether the recipient needs floor adequacy, further improvement, a comparison of trade-offs or the effect of applied findings. Use the characteristic space and predicate or comparator supplied by an adequate evaluation. State the floor or improvement aim and the qualities a proposed repair must preserve.
+3. **Connect the criterion to attainable grounds.** Identify the content, observations or reasoning needed to answer it. Following a source into an instruction can establish a coherent construction; trying the instruction on material can expose a missing action; an observed application can support a performance claim under its conditions. State which answer is required, what the intended reader or performer can supply, and what the candidate must supply. If indispensable grounds are absent, ask for the exact unresolved condition rather than an unsupported pass.
+4. **Specify the useful return.** Name the evaluation's result form and the conclusion it can support. A floor answer identifies sufficiency or the first needed repair; an improvement answer also describes the proposed change, expected gain, protected trade-offs and closure test. State evaluator conditions only when they change the question or admissibility of the answer.
+
+When several contributions are needed, retain what their available evaluations establish and ask about the necessary connection still unanswered. A good explanation, a supported source claim and a correct constituent operation can all remain valid while their combined use is unestablished. Evaluate that connection at its own object and use; unlike scores do not form a quality score for the whole.
+
+Write the request in ordinary language with these bindings recoverable, as in section 5. The local names and schemas below specify their exact meanings when the question is represented as a `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration`. Reuse the selected evaluation's adequate descriptions and defaults. Add an intended evaluator's identity or a dated-Work account only when the receiving question requires it.
+
+Stop framing when the question and expected answer are sufficiently determined for the intended evaluation. If an existing request already supplies them, perform the direct evaluation and inspect whether its grounds support the consuming conclusion. A separate frame is useful when it resolves missing or disputed bindings; it does not improve an already adequate answer merely by restating them.
+
 #### E.22:4.1 - Local names and kind settlement
+
+`E.22` frames the question. It does not evaluate the object. `evaluationPatternLocator` identifies the FPF pattern description containing the evaluation predicate or constraint; an optional `semanticEvaluationMethodRef` names the separately identified `U.Method` used for that evaluation. A characteristic-space specification, Q-Bundle description, rubric description, review-profile description, evidence-basis description, and result-form description constrain or describe that evaluation. None of those specifications performs the evaluation or substitutes for the subject assertion or semantic Method. For example, `E.21`, `E.9.DA`, or `E.2.DA` may supply the predicate for evaluating one FPF object, while `A.19.ECS` and `C.25` supply supporting quality-model descriptions. `E.19` instead defines an admission or refresh review-gate and findings profile. Use `E.19` as `evaluationPatternLocator` only when its review result is itself the object under evaluation; otherwise its later gate check remains distinct from the quality evaluation.
+
+A below-floor value, finding, improvement aim, or need for evaluation is not by itself an actual Problem. If the consuming use relies on an actual Problem, cite one current C.22.PFR `ProblematicForRelation` occurrence with its direct participants and temporal identity; the frame, evaluation, result, and evidence may support a claim about it but neither create nor split it.
+
 
 The framing episteme, evaluation method, descriptions used by that method, any question-changing evaluator condition, dated evaluation Work, actual operation application, evidence use, and result occupy different positions. `QualityEvaluationUseDeclaration` keeps the applicable evaluation bindings together without turning a plan, declaration, or named candidate into a current performer or occurrence.
 
@@ -125,6 +145,9 @@ Two carriers may publish the same edition of either episteme. A `QualityEvaluati
 Purposes can be combined, but the result keeps them distinguishable. A floor result does not answer exceptional improvement. Absorption count does not establish a changed evaluation result. A proposal is not a selected work item.
 
 #### E.22:4.3 - Question frame
+
+Use the construction in section 4.0 to settle the requested judgement before expressing these bindings. The schema preserves that question for its declared use.
+
 
 An improvement aim is not a command to make every coordinate exceptional. A `5` is assigned only by the named evaluation after the changed object earns it. The frame may ask for substantive non-dominated proposals that could move named coordinates toward exceptional expression, while admitting `no proposal` or `stay at current value` when every plausible change would add apparatus, proof prose, boundary catalogues, or process evidence while damaging protected qualities. That no-proposal result needs checked review locations and evidence-basis references; it is not a cheap refusal to improve.
 

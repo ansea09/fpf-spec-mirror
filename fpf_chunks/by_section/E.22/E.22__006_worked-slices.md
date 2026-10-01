@@ -6,12 +6,12 @@ section_id: "E.22:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__006_worked-slices.md"
-commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
+commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:5 — Worked slices"
-line_start: 100804
-line_end: 100815
+line_start: 100865
+line_end: 100895
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,7 +30,26 @@ keywords:
 
 ### E.22:5 - Worked slices
 
-**Floor evaluation.** A reviewer is asked whether one pattern is ready for ordinary use. The frame names the pattern version, E.21 characteristic space and floor predicate, the evaluation ClaimScope, the decision that will consume the result, `E.21` as the evaluation pattern, purpose `floorEvaluation`, the declared floor, and the expected `E.21` result form. If independence or capability changes admissibility, the declaration states that condition without naming a future performer. The direct E.21 evaluation returns a complete coordinate table with `ShortRationale` and `EvaluationEvidenceBasis`, not a narrative "looks fine" and not the frame itself. If replay or reliance asserts dated evaluation Work, recover the exact evaluator through A.13 and admit the Work independently through A.15.1, then name the typed result relation or A.6.1 binding. Add F.6 only when the replay also expressly consumes precise assignment-bound attribution.
+**Floor evaluation: from “review the studio method” to a usable request.** A studio practitioner needs to decide whether to use C.39 to develop the recording-preparation method in C.39:5.3. “Review the studio method” leaves three possible objects: the pattern's explanation, the conditional preparation it describes, and an actually prepared recording. The present need is the first: whether the complete pattern provides usable development guidance. Let M1 name the immutable complete C.39 edition supplied with this illustrative request.
+
+> Evaluate the attached C.39 edition M1 for my decision whether to use its guidance to develop the studio preparation in C.39:5.3. The intended user is a practitioner familiar with FPF and studio editing who can obtain the recording engineer's interval qualification. The pattern must explain how to construct and connect the needed operations, identify missing prerequisites and reconsider affected uses after a change.
+>
+> Use the E.21 nineteen-coordinate characteristic space and its floor predicate: every required coordinate at least 4 for this declared use. Evaluate the complete pattern. Examine its instructions, conditions, worked reasoning and necessary direct suppliers; use the studio case to trace what the reader can actually obtain. Preserve the distinction between the engineer's premises and the pattern's contribution. A worked conditional calculation supports a claim about the explained construction; it does not establish performed editing, practitioner learning or a better movement judgement.
+>
+> Return the complete E.21 result: coordinate values with adjacent-value rationales, the precision-restoration profile, evidence basis and supported status. For a failed coordinate, identify the smallest sufficient repair and how to check it. Protect the useful source contribution and independently valid viewing use. This request concerns M1, the stated reader and studio use with the case's supplied premises; it does not ask for a general release decision or exceptional-improvement proposals.
+
+Once the requester and evaluator agree on this question, the evaluation can begin. Its purpose is `floorEvaluation`; the complete E.21 result remains to be obtained.
+
+Suppose the evaluator observes that M1 explains the justified interval [40,45] ms, qualified editing and the 42.5 ms correction with a 2.5 ms bound. That observation supports the specific guidance claim about a conditional preparation meeting 3 ms analysis and 8 ms viewing requirements. It leaves every other E.21 coordinate to its own judgement. If the interval qualification is unavailable in the receiving studio, the example's answer is to obtain that missing basis; it is not permission to edit on three marker readings alone.
+
+Tightening the analysis requirement to 2 ms changes the preparation's applicability: no constant correction can meet it for the given 5 ms offset span. The pattern's instruction to return that dependent use for development remains useful, and the unchanged 8 ms viewing use remains qualified. A request to assess an actually edited recording would instead need that recording version and evidence about it. Where the receiving question is already the limited calculation under the supplied interval, evaluate that calculation directly; a full E.21 pattern evaluation and a newly written frame add no needed answer.
+
+
+**A method recovered from a source.** A recipient needs a usable way to examine a proposal and decide how to continue. A draft faithfully summarizes a source's discussion of criticism and correctly names proposal, evidence and action, but never explains how the critique changes the next choice. A text-quality result can support the summary's fidelity; it cannot establish the missing obtaining explanation. The frame asks whether the candidate gives the intended reader that connection under the stated preparation and available grounds. C.39:5.4 develops this use.
+
+A difficult adequate answer can instead return a proposal worth testing, with the exact condition that prevents immediate enactment and a justified attainable next inquiry. Whether that is sufficient depends on the recipient's requested result: it can answer which inquiry to undertake, while leaving a request for completed enactment open. The evaluation must not reject every conditional answer as defective or silently lower the receiving requirement.
+
+Deleting the source's whole proposal because one inference lacks support is a potentially harmful repair: it can remove the useful propose–criticize–revise construction. Ask the evaluation to inspect both the repaired connection and the contribution it must preserve. When the ground for one later application changes, retain the source-fidelity judgement and any unaffected use, and reopen the dependent application claim. If a proposed change to the evaluation itself was developed on these cases, use A.19.ECS:4.5 to compare it with adequate execution of the incumbent evaluation and examine an independently grounded new case before claiming broader improvement.
 
 **Exceptional improvement.** A pattern already passes the floor. The frame asks for substantive non-dominated improvements for named coordinates while protecting usability and related-pattern fit. The result returns proposal rows for content improvements such as missing worked cases, source-currentness carry-through, mature-comparator discharge, deletion of displaced apparatus, or relation cleanup, plus checked no-candidate dispositions for coordinates where no non-dominated content move remains. It does not ask the evaluator to make every coordinate `5`.
 

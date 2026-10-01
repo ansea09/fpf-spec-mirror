@@ -6,12 +6,12 @@ section_id: "A.16.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__003_problem.md"
-commit_sha: "181b9e798f6ebae07c0eb871c0a91e6c9b1fbce8"
+commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:2 — Problem"
-line_start: 31371
-line_end: 31373
+line_start: 31389
+line_end: 31391
 dependencies:
   - "A.16"
   - "A.16.0"
