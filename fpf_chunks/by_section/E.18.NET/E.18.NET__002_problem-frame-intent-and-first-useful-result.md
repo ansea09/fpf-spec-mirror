@@ -6,12 +6,12 @@ section_id: "E.18.NET:1"
 section_title: "Problem frame — intent and first useful result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__002_problem-frame-intent-and-first-useful-result.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:1 — Problem frame — intent and first useful result"
-line_start: 98374
-line_end: 98420
+line_start: 98889
+line_end: 98935
 dependencies:
   - "A.1.STM"
   - "A.12"

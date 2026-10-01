@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.3.5.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
-line_start: 42643
-line_end: 43018
+line_start: 42688
+line_end: 43063
 dependencies:
   - "B.3"
   - "C.13"

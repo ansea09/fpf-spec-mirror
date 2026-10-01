@@ -6,12 +6,12 @@ section_id: "C.13:6"
 section_title: "Bias-Annotation (cognitive anti-patterns and counter-moves)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__008_bias-annotation-cognitive-anti-patterns-and-counter-moves.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:6 — Bias-Annotation (cognitive anti-patterns and counter-moves)"
-line_start: 54024
-line_end: 54035
+line_start: 54244
+line_end: 54255
 dependencies:
   - "A.1"
   - "A.14"

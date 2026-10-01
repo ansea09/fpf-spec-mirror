@@ -6,24 +6,26 @@ section_id: "B.5.RA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__002_problem-frame.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:1 — Problem frame"
-line_start: 44815
-line_end: 44824
+line_start: 44860
+line_end: 44869
 dependencies:
   - "B.5"
   - "B.5.MPC"
   - "B.5.RC"
+  - "B.5.RR"
   - "C.2.8"
   - "C.37"
 keywords:
+  - "distinguishes ordinary access to knowledge from expertise"
 ---
 
 ### B.5.RA:1 - Problem frame
 
-Use this pattern when you have an argument or a reported result but cannot yet understand why it supports the conclusion you want to use. You may need to apply the result, criticize it, explain its decisive step or decide which part survives a proposed change.
+Use this pattern when you have an argument or a reported result but cannot yet understand why it supports the conclusion you want to use. Ordinary prose or dialogue may leave the argument itself uncertain: which claims are being made, which reasons work together and what the speaker is trying to establish. You may need to apply the result, criticize it, explain its decisive step or decide which part survives a proposed change.
 
 The **argument** is the reasoning that connects premises to a conclusion. It may use a mathematical construction, a calculation or a subject inference from observations. The relevant practice supplies the permitted inference and the grounds for its premises.
 

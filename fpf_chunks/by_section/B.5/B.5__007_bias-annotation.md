@@ -6,12 +6,12 @@ section_id: "B.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__007_bias-annotation.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:6 — Bias-Annotation"
-line_start: 43691
-line_end: 43696
+line_start: 43736
+line_end: 43741
 dependencies:
   - "A.10"
   - "B.5.1"

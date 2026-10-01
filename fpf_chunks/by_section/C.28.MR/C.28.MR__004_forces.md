@@ -6,12 +6,12 @@ section_id: "C.28.MR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__004_forces.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:3 — Forces"
-line_start: 64394
-line_end: 64403
+line_start: 64614
+line_end: 64623
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"

@@ -6,12 +6,12 @@ section_id: "C.33:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__010_consequences.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:9 — Consequences"
-line_start: 75511
-line_end: 75525
+line_start: 75731
+line_end: 75745
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.3.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "C.29.3 — Computational Realization"
-line_start: 66411
-line_end: 66757
+line_start: 66631
+line_end: 66977
 dependencies:
   - "A.3.3"
   - "A.6.1"

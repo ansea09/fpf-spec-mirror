@@ -6,25 +6,30 @@ section_id: "B.5.RA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 44949
-line_end: 44959
+line_start: 45157
+line_end: 45170
 dependencies:
   - "B.5"
   - "B.5.MPC"
   - "B.5.RC"
+  - "B.5.RR"
   - "C.2.8"
   - "C.37"
 keywords:
+  - "distinguishes ordinary access to knowledge from expertise"
 ---
 
 ### B.5.RA:8 - Common Anti-Patterns and How to Avoid Them
 
 | Failure in the working situation | Repair |
 | --- | --- |
+| Choosing a scheme from a keyword or title and supplying its absent premises | Match the actual claims; recover contextual evidence for an implicit premise or revise the scheme. |
+| Splitting a conditional into two asserted facts | Keep the conditional relation intact and obtain a separate ground for its antecedent before using it. |
+| Making a charitable repair indistinguishable from the source's argument | State which additions have contextual support and which are your new grounds or proposed revision. |
 | Paraphrasing successive claims while the inference remains missing | Apply the relevant definition, rule or earlier result to the transition's actual premises. |
 | Checking local steps while failing to explain why a lemma or construction appears | Recover the difficulty that contribution resolves and connect it to the conclusion. |
 | Treating several uses of one premise as several independent grounds | Keep the common prerequisite visible and examine its role in the needed branches. |

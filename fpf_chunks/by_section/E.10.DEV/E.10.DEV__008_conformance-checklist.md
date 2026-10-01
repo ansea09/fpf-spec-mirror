@@ -6,12 +6,12 @@ section_id: "E.10.DEV:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__008_conformance-checklist.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:7 — Conformance Checklist"
-line_start: 87519
-line_end: 87531
+line_start: 88034
+line_end: 88046
 dependencies:
   - "A.15"
   - "A.2.2"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
-line_start: 85358
-line_end: 86986
+line_start: 85871
+line_end: 87501
 dependencies:
   - "A.10"
   - "A.15"
@@ -297,6 +297,8 @@ When the remaining current claim is relative to a method, plan, dated work, tran
 Before opening that branch, test whether the phrase already names an independently identified `U.Episteme`; `U.View` or `U.EpistemeView`; publication form; publication face, including a declared MVPK face; `PublicationUnit`; carrier, front-end, or rendering relation; project-side FPF kind and reference named by value; evidence carrier or evidence relation; document under a named source-basis, evidence-basis, architecture-basis, or review-basis relation or use; review target; `C.11` `ChoiceResult`; measurement-result episteme; evaluation result; diagnostic finding; decision; or another project object whose record kind and defining rule are named by value. Retain ordinary `input`, `output`, `result`, `outcome`, or `deliverable` only while the exact defining relation rule remains recoverable. If no governor closes the selected WMR claim, return the bounded blocker. If the missing item is instead a non-WMR kind, retain an architecture-first candidate disposition under the pattern that defines that candidate. Do not invent either one inside pattern prose or replace it with a universal kind or relation.
 
 For *work product*, name the thing and the claim being made about it: a corrected recording, a report's content, an assembled device, or another particular entity. A.15.PROD distinguishes participation in production, the first satisfaction of an entity's identity rule, and completion under a criterion. Apply only the question actually raised. A document can describe a wanted change without being that change; a publication occurrence, delivery and acceptance each need their own basis. A.15.2:4.2 keeps an expected output or delivery target in the plan from asserting its existence or completion.
+
+For a recurring *result of Work* or *result of a project*, reuse the established meaning and obtain the facts for the new participants. A.6.P.WMR:4.7 explains that reuse, including production across entity kinds, preservation of a condition, joint Work and later use; :5.7 develops the authoring case and a missing-fact return. Different participant kinds do not by themselves require different result meanings, and the common word does not make those different relations one. A.15.6 supplies the actual-project and whole/part grounds when that claim is current.
 
 ##### E.10:0.2c.7a - `goal`, `purpose`, `objective`, and the concern of a method
 

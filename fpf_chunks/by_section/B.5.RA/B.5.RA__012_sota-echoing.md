@@ -6,19 +6,21 @@ section_id: "B.5.RA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__012_sota-echoing.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:11 — SoTA-Echoing"
-line_start: 44976
-line_end: 44989
+line_start: 45189
+line_end: 45209
 dependencies:
   - "B.5"
   - "B.5.MPC"
   - "B.5.RC"
+  - "B.5.RR"
   - "C.2.8"
   - "C.37"
 keywords:
+  - "distinguishes ordinary access to knowledge from expertise"
 ---
 
 ### B.5.RA:11 - SoTA-Echoing
@@ -33,5 +35,12 @@ keywords:
 
 **Recoverable methods beyond answer production.** The [Math and AI declaration](https://mathandai.org/) raises the risk that rapid answer production can outpace understanding and development of methods. It is a position statement. This pattern takes the resulting recovery question: which reasoning can the next practitioner actually use? Human or AI production does not settle that question; the returned argument and its use do.
 
+**Schemes and argument construction.** Walton's [*Argumentation Schemes & Their Application in Argument Mining*, §§1–4](https://ecampusontario.pressbooks.pub/criticalthinking1234/chapter/__unknown__-29/) is a historical methodological source, republished from 2011. It separates scheme recognition from matching keywords, distinguishes ordinary access to knowledge from expertise, and rejects a sunk-costs reading where the required prior investment is absent. These distinctions guide :4.4a.2 and the different failures in :5.4–:5.5. The chapter's recognition method does not establish automated extraction accuracy or a complete scheme repertoire here.
+
+**From prose to a revisable map.** Davies, Barnett and van Gelder's [*Using Computer-aided Argument Mapping to Teach Reasoning* (2021), §§2–15](https://windsor.scholarsportal.info/omp/index.php/wsia/catalog/download/106/106/1083?inline=1) develops claim clarification, context-sensitive reconstruction, intermediate conclusions, hidden grounds and linked premises in §§3–15. Section 2, especially p. 119, also describes maps as support for writing and joint discussion; these are applications of mapping. Adapt that construction in :4.4a and :5.4–:5.5 while retaining source attribution and unresolved alternatives. Treat their term-matching and layout rules as search aids, not universal inference laws. Their conclusion leaves inference objections and fuller evidence integration undeveloped; those questions return here to the particular inference and its grounds. The teaching sequence remains a separate contribution to capability development. The present synthesis is a practitioner method account, not evidence that reading it produces unassisted competence.
+**Limits of a question catalogue.** Hernández's [*Disentangling Critical Questions from Argument Schemes* (2023), §§2–5](https://doi.org/10.1007/s10503-023-09613-w), contests the idea that scheme questions supply a complete evaluation. Adapt its attention to the concrete question–answer exchange and the counterargument it can produce. The article proposes, but does not solve, a comparison of argument strength. The present synthesis keeps schemes useful for recovery while requiring contextual grounds for an evaluative conclusion; it adopts no score based on counting failed questions.
+
 **Bounded method choice.** Compare line-by-line paraphrase, full proof validation and use-directed recovery on the same short argument. Paraphrase can retain the odd-sum formula while missing the equal-increment reason. Full validation answers correctness, but may spend effort inside already usable lemmas. Recovering the main reason together with the needed transitions gives the explanation or changed-use basis sought here. Select it when that is the unresolved task; retain full validation when correctness of the complete argument is the required conclusion. The drawing-recovery case extends the dependency method to a practical inference without treating mathematical proof as the sole form of reasoning. Reconsider this recovery approach if prepared readers repeatedly cannot recover why the decisive inference works, while another explanation or reading method enables the same use with comparable effort.
+
+[Baumtrog's *Designing Critical Questions for Argumentation Schemes* (2021)](https://doi.org/10.1007/s10503-021-09549-z) contributes paired inquiry into support and possible failure. This pattern adopts that practical move without requiring his complete scheme design or claiming empirical learning benefits.
 

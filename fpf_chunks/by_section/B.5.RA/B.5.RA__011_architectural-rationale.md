@@ -6,19 +6,21 @@ section_id: "B.5.RA:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__011_architectural-rationale.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:10 — Architectural Rationale"
-line_start: 44966
-line_end: 44975
+line_start: 45177
+line_end: 45188
 dependencies:
   - "B.5"
   - "B.5.MPC"
   - "B.5.RC"
+  - "B.5.RR"
   - "C.2.8"
   - "C.37"
 keywords:
+  - "distinguishes ordinary access to knowledge from expertise"
 ---
 
 ### B.5.RA:10 - Architectural Rationale
@@ -26,6 +28,8 @@ keywords:
 A source orders its text for exposition; the argument relates premises, intermediate contributions and conclusions. Understanding therefore needs more than following the paragraph order. Backward dependency recovery identifies what the desired conclusion uses, while recovery of the main reason explains why those contributions were chosen.
 
 Local and overall understanding constrain each other. In :5.1, the equal-increment idea explains the role of the recurrence, and the induction step establishes the general result. In :5.2, the recovery route explains why the key and format matter, and their availability determines which route can be used. A fluent summary that cannot support these transitions is insufficient for the intended use.
+
+For ordinary prose, interpretation and evaluation constrain each other without becoming the same judgement. Context can justify reading a statement as a recommendation while its grounds remain inadequate. A later answer can expose a mistaken structure rather than a false premise within the original structure. Claim extraction, comparison of readings and scheme testing make that return possible. Going straight to a familiar scheme saves effort only when the offered inference is already clear; strengthening the source to fit it loses the argument being recovered.
 
 This common method concerns recovery of reasoning already offered for a result. B.5 coordinates the broader inquiry; B.5.RC recovers an auxiliary construction; a subject method supplies an unfamiliar inference. To explain the result to someone else, select the reasoning and representation that make their intended use possible. C.2.8 helps characterize what that recipient can extract under stated preparation and access.
 

@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__011_rationale.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:10 — Rationale"
-line_start: 70720
-line_end: 70725
+line_start: 70940
+line_end: 70945
 dependencies:
   - "A.10"
   - "A.15"

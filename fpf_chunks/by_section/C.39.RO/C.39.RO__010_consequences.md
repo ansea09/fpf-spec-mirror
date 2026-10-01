@@ -6,12 +6,12 @@ section_id: "C.39.RO:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__010_consequences.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:9 — Consequences"
-line_start: 77337
-line_end: 77344
+line_start: 77557
+line_end: 77564
 dependencies:
   - "A.3.1"
   - "A.3.2"

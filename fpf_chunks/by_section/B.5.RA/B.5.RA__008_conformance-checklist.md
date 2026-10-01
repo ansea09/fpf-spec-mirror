@@ -6,19 +6,21 @@ section_id: "B.5.RA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__008_conformance-checklist.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:7 — Conformance Checklist"
-line_start: 44935
-line_end: 44948
+line_start: 45141
+line_end: 45156
 dependencies:
   - "B.5"
   - "B.5.MPC"
   - "B.5.RC"
+  - "B.5.RR"
   - "C.2.8"
   - "C.37"
 keywords:
+  - "distinguishes ordinary access to knowledge from expertise"
 ---
 
 ### B.5.RA:7 - Conformance Checklist
@@ -32,6 +34,8 @@ For the argument and use being recovered:
 5. The reader can perform the intended use or identify the missing transition or premise that prevents it.
 6. A small instance supports the explanation at its stated scope; a general conclusion has its corresponding reasoning.
 7. Further checking is selected for an unresolved question, and adequately supported parts remain reusable.
+
+For an argument using :4.4a, also inspect whether the claims preserve the source's scope, conditions and attribution; a consequential competing reading has been resolved or retained; and the selected scheme fits the offered reasoning. Intermediate conclusions and joint reasons must expose the actual dependency. Reconstructed premises and conclusions remain distinguishable from supplied ones and from the reader's new grounds. Each consequential objection has a target and grounds. A changed condition should revise the affected support without automatically asserting the opposite conclusion.
 
 These are questions about the recovered reasoning. Their answers may already be evident in the working explanation or application.
 

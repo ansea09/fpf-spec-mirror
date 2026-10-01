@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__005_solution.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:4 — Solution"
 line_start: 18378
-line_end: 18574
+line_end: 18593
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -179,19 +179,38 @@ A practitioner **MAY** open a separate assurance branch when the receiving use a
 
 DPF or FPF authoring may trigger the applicable E.19, A.10, B.3, or other assurance checks. Those checks remain with their subject patterns rather than becoming a second WMR checklist.
 
-#### A.6.P.WMR:4.7 - Decide the main `result` readings before scanning examples
+#### A.6.P.WMR:4.7 - Recover a result and reuse its established meaning
 
-When the trigger is `result`, use the deciding fact before any catalogue:
+Start with the receiving question: what may someone do because this result is available? Applying a description, accepting a produced entity, closing Work, and relying on a later effect need different answers. When the trigger is `result`, use the deciding fact before any catalogue:
 
+- if the statement describes what successful enactment should obtain or preserve, use A.3.1 for the Method's intended effect, or A.15.2 for the particular WorkPlan's target;
 - if the same entity continues and changed, recover that continuing entity and its separately governed change;
-- if an entity first began to exist, open A.15.PROD's entity-inception branch;
+- if a condition continued to hold, state that condition over its required extent; attribute its maintenance to Work only through the applicable maintenance predicate and its facts;
+- if an entity first began to exist, or that is the question, open A.15.PROD's entity-inception branch;
 - if one operation application returned a value, state only its A.6.1 result binding;
 - if the referent is a measured characteristic value, keep that exact value and its direct measurement relation; if it is a comparison, diagnosis, or evaluation claim, identify that exact C.2.1 episteme and its direct basis;
 - if an entity was delivered or transferred, use the direct delivery or transfer occurrence;
+- if the question concerns fulfilment of a promise, use A.2.3's specified outcome and acceptance conditions;
 - if the claim is a downstream effect, apply the pattern whose Solution answers that exact effect-relation question;
-- if `result` names a `C.11` `ChoiceResult`, an acceptance verdict, a decision occurrence or record, an enduring condition, or another value, entity, fact, or claim already identified under its applicable identity or occurrence rule, keep that exact kind and write only the direct relation current for this use.
+- if `result` names a `C.11` `ChoiceResult`, an acceptance verdict, a decision occurrence or record, or another value, entity, fact, or claim already identified under its applicable identity or occurrence rule, keep that exact kind and write only the direct relation current for this use.
 
-If no row has its deciding fact and governor, `result` remains unresolved and the answer is the reason-specific non-assertability result. These readings share no result kind or relation family.
+If the selected reading lacks a deciding fact or governor, return its reason-specific non-assertability result. The word `result` does not establish one kind or relation family shared by these different readings. This does not prevent the same established meaning from recurring with different participants, including entities of different kinds.
+
+**Reuse the meaning, then obtain the facts of this case.** A.15.PROD supplies one such repeated meaning: **a produced result of Work is an entity that first exists through that Work's governed effects under its applicable identity specification**. This is a readable summary of its local inception claim, not a new binary predicate. Keep the entity's own kind. A ship and an episteme use different identity specifications while instantiating this same production meaning. The Work, specification and applicability, first-existence boundary, and Work-to-change and change-to-identity grounds remain available in each claim. Use A.15.PROD:4.3–4.5 to obtain that answer; reusing its meaning does not supply a missing fact or subject rule.
+
+The same discipline applies to other established relations. A.2.3:8.1 defines `deliversPromisedOutcome(W, OS)` and `fulfilsPromiseContent(W, SC)`; the latter additionally tests acceptance. Their second participants are the OutcomeSpec and PromiseContent epistemes respectively, even when the promised condition concerns a physical entity. Substituting the affected thing for the specification changes the predicate. A Method's intended effect or a plan target does not by itself establish a promise or fulfilment. A.2.8 separately governs an individual duty.
+
+For another occurrence of the same claim, retrieve its existing predicate or compound definition and retain its participant meanings, applicability and limits. Substitute the new participants and check their facts. A changed entity kind calls for the applicable identity or subject rule; it does not by itself call for a new result meaning. A different receiving question may require another relation even when the entity is unchanged.
+
+When the same needed rule is repeatedly missing, use A.6.RCD:4.1–4.5. Reuse a direct predicate where one suffices; keep a one-use compound claim local; define a repeated compound rule once in its subject practice. Distinguish a law limited to one exact subject from a predicate definition reusable across subjects. The latter has the definition itself as its EntityOfConcern. Only a use that consumes the identity of an obtaining relation occurrence opens relation-kind admission. Neither repeated wording nor heterogeneous participants requires that additional ontology.
+
+**Keep useful preservation and later use visible.** Work may achieve its intended benefit by keeping an existing condition within limits. A.3.1 supplies the Method's intended preserved condition. The subject rule and observations over the required interval decide whether that condition held; a further Work-to-maintenance claim needs its own applicable basis. Unchanged endpoints alone establish neither continuous preservation nor its attribution. A new object is unnecessary for this benefit. Performing Work alone does not establish a change of the referent whose condition was preserved.
+
+Likewise, an existing description can be used in several later actions without being produced again. State what was used and how. A.6.1 can supply a binding when the receiving action is an application of that declared operation. A.6.RCD:4.5a supplies repeated formal rule-content derivation and criterion-selection semantics for exact ClaimGraphs; it does not assert consultation, Work use or causal benefit. Use the receiving subject's rule for those claims. If the rule is known but the use fact is unavailable, obtain that fact. If the required use meaning has no definition, develop that definition. Do not turn either gap into a claim that the existing result was useless.
+
+**Joint work and project results use the same subject meanings.** For jointly necessary work parts, A.15.PROD:4.5 uses their independently established A.15.1 composite Work as identity-closing Work. A.15.6:4.1 adds the qualifications for an actual project. A plan, a shared document or several contributors does not establish either whole. Once the whole and its effects satisfy the production claim, its produced entity has the same result meaning as for another Work occurrence.
+
+A supported part result can already be reported: “Within P, W1 obtained x under this rule.” That conjunction preserves the result and work parthood. To claim that P itself obtained x, closed its production, fulfilled its promise or caused a downstream effect, establish the grounds of that further claim at P's extent. Work composition supplies no universal rule for inheriting results or adding unlike measures. Preserve independently supported part results when the whole claim remains open.
 
 The broader boundary-word palette below is an informative recognition aid. A row suggests a likely related object and candidate semantics; the result then leaves the palette for the direct governor. Several rows may apply to the same entity at different times or for different uses, and they remain separate claims.
 

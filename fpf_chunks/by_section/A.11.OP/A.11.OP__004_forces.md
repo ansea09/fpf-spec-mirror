@@ -6,12 +6,12 @@ section_id: "A.11.OP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__004_forces.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:3 — Forces"
-line_start: 25239
-line_end: 25250
+line_start: 25284
+line_end: 25295
 dependencies:
   - "A.10"
   - "A.11"

@@ -6,12 +6,12 @@ section_id: "C.40:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__013_relations.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:12 — Relations"
-line_start: 77541
-line_end: 77550
+line_start: 78053
+line_end: 78063
 dependencies:
   - "C.11"
   - "C.18"
@@ -29,5 +29,6 @@ keywords:
 - C.19 governs resource-bearing continuation of a live pool; C.11 governs a local choice.
 - C.38 constructs a finite same-result comparison from complete-enough ways.
 - C.17 characterizes generative novelty and value when those claims are needed; the applicable professional Method supplies the actual variation and examination.
+- E.23:4.1a and A.19.ECS:4.5 govern a justified change of evaluation; §4.5 here develops interacting challenges while preserving the comparison question.
 - A.10 governs stronger reliance on observations or transfer support. Problem, capability, permission and actual Work claims use their direct subject rules rather than an archive label.
 

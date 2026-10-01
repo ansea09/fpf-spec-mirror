@@ -6,12 +6,12 @@ section_id: "C.40:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__008_conformance-checklist.md"
-commit_sha: "86226dcb42d8ba340ebc86d7660fce165ac0722a"
+commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:7 — Conformance Checklist"
-line_start: 77497
-line_end: 77507
+line_start: 78000
+line_end: 78013
 dependencies:
   - "C.11"
   - "C.18"
@@ -31,4 +31,7 @@ keywords:
 - A mixed or failed transfer changes the next problem or way question as its evidence permits.
 - A sufficient existing way, adequate result or unwarranted continuation supplies a usable stop.
 - Archive, front, selection, capability and permission claims keep their separate meanings.
+- When the candidate is an obtaining way, the comparison identifies its actual application and produced result, any approximation or inherited state, and the conditions of the receiving-use claim.
+
+- For model-assisted policy search, action realization, model predictions, actual outcomes and translated expert behavior have separate grounds; the returned policy retains the observations and conditions it needs.
 
