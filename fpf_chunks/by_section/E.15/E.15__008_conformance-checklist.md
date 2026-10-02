@@ -6,12 +6,12 @@ section_id: "E.15:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__008_conformance-checklist.md"
-commit_sha: "9746e157bff496cc1c5ba98cf1ea67681356a0a7"
+commit_sha: "d4f6b0ba1a4db119fecf8d5b9d2b526633f2e58a"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:7 — Conformance Checklist"
-line_start: 92778
-line_end: 92792
+line_start: 92924
+line_end: 92938
 dependencies:
   - "C.18"
   - "C.19"

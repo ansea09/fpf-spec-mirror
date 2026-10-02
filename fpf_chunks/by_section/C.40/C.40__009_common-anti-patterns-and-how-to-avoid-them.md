@@ -6,12 +6,12 @@ section_id: "C.40:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9746e157bff496cc1c5ba98cf1ea67681356a0a7"
+commit_sha: "d4f6b0ba1a4db119fecf8d5b9d2b526633f2e58a"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 78263
-line_end: 78273
+line_start: 78395
+line_end: 78406
 dependencies:
   - "C.11"
   - "C.18"
@@ -31,4 +31,5 @@ keywords:
 | Everything novel is retained. | Compare further use, cheap retention and stopping against actual costs and displaced work. |
 | A source success certifies a target. | Apply and examine the way under target conditions; retain the actual failed or mixed result. |
 | A file transfer is called a capability transfer. | Recover the receiving participant's means, skill and permission separately. |
+| Diverse descendants are called useful adaptability. | Examine which differences and acceptable outcomes occur together, then return the result to the tested basis and continuation conditions. |
 

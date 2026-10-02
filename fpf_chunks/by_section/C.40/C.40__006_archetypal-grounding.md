@@ -6,12 +6,12 @@ section_id: "C.40:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__006_archetypal-grounding.md"
-commit_sha: "9746e157bff496cc1c5ba98cf1ea67681356a0a7"
+commit_sha: "d4f6b0ba1a4db119fecf8d5b9d2b526633f2e58a"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:5 — Archetypal Grounding"
-line_start: 77989
-line_end: 78240
+line_start: 78049
+line_end: 78367
 dependencies:
   - "C.11"
   - "C.18"
@@ -272,4 +272,71 @@ In this exercise the developer may separate each encoder's payload operation fro
 Suppose further development produces A-prime, using five payload units for a normal job and ten for a bulky one. Its standalone total over the two jobs is fifteen, smaller than A's sixteen. In the actual arrangement with B and the same selector, however, substituting A-prime raises the total from nine to ten. Both combinations satisfy the per-job limit; when smaller total output is preferred, retain A for this combination. That feedback concerns A's role with B and this selector. A different partner or selection rule can change the answer.
 
 Now suppose job kind becomes available only after encoding. The previous selector can no longer use it for that action. A classification or trial-and-buffer arrangement could supply another candidate if its observation, delay and cost fit the receiving requirement. No such operation is stipulated here, so the selected combination remains unsupported under the changed condition. More retained encoders or more training examples alone supply no timely observation. Return that missing operation or a different sufficient whole way.
+
+#### C.40:5.17 - Obtain corrections where the learner actually arrives
+
+A small generator emits opening and closing parentheses, then stops. The stipulated task accepts a nonempty balanced string of at most four symbols. An available training demonstration is `()`: its next outputs are `(` at the empty prefix, `)` after `(`, and stop after `()`. These examples contain no target after `((`.
+
+In a permitted simulation, an imperfect trained generator sometimes emits a second opening symbol and reaches `((`, where it stops. Its result fails the task. Replaying the remaining suffix of the original demonstration would append one closing symbol and stop, leaving `(()`, which also fails.
+
+The simulator can retain the exact prefix, and a checking construction can count unmatched opening symbols. At `((`, that construction supplies the target `)`; after fitting this target, another simulated run can reach the new prefix `(()`. Obtain `)` there and stop at the resulting `(())`. Fit those targets with the still-required earlier behavior, then examine complete generation again, including `()`, recovery through `(())`, premature stops and the length limit. The targets refer to the learner's reached prefixes, not to positions in a different demonstration. They establish corrections for this finite exercise, not a guarantee for every generator or longer language.
+
+The teacher can itself need preparation. Suppose its response at `((` is selected from the continuation strings `)` and `))`, but its current table chooses `)`. In this finite exercise, the developer can evaluate both completions and change that table. Appending `)` produces the invalid `(()`; appending `))` produces `(())`, which passes the supplied check. Select `))` for that teacher entry, use its first correction for the learner at `((`, and examine the learner's subsequent completion. The check and editable table supply the teacher-improvement operation. If either is unavailable, the original demonstration alone does not obtain this prepared teacher.
+
+A direct counter or a fixed generator already solves this small task. Use one when it is the actual receiving problem. The example exposes what an ongoing learner-development arrangement must obtain when it is being retained for a broader justified use.
+
+Now remove the distinguishing input: at the decision point, both `((` and `(())` are reported to a stateless learner as the same `present` symbol, and neither the prefix nor earlier observations are recoverable. The first case needs a closing symbol next to finish within four symbols; the second must stop. Training on more copies of that same input with both targets supplies no reliable distinction. Restore an adequate observation or retained state, retain the checking construction as an operating supplier, or leave that proposed learner unsupported. If the correction supplier itself cannot handle `((`, its competence on `()` does not fill the missing target either.
+
+#### C.40:5.18 - Compare an operation after its allowed refinement
+
+A stipulated development exercise has two executable changing operations, T for local tuning and G for changing a grouping. Each trial starts from comparable material with quality 10 and receives the same two-unit refinement allowance. All intermediate constructions in this initial case remain admissible. Higher final quality is preferred, and the trials' gains use the same comparison scale.
+
+| Operation | Immediate quality | Quality after the allowed refinement | Completed gain from the parent |
+| --- | ---: | ---: | ---: |
+| T | 12 | 12 | 2 |
+| G | 7 | 16 | 6 |
+
+Choosing only from immediate quality would discard G before its useful continuation. Complete the agreed trials, retain their operation and refinement conditions, and initialize the two mean gains at 2 and 6. Under :4.11's one-quarter uniform exploration rule, the next eligible proposal uses G with probability `3/4 + (1/4)(1/2) = 7/8` and T with probability `1/8`. The choice still needs the actual random draw and execution; the probabilities are not produced candidates.
+
+Suppose another comparable completed G trial returns gain -2. Its mean becomes `(6 - 2)/2 = 2`, tied with T. With the stipulated tie rule favoring T, the next probabilities reverse. Retain the individual outcomes: the mean alone conceals G's variable result and supplies no guarantee of a further gain. If the receiving requirement had already been satisfied by T at 12, the extra search might have been unnecessary.
+
+If G instead denotes a group of two executable changes, the group choice still needs a member selection. With uniform choice inside G at the initial means, each member receives probability `(7/8)(1/2) = 7/16`; T receives `1/8`. A completed member trial updates the group's mean while retaining which member ran. This shares sparse experience but can hide a useful difference between members. Split the comparison when that difference can change the next choice and enough examination is affordable; renaming two changes as a group did not make their effects equal.
+
+Now a changed construction rule makes G's intermediate grouping inadmissible. Remove G from the eligible operations until a permitted version exists; a later score of 16 cannot waive that condition. If instead the available refinement time changes, the old final-gain comparison answers the old allowance. Obtain the affected comparison or retain its uncertainty before using it to allocate the next work. These are different returns from merely preferring the currently larger mean.
+
+#### C.40:5.19 - Reaching a target does not establish persistence
+
+A stipulated three-cell process has state `(left, centre, right)`, with each cell either 0 or 1. All cells update simultaneously from the previous state; positions outside the three-cell row are fixed at 0. Each cell reads itself and its immediate neighbours. The developer must obtain `111` from the seed `010`, preserve it during continued execution, and recover after the centre is removed. In this exercise the three bits are the complete state and can be copied.
+
+Compare two available rules. G outputs 1 when its neighbourhood contains at least one 1. P outputs 1 when the neighbourhood contains one or two 1s, but outputs 0 when it contains zero or three. Both reach `111` from `010` in one update.
+
+| Trial start | G after one update | G after two updates | P after one update | P after two updates |
+| --- | --- | --- | --- | --- |
+| Original `010` | `111` | `111` | `111` | `101` |
+| Reached target `111` | `111` | `111` | `101` | `111` |
+| Damaged target `101` | `111` | `111` | `111` | `101` |
+
+A first-attainment test cannot choose between the rules. Return the reached `111` as another trial start while retaining the seed `010`; continuing from those starts exposes P's alternating `111` and `101`. Running longer from the seed with repeated checks would expose the same failure without a pool. Under G, `111` is unchanged by another update, which also supplies a direct persistence argument for this deterministic case.
+
+Now remove the centre of `111`, obtaining `101`. Both rules restore the target in one update. Continue: P destroys it again, whereas G preserves it. A one-step damage test would therefore miss the consequential difference. A complete comparison of these two rules is enough to select G for the stipulated use; no neural training is needed. The example explains the trial construction and selection, not a claim that learning will find such a rule in any search space.
+
+Finally remove all three cells. Both rules leave `000` unchanged. More generally, if an empty neighbourhood is forbidden to create a 1, simultaneous application cannot leave this all-zero state. Recovery now needs a new seed or another permitted operation. Repeating the same trials cannot supply either.
+
+#### C.40:5.20 - Choose a basis by the useful variants it can produce
+
+A designer uses three on/off lamps to make indicator patterns. For the present family, the two outer lamps must agree. Two available representations have the same three editable input bits `(a,b,c)`. I displays `(a,b,c)` directly; S displays `(a,b,a)`, sharing the outer control and leaving c inactive. Both currently store `000` and display `000`. The designer wants different acceptable patterns from one inexpensive change, rather than one already specified target.
+
+Use :4.11 to compare the mappings at this starting input. The allowed operation flips exactly one input bit in a fresh copy. Enumerate all three choices; constructing and inspecting each display costs the same in this stipulated case. A trial output that violates outer equality is observable in this offline examination but cannot be returned as an acceptable indicator.
+
+| Changed input from `000` | I: output and admissibility | S: output and admissibility |
+| --- | --- | --- |
+| `100` | `100`, inadmissible | `101`, admissible and new |
+| `010` | `010`, admissible and new | `010`, admissible and new |
+| `001` | `001`, inadmissible | `000`, admissible but unchanged |
+
+Each mapping produces three distinct trial outputs, so counting distinct trial outputs cannot choose between them. I supplies one new acceptable pattern; S supplies two. S's unchanged third output is acceptable but adds no new pattern. The joint comparison therefore favors retaining S **as the mapping for these one-step variations**, with its input and changing operation. The designer can also retain `101` and `010` as usable results; keeping those displays alone would not preserve the shared generating operation.
+
+Now the next use permits asymmetric indicators and specifically requires `100`. Under I, flipping a alone produces it. Under S, the first and third output positions are equal for every input, so no sequence of its permitted input flips can produce `100`. The earlier trial is still a correct observation of the old use, but it no longer supports preferring S for this one. Return to the mapping: select I for the direct change, or add and examine an independent outer control if preserving S's shared operation also matters. More attempts under unchanged S cannot repair this limitation.
+
+This finite case compares three specified changes completely. It neither estimates untried tasks nor proves that a sample of good immediate variants supports a longer adaptive search.
 
