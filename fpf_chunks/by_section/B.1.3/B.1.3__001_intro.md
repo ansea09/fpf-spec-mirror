@@ -6,7 +6,7 @@ section_id: "B.1.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__001_intro.md"
-commit_sha: "d4f6b0ba1a4db119fecf8d5b9d2b526633f2e58a"
+commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:intro — Intro"

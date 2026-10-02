@@ -6,7 +6,7 @@ section_id: "A.6.P:End"
 section_title: "A.6.P:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__015_a-6-p-end.md"
-commit_sha: "d4f6b0ba1a4db119fecf8d5b9d2b526633f2e58a"
+commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:End — A.6.P:End"
