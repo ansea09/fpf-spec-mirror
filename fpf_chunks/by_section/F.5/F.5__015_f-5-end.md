@@ -6,12 +6,12 @@ section_id: "F.5:End"
 section_title: "F.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__015_f-5-end.md"
-commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
+commit_sha: "9746e157bff496cc1c5ba98cf1ea67681356a0a7"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:End — F.5:End"
-line_start: 106117
-line_end: 106118
+line_start: 106382
+line_end: 106383
 dependencies:
   - "A.10"
   - "A.15"

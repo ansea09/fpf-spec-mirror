@@ -6,12 +6,12 @@ section_id: "F.9:26"
 section_title: "Bundle and endpoint interaction"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__028_bundle-and-endpoint-interaction.md"
-commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
+commit_sha: "9746e157bff496cc1c5ba98cf1ea67681356a0a7"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:26 — Bundle and endpoint interaction"
-line_start: 107731
-line_end: 107736
+line_start: 107996
+line_end: 108001
 dependencies:
   - "A.10"
   - "A.13"

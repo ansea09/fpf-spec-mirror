@@ -6,12 +6,12 @@ section_id: "E.23.CDI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__008_conformance-checklist.md"
-commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
+commit_sha: "9746e157bff496cc1c5ba98cf1ea67681356a0a7"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:7 — Conformance Checklist"
-line_start: 102095
-line_end: 102107
+line_start: 102360
+line_end: 102372
 dependencies:
   - "A.15.1"
   - "A.2.2"

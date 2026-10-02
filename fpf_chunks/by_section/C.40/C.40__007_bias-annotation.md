@@ -6,12 +6,12 @@ section_id: "C.40:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__007_bias-annotation.md"
-commit_sha: "e9b4ea53bed91a5364342d302708e8ec40db3175"
+commit_sha: "9746e157bff496cc1c5ba98cf1ea67681356a0a7"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:6 — Bias-Annotation"
-line_start: 77996
-line_end: 77999
+line_start: 78241
+line_end: 78244
 dependencies:
   - "C.11"
   - "C.18"
