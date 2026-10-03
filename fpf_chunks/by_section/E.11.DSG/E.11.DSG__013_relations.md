@@ -6,7 +6,7 @@ section_id: "E.11.DSG:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__013_relations.md"
-commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
+commit_sha: "62c7321e05a7782e9debe26697478ba315a85eaa"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:12 — Relations"
