@@ -6,7 +6,7 @@ section_id: "E.17:14"
 section_title: "Minimal authoring template (Part E)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__017_minimal-authoring-template-part-e.md"
-commit_sha: "62c7321e05a7782e9debe26697478ba315a85eaa"
+commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:14 — Minimal authoring template (Part E)"
