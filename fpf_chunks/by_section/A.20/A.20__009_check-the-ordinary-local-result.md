@@ -6,12 +6,12 @@ section_id: "A.20:7"
 section_title: "Check the ordinary local result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__009_check-the-ordinary-local-result.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:7 — Check the ordinary local result"
-line_start: 37297
-line_end: 37316
+line_start: 37388
+line_end: 37407
 dependencies:
   - "A.10"
   - "A.15"

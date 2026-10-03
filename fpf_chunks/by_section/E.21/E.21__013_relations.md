@@ -6,12 +6,12 @@ section_id: "E.21:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__013_relations.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:11 — Relations"
-line_start: 101488
-line_end: 101510
+line_start: 101812
+line_end: 101834
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -31,7 +31,6 @@ dependencies:
   - "E.9.DA"
   - "F.18"
   - "F.19"
-  - "I.2"
 keywords:
 ---
 
@@ -56,5 +55,5 @@ keywords:
 | `E.9.DA` | Declares the DRR decision-adequacy characteristic space and result rules. Dated E.9.DA assessment work evaluates one exact upstream DRR episteme when pattern-quality defects trace to decisions; its checked object, work, and result are not E.21 objects. |
 | `F.18`, `E.10`, `A.6.P`, `C.2.P`, `C.16.P`, and `C.16.Q` | Govern naming and wording-use precision when quality defects are lexical or ontological. |
 | `A.20`, `A.21`, and `A.15` | A.20 governs internal-constraint validity for its stated transformation-flow subjects and cases; A.21 governs gate decisions; A.15 governs system-role–Method–Work alignment. Authority claims retain their separate direct relations. An E.21 result may be cited only through the exact receiving relation and supplies none of these by itself. |
-| `E.11` and `I.2` | Govern entry-distribution and expanded entry-disambiguation cues; E.21 supplies only the scoped quality result. |
+| `E.11` | Governs entry-distribution and expanded entry-disambiguation cues; E.21 supplies only the scoped quality result. |
 

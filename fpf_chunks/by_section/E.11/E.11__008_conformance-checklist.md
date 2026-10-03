@@ -6,12 +6,12 @@ section_id: "E.11:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__008_conformance-checklist.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:7 — Conformance Checklist"
-line_start: 90552
-line_end: 90572
+line_start: 90862
+line_end: 90882
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -42,7 +42,7 @@ keywords:
 | `E11-4` | Progressive explicitness | Short prose passes when situation, first result or blocker, direct pattern, and stop or return are recoverable. The internal ladder only helps choose whether deeper expansion, exact basis, worked case, comparison history, or refresh evidence is warranted. |
 | `E11-5` | No fictitious context | Public entry, expansion, template, and walkthrough contain no fabricated reader-project `@Context` values. |
 | `E11-6` | Conditional expansion completeness | When an exact expansion is opened, each candidate branch has one truthful result promise or blocker and only the result, basis, boundary, and receiver positions that change that branch. |
-| `E11-7` | Bounded comparison | Comparison exposes the choice-changing first-result difference and a stop or return; a materialized comparison account names the later use that relies on its history. |
+| `E11-7` | Bounded comparison | Worked comparisons remain optional examples and preserve the fact that changes the first result. Comparison exposes the choice-changing first-result difference and a stop or return; a materialized comparison account names the later use that relies on its history. |
 | `E11-8` | Author and reader separation | An FPF author or maintainer publishes or refreshes the guidance; a practitioner, manager, or assisting agent reads it and opens a direct pattern without becoming the publisher. |
 | `E11-9` | Plain Preface and local recognition | Preface gives ordinary engineering meaning before strict FPF terms and explains cross-pattern ideas without becoming an index; each pattern's `Problem frame` keeps its own local recognition and first action. |
 | `E11-10` | Thin projection and direct authority | ToC pattern rows expose the framework's declared retrieval fields, including a recognizable working-question cue, without copying a first move, result, or boundary mini-method. `E.11.PFP` defines the exact index fields and form grammar. ToC, query phrases, compact locators, and retrieval remain finding aids. A selected card carries practical-use guidance; every substantive claim returns to the direct pattern whose content defines, constrains, or tests it. |

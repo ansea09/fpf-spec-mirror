@@ -6,12 +6,12 @@ section_id: "C.28.MR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__006_archetypal-grounding.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:5 — Archetypal Grounding"
-line_start: 64686
-line_end: 64725
+line_start: 64840
+line_end: 64879
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"

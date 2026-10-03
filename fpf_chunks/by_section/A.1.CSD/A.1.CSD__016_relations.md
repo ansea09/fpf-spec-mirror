@@ -6,12 +6,12 @@ section_id: "A.1.CSD:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__016_relations.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:13 — Relations"
-line_start: 3374
-line_end: 3380
+line_start: 3378
+line_end: 3384
 dependencies:
   - "A.1"
   - "A.1.SCR"

@@ -6,12 +6,12 @@ section_id: "E.21:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__008_conformance-checklist.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:6 — Conformance checklist"
-line_start: 101414
-line_end: 101439
+line_start: 101738
+line_end: 101763
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -31,7 +31,6 @@ dependencies:
   - "E.9.DA"
   - "F.18"
   - "F.19"
-  - "I.2"
 keywords:
 ---
 
@@ -47,8 +46,8 @@ keywords:
 | `CC-E21-3` | Use the result-bearing three-column table: coordinate, value, and `ShortRationale`; a two-column coordinate-and-value table is not an `E.21` result. |
 | `CC-E21-4` | Let `floorEvaluation` change floor and evidence cost only, not the coordinate set. |
 | `CC-E21-5` | Assign values from checked pattern content and named content evidence, not review, landing, popularity, praise, or absence of prior use. |
-| `CC-E21-6` | For corpus-facing values, name the checked README, ToC, `E.11`, `I.2`, card, retrieval, monolith, or projection loci. Lower a value for an established absence under its anchor; leave it unestablished when the necessary check or basis is unavailable, following §4.3. |
-| `CC-E21-6a` | Keep corpus-projection; README, ToC, `E.11`, and `I.2` alignment; retrieval or cold-reader evidence; monolith-parity; `PatternQualityStatus`; developer, reviewer, and executor correspondence; and other quality evidence out of the pattern unless the pattern's own `EntityOfConcern` and user-facing action are that evaluation or projection work. Part E patterns may define or guide FPF-pattern authoring, review, evaluation, entry, or publication as their subject matter; that does not license rationale or instructions about developing the same pattern version. Test what the sentence is doing, not whether it contains a listed word. If such material appears anywhere in the pattern, including notes, appendices, `Relations`, `Rationale`, `SoTA-Echoing`, examples, tables, conformance rows, or any other host or monolith pattern section, as development, review, projection, or quality-status content about the pattern, lower `CorpusEntryProjectionAndEcologyFit`, `EntityOfConcernPrimacyAndSemioBiasResistance`, and the affected action or usability coordinates. |
+| `CC-E21-6` | For corpus-facing values, name the checked README, ToC, `E.11`, card, retrieval, monolith, or projection loci. Lower a value for an established absence under its anchor; leave it unestablished when the necessary check or basis is unavailable, following §4.3. |
+| `CC-E21-6a` | Keep corpus-projection; README, ToC, `E.11` alignment; retrieval or cold-reader evidence; monolith-parity; `PatternQualityStatus`; developer, reviewer, and executor correspondence; and other quality evidence out of the pattern unless the pattern's own `EntityOfConcern` and user-facing action are that evaluation or projection work. Part E patterns may define or guide FPF-pattern authoring, review, evaluation, entry, or publication as their subject matter; that does not license rationale or instructions about developing the same pattern version. Test what the sentence is doing, not whether it contains a listed word. If such material appears anywhere in the pattern, including notes, appendices, `Relations`, `Rationale`, `SoTA-Echoing`, examples, tables, conformance rows, or any other host or monolith pattern section, as development, review, projection, or quality-status content about the pattern, lower `CorpusEntryProjectionAndEcologyFit`, `EntityOfConcernPrimacyAndSemioBiasResistance`, and the affected action or usability coordinates. |
 | `CC-E21-7` | For any `5`, name the reinforcing evidence loci required by that coordinate's `5` meaning; otherwise lower the coordinate to `4` or below. |
 | `CC-E21-8` | For `MaturePatternParityAndSelectedContentSufficiency = 4` or `5`, include a compact maturity-discharge payload: comparator id, selected ingredient, current locus, and missing or lowering item if any; category lists without loci cap the coordinate at `3`. |
 | `CC-E21-9` | Invoke the canonical definition and positive comparison contract in `E.8:11` for every positive SoTA judgement; use `F.1` only to inspect whether its source cut can support that comparison. For `SoTABindingAndCurrentness = 4` or `5`, include one complete `E.8:11` comparison payload by value. A relevance/currentness table plus adopt/adapt/reject labels is below the ordinary floor when that comparison is absent. |

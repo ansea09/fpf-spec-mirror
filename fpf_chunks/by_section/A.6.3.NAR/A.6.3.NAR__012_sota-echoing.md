@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__012_sota-echoing.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:11 — SoTA-Echoing"
-line_start: 17291
-line_end: 17300
+line_start: 17328
+line_end: 17337
 dependencies:
   - "A.10"
   - "A.22.CGUS"

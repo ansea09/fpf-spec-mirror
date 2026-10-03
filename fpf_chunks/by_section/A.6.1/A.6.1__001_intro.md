@@ -6,12 +6,12 @@ section_id: "A.6.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__001_intro.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:intro — Intro"
-line_start: 14291
-line_end: 14300
+line_start: 14310
+line_end: 14319
 dependencies:
   - "A.1"
   - "A.1.1"

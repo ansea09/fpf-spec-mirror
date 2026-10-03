@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "C.29 — Mathematical Lens Use"
-line_start: 64793
-line_end: 65806
+line_start: 64947
+line_end: 65960
 dependencies:
   - "A.1.1"
   - "A.10"

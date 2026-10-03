@@ -6,12 +6,12 @@ section_id: "C.28.CM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__012_sota-echoing.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:11 — SoTA-Echoing"
-line_start: 64567
-line_end: 64578
+line_start: 64721
+line_end: 64732
 dependencies:
   - "A.15.9"
   - "B.5.2"

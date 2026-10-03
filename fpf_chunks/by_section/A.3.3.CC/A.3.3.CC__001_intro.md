@@ -6,12 +6,12 @@ section_id: "A.3.3.CC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.CC/A.3.3.CC__001_intro.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "A.3.3.CC — Construct a Configuration Description under Constraints"
   - "A.3.3.CC:intro — Intro"
-line_start: 9812
-line_end: 9817
+line_start: 9816
+line_end: 9821
 dependencies:
   - "A.17"
   - "A.18"

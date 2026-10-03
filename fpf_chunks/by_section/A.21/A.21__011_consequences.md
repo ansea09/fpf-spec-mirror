@@ -6,12 +6,12 @@ section_id: "A.21:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__011_consequences.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:9 — Consequences"
-line_start: 37619
-line_end: 37624
+line_start: 37710
+line_end: 37715
 dependencies:
   - "A.10"
   - "A.15.5"

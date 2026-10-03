@@ -6,12 +6,12 @@ section_id: "B.5.PI:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__010_consequences.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:9 — Consequences"
-line_start: 47577
-line_end: 47582
+line_start: 47668
+line_end: 47673
 dependencies:
   - "A.15.11"
   - "A.16.1"

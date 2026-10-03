@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 90137
-line_end: 90505
+line_start: 90343
+line_end: 90729
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -45,7 +45,7 @@ Use this distribution:
 | `Preface` | Plain-engineering narrative explaining the cross-cutting ideas behind those entries. | A second scenario table, PatternID catalogue, or conformance authority. |
 | Table of Contents | Search-oriented overview. Every pattern row exposes its PatternID and title plus at least one working-question locator: a `Use when` cue, query phrase, or discriminating keyword. State any domain or local PatternID prefix discipline that affects lookup. Add admission state or dependencies when either can change the reader's choice. | Public first-entry explanation, a prescribed use sequence, or durable pattern semantics. |
 | Pattern `Problem frame` | High-precision local recognition for that pattern's own `EntityOfConcern`, first action, result, and non-use boundary. | A related-pattern fanout list or package-placement rationale. |
-| `I.2` or another expanded case | Longer entry disambiguation only when README, ToC, and local recognition are insufficient. | A tutorial obligation for every pattern or a replacement pattern body. |
+| Worked entry comparison in E.11 or another expanded case | Longer entry disambiguation only when README, ToC, and local recognition are insufficient. | A tutorial obligation for every pattern or a replacement pattern body. |
 | Retrieval cues and projections | Thin finding aids that point to the direct pattern and state what they cannot decide. | Evidence, gate, authorization, final interpretation, or shadow authority. |
 
 The framework Readme is the single editable public entry set. If another publication form needs the same guidance, project it from that Readme rather than maintaining a second version. Put any unique cue in the publication unit whose job matches it, then remove the duplicate row or index.
@@ -55,6 +55,8 @@ Use `E.11.PFP` when one public FPF, DPF, or LPF edition needs the shared reader-
 Use `E.11.DSG` when the reader may need results from several DPF product series, cannot yet tell which DPF applies, needs Suite-wide commonality or relations, or needs an honest ecosystem gap. Start with the recognizable situation and four truthful return classes. The DPF Suite Reference returns to the Suite collection and each product series, edition, result, state, or source that changes the answer; it uses an optional configuration description only when needed. When one DPF result is already known, use that DPF directly. An absent, unavailable, stale, or unneeded Reference neither erases the Suite nor blocks direct DPF use, but it cannot supply a current cross-DPF route. `E.11.DSG` is a non-framework publication specialization; do not apply `E.11.PFP` to it.
 
 Pattern count is only a diagnostic. A one-pattern edition asks whether the result is instead a seed, candidate, or contribution to an existing framework; a larger count still does not establish a pattern language. Use `E.4` and `E.4.PFAD` to decide framework architecture, `E.4.DPF.DA` or `E.2.DA` for the applicable package or whole-FPF adequacy, and `E.21` for pattern quality.
+
+When the reader's obstacle is finding material under unfamiliar source wording or incomplete access, point to `F.1:4.4`: its ordinary result is inspectable candidate material and consequential search/access limits. `F.1:4.2` justifies a source cut only when the receiving question needs one. An already identified sufficient source or direct pattern can end finding.
 
 When discoverability has become use of one selected pattern, continue with `E.11.PUA`. When the live question is which applicable pattern use to recommend, how several uses relate, or whether an earlier result already answers the concern, continue with `E.11.PUR`. Neither continuation turns a public entry order into a universal workflow.
 
@@ -394,6 +396,22 @@ For a title-only comparison, withhold the fuller cue and the author's intended a
 For AI retrieval, inspect the real input: the file or index fields, included heading and parent context, chunk boundary and returned passage. A renamed heading can affect only a path that carries its text or resulting representation. Adding context to a fragment is another intervention. A heading scan, a full-text search and a contextual embedding query therefore need their own declared conditions; a result from one does not establish the others.
 
 Check both discovery from a working question and re-finding by a useful technical term. An attractive first click is insufficient if the body returns the reader from a wrong use or the familiar method becomes harder to find. Keep the useful shortlist, correction or no-use return; ordinary comparison needs no extra catalogue or score. A local AI reading supports that observed response, not a human-effect estimate. Keep any new body content separate from a title or presentation contribution, and use an appropriate description-comparison method when that attribution matters.
+
+<a id="part-i---annexes--extended-tutorials"></a>
+
+<a id="i2---choose-a-first-pattern-expanded-entry-disambiguation-cases"></a>
+
+#### E.11:4.6.2 - Resolve a first-pattern ambiguity with a worked comparison
+
+When a short entry and the candidate's `Problem frame` still leave two different starting points plausible, ask which fact would change the first result you need. A shared topic word is weak discrimination: “contract” may concern recognition or atomic claims; “improvement” may concern a measured rate or causal support. Recover the current object, proposed use and available facts before choosing by that word.
+
+Use the worked comparisons in `E.11:5.7–5.14` only when their working question resembles yours. Each shows a discriminating fact, the direct `Solution` worth opening, and an ordinary stop or return. They are examples, not a complete pattern catalogue or a reading sequence. A sufficient compact cue can bypass them.
+
+Compare the plausible entries against the fact: what would each help you obtain first, and what would make that result premature or irrelevant? Obtain the fact from the task material or the inspected source. If it is unavailable, name the missing fact and the choice it prevents; an attractive example supplies no missing project evidence. Then open the promising direct pattern's `Solution` and check its actual inputs and boundary. If that body changes your understanding of the question, revise only the affected comparison and keep earlier useful reading.
+
+Stop entry comparison when the direct body gives a justified starting point, no remaining plausible entry can change the choice, or a concrete missing basis prevents it. Continue with `E.11.PUA` to use one selected pattern. If inspected candidate uses still require applicability, recommendation, coordination or ordering, use `E.11.PUR`; presenting an example first has settled none of those judgements.
+
+For publication, expand an ambiguity only when compact guidance cannot resolve it truthfully. A serious consequence of a wrong choice, repeated misclassification, difficult retrieval or a materially new comparison can justify a worked case. Show the choice-changing fact and its consequence in ordinary language, retain the direct-pattern boundary, and make the relevant example findable from the working question. Readers use that explanation without becoming its authors or completing a comparison form.
 
 #### E.11:4.7 - Replay and currentness
 

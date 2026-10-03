@@ -6,12 +6,12 @@ section_id: "A.15.10:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__003_problem.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "A.15.10 — Resume Interrupted Work"
   - "A.15.10:2 — Problem"
-line_start: 29672
-line_end: 29679
+line_start: 29748
+line_end: 29755
 dependencies:
   - "A.15"
   - "A.15.5"

@@ -6,12 +6,12 @@ section_id: "C.16.RM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__001_intro.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:intro — Intro"
-line_start: 55133
-line_end: 55138
+line_start: 55284
+line_end: 55289
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"

@@ -6,12 +6,12 @@ section_id: "F.19:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__003_problem-frame.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:1 — Problem frame"
-line_start: 112473
-line_end: 112485
+line_start: 112965
+line_end: 112977
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -29,7 +29,6 @@ dependencies:
   - "E.23"
   - "E.8"
   - "F.18"
-  - "I.2"
 keywords:
 ---
 

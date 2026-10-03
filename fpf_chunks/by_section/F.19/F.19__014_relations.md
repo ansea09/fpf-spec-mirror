@@ -6,12 +6,12 @@ section_id: "F.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__014_relations.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:12 — Relations"
-line_start: 112751
-line_end: 112767
+line_start: 113255
+line_end: 113271
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -29,7 +29,6 @@ dependencies:
   - "E.23"
   - "E.8"
   - "F.18"
-  - "I.2"
 keywords:
 ---
 
@@ -48,5 +47,5 @@ keywords:
 | `C.2.8` | Supplies the distinction between expert walkthrough, actual reading and formal-model estimate, and qualifies recovered structure by the reader's preparation, access, help and budget. `F.19` selects the needed recovery basis for wording judgements. |
 | `E.21` | An `E.21` evaluation may use `F.19` findings through `PrecisionRestorationProfile` and lower affected quality coordinates without creating one coordinate per apparatus symptom. |
 | `E.19`, `E.22`, `E.23` | During review, framing, or improvement-loop work, use `F.19` while keeping quality-loop records out of pattern prose. |
-| `E.11` and `I.2` | First-entry and publication loci may use the same repair while returning semantic authority to the subject patterns. |
+| `E.11` | First-entry and publication loci may use the same repair while returning semantic authority to the subject patterns. |
 

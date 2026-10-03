@@ -6,12 +6,12 @@ section_id: "C.29.BB:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__003_problem.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:2 — Problem"
-line_start: 66996
-line_end: 67001
+line_start: 67150
+line_end: 67155
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"

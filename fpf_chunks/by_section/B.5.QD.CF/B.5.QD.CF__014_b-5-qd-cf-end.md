@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:End"
 section_title: "B.5.QD.CF:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__014_b-5-qd-cf-end.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:End — B.5.QD.CF:End"
-line_start: 46461
-line_end: 46462
+line_start: 46552
+line_end: 46553
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"

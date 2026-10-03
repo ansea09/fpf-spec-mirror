@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__006_archetypal-grounding.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:5 — Archetypal Grounding"
-line_start: 18594
-line_end: 18706
+line_start: 18640
+line_end: 18752
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"

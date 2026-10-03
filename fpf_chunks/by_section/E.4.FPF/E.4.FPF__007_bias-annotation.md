@@ -6,12 +6,12 @@ section_id: "E.4.FPF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__007_bias-annotation.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:6 — Bias-Annotation"
-line_start: 81805
-line_end: 81816
+line_start: 81959
+line_end: 81970
 dependencies:
   - "C.33"
   - "C.34"
@@ -34,7 +34,6 @@ dependencies:
   - "F.19"
   - "G.11"
   - "G.2"
-  - "I.2"
 keywords:
 ---
 

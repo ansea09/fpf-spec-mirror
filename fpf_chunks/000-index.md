@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `e07a40dea520978031e086c2a966e4cc85287a3a`
+Commit SHA: `93a8234d2f468675d8dd867bec859e9404213fb5`
 
 Chunking method: `pattern-aware`
 
-Patterns: `355`
+Patterns: `354`
 
 ## Patterns
 
@@ -329,7 +329,7 @@ Patterns: `355`
 - [E.24.UK — U-kind Admission and Ontic Settlement](by_pattern/E.24.UK.md)
 - [F.0.1 — Source-Local Meaning Recovery](by_pattern/F.0.1.md)
 - [F.0.2 — Semantic Synthesis across Source Ontologies](by_pattern/F.0.2.md)
-- [F.1 — Question-Relative Source Selection](by_pattern/F.1.md)
+- [F.1 — Find and Select Sources for a Current Question](by_pattern/F.1.md)
 - [F.2 — Source-Local Term Harvesting & Normalisation](by_pattern/F.2.md)
 - [F.3 — Source-Local Sense Clustering](by_pattern/F.3.md)
 - [F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind](by_pattern/F.4.md)
@@ -364,4 +364,3 @@ Patterns: `355`
 - [G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)](by_pattern/G.11.md)
 - [G.12 — DHC Dashboards (Discipline-Health Time Series and Views)](by_pattern/G.12.md)
 - [G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)](by_pattern/G.13.md)
-- [I.2 — Choose a First Pattern: Expanded Entry Disambiguation Cases](by_pattern/I.2.md)

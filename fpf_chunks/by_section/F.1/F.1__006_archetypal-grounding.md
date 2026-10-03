@@ -1,34 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.1"
-pattern_title: "Question-Relative Source Selection"
+pattern_title: "Find and Select Sources for a Current Question"
 section_id: "F.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__006_archetypal-grounding.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
-  - "F.1 — Question-Relative Source Selection"
+  - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:5 — Archetypal Grounding"
-line_start: 105260
-line_end: 105336
+line_start: 105669
+line_end: 105796
 dependencies:
   - "A.10"
   - "A.7"
   - "B.3"
   - "C.2.1"
+  - "E.11.PUR"
   - "F.0.1"
   - "F.0.2"
   - "F.17"
   - "F.9"
 keywords:
   - "SourceCutNote"
-  - "answer-changing source role"
+  - "answer-changing role"
   - "exact source and edition"
-  - "finite source cut"
-  - "intended use"
-  - "receiving question"
-  - "reopen condition"
+  - "inspectable candidate material"
+  - "search and access limits"
+  - "source cut"
+  - "unfamiliar terminology"
 ---
 
 ### F.1:5 - Archetypal Grounding
@@ -104,7 +105,58 @@ The resulting `SourceCutNote` is identified by that ClaimGraph, the stated recei
 - **Use search assistance:** “The ranking tells us what to inspect next; the source claim decides whether it enters the cut.”
 - **Reopen:** “This question, use, relied claim, rival, counterexample, or transfer boundary changed, so select again.”
 
-#### F.1:5.5 - Didactic distillation
+<a id="f155---didactic-distillation"></a>
+
+#### F.1:5.5 - Didactic distillation of source selection
 
 > State and independently identify the question; keep the later use in the claims. Keep a source because an inspected claim can change the answer, expose a rival or counterexample, or mark a transfer limit. Return one finite `SourceCutNote` whose ClaimGraph carries those roles, exclusions, limits, and reopen conditions, whose EntityOfConcern is the exact question, and whose named effective scheme resolves the question and exact editions. Search scores may guide inspection; they do not admit or exclude a source. Stop when additional candidates do not change the answer.
+
+#### F.1:5.6 - Manual archive: a rule under an unfamiliar name
+
+A workshop reader asks, “May a shared bench be used while an acceptance run is cooling?” The available fictional archive has three paper binders labelled *Setup*, *Drawings* and *Bookings*. Its card catalogue lists current equipment names. The reader has no searchable index or retrieval service.
+
+The reader preserves the whole question, including the cooling interval, and bounds the search to those binders. The catalogue has no “cooling” entry. That is a limitation of this route. Browsing *Setup* produces a reference to an older equipment name and a drawing whose legend says “reserved interval”. The reader tries that term in the drawing register and obtains drawing D-14, edition 2, note 6. The note reserves the bench through the cooling interval; its exception allows sharing only before the run begins.
+
+The result is that inspected note, its drawing and edition address, why the interval and exception matter, and the scope of the archive searched. It supplies a rule for the subject practitioner to use with the actual run conditions. It does not establish the present bench state or permission by itself. The reader need not produce a SourceCutNote merely to return this sufficient source.
+
+Change the question to “Which inspection condition changed between editions?” The reader obtains the available D-14 edition 1 note and compares it with edition 2 around the exception. Both passages become candidates. If the later comparison needs a justified two-edition basis, :4.2 selects their roles and returns a SourceCutNote. Change the question instead to “What word do these drawings use for the cooling interval?” The inspected wording can answer directly; further source selection adds nothing to that use.
+
+The first failed route mattered because its catalogue vocabulary excluded the older name. The complementary route recovered source wording. This construction works with paper and ordinary reading; it requires no index engineering or automated ranking.
+
+#### F.1:5.7 - An uncertain method-library vocabulary
+
+A project reader asks, “Two proposed pattern uses each fit our concern, but both need the same exclusive instrument. What helps us say which use should precede the other?” They can search the available full FPF publication but know no PatternID for that concern.
+
+The first lookup, “suitable methods”, yields only general fit cues. The reader preserves the shared-instrument condition and tries variants such as “coordination”, “shared constraint” and “precedence”. A contents row points to E.11.PUR. The reader opens the complete pattern, including :4.3–:4.4 and :5.5, rather than treating the row as an applicable Method.
+
+The returned material explains why exclusion alone establishes conflict without selecting A-before-B. An applicable schedule or priority rule can supply a direction; when it is unknown, the direction remains unresolved. The reader returns that passage and the missing-rule question. The later judgement uses E.11.PUR; a work schedule or performed work claim belongs to A.15. Finding the passage creates neither kind of judgement.
+
+A title-only service that cannot search or return those body conditions would require another accessible route or return its limit. If the reader already has a current adequate coordination judgement, finding can stop there. The example's useful search terms are variants for this concern, not fixed names every corpus must use.
+
+#### F.1:5.8 - A changed edition with a known source
+
+An engineer already has the needed fictional WS-4 procedure, edition 2, clause 7. An edition-3 notice names a changed inspection exception. The question remains whether the same inspection condition applies. The engineer opens edition 3 at that clause and reads the exception with its surrounding applicability conditions.
+
+If the relied condition is unchanged, the passage remains usable for its earlier contribution, with the updated edition address. If the exception changed, the engineer returns the changed passage and the earlier passage when the comparison needs it, then reopens the affected subject judgement or source-cut claim. No unchanged chapter needs a new search merely because the cover changed.
+
+Now change the question to whether a particular attachment can be accepted. The retrieved clause does not settle an unknown material or operating condition. The subject engineer receives the passage and that missing premise. A found rule and a justified source cut supply different contributions from engineering applicability.
+
+#### F.1:5.9 - The original cannot be inspected
+
+A review cites a 2025 original, but the reader can obtain only the review's excerpt and the original's catalogue record. The catalogue establishes a lead. The excerpt is inspectable at its own review address; the original's body and omitted conditions remain inaccessible.
+
+Return those distinctions and identify the needed original or authorized access. Continue a use that the excerpt can actually support; keep a dependent judgement open when its missing context can change the answer. Another search over the same catalogue cannot turn the original into inspected material. A later copy of the original reopens that gap; it does not require discarding other unchanged findings.
+
+
+#### F.1:5.10 - A changed question with two needed contributions
+
+A workshop reader asks, “Which training material will reduce mistakes at handover?” The available fictional archive contains a course catalogue, an incident note, the current equipment register R-4, a handover procedure H-2 and several equipment-identification guides. The immediate concern is a receiver being sent to the wrong pump or being unable to tell whether its preparation is complete.
+
+The catalogue points to a note about equipment labels. Reading it reveals that an old label is used for two different pumps. This gives the reader a more useful local inquiry: what must the handover distinguish so its receiver can identify the equipment and its preparation state? B.5.PI:4.4 permits this revision while retaining the original concern. Searching for another synonym of “course” would keep the earlier hypothesis in control.
+
+The equipment register explains how current identifiers distinguish the pumps. Further guides found through different terms give more identification examples, but leave the preparation-state question unanswered. A reference in the register gives a route to H-2. The next search opens its completion condition in section 5, with the definition of the reported state and interval. The new contribution is that condition, not merely a new document.
+
+The reader now returns R-4:2 for the equipment-identification basis and H-2:5 for the condition on reporting completed preparation. These supply the current requirement question. Stop searching and use them to examine the proposed handover. Choosing a course still requires judging the actual learning need; identifying the requirements did not make that judgement. If the available operations do not explain how to produce the required handover, use C.39 to develop the missing connection, with those passages as inputs.
+
+If the procedure is inaccessible, return the inspected identification passage and the missing preparation-condition source. More identification guides do not close that gap. If both passages were already known and sufficient, open them directly. No additional route or SourceCutNote is needed for that use.
 

@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "C.20"
 pattern_title: "Composition of U.Discipline (Discipline-CAL)"
-section_id: "C.20:section-001"
+section_id: "C.20:11"
 section_title: "E.24.UK settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__002_e-24-uk-settlement.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
-  - "C.20:section-001 — E.24.UK settlement"
-line_start: 58060
-line_end: 58067
+  - "C.20:11 — E.24.UK settlement"
+line_start: 58213
+line_end: 58221
 dependencies:
   - "A.1"
   - "A.14"
@@ -49,7 +49,8 @@ keywords:
   - "whole-forming claims"
 ---
 
-### E.24.UK settlement
+### C.20:11 - E.24.UK settlement
+
 
 `U.Discipline` is the admitted durable holon kind for one exact field-level practice-and-knowledge whole. C.20 supplies the kind-specific construction criterion; A.1 recognizes one exact candidate under that admitted kind only after the candidate, constituents, obtaining constructive relations, assembly, identity or reidentification rule, composition-grounded whole characteristic, and larger-assembly compatibility are recoverable.
 

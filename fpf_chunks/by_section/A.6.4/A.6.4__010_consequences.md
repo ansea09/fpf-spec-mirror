@@ -6,12 +6,12 @@ section_id: "A.6.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__010_consequences.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:9 — Consequences"
-line_start: 17518
-line_end: 17525
+line_start: 17555
+line_end: 17562
 dependencies:
   - "A.10"
   - "A.15"

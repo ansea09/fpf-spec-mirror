@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__005_forces.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:3 — Forces"
-line_start: 68924
-line_end: 68933
+line_start: 69078
+line_end: 69087
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,7 +45,6 @@ dependencies:
   - "F.19"
   - "G.5"
   - "G.6"
-  - "I.2"
 keywords:
   - "block"
   - "cache"

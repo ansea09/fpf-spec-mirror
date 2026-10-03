@@ -1,34 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.1"
-pattern_title: "Question-Relative Source Selection"
+pattern_title: "Find and Select Sources for a Current Question"
 section_id: "F.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
-  - "F.1 — Question-Relative Source Selection"
+  - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 105374
-line_end: 105390
+line_start: 105841
+line_end: 105860
 dependencies:
   - "A.10"
   - "A.7"
   - "B.3"
   - "C.2.1"
+  - "E.11.PUR"
   - "F.0.1"
   - "F.0.2"
   - "F.17"
   - "F.9"
 keywords:
   - "SourceCutNote"
-  - "answer-changing source role"
+  - "answer-changing role"
   - "exact source and edition"
-  - "finite source cut"
-  - "intended use"
-  - "receiving question"
-  - "reopen condition"
+  - "inspectable candidate material"
+  - "search and access limits"
+  - "source cut"
+  - "unfamiliar terminology"
 ---
 
 ### F.1:8 - Common Anti-Patterns and How to Avoid Them
@@ -44,6 +45,9 @@ keywords:
 | Relation by stealth | Selection prose says two sources are “basically the same.” | Keep them distinct and open an F.9 question if an actual relation is needed. |
 | Designed-versus-performed collapse | A design description is treated as a performed occurrence. | State the source role and the time distinction it contributes. |
 | Search score as gate | Rank, distance, threshold, or model answer admits or excludes a source. | Use the reading to prioritize inspection; decide from the source's contribution. |
+| Variant becomes the question | A broader query drops a condition, and the returned passage answers that broader question instead. | Preserve the original concern and restore its conditions during candidate inspection. |
+| Locator becomes source | A title or excerpt is treated as inspection of the unavailable original. | Return what was actually inspected, its address and missing context; retain the original as an inaccessible lead. |
+| No hit becomes absence | One phrase or limited index finds nothing, so the whole repertoire is declared empty. | State the route's reach, repair a consequential blind spot if feasible, or return the scoped gap. |
 | Exhaustive pretense | A small cut is reported as complete literature coverage or saturation. | State its question-relative limits and use the domain review method when needed. |
 | Compact-note inflation | The one-screen representation grows into a second source analysis. | Keep the ClaimGraph concise and place detailed analysis with the receiving work. |
 | Context container revival | Sources or meanings are treated as members of a universal Context object. | Identify the exact sources. When a source-role decision depends on a disputed expression, recover its plain local meaning through F.0.1 before selection; create an F.17 cell only for a later durable need. |

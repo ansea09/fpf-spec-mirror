@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.20.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
-line_start: 58056
-line_end: 58414
+line_start: 58207
+line_end: 58568
 dependencies:
   - "A.1"
   - "A.14"
@@ -52,7 +52,10 @@ keywords:
 > **Status:** Stable
 > **Type:** Pattern
 
-### E.24.UK settlement
+<a id="e24uk-settlement"></a>
+
+### C.20:11 - E.24.UK settlement
+
 
 `U.Discipline` is the admitted durable holon kind for one exact field-level practice-and-knowledge whole. C.20 supplies the kind-specific construction criterion; A.1 recognizes one exact candidate under that admitted kind only after the candidate, constituents, obtaining constructive relations, assembly, identity or reidentification rule, composition-grounded whole characteristic, and larger-assembly compatibility are recoverable.
 

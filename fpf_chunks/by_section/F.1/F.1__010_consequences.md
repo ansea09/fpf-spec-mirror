@@ -1,37 +1,41 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.1"
-pattern_title: "Question-Relative Source Selection"
+pattern_title: "Find and Select Sources for a Current Question"
 section_id: "F.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__010_consequences.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
-  - "F.1 — Question-Relative Source Selection"
+  - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:9 — Consequences"
-line_start: 105391
-line_end: 105408
+line_start: 105861
+line_end: 105881
 dependencies:
   - "A.10"
   - "A.7"
   - "B.3"
   - "C.2.1"
+  - "E.11.PUR"
   - "F.0.1"
   - "F.0.2"
   - "F.17"
   - "F.9"
 keywords:
   - "SourceCutNote"
-  - "answer-changing source role"
+  - "answer-changing role"
   - "exact source and edition"
-  - "finite source cut"
-  - "intended use"
-  - "receiving question"
-  - "reopen condition"
+  - "inspectable candidate material"
+  - "search and access limits"
+  - "source cut"
+  - "unfamiliar terminology"
 ---
 
 ### F.1:9 - Consequences
+
+
+An unfamiliar name or incomplete search view need no longer end finding silently. The practitioner can construct a route from the available source, words or references, repair a consequential blind spot and return material with an honest limit. That result may support a direct answer without requiring source selection.
 
 The source cut becomes small enough to inspect, while a decisive rival, counterexample, or transfer limit cannot be discarded merely to satisfy a count. Later work can recover why each source was present, which edition was used, what the cut deliberately omitted, and what change reopens it.
 

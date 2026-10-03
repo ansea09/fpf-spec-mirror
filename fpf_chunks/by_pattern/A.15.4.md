@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.4.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
-line_start: 27951
-line_end: 28430
+line_start: 28018
+line_end: 28506
 dependencies:
   - "A.10"
   - "A.13"
@@ -142,7 +142,10 @@ A.15 remains the kernel for separating an acting System, exact local system-role
 
 ### A.15.4:3 - Solution - Work-Relevant Appearance-Based Reliance Repair
 
-#### Core stress-case rule
+<a id="core-stress-case-rule"></a>
+
+#### A.15.4:3.3 - Core stress-case rule
+
 
 **Ordinary local note.** Use the opening sentence or six-line note and stop after the first missing prerequisite. Do not build a full evidence, currentness, or provenance dossier for that case.
 
@@ -211,7 +214,10 @@ When a required relation or result, its project-side reference, or its test is i
 7. Proceed only inside the recovered scope and window.
 8. Block only the work claim or reliance claim that lacks the required relation.
 
-#### Repair assignment rule
+<a id="repair-assignment-rule"></a>
+
+#### A.15.4:3.4 - Repair assignment rule
+
 
 **Missing source exposure versus repair assignment.** If a required source or record is unavailable, first make the light request: ask an identified issuer, maintainer, verifier, holder, publisher, source contact, or acting user to expose or locate it using the available direct source, publication, register, communication, access, or contact fact. This request is source finding, not prospective Work allocation, and creates no duty, authority, or responsibility. If the current move instead assigns repair Work, decision Work, planning Work, or source-relation-gap Work, select the admitted System through an independently obtaining allocation, responsibility, commitment, permission, or authority relation. An exact system-role kind or assignment may be an applicability ground but supplies none of those stronger relations. Without one, record the exact A.6.RCD missing governor for the repair assignment while retaining the safe source-finding request and narrowed use.
 
@@ -219,7 +225,10 @@ When a required relation or result, its project-side reference, or its test is i
 
 **Source-relation guard.** Release urgency, delegated-claim urgency, compliance concern, color, salience, copied wording, or generated wording does not replace the source relation named by value. A dashboard tile may guide release only as a current view of the relevant `GateDecisionResult` plus evidence relation, currentness relation, scope, and window.
 
-#### Prerequisite lookup table
+<a id="prerequisite-lookup-table"></a>
+
+#### A.15.4:3.5 - Prerequisite lookup table
+
 
 Patterns and checks by required direct-object kind:
 

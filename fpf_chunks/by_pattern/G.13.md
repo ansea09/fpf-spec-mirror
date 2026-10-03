@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.13.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
-line_start: 119087
-line_end: 119436
+line_start: 119672
+line_end: 120014
 dependencies:
   - "A.18"
   - "A.19"
@@ -386,10 +386,3 @@ FPF is a conceptual framework for disciplined creative work. An explicit interop
 ### G.13:End
 
 # Part H - Reserved
-
-# Part I - Annexes & Extended Tutorials
-
-| §   | ID & Title                  |  Concise reminder                                                |
-| --- | --------------------------- | --------------------------------------------------------------- |
-| I.2 | Expanded Entry Disambiguation Cases | Expanded entry-disambiguation cases for high-risk or compact-insufficient first-entry comparison; compact `E.11` entry cues plus local Problem frames are complete when enough. |
-

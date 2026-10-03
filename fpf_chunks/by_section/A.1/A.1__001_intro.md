@@ -6,12 +6,12 @@ section_id: "A.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__001_intro.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:intro — Intro"
-line_start: 1835
-line_end: 1840
+line_start: 1839
+line_end: 1844
 dependencies:
   - "A.1.1"
   - "A.1.STM"

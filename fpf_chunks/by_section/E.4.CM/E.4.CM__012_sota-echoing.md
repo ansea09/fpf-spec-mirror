@@ -6,12 +6,12 @@ section_id: "E.4.CM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__012_sota-echoing.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:11 — SoTA-Echoing"
-line_start: 81552
-line_end: 81578
+line_start: 81706
+line_end: 81732
 dependencies:
   - "A.3.1"
   - "B.1.5"

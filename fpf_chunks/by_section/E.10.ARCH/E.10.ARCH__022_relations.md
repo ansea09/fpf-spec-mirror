@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__022_relations.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:14 — Relations"
-line_start: 89270
-line_end: 89296
+line_start: 89476
+line_end: 89502
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -61,7 +61,6 @@ dependencies:
   - "E.8"
   - "F.18"
   - "F.19"
-  - "I.2"
 keywords:
 ---
 
@@ -90,5 +89,5 @@ keywords:
 - `F.19` owns the normal whole-span semantic and pragmatic reading and the final plain technical rewrite; deeper recovery opens only for the FPF question that remains unresolved.
 - `E.8` states the pattern-form and placement rules.
 - `E.19` checks distribution preservation during review and refresh.
-- `E.11` states the entry-distribution rules for broad or old-term cases across README scenarios, ToC query cues, local Problem frames, and `I.2` expanded entry-disambiguation cases.
+- `E.11` states the entry-distribution rules for broad or old-term cases across README scenarios, ToC query cues, local Problem frames, and worked entry comparisons in `E.11`.
 

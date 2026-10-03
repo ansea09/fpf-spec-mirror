@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology and Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__010_morphology-and-lexical-form-lex-morph.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:8 — Morphology and Lexical Form (LEX.Morph)"
-line_start: 87347
-line_end: 87589
+line_start: 87553
+line_end: 87795
 dependencies:
   - "A.10"
   - "A.15"
@@ -193,13 +193,13 @@ Aliases are permitted only in one named local source or practice glossary under 
 
 #### E.10:8.5a - Entry lexeme support and lexical-query discipline
 
-Public first-entry scenario text, ToC query rows, local Problem-frame recognition text, or expanded `I.2` entry-disambiguation cases may use one compact **entry lexeme cue** block when the lexical issue changes the first useful FPF entry.
+Public first-entry scenario text, ToC query rows, local Problem-frame recognition text, or worked entry comparisons in `E.11` may use one compact **entry lexeme cue** block when the lexical issue changes the first useful FPF entry.
 That cue block should not be copied into every pattern body by default.
 Keep it instead in:
 
 * FPF `readme` section,
 * `E.11` public-entry positions,
-* `I.2` expanded entry-disambiguation cases,
+* worked entry comparisons in `E.11`,
 * `Table of Contents` query rows,
 * or one bounded lexical-query record governed by `F.17`, `UTS`, or `F.18`.
 

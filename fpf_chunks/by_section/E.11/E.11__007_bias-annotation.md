@@ -6,12 +6,12 @@ section_id: "E.11:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__007_bias-annotation.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:6 — Bias-Annotation"
-line_start: 90542
-line_end: 90551
+line_start: 90852
+line_end: 90861
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -36,7 +36,7 @@ keywords:
 
 
 
-- **Title-match bias.** A familiar word selects a pattern before its Problem and first result are inspected. Compare situations and result differences, then open the direct pattern.
+- **Title-match bias.** A familiar word selects a pattern before its Problem and first result are inspected. Compare situations and result differences, then open the direct pattern. When the needed fact is unavailable, return that gap rather than choosing from an example.
 - **Public-instance bias.** A README example is filled with project values. Keep public templates context-free; project candidates belong to `E.11.PUA`.
 - **Numbered-entry bias.** Entry order is read as Method order. Use semantic keys and condition-specific continuations.
 - **Record-first bias.** Comparison emits a comparison account by default. Materialize one only for a named receiving reliance.

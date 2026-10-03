@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
-line_start: 11299
-line_end: 11885
+line_start: 11303
+line_end: 11898
 dependencies:
   - "A.10"
   - "A.15"
@@ -452,11 +452,17 @@ These are *writing diagnostics*, not tool requirements.
 
 > **Informative.** Worked examples for learning the L/A/D/E claim-classification discipline; they do not add requirements beyond A.6:7.
 
-#### Tell (universal rule)
+<a id="tell-universal-rule"></a>
+
+#### A.6:5.1 - Tell (universal rule)
+
 
 To support boundary evolvability, separate claims across the signature stack and classify each statement as Law, Admissibility, Deontic duty/commitment/grant, or the boundary's observable-effect/evidence family. An E claim names the exact actual occurrence under its subject predicate and retains the pattern only as a locator: dated Work only when the A.15.1 predicate is satisfied, or A.3/A.3.4 plus the exact interaction or causal predicate for non-Work change. EntityOfConcern, description, and publication carrier remain separate.
 
-#### Show #1 (`U.System`): effectful API boundary (algebraic effects intuition)
+<a id="show-1-usystem-effectful-api-boundary-algebraic-effects-intuition"></a>
+
+#### A.6:5.2 - Show #1 (`U.System`): effectful API boundary (algebraic effects intuition)
+
 
 **System:** A “Payment Authorize” service.
 
@@ -492,7 +498,10 @@ To support boundary evolvability, separate claims across the signature stack and
 * “Clients MUST include Idempotency-Key” belongs in Quadrant D as a normative prescription and should reference the same gate semantics to avoid divergence. It becomes a claim about one obtaining individual `U.Commitment` only after A.2.8 identifies the actual bearer, constitutive rule, required instituting basis, and direct predicate.
 * “System emits AuthorizationRecord” belongs in Quadrant E (an actual event-emission claim).
 
-#### Show #2 (`U.Episteme`): published evaluation protocol boundary (multi‑view + evidence)
+<a id="show-2-uepisteme-published-evaluation-protocol-boundary-multiview--evidence"></a>
+
+#### A.6:5.3 - Show #2 (`U.Episteme`): published evaluation protocol boundary (multi‑view + evidence)
+
 
 **Episteme:** A published “Model Evaluation Protocol” for a safety‑critical classifier.
 

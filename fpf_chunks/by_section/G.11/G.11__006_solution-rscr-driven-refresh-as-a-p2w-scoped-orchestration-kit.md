@@ -6,12 +6,12 @@ section_id: "G.11:4"
 section_title: "Solution — RSCR-driven refresh as a P2W-scoped orchestration kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__006_solution-rscr-driven-refresh-as-a-p2w-scoped-orchestration-kit.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:4 — Solution — RSCR-driven refresh as a P2W-scoped orchestration kit"
-line_start: 118452
-line_end: 118701
+line_start: 119004
+line_end: 119265
 dependencies:
   - "A.6.RCD"
   - "B.3.4"
@@ -212,7 +212,10 @@ These are payload distinctions under existing G.Core trigger kinds, not new trig
 
 Discipline-specific refresh strategies and generator-specific wiring live as `GPatternExtension` blocks. Scheduling, ordering, priority, and budget policy for the refresh queue are not separate extension semantics: `G.11` defines the required policy pins on `RefreshQueue` and `RefreshPlan@Context`, while A.15.2 and A.15.3 keep the WorkPlan and its local content separate from dated Work.
 
-##### G.11:Ext.TriggerAliases
+<a id="g11exttriggeraliases"></a>
+
+##### G.11:4.4.1 - GPatternExtension — G.11:Ext.TriggerAliases
+
 
 **PatternScopeId:** `G.11:Ext.TriggerAliases`
 **GPatternExtensionId:** `TriggerAliases`
@@ -229,7 +232,10 @@ Discipline-specific refresh strategies and generator-specific wiring live as `GP
 **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.FreshnessOrDecayEvent, RSCRTriggerKindId.CrossingBundleEdit, RSCRTriggerKindId.PenaltyPolicyEdit, RSCRTriggerKindId.MaturityRungChange, RSCRTriggerKindId.EvidenceSurfaceEdit}`
 **Notes (wiring-only):** This block **does not define** what `T0…T7` mean; it only preserves the labels and requires docking via `G.Core.TriggerAliasMap.G11`.
 
-##### G.11:Ext.DecayAndDebt
+<a id="g11extdecayanddebt"></a>
+
+##### G.11:4.4.2 - GPatternExtension — G.11:Ext.DecayAndDebt
+
 
 **PatternScopeId:** `G.11:Ext.DecayAndDebt`
 **GPatternExtensionId:** `DecayAndDebt`
@@ -246,7 +252,10 @@ Discipline-specific refresh strategies and generator-specific wiring live as `GP
 **RSCRTriggerKindIds:** `{RSCRTriggerKindId.FreshnessOrDecayEvent, RSCRTriggerKindId.EvidenceSurfaceEdit, RSCRTriggerKindId.BaselineBindingEdit}`
 **Notes (wiring-only):** B.3.4 determines what the trigger means for the use. Continue, narrow, refresh, suspend or an authorized exception remain available where warranted; no Refresh/Deprecate/Waive triad or automatic downgrade is introduced here. Currentness is not assurance of the underlying claim. Budget and priority logic apply only when their interpreted policies are used.
 
-##### G.11:Ext.QDRefreshWiring
+<a id="g11extqdrefreshwiring"></a>
+
+##### G.11:4.4.3 - GPatternExtension — G.11:Ext.QDRefreshWiring
+
 
 **PatternScopeId:** `G.11:Ext.QDRefreshWiring`
 **GPatternExtensionId:** `QDRefreshWiring`
@@ -264,7 +273,10 @@ Discipline-specific refresh strategies and generator-specific wiring live as `GP
 **RSCRTriggerKindIds:** `{RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange}`
 **Notes (wiring-only):** `G.11` does not restate QD semantics; it ensures pins are present so reruns are comparable.
 
-##### G.11:Ext.OEERefreshWiring
+<a id="g11extoeerefreshwiring"></a>
+
+##### G.11:4.4.4 - GPatternExtension — G.11:Ext.OEERefreshWiring
+
 
 **PatternScopeId:** `G.11:Ext.OEERefreshWiring`
 **GPatternExtensionId:** `OEERefreshWiring`

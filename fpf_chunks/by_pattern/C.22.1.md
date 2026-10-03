@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.1.md"
-commit_sha: "e07a40dea520978031e086c2a966e4cc85287a3a"
+commit_sha: "93a8234d2f468675d8dd867bec859e9404213fb5"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
-line_start: 59064
-line_end: 59212
+line_start: 59218
+line_end: 59366
 dependencies:
   - "A.15"
   - "C.19.1"
