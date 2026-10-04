@@ -6,7 +6,7 @@ section_id: "A.18:End"
 section_title: "A.18:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__012_a-18-end.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:End — A.18:End"

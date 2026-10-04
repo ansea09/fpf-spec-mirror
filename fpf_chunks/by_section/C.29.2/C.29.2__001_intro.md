@@ -6,7 +6,7 @@ section_id: "C.29.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__001_intro.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:intro — Intro"
@@ -34,6 +34,6 @@ keywords:
 ## C.29.2 - Computational Formulation
 
 > **Type:** Method pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative when this Method is selected; worked cases retain their stated assumptions.
 

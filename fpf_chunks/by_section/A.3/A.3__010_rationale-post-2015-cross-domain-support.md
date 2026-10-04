@@ -6,7 +6,7 @@ section_id: "A.3:9"
 section_title: "Rationale (post‑2015 cross‑domain support)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__010_rationale-post-2015-cross-domain-support.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:9 — Rationale (post‑2015 cross‑domain support)"

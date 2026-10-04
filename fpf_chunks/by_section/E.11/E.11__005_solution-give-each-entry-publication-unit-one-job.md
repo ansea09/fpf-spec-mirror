@@ -6,7 +6,7 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"

@@ -6,7 +6,7 @@ section_id: "F.18:5"
 section_title: "System-Role-Kind, Assignment, Slot, and Status Naming Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__007_system-role-kind-assignment-slot-and-status-naming-settlement.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:5 — System-Role-Kind, Assignment, Slot, and Status Naming Settlement"

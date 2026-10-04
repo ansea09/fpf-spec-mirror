@@ -6,7 +6,7 @@ section_id: "E.18:8"
 section_title: "Gating Profiles (applied to E.18)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__011_gating-profiles-applied-to-e-18.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:8 — Gating Profiles (applied to E.18)"

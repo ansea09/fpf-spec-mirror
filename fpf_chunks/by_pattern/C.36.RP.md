@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.RP.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
 line_start: 79275
@@ -30,7 +30,7 @@ keywords:
 
 > **Type:** Method pattern
 >
-> **Status:** Draft
+> **Status:** Stable
 >
 > **Normativity:** Normative unless marked informative
 

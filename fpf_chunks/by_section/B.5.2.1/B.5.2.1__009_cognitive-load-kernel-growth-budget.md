@@ -6,7 +6,7 @@ section_id: "B.5.2.1:7"
 section_title: "Cognitive Load & Kernel Growth Budget"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__009_cognitive-load-kernel-growth-budget.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:7 — Cognitive Load & Kernel Growth Budget"

@@ -6,7 +6,7 @@ section_id: "B.5.FM:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__007_bias-annotation.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:6 — Bias-Annotation"

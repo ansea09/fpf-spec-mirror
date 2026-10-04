@@ -6,7 +6,7 @@ section_id: "A.2.6:13"
 section_title: "Conformance Checklist (USM)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__015_conformance-checklist-usm.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:13 — Conformance Checklist (USM)"

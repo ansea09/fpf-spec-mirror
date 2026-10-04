@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.28.MR.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
 line_start: 64744
@@ -23,7 +23,7 @@ keywords:
 ## C.28.MR - Derive an Intervention Consequence by Mechanism Replacement
 
 > **Type:** Method pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### C.28.MR:1 - Problem frame

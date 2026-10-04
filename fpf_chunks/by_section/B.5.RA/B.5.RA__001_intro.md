@@ -6,7 +6,7 @@ section_id: "B.5.RA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__001_intro.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:intro — Intro"
@@ -26,6 +26,6 @@ keywords:
 ## B.5.RA - Recover an Argument for Its Next Use
 
 > **Type:** Method pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 

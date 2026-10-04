@@ -6,7 +6,7 @@ section_id: "C.29.BB:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__003_problem.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:2 — Problem"

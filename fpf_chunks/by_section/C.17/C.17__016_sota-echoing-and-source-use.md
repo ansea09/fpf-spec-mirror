@@ -6,7 +6,7 @@ section_id: "C.17:14"
 section_title: "SoTA-Echoing and source use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__016_sota-echoing-and-source-use.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:14 — SoTA-Echoing and source use"

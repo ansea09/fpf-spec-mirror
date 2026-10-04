@@ -6,7 +6,7 @@ section_id: "A.16.2:17"
 section_title: "What each retreat preserves and withdraws"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__018_what-each-retreat-preserves-and-withdraws.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:17 — What each retreat preserves and withdraws"

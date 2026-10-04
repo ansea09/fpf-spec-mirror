@@ -6,7 +6,7 @@ section_id: "C.13:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__006_solution.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:4 — Solution"

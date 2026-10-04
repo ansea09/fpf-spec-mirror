@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.QD.md"
-commit_sha: "51fc062ab576f61d48174286011e2aa4c2dd4f54"
+commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
 heading_path:
   - "B.5.QD — Develop a New Question from a Result or Construction"
 line_start: 46143
@@ -25,7 +25,7 @@ keywords:
 ## B.5.QD - Develop a New Question from a Result or Construction
 
 > **Type:** Method-description pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 ### B.5.QD:1 - Problem frame
