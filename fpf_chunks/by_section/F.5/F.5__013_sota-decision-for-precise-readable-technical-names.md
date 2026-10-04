@@ -6,12 +6,12 @@ section_id: "F.5:11"
 section_title: "SoTA Decision for Precise, Readable Technical Names"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__013_sota-decision-for-precise-readable-technical-names.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:11 — SoTA Decision for Precise, Readable Technical Names"
-line_start: 106981
-line_end: 106997
+line_start: 106987
+line_end: 107003
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.16:9"
 section_title: "Mini conformance checklist (cross-E-F; author's quick use)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__010_mini-conformance-checklist-cross-e-f-author-s-quick-use.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:9 — Mini conformance checklist (cross-E-F; author's quick use)"
-line_start: 93557
-line_end: 93567
+line_start: 93563
+line_end: 93573
 dependencies:
   - "A.10"
   - "A.13"

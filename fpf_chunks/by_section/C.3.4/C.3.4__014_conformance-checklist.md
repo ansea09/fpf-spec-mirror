@@ -6,12 +6,12 @@ section_id: "C.3.4:12"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__014_conformance-checklist.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:12 — Conformance Checklist"
-line_start: 52372
-line_end: 52386
+line_start: 52374
+line_end: 52388
 dependencies:
   - "A.2.6"
   - "C.2.1"

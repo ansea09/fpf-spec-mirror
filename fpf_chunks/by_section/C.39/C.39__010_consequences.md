@@ -6,12 +6,12 @@ section_id: "C.39:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__010_consequences.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:9 — Consequences"
-line_start: 77503
-line_end: 77506
+line_start: 77509
+line_end: 77512
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.MWA.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
-line_start: 74374
-line_end: 74581
+line_start: 74380
+line_end: 74587
 dependencies:
   - "A.15.1"
   - "A.22"

@@ -6,12 +6,12 @@ section_id: "B.5.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__001_intro.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
   - "B.5.4:intro — Intro"
-line_start: 47392
-line_end: 47399
+line_start: 47394
+line_end: 47401
 dependencies:
   - "A.7.1"
   - "B.5"

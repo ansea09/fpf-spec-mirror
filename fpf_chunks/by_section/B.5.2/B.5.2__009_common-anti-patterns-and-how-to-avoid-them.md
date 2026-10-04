@@ -6,12 +6,12 @@ section_id: "B.5.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 46738
-line_end: 46746
+line_start: 46740
+line_end: 46748
 dependencies:
   - "A.10"
   - "A.16"

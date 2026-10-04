@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.PFAD.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
-line_start: 82037
-line_end: 82418
+line_start: 82043
+line_end: 82424
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -120,7 +120,7 @@ If none of these decisions and no receiving use are present, take the explorator
 For every product alternative, use *product* only as the first management cue. Then compare the direct subjects at the same grain: the exact framework or package episteme, System, service arrangement, Method, programme description, carrier, or other admitted result, and the relations that later work will rely on. Use a quality-management, service-management, publication, or content-management scheme as a probe; use the FPF direct-subject patterns to settle the kind. If an unresolved kind can change the selected answer, keep the product proposed and make that kind the next decision question.
 
 
-#### E.4.PFAD:4.1.1 - Choose a contribution through attainable use and its whole cost
+##### E.4.PFAD:4.1.1 - Choose a contribution through attainable use and its whole cost
 
 Use this construction when the architecture choice turns on who can benefit from the proposed content, how that benefit becomes available, or which uses must change together. It supplies grounds for the compact answer in :4.2; it is not another record or an obligatory study before a small repair. If one adequate route already answers the question without a consequential boundary choice, keep the :4.1 cheap exit.
 

@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__002_use-this-when.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0 — Use this when"
 line_start: 33499
-line_end: 33520
+line_end: 33544
 dependencies:
   - "A.0"
   - "A.19"
@@ -58,4 +58,28 @@ Not this pattern when:
 - you are setting live pool policy, retained-set policy, or enactment/planning posture; use `C.19` or `C.24`;
 - you are defining a new generic view law, viewpoint bundle, or publication-view family rather than one domain-specific interpretive reading; use `A.6.3`, `E.17.0`, `E.17`, or `E.17.1`;
 - the line would change the EntityOfConcern rather than preserve it; use `A.6.4` or the appropriate retargeting pattern.
+
+#### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0.1 - What goes wrong if missed
+
+If this pattern is missed, interpretive-view work usually fails in one of four ways:
+
+- the substrate is forced to carry every inspection question itself, so `A.19.SOURCE-SET-SPACE-SUBSTRATE` starts reading as if it also governed interpretive views, atlas readings, or palette interpretation;
+- the word `view` appears as one fresh local theory, detached from existing `U.EpistemicViewing` and `U.MultiViewDescribing`, so viewpoint, view, and publication face start collapsing again;
+- one atlas-form reading quietly becomes the default meaning of the whole family, so a fuller interpretive form starts redefining the base palette or base source set;
+- or qualifier refs such as `OutcomeMapRef`, `SpaceMetricRef`, `TransitionRelationRef`, and `BridgeDistortionNote` either disappear into vague prose or are promoted into mandatory core everywhere.
+
+The reader then cannot tell whether a visible interpretation is one optional interpretive view, one fuller atlas reading, one publication face, or one new semantic head.
+
+#### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0.2 - What this buys
+
+This pattern buys one disciplined middle layer:
+
+- the substrate remains the semantic center;
+- thinner interpretive views remain admissible when a full atlas form is unnecessary;
+- `DeclaredSubstrateAtlasView` remains available as one fuller reusable specialization, but not as the default head;
+- derived palette or tradition views keep their base palette and base source sets recoverable;
+- active set results, cited spaces, declared map refs, and qualifiers stay recoverable when the current reading uses them;
+- and publication, shipping, and pool-policy questions stay outside the view.
+
+The practical payoff is simple: the reader can use one interpretive view to understand the declared line better without mistaking that interpretive view for the line's ontology, output, or policy.
 

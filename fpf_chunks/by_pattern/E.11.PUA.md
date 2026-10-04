@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.PUA.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
-line_start: 90944
-line_end: 91497
+line_start: 90950
+line_end: 91503
 dependencies:
   - "A.13"
   - "A.15"
@@ -160,7 +160,7 @@ The expectation names the exact result kind, predicate, defining or constraining
 
 A reconsideration names `conditionalNextQuestionPatternLocator` only when that continuation is current. A genuine stop leaves the field absent. No receiver is fabricated merely to complete the trace.
 
-#### E.11.PUA:4.2.1 - Admitted support species and rule-content locators
+##### E.11.PUA:4.2.1 - Admitted support species and rule-content locators
 
 ```text
 PracticalUseQuestion@Context <: U.Episteme
@@ -275,7 +275,7 @@ CandidatePatternUse@Context <: U.Episteme:
 
 The public template is absent when the candidate was formed by direct pattern inspection without a README template. `directSolutionSectionRef` is the Solution section of `directPatternRef`; no redundant solution-MethodDescription ref is retained. A project-tailored MethodDescription is a separate `U.MethodDescription` under A.3.2. If dated Work first constitutes that episteme and the inception claim matters, state the exact A.15.PROD assertion; any derivation or reuse relation to the direct pattern episteme remains separate. Applicability, recommendation, and coordination remain exact E.11.PUR assertions.
 
-#### E.11.PUA:4.4.1 - Rationale subjects stay distinct
+##### E.11.PUA:4.4.1 - Rationale subjects stay distinct
 
 ```text
 CandidatePatternUseRationale@Context <: U.Episteme:
@@ -290,7 +290,7 @@ CandidatePatternUseRationale@Context <: U.Episteme:
 
 Candidate rationale has one candidate subject. The `ClaimGraph` located at `E.11.PUR` defines the coordination-rationale schema over a declared candidate set. The `ClaimGraph` located at `E.11` defines the public-card comparison-rationale schema over one public guidance episteme before a project candidate is constructed. No rationale episteme is a universal bag.
 
-#### E.11.PUA:4.4.2 - Joint-success candidate and its premises
+##### E.11.PUA:4.4.2 - Joint-success candidate and its premises
 
 A candidate proposes using A.9 to compute the probability that both named components succeed, with marginals 0.9 and 0.8. The expected product 0.72 is supported by A.9's joint-success case only when the independence premise and the model's applicability to these events hold.
 

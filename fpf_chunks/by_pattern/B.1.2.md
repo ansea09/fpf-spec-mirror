@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.2.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
-line_start: 39068
-line_end: 39283
+line_start: 39070
+line_end: 39285
 dependencies:
   - "A.1"
   - "A.10"

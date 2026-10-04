@@ -6,12 +6,12 @@ section_id: "G.9:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__002_use-this-when.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:0 — Use this when"
-line_start: 117969
-line_end: 117974
+line_start: 117975
+line_end: 117994
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -51,4 +51,18 @@ keywords:
 - rival method families, method sets, or adaptation paths must be compared under one declared baseline set and freshness window
 - you need parity to publish one reproducible report rather than one opaque benchmark score
 - downstream selection must recover comparator, normalization, bridge, and evidence pins without relying on one hidden scoring sheet
+
+#### G.9:0.1 — What goes wrong if missed
+
+- benchmark reports present numbers from different windows, baselines, or comparator editions as comparable
+- reuse across distinct source-local meanings, a reference-plane crossing, or a normalization mapping stays hidden until a disagreement appears downstream
+- parity flattens a partial order into one scalar winner and silently changes what the comparison means
+
+#### G.9:0.2 — What this buys
+
+- one exact `ParityPlanRef` that fixes the plan edition, baseline, freshness, comparator, and bridge discipline up front
+- one `ParityReport` that cites that exact plan and echoes its active baseline binding, pins, outcomes, and evidence trace by value
+- one harness that downstream selection can consume without inventing a `G.9`-local CSLC gate or a shadow governance card
+
+Illumination, coverage, and regret remain telemetry by default. If they are promoted into dominance, that promotion must be one explicit policy-bound choice rather than one hidden scoring convenience.
 

@@ -6,12 +6,12 @@ section_id: "C.37:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__006_archetypal-grounding.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:5 — Archetypal Grounding"
-line_start: 76950
-line_end: 76977
+line_start: 76956
+line_end: 76983
 dependencies:
   - "A.10"
   - "A.2.4"

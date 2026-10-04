@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.CDI.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
-line_start: 102719
-line_end: 102898
+line_start: 102725
+line_end: 102904
 dependencies:
   - "A.15.1"
   - "A.2.2"

@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.1.CSD.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
 line_start: 3115
@@ -71,7 +71,7 @@ Ask: **Which other Systems may undergo a relevant change, through what supported
 - If the current question is comparison or choice among configurations, use `C.11.CRC` and `C.11` after the needed bearer claims exist.
 - If the domain already has a qualified discovery Method with its own quantities, thresholds, evidence rules, and authority, use that Method; use A.1.CSD only for the shared early discovery result.
 
-### A.1.CSD:0.1 - Precision Restoration
+#### A.1.CSD:0.1 - Precision Restoration
 
 | Expression | Working meaning here |
 | --- | --- |

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.19.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
-line_start: 100034
-line_end: 100826
+line_start: 100040
+line_end: 100832
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -45,11 +45,11 @@ Use it especially when a draft looks structurally compliant but may still fail o
 
 **Not this pattern when.** Use `E.8` to write the pattern body. Use `E.9` to record the content decision that explains why FPF should change. Use `E.9.DA` when the question is whether one exact DRR is adequate for a declared downstream authoring use before drafting or host amendment; its ordinary result may be precise findings or repaired text, while exact C.2.1 and coordinate-result apparatus is conditional on a requested reusable result or named reliance. Use `E.21` for ordinal pattern-quality evaluation of one exact pattern version. Use `E.23` when the aim is repeated quality improvement against an object-under-improvement evaluation rather than one admission or refresh review profile. Use local patterns for the domain rule or constraint being reviewed. Use project gate or release patterns when the question is whether a project publication, work-result record, or release candidate passes a delivery gate. E.19 governs review of FPF pattern admission/refresh only; its profiles and results do not certify the world, project, publication, or release.
 
-### E.19:0.1 - What goes wrong if missed
+#### E.19:0.1 - What goes wrong if missed
 
 Review collapses into heading compliance or personal taste. A draft can pass because it has the right headings while still being hard for a practitioner to recognise, too thin against current practice, unclear about its primary `EntityOfConcern`, relation record, or claim record, or misleading about related patterns and the authority each pattern's content actually carries.
 
-### E.19:0.2 - What this buys
+#### E.19:0.2 - What this buys
 
 `E.19` gives authors, reviewers, and stewards a shared review profile: what must be checked, how deep the check should go, which defects block admission or refresh, and what evidence is needed before a pattern-quality claim is made. It also makes the recognition text visible before the heavier assurance machinery begins.
 
@@ -523,7 +523,7 @@ Selected evidence modes may include:
    still survive after the repair, or has the failure actually been
    removed?
 
-#### E.19:4.3.1 - Tiny golden case bank for regression and worked examples
+##### E.19:4.3.1 - Tiny golden case bank for regression and worked examples
 
 Select a case that exercises the changed entry risk. Cases 1–4 specialize `E.11:5.10`, `E.11:5.8`, `E.11:5.12`, and `E.11:5.9` respectively; `E.11` governs the entry-distribution use, and the direct subject patterns govern the recovered claims. Cases 5–6 add search and retrieval stress under `PCP-ENTRY-E1` and `PCP-ENTRY-E4`. Another relevant E.11 case may be used. Select empirical evidence under `PCP-ENTRY`; unselected cases need no run or absence note.
 
@@ -573,7 +573,7 @@ thin-echo reference check.
 Ordinary local guidance stays prose-only rather than minting one stable
 governing-entry reference by default.
 
-#### E.19:4.3.2 - Common hardening questions are triggered by review need
+##### E.19:4.3.2 - Common hardening questions are triggered by review need
 
 Open a common hardening question when the concern has FPF-governed use, is disputed, or is explicitly invoked by the reviewed pattern or subset. Inspect the relevant source and the reviewed loci. In inspect-repair-verify, repair any defect and verify the affected use; in independent findings, record the defect and repair direction. When the question reveals no defect, make no durable absence or pass recital.
 
@@ -589,7 +589,7 @@ Use these questions only for the selected review concern:
 
 For `PCP-ENTRY`, the ordinary compact pattern-local change note remains enough when the governed discoverability decision requires one; no separate E.19 account is created merely because the profile was checked.
 
-#### E.19:4.3.3 - Pattern-Edition Use-Value Replay
+##### E.19:4.3.3 - Pattern-Edition Use-Value Replay
 
 Use this replay when an exact candidate pattern edition changes materially under `E.8:4.1.2`. Run it once on the stable candidate before acceptance or landing, not after each edit. Start with the bounded E.8 loop over the actual predecessor and proposed prose, then open only each affected prior-edition or candidate-only use whose result can differ, pinned to its exact basis and changed locus. Treat a change as mechanical only when the smallest relevant comparison shows that every materiality value named in `E.8:4.1.2` is preserved. A genuinely bounded local semantic edit opens only its affected use probe and changed wording group; physical rewrite size is not evidence.
 

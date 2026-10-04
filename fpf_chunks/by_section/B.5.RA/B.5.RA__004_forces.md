@@ -6,12 +6,12 @@ section_id: "B.5.RA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__004_forces.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:3 — Forces"
-line_start: 44969
-line_end: 44978
+line_start: 44971
+line_end: 44980
 dependencies:
   - "B.5"
   - "B.5.MPC"

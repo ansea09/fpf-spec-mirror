@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.EA.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "B.5.EA — Articulate a Working Distinction from Experience"
-line_start: 43894
-line_end: 44066
+line_start: 43896
+line_end: 44068
 dependencies:
   - "B.5"
   - "B.5.4"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
-line_start: 90299
-line_end: 90943
+line_start: 90305
+line_end: 90949
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -183,7 +183,7 @@ PracticalUseCardPublicationUnit@FPFReadme:
 
 Use `demonstrativeSliceRef` only when the example independently passes A.22.CGUS admission in its declared illustrative bounded context. Otherwise use an ordinary walkthrough; no rationale record is required merely to say that an explanation is not a CGUS slice.
 
-#### E.11:4.1.1 - Cold-reader recognition and grounded public value
+##### E.11:4.1.1 - Cold-reader recognition and grounded public value
 
 Test every public entry against a first-time engineer, engineer-manager, or assisting agent who has not studied FPF. The heading and first sentence name a recognizable working situation; the next useful sentence names an imaginable first result or blocker and one direct-pattern distinction that changes the next action. PatternIDs, FPF kind names, internal quality language, and exact assurance fields remain later.
 
@@ -191,7 +191,7 @@ A public value claim is grounded when the reader can recover the project need, f
 
 Keep the public set representative of FPF's range. Wording and description repair remain visible but do not dominate architecture, problem shaping, work, comparison, evidence, timing, causal use, mathematics, quality, improvement, framework authoring, system recognition, or system delimitation.
 
-#### E.11:4.1.2 - Recover the direct object before a PatternID is known
+##### E.11:4.1.2 - Recover the direct object before a PatternID is known
 
 Some readers arrive before a practical-use key is recognizable: a familiar relation, project, process, case, context, or problem phrase is already blocking the work, but its direct object is not yet clear. Give such readers an ordinary-language recovery entry before asking them to compare PatternIDs. These entries are independent alternatives, not stages, a required form, or another card set.
 
@@ -421,7 +421,7 @@ PracticalUseEntryComparison@Context <: U.Episteme:
 
 Guidance, practical question, compared result templates or blockers, first-result differences, named reliance, stop, and return remain ClaimGraph content or separate references under their direct patterns; none replaces the C.2.1 identity. Each comparison cites at least one result template or exact blocker from the guidance it evaluates. `claimScopeRef` or `modelUseStructureRef` is present only when the named scope or model-use structure changes the reliance being recorded. Several plausible entries alone do not make this record current. The named reliance may be a later review, replay, audit, automation, or another use that needs addressable comparison history. Retain only the rows that use needs.
 
-#### E.11:4.6.1 - Compare the information the reader actually receives
+##### E.11:4.6.1 - Compare the information the reader actually receives
 
 For a title or cue revision, name the reading operation and compare the material that operation exposes. First discovery, browsing supported working questions, selecting among neighbors and re-finding a known method can need different cues. Understanding an opened body and composing its method with others require the content and relations inside the patterns.
 
@@ -444,7 +444,7 @@ Check both discovery from a working question and re-finding by a useful technica
 
 <a id="i2---choose-a-first-pattern-expanded-entry-disambiguation-cases"></a>
 
-#### E.11:4.6.2 - Resolve a first-pattern ambiguity with a worked comparison
+##### E.11:4.6.2 - Resolve a first-pattern ambiguity with a worked comparison
 
 When a short entry and the candidate's `Problem frame` still leave two different starting points plausible, ask which fact would change the first result you need. A shared topic word is weak discrimination: “contract” may concern recognition or atomic claims; “improvement” may concern a measured rate or causal support. Recover the current object, proposed use and available facts before choosing by that word.
 

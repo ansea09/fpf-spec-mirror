@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.1.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
-line_start: 105445
-line_end: 105925
+line_start: 105451
+line_end: 105931
 dependencies:
   - "A.10"
   - "A.7"
@@ -123,7 +123,7 @@ Identify it under C.2.1 by three values: the ClaimGraph produced by Steps 1–5,
 **Step 7 — Recover only the meanings the work needs.**
 After the cut is stable, create an F.17 local-sense cell only for a retained expression that later reuse, a claim, a named receiver, or an actual relation needs. Do not postpone a meaning needed by Step 3 to this stage, and do not manufacture a cell for every retained source.
 
-#### F.1:4.2.1 - When the cut will support a SoTA claim
+##### F.1:4.2.1 - When the cut will support a SoTA claim
 
 A source cut used to claim SoTA has a stricter role test because source relevance and source currentness do not establish the best-known answer. `E.8:11` owns the FPF definition of SoTA and the meanings of its comparison roles; F.1 neither redefines SoTA nor selects the winning line. For each retained source, record one of those roles in plain wording: **best-known-line candidate**, **serious current rival**, **failure or counterexample evidence**, **official or popular comparator**, **lineage only**, or **identity/currentness only**.
 

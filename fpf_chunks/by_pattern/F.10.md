@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.10.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
-line_start: 108861
-line_end: 109161
+line_start: 108867
+line_end: 109167
 dependencies:
   - "A.10"
   - "A.15.1"

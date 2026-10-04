@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.DUA.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
-line_start: 54003
-line_end: 54259
+line_start: 54007
+line_end: 54263
 dependencies:
   - "A.10"
   - "C.11"
@@ -100,7 +100,7 @@ An inquiry can be useful even if the physical action stays the same. It may esta
 
 For exploratory research, name the explanatory, model-building, hypothesis-discriminating or option-creating gain at the research horizon. A study can earn its cost through those gains before an operational intervention is selected. The direct research method must still connect its attainable observations to that gain.
 
-#### C.11.DUA:4.2.1 - Compare a proposed change with continuing the work
+##### C.11.DUA:4.2.1 - Compare a proposed change with continuing the work
 
 For optional advice to change a way of working, include continuing without that change among the serious alternatives. A useful new contribution can be considered while the present work succeeds and its constraints remain unchanged. Recover what the recipient could gain, on which horizon, and what following the advice would require.
 

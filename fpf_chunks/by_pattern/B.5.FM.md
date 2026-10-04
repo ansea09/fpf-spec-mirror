@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.FM.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
-line_start: 45497
-line_end: 45746
+line_start: 45499
+line_end: 45748
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -79,7 +79,7 @@ Try a consequential variation. If two situations receive the same description bu
 
 For a question about permitted continuations, A.3.3 helps construct a sufficient state description. For an observation, C.16 helps connect the quantity of interest to what the observation reports.
 
-#### B.5.FM:4.2.1 - Let a conceptual scheme expose a useful question
+##### B.5.FM:4.2.1 - Let a conceptual scheme expose a useful question
 
 Start from what the current account is meant to enable, even when the question is provisional: prepare a workshop, interpret an effect or improve a construction. Choose a small, understood conceptual scheme whose relations could reveal a consequential distinction. Here a scheme means related concepts and the inferences their relations permit. For example, connecting a learner's attempt, what an instructor can observe and the feedback required can expose a question that a seating plan leaves unanswered.
 

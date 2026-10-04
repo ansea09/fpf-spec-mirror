@@ -6,12 +6,12 @@ section_id: "E.11.PUR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__005_solution.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:4 — Solution"
-line_start: 91538
-line_end: 91708
+line_start: 91544
+line_end: 91714
 dependencies:
   - "A.10"
   - "A.15"
@@ -102,7 +102,7 @@ When an addressable recommendation is materialized, `expectedResultExpectationRe
 
 When a stronger neighboring pattern better addresses the current question, name it and state the return condition. Populate `strongerNeighborPatternRef` only when the exact pattern identity matters to an addressable recommendation. The reference does not establish formal `U.MethodDescription` membership; such membership requires its own A.3.2 basis. Familiarity with the current candidate is not a recommendation reason.
 
-#### E.11.PUR:4.2.1 - Reuse an earlier result when it still answers the concern
+##### E.11.PUR:4.2.1 - Reuse an earlier result when it still answers the concern
 
 After identifying an applicable candidate use, ask whether an earlier result episteme already answers the present concern. Use the pattern that defines or tests that result to compare:
 

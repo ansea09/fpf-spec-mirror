@@ -6,7 +6,7 @@ section_id: "A.6.RSIG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__005_solution.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
   - "A.6.RSIG:4 — Solution"
@@ -88,7 +88,7 @@ This shape is a review aid, not a mandatory form for every encountered
 description. It exists to keep description, carrier, projection, and definitionEpistemeRef from
 collapsing into one overloaded publication label or projection label.
 
-#### A.6.RSIG:4.2.1 - Minimal local repair and review sequence
+##### A.6.RSIG:4.2.1 - Minimal local repair and review sequence
 
 Use this sequence when authoring or reviewing one recognition-signature repair:
 

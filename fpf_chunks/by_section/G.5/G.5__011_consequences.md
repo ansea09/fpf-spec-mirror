@@ -1,0 +1,64 @@
+---
+chunk_kind: "child"
+pattern_id: "G.5"
+pattern_title: "Method-Family Registry, Dispatch and Selected-Set Result Declaration"
+section_id: "G.5:9"
+section_title: "Consequences"
+source_path: "FPF-Spec.md"
+output_path: "by_section/G.5/G.5__011_consequences.md"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+heading_path:
+  - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
+  - "G.5:9 — Consequences"
+line_start: 116712
+line_end: 116719
+dependencies:
+  - "C.11"
+  - "C.18"
+  - "C.19"
+  - "C.23"
+  - "C.24"
+  - "C.32.P2S"
+  - "C.35"
+  - "E.17"
+  - "E.24.PUB"
+  - "E.4.PFR"
+  - "G.0"
+  - "G.11"
+  - "G.2"
+  - "G.2-G.4"
+  - "G.5"
+  - "G.6"
+  - "G.9-G.11"
+  - "G.Core"
+keywords:
+  - "JointUseSet"
+  - "RankedShortlist"
+  - "SelectorOutcomeKind"
+  - "Shortlist"
+  - "ShortlistId"
+  - "SpecialistHandoff"
+  - "abstain/escalation result"
+  - "are forbidden in registry"
+  - "assurance"
+  - "basis pins"
+  - "dispatcher"
+  - "eligibility"
+  - "generator-family registry"
+  - "in core registry and eligibility fields"
+  - "method-family registry"
+  - "no hidden scalar winner"
+  - "or selector‑kernel obligations (E.5.*)"
+  - "selected-set result declaration"
+  - "set-result outcome"
+  - "tool choices are outside the core"
+---
+
+### G.5:9 - Consequences
+
+* **Auditable plurality.** Multiple Traditions can co-exist without forced semantic flattening; dispatch remains explainable and evidence-pinned.
+* **Core stability.** Universal invariants are pinned through `G.Core`; method innovation and generator innovation do not churn the selector head.
+* **Evolvability.** Registries allow growth, retirement, and refresh with typed RSCR causes and explicit payload pins.
+* **Composability.** Strategy templates and fallbacks remain admissibility-checked and portable across implementations.
+* **Recoverable result content.** Selected-set results can travel downstream as explicit shortlist-family, joint-use, handoff, abstain, or escalation results rather than one hidden implication inside upstream reasoning.
+

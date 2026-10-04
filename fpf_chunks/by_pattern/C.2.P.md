@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.P.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
-line_start: 48408
-line_end: 48931
+line_start: 48410
+line_end: 48933
 dependencies:
   - "A.10"
   - "A.15"
@@ -88,12 +88,12 @@ Changing an FPF pattern is not by itself a reason to use the full check. Use the
 
 **What this buys.** The practitioner recovers the one distinction that matters without building a second ontology or a second review procedure. The final wording still tells a cold reader what to do and where to stop.
 
-### C.2.P:0.1 - What goes wrong if missed
+#### C.2.P:0.1 - What goes wrong if missed
 Episteme-publication-heavy text starts to build a parallel ontology. A generic publication face becomes a `U.View`, a file becomes an episteme, a dashboard tile becomes evidence, a pattern name becomes a procedure, or a slash list becomes a group kind. A broad word such as `source` is especially dangerous because it can hide several different recovery fields: an FPF pattern or `DRR`; a publication field; a document named for source, evidence, architecture, or review use; a reviewed publication, review packet, review record, or review state; a project-side FPF kind and reference named by value; or a relation.
 
 The immediate cost is not only ugly terminology. Engineers and FPF authors start making action, evidence, gate, decision, or engineering-justification claims from the wrong entity, publication, record, relation, or carrier.
 
-### C.2.P:0.2 - What this buys
+#### C.2.P:0.2 - What this buys
 
 `C.2.P` gives one small epistemic precision-restoration move: recover the FPF kind and relation set first, then write wording that preserves the needed distinction without adding another claim. It prevents string-replacement cleanup, keeps FPF-side and project-side episteme and publication work separate, and blocks unclear wording from having FPF-governed use by guesswork.
 

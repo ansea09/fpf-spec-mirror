@@ -1,0 +1,40 @@
+---
+chunk_kind: "child"
+pattern_id: "A.1.CSD"
+pattern_title: "Discovering Systems That May Bear Consequences"
+section_id: "A.1.CSD:End"
+section_title: "A.1.CSD:End"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.1.CSD/A.1.CSD__016_a-1-csd-end.md"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+heading_path:
+  - "A.1.CSD — Discovering Systems That May Bear Consequences"
+  - "A.1.CSD:End — A.1.CSD:End"
+line_start: 3385
+line_end: 3386
+dependencies:
+  - "A.1"
+  - "A.1.SCR"
+  - "A.10"
+  - "A.14"
+  - "A.15.9"
+  - "A.6.RCD"
+  - "B.1"
+  - "B.1.2"
+  - "B.2"
+  - "B.2.2"
+  - "C.11"
+  - "C.11.CRC"
+  - "C.11.DUA"
+  - "C.13"
+  - "C.2.1"
+  - "C.27"
+  - "C.28"
+  - "C.29"
+  - "C.30.ILC"
+  - "D.1"
+keywords:
+---
+
+### A.1.CSD:End
+

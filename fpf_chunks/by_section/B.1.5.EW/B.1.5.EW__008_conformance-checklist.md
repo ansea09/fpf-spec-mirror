@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__008_conformance-checklist.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:7 — Conformance Checklist"
-line_start: 40328
-line_end: 40336
+line_start: 40330
+line_end: 40338
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"

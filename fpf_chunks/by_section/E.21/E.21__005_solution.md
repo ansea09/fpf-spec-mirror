@@ -6,12 +6,12 @@ section_id: "E.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__005_solution.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:4 — Solution"
-line_start: 101271
-line_end: 101625
+line_start: 101277
+line_end: 101631
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -308,7 +308,7 @@ Default floor is `4 wellExpressedForDeclaredUse` on every coordinate for ordinar
 
 An all-`5` result is a local exceptional result under the declared scope and qualification window. It is not a permanent end of development. `E.23` can reopen improvement when use, source, comparison set, front, affordability, or payoff changes.
 
-#### E.21:4.5.1 - Consume Pattern-Edition Use-Value Evidence Noncompensatorily
+##### E.21:4.5.1 - Consume Pattern-Edition Use-Value Evidence Noncompensatorily
 
 When an `E.19:4.3.3` replay is current, use that one stable-candidate replay as evidence for the E.21 assessment. During assessment, keep materially affected predecessor and candidate-only uses distinguishable whenever their action, result, boundary, necessity, or consequence can differ; do not copy clean per-use dispositions into the E.21 result. The evaluator still applies every existing coordinate required by the declared scope once. The result names the replay loci in `EvaluationEvidenceBasis` and carries only distinctions, failures, or improvements that actually change a coordinate rationale or `PatternQualityStatus`; it does not replace the coordinate set with one use-value score, average replay results, or infer a coordinate value from an E.19 outcome.
 

@@ -6,12 +6,12 @@ section_id: "E.11.PFP:section-007"
 section_title: "<FrameworkCode>.Preface:<n>.<m> - <Title>"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__008_frameworkcode-preface-n-m-title.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:section-007 — <FrameworkCode>.Preface:<n>.<m> - <Title>"
-line_start: 92056
-line_end: 92070
+line_start: 92062
+line_end: 92076
 dependencies:
   - "A.3.2"
   - "C.29"

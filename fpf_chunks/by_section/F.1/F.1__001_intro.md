@@ -6,12 +6,12 @@ section_id: "F.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__001_intro.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:intro — Intro"
-line_start: 105445
-line_end: 105457
+line_start: 105451
+line_end: 105463
 dependencies:
   - "A.10"
   - "A.7"

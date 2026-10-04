@@ -6,12 +6,12 @@ section_id: "E.20:4"
 section_title: "Solution — the Mechanism Introduction Protocol (MIP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__005_solution-the-mechanism-introduction-protocol-mip.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:4 — Solution — the Mechanism Introduction Protocol (MIP)"
-line_start: 100903
-line_end: 101128
+line_start: 100909
+line_end: 101134
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -56,7 +56,7 @@ MIP governs **how changes are assigned to their governing definitions**, not how
 
 Only the third outcome uses the manifest in `E.20:4.2`. The first two still name the current governing locus or alias-docking relation when the text will be published. When the only current result is no denotation change, the published content should not carry MIP-run vocabulary except as a short non-trigger note.
 
-#### E.20:4.0.1 - Mint vs reuse
+##### E.20:4.0.1 - Mint vs reuse
 
 **Mints:**
 * **MIP** — Mechanism Introduction Protocol (this pattern).
@@ -210,7 +210,7 @@ If the introduction renames any public token or changes canonical naming:
 2. Update registers and twin labels per lexical discipline.
 3. Avoid silent rewrites: the MIP-run SHALL make the alias relation and successor relation explicit.
 
-#### E.20:4.9.1 - Deprecation / supersession / retirement (preserve citeability)
+##### E.20:4.9.1 - Deprecation / supersession / retirement (preserve citeability)
 
 If the change class includes deprecation, supersession, or retirement (E.20:4.1 #8), the MIP-run SHALL preserve reference continuity while making the status change explicit:
 

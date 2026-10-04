@@ -6,12 +6,12 @@ section_id: "C.22.PFR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__003_problem.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:2 — Problem"
-line_start: 59389
-line_end: 59394
+line_start: 59395
+line_end: 59400
 dependencies:
   - "A.10"
   - "A.15.1"

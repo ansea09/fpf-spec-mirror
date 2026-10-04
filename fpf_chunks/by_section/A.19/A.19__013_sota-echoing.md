@@ -1,0 +1,63 @@
+---
+chunk_kind: "child"
+pattern_id: "A.19"
+pattern_title: "CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
+section_id: "A.19:10"
+section_title: "SoTA-Echoing"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.19/A.19__013_sota-echoing.md"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+heading_path:
+  - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
+  - "A.19:10 — SoTA-Echoing"
+line_start: 32414
+line_end: 32425
+dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.17"
+  - "A.18"
+  - "A.19.CHR"
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
+  - "A.19.ULSAM"
+  - "A.19.UNM"
+  - "A.2.6"
+  - "A.6.5"
+  - "B.1"
+  - "C.16"
+  - "C.2.1"
+  - "E.24"
+  - "F.17"
+  - "F.9"
+  - "G.11"
+  - "G.4"
+  - "U.ClaimScope"
+  - "U.ContextSlice"
+keywords:
+  - "CharacteristicSpace"
+  - "CharacteristicSpacePredicate"
+  - "U.Dynamics.stateSpace"
+  - "coordinatewise comparability"
+  - "declared Characteristics and Scales"
+  - "embedding"
+  - "product"
+  - "reusable state conditions"
+  - "state trajectories"
+  - "structural overlays"
+  - "subspace"
+  - "system-role–Method–Work assertions stay outside A.19"
+---
+
+### A.19:10 - SoTA-Echoing
+
+Measurement and evaluation practice requires explicit variable definitions, subject/input roles, Scales, units, value ranges, partial-input treatment, normalization, and comparability before multi-criteria comparison is meaningful. A.19 adapts that discipline by treating the CharacteristicSpace and its genuine Coordinate values as the declared ontic object, while observation absence, scoring, indicator choice, normalization use, and assurance remain with their direct patterns.
+
+Dynamical-systems and state-space practice supplies the useful hook: a dynamics model needs a declared state space, but the state space does not itself define the law, time base, observation model, or intervention. FPF keeps that boundary so that characteristic-space declarations can be reused across system, episteme, evaluation, and architecture work without smuggling consumer semantics into the space.
+
+#### A.19:12.2 - Source-use basis and currentness
+
+A.19 is primarily internal-kernel doctrine, not an external SoTA-import pattern. The accepted FPF basis for `U.CharacteristicSpace` is the chain of `A.17` for `U.Characteristic`, `A.18` for scale and value discipline, `C.16` for measurement and coordinate evidence, `A.19.UNM` for normalization methods, `C.29` when a mathematical lens is used beyond local space declaration, and `E.24` for ontic-head and slot-relation discipline.
+
+Use G.11 to check source currentness for the named use. Reopen A.19 when a subject pattern changes Characteristic identity, Scale semantics, value-set meaning, subject/input arity, partial-observation discipline, normalization admissibility, comparability, Bridge discipline, mathematical-lens boundary, or ontic slot discipline. Do not reopen A.19 merely because one consumer adds a score table, dashboard, evaluation report, certification interface, or portfolio view that uses the space.
+

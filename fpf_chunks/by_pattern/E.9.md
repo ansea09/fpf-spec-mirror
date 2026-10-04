@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.9.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
-line_start: 85685
-line_end: 86043
+line_start: 85691
+line_end: 86049
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,13 +50,13 @@ keywords:
 
 **Not this pattern when.** Do not use `E.9` as the permanent location of normative Core law, as a campaign or process brief, or as the main vehicle for purely editorial `Delta-0` or `Delta-1` cleanup that fits the lightweight variant in `CC-DRR.5`. Use `E.9.DA` when one concrete `DRR` already exists and the question is whether its selected answer, selected-locus obligations, source use, lexical closure, and drafting actionability are adequate for a declared downstream authoring use.
 
-### E.9:0.1 - What goes wrong if missed
+#### E.9:0.1 - What goes wrong if missed
 
 - Core text changes without one explicit rationale account, so later readers cannot recover which alternatives were rejected or which exclusions were intentional
 - coordinated multi-pattern amendments drift apart because the temporary selected-answer account survives only in patches, handoffs, or reviewer memory
 - future repairs overfit to local wording and silently lose Pillar, taxonomy-lens, impact-graph, practical-use, or pattern-placement discipline
 
-### E.9:0.2 - What this buys
+#### E.9:0.2 - What this buys
 
 - one external decision record that states the bounded FPF change by value before Core text is rewritten
 - one minimum kernel that keeps Problem frame, Decision, Rationale, and Consequences recoverable for later review and replay

@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__013_relations.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:12 — Relations"
-line_start: 40539
-line_end: 40547
+line_start: 40541
+line_end: 40549
 dependencies:
   - "A.3.1"
   - "B.1.5"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
-line_start: 84680
-line_end: 85441
+line_start: 84686
+line_end: 85447
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -71,11 +71,11 @@ Use it especially when a draft is technically correct but hard to use: the cold 
 
 **Not this pattern when.** Use `E.9` when the main work is deciding why FPF should change and how that decision is distributed across patterns. Use `E.19` when the main work is an admission or refresh review. Use the local domain pattern when the question is what FPF says inside that domain rather than how a pattern should be authored.
 
-### E.8:0.1 - What goes wrong if missed
+#### E.8:0.1 - What goes wrong if missed
 
 A pattern can satisfy a checklist and still be practically unreadable. It may open with package architecture instead of a recognisable working moment, bury its payoff, hide the pattern that defines or constrains a specific outside claim, or let assurance prose silently replace the reader-facing claim. The result is a formally neat text that authors can defend but practitioners cannot reliably use.
 
-### E.8:0.2 - What this buys
+#### E.8:0.2 - What this buys
 
 `E.8` gives FPF authors one shared pattern shape and one shared authoring discipline: recognition text first, assurance text second, canonical sections present, terminology kept stable, SoTA used as current practice grounding rather than decoration, and practical consequences visible before a reader has to reconstruct the architecture.
 
@@ -104,7 +104,7 @@ When a pattern claims practical payoff through a visible score or other proxy, n
 
 **Primary working reader.** The first reader is an FPF author or reviewer shaping pattern prose for later practitioners and managers. The downstream practitioner is the reader the pattern must ultimately serve, so the authoring guide must model the same recognition discipline it requires.
 
-### E.8:0.3 - Pattern Kind In Plain Terms
+#### E.8:0.3 - Pattern Kind In Plain Terms
 
 An FPF pattern supplies action- or judgement-guiding content for a recurring working situation. In ordinary phrases such as “use this pattern” and “apply this pattern”, the acting participant is the person or other capable system; the pattern is the guidance that participant uses.
 
@@ -279,7 +279,7 @@ The Alexandrian pattern canon historically calls *Problem frame* “Context”. 
 Route each use directly. Recover source-local meaning through `F.0.1`, use `F.1` to select answer-changing sources, state `ClaimScope` through `A.2.6`, and use `A.1.1` for an admitted bounded-model use. Add `F.17` only when a durable address or basis relation is needed, `F.9` only for an obtaining Bridge between two exact local senses, and the applicable plane relation for a `ReferencePlane` claim. Otherwise leave the relation unasserted rather than inferring it from a shared word, source, or context.
 
 
-#### E.8:4.1.2 - Preserve Pattern Use Value Across Material Revisions
+##### E.8:4.1.2 - Preserve Pattern Use Value Across Material Revisions
 
 A revision is material when the actual change can alter what a working reader recognizes, does, obtains, or must stop doing, regardless of whether the change is labelled as cleanup, clarification, terminology repair, or ontology alignment. Treat the revision as material when it can change at least one of these values:
 
@@ -315,7 +315,7 @@ This rendering explains the pattern; it does not claim that actual work is linea
 
 Do not add a second enumeration taxonomy or a per-member result form. `E.10` may cue a suspicious head or series, `F.19` decides its membership semantics and discourse load, and an exact subject pattern settles any unresolved kind, relation, or normative set.
 
-#### E.8:4.1.3 - Decide Whether a Narrower Contribution Changes Practice
+##### E.8:4.1.3 - Decide Whether a Narrower Contribution Changes Practice
 
 Use this when a broader available contribution and a proposed narrower contribution both appear to answer the same recognizable working situation. State the intended reader, use, and scope. Apply both contributions at comparable effort and find the first difference in what the reader notices or decides, does, needs or checks, obtains, or uses as a stop, return, or retry. A narrower title, domain noun, paraphrase, or extra example is not enough by itself. If no action-changing difference remains, omit or merge the narrower text and point to what already answers the situation. If the two contributions address different situations, state that boundary before deciding their relation.
 
@@ -342,7 +342,7 @@ A tiger-feeding proposal may instead require manager approval and a laboratory c
 
 A result maintained outside the receiving framework may answer the reader's use without becoming part of that framework. In a package-coverage account, count that external result only when the exact result and supplying product, receiving use, practical discovery route, and any material currentness or availability condition are explicit, and say that the result remains external. Otherwise keep the promised family as a gap or omission. When the resulting stable pattern set materially changes a promised problem family, obtain a current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition. Reuse a matching current result when the exact edition, promised families, declared use, relied-on results, and relevant conditions did not change; do not record proof that a revisit happened.
 
-#### E.8:4.1.4 - Carry the content functions across Method-description scales
+##### E.8:4.1.4 - Carry the content functions across Method-description scales
 Begin with the practical explanation developed for its intended use, using C.39:4.5–4.6 and the relevant professional Methods. Framework authoring applies the twelve functions below to make that content understandable, examinable and reusable as a pattern or connected framework account. The general development of a Method does not depend on choosing this format: a sufficient procedure, calculation or ordinary description can serve another receiving use.
 
 Use the twelve substantive functions in the canonical template as authoring questions for a whole FPF, DPF, or LPF and each selected substantive profile. `E.11.PFP:4.7` governs their public answers, inheritance, and placement in the framework's publication units. The same functions can describe a broad Method, a composition of Methods, or a narrower use; the declared subject and applicability determine the scale.
@@ -353,7 +353,7 @@ The same explanation must make recoverable how constituent actions perform encom
 
 The pattern heading, header block, section grammar, and footer apply to each individually declared pattern. The whole-framework account uses the publication form in `E.11.PFP`; its content questions do not turn every publication unit or intermediate group into another pattern. Its Preface subsection headings identify the framework, publication unit and ordinal path through `E.11.PFP:4.7.1`, so an isolated excerpt remains locatable without being classified as a pattern body. Keep generality, specialization, Method composition, reuse, bounded-use projection, and publication grouping explicit under `E.8:4.2.2`. There is no prescribed maximum depth or exclusive-parent rule.
 
-#### E.8:4.1.5 - Choose a title that helps the reader select the pattern
+##### E.8:4.1.5 - Choose a title that helps the reader select the pattern
 
 Choose the title from the working question the body actually answers. Read its `Problem frame`, `Problem`, action-changing `Forces` and `Solution` together. Recover the intended reader, governed object, useful result and nearest non-use boundary before trying shorter wording. The title should let that reader consider the pattern without already knowing an unfamiliar solution name.
 
@@ -399,7 +399,7 @@ is coherent, engaging insight. Engagement remains subordinate to semantic discip
 
 Open with the recognisable working situation and the claim or action that governs the passage. Add history, related patterns, examples, imagery, or a recall line only when it helps the intended reader understand or use that claim. A prerequisite may come first when the reader needs it to interpret the claim or act safely. Apply `F.19` when atmosphere, coordination, or rhetorical scaffolding delays the governing message.
 
-#### E.8:4.2.1 - Recognition text and assurance text
+##### E.8:4.2.1 - Recognition text and assurance text
 Every canonical pattern SHALL stabilise one primary `EntityOfConcern`, relation record, or claim record early enough that a cold reader can tell what kind of thing the pattern is actually governing. If ordinary forms vary (`note`, `sheet`, `guided UI`, `rendering`, `review aid`), the text must make explicit which of those are merely presentation forms of one primary selected EntityOfConcern, relation, or claim and which would instead name a different act, process, work-result record, or governing companion. Recognition and assurance texts may refine that selected item differently, but they must not silently swap the central kind.
 
 If a pattern uses a broad umbrella or head together with a narrower operative branch, the text must also make the stack explicit early enough for first reading: what the broad head names, what the current narrowed branch is, what primary `EntityOfConcern`, relation record, or claim record is actually in play, what exact action assertion and predicate are current, and what wider work or process remains outside the pattern. A qualifier alone does not restore that stack.
@@ -448,7 +448,7 @@ If `SoTA-Echoing` carries an FPF-governed claim, the practical implication of th
 
 Pattern density is therefore not “more metadata” and not “longer tag lists”. It is the presence of enough recognition, assurance, and, when needed, extra didactic material that a reader can understand the pattern, apply it lightly in ordinary cases, and recognise when a heavier review profile is required.
 
-##### E.8:4.2.1.1 - Provide enough explanation for the reader's use without requiring a complete reading
+###### E.8:4.2.1.1 - Provide enough explanation for the reader's use without requiring a complete reading
 
 Use this authoring move when the intended users differ in relevant preparation, when a complete account burdens a current application, or when a compact instruction leaves its selection, adaptation or combination unexplained. The useful result is a sufficient connected reading for the present use, with the fuller content and its actual suppliers still available for the uses the pattern promises.
 
@@ -500,7 +500,7 @@ This construction probe establishes only what that reader could recover and desi
 
 Use existing sections, examples and direct references to organize these paths. `E.11` governs discovery; it does not replace the required explanation with an entry card. `E.14` keeps practical use and assurance connected; it does not defer a condition needed before action. `E.17.EFP` governs faithfulness when selecting or expressing an account: a faithful partial expression can serve a bounded use, while changed claims or a narrower use need their own explicit treatment. No fixed number of reading levels, parallel versions, characters or model-specific editions is required.
 
-#### E.8:4.2.2 - Package-form and neighboring-pattern reference discipline
+##### E.8:4.2.2 - Package-form and neighboring-pattern reference discipline
 
 FPF package-form words and neighbouring-pattern references carry stable meanings. State the actual relation used by the sentence, and use the exact subject pattern when that relation is not recoverable from ordinary wording.
 
@@ -525,7 +525,7 @@ Keep the following package and relation words distinct:
 
 These words are not interchangeable and do not stand in for a missing relation. Say `specialization of … with delta …`, `profile projecting … for use …`, `overlay reading …`, `bundle containing … under membership rule …`, or another exact formulation. A source-defined position name may be reused when the cited content defines that position and the current assertion uses it in that sense; otherwise recover the meaning through `E.10.ROLE` and do not improvise near-synonyms for stylistic variety. The preceding receiving-use discriminator decides whether exact claim-bearing content must also be identified.
 
-##### E.8:4.2.2.1 - Precision-restoration placement discipline
+###### E.8:4.2.2.1 - Precision-restoration placement discipline
 
 When a pattern or companion text is drafted from `E.10` or `E.10.ARCH`, distinguish three authoring objects:
 
@@ -539,7 +539,7 @@ Affected patterns should use a thin pointer when the first-stage wording repair 
 
 If a draft proposes a new precision-restoration pattern, the authoring claim must show the repeated wording failure, `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, the recovered primary `EntityOfConcern` kind or relation/claim record, the intended pattern nest, the neighboring governing relations, and the admissible action left after repair. A new pattern is not justified merely because a word appears often, because a local checklist wants a bucket, or because a campaign needs a tidy grouping.
 
-#### E.8:4.2.3 - Intended-reader discipline for pattern prose
+##### E.8:4.2.3 - Intended-reader discipline for pattern prose
 
 A pattern is written for its intended framework user: the person who uses it to organise thought, investigate a question, change a system, publish a description, or review a result under that pattern.
 
@@ -550,7 +550,7 @@ Its sections explain the described subject, the user's action and result, costs,
 Keep the development history of the current pattern version in its DRR, companion, review, or release material. This includes current arguments for promoting a draft, authority-reference or naming freezes, merge and landing state, and review correspondence. When a development decision contains a durable reason that changes practitioner use, publish that reason with the necessary explanation and source return; retain the dated decision and its evidence in the development record. Users need enough reasoning to understand the choice without reconstructing that record.
 
 
-#### E.8:4.2.4 - Human-facing fit beyond intended-reader correctness
+##### E.8:4.2.4 - Human-facing fit beyond intended-reader correctness
 Human-facing fit is also subject-domain fit. A recognition text that starts from internal taxonomy, pattern-placement convenience, or package-architecture wording before the problem-domain moment is still under-authored even if its later guidance or check text is correct. When a broader umbrella name and a narrower operative branch are both used, the recognition text should also tell the reader which stack is actually active rather than leaving that reconstruction to a later declaration block or companion note.
 
 A pattern can already address the intended reader and keep its boundaries clean, yet still fail the first minute of use for a cold working reader.
@@ -638,7 +638,7 @@ Do not use this pattern merely because the text mentions an API or boundary desc
 First admissible action-guiding result: one `A.6.B`-governed atomic claim set or one Claim Register whose claim/use questions are explicit enough for a reader to inspect using the pattern content that defines or constrains the claim, or a named project-side FPF kind and reference.
 ```
 
-#### E.8:4.2.5 - Design-time and run-time referents stay separated in pattern prose
+##### E.8:4.2.5 - Design-time and run-time referents stay separated in pattern prose
 
 Pattern prose keeps the referents needed by its declared subject and use recoverable. Authoring, review and publication are valid governed subjects; state their actions and rules directly. Distinguish design-time, run-time and normative-publication referents when that distinction changes the claim.
 

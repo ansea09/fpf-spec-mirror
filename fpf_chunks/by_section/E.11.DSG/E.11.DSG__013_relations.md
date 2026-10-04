@@ -6,12 +6,12 @@ section_id: "E.11.DSG:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__013_relations.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:12 — Relations"
-line_start: 92393
-line_end: 92399
+line_start: 92399
+line_end: 92405
 dependencies:
   - "A.14"
   - "C.2.1"

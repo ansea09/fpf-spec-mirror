@@ -6,12 +6,12 @@ section_id: "C.3.4:1"
 section_title: "Purpose"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__003_purpose.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:1 — Purpose"
-line_start: 52203
-line_end: 52206
+line_start: 52205
+line_end: 52208
 dependencies:
   - "A.2.6"
   - "C.2.1"

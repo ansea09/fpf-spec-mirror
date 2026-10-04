@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.DPF.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
-line_start: 82419
-line_end: 83067
+line_start: 82425
+line_end: 83073
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -320,7 +320,7 @@ These are evaluation characteristics for selecting and framing improvement Work.
 
 This episteme's A.3.2 MethodDescription use and its result-and-use account are sufficient only when a reader can answer: which framework episteme edition is being authored; what problem-and-solution architecture it renders; which sources and decisions shaped it; which patterns and material direct relations were selected; which relation or edition records a current maintenance use requires; which publication occurrence, form, carrier, or access relation exposes it; how quality improves; and when it returns for refresh or repair. If the account also claims dated Work or a result relation, identify that claim through its direct pattern; E.4.DPF requires neither claim merely to describe the authoring Method.
 
-#### E.4.DPF:4.0.1 - Return suite and guide proposals to their own decisions
+##### E.4.DPF:4.0.1 - Return suite and guide proposals to their own decisions
 
 Suite constitution and each inclusion or removal are separate decisions under `E.4:4.2` and `E.4.PFAD`. Belonging states collection membership between one DPF product series and the Suite. State field coverage, edition adequacy, dependency or compatibility, maintenance, publication or access, recommendation, and Guide use through their own direct predicates and grounds. A shared carrier, Guide entry, author, or locator may report membership but does not establish it.
 
@@ -328,7 +328,7 @@ An author may propose that a DPF product series join or leave a Suite, or that a
 
 For a dependency, name the dependent and relied-on editions, relied-on content, receiving use, and invalidation or reopen fact. For compatibility, name the edition pair, overlapping use, difference or interface, impact, and reopen condition. Until those facts satisfy `E.4.PFR`, keep the proposed use, constraint, or question. Suite belonging and Guide navigation report their own collection and navigation claims. The current FPF treats product series and the Suite as continuing collections; the complete `A.1` test remains the route for any holon or constructive-part claim.
 
-#### E.4.DPF:4.0.2 - Select practical examples for the product
+##### E.4.DPF:4.0.2 - Select practical examples for the product
 
 Before shaping a DPF or LPF Readme, distinguish three jobs. A compact locator points to a direct pattern when retrieval is enough. An ordinary practical entry shows how one direct pattern or one bounded direct route can answer a comparatively simple difficulty without a mantra. A Practical-Use Card is selected only for a recurring complex difficulty when a repeatable formula materially helps the reader retain a useful path through several direct pattern contributions, checks, and returns.
 
@@ -338,7 +338,7 @@ Keep one declaration for the product. It assigns every selectable example key ex
 
 Use examples selected for that product's readers and recurring questions. Say plainly that they are not a catalogue or coverage boundary and return unmatched questions to the product's index, guide, search, or direct patterns. When both simple direct use and extended cross-pattern use matter to adoption, show representative examples of both without turning every useful topic or pattern set into an entry. Do not copy the FPF key inventory, card count, whitespace-token limits, or optional `@FPFReadme` records, and do not create a rival local card grammar or second key registry. Keep a pattern-local mantra used to recall one pattern's `Solution`, a Readme card mantra used to retain a longer cross-pattern path, and an independently admitted CGUS demonstration distinct. Claims about a Method, performed Work, project result, or stronger relation use their direct patterns and evidence.
 
-#### E.4.DPF:4.0.3 - Keep pattern addresses stable while publication order changes
+##### E.4.DPF:4.0.3 - Keep pattern addresses stable while publication order changes
 
 Before public references accumulate, declare a short, stable code for the DPF and assign one local locator to each pattern. Together the DPF code and local locator form the PatternID. Within that DPF, each PatternID is unique. The code is only a short reference to that named DPF; it need not be globally unique and does not identify an edition. Settle a new durable public abbreviation through `F.18`. If the public DPF code later changes while the same DPF continues, preserve old references through an explicit `F.13`/`F.18` rename or alias relation and a reader return; otherwise say where old-code use stops. Do not silently rewrite old citations. Do not assign the old code to another framework where readers may encounter both sets of citations without the full framework name.
 

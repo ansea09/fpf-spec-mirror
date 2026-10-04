@@ -6,12 +6,12 @@ section_id: "B.5.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__006_archetypal-grounding.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
   - "B.5.4:5 — Archetypal Grounding"
-line_start: 47434
-line_end: 47451
+line_start: 47436
+line_end: 47453
 dependencies:
   - "A.7.1"
   - "B.5"

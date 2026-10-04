@@ -6,12 +6,12 @@ section_id: "C.16.IR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__008_conformance-checklist.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:7 — Conformance Checklist"
-line_start: 55225
-line_end: 55234
+line_start: 55229
+line_end: 55238
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

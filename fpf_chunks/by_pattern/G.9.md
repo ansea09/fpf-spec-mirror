@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.9.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
-line_start: 117965
-line_end: 118516
+line_start: 117971
+line_end: 118522
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -55,13 +55,13 @@ keywords:
 - you need parity to publish one reproducible report rather than one opaque benchmark score
 - downstream selection must recover comparator, normalization, bridge, and evidence pins without relying on one hidden scoring sheet
 
-### G.9:0.1 — What goes wrong if missed
+#### G.9:0.1 — What goes wrong if missed
 
 - benchmark reports present numbers from different windows, baselines, or comparator editions as comparable
 - reuse across distinct source-local meanings, a reference-plane crossing, or a normalization mapping stays hidden until a disagreement appears downstream
 - parity flattens a partial order into one scalar winner and silently changes what the comparison means
 
-### G.9:0.2 — What this buys
+#### G.9:0.2 — What this buys
 
 - one exact `ParityPlanRef` that fixes the plan edition, baseline, freshness, comparator, and bridge discipline up front
 - one `ParityReport` that cites that exact plan and echoes its active baseline binding, pins, outcomes, and evidence trace by value

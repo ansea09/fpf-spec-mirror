@@ -6,12 +6,12 @@ section_id: "C.36.RP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__008_conformance-checklist.md"
-commit_sha: "28bf3bdf302e08b71ba981fb267281a6e1d88f1e"
+commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:7 — Conformance Checklist"
-line_start: 79418
-line_end: 79427
+line_start: 79424
+line_end: 79433
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
