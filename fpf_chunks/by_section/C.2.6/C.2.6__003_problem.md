@@ -6,12 +6,12 @@ section_id: "C.2.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__003_problem.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:2 — Problem"
-line_start: 50494
-line_end: 50496
+line_start: 50520
+line_end: 50522
 dependencies:
   - "A.16"
   - "A.16.0"

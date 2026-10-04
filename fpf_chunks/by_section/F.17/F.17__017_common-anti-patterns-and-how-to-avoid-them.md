@@ -6,12 +6,12 @@ section_id: "F.17:13"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__017_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:13 — Common Anti-Patterns and How to Avoid Them"
-line_start: 111968
-line_end: 111983
+line_start: 112037
+line_end: 112052
 dependencies:
   - "A.1.1"
   - "A.10"

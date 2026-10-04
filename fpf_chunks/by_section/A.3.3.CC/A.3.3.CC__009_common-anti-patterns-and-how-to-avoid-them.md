@@ -6,12 +6,12 @@ section_id: "A.3.3.CC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.CC/A.3.3.CC__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "A.3.3.CC — Construct a Configuration Description under Constraints"
   - "A.3.3.CC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 9978
-line_end: 9988
+line_start: 10004
+line_end: 10014
 dependencies:
   - "A.17"
   - "A.18"

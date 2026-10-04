@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__005_forces.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:3 — Forces"
-line_start: 7590
-line_end: 7600
+line_start: 7616
+line_end: 7626
 dependencies:
   - "A.10"
   - "A.13"

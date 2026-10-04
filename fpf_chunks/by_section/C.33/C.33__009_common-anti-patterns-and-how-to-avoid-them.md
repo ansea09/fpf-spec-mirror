@@ -6,12 +6,12 @@ section_id: "C.33:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 75880
-line_end: 75890
+line_start: 75909
+line_end: 75919
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

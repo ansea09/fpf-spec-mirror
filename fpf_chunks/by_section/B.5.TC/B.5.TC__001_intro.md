@@ -6,12 +6,12 @@ section_id: "B.5.TC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__001_intro.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Working Question"
   - "B.5.TC:intro — Intro"
-line_start: 45945
-line_end: 45950
+line_start: 45971
+line_end: 45976
 dependencies:
   - "B.5.RA"
   - "B.5.RR"

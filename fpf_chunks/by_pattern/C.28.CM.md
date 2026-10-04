@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.28.CM.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
-line_start: 64520
-line_end: 64749
+line_start: 64549
+line_end: 64778
 dependencies:
   - "A.15.9"
   - "B.5.2"

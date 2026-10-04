@@ -6,12 +6,12 @@ section_id: "E.11.DSG:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__008_conformance-checklist.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:7 — Conformance Checklist"
-line_start: 92351
-line_end: 92365
+line_start: 92388
+line_end: 92403
 dependencies:
   - "A.14"
   - "C.2.1"
@@ -44,4 +44,5 @@ keywords:
 | `CC-DSG.8` Derivative boundary | Expression, translation or other derivative, an established edition-continuity relation, language-specific product, and carrier are distinguished by their actual identity, source, scheme, reader-use, and maintenance facts. |
 | `CC-DSG.9` Plain-language whole passage | The complete changed passage can be read by an engineer or manager without reconstructing ontology notation; exact triples and relation terms appear only where they change identification or a stronger claim. |
 | `CC-DSG.10` Current problem-led entry fit | Each entry starts from a real working question, supports necessary branches or honest stops, links out distracting detail, and reflects the intended readers' information need, presentation, availability, and any separately established maintenance fact that changes use. The Reference records what was adopted, adapted, and rejected from current task-guide practice and when to recheck it. |
+| `CC-DSG.11` Addressable complete answers | Every substantive heading has a Reference-local stable section address and is reachable through the contents. Heading levels and addresses agree with the actual answer containment. Complete returns include the selected section and its children; necessary surrounding explanation remains reachable. Earlier saved returns still resolve or have a declared replacement. |
 

@@ -6,12 +6,12 @@ section_id: "A.19.SPR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__004_problem.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:2 — Problem"
-line_start: 32738
-line_end: 32748
+line_start: 32764
+line_end: 32774
 dependencies:
   - "A.10"
   - "A.16"

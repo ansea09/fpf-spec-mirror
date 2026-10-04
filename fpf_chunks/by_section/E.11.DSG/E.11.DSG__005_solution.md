@@ -6,12 +6,12 @@ section_id: "E.11.DSG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__005_solution.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:4 — Solution"
-line_start: 92232
-line_end: 92312
+line_start: 92261
+line_end: 92349
 dependencies:
   - "A.14"
   - "C.2.1"
@@ -76,6 +76,14 @@ ordinary stop or return
 Add a DPF product series' or edition's state, field promise, detailed locator, applicability, evidence, availability, dependency, compatibility, warning, author, or claim-local reopen condition only when it changes the choice, truth, stop, return, or named reliance. Put a genuinely shared boundary once at Reference or section level. Do not repeat empty fields, and do not copy `E.11.PFP`'s framework pattern-index grammar into this non-framework Reference.
 
 Frame each entry around a real working question and the decision or action the reader needs next. Let the answer branch, overlap, or offer several honest stops when the situation does; do not force a false linear procedure. Keep the action-changing answer in the entry and link to detailed sources or explanation instead of repeating them. At Reference level, state whose information need is served, how the publication is presented and made available, how readers return to its sources, and where later review or retirement is decided. Future revision or continued availability requires a separate commitment.
+
+##### E.11.DSG:4.2.1 - Give each answer a stable address and a recoverable extent
+
+Give the Reference its own publication key and each substantive heading a stable section address, for example `Engineering.Reference:2` and `Engineering.Reference:2.1`. These are `SectionRef` values for this Reference, not PatternIDs or a framework identity. Keep one publication title, a contents entry for every substantive heading, and a final `<ReferenceKey>:End` boundary. A structural Contents heading needs no section address. Use a nested contents to make the answer hierarchy visible and every substantive heading reachable.
+
+Make the heading levels express the actual containment of the answers. In a Markdown carrier, a complete addressed section includes its own text and child sections up to the next heading of the same or a higher level, or the document's end boundary. The numbers and heading hierarchy must agree; a number alone does not change the returned extent. Place examples and variations under the explanation whose answer they develop. An independently retrieved example returns to any parent or related explanation needed to interpret it.
+
+Keep an established SectionRef when only the heading title changes. When moving a section beneath another parent requires a different hierarchical path, assign its current SectionRef and explicitly declare the former SectionRef as a return to it. Preserve that return in each claimed access route; do not reuse the former address for another answer. A new answer receives an unused address. Preserve saved heading fragments separately as return aliases: an HTML fragment alias alone does not establish that another access route can resolve the former SectionRef. If a route cannot preserve a return, identify the replacement and the affected reliance before claiming continuity. Check the full contents and complete returned sections, including their children, in each selected presentation or access route. Successful title search establishes findability for that query; stable identity and complete extraction need their own evidence.
 
 #### E.11.DSG:4.3 - Keep lookup Work and the answer separate
 

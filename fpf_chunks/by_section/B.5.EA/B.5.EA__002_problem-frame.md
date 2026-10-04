@@ -6,12 +6,12 @@ section_id: "B.5.EA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__002_problem-frame.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "B.5.EA — Articulate a Working Distinction from Experience"
   - "B.5.EA:1 — Problem frame"
-line_start: 43902
-line_end: 43909
+line_start: 43928
+line_end: 43935
 dependencies:
   - "B.5"
   - "B.5.4"

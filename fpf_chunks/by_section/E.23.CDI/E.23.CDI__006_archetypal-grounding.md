@@ -6,12 +6,12 @@ section_id: "E.23.CDI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__006_archetypal-grounding.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:5 — Archetypal Grounding"
-line_start: 102802
-line_end: 102823
+line_start: 102860
+line_end: 102889
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -45,4 +45,12 @@ In the next five comparable staffed incidents, every handover carried owner, cur
 **Show again — robotic inspection cell.** One calibrated robotic vision cell is the holder System for inspecting machined impellers under the declared lighting, temperature, part-finish, and software-configuration envelope. On 200 representative parts, the current configuration detects 89 percent of the seeded reportable cracks, raises 9 percent false alerts, and takes 40 seconds per part; the account remains current through the named calibration window. The target is at least 97 percent detection, at most 5 percent false alerts, and at most 45 seconds per part while traceability and safety interlocks remain unchanged. The intervention changes optical calibration and the inspection Method with support from the sensor provider.
 
 Across 300 production-like parts over three shifts, the cell reaches 98 percent detection, 4.3 percent false alerts, and 43 seconds per part with no traceability or interlock failure. That transfer result supports a post-intervention capability statement for the tested configuration and window. The provider's work remains separate from the cell's capability. The transfer result does not establish a causal Transformation without an obtaining Work-to-change claim.
+
+**Show the acquisition choice — a rhythmic controller.** This constructed design case extends the A.2.2:6.5 contrast. The controller receives every pulse, including silent pulses, plus an onset indication, and must emit the hand assigned by pulse-wise alternation at each onset. With onsets 0,3,6, one correct first cycle leaves attack-wise and pulse-wise rules indistinguishable. A second cycle or a phase change supplies the missing distinction.
+
+If the requirement is a controller for this fully specified rule and installing an implementation is allowed, choose direct implementation and check its outputs at the required phase and cycle transitions. This obtains a capable configuration without a learning experiment. Its evidence supports the configured controller, not a human performer's coordination.
+
+Now change the requirement: the System must learn changing rule families from examples. Installing the one known rule no longer supplies that capability. A fixed sequence of examples that distinguish the relevant rules is a candidate when the distinction set is known. Adaptive selection becomes a candidate when successive observations can change which examples are useful. Its choice Method must define those observations and changes, and justify its additional effort against the fixed sequence under the same resource boundary. Obtain these premises before selecting it merely for being adaptive.
+
+Suppose a trial learner's training signal improves while it still produces the attack-wise answer at the second cycle. The next action is to check whether the supplied examples and feedback ever distinguish the silent-pulse transition, then add or change that contrast as needed. Keep separate receiving cases for the phase/cycle behavior the claim promises. A successful training update does not settle those cases; a passing case supports only its stated scope. If the holder must retain another rule as well, check that contribution rather than trading it away unnoticed. This comparison specifies a proposed learning use and a response to a stipulated failure; it reports no completed training result.
 

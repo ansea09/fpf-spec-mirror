@@ -6,12 +6,12 @@ section_id: "A.2.2:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__012_consequences.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:11 — Consequences"
-line_start: 4578
-line_end: 4595
+line_start: 4601
+line_end: 4618
 dependencies:
   - "A.1"
   - "A.15"
@@ -20,12 +20,14 @@ dependencies:
   - "C.2.1"
   - "E.23.CDI"
 keywords:
+  - "Method-relative capability"
   - "attained bounds"
   - "capability fit"
   - "currentness"
   - "holder ability"
   - "qualification"
   - "support"
+  - "usable Method structure"
   - "work conditions"
 ---
 

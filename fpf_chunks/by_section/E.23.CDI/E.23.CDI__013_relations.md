@@ -6,12 +6,12 @@ section_id: "E.23.CDI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__013_relations.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:12 — Relations"
-line_start: 102887
-line_end: 102902
+line_start: 102955
+line_end: 102971
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -28,7 +28,8 @@ keywords:
 
 | Pattern | Relation |
 | --- | --- |
-| `A.1`, `A.2.2` | Admit the holder System and govern qualified ability claims, their work conditions and attained bounds, support, qualification and fit. |
+| `A.1`, `A.2.2` | Admit the holder System and govern qualified ability claims, their work conditions and attained bounds, support, qualification and fit. A.2.2:2.1 supplies the Method-relative profile when a missing operation or join changes development. |
+| `C.2.8` | Supplies recovery of selected structure from an expressed account. That result can help locate a missing explanation while capability, acquisition and transfer keep their own evidence. |
 | `A.3.1`, `A.3.2` | Govern the domain Methods and their descriptions used by the development account. |
 | `A.13`, `A.15.1`, `A.2.1`, `F.6` | Govern exact actual-performer recovery and independent admission of performed development and transfer Work. Assignment and F.6 enter only for an expressly consumed precise assignment-bound attribution. Completion of either Work occurrence does not establish a post-intervention capability or actual capability change. |
 | `A.3.4`, `A.6.RCD` | Govern an independently identified actual Transformation and the obtaining direct Work-to-change predicate or supported local claim needed when development Work is said to have caused that change. When neither route is available, keep Work and Transformation separate and return the exact missing-governor blocker. |

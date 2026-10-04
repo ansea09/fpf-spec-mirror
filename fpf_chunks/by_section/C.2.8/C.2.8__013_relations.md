@@ -6,15 +6,16 @@ section_id: "C.2.8:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__013_relations.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "C.2.8 — U.ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:12 — Relations"
-line_start: 51058
-line_end: 51068
+line_start: 51086
+line_end: 51097
 dependencies:
   - "A.17"
   - "A.18"
+  - "A.2.2"
   - "A.6.3.NAR"
   - "C.16"
   - "C.2.1"
@@ -22,6 +23,7 @@ dependencies:
   - "C.29"
   - "C.33"
   - "E.17.EFP"
+  - "E.23.CDI"
 keywords:
   - "bounded observer"
   - "description comparison"
@@ -38,6 +40,7 @@ keywords:
 - **C.2.1 and E.24.PUB:** identity of the expressed episteme, publication form and presentation carrier.
 - **C.2.4:** degree of explicit articulation and its receiving-use thresholds.
 - **C.29:** mathematical-lens correspondence for a formal structural-information estimate.
+- **A.2.2:2.1 and E.23.CDI:4.2.1:** Method-relative capability and the acquisition or provision choice that can consume a recovered Method structure.
 - **C.33:** captured and missing structure, sufficiency and source return for an architecture use.
 - **A.6.3.NAR and E.17.EFP:** narrative construction and explanation-faithfulness uses that consume structural recovery.
 - **C.11.CRC/C.11 and C.37:** marginal comparison and choice, and selection of useful representations.

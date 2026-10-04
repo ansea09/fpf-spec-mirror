@@ -6,12 +6,12 @@ section_id: "E.23.CDI:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__012_sota-echoing.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:11 — SoTA-Echoing"
-line_start: 102871
-line_end: 102886
+line_start: 102938
+line_end: 102954
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -37,6 +37,7 @@ The comparison below asks which current practice changes the capability-developm
 | Organizational dynamic-capability research | *Making sense of dynamic capabilities in international firms: Review, analysis, integration, and extension* (2024), DOI `10.1016/j.ibusrev.2024.102260`, exposes both useful reconfiguration questions and continuing terminology ambiguity across a 98-article international-business corpus. Its strategic constructs can guide an organization-level inquiry, but they do not identify one holder's qualified `A.2.2` ability, measure set, transfer result, or causal relation. The abstraction cost is high for a local development decision. | **Adapt only the changing-environment and reconfiguration cue.** Step 8 reopens the baseline, target, or intervention when the operating environment changes. **Reject** a dynamic-capability label as the holder capability, transfer evidence, or substitute for the direct relations in `CC-E23CDI-6`. |
 | Systems-engineering competency development | INCOSE, *Systems Engineering Competency Framework*, 2nd ed. (2025), supplies 37 tailorable competencies for individual or organizational assessment and development and explicitly expects domain tailoring: `https://www.incose.org/resources-publications/publish-with-incose/competency-framework/`. A competency catalogue can help a systems-engineering domain name candidate contributions and desired levels, but a catalogue level, role label, or assessment row is not the exact holder's bounded capability or representative Work result. Tailoring and assessment also carry real effort. | **Adapt as domain filling.** Step 1 may use the tailored framework to identify relevant SE Methods and contributions; steps 2–3 must still establish the holder-specific envelope, measures, evidence, and target. **Reject** catalogue membership or proficiency labels as transfer proof. |
 | Engineered-system lifecycle practice | ISO/IEC/IEEE 15288:2023 supplies a current common framework for life-cycle process descriptions, iterative and concurrent use, stakeholder involvement, and organizational process improvement, while expressly not prescribing one life-cycle model, development methodology, Method, modeling approach, or technique: `https://www.iso.org/standard/81702.html`. This is a current-standard reference, not evidence that process completion changes one holder's capability. Applying its full process set would be disproportionate for a narrow CDI case. | **Adapt the non-prescription and system-boundary discipline** for technical and hybrid holders and the reopen rule in step 8. **Reject** lifecycle-process conformance, document completion, or a passed stage as capability or transfer evidence; the robotic-cell case still uses its target measures in representative Work. |
+| Computational acquisition control | [Su et al. (2026), §§3–5 and Appendices E/G](https://arxiv.org/html/2608.11746v1) implement EpiSelect and EpiGen: data selection and generator training use epiplexity proxies. Results depend on initialization, resources and receiving task; proxy maximization has no guarantee for true epiplexity. | **Adapt the separation of adaptive action choice, its signal and receiving evidence** in :4.2.1. These algorithms remain computational alternatives, with a fixed sequence or direct provision as applicable comparators. Their results establish neither a human learning mechanism nor an acquired Method-relative profile. |
 
 **Currentness and reopen.** Recheck only the affected row when an official edition changes, a newer systematic review overturns a used transfer or intervention conclusion, the receiving domain supplies a better method at comparable effort, or this pattern changes the baseline, target, transfer, or direct-relation rule carried by that row.
 

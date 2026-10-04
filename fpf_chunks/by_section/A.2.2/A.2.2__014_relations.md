@@ -6,12 +6,12 @@ section_id: "A.2.2:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__014_relations.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:13 — Relations"
-line_start: 4610
-line_end: 4632
+line_start: 4633
+line_end: 4658
 dependencies:
   - "A.1"
   - "A.15"
@@ -20,12 +20,14 @@ dependencies:
   - "C.2.1"
   - "E.23.CDI"
 keywords:
+  - "Method-relative capability"
   - "attained bounds"
   - "capability fit"
   - "currentness"
   - "holder ability"
   - "qualification"
   - "support"
+  - "usable Method structure"
   - "work conditions"
 ---
 
@@ -48,6 +50,9 @@ keywords:
 | `C.27.TA`, `C.27` | Use C.27.TA when a positive temporal aspect of capability—currentness, window, rhythm, or drift—is itself relied on; use C.27 for temporal-claim adequacy. |
 | `C.2.1`, `A.10`, `B.3`, `C.28`, `F.10`, `E.17` | Govern episteme, evidence, assurance, counterfactual, status, and publication-use relations that may justify or qualify a statement or reliance use about a capability claim. |
 | `C.16.P`, `A.19` | Govern characteristic, scale, and characteristic-space recovery when capability measures depend on declared measured aspects. |
+| `A.17`, `A.18`, `C.16` | Govern the relational characteristic, a declared coverage scale and an actual measurement of usable Method structure in :2.1. |
+| `C.2.8` | Governs structure recoverable from an expressed account; that recovery can inform a Method-relative profile without establishing enactment capability. |
+| `E.23.CDI`, `E.23.CAE` | E.23.CDI develops the acquisition or provision choice; E.23.CAE distinguishes apparent loss or failed use from a supported capability change. |
 | `C.25` | Governs composite quality families and Q-Bundles that may supply slots for capability-fit checks. |
 | `C.30`, `C.32.HCS`, `C.32.ACS`, `C.32.ACE` | Govern architecture-characteristic material, project criteria rows, and eval readings that may constrain capability use without thereby establishing the holder's ability. |
 | Promise-content and commitment patterns | Govern outward promise and commitment relations; a promise or commitment claim may cite a capability relation, but capability does not become promise or commitment. |

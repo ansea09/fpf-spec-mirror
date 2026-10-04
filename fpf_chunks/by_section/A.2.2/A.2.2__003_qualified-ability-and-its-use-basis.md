@@ -6,12 +6,12 @@ section_id: "A.2.2:2"
 section_title: "Qualified Ability and Its Use Basis"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__003_qualified-ability-and-its-use-basis.md"
-commit_sha: "f6781cfba40dc2be9f04ff5940f22bc2bc54653e"
+commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:2 — Qualified Ability and Its Use Basis"
 line_start: 4371
-line_end: 4391
+line_end: 4407
 dependencies:
   - "A.1"
   - "A.15"
@@ -20,12 +20,14 @@ dependencies:
   - "C.2.1"
   - "E.23.CDI"
 keywords:
+  - "Method-relative capability"
   - "attained bounds"
   - "capability fit"
   - "currentness"
   - "holder ability"
   - "qualification"
   - "support"
+  - "usable Method structure"
   - "work conditions"
 ---
 
@@ -49,4 +51,20 @@ Use these values when the receiving comparison needs them:
 WorkScope describes work conditions, even when an episteme states them. That episteme's ClaimScope concerns its claims; the two scopes do not become interchangeable. Quantitative bounds and qualification policy remain separate from WorkScope membership. A time condition belongs in WorkScope only when it actually changes which work slices are covered; an evidence-age rule belongs in qualification.
 
 These distinctions permit ordinary capability use without `U.Capability` as an additional kind. A separate kind question arises only if a concrete receiving use needs another individual's continuity or a useful stable classification beyond the holder and these claims; E.24.UK then requires that question's actual identity and membership facts.
+
+#### A.2.2:2.1 - Method-relative capability: the structure the holder can use
+
+Use this more detailed comparison when a person, machine or composite can produce part of a result, yet it is unclear which operation, distinction or connection of the Method it can use. A correct explanation, a supplied decision and successful execution with help can support different claims. Keep the ordinary ability-and-fit answer in :3 when it already settles the receiving question.
+
+Select the Method organization that can change the decision: its consequential operations, distinctions, conditions and joins. Include recognizing when to select the Method, adapting it or composing it with another Method only when the promised contribution requires that. Choose a grain at which a missing relation changes the next action. Separate success at individual operations from success at their coordination.
+
+**Usable Method structure** is the aspect of which selected operations and relations a specified System can bring to bear in named work under stated conditions. As an A.17 relational characteristic it has the ordered bearers `(holder System, Method)`, arity two. The selected structure and granularity, work family, success criteria, relevant time/configuration, ordinary tools, supplied help, execution budget and observation horizon qualify that comparison. A MethodDescription can supply the account or evidence; it does not replace the Method in this pair.
+
+A **Method-relative capability profile** expresses the qualified ability claims at that grain. It can be ordinary prose: identify the supported contribution, the help that supplied another contribution, and the unresolved or contradicted claim. It is an account about the holder, not another capability individual. An unobserved operation remains unresolved rather than becoming zero ability. A successful trial grounds only the capability inference warranted by its conditions and evidence.
+
+Compare profiles only on a compatible selection and conditions. If one covers another's supported organization and adds a consequential relation, it has greater supported structural coverage. Different strengths can remain incomparable. A count or fraction needs a fixed structural unit, denominator and inference rule; separately acquired actions do not add up to an acquired join. Use A.17/A.18 and C.16 for a declared scale or measurement. The resulting coverage is distinct from task value, a universal mastery rank or a bit estimate.
+
+Make assistance part of the claim. If a specialist selects the right variant and the holder executes it, the occurrence does not yet support the holder's selection capability. Removing that specialist changes the tested conditions. Keep tools and references that the receiving work ordinarily provides. If the capable whole is an equipped System or ensemble, state the claim about that whole rather than distributing it to every participant.
+
+Current usable structure says what the holder can do now. **Acquired structure** adds a history claim, requiring comparable before/after capability accounts; attribution to a particular intervention needs its own grounds. **Obtainable through learning** concerns a starting holder and a specified acquisition arrangement, including how later learning actions are chosen. Use E.23.CDI for that construction and E.23.CAE when access, expression or changed conditions remain plausible explanations of the observed difference. Those questions do not add an acquisition arrangement as a third bearer of the current characteristic.
 
