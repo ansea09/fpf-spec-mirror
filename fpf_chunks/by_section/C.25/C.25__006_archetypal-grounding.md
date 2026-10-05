@@ -6,7 +6,7 @@ section_id: "C.25:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__006_archetypal-grounding.md"
-commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
+commit_sha: "2a30ad6bea1190b228cde7e21ebedd6e8fc80cd6"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:5 — Archetypal Grounding"

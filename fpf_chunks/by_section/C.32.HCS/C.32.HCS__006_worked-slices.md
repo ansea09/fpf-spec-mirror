@@ -6,7 +6,7 @@ section_id: "C.32.HCS:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__006_worked-slices.md"
-commit_sha: "9d1e9fa535b9014addd2d1630030762f0d9d2671"
+commit_sha: "2a30ad6bea1190b228cde7e21ebedd6e8fc80cd6"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:5 — Worked slices"
