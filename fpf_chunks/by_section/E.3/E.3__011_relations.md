@@ -6,12 +6,12 @@ section_id: "E.3:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__011_relations.md"
-commit_sha: "2a30ad6bea1190b228cde7e21ebedd6e8fc80cd6"
+commit_sha: "60744ae65f5fd6af60ea1e887878e20abe6be429"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:10 — Relations"
-line_start: 81140
-line_end: 81145
+line_start: 81146
+line_end: 81151
 dependencies:
   - "E.1"
   - "E.2"

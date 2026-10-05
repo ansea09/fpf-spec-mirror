@@ -6,12 +6,12 @@ section_id: "C.37:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__001_intro.md"
-commit_sha: "2a30ad6bea1190b228cde7e21ebedd6e8fc80cd6"
+commit_sha: "60744ae65f5fd6af60ea1e887878e20abe6be429"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:intro — Intro"
-line_start: 76804
-line_end: 76809
+line_start: 76810
+line_end: 76815
 dependencies:
   - "A.10"
   - "A.2.4"

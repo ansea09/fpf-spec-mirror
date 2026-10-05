@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__005_solution.md"
-commit_sha: "2a30ad6bea1190b228cde7e21ebedd6e8fc80cd6"
+commit_sha: "60744ae65f5fd6af60ea1e887878e20abe6be429"
 heading_path:
   - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
   - "E.10.MOVE:4 — Solution"
-line_start: 88796
-line_end: 88927
+line_start: 88802
+line_end: 88933
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -97,7 +97,7 @@ The governed-value ref and kind ref are both present or both absent. `BlockedOve
 After `E.10` selects this pattern, use these cue groups to find the appropriate recovery branch while an action-changing ambiguity remains:
 
 - `move`, `step`, `action`, `application`, `solution`, and `next action`;
-- `readiness`, `ready`, `full kit`, `work entry`, `committed`, and `launch-ready`;
+- `readiness`, `ready`, `full kit`, `work entry`, and `launch-ready`; `commit`, `committed`, `commit checkpoint`, or `commitTrigger` when they hide a route-adoption or work-entry transition;
 - `movement`, `direction`, or `shift` used for an expected evaluation-result change;
 - `route`, `workflow`, `process`, `path`, `trajectory`, `loop`, or `flow` used for an unresolved claim about a path, ordering, or what it represents; use the direct exits below;
 - imported source wording such as TameFlow `MOVE`.

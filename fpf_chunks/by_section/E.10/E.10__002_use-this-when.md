@@ -6,12 +6,12 @@ section_id: "E.10:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__002_use-this-when.md"
-commit_sha: "2a30ad6bea1190b228cde7e21ebedd6e8fc80cd6"
+commit_sha: "60744ae65f5fd6af60ea1e887878e20abe6be429"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:0 — Use this when"
-line_start: 86533
-line_end: 87262
+line_start: 86539
+line_end: 87268
 dependencies:
   - "A.10"
   - "A.15"
@@ -616,12 +616,12 @@ If evidence is being read as engineering justification, gate passage, deontic pe
 
 ##### E.10:0.2c.27 - `authority`, `permission`, `approval`, `commitment`, `obligation`
 
-These are deontic claims or claims carrying an authority-reference relation, not visual or rhetorical properties.
+Use this entry when the recovered claim concerns a duty, permission, approval, or authority relation. The word alone does not establish that claim. For `commit`, `committed`, or `commitment` used for a decision, model choice, or version-control operation, recover that operation under its own rule. Use `E.10.MOVE` only while a route or work-entry transition remains unclear.
 
-Recover:
+Recover the values required by that claim:
 - the beneficiary System or reference required by the selected predicate; if source wording says *role*, apply `E.10.ROLE` and cite a local system-role kind and classification or an obtaining `U.SystemRoleAssignment` occurrence only when that permission or authority predicate actually uses it;
 - speech act or issuing act;
-- commitment record under `A.2.8` for obligation, recommendation-as-duty, or prohibition;
+- individual duty under `A.2.8` for obligation, recommendation-as-duty, or prohibition: its actual bearer, duty content, modality, scope and time, constitutive rule, and required instituting facts; keep any assertion or record about the duty separate from that relation;
 - exact `A.2.8.PER` strong grant, weak non-prohibition/non-violation finding, exercise relation, or permission-conflict finding;
 - policy claim and policy/currentness frame;
 - authority relation;

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.ACS.md"
-commit_sha: "2a30ad6bea1190b228cde7e21ebedd6e8fc80cd6"
+commit_sha: "60744ae65f5fd6af60ea1e887878e20abe6be429"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
-line_start: 73190
-line_end: 73481
+line_start: 73196
+line_end: 73487
 dependencies:
   - "A.1.1"
   - "A.10"

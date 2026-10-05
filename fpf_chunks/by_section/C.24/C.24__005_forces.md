@@ -6,7 +6,7 @@ section_id: "C.24:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__005_forces.md"
-commit_sha: "2a30ad6bea1190b228cde7e21ebedd6e8fc80cd6"
+commit_sha: "60744ae65f5fd6af60ea1e887878e20abe6be429"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:3 — Forces"
@@ -47,7 +47,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | General method vs local shortcut | A scalable approach may improve with data or compute, while a narrow route may be safer or cheaper in the present task. |
-| Exploration vs delivery | A bounded probe may reduce uncertainty, while service and cost limits require commitment or stop. |
+| Exploration vs delivery | A bounded probe may reduce uncertainty, while service and cost limits require a decision to adopt a route or stop. |
 | Assurance vs autonomy | A named high-consequence use may need a bounded assurance result, while ordinary planning should not inherit assurance apparatus. |
 | Description vs enactment | A callable route description helps planning, but it is not the Method, plan, call, or evidence of performance. |
 

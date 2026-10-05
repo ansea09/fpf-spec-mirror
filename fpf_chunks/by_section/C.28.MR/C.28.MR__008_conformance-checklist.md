@@ -6,12 +6,12 @@ section_id: "C.28.MR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__008_conformance-checklist.md"
-commit_sha: "2a30ad6bea1190b228cde7e21ebedd6e8fc80cd6"
+commit_sha: "60744ae65f5fd6af60ea1e887878e20abe6be429"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:7 — Conformance Checklist"
-line_start: 64921
-line_end: 64931
+line_start: 64927
+line_end: 64937
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"

@@ -6,7 +6,7 @@ section_id: "C.24:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__002_use-this-when.md"
-commit_sha: "2a30ad6bea1190b228cde7e21ebedd6e8fc80cd6"
+commit_sha: "60744ae65f5fd6af60ea1e887878e20abe6be429"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:0 — Use this when"
@@ -60,7 +60,7 @@ Do not use it to generate candidates, keep a live pool, choose among unresolved 
 
 - a route is scheduled by an opaque heuristic, so nobody can see which budget is being burned or what should stop it;
 - unresolved choice or pool-policy work is smuggled into a plan;
-- a route description is mistaken for a Method, a plan for performed Work, or a successful probe for committed rollout; and
+- a route description is mistaken for a Method, a plan for performed Work, or a successful probe for a decision to adopt and execute the route; and
 - replanning loses the basis that fixed the action and its conditions.
 
 #### C.24:0.2 - What this buys
@@ -68,7 +68,7 @@ Do not use it to generate candidates, keep a live pool, choose among unresolved 
 - one small, tool-neutral plan that cites the accepted action basis;
 - visible budgets, stop conditions, and replan triggers before calls are made;
 - one replayable call-trace reference after Work occurs; and
-- one bounded checkpoint when more route probing is justified but commitment is not.
+- one bounded checkpoint stating whether to probe again or seek a decision to adopt the proposed route.
 
 **Primary working object.** One `ATC.CallPlan : U.WorkPlan`. Each step selects a `U.Method`. A route description may help locate or constrain that Method, but remains a separate `U.MethodDescription`. Actual calls are dated `U.Work` and remain outside this planning result.
 

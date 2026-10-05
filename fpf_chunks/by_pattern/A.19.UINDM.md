@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.UINDM.md"
-commit_sha: "2a30ad6bea1190b228cde7e21ebedd6e8fc80cd6"
+commit_sha: "60744ae65f5fd6af60ea1e887878e20abe6be429"
 heading_path:
   - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
 line_start: 35465
@@ -279,10 +279,10 @@ For example, an extended Indicatorize may add an optional justification result w
 
 ### A.19.UINDM:10 - Rationale
 
-Indicatorization is separated because it is a different kind of commitment than scoring or comparison:
+Indicatorization is separated because it answers a different question from scoring or comparison:
 
-* Indicatorization commits to **which coordinates are allowed to matter** under policy.
-* Scoring/aggregation/comparison commit to **how** allowed coordinates are transformed, folded, or ordered under admissibility gates.
+* Indicatorization determines **which coordinates may be used** under the indicator-selection policy.
+* Scoring, aggregation, and comparison determine **how** those coordinates are transformed, combined, or ordered under their admissibility conditions.
 
 By making indicatorization selection‑only, UINDM avoids “semantic alchemy” (changing meanings while claiming to merely “pick indicators”) and supports the CHR suite’s broader discipline: explicit spec refs, explicit crossings, and explicit handling of uncertainty via tri‑state guards.
 

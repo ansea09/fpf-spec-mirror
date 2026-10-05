@@ -6,12 +6,12 @@ section_id: "C.32.ADR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__001_intro.md"
-commit_sha: "2a30ad6bea1190b228cde7e21ebedd6e8fc80cd6"
+commit_sha: "60744ae65f5fd6af60ea1e887878e20abe6be429"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:intro — Intro"
-line_start: 75224
-line_end: 75229
+line_start: 75230
+line_end: 75235
 dependencies:
   - "A.10"
   - "A.15"
