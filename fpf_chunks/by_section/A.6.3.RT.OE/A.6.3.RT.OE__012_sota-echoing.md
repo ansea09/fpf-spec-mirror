@@ -6,17 +6,18 @@ section_id: "A.6.3.RT.OE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__012_sota-echoing.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:11 — SoTA-Echoing"
-line_start: 16954
-line_end: 16971
+line_start: 17010
+line_end: 17029
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"
   - "B.5.RC"
   - "B.5.RR"
+  - "B.5.WN"
   - "C.2.8"
   - "C.37"
   - "E.5.2"
@@ -38,6 +39,8 @@ Choose those additional cues when locating that relation is the current difficul
 **Manipulation and interpretation.** Catarina Dutilh Novaes, *Formal Languages in Logic: A Philosophical and Cognitive Analysis* (2012), §§3.2, 5.2 and 6.1, especially pp. 201-203, examines writing used in reasoning and learned symbolic manipulation. **Adapt** the connection between available rules, recipient preparation and operative use. Her discussion makes abstraction from meaning neither necessary nor sufficient for a cognitive gain. This pattern therefore keeps both rule-governed manipulation and the interpretation required by the next use. The source's accounts of human cognition do not establish equal effects for all readers or AI agents.
 
 **Vocal and gestural construction.** David P. Nelson, *Solkattu Manual: An Introduction to the Rhythmic Language of South Indian Music* (2008), printed pp. 17 and 19, supplies the notation comparison above and exercise 7's duration assignments, continuing hand cycle and six-pulse preparation. **Adapt** their coordination in :5.3; the added boundary cues are derived from those durations. The rhythmic Method and learned conventions supply the subject operation. The source's teaching advice and the constructed alignment give bounded support for this use; performance remains subject to its actual execution.
+
+**Exploratory expressions.** The two-column duration comparison in :5.4 preserves the reported numbers but leaves their meanings unresolved. The event table adds source-supported endpoints and permits the waiting/occupation distinction. Its fixed row convention then fails for Q43, whose two attempts require a different unit. Retain useful constraints while revising the one that excludes the relevant history. David Kirsh's [analysis of external representations in problem solving](https://link.springer.com/article/10.1007/s00146-010-0272-8) supports making operations possible through external arrangements; Shipman and Marshall's [analysis of premature formality](https://people.engr.tamu.edu/shipman/formality-paper/harmful.html) supports allowing structure to develop with the work. These are conceptual and historical grounds for the construction, not comparative efficacy evidence for the particular tables. The sufficient existing log remains the lower-burden alternative when it already supports the same operation.
 
 These are conceptual and practice-specific sources for the chosen construction, with the common sequence developed by synthesis. Reopen the choice when an available expression supports the same operation with less preparation, a local repair fails because notation rules are inadequate, or use reveals a consequential relation that the current expression hides.
 

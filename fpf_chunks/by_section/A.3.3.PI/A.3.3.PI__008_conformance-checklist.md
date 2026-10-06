@@ -6,12 +6,12 @@ section_id: "A.3.3.PI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.PI/A.3.3.PI__008_conformance-checklist.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
   - "A.3.3.PI:7 — Conformance Checklist"
-line_start: 10474
-line_end: 10484
+line_start: 10475
+line_end: 10485
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"

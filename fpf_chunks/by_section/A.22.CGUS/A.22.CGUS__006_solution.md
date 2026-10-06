@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__006_solution.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:4 — Solution"
-line_start: 38321
-line_end: 38484
+line_start: 38383
+line_end: 38548
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,6 +63,8 @@ For example, a design review has two alternatives: accept the design or repair i
 | Repair the design | A check failed and a repair proposal exists, but the proposal-to-design relation has not been established. | `unknown — proposal target not established` |
 
 That corrected card is already useful. It keeps both potential alternatives visible and refuses to invent the missing relation. Continue only if a named later use needs formal structure identity or replayable results.
+
+When retaining or handing over this card separately, include the two rules above or a usable return to them so the recipient can reconsider availability after the facts change.
 
 ##### A.22.CGUS:4.1.1 - Conditions through constituent and encompassing work
 

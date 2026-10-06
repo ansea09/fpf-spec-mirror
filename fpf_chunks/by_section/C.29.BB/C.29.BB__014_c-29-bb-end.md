@@ -6,12 +6,12 @@ section_id: "C.29.BB:End"
 section_title: "C.29.BB:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__014_c-29-bb-end.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:End — C.29.BB:End"
-line_start: 67391
-line_end: 67392
+line_start: 67727
+line_end: 67728
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"

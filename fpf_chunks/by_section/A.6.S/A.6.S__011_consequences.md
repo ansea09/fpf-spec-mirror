@@ -6,12 +6,12 @@ section_id: "A.6.S:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__011_consequences.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:9 — Consequences"
-line_start: 22857
-line_end: 22864
+line_start: 22917
+line_end: 22924
 dependencies:
   - "A.15"
   - "A.15.1"

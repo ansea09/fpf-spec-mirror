@@ -6,12 +6,12 @@ section_id: "C.11.CRC:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__007_worked-slices.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:5 — Worked Slices"
-line_start: 53945
-line_end: 53962
+line_start: 54276
+line_end: 54293
 dependencies:
   - "A.1.CSD"
   - "A.10"

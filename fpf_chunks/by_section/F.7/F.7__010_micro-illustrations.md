@@ -6,12 +6,12 @@ section_id: "F.7:9"
 section_title: "Micro-illustrations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__010_micro-illustrations.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:9 — Micro-illustrations"
-line_start: 107551
-line_end: 107581
+line_start: 107978
+line_end: 108008
 dependencies:
   - "A.6.9"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "C.22.2:20"
 section_title: "Worked Slices and Anti-Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__021_worked-slices-and-anti-cases.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:20 — Worked Slices and Anti-Cases"
-line_start: 60247
-line_end: 60304
+line_start: 60578
+line_end: 60640
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,9 +70,14 @@ These rows are recognition slices, not complete Thin cards. Before using one, co
 | Literature-synthesis anomaly before method selection | An anomaly does not fit current category labels. | Preserve rival formulation, EntityOfConcern, evidence need, bridge, representation, or mathematical-lens relation when that relation is being made, and next discrimination action. | The anomaly is not proof for a new theory or a selected research method. |
 | Selected-set candidate before P2W | A retained candidate from a front or pool looks promising. | Preserve `sourceSetRef`, source-set kind, selection or retention criterion, non-scalar next use, and only the currentness or window on which that use relies. | Set membership is not selected-solution proof, priority score, or work authorization. |
 
+<a id="c222-support-source-comparison"></a>
+
 #### C.22.2:20.1a - Compact P2W-ready Disposition Slice
 
 A support team sees repeated failed hand-offs after a new interface policy. The incoming request says "rewrite the escalation workflow." A conforming `ProblemCard` first repairs the problem-side record instead of accepting the work-shaped request.
+
+The first-line entry uses "complete" for sending the case; the specialist entry uses it for accepting the case. Put those two meanings together: the same status names different events. This comparison supplies the question "Which event completes the hand-off?" and identifies the ambiguity retained below. It does not establish the cause of reopening. If both entries instead mean acceptance, this contrast no longer supports an ambiguity claim; retain the reopening signal and reopen the formulation.
+
 
 | Card field | Filled value |
 |---|---|

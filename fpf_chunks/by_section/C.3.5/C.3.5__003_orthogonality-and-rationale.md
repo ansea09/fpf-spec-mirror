@@ -6,12 +6,12 @@ section_id: "C.3.5:2"
 section_title: "Orthogonality and rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__003_orthogonality-and-rationale.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:2 — Orthogonality and rationale"
-line_start: 52451
-line_end: 52460
+line_start: 52779
+line_end: 52788
 dependencies:
   - "A.2.6"
   - "C.2.2"

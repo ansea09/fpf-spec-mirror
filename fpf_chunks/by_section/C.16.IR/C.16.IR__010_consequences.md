@@ -6,12 +6,12 @@ section_id: "C.16.IR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__010_consequences.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:9 — Consequences"
-line_start: 55279
-line_end: 55284
+line_start: 55610
+line_end: 55615
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

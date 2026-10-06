@@ -6,12 +6,12 @@ section_id: "C.22.2:7"
 section_title: "Source Record-Form Recovery"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__008_source-record-form-recovery.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:7 — Source Record-Form Recovery"
-line_start: 60000
-line_end: 60013
+line_start: 60331
+line_end: 60344
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,5 +68,5 @@ Source record names are recovered by use, not by label shape. This section preve
 | Evidence pack, provenance note, assurance row, gate log, autonomy budget, runbook, rollback plan, method selection, work plan, performed-work note, result record, or result measurement | Preserve only the problem-side cue, risk or validation boundary, source reference, and stop condition before that use. | `A.10`, `G.6`, `B.3`, `A.21`, `E.16`, `G.5`, `A.15`, `C.16`, or `G.11` according to the claim named by value. |
 | Candidate solution, described system, ordinary log, budget, ledger, protocol, plan, pack, or factory wording | Recover the use under repair: problem-side source material, problem-side source relation, selected-set material, work, evidence, gate, or autonomy material, or ordinary example. | Apply the subject pattern for the recovered relation; do not mint a local `C.22.2` kind from the label. |
 
-The repair rule is short: if the source material supplies problem-side material, copy the material into the card's current fields. If it supplies another FPF-governed claim, keep only the local cue and apply the pattern that defines or constrains that claim.
+If the source supplies problem-side material, make the needed content available in the card, directly or through an accessible return to the exact source content. The receiving reader must be able to interpret what that return supplies; when the card travels without access to the source, include the content and interpretation needed for its next use. If the source supplies another FPF-governed claim, keep only the local cue and apply the pattern that defines or constrains that claim.
 

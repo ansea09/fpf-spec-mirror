@@ -6,12 +6,12 @@ section_id: "F.7:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__009_invariants.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:8 — Invariants"
-line_start: 107539
-line_end: 107550
+line_start: 107966
+line_end: 107977
 dependencies:
   - "A.6.9"
   - "B.3"

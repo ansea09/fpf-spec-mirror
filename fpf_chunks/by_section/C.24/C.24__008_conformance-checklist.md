@@ -6,12 +6,12 @@ section_id: "C.24:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__008_conformance-checklist.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:7 — Conformance Checklist"
-line_start: 60924
-line_end: 60937
+line_start: 61260
+line_end: 61273
 dependencies:
   - "A.10"
   - "A.15"

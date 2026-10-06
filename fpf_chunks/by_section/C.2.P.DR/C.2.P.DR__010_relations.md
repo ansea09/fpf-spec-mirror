@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__010_relations.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:8 — Relations"
-line_start: 51413
-line_end: 51419
+line_start: 51741
+line_end: 51747
 dependencies:
   - "A.10"
   - "A.15.1"

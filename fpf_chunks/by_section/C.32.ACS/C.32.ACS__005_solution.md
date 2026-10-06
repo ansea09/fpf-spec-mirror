@@ -6,12 +6,12 @@ section_id: "C.32.ACS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__005_solution.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:4 — Solution"
-line_start: 73311
-line_end: 73377
+line_start: 73647
+line_end: 73713
 dependencies:
   - "A.1.1"
   - "A.10"

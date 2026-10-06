@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.9.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
-line_start: 24317
-line_end: 24441
+line_start: 24377
+line_end: 24501
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"

@@ -6,12 +6,12 @@ section_id: "A.11:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__011_consequences.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:6 — Consequences"
-line_start: 25291
-line_end: 25298
+line_start: 25351
+line_end: 25358
 dependencies:
   - "A.6.P"
   - "A.6.RCD"

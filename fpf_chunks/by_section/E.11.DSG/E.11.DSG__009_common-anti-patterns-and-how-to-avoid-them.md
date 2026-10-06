@@ -6,12 +6,12 @@ section_id: "E.11.DSG:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
   - "E.11.DSG:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 92410
-line_end: 92422
+line_start: 92837
+line_end: 92849
 dependencies:
   - "A.14"
   - "C.2.1"

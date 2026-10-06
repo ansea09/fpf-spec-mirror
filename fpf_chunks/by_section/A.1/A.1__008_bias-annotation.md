@@ -6,12 +6,12 @@ section_id: "A.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__008_bias-annotation.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:6 — Bias-Annotation"
-line_start: 2116
-line_end: 2129
+line_start: 2117
+line_end: 2130
 dependencies:
   - "A.1.1"
   - "A.1.STM"

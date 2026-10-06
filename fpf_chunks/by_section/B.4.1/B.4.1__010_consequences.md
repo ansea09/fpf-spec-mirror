@@ -6,12 +6,12 @@ section_id: "B.4.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__010_consequences.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:9 — Consequences"
-line_start: 43489
-line_end: 43491
+line_start: 43553
+line_end: 43555
 dependencies:
   - "A.15"
   - "A.16"

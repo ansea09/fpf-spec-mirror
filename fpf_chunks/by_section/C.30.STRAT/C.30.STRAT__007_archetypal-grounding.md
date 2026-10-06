@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__007_archetypal-grounding.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:5 — Archetypal Grounding"
-line_start: 69253
-line_end: 69260
+line_start: 69589
+line_end: 69596
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.4.DPF:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__002_problem-frame.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:1 — Problem frame"
-line_start: 82466
-line_end: 82473
+line_start: 82802
+line_end: 82809
 dependencies:
   - "A.1.1"
   - "A.13"

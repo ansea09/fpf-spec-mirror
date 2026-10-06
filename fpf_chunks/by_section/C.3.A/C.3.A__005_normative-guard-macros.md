@@ -6,12 +6,12 @@ section_id: "C.3.A:4"
 section_title: "Normative guard macros"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__005_normative-guard-macros.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:4 — Normative guard macros"
-line_start: 52632
-line_end: 52729
+line_start: 52960
+line_end: 53059
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -59,11 +59,12 @@ The subkind direction above is contravariant only for restricting a universally 
 `Guard_CandidateUse(C, candidate, k_claim, claimSignatureEdition, k_receive, receiveSignatureEdition, TargetSlice)` SHALL:
 
 1. identify the candidate under its direct governor before classification;
-2. satisfy `Guard_TypedClaim` for the same claim-kind and receiving-kind editions and slice;
-3. evaluate `J(candidate, k_receive, receiveSignatureEdition, TargetSlice)`;
+2. perform the declaration, kind-compatibility, and Scope/time checks in `Guard_TypedClaim` steps 1–3 for the same editions and slice;
+3. check receiving admissibility; refuse on `not-applicable` without forming a judgment, otherwise evaluate `J(candidate, k_receive, receiveSignatureEdition, TargetSlice)`;
 4. continue candidate-bearing use only on `true`: for a proper subkind, the already established `SubkindOfObtains(k_receive, k_claim; RS)` supplies the monotone claim-kind consequence; for a bridged use, rely only through the obtaining KindBridge and its current assertion, without inventing a source-context candidate judgment;
-5. refuse on known `false` while retaining that value; and
-6. refuse on `unknown` while retaining the missing dependency or unavailable support reason.
+5. refuse on known `false` while retaining that value;
+6. refuse on `unknown` while retaining the missing dependency or unavailable support reason; and
+7. for a `true` receiving judgment, complete the R, freshness, and policy checks in `Guard_TypedClaim` steps 4–6 before allowing use.
 
 Evidence may support a classification assertion, but record presence, bridge presence, or guard invocation MUST NOT make the candidate satisfy the receiving criterion. When `k_claim` and `k_receive` are identical under one declaration edition, record that identity and evaluate the candidate once.
 
@@ -78,8 +79,8 @@ Evidence may support a classification assertion, but record presence, bridge pre
    - the kinds are identical or `SubkindOfObtains(k_A, k_B; effectiveReferenceScheme)` holds; or
    - for a bridged flow, an obtaining KindBridge maps `k_A` to exact, independently identified distinct target-side kind `k_A'`, its separate assertion carries the current mapping and loss basis, and `k_A'` is identical to `k_B` or `SubkindOfObtains(k_A', k_B; targetReferenceScheme)` holds;
 3. compute serial scope as the intersection of the two governed scopes and require coverage of `TargetSlice`;
-4. route bridge consequences to R and check freshness separately; and
-5. when an actual produced candidate enters B, evaluate `J(candidate, k_B, edition_B, TargetSlice)` and continue only on `true`, preserving `false` and `unknown` separately from refusal.
+4. when an actual produced candidate enters B, check admissibility and evaluate `J(candidate, k_B, edition_B, TargetSlice)` only for an admissible request; continue only on `true`, retaining `not-applicable`, `false`, and `unknown` as distinct refusal grounds; and
+5. route justified bridge consequences to R and check freshness before allowing use.
 
 Declaration compatibility alone MUST NOT classify a future or actual output. Scope widening MUST NOT repair a type mismatch. The universal-claim variance rule in `Guard_TypedClaim` does not reverse this producer-to-consumer direction.
 
@@ -90,11 +91,12 @@ Declaration compatibility alone MUST NOT classify a future or actual output. Sco
 `Guard_MaskedUse(artifact, candidate, kind, kindSignatureEdition, roleMaskEdition, TargetSlice)` SHALL:
 
 1. recover the exact C.2.1 RoleMask declaration episteme, its base kind, pinned base signature edition, intended use, candidate-feature constraints, bindings, dependencies, and definedness;
-2. check artifact scope separately through USM;
-3. evaluate `J_mask(candidate, kind, kindSignatureEdition, roleMaskEdition, TargetSlice)`;
-4. continue only on `true`, refuse while preserving known `false`, and fail closed while preserving `unknown`;
-5. keep context predicates out of the candidate-feature criterion; and
-6. for cross-context use, compare base-kind identity and recover target declarations; when this use requires a correspondence between distinct kinds, establish the KindBridge relation and assertion under C.3.3; recover any separate `MaskAdapter` declaration episteme before evaluating the target masked judgment.
+2. for cross-context use, compare base-kind identity and recover target declarations; when this use requires a correspondence between distinct kinds, establish the KindBridge relation and assertion under C.3.3 and recover any needed `MaskAdapter` declaration;
+3. check artifact scope separately through USM;
+4. check receiving admissibility; refuse on `not-applicable` without forming a judgment, otherwise evaluate `J_mask(candidate, kind, kindSignatureEdition, roleMaskEdition, TargetSlice)`;
+5. continue only on `true`, refuse while preserving known `false`, and fail closed while preserving `unknown`;
+6. keep context predicates out of the candidate-feature criterion; and
+7. apply any justified bridge consequence to R and complete required freshness and policy checks before allowing use.
 
 A mask name is not a kind synonym. Repeated mask use can trigger review for a separately identified local kind and independently obtaining `U.SubkindOf` relation; no guard or catalog action performs that admission.
 
@@ -105,9 +107,9 @@ A mask name is not a kind synonym. Repeated mask use can trigger review for a se
 For each line, the guard SHALL:
 
 1. recover the same governed claim, quantified kind, and signature edition;
-2. satisfy declaration-level typed admission in that line's slice;
-3. when a line's evidence is candidate-specific, bind each exact candidate and its exact judgment rather than treating a row label as classification;
-4. preserve line-specific bridge consequences and freshness;
+2. perform the declaration, kind-compatibility, and Scope/time checks in `Guard_TypedClaim` steps 1–3 for that line's slice;
+3. when a line's evidence is candidate-specific, bind each exact candidate, check admissibility, and retain its judgment when admissible;
+4. complete that line's R, freshness, and policy checks, preserving its bridge consequences;
 5. provide the USM independence justification; and
 6. include no slice outside the union of covered line scopes.
 
@@ -119,13 +121,13 @@ If lines quantify over genuinely different kinds, normalize through separately j
 
 `Guard_XContext_Typed(C, sourceKind, sourceSignatureEdition, targetKind, targetSignatureEdition, TargetSlice, candidate?)` SHALL:
 
-1. when the receiving claim requires Scope translation, recover the obtaining Scope Bridge and its applicable congruence assessment, the separate affirmative translation-use claim, and the current reliance branch under A.2.6;
-2. compare source and target kind identity and establish the receiving use's declaration-level compatibility under §4.1; if that compatibility relies on a directional correspondence between distinct kinds, recover an obtaining KindBridge relation with exact source/target kind participants and its separate bridge assertion with pinned scheme/signature editions, mapping rule, definedness, `CL^k`, loss, evidence, and admitted use;
-3. recover the independently identified target `KindSignature` edition;
-4. require Claim scope, translated when needed, to cover `TargetSlice`;
-5. when an actual candidate is current, evaluate the fresh target judgment `J(candidate, targetKind, targetSignatureEdition, TargetSlice)` and preserve all three values;
-6. apply the justified scope- and kind-bridge consequences to R only; and
+1. compare source and target kind identity and establish declaration-level compatibility under §4.1 steps 1–2; if that compatibility relies on a directional correspondence between distinct kinds, recover the obtaining KindBridge and its assertion with pinned scheme/signature editions, mapping, definedness, `CL^k`, loss, evidence, and admitted use;
+2. recover the independently identified target `KindSignature` edition;
+3. when the receiving claim requires Scope translation, recover the obtaining Scope Bridge and its applicable congruence assessment, the separate affirmative translation-use claim, and the current reliance branch under A.2.6;
+4. require Claim scope, translated when needed, to cover `TargetSlice` with explicit `Gamma_time`;
+5. when an actual candidate is current, check receiving admissibility and evaluate `J(candidate, targetKind, targetSignatureEdition, TargetSlice)` only for an admissible request; continue candidate-bearing use only on `true`, retaining `not-applicable`, `false`, and `unknown` as distinct refusal grounds;
+6. apply only justified scope- and kind-bridge consequences to R and complete required freshness and policy checks; and
 7. make the separate allow/refuse decision.
 
-A source judgment may support reliance but MUST NOT be copied as target truth. If no candidate is current, the guard ends at declaration-level compatibility and scope; it does not fabricate one.
+A source judgment may support reliance but MUST NOT be copied as target truth. When no candidate is current, omit step 5 and complete the declaration-level use without forming a candidate judgment.
 

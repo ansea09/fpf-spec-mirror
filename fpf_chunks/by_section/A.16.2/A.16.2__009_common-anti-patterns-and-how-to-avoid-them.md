@@ -6,12 +6,12 @@ section_id: "A.16.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 31594
-line_end: 31600
+line_start: 31656
+line_end: 31662
 dependencies:
   - "A.16"
   - "A.16.0"

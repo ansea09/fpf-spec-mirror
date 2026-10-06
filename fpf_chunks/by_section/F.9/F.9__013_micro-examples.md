@@ -6,12 +6,12 @@ section_id: "F.9:11"
 section_title: "Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__013_micro-examples.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:11 — Micro-examples"
-line_start: 108388
-line_end: 108397
+line_start: 108815
+line_end: 108824
 dependencies:
   - "A.10"
   - "A.13"

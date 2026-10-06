@@ -6,12 +6,12 @@ section_id: "C.21:12.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__015_sota-echoing.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:12.1 — SoTA-Echoing"
-line_start: 58828
-line_end: 58837
+line_start: 59159
+line_end: 59168
 dependencies:
   - "A.10"
   - "A.17"

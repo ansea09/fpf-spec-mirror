@@ -6,12 +6,12 @@ section_id: "C.32:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__003_problem.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:2 — Problem"
-line_start: 72382
-line_end: 72395
+line_start: 72718
+line_end: 72731
 dependencies:
   - "A.10"
   - "A.15"

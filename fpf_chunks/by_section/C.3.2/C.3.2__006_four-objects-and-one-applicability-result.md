@@ -6,12 +6,12 @@ section_id: "C.3.2:4"
 section_title: "Four Objects and One Applicability Result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__006_four-objects-and-one-applicability-result.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:4 — Four Objects and One Applicability Result"
-line_start: 51817
-line_end: 51829
+line_start: 52145
+line_end: 52157
 dependencies:
   - "A.14"
   - "A.2.6"

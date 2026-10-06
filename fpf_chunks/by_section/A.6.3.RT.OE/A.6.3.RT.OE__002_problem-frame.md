@@ -6,17 +6,18 @@ section_id: "A.6.3.RT.OE:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__002_problem-frame.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:1 — Problem frame"
-line_start: 16743
-line_end: 16754
+line_start: 16744
+line_end: 16755
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"
   - "B.5.RC"
   - "B.5.RR"
+  - "B.5.WN"
   - "C.2.8"
   - "C.37"
   - "E.5.2"
@@ -25,11 +26,11 @@ keywords:
 
 ### A.6.3.RT.OE:1 - Problem frame
 
-Use this pattern when the available content and notation do not yet give the practitioner an expression with which to perform the needed operation. A diagram contains the right objects but obscures their shared parts. An instruction groups alternatives differently from the work it should guide. A rhythmic phrase has known durations but its entry against a recurring cycle is hard to follow.
+Use this pattern when the available content and notation do not yet give the practitioner an expression with which to perform the needed operation. A diagram contains the right objects but obscures their shared parts. An instruction groups alternatives differently from the work it should guide. A rhythmic phrase has known durations but its entry against a recurring cycle is hard to follow. Two reports may suggest a difficulty before the practitioner has obtained the distinction or question needed to investigate it.
 
 An **operative expression** is an expression prepared for a specified use: calculating, comparing, inferring, constructing or coordinating an action. Its signs can be written, drawn, spoken or gestural. The selected notation supplies their formation and interpretation rules; the subject Method supplies the operation to perform.
 
-**First useful move.** Name one operation that should become possible, then identify the parts of the content that must be examined together for that operation. To compare the sides of a constructed triangle, keep each segment recognizable both as a triangle side and as a radius of the circle used to construct it.
+**First useful move.** Select one attainable operation, even provisionally, then identify the parts of the content that must be examined together. When the final question is unknown, compare two available cases or separate their observed events; use what this attempt reveals to develop that question. To compare the sides of a constructed triangle, keep each segment recognizable both as a triangle side and as a radius of the circle used to construct it.
 
 The result is a usable expression and the interpretation needed for its next use. A representation change can also need A.6.3.RT's comparison with the source. Any new subject result obtained while using the expression has its own construction or argument.
 

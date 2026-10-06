@@ -6,12 +6,12 @@ section_id: "E.7:End"
 section_title: "E.7:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__011_e-7-end.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "E.7 — Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases"
   - "E.7:End — E.7:End"
-line_start: 84719
-line_end: 84720
+line_start: 85055
+line_end: 85056
 dependencies:
   - "E.5.4"
   - "E.6"

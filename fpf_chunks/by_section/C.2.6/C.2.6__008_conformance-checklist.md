@@ -6,12 +6,12 @@ section_id: "C.2.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__008_conformance-checklist.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:7 — Conformance Checklist"
-line_start: 50569
-line_end: 50574
+line_start: 50889
+line_end: 50894
 dependencies:
   - "A.16"
   - "A.16.0"

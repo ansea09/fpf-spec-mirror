@@ -6,12 +6,12 @@ section_id: "B.5.FM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__010_consequences.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:9 — Consequences"
-line_start: 45731
-line_end: 45736
+line_start: 46051
+line_end: 46056
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

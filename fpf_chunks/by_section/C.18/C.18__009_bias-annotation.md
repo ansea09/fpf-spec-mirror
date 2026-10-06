@@ -6,12 +6,12 @@ section_id: "C.18:7"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__009_bias-annotation.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:7 — Bias-Annotation"
-line_start: 57316
-line_end: 57319
+line_start: 57647
+line_end: 57650
 dependencies:
   - "A.15"
   - "A.19"

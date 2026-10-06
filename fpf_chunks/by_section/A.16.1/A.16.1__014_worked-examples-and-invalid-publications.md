@@ -6,12 +6,12 @@ section_id: "A.16.1:13"
 section_title: "Worked Examples and Invalid Publications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__014_worked-examples-and-invalid-publications.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:13 — Worked Examples and Invalid Publications"
-line_start: 31381
-line_end: 31399
+line_start: 31443
+line_end: 31461
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -38,16 +38,16 @@ keywords:
 
 ### A.16.1:13 - Worked Examples and Invalid Publications
 
+<a id="a161-operator-cue-pack-example"></a>
+
 #### A.16.1:13.1 - Operator cue pack
-A valid operator-facing cue pack might preserve:
 
-- one cue nucleus around a disturbance/work-or-intervention possibility tension,
-- a primary witness trace,
-- candidate anchors from recent operator work step and system response,
-- lane candidates toward intervention, inquiry, and rollback,
-- but no selected route and no final gate decision.
+The nucleus can emerge from arranging the available material. Put the T17 events in time order: "Three timeouts during 09:00–09:02 after restart; a successful request at 09:04." Their contrast supplies the question "Which conditions differed between the failed and successful requests?"
 
-This is admissible because it preserves early significance without pretending the cue is already a route record, a gate, method, or work record.
+An ordinary incident note can keep that line with the question and the reason for preservation: the different outcomes need to remain visible while their cause and next route are open. T17 is the primary witness. The note preserves this cue without selecting a route or publishing a causal conclusion.
+
+If an existing incident note already carries this content and the source return, use it directly. On separate hand-off, keep the meaning of the cue in the note. A reference can supply further details when the recipient can access the exact source content and interpret it; otherwise include the details needed for the next use.
+
 
 #### A.16.1:13.2 - Inquiry cue pack
 An inquiry cue pack may preserve exemplars, contrasts, a felt or trace-anchored discrepancy cue nucleus, and candidate anchor fragments. This is admissible even before route publication is needed or an under-specified relation-bearing claim requires `A.6.P`.

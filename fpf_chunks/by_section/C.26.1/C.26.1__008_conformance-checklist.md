@@ -6,12 +6,12 @@ section_id: "C.26.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__008_conformance-checklist.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:7 — Conformance Checklist"
-line_start: 62282
-line_end: 62301
+line_start: 62618
+line_end: 62637
 dependencies:
   - "A.1.1"
   - "A.10"

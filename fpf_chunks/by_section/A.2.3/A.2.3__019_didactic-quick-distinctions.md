@@ -6,12 +6,12 @@ section_id: "A.2.3:12"
 section_title: "Didactic quick distinctions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__019_didactic-quick-distinctions.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:12 — Didactic quick distinctions"
-line_start: 5159
-line_end: 5168
+line_start: 5160
+line_end: 5169
 dependencies:
   - "A.1.1"
   - "A.10"

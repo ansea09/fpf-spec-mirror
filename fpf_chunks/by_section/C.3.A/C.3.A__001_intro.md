@@ -6,12 +6,12 @@ section_id: "C.3.A:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__001_intro.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:intro — Intro"
-line_start: 52579
-line_end: 52597
+line_start: 52907
+line_end: 52925
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -45,7 +45,7 @@ keywords:
 - **C.3/C.3.1:** exact local kinds and obtaining `U.SubkindOf` relations.
 - **C.3.2:** `KindSignature` declaration epistemes, candidate/slice admissibility, `J(candidate, kind, signatureEdition, slice)`, `true`/`false`/`unknown`, and optional extension representations.
 - **C.3.3:** obtaining `KindBridge` relations and separate bridge-assertion epistemes carrying `CL^k`, loss, evidence, definedness, and admitted use.
-- **C.3.4:** `RoleMask` and `MaskAdapter` declaration epistemes and `J_mask(candidate, kind, kindSignatureEdition, roleMaskEdition, slice)`.
+- **C.3.4:** `KindUseAdaptationDeclaration`, `KindUseAdaptationCorrespondenceDeclaration`, and `J_kindUse`. This annex abbreviates them as `RoleMask`, `MaskAdapter`, and `J_mask`, respectively; `roleMaskEdition` names the adaptation-declaration edition. Thus `J_mask(candidate, kind, kindSignatureEdition, roleMaskEdition, slice)` retains C.3.4's five inputs.
 - **C.3.5:** KindAT as an editorial facet forbidden in guards.
 - **C.2.2/C.2.3 and Part B:** F–G–R, formality on the owning episteme, bridge consequences, and scope congruence.
 - **A.15/A.15.1:** the separation of capability, plan, exact actual Work occurrence, and every episteme about it.

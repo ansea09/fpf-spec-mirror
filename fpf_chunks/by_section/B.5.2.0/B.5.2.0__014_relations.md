@@ -6,12 +6,12 @@ section_id: "B.5.2.0:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__014_relations.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:12 — Relations"
-line_start: 47057
-line_end: 47060
+line_start: 47377
+line_end: 47380
 dependencies:
   - "A.16"
   - "A.16.0"

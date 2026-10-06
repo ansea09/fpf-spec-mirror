@@ -6,17 +6,18 @@ section_id: "A.6.3.RT.OE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__006_archetypal-grounding.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:5 — Archetypal Grounding"
-line_start: 16842
-line_end: 16912
+line_start: 16863
+line_end: 16968
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"
   - "B.5.RC"
   - "B.5.RR"
+  - "B.5.WN"
   - "C.2.8"
   - "C.37"
   - "E.5.2"
@@ -93,4 +94,39 @@ For a performer who needs to locate the cycle boundaries inside this phrase, add
 The duration labels retain the whole phrase. These additional cues expose the positions needed for its coordination; use the compact labels alone when that relationship is already available to the performer.
 
 This case adapts Nelson's exercise 7. Reuse the pulse alignment when phrase and cycle change tempo together. Recompute it when a syllable duration in pulses, the cycle's pulse division or the phrase's entry relative to the cycle changes. A particular performer's fluency remains a question for actual performance.
+
+#### A.6.3.RT.OE:5.4 - Discover which duration an investigation needs
+
+A practitioner receives two reports: job Q41 took 55 minutes, whereas Q42 took 30. The present difficulty is an apparent slowdown. The available messages name receipt and usable-result times; a bench log names occupation intervals. The final explanation is unknown.
+
+Start by placing the reported durations together:
+
+| Job | Reported duration |
+| --- | ---: |
+| Q41 | 55 minutes |
+| Q42 | 30 minutes |
+
+This expression makes a numerical comparison easy but does not establish what the durations measure. Return to the messages and log. They supply the events below:
+
+| Job | Received | Bench occupied | Usable result available |
+| --- | --- | --- | --- |
+| Q41 | 09:05 | 09:30–10:00 | 10:00 |
+| Q42 | 11:00 | 11:00–11:30 | 11:30 |
+
+A row identifies one job; the occupation entry is an interval for that job. All times use the same day's clock and time basis. Aligning those events permits two different calculations. Q41 has 55 minutes from receipt to result, comprising 25 minutes before bench occupation and 30 minutes of occupation. Q42 has 30 minutes to its result and 30 minutes of occupation. The two jobs differ in the former duration but not the latter.
+
+The useful question changes: what accounts for Q41's pre-occupation interval, and is that interval consequential for the receiving work? The observations do not establish its cause. Buying a faster bench would be an unsupported remedy on this evidence. The expression has produced a useful distinction before supplying an explanation.
+
+Now Q43 is received at 13:00. Its first occupation, 13:00–13:30, produces an unusable result; its second, 13:50–14:20, produces the usable result. A single occupation interval per job would lose this construction. Retain one job with its two attempts:
+
+| Job and attempt | Bench occupied | Attempt outcome |
+| --- | --- | --- |
+| Q43, first attempt | 13:00–13:30 | Unusable result |
+| Q43, second attempt | 13:50–14:20 | Usable result |
+
+The row now identifies an attempt of a job. Receipt and usable-result events remain associated with Q43 as a whole. Time to the usable result is 80 minutes; total bench occupation is 60; the interval between attempts is 20. The unsuccessful first attempt counts toward occupation even though it did not supply the required result.
+
+The representation changed because the subject history required another distinction. Q41/Q42's earlier observations and calculations remain valid. The practitioner can now ask about repetition, the gap between attempts or the receiving deadline; the corresponding subject inquiry supplies the needed causal or decision grounds.
+
+These small tables are worked expressions for comparing the cases. If the log already provides the interpreted events and calculation, its existing view can be sufficient. A later transfer that separates a row from its job needs the return that recovers that relation. Retain the distinction in B.5.WN when it should support a future line of thought; ending the local investigation does not require a permanent note collection.
 

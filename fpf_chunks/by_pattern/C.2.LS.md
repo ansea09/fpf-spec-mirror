@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.LS.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
-line_start: 49854
-line_end: 50102
+line_start: 50174
+line_end: 50422
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -177,7 +177,7 @@ SysML v2 is deliberately excluded from the positive SoTA basis and from useful l
 A console alert note may be published with a language-state facet profile such as:
 
 - `F = F2/F3` because the note is structurally controlled but still lightweight;
-- `AE = AE2` because candidate anchors are visible but not yet fully relation-shaped;
+- `AE = AE2` because candidate anchors are visible but the direct semantic branch or its required structure remains partial;
 - `CD = CD1` because several routes remain live;
 - `LanguageStateAnchoringMode = AM.OperatorLoop` because the note is directly anchored to operator intervention/work;
 - `RepresentationFactorBundle = {local, sparse, mixed-symbolic}` because alert text and compact codes coexist.

@@ -6,12 +6,12 @@ section_id: "A.2.6:6"
 section_title: "Normative Definitions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__008_normative-definitions.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:6 — Normative Definitions"
-line_start: 5914
-line_end: 6126
+line_start: 5915
+line_end: 6127
 dependencies:
   - "A.1.1"
   - "A.15.1"

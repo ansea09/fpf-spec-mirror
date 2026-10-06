@@ -6,12 +6,12 @@ section_id: "A.9:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__003_problem.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:2 — Problem"
-line_start: 24327
-line_end: 24335
+line_start: 24387
+line_end: 24395
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"

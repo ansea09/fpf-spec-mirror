@@ -6,12 +6,12 @@ section_id: "C.11.CRC:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__008_bias-annotation.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:6 — Bias Annotation"
-line_start: 53963
-line_end: 53971
+line_start: 54294
+line_end: 54302
 dependencies:
   - "A.1.CSD"
   - "A.10"

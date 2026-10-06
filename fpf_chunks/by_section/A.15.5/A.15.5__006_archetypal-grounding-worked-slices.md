@@ -6,12 +6,12 @@ section_id: "A.15.5:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:5 — Archetypal Grounding - Worked Slices"
-line_start: 28655
-line_end: 28684
+line_start: 28715
+line_end: 28744
 dependencies:
   - "A.10"
   - "A.15"

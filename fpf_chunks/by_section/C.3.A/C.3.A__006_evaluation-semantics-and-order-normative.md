@@ -6,12 +6,12 @@ section_id: "C.3.A:5"
 section_title: "Evaluation semantics and order (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__006_evaluation-semantics-and-order-normative.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:5 — Evaluation semantics and order (normative)"
-line_start: 52730
-line_end: 52743
+line_start: 53060
+line_end: 53073
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -33,7 +33,7 @@ keywords:
 
 ### C.3.A:5 - Evaluation semantics and order (normative)
 
-**E-01 (Order).** Recover exact declarations and kind compatibility first; check Scope coverage second; when the receiving action is candidate-bearing, check admissibility and evaluate the exact candidate judgment only for an admissible request; then apply R consequences, freshness, and policy thresholds before the separate action disposition.
+**E-01 (Order).** Recover exact declarations and kind compatibility first; check Scope coverage second; when the receiving action is candidate-bearing, check admissibility and evaluate the exact candidate judgment only for an admissible request; then apply R consequences, freshness, and policy thresholds before the separate action disposition. When composing macros, reuse checks whose inputs and receiving use are unchanged, and apply the same justified bridge consequence only once on the receiving R path.
 
 **E-02 (Determinism).** With fixed candidates when any, kind/signature editions, slices, bridge/assertion editions, dependencies, and time selectors, the judgments and guard predicates MUST be reproducible. Implicit “latest” is forbidden.
 

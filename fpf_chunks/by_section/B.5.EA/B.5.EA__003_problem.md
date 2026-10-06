@@ -6,12 +6,12 @@ section_id: "B.5.EA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__003_problem.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "B.5.EA — Articulate a Working Distinction from Experience"
   - "B.5.EA:2 — Problem"
-line_start: 43936
-line_end: 43941
+line_start: 44000
+line_end: 44005
 dependencies:
   - "B.5"
   - "B.5.4"

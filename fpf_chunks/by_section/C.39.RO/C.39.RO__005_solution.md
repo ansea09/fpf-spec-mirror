@@ -6,12 +6,12 @@ section_id: "C.39.RO:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__005_solution.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:4 — Solution"
-line_start: 77618
-line_end: 77675
+line_start: 77954
+line_end: 78011
 dependencies:
   - "A.3.1"
   - "A.3.2"

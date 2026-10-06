@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.4.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
-line_start: 50103
-line_end: 50307
+line_start: 50423
+line_end: 50627
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -222,8 +222,8 @@ If the branch or threshold is unresolved, keep the episteme in `B.4.1` or `A.16.
 #### C.2.4:17.2 - High-articulation, low-closure cases
 A note may reach `AE4+` while remaining low or mid in `CD`. In such cases state that articulation is sufficient for precise handling while closure still leaves rival routes or frames live.
 
-#### C.2.4:17.3 - Split-publication rule
-If one note contains a high-`AE` fragment and a low-`AE` remainder, split the publication rather than assigning one averaged level that hides the actual route structure.
+#### C.2.4:17.3 - Articulation claims for separate fragments
+Scope each fragment's articulation claim to its receiving use; do not assign one averaged level that hides the actual route structure. The fragments may remain in the same note or publication when their scopes are clear.
 
 ### C.2.4:18 - Review Matrix and Endpoint Boundary Tests
 

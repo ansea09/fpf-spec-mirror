@@ -6,12 +6,12 @@ section_id: "E.20:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__007_bias-annotation.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:6 — Bias-Annotation"
-line_start: 101192
-line_end: 101195
+line_start: 101619
+line_end: 101622
 dependencies:
   - "A.15.3"
   - "A.6.1"

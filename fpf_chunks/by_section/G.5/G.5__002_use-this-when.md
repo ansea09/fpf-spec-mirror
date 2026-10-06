@@ -6,12 +6,12 @@ section_id: "G.5:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__002_use-this-when.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:0 — Use this when"
-line_start: 116063
-line_end: 116176
+line_start: 116490
+line_end: 116603
 dependencies:
   - "C.11"
   - "C.18"

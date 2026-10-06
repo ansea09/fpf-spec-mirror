@@ -6,12 +6,12 @@ section_id: "C.3.A:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__011_rationale.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:10 — Rationale"
-line_start: 52818
-line_end: 53097
+line_start: 53148
+line_end: 53428
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -72,12 +72,12 @@ Regulations name categories such as Adult person, Class II medical device, Perso
 
 **Guard_RegAdopt(P, candidate, authorityKind, authoritySignatureEdition, localKind, localSignatureEdition, S_local).**
 
-1. Check P's governed scope and explicit time against `S_local`.
-2. Recover the exact authority/local declarations and establish their declaration-level compatibility under §4.1; recover the KindBridge relation and bridge assertion when the use requires a correspondence between distinct kinds.
-3. For any required bridge, check applicability and route its consequence to R.
-4. Evaluate `J(candidate, localKind, localSignatureEdition, S_local)`.
-5. Continue only on `true`; retain known `false` or `unknown` before refusing.
-6. Check freshness of relied-on regulatory and candidate support separately.
+1. Recover the authority/local declarations and establish their declaration-level compatibility under §4.1 steps 1–2; recover the KindBridge relation and assertion when the use requires a correspondence between distinct kinds, and check bridge applicability.
+2. Check P's governed scope and explicit time against `S_local`.
+3. Check local candidate admissibility; on `not-applicable`, refuse without forming a judgment; otherwise evaluate `J(candidate, localKind, localSignatureEdition, S_local)`.
+4. Continue only on `true`; retain known `false` or `unknown` before refusing.
+5. Apply only the justified R consequence of each required, applicable bridge.
+6. Check freshness of relied-on regulatory and candidate support before allowing use.
 
 **Guard_RegChange(change, impactedDeclarations, impactedScopes).**
 
@@ -87,7 +87,7 @@ Regulations name categories such as Adult person, Class II medical device, Perso
 4. Reassess whether the receiving use now requires a correspondence between distinct kinds, and, when it does, the obtaining KindBridge relation and its assertion's mapping, loss, `CL^k`, evidence, and admitted use.
 5. Evaluate affected exact candidates for the new receiving use under the new declaration edition while preserving every prior judgment indexed to its prior edition and slice; do not edit a set representation or rewrite historical judgments as a substitute.
 
-**Guard_RegXContextUse(P, candidate, sourceKind, targetKind, targetSignatureEdition, S_target).** Apply `Guard_XContext_Typed` and then the exact target candidate judgment. A missing target dependency yields `unknown`; it is not cured by a high bridge assessment.
+**Guard_RegXContextUse(P, candidate, sourceKind, targetKind, targetSignatureEdition, S_target).** Apply `Guard_XContext_Typed` with the exact candidate and use its receiving judgment. A missing target dependency yields `unknown`; it is not cured by a high bridge assessment.
 
 <a id="c3aa4-worked-examples-i"></a>
 
@@ -159,6 +159,7 @@ VA can prove a claim quantified over an exact declared kind; LA can exercise exa
 
 ##### C.3.A:B.3 - Evidence matrix [I]
 
+A matrix can make declarations and slices jointly inspectable. A sufficient ordinary test record may carry the same content, directly or through accessible exact returns.
 
 | Rows | Columns | Cell content |
 | --- | --- | --- |
@@ -183,7 +184,7 @@ Example: a proof over `PassengerCarSignature@v4` assumes a dry-road slice. Reuse
 ##### C.3.A:B.5 - LA lane [A/I]
 
 
-- **LA-1.** Each test or monitoring campaign SHALL state row declaration editions, slice columns, exact tested candidates, and their judgments.
+- **LA-1.** Each test or monitoring campaign SHALL make its exact declaration editions, context slices, tested candidates, and their judgments recoverable, directly or through accessible exact returns.
 - **LA-2.** Boundary probing SHALL distinguish criterion boundaries from Scope boundaries.
 - **LA-3.** A KindBridge assertion that records collapsed distinctions SHALL lead to explicit coverage repair; it does not alter target truth.
 - **LA-4.** Freshness and SpanUnion independence SHALL remain explicit.
@@ -205,9 +206,9 @@ Qualify provers, checkers, measurement pipelines, and classifiers separately. A 
 ##### C.3.A:B.7 - Evidence guards
 
 
-**Guard_EvidencePlan_Typed** SHALL check exact row declaration editions, exact slice columns, bridge/assertion needs, candidate-selection policy, freshness, independence, and TA declarations. Planning rows do not count as candidate judgments.
+**Guard_EvidencePlan_Typed** SHALL check the plan's exact declaration editions and context slices, bridge/assertion needs, candidate-selection policy, freshness, independence, and TA declarations. These inputs may be supplied directly or through accessible exact returns. A planned classification does not count as a candidate judgment.
 
-**Guard_EvidenceAttach_Typed** SHALL bind every evidence unit to its exact claim/use, row declaration, slice, exact candidate when current, judgment value, support relation, freshness, and bridge consequences. It SHALL preserve `unknown` and the separate attach/refuse disposition.
+**Guard_EvidenceAttach_Typed** SHALL make every evidence unit's binding to its exact claim/use, declaration edition, slice, candidate and judgment when current, support relation, freshness, and bridge consequences recoverable, directly or through accessible exact returns. It SHALL preserve `unknown` and the separate attach/refuse disposition.
 
 <a id="c3ab8-anti-patterns-and-remedies"></a>
 
@@ -264,14 +265,14 @@ When the Method–Work use is current, it has two different boundaries.
 
 A conforming Method–Work check SHALL:
 
-1. require the capability's governed Work scope to cover exact JobSlice with explicit time;
-2. check capability measures, qualification/currentness, and fit as separately governed predicates;
-3. pin every expected input/output local kind and signature edition;
-4. for every actual input candidate, evaluate `J(inputCandidate, expectedInputKind, inputSignatureEdition, JobSlice)` and preserve all three values;
+1. pin every expected input/output local kind and signature edition;
+2. for cross-context candidates, compare kind identity and recover target declarations and any required bridges;
+3. require the capability's governed Work scope to cover exact JobSlice with explicit time;
+4. for every actual input candidate and, after execution, every actual output candidate relied on, check admissibility and evaluate the exact four-input judgment under its pinned expected declaration only when admissible, preserving all three values;
 5. use exact RoleMask declarations and masked judgments when procedural tailoring is current;
-6. for cross-context candidates, compare kind identity, recover exact target declarations and any required bridges, and evaluate fresh target judgments;
+6. apply any justified bridge consequence to R, then check capability measures, qualification/currentness, and fit as separately governed predicates before deciding entry or acceptance;
 7. before execution, return only an entry disposition and keep W absent;
-8. after execution, identify W independently and, for every actual output candidate relied on, evaluate the exact output judgment;
+8. after execution, ground result or acceptance in the independently identified W;
 9. keep W, inputs, outputs, JobSlice, capability, plan, logs, and assertions distinct; and
 10. refuse fail-closed on `false` or `unknown` without rewriting either value.
 
@@ -280,11 +281,11 @@ A conforming Method–Work check SHALL:
 ##### C.3.A:C.3 - Ready-to-use skeletons
 
 
-**ESG_TypedGate(Claim, claimKind, claimSignatureEdition, receiveKind, receiveSignatureEdition, TargetSlice, candidates?).** Apply `Guard_TypedClaim` to the exact claim and receiving kinds; for each actual candidate apply `Guard_CandidateUse` with both declaration editions; apply bridge, freshness, and policy predicates; return the separate transition disposition.
+**ESG_TypedGate(Claim, claimKind, claimSignatureEdition, receiveKind, receiveSignatureEdition, TargetSlice, candidates?).** When actual candidates are current, apply `Guard_CandidateUse` to each with both declaration editions; otherwise apply `Guard_TypedClaim` for declaration-only use. Reuse shared checks and bridge consequences under E-01, then return the separate transition disposition.
 
-**MethodWork_EntryGate(Capability, WorkPlanRef, JobSlice, inputCandidates, inputDeclarations).** Check Work scope, capability/qualification/fit predicates, exact input judgments, masks, bridges, and freshness. Return “entry allowed/refused”. Do not create or identify W.
+**MethodWork_EntryGate(Capability, WorkPlanRef, JobSlice, inputCandidates, inputDeclarations).** Apply §C.2's prospective checks in E-01 order and check required freshness. Return “entry allowed/refused”. Do not create or identify W.
 
-**MethodWork_ResultGate(W, JobSlice, actualInputs, actualOutputs, declarations, ResultRecordRef?).** First recover the independently grounded dated W under A.15.1. Then evaluate exact input/output candidate judgments, check scope and any acceptance predicates, and keep any ResultRecordRef as a reference to a separate episteme whose content designates W.
+**MethodWork_ResultGate(W, JobSlice, actualInputs, actualOutputs, declarations, ResultRecordRef?).** First recover the independently grounded dated W under A.15.1. Apply §C.2's declaration, Scope, admissibility, and input/output judgment checks in E-01 order, then complete any acceptance predicates. Keep any ResultRecordRef as a reference to a separate episteme whose content designates W.
 
 <a id="c3ac4-worked-examples-i"></a>
 

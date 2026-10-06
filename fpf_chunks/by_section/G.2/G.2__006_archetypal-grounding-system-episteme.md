@@ -6,12 +6,12 @@ section_id: "G.2:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__006_archetypal-grounding-system-episteme.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:5 — Archetypal Grounding (System / Episteme)"
-line_start: 114986
-line_end: 115012
+line_start: 115413
+line_end: 115439
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

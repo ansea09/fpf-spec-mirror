@@ -6,17 +6,18 @@ section_id: "A.6.3.RT.OE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__005_solution.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:4 — Solution"
-line_start: 16774
-line_end: 16841
+line_start: 16775
+line_end: 16862
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"
   - "B.5.RC"
   - "B.5.RR"
+  - "B.5.WN"
   - "C.2.8"
   - "C.37"
   - "E.5.2"
@@ -39,6 +40,18 @@ Recover the givens, constraints, unknowns and partial construction used by that 
 
 Use the subject Method to recover an absent operation or premise. B.5.RC and B.5.RA can help recover a construction or argument. An expression can expose the missing contribution and provide a useful stopping point.
 
+##### A.6.3.RT.OE:4.1.1 - Let a partial expression help obtain the question
+
+Sometimes the available material reveals a difficulty before it supplies a definite question. Start with an attainable operation on that material: place two reports together, arrange events by their stated times, separate an observation from its interpretation, or compare a proposed outcome with what is actually available. State what this attempt could distinguish. A provisional operation can be selected without pretending that the final inquiry is settled.
+
+Try the operation and inspect what its expression lets you see. An unanswered position can expose a missing observation. Two incompatible interpretations can reveal a conflated question. A row that cannot accommodate a second attempt can reveal that the chosen unit was too coarse. Change the arrangement when the available material warrants that change; obtain a missing contribution when rearrangement cannot supply it.
+
+Give the discovered distinction a meaning in the subject work. If "duration" covers receipt-to-result time in one report and equipment occupation in another, separate their endpoints before calculating a difference. The new labels become useful through those definitions and the observed events. A visually convincing pattern alone does not supply a causal explanation.
+
+Use the result to continue, revise the question or stop at the missing basis. B.5.QD and C.40.CD develop the next question when the expression's result changes what must be obtained. Preserve the earlier material that still has a supported interpretation. Replacing the first question does not require rewriting observations to fit the new one.
+
+The construction can stop with a useful distinction or an explicit question. Before a later operation consumes its unresolved part as a fact, supply the missing premise or withhold that dependent result.
+
 #### A.6.3.RT.OE:4.2 - Give recurring parts a stable interpretation
 
 Identify which elements must remain recognizable across the expression. Use the selected scheme's names, positions, types, units, binding rules or temporal references to keep them connected.
@@ -48,6 +61,14 @@ When one part belongs to different groupings, retain its identity through the ch
 When similar marks denote different parts, distinguish them before combining their relations. For a formula with a bound variable and a free variable, preserve the binding scopes when renaming. For a repeated rhythmic sign, its position can distinguish occurrences even when the syllable is unchanged.
 
 Use the amount of labeling the operation needs. Reuse familiar conventions; explain a local convention at its first consequential use.
+
+A table also needs an interpretation for its rows and columns. A row may represent a case or relation with several participants, rather than one object. A column can ask for an object, quantity, condition or judgement. Explain what its entries denote and which combinations are meaningful before relying on alignment.
+
+For example, suppose a local `BenchKind` admits physical test benches already identified as `U.System` individuals. A column headed "Bench" asks which of those benches a job used. The entry `B7` designates a particular bench; it is not the name of the domain kind. `BenchKind` is a classification distinction, hence an individual of `U.Kind` under C.3.1, while B7 is classified by that distinction. These upper-kind, domain-kind and particular-object claims answer different questions. A table of kinds could instead contain `BenchKind` itself; it would need a different column interpretation.
+
+Use those distinctions to catch an actual mismatch. Placing `BenchKind` in the job's Bench position would name a classifying distinction when the operation needs the used bench. Placing a duration there supplies a different kind of value. A "30" in an occupation-duration column still needs its unit and interval meaning. Domain membership and the relation to this job require their own grounds; a heading or a successful spreadsheet entry does not establish them.
+
+Retain such annotations where the distinction changes inference, comparison or transfer. Familiar domain wording can be enough for an experienced reader. A computational validator can enforce the declared checks only when its implemented rules match this interpretation.
 
 #### A.6.3.RT.OE:4.3 - Arrange the parts around the needed relation
 

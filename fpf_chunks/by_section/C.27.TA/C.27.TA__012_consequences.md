@@ -6,12 +6,12 @@ section_id: "C.27.TA:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__012_consequences.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:10 — Consequences"
-line_start: 63776
-line_end: 63783
+line_start: 64112
+line_end: 64119
 dependencies:
   - "A.10"
   - "A.15.1"

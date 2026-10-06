@@ -6,12 +6,12 @@ section_id: "F.0.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 105466
-line_end: 105476
+line_start: 105893
+line_end: 105903
 dependencies:
   - "A.2.4"
   - "C.2.1"

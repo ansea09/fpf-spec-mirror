@@ -6,12 +6,12 @@ section_id: "C.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__005_solution.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:4 — Solution"
-line_start: 47761
-line_end: 47802
+line_start: 48081
+line_end: 48122
 dependencies:
   - "A.1"
   - "A.10"
@@ -52,7 +52,7 @@ keywords:
  **Congruence Level (CL), pairwise ladder.**
  `CL‑0` **Opposed/Disjoint** (contrastive; no substitution); `CL‑1` **Comparable / Naming‑only** (label similarity; no substitution); `CL‑2` **Translatable** (structure‑preserving correspondence in a declared fragment with **stated loss**); `CL‑3` **Near‑identity** (the declared invariants match). *CL is a characteristic of a relation between two epistemes; it is not a fourth member of the F–G–R assurance tuple and it is not a characteristic space of its own.* **KD-CAL substitution constraint:** plane preservation and **CL ≥ 2** are necessary for a substitution under this calculus; substituting **type‑structure** additionally requires **CL = 3**. These conditions do not establish suitability for the proposed use. State the exact substitution, direction, correspondence rule, and tolerated loss under the direct receiving pattern, and establish reliance separately. When local meanings cross semantic contexts, first test the F.9 Bridge predicate on exact F.17 cells; keep the obtaining Bridge, bounded-use claim, and reliance result distinct. A CL value establishes no local system-role-kind membership or assignment.
 
-**Constitution and neighboring relations.** State F, G, and R for one exact claim of one C.2.1 episteme. Its exact claim content, EntityOfConcern, and effective `U.ReferenceScheme` identify the episteme through `EpistemeConstitutionRelation`. F characterizes the claim's form; G is the separate `U.ClaimScope`; R relies on exact evaluation, evidence-use, and assurance relations. Empirical grounding and edition remain separate C.2.1 relations. Viewpoint selection and view conformance remain under E.17.0; notation and other representation structure remain under C.29/A.6.3.RT; publication occurrence, form, and carrier remain under E.17/E.24.PUB. Multiple notations are allowed only when their exact representation or notation relation is explicit and any declared loss is applied to R rather than hidden in an omnibus episteme field.
+**Constitution and neighboring relations.** When stating or using a KD-CAL epistemic location, recover F, G, and R for one exact claim and use of one C.2.1 episteme. The episteme's exact claim content, EntityOfConcern, and effective `U.ReferenceScheme` identify the episteme through `EpistemeConstitutionRelation`. F characterizes the claim's form; G is the separate `U.ClaimScope`; R relies on exact evaluation, evidence-use, and assurance relations. Empirical grounding and edition remain separate C.2.1 relations. Viewpoint selection and view conformance remain under E.17.0; notation and other representation structure remain under C.29/A.6.3.RT; publication occurrence, form, and carrier remain under E.17/E.24.PUB. Multiple notations are allowed only when their exact representation or notation relation is explicit and any declared loss is applied to R rather than hidden in an omnibus episteme field.
 
 #### C.2:4.2 - Four Δ‑moves (epistemic motion)
 

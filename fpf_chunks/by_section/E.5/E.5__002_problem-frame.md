@@ -6,12 +6,12 @@ section_id: "E.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__002_problem-frame.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:1 — Problem frame"
-line_start: 84121
-line_end: 84133
+line_start: 84457
+line_end: 84469
 dependencies:
   - "E.2"
   - "E.3"

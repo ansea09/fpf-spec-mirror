@@ -6,12 +6,12 @@ section_id: "A.6.3:7"
 section_title: "Rationale and SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__008_rationale-and-sota-echoing.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:7 — Rationale and SoTA-Echoing"
-line_start: 15466
-line_end: 15474
+line_start: 15467
+line_end: 15475
 dependencies:
   - "A.13"
   - "A.15.1"

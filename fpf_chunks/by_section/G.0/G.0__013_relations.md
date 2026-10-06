@@ -6,12 +6,12 @@ section_id: "G.0:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__013_relations.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:12 — Relations"
-line_start: 114145
-line_end: 114150
+line_start: 114572
+line_end: 114577
 dependencies:
   - "A.10"
   - "A.17"

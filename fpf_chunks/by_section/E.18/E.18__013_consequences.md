@@ -6,12 +6,12 @@ section_id: "E.18:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__013_consequences.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:10 — Consequences"
-line_start: 98282
-line_end: 98296
+line_start: 98709
+line_end: 98723
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

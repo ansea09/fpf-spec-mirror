@@ -6,12 +6,12 @@ section_id: "E.9:4"
 section_title: "Solution — state the decision before distributing it"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__006_solution-state-the-decision-before-distributing-it.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:4 — Solution — state the decision before distributing it"
-line_start: 85797
-line_end: 85963
+line_start: 86179
+line_end: 86359
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -38,7 +38,7 @@ keywords:
 
 ### E.9:4 - Solution — state the decision before distributing it
 
-Write the `Decision` account first in ordinary precise language. Before a reader meets a DRR identity schema, method/work account, or catalogue of alternatives, they must be able to recover, in this order:
+Present the `Decision` account first in ordinary precise language. Before a reader meets a DRR identity schema, method/work account, or catalogue of alternatives, they must be able to recover, in this order:
 
 1. the working FPF problem and why it matters now;
 2. the selected answer stated positively;
@@ -47,7 +47,7 @@ Write the `Decision` account first in ordinary precise language. Before a reader
 5. the first substantive drafting action; and
 6. the nearest boundary, honest blocker, or reopen condition.
 
-That short account is the primary authoring source. Add exact method, work, application, episteme-identity, source-use, assessment, or authority distinctions only when the decision or a named later reliance depends on them.
+When the answer is still unsettled, use §4.2 to develop it through a working expression; the order above is the reader's entry to the resulting decision, not a requirement to guess the answer before inquiry. That short account, once supported, is the primary authoring source. Add exact method, work, application, episteme-identity, source-use, assessment, or authority distinctions only when the decision or a named later reliance depends on them.
 
 A nontrivial DRR keeps four conceptual components recoverable. These are the minimum decision kernel; the lightweight editorial variant remains available under `CC-DRR.5`.
 
@@ -202,4 +202,18 @@ The DRR names:
 - the current disposition: selected now, inherited sufficient, rejected now, or outside the current decision with the named evaluation pattern, accepted `DRR`, or accepted decision-ground item named by value.
 
 Reusable process-source method is not limited to semio wording or pattern-authoring language. It may enter FPF only when it is separable from local process mechanics, improves FPF use, and has one exact evaluation pattern. After the method lands in FPF, process documents should cite the selected FPF pattern instead of keeping a parallel long-form rule.
+
+#### E.9:4.2 - Develop an unsettled decision through a working expression
+
+When the selected answer is still unknown, begin with the current difficulty and available material rather than manufacturing a Decision to fill the record. The opening instruction in §4 governs how the selected answer is presented to its reader. It does not require that deciding starts with an already selected answer.
+
+Use a provisional expression to bring a consequential relation into view: juxtapose two cases, arrange competing explanations, trace a dependency, or compare an intended use with the result currently available. E.8:4.2.1.2 and A.6.3.RT.OE supply the expression construction. Identify what the arrangement lets you infer and what remains unsupported. A question mark can make an unresolved interpretation visible; it supplies no premise for choosing one answer.
+
+Let the result change the decision question when it reveals that the original question conflated different work. Retain live alternatives only for the comparison they support. Replace a classification by format, tool or package name when the deciding difference concerns the operation or conditions of use. A working table can therefore be revised or discarded after it has produced the useful distinction. Its row count is not progress toward a decision.
+
+Before another author relies on the selected answer, resolve each premise that can change its selected obligation, or choose an explicitly bounded result whose remaining uncertainty does not defeat that obligation. State an honest stop where neither is available. Use the four kernel components and the applicable inspection content in §4.1 to inspect that closure. Material already recoverable in the account need not be copied into another answer column. A source pointer without the needed substantive contribution is not recoverable decision content.
+
+Keep this difference visible in the writing. “The source order for this row is unknown” can be a valid investigation result. “Convert this row using day/month/year” would require the missing premise. Conversely, a settled decision to stop such rows and request their interpretation can be supported even while their particular dates remain unknown. What remains open must be compared with the decision actually being made.
+
+The record carries the resulting problem, selection, reasons and consequences, not every discarded worksheet or the chronology of deciding. Retain a working expression when a later use needs its reasoning or recoverability; otherwise carry its useful result and source return into the decision. An incomplete exploration becomes neither an accepted decision nor an authorization merely by receiving a DRR heading.
 

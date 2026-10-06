@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `620f1c50677894b84ea3a84209be4a22f7fb6b5a`
+Commit SHA: `94b6c708eadc1a572f7db7788ed2e74df4053b2d`
 
 Chunking method: `pattern-aware`
 
-Patterns: `354`
+Patterns: `355`
 
 ## Patterns
 
@@ -141,6 +141,7 @@ Patterns: `354`
 - [B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)](by_pattern/B.4.1.md)
 - [B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)](by_pattern/B.5.md)
 - [B.5.EA — Articulate a Working Distinction from Experience](by_pattern/B.5.EA.md)
+- [B.5.WN — Develop Lines of Thought with Working Notes](by_pattern/B.5.WN.md)
 - [B.5.MPC — Connect Physical, Mathematical and Computational Reasoning](by_pattern/B.5.MPC.md)
 - [B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection](by_pattern/B.5.MPC.R.md)
 - [B.5.RC — Recover a Construction from Its Description](by_pattern/B.5.RC.md)

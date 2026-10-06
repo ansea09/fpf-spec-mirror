@@ -6,12 +6,12 @@ section_id: "C.17:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__002_use-this-when.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:0 — Use this when"
-line_start: 56662
-line_end: 56683
+line_start: 56993
+line_end: 57014
 dependencies:
   - "A.0"
   - "A.1.1"

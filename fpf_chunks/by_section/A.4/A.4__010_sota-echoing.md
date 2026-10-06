@@ -6,12 +6,12 @@ section_id: "A.4:9"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__010_sota-echoing.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:9 — SoTA-Echoing"
-line_start: 11263
-line_end: 11276
+line_start: 11264
+line_end: 11277
 dependencies:
   - "A.1"
   - "A.1.1"

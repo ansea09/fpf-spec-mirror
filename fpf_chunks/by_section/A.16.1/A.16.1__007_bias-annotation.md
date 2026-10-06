@@ -6,12 +6,12 @@ section_id: "A.16.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__007_bias-annotation.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:6 — Bias-Annotation"
-line_start: 31348
-line_end: 31350
+line_start: 31410
+line_end: 31412
 dependencies:
   - "A.16"
   - "A.16.0"

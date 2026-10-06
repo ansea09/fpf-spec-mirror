@@ -6,12 +6,12 @@ section_id: "C.2.4:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__016_extension-and-migration-notes.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:15 — Extension and Migration Notes"
-line_start: 50236
-line_end: 50245
+line_start: 50556
+line_end: 50565
 dependencies:
   - "A.15"
   - "A.15.1"

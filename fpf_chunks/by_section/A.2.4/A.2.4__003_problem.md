@@ -6,12 +6,12 @@ section_id: "A.2.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__003_problem.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:2 — Problem"
-line_start: 5199
-line_end: 5212
+line_start: 5200
+line_end: 5213
 dependencies:
   - "A.10"
   - "A.2"

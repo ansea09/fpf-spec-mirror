@@ -6,12 +6,12 @@ section_id: "A.19.ECS:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__010_consequences.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:8 — Consequences"
-line_start: 32679
-line_end: 32684
+line_start: 32741
+line_end: 32746
 dependencies:
   - "A.17-A.19"
   - "C.16"

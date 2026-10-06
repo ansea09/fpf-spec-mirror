@@ -6,12 +6,12 @@ section_id: "G.1:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__008_conformance-checklist-normative.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:7 — Conformance Checklist (normative)"
-line_start: 114565
-line_end: 114578
+line_start: 114992
+line_end: 115005
 dependencies:
   - "A.10"
   - "A.15.3"

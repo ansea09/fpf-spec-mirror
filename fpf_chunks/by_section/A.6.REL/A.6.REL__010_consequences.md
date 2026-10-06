@@ -6,12 +6,12 @@ section_id: "A.6.REL:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__010_consequences.md"
-commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
+commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
   - "A.6.REL:9 — Consequences"
-line_start: 13828
-line_end: 13835
+line_start: 13829
+line_end: 13836
 dependencies:
   - "A.6.0"
   - "A.6.5"
