@@ -6,7 +6,7 @@ section_id: "E.11.PFP:End"
 section_title: "E.11.PFP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__017_e-11-pfp-end.md"
-commit_sha: "60744ae65f5fd6af60ea1e887878e20abe6be429"
+commit_sha: "620f1c50677894b84ea3a84209be4a22f7fb6b5a"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:End — E.11.PFP:End"
