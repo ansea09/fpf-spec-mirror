@@ -6,12 +6,12 @@ section_id: "C.2.1:15"
 section_title: "Relations  (overview)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__017_relations-overview.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:15 — Relations  (overview)"
-line_start: 48746
-line_end: 48753
+line_start: 48761
+line_end: 48768
 dependencies:
   - "A.1"
   - "A.1.1"

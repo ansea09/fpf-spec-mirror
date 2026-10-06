@@ -6,12 +6,12 @@ section_id: "A.4:End"
 section_title: "A.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__011_a-4-end.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:End — A.4:End"
-line_start: 11278
-line_end: 11279
+line_start: 11283
+line_end: 11284
 dependencies:
   - "A.1"
   - "A.1.1"

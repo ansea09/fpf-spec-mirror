@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__006_archetypal-grounding-worked-slices.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
   - "E.10.MOVE:5 — Archetypal Grounding - Worked Slices"
-line_start: 89361
-line_end: 89443
+line_start: 89403
+line_end: 89485
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -78,7 +78,7 @@ ReopenCondition: the enclosing structure or slice boundary changes, the E.11.PUA
 
 Source sentence: "The repair should create an upward evaluation movement."
 
-If the claim predicts a later evaluation result, restore the evaluation pattern, coordinate, scale, current result, one expected scale value, range, or closed direction, candidate proposal basis, and protected tradeoffs. Write the result as `ExpectedEvaluationResultChange@Context`. If those positions are unavailable, keep a provisional prediction description or use E.22 and E.23 to obtain the missing prediction basis.
+If the claim predicts a later evaluation result, restore the evaluation pattern, coordinate, scale, current result, one expected scale value, range, or closed direction, candidate proposal basis, and protected tradeoffs. Keep an ordinary prediction description when it is sufficient; use `ExpectedEvaluationResultChange@Context` only when E.23's conditional account is needed for the receiving use. If those positions are unavailable, keep a provisional prediction description or use E.22 and E.23 to obtain the missing prediction basis.
 
 #### E.10.MOVE:5.3 - Next FPF use
 

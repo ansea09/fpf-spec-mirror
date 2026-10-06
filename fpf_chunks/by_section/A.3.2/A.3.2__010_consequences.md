@@ -6,12 +6,12 @@ section_id: "A.3.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__010_consequences.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:9 — Consequences"
-line_start: 9463
-line_end: 9481
+line_start: 9468
+line_end: 9486
 dependencies:
   - "A.1.1"
   - "A.10"

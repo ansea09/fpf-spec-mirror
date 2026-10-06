@@ -6,12 +6,12 @@ section_id: "A.9:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__006_archetypal-grounding.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:5 — Archetypal Grounding"
-line_start: 24431
-line_end: 24445
+line_start: 24444
+line_end: 24458
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"

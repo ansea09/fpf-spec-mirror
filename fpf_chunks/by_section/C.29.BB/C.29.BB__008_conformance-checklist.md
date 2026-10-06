@@ -6,12 +6,12 @@ section_id: "C.29.BB:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__008_conformance-checklist.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:7 — Conformance Checklist"
-line_start: 67671
-line_end: 67679
+line_start: 67708
+line_end: 67716
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"

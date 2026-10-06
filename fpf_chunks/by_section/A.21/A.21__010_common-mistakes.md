@@ -6,12 +6,12 @@ section_id: "A.21:8"
 section_title: "Common mistakes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__010_common-mistakes.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:8 — Common mistakes"
-line_start: 37788
-line_end: 37799
+line_start: 37803
+line_end: 37814
 dependencies:
   - "A.10"
   - "A.15.5"

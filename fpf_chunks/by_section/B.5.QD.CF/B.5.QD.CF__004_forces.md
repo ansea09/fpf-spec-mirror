@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__004_forces.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:3 — Forces"
-line_start: 46729
-line_end: 46738
+line_start: 46744
+line_end: 46753
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"

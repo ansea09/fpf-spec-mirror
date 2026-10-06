@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__013_relations.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:12 — Relations"
-line_start: 9169
-line_end: 9176
+line_start: 9174
+line_end: 9181
 dependencies:
   - "A.10"
   - "A.13"

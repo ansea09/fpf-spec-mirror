@@ -6,12 +6,12 @@ section_id: "C.17:12"
 section_title: "Common failures and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__014_common-failures-and-repairs.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:12 — Common failures and repairs"
-line_start: 57332
-line_end: 57348
+line_start: 57347
+line_end: 57363
 dependencies:
   - "A.0"
   - "A.1.1"

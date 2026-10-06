@@ -6,12 +6,12 @@ section_id: "E.17:5"
 section_title: "Solution — the MVPK Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__006_solution-the-mvpk-kit.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:5 — Solution — the MVPK Kit"
-line_start: 95433
-line_end: 95764
+line_start: 95475
+line_end: 95806
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -322,7 +322,7 @@ The optional morphism-publication profile uses representation-side constructors,
 #### E.17:5.4 - EntityOfConcern-side input and output vs publication (normative convention)
 
 1. **Input and Output are signature-side declarations.** The **Input and Output** sections of a morphism describe declared input and output data or episteme types under the morphism signature; they do **not** depend on any publication face.
-2. **No duplication on faces.** In the optional morphism profile, faces do not restate Input and Output lists; they carry only the source references, presence pins, and edition identifiers needed by the selected face and use.
+2. **No independent Input/Output specification.** In the optional morphism profile, keep the signature-side declarations authoritative. Provide an exact accessible source return, or carry the needed source-attributed declarations and material pins when the face must support use without that access.
 3. **Use Signature only for signatures.** Use **Signature** only when the named object is a signature under an applicable signature pattern, such as `U.Signature`. On faces, use **TechName** or **PlainName**.
 4. **Comparison and ordering.** A bounded source contrast under E.17.ID.CR retains its shared review frame and row-level comparison criteria. When a face publishes selection or an ordering, preserve the source-defined set or order semantics, make the comparator and any scalarization explicit, and cite `ComparatorSetRef` where that formal comparator family is used.
 5. **Bridge and plane references.** A semantic crossing cites its F.9 Bridge and separate bounded-use claim. A plane-dependent value cites its characteristic, selected `ReferencePlane`, and applicable C.16 or A.19.CPM transfer or comparison rule. If B.3 is triggered and its assurance claim depends on an integration relation, retain that relation's B.3 `CL` and `Φ(CL)` reference; infer no penalty from an F.9 Bridge or publication face.

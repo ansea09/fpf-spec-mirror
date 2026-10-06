@@ -6,12 +6,12 @@ section_id: "F.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__001_intro.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:intro — Intro"
-line_start: 109670
-line_end: 109678
+line_start: 109712
+line_end: 109720
 dependencies:
   - "A.15"
   - "A.15.1"

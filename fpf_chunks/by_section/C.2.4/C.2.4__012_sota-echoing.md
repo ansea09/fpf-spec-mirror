@@ -6,12 +6,12 @@ section_id: "C.2.4:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__012_sota-echoing.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:11 — SoTA-Echoing"
-line_start: 50518
-line_end: 50520
+line_start: 50533
+line_end: 50535
 dependencies:
   - "A.15"
   - "A.15.1"

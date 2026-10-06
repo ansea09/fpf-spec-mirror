@@ -6,14 +6,15 @@ section_id: "G.3:4"
 section_title: "Solution — CHR authoring kit and publication surface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__005_solution-chr-authoring-kit-and-publication-surface.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:4 — Solution — CHR authoring kit and publication surface"
-line_start: 115611
-line_end: 115922
+line_start: 115653
+line_end: 115965
 dependencies:
   - "A.10"
+  - "A.15.2"
   - "A.15.3"
   - "A.17"
   - "A.18"
@@ -85,7 +86,7 @@ CorePinsRequired := {
 UTSRowId[],                      // required: CHR terms are public ids (Name Cards plus public-id continuity records)
 PathId[]/PathSliceId[],          // required: worked examples/tests and refresh anchoring cite paths
 ReferencePlane,                  // required: definitional claims are plane-scoped
-Φ/Ψ/Φ_plane policy-ids?,         // iff crossings/plane moves are exercised in examples or imports
+Φ/Ψ/Φ_plane policy-ids?,         // when the applied loss/assurance model uses them or an applicable rule for the receiving use requires them (G.Core:4.2.3)
 ΓFoldRef.edition?                // iff an explicit Γ-fold artefact is pinned (otherwise use DefaultId)
 // NOTE: method-/discipline-specific pins (e.g., DescriptorMapRef/DistanceDefRef/DHCMethodRef/InsertionPolicyRef)
 // are declared only inside Extensions (e.g., `G.3:Ext.QD_OEE_Wiring`) to keep core linkage universal.
@@ -279,14 +280,15 @@ All blocks below are `GPatternExtension` modules (PatternScopeId-scoped; **not**
 * **GPatternExtensionId:** `SuiteBoundaryLinkage`
 * **GPatternExtensionKind:** `InteropSpecific`
 * **GoverningPatternId:** `A.19.CHR`
-* **Uses:** `{A.19.CHR, A.15.3}`
+* **Uses:** `{A.19.CHR, A.15.2, A.15.3}`
 * **⊑/⊑⁺:** `∅`
 * **RequiredPins/EditionPins/PolicyPins (minimum):**
 
   * `CHRMechanismSuiteDescriptionRef.edition?` *(when the suite description is cited as a reproducibility baseline)*
-  * `CHRMechanismSuiteSlotFillingsPlanItem` refs *(when planned baseline binds CHR artefacts into WorkPlanning)*
+  * `WorkPlanRef` and local baseline locator *(when a planned baseline binds CHR artefacts into WorkPlanning under `A.15.2`)*
+  * `CHRMechanismSuiteSlotFillingsPlanItem` in that WorkPlan *(when the plan fills an independently declared operation argument or relation position under `A.15.3`; cite the governing declaration and member designator, and locate the filling row within the plan)*
 * **RSCRTriggerKindIds:** `{RSCRTriggerKindId.BaselineBindingEdit, RSCRTriggerKindId.EditionPinChange}`
-* **Notes (wiring‑only):** This module binds CHR authoring outputs to the P2W seam (`SlotFillingsPlanItem`); suite semantics and membership are governed by `A.19.CHR`.
+* **Notes (wiring-only):** `A.19.CHR` governs suite semantics and membership; `A.19.CHR:4.1.2` distinguishes ordinary planned baselines from typed filling.
 
 **GPatternExtension: SoTAPackInputs**
 

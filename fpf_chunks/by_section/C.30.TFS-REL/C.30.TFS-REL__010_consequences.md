@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__010_consequences.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:9 — Consequences"
-line_start: 71462
-line_end: 71470
+line_start: 71502
+line_end: 71510
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,7 +65,7 @@ keywords:
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| E.18 TFS paths, crossings, valuations, and E.18.NET network structure become usable across actual architecture relations, selected architecture structures, exact structural views, and conditional descriptions without merging owners. | Every use names the exact architecture locus. A network use also names either one containing holon/relation or all exact participating holons and needed relations/claims, and keeps every characteristic on a named bearer. |
+| E.18 TFS paths, crossings, valuations, and E.18.NET network structure become usable across actual architecture relations, bounded claims, selected architecture structures, exact structural views, and conditional descriptions without merging owners. | Every use names the exact architecture locus. A network use also distinguishes the actual containing-holon, single-holon claim, or explicit inter-holon branch and keeps every characteristic on a named bearer. |
 | Required functional content, transformation-flow structure, and actual transformation stay separable. | Concise "the diagram is the architecture/change" prose is repaired before it carries an FPF claim. |
 | Non-flow claim kinds are assigned to their governing patterns. | More governing patterns are named when practitioners try to overuse the diagram, mathematical expression, or selected structure. |
 | The E.18 selected-structure boundary stays narrow. | Generic architecture adequacy remains outside E.18. |

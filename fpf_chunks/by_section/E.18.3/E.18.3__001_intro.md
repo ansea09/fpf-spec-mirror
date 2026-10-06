@@ -6,12 +6,12 @@ section_id: "E.18.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__001_intro.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:intro — Intro"
-line_start: 99620
-line_end: 99625
+line_start: 99662
+line_end: 99667
 dependencies:
   - "A.10"
   - "A.15"

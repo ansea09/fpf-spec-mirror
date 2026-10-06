@@ -6,12 +6,12 @@ section_id: "E.23:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 103118
-line_end: 103134
+line_start: 103160
+line_end: 103176
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -34,9 +34,9 @@ keywords:
 |---|---|
 | **Checklist closed, quality improved.** Discharge count replaces re-evaluation. | Re-evaluate the changed object and apply `CC-E23-4` when dated Work is asserted. |
 | **Loop result without evaluation form.** The loop says the object improved but retains no evidence in the declared evaluation form. | Restore that result form and evidence basis, then apply `CC-E23-4` to any dated Work claim. |
-| **Agentic retry as method law.** Repetition continues without a scale-qualified predicted evaluation-result change. | Add `ExpectedEvaluationResultChange@Context`, cost and risk, trade-offs, and a stop or switch condition. |
+| **Agentic retry as method law.** Repetition continues without a scale-qualified predicted evaluation-result change. | State a scale-qualified predicted evaluation-result change, cost and risk, trade-offs, and a stop or switch condition. |
 | **Operation-family creep.** Verification, memory, supervision, or search is added everywhere. | Keep only operations that can change the evaluation result enough to justify cost. |
-| **Goodharted pass.** Visible values rise while protected qualities worsen, or a non-`5` value is treated as a defect to be fixed by more apparatus. | Use trade-off inspection; apply `E.13` when the visible value is replacing the intended value; reject, delete, split, relocate, or hold dominated changes; continue searching for substantive content improvement when the improvement aim is still open; record `stay at current value` only when the `LoopEvaluationEvidenceBasis@Context` shows that no non-dominated content improvement remains. |
+| **Goodharted pass.** Visible values rise while protected qualities worsen, or a non-`5` value is treated as a defect to be fixed by more apparatus. | Use trade-off inspection; apply `E.13` when the visible value is replacing the intended value; reject, delete, split, relocate, or hold dominated changes; continue searching for substantive content improvement when the improvement aim is still open; record `stay at current value` only when the checked evaluation evidence basis shows that no non-dominated content improvement remains. |
 | **Lexical substitution closure.** A trigger word disappears, but the replacement narrows, widens, or changes the object kind; for example a graph-shaped method or workflow cue becomes a work sequence without a selected ontology decision. | Reopen the row, recover the pre-repair and post-repair kind through `E.10`, `F.19`, `F.18`, or the subject pattern, and leave the repair blocking if the kind cannot be preserved or explicitly changed by accepted decision. |
 | **Maturity-ceiling stop.** All-`5` is treated as an automatic stop or permanent end of development. | Apply the gain, protected-quality and cost test in §4.3; state the reason for stopping and what could reopen it. |
 | **SoTA citation as self-assignment.** Sources are cited as proof of frontier quality. | State source contributions and re-evaluate the composed result. |

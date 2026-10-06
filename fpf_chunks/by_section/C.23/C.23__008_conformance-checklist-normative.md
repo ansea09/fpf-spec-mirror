@@ -6,12 +6,12 @@ section_id: "C.23:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__008_conformance-checklist-normative.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:7 — Conformance Checklist (normative)"
-line_start: 60893
-line_end: 60912
+line_start: 60930
+line_end: 60949
 dependencies:
   - "A.10"
   - "B.3"
@@ -42,8 +42,8 @@ keywords:
 
 | ID           | Requirement                                                                                                                                                                                | Purpose                                       |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------- |
-| **CC-C23.1** | For each `MethodFamily`, an editioned `MaturityCard` SHALL name the exact family and registry edition, evidence profile, claim scope, qualification window, intended use, rung justification, A.10 anchors, and freshness windows; cite a relation and loss note only when the admission claim actually relies on it. | Makes maturity auditable for the declared family and admission use. |
-| **CC-C23.2** | The `AdmissibilityLedger` row for each evaluation of an executable `SoS-LOG` rule on S2 MUST cite the exact MethodFamilyId and registry edition, rule and policy editions, Eligibility and CG-Spec verdicts, EvidenceProfile minima, Acceptance verdict, claim scope, qualification window, Γ-fold contributors where used, decision result, and EvidenceGraph path. Relation and loss-policy ids appear only when the branch relies on them. | Keeps every decision premise reconstructable. |
+| **CC-C23.1** | An established or reused maturity judgement SHALL be cited through an editioned `MaturityCard` naming the exact family and registry edition, evidence profile, claim scope, qualification window, intended use, rung justification, A.10 anchors, and freshness windows. An early stop with no applicable judgement SHALL report that state under §4.2.1 without inventing a card or rung. Cite a relation and loss note only when the admission claim actually relies on it. | Makes established maturity auditable and keeps an unperformed judgement distinct from L0. |
+| **CC-C23.2** | Each `AdmissibilityLedger` row MUST identify the exact MethodFamilyId and registry edition, S2, rule edition, intended use, claim scope, qualification window, decisive branch, and decision result. It MUST retain the consulted policy editions, established or applicable reused Eligibility, CG-Spec, evidence-profile and Acceptance results, and Γ-fold contributors where used; required missing bases and unperformed judgements are reported under §4.2.1. The A.10 source basis and any G.6 path ids follow R5; relation and loss-policy ids appear only when relied on. | Keeps the premises of each actual branch reconstructable, including early refusal. |
 | **CC‑C23.3** | Enumerations used by the rules (**Degrade(mode)**; Maturity rungs) **SHALL** be **closed** and **UTS‑registered** (twin labels). | |
 | **CC‑C23.4** | **Unknowns** in live S2 fields **SHALL** map to `Degrade(mode)` (including `sandbox`) or `Abstain` with explicit **branch‑ids**; no `unknown→0/false` coercions.                                                          | Tri‑state discipline.                          |
 | **CC-C23.5** | If a branch relies on an F.9 Bridge, kind relation, or plane relation, it MUST cite that exact obtaining relation, direction, what meaning is preserved and what is lost, receiving use, and applicable loss policy; supported penalties selected under R4 affect `R_eff` only. A changed family, evidence profile, claim scope, qualification window, or use is not by itself a crossing. | Keeps `F` and `G` invariant and relation claims truthful. |

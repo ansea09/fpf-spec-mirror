@@ -6,12 +6,12 @@ section_id: "C.25:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__011_rationale.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:10 — Rationale"
-line_start: 61453
-line_end: 61456
+line_start: 61490
+line_end: 61493
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__001_intro.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:intro — Intro"
-line_start: 96515
-line_end: 96551
+line_start: 96557
+line_end: 96593
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -49,7 +49,7 @@ keywords:
 
 **First-minute working moment.** A team has two or more source-pinned notes, sheets, views, or review aids on the table. They need one honest comparison unit: two design options for one release, two methods for one task family, two vendor bulletins for one control scope, two research syntheses for one uncertainty question, or two programme strategies for one initiative. The job is not yet action selection, approval, ontology repair, or wider work-process control. It is to compare without pretending that the comparison note already became a decision.
 
-**First output.** Use the ordinary seven-row card:
+**First output.** One bounded comparison whose ordinary minimum is recoverable in the unit or its immediate review context. A source-linked paragraph or small comparison table may suffice. The seven-row card below is a recovery aid, not an additional required publication:
 
 ```text
 ComparativeReviewUnit:
@@ -74,5 +74,5 @@ ComparativeReviewUnit:
 3. Is one bounded contrast or small row set being made visible?
 4. Is the downstream claim or effect still outside?
 
-If yes, stay here and use the ordinary card. If no, use the neighboring-work boundary in `E.17.ID.CR:4.5`.
+If yes, stay here and keep the ordinary minimum recoverable. If no, use the neighboring-work boundary in `E.17.ID.CR:4.5`.
 

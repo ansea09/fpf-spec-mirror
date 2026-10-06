@@ -6,12 +6,12 @@ section_id: "E.23.CAE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__005_solution.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:4 — Solution"
-line_start: 103467
-line_end: 103562
+line_start: 103509
+line_end: 103604
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -109,7 +109,7 @@ A cheap reversible probe can support a narrow disposition. A high-stakes capabil
 
 #### E.23.CAE:4.5 - Route without choosing
 
-The first result should fit in six lines:
+Keep the first result compact; one useful shape is:
 
 > **Claim tested:** [holder, Work family, envelope, window].
 > **Controlled contrast:** [reference, changed condition, and what was held fixed].

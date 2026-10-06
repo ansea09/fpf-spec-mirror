@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__014_relations.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:12 — Relations"
-line_start: 90139
-line_end: 90150
+line_start: 90181
+line_end: 90192
 dependencies:
   - "A.2"
   - "A.2.1"

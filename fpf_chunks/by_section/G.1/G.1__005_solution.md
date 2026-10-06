@@ -6,14 +6,15 @@ section_id: "G.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__005_solution.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:4 — Solution"
-line_start: 114637
-line_end: 114962
+line_start: 114679
+line_end: 115004
 dependencies:
   - "A.10"
+  - "A.15.2"
   - "A.15.3"
   - "A.19.CN"
   - "C.17"
@@ -91,7 +92,7 @@ GCoreLinkageManifest := ⟨
     // RSCR regression tests used by the chassis (if any).
     RSCRTestId[]?,
 
-    // When a planned baseline is used: identify the WorkPlan and its local filling-row designators.
+    // For a planned baseline, identify the A.15.2 WorkPlan and local locator; add declaration ref, member designator and plan-local filling-row locator when A.15.3 applies.
     WorkPlanRef[]?
   },
 
@@ -203,7 +204,7 @@ M4 MUST preserve *set‑return semantics* (as governed by `G.Core`) and MUST NOT
 * `RefreshReadinessCardId` bound to `CGFrameLibraryId` (and thus to `CG‑FrameContext`)
 * `CGKitId` (the versioned kit manifest) binding `M1…M6` into a single reusable unit; it MUST enumerate the card ids and MAY carry references to deprecations/edition bumps minted by the canonical governing definitions
 * declared telemetry hooks (what signals are observed, with what pins)
-* declared RSCR wiring: which `RSCRTriggerKindId` are relevant (canonical ids), with minimal required payload pins (including WorkPlan refs and their local planned-filling row designators when the chassis is bound into WorkPlanning)
+* declared RSCR wiring: which `RSCRTriggerKindId` are relevant (canonical ids), with minimal required payload pins. For a planned baseline, include the `A.15.2` WorkPlan reference and its local baseline locator; filling an independently declared position under `A.15.3` also requires the governing declaration reference, member designator and plan-local filling-row locator.
 
 **Boundary:** orchestration semantics are governed by `G.11`.
 M6 prepares *refresh‑readiness metadata* and wiring stubs; it does not define scheduling/priority heuristics.
@@ -373,7 +374,7 @@ All method/discipline/generator specifics MUST be expressed as `GPatternExtensio
 * `CHRPackId?`, `CALPackId?`, `SoS‑LOGBundleId?`, `ParityReportId?` *(as present in the library index)*
 * `EvidenceGraphId?`, `BridgeMatrixId?`, `BridgeCalibrationTableId?` *(when cited by the shipped artefacts)*
 * `UTSRowId[]?` *(when any public ids are minted/published)*
-* `WorkPlanRef[]?` with local planned-filling row designators *(when a planned baseline is cited by the shipment surface)*
+* `WorkPlanRef[]?` with local baseline locators *(when a planned baseline is cited by the shipment surface under `A.15.2`)*; include the governing declaration reference, member designator and plan-local filling-row locator when `A.15.3` applies
 
 **Notes (wiring‑only):** this block does not define shipping; it only records the minimum wiring from the chassis/library index to `G.10` when shipping is performed.
 

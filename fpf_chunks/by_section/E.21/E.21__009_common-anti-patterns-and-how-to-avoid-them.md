@@ -6,12 +6,12 @@ section_id: "E.21:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 102241
-line_end: 102259
+line_start: 102283
+line_end: 102301
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -40,7 +40,7 @@ keywords:
 |---|---|
 | **Subject/action guidance reified or operationalized.** Plain first-use guidance is turned into a `SubjectActionSpine`, structural field, method, CGUS, or performed work; or `PrecisionRestorationProfile`, process proof, or guard catalogues substitute for judgment of the pattern's actual content. | Keep subject and action guidance Plain unless an exact admitted method or A.22.CGUS is genuinely current and cited by value; require dated `U.Work` independently when performance is claimed; judge the pattern's own `EntityOfConcern`, first useful move, practitioner action, practical delta, and next useful action, adding a guard only when a plausible intended reader has an independently grounded reason for that reading. |
 | **Score illusion.** `Pattern quality = 87 out of 100`. | Use ordinal coordinate values; no arithmetic aggregation. |
-| **Two-column table.** Coordinate-and-value table has no rationale. | Add `ShortRationale` for every coordinate. |
+| **Two-column table.** Coordinate-and-value table has no rationale. | Supply grounded `ShortRationale` for every coordinate under §4.3; an unperformed judgement leaves its dependent value unestablished and the evaluation draft. |
 | **Floor as omission.** A floor evaluation omits maturity, SoTA, formal, corpus, or evolution coordinates. | Keep floor low if needed; evaluate all coordinates. |
 | **Scope laundering.** A landing-input, corpus-facing, `Stable`, release, or external-review request is reported under an easier use, local-only use, diagnostic pass, or evaluator-selected use. | Re-evaluate under the governing scope; if it fails, return `repairBeforeUse`, `holdForArchitectureDecision`, or `refreshNeeded` with the missed coordinates and repairs. |
 | **Administrative proxy.** "4 because landed" or "3 because not externally reviewed". | Evaluate pattern content. |

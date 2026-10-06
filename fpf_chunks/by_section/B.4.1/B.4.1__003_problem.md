@@ -6,12 +6,12 @@ section_id: "B.4.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__003_problem.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:2 — Problem"
-line_start: 43440
-line_end: 43442
+line_start: 43455
+line_end: 43457
 dependencies:
   - "A.15"
   - "A.16"

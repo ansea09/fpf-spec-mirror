@@ -6,12 +6,12 @@ section_id: "E.9.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__005_solution.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:4 — Solution"
-line_start: 86555
-line_end: 86838
+line_start: 86597
+line_end: 86880
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -39,7 +39,7 @@ For an ordinary bounded review, the sufficient result is:
 
 That result may remain readable prose. It needs no assessment-work record, application object, aggregate result episteme, precision-profile record, witness package, or evidence-use package merely for symmetry.
 
-Use the complete coordinate table when a complete reusable evaluation was explicitly requested or when a named later reliance needs stable coordinate values. Materialize the exact characteristic-space configuration, semantic evaluation Method, A.6.1 application, result episteme, witnesses, or evidence-use relations only when that receiving use depends on their identities.
+Use the complete coordinate result when a complete reusable evaluation was explicitly requested or when a named later reliance needs stable coordinate values. Materialize the exact characteristic-space configuration, semantic evaluation Method, A.6.1 application, result episteme, witnesses, or evidence-use relations only when that receiving use depends on their identities.
 
 The semantic Method, A.6.1 application, and dated Work are independently conditional. A reusable coordinate result can exist without any of them. A receiving claim may use a semantic Method without asserting Work, and it may use an exact application and its actual bindings without asserting Work. If dated `U.Work` is asserted, the Method and application become required parts of that E.9.DA branch; every precise performer first has an A.13 core and A.15.1 independently admits the Work. F.6 follows only when the result also needs precise assignment-bound attribution.
 
@@ -150,7 +150,7 @@ DRRDecisionAdequacyResultEpisteme:
     RequiredAuthoringUseSource:
     QualificationWindow:
     EffectiveCoordinateFloorMap: <map and source>
-    CoordinateTable: <all coordinates, values, adjacent-value rationales, evidence loci>
+    CoordinateTable: <all coordinates, values or unestablished states, adjacent-value rationales, evidence loci; rendering as in 4.4a>
     BoundedOmittedQuestionSearch: <checked basis and any answer-changing question found>
     PrecisionRestorationProfile?: <only when the requested reusable result or named reliance consumes it>
     KindRestorationChecks?: <for repairs that can change FPF-governed meaning when this result consumes the exact check>
@@ -217,7 +217,7 @@ Coordinate separation is by repair question. One `DRR` section may support sever
 
 Use the question-to-ground and result-acceptance operation in `E.22:4.3` within this evaluation.
 
-A complete reusable E.9.DA coordinate result uses this table shape. An ordinary bounded review may use the coordinates as probes and return substantive findings or repaired text without creating the table:
+A complete reusable E.9.DA result makes every coordinate, its value or unestablished state, the applicable adjacent-value rationale, and its evidence locus recoverable. Choose its form for the receiving use, preserving any required serialization; the table below is one sufficient form:
 
 | Coordinate | Value | ShortRationale | EvidenceLocus |
 |---|---:|---|---|
@@ -225,7 +225,7 @@ A complete reusable E.9.DA coordinate result uses this table shape. An ordinary 
 
 For values `1..4`, explain why the lower adjacent value would understate the evidence and the higher adjacent value would overstate it. For `0`, explain why `1` would overstate the evidence and what would raise the value or reopen it. For `5`, explain why `4` would understate the evidence and what would lower the value or reopen it.
 
-A prose summary, heading checklist, two-column coordinate-and-value table, or table without an `EvidenceLocus` is not a complete reusable coordinate result. It may still be a valid ordinary bounded review when it precisely states the checked DRR, required use and source, effective floor, substantive finding, repaired text or clean unchanged result, first action, and stop or reopen condition. When required evidence is missing or unchecked, identify the gap and leave the affected value unestablished until the needed check is completed. Assign a lower value only when checked content shows the inadequacy specified by that coordinate's value rule; for example, an absent required decision in the DRR can justify a low value. An answer-changing omitted question requires reassessment of each dependent coordinate under that same rule; it is not an extra coordinate or a compensable checklist item.
+A result that omits a required coordinate, its value or unestablished state, applicable rationale, or evidence locus is incomplete for reusable coordinate use. An ordinary bounded review remains sufficient when it precisely states the checked DRR, required use and source, effective floor, substantive finding, repaired text or clean unchanged result, first action, and stop or reopen condition. When required evidence is missing or unchecked, identify the gap and leave the affected value unestablished until the needed check is completed. Assign a lower value only when checked content shows the inadequacy specified by that coordinate's value rule; for example, an absent required decision in the DRR can justify a low value. An answer-changing omitted question requires reassessment of each dependent coordinate under that same rule; it is not an extra coordinate or a compensable checklist item.
 
 Common calibration points:
 
@@ -284,7 +284,7 @@ E.9.DA reliance-bearing result:
   A.13 performer-core and A.15.1 Work refs, only when dated U.Work is asserted:
   F.6 attribution refs, only when precise assignment-bound attribution is asserted:
   Evidence basis checked, including the bounded omitted-question search:
-  Coordinate table: <Coordinate | Value | ShortRationale | EvidenceLocus>
+  Coordinate results: <each Coordinate, Value or unestablished state, ShortRationale, EvidenceLocus; form as in 4.4a>
   Precision-restoration reading and triggered exact checks:
   Witness and evidence-use refs actually used by the reliance:
   Status, first action or repair, bounded overread, and reopen condition: <include stop or return; overread only when independently grounded>

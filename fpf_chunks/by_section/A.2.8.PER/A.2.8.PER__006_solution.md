@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__006_solution.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:4 — Solution"
-line_start: 7628
-line_end: 7816
+line_start: 7631
+line_end: 7821
 dependencies:
   - "A.10"
   - "A.13"
@@ -191,7 +191,7 @@ PermissionNormConflictFinding@Context <: U.Episteme
   conflictingNormClaimAddress: ClaimAddress
   overlapScope: U.ClaimScope
   overlapWindow: QualificationWindowPolicy
-  governingPrecedencePolicyRef: U.EpistemeRef
+  governingPrecedencePolicyRef?: U.EpistemeRef
   applicablePrecedenceRuleAddress?: ClaimAddress
   decisionAuthorityRelationOccurrenceRef?: U.RelationRef constrained to the direct decision-authority relation kind
   resolutionWorkRef?: WorkRef
@@ -202,6 +202,8 @@ PermissionNormConflictFinding@Context <: U.Episteme
 ```
 
 Create the finding only when the grant and current prohibition or commitment concern the same beneficiary/action content, overlapping scope/window, and incompatible practical conclusions. Check that match directly from the two claims and their participants. Permission and an obligation to perform the same action are not automatically in conflict.
+
+An unresolved finding may omit `governingPrecedencePolicyRef` when no governing precedence policy has been identified. Keep the disposition unresolved and retain the missing input and what would reopen the question. A settled finding identifies the governing policy and the applicable rule or independently grounded decision result.
 
 Resolve the conflict through exactly one of two branches:
 

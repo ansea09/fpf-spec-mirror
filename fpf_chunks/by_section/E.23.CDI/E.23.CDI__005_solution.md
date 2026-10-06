@@ -6,12 +6,12 @@ section_id: "E.23.CDI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__005_solution.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:4 — Solution"
-line_start: 103240
-line_end: 103292
+line_start: 103282
+line_end: 103334
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -73,7 +73,7 @@ Use this branch when deciding how a holder will acquire or obtain a contribution
 
 The first useful result names the admitted holder System, target Work family, current capability baseline, operating envelope, decision-bearing measures and evidence, qualification window or currentness condition, desired measures or success predicate, current limiting contribution, selected intervention and any provider dependency, protected conditions, representative transfer check, and reopen condition. If member distributions or cultural propagation are also current, return their separate assessment or C.36 result. A population can be the capability holder only when that whole is independently admitted as the System.
 
-The exact holder, its qualified `A.2.2` ability claim and the basis for relying on the current baseline must be recoverable. The practitioner-facing result can still remain the two short sentences above plus the evidence used for the baseline and transfer result. Expose record identifiers, a separate `E.22` evaluation frame, or detailed provider and service relations only when a receiving use needs them.
+The exact holder, its qualified `A.2.2` ability claim and the basis for relying on the current baseline must be recoverable. The practitioner-facing result can still remain the short account above plus the evidence used for the baseline and transfer result. Expose record identifiers, a separate `E.22` evaluation frame, or detailed provider and service relations only when a receiving use needs them.
 
 Keep the selected intervention or plan, performed development Work, performed transfer Work, transfer evidence and result, pre- and post-intervention capability statements, a comparison claiming capability change, and any actual Transformation claim separate. A plan remains prospective. For performed Work, recover each exact actual performer through A.13 and let A.15.1 independently admit the occurrence; add F.6 only when the record or receiving use expressly consumes precise assignment-bound attribution. A capability-change comparison needs commensurable measures, envelopes, windows, and current support; it does not by itself say that the development Work caused a world-side change. A causal Transformation claim additionally needs an independently identified `A.3.4` Transformation and a named obtaining Work-to-change predicate or a supported local claim under `A.6.RCD`. Completion of development or transfer Work alone establishes none of these later claims. If the direct relation is missing, retain the Work, evidence, capability statements, and comparison and return that exact blocker.
 

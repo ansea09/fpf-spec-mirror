@@ -6,12 +6,12 @@ section_id: "A.3.4.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__006_archetypal-grounding.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:5 — Archetypal Grounding"
-line_start: 11043
-line_end: 11088
+line_start: 11048
+line_end: 11093
 dependencies:
   - "A.10"
   - "A.15.1"

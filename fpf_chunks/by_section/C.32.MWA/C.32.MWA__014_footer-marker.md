@@ -6,12 +6,12 @@ section_id: "C.32.MWA:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__014_footer-marker.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:13 — Footer marker"
-line_start: 74953
-line_end: 74956
+line_start: 74993
+line_end: 74996
 dependencies:
   - "A.15.1"
   - "A.22"

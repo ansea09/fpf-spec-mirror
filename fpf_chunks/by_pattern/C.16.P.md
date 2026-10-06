@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.P.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
-line_start: 55885
-line_end: 56135
+line_start: 55900
+line_end: 56150
 dependencies:
   - "A.10"
   - "A.15"
@@ -136,7 +136,7 @@ CharacteristicScaleRepairNote:
   unit?:
   scoringMethod?:
   indicatorRelationRef?: U.RelationRef for the selected indicated-characteristic, proxy, measurement-use, evidence-use, or other direct relation
-  indicatorRelationDisposition: direct-relation | ordinary-indicator-wording | missing-governor
+  indicatorRelationDisposition?: direct-relation | ordinary-indicator-wording | missing-governor
   comparisonReferenceOrComparatorSet?:
   thresholdRuleOrReference?:
   proxyDistortionRisk?:
@@ -148,7 +148,7 @@ CharacteristicScaleRepairNote:
   disposition:
 ```
 
-Use the full note only when the repair must remain inspectable. Use a local rewrite when one sentence clearly states the characteristic and scale construction and subject pattern. Keep necessary subject applicability or stop conditions in the repaired wording or `admissibleUse`. Include `nonAdmissibleUse` as an explanatory guard only under F.19:4's full independent-ground, plausible-reader, contribution, and smallest-clear-correction test; an unused guard needs no absence entry.
+Use the full note only when the repair must remain inspectable. Use a local rewrite when one sentence clearly states the characteristic and scale construction and subject pattern. In a note, include `indicatorRelationDisposition` when indicator wording or an indicator/proxy claim is under repair, following §4.1; otherwise omit it. Keep necessary subject applicability or stop conditions in the repaired wording or `admissibleUse`. Include `nonAdmissibleUse` as an explanatory guard only under F.19:4's full independent-ground, plausible-reader, contribution, and smallest-clear-correction test; an unused guard needs no absence entry.
 
 #### C.16.P:4.1 - Recovery sequence
 

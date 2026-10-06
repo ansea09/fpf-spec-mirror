@@ -6,12 +6,12 @@ section_id: "A.6.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__003_problem.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:2 — Problem"
-line_start: 14887
-line_end: 14904
+line_start: 14902
+line_end: 14919
 dependencies:
   - "A.6.0"
   - "A.6.1"

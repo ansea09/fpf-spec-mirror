@@ -6,12 +6,12 @@ section_id: "C.2.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__012_sota-echoing.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:11 — SoTA-Echoing"
-line_start: 50906
-line_end: 50908
+line_start: 50921
+line_end: 50923
 dependencies:
   - "A.16"
   - "A.16.0"

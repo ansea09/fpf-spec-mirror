@@ -6,12 +6,12 @@ section_id: "E.17:9"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__011_conformance-checklist-normative.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:9 — Conformance Checklist (normative)"
-line_start: 95833
-line_end: 95876
+line_start: 95875
+line_end: 95918
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -70,7 +70,7 @@ A conformance check is kept only if it changes the next bounded use of the publi
 | **CC‑MVPK‑2 (Functoriality)** | `Emit_s(id)` is identity; `Emit_s(g∘f) = Emit_s(g)∘Emit_s(f)`. | Compose two cards and diff with the card of the composite. |
 | **CC-MVPK-3b (Boundary claim-set integrity)** | If a published arrow is a boundary, interface, or protocol and an A.6.B claim set exists (`L-*`, `A-*`, `D-*`, and `E-*`), then normative text on faces is traceable to that claim set (prefer claim-ID citations); faces do not become a second boundary specification. | Lint flags uncited normative clauses; faces reduce to {claim-ID citations + informative commentary}. |
 | **CC‑MVPK‑4b (Lean evidence-facing lane)** | If `AssuranceLane-Lite` is used, presence bits for current evidence or bridge references suffice; full evidence-carrier lists remain with the exact evidence source. | Presence bits are visible, and no assurance or sufficiency claim is inferred from the lane. |
-| **CC-MVPK-4c (Input and Output vs publication)** | When a morphism face exposes input/output information, it points to the signature-side declarations instead of duplicating them; it carries only source references and pins needed by the face. | The face has no second Input/Output specification and no unused presence-pin dossier. |
+| **CC-MVPK-4c (Input and Output vs publication)** | When a morphism face exposes input/output information, the signature-side declarations remain authoritative. Provide an exact accessible return or carry the needed source-attributed content for detached use. | The face creates no independent Input/Output specification; its receiving use can recover the needed declarations and material pins. |
 | **CC-MVPK-4d (Published comparison and ordering)** | A source contrast keeps its declared comparison criteria. A published selection or ordering keeps its source-defined set or order semantics and comparator, citing **ComparatorSet** when that formal family is used. | No hidden scalarization or decision by display order; an ordinary bounded contrast needs no invented ranking or comparator family. |
 | **CC-MVPK-4e (Signature names the actual object)** | Use **Signature** on a face only for an object that is a signature under its applicable pattern. Use **TechName** or **PlainName** for the face's name. | A cited signature remains identifiable; a face label is not presented as a signature. |
 | **CC‑MVPK‑4f (Numeric and optional-PC discipline)** | Numeric or comparable claims retain the source pins that affect interpretation; when the optional PC profile is selected, its PC and CHR/CG references are explicit. | Cards show the material unit, scale, reference-plane, and edition pins; selected PC fields resolve without making PC classification a prerequisite for an ordinary face. |
@@ -78,7 +78,7 @@ A conformance check is kept only if it changes the next bounded use of the publi
 | **CC‑MVPK‑4h (Edition pins on defs)** | Where maps, distances, or spaces are cited, the face pins `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `CharacteristicSpaceRef.edition?`. | Validation shows edition fields populated. |
 | **CC‑MVPK‑4i (Crossing references)** | A semantic crossing cites its F.9 Bridge and separate bounded-use claim; a plane-dependent value cites its selected `ReferencePlane` and applicable rule. A B.3 `CL`/`Φ(CL)` reference appears only when the current assurance use consumes that integration relation. | F.9 and plane references resolve; any B.3 penalty belongs to the assurance-bearing integration relation, not to the face. |
 | **CC‑MVPK‑4k (Subset‑of underlier)** | For views about epistemes or capabilities, `PublicationScope ⊆ ClaimScope or WorkScope`; reindexing **does not widen** it. | Subset witness passes; promotion diff shows no widening. |
-| **CC‑MVPK‑6 (Γ‑separation)** | No cost, time, or data-spend on publication morphisms. | CI shows proof records or witness records; gate validation passes. |
+| **CC‑MVPK‑6 (Γ‑separation)** | No cost, time, or data-spend on publication morphisms. | Inspection shows that any cost, time, or data-spend claim concerns separately identified Work. |
 | **CC‑MVPK‑7 (Reindexing monotone)** | If `s ⪯ t`, then `Emit_s(x) ⪯ Emit_t(x)`. | `TechCard` ≤ `InteropCard` (more structure, same claims). |
 | **CC‑MVPK‑8 (`publication-face kind` discipline)** | Only literal `publication-face kind` values **publication face/form** or **interop publication form** are used; faces are named **...View**, **...Card**, or **...Lane**. | Token scan; no “rendering” or “presentation” as `publication-face kind` values. |
 | **CC‑MVPK‑9 (Reindexing naturality)** | Conceptual-form coercions `PromoteFace[s->t]` exist, are total in the selected formal substrate, and commute with composition. | The local witness uses `PromoteFace` and is not overread as a world-side relation. |

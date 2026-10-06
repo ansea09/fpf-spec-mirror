@@ -6,12 +6,12 @@ section_id: "C.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__006_solution.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:4 — Solution"
-line_start: 57909
-line_end: 58162
+line_start: 57924
+line_end: 58178
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -102,7 +102,7 @@ Use the ordinary default tokens defined in `G.Core` and `G.5`. The rules below e
   The words *Novelty*, *Surprise*, and *diversity* alone are not executable policy inputs.
 - **Archive:** `K=1`, `ε=0`, deduplication in `CharacteristicSpace`.
 - **Policy family:** one uncertainty-aware explore policy family with one declared regime key and explicit change triggers; `UCB`-class with moderate temperature and `explore_share ≈ 0.3–0.5` is one didactic starter profile, not the semantic default family.
-- **Provenance (minimum):** record `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `DHCMethodRef.edition`, `emitterPolicyRef`, `insertionPolicyRef`, scalar `dedupThreshold`, `deduplicationBasisRef`, `deduplicationUnit`, `timeWindow`, and `seeds`.
+- **Provenance (minimum for the current use):** record `DescriptorMapRef.edition` and `DistanceDefRef.edition` when their definitions are used. A consumed DHC coordinate carries the active fields of C.21's `DHCReplayBasis`, including `DHCMethodRef.edition`. Cite `emitterPolicyRef` and `insertionPolicyRef` for the policies used. An applied deduplication threshold keeps scalar `dedupThreshold`, `deduplicationBasisRef`, and `deduplicationUnit`, whether supplied by a cited policy or stated here. Retain `timeWindow` and `seeds` when they affect replay.
 
 **Use-value and declared-Q boundary.** `C.16.Q` is the pattern for the selector-context meaning of use-value and its `Objective` form. When use-value participates in the current `Q`, declare `QS.UseValue` as an objective head in that exact `Q` and cite the current Q/comparator basis. When it does not participate in the current `Q`, keep the use-value criterion explicitly outside `Q` as a declared side condition or tie-breaker. A pool-policy record may use either declared position but cannot silently promote use-value into `Q` or construct the Q model.
 
@@ -132,7 +132,8 @@ The following **lens profiles** are **illustrative heuristics**. Practitioners M
 - **Platform‑option** — maximize **Option‑Value** under probe cost bounds.
 - **Pilot-then-scale** — optimize **Use-Value** on the declared pilot scope. Set `currentTreatment = widen` only when `assuranceResultRef` cites the exact B.3 assurance result whose supported scope includes the proposed wider pool, and `changeTrigger` names the satisfied assurance condition and that newly supported scope; otherwise keep the pilot scope.
 - **Heterogeneity-first (illustrative profile).** Use only when the applicable policy already admits a heterogeneity constraint or sampler policy. The applicable policy may declare a `FamilyCoverage` or `MinInterFamilyDistance` gate, a family or subfamily quota, or a diversity-promoting sampler; no universal `k`, `δ_family`, quota vector, sampler class, DPP rule, or max-min rule is supplied here. Record only the admitted policy values and ids actually used.
-**Conformance (lens recording).** A pool-policy record that uses a lens **MUST** record its **lens id** alongside `emitterPolicyRef`. (This restates and localizes C19-3.)
+
+**Conformance (lens recording).** A pool-policy record that uses a lens **MUST** record its **lens id**. Include `emitterPolicyRef` when the current treatment uses that profile.
 
 #### C.19:4.1 - Explicit pool-policy result
 

@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__011_rationale.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
   - "A.6.RSIG:10 — Rationale"
-line_start: 12306
-line_end: 12312
+line_start: 12315
+line_end: 12321
 dependencies:
   - "A.6"
   - "A.6.P"

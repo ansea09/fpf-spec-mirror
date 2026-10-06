@@ -6,12 +6,12 @@ section_id: "E.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__002_problem-frame.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:1 — Problem frame"
-line_start: 81341
-line_end: 81343
+line_start: 81381
+line_end: 81383
 dependencies:
   - "E.1"
   - "E.2"

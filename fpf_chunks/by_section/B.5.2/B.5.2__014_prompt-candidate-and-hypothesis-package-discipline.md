@@ -6,12 +6,12 @@ section_id: "B.5.2:13"
 section_title: "Prompt, Candidate, and Hypothesis Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__014_prompt-candidate-and-hypothesis-package-discipline.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:13 — Prompt, Candidate, and Hypothesis Package Discipline"
-line_start: 47126
-line_end: 47166
+line_start: 47141
+line_end: 47181
 dependencies:
   - "A.10"
   - "A.16"
@@ -27,7 +27,7 @@ keywords:
 
 ### B.5.2:13 - Prompt, Candidate, and Hypothesis Package Discipline
 
-The abductive loop stays auditable only if the three main publication forms remain distinct: the **prompt**, the **candidate set**, and the **selected prime hypothesis**. Collapsing them into one paragraph is one of the main reasons later review cannot reconstruct what actually happened.
+Keep the **prompt**, the **candidate set**, and the **selected prime hypothesis** distinguishable in the publication. One paragraph can suffice when the question, rivals, selection grounds and outcome remain recoverable. Separate or link their expressions when independent revision or a receiving use needs that separation.
 
 #### B.5.2:13.1 - Prompt package
 

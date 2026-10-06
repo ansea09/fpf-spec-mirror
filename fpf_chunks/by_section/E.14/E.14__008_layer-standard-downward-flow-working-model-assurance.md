@@ -6,12 +6,12 @@ section_id: "E.14:5"
 section_title: "Layer Standard & Downward Flow (Working‑Model → Assurance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__008_layer-standard-downward-flow-working-model-assurance.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:5 — Layer Standard & Downward Flow (Working‑Model → Assurance)"
-line_start: 93306
-line_end: 93373
+line_start: 93348
+line_end: 93415
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -47,7 +47,7 @@ This section defines **what each layer is for**, **what it guarantees when selec
 
 **What to check.** When Mapping assurance is selected, verify the Working-Model label's alignment to its chosen model value in the current scope. Recover the synonyms, abbreviations, locales, and registers needed for that comparison in the Mapping account. This can contribute to **Concept-Bridge Assurance (CBA)** under B.3.3 when it establishes a claim-relevant meaning correspondence; collecting labels alone does not raise assurance.
 
-**Deliverable.** When the current use needs source-word alignment, provide a compact alignment table for that scope. It makes obvious which **one label** the Working-Model shows and which background labels remain source wording.
+**Deliverable.** When the current use needs source-word alignment, provide a compact alignment account for that scope. It makes obvious which **one label** the Working-Model shows and which background labels remain source wording.
 
 *(Rationale: Working teams speak many dialects; the Working‑Model speaks one. Mapping is the interpreter.)*
 

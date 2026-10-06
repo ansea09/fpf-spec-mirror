@@ -6,12 +6,12 @@ section_id: "C.32.ACS:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__003_problem.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:2 — Problem"
-line_start: 73626
-line_end: 73635
+line_start: 73666
+line_end: 73675
 dependencies:
   - "A.1.1"
   - "A.10"

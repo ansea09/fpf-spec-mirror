@@ -6,12 +6,12 @@ section_id: "E.23.CDI:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__003_problem.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:2 — Problem"
-line_start: 103223
-line_end: 103228
+line_start: 103265
+line_end: 103270
 dependencies:
   - "A.15.1"
   - "A.2.2"

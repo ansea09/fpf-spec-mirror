@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 97158
-line_end: 97172
+line_start: 97200
+line_end: 97214
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -41,13 +41,13 @@ keywords:
 
 ### E.17.ID.CR:8 - Common Anti-Patterns and How to Avoid Them
 
-**Positive boundary-use profile.** Read the anti-pattern table below only after the ordinary working card has recovered the bounded comparative review unit. The ordinary result is positive: compared source epistemes or source publications, shared review frame, bounded comparative lift, blocked downstream claim or effect, and boundary trigger. If one row below fires, keep the comparison unit only for bounded review use and name the neighboring governing pattern for the crossed claim; do not turn the table into a general negative catalogue of every action the unit cannot perform.
+**Positive boundary-use profile.** Read the anti-pattern table below only after recovering the ordinary minimum for the bounded comparative review unit. The ordinary result is positive: compared source epistemes or source publications, shared review frame, bounded comparative lift, blocked downstream claim or effect, and boundary trigger. If one row below fires, keep the comparison unit only for bounded review use and name the neighboring governing pattern for the crossed claim; do not turn the table into a general negative catalogue of every action the unit cannot perform.
 
 | Anti-pattern | Why it is wrong | How to avoid it |
 | --- | --- | --- |
 | **Comparison-unit instability** | The text sounds as if it governs a note in one section, a publication unit in another, a comparative move in a third, and a whole review process in a fourth. | Stabilise one bounded comparative review unit early and keep note, sheet, UI, and rendering labels explicit as ordinary forms of that object rather than stylistic substitutes. |
 | **Bridge gloss inflation** | A helpful comparative sentence or stance word starts acting like a Bridge or use licence. | Require `bridgeOccurrenceRef` and `boundedUseClaimRef`; keep any Card optional, and use `bridgeStanceRef` only for a separate F.9.1 episteme about that exact claim. |
-| **Soft prompt smuggling** | The review unit is really creating an abductive prompt or action-selection case, but hides it in gentle prose. | If prompt selection or action-selection claim governs the next action, publish `U.AbductivePrompt` with explicit `promptSpecies`, `openQuestion`, and cue or action-selection provenance instead of keeping it here. |
+| **Soft prompt or choice smuggling** | The review unit has begun asking for an explanation or selecting an action but hides that change in comparative prose. | For an explanatory question with rival explanations still open, use `B.5.2.0` or `B.5.2` and publish the prompt's species, open question, scope, and motivating provenance. For a choice among already available actions, probes, or method options, use `C.11`; choice alone requires no `U.AbductivePrompt`. |
 | **Viewing capture** | Same-entity restatement or representation-shift work is pulled into interpretation just because the result is more readable. | Name the base source relation or representation work first and use bounded comparison only when bounded comparative lift is primary. |
 | **Explanation-face laundering** | Interpretation language is used to avoid explicit `E.17.EFP` class and bounded-use review. | If face class or bounded connective prose is primary, stay with `E.17.EFP`. |
 | **Gentle-tone advisory overread** | A calm explanatory tone makes work or reliance, assurance, or gate guidance sound harmless. | Publish `boundedComparativeUse`, `overreadRisk`, `worldContactPolicy`, and `downstreamAuthorityLimit` explicitly. |

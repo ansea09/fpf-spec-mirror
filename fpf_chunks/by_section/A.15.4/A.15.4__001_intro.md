@@ -6,12 +6,12 @@ section_id: "A.15.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__001_intro.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:intro — Intro"
-line_start: 28104
-line_end: 28161
+line_start: 28117
+line_end: 28174
 dependencies:
   - "A.10"
   - "A.13"
@@ -78,7 +78,7 @@ Blocked overread:
 Return when:
 ```
 
-Use structured `RequiredPositionEntries` only when the attempted use has several independent prerequisites, when release, safety, compliance, external impact, or irreversibility makes the distinctions load-bearing, or when another person or system must inspect the result later. Then add one row per direct object:
+Keep each independently required object, its subject pattern and test, native reference, required posture or currentness, and dependency on the attempted use separately recoverable. Retain a sufficient existing note or exact accessible source account. Use `RequiredPositionEntries` when rows help compare or inspect the prerequisites; in that layout, use one row per direct object:
 
 ```text
 RequiredPositionEntries:
@@ -89,7 +89,7 @@ RequiredPositionEntries:
     DependencyOnAttemptedUse:
 ```
 
-These are rows in the local note, not relation participants or a new prerequisite ontology. If the analysis itself must persist as a reusable claim, publish one bounded C.2.1 episteme whose exact EntityOfConcern is the subject of the attempted use and whose ClaimGraph contains the needed rows and disposition. Split it when the claims have different entities of concern.
+These worksheet rows represent prerequisites defined by their subject patterns. If the analysis itself must persist as a reusable claim, publish one bounded C.2.1 episteme whose exact EntityOfConcern is the subject of the attempted use and whose ClaimGraph contains the needed prerequisite claims and disposition. Split it when the claims have different entities of concern. For a separated handoff, carry the interpretation and source return the recipient would otherwise lose; an exact link suffices only when that recipient can access and use it.
 
 **First repair use in practice.** State what the appearance may safely do now: orient attention, help find the required relation or result, preserve an early cue through `A.16.1`, support planning only through a `U.WorkPlan`, permit a bounded reversible probe, or block only the unsupported use.
 
@@ -101,7 +101,7 @@ These are rows in the local note, not relation participants or a new prerequisit
 1. Name the appearance by its actual kind without treating it as the required relation or result.
 2. Name the exact attempted use and the subject that use concerns.
 3. Name the first direct prerequisite and the pattern that defines or tests it. For an ordinary one-prerequisite case, stop with the plain note.
-4. Add typed rows only under the structured-use conditions above. Keep each independently required claim, instituted effect, relation occurrence, result, decision, assignment, evidence relation, currentness relation, or plan in its own row.
+4. Keep each independently required claim, instituted effect, relation occurrence, result, decision, assignment, evidence relation, currentness relation, or plan separately recoverable. Choose typed rows when their arrangement helps comparison or inspection.
 5. Before allowing the attempted use, check that every required relation obtains or every result passes its defined criterion, is current, covers the actual beneficiary, action, target, scope, and window, and has any evidence-use, source-currentness, or other source relation required by this reliance.
 6. A relevant permission or norm conflict, gate decision, or work-entry-readiness result remains a separate prerequisite. An unresolved conflict blocks only the affected use and does not make an independently obtaining grant cease.
 

@@ -6,12 +6,12 @@ section_id: "E.20:4"
 section_title: "Solution — the Mechanism Introduction Protocol (MIP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__005_solution-the-mechanism-introduction-protocol-mip.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:4 — Solution — the Mechanism Introduction Protocol (MIP)"
-line_start: 101380
-line_end: 101605
+line_start: 101422
+line_end: 101647
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -168,7 +168,7 @@ If the introduction changes a suite (`MechSuiteDescription` or specialization):
 
 1. **Membership set semantics (WF‑MS‑1).** `mechanisms` is a set: duplicates are nonconformant and list order carries no semantics.
 2. **Ordering is only in protocols.** If ordering matters, express it only in `suite_protocols`.
-3. **Protocol closure (WF‑MS‑2).** If `suite_protocols` is present, then for every `ProtocolStep` in every `SuiteProtocol`, `step.mechanism ∈ mechanisms`.
+3. **Protocol closure (WF‑MS‑2).** Apply A.6.7 WF-MS-2: every `ProtocolStep` in a supplied `SuiteProtocol` resolves to a selected member edition and a declaration-local operation in that edition. Membership alone does not resolve the step.
 4. **No hidden tails.** Required stages (e.g., normalization/aggregation/Γ‑fold) are explicit protocol steps; do not hide them inside other steps.
 5. **Guard/gate separation.** Suites and mechanisms SHALL NOT publish `GateDecision`/`DecisionLog`. `AdmissibilityConditions` and tri‑state `GuardDecision` remain governed by the mechanism definition; `OperationalGate(profile)` acceptance thresholds and pass/fail criteria remain gate/acceptance concerns.
 6. **Suite is descriptive only (WF-MS-3/4).** A suite states membership, obligations, pins, and suite protocols. It does not restate `U.Mechanism` identity-bearing content. Any publication or telemetry continuation remains outside the suite protocol and requires its own exact publication or flow assertion and predicate.
@@ -179,15 +179,15 @@ If the introduction changes a suite (`MechSuiteDescription` or specialization):
 
 If the mechanism introduction changes what one exact `U.WorkPlan` pins, such as selected comparator specifications, method descriptions, a time selector, or guard pins, the WorkPlan edition is the identifiable planning object.
 
-1. Introduce or revise the `SlotFillingsPlanItem` rows as declaration-local ClaimGraph content inside that exact WorkPlan. Each row points to a declaration member whose own pattern defines its meaning and later actual-use rule.
+1. For a future use of an existing declaration member, introduce or revise `SlotFillingsPlanItem` rows as declaration-local ClaimGraph content inside that exact WorkPlan under A.15.3. Use ordinary A.15.2 plan content when only a method or suite choice is being stated.
 2. Give no row an independent kind, record identity, edition, specialization lineage, canonical target, or successor relation. Changing identity-bearing row content changes the WorkPlan's claim content and is handled as a WorkPlan-edition change under C.2.1 and A.15.2.
 3. Keep the declaration-local planned-filling content planning-only:
-   * pins and references only, whether ByValue or through the declared reference kind;
+   * positive intentions for planned values or designations, using the selected member's ValueKind, designation rule and semantic cardinality under A.15.3;
    * no launch values;
    * no `FinalizeLaunchValues` witnesses;
    * no gate decisions or decision logs; and
-   * explicit time through `Γ_time_selector` or `Γ_time_rule_ref` (XOR); implicit “latest” or “current” wording is nonconformant.
-4. In this mechanism-baseline branch, the WorkPlan's planned-filling content SHALL target exactly one **Description-scoped, edition-addressable** slot-bearing description through `target_slot_bearing_description_ref`, typically a kit or suite. It SHALL NOT target a `MechanismDefinitionRef`. If a standalone mechanism baseline is needed, introduce an explicit Description-scoped slot-bearing description wrapper, such as a mechanism kit or suite-of-one, and target that.
+   * conditions, including time, only when they change applicability or value selection, as specified in A.15.3:4.2; retain material edition pins under A.15.3:4.6 rather than implicit “latest” or “current” resolution.
+4. Resolve each row through the declaration edition and member selected under A.15.3:4.1–4.4. For an operation argument or expected result, cite the A.6.1 mechanism edition, operation designator and `ArgumentDeclaration` or `ResultDeclaration`; no Description wrapper is required. If the member's meaning or actual-use rule is undefined, return `missing-governor`.
 5. When a receiver needs one row, cite it only through the exact WorkPlan edition and a stable local-content locator. The locator does not make the row independently resolvable.
 
 This step keeps the P2W planning-to-work boundary crisp: the WorkPlan states **planned fillers**; enactment witnesses **actual runs**.
@@ -197,7 +197,7 @@ This step keeps the P2W planning-to-work boundary crisp: the WorkPlan states **p
 If the introduction involves methods, comparators, selectors, or other SoTA-sensitive choices:
 
 1. Put method/comparator family semantics in **SoTA packs** (G.2) and reference them by edition-pinned refs.
-2. Pin the chosen SoTA refs in declaration-local rows inside the exact WorkPlan (E.20:4.7); wiring consumes those planned values rather than silently overriding them.
+2. Pin the chosen SoTA refs in the exact WorkPlan. Use declaration-local rows only for existing members under E.20:4.7; wiring consumes the selected planned values rather than silently overriding them.
 3. Put flow/task binding logic in **wiring modules** (`GPatternExtension`), with an explicit `PatternScopeId` and declared subject pattern.
 4. Wiring may bind, select, dispatch, or cite SoTA method packs; it may not redefine the mechanism's identity-bearing A.6.1 content. A bridge, realization, evaluation, evidence-use, or publication claim named by wiring remains governed by its direct relation pattern.
 5. If a SoTA update changes a mechanism's signature/laws, that semantic change SHALL be performed in the mechanism-subject pattern, under the A.6.1 mechanism-definition template; the change SHALL emit RSCR triggers (E.20:4.10).

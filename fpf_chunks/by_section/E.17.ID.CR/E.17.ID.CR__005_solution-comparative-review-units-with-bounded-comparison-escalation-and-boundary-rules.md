@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:4"
 section_title: "Solution - comparative review units with bounded comparison, escalation, and boundary rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__005_solution-comparative-review-units-with-bounded-comparison-escalation-and-boundary-rules.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:4 — Solution - comparative review units with bounded comparison, escalation, and boundary rules"
-line_start: 96589
-line_end: 96869
+line_start: 96631
+line_end: 96911
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -52,7 +52,7 @@ In plain working terms, this pattern is for a review unit that says something li
 - `this research synthesis foregrounds uncertainty more than that one, but it is not yet a method choice`;
 - `this program brief foregrounds continuity risk more than that one, but it is not yet a funding decision`.
 
-If that sounds like the review unit you need, keep the comparison unit bounded by the seven-row card. If the first move is no longer bounded comparison over pinned sources, name the crossed claim and let its governing pattern carry that claim before this unit is used.
+If that sounds like the review unit you need, keep the ordinary minimum recoverable. If the first move is no longer bounded comparison over pinned sources, name the crossed claim and let its governing pattern carry that claim before this unit is used.
 
 #### E.17.ID.CR:4.1.b - Compact placement
 
@@ -83,11 +83,11 @@ This pattern uses a small local vocabulary for review.
 - **Bridge references** = required `bridgeOccurrenceRef` and `boundedUseClaimRef` when the case depends on bridge-mediated correspondence rather than ordinary source interpretation alone. The use-claim reference resolves a claim whose `EntityOfConcern` is that Bridge occurrence and whose proposed use, direction, correspondence rule, tolerated loss, and polarity match this comparative unit. Optional `bridgeCardRef` cites reusable packaging, and optional `bridgeStanceRef` cites a separate F.9.1 episteme whose `EntityOfConcern` is that exact use claim.
 - **Bounded comparative use** = what this review unit can be used for while it remains only a bounded comparative review unit.
 - **Overread risk** = how the review unit is most likely to be overread into a bridge, action-selection, ontology, or authority claim that it does not carry.
-- **Prompt boundary** = the explicit `U.AbductivePrompt` publication that becomes the governing publication when an abductive-prompt or action-selection claim governs the next action.
+- **Prompt boundary** = the point at which an explanatory question with rival explanations still open becomes primary under `B.5.2.0` or `B.5.2`; `U.AbductivePrompt` names its initiating publication form.
 - **Ordinary minimum block** = the smallest ordinary record that keeps the review unit honest for working use.
 - **Load-bearing extension** = the fuller declaration record used when the case sits close to bridge, explanation, abductive, ontology, or authority boundaries.
 
-These terms are local review fields for completing the comparative review unit. They keep source references, shared review frame, compared alternatives, bounded lift, blocked downstream claim or effect, and boundary trigger readable in the card.
+These terms are local review fields for completing the comparative review unit. They keep source references, shared review frame, compared alternatives, bounded lift, blocked downstream claim or effect, and boundary trigger readable in the review unit.
 When one of those fields starts carrying a bridge, evidence, gate, speech-act, commitment, work, authority, publication-face, or project-side FPF claim, name that crossed claim and use the governing pattern for it.
 
 #### E.17.ID.CR:4.2 - Scope and exclusions
@@ -103,7 +103,7 @@ When one of those fields starts carrying a bridge, evidence, gate, speech-act, c
 - same-entity restatement, conservative rewrite, or representation shift whose main question stays with `A.6.3`, `A.6.3.CR`, or `A.6.3.RT`;
 - a separate F.9.1 stance note that only clarifies an already constituted F.9 bounded-use claim;
 - explanation-face use discipline, bounded-use boundary, or added-link review on existing faces (`E.17.EFP`);
-- abductive-prompt or action-selection cases (`B.5.2.0` or `B.5.2`);
+- explanatory questions with rival explanations open (`B.5.2.0` or `B.5.2`), and choice among already available actions, probes, or method options (`C.11`);
 - ontology-facing reframing or changed EntityOfConcern (`OntologicalReframing` or `A.6.4`);
 - policy, gate, adjudication, assurance, or work-facing use (name the actual claim and use its governing pattern; see `E.17.ID.CR:4.5`).
 
@@ -126,7 +126,7 @@ Name the base source relation or work question before adding bounded comparison.
 
 Most working users do not have to start with a long declaration block.
 This pattern therefore follows `E.14`'s working-model-first discipline: the first usable block is a small set of plain questions that helps an engineer-manager keep the review unit bounded to the work it can honestly carry.
-The ordinary minimum block comes next for ordinary use: it lets the reader turn the working comparison into the seven-row card before touching the fuller declaration block.
+The ordinary minimum block states the content needed for ordinary use; the card is one way to recover and arrange it.
 The fuller declaration block remains available as a reviewable declaration extension that carries source, boundary, and downstream-claim fields by value. If a real assurance or B.3 threshold is current, cite the separately constituted B.3 claim or record; do not turn this declaration extension into that assurance record.
 
 #### E.17.ID.CR:4.3.a - Five plain working questions
@@ -156,7 +156,7 @@ If those minimum answers cannot stay stable across the same note, sheet, or revi
 
 ##### E.17.ID.CR:4.3.b.a - Ordinary working card
 
-An ordinary comparative review unit normally lets a reader recover these seven rows without using the heavier fuller declaration:
+An ordinary comparative review unit keeps the following content recoverable without the heavier declaration. Use these seven rows when they help:
 
 | Row | Plain question | Minimum answer |
 | --- | --- | --- |
@@ -168,8 +168,8 @@ An ordinary comparative review unit normally lets a reader recover these seven r
 | **World-contact limit** | What can the unit not be used to do? | `review-only and non-executive` |
 | **Boundary trigger** | What would end this pattern and require another governing pattern? | one explicit bridge, explanation, prompt, ontology, or authority trigger |
 
-This working card can appear inline in the comparative review unit or in its immediate review context.
-Use it as the ordinary recovery reference for the near-top working-fit check:
+The working card may appear inline or in the immediate review context. Retain a card or table when its arrangement supports comparison or independent revision of contrast rows. Keep the form required by a specific receiving contract. When the unit travels separately, carry the interpretation and source return needed for that use.
+Use these questions as the ordinary recovery reference for the near-top working-fit check:
 - if rows 1-4 are still unstable because one pressured local lexical head or qualifier is doing too much work, stop and repair that local lexical-head pressure through `E.17.AUD.LHR` (`Local Head Restoration`) before you keep building the comparative review unit here;
 - if rows 3-7 cannot stay stable because the same review unit still has unstable reviewed-source, comparative-move identification, or outside-work boundary after one honest local repair, apply `E.17.AUD.OOTD` (`PublicationUnit Primary-Subject Discipline`);
 - if rows 1-7 stay recoverable over one pinned source slice or source pair, one preserved shared review frame, distinct alternatives where present, and one bounded contrast or small row set, `ComparativeReviewUnit` remains the honest primary governing pattern.
@@ -178,7 +178,7 @@ The nearest stay-here worked slices for this pattern are `E.17.ID.CR:5.4.5` thro
 The nearest stop-and-reopen worked slice is `E.17.ID.CR:5.4.6.c`.
 
 Use the fuller declaration extension only when one of the boundary, reader-fit, or misuse conditions in `E.17.ID.CR:4.3.c` becomes true.
-`ComparativeReviewUnit` remains primary only while those seven rows stay recoverable and the same review unit is still mainly about one bounded comparison, or a small set of bounded contrast rows, over already pinned source epistemes or source publications. If the first question is what the review unit is about, what move it carries, and what wider work remains outside, use `E.17.AUD.OOTD` (`PublicationUnit Primary-Subject Discipline`) to stabilize that `PublicationUnit` question before adding more declaration weight here.
+`ComparativeReviewUnit` remains primary only while the ordinary minimum stays recoverable and the same review unit is still mainly about one bounded comparison, or a small set of bounded contrast rows, over already pinned source epistemes or source publications. If the first question is what the review unit is about, what move it carries, and what wider work remains outside, use `E.17.AUD.OOTD` (`PublicationUnit Primary-Subject Discipline`) to stabilize that `PublicationUnit` question before adding more declaration weight here.
 
 #### E.17.ID.CR:4.3.c - Fuller Declaration Extension Guidance
 
@@ -294,9 +294,9 @@ For a fuller mixed-case read, read this table together with the neighboring patt
 | one review unit already keeps the same primary entity of concern, one bounded comparison, and one outside-work boundary stable | `ComparativeReviewUnit` within `InterpretationDiscipline` |
 | the same unit still has unstable reviewed-source, comparative-move identification, or outside-work boundary after local repair | `E.17.AUD.OOTD` (`PublicationUnit Primary-Subject Discipline`) |
 | the real job is explanation-face governance on existing faces | `E.17.EFP` |
-| the comparison now creates an abductive-prompt claim or action-selection question | `B.5.2.0` or `B.5.2` |
+| the comparison raises an explanatory question with rival explanations still open | `B.5.2.0` or `B.5.2` |
 | the target or ontology is changing and now needs continuity witnesses | `OntologicalReframing` or `A.6.4` |
-| the unit is now being used as a decision-making claim or decision record | `C.11` |
+| the unit is now used to choose among already available actions, probes, or method options, or to publish the resulting decision record | `C.11` |
 | the unit is now being used for execution, gate, or adjudication consequence | `A.15` for System-Role–Method–Work alignment, `A.15.1` for dated `U.Work`, and `A.21` for a named gate decision under its applicable profile; `A.20` only for a named internal-constraint check in a transformation-flow case; adjudication stays with its defining policy or pattern |
 
 For first-minute use, read the four boundary rows around the comparative-review-unit case itself as a compact mirror of the near-top working-fit check and the ordinary working card:
@@ -306,7 +306,7 @@ For first-minute use, read the four boundary rows around the comparative-review-
 - any stronger crossed claim already primary -> the governing pattern for that claim is primary.
 If the comparison unit is already carrying neighboring work, use the boundary rows first and then read `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` as the nearest worked boundary examples.
 
-#### E.17.ID.CR:4.5.a - Ordinary working order for the card
+#### E.17.ID.CR:4.5.a - Ordinary working order
 
 The shortest ordinary working order is:
 1. name the base source relation or work question if the case is mixed;
@@ -315,8 +315,8 @@ The shortest ordinary working order is:
 4. declare the blocked downstream claim or effect and the review-only and non-executive world-contact limit;
 5. name the boundary trigger that would end interpretation.
 
-Use this order only to recover the seven-row ordinary working card in `E.17.ID.CR:4.3.b.a`; publish the resulting card in compact form whenever boundary pressure still stays low.
+Use this order to recover the ordinary minimum in `E.17.ID.CR:4.3.b.a`. Publish the comparison in a sufficient compact form.
 
-If the seven-row working card still cannot be completed plainly through that order, the review unit is not yet ready to stay here.
+If the ordinary minimum still cannot be made explicit through that order, the review unit is not yet ready to stay here.
 If the first question is what the note, sheet, or review aid is about, what move it carries, and what wider work remains outside, stabilize that `PublicationUnit` question with `E.17.AUD.OOTD` (`PublicationUnit Primary-Subject Discipline`) before continuing comparative-review-unit work.
 

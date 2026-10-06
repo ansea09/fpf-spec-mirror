@@ -6,12 +6,12 @@ section_id: "A.19.CPM:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__012_rationale.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:10 — Rationale"
-line_start: 36795
-line_end: 36802
+line_start: 36808
+line_end: 36815
 dependencies:
 keywords:
   - "ComparatorSet"

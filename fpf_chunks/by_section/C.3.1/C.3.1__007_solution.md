@@ -6,12 +6,12 @@ section_id: "C.3.1:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__007_solution.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:5 — Solution"
-line_start: 52004
-line_end: 52015
+line_start: 52019
+line_end: 52030
 dependencies:
   - "A.1"
   - "A.11"

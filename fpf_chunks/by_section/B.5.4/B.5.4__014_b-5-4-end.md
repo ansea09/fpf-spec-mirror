@@ -6,12 +6,12 @@ section_id: "B.5.4:End"
 section_title: "B.5.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__014_b-5-4-end.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
   - "B.5.4:End — B.5.4:End"
-line_start: 47859
-line_end: 47860
+line_start: 47874
+line_end: 47875
 dependencies:
   - "A.7.1"
   - "B.5"

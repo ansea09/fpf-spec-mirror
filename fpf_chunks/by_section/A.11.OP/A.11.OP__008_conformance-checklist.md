@@ -6,12 +6,12 @@ section_id: "A.11.OP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__008_conformance-checklist.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:7 — Conformance Checklist"
-line_start: 25568
-line_end: 25584
+line_start: 25581
+line_end: 25597
 dependencies:
   - "A.10"
   - "A.11"

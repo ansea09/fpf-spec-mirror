@@ -6,12 +6,12 @@ section_id: "B.5.TU:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__006_archetypal-grounding.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
   - "B.5.TU:5 — Archetypal Grounding"
-line_start: 46183
-line_end: 46225
+line_start: 46198
+line_end: 46240
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"

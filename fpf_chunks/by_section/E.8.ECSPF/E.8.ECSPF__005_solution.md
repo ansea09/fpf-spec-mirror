@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__005_solution.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:4 — Solution"
-line_start: 85917
-line_end: 85979
+line_start: 85959
+line_end: 86021
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -87,5 +87,5 @@ Carry the accepted specification through the pattern in practitioner order. “B
 | Protect a useful result from false improvement | `ProtectedTradeoffSet` and `DominanceOrComparisonRule` whenever the accepted specification declares a comparison rule. |
 | Continue, stop, or leave this evaluation | `StatusValueSet`, `StopOrReopenCondition`, `NeighborPatternExitSet`, `E22QuestionFrameUse` when selected, and `E23StartCondition`. |
 
-The fields may be expressed in plain language, tables, or worked cases. Keep them close to the practitioner action they qualify. Do not hide required values in conformance rows, source notes, or review evidence.
+The fields may be expressed in plain language, tables, or worked cases, preserving the accepted `ResultRowShape` and any serialization required by the receiving use. Keep them close to the practitioner action they qualify. Do not hide required values in conformance rows, source notes, or review evidence.
 

@@ -6,12 +6,12 @@ section_id: "B.2.3:5.4"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__008_bias-annotation.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:5.4 — Bias-Annotation"
-line_start: 41812
-line_end: 41821
+line_start: 41827
+line_end: 41836
 dependencies:
   - "A.1"
   - "A.10"

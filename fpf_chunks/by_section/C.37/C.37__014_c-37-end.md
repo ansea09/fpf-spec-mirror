@@ -6,12 +6,12 @@ section_id: "C.37:End"
 section_title: "C.37:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__014_c-37-end.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:End — C.37:End"
-line_start: 77425
-line_end: 77426
+line_start: 77465
+line_end: 77466
 dependencies:
   - "A.10"
   - "A.2.4"

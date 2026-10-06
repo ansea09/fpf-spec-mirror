@@ -6,12 +6,12 @@ section_id: "B.5.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__006_archetypal-grounding.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:5 — Archetypal Grounding"
-line_start: 47065
-line_end: 47072
+line_start: 47080
+line_end: 47087
 dependencies:
   - "A.10"
   - "A.16"

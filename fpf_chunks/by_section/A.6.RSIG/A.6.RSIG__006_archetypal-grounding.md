@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__006_archetypal-grounding.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
   - "A.6.RSIG:5 — Archetypal grounding"
-line_start: 12144
-line_end: 12237
+line_start: 12149
+line_end: 12246
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -38,6 +38,8 @@ Why the cue is not enough yet:
   description to inspect.
 
 Recognition repair:
+
+First recover the defining description; the cue alone leaves its boundary claim unresolved. For the worked branch below, suppose inspection of that defining episteme establishes a request-admissibility condition. If the source instead prescribes a duty or states another boundary claim, recognize that content and apply its corresponding entry.
 
 1. `description_seen` = one boundary-presented admissibility description.
 2. `encountered_carrier_or_projection` = one clause or excerpt where the
@@ -98,6 +100,8 @@ Why the cue is not enough yet:
   pairwise comparison is to determine.
 
 Recognition repair:
+
+With only the cue, first ask what the pairwise comparison is intended to determine. For the worked branch below, suppose the defining episteme supplies comparison under a declared comparator but no selection or publication rule. If the source also defines selection, recover and use that contribution.
 
 1. `description_seen` = one method-description applicability note.
 2. `encountered_carrier_or_projection` = one method-description note, pattern excerpt,

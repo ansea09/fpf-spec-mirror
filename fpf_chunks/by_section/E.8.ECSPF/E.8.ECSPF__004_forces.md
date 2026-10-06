@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__004_forces.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:3 — Forces"
-line_start: 85906
-line_end: 85916
+line_start: 85948
+line_end: 85958
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -30,7 +30,7 @@ keywords:
 
 | Force | Tension |
 |---|---|
-| **Recognition first vs coordinate completeness** | An evaluation-characteristic-space pattern needs tables, but the reader must first see the working situation and first evaluation use. |
+| **Recognition first vs coordinate completeness** | Coordinate meanings and required result content must be inspectable, but the reader must first see the working situation and first evaluation use. |
 | **Generic E.8 form vs evaluation content** | The canonical pattern skeleton stays fixed, but the evaluation has special content fields from `A.19.ECS`. |
 | **Reusable FPF pattern vs local evaluation** | FPF publication is useful only when the evaluation is durable and reusable beyond one local project. |
 | **Values named by value vs checklist feel** | Values and statuses must be named by value without making the pattern feel like an administrative form. |

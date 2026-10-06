@@ -6,12 +6,12 @@ section_id: "C.36.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__005_forces.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:3 — Forces"
-line_start: 79550
-line_end: 79560
+line_start: 79590
+line_end: 79600
 dependencies:
   - "A.1"
   - "A.1.1"

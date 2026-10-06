@@ -6,12 +6,12 @@ section_id: "E.10.INT:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__013_relations.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:12 — Relations"
-line_start: 88956
-line_end: 88964
+line_start: 88998
+line_end: 89006
 dependencies:
   - "C.11"
   - "C.16"

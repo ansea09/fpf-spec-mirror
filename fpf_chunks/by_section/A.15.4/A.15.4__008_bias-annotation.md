@@ -6,12 +6,12 @@ section_id: "A.15.4:4.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__008_bias-annotation.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:4.1 — Bias-Annotation"
-line_start: 28517
-line_end: 28522
+line_start: 28530
+line_end: 28535
 dependencies:
   - "A.10"
   - "A.13"
@@ -55,5 +55,5 @@ keywords:
 
 A.15.4 corrects appearance-based reliance. A publication face, dashboard tile, credential view, generated explanation, copied approval, provenance mark, schema wording, or API response can look ready for work before the required relation or result and its project-side FPF reference are named. The repair keeps the reliance appearance separate from the source relation or other relation that supports the claim.
 
-It also corrects over-repair bias. Follow the opening progressive path: stop with the ordinary result when one prerequisite is enough, and open structured rows or a durable episteme only under the stated structured-use conditions.
+It also corrects over-repair bias. Retain a sufficient ordinary result, choose rows when they help comparison or inspection, and persist the analysis as a reusable claim only when a later use needs it.
 

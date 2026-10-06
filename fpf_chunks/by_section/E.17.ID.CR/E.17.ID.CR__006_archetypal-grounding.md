@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__006_archetypal-grounding.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:5 — Archetypal grounding"
-line_start: 96870
-line_end: 97106
+line_start: 96912
+line_end: 97148
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -42,7 +42,7 @@ keywords:
 ### E.17.ID.CR:5 - Archetypal grounding
 
 **Worked-slice note.** Use the system case, episteme case, and worked boundary examples as a heterogeneous example bank, not as one recommended progression.
-They show different bounded outcomes for the same governing pattern: some cases stay small and stop, some stay mixed with a neighboring pattern, and some reopen or apply another governing pattern when outside observations, environmental change, or downstream constraints change what the comparative review unit can honestly carry. Complete the seven-row card for the current comparison unit; if the boundary trigger fires, stop here or apply the governing pattern for the crossed claim.
+They show different bounded outcomes for the same governing pattern: some cases stay small and stop, some stay mixed with a neighboring pattern, and some reopen or apply another governing pattern when outside observations, environmental change, or downstream constraints change what the comparative review unit can honestly carry. Make the ordinary minimum recoverable for the current comparison unit; if the boundary trigger fires, stop here or apply the governing pattern for the crossed claim.
 
 #### E.17.ID.CR:5.1 - Tell
 
@@ -75,7 +75,7 @@ One rendering is a `SourceLinkedExplanationReconstruction` on a `TechCard` face;
 - the base-case governing patterns remain identifiable;
 - the comparative lift is explicit and bounded to one reviewer task;
 - explanation-face governance and same-entity transform discipline remain with their neighboring patterns;
-- authority-bearing use and prompt-bearing action-selection pressure remain governed by their neighboring patterns.
+- explanatory questions, action selection, and authority-bearing use remain governed by their respective neighboring patterns.
 
 #### E.17.ID.CR:5.4 - Worked boundary examples
 
@@ -229,7 +229,7 @@ Why it stays here:
 **Prompt-bearing review unit.** "This contrast raises the question whether both systems are being constrained by the same hidden gating variable, so we normally publish a U.AbductivePrompt around that shared control possibility."
 
 Why `ComparativeReviewUnit` no longer governs:
-- abductive-prompt or action-selection claim governs the next action;
+- an explanatory question with rival explanations still open governs the next action;
 - the review unit is now prompt-bearing rather than only interpretive;
 - the selected governing pattern is `B.5.2.0` or `B.5.2` through explicit `U.AbductivePrompt` publication.
 

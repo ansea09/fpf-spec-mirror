@@ -6,12 +6,12 @@ section_id: "C.23:4"
 section_title: "Solution — Method‑SoS‑LOG: deductive shells over Eligibility & Evidence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__005_solution-method-sos-log-deductive-shells-over-eligibility-evidence.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:4 — Solution — Method‑SoS‑LOG: deductive shells over Eligibility & Evidence"
-line_start: 60759
-line_end: 60846
+line_start: 60775
+line_end: 60883
 dependencies:
   - "A.10"
   - "B.3"
@@ -76,11 +76,11 @@ with the following **branch obligations**:
 **Note (CAL vs LOG).** CAL‑level **`degrade.order`** (fall‑back to order‑only comparisons) is governed by **G.4**/**CG‑Spec** and is **not** a LOG mode. **SoS‑LOG never overrides CAL outcomes**; a LOG branch **only narrows** `Scope(G)` or **execution mode** (e.g., `sandbox`, `probe‑only`), it **does not** alter CHR scales or admissible orders.
 `probe‑only` MUST cite an **E/E‑LOG policy id** (exploration budget) and Acceptance‑bound guards.
 
-**R3 — Abstain.** If S2 violates **Eligibility** or R0 fails, return `Abstain` with the failed rule, policy edition, evidence profile, claim scope, qualification window, and reasons. Abstain is mandatory for illegal CHR operations and when a conclusion depends on an F.9 Bridge, kind relation, or plane relation that has not been established.
+**R3 — Abstain.** If S2 violates **Eligibility** or R0 fails, return `Abstain` with the failed rule, reasons, and available policy, evidence-profile, scope, and qualification-window basis. Report missing references and unperformed judgements under §4.2.1. Abstain is mandatory for illegal CHR operations and when a conclusion depends on an F.9 Bridge, kind relation, or plane relation that has not been established.
 
 **R4 — Relation and loss routing.** Cite an F.9 Bridge, kind relation, or plane relation only when the admission decision actually relies on that obtaining relation. Record its participants, direction, what meaning is preserved and what is lost, receiving use, and applicable policy edition. When the admission use makes a separate named assurance claim, identify its exact target claim and receiving use under B.3. Apply a supported loss penalty only under that assurance policy's declared rule; route it to `R_eff` only, leaving `F` and `G` unchanged. A changed registry row, evidence profile, claim scope, qualification window, or intended use is not by itself a crossing.
 
-**R5 — Proof hooks.** Every branch **MUST** cite **Evidence Graph Ref** (A.10), the lane tags (TA/VA/LA) and freshness windows required by its cited CG-Spec.MinimalEvidence and EvidenceProfile, and **Bridge ids + loss notes** when the branch relies on a Bridge; the decision is **SCR‑visible**. When **G.6 EvidenceGraph** is present, also **publish EvidenceGraph path id(s)** for the branch (admit/degrade/abstain). **A branch verdict is not its own evidence basis**.
+**R5 — Proof hooks.** Every branch **MUST** retain its **A.10 evidence/source basis** for the conclusion it makes. For an early `Abstain`, cite the available basis for the failed prerequisite and name the required evidence that could not be recovered. Evidence used by a branch retains the lane tags (TA/VA/LA) and freshness windows required by its CG-Spec.MinimalEvidence and EvidenceProfile; missing requirements remain explicit gaps under §4.2.1. Cite **Bridge ids + loss notes** when the branch relies on a Bridge; the decision is **SCR‑visible**. When **G.6 EvidenceGraph** is present, also **publish EvidenceGraph path id(s)** for the branch (admit/degrade/abstain). **A branch verdict is not its own evidence basis**.
 
 **R6 — QD archive / PortfolioMode semantics (if applicable).** If `PortfolioMode=Archive`, G.5 selection after `Admit` may return a **QD archive** (per `ArchiveConfig`) instead of only a Pareto set. Unless **CAL** authorises `DominanceRegime=ParetoPlusIllumination` (**policy‑id recorded in SCR**), **IlluminationSummary** is a **report‑only telemetry summary** and any **coverage/regret** are **telemetry metrics** (reported) that **do not** affect dominance.
 
@@ -93,9 +93,30 @@ with the following **branch obligations**:
 
 > *Aphorism.* **“Admit on admissibility and sufficiency; degrade on uncertainty; abstain on inadmissibility.”**
 
+##### C.23:4.2.1 - Report the branch actually reached
+
+An early `Abstain` completes the admission result for the attempted use. Keep the failed rule, reasons, known family and registry edition, TaskSignature, intended use, claim scope, qualification window, and available source and policy references. Name any required reference that could not be resolved and the available basis for that finding. The report can stop there without completing later judgements.
+
+Retain each premise or result that was established or validly reused for this branch, with its source edition and the scope, window, evidence profile, and use that make it applicable. Reuse does not require recomputing the result. An earlier result whose applicability is unresolved remains unavailable as a premise for this use.
+
+Distinguish these situations for each affected entry:
+
+| Situation | What the report says | Result value |
+| --- | --- | --- |
+| A required basis is missing or unavailable | Name the missing profile, reference, or evidence and why it could not support this use. | Leave the dependent judgement value unestablished. |
+| A judgement was not evaluated | Name the judgement and the reason; use `not reached after R0` or `not reached after R3` when an earlier rule stopped evaluation. | No judgement result was established or reused for this entry. |
+| A live S2 value is the admitted `unknown` | Retain that value under its C.22 value rule and cite the family branch that handles it. | `unknown` remains the supplied value; U2/R2 govern the branch. |
+| An evaluated predicate or AcceptanceClause returned `false` | Cite the predicate or clause, its result, and the basis of that evaluation. | Retain the computed `false`; apply R3 or the declared CAL failure behavior as appropriate. |
+
+These descriptions qualify report entries; they do not extend the S2 value sets, the closed maturity rungs, or the Acceptance verdict domain. An applicable earlier judgement used by the branch is reported as reused, not as unevaluated merely because it was not recomputed. A known result not used by this branch may be cited separately with that limited purpose.
+
+**First use.** A registered family resolves, but the evidence profile required by R0 cannot be recovered. Report `Abstain`, the missing profile and available source basis, maturity `not evaluated` when no applicable judgement is available, and Acceptance `not reached after R0`. Do not insert L0 or `false` to fill those result positions. If R0 passes but Eligibility evaluates to `false`, report that predicate result and R3 `Abstain`; later Acceptance may remain `not reached after R3`. Keep a previously established maturity result if it is applicable and used.
+
+`Admit` still requires the complete R1 evidence, Eligibility, and Acceptance basis. A declared `Degrade(mode)` retains the premises that selected its branch and any consumed maturity results. An unmet Acceptance condition stays unmet when its failure behavior permits a narrower use. R2 still requires R0 and eligibility to be checked for that changed use before reliance; a failed R0 or an Eligibility violation for the original attempted use remains `Abstain`.
+
 #### C.23:4.3 - Maturity ladder (poset, not a scalar; Description, not Spec)
 
-Publish one editioned **`MaturityCardDescription`** for the exact evaluated `MethodFamily`, G.5 registry edition, evidence profile, claim scope and selected slices, qualification window, and intended admission use (UTS enum ids; scale kind = ordinal; reference plane declared). Do not embed acceptance thresholds here; an admission floor remains a G.4 AcceptanceClause cited by R1.
+When a maturity judgement is established for an admission use, publish or cite its editioned **`MaturityCardDescription`** for the exact evaluated `MethodFamily`, G.5 registry edition, evidence profile, claim scope and selected slices, qualification window, and intended admission use (UTS enum ids; scale kind = ordinal; reference plane declared). Cite an existing card when its judgement remains applicable. If no applicable judgement is available at an early stop, report that state under §4.2.1 without creating a card or assigning a rung. Do not embed acceptance thresholds here; an admission floor remains a G.4 AcceptanceClause cited by R1.
 
 * **L0 — Anecdotal.** Claims exist; lanes sparse; examples ad‑hoc.
 * **L1 — Worked‑Examples.** Multiple **worked examples** with lane tags and **Scope slices** declared; *no replication yet*.
@@ -121,8 +142,8 @@ Publish one editioned **`MaturityCardDescription`** for the exact evaluated `Met
 
 #### C.23:4.5 - Publication & wiring
 
-**W1.** For each evaluated `MethodFamily`, publish an editioned `MaturityCardDescription` naming the registry edition, evidence profile, claim scope, qualification window, reference plane, and intended admission use; register the SoS-LOG rule ids. RSCR tests cover `Admit`, `Degrade`, `Abstain`, and unknown paths. Relation and loss-policy ids appear only where a branch actually relies on them.
-**W2. Admissibility Ledger.** Publish an editioned `AdmissibilityLedger`: each selector-facing row names the exact `MethodFamilyId`, G.5 registry edition, RuleId and rule edition, MaturityRung, EvidenceProfile, claim scope, qualification window, BranchIds, AcceptanceClause and policy ids, decision result, evidence paths, DominanceRegime, PortfolioMode, and any obtaining relation and loss-policy ids actually used. UTS registers the row vocabulary; the ledger records the admission result and its basis.
+**W1.** Register the SoS-LOG rule ids. Publish or cite a `MaturityCardDescription` for an established maturity judgement under §4.3; use §4.2.1 when an early stop leaves that judgement unavailable. RSCR tests cover `Admit`, `Degrade`, `Abstain`, and unknown paths, including early reports with missing bases or unperformed judgements. Relation and loss-policy ids appear only where a branch actually relies on them.
+**W2. Admissibility Ledger.** Publish an editioned `AdmissibilityLedger`. Each selector-facing row identifies the exact `MethodFamilyId`, G.5 registry edition, TaskSignature, RuleId and rule edition, intended admission use, claim scope, qualification window, decisive branch, and decision result. Record its MaturityRung, EvidenceProfile, AcceptanceClause and policy references, verdicts, evidence paths, DominanceRegime, and PortfolioMode according to §4.2.1: retain established or applicable reused values and explain any required but unresolved reference or unperformed judgement. An explanation of a missing or unperformed result accompanies its unfilled value position; it is not a substitute verdict or rung. Include obtaining relation and loss-policy ids only when actually used, and G.6 path ids under R5's condition. UTS registers the row vocabulary; the ledger records the admission result and its basis.
 **W3. Strategy composition.** For a selection composition called a strategy, cite its governing G.5 rule and **E/E-LOG** policy.
 **W4.** Selector (G.5) **consumes** these rules; results appear in the **Dispatcher Report** with reasons in/out and cited anchors/bridges.
 

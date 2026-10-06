@@ -6,12 +6,12 @@ section_id: "F.12:7"
 section_title: "Evaluation shapes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__008_evaluation-shapes.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:7 — Evaluation shapes"
-line_start: 109997
-line_end: 110016
+line_start: 110039
+line_end: 110058
 dependencies:
   - "A.10"
   - "A.15.1"

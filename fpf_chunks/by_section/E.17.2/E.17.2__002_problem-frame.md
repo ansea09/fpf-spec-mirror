@@ -6,12 +6,12 @@ section_id: "E.17.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__002_problem-frame.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:1 — Problem frame"
-line_start: 95056
-line_end: 95066
+line_start: 95098
+line_end: 95108
 dependencies:
   - "A.22"
   - "A.6.3"

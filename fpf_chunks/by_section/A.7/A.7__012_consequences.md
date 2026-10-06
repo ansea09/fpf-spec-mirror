@@ -6,12 +6,12 @@ section_id: "A.7:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__012_consequences.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:10 — Consequences"
-line_start: 23600
-line_end: 23616
+line_start: 23611
+line_end: 23627
 dependencies:
   - "A.1"
   - "A.10"

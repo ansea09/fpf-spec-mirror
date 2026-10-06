@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__010_consequences.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:9 — Consequences"
-line_start: 82752
-line_end: 82757
+line_start: 82794
+line_end: 82799
 dependencies:
   - "A.15.1"
   - "A.22"

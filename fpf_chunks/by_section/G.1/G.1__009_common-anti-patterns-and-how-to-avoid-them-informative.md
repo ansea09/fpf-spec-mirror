@@ -6,14 +6,15 @@ section_id: "G.1:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__009_common-anti-patterns-and-how-to-avoid-them-informative.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:8 — Common Anti‑Patterns and How to Avoid Them (informative)"
-line_start: 115006
-line_end: 115022
+line_start: 115048
+line_end: 115064
 dependencies:
   - "A.10"
+  - "A.15.2"
   - "A.15.3"
   - "A.19.CN"
   - "C.17"

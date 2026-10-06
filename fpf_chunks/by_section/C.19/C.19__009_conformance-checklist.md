@@ -6,12 +6,12 @@ section_id: "C.19:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__009_conformance-checklist.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:7 — Conformance Checklist"
-line_start: 58181
-line_end: 58200
+line_start: 58197
+line_end: 58216
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -57,7 +57,7 @@ keywords:
 - **C19-3** If a lens is used, its id MUST be recorded; do not label scalarized top-1 as "frontier".
 - **C19-4** Promotion of `Surprise` or `Illumination` into dominance MUST be explicit in policy.
 - **C19-5** A pool-policy record creates no `SystemRoleAssignmentStateRelation`, system-role assignment, permission, plan, budget, or Work occurrence. When implementation follows, cite the independently obtaining context and scope, exact system-role-kind classification, assignment or assignment-state condition, and direct planning or Work pattern; none of those facts follows from the pool-policy record.
-- **C19-6** Each pool-treatment lens **MUST** document the pipeline `Eligibility (ConstraintFit=pass) → Dominance (declared set) → Tie-breakers (declared)`. For every tie-breaker actually used, cite a constituted result with the compatible basis required above; unused optional tie-breakers need no result. Any promotion of Surprise or Illumination into the dominance set **MUST** be named by lens or policy id and recorded in provenance.
+- **C19-6** When a pool-treatment lens uses dominance or tie-breakers, it **MUST** document or cite the applicable `Eligibility → Dominance → Tie-breakers` comparison. Eligibility is for the affected use. Continuation and retention without that comparison follow §4's contribution, commitment, and opportunity-cost basis; exploitation readiness is separate. For every tie-breaker actually used, cite a constituted result with the compatible basis required above; unused optional tie-breakers need no result. Any promotion of Surprise or Illumination into the dominance set **MUST** be named by lens or policy id and recorded in provenance.
 - **C19-7 (pattern-change boundary).** A project-local choice or revision of an `EmitterPolicy`, `DescriptorMap`, `DistanceDef`, sampler, quota, or `δ_family` threshold stays under C.19 and the decision or result that consumes it; it does not invoke E.15 merely because a profile changed. When the definition is changed in an existing FPF pattern edition, use E.15 to compare the exact predecessor and candidate, classify the actual effect, and repair dependent consumers. Use C.18/C.19 candidate generation only when several materially plausible definitions remain. No default heterogeneity quota or sampler is defined here. Keep the policy and card ids in the existing decision, change, or SCR result that actually needs them; create no separate authoring trace.
 
 - **C19-8** When a heterogeneity-first profile is used, provenance **MUST** name each admitted heterogeneity constraint and its governing policy id. If a family or subfamily quota applies, record the exact quota vector and family-definition id; if sampling applies, record the sampler class, seed when relevant, and sampler-policy id. Do not fabricate a default triad, quota, or sampler.

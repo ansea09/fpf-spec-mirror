@@ -6,12 +6,12 @@ section_id: "B.5.RA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__010_consequences.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:9 — Consequences"
-line_start: 45610
-line_end: 45615
+line_start: 45625
+line_end: 45630
 dependencies:
   - "B.5"
   - "B.5.MPC"

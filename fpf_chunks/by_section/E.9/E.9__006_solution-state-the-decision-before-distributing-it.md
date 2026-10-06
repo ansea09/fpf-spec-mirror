@@ -6,12 +6,12 @@ section_id: "E.9:4"
 section_title: "Solution — state the decision before distributing it"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__006_solution-state-the-decision-before-distributing-it.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:4 — Solution — state the decision before distributing it"
-line_start: 86179
-line_end: 86359
+line_start: 86221
+line_end: 86401
 dependencies:
   - "A.10"
   - "A.15.1"

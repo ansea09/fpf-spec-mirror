@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__006_archetypal-grounding.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:5 — Archetypal Grounding"
-line_start: 9079
-line_end: 9107
+line_start: 9084
+line_end: 9112
 dependencies:
   - "A.10"
   - "A.13"
@@ -35,7 +35,7 @@ Four independently grounded pump-inspection Work occurrences have video, sensor 
 
 An analyst applying the recovery Method distinguishes two possible reusable ways under the plant's current inspection vocabulary: a fixed order with an undocumented exception, and a cue-responsive order. Each candidate gets its own account episteme, candidate subject, interpretation scheme, and source-to-claim support. The account notes that the video misses a tactile check named in interviews and that successful outcomes alone do not distinguish the candidates.
 
-A fifth occurrence is held out. Whether the technician changes order when the vibration cue is present can separate the accounts. Until then, both remain candidates; neither trace nor account is a MethodDescription.
+A fifth occurrence is held out. A reversal when the vibration cue is present still fits both accounts while the fixed-order account's exception condition is unknown. If the cue-responsive account requires reversal under those conditions, keeping the fixed order would challenge it. Before using a reversal to reject the fixed-order account, recover its proposed exception condition and whether it obtained. Until a supported comparison separates them, both remain candidates; neither trace nor account is a MethodDescription.
 
 If that held-out occurrence and the remaining evidence support the cue-responsive account while the fixed-order rival no longer fits, recovery can return one candidate account ready for the `A.3.1` identity test.
 

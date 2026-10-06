@@ -6,12 +6,12 @@ section_id: "E.18.NET:5"
 section_title: "Archetypal Grounding — worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__006_archetypal-grounding-worked-cases.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:5 — Archetypal Grounding — worked cases"
-line_start: 100318
-line_end: 100409
+line_start: 100360
+line_end: 100451
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -124,7 +124,7 @@ Later, an exact use-observation relation connects a position in a TFS selected f
 
 #### E.18.NET:5.4 - Architecture and two demonstrative boundaries
 
-For one containing holon, a current `ArchitectureOf@Context` claim may select the network among its structures. If the selected members belong to separately named holons and no containing bearer is grounded, record the use as inter-holon and name the participating architecture claims. Do not invent one system merely to fill the architecture field.
+For one containing holon, an independently obtaining C.30 `ArchitectureRelation` may have the exact network as its selected structure. A bounded C.30 claim Q about one named holon H and the independently selected network N may instead remain negative, unresolved or candidate/expected under C.30.TFS-REL's single-holon claim branch; retain Q's basis and next return. If the selected members belong to separately named holons and no containing bearer is grounded, use the inter-holon branch and name the participating architecture claims. None of these architecture uses supplies a missing network discriminator.
 
 A Plain A.1.STM long-mantra map may display proposed members and a missing cross-member link before network admission. It names the intended final result and the absent member, relation kind or predicate, predicate result, occurrence, or endpoint binding; it asserts neither an E.18.NET structure nor a CGUS.
 

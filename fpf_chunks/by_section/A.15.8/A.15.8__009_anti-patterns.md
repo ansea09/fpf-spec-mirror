@@ -6,12 +6,12 @@ section_id: "A.15.8:8"
 section_title: "Anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__009_anti-patterns.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:8 — Anti-patterns"
-line_start: 29591
-line_end: 29601
+line_start: 29604
+line_end: 29614
 dependencies:
   - "A.1"
   - "A.10"

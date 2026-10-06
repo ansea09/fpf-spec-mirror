@@ -6,12 +6,12 @@ section_id: "B.3.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__002_problem-frame.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:1 — Problem Frame"
-line_start: 42641
-line_end: 42650
+line_start: 42656
+line_end: 42665
 dependencies:
   - "A.10"
   - "B.3"

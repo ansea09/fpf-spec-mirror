@@ -6,12 +6,12 @@ section_id: "A.2.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__007_solution.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:4 — Solution"
 line_start: 7311
-line_end: 7446
+line_end: 7449
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -114,7 +114,7 @@ Classification or assignment alone never completes the implication. The rule sta
 
 #### A.2.8:4.5 - Assertion, Record, and Adjudication
 
-An assertion or record about a commitment is a separately identified claim-bearing episteme. A compact reliance record can expose:
+An assertion or record about a commitment is a separately identified claim-bearing episteme. For an independently identified actual `U.Commitment` occurrence, a compact occurrence-description record can expose:
 
 ```text
 CommitmentAssertion:
@@ -130,8 +130,11 @@ CommitmentAssertion:
   institutingBasisRef: exact actual basis required by that rule
   evidenceClaimRefs?: exact support used for reliance or adjudication
   carrierRefs?: carriers used as evidence or source
-  assertionStatus: affirmed | denied | unresolved
+  assertionPolarity: affirmative | negative
+  relianceResultRef?: exact separately governed evaluation or evidence-use result, when the receiving use needs it
 ```
+
+Before a commitment occurrence has been independently identified, express whether the commitment obtains as an ordinary C.2.1 assertion with an independently identified EntityOfConcern. Designate the relation kind and its participants in the claim content, and retain the failed or unknown obtaining condition. Do not invent a commitment occurrence or actual instituting-basis reference. Keep assertion polarity separate from the reliance judgement; unavailable evidence alone establishes no negation.
 
 Use the record to describe the relation. `evidenceClaimRefs` and carriers support reliance; they are not participants or instituting facts unless the identified constitutive rule makes one such fact current and the pattern for that subject supplies its test. If adjudication is intended, cite the exact evidence claims, criteria, and carriers. If no adjudication is claimed, do not invent an audit apparatus.
 

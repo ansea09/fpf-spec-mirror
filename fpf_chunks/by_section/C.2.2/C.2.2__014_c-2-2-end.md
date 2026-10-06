@@ -6,12 +6,12 @@ section_id: "C.2.2:End"
 section_title: "C.2.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__014_c-2-2-end.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:End — C.2.2:End"
-line_start: 49598
-line_end: 49599
+line_start: 49613
+line_end: 49614
 dependencies:
   - "A.1.1"
   - "A.10"

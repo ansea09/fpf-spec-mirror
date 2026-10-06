@@ -6,12 +6,12 @@ section_id: "A.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__006_solution.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:4 — Solution"
-line_start: 37599
-line_end: 37743
+line_start: 37614
+line_end: 37758
 dependencies:
   - "A.10"
   - "A.15.5"

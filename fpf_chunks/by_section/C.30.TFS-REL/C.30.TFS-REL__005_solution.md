@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__005_solution.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:4 — Solution"
-line_start: 71185
-line_end: 71407
+line_start: 71222
+line_end: 71447
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,9 +63,9 @@ keywords:
 
 ### C.30.TFS-REL:4 - Solution
 
-C.30.TFS-REL is the C.30 entry record to E.18 and E.18.NET when an actual architecture relation, selected architecture-relevant structure, exact architecture structural view, or conditional architecture description uses one selected `TransformationFlowStructure`, one selected `TransformationFlowStructureNetwork`, or a current path, crossing, or flow valuation.
+C.30.TFS-REL is the C.30 entry record to E.18 and E.18.NET when an actual architecture relation, bounded architecture claim, selected architecture-relevant structure, exact architecture structural view, or conditional architecture description uses one selected `TransformationFlowStructure`, one selected `TransformationFlowStructureNetwork`, or a current path, crossing, or flow valuation.
 
-It supplies only the architecture-to-transformation-flow use boundary. Use the full field set shown in section 1; no filled field makes a direct relation obtain.
+It supplies only the architecture-to-transformation-flow use boundary. The field set in section 1 names the contributions that a use may need; a sufficient qualified existing account with accessible exact returns can carry them. No separate form or entries for unused optional fields are required, and no populated field makes a direct relation obtain.
 
 ```text
 ArchitectureTransformationFlowStructureRelation minimum:
@@ -82,11 +82,11 @@ ArchitectureTransformationFlowStructureRelation minimum:
   nonAdmissibleUse?:
 ```
 
-At least one architecture-side field and at least one E.18 or E.18.NET field must be named by value. Network branch fields obey `C.30.TFS-REL:4.4a`; other optional trace fields stay `not used` unless they change inspection, correspondence, hidden relation-structure return, governing-pattern application, or stop. The explanatory `nonAdmissibleUse` guard follows the full F.19:4 test and needs no absence entry unless a concrete receiving use requires that distinction.
+At least one architecture-side field and at least one E.18 or E.18.NET field must be named by value. Network branch fields obey `C.30.TFS-REL:4.4a`; other optional trace fields follow the ordinary minimum in section 1. The explanatory `nonAdmissibleUse` guard follows the full F.19:4 test and needs no absence entry unless a concrete receiving use requires that distinction.
 
 #### C.30.TFS-REL:4.1 - Use trigger
 
-Use this pattern only when an actual `ArchitectureRelation` occurrence, selected architecture-relevant structure, exact architecture structural view, functional-structure view, transformation-flow-structure claim, or conditional `ArchitectureDescription` use depends on one or more of the following:
+Use this pattern only when an actual `ArchitectureRelation` occurrence, bounded architecture claim, selected architecture-relevant structure, exact architecture structural view, functional-structure view, transformation-flow-structure claim, or conditional `ArchitectureDescription` use depends on one or more of the following:
 
 - `TransformationFlowStructureRef`;
 - `TransformationFlowStructureNetworkRef`, when architecture use selects an E.18.NET-conforming network;
@@ -177,12 +177,13 @@ Grounded architecture adequacy and bounded architecture claims are governed by C
 
 #### C.30.TFS-REL:4.4a - Architecture use of a transformation-flow structure network
 
-First ask whether one exact named containing holon has an independently obtaining `ArchitectureRelation` whose exact selected structure is the same `transformationFlowStructureNetworkRef`. If not, ask whether the architecture question instead spans several exact named holons while no containing holon has been grounded. Select exactly one branch; a connected diagram, network record, list, or common claim label does not answer either question.
+First recover the independently selected E.18.NET network and the architecture question. For one named holon, distinguish an obtaining architecture relation whose selected structure is that exact network from a bounded claim that does not assert such an occurrence. For a question spanning several named holons without a grounded containing holon, use the inter-holon branch. Select exactly one branch from those facts.
 
 1. **Named containing-holon use.** Set `networkArchitectureUseBranch=namedContainingHolon`. Name exactly one `containingHolonRef` and one actual `containingArchitectureRelationRef` whose selected structure is the same exact network. `containingArchitectureClaimRef` is optional claim/trace content. Keep all participating arrays and `noNetworkBearerHolonAsserted` absent. Member TFS values and their Work, valuations, boundaries, actual transformations, and direct relations remain independently governed.
 2. **Explicit inter-holon use.** Set `networkArchitectureUseBranch=explicitInterHolon`. Put at least two exact distinct holons in `participatingHolonRefs[]`. Add exactly the actual `participatingArchitectureRelationRefs[]` and bounded `participatingArchitectureClaimRefs[]` on which this question relies; a network member whose architecture is not used by the question stays outside those arrays. Keep all containing fields absent and set `noNetworkBearerHolonAsserted=true`. This states one architecture-use question spanning named holons; it does not invent a containing holon, architecture relation, or characteristic bearer whose identity is the network.
+3. **Single-holon claim use.** Set `networkArchitectureUseBranch=singleHolonClaim`. Name one exact C.30 `ArchitectureClaim` Q in `architectureClaimRefs`; its content names the described holon H and the same selected network N. Preserve Q's `doesNotObtain`, `unresolved`, or `candidateOrExpectedOnly` disposition and its scope, reference scheme, and supporting or missing basis. Keep the containing fields and participating arrays absent; set `noNetworkBearerHolonAsserted=true`. Use N's admitted positions and relations to inspect the bounded architecture question. Keep the resulting claim or question with its basis. Use `admissibleUse` and `stopOrReturnCondition` to state what may be done with it and what must be recovered before stronger reliance. An unavailable fact remains unknown; a negative claim needs its own C.30 basis. An architecture use that relies on an actual R(H,N) belongs in the containing-holon branch; retaining Q does not supply that occurrence.
 
-Every other populated architecture-side reference must agree with the selected branch. In `namedContainingHolon`, each value in `selectedArchitectureStructureRefs` belongs to the containing architecture relation's selected structure route, and each structural view, architecture description, functional structure view, or architecture claim used by this record traces to the same exact containing holon and relation. In `explicitInterHolon`, each such reference traces to one named participating holon and, when actual, its exact architecture relation; a singular reference names only that participant and does not imply a containing architecture. If a reference depends on another holon or architecture relation, add it only when the current question actually relies on it, or use a separate record.
+Every other populated architecture-side reference must agree with the selected branch. In `namedContainingHolon`, each value in `selectedArchitectureStructureRefs` belongs to the containing architecture relation's selected structure route, and each structural view, architecture description, functional structure view, or architecture claim used by this record traces to the same exact containing holon and relation. In `singleHolonClaim`, each reference traces to H or Q and retains its own actual or modal status; an independently grounded current relation R(H,S) used for comparison does not establish R(H,N). In `explicitInterHolon`, each such reference traces to one named participating holon and, when actual, its exact architecture relation; a singular reference names only that participant and does not imply a containing architecture. If a reference depends on another holon or architecture relation, add it only when the current question actually relies on it, or use a separate record.
 
 The branches are mutually exclusive. When `transformationFlowStructureNetworkRef` is absent, `networkCrossFlowRelationRowRefs[]` and all network branch fields are absent. A network ref without one complete branch is not ready for architecture use. When the record also names a path, slice, crossing, valuation, required effect, or actual transformation, bind it to the exact member TFS and the local positions, participants, or bindings that identify that value. When it names a network-aware unfolding, the E.18.3 substrate branch must name the same exact network and preserve its admitted position mappings, while `selectedCGUSRef` continues to name the separate A.22-selected CGUS. The network ref does not lift member-local values into network-global state.
 
@@ -190,11 +191,13 @@ Use `networkCrossFlowRelationRowRefs[]` only for E.18.NET-owned composite locato
 
 For every maintainability, capability, responsibility, production, safety, or other architecture-characteristic claim made or used by this record, name the exact holon, actual architecture relation, selected structure, description/view episteme, bounded claim, or other bearer governed by C.30 or the characteristic's direct owner. A network may have selected structural facts—members, relations, recursion, or exposed positions—but those facts do not make an unnamed network the bearer of holon characteristics, agency, Work, production, required effects, or actual transformations.
 
-A network diagram, member graph, mathematical description, publication, or `TransformationFlowStructureNetworkRecord` is neither branch and does not enter architecture identity. It may represent, describe, or publish the selected network only under its direct representation, description, or publication pattern.
+A network diagram, member graph, mathematical description, publication, or `TransformationFlowStructureNetworkRecord` establishes none of these architecture uses and does not enter architecture identity. It may represent, describe, or publish the selected network only under its direct representation, description, or publication pattern.
 
-**Named containing-holon case.** Exact holon `ManufacturingPlatform-7` has one obtaining architecture relation whose selected structure includes the product-development/production-system-change network. C.30.TFS-REL may use that network to localize an architecture change while each member TFS, production relation, Work occurrence, and actual transformation keeps its own owner.
+**Named containing-holon case.** Exact holon `ManufacturingPlatform-7` has one obtaining architecture relation whose selected structure is the exact product-development/production-system-change network. C.30.TFS-REL may use that network to localize an architecture change while each member TFS, production relation, Work occurrence, and actual transformation keeps its own owner.
 
 **Explicit inter-holon case.** Exact supplier holon and exact plant holon use one selected E.18.NET-conforming supply-linked TFS network to inspect a cross-company dependency. Both appear in `participatingHolonRefs[]`, with only the actual architecture relations and claims the question uses in their corresponding arrays. No containing supply-chain holon has been grounded, so `noNetworkBearerHolonAsserted=true`. The network is not called the architecture of an unnamed enterprise.
+
+**Single-holon claim case.** N is an independently selected development/production network. Q asks whether N organizes exact `ManufacturingPlatform-7`; the available account leaves one constituent's inclusion in that holon unknown. Keep Q `unresolved` and inspect N's admitted cross-member dependency to identify which allocation or boundary fact must be recovered. A proposal to use N instead keeps `candidateOrExpectedOnly` and may support a bounded comparison. If a sufficient C.30 basis establishes that N does not organize this holon, retain `doesNotObtain`; missing facts alone do not support that result. These uses retain a useful architecture question without an actual R(H,N). If N's own cross-member relation or endpoint binding is missing, stop at E.18.NET's proposed description or selection blocker instead of naming a selected N. A detached account carries Q's disposition, H, N, basis and usable return; the bare phrase “N is the platform architecture” would lose the distinction on which this use depends.
 
 #### C.30.TFS-REL:4.5 - Worked slices
 
@@ -274,7 +277,7 @@ Lower, narrow, or reopen the relation at the smallest changed locus when:
 
 - E.18 one-TFS structure, path, crossing, or flow-valuation semantics change;
 - E.18.NET network identity, direct membership, exposed positions, exact cross-member relations, or nested-row locator resolution changes;
-- the selected network architecture branch or any containing or participating architecture claim used by that branch changes;
+- the selected network architecture branch or any architecture claim used by that branch changes;
 - edition, plane, context pin, set-return, or no-hidden-scalarization discipline changes;
 - source publication or graph edition, path slice, relation observation class, edition or context pin, unexplored region, or hidden relation-structure return condition changes;
 - the C.30 architecture locus, selected architecture-relevant structure, architecture structural view, conditional architecture description, or C.30.ASV relation changes;

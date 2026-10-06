@@ -6,12 +6,12 @@ section_id: "C.40:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__013_relations.md"
-commit_sha: "94b6c708eadc1a572f7db7788ed2e74df4053b2d"
+commit_sha: "2c16067fe8c7f34ea3313d66d36738870f5c2087"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:12 — Relations"
-line_start: 78995
-line_end: 79005
+line_start: 79035
+line_end: 79045
 dependencies:
   - "C.11"
   - "C.18"
