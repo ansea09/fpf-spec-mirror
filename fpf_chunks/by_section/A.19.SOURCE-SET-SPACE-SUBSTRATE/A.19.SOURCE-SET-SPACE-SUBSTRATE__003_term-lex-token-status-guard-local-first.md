@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:0.a"
 section_title: "TERM/LEX token-status guard (local-first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__003_term-lex-token-status-guard-local-first.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:0.a — TERM/LEX token-status guard (local-first)"
-line_start: 33106
-line_end: 33117
+line_start: 33109
+line_end: 33120
 dependencies:
   - "A.0"
   - "A.17"

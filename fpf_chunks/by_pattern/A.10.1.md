@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.10.1.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
-line_start: 24899
-line_end: 25234
+line_start: 24900
+line_end: 25237
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -354,6 +354,8 @@ The practical SoTA contribution is the combination of claim-sized comparison, bo
 - `B.3` and every direct evidence, truth, causal, choice, authority, permission, gate, release, planning, and Work pattern governing the corresponding results.
 
 **Supplies:** A practitioner using A.10.1 obtains a bounded discovery-and-reach statement for application of `SYSE.19`, `FIN.17`, `STR.2`, `PSD.14`, or another direct subject pattern when its actual receiving content relied on the changed claim. The independently governed subject result continues directly to its existing consumers. A common A.10.1 account cites it only when a further receiving question needs that overview.
+
+If an already localized earlier decision use still needs comparison of its relied-on basis with a later result, `C.11.DBR` prepares that separate current-choice question. Unknown receiving uses stay here, and an adequate subject decision goes directly to its existing consumers. Pass the localized premise and use, not a completed account that already contains the decision to be made.
 
 **Constrains:** changed-source affected-use discovery and local closure only. A.10.1 creates no new source, relation, graph fact, subject verdict, assurance, authority, permission, release, Work occurrence, plan, or universal status.
 

@@ -6,12 +6,12 @@ section_id: "F.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__006_solution.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:4 — Solution"
-line_start: 107354
-line_end: 107432
+line_start: 107547
+line_end: 107625
 dependencies:
   - "A.10"
   - "A.15"

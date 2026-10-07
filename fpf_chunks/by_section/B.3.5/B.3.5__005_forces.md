@@ -6,12 +6,12 @@ section_id: "B.3.5:3.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__005_forces.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:3.1 — Forces"
-line_start: 42928
-line_end: 42933
+line_start: 42931
+line_end: 42936
 dependencies:
   - "B.3"
   - "C.13"

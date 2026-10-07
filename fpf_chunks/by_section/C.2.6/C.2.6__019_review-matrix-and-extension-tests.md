@@ -6,12 +6,12 @@ section_id: "C.2.6:18"
 section_title: "Review Matrix and Extension Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__019_review-matrix-and-extension-tests.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:18 — Review Matrix and Extension Tests"
-line_start: 50994
-line_end: 51010
+line_start: 50997
+line_end: 51013
 dependencies:
   - "A.16"
   - "A.16.0"

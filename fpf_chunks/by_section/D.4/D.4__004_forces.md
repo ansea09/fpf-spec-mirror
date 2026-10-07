@@ -6,12 +6,12 @@ section_id: "D.4:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__004_forces.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:1.1 — Forces"
-line_start: 80469
-line_end: 80478
+line_start: 80660
+line_end: 80669
 dependencies:
   - "A.1.CSD"
   - "A.10"

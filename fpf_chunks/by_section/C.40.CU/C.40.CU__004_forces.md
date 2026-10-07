@@ -6,12 +6,12 @@ section_id: "C.40.CU:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__004_forces.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:3 — Forces"
-line_start: 79286
-line_end: 79296
+line_start: 79477
+line_end: 79487
 dependencies:
   - "B.1.5.EW"
   - "C.11"

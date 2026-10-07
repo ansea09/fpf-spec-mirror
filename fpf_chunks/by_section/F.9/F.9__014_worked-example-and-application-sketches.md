@@ -6,12 +6,12 @@ section_id: "F.9:12"
 section_title: "Worked example and application sketches"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__014_worked-example-and-application-sketches.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:12 — Worked example and application sketches"
-line_start: 108867
-line_end: 108910
+line_start: 109060
+line_end: 109103
 dependencies:
   - "A.10"
   - "A.13"

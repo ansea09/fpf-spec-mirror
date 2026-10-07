@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__011_rationale.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:10 — Rationale"
-line_start: 84465
-line_end: 84472
+line_start: 84656
+line_end: 84663
 dependencies:
   - "C.2.1"
   - "C.33"

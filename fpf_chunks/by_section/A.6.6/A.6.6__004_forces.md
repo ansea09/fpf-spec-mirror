@@ -6,12 +6,12 @@ section_id: "A.6.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__004_forces.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:3 — Forces"
-line_start: 21495
-line_end: 21505
+line_start: 21496
+line_end: 21506
 dependencies:
   - "A.10"
   - "A.14"

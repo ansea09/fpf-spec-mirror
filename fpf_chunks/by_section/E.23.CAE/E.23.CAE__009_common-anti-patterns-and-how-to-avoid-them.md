@@ -6,12 +6,12 @@ section_id: "E.23.CAE:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 103656
-line_end: 103668
+line_start: 103849
+line_end: 103861
 dependencies:
   - "A.15.7"
   - "A.15.8"

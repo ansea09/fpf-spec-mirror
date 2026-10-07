@@ -6,12 +6,12 @@ section_id: "C.2.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__013_relations.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:12 — Relations"
-line_start: 50924
-line_end: 50927
+line_start: 50927
+line_end: 50930
 dependencies:
   - "A.16"
   - "A.16.0"

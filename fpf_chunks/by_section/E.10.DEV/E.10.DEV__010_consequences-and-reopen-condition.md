@@ -6,12 +6,12 @@ section_id: "E.10.DEV:9"
 section_title: "Consequences and Reopen Condition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__010_consequences-and-reopen-condition.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:9 — Consequences and Reopen Condition"
-line_start: 89186
-line_end: 89193
+line_start: 89377
+line_end: 89384
 dependencies:
   - "A.15"
   - "A.2.2"

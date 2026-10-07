@@ -6,12 +6,12 @@ section_id: "C.40.CU:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__003_problem.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:2 — Problem"
-line_start: 79280
-line_end: 79285
+line_start: 79471
+line_end: 79476
 dependencies:
   - "B.1.5.EW"
   - "C.11"

@@ -6,12 +6,12 @@ section_id: "B.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 43403
-line_end: 43410
+line_start: 43406
+line_end: 43413
 dependencies:
   - "A.12"
   - "A.15.1"

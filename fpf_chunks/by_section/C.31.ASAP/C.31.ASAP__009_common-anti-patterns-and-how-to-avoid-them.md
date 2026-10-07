@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 72603
-line_end: 72612
+line_start: 72786
+line_end: 72795
 dependencies:
   - "A.1.1"
   - "A.10"

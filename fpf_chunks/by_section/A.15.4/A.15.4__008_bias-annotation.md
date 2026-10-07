@@ -6,12 +6,12 @@ section_id: "A.15.4:4.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__008_bias-annotation.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:4.1 — Bias-Annotation"
-line_start: 28530
-line_end: 28535
+line_start: 28533
+line_end: 28538
 dependencies:
   - "A.10"
   - "A.13"

@@ -6,12 +6,12 @@ section_id: "E.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__001_intro.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:intro — Intro"
-line_start: 80853
-line_end: 80855
+line_start: 81044
+line_end: 81046
 dependencies:
   - "E.2"
 keywords:

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.1.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
-line_start: 98864
-line_end: 99422
+line_start: 99055
+line_end: 99615
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -585,6 +585,8 @@ As of 2026-08-07, the Jiao article, QD survey, manufacturing digital-thread pape
 - `E.4.DPF` guides DPF authoring. When the framework-architecture question is live, `E.9` records the selected answer and `E.4.PFAD` profiles its framework-specific content; `E.4.PFR` handles an optional framework-relation record only when a named maintenance use needs one.
 - `E.23` defines and tests repeated quality improvement only after the object version and evaluation are recoverable; P2W may carry a seed to that point but does not become the improvement method.
 - `G.11` defines and tests currentness, admitted-source decay, source-use relation change, edition change, and refresh when a changed source publication, source-use relation, or telemetry reopens the smallest affected P2W application.
+
+- `C.11.DBR` receives a surviving earlier-decision question after P2W has identified what still follows, what no longer follows and the smallest reopened continuation: compare the exact relied-on basis with the later result and prepare any separate current choice. P2W keeps its accepted problem-side entry and carry-through result; an already sufficient subject return needs no extra pass.
 
 - `E.18` defines and tests the selected `TransformationFlowStructure`, its internal transfer, flow valuation, positions, crossings and local state bindings. Apply `A.20` for a current internal constraint-validity claim and `A.21` for a current gate profile application, check mapping or gate decision; cite those separate results only when the P2W continuation uses them.
 - `C.22.2` defines and tests the accepted problem-side record and problem-side claims related to the carried distinction.

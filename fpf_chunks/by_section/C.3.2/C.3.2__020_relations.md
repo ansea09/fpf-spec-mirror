@@ -6,12 +6,12 @@ section_id: "C.3.2:18"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__020_relations.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:18 — Relations"
-line_start: 52350
-line_end: 52355
+line_start: 52353
+line_end: 52358
 dependencies:
   - "A.14"
   - "A.2.6"

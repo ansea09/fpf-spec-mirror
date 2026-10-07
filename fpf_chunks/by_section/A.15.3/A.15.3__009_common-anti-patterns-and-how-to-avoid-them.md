@@ -6,12 +6,12 @@ section_id: "A.15.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 28055
-line_end: 28071
+line_start: 28058
+line_end: 28074
 dependencies:
   - "A.15.1"
   - "A.15.2"

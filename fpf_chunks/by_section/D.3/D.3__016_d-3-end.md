@@ -6,12 +6,12 @@ section_id: "D.3:End"
 section_title: "D.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__016_d-3-end.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:End — D.3:End"
-line_start: 80443
-line_end: 80444
+line_start: 80634
+line_end: 80635
 dependencies:
   - "A.1"
   - "A.10"

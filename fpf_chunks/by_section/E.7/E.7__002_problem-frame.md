@@ -6,12 +6,12 @@ section_id: "E.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__002_problem-frame.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "E.7 — Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases"
   - "E.7:1 — Problem frame"
-line_start: 85024
-line_end: 85030
+line_start: 85215
+line_end: 85221
 dependencies:
   - "E.5.4"
   - "E.6"

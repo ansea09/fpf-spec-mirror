@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `8685aeda98d24b7a7533364cb0df680eccfbfd4c`
+Commit SHA: `0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8`
 
 Chunking method: `pattern-aware`
 
-Patterns: `355`
+Patterns: `356`
 
 ## Patterns
 
@@ -181,6 +181,7 @@ Patterns: `355`
 - [C.3.A — Typed Guard Macros for Kinds + USM (Annex)](by_pattern/C.3.A.md)
 - [C.11 — Decision Theory (Decsn-CAL)](by_pattern/C.11.md)
 - [C.11.CRC — Configuration-Relative Contribution Comparison](by_pattern/C.11.CRC.md)
+- [C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes](by_pattern/C.11.DBR.md)
 - [C.11.DUA — Make Advice and Evidence Demands Worth Their Burden](by_pattern/C.11.DUA.md)
 - [C.13 — Constructional Mereology (Compose‑CAL)](by_pattern/C.13.md)
 - [C.16 — Measurement & Metrics Characterization (MM‑CHR)](by_pattern/C.16.md)

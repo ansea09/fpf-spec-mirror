@@ -6,12 +6,12 @@ section_id: "B.5.EA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__006_archetypal-grounding.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "B.5.EA — Articulate a Working Distinction from Experience"
   - "B.5.EA:5 — Archetypal Grounding"
-line_start: 44081
-line_end: 44118
+line_start: 44084
+line_end: 44121
 dependencies:
   - "B.5"
   - "B.5.4"

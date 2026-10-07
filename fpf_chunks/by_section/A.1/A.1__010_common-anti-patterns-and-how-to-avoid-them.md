@@ -6,12 +6,12 @@ section_id: "A.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 2150
-line_end: 2161
+line_start: 2151
+line_end: 2162
 dependencies:
   - "A.1.1"
   - "A.1.STM"

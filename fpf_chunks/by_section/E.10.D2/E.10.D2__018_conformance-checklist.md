@@ -6,12 +6,12 @@ section_id: "E.10.D2:17"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__018_conformance-checklist.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:17 — Conformance checklist"
-line_start: 90763
-line_end: 90779
+line_start: 90954
+line_end: 90970
 dependencies:
   - "A.1.1"
   - "A.10"

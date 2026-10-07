@@ -6,12 +6,12 @@ section_id: "A.17:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__004_forces.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:3 — Forces"
-line_start: 31846
-line_end: 31859
+line_start: 31849
+line_end: 31862
 dependencies:
   - "A.17"
   - "A.18"

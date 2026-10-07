@@ -6,12 +6,12 @@ section_id: "B.5.PI:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__007_bias-annotation.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:6 — Bias-Annotation"
-line_start: 47999
-line_end: 48002
+line_start: 48002
+line_end: 48005
 dependencies:
   - "A.15.11"
   - "A.16.1"

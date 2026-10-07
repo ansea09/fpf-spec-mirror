@@ -6,12 +6,12 @@ section_id: "A.1.STM:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__002_practitioner-entry.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
   - "A.1.STM:0 — Practitioner entry"
-line_start: 3398
-line_end: 3413
+line_start: 3399
+line_end: 3414
 dependencies:
   - "A.1"
   - "A.1.CSD"

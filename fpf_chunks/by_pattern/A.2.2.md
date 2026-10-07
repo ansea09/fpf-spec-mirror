@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.2.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
-line_start: 4323
-line_end: 4678
+line_start: 4324
+line_end: 4679
 dependencies:
   - "A.1"
   - "A.15"

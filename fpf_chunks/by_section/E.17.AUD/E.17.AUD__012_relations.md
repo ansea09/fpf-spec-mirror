@@ -6,12 +6,12 @@ section_id: "E.17.AUD:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__012_relations.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:11 — Relations"
-line_start: 97513
-line_end: 97518
+line_start: 97704
+line_end: 97709
 dependencies:
   - "A.10"
   - "A.15"

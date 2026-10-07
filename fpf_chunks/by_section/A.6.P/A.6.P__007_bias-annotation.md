@@ -6,12 +6,12 @@ section_id: "A.6.P:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__007_bias-annotation.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:6 — Bias-Annotation"
-line_start: 18124
-line_end: 18131
+line_start: 18125
+line_end: 18132
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"

@@ -6,12 +6,12 @@ section_id: "B.1.4:1.2"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__004_forces.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:1.2 — Forces"
-line_start: 39699
-line_end: 39708
+line_start: 39702
+line_end: 39711
 dependencies:
   - "A.1.1"
   - "A.14"

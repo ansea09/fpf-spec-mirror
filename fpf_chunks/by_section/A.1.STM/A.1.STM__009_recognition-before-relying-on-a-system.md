@@ -6,12 +6,12 @@ section_id: "A.1.STM:7"
 section_title: "Recognition before relying on a system"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__009_recognition-before-relying-on-a-system.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
   - "A.1.STM:7 — Recognition before relying on a system"
-line_start: 3489
-line_end: 3494
+line_start: 3490
+line_end: 3495
 dependencies:
   - "A.1"
   - "A.1.CSD"

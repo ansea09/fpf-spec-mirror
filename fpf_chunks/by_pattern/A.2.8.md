@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.8.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
-line_start: 7254
-line_end: 7585
+line_start: 7255
+line_end: 7586
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__011_rationale.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:10 — Rationale"
-line_start: 15824
-line_end: 15831
+line_start: 15825
+line_end: 15832
 dependencies:
   - "A.15"
   - "A.20"

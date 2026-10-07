@@ -6,12 +6,12 @@ section_id: "E.5.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__001_intro.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:intro — Intro"
-line_start: 84682
-line_end: 84683
+line_start: 84873
+line_end: 84874
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"

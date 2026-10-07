@@ -6,12 +6,12 @@ section_id: "C.36.RP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__010_consequences.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:9 — Consequences"
-line_start: 79855
-line_end: 79860
+line_start: 80046
+line_end: 80051
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

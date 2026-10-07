@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__005_solution.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:4 — Solution"
-line_start: 18309
-line_end: 18367
+line_start: 18310
+line_end: 18368
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"

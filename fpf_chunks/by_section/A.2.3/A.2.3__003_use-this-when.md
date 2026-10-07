@@ -6,12 +6,12 @@ section_id: "A.2.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__003_use-this-when.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:0 — Use This When"
-line_start: 4687
-line_end: 4706
+line_start: 4688
+line_end: 4707
 dependencies:
   - "A.1.1"
   - "A.10"

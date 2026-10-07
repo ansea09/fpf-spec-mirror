@@ -6,12 +6,12 @@ section_id: "A.1.STM:6"
 section_title: "Direct exits and near misses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__008_direct-exits-and-near-misses.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
   - "A.1.STM:6 — Direct exits and near misses"
-line_start: 3474
-line_end: 3488
+line_start: 3475
+line_end: 3489
 dependencies:
   - "A.1"
   - "A.1.CSD"

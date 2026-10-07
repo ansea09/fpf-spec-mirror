@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.P.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
-line_start: 79519
-line_end: 79691
+line_start: 79710
+line_end: 79882
 dependencies:
   - "A.1"
   - "A.1.1"

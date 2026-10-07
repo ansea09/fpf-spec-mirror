@@ -6,12 +6,12 @@ section_id: "B.1.2:5.5"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__008_bias-annotation.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:5.5 — Bias-Annotation"
-line_start: 39318
-line_end: 39328
+line_start: 39321
+line_end: 39331
 dependencies:
   - "A.1"
   - "A.10"

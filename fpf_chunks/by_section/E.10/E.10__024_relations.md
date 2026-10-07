@@ -6,12 +6,12 @@ section_id: "E.10:22"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__024_relations.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:22 — Relations"
-line_start: 88619
-line_end: 88626
+line_start: 88810
+line_end: 88817
 dependencies:
   - "A.10"
   - "A.15"

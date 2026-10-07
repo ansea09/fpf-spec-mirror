@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__013_relations.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:12 — Relations"
-line_start: 46907
-line_end: 46914
+line_start: 46910
+line_end: 46917
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"

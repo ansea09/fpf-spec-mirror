@@ -6,12 +6,12 @@ section_id: "A.2.6:18"
 section_title: "Extended FAQ (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__020_extended-faq-informative.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:18 — Extended FAQ (informative)"
-line_start: 6548
-line_end: 6578
+line_start: 6549
+line_end: 6579
 dependencies:
   - "A.1.1"
   - "A.15.1"

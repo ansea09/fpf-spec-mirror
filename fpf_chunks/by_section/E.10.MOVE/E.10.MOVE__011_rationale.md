@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__011_rationale.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
   - "E.10.MOVE:10 — Rationale"
-line_start: 89534
-line_end: 89541
+line_start: 89725
+line_end: 89732
 dependencies:
   - "A.1.STM"
   - "A.10"

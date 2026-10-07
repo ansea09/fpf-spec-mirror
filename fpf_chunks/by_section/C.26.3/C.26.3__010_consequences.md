@@ -6,12 +6,12 @@ section_id: "C.26.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__010_consequences.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:9 — Consequences"
-line_start: 63359
-line_end: 63364
+line_start: 63542
+line_end: 63547
 dependencies:
   - "A.10"
   - "A.15"

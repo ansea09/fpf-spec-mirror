@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
-line_start: 53446
-line_end: 54176
+line_start: 53449
+line_end: 54181
 dependencies:
   - "A.10"
   - "A.13"
@@ -188,6 +188,8 @@ A conforming `C.11` pass does not stop at naming schools of decision theory. It 
 An interesting observation, information-gain estimate, capability result, objective or reward, articulated former cue, or `C.17` characterization enters this pattern only under its exact source/result identity. Use `E.10.LRN` first when *learning* wording still hides that identity. Use `A.10` when an evidence-bearing or source-bearing claim is actually relied on: its existing `RelianceDisposition` qualifies only that bounded premise use. An objective, reward, preference, or loss enters as the `EvaluativeMeasure`, `PreferenceOrder`, or `ChoiceRule` input it actually supplies and is not evidence by numerical form. When an `A.16.1` cue pack remains current as a source or provenance episteme, preserve that source identity and route the separately articulated endpoint result through its direct claim owner. A `C.17` novelty, surprise, use, or creativity characterization remains a characterization and does not license a move by itself.
 
 No separate premise-qualification result sits between those owners and `C.11`. Use the qualified inputs in the live option/probe comparison and return only the existing `ChoiceResult`. When the missing comparison basis is specifically what a finite candidate contributes relative to the current configuration, use `C.11.CRC` to construct that ordinary comparison claim and return here. If every premise and the finite comparison are already explicit, proceed directly.
+
+When a later outcome must first be compared with an earlier decision's actual relied-on basis, use `C.11.DBR` to localize the material difference and preserve unaffected uses. Return here when the current chooser, finite `OptionSet` and comparison basis are available. This prepares a particular reconsideration; it adds no qualification layer for otherwise ready premises.
 
 ##### C.11:4.2.1 - Well-formed comparison state
 

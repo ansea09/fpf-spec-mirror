@@ -6,12 +6,12 @@ section_id: "A.7:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__002_use-this-when.md"
-commit_sha: "8685aeda98d24b7a7533364cb0df680eccfbfd4c"
+commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:0 — Use this when"
-line_start: 23317
-line_end: 23330
+line_start: 23318
+line_end: 23331
 dependencies:
   - "A.1"
   - "A.10"
