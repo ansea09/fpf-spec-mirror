@@ -6,12 +6,12 @@ section_id: "E.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__007_bias-annotation.md"
-commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
+commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:6 — Bias-Annotation"
-line_start: 81979
-line_end: 81995
+line_start: 82013
+line_end: 82029
 dependencies:
   - "C.33"
   - "C.34"

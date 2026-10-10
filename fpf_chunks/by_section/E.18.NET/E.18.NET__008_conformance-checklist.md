@@ -6,12 +6,12 @@ section_id: "E.18.NET:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__008_conformance-checklist.md"
-commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
+commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:7 — Conformance Checklist"
-line_start: 100657
-line_end: 100673
+line_start: 100691
+line_end: 100707
 dependencies:
   - "A.1.STM"
   - "A.12"

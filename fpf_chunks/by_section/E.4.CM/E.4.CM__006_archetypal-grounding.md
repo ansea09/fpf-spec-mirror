@@ -6,12 +6,12 @@ section_id: "E.4.CM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__006_archetypal-grounding.md"
-commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
+commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:5 — Archetypal Grounding"
-line_start: 82200
-line_end: 82271
+line_start: 82234
+line_end: 82305
 dependencies:
   - "A.3.1"
   - "B.1.5"

@@ -6,12 +6,12 @@ section_id: "E.23:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__013_relations.md"
-commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
+commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:12 — Relations"
-line_start: 103399
-line_end: 103428
+line_start: 103499
+line_end: 103532
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -33,6 +33,10 @@ keywords:
 | Pattern | Relation |
 |---|---|
 | `A.19.ECS` | Constructs or repairs an object-under-improvement evaluation when none exists. |
+| `C.40:4.7`, `C.40:4.11` | Construct and compare ways of obtaining results through their later work, including changing the means of further development and retaining useful material. |
+| `C.40.CD` | Develops a next problem and its solving means together when an acquired operation opens work that the earlier question did not settle. |
+| `C.36.RP`, `C.36` | Supply the next participant's acquisition, adaptation and further development, and the separately current cultural-population question. |
+| `C.16.MR`, `C.16.IR`, `C.16.RM` | Construct the measurement relation, determine what it resolves and repair the arrangement. E.23:4.1.1 connects these contributions to the reported improvement claim and its no-change comparison. |
 | `E.22` | Frames each quality evaluation through suffixless `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration` epistemes and can return finding or proposal rows. |
 | `E.21` | Supplies pattern-quality values for pattern-improvement loops. |
 | `E.9.DA` | Supplies `DRR` decision-adequacy values for `DRR` loops. |

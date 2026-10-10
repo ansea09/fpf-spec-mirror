@@ -6,12 +6,12 @@ section_id: "E.23:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__006_archetypal-grounding.md"
-commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
+commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:5 — Archetypal Grounding"
-line_start: 103292
-line_end: 103314
+line_start: 103362
+line_end: 103410
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -50,4 +50,30 @@ Actual machining and assembly produce Prototype-4 through separately identified 
 **DRR improvement.** A `DRR` needs drafting adequacy for authoring across several selected pattern hosts. Use the coordinates supplied by `E.9.DA`, return row-atomic proposals, repair the decision, and re-evaluate the changed `DRR` through a separate E.9.DA pass and result. Identify each repair or evaluation as dated Work only when that occurrence is asserted, using the central §4 rule. The improved object is still a decision record, not prewritten pattern prose.
 
 **NQD quality-side improvement.** A generated candidate has declared `Q` components and a comparison set. An `E.22` application returns proposal rows. Use `E.23` to organize candidate changes and later re-evaluation of `Q`; apply the central §4 Work rule only to actual performed passes. Use the direct definitions and tests for archive or front insertion, selected-set result declaration, publication, parity, and refresh. None is a quality-loop decision.
+
+#### E.23:5.1 - Improve the way further improvements are obtained
+
+The following constructed cases concern a way of improving work. They show how to obtain and use a changed way; they are not evidence that a particular training intervention succeeds.
+
+**A training organization develops its preparation of facilitators.** Its participants can repeat a worked solution but keep using it after a decisive condition changes. The current preparation gives facilitators examples to explain. A proposed preparation instead teaches them to construct pairs of cases: retain the apparent task, change one condition that determines the appropriate action, and explain why the answer must change. The object being improved is this preparation method and its usable description. The facilitators, methodologist and tools are its actual means of application; stages in their reasoning are not thereby parts of a person under `A.12`.
+
+Begin with one consequential failure. A solution is acceptable only when its entire error interval lies inside a tolerance. An exercise that compares only the point estimate teaches the wrong decision. The first facilitator repairs the exercise and the rule for constructing exercises: recover the condition that makes the action appropriate, retain its basis in the explanation, and build a contrast in which losing that condition changes the answer. `C.40:4.7` supplies the comparison of obtaining ways, and `C.40:4.11` supplies their further development from retained material. Preserve the previous preparation, its useful cases and the reasons for the change; a less successful variant may still contain a useful operation without becoming the selected preparation.
+
+Try the old and proposed preparation on suitably comparable work under a declared allowance. Include case construction, tools, the methodologist's help, practice, assessment, correction and subsequent use in the cost. Judge the exercises' validity and what participants do on a fresh case, including earlier valid uses that must survive. If repeated grading itself changes which answers pass, apply §4.1.1 to the unchanged answers before attributing those transitions to learning. The comparison of human learning still needs its own basis. Use enough independent judgement for the decision; extra generated exercises do not create additional assessment capacity.
+
+A better exercise is the first result. A different result occurs when the second facilitator **uses the changed preparation to obtain the next improvement in that preparation**. For example, the second facilitator applies its condition-and-contrast construction to a new failure, discovers that it omitted how to obtain the condition's basis, and changes the preparation so the next facilitator can do that work. Preserve the received construction, the new case, the reasoning behind the change and the resulting preparation. An instruction to make such a change is only a proposal. If the original methodologist still does all the construction, the result demonstrates a supported arrangement, not the successor's claimed independent operation. Assistance can remain part of the selected arrangement when that is the useful result.
+
+**A changed condition opens a different question.** The next project depends on who has authority to make a decision, rather than on a numerical error bound. Substituting the word *authority* for a number is insufficient. Obtain the applicable basis for the decision right, determine the action permitted when that basis holds and what to do when it is absent, then construct cases that require the participant to use that distinction. Training does not create a missing right. `C.40.CD` develops this problem and the way of solving it together, retaining the original need to prepare useful facilitators.
+
+Before calling this an expansion of possibilities, identify what the earlier way could obtain. If it already supported constructing and justifying cases about any relevant condition, the new example may be ordinary adaptation. If obtaining and using a non-numerical decision basis required a previously unavailable operation, demonstrate the work that the changed way now makes feasible. Use `C.18:4.3a` for that stronger comparison. A new project, a novel exercise or a higher score alone does not establish an expanded space. Better means may enable harder work that takes longer; acceleration is not required.
+
+**Make continuation possible for the next participant.** Use `C.36.RP:4.3–4.6` to decide whether the recipient needs to execute, adapt or develop the preparation. For development, give access to the construction, its reasons and conditions, relevant cases and the means or assistance for obtaining a missing contribution. Observe the recipient using these means on changed conditions and making the resulting construction usable in another preparation episode. Merely circulating the exercise set leaves this result untested. If a methodologist leaves, a surviving document may no longer be sufficient: recover the missing support or revise the arrangement before relying on the old success.
+
+An independent participant outside the organization can continue this work without becoming its component. If the question now concerns transmission, retention or change across a cultural population, use `C.36`; count actual receiving and developing episodes for the declared question rather than treating popularity as the result. Changing those transmission conditions is itself a proposal to test. A finite successful continuation does not demonstrate indefinite open-ended development.
+
+**A person improves a way of learning.** An engineer has 90 minutes of personal practice and 15 minutes of mentor help each week. Familiar solutions are available, but changed constraints are missed. Instead of another rereading, the engineer retains a first unaided answer, compares it with the governing condition and a contrast, practices the missing operation, and tests a fresh case. To examine improvement of the learning method, follow its next use: can the engineer derive a useful learning question from a new work episode, select suitable practice and use the result for the following choice? Include help and the whole practice cycle in the allowance. One correct subject answer does not settle this question. If restored access to current data removes the difficulty without training, use the capability-access distinction in `E.23.CAE` and retain the adequate learning method. Developing a person's capability, when separately selected, uses `E.23.CDI` and the relevant human-development practice; the person cannot be reset to an earlier state for comparison.
+
+**An AI system provides the same distinction with different means.** A fixed external author may repeatedly improve an agent's code without using the resulting agent as the author of the next improvement. To test that latter claim, place the candidate in the improving function and observe the next bounded development work under comparable resources and evaluation. A copied software version can preserve a starting basis; it does not justify an analogous rollback claim about a human or organization.
+
+Return the observations to the selected question: what work improved, what changed in the way of improving, which changed means were actually reused, and what subsequent development became better or newly feasible at what cost. Keep each supported result within its conditions. Open a new E.23 frame when the object or evaluation question changes; use §4.1a when revising the evaluation. Stop additional method development when the available way is sufficient and a further change is not worth its burden.
 

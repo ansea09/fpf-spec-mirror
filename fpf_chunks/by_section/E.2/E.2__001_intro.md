@@ -6,12 +6,12 @@ section_id: "E.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__001_intro.md"
-commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
+commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:intro — Intro"
-line_start: 81155
-line_end: 81158
+line_start: 81189
+line_end: 81192
 dependencies:
   - "A.10"
   - "A.15.1"

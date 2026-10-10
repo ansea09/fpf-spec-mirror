@@ -6,12 +6,12 @@ section_id: "E.23.CAE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__012_sota-echoing.md"
-commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
+commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:11 — SoTA-Echoing"
-line_start: 103883
-line_end: 103899
+line_start: 103987
+line_end: 104003
 dependencies:
   - "A.15.7"
   - "A.15.8"

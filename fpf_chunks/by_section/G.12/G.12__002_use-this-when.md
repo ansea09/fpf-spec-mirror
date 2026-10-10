@@ -6,12 +6,12 @@ section_id: "G.12:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__002_use-this-when.md"
-commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
+commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:0 — Use This When"
-line_start: 120143
-line_end: 120150
+line_start: 120247
+line_end: 120254
 dependencies:
   - "A.19"
   - "A.2.6"

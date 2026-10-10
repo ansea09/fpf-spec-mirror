@@ -6,12 +6,12 @@ section_id: "F.10:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__002_problem-frame.md"
-commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
+commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:1 — Problem frame"
-line_start: 109610
-line_end: 109625
+line_start: 109714
+line_end: 109729
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "E.4.CM:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
+commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 82292
-line_end: 82303
+line_start: 82326
+line_end: 82337
 dependencies:
   - "A.3.1"
   - "B.1.5"

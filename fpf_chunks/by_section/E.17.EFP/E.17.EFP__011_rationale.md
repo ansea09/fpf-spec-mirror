@@ -6,12 +6,12 @@ section_id: "E.17.EFP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__011_rationale.md"
-commit_sha: "0c6ade275e9360f0c5ab9715d8f05c0dbaa13cf8"
+commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:10 — Rationale"
-line_start: 96709
-line_end: 96712
+line_start: 96743
+line_end: 96746
 dependencies:
   - "A.10"
   - "A.15"
