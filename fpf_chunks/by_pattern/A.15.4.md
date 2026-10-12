@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.4.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
 line_start: 28120
@@ -142,7 +142,7 @@ A.15 remains the kernel for separating an acting System, exact local system-role
 
 ### A.15.4:3 - Solution - Work-Relevant Appearance-Based Reliance Repair
 
-<a id="core-stress-case-rule"></a>
+
 
 #### A.15.4:3.3 - Core stress-case rule
 
@@ -214,7 +214,7 @@ When a required relation or result, its project-side reference, or its test is i
 7. Proceed only inside the recovered scope and window.
 8. Block only the work claim or reliance claim that lacks the required relation.
 
-<a id="repair-assignment-rule"></a>
+
 
 #### A.15.4:3.4 - Repair assignment rule
 
@@ -225,7 +225,7 @@ When a required relation or result, its project-side reference, or its test is i
 
 **Source-relation guard.** Release urgency, delegated-claim urgency, compliance concern, color, salience, copied wording, or generated wording does not replace the source relation named by value. A dashboard tile may guide release only as a current view of the relevant `GateDecisionResult` plus evidence relation, currentness relation, scope, and window.
 
-<a id="prerequisite-lookup-table"></a>
+
 
 #### A.15.4:3.5 - Prerequisite lookup table
 

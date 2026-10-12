@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.DBR.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
 line_start: 54385
@@ -202,5 +202,5 @@ For the working question in §5.1, a decision log preserves why A was selected b
 
 ### C.11.DBR:End
 
-<a id="fpf-pattern-C.11.DUA"></a>
+
 

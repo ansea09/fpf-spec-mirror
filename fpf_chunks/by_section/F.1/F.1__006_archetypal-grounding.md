@@ -6,12 +6,12 @@ section_id: "F.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__006_archetypal-grounding.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:5 — Archetypal Grounding"
-line_start: 106516
-line_end: 106643
+line_start: 106525
+line_end: 106652
 dependencies:
   - "A.10"
   - "A.7"
@@ -105,7 +105,7 @@ The resulting `SourceCutNote` is identified by that ClaimGraph, the stated recei
 - **Use search assistance:** “The ranking tells us what to inspect next; the source claim decides whether it enters the cut.”
 - **Reopen:** “This question, use, relied claim, rival, counterexample, or transfer boundary changed, so select again.”
 
-<a id="f155---didactic-distillation"></a>
+
 
 #### F.1:5.5 - Didactic distillation of source selection
 

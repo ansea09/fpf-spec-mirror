@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.7.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
 line_start: 21857
@@ -120,7 +120,7 @@ The suite user needs one description that can:
 
 Declare the members and their shared conditions in a `MechSuiteDescription`:
 
-<a id="a6741-mechsuitedescription-data-model"></a>
+
 
 #### A.6.7:4.1 - `MechSuiteDescription` (data model)
 
@@ -201,7 +201,7 @@ Changing declaration content, EntityOfConcern or effective reference scheme foll
 * **No mechanism semantics in the suite.**
   A suite is a **Description**, not a mechanism: it does not define `OperationAlgebra` and does not absorb gate logic.
 
-<a id="a6742-suiteobligations-canonical-obligation-vocabulary"></a>
+
 
 #### A.6.7:4.2 - SuiteObligations (canonical obligation vocabulary)
 
@@ -254,7 +254,7 @@ Changing declaration content, EntityOfConcern or effective reference scheme foll
 11. **`finalize_launch_values_in_work_enactment_only`.**
    Well-formedness constraint: `FinalizeLaunchValues` (and any witness of actual launch values) occurs only in `U.WorkEnactment`; neither the suite nor any planned-baseline WorkPlanning plan item is a place for launch values.
 
-<a id="a6743-suitespecpins"></a>
+
 
 #### A.6.7:4.3 - SuiteSpecPins
 
@@ -277,7 +277,7 @@ SuiteSpecPins := ⟨
 * A suite may require an edition/reference baseline in ordinary A.15.2 WorkPlan content. Address it through the exact plan and its local content locator; it supplies no launch value or gate decision.
 * Use A.15.3 typed planned filling only when an existing declaration member independently supplies the position meaning, designation, cardinality and actual-use predicate. A suite Description field is not a SlotSpec or operation argument merely because a plan names it. Missing planned information can remain unknown in the plan; a missing governor requires recovery or definition of that member before typed filling. Actual launch bindings and any FinalizeLaunchValues witness remain with actual enactment.
 
-<a id="a6744-suiteprotocols"></a>
+
 
 #### A.6.7:4.4 - SuiteProtocols
 
@@ -306,7 +306,7 @@ ProtocolStep := ⟨
 ⟩
 ```
 
-<a id="a6745-suiteauditobligations"></a>
+
 
 #### A.6.7:4.5 - SuiteAuditObligations
 
@@ -323,7 +323,7 @@ A suite MAY require that downstream use provide certain audit anchors. These are
 
 **Norm.** A suite must never publish a `DecisionLog` or `GateDecision`. If the suite requires guard pins, it requires their **presence** as anchors so that the gate-level owner can aggregate `GuardFail`s and decide `degrade|block` per gate profile.
 
-<a id="a6746-examples"></a>
+
 
 #### A.6.7:4.6 - Examples
 

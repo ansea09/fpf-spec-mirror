@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.13.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
-line_start: 110490
-line_end: 110782
+line_start: 110499
+line_end: 110791
 dependencies:
   - "F.1"
   - "F.17"
@@ -236,7 +236,7 @@ Let `meaningOf(ℓ)` recover the exact `<ReferenceScheme, LocalSenseClaim>` proj
 
 Two expressions with the same `meaningOf`, intended use and independently governed value where applicable may receive a rename. A changed `LocalExpression` still changes the exact F.17 cell. An external label change preserves a cell only when the target coordinate itself is unchanged.
 
-<a id="f13122--local-alias"></a>
+
 
 #### F.13:12.2 - Local alias
 

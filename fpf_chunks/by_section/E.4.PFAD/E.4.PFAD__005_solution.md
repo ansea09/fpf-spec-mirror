@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__005_solution.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:4 — Solution"
 line_start: 82727
-line_end: 82863
+line_end: 82867
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -119,7 +119,7 @@ When the architecture question is open, the framework-specific part of the DRR s
 
 1. the intended practitioner, public field name and promise, recurring problem, and bounded architecture question;
 2. the selected outcome: a new or revised framework edition, a contribution to an existing framework, a non-framework product, a thinner publication or access route, or no new maintained product now; for a non-framework product, also the direct subject kind and the identity, current-state, provision, publication, availability, or maintenance relations actually used by the decision;
-3. its field boundary: who can first use it without unpublished authoring context and for what; the connected problem families and useful results; what the current FPF and admitted DPFs already provide and what remains uncovered; serious alternatives, such as splitting or merging the proposed framework, using existing sources directly, contributing to one existing framework, composing exact contributions across several admitted DPFs and FPF, selecting a programme or service, selecting a separate evidence-package episteme, or selecting no new maintained product now; the limits of evidence; and what change will require a refresh;
+3. its field boundary: who can first use it without unpublished authoring context and for what; the connected problem families and useful results; what the current FPF and admitted DPFs already provide and what remains uncovered; serious alternatives, including retaining, splitting or merging existing and proposed frameworks, moving or extracting existing Methods into a new or revised DPF, constituting a Suite when several fields serve the ecosystem use, using existing sources directly, contributing to one framework, composing exact contributions across several DPFs and FPF, selecting a programme, service or separate evidence-package episteme, or selecting no new maintained product now; the limits of evidence; and what change will require a refresh;
 
 4. the selected problem-family pattern sets, first patterns and their material relations, representative cross-problem application, and important omissions;
 5. which structures of Methods, their use, support and development change the answer, and how the identified Methods, descriptions, patterns, direct subjects and managed result boundaries fit together. When those structures do not line up one-for-one, use a completed `C.32.MWA` synthesis; use `E.23.CDI` only when capability development for a named Work family changes the answer;
@@ -128,6 +128,10 @@ When the architecture question is open, the framework-specific part of the DRR s
 8. material alternatives, accepted costs or losses, practical consequences, the first authoring action or stop, and the reopen condition. For each framework-edition dependency, distinguish a change of the relied-on edition from a material change to a relied-on claim, and identify the dependent use that each reopens.
 
 For any opened question, record only candidate contributions that can change the outcome. For each, state whether an exact current FPF or admitted-DPF owner carries its action, first result, return, and source or refresh duty; an exact external result supplies it; an action-bearing remainder survives; or ownership remains unresolved. A shared topic or broad framework name can locate candidates; assign a disposition only after exact contribution comparison.
+
+Then settle any field or organization question that the comparison exposed. Finding a Method in an existing DPF establishes its availability, not that its present placement is the best boundary for the receiving practice. Reconstruct the candidate field from its characteristic problems, Methods and knowledge, material relations, intended practitioners and source/change responsibilities. C.20 supplies discipline-composition conditions when a discipline claim matters; a job title or conference is evidence about a field, not a substitute for its constructive account. Compare the present distribution with plausible regrouping, including the already described Methods. Explain what each choice changes in obtaining, learning, adapting and maintaining the whole. Retention needs the same substantive grounds as a split or new framework; migration costs count, but avoiding a new name or file does not establish adequacy.
+
+A residual comparison can therefore return one missing operation, a new composition, a whole field or several fields. Conversely, an available field framework may already supply the required language, including its relations, so that a bounded extension or better entry is enough. Keep these outcomes open until the comparison settles them. A pattern whose internal sections actually address several separately usable problem/result families is a candidate for repartition, even if its old identifier is stable. Length alone establishes neither that defect nor the right split.
 
 When professional Method coverage can change point 5, the same compact framework answer projects five connected claim groups from points 1, 3, 4, 5, 7, and 8. The projection remains content of that one answer and its one ordinary `E.9` DRR. Fill each group to the grain that changes first use, using a representation suited to the case, before DPF authoring:
 

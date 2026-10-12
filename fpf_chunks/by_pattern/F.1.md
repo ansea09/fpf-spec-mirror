@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.1.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
-line_start: 106292
-line_end: 106772
+line_start: 106301
+line_end: 106781
 dependencies:
   - "A.10"
   - "A.7"
@@ -33,7 +33,7 @@ keywords:
 
 ## F.1 - Find and Select Sources for a Current Question
 
-<a id="f1---question-relative-source-selection"></a>
+
 
 > **Type:** Architectural (A)
 > **Status:** Stable
@@ -83,7 +83,7 @@ Without question-led finding and a justified source cut where one is needed:
 | Wider discovery vs question fidelity | Query variants may omit a word to reach more material, while the original conditions still govern what can answer the question. |
 | Available access vs coverage | A cheap route may reach enough material; a consequential blind spot may justify another route or an honest access gap. |
 
-<a id="f14---solution--select-by-answer-changing-role"></a>
+
 
 ### F.1:4 - Solution — find inspectable material and select by answer-changing role
 
@@ -153,7 +153,7 @@ Its ClaimGraph states:
 
 A one-screen source note is a compact representation of the same episteme when it carries the same claims. If its ClaimGraph differs, it is another C.2.1 episteme rather than a second F.1 result kind. A short form does not establish source truth, adequacy, or local meaning.
 
-<a id="f144---optional-search-assistance"></a>
+
 
 #### F.1:4.4 - Find candidate material when sources or terminology are uncertain
 
@@ -328,7 +328,7 @@ The resulting `SourceCutNote` is identified by that ClaimGraph, the stated recei
 - **Use search assistance:** “The ranking tells us what to inspect next; the source claim decides whether it enters the cut.”
 - **Reopen:** “This question, use, relied claim, rival, counterexample, or transfer boundary changed, so select again.”
 
-<a id="f155---didactic-distillation"></a>
+
 
 #### F.1:5.5 - Didactic distillation of source selection
 

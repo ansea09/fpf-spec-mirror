@@ -6,12 +6,12 @@ section_id: "E.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_archetypal-grounding.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:5 — Archetypal Grounding"
-line_start: 91465
-line_end: 91586
+line_start: 91473
+line_end: 91594
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -68,7 +68,7 @@ The visible navigation measure improved while the intended value worsened. Keep 
 
 Suppose a compact row combines architecture and diagrams, evidence, dashboard use, and alternative comparison. Do not keep it as another public example merely to display topic coverage. Put architecture design or review in `ARCHITECTURE`; put description, view, dashboard, and rendering use in `WORKING-DOCUMENTS` and the direct E.17/C.30.AD patterns; put costly evidence or commitment questions in `OPTION-COMPARISON` and their direct A.10/B.3/A.21 patterns; put useful search phrases in the ToC or retrieval. Use the worked comparisons in `E.11:5.7–5.14` only if those cues still leave a genuine ambiguity. Delete the duplicate after every useful function has a matching home.
 
-<a id="i21---project-alignment"></a>
+
 
 #### E.11:5.7 - Responsibility, method, plan and actual work are being mixed
 
@@ -78,7 +78,7 @@ Open the `Solution` of `A.15` for the System–Role–Method–Work split. `A.15
 
 If the alignment is already understood and only shared terms are missing, `F.11` can distinguish method and work vocabulary, `F.9` can resolve a cross-context sense Bridge, or `F.17` can stabilize a first term sheet. Stop when the direct alignment body is opened or enough shared vocabulary lets the work proceed. Return to alignment if the term sheet still leaves a plan, role or run confused. Neither `F.17` nor a rationale record under `E.9` is a universal first stop.
 
-<a id="i22---partly-said-cue-and-language-state-discovery"></a>
+
 
 #### E.11:5.8 - A meaningful phrase is not yet a claim
 
@@ -88,7 +88,7 @@ While it remains a cue, open `A.16` to identify the next language-state move and
 
 If the material already contains an atomic boundary claim, open `A.6.B` or `A.6.C` for that structure. If it is being forced prematurely into a relational claim, quality endpoint or action invitation, defer `A.6.P`, `C.16.Q`, `A.6.A` or `C.25` until the corresponding subject and basis exist. Stop at a preserved cue, an opened admissible next language-state move, or a reclassified boundary-claim question. A cue is not yet a finished requirement, work record, quality claim or invitation to act; reopen when the material actually acquires that structure.
 
-<a id="i23---boundary-unpacking-and-claim-decomposition"></a>
+
 
 #### E.11:5.9 - An API or contract sentence mixes several kinds of claim
 
@@ -98,7 +98,7 @@ If the unresolved question is “what description is this?”, open `A.6.RSIG`. 
 
 An already accepted engineering account may instead need reader-facing publication under `E.17`; `E.17.0` answers view recognition, and `E.24.PUB` answers publication occurrence, form or carrier. Stop when the direct boundary-claim body is opened or the Claim Register or atomic claim set is ready for the next governing use. Return to description recognition if its defining episteme is still unclear. One API sentence supplies neither a complete Contract Bundle nor proof of downstream effect, performed action, quality or evidence.
 
-<a id="i24---admissible-comparison-candidate-pool-policy-selection-and-selected-set-declaration-or-publication"></a>
+
 
 #### E.11:5.10 - A shortlist, a pool policy or one winner?
 
@@ -108,7 +108,7 @@ If comparison or aggregation is not yet admissible, inspect `G.0`, `A.19.CN` and
 
 If the actual question is one local choice, open `C.11`. If the action or option is already fixed and the missing result is a tool or service call plan or checkpoint return, use `C.24`, including for a call that performs an already chosen comparison. Stop at the correct direct body or a sufficiently discriminated candidate set; neither a shortlist nor the order of these examples prescribes a sequence. If several inspected pattern uses still need a recommendation or coordination, take that question to `E.11.PUR`.
 
-<a id="i25---generator-sota-or-portfolio-kit"></a>
+
 
 #### E.11:5.11 - A reusable generator or SoTA scaffold is needed
 
@@ -118,7 +118,7 @@ Open `G.1` to author a reusable CG-Frame generator and selector kit, or `G.2` to
 
 `G.5` answers a selected-set declaration and `E.24.PUB` its availability; neither supplies the missing reusable scaffold. `G.10` or `G.11` becomes current when shipping or refresh is the actual next question. Stop when the scaffold/generator body is opened, or when the question has been correctly reclassified as a set-result or publication use. Reopen if the supposedly reusable account works only for the single current recommendation. A generator or SoTA concern creates no automatic tool-implementation or immediate-publication obligation.
 
-<a id="i26---same-entity-rewrite-explanation-and-comparative-reading"></a>
+
 
 #### E.11:5.12 - Explain or rewrite the same subject for another audience
 
@@ -128,7 +128,7 @@ Open `A.6.3.CR` for same-entity retextualization, `A.6.3.RT` for a representatio
 
 Stop when the same-entity rewrite body is opened or an explanation-facing rendering is stabilized with usable source pins. If comparison exposes a real change in the subject or claim, return to its direct semantic question instead of hiding it as presentation.
 
-<a id="i27---temporal-claim-adequacy-state---rate---dyn2"></a>
+
 
 #### E.11:5.13 - A faster rate is predicted after a capacity change
 
@@ -140,7 +140,7 @@ Return a different question to its direct owner: `A.3.3` for a reusable transiti
 
 Use `C.26` only if an exact contextual-model obstruction still changes inference or action after the applicable ordinary subject assertion and predicate are in place. Stop at ordinary prose, Dyn0, Dyn1 with the needed measurement body, the relevant Dyn2 account, or a correctly named neighbor use. Reopen when the effort, window, resistance/cost, basis or intended action changes. Faster is not automatically better. A velocity target alone establishes no improvement or service promise; a dynamic benchmark needs a comparison basis before it supports superiority.
 
-<a id="i28---causal-use-and-counterfactual-support-repair"></a>
+
 
 #### E.11:5.14 - A decision relies on a causal or counterfactual claim
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.7.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
-line_start: 108219
-line_end: 108454
+line_start: 108228
+line_end: 108463
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -138,7 +138,7 @@ The nickname **Giants’ table** recalls that comparison relies on prior source 
 
 > The examples show table shapes. Every positive relation still requires its own evidence in an actual use.
 
-<a id="a-class-order-comparison"></a>
+
 
 #### F.7:9.1 - (a) Class-order comparison
 
@@ -147,7 +147,7 @@ The nickname **Giants’ table** recalls that comparison relies on prior source 
 | --- | --- | --- | --- | --- | --- |
 | Explain two class-order notations | OWL 2 `SubClassOf`; FPF `U.SubtypeRelation` claim | An explicit representation or semantic relation, if established for the selected expressions | OWL profile semantics and FPF kind criteria may differ | C.3, C.29, A.6.3.RT, and cited sources | Use one didactic gloss only within the stated notation comparison; do not include FCA order by resemblance. |
 
-<a id="b-measurement-comparison"></a>
+
 
 #### F.7:9.2 - (b) Measurement comparison
 
@@ -156,7 +156,7 @@ The nickname **Giants’ table** recalls that comparison relies on prior source 
 | --- | --- | --- | --- | --- | --- |
 | Compare values against a service target | SOSA result claim; ISO 80000 quantity value; ITIL metric value | Exact measurement, scale and unit, and any source-local semantic relations that actually obtain | Composite ITIL indices may lack unit fidelity | C.16, F.9 when needed, cited observations | Comparable only for the named characteristic, scale conversion, population, and window. |
 
-<a id="c-contrast-process"></a>
+
 
 #### F.7:9.3 - (c) Contrast: *process*
 

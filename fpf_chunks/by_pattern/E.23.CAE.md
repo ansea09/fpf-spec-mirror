@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.CAE.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
-line_start: 103746
-line_end: 104021
+line_start: 103755
+line_end: 104030
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -251,7 +251,7 @@ The cost is a qualified reference basis, controlled contrast, explicit claim bou
 
 What changes in practice is not the adoption of one memory theory. It is the refusal to move directly from failed expression to capability loss or development Work without first asking which observable contrast could change that conclusion.
 
-<a id="reopen-condition"></a>
+
 
 #### E.23.CAE:9.1 - Reopen condition
 

@@ -6,12 +6,12 @@ section_id: "F.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__001_intro.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:intro — Intro"
-line_start: 106292
-line_end: 106304
+line_start: 106301
+line_end: 106313
 dependencies:
   - "A.10"
   - "A.7"
@@ -34,7 +34,7 @@ keywords:
 
 ## F.1 - Find and Select Sources for a Current Question
 
-<a id="f1---question-relative-source-selection"></a>
+
 
 > **Type:** Architectural (A)
 > **Status:** Stable

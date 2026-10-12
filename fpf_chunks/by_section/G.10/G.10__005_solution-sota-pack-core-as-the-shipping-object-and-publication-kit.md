@@ -6,12 +6,12 @@ section_id: "G.10:4"
 section_title: "Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__005_solution-sota-pack-core-as-the-shipping-object-and-publication-kit.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:4 — Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
-line_start: 119405
-line_end: 119700
+line_start: 119414
+line_end: 119709
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -255,7 +255,7 @@ Other `G.x` patterns may produce artefacts that are shipped, but they must not e
 
 All method‑/generator‑/interop‑specific shipping extension declarations live here as `GPatternExtension` blocks.
 
-<a id="gpatternextension--g10extqdarchiveshippingpins"></a>
+
 
 ##### G.10:4.6.1 - GPatternExtension — `G.10:Ext.QDArchiveShippingPins`
 
@@ -280,7 +280,7 @@ All method‑/generator‑/interop‑specific shipping extension declarations li
 **Notes (shipping-pin discipline):**
 * This block never redefines archive semantics; it only states which pins must be present in the shipped pack when QD archive fields are present.
 
-<a id="gpatternextension--g10extoeeshippingpins"></a>
+
 
 ##### G.10:4.6.2 - GPatternExtension — `G.10:Ext.OEEShippingPins`
 
@@ -301,7 +301,7 @@ All method‑/generator‑/interop‑specific shipping extension declarations li
 **Notes (shipping-pin discipline):**
 * “Open‑endedness” semantics remain defined by the governing pattern; the pack only carries the pins required to make the shipped claim replayable/auditable.
 
-<a id="gpatternextension--g10extinteropcitation"></a>
+
 
 ##### G.10:4.6.3 - GPatternExtension — `G.10:Ext.InteropCitation`
 

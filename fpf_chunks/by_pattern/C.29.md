@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "C.29 — Mathematical Lens Use"
 line_start: 65544
@@ -1069,7 +1069,7 @@ The comparison above selects the first-use Method. The references below provide 
 - **Specialization relation:** `C.26` is selected as a C.29-compatible specialization for quantum-like modeling, with affordability qualifications.
 The conditional receiving questions and first contributions are collected in :4.4.6.
 
-[fpf-a6-3-rt-4-1-ref]: A.6.3.RT-Representation-Scheme-Transition.md#a63rt41---ordinary-representation-move
+[fpf-a6-3-rt-4-1-ref]: https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a63rt41---ordinary-representation-move
 
 ### C.29:End
 

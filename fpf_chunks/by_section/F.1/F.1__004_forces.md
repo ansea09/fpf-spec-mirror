@@ -6,12 +6,12 @@ section_id: "F.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__004_forces.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:3 — Forces"
-line_start: 106332
-line_end: 106345
+line_start: 106341
+line_end: 106354
 dependencies:
   - "A.10"
   - "A.7"
@@ -44,5 +44,5 @@ keywords:
 | Wider discovery vs question fidelity | Query variants may omit a word to reach more material, while the original conditions still govern what can answer the question. |
 | Available access vs coverage | A cheap route may reach enough material; a consequential blind spot may justify another route or an honest access gap. |
 
-<a id="f14---solution--select-by-answer-changing-role"></a>
+
 

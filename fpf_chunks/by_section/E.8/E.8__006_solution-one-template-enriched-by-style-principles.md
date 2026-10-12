@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__006_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 85429
-line_end: 85960
+line_start: 85433
+line_end: 85966
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -99,6 +99,8 @@ FPF is often consumed through full‑text search and retrieval (RAG). A reader o
 
 The following grammar governs Markdown publication forms authored under this E.8 edition. Its heading levels, separator and sentinel spellings are necessary subject conditions under E.5.1; they do not make the represented conceptual objects depend on Markdown.
 
+**Markdown without raw HTML.** Markdown publications in FPF Library, and other Markdown publications governed by this profile, **MUST NOT** contain raw HTML elements or comments, including empty anchors and HTML used for layout. Use Markdown headings, links, tables and images, with the mathematical notation declared by the publication. Show literal HTML discussed by the text inside code spans or fenced code blocks. Such code, mathematical angle brackets and Markdown autolinks are not raw HTML markup. The restriction covers complete publications, including framework editions, non-framework References, Readmes and other Library entry material. Preserve information when converting an existing presentation; removing a tag does not justify removing the content it presents.
+
 **H-1 (Heading shape).** Every pattern heading and every subsection heading inside a pattern **SHALL** follow:
 `<hashes> <FullId> - <Title> (optional note of non‑normativity)`
 
@@ -124,7 +126,7 @@ Whether a PatternID stays with a changed pattern is an authoring decision, not a
 
 **Keep addresses through change.** Inserting, moving or retitling a subsection does not assign its address to a different contribution. Keep existing addresses when their contributions continue; give a new contribution an unused address. Do not renumber unaffected subsections to restore display order or reuse a retired address for different content. For a genuine replacement, split or merge, decide which contribution continues and make changed or unresolved returns explicit.
 
-For example, when a new explanation is inserted between existing sections `4.1` and `4.2`, an available `4.3` can name the insertion while `4.2` still names its former explanation. Before publication, compare the earlier and revised targets, preserve the earlier carrier fragments with declared compatibility aliases where supported, and update direct links. Test duplicate-title suffixes and alias collisions as well as visible FullIds. A saved link must return to its intended contribution or expose that the return is unresolved; reaching a different heading silently is a failure. The author judges the contribution; a link checker can verify the declared correspondence.
+For example, when a new explanation is inserted between existing sections `4.1` and `4.2`, an available `4.3` can name the insertion while `4.2` still names its former explanation. Before publication, compare the earlier and revised targets, preserve the earlier carrier fragments through compatibility facilities permitted by the selected publication form and supported by the access route, and update maintained direct links. Test duplicate-title suffixes and alias collisions as well as visible FullIds. A saved link must return to its intended contribution or expose that the return is unresolved; reaching a different heading silently is a failure. The author judges the contribution; a link checker can verify the declared correspondence.
 
 *Note:* the Footer marker itself is exempt from ordinal encoding; it uses the reserved token `:End` (see **H-9**).
 

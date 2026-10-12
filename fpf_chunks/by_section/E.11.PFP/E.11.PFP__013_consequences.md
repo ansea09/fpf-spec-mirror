@@ -6,12 +6,12 @@ section_id: "E.11.PFP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__013_consequences.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:9 — Consequences"
-line_start: 92888
-line_end: 92893
+line_start: 92897
+line_end: 92902
 dependencies:
   - "A.3.2"
   - "C.29"

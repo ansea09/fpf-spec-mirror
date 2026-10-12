@@ -6,12 +6,12 @@ section_id: "F.0.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__013_relations.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:12 — Relations"
-line_start: 106278
-line_end: 106289
+line_start: 106287
+line_end: 106298
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -42,5 +42,5 @@ keywords:
 - **Coordinates with:** C.39 for general Method construction, connected explanation and change, and E.4.CM for their application to framework authoring. Their methodological results and this semantic comparison remain distinct and can revise each other.
 - **Boundary:** Domain claims produced through this method remain in the subject FPF pattern or named DPF selected by the later content decision.
 
-[fpf-c28-4-4-ref]: C.28-CausalUse-CAL-Causal-Use-Questions-Causality-Ladder-Rungs-Identification-and-Realizability.md#c2844---identification-result
+[fpf-c28-4-4-ref]: https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c2844---identification-result
 

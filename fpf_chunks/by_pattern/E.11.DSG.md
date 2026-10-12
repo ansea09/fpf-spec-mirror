@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.DSG.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "E.11.DSG — DPF Suite Reference"
-line_start: 92923
-line_end: 93145
+line_start: 92932
+line_end: 93154
 dependencies:
   - "A.14"
   - "C.2.1"
@@ -120,7 +120,7 @@ Give the Reference its own publication key and each substantive heading a stable
 
 Make the heading levels express the actual containment of the answers. In a Markdown carrier, a complete addressed section includes its own text and child sections up to the next heading of the same or a higher level, or the document's end boundary. The numbers and heading hierarchy must agree; a number alone does not change the returned extent. Place examples and variations under the explanation whose answer they develop. An independently retrieved example returns to any parent or related explanation needed to interpret it.
 
-Keep an established SectionRef when only the heading title changes. When moving a section beneath another parent requires a different hierarchical path, assign its current SectionRef and explicitly declare the former SectionRef as a return to it. Preserve that return in each claimed access route; do not reuse the former address for another answer. A new answer receives an unused address. Preserve saved heading fragments separately as return aliases: an HTML fragment alias alone does not establish that another access route can resolve the former SectionRef. If a route cannot preserve a return, identify the replacement and the affected reliance before claiming continuity. Check the full contents and complete returned sections, including their children, in each selected presentation or access route. Successful title search establishes findability for that query; stable identity and complete extraction need their own evidence.
+Keep an established SectionRef when only the heading title changes. When moving a section beneath another parent requires a different hierarchical path, assign its current SectionRef and explicitly declare the former SectionRef as a return to it. Preserve that return in each claimed access route; do not reuse the former address for another answer. A new answer receives an unused address. Preserve returns to saved heading fragments using facilities permitted by the selected publication form. For Markdown, follow E.8:4.1.1 and update maintained links to the corresponding native heading. Resolution of a carrier fragment does not establish that another access route can resolve the former SectionRef. If a route cannot preserve a return, identify the replacement and the affected reliance before claiming continuity. Check the full contents and complete returned sections, including their children, in each selected presentation or access route. Successful title search establishes findability for that query; stable identity and complete extraction need their own evidence.
 
 #### E.11.DSG:4.3 - Keep lookup Work and the answer separate
 

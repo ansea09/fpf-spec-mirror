@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.UK.md"
-commit_sha: "e2c6ac1e97dae9b9f54f707477f7d86a12d91852"
+commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
-line_start: 105338
-line_end: 105804
+line_start: 105347
+line_end: 105813
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -265,7 +265,7 @@ The rule is not lexical. An individuable publication-relation occurrence is itse
 
 The root membership result is sufficient for recognizing such kind individuals. It does not require another durable ontology unit. C.3.1 comparison independently uses exact kind identities and the `U.SubkindOf` predicate; C.3.2 classification independently uses its admissibility and membership rules. Those receiving uses cite their direct rules without deriving them from an empty relation set. If several already defined claims must be read together for a bounded task, a C.2.1 episteme may coordinate them without becoming a durable ontic.
 
-The ontology-disposition decision `E24-CO-UKIND-R19-01` selects `subject-pattern-use` for these named uses and concludes that no additional durable ontic is needed. Its decision and result differ from the originating R5 decision; the root admission and direct identity/membership law remain the same. The exact new decision and unchanged R5 provenance are preserved in the [U.Kind settlement decision](../_change-campaigns/repo-front-door/PATTERN-TITLE-DISCOVERABILITY-AND-SELECTION-CAMPAIGN/UKIND-ONTIC-SETTLEMENT-DRR.md).
+For these receiving uses, `E24-CO-UKIND-R19-01` selects `subject-pattern-use`: apply the direct rules above without an additional durable ontic.
 
 For example, C.3.1 can establish `CoolingPumpKind` as a subkind of `PumpKind` when the aligned cooling-pump criterion entails the pump criterion. An extension sample alone cannot do so. C.3.2 can classify an admissible Pump #14 under its actual declaration and slice; a missing required cooling-performance fact yields `unknown`, while an out-of-domain request is `not-applicable` before classification. Neither result needs a new ontology unit. A project-specific kind remains an individual of `U.Kind` without gaining its own durable public `U.*` name.
 
