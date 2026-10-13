@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 93689
-line_end: 93711
+line_start: 93621
+line_end: 93643
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -63,7 +63,7 @@ keywords:
 | --- | --- | --- |
 | `E.2.DA` as DPF review | The package is judged against whole-FPF Pillars and domain adequacy is blurred. | Use `E.4.DPF.DA`; invoke `E.2.DA` only for FPF-level effects. |
 | `E.21` averaging | Strong individual pattern scores hide weak package architecture. | Evaluate package coordinates directly; use `E.21` only as evidence. |
-| Source bibliography as adequacy | Sources are listed but do not change the package. | Apply `G.2`; carry adopted and rejected payload into pattern moves and boundaries. |
+| Source bibliography as adequacy | Sources are listed but do not change the package. | Recover the useful contribution through the smallest sufficient source route in `E.4.DPF:4`, using `G.2` only when the broad, refreshable CG-Frame pack is needed. Carry adopted and rejected payload into pattern moves and boundaries. |
 | Copied synthesis as assurance | The evaluation repeats `C.32.MWA` or `E.23.CDI` actions and treats completion as package adequacy. | Cite a completed result only where it changes a named coordinate; run `D12` and the sequence-versus-simultaneity probe on the package itself. |
 | Publication-form pass as semantic adequacy | `PFM12` passes, so the package is called an adequate DPF without field-coverage evidence. | Keep form conformance as form evidence and judge `D12` independently. |
 | Duplicate first-entry charge | One ToC, Readme, architectural-reference, or practical-entry defect is counted under both `PFM1` and `PFM12`, lowering the same coordinate twice without a second repair. | Keep practitioner entry and navigation in `PFM1`; keep only incremental common-form and edition-projection agreement in `PFM12`; record the shared observation and repair once. |

@@ -6,12 +6,12 @@ section_id: "C.40.RQ:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__012_sota-echoing.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:11 — SoTA-Echoing"
-line_start: 87167
-line_end: 87178
+line_start: 87095
+line_end: 87106
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -26,7 +26,7 @@ keywords:
 
 **Practice question.** How can an opportunity inquiry respond to changed premises without either replaying every result or preserving unsupported opportunities and advice?
 
-**Best-known line for this use.** Qualify the claim-sized change, establish actual reliance, and return the affected question to its direct owner. This pattern **adopts** A.10.1's bounded source-to-use discovery only for that source-change question in `:4.2`, and **adapts** PSDA.15's distinction among observation, interpretation, advice, decision, and implementation in `:4.5`–`:4.6`. C.40.PC, C.40.DC, C.40.JF, C.40.OP, PSDA.19 supply the opportunity-specific result being reconsidered; G.11 retains currentness and refresh work.
+**Best-known line for this use.** Qualify the claim-sized change, establish actual reliance, and return the affected question to its direct owner. This pattern **adopts** A.10.1's bounded source-to-use discovery only for that source-change question in `:4.2`, and **adapts** the professional follow-up distinction among observation, interpretation, advice, decision, and implementation in `:4.5`–`:4.6`. C.40.PC, C.40.DC, C.40.JF, C.40.OP and the applicable professional engagement Method supply the opportunity-specific result being reconsidered; G.11 retains currentness and refresh work.
 
 **Serious alternatives and trade-off.** Rechecking everything can be justified when the affected basis cannot be separated. It is unnecessary for the independently permitted manual route in `:5.1`. Updating only a source pointer is cheaper but misses the corrected support claim in `:5.2`. At comparable inspection effort, recovering the actual receiving premise distinguishes the two cases and identifies the smallest needed result. Bounded discovery costs more than a citation scan and may end with unresolved coverage; that is preferable to unsupported complete-preservation claims. No measured efficiency advantage is asserted.
 

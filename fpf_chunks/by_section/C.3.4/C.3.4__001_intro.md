@@ -6,12 +6,12 @@ section_id: "C.3.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__001_intro.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:intro — Intro"
-line_start: 55656
-line_end: 55662
+line_start: 55572
+line_end: 55580
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -27,6 +27,8 @@ keywords:
 
 > **One-line summary.** Use a `KindUseAdaptationDeclaration` when a procedure needs a narrower or differently named use of an existing kind without defining another kind. The declaration pins the base `KindSignature` edition, local candidate constraints or vocabulary bindings, intended guard use, and applicability. Check admissibility before returning `true`, `false`, or `unknown`. A locality change first triggers kind-identity comparison: the same kind needs no `KindBridge`; distinct kinds need one only when its exact correspondence predicate obtains.
 
-**Status.** Normative in **Part C**. Identifier **C.3.4**.
+**Normativity:** Normative in **Part C**. Identifier **C.3.4**.
+
+> **Status:** Stable
 **Audience.** Engineering managers, architects, reviewers, and editors.
 

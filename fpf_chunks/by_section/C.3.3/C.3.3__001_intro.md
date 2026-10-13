@@ -6,12 +6,12 @@ section_id: "C.3.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__001_intro.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:intro — Intro"
-line_start: 55462
-line_end: 55478
+line_start: 55376
+line_end: 55394
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -27,7 +27,9 @@ keywords:
 
 > **One-line summary.** A changed practice, source, team, or scheme first triggers a comparison of kind definitions. If the same kind continues, reuse it and evaluate the receiving candidate afresh; no `KindBridge` is needed. When two independently identified kinds are distinct and a directional correspondence predicate holds, one `KindBridge` direct relation may obtain. A separate bridge-assertion episteme states direction, paired declaration editions, preservation or loss, `CL^k`, evidence, and admitted use. It never transfers source classification truth.
 
-**Status.** Normative in **Part C**. Identifier **C.3.3**.
+**Normativity:** Normative in **Part C**. Identifier **C.3.3**.
+
+> **Status:** Stable
 **Audience.** Engineering managers, architects, assurance leads, editors.
 
 **Depends on.**

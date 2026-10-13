@@ -6,12 +6,12 @@ section_id: "C.40.OP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__006_archetypal-grounding.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:5 — Archetypal Grounding"
-line_start: 86850
-line_end: 86885
+line_start: 86778
+line_end: 86813
 dependencies:
   - "A.15.9"
   - "C.11.CRC"
@@ -53,9 +53,9 @@ The steward rules out the proposed use. The team retires the stepping-stone clai
 
 #### C.40.OP:5.3 - Mira retains directions before choosing a programme
 
-In this constructed case, Mira is exploring review contributions over four months. She keeps two directions: develop more independent review capability, or improve the conditions for supported contribution. The first needs HCD evidence about representative practice, feedback, and transfer; the second needs an actual continuing support arrangement. Both can remain described while those questions are open.
+In this constructed case, Mira is exploring review contributions over four months. She keeps two directions: develop more independent review capability, or improve the conditions for supported contribution. The first needs human-capability evidence about representative practice, feedback, and transfer; the second needs an actual continuing support arrangement. Both can remain described while those questions are open.
 
 A preliminary exercise is only a candidate stepping stone toward independent review until its enabling relation and feasible development conditions are supported. Being the first item in a course sequence is not that evidence. Retaining its description does not reserve Mira's practice time or a specialist's attention.
 
-When direction advice is requested, the bounded engagement and Decision Design results remain separate from the authorized direction choice. HCD.2 then composes and compares human capability-development programmes when that is the selected question. An optional Decision Design programme recommendation, authorized programme choice, and Learning Product Guide remain further distinct results. If an adequate programme comparison already exists, the programme-level question can begin there; Mira need not reconstruct an opportunity portfolio to use it.
+When direction advice is requested, the bounded engagement and decision-support results remain separate from the authorized direction choice. The applicable programme-design Method then composes and compares human capability-development programmes when that is the selected question. An optional programme recommendation, authorized programme choice, and Guide realized through an applicable learning-material production Method remain further distinct results. If an adequate programme comparison already exists, the programme-level question can begin there; Mira need not reconstruct an opportunity portfolio to use it.
 

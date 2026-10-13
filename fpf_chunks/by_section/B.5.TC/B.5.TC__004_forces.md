@@ -6,12 +6,12 @@ section_id: "B.5.TC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__004_forces.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Working Question"
   - "B.5.TC:3 — Forces"
-line_start: 49237
-line_end: 49246
+line_start: 49143
+line_end: 49152
 dependencies:
   - "B.5.RA"
   - "B.5.RR"

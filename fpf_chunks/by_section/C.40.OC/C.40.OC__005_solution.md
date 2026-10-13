@@ -6,12 +6,12 @@ section_id: "C.40.OC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__005_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:4 — Solution"
-line_start: 85640
-line_end: 85771
+line_start: 85568
+line_end: 85699
 dependencies:
   - "C.11.CRC"
   - "C.16"
@@ -87,7 +87,7 @@ Do not hide one family inside another or average incomparable scales. A Pareto-i
 
 Use the practice that owns the substantive characteristic:
 
-- human capability and representative later-Work evidence remain with current HCD and capability patterns;
+- human capability and representative later-Work evidence require the applicable capability assessment for that person, receiving Work and permitted support;
 - organization contribution, positions, assignments, arrangements, culture, and change remain with current organization and strategy practices;
 - AI/model evaluation, data, safety, security, oversight, and deployment claims remain with their direct engineering and governance owners;
 - service, flow, reliability, safety, and operability remain with operations, engineering, safety, and domain practices as applicable;
@@ -141,7 +141,7 @@ Return one of these outcomes:
 - an explicit unknown that limits the answer while the supported characterization remains useful; or
 - a stop because the existing characterization already serves the receiving use.
 
-Continue to `C.40.NU` when material opportunity-generating dimensions are now visible, to `C.40.DC` when a direction needs a finite characteristic change and support configuration, to `C.40.JF` when joint reachability is current, or to `PSDA.19` when a formed advice question needs an admissible relationship. These are conditional continuations, not a fixed order.
+Continue to `C.40.NU` when material opportunity-generating dimensions are now visible, to `C.40.DC` when a direction needs a finite characteristic change and support configuration, to `C.40.JF` when joint reachability is current, or to the applicable professional engagement Method when a formed advice question needs an admissible relationship. These are conditional continuations, not a fixed order.
 
 #### C.40.OC:4.8 - Reopen the smallest affected scope
 

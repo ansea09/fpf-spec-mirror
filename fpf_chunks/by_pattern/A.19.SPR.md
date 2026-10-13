@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.SPR.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
-line_start: 35510
-line_end: 35764
+line_start: 35408
+line_end: 35662
 dependencies:
   - "A.10"
   - "A.16"

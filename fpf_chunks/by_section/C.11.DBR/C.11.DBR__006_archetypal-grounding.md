@@ -6,12 +6,12 @@ section_id: "C.11.DBR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__006_archetypal-grounding.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:5 — Archetypal Grounding"
-line_start: 57576
-line_end: 57610
+line_start: 57498
+line_end: 57532
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -51,12 +51,12 @@ The model file need not have changed. A.10.1 would be appropriate for a differen
 
 | Situation | Use of the common preparation and direct continuation |
 | --- | --- |
-| A market observation weakens a growth assumption but leaves a separately grounded commitment intact. | STR.2 localizes the affected premise and preserves independently grounded commitments. STR.12 connects the signal to a current strategic continuation or reconsideration, using the actual choice or commitment and its required evidence and authority. An analyst's recommendation remains distinct from the Board's choice. Use this direct continuation when sufficient; a common overview can cite its results without repeating or replacing it. |
-| A retrofit is complete but the expected service outcome is absent. | EAM.13 compares the realized outcome with the asset-decision premises; the completed intervention remains history. For organization change, OCE.13 supplies the consequence account and OCE.14 the authorized revision. Use these direct Methods when they already supply the needed whole. |
-| Practice evidence changes an explanation of development or transfer. | HCD.14 supplies a bounded development hypothesis. A continuing-arrangement choice uses HCD.15 on that input; a hypothesis alone does not change the arrangement. |
-| A follow-up analyst recommends adjustment. | PSDA.15 can supply the complete affordable return. Keep the absent authority-held decision explicit without wrapping its sufficient Method in a second account. |
+| A market observation weakens a growth assumption but leaves a separately grounded commitment intact. | A strategic follow-up Method can localize the affected premise, preserve independently grounded commitments and connect the signal to a strategic continuation or reconsideration, using the actual choice or commitment and its required evidence and authority. An analyst's recommendation remains distinct from the Board's choice. Use this direct continuation when sufficient; a common overview can cite its results without repeating or replacing it. |
+| A retrofit is complete but the expected service outcome is absent. | Use the asset-management Method to compare the realized outcome with the asset-decision premises; the completed intervention remains history. For organization change, use the applicable Methods for the consequence account and any authorized revision. Use these direct Methods when they already supply the needed whole. |
+| Practice evidence changes an explanation of development or transfer. | Use the capability-development revision Method to obtain a bounded development hypothesis. A continuing-arrangement choice uses that input under its own Method; a hypothesis alone does not change the arrangement. |
+| A follow-up analyst recommends adjustment. | A decision-follow-up Method can supply the complete affordable return. Keep the absent authority-held decision explicit without wrapping its sufficient Method in a second account. |
 | A current robotic-maintenance cue already determines the next-action question under the enacted Method. | Use A.15.7 directly. Reconstruct an older recommendation only if a distinct reliance question remains. |
-| A changed source has partly unknown engineering or finance consumers. | Use A.10.1 with SYSE.19 or FIN.17. A sufficient subject result needs no further C.11.DBR pass. |
+| A changed source has partly unknown engineering or finance consumers. | Use A.10.1 with the applicable engineering or finance Method to discover the affected consumers and reconsider their reliance. A sufficient subject result needs no further C.11.DBR pass. |
 
 The shared preparation stops before these domain consequences and decisions. It supplies neither a strategic pivot rule nor a maintenance trial or capability-development assessment.
 

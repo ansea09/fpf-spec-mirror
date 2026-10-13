@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.CN.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
-line_start: 36792
-line_end: 37212
+line_start: 36690
+line_end: 37112
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -35,6 +35,8 @@ keywords:
 ---
 
 ## A.19.CN - CN-frame: Specify and Maintain Comparability and Normalization
+
+> **Status:** Stable
 
 > **Scope.** Use a CN-frame to state which values may be compared for one bearer and intended use. Declare the characteristic space, chart, normalization and comparison basis in CN-Spec; maintain its editions and apply the conditions for each proposed reuse.
 >

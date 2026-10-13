@@ -6,12 +6,12 @@ section_id: "C.41.QC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__001_intro.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:intro — Intro"
-line_start: 88695
-line_end: 88700
+line_start: 88623
+line_end: 88628
 dependencies:
   - "A.10"
   - "C.41"

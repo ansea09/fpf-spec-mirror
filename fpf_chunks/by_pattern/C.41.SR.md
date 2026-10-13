@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.SR.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
-line_start: 88515
-line_end: 88694
+line_start: 88443
+line_end: 88622
 dependencies:
   - "A.10"
   - "B.1.5"
@@ -56,7 +56,7 @@ B.1.5 governs an actual Method-composition claim, and A.15.10 governs changed-pr
 
 Identify the result or next action that consumes answers from the contributing work, whether performed by different participants or by the same person. Recover for each relevant claim its subject, description or criterion, observation conditions and grounds. Translate local labels by their meaning: one person's “ready” can mean powered equipment; another's can mean content suitable for participants.
 
-Use [OPS.3](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops3---distinguish-operating-subjects-cases-queues-resources-and-records) to distinguish operating subjects and records, [OPS.4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants) to recover the decision-relevant shared account, and [ADM.13](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm13---keep-administrative-records-fit-for-their-uses) to keep administrative records usable where later reliance needs them. Keep people or technical systems performing work distinct from descriptions, materials and observations used in it.
+Keep the operating subject, its actual condition, an observation and a record of it distinct. Recover the small shared account needed for this reliance: which result and occasion the claims concern, their sources and conditions, what changed, what remains unknown and who needs the answer in time. Retain a record only when later use needs it, with enough meaning and currentness to recover the relied-on claim. Keep people or technical systems performing work distinct from descriptions, materials and observations used in it.
 
 A work assignment does not establish capability or completed work. A request sent, an accepted assignment, performed work, reported completion and a result examined by its recipient answer different questions. Recover which event a local status reports; where waiting matters, include the needed coordination as well as performance.
 
@@ -94,7 +94,7 @@ Checklist questions select conditions within structures of transformations and s
 
 During a workshop preparation, testing a projected example can contribute both to checking the display and to preparing the session. The whole matters at that moment: a technically sharp image of an obsolete example does not serve the exercise. The relevant [FPF B.1.5](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15---gamma_method---order-sensitive-method-composition-and-work-enactment) Method relations and [A.15.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a1510---resume-interrupted-work) changed-premise relations help identify what the combined work consumes. A supplied projector enables this work; its availability alone does not establish a performed part of the session preparation.
 
-A missing intermediate ability can stop the combination. Someone able to count cards may lack the judgement needed to select instructional examples. The next contribution is then help with the examples, not another count. The three people may also need the same room at incompatible times. [OPS.4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants) helps make that conflict recoverable across participants. Selecting a feasible resource arrangement is additional coordination work; filling three lists cannot resolve it.
+A missing intermediate ability can stop the combination. Someone able to count cards may lack the judgement needed to select instructional examples. The next contribution is then help with the examples, not another count. The three people may also need the same room at incompatible times. Keeping a shared operating account helps make that conflict recoverable across participants. Selecting a feasible resource arrangement is additional coordination work; filling three lists cannot resolve it.
 
 For a fuller account of change and subject states, return to [FPF A.3.3](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a33---udynamics-state-space-and-transition-law-episteme), [A.3.4](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a34---utransformation-actual-bounded-change-under-conditions) and [A.22](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a22---structure-and-structural-views-struct-cal). These foundations help describe the structures used here; a constructive composition of transformations needs its own justified account. Context-state descriptions in E.18 concern the bindings and locality they describe, rather than every state of a checklist subject.
 
@@ -138,7 +138,7 @@ The worked case below connects these moves to the room, materials and workshop. 
 
 **Local answers and simultaneous contribution.** Through C.41.UA, the technician establishes equipment conditions and the facilitator compares projected and physical examples. The actual projection check contributes to equipment preparation and preparation of the workshop at the same time. Its relation to the whole changes what is checked: a test image alone cannot establish the actual example's use.
 
-**Reconciliation.** C.41.SR connects the local answers to workshop W. A whole-session account includes the actual materials and arrangement, not a count of green local lists. If the facilitator and technician need the room at incompatible times, [OPS.4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants) makes the conflicting claims visible to the people who can select a feasible arrangement before those contributions combine.
+**Reconciliation.** C.41.SR connects the local answers to workshop W. A whole-session account includes the actual materials and arrangement, not a count of green local lists. If the facilitator and technician need the room at incompatible times, a shared operating account makes the conflicting claims visible to the people who can select a feasible arrangement before those contributions combine.
 
 **Changed premise and continuation.** Moving W from room A to B reopens the room-dependent observations. Revising the example reopens its content and display questions. Known unaffected card facts remain usable. An absent technician assignment returns to coordination; an assigned technician with an unknown projection result returns to observation. After an interruption, the shared account lets participants recover these different next moves.
 
@@ -182,7 +182,7 @@ The selected arrangement preserves local usefulness and adds only the shared cla
 
 ### C.41.SR:11 - SoTA-Echoing
 
-When should local checks be reconciled in conversation, an operating view or a separate retained account? **Adopt** a shared question with recoverable contributing claims, using the supplied *Systems Management* manuscript's operational/coordination practice and [OPS.4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants). **Adapt** the communication arrangement to who will rely on those claims and when. Direct exchange and an already adequate operating view are serious alternatives to another maintained record.
+When should local checks be reconciled in conversation, an operating view or a separate retained account? **Adopt** a shared question with recoverable contributing claims, using the supplied *Systems Management* manuscript's operational/coordination practice. **Adapt** the communication arrangement to who will rely on those claims and when. Direct exchange and an already adequate operating view are serious alternatives to another maintained record.
 
 Sections 4.1–4.3 choose the arrangement for the same needed session conclusion. In §5, participants who can inspect the same materials and act together can resolve the question in conversation. A later technician cannot depend on having heard that exchange; the existing operating view can preserve W, the changed room, still-valid material grounds and missing room observations. Adding a second report provides no further needed distinction when that view is sufficient. Accept the extra recording and update effort only when a later consequential use still lacks its subjects, grounds or changes.
 
@@ -194,7 +194,7 @@ The defect overcome is a lost local-to-whole dependency or an unrecoverable hand
 
 C.41.UA supplies local answers and their grounds. C.41 supplies questions about the shared result, C.41.QC tests uncertain criteria, and C.41.OF arranges participants' access and interaction.
 
-[OPS.3](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops3---distinguish-operating-subjects-cases-queues-resources-and-records) distinguishes operating subjects, [OPS.4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants) supplies a recoverable shared operating account, and [ADM.13](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm13---keep-administrative-records-fit-for-their-uses) supplies administrative record fitness. [FPF B.1.5](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15---gamma_method---order-sensitive-method-composition-and-work-enactment) supplies Method composition and [A.15.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a1510---resume-interrupted-work) changed-premise recovery. Their general accounts remain external; this Method specializes their contributions to checklist answers used across shared work.
+Operating practice illustrates distinctions among cases, queues, resources and records and a recoverable shared operating account; administrative practice illustrates records fit for their uses. These are domain applications of the distinctions used in :4.1. [FPF B.1.5](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15---gamma_method---order-sensitive-method-composition-and-work-enactment) supplies Method composition and [A.15.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a1510---resume-interrupted-work) changed-premise recovery. This Method constructs the connection among checklist answers used across shared work; its subject and record distinctions do not require one of those domain applications.
 
 ### C.41.SR:End
 

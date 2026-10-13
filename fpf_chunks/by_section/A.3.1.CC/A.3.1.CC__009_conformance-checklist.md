@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__009_conformance-checklist.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:7 — Conformance Checklist"
-line_start: 10653
-line_end: 10664
+line_start: 10539
+line_end: 10550
 dependencies:
   - "A.10"
   - "A.15.8.MS"

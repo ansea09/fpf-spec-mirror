@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__005_forces.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:3 — Forces"
-line_start: 10339
-line_end: 10350
+line_start: 10225
+line_end: 10236
 dependencies:
   - "A.10"
   - "A.15.1"

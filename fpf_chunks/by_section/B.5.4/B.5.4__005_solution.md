@@ -6,12 +6,12 @@ section_id: "B.5.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__005_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
   - "B.5.4:4 — Solution"
-line_start: 50691
-line_end: 50703
+line_start: 50603
+line_end: 50615
 dependencies:
   - "A.7.1"
   - "B.5"

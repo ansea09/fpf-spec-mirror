@@ -6,12 +6,12 @@ section_id: "C.40.JF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__005_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:4 — Solution"
-line_start: 86568
-line_end: 86636
+line_start: 86496
+line_end: 86564
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -88,7 +88,7 @@ This return need not become a large dependency register. Expand it when several 
 
 #### C.40.JF:4.6 - Return to the next actual use
 
-Supply the qualified direction or exact gap to the current inquiry. C.40.OP may retain the candidate or reconstruct its path; PSDA.19 bounds an actual advising engagement, and Decision Design supplies decision-support results when recommendation is requested. HCD, organization, AI, engineering, operations, and other direct practices retain programme construction, allocation, realization, and evidence.
+Supply the qualified direction or exact gap to the current inquiry. C.40.OP may retain the candidate or reconstruct its path; the applicable professional engagement Method bounds an actual advising engagement, and decision-support Methods supply their results when recommendation is requested. Human-capability, organization, AI, engineering, operations, and other direct practices retain programme construction, allocation, realization, and evidence.
 
 Reopen only the affected claim when its subject, starting configuration, use, horizon, resource, support, permission, protection, or evidence changes. Use C.40.RQ to trace that change through dependent opportunities and advice. Preserve an unchanged independent result.
 

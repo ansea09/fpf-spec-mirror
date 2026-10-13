@@ -6,12 +6,12 @@ section_id: "A.11.OP:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__012_sota-echoing.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:11 — SoTA-Echoing"
-line_start: 28018
-line_end: 28025
+line_start: 27910
+line_end: 27917
 dependencies:
   - "A.10"
   - "A.11"

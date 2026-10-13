@@ -6,12 +6,12 @@ section_id: "C.41.SR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__012_sota-echoing.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:11 — SoTA-Echoing"
-line_start: 88677
-line_end: 88686
+line_start: 88605
+line_end: 88614
 dependencies:
   - "A.10"
   - "B.1.5"
@@ -21,7 +21,7 @@ keywords:
 
 ### C.41.SR:11 - SoTA-Echoing
 
-When should local checks be reconciled in conversation, an operating view or a separate retained account? **Adopt** a shared question with recoverable contributing claims, using the supplied *Systems Management* manuscript's operational/coordination practice and [OPS.4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants). **Adapt** the communication arrangement to who will rely on those claims and when. Direct exchange and an already adequate operating view are serious alternatives to another maintained record.
+When should local checks be reconciled in conversation, an operating view or a separate retained account? **Adopt** a shared question with recoverable contributing claims, using the supplied *Systems Management* manuscript's operational/coordination practice. **Adapt** the communication arrangement to who will rely on those claims and when. Direct exchange and an already adequate operating view are serious alternatives to another maintained record.
 
 Sections 4.1–4.3 choose the arrangement for the same needed session conclusion. In §5, participants who can inspect the same materials and act together can resolve the question in conversation. A later technician cannot depend on having heard that exchange; the existing operating view can preserve W, the changed room, still-valid material grounds and missing room observations. Adding a second report provides no further needed distinction when that view is sufficient. Accept the extra recording and update effort only when a later consequential use still lacks its subjects, grounds or changes.
 

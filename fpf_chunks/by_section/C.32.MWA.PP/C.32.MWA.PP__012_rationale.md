@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__012_rationale.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:10 — Rationale"
-line_start: 79118
-line_end: 79137
+line_start: 79046
+line_end: 79065
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -33,7 +33,7 @@ Project, process and case views provide a practical test: when several views con
 
 **Generate by changing mechanisms because named forms are underdetermined.** A centralized office can perform cases, provide common tools or only maintain access. Each has different consequences. Conversely, the same operative allocation can exist in a formal office or ordinary roles. Specialization, proximity, decision placement, provider relations and common means are useful design variables only through the contributions they change.
 
-**Allow the remit to change because feasibility can expose the wrong promise.** Strategic purpose constrains the architecture, but an unavailable or disproportionate obtaining arrangement can properly return a different result, audience or horizon to that purpose. STR.6/.8 supply this reciprocal connection. The architecture does not grant itself authority to change the promise; it returns the reason to the relevant choice.
+**Allow the remit to change because feasibility can expose the wrong promise.** Strategic purpose constrains the architecture, but an unavailable or disproportionate obtaining arrangement can properly return a different result, audience or horizon to that purpose. Return the changed contribution, its feasibility or burden and the affected promise to that purpose and choice owner; carry the resulting constraint back into the arrangement. The architecture does not grant itself authority to change the promise; it returns the reason to the relevant choice.
 
 **Keep development and support distinct because their recipients and results differ.** A supplier can improve its capability to help while a client learns nothing. A client can develop through an existing provider without the provider changing. A community can transmit a Method without becoming the employer of its carriers. The network can connect those contributions while their Work, rights and evidence remain independent.
 

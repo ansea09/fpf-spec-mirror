@@ -6,12 +6,12 @@ section_id: "C.40.PC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__005_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:4 — Solution"
-line_start: 86118
-line_end: 86184
+line_start: 86046
+line_end: 86112
 dependencies:
   - "A.15.9"
   - "A.2.3"
@@ -48,13 +48,13 @@ For example:
 
 Faster approval is a different benefit claim; automatic approval is a different contribution and authority question. Preserve those differences if they become live rather than silently extending the proposal.
 
-If rival problem formulations change the subject, boundary, evidence, intervention family, or affected interests, keep them distinct. PSDA.1 supplies plural formulation work when competing formulations change the inquiry. A change of wording that leaves those consequences identical does not create another worthwhile problem.
+If rival problem formulations change the subject, boundary, evidence, intervention family, or affected interests, keep them distinct. Retain each materially different formulation with the subject, boundary, evidence, intervention and interests it changes. Obtain a bounded problem-structuring contribution through A.15.9 if the needed formulation cannot yet be constructed from the available grounds. A change of wording that leaves those consequences identical does not create another worthwhile problem.
 
 #### C.40.PC:4.3 - Establish what makes the problem worthwhile
 
 Ask who is affected, why the missing result matters, at what scale and horizon, and under what burdens and protections addressing it could be worth pursuing. Include material contrary evidence and consequences for affected people or Systems, not only the proposed beneficiary.
 
-Use the domain practice that owns each relied-on claim. A human capability need belongs with current HCD and representative later-Work evidence; a service failure belongs with the relevant operations and domain evidence; safety, access, finance, legal, and other specialist claims retain their own qualification. Use `C.40.OC` when the value account relies on unclear or incompatible characteristics.
+Use the domain practice that owns each relied-on claim. A human capability need requires representative later-Work evidence about the person and the permitted support; a service failure belongs with the relevant operations and domain evidence; safety, access, finance, legal, and other specialist claims retain their own qualification. Use `C.40.OC` when the value account relies on unclear or incompatible characteristics.
 
 Return the strongest supported statement:
 

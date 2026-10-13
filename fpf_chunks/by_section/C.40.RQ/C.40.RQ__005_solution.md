@@ -6,12 +6,12 @@ section_id: "C.40.RQ:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__005_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:4 — Solution"
-line_start: 86992
-line_end: 87073
+line_start: 86920
+line_end: 87001
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -58,7 +58,7 @@ Follow an established dependency only while a receiving action or claim can chan
 
 Use [A.15.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) for the missing external result: inspect an adequate existing result first and qualify its supported use for the present subject, configuration, use, and window. Retain a useful narrowed or conditional answer. Select a request through A.15.9 and C.11.DUA only when its obtainable contribution warrants the full acquisition burden. The supplier retains its Method and conclusion.
 
-Return to the opportunity contribution that the change actually affects. A changed receiving need may reopen C.40.PC's problem/contribution account. A changed support or finite configuration may require C.40.DC and C.40.JF. A defeated enabling relation may retire a C.40.OP stepping-stone claim while leaving the candidate's independent contribution useful. A changed recipient, conflict, consent, or disclosure condition reopens PSDA.19's service boundary. Preserve an independently qualified domain result within its established scope, and reconsider a domain claim whose qualification itself depended on the changed condition.
+Return to the opportunity contribution that the change actually affects. A changed receiving need may reopen C.40.PC's problem/contribution account. A changed support or finite configuration may require C.40.DC and C.40.JF. A defeated enabling relation may retire a C.40.OP stepping-stone claim while leaving the candidate's independent contribution useful. A changed recipient, conflict, consent, or disclosure condition reopens the actual advising engagement and its service boundary. Preserve an independently qualified domain result within its established scope, and reconsider a domain claim whose qualification itself depended on the changed condition.
 
 Do not transplant the earlier qualification to the new subject or configuration. A model name, similar job title, same provider, or narrower dataset is insufficient. Use the direct practice's qualified transfer basis where it applies; otherwise preserve the receiving reading as unknown under C.40.OC.
 
@@ -88,7 +88,7 @@ An ordinary return can be short:
 
 Make the changed contribution and its scope available to the person or practice using it, under the actual disclosure and service conditions. Preserve the earlier opportunity or recommendation as an account of what was returned under the earlier basis. Record a correction where needed without silently rewriting that history.
 
-When an actual recommendation or follow-up question is affected, use [PSDA.15 — Arrange Decision Follow-up or Reassess Advice After a Change](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda15---arrange-decision-follow-up-or-reassess-advice-after-a-change). It distinguishes the observation, interpretation, earlier advice, established decision, and implementation, and supplies the affected decision-support return. Use PSDA.14 for a later recommendation when one is actually needed.
+When an actual recommendation or follow-up question is affected, return the qualified change to the responsible advice owner. Keep the observation, interpretation, earlier advice, established decision and implementation distinct, and obtain only the affected professional return. A later recommendation is a separate result when actually needed. An applicable follow-up Method and a recommendation Method can supply those distinct results for a separately selected decision-design engagement.
 
 A recommendation, its delivery, and its acknowledgement establish neither the recipient's choice nor an implemented change. If an operational action must change, recover the applicable authorized decision or protection rule. If the receiving choice is unknown, say so rather than treating the old advice as a standing instruction.
 
@@ -98,7 +98,7 @@ A change in professional scope or disclosure can restrict the service return whi
 
 Close this update when the inspected use has a supported disposition or an explicit blocker and its material coverage limits are visible. A compatible source-link repair can finish directly. Name the next receiver only when further action needs one; neither branch requires a duplicate common account. Keep an independent unresolved branch open as such; do not hold every resolved branch unfinished.
 
-For an actual continuing use, state the observation or condition that would reopen its result and identify any responsibility on which that use relies. A completed reference repair needs no new observation arrangement. If later advice depends on future evidence, the observation, interpretation, access, timing, burden, and receiving response must be feasible under PSDA.15. A missed or late observation is a present reliance limit when that evidence was necessary.
+For an actual continuing use, state the observation or condition that would reopen its result and identify any responsibility on which that use relies. A completed reference repair needs no new observation arrangement. If later advice depends on future evidence, the observation, interpretation, access, timing, burden, and receiving response must be feasible under the actual advice and observation arrangement. A missed or late observation is a present reliance limit when that evidence was necessary.
 
 Use [G.11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) for actual source currentness, decay, scoped refresh planning, or reporting. It does not decide the new domain result or replace the opportunity judgement. If the guidance itself fails across applications, return the bounded failure to its maintainer; a changed fact about one subject normally changes only that application.
 

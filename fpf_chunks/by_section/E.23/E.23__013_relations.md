@@ -6,12 +6,12 @@ section_id: "E.23:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__013_relations.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:12 — Relations"
-line_start: 113343
-line_end: 113376
+line_start: 113356
+line_end: 113389
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -45,7 +45,7 @@ keywords:
 | `A.13`, `A.15.1`, `A.2`, `A.2.1`, `F.6`, `A.6.1`, `C.2.1`, `A.3.4`, `A.15.PROD` | Define or constrain exact actual performers, independently admitted evaluation or improvement Work, optional local classification and precise assignment-bound attribution, application and result binding, result episteme, actual Transformation, and any separately current production branch. E.23 mints no generic Work-result or Work-to-change relation. |
 | `C.22.PFR` | Governs an actual Problem occurrence when one is used by an improvement claim; a finding, floor miss, evaluation need, or loop record does not establish its actuality or temporal identity. |
 | `E.13` | Governs pragmatic utility and proxy-to-value alignment when loop targets, quality values, metrics, or review results become substitutes for the intended value. |
-| `G.2` | Governs source-use and source-pack return before DPF seeds based on source-use records, admitted source publications, agent-practice claims, or source-composed improvement claims can be used as evidence. |
+| `G.2` | Supplies a broad, refreshable CG-Frame pack when that source-synthesis contribution is needed. Carry its adopted contributions and limits into the affected improvement claim; other source routes keep their own bounded basis. For a DPF seed, select the smallest sufficient source route through `E.4.DPF:4`; any evidence claim remains under its applicable evidence rule. |
 | `F.18` | Supplies durable-name evaluation for naming loops. |
 | `C.25`, `C.16.Q` | Govern engineering quality bundles and quality-word precision repair. |
 | `C.19.1` | Governs BLP and cost and risk comparison for method-family choice. |

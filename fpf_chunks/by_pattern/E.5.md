@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.5.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
-line_start: 94358
-line_end: 94459
+line_start: 94294
+line_end: 94397
 dependencies:
   - "E.2"
   - "E.3"
@@ -22,6 +22,8 @@ keywords:
 ---
 
 ## E.5 - Four Guard‑Rails of FPF
+
+> **Status:** Stable
 
 ### E.5:1 - Problem frame
 FPF positions itself as a **timeless, universal “operating system for

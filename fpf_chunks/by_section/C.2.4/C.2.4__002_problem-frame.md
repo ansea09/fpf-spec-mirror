@@ -6,12 +6,12 @@ section_id: "C.2.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__002_problem-frame.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:1 — Problem frame"
-line_start: 53556
-line_end: 53558
+line_start: 53470
+line_end: 53472
 dependencies:
   - "A.15"
   - "A.15.1"

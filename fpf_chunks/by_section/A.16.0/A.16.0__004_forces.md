@@ -6,12 +6,12 @@ section_id: "A.16.0:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__004_forces.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:3 — Forces"
-line_start: 33752
-line_end: 33760
+line_start: 33646
+line_end: 33654
 dependencies:
   - "A.16"
   - "A.16.1"

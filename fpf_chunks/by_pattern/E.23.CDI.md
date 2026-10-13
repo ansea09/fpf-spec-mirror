@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.CDI.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
-line_start: 113379
-line_end: 113589
+line_start: 113392
+line_end: 113602
 dependencies:
   - "A.15.1"
   - "A.2.2"
@@ -28,7 +28,7 @@ keywords:
 > **Tech-name:** `WorkFamilyCapabilityDevelopmentMethod`
 > **Plain-name:** develop a System's capability for named work and check it in representative work
 > **Type:** Method-description pattern for a separate capability-development Method; coordinated with `E.23`
-> **Status:** Candidate
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 ### E.23.CDI:1 - Problem frame

@@ -6,12 +6,12 @@ section_id: "C.40.OI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__013_relations.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:12 — Relations"
-line_start: 85572
-line_end: 85582
+line_start: 85500
+line_end: 85510
 dependencies:
   - "A.15.9"
   - "B.5.PI"
@@ -29,8 +29,8 @@ keywords:
 - **Uses:** `C.11.DUA` to compare attainable inquiry with its receiving value and whole burden; `A.15.9` to reuse or obtain and qualify an outside-practice result.
 - **Prepares:** `C.40.OC` when selected characteristics and current, intended, protected, or unknown readings are the first missing result.
 - **Prepares:** `C.40.NU` or `C.40.PC` when the inquiry needs materially different leads or a worthwhile problem and proposed contribution.
-- **Coordinates with:** `PSDA.19` when a distinct recommending performer and recipient make advising admissibility current; this pattern does not establish that relationship.
+- **Coordinates with:** the applicable professional engagement Method when a distinct recommending performer and recipient make advising admissibility current; this pattern does not establish that relationship.
 - **Returns to:** the practice that owns a missing premise, retaining its qualification and authority boundary.
-- **Hands later comparison and recommendation outward:** current Decision Design patterns own formed decision alternatives, comparison, recommendation, follow-up, and choice separation.
+- **Hands later comparison and recommendation outward:** the applicable decision-support Methods govern formed decision alternatives, comparison, recommendation, follow-up, and choice separation.
 
 

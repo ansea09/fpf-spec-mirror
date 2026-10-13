@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__006_archetypal-grounding.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:5 — Archetypal Grounding"
-line_start: 94261
-line_end: 94270
+line_start: 94195
+line_end: 94206
 dependencies:
   - "C.2.1"
   - "C.33"
@@ -36,4 +36,6 @@ keywords:
 **Show — architecture diagram.** One FPF architecture-diagram form is replaced one-to-one by a candidate diagram for the same orientation use. The diagrams have no useful line diff. The maintainer uses the FPF pattern that defines or constrains that diagram form to select named framework parts, dependency edges, and legend distinctions for the inventory. The maintainer uses `C.33` to record captured and lost structure and `C.34` to record the declared correspondence. One predecessor dependency edge has no candidate correspondent, so similar layout cannot support a positive conclusion.
 
 **Show — local practice framework.** An LPF candidate replaces a repeated general explanation with a reference to a new FPF method. The accepted-source comparison passes. The predecessor comparison still checks the LPF's local recovery cue, concrete work-size limit, and tool-specific stop because the general FPF method does not include those local actions. Removing them would be loss, not successful deduplication.
+
+**Show — a thematic account changes carrier.** A Library removes a separately published account that connects general development Methods, human learning and organizational change. The general development construction belongs in Core; the human and organizational mechanisms remain in their DPFs. The account explains their combined use, so its receiver is the Library Architectural Reference. Copying every paragraph into Core would preserve the words but change which whole Core claims to explain. The allocation first establishes these receivers, then checks the complete transferred account, the retained domain Methods and the updated current returns. A different passage explaining only the connections among Core patterns can remain in the Core account.
 

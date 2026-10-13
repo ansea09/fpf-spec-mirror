@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.5.4.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
-line_start: 94718
-line_end: 94801
+line_start: 94662
+line_end: 94747
 dependencies:
   - "E.3"
   - "E.5"
@@ -18,6 +18,8 @@ keywords:
 ---
 
 ## E.5.4 - Cross‑Disciplinary Bias Audit
+
+> **Status:** Stable
 
 ### E.5.4:1 - Problem frame
 FPF calls itself trans‑disciplinary, but every author carries implicit

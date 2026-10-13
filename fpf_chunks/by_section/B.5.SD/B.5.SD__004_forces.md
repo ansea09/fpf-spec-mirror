@@ -6,12 +6,12 @@ section_id: "B.5.SD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__004_forces.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "B.5.SD — Construct a Useful Answer through Substantive Discussion"
   - "B.5.SD:3 — Forces"
-line_start: 50995
-line_end: 51004
+line_start: 50907
+line_end: 50916
 dependencies:
   - "A.3.1"
   - "B.5.RA"

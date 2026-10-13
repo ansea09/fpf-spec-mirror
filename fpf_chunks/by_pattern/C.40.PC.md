@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.PC.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
-line_start: 86081
-line_end: 86279
+line_start: 86009
+line_end: 86207
 dependencies:
   - "A.15.9"
   - "A.2.3"
@@ -39,7 +39,7 @@ Start by asking the receiver what is missing or foregone in one bounded use. Rel
 
 The subject that might develop and the receiver of its later contribution can differ. A person may explore their own future Work without an adviser; an organization may investigate a contribution for a client; a research programme may seek an epistemic contribution rather than a commercial offer.
 
-**Ordinary non-use boundary.** Reuse an adequate problem/contribution account when its receiving use, evidence, protections, and horizon remain current. Proceed to `C.40.DC` if only the way of obtaining that contribution is missing. Use [PSDA.1](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda1---generate-plural-problem-formulations) when a bounded decision-support inquiry needs materially different problem formulations. This pattern does not establish an actual commitment, choose a direction, or justify intervention by itself.
+**Ordinary non-use boundary.** Reuse an adequate problem/contribution account when its receiving use, evidence, protections, and horizon remain current. Proceed to `C.40.DC` if only the way of obtaining that contribution is missing. Use an applicable problem-structuring Method when a bounded decision-support inquiry needs materially different problem formulations. This pattern does not establish an actual commitment, choose a direction, or justify intervention by itself.
 
 ### C.40.PC:2 - Problem
 
@@ -84,13 +84,13 @@ For example:
 
 Faster approval is a different benefit claim; automatic approval is a different contribution and authority question. Preserve those differences if they become live rather than silently extending the proposal.
 
-If rival problem formulations change the subject, boundary, evidence, intervention family, or affected interests, keep them distinct. PSDA.1 supplies plural formulation work when competing formulations change the inquiry. A change of wording that leaves those consequences identical does not create another worthwhile problem.
+If rival problem formulations change the subject, boundary, evidence, intervention family, or affected interests, keep them distinct. Retain each materially different formulation with the subject, boundary, evidence, intervention and interests it changes. Obtain a bounded problem-structuring contribution through A.15.9 if the needed formulation cannot yet be constructed from the available grounds. A change of wording that leaves those consequences identical does not create another worthwhile problem.
 
 #### C.40.PC:4.3 - Establish what makes the problem worthwhile
 
 Ask who is affected, why the missing result matters, at what scale and horizon, and under what burdens and protections addressing it could be worth pursuing. Include material contrary evidence and consequences for affected people or Systems, not only the proposed beneficiary.
 
-Use the domain practice that owns each relied-on claim. A human capability need belongs with current HCD and representative later-Work evidence; a service failure belongs with the relevant operations and domain evidence; safety, access, finance, legal, and other specialist claims retain their own qualification. Use `C.40.OC` when the value account relies on unclear or incompatible characteristics.
+Use the domain practice that owns each relied-on claim. A human capability need requires representative later-Work evidence about the person and the permitted support; a service failure belongs with the relevant operations and domain evidence; safety, access, finance, legal, and other specialist claims retain their own qualification. Use `C.40.OC` when the value account relies on unclear or incompatible characteristics.
 
 Return the strongest supported statement:
 
@@ -201,11 +201,11 @@ An explicit confirming question gives provisional value a practical use. It says
 
 **Practice question.** How can a promising lead become a worthwhile receiving problem and proposed contribution without importing the supplier's preferred solution or overstating benefit?
 
-**Best-known line for this use.** Combine receiver-grounded problem inquiry with an explicit problem/contribution distinction. [ISO 56007:2023](https://www.iso.org/standard/75068.html) supplies the bounded opportunity/concept front-end before solution development. Current PSDA.1 supplies materially different formulations and their evidence consequences; A.2.3 supplies promise-content identity without conflating commitment and fulfilment. This pattern **adapts** those contributions in `:4.1`–`:4.6` to one prospective development contribution and its confirming return. Domain evidence, rather than the source combination, supports the actual worth claim.
+**Best-known line for this use.** Combine receiver-grounded problem inquiry with an explicit problem/contribution distinction. [ISO 56007:2023](https://www.iso.org/standard/75068.html) supplies the bounded opportunity/concept front-end before solution development. Problem-structuring Methods supply materially different formulations and their evidence consequences; A.2.3 supplies promise-content identity without conflating commitment and fulfilment. This pattern **adapts** those contributions in `:4.1`–`:4.6` to one prospective development contribution and its confirming return. Domain evidence, rather than the source combination, supports the actual worth claim.
 
 **Serious alternative and trade-off.** An offer-led brief is cheaper when a qualified receiving need and acceptance basis already exist. When they do not, it hides the problem inside the offered answer. At comparable bounded inquiry effort, asking what result is missing and what would count as a supplied contribution can distinguish qualification support from faster approval and from shift handoff in `:5.1`. A full decision-modeling engagement can handle richer competing values, but is unnecessary when a short receiver account or a negative answer resolves the lead. Use that fuller work when it changes the decision rather than making it an entry requirement.
 
-**Source roles and limits.** ISO supplies normative scope, PSDA.1 formulation guidance, and A.2.3 semantic distinctions. None establishes this receiver's need, a causal benefit, professional authority, or the empirical effectiveness of this cross-holder inquiry. A commercial promise is one possible use, not the template for every epistemic or community contribution.
+**Source roles and limits.** ISO supplies normative scope, problem-structuring Methods supply formulation guidance, and A.2.3 supplies semantic distinctions. None establishes this receiver's need, a causal benefit, professional authority, or the empirical effectiveness of this cross-holder inquiry. A commercial promise is one possible use, not the template for every epistemic or community contribution.
 
 **Reopen.** Reopen the affected move if current practice supplies a better low-burden way to expose false need, overpromised benefit, or consequential missing participants while preserving a usable first return; or if a relied-on source changes the problem, value, or promise boundary.
 
@@ -213,7 +213,7 @@ An explicit confirming question gives provisional value a practical use. It says
 
 - **Receives from C.40.OI and C.40.NU:** the bounded inquiry and leads whose receiving contribution remains uncertain; adequate direct inputs may be reused.
 - **Uses C.40.OC:** characteristics and scales needed to make a worth or contribution claim interpretable.
-- **Uses PSDA.1:** plural formulations when their structural differences change a bounded decision-support inquiry.
+- **Can supply a selected problem-structuring Method:** the bounded problem/contribution account and unresolved formulation question for a separate decision-support inquiry.
 - **Uses A.2.3:** identity and conditions of relied-on promise content, distinct from commitment and provision.
 - **Uses A.15.9:** the smallest missing outside-practice result and its reliance boundary, without performing the supplier's Method.
 - **Supplies C.40.DC:** worthwhile problem/proposed-contribution accounts, including explicit hypotheses and acceptance expectations.

@@ -6,12 +6,12 @@ section_id: "E.17.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__001_intro.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:intro — Intro"
-line_start: 105139
-line_end: 105166
+line_start: 105147
+line_end: 105175
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -30,7 +30,8 @@ keywords:
 ---
 
 ## E.17.2 - TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons
-> **Status:** Stable authoring template; no TEVB catalogue value is shipped by this pattern.
+> **Status:** Stable
+> **Type:** Authoring template; no TEVB catalogue value is shipped by this pattern.
 
 **Use this when.** A project wants to author one small local family of engineering viewpoints for descriptions of holons, so that functional, procedural, allocation-responsibility, and module-interface claims remain distinguishable and comparable.
 

@@ -6,12 +6,12 @@ section_id: "G.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__001_intro.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:intro — Intro"
-line_start: 128525
-line_end: 128534
+line_start: 128562
+line_end: 128573
 dependencies:
   - "A.10"
   - "A.21"
@@ -42,6 +42,8 @@ keywords:
 ---
 
 ## G.8 - Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)
+
+> **Status:** Stable
 
 **Tag.** Architectural pattern (packaging kit).
 **Stage.** Design‑time packaging (authoring & publication) with a run‑time consumption facade for `G.5` (selector/registry).

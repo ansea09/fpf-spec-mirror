@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.17.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
-line_start: 60535
-line_end: 60938
+line_start: 60457
+line_end: 60862
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -56,7 +56,9 @@ keywords:
 
 ## C.17 - Characterising Generative Novelty and Value
 
-**Status.** Evaluation and measurement-use pattern; normative where stated.
+**Type:** Evaluation and measurement-use pattern; normative where stated.
+
+> **Status:** Stable
 
 **Depends on.** `A.17`, `A.18`, and `A.19` for Characteristics, Scales, and CharacteristicSpaces; `A.19.ECS` for the evaluation-space specification; `C.16` for measurement; `C.2.1` for claim-bearing results and model epistemes; `A.1.1` for model applicability, use, and expression coherence when those relations matter; `A.10` and `B.3` for evidence, reliance, and assurance; and the patterns that define the current objective, acceptance criterion, and must-constraints.
 

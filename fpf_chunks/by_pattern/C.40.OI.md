@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.OI.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
-line_start: 85320
-line_end: 85584
+line_start: 85248
+line_end: 85512
 dependencies:
   - "A.15.9"
   - "B.5.PI"
@@ -37,7 +37,7 @@ What is the smallest useful inquiry when someone says “we should develop,” n
 
 Use this pattern when a person, organization, community, AI arrangement, platform, facility, research programme, or another identified subject has a development concern or aspiration but the receiving use, horizon, protected conditions, reason to explore, or affordable inquiry effort is still loose. The first useful result is a bounded inquiry that another person can inspect, or one exact missing premise that prevents such an inquiry.
 
-Begin here without appointing an adviser. A person can bound a self-inquiry and continue into opportunity construction. When a distinct performer is already being asked to advise a named recipient, this pattern can recover the subject, use, and horizon, but `PSDA.19` governs whether the advising relationship itself is admissible.
+Begin here without appointing an adviser. A person can bound a self-inquiry and continue into opportunity construction. When a distinct performer is already being asked to advise a named recipient, this pattern can recover the subject, use, and horizon, but the applicable professional engagement Method governs whether the advising relationship itself is admissible.
 
 **Cheap exit.** Reuse an existing inquiry when it already identifies the same subject, receiving use, horizon, protections, posture, and effort boundary and no material premise changed. If a qualified domain practice owns the whole question, use it directly. If adequate alternatives already exist and the remaining need is comparison, recommendation, or authorized choice, stop opportunity construction and use the direct decision-support owner.
 
@@ -127,7 +127,7 @@ Identify a result that could improve the answer or next inquiry. Depending on wh
 - a change-relevant characterization from `C.40.OC`;
 - materially different search leads from `C.40.NU`;
 - a worthwhile problem and proposed contribution from `C.40.PC`;
-- an admissible advising question or blocker from `PSDA.19`; or
+- an admissible advising question or blocker from the applicable professional engagement Method; or
 - a qualified result from the practice that owns a missing premise.
 
 Say what plausible answers would change: the next question, a possible contribution, a supported claim, an admissible action or a justified stop. When the future receiver is unknown, use the local exploratory question from §4.2. Discriminating explanations or discovering a useful operation can justify inquiry before an intervention is selected.
@@ -201,7 +201,7 @@ The provider proposal is recorded as a suggested premise. Strategy owns any comm
 
 #### C.40.OI:5.3 - Advice can enter elsewhere
 
-A committee already has three qualified directions for an identified facility, a complete characterization, and a current joint-reachability account. Its current need is an independent recommendation. Repeating `C.40.OI` adds no value. The adviser begins with `PSDA.19` to establish recipient, mandate, competence, conflicts, disclosure, and reliance, then uses current decision-support results. The committee retains the choice.
+A committee already has three qualified directions for an identified facility, a complete characterization, and a current joint-reachability account. Its current need is an independent recommendation. Repeating `C.40.OI` adds no value. The adviser begins with the applicable professional engagement Method to establish recipient, mandate, competence, conflicts, disclosure, and reliance, then uses current decision-support results. The committee retains the choice.
 
 #### C.40.OI:5.4 - Population anti-case
 
@@ -280,9 +280,9 @@ The selected boundary is therefore intentionally small: enough identity, use, ho
 - **Uses:** `C.11.DUA` to compare attainable inquiry with its receiving value and whole burden; `A.15.9` to reuse or obtain and qualify an outside-practice result.
 - **Prepares:** `C.40.OC` when selected characteristics and current, intended, protected, or unknown readings are the first missing result.
 - **Prepares:** `C.40.NU` or `C.40.PC` when the inquiry needs materially different leads or a worthwhile problem and proposed contribution.
-- **Coordinates with:** `PSDA.19` when a distinct recommending performer and recipient make advising admissibility current; this pattern does not establish that relationship.
+- **Coordinates with:** the applicable professional engagement Method when a distinct recommending performer and recipient make advising admissibility current; this pattern does not establish that relationship.
 - **Returns to:** the practice that owns a missing premise, retaining its qualification and authority boundary.
-- **Hands later comparison and recommendation outward:** current Decision Design patterns own formed decision alternatives, comparison, recommendation, follow-up, and choice separation.
+- **Hands later comparison and recommendation outward:** the applicable decision-support Methods govern formed decision alternatives, comparison, recommendation, follow-up, and choice separation.
 
 
 ### C.40.OI:End

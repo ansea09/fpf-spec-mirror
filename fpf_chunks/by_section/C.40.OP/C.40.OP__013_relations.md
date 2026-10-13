@@ -6,12 +6,12 @@ section_id: "C.40.OP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__013_relations.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:12 — Relations"
-line_start: 86942
-line_end: 86952
+line_start: 86870
+line_end: 86880
 dependencies:
   - "A.15.9"
   - "C.11.CRC"
@@ -30,7 +30,7 @@ keywords:
 - **Uses C.11.CRC:** finite step comparisons, inherited configurations, complete coordinates, transition burden, and future option effects.
 - **Uses C.18:** actual generation, archive, front, descriptor, lineage, and possibility-space claims.
 - **Uses C.19:** treatment of a still-live pool under its declared policy; local choice remains a different result.
-- **Supplies PSDA.19 and Decision Design:** retained alternatives and conditional paths for an actual bounded advising and decision-support question.
-- **Returns to HCD.2 and Learning Product:** human programme comparison and later Guide realization; authorized choices and performed Work remain separate.
+- **Supplies bounded advising and decision support:** retained alternatives and conditional paths for an actual bounded advising and decision-support question.
+- **Returns to programme design and learning-material production:** human programme comparison and later Guide realization; authorized choices and performed Work remain separate.
 - **Uses C.40.RQ:** affected reconsideration, revision, or retirement while preserving independent candidates.
 

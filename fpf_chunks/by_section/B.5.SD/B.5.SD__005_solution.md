@@ -6,12 +6,12 @@ section_id: "B.5.SD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__005_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "B.5.SD — Construct a Useful Answer through Substantive Discussion"
   - "B.5.SD:4 — Solution"
-line_start: 51005
-line_end: 51079
+line_start: 50917
+line_end: 50991
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -42,7 +42,7 @@ Arrange integration as actual work. Someone must connect the contributions into 
 
 Keep necessary roles distinct. A process facilitator can preserve questions, participation and agreement on how to proceed. A subject integrator constructs the reasoning. A decision maker accepts a course of action under the applicable authority. One performer can hold compatible responsibilities, but do not silently grant subject authority from control of the discussion.
 
-When the discussion forms part of a decision-support inquiry, obtain PSDA.12 and PSDA.13's results for participation, representation, consent, usable channels, confidentiality and faithful return under the actual engagement conditions. Their facilitation Method can itself supply adequate subject integration when the performer is capable. In other practices, obtain the required participation and authority conditions from their actual owners. A joint mathematical proof, for example, can require capable integration and protected participation without a decision-support engagement. The construction here remains the warranted connection between the claims and the receiving answer; it does not supply professional permission or replace protected participation.
+When the discussion forms part of a decision-support inquiry, obtain the actual engagement conditions for participation, representation, consent, usable channels, confidentiality and faithful return. Establish whose concerns and contributions can be represented, what participants have accepted, which disclosures are permitted and where the result must return. A facilitation Method can itself supply adequate subject integration when the performer is capable. In other practices, obtain the required participation and authority conditions from their actual owners. A joint mathematical proof, for example, can require capable integration and protected participation without a decision-support engagement. The construction here remains the warranted connection between the claims and the receiving answer; it does not supply professional permission or replace protected participation.
 
 
 #### B.5.SD:4.3 - Make the proposed reasoning inspectable

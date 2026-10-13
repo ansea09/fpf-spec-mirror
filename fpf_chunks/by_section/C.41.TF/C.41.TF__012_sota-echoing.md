@@ -6,12 +6,12 @@ section_id: "C.41.TF:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__012_sota-echoing.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:11 — SoTA-Echoing"
-line_start: 88220
-line_end: 88229
+line_start: 88148
+line_end: 88157
 dependencies:
   - "C.37"
   - "C.41"
@@ -27,5 +27,5 @@ Section 4.3 compares these choices with the same filled cases and includes prepa
 
 The supplied *Methodology* and *Systems Management* manuscripts supply the competing arrangements and preservation question, not comparative reading-time measurements. The study by [Facey and colleagues](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298224) supplies failure evidence about documentary completion and actual use. It supports preserving unknown, observation and record meanings in §§4.1–4.2; it does not show that a particular layout is superior. **Reject** uniform appearance as the selection criterion when it hides a needed distinction, and reject richer fields whose later usefulness does not warrant their entry cost.
 
-The conditional choice improves access at the deliberately accepted cost of maintaining another expression of the same questions. Where neither interpretation nor total effort can be judged from the filled cases, compare representative use through [EXD.6](https://github.com/ailev/FPF/blob/main/DPFs/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd6---compare-explanations-for-the-recipients-use-and-decide-whether-a-repair-is-worthwhile). Reopen the choice when a recipient loses a reference, an answer meaning diverges after an update, or the extra view costs more than the difficulty it removes.
+The conditional choice improves access at the deliberately accepted cost of maintaining another expression of the same questions. Where neither interpretation nor total effort can be judged from the filled cases, obtain a bounded comparison of the recovered question, next move and total effort in representative use. Reopen the choice when a recipient loses a reference, an answer meaning diverges after an update, or the extra view costs more than the difficulty it removes.
 

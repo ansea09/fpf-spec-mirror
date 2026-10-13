@@ -6,12 +6,12 @@ section_id: "C.40.NP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NP/C.40.NP__005_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
   - "C.40.NP:4 — Solution"
-line_start: 87725
-line_end: 87768
+line_start: 87653
+line_end: 87696
 dependencies:
   - "C.18"
   - "C.19"
@@ -52,7 +52,7 @@ A finite observation can support a repeatable next transition, transfer to anoth
 
 When development is intended to become ordinary practice, identify what must be reconstructed and used by further carriers. The object is not necessarily a fixed procedure. It can include ways of noticing difficulties, disputing formulations, obtaining professional help, constructing a transition and reopening the question after success.
 
-Use C.36/C.36.RP to distinguish generation, transmission, reconstruction, use, selection and retention. CB.7 develops distributed organizing; CB.12 connects an occasion, attainable action, useful return and repetition; CB.14 develops the repertoire. These suppliers already contain substantive Methods. Obtain their actual results rather than replacing them with a communication campaign.
+Use C.36/C.36.RP to distinguish generation, transmission, reconstruction, use, selection and retention. Use C.36.MC for the bounded cultural claim and its receiving construction. Where the continuation relies on distributed participation, obtain the actual contributions, usable occasions, access, support and agreements that make another carrier able and willing to act and return a useful result. Retain their voluntary limits and shared demands. The applicable organizing and subject practices supply those mechanisms; a communication campaign does not establish their results.
 
 A workplace, association, customer community and population of independent practitioners expose different constraints. Organizational membership may support some work assignments; participation in a community or receipt of a public text does not confer the same authority. Independent carriers can use and develop the practice without a shared meeting, employer or provider.
 

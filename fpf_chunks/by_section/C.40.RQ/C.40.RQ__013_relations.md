@@ -6,12 +6,12 @@ section_id: "C.40.RQ:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__013_relations.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:12 — Relations"
-line_start: 87179
-line_end: 87189
+line_start: 87107
+line_end: 87117
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -24,12 +24,12 @@ keywords:
 
 ### C.40.RQ:12 - Relations
 
-- **Receives from C.40.OI, C.40.NU, C.40.PC, C.40.DC, C.40.JF, C.40.OP, PSDA.19:** the inquiry, characterization, contribution, direction, reachability, retained path, or advising boundary whose premise changed.
+- **Receives from C.40.OI, C.40.NU, C.40.PC, C.40.DC, C.40.JF, C.40.OP and the applicable professional engagement Method:** the inquiry, characterization, contribution, direction, reachability, retained path, or advising boundary whose premise changed.
 - **Uses A.10 and A.15.9:** one-use reliance and bounded external-result qualification.
 - **Uses A.10.1:** changed-source discovery and revalidation across actual receiving uses, with coverage and independently governed subject results.
-- **Returns to C.40.PC, C.40.DC, C.40.JF, C.40.OP, PSDA.19 and holder practices:** the smallest opportunity or relationship question affected by the new conditions.
+- **Returns to C.40.PC, C.40.DC, C.40.JF, C.40.OP, the applicable professional engagement Method and holder practices:** the smallest opportunity or relationship question affected by the new conditions.
 - **Uses C.11.CRC:** changed finite comparisons with complete coordinates and actual or conditional stage-specific baselines.
-- **Uses PSDA.15 and PSDA.14:** follow-up and any later recommendation, separate from the choice and implementation.
+- **Can return to the applicable follow-up and recommendation Methods in a selected decision-design engagement:** follow-up and any later recommendation, separate from the choice and implementation. Other advice retains its actual professional owner.
 - **Uses G.11:** currentness, decay, scoped refresh planning, and reporting when those are the actual questions.
 - **Returns to professional and operational owners:** actual contact, disclosure, protection, authority, and realization duties.
 

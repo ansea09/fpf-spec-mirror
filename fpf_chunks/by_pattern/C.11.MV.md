@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.MV.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
-line_start: 57925
-line_end: 58173
+line_start: 57847
+line_end: 58095
 dependencies:
   - "A.3.1.QM"
   - "C.11"
@@ -25,7 +25,7 @@ keywords:
 > **Type:** Method pattern
 > **Status:** Stable
 
-> **Primary working result:** `keep`, `revise`, `replace`, `branch`, or `stop` for one named Method decision, or a retained set with its limitation when the choice remains unresolved. The result makes current alternatives, domain results, burdens, capability and System demands, side effects, opportunity costs, reversibility, evidence strength, and trade-offs explicit. It states what the selected action preserves, creates, or changes and the qualification window. A bounded `XRI-14` evidence result may enter `SYSE.15` without transferring this decision or a broader claim.
+> **Primary working result:** `keep`, `revise`, `replace`, `branch`, or `stop` for one named Method decision, or a retained set with its limitation when the choice remains unresolved. The result makes current alternatives, domain results, burdens, capability and System demands, side effects, opportunity costs, reversibility, evidence strength, and trade-offs explicit. It states what the selected action preserves, creates, or changes and the qualification window. Bounded evidence may inform another Method-repertoire decision without transferring this decision or a broader claim.
 
 ### C.11.MV:0 - Use This When
 
@@ -93,7 +93,7 @@ Compare feasible current alternatives in the named decision situation using sepa
 8. **Compare branch and further-inquiry options where they matter.** Ask whether alternatives serve different situation families and what information, retained material, capability, support or rollback a branch needs. Name its situation discriminator. Select a further trial or inquiry through C.11.DUA only when its obtainable result could change the choice enough to warrant its full burden, including displaced Work and the available window. An adequate current choice can finish directly.
 9. **Return the strongest supported action.** `keep` retains the present course for the named window; `revise` names the C.39.RP repertoire choice, C.39.RQ requirement, C.32.MWA.PP architecture decision, B.1.5.CM construction result, or A.3.1.MV repertoire entry to reconsider; `replace` names the selected alternative and transition conditions; `branch` names the situation discriminator and retained alternatives; `stop` names the stopped use or change, what happens to current Work, and the unresolved trade-off. If the available basis cannot distinguish the possible actions, return the retained set and the limitation, together with any supported present course. Select a further probe only under step 8. A stronger choice can remain unresolved when no worthwhile inquiry is feasible.
 10. **Route each action according to its kind.** For `revise`, `replace`, or `branch`, name the receiving C.39.RP repertoire choice, C.39.RQ requirement, C.32.MWA.PP architecture decision, B.1.5.CM construction result, or A.3.1.MV entry and the change needed there. If an existing claim is contradicted, identify that claim and reopen only its owning result. If this is a first situated choice or a new applicability distinction, create the needed decision or entry through its owner; do not invent an earlier claim or contradiction. `keep` adds no repair return. `stop` preserves the unresolved trade-off and stopped use without inventing a correction owner. If the comparison exposes a possible A.3.2.DE description, C.37.MP Method representation profile-row, A.15.8.MS support, or directly governed lower representation contradiction, return the bounded evidence to A.3.1.CC; A.3.1.CC identifies and rechecks the maintained correction owner. A worth result does not rewrite that owner automatically.
-11. **Package a bounded cross-product evidence result only when needed.** `XRI-14` may supply `SYSE.15` with the situated Method-worth evidence positions and limits needed for an engineering Method-repertoire decision. It transfers neither the C.11.MV action, authority, Method rank, causal claim, nor evidence beyond its source-use conditions.
+11. **Return evidence to another Method-repertoire decision only when needed.** Supply the situated Method-worth evidence and limits needed for a compatible decision in engineering or another subject practice. This return transfers neither the C.11.MV action, authority, Method rank, causal claim, nor evidence beyond its source-use conditions.
 12. **State refresh conditions.** Reopen when alternatives, domain consequences, capability or support demands, direct relations, evidence reach, costs, reversibility, situation fit, or the receiving decision window changes.
 
 #### C.11.MV:4.2 - Record the Result
@@ -108,7 +108,7 @@ Compare feasible current alternatives in the named decision situation using sepa
 | trade-offs | Non-dominated positions, conflicts, incomparability, branch discriminators, sensitivity to missing evidence, and any selected reversible probe. |
 | decision | `keep`, `revise`, `replace`, `branch`, `stop`, or retained set with its limitation and any supported present course; reasons, unresolved risks, transition or rollback conditions. A selected further inquiry carries its worthwhile obtainable contribution and needed conditions. |
 | action follow-up | For `revise`, `replace`, or `branch`: the named C.39.RP, C.39.RQ, C.32.MWA.PP, B.1.5.CM, or A.3.1.MV result to create or change, and whether the move corrects an identified contradiction or establishes a new situated choice; for `keep`: no repair return; for `stop`: stopped use and unresolved trade-off; possible A.3.2.DE description, C.37.MP Method representation profile-row, A.15.8.MS support, or lower representation contradiction as bounded evidence to A.3.1.CC; unaffected results preserved. |
-| cross-product result | When used, bounded `XRI-14` fields, receiving `SYSE.15` use, source-use conditions, non-transfer, and reopen condition. |
+| evidence for another repertoire decision | When needed, the bounded evidence, receiving use, source-use conditions, non-transfer, and reopen condition. |
 
 #### C.11.MV:4.3 - What Changes in Practice
 
@@ -166,7 +166,7 @@ The Halogen case can supply evidence about project demands, practitioner skill s
 
 #### C.11.MV:5.1 - EC-417 Early Stop
 
-The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfpreface169---choose-the-smallest-method-development-result-needed-for-release-ec-417) supplies the receiving problem, alternatives, calculations and the distinct limits used below.
+The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference169---choose-the-smallest-method-development-result-needed-for-release-ec-417) supplies the receiving problem, alternatives, calculations and the distinct limits used below.
 
 In the constructed EC-417 case, the team must release a controller firmware and harness change on `D0`. Its software-integration slot is `D-21`, but signed supplier pinout evidence is expected at `D-8`. The present question is which proposed way to coordinate that release is worth pursuing under the current constraints.
 
@@ -183,19 +183,19 @@ Keep the comparison tied to this decision and make burden, confidentiality, hold
 
 Keep `C-EC-Release-v2` as a candidate. Preserve the missing A.22 selection basis, untested AI-provider and feedback branches, and unsupported `CUR-EC417-CadenceEffect-1`. The timing and capacity estimates support rejecting B's overloaded safety allocation and retaining B2 as a proposal for at most three trials under its entry conditions. If those conditions cannot be met, return stop/next-slot or the signed-first A alternative with its timing consequence. An actual release or trial entry still needs every applicable capability, assignment, permission and authority condition. If the question is demonstrated release worth, return the missing performed-release and alternative evidence. The observed support-task results, with the tailoring operation still undefined and its permission/authority stop untested, do not establish that stronger result.
 
-#### C.11.MV:5.2 - Bounded `XRI-14` for `SYSE.15`
+#### C.11.MV:5.2 - Use situated evidence in another Method-repertoire decision
 
-Supply `XRI-14` only when `SYSE.15` has a compatible engineering Method-repertoire decision and the following positions are recoverable:
+Supply evidence to another Method-repertoire decision only when that receiving use is compatible and the following content is recoverable:
 
-| `XRI-14` position | Required boundary |
+| Evidence contribution | Required boundary |
 | --- | --- |
 | source decision | C.11.MV subject and status, receiving practice, domain result, situation family, alternative set, qualification window, and exact action considered. |
 | evidence | Observations and credible estimates distinguished per alternative, with their sources, domain consequences, burdens, capability and System demands, side effects, opportunity costs, reversibility, reach and gaps. Actual Work, performers and direct relations retain their independently supported basis wherever claimed. |
-| supported statement | The smallest situated worth statement that bears on the named `SYSE.15` repertoire-account decision. |
+| supported statement | The smallest situated worth statement that bears on the receiving Method-repertoire decision. |
 | non-transfer | No transfer of the C.11.MV `keep`/`revise`/`replace`/`branch`/`stop` action, implementation authority, universal Method rank, causal claim, or evidence outside the stated source-use conditions. |
-| reopen | Changed Method or candidate status, engineering situation, alternatives, evidence, capability or platform conditions, direct relations, or receiving repertoire use. |
+| reopen | Changed Method or candidate status, situation in the receiving practice, alternatives, evidence, capability or platform conditions, direct relations, or receiving repertoire use. |
 
-`SYSE.15` remains responsible for the engineering Method repertoire and compatibility claims. `XRI-14` supplies evidence for that decision; it does not direct `SYSE.15` to take an C.11.MV action.
+The receiving practice remains responsible for its Method repertoire and compatibility claims. The contribution supplies evidence for that decision; it does not direct the recipient to take the C.11.MV action.
 
 ### C.11.MV:6 - Bias-Annotation
 
@@ -222,7 +222,7 @@ Supply `XRI-14` only when `SYSE.15` has a compatible engineering Method-repertoi
 - [ ] The result is a supported `keep`, `revise`, `replace`, `branch`, `stop`, or retained set with its limit and any supported present course. A further probe is selected only for a useful obtainable answer worth its whole burden.
 - [ ] A `revise`, `replace`, or `branch` result names the C.39.RP, C.39.RQ, C.32.MWA.PP, B.1.5.CM, or A.3.1.MV result to create or change and distinguishes a new situated choice from correction of an identified contradiction; `keep` adds no repair return; `stop` preserves the unresolved trade-off and stopped use.
 - [ ] A possible A.3.2.DE description, C.37.MP Method representation profile-row, A.15.8.MS support, or directly governed lower representation contradiction returns as bounded evidence to A.3.1.CC rather than bypassing its owner-specific check.
-- [ ] Any `XRI-14` transfer states its exact source-use conditions and non-transfer boundary.
+- [ ] Any evidence transferred to another repertoire decision states its source-use conditions and non-transfer boundary.
 
 ### C.11.MV:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -232,7 +232,7 @@ Supply `XRI-14` only when `SYSE.15` has a compatible engineering Method-repertoi
 | “Users preferred it, so it is worth adopting.” | Preserve immediate self-report, alternative set, long-term gaps, and decision boundary. |
 | “The weighted score selected a winner.” | Expose characteristics, weights or order assumptions, incomparability, and non-compensable stops. |
 | “The candidate has no evidence, so the incumbent wins.” | Preserve the evidence asymmetry and retained alternatives. Return the supported present action or limitation; select a reversible probe when its attainable contribution warrants it. |
-| “SYSE.15 must adopt the C.11.MV winner.” | Transfer only bounded `XRI-14` evidence; the receiving repertoire decision remains with SYSE.15. |
+| “Another practice must adopt the C.11.MV winner.” | Transfer only bounded evidence; the receiving practice makes its own repertoire decision. |
 
 ### C.11.MV:9 - Consequences
 
@@ -254,9 +254,9 @@ The five actions distinguish maintenance from change. `Keep` preserves a situate
 | Yildirim, Campean, and Uddin, [function-modeling evaluation in industry practice](https://doi.org/10.1017/dsj.2026.10056) | Adopt workplace results, varied applications, reported limitations, later review, and the distinction between direct and indirect contribution as evidence positions. | One automotive OEM, retrospective reports, and SSFD within a broader methodology establish neither isolated causality nor universal superiority. |
 | Faludi, Yiu, and Agogino, [empirical tests of sustainable-design Methods](https://doi.org/10.1017/dsj.2020.17) | Adopt immediate participant-reported component-value observations from three families of separate workshops across activities, companies, and industries as bounded evidence inputs. | The publication supplies no common receiver, feasible current-alternative set, matched alternative Work, or counterfactual basis; company choice, order, participant differences, voluntary selection, unmatched timing, immediate self-report, long-term effects, causality, transfer, and recombination remain limits. Establish the local decision and comparison basis before returning a worth action. |
 | Schønheyder and Nordby, [design-Method use and evolution in professional practice](https://doi.org/10.1016/j.destud.2018.04.001) | Adopt project demands, skill sets, organization, adaptation, and cyclic evolution as possible branch and burden conditions. | One firm supplies no universal repertoire or causal effect. |
-| Current FPF `A.19.CPM`, `A.19.SelectorMechanism`, `A.2.2`, `A.10`, and direct governors for Work and relations | Reuse non-totalizing comparison, set-valued selection, capability, evidence, Work, and relation semantics. | C.11.MV contributes the Method-specific worth characteristics, five-way action, result-specific follow-up, and bounded cross-product evidence result; it does not redefine the generic kernels. |
+| Current FPF `A.19.CPM`, `A.19.SelectorMechanism`, `A.2.2`, `A.10`, and direct governors for Work and relations | Reuse non-totalizing comparison, set-valued selection, capability, evidence, Work, and relation semantics. | C.11.MV contributes the Method-specific worth characteristics, five-way action, result-specific follow-up, and bounded evidence for another repertoire decision; it does not redefine the generic kernels. |
 
-Reopen the pattern when a field comparison adds a decision-changing consequence or alternative, when practitioners cannot act without a universal score, when `XRI-14` loses its bounded receiving use, or when current FPF comparison and selection semantics change the returned action.
+Reopen the pattern when a field comparison adds a decision-changing consequence or alternative, when practitioners cannot act without a universal score, when a relied-on evidence transfer loses its bounded receiving use, or when current FPF comparison and selection semantics change the returned action.
 
 ### C.11.MV:12 - Relations
 
@@ -264,7 +264,7 @@ Reopen the pattern when a field comparison adds a decision-changing consequence 
 - For `revise`, `replace`, or `branch`, C.39.RP owns repertoire choices, C.39.RQ requirements, C.32.MWA.PP architecture decisions, B.1.5.CM construction results, and A.3.1.MV maintained repertoire/applicability entries. Name the result to create or change; identify a contradicted claim only when one exists. `keep` adds no repair return; `stop` preserves the unresolved trade-off and stopped use.
 - A possible A.3.2.DE description, C.37.MP Method representation profile-row, A.15.8.MS support, or directly governed lower representation contradiction returns as bounded evidence to A.3.1.CC, which identifies and rechecks the maintained correction owner.
 - `A.19.CPM` and `A.19.SelectorMechanism` govern non-trivial comparison and selected-set semantics. `A.2.2` governs capability inputs; `A.10` evidence use; `A.15.1` actual Work; direct governors remain authoritative for Systems, Agent-performed Work, relations, assignments, permissions, authority, access, and results.
-- `XRI-14` can supply only bounded Method-worth evidence to a compatible `SYSE.15` repertoire-account decision. It transfers neither action nor authority and does not establish composition of the supplying and receiving disciplines.
+- A compatible Method-repertoire decision in another practice may use the bounded Method-worth evidence. This use transfers neither action nor authority and does not establish composition of the supplying and receiving disciplines.
 - A.3.1.MI may consume the resulting bounded decision when introducing or revising a Method in practice; later observations can reopen C.11.MV without retroactively changing the evidence used here.
 
 ### C.11.MV:End

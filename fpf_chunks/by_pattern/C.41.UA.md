@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.UA.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
-line_start: 88372
-line_end: 88514
+line_start: 88300
+line_end: 88442
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,7 +57,7 @@ A.15.10 supplies changed-premise recovery. The operation here uses that boundary
 
 Identify what is being checked, which description or criterion applies, and the relevant time or condition. Resolve ambiguity before applying a test. A file name can refer to a different edition; “the cards” can refer to another box.
 
-Recover prior answers or competent results that might already settle the question. [ADM.7](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm7---check-the-claim-needed-for-this-administrative-decision) supplies useful claim-checking distinctions from administrative practice; apply the competent examination for the present domain. [ADM.13](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm13---keep-administrative-records-fit-for-their-uses) supplies record-use distinctions when the answer is retained for later reliance. Decide whether the subject, criterion, observation and conditions supporting those results still apply. Current reliance can survive a new occasion without a new observation when nothing relevant has changed and the grounds are sufficient.
+Recover prior answers or competent results that might already settle the question. Administrative claim-checking Methods supply useful distinctions; apply the competent examination for the present domain. Record-maintenance Methods supply record-use distinctions when the answer is retained for later reliance. Decide whether the subject, criterion, observation and conditions supporting those results still apply. Current reliance can survive a new occasion without a new observation when nothing relevant has changed and the grounds are sufficient.
 
 After an interruption, recover the last completed check and any unfinished operation, including the relevant content already obtained. A marker at card seven helps only if the next person knows which cards were actually compared, with which description, and what remains unresolved. Reconsider any changed subject or basis before resuming. Retain only the context needed for that continuation; a position marker is neither a completed answer nor proof that earlier grounds still apply.
 
@@ -85,7 +85,7 @@ Ask what follows for the intended work. A mismatch can support changing the subj
 
 If a change is selected, recover how it could produce the intended result: the suitable Method or alternative Methods, a capable performer, needed means and a useful occasion. Return missing Method knowledge to the domain practice; writing another question does not supply it. For a noisy workshop, closing a door, changing rooms and moving the discussion online are different possible interventions, with different conditions of use. An expected time for quiet is a planning judgement, not an observation that quiet has been achieved.
 
-Distinguish the selected work from checking and recording it. A decision to replace a card does not establish that the card was replaced. After the change, check the affected question on adequate grounds. [OPS.6](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops6---continue-cases-and-handle-exceptions) separates continuation, performance, records and resulting state when an operating case needs another action; [OPS.18](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops18---control-operating-quality-and-reliability) addresses the quality and reliability question in continuing operation.
+Distinguish the selected work from checking and recording it. A decision to replace a card does not establish that the card was replaced. After the change, check the affected question on adequate grounds. An operating-case continuation Method separates continuation, performance, records and resulting state when an operating case needs another action; an applicable operating-control Method addresses the quality and reliability question in continuing operation.
 
 Keep historical answers and unaffected grounds. Reopen other questions only where the change can defeat their basis. Stop when the selected questions are sufficiently answered for the intended use, or return the exact missing observation, interpretation, capability or decision. Use C.41.SR when several participants' reliance is affected.
 
@@ -158,7 +158,7 @@ The selected line spends recovery effort only on information needed for a sound 
 
 C.41 supplies selected questions, C.41.TF their usable expression and C.41.OF an occasion with access to answers. C.41.QC supplies a qualification when criterion or checker uncertainty is material. C.41.SR connects answers across shared work.
 
-[ADM.7](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm7---check-the-claim-needed-for-this-administrative-decision) supplies claim-checking distinctions from administrative practice; [ADM.13](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm13---keep-administrative-records-fit-for-their-uses) supplies fit-for-use records. [OPS.6](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops6---continue-cases-and-handle-exceptions) supplies case continuation and exception handling; [OPS.18](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops18---control-operating-quality-and-reliability) supplies operating quality and reliability control. [FPF E.10.D2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e10d2---entityofconcern-description-episteme-and-specification-use-discipline) preserves subject and description, and [A.15.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a1510---resume-interrupted-work) governs changed-premise use across work.
+Administrative practice supplies claim checking and fit-for-use records. Operating practice supplies case continuation, exception handling, and quality and reliability control. [FPF E.10.D2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e10d2---entityofconcern-description-episteme-and-specification-use-discipline) preserves subject and description, and [A.15.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a1510---resume-interrupted-work) governs changed-premise use across work.
 
 ### C.41.UA:End
 

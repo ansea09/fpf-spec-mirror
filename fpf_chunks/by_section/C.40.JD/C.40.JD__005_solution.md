@@ -6,12 +6,12 @@ section_id: "C.40.JD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__005_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:4 — Solution"
-line_start: 87490
-line_end: 87602
+line_start: 87418
+line_end: 87530
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"
@@ -26,12 +26,12 @@ keywords:
 
 #### C.40.JD:4.1 - Join development of the way with development of its performer
 
-Construct one adequate way to obtain the chosen change. Its explanation connects the material or information available in the work, the operative distinctions and actions, the intermediate result needed by the next action, the receiving result and the conditions on which those connections depend. The Core Method constructions and C.39/C.40.CD supply development of this construction; use RMP for a genuinely unresolved research claim. A method description that names only its final result does not yet supply the next performer.
+Construct one adequate way to obtain the chosen change. Its explanation connects the material or information available in the work, the operative distinctions and actions, the intermediate result needed by the next action, the receiving result and the conditions on which those connections depend. The Core Method constructions and C.39/C.40.CD supply development of this construction; obtain a qualified research contribution through A.15.9 for a genuinely unresolved research claim. A method description that names only its final result does not yet supply the next performer.
 
 This way then separates into three possible receiving contributions:
 
 1. A capable performer can use it to supply the immediate result.
-2. HCD or the appropriate non-human capability-development Method can use the explained operations and revealing contrasts to develop the intended holder.
+2. A capability-development Method appropriate to the actual holder can use the explained operations and revealing contrasts to develop that holder, under its own mechanism and evidence conditions.
 3. Provision and organizational design can use its actual requirements to construct the access, time, tools, authority and cooperation needed for performance.
 
 These branches are joined by **the same intended use and its operative conditions**, not by a shared document title. In a human-learning branch, the learning task must require the consequential operation that later work needs. In a provision branch, capacity must be available when that task and later work consume it. When immediate delivery and learning use one occasion, distinguish the helper's contribution from the learner's. A helper can complete the project while accidentally removing every opportunity for the learner to make the judgement being developed.
@@ -87,7 +87,7 @@ For ordinary leadership without a separate office, allocate these same contribut
 
 Use the same adaptation on connections omitted from the drawing: a provider's authority may not extend to a voluntary participant; a learning occasion may compete with a production deadline; two branches may require the same scarce expert simultaneously. Follow the changed condition through the receiving work and compare the moved burden. These changes can alter the direction, the Method, its allocation or the service remit; not every failure calls for another organization chart.
 
-C.32.MWA.PP supplies comparison of the resulting performance and support arrangements. It can use adequate existing Methods while changing their Work order, allocation, provision or provider relations; use OCE where actual organizational construction is needed. An existing sufficient arrangement requires no new architectural exercise.
+When the resulting performance and provision arrangements still need comparison, use C.32.MWA.PP. Use it to obtain complete alternatives and their combined demands, then return that comparison to the choice in C.40.JD:4.5. It can use adequate existing Methods while changing their Work order, allocation, provision or provider relations. Constructing or changing an organization requires a Method for the organizational change being proposed; comparing arrangements does not enact that change. An existing arrangement that meets the present requirements needs no new architectural exercise.
 
 Before relying on a consequential connection, distinguish a proposed requirement from an established relation:
 
@@ -104,7 +104,7 @@ A small local construction can remain in ordinary language when it supports the 
 
 #### C.40.JD:4.5 - Synthesize the organization from the work and conditions
 
-For each alternative, recover the actual Work contributions, capability holders, means, authority and mutual dependencies needed to enact it. Use C.32.MWA to compare these structures; OCE.3/.4 construct the organization concept and contribution architecture, OCE.5/.6 establish positions and enabling relations, and OCE.8 compares human, AI, robotic and provider arrangements.
+For each alternative, recover the actual Work contributions, capability holders, means, authority and mutual dependencies needed to enact it. Use C.32.MWA to distinguish the relevant Method and Work structures, and C.32.MWA.PP:4.3–4.8 to construct and compare the arrangements and their combined demands. Return the comparison as a basis for the authorized decision about whether and how to proceed with the development aim and its arrangement. Keep comparison distinct from that choice: a limited test, retained alternatives, a revised remit or an adequately grounded stop can be a complete return. Preserve who supplies each operation, who receives its result, the effective assignments and authority, enabling conditions and exception return. C.38 can compare human, AI, robotic and provider ways for one result. Developing the organization concept, creating positions or establishing enabling relations requires the corresponding organizational design and change work; comparing alternatives does not establish these results.
 
 Start with the contributions that must remain with the developing subject or at the place of work. Where self-development is intended, someone must notice and help formulate their own next difficulty, judge what matters to them and use the changed possibilities. A helper may assist strongly; outsourcing all those judgements changes the self-development claim. Where the purpose is obtaining a competent result rather than personal mastery, more work can properly be delegated.
 

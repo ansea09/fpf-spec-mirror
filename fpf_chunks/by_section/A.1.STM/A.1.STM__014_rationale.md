@@ -6,12 +6,12 @@ section_id: "A.1.STM:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__014_rationale.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
   - "A.1.STM:12 — Rationale"
-line_start: 4282
-line_end: 4285
+line_start: 4166
+line_end: 4169
 dependencies:
   - "A.1"
   - "A.1.CSD"

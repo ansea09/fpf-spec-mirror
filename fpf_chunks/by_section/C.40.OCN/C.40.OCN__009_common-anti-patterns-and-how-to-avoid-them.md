@@ -6,12 +6,12 @@ section_id: "C.40.OCN:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 85285
-line_end: 85293
+line_start: 85213
+line_end: 85221
 dependencies:
   - "A.15.9"
   - "C.11"

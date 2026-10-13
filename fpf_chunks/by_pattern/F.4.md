@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.4.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
-line_start: 117416
-line_end: 117746
+line_start: 117433
+line_end: 117763
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 ## F.4 - SystemRoleKindDescription — Describing an Exact System-Role Kind
 
 > **Type:** Definitional (D)
-> **Status:** Stable in the current FPF
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 ### F.4:0 - Use This When

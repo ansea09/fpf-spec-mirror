@@ -6,12 +6,12 @@ section_id: "C.40.OD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__013_relations.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:12 — Relations"
-line_start: 87452
-line_end: 87461
+line_start: 87380
+line_end: 87389
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"
@@ -22,9 +22,9 @@ keywords:
 
 ### C.40.OD:12 - Relations
 
-C.40.OI, C.40.OC, C.40.NU, C.40.PC, C.40.DC, C.40.JF, C.40.OP, C.40.RQ and C.40.OCN supply opportunity and direction construction; this Method uses those results and returns changed premises. C.32.MWA.PP supplies comparison of performance/support architecture across supplied Methods; OCE supplies construction and realization of actual organizational arrangements. HCD supplies human learning and transfer; SYSE supplies engineered contributions; C.39, C.40.CD and RMP supply Methods and warranted knowledge when their questions are live. STR and STR.16 connect independently worthwhile contributions under finite means.
+C.40.OI, C.40.OC, C.40.NU, C.40.PC, C.40.DC, C.40.JF, C.40.OP, C.40.RQ and C.40.OCN supply opportunity and direction construction; this Method uses those results and returns changed premises. C.32.MWA.PP supplies comparison of performance/support architecture across supplied Methods; C.39 and C.40.CD develop an obtaining way. Organizational realization, human learning and transfer, engineered means, research and strategic commitments remain separately qualified subject contributions when the undertaking needs them. A.15.9 obtains the missing result and its reliance limits without prescribing one framework as its supplier.
 
-C.36/C.36.RP and the applicable cultural and community Methods supply continuation among carriers. [LDR.4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr4---prepare-a-proposal-for-decision-and-first-use) supplies proposal preparation through decision and first use; CB.7 supplies voluntary proposal participation before and during realization. E.4.DPF supplies a local language when recurrent local practice warrants one.
+C.36/C.36.RP and C.36.MC supply the general cultural-continuation questions. For a separately selected leadership or community engagement, the applicable leadership Method supports proposal preparation, decision and first use, and the applicable community Method supports voluntary participation. E.4.DPF supplies a local language when recurrent local practice warrants one.
 
 These use and support relations do not by themselves establish constructive Method parthood, a universal work sequence or a containing organization.
 

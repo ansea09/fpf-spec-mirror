@@ -6,12 +6,12 @@ section_id: "C.37.CF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__006_archetypal-grounding.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:5 — Archetypal Grounding"
-line_start: 81996
-line_end: 82079
+line_start: 81924
+line_end: 82007
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"
@@ -100,6 +100,6 @@ effort, and a correct response establishes neither learning nor the effectivenes
 The source comparison supports the selected claims and their returns. It supplies no observed advantage of B
 or C for this reader. Retain the existing explanation unless an obtainable comparison can establish a
 worthwhile change. If a needed relation is absent, restore that content with A.3.2.DE or the applicable language
-answer before crediting a new form. If the promise is instruction, use the corresponding HCD or NSTD
-contribution and its evidence conditions.
+answer before crediting a new form. If the promise is instruction, obtain the applicable subject- and holder-specific learning
+contribution and its evidence conditions; a form comparison does not establish that learning.
 

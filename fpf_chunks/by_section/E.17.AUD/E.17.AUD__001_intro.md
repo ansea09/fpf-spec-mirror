@@ -6,12 +6,12 @@ section_id: "E.17.AUD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__001_intro.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:intro — Intro"
-line_start: 107340
-line_end: 107343
+line_start: 107349
+line_end: 107354
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,6 +39,8 @@ keywords:
 ---
 
 ## E.17.AUD - PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly
+
+> **Status:** Stable
 
 **Plain name.** Keep one publication unit stable enough to read honestly.
 

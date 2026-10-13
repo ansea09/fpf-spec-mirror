@@ -6,12 +6,12 @@ section_id: "C.41.OF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.OF/C.41.OF__004_forces.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
   - "C.41.OF:3 — Forces"
-line_start: 88257
-line_end: 88266
+line_start: 88185
+line_end: 88194
 dependencies:
   - "A.15.8"
   - "C.41"

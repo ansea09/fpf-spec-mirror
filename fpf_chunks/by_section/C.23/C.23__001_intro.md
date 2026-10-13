@@ -6,12 +6,12 @@ section_id: "C.23:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__001_intro.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:intro — Intro"
-line_start: 64280
-line_end: 64288
+line_start: 64206
+line_end: 64216
 dependencies:
   - "A.10"
   - "B.3"
@@ -39,6 +39,8 @@ keywords:
 ---
 
 ## C.23 - MethodFamily Evidence & Maturity (Method‑SoS‑LOG)
+
+> **Status:** Stable
 
 *LOG (logic) for deductive shells for admissibility*
 *First use expansion:* **SoS‑LOG = Science‑of‑Science LOG** (LEX short‑form discipline applied).

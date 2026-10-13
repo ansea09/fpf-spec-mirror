@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.DC.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
-line_start: 86280
-line_end: 86530
+line_start: 86208
+line_end: 86458
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -37,7 +37,7 @@ Start by describing one finite change from the actual situation, together with t
 
 A *direction* here is a prospective change in contribution, capability, use, or enabling conditions over a declared horizon. Its description is not an obtaining arrangement, selected programme, WorkPlan, performed Work, or choice. A person exploring their own development can use it without asking for advice.
 
-**Ordinary non-use boundary.** Reuse adequate directions when only reachability or comparison remains. If the receiving problem or contribution is still missing, use `C.40.PC`; do not complete a training or tool configuration around an unexamined need. If a domain practice owns the whole configuration question, use it directly. Once one organization result, use, and acceptance premise are stable and whole obtaining arrangements are the decision, [OCE.8](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---compare-human-ai-robotic-and-provider-arrangements-for-the-same-organizational-work-result) supplies that comparison and its authorized return.
+**Ordinary non-use boundary.** Reuse adequate directions when only reachability or comparison remains. If the receiving problem or contribution is still missing, use `C.40.PC`; do not complete a training or tool configuration around an unexamined need. If a domain practice owns the whole configuration question, use it directly. Once one organization result, use, and acceptance premise are stable and whole obtaining arrangements are the decision, an applicable organizational Method supplies that comparison and its authorized return.
 
 ### C.40.DC:2 - Problem
 
@@ -79,7 +79,7 @@ When a pattern is the proposed address, cite its complete current body and recov
 
 If the receiving claim depends on a Method or MethodDescription, preserve its established relation under [A.3.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) and [A.3.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). A pattern is a MethodDescription only when it describes an already admitted Method as its EntityOfConcern. Otherwise use its content as pattern guidance and leave that stronger relation unasserted. In neither case does reading or publishing the description establish the subject's capability.
 
-For a person, connect the contribution to representative later Work. “Use A.15.9 to formulate and rely on a bounded outside-practice result in evidence review” can specify a contribution; “finish A.15.9” cannot specify capability or transfer. Current HCD and the relevant domain practice supply those results.
+For a person, connect the contribution to representative later Work. “Use A.15.9 to formulate and rely on a bounded outside-practice result in evidence review” can specify a contribution; “finish A.15.9” cannot specify capability or transfer. A capability or transfer claim needs qualified evidence about this person, the later Work and permitted support; obtain that result from the relevant capability and subject practice before relying on it.
 
 #### C.40.DC:4.3 - Construct materially different directions
 
@@ -88,9 +88,9 @@ Vary the change that could make the contribution possible. Useful contrasts incl
 Distinguish two questions:
 
 - **Different contribution premises:** directions address different worthwhile problems, results, uses, or acceptance expectations. Preserve those differences for the receiving comparison.
-- **Different ways of obtaining one contribution:** candidates hold the result premise stable but vary the supporting arrangement. For organization-change decisions, use OCE.8 when that whole same-result question is current.
+- **Different ways of obtaining one contribution:** candidates hold the result premise stable but vary the supporting arrangement. For organization-change decisions, use an applicable organizational comparison Method when that whole same-result question is current.
 
-Use [PSDA.5](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda5---generate-decision-alternatives) when the receiving work needs an explicit set of decision alternatives. PSDA.5 can retain alternatives for different live formulations; same-result parity is not its universal entry condition.
+For a separately selected decision-design inquiry, an applicable alternative-generation Method can develop an explicit set of decision alternatives from the directions returned here. That Method can retain alternatives for different live formulations; same-result parity is not its universal entry condition.
 
 Retain the actual baseline, a smaller repair, a staged direction, or no new development when each genuinely answers the inquiry. No change still carries continuing Work, resource use, and exposure. A missing alternative is an honest return; do not invent a weak candidate to make a preferred one win.
 
@@ -129,9 +129,9 @@ An ordinary direction account can say:
 
 Expand only what the next use needs. A complete enough direction may still be conditional; distinguish a qualified proposed configuration, a conditional direction with a named premise, an incomplete fragment, and a direction ruled out for the current use.
 
-Use `C.40.JF` for jointly necessary transitions and competing support. Use `C.40.OP` for retention or a finite path when that is the question. If comparison or advice is current, provide the direction and its qualified premises to the appropriate Decision Design or domain use; `PSDA.19` supplies the development-advice relationship boundary only when advice is requested.
+Use `C.40.JF` for jointly necessary transitions and competing support. Use `C.40.OP` for retention or a finite path when that is the question. If comparison or advice is current, provide the direction and its qualified premises to the appropriate decision-support or domain use; the applicable professional engagement Method supplies the development-advice relationship boundary only when advice is requested.
 
-For human development, a direction choice may become an input to HCD.2, which composes and compares programme candidates without choosing. A programme-level advice request starts with those comparable candidates; it does not relabel an opportunity path as a programme. The Learning Product local practice framework supports realizing a Guide from an authorized selected programme and focal pattern contributions. A Guide is not produced by rearranging direction labels.
+For human development, a direction choice may become an input to a programme-design Method, which composes and compares programme candidates without choosing. A programme-level advice request starts with those comparable candidates; it does not relabel an opportunity path as a programme. An applicable learning-material production Method supports realizing a Guide from an authorized selected programme and focal pattern contributions. A Guide is not produced by rearranging direction labels.
 
 Reopen only the affected contribution, support, transition, comparison, or downstream use under `C.40.RQ` when its premises change.
 
@@ -150,7 +150,7 @@ One lead is “learn A.15.9.” The direction instead cites the complete [A.15.9
 | First result | A useful supported answer with its material limit, a selected worthwhile result request, or an exact blocker. |
 | Stop/non-use | Finish at the useful answer and its necessary limit; use the direct domain Method when the substantive specialist answer is the whole question. |
 
-The pattern supplies guidance for the proposed contribution, not evidence of Mira's capability. HCD and review-domain practice must establish representative performance, support, and transfer.
+The pattern supplies guidance for the proposed contribution, not evidence of Mira's capability. The applicable human-capability and review-domain practices must establish representative performance, support, and transfer.
 
 Two directions now differ materially:
 
@@ -163,9 +163,9 @@ Two directions now differ materially:
 | Protected and affected conditions | Review independence and confidentiality remain; feedback burden on colleagues must fit the same resource boundary. | Source custody and confidentiality remain; specialist demand must not silently displace other required Work. |
 | Option effect | Representative evidence could inform a later programme comparison; its production and value remain conditional. | Access might make current capability usable sooner, but could create continuing supplier dependence. |
 
-The candidates do not yet share a qualified same-result comparison: the first proposes development of independent recognition; the second proposes supported result use. The next question is which contribution the receiving review needs and what HCD or supplier result can qualify the corresponding transition. Combining them creates another candidate whose joint time and support need testing.
+The candidates do not yet share a qualified same-result comparison: the first proposes development of independent recognition; the second proposes supported result use. The next question is which contribution the receiving review needs and what human-capability or supplier result can qualify the corresponding transition. Combining them creates another candidate whose joint time and support need testing.
 
-The result is two conditional directions, not a learning programme or recommendation. If a selected direction calls for human capability development, HCD.2 can supply programme candidates and comparison. Within that branch, any requested programme recommendation and authorized programme choice remain separate; only then can Learning Product realize the appropriate Guide. The person can also stop now with the conditional directions and the support limits that matter; an exact support request is a further selected contribution.
+The result is two conditional directions, not a learning programme or recommendation. If a selected direction calls for human capability development, an applicable programme-design Method can supply programme candidates and comparison. Within that branch, any requested programme recommendation and authorized programme choice remain separate; only then can an applicable learning-material production Method realize the appropriate Guide. The person can also stop now with the conditional directions and the support limits that matter; an exact support request is a further selected contribution.
 
 #### C.40.DC:5.2 - A faster retrieval candidate is not a cost-free improvement
 
@@ -191,7 +191,7 @@ A bare-model benchmark does not by itself qualify either tool-enabled arrangemen
 
 #### C.40.DC:5.4 - Direct same-result arrangement work is enough
 
-An organization already has a stable contribution and acceptance basis, adequate baseline evidence, and whole manual, internal-specialist, and provider arrangements. It does not reopen development-direction construction merely because the arrangements could be given development labels. OCE.8 owns the remaining organization comparison and lawful disposition; the necessary authority and specialist results still have to be present.
+An organization already has a stable contribution and acceptance basis, adequate baseline evidence, and whole manual, internal-specialist, and provider arrangements. It does not reopen development-direction construction merely because the arrangements could be given development labels. The applicable organizational Method supplies the remaining organization comparison and lawful disposition; the necessary authority and specialist results still have to be present.
 
 ### C.40.DC:6 - Bias-Annotation
 
@@ -249,9 +249,9 @@ Finite changes and stage-specific baselines make hidden burden visible. They let
 
 **Practice question.** How can a direction become a contribution-bearing possible change without treating a course, tool, or pattern label as a complete and reachable intervention?
 
-**Best-known line for this use.** Construct the contribution and support together, then apply finite configuration-relative comparison. Current OCE.8 supplies whole-arrangement construction and comparison when one organization result premise is stable. C.11.CRC supplies actual `S0`, finite change, realizable `S1`, complete coordinates, transition basis, and option effects. This pattern **adapts** their contributions in `:4.3`–`:4.6` for development inquiries that may still retain different contribution premises. Current HCD and other holder practices retain the change mechanisms and evidence.
+**Best-known line for this use.** Construct the contribution and support together, then apply finite configuration-relative comparison. The applicable organizational Methods supply whole-arrangement construction and comparison when one organization result premise is stable. C.11.CRC supplies actual `S0`, finite change, realizable `S1`, complete coordinates, transition basis, and option effects. This pattern **adapts** their contributions in `:4.3`–`:4.6` for development inquiries that may still retain different contribution premises. Human-capability and other holder practices retain the change mechanisms and evidence.
 
-**Serious alternative and comparison.** A course or product catalogue is cheaper when the missing contribution and all material supports are already known. When they are not, it omits the difference between developing capability and making an existing capability usable. At the bounded effort of the Mira case, two contribution/support descriptions expose different evidence and provider needs; ranking two course brands would not do so. OCE.8 is the stronger direct alternative once same-result organization arrangement comparison is the whole question. Use OCE.8 directly for that same-result question; no additional opportunity-construction pass is needed.
+**Serious alternative and comparison.** A course or product catalogue is cheaper when the missing contribution and all material supports are already known. When they are not, it omits the difference between developing capability and making an existing capability usable. At the bounded effort of the Mira case, two contribution/support descriptions expose different evidence and provider needs; ranking two course brands would not do so. A direct organizational Method supplying the complete same-result arrangement comparison is the stronger alternative once that comparison is the whole question. Use it directly; no additional opportunity-construction pass is needed.
 
 **Front-end boundary.** [ISO 56007:2023](https://www.iso.org/standard/75068.html) supplies normative guidance for opportunity/concept work before solution development and deployment. Here that boundary supports prospective configurations and truthful gaps; it supplies no missing support, implementation, or effect evidence. A complete cited pattern contribution similarly supplies guidance, not holder capability.
 
@@ -261,14 +261,14 @@ Finite changes and stage-specific baselines make hidden burden visible. They let
 
 - **Receives from C.40.OI, C.40.OC, and C.40.PC:** the bounded inquiry, relevant characterization, and worthwhile problem/proposed-contribution premise; equivalent direct results suffice.
 - **Uses A.3.1 and A.3.2:** identification of Method and MethodDescription when a direction relies on those relations; a PatternID remains a locator for the complete contribution.
-- **Uses PSDA.5:** finite alternatives for the receiving decision-support question, including alternatives addressing different formulations.
-- **Uses OCE.8:** whole same-result organization arrangement comparison once its result/use/acceptance premise is stable.
+- **Can supply a selected decision-alternative generation Method:** directions for a separate finite-alternative question, including alternatives addressing different formulations.
+- **Can return to an organizational comparison Method:** a separate whole same-result organization arrangement comparison once its result/use/acceptance premise is stable.
 - **Uses C.11.CRC:** finite contribution comparison under one basis with complete coordinates, transition burden, reversibility, and option effects.
 - **Supplies C.40.JF:** direction/support candidates and the material premises whose joint qualification changes reachability.
 - **Supplies C.40.OP:** contribution-bearing finite steps and their stage-specific baselines for retention, paths, or branches.
-- **Returns to HCD, organization, strategy, AI, engineering, operations, and other direct practices:** their interventions, mechanisms, capability, support, evidence, authority, and realization results.
-- **Returns human programme and Guide work:** HCD.2 composes and compares programmes; authorized participants choose; Learning Product realizes the selected programme and pattern contributions as a Guide.
-- **Uses PSDA.19 and C.40.RQ:** an advising boundary when advice is requested and local requalification of changed directions or supports.
+- **Returns to human-capability, organization, strategy, AI, engineering, operations, and other direct practices:** their interventions, mechanisms, capability, support, evidence, authority, and realization results.
+- **Returns human programme and Guide work:** The applicable programme-design Method composes and compares programmes; authorized participants choose; the applicable learning-material production Method realizes the selected programme and pattern contributions as a Guide.
+- **Uses C.40.RQ:** local requalification of changed directions or supports. A separately requested advising service retains its actual engagement conditions, established through the applicable professional Method.
 
 ### C.40.DC:End
 

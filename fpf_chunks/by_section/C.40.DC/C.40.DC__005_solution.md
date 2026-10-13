@@ -6,12 +6,12 @@ section_id: "C.40.DC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__005_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:4 — Solution"
-line_start: 86318
-line_end: 86393
+line_start: 86246
+line_end: 86321
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -42,7 +42,7 @@ When a pattern is the proposed address, cite its complete current body and recov
 
 If the receiving claim depends on a Method or MethodDescription, preserve its established relation under [A.3.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) and [A.3.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). A pattern is a MethodDescription only when it describes an already admitted Method as its EntityOfConcern. Otherwise use its content as pattern guidance and leave that stronger relation unasserted. In neither case does reading or publishing the description establish the subject's capability.
 
-For a person, connect the contribution to representative later Work. “Use A.15.9 to formulate and rely on a bounded outside-practice result in evidence review” can specify a contribution; “finish A.15.9” cannot specify capability or transfer. Current HCD and the relevant domain practice supply those results.
+For a person, connect the contribution to representative later Work. “Use A.15.9 to formulate and rely on a bounded outside-practice result in evidence review” can specify a contribution; “finish A.15.9” cannot specify capability or transfer. A capability or transfer claim needs qualified evidence about this person, the later Work and permitted support; obtain that result from the relevant capability and subject practice before relying on it.
 
 #### C.40.DC:4.3 - Construct materially different directions
 
@@ -51,9 +51,9 @@ Vary the change that could make the contribution possible. Useful contrasts incl
 Distinguish two questions:
 
 - **Different contribution premises:** directions address different worthwhile problems, results, uses, or acceptance expectations. Preserve those differences for the receiving comparison.
-- **Different ways of obtaining one contribution:** candidates hold the result premise stable but vary the supporting arrangement. For organization-change decisions, use OCE.8 when that whole same-result question is current.
+- **Different ways of obtaining one contribution:** candidates hold the result premise stable but vary the supporting arrangement. For organization-change decisions, use an applicable organizational comparison Method when that whole same-result question is current.
 
-Use [PSDA.5](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda5---generate-decision-alternatives) when the receiving work needs an explicit set of decision alternatives. PSDA.5 can retain alternatives for different live formulations; same-result parity is not its universal entry condition.
+For a separately selected decision-design inquiry, an applicable alternative-generation Method can develop an explicit set of decision alternatives from the directions returned here. That Method can retain alternatives for different live formulations; same-result parity is not its universal entry condition.
 
 Retain the actual baseline, a smaller repair, a staged direction, or no new development when each genuinely answers the inquiry. No change still carries continuing Work, resource use, and exposure. A missing alternative is an honest return; do not invent a weak candidate to make a preferred one win.
 
@@ -92,9 +92,9 @@ An ordinary direction account can say:
 
 Expand only what the next use needs. A complete enough direction may still be conditional; distinguish a qualified proposed configuration, a conditional direction with a named premise, an incomplete fragment, and a direction ruled out for the current use.
 
-Use `C.40.JF` for jointly necessary transitions and competing support. Use `C.40.OP` for retention or a finite path when that is the question. If comparison or advice is current, provide the direction and its qualified premises to the appropriate Decision Design or domain use; `PSDA.19` supplies the development-advice relationship boundary only when advice is requested.
+Use `C.40.JF` for jointly necessary transitions and competing support. Use `C.40.OP` for retention or a finite path when that is the question. If comparison or advice is current, provide the direction and its qualified premises to the appropriate decision-support or domain use; the applicable professional engagement Method supplies the development-advice relationship boundary only when advice is requested.
 
-For human development, a direction choice may become an input to HCD.2, which composes and compares programme candidates without choosing. A programme-level advice request starts with those comparable candidates; it does not relabel an opportunity path as a programme. The Learning Product local practice framework supports realizing a Guide from an authorized selected programme and focal pattern contributions. A Guide is not produced by rearranging direction labels.
+For human development, a direction choice may become an input to a programme-design Method, which composes and compares programme candidates without choosing. A programme-level advice request starts with those comparable candidates; it does not relabel an opportunity path as a programme. An applicable learning-material production Method supports realizing a Guide from an authorized selected programme and focal pattern contributions. A Guide is not produced by rearranging direction labels.
 
 Reopen only the affected contribution, support, transition, comparison, or downstream use under `C.40.RQ` when its premises change.
 

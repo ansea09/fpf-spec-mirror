@@ -6,12 +6,12 @@ section_id: "A.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__001_intro.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:intro — Intro"
-line_start: 9041
-line_end: 9042
+line_start: 8925
+line_end: 8928
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -31,4 +31,6 @@ keywords:
 ---
 
 ## A.3 - Transformer Quartet: Distinguish Work, Performer, Method and Method Description
+
+> **Status:** Stable
 

@@ -6,12 +6,12 @@ section_id: "G.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__001_intro.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:intro — Intro"
-line_start: 125099
-line_end: 125116
+line_start: 125128
+line_end: 125147
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -53,6 +53,8 @@ keywords:
 ---
 
 ## G.1 - Author a Reusable CG-Frame Generator and Selector Kit
+
+> **Status:** Stable
 
 **Tag.** architectural pattern; *generator chassis* (design‑time kit / authoring scaffold)
 **Normativity.** normative, except sections explicitly marked *informative*

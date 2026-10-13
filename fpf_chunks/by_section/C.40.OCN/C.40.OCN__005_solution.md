@@ -6,12 +6,12 @@ section_id: "C.40.OCN:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__005_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:4 — Solution"
-line_start: 85048
-line_end: 85213
+line_start: 84976
+line_end: 85141
 dependencies:
   - "A.15.9"
   - "C.11"
@@ -58,7 +58,7 @@ The independently usable opportunity Methods supply the missing contributions: C
 
 Describe what the holder might contribute, for whom, in what situation and over what horizon. Distinguish the receiver's useful result from the holder's desired learning, status, product or technology use. Ask what would remain unsatisfactory if nothing changed, and whether the receiver actually cares about that difference.
 
-Keep alternative formulations when they materially change the opportunity. One inquiry may concern recovering an acceptance premise; another may concern supporting shift handoffs. Those are not merely two implementations of one already accepted result. Use PSDA.1 when competing formulations require substantive problem-structuring work.
+Keep alternative formulations when they materially change the opportunity. One inquiry may concern recovering an acceptance premise; another may concern supporting shift handoffs. Those are not merely two implementations of one already accepted result. Use C.40.PC to develop the worthwhile problem and proposed contribution; retain the material formulation difference and obtain any missing subject contribution before treating a premise as established.
 
 Start from a qualified demand or problem account when one exists. If the reason to explore is only a supplier's enthusiasm, preserve it as a search lead, not as an established need. If the receiver says the proposed result is unnecessary, revise the contribution or reject that lead.
 
@@ -104,7 +104,7 @@ Build materially different possibilities for addressing the problem or realizing
 
 A direction should say more than “train,” “buy,” “automate” or “hire.” State the prospective contribution, the holder change if any, necessary access and support, protected conditions and the transition that would have to become possible. One option may develop a capability; another may make an existing capability usable through better access; a third may obtain a qualified external contribution.
 
-Use PSDA.5 for the live alternative-construction question. Use direct HCD, OCE, AI, target-domain and other results for what the proposed changes would require. After one result/use/acceptance premise is stable, OCE.8 can compare whole organizational obtaining arrangements. Before that point, forcing every lead into the same-result comparison would conceal the still-open opportunity question.
+Use C.40.DC to construct materially different directions and their support configurations. Obtain qualified holder, organization, AI and other subject results through A.15.9 for what the proposed changes would require. After one result/use/acceptance premise is stable, an applicable organizational Method can compare whole organizational obtaining arrangements. Before that point, forcing every lead into the same-result comparison would conceal the still-open opportunity question.
 
 Retain the obtaining baseline, a smaller repair, a staged direction or no change when they genuinely answer the inquiry. Do not count a fragment as a complete direction merely to populate a table, and do not discard a potentially useful contribution only because its supporting arrangement is not yet designed.
 
@@ -183,5 +183,5 @@ Assurance asks whether each value and reachability claim follows from sources qu
 | Prepare a bounded opportunity inquiry | Applicability, working distinctions, search/construction moves, inputs, stops and result content. | Actual performer, permissions, resources and any dated WorkPlan. |
 | Conduct or explain opportunity construction | The reusable action, dependency qualification and honest return branches. | Actual Work, participant and source-use relations; observations and any produced-result claims. |
 | Inspect a candidate opportunity | Problem/promise distinction, supports, reachability reasoning, uncertainty, next question and refresh. | The truth and adequacy of the exact specialist premises and any stronger empirical claim. |
-| Continue into advice or choice | An inspectable candidate basis or gap. | PSDA.19’s professional engagement and PSDA.14’s recommendation; direct choice authority and rule. |
+| Continue into advice or choice | An inspectable candidate basis or gap. | Applicable professional engagement and recommendation when advice is requested, and the direct choice authority and rule. |
 

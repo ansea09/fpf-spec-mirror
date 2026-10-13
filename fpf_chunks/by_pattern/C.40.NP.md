@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.NP.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
-line_start: 87699
-line_end: 87842
+line_start: 87627
+line_end: 87770
 dependencies:
   - "C.18"
   - "C.19"
@@ -77,7 +77,7 @@ A finite observation can support a repeatable next transition, transfer to anoth
 
 When development is intended to become ordinary practice, identify what must be reconstructed and used by further carriers. The object is not necessarily a fixed procedure. It can include ways of noticing difficulties, disputing formulations, obtaining professional help, constructing a transition and reopening the question after success.
 
-Use C.36/C.36.RP to distinguish generation, transmission, reconstruction, use, selection and retention. CB.7 develops distributed organizing; CB.12 connects an occasion, attainable action, useful return and repetition; CB.14 develops the repertoire. These suppliers already contain substantive Methods. Obtain their actual results rather than replacing them with a communication campaign.
+Use C.36/C.36.RP to distinguish generation, transmission, reconstruction, use, selection and retention. Use C.36.MC for the bounded cultural claim and its receiving construction. Where the continuation relies on distributed participation, obtain the actual contributions, usable occasions, access, support and agreements that make another carrier able and willing to act and return a useful result. Retain their voluntary limits and shared demands. The applicable organizing and subject practices supply those mechanisms; a communication campaign does not establish their results.
 
 A workplace, association, customer community and population of independent practitioners expose different constraints. Organizational membership may support some work assignments; participation in a community or receipt of a public text does not confer the same authority. Independent carriers can use and develop the practice without a shared meeting, employer or provider.
 
@@ -105,7 +105,7 @@ After the first projects work, the lead reviews a newcomer's planned integration
 
 The lead now identifies a further problem herself. How can another person reconstruct and dispute the reason for an inquiry, without either copying a ritual or requiring the original adviser to authorize every case? This is harder than making her own commitment: another carrier must recognize the distinction under different preparation and conditions, and the working arrangement must permit a justified disagreement. It is attainable because the first development supplied contrasting cases, an explained construction and a lead able to examine its limits.
 
-She does not solve it by adding a rule saying “do not run unnecessary trials”. She obtains HCD help for the missing learning operation and C.36.RP for reproducible access and renewal. Together they construct a comparison in which the newcomer must relate the input premise, proposed inquiry result and changed action. For one adequately supported case he explains why no new trial is needed. For a differently unsupported case he constructs the result he must obtain and the consequence of each possible answer. A disagreement with the lead is examined against the actual material and receiving decision, rather than treated as a failure to remember the house style.
+She does not solve it by adding a rule saying “do not run unnecessary trials”. She obtains help for the missing learning operation from the applicable capability-development practice and uses C.36.RP for reproducible access and renewal. Together they construct a comparison in which the newcomer must relate the input premise, proposed inquiry result and changed action. For one adequately supported case he explains why no new trial is needed. For a differently unsupported case he constructs the result he must obtain and the consequence of each possible answer. A disagreement with the lead is examined against the actual material and receiving decision, rather than treated as a failure to remember the house style.
 
 The lead also changes provision. The usable account retains the decisive contrasting material and the reasons for the selected action, with access to a subject specialist for technical questions. It is not a catalogue of approved answers. At a later real occasion, the newcomer must formulate the issue and obtain the needed contribution under the support conditions the company intends to maintain. An adviser silently repairing the case would preserve delivery but defeat this particular transfer claim.
 
@@ -163,7 +163,7 @@ The integration-lead and editorial cases are constructed explanations of these c
 
 ### C.40.NP:12 - Relations
 
-C.40.CD develops problem and way together. C.40.OD constructs the wider open-ended undertaking; C.40.JD joins way, holder and provision for a present change. C.40.OCN and C.40.OP develop and retain opportunities. E.23 addresses improvement of improvement means; C.18/C.19 govern relevant search and selection; C.36/C.36.RP support cultural reconstruction. HCD, OCE, CB and the actual technical practice supply the subject-specific realization.
+C.40.CD develops problem and way together. C.40.OD constructs the wider open-ended undertaking; C.40.JD joins way, holder and provision for a present change. C.40.OCN and C.40.OP develop and retain opportunities. E.23 addresses improvement of improvement means; C.18/C.19 govern relevant search and selection; C.36/C.36.RP support cultural reconstruction. Human-capability development, organizational change, community practice and the actual technical practice supply the subject-specific realization.
 
 ### C.40.NP:End
 

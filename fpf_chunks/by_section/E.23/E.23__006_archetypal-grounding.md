@@ -6,12 +6,12 @@ section_id: "E.23:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__006_archetypal-grounding.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:5 — Archetypal Grounding"
-line_start: 113206
-line_end: 113254
+line_start: 113219
+line_end: 113267
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -35,7 +35,7 @@ keywords:
 **Show — agent harness improvement from a loop-engineering request.** A user asks to improve a local DPF seed. The record names that seed version as the object under improvement, selects E.4.DPF.DA or E.21 for evaluation, and states the aim: make the seed usable for local first entry without public-Core claims.
 The loop may change only that seed or another explicitly declared evaluation or harness slice. Prompts, adversarial examples, and harness checks enter only when the record states the expected evaluation change and their removal or stop condition. Selection makes them proposals. Each actual harness run or seed edit is separate Work governed by the central §4 rule; returned values, durable results, changed versions, and Transformations stay separate and use their declared bindings or relations.
 
-Use G.2 for source-use decisions, G.11 for refresh, G.9 for parity, C.18 or C.19 for retained variants, and G.5 for selected-set results. Use E.17 and E.24.PUB for publication, and E.4.PFAD or E.4.PFR for their respective claims. A change outside the declared slice opens that neighboring work; it does not enlarge one E.23 loop without a new boundary.
+Use the smallest sufficient source route in E.4.DPF:4 for the seed's needed source contribution, using G.2 only for a broad, refreshable CG-Frame pack. Carry the resulting contribution and limits back to the seed. Use G.11 for refresh, G.9 for parity, C.18 or C.19 for retained variants, and G.5 for selected-set results. Use E.17 and E.24.PUB for publication, and E.4.PFAD or E.4.PFR for their respective claims. A change outside the declared slice opens that neighboring work; it does not enlarge one E.23 loop without a new boundary.
 **Affordable floor evaluation.** E.22 frames a floor evaluation; the evaluator applies E.21 to every coordinate and returns the result through the declared application binding or result relation. If that evaluation is recorded as dated Work, the central §4 rule applies. If the result is admissible and no improvement aim was requested, E.23 stays closed. Any admission, refresh, landing, or release claim still uses its own E.19 or release gate; the E.21 result is quality evidence, not the gate.
 
 **Pattern exceptional improvement.** A pattern already passes the floor but lacks worked slices and source-currentness. Use `E.22` to frame optional improvement for those named coordinates. Selecting a proposal does not perform it. Add the useful worked case or refresh the source-bound rule, identify the repair pass as Work only if that dated occurrence is asserted, and re-evaluate the changed pattern through a later E.21 pass with its own result. Check what became worse. Stop at `4` when no worthwhile content improvement remains under the declared use; do not add apparatus merely to defend all-`5`.

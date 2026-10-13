@@ -6,12 +6,12 @@ section_id: "E.11.PFP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__005_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:4 — Solution"
-line_start: 102415
-line_end: 102477
+line_start: 102413
+line_end: 102479
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -69,7 +69,11 @@ Across all segments, every pattern body has exactly one row, every row resolves 
 
 PatternID, title, Part, and `§` position remain separate even when one row displays them together. PatternID supplies the stable public address within the named framework; the title explains the pattern; Part and `§` show where the current edition places it. Within each Part, the ToC rows and pattern bodies follow the same order. That order need not ascend by PatternID, and moving or retitling a pattern does not by itself change its PatternID.
 
-When the surrounding text does not already identify the framework, name the framework together with the PatternID. To select the body published in one edition, also name that framework edition. For a DPF, `E.4.DPF` supplies the choice of reference code and local locator, and the continuity decision; this profile only makes the selected distinctions visible in the publication.
+For a portable reference, apply `E.8` H-10 to retain the complete PatternID or SectionRef and enough context to recover the publication set and document. Add a qualifier only where that identification is not already unambiguous. A publication may declare a short `DocID` beside its full document title. State the publication set in which the declaration is unambiguous. The declaration identifies the whole document, not its embedded Readme, Architectural Reference or pattern collection. A framework's existing reference code may be declared as that DocID without changing any PatternID; a standalone Architectural Reference may declare its own document qualifier. A document without a DocID remains referable by its full title within the named set.
+
+Keep the document, the framework it publishes, the selected edition, its publication units and its carrier distinct. Several units can share one document; one framework can have several edition documents or carriers. A reference to an exact edition names that edition separately. A current-carrier catalogue derives its document identities from their declarations and full titles; it does not confer framework membership, pattern identity or authority. Keep document identity recoverable from cross-document link labels and their accompanying context; add a qualifier when the complete address does not already supply it. The hyperlink may still provide a convenient carrier. An extracted passage retains the complete local address and any identifying context it needs. For a DPF, `E.4.DPF:4.0.3` supplies the reference-code, local-locator and continuity decisions; this profile makes the selected distinctions visible.
+
+Use E.8:4.2.2.2 to distinguish a source citation from an invitation to apply another contribution. Keep that purpose and any use-changing condition clear in ordinary prose. If an extract loses the heading that supplied this meaning, retain it in the extract; preserving the address alone does not preserve the intended reading. No repeated labels are needed when the wording is already clear.
 
 Reserve `Support index — <lookup job>` for a secondary pattern lookup. Its exact header is:
 

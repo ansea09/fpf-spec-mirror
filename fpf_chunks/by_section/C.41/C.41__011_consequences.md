@@ -6,12 +6,12 @@ section_id: "C.41:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__011_consequences.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:9 — Consequences"
-line_start: 88056
-line_end: 88059
+line_start: 87984
+line_end: 87987
 dependencies:
   - "A.3.1"
   - "A.3.2"

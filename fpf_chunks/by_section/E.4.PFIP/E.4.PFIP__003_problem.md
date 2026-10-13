@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__003_problem.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:2 — Problem"
-line_start: 94133
-line_end: 94148
+line_start: 94065
+line_end: 94080
 dependencies:
   - "C.2.1"
   - "C.33"
@@ -35,7 +35,7 @@ First, an accepted source contribution may never reach the candidate, or it may 
 
 Publication plurality makes the second failure harder to see:
 
-- one framework edition can be exposed through a sequential monolith, extracted pattern texts, reader-entry and Preface forms, cards, diagrams, or retrieval forms;
+- one framework edition can be exposed through a sequential monolith, extracted pattern texts, reader-entry and Architectural Reference forms, cards, diagrams, or retrieval forms;
 - two forms can serve the same broad use without being versions of one another;
 - a text diff can expose changed sentences but not a lost diagram relation, card field, retrieval cue, or admitted operation;
 - splitting or merging forms can make a predecessor form disappear even though its content still needs a disposition; and

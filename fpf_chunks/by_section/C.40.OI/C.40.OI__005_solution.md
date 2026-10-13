@@ -6,12 +6,12 @@ section_id: "C.40.OI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__005_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:4 — Solution"
-line_start: 85374
-line_end: 85472
+line_start: 85302
+line_end: 85400
 dependencies:
   - "A.15.9"
   - "B.5.PI"
@@ -74,7 +74,7 @@ Identify a result that could improve the answer or next inquiry. Depending on wh
 - a change-relevant characterization from `C.40.OC`;
 - materially different search leads from `C.40.NU`;
 - a worthwhile problem and proposed contribution from `C.40.PC`;
-- an admissible advising question or blocker from `PSDA.19`; or
+- an admissible advising question or blocker from the applicable professional engagement Method; or
 - a qualified result from the practice that owns a missing premise.
 
 Say what plausible answers would change: the next question, a possible contribution, a supported claim, an admissible action or a justified stop. When the future receiver is unknown, use the local exploratory question from §4.2. Discriminating explanations or discovering a useful operation can justify inquiry before an intervention is selected.

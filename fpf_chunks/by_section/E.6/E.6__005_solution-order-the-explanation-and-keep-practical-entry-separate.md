@@ -6,12 +6,12 @@ section_id: "E.6:4"
 section_title: "Solution — Order the explanation and keep practical entry separate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__005_solution-order-the-explanation-and-keep-practical-entry-separate.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
   - "E.6:4 — Solution — Order the explanation and keep practical entry separate"
-line_start: 94828
-line_end: 94848
+line_start: 94776
+line_end: 94796
 dependencies:
   - "E.2"
 keywords:
@@ -27,11 +27,11 @@ keywords:
 
 #### E.6:4.0 - Document order is distinct from first-practical entry
 
-The macro-order of the document is a didactic scaffold, not a universal practical workflow. Apply `E.11.PFP` to the compact opening and navigation. After the Table of Contents, the Readme offers recognizable working questions and direct entries; the Preface supplies the informal on-ramp. These informative navigation units and ToC cues may cross Parts when the reader's question requires it. Use `E.11` for practical entry, including its worked comparisons when compact cues leave a genuine ambiguity.
+The macro-order of the document is a didactic scaffold, not a universal practical workflow. Apply `E.11.PFP` to the compact opening and navigation. After the Table of Contents, the Readme offers recognizable working questions and direct entries; the Architectural Reference explains the whole pattern language, its cross-cutting ideas, connections and architectural choices, including an informal on-ramp. These informative explanation and navigation units and ToC cues may cross Parts when the reader's question requires it. Use `E.11` for practical entry, including its worked comparisons when compact cues leave a genuine ambiguity.
 
 Keep the main explanatory sequence recoverable:
 
-1. **Readme and Preface.** The Readme helps a reader find a first useful result. The Preface builds intuition through concrete System and Episteme stories before the kernel exposition.
+1. **Readme and Architectural Reference.** The Readme helps a reader find a first useful result. The Architectural Reference explains the connected language and its rationale; its introductory System and Episteme stories also build intuition before the kernel exposition.
 2. **Part A — Kernel Architecture.** Introduce the holonic ontology and acting-side externalization in A.12.
 3. **Part B — Trans-disciplinary Reasoning.** Connect the general reasoning moves with applicable System and Episteme grounding under E.7.
 4. **Part C — Kernel Extension Specifications.** Develop the calculi and extension patterns whose questions use those foundations.

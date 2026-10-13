@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.37.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
-line_start: 81381
-line_end: 81663
+line_start: 81309
+line_end: 81591
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -210,7 +210,7 @@ This split lets ordinary reversible work stop cheaply. A practitioner may inspec
 
 | Case | C.37 disposition |
 | --- | --- |
-| One direct domain Method already selects one representation–operation configuration for the same one use and returns its limits, as RHY.5 does for rhythmic-representation choice. | Use that Method and result; do not invoke C.37 for a duplicate account. |
+| One direct domain Method already selects one representation–operation configuration for the same one use and returns its limits, as in rhythmic-representation choice. | Use that Method and result; do not invoke C.37 for a duplicate account. |
 | A candidate is called a view but `EpistemeViewpointConformanceRelation(E,P)` fails or cannot be evaluated. | Decline it for the view-dependent use or mark that row unresolved. C.37 cannot grant `U.View` membership. Another independently positive direct basis may support a different row and claim. |
 | A candidate is a mathematical graph or other mathematical object. | First identify the object and obtaining subject relations under their direct patterns; then use `C.29` for the explicit lens, mapping, preserved and lost structure, admitted use, and stop. C.37 neither admits the object nor makes the mapping obtain. |
 | A candidate is an ordinary non-graph diagram. | Identify its episteme and subject. Require an exact positive conformance, representation, correspondence, or domain result for the selected claim. Add A.10 when evidence is relied on. Publication, carrier, provenance, or C.2.P.DR repair cannot supply the missing basis or receiving result. |

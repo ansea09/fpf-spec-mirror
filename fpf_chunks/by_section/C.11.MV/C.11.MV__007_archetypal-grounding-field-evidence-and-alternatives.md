@@ -6,12 +6,12 @@ section_id: "C.11.MV:5"
 section_title: "Archetypal Grounding - Field Evidence and Alternatives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__007_archetypal-grounding-field-evidence-and-alternatives.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:5 — Archetypal Grounding - Field Evidence and Alternatives"
-line_start: 58055
-line_end: 58101
+line_start: 57977
+line_end: 58023
 dependencies:
   - "A.3.1.QM"
   - "C.11"
@@ -37,7 +37,7 @@ The Halogen case can supply evidence about project demands, practitioner skill s
 
 #### C.11.MV:5.1 - EC-417 Early Stop
 
-The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfpreface169---choose-the-smallest-method-development-result-needed-for-release-ec-417) supplies the receiving problem, alternatives, calculations and the distinct limits used below.
+The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference169---choose-the-smallest-method-development-result-needed-for-release-ec-417) supplies the receiving problem, alternatives, calculations and the distinct limits used below.
 
 In the constructed EC-417 case, the team must release a controller firmware and harness change on `D0`. Its software-integration slot is `D-21`, but signed supplier pinout evidence is expected at `D-8`. The present question is which proposed way to coordinate that release is worth pursuing under the current constraints.
 
@@ -54,17 +54,17 @@ Keep the comparison tied to this decision and make burden, confidentiality, hold
 
 Keep `C-EC-Release-v2` as a candidate. Preserve the missing A.22 selection basis, untested AI-provider and feedback branches, and unsupported `CUR-EC417-CadenceEffect-1`. The timing and capacity estimates support rejecting B's overloaded safety allocation and retaining B2 as a proposal for at most three trials under its entry conditions. If those conditions cannot be met, return stop/next-slot or the signed-first A alternative with its timing consequence. An actual release or trial entry still needs every applicable capability, assignment, permission and authority condition. If the question is demonstrated release worth, return the missing performed-release and alternative evidence. The observed support-task results, with the tailoring operation still undefined and its permission/authority stop untested, do not establish that stronger result.
 
-#### C.11.MV:5.2 - Bounded `XRI-14` for `SYSE.15`
+#### C.11.MV:5.2 - Use situated evidence in another Method-repertoire decision
 
-Supply `XRI-14` only when `SYSE.15` has a compatible engineering Method-repertoire decision and the following positions are recoverable:
+Supply evidence to another Method-repertoire decision only when that receiving use is compatible and the following content is recoverable:
 
-| `XRI-14` position | Required boundary |
+| Evidence contribution | Required boundary |
 | --- | --- |
 | source decision | C.11.MV subject and status, receiving practice, domain result, situation family, alternative set, qualification window, and exact action considered. |
 | evidence | Observations and credible estimates distinguished per alternative, with their sources, domain consequences, burdens, capability and System demands, side effects, opportunity costs, reversibility, reach and gaps. Actual Work, performers and direct relations retain their independently supported basis wherever claimed. |
-| supported statement | The smallest situated worth statement that bears on the named `SYSE.15` repertoire-account decision. |
+| supported statement | The smallest situated worth statement that bears on the receiving Method-repertoire decision. |
 | non-transfer | No transfer of the C.11.MV `keep`/`revise`/`replace`/`branch`/`stop` action, implementation authority, universal Method rank, causal claim, or evidence outside the stated source-use conditions. |
-| reopen | Changed Method or candidate status, engineering situation, alternatives, evidence, capability or platform conditions, direct relations, or receiving repertoire use. |
+| reopen | Changed Method or candidate status, situation in the receiving practice, alternatives, evidence, capability or platform conditions, direct relations, or receiving repertoire use. |
 
-`SYSE.15` remains responsible for the engineering Method repertoire and compatibility claims. `XRI-14` supplies evidence for that decision; it does not direct `SYSE.15` to take an C.11.MV action.
+The receiving practice remains responsible for its Method repertoire and compatibility claims. The contribution supplies evidence for that decision; it does not direct the recipient to take the C.11.MV action.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.MC.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
-line_start: 83422
-line_end: 83623
+line_start: 83350
+line_end: 83551
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"
@@ -71,7 +71,7 @@ Name the receiving problem and the result it needs. Distinguish an unavailable r
 
 | Current difficulty | Direct contribution to use | First result retained here |
 | --- | --- | --- |
-| The relevant alternatives or source editions are unknown. | C.39.RP; A.3.1.DR for documentary recovery, A.3.1.MR and conditional RMP.10 for occurrence-evidence recovery. | A bounded repertoire, dossier, candidate account, or honest gap, with its source and status. |
+| The relevant alternatives or source editions are unknown. | C.39.RP; A.3.1.DR for documentary recovery, A.3.1.MR and, when needed, an applicable research Method for occurrence-evidence recovery. | A bounded repertoire, dossier, candidate account, or honest gap, with its source and status. |
 | One Method or individually scoped candidate needs qualification. | A.3.1.QM and the applicable A.3.1 identity question. | The individual qualification or unresolved identity condition; not a verdict on a whole. |
 | Several possible arrangements differ in relations, combined demand, or burden. | C.32.MWA.PP. | The compared arrangements and architecture decision, preserving proposed versus obtaining relations. |
 | A proposed Method whole lacks supported identity or composition. | B.1.5.CM with A.3.1 and B.1.5. | An obtaining composition result, prospective account, or lower return. |
@@ -213,7 +213,7 @@ These sources support a bounded synthesis, not a claim that this construction in
 
 ### C.39.MC:12 - Relations
 
-- C.39.RP and A.3.1.DR supply documentary knowledge; A.3.1.MR and conditional RMP.10 supply occurrence-evidence recovery results.
+- C.39.RP and A.3.1.DR supply documentary knowledge; A.3.1.MR and, when needed, an applicable research Method supply occurrence-evidence recovery results.
 - A.3.1.QM, C.32.MWA.PP, and B.1.5.CM keep individual qualification, alternative architecture, and whole resolution distinct. A.3.2.DE, C.37.MP, A.15.8.MS supply description, cross-use representation, and support results; A.3.1.CC and A.3.1.MV carry the applicable correction or variant return.
 - E.11.PUA/PUR govern the actual pattern-use and recommendation questions, including reuse of a matching earlier result. A.15.7 governs live next-action choice; A.15.2/A.15.5 and C.11 retain their other entry conditions.
 - A.22.CGUS governs structure and continuation judgements. C.2.1 governs a retained result episteme. A.3.1/A.3.2/B.1.5 and A.15 keep Method, description, composition, plan, Work, and result claims distinct.

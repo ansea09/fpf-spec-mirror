@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.3.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
-line_start: 91027
-line_end: 91196
+line_start: 90957
+line_end: 91128
 dependencies:
   - "E.1"
   - "E.2"
@@ -31,6 +31,8 @@ keywords:
 ---
 
 ## E.3 - Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)
+
+> **Status:** Stable
 
 ### E.3:1 - Problem frame
 Pattern E.2 supplies eleven immutable pillars, yet experience shows that a **flat list of principles invites ambiguity**: reviewers cannot decide which pillar overrules another  and “dead‑letter” rules accumulate.

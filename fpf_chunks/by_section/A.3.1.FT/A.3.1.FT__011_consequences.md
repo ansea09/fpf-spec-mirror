@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__011_consequences.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:9 — Consequences"
-line_start: 10868
-line_end: 10873
+line_start: 10754
+line_end: 10759
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"

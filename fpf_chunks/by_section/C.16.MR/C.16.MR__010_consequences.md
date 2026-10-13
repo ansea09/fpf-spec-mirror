@@ -6,12 +6,12 @@ section_id: "C.16.MR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.MR/C.16.MR__010_consequences.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.16.MR — Construct a Measurement Relation"
   - "C.16.MR:9 — Consequences"
-line_start: 58939
-line_end: 58944
+line_start: 58861
+line_end: 58866
 dependencies:
   - "A.3.3"
   - "B.5.FM"

@@ -6,12 +6,12 @@ section_id: "C.40.OC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__013_relations.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:12 — Relations"
-line_start: 85866
-line_end: 85875
+line_start: 85794
+line_end: 85803
 dependencies:
   - "C.11.CRC"
   - "C.16"
@@ -27,7 +27,7 @@ keywords:
 - **Uses:** `C.16` for relied-on measurement claims and `C.11.CRC` for finite configuration-relative contribution comparison.
 - **Prepares:** `C.40.NU` by exposing opportunity-generating characteristics and relevant unsearched dimensions.
 - **Constrains:** `C.40.PC` and `C.40.DC` by making the receiving problem, contribution, finite change, and protections inspectable.
-- **Supplies premises to:** `C.40.JF`, `C.40.OP`, `PSDA.19`, and `C.40.RQ` without establishing reachability, portfolio admission, advising admissibility, or refresh outcome.
-- **Returns to:** HCD or capability owners for human results; organization, strategy, engineering, operations, AI/model, safety, legal, professional, research, evidence, measurement, or other direct owners for their characteristics and conclusions.
+- **Supplies premises to:** `C.40.JF`, `C.40.OP`, the applicable professional engagement Method, and `C.40.RQ` without establishing reachability, portfolio admission, advising admissibility, or refresh outcome.
+- **Returns to:** capability owners for human results; organization, strategy, engineering, operations, AI/model, safety, legal, professional, research, evidence, measurement, or other direct owners for their characteristics and conclusions.
 
 

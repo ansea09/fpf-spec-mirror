@@ -6,12 +6,12 @@ section_id: "A.16.1:16"
 section_title: "Cue-Pack Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__017_cue-pack-package-discipline.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:16 — Cue-Pack Package Discipline"
-line_start: 34219
-line_end: 34240
+line_start: 34113
+line_end: 34134
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -56,5 +56,5 @@ This is what turns early cues into an admissible preservation form.
 A cue pack is not an archive of low-articulation cues, but it also need not wait until route-candidate hints are fully articulate. If route-candidate hints are already visible, publish them. If they are not yet visible, publication may still be admissible when the cue nucleus, grounding, and preservation rationale make clear why the cue should not be lost.
 
 #### A.16.1:16.3 - Valence is not endpoint semantics
-Valence, urgency, discomfort, promise, or attraction may explain why a cue is preserved. They do not by themselves establish an `A.6.A` invitation, evaluation, abductive prompt, selected route, or route-selection status.
+Valence, urgency, discomfort, promise, or attraction may explain why a cue is preserved. They do not by themselves settle the meaning of an action-oriented claim or question under `A.6.A`, or establish an evaluation, abductive prompt, selected route, or route-selection status.
 

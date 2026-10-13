@@ -6,12 +6,12 @@ section_id: "A.16.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__005_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:4 — Solution"
-line_start: 33761
-line_end: 33894
+line_start: 33655
+line_end: 33788
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -134,7 +134,7 @@ A trajectory does not need to terminate to be useful. What matters is a visible 
 Typical next-use patterns include:
 
 - `A.6.P` for relation precision or repair;
-- `A.6.A` for an action invitation;
+- `A.6.A` when action-oriented wording leaves the intended claim or question unclear; return the recovered meaning to its subject pattern for any further result;
 - `C.16.Q` for quality or evaluative-characterization wording repair;
 - `B.5.2` for abductive inquiry;
 - `A.15.2` for planning future Work, including its target Method;

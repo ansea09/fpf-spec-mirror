@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.OC.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
-line_start: 85585
-line_end: 85877
+line_start: 85513
+line_end: 85805
 dependencies:
   - "C.11.CRC"
   - "C.16"
@@ -141,7 +141,7 @@ Do not hide one family inside another or average incomparable scales. A Pareto-i
 
 Use the practice that owns the substantive characteristic:
 
-- human capability and representative later-Work evidence remain with current HCD and capability patterns;
+- human capability and representative later-Work evidence require the applicable capability assessment for that person, receiving Work and permitted support;
 - organization contribution, positions, assignments, arrangements, culture, and change remain with current organization and strategy practices;
 - AI/model evaluation, data, safety, security, oversight, and deployment claims remain with their direct engineering and governance owners;
 - service, flow, reliability, safety, and operability remain with operations, engineering, safety, and domain practices as applicable;
@@ -195,7 +195,7 @@ Return one of these outcomes:
 - an explicit unknown that limits the answer while the supported characterization remains useful; or
 - a stop because the existing characterization already serves the receiving use.
 
-Continue to `C.40.NU` when material opportunity-generating dimensions are now visible, to `C.40.DC` when a direction needs a finite characteristic change and support configuration, to `C.40.JF` when joint reachability is current, or to `PSDA.19` when a formed advice question needs an admissible relationship. These are conditional continuations, not a fixed order.
+Continue to `C.40.NU` when material opportunity-generating dimensions are now visible, to `C.40.DC` when a direction needs a finite characteristic change and support configuration, to `C.40.JF` when joint reachability is current, or to the applicable professional engagement Method when a formed advice question needs an admissible relationship. These are conditional continuations, not a fixed order.
 
 #### C.40.OC:4.8 - Reopen the smallest affected scope
 
@@ -213,7 +213,7 @@ The practitioner replaces “more mature,” “AI-ready,” “senior,” or �
 
 Mira's bounded inquiry concerns incident-review and handoff Work over four months. “Become better at AI” is discarded as a characteristic. The selected characteristics are: time to identify a material handoff gap, quality of the explanation supplied to the next reviewer, ability to detect unsupported model output, confidential-data exposure, review workload, and transfer to two representative incident classes.
 
-The current account has qualified examples for explanation quality and workload, but no comparable evidence for transfer or unsupported-output detection. Those readings remain unknown. The intended contribution is faster detection without worsening explanation quality, confidentiality, or sustainable workload. HCD owns the human demand, capability, support, and transfer evidence. The characterization returns those useful readings and unknowns; it supplies no course recommendation or transfer claim. Representative-Work evidence becomes a request only when the attainable contribution warrants acquisition for the next use.
+The current account has qualified examples for explanation quality and workload, but no comparable evidence for transfer or unsupported-output detection. Those readings remain unknown. The intended contribution is faster detection without worsening explanation quality, confidentiality, or sustainable workload. The applicable human-capability practice supplies the human demand, capability, support, and transfer evidence. The characterization returns those useful readings and unknowns; it supplies no course recommendation or transfer claim. Representative-Work evidence becomes a request only when the attainable contribution warrants acquisition for the next use.
 
 #### C.40.OC:5.2 - Organization without one maturity score
 
@@ -307,8 +307,8 @@ For organization and campaign cases, [ISO 56008:2024](https://www.iso.org/standa
 - **Uses:** `C.16` for relied-on measurement claims and `C.11.CRC` for finite configuration-relative contribution comparison.
 - **Prepares:** `C.40.NU` by exposing opportunity-generating characteristics and relevant unsearched dimensions.
 - **Constrains:** `C.40.PC` and `C.40.DC` by making the receiving problem, contribution, finite change, and protections inspectable.
-- **Supplies premises to:** `C.40.JF`, `C.40.OP`, `PSDA.19`, and `C.40.RQ` without establishing reachability, portfolio admission, advising admissibility, or refresh outcome.
-- **Returns to:** HCD or capability owners for human results; organization, strategy, engineering, operations, AI/model, safety, legal, professional, research, evidence, measurement, or other direct owners for their characteristics and conclusions.
+- **Supplies premises to:** `C.40.JF`, `C.40.OP`, the applicable professional engagement Method, and `C.40.RQ` without establishing reachability, portfolio admission, advising admissibility, or refresh outcome.
+- **Returns to:** capability owners for human results; organization, strategy, engineering, operations, AI/model, safety, legal, professional, research, evidence, measurement, or other direct owners for their characteristics and conclusions.
 
 
 ### C.40.OC:End

@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__007_archetypal-grounding.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:5 — Archetypal Grounding"
-line_start: 78860
-line_end: 79039
+line_start: 78788
+line_end: 78967
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -195,9 +195,9 @@ The worked arrangement ends with the used comparison and its unresolved items. I
 
 Keep the reporting task, but add a separately chosen purpose: an analyst must learn to identify when a changed source condition alters the comparison. The AI-assisted production arrangement can continue supplying this week's usable result while the learning work is arranged. Include the learning time in the same capacity account.
 
-[HCD.6](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd6---design-representative-practice-tasks) supplies representative practice, and [HCD.9](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd9---perform-deliberate-practice-with-feedback) supplies enactment with feedback and correction. Give the learner a relevant notice and its receiving question, with the assistance permitted for this learning purpose. Ask the learner to identify the condition, show which conclusion it changes and explain why. Feedback addresses the observed omission; a subsequent attempt tests the repaired operation. Giving the answer before an attempt may support production while defeating the particular evidence sought about the learner's own performance.
+Use appropriate learning Methods to design representative practice and perform it with feedback and correction. Give the learner a relevant notice and its receiving question, with the assistance permitted for this learning purpose. Ask the learner to identify the condition, show which conclusion it changes and explain why. Feedback addresses the observed omission; a subsequent attempt tests the repaired operation. Giving the answer before an attempt may support production while defeating the particular evidence sought about the learner's own performance.
 
-When the claim concerns unfamiliar work or retained ability, use [HCD.12](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd12--test-transfer-to-unfamiliar-work-or-learning-from-a-new-source) or [HCD.13](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd13--test-human-capability-retention-and-dependence-on-tools-or-other-support) under the required support and timing conditions. One successful attempt supports only what was exercised. If the later work permits a source or AI aid, test the person's required contribution with that support instead of silently changing the goal to unaided recall.
+When the claim concerns unfamiliar work or retained ability, use an assessment Method for that transfer or retention claim under the required support and timing conditions. One successful attempt supports only what was exercised. If the later work permits a source or AI aid, test the person's required contribution with that support instead of silently changing the goal to unaided recall.
 
 Suppose the learner now notices that two apparently comparable notices use different order-date conventions. Recover the conventions from their sources, or ask a domain practitioner for the missing interpretation. Use C.39.MC if the comparison Method needs to change, and preserve comparisons whose premises still hold. Use each result at its supported scope: the report supports this week's decision, the observed learning response informs further practice, and a qualified Method change can be reused under its conditions.
 

@@ -6,12 +6,12 @@ section_id: "F.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__001_intro.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:intro — Intro"
-line_start: 116952
-line_end: 116959
+line_start: 116965
+line_end: 116974
 dependencies:
   - "A.11"
   - "A.7"
@@ -34,7 +34,9 @@ keywords:
 ## F.2 — Source-Local Term Harvesting & Normalisation
 
 **“Harvest the source’s own words, recover what they mean there, and stop before comparison.”**
-**Status.** Architectural pattern.
+**Type:** Architectural pattern.
+
+> **Status:** Stable
 **Depends on.** F.1 **Question-Relative Source Selection**; F.0.1 **Source-Local Meaning Recovery**; E.10.D1 **Recovering What “Context” Means in Use**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**.
 **Coordinates with.** F.3 **Source-Local Sense Clustering**; F.17 for an optional durable cell and basis relation; F.4 **SystemRoleKindDescription** when the recovered subject is a local system-role kind; F.9 only for an actual relation between distinct local meanings.
 **Aliases (informative).** *source-local harvesting*; *local normalisation*.

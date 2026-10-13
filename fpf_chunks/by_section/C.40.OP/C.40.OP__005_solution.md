@@ -6,12 +6,12 @@ section_id: "C.40.OP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__005_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:4 — Solution"
-line_start: 86780
-line_end: 86849
+line_start: 86708
+line_end: 86777
 dependencies:
   - "A.15.9"
   - "C.11.CRC"
@@ -61,7 +61,7 @@ State each step's transition burden, reversibility, and effects on later options
 
 Use C.40.JF to qualify the jointly necessary transitions, shared resources, timing, and inherited obligations. A sequence of individually plausible steps remains a conditional path until the necessary joint basis exists. Return a missing holder, access, support, or implementation result through A.15.9. Do not substitute a path diagram for the supplying practice's conclusion.
 
-A path can preserve alternatives without selecting a programme. Human capability-development programmes remain HCD.2's composition and comparison question; authorized participants retain programme choice, and Learning Product local practice framework Methods support realizing the selected programme and pattern contributions as a Guide.
+A path can preserve alternatives without selecting a programme. Human capability-development programme composition and comparison remain with the applicable programme-design Method; authorized participants retain programme choice, and learning-material production Methods support realizing the selected programme and pattern contributions as a Guide.
 
 #### C.40.OP:4.4 - Keep the set inspectable without forcing a winner
 
@@ -87,7 +87,7 @@ Ordinary opportunity retention does not require all those practices. A few descr
 
 Name the next question whose plausible answers would retain, narrow, reject, or open a particular opportunity or path. Use the declared receiving policy to consider relevant value, inquiry burden, delay, protections, and uncertainty. Reuse a sufficient partial comparison; no complete ranking is needed merely to state the question.
 
-If the question becomes “which candidate or probe should we choose now?”, return to the actual local choice or Decision Design decision-support question. A proposed probe needs its own feasibility, exposure, authority, and execution basis before it becomes recommended or performed. An information request is not that authorization.
+If the question becomes “which candidate or probe should we choose now?”, return to the actual local choice or decision-support question. A proposed probe needs its own feasibility, exposure, authority, and execution basis before it becomes recommended or performed. An information request is not that authorization.
 
 Revisit at the declared trigger, including a material source, use, horizon, resource, support, permission, or evidence change. Use C.40.RQ to update the smallest affected opportunity and its dependent paths or advice. Preserve unaffected candidates and source lineage; retire a retention claim when its later use disappears, its cost no longer fits, or a qualified result defeats its enabling connection.
 

@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__001_intro.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:intro — Intro"
-line_start: 10708
-line_end: 10714
+line_start: 10594
+line_end: 10600
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"

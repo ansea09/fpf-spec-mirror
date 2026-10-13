@@ -6,12 +6,12 @@ section_id: "C.40.OCN:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__002_problem-frame.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:1 — Problem frame"
-line_start: 85020
-line_end: 85033
+line_start: 84948
+line_end: 84961
 dependencies:
   - "A.15.9"
   - "C.11"
@@ -25,7 +25,7 @@ Use this Method when an agent or arrangement of capable contributors is explorin
 
 The subject is a useful possible contribution and the conditions under which it could become obtainable. This Method governs how a possible direction is made meaningful and conditionally reachable. It does not govern another person's recommendation, a development intervention, strategic commitment, procurement or the eventual choice.
 
-A separate adviser is not required. A person exploring future engineering Work can begin here and stop at an opportunity or exact next question. If another performer later gives advice to a named recipient, PSDA.19 supplies the engagement and professional conditions; the actual decision rule and authority govern the later choice.
+A separate adviser is not required. A person exploring future engineering Work can begin here and stop at an opportunity or exact next question. If another performer later gives advice to a named recipient, the applicable advising Method supplies the engagement and professional conditions; the actual decision rule and authority govern the later choice.
 
 Do not use this Method to reopen an adequate option set merely because more ideas could be generated. Use the direct choice or comparison Method when the worthwhile result and live alternatives are already sufficient. Use a qualified specialist Method directly when it owns the whole question. An evolutionary account of a population without a recipient is not a development-direction choice; a researcher's intervention question needs its own science and authority basis.
 

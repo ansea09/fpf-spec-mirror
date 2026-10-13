@@ -6,12 +6,12 @@ section_id: "C.41.TF:End"
 section_title: "C.41.TF:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__014_c-41-tf-end.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:End — C.41.TF:End"
-line_start: 88236
-line_end: 88237
+line_start: 88164
+line_end: 88165
 dependencies:
   - "C.37"
   - "C.41"

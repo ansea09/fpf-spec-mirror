@@ -6,12 +6,12 @@ section_id: "F.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__001_intro.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:intro — Intro"
-line_start: 118398
-line_end: 118406
+line_start: 118415
+line_end: 118425
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -41,7 +41,9 @@ keywords:
 
 **“Put exact local meanings and already established relations side by side; let the table display the argument, never create it.”**
 
-**Status.** Architectural pattern.
+**Type:** Architectural pattern.
+
+> **Status:** Stable
 **Depends on.** E.10.D1 **Recovering What “Context” Means in Use**; F.0.1 **Source-Local Meaning Recovery**; F.1 **Question-Relative Source Selection**; F.2 **Term Harvesting**; F.3 **Source-Local Sense Clustering**; F.17 for optional exact cells; F.5 **Naming Discipline**; F.9 for actual semantic relations and their separate bounded-use claims.
 **Coordinates with.** F.4 **SystemRoleKindDescription**; F.6 **SystemRoleAssignment and Performed-Work Attribution Check**; direct Part C patterns for the compared values; C.16 for characteristics; A.6.9 when umbrella sameness wording must be repaired before a relation is asserted.
 **Aliases (informative).** *Concept-Set table*; *comparison grid*; *Giants’ table*.

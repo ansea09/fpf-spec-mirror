@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.RP.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
-line_start: 83020
-line_end: 83198
+line_start: 82948
+line_end: 83126
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -194,7 +194,7 @@ Reopen when a relied-on source contribution, its support or its applicability ch
 - C.39.MF or an equivalent result supplies a one-Method, plurality, or Method-relation focus and its statuses. C.39.RP may also start from another receiving use that meets the same conditions.
 - `A.3.1` governs Method identity; `A.3.2` governs MethodDescriptions. Repertoire inclusion changes neither.
 - `G.2` supplies a broader refreshable SoTA pack only when that heavier source result is needed; `G.11` governs an applicable currentness question without requiring refresh Work or a waiver for continued applicability; `G.5` supplies governed family or selected-set results when its entry conditions hold.
-- A.3.1.DR may recover decision-relevant entries from a heavyweight package. RMP.10 may supply scoped candidate accounts. Use either only when its result is needed.
+- A.3.1.DR may recover decision-relevant entries from a heavyweight package. An applicable research Method may supply scoped candidate accounts. Use either only when its result is needed.
 - C.39.RQ may use the repertoire to expose situational criteria; A.3.1.QM receives identified Methods and candidate accounts with their source limits; C.32.MWA.PP receives only named structures and relation questions.
 - B.1.5.CM may cite repertoire contributions for a proposed-whole account, but citations create neither a whole Method nor obtaining composition.
 

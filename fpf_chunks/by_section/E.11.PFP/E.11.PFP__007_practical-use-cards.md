@@ -6,12 +6,12 @@ section_id: "E.11.PFP:section-006"
 section_title: "Practical-Use Cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__007_practical-use-cards.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:section-006 — Practical-Use Cards"
-line_start: 102490
-line_end: 102601
+line_start: 102492
+line_end: 102603
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -128,7 +128,7 @@ When a condition governs a whole combination of Methods, give it one public stat
 
 Also explain the relevant Method-composition structure and how its constituents are enacted in ongoing Work. A selected action can constitute part of a larger work that is being performed at that same moment. Give a representative example in which a condition of the whole changes the constituent action; show where a missing intermediate capability or incompatible resource demand prevents the combination. B.1.5.EW recovers that connection and B.1.5.RS examines a constituent replacement. A DPF can describe only some of the needed constituent–whole connections: state the preparation, support and coordinating performance needed beyond its own descriptions. Reuse clear existing explanations and stop decomposition when further detail cannot change the use. Genuine earlier-result dependencies remain part of the account.
 
-Publish the connected account as `<framework name> Architectural Reference`, the framework-level application of E.4's architectural-reference function. An all-in-one publication embeds the unit in its front matter; a multi-file framework gives it a discoverable place in that framework's assembly. Readme explains how to enter it. E.11.DSG governs the account and its useful question-led entries; this profile governs the framework's form. A unit whose declared address key is `Preface` can carry this function without making that key the function's name. The title, unit key, file and edition identity remain separate choices.
+Publish the connected account as `<framework name> Architectural Reference`, the framework-level application of E.4's architectural-reference function. An all-in-one publication embeds the unit in its front matter; a multi-file framework gives it a discoverable place in that framework's assembly. Readme explains how to enter it. E.11.DSG governs the account and its useful question-led entries; this profile governs the framework's form. Use `Reference` as this unit's address key, identifying its explanatory function. The qualified title, unit key, file and edition identity remain distinct; a preface with a different introductory function does not replace the architectural account.
 
 At a wider language-assembly level, the corresponding Suite or FPF Library Architectural Reference explains the connections added there and returns to the framework's account. A separate source host, downloadable copy or site page is not another assembly level. Preserve enough rationale, source synthesis, alternatives, and worked detail for the intended reader to understand and adapt the language without its development intake or DRR. An exact inherited answer can satisfy a question; merely naming a pattern or listing source titles cannot supply missing explanation.
 
@@ -140,7 +140,7 @@ A pattern can participate in several profiles, and a profile can draw on several
 
 ##### E.11.PFP:4.7.1 - Make an architectural-reference section recognizable on its own
 
-A reader entering through search, a quotation, a link or a retrieved excerpt may see a heading without its parents. Every heading that introduces architectural-reference content therefore carries the framework's public reference code, the product-declared publication-unit key, and its complete ordinal section path:
+A reader entering through search, a quotation, a link or a retrieved excerpt may see a heading without its parents. Every heading that introduces architectural-reference content therefore carries the framework's public reference code, the publication-unit key `Reference`, and its complete ordinal section path:
 
 ```text
-## <FrameworkCode>.<UnitKey>:<n> - <Title>
+## <FrameworkCode>.Reference:<n> - <Title>

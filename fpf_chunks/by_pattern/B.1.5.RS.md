@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.RS.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
-line_start: 43204
-line_end: 43370
+line_start: 43106
+line_end: 43272
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -24,7 +24,7 @@ keywords:
 ## B.1.5.RS - Evaluate a Constituent Method Replacement in Its Encompassing Uses
 
 > **Type:** Method pattern
-> **Status:** Candidate
+> **Status:** Stable
 
 ### B.1.5.RS:1 - Problem frame
 

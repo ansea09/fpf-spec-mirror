@@ -6,12 +6,12 @@ section_id: "C.41:0"
 section_title: "Use and combine the checklist Methods"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__002_use-and-combine-the-checklist-methods.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:0 — Use and combine the checklist Methods"
-line_start: 87849
-line_end: 87913
+line_start: 87777
+line_end: 87841
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -56,7 +56,7 @@ Checklist questions select conditions within structures of transformations and s
 
 During a workshop preparation, testing a projected example can contribute both to checking the display and to preparing the session. The whole matters at that moment: a technically sharp image of an obsolete example does not serve the exercise. The relevant [FPF B.1.5](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15---gamma_method---order-sensitive-method-composition-and-work-enactment) Method relations and [A.15.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a1510---resume-interrupted-work) changed-premise relations help identify what the combined work consumes. A supplied projector enables this work; its availability alone does not establish a performed part of the session preparation.
 
-A missing intermediate ability can stop the combination. Someone able to count cards may lack the judgement needed to select instructional examples. The next contribution is then help with the examples, not another count. The three people may also need the same room at incompatible times. [OPS.4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants) helps make that conflict recoverable across participants. Selecting a feasible resource arrangement is additional coordination work; filling three lists cannot resolve it.
+A missing intermediate ability can stop the combination. Someone able to count cards may lack the judgement needed to select instructional examples. The next contribution is then help with the examples, not another count. The three people may also need the same room at incompatible times. Keeping a shared operating account helps make that conflict recoverable across participants. Selecting a feasible resource arrangement is additional coordination work; filling three lists cannot resolve it.
 
 For a fuller account of change and subject states, return to [FPF A.3.3](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a33---udynamics-state-space-and-transition-law-episteme), [A.3.4](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a34---utransformation-actual-bounded-change-under-conditions) and [A.22](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a22---structure-and-structural-views-struct-cal). These foundations help describe the structures used here; a constructive composition of transformations needs its own justified account. Context-state descriptions in E.18 concern the bindings and locality they describe, rather than every state of a checklist subject.
 

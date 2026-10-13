@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.5.3.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.5.3 — Unidirectional Dependency between FPF Families"
-line_start: 94638
-line_end: 94717
+line_start: 94580
+line_end: 94661
 dependencies:
   - "E.4"
   - "E.5"
@@ -18,6 +18,8 @@ keywords:
 ---
 
 ## E.5.3 - Unidirectional Dependency between FPF Families
+
+> **Status:** Stable
 
 ### E.5.3:1 - Problem frame
 FPF separates artefacts into stable **Conceptual Core**, executable

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.2.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.29.2 — Computational Formulation"
-line_start: 70342
-line_end: 70733
+line_start: 70270
+line_end: 70661
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -299,7 +299,7 @@ For a larger differential-algebraic model, obtain the needed consistent-initiali
 
 **State and procedure.** Retain two integer counters: observations read j and ones observed s, initially zero. For each observation x, set s = s+x and j = j+1. After the selected n observations, return p_hat = s/n. The invariant is that s counts the ones in the first j observations. Thus the counters obtain the sample mean without retaining every observation.
 
-**Choose n from the guarantee.** For a binary observation, E[X]=p and Var(X)=p*(1-p) ≤ 1/4. Independence gives E[p_hat]=p and Var(p_hat) ≤ 1/(4*n). On the event |p_hat-p| ≥ epsilon, the squared error is at least epsilon². Therefore
+**Choose n from the guarantee.** For a binary observation, E[X]=p and Var(X)=p\*(1-p) ≤ 1/4. Independence gives E[p_hat]=p and Var(p_hat) ≤ 1/(4\*n). On the event |p_hat-p| ≥ epsilon, the squared error is at least epsilon². Therefore
 
 ~~~text
 epsilon² * P(|p_hat-p| ≥ epsilon)

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.DPF.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
-line_start: 92698
-line_end: 93347
+line_start: 92630
+line_end: 93279
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -286,7 +286,7 @@ For an all-in-one DPF publication carrier, assemble the content in a reproducibl
 2. Short public edition line directly under the title: name the stable public edition designation and a public edition-record locator. Add a dependency, language, access, product-declared maintenance status, support window, currentness window, or other short cue there only when the product-specific publication rule names the reader decision or action it changes. Do not create a separate edition H1 or put a machine identity block, source digest, source path, or build marker before the ToC; keep detailed edition and relation records after the pattern bodies or in maintainer evidence.
 3. Table of contents: place one search-oriented overview before the body collection and use `E.11.PFP`'s five-position pattern-row profile. Every pattern row exposes its PatternID and title and gives at least one recognizable working-question cue in `Keywords & Search Queries`. State the DPF's declared reference code and local-locator form where a reader can disambiguate citations. Keep the displayed `§` position separate from PatternID; the current row order may be non-ascending by PatternID but must match the body order. Use `Status` and `Dependencies` for values that can change the reader's choice; do not copy first move, result, and boundary into additional mini-method columns. Pattern bodies remain the main language of use; support maps and any relation or edition records required by current maintenance remain reachable without becoming a universal first inspection sequence or prescribed use order.
 4. Framework Readme: for the intended reader, present recognizable first-entry situations and practical questions, the first useful result or blocker, the direct pattern or small plausible set, the ordinary stop or wrong-turn return, and any non-use boundary admitted by `F.19`'s grounded-contribution test. State briefly which selected domain or local structures this carrier exposes.
-5. Framework Architectural Reference: the full public account required by `E.11.PFP:4.7` and `E.11.DSG`, embedded here in the all-in-one carrier. Explain the whole's purpose, constituent Methods and their connections, shared conditions, architectural reasons, source synthesis, serious alternatives, limits and worked use, including the structure families the carrier foregrounds, coarsens, defers or returns to sources and pattern bodies. Give this one account the qualified public title; an established `Preface` section key can still address it. A separate preface or independently managed account is not required, and readers can enter a known pattern directly.
+5. Framework Architectural Reference: the full public account required by `E.11.PFP:4.7` and `E.11.DSG`, embedded here in the all-in-one carrier. Explain the whole's purpose, constituent Methods and their connections, shared conditions, architectural reasons, source synthesis, serious alternatives, limits and worked use, including the structure families the carrier foregrounds, coarsens, defers or returns to sources and pattern bodies. Give this one account the qualified public title and the `Reference` section key defined by E.11.PFP:4.7.1. A separate preface or independently managed account is not required, and readers can enter a known pattern directly.
 6. Package carrier structure-account: intended reader and use, selected source-structure denominator, recurring problem-situation structures, reusable solution-move structures, captured structure, deliberately coarsened, abstracted, omitted, or lost structure, source-return condition, and quality or epiplexity route. Integrate this explanation into the architectural reference, with a short Readme cue where it changes first entry; it does not require a second account.
 7. Package boundary and subject-pattern routing: Core subject patterns reused, local terms bounded, and source, evidence, assurance, publication, and refresh exits named.
 8. Pattern bodies: each drafted through `E.8`, with its PatternID and title at H2, canonical sections at H3, and deeper sections retaining their relative levels; each carries recognition text, positive solution, worked cases, local anti-patterns, SoTA-Echoing, conformance checks, and relations, and each is evaluated or explicitly marked as a seed under `E.21` before the package is claimed for public, teaching, enterprise, or reliance-bearing use.
@@ -306,12 +306,12 @@ Starter evaluation characteristics for a principle-framework improvement loop:
 | Characteristic question | Subject pattern to use |
 | --- | --- |
 | Discoverability | Can the intended reader find the first useful entry and subject pattern? Use `E.11`, then evaluate the pattern or projection through the applicable evaluation pattern. |
-| Source fidelity | Are adopted and rejected source payloads recoverable in source packs, solutions, boundaries, and examples? Use `G.2`, `C.33`, `C.34`, and pattern-quality evaluation. |
+| Source fidelity | Are adopted and rejected source payloads recoverable through the source route actually used and in the receiving solutions, boundaries, and examples? Return to that direct source use, `F.1` selection, `F.0.2` comparison, or `G.2` pack. Use `C.33` for a needed structure-recovery result and `C.34` for a needed preservation comparison, then use the results in the affected pattern-quality judgement. |
 | Ontology clarity | Are Core, domain, local, publication, source, decision, relation, quality, and refresh claims kept as different kinds? Use `E.10`, `F.18`, `F.19`, and the pattern that defines or constrains the claim. |
 | Relation typedness | Are pattern-use, specialization, dependency, publication, preservation, quality, and source-use relations separated? Use `E.4.PFR`. |
 | Compatibility impact | Can maintainers see which structures or claims break and which migrations become current when FPF, domain, or local editions, or the Core claims used, change? Use `E.4.PFR`, `E.5.3`, and `G.11`. |
 | Refreshability | Are source decay, edition pins, local-use telemetry, and supersession conditions actionable? Use `G.11`. |
-| Package navigability | Can the selected pattern set, direct relation assertions, any current relation or edition records, source packs, decision records, quality evidence, and practical-use publication or access-facing carrier and any access route be found without treating the package as runtime machinery? Use `G.5`, `E.4.PFR`, and `E.11`. |
+| Package navigability | Can the selected pattern set, direct relation assertions, any current relation or edition records, source packs, decision records, quality evidence, and practical-use publication or access-facing carrier and any access route be found without treating the package as runtime machinery? Use `E.11` to repair discovery of already adequate contents. Use `E.4.PFR` when the missing contribution is a relation or edition account, and `G.5` only when the use needs a registry, dispatch or selected-set result; return that result to the package use. |
 | Adoption telemetry | Are repeated reader errors, skipped records, stale sources, and local-use failures made an explicit refresh or improvement trigger? Use `G.11` and `E.23`. |
 | Didactic first use | Can a first-time domain or local author write the first useful output without prior FPF developer knowledge? Use `E.11`, `E.12`, `E.21`, and `E.23`. |
 
@@ -351,7 +351,7 @@ The local locator may use the numeric or mnemonic segments allowed by `E.8`. Pre
 
 Keep current publication order separate. The ToC and body collection use the same Parts and the same within-Part order, while a `§` or position field shows that order separately from PatternID. Non-ascending PatternIDs are valid. State dependencies, Method relations, use order, and replacement relations in their own claims; do not infer them from identifiers, adjacency, Parts, or authoring work packages.
 
-To refer to a pattern, the PatternID is enough when the surrounding text identifies the DPF. Otherwise, name the framework together with the PatternID. A citation intended to select the body published in one edition also names that framework edition.
+To refer to a pattern, retain its complete PatternID and enough context to identify the DPF. The full address may already identify that framework within the selected publication set; add a framework name only when needed. A citation intended to select the body published in one edition also names that framework edition. For a reference that must travel beyond its present context, apply `E.8` H-10 and `E.11.PFP:4.2`: preserve the complete PatternID or SectionRef and restore any identifying context that will be lost. Declaring the existing DPF code as a document qualifier does not change its PatternIDs or make that code globally unique.
 
 #### E.4.DPF:4.1 - Select the current first result
 

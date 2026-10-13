@@ -6,12 +6,12 @@ section_id: "A.19:13"
 section_title: "Relations - Ontic Relations and Consumer Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__014_relations-ontic-relations-and-consumer-boundary.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:13 — Relations - Ontic Relations and Consumer Boundary"
-line_start: 35239
-line_end: 35248
+line_start: 35137
+line_end: 35146
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,5 +57,5 @@ keywords:
 
 #### A.19:12.1 - C.29 mathematical-lens use relation
 
-> If topology, order, distance, product, subspace, or embedding is only a `CharacteristicSpace` overlay or operation, stay in A.19. If that mathematical structure is used to explain, predict, assure, compare across reference schemes or planes, relate independently governed values, or carry a reusable explanation, add the applicable C.29 lens-use result. C.29 does not replace the A.19 space or predicate declaration.
+> If topology, order, distance, product, subspace, or embedding is only a `CharacteristicSpace` overlay or operation, stay in A.19. When using that mathematical structure to explain, predict, assure, compare across reference schemes or planes, relate independently governed values, or carry a reusable explanation leaves a representation or transfer question unresolved, use C.29 to establish the needed construction, correspondence and limits for that inference. An adequate local equation, algorithm or domain model needs no separate C.29 result when no such question remains. C.29 does not replace the A.19 space or predicate declaration.
 

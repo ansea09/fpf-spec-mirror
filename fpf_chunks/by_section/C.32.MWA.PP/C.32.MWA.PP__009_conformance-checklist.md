@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__009_conformance-checklist.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:7 — Conformance Checklist"
-line_start: 79060
-line_end: 79082
+line_start: 78988
+line_end: 79010
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"

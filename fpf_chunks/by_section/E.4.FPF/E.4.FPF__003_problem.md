@@ -6,12 +6,12 @@ section_id: "E.4.FPF:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__003_problem.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:2 — Problem"
-line_start: 92018
-line_end: 92031
+line_start: 91950
+line_end: 91963
 dependencies:
   - "C.33"
   - "C.34"
@@ -43,7 +43,7 @@ After DPF and local-framework publication forms become explicit, FPF itself can 
 
 That creates several failures:
 
-- an all-in-one file or site, one of its Readme, Preface, ToC, pattern-body, card, or first-entry units, a skill-pack bundle, or an MCP route is mistaken for the FPF edition itself;
+- an all-in-one file or site, one of its Readme, Architectural Reference, ToC, pattern-body, card, or first-entry units, a skill-pack bundle, or an MCP route is mistaken for the FPF edition itself;
 - FPF is described as one more DPF, losing the first-principles and transdisciplinary burden that makes DPFs possible;
 - whole-FPF quality is checked by local pattern scores, landing status, or DPF package scales instead of `E.2.DA`;
 - adoption units, forms, or access surfaces grow user-facing explanations that quietly become shadow authority beside subject patterns;

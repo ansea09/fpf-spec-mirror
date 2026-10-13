@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.5.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.5 — Open-Ended FPF Kernel and Extension Layering"
-line_start: 13667
-line_end: 13716
+line_start: 13555
+line_end: 13606
 dependencies:
 keywords:
   - "FPF architecture"
@@ -23,7 +23,9 @@ keywords:
 
 ## A.5 - Open-Ended FPF Kernel and Extension Layering
 
-**Status.** Informative. This section defines no dedicated “module” subsystem. Enforceable boundary discipline lives in **A.6.0 `U.Signature`** and **A.6.1 `U.Mechanism`**, with guard‑rails in **E.5.3** (Unidirectional Dependency) and **E.10** (LEX‑BUNDLE stratification).
+**Normativity:** Informative. This section defines no dedicated “module” subsystem. Enforceable boundary discipline lives in **A.6.0 `U.Signature`** and **A.6.1 `U.Mechanism`**, with guard‑rails in **E.5.3** (Unidirectional Dependency) and **E.10** (LEX‑BUNDLE stratification).
+
+> **Status:** Stable
 
 ### A.5:1 - Problem frame
 

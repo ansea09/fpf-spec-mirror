@@ -6,12 +6,12 @@ section_id: "C.36.MC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__011_consequences.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:9 — Consequences"
-line_start: 89501
-line_end: 89508
+line_start: 89429
+line_end: 89436
 dependencies:
   - "A.15.1"
   - "A.3.1"

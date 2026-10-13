@@ -6,12 +6,12 @@ section_id: "A.2.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__001_intro.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:intro — Intro"
-line_start: 7486
-line_end: 7491
+line_start: 7370
+line_end: 7375
 dependencies:
   - "A.2"
   - "A.2.1"

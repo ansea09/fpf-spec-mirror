@@ -6,12 +6,12 @@ section_id: "C.41.SR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__006_archetypal-grounding.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:5 — Archetypal Grounding"
-line_start: 88595
-line_end: 88640
+line_start: 88523
+line_end: 88568
 dependencies:
   - "A.10"
   - "B.1.5"
@@ -59,7 +59,7 @@ The worked case below connects these moves to the room, materials and workshop. 
 
 **Local answers and simultaneous contribution.** Through C.41.UA, the technician establishes equipment conditions and the facilitator compares projected and physical examples. The actual projection check contributes to equipment preparation and preparation of the workshop at the same time. Its relation to the whole changes what is checked: a test image alone cannot establish the actual example's use.
 
-**Reconciliation.** C.41.SR connects the local answers to workshop W. A whole-session account includes the actual materials and arrangement, not a count of green local lists. If the facilitator and technician need the room at incompatible times, [OPS.4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants) makes the conflicting claims visible to the people who can select a feasible arrangement before those contributions combine.
+**Reconciliation.** C.41.SR connects the local answers to workshop W. A whole-session account includes the actual materials and arrangement, not a count of green local lists. If the facilitator and technician need the room at incompatible times, a shared operating account makes the conflicting claims visible to the people who can select a feasible arrangement before those contributions combine.
 
 **Changed premise and continuation.** Moving W from room A to B reopens the room-dependent observations. Revising the example reopens its content and display questions. Known unaffected card facts remain usable. An absent technician assignment returns to coordination; an assigned technician with an unknown projection result returns to observation. After an interruption, the shared account lets participants recover these different next moves.
 

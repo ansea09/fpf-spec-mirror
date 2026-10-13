@@ -6,12 +6,12 @@ section_id: "B.5.SD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__013_relations.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "B.5.SD — Construct a Useful Answer through Substantive Discussion"
   - "B.5.SD:12 — Relations"
-line_start: 51157
-line_end: 51169
+line_start: 51069
+line_end: 51081
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -28,7 +28,7 @@ LDR.1 obtains capable participants and the conditions for their contributions. L
 
 FPF [C.39](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39---find-and-develop-a-way-to-obtain-a-result) supplies the general development of a way to obtain a result when an operation or connection is missing. C.11.DUA appraises the further inquiry and its receiving value. C.28 supplies causal reasoning when the intended conclusion is causal; it is not triggered by every explanatory discussion.
 
-The direct domain framework supplies the actual subject method. Engineering configuration, strategy, human learning and corporate decisions retain their different methods and acceptance conditions. C.41.OF may supply a useful execution aid, but a checklist is neither the reasoning nor the resulting explanation.
+The actual subject practice supplies the needed Method and its applicability conditions. Engineering configuration, strategy, human learning and corporate decisions retain their different methods and acceptance conditions. C.41.OF may supply a useful execution aid, but a checklist is neither the reasoning nor the resulting explanation.
 
 When this work is a decision-support inquiry, PSDA.12 recovers participants and attributed concerns and PSDA.13 establishes professional inquiry and dissent conditions. Other practices retain their own participation and authority requirements. PSDA.1–9 supply formulation, model and decision-analysis constructions when their question is live. A sound analytical answer and consent to use or act on it remain separate results.
 

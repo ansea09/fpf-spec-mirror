@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.DSG.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.11.DSG — Architectural Reference"
-line_start: 102734
-line_end: 102989
+line_start: 102736
+line_end: 102993
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -74,6 +74,8 @@ These failures confuse different structures. A reader may treat all cited discip
 
 Develop the account of the named whole under section 4.1, preserving the explanations needed to understand and adapt it. For a problem-led entry, write the practical answer first. State the recognizable situation and question, then say what each returned item actually is and what it contributes: an available result of its own kind and supplying product, a MethodDescription used to select or perform its Method, direct-source evidence for a named claim or decision, or a named unavailable result with its blocker and retry. State maintenance only when it changes the answer. End the entry with the ordinary stop or return. Add identity, relation, evidence, warning, or reliance detail only when it changes the answer's truth, the reader's choice, or a named later use.
 
+When an account cites a basis or directs readers to another contribution, use E.8:4.2.2.2 to make the purpose clear in ordinary prose. Preserve the difference among an explanation already given, an available result, material to apply, and a contribution still unavailable. This distinction does not make every relation between frameworks an application instruction or require a label beside every address.
+
 #### E.11.DSG:4.1 - Identify the explained whole and the account's boundary
 
 Start from the language assembly selected under E.4 and E.4.PFAD. Identify what the whole enables and which constituents and connections it contains. For a Suite, recover its composite discipline under C.20, constituent DPFs, whole-forming connections and outside suppliers. For FPF Library, recover the relations among Core, Suites and standalone frameworks without inferring disciplinary parthood from their use or co-publication. A useful outside contribution remains outside unless its separate part relation is established.
@@ -88,7 +90,7 @@ Establish publication, availability, currentness and maintenance only to the ext
 
 Explain the working problems served by the whole, the contributions of its constituents and the connections that make their use coherent. State the shared assumptions, combination conditions and limitations that are not recoverable from one constituent alone. Include the alternatives and tradeoffs that help a reader choose or adapt the arrangement, the source synthesis and SoTA grounds behind it, and representative cases in which a whole condition changes the next action. Use the substantive questions in E.11.PFP:4.7 for a framework account; at another assembly level retain the questions that its promised use actually needs. A short entry and exact constituent returns can spare a familiar reader repetition, but a locator does not supply an unwritten shared explanation.
 
-In a one-file framework, embed the architectural reference as a named unit. In a multi-file language, provide the account at that language's assembly level and make the constituent accounts reachable. For example, an Engineering Suite Architectural Reference explains the Suite's composition; the FPF Library Architectural Reference explains its relations to other Suites and standalone DPFs. Neither source-file boundaries nor generated website pages create additional explained wholes. Use the full qualified title at the unit's entrance and an unambiguous shorter mention within it; a generic heading `Reference` alone does not identify the subject.
+Choose the receiver from the named whole the account explains, then choose its carrier. In a one-file framework, embed that framework's architectural reference as a named unit. In a multi-file language, provide the account at that language's assembly level and make the constituent accounts reachable. For example, an Engineering Suite Architectural Reference explains the Suite's composition; the FPF Library Architectural Reference explains its relations to other Suites and standalone DPFs. Neither source-file boundaries nor generated website pages create additional explained wholes. Use the full qualified title at the unit's entrance and an unambiguous shorter mention within it; a generic heading `Reference` alone does not identify the subject.
 
 Keep the account's **referential index** recoverable: who speaks, to whom, about which language, and for which reader action. In an Architectural Reference, its author explains the named language to its users. They need to understand how the arrangement works, what it enables, how to use its contributions and why it was chosen. Resolve wording such as 'we', 'you', 'here' and 'this framework' from that position. Identify the reading purpose, not a person's profession: a framework developer selecting a Method is a user in that passage; when the explained framework itself teaches framework development, its developers are its practitioner users.
 

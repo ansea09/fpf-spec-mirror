@@ -6,12 +6,12 @@ section_id: "C.40.OD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__003_problem.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:2 — Problem"
-line_start: 87210
-line_end: 87217
+line_start: 87138
+line_end: 87145
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"

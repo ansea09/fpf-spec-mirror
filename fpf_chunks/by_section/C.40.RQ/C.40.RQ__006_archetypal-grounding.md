@@ -6,12 +6,12 @@ section_id: "C.40.RQ:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__006_archetypal-grounding.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:5 — Archetypal Grounding"
-line_start: 87074
-line_end: 87121
+line_start: 87002
+line_end: 87049
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -36,7 +36,7 @@ The data steward supplies a qualified change: external processing of class B is 
 | Retrieval direction using A and B externally | The broad configuration no longer meets its permission condition. Retire that route for this use. |
 | Retrieval direction using A only | A revised conditional candidate. The old whole-workload estimate does not qualify class-A performance, maintenance, verification burden, or the incremental transition from actual `S1`. |
 | Index as a stepping stone to broad retrieval | Reconsider that enabling claim. The independent manual contribution survives even if the broad retrieval connection is retired. |
-| Earlier advice to consider the broad evaluation probe | Return the changed permission and affected scope to PSDA.15; recover any actual probe decision separately. |
+| Earlier advice to consider the broad evaluation probe | Return the changed permission and affected scope to the responsible advice owner for follow-up; recover any actual probe decision separately. |
 
 This result can finish with the actual manual arrangement preserved, the prohibited broad route retired, and the class-A direction conditional on its unqualified performance and transition. A class-A evaluation or finite transition result becomes a request to the relevant AI or engineering practice only when its attainable contribution warrants the whole burden relative to continuing from `S1`. C.40.JF qualifies the revised joint conditions when that question is pursued.
 
@@ -52,7 +52,7 @@ The known opportunity account used the independent-performance premise to qualif
 
 Several other possible receivers are not fully known. Under A.10.1, the responsible practitioner bounds discovery to the current opportunity inquiry's opportunity notes and issued advice, excluding unrelated historical projects. Source-oriented search finds the cited report; receiver-oriented inspection also finds an uncited independent-performance assumption.
 
-One note merely lists the report as background. Another uses its corrected claim in a path. A private recipient-held copy cannot be inspected. The outcomes differ: the background mention supplies no affected use; the path needs its HCD and opportunity qualification; the private copy remains a named coverage gap, not an unaffected result.
+One note merely lists the report as background. Another uses its corrected claim in a path. A private recipient-held copy cannot be inspected. The outcomes differ: the background mention supplies no affected use; the path needs its human-capability and opportunity qualification; the private copy remains a named coverage gap, not an unaffected result.
 
 The direct opportunity return can finish with the locally blocked path, supported-review result and unresolved recipient-copy question. Subject qualification is still required before asserting a restored independent-performance claim. If an adviser needs a common overview, it cites these supported results and groups the irrelevant background mentions; no separate exclusion note is needed. Neither return claims complete no-impact coverage.
 
@@ -60,7 +60,7 @@ The direct opportunity return can finish with the locally blocked path, supporte
 
 In a constructed organization engagement, the consultant discovers a material provider interest that was absent from the agreed service basis. The existing technical comparison was independently produced and remains qualified for its stated configuration and horizon.
 
-PSDA.19 now reopens whether this adviser can provide the requested recommendation and on what terms. The professional result may require narrowed scope, an independent recommender, or referral. That service outcome does not by itself refute the technical comparison. PSDA.15 receives the affected advice-use question if advice was already returned.
+The applicable professional engagement Method now reopens whether this adviser can provide the requested recommendation and on what terms. The professional result may require narrowed scope, an independent recommender, or referral. That service outcome does not by itself refute the technical comparison. The applicable advice-follow-up Method receives the affected advice-use question if advice was already returned.
 
 At the planned three-month follow-up, no capable observer or permitted source is available. That gap supplies no evidence that conditions stayed favourable. If the advice depended on that observation, return the missing observation and its reliance effect now. Existing professional contact or protection duties still follow their actual basis.
 

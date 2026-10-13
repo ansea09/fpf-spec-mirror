@@ -6,12 +6,12 @@ section_id: "A.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__001_intro.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:intro — Intro"
-line_start: 34540
-line_end: 34541
+line_start: 34434
+line_end: 34437
 dependencies:
   - "A.17"
   - "A.18"
@@ -40,4 +40,6 @@ keywords:
 ---
 
 ## A.17 - Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured
+
+> **Status:** Stable
 

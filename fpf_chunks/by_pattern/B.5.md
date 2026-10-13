@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
-line_start: 46581
-line_end: 46907
+line_start: 46487
+line_end: 46813
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -24,7 +24,7 @@ keywords:
 ## B.5 - Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)
 
 > **Type:** Method-description pattern
-> **Status:** Candidate
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 ### B.5:1 - Problem frame

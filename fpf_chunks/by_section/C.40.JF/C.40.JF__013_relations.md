@@ -6,12 +6,12 @@ section_id: "C.40.JF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__013_relations.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:12 — Relations"
-line_start: 86731
-line_end: 86740
+line_start: 86659
+line_end: 86668
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -30,6 +30,6 @@ keywords:
 - **Uses C.11.CRC:** finite configuration-relative contribution, complete coordinates, constraints, interactions, transition burden, reversibility, and option effects.
 - **Returns to holder and domain practices:** capability, access, support, transfer, feasibility, safety, authority, allocation, and realization results.
 - **Supplies C.40.OP:** bounded reachability, conditional or rejected combinations, and the exact gaps that change retained paths.
-- **Supplies PSDA.19 and Decision Design:** qualified premises or localized blockers for a bounded advising engagement and its decision-support question.
+- **Supplies bounded advising and decision support:** qualified premises or localized blockers for a bounded advising engagement and its decision-support question.
 - **Uses C.40.RQ:** affected requalification when a relied-on condition changes.
 

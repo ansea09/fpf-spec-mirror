@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.SD.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "B.5.SD — Construct a Useful Answer through Substantive Discussion"
-line_start: 50975
-line_end: 51178
+line_start: 50887
+line_end: 51090
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -71,7 +71,7 @@ Arrange integration as actual work. Someone must connect the contributions into 
 
 Keep necessary roles distinct. A process facilitator can preserve questions, participation and agreement on how to proceed. A subject integrator constructs the reasoning. A decision maker accepts a course of action under the applicable authority. One performer can hold compatible responsibilities, but do not silently grant subject authority from control of the discussion.
 
-When the discussion forms part of a decision-support inquiry, obtain PSDA.12 and PSDA.13's results for participation, representation, consent, usable channels, confidentiality and faithful return under the actual engagement conditions. Their facilitation Method can itself supply adequate subject integration when the performer is capable. In other practices, obtain the required participation and authority conditions from their actual owners. A joint mathematical proof, for example, can require capable integration and protected participation without a decision-support engagement. The construction here remains the warranted connection between the claims and the receiving answer; it does not supply professional permission or replace protected participation.
+When the discussion forms part of a decision-support inquiry, obtain the actual engagement conditions for participation, representation, consent, usable channels, confidentiality and faithful return. Establish whose concerns and contributions can be represented, what participants have accepted, which disclosures are permitted and where the result must return. A facilitation Method can itself supply adequate subject integration when the performer is capable. In other practices, obtain the required participation and authority conditions from their actual owners. A joint mathematical proof, for example, can require capable integration and protected participation without a decision-support engagement. The construction here remains the warranted connection between the claims and the receiving answer; it does not supply professional permission or replace protected participation.
 
 
 #### B.5.SD:4.3 - Make the proposed reasoning inspectable
@@ -209,7 +209,7 @@ LDR.1 obtains capable participants and the conditions for their contributions. L
 
 FPF [C.39](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39---find-and-develop-a-way-to-obtain-a-result) supplies the general development of a way to obtain a result when an operation or connection is missing. C.11.DUA appraises the further inquiry and its receiving value. C.28 supplies causal reasoning when the intended conclusion is causal; it is not triggered by every explanatory discussion.
 
-The direct domain framework supplies the actual subject method. Engineering configuration, strategy, human learning and corporate decisions retain their different methods and acceptance conditions. C.41.OF may supply a useful execution aid, but a checklist is neither the reasoning nor the resulting explanation.
+The actual subject practice supplies the needed Method and its applicability conditions. Engineering configuration, strategy, human learning and corporate decisions retain their different methods and acceptance conditions. C.41.OF may supply a useful execution aid, but a checklist is neither the reasoning nor the resulting explanation.
 
 When this work is a decision-support inquiry, PSDA.12 recovers participants and attributed concerns and PSDA.13 establishes professional inquiry and dissent conditions. Other practices retain their own participation and authority requirements. PSDA.1–9 supply formulation, model and decision-analysis constructions when their question is live. A sound analytical answer and consent to use or act on it remain separate results.
 

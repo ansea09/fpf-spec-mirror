@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.OCN.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
-line_start: 85014
-line_end: 85319
+line_start: 84942
+line_end: 85247
 dependencies:
   - "A.15.9"
   - "C.11"
@@ -30,7 +30,7 @@ Use this Method when an agent or arrangement of capable contributors is explorin
 
 The subject is a useful possible contribution and the conditions under which it could become obtainable. This Method governs how a possible direction is made meaningful and conditionally reachable. It does not govern another person's recommendation, a development intervention, strategic commitment, procurement or the eventual choice.
 
-A separate adviser is not required. A person exploring future engineering Work can begin here and stop at an opportunity or exact next question. If another performer later gives advice to a named recipient, PSDA.19 supplies the engagement and professional conditions; the actual decision rule and authority govern the later choice.
+A separate adviser is not required. A person exploring future engineering Work can begin here and stop at an opportunity or exact next question. If another performer later gives advice to a named recipient, the applicable advising Method supplies the engagement and professional conditions; the actual decision rule and authority govern the later choice.
 
 Do not use this Method to reopen an adequate option set merely because more ideas could be generated. Use the direct choice or comparison Method when the worthwhile result and live alternatives are already sufficient. Use a qualified specialist Method directly when it owns the whole question. An evolutionary account of a population without a recipient is not a development-direction choice; a researcher's intervention question needs its own science and authority basis.
 
@@ -91,7 +91,7 @@ The independently usable opportunity Methods supply the missing contributions: C
 
 Describe what the holder might contribute, for whom, in what situation and over what horizon. Distinguish the receiver's useful result from the holder's desired learning, status, product or technology use. Ask what would remain unsatisfactory if nothing changed, and whether the receiver actually cares about that difference.
 
-Keep alternative formulations when they materially change the opportunity. One inquiry may concern recovering an acceptance premise; another may concern supporting shift handoffs. Those are not merely two implementations of one already accepted result. Use PSDA.1 when competing formulations require substantive problem-structuring work.
+Keep alternative formulations when they materially change the opportunity. One inquiry may concern recovering an acceptance premise; another may concern supporting shift handoffs. Those are not merely two implementations of one already accepted result. Use C.40.PC to develop the worthwhile problem and proposed contribution; retain the material formulation difference and obtain any missing subject contribution before treating a premise as established.
 
 Start from a qualified demand or problem account when one exists. If the reason to explore is only a supplier's enthusiasm, preserve it as a search lead, not as an established need. If the receiver says the proposed result is unnecessary, revise the contribution or reject that lead.
 
@@ -137,7 +137,7 @@ Build materially different possibilities for addressing the problem or realizing
 
 A direction should say more than “train,” “buy,” “automate” or “hire.” State the prospective contribution, the holder change if any, necessary access and support, protected conditions and the transition that would have to become possible. One option may develop a capability; another may make an existing capability usable through better access; a third may obtain a qualified external contribution.
 
-Use PSDA.5 for the live alternative-construction question. Use direct HCD, OCE, AI, target-domain and other results for what the proposed changes would require. After one result/use/acceptance premise is stable, OCE.8 can compare whole organizational obtaining arrangements. Before that point, forcing every lead into the same-result comparison would conceal the still-open opportunity question.
+Use C.40.DC to construct materially different directions and their support configurations. Obtain qualified holder, organization, AI and other subject results through A.15.9 for what the proposed changes would require. After one result/use/acceptance premise is stable, an applicable organizational Method can compare whole organizational obtaining arrangements. Before that point, forcing every lead into the same-result comparison would conceal the still-open opportunity question.
 
 Retain the obtaining baseline, a smaller repair, a staged direction or no change when they genuinely answer the inquiry. Do not count a fragment as a complete direction merely to populate a table, and do not discard a potentially useful contribution only because its supporting arrangement is not yet designed.
 
@@ -216,7 +216,7 @@ Assurance asks whether each value and reachability claim follows from sources qu
 | Prepare a bounded opportunity inquiry | Applicability, working distinctions, search/construction moves, inputs, stops and result content. | Actual performer, permissions, resources and any dated WorkPlan. |
 | Conduct or explain opportunity construction | The reusable action, dependency qualification and honest return branches. | Actual Work, participant and source-use relations; observations and any produced-result claims. |
 | Inspect a candidate opportunity | Problem/promise distinction, supports, reachability reasoning, uncertainty, next question and refresh. | The truth and adequacy of the exact specialist premises and any stronger empirical claim. |
-| Continue into advice or choice | An inspectable candidate basis or gap. | PSDA.19’s professional engagement and PSDA.14’s recommendation; direct choice authority and rule. |
+| Continue into advice or choice | An inspectable candidate basis or gap. | Applicable professional engagement and recommendation when advice is requested, and the direct choice authority and rule. |
 
 ### C.40.OCN:5 - Archetypal Grounding
 
@@ -240,7 +240,7 @@ The case's receiving-use statements identify two different worthwhile concerns. 
 | Reachability now | Conditional only. No representative model-assisted evaluation or provision claim follows until the permitted source/access basis and other necessary transitions are qualified. | Conditional only. A model demonstration or a classroom success cannot establish capability, support or transfer into this shift configuration. |
 | First useful question | Can the data owner supply a permitted, representative source set and a purpose/tool-specific access disposition for a bounded qualification inquiry? | What capability, workload and support result would establish whether the receiving holder can use this exception account during representative shift Work? |
 
-The two directions address different result premises. They are not forced into one OCE.8 comparison. If the unit later stabilizes Opportunity A's result, use and acceptance basis, OCE.8 can compare complete manual, provider or mixed obtaining arrangements for that same result. That later comparison cannot supply the earlier choice of useful problem.
+The two directions address different result premises. They are not forced into one same-result comparison. If the unit later stabilizes Opportunity A's result, use and acceptance basis, an applicable organizational Method can compare complete manual, provider or mixed obtaining arrangements for that same result. That later comparison cannot supply the earlier choice of useful problem.
 
 The return is **two conditional opportunities with different missing premises**. It is not “adopt the new model.” The original trend-only lead is not retained as a third opportunity because it identifies no useful receiving result.
 
@@ -262,15 +262,15 @@ A qualified demand statement in the case explains why each contribution could ma
 
 The first account retains two conditional opportunities. It names the particular evidence-review or coordination contribution, its prospective use, the four-month horizon, the relevant support and uncertainty, and the next question. For evidence review, that question is what bounded representative assessment can distinguish an absent capability from difficulty caused by the current support configuration. For coordination, the first question is whether an appropriate practice/feedback opportunity can actually be made available.
 
-Current career information about these directions is qualified for accuracy, context and currency, following the human-only contribution of [NCDG 2024, CD2/CD3](https://www.ncda.org/aws/NCDA/pt/sp/ncdg_home_page). HCD and target-domain results still determine capability, intervention and transfer claims. The framework of career information does not make a course effective.
+Current career information about these directions is qualified for accuracy, context and currency, following the human-only contribution of [NCDG 2024, CD2/CD3](https://www.ncda.org/aws/NCDA/pt/sp/ncdg_home_page). Results from the applicable human-capability and target-domain Methods still determine capability, intervention and transfer claims. The framework of career information does not make a course effective.
 
-The person may stop here. There is no final advice episteme, no invented adviser and no compulsory institutional conflict. If a separate adviser is later engaged, the Decision Support engagement conditions under PSDA.19 open then. If the person instead already has adequate alternatives and is ready to choose, direct domain or C.11 guidance is enough.
+The person may stop here. There is no final advice episteme, no invented adviser and no compulsory institutional conflict. If a separate adviser is later engaged, the professional decision-support engagement conditions open then. If the person instead already has adequate alternatives and is ready to choose, direct domain or C.11 guidance is enough.
 
 #### C.40.OCN:5.3 - A defeated or insufficient opportunity
 
 A supplier proposes “AI transformation” to a small unit whose current receiving result is already adequate and whose users identify no worthwhile unmet contribution at the proposed scale. Novelty alone does not repair that missing problem. Reject the direction for this inquiry or change the question; an archive can retain a technical idea for another stated use without treating it as a present opportunity.
 
-A qualified dependency result may also defeat an otherwise worthwhile direction. If the only proposed processing route violates the protected data condition, reject that route for this use. If access has merely not been assessed, retain the conditional question. Forbidden, unknown and available are different results. If the protection requirement itself is being questioned, use C.11.DUA §4.3 with the competent domain result; PSDA.6 §4.4 supplies the value-account return when needed. A supported revision recommendation may finish that question while the current requirement continues to constrain the opportunity's feasible use.
+A qualified dependency result may also defeat an otherwise worthwhile direction. If the only proposed processing route violates the protected data condition, reject that route for this use. If access has merely not been assessed, retain the conditional question. Forbidden, unknown and available are different results. If the protection requirement itself is being questioned, use C.11.DUA §4.3 with the competent domain result; the competent subject practice supplies the value-account return when needed. A supported revision recommendation may finish that question while the current requirement continues to constrain the opportunity's feasible use.
 
 A course sequence described as “from beginner to leader” has no bounded reachability here until representative later Work, the actual holder, required transitions, support and transfer evidence are recoverable. Likewise, evidence that one AI version improved on one benchmark does not establish which development changes are feasible for a person or organization.
 
@@ -320,7 +320,7 @@ What changes in practice is concrete: “we should develop in this promising are
 
 ### C.40.OCN:12 - Relations
 
-C.40.OI/OC/NU/PC/DC/JF/OP/RQ supply the developed opportunity operations. C.40.CD develops a problem and obtaining way together; C.40.CU constructs a reproducible application from an examined response. C.40.OD connects a knowledge or Method gain to continuing development. Decision Design supplies problem structuring, decision analysis and professional advice when requested. STR supplies strategic choice and commitments. C.11 and the actual authority govern choice; A.15.9 governs obtaining a qualified result from another practice.
+C.40.OI/OC/NU/PC/DC/JF/OP/RQ supply the developed opportunity operations. C.40.CD develops a problem and obtaining way together; C.40.CU constructs a reproducible application from an examined response. C.40.OD connects a knowledge or Method gain to continuing development. The applicable decision-support Methods supply problem structuring, decision analysis and professional advice when requested. The applicable strategy Methods supply strategic choice and commitments. C.11 and the actual authority govern choice; A.15.9 governs obtaining a qualified result from another practice.
 
 ### C.40.OCN:End
 

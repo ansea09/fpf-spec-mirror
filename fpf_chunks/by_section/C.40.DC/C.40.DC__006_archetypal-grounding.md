@@ -6,12 +6,12 @@ section_id: "C.40.DC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__006_archetypal-grounding.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:5 — Archetypal Grounding"
-line_start: 86394
-line_end: 86451
+line_start: 86322
+line_end: 86379
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -37,7 +37,7 @@ One lead is “learn A.15.9.” The direction instead cites the complete [A.15.9
 | First result | A useful supported answer with its material limit, a selected worthwhile result request, or an exact blocker. |
 | Stop/non-use | Finish at the useful answer and its necessary limit; use the direct domain Method when the substantive specialist answer is the whole question. |
 
-The pattern supplies guidance for the proposed contribution, not evidence of Mira's capability. HCD and review-domain practice must establish representative performance, support, and transfer.
+The pattern supplies guidance for the proposed contribution, not evidence of Mira's capability. The applicable human-capability and review-domain practices must establish representative performance, support, and transfer.
 
 Two directions now differ materially:
 
@@ -50,9 +50,9 @@ Two directions now differ materially:
 | Protected and affected conditions | Review independence and confidentiality remain; feedback burden on colleagues must fit the same resource boundary. | Source custody and confidentiality remain; specialist demand must not silently displace other required Work. |
 | Option effect | Representative evidence could inform a later programme comparison; its production and value remain conditional. | Access might make current capability usable sooner, but could create continuing supplier dependence. |
 
-The candidates do not yet share a qualified same-result comparison: the first proposes development of independent recognition; the second proposes supported result use. The next question is which contribution the receiving review needs and what HCD or supplier result can qualify the corresponding transition. Combining them creates another candidate whose joint time and support need testing.
+The candidates do not yet share a qualified same-result comparison: the first proposes development of independent recognition; the second proposes supported result use. The next question is which contribution the receiving review needs and what human-capability or supplier result can qualify the corresponding transition. Combining them creates another candidate whose joint time and support need testing.
 
-The result is two conditional directions, not a learning programme or recommendation. If a selected direction calls for human capability development, HCD.2 can supply programme candidates and comparison. Within that branch, any requested programme recommendation and authorized programme choice remain separate; only then can Learning Product realize the appropriate Guide. The person can also stop now with the conditional directions and the support limits that matter; an exact support request is a further selected contribution.
+The result is two conditional directions, not a learning programme or recommendation. If a selected direction calls for human capability development, an applicable programme-design Method can supply programme candidates and comparison. Within that branch, any requested programme recommendation and authorized programme choice remain separate; only then can an applicable learning-material production Method realize the appropriate Guide. The person can also stop now with the conditional directions and the support limits that matter; an exact support request is a further selected contribution.
 
 #### C.40.DC:5.2 - A faster retrieval candidate is not a cost-free improvement
 
@@ -78,5 +78,5 @@ A bare-model benchmark does not by itself qualify either tool-enabled arrangemen
 
 #### C.40.DC:5.4 - Direct same-result arrangement work is enough
 
-An organization already has a stable contribution and acceptance basis, adequate baseline evidence, and whole manual, internal-specialist, and provider arrangements. It does not reopen development-direction construction merely because the arrangements could be given development labels. OCE.8 owns the remaining organization comparison and lawful disposition; the necessary authority and specialist results still have to be present.
+An organization already has a stable contribution and acceptance basis, adequate baseline evidence, and whole manual, internal-specialist, and provider arrangements. It does not reopen development-direction construction merely because the arrangements could be given development labels. The applicable organizational Method supplies the remaining organization comparison and lawful disposition; the necessary authority and specialist results still have to be present.
 

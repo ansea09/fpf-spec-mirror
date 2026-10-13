@@ -6,12 +6,12 @@ section_id: "C.39.MC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__005_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:4 — Solution"
-line_start: 83460
-line_end: 83525
+line_start: 83388
+line_end: 83453
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"
@@ -34,7 +34,7 @@ Name the receiving problem and the result it needs. Distinguish an unavailable r
 
 | Current difficulty | Direct contribution to use | First result retained here |
 | --- | --- | --- |
-| The relevant alternatives or source editions are unknown. | C.39.RP; A.3.1.DR for documentary recovery, A.3.1.MR and conditional RMP.10 for occurrence-evidence recovery. | A bounded repertoire, dossier, candidate account, or honest gap, with its source and status. |
+| The relevant alternatives or source editions are unknown. | C.39.RP; A.3.1.DR for documentary recovery, A.3.1.MR and, when needed, an applicable research Method for occurrence-evidence recovery. | A bounded repertoire, dossier, candidate account, or honest gap, with its source and status. |
 | One Method or individually scoped candidate needs qualification. | A.3.1.QM and the applicable A.3.1 identity question. | The individual qualification or unresolved identity condition; not a verdict on a whole. |
 | Several possible arrangements differ in relations, combined demand, or burden. | C.32.MWA.PP. | The compared arrangements and architecture decision, preserving proposed versus obtaining relations. |
 | A proposed Method whole lacks supported identity or composition. | B.1.5.CM with A.3.1 and B.1.5. | An obtaining composition result, prospective account, or lower return. |

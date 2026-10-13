@@ -6,12 +6,12 @@ section_id: "C.41:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__007_archetypal-grounding.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:5 — Archetypal Grounding"
-line_start: 87985
-line_end: 88028
+line_start: 87913
+line_end: 87956
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -35,7 +35,7 @@ In a catalogue importer, “Did the file import?” does not establish identifie
 
 Suppose the cards are produced on a shared printer. A complete file does not establish that the printing service can produce readable cards at the needed occasion. The selection follows one extra link: the printer's configuration and the person able to use it. If the print setup itself is being changed, questions about that enabling work become useful too. The design file describes the proposed cards; materials enter the print run, which produces the physical set. Questions about the setup, its description, the printing Method and the actual run concern different subjects. Preserve those relations when connecting their answers to the card preparation. If those enabling results are already competently supplied, the organizer can use them instead of designing a second printer-maintenance checklist.
 
-For a community running the seminar, distinguish the organizer's recruitment and support work, members' learning and practice, and their joint use of the exercise. Sending invitations does not establish attendance; attendance does not establish a member's ability to use the distinction; individual ability does not establish that members coordinate their contributions. A useful selection might therefore ask what support was provided, what a member can actually do, and what happens in the joint exercise. Choose only questions that matter to this community's work. One person may both organize and participate, but an answer about her organizing work does not answer the question about her learning. Return the capability question to [HCD.3](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work) and an organizational participation difficulty to [OCE.10](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization).
+For a community running the seminar, distinguish the organizer's recruitment and support work, members' learning and practice, and their joint use of the exercise. Sending invitations does not establish attendance; attendance does not establish a member's ability to use the distinction; individual ability does not establish that members coordinate their contributions. A useful selection might therefore ask what support was provided, what a member can actually do, and what happens in the joint exercise. Choose only questions that matter to this community's work. One person may both organize and participate, but an answer about her organizing work does not answer the question about her learning. Return the capability question to the applicable human-capability diagnosis Method and an organizational participation difficulty to the applicable organizational response Method.
 
 These cases are constructed. The gain illustrated is a more discriminating question set, not an empirical claim about fewer errors.
 

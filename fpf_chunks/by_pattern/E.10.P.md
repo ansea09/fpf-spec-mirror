@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.P.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.10.P — Conceptual Prefixes policy & registry"
-line_start: 100228
-line_end: 100257
+line_start: 100209
+line_end: 100240
 dependencies:
   - "A.10"
   - "A.14"
@@ -37,6 +37,8 @@ keywords:
 ---
 
 ## E.10.P - Conceptual Prefixes policy & registry
+
+> **Status:** Stable
  **Intent.** Provide a compact, **notation‑neutral** registry and **minting policy** for *conceptual prefixes* — short shorthands that signal **cognitive namespaces** used throughout the Core.
 
  **Policy (normative).**

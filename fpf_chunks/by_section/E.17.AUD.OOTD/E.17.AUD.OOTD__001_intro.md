@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__001_intro.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:intro — Intro"
-line_start: 107955
-line_end: 107993
+line_start: 107968
+line_end: 108008
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,6 +40,8 @@ keywords:
 ---
 
 ## E.17.AUD.OOTD - PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject
+
+> **Status:** Stable
 
 **Placement.** Narrow publication-unit stability pattern inside the broader `PublicationUnit Stability Discipline`.
 

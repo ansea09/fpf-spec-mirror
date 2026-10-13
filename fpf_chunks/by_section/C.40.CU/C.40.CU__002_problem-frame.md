@@ -6,12 +6,12 @@ section_id: "C.40.CU:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__002_problem-frame.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:1 — Problem frame"
-line_start: 84762
-line_end: 84771
+line_start: 84690
+line_end: 84699
 dependencies:
   - "B.1.5.EW"
   - "C.11"

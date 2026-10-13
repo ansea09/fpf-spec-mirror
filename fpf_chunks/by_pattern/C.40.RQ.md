@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.RQ.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
-line_start: 86955
-line_end: 87191
+line_start: 86883
+line_end: 87119
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -35,7 +35,7 @@ keywords:
 
 Begin with the changed premise and the particular opportunity claim that used it. Compare the earlier and current conditions and return the useful result they support. Obtain new qualification only when a stronger current use needs it and its attainable contribution warrants acquisition. The first useful result is an unchanged, narrowed, blocked, revised, or retired contribution for a stated use, with its affected downstream return.
 
-This is application-specific requalification shared by Construction and Advising. A changed recommendation uses PSDA.15's follow-up question; changed source-currentness or publication work retains its direct owner.
+This is application-specific requalification shared by Construction and Advising. A changed recommendation returns to its actual advice owner for the affected follow-up question; changed source-currentness or publication work retains its direct owner.
 
 **Ordinary non-use boundary.** Reuse a current result when no material premise or receiving use changed. A new filename, link, date label, or layout alone does not require reconstructing opportunities. If the current question is only one source's currentness, use G.11; if it is one already-known evidence reliance, use A.10 and the direct subject guidance. Do not create an indefinite monitoring service to answer a bounded change.
 
@@ -94,7 +94,7 @@ Follow an established dependency only while a receiving action or claim can chan
 
 Use [A.15.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) for the missing external result: inspect an adequate existing result first and qualify its supported use for the present subject, configuration, use, and window. Retain a useful narrowed or conditional answer. Select a request through A.15.9 and C.11.DUA only when its obtainable contribution warrants the full acquisition burden. The supplier retains its Method and conclusion.
 
-Return to the opportunity contribution that the change actually affects. A changed receiving need may reopen C.40.PC's problem/contribution account. A changed support or finite configuration may require C.40.DC and C.40.JF. A defeated enabling relation may retire a C.40.OP stepping-stone claim while leaving the candidate's independent contribution useful. A changed recipient, conflict, consent, or disclosure condition reopens PSDA.19's service boundary. Preserve an independently qualified domain result within its established scope, and reconsider a domain claim whose qualification itself depended on the changed condition.
+Return to the opportunity contribution that the change actually affects. A changed receiving need may reopen C.40.PC's problem/contribution account. A changed support or finite configuration may require C.40.DC and C.40.JF. A defeated enabling relation may retire a C.40.OP stepping-stone claim while leaving the candidate's independent contribution useful. A changed recipient, conflict, consent, or disclosure condition reopens the actual advising engagement and its service boundary. Preserve an independently qualified domain result within its established scope, and reconsider a domain claim whose qualification itself depended on the changed condition.
 
 Do not transplant the earlier qualification to the new subject or configuration. A model name, similar job title, same provider, or narrower dataset is insufficient. Use the direct practice's qualified transfer basis where it applies; otherwise preserve the receiving reading as unknown under C.40.OC.
 
@@ -124,7 +124,7 @@ An ordinary return can be short:
 
 Make the changed contribution and its scope available to the person or practice using it, under the actual disclosure and service conditions. Preserve the earlier opportunity or recommendation as an account of what was returned under the earlier basis. Record a correction where needed without silently rewriting that history.
 
-When an actual recommendation or follow-up question is affected, use [PSDA.15 — Arrange Decision Follow-up or Reassess Advice After a Change](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda15---arrange-decision-follow-up-or-reassess-advice-after-a-change). It distinguishes the observation, interpretation, earlier advice, established decision, and implementation, and supplies the affected decision-support return. Use PSDA.14 for a later recommendation when one is actually needed.
+When an actual recommendation or follow-up question is affected, return the qualified change to the responsible advice owner. Keep the observation, interpretation, earlier advice, established decision and implementation distinct, and obtain only the affected professional return. A later recommendation is a separate result when actually needed. An applicable follow-up Method and a recommendation Method can supply those distinct results for a separately selected decision-design engagement.
 
 A recommendation, its delivery, and its acknowledgement establish neither the recipient's choice nor an implemented change. If an operational action must change, recover the applicable authorized decision or protection rule. If the receiving choice is unknown, say so rather than treating the old advice as a standing instruction.
 
@@ -134,7 +134,7 @@ A change in professional scope or disclosure can restrict the service return whi
 
 Close this update when the inspected use has a supported disposition or an explicit blocker and its material coverage limits are visible. A compatible source-link repair can finish directly. Name the next receiver only when further action needs one; neither branch requires a duplicate common account. Keep an independent unresolved branch open as such; do not hold every resolved branch unfinished.
 
-For an actual continuing use, state the observation or condition that would reopen its result and identify any responsibility on which that use relies. A completed reference repair needs no new observation arrangement. If later advice depends on future evidence, the observation, interpretation, access, timing, burden, and receiving response must be feasible under PSDA.15. A missed or late observation is a present reliance limit when that evidence was necessary.
+For an actual continuing use, state the observation or condition that would reopen its result and identify any responsibility on which that use relies. A completed reference repair needs no new observation arrangement. If later advice depends on future evidence, the observation, interpretation, access, timing, burden, and receiving response must be feasible under the actual advice and observation arrangement. A missed or late observation is a present reliance limit when that evidence was necessary.
 
 Use [G.11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) for actual source currentness, decay, scoped refresh planning, or reporting. It does not decide the new domain result or replace the opportunity judgement. If the guidance itself fails across applications, return the bounded failure to its maintainer; a changed fact about one subject normally changes only that application.
 
@@ -154,7 +154,7 @@ The data steward supplies a qualified change: external processing of class B is 
 | Retrieval direction using A and B externally | The broad configuration no longer meets its permission condition. Retire that route for this use. |
 | Retrieval direction using A only | A revised conditional candidate. The old whole-workload estimate does not qualify class-A performance, maintenance, verification burden, or the incremental transition from actual `S1`. |
 | Index as a stepping stone to broad retrieval | Reconsider that enabling claim. The independent manual contribution survives even if the broad retrieval connection is retired. |
-| Earlier advice to consider the broad evaluation probe | Return the changed permission and affected scope to PSDA.15; recover any actual probe decision separately. |
+| Earlier advice to consider the broad evaluation probe | Return the changed permission and affected scope to the responsible advice owner for follow-up; recover any actual probe decision separately. |
 
 This result can finish with the actual manual arrangement preserved, the prohibited broad route retired, and the class-A direction conditional on its unqualified performance and transition. A class-A evaluation or finite transition result becomes a request to the relevant AI or engineering practice only when its attainable contribution warrants the whole burden relative to continuing from `S1`. C.40.JF qualifies the revised joint conditions when that question is pursued.
 
@@ -170,7 +170,7 @@ The known opportunity account used the independent-performance premise to qualif
 
 Several other possible receivers are not fully known. Under A.10.1, the responsible practitioner bounds discovery to the current opportunity inquiry's opportunity notes and issued advice, excluding unrelated historical projects. Source-oriented search finds the cited report; receiver-oriented inspection also finds an uncited independent-performance assumption.
 
-One note merely lists the report as background. Another uses its corrected claim in a path. A private recipient-held copy cannot be inspected. The outcomes differ: the background mention supplies no affected use; the path needs its HCD and opportunity qualification; the private copy remains a named coverage gap, not an unaffected result.
+One note merely lists the report as background. Another uses its corrected claim in a path. A private recipient-held copy cannot be inspected. The outcomes differ: the background mention supplies no affected use; the path needs its human-capability and opportunity qualification; the private copy remains a named coverage gap, not an unaffected result.
 
 The direct opportunity return can finish with the locally blocked path, supported-review result and unresolved recipient-copy question. Subject qualification is still required before asserting a restored independent-performance claim. If an adviser needs a common overview, it cites these supported results and groups the irrelevant background mentions; no separate exclusion note is needed. Neither return claims complete no-impact coverage.
 
@@ -178,7 +178,7 @@ The direct opportunity return can finish with the locally blocked path, supporte
 
 In a constructed organization engagement, the consultant discovers a material provider interest that was absent from the agreed service basis. The existing technical comparison was independently produced and remains qualified for its stated configuration and horizon.
 
-PSDA.19 now reopens whether this adviser can provide the requested recommendation and on what terms. The professional result may require narrowed scope, an independent recommender, or referral. That service outcome does not by itself refute the technical comparison. PSDA.15 receives the affected advice-use question if advice was already returned.
+The applicable professional engagement Method now reopens whether this adviser can provide the requested recommendation and on what terms. The professional result may require narrowed scope, an independent recommender, or referral. That service outcome does not by itself refute the technical comparison. The applicable advice-follow-up Method receives the affected advice-use question if advice was already returned.
 
 At the planned three-month follow-up, no capable observer or permitted source is available. That gap supplies no evidence that conditions stayed favourable. If the advice depended on that observation, return the missing observation and its reliance effect now. Existing professional contact or protection duties still follow their actual basis.
 
@@ -237,7 +237,7 @@ Keeping the earlier return, current qualification, and later authorized action s
 
 **Practice question.** How can an opportunity inquiry respond to changed premises without either replaying every result or preserving unsupported opportunities and advice?
 
-**Best-known line for this use.** Qualify the claim-sized change, establish actual reliance, and return the affected question to its direct owner. This pattern **adopts** A.10.1's bounded source-to-use discovery only for that source-change question in `:4.2`, and **adapts** PSDA.15's distinction among observation, interpretation, advice, decision, and implementation in `:4.5`–`:4.6`. C.40.PC, C.40.DC, C.40.JF, C.40.OP, PSDA.19 supply the opportunity-specific result being reconsidered; G.11 retains currentness and refresh work.
+**Best-known line for this use.** Qualify the claim-sized change, establish actual reliance, and return the affected question to its direct owner. This pattern **adopts** A.10.1's bounded source-to-use discovery only for that source-change question in `:4.2`, and **adapts** the professional follow-up distinction among observation, interpretation, advice, decision, and implementation in `:4.5`–`:4.6`. C.40.PC, C.40.DC, C.40.JF, C.40.OP and the applicable professional engagement Method supply the opportunity-specific result being reconsidered; G.11 retains currentness and refresh work.
 
 **Serious alternatives and trade-off.** Rechecking everything can be justified when the affected basis cannot be separated. It is unnecessary for the independently permitted manual route in `:5.1`. Updating only a source pointer is cheaper but misses the corrected support claim in `:5.2`. At comparable inspection effort, recovering the actual receiving premise distinguishes the two cases and identifies the smallest needed result. Bounded discovery costs more than a citation scan and may end with unresolved coverage; that is preferable to unsupported complete-preservation claims. No measured efficiency advantage is asserted.
 
@@ -247,12 +247,12 @@ Keeping the earlier return, current qualification, and later authorized action s
 
 ### C.40.RQ:12 - Relations
 
-- **Receives from C.40.OI, C.40.NU, C.40.PC, C.40.DC, C.40.JF, C.40.OP, PSDA.19:** the inquiry, characterization, contribution, direction, reachability, retained path, or advising boundary whose premise changed.
+- **Receives from C.40.OI, C.40.NU, C.40.PC, C.40.DC, C.40.JF, C.40.OP and the applicable professional engagement Method:** the inquiry, characterization, contribution, direction, reachability, retained path, or advising boundary whose premise changed.
 - **Uses A.10 and A.15.9:** one-use reliance and bounded external-result qualification.
 - **Uses A.10.1:** changed-source discovery and revalidation across actual receiving uses, with coverage and independently governed subject results.
-- **Returns to C.40.PC, C.40.DC, C.40.JF, C.40.OP, PSDA.19 and holder practices:** the smallest opportunity or relationship question affected by the new conditions.
+- **Returns to C.40.PC, C.40.DC, C.40.JF, C.40.OP, the applicable professional engagement Method and holder practices:** the smallest opportunity or relationship question affected by the new conditions.
 - **Uses C.11.CRC:** changed finite comparisons with complete coordinates and actual or conditional stage-specific baselines.
-- **Uses PSDA.15 and PSDA.14:** follow-up and any later recommendation, separate from the choice and implementation.
+- **Can return to the applicable follow-up and recommendation Methods in a selected decision-design engagement:** follow-up and any later recommendation, separate from the choice and implementation. Other advice retains its actual professional owner.
 - **Uses G.11:** currentness, decay, scoped refresh planning, and reporting when those are the actual questions.
 - **Returns to professional and operational owners:** actual contact, disclosure, protection, authority, and realization duties.
 

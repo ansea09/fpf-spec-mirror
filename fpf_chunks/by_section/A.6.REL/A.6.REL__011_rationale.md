@@ -6,12 +6,12 @@ section_id: "A.6.REL:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__011_rationale.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
   - "A.6.REL:10 — Rationale"
-line_start: 16234
-line_end: 16241
+line_start: 16124
+line_end: 16131
 dependencies:
   - "A.6.0"
   - "A.6.5"

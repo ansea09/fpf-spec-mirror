@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__014_relations.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:12 — Relations"
-line_start: 10287
-line_end: 10294
+line_start: 10173
+line_end: 10180
 dependencies:
   - "A.3.1"
   - "A.3.1.DR"

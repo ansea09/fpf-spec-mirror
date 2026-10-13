@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.Core.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
-line_start: 124303
-line_end: 124753
+line_start: 124328
+line_end: 124780
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -32,6 +32,8 @@ keywords:
 ---
 
 ## G.Core - Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)
+
+> **Status:** Stable
 
 
 **Tag.** Architectural pattern (Part‑G core invariants hub; refactoring/deduplication)

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.7.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.7 — Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases"
-line_start: 94883
-line_end: 94959
+line_start: 94831
+line_end: 94909
 dependencies:
   - "E.5.4"
   - "E.6"
@@ -19,6 +19,8 @@ keywords:
 ---
 
 ## E.7 - Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases
+
+> **Status:** Stable
 
 ### E.7:1 - Problem frame
 Universal rules are powerful only when readers can grasp them. In FPF the

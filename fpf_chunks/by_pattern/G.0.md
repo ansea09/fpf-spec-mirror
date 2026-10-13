@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.0.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
-line_start: 124754
-line_end: 125098
+line_start: 124781
+line_end: 125127
 dependencies:
   - "A.10"
   - "A.17"
@@ -52,6 +52,8 @@ keywords:
 ---
 
 ## G.0 - Define Admissible Comparison and Aggregation for a Frame (CG-Spec)
+
+> **Status:** Stable
 
 **Tag.** Architectural pattern (foundational Standard; constrains G.1–G.5)
 **Stage.** *design-time* legality gate (establishes comparison legality & evidence minima; constrains run-time gates)

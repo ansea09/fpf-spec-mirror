@@ -6,12 +6,12 @@ section_id: "C.40.OI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__006_archetypal-grounding.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:5 — Archetypal Grounding"
-line_start: 85473
-line_end: 85504
+line_start: 85401
+line_end: 85432
 dependencies:
   - "A.15.9"
   - "B.5.PI"
@@ -49,7 +49,7 @@ The provider proposal is recorded as a suggested premise. Strategy owns any comm
 
 #### C.40.OI:5.3 - Advice can enter elsewhere
 
-A committee already has three qualified directions for an identified facility, a complete characterization, and a current joint-reachability account. Its current need is an independent recommendation. Repeating `C.40.OI` adds no value. The adviser begins with `PSDA.19` to establish recipient, mandate, competence, conflicts, disclosure, and reliance, then uses current decision-support results. The committee retains the choice.
+A committee already has three qualified directions for an identified facility, a complete characterization, and a current joint-reachability account. Its current need is an independent recommendation. Repeating `C.40.OI` adds no value. The adviser begins with the applicable professional engagement Method to establish recipient, mandate, competence, conflicts, disclosure, and reliance, then uses current decision-support results. The committee retains the choice.
 
 #### C.40.OI:5.4 - Population anti-case
 

@@ -6,12 +6,12 @@ section_id: "C.40.RQ:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 87142
-line_end: 87154
+line_start: 87070
+line_end: 87082
 dependencies:
   - "A.10"
   - "A.10.1"

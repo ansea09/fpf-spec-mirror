@@ -6,12 +6,12 @@ section_id: "C.40.NP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NP/C.40.NP__002_problem-frame.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
   - "C.40.NP:1 — Problem frame"
-line_start: 87705
-line_end: 87710
+line_start: 87633
+line_end: 87638
 dependencies:
   - "C.18"
   - "C.19"

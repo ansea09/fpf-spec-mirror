@@ -6,12 +6,12 @@ section_id: "C.40.OCN:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__011_architectural-rationale.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:10 — Architectural Rationale"
-line_start: 85298
-line_end: 85301
+line_start: 85226
+line_end: 85229
 dependencies:
   - "A.15.9"
   - "C.11"

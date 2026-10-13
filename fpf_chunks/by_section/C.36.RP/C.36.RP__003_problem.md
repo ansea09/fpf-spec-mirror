@@ -6,12 +6,12 @@ section_id: "C.36.RP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__003_problem.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:2 — Problem"
-line_start: 89042
-line_end: 89049
+line_start: 88970
+line_end: 88977
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

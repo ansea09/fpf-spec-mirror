@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.PFP.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
-line_start: 102379
-line_end: 102733
+line_start: 102377
+line_end: 102735
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -104,7 +104,11 @@ Across all segments, every pattern body has exactly one row, every row resolves 
 
 PatternID, title, Part, and `§` position remain separate even when one row displays them together. PatternID supplies the stable public address within the named framework; the title explains the pattern; Part and `§` show where the current edition places it. Within each Part, the ToC rows and pattern bodies follow the same order. That order need not ascend by PatternID, and moving or retitling a pattern does not by itself change its PatternID.
 
-When the surrounding text does not already identify the framework, name the framework together with the PatternID. To select the body published in one edition, also name that framework edition. For a DPF, `E.4.DPF` supplies the choice of reference code and local locator, and the continuity decision; this profile only makes the selected distinctions visible in the publication.
+For a portable reference, apply `E.8` H-10 to retain the complete PatternID or SectionRef and enough context to recover the publication set and document. Add a qualifier only where that identification is not already unambiguous. A publication may declare a short `DocID` beside its full document title. State the publication set in which the declaration is unambiguous. The declaration identifies the whole document, not its embedded Readme, Architectural Reference or pattern collection. A framework's existing reference code may be declared as that DocID without changing any PatternID; a standalone Architectural Reference may declare its own document qualifier. A document without a DocID remains referable by its full title within the named set.
+
+Keep the document, the framework it publishes, the selected edition, its publication units and its carrier distinct. Several units can share one document; one framework can have several edition documents or carriers. A reference to an exact edition names that edition separately. A current-carrier catalogue derives its document identities from their declarations and full titles; it does not confer framework membership, pattern identity or authority. Keep document identity recoverable from cross-document link labels and their accompanying context; add a qualifier when the complete address does not already supply it. The hyperlink may still provide a convenient carrier. An extracted passage retains the complete local address and any identifying context it needs. For a DPF, `E.4.DPF:4.0.3` supplies the reference-code, local-locator and continuity decisions; this profile makes the selected distinctions visible.
+
+Use E.8:4.2.2.2 to distinguish a source citation from an invitation to apply another contribution. Keep that purpose and any use-changing condition clear in ordinary prose. If an extract loses the heading that supplied this meaning, retain it in the extract; preserving the address alone does not preserve the intended reading. No repeated labels are needed when the wording is already clear.
 
 Reserve `Support index — <lookup job>` for a secondary pattern lookup. Its exact header is:
 
@@ -238,7 +242,7 @@ When a condition governs a whole combination of Methods, give it one public stat
 
 Also explain the relevant Method-composition structure and how its constituents are enacted in ongoing Work. A selected action can constitute part of a larger work that is being performed at that same moment. Give a representative example in which a condition of the whole changes the constituent action; show where a missing intermediate capability or incompatible resource demand prevents the combination. B.1.5.EW recovers that connection and B.1.5.RS examines a constituent replacement. A DPF can describe only some of the needed constituent–whole connections: state the preparation, support and coordinating performance needed beyond its own descriptions. Reuse clear existing explanations and stop decomposition when further detail cannot change the use. Genuine earlier-result dependencies remain part of the account.
 
-Publish the connected account as `<framework name> Architectural Reference`, the framework-level application of E.4's architectural-reference function. An all-in-one publication embeds the unit in its front matter; a multi-file framework gives it a discoverable place in that framework's assembly. Readme explains how to enter it. E.11.DSG governs the account and its useful question-led entries; this profile governs the framework's form. A unit whose declared address key is `Preface` can carry this function without making that key the function's name. The title, unit key, file and edition identity remain separate choices.
+Publish the connected account as `<framework name> Architectural Reference`, the framework-level application of E.4's architectural-reference function. An all-in-one publication embeds the unit in its front matter; a multi-file framework gives it a discoverable place in that framework's assembly. Readme explains how to enter it. E.11.DSG governs the account and its useful question-led entries; this profile governs the framework's form. Use `Reference` as this unit's address key, identifying its explanatory function. The qualified title, unit key, file and edition identity remain distinct; a preface with a different introductory function does not replace the architectural account.
 
 At a wider language-assembly level, the corresponding Suite or FPF Library Architectural Reference explains the connections added there and returns to the framework's account. A separate source host, downloadable copy or site page is not another assembly level. Preserve enough rationale, source synthesis, alternatives, and worked detail for the intended reader to understand and adapt the language without its development intake or DRR. An exact inherited answer can satisfy a question; merely naming a pattern or listing source titles cannot supply missing explanation.
 
@@ -250,20 +254,20 @@ A pattern can participate in several profiles, and a profile can draw on several
 
 ##### E.11.PFP:4.7.1 - Make an architectural-reference section recognizable on its own
 
-A reader entering through search, a quotation, a link or a retrieved excerpt may see a heading without its parents. Every heading that introduces architectural-reference content therefore carries the framework's public reference code, the product-declared publication-unit key, and its complete ordinal section path:
+A reader entering through search, a quotation, a link or a retrieved excerpt may see a heading without its parents. Every heading that introduces architectural-reference content therefore carries the framework's public reference code, the publication-unit key `Reference`, and its complete ordinal section path:
 
 ```text
-## <FrameworkCode>.<UnitKey>:<n> - <Title>
-### <FrameworkCode>.<UnitKey>:<n>.<m> - <Title>
+## <FrameworkCode>.Reference:<n> - <Title>
+### <FrameworkCode>.Reference:<n>.<m> - <Title>
 ```
 
-For example, `## STR.Preface:1 - Problem frame - Direction and commitment under changing conditions` identifies the first section of a Strategy architectural-reference unit whose declared key is `Preface`. `#### FPF.Preface:16.8.2 - Production and situated use are different contributions` identifies a nested section in the FPF Core architectural-reference unit. Use the framework's declared public code; name the framework as well when quoting outside a context that identifies it. The enclosing H1 gives the qualified Architectural Reference title and has a product-declared ToC entry. The title does not by itself rename an established section key or preserve a former URL fragment.
+For example, `## STR.Reference:1 - Problem frame - Direction and commitment under changing conditions` identifies the first section of a Strategy architectural-reference unit whose key is `Reference`. `#### FPF.Reference:16.8.2 - Production and situated use are different contributions` identifies a nested section in the FPF Core architectural-reference unit. Use the framework's declared public code; name the framework as well when quoting outside a context that identifies it. The enclosing H1 gives the qualified Architectural Reference title and has a product-declared ToC entry. Changing a former section key requires updating its maintained current returns; changing the title alone does not preserve a former URL fragment.
 
-Close the complete architectural-reference unit with one content-free H2 heading, `## <FrameworkCode>.<UnitKey>:End`, after its last paragraph, list or other content and before the next publication unit. For example, a Strategy unit using `Preface` ends with `## STR.Preface:End`. This visible boundary shows where the unit ends when it is copied or retrieved separately. It closes the whole unit, not each numbered subsection; it adds neither a content section nor a pattern-index entry. A heading shown inside a fenced example does not close the unit.
+Close the complete architectural-reference unit with one content-free H2 heading, `## <FrameworkCode>.Reference:End`, after its last paragraph, list or other content and before the next publication unit. For example, the Strategy architectural-reference unit ends with `## STR.Reference:End`. This visible boundary shows where the unit ends when it is copied or retrieved separately. It closes the whole unit, not each numbered subsection; it adds neither a content section nor a pattern-index entry. A heading shown inside a fenced example does not close the unit.
 
 Number sibling sections in reading order, starting at 1, and carry the complete parent path into nested headings. Each nesting level adds one heading level and one ordinal. These ordinals locate sections in this publication unit; their titles state the content functions. An account can combine several E.8 functions in one section or explain one function across several sections. Keep that useful arrangement instead of adding twelve empty sections to match numbers. The rule introduces no limit on useful conceptual scales; physical Markdown heading depth remains a carrier constraint.
 
-`STR.Preface` names a publication unit. Its section addresses are `SectionRef` uses under E.8, not declarations of additional patterns: the pattern index continues to contain the individually declared pattern bodies. Apply the same self-identifying construction to a profile account or other support unit when it needs its own section addresses, using its product-declared unit key. A profile explained inside the architectural reference retains that unit's section path; this text position does not decide the profile's semantic relations.
+`STR.Reference` names a publication unit. Its section addresses are `SectionRef` uses under E.8, not declarations of additional patterns: the pattern index continues to contain the individually declared pattern bodies. Apply the same self-identifying construction to a profile account or other support unit when it needs its own section addresses, using its product-declared unit key. A profile explained inside the architectural reference retains that unit's section path; this text position does not decide the profile's semantic relations.
 
 The prefix lets a reader distinguish a whole-language Problem frame from the Problem frame of one pattern before choosing what to read or cite. Visible names and numbers also survive copying and printing, where a hidden anchor cannot help.
 

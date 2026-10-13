@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__006_solution.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:4 — Solution"
-line_start: 11164
-line_end: 11256
+line_start: 11050
+line_end: 11142
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -104,7 +104,7 @@ Use this continuation when an unexpected result, changed setting or proposed ada
 
 2. **Derive observations that could distinguish the live explanations.** Compare what should be seen if the relevant contribution was not delivered, was delivered but did not activate the proposed mechanism, operated differently in this context, or was supplemented by another contribution. Several explanations may hold together. Link observations of actual actions, the proposed intermediate change and the outside result for the same cases and relevant times. Include failed entry and cases where the result differs. A procedure-completion count alone cannot decide among these explanations. Assess fidelity only against an interpretable baseline and only when that comparison can change the decision; unknown essential functions or an intentionally flexible strategy may support a narrower account of what was done instead.
 
-3. **Select an attainable comparison.** First ask whether existing evidence distinguishes enough for the receiving action. If a further inquiry is worthwhile, pass the competing explanations, expected observations, case differences, timing, available access and whole burden to RMP.2. Its selected design and limits, operationalized through RMP.3, become inputs to the A.3.1.WT trial or other inquiry. Check separately whether the proposed application can be performed and whether the evaluation can obtain an interpretable answer. Specify which changes the design permits: holding a configuration stable and studying an adapting configuration answer different questions. If no useful comparison is attainable, return the supported course or unresolved alternatives with the limitation that matters now.
+3. **Select an attainable comparison.** First ask whether existing evidence distinguishes enough for the receiving action. If a further inquiry is worthwhile, construct or obtain a design tied to the competing explanations, expected observations, case differences, timing, available access and whole burden. It must explain which attainable contrast can distinguish the accounts, what remains unresolved, and how the material can be obtained and interpreted under the permitted conditions. Give the selected design, its limits and the required operational protocol to the A.3.1.WT trial or other applicable inquiry. When that construction exceeds the trial Method, obtain the missing research contribution through A.15.9; the subject inquiry retains its own Method, qualifications and authority. Check separately whether the proposed application can be performed and whether the evaluation can obtain an interpretable answer. Specify which changes the design permits: holding a configuration stable and studying an adapting configuration answer different questions. If no useful comparison is attainable, return the supported course or unresolved alternatives with the limitation that matters now.
 
 4. **Combine observations through the explanation.** Use the selected methods to recover what was delivered, how participants used or responded to it, the pertinent context and the resulting benefit, harm or burden. Where broad records show a pattern, selected observations or interviews can investigate the difference; where a particular account suggests a mechanism, look for its expected consequences in the relevant records. Repeated observation can reveal a changed contribution or context. Keep the same cases, periods and measurement meanings recoverable when combining results. Separate an observation, a participant's explanation and the investigator's inference; use C.28 for any resulting causal reliance.
 

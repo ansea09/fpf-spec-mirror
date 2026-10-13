@@ -6,12 +6,12 @@ section_id: "B.5.SD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__003_problem.md"
-commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
 heading_path:
   - "B.5.SD — Construct a Useful Answer through Substantive Discussion"
   - "B.5.SD:2 — Problem"
-line_start: 50989
-line_end: 50994
+line_start: 50901
+line_end: 50906
 dependencies:
   - "A.3.1"
   - "B.5.RA"
