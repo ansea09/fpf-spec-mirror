@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.JF.md"
-commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
+commit_sha: "7d0a78002c04f2337283b97d707991c888013a73"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
 line_start: 86459

@@ -6,7 +6,7 @@ section_id: "A.3.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__002_problem-frame.md"
-commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
+commit_sha: "7d0a78002c04f2337283b97d707991c888013a73"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:1 — Problem frame"

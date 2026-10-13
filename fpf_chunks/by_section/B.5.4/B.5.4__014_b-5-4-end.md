@@ -6,7 +6,7 @@ section_id: "B.5.4:End"
 section_title: "B.5.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__014_b-5-4-end.md"
-commit_sha: "162ec2b0485ce0166de0320fce7a6c80a6955cdd"
+commit_sha: "7d0a78002c04f2337283b97d707991c888013a73"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
   - "B.5.4:End — B.5.4:End"
