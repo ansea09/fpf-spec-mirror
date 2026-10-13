@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.8.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
-line_start: 29431
-line_end: 29655
+line_start: 31812
+line_end: 32038
 dependencies:
   - "A.1"
   - "A.10"
@@ -251,6 +251,8 @@ Use source traditions for the action they change and keep their scope limits. Th
 | Hu, Wang, and McAuley, [MemoryAgentBench](https://arxiv.org/abs/2507.05257) (ICLR 2026), and Liu and Gabriel, [PM-Bench](https://arxiv.org/abs/2607.12385) (COLM 2026) | Adapt these current conference benchmarks only for their configuration-specific probe distinctions. | Separate retrieval, updating, long-range use, forgetting, deferred-intention execution, and environment monitoring into configuration-specific probes. | Benchmark labels are not FPF kinds or capability holders; the reported results do not transfer outside tested agent configurations without evidence. |
 
 ### A.15.8:11 - Relations
+
+A.15.8.MS constructs how methodological material is obtained and applied across the named tasks, including a Method Base only when its maintained shared selection earns its cost. It returns the exact actual-Work or WorkPlan continuation question here when interruption or support loss is material.
 
 - **Builds on:** `A.1` and `A.13` for admitted Systems and exact actual-performer cores; `A.15.1` for independent actual-Work admission; `A.2.1` and `F.6` only for an expressly consumed precise assignment-bound attribution; `A.15.2` for present WorkPlans and declaration-local intended-performance content; `A.6.REL` and direct relation patterns for obtaining relations; `A.6.RCD` for the exact `missing-governor`, `factually unsupported`, and `missing-information` split; and C.2.1 when a result must persist as an account episteme.
 - **Coordinates with:** `A.15.5` for work-entry readiness; `A.15.7` for next-action selection after a configuration blocker is repaired; `A.2.2`, `E.23.CAE`, and `E.23.CDI` for holder capability, the wider access/expression differential, and capability development; `A.22` and `C.30` for selected Structure and architecture; `C.27.TA` for temporal/currentness claims; `C.2.P.DR` and direct representation patterns for carriers and representations; `A.10` for evidence reliance; `A.15.4` for appearance-based reliance repair; `C.11` for receiving decisions; direct domain patterns and Methods for probe mechanisms, thresholds, and safety rules; and direct subject patterns for authority and evidence. An `A.15.8` observation may support an `E.23.CAE` configuration disposition, while the exact Work/WorkPlan relation test remains here.

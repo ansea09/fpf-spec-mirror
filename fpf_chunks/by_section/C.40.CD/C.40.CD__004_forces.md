@@ -6,12 +6,12 @@ section_id: "C.40.CD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__004_forces.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:3 — Forces"
-line_start: 79295
-line_end: 79304
+line_start: 84559
+line_end: 84568
 dependencies:
   - "B.5.MPC"
   - "B.5.QD"

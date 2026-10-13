@@ -6,12 +6,12 @@ section_id: "A.3.3.CC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.CC/A.3.3.CC__008_conformance-checklist.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.3.3.CC — Construct a Configuration Description under Constraints"
   - "A.3.3.CC:7 — Conformance Checklist"
-line_start: 10000
-line_end: 10010
+line_start: 12381
+line_end: 12391
 dependencies:
   - "A.17"
   - "A.18"

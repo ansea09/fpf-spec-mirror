@@ -6,12 +6,12 @@ section_id: "F.0.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__013_relations.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:12 — Relations"
-line_start: 106287
-line_end: 106298
+line_start: 116122
+line_end: 116135
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -33,6 +33,8 @@ keywords:
 ---
 
 ### F.0.2:12 - Relations
+
+F.0.2.MA uses a synthesis, contrast or unresolved-inquiry result to allocate Method contributions without erasing useful differences. F.0.2.RC tests whether the receiving explanation preserves the source's constructive contribution and follows changed premises to affected uses. These operations can stop on an already adequate synthesis and do not impose corpus-wide extraction on a bounded question.
 
 - **Builds on:** `F.0.1` for source-local meaning and `F.1` for a relevance-based source cut.
 - **Uses when current:** `F.9` for an asserted relation between exact cross-context SenseCells; `C.2.1` for every recorded result claim; `A.2.4` and the applicable direct relation pattern for a later evidence or decision use.

@@ -6,12 +6,12 @@ section_id: "C.40.CU:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__013_relations.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:12 — Relations"
-line_start: 79730
-line_end: 79741
+line_start: 84997
+line_end: 85011
 dependencies:
   - "B.1.5.EW"
   - "C.11"
@@ -35,5 +35,8 @@ keywords:
 - C.38 forms complete-enough comparable ways; C.11 selects among them.
 - A.2.2 governs a capability claim; E.23.CAE/CDI separate supported performance conditions from needed capability development.
 - A.15.8 governs configuration and recovery reliance; C.36.RP makes shared methods obtainable and renewable.
+
+When realizing the application depends on co-adapting its way, the intended holder and provision, C.40.JD supplies that joint construction and keeps delivered work distinct from acquired capability. C.40.NP develops the continuation when a qualified result opens a further worthwhile problem. C.40.OD is useful when those connections form a wider open-ended development undertaking; an adequate application and its ordinary renewal need not invoke that whole.
+
 
 

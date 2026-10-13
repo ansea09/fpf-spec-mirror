@@ -6,12 +6,12 @@ section_id: "E.11.PFP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__011_conformance-checklist.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:7 — Conformance Checklist"
-line_start: 92849
-line_end: 92874
+line_start: 102651
+line_end: 102676
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -41,7 +41,7 @@ keywords:
 | CC-PFP.3 Edition return works when needed | When exact edition return changes use or reliance, the shortest public designation and locator resolve without repository knowledge; otherwise no unused return field is mandatory. |
 | CC-PFP.4 Extra cues earn their place | Every cue before the ToC is projected from its exact record and changes a named reader decision or action; no common optional field is required merely for completeness. |
 | CC-PFP.5 Development state excluded | Reader front matter contains no campaign or candidate identifier, local path, digest, Git identity, generated comment, build command, machine warning, or maintainer instruction. |
-| CC-PFP.6 Entries and order recognizable | The title, compact cues, ToC, Readme and Preface entries in the product's established ToC grammar, Readme, Preface, pattern collection, and product-declared reference tail occur in the selected order; every declared target resolves where links are used. |
+| CC-PFP.6 Entries and order recognizable | The title, compact cues, ToC, Readme and architectural-reference entries in the product's established ToC grammar, Readme, architectural reference, pattern collection, and product-declared reference tail occur in the selected order; every declared target resolves where links are used. |
 | CC-PFP.7 Logical index and order truthful | One logical index may use several labelled segments, but every pattern row resolves to one body, every body has one row, and PatternIDs are unique within the named framework. PatternID is separate from title, Part, and `§` position; ToC and body order agree within each Part even when PatternIDs are non-ascending. When the surrounding text does not identify the framework, a citation names the framework together with the PatternID; a citation selecting the body published in one edition also names that edition. |
 | CC-PFP.8 Other tables remain truthful | Only the closed authoritative and support-index grammars are treated as indexes; relation and reference tables are not reclassified from cell values. |
 | CC-PFP.9 One entry set and declaration | One `Practical entries` set contains every selectable ordinary entry and selected card. One declaration for the product assigns every key exactly one form; each key has exactly one selectable H3 ordinary-entry or H4 card occurrence, and no rival key list or entry set exists. |
@@ -53,8 +53,8 @@ keywords:
 | CC-PFP.12 Combined carrier neutral | Every constituent product keeps its own form and identity; E.11.PFP applies only to framework constituents. |
 | CC-PFP.13 Claims remain separate | Form conformance is not reported as acceptance, adequacy, carrier identity, publication, availability, access, maintenance, or currentness. |
 | CC-PFP.14 Scope examples survive | The rule remains usable for FPF, DPF, and LPF editions and for a low-tool or non-clickable carrier without introducing a second edition identity. |
-| CC-PFP.15 Navigation remains usable | The ToC represents Readme and Preface in its established product-native grammar before the singular pattern index; headings and labels describe their purpose, and the integrated rendered-structure summary plus intended-reader inspection exposes grouping defects without a second full read. |
-| CC-PFP.16 Whole account usable | Every substantive E.8 question has a public answer, an exact inherited answer, or an explicit use-changing gap at each selected scope. The account connects Methods and their results, retains their Architectural Rationale and shared source synthesis, and leaves direct pattern entry available. Headings or locators alone do not establish this content. |
+| CC-PFP.15 Navigation remains usable | The ToC represents Readme and the architectural-reference unit in its established product-native grammar before the singular pattern index; headings and labels describe their purpose, and the integrated rendered-structure summary plus intended-reader inspection exposes grouping defects without a second full read. |
+| CC-PFP.16 Whole account usable | Every substantive E.8 question has a public answer, an exact inherited answer, or an explicit use-changing gap at each selected scope. The framework's Architectural Reference connects Methods and their results, retains their Architectural Rationale and shared source synthesis, and leaves direct pattern entry available. Its embedded or separate carrier does not change that function. Headings or locators alone do not establish this content. |
 | CC-PFP.17 Scales and relations truthful | Further useful scales remain possible; the actual specialization, profile, composition, reuse, and publication-grouping relations are distinguished. A claimed mathematical order or lattice has the conditions required by C.29. |
-| CC-PFP.18 Whole-account sections addressable | Every Preface subsection exposes its framework code, Preface unit and complete ordinal path; nested paths and heading levels agree. The whole Preface ends with one correctly addressed, content-free H2 `:End` heading before the next unit. Addressed profile or support units identify their declared unit. Links resolve to the intended rendered headings, while the target content supplies the promised answer. Publication-unit addresses do not create pattern-index entries. |
+| CC-PFP.18 Whole-account sections addressable | Every architectural-reference subsection exposes its framework code, declared unit key and complete ordinal path; nested paths and heading levels agree. The whole unit ends with one correctly addressed, content-free H2 `:End` heading before the next unit. Addressed profile or support units identify their declared unit. Links resolve to the intended rendered headings, while the target content supplies the promised answer. Publication-unit addresses do not create pattern-index entries, and a changed title does not itself preserve a former fragment. |
 

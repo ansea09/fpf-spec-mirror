@@ -6,12 +6,12 @@ section_id: "C.36.RP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__013_relations.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:12 — Relations"
-line_start: 80116
-line_end: 80125
+line_start: 89221
+line_end: 89232
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -28,6 +28,8 @@ keywords:
 ---
 
 ### C.36.RP:12 - Relations
+
+C.36.MC qualifies a cultural claim about a Method repertoire and develops the explanation that lets another practitioner reconstruct and adapt a selected way. Use its result here when retention or renewal depends on that reconstructibility; an available description alone establishes neither acquired capability nor cultural retention.
 
 - **Specializes C.36** for sustaining and renewing shared ways of working.
 - **Uses E.23.CAE and E.23.CDI** to distinguish unavailable use from capability change and to construct a needed development intervention.

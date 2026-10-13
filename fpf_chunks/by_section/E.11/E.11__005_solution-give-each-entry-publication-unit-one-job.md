@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 91086
-line_end: 91472
+line_start: 100886
+line_end: 101272
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -34,7 +34,7 @@ keywords:
 
 ### E.11:4 - Solution - Give Each Entry Publication Unit One Job
 
-Write the short public entry first: recognizable working situation, practical question, first useful result or blocker, direct pattern or small plausible set, and ordinary stop or wrong-turn return. If that prose is truthful and sufficient, stop. Add an expansion, exact result basis, or durable comparison only when ambiguity or a named receiving reliance needs it.
+Write the short public entry first: recognizable working situation, practical question, first useful result or blocker, direct pattern or small plausible set, and ordinary stop or wrong-turn return. If that prose is truthful and sufficient, stop expanding the entry. Add an expansion, exact result basis, or durable comparison only when ambiguity or a named receiving reliance needs it. The entry returns to the full architectural reference and pattern bodies when their explanation is needed.
 
 Use this distribution:
 
@@ -42,7 +42,7 @@ Use this distribution:
 | --- | --- | --- |
 | Pattern title | Compact recognition of the working question, discriminating result or familiar method, authored under E.8 §4.1.5. | A complete applicability decision, pattern definition or substitute for the Solution. |
 | Framework Readme | Public first-entry situations and practical first results; the FPF Readme renders the entries declared in `E.4.FPF`, while a DPF or LPF Readme renders its product's own declared entries. | Pattern authority, the key-and-form declaration, full methods, conformance doctrine, or project-instance fields. |
-| `Preface` | Plain-engineering narrative explaining the cross-cutting ideas behind those entries. | A second scenario table, PatternID catalogue, or conformance authority. |
+| `<name of the explained whole> Architectural Reference` | Full public account of the language's purpose, constituents and connections, shared conditions, architectural reasons, sources, alternatives and limits, with worked explanation under E.11.DSG. | A second scenario catalogue, replacement pattern body, or compulsory reading stage before a known direct pattern. |
 | Table of Contents | Search-oriented overview. Every pattern row exposes its PatternID and title plus at least one working-question locator: a `Use when` cue, query phrase, or discriminating keyword. State any domain or local PatternID prefix discipline that affects lookup. Add admission state or dependencies when either can change the reader's choice. | Public first-entry explanation, a prescribed use sequence, or durable pattern semantics. |
 | Pattern `Problem frame` | High-precision local recognition for that pattern's own `EntityOfConcern`, first action, result, and non-use boundary. | A related-pattern fanout list or package-placement rationale. |
 | Worked entry comparison in E.11 or another expanded case | Longer entry disambiguation only when README, ToC, and local recognition are insufficient. | A tutorial obligation for every pattern or a replacement pattern body. |
@@ -50,9 +50,9 @@ Use this distribution:
 
 The framework Readme is the single editable public entry set. If another publication form needs the same guidance, project it from that Readme rather than maintaining a second version. Put any unique cue in the publication unit whose job matches it, then remove the duplicate row or index.
 
-Use `E.11.PFP` when one public FPF, DPF, or LPF edition needs the shared reader-facing publication form: a compact product-declared opening, separate declared product title and Readme H1, Readme and Preface represented in the product's established ToC grammar before one logical pattern index, Readme entry fields, a front-only development-metadata boundary, language boundary, and deterministic source-hazard plus rendered-structure checks. E.11 still tells the reader how to state the practical question, obtain a first useful result, use the direct pattern, and stop or return. Do not copy the form grammar here or treat a form-valid carrier as a usable framework.
+Use `E.11.PFP` when one public FPF, DPF, or LPF edition needs the shared reader-facing publication form: a compact product-declared opening, separate declared product title and Readme H1, Readme and architectural reference represented in the product's established ToC grammar before one logical pattern index, Readme entry fields, a front-only development-metadata boundary, language boundary, and deterministic source-hazard plus rendered-structure checks. E.11 still tells the reader how to state the practical question, obtain a first useful result, use the direct pattern, and stop or return. Do not copy the form grammar here or treat a form-valid carrier as a usable framework.
 
-Use `E.11.DSG` when the reader may need results from several DPF product series, cannot yet tell which DPF applies, needs Suite-wide commonality or relations, or needs an honest ecosystem gap. Start with the recognizable situation and four truthful return classes. The DPF Suite Reference returns to the Suite collection and each product series, edition, result, state, or source that changes the answer; it uses an optional configuration description only when needed. When one DPF result is already known, use that DPF directly. An absent, unavailable, stale, or unneeded Reference neither erases the Suite nor blocks direct DPF use, but it cannot supply a current cross-DPF route. `E.11.DSG` is a non-framework publication specialization; do not apply `E.11.PFP` to it.
+Use `E.11.DSG` for the full architectural reference of a framework, Suite or FPF Library and its useful question-led entries. The account explains the whole's architecture and reasons; an entry starts with a recognizable situation and returns to the full Methods, available results, evidence or an honest gap. For a Suite, distinguish constituent subdisciplines from outside suppliers. Embed the framework account in an all-in-one publication; a Suite or Library account can have its own carrier at that assembly level. These are applications of the same explanatory function, not additional frameworks or necessarily independent product series. A known sufficient contribution remains directly usable; an absent or stale account limits its explanatory route. `E.11.PFP` governs framework publication form.
 
 Pattern count is only a diagnostic. A one-pattern edition asks whether the result is instead a seed, candidate, or contribution to an existing framework; a larger count still does not establish a pattern language. Use `E.4` and `E.4.PFAD` to decide framework architecture, `E.4.DPF.DA` or `E.2.DA` for the applicable package or whole-FPF adequacy, and `E.21` for pattern quality.
 
@@ -60,7 +60,7 @@ When the reader's obstacle is finding material under unfamiliar source wording o
 
 When discoverability has become use of one selected pattern, continue with `E.11.PUA`. When the live question is which applicable pattern use to recommend, how several uses relate, or whether an earlier result already answers the concern, continue with `E.11.PUR`. Neither continuation turns a public entry order into a universal workflow.
 
-For an FPF-grounded domain or local practice framework, README, Preface, ToC, practical entries, an all-in-one carrier, a skill pack, retrieval, or a callable access service may expose the entry. That publication or access use neither decides framework architecture nor supplies authority, and the carrier is not the pattern body merely because a reader reaches it first. Use `E.4` to identify the framework family and member. Only when a downstream-used framework-architecture question is live, record its selected answer in one `E.9` DRR using the `E.4.PFAD` profile; use `E.4.PFR` separately when a named relation or edition maintenance use needs its representation.
+For an FPF-grounded domain or local practice framework, README, architectural reference, ToC, practical entries, an all-in-one carrier, a skill pack, retrieval, or a callable access service may expose the entry. That publication or access use neither decides framework architecture nor supplies authority, and the carrier is not the pattern body merely because a reader reaches it first. Use `E.4` to identify the framework family and member. Only when a downstream-used framework-architecture question is live, record its selected answer in one `E.9` DRR using the `E.4.PFAD` profile; use `E.4.PFR` separately when a named relation or edition maintenance use needs its representation.
 
 Before a query exists, distinguish an unexamined way of working from a known method that goes unnoticed. `B.5.PI` connects an ordinary work occasion with inquiry; `B.5.EA` helps retain and express a sensed but unformulated distinction. A recoverable early cue need not yet become a query. Once there is a question, the entry discipline here helps reach the contribution that could answer it.
 
@@ -303,11 +303,11 @@ Give every selectable public entry one stable semantic key so the reader can ret
 
 E.11 records one F.13-form historical read path: `splits(SYSTEM-IN-CONTEXT -> {SYSTEM-RECOGNITION, SYSTEM-DELIMITATION, WORDING, ARCHITECTURE})`. The old card had no single surviving public-guidance identity: system recognition, system delimitation, lexical recovery, and architecture have different referents, relations or evaluations, receiving uses, first results, and direct governors. Older writing remains readable through this one read path; current entry use names only the four resulting keys. A.1.STM is a conditional continuation with a dedicated readable README guide, not a fifth resulting key. The split creates no U-kind, relation kind, record kind, result kind, or generic `Context` claim.
 
-The FPF Readme carries a selected, explicitly non-exhaustive set of current public examples and their optional expansions. Preface explains why FPF's distinctions work together. ToC locates pattern families and questions outside the examples. Full patterns carry Methods, conditions, costs, consequences, and result semantics. None is a second entry store or a claim that the examples bound FPF use.
+The FPF Readme carries a selected, explicitly non-exhaustive set of current public examples and their optional expansions. The First Principles Framework Architectural Reference explains why FPF's distinctions and Methods work together. ToC locates pattern families and questions outside the examples. Full patterns carry Methods, conditions, costs, consequences, and result semantics. None is a second entry store or a claim that the examples bound FPF use.
 
-#### E.11:4.5.1 - Preface, local recognition, and first-entry terminology
+#### E.11:4.5.1 - Architectural Reference, local recognition, and first-entry terminology
 
-The `Preface` explains why the README entries are credible. It uses plain engineering language before FPF vocabulary and narrates the cross-cutting ideas once rather than copying the scenario set. Its coverage includes transdisciplinary use without collapsing local meaning; local closure in an open world; holons, systems, epistemes, and architecture as structure; `EntityOfConcern` and description/publication/view separation; thinking-through-writing; epiplexity; first-principles-to-work; mathematical lenses and FormalSubstrate distinctions; ontology-first wording repair; evidence/assurance/gate/decision/work separation; characteristic spaces, quality, NQD/OEE, and improvement; novelty, diversity, and SoTA; and didactic primacy. A strict FPF term that carries the explanation receives an immediate plain gloss. Pattern IDs are addresses for stricter treatment, not the main explanatory language.
+The First Principles Framework Architectural Reference explains the language as a whole, including the connections and grounds behind the README entries. Use E.11.DSG and E.11.PFP:4.7 for that complete account. It uses plain engineering language before FPF vocabulary and explains the cross-cutting ideas once rather than copying the scenario set. Its coverage includes transdisciplinary use without collapsing local meaning; local closure in an open world; holons, systems, epistemes, and architecture as structure; `EntityOfConcern` and description/publication/view separation; thinking-through-writing; epiplexity; first-principles-to-work; mathematical lenses and FormalSubstrate distinctions; ontology-first wording repair; evidence/assurance/gate/decision/work separation; characteristic spaces, quality, NQD/OEE, and improvement; novelty, diversity, and SoTA; and didactic primacy. A strict FPF term that carries the explanation receives an immediate plain gloss. Pattern IDs are addresses for stricter treatment, not the main explanatory language.
 
 A pattern's own `Problem frame` is the local high-precision recognition section. It makes recoverable the primary `EntityOfConcern`, working problem, failure if missed, first admissible action, practical result, and ordinary non-use boundary. Add candidate-pattern comparison only when a real discoverability ambiguity exists; otherwise keep cross-pattern comparison in README, ToC, `Relations`, or an expanded case.
 

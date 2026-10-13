@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.PI.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
-line_start: 47879
-line_end: 48077
+line_start: 50783
+line_end: 50974
 dependencies:
   - "A.15.11"
   - "A.16.1"
@@ -212,11 +212,4 @@ Reconsider the arrangement when a simpler ordinary interaction supplies the same
 - **B.1.5** and **B.1.5.EW** recover simultaneous constituent and encompassing methods; **E.23.CDI** frames capability development when the needed contribution cannot yet be performed.
 
 ### B.5.PI:End
-
-# Part C - Kernel Extension Specifications
-
-| §                                            | Pattern                        | Tag | Scope & Exports                                                      |
-| -------------------------------------------- | ---------------------------------- | --- | -------------------------------------------------------------------- |
-| **Cluster C.I – Core CALs / LOGs / CHRs**    |                                    |     |                                                                      |
-| C.1                                          | **Sys‑CAL (planned)**              | CAL | Planned consolidation of physical-system composition, conservation, and resource-flow guidance currently governed by A.1, A.14, A.22, A.3.4, B.1.6, and C.16. |
 

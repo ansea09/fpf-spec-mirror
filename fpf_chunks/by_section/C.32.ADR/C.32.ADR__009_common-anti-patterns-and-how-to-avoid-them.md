@@ -6,12 +6,12 @@ section_id: "C.32.ADR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 75956
-line_end: 75966
+line_start: 79968
+line_end: 79978
 dependencies:
   - "A.10"
   - "A.15"

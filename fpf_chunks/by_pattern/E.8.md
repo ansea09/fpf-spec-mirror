@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
-line_start: 85328
-line_end: 86137
+line_start: 94960
+line_end: 95771
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -503,7 +503,7 @@ Use existing sections, examples and direct references to organize these paths. `
 
 Use this move when the needed explanation is available but the author still has to decide what the reader should read, compare, remember, manipulate or carry forward. It also applies when arranging incomplete material is how the reader will discover the question. A representation can help produce a distinction that was not available before it was used. Its usefulness is not limited to storing a finished answer.
 
-Begin with the reader's operation and actual material. Try it with a sufficient existing expression before designing another one. Retain the reader's preparation and available help from §4.2.1.1. If the operation itself is missing, develop or obtain it; rearranging its name cannot supply it. A.6.3.RT.OE explains how to make an expression operative. Developing formation, interpretation or transformation rules is a separate notation-engineering task. The external [Notational Engineering DPF](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/NOTATIONAL-ENGINEERING-DPF.md) offers optional methods for that work.
+Begin with the reader's operation and actual material. Try it with a sufficient existing expression before designing another one. Retain the reader's preparation and available help from §4.2.1.1. If the operation itself is missing, develop or obtain it; rearranging its name cannot supply it. A.6.3.RT.OE explains how to make an expression operative. Developing formation, interpretation or transformation rules is a separate notation-engineering task. The external [Notational Engineering DPF](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/NOTATIONAL-ENGINEERING-DPF.md) offers optional methods for that work.
 
 **Construct the contrast before choosing the format.** Place together the pieces that the operation needs to distinguish or combine. They can still contain uncertain interpretations or an unanswered question. Attempt the comparison, grouping, substitution or inference. Where it fails, determine whether a missing fact, a missing operation or the arrangement of the expression prevents the result. Change the arrangement when it hides or confounds an available distinction. Obtain a missing fact when the receiving operation requires it. Preserve an unresolved question when it is the useful result of this attempt.
 
@@ -850,6 +850,8 @@ For each material source use, name the claim, distinction or method being consid
 | How should a title support first selection while retaining a working vocabulary? | Descriptive topic/purpose cues combined with a familiar technical name when the intended audience uses it. | A solution-evoking name alone, or a universal problem-shaped rename. | **Adapt:** §4.1.5 derives the title from the whole working question and Solution, compares neighbors, and preserves an open first choice and expert finding. A sufficient title is retained. | [W3C headings and labels guidance](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html) supplies the descriptive cue function. [Meszaros and Doble, Evocative Pattern Name](https://people.cs.pitt.edu/~chang/231/8pattern/LANGUAGE/C3.html), is a historical anchor for conversational vocabulary and unfamiliar-reader interpretation. Neither measures an FPF title effect. | Reopen when actual selection or re-finding loses a useful distinction, or a cheaper cue preserves it. |
 
 ### E.8:12 - Relations
+
+E.8.ML constructs a problem-first language for connected Methods: independently useful bodies, their result dependencies, alternatives and returns, and the explanation of their combined use. Its direct-description exit avoids making a language where one adequate account is sufficient. E.11.PFP continues to govern public arrangement.
 * **Coordinates with:** `E.9.DA` when an authored pattern body is drafted from a concrete `DRR` and the blocker is whether the `DRR` selected, distributed, carried source use, carried accepted decisions, or supplied a first drafting action sufficiently for that authoring use. `E.8` still governs the pattern body; `E.9.DA` is not a mandatory authoring section, review card, or substitute for writing the Solution.
 
 * **Builds on:** E.6, E.7

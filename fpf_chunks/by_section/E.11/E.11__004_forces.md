@@ -6,12 +6,12 @@ section_id: "E.11:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__004_forces.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:3 — Forces"
-line_start: 91072
-line_end: 91085
+line_start: 100872
+line_end: 100885
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -42,7 +42,7 @@ keywords:
 | Low burden | A newcomer should not fill forms or fabricate project values before seeing what the direct pattern can do. |
 | Bounded search | Several entries may remain plausible, so comparison needs a stop and a recoverable wrong-turn return rather than one perfect first guess. |
 | Durable reliance | Only a named later review, replay, audit, automation, or costly decision justifies addressable comparison history. |
-| No duplicate canon | README, Preface, ToC, retrieval, expanded cases, and local `Problem frame` sections keep different jobs. |
+| No duplicate canon | README, architectural reference, ToC, retrieval, expanded cases, and local `Problem frame` sections keep different jobs. |
 | Didactic continuity | A public entry gives a readable example or walkthrough, not only a PatternID list. |
 | Corpus evolution | Repair the smallest affected entry and its true consumers when a direct pattern's result, boundary, or recognition condition changes. |
 

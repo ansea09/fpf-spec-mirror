@@ -6,12 +6,12 @@ section_id: "A.21:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__005_forces.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:3 — Forces"
-line_start: 37607
-line_end: 37616
+line_start: 40316
+line_end: 40325
 dependencies:
   - "A.10"
   - "A.15.5"

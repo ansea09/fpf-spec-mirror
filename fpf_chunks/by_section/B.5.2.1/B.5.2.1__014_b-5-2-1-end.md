@@ -6,12 +6,12 @@ section_id: "B.5.2.1:End"
 section_title: "B.5.2.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__014_b-5-2-1-end.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:End — B.5.2.1:End"
-line_start: 47658
-line_end: 47661
+line_start: 50562
+line_end: 50565
 dependencies:
   - "A.17"
   - "A.18"

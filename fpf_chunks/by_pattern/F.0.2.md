@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.0.2.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
-line_start: 106065
-line_end: 106300
+line_start: 115900
+line_end: 116137
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -254,6 +254,8 @@ For the authoring question in :5.1, a correspondence-only answer can identify si
 Jaakkola's question and source-role discipline, Okoli's extraction and iterative synthesis, and Carroll–Brunton's treatment of non-fit inform steps 1–5 of that bounded route. These contributions organize the comparison; the particular working case selects what can be integrated and what must remain different. The accepted trade-off is limited coverage for a smaller first result. Reopen the source cut when a known rival or counterexample can change that result, and open `G.2` when the receiving work needs its broader reusable outputs.
 
 ### F.0.2:12 - Relations
+
+F.0.2.MA uses a synthesis, contrast or unresolved-inquiry result to allocate Method contributions without erasing useful differences. F.0.2.RC tests whether the receiving explanation preserves the source's constructive contribution and follows changed premises to affected uses. These operations can stop on an already adequate synthesis and do not impose corpus-wide extraction on a bounded question.
 
 - **Builds on:** `F.0.1` for source-local meaning and `F.1` for a relevance-based source cut.
 - **Uses when current:** `F.9` for an asserted relation between exact cross-context SenseCells; `C.2.1` for every recorded result claim; `A.2.4` and the applicable direct relation pattern for a later evidence or decision use.

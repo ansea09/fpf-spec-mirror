@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:0.2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__004_problem.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:0.2 — Problem"
-line_start: 89861
-line_end: 89864
+line_start: 99661
+line_end: 99664
 dependencies:
   - "A.10"
   - "A.15.1"

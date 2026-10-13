@@ -6,12 +6,12 @@ section_id: "F.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__004_forces.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:3 — Forces"
-line_start: 106341
-line_end: 106354
+line_start: 116511
+line_end: 116524
 dependencies:
   - "A.10"
   - "A.7"

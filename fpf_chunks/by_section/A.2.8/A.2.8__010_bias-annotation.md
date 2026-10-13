@@ -6,12 +6,12 @@ section_id: "A.2.8:7"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__010_bias-annotation.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:7 — Bias Annotation"
-line_start: 7510
-line_end: 7520
+line_start: 8248
+line_end: 8258
 dependencies:
   - "A.10"
   - "A.15.1"

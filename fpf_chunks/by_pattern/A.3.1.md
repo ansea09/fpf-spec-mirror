@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
-line_start: 8513
-line_end: 8973
+line_start: 9251
+line_end: 9713
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -487,6 +487,8 @@ Review a project's `U.Method` identification when a change in participant meanin
 Use G.11 when a later decision depends on the freshness or edition of a cited method description or source. A newer paper, implementation, or run is a reason to inspect the relation that cites it, not automatic evidence of a new method.
 
 ### A.3.1:12 - Relations
+
+For constructive work beyond identity, C.39.MF selects the Method question and C.39.RQ develops its situated requirements. A.3.1.DR recovers documentary contributions; A.3.1.QM qualifies an individual contribution; A.3.1.WT constructs a work trial; A.3.1.CC checks a relied-on claim; A.3.1.FT qualifies transfer; and A.3.1.MV constructs and maintains a semantic variant. Their different results do not replace this identity test.
 
 * **Identity and meaning:** builds on `A.1`, `A.2`, `A.2.1`, `A.2.2`, and `C.2.1`; use `F.17` when a local sense matters and `G.11` when a comparison relies on source or edition currentness.
 * **Description, composition, and variation:** coordinates with `A.3.2` for method descriptions, `A.3.3` for dynamics, `B.1.5` for order-sensitive method composition, `B.2` for whole reidentification, and `G.5` for method families and selector outcomes.

@@ -6,12 +6,12 @@ section_id: "E.4.CM:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__007_bias-annotation.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:6 — Bias-Annotation"
-line_start: 82306
-line_end: 82309
+line_start: 91916
+line_end: 91919
 dependencies:
   - "A.3.1"
   - "B.1.5"

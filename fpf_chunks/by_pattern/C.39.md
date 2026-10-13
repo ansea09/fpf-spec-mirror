@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
-line_start: 77852
-line_end: 78149
+line_start: 82339
+line_end: 82638
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -312,6 +312,8 @@ The alternative is retrieval of an already adequate Method; it wins when it retu
 Reopen this line when a current direct Method supplies the entire use with less effort, when target applications expose a missing constructive operation, or when the explanation burden exceeds what the next decision can use.
 
 ### C.39:12 - Relations
+
+C.39.MC continues a connected Method-development question after a result or changed condition. It preserves applicable qualification, composition, description and support results while returning only the affected question to its supplier. Use it when that continuation is unresolved; an adequate direct MethodDescription remains the sufficient return.
 
 - C.39.RO constructs a reusable operation from a working case, retaining input meanings, application conditions and the reason for its result.
 - B.5.RC recovers a described construction; B.5.TU makes an available theory usable for the working question.

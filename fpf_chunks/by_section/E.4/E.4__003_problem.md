@@ -6,13 +6,14 @@ section_id: "E.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__003_problem.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:2 — Problem"
-line_start: 81788
-line_end: 81799
+line_start: 91211
+line_end: 91222
 dependencies:
+  - "C.20"
   - "C.33"
   - "C.34"
   - "C.35"

@@ -6,12 +6,12 @@ section_id: "A.2.6:16"
 section_title: "Playbooks (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__018_playbooks-informative.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:16 — Playbooks (Informative)"
-line_start: 6462
-line_end: 6514
+line_start: 7200
+line_end: 7252
 dependencies:
   - "A.1.1"
   - "A.15.1"

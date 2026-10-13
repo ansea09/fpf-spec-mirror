@@ -6,12 +6,12 @@ section_id: "C.32:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__014_footer-marker.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:13 — Footer marker"
-line_start: 73178
-line_end: 73181
+line_start: 76530
+line_end: 76533
 dependencies:
   - "A.10"
   - "A.15"

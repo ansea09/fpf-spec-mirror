@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.RP.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
-line_start: 79917
-line_end: 80129
+line_start: 89022
+line_end: 89234
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -227,6 +227,8 @@ With a fixed retention and practice budget, preserving the possibility of variat
 
 ### C.36.RP:12 - Relations
 
+C.36.MC qualifies a cultural claim about a Method repertoire and develops the explanation that lets another practitioner reconstruct and adapt a selected way. Use its result here when retention or renewal depends on that reconstructibility; an available description alone establishes neither acquired capability nor cultural retention.
+
 - **Specializes C.36** for sustaining and renewing shared ways of working.
 - **Uses E.23.CAE and E.23.CDI** to distinguish unavailable use from capability change and to construct a needed development intervention.
 - **Uses B.5.RC, B.5.RA and B.5.MPC** for reconstruction, argument use and connected foundational reasoning where those contributions are needed.
@@ -236,6 +238,4 @@ With a fixed retention and practice budget, preserving the possibility of variat
 - **Uses E.10.INT** when wording about interest or curiosity leaves the proposed continuation unclear.
 
 ### C.36.RP:End
-
-# Part D - Multi-scale Ethics and Conflict Optimization
 

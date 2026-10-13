@@ -6,12 +6,12 @@ section_id: "C.38:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__001_intro.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:intro — Intro"
-line_start: 77650
-line_end: 77655
+line_start: 82137
+line_end: 82142
 dependencies:
   - "A.10"
   - "A.15.9"

@@ -1,22 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.DSG"
-pattern_title: "DPF Suite Reference"
+pattern_title: "Architectural Reference"
 section_id: "E.11.DSG:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__011_rationale.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
-  - "E.11.DSG — DPF Suite Reference"
+  - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:10 — Rationale"
-line_start: 93132
-line_end: 93137
+line_start: 102965
+line_end: 102970
 dependencies:
-  - "A.14"
   - "C.2.1"
   - "C.2.P"
+  - "C.20"
   - "E.11"
+  - "E.11.PFP"
   - "E.11.PUA"
   - "E.11.PUR"
   - "E.17"
@@ -24,6 +25,7 @@ dependencies:
   - "E.4"
   - "E.4.PFAD"
   - "E.4.PFR"
+  - "E.9"
   - "F.9"
   - "G.11"
   - "G.5"
@@ -32,7 +34,7 @@ keywords:
 
 ### E.11.DSG:10 - Rationale
 
-A Suite is a continuing collection of DPF product series and, once included, its Reference product series. The Reference answers how a reader starts when selection or a cross-DPF question is live. Keeping the Suite collection, Reference belonging, Reference availability, and Reference use separate permits direct use of a known DPF result and permits Reference repair or retirement without rewriting Suite identity.
+An architectural reference explains the structure and reasons of a method language. For a Suite, the discipline described and the account of its framework remain different subjects; for FPF Library, connections among languages need not be disciplinary part relations. This is why the account can explain outside contributions without absorbing their fields and why repairing or retiring the account does not reidentify a discipline.
 
-Progressive detail is not imprecision. The ordinary sentence carries the useful distinction first; exact episteme identity, edition continuity, source use, and stronger relation predicates remain available when they change the claim.
+Progressive detail keeps ordinary use short without shortening the full explanation needed for adaptation. A trustworthy entry exposes its useful contribution and returns to the developed Method rather than making navigation compensate for missing content.
 

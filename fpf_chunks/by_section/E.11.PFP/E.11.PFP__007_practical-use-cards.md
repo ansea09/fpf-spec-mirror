@@ -6,12 +6,12 @@ section_id: "E.11.PFP:section-006"
 section_title: "Practical-Use Cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__007_practical-use-cards.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:section-006 — Practical-Use Cards"
-line_start: 92690
-line_end: 92799
+line_start: 102490
+line_end: 102601
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -64,7 +64,7 @@ This profile keeps structural field keys in canonical English. A translation may
 
 #### E.11.PFP:4.4 - Keep support units and adjacent products distinct
 
-A Readme, Preface, ToC, pattern-body collection, whole-framework account, relation or edition note, and refresh route may be publication units of one framework product when they serve its declared use and edition boundary. Place each unit where its readers can find and use it. A separate file is a carrier choice.
+A Readme, architectural reference, ToC, pattern-body collection, relation or edition note, and refresh route may be publication units of one framework product when they serve its declared use and edition boundary. Place each unit where its readers can find and use it. A separate file is a carrier choice.
 
 Use `E.4:4.1` to decide an adjacent product boundary from the useful result and its intended use. People may need to use, cite, or change a result as an identified whole, whether it appears inside a collection or through a separate carrier. State its identity, edition or current state, users, use, content boundary, and access route to the extent needed for that use. An established maintainer or maintenance commitment is not a prerequisite; record maintenance and refresh conditions when they are established and change reliance or use.
 
@@ -82,8 +82,8 @@ The deterministic part of the form check handles recoverable syntax and projecti
 - absence of raw HTML from the complete Markdown publication under E.8:4.1.1, while retaining literal code, mathematical notation and Markdown autolinks;
 - the product-declared title and Readme H1, the compact opening, and absence of prohibited development or machine material from reader front matter;
 - the required H1 sequence plus the product-declared body and reference tail;
-- product-declared Readme and Preface entries in the established ToC grammar, before the logical pattern index, with no generic rival mini-menu;
-- one correctly addressed, content-free Preface end heading at the boundary of that unit;
+- product-declared Readme and architectural-reference entries in the established ToC grammar, before the logical pattern index, with no generic rival mini-menu;
+- one correctly addressed, content-free architectural-reference end heading at the boundary of that unit;
 - authoritative index segments, aggregate row/body bijection, duplicates, and reserved support-index grammar;
 - the Readme's one practical-entry set; its explicit examples-not-coverage statement; the product's declaration of example keys and forms; exactly one H3 ordinary entry or H4 card per declared key; five ordered ordinary-entry fields; a non-empty card-group explanation; six ordered card fields; the shared reading-burden measure and mantra/card limits; and zero or one same-key H5 expansion with the declared boundary; and
 - equality and source agreement of every optional public cue that is actually projected.
@@ -128,17 +128,19 @@ When a condition governs a whole combination of Methods, give it one public stat
 
 Also explain the relevant Method-composition structure and how its constituents are enacted in ongoing Work. A selected action can constitute part of a larger work that is being performed at that same moment. Give a representative example in which a condition of the whole changes the constituent action; show where a missing intermediate capability or incompatible resource demand prevents the combination. B.1.5.EW recovers that connection and B.1.5.RS examines a constituent replacement. A DPF can describe only some of the needed constituent–whole connections: state the preparation, support and coordinating performance needed beyond its own descriptions. Reuse clear existing explanations and stop decomposition when further detail cannot change the use. Genuine earlier-result dependencies remain part of the account.
 
-Place the connected account in the product's existing Preface and declared reference or support units. Readme explains how to enter and use it. A large language may use a public Reference for explanations shared across many bodies; a small language may carry them in its Preface. Preserve enough rationale, source synthesis, alternatives, and worked detail for the intended reader to understand and adapt the language without its development intake or DRR. An exact inherited answer can satisfy a question; merely naming a pattern or listing source titles cannot supply missing explanation.
+Publish the connected account as `<framework name> Architectural Reference`, the framework-level application of E.4's architectural-reference function. An all-in-one publication embeds the unit in its front matter; a multi-file framework gives it a discoverable place in that framework's assembly. Readme explains how to enter it. E.11.DSG governs the account and its useful question-led entries; this profile governs the framework's form. A unit whose declared address key is `Preface` can carry this function without making that key the function's name. The title, unit key, file and edition identity remain separate choices.
+
+At a wider language-assembly level, the corresponding Suite or FPF Library Architectural Reference explains the connections added there and returns to the framework's account. A separate source host, downloadable copy or site page is not another assembly level. Preserve enough rationale, source synthesis, alternatives, and worked detail for the intended reader to understand and adapt the language without its development intake or DRR. An exact inherited answer can satisfy a question; merely naming a pattern or listing source titles cannot supply missing explanation.
 
 These are twelve content functions, not twelve compulsory new H1 sections. Each full pattern body retains its address and E.8 form. The outer Solution explains how to use the contributions together and returns to the bodies in the existing collection. It does not nest them under a new parent heading or require reading the whole account before a direct pattern use. If the public account uses the canonical function labels, prefer `Architectural Rationale`; `Rationale` remains the accepted alias defined by E.8.
 
-There is no fixed number of generality scales. For example, a reader can move from FPF's general treatment of Methods to a Method Engineering DPF, a pattern-language construction profile, a narrower literature-based extension profile, and a pattern that recovers one candidate Method from source and Work evidence. Further useful scales can be introduced. Explain the relation at each move: a profile is a bounded-use projection; specialization carries inherited content plus a delta; composition connects Method contributions; reuse makes one contribution available in several settings; a chapter or Part groups publication text. A substantive narrowing must pass `E.8:4.1.3`'s same-situation usefulness comparison.
+There is no fixed number of generality scales. For example, a reader can move from FPF's general treatment of Methods to its Method-development family, a pattern-language construction specialization, a narrower literature-based extension profile, and a pattern that recovers one candidate Method from source and Work evidence. Further useful scales can be introduced. Explain the relation at each move: a profile is a bounded-use projection; specialization carries inherited content plus a delta; composition connects Method contributions; reuse makes one contribution available in several settings; a chapter or Part groups publication text. A substantive narrowing must pass `E.8:4.1.3`'s same-situation usefulness comparison.
 
 A pattern can participate in several profiles, and a profile can draw on several contributions. Describe this structure through the relations that hold. If a mathematical view is useful, apply `C.29`: select the elements and relation being modeled. A partial order needs its order properties; a lattice additionally needs the required bounds for every relevant pair. Multiple parentage or overlapping membership alone establishes neither. Keep that mathematical representation distinct from the Methods and their subject-side relations.
 
-##### E.11.PFP:4.7.1 - Make a Preface section recognizable on its own
+##### E.11.PFP:4.7.1 - Make an architectural-reference section recognizable on its own
 
-A reader entering through search, a quotation, a link or a retrieved excerpt may see a heading without its parents. Every heading that introduces Preface content therefore carries the framework's public reference code, the publication-unit key `Preface`, and its complete ordinal section path:
+A reader entering through search, a quotation, a link or a retrieved excerpt may see a heading without its parents. Every heading that introduces architectural-reference content therefore carries the framework's public reference code, the product-declared publication-unit key, and its complete ordinal section path:
 
 ```text
-## <FrameworkCode>.Preface:<n> - <Title>
+## <FrameworkCode>.<UnitKey>:<n> - <Title>

@@ -6,12 +6,12 @@ section_id: "C.40.CD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__013_relations.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:12 — Relations"
-line_start: 79477
-line_end: 79486
+line_start: 84741
+line_end: 84753
 dependencies:
   - "B.5.MPC"
   - "B.5.QD"
@@ -34,4 +34,7 @@ keywords:
 - **C.18 and C.19** govern archive, front and continuation-policy claims when these are needed.
 - **C.11.DUA** compares worthwhile information work; **C.38** compares ways for a shared result.
 - **E.10.INT and C.36.RP** connect action-relevant interest and continuing access to shared methods.
+
+C.40.OCN develops a bounded opportunity when its useful contribution and attainability still need construction. If the resulting way, holder and provision require coupled change, C.40.JD constructs those joins. C.40.NP develops a further problem from an obtained result. C.40.OD connects these contributions into an open-ended developmental whole when that is the intended result; the co-development of this one problem and way can also finish on its own.
+
 

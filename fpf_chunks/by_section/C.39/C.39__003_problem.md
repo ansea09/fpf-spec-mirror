@@ -6,12 +6,12 @@ section_id: "C.39:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__003_problem.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:2 — Problem"
-line_start: 77872
-line_end: 77877
+line_start: 82359
+line_end: 82364
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"

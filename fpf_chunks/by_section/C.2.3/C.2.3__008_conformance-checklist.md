@@ -6,12 +6,12 @@ section_id: "C.2.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__008_conformance-checklist.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:7 — Conformance Checklist"
-line_start: 49970
-line_end: 49987
+line_start: 53071
+line_end: 53088
 dependencies:
   - "A.16"
   - "A.18"

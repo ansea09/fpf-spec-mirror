@@ -6,12 +6,12 @@ section_id: "B.5.EA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.EA/B.5.EA__008_conformance-checklist.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "B.5.EA — Articulate a Working Distinction from Experience"
   - "B.5.EA:7 — Conformance Checklist"
-line_start: 44126
-line_end: 44134
+line_start: 47030
+line_end: 47038
 dependencies:
   - "B.5"
   - "B.5.4"

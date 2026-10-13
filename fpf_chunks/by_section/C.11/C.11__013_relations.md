@@ -6,12 +6,12 @@ section_id: "C.11:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__013_relations.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:12 — Relations"
-line_start: 54133
-line_end: 54140
+line_start: 57234
+line_end: 57243
 dependencies:
   - "A.10"
   - "A.13"
@@ -51,6 +51,8 @@ keywords:
 ---
 
 ### C.11:12 - Relations
+
+C.11.MV constructs a Method-option worth comparison, preserving the receiving result, present alternative, learning and transition effort, recurring support and distribution of burden. It uses this choice discipline and C.11.DUA where a demanded inquiry or requirement itself needs appraisal.
 
 - **Builds on:** `A.6.P`, `A.6.5`, `A.10`, `A.13`, `A.18`, `A.19`; **coordinates with:** `E.10.LRN` for learning-word recovery, `C.11.CRC` for a missing finite configuration-relative comparison claim, `C.17` for bounded characterization
 - **Read next when candidate work is needed:** `C.38` for forming complete ways of obtaining one result, `C.39` for a missing explanation of how to obtain it, or `C.40` for feasible variation and examination of usable material. Use `C.18` when generation-account or archive/front claims are needed.

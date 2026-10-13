@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.37.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
-line_start: 77369
-line_end: 77649
+line_start: 81381
+line_end: 81663
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -308,6 +308,8 @@ The receiving use is the smallest stable boundary shared across domains. Represe
 Reopen this source use when newer representation, provenance, view, or decision practice supplies a lower-effort way to keep the same direct-result and receiving-action boundaries, or when real interoperability requires a common standalone account kind that cannot preserve them through ordinary C.2.1 identity and direct references.
 
 ### C.37:12 - Relations
+
+C.37.MP relates several completed use-bounded selections when a cross-use Method-representation profile is needed. C.37.CF constructs a comparison of changed content and changed form for a stated reader and use. Neither profile nor comparison retroactively merges the one-action boundaries here.
 
 - **Builds on:** `C.2.1` for any standalone account episteme and for the identity of claim-bearing candidate results.
 - **Coordinates with:** the direct pattern governing each candidate's subject result; `A.2.4` for optional first evidence-use or status-use classification; `A.10` for evidence-provenance and bounded reliance; and the direct choice, gate, permission, authorization, acceptance, or domain pattern for the receiving result.

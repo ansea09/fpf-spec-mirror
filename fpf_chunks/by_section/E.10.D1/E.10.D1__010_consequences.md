@@ -6,12 +6,12 @@ section_id: "E.10.D1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__010_consequences.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:9 — Consequences"
-line_start: 90586
-line_end: 90591
+line_start: 100386
+line_end: 100391
 dependencies:
   - "A.1.1"
   - "A.2.6"

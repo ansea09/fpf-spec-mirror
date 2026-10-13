@@ -6,12 +6,12 @@ section_id: "E.11.PFP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__009_archetypal-grounding.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:5 — Archetypal Grounding"
-line_start: 92815
-line_end: 92836
+line_start: 102617
+line_end: 102638
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -36,7 +36,7 @@ keywords:
 
 **DPF with non-ascending pattern addresses.** A Systems Engineering DPF edition orders `SYSE.1`, `SYSE.16`, `SYSE.17`, and `SYSE.2` because that sequence helps readers. Its ToC rows and H2 bodies follow the same order. The `§` column reports each current position; it is not part of the PatternID. A later move changes the rows and bodies together without renumbering a continuing pattern. A citation outside the carrier says `Systems Engineering DPF, SYSE.16`; one intended to recover the earlier body also names the edition.
 
-**DPF, all-in-one and low-tool.** A horticulture DPF is distributed as one Markdown file and a printed copy. Both open with the public framework name and `Edition: Horticulture DPF 2.1`; the Markdown line links to a public edition page and the print line gives the same public address. The ToC, practical entries, Preface, four pattern bodies, coverage account, and refresh note follow. Authorship, source provenance, and change history remain reachable after the bodies. Readers can identify and return to the edition without crossing build records before their first working question.
+**DPF, all-in-one and low-tool.** A horticulture DPF is distributed as one Markdown file and a printed copy. Both open with the public framework name and `Edition: Horticulture DPF 2.1`; the Markdown line links to a public edition page and the print line gives the same public address. The ToC, practical entries, Horticulture Principle Framework Architectural Reference, four pattern bodies, coverage account, and refresh note follow. Authorship, source provenance, and change history remain reachable after the bodies. Readers can identify and return to the edition without crossing build records before their first working question.
 
 **FPF, split carriers.** One website exposes an FPF edition through a front page and a separately downloadable Readme. The front page already identifies the edition, so its embedded Readme begins with practical entries. The standalone Readme repeats only the short edition line because it can circulate alone. Both return to the same public edition record; neither mints another edition or editable status copy.
 
@@ -44,7 +44,7 @@ keywords:
 
 **Adjacent product.** A separately maintained horticulture source registry has its own current state, users, selection rule, access route, and refresh commitment. The DPF points to that state; copying a snapshot into an annex does not create a second authoritative registry. One combined website may expose both, but the registry retains its catalogue form and receives no invented framework fields.
 
-**Whole Method Engineering account.** An engineer extending a pattern language from a handbook needs both source recovery and a decision about what the new language will let practitioners do. The Preface explains the overall working question and returns to the source-recovery and comparison patterns. Architectural Rationale compares retaining a profile inside the language with giving it its own usable identity; the shared sources and trade-offs remain public. If the handbook cannot be inspected, the account names the source-dependent claim that remains unresolved and leaves unaffected direct uses available. A catalogue of source titles would not supply that missing basis.
+**Whole Method Engineering account.** An engineer extending a pattern language from a handbook needs both source recovery and a decision about what the new language will let practitioners do. The Method Engineering Principle Framework Architectural Reference explains the overall working question and returns to the source-recovery and comparison patterns. Architectural Rationale compares retaining a profile inside the language with giving it its own usable identity; the shared sources and trade-offs remain public. If the handbook cannot be inspected, the account names the source-dependent claim that remains unresolved and leaves unaffected direct uses available. A catalogue of source titles would not supply that missing basis.
 
 **Condition of a whole combination.** Three proposed activities each need seven observer-hours that cannot be shared between activities. The available total is eighteen observer-hours. Any pair needs fourteen and fits; all three need twenty-one and exceed the total by three. The whole account states the resource condition once. The reader can select a feasible subset or obtain at least three additional observer-hours before committing to all three. Separate successful pairwise checks leave this whole-combination decision open.
 

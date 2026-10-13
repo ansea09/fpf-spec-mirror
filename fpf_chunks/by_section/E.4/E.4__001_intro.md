@@ -6,13 +6,14 @@ section_id: "E.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__001_intro.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:intro — Intro"
-line_start: 81774
-line_end: 81779
+line_start: 91197
+line_end: 91202
 dependencies:
+  - "C.20"
   - "C.33"
   - "C.34"
   - "C.35"

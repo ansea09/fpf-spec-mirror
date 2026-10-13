@@ -6,12 +6,12 @@ section_id: "A.19.ECS:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__013_relations.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:11 — Relations"
-line_start: 32780
-line_end: 32798
+line_start: 35489
+line_end: 35507
 dependencies:
   - "A.17-A.19"
   - "C.16"

@@ -6,12 +6,12 @@ section_id: "F.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__006_solution.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:4 — Solution"
-line_start: 112959
-line_end: 113397
+line_start: 123129
+line_end: 123568
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -413,35 +413,36 @@ The following are candidate inputs, not current `NameCard` epistemes. Each uses 
 
 A collision-free text search is useful evidence but does not substitute for the missing governed lexical values. Until closure, authors may quote these candidate spellings when discussing the R7 declaration, but must not cite a current NameCard or public term row.
 
-#### F.18:4.2e - Current DPF Suite Reference NameCard
+#### F.18:4.2e - Architectural Reference NameCard
 
-This card settles the public name of the relation-defined product form already governed by `E.11.DSG`. Its governed value is that product form, not a particular Suite, product series, edition, answer, lookup activity, or publication occurrence. The card and its row create none of those objects.
+This card names the architectural-reference form governed by E.4:4.1, E.11.PFP:4.7 and E.11.DSG: a public account of a named method language's architecture, reasons and shared explanation. The governed value is this functional publication-unit form, not one framework, Suite, Library, product series, edition, answer, lookup activity or publication occurrence. The form can be embedded or separately carried.
 
 ```text
 NameCard:
-  NameCardId: NC-DPF-SUITE-REFERENCE
-  GovernedValueRef: E.11.DSG DPF Suite Reference product form
+  NameCardId: NC-ARCHITECTURAL-REFERENCE
+  GovernedValueRef: E.4:4.1 architectural-reference publication-unit form
   GovernedValueKindRef: U.Kind
-  SubjectPatternLocator: E.11.DSG
+  SubjectPatternLocator: E.4:4.1; E.11.PFP:4.7; E.11.DSG
   ReferenceScheme: FPFCoreReferenceScheme
-  ClaimContent: NC-DPF-SUITE-REFERENCE.ClaimGraph
-  LocalSenseCellRef: SenseCell.DPFSuiteReference.FPFCore.2026-08-28
-  TechLabel: DPFSuiteReference
-  PlainLabel: DPF Suite Reference
-  CandidateSet: Reference; Handbook; Overview; Companion; Manual; Guide; Using the DPF Suite; registry; index; catalogue
-  CandidateCoverage: publication-form, instructional-publication, activity-name, and registry-or-finding-aid readings were compared; no plausible current head family remains open for this use
-  RejectedCandidates: Handbook and Manual imply broad instruction or completeness; Overview and Companion understate the problem-led answer-and-return function; Guide suggests instructional procedure; Using the DPF Suite names reader activity; registry, index, and catalogue hide the problem-led answer
-  SelectionRationale: Reference is the smallest head that fits an editioned non-framework publication readers consult for a bounded cross-DPF answer, source returns, and honest gaps; the E.11.DSG opening prevents the residual citation-list overread
-  DeclaredUse: Core-facing designation of the E.11.DSG product form and readable title component for one exact continuing DPF Suite Reference series or admitted edition
-  NonAdmissibleUse: no Suite, product series, edition, admission, Suite inclusion, currentness, availability, source authority, answer, lookup Work, or publication occurrence follows from the name, card, or row; the Reference is neither a framework nor an instructional Guide
+  ClaimContent: NC-ARCHITECTURAL-REFERENCE.ClaimGraph
+  LocalSenseCellRef: SenseCell.ArchitecturalReference.FPFCore.2026-10-12
+  TechLabel: ArchitecturalReference
+  PlainLabel: architectural reference
+  CandidateSet: Reference; Architectural Reference; Architecture Reference; Framework Reference; Overview; Preface; Handbook; Companion; Manual; Guide; architecture decision record; index; catalogue
+  CandidateCoverage: functional account, introductory location, question-led reference, instructional publication, decision history and finding-aid readings were compared for embedded and separately carried accounts at framework, Suite and Library levels
+  RejectedCandidates: bare Reference leaves the explained whole and architectural function unclear; Framework Reference alone does not cover Suite and Library names; Preface names a placement without specifying the function; Overview can understate the developed rationale and shared explanation; Handbook, Manual and Guide invite a broad instructional reading; Companion does not say what is explained; architecture decision record implies decision history; index and catalogue omit the account; Architecture Reference is possible ordinary wording but does not improve the selected qualified title
+  SelectionRationale: architectural reference names a consultable public account of the structure, connections and reasons of an already identified method language; Architectural states the function while the whole's name states its subject, regardless of carrier
+  DeclaredUse: use <name of the explained whole> Architectural Reference as the full public title; use a shorter mention only while the whole is unambiguous; cite the generic form across E.4, E.11.PFP and E.11.DSG without creating a name family for each carrier or assembly level
+  NonAdmissibleUse: the name establishes no disciplinary parthood, composite Method, independent product series, edition admission, availability or maintenance; a reference entry cannot substitute for a missing E.8 Method, and an architectural reference is not a separate teaching Guide or decision-history record
   BridgeRefs: none
   PublicRowStatus: current
-  UnifiedTermRowRef: UTS.DPFSuiteReference.FPFCore.2026-08-28
-  LineageEntries: DPF Suite Guide is the predecessor Plain designation only; DSG remains stable PatternID lineage residue and is not a current public expansion; no DSR or synonym family is admitted
-  RefreshCondition: reopen if readers still classify the product as instruction, a design record, a registry, citation list, or lookup Work; if Reference hides the problem-led use; if the E.11.DSG product boundary or identity rule changes; if FPFCoreReferenceScheme, the exact F.17 sense cell or row, or the cited use changes; or if a better established product-form name proves clearer without losing the selected function
+  UnifiedTermRowRef: UTS.ArchitecturalReference.FPFCore.2026-10-12
+  LineageEntries: DPFSuiteReference names the narrower cross-DPF answer-publication sense and is not an alias for this broader function; a shared host or section number establishes no identity or historical edition relation between the naming objects
+  RefreshCondition: reopen when the explained-language function, required public rationale, carrier independence, product boundary or title use changes; when readers confuse the account with a Method, Guide, decision record or new discipline; or when the governing scheme, exact sense cell or row changes
 ```
 
-One `FPFCoreReferenceScheme` cell is sufficient, so this settlement adds no F.9 Bridge or separate correspondence-use claim. A qualified product title such as *Engineering DPF Suite Reference* identifies its exact series or edition through that product's own claims; the qualifier does not change this Core product-form card.
+One `FPFCoreReferenceScheme` cell suffices for this use, so the settlement adds no F.9 Bridge or correspondence-use claim. *FPF Library Architectural Reference*, *Engineering Suite Architectural Reference* and *Method Engineering Principle Framework Architectural Reference* qualify the same functional designation by the explained whole. They do not name new kinds or independently maintained series. The full title, filename, declared publication-unit key and stable `SectionRef` are separate; changing a title does not by itself preserve an old Markdown fragment.
+
 
 #### F.18:4.3 - Candidate Selection
 

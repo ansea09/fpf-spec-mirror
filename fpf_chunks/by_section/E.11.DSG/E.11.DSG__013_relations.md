@@ -1,22 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.DSG"
-pattern_title: "DPF Suite Reference"
+pattern_title: "Architectural Reference"
 section_id: "E.11.DSG:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__013_relations.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
-  - "E.11.DSG — DPF Suite Reference"
+  - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:12 — Relations"
-line_start: 93146
-line_end: 93152
+line_start: 102981
+line_end: 102987
 dependencies:
-  - "A.14"
   - "C.2.1"
   - "C.2.P"
+  - "C.20"
   - "E.11"
+  - "E.11.PFP"
   - "E.11.PUA"
   - "E.11.PUR"
   - "E.17"
@@ -24,6 +25,7 @@ dependencies:
   - "E.4"
   - "E.4.PFAD"
   - "E.4.PFR"
+  - "E.9"
   - "F.9"
   - "G.11"
   - "G.5"
@@ -32,8 +34,8 @@ keywords:
 
 ### E.11.DSG:12 - Relations
 
-- **Specializes:** `E.11` for one editioned cross-DPF Reference product; it does not specialize `E.11.PFP`.
-- **Uses:** `E.4:4.2` and `E.4.PFAD` for product-series and Suite constitution, edition-to-product belonging, Suite inclusion and removal, and their decisions; `A.14` for the distinction between collection belonging and constructive parthood; `C.2.1` for Reference and DPF editions and their continuity; and `G.5` only for an actual `JointUseSet`.
+- **Specializes:** `E.11` for the architectural reference of a named language assembly and its useful question-led entries; it does not specialize `E.11.PFP`.
+- **Uses:** `E.4:4.1` for the architectural-reference function and product boundary; `E.11.PFP:4.7` for a framework account; `E.4:4.2` and `E.4.PFAD` for the Suite's composite-discipline and framework architecture; `C.20` for disciplinary composition; `E.9` for developing and recording the explained decisions; `C.2.1` for Reference and DPF editions; and `G.5` only for an actual `JointUseSet`.
 - **Coordinates with:** `E.4.PFR` for exact edition dependency and compatibility; `C.2.P` and `F.9` for derivatives and cross-scheme use; `E.17`, `E.24.PUB`, and `G.11` for source return, publication, availability, and currentness; `E.11.PUA` and `E.11.PUR` for actual selected-pattern use and pattern-use coordination.
-- **Constrains:** public DPF Suite Reference entries, Reference-level metadata and warnings, source-return projections, persisted lookup answers, and returns after inclusion, availability, identity, or retirement changes.
+- **Constrains:** public architectural accounts of frameworks, Suites and FPF Library, their question-led entries and source returns, truthful treatment of external suppliers and gaps, and repairs after changes to Methods, language or field architecture, or publication.
 

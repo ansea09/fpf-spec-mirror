@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
-line_start: 39892
-line_end: 40316
+line_start: 42601
+line_end: 43027
 dependencies:
   - "A.1"
   - "A.15"
@@ -462,6 +462,8 @@ These rows answer the B.1.5 practice question: how to decide and expose order-se
 **Currentness and reopen.** These four decisions are qualified by the exact source selections cited above. Reopen only the affected row when a cited source or edition is superseded, or when newer practice changes the relied-on model/occurrence separation, order or join condition, interface or substitution boundary, or construction and reidentification test. Recheck that row's B.1.5 adoption, refusal, and affected Solution, worked-case, checklist, and Relations loci; leave unaffected rows closed.
 
 ### B.1.5:12 - Relations
+
+B.1.5.CM constructs the prospective whole, constituent contributions, joins and boundary account that this qualification consumes. C.32.MWA.PP separately compares performance and provision arrangements. Useful cooperation or a shared provider does not supply a missing Method whole.
 
 - Uses `A.1` for the general non-agentive-holon recognition boundary; A.1 does not supply Method-part or whole-forming facts.
 - Uses `A.3.1` to identify the exact candidate Method and every exact part Method before B.1.5 tests the composite-method qualification; B.1.5 directly governs only `MethodPartOfRelation` and the composite-construction test.

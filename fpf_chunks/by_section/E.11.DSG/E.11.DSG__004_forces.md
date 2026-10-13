@@ -1,22 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.DSG"
-pattern_title: "DPF Suite Reference"
+pattern_title: "Architectural Reference"
 section_id: "E.11.DSG:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__004_forces.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
-  - "E.11.DSG — DPF Suite Reference"
+  - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:3 — Forces"
-line_start: 92958
-line_end: 92969
+line_start: 102760
+line_end: 102772
 dependencies:
-  - "A.14"
   - "C.2.1"
   - "C.2.P"
+  - "C.20"
   - "E.11"
+  - "E.11.PFP"
   - "E.11.PUA"
   - "E.11.PUR"
   - "E.17"
@@ -24,6 +25,7 @@ dependencies:
   - "E.4"
   - "E.4.PFAD"
   - "E.4.PFR"
+  - "E.9"
   - "F.9"
   - "G.11"
   - "G.5"
@@ -35,8 +37,9 @@ keywords:
 | Force | Pressure on the solution |
 | --- | --- |
 | Fast first use | A reader needs an answer before a catalogue of internal distinctions. |
-| Exact return | The answer must still lead to the Suite collection, the product series or edition that changes the action, the Reference edition, and the direct source. |
-| Separate managed boundaries | The Suite collection, Reference product series, DPF product series that belong to the Suite, adjacent evidence products, and carriers have distinct identity, edition or state, and maintenance claims. |
+| Exact return | A short entry must lead to the full contribution, its actual supplying framework and the conditions needed for use. |
+| Public architectural account | Shared rationale, alternatives, sources and whole conditions must remain available without making the reader traverse them before every known pattern. |
+| Different subjects | The composite discipline, its Suite description, constituent frameworks, external suppliers, Reference and publication or access arrangement are not interchangeable. |
 | Honest combination | Several resources may be necessary, alternatives, or merely plausible; the Reference must state the actual relation or uncertainty. |
 | Current action | Date, status, warning, availability, and source return matter only when they change what the reader should do. |
 | Low record burden | Ordinary lookup may remain conversation; addressable answers are justified only by later review, reuse, publication, or reliance. |

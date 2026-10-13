@@ -6,12 +6,12 @@ section_id: "A.3:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__003_context.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:2 — Context"
-line_start: 8309
-line_end: 8315
+line_start: 9047
+line_end: 9053
 dependencies:
   - "A.10"
   - "A.12-A.15"

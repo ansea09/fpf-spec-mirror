@@ -6,12 +6,12 @@ section_id: "E.8:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__014_relations.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:12 — Relations"
-line_start: 86122
-line_end: 86135
+line_start: 95754
+line_end: 95769
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -57,6 +57,8 @@ keywords:
 ---
 
 ### E.8:12 - Relations
+
+E.8.ML constructs a problem-first language for connected Methods: independently useful bodies, their result dependencies, alternatives and returns, and the explanation of their combined use. Its direct-description exit avoids making a language where one adequate account is sufficient. E.11.PFP continues to govern public arrangement.
 * **Coordinates with:** `E.9.DA` when an authored pattern body is drafted from a concrete `DRR` and the blocker is whether the `DRR` selected, distributed, carried source use, carried accepted decisions, or supplied a first drafting action sufficiently for that authoring use. `E.8` still governs the pattern body; `E.9.DA` is not a mandatory authoring section, review card, or substitute for writing the Solution.
 
 * **Builds on:** E.6, E.7

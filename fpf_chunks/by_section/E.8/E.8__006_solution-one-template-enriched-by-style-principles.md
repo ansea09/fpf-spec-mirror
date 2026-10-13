@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__006_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 85433
-line_end: 85966
+line_start: 95065
+line_end: 95598
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -399,7 +399,7 @@ Use existing sections, examples and direct references to organize these paths. `
 
 Use this move when the needed explanation is available but the author still has to decide what the reader should read, compare, remember, manipulate or carry forward. It also applies when arranging incomplete material is how the reader will discover the question. A representation can help produce a distinction that was not available before it was used. Its usefulness is not limited to storing a finished answer.
 
-Begin with the reader's operation and actual material. Try it with a sufficient existing expression before designing another one. Retain the reader's preparation and available help from §4.2.1.1. If the operation itself is missing, develop or obtain it; rearranging its name cannot supply it. A.6.3.RT.OE explains how to make an expression operative. Developing formation, interpretation or transformation rules is a separate notation-engineering task. The external [Notational Engineering DPF](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/NOTATIONAL-ENGINEERING-DPF.md) offers optional methods for that work.
+Begin with the reader's operation and actual material. Try it with a sufficient existing expression before designing another one. Retain the reader's preparation and available help from §4.2.1.1. If the operation itself is missing, develop or obtain it; rearranging its name cannot supply it. A.6.3.RT.OE explains how to make an expression operative. Developing formation, interpretation or transformation rules is a separate notation-engineering task. The external [Notational Engineering DPF](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/NOTATIONAL-ENGINEERING-DPF.md) offers optional methods for that work.
 
 **Construct the contrast before choosing the format.** Place together the pieces that the operation needs to distinguish or combine. They can still contain uncertain interpretations or an unanswered question. Attempt the comparison, grouping, substitution or inference. Where it fails, determine whether a missing fact, a missing operation or the arrangement of the expression prevents the result. Change the arrangement when it hides or confounds an available distinction. Obtain a missing fact when the receiving operation requires it. Preserve an unresolved question when it is the useful result of this attempt.
 

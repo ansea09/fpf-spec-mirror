@@ -6,13 +6,14 @@ section_id: "E.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.4 — FPF Ecosystem Architecture: Framework Families, Products and DPF Suites"
   - "E.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 82045
-line_end: 82061
+line_start: 91510
+line_end: 91526
 dependencies:
+  - "C.20"
   - "C.33"
   - "C.34"
   - "C.35"
@@ -48,7 +49,7 @@ keywords:
 
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
-| Core absorption | A domain or local framework is placed into the FPF Core because it is useful. | Create a separate framework edition and state its dependency directly; open `E.4.PFR` only for a named maintenance consumer. |
+| Placement decided from usefulness alone | Useful domain Methods are absorbed into Core, or general Methods are left in an arbitrary DPF because their applications have familiar domain names. | Test the premises and construction: domain-specific contributions belong in the relevant DPF; genuinely transdisciplinary distinctions and Methods can belong in Core. Broad usefulness alone settles neither choice. |
 | File tree or package manifest as architecture | A folder layout, package descriptor, or manifest is read as the ecosystem architecture. | Use the file or manifest as a carrier and recover the direct architecture, relation, dependency, source-return, publication, access, quality, and currentness claims needed for the question. |
 | Publication-only architecture | A table of contents or all-in-one carrier is used as the architecture description. | State the selected structures and source return directly; open an ecosystem-architecture record only for durable architecture or later reliance, and use `E.11` and `E.17` for the exact practical-entry and publication assertions. |
 | Ontology or talk guide as framework | A framework names domain entities, terms, or conversation moves but does not identify recurring domain problems, known failure modes, SoTA solution moves, and worked repairs. | Keep the ontology, glossary, or communication guide as support material; create or repair the framework around problem situations, solution moves, cases, and quality routes. |
@@ -57,7 +58,7 @@ keywords:
 | Product label used as an object kind | A guide, service, programme, registry, System, or episteme is asserted to be the same kind because each is managed as a product. | Keep *product* as Plain management wording. Name each direct subject and the relation used for identity, current state, provision, or maintenance; return an unresolved-kind question when needed. |
 | Shared carrier or shared use means one product | A cross-framework registry or service is absorbed into one DPF, or a combined carrier merges a framework and catalogue. | Decide each product from its direct subjects, use, identity, and change rule; keep exact constituent pointers and let the outer carrier remain neutral. State maintenance only when it separately obtains. |
 | Service or publication scheme used as universal architecture | A full service-management system, bibliographic entity model, or content-management process is imposed on every framework unit, programme, guide, or tool. | Reuse only the distinction that answers the current boundary question; keep service, publication, content, and programme claims under their own subject patterns. |
-| DPF list presented as a Suite | A title or co-list replaces product-series constitution, the Suite-constitution decision, the direct belongs-to occurrences, identity rules, and later-review and retirement conditions. | Keep a proposal until `E.4:4.2` passes; then identify the Suite collection and the product series that belong to it. State maintenance only when it separately obtains. |
-| Suite belonging inflated | Two product series belong to the same Suite, so the text infers order, dependency, compatibility, maintenance, publication, or co-use. | Keep the Suite claim at product-series grain and apply the direct predicate for every stronger claim. |
+| DPF list presented as a Suite | A co-list or publisher's inclusion decision replaces a composite discipline and its pattern language. | Establish the C.20 whole and describe it under E.4:4.2; otherwise retain a useful library index, reading route or other publication without the Suite claim. |
+| Use inflated into Suite membership | A needed result, similar audience or general Method makes an entire supplier DPF appear to be a constituent discipline. | Test the direct part relation, specialization and use separately. Put transdisciplinary Methods in Core and keep independently useful supplier DPFs outside the Suite unless their actual disciplinary parthood is established. |
 | Source-carrier authority | A summary, graph, or generated candidate set is treated as authoritative. | Admit the exact generated or discovered result for its intended architecture use through `C.35` or record preservation through `C.33` and `C.34` before use. |
 

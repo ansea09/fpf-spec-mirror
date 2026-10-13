@@ -6,12 +6,12 @@ section_id: "A.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__012_sota-echoing.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:11 — SoTA-Echoing"
-line_start: 11862
-line_end: 11882
+line_start: 14243
+line_end: 14263
 dependencies:
   - "A.10"
   - "A.15"

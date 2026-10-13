@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
-line_start: 78364
-line_end: 79272
+line_start: 83624
+line_end: 84536
 dependencies:
   - "C.11"
   - "C.18"
@@ -192,7 +192,7 @@ For asynchronous evaluation, retain the identity and starting conditions of ever
 
 For example, in a stipulated update toward a known target 10, the rule is x ← x + a(10 − x). Two updates with a=0.5 from x=0 produce 7.5. Two updates with a=0.1 from an inherited x=8 produce 8.38, but the same rule from x=0 produces only 1.9. The continuation ending at 8.38 has an error of 1.62, smaller than 2.5 for the other run; this supports that continuation. It does not show that a=0.1 is the better two-step rule from zero. Directly setting x to the already known target would be cheaper in this toy problem, so the arithmetic illustrates the comparison distinction, not a need for evolutionary search.
 
-State reuse needs a legitimate realization. Software may permit copying model weights and compatible optimizer state. A changed structure may make that state unusable. A person's acquired skill, fatigue or experience cannot be cloned by copying instructions. For development involving people, use actual preparation and learning conditions through HCD and actual trials through ME.11. If a comparison requires identical acquired states, keep that unavailable condition explicit; copying instructions supplies no such state.
+State reuse needs a legitimate realization. Software may permit copying model weights and compatible optimizer state. A changed structure may make that state unusable. A person's acquired skill, fatigue or experience cannot be cloned by copying instructions. For development involving people, use actual preparation and learning conditions through HCD and actual trials through A.3.1.WT. If a comparison requires identical acquired states, keep that unavailable condition explicit; copying instructions supplies no such state.
 
 **Develop persistence and recovery from states the process reaches.** A repeated rule can produce a wanted result and then destroy it, or work from its original start but fail after a disturbance. Use this construction when the receiving demand includes continued useful operation or recovery. Distinguish what must be obtained from the original start, what must remain true during use, and which disturbances must be recoverable within the available time and resources. Continued functioning can involve changing configurations; a fixed picture need not be the target.
 
@@ -314,7 +314,7 @@ Use this branch when comparing two candidates is obtainable at useful cost, whil
 
 **Obtain the comparison the next move needs.** Fix the candidate meaning, context, criterion, judge or evaluating operation, and intended use of its answer. Comparing two complete policies under a common collection of situations differs from comparing two actions in one situation. Specify which is needed; one favorable local action does not establish a better policy. Preserve separate criteria when their trade-off is unsettled. Keep requirements for permitted trials and sufficient receiving results outside a merely relative preference.
 
-Obtain initial comparisons from compatible existing observations, an evaluable source model or a competent judge. When numerical outcomes are available, derive the pair labels from outcomes obtained under comparable conditions and retain those outcomes for later magnitude or threshold questions. When only preference is elicited, retain whose preference, about which consequence and under what presentation. A preference is not automatically an observation of effectiveness. PSD.9 and PSD.11 supply the value and consequence account when these meanings still need work.
+Obtain initial comparisons from compatible existing observations, an evaluable source model or a competent judge. When numerical outcomes are available, derive the pair labels from outcomes obtained under comparable conditions and retain those outcomes for later magnitude or threshold questions. When only preference is elicited, retain whose preference, about which consequence and under what presentation. A preference is not automatically an observation of effectiveness. PSDA.6 and PSDA.8 supply the value and consequence account when these meanings still need work.
 
 Distinguish a decisive preference, a supported tie, supported incomparability and an unanswered comparison. Preserve material disagreement between judges instead of treating it as repeated observations of one common preference. If presentation order may change a judge's answer, compare the pair in both orders. An inconsistent answer exposes that dependence; discarding it from a binary fit does not establish a tie or remove the missing information. Repeated agreement by the same fallible judge can leave a shared error untouched.
 
@@ -917,6 +917,7 @@ For comparison through further variation in :4.11, **adapt** the joint quality/b
 For repeated contraction in :4.12, **adapt** the survivor–regrowth–next-event relation from [*Extinction Events Can Accelerate Evolution* (2015), Methods](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132886) and [the divergent-search study (2015), §§3.3–6](https://nn.cs.utexas.edu/downloads/papers/lehman.gecco15.pdf). The first keeps all members of five selected occupied niches; the second uses ten individual survivors and a temporary refill rule. These are different realizations, not interchangeable settings of one unstated algorithm. [AURORA-XCon (2025), §§2–6](https://arxiv.org/pdf/2504.01915) adds contraction with a protected elite and a learned behavior descriptor whose training distribution can change; it does not directly train the genotype-to-phenotype mapping. **Adapt** that consequential descriptor return, without claiming universal superiority or measured acquisition of future variability. Continued search, direct offspring trials and an adequate fresh start remain serious alternatives. Reopen when survival, grouping, regrowth, retained answers or rebuilding cost changes the useful effect.
 
 ### C.40:12 - Relations
+
 - C.40.CD constructs problems and obtaining ways together through examined target use; B.5.QD and C.39.RO supply question and operation construction.
 
 - C.39 develops a missing obtaining explanation for a local contribution; it is not a compulsory preliminary stage.
@@ -926,6 +927,9 @@ For repeated contraction in :4.12, **adapt** the survivor–regrowth–next-even
 - C.17 characterizes generative novelty and value when those claims are needed; the applicable professional Method supplies the actual variation and examination.
 - E.23:4.1a and A.19.ECS:4.5 govern a justified change of evaluation; §4.5 here develops interacting challenges while preserving the comparison question.
 - A.10 governs stronger reliance on observations or transfer support. Problem, capability, permission and actual Work claims use their direct subject rules rather than an archive label.
+
+**Opportunity and continuing development.** C.40.OCN constructs a bounded opportunity before a useful contribution is settled; its inquiry, characterization, search, direction, reachability and requalification Methods can also be used independently. C.40.OD connects growth of knowledge, understanding or Methods with reproducible results and further attainable problems. C.40.JD addresses the narrower joint construction of a way, its holder and provision; C.40.NP begins from a qualified result and constructs its useful continuation. Ordinary work or acquisition of an existing Method needs no open-ended-development claim.
+
 
 ### C.40:End
 

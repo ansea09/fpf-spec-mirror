@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__013_relations.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:12 — Relations"
-line_start: 9175
-line_end: 9182
+line_start: 9915
+line_end: 9924
 dependencies:
   - "A.10"
   - "A.13"
@@ -29,9 +29,11 @@ keywords:
 
 ### A.3.1.MR:12 - Relations
 
+A.3.1.DR supplies the separate documentary-recovery question. RMP.10 constructs an empirical reconstruction programme when the required sampling, elicitation, event-data preparation and integration exceed the candidate-recovery result here; RMP.11 addresses the different question of an evidence-supported historical explanation.
+
 - **Builds on:** `C.2.1` for each account episteme, its EntityOfConcern, and effective scheme; `A.3.1` for the questions that shape a candidate without granting Method membership; A.13 for each precise performer's local agency core; `A.15.1` for independent admission of grounded Work occurrences; F.6 only for a current precise assignment-bound attribution; and `A.10` for bounded source reliance.
 - **Coordinates with:** `A.3.2` for later MethodDescription membership; `A.15.6` for ambiguous process or case wording; `A.22` for a separately selected comparison structure only when needed; `C.32.MWA` for prospective several-structure practice synthesis; and `C.11.DUA` when a questionable investigation demand needs appraisal of its attainable contribution and whole burden.
 - **Receives bounded evidence from:** process-data preparation, discovery, conformance, enhancement, object-centric mining, interviews, observations, artifacts, and measurements under their own Methods and claims.
-- **Hands off to:** `A.3.1` for Method identification or specialist `ME.18` for complete reconstruction; neither continuation is automatic.
+- **Hands off to:** `A.3.1` for Method identification or `RMP.10` for complete reconstruction; neither continuation is automatic.
 - **Keeps separate:** source, record, event log, behavioural model, Work, candidate reusable way, candidate account, admitted Method, MethodDescription, and any comparison episteme.
 

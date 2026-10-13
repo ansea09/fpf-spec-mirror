@@ -6,12 +6,12 @@ section_id: "A.16.0:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__008_conformance-checklist.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:7 — Conformance Checklist"
-line_start: 31210
-line_end: 31219
+line_start: 33919
+line_end: 33928
 dependencies:
   - "A.16"
   - "A.16.1"

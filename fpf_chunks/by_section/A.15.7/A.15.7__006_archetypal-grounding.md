@@ -6,12 +6,12 @@ section_id: "A.15.7:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__006_archetypal-grounding.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:5 — Archetypal Grounding"
-line_start: 29337
-line_end: 29362
+line_start: 31718
+line_end: 31743
 dependencies:
   - "A.10"
   - "A.13"

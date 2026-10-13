@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__006_archetypal-grounding.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:5 — Archetypal Grounding"
-line_start: 82868
-line_end: 82960
+line_start: 92488
+line_end: 92590
 dependencies:
   - "A.15.1"
   - "A.22"
@@ -89,13 +89,13 @@ Its first usable version is a current programme-description episteme that names 
 
 
 
-#### E.4.PFAD:5.5 - DPF Suite and Reference
+#### E.4.PFAD:5.5 - A composite engineering field and its Reference
 
+A framework author proposes to assemble geotechnical, structural and construction-engineering DPFs. Their use on the same building project is insufficient. The field account instead explains how ground models constrain foundation design, design consequences determine investigation needs, constructability constrains structural choices, and observations in construction and service revise the models and Methods. It identifies the field's continuing concern with realizable built works and the conditions under which alternative subdisciplinary contributions preserve that whole. These facts support the particular composite-field claim under C.20.
 
-Three separately constituted DPF product series already cover one recurring practitioner use. The live architecture question is Suite constitution and membership for their shared ecosystem use. When one architecture decision takes effect, it constitutes the continuing Suite collection, states its ecosystem use, defines which product series may belong, selects inclusion and removal rules and identity through change, and chooses source return and exposure. Its `E.9` DRR records that answer and the initial inclusion decisions. Each DPF edition still belongs to its own product series under that series rule. The answer separately decides whether a DPF Suite Reference product series is constituted and included and states its edition-admission, source-return, later-review, and retirement rules. Publication and availability are separate occurrences. A maintenance relation, maintaining System, or commitment is recorded only when it separately obtains. A Reference edition may then give a problem-led cross-DPF answer; Suite constitution and membership remain with the Suite decision. Record a proposed cross-DPF result use as such, then apply the edition-level dependency or compatibility predicates when their case facts exist. A later author returns an inclusion or removal proposal to the Suite decision, which settles that membership.
+The Suite describes that field assembly and develops any missing whole-level Method for reconciling those contributions. Its edition includes the constituent DPF descriptions with their usable cases and limits. Finance is an external supplier when a project needs investment analysis; its entire discipline is not made part of the Suite by that use. The Suite's Architectural Reference explains that composition, the alternatives and the conditions that make the arrangement useful. A problem-led entry can direct a practitioner to the relevant engineering Methods and the external finance result. The account returns to their full explanations; any new integration Method receives its own E.8 pattern.
 
-
-
+If the author has only a list of three publications and no supported whole construction, the useful first release is a reading route or a bounded DPF proposal. It is not yet a Suite. If the field is supported but one branch is not yet described, the Suite states its partial coverage rather than presenting the missing branch as available.
 
 #### E.4.PFAD:5.6 - Existing framework
 
@@ -143,4 +143,14 @@ Now a teaching example proves unsuitable for beginners. With B, revise that comp
 An AI that supplies a polished case answer has not thereby taught a participant to evaluate reasons. If independent human judgement is the promised result, add the needed practice and feedback and test it. If obtaining a competent case answer is the promised result, direct AI or human provision can instead be compared on that result and its costs.
 
 **Cheap exit.** A prepared participant repeatedly overlooks one already understood question, and an existing available checklist already prompts it at the right occasion. Keep that route unless a consequential defect appears. No new pattern, companion, audience survey or cost table is needed.
+
+#### E.4.PFAD:5.9 - A new Suite with one available constituent DPF
+
+Consider an illustrative **Catchment Hydrology DPF Suite**, initially covering groundwater and its interaction with surface water. Its subject is the investigation of water storage and movement within catchments. Groundwater hydrology supplies knowledge and Methods for aquifer storage and flow; surface-water hydrology supplies those for runoff, channels and surface storage. An estimate of recharge supplied by a surface-water account constrains an aquifer model; an estimate of groundwater discharge must agree with the receiving stream's water budget. Measurements test these exchanges and can require revision of either account. [USGS investigation of groundwater/surface-water interaction](https://www.usgs.gov/mission-areas/water-resources/science/groundwatersurface-water-interaction) provides a concrete basis for that coupling. The explained composition supports a mutually consistent and revisable account of catchment water movement. Models and measurement Methods can change while that coupling is preserved; the resulting account can contribute to wider Earth-system inquiry.
+
+Suppose only the groundwater DPF is ready. Surface-water hydrology is an existing constituent field; its absent DPF is a publication gap. The first edition contains the groundwater patterns and an architectural account that makes their relation to the wider field explicit. It states that surface-water investigation and the complete construction of a coupled catchment model are outside its available Method coverage. A forecast requiring those missing Methods is therefore not offered as obtainable from this edition.
+
+The common account is useful now when a practitioner asks how aquifer pumping affects streamflow: it exposes why the available groundwater contribution is insufficient and which contribution must be obtained elsewhere or developed. In the published edition, an outside contributor can also use the stated composition and coverage to propose the missing framework or challenge the assembly.
+
+If readers can obtain the needed result from the standalone groundwater DPF and do not need the common account, retain that arrangement for now. Merely naming that file a 'Hydrology Suite' and promising later water and land frameworks supplies neither the constituent-whole grounds nor a useful present assembly.
 

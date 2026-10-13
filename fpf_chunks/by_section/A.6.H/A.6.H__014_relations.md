@@ -6,12 +6,12 @@ section_id: "A.6.H:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__014_relations.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:12 — Relations"
-line_start: 23301
-line_end: 23310
+line_start: 25682
+line_end: 25691
 dependencies:
   - "A.1"
   - "A.10"

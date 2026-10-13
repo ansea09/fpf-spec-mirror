@@ -6,12 +6,12 @@ section_id: "B.5.PI:End"
 section_title: "B.5.PI:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__014_b-5-pi-end.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:End — B.5.PI:End"
-line_start: 48069
-line_end: 48077
+line_start: 50973
+line_end: 50974
 dependencies:
   - "A.15.11"
   - "A.16.1"
@@ -23,11 +23,4 @@ keywords:
 ---
 
 ### B.5.PI:End
-
-# Part C - Kernel Extension Specifications
-
-| §                                            | Pattern                        | Tag | Scope & Exports                                                      |
-| -------------------------------------------- | ---------------------------------- | --- | -------------------------------------------------------------------- |
-| **Cluster C.I – Core CALs / LOGs / CHRs**    |                                    |     |                                                                      |
-| C.1                                          | **Sys‑CAL (planned)**              | CAL | Planned consolidation of physical-system composition, conservation, and resource-flow guidance currently governed by A.1, A.14, A.22, A.3.4, B.1.6, and C.16. |
 

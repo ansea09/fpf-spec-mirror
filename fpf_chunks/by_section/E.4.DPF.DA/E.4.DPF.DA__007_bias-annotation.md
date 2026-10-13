@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__007_bias-annotation.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:6 — Bias-Annotation"
-line_start: 84015
-line_end: 84036
+line_start: 93647
+line_end: 93668
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -75,7 +75,7 @@ The second recurring drift is local excellence laundering: good-looking patterns
 
 The third recurring drift is quality-proof leakage: evaluation results, review status, or package-architecture development evidence are copied into user-facing pattern prose. Move that evidence to this evaluation's result, `E.21`, `E.19`, `E.11`, or the applicable publication-evidence locus, and keep the user-facing move, boundary, and architectural reasons needed to understand, select, combine, or adapt the pattern in its body.
 
-The fourth recurring drift is invisible carrier narration: the package is presented as a transparent list of principles, so nobody asks which domain structures were selected, coarsened, abstracted, omitted, or already transformed through `source structures -> architecture -> architecture description or view -> publication/access expression` before the publication carrier was written. Make the Readme, Preface, or access front provide a short carrier structure-account and check it through `PFM11`.
+The fourth recurring drift is invisible carrier narration: the package is presented as a transparent list of principles, so nobody asks which domain structures were selected, coarsened, abstracted, omitted, or already transformed through `source structures -> architecture -> architecture description or view -> publication/access expression` before the publication carrier was written. Make the architectural reference explain that selection and loss, with the necessary entry cue or access return, and check it through `PFM11`.
 
 The fifth recurring drift is assurance by duplication: the evaluation copies the action sequence of `C.32.MWA` or `E.23.CDI` and treats completion as package proof. Use the completed result only where it bears on a named coordinate, then run the package's own probes.
 

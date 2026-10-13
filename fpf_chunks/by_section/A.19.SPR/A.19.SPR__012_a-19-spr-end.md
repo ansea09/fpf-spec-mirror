@@ -6,12 +6,12 @@ section_id: "A.19.SPR:End"
 section_title: "A.19.SPR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__012_a-19-spr-end.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:End — A.19.SPR:End"
-line_start: 33054
-line_end: 33055
+line_start: 35763
+line_end: 35764
 dependencies:
   - "A.10"
   - "A.16"

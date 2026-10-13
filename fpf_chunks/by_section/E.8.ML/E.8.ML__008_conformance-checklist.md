@@ -1,0 +1,35 @@
+---
+chunk_kind: "child"
+pattern_id: "E.8.ML"
+pattern_title: "Construct a Pattern Language for Connected Methods"
+section_id: "E.8.ML:7"
+section_title: "Conformance Checklist"
+source_path: "FPF-Spec.md"
+output_path: "by_section/E.8.ML/E.8.ML__008_conformance-checklist.md"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+heading_path:
+  - "E.8.ML — Construct a Pattern Language for Connected Methods"
+  - "E.8.ML:7 — Conformance Checklist"
+line_start: 95887
+line_end: 95896
+dependencies:
+  - "A.3.2.DE"
+  - "B.1.5"
+  - "C.39.MC"
+  - "E.11.PFP"
+  - "E.4.CM"
+  - "E.8"
+  - "F.0.2.MA"
+keywords:
+---
+
+### E.8.ML:7 - Conformance Checklist
+
+- The language begins from recognizable uses and first results.
+- Each body has a recoverable subject, practical contribution and ordinary stop.
+- Every MethodDescription claim identifies its one admitted Method.
+- Each material relation states what it changes in use and retains its own governing basis.
+- Direct descriptions and sufficient existing entries remain available.
+- The whole/profile account explains shared conditions and reasons without replacing the full bodies.
+- Reconstruction and changed-condition use can return a localized failure or an honest wider gap.
+

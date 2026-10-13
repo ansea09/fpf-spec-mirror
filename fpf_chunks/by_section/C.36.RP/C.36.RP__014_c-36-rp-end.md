@@ -6,12 +6,12 @@ section_id: "C.36.RP:End"
 section_title: "C.36.RP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__014_c-36-rp-end.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:End — C.36.RP:End"
-line_start: 80126
-line_end: 80129
+line_start: 89233
+line_end: 89234
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -28,6 +28,4 @@ keywords:
 ---
 
 ### C.36.RP:End
-
-# Part D - Multi-scale Ethics and Conflict Optimization
 

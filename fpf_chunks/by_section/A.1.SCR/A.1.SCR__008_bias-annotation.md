@@ -6,12 +6,12 @@ section_id: "A.1.SCR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__008_bias-annotation.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:6 — Bias-Annotation"
-line_start: 3042
-line_end: 3052
+line_start: 3780
+line_end: 3790
 dependencies:
   - "A.1"
   - "A.1.CSD"

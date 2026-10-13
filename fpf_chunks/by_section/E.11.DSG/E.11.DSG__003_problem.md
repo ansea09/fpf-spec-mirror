@@ -1,22 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.DSG"
-pattern_title: "DPF Suite Reference"
+pattern_title: "Architectural Reference"
 section_id: "E.11.DSG:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__003_problem.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
-  - "E.11.DSG — DPF Suite Reference"
+  - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:2 — Problem"
-line_start: 92952
-line_end: 92957
+line_start: 102754
+line_end: 102759
 dependencies:
-  - "A.14"
   - "C.2.1"
   - "C.2.P"
+  - "C.20"
   - "E.11"
+  - "E.11.PFP"
   - "E.11.PUA"
   - "E.11.PUR"
   - "E.17"
@@ -24,6 +25,7 @@ dependencies:
   - "E.4"
   - "E.4.PFAD"
   - "E.4.PFR"
+  - "E.9"
   - "F.9"
   - "G.11"
   - "G.5"
@@ -32,7 +34,7 @@ keywords:
 
 ### E.11.DSG:2 - Problem
 
-A bare list of DPFs does not tell a practitioner which combination answers one working question. A Reference written as a tutorial or metadata catalogue fails in the opposite direction: explanation and repeated fields hide the first useful answer.
+A list of titles does not explain the language's architecture or tell a practitioner which contributions answer a working question. A collection of short answers can omit the shared rationale, source synthesis and whole conditions needed for adaptation. Conversely, a long tutorial or metadata catalogue can hide the useful first answer, and an attractive summary can conceal a Method that has never been developed enough to reproduce.
 
-Both failures invite stronger false claims. Readers may infer that listed DPFs form one framework, depend on each other, are compatible, current, or available. They may also treat the Reference as lookup Work, evidence, or the decision that makes a product series belong to a Suite. A changed DPF edition can then make an answer stale while the Suite, product series, and Reference edition remain unclear.
+These failures confuse different structures. A reader may treat all cited disciplines as constituents of the Suite, treat a MethodDescription as an already obtained result, or treat a cross-reference as proof of compatibility. A changed supplying Method can then leave the advice misleading even though every link still opens.
 

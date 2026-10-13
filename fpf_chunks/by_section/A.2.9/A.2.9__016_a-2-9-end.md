@@ -6,12 +6,12 @@ section_id: "A.2.9:End"
 section_title: "A.2.9:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__016_a-2-9-end.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:End — A.2.9:End"
-line_start: 8301
-line_end: 8302
+line_start: 9039
+line_end: 9040
 dependencies:
   - "A.10"
   - "A.13"

@@ -6,12 +6,12 @@ section_id: "E.11.PFP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__005_solution.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:4 — Solution"
-line_start: 92615
-line_end: 92677
+line_start: 102415
+line_end: 102477
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -43,7 +43,7 @@ For an all-in-one Markdown publication, preserve the product-declared compact op
 1. `# <product-declared publication title>`;
 2. `# Table of Contents`;
 3. the exact product-declared Readme H1;
-4. the exact product-declared Preface H1;
+4. the exact product-declared Architectural Reference H1;
 5. the pattern bodies or pattern collection in the order selected by that edition; and
 6. reference and maintenance material under headings declared by the product pattern.
 
@@ -53,11 +53,11 @@ Between the title and ToC, retain only the shortest public cues already justifie
 
 When readers copy, adapt, translate or redistribute a framework publication, its copyright-license notice tells them what permission the rights holder grants. Identify the covered material, rights holder and chosen license, and make the license text reachable from a standalone copy. Project a compact notice from the product's chosen licensing terms; retain applicable attribution and mark any third-party or differently licensed material. The author of an independently created DPF or LPF chooses its license. Where copyright permission is needed, reuse of another framework's protected expression is governed by that material's terms; applicable copyright exceptions remain available. Adopting its methods or publication form does not impose that framework's license on the new work.
 
-Reader front matter extends from the opening title through the Readme and Preface up to the first pattern-body collection H1. It must not contain campaign keys; candidate, review, or result identifiers; local disk or repository paths; source or candidate digests; Git commits or blobs; generated comments; build commands; machine warnings; or "do not edit" instructions. Detailed edition, provenance, rebuildability, and maintenance records remain adjacent maintainer evidence or product-declared reference-tail material unless a separately selected public use justifies a reader-facing projection.
+Reader front matter extends from the opening title through the Readme and architectural reference up to the first pattern-body collection H1. It must not contain campaign keys; candidate, review, or result identifiers; local disk or repository paths; source or candidate digests; Git commits or blobs; generated comments; build commands; machine warnings; or "do not edit" instructions. Detailed edition, provenance, rebuildability, and maintenance records remain adjacent maintainer evidence or product-declared reference-tail material unless a separately selected public use justifies a reader-facing projection.
 
 #### E.11.PFP:4.2 - Put public units into the established Table of Contents
 
-Immediately after the single `# Table of Contents` H1, continue the product's established ToC grammar. Represent the exact Readme and Preface before the logical pattern index using the same kind of labelled segment and rows already used for non-pattern units in that product. When an established ToC already represents Preface and pattern groups, add Readme there; do not invent a generic `Publication route`, a second mini-menu, or a new table shape. A non-pattern publication unit receives no fabricated PatternID. Its product-declared entry remains mechanically recognizable and, when the carrier supports links, resolves to the exact unit.
+Immediately after the single `# Table of Contents` H1, continue the product's established ToC grammar. Represent the exact Readme and architectural-reference unit before the logical pattern index using the same kind of labelled segment and rows already used for non-pattern units in that product. When an established ToC already represents the whole-account unit and pattern groups, add Readme there; do not invent a generic `Publication route`, a second mini-menu, or a new table shape. A non-pattern publication unit receives no fabricated PatternID. Its product-declared entry remains mechanically recognizable and, when the carrier supports links, resolves to the exact unit. The unit's public title follows E.4's `<name of the explained whole> Architectural Reference` rule; its declared section key is a separate address choice.
 
 Place the one authoritative logical pattern index after those public-unit entries. It may be one table or several ordered, uniquely labelled Part or placement segments. Every authoritative segment uses:
 

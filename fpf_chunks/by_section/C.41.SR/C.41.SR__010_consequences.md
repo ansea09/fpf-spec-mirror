@@ -1,0 +1,25 @@
+---
+chunk_kind: "child"
+pattern_id: "C.41.SR"
+pattern_title: "Reconcile Checklist Results Across Shared Work"
+section_id: "C.41.SR:9"
+section_title: "Consequences"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.41.SR/C.41.SR__010_consequences.md"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
+heading_path:
+  - "C.41.SR — Reconcile Checklist Results Across Shared Work"
+  - "C.41.SR:9 — Consequences"
+line_start: 88667
+line_end: 88670
+dependencies:
+  - "A.10"
+  - "B.1.5"
+  - "C.41.UA"
+keywords:
+---
+
+### C.41.SR:9 - Consequences
+
+The team gains a shared result with interpretable limits and a targeted recovery route. Reconciliation can reveal integration failures before they become a false overall pass. It costs attention to connections and changes; excessive centralization can make that cost dominate the benefit. Its output does not remove the need for domain judgement about the whole.
+

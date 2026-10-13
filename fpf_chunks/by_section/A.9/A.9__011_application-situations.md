@@ -6,12 +6,12 @@ section_id: "A.9:10"
 section_title: "Application situations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__011_application-situations.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:10 — Application situations"
-line_start: 24496
-line_end: 24499
+line_start: 26877
+line_end: 26880
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"

@@ -6,12 +6,12 @@ section_id: "A.20:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__007_worked-cases.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:5 — Worked cases"
-line_start: 37473
-line_end: 37488
+line_start: 40182
+line_end: 40197
 dependencies:
   - "A.10"
   - "A.15"

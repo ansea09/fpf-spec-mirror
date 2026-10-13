@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.CU.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
-line_start: 79489
-line_end: 79743
+line_start: 84756
+line_end: 85013
 dependencies:
   - "B.1.5.EW"
   - "C.11"
@@ -275,6 +275,9 @@ The worked cases are new analytical constructions. They are neither experiments 
 - C.38 forms complete-enough comparable ways; C.11 selects among them.
 - A.2.2 governs a capability claim; E.23.CAE/CDI separate supported performance conditions from needed capability development.
 - A.15.8 governs configuration and recovery reliance; C.36.RP makes shared methods obtainable and renewable.
+
+When realizing the application depends on co-adapting its way, the intended holder and provision, C.40.JD supplies that joint construction and keeps delivered work distinct from acquired capability. C.40.NP develops the continuation when a qualified result opens a further worthwhile problem. C.40.OD is useful when those connections form a wider open-ended development undertaking; an adequate application and its ordinary renewal need not invoke that whole.
+
 
 
 ### C.40.CU:End

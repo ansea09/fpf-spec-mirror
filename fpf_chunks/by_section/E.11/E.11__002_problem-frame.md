@@ -6,12 +6,12 @@ section_id: "E.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__002_problem-frame.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:1 — Problem frame"
-line_start: 91048
-line_end: 91065
+line_start: 100848
+line_end: 100865
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -36,13 +36,13 @@ keywords:
 
 #### E.11:1.1 - Use this when
 
-Use `E.11` when a pattern title, README scenario, Preface explanation, ToC cue, retrieval cue, lexical query row, expanded case, or pattern-local recognition passage could change which FPF pattern a working reader should inspect first.
+Use `E.11` when a pattern title, README scenario, architectural-reference explanation, ToC cue, retrieval cue, lexical query row, expanded case, or pattern-local recognition passage could change which FPF pattern a working reader should inspect first.
 
 The ordinary reader does not arrive with a PatternID. They arrive with a project question: architecture, a working document, a comparison, a vague concern, an improvement, evidence, timing, causal use, a description, a name, wording, mathematics, state of the art, a local framework, system recognition, or system delimitation. E.11 gives that reader a recognizable entry without turning entry material into a second pattern body or universal method sequence.
 
 **First useful result.** The reader can name the working situation, the first useful result or blocker, one direct pattern or small plausible set to inspect, and the ordinary stop or wrong-turn return. That is enough for ordinary entry; no card form, comparison account, or project-local value is required.
 
-**Primary EntityOfConcern.** One public entry or discoverability publication unit: pattern title, README first-entry guidance, Preface principle explanation, ToC query material, retrieval cue, expanded entry-disambiguation case, or a pattern-local `Problem frame`.
+**Primary EntityOfConcern.** One public entry or discoverability publication unit: pattern title, README first-entry guidance, architectural-reference explanation, ToC query material, retrieval cue, expanded entry-disambiguation case, or a pattern-local `Problem frame`.
 
 **Author and reader remain different.** An FPF author or maintainer publishes or refreshes the public guidance. A practitioner, manager, or assisting agent reads it and opens the direct pattern; that reader is not thereby performing E.11 publication work.
 

@@ -6,12 +6,12 @@ section_id: "C.37:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__013_relations.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:12 — Relations"
-line_start: 77641
-line_end: 77647
+line_start: 81653
+line_end: 81661
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -37,6 +37,8 @@ keywords:
 ---
 
 ### C.37:12 - Relations
+
+C.37.MP relates several completed use-bounded selections when a cross-use Method-representation profile is needed. C.37.CF constructs a comparison of changed content and changed form for a stated reader and use. Neither profile nor comparison retroactively merges the one-action boundaries here.
 
 - **Builds on:** `C.2.1` for any standalone account episteme and for the identity of claim-bearing candidate results.
 - **Coordinates with:** the direct pattern governing each candidate's subject result; `A.2.4` for optional first evidence-use or status-use classification; `A.10` for evidence-provenance and bounded reliance; and the direct choice, gate, permission, authorization, acceptance, or domain pattern for the receiving result.

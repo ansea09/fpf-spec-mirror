@@ -6,12 +6,12 @@ section_id: "C.40:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__013_relations.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:12 — Relations"
-line_start: 79260
-line_end: 79270
+line_start: 84520
+line_end: 84534
 dependencies:
   - "C.11"
   - "C.18"
@@ -22,6 +22,7 @@ keywords:
 ---
 
 ### C.40:12 - Relations
+
 - C.40.CD constructs problems and obtaining ways together through examined target use; B.5.QD and C.39.RO supply question and operation construction.
 
 - C.39 develops a missing obtaining explanation for a local contribution; it is not a compulsory preliminary stage.
@@ -31,4 +32,7 @@ keywords:
 - C.17 characterizes generative novelty and value when those claims are needed; the applicable professional Method supplies the actual variation and examination.
 - E.23:4.1a and A.19.ECS:4.5 govern a justified change of evaluation; §4.5 here develops interacting challenges while preserving the comparison question.
 - A.10 governs stronger reliance on observations or transfer support. Problem, capability, permission and actual Work claims use their direct subject rules rather than an archive label.
+
+**Opportunity and continuing development.** C.40.OCN constructs a bounded opportunity before a useful contribution is settled; its inquiry, characterization, search, direction, reachability and requalification Methods can also be used independently. C.40.OD connects growth of knowledge, understanding or Methods with reproducible results and further attainable problems. C.40.JD addresses the narrower joint construction of a way, its holder and provision; C.40.NP begins from a qualified result and constructs its useful continuation. Ordinary work or acquisition of an existing Method needs no open-ended-development claim.
+
 

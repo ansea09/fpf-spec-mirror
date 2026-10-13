@@ -6,12 +6,12 @@ section_id: "B.5.TC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__005_solution.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Working Question"
   - "B.5.TC:4 — Solution"
-line_start: 46343
-line_end: 46413
+line_start: 49247
+line_end: 49317
 dependencies:
   - "B.5.RA"
   - "B.5.RR"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.WN.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
-line_start: 44177
-line_end: 44432
+line_start: 47081
+line_end: 47336
 dependencies:
   - "A.15.10"
   - "A.6.3.RT.OE"

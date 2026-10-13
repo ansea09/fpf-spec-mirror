@@ -6,12 +6,12 @@ section_id: "C.11.DUA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__003_problem.md"
-commit_sha: "f2bc67dd6f3d8525bc63965a98165abf59b48e2f"
+commit_sha: "65a0ae08700a33bb614c338f27d58e14d9f66193"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:2 — Problem"
-line_start: 54587
-line_end: 54594
+line_start: 57690
+line_end: 57697
 dependencies:
   - "A.10"
   - "C.11"
