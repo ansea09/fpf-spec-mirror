@@ -6,7 +6,7 @@ section_id: "A.1.CSD:0"
 section_title: "Practitioner Entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__002_practitioner-entry.md"
-commit_sha: "7d0a78002c04f2337283b97d707991c888013a73"
+commit_sha: "5282e0d9d224431a858c8fccd4c1d5bd99dd565f"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:0 — Practitioner Entry"
