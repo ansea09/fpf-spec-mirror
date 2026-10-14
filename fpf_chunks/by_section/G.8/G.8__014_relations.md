@@ -6,7 +6,7 @@ section_id: "G.8:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__014_relations.md"
-commit_sha: "5282e0d9d224431a858c8fccd4c1d5bd99dd565f"
+commit_sha: "8c72429c9a0797d8d48f59b88dce036ac713c78c"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:13 — Relations"
