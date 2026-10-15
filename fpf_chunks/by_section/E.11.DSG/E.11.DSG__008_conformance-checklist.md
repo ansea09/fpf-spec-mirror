@@ -6,7 +6,7 @@ section_id: "E.11.DSG:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__008_conformance-checklist.md"
-commit_sha: "8c72429c9a0797d8d48f59b88dce036ac713c78c"
+commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:7 — Conformance Checklist"

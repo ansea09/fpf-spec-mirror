@@ -6,7 +6,7 @@ section_id: "C.36:End"
 section_title: "C.36:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__014_c-36-end.md"
-commit_sha: "8c72429c9a0797d8d48f59b88dce036ac713c78c"
+commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:End — C.36:End"

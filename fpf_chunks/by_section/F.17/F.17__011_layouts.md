@@ -6,7 +6,7 @@ section_id: "F.17:9"
 section_title: "Layouts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__011_layouts.md"
-commit_sha: "8c72429c9a0797d8d48f59b88dce036ac713c78c"
+commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:9 — Layouts"
