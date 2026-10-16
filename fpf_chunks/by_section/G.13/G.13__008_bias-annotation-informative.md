@@ -6,7 +6,7 @@ section_id: "G.13:7"
 section_title: "Bias‑Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__008_bias-annotation-informative.md"
-commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
+commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:7 — Bias‑Annotation (informative)"

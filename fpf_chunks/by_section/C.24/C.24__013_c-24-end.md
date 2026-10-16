@@ -6,7 +6,7 @@ section_id: "C.24:End"
 section_title: "C.24:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__013_c-24-end.md"
-commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
+commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:End — C.24:End"

@@ -6,7 +6,7 @@ section_id: "A.6.P:12b"
 section_title: "C.29 mathematical-lens account and representation boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__014_c-29-mathematical-lens-account-and-representation-boundary.md"
-commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
+commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:12b — C.29 mathematical-lens account and representation boundary"

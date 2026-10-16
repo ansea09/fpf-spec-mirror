@@ -6,7 +6,7 @@ section_id: "B.1.5.CM:5"
 section_title: "Archetypal Grounding — C-EC-Release-v2"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__007_archetypal-grounding-c-ec-release-v2.md"
-commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
+commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:5 — Archetypal Grounding — C-EC-Release-v2"

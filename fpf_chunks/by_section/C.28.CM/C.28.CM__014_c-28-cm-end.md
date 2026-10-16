@@ -6,7 +6,7 @@ section_id: "C.28.CM:End"
 section_title: "C.28.CM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__014_c-28-cm-end.md"
-commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
+commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:End — C.28.CM:End"

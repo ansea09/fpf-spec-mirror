@@ -6,7 +6,7 @@ section_id: "F.8:14"
 section_title: "Didactic Memory"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__017_didactic-memory.md"
-commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
+commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:14 — Didactic Memory"

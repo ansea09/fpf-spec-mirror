@@ -6,7 +6,7 @@ section_id: "E.24.PUB:8"
 section_title: "Common Misuses and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__010_common-misuses-and-repairs.md"
-commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
+commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:8 — Common Misuses and Repairs"

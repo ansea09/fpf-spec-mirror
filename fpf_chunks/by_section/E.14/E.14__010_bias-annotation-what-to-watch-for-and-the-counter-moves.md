@@ -6,7 +6,7 @@ section_id: "E.14:7"
 section_title: "Bias-Annotation (what to watch for, and the counter-moves)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__010_bias-annotation-what-to-watch-for-and-the-counter-moves.md"
-commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
+commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:7 — Bias-Annotation (what to watch for, and the counter-moves)"

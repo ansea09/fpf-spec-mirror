@@ -6,7 +6,7 @@ section_id: "B.3:End"
 section_title: "B.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__017_b-3-end.md"
-commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
+commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:End — B.3:End"

@@ -6,7 +6,7 @@ section_id: "A.16.1:16"
 section_title: "Cue-Pack Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__017_cue-pack-package-discipline.md"
-commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
+commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:16 — Cue-Pack Package Discipline"

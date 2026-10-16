@@ -6,7 +6,7 @@ section_id: "C.17:1"
 section_title: "The practitioner route"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__003_the-practitioner-route.md"
-commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
+commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:1 — The practitioner route"

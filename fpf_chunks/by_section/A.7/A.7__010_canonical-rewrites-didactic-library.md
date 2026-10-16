@@ -6,7 +6,7 @@ section_id: "A.7:8"
 section_title: "Canonical rewrites (didactic library)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__010_canonical-rewrites-didactic-library.md"
-commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
+commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:8 — Canonical rewrites (didactic library)"

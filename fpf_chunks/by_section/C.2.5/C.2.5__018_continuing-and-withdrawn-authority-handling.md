@@ -6,7 +6,7 @@ section_id: "C.2.5:17"
 section_title: "Continuing and Withdrawn Authority Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__018_continuing-and-withdrawn-authority-handling.md"
-commit_sha: "d0ec527ec1c611ff78ece6490ae273039e872278"
+commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:17 — Continuing and Withdrawn Authority Handling"
