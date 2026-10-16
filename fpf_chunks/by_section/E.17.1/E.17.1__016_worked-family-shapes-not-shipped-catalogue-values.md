@@ -6,12 +6,12 @@ section_id: "E.17.1:15"
 section_title: "Worked family shapes, not shipped catalogue values"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__016_worked-family-shapes-not-shipped-catalogue-values.md"
-commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
+commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:15 — Worked family shapes, not shipped catalogue values"
-line_start: 105022
-line_end: 105053
+line_start: 105028
+line_end: 105059
 dependencies:
   - "A.16.0"
   - "A.22"

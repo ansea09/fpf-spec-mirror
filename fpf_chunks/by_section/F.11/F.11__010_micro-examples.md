@@ -6,12 +6,12 @@ section_id: "F.11:9"
 section_title: "Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__010_micro-examples.md"
-commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
+commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:9 — Micro-examples"
-line_start: 120318
-line_end: 120325
+line_start: 120324
+line_end: 120331
 dependencies:
   - "A.15"
   - "A.15.1"

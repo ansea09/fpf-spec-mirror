@@ -6,12 +6,12 @@ section_id: "G.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__012_rationale.md"
-commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
+commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:10 — Rationale"
-line_start: 127777
-line_end: 127785
+line_start: 127783
+line_end: 127791
 dependencies:
   - "C.11"
   - "C.18"

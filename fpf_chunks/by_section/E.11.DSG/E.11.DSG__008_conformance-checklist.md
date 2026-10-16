@@ -6,12 +6,12 @@ section_id: "E.11.DSG:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__008_conformance-checklist.md"
-commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
+commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:7 — Conformance Checklist"
-line_start: 102933
-line_end: 102949
+line_start: 102938
+line_end: 102954
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -36,7 +36,7 @@ keywords:
 
 | ID | Passing condition |
 | --- | --- |
-| `CC-DSG.1` Useful entrance | A cold reader can identify the explained whole, purpose and route into its architecture. Each problem-led entry exposes the working situation, practical question, useful answer or blocker, exact contributions, and stop or return before internal apparatus. |
+| `CC-DSG.1` Useful entrance | From the ordinary entrance, a cold reader who was not given the Reference title can notice that an architectural explanation exists, identify the explained whole and its purpose, and choose that route. A familiar sufficient Method remains directly usable. Each problem-led entry exposes the working situation, practical question, useful answer or blocker, exact contributions, and stop or return before internal apparatus. |
 | `CC-DSG.2` Whole and source return | The architectural reference identifies its subject and edition, supplies the whole's architecture and returns to the full supplying Methods or evidence. For a Suite, constituent frameworks and external suppliers remain distinct. Edition detail appears when the receiving use needs it. |
 | `CC-DSG.3` Different subjects and boundaries | Discipline, Suite edition, constituent DPFs, external frameworks, supporting Reference, available results, MethodDescriptions, lookup Work, answer, publication and access remain distinct. The Reference's product boundary follows its actual use and change needs. |
 | `CC-DSG.4` Progressive detail | Date and actionable status are visible; author, evidence, relation, product-series state, warning, and reopen detail appears only when it changes reader action, truth, or named reliance. |

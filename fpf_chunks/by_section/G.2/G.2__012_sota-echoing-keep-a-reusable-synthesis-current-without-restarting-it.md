@@ -6,12 +6,12 @@ section_id: "G.2:11"
 section_title: "SoTA-Echoing — keep a reusable synthesis current without restarting it"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__012_sota-echoing-keep-a-reusable-synthesis-current-without-restarting-it.md"
-commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
+commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:11 — SoTA-Echoing — keep a reusable synthesis current without restarting it"
-line_start: 126072
-line_end: 126085
+line_start: 126078
+line_end: 126091
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

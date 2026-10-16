@@ -6,12 +6,12 @@ section_id: "E.11.DSG:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
+commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 102950
-line_end: 102962
+line_start: 102955
+line_end: 102968
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -36,6 +36,7 @@ keywords:
 
 | Misuse | Why it fails | Repair |
 | --- | --- | --- |
+| Unnoticed architectural account | The file and its links work, but the entrance never tells readers that the language’s arrangement is explained or why that explanation matters. | Offer the architectural question and its direct answer at the point of choosing a reading route; test recognition from that entrance, not only retrieval by a supplied title. |
 | DPF list as Reference answer | Titles do not say whether an entry returns an available result, a MethodDescription, source evidence, or a missing result, nor what it contributes. | State the question, classify each return, name its direct contribution or blocker, and stop or return. |
 | Reference hides an unwritten Method | A short answer or application supplies a Solution without a recognizable problem, construction, conditions and cases. | Develop the Method under E.8 in its proper Core, DPF or Suite-level pattern; retain the architectural explanation and a direct return to that Method in the architectural reference. |
 | Reference performs lookup | Publication content is mistaken for dated Work or an operation application. | When a direct claim needs lookup Work, use A.13 to identify its actual performer and A.15.1 to admit the dated occurrence independently. If the claim must also identify the assignment under which the lookup was performed, check that relation separately through F.6. Keep the Method and any A.6.1 application bindings separate. |

@@ -6,12 +6,12 @@ section_id: "G.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__001_intro.md"
-commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
+commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:intro — Intro"
-line_start: 128562
-line_end: 128573
+line_start: 128568
+line_end: 128579
 dependencies:
   - "A.10"
   - "A.21"

@@ -6,7 +6,7 @@ section_id: "C.2.7:End"
 section_title: "C.2.7:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__020_c-2-7-end.md"
-commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
+commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:End — C.2.7:End"

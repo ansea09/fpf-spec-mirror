@@ -6,7 +6,7 @@ section_id: "A.3.3.TR:End"
 section_title: "A.3.3.TR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__014_a-3-3-tr-end.md"
-commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
+commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:End — A.3.3.TR:End"

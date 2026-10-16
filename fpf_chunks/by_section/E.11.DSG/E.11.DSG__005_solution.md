@@ -6,12 +6,12 @@ section_id: "E.11.DSG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__005_solution.md"
-commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
+commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:4 — Solution"
 line_start: 102775
-line_end: 102888
+line_end: 102893
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -82,6 +82,11 @@ First test the account for its user's work. From the account and its reachable s
 An informed change proposal supplies an additional test of that understanding. A user who questions the arrangement should be able to identify the decision, the challenged premise, a meaningful alternative, its expected gain and the connections it could affect. This requires neither private authoring history nor a mandatory issue form. It does not replace the account's user-facing purpose with a Method for changing the framework.
 
 #### E.11.DSG:4.2 - Make the public minimum immediately useful
+
+Make the account noticeable from the ordinary entrance to the explained language. A reader who does not know that an architectural explanation exists must be able to recognize its purpose before searching for its title. In a README or equivalent entrance, offer a prominent, ordinary-language question such as “How is this language organized and why?”, link directly to the account, and state what it explains. Place that choice where readers first choose how to enter, alongside the route to a known Method. A link buried among filenames or offered only as an extra worked example does not communicate that purpose.
+
+Test this entrance from the reader's starting situation, without supplying the Reference's name or destination as the answer. Can the reader notice that the explanation exists, tell what question it answers, and choose it when the arrangement is unclear? Can someone with a familiar sufficient Method still proceed directly? Successful filename search or link resolution answers a different question.
+
 
 Make these facts recoverable before the reader chooses an entry. An embedded architectural reference can use the containing publication's edition, date, status and ToC wherever they already identify this unit and its content; do not repeat that front matter or constitute a separate edition solely for the account. A separately carried unit exposes the necessary facts at its own entrance:
 

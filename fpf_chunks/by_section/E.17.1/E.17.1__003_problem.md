@@ -6,12 +6,12 @@ section_id: "E.17.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__003_problem.md"
-commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
+commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:2 — Problem"
-line_start: 104751
-line_end: 104765
+line_start: 104757
+line_end: 104771
 dependencies:
   - "A.16.0"
   - "A.22"

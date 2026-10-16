@@ -6,12 +6,12 @@ section_id: "G.9:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__004_problem-frame.md"
-commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
+commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:2 — Problem frame"
-line_start: 129064
-line_end: 129076
+line_start: 129070
+line_end: 129082
 dependencies:
   - "A.19"
   - "A.2.6"

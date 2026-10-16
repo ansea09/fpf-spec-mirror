@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__011_architectural-rationale.md"
-commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
+commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:10 — Architectural Rationale"
-line_start: 116285
-line_end: 116290
+line_start: 116291
+line_end: 116296
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.QM"

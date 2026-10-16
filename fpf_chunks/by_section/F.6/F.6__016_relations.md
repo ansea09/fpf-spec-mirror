@@ -6,12 +6,12 @@ section_id: "F.6:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__016_relations.md"
-commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
+commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:14 — Relations"
-line_start: 118397
-line_end: 118404
+line_start: 118403
+line_end: 118410
 dependencies:
   - "A.1.1"
   - "A.10"

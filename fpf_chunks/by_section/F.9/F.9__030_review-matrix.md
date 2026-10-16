@@ -6,12 +6,12 @@ section_id: "F.9:28"
 section_title: "Review matrix"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__030_review-matrix.md"
-commit_sha: "b40c9df9e856c1c8c6a12f93ed8b310265007f68"
+commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:28 — Review matrix"
-line_start: 119685
-line_end: 119699
+line_start: 119691
+line_end: 119705
 dependencies:
   - "A.10"
   - "A.13"
