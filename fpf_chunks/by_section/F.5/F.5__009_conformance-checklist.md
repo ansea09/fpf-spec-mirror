@@ -6,12 +6,12 @@ section_id: "F.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__009_conformance-checklist.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:7 — Conformance Checklist"
-line_start: 117973
-line_end: 117988
+line_start: 117986
+line_end: 118001
 dependencies:
   - "A.10"
   - "A.15"

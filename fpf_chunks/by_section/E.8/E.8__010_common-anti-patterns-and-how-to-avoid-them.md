@@ -6,12 +6,12 @@ section_id: "E.8:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 95638
-line_end: 95662
+line_start: 95650
+line_end: 95674
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -63,7 +63,7 @@ These failure modes recur in drafts and in downstream application. They are pred
 | Anti-pattern | Symptom | Why it fails | How to avoid / repair |
 |-------------|---------|------------------------------|-----------------------|
 | **Template cargo-culting** | Headings exist, but the section is fragments, decorative bullets, or a table with no governing claim. | Satisfies Uniformity but loses Readability and Didactic Primacy. | State the governing claim and its practical consequence in ordinary prose; introduce a list or table only when that structure improves the reader's work, and apply `F.19` to its contribution and load. |
-| **Un-grounded abstractions** | Problem/Solution stay abstract; no concrete System/Episteme Tell-Show-Show. | Breaks teachability and makes misuse likely. | Fill Archetypal Grounding first; then back-propagate concrete nouns into Problem/Forces/Solution. |
+| **Un-grounded abstractions** | Problem/Solution stay abstract; no concrete System/Episteme Tell-Show-Show. | Breaks teachability and makes misuse likely. | When an attempted instance helps expose the missing connection, work it first; recover the reusable relation and restore the declared scope in Problem, Forces and Solution under §4.2.1.3. Do not promote incidental case features into general conditions. |
 | **SoTA name-dropping** | SoTA-Echoing lists sources or adopt/adapt/reject labels but never names the practice question, serious alternative, defect overcome, or changed pattern locus. | The reader cannot recover why the selected line is best for this question or what changed in practice. | Supply the complete compact comparison from CC-SG.7, or state an honest source gap. |
 | **Currentness laundering** | An official registry entry, publication date, maintained status, latest release, citation count, or widespread default is verified and then reported as evidence that the source is SoTA. | The check establishes source identity, availability, or currentness, not the best-known answer or its advantage over a serious alternative. | Classify the source as official/popular comparator or identity/currentness only. It contributes to SoTA only through an explicit comparison whose defect and pattern mutation are independently shown. |
 | **Incidental tool-bound normativity** | A rule about an abstract subject requires an unrelated vendor tool, file format or execution command. | Introduces an implementation dependency into the concept. | Move that machinery to Tooling/project profiles. Retain exact syntax only when the rule governs that publication form, protocol or grammar and names its edition/use boundary under E.5.1. |
@@ -78,6 +78,6 @@ These failure modes recur in drafts and in downstream application. They are pred
 | **Package-form and neighboring-relation drift** | Package-form words are varied for style or used without their declared relation. | The reader cannot recover membership, projection, navigation, or another actual relation. | Use the matching term from `E.8:4.2.2`, state the relation, and name any cited content's concrete contribution. |
 | **Intended-reader leakage** | Pattern sections narrate the current draft's promotion, freeze, review, or safest landing form. | The reader must reconstruct development history to find the Method and its reasons. | Keep that history in companion records; explain the user's Methods, costs, alternatives, boundaries, and use-changing architectural reasons in the public account. |
 | **Editorial/development self-instruction leak** | The pattern starts saying things like `this draft should …`, `later authoring will …`, or `that is the opening this draft must hold`. | The text stops addressing the working reader and starts narrating the current editorial or drafting process. | Move the sentence to the authored-slice carrier or handoff, or rewrite it as one user-facing claim about the primary `EntityOfConcern`, boundary, or practical consequence. |
-| **Intended-reader-clean but pragmatically foggy** | The pattern addresses the right reader, but the first reading still hides the working situation, payoff, governed object, or first move. | Correct audience alone does not make the guidance usable. | Put the recognition cue and one minimal worked case earlier, gloss necessary technical terms, and tie explanatory `SoTA-Echoing` back to the case it changes. |
+| **Intended-reader-clean but pragmatically foggy** | The pattern addresses the right reader, but the first reading still hides the working situation, payoff, governed object, or first move. | Correct audience alone does not make the guidance usable. | Put the working question and first useful move earlier, gloss necessary technical terms, and supply the explanation the reader needs. Add or move a worked case when its specific contribution resolves the difficulty; connect explanatory `SoTA-Echoing` to the guidance it changes. |
 | **Hybrid audience blob** | One main narrative tries to serve engineers, managers, auditors, architects, and researchers at once with no primary working reader or concern. | The text becomes globally polite but locally blurry; no reader knows which concern governs the first passage. | Make the primary working reader, concern, and viewpoint explicit and assign other audiences to secondary companion uses, other faces, or an explicit out-of-scope note. |
 

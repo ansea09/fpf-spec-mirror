@@ -6,12 +6,12 @@ section_id: "E.11.DSG:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__011_rationale.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:10 — Rationale"
-line_start: 102975
-line_end: 102980
+line_start: 102988
+line_end: 102993
 dependencies:
   - "C.2.1"
   - "C.2.P"

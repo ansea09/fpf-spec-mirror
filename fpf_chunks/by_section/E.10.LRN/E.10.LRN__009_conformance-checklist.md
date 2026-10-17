@@ -6,12 +6,12 @@ section_id: "E.10.LRN:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__009_conformance-checklist.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:7 — Conformance Checklist"
-line_start: 98797
-line_end: 98808
+line_start: 98810
+line_end: 98821
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "G.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__003_problem.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:2 — Problem"
-line_start: 125173
-line_end: 125183
+line_start: 125186
+line_end: 125196
 dependencies:
   - "A.10"
   - "A.15.2"

@@ -6,12 +6,12 @@ section_id: "E.23.CDI:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 113551
-line_end: 113562
+line_start: 113564
+line_end: 113575
 dependencies:
   - "A.15.1"
   - "A.2.2"

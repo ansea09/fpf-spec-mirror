@@ -6,12 +6,12 @@ section_id: "E.8.ML:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__013_relations.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:12 — Relations"
-line_start: 95906
-line_end: 95914
+line_start: 95919
+line_end: 95927
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"

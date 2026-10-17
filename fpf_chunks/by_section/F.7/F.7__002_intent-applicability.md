@@ -6,12 +6,12 @@ section_id: "F.7:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__002_intent-applicability.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:1 — Intent & applicability"
-line_start: 118432
-line_end: 118439
+line_start: 118445
+line_end: 118452
 dependencies:
   - "A.6.9"
   - "B.3"

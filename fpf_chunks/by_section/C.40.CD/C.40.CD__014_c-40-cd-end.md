@@ -6,7 +6,7 @@ section_id: "C.40.CD:End"
 section_title: "C.40.CD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__014_c-40-cd-end.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:End — C.40.CD:End"

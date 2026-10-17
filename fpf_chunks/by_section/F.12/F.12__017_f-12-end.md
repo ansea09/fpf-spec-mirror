@@ -6,12 +6,12 @@ section_id: "F.12:End"
 section_title: "F.12:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__017_f-12-end.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:End — F.12:End"
-line_start: 120695
-line_end: 120696
+line_start: 120708
+line_end: 120709
 dependencies:
   - "A.10"
   - "A.15.1"

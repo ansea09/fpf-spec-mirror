@@ -6,12 +6,12 @@ section_id: "E.24:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__001_intro.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:intro — Intro"
-line_start: 113885
-line_end: 113890
+line_start: 113898
+line_end: 113903
 dependencies:
   - "A.19.ECS"
   - "A.6.0"

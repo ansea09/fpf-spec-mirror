@@ -6,12 +6,12 @@ section_id: "G.10:End"
 section_title: "G.10:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__013_g-10-end.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:End — G.10:End"
-line_start: 130003
-line_end: 130006
+line_start: 130016
+line_end: 130019
 dependencies:
   - "A.10"
   - "A.15.3"

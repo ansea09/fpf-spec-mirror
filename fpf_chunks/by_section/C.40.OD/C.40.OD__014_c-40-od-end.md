@@ -6,7 +6,7 @@ section_id: "C.40.OD:End"
 section_title: "C.40.OD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__014_c-40-od-end.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:End — C.40.OD:End"

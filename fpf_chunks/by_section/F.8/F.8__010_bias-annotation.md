@@ -6,12 +6,12 @@ section_id: "F.8:8.0"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__010_bias-annotation.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:8.0 — Bias-Annotation"
-line_start: 118982
-line_end: 118985
+line_start: 118995
+line_end: 118998
 dependencies:
   - "A.11"
   - "A.15"

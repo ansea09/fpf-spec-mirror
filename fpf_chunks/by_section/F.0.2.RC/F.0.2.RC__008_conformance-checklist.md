@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__008_conformance-checklist.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:7 — Conformance Checklist"
-line_start: 116439
-line_end: 116448
+line_start: 116452
+line_end: 116461
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"

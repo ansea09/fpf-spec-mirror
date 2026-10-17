@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__010_consequences.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
   - "E.10.MOVE:9 — Consequences"
-line_start: 99534
-line_end: 99547
+line_start: 99547
+line_end: 99560
 dependencies:
   - "A.1.STM"
   - "A.10"

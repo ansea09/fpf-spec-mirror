@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__006_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
 line_start: 95015
-line_end: 95577
+line_end: 95589
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -450,6 +450,18 @@ In a different change, South starts using mixed orders and supplies no row-level
 
 The raw/result prototype, the source-qualified comparison and the reduced single-source view expose why different forms support the same conversion in different conditions. They are worked constructions, not observations of improved learning or production performance.
 
+###### E.8:4.2.1.3 - Choose examples by the explanation they make usable
+
+Determine the content owed to the reader from the subject, declared scope and receiving work. Include the relations, grounds, alternatives and conditions needed for that work; do not let the circumstances of a convenient example decide which of them to explain. This is a priority in deciding adequacy, not a compulsory order of discovery or presentation. A case, sketch or attempted calculation can reveal a missing relation before the general account is finished. Carry that discovery back into the account and distinguish a reusable condition from an incidental feature of the case.
+
+Select an example for a particular contribution: making an unfamiliar relation inspectable, exposing an intermediate operation, distinguishing plausible rules, showing a boundary, or connecting several Methods in use. Work the correspondence between the account and the instance. A correct answer can fit more than one rule; choose values or a comparison that lets the reader distinguish the intended relation. Preserve adequate direct explanation when an additional example would contribute nothing to the declared use. Archetypal Grounding remains a content function of a canonical pattern; it is not a requirement to insert an example into every paragraph, slide or section derived from that pattern.
+
+**Decide whether to continue the same case.** Continuity can make an earlier result, a changing state or the consequences of a choice available to the next operation. It can also avoid reintroducing circumstances the reader already understands. Retain that benefit when the case still shows the relations now needed. If a new question needs different objects, a competing method or a condition the case cannot represent faithfully, change the case, juxtapose a contrasting one or use a direct explanation. Shorten or end the illustration when continuing it would displace necessary content. Several cases are not inherently better: retain the comparisons that expose a consequential relation, rather than changing settings for variety alone.
+
+**Check the account at its promised scope.** Compare what the explanation lets the intended reader recover with what the subject and receiving work require. The reader should be able to explain the governing relation, its grounds and conditions, and use it in a relevant changed situation without merely retelling the story. Choose that variation from the promised scope, not only from what is easy to change inside the chosen setting. A change of numbers within one kind of object may settle a numerical question while leaving a claimed change of object kind or Method combination unexamined. Supply the missing explanation or accessible supplier; another example does not repair an absent operation by itself. Use F.19's evidence and coverage conditions for a reader-recovery conclusion. A correct illustration, its presence in the expected section and a successful local reading establish only their respective contributions.
+
+For example, a continuing transaction can show why a later update must use the state produced by an earlier one: retaining the same transaction makes that dependency visible. In an account of resource use across Methods, however, a single consumable specimen cannot also stand for reusable information without further explanation. Explain consumption and reuse, then use cases that distinguish those relations. Reusing the specimen story for every step would hide a condition of the general Method. A reader who already understands a short algebraic derivation may instead need no narrative case for that inference. These are choices about the contribution required, not a fixed allocation of examples.
+
 ##### E.8:4.2.2 - Package-form and neighboring-pattern reference discipline
 
 FPF package-form words and neighbouring-pattern references carry stable meanings. State the actual relation used by the sentence, and use the exact subject pattern when that relation is not recoverable from ordinary wording.
@@ -543,7 +555,7 @@ When a pattern claims practice guidance or is meant to be used by engineers, man
 - a short statement of what this pattern buys the reader in practice;
 - the first admissible action-guiding move the user should take in that situation;
 - a short `Not this pattern when` boundary for ordinary nearby non-use cases;
-- one minimally viable worked case or use slice that shows what changes in practice;
+- a minimally viable worked case or use slice that makes a needed relation and its practical consequence inspectable; select and bound it through §4.2.1.3 rather than treating its presence as sufficient explanation;
 - when a typed declaration block, formal lens, or other compact modeling material is FPF-governed, a short user-facing statement of what kind of object the pattern is governing and what minimal lens keeps that object reviewable;
 - pairwise plain glosses for any FPF-governed technical terms that must appear before the heavier declaration content arrives;
 - when `SoTA-Echoing` carries explanatory work, a short working-reader implication for each row or cluster of rows and a visible link back to the case bank or worked slices that those rows discipline;

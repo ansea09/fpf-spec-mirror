@@ -6,12 +6,12 @@ section_id: "E.11.PUA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__010_consequences.md"
-commit_sha: "6e0d4301aad71e3fff553886d2598e6595d1b963"
+commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:9 — Consequences"
-line_start: 102002
-line_end: 102007
+line_start: 102015
+line_end: 102020
 dependencies:
   - "A.13"
   - "A.15"
