@@ -6,12 +6,12 @@ section_id: "F.10:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__012_sota-echoing.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:11 — SoTA-Echoing"
-line_start: 120205
-line_end: 120214
+line_start: 120228
+line_end: 120237
 dependencies:
   - "A.10"
   - "A.15.1"

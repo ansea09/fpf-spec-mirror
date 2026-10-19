@@ -6,12 +6,12 @@ section_id: "E.14:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__006_forces.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:3 — Forces"
-line_start: 103370
-line_end: 103389
+line_start: 103393
+line_end: 103412
 dependencies:
   - "B.3.5"
   - "C.13"

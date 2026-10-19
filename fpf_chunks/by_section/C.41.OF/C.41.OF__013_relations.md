@@ -6,12 +6,12 @@ section_id: "C.41.OF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.OF/C.41.OF__013_relations.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
   - "C.41.OF:12 — Relations"
-line_start: 88292
-line_end: 88297
+line_start: 88315
+line_end: 88320
 dependencies:
   - "A.15.8"
   - "C.41"

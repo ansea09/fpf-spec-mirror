@@ -6,12 +6,12 @@ section_id: "C.41.UA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__007_bias-annotation.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:6 — Bias-Annotation"
-line_start: 88390
-line_end: 88395
+line_start: 88413
+line_end: 88418
 dependencies:
   - "A.10"
   - "A.15.1"

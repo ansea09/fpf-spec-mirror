@@ -6,12 +6,12 @@ section_id: "C.41.OF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.OF/C.41.OF__005_solution.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
   - "C.41.OF:4 — Solution"
-line_start: 88195
-line_end: 88232
+line_start: 88218
+line_end: 88255
 dependencies:
   - "A.15.8"
   - "C.41"

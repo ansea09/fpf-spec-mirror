@@ -6,12 +6,12 @@ section_id: "C.41:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__003_problem-frame.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:1 — Problem frame"
-line_start: 87842
-line_end: 87849
+line_start: 87865
+line_end: 87872
 dependencies:
   - "A.3.1"
   - "A.3.2"

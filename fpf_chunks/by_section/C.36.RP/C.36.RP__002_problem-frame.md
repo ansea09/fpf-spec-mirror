@@ -6,12 +6,12 @@ section_id: "C.36.RP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__002_problem-frame.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:1 — Problem frame"
-line_start: 88958
-line_end: 88969
+line_start: 88981
+line_end: 88992
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

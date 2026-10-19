@@ -6,12 +6,12 @@ section_id: "C.41.TF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__013_relations.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:12 — Relations"
-line_start: 88158
-line_end: 88163
+line_start: 88181
+line_end: 88186
 dependencies:
   - "C.37"
   - "C.41"

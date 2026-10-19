@@ -6,12 +6,12 @@ section_id: "C.40.OD:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 87338
-line_end: 87353
+line_start: 87361
+line_end: 87376
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"
@@ -22,7 +22,7 @@ keywords:
 
 ### C.40.OD:8 - Common Anti-Patterns and How to Avoid Them
 
-**The office is the solution.** Recover the work and support network before and while comparing organization concepts.
+**The office is the solution.** Recover the connected work, its performers, results and conditions before and while comparing organization concepts.
 
 **Everything involving Methods is development.** Identify the subject, worthwhile change and continuation being claimed.
 

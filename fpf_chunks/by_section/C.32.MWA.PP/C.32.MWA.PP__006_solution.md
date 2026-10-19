@@ -6,7 +6,7 @@ section_id: "C.32.MWA.PP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__006_solution.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:4 — Solution"
@@ -59,7 +59,7 @@ Try the operation on one representative input or a sufficiently explicit prospec
 
 | Finding in the attempted use | Obtain this contribution before relying on the proposed arrangement |
 | --- | --- |
-| The Method and its receiving result are sufficient; only local access or capacity is missing. | Preserve the Method and design the missing performance/support relation. |
+| The Method and its receiving result are sufficient; only local access or capacity is missing. | Preserve the Method and design the missing allocation or access relation. |
 | Competent people can perform the decisive judgement, but the learner or another provider cannot recover it. | Obtain a qualified demonstration or reconstruct the missing criterion; design learning separately. |
 | One Method returns a result that the next cannot use. | Construct an adapter, choose a compatible Method or revise the receiving condition with its owner. Explain why the connection works. |
 | No qualified way obtains the requested subject result. | Use C.39 and the relevant subject or research practice to construct a way or return a precise unresolved inquiry. |
@@ -78,7 +78,7 @@ Do not force every result-use or support relation into Method composition. Use B
 
 #### C.32.MWA.PP:4.3 - Keep the necessary structures distinct and connect their claims
 
-Select only the structures that can change this design. A compact cross-reference is often enough. C.30.ASV:4.5a supplies the Method questions; C.32.MWA:4.1 relates them to separate performance, support and cultural accounts.
+Select only the structures that can change this design. A compact cross-reference is often enough. C.30.ASV:4.5a supplies the Method questions; C.32.MWA:4.1 relates them to distinct accounts of Work, Systems and means, and cultural relations.
 
 | Question | What is being related | What must not be inferred from that relation |
 | --- | --- | --- |
@@ -229,9 +229,9 @@ Select the receiving Method from the result still missing.
 
 **For a separately selected corporate assurance engagement, use the applicable corporate governance Method to arrange and receive it.** Supply the subject, question, criteria, period and intended reliance. Reuse an adequate existing result; otherwise obtain the appropriate mandate, qualification, access, capacity, safeguards for conflicts and reporting route. Preserve the provider's actual conclusion and its limits for the governing recipient's action, including a route protected from those whose work is examined. The corporate governance Method arranges and receives the contribution; the qualified professional Method governs the examination itself. A non-corporate or profession-specific engagement uses its direct institutional or professional supplier instead of inheriting corporate jurisdiction. This return adds no compulsory audit of every support or learning episode.
 
-These receiving Methods can consume the same competent realization and its results. Compare the available result with the present claim, name the remaining gap and obtain only the additional complete contribution needed to settle it. If human acquisition is missing, give the qualified practitioner of human learning the actual later-work demand, subject criterion and permitted help; obtain the capability result and its supported use rather than crediting instruction or attendance. If System integration, access, provision or scheduling is missing, use the corresponding engineering, administration, provider or operating Method.
+These receiving Methods can consume the same competent realization and its results. Compare the available result with the present claim, name the remaining gap and obtain only the additional complete contribution needed to settle it. If human acquisition is missing, give the qualified practitioner of human learning the actual later-work demand, subject criterion and permitted help; obtain the capability result and its supported use rather than crediting instruction or attendance. If work is missing to integrate Systems, supply an input, arrange access or schedule use, obtain that work through the corresponding engineering, administration, provider or operating Method.
 
-The hand-back to C.32.MWA.PP must make local enactment and its limits interpretable. Before dependent work, the receiving practitioner obtains effective assignments, permissions, provision and commitments through their owners. A prospective walkthrough can show how a real or sufficiently explicit input would pass through local actions: which operation of the supplied Method each action performs, which condition it preserves and how its result becomes usable next. That walkthrough supports a construction claim, not an assertion that the occurrences happened.
+The hand-back to C.32.MWA.PP must make local enactment and its limits interpretable. Before dependent work, the receiving practitioner obtains the required inputs and usable means, and secures effective assignments, permissions and commitments through their owners. A prospective walkthrough can show how a real or sufficiently explicit input would pass through local actions: which operation of the supplied Method each action performs, which condition it preserves and how its result becomes usable next. That walkthrough supports a construction claim, not an assertion that the occurrences happened.
 
 When actual performance is examined, compare the actions with the operative conditions as well as with the obtained result. A good result reached by another way can be valuable without demonstrating enactment of the selected Method. An allowed variation can preserve it; a changed criterion or replacement operation can require another subject judgement, Method identity or replacement decision through A.3.1 and B.1.5.RS. Retain that difference in the returned result without demanding detailed fresh observation at every workstation.
 

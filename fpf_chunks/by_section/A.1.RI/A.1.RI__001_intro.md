@@ -6,7 +6,7 @@ section_id: "A.1.RI:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.RI/A.1.RI__001_intro.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "A.1.RI — Reidentifying an Object across Observations"
   - "A.1.RI:intro — Intro"

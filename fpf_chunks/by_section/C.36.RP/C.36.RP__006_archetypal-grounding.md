@@ -6,12 +6,12 @@ section_id: "C.36.RP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__006_archetypal-grounding.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:5 — Archetypal Grounding"
-line_start: 89059
-line_end: 89086
+line_start: 89082
+line_end: 89109
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

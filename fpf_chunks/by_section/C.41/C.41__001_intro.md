@@ -6,12 +6,12 @@ section_id: "C.41:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__001_intro.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:intro — Intro"
-line_start: 87771
-line_end: 87776
+line_start: 87794
+line_end: 87799
 dependencies:
   - "A.3.1"
   - "A.3.2"

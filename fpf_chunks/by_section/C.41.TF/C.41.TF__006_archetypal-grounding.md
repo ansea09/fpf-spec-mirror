@@ -6,12 +6,12 @@ section_id: "C.41.TF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__006_archetypal-grounding.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:5 — Archetypal Grounding"
-line_start: 88086
-line_end: 88112
+line_start: 88109
+line_end: 88135
 dependencies:
   - "C.37"
   - "C.41"

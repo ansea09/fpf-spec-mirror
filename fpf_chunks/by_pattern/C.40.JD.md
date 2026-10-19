@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.JD.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
-line_start: 87392
-line_end: 87626
+line_start: 87415
+line_end: 87649
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"
@@ -196,7 +196,7 @@ This constructed application stipulates its working conditions. It illustrates t
 
 A company wants project leads to notice and question consequential premises in engineering estimates, resource accounts and customer commitments. Its first proposal is one mastery office. The intended result is more specific: each lead should recognise when a premise needs examination, obtain the appropriate answer and revise the commitment within their authority. The leads are also to become better able to formulate their next development question. They need not each become an engineer, accountant and market researcher.
 
-Use the [difficulty inquiry in C.40.OD:4.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40od42---connect-consequential-work-to-a-worthwhile-question) to recover three contrasting episodes with the people doing the work, then [identify the missing contributions through C.40.JD:4.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40jd41---join-development-of-the-way-with-development-of-its-performer). Stipulate that two failures concerned unexplained specialist limits and one concerned a schedule that left no time to examine a known uncertainty. An adequate technical Method and capable specialists already exist. Further research is unnecessary for these particular gaps; the company needs usable specialist returns, preparation for the leads and changed work conditions.
+Use the [difficulty inquiry in C.40.OD:4.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40od42---formulate-the-problem-and-the-inquiries-needed-to-choose-a-direction) to recover three contrasting episodes with the people doing the work, then [identify the missing contributions through C.40.JD:4.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40jd41---join-development-of-the-way-with-development-of-its-performer). Stipulate that two failures concerned unexplained specialist limits and one concerned a schedule that left no time to examine a known uncertainty. An adequate technical Method and capable specialists already exist. Further research is unnecessary for these particular gaps; the company needs usable specialist returns, preparation for the leads and changed work conditions.
 
 [Compare the complete alternatives through C.40.JD:4.5](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40jd45---synthesize-the-organization-from-the-work-and-conditions), including authority and commitments through the applicable Method for agreeing feasible joint contributions and [the receiving work and learning contributions through C.40.JD:4.3](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40jd43---rejoin-in-consequential-work-and-distinguish-what-changed). In this case the line managers can prepare and debrief the relevant work, have protected time within revised current obligations, and can obtain the specialists before the decision windows. An existing service maintains permitted source material. These premises make a distributed arrangement viable for the bounded start. Creating a separate office would add no missing contribution to that start. Keep the comparison open if the premises change.
 

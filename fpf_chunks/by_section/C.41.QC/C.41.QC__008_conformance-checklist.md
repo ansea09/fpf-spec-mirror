@@ -6,12 +6,12 @@ section_id: "C.41.QC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__008_conformance-checklist.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:7 — Conformance Checklist"
-line_start: 88725
-line_end: 88734
+line_start: 88748
+line_end: 88757
 dependencies:
   - "A.10"
   - "C.41"

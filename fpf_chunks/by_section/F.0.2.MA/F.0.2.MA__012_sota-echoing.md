@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__012_sota-echoing.md"
-commit_sha: "d9c3dd65da3cd9f7df898698e49c5464dd8a6c4b"
+commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:11 — SoTA-Echoing"
-line_start: 116310
-line_end: 116317
+line_start: 116333
+line_end: 116340
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.QM"
