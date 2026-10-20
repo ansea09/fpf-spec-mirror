@@ -6,12 +6,12 @@ section_id: "A.1.RI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.RI/A.1.RI__006_archetypal-grounding.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "A.1.RI — Reidentifying an Object across Observations"
   - "A.1.RI:5 — Archetypal Grounding"
-line_start: 2937
-line_end: 2975
+line_start: 2938
+line_end: 2976
 dependencies:
   - "A.1"
   - "A.3.3.PI"

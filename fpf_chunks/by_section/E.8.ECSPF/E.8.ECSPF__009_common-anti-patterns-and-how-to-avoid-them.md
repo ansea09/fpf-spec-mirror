@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "E.8.ECSPF — Author an FPF Pattern from an Accepted Evaluation CharacteristicSpace Specification"
   - "E.8.ECSPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 96725
-line_end: 96741
+line_start: 97015
+line_end: 97031
 dependencies:
   - "A.19.ECS"
   - "C.25"

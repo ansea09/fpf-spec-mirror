@@ -6,12 +6,12 @@ section_id: "F.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__013_relations.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:12 — Relations"
-line_start: 117593
-line_end: 117615
+line_start: 117883
+line_end: 117905
 dependencies:
   - "A.10"
   - "A.7"

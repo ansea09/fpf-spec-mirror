@@ -6,12 +6,12 @@ section_id: "B.5.RR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 48748
-line_end: 48757
+line_start: 48749
+line_end: 48758
 dependencies:
   - "B.5"
   - "B.5.MPC.R"

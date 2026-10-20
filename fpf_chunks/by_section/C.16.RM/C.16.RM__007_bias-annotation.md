@@ -6,12 +6,12 @@ section_id: "C.16.RM:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__007_bias-annotation.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:6 — Bias-Annotation"
-line_start: 59414
-line_end: 59419
+line_start: 59415
+line_end: 59420
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"

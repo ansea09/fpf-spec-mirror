@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__001_intro.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:intro — Intro"
-line_start: 11115
-line_end: 11121
+line_start: 11116
+line_end: 11122
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"

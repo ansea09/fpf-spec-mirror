@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__001_intro.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:intro — Intro"
-line_start: 12447
-line_end: 12452
+line_start: 12448
+line_end: 12453
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"

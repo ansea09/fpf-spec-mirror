@@ -6,12 +6,12 @@ section_id: "C.40.NU:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__007_bias-annotation.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:6 — Bias-Annotation"
-line_start: 86461
-line_end: 86469
+line_start: 86462
+line_end: 86470
 dependencies:
   - "C.17"
   - "C.18"

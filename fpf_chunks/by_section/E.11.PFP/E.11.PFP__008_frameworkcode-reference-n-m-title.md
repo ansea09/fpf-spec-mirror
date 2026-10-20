@@ -6,12 +6,12 @@ section_id: "E.11.PFP:section-007"
 section_title: "<FrameworkCode>.Reference:<n>.<m> - <Title>"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__008_frameworkcode-reference-n-m-title.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:section-007 — <FrameworkCode>.Reference:<n>.<m> - <Title>"
-line_start: 103235
-line_end: 103265
+line_start: 103525
+line_end: 103555
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -55,7 +55,7 @@ Explain how to assemble and revise the answers. Which partial answers can be use
 
 Keep the full explanation at the scale that owns its subject. E.4.CM:4.5 distinguishes completing an existing pattern, developing a separately useful recurring Method as a pattern, and explaining the material relations of several Methods in an Architectural Reference. The title or mnemonic form settles none of those choices. A framework can have several long mantras for different questions; a repertoire need not acquire one artificial total sequence. Where an existing explanation is sufficient, preserve it and repair its name or access instead of writing a shorter substitute. Where a source explanation enables readers to understand or adapt the contribution, retaining its thesis alone is insufficient.
 
-Give the contribution a recognizable name, a stable existing kind of address, and both a compact reminder and a reachable developed account. Use F.18 when selecting a durable public name. Use the ordinary pattern or Reference section address that fits its owner; no new markup or universal mantra record is required. The compact expression may use questions, relations or actions. Choose it from the explanation rather than restricting the explanation to what fits one memorable sentence. Preserve the subject and scope across the two forms.
+Give the contribution a recognizable name, a stable existing kind of address, and both a compact reminder and a reachable developed account. Use F.18 when selecting a durable public name. A mantra that recalls a separately applicable reasoning Method returns to that Method's ordinary pattern address and pattern-index entry. A reminder of the language's architecture can return to its Reference section. Establish that difference through E.4.CM:4.5 before choosing the address; completeness of a Reference explanation alone does not make it an adequate sole Method owner. No new markup or universal mantra record is required. The compact expression may use questions, relations or actions. Choose it from the explanation rather than restricting the explanation to what fits one memorable sentence. Preserve the subject and scope across the two forms.
 
 Make the account visible at each assembly level where it helps explain the whole. A Framework Reference explains the framework's connected reasoning and returns to its full pattern bodies. A Suite or Library Reference explains the connections introduced at that wider level and returns to the constituent accounts, without copying all their explanations. In a README, show the most consequential reasoning connection in ordinary language, name the long mantra when one is useful, and give a direct return to its full account. This overview is not necessarily a Practical-Use Card. E.11's comparison of entry forms decides whether a card helps a particular first-entry use; it does not decide whether the underlying subject reasoning is worth publishing.
 

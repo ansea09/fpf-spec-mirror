@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__005_forces.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:3 — Forces"
-line_start: 79047
-line_end: 79062
+line_start: 79048
+line_end: 79063
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"

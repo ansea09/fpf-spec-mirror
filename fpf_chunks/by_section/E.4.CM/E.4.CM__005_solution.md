@@ -6,12 +6,12 @@ section_id: "E.4.CM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__005_solution.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:4 — Solution"
-line_start: 92152
-line_end: 92391
+line_start: 92437
+line_end: 92680
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -92,6 +92,10 @@ When selecting the composite would settle a consequential audience, support or s
 #### E.4.CM:4.5 - Choose the public owner by problem and scale
 
 Keep the contribution in the existing pattern when it completes that pattern's promised result without introducing a separately selectable recurring problem. Give it a normal pattern when practitioners need to recognize and apply the whole's distinct problem–move–result relationship. Its constituents can remain independently usable patterns.
+
+Make that owner decision from the action and result being supplied, not from whether the wording or its ingredients are new. A full explanation already hidden in a Reference can describe a separately useful Method. For example, a practitioner may need a repeatable way to assemble compatible answers, choose the next unresolved question and revise dependent answers after change. That Method of reasoning is distinct from the Methods whose answers it connects. Recover its whole problem, action and result and compare them with the complete candidate owner. Existing constituent Methods, a nonlinear teaching order and the absence of a new theory do not settle that comparison.
+
+An Architectural Reference can explain why a language is organized as it is, how its Methods relate and how an already described Method applies to that assembly. Name the ordinary pattern that supplies such a Method. When a separately selectable recurring Method has no adequate pattern owner, give its full account one; do not leave it discoverable only as a Reference section. Preserve the complete explanation during the move, while keeping architectural rationale and useful applications in the Reference. This does not turn every explanatory relation or worked application into another Method.
 
 Place transdisciplinary guidance in FPF and domain-specific fillings in the relevant DPF. Use E.4.PFAD when a material placement, framework boundary or cross-framework relation remains open. Shared constituents do not establish a parent DPF, and a cross-DPF method does not by itself require a Suite.
 

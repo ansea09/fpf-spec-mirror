@@ -6,12 +6,12 @@ section_id: "B.5.WN:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__002_problem-frame.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
   - "B.5.WN:1 — Problem frame"
-line_start: 47114
-line_end: 47125
+line_start: 47115
+line_end: 47126
 dependencies:
   - "A.15.10"
   - "A.6.3.RT.OE"

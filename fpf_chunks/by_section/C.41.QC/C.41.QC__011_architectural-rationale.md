@@ -6,12 +6,12 @@ section_id: "C.41.QC:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__011_architectural-rationale.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:10 — Architectural Rationale"
-line_start: 89295
-line_end: 89300
+line_start: 89296
+line_end: 89301
 dependencies:
   - "A.10"
   - "C.41"

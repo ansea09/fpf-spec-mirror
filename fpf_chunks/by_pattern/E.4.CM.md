@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.CM.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
-line_start: 92115
-line_end: 92549
+line_start: 92400
+line_end: 92839
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -128,6 +128,10 @@ When selecting the composite would settle a consequential audience, support or s
 #### E.4.CM:4.5 - Choose the public owner by problem and scale
 
 Keep the contribution in the existing pattern when it completes that pattern's promised result without introducing a separately selectable recurring problem. Give it a normal pattern when practitioners need to recognize and apply the whole's distinct problem–move–result relationship. Its constituents can remain independently usable patterns.
+
+Make that owner decision from the action and result being supplied, not from whether the wording or its ingredients are new. A full explanation already hidden in a Reference can describe a separately useful Method. For example, a practitioner may need a repeatable way to assemble compatible answers, choose the next unresolved question and revise dependent answers after change. That Method of reasoning is distinct from the Methods whose answers it connects. Recover its whole problem, action and result and compare them with the complete candidate owner. Existing constituent Methods, a nonlinear teaching order and the absence of a new theory do not settle that comparison.
+
+An Architectural Reference can explain why a language is organized as it is, how its Methods relate and how an already described Method applies to that assembly. Name the ordinary pattern that supplies such a Method. When a separately selectable recurring Method has no adequate pattern owner, give its full account one; do not leave it discoverable only as a Reference section. Preserve the complete explanation during the move, while keeping architectural rationale and useful applications in the Reference. This does not turn every explanatory relation or worked application into another Method.
 
 Place transdisciplinary guidance in FPF and domain-specific fillings in the relevant DPF. Use E.4.PFAD when a material placement, framework boundary or cross-framework relation remains open. Shared constituents do not establish a parent DPF, and a cross-DPF method does not by itself require a Suite.
 
@@ -404,6 +408,7 @@ An expert author can forget how much synthesis they supplied between references.
 | Anti-pattern | Repair |
 | --- | --- |
 | “All parts exist, so nothing remains to publish” | Compare the whole's connections and the reader's required reconstruction. |
+| “The full account is in a Reference, so it needs no Method owner” | Identify the recurring action and result supplied by that account; give a separately selectable Method an ordinary pattern owner. |
 | One unlabeled axis for composition, generality, disciplines and frameworks | Recover each structure's participants and relations. Name what each arrow represents before using the diagram's vertical or horizontal direction as shorthand. |
 | One new pattern for every row or action | Select independently recognizable recurring difficulties; combine inseparable contributions. |
 | A mandatory tour through all suppliers | State branch conditions and stop when the useful result is supplied. |

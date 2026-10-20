@@ -6,12 +6,12 @@ section_id: "E.4.CM:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 92484
-line_end: 92495
+line_start: 92773
+line_end: 92785
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -36,6 +36,7 @@ keywords:
 | Anti-pattern | Repair |
 | --- | --- |
 | “All parts exist, so nothing remains to publish” | Compare the whole's connections and the reader's required reconstruction. |
+| “The full account is in a Reference, so it needs no Method owner” | Identify the recurring action and result supplied by that account; give a separately selectable Method an ordinary pattern owner. |
 | One unlabeled axis for composition, generality, disciplines and frameworks | Recover each structure's participants and relations. Name what each arrow represents before using the diagram's vertical or horizontal direction as shorthand. |
 | One new pattern for every row or action | Select independently recognizable recurring difficulties; combine inseparable contributions. |
 | A mandatory tour through all suppliers | State branch conditions and stop when the useful result is supplied. |

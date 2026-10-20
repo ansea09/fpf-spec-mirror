@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__013_sota-echoing.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:11 — SoTA-Echoing"
-line_start: 10885
-line_end: 10896
+line_start: 10886
+line_end: 10897
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"

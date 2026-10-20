@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__013_sota-echoing.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:11 — SoTA-Echoing"
-line_start: 11349
-line_end: 11365
+line_start: 11350
+line_end: 11366
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"

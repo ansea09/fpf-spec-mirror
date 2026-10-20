@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__004_forces.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:3 — Forces"
-line_start: 116983
-line_end: 116992
+line_start: 117273
+line_end: 117282
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"

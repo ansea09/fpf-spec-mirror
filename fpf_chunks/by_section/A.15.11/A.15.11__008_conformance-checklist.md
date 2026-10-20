@@ -6,12 +6,12 @@ section_id: "A.15.11:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__008_conformance-checklist.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "A.15.11 — Make Applicable Methods Noticeable in Work"
   - "A.15.11:7 — Conformance Checklist"
-line_start: 32913
-line_end: 32927
+line_start: 32914
+line_end: 32928
 dependencies:
   - "A.15"
   - "A.15.7"

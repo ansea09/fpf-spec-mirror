@@ -6,12 +6,12 @@ section_id: "C.40.CU:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__011_rationale.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:10 — Rationale"
-line_start: 85429
-line_end: 85434
+line_start: 85430
+line_end: 85435
 dependencies:
   - "B.1.5.EW"
   - "C.11"

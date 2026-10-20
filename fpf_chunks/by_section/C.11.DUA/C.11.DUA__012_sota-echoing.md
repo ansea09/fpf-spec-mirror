@@ -6,12 +6,12 @@ section_id: "C.11.DUA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__012_sota-echoing.md"
-commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
+commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:11 — SoTA-Echoing"
-line_start: 57946
-line_end: 57958
+line_start: 57947
+line_end: 57959
 dependencies:
   - "A.10"
   - "C.11"
