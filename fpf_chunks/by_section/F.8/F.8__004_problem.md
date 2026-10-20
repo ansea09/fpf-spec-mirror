@@ -6,12 +6,12 @@ section_id: "F.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__004_problem.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:2 — Problem"
-line_start: 118740
-line_end: 118750
+line_start: 119351
+line_end: 119361
 dependencies:
   - "A.11"
   - "A.15"

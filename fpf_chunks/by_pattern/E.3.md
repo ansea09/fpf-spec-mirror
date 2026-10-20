@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.3.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
-line_start: 90980
-line_end: 91151
+line_start: 91573
+line_end: 91744
 dependencies:
   - "E.1"
   - "E.2"

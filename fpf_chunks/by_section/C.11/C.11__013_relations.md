@@ -6,12 +6,12 @@ section_id: "C.11:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__013_relations.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:12 — Relations"
-line_start: 57156
-line_end: 57165
+line_start: 57277
+line_end: 57286
 dependencies:
   - "A.10"
   - "A.13"

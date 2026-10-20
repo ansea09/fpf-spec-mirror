@@ -6,12 +6,12 @@ section_id: "G.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:intro — Intro"
-line_start: 130043
-line_end: 130058
+line_start: 130654
+line_end: 130669
 dependencies:
   - "A.6.RCD"
   - "B.3.4"

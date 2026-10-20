@@ -6,12 +6,12 @@ section_id: "C.39:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__011_architectural-rationale.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:10 — Architectural Rationale"
-line_start: 82530
-line_end: 82536
+line_start: 83053
+line_end: 83059
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"

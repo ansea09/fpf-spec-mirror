@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__003_problem.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:2 — Problem"
-line_start: 18172
-line_end: 18180
+line_start: 18291
+line_end: 18299
 dependencies:
   - "A.15"
   - "A.6.2"

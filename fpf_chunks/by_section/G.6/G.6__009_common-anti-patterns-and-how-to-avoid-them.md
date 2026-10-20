@@ -6,12 +6,12 @@ section_id: "G.6:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 128140
-line_end: 128152
+line_start: 128751
+line_end: 128763
 dependencies:
   - "A.10"
   - "A.13"

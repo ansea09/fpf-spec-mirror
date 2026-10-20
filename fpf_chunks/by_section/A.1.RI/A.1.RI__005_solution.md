@@ -6,12 +6,12 @@ section_id: "A.1.RI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.RI/A.1.RI__005_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.1.RI — Reidentifying an Object across Observations"
   - "A.1.RI:4 — Solution"
-line_start: 2875
-line_end: 2935
+line_start: 2876
+line_end: 2936
 dependencies:
   - "A.1"
   - "A.3.3.PI"

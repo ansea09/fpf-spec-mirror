@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.0.2.RC.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
-line_start: 116352
-line_end: 116525
+line_start: 116963
+line_end: 117136
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"

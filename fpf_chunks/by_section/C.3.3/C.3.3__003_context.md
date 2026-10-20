@@ -6,12 +6,12 @@ section_id: "C.3.3:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__003_context.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:2 — Context"
-line_start: 55399
-line_end: 55402
+line_start: 55520
+line_end: 55523
 dependencies:
   - "A.2.6"
   - "A.6.REL"

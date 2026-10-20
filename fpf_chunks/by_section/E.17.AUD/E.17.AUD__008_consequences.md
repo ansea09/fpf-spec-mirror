@@ -6,12 +6,12 @@ section_id: "E.17.AUD:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__008_consequences.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:7 — Consequences"
-line_start: 107586
-line_end: 107593
+line_start: 108197
+line_end: 108204
 dependencies:
   - "A.10"
   - "A.15"

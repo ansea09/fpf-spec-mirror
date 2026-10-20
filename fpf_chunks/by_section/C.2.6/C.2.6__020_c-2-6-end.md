@@ -6,12 +6,12 @@ section_id: "C.2.6:End"
 section_title: "C.2.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__020_c-2-6-end.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:End — C.2.6:End"
-line_start: 54029
-line_end: 54030
+line_start: 54150
+line_end: 54151
 dependencies:
   - "A.16"
   - "A.16.0"

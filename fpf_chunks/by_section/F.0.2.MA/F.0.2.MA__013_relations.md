@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__013_relations.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:12 — Relations"
-line_start: 116341
-line_end: 116349
+line_start: 116952
+line_end: 116960
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.QM"

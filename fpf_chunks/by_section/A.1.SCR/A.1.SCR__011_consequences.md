@@ -6,12 +6,12 @@ section_id: "A.1.SCR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__011_consequences.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:9 — Consequences"
-line_start: 3705
-line_end: 3708
+line_start: 3708
+line_end: 3711
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -26,5 +26,5 @@ keywords:
 
 ### A.1.SCR:9 - Consequences
 
-The pattern makes full system recognition more useful by applying it only where identity and boundary change an engineering decision. It also makes subject-pattern results productive: Work, Method, capability, structure, episteme, and relations can close their own questions. The cost is that the practitioner must state the decision and may need to stop when construction facts or a relation governor are missing.
+The pattern makes full system recognition more useful by applying it only where identity and boundary change an engineering decision. It also makes subject-pattern results productive: Work, Method, capability, structure, episteme, and relations can close their own questions. The cost is that the practitioner must state the decision and may need to stop when construction facts or a relation governor are missing. A local non-System result remains useful while A.1.STM keeps any unresolved common-target question visible.
 

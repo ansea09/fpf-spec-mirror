@@ -6,12 +6,12 @@ section_id: "C.2.4:18"
 section_title: "Review Matrix and Endpoint Boundary Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__019_review-matrix-and-endpoint-boundary-tests.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:18 — Review Matrix and Endpoint Boundary Tests"
-line_start: 53641
-line_end: 53658
+line_start: 53762
+line_end: 53779
 dependencies:
   - "A.15"
   - "A.15.1"

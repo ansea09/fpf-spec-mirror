@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.STM"
-pattern_title: "Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+pattern_title: "Connect Project Reasoning (System-Thinking Long Mantra)"
 section_id: "A.1.STM:7"
 section_title: "Recognition before relying on a system"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__009_recognition-before-relying-on-a-system.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
-  - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+  - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:7 — Recognition before relying on a system"
-line_start: 4112
-line_end: 4117
+line_start: 4220
+line_end: 4225
 dependencies:
   - "A.1"
   - "A.1.CSD"

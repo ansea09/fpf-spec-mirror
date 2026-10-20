@@ -6,12 +6,12 @@ section_id: "C.22.2:11"
 section_title: "Validation, Reliance, AI-Agent Cues, and Safe Probing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__012_validation-reliance-ai-agent-cues-and-safe-probing.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:11 — Validation, Reliance, AI-Agent Cues, and Safe Probing"
-line_start: 63894
-line_end: 63914
+line_start: 64015
+line_end: 64035
 dependencies:
   - "A.10"
   - "A.15"

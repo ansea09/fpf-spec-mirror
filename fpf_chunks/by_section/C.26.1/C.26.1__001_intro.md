@@ -6,12 +6,12 @@ section_id: "C.26.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:intro — Intro"
-line_start: 65889
-line_end: 65894
+line_start: 66010
+line_end: 66015
 dependencies:
   - "A.1.1"
   - "A.10"

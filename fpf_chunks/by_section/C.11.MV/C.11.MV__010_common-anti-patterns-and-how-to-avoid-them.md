@@ -6,12 +6,12 @@ section_id: "C.11.MV:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 58051
-line_end: 58060
+line_start: 58172
+line_end: 58181
 dependencies:
   - "A.3.1.QM"
   - "C.11"

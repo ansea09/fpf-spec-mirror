@@ -6,12 +6,12 @@ section_id: "C.22:6"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__008_archetypal-grounding-tell-show-show.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:6 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 62937
-line_end: 62972
+line_start: 63058
+line_end: 63093
 dependencies:
   - "A.6.0"
   - "C.16"

@@ -6,12 +6,12 @@ section_id: "C.30.LCA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__013_relations.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:12 — Relations"
-line_start: 74317
-line_end: 74327
+line_start: 74440
+line_end: 74451
 dependencies:
   - "A.10"
   - "A.20"
@@ -26,8 +26,10 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
+  - "C.30.LCA"
   - "C.30.STRAT"
   - "C.30.TFS-REL"
+  - "C.32.LCA"
   - "E.17.0"
   - "E.18"
   - "E.18.2"
@@ -49,6 +51,7 @@ keywords:
 * Uses `A.22` for exact structure identity and structure-kind discipline.
 * Coordinates with `C.30.STRAT` when layer, level, tier, stack, ladder, rung, block, expert, cache, router, gate, or similar source labels must be recovered before control-specific use.
 * Coordinates with `B.2.5` for supervisor-subholon feedback relation recognition.
+* Coordinates with `C.32.LCA` for constructing and comparing control arrangements. C.30.LCA supplies the recovered control account and its use limits; C.32.LCA returns explained alternatives whose descriptions can be examined here. Construction and view qualification retain their different results.
 * Coordinates with E.18 and C.30.TFS-REL when transformation-flow path slices supply structure input to the control view; use E.18.2 for a mathematical description when that description is current.
 * For neighboring claims, use `A.3.3` for dynamics or stability, `C.27.TA` for temporal-aspect or rate-band structure, `C.27` for authored temporal-claim adequacy, `C.28` for causal use, A.10 for bounded source-to-use reliance, G.6 for citable provenance paths, B.3 only for a named assurance claim, A.20 for internal-constraint validity, A.21 for gate decisions, A.15 for Work alignment, A.15.6 for project-Work recovery, E.24.PUB for publication, and C.29 for representation or transferable mathematical-lens use.
 

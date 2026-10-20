@@ -6,12 +6,12 @@ section_id: "G.11:11"
 section_title: "SoTA-Echoing — Post‑2015 practices aligned (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__013_sota-echoing-post-2015-practices-aligned-informative.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:11 — SoTA-Echoing — Post‑2015 practices aligned (informative)"
-line_start: 130446
-line_end: 130491
+line_start: 131057
+line_end: 131102
 dependencies:
   - "A.6.RCD"
   - "B.3.4"

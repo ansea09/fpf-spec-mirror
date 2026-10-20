@@ -6,12 +6,12 @@ section_id: "A.7:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__009_conformance-checklist-normative.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:7 — Conformance Checklist (normative)"
-line_start: 25800
-line_end: 25824
+line_start: 25919
+line_end: 25943
 dependencies:
   - "A.1"
   - "A.10"

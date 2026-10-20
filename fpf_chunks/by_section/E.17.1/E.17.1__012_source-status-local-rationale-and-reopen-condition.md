@@ -6,12 +6,12 @@ section_id: "E.17.1:11"
 section_title: "Source status, local rationale, and reopen condition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__012_source-status-local-rationale-and-reopen-condition.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:11 — Source status, local rationale, and reopen condition"
-line_start: 104962
-line_end: 104971
+line_start: 105573
+line_end: 105582
 dependencies:
   - "A.16.0"
   - "A.22"

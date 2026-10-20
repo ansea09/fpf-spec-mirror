@@ -6,18 +6,20 @@ section_id: "D.1:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__011_consequences.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:6 — Consequences"
-line_start: 89624
-line_end: 89629
+line_start: 90213
+line_end: 90220
 dependencies:
   - "A.1"
   - "A.1.CSD"
   - "A.10"
   - "A.7"
   - "B.3"
+  - "B.5.RA"
+  - "B.5.RR"
   - "C.11"
   - "C.11.DUA"
   - "C.28"
@@ -36,4 +38,6 @@ keywords:
 This pattern makes ethical claims portable across FPF without pretending that FPF has one final ethical theory. It also prevents a common failure: a technical pattern silently inherits one ethical theory because a word such as "safe", "fair", "beneficial", or "responsible" sounded ordinary.
 
 Explicitness follows the claim being used: recognition needs a clear concern and next question, while a judgement needs its supporting basis and use limits. A durable frame earns its effort through the comparison or later reliance it supports.
+
+For decisions about people, the conditional argument in :2.2 makes a practical difference: the planner can distinguish a valued result from authority to require a person's contribution, reuse an adequate commitment, and identify when consent, another justification or a different means is still needed. It also shows which disagreement concerns the normative basis rather than a missing technical fact.
 

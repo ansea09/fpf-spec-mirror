@@ -6,12 +6,12 @@ section_id: "A.2.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__004_forces.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:3 — Forces"
-line_start: 5837
-line_end: 5847
+line_start: 5956
+line_end: 5966
 dependencies:
   - "A.10"
   - "A.2"

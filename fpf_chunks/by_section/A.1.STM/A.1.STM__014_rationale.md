@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.STM"
-pattern_title: "Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+pattern_title: "Connect Project Reasoning (System-Thinking Long Mantra)"
 section_id: "A.1.STM:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__014_rationale.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
-  - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+  - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:12 — Rationale"
-line_start: 4166
-line_end: 4169
+line_start: 4283
+line_end: 4288
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -40,5 +40,7 @@ keywords:
 
 ### A.1.STM:12 - Rationale
 
-The useful inheritance from systems-thinking mantras is the connected attention span: expected outside change and project-system boundary, separately grounded runtime transformation and participation, internal organization, making or changing the system, and recursive builders. FPF preserves that span while rejecting a single algorithm, a creator graph ontology, word-induced systemhood, and a universal route. Project-level network placement and a minimal subject- or claim-centred case placement keep the span usable without identifying project, network, case, or record. The smallest reusable account is therefore a thin use pattern beside A.1, not an expansion of system recognition or architecture.
+A shared target makes division of labour intelligible: it lets a participant explain why a local choice matters to people outside that local task. Intended use constrains functioning; functioning constrains plausible construction; construction constrains the Methods and capabilities needed to obtain it. Those dependencies explain the mantra's order while criticism and experience explain the returns.
+
+The same reasoning applies recursively to builders without making creation a composition relation or every builder a Work performer. Separating the project role from System identity preserves this organizing principle across different projects and before a holder exists. Separating local completion from receiving use lets a team finish bounded work without mistaking that completion for success of the whole undertaking.
 

@@ -6,12 +6,12 @@ section_id: "C.25:16"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__017_authoring-and-review-guidance.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:16 — Authoring and Review Guidance"
-line_start: 65096
-line_end: 65126
+line_start: 65217
+line_end: 65247
 dependencies:
   - "A.10"
   - "A.15"

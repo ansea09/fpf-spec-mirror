@@ -6,12 +6,12 @@ section_id: "C.35:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__013_relations.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:12 — Relations"
-line_start: 80896
-line_end: 80902
+line_start: 81419
+line_end: 81425
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

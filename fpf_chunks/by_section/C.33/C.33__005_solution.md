@@ -6,12 +6,12 @@ section_id: "C.33:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__005_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:4 — Solution"
-line_start: 80356
-line_end: 80378
+line_start: 80879
+line_end: 80901
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

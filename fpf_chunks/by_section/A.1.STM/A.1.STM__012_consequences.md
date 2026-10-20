@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.STM"
-pattern_title: "Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+pattern_title: "Connect Project Reasoning (System-Thinking Long Mantra)"
 section_id: "A.1.STM:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__012_consequences.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
-  - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+  - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:10 — Consequences"
-line_start: 4146
-line_end: 4153
+line_start: 4260
+line_end: 4267
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -40,9 +40,9 @@ keywords:
 
 ### A.1.STM:10 - Consequences
 
-**Benefits.** Teams can locate a missing long-range dependency. Local results remain usable, builder recursion remains visible, and a missing relation stays an explicit stop rather than becoming a convenient arrow.
+**Benefits.** Participants can justify local choices by a common target and use hypothesis, expose incompatible understandings, and preserve the connection while developing builders and other enabling systems. The narrower mode locates a missing dependency without requiring the whole account to be rebuilt.
 
-**Costs.** Practitioners must name the final result, keep several kinds of order apart, and return to subject patterns for local truth. A provisional map may remain incomplete for a long time.
+**Costs.** Establishing a shared target can require domain inquiry, negotiation and experiments. Keeping local subjects, prospective dependencies and actual outcomes distinct adds work, especially across organizations and future product variants.
 
-**Limits.** This pattern does not identify a system, designate a project system-of-interest, select architecture, admit Work or transformation, close a case, identify a TFS network, or establish evidence or assurance. It only governs how a practitioner uses the long attention map to find and return the next result.
+**Limits.** This pattern supplies the common systemic reasoning and its return paths. It does not guarantee a correct target choice or settled agreement, and does not independently identify a System, admit Work or transformation, close a case, identify a TFS network, or establish evidence or assurance. A local result can be complete while the common system basis or a downstream use remains open.
 

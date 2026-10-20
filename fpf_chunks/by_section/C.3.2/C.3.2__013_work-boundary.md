@@ -6,12 +6,12 @@ section_id: "C.3.2:11"
 section_title: "Work Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__013_work-boundary.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:11 — Work Boundary"
-line_start: 55300
-line_end: 55310
+line_start: 55421
+line_end: 55431
 dependencies:
   - "A.14"
   - "A.2.6"

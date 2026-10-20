@@ -6,12 +6,12 @@ section_id: "A.1.SCR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__006_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:4 — Solution"
-line_start: 3533
-line_end: 3628
+line_start: 3534
+line_end: 3631
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -54,7 +54,7 @@ Before testing systemhood, ask whether the current decision already concerns one
 | Promise, commitment, speech act, or permission result | A.2.3, A.2.8, A.2.9, or A.2.8.PER |
 | Service/access referent, status, evidence, evaluation, delivery, acceptance, or other relation | A.6.P §4.11a and then the exact subject pattern |
 
-If this result answers the decision, stop here. Name the object, its subject pattern, and what you can now do. Do not apply A.1 as a recurring project ritual.
+If this result answers the decision, stop here. Name the object, its subject pattern, and what you can now do. Do not apply A.1 as a recurring project ritual. This is a local stop: it neither supplies nor removes the shared target and use hypothesis required for a systemic project account. Use A.1.STM when that common basis or the local result's connection to it is the question.
 
 If a needed relation has no current governor, state the exact participants and blocked receiving use, return `missing-governor[...]`, and continue under A.6.RCD. Do not substitute `relatedTo`, a graph edge, or a local bundle.
 
@@ -99,18 +99,20 @@ When service or access wording is the unresolved phrase, start in A.6.P §4.11a.
 
 “My service stopped” does not by itself say that a system stopped. Service-provision Work may have ceased, an exact deployed or physical bearer may have stopped or become unavailable, an access-providing arrangement may be proposed as the exact system whose functioning stopped, or promised availability/fulfilment may have failed. Use A.1.SCR only to test a separately proposed exact bearer or access-providing arrangement when its system boundary matters to the decision.
 
-#### A.1.SCR:4.7 - Preserve the project system-of-interest bridge
+#### A.1.SCR:4.7 - Connect recognition to the common project target
 
-The primary expression is **project system-of-interest**, inherited from systems engineering without adding target, aim, or goal semantics. `systemOfConcern` may serve as a historical systems-engineering Plain synonym for that same designation.
+A **system-of-interest** is a system selected for an investigation or decision. The **project target system** has a more specific role: it is the common target whose intended functioning, change or cessation in its environment organizes the participants' joint undertaking. A local system-of-interest can be a builder or component without replacing that target. A.1.STM:4.1–4.3 develops the shared basis and the dependency from intended use to functioning, construction, Methods and capable creators.
 
-A project plan or decision may designate one system as the project system-of-interest. Keep six questions separate:
+A plan or decision can designate a target or a local system-of-interest. Recover which claim is current and keep these questions separate:
 
-1. identify the exact actual system, or keep a merely intended future referent as a designator in plan, decision, or description content;
-2. name the plan or decision that designates it and the intended change or use;
+1. identify the actual System, or keep an intended future holder as a designator in plan, decision or description content;
+2. recover the designation and intended use; when common project purpose is claimed, recover the participants' working agreement rather than infer it from the designation alone;
 3. admit composite project Work only after A.15.1 and A.15.6 qualifications hold;
-4. state each actual work-to-referent, transformation, production, evaluation, delivery, acceptance, or later-use fact under its own governor;
-5. test any `SystemOfInterestSystemRole` interpretation and any A.2.1 system-role assignment separately; and
-6. when the recognized system must be reconnected to the long dependency from outside use through architecture, Work, change, and recursive builders, use A.1.STM to name the needed final result, retain supported answers, and read backward to the first unsupported dependency. Take that question to the subject pattern whose entry accepts it, and return the answer or a named stop.
+4. state each actual work-to-referent, transformation, production, evaluation, delivery, acceptance or later-use fact under its own governor;
+5. test any technical system-role classification and A.2.1 assignment separately; a generic `SystemOfInterestSystemRole` criterion is insufficient for a specific project-target claim unless its declared distinction also supplies that meaning; and
+6. use A.1.STM when the recognized System or a local result must be connected to the common target's intended use. If that basis is already supported, its section 4.4 retains the narrower route: locate the first unsupported dependency, use its subject pattern, and return the answer or a named stop.
+
+A future target or a series of intended instances can be described before any actual holder exists. Agreement about the target role and required kind of holder is not recognition of an individual System. A.1.STM:4.2 keeps these prospective and actual claims distinct.
 
 For a claim about a particular dated Work occurrence, first identify every actual performing System and recover its A.13 core. Independently admit that occurrence under A.15.1 from its performance history, at least one Method actually followed, temporal extent, and at least one locally declared containing-System relation. Apply this branch to the occurrence being asserted, whether it is Work represented on the map or a separately asserted Work of using the map. After admission, add F.6 only when the receiving claim also needs precise assignment-bound attribution through that performer's same obtaining assignment. A Work-only claim may stop after admission.
 

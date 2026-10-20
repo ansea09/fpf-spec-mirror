@@ -6,12 +6,12 @@ section_id: "C.3.2:7"
 section_title: "Extension as Representation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__009_extension-as-representation.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:7 — Extension as Representation"
-line_start: 55230
-line_end: 55241
+line_start: 55351
+line_end: 55362
 dependencies:
   - "A.14"
   - "A.2.6"

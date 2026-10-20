@@ -6,12 +6,12 @@ section_id: "C.22.1:9"
 section_title: "Worked moment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__010_worked-moment.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:9 — Worked moment"
-line_start: 63139
-line_end: 63145
+line_start: 63260
+line_end: 63266
 dependencies:
   - "A.15"
   - "C.19.1"

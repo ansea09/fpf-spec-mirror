@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__006_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:4 — Solution"
-line_start: 38205
-line_end: 38301
+line_start: 38326
+line_end: 38422
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

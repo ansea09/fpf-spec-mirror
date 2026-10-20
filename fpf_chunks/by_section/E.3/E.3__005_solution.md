@@ -6,12 +6,12 @@ section_id: "E.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__005_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:4 — Solution"
-line_start: 90998
-line_end: 91035
+line_start: 91591
+line_end: 91628
 dependencies:
   - "E.1"
   - "E.2"

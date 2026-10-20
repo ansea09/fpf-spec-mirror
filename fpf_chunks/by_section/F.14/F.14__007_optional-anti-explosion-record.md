@@ -6,12 +6,12 @@ section_id: "F.14:6"
 section_title: "Optional anti-explosion record"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__007_optional-anti-explosion-record.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:6 — Optional anti-explosion record"
-line_start: 121109
-line_end: 121141
+line_start: 121720
+line_end: 121752
 dependencies:
   - "A.10"
   - "A.15.1"

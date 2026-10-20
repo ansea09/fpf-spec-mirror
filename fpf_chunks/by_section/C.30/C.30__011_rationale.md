@@ -6,12 +6,12 @@ section_id: "C.30:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__011_rationale.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:10 — Rationale"
-line_start: 71903
-line_end: 71912
+line_start: 72024
+line_end: 72033
 dependencies:
   - "A.1"
   - "A.10"

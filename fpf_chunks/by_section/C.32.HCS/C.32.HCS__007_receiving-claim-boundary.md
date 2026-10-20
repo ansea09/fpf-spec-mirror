@@ -6,12 +6,12 @@ section_id: "C.32.HCS:6"
 section_title: "Receiving-Claim Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__007_receiving-claim-boundary.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:6 — Receiving-Claim Boundary"
-line_start: 76971
-line_end: 76974
+line_start: 77494
+line_end: 77497
 dependencies:
   - "A.19"
   - "C.11"

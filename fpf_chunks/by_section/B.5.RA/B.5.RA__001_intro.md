@@ -6,12 +6,12 @@ section_id: "B.5.RA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:intro — Intro"
-line_start: 48121
-line_end: 48126
+line_start: 48242
+line_end: 48247
 dependencies:
   - "B.5"
   - "B.5.MPC"

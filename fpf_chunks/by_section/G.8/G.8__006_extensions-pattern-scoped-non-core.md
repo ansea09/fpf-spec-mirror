@@ -6,12 +6,12 @@ section_id: "G.8:5"
 section_title: "Extensions (pattern‑scoped; non‑core)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__006_extensions-pattern-scoped-non-core.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:5 — Extensions (pattern‑scoped; non‑core)"
-line_start: 128838
-line_end: 128953
+line_start: 129449
+line_end: 129564
 dependencies:
   - "A.10"
   - "A.21"

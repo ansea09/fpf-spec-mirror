@@ -6,12 +6,12 @@ section_id: "A.1.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__008_bias-annotation.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:6 — Bias-Annotation"
-line_start: 3394
-line_end: 3401
+line_start: 3395
+line_end: 3402
 dependencies:
   - "A.1"
   - "A.14"

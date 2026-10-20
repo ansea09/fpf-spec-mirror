@@ -6,12 +6,12 @@ section_id: "B.5.2.1:11"
 section_title: "Related Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__013_related-patterns.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:11 — Related Patterns"
-line_start: 50465
-line_end: 50471
+line_start: 50586
+line_end: 50592
 dependencies:
   - "A.17"
   - "A.18"

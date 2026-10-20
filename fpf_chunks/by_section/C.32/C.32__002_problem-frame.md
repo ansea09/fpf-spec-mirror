@@ -6,12 +6,12 @@ section_id: "C.32:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__002_problem-frame.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:1 — Problem frame"
-line_start: 76116
-line_end: 76220
+line_start: 76240
+line_end: 76346
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,6 +43,7 @@ dependencies:
   - "C.32.CONWAY"
   - "C.32.FAIL"
   - "C.32.HCS"
+  - "C.32.LCA"
   - "C.32.MLAO"
   - "C.32.MWA"
   - "C.32.P2S"
@@ -101,6 +102,8 @@ Adoption test: after using C.32, another practitioner can see at least two struc
 Use C.32 only for candidate palette construction. Do not use it to ground the architecture claim, recover one structure, build characteristic criteria rows, design eval programs, handle architecture-influence correspondence, run archive or front-policy work, declare a selected-set result, publish it to an audience, choose locally, or decide the project architecture.
 
 Use `C.32.MWA` instead when several structures of Methods, Work, subjects and their descriptions, capabilities and providers, and cultural change do not line up one-for-one and the needed result is one usable practice architecture. Keep C.32 for a palette of candidate configurations for one grounded architecture question.
+
+For control alternatives whose observations, decisions and interventions must work together under information, time, resource and authority constraints, use `C.32.LCA` to construct and compare that connection. Bring its explained alternatives into the wider palette when other selected structures also change. `C.30.LCA` addresses the separate question of which control relations a description represents and what use that description or view supports.
 
 Common exits by claim kind:
 

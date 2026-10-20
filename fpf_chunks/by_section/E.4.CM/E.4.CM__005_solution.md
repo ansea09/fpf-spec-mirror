@@ -6,12 +6,12 @@ section_id: "E.4.CM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__005_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:4 — Solution"
-line_start: 91559
-line_end: 91798
+line_start: 92152
+line_end: 92391
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -158,7 +158,7 @@ This source-grounded specialization uses role-qualified source contributions and
 
 This account develops the connections among the existing recovery, allocation, description, language and reconstruction Methods. The following actions and result dependencies explain their use together without establishing a decomposition into part Methods. When the receiving use depends on a constituent Method, use B.1.5.CM/B.1.5 to identify it and establish its relation to the whole; B.1.5.EW recovers how its work is performed within the encompassing work. A further claim about one composite Method requires its own whole-forming grounds; the developed explanation and constructed case do not establish success in recurring production practice.
 
-**Inputs and applicability.** Start with a named receiving practice and use, inspectable source contributions, their roles and limits, and the relevant current FPF/DPF supply. Documentary claims enter through A.3.1.DR. Observations, artifacts, logs and interviews about dated Work first require an A.3.1.MR recovery result; use [RMP.10](https://github.com/ailev/FPF/blob/main/DPFs/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp10---reconstruct-a-candidate-method-account-from-practice-evidence) only for its remaining consequential evidence question. A returned candidate account retains rival explanations and gaps. If the receiving use or required source cannot be established, the first useful result is that exact blocker.
+**Inputs and applicability.** Start with a named receiving practice and use, inspectable source contributions, their roles and limits, and the relevant current FPF/DPF supply. Recover the source's connected explanation before selecting its Method contributions. When several actions rely on a principle or argument, use B.5.RA to recover its reasons and dependent conclusions; F.0.2 compares those explanations across source ontologies. Reuse an adequate recovered account. Definitions, explanatory principles and empirical claims retain their own contribution and status rather than becoming steps merely to enter this Method-development branch. Documentary Method contributions enter through A.3.1.DR. Observations, artifacts, logs and interviews about dated Work first require an A.3.1.MR recovery result. Investigate a remaining consequential evidence question through the relevant research practice. A returned candidate account retains rival explanations and gaps. If the receiving use or required source cannot be established, the first useful result is that exact blocker.
 
 **Reusable action.** Select source depth by the question; recover source-local meaning; compare current supply and serious alternatives; reconcile the surviving contributions without inventing Method identities; allocate their useful claims; describe the needed Methods; organize independently useful pattern questions and material relations; then attempt the reconstruction the language promises. Preserve a direct-source remainder where it is sufficient and recoverable. Each action consumes only the results it actually needs. A missing condition can return the work to that question before the rest is complete.
 
@@ -167,7 +167,7 @@ This account develops the connections among the existing recovery, allocation, d
 | Source situation | Useful treatment and limit |
 | --- | --- |
 | A plural library or a serious current alternative may change what is worth recovering | Start with SoTA comparison, then recover the selected contributions deeply enough for their receiving use. |
-| A maintained synthesis must remain reconstructable | Recover its action-bearing content source-locally before filtering against current supply. Complete recovery does not make every assertion normative. |
+| A maintained synthesis must remain reconstructable | Recover the connected claims, grounds, consequences and ways of acting needed for its promised reconstruction before filtering against current supply. Develop its Method-related part here and retain the other contributions with their appropriate semantic treatment. Complete recovery does not make every assertion normative. |
 | A recoverable earlier comparison bounds the changed question | Inspect the gap and its dependents. Without that baseline or a defensible impact boundary, widen recovery. |
 | A mixed corpus includes documentary sources and accounts of Work | Choose documentary depth per source; preserve separately returned Work accounts and their evidence limits. Keep source assertions about Work separate from recovered occurrence evidence and from Method admission. |
 
@@ -181,7 +181,7 @@ F.0.1/F.1/F.0.2 govern source meaning, selection and conceptual synthesis. F.0.2
 
 ###### E.4.CM:4.8.4.2 - Make the joins between contributions usable
 
-Recover a source-local answer before deciding where it belongs. [A.3.1.DR](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31dr---recover-method-contributions-from-documentary-sources) supplies the documentary claims, actions, conditions and unresolved meanings. Keep a separately recovered Work account under A.3.1.MR and, only for its remaining evidence question, RMP.10. These results can inform one production effort without receiving the same evidence status.
+Recover a source-local answer before deciding where it belongs. [A.3.1.DR](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31dr---recover-method-contributions-from-documentary-sources) supplies the documentary claims, actions, conditions and unresolved meanings. Keep the Work account recovered under A.3.1.MR separate from any additional investigation of its remaining consequential evidence question. Select the research practice for that question. These results can inform one production effort without receiving the same evidence status.
 
 Give [F.0.2.MA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f02ma---synthesize-and-allocate-method-contributions) the recovered contributions and the receiving use. Its allocation must explain what current supply already answers, what needs an addition, and what remains direct-source or unresolved. A matching topic or a destination filename supplies no such answer. If two sources disagree about a relied-on condition, preserve that conflict and return its interpretation or evidence question before using it as a settled premise.
 
@@ -189,7 +189,7 @@ For each allocated Method claim, obtain the identification or qualification it n
 
 Pass the developed content and its independent questions to [E.8.ML](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e8ml---construct-a-pattern-language-for-connected-methods). Its result establishes which body supplies which answer and how another use depends on it, chooses an alternative or returns after failure. It neither invents Method parts from body boundaries nor requires every user to enact production. When parthood is a needed claim, obtain B.1.5.CM's whole-forming account separately.
 
-Challenge the promised receiving answer through [F.0.2.RC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f02rc---test-constructive-coverage-and-refresh-dependent-explanations), using the source contribution and actual full bodies. A missing condition returns to its recovery, allocation or description owner; a wrong connection returns to E.8.ML. Retain unaffected answers while repairing the failed join. C.37.CF compares content and form only when that distinction can change the revision decision. No coverage claim extends beyond the recovered source and tested use boundary.
+Challenge the promised receiving answer through [F.0.2.RC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f02rc---test-constructive-coverage-and-refresh-dependent-explanations), using the source contribution and actual full bodies. Include the argument when the reader needs it to choose, connect or adapt the Methods: can the public explanation recover the premise, justify the consequential inference and show when it fails? Successful routing to a constituent pattern or completion of one local action does not establish that connected understanding. A missing condition returns to its recovery, allocation or description owner; a wrong connection returns to E.8.ML. Retain unaffected answers while repairing the failed join. C.37.CF compares content and form only when that distinction can change the revision decision. No coverage claim extends beyond the recovered source and tested use boundary.
 
 The connection is reusable even when the work starts at a later missing result. An already sufficient recovery, allocation or description can supply its input; a source change can reopen an earlier reliance after later work has finished. Continue until the selected receiving use has its complete answer or the exact condition that blocks it. Use C.39.MC for the separate situated continuation question.
 
@@ -267,7 +267,7 @@ The production construction uses Core's general qualification, architecture, rep
 
 ##### E.4.CM:4.8.12 - Relations
 
-F.0.1/F.1/F.0.2 supply source interpretation, selection and conceptual synthesis. A.3.1.DR supplies documentary recovery; A.3.1.MR and conditional RMP.10 supply occurrence-evidence accounts. F.0.2.MA allocates the useful content; A.3.1.QM and A.3.2.DE preserve Method qualification and description boundaries. E.8.ML constructs the language, and F.0.2.RC challenges reconstruction and refreshes affected explanations.
+F.0.1/F.1/F.0.2 supply source interpretation, selection and conceptual synthesis. A.3.1.DR supplies documentary recovery; A.3.1.MR recovers an account from Work evidence; an additional consequential evidence question calls for the relevant research practice. F.0.2.MA allocates the useful content; A.3.1.QM and A.3.2.DE preserve Method qualification and description boundaries. E.8.ML constructs the language, and F.0.2.RC challenges reconstruction and refreshes affected explanations.
 
 C.37.CF separates content and form comparisons. C.39.MC supplies independent situated use. A.3.1 and B.1.5.CM govern any claimed production Method identity and composition when those claims are needed; the supplier list alone establishes no decomposition. A.3.1.WT, A.3.1.FT and C.11.MV retain trial, transfer and worth questions. C.39 supplies the general construction for a use that does not require framework publication. This E.4.CM specialization connects the source-grounded production contributions for a public framework use; E.11.PFP governs preservation of their complete public explanations and direct entries.
 

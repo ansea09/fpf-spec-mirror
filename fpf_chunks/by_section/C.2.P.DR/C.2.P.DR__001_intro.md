@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:intro — Intro"
-line_start: 54461
-line_end: 54466
+line_start: 54582
+line_end: 54587
 dependencies:
   - "A.10"
   - "A.15.1"

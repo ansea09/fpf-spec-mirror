@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:intro — Intro"
-line_start: 47680
-line_end: 47685
+line_start: 47801
+line_end: 47806
 dependencies:
   - "A.15.9"
   - "A.3.3"

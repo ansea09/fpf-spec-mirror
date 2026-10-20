@@ -6,12 +6,12 @@ section_id: "A.15.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__013_relations.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:12 — Relations"
-line_start: 31480
-line_end: 31497
+line_start: 31601
+line_end: 31618
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -55,5 +55,5 @@ keywords:
 - Use `E.17` and `E.24.PUB` to publish project, process, and case accounts without replacing their direct subjects.
 - `E.18` defines one selected transformation-flow structure. `E.18.NET` defines a non-agentive network only when independently identified structures and obtaining cross-boundary relations are selected; its use frame can answer one named project question without making the network the project, a case, an actor, performed Work, or a source of work parthood.
 - Use `A.6.REL` when a Work, Method, Transformation, result, or correspondence relation occurrence must be identified because it participates in another relation.
-- `A.1.STM` receives a recovered project system-of-interest, network question, or case result only when the practitioner must restore the system-thinking long dependency; it changes none of these direct identities or relations. Use `E.10` to recover project, process, case, and situation wording when source expressions remain ambiguous.
+- `A.1.STM` supplies the common target and intended-use basis for a systemic project account, distinguishes that target from a local system-of-interest, and connects local results through the system-thinking long dependency. Its first-unsupported-dependency mode remains available when the shared basis is sufficient; none of these uses changes the recovered subjects' identities or relations. Use `E.10` to recover project, process, case, and situation wording when source expressions remain ambiguous.
 

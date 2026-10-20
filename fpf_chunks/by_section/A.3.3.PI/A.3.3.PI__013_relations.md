@@ -6,12 +6,12 @@ section_id: "A.3.3.PI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.PI/A.3.3.PI__013_relations.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
   - "A.3.3.PI:12 — Relations"
-line_start: 12800
-line_end: 12808
+line_start: 12919
+line_end: 12927
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"

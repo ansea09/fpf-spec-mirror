@@ -6,12 +6,12 @@ section_id: "C.3.4:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__005_problem.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:3 — Problem"
-line_start: 55615
-line_end: 55622
+line_start: 55736
+line_end: 55743
 dependencies:
   - "A.2.6"
   - "C.2.1"

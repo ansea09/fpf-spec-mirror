@@ -6,12 +6,12 @@ section_id: "C.30.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:intro — Intro"
-line_start: 72665
-line_end: 72683
+line_start: 72786
+line_end: 72804
 dependencies:
   - "A.10"
   - "A.15"

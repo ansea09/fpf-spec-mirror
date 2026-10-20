@@ -6,12 +6,12 @@ section_id: "C.30.AD:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__002_use-this-when.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:0 — Use this when"
-line_start: 71952
-line_end: 72017
+line_start: 72073
+line_end: 72138
 dependencies:
   - "A.1"
   - "A.10"

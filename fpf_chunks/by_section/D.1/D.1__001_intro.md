@@ -6,18 +6,20 @@ section_id: "D.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:intro — Intro"
-line_start: 89504
-line_end: 89520
+line_start: 90027
+line_end: 90043
 dependencies:
   - "A.1"
   - "A.1.CSD"
   - "A.10"
   - "A.7"
   - "B.3"
+  - "B.5.RA"
+  - "B.5.RR"
   - "C.11"
   - "C.11.DUA"
   - "C.28"
@@ -35,7 +37,7 @@ keywords:
 
 > **Type:** D-family ethical boundary pattern
 > **Status:** Stable
-> **Pattern role:** This compact pattern gives the stable entry boundary and conformance checks for value-plurality use; fuller ethical theory remains outside FPF unless a direct pattern names it.
+> **Pattern role:** This pattern gives the entry boundary and conformance checks for value-plurality use, including conditional reasoning from an explicitly declared value basis. Fuller ethical theory remains outside FPF unless a direct pattern names it.
 
 **Use this when.** Use this pattern when an FPF claim, method, work plan, architecture move, policy, recommendation, model, or system change has ethical force, but the value theory or ethical concern behind the claim is not yet explicit.
 
@@ -46,5 +48,5 @@ If that ethical claim is current but a possibly consequence-bearing System has n
 
 **What goes wrong if missed.** FPF looks ethically neutral because it names evidence, method, architecture, or work but leaves the value frame and affected EntityOfConcern implicit.
 
-**What this buys.** The reader can see whose concern is at issue, what is valued, and which ethical question to address next. A judgement additionally states its basis and the use that basis supports.
+**What this buys.** The reader can see whose concern is at issue, what is valued, and which ethical question to address next. For a judgement, the reader can recover how the value premises and relevant facts support the conclusion, what changes when a premise changes, and which use the reasoning warrants.
 

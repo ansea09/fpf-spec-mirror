@@ -6,12 +6,12 @@ section_id: "C.32.MWA:End"
 section_title: "C.32.MWA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__015_c-32-mwa-end.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:End — C.32.MWA:End"
-line_start: 78462
-line_end: 78463
+line_start: 78985
+line_end: 78986
 dependencies:
   - "A.15.1"
   - "A.22"

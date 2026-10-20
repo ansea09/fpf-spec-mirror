@@ -6,12 +6,12 @@ section_id: "F.12:15"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__016_acceptance-tests.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:15 — Acceptance tests"
-line_start: 120704
-line_end: 120730
+line_start: 121315
+line_end: 121341
 dependencies:
   - "A.10"
   - "A.15.1"

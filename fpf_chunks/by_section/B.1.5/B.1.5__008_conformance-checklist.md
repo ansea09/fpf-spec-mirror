@@ -6,12 +6,12 @@ section_id: "B.1.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__008_conformance-checklist.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:7 — Conformance Checklist"
-line_start: 42841
-line_end: 42862
+line_start: 42962
+line_end: 42983
 dependencies:
   - "A.1"
   - "A.15"

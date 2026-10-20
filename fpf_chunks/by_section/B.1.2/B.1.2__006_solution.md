@@ -6,12 +6,12 @@ section_id: "B.1.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__006_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:4 — Solution"
-line_start: 41857
-line_end: 41905
+line_start: 41978
+line_end: 42026
 dependencies:
   - "A.1"
   - "A.10"

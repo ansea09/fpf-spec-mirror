@@ -6,12 +6,12 @@ section_id: "C.11.CRC:8"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__010_common-anti-patterns-and-repairs.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:8 — Common Anti-Patterns and Repairs"
-line_start: 57362
-line_end: 57373
+line_start: 57483
+line_end: 57494
 dependencies:
   - "A.1.CSD"
   - "A.10"

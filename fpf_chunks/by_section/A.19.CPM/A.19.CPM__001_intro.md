@@ -6,12 +6,12 @@ section_id: "A.19.CPM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:intro — Intro"
-line_start: 39086
-line_end: 39098
+line_start: 39207
+line_end: 39219
 dependencies:
 keywords:
   - "ComparatorSet"

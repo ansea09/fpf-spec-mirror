@@ -6,12 +6,12 @@ section_id: "G.8:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__011_consequences.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:10 — Consequences"
-line_start: 129028
-line_end: 129035
+line_start: 129639
+line_end: 129646
 dependencies:
   - "A.10"
   - "A.21"

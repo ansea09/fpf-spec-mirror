@@ -6,12 +6,12 @@ section_id: "F.16:12"
 section_title: "Cross-domain application sketches"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__013_cross-domain-application-sketches.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:12 — Cross-domain application sketches"
-line_start: 121987
-line_end: 122008
+line_start: 122598
+line_end: 122619
 dependencies:
   - "A.10"
   - "A.15"

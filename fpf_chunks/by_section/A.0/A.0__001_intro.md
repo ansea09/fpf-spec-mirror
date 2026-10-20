@@ -6,12 +6,12 @@ section_id: "A.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:intro — Intro"
-line_start: 2203
-line_end: 2211
+line_start: 2204
+line_end: 2212
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

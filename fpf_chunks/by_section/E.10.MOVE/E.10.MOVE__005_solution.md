@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__005_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
   - "E.10.MOVE:4 — Solution"
-line_start: 99321
-line_end: 99452
+line_start: 99914
+line_end: 100045
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -61,7 +61,7 @@ Restore the governed target before choosing replacement wording:
 
 1. Name the exact `GovernedTextSpan`, the `ClaimBeingMade`, and the `ObjectUnderWordingRepair`.
 2. Decide whether the wording is ordinary prose, a quotation, or wording relied on for an FPF-governed claim. Ordinary and quotation uses can close without inventing a technical target.
-3. When the phrase is `mantra move`, first ask which use is present. In a post-qualification A.22.CGUS demonstrative slice that shows pattern use, recover the exact E.11.PUA `PatternUsePracticeContinuationDescription@Context`: its proposed use, expected result and kind, PatternID and name, current condition, and continuation disposition. Keep `mantra move` only as bounded Plain wording for that shown continuation. A.22.CGUS supplies the structure and slice boundary; it does not create a universal displayed-row kind. For a Plain local mantra, name the bounded result and restore the move-like wording through that result's exact predicate or constraint. For a Plain long mantra, name the intended final result and the particular map location whose answer or stop is current, then state the exact answer or blocker and use the subject pattern only as a locator. Do not invent a demonstrated row, collapse the long map into one pattern's Solution, or treat any branch as Work order.
+3. When the phrase is `mantra move`, first ask which use is present. In a post-qualification A.22.CGUS demonstrative slice that shows pattern use, recover the exact E.11.PUA `PatternUsePracticeContinuationDescription@Context`: its proposed use, expected result and kind, PatternID and name, current condition, and continuation disposition. Keep `mantra move` only as bounded Plain wording for that shown continuation. A.22.CGUS supplies the structure and slice boundary; it does not create a universal displayed-row kind. For a Plain local mantra, name the bounded result and restore the move-like wording through that result's exact predicate or constraint. For a Plain long mantra, recover the intended connected reasoning and the particular question now at issue. State the answer or blocker, the subject pattern that supplies it, and the other answers whose use depends on its conditions. A whole-account question may require comparing those answers rather than finding one final result or one missing map location. Do not invent a demonstrated row, collapse the long map into one pattern's Solution, or treat any branch as Work order.
 4. When `move`, `movement`, `direction`, or similar wording predicts a later evaluation result, recover the coordinate-and-scale-qualified prediction, its proposal basis, and protected tradeoffs under `E.23`. Use `ExpectedEvaluationResultChange@Context` only when E.23's conditional account is needed for the receiving use. The prediction is not an operation, transition, movement, work occurrence, or proof of improvement.
 5. For every other governed use, name the exact recovered value or relation, its kind, and its subject pattern. For a relation claim, name the admitted direct predicate and actual participants. Add a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs that declaration. If the governed value is already clear, use its pattern directly.
 6. Split the text when one phrase carries more than one governed value. A recommendation, method, transformation, readiness claim or result, gate decision, publication relation, and performed Work do not become one value because the same word was used for them.

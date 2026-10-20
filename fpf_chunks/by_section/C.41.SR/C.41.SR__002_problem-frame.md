@@ -6,12 +6,12 @@ section_id: "C.41.SR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__002_problem-frame.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:1 — Problem frame"
-line_start: 88472
-line_end: 88479
+line_start: 88995
+line_end: 89002
 dependencies:
   - "A.10"
   - "B.1.5"

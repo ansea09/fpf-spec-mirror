@@ -6,12 +6,12 @@ section_id: "B.1.3:6"
 section_title: "Proof obligations (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__007_proof-obligations-normative.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:6 — Proof obligations (normative)"
-line_start: 42208
-line_end: 42227
+line_start: 42329
+line_end: 42348
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.26.2:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__012_sota-echoing.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:11 — SoTA-Echoing"
-line_start: 66507
-line_end: 66524
+line_start: 66628
+line_end: 66645
 dependencies:
   - "A.10"
   - "A.15"

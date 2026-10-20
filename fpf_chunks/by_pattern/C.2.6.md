@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.6.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
-line_start: 53856
-line_end: 54030
+line_start: 53977
+line_end: 54151
 dependencies:
   - "A.16"
   - "A.16.0"

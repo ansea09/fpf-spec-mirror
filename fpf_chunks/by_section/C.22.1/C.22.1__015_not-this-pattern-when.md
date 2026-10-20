@@ -6,12 +6,12 @@ section_id: "C.22.1:14"
 section_title: "Not this pattern when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__015_not-this-pattern-when.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:14 — Not this pattern when"
-line_start: 63194
-line_end: 63199
+line_start: 63315
+line_end: 63320
 dependencies:
   - "A.15"
   - "C.19.1"

@@ -6,12 +6,12 @@ section_id: "B.2.P:5.7"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__008_bias-annotation.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:5.7 — Bias-Annotation"
-line_start: 44197
-line_end: 44206
+line_start: 44318
+line_end: 44327
 dependencies:
   - "A.1.1"
   - "A.10"

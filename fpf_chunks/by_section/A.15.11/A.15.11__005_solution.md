@@ -6,12 +6,12 @@ section_id: "A.15.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__005_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.15.11 — Make Applicable Methods Noticeable in Work"
   - "A.15.11:4 — Solution"
-line_start: 32673
-line_end: 32744
+line_start: 32794
+line_end: 32865
 dependencies:
   - "A.15"
   - "A.15.7"

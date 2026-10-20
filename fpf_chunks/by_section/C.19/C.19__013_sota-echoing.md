@@ -6,12 +6,12 @@ section_id: "C.19:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__013_sota-echoing.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:11 — SoTA-Echoing"
-line_start: 61699
-line_end: 61708
+line_start: 61820
+line_end: 61829
 dependencies:
   - "A.10"
   - "A.19.CPM"

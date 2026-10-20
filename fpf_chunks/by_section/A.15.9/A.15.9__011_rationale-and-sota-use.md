@@ -6,12 +6,12 @@ section_id: "A.15.9:10"
 section_title: "Rationale and SoTA use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__011_rationale-and-sota-use.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:10 — Rationale and SoTA use"
-line_start: 32420
-line_end: 32427
+line_start: 32541
+line_end: 32548
 dependencies:
   - "A.10"
   - "A.13"

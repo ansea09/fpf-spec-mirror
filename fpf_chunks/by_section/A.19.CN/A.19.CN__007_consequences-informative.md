@@ -6,12 +6,12 @@ section_id: "A.19.CN:6"
 section_title: "Consequences (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__007_consequences-informative.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:6 — Consequences (informative)"
-line_start: 36850
-line_end: 36858
+line_start: 36971
+line_end: 36979
 dependencies:
   - "A.19"
   - "A.6.1"

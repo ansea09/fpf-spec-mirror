@@ -6,12 +6,12 @@ section_id: "C.21:14"
 section_title: "Practitioner Quick Template"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__017_practitioner-quick-template.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:14 — Practitioner Quick Template"
-line_start: 62652
-line_end: 62674
+line_start: 62773
+line_end: 62795
 dependencies:
   - "A.10"
   - "A.17"

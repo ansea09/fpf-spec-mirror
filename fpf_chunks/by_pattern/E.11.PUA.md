@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.PUA.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
-line_start: 101506
-line_end: 102074
+line_start: 102101
+line_end: 102669
 dependencies:
   - "A.13"
   - "A.15"

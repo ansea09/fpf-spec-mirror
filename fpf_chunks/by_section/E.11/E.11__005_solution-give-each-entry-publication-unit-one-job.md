@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 100905
-line_end: 101291
+line_start: 101498
+line_end: 101886
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -88,6 +88,8 @@ Keep three reader-facing jobs distinct. A compact locator points to a direct pat
 When a Card or mantra is useful because it keeps material dependencies among several independently reusable recurring problem–move–result contributions in attention, return to the candidate-recognition move in `E.4.DPF:4` before treating the Card as only an access front. Its form is a cue for that comparison, not proof of framework scale or product membership. When no live framework question remains, continue choosing or maintaining the entry form under the tests below.
 
 The displayed entries are examples of how the pattern language can help, not a catalogue or coverage boundary. When both uses matter to discoverability, show at least one ordinary example of cheap direct help and a few cards that demonstrate extended cross-pattern use. Say plainly that many other questions can start from the index, a guide, search, or a small plausible set of direct patterns. Do not turn every useful topic, pattern, or reader-entry set into a public example merely to prove breadth.
+
+The following comparison selects a Practical-Use Card for an entry; it does not select which subject reasoning the language preserves. A long mantra and its developed account can explain the language's architecture even when an ordinary entry is sufficient. Use E.11.PFP:4.7.2 to publish that connected explanation and its overview without forcing it into a card.
 
 Before selecting a card, compare the proposed entry with the same truthful content but no mantra. If a cold reader can still recognize the situation, choose the direct pattern and any plainly conditioned next use, recover the first result or blocker, and return after interruption or repetition just as reliably, keep a locator or ordinary entry. Select a card only when, without the repeatable formula, the reader is materially more likely to lose a choice-changing question, intermediate result, check, branch, or return, and repeating the mantra restores that reasoning. Immediate recognition, repeated exposure, fluent recitation, pattern count, heading depth, an existing label, a quota, or a wish to avoid validation is not evidence. If the mantra crowds out the first result or return, or adds no recall advantage over the same content without it, use the ordinary entry or locator instead. Check declared cards and plausible non-card entries under the same test; the number of cards is an outcome, not a target.
 

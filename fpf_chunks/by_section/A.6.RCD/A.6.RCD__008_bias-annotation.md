@@ -6,12 +6,12 @@ section_id: "A.6.RCD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__008_bias-annotation.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:6 — Bias-Annotation"
-line_start: 21528
-line_end: 21534
+line_start: 21647
+line_end: 21653
 dependencies:
   - "A.11"
   - "A.6.0"

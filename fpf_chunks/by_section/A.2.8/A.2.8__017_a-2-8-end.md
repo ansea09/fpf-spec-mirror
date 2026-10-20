@@ -6,12 +6,12 @@ section_id: "A.2.8:End"
 section_title: "A.2.8:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__017_a-2-8-end.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:End — A.2.8:End"
-line_start: 8207
-line_end: 8208
+line_start: 8326
+line_end: 8327
 dependencies:
   - "A.10"
   - "A.15.1"

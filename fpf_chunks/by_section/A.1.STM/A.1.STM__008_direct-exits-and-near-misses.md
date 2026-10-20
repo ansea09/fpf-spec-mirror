@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.STM"
-pattern_title: "Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+pattern_title: "Connect Project Reasoning (System-Thinking Long Mantra)"
 section_id: "A.1.STM:6"
 section_title: "Direct exits and near misses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__008_direct-exits-and-near-misses.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
-  - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+  - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:6 — Direct exits and near misses"
-line_start: 4097
-line_end: 4111
+line_start: 4205
+line_end: 4219
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -44,7 +44,7 @@ keywords:
 | --- | --- | --- |
 | Is this exact existing entity a system? | A.1 and A.1.SCR | A noun, diagram box, plan, system-role label or assignment, or capability does not establish systemhood. |
 | Which omitted Systems may undergo relevant changes that alter the current decision or investigation? | A.1.CSD | Use the current frame as a starting point for A.1.CSD's bounded search; keep modal path claims distinct and add a separate actuality claim only when the direct predicate and its case conditions are supported. |
-| Which system is this project about? | A.15.6 | Keep system identity, project designation, system-role-kind interpretation, and any system-role assignment distinct. |
+| Which system has been designated, and which common target is intended? | A.15.6 for designation; section 4.1 here when the shared basis is unresolved | Keep local system-of-interest, project target, holder, future description, classification and assignment distinct. |
 | What is promised, provided, connected, permitted, or stopped? | A.6.P §4.11a, then its subject pattern | *Service* or *access* does not select a system or one service bundle. |
 | Which inside could support the outside use? | C.32.P2S and C.30 family | Architecture chosen before a stated outside-use hypothesis must return to that missing basis. |
 | What actual runtime change and system participation obtain? | A.3.4 and the exact dynamics, interaction, causality, participation, assignment, Method, or Work pattern needed by the claim | An expected effect, required behaviour, observed output, or project designation proves neither an actual change nor an actor-side or Work claim. |

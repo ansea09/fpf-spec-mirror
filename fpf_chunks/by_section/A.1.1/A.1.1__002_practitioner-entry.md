@@ -6,12 +6,12 @@ section_id: "A.1.1:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__002_practitioner-entry.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:0 — Practitioner entry"
-line_start: 3048
-line_end: 3087
+line_start: 3049
+line_end: 3088
 dependencies:
   - "A.1"
   - "A.14"

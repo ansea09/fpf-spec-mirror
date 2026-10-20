@@ -6,12 +6,12 @@ section_id: "B.1.4:8.1"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__013_rationale.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:8.1 — Rationale"
-line_start: 42478
-line_end: 42483
+line_start: 42599
+line_end: 42604
 dependencies:
   - "A.1.1"
   - "A.14"

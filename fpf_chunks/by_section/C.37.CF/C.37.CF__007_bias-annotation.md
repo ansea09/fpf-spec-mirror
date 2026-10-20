@@ -6,12 +6,12 @@ section_id: "C.37.CF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__007_bias-annotation.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:6 — Bias-Annotation"
-line_start: 82008
-line_end: 82013
+line_start: 82531
+line_end: 82536
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"

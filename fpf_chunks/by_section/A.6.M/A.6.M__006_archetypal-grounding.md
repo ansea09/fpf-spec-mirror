@@ -6,12 +6,12 @@ section_id: "A.6.M:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__006_archetypal-grounding.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:5 — Archetypal Grounding"
-line_start: 23201
-line_end: 23210
+line_start: 23320
+line_end: 23329
 dependencies:
   - "A.10"
   - "A.20"

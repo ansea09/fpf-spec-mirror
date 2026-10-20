@@ -6,12 +6,12 @@ section_id: "E.24.CD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__011_consequences.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:9 — Consequences"
-line_start: 114911
-line_end: 114926
+line_start: 115522
+line_end: 115537
 dependencies:
   - "A.1"
   - "A.14"

@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `9a8471b145233a83524724caa5d7eb50ee151185`
+Commit SHA: `73e53b7b1a40aae81d6871f327e5bf7b1c495e23`
 
 Chunking method: `pattern-aware`
 
-Patterns: `397`
+Patterns: `398`
 
 ## Patterns
 
@@ -16,7 +16,7 @@ Patterns: `397`
 - [A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)](by_pattern/A.1.1.md)
 - [A.1.SCR — Finding the Acting or Changed System](by_pattern/A.1.SCR.md)
 - [A.1.CSD — Discovering Systems That May Bear Consequences](by_pattern/A.1.CSD.md)
-- [A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)](by_pattern/A.1.STM.md)
+- [A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)](by_pattern/A.1.STM.md)
 - [A.2 — System-Role Kinds and Assignments](by_pattern/A.2.md)
 - [A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment](by_pattern/A.2.1.md)
 - [A.2.2 — System Capability: Conditions, Measures and Fit](by_pattern/A.2.2.md)
@@ -244,6 +244,7 @@ Patterns: `397`
 - [C.31.RSA — Reusable Structure Accounting](by_pattern/C.31.RSA.md)
 - [C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)](by_pattern/C.31.ASAP.md)
 - [C.32 — Architecture Candidate Synthesis](by_pattern/C.32.md)
+- [C.32.LCA — Construct and Compare a Control Architecture](by_pattern/C.32.LCA.md)
 - [C.32.P2S — Problem-to-Structure Architecturing Unfolding](by_pattern/C.32.P2S.md)
 - [C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs](by_pattern/C.32.HCS.md)
 - [C.32.ACS — Architecture Characteristic Criteria Set](by_pattern/C.32.ACS.md)

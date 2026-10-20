@@ -6,12 +6,12 @@ section_id: "E.17.AUD:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__006_worked-slices.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:5 — Worked slices"
-line_start: 107542
-line_end: 107575
+line_start: 108153
+line_end: 108186
 dependencies:
   - "A.10"
   - "A.15"

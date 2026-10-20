@@ -6,12 +6,12 @@ section_id: "B.1.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__006_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:4 — Solution"
-line_start: 41628
-line_end: 41698
+line_start: 41749
+line_end: 41819
 dependencies:
   - "A.1"
   - "A.10"

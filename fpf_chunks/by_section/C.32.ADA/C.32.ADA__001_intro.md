@@ -6,12 +6,12 @@ section_id: "C.32.ADA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:intro — Intro"
-line_start: 79957
-line_end: 79962
+line_start: 80480
+line_end: 80485
 dependencies:
   - "A.1.1"
   - "A.10"

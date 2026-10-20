@@ -6,12 +6,12 @@ section_id: "C.30.LCA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__002_problem-frame.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:1 — Problem frame"
-line_start: 74024
-line_end: 74059
+line_start: 74145
+line_end: 74182
 dependencies:
   - "A.10"
   - "A.20"
@@ -26,8 +26,10 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
+  - "C.30.LCA"
   - "C.30.STRAT"
   - "C.30.TFS-REL"
+  - "C.32.LCA"
   - "E.17.0"
   - "E.18"
   - "E.18.2"
@@ -54,6 +56,8 @@ The first useful result can be one sentence: “Supervisor S sends allowed-mode 
 What goes wrong if C.30.LCA is missed: a control diagram becomes the control structure, `U.View`, or proof; stratification labels bypass `C.30.STRAT` and carry undeclared scope; and `B.2.5`, E.18 transformation-flow prose, or Layered Control Architecture prose is overread as control adequacy.
 
 What C.30.LCA buys in practice: the practitioner can keep useful controller, plant, observer, regulator, supervisor, feedback, rate, and control-layer language while recovering a selected control structure, one description episteme, its possible E.17.0 view conformance, and the pattern used to state or test each proof or claim.
+
+When the question is how to construct or change the cooperation of observations, decisions and interventions, use `C.32.LCA`. It develops alternatives with their information, timing, authority and continuation conditions. Supply the recovered control account to that construction; return here when a candidate's description or view needs qualification. An adequate arrangement needing only a clearer account can finish with C.30.LCA.
 
 Not this pattern when the issue under repair is generic stratification or source-label repair, only an E.18 transformation-flow path slice, function description, module boundary, measurement head, causal intervention, or safety case. Use `C.30.STRAT`, `C.30.TFS-REL`, `A.6.F`, `A.6.M`, `C.16`, `C.28`, or the applicable assurance or evidence pattern to state or test the current claim.
 

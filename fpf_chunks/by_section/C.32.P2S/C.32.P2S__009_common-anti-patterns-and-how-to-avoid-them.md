@@ -6,12 +6,12 @@ section_id: "C.32.P2S:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 76762
-line_end: 76774
+line_start: 77285
+line_end: 77297
 dependencies:
   - "A.1"
   - "A.1.SCR"

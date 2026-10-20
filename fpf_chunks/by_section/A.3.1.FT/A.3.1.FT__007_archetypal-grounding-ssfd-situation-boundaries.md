@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:5"
 section_title: "Archetypal Grounding - SSFD Situation Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__007_archetypal-grounding-ssfd-situation-boundaries.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:5 — Archetypal Grounding - SSFD Situation Boundaries"
-line_start: 10697
-line_end: 10718
+line_start: 10816
+line_end: 10837
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"

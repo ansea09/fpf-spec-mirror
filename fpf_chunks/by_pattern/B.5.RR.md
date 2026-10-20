@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.RR.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
-line_start: 48489
-line_end: 48672
+line_start: 48610
+line_end: 48793
 dependencies:
   - "B.5"
   - "B.5.MPC.R"

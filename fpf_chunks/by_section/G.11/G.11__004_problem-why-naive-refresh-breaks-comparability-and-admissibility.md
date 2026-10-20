@@ -6,12 +6,12 @@ section_id: "G.11:2"
 section_title: "Problem — Why naive refresh breaks comparability and admissibility"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__004_problem-why-naive-refresh-breaks-comparability-and-admissibility.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:2 — Problem — Why naive refresh breaks comparability and admissibility"
-line_start: 130097
-line_end: 130106
+line_start: 130708
+line_end: 130717
 dependencies:
   - "A.6.RCD"
   - "B.3.4"

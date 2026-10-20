@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__002_use-this-when.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:0 — Use This When"
-line_start: 11003
-line_end: 11025
+line_start: 11122
+line_end: 11144
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"

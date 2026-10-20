@@ -6,12 +6,12 @@ section_id: "A.15.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__004_forces.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.15.10 — Resume Interrupted Work"
   - "A.15.10:3 — Forces"
-line_start: 32461
-line_end: 32471
+line_start: 32582
+line_end: 32592
 dependencies:
   - "A.15"
   - "A.15.5"

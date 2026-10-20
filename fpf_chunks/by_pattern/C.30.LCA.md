@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.LCA.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
-line_start: 74018
-line_end: 74329
+line_start: 74139
+line_end: 74453
 dependencies:
   - "A.10"
   - "A.20"
@@ -25,8 +25,10 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
+  - "C.30.LCA"
   - "C.30.STRAT"
   - "C.30.TFS-REL"
+  - "C.32.LCA"
   - "E.17.0"
   - "E.18"
   - "E.18.2"
@@ -59,6 +61,8 @@ The first useful result can be one sentence: “Supervisor S sends allowed-mode 
 What goes wrong if C.30.LCA is missed: a control diagram becomes the control structure, `U.View`, or proof; stratification labels bypass `C.30.STRAT` and carry undeclared scope; and `B.2.5`, E.18 transformation-flow prose, or Layered Control Architecture prose is overread as control adequacy.
 
 What C.30.LCA buys in practice: the practitioner can keep useful controller, plant, observer, regulator, supervisor, feedback, rate, and control-layer language while recovering a selected control structure, one description episteme, its possible E.17.0 view conformance, and the pattern used to state or test each proof or claim.
+
+When the question is how to construct or change the cooperation of observations, decisions and interventions, use `C.32.LCA`. It develops alternatives with their information, timing, authority and continuation conditions. Supply the recovered control account to that construction; return here when a candidate's description or view needs qualification. An adequate arrangement needing only a clearer account can finish with C.30.LCA.
 
 Not this pattern when the issue under repair is generic stratification or source-label repair, only an E.18 transformation-flow path slice, function description, module boundary, measurement head, causal intervention, or safety case. Use `C.30.STRAT`, `C.30.TFS-REL`, `A.6.F`, `A.6.M`, `C.16`, `C.28`, or the applicable assurance or evidence pattern to state or test the current claim.
 
@@ -347,6 +351,7 @@ This protects subject, structure, episteme, View, representation, and publicatio
 * Uses `A.22` for exact structure identity and structure-kind discipline.
 * Coordinates with `C.30.STRAT` when layer, level, tier, stack, ladder, rung, block, expert, cache, router, gate, or similar source labels must be recovered before control-specific use.
 * Coordinates with `B.2.5` for supervisor-subholon feedback relation recognition.
+* Coordinates with `C.32.LCA` for constructing and comparing control arrangements. C.30.LCA supplies the recovered control account and its use limits; C.32.LCA returns explained alternatives whose descriptions can be examined here. Construction and view qualification retain their different results.
 * Coordinates with E.18 and C.30.TFS-REL when transformation-flow path slices supply structure input to the control view; use E.18.2 for a mathematical description when that description is current.
 * For neighboring claims, use `A.3.3` for dynamics or stability, `C.27.TA` for temporal-aspect or rate-band structure, `C.27` for authored temporal-claim adequacy, `C.28` for causal use, A.10 for bounded source-to-use reliance, G.6 for citable provenance paths, B.3 only for a named assurance claim, A.20 for internal-constraint validity, A.21 for gate decisions, A.15 for Work alignment, A.15.6 for project-Work recovery, E.24.PUB for publication, and C.29 for representation or transferable mathematical-lens use.
 

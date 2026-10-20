@@ -6,12 +6,12 @@ section_id: "A.7:9"
 section_title: "Anti‑patterns (with fixes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__011_anti-patterns-with-fixes.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:9 — Anti‑patterns (with fixes)"
-line_start: 25840
-line_end: 25882
+line_start: 25959
+line_end: 26001
 dependencies:
   - "A.1"
   - "A.10"

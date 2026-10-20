@@ -6,12 +6,12 @@ section_id: "A.3.4.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:intro — Intro"
-line_start: 13174
-line_end: 13199
+line_start: 13293
+line_end: 13318
 dependencies:
   - "A.10"
   - "A.15.1"

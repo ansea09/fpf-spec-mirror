@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__008_conformance-checklist.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:7 — Conformance Checklist"
-line_start: 76049
-line_end: 76065
+line_start: 76173
+line_end: 76189
 dependencies:
   - "A.1.1"
   - "A.10"

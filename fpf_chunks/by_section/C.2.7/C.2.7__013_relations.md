@@ -6,12 +6,12 @@ section_id: "C.2.7:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__013_relations.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:12 — Relations"
-line_start: 54130
-line_end: 54133
+line_start: 54251
+line_end: 54254
 dependencies:
   - "A.16"
   - "A.16.0"

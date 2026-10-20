@@ -6,12 +6,12 @@ section_id: "C.2.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__004_forces.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:3 — Forces"
-line_start: 53876
-line_end: 53882
+line_start: 53997
+line_end: 54003
 dependencies:
   - "A.16"
   - "A.16.0"

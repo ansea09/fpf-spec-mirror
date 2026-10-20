@@ -6,12 +6,12 @@ section_id: "B.2.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__003_problem-frame.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:1 — Problem Frame"
-line_start: 44733
-line_end: 44738
+line_start: 44854
+line_end: 44859
 dependencies:
   - "A.10"
   - "A.15"

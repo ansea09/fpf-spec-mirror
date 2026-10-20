@@ -6,12 +6,12 @@ section_id: "B.1.6:9.1"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__014_rationale.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:9.1 — Rationale"
-line_start: 43675
-line_end: 43680
+line_start: 43796
+line_end: 43801
 dependencies:
   - "A.1"
   - "A.10"

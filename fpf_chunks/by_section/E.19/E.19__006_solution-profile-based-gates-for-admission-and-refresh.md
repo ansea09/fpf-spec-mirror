@@ -6,12 +6,12 @@ section_id: "E.19:4"
 section_title: "Solution — Profile-based gates for admission and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__006_solution-profile-based-gates-for-admission-and-refresh.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:4 — Solution — Profile-based gates for admission and refresh"
-line_start: 110747
-line_end: 111313
+line_start: 111358
+line_end: 111924
 dependencies:
   - "A.15.1"
   - "A.6.P"

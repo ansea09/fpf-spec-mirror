@@ -6,12 +6,12 @@ section_id: "C.2.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__011_rationale.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:10 — Rationale"
-line_start: 53936
-line_end: 53938
+line_start: 54057
+line_end: 54059
 dependencies:
   - "A.16"
   - "A.16.0"

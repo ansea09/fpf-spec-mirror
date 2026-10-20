@@ -6,12 +6,12 @@ section_id: "C.20:9.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__014_sota-echoing.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:9.1 — SoTA-Echoing"
-line_start: 62387
-line_end: 62397
+line_start: 62508
+line_end: 62518
 dependencies:
   - "A.1"
   - "A.14"

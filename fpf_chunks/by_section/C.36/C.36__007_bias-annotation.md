@@ -6,12 +6,12 @@ section_id: "C.36:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__007_bias-annotation.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:6 — Bias-Annotation"
-line_start: 81226
-line_end: 81237
+line_start: 81749
+line_end: 81760
 dependencies:
   - "A.1"
   - "A.10"

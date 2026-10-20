@@ -6,12 +6,12 @@ section_id: "C.24:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__012_relations.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:12 — Relations"
-line_start: 64804
-line_end: 64818
+line_start: 64925
+line_end: 64939
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "B.2.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__002_use-this-when.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
   - "B.2.2:0 — Use This When"
-line_start: 44280
-line_end: 44299
+line_start: 44401
+line_end: 44420
 dependencies:
   - "A.1"
   - "A.10"

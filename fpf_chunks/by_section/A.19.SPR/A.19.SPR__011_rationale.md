@@ -6,12 +6,12 @@ section_id: "A.19.SPR:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__011_rationale.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:9 — Rationale"
-line_start: 35655
-line_end: 35660
+line_start: 35776
+line_end: 35781
 dependencies:
   - "A.10"
   - "A.16"

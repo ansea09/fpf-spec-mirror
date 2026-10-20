@@ -6,12 +6,12 @@ section_id: "E.17.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:intro — Intro"
-line_start: 105189
-line_end: 105217
+line_start: 105800
+line_end: 105828
 dependencies:
   - "A.22"
   - "A.6.3"

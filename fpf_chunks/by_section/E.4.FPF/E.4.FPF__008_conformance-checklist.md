@@ -6,12 +6,12 @@ section_id: "E.4.FPF:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__008_conformance-checklist.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:7 — Conformance checklist"
-line_start: 92180
-line_end: 92197
+line_start: 92773
+line_end: 92790
 dependencies:
   - "C.33"
   - "C.34"

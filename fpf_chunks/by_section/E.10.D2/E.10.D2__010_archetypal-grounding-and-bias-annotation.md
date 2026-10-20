@@ -6,12 +6,12 @@ section_id: "E.10.D2:9"
 section_title: "Archetypal grounding and bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__010_archetypal-grounding-and-bias-annotation.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:9 — Archetypal grounding and bias annotation"
-line_start: 100671
-line_end: 100680
+line_start: 101264
+line_end: 101273
 dependencies:
   - "A.1.1"
   - "A.10"

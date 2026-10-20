@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.STM"
-pattern_title: "Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+pattern_title: "Connect Project Reasoning (System-Thinking Long Mantra)"
 section_id: "A.1.STM:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__002_practitioner-entry.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
-  - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+  - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:0 — Practitioner entry"
-line_start: 4021
-line_end: 4036
+line_start: 4024
+line_end: 4039
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -40,17 +40,17 @@ keywords:
 
 ### A.1.STM:0 - Practitioner entry
 
-**Use this when.** Use this pattern when a project team has, or is choosing, one common project system-of-interest but cannot tell which answer is missing on the map from the change expected outside that system to the work and systems that make or change it, and onward to the work and systems that make or change those builders. Use it also when a local result has no supported next fact connecting it to production or change, release, runtime use, or that outside change.
+**Use this when.** Use this pattern when participants have knowledge about parts of a project but need to connect it into one systemic account: what should change in use, which system can make that difference, how it could function and be constructed, how it can be obtained, and how its creators can work together. Their answers must fit together, not merely be plausible separately. Establishing the common project target is one necessary part of that reasoning. Use the pattern also when participants say "our system" but mean a component, a provider organization, a tool or the common target without noticing the difference. A narrower use is to locate the first unsupported dependency when the connected account is already sufficient.
 
-**First useful move.** Name the final result that matters now: a release, runtime use, or specific change expected outside the project system-of-interest. If a local result is current, say exactly what it is about and name the next supported fact needed to connect it to production or change, release, runtime use, or that outside change. Read backward only far enough to name the first answer that is absent, stale, disputed, or unsupported. Then state that exact question and use the one subject pattern whose `Use this when` accepts it as a locator for the required definition or constraint.
+**First useful move.** Take the project question now at issue and recover its connection to the intended use: what should become different or remain possible for whom, what system is expected to make that difference, and where its boundary lies. Ask the participants whose decisions govern that result to compare their answers. Use section 4.1 when the common basis is unresolved. When it is already shared, use section 4.3.1 to connect the current answer with the other choices it constrains and the choices on which it relies. Section 4.4 supplies the narrower first-gap inquiry when that is the missing result; there is no requirement to restart every investigation at the beginning of the reminder.
 
 **Memorable reminder.**
 
-> Start with the change needed outside the system the project is about. Choose that system and its boundary by that use; only then choose its inside. Ask how it will be made or changed, who or what can do that work, and what must make or change those builders. Read backward to the first unsupported answer. Follow real work and changes forward; for each local result, name the supported next fact that connects it to production or change, release, runtime use, or the outside change—or stop where that fact is missing.
+> Agree what system must succeed for whom and in what use. Connect the needed outside effect, functioning, construction, ways of obtaining it, capable creators and their cooperation. Repeat for the creators that must themselves be obtained. Make the answers fit together while keeping the common target in view. Follow results into use; when a premise changes, revise the answers that depend on it and renew the affected agreement.
 
-This reminder is the Plain long mantra. Section 4 gives the working steps for using it.
+This is the Plain long mantra. Section 4 explains why the questions connect and how to use the reminder without treating it as a fixed work sequence.
 
-**Not this pattern when.** If the current question is already one system-recognition, project designation, service/access, architecture, Method, Work, transformation, TFS/network, causal-use, evidence, or assurance question, use that direct pattern and stop there. Do not traverse the long map merely because a project mentions a project system-of-interest.
+**Not this pattern when.** A known local system-recognition, service/access, architecture, Method, Work, transformation, evidence or closure question can be answered through its subject pattern. Such a result need not reopen the whole project account. Use this pattern when the common basis or the connection to it is itself at issue.
 
-**What this buys.** The practitioner returns one located gap, one subject pattern, and one next question or action—or a truthful stop.
+**What this buys.** Participants can form and criticize a connected project account, justify why its choices belong together, find a consequential incompatibility or missing answer, and revise the affected part without losing the whole. They distinguish the shared target from their local subjects and preserve valid local results. The account can remain ordinary prose and existing project descriptions; no new universal project record is required.
 

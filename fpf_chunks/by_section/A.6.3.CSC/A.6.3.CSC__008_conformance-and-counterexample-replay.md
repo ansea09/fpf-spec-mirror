@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__008_conformance-and-counterexample-replay.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:7 — Conformance and counterexample replay"
-line_start: 18031
-line_end: 18074
+line_start: 18150
+line_end: 18193
 dependencies:
   - "A.15"
   - "A.20"

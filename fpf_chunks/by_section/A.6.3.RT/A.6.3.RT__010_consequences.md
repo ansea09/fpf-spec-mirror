@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__010_consequences.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:9 — Consequences"
-line_start: 18941
-line_end: 18954
+line_start: 19060
+line_end: 19073
 dependencies:
   - "A.1.1"
   - "A.10"

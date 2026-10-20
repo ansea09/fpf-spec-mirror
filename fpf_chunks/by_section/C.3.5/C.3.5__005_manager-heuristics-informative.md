@@ -6,12 +6,12 @@ section_id: "C.3.5:4"
 section_title: "Manager heuristics (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__005_manager-heuristics-informative.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:4 — Manager heuristics (informative)"
-line_start: 55870
-line_end: 55880
+line_start: 55991
+line_end: 56001
 dependencies:
   - "A.2.6"
   - "C.2.2"

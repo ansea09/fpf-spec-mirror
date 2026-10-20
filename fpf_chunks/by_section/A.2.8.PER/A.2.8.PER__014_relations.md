@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__014_relations.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:12 — Relations"
-line_start: 8515
-line_end: 8522
+line_start: 8634
+line_end: 8641
 dependencies:
   - "A.10"
   - "A.13"

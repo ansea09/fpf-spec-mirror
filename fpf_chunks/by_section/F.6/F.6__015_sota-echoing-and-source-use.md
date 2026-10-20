@@ -6,12 +6,12 @@ section_id: "F.6:13"
 section_title: "SoTA-Echoing and Source Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__015_sota-echoing-and-source-use.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:13 — SoTA-Echoing and Source Use"
-line_start: 118425
-line_end: 118438
+line_start: 119036
+line_end: 119049
 dependencies:
   - "A.1.1"
   - "A.10"

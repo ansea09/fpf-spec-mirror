@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.33.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
-line_start: 80259
-line_end: 80467
+line_start: 80782
+line_end: 80990
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

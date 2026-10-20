@@ -6,12 +6,12 @@ section_id: "E.10:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__002_use-this-when.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:0 — Use this when"
-line_start: 97058
-line_end: 97787
+line_start: 97651
+line_end: 98380
 dependencies:
   - "A.10"
   - "A.15"

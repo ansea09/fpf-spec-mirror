@@ -6,12 +6,12 @@ section_id: "E.17:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 106039
-line_end: 106051
+line_start: 106650
+line_end: 106662
 dependencies:
   - "A.10"
   - "A.15.4"

@@ -6,12 +6,12 @@ section_id: "B.5.SD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__011_rationale.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.5.SD — Construct a Useful Answer through Substantive Discussion"
   - "B.5.SD:10 — Rationale"
-line_start: 51053
-line_end: 51056
+line_start: 51174
+line_end: 51177
 dependencies:
   - "A.3.1"
   - "B.5.RA"

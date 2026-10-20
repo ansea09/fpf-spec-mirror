@@ -6,12 +6,12 @@ section_id: "A.15.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__005_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:4 — Solution"
-line_start: 31171
-line_end: 31364
+line_start: 31290
+line_end: 31485
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -64,7 +64,7 @@ When the result must persist, identify one ordinary C.2.1 episteme through all t
 | exact `EntityOfConcern` | the exact `DecisionSubject` whose current choice result is being recorded, at the declared `DecisionSubjectGranularity` |
 | effective `U.ReferenceScheme` | one named project-decision scheme and edition whose designation, interpretation, comparison, and evaluation rules give the C.11 terms, alternatives, focus content, and result their meaning |
 
-This aboutness choice lets one chooser revise the selected problem without inventing a project-focus object. Authority, commitment, budget ownership, Agent status, and performed Work remain neighboring claims under their own governors; none changes the `EntityOfConcern` merely by appearing in the decision record.
+This aboutness choice lets one chooser revise the selected problem without inventing a project-focus object. Authority, commitment, budget ownership, Agent status, and performed Work remain neighboring claims under their own governors; none changes the `EntityOfConcern` merely by appearing in the decision record. One chooser's C.11 result also does not establish a shared understanding or agreement among project participants. When that common basis is at issue, use A.1.STM:4.1 to compare their target and use accounts and resolve the consequential differences.
 
 The minimally useful result carries the full C.11 choice discipline through five connected content groups:
 
@@ -85,7 +85,7 @@ Call a later focus episteme another edition only when an exact C.2.1 `EpistemeEd
 Proceed by logical dependency, not by a compulsory Work sequence:
 
 1. problematize the situation and comparison basis;
-2. compare candidate direct subjects, designating a project system-of-interest only when one System boundary and systemhood change the decision;
+2. compare candidate direct subjects for the current decision. Designate a local system-of-interest when its System boundary matters; when constructing the systemic account of the project, establish the common target and intended use through A.1.STM rather than treating whichever local subject is current as the target;
 3. describe the use or operation in which the subject is expected to matter, keeping functioning, behaviour, interaction, causal participation, intended Work, actual Work, and Method enactment under their own governors;
 4. compare materially different solution forms, which may be Systems, Methods, epistemes, arrangements, or combinations;
 5. designate a project Method-of-interest only when that Method's identity, architecture, comparison, enactment, development, or maintenance is the current question; and
@@ -122,29 +122,31 @@ The project occurrence uses the identity, temporal extent, parts, episodes, cont
 
 Whole-project roll-up requires obtaining work-parthood plus an aggregation policy defined for the one relation and measure being aggregated. Outputs, effects, verdicts, epistemes, deliveries, and uses do not become one result merely because they share the project label.
 
-#### A.15.6:4.1a - Connect project work to its project system-of-interest and network question
+#### A.15.6:4.1a - Connect project work to the common target and any local system-of-interest
 
-Start with an ordinary sentence: **this project work is intended to change, produce, restore, evaluate, or prepare the use of this system**. Then name the composite project `U.Work`, the system or intended-system designator, the plan or decision that selected it, the concrete change or use being pursued, and the next decision that needs the designation.
+Start with an ordinary sentence: **this project work is intended to change, produce, restore, evaluate, or prepare the use of this system**. Name the composite project `U.Work` when it has been performed; while it is only intended, name the `U.WorkPlan`. Recover the actual system or intended-holder designator, the plan or decision that selected it, the change or use being pursued, and the next decision that needs the designation.
 
-The primary expression is **project system-of-interest**, inherited from systems engineering without adding target, aim, or goal semantics. `systemOfConcern` may be used as a historical Plain synonym. Neither expression admits a System, system-role kind, assignment, relation, or project kind.
+Distinguish **system-of-interest**, a system selected for one investigation or decision, from **project target system**, the system in the role of the common target whose intended functioning, change or cessation in its environment organizes the joint undertaking. A test rig may be the local system-of-interest while a pump remains the project target. The target's functional role, such as circulating coolant, is a third distinction. Calling the pump the target neither creates a new U-kind nor changes its System identity.
+
+The target-system role is required when giving a systemic account of the project. A.1.STM:4.1–4.3 explains how participants agree the intended use and boundary, derive the needed functioning, construction, Methods and creator contributions, and connect their local subjects to that common purpose. A direct-subject or case result can close locally without completing this account. Conversely, an agreed target does not make each intermediate result a System. State a missing or contested common basis when it remains unresolved.
 
 When the designated system already exists, identify that same entity under its admitted `U.System` kind. The plan or decision may say why it matters to the project, but that designation does not put the system inside a project container. Actual links still come from relations that obtain: a work-to-referent or work-to-change relation, one independently identified Transformation, a branch-local A.15.PROD production or inception claim, an evaluation, a participation or use relation, or another separately defined direct relation. Include only links used by the named decision.
 
-When the System is only intended, keep its designator and expected change or use inside the `U.WorkPlan`, decision, System description, or other claim episteme. Before its identity rule first holds, there is no future `U.System`, system-role-assignment holder, or Transformation of that not-yet-existing System. A.15.PROD may later state the identity-inception boundary. After inception, relate the actual System to the earlier description through the applicable reference or identity claim, then test project designation, participation, local system-role classification, and any assignment at their own times.
+When the System is only intended, agree the target role, required holder characteristics and intended use while keeping the holder's designator inside the `U.WorkPlan`, decision, System description, or other claim episteme. Before its identity rule first holds, there is no future `U.System`, system-role-assignment holder, or Transformation of that not-yet-existing System. A.15.PROD may later state the identity-inception boundary. After inception, relate the actual System to the earlier description through the applicable reference or identity claim, then test project designation, participation, local system-role classification, and any assignment at their own times. For a series or family, keep the common requirements and the later individual holders distinct; a specification or collection does not become one System. A.1.STM:4.2 develops this case.
 
-Project designation, local system-role classification, and system-role assignment do not entail one another. Classify an actual System under `SystemOfInterestSystemRole` only after A.2 identifies that local kind and its feature criterion and the System satisfies it. When assignment identity or its window matters, A.2.1 names an occurrence with the System as holder and its declared `U.SystemRoleAssignment` species. That species declares `SystemOfInterestSystemRoleKindDomain` for the assigned-kind position; the occurrence supplies `SystemOfInterestSystemRole` as a value from that domain. Designation, passive affectedness, or a familiar label establishes neither classification nor assignment; an assignment does not prove project designation. A patient record, damage claim, measurement result, or other non-System case subject can remain central to project Work but cannot be classified under that system-role kind or hold such an assignment.
+Project designation, local system-role classification, and system-role assignment do not entail one another. For a generic focus claim, classify an actual System under `SystemOfInterestSystemRole` only after A.2 identifies that local kind and its feature criterion and the System satisfies it. When assignment identity or its window matters, A.2.1 names an occurrence with the System as holder and its declared `U.SystemRoleAssignment` species. That species declares `SystemOfInterestSystemRoleKindDomain` for the assigned-kind position; the occurrence supplies `SystemOfInterestSystemRole` as a value from that domain. Designation, passive affectedness, or a familiar label establishes neither classification nor assignment; an assignment does not prove project designation. For a technical project-target claim, the local kind's criterion must distinguish the common target of the named undertaking, not merely a system under investigation; apply A.2 and A.2.1 to that declared kind and assignment species rather than inherit the generic name's meaning. A patient record, damage claim, measurement result, or other non-System case subject can remain central to project Work but cannot be classified under a system-role kind or hold such an assignment.
 
 When one project question spans operation or use of the project system-of-interest together with production, identity inception, later change, verification, feedback, or recursive builder questions, E.18.NET may select the relevant independently identified TFS or nested-network members. The selection must pass its four A.22 discriminators: direct members, obtaining cross-member relation occurrences, applied constraints, and one `networkUseFrame`; all endpoint bindings must resolve. If a member or relation is ungrounded, keep a Plain proposed network explanation and name the missing member, governor, false or unresolved predicate, occurrence, or binding. The selected network is a non-agentive `U.Structure`, not the project, performed Work, a case, or evidence of work parthood.
 
 If the network-selection judgment must persist, use one ordinary C.2.1 result episteme whose `EntityOfConcern` is the selected network and whose claim says only why it answers the named project question for the stated basis and qualification window. Project Work, transformations, case closure, production, evidence, and decisions remain separate subjects and claims. A record creates none of them and creates no `projectHasNetwork` relation.
 
-**Use the lightest claim that answers the project-selection question.** A plan or decision designation and every independently obtaining Work, change, production, evaluation, delivery, acceptance, or use fact remain usable. Often the ordinary sentence “this plan designates PumpUnit-3 as the system this upgrade is about” is already the whole needed claim; do not construct a conjunction around it.
+**Use the lightest claim that answers the project-selection question.** A plan or decision designation and every independently obtaining Work, change, production, evaluation, delivery, acceptance, or use fact remain usable. Often the ordinary sentence “this plan designates PumpUnit-3 as the system this upgrade is about” answers a local designation question; do not construct a conjunction around it. It does not by itself establish the participants' common target, agreement or expected contribution. Keep the larger systemic question at its own scope through A.1.STM.
 
 For one bounded decision that genuinely needs the combined truth, a C.2.1 local compound claim may cite the named plan or decision, composite Work, actual System, direct facts, applicability, and case facts. Its constructor semantics must be recoverable, but A.6.RCD does not require a separately materialized substrate document for a simple one-case claim. Name and pin the substrate when the derivation is nontrivial, intended for interoperability, used as proof, or reused. Repeated parameterized use may justify a reusable predicate-definition episteme. Admit a relation kind only when a named receiver also needs distinguishable project-selection occurrences with their own identity.
 
 Return `missing-substrate[project-selection-conjunction]` only when the stronger compound claim is needed and no current substrate supplies the proposed operator semantics. The blocker stops that compound claim; it does not invalidate the plan designation or any direct fact.
 
-For `PumpUnit-3`, the plan and upgrade decision directly designate the pump, while the admitted composite Work, Work parts, and pump-change facts remain supported independently by their defining patterns and facts. That is enough for ordinary project attention. Open a compound local claim only for a decision that consumes the conjunction, and materialize or pin its substrate only under the conditions above.
+For `PumpUnit-3`, the plan and upgrade decision directly designate the pump, while the admitted composite Work, Work parts, and pump-change facts remain supported independently by their defining patterns and facts. That answers the local designation and Work questions; the common target and use basis is supplied separately through A.1.STM. Open a compound local claim only for a decision that consumes the conjunction, and materialize or pin its substrate only under the conditions above.
 
 #### A.15.6:4.2 - Recover a process concern through `U.Method`, a selected `U.Structure`, or `TransformationFlowStructure`
 

@@ -6,12 +6,12 @@ section_id: "E.5.1:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.1/E.5.1__010_relations.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
   - "E.5.1:9 — Relations"
-line_start: 94499
-line_end: 94503
+line_start: 95092
+line_end: 95096
 dependencies:
   - "E.5"
 keywords:

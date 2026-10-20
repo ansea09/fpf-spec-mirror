@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__010_consequences.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:9 — Consequences"
-line_start: 116495
-line_end: 116500
+line_start: 117106
+line_end: 117111
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"

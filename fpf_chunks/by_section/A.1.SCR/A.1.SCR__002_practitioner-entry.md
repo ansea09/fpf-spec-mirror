@@ -6,12 +6,12 @@ section_id: "A.1.SCR:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__002_practitioner-entry.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:0 — Practitioner entry"
-line_start: 3488
-line_end: 3505
+line_start: 3489
+line_end: 3506
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -26,7 +26,7 @@ keywords:
 
 ### A.1.SCR:0 - Practitioner entry
 
-**Use this when.** Use this pattern when a decision depends on which exact system acts, is intended to change, carries a capability, persists through a lifecycle, or is being considered or designated as the project system-of-interest—and the proposed subject is still unclear. Ask: **Which exact system acts or is intended to change here, and what decision depends on treating it as a system?**
+**Use this when.** Use this pattern when a decision depends on which exact system acts, is intended to change, carries a capability, persists through a lifecycle, or is being considered for the project target-system role or as a local system-of-interest—and the proposed subject is still unclear. Ask: **Which exact system acts or is intended to change here, and what decision depends on treating it as a system?**
 
 **First useful move.** State the claim, the proposed actor or change bearer, and what you will decide differently if it is or is not a system. If the phrase already names Work, a Method, capability, transformation, episteme, structure, or a direct relation and your decision does not depend on systemhood, name that object and leave through its subject pattern. Apply the complete A.1 criterion only in the system-dependent branch.
 
@@ -38,7 +38,7 @@ keywords:
 
 **Honest unknown case.** `WorkshopController-9` is an exact boxed device, but the team cannot recover its internal assembly, reidentification rule, or operating boundary. The evaluation is **unknown** and names those missing inputs; the decision that assumes an acting controller remains blocked. The entity itself satisfies or fails the criterion independently of current knowledge.
 
-**What this buys.** A real actor, change bearer, lifecycle subject, capability holder, or project system-of-interest decision gets a tested identity and boundary. A direct Work, Method, capability, structure, episteme, or relation question leaves immediately without an unnecessary A.1 evaluation. Continue through A.1.STM only if the practitioner still cannot connect this recognition result to the project's outside use; recognition alone does not open the long map.
+**What this buys.** A real actor, change bearer, lifecycle subject, capability holder, or project system-of-interest decision gets a tested identity and boundary. A direct Work, Method, capability, structure, episteme, or relation question leaves immediately without an unnecessary A.1 evaluation. Continue through A.1.STM when the shared project target and intended-use basis, or this result's connection to it, remains unresolved. Recognition alone does not require traversing the long map.
 
 **Not this pattern when.** If the subject and its admitted kind are already clear, use the subject pattern of the claim. If service or access wording hides a promise, participant, bearer, permission, Work occurrence, status, evidence, or direct relation, begin with A.6.P §4.11a. Enter A.1.SCR from that route only when the repaired claim itself depends on whether the exact entity recovered by A.6.P—an exact bearer or access-providing arrangement—is a system. If only a name for an already recoverable object is unclear, use F.18.
 

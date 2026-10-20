@@ -6,12 +6,12 @@ section_id: "C.16.Q:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__005_forces.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:3 — Forces"
-line_start: 59707
-line_end: 59715
+line_start: 59828
+line_end: 59836
 dependencies:
   - "A.10"
   - "A.16"

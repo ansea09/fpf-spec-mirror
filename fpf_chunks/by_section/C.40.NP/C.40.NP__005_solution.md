@@ -6,12 +6,12 @@ section_id: "C.40.NP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NP/C.40.NP__005_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
   - "C.40.NP:4 — Solution"
-line_start: 87676
-line_end: 87719
+line_start: 88199
+line_end: 88242
 dependencies:
   - "C.18"
   - "C.19"

@@ -6,12 +6,12 @@ section_id: "B.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__007_bias-annotation.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:6 — Bias-Annotation"
-line_start: 46198
-line_end: 46205
+line_start: 46319
+line_end: 46326
 dependencies:
   - "A.12"
   - "A.15.1"

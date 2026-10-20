@@ -6,12 +6,12 @@ section_id: "C.21:6"
 section_title: "Archetypal Grounding (five domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__008_archetypal-grounding-five-domains.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:6 — Archetypal Grounding (five domains)"
-line_start: 62555
-line_end: 62578
+line_start: 62676
+line_end: 62699
 dependencies:
   - "A.10"
   - "A.17"

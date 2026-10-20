@@ -6,12 +6,12 @@ section_id: "A.7:12"
 section_title: "Rationale (informal)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__014_rationale-informal.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:12 — Rationale (informal)"
-line_start: 25909
-line_end: 25915
+line_start: 26028
+line_end: 26034
 dependencies:
   - "A.1"
   - "A.10"

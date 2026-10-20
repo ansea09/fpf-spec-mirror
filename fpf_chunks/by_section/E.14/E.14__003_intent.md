@@ -6,12 +6,12 @@ section_id: "E.14:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__003_intent.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:1 — Intent"
-line_start: 103364
-line_end: 103370
+line_start: 103975
+line_end: 103981
 dependencies:
   - "B.3.5"
   - "C.13"

@@ -6,12 +6,12 @@ section_id: "E.9.DA:6"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__007_bias-annotation.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
   - "E.9.DA:6 — Bias annotation"
-line_start: 96949
-line_end: 96954
+line_start: 97542
+line_end: 97547
 dependencies:
   - "A.19.ECS"
   - "E.10"

@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 10347
-line_end: 10357
+line_start: 10466
+line_end: 10476
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "C.32.MWA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__005_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:4 — Solution"
-line_start: 78314
-line_end: 78366
+line_start: 78837
+line_end: 78889
 dependencies:
   - "A.15.1"
   - "A.22"

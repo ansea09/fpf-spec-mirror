@@ -6,12 +6,12 @@ section_id: "E.5.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.3/E.5.3__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.5.3 — Unidirectional Dependency between FPF Families"
   - "E.5.3:intro — Intro"
-line_start: 94603
-line_end: 94606
+line_start: 95196
+line_end: 95199
 dependencies:
   - "E.4"
   - "E.5"

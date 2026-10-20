@@ -6,12 +6,12 @@ section_id: "G.5:End"
 section_title: "G.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__015_g-5-end.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:End — G.5:End"
-line_start: 127872
-line_end: 127873
+line_start: 128483
+line_end: 128484
 dependencies:
   - "C.11"
   - "C.18"

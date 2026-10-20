@@ -6,12 +6,12 @@ section_id: "C.32.HCS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:intro — Intro"
-line_start: 76823
-line_end: 76828
+line_start: 77346
+line_end: 77351
 dependencies:
   - "A.19"
   - "C.11"

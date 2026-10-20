@@ -6,12 +6,12 @@ section_id: "C.28.CM:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__011_rationale.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:10 — Rationale"
-line_start: 68592
-line_end: 68597
+line_start: 68713
+line_end: 68718
 dependencies:
   - "A.15.9"
   - "B.5.2"

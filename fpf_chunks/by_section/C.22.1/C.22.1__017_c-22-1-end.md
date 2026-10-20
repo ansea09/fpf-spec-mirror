@@ -6,12 +6,12 @@ section_id: "C.22.1:End"
 section_title: "C.22.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__017_c-22-1-end.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:End — C.22.1:End"
-line_start: 63208
-line_end: 63209
+line_start: 63329
+line_end: 63330
 dependencies:
   - "A.15"
   - "C.19.1"

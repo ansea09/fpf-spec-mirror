@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.STM"
-pattern_title: "Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+pattern_title: "Connect Project Reasoning (System-Thinking Long Mantra)"
 section_id: "A.1.STM:9"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__011_common-anti-patterns.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
-  - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+  - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:9 — Common anti-patterns"
-line_start: 4133
-line_end: 4145
+line_start: 4243
+line_end: 4259
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -42,7 +42,11 @@ keywords:
 
 | Anti-pattern | Repair |
 | --- | --- |
-| Mantra as algorithm | Restore the map as an attention aid; use direct patterns for every result and WorkPlan for planned order. |
+| Mantra as fixed work sequence | Use its connected questions to construct and criticize hypotheses; use direct patterns for local truth and WorkPlan for planned order. |
+| Correct parts, unsupported whole | Recover the conditions under which the particular answers can be used together; revise the failed connection or candidate rather than counting completed questions. |
+| Short formula replaces knowledge | Return to the developed subject explanation and bring its premises and limits into the common account. |
+| Local subject replaces common target | Locate the team's subject and next receiving use in relation to the shared target; changing focus does not by itself change the project's purpose. |
+| Role becomes an intrinsic system type | Separate the target role from its holder and description; test the actual System under A.1 and any technical role claim under A.2/A.2.1. |
 | Project equals network | Keep actual project as composite `U.Work` and E.18.NET as a selected non-agentive `U.Structure`. |
 | Case equals subnetwork | Name the case subject, closure basis, bounded references, and excluded downstream use; select a structure only when one receiving use needs the whole organization. |
 | Creator graph import | Identify TFS or nested-network members and exact cross-member occurrences; add no creator kind or generic `creates` edge. |

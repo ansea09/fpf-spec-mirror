@@ -6,12 +6,12 @@ section_id: "C.32:End"
 section_title: "C.32:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__015_c-32-end.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:End — C.32:End"
-line_start: 76462
-line_end: 76463
+line_start: 76588
+line_end: 76589
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,6 +43,7 @@ dependencies:
   - "C.32.CONWAY"
   - "C.32.FAIL"
   - "C.32.HCS"
+  - "C.32.LCA"
   - "C.32.MLAO"
   - "C.32.MWA"
   - "C.32.P2S"

@@ -6,12 +6,12 @@ section_id: "F.17:14"
 section_title: "Closure conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__018_closure-conditions.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:14 — Closure conditions"
-line_start: 123071
-line_end: 123087
+line_start: 123682
+line_end: 123698
 dependencies:
   - "A.1.1"
   - "A.10"

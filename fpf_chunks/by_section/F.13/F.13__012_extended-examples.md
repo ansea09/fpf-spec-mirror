@@ -6,12 +6,12 @@ section_id: "F.13:11"
 section_title: "Extended examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__012_extended-examples.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:11 — Extended examples"
-line_start: 120890
-line_end: 120929
+line_start: 121501
+line_end: 121540
 dependencies:
   - "F.1"
   - "F.17"

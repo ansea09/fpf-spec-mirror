@@ -6,18 +6,20 @@ section_id: "D.1:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__009_conformance-checklist.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:5 — Conformance Checklist"
-line_start: 89606
-line_end: 89614
+line_start: 90195
+line_end: 90203
 dependencies:
   - "A.1"
   - "A.1.CSD"
   - "A.10"
   - "A.7"
   - "B.3"
+  - "B.5.RA"
+  - "B.5.RR"
   - "C.11"
   - "C.11.DUA"
   - "C.28"
@@ -37,6 +39,6 @@ keywords:
 | --- | --- | --- |
 | CC-D1-1 | The ethical claim or question, affected EntityOfConcern, value concern, and intended use are named. Relied-on evidence and material uncertainty qualify the answer. Value-frame editions, ClaimScope, qualification window, affected Systems, and direct responsibility relations are added when they change the claim or its warranted use. | Keeps "ethical" from becoming a label without content or a generic context premise. |
 | CC-D1-2 | A judgement of ethical admissibility states its warranted use and any limitation that changes it. A separate frame or stronger-source return serves a particular reasoning or receiving need. | Prevents value wording from authorizing action by itself. |
-| CC-D1-3 | Ethical theory, tradition, or project-specific value frame is named when it changes the claim. | Keeps plural value frames inspectable. |
+| CC-D1-3 | Ethical theory, tradition, or project-specific value frame is named when it changes the claim. A conditional judgement preserves its value premises, relevant facts and inference; a contested premise remains identifiable. | Keeps plural value frames inspectable and reasoning recoverable. |
 | CC-D1-4 | Multilevel conflict, mediation, bias or fairness audit, causal use, evidence, assurance, and architecture residuals use their subject patterns. | Keeps D.1 as boundary pattern rather than universal ethics owner. |
 

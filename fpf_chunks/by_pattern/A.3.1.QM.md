@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.QM.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
-line_start: 10021
-line_end: 10182
+line_start: 10140
+line_end: 10301
 dependencies:
   - "A.3.1"
   - "A.3.1.DR"

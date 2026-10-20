@@ -6,12 +6,12 @@ section_id: "B.1.3:End"
 section_title: "B.1.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__013_b-1-3-end.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:End — B.1.3:End"
-line_start: 42285
-line_end: 42286
+line_start: 42406
+line_end: 42407
 dependencies:
   - "A.1"
   - "A.10"

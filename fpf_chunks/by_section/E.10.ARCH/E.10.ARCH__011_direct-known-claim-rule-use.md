@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:5"
 section_title: "Direct known claim-rule use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__011_direct-known-claim-rule-use.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:5 — Direct known claim-rule use"
-line_start: 99857
-line_end: 99862
+line_start: 100450
+line_end: 100455
 dependencies:
   - "A.10"
   - "A.15.1"

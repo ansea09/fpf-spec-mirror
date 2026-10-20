@@ -6,12 +6,12 @@ section_id: "C.28.CM:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__007_bias-annotation.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:6 — Bias-Annotation"
-line_start: 68557
-line_end: 68562
+line_start: 68678
+line_end: 68683
 dependencies:
   - "A.15.9"
   - "B.5.2"

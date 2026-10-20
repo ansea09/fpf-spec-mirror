@@ -6,12 +6,12 @@ section_id: "A.7.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 26070
-line_end: 26080
+line_start: 26189
+line_end: 26199
 dependencies:
   - "A.7"
   - "A.7.2"

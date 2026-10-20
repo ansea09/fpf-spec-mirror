@@ -6,12 +6,12 @@ section_id: "E.24.PUB:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__014_relations.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:12 — Relations"
-line_start: 115228
-line_end: 115234
+line_start: 115839
+line_end: 115845
 dependencies:
   - "A.6.3"
   - "A.6.REL"

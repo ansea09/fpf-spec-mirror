@@ -6,12 +6,12 @@ section_id: "G.12:7"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__009_bias-annotation.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:7 — Bias-Annotation"
-line_start: 130750
-line_end: 130753
+line_start: 131361
+line_end: 131364
 dependencies:
   - "A.19"
   - "A.2.6"

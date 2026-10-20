@@ -6,12 +6,12 @@ section_id: "C.17:8"
 section_title: "Evidence, uncertainty, and resistance to gaming"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__010_evidence-uncertainty-and-resistance-to-gaming.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:8 — Evidence, uncertainty, and resistance to gaming"
-line_start: 60702
-line_end: 60730
+line_start: 60823
+line_end: 60851
 dependencies:
   - "A.0"
   - "A.1.1"

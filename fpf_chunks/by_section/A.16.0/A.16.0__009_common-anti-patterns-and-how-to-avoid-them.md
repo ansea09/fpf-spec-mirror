@@ -6,12 +6,12 @@ section_id: "A.16.0:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 33823
-line_end: 33830
+line_start: 33944
+line_end: 33951
 dependencies:
   - "A.16"
   - "A.16.1"

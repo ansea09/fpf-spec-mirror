@@ -6,12 +6,12 @@ section_id: "A.19.ECS:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__012_sota-echoing.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:10 — SoTA-Echoing"
-line_start: 35376
-line_end: 35386
+line_start: 35497
+line_end: 35507
 dependencies:
   - "A.17-A.19"
   - "C.16"

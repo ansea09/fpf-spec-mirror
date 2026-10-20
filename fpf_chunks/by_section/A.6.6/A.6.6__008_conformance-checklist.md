@@ -6,12 +6,12 @@ section_id: "A.6.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__008_conformance-checklist.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:7 — Conformance Checklist"
-line_start: 24010
-line_end: 24027
+line_start: 24129
+line_end: 24146
 dependencies:
   - "A.10"
   - "A.14"

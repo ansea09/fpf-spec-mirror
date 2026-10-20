@@ -6,12 +6,12 @@ section_id: "B.5.RC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__003_problem.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:2 — Problem"
-line_start: 47947
-line_end: 47954
+line_start: 48068
+line_end: 48075
 dependencies:
   - "A.6.3.RT"
   - "B.5"

@@ -6,12 +6,12 @@ section_id: "A.19:6"
 section_title: "Conformance checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__009_conformance-checks.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:6 — Conformance checks"
-line_start: 35045
-line_end: 35076
+line_start: 35166
+line_end: 35197
 dependencies:
   - "A.10"
   - "A.15"

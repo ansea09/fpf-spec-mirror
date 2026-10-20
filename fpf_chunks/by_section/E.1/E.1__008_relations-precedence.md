@@ -6,12 +6,12 @@ section_id: "E.1:7"
 section_title: "Relations & Precedence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__008_relations-precedence.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:7 — Relations & Precedence"
-line_start: 90558
-line_end: 90562
+line_start: 91151
+line_end: 91155
 dependencies:
   - "E.2"
 keywords:

@@ -6,12 +6,12 @@ section_id: "C.31.RSA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__008_conformance-checklist.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:7 — Conformance Checklist"
-line_start: 75698
-line_end: 75714
+line_start: 75822
+line_end: 75838
 dependencies:
   - "A.10"
   - "A.19"

@@ -6,12 +6,12 @@ section_id: "E.17.1:14"
 section_title: "Import, Subset, and Multi-Bundle Coordination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__015_import-subset-and-multi-bundle-coordination.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:14 — Import, Subset, and Multi-Bundle Coordination"
-line_start: 105021
-line_end: 105063
+line_start: 105632
+line_end: 105674
 dependencies:
   - "A.16.0"
   - "A.22"

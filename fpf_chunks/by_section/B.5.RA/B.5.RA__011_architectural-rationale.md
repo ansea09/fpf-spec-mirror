@@ -6,12 +6,12 @@ section_id: "B.5.RA:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__011_architectural-rationale.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:10 — Architectural Rationale"
-line_start: 48444
-line_end: 48455
+line_start: 48565
+line_end: 48576
 dependencies:
   - "B.5"
   - "B.5.MPC"

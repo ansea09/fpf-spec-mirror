@@ -6,12 +6,12 @@ section_id: "F.13:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:intro — Intro"
-line_start: 120733
-line_end: 120742
+line_start: 121344
+line_end: 121353
 dependencies:
   - "F.1"
   - "F.17"

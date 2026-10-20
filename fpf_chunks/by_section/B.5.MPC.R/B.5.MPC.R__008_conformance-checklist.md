@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__008_conformance-checklist.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:7 — Conformance Checklist"
-line_start: 47874
-line_end: 47883
+line_start: 47995
+line_end: 48004
 dependencies:
   - "A.15.9"
   - "A.3.3"

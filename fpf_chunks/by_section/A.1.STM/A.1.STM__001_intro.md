@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.STM"
-pattern_title: "Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+pattern_title: "Connect Project Reasoning (System-Thinking Long Mantra)"
 section_id: "A.1.STM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
-  - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+  - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:intro — Intro"
-line_start: 4011
-line_end: 4020
+line_start: 4014
+line_end: 4023
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -38,7 +38,7 @@ dependencies:
 keywords:
 ---
 
-## A.1.STM - Find the First Unsupported Project Dependency (System-Thinking Long Mantra)
+## A.1.STM - Connect Project Reasoning (System-Thinking Long Mantra)
 
 > **Type:** Part A practitioner application pattern
 > **Status:** Stable
@@ -46,5 +46,5 @@ keywords:
 
 **Plain name.** Use the system-thinking long mantra.
 
-*Long mantra* and *attention map* are Plain names for a repeatable reminder and its readable dependency display.
+*Long mantra* and *attention map* are Plain names for a repeatable reminder and its readable display of connected questions. The developed account connects knowledge about use, functioning, construction, creation and cooperation. Its short wording helps keep that account in attention; it does not supply the knowledge that the account needs.
 

@@ -6,12 +6,12 @@ section_id: "E.4.FPF:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__012_sota-echoing.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:11 — SoTA-Echoing"
-line_start: 92226
-line_end: 92233
+line_start: 92819
+line_end: 92826
 dependencies:
   - "C.33"
   - "C.34"

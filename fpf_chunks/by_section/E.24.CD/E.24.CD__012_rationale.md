@@ -6,12 +6,12 @@ section_id: "E.24.CD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__012_rationale.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:10 — Rationale"
-line_start: 114927
-line_end: 114934
+line_start: 115538
+line_end: 115545
 dependencies:
   - "A.1"
   - "A.14"

@@ -6,12 +6,12 @@ section_id: "G.9:7"
 section_title: "Anti‑patterns and remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__009_anti-patterns-and-remedies.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:7 — Anti‑patterns and remedies"
-line_start: 129564
-line_end: 129573
+line_start: 130175
+line_end: 130184
 dependencies:
   - "A.19"
   - "A.2.6"

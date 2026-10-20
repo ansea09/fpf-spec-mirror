@@ -6,12 +6,12 @@ section_id: "G.0:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__002_problem-frame.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:1 — Problem frame"
-line_start: 124833
-line_end: 124845
+line_start: 125444
+line_end: 125456
 dependencies:
   - "A.10"
   - "A.17"

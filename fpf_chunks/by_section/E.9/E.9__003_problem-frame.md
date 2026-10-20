@@ -6,12 +6,12 @@ section_id: "E.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__003_problem-frame.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:1 — Problem frame"
-line_start: 96235
-line_end: 96243
+line_start: 96828
+line_end: 96836
 dependencies:
   - "A.10"
   - "A.15.1"

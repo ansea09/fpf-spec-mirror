@@ -6,12 +6,12 @@ section_id: "C.16.MR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.MR/C.16.MR__012_sota-echoing.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.16.MR — Construct a Measurement Relation"
   - "C.16.MR:11 — SoTA-Echoing"
-line_start: 58875
-line_end: 58886
+line_start: 58996
+line_end: 59007
 dependencies:
   - "A.3.3"
   - "B.5.FM"

@@ -6,12 +6,12 @@ section_id: "A.7:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__003_intent.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:1 — Intent"
-line_start: 25603
-line_end: 25613
+line_start: 25722
+line_end: 25732
 dependencies:
   - "A.1"
   - "A.10"

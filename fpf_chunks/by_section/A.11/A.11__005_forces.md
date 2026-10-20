@@ -6,12 +6,12 @@ section_id: "A.11:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__005_forces.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:1.1 — Forces"
-line_start: 27552
-line_end: 27561
+line_start: 27671
+line_end: 27680
 dependencies:
   - "A.6.P"
   - "A.6.RCD"

@@ -6,12 +6,12 @@ section_id: "G.10:8.2"
 section_title: "SoTA‑Echoing (post‑2015, for orientation)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__011_sota-echoing-post-2015-for-orientation.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:8.2 — SoTA‑Echoing (post‑2015, for orientation)"
-line_start: 130027
-line_end: 130032
+line_start: 130638
+line_end: 130643
 dependencies:
   - "A.10"
   - "A.15.3"

@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__003_problem-frame.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:1 — Problem Frame"
-line_start: 40988
-line_end: 40993
+line_start: 41109
+line_end: 41114
 dependencies:
   - "A.10"
   - "A.15"

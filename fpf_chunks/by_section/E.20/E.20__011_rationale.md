@@ -6,12 +6,12 @@ section_id: "E.20:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__011_rationale.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:10 — Rationale"
-line_start: 111837
-line_end: 111842
+line_start: 112448
+line_end: 112453
 dependencies:
   - "A.15.3"
   - "A.6.1"

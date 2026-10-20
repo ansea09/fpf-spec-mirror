@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__005_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:4 — Solution"
-line_start: 78092
-line_end: 78147
+line_start: 78615
+line_end: 78670
 dependencies:
   - "A.10"
   - "A.19.CPM"

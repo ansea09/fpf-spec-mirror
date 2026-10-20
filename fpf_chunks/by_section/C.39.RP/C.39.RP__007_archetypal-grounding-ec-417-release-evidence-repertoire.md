@@ -6,12 +6,12 @@ section_id: "C.39.RP:5"
 section_title: "Archetypal Grounding — EC-417 Release-Evidence Repertoire"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__007_archetypal-grounding-ec-417-release-evidence-repertoire.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:5 — Archetypal Grounding — EC-417 Release-Evidence Repertoire"
-line_start: 83038
-line_end: 83061
+line_start: 83561
+line_end: 83584
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

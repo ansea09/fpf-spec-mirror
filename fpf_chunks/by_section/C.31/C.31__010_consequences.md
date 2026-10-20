@@ -6,12 +6,12 @@ section_id: "C.31:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__010_consequences.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:9 — Consequences"
-line_start: 75325
-line_end: 75339
+line_start: 75449
+line_end: 75463
 dependencies:
   - "A.10"
   - "A.17"

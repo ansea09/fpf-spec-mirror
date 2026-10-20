@@ -6,12 +6,12 @@ section_id: "A.15.8:10"
 section_title: "SoTA-echoing source effects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__011_sota-echoing-source-effects.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:10 — SoTA-echoing source effects"
-line_start: 31904
-line_end: 31918
+line_start: 32025
+line_end: 32039
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.3.1:6"
 section_title: "Continuity Decision"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__008_continuity-decision.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:6 — Continuity Decision"
-line_start: 55049
-line_end: 55066
+line_start: 55170
+line_end: 55187
 dependencies:
   - "A.1"
   - "A.11"

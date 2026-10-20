@@ -6,12 +6,12 @@ section_id: "A.6.6:End"
 section_title: "A.6.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__014_a-6-6-end.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:End — A.6.6:End"
-line_start: 24126
-line_end: 24127
+line_start: 24245
+line_end: 24246
 dependencies:
   - "A.10"
   - "A.14"

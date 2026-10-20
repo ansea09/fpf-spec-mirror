@@ -6,12 +6,12 @@ section_id: "C.32:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__005_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:4 — Solution"
-line_start: 76245
-line_end: 76336
+line_start: 76371
+line_end: 76462
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,6 +43,7 @@ dependencies:
   - "C.32.CONWAY"
   - "C.32.FAIL"
   - "C.32.HCS"
+  - "C.32.LCA"
   - "C.32.MLAO"
   - "C.32.MWA"
   - "C.32.P2S"
@@ -117,7 +118,7 @@ ArchitectureCharacteristicImprovementLoop@Project:
 | Functional demand | `FunctionalStructure` | A.6.F-recovered functional demands, dependencies, constraints, and candidate bearer pressure. | `C.30.ASV`, `A.6.F`, `C.30.TFS-REL` when flow relation is current. |
 | Constructive bearer | `ModuleInterfaceStructure`, material, manufacturing, or component relation. | Candidate modules, interface grammar, substitutability, variation slots, and fabrication burden. | `A.6.M`, `C.31`, `C.30.ASV`. |
 | Placement and locality | `PlacementDeploymentStructure` or `MaterialSpatialStructure`. | Location, latency, access, environment, maintenance, and source-return burden. | `C.30.ASV`, domain pattern when current. |
-| Control and flow | `ControlStructure` and `TransformationFlowStructure`. | Feedback, supervisor relation, rate, flow relation, crossing, and transformation relation. | `C.30.LCA`, `E.18`, `C.30.TFS-REL`, `C.27` when timing is current. |
+| Control and flow | `ControlStructure` and `TransformationFlowStructure`. | Feedback, supervisor relation, rate, flow relation, crossing, and transformation relation. | `C.32.LCA` for constructing and comparing control arrangements; `C.30.LCA` for control-description or view adequacy; `E.18`, `C.30.TFS-REL`, `C.27` when timing is current. |
 | Method, Work, local-kind or assignment, information, and evidence | Method and Work structures; relations among local system-role kinds, classifications, or assignment structures; direct allocation or responsibility relations; information and evidence structures. | Prospective enactment burden, independently established responsibility, data custody, evidence reuse, assurance pressure, and source return. | `E.10.ROLE` for unresolved wording; A.2 and A.2.1 for recovered kind, classification, or assignment; A.15 for actual Work, with F.6 only when precise assignment-bound attribution is expressly consumed; the admitted direct domain predicate or exact missing governor for responsibility; `A.10`, `B.3`, `C.25`, and `C.31` when those claims are current. |
 
 Candidate architecture changes are local C.32 entries for candidate configurations. They are not FPF work occurrences, method steps, or receiving-pattern claims. A change is admissible only when the selected structure being changed is named.

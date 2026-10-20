@@ -6,12 +6,12 @@ section_id: "E.24.UK:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__008_bias-annotation.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:6 — Bias-Annotation"
-line_start: 115606
-line_end: 115609
+line_start: 116217
+line_end: 116220
 dependencies:
   - "A.1.1"
   - "A.11"

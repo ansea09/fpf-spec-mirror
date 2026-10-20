@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__014_relations.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:12 — Relations"
-line_start: 43456
-line_end: 43463
+line_start: 43577
+line_end: 43584
 dependencies:
   - "A.3.1"
   - "B.1.5"

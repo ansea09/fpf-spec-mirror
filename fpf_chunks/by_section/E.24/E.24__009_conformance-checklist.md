@@ -6,12 +6,12 @@ section_id: "E.24:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__009_conformance-checklist.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:6 — Conformance Checklist"
-line_start: 114526
-line_end: 114558
+line_start: 115137
+line_end: 115169
 dependencies:
   - "A.19.ECS"
   - "A.6.0"

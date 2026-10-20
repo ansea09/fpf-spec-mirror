@@ -6,12 +6,12 @@ section_id: "G.0:11"
 section_title: "SoTA‑Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__012_sota-echoing.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:11 — SoTA‑Echoing"
-line_start: 125152
-line_end: 125161
+line_start: 125763
+line_end: 125772
 dependencies:
   - "A.10"
   - "A.17"

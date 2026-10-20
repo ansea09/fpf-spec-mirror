@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.7.CP.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
-line_start: 26327
-line_end: 26521
+line_start: 26446
+line_end: 26640
 dependencies:
   - "A.7"
   - "A.7.1"

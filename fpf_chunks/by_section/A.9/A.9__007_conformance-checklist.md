@@ -6,12 +6,12 @@ section_id: "A.9:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__007_conformance-checklist.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:6 — Conformance Checklist"
-line_start: 26733
-line_end: 26743
+line_start: 26852
+line_end: 26862
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"

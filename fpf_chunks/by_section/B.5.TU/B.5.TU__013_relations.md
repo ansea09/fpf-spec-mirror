@@ -6,12 +6,12 @@ section_id: "B.5.TU:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__013_relations.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
   - "B.5.TU:12 — Relations"
-line_start: 49107
-line_end: 49116
+line_start: 49228
+line_end: 49237
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"

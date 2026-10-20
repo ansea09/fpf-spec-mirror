@@ -6,12 +6,12 @@ section_id: "A.19:0"
 section_title: "First use: declare a space and one predicate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__002_first-use-declare-a-space-and-one-predicate.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:0 — First use: declare a space and one predicate"
-line_start: 34747
-line_end: 34777
+line_start: 34868
+line_end: 34898
 dependencies:
   - "A.10"
   - "A.15"

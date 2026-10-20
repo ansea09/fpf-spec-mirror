@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__002_problem-frame.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:1 — Problem frame"
-line_start: 17805
-line_end: 17840
+line_start: 17924
+line_end: 17959
 dependencies:
   - "A.15"
   - "A.20"

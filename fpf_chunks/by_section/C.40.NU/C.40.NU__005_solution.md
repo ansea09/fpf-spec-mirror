@@ -6,12 +6,12 @@ section_id: "C.40.NU:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__005_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:4 — Solution"
-line_start: 85843
-line_end: 85907
+line_start: 86366
+line_end: 86430
 dependencies:
   - "C.17"
   - "C.18"

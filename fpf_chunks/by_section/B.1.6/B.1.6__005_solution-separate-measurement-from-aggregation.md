@@ -6,12 +6,12 @@ section_id: "B.1.6:2"
 section_title: "Solution — separate measurement from aggregation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__005_solution-separate-measurement-from-aggregation.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:2 — Solution — separate measurement from aggregation"
-line_start: 43500
-line_end: 43565
+line_start: 43621
+line_end: 43686
 dependencies:
   - "A.1"
   - "A.10"

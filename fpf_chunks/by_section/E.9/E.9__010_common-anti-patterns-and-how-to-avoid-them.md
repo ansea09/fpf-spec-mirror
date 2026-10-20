@@ -6,12 +6,12 @@ section_id: "E.9:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 96531
-line_end: 96545
+line_start: 97124
+line_end: 97138
 dependencies:
   - "A.10"
   - "A.15.1"

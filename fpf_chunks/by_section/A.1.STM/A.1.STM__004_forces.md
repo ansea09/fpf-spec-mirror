@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.STM"
-pattern_title: "Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+pattern_title: "Connect Project Reasoning (System-Thinking Long Mantra)"
 section_id: "A.1.STM:2"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__004_forces.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
-  - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+  - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:2 — Forces"
-line_start: 4043
-line_end: 4054
+line_start: 4050
+line_end: 4061
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -42,7 +42,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Whole-project coherence | A distant use must stay visible without making one pattern id or ClaimGraph stand for all intermediate subject assertions. |
+| Whole-project coherence | Participants need a common target and use hypothesis while their interests, local subjects and results differ. |
 | Outside before inside | Architecture is justified by a revisable external-use hypothesis, yet discovery and feedback may reopen that hypothesis. |
 | Backward justification | Reading from value toward missing support is useful, but it is not temporal order or transformation direction. |
 | Forward actuality | Work and changes must be traced through facts that obtain, not through planned arrows or shared names. |

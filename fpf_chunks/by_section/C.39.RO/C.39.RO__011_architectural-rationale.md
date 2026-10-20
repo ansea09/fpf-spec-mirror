@@ -6,12 +6,12 @@ section_id: "C.39.RO:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__011_architectural-rationale.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:10 — Architectural Rationale"
-line_start: 82744
-line_end: 82753
+line_start: 83267
+line_end: 83276
 dependencies:
   - "A.3.1"
   - "A.3.2"

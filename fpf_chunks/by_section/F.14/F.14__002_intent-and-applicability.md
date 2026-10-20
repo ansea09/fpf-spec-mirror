@@ -6,12 +6,12 @@ section_id: "F.14:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__002_intent-and-applicability.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:1 — Intent and applicability"
-line_start: 121041
-line_end: 121060
+line_start: 121652
+line_end: 121671
 dependencies:
   - "A.10"
   - "A.15.1"

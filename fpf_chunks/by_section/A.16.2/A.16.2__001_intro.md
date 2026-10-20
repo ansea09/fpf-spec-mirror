@@ -6,12 +6,12 @@ section_id: "A.16.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:intro — Intro"
-line_start: 34209
-line_end: 34216
+line_start: 34330
+line_end: 34337
 dependencies:
   - "A.16"
   - "A.16.0"

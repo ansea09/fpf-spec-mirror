@@ -6,12 +6,12 @@ section_id: "A.6.S:4"
 section_title: "Solution - start with the direct move; add a ConstructorSignature for named reuse"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__006_solution-start-with-the-direct-move-add-a-constructorsignature-for-named-reuse.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:4 — Solution - start with the direct move; add a ConstructorSignature for named reuse"
-line_start: 25031
-line_end: 25128
+line_start: 25150
+line_end: 25247
 dependencies:
   - "A.15"
   - "A.15.1"

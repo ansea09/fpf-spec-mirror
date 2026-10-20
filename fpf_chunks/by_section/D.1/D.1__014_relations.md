@@ -6,18 +6,20 @@ section_id: "D.1:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__014_relations.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:10 — Relations"
-line_start: 89645
-line_end: 89655
+line_start: 90237
+line_end: 90248
 dependencies:
   - "A.1"
   - "A.1.CSD"
   - "A.10"
   - "A.7"
   - "B.3"
+  - "B.5.RA"
+  - "B.5.RR"
   - "C.11"
   - "C.11.DUA"
   - "C.28"
@@ -36,6 +38,7 @@ keywords:
 - Builds on `A.1` and `A.7` for EntityOfConcern and description distinction.
 - Coordinates with `A.1.CSD` when a current ethical claim still lacks an adequate set of Systems that may bear consequences; D.1 consumes the returned account and does not add value fields to its neutral core.
 
+- Coordinates with `B.5.RA` when the ethical argument must be recovered from a source and with `B.5.RR` when a changed premise requires revising its conclusions.
 - Coordinates with `A.10` for descriptive provenance and bounded reliance on the source or evidence used.
 - Coordinates with `C.11.DUA` when a proposed ethical record or evidence demand needs appraisal of its contribution, feasibility, burden, or requirement merits.
 - Coordinates with `B.3` when an assurance claim is current.

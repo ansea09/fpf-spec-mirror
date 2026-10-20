@@ -6,12 +6,12 @@ section_id: "E.14:6"
 section_title: "Archetypal Grounding (System and Episteme cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__009_archetypal-grounding-system-and-episteme-cases.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:6 — Archetypal Grounding (System and Episteme cases)"
-line_start: 103533
-line_end: 103564
+line_start: 104144
+line_end: 104175
 dependencies:
   - "B.3.5"
   - "C.13"

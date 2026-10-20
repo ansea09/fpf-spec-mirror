@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__004_problem.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:2 — Problem"
-line_start: 10828
-line_end: 10833
+line_start: 10947
+line_end: 10952
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"

@@ -6,12 +6,12 @@ section_id: "C.18:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__001_intro.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:intro — Intro"
-line_start: 60863
-line_end: 60874
+line_start: 60984
+line_end: 60995
 dependencies:
   - "A.15"
   - "A.19"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.1.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
-line_start: 54976
-line_end: 55135
+line_start: 55097
+line_end: 55256
 dependencies:
   - "A.1"
   - "A.11"

@@ -6,12 +6,12 @@ section_id: "A.12:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__007_archetypal-grounding-worked-cases.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:5 — Archetypal Grounding (Worked Cases)"
-line_start: 28092
-line_end: 28168
+line_start: 28211
+line_end: 28287
 dependencies:
   - "A.1"
   - "A.1.1"

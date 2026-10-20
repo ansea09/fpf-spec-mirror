@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.FM.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
-line_start: 48673
-line_end: 48922
+line_start: 48794
+line_end: 49043
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

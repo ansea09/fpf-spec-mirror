@@ -6,12 +6,12 @@ section_id: "A.2.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__004_problem-frame.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:1 — Problem frame"
-line_start: 8570
-line_end: 8588
+line_start: 8689
+line_end: 8707
 dependencies:
   - "A.10"
   - "A.13"

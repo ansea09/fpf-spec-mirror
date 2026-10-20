@@ -6,12 +6,12 @@ section_id: "A.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__002_problem-frame.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:1 — Problem frame"
-line_start: 13442
-line_end: 13449
+line_start: 13561
+line_end: 13568
 dependencies:
   - "A.1"
   - "A.1.1"

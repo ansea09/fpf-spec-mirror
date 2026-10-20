@@ -6,12 +6,12 @@ section_id: "E.18:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__002_intent.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:1 — Intent"
-line_start: 108404
-line_end: 108458
+line_start: 109015
+line_end: 109069
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

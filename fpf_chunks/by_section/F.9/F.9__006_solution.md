@@ -6,12 +6,12 @@ section_id: "F.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__006_solution.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:4 — Solution"
-line_start: 119203
-line_end: 119274
+line_start: 119814
+line_end: 119885
 dependencies:
   - "A.10"
   - "A.13"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.STM"
-pattern_title: "Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+pattern_title: "Connect Project Reasoning (System-Thinking Long Mantra)"
 section_id: "A.1.STM:1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__003_problem.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
-  - "A.1.STM — Find the First Unsupported Project Dependency (System-Thinking Long Mantra)"
+  - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:1 — Problem"
-line_start: 4037
-line_end: 4042
+line_start: 4040
+line_end: 4049
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -40,7 +40,11 @@ keywords:
 
 ### A.1.STM:1 - Problem
 
-A project can get every nearby statement locally right and still lose the long dependency. One team improves a component, another produces a builder, and another measures operation, yet nobody can show which supported relation carries those results toward use of the project system-of-interest. The gap is often hidden by a diagram arrow, the word *creates*, or a calendar sequence.
+Division of labour lets different participants work on components, methods, descriptions, tools and provider organizations. Their local choices become coherent only if they can explain what common outcome those choices are intended to obtain. A component may meet its specification while the whole remains unusable; a provider may become efficient at producing something its intended users do not need. Local completion alone cannot settle the shared project purpose.
 
-The opposite failure is to turn the reminder into a universal route. Then project Work becomes a network, a case becomes a slice type, a planned system is treated as already existing, and every arrow appears to be the same relation. A.1.STM keeps the long question visible while every local truth stays with its subject pattern.
+Systemic project reasoning therefore needs a common **project target system**: the system whose intended functioning, change or cessation in its environment organizes the participants' joint undertaking. This is a role of a system in that undertaking, not an intrinsic system type or a new U-kind. Its role must be identified even while its future holder is only described. "Which system interests me in this investigation?" is a broader question: the answer may be a test rig or builder whose improvement is only a contribution to the common target.
+
+A project can also get every nearby statement locally right and lose the long dependency. A functioning argument can assume one construction while the creation plan can supply only another; capable contributors can require incompatible shared resources. Agreement on the target does not by itself make these answers jointly usable. One team improves a component, another produces a builder, and another measures operation, yet nobody can show how those results are expected to reach the target's use or which actual relations now connect them. A diagram arrow, the word *creates*, or a calendar sequence can hide that gap.
+
+The opposite failure is to turn the reminder into a universal route. Then every result becomes a System, a plan becomes an existing holder, project Work becomes a network, and every arrow appears to be the same relation. A.1.STM develops the shared systemic reasoning while leaving each local truth with its subject pattern.
 

@@ -6,12 +6,12 @@ section_id: "A.2.5:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__011_conformance-checklist.md"
-commit_sha: "9a8471b145233a83524724caa5d7eb50ee151185"
+commit_sha: "73e53b7b1a40aae81d6871f327e5bf7b1c495e23"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:8 — Conformance Checklist"
-line_start: 6341
-line_end: 6357
+line_start: 6460
+line_end: 6476
 dependencies:
   - "A.15"
   - "A.15.1"
