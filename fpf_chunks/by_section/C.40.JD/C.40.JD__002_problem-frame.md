@@ -6,7 +6,7 @@ section_id: "C.40.JD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__002_problem-frame.md"
-commit_sha: "1868c30c5d056ce8bafddb819b6ca0b7c24a7c94"
+commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:1 — Problem frame"

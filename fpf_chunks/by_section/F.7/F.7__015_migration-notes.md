@@ -6,7 +6,7 @@ section_id: "F.7:14"
 section_title: "Migration notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__015_migration-notes.md"
-commit_sha: "1868c30c5d056ce8bafddb819b6ca0b7c24a7c94"
+commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:14 — Migration notes"

@@ -6,7 +6,7 @@ section_id: "B.1.5.CM:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__003_problem-frame.md"
-commit_sha: "1868c30c5d056ce8bafddb819b6ca0b7c24a7c94"
+commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:1 — Problem Frame"

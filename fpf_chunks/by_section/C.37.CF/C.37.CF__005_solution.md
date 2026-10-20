@@ -6,7 +6,7 @@ section_id: "C.37.CF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__005_solution.md"
-commit_sha: "1868c30c5d056ce8bafddb819b6ca0b7c24a7c94"
+commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:4 — Solution"
