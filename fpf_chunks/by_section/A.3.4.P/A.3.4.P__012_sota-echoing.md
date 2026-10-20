@@ -6,7 +6,7 @@ section_id: "A.3.4.P:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__012_sota-echoing.md"
-commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
+commit_sha: "1868c30c5d056ce8bafddb819b6ca0b7c24a7c94"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:11 — SoTA-Echoing"

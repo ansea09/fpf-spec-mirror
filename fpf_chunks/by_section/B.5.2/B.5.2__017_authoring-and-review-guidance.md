@@ -6,7 +6,7 @@ section_id: "B.5.2:16"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__017_authoring-and-review-guidance.md"
-commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
+commit_sha: "1868c30c5d056ce8bafddb819b6ca0b7c24a7c94"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:16 — Authoring and Review Guidance"

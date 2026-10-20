@@ -6,7 +6,7 @@ section_id: "C.40.NU:End"
 section_title: "C.40.NU:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__014_c-40-nu-end.md"
-commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
+commit_sha: "1868c30c5d056ce8bafddb819b6ca0b7c24a7c94"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:End — C.40.NU:End"

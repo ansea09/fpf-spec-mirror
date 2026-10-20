@@ -6,7 +6,7 @@ section_id: "A.19.CN:14"
 section_title: "SoTA-Echoing — enough basis to compare coordinate values"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__015_sota-echoing-enough-basis-to-compare-coordinate-values.md"
-commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
+commit_sha: "1868c30c5d056ce8bafddb819b6ca0b7c24a7c94"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:14 — SoTA-Echoing — enough basis to compare coordinate values"

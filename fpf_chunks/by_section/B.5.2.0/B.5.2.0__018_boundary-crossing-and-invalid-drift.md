@@ -6,7 +6,7 @@ section_id: "B.5.2.0:16"
 section_title: "Boundary crossing and invalid drift"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__018_boundary-crossing-and-invalid-drift.md"
-commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
+commit_sha: "1868c30c5d056ce8bafddb819b6ca0b7c24a7c94"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:16 — Boundary crossing and invalid drift"

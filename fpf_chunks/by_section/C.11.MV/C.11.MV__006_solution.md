@@ -6,7 +6,7 @@ section_id: "C.11.MV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__006_solution.md"
-commit_sha: "8f0cb6fdefc8b151c4425ea530f6e6fcf4266765"
+commit_sha: "1868c30c5d056ce8bafddb819b6ca0b7c24a7c94"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:4 — Solution"
