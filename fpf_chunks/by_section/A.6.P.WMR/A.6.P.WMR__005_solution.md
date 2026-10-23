@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__005_solution.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:4 — Solution"
-line_start: 20917
-line_end: 21132
+line_start: 20962
+line_end: 21187
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -42,7 +42,7 @@ The method handles one relation-bearing claim at a time. The trigger word stays 
 
 #### A.6.P.WMR:4.0 - Thin recovery core and conditional interfaces
 
-The stable ordinary core is one `A.6.P`-isolated relation-bearing claim, one exact thing, one exact related object, one direct verb or reason-specific stop, exactly one of four truthful exit families, and one readable sentence. The fourth family is an exact non-assertability result whose reason is independently `factually unsupported`, `missing-information`, or `missing-governor`; only `missing-governor` is an ontology blocker that names the affected use and absent definition, applicability, or occurrence rule. It names a future pattern or declaration need only when one is actually identifiable.
+The stable ordinary core is one `A.6.P`-isolated relation-bearing claim, one exact thing, one exact related object, one direct verb or reason-specific stop, exactly one of four truthful exit families, and one readable sentence. The fourth family explains why the attempted claim cannot be asserted: `factually unsupported`, `missing-information`, `missing-governor`, a governing rule's inapplicable result, or `missing-substrate`, as distinguished in section 4.3. `Missing-governor` names the affected use and absent definition, applicability, or occurrence rule; it names a future pattern or declaration need only when one is identifiable.
 
 Claim subject, modality and temporal extent, polarity, and recovery or support state remain four independent assurance controls. Their values must be recoverable whenever they can change the answer, but a practitioner does not have to recite the four labels when an ordinary sentence already makes the only material reading clear. WMR supplies this recovery and stop. It does not absorb the algorithms, checklists, or ontics of rules applied to a separate question.
 
@@ -78,7 +78,7 @@ The four dimensions remain independent. Make a dimension explicit when two plaus
 | Claim subject | One reusable declaration, particular intended relation, commitment relation, or particular subject relation. | Selecting the subject decides neither whether it obtains nor its polarity, time, or support. |
 | Modality and temporal extent | `generic`; `intended or planned`; `actually obtaining` at the current exact extent; or `historically obtained` at one exact past extent. State commitment fulfilment separately. | An obtaining commitment does not make the promised relation fulfilled; a past relation remains a historical claim at its governed extent. |
 | Polarity | Positive or negative under one exact predicate, condition, and governor. | A governed negative claim individuates no obtaining relation occurrence. Absent support or missing information does not establish negative polarity. |
-| Recovery or support state | `governed-and-assertable`, `factually unsupported`, `missing-information`, or `missing-governor`. | This state reports whether the selected claim can be asserted; it neither makes nor prevents the subject relation from obtaining. |
+| Recovery or support state | `governed-and-assertable`, `factually unsupported`, `missing-information`, `missing-governor`, a rule-qualified inapplicable result, or `missing-substrate`. | This state reports whether the selected claim can be asserted; it neither makes nor prevents the subject relation from obtaining. |
 
 **Well-formedness constraint `WMR-WF1` — orthogonal claim dimensions.** Whenever one of the four dimensions can alter the result, its value must be separately recoverable from the sentence or its immediate governed basis. No dimension supplies another. Explicit axis vocabulary is required only for a material ambiguity, comparison, assurance replay, or reusable formalization; it is not a prerequisite for every simple direct sentence.
 
@@ -95,7 +95,7 @@ Choose by the kind of answer the receiving use needs:
 1. If one direct subject pattern or declaration defines the relation between the exact participants, use the direct relation exit.
 2. If the claim is only that one identified operation application used or returned one value, use the declaration-local `A.6.1` binding exit.
 3. If the question is production-work participation, entity inception, production completion, or another substrate-admitted local conjunction, use the local `A.15.PROD` or `A.6.RCD` claim exit.
-4. If none of those positive exits has its required basis, stop with the exact reason: failed fact, unavailable fact, or absent governor.
+4. If the attempted claim lacks the required basis, stop with the reason distinguished below. A known inapplicability result and missing constructor semantics also use this exit; neither is forced into a failed-fact result.
 
 The exit determines the next action; it is not a fifth claim classification.
 
@@ -104,9 +104,19 @@ The exit determines the next action; it is not a fifth claim classification.
 | Exact direct subject relation claim | The direct governor supplies the `RelationKind`, participant meanings, predicate, applicability, and defining source. A positive claim has separate case facts satisfying the predicate. A negative claim additionally has an explicit applicable non-obtaining criterion and separate facts satisfying it. | The shortest positive or negative direct sentence. A positive occurrence, assertion episteme, local id, and evidence remain distinct; a governed negative claim individuates no occurrence. |
 | Exact `A.6.1` operation-application binding | One identified application and exact bound value satisfy the declaration-local argument or result predicate, extent, kind, cardinality, and identity rule. | A sentence stating only the binding. It says neither that dated work occurred nor that work produced, constituted, delivered, or accepted the bound entity. |
 | Local `A.15.PROD` or `A.6.RCD` claim | One local production question or another local compound question admitted by the selected substrate is current, and no new occurrence kind is needed. | The readable local claim under its exact base governors and the lightest sufficient disposition. |
-| Exact non-assertability result | The governor is known but the required fact fails (`factually unsupported`) or is unavailable (`missing-information`), or no current direct relation, truthful binding, or admitted local claim closes the exact participants and use (`missing-governor`). | A sentence naming the proposed polarity and extent, then the known governor and failed fact, the known governor and unavailable fact, or the exact absent definition. Only `missing-governor` names the affected use; it names a future pattern or declaration need only when one is identifiable. No fallback relation or opposite polarity follows. |
+| Exact non-assertability result | The attempted claim is factually unsupported, lacks deciding information or a governor, is outside a known applicability rule, or lacks the constructor semantics needed to derive it. | A sentence naming the attempted claim and the corresponding reason below. Preserve the governing rule and known facts; infer no opposite polarity or fallback relation. |
 
-A case-local positive direct relation needs two independent premises. An already published project relation-declaration episteme names the exact `RelationKind`, participant meanings, predicate, applicability, and defining source. A separate didactic world-side fact says that the exact participants at the exact extent satisfy that predicate. A positive sentence needs both. If the governor exists and the fact fails or is unavailable, return `factually unsupported` or `missing-information`; reserve `missing-governor` for absence of the governor. WMR neither publishes the token nor copies its declaration.
+For the fourth exit, retain the distinction that determines the next move:
+
+- `Factually unsupported`: an applicable governor and sufficient case facts are available, but the test for the attempted polarity fails. An affirmative claim uses its positive test; a negative claim uses its negative or non-obtaining criterion or closure basis. Failure of one does not establish the other.
+- `Missing-information`: a fact needed to decide the applicable test or its applicability is unavailable.
+- `Missing-governor`: the required predicate, applicability condition, or occurrence rule is absent. Name the participants, affected use and missing rule; identify a future definition need only when one is identifiable.
+- **Inapplicable under the named rule**: available facts establish that the case is outside that rule's applicability. Return its inapplicable result, not a negative relation claim. Select another rule only when it governs the receiving question.
+- `Missing-substrate`: the proposed derivation needs constructor semantics that no current substrate supplies. Name that missing constructor basis under A.6.RCD:4.2; keep independently established base claims. This does not by itself justify a new relation kind.
+
+These are reasons for withholding the attempted claim, not five truth values or new result kinds.
+
+A case-local positive direct relation needs two independent premises. An already published project relation-declaration episteme names the exact `RelationKind`, participant meanings, predicate, applicability, and defining source. A separate didactic world-side fact says that the exact participants at the exact extent satisfy that predicate. A positive sentence needs both. Within the governor's applicability, a failed positive test returns `factually unsupported`; an unavailable deciding fact returns `missing-information`. A known case outside applicability retains the rule's inapplicable result. Reserve `missing-governor` for absence of the governor. WMR neither publishes the token nor copies its declaration.
 
 A governed negative sentence needs the analogous negative or non-obtaining criterion and separate facts satisfying it. Failure to support a positive claim, an absent record, or an unobserved event is not a negative premise.
 
@@ -175,7 +185,7 @@ The blocker reaches only the composition-dependent claim; independent work, chan
 
 For ordinary recognition, the first three questions and one of four truthful exits are enough. Use the two assurance questions and explicit claim-dimension vocabulary only when they can change the answer or a named later use needs to inspect it.
 
-A practitioner **MAY** open a separate assurance branch when the receiving use additionally needs evidence, warrant, assurance, gate, currentness, publication, or reliance. Apply the relevant evidence, assurance, gate, currentness, publication, or reliance check to the exact direct subject claim, `A.6.1` application binding, local `A.15.PROD` or `A.6.RCD` claim, or non-assertability result together with its governor. Preserve `factually unsupported`, `missing-information`, and `missing-governor` as different reasons; only the last can name a future pattern or declaration need, and only when that need is identifiable. Support or assurance changes neither polarity nor whether the subject relation obtains.
+A practitioner **MAY** open a separate assurance branch when the receiving use additionally needs evidence, warrant, assurance, gate, currentness, publication, or reliance. Apply the relevant evidence, assurance, gate, currentness, publication, or reliance check to the exact direct subject claim, `A.6.1` application binding, local `A.15.PROD` or `A.6.RCD` claim, or non-assertability result together with its governor. Preserve the section 4.3 reasons and their different continuations. A missing subject rule may identify a future pattern or declaration need; unavailable constructor semantics retain their separate derivation question. Support or assurance changes neither polarity nor whether the subject relation obtains.
 
 DPF or FPF authoring may trigger the applicable E.19, A.10, B.3, or other assurance checks. Those checks remain with their subject patterns rather than becoming a second WMR checklist.
 

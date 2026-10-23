@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:0"
 section_title: "At a glance — didactic, informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__002_at-a-glance-didactic-informative.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:0 — At a glance — didactic, informative"
-line_start: 39612
-line_end: 39631
+line_start: 39669
+line_end: 39688
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"

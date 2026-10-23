@@ -6,12 +6,12 @@ section_id: "B.5.RA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__012_sota-echoing.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:11 — SoTA-Echoing"
-line_start: 48578
-line_end: 48598
+line_start: 48635
+line_end: 48655
 dependencies:
   - "B.5"
   - "B.5.MPC"

@@ -6,12 +6,12 @@ section_id: "E.10:9"
 section_title: "Ontology recovery rows for overloaded words (LEX L-rules; normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_ontology-recovery-rows-for-overloaded-words-lex-l-rules-normative.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:9 — Ontology recovery rows for overloaded words (LEX L-rules; normative)"
-line_start: 99239
-line_end: 99361
+line_start: 99705
+line_end: 99837
 dependencies:
   - "A.10"
   - "A.15"
@@ -180,4 +180,14 @@ This cross-reference is lexical only. It does **not** create a new repair-side d
 `projection` is the main current example: `A.16` keeps it as a move name for route-bounded partialization, while `F.9.1` keeps it as a bridge stance label. E.10 therefore uses deconfliction notes and explicit naming of the cited text that governs each local interpretation, not one umbrella rewrite that erases the distinction.
 
 Bare claim-bearing *role* is another guarded head and has no default Tech reading. Use `E.10.ROLE` to recover the current object or relation; use `SystemRole` only inside a concrete local system-role-kind designation after that kind is independently admitted.
+
+#### E.10:9.8 - `control`, `management`, `regulation`, `governance`, `steering`
+
+These words locate a possible ambiguity; they are not prohibited words or interchangeable names. Read the complete claim and recover its subject and use. A field name, a group of people, a governing act, an observation and an arrangement that influences what happens can require different explanations despite sharing the same word.
+
+Apply C.43:4.1.4 when the control meaning remains unresolved. It recovers what is influenced, the maintained condition or intended change, the information and means, and the connection to actual action. Operations management can realize this control construction without changing its disciplinary name. Retain its organizational conditions; do not infer a machine-like actuator, an automatic feedback loop or a fixed cadence from the word *control*.
+
+Use the recovered subject directly: C.30.LCA for a control-structure claim, C.32.LCA for constructing its architecture, C.11 for the needed local choice, and the applicable authority, commitment, measurement or evidence rule for those particular relations. A.6.P helps when a direct relation still cannot be stated. Use F.18 only when a reusable name must be settled after its meaning is known. A translation retains the source meaning, including the difference between checking and influencing; a lexical match alone establishes no equivalence.
+
+Do not force a control interpretation onto a field title or an already clear sentence. Repair only the ambiguity that changes understanding or use, then return to the work.
 

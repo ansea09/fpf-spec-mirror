@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__003_problem-frame.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:1 — Problem Frame"
-line_start: 11146
-line_end: 11151
+line_start: 11193
+line_end: 11198
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"

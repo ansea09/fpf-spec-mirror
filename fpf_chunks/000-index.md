@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `22984da9ba607842cd2bb4ec8e5201d4f225b69f`
+Commit SHA: `a5ac87ac15e78517d12bc66155b9da3ca254b643`
 
 Chunking method: `pattern-aware`
 
-Patterns: `399`
+Patterns: `400`
 
 ## Patterns
 
@@ -293,6 +293,7 @@ Patterns: `399`
 - [C.41.SR — Reconcile Checklist Results Across Shared Work](by_pattern/C.41.SR.md)
 - [C.41.QC — Qualify Checklist Criteria and Checking Means](by_pattern/C.41.QC.md)
 - [C.42 — Reduce Avoidable Work While Preserving the Needed Result](by_pattern/C.42.md)
+- [C.43 — Connect Observation, Choice and Action in Control](by_pattern/C.43.md)
 - [C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action](by_pattern/C.36.P.md)
 - [C.36.RP — Sustain and Renew Shared Ways of Working](by_pattern/C.36.RP.md)
 - [C.36.MC — Qualify and Develop a Method Culture](by_pattern/C.36.MC.md)

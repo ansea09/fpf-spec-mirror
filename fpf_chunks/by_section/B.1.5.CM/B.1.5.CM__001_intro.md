@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__001_intro.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:intro — Intro"
-line_start: 43395
-line_end: 43401
+line_start: 43452
+line_end: 43458
 dependencies:
   - "A.3.1"
   - "B.1.5"

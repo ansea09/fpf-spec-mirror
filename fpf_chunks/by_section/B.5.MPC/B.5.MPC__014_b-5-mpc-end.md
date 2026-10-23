@@ -6,12 +6,12 @@ section_id: "B.5.MPC:End"
 section_title: "B.5.MPC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC/B.5.MPC__014_b-5-mpc-end.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
   - "B.5.MPC:End — B.5.MPC:End"
-line_start: 47800
-line_end: 47801
+line_start: 47857
+line_end: 47858
 dependencies:
   - "A.15.9"
   - "A.3.3"

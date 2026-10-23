@@ -6,12 +6,12 @@ section_id: "C.11.CRC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__009_conformance-checklist.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:7 — Conformance Checklist"
-line_start: 57470
-line_end: 57483
+line_start: 57531
+line_end: 57544
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "C.27"
   - "C.28"
   - "C.29"
+  - "C.43"
 keywords:
   - "candidate configuration S1"
   - "constraints"
@@ -43,7 +44,7 @@ keywords:
 
 ### C.11.CRC:7 - Conformance Checklist
 
-1. Is one receiving decision named?
+1. Is the receiving choice or construction question named, including who needs the comparison and what it can change?
 2. Are `S0`, finite `Δ`, and realizable `S1` explicit?
 3. Are system boundary, affected Systems, horizon, scenarios, and evidence window compatible—and, when a missing bearer could change the comparison, was `A.1.CSD` used before freezing this coordinate?
 4. Are result and resource coordinates explicit, with protected coordinates not silently scalarized?
@@ -52,6 +53,6 @@ keywords:
 7. Are future option effects distinguished from realized results?
 8. Are evidence, uncertainty, sensitivity/robustness, transfer limits, and unsupported overreads visible?
 9. Is each derivative, sensitivity, shadow-price, functional-variation, variational-inference, or evolutionary-variation result used only for its exact question?
-10. Does the output remain a comparison claim, with `C.11` retaining the `ChoiceResult`?
+10. Does the output remain a comparison claim returned to its named use, with `C.11` retaining any `ChoiceResult` sought under that calculus?
 11. Is the smallest reopen condition stated?
 

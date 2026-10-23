@@ -6,12 +6,12 @@ section_id: "C.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__005_solution.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:4 — Solution"
-line_start: 56664
-line_end: 57125
+line_start: 56723
+line_end: 57186
 dependencies:
   - "A.10"
   - "A.13"
@@ -390,6 +390,8 @@ The family map is therefore one disciplined set of refinements over the same cho
 #### C.11:4.4 - Reroute as soon as the question stops being local choice
 
 Use `C.11` while the question remains: from this current `OptionSet`, what should the `DecisionSubject` choose, and is another probe worth its cost before commitment?
+
+A completed `ChoiceResult` answers the local comparison. Return it to the continuation that needs it, preserving the evidence, information and action conditions used in the choice. Under **C.43**, a changed goal, available means or later observation can reopen the appropriate contribution without requiring the whole control task to become one fixed option set. The local next-probe rule below is not a general solution for all sequential information acquisition.
 
 Reroute immediately when the question changes:
 

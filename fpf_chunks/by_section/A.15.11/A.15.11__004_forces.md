@@ -6,12 +6,12 @@ section_id: "A.15.11:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__004_forces.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "A.15.11 — Make Applicable Methods Noticeable in Work"
   - "A.15.11:3 — Forces"
-line_start: 32784
-line_end: 32794
+line_start: 32841
+line_end: 32851
 dependencies:
   - "A.15"
   - "A.15.7"

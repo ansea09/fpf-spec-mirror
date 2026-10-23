@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.LCA.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
-line_start: 74140
-line_end: 74454
+line_start: 74203
+line_end: 74519
 dependencies:
   - "A.10"
   - "A.20"
@@ -87,6 +87,8 @@ Add a described holon, an architecture-relation occurrence or claim, rate bands,
 When either form includes actual control Work, each Work ref names an occurrence independently admitted under A.15.1 after every exact actual performer is recovered through A.13. `assignmentRows` and `actualControlWorkAttributionRefs` remain optional: include them only when the note, view, or receiving use expressly represents precise assignment-bound attribution. Any present attribution ref resolves through F.6 to the same obtaining A.13 assignment; absence or failure of that relation leaves the Work ref intact. The note or view creates none of these facts.
 
 Use full `ControlStructureView` only when an independently identified architecture-description episteme about the selected control structure satisfies the fixed E.17.0 predicate for one viewpoint. Full use is justified when control-participant meanings, direct relations, rates, recovered control-layer labels, boundary refs, source return, representation or publication, or the patterns used for particular claims matter beyond the note.
+
+An obtaining relation can be ineffective or harmful. Describe the actual command, observation and response, including their delay, rather than supplying missing ideal connections. Distinguish an established absence from a relation not yet known: `oneWay` and `unclear` support different next inquiries. A controller whose feedback amplifies a deviation still has describable feedback; adequacy is a judgement on its behavior for the receiving use. **C.43:4.1.1–4.1.3** connects that description to explanation and a possible change. **C.32.LCA** develops the new arrangement when that is required.
 
 ### C.30.LCA:2 - Problem
 

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:3"
 section_title: "Shared recovery algorithm"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__009_shared-recovery-algorithm.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:3 — Shared recovery algorithm"
-line_start: 100680
-line_end: 100711
+line_start: 101156
+line_end: 101187
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -92,7 +92,7 @@ The authoring note may record the affected entity; the exact source or practice 
 
 Treat `input`, `raw material`, epistemic `source data` or `source material`, `output`, `result`, `outcome`, `deliverable`, `handoff`, and work-name wording as triggers only while their exact relation is hidden. Once clear, bypass E.10.ARCH: use `A.3.2` only for a description episteme about one exact method; `A.15.2` for an intended participant or use in planned work; `A.15.1` and the exact resource or participation pattern for a dated Work occurrence; `A.3.4.P` and the direct transformation pattern for an actual transformation participant; `A.15.PROD`, the measurement or evaluation pattern, or the delivery or acceptance pattern for the exact result claim; and `C.29` when the word names only an argument, tuple component, graph element, or other representation place. Use `C.2.P` first for an epistemic source expression and source-to-use relation. Keep physical material under its direct physical governor.
 
-If the exact method/work-boundary relation is still hidden after generic relation recovery, apply `A.6.P.WMR`. Its result remains exactly one family: a positive or governed-negative direct subject-relation claim; an exact `A.6.1` operation-application binding; an exact local `A.15.PROD` or `A.6.RCD` claim; or reason-specific non-assertability as `factually unsupported`, `missing-information`, or `missing-governor`. A failed known predicate such as `EpistemeUsedByReviewWorkAsReference` is `factually unsupported`; an unavailable ETL receiving-use fact under a known rule is `missing-information`; an absent relation kind and defining ClaimGraph or declaration for the health-effect claim between `Patient_8472` and `HE-8472` is `missing-governor`. Only the last names an affected receiving use and a needed future relation rule or declaration. Classification, a generic result label, a type-correct designation, planned use, or inferred opposite polarity does not close the branch.
+If the exact method/work-boundary relation is still hidden after generic relation recovery, apply `A.6.P.WMR`. Its result remains exactly one family: a positive or governed-negative direct subject-relation claim; an exact `A.6.1` operation-application binding; an exact local `A.15.PROD` or `A.6.RCD` claim; or reason-specific non-assertability under `A.6.P.WMR:4.3`. A failed known predicate such as `EpistemeUsedByReviewWorkAsReference` is `factually unsupported`; an unavailable ETL receiving-use fact under a known rule is `missing-information`; an absent relation kind and defining ClaimGraph or declaration for the health-effect claim between `Patient_8472` and `HE-8472` is `missing-governor`. In these three examples, only the missing subject rule identifies a future relation rule or declaration need. Known inapplicability and missing constructor semantics retain the other continuations defined in A.6.P.WMR:4.3. Classification, a generic result label, a type-correct designation, planned use, or inferred opposite polarity does not close the branch.
 
 Durable naming follows the governed value. `F.18` may name a performed Work occurrence only after its A.15.1 occurrence basis is established, and it names neighboring production, measurement, evaluation, delivery, and acceptance results separately. If a proposed `U.*` name merely repeats a declaration-local `SlotSpec` label or a participant meaning stated in a direct-relation rule, keep it local unless E.24 supplies durable identity, action-facing gain, and the exact relation involved. If repeated Method, Work, or process material is proposed as durable ontology, its E.24 ontic decision and, for any public `U.*` kind, `E.24.UK` admission plus the pattern containing the kind's defining rule must precede current citation.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
-line_start: 56594
-line_end: 57328
+line_start: 56651
+line_end: 57389
 dependencies:
   - "A.10"
   - "A.13"
@@ -56,6 +56,8 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **At a glance.** `C.11` is the choice-calculus pattern for the moment when options already exist and the working question is which option to choose, including whether another probe is worth its cost before commitment.
+
+This is a bounded choice use of decision theory, not a claim that all decision problems have one level, a fixed purpose or discrete alternatives. **C.43** connects such a choice to construction of alternatives, conditional future responses, realization and revision in ongoing control. One option here may itself be a policy or trajectory whose construction and qualification belong to the relevant Method.
 
 ### C.11:1 - Problem frame
 
@@ -459,6 +461,8 @@ The family map is therefore one disciplined set of refinements over the same cho
 #### C.11:4.4 - Reroute as soon as the question stops being local choice
 
 Use `C.11` while the question remains: from this current `OptionSet`, what should the `DecisionSubject` choose, and is another probe worth its cost before commitment?
+
+A completed `ChoiceResult` answers the local comparison. Return it to the continuation that needs it, preserving the evidence, information and action conditions used in the choice. Under **C.43**, a changed goal, available means or later observation can reopen the appropriate contribution without requiring the whole control task to become one fixed option set. The local next-probe rule below is not a general solution for all sequential information acquisition.
 
 Reroute immediately when the question changes:
 

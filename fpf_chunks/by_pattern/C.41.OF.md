@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.OF.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
-line_start: 88713
-line_end: 88846
+line_start: 88782
+line_end: 88915
 dependencies:
   - "A.15.8"
   - "C.41"

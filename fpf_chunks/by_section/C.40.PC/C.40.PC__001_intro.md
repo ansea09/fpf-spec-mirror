@@ -6,12 +6,12 @@ section_id: "C.40.PC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__001_intro.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:intro — Intro"
-line_start: 86533
-line_end: 86540
+line_start: 86600
+line_end: 86607
 dependencies:
   - "A.15.9"
   - "A.2.3"

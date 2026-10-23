@@ -6,12 +6,12 @@ section_id: "C.11.CRC:8"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__010_common-anti-patterns-and-repairs.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:8 — Common Anti-Patterns and Repairs"
-line_start: 57484
-line_end: 57495
+line_start: 57545
+line_end: 57556
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "C.27"
   - "C.28"
   - "C.29"
+  - "C.43"
 keywords:
   - "candidate configuration S1"
   - "constraints"
@@ -46,7 +47,7 @@ keywords:
 | Anti-pattern | Repair |
 | --- | --- |
 | Candidate value is constant across configurations | Name `S0`, interactions, horizon, and affected Systems. |
-| Average benefit chooses the next element | Preserve result/resource vectors and return the comparison to `C.11`. |
+| Average benefit chooses the next element | Preserve result and resource coordinates and return the comparison to the governing choice Method. |
 | Derivative times step equals finite contribution | State smoothness region and remainder or perform the finite comparison. |
 | Shadow price equals asset value | Keep the local active-constraint result and model the finite intervention separately. |
 | Functional stationarity proves physical optimality | Use `C.29`, physical/domain evidence, sufficiency checks, and validation. |

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.P.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
-line_start: 20094
-line_end: 20666
+line_start: 20139
+line_end: 20711
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -318,9 +318,9 @@ When generic relation recovery identifies one current claim at a method, intende
 1. an exact direct subject-relation claim, positive or governed negative;
 2. an exact `A.6.1` operation-application binding;
 3. a local `A.15.PROD` claim or another local relation-bearing claim selected under `A.6.RCD` disposition 2;
-4. an exact non-assertability result independently reasoned as `factually unsupported`, `missing-information`, or `missing-governor`.
+4. an exact non-assertability result with the reason defined in `A.6.P.WMR:4.3`: `factually unsupported`, `missing-information`, `missing-governor`, the governing rule's inapplicable result, or `missing-substrate`.
 
-Only `missing-governor` is an ontology blocker, and it names the affected receiving use, exact participants, and missing predicate or obtaining law. When participant referents and the named receiving claim are exact but no current direct relation closes that claim outside A.6.P.WMR, require `A.6.RCD` rather than improvising a relation or kind.
+`Missing-governor` names the affected receiving use, exact participants, and missing predicate or obtaining law. A known rule's inapplicable result retains that rule and its unmet applicability condition; `missing-substrate` names unavailable constructor semantics under A.6.RCD:4.2. Neither by itself calls for a new relation kind. When participant referents and the named receiving claim are exact but no current direct relation closes that claim outside A.6.P.WMR, require `A.6.RCD` rather than improvising a relation or kind.
 
 | Recovered question | What the reader does | Result or governing rule |
 |---|---|---|

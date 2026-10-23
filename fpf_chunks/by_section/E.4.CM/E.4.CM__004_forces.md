@@ -6,12 +6,12 @@ section_id: "E.4.CM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__004_forces.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:3 — Forces"
-line_start: 92424
-line_end: 92436
+line_start: 92889
+line_end: 92901
 dependencies:
   - "A.3.1"
   - "B.1.5"

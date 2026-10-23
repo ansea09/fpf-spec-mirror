@@ -6,12 +6,12 @@ section_id: "C.11.CRC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__006_solution.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:4 — Solution"
-line_start: 57380
-line_end: 57442
+line_start: 57441
+line_end: 57503
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "C.27"
   - "C.28"
   - "C.29"
+  - "C.43"
 keywords:
   - "candidate configuration S1"
   - "constraints"
@@ -43,9 +44,9 @@ keywords:
 
 ### C.11.CRC:4 - Solution
 
-Construct the smallest finite counterfactual comparison that can change one named decision.
+Construct the smallest finite counterfactual comparison that can change the answer to one named choice or construction question.
 
-1. **Name the receiving decision.** State the deciding System, current `DecisionSubject`, decision deadline, current `OptionSet` or the option-set question that this comparison will inform, and which result could change the decision.
+1. **Name the receiving question.** State who needs the comparison, the choice or construction it informs, when the result must be available, and which consequence could change that work. For a local `C.11` choice, identify its deciding System, `DecisionSubject` and current `OptionSet` or option-set question. For ongoing control, policy design or development, identify the continuation, rule, direction or means being compared and its receiving Method; a local option set need not already exist.
 2. **Freeze the current configuration.** Name the actual or currently relied-on configuration `S0`, system boundary, affected Systems, the holder or beneficiary and what it holds or benefits from, relevant environment, and what is held fixed only for this comparison. If the affected-System coordinate is missing and could change the comparison, use `A.1.CSD` first; bring back only consequence claims compatible with this `S0`/`Δ`/`S1`, horizon, evidence window, and receiving decision. A historical, empty, or ideal configuration is not the default baseline.
 3. **Name the finite change.** State the addition, replacement, removal, intervention, or probe `Δ`, the realizable candidate configuration `S1`, admissibility conditions, implementation capability, planned transition work, reversibility, and excluded variants.
 4. **Fix horizon and scenarios.** State the interval, relevant states or scenarios, timing assumptions, and any decision or evidence window. Do not combine results from incompatible horizons without an explicit mapping.
@@ -56,14 +57,14 @@ Construct the smallest finite counterfactual comparison that can change one name
 9. **Qualify evidence and uncertainty.** Identify source claims, currentness, uncertainty, sensitivity/robustness results, transfer limits, rival explanations, and `A.10` reliance dispositions where an evidence-bearing claim is used.
 10. **Write the comparison claim.** State what `S1` contributes relative to `S0` only under the declared coordinates, horizon, scenarios, constraints, interactions, and evidence. Use dominated, non-dominated, beneficial, harmful, or indeterminate wording only when the stated relation supports it; do not force one scalar winner.
 11. **Route mathematical near-misses.** Apply the distinction in `C.11.CRC:4.2`; the finite comparison may consume a derivative, sensitivity, shadow price, variational, or inference result without becoming identical to it.
-12. **Return to `C.11`.** Use `C.11` to combine this claim with preferences, belief state, outcome model, probe worth, and other premises and emit one `ChoiceResult`. State the smallest configuration, horizon, evidence, resource, constraint, or option-set change that reopens this comparison.
+12. **Return to the receiving work.** Supply the comparison to the named question from step 1. Use `C.11` when a local chooser and options are ready: it combines the claim with preferences, belief state, outcome model, probe worth and other premises to obtain a `ChoiceResult`. Use `C.43` when the consequence must first be connected to conditional future action, realization or revision; a subject design or development Method can consume the comparison directly. State the smallest configuration, horizon, evidence, resource, constraint or alternative change that reopens this comparison.
 
 #### C.11.CRC:4.1 - Lightweight comparison form
 
 `ConfigurationRelativeContributionComparison@Context` is a form name for one ordinary comparison episteme. It is not a root U-kind, universal delta value, selector result, or decision.
 
 ```text
-receivingDecisionRef:
+receivingQuestionRef:
 currentConfigurationRef: S0
 candidateFiniteChangeRef: Δ
 candidateConfigurationRef: S1
@@ -79,10 +80,10 @@ evidenceAndUncertaintyRefs:
 comparisonClaim:
 unsupportedOverreads:
 reopenCondition:
-nextGoverningPattern: C.11
+nextGoverningPattern: named receiving Method; C.11 when the result supplies its local choice
 ```
 
-Omit a field only when it cannot change this comparison and that omission is apparent from the bounded case. A polished record cannot compensate for a missing current configuration or decision.
+Omit a field only when it cannot change this comparison and that omission is apparent from the bounded case. A polished record cannot compensate for a missing current configuration or receiving question.
 
 #### C.11.CRC:4.2 - Mathematical and model-routing distinction
 

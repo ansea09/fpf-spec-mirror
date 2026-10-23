@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__007_bias-annotation.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:6 — Bias-Annotation"
-line_start: 21246
-line_end: 21260
+line_start: 21301
+line_end: 21315
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -36,7 +36,7 @@ keywords:
 
 Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Limited to recovering one method-or-work boundary claim after A.6.P has isolated it; not Universal governance for all relation ambiguity, work identity, production, evidence, publication, transfer, or receiving use.**
 
-The pattern deliberately weights **Onto/Epist** toward exact entities, relation kinds, claim distinctions, and non-invention, and **Prag** toward the shortest usable result from the four-exit architecture. **Did** puts ordinary wording and heterogeneous cases before heavier assurance. The **Arch** cost is coordinating the defining content and predicates for several exact claims rather than one convenient input, output, or result architecture. The **Gov** boundary is that WMR cannot admit a missing relation: a current definition must supply its predicate, participants, applicability, and occurrence rule, or the result remains `missing-governor`. Mitigation is the three-question ordinary core, two conditional assurance questions, four truthful exits, and independent `factually unsupported`, `missing-information`, and `missing-governor` reasons. Only the last can open a concrete ontology-definition question. The following domain-bias rows are informative risk cues; they add no duties beyond the checklist.
+The pattern deliberately weights **Onto/Epist** toward exact entities, relation kinds, claim distinctions, and non-invention, and **Prag** toward the shortest usable result from the four-exit architecture. **Did** puts ordinary wording and heterogeneous cases before heavier assurance. The **Arch** cost is coordinating the defining content and predicates for several exact claims rather than one convenient input, output, or result architecture. The **Gov** boundary is that WMR cannot admit a missing relation: a current definition must supply its predicate, participants, applicability, and occurrence rule, or the result remains `missing-governor`. Mitigation is the three-question ordinary core, two conditional assurance questions, and four truthful exits with the reason-specific stops in section 4.3. A missing subject rule can open a concrete definition question; inapplicability and missing constructor semantics retain their different continuations. The following domain-bias rows are informative risk cues; they add no duties beyond the checklist.
 
 | Bias | Countermeasure |
 | --- | --- |

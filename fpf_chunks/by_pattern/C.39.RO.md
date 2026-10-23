@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.RO.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
-line_start: 83091
-line_end: 83302
+line_start: 83158
+line_end: 83369
 dependencies:
   - "A.3.1"
   - "A.3.2"

@@ -6,12 +6,12 @@ section_id: "C.37.MP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 82306
-line_end: 82317
+line_start: 82373
+line_end: 82384
 dependencies:
   - "A.10"
   - "A.3.1"

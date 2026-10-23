@@ -6,12 +6,12 @@ section_id: "C.40.OD:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 87885
-line_end: 87900
+line_start: 87954
+line_end: 87969
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"

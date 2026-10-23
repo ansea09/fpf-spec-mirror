@@ -6,12 +6,12 @@ section_id: "C.40.CU:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__010_consequences.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:9 — Consequences"
-line_start: 85424
-line_end: 85429
+line_start: 85491
+line_end: 85496
 dependencies:
   - "B.1.5.EW"
   - "C.11"

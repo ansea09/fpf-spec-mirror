@@ -6,12 +6,12 @@ section_id: "C.11.DBR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__002_problem-frame.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:1 — Problem frame"
-line_start: 57537
-line_end: 57546
+line_start: 57598
+line_end: 57609
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -34,4 +34,6 @@ Use this pattern when an earlier choice, commitment or recommendation is known, 
 The reader needs access to the earlier basis, the later result and the subject knowledge needed to interpret them. Ask the responsible contributor for an unavailable premise or interpretation; a decision log alone does not supply it. Ordinary prose in the existing discussion can carry the answer. Use a retained account only when another person or later action needs it.
 
 **Use the direct way when it already suffices.** A subject Method that already compares the earlier basis, later outcome, affected uses and current alternatives needs no additional C.11.DBR pass. Use C.11 directly when the current chooser, options and comparison basis are ready. Use A.15.7 for a next action during ongoing Work when no earlier-basis reconstruction is needed. Begin with A.10.1 when a source changed and its actual receiving uses are still unknown.
+
+Within ongoing control, return the affected and preserved uses to **C.43**. A changed observation may require another immediate action; a changed model, goal or means can require rebuilding a different contribution. This Method establishes which relied-on basis changed and where that matters. The receiving control account connects that result to an available intervention and its execution. An adequate subject feedback Method can already supply this comparison without a separate reconstruction.
 

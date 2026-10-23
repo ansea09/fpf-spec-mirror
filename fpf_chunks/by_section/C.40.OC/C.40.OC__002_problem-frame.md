@@ -6,12 +6,12 @@ section_id: "C.40.OC:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__002_problem-frame.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:1 — Problem Frame"
-line_start: 86046
-line_end: 86064
+line_start: 86113
+line_end: 86131
 dependencies:
   - "C.11.CRC"
   - "C.16"

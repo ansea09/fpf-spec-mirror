@@ -6,12 +6,12 @@ section_id: "A.19.SPR:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__010_relations.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:8 — Relations"
-line_start: 35759
-line_end: 35776
+line_start: 35816
+line_end: 35833
 dependencies:
   - "A.10"
   - "A.16"

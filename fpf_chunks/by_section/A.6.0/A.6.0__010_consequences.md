@@ -6,12 +6,12 @@ section_id: "A.6.0:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__010_consequences.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:9 — Consequences"
-line_start: 16682
-line_end: 16700
+line_start: 16727
+line_end: 16745
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -54,7 +54,7 @@ keywords:
 
 **Costs and trade-offs.**
 
-- Before choosing a form, the author answers three concrete questions: does the task only ask whether one predicate holds; do at least two named consumers need the same declaration content; or does a later claim need to refer to the same occurrence, compare it with another, qualify it, record its history, or use it as a participant in another relation? Those answers select a direct assertion, reusable declaration, or occurrence identity.
+- Before choosing a form, the author answers three concrete questions: does the task only ask whether one predicate holds; do at least two named claims or consumers need the same declaration content; or does a later claim need to refer to the same occurrence, compare it with another, qualify it, record its history, or use it as a participant in another relation? Those answers select a direct assertion, reusable declaration, or occurrence identity.
 - Authors must recover the exact declared subject and effective reference scheme; a familiar label is not enough.
 - A `RelationSignature` case also requires an already admitted relation kind, direct governor and predicate, participant meanings, Applicability, occurrence-identity rule, and an ordinary assertion. Without that settlement, the author keeps a local claim, predicate definition, or exact missing-governor blocker instead of inventing SlotSpecs.
 - Typed reuse adds authoring effort for A.6.5 relation SlotSpecs or A.6.1 operation declarations, plus A.6.0 dependency declarations only when another signature actually relies on named terms or laws.

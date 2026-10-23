@@ -6,12 +6,12 @@ section_id: "C.11.CRC:End"
 section_title: "C.11.CRC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__015_c-11-crc-end.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:End — C.11.CRC:End"
-line_start: 57530
-line_end: 57531
+line_start: 57591
+line_end: 57592
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "C.27"
   - "C.28"
   - "C.29"
+  - "C.43"
 keywords:
   - "candidate configuration S1"
   - "constraints"

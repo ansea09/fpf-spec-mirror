@@ -6,12 +6,12 @@ section_id: "A.2.8:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__011_conformance-checklist.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:8 — Conformance Checklist"
-line_start: 8263
-line_end: 8277
+line_start: 8310
+line_end: 8324
 dependencies:
   - "A.10"
   - "A.15.1"

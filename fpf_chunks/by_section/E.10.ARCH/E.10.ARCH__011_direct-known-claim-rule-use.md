@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:5"
 section_title: "Direct known claim-rule use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__011_direct-known-claim-rule-use.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:5 — Direct known claim-rule use"
-line_start: 100740
-line_end: 100745
+line_start: 101217
+line_end: 101222
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -66,7 +66,7 @@ keywords:
 
 ### E.10.ARCH:5 - Direct known claim-rule use
 
-If the governed object, exact direct relation, claim-bearing episteme, representation use, or claim kind and its defining or testing rule are recoverable by value, use that rule directly and cite the pattern containing it. Use `A.6.P.WMR` only while the exact Work and Method boundary relation or exact non-assertability result remains hidden. Keep known-predicate failure, unavailable fact, and absent rule or declaration separately `factually unsupported`, `missing-information`, and `missing-governor`; only the last is a blocker that names the needed future relation rule or declaration.
+If the governed object, exact direct relation, claim-bearing episteme, representation use, or claim kind and its defining or testing rule are recoverable by value, use that rule directly and cite the pattern containing it. Use `A.6.P.WMR` only while the exact Work and Method boundary relation or exact non-assertability result remains hidden. For non-assertability, retain the reason and continuation defined in A.6.P.WMR:4.3, including a known rule's inapplicable result and unavailable constructor semantics. A missing subject rule and a missing derivation basis are different repair questions.
 
 The selected entry conditions in sections 2 and 4 govern any remaining wording ambiguity.
 

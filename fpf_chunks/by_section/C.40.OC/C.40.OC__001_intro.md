@@ -6,12 +6,12 @@ section_id: "C.40.OC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__001_intro.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:intro — Intro"
-line_start: 86037
-line_end: 86045
+line_start: 86104
+line_end: 86112
 dependencies:
   - "C.11.CRC"
   - "C.16"

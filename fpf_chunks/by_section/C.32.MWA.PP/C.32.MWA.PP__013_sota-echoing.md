@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__013_sota-echoing.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:11 — SoTA-Echoing"
-line_start: 79590
-line_end: 79613
+line_start: 79657
+line_end: 79680
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"

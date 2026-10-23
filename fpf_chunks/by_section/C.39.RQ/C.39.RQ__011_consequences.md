@@ -6,12 +6,12 @@ section_id: "C.39.RQ:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__011_consequences.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:9 — Consequences"
-line_start: 83839
-line_end: 83844
+line_start: 83906
+line_end: 83911
 dependencies:
   - "A.3.1"
   - "C.11"

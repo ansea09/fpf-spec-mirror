@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__006_archetypal-grounding.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:5 — Archetypal Grounding"
-line_start: 9831
-line_end: 9859
+line_start: 9878
+line_end: 9906
 dependencies:
   - "A.10"
   - "A.13"
@@ -31,7 +31,7 @@ keywords:
 
 #### A.3.1.MR:5.1 - Pump-inspection recovery
 
-Four independently grounded pump-inspection Work occurrences have video, sensor logs, technician notes, and known performer assignments. Three show the same inspection order. The fourth begins with a vibration cue and reverses two checks.
+Four independently grounded pump-inspection Work occurrences have video, sensor logs, technician notes, and known performer assignments. Each occurrence enacts separately admitted vibration-measurement and bearing-temperature-measurement Methods; the evidence establishes those relations without establishing a Method for the whole inspection order. Three show the same inspection order. The fourth begins with a vibration cue and reverses two checks.
 
 An analyst applying the recovery Method distinguishes two possible reusable ways under the plant's current inspection vocabulary: a fixed order with an undocumented exception, and a cue-responsive order. Each candidate gets its own account episteme, candidate subject, interpretation scheme, and source-to-claim support. The account notes that the video misses a tactile check named in interviews and that successful outcomes alone do not distinguish the candidates.
 

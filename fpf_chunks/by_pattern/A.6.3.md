@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
-line_start: 17679
-line_end: 17912
+line_start: 17724
+line_end: 17957
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -99,7 +99,7 @@ If the supposed receiving item has no recoverable claim content or EntityOfConce
 
 #### A.6.3:4.2 - Declare the viewing construction
 
-A.6.3 viewing is the EntityOfConcern-preserving branch of A.6.2's local effect-free arrow class. In the selected formal substrate, one viewing arrow is written `v : X -> Y` and has exact source episteme X and exact receiving episteme Y.
+A.6.3 viewing is a preserve-mode specialization of A.6.2's local effect-free arrow class, subject to the viewing construction and laws below. In the selected formal substrate, one viewing arrow is written `v : X -> Y` and has exact source episteme X and exact receiving episteme Y.
 
 The reusable A.6.0 declaration describes the admitted local arrow family, rather than turning one arrow or endpoint pair into a kind:
 

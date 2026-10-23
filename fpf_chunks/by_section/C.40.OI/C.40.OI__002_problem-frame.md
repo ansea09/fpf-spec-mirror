@@ -6,12 +6,12 @@ section_id: "C.40.OI:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__002_problem-frame.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:1 — Problem Frame"
-line_start: 85781
-line_end: 85799
+line_start: 85848
+line_end: 85866
 dependencies:
   - "A.15.9"
   - "B.5.PI"

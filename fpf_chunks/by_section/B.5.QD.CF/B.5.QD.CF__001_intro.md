@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__001_intro.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:intro — Intro"
-line_start: 49655
-line_end: 49660
+line_start: 49712
+line_end: 49717
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"

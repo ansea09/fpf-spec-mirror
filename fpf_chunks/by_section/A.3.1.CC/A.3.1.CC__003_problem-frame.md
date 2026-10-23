@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__003_problem-frame.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:1 — Problem Frame"
-line_start: 10541
-line_end: 10546
+line_start: 10588
+line_end: 10593
 dependencies:
   - "A.10"
   - "A.15.8.MS"

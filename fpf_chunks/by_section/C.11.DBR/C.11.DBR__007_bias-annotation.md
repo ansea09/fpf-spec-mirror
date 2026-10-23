@@ -6,12 +6,12 @@ section_id: "C.11.DBR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__007_bias-annotation.md"
-commit_sha: "22984da9ba607842cd2bb4ec8e5201d4f225b69f"
+commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:6 — Bias-Annotation"
-line_start: 57655
-line_end: 57658
+line_start: 57718
+line_end: 57721
 dependencies:
   - "A.10"
   - "A.10.1"
