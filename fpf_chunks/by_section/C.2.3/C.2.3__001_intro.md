@@ -1,14 +1,14 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.3"
-pattern_title: "Unified Formality Characteristic F"
+pattern_title: "Formality of an Episteme"
 section_id: "C.2.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__001_intro.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
-  - "C.2.3 — Unified Formality Characteristic F"
+  - "C.2.3 — Formality of an Episteme"
   - "C.2.3:intro — Intro"
 line_start: 53072
 line_end: 53081
@@ -21,28 +21,27 @@ dependencies:
   - "C.2"
   - "C.2.2"
   - "C.2.4"
-  - "C.2.5"
-  - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "C.39"
   - "F.9"
 keywords:
-  - "F-scale"
-  - "F0-F9"
-  - "Formality"
+  - "Formality assessment"
+  - "expression properties"
   - "language-state separation"
+  - "local ordinal scale"
+  - "partial order"
   - "proof"
-  - "rigor"
   - "specification"
 ---
 
-## C.2.3 - Unified Formality Characteristic F
+## C.2.3 - Formality of an Episteme
 
 > **Type:** Definitional (D)
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Plain-name.** Formality characteristic.
+**Plain-name.** Formality assessment.
 
-**One-line summary.** `C.2.3` defines **Formality (F)** as one ordinal `U.Characteristic` with polarity `up`, anchored by the default ladder `F0...F9`, and declared for normative epistemes. An assurance argument consumes F only when its named use needs rigor of expression.
+**One-line summary.** Formality concerns how explicitly and precisely an episteme's content is expressed. Assess the properties needed for its use, including the interpretation of terms, constraints, operations and inferences. These properties form a declared profile when several matter together; they do not supply a universal rank of languages, logics or tools.
 

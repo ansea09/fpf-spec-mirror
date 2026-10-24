@@ -1,14 +1,14 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.3"
-pattern_title: "Unified Formality Characteristic F"
+pattern_title: "Formality of an Episteme"
 section_id: "C.2.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__002_problem-frame.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
-  - "C.2.3 — Unified Formality Characteristic F"
+  - "C.2.3 — Formality of an Episteme"
   - "C.2.3:1 — Problem frame"
 line_start: 53082
 line_end: 53087
@@ -21,24 +21,23 @@ dependencies:
   - "C.2"
   - "C.2.2"
   - "C.2.4"
-  - "C.2.5"
-  - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "C.39"
   - "F.9"
 keywords:
-  - "F-scale"
-  - "F0-F9"
-  - "Formality"
+  - "Formality assessment"
+  - "expression properties"
   - "language-state separation"
+  - "local ordinal scale"
+  - "partial order"
   - "proof"
-  - "rigor"
   - "specification"
 ---
 
 ### C.2.3:1 - Problem frame
 
-Transdisciplinary work needs one shared way to speak about rigor of expression. A research hypothesis in constrained natural language, a software interface specification with explicit invariants, a controller model checked against hybrid obligations, and a proof-bearing formal development are not comparable by domain lore alone. They are comparable by **how strictly the content is expressed**.
+Use this when a reader, engineer or researcher must decide whether an expression is precise enough to interpret, compute with, combine or check, or what formalization would make that use possible. A research hypothesis, interface specification, controller model, decision policy and formal proof can all need this judgement, but they need different properties of expression.
 
-Historically, that distinction drifts. Teams mix editorial maturity, organizational status, notation choice, proof support, and scope narrowness into one vague story about something being *more formal*. `C.2.3` removes that drift by giving FPF one explicit `U.Characteristic` for rigor of expression.
+The first useful move is to name the expression and the operation it must support. A reviewer may need unambiguous acceptance conditions; an interpreter needs an execution rule; a proof checker needs a statement and derivation in its admitted calculus. This assessment identifies the needed repair without requiring a more elaborate formalism for every task. Use an already sufficient expression directly. Readability alone is a different question; truth, empirical support, organizational approval and permission to act retain their own grounds.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.43.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
-line_start: 89677
-line_end: 90072
+line_start: 89690
+line_end: 90085
 dependencies:
   - "A.12"
   - "C.11"
@@ -329,7 +329,7 @@ Compare the alternatives from the team's present repertoire and commitments. Pra
 
 During implementation, team members examine previously unseen cases, decide which assumption matters and explain the resulting change of diagnosis. The receiving work then checks those judgements with appropriate subject evidence. Suppose they become dependable with a short independent review but not without it. The achieved configuration now includes that review. The next choice can retain it, reduce its burden through further development, or use the supported capability in a new family of diagnoses.
 
-That new family may expose a limit shared by all performers. The next useful intervention can then be development of the diagnostic Method rather than more repetitions of the same exercises. If the recommender repeatedly prescribes exercises for this shared methodological gap, its own diagnostic distinction becomes a candidate for repair. These returns connect development at different subjects without imposing a fixed sequence of levels.
+That new family may expose a limit shared by all performers. The next useful intervention can then be development of the diagnostic Method rather than more repetitions of the same exercises. If the recommender repeatedly prescribes exercises for this shared methodological gap, its own diagnostic distinction becomes a candidate for repair. The observed limitation can therefore redirect development to the team's capability, the diagnostic Method, or the recommender's diagnostic distinction.
 
 #### C.43:5.5 - Explain both effective and ineffective feedback in the same account
 
@@ -413,7 +413,7 @@ For the active-inference formulation in §4.7, the source basis is Friston and c
 - Apply **C.30.LCA** to recover a control structure and **C.32.LCA** to construct or change it. Those results can supply the arrangement used here.
 - Apply **C.39** when a needed way to obtain a contribution is missing, **C.28** for a causal question and **C.29** for the mathematical representation that supports a required inference.
 - Apply **C.40.OD** for the whole construction of open-ended development; use **C.40.DC**, **C.40.JD** and **C.40.NP** to construct directions, realize the joined development and continue from its results. §4.8 connects these results to control and recommendation.
-- Use **B.1.5.RS** for the consequences of replacing a constituent Method, **C.32.MWA.PP** for whole performance arrangements, and **C.30.ILC** with **C.32.MLAO** when the intervention addresses an actual inter-level conflict.
+- Use **B.1.5.RS** for the consequences of replacing a constituent Method, **C.32.MWA.PP** for whole performance arrangements, and **C.30.ILC** with **C.32.MLAO** when the intervention addresses an architecture residual between the identified scopes.
 - Use **A.22.CGUS** to retain the connected reasoning through the mantra.
 
 ### C.43:End

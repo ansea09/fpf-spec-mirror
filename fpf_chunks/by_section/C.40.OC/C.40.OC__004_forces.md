@@ -6,12 +6,12 @@ section_id: "C.40.OC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__004_forces.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:3 — Forces"
-line_start: 86147
-line_end: 86158
+line_start: 86160
+line_end: 86171
 dependencies:
   - "C.11.CRC"
   - "C.16"

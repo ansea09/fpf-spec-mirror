@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.3"
-pattern_title: "Unified Formality Characteristic F"
+pattern_title: "Formality of an Episteme"
 section_id: "C.2.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
-  - "C.2.3 — Unified Formality Characteristic F"
+  - "C.2.3 — Formality of an Episteme"
   - "C.2.3:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 53182
-line_end: 53191
+line_start: 53185
+line_end: 53195
 dependencies:
   - "A.16"
   - "A.18"
@@ -21,28 +21,28 @@ dependencies:
   - "C.2"
   - "C.2.2"
   - "C.2.4"
-  - "C.2.5"
-  - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "C.39"
   - "F.9"
 keywords:
-  - "F-scale"
-  - "F0-F9"
-  - "Formality"
+  - "Formality assessment"
+  - "expression properties"
   - "language-state separation"
+  - "local ordinal scale"
+  - "partial order"
   - "proof"
-  - "rigor"
   - "specification"
 ---
 
 ### C.2.3:8 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern | What it looks like | How FPF prevents it |
-|---|---|---|
-| **Status leakage** | An episteme is called highly formal because it is approved or published. | `CC-F-13` keeps status and formality separate. |
-| **Tool-worship** | A notation, prover, or execution harness is named, so the episteme is rated high-F without checking the content. | `CC-F-11` and `CC-F-12` require observable semantic grounds. |
-| **Appendix inflation** | A small high-formality appendix is used to advertise the whole episteme as high-F. | `CC-F-6` scopes the cap to the assessed composite expression and its essential content or inference. |
-| **Proxy ladder** | A local context invents "bronze / silver / gold" or "ready / mature / final" and uses it instead of `F`. | `CC-F-4` rejects rival ladders. |
-| **Characteristic capture** | Articulation, closure, scope, or evidence is spoken of as if it were part of `F`. | `CC-F-8`, `CC-F-10`, and `CC-F-15` keep the characteristics orthogonal. |
+| Anti-pattern | What it looks like | Repair |
+| --- | --- | --- |
+| Status leakage | Approved content is assumed to have a precise interpretation. | Inspect the terms, conditions and inferences needed for the use. |
+| Tool prestige | A prover or fashionable foundation is named in place of a demonstrated property. | Inspect the actual expression and the relevant checking evidence. |
+| Appendix inflation | A formal annex is used to describe the whole argument as formally derived. | Assess the essential connecting inferences as well as the annex. |
+| One ladder for different capabilities | Execution, hybrid modeling and higher-order proof receive successively higher ranks. | Separate their contributions and test the receiving requirement. |
+| Profile as one Coordinate | Several characteristics are concealed inside one atomic F slot. | Declare the real slots or use an ordinary structured assessment. |
+| Assessment replaces improvement | A larger scorecard is produced while a necessary predicate remains unstated. | Supply the missing expression and repeat its receiving use. |
 

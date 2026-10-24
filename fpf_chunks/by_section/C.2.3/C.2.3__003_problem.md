@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.3"
-pattern_title: "Unified Formality Characteristic F"
+pattern_title: "Formality of an Episteme"
 section_id: "C.2.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__003_problem.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
-  - "C.2.3 — Unified Formality Characteristic F"
+  - "C.2.3 — Formality of an Episteme"
   - "C.2.3:2 — Problem"
 line_start: 53088
-line_end: 53102
+line_end: 53095
 dependencies:
   - "A.16"
   - "A.18"
@@ -21,33 +21,25 @@ dependencies:
   - "C.2"
   - "C.2.2"
   - "C.2.4"
-  - "C.2.5"
-  - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "C.39"
   - "F.9"
 keywords:
-  - "F-scale"
-  - "F0-F9"
-  - "Formality"
+  - "Formality assessment"
+  - "expression properties"
   - "language-state separation"
+  - "local ordinal scale"
+  - "partial order"
   - "proof"
-  - "rigor"
   - "specification"
 ---
 
 ### C.2.3:2 - Problem
 
-Without one unified `F` characteristic:
+“More formal” can hide several different changes. A document can acquire a clear structure without fixing its ambiguous terms. A precise specification can be non-executable. An executable program can omit the property its user needs established. A checked proof in one logic need not become stricter when translated into another logic. Ranking these changes on one ladder can reject adequate work and reward an irrelevant change of notation or tool.
 
-1. **Rigor is narrated inconsistently.**
-   Different contexts invent local mode/tier language with no shared comparability.
-2. **Status and rigor collapse.**
-   Something accepted, published, or approved is mistaken for something precisely expressed.
-3. **Expression changes are hidden.**
-   A move from sketch to predicates or from executable model to proof is not recorded as a distinct content change.
-4. **Composition becomes unsound.**
-   A composite episteme is treated as highly formal because one segment is highly formal, even when essential support still depends on less formal parts.
-5. **Other characteristics are misused as surrogates.**
-   Authors quietly use scope, evidence, or language-state facets as if they were part of one master formality characteristic.
+Composition adds a further difficulty. Several precisely expressed claims can be connected by an informal inference. Their presence does not make that whole argument a formal derivation. Conversely, an informal observation used as empirical evidence does not make the separately stated mathematical claim less precisely expressed. Without an explicit assessed expression and support relation, “the least formal part” can refer to the wrong object.
+
+The practical problem is therefore to establish which expression properties the receiving operation needs, which are present, which must change and how those properties survive combination or translation.
 

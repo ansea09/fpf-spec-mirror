@@ -6,12 +6,12 @@ section_id: "E.18.NET:5"
 section_title: "Archetypal Grounding — worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__006_archetypal-grounding-worked-cases.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:5 — Archetypal Grounding — worked cases"
-line_start: 111864
-line_end: 111955
+line_start: 111887
+line_end: 111980
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -81,6 +81,8 @@ For the compiler-and-application use, identify five TFS values by the questions 
 5. `DeploymentOperationTFS`, selected for deployment and operation after the application system exists.
 
 These names designate independently identified TFS values, not lifecycle kinds. They assert no transformation of a not-yet-existing compiler or application. Use E.18 for each TFS, A.15.1 for any current Work occurrence, A.3.4 for a change of a continuing referent, A.15.PROD for production or identity inception, and the applicable relation pattern for each exact cross-member occurrence.
+
+The compiler-producing contribution of `BootstrapCompilerBuildTFS` and the application-producing contribution of `ApplicationBuildTFS` occupy different functional layers in this build-the-builder account. Their connection runs through the produced compiler and its participation in application-building Work. The nested networks below instead group members for successively broader questions. Their four depths are not four functional layers or four levels of a modular structure.
 
 Select the nested network values from those already established inputs:
 

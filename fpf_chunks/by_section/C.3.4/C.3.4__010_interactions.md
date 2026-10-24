@@ -6,12 +6,12 @@ section_id: "C.3.4:8"
 section_title: "Interactions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__010_interactions.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:8 — Interactions"
-line_start: 55877
-line_end: 55897
+line_start: 55886
+line_end: 55906
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -33,7 +33,7 @@ Use an adaptation declaration for procedural tailoring. If the criterion becomes
 
 - The base `KindSignature` episteme supplies the kind criterion and its own F.
 - The separate adaptation declaration supplies additional candidate-feature constraints or vocabulary bindings and may have its own F.
-- The exact `KindUseAdaptationJudgment` pins both editions and preserves `unknown`; neither formality value belongs to the kind, candidate, or truth value.
+- The exact `KindUseAdaptationJudgment` pins both editions and preserves `unknown`; neither formality assessment belongs to the kind, candidate, or truth value.
 - An optional extension-like result remains only a pinned-edition representation of true adaptation judgments.
 
 #### C.3.4:8.3 - With KindBridge

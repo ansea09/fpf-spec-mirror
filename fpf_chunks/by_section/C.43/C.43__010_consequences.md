@@ -6,12 +6,12 @@ section_id: "C.43:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__010_consequences.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:9 — Consequences"
-line_start: 90027
-line_end: 90032
+line_start: 90040
+line_end: 90045
 dependencies:
   - "A.12"
   - "C.11"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.3"
-pattern_title: "Unified Formality Characteristic F"
+pattern_title: "Formality of an Episteme"
 section_id: "C.2.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__013_relations.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
-  - "C.2.3 — Unified Formality Characteristic F"
+  - "C.2.3 — Formality of an Episteme"
   - "C.2.3:12 — Relations"
-line_start: 53209
-line_end: 53216
+line_start: 53222
+line_end: 53229
 dependencies:
   - "A.16"
   - "A.18"
@@ -21,26 +21,25 @@ dependencies:
   - "C.2"
   - "C.2.2"
   - "C.2.4"
-  - "C.2.5"
-  - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "C.39"
   - "F.9"
 keywords:
-  - "F-scale"
-  - "F0-F9"
-  - "Formality"
+  - "Formality assessment"
+  - "expression properties"
   - "language-state separation"
+  - "local ordinal scale"
+  - "partial order"
   - "proof"
-  - "rigor"
   - "specification"
 ---
 
 ### C.2.3:12 - Relations
 
-- **Defines:** U.Formality for epistemes, including the F result consumed by an assurance argument when its use requires that characteristic.
-- **Builds on:** characteristic machinery from `A.18` / `A.19` and episteme-level characteristic assignment from Part C.
-- **Coordinates with:** `C.2.2`, `B.3`, `F.9`, `C.2.LS`, `A.16`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7`.
-- **Coordinates with:** `C.19.2` when a declared use asks whether increasing rigor of expression or selecting/configuring a formal apparatus repays application work. `F` measures expression rigor; it does not select the apparatus, plan the work, or establish the problem-facing result.
-- **Constrains:** any pattern, gate, or editorial rule that speaks about rigor of expression.
+- **Uses:** A.18 and A.19 for declared Characteristics, Scales, profiles represented in spaces and any order overlay.
+- **Coordinates with:** C.2 and C.2.2 for epistemic composition and assurance; B.3 when an assurance argument consumes the assessment.
+- **Coordinates with:** C.2.LS, A.16 and C.2.4–C.2.7 for language-state properties that retain their own meanings.
+- **Uses:** C.19.2 when selecting or configuring a formal apparatus is the missing practical contribution; C.39 when a way to obtain the result must be developed.
+- **Coordinates with:** F.9 for a cross-context transfer whose mapping and limitations affect the receiving expression.
 

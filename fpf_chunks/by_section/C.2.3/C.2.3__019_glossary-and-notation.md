@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.3"
-pattern_title: "Unified Formality Characteristic F"
+pattern_title: "Formality of an Episteme"
 section_id: "C.2.3:18"
-section_title: "Glossary and Notation"
+section_title: "Glossary and notation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__019_glossary-and-notation.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
-  - "C.2.3 — Unified Formality Characteristic F"
-  - "C.2.3:18 — Glossary and Notation"
-line_start: 53361
-line_end: 53369
+  - "C.2.3 — Formality of an Episteme"
+  - "C.2.3:18 — Glossary and notation"
+line_start: 53368
+line_end: 53376
 dependencies:
   - "A.16"
   - "A.18"
@@ -21,27 +21,26 @@ dependencies:
   - "C.2"
   - "C.2.2"
   - "C.2.4"
-  - "C.2.5"
-  - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "C.39"
   - "F.9"
 keywords:
-  - "F-scale"
-  - "F0-F9"
-  - "Formality"
+  - "Formality assessment"
+  - "expression properties"
   - "language-state separation"
+  - "local ordinal scale"
+  - "partial order"
   - "proof"
-  - "rigor"
   - "specification"
 ---
 
-### C.2.3:18 - Glossary and Notation
+### C.2.3:18 - Glossary and notation
 
-- **`U.Formality` / `F`.** The rigor-of-expression characteristic governed by this pattern.
-- **Anchor.** A named ordinal milestone on the `F` ladder.
-- **Sub-anchor.** A context-local refinement docked to one parent anchor.
-- **Delta-`F`.** A content change that alters expression rigor.
-- **Essential support for composite F.** Content or inference required by the assessed composite expression under its named compositional support relation; external evidential warrant is assessed separately.
-- **Example notation.** `F = F4`, `F = F7[HOL]`, `requires F >= F6`.
+- **Formality assessment (F).** An assessment of selected properties of an episteme's expression, with its subject, interpretation and basis recoverable.
+- **Formality profile.** A structured account of those selected properties; when represented in a CharacteristicSpace, each actual Characteristic has its own declared slot.
+- **Local ordered summary.** An explicit mapping from such assessments to a named ordinal scale whose levels have justified nested criteria.
+- **Change in formality.** A change in an assessed property or in a justified order, not a numerical difference between unrelated labels.
+- **Essential content and inference.** The content and connecting reasoning required by the assessed whole under its named composition relation; external warrant is assessed separately.
+- **Example notation.** `F: explicit typed invariant; derivation not supplied`, or a threshold on a specifically declared local specification-expression scale.
 

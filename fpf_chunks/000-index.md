@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `a5ac87ac15e78517d12bc66155b9da3ca254b643`
+Commit SHA: `996ae39ce00b4a9c9b59b48a4f1446b2175dcffb`
 
 Chunking method: `pattern-aware`
 
@@ -175,7 +175,7 @@ Patterns: `400`
 - [C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)](by_pattern/C.2.P.md)
 - [C.2.2 — Reliability R in the F–G–R triad](by_pattern/C.2.2.md)
 - [C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace](by_pattern/C.2.2a.md)
-- [C.2.3 — Unified Formality Characteristic F](by_pattern/C.2.3.md)
+- [C.2.3 — Formality of an Episteme](by_pattern/C.2.3.md)
 - [C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets](by_pattern/C.2.LS.md)
 - [C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?](by_pattern/C.2.4.md)
 - [C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?](by_pattern/C.2.5.md)

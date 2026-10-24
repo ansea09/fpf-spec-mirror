@@ -6,12 +6,12 @@ section_id: "E.14:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__016_relations.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:13 — Relations"
-line_start: 105056
-line_end: 105077
+line_start: 105077
+line_end: 105098
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -28,7 +28,7 @@ keywords:
 
 * **E.8 Authoring Conventions & Style Guide** — section order, style principles, and mandatory safety subsections used here.
 * **E.7 Archetypal Grounding** — the Tell‑Show‑Show rule applied in this pattern’s own Grounding section.
-* **C.2.3 Unified Formality Characteristic (F)** — governs rigor of expression and its declaration for normative Working-Model epistemes. A declared F establishes neither readability nor assurance; unchanged formal content retains its F across notation changes.
+* **C.2.3 Formality of an Episteme (F)** — governs assessment of expression properties and any local ordered summary. The assessment establishes neither readability nor assurance; a notation change preserves it when the relied-on properties and interpretation remain unchanged.
 
 **Coordinates with.**
 

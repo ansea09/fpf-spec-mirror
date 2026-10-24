@@ -6,12 +6,12 @@ section_id: "E.17.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__005_solution.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:4 — Solution"
-line_start: 105649
-line_end: 106045
+line_start: 105670
+line_end: 106066
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -205,7 +205,7 @@ The fixed `E17ViewpointSemanticsSlice@FPFEdition` selects the exact FPF and E.17
 | `KS.ViewpointConformanceValue.E17`, carrying `KindSignature(ViewpointConformanceValue@E17)` | the two exact values designated `conforms` and `doesNotConform` | separately performed conformance-evaluation work emits the value and a named A.21 gate or C.11 comparison/selection decision consumes it |
 | `KS.ViewpointOrganizationSatisfactionValue.E17`, carrying `KindSignature(ViewpointOrganizationSatisfactionValue@E17)` | the two exact values designated `satisfiesOrganization` and `doesNotSatisfyOrganization` | separately performed candidate-structure evaluation emits the value and a named C.11 comparison or selection decision consumes it |
 
-The four exact values remain distinct from their designators. Both kinds use F4 formality, deterministic exact-equality membership, no `SubkindOf`, and fail-closed definedness. Incomplete evidence or interpretation leaves the optional evaluation unsupported or undefined; it supplies neither a negative result nor a third `unknown` member.
+The four exact values remain distinct from their designators. Each KindSignature declaration states its admitted value domain and exact-equality predicate with a fixed interpretation under C.2.3. The kinds have deterministic exact-equality membership, no `SubkindOf`, and fail-closed definedness. Incomplete evidence or interpretation leaves the optional evaluation unsupported or undefined; it supplies neither a negative result nor a third `unknown` member.
 
 Omit both local values from P, direct relation obtaining, and—when the structured branch is active—Q_org and structure identity unless the named consumer actually needs one. Without such a consumer, state the direct conformance judgment or the structured branch's Q_org constraint judgment. `KindMembershipJudgment` and `ConcernCoverageJudgment` remain withdrawn and do not return as kinds or result fields.
 

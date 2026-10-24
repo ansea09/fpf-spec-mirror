@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.3"
-pattern_title: "Unified Formality Characteristic F"
+pattern_title: "Formality of an Episteme"
 section_id: "C.2.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__006_archetypal-grounding.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
-  - "C.2.3 — Unified Formality Characteristic F"
+  - "C.2.3 — Formality of an Episteme"
   - "C.2.3:5 — Archetypal Grounding"
-line_start: 53152
-line_end: 53159
+line_start: 53155
+line_end: 53162
 dependencies:
   - "A.16"
   - "A.18"
@@ -21,26 +21,25 @@ dependencies:
   - "C.2"
   - "C.2.2"
   - "C.2.4"
-  - "C.2.5"
-  - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "C.39"
   - "F.9"
 keywords:
-  - "F-scale"
-  - "F0-F9"
-  - "Formality"
+  - "Formality assessment"
+  - "expression properties"
   - "language-state separation"
+  - "local ordinal scale"
+  - "partial order"
   - "proof"
-  - "rigor"
   - "specification"
 ---
 
 ### C.2.3:5 - Archetypal Grounding
 
-**Tell.** `F` does not ask whether a claim is correct. It asks how strictly the claim is expressed.
+**Tell.** Ask what the expression enables its recipient to interpret or do, and which property enables it.
 
-**Show (System).** A system requirement written as controlled natural language with unambiguous acceptance conditions may be `F3`; the same requirement rewritten as explicit typed invariants may become `F4`; a machine-checked proof of a critical invariant may raise the relevant claim core to `F7` or above.
+**Show (System).** A controller requirement in controlled language can state a clear bound. Typed invariants make its variables and condition explicit. An executable model enables simulation. A formal derivation can establish an invariant under declared plant assumptions. These contributions can be connected, but execution is not a required intermediate stage for every proof, and a proof does not establish the plant assumptions empirically.
 
-**Show (Episteme).** A research conjecture can begin at `F1-F3`, then gain explicit predicates at `F4`, executable semantics at `F5`, and proof-bearing core content at `F7-F8`, while remaining recognizably the same evolving claim family.
+**Show (Episteme).** A research conjecture can gain stable terminology, explicit predicates and an expressed argument. Each change removes a particular obstacle to examination. A mathematical conjecture may remain non-executable and unproved while being fully precise about what is conjectured.
 

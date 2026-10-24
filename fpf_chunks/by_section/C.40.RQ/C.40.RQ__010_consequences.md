@@ -6,12 +6,12 @@ section_id: "C.40.RQ:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__010_consequences.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:9 — Consequences"
-line_start: 87674
-line_end: 87679
+line_start: 87687
+line_end: 87692
 dependencies:
   - "A.10"
   - "A.10.1"

@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "C.2.3"
-pattern_title: "Unified Formality Characteristic F"
+pattern_title: "Formality of an Episteme"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.3.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
-  - "C.2.3 — Unified Formality Characteristic F"
+  - "C.2.3 — Formality of an Episteme"
 line_start: 53072
-line_end: 53385
+line_end: 53392
 dependencies:
   - "A.16"
   - "A.18"
@@ -20,332 +20,338 @@ dependencies:
   - "C.2"
   - "C.2.2"
   - "C.2.4"
-  - "C.2.5"
-  - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "C.39"
   - "F.9"
 keywords:
-  - "F-scale"
-  - "F0-F9"
-  - "Formality"
+  - "Formality assessment"
+  - "expression properties"
   - "language-state separation"
+  - "local ordinal scale"
+  - "partial order"
   - "proof"
-  - "rigor"
   - "specification"
 ---
 
-## C.2.3 - Unified Formality Characteristic F
+## C.2.3 - Formality of an Episteme
 
 > **Type:** Definitional (D)
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Plain-name.** Formality characteristic.
+**Plain-name.** Formality assessment.
 
-**One-line summary.** `C.2.3` defines **Formality (F)** as one ordinal `U.Characteristic` with polarity `up`, anchored by the default ladder `F0...F9`, and declared for normative epistemes. An assurance argument consumes F only when its named use needs rigor of expression.
+**One-line summary.** Formality concerns how explicitly and precisely an episteme's content is expressed. Assess the properties needed for its use, including the interpretation of terms, constraints, operations and inferences. These properties form a declared profile when several matter together; they do not supply a universal rank of languages, logics or tools.
 
 ### C.2.3:1 - Problem frame
 
-Transdisciplinary work needs one shared way to speak about rigor of expression. A research hypothesis in constrained natural language, a software interface specification with explicit invariants, a controller model checked against hybrid obligations, and a proof-bearing formal development are not comparable by domain lore alone. They are comparable by **how strictly the content is expressed**.
+Use this when a reader, engineer or researcher must decide whether an expression is precise enough to interpret, compute with, combine or check, or what formalization would make that use possible. A research hypothesis, interface specification, controller model, decision policy and formal proof can all need this judgement, but they need different properties of expression.
 
-Historically, that distinction drifts. Teams mix editorial maturity, organizational status, notation choice, proof support, and scope narrowness into one vague story about something being *more formal*. `C.2.3` removes that drift by giving FPF one explicit `U.Characteristic` for rigor of expression.
+The first useful move is to name the expression and the operation it must support. A reviewer may need unambiguous acceptance conditions; an interpreter needs an execution rule; a proof checker needs a statement and derivation in its admitted calculus. This assessment identifies the needed repair without requiring a more elaborate formalism for every task. Use an already sufficient expression directly. Readability alone is a different question; truth, empirical support, organizational approval and permission to act retain their own grounds.
 
 ### C.2.3:2 - Problem
 
-Without one unified `F` characteristic:
+“More formal” can hide several different changes. A document can acquire a clear structure without fixing its ambiguous terms. A precise specification can be non-executable. An executable program can omit the property its user needs established. A checked proof in one logic need not become stricter when translated into another logic. Ranking these changes on one ladder can reject adequate work and reward an irrelevant change of notation or tool.
 
-1. **Rigor is narrated inconsistently.**
-   Different contexts invent local mode/tier language with no shared comparability.
-2. **Status and rigor collapse.**
-   Something accepted, published, or approved is mistaken for something precisely expressed.
-3. **Expression changes are hidden.**
-   A move from sketch to predicates or from executable model to proof is not recorded as a distinct content change.
-4. **Composition becomes unsound.**
-   A composite episteme is treated as highly formal because one segment is highly formal, even when essential support still depends on less formal parts.
-5. **Other characteristics are misused as surrogates.**
-   Authors quietly use scope, evidence, or language-state facets as if they were part of one master formality characteristic.
+Composition adds a further difficulty. Several precisely expressed claims can be connected by an informal inference. Their presence does not make that whole argument a formal derivation. Conversely, an informal observation used as empirical evidence does not make the separately stated mathematical claim less precisely expressed. Without an explicit assessed expression and support relation, “the least formal part” can refer to the wrong object.
+
+The practical problem is therefore to establish which expression properties the receiving operation needs, which are present, which must change and how those properties survive combination or translation.
 
 ### C.2.3:3 - Forces
 
 | Force | Tension |
-|---|---|
-| **Readability vs precision** | Natural language is fast and legible; formal systems are unambiguous and checkable. F needs a gradient, not a cliff. |
-| **Local freedom vs shared comparability** | Contexts need local exemplars and thresholds, but cross-context reasoning requires one stable characteristic. |
-| **Exploration vs assurance** | Early work must be allowed at low F, while high-assurance work needs explicit higher anchors. |
-| **Notation diversity vs semantic stability** | Different symbol systems may express the same rigor level; notation choice alone must not redefine F. |
-| **Thin characteristic vs rich practice** | The core characteristic should stay simple, while still supporting concrete guidance, examples, and review discipline. |
+| --- | --- |
+| Readability and precision | Familiar prose can communicate efficiently; formal syntax and semantics can enable operations that prose does not define. |
+| Shared comparison and different uses | Common property meanings permit comparison; different uses can require different combinations of them. |
+| Exploration and assurance | An early conjecture can be useful before its interpretation or proof is complete; a stronger use needs the missing contribution. |
+| Notation and meaning | Different calculi can express the same required property; they can also differ in assumptions, expressiveness and available proof techniques. |
+| Constituent and whole | Formal constituents help only when their meanings and the connections required by the whole are also established. |
+| Sufficient explanation and assessment burden | A short assessment can settle an ordinary use; repeated comparison or automation may need a declared characteristic basis. |
 
-### C.2.3:4 - Solution - `U.Formality` as one ordinal characteristic
+### C.2.3:4 - Solution - Assess the required properties of expression
 
-`C.2.3` defines `U.Formality` as the single governing characteristic for rigor of expression in FPF.
+Formality is assessed on a named expression of an episteme's content. Establish what its next use requires, recover the relevant interpretation and inferential relations, and inspect the actual expression against those requirements. Keep independent properties distinct. A shared profile makes their combination visible; a local summary is useful only when its declared criteria preserve the distinctions the receiving use needs.
 
-#### C.2.3:4.1 - Identity and typing
+#### C.2.3:4.1 - Subject and representation of the assessment
 
-- **Name:** `U.Formality` (abbreviated `F`)
-- **Type:** `U.Characteristic`
-- **Scale kind:** ordinal
-- **Polarity:** `up`
-- **Carrier:** any `U.Episteme`
-- **Default value family:** `F0...F9`
+**F** names the formality assessment in an account that also uses G and R. It is not a globally ordered atomic `U.Characteristic`, and this pattern supplies no universal `U.Formality` value or `F0...F9` scale. The assessed subject is an exact claim, declaration, model or argument expressed by an episteme. State which parts and connecting inferences belong to that assessment.
 
-`F` states **how strictly the content is expressed**. It does not state whether the content is true, well evidenced, widely applicable, or organizationally accepted.
+An ordinary assessment can be a sentence: “The budget condition has declared units, a typed variable and an explicit predicate; no derivation of its adequacy for the project is supplied.” That is enough when it answers the receiving question. For comparison, automation or repeated use, describe the selected expression properties and their values as a profile. The description remains an episteme; a reference such as `formalityRef` points to that assessment and its basis. This introduces no new root U-kind.
 
-#### C.2.3:4.2 - Place in the typed `F-G-R` tuple
+If a `CharacteristicSpace` is used, each assessed Characteristic has its own declared Scale and slot under A.18 and A.19. A profile is not one Coordinate containing several unnamed characteristics. Record missing or unknown assessments separately from values; unknown precision is not evidence of low precision. Keep the relevant calculus, assumptions and interpretation recoverable alongside the property assessments.
 
-A named assurance argument may consume `F` alongside G or R under B.3. Declaring F for a normative episteme does not itself select an assurance argument or require the current use to consume a universal tuple. The characteristics remain distinct:
+#### C.2.3:4.2 - Place beside G and R
 
-- `F` is **not** `G`; scope remains governed by `U.ClaimScope` and other USM structures.
-- `F` is **not** `R`; evidence, warrant strength, and decay remain assurance concerns.
-- Mapping loss is assessed for the actual receiving use. Any effect on R needs its B.3/C.2.2 basis; an ordinal CL value supplies no automatic penalty and does not change F.
-- Changes in notation, carrier, or rendering form do not change `F` if the formal content is preserved.
+A named assurance argument may consume F alongside G or R under B.3. The notation `[F,G,R]` is a view of distinct assessments, not automatically a point in one numeric space.
 
-#### C.2.3:4.3 - Extensibility and local anchors
+- F concerns expression properties. G concerns applicability or claim scope.
+- A derivation expressed in a calculus is part of the assessed content. Evidence that a particular checker accepted it supports that checking claim. Confidence in the checker, its assumptions and the resulting conclusion belongs to the relevant assurance argument.
+- A fully expressed empirical claim can have weak or missing empirical support. Formal validity under stated premises and applicability to the world answer different questions.
+- Mapping loss is assessed for the receiving use. Any effect on R needs its B.3/C.2.2 basis; an ordinal CL label supplies no automatic penalty.
+- A notation, carrier or rendering change preserves the assessment only when it preserves the expression properties on which that assessment rests.
 
-FPF provides the default anchor ladder `F0...F9`. A context may define sub-anchors or intermediate anchors such as `F4[OCL]` or `F6.5`, but only if:
+#### C.2.3:4.3 - Comparison and local ordered summaries
 
-- global order is preserved,
-- the local anchor is explicitly docked to a parent anchor,
-- the context does not invent a rival ladder or proxy scale.
+Compare profiles only after aligning the assessed properties, their meanings and relevant conditions. One expression can provide a formal predicate while another provides an executable procedure; neither fact alone makes one more formal for every use. A changed use may need both, or may need only one.
 
-#### C.2.3:4.4 - Usage obligations
+When an order is useful, declare its domain and comparison rule. For a fixed compatible basis of independently established requirements, an expression that satisfies all requirements satisfied by another and some additional ones can dominate it under that declared rule. This does not rank the entire languages or establish a preference for every use. Preserve incomparability when different requirements are satisfied; unresolved assessment is a separate result. Use A.19:5.1.3 for an order overlay when a CharacteristicSpace is involved.
 
-- Every normative episteme shall declare one `F` value.
-- Thresholds that depend on rigor should be written explicitly as `F >= Fk` conditions.
-- Any actual raise or lowering of expression rigor is a content change, not a status-only change. Correcting an erroneous `F` attribution changes the assessment, not necessarily the assessed episteme.
-- `F` remains declaration and reasoning infrastructure; it is not itself a governance process.
+A local ordinal summary is possible when its levels have nested criteria. For example, one team's specification-expression scale can require: named objects and stable terms; those conditions plus explicit acceptance predicates and their interpretation; those conditions plus expressed derivations for a specified set of obligations. The last level includes the earlier criteria by declaration. Its proof-checking evidence is still assessed separately. State the exact scale, mapping from the profile, domain and conditions before using its levels or a threshold. Another team's levels are not comparable merely because they use the same numbers.
+
+Arithmetic, averages and numerical differences are not licensed by an ordinal scale. Where a change is described as an increase in formality, identify the strengthened property or the established order that makes that claim meaningful. A new logic, extra subsystem or larger toolchain is not such a property by itself.
+
+#### C.2.3:4.4 - Requirements for a receiving use
+
+Express a formality requirement through what the recipient needs to do. “The invariant has explicit types and semantics, and every inference needed for this proof is expressed in the selected calculus” is a recoverable condition. If checked validity is also required, name that separate evidence requirement. A local ordinal threshold can abbreviate the expression condition only when its named scale captures the required criteria.
+
+Normative content must make the expression conditions needed for its intended use recoverable. A suitable ordinary explanation can do this without a separate score, profile document or formal proof. A richer assessment is required when a comparison, assurance argument or automated consumer actually relies on it. Neither a satisfactory formality assessment nor a threshold result grants permission to act.
+
+Improving the expression changes the assessed content. Correcting an erroneous assessment can instead leave that content unchanged. When the receiving requirement changes, return to the property, formal apparatus, derivation or external support it actually needs; do not automatically raise every part of the expression.
+
+#### C.2.3:4.5 - Assess and improve an expression
+
+1. Identify the exact claim or argument and the next operation: interpretation, execution, combination or checking. Name the required result and any applicable binding requirement.
+2. Recover the terms, domains, variable bindings, constraints, operation meanings and inferential connections needed for that operation. Section 13 supplies common distinctions, not a mandatory assessment form.
+3. Inspect the expression. State which needed properties it provides and where interpretation, an operation or an inference remains unspecified. Keep a proposed derivation separate from the result of checking it.
+4. Test the receiving condition. A sufficient expression ends this inquiry. If a missing property prevents the use, repair that part or obtain a suitable expression. Use C.19.2 to choose and configure formal apparatus when that is the actual question; use C.39 when a way to obtain the needed result still has to be developed.
+5. After the change, repeat the affected use, including any connecting inference. Preserve unchanged scope and support assessments unless their own grounds changed. If the repaired expression reveals a different claim or assumption, assess that change explicitly rather than calling it a purely notational improvement.
 
 ### C.2.3:5 - Archetypal Grounding
 
-**Tell.** `F` does not ask whether a claim is correct. It asks how strictly the claim is expressed.
+**Tell.** Ask what the expression enables its recipient to interpret or do, and which property enables it.
 
-**Show (System).** A system requirement written as controlled natural language with unambiguous acceptance conditions may be `F3`; the same requirement rewritten as explicit typed invariants may become `F4`; a machine-checked proof of a critical invariant may raise the relevant claim core to `F7` or above.
+**Show (System).** A controller requirement in controlled language can state a clear bound. Typed invariants make its variables and condition explicit. An executable model enables simulation. A formal derivation can establish an invariant under declared plant assumptions. These contributions can be connected, but execution is not a required intermediate stage for every proof, and a proof does not establish the plant assumptions empirically.
 
-**Show (Episteme).** A research conjecture can begin at `F1-F3`, then gain explicit predicates at `F4`, executable semantics at `F5`, and proof-bearing core content at `F7-F8`, while remaining recognizably the same evolving claim family.
+**Show (Episteme).** A research conjecture can gain stable terminology, explicit predicates and an expressed argument. Each change removes a particular obstacle to examination. A mathematical conjecture may remain non-executable and unproved while being fully precise about what is conjectured.
 
 ### C.2.3:6 - Bias-Annotation
 
-The pattern biases FPF toward one explicit rigor characteristic and against stories that mix formality with status, publication quality, scope width, or evidence support. That bias is intentional. The price of explicit declaration is smaller than the cost of comparing rigor through folklore.
+The pattern favors recoverable expression properties over a universal prestige ranking. This makes a comparison more explicit but can be unnecessary for an already adequate ordinary use. Keep the assessment as small as that use permits. Do not replace one compulsory score with a compulsory inventory of every possible property.
 
 ### C.2.3:7 - Conformance Checklist
 
-- `CC-F-1` Every normative `U.Episteme` **SHALL** declare exactly one `U.Formality` value, either a default anchor or a local sub-anchor explicitly docked to one.
-- `CC-F-2` `F` **SHALL** be treated as an ordinal characteristic; arithmetic over `F` values is invalid.
-- `CC-F-3` Higher `F` **SHALL** mean greater or equal strictness of expression, not greater truth, trust, or scope.
-- `CC-F-4` Contexts **MUST NOT** publish alternative "formality modes" or "tiers" as surrogates for `F`.
-- `CC-F-5` Local sub-anchors **SHALL** preserve the global ordering and the parent anchor meaning.
-- `CC-F-6` For a composite episteme assessed as one expressed claim or argument, its F **SHALL** be bounded by its least-formal essential content or inference on the declared compositional support path. Identify that assessed bearer and support relation. This expression-wide cap does not extend automatically to external evidence cited as warrant.
-- `CC-F-7` Implementations **MUST NOT** average `F` values numerically.
-- `CC-F-8` Changes in `G`, `R`, or `CL` **SHALL NOT** change `F` unless the expression form itself changes.
-- `CC-F-9` Cross-context transport **SHALL** preserve the attributed `F` when formal content is preserved. If the receiving rewrite changes claim content, EntityOfConcern, or the effective reference scheme under `C.2.1`, the result is a new episteme with its own `F`.
-- `CC-F-10` Translation loss, bridge loss and plane crossings **SHALL** retain their actual receiving-use limitations. Evaluate any assurance effect under its governing model; do not hide it as an F change when the expressed content is preserved.
-- `CC-F-11` Assigned `F` values **SHALL** be justifiable by observable content such as explicit predicates, executable semantics, or machine-checked proofs.
-- `CC-F-12` Declaring a tool or notation **SHALL NOT** by itself justify a higher `F` unless the content satisfies the target anchor semantics.
-- `CC-F-13` Status labels such as `Draft`, `Approved`, or `Published` **MUST NOT** substitute for `F`.
-- `CC-F-14` A context that uses `F` in gates or policies **SHALL** write those thresholds explicitly.
-- `CC-F-15` Language-state facets such as articulation or closure **MUST NOT** be hidden as pseudo-levels of `F`.
+- `CC-F-1` An assessment relied on in use **SHALL** identify the assessed expression, selected properties and their grounds. Normative content **SHALL** make its necessary expression conditions recoverable; a universal F value is not required.
+- `CC-F-2` A local ordinal summary **SHALL** declare its scale and mapping. Arithmetic over its levels is invalid unless a separately justified quantitative scale is established.
+- `CC-F-3` A claim of greater formality **SHALL** name the strengthened property or declared order. It **SHALL NOT** imply greater truth, trust or scope by itself.
+- `CC-F-4` Status, maturity or tool labels **MUST NOT** substitute for the assessment of expression properties.
+- `CC-F-5` A local refinement or sublevel **SHALL** preserve its declared parent criteria; a cross-scale comparison requires an explicit meaning-preserving basis.
+- `CC-F-6` A composite assessment **SHALL** cover the essential content and inferences of the named whole. It **SHALL NOT** inherit a property from constituents without the composition preserving that property.
+- `CC-F-7` Implementations **MUST NOT** average unrelated formality properties or local ranks into an undeclared score.
+- `CC-F-8` Changes in G, R or CL **SHALL NOT** change an expression assessment unless its own grounds change.
+- `CC-F-9` Transport **SHALL** preserve a formality assessment only when its relied-on properties and interpretation are preserved. A receiving rewrite that changes claim content, EntityOfConcern or the effective reference scheme has its own episteme identity under C.2.1.
+- `CC-F-10` Translation and bridge limitations **SHALL** remain explicit for the receiving use. Assess assurance effects under their governing models.
+- `CC-F-11` Assigned properties **SHALL** be supported by the actual terms, predicates, semantics, derivations or other assessed content. A claimed checking result needs its own evidence.
+- `CC-F-12` A named notation, prover, calculus or execution harness **SHALL NOT** by itself establish the required expression property or a successful check.
+- `CC-F-13` Publication and approval status **MUST NOT** substitute for formality.
+- `CC-F-14` A policy consuming formality **SHALL** state the required properties, or a justified threshold on a named local scale, and keep separate assurance and authority conditions explicit.
+- `CC-F-15` Language-state facets **MUST NOT** be hidden inside a formality rank. Each actual Characteristic used in a space retains its own Scale and slot.
 
 ### C.2.3:8 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern | What it looks like | How FPF prevents it |
-|---|---|---|
-| **Status leakage** | An episteme is called highly formal because it is approved or published. | `CC-F-13` keeps status and formality separate. |
-| **Tool-worship** | A notation, prover, or execution harness is named, so the episteme is rated high-F without checking the content. | `CC-F-11` and `CC-F-12` require observable semantic grounds. |
-| **Appendix inflation** | A small high-formality appendix is used to advertise the whole episteme as high-F. | `CC-F-6` scopes the cap to the assessed composite expression and its essential content or inference. |
-| **Proxy ladder** | A local context invents "bronze / silver / gold" or "ready / mature / final" and uses it instead of `F`. | `CC-F-4` rejects rival ladders. |
-| **Characteristic capture** | Articulation, closure, scope, or evidence is spoken of as if it were part of `F`. | `CC-F-8`, `CC-F-10`, and `CC-F-15` keep the characteristics orthogonal. |
+| Anti-pattern | What it looks like | Repair |
+| --- | --- | --- |
+| Status leakage | Approved content is assumed to have a precise interpretation. | Inspect the terms, conditions and inferences needed for the use. |
+| Tool prestige | A prover or fashionable foundation is named in place of a demonstrated property. | Inspect the actual expression and the relevant checking evidence. |
+| Appendix inflation | A formal annex is used to describe the whole argument as formally derived. | Assess the essential connecting inferences as well as the annex. |
+| One ladder for different capabilities | Execution, hybrid modeling and higher-order proof receive successively higher ranks. | Separate their contributions and test the receiving requirement. |
+| Profile as one Coordinate | Several characteristics are concealed inside one atomic F slot. | Declare the real slots or use an ordinary structured assessment. |
+| Assessment replaces improvement | A larger scorecard is produced while a necessary predicate remains unstated. | Supply the missing expression and repeat its receiving use. |
 
 ### C.2.3:9 - Consequences
 
-| Benefit | Trade-off / Mitigation |
-|---|---|
-| **Shared rigor language.** Cross-domain publication units can be compared by one stable expression characteristic. | Authors must learn the anchor ladder and declare `F` explicitly. |
-| **Safer composition.** Composite epistemes stop inheriting a misleadingly high rigor label from one polished segment. | Reviewers must identify essential support rather than read only visible polish. |
-| **Cleaner governance.** Thresholds can be written as explicit `F` conditions instead of vague maturity labels. | Contexts must translate old local language into the canonical characteristic. |
-| **Better interaction with other characteristics.** `F`, `G`, `R`, and language-state facets remain distinct. | Authors lose the convenience of one master-ladder story; that loss is deliberate. |
+| Benefit | Trade-off and response |
+| --- | --- |
+| Adequate expressions remain usable across different formal traditions. | Comparison needs shared property meanings, not only matching numbers. |
+| Formalization work targets the actual obstacle. | The recipient must state the operation and result that matter. |
+| Composite arguments expose missing connections. | The assessment must include the relevant whole and its essential inferences. |
+| Expression, scope and support remain distinct. | A concise assessment sometimes needs more than one sentence; it need not become a universal form. |
 
 ### C.2.3:10 - Rationale
 
-FPF needs a rigor characteristic that is portable across mathematics, software, systems, policy, and research. The smallest stable answer is one ordinal characteristic with clear anchors and explicit composition rules. Anything more fragmented breaks comparability; anything more compressed hides the substantive differences between sketch, predicate, executable model, and machine-checked proof.
+Formality matters because an expression can make interpretations, operations and inferential commitments available for shared examination. The properties that enable these uses are related but not identical. A formal specification can define what is required without giving a procedure; a procedure can run without expressing a proof of the required property. A richer logic can express additional distinctions without improving an already sufficient statement of an ordinary invariant.
+
+A profile preserves these relations without pretending that every pair has one overall order. Declared local chains remain economical when their criteria are genuinely nested. Comparison then rests on the receiving operation and preserved meaning. Composition follows the same reasoning: a whole must supply the connections its result depends on, while evidence about the world retains its separate role.
 
 ### C.2.3:11 - SoTA-Echoing
 
-Post-2015 practice across formal methods, software architecture, safety engineering, verification, computational science, and typed proof environments converges on one broad lesson: rigor is not binary. It rises through explicit structuring, predicate expression, executable semantics, and machine-checked obligations. `C.2.3` adopts that gradient while keeping the characteristic notation-agnostic and transdisciplinary.
+| Source and scope | Contribution used here | Limit of the transfer |
+| --- | --- | --- |
+| Kuhn (2014), [A Survey and Classification of Controlled Natural Languages](https://aclanthology.org/J14-1005/), §§3–3.2 and the qualification at the end of §3.4; established classification basis. | Precision, expressiveness, naturalness and simplicity answer different questions. Even the paper's ordered summaries are deliberate simplifications rather than an overall quality ranking. | PENS classifies languages. It does not directly rate an individual episteme, and its classes are not imported as F values. |
+| ter Beek et al. (2024; volume edition 2025), [Formal Methods in Industry](https://doi.org/10.1145/3689374), §§1–2.2; contemporary account of industrial formal methods. | Formal specification, verification, execution and different verification techniques have distinct roles. Formal reasoning can apply to a non-executable specification; tool choice depends on the question and available support. | The discussion principally concerns computing systems. The profile and transdisciplinary receiving-use rule here are FPF's construction, not a scale claimed by that survey. |
+| [Isabelle overview](https://isabelle.in.tum.de/overview.html), maintained tool documentation, including its HOL and LCF account. | A higher-order environment supplies formal statements and checked reasoning with substantial reusable libraries. | The availability of these capabilities does not establish that a particular submitted expression or proof has passed its required checks. |
+| [The HoTT Book](https://homotopytypetheory.org/book/), authors' description of univalent foundations; foundational source. | Univalence and higher inductive types change what can be expressed and how mathematical reasoning is organized. | A different foundation is not a higher universal formality rank. Its relevance depends on the needed structures and admitted assumptions. |
+
+These sources support distinctions among actual capabilities and formal bases. They do not establish a total order from prose through execution to successive schools of logic. Apply the assessment method above to the expression and use at hand; consult the sources when their particular language or apparatus is in question.
 
 ### C.2.3:12 - Relations
 
-- **Defines:** U.Formality for epistemes, including the F result consumed by an assurance argument when its use requires that characteristic.
-- **Builds on:** characteristic machinery from `A.18` / `A.19` and episteme-level characteristic assignment from Part C.
-- **Coordinates with:** `C.2.2`, `B.3`, `F.9`, `C.2.LS`, `A.16`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7`.
-- **Coordinates with:** `C.19.2` when a declared use asks whether increasing rigor of expression or selecting/configuring a formal apparatus repays application work. `F` measures expression rigor; it does not select the apparatus, plan the work, or establish the problem-facing result.
-- **Constrains:** any pattern, gate, or editorial rule that speaks about rigor of expression.
+- **Uses:** A.18 and A.19 for declared Characteristics, Scales, profiles represented in spaces and any order overlay.
+- **Coordinates with:** C.2 and C.2.2 for epistemic composition and assurance; B.3 when an assurance argument consumes the assessment.
+- **Coordinates with:** C.2.LS, A.16 and C.2.4–C.2.7 for language-state properties that retain their own meanings.
+- **Uses:** C.19.2 when selecting or configuring a formal apparatus is the missing practical contribution; C.39 when a way to obtain the result must be developed.
+- **Coordinates with:** F.9 for a cross-context transfer whose mapping and limitations affect the receiving expression.
 
-### C.2.3:13 - Canonical Anchors `F0...F9`
+### C.2.3:13 - Distinctions for describing expression
 
-> **Reading rule.** Anchors are ordinal. They say what is minimally true of the expression form, not what is true of the world.
+The following descriptions identify common contributions. They are neither mutually exclusive classes nor consecutive levels. Select only distinctions needed by the receiving operation.
 
-#### C.2.3:13.1 - `F0` - Unstructured prose
+#### C.2.3:13.1 - Unstructured prose
 
-Free natural language with unstable vocabulary, implicit assumptions, and no stable internal structure.
+Free natural language may leave vocabulary, assumptions and connections unstable. It can still preserve an observation or start an inquiry. Identify the ambiguity that obstructs the next use before requiring a more elaborate form.
 
-#### C.2.3:13.2 - `F1` - Scoped notes
+#### C.2.3:13.2 - Scoped notes
 
-Still informal, but with stable topic focus and more consistent terminology. Scope is named even though criteria are not yet operationalized.
+A note can identify its topic and use terms consistently while leaving criteria informal. Naming the subject helps interpretation; it does not by itself formalize a predicate or narrow claim scope. Assess scope separately.
 
-#### C.2.3:13.3 - `F2` - Structured outline
+#### C.2.3:13.3 - Structured outline
 
-A recognizable template or full section shape exists. The expression is coherent end-to-end, but acceptance criteria are still largely placeholders or informal.
+A coherent section structure helps readers find claims and their grounds. Placeholder criteria can remain inside a complete outline. Editorial organization is useful, but inspect what the filled content actually defines.
 
-#### C.2.3:13.4 - `F3` - Controlled narrative
+#### C.2.3:13.4 - Controlled narrative
 
-Claims are expressed in constrained prose with stable interpretation. Acceptance or refusal conditions are visible in language, even if not yet fully predicate-like.
+Constrained prose can stabilize interpretation and state acceptance or refusal conditions. This may be sufficient for a competent reader's decision. Automatic interpretation needs an additional mapping or semantics when the prose itself does not supply one.
 
-#### C.2.3:13.5 - `F4` - First-order constraints
+#### C.2.3:13.5 - Explicit predicates and constraints
 
-Critical claims can be rendered as explicit predicates or invariants over typed entities. Consistency and conflict are at least checkable in principle.
+Typed entities, bound variables, units, domains and an interpretation make a predicate recoverable. The claim's consistency or consequence can then be examined under the declared semantics. A written formula with undefined symbols does not supply this contribution; an explicit predicate need not be executable or proved.
 
-#### C.2.3:13.6 - `F5` - Executable math / algorithmics
+#### C.2.3:13.6 - Executable semantics
 
-The expression has declared executable semantics. Running the model, algorithm, or simulation is part of its meaning.
+An expression can define how an interpreter or procedure produces results. Declare the relevant input meanings, operation and output interpretation. This enables a run under those conditions; it does not establish a separate invariant or substitute for its specification. A non-executable formal statement can remain sufficient for a mathematical argument.
 
-#### C.2.3:13.7 - `F6` - Hybrid formalism
+#### C.2.3:13.7 - Coupled formalisms
 
-Several formal layers are coordinated explicitly, typically discrete plus continuous or several tightly coupled formal subsystems, with declared obligations between them.
+A hybrid controller model can relate discrete transitions to continuous evolution; another account can connect several formal subsystems. State their shared meanings and interconnection obligations. Additional formalisms introduce relations to establish, not an automatic increase in rigor. Assess whether the whole preserves the properties its intended use needs.
 
-#### C.2.3:13.8 - `F7` - Higher-order verified
+#### C.2.3:13.8 - Formally expressed derivation
 
-Core claims are encoded in a proof-capable higher-order setting and machine-checked against that logic kernel.
+A derivation states how its conclusion follows from declared premises under an identified calculus. Inspect the essential inferential steps, including their connection to the stated conclusion. A checked derivation in higher-order logic can satisfy this need without translation into dependent type theory.
 
-#### C.2.3:13.9 - `F8` - Dependent / constructive proofs
+#### C.2.3:13.9 - Properties expressed in types and proof terms
 
-Programs-as-proofs or dependent-type expressions carry the relevant property in their types or proof terms.
+A dependent type can express a property of a program or mathematical object; a term can carry a derivation of that property under the calculus. Recover the exact proposition, assumptions and term. Distinguish that expression from evidence that the required checker accepted it. Its usefulness may include preventing a particular invalid construction or connecting a program to its specification.
 
-#### C.2.3:13.10 - `F9` - Univalent / higher foundations
+#### C.2.3:13.10 - Higher equalities and univalent foundations
 
-Higher-equality foundations are load-bearing. The expression relies on a frontier-grade setting where equivalence is handled as structure-level identity.
+When a question needs relationships among equalities or a particular treatment of equivalence, name those structures and the foundation used to express them. This can change the available construction or proof. It does not strengthen every unrelated invariant or make simpler formal foundations inadequate.
 
-#### C.2.3:13.11 - Cross-anchor cautions
+#### C.2.3:13.11 - Keeping the distinctions together
 
-- Execution is not proof.
-- Surface structure is not yet semantics.
-- Publishing or approval is not an anchor.
-- A local sub-anchor does not erase its parent anchor's meaning.
+A useful assessment explains which of these contributions cooperate. A controlled requirement can be related to a formal invariant and an executable model, with a derivation connecting the model to the invariant. The links carry claims of their own. Check the required link when its meaning or assumptions change; do not infer the whole connection from the presence of all three documents.
 
-### C.2.3:14 - Assigning `F` in Practice
+### C.2.3:14 - Assessing formality in practice
 
 #### C.2.3:14.1 - First-pass questions
 
-1. **Can a competent reader misread the claim materially?**
-   If yes, the expression is likely at `F0-F2`; if not, it may be `F3` or above.
-2. **Are the critical claims visible as explicit predicates or invariants?**
-   If yes, the expression is at least `F4`.
-3. **Does the expression have declared executable semantics?**
-   If yes, it is likely in the `F5-F6` region.
-4. **Are proofs of the core claims checked by a logic kernel or a dependent type checker?**
-   If yes, the expression is likely `F7-F8`, or `F9` if higher-equality machinery is essential.
+1. Which claim, declaration or argument must be understood, executed, combined or checked?
+2. Are its terms, domains and interpretation sufficient for that operation?
+3. Are the required predicates, operations and inference steps actually expressed?
+4. Which calculus and assumptions matter, and what checking result is available when required?
+5. Would changing the expression property change the receiving result, or would it only add unused apparatus?
 
-#### C.2.3:14.2 - Quick rubric
+#### C.2.3:14.2 - Short assessment
 
-- No full structure -> `F0-F1`
-- Full structure but mostly placeholder criteria -> `F2`
-- Controlled prose with one stable reading -> `F3`
-- Explicit predicates / invariants -> `F4`
-- Declared executable semantics -> `F5`
-- Hybrid / layered formal obligations -> `F6`
-- Machine-checked proof core -> `F7`
-- Dependent proof-carrying core -> `F8`
-- Higher-equality foundations are essential -> `F9`
+A short assessment names the subject, required properties, observed basis and consequential gap. For example: “The interface condition gives typed inputs and outputs and an explicit postcondition. The procedure has executable semantics. The preservation of this postcondition across the retry branch is not expressed.” The next useful change is the missing retry argument, not the acquisition of a more elaborate specification language.
 
-#### C.2.3:14.3 - Typical delta-`F` moves
+For repeated comparisons, use the same property meanings and conditions for every candidate. A compact profile can record them. Add a local rank only when its declared mapping preserves the distinctions used by the comparison.
 
-- `F2 -> F3`: replace loose prose with controlled phrasing and explicit acceptance statements.
-- `F3 -> F4`: recast acceptance into typed predicates or invariants.
-- `F4 -> F5`: give the expression declared executable semantics.
-- `F5 -> F6`: make multi-layer obligations explicit.
-- `F6 -> F7/F8`: move critical claims into machine-checked proof or dependent-type form.
+#### C.2.3:14.3 - Typical improvements
 
-### C.2.3:15 - Composition and Interaction
+- Replace unstable terms with explicit definitions and consistent references when interpretation is blocked.
+- State a necessary acceptance condition as a predicate with its types, units and meaning when it must be evaluated or reasoned about.
+- Supply operational semantics when the result must be computed.
+- State the relations and obligations joining formal subsystems when the whole must be analysed.
+- Express the missing derivation when the result depends on a conclusion from premises, then obtain the checking evidence required for that use.
 
-#### C.2.3:15.1 - Weakest-essential-support rule
+These changes can occur independently or together. Describe the property changed; use a local rank difference only when the named scale gives it meaning.
 
-Identify the assessed episteme’s expressed claim or argument and the compositional support relation it actually uses. Its F is bounded by the least-formal essential content or inference within that assessed expression. A machine-checked annex does not make an informal connecting inference machine-checked.
+### C.2.3:15 - Composition and interaction
 
-External evidence has a different role. A typed claim supported by an informal observation can remain F4 because its predicates and types are explicit, while its warrant remains weak or unresolved under B.3. If the assessed bearer is instead the whole argument, an essential inference expressed only as controlled prose caps that argument at F3 despite an F7 annex. Name that bearer and inference; do not take a minimum over every external source in an evidence chain.
+#### C.2.3:15.1 - Essential-content and connection rule
 
-#### C.2.3:15.2 - Relation to `G`
+Identify the assessed episteme's expressed claim or argument and its compositional support relation. A property of the whole requires the relevant properties of its essential content and of the inferences that connect it. A machine-checked annex does not make an informal connecting inference machine-checked. Listing common constituent properties is also insufficient when the composition can fail to preserve them.
 
-`F` concerns expression form; `G` concerns applicability or claim scope. Tightening scope may accompany a raise in `F`, but it is a separate change and must remain visible as such.
+External evidence has a different role. A typed claim supported by an informal observation can retain its explicit predicate and interpretation while its empirical warrant remains weak or unresolved under B.3. If the assessed subject is instead the whole argument, include its essential observation-to-conclusion inference in that assessment. Do not take a minimum over every external source in an evidence chain.
 
-#### C.2.3:15.3 - Relation to `R`
+A minimum can abbreviate an upper bound on a local ordered scale only when all assessed parts use that scale and the composition rule establishes the bound, including the connection. A minimum alone does not prove that the whole meets that level; additional joining obligations may remain. Without that basis, inspect the needed properties directly.
 
-Higher `F` often makes evidence easier to formulate, test, or prove, but it does not create warrant strength by itself. Empirical freshness, corroboration, and bridge penalties remain `R` concerns.
+#### C.2.3:15.2 - Relation to G
 
-#### C.2.3:15.4 - Relation to `CL` and Bridges
+Formality concerns expression; G concerns applicability or claim scope. Making an assumption explicit can reveal that the claim applies less widely than expected. Record that scope correction separately from the improvement in expression. A precise claim can still have broad scope.
 
-A bridge may expose loss or mismatch across contexts. Preserve that limitation for the actual receiving use and assess any R effect under its justified model; the loss does not silently lower or raise the attributed F. A receiving rewrite that changes claim content, EntityOfConcern, or the effective reference scheme identifies a new episteme under `C.2.1`; that episteme should be published with its own `F`.
+#### C.2.3:15.3 - Relation to R
 
-### C.2.3:16 - Worked Examples
+An explicit expression can make a claim easier to test or its derivation easier to check. It does not create empirical support. A checked formal argument establishes its conclusion under the admitted premises and calculus; applying that conclusion to the world additionally needs the relevant interpretation and evidence. Assess freshness, corroboration and mapping limitations under their actual assurance models.
+
+#### C.2.3:15.4 - Relation to CL and Bridges
+
+A Bridge may expose loss or mismatch across contexts. Preserve that limitation for the receiving use. Reuse a formality assessment only if the properties and interpretation on which it relies survive the transfer. A receiving rewrite that changes claim content, EntityOfConcern or the effective reference scheme identifies a new episteme under C.2.1; assess the expression of that episteme. A changed carrier alone does not require a new assessment.
+
+### C.2.3:16 - Worked examples
 
 #### C.2.3:16.1 - Research hypothesis
 
-A short note proposing a new scaling law with one stable reading and explicit acceptance conditions in prose is typically `F3`. Rewriting the acceptance conditions as typed predicates would move it toward `F4`.
+A short note proposes a scaling law with stable terms and acceptance conditions in prose. That can be enough to decide which measurement to attempt. Writing the relation with explicit variables, units and parameter conditions enables a quantitative comparison. The expression becomes more determinate in those respects; the fit to observations remains a separate question. A poor fit is not repaired by making the same formula typographically more formal.
 
 #### C.2.3:16.2 - Interface specification
 
-An interface specification with explicit preconditions, postconditions, and invariants is typically `F4`. Adding declared executable semantics in a faithful reference model may move it toward `F5`.
+An interface specification declares preconditions, postconditions and invariants with their types and interpretation. It can be used to compare designs before an implementation exists. A faithful executable reference model adds the ability to run scenarios. A running implementation that omits the postcondition does not dominate that specification: the two expressions supply different contributions. To claim conformance, connect the implementation behavior to the required postcondition and supply the needed argument or test.
 
 #### C.2.3:16.3 - Safety controller
 
-A controller coupled to a plant model with explicit hybrid obligations is typically `F6`. If key invariants are then machine-checked in a higher-order proof environment, those claims move toward `F7`.
+A controller and plant model express discrete transitions, continuous evolution and the obligations connecting them. A proof of an invariant in higher-order logic can satisfy a requirement for an explicitly derived invariant under those assumptions. A checked dependent-type development can satisfy the same requirement. Choose between adequate options by compatibility, available proofs and application cost through C.19.2; there is no general requirement to replace HOL with a supposedly higher foundation. If the plant-assumption evidence is weak, retain that limitation even when the derivation is fully checked.
 
 #### C.2.3:16.4 - Decision policy
 
-A normative policy stating in controlled prose that requests exceeding a thirty-minute planned-duration ceiling fail that budget condition may declare F3 without any B.3 assurance result. An expression with a typed Plan variable p, plannedMinutes(p) in nonnegative real minutes, and meetsBudget(p) iff plannedMinutes(p) ≤ 30 satisfies the F4 predicate/type basis for this condition. The rating follows those observable expression properties, not a software tool or a readability claim. Meeting the expressed budget condition alone supplies neither other eligibility conditions nor permission.
+A policy says in controlled prose that a request exceeding a thirty-minute planned-duration ceiling fails the budget condition. To evaluate that condition automatically, introduce a Plan variable p, define plannedMinutes(p) in nonnegative real minutes and state `meetsBudget(p) iff plannedMinutes(p) <= 30`. The expression now gives the needed domain, unit and predicate. Its evaluation can answer the budget question; it supplies neither the other eligibility conditions nor permission to proceed.
+
+If “duration” later means elapsed duration rather than planned duration, retaining the formula's printed shape is insufficient. The input interpretation and therefore the condition have changed. Return to the affected policy meaning and uses.
 
 #### C.2.3:16.5 - Proof-bearing algorithm
 
-A dependent-typed algorithm whose central property is carried by the type itself is typically `F8`.
+An algorithm's dependent type states a length-preservation property, and its term expresses a derivation under the chosen type theory. Inspect the property and term, then recover the required checking result. A separate HOL proof of the same stated property may be equally sufficient for the recipient. If a new task instead requires reasoning about higher equalities or a specific univalent construction, it changes the apparatus requirement. That new requirement does not retrospectively make the earlier sufficient derivation less rigorous.
 
 #### C.2.3:16.6 - Executable ML recipe
 
-A fully explicit training-and-evaluation recipe with declared execution semantics is typically `F5`. It does not become `F7` merely because the surrounding execution machinery is sophisticated.
+A training-and-evaluation recipe declares the inputs, parameters, operations and output interpretation needed to repeat a run. This supplies executable meaning. It does not express a proof of generalization merely because the harness is sophisticated. If the receiving use needs an empirical performance estimate, obtain the corresponding observations and inference. If it needs a formal property of the procedure, state and derive that property under a suitable model. The two continuations repair different gaps.
 
-### C.2.3:17 - Authoring and Review Guidance
+### C.2.3:17 - Guidance for developing and examining expressions
 
 #### C.2.3:17.1 - For authors
 
-Declare `F` honestly and early. A low `F` declaration is not a defect; it is often the correct statement about an early expression. Raise `F` by changing the expression form itself, not by applying prestige language or by pointing to surrounding machinery.
+Make the expression sufficient for its intended use. State a remaining ambiguity, unspecified operation or missing derivation when it changes what a reader can do. An early informal expression can be the appropriate result. Improve the property that blocks the next use, and preserve its connection to the original question.
 
 #### C.2.3:17.2 - For reviewers
 
-Review the assessed claim or argument and its actual expression. Check the target anchor’s observable predicates, types, semantics and proof terms, and any less-formal essential constituent of that same assessed bearer. A missing proof term required by the claimed anchor matters to F; missing external evidence or lower R is a separate warrant question. Check that status, readability and assurance have not replaced the expression test.
+Read the assessed claim or argument and its actual expression. Check its terms, predicates, semantics and required inferences, including essential connections. Recover the basis for any claimed checking result. Keep missing expression, missing proof, weak empirical support and inadequate readability distinct, because they call for different repairs. A complete template or named tool answers none of those questions alone.
 
 #### C.2.3:17.3 - For integrators and assurance leads
 
-Use `F` explicitly in gates and composition analysis, but do not let it absorb work that belongs to `G`, `R`, `CL`, or `C.2.LS`. Large `F` gaps across collaborating epistemes are signals for explicit formalization work, not excuses for wishful leveling.
+State the expression properties a receiving operation consumes. For a composition or transfer, establish their preservation through its actual connections. Reuse a declared local scale when it captures those needs; retain the underlying meaning when several participants use different scales. Apply separate scope, evidence, authority and language-state conditions where they matter.
 
-### C.2.3:18 - Glossary and Notation
+### C.2.3:18 - Glossary and notation
 
-- **`U.Formality` / `F`.** The rigor-of-expression characteristic governed by this pattern.
-- **Anchor.** A named ordinal milestone on the `F` ladder.
-- **Sub-anchor.** A context-local refinement docked to one parent anchor.
-- **Delta-`F`.** A content change that alters expression rigor.
-- **Essential support for composite F.** Content or inference required by the assessed composite expression under its named compositional support relation; external evidential warrant is assessed separately.
-- **Example notation.** `F = F4`, `F = F7[HOL]`, `requires F >= F6`.
+- **Formality assessment (F).** An assessment of selected properties of an episteme's expression, with its subject, interpretation and basis recoverable.
+- **Formality profile.** A structured account of those selected properties; when represented in a CharacteristicSpace, each actual Characteristic has its own declared slot.
+- **Local ordered summary.** An explicit mapping from such assessments to a named ordinal scale whose levels have justified nested criteria.
+- **Change in formality.** A change in an assessed property or in a justified order, not a numerical difference between unrelated labels.
+- **Essential content and inference.** The content and connecting reasoning required by the assessed whole under its named composition relation; external warrant is assessed separately.
+- **Example notation.** `F: explicit typed invariant; derivation not supplied`, or a threshold on a specifically declared local specification-expression scale.
 
-### C.2.3:19 - Change Log and Patch Notes
+### C.2.3:19 - Reusing an earlier assessment
 
-#### C.2.3:19.1 - Supersession of legacy ladder language
+#### C.2.3:19.1 - Recover the assessed meaning
 
-This pattern supersedes deprecated wording that speaks about alternate formality modes, tiers, or editorial ladders. Forward-looking use should speak in `F` directly.
+An earlier label such as F4 or F8 is a locator for an assessment, not enough information to use it. Recover the actual expression, criteria and basis. Preserve useful properties already established, such as explicit predicates, executable semantics or a checked derivation. Do not infer a new profile or admissibility result from the number alone.
 
-#### C.2.3:19.2 - Migration guidance
+#### C.2.3:19.2 - Reuse a sufficient result
 
-When refreshing legacy material, assign an initial `F` from observable content, replace local maturity labels used as rigor surrogates with explicit `F` declarations, and keep provenance notes only as historical annotations rather than live rigor surrogates.
+When the same expression properties and conditions still answer the receiving question, reuse the assessment. If an earlier requirement was written only as a rank, recover what operation and guarantee it was meant to protect before replacing it with explicit criteria or a justified local threshold. A binding requirement is changed through its governing authority; a revised vocabulary does not silently waive it. Reassess only the properties or dependent conclusions whose basis has changed.
 
 #### C.2.3:19.3 - Boundary to language-state facets
 
-For the language-space extension, `F` does **not** govern `U.ArticulationExplicitness`, `U.LanguageStateClosureDegree`, `U.LanguageStateAnchoringMode`, or `U.LanguageStateRepresentationFactorBundle`. Contexts **MUST NOT** hide thresholds for those facets as pseudo-levels or submodes of `F`; those facets remain explicitly governed by `C.2.LS` and its subordinate patterns.
+This pattern does not redefine `U.ArticulationExplicitness`, `U.LanguageStateClosureDegree`, `U.LanguageStateAnchoringMode` or `U.LanguageStateRepresentationFactorBundle`. C.2.LS and its subordinate patterns govern those facets. A formality assessment can refer to their results when relevant, but must not relabel them as steps of one rigor scale.
 
 ### C.2.3:End
 

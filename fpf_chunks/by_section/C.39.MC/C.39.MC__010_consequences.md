@@ -6,12 +6,12 @@ section_id: "C.39.MC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__010_consequences.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:9 — Consequences"
-line_start: 84105
-line_end: 84110
+line_start: 84118
+line_end: 84123
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"

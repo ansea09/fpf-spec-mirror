@@ -6,12 +6,12 @@ section_id: "C.3.5:1"
 section_title: "Purpose"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__002_purpose.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:1 — Purpose"
-line_start: 55985
-line_end: 55996
+line_start: 55994
+line_end: 56005
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -37,7 +37,7 @@ Teams need a quick answer to a planning question: is this local kind intended as
 KindAT gives that planning vocabulary while keeping the governing objects separate:
 
 - the local kind and its order remain under C.3/C.3.1;
-- the `KindSignature` remains a declaration episteme whose own `U.Formality` may change;
+- the `KindSignature` remains a declaration episteme whose expression properties may change under C.2.3;
 - for an admissible request, `J(candidate, kind, signatureEdition, slice)` remains `true`, `false`, or `unknown`;
 - any `KindExtension` remains a pinned-edition representation of true candidates; and
 - bridge and kind-use adaptation objects retain the ontology assigned by C.3.3 and C.3.4.

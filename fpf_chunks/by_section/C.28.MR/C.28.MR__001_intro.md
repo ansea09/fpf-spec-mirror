@@ -6,12 +6,12 @@ section_id: "C.28.MR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__001_intro.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:intro — Intro"
-line_start: 68806
-line_end: 68811
+line_start: 68817
+line_end: 68822
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"

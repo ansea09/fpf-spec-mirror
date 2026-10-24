@@ -6,12 +6,12 @@ section_id: "C.3.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__001_intro.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:intro — Intro"
-line_start: 55555
-line_end: 55573
+line_start: 55562
+line_end: 55580
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -38,7 +38,7 @@ keywords:
 - **C.3.2 — Kind intent, admissibility, judgment, and extension:** check `admissible | not-applicable` before a fresh `true | false | unknown` receiving judgment.
 - **A.2.6 — USM:** Claim scope and selected context slices remain separate from kind identity and kind correspondence.
 - **C.2.2 — F–G–R:** justified bridge penalties affect reliance R, not F or G.
-- **C.2.3 — U.Formality:** formality belongs to the declaration or assertion episteme.
+- **C.2.3 — Formality assessment:** the assessed expression properties belong to the declaration or assertion episteme.
 
 **Non-goals.** No repository or notation mandate. No Scope mapping here. No bridge from a locality change alone. No transfer of classification truth. `CL^k` reuses an ordinal congruence anchor for a declared kind-correspondence use without becoming a universal interoperability score.
 

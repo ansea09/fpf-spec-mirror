@@ -6,12 +6,12 @@ section_id: "C.40.NP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NP/C.40.NP__011_rationale.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
   - "C.40.NP:10 — Rationale"
-line_start: 88369
-line_end: 88372
+line_start: 88382
+line_end: 88385
 dependencies:
   - "C.18"
   - "C.19"

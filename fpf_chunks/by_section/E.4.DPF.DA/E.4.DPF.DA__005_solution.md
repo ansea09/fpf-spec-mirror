@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__005_solution.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:4 — Solution"
-line_start: 94690
-line_end: 94906
+line_start: 94707
+line_end: 94927
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -198,6 +198,10 @@ In this pattern, `known failure modes` means beginner mistakes and experienced-p
 | `D10ImprovementAndRefreshAdequacy` | Can the package improve through `E.22` and `E.23` and refresh through `G.11` without giant reopen or process theatre? | Low values produce repair rows; source, edition, telemetry, and use failures have smallest reopen routes. |
 | `D11DomainSoTAAlignmentAdequacy` | Does current domain or local SoTA discipline pattern selection, solution, examples, boundaries, and reopen triggers? | Sources change the package content; they are not bibliography, claim theatre, or authority by citation. |
 | `D12DomainProblemFamilyCoverageAdequacy` | Does this current framework edition adequately answer its public field promise through its selected pattern sets and relied-on external results? Judge how the patterns actually work together, whether the first use can proceed without unpublished authoring context, what a representative cross-problem case reveals, and which important omissions remain. | The assessment shows what the current FPF and admitted DPFs provide for this edition, what remains uncovered, how the selected pattern sets work together, where later authors can revisit each important source-backed claim, and what observation reopens the answer. It checks that the first use includes every required pattern from this DPF. For every relied-on external result, it identifies the result, direct kind, supplying product and edition or current state, receiving use, discovery route, material currentness or availability, and externality; it keeps MethodDescription reference, source-evidence use, and unavailable-result statement separate. D12 records no proof that an author previously revisited coverage. |
+
+For D12, recover the field account required by E.4.DPF:4.0, and E.4.DPF:4.0.1 for a Suite, before treating the selected patterns or their worked cases as the coverage boundary. Compare the promised subject with the public explanation and the actual supplying contributions. Follow a consequential question about how its units, relations or operations are obtained or revised, and a change that can alter the choice or connection of Methods. Reuse adequate existing evidence.
+
+Distinguish declared preparation and a reader's ordinary construction by a supplied Method from an explanation or operation that the reader had to invent to supply the framework's promise. Retain successful bounded uses while returning a missing field-level contribution. This judgement concerns what the current edition explains and enables; it neither demands an exhaustive catalogue nor follows from having enough examples.
 
 #### E.4.DPF.DA:4.3 - Result row shape
 

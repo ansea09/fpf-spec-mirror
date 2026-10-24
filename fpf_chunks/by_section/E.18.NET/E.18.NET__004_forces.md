@@ -6,12 +6,12 @@ section_id: "E.18.NET:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__004_forces.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:3 — Forces"
-line_start: 111708
-line_end: 111718
+line_start: 111729
+line_end: 111739
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -43,7 +43,7 @@ keywords:
 | Force | Tension to hold |
 | --- | --- |
 | Local autonomy vs one engineering question | Members keep their identity and state while a selected structure makes their exact coordination inspectable. |
-| Recursive reuse vs fixed levels | A member may itself be a network, but membership paths must remain finite and acyclic. |
+| Recursive reuse vs finite membership paths | A member may itself be a network, but membership paths must remain finite and acyclic. |
 | Plain diagrams vs exact relations | A readable edge helps recognition, but only an obtaining relation of an admitted kind contributes to identity. |
 | Boundary exposure vs flattening | A parent can use a nested boundary position without copying the nested member's internal structure. |
 | Useful local state vs false global state | Valuation, path slice, and `DesignRunTag` remain local to one leaf TFS position binding. |

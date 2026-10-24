@@ -6,12 +6,12 @@ section_id: "C.41.OF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.OF/C.41.OF__010_consequences.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
   - "C.41.OF:9 — Consequences"
-line_start: 88888
-line_end: 88891
+line_start: 88901
+line_end: 88904
 dependencies:
   - "A.15.8"
   - "C.41"

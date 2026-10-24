@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.3.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
-line_start: 118596
-line_end: 118852
+line_start: 118621
+line_end: 118877
 dependencies:
   - "A.11"
   - "A.7"

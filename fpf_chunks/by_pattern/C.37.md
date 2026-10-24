@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.37.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
-line_start: 81900
-line_end: 82182
+line_start: 81913
+line_end: 82195
 dependencies:
   - "A.10"
   - "A.2.4"

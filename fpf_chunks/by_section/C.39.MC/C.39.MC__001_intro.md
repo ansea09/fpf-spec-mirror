@@ -6,12 +6,12 @@ section_id: "C.39.MC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__001_intro.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:intro — Intro"
-line_start: 83941
-line_end: 83947
+line_start: 83954
+line_end: 83960
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"

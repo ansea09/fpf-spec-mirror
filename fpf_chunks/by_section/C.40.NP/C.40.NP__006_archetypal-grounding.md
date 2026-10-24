@@ -6,12 +6,12 @@ section_id: "C.40.NP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NP/C.40.NP__006_archetypal-grounding.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
   - "C.40.NP:5 — Archetypal Grounding"
-line_start: 88313
-line_end: 88340
+line_start: 88326
+line_end: 88353
 dependencies:
   - "C.18"
   - "C.19"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.3"
-pattern_title: "Unified Formality Characteristic F"
+pattern_title: "Formality of an Episteme"
 section_id: "C.2.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__004_forces.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
-  - "C.2.3 — Unified Formality Characteristic F"
+  - "C.2.3 — Formality of an Episteme"
   - "C.2.3:3 — Forces"
-line_start: 53103
-line_end: 53112
+line_start: 53096
+line_end: 53106
 dependencies:
   - "A.16"
   - "A.18"
@@ -21,28 +21,28 @@ dependencies:
   - "C.2"
   - "C.2.2"
   - "C.2.4"
-  - "C.2.5"
-  - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "C.39"
   - "F.9"
 keywords:
-  - "F-scale"
-  - "F0-F9"
-  - "Formality"
+  - "Formality assessment"
+  - "expression properties"
   - "language-state separation"
+  - "local ordinal scale"
+  - "partial order"
   - "proof"
-  - "rigor"
   - "specification"
 ---
 
 ### C.2.3:3 - Forces
 
 | Force | Tension |
-|---|---|
-| **Readability vs precision** | Natural language is fast and legible; formal systems are unambiguous and checkable. F needs a gradient, not a cliff. |
-| **Local freedom vs shared comparability** | Contexts need local exemplars and thresholds, but cross-context reasoning requires one stable characteristic. |
-| **Exploration vs assurance** | Early work must be allowed at low F, while high-assurance work needs explicit higher anchors. |
-| **Notation diversity vs semantic stability** | Different symbol systems may express the same rigor level; notation choice alone must not redefine F. |
-| **Thin characteristic vs rich practice** | The core characteristic should stay simple, while still supporting concrete guidance, examples, and review discipline. |
+| --- | --- |
+| Readability and precision | Familiar prose can communicate efficiently; formal syntax and semantics can enable operations that prose does not define. |
+| Shared comparison and different uses | Common property meanings permit comparison; different uses can require different combinations of them. |
+| Exploration and assurance | An early conjecture can be useful before its interpretation or proof is complete; a stronger use needs the missing contribution. |
+| Notation and meaning | Different calculi can express the same required property; they can also differ in assumptions, expressiveness and available proof techniques. |
+| Constituent and whole | Formal constituents help only when their meanings and the connections required by the whole are also established. |
+| Sufficient explanation and assessment burden | A short assessment can settle an ordinary use; repeated comparison or automation may need a declared characteristic basis. |
 

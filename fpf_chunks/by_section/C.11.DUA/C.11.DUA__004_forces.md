@@ -6,12 +6,12 @@ section_id: "C.11.DUA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__004_forces.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:3 — Forces"
-line_start: 57805
-line_end: 57815
+line_start: 57814
+line_end: 57824
 dependencies:
   - "A.10"
   - "C.11"

@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.P.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
 line_start: 20139
@@ -292,13 +292,13 @@ When alternatives remain unresolved, the note may support explanation only. It c
 
 #### A.6.P:4.10 - Classify boundary claims and keep engineered rewriting epistemic
 
-Use `A.6.B` only when a sentence at the boundary does at least one of four things: defines a truth-conditional relation or signature rule (**L**); decides whether one identified mechanism application may start or continue (**A**); states one individual duty whose actual bearer and `U.Commitment` relation are recoverable (**D**); or states which execution effect or evidence can be observed and under which conditions (**E**). A sentence about claim scope or use, when to start or stop A.6.P, how to correct an endpoint kind, or whether a Bridge is needed does not qualify merely because it limits the repair.
+Use `A.6.B` only when a sentence at the boundary does at least one of four things: defines a truth-conditional relation or signature rule (**L**); decides whether one identified mechanism application may start or continue (**A**); states a generic prescription from an exact normative source, an individual duty with its actual bearer and obtaining `U.Commitment`, or a grant under A.6.B:8.4.1's permission-word branch (**D**); or states which execution effect or evidence can be observed and under which conditions (**E**). A sentence about claim scope or use, when to start or stop A.6.P, how to correct an endpoint kind, or whether a Bridge is needed does not qualify merely because it limits the repair.
 
 Before giving a sentence an **A** label, answer two questions: Which mechanism application is about to start or continue? What predicate is checked at that point to admit or reject it? If either answer is missing, do not label the sentence **A**. Keep its scope or use, A.6.P start or stop decision, endpoint-kind correction, and Bridge need with the patterns that define or constrain those questions. Split any mixed sentence before classifying its claims:
 
 - **L** states the direct relation semantics, declaration invariants, polarity, participant meanings, and any reusable `SlotSpec` typing;
 - **A** states one predicate checked when an identified mechanism application starts or runs. Its result says whether that application is admitted, may continue, or is rejected. A condition does not become **A** merely because it limits a claim, tells an author when to enter or stop this pattern, asks for an endpoint-kind correction, or requires a Bridge;
-- **D** states an obtaining individual `U.Commitment` whose actual duty bearer is an admitted System or other party accepted by A.2.8; a system-role kind or assignment may be an applicability ground but is neither the bearer nor the commitment relation;
+- **D** states what an exact normative episteme prescribes, an obtaining individual `U.Commitment` with its actual duty bearer under A.2.8, or a grant selected by A.6.B:8.4.1 under A.2.8.PER. A generic prescription needs no invented individual bearer or commitment. An individual duty names its actual bearer; a system-role kind or assignment may be a rule ground but is neither that bearer nor the commitment relation. A grant retains its beneficiary, action and own obtaining basis; actual admission decisions and exercise remain separate E claims;
 - **E** states work and evidence expectations, witness carriers, observation conditions, and freshness using the patterns that define those work, evidence, and freshness claims.
 
 Scope, `Γ_time`, viewpoint, reference scheme, witnesses, admissible use, any justified non-admissible overread, and stop or return condition stay with the direct relation or claim that actually needs them. They are not a universal qualifier kit. Select a non-admissible overread through F.19's plausible-reader test. An `admissible use` sentence is not an **A** claim unless the reader can point to both the mechanism application and its runtime entry predicate.

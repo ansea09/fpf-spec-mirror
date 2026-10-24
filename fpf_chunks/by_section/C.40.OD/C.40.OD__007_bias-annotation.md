@@ -6,12 +6,12 @@ section_id: "C.40.OD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__007_bias-annotation.md"
-commit_sha: "a5ac87ac15e78517d12bc66155b9da3ca254b643"
+commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:6 — Bias-Annotation"
-line_start: 87935
-line_end: 87940
+line_start: 87948
+line_end: 87953
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"
