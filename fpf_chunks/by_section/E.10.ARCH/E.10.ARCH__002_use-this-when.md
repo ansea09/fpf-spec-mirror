@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__002_use-this-when.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:0 — Use This When"
-line_start: 100954
-line_end: 100979
+line_start: 100861
+line_end: 100878
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,7 +50,6 @@ dependencies:
   - "E.10.DEV"
   - "E.10.MOVE"
   - "E.11"
-  - "E.18"
   - "E.19"
   - "E.2"
   - "E.20"
@@ -66,19 +65,11 @@ keywords:
 
 ### E.10.ARCH:0 - Use This When
 
-Use this pattern when a recurring FPF-governed wording-use problem survives the normal `F.19` reading and compact `E.10` routing because the wording still hides a stable primary-EntityOfConcern use field set, a stable recovery shape, and a useful reader use.
+Use this pattern when a recurring FPF-governed wording problem survives the normal `F.19` reading and compact `E.10` routing, and a shared recovery rule is needed for the hidden object, relation or use. In DPF authoring, enter through `E.4.DPF` only when recurring domain wording obstructs a named reader use. The shared method remains in FPF; the domain entry stays with its DPF claim.
 
-**Early failure cue.** FPF accumulates many small local wording-recognition lists, and subject patterns start teaching repair doctrine instead of their own EntityOfConcern, invariants, and first useful move.
+**Failure to recognize.** Subject patterns repeat local wording-recognition tables and teach repair doctrine instead of their own governed object, invariant and first useful move. Readers then lack one stable recovery rule.
 
-**Early gain cue.** `F.19` repairs the normal span, `E.10` locates the unresolved FPF use, and `E.10.ARCH` supplies shared ontological recovery only for what remains. State each recovered claim under its defining or constraining rule; identify its exact `ClaimGraph` only when the receiving use depends on that identity.
-
-Use it especially when several subject patterns repeat the same first-stage wording recovery before reaching their own invariants. Locate the unresolved wording use through `E.10:0.2`; section 4 keeps the detailed applicability rows for the selected recovery question.
-
-**Failure shape.** Repeated local contrasts scatter the same wording repair across subject patterns. The reader cannot locate one stable recovery rule or a useful first move.
-
-**Architecture gain.** `F.19` carries the common semantic and pragmatic repair; `E.10` supplies compact cues and routing; `E.10.ARCH` selects shared ontological recovery only when the object or relation remains unresolved; the defining, constraining, or testing rule then supplies the exact subject assertion and first useful move. Cite the PatternID only to locate that rule.
-
-**First useful move.** Decide whether `F.19` and compact `E.10` routing can close the wording, whether the recovered object or claim already has a defining, constraining, or testing rule, or whether one shared applicability row is needed with stable `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, `ontologicalNeighborhood`, recovery apparatus, and reader use.
+**First useful move.** Decide whether `F.19` and compact `E.10` routing can close the wording, whether a subject rule already defines or tests the recovered claim, or whether one shared applicability row is needed. Add that row only for recurring subject distinctions, a stable recovery shape and a useful reader result that no existing rule supplies; §1 gives its content and §6 its admission criterion. Cite a PatternID to locate its rule, and identify an exact `ClaimGraph` only when the receiving use depends on that identity.
 
 | Wording | Applicable result | Grounded distinction in this near-miss |
 | --- | --- | --- |

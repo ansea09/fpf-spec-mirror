@@ -6,12 +6,12 @@ section_id: "E.10.D1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__012_sota-echoing.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:11 — SoTA-Echoing"
-line_start: 101724
-line_end: 101738
+line_start: 101618
+line_end: 101632
 dependencies:
   - "A.1.1"
   - "A.2.6"
@@ -48,5 +48,5 @@ keywords:
 | What does an operating boundary contribute to an environment or operating-condition claim? | Morayo Adedjouma et al., [*Defining Operational Design Domain for Autonomous Systems: A Domain-Agnostic and Risk-Based Approach*](https://doi.org/10.1109/SOSE62659.2024.10620936) (SoSE 2024). | The paper treats an operational design domain as a delimited operating domain that combines technological, environmental, regulatory, and user considerations for autonomous systems. It does not make an environment an architecture or viewpoint. | The environment branch returns to the subject claim and names the holon, relation, state, qualifier, constraint, or condition whose change affects the claim or action. | **Adapt the explicit operating boundary.** Reject automatic promotion to architecture and stop the transfer at claims about operating conditions; the paper does not supply a universal environment ontology. |
 | How should lexical labels remain distinct from concepts, schemes, and ontology entities? | W3C SKOS Recommendation (2009) and OntoLex-Lemon Community Report (2016). | Older but still current reference models for this limited separation. Their classes and mapping properties are source vocabulary, not imported FPF relation semantics. | F.17 defines local expression and sense under a by-value scheme; F.9 independently tests each direct Bridge and each proposed bounded use. | **Adapt.** Keep label/sense/scheme separation; reject scheme membership or a mapping label as relation truth or use permission. |
 
-These comparisons support the recovery branches for the wording uses named here. They do not show that the branch set is complete for every use of *context* or that this method dominates every alternative. The comparison changed the method in four places: it made intended model use explicit; kept claim scope, qualification, and provenance separate; split architecture, viewpoint, and environment; and made the wording repair depend on the reader's next action. Reopen the method when a subject pattern defines a better distinction, a recurring use of *context* needs another productive branch, or a current practice source changes one of these action-bearing separations.
+These comparisons support the recovery branches for the wording uses named here. They do not show that the branch set is complete for every use of *context* or that this method dominates every alternative. Reopen the method when a subject pattern defines a better distinction, a recurring use of *context* needs another productive branch, or a current practice source changes one of these action-bearing separations.
 

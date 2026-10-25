@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__004_forces.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:3 — Forces"
-line_start: 94622
-line_end: 94632
+line_start: 94625
+line_end: 94635
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,7 +64,7 @@ keywords:
 | Domain boundedness vs FPF generality | The DPF must be strong for one domain or local context, not a second FPF Core. |
 | Pattern quality vs package quality | Strong individual patterns can still form a weak package if source, relation, publication, or refresh structures are missing. |
 | Fast seeds vs reliance-bearing packages | A seed may be useful for exploration, but public or operational use needs higher evidence and repair routes. |
-| Source richness vs source theatre | A long bibliography can decorate the package while missing adopted payload, rejected alternatives, currentness, and pattern consequences. |
+| Source breadth vs used content | A long bibliography may omit adopted content, rejected alternatives, currentness and changes to patterns. |
 | Local usability vs formal assurance | Readers need first moves and worked cases, while maintainers need edition, dependency, relation, quality, and refresh records. |
 | Improvement vs proxy optimization | Adding maps, source rows, all-`5` claims, or review proof can make the package less usable. |
 

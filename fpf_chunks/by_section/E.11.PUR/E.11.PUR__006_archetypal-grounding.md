@@ -6,12 +6,12 @@ section_id: "E.11.PUR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__006_archetypal-grounding.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:5 — Archetypal Grounding"
-line_start: 103595
-line_end: 103646
+line_start: 103476
+line_end: 103527
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,7 +64,7 @@ State an unordered coordination: the team may use either pattern first or use th
 
 A design team's comparison rule requires the exact evaluation coordinates for candidates X and Y and their intended review question. The coordination selects its A.19.ECS candidate to supply that EvaluationCharacteristicSpaceSpec under a stated criterion for this task. The known rule, required content and supplier selection establish prerequisite-result precedence even while the spec is absent. Readiness is false when absence is known, or unresolved when its existence/applicability is unknown.
 
-When a current PUA closure identifies the actual spec and its basis meeting those receiving conditions, readiness can be supported. If an earlier ECS result already meets them under §4.2.1, reuse that result without repeating ECS. A same-kind spec for another question is insufficient. If the comparison rule no longer requires this content, the dependency fails; if the rule itself is missing, the dependency is unresolved. Neither result changes candidate inspection or supplies Work authorization.
+When the actual spec and its basis meet those receiving conditions, readiness can be supported. A named later reliance that needs addressable closure also requires the current PUA finding. If an earlier ECS result already meets them under §4.2.1, reuse that result without repeating ECS. A same-kind spec for another question is insufficient. If the comparison rule no longer requires this content, the dependency fails; if the rule itself is missing, the dependency is unresolved. Neither result changes candidate inspection or supplies Work authorization.
 
 #### E.11.PUR:5.4 - Method precondition and a real ordered pair
 

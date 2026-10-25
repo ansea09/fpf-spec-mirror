@@ -6,12 +6,12 @@ section_id: "E.5:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__009_rationale.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:8 — Rationale"
-line_start: 95689
-line_end: 95701
+line_start: 95683
+line_end: 95688
 dependencies:
   - "E.2"
   - "E.3"
@@ -23,15 +23,8 @@ keywords:
 ---
 
 ### E.5:8 - Rationale
-A constitution without enforcement degrades into *dead‑letter rules*.
-The four guard‑rails translate abstract Pillars into **concrete, testable
-constraints**.  Grouping them under one umbrella pattern:
+The four guard-rails turn abstract Pillars into constraints on wording, notation, dependency and bias. Grouping them here gives newcomers one entry to the applicable rule, identifies any needed amendment, and supplies shared requirements for optional automated checks.
 
-* gives newcomers a single “safety index” to consult,
-* makes compliance binary (*pass / amend*),
-* provides a stable anchor for future automated conformance tools—without
-  mentioning any specific engine, thus honouring GR‑1 itself.
+They instantiate Pillars **P-1**, **P-2**, **P-4** and **P-5** and follow the precedence order defined in **E.3**.
 
-They collectively instantiate Pillars **P‑1**, **P‑2**, **P‑4**, **P‑5**
-and reinforce the precedence order defined in **E.3**.
 

@@ -6,12 +6,12 @@ section_id: "E.23.CAE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__012_sota-echoing.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:11 — SoTA-Echoing"
-line_start: 115215
-line_end: 115231
+line_start: 114978
+line_end: 114994
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -28,7 +28,7 @@ keywords:
 
 **Practice question.** When prior performance, failed transfer, or unstable expression leaves several live explanations, what is the smallest current defensible move that distinguishes an envelope or configuration failure, applicability or access failure, context-dependent expression, adaptation or enactment failure, and actual capability change without yet choosing development or repair Work?
 
-**Selected best-known line and serious alternatives.** **Adopt** an observation-first differential: bind the capability claim, hold development or updating fixed where safe, return to a qualified reference condition, vary the smallest decision-bearing condition, separate the observable failure positions, and retain genuine-change and unresolved exits. The serious defaults are to infer capability loss and begin development immediately, or to **adopt** a latent-context or COIN-style explanation as the common mechanism. At comparable first-decision effort, the selected line can be as small as one safe reference return and one discriminating contrast. It is no worse on affordability, safety honesty, or admission of genuine change, and it is better at avoiding premature redevelopment and cross-holder mechanism overreach. Its deliberate cost is that the extra contrast needs a qualified basis, may contaminate or endanger the case, and may truthfully return `unresolvedDifferential`.
+**Selected best-known line and serious alternatives.** **Adopt** an observation-first differential: bind the capability claim, hold development or updating fixed where safe, return to a qualified reference condition, vary the smallest decision-bearing condition, separate the observable failure positions, and retain genuine-change and unresolved exits. The serious defaults are to infer capability loss and begin development immediately, or to **adopt** a latent-context or COIN-style explanation as the common mechanism. At comparable first-decision effort, the selected line can be as small as one safe reference return and one discriminating contrast. It supplies a discriminating observation that the immediate-loss default omits, while retaining genuine-change and unresolved outcomes. Its affordability depends on the qualified contrast and the alternative work it can avoid. Its deliberate cost is that the extra contrast needs a qualified basis, may contaminate or endanger the case, and may truthfully return `unresolvedDifferential`.
 
 **Defect overcome and pattern mutation.** Immediate loss/development projects one failed expression backward into capability change; a universal latent-context account projects one useful human explanation across non-isomorphic holders. The selected line changes `E.23.CAE:4.2` steps 4–8, the observation-qualified dispositions in `4.3`, the three holder cases in `5`, the assurance stop in `4.4`, the anti-patterns in `8`, and the source-sensitive reopen condition in `9`. It leaves mechanisms and interventions with their direct owners.
 

@@ -6,12 +6,12 @@ section_id: "E.5.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.3/E.5.3__002_problem-frame.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.5.3 — Unidirectional Dependency between FPF Families"
   - "E.5.3:1 — Problem frame"
-line_start: 95902
-line_end: 95908
+line_start: 95882
+line_end: 95884
 dependencies:
   - "E.4"
   - "E.5"
@@ -19,9 +19,5 @@ keywords:
 ---
 
 ### E.5.3:1 - Problem frame
-FPF separates artefacts into stable **Conceptual Core**, executable
-**Tooling Reference**, and fast‑evolving **Pedagogical Companion** (see
-E.4 FPF Ecosystem Architecture: Framework Families, Products and DPF Suites).  If dependencies can point *both* ways,
-volatile layers will eventually drag the Core into rapid revision
-cycles or introduce domain‑specific bias.
+Use this pattern when an FPF artefact imports or otherwise depends on another artefact. FPF separates the Conceptual Core, Tooling Reference and Pedagogical Companion under E.4. The dependency direction must preserve that separation while allowing the outer families to change.
 

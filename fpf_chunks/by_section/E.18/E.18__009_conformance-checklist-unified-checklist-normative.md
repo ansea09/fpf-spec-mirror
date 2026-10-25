@@ -6,12 +6,12 @@ section_id: "E.18:7"
 section_title: "Conformance Checklist — Unified checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__009_conformance-checklist-unified-checklist-normative.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:7 — Conformance Checklist — Unified checklist (normative)"
-line_start: 110109
-line_end: 110175
+line_start: 109903
+line_end: 109967
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -86,20 +86,18 @@ The whole table remains available when a use actually combines many branches. Wh
 * *KindSignature (C.3.2)* - definition of a `U.Kind` by intent, extent, and formality; **unrelated** to E.18 locus kinds; never a `genus`.
 * *Species (domain-scoped)* — typed specialisations `speciesOf(kind=...)` that declare `KindDefinition=<pattern id for the current definition>` (e.g., `kind=Mechanism; KindDefinition=A.6.1`).
 * *Semantic Bridge boundary* — F.9 defines and tests an obtaining semantic relation between two exact F.17 cells. A structural crossing or A.6.4 retargeting does not imply that relation; a Bridge Card and `CL` are optional episteme/evidence apparatus.
-* *Eulerian interpretation* - operational stance where a flow is treated as a valuation over `U.Transfer` and transfer relations perform assurance-only operations (no token-passing semantics).
+* *Eulerian interpretation* - operational stance where a flow is treated as a valuation over `U.Transfer` and declarative assurance-only operations are specified over transfer relations (no token-passing semantics).
 * **GateCheckKind boundary.** `GateCheckKind` is a recognition label within one identified A.21 check application, not a structure locus kind and not enough to identify or merge results. No such label becomes an E.18 `Check` locus unless an `OperationalGate(profile)` locus is actually present.
 
-* **GateCheckRef boundary.** Where a publication face over a selected structure carries a `GateCheckRef`, that value refers to one exact A.21 `GateCheckApplicationResult`. It must resolve the checked subject, criterion and edition, applicable rule application, case, scope, and window; the old `{aspect, kind, edition, scope}` projection is insufficient.
+* **GateCheckRef boundary.** Where a publication face over a selected structure carries a `GateCheckRef`, that value refers to one exact A.21 `GateCheckApplicationResult`. It must resolve the checked subject, criterion and edition, applicable rule application, case, scope, and window.
 * **GateDecision, GateDecisionRationale, and GateDecisionExplanation (terminology).**
   - **GateDecision** - the lattice value inside one A.21 `GateDecisionResult`, derived from one exact profile application and its complete required set of identified check-application results.
   - **GateDecisionRationale** - the structured rationale inside that result: retained source outcomes, explicit mappings, aggregate, and action consequence. A current publication or optional `DecisionLog` may cite it; neither supplies the rationale or decision.
   - **GateDecisionExplanation** — an optional human-readable narrative derived from the rationale; it carries no decision value. It may explain any retained result and mapping, including why an A.20 input prevented passage; absence of a narrative does not make a check inapplicable.
-> **Clarity note.** **GateDecision ≠ GateDecisionExplanation**; narratives are optional and derivative of GateDecisionRationale.
 
 * **GateFit (aspect, not an entity).** GateFit names the **aspect** of checks that evaluate **profile‑fit**; there is no separate GateFit entity. “Gate decision under GateFit” means “the gate’s decision computed from GateChecks with `aspect=GateFit`”.
 
-  This shape is publication-only; it introduces no new execution steps and no arithmetic on faces.  (Couples to A.20 or A.21 without duplicating their check catalogs.)
-* *VALATA (VA, LA, and TA)* — value-annotation scheme used on **AssuranceLane**; **carriers** are referenced via **SCR and RSCR**; detailed evidence obligations use the definitions and tests in `A.10` and the named evidence, publication, or crossing pattern for the current case. Included here so evidence pins are self-describing in Part E texts.
+* *VALATA (VA, LA, and TA)* — value-annotation scheme used on **AssuranceLane**; **carriers** are referenced via **SCR and RSCR**; detailed evidence obligations use the definitions and tests in `A.10` and the named evidence, publication, or crossing pattern for the current case.
 * *Transfer vs Transport* - **Transfer** = the sole relation kind `U.Transfer` in the selected structure. **Transport** = conversions defined by Phi policies and registries (`TransportRegistry^Phi`) referenced by UNM; "reuse via Transport" refers to the latter.
 * *GateCrossing* - an E.18 structure-local transition between exact source and receiving position/state bindings at one exact gate whose profile and decision test come from A.21; it is not a semantic Bridge or gate decision.
 * *Admissible path* - a typed path obeying the GateCrossing discipline: no hidden crossings, every witness required by an exact current crossing rule is present, compare and launch publication faces are Gamma-pinned when present, and `T^D<->T^R` occurs only at `LaunchGate`; see **S2**.

@@ -6,12 +6,12 @@ section_id: "E.10:9"
 section_title: "Ontology recovery rows for overloaded words (LEX L-rules; normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_ontology-recovery-rows-for-overloaded-words-lex-l-rules-normative.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:9 — Ontology recovery rows for overloaded words (LEX L-rules; normative)"
-line_start: 99652
-line_end: 99784
+line_start: 99583
+line_end: 99715
 dependencies:
   - "A.10"
   - "A.15"
@@ -150,7 +150,7 @@ A text **passes** LEX if all answers are **Green**:
 ✗ “The **process** failed; the **service** restarted itself.”
 ✓ The compact strings `PLC_17#ObserverRole:PipelineOps`, `CAB_Chair#ApproverRole:ChangeControl`, and `OpsBot#DeployerRole:CD_Pipeline_v7` remain quoted source cues only. Start with `E.10.ROLE`; they are neither system-role-kind designations nor assignment occurrences.
 `PLC_17`, `ChangeControlBoardSystem`, and `OpsBot` are independently admitted systems. Use `ObserverSystemRole`, `ApproverSystemRole`, and `DeployerSystemRole` only where those classifications matter. For each precise dated Work occurrence, recover the exact actual performer through A.13 and let A.15.1 independently admit the occurrence. Add F.6 only when the example or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Omit only assignment identifiers that the receiving example does not use. Source suffixes and interpretation epistemes remain separate.
-The exact dated Work occurrences remain separate from covering assignments and F.6 attributions, and all three remain separate from the log episteme, approval speech-act content, and fulfillment claim. Assignment and F.6 references appear only in an expressly consumed attribution branch.
+Keep the log episteme, approval speech-act content, and fulfillment claim separate from those Work occurrences, assignments, and attributions.
 **Cloud.**
 ✗ “The **process owner** approved; the **API service** deployed.”
 ✓ The source strings `ProductLead#AuthorizerRole:Rollout_2025` and `sCG‑Spec_ci_bot#DeployerRole:CD_Pipeline_v7` remain quoted cues. Recover `ProductLeadershipSystem` and `sCGSpecCIBot` independently; use `AuthorizerSystemRole` and `DeployerSystemRole` only for exact local classification claims.
@@ -167,8 +167,8 @@ procedure wording first recovers one exact `U.Method`; a separately identified c
 ✗ “`projection` has one meaning in routing and bridge prose.”
 ✓ `A.16` keeps `projection` as a move name for route-bounded partialization; `F.9.1` keeps `projection` as a bridge stance label. If one durable reusable replacement name is really needed, recover the value and use that need a name, record the applicable **F.8** decision, and then use **F.18** plus **F.17** when public publication is current; otherwise retain the source expression or local phrase explicitly rather than flattening both interpretations into one umbrella rewrite.
 
-**Editorial note.**
-This section inherits section 7 **MG-DA** (anchored head nouns; enumeration rule gate; `U.Characteristic` and `CharacteristicSpace` only when one named Characteristic has that enumeration as its declared CSLC scale; collision checks) and section 8 **LEX.Morph** (suffix, prefix, and casing). It deliberately omits their details to avoid duplication. The only admitted uses of *plane* in the Core are **CHR:ReferencePlane** and the derived operators **CL^plane** and **Phi_plane**; policy flags do not introduce new planes. To distinguish pre-operational and operational states within **ReferencePlane=world**, use **WorldRegime in {prep | live}** (formerly `PlaneRegime`).
+**Related lexical rules.**
+Apply section 7 **MG-DA** (anchored head nouns; enumeration rule gate; `U.Characteristic` and `CharacteristicSpace` only when one named Characteristic has that enumeration as its declared CSLC scale; collision checks) and section 8 **LEX.Morph** (suffix, prefix, and casing). The only admitted uses of *plane* in the Core are **CHR:ReferencePlane** and the derived operators **CL^plane** and **Phi_plane**; policy flags do not introduce new planes. To distinguish pre-operational and operational states within **ReferencePlane=world**, use **WorldRegime in {prep | live}**.
 
 #### E.10:9.7 - Guarded-head cross-reference *(normative lexical caution)*
 When one wording head already carries several FPF-governed local interpretations, lexical cleanup should prefer a **guarded-head note** over silent flattening. The note may record that the head remains risky, name the cited texts or patterns that define or constrain the local interpretations, and point readers to the local canonical interpretation in each cited text.

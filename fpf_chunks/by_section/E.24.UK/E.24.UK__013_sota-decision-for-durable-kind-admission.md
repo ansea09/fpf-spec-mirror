@@ -6,12 +6,12 @@ section_id: "E.24.UK:11"
 section_title: "SoTA Decision for Durable Kind Admission"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__013_sota-decision-for-durable-kind-admission.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:11 — SoTA Decision for Durable Kind Admission"
-line_start: 117003
-line_end: 117020
+line_start: 116754
+line_end: 116771
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -52,7 +52,7 @@ The bounded question is practical: **when should a reusable distinction become a
 | Current operational [OBO Foundry principles](https://obofoundry.org/principles/fp-000-summary.html) | Scope, versioning, textual definition, reuse, identifiers, and operational conformance make shared ontologies maintainable. | These governance and publication checks do not by themselves settle world-side kind identity, membership, dependence, or the difference between a local classifier and durable FPF kind. | **Adapt** explicit scope, reuse, version, and reopen boundaries in the decision and registry. **Reject** conformance to a publication regime as proof of admission. |
 | [OWL 2 semantics](https://www.w3.org/TR/owl2-direct-semantics/) and [ISO 704:2022](https://www.iso.org/standard/79077.html) | OWL cleanly separates classes, individuals, properties, and semantics-free labels; ISO 704 separates objects, concepts, definitions, and designations. | These are mature lineage baselines, not a current low-effort method for deciding FPF's durable/local/non-kind boundary or its identity dependence. | **Adopt** class/individual/property separation, same-individual inclusion, and naming-after-object recovery. **Reject** a class axiom, label, definition, or designation as sufficient admission. |
 
-**Selected non-dominated contribution.** None of these lines supplies the same progressive cost boundary. E.24.UK first reuses an accepted kind, then tries one bounded C.3 classification, then recovers a direct relation or other non-kind object, and only then admits a new durable kind for repeated cross-pattern reliance with an exact membership or dependence rule. At comparable authoring effort, this reduces ontology commitment while preserving exact identity, non-member, reliance, and reopen tests. The gain is not universal superiority over a foundational ontology; it is a better effort/traceability trade for FPF pattern repair.
+**Contribution to the FPF admission decision.** E.24.UK first tests reuse of an accepted kind and bounded C.3 classification, and recovers a direct relation or other non-kind object when no classificatory distinction survives. A new durable kind requires repeated cross-pattern reliance and an exact membership or dependence rule. Where the simpler result already preserves the needed distinction, it avoids another ontology commitment while retaining identity, non-member, reliance, and reopen tests.
 
 The shared E.24 decision is part of that gain. It prevents the ontic and public-kind questions from being answered by two incompatible cards. The U.Kind case retains the independent root admission and returns direct rule use without an additional durable ontic; the separate U.SubkindOf settlement remains under its own direct relation and receiving-use grounds. In the capability case, recovery returns qualified holder-ability claims and rejects an unnecessary additional kind. In the WorkPlan case, the same episteme gains dependent membership without a second plan. A role or phase near-miss stays with a direct relation or local kind; `HighRiskPump@Turnaround2026` stays a local C.3 distinction; and public spelling waits for F.18 after the object is settled. A source may model a pressure quality or an obligation-bearing relation as a separate dependent individual. FPF does so only when a direct rule identifies that individual and its exact dependence. A measurement value, assertion, participant pair, agreement document, or relation record cannot admit it by representation alone.
 

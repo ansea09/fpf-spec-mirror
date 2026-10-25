@@ -6,12 +6,12 @@ section_id: "E.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__004_forces.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:3 — Forces"
-line_start: 95638
-line_end: 95646
+line_start: 95632
+line_end: 95640
 dependencies:
   - "E.2"
   - "E.3"
@@ -26,8 +26,8 @@ keywords:
 
 | Force | Tension |
 |-------|---------|
-| **Purity vs Pragmatism** | Preserve pristine concepts ↔ need real examples. |
+| **Abstraction vs Concrete Use** | Stable concept definitions ↔ useful real examples. |
 | **Universality vs Convention** | Rules valid across domains ↔ convenience of one familiar notation. |
 | **Modularity vs Integration** | Independent layers ↔ temptation to cross‑link for speed. |
-| **Objectivity vs Perspective** | Neutral framework ↔ contributors’ unavoidable cultural lens. |
+| **Cross-Domain Use vs Perspective** | Claims intended across domains ↔ contributors’ disciplinary and cultural assumptions. |
 

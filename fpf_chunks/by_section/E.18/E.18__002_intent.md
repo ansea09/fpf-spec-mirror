@@ -6,12 +6,12 @@ section_id: "E.18:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__002_intent.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:1 — Intent"
-line_start: 109729
-line_end: 109783
+line_start: 109529
+line_end: 109585
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -39,7 +39,9 @@ keywords:
 
 ### E.18:1 - Intent
 
-Provide a notation-independent pattern for `TransformationFlowStructure`: a selected compound structure whose loci may bind independently identified actual `U.Transformation` values and adjacent values whose definitions or constraints are identified independently. The EntityOfConcern is the selected structure itself: loci for those transformations and adjacent values, one typed `U.Transfer` relation, and Eulerian or declarative valuations over paths or path slices inside the same selected structure. A locus may designate or bind an actual `U.Transformation` only after `A.3.4` independently grounds the exact occurrence from its changed referent, temporal extent or formal ordering boundary, boundary conditions, actual change facts, and continuity or reidentification rule; neither the locus nor the use admits that occurrence. A locus may express, constrain, or locate that bounded transformation, or it may bind a signature, mechanism, work plan, performed work, check, structural reinterpretation, publication, evidence, independently identified result entity or relation occurrence, or refresh value that participates in or constrains transformations without becoming the transformation. The selected structure, a flow arrow, adjacency, shared work, a selected or desired structure, a method, `MethodDescription`, `WorkPlan`, model, description, evaluation result, publication, transfer, or common affected referent establishes neither an actual transformation nor transformation composition. GateCrossings mark selected-structure state changes at gates; publication faces appear through MVPK; comparable claims pin editions, reference planes, the exact definitions or tests used by the comparison, and refresh scope. An F.9 `Bridge` appears only when two exact F.17 `SchemeSenseCell` values from different semantic contexts satisfy one exact Bridge predicate; the Bridge, any bounded-use claim, optional Bridge Card, and optional `CL` evidence shorthand remain separate from the structural crossing. Use `E.18.2` for mathematical descriptions of this selected structure, including graph, algebra, category, tuple, path, slice, morphism, quotient, fold, refinement, factorization, or wiring expressions; use `C.29` when mathematical-lens adequacy matters.
+E.18 identifies one selected `TransformationFlowStructure`: positions for independently identified transformations and adjacent values, one internal `U.Transfer` relation, and any path, slice or flow valuation needed by the current use. A transformation locus binds an actual `U.Transformation` only after `A.3.4` grounds its occurrence. Adjacent values keep their own definitions and relations; structure membership establishes neither their actuality nor transformation composition.
+
+GateCrossings account for changed `CtxState` bindings at gates. Publication, comparison and refresh uses retain the pins and conditions they consume. An F.9 Bridge is additional only for an independently established correspondence between exact local senses from different semantic contexts. Use `E.18.2` for mathematical descriptions of the selected structure and `C.29` when their mathematical-lens adequacy matters.
 
 **Use this when.** Use E.18 when project work needs one exact selected transformation-flow structure, an internal position or portion of it, a path or path slice, a crossing or gate, a flow valuation, or a refresh locus over its internal `U.Transfer` occurrences. Several valuations belong here only when they resolve to that same TFS; a detailed portion belongs here as a `SubflowRef` only while all of its positions and transfers resolve inside one exact parent TFS. If the case needs two independently identified TFS values, or nested networks of them, plus an exact relation across their boundaries, use `E.18.NET`. When the current EntityOfConcern is a work plan, performed work, method semantics, publication face, mathematical description, or wording-use cue rather than the selected structure, apply the pattern whose Solution answers that exact question.
 

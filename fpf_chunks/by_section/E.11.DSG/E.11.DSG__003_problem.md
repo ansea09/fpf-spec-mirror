@@ -6,12 +6,12 @@ section_id: "E.11.DSG:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__003_problem.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:2 — Problem"
-line_start: 104117
-line_end: 104122
+line_start: 103992
+line_end: 103997
 dependencies:
   - "C.2.1"
   - "C.2.P"
@@ -29,6 +29,7 @@ dependencies:
   - "F.9"
   - "G.11"
   - "G.5"
+  - "G.5-6"
 keywords:
 ---
 

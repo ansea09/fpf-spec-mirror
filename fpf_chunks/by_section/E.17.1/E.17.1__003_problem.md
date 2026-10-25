@@ -6,12 +6,12 @@ section_id: "E.17.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__003_problem.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:2 — Problem"
-line_start: 106118
-line_end: 106132
+line_start: 105979
+line_end: 105993
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -43,8 +43,8 @@ When recurring viewpoint families lack a stable catalogue:
    A family called `functional`, `capability`, or `operational` may differ only lexically, or may differ semantically, but there is no disciplined place to tell which is which.
 3. **`MultiViewDescribing` cannot reuse a family cleanly.**
    Each describing use that needs the family must restate it locally instead of importing an existing bundle.
-4. **Reusable viewpoint-library practice remains external.**
-   FPF lacks a native place where reusable viewpoint families can be expressed as reviewable catalogue content without importing a standard's ontology.
+4. **No reusable local declaration.**
+   Available viewpoints are known through external terminology or project lists, but no catalogue supplies the exact local references needed for repeated import.
 5. **Reader-facing labels leak into semantics.**
    Authors reuse the same name for viewpoints, views, publication faces, or folders, and the boundary between EntityOfConcern and Description episteme becomes unclear.
 

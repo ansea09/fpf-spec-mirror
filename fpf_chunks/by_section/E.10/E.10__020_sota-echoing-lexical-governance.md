@@ -6,12 +6,12 @@ section_id: "E.10:18"
 section_title: "SoTA-Echoing - lexical governance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__020_sota-echoing-lexical-governance.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:18 — SoTA-Echoing - lexical governance"
-line_start: 99914
-line_end: 99935
+line_start: 99845
+line_end: 99866
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,9 +64,9 @@ keywords:
 
 **Selected best-known line.** Read the complete span through F.19, use a cue only for an unresolved FPF wording question, recover the governed object or relation before renaming, apply the direct defining or testing rule, preserve the remaining reader use, and stop. This line combines the current FPF precision-restoration patterns with established terminology and controlled-vocabulary practice only for the objects those sources actually govern.
 
-**Serious alternative or default.** Synonym substitution, a central preferred-word list, and copied local warning catalogues are cheaper to start. They fail here because they can leave the obtaining relation, participant, claim-bearing episteme, admissible use, or direct owner hidden while making the sentence look more precise.
+**Alternative or default.** Synonym substitution, a central preferred-word list, and copied local warning catalogues are cheaper to start. They can leave the obtaining relation, participant, claim-bearing episteme, admissible use, or direct owner hidden while making the sentence look more precise.
 
-**Defect overcome and comparable effort.** Clear ordinary wording exits after one scan. A load-bearing phrase takes one bounded recovery and one direct-pattern use; that is no more work than searching several local glossaries and is better because it returns an actionable claim or an explicit blocker. The deliberate cost is an honest reduced-use or blocked result when the object cannot be recovered.
+**Defect overcome and comparable effort.** Clear ordinary wording exits after one scan. A load-bearing phrase takes one bounded recovery and one direct-pattern use; it returns an actionable claim or an explicit blocker. Compare its effort with searching the relevant local glossaries for the actual repair. The deliberate cost is an honest reduced-use or blocked result when the object cannot be recovered.
 
 **Mutation and source roles.** The internal FPF row supplies the governing local architecture; ISO and W3C terminology or vocabulary sources constrain object, concept, designation, label, and publication uses; language-scent and accessibility sources inform cue preservation and discoverability. None of the external sources assigns FPF kinds or relation truth. The exact mutations are the trigger registry, direct-owner exits, phrase-level rewrite rules, entry projections, and Relations named in the rows below.
 
@@ -78,5 +78,5 @@ keywords:
 | W3C SKOS Reference for controlled structured vocabularies and lexical labels, with heavier OWL and RDF ontology practice used only by ontology-bearing patterns named by value. | Current reference source for controlled-vocabulary publication and label relations; not current-best source for every FPF wording repair. | Mutates `E.10:0.2b`, `E.10:0.2c.18`, and `E.10:0.2c.28`: keep vocabulary labels, concept-like heads, registries, maps, and reusable names recoverable as publication or naming objects named by value before reuse; F.18 defines durable naming, while relation, source, or domain ontology remains with the pattern that defines or constrains that claim. | Do not make OWL-style term-to-class modeling the default answer to every vague term. Do not let a controlled vocabulary become a second FPF ontology or replacement wording-recognition table. |
 | W3C WCAG 2.2 headings and labels guidance plus consistent-identification guidance, with FPF-internal `E.11`, README, ToC entry-distribution practice. | Current reference source for discoverability and label consistency; FPF entry projection remains the governing local architecture. | Mutates `E.10:0.2b`, `E.10:0.2c.29`, `E.10:19`, and `E.11` coordination: keep trigger wording discoverable enough for first repair, but make final wording, appropriate pattern use, and entry projection govern the result. | Do not turn wording-recognition lists into local lexical registries, front-door taxonomies, or accepted replacement vocabulary. Do not let search convenience select ontology. |
 
-The practical result is lexical governance that improves action guidance and semantic composability. Reopen only the internal rows whose defining pattern changes its kind, authority boundary, or recovery result; reopen the in-situ-cue choice only if stronger language-scent evidence changes cue usefulness for the intended readers; reopen the terminology, vocabulary-publication, or discoverability rows only if the cited standard changes the object, designation, label, publication, or navigation contribution used here. A source locator, publication-status, popularity, or unused-example change alone does not reopen E.10.
+The intended practical result is clearer action guidance and semantic composability. Reopen only the internal rows whose defining pattern changes its kind, authority boundary, or recovery result; reopen the in-situ-cue choice only if stronger language-scent evidence changes cue usefulness for the intended readers; reopen the terminology, vocabulary-publication, or discoverability rows only if the cited standard changes the object, designation, label, publication, or navigation contribution used here. A source locator, publication-status, popularity, or unused-example change alone does not reopen E.10.
 

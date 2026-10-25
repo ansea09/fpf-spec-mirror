@@ -6,12 +6,12 @@ section_id: "E.8:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__011_consequences.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:9 — Consequences"
-line_start: 96993
-line_end: 97000
+line_start: 96931
+line_end: 96938
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -60,7 +60,7 @@ keywords:
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
-| **Predictable skeleton** – readers instantly know where to find the problem frame, forces, and criteria. | Limits author freedom in macro layout; mitigated by flexibility inside the Solution subsection. |
-| **Cohesive voice** – S‑principles give FPF a recognisable style, aiding memorability. | Reviewers must read for style, not only semantics; checklists reduce review effort. |
-| **Embedded pedagogy** – Tell-Show-Show and governing-claim flow make the spec self-teaching. | Patterns may become slightly longer; retain only material that improves comprehension or use. |
+| **Predictable structure** – the same named sections locate the problem frame, forces, and criteria. | Limits author freedom in macro layout; mitigated by flexibility inside the Solution subsection. |
+| **Cohesive voice** – S‑principles give authors common guidance for explaining their contributions. | Reviewers must judge readability as well as semantics; the checklist identifies recurring conformance questions. |
+| **Grounded explanation** – Tell-Show-Show and governing-claim flow connect the rule to its application. | Patterns may become slightly longer; retain only material that improves comprehension or use. |
 

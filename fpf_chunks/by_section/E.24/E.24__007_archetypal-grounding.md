@@ -6,12 +6,12 @@ section_id: "E.24:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__007_archetypal-grounding.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5 — Archetypal Grounding"
-line_start: 115789
-line_end: 115839
+line_start: 115540
+line_end: 115590
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -73,7 +73,7 @@ The E.24 move is:
 3. run the existing-rule-content, exact-identity, typed-connectivity-or-constitution, dependent-use, and non-duplication tests, then select one ontology disposition for the recovered payload—direct subject-assertion use, bounded local episteme under C.2.1, durable ontic, or unresolved stop—and record source-use status separately;
 4. if a durable ontic is selected, write or cite its exact defining or constraining `ClaimGraph` before dependent uses rely on it.
 
-Do not repeat the surrounding method/work/change inventory here. The current claim selects one object class in `E.24:4.3a`; the workflow fixture names method description, plan, Work, and structure only because each changes that case. Their co-occurrence is an applicability signal, not a durable-ontic result.
+The workflow fixture needs its method description, plan, Work, and structure because each changes the scheduling use. Select the objects needed by another case through `E.24:4.3a`; their co-occurrence alone supplies no durable-ontic result.
 
 For another broad head such as `system`, `relation`, or `architecture`, recover its exact subject assertion and defining or constraining `ClaimGraph` first and apply the same thresholds; the head alone admits no ontic.
 

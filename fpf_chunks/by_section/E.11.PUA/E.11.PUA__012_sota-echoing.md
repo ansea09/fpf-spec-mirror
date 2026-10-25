@@ -6,12 +6,12 @@ section_id: "E.11.PUA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__012_sota-echoing.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:11 — SoTA-Echoing"
-line_start: 103361
-line_end: 103375
+line_start: 103244
+line_end: 103256
 dependencies:
   - "A.13"
   - "A.15"
@@ -43,8 +43,6 @@ keywords:
 | Jin, Bai, and Oulasvirta, *Modeling Trial-and-Error Navigation With a Sequential Decision Model of Information Scent*, arXiv:2603.11759 (2026) | Make bounded inspection, wrong-turn recognition, and explicit return part of ordinary use. | Adapt the navigation result to pattern use. The preprint does not decide FPF ontology, shortlist size, or whether records are needed. |
 | Current FPF `A.10`, `B.3`, `E.18`, `E.18.NET`, `C.2.1`, and `G.11` | Keep exact result, basis, local positions, later-use relation, and currentness evidence addressable when a named later use relies on them. | Adapt conditionally through `relianceBearing`; reject universal trace production and keep each claim with the pattern that defines or tests it. |
 | Current FPF `E.11`, `E.11.PUR`, and A.15 | Separate public discovery, one selected-pattern use, recommendation or coordination, intended work, performed work, and entity inception. | PUA supplies the user-side use method and optional reliance findings without collapsing those objects. |
-
-The practical implication is direct: inspect enough to detect a wrong turn, record only what a named later use needs, and never infer a subject result from the existence of its trace.
 
 Conditional pattern use is the lineage anchor, not a claim that traditional pattern-language practice already supplies PUA's result and flow ontology. Recipe following, PatternID matching, and universal trace production remain the common comparators.
 

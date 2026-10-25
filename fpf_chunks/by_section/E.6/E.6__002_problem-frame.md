@@ -6,12 +6,12 @@ section_id: "E.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__002_problem-frame.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
   - "E.6:1 — Problem frame"
-line_start: 96070
-line_end: 96078
+line_start: 96035
+line_end: 96040
 dependencies:
   - "E.2"
 keywords:
@@ -24,11 +24,8 @@ keywords:
 ---
 
 ### E.6:1 - Problem frame
-FPF addresses readers who differ in at least two respects:
+Use this pattern when arranging the specification's explanation and practical entry. Readers differ in at least two respects:
 
-* **Disciplinary** – systems engineers, knowledge scientists, ethicists.
-* **Experience** – newcomers need intuition; experts need rigour.
-
-Past drafts mixed governance mandates with domain examples, producing a
-steep learning curve and repeated “forward‑reference” detours.
+* **Disciplinary background** — for example, systems engineering, knowledge science or ethics.
+* **Preparation** — newcomers may need introductory examples; prepared readers may enter through a precise definition or operation.
 

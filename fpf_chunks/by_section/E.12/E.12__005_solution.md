@@ -6,12 +6,12 @@ section_id: "E.12:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__005_solution.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:4 — Solution"
-line_start: 104389
-line_end: 104426
+line_start: 104264
+line_end: 104301
 dependencies:
   - "C.11.DUA"
   - "E.13"
@@ -29,7 +29,7 @@ keywords:
 
 ### E.12:4 - **Solution**
 
-FPF elevates **Didactic Primacy (Pillar P-2)** to a normative architectural principle, operationalized through two conceptual mechanisms designed to act as a permanent counterbalance to excessive formalism.
+FPF makes **Didactic Primacy (Pillar P-2)** an architectural principle. The Rationale Mandate connects formal assurance to its cognitive benefit; the Human-Factor Loop investigates a concrete obstruction or doubtful demand.
 
 #### E.12:4.1 - The Principle of Didactic Primacy (Expanded Definition)
 
@@ -37,7 +37,7 @@ The primary purpose of the FPF is to enhance the cognitive capabilities (qualifi
 
 #### E.12:4.2 - Mechanism 1: The Rationale Mandate
 
-Every key assurance episteme or publication (such as a `U.AssuranceCase` or `Proof`) **MUST** contain a mandatory, human-readable **`rationale`** component.
+Every key assurance episteme or publication (such as a `U.AssuranceCase` or `Proof`) **MUST** contain a human-readable **`rationale`** component.
 
 *   **Nature:** The `rationale` is a narrative explanation of the cognitive benefit.
 *   **Content:** It **MUST** answer the question: *"How does achieving this level of formal assurance tangibly help the agent better understand the problem or make a more reliable decision?"*

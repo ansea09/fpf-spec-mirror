@@ -6,12 +6,12 @@ section_id: "E.11.PUR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__008_conformance-checklist.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:7 — Conformance Checklist"
-line_start: 103656
-line_end: 103671
+line_start: 103537
+line_end: 103552
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,7 +42,7 @@ keywords:
 | `PUR-4` | Recommendation | The recommended candidate is applicable and its expected receiving value warrants its full burden compared with the serious continuations, including continuing without a new use. If none warrants recommendation, no candidate is selected and existing obligations remain in force. An addressable `ordinaryCompact` recommendation has no applicability-finding ref; `relianceBearing` has one current applicability finding with five fit findings. |
 | `PUR-5` | Coordination | All members concern the same bounded coordination question and remain distinct candidate uses. |
 | `PUR-6` | Ordering mode | Unordered has no pairwise relations. Partial and total order contain only justified pairwise precedence, whose transitive closure is irreflexive; total order also compares every pair of distinct members. A cycle or unresolved required pair blocks that ordering claim. |
-| `PUR-7` | Precedence and readiness | Each directed relation satisfies its §4.4 branch predicate. prerequisiteResult cites the exact required content, selected supplier-use basis and expectation; actual closure belongs to a separate readiness claim and may reuse an adequate earlier result. Description or witness changes alone do not change dependency identity. |
+| `PUR-7` | Precedence and readiness | Each directed relation satisfies its §4.4 branch predicate. prerequisiteResult cites the exact required content, selected supplier-use basis and expectation; readiness separately requires the actual result and its basis, including an adequate earlier result, with an addressable PUA closure finding only when named later reliance needs it. Description or witness changes alone do not change dependency identity. |
 | `PUR-8` | Boundary | Recommendation or coordination asserts no plan, work, gate, decision, authorization, actual Problem, Transformation, or subject result. |
 | `PUR-9` | Problem actuality | A Problem-frame fit or ProblemCard is not an actual Problem; a relied-on actual Problem resolves to one C.22.PFR occurrence, while any supporting episteme and the adverse episode keep separate identities. |
 | `PUR-10` | Plain move | *Next move* names only a recommendation or conditional continuation, without asserting a Move identity, performed Work, or actual Transformation. |

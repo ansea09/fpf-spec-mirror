@@ -6,12 +6,12 @@ section_id: "E.23.CAE:End"
 section_title: "E.23.CAE:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__014_e-23-cae-end.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:End — E.23.CAE:End"
-line_start: 115248
-line_end: 115249
+line_start: 115011
+line_end: 115012
 dependencies:
   - "A.15.7"
   - "A.15.8"

@@ -6,12 +6,12 @@ section_id: "E.10.LRN:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__005_forces.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:3 — Forces"
-line_start: 100030
-line_end: 100040
+line_start: 99958
+line_end: 99968
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,7 @@ keywords:
 | --- | --- |
 | Useful umbrella vs distinct subjects | Ordinary language needs *learning*; action-bearing claims need the exact changed subject and result. |
 | Occurrence vs outcome | Teaching or training Work can occur without establishing the intended capability or generalization result. |
-| Human and machine cases | Wet and dry substrates can implement several different operations; substrate material does not classify the claim. |
+| Human and machine cases | Biological and computing substrates can support different operations; substrate alone does not classify the claim. |
 | Internal change vs inspectable construction | An external artifact or performance can expose reasoning without proving capability, authorship, transfer, or retention. |
 | Source fidelity vs FPF ontology | A paper may deliberately use one label across several quantities; FPF preserves that quotation while recovering distinct claims for use. |
 | Precision vs paperwork | One local rewrite should suffice when no durable recovery record is needed. |

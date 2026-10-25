@@ -6,12 +6,12 @@ section_id: "E.22:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__013_relations.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:12 — Relations"
-line_start: 114206
-line_end: 114224
+line_start: 113971
+line_end: 113989
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -32,10 +32,10 @@ keywords:
 
 | Pattern | Relation |
 |---|---|
-| `E.21` | Supplies pattern-quality values and the complete pattern-quality coordinate set. |
-| `E.9.DA` | Supplies DRR decision-adequacy values and the complete decision-adequacy coordinate set. |
-| `E.2.DA` | Supplies FPF Pillar-adequacy values. |
-| `E.19` | Supplies admission or refresh review profiles when that is the evaluation. |
+| `E.21` | Declares the complete pattern-quality coordinate set and evaluation whose application produces the values. |
+| `E.9.DA` | Declares the complete DRR decision-adequacy coordinate set and evaluation whose application produces the values. |
+| `E.2.DA` | Declares the evaluation used to judge FPF Pillar adequacy. |
+| `E.19` | Supplies admission or refresh review profiles and findings; a quality evaluation of a result still uses its own evaluation specification. |
 | `E.23` | Governs repeated improvement after framed evaluations return findings or proposal rows. |
 | `E.13` | Governs pragmatic utility and proxy-to-value alignment when framed values, visible measures, proposal counts, or all-`5` posture are being used as the intended improvement value. |
 | `A.19`, `A.19.ECS`, `A.19.CPM`, `A.2.6` | Govern the selected `CharacteristicSpace`, its construction description, predicate/comparator semantics and actual comparison application, and exact `U.ClaimScope`; E.22 binds their values for one question but does not redefine them. |

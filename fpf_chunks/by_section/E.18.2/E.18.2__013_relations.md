@@ -6,12 +6,12 @@ section_id: "E.18.2:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__013_relations.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:10 — Relations"
-line_start: 111100
-line_end: 111110
+line_start: 110882
+line_end: 110892
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,5 +45,5 @@ keywords:
 - Use C.2.1 for description-episteme identity and E.17 for publication faces and their publication boundary.
 - Use A.6.0 for formal-substrate signatures, A.6.1 for mechanisms and applications, A.6.5 for slot discipline, and E.20 for mechanism-method placement.
 - Apply A.15.1 to identify performed Work, A.15.2 to identify work plans, A.20 to obtain internal-step validity, A.21 to obtain gate results, A.10 to state evidence relations, B.3 to obtain assurance, and C.11 to obtain local choices.
-- Apply C.30 to state architecture claims, C.30.AD to identify architecture descriptions, C.30.ASV to evaluate structural views, A.6.F to state function/bearer claims, A.6.M to state module-interface relations, and C.31 to state reusable-structure characteristics.
+- Apply C.30 to state architecture claims, C.30.AD to identify architecture descriptions, C.30.ASV to evaluate structural views, A.6.F to recover unsettled function-like claims and their subject patterns, A.6.M to state module-interface relations, and C.31 to state reusable-structure characteristics.
 

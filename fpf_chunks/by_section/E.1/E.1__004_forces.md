@@ -6,7 +6,7 @@ section_id: "E.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__004_forces.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:3 — Forces"
@@ -38,7 +38,7 @@ keywords:
 
 **Mission Statement**
 
-> *Enable any motivated system/actor/agent/transformer — human or AI — to transform a raw idea into a reproducible, auditable change in the physical world through incremental, falsifiable cycles.*
+> *Enable motivated people and AI agents to transform a raw idea into a reproducible, auditable change in the physical world through incremental, falsifiable cycles.*
 
 **Vision Statement**
 

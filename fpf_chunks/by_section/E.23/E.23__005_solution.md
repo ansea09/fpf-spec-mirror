@@ -6,12 +6,12 @@ section_id: "E.23:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__005_solution.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:4 — Solution"
-line_start: 114277
-line_end: 114589
+line_start: 114040
+line_end: 114352
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -30,7 +30,7 @@ keywords:
 
 ### E.23:4 - Solution
 
-`E.23` guides repeated improvement of one object version under a current `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration`. The evaluation pattern defines the evaluation; restoration and subject patterns supply the relevant rules or guidance. A pattern body or locator does not by itself establish a semantic `U.Method` or qualify as its description. Claim Method or MethodDescription identity only after A.3.1 and A.3.2 admit it.
+`E.23` guides repeated improvement of one object version under a settled evaluation question. Reuse an adequate ordinary request; use the E.22 `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration` when a receiving use needs those exact declarations. The evaluation pattern defines the evaluation; restoration and subject patterns supply the relevant rules or guidance. A pattern body or locator does not by itself establish a semantic `U.Method` or qualify as its description. Claim Method or MethodDescription identity only after A.3.1 and A.3.2 admit it.
 
 When an evaluation or improvement pass is claimed as actual A.15.1 `U.Work`, recover every exact actual performer through A.13 and independently identify the occurrence, time, Method, and containing System through A.15.1. Add A.2.1 assignment-occurrence identity and F.6 only when the loop record or receiving use expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact. A proposed pass, intended performer, planned condition, or A.15.2 WorkPlan remains modal until its predicates obtain.
 
@@ -44,7 +44,7 @@ For one quality-improvement loop:
 
 1. Name the exact object version and the evaluation that will judge it. Reuse the current `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration` when they still fit the purpose and receiving use. Keep the evaluator, evaluation pattern or Method, characteristic space, evidence basis, result form, ClaimScope, and qualification window separate.
 2. State the content change sought, protected trade-offs, cost and risk account, and local stop condition. Do not use `5`, all-`5`, or `5-defensible` as the target; say what should become better in practice.
-3. Reuse the exact current E.22 question frame, or open one when no frame binds the current object, purpose, scope, and result-consuming work or decision.
+3. Resolve any remaining ambiguity in purpose, scope or result-consuming work or decision through E.22. Keep an adequate question; constitute a separate E.22 frame only when its exact declaration is needed.
 4. Run the declared evaluation. When the evaluated object is one FPF pattern version, retain the complete E.21 result: every coordinate, `ShortRationale`, `PrecisionRestorationProfile`, evidence basis, coordinate payload, and status. A loop note, blocker summary, or "no blockers" statement is not a substitute. If dated evaluation Work is asserted, identify it and its result binding or direct result relation; keep any durable result episteme separate.
 5. Record each returned finding or proposal separately. A grouped memory summary does not close skipped items, and a proposal remains a proposed next action rather than performed Work.
 6. Select the next change. Selection does not perform it. When the account asserts dated improvement Work, identify that Work and connect it to a returned value or changed object only through an obtaining A.6.1 binding or declared Work-to-result or Work-to-change relation. If that relation is unavailable, keep proposal, Work, changed object, and Transformation separate and return the missing relation.
@@ -114,7 +114,7 @@ Quick lowering map:
 | "Build a loop" or "loop engineering" | Ask which object version is being improved and which evaluation will be rerun. | If no object-version improvement claim is present, choose the subject pattern named by the live claim. |
 | Agent retry, monitor, or escalation cycle | Use `E.23` only when the retry changes an object version and re-evaluation can show a changed result on declared coordinates. | Performed execution and work plans use the A.15 family; gate passage uses `A.21`; transformation-flow cycle structure uses `E.18`. |
 | Harness engineering | The harness can be the object under improvement when its next version is evaluated against declared quality, cost, and risk conditions. | Running the harness is work; comparing harness variants is `G.9`; retaining variants is `C.18` or `C.19`; selected-set result declaration is `G.5`; for publication, use `E.17` for a source-backed face and return to source and `E.24.PUB` for the occurrence, form, carrier, audience, bounded use, and availability. |
-| Fast DPF seed hardening | A local DPF seed, pattern seed, relation record, or source pack can enter `E.23` after the object version and evaluation are declared. | Recover the needed source contribution through the smallest sufficient source route in `E.4.DPF:4`, using `G.2` only when a broad, refreshable CG-Frame pack is needed; carry that contribution and its limits back to seed hardening; source decay, edition change, and refresh use `G.11`; PFAD and PFR decisions use `E.4.PFAD` and `E.4.PFR`; first-entry publication uses `E.11` only when publication is current. |
+| Fast DPF seed hardening | A local DPF seed, pattern seed, relation record, or source pack can enter `E.23` after the object version and evaluation are declared. | Recover the needed source contribution through the smallest sufficient source route in `E.4.DPF:4`, using `G.2` only when a broad, refreshable CG-Frame pack is needed; construct a missing way through C.39 and explain the connected framework Methods through E.4.CM before pattern allocation when those contributions are needed; carry the resulting contribution and its limits back to seed hardening; source decay, edition change, and refresh use `G.11`; PFAD and PFR decisions use `E.4.PFAD` and `E.4.PFR`; first-entry publication uses `E.11` only when publication is current. |
 
 The next table names the local values used after this routing choice.
 
@@ -135,7 +135,7 @@ The next table names the local values used after this routing choice.
 | `CostAndRiskAccount` | Cost and risk account used to judge another pass or operation. |
 | `ImprovementLoopDecisionValue` | Local closed value set `stop | continue | switchMethodFamily | openNewFrame | holdUntilInformationBasisSufficient`. |
 | `QualityImprovementLoopRecord` | `U.Episteme` whose EntityOfConcern is the exact starting object version for one bounded improvement-loop application. Its ClaimGraph relates that version to one admitted unfolding structure, selected next-action proposals, independently identified evaluation and improvement Work, exact result bases and result epistemes, changed versions, evidence bases, trade-offs, cost and risk, and the selected continuation and boundaries. It describes those objects and relations; it is not the method, performer, Work occurrence, changed object, or structure. |
-| `QualitySideEvaluationChangeClaim` | Controlled claim-node form inside a `U.ClaimGraph`; it compares before and after evaluation results for named object versions on declared `Q` coordinates. Each result uses the evaluation-use declaration bound to its own object version; keep the evaluation criterion, scope, scale and qualification conditions comparable, or state the explicitly selected stronger evaluation. |
+| `QualitySideEvaluationChangeClaim` | Controlled claim-node form inside a `U.ClaimGraph`; it compares before and after evaluation results for named object versions on declared `Q` coordinates. Each result uses the evaluation-use declaration bound to its own object version; keep the evaluation criterion, scope, scale and qualification conditions comparable, or state the evaluation change adopted under E.23:4.1a and which results remain comparable. |
 | `SourceComposedResultClaim` | Controlled claim-node form inside a `U.ClaimGraph`; it relates one changed-object result claim to exact accepted source-use decisions and each source contribution. It is neither the changed object nor a source-use decision. |
 | `KindRestorationCheck` | Conditionally present precision-repair check required by the selected restoration predicate and its evaluation result. |
 
@@ -205,7 +205,7 @@ Checked evidence values stay paired with their kinds; evidence relations form a 
 For an improvement pass, the changed-version reference appears only after that version exists. The `workResultOrChange...` fields keep the declared predicate, its pattern locator, and the obtaining basis distinct. That basis must be an A.6.1 result binding, a direct Work-to-result or Work-to-change relation, or a local relation claim that names its participants, conditions, and obtaining facts. If only the predicate or locator is known, keep the proposal, Work, changed object, and Transformation separate and return a missing-governor finding for the intended Work-to-result or Work-to-change relation. An A.15.PROD route points to its applicable local claim rather than to the pattern as a generic claim.
 The two record epistemes follow C.2.1 identity: claim content, exact EntityOfConcern, and effective `U.ReferenceScheme` determine each episteme edition. The listed loop fields contribute to claim content; `editionId` designates an already distinguished edition but does not constitute it. Empirical grounding, viewpoint membership, claim scope, model-use structure, applicability, qualification, evidence currentness, and source currentness remain separate relations or values defined elsewhere. A change in one of them changes a record episteme only when its claim content, EntityOfConcern, or reference scheme is revised; carrier and support serialization alone change neither episteme. These records do not create quality values, project evidence, release state, selected-set result declaration, actual publication, parity, refresh, Work, Transformation, or proof of quality.
 
-The retained `@Context` suffixes on support species such as `LoopEvaluationEvidenceBasis@Context`, `CandidateImprovementProposalRow@Context`, `TradeoffProtectionSet@Context`, and `ImprovementLoopBoundaryCondition@Context` are compatibility and retrieval spellings only. No suffix or context label supplies a container, participant, ClaimScope, applicability, or identity discriminator. The three identity-bearing interface names in this package are suffixless: `QualityEvaluationQuestionFrame`, `QualityEvaluationUseDeclaration`, and `QualityImprovementLoopRecord`.
+The `@Context` suffixes on support species such as `LoopEvaluationEvidenceBasis@Context`, `CandidateImprovementProposalRow@Context`, `TradeoffProtectionSet@Context`, and `ImprovementLoopBoundaryCondition@Context` are compatibility and retrieval spellings only. No suffix or context label supplies a container, participant, ClaimScope, applicability, or identity discriminator. Use the suffixless interface names `QualityEvaluationQuestionFrame`, `QualityEvaluationUseDeclaration`, and `QualityImprovementLoopRecord`.
 
 #### E.23:4.2a - Conditional Improvement Unfolding Structure Block
 
@@ -337,7 +337,7 @@ Accepted `SoTA` is the working external front only when assigned by the object-u
 
 When an evaluation-result change depends on source use, source currentness, or a dated external front, the loop record cites the exact accepted source contribution and bounded use, including a `G.2` pack result when that route was used, or the relevant `G.11` currentness result, with the edition or date needed for replay. `E.23` carries that reference; it does not make the source-use or currentness decision.
 
-When several source anchors are used, the loop records each exact accepted source-use decision and each source contribution. The changed object's result episteme then carries a `SourceComposedResultClaim` node in its `U.ClaimGraph`, relating the result claim to those decisions and contributions, and the changed object version is re-evaluated.
+When several source anchors are used, retain each accepted source-use decision and contribution. If the improvement depends on their combined use, construct the needed connection under the subject Method; for framework Methods, use C.39 and E.4.CM. Preserve independently usable contributions when no composite Method is needed. The changed object's result episteme then carries a `SourceComposedResultClaim` node in its `U.ClaimGraph`, relating the result claim to those decisions and contributions, and the changed object version is re-evaluated.
 
 For NQD and OEE, use `E.23` to change one object version or candidate and re-evaluate it on declared `Q` coordinates. Use `C.17` for novelty, diversity, descriptors, and distances, `C.18` for archive and front insertion, `C.19` for pool policy, `G.5` for selected-set result declaration, `G.9` for parity, and `G.11` for currentness and refresh. When audience availability is current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
 

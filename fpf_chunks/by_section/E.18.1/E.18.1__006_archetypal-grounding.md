@@ -6,12 +6,12 @@ section_id: "E.18.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__006_archetypal-grounding.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:5 — Archetypal Grounding"
-line_start: 110656
-line_end: 110755
+line_start: 110440
+line_end: 110539
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -65,9 +65,9 @@ E.11.PUA may help the team inspect and apply one diagnostic-pattern candidate in
 
 | Archetype | System-side grounding | Episteme-side grounding |
 |---|---|---|
-| Tell | A manufacturing team accepts a problem card showing that a fabrication issue is caused by a missing functional constraint. | A research team accepts a problem card showing that two descriptions may be almost the same only under a declared `U.Signature(profile=FormalSubstrate)`. |
-| Show without P2W | The team treats the principle scheme as method selection, work plan, performed work, and acceptance evidence at once. | The team treats mathematical equivalence as real-world identity, measurement validation, evidence, and decision claim. |
-| Show with P2W | The team carries one accepted claim and separates method comparison from one exact `A.15.2 U.WorkPlan`. That WorkPlan's declaration-local planned-filling content may carry the Method, window, intended performer and kind conditions, evidence-reference pins, freshness requests, and planned constraints; a needed row is cited only through the exact WorkPlan edition and its local-content locator. The team separately records references to dated `U.Work` occurrences while keeping those records as separate epistemes, and unpacks result relations; it writes a compact note only when replay matters. | The team separates mathematical-lens use, `U.Signature(profile=FormalSubstrate)`, bridge, measurement, evidence, and provenance relations, and keeps equivalence bounded by the declared formal relation. |
+| Working situation | A manufacturing team accepts a problem card showing that a fabrication issue is caused by a missing functional constraint. | A research team accepts a problem card showing that two descriptions may be almost the same only under a declared `U.Signature(profile=FormalSubstrate)`. |
+| Failure | The team treats the principle scheme as method selection, work plan, performed work, and acceptance evidence at once. | The team treats mathematical equivalence as real-world identity, measurement validation, evidence, and decision claim. |
+| Repaired use | The team carries one accepted claim and separates method comparison from one exact `A.15.2 U.WorkPlan`. That WorkPlan's declaration-local planned-filling content may carry the Method, window, intended performer and kind conditions, evidence-reference pins, freshness requests, and planned constraints; a needed row is cited only through the exact WorkPlan edition and its local-content locator. The team separately records references to dated `U.Work` occurrences while keeping those records as separate epistemes, and unpacks result relations; it writes a compact note only when replay matters. | The team separates mathematical-lens use, `U.Signature(profile=FormalSubstrate)`, bridge, measurement, evidence, and provenance relations, and keeps equivalence bounded by the declared formal relation. |
 
 #### E.18.1:5.1 - Worked slices
 
@@ -108,7 +108,7 @@ Each slice shows only the P2W contribution: the carried distinction, current que
 
 #### E.18.1:5.3 - Pilot examples for transformation-flow structures and networks
 
-These pilots are grounding checks, not source terminology to import. Before using one, decide which of three ontic cases is current: several valuations or path slices of one exact TFS; one parent-relative internal `SubflowRef`; or an E.18.NET network of independently identified TFS or nested-network members connected by exact already-obtaining cross-boundary relations. A diagram, common product, display order, shared Work or source wording decides none of them.
+Before using these structure examples, distinguish three cases: several valuations or path slices of one exact TFS; one parent-relative internal `SubflowRef`; or an E.18.NET network of independently identified TFS or nested-network members connected by exact already-obtaining cross-boundary relations. A diagram, common product, display order, shared Work or source wording decides none of them.
 
 For one TFS, every valuation resolves to the same structure boundary and internal `U.Transfer` occurrences. For a network, every member retains its own boundary, Work, actual transformations, valuations and leaf-local position binding or `DesignRunTag`; exact cross-flow occurrences retain their defining predicates, signatures, participant order and endpoint bindings. Membership is acyclic; feedback relations may cycle when their own rules permit it. Use a pilot to check the carried object's exact member-local position, the direct relation that crosses a boundary when one exists, and the smallest reopened member or continuation.
 

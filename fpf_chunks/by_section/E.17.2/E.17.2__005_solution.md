@@ -6,12 +6,12 @@ section_id: "E.17.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__005_solution.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:4 — Solution"
-line_start: 106579
-line_end: 106725
+line_start: 106436
+line_end: 106582
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -71,10 +71,10 @@ Each `P_*` variable must be bound to one exact C.2.1 episteme that independently
 
 For any one of the four positions:
 
-1. identify the exact target kind and the complete self-contained P ClaimGraph;
-2. apply the five E.17.0 viewpoint-membership conditions;
-3. only in the independently triggered structured branch, identify exact convention epistemes under their least-powerful admitted kinds, construct exact collection C under C.13, recover every selected obtaining direct relation, state ordinary constraint episteme `Q_org`, let a system perform the A.22 selection work, and identify exact selected structure S;
-4. bind the resulting exact P to its project-local reader designator and exact `U.ViewpointRef`; and
+1. identify the exact target kind and the complete fixed claims required by E.17.0;
+2. in the ordinary self-contained branch, constitute P with that target kind as EntityOfConcern;
+3. in the independently triggered structured branch, identify exact convention epistemes under their least-powerful admitted kinds, construct exact collection C under C.13, recover every selected obtaining direct relation, state ordinary constraint episteme `Q_org`, let a system perform the A.22 selection work, and identify exact selected structure S; constitute P with S as EntityOfConcern;
+4. apply the five E.17.0 viewpoint-membership conditions to the resulting P, then bind its project-local reader designator and exact `U.ViewpointRef`; and
 5. record the resolution under exact `R_L` in the local declaration claim block.
 
 No constituent, `Q_org`, or P becomes a `U.Signature` merely to fit this template. A constituent is a `U.MethodDescription` only when it describes one independently admitted method under A.3.2. Exact selection work and its result remain separate from C, S, P, and selected relation occurrences. The structured-witness table below contains variables and optional recipes, not current repository values.

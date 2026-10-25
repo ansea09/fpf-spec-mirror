@@ -6,12 +6,12 @@ section_id: "E.6:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__010_relations.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
   - "E.6:9 — Relations"
-line_start: 96142
-line_end: 96146
+line_start: 96101
+line_end: 96105
 dependencies:
   - "E.2"
 keywords:
@@ -24,7 +24,7 @@ keywords:
 ---
 
 ### E.6:9 - Relations
-* **Depends on:** `pat:constitution/guard‑rails` (GR‑1 ensures example jargon stays outside Core).
+* **Depends on:** `pat:constitution/guard‑rails` (GR-1 governs implementation detail and necessary subject syntax).
 * **Constrains:** Placement of Parts, patterns, and their explanatory examples.
 * **Instantiates pillars:** P‑1, P‑2
 

@@ -6,12 +6,12 @@ section_id: "E.15:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__006_archetypal-grounding.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:5 — Archetypal Grounding"
-line_start: 105167
-line_end: 105190
+line_start: 105035
+line_end: 105058
 dependencies:
   - "C.18"
   - "C.19"
@@ -40,7 +40,7 @@ An identifier is spelled correctly everywhere except one explanatory sentence. T
 
 #### E.15:5.2 - Plain-language repair after an ontology correction
 
-A relation passage is ontologically exact but has grown into two pages of qualifications that hide the first action. The candidate restores one readable explanation and keeps the exact relation test in the assurance section. Because a substantial rewrite can lose ideas, the author independently inventories the predecessor's entry, action, conditions, examples, and prohibitions, then reads the whole candidate as a cold user. If every semantic function remains, the result may be Δ-1 or Δ-2 depending on whether a normative clarification also occurred; the word count does not decide.
+A relation passage is ontologically exact but has grown into two pages of qualifications that hide the first action. The candidate restores one readable explanation and keeps the exact relation test in the assurance section. Because a substantial rewrite can lose ideas, the author independently inventories the predecessor's entry, action, conditions, examples, and prohibitions, then reads the whole candidate for what an intended user can recover from its public explanation. If every semantic function remains, the result may be Δ-1 or Δ-2 depending on whether a normative clarification also occurred; the word count does not decide.
 
 #### E.15:5.3 - One-word semantic change with dependent consumers
 

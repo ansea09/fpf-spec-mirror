@@ -6,12 +6,12 @@ section_id: "E.24.UK:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__009_conformance-checklist.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:7 — Conformance Checklist"
-line_start: 116939
-line_end: 116968
+line_start: 116690
+line_end: 116719
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -52,7 +52,7 @@ keywords:
 | `CC-E24UK-2c` | `U.SubkindOf` is admitted only through atomic decision `E24-CO-USUBKINDOF-R5-01` and its separate outputs `E24-OS-USUBKINDOF-R5-01` and `E24UK-AR-USUBKINDOF-R5-01`. It is a same-individual dependent kind under `U.Relation`; its occurrence has exact ordered kind participants and obtains only by exact criterion entailment or exhaustive evaluation over a deliberately closed finite domain. A hierarchy edge, sample, or assertion is not the occurrence. |
 | `CC-E24UK-3` | Every positive result cites the kind's direct membership, extent and branch-specific law and all eight admission conditions. Its shared decision either cites an accepted ontic actually needed, supplies a separately justified new ontic, or explicitly records direct use or bounded coordination with no additional durable ontic. A reconstructed RG result keeps its exact admission reference and by-value basis; test any newly needed coordination instead of inventing a sibling identifier. |
 | `CC-E24UK-3a` | Root `U.Relation` classifies only individuable obtaining relation occurrences. `A.6.REL` supplies the common discipline; each admitted direct or derived relation kind has a direct subject settlement for participant meanings, obtaining, applicability, and occurrence identity. An `A.6.RCD` local-claim or predicate-definition result does not count as kind admission; only a derived or primitive candidate that carries the proposed direct subject settlement can be tested by the E.24/E.24.UK admission rules. |
-| `CC-E24UK-3b` | The claim-bearing decision episteme records exactly one typed `AdmissionDisposition` value — `root`, `same-individual-dependent`, `identity-dependent`, `reuse`, `local-kind`, or `reject` — and only the detail fields conditional on that value; it creates no project-side relation occurrence, and naming begins only after disposition. |
+| `CC-E24UK-3b` | A resolved claim-bearing decision episteme records exactly one typed `AdmissionDisposition` value — `root`, `same-individual-dependent`, `identity-dependent`, `reuse`, `local-kind`, or `reject` — and only the detail fields conditional on that value; it creates no project-side relation occurrence, and naming begins only after disposition. |
 | `CC-E24UK-3c` | The practitioner-first admission tree tests exact existing-kind coverage and bounded C.3 classification before new admission; a resolved non-admission closes as `reuse` with its accepted result, `local-kind` with one exact C.3.2 declaration, or `reject` with the actual object and direct governor recovered under section 4.6. A missing required law or fact leaves admission unresolved rather than supplying one of those results. |
 | `CC-E24UK-3d` | Only when both a new ontic and a new public kind are independently needed does an atomic E24FamilySettlementDecision return separate results from common inputs, with neither used as prior evidence and both provisional while a required branch is unresolved. A justified no-additional-ontic conclusion uses U-kind-only and the existing direct-use or bounded-coordination disposition; it never admits an empty connected unit. |
 | `CC-E24UK-4` | A same-individual dependent kind states its root kind, direct membership predicate, and the implication from dependent to root membership for the same individual. An identity-dependent kind states an already governed two-place dependence relation to one exact root-kind individual plus every additional discriminator; a root reference alone never closes either case. |

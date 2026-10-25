@@ -6,12 +6,12 @@ section_id: "E.24.UK:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__002_use-this-when.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:0 — Use This When"
-line_start: 116572
-line_end: 116602
+line_start: 116323
+line_end: 116353
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -68,6 +68,6 @@ Typical moments:
 - If the question is whether FPF needs a durable ontic at all, use `E.24`.
 - If the question is only detecting an ontic candidate before the durable decision, use `E.24.CD`.
 - If the question is the difference among an ontic, its description episteme, publication, and publication form, use `E.24.PUB`.
-- If the question is one phrase-level precision issue with no durable name pressure, use `E.10`, `E.10.ARCH`, or the direct precision-restoration pattern.
+- If the question is wording with no durable name pressure, use `F.19`; open `E.10`, `E.10.ARCH`, or the direct subject pattern only for meaning that remains unresolved.
 - If the current governed object is already recovered and only its public label must be chosen, use `F.8`, `F.5`, `F.18`, or `F.17` according to the naming use.
 

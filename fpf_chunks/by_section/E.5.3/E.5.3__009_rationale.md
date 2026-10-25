@@ -6,12 +6,12 @@ section_id: "E.5.3:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.3/E.5.3__009_rationale.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.5.3 — Unidirectional Dependency between FPF Families"
   - "E.5.3:8 — Rationale"
-line_start: 95966
-line_end: 95971
+line_start: 95940
+line_end: 95943
 dependencies:
   - "E.4"
   - "E.5"
@@ -19,8 +19,6 @@ keywords:
 ---
 
 ### E.5.3:8 - Rationale
-One‑way import graphs are a proven safeguard in operating systems
-(kernel vs user land) and layered protocols. Here the rule operationalises
-Pillars **P‑4 Open‑Ended Kernel** and **P‑5 FPF Layering**, ensuring
-that innovation happens “below” without contaminating the timeless Core.
+One-way dependencies keep changes in Tooling or Pedagogy from becoming prerequisites for interpreting Core claims. The rule implements **P-4 Open-Ended Kernel** and **P-5 FPF Layering** while allowing those families to evolve under the Core semantics they use.
+
 

@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.18"
 pattern_title: "Transformation Flow Structure"
 section_id: "E.18:6.1"
-section_title: "Bias-Annotation (per E.8 SG-bias slot)"
+section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.18/E.18__008_bias-annotation-per-e-8-sg-bias-slot.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+output_path: "by_section/E.18/E.18__008_bias-annotation.md"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.18 — Transformation Flow Structure"
-  - "E.18:6.1 — Bias-Annotation (per E.8 SG-bias slot)"
-line_start: 110099
-line_end: 110108
+  - "E.18:6.1 — Bias-Annotation"
+line_start: 109893
+line_end: 109902
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -37,7 +37,7 @@ dependencies:
 keywords:
 ---
 
-### E.18:6.1 - Bias-Annotation (per E.8 SG-bias slot)
+### E.18:6.1 - Bias-Annotation
 
 * **Acyclic-bias risk.** Tooling accustomed to DAGs may discourage admissible feedback loops; E.18 explicitly permits loops with budget and sentinel controls (CC-E18-13, -18).
 * **Scalarization-bias risk.** Cultural defaults to single-score rankings can suppress Pareto fronts and QD archives; E.18 keeps declared order relations and return sets visible (CC-E18-10, CC-E18-12).

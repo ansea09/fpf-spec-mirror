@@ -6,12 +6,12 @@ section_id: "E.21:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__002_problem-frame.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:1 — Problem frame"
-line_start: 113209
-line_end: 113224
+line_start: 112974
+line_end: 112989
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -48,5 +48,5 @@ What goes wrong if missed: pattern quality becomes taste, checklist closure, sou
 
 What this pattern buys: one scoped, non-arithmetic `PatternQualityQBundle` claim about one exact pattern edition, one complete coordinate set, explicit evidence basis, adjacent-value rationales, and a visible stop, repair, hold, or refresh status.
 
-Primary EntityOfConcern in plain terms: one exact authored FPF pattern edition or bounded version checked under one declared quality scope and qualification window. Keep the quality questions, evaluator, coordinate claims, aggregate result, evidence use, any admission decision, and later repair distinct. Use Solution item 5 and `CC-E21-0` only when a later claim needs a dated assessment-Work account.
+Primary EntityOfConcern in plain terms: one exact authored FPF pattern edition or bounded version checked under one declared quality scope and qualification window. Keep the quality questions, evaluator, coordinate claims, aggregate result, evidence use, any admission decision, and later repair distinct. Use the dated-Work account in E.21:4 and `CC-E21-0` only when a later claim needs a dated assessment-Work account.
 

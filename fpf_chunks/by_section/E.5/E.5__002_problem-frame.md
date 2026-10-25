@@ -6,12 +6,12 @@ section_id: "E.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__002_problem-frame.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:1 — Problem frame"
-line_start: 95616
-line_end: 95628
+line_start: 95618
+line_end: 95627
 dependencies:
   - "E.2"
   - "E.3"
@@ -23,15 +23,12 @@ keywords:
 ---
 
 ### E.5:1 - Problem frame
-FPF positions itself as a **timeless, universal “operating system for
-thought.”**  Collaborative projects of this scope face four predictable
-entropic pulls:
+Use this pattern when authoring or revising Core concepts or their Tooling and Pedagogy forms. Four recurring risks require different checks:
 
-1. **Implementation gravity** – concept prose accretes tool jargon.
-2. **Notation lock‑in** – one diagram style becomes “the language.”
-3. **Convenience cycles** – quick fixes create reverse dependencies.
-4. **Disciplinary monoculture** – implicit bias colours “universal” rules.
+1. **Implementation language** — concept prose acquires tool-specific terms.
+2. **Notation lock-in** — one diagram style becomes the only way to express a concept.
+3. **Reverse dependencies** — a local convenience makes Core depend on an outer layer.
+4. **Disciplinary bias** — domain-specific assumptions enter rules intended for several domains.
 
-Left unchecked, these forces erode Pillars **P‑1 Cognitive Elegance**,
-**P‑4 Open‑Ended Kernel** and **P‑5 FPF Layering**.
+These risks undermine Pillars **P-1 Cognitive Elegance**, **P-4 Open-Ended Kernel** and **P-5 FPF Layering**. Use E.5.1–E.5.4 for the corresponding detailed rules.
 

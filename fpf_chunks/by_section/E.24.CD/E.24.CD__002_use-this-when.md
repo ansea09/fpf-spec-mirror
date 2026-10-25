@@ -6,12 +6,12 @@ section_id: "E.24.CD:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__002_use-this-when.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:0 — Use This When"
-line_start: 115966
-line_end: 115994
+line_start: 115717
+line_end: 115745
 dependencies:
   - "A.1"
   - "A.14"
@@ -54,7 +54,7 @@ keywords:
 
 ### E.24.CD:0 - Use This When
 
-Use this pattern when a recurring word, card, table, schema, diagram, record, draft pattern row, or field bundle looks like a new FPF subject and the author must decide what to do next.
+Use this pattern when a recurring expression or visible form, such as a card or schema, appears to name a new FPF subject and the author must decide what to do next.
 
 Typical moments:
 

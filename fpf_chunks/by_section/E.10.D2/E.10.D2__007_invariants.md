@@ -6,33 +6,22 @@ section_id: "E.10.D2:6"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__007_invariants.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:6 — Invariants"
-line_start: 101879
-line_end: 101898
+line_start: 101766
+line_end: 101785
 dependencies:
-  - "A.1.1"
-  - "A.10"
-  - "A.2.6"
-  - "A.3.2"
   - "A.7"
-  - "B.3"
   - "C.2.1"
   - "C.2.3"
-  - "C.29"
-  - "E.10"
   - "E.10.D1"
-  - "E.17"
-  - "E.17.0"
-  - "E.24.PUB"
   - "F.15"
   - "F.4"
   - "F.5"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
   - "DescriptionContext (legacy cue)"
   - "EntityOfConcern"
@@ -57,7 +46,7 @@ keywords:
 
 **D2-5 (Stable identity across use).** Changed description use, viewpoint selection, harness, evidence, publication, form, carrier, rendering, or representation does not by itself change episteme identity.
 
-**D2-6 (Work and authority separation).** An episteme, plan, checklist, specification, standard, file, or dashboard performs no work and grants no permission, acceptance, assurance, or world-side truth without the exact direct relation.
+**D2-6 (Work and authority separation).** An account of Work identifies its performing System under A.15.1. Epistemes carry claims and may be used in that Work under independently governed use relations. Permission, acceptance, assurance and world-side claims retain their direct governing rules; a description or display supplies none by label.
 
 **D2-7 (No label-only sameness).** Identical labels across schemes, scopes, viewpoints, model-use structures, or contexts establish neither the same EntityOfConcern nor the same episteme. Use the governing identity and Bridge rules.
 

@@ -6,12 +6,12 @@ section_id: "E.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__005_solution.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:4 — Solution"
-line_start: 105071
-line_end: 105166
+line_start: 104939
+line_end: 105034
 dependencies:
   - "C.18"
   - "C.19"
@@ -98,7 +98,7 @@ Exact copied text may close by identity. A large deletion, compression, move, or
 
 Select checks from the actual change and intended conclusion. A small Δ-0 repair may need one focused check. A Δ-2 or Δ-3 change may require semantic, ontological, consumer, source, preservation, or independent quality checks. Reuse a current check result when candidate, question, conclusion, and conditions are unchanged.
 
-After a material ontological or formal repair, read the **whole changed pattern** as a cold practitioner. A local token scan cannot establish precise plain language. Check that the working situation, first action, examples, conditions, and result remain understandable without reconstructing the ontology from elsewhere. Simplify the expression, not the distinction. Keep a technical term when it names a real needed object or relation; remove stacked qualifiers and formal notation when they do no action-changing work.
+After a material ontological or formal repair, read the **whole changed pattern** for what an intended practitioner can recover from the publication and its stated prerequisites. This author walkthrough remains expert evidence; obtain an actual reading under F.19 when its conditions require one. A local token scan cannot establish precise plain language. Check that the working situation, first action, examples, conditions, and result remain understandable without reconstructing the ontology from elsewhere. Simplify the expression, not the distinction. Keep a technical term when it names a real needed object or relation; remove stacked qualifiers and formal notation when they do no action-changing work.
 
 Author-side use of E.10, E.19, or E.21 questions is development evidence. It does not become the independent review, complete quality result, admission, or landing conclusion that a later use may require.
 

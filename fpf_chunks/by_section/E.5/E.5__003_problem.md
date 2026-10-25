@@ -6,12 +6,12 @@ section_id: "E.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__003_problem.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:2 — Problem"
-line_start: 95629
-line_end: 95637
+line_start: 95628
+line_end: 95631
 dependencies:
   - "E.2"
   - "E.3"
@@ -23,11 +23,6 @@ keywords:
 ---
 
 ### E.5:2 - Problem
-Without explicit, non‑negotiable protectors the Conceptual Core would
-slowly:
+Core definitions can become tied to transient tools or one notation, acquire dependency cycles, or present domain-specific assumptions as universal. Authors need constraints that preserve reusable meanings while permitting concrete examples and different forms of expression.
 
-* entangle with transient technology terms,
-* hard‑freeze into a single dialect,
-* devolve into a tightly coupled “big ball of mud”,
-* betray its trans‑disciplinary promise.
 

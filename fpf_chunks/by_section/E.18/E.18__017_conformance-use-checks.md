@@ -6,12 +6,12 @@ section_id: "E.18:15"
 section_title: "Conformance Use Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__017_conformance-use-checks.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:15 — Conformance Use Checks"
-line_start: 110281
-line_end: 110296
+line_start: 110071
+line_end: 110084
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -49,7 +49,5 @@ Choose tests from the current use, then apply the selected profile to those test
 
 [20]: https://webstore.ansi.org/preview-pages/ISO/preview_ISO%2B23247-1-2021.pdf?srsltid=AfmBOooAUXpg38IpkTlUFtcCpaMVOjivkewJWDIUd1VemIJO91abNEkG "INTERNATIONAL STANDARD ISO 23247-1"
 
-Relation boundary: `E.18` defines selected transformation-flow structures whose loci may bind independently identified actual `U.Transformation` values and structure-positioned adjacent values whose definitions or constraints are identified independently. It does not define a second change ontology, a transformation-composition relation, a work sequence, a method, a mechanism, a mathematical graph expression, or a publication record. A flow arrow, adjacency, shared work, common affected referent, or placement in one selected structure establishes neither an actual transformation nor transformation composition. When a selected-structure use raises bounded-transformation, dynamics-episteme, temporal-aspect, temporal-claim adequacy, work planning, performed work, work-to-change, production, evidence, assurance, gate, decision, architecture, structural-view, mechanism, selector, comparison, refresh, publication, or wording-use claims, apply the pattern whose Solution answers that exact claim before relying on the structure.
-
-When a selected structure locus, selected path, path slice, substructure, or flow valuation expresses or constrains one independently identified actual bounded transformation, apply `A.3.4` to the `U.Transformation` claim and E.18 to the selected structure, containing locus, pins, locus kind, crossing, publication, comparability, and refresh discipline. Cite the exact predicate and case facts when dated work is claimed to cause or realize it, and cite the separate local `A.15.PROD` claim when production-work participation, entity-identity inception, or production completion is current. E.18 locus kinds do not automatically fill slots in other patterns. For a claim about the independently identified value bound at a locus, apply `A.3.4` to the bounded-transformation claim, `A.6.0` to the signature declaration, `A.6.1` and `E.20` to the mechanism claim, the applicable A.15 pattern to planning or dated Work, and `A.20` or `A.21` to the current internal-step-validity or gate claim.
+For an independently identified value at a locus, use its defining pattern for the subject claim. A locus binding does not fill slots in another pattern.
 

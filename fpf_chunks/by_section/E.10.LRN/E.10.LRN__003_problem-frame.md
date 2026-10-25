@@ -6,12 +6,12 @@ section_id: "E.10.LRN:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__003_problem-frame.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:1 — Problem Frame"
-line_start: 100007
-line_end: 100023
+line_start: 99935
+line_end: 99951
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,7 +47,7 @@ keywords:
 
 ### E.10.LRN:1 - Problem Frame
 
-The same word family is used for importantly different situations:
+The same word family is used for different situations:
 
 - a person inquires, notices, remembers, or reorganizes an episteme;
 - another System performs teaching, coaching, demonstration, or feedback Work;

@@ -6,12 +6,12 @@ section_id: "E.18.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__013_relations.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:12 — Relations"
-line_start: 110842
-line_end: 110871
+line_start: 110624
+line_end: 110653
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -56,7 +56,7 @@ keywords:
 - Apply `A.22.CGUS` when P2W identifies one A.22 structure whose local loci, selected relations, applied constraints, and at least two potential continuations are recoverable. Judge enabled, disabled, unknown, and error outcomes for the present case separately from structure identity and membership.
 - `E.18.3` qualifies that exact A.22-selected CGUS through positions, bindings, and already-obtaining occurrences from one independently identified E.18 substrate. E.18 defines the one-TFS and parent-relative internal-`SubflowRef` interfaces; E.18.NET defines independently identified network members and exact obtaining cross-member relations. P2W cites those exact values, adds no subset, reciprocal record, or hybrid structure schema, and neither reidentifies nor routes them.
 - Before hardening a source-derived DPF seed, recover the needed source contribution and its limits through the sufficient source route in `E.4.DPF:4`. Use `G.2` when that requires a broad, refreshable CG-Frame pack across competing traditions. Add `A.10` for claim-bound source or provenance, `G.6` for addressable path citation or shared provenance representation, `B.3` for assurance of a named reliance use, and `G.11` for currentness and refresh only when that stronger use is current.
-- `E.4.DPF` guides DPF authoring. When the framework-architecture question is live, `E.9` records the selected answer and `E.4.PFAD` profiles its framework-specific content; `E.4.PFR` handles an optional framework-relation record only when a named maintenance use needs one.
+- `E.4.DPF` guides DPF authoring; `E.4.CM` develops the connected Methods and their explanation from the field's working questions before they are assigned to patterns. When the framework-architecture question is live, `E.9` records the selected answer and `E.4.PFAD` profiles its framework-specific content; `E.4.PFR` handles an optional framework-relation record only when a named maintenance use needs one.
 - `E.23` defines and tests repeated quality improvement only after the object version and evaluation are recoverable; P2W may carry a seed to that point but does not become the improvement method.
 - `G.11` defines and tests currentness, admitted-source decay, source-use relation change, edition change, and refresh when a changed source publication, source-use relation, or telemetry reopens the smallest affected P2W application.
 
@@ -70,7 +70,7 @@ keywords:
 |---|---|
 | Mathematical-lens use; `FormalSubstrate` or `PrincipleFrame` declaration; ontology or admission | Mathematical-lens use -> `C.29`; profile-specific signature declaration -> `A.6.0`; residual relation-kind settlement -> `A.6.RCD`; admission of the settled candidate -> `E.24` or `E.24.UK`. These are separate questions. |
 | UTS publication; semantic Bridge; characteristic space; measurement; subject-specific evaluation; normalization; comparison; parity | UTS publication -> `F.17`; Bridge -> `F.9`; characteristic-space construction -> `A.19`; measurement -> `C.16`; evaluation -> the pattern that defines the subject-specific criterion and test; normalization -> `A.19.UNM`; comparison -> `A.19.CPM`; parity -> `G.9`. A measurement or evidence result is not an evaluation, permission, readiness, gate, or decision result. |
-| Mechanism; mechanism-method stabilization; method | Mechanism declaration -> `A.6.1`; stabilization of its method connection -> `E.20`; reusable way of doing -> `A.3.1`. |
+| Mechanism; mechanism-method stabilization; Method identity or development | Mechanism declaration -> `A.6.1`; stabilization of its method connection -> `E.20`; reusable way of doing -> `A.3.1`; finding or developing a needed way -> `C.39`; its connected framework contribution -> `E.4.CM`. |
 | Transformation; temporal aspect; temporal-claim adequacy; dynamics | Actual bounded transformation -> `A.3.4`; temporal aspect -> `C.27.TA`; adequacy of a temporal claim for use -> `C.27`; dynamics episteme -> `A.3.3`. |
 | Archive or front; retained exploration value; live pool; selector; parity; selected-set declaration; publication | Archive or front -> `C.18`; still-live pool -> `C.19`; selector -> `A.19.SelectorMechanism`; parity -> `G.9`; selected-set declaration -> `G.5`; source-backed publication face -> `E.17`; publication occurrence, form, carrier, audience, bounded use, and availability -> `E.24.PUB`. A pool, selected set, and publication are different results. |
 | Alignment; dated Work; planning; planned filling; appearance-based reliance; work-entry readiness; work-to-change; production; unresolved result wording | Alignment -> `A.15`; Work -> `A.15.1`; planning -> `A.15.2`; planned filling -> `A.15.3`; reliance repair -> `A.15.4`; readiness -> `A.15.5`; work-to-change -> its named subject predicate or the applicable `A.6.RCD` route; production -> `A.15.PROD`; unresolved result, input, or handoff wording -> `A.6.P.WMR`. P2W cites the returned claim or blocker rather than repeating its proof. |

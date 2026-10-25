@@ -6,12 +6,12 @@ section_id: "E.18.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__005_solution.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4 — Solution"
-line_start: 110944
-line_end: 111029
+line_start: 110726
+line_end: 110811
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ TransformationFlowMathematicalDescription@Context:
   PublicationFaceRef?:
 ```
 
-Exactly one of `DescribedTransformationFlowStructureRef?` and `DescribedTransformationFlowStructureNetworkRef?` is present. The first points to one E.18 TFS; the second points to one already selected E.18.NET network. `DescribedSliceOrLocusRef?` may cite an existing path, slice, `FlowPositionRef`, `ExposedFlowPositionRef`, member path, E.18.NET `NetworkCrossFlowRelationRowRef`, or other independently identified part without copying the fields that define that object. `CandidateMathObject` and `ExpressionKind` name the graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, wiring, matrix, network expression, or related mathematical object. `PreservedStructure`, `LostStructure`, `DeclaredUse`, and `BoundaryStop` follow the C.29 discipline when the expression is claim-bearing. `PublicationFaceRef?` points to a separate E.17 publication face. The compact record has no generic neighboring-object reference. When a neighboring claim is materially needed, cite its exact C.2.1 claim-bearing episteme in the subject-specific account; identify an ontic subject or relation occurrence only through a separately named, correctly typed reference supplied by the pattern for that claim.
+Exactly one of `DescribedTransformationFlowStructureRef?` and `DescribedTransformationFlowStructureNetworkRef?` is present. The first points to one E.18 TFS; the second points to one already selected E.18.NET network. `DescribedSliceOrLocusRef?` may cite an existing path, slice, `FlowPositionRef`, `ExposedFlowPositionRef`, member path, E.18.NET `NetworkCrossFlowRelationRowRef`, or other independently identified part without copying the fields that define that object. `CandidateMathObject` identifies the mathematical object; `ExpressionKind` names its expression family. `MappingMode` states how its relevant elements and operations correspond to the described subject, the direction of inference, and the assumptions on which that correspondence relies. Distinguish analogy, fitted representation, simulation and an exact structure-preserving map as C.29 requires. `PreservedStructure`, `LostStructure`, `DeclaredUse`, and `BoundaryStop` follow the C.29 discipline when the expression is claim-bearing. `PublicationFaceRef?` points to a separate E.17 publication face. The compact record has no generic neighboring-object reference. When a neighboring claim is materially needed, cite its exact C.2.1 claim-bearing episteme in the subject-specific account; identify an ontic subject or relation occurrence only through a separately named, correctly typed reference supplied by the pattern for that claim.
 
 #### E.18.2:4.2 - Expression families
 
@@ -94,7 +94,7 @@ The same visible source may require several records, but each E.18.2 description
 
 #### E.18.2:4.4 - Related claims
 
-E.18.2 defines only the mathematical-description relation. For any neighboring claim, use the row below that names the exact contribution needed now:
+E.18.2 defines the mathematical description of the selected TFS or network. For any neighboring claim, use the row below that names the exact contribution needed now:
 
 | Current claim | Use |
 |---|---|
@@ -117,7 +117,7 @@ E.18.2 defines only the mathematical-description relation. For any neighboring c
 | local choice | `C.11` returns the `ChoiceResult` |
 | architecture | `C.30` carries the architecture claim |
 | architecture structural view | `C.30.ASV` returns the structural-view adequacy result |
-| functional structure | `A.6.F` supplies the exact function/bearer claim |
+| functional structure or unsettled function-like wording | Use `C.30.ASV` for the functional structural view; use `A.6.F` to recover the object or claim from unsettled function-like wording, then apply its subject pattern. |
 | module interface | `A.6.M` supplies the module-interface relation |
 | reusable-structure characteristics | `C.31` carries the reusable-structure claim |
 | publication face or explanation-faithfulness use | `E.17` supplies the publication face; `E.17.EFP` returns the explanation-faithfulness result |

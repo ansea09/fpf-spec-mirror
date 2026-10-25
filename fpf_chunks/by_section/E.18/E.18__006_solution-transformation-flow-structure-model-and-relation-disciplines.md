@@ -6,12 +6,12 @@ section_id: "E.18:5"
 section_title: "Solution - Transformation-flow structure model and relation disciplines"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__006_solution-transformation-flow-structure-model-and-relation-disciplines.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:5 — Solution - Transformation-flow structure model and relation disciplines"
-line_start: 109816
-line_end: 110082
+line_start: 109618
+line_end: 109878
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -42,9 +42,7 @@ keywords:
 
 #### E.18:5.1 - S1 - Selected Structure (conceptual)
 
-Define a **typed, editioned transformation-flow structure**
-`TransformationFlowStructure := (Loci, Transfer, tau_L, tau_Transfer, Gamma_time, CrossingRefs, TransportRegistryRefs)`
-with:
+Identify one typed, editioned transformation-flow structure through its loci, internal `U.Transfer` relation, typing rules `tau_L` and `tau_Transfer`, budget `Gamma_time`, and any current `CrossingRefs` or `TransportRegistryRefs`:
 
 * **Loci:** structure positions or bindings to independently defined or constrained FPF values (open world). Common specialisations **include but are not limited to** one first-principles P2W example: an independently identified actual bounded `U.Transformation`, `U.Signature(profile=FormalSubstrate)`, `U.PrincipleFrame`, `U.Mechanism`, `U.ContextNormalization (UNM)`, a selector relation that satisfies the current selector and comparator definitions or tests, one exact `A.15.2 U.WorkPlan` optionally carrying declaration-local A.15.3 planned-filling rows, one exact Work individual admitted under `U.Work`, and current evaluation or currentness relations. This list is **illustrative**, not exhaustive, and none of its entries is mandatory for general P2W. A structure position may be expressed by a morphism, graph vertex, tuple position, or category-theoretic object under a mathematical lens when that lens is current, but E.18 does not make every position a `U.Morphism`, graph vertex, or `U.Transformation`. Selection into the same structure, path adjacency, shared work, or a common affected referent supplies neither the `A.3.4` actuality basis nor the facts, predicate, and identity rule needed for a transformation-composition claim.
 * **Transfer relation:** a **single relation kind `U.Transfer`** (typed) carrying carrier refs and token refs inside one selected TFS. Raw transfer preserves `CtxState`. Every actual change to a locality, plane, edition, or design/run binding is represented by one `GateCrossing` at an `OperationalGate(profile)` and has one local per-binding account that separates from/to values, establishing facts or claims, applicable declarations or rules, and current applications. An A.6.4 arrow r, an affirmative bounded-use assertion q, and a current-case judgement of `satisfies`, with unchanged `CtxState`, follow the limited `StructuralReinterpretation` route in CC-E18-06-EX instead of becoming a crossing. Transport conversions cite the exact registry entry, conversion rule, and applicable policy. E.18 defines neither a generic semantic Bridge nor a generic penalty policy.
@@ -175,8 +173,6 @@ The tuple is the complete `SubflowRef` identity. Replacing the parent, an includ
 
 #### E.18:5.3 - S3 - Publication discipline (faces)
 
-
-
 E.18 **imports E.17** wholesale **and associates MVPK faces with `PublicationScope` (USM)**.
 **MVPK remains the source for:**
 * the set of face designators (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`),
@@ -215,7 +211,7 @@ The comparison explanation applies under the following admissibility conditions:
 
 * If a path segment intends to compare or aggregate, it is admissible as a comparison **only when** UNM precedes it; UNM is **method‑independent**, publishes **TransportRegistry^Phi** and **CG-Spec** references, and faces cite those editions; otherwise this comparison explanation does not apply.
 * If the comparator defines a **declared partial order**, then returns are **sets or archives** (Pareto or Archive); if a **total order** is declared, it is the one provided by the comparator; otherwise set semantics apply and covert scalarization is out of scope here.
-* If a claim is **ordinal‑only**, then only comparison results are published; arithmetic transforms (e.g., means and z‑scores) are out of scope of this explanation and belong to declared comparators or downstream policy.
+* If a claim is **ordinal-only**, publish comparison results under its declared order. Arithmetic transforms such as means and z-scores require a separately governed scoring method and Scale that support them under C.16; naming a comparator or downstream policy does not supply that justification.
 
 **Edition-aware publication records for sets or archives (e.g., QD archives) pin `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `CharacteristicSpaceRef.edition` when applicable; refresh is slice-local. For current selector, archive, pool, selected-set result-declaration, comparator, or refresh claims, apply the definitions and tests in `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11`. For actual publication, use `E.17` for a source-backed face and return to source and `E.24.PUB` for the occurrence, form, carrier, audience, bounded use, and availability.**
 
@@ -252,7 +248,7 @@ E.18 keeps set-return, archive preservation, and comparator refs visible along t
 
 #### E.18:5.10 - S10 - Non‑mechanism boundary
 
-* Publication is a **typed projection**, not execution. Any build, render, or upload is **Work on carriers**; faces do **not** carry Γ-semantics.
+* Within E.17's optional morphism profile, publication uses typed projections that carry no Γ-semantics. Ordinary publication uses E.24.PUB's form, carrier and publication relations. Building, rendering or uploading is separate work on carriers; a claimed dated Work occurrence still needs its A.15.1 basis.
 
 #### E.18:5.11 - S11 - Coordination wording labels (when current)
 Coordination wording may be published as **LexicalView** labels over a P2W carry-through flow valuation; it is orientation-only unless an exact structural crossing, work relation, semantic Bridge, or gate decision is independently current. It adds no current structure locus kind, checks, or mechanisms. A published crossing cites `CrossingRef` and `ChangedBindingAccountRefs[]`, with gate-decision and permission-claim refs separate when current; an F.9 block is added only for a separately established semantic Bridge and bounded use.
@@ -301,6 +297,4 @@ The optional branches carry references to independently established results. The
 2. Every `PrimaryE18ConstructRef`, crossing, and gate resolves the exact E.18 value or occurrence consumed by the mapping; the row creates none of them.
 3. Candidate-view, whole-family, publication, representation, cross-context, retargeting, and Work branches appear only when that separate claim is current and cite its defining pattern's result.
 4. One-viewpoint use needs one row. Familiar labels or four unbound template names establish no whole-family coverage.
-
-**Purpose.** Provide a neutral E.18 mapping from one resolved project-local engineering viewpoint reference to exact E.18 constructs without turning the reference into a relation, P into a template position, or a familiar label into viewpoint, view, family, publication, or conformance evidence.
 

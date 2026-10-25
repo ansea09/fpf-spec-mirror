@@ -6,12 +6,12 @@ section_id: "E.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__002_problem-frame.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.7 — Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases"
   - "E.7:1 — Problem frame"
-line_start: 96153
-line_end: 96159
+line_start: 96112
+line_end: 96114
 dependencies:
   - "E.5.4"
   - "E.6"
@@ -20,9 +20,5 @@ keywords:
 ---
 
 ### E.7:1 - Problem frame
-Universal rules are powerful only when readers can grasp them. In FPF the
-Conceptual Core speaks in substrate‑agnostic language: `U.Holon`,
-Γ‑aggregation, MHT emergence. Practitioners need to “see” those rules in
-familiar matter—physical hardware or bodies of knowledge—before they can
-reuse them.
+Use this pattern when authoring an architectural pattern to show how its rule applies. Determine whether the rule applies to Systems, Epistemes or both, then construct the applicable cases alongside its general explanation.
 

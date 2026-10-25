@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:9"
 section_title: "Examples and near misses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__015_examples-and-near-misses.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:9 — Examples and near misses"
-line_start: 101215
-line_end: 101238
+line_start: 101112
+line_end: 101135
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,7 +50,6 @@ dependencies:
   - "E.10.DEV"
   - "E.10.MOVE"
   - "E.11"
-  - "E.18"
   - "E.19"
   - "E.2"
   - "E.20"
@@ -79,7 +78,7 @@ Read each wording with its stated use. Apply a route only while that FPF questio
 | "The model has three layers." | Use `C.30.STRAT` to treat `layers` as a source label until the recovered FPF kind, relation, claim-use, or source-relation disposition is clear: control-layer relation, neural-network block sequence, publication relation set, mathematical scale or coarse-graining relation, or ordinary source wording. Then state the recovered subject assertion under its defining or constraining rule. | The source label `layer` and the particular structural, publication, or mathematical claim it carries. |
 | "The query plan calls the next pattern." | `C.2.P.DR` recovers whether the query plan is a representation, a one-method description episteme, formal substrate, evidence or provenance relation, or ordinary source wording; if a pattern relation is current, state it declaratively rather than as a call. | A declarative pattern relation versus an actual invocation or work sequence. |
 | "The evidence path authorizes release." | Use A.10 to recover the claim's source, independently established evidence or provenance relations, currentness and bounded reliance. State a current authorization or release claim separately under its authority, gate or release rule. Use `C.2.P.DR` only when `path` wording turns the relation into an action route or permission. | The provenance or evidence claim and the separately justified authorization or release decision. |
-| "The solver algorithm is the mechanism." | Use `A.3.1` to recover whether the wording denotes one exact method or a direct method-side relation. A current A.3.2 assertion obtains only when one exact episteme describes that Method. Formal substrate, C.29 representation, mechanism declaration or realization, Work, result, and quote-only wording remain separate subject assertions under their own defining or constraining rules. | The method or method-side relation and any independently admitted mechanism claim. |
+| "The solver algorithm is the mechanism." | Use `A.3.1` to recover whether the wording denotes one exact method or a direct method-side relation. An episteme qualifies as `U.MethodDescription` under A.3.2 only when that admitted Method is its exact EntityOfConcern and it makes at least one substantive claim about the Method as a way of doing. Formal substrate, C.29 representation, mechanism declaration or realization, Work, result, and quote-only wording remain separate subject assertions under their own defining or constraining rules. | The method or method-side relation and any independently admitted mechanism claim. |
 | "This record is admissible." | State the record's admissible use and the exact assertion under the rule that establishes it. Recover the bearer, claim kind, source relation, or value frame only while that basis remains unclear. Use `A.19.SPR` only if a state-family object or frame remains hidden; otherwise use the direct subject rule. | The use for which the record is admissible and the rule establishing it. |
 | "This score proves readiness." | Use `C.16.P` to recover characteristic, scale, value, score, threshold, and comparison reference set; state gate, evidence, and decision assertions separately under their own defining or constraining rules. | The measured score, readiness criterion, and evidence or decision supporting the readiness claim. |
 | "This source supports the claim." | Use the direct subject rule for an already clear support claim. Use `C.2.P` while a source-currentness relation or publication relation set remains unresolved, and `A.6.P` only while the direct predicate or an actual participant remains hidden. State the recovered relation or grounded non-use result. | The exact passage used as a premise, rule or evidence, the receiving claim and the limit of that use. |

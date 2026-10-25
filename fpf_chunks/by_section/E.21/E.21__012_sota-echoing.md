@@ -6,12 +6,12 @@ section_id: "E.21:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__012_sota-echoing.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:10 — SoTA-Echoing"
-line_start: 113773
-line_end: 113785
+line_start: 113538
+line_end: 113550
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -36,7 +36,7 @@ keywords:
 
 ### E.21:10 - SoTA-Echoing
 
-This self-application uses the canonical `E.8:11` definition and comparison contract; E.21 does not define a second meaning of SoTA. Its practice question is: how can one complete, use-scoped pattern evaluation expose semantic and practical defects, preserve distinct quality dimensions, and stop without turning a checklist or visible score into the value being sought? The selected answer is an FPF-local synthesis of four best-known branches. No cited source validates E.21's coordinate set or demonstrates inter-evaluator agreement; the comparison below states the exact transfers and limits instead of converting publication status, prevalence, freshness, or academic praise into rank. An official source would be admissible here if its answer won the same substantive comparison, not because it was official.
+The comparison follows `E.8:11`. Its practice question is: how can one complete, use-scoped pattern evaluation expose semantic and practical defects, preserve distinct quality dimensions, and stop without turning a checklist or visible score into the value being sought? The selected answer is an FPF-local synthesis of four best-known branches. No cited source validates E.21's coordinate set or demonstrates inter-evaluator agreement; the comparison below states the exact transfers and limits instead of converting publication status, prevalence, freshness, or academic praise into rank. An official source would be admissible here if its answer won the same substantive comparison, not because it was official.
 
 | Practice question | Best-known line | Serious alternative or default | Defect overcome and E.21 mutation | Source roles and limits | Reopen condition |
 | --- | --- | --- | --- | --- | --- |

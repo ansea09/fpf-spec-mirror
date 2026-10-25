@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 108645
-line_end: 108659
+line_start: 108481
+line_end: 108493
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -40,8 +40,6 @@ keywords:
 ---
 
 ### E.17.ID.CR:8 - Common Anti-Patterns and How to Avoid Them
-
-**Positive boundary-use profile.** Read the anti-pattern table below only after recovering the ordinary minimum for the bounded comparative review unit. The ordinary result is positive: compared source epistemes or source publications, shared review frame, bounded comparative lift, blocked downstream claim or effect, and boundary trigger. If one row below fires, keep the comparison unit only for bounded review use and name the neighboring governing pattern for the crossed claim; do not turn the table into a general negative catalogue of every action the unit cannot perform.
 
 | Anti-pattern | Why it is wrong | How to avoid it |
 | --- | --- | --- |

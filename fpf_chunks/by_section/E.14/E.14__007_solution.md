@@ -6,12 +6,12 @@ section_id: "E.14:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__007_solution.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:4 — Solution"
-line_start: 104738
-line_end: 104789
+line_start: 104612
+line_end: 104661
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -31,9 +31,7 @@ Human-facing patterns also need EntityOfConcern stability across the two reading
 
 Working-Model-first drafting therefore also means subject-domain-first drafting. If a pattern is meant to help with a real review, design, cultural, research, or operational problem, the recognition text should open from that problem-owning moment before internal taxonomy or package architecture. If a broader umbrella and a narrower working branch are both live, say plainly what each names, what object is being discussed, what move the reader makes, and what wider work remains outside.
 
-Under `F.18` local-first naming, the canonical pair here is **recognition text** and **assurance text**.
-The earlier provisional `...shell` wording is retired.
-These names refer to two reading-order text blocks inside one pattern, not to new publication-face kinds or authority kinds.
+**Recognition text** and **assurance text** name two reading-order text blocks inside one pattern.
 
 For human-facing canonical patterns, Working-Model-first discipline should appear in a two-part reading order.
 The **recognition text** is the working text that a cold practitioner, manager, or researcher should be able to understand first: what situation this pattern is for, what it buys, what it is not for, and what ordinary mistake it helps prevent.

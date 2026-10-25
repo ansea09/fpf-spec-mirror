@@ -6,12 +6,12 @@ section_id: "E.24.PUB:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__008_bias-annotation.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:6 — Bias Annotation"
-line_start: 116495
-line_end: 116505
+line_start: 116246
+line_end: 116256
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -42,5 +42,5 @@ Lenses tested: **Onto**, **Epist**, **Semio**, **Arch**, **Prag**, **Did**.
 - **Semio:** designation, expression, representation, bearing, and publication availability use different predicates.
 - **Arch:** keep each subject claim with its applicable pattern; E.24.PUB defines only the neighboring publication architecture.
 - **Prag:** progressive explicitness stops at the first statement sufficient for the receiving use.
-- **Did:** one readable sentence and heterogeneous cases precede the RelationSignature detail.
+- **Did:** ordinary first use stops at one readable sentence; the cases show which object or relation changes when a publication is revised.
 

@@ -6,12 +6,12 @@ section_id: "E.18.NET:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__005_solution.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:4 — Solution"
-line_start: 111666
-line_end: 111812
+line_start: 111444
+line_end: 111590
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -109,7 +109,7 @@ For every relation used by the network, recover:
 - the exact obtaining occurrence;
 - the exact relation kind;
 - the pattern that defines or tests its predicate, applicability, and occurrence-identity rule;
-- the complete participant signature and participant order;
+- the complete participant meanings and order;
 - the endpoint member and position binding for every participant; and
 - direction only when the direct relation has direction.
 

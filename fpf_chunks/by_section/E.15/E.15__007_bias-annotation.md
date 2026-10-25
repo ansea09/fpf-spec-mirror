@@ -6,12 +6,12 @@ section_id: "E.15:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__007_bias-annotation.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:6 — Bias-Annotation"
-line_start: 105191
-line_end: 105196
+line_start: 105059
+line_end: 105062
 dependencies:
   - "C.18"
   - "C.19"
@@ -32,7 +32,5 @@ keywords:
 
 ### E.15:6 - Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal for changes to existing FPF pattern editions**.
-
-The method biases toward continuity and inspectability (**Arch**, **Onto/Epist**). The direct-repair route, record-reuse rule, whole-pattern cold-reader check, and first-adequate-result stop protect practical speed and readability (**Prag**, **Did**). Decision and review authority remain with their own patterns (**Gov**).
+The method biases toward continuity and inspectability (**Arch**, **Onto/Epist**). The direct-repair route, record-reuse rule, whole-pattern practitioner-use reading, and first-adequate-result stop protect practical speed and readability (**Prag**, **Did**). Decision and review authority remain with their own patterns (**Gov**).
 

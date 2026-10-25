@@ -6,12 +6,12 @@ section_id: "E.18.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__006_solution.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:4 — Solution"
-line_start: 111152
-line_end: 111338
+line_start: 110932
+line_end: 111116
 dependencies:
   - "A.10"
   - "A.15"
@@ -118,8 +118,6 @@ Use the numbered recovery branch below only when the use must assert E.18.3 qual
 5. For each `neighboringValueUseRows[]` entry, recover the independently identified neighboring value through its exact kind and ref and one already-obtaining supporting relation. If the row makes a stronger claim, state in ordinary content-bearing language what the neighboring content contributes; a bare label such as `test` or `method` is not enough. A definition, constraint, predicate, test, evidence rule, or assurance rule may supply the applicable criterion, with current facts or evidence showing that the claim obtains. A Method contributes a reusable way of doing and its applicability or bounds, and a MethodDescription may state that content; any claim that its use produces, supports, evaluates, evidences, or assures a result still needs a separate applicable rule and current basis. Require an exact claim-bearing episteme, ClaimGraph, edition, or other content identity only when that identity changes the selected stronger use, and reuse an existing exact ref when available. Cite a relevant pattern only when it locates that content. A result label, return arrow, or comparison layout is not the relation.
 6. Name the ordinary stop and reconsideration conditions. For a post-qualification description or demonstration, state preserved or omitted structure and add C.33 only when carrier loss affects a declared architecture use. Choose exactly one complete locator family for a one-TFS or network demonstration, or neither for a generic slice.
 7. If an A.22 discriminator, CGUS locus binding or potential-continuation row, E.18 flow binding, or direct relation is missing, do not claim E.18.3 membership. If only a fact or test result for the current case is missing, keep the structure and return that candidate as unknown. If only a description-loss or stronger-use value is missing, narrow that use rather than demoting the structure.
-
-The ordinary branch and conditional recovery sequence guide use of the pattern. They are not a local mantra, `U.Method`, `U.MethodDescription`, WorkPlan, or performed Work; completing the rows admits nothing by itself.
 
 #### E.18.3:4.0a - Exact relation references
 

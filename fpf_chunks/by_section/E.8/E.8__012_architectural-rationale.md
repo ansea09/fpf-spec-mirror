@@ -6,12 +6,12 @@ section_id: "E.8:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__012_architectural-rationale.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:10 — Architectural Rationale"
-line_start: 97001
-line_end: 97015
+line_start: 96939
+line_end: 96951
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -57,9 +57,7 @@ keywords:
 ---
 
 ### E.8:10 - Architectural Rationale
-Structure and style function as FPF’s *grammar*. By unifying what were
-once separate “template” and “style guide” patterns, authors face a
-single reference point that satisfies:
+The common structure and style principles serve:
 
 * **P‑1 Cognitive Elegance** – uniform, minimal surprises.
 * **P‑2 Didactic Primacy** – narrative flow, dual archetype examples.
@@ -69,5 +67,5 @@ A unified template also improves retrieval: a chunk containing `A.2:<n> - Bias�
 
 The ASCII ` - ` separator in H-2 keeps heading entry inexpensive: authors can type it directly on ordinary keyboards, and readers can reuse the same characters in search and plain-text tools. Typographic dash variants require an extra input or conversion step while adding no information to the boundary between an identifier and its title. Where a prose dash is useful, `--` is a keyboard-accessible option; the identifier/title separator remains ` - `.
 
-International and industry standards often speak in terms of *conformance criteria*. FPF uses the label **Conformance Checklist** to make adoption easier for engineers and managers.
+The **Conformance Checklist** groups the criteria for judging a pattern that claims conformance.
 

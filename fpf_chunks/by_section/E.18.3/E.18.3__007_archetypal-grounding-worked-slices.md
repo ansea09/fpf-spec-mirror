@@ -6,12 +6,12 @@ section_id: "E.18.3:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__007_archetypal-grounding-worked-slices.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:5 — Archetypal Grounding — Worked Slices"
-line_start: 111339
-line_end: 111502
+line_start: 111117
+line_end: 111280
 dependencies:
   - "A.10"
   - "A.15"
@@ -115,7 +115,7 @@ continuationJudgementResults[]:
     dependentSelectedRelationOccurrenceRefs[]: [ComparisonBasisDependsOnEdition@ReferencePublicationEdition-v2]
     qualificationWindow: ReviewWindow-2026-08
     result: disabled
-currentContinuationSetResult: enabled [RecalculateWithV2Continuation]; disabled [ReplaceReferenceEditionContinuation]; unknown []
+currentContinuationSetResult: enabled [RecalculateWithV2Continuation]; disabled [ReplaceReferenceEditionContinuation]; unknown []; error []
 relationReferenceEpistemeRefs[]:
   - epistemeRef: ComparisonBasisDependsOnEditionReference@Review-2026-08
     entityOfConcernRef: ComparisonBasisDependsOnEdition@ReferencePublicationEdition-v2
@@ -134,7 +134,7 @@ stopCondition: stop recalculation if the currentness result, dependency occurren
 reconsiderationCondition: re-evaluate both candidates when the edition or currentness facts change
 ```
 
-This case is complete for its bounded question. The structure has two potential candidates, while the present window enables one. The currentness claim remains a condition claim with a test, applicability, inputs, and facts; it is not inserted into `relationReferenceEpistemeRefs[]`. If those facts disappear, the recalculation candidate becomes unknown and the replacement candidate is judged under its own condition; the topology and structure do not change merely because the enabled set does.
+The structure has two potential candidates; the present window enables recalculation and disables replacement, with no unknown or error result. The currentness claim remains a condition claim with a test, applicability, inputs, and facts; it is not inserted into `relationReferenceEpistemeRefs[]`. If those facts disappear, the recalculation candidate becomes unknown and the replacement candidate is judged under its own condition; the topology and structure do not change merely because the enabled set does.
 **Partial candidate-set recovery display.** The larger four-position account below preserves the broader teaching slice but intentionally leaves several exact values unresolved. It is a scaffold for recovery, not a worked conformance proof:
 
 ```text

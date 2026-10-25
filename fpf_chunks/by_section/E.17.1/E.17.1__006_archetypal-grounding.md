@@ -6,12 +6,12 @@ section_id: "E.17.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__006_archetypal-grounding.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:5 — Archetypal Grounding"
-line_start: 106239
-line_end: 106247
+line_start: 106100
+line_end: 106108
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -36,9 +36,9 @@ keywords:
 ### E.17.1:5 - Archetypal Grounding
 
 
-**Tell.** A viewpoint bundle library lets FPF say "use this already-defined viewpoint family" without confusing that family with the concrete views or publication faces used later.
+A viewpoint bundle library lets FPF say "use this already-defined viewpoint family" without confusing that family with the concrete views or publication faces used later.
 
-**Show (System; hypothetical template instance).** E.17.2 can guide one project to bind local references `r_functional`, `r_procedural`, `r_allocation`, and `r_module` to exact project P editions inside one constituted catalogue L. Until those bindings and their resolution under exact `R_L` exist, these names are variables and no reusable TEVB family value is present.
+**System description: hypothetical template instance.** E.17.2 can guide one project to bind local references `r_functional`, `r_procedural`, `r_allocation`, and `r_module` to exact project P editions inside one constituted catalogue L. Until those bindings and their resolution under exact `R_L` exist, these names are variables and no reusable TEVB family value is present.
 
-**Show (Episteme; hypothetical family shape).** A project could bind local references for risk, control, compliance, and operations viewpoints in one exact catalogue declaration. The labels alone are not references or exact P editions; this example becomes reusable only after that project supplies complete `<G_L, K_L, R_L>`, exact bindings, and one ordinary family designator.
+**Governance account: hypothetical family shape.** A project could bind local references for risk, control, compliance, and operations viewpoints in one exact catalogue declaration. The labels alone are not references or exact P editions; this example becomes reusable only after that project supplies complete `<G_L, K_L, R_L>`, exact bindings, and one ordinary family designator.
 

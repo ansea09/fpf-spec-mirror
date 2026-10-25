@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:9"
 section_title: "Consequences — Reopen Condition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__011_consequences-reopen-condition.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:9 — Consequences — Reopen Condition"
-line_start: 101516
-line_end: 101523
+line_start: 101411
+line_end: 101418
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -35,7 +35,7 @@ keywords:
 
 ### E.10.ROLE:9 - Consequences — Reopen Condition
 
-**Benefits.** Cold readers can recover the intended object at the point of use. Natural practitioner language survives. Technical names become more precise without turning relation slots, evidence uses, or representation positions into system-role kinds.
+**Benefits.** The intended object is stated at the point of use while natural practitioner language remains available. Technical names distinguish system-role kinds from relation slots, evidence uses and representation positions.
 
 **Costs.** A claim-bearing ambiguous sentence needs one bounded interpretation before it can be reused. Some old compact Tech names must be retired or made explicitly historical.
 

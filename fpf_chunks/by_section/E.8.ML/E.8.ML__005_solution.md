@@ -6,12 +6,12 @@ section_id: "E.8.ML:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__005_solution.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:4 — Solution"
-line_start: 97112
-line_end: 97166
+line_start: 97048
+line_end: 97102
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"
@@ -69,7 +69,7 @@ A formal CGUS is appropriate only when that structure is itself needed. A.22.CGU
 
 A changed fact can change a continuation judgement under the same frame. A changed question, admissible action or stop can require reidentification. The user or capable system assesses the new situation. During ongoing Work, A.15.7 supplies the next-action decision.
 
-When the promised use includes performing or learning a Method, show its relevant vertical as well as result dependencies. At a selected moment, what constituent action is enacting what encompassing work, and what changes in that action when a condition of the whole changes? B.1.5.EW supplies this recovery. Show the capability, support and combined resource conditions that the language's own bodies leave to another contribution. Use a representative case where a missing intermediate performance changes the continuation; do not require an exhaustive stack when its understood parts cannot change the use. B.1.5.RS supplies the distinct comparison when a constituent is replaced across encompassing uses.
+When the promised use includes performing or learning a Method, show its relevant constituent–whole connections as well as result dependencies. At a selected moment, what constituent action is enacting what encompassing work, and what changes in that action when a condition of the whole changes? B.1.5.EW supplies this recovery. Show the capability, support and combined resource conditions that the language's own bodies leave to another contribution. Use a representative case where a missing intermediate performance changes the continuation; do not require an exhaustive stack when its understood parts cannot change the use. B.1.5.RS supplies the distinct comparison when a constituent is replaced across encompassing uses.
 
 #### E.8.ML:4.4 - Explain the profile at its own scope
 

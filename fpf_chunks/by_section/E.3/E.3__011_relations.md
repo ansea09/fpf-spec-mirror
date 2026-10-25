@@ -6,7 +6,7 @@ section_id: "E.3:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__011_relations.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:10 — Relations"
@@ -35,5 +35,5 @@ keywords:
 * **Depends on:** `E.1`, `E.2`
 * **Governs:** All subsequent patterns and DRRs; Guard‑Rail patterns reference CC‑PT.
 
-> *“A taxonomy sorts principles; precedence gives them order—together they convert debate into design.”*
+
 

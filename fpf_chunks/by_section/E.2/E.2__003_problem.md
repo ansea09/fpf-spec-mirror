@@ -6,7 +6,7 @@ section_id: "E.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__003_problem.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:2 — Problem"
@@ -42,5 +42,5 @@ keywords:
 ---
 
 ### E.2:2 - Problem
-Frameworks without binding first principles wobble between two extremes: rigid dogmas that kill adaptation and amorphous guidelines that invite cognitive chaos. In either case, reasoning fragments, auditability collapses, and physical impact suffers.
+Without binding first principles, contributors cannot distinguish commitments that proposals must preserve from choices they may revise. Treating every choice as fixed blocks adaptation; treating every commitment as optional leaves incompatible rules without a basis for resolution.
 

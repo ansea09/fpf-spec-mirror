@@ -6,21 +6,17 @@ section_id: "E.5.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.1/E.5.1__002_problem-frame.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
   - "E.5.1:1 — Problem frame"
-line_start: 95720
-line_end: 95726
+line_start: 95707
+line_end: 95709
 dependencies:
   - "E.5"
 keywords:
 ---
 
 ### E.5.1:1 - Problem frame
-The FPF Core is meant to remain valid across decades and technology
-generations.  Implementation details—file formats, build pipelines,
-runtime flags—evolve rapidly and differ between domains.  When such
-terms invade normative prose, the Core ages as quickly as the tools it
-mentions.
+Use this pattern when Core prose mentions an implementation detail, such as a file format, build command or runtime flag. Determine whether that detail is incidental to the concept or necessary to the conformance rule for a named publication form, protocol or grammar.
 

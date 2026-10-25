@@ -6,12 +6,12 @@ section_id: "E.10.LRN:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__008_bias-annotation.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:6 — Bias Annotation"
-line_start: 100130
-line_end: 100138
+line_start: 100058
+line_end: 100066
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,7 +49,7 @@ keywords:
 
 - **Human-default bias:** do not assume every use concerns a person's capability.
 - **Machine-anthropomorphism bias:** do not translate model fitting into human cognition or agency.
-- **Substrate bias:** wet and dry neural networks can participate in several kinds of Work and result; material substrate does not choose the branch.
+- **Substrate bias:** biological and computing substrates can support several kinds of Work and result; substrate does not choose the branch.
 - **Artifact bias:** public construction improves inspectability but does not prove authorship, capability, or transfer.
 - **English-grammar bias:** active/passive voice and English lexical convention do not establish causal structure.
 - **Metric bias:** a changed score or loss does not identify which subject changed or which stronger claim it supports.

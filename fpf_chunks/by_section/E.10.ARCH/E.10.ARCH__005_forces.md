@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:0.3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__005_forces.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:0.3 — Forces"
-line_start: 100988
-line_end: 100997
+line_start: 100887
+line_end: 100896
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,7 +50,6 @@ dependencies:
   - "E.10.DEV"
   - "E.10.MOVE"
   - "E.11"
-  - "E.18"
   - "E.19"
   - "E.2"
   - "E.20"

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:2"
 section_title: "Distribution architecture"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__008_distribution-architecture.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:2 — Distribution architecture"
-line_start: 101033
-line_end: 101102
+line_start: 100932
+line_end: 100999
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,7 +50,6 @@ dependencies:
   - "E.10.DEV"
   - "E.10.MOVE"
   - "E.11"
-  - "E.18"
   - "E.19"
   - "E.2"
   - "E.20"
@@ -79,8 +78,6 @@ This architecture keeps `E.10` compact. It also keeps subject patterns centered 
 
 #### E.10.ARCH:2.1 - EntityOfConcern and recurring hidden-field distribution
 
-For wording such as `EntityOfInterest`, `EoI`, `EoIClass`, `describedEntity`, `DescribedEntityRef`, and `primary described entity`, or for selected EntityOfConcern-family heads such as `EntityOfConcern`, `entityOfConcernRef`, `EntityOfConcernRef`, `EntityOfConcernClass`, and `publicationUnitPrimaryEntityOfConcern`, the repair is distributed by the current FPF-governed use:
-
 `EntityOfInterest`, `EoI`, `EoIClass`, `describedEntity`, `DescribedEntityRef`, and `primary described entity` are active repair triggers. FPF-governed wording must recover the EntityOfConcern-family use named by value, publication-unit primary-EoC or ordinary primary-subject use, or local FPF kind, then rewrite to `EntityOfConcern`, `entityOfConcernRef`, `EntityOfConcernRef`, `EntityOfConcernClass`, `publicationUnitPrimaryEntityOfConcern`, `publicationUnitPrimarySubject` for the `E.17.AUD.OOTD` primary-subject use, or the local FPF kind named by value. For the non-claim-bearing case, use the kind named by value or plain `topic` or `subject` without inventing an `EntityOfConcernRef`. If no use is recoverable by value, the wording remains quoted source or trigger wording and cannot be used for reliance.
 
 - `C.2.1` defines episteme identity and the identified `EntityOfConcern` participant of `EpistemeConstitutionRelation`; `A.6.5` defines `EntityOfConcernSlot` only inside a reusable constitution `RelationSignature`; direct reference rules define or constrain `entityOfConcernRef`, `EntityOfConcernRef`, and related reference use.
@@ -96,7 +93,7 @@ This selected-family case is the standing example for recurring hidden-field arc
 
 Use this distribution before adding or specializing a wording-use precision-restoration pattern.
 
-`E.10` is the shared recognition scan. The author uses it to identify an FPF wording-use problem and choose the first applicable restoration or the rule that already defines or tests the recovered object or claim. `E.10.ARCH` supplies the distribution rule. A specialized restoration pattern contains only the defining content for stable ontological recovery in one selected ontic, semantic area, or high-pressure facet.
+`E.10` is the shared recognition scan. The author uses it to identify an FPF wording-use problem and choose the first applicable restoration or the rule that already defines or tests the recovered object or claim. `E.10.ARCH` supplies the distribution rule. A specialized restoration pattern contains only the defining content for stable ontological recovery in one selected ontic, semantic area, or facet.
 
 When the governed object, exact direct relation, claim-bearing episteme, representation use, or claim kind is already recoverable by value, use its defining, constraining, or testing rule directly and cite the pattern containing that rule. A clear `A.3.4`, `A.6.F`, `C.29`, `E.18`, `C.30`, `A.15`, `A.10`, gate, decision, publication, or evidence claim needs no restoration detour merely because a familiar trigger word appears.
 

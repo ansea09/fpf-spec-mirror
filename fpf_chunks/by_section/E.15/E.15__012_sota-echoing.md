@@ -6,12 +6,12 @@ section_id: "E.15:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__012_sota-echoing.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:11 — SoTA-Echoing"
-line_start: 105242
-line_end: 105256
+line_start: 105108
+line_end: 105120
 dependencies:
   - "C.18"
   - "C.19"
@@ -42,6 +42,4 @@ The selected method combines exact edition comparison with dependency-aware incr
 | Li, Chen, Huang, and Ding, [“Change-aware model checking for evolving concurrent programs based on Program Dependence Net”](https://doi.org/10.1002/smr.2626), 2024 | **Adopt the current research move by analogy:** use prior verified results and property-relevant dependency slices rather than rechecking an entire changed system. | Software paths and LTL properties do not transfer as FPF kinds or sufficient evidence for prose semantics. | Result reuse requires an unchanged conclusion and a justified outside-impact dependency. |
 | MAP-Elites and quality-diversity search, with current FPF C.18/C.19 machinery | **Retain as optional lineage and method family:** useful when several materially different candidates and diversity itself matter. | Candidate multiplicity and archive coverage do not improve an understood local repair and do not select a winner across heterogeneous qualities. | Alternative generation is conditional; E.21/E.22 and intended use decide among non-dominated candidates. |
 | Full rerun of every authoring, source, assurance, and review activity | **Reject as the default rival:** broad reruns can be appropriate after a genuinely broad Δ-3 change. | At comparable correctness, they spend more effort on unaffected premises and encourage ceremonial records. | Scope verification from actual change and dependencies, while preserving the explicit broad-change branch. |
-
-The non-dominated contribution is therefore not a new authoring trace or scoring system. It is the combination of a cheap direct-repair path, actual-delta classification, independent predecessor preservation, actual-consumer reach, and whole-pattern practitioner-language verification, with stronger search and checking opened only by their real use.
 

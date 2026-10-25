@@ -6,12 +6,12 @@ section_id: "E.11.PUR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__011_rationale.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:10 — Rationale"
-line_start: 103690
-line_end: 103697
+line_start: 103571
+line_end: 103578
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,7 +36,7 @@ keywords:
 
 Applicability, recommendation, and coordination answer different questions. Applicability asks whether a candidate's conditions hold. Recommendation asks which applicable use best serves the current concern. Coordination asks how several candidate uses belong together. Keeping the questions separate prevents a familiar label or score from becoming an unexamined decision.
 
-Pairwise precedence is intentionally narrow. A set of candidate pattern uses can be unordered, partially ordered, or totally ordered. Only an applicable directed constraint justifies an edge. A prerequisite-result edge can be established from the required content and selected supplier basis before the result exists. Actual closure is required for current readiness, including through a reusable earlier result. The alternative enabled-only edge would leave the known planning dependency unstated. This preserves graph structure without turning every explanation into a chain or minting a generic result relation.
+Pairwise precedence is intentionally narrow. A set of candidate pattern uses can be unordered, partially ordered, or totally ordered. Only an applicable directed constraint justifies an edge. A prerequisite-result edge can be established from the required content and selected supplier basis before the result exists. The actual result and its category-correct basis are required for current readiness, including through a reusable earlier result. A PUA closure finding makes that basis addressable when a named later reliance needs it. The alternative enabled-only edge would leave the known planning dependency unstated. This preserves graph structure without turning every explanation into a chain or minting a generic result relation.
 
 Result reuse answers another question: whether an already obtained answer still serves the present concern. The direct result pattern supplies that comparison; A.10 supplies any later reliance account; and G.11 supplies currentness when it matters. Keeping those contributions separate avoids both duplicate work and a generic reuse relation that would hide why the result remains applicable.
 

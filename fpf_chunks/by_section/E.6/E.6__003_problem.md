@@ -6,12 +6,12 @@ section_id: "E.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__003_problem.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
   - "E.6:2 — Problem"
-line_start: 96079
-line_end: 96085
+line_start: 96041
+line_end: 96044
 dependencies:
   - "E.2"
 keywords:
@@ -24,9 +24,6 @@ keywords:
 ---
 
 ### E.6:2 - Problem
-If core ideas are buried under formalism or scattered across parts,
-readers either give up or misuse the framework. We need a didactic
-macro-order that guides cognitive load from low to high while keeping
-normative sections discoverable, without letting readers confuse
-document order with one universal first-practical workflow.
+The publication needs an explanatory order in which readers can find the grounds needed for later claims. A practical question may nevertheless require entry into a later Part. Document order must not become a compulsory workflow.
+
 

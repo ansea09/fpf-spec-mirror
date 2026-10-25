@@ -6,20 +6,18 @@ section_id: "E.5.1:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.1/E.5.1__009_rationale.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
   - "E.5.1:8 — Rationale"
-line_start: 95788
-line_end: 95793
+line_start: 95770
+line_end: 95773
 dependencies:
   - "E.5"
 keywords:
 ---
 
 ### E.5.1:8 - Rationale
-Language shapes thought.  By firewalling transient jargon, we uphold
-**P‑1 Cognitive Elegance** (clarity), **P‑2 Didactic Primacy** (domain‑neutral
-exposition) and **P‑5 FPF Layering** (clean separation between Core
-and Tooling). The subject-sensitive boundary keeps abstract concepts portable while allowing a form-specific rule to state the syntax that its reader must use.
+Keeping incidental implementation details outside abstract definitions supports **P-1 Cognitive Elegance**, **P-2 Didactic Primacy** and **P-5 FPF Layering**. The subject-sensitive boundary keeps abstract concepts portable while allowing a form-specific rule to state the syntax that its reader must use.
+
 

@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__005_solution.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:4 — Solution"
-line_start: 94633
-line_end: 94853
+line_start: 94636
+line_end: 94856
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -195,8 +195,8 @@ In this pattern, `known failure modes` means beginner mistakes and experienced-p
 | `D7PracticeUtilityAndProblemResolutionAdequacy` | Does the package change real domain or local action, diagnosis, design, explanation, teaching, or repair? | Patterns solve recognizable domain problems with positive SoTA-informed moves, known failure modes or anti-patterns, and worked cases, not only taxonomy, ontology, commentary, or talk guidance. |
 | `D8HeterogeneousCaseAndTransferAdequacy` | Has the package been tested against diverse enough domain cases, reader roles, or local situations? | Heterogeneous probes show where the same pattern set works, fails, or needs a contribution from another pattern that defines, constrains, or tests the affected claim. |
 | `D9EditionStateAndCurrentnessAdequacy` | Are framework episteme edition, any obtaining EpistemeEditionRelation, source currentness, dependency pins, qualification window, publication occurrence, form, and presentation-carrier availability, access-route currentness, and actual access or use currentness explicit and separately changeable? | Readers can tell which exact framework episteme they use, which edition/dependency relations obtain, what source, publication, and access state supports the use, and which separate change reopens it. |
-| `D10ImprovementAndRefreshAdequacy` | Can the package improve through `E.22` and `E.23` and refresh through `G.11` without giant reopen or process theatre? | Low values produce repair rows; source, edition, telemetry, and use failures have smallest reopen routes. |
-| `D11DomainSoTAAlignmentAdequacy` | Does current domain or local SoTA discipline pattern selection, solution, examples, boundaries, and reopen triggers? | Sources change the package content; they are not bibliography, claim theatre, or authority by citation. |
+| `D10ImprovementAndRefreshAdequacy` | Can the package improve through `E.22` and `E.23` and refresh through `G.11` while reopening only affected contributions and avoiding duplicated checks? | Low values produce repair rows; source, edition, telemetry, and use failures have smallest reopen routes. |
+| `D11DomainSoTAAlignmentAdequacy` | Does current domain or local SoTA discipline pattern selection, solution, examples, boundaries, and reopen triggers? | Current source claims, limits and alternatives justify or change the selected patterns and their use. |
 | `D12DomainProblemFamilyCoverageAdequacy` | Does this current framework edition adequately answer its public field promise through its selected pattern sets and relied-on external results? Judge how the patterns actually work together, whether the first use can proceed without unpublished authoring context, what a representative cross-problem case reveals, and which important omissions remain. | The assessment shows what the current FPF and admitted DPFs provide for this edition, what remains uncovered, how the selected pattern sets work together, where later authors can revisit each important source-backed claim, and what observation reopens the answer. It checks that the first use includes every required pattern from this DPF. For every relied-on external result, it identifies the result, direct kind, supplying product and edition or current state, receiving use, discovery route, material currentness or availability, and externality; it keeps MethodDescription reference, source-evidence use, and unavailable-result statement separate. D12 records no proof that an author previously revisited coverage. |
 
 For D12, recover the field account required by E.4.DPF:4.0, and E.4.DPF:4.0.1 for a Suite, before treating the selected patterns or their worked cases as the coverage boundary. Compare the promised subject with the public explanation and the actual supplying contributions. Follow a consequential question about how its units, relations or operations are obtained or revised, and a change that can alter the choice or connection of Methods. Reuse adequate existing evidence.
@@ -243,7 +243,7 @@ A failure in this subpass lowers the affected coordinate even when individual pa
 
 #### E.4.DPF.DA:4.4 - Evidence basis and where to check it
 
-Use these sources and patterns instead of expanding this pattern into a package bureaucracy:
+Use these sources and patterns to inspect the evidence needed for the declared package use:
 
 | Evidence or defect | Evidence source or pattern to use |
 | --- | --- |

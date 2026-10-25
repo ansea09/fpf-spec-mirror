@@ -6,33 +6,22 @@ section_id: "E.10.D2:16"
 section_title: "Repair moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__017_repair-moves.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:16 — Repair moves"
-line_start: 102105
-line_end: 102121
+line_start: 101992
+line_end: 102008
 dependencies:
-  - "A.1.1"
-  - "A.10"
-  - "A.2.6"
-  - "A.3.2"
   - "A.7"
-  - "B.3"
   - "C.2.1"
   - "C.2.3"
-  - "C.29"
-  - "E.10"
   - "E.10.D1"
-  - "E.17"
-  - "E.17.0"
-  - "E.24.PUB"
   - "F.15"
   - "F.4"
   - "F.5"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
   - "DescriptionContext (legacy cue)"
   - "EntityOfConcern"

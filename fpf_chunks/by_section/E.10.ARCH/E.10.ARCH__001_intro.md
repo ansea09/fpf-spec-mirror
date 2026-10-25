@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__001_intro.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:intro — Intro"
-line_start: 100927
-line_end: 100953
+line_start: 100851
+line_end: 100860
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,7 +50,6 @@ dependencies:
   - "E.10.DEV"
   - "E.10.MOVE"
   - "E.11"
-  - "E.18"
   - "E.19"
   - "E.2"
   - "E.20"
@@ -70,24 +69,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
-**Plain-name.** Wording ontology repair architecture.
+**Plain name.** Wording ontology repair architecture.
 
-**Intent.**
-Keep FPF wording-use precision restoration distributed without letting every pattern of concern or subject pattern grow its own first-stage wording-recognition table. `F.19` owns the normal whole-span precise-language repair and `E.10` supplies compact cues and routing. Open `E.10.ARCH` only when that pass leaves a genuinely unresolved FPF object, relation, declaration, representation, naming, or source-use question. Once recovered, return the claim to its defining, constraining, or testing rule and use `F.19` for the final sentence.
-
-`E.10.ARCH` is not a generic language-cleanup pattern and is not opened merely because a cue word occurs. Its mechanism is ontological reconstruction: recover the object or relation at issue, the use that makes the wording consequential, and the pattern text that defines or constrains that object, relation, or use. Recover a claim-bearing episteme, publication object, source-relation disposition, state-family value, or mathematical lens only when that object is current. When the kind is already recoverable, stay with `F.19` and the exact subject rule instead of adding restoration apparatus.
-
-**Use this pattern when** a recurring wording-use problem survives the normal `F.19` reading and compact `E.10` routing because a stable FPF ontology question must be recovered once and shared. In DPF authoring, enter through `E.4.DPF` only when recurring domain wording prevents reliable use of named DPF patterns. The shared method remains in FPF; each domain entry remains in the DPF that uses it.
-
-**What goes wrong if missed.** Subject patterns accumulate local wording-repair catalogues and stop foregrounding their own governed object, invariant, and first useful move.
-
-**What this pattern buys.** One distribution architecture keeps recognition in `E.10`, recovery architecture in `E.10.ARCH`, and object-specific ontology in the pattern that defines or constrains the object, relation, or use.
-
-**Rationale.** Precision restoration needs an ontology-first distribution rule because a recurring trigger word may hide different governed objects, direct relations and participants, declaration-local `SlotSpec` values, claim-bearing epistemes, publication objects, or mathematical lenses in different places.
-
-**SoTA-Echoing.** `E.10.ARCH:13.1` compares the selected object-first, direct-owner distribution against a central terminology or vocabulary treatment and copied local repair doctrine. Internal FPF rules supply the governing local basis; external terminology and knowledge-organization sources constrain only the object, concept, designation, label, and publication uses they actually cover.
-
-**Builds on.** `F.19`, `E.10`, `E.10.DEV`, `E.10.MOVE`, `A.6.P`, `A.6.P.WMR`, `A.6.RCD`, `A.6.F`, `C.2.P`, `C.2.P.DR`, `C.30.STRAT`, `A.19.SPR`, `A.6.3.CSC`, `A.3.1`, `A.3.2`, `A.6.0`, `A.6.1`, `E.20`, `A.15.PROD`, `E.24`, `E.24.CD`, `E.24.PUB`, `F.18`, `E.8`, `E.19`, and `E.2`.
-
-**Coordinates with.** `A.22`, `C.30`, `C.30.P`, `C.30.STRAT`, `C.30.ASV`, named `C.30.*` structure or view patterns, `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.27.TA`, `C.27`, `C.29`, `A.3.1`, `A.3.2`, `A.3.3`, `A.3.4`, `A.6.0`, `A.6.1`, `A.6.P.WMR`, `E.18`, `E.20`, `A.15.PROD`, `E.24`, `E.24.CD`, `E.24.PUB`, `A.15.2`, `A.15.1`, `A.10`, `F.19`, `E.21`, `E.11`, and the evidence, assurance, gate, work, decision, causal-use, release, and publication passages that define or constrain those claims when they are current.
+**Intent.** Organize recurring wording recovery so that subject patterns explain their own objects, rules and useful actions, while authors can reuse a shared recovery rule.
 

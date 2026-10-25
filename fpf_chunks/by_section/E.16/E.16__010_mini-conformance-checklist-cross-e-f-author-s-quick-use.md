@@ -6,12 +6,12 @@ section_id: "E.16:9"
 section_title: "Mini conformance checklist (cross-E-F; author's quick use)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__010_mini-conformance-checklist-cross-e-f-author-s-quick-use.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:9 — Mini conformance checklist (cross-E-F; author's quick use)"
-line_start: 105520
-line_end: 105530
+line_start: 105383
+line_end: 105393
 dependencies:
   - "A.10"
   - "A.13"
@@ -58,5 +58,5 @@ keywords:
 5. **Check override separately:** distinguish the existing target Work from the proposed override; apply the selected actual-Work or prospective-action species to the real assignments and applicable window, and independently test authority before performance.
 6. **Publish what users need:** expose the budget edition, binding state, policy, override protocol, scope, and window in the UTS row.
 
-These steps are the smallest complete route for a working Part F test harness; optional telemetry and selection lenses remain optional.
+Optional telemetry and selection lenses remain optional.
 

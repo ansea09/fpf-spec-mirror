@@ -6,12 +6,12 @@ section_id: "F.14:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__001_intro.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:intro — Intro"
-line_start: 122354
-line_end: 122366
+line_start: 122105
+line_end: 122117
 dependencies:
   - "A.10"
   - "A.15.1"

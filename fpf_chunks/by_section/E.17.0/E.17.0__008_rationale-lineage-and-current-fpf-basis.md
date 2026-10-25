@@ -6,12 +6,12 @@ section_id: "E.17.0:7"
 section_title: "Rationale, lineage, and current FPF basis"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__008_rationale-lineage-and-current-fpf-basis.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:7 — Rationale, lineage, and current FPF basis"
-line_start: 106035
-line_end: 106045
+line_start: 105896
+line_end: 105906
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -30,7 +30,7 @@ keywords:
 
 ### E.17.0:7 - Rationale, lineage, and current FPF basis
 
-Only a recoverable exact external source may appear here as SoTA evidence. ISO 42010 remains vocabulary lineage. The local design rationale below uses the current FPF construction, representation, relation, evaluation, and work boundaries directly; a category label is not evidence.
+ISO 42010 supplies vocabulary lineage. The remaining rows state FPF design rationale using its construction, representation, relation, evaluation and work rules.
 
 | Source or practice line | Adopted move | Rejected overread | Practical effect |
 |---|---|---|---|

@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__010_consequences.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
   - "E.10.MOVE:9 — Consequences"
-line_start: 100876
-line_end: 100889
+line_start: 100800
+line_end: 100813
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -58,10 +58,10 @@ Benefits:
 - FPF keeps friendly move, readiness, route, path, and trajectory language without letting it mint false kinds.
 - A trajectory sentence reaches its direct claim owner or exact gap. Subject, posture, ordering, and representation are recovered separately where the use needs them.
 - Pattern-use recommendation, P2W, work readiness, gate decision, performed work, transformation, architecture, and call planning stay separable.
-- Corpus cleanup can find move-headed debt without doing mechanical global renames.
+- A wording review can locate unresolved move claims while preserving adequate uses.
 
 Costs:
 
-- Reliance-bearing or still-ambiguous phrases may need the small repair note before they can be rewritten safely; ordinary direct-pattern repair does not.
+- A repair whose later use needs replay requires the temporary note; an immediate repair need not materialize it.
 - Text may need to split one sentence into two governed claims when the original wording carried both change-situation and pattern-use meaning.
 

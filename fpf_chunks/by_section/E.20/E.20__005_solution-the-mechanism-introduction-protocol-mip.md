@@ -6,12 +6,12 @@ section_id: "E.20:4"
 section_title: "Solution — the Mechanism Introduction Protocol (MIP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__005_solution-the-mechanism-introduction-protocol-mip.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
   - "E.20:4 — Solution — the Mechanism Introduction Protocol (MIP)"
-line_start: 112877
-line_end: 113102
+line_start: 112640
+line_end: 112867
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -67,7 +67,7 @@ Only the third outcome uses the manifest in `E.20:4.2`. The first two still name
 
 #### E.20:4.1 - Step 1: Classify the introduction
 
-A MIP-run SHALL first classify the change, because different classes have different governing definitions:
+The author SHALL first classify the change, because different classes have different governing definitions:
 
 1. **New declared operation family or archetypal grounding.** The `EntityOfConcernRef` names an operation family not previously declared at the selected governing locus.
 2. **New mechanism declaration or semantic edition.** One A.6.1 `U.Mechanism` episteme receives new identity-bearing content or a new effective `U.ReferenceScheme`.
@@ -83,19 +83,19 @@ A MIP-run SHALL first classify the change, because different classes have differ
 **A.6.1 compatibility.** Mechanism identity is `<content, EntityOfConcernRef, effectiveReferenceScheme>`. Identity-bearing content comprises direct subject and range fields, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, Applicability, and an optional `SignatureManifest` when dependency replay matters. An operation index may be derived from the declaration-local `operationDesignator` values; it is not another content group. Each operation's arguments and results remain A.6.1 `ArgumentDeclaration` and `ResultDeclaration` content. A.6.5 SlotSpecs remain exclusive to a `RelationSignature` for an already governed direct relation. Realization, refinement, extension, bridge, evaluation, evidence-use, and publication relations are governed separately.
 
 **New-declaration criterion.** Treat a change as a new declared operation family when `EntityOfConcernRef` changes. Treat changed mechanism content or effective reference scheme as a new semantic edition. A changed neighboring relation alone does not create a new mechanism identity, although it may reopen reliance on the current declaration.
-A single MIP-run MAY span multiple classes, but SHALL treat each class with its correct governing-definition assignment (below).
+A single MIP-run MAY span multiple classes; the author SHALL assign each changed item to its governing definition below.
 
 #### E.20:4.2 - Step 2: Declare the governing-definition assignment map (mandatory)
 
-For every new or modified change item, the MIP-run SHALL name **exactly one governing definition** and assign the change there. In FPF, that governing definition is a citeable, patchable `PatternId`, `PatternId:SectionPath`, `PatternScopeId = G.x:Ext.*`, or `DRRId` (E.9). The core MIP-run manifest in a citeable change record is limited to:
+For every new or modified change item, the author SHALL name **exactly one governing definition** and make the change there. In FPF, that governing definition is a citeable, patchable `PatternId`, `PatternId:SectionPath`, `PatternScopeId = G.x:Ext.*`, or `DRRId` (E.9). The core MIP-run manifest in a citeable change record is limited to:
 
 * each changed item,
 * its governing definition,
-* its canonical location (expressed as `PatternId:SectionPath`, `PatternScopeId`, or `DRRId`, not as prose), and
-* the forbidden overread or forbidden move blocked by that assignment.
+* its canonical location (expressed as `PatternId:SectionPath`, `PatternScopeId`, or `DRRId`, not as prose).
 
 Conditional manifest fields appear only when the corresponding claim is present:
 
+* a forbidden reading or move only when its independently grounded correction changes use under F.19,
 * the change class(es) from E.20:4.1 when needed to disambiguate the assignment,
 * new or changed citeable tokens, including a `MechanismDefinitionRef` or a public operation, argument, or result designator, when token denotation or citeability changes,
 * the actual-effect Delta-Class (`Δ-0` to `Δ-3`) and affected-reach estimate from E.15 when the run is plausibly `Δ-2` or `Δ-3`,
@@ -111,7 +111,7 @@ Conditional manifest fields appear only when the corresponding claim is present:
 | `U.Mechanism` identity and content: exact `EntityOfConcernRef`, effective reference scheme, direct subject and range fields, operation algebra, laws, admissibility, Applicability, and optional dependency manifest | **Mechanism-subject pattern under A.6.1** | Designated mechanism-subject pattern | A suite, plan, wiring module, card layout, or MIP manifest does not supply mechanism semantics; neighboring relations stay with their direct patterns. |
 | Suite membership, obligations, spec pins, and suite protocols | **Suite-subject pattern** | `A.6.7` or `A.6.7.<FamilyKey>` | SHALL NOT carry mechanism semantics, acceptance thresholds, gate criteria, DecisionLogs, or publication tails into the suite. |
 | Planned baseline pins (planned slot fillings, edition-pinned refs, explicit time selector) | **One `U.WorkPlan` and the planned-filling rows kept inside it** | `A.15.2` plus `A.15.3` rows that point to declaration members defined by their own patterns | SHALL NOT embed launch values, witnesses, or gate decisions in planning, or give a row independent identity. |
-| SoTA method, comparator, or generator **definitions**, including provenance and evaluation semantics | **SoTA-pack subject pattern** | `G.2` (SoTA synthesis packs) | SHALL NOT rephrase SoTA evolution as kernel semantics. |
+| Source-grounded method, comparator, or generator candidates and their synthesis | **SoTA-pack subject pattern** for the pack; the cited subject patterns for the definitions used | `G.2` for claims, family cards and handoffs; the cited CHR/CAL, method, provenance or evaluation definition for its semantics | SHALL NOT treat a candidate card or wiring module as an introduced definition, or rephrase a source update as kernel semantics. |
 | Wiring that binds SoTA packs into flows or tasks | **Extension module governing definition** | `G.x:Ext.*` (`GPatternExtension` with explicit `PatternScopeId`) | SHALL NOT mint new semantics; SHALL bind only. |
 | Token renames and drift management | **Lexical subject pattern** | `F.18` (alias docking) plus registers per E.10/F.17 | SHALL NOT silently rewrite tokens or break citations. |
 | Change-cause taxonomy and regression triggers | **RSCR subject pattern** | `G.Core` | SHALL NOT invent ad hoc “reason kinds” scattered in patterns. |
@@ -196,7 +196,7 @@ This step keeps the P2W planning-to-work boundary crisp: the WorkPlan states **p
 
 If the introduction involves methods, comparators, selectors, or other SoTA-sensitive choices:
 
-1. Put method/comparator family semantics in **SoTA packs** (G.2) and reference them by edition-pinned refs.
+1. Publish the source claims, candidate method/comparator families and needed synthesis in **SoTA packs** (G.2), referenced by edition-pinned refs. Use the pack handoffs to reach the subject definitions needed for the choice: G.3 for CHR, G.4 for CAL, and G.5 for registry/dispatch. The pack preserves their grounds and references; it does not replace those definitions or their admission conditions.
 2. Pin the chosen SoTA refs in the exact WorkPlan. Use declaration-local rows only for existing members under E.20:4.7; wiring consumes the selected planned values rather than silently overriding them.
 3. Put flow/task binding logic in **wiring modules** (`GPatternExtension`), with an explicit `PatternScopeId` and declared subject pattern.
 4. Wiring may bind, select, dispatch, or cite SoTA method packs; it may not redefine the mechanism's identity-bearing A.6.1 content. A bridge, realization, evaluation, evidence-use, or publication claim named by wiring remains governed by its direct relation pattern.
@@ -208,11 +208,11 @@ If the introduction renames any public token or changes canonical naming:
 
 1. Use lexical alias docking (F.18) so old tokens remain citeable.
 2. Update registers and twin labels per lexical discipline.
-3. Avoid silent rewrites: the MIP-run SHALL make the alias relation and successor relation explicit.
+3. Avoid silent rewrites: the MIP-run manifest SHALL state the alias relation and successor relation explicitly.
 
 ##### E.20:4.9.1 - Deprecation / supersession / retirement (preserve citeability)
 
-If the change class includes deprecation, supersession, or retirement (E.20:4.1 #8), the MIP-run SHALL preserve reference continuity while making the status change explicit:
+If the change class includes deprecation, supersession, or retirement (E.20:4.1 #8), the author SHALL preserve reference continuity and state the status change:
 
 1. **Preserve each identifiable target.** A deprecated `U.Mechanism` episteme, reference-reservation stub, suite description, exact WorkPlan edition, or wiring module SHALL remain resolvable at its canonical location. Deprecation MUST NOT remove it and break citations. A declaration-local planned-filling row is not another canonical target.
 2. **Keep the public token citeable.** A deprecated token such as a `MechanismDefinitionRef`, suite token, WorkPlan token, public local-content locator, or wiring token SHALL remain citeable. If a successor token or name is introduced, alias-dock the old token under F.18 (E.20:4.9). A local-content locator still resolves only through its exact WorkPlan edition and creates no independent row identity or edition.
@@ -222,7 +222,9 @@ If the change class includes deprecation, supersession, or retirement (E.20:4.1 
 
 #### E.20:4.10 - Step 10: RSCR triggers + regression envelope
 
-A MIP-run that changes any of:
+The author SHALL emit typed RSCR triggers via the RSCR subject pattern when a MIP-run changes any of:
+
+
 * mechanism signatures,
 * suite membership/protocols,
 * planned baseline pins,
@@ -230,14 +232,14 @@ A MIP-run that changes any of:
 * terminology/alias docking that changes citeable tokens,
 * or other reference loci
 
-SHALL emit typed RSCR triggers via the RSCR subject pattern and SHALL extend the regression envelope over the affected uses:
+The author SHALL extend the regression envelope over the affected uses:
 
 * reference resolution for changed citeable references;
 * membership set semantics and protocol closure when a suite changes;
 * guard/gate separation when that boundary changes; and
 * the P2W planning-to-work boundary when planned-baseline content changes.
 
-**Guard (normative).** Trigger kind identifiers (e.g., `RSCRTriggerKindId`) SHALL be selected from the RSCR trigger catalogue governed by `G.Core`. A MIP-run SHALL NOT mint ad hoc trigger kinds (“reason kinds”) scattered in arbitrary patterns/modules.
+**Guard (normative).** Trigger kind identifiers (e.g., `RSCRTriggerKindId`) SHALL be selected from the RSCR trigger catalogue governed by `G.Core`. Authors SHALL NOT mint ad hoc trigger kinds (“reason kinds”) scattered in arbitrary patterns/modules.
 
 **Manifest hook (recommended).** The MIP-run manifest SHOULD list emitted trigger types and the regression envelope deltas as checkable items.
 

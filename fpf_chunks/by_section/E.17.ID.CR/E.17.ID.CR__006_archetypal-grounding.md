@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__006_archetypal-grounding.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:5 — Archetypal grounding"
-line_start: 108357
-line_end: 108593
+line_start: 108194
+line_end: 108431
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -44,13 +44,12 @@ keywords:
 **Worked-slice note.** Use the system case, episteme case, and worked boundary examples as a heterogeneous example bank, not as one recommended progression.
 They show different bounded outcomes for the same governing pattern: some cases stay small and stop, some stay mixed with a neighboring pattern, and some reopen or apply another governing pattern when outside observations, environmental change, or downstream constraints change what the comparative review unit can honestly carry. Make the ordinary minimum recoverable for the current comparison unit; if the boundary trigger fires, stop here or apply the governing pattern for the crossed claim.
 
-#### E.17.ID.CR:5.1 - Tell
+#### E.17.ID.CR:5.1 - One comparison unit
 
 `ComparativeReviewUnit` names the bounded middle band where a team prepares one explicit bounded comparison over source epistemes or source publications with already declared references, while any stronger crossed claim remains outside until the governing pattern for that claim is named.
-The comparison unit is the bounded comparative review unit.
 That review unit stays modest enough that a reviewer can still see the shared review frame, the same `EntityOfConcernRef` when the compared sources describe the same entity, the declared comparison criterion, the blocked downstream claim or effect, and the boundary trigger that would end interpretation.
 
-#### E.17.ID.CR:5.2 - Show (System)
+#### E.17.ID.CR:5.2 - Same service episode
 
 **Source slice.** Two pinned operating notes describe the same service episode from different operational responsibilities.
 One note has its source reference in the maintenance log, the other in the continuity dashboard for the same declared episode and the same `EntityOfConcernRef`.
@@ -64,7 +63,7 @@ One note has its source reference in the maintenance log, the other in the conti
 - no substitution licence is added;
 - no rival action-selection question is yet being asked.
 
-#### E.17.ID.CR:5.3 - Show (Episteme)
+#### E.17.ID.CR:5.3 - Two analytic renderings
 
 **Source slice.** Two pinned analytic renderings over the same evidence set are already available for review.
 One rendering is a `SourceLinkedExplanationReconstruction` on a `TechCard` face; the other is a compact comparison sheet that preserves the same evidence set and the same described operational episode.
@@ -262,6 +261,8 @@ Why `ComparativeReviewUnit` no longer governs:
 
 ##### E.17.ID.CR:5.4.11 - Invalid publication and repair example
 
+**Source slice.** Source note SN-12 and receiving note RN-12 use maintenance terms from different local semantic contexts.
+
 **Invalid review unit.** `These two views describe the same entity for current operations, so the team can use whichever wording is easier.`
 
 Why it is invalid here:
@@ -269,7 +270,7 @@ Why it is invalid here:
 - bridge-mediated comparison is being implied without an explicit obtaining Bridge and bounded-use claim;
 - blocked substitution and authority claims are being smuggled in through soft phrasing.
 
-**Minimal repair.** `Under Bridge B-12, bounded-use claim UC-12 has B-12 as its EntityOfConcern and says, with affirmative polarity, that the source-note-to-receiving-note direction is suitable for comparing only the operator-timing concern in this review task; the remaining source distinctions are tolerated loss, not substitution. A current A.10 result supports relying on UC-12 for that exact use. Both notes foreground the concern, but they are not substitution-equivalent and the source episteme or source publication set remains primary. The pattern for the proposed review decides authorization, and evidence of the review Work says whether it occurred. Card BC-12 may be cited when that optional package is useful.`
+**Minimal repair.** `Under Bridge B-12 between the local senses pinned by SN-12 and RN-12, bounded-use claim UC-12 has B-12 as its EntityOfConcern and says, with affirmative polarity, that the SN-12-to-RN-12 direction is suitable for comparing only the operator-timing concern in this review task; the remaining source distinctions are tolerated loss, not substitution. A current A.10 result supports relying on UC-12 for that exact use. Both notes foreground the concern, but they are not substitution-equivalent and the source episteme or source publication set remains primary. The pattern for the proposed review decides authorization, and evidence of the review Work says whether it occurred. Card BC-12 may be cited when that optional package is useful.`
 
 What the repair does:
 - restores the source references and verifies `bridgeOccurrenceRef`, the bounded-use claim's `EntityOfConcern`, its use/direction/rule/loss/polarity tuple, and current A.10 reliance for that exact positive use, while keeping any `bridgeCardRef` optional;

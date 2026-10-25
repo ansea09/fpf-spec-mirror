@@ -6,12 +6,12 @@ section_id: "E.4.CM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__005_solution.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:4 — Solution"
-line_start: 92841
-line_end: 93084
+line_start: 92844
+line_end: 93087
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -133,7 +133,7 @@ When a supplier or receiving condition changes, return to the affected connectio
 
 #### E.4.CM:4.8 - Produce source-grounded Method knowledge in pattern-language form
 
-This developed specialization answers the source-derived construction problem in :4.1–4.7. It gives the complete recovery-to-language account and its H/L/W case below, including the problem, alternatives, conditions, costs and returns needed to adapt it. For Method knowledge that needs no public framework, use the general C.39 construction and the applicable source, description and language contributions; publication is not a condition of that work.
+This specialization connects source recovery with a reusable pattern language for the source-derived construction problem in :4.1–4.7. For Method knowledge that needs no public framework, use the general C.39 construction and the applicable source, description and language contributions; publication is not a condition of that work.
 
 ##### E.4.CM:4.8.1 - Problem frame
 
@@ -158,7 +158,7 @@ Several forces remain in tension: source fidelity and a usable synthesis; reusab
 
 ###### E.4.CM:4.8.4.1 - Produce the source-grounded language
 
-This source-grounded specialization uses role-qualified source contributions and current suppliers to construct actionable Method-description knowledge in pattern-language form, retain the grounds of its allocation, and challenge and refresh its promised source coverage. C.39 governs the general development of that knowledge; E.4.CM applies when the receiving product is a public framework contribution. The result can contain several one-Method descriptions and neighboring contributions. Call that whole result one MethodDescription only when its exact subject and substantive claims satisfy A.3.2.
+Construct Method descriptions and their connections from the source contributions and current framework content. Keep each source's role and limits and the reasons for allocating its contributions. Test whether the language reconstructs the promised source contributions, and revisit affected explanations when their grounds change. C.39 governs the general development of that knowledge; E.4.CM applies when the receiving product is a public framework contribution. The result can contain several one-Method descriptions and neighboring contributions. Call that whole result one MethodDescription only when its exact subject and substantive claims satisfy A.3.2.
 
 This account develops the connections among the existing recovery, allocation, description, language and reconstruction Methods. The following actions and result dependencies explain their use together without establishing a decomposition into part Methods. When the receiving use depends on a constituent Method, use B.1.5.CM/B.1.5 to identify it and establish its relation to the whole; B.1.5.EW recovers how its work is performed within the encompassing work. A further claim about one composite Method requires its own whole-forming grounds; the developed explanation and constructed case do not establish success in recurring production practice.
 
@@ -213,7 +213,7 @@ C.37.CF compares earlier prose A with revised prose B that adds the matching-con
 
 F.0.2.RC reconstructs the promised reliance answer. A topic entry and source citation are insufficient if the condition cannot be recovered. Its first result names the missing condition or confirms recoverability only for this bounded case.
 
-**Changed condition, supplied only after the first answer.** H becomes available only as excerpts. A new receiving use requires rechecking an argument outside them, and the retained allocation contains only its locator, not the argument. The recheck now has an unavailable basis. Return that dependent use to source recovery, use a separately justified sufficient basis, or narrow or stop it. Keep the earlier result with its historical basis, L's independently supported condition and W's unresolved status. Another pattern that copied the missing premise is affected even if its file did not change.
+**Changed condition.** H becomes available only as excerpts. A new receiving use requires rechecking an argument outside them, and the retained allocation contains only its locator, not the argument. The recheck now has an unavailable basis. Return that dependent use to source recovery, use a separately justified sufficient basis, or narrow or stop it. Keep the earlier result with its historical basis, L's independently supported condition and W's unresolved status. Another pattern that copied the missing premise is affected even if its file did not change.
 
 C.39.MC continues from this newly missing result. If only source availability changed, reconsider the current judgment. If the reader instead asks whether publication is authorized, identify that new use and its required result. A prior review is not publication authorization. In actual Work, the chooser and performer remain explicit.
 
@@ -267,7 +267,7 @@ The following sources supply specific questions and alternatives, not a proof th
 
 [Alexander et al.'s A Pattern Language (1977)](https://www.patternlanguage.com/bookstore/pattern-language.html) supplies the historical problem-first, connected-guidance idea. [Minsky's frame account (1974)](https://web.mit.edu/dxh/www/marvin/web.media.mit.edu/~minsky/papers/Frames/frames.html) connects situation knowledge, expectations and adaptation. The architectural analogy drawn here concerns those knowledge-use roles; historical descent of pattern languages from frame systems is not established by it. Declarative and case-management approaches, including [CMMN 1.1](https://www.omg.org/spec/CMMN/1.1/About-CMMN), remain operational comparison targets, not the ontology adopted by this language.
 
-The production construction uses Core's general qualification, architecture, representation and assurance Methods. Their shared use does not establish a separate discipline or require another framework. A domain framework would need a different justified field promise. A prose-only synthesis remains a serious lower-maintenance option; a fixed route remains legitimate under stable conditions. Reopen the production choice when current supply removes a distinct result, reconstruction fails for a promised use, source conditions change, or the maintenance burden defeats the practical gain.
+The production construction uses Core's general qualification, architecture, representation and assurance Methods. Their shared use does not establish a separate discipline or require another framework. A domain framework would need a different justified field promise. A prose-only synthesis remains a lower-maintenance option; a fixed route remains legitimate under stable conditions. Reopen the production choice when current supply removes a distinct result, reconstruction fails for a promised use, source conditions change, or the maintenance burden defeats the practical gain.
 
 ##### E.4.CM:4.8.12 - Relations
 

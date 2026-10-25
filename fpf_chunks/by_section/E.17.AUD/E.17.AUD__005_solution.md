@@ -6,12 +6,12 @@ section_id: "E.17.AUD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__005_solution.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:4 — Solution"
-line_start: 108757
-line_end: 108866
+line_start: 108581
+line_end: 108686
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,8 +40,6 @@ keywords:
 
 ### E.17.AUD:4 - Solution
 
-> Stabilize the interpretation of one publication unit before editing it at the wrong level.
->
 > Name what the unit is mainly about, the publication move it carries, the claim that remains outside, and one repair choice. Apply another pattern only when that choice requires it.
 
 #### E.17.AUD:4.0 - Plain working terms
@@ -76,13 +74,11 @@ If the publication unit changes any of those four without saying so, its interpr
 - `bounded comparison`: if the unit is stable, apply `E.17.ID.CR`;
 - `leave publication-unit stability`: the live question concerns work, work planning, decision, gate, evidence, explanation, reliance, carrier or front-end work, or another claim that this pattern does not test; apply the relevant pattern and name the exact project object or record.
 
-After choosing the repair, apply `E.17.AUD.LHR` for one local head, `E.17.AUD.OOTD` for whole-unit stabilization, `E.17.ID.CR` for bounded comparison, or the specific neighboring pattern and project record needed by a claim outside publication-unit stability.
-
 Do not repeat or replace the narrower whole-unit check in `PublicationUnit Primary-Subject Discipline`: can this one unit still keep one stable primary subject, one carried publication move, and one outside boundary to work, work planning, decision, gate, or reliance claim?
 
 #### E.17.AUD:4.3 - Inherited dynamic frame
 
-Use the lineage and move frame already defined by `C.2.2a` or `A.16.0`. Here, inspect how one publication unit speaks about that lineage or publication move. This is not a standalone theory of documents, carriers, or publication forms.
+When the unit describes a lineage or move, use `C.2.2a` or `A.16.0` for that subject and inspect how the unit expresses it.
 
 #### E.17.AUD:4.4 - Kind and boundary
 
@@ -105,7 +101,7 @@ Those objects may matter, but mentioning them in the same note, sheet, or screen
 
 #### E.17.AUD:4.5 - Ordinary working card
 
-Use this seven-row card before you widen the repair:
+When a wider repair needs these distinctions, use the seven questions to recover them:
 
 | Row | Ordinary prompt |
 | --- | --- |
@@ -146,5 +142,5 @@ When explanation, comparison, or a downstream claim is load-bearing, keep five f
 - current admissible reliance or work interpretation and forbidden non-admissible decision, work, or gate claim;
 - whether this unit is the primary publication unit or a derivative helper publication;
 - any claim-bearing modeling substrate or rationale;
-- and that the assurance section only tightens the opening recognition claim rather than silently broadening it into downstream claim or effect.
+- how any assurance finding corrects or bounds the opening claim according to its actual result, without silently adding an unestablished downstream claim or effect.
 

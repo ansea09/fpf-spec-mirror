@@ -6,33 +6,22 @@ section_id: "E.10.D2:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__012_worked-examples.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:11 — Worked examples"
-line_start: 102003
-line_end: 102060
+line_start: 101890
+line_end: 101947
 dependencies:
-  - "A.1.1"
-  - "A.10"
-  - "A.2.6"
-  - "A.3.2"
   - "A.7"
-  - "B.3"
   - "C.2.1"
   - "C.2.3"
-  - "C.29"
-  - "E.10"
   - "E.10.D1"
-  - "E.17"
-  - "E.17.0"
-  - "E.24.PUB"
   - "F.15"
   - "F.4"
   - "F.5"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
   - "DescriptionContext (legacy cue)"
   - "EntityOfConcern"

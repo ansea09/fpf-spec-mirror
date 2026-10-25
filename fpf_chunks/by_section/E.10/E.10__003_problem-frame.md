@@ -6,12 +6,12 @@ section_id: "E.10:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__003_problem-frame.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:1 — Problem frame"
-line_start: 99084
-line_end: 99098
+line_start: 99017
+line_end: 99029
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,8 +59,6 @@ keywords:
 ---
 
 ### E.10:1 - Problem frame
-**Current name set.** `F.19` owns the common semantic and pragmatic reading of the natural span. `E.10` supplies the compact cue surface and detailed lexical, register, naming, and morphology rules for one unresolved FPF wording use. `E.10.ARCH` and the subject patterns own deeper recovery; later lexical material does not reopen a second general prose method.
-
 **Intent.** Provide a normative lexical cue and repair rule set that keeps FPF wording composable across sources and uses. Authors, reviewers, and tooling use the subordinate material only after `E.10:0.2` has selected one unresolved lexical question:
 
 * **Meaning constraints between lexical strata** (Kernel → Extension patterns → Local use → Instance);
@@ -71,5 +69,5 @@ keywords:
 * **Conformance checks** and minimal examples.
 
 **Scope.** Applies to:
-(a) **Core** (Parts A–G), (b) **Extension pattern specifications** (CAL, LOG, and CHR), (c) **local source or practice glossaries** that claim FPF conformity, and (d) **diagrams and prose** in normative text. It **does not** constrain Tooling or Pedagogy wording other than where they quote Core semantics.
+(a) **Core** (Parts A–G), (b) **Extension pattern specifications** (CAL, LOG, and CHR), (c) **local source or practice glossaries** that claim FPF conformity, and (d) **diagrams and prose** in normative text. For Tooling and Pedagogy, apply it where wording deliberately uses FPF-governed meanings or claims FPF conformity, as §0.1 specifies.
 

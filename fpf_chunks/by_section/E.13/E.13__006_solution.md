@@ -6,12 +6,12 @@ section_id: "E.13:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__006_solution.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.13 — Pragmatic Utility and Proxy-to-Value Alignment"
   - "E.13:4 — Solution"
-line_start: 104538
-line_end: 104601
+line_start: 104413
+line_end: 104477
 dependencies:
   - "A.10"
   - "A.21"
@@ -74,6 +74,7 @@ A proxy can be harmless as an orientation cue and dangerous as a target. State t
 | --- | --- | --- |
 | Orientation cue | Helps decide where to look next. | Mistaken for evidence of value. |
 | Measure | Reports one declared characteristic under `C.16`. | Treated as the whole objective. |
+| Decision driver | Informs a choice under the applicable decision rule. | The proxy displaces the intended objective or protected qualities in the choice. |
 | Target | Work is optimized to move the proxy. | Goodhart pressure. |
 | Incentive | People or agents are rewarded for the proxy. | Behavioral distortion and gaming. |
 | Gate or release argument | Passage depends on the proxy. | Proxy becomes authority. |
@@ -94,7 +95,7 @@ The value slice may be small. It must show the intended value rather than merely
 
 #### E.13:4.5 - Repair by Value Movement
 
-When the proxy has displaced the value, repair one of these:
+When the proxy has displaced the value, choose a repair, combining these moves when needed:
 
 - where the governing rule permits it, change the proxy use from target/gate/incentive to orientation or bounded measure; if a binding requirement must change, propose the amendment under its authority and keep the current requirement in force until that amendment takes effect;
 - add a protected quality or counter-metric that names the value at risk;

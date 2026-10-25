@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology and Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__010_morphology-and-lexical-form-lex-morph.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:8 — Morphology and Lexical Form (LEX.Morph)"
-line_start: 99409
-line_end: 99651
+line_start: 99340
+line_end: 99582
 dependencies:
   - "A.10"
   - "A.15"
@@ -103,7 +103,7 @@ IDs and instances: **flat with delimiters** chosen by the exact local naming sch
 
 | **Suffix** | **Lexical class** | **Meaning and ontology** | **Where it lives** | **Examples and notes** |
 |--- |--- |--- |--- |--- |
-| **Space** | EntityOfConcern-side kind | A typed **state space** (finite product of declared Characteristic×Scale components); no procedures | Kernel A.19; CHR and space consumers | `CharacteristicSpace`, `CreativitySpace`. Any episteme that defines or describes the Space remains separately identified. A selected definition edition is itself one exact `U.Episteme`; the Space is not editioned. |
+| **Space** | EntityOfConcern-side kind | A space whose construction is defined by its subject pattern; an A.19 `CharacteristicSpace` is a finite product of declared Scale value sets. The suffix implies no procedure | A.19 for CharacteristicSpace; the governing subject pattern for another space | `CharacteristicSpace`, `CreativitySpace`. Any episteme that defines or describes the Space remains separately identified. A selected definition edition is itself one exact `U.Episteme`; the Space is not editioned. |
 | **SpaceRef** | Pointer | Governed reference to one exact Space | Direct reference pattern; data fields and UTS | `CharacteristicSpaceRef` resolves to the exact Space. When a use depends on one exact Space-definition episteme, carry a separate governed field typed by `U.EpistemeRef` whose referent is that episteme; only its direct reference pattern may define a narrow edition selector. |
 | **Map** | EntityOfConcern-side kind (method) | One exact mapping `U.Method` from subjects to coordinates in a declared Space | A.3.1 and the method-family pattern; Description epistemes remain separate | `DescriptorMap` names the method only after A.3.1 admission. A claim-bearing episteme about that exact method may separately qualify as `U.MethodDescription`; a representation, record, or file does not. |
 | **MapRef** | Pointer | Governed reference to one exact mapping `U.Method` | Direct method-reference pattern; data fields and UTS | `DescriptorMapRef` resolves to the method. If the use depends on one exact method-description episteme, carry a separate governed field typed by `U.EpistemeRef`; do not attach an edition selector to the method reference. |
@@ -185,7 +185,7 @@ IDs and instances: **flat with delimiters** chosen by the exact local naming sch
 
 **M-7 (Notation independence).** The EntityOfConcern-side meaning survives notation and tool swaps.
 
-**M-8 (Collision and uniqueness).** Before merge, perform **full-text** and **Reserved-Names** checks; a token colliding with another FPF meaning is not admitted (cf. MG-DA-T5).
+**M-8 (Collision and uniqueness).** Before admitting a token, perform **full-text** and **Reserved-Names** checks; a token colliding with another FPF meaning is not admitted (cf. MG-DA-T5).
 
 #### E.10:8.5 - Alias hygiene
 
@@ -266,8 +266,8 @@ Example: use of a `KernelToken` in a locally scoped constraint is admitted only 
 * **RSCR‑MOR‑E02 (USM compliance).** For each LexicalAct, verify `USM.Scope ∈ AllowedScopes(LEX.TokenClass)` (see § 7.5).
 
 #### E.10:8.8 - Autonomy lexicon (L‑AUTO )
-**Inadmissible in Core:** bare “validity”, bare “actor” or “agent” as free-standing nouns, “kill switch”, “process” for behavior, and “envelope” when used **as scope**.
-**Use instead:** *Scope (G)* for epistemic scope; *WorkScope* for capability bounds; an admitted `U.System` for an ordinary actor or doer. When a precise Agent or performed-Work claim is current, use A.13 for the exact local agential kind and criterion, classification, obtaining assignment, scope, working situation, window, and adequate core evidence; require a characteristic profile only when its Grade, autonomy, criterion-dependent, profile, or assurance use consumes it. Then let A.15.1 independently admit the dated Work from its actual performer, Method, time, and containment facts. Add F.6 only when the wording or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Use a `...SystemRole` designation only when that classification itself matters. Use *SpeechAct* for overrides and *SafeStop* instead of “kill switch”.
+**Recovery cues in FPF-governed autonomy claims:** unresolved “validity”, “actor” or “agent”, “kill switch”, “process” for behavior, and “envelope” used **as scope**. Apply the relevant recovery only when the claim is unclear; ordinary and already precise uses remain available.
+**Recovered values when the claim needs them:** *Scope (G)* for epistemic scope; *WorkScope* for capability bounds; an independently admitted `U.System` when an actor's systemhood matters. When a precise Agent or performed-Work claim is current, use A.13 for the exact local agential kind and criterion, classification, obtaining assignment, scope, working situation, window, and adequate core evidence; require a characteristic profile only when its Grade, autonomy, criterion-dependent, profile, or assurance use consumes it. Then let A.15.1 independently admit the dated Work from its actual performer, Method, time, and containment facts. Add F.6 only when the wording or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Use a `...SystemRole` designation only when that classification itself matters. Use *SpeechAct* for overrides and *SafeStop* instead of “kill switch”.
 **Named prefixes (policy and registry):**
 * `aut:` for AutonomyBudgetDecl fields (e.g., `aut:action_tokens`, `aut:risk_bands`);
 * `guard:` for guard checks bound to `AdmissibilityConditionsId`;
@@ -275,7 +275,7 @@ Example: use of a `KernelToken` in a locally scoped constraint is admitted only 
 
 **Notes.**
 1) Scope-sensitive guards declare the **Gamma_time** window selector used for admission checks.
-2) Proper names of patterns and components that already include “Agent” or “Agency” (e.g., *Agency‑CHR*, *Agent‑Tools‑CAL*) are permitted as **titled terms**; avoid re‑introducing “agent” as a free‑standing noun in new prose.
+2) Proper names of patterns and components that already include “Agent” or “Agency” (e.g., *Agency‑CHR*, *Agent‑Tools‑CAL*) are permitted as **titled terms**; recover a bare “agent” when its precise agency claim is unresolved.
 
 #### E.10:8.9 - LEX-CHR-STRICT — Reserve *Characteristic* for CSLC-measurable aspects
 

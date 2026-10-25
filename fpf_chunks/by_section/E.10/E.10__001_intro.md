@@ -6,12 +6,12 @@ section_id: "E.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__001_intro.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:intro — Intro"
-line_start: 98343
-line_end: 98352
+line_start: 98276
+line_end: 98285
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,7 +63,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Definitional pattern; normative for text that claims FPF-governed wording use.
 
-**Status and placement.** Part E.10 lexical governance. `F.19` owns the common whole-span precise-language repair; `E.10:0.2` supplies compact cues and routes only a genuinely unresolved FPF wording use. `E.10.D1`, `E.10.LRN`, `E.10.DEV`, `E.10.ROLE`, `E.10.MOVE`, `E.10.ARCH`, the precision-restoration patterns, and `F.18` retain their exact subject work. Sections 5–9 below are optional register, naming, morphology, and overloaded-head references, not a second general language method.
+**Reading path.** `F.19` owns the common whole-span precise-language repair; `E.10:0.2` supplies compact cues and routes only a genuinely unresolved FPF wording use. `E.10.D1`, `E.10.LRN`, `E.10.DEV`, `E.10.ROLE`, `E.10.MOVE`, `E.10.ARCH`, the precision-restoration patterns, and `F.18` retain their exact subject work. Sections 5–9 below are optional register, naming, morphology, and overloaded-head references, not a second general language method.
 
 **Builds on:** A.7 **Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)**; E.5 Guard-Rails (DevOps Lexical Firewall; Notational Independence; Unidirectional Dependency); F.5 **Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions**.
 **Coordinates with.** `E.10.D1` for action-changing uses of *context*; `E.10.ROLE`, A.2, and A.2.1 for system-role kinds and assignments; A.15 and F.6 for Method, Work, and performed-Work attribution; A.10 for evidence use; B.1 and B.3 for Γ‑algebras and assurance; and F.17 with F.9 for source-local meaning and Bridges.

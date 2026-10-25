@@ -6,12 +6,12 @@ section_id: "E.21:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__008_conformance-checklist.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:6 — Conformance checklist"
-line_start: 113712
-line_end: 113737
+line_start: 113477
+line_end: 113502
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -38,7 +38,7 @@ keywords:
 
 | Check | Requirement |
 |---|---|
-| `CC-E21-0` | Keep the exact checked pattern edition, characteristic space and specification, evaluation configuration, admitted evaluator `U.System` and ordinary assessing action, coordinate-result claims, aggregate result episteme, and any admission or refresh decision distinct. Do not invent a system-role kind, assignment, Method, Work, or A.6.1 application for the ordinary form. When actual assessment `U.Work` is asserted, item 5 **MUST** hold: every precise evaluator-performer has an A.13 core, and A.15.1 independently admits the Work from its performance history, enacted Method, extent, and containing-System relation under the exact boundary and qualification window. F.6 **MUST** be added only when the evaluation account also needs precise assignment-bound attribution. A compact account may omit an unused identifier only when every consumed relation remains recoverable. The Work assertion alone establishes neither an application nor a result. Keep the Work, any returned value or direct evaluation-result relation, and the C.2.1 result episteme separate; connect them only through an exact A.6.1 result binding or a separately declared direct evaluation-result relation that actually obtains. When an exact application is asserted, the compact A.6.1 rule in E.21:4 **MUST** hold and its required application-and-binding account **MUST** be recoverable. Keep witnesses or evidence use, optional record, status use, assurance, publication, currentness, and later repair separately recoverable when claimed. |
+| `CC-E21-0` | Keep the exact checked pattern edition, characteristic space and specification, evaluation configuration, admitted evaluator `U.System` and ordinary assessing action, coordinate-result claims, aggregate result episteme, and any admission or refresh decision distinct. Do not invent a system-role kind, assignment, Method, Work, or A.6.1 application for the ordinary form. When actual assessment `U.Work` is asserted, the dated-Work account in E.21:4 **MUST** hold: every precise evaluator-performer has an A.13 core, and A.15.1 independently admits the Work from its performance history, enacted Method, extent, and containing-System relation under the exact boundary and qualification window. F.6 **MUST** be added only when the evaluation account also needs precise assignment-bound attribution. A compact account may omit an unused identifier only when every consumed relation remains recoverable. The Work assertion alone establishes neither an application nor a result. Keep the Work, any returned value or direct evaluation-result relation, and the C.2.1 result episteme separate; connect them only through an exact A.6.1 result binding or a separately declared direct evaluation-result relation that actually obtains. When an exact application is asserted, the compact A.6.1 rule in E.21:4 **MUST** hold and its required application-and-binding account **MUST** be recoverable. Keep witnesses or evidence use, optional record, status use, assurance, publication, currentness, and later repair separately recoverable when claimed. |
 | `CC-E21-0a` | Constitute each coordinate value as a quality ascription about the same exact checked pattern edition with recoverable ReferenceScheme, characteristic, scale value, evaluation rule or probe, scope, use, and window, ordinary assessing action or exact assessment application when asserted, rationale, and evidence locus. Keep all required coordinate claims in one non-arithmetic `PatternQualityQBundle` payload carried by a separate C.2.1 aggregate result episteme; evaluator identity, viewpoint, witness presence, record placement, or bundle membership supplies neither value nor grounding by itself. |
 | `CC-E21-1` | Recover `ClaimScope` from the governing evaluation question: the current request, an `E.22` frame, an accepted decision or content source named by value, a landing or release check, a review request, or another actual quality-use request. Then name `PatternOfConcernRef`, `ClaimScope`, `WorkingReaderScope`, `IntendedUse`, `QualificationWindow`, and `EvaluationEvidenceBasis`. |
 | `CC-E21-2` | Evaluate the full `RequiredPatternQualityCoordinates` set. |

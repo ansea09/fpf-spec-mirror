@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:13"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__021_rationale.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:13 — Rationale"
-line_start: 101311
-line_end: 101342
+line_start: 101208
+line_end: 101237
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,7 +50,6 @@ dependencies:
   - "E.10.DEV"
   - "E.10.MOVE"
   - "E.11"
-  - "E.18"
   - "E.19"
   - "E.2"
   - "E.20"
@@ -79,13 +78,11 @@ The workable split is a normal whole-span repair in `F.19`, compact recognition 
 
 **Selected best-known line.** Use ISO 704's object, concept, definition, and designation discipline for terminology work; use SKOS only when a controlled-vocabulary or knowledge-organization object is current; and distribute each FPF claim to its direct subject rule through one shared trigger scan and one shared recovery architecture. Keep a local realization only when a stable recovery shape and remaining reader use recur.
 
-**Serious alternative or default.** A central preferred-word list makes labels consistent but cannot establish obtaining relations, actual participants, claim-bearing epistemes, or direct rule ownership. Copied local warning tables stay close to each subject but duplicate recognition, drift independently, and displace the subject pattern's working problem. The selected line keeps the useful locality of direct owners and the reuse of one shared entry.
+**Alternative or default.** A central preferred-word list makes labels consistent but cannot establish obtaining relations, actual participants, claim-bearing epistemes, or direct rule ownership. Copied local warning tables stay close to each subject but duplicate recognition, drift independently, and displace the subject pattern's working problem. The selected line keeps the useful locality of direct owners and the reuse of one shared entry.
 
 **Bounded comparison and accepted trade-off.** Take the section 0 case in which `MethodDescription_NormalizeCustomer` says “input x is CustomerRow_17” beside `normalize(x)`. Give each distribution the same source sentence, formula, and one applicable recovery entry. A preferred-word list can standardize the label `input`, but that alone leaves open whether it names an argument representation or a declared participant slot. Both a correct subject-local table and the shared architecture can recover `Arg_x` and its correspondence to `CustomerRow_17`, then return to C.29. They yield the same sentence: “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” Because that use is already clear here, the selected distribution permits direct C.29 entry without a restoration row or form.
 
 For an unresolved recurrence, a local table offers a nearby lookup; the shared entry may require a cross-reference. In return, the shared distribution keeps the recognition and recovery rule in one maintained place, while copied tables require their copies to be kept consistent. **Adopt the shared entry with direct-known-rule bypass**, accepting that possible extra lookup to avoid duplicated rule maintenance. Preserve a local realization when its stable field set and remaining use justify it. This qualitative comparison establishes the distribution choice for the stated recurring case; it claims neither measured speed nor a benefit from centralizing the subject rules themselves.
-
-**Mutation and evidence of fit.** The answer changes the distribution steps in `E.10.ARCH:2`, the DEV row in `E.10.ARCH:4`, the direct-known-rule bypass in `E.10.ARCH:5`, the extraction criterion, and Relations. The unlike worked and near-miss cases test local closure, direct-owner return, and the non-use boundary. Internal FPF patterns are governing local sources, while ISO 704 and SKOS are external comparison sources with bounded roles.
 
 | Source or practice line | Source role and contribution used | Limit | Smallest reopen condition |
 | --- | --- | --- | --- |

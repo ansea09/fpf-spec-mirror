@@ -6,12 +6,12 @@ section_id: "E.23.CAE:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CAE/E.23.CAE__008_conformance-checklist.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
   - "E.23.CAE:7 — Conformance Checklist"
-line_start: 115164
-line_end: 115180
+line_start: 114927
+line_end: 114943
 dependencies:
   - "A.15.7"
   - "A.15.8"
@@ -35,7 +35,7 @@ keywords:
 | `CC-E23CAE-5` | Development, rehearsal, procedure change, parameter update, calibration, or another holder-changing operation is controlled where safe; contamination narrows or blocks the disposition. |
 | `CC-E23CAE-6` | A qualified reference return and at least one decision-bearing condition distinguish live rivals; cue reliability, order, and transition history are included when they can change the observation. |
 | `CC-E23CAE-7` | Applicability selection, response access or activation, adaptation, enactment, and obtained result are not inferred from one undifferentiated success or failure. |
-| `CC-E23CAE-8` | The disposition names its observation, conditions, strongest surviving rival, unsupported overread, and claim limit. |
+| `CC-E23CAE-8` | The disposition names its observation, conditions, claim limit, the strongest surviving rival (if any) and any materially unsupported use at issue. If none of the tested rivals remains, state that bounded result rather than inventing another explanation. |
 | `CC-E23CAE-9` | Human, organizational, AI, robotic, collective, or hybrid explanations and interventions remain with their direct owners; no common hidden mechanism is asserted. |
 | `CC-E23CAE-10` | The result remains a premise and candidate-route set, not a `ChoiceResult`, authorization, selected next Work, or performed Work. |
 | `CC-E23CAE-11` | Unsafe, overly costly, coupled, or change-inducing probes return a protected alternative, narrower claim, or `unresolvedDifferential`. |

@@ -6,19 +6,19 @@ section_id: "E.5.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.1/E.5.1__005_solution.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
   - "E.5.1:4 — Solution"
-line_start: 95740
-line_end: 95756
+line_start: 95722
+line_end: 95738
 dependencies:
   - "E.5"
 keywords:
 ---
 
 ### E.5.1:4 - Solution
-Establish a **Lexical Firewall** around the **Conceptual Core** *(conceptual constraint; not a build‑time linter)*:
+Apply the **Lexical Firewall** to the subject the text governs:
 
 1. **Keep abstract definitions independent of incidental machinery.**
    A Core definition **SHALL NOT** make an unrelated tool, file format, command or deployment arrangement necessary to identify or use its conceptual subject. Describe that subject directly; place the implementation in Tooling.

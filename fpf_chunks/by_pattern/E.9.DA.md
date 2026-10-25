@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.9.DA.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.9.DA — Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)"
-line_start: 97895
-line_end: 98342
+line_start: 97830
+line_end: 98275
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -25,8 +25,6 @@ keywords:
 ---
 
 ## E.9.DA - Evaluate a DRR for Its Declared Authoring Use (Decision-Adequacy CharacteristicSpace)
-
-**Framework placement:** Core.
 
 > **Status:** Stable
 
@@ -44,7 +42,7 @@ Primary EntityOfConcern in plain terms: one exact DRR checked for one declared F
 
 ### E.9.DA:2 - Problem
 
-`E.9` defines the DRR decision method and ordinary minimum form, plus exact decision-work/result and C.2.1 identity when a current claim or named reliance needs them. It does not by itself establish whether one exact DRR is decision-bearing enough for a declared downstream use. Without `E.9.DA`, reviewers can approve headings, source volume, or clean prose while the pattern author still has to invent missing decisions.
+`E.9` defines the DRR decision method and ordinary minimum form, plus exact decision-work/result and C.2.1 identity when a current claim or named reliance needs them. It does not by itself establish whether one exact DRR is decision-bearing enough for a declared downstream use. A review can approve headings, source volume or clean prose while the pattern author still has to invent missing decisions.
 
 Recurring failures:
 
@@ -280,7 +278,7 @@ Common calibration points:
 | Decision question and selected answer | The decision can guide limited drafting, but unsettled or ambiguous material remains visible. | The selected answer and outside questions are directly recoverable for declared authoring use. | The decision is reinforced across question, alternatives, consequences, selected loci, and first drafting action without hidden unsettled branches. |
 | Source-use and inheritance | Sources or inherited decisions are relevant, but payload mutation or rejection is compact or incomplete. | Source-use relation, adopted payload, rejected payload, currentness, and selected-locus obligation are explicit. | Source distinctions are replayable across selected answer, cases, boundaries, and first drafting action. |
 | Selected-locus and architecture closure | Loci are named, but some obligation, non-obligation, split, architecture choice, ordinary reference relation, or phrase apparatus remains generic. | Loci are named by value and content obligations are closed for declared use without precision-restoration defects or architecture-memo prose in the future pattern body. | The split, merge, concrete pattern or relation for each outside claim or boundary, and lost-structure or source-use distinctions are replayable across cases and consequences while product prose remains positive-subject first. |
-| Drafting actionability | A skilled author can proceed, but must infer some governed `EntityOfConcern`, first move, selected-locus relation/decision, user-facing action, boundary disposition, or reference/architecture disposition from scattered material. | The DRR directly exposes the governed `EntityOfConcern`, first substantive drafting move, exact selected-locus relation or decision, user-facing action, and only necessary boundary/reference pointers as positive subject kind and action guidance; ordinary references remain references, apparatus stays out of pattern prose, and an evaluation row is neither future method nor work. | Drafting can proceed across heterogeneous selected loci without inventing decisions, final prose, local negative catalogues, reference boilerplate, phrase apparatus, architecture-memo leakage, method, or work. |
+| Drafting actionability | A skilled author can proceed, but must infer some governed `EntityOfConcern`, first move, selected-locus relation/decision, user-facing action, boundary disposition, or reference/architecture disposition from scattered material. | The DRR directly exposes the governed `EntityOfConcern`, first substantive drafting move, exact selected-locus relation or decision, user-facing action, and only necessary boundary/reference pointers as positive subject kind and action guidance; ordinary references remain references, apparatus stays out of pattern prose, and an evaluation row is neither future method nor work. | Drafting can proceed across heterogeneous selected loci from the decided content, without inventing missing decisions or importing local negative catalogues, reference boilerplate, phrase apparatus, architecture-memo prose or unsupported Method/Work claims. |
 
 #### E.9.DA:4.5 - Local result status and stop condition
 
@@ -427,15 +425,15 @@ The bias is bounded. Small editorial decisions can use `E.9` directly. Ordinary 
 
 | Consequence | Benefit | Cost |
 |---|---|---|
-| DRR adequacy becomes inspectable before drafting. | Pattern authors get decisions, not source summaries. | Ordinary review touches only the live questions; a complete reusable evaluation touches every coordinate once. |
+| DRR adequacy becomes inspectable before drafting. | Pattern authors get decisions, not source summaries. | Ordinary review touches only the live questions; a complete reusable evaluation covers every coordinate. |
 | Architecture selection becomes visible. | By-value but wrong split or merge choices no longer pass as complete distribution. | Some DRRs need architecture repair before drafting. |
 | Source mutation is explicit. | SoTA, standards, reviews, audits, and accepted decisions shape decisions rather than decorate them. | Rationale-only sources cannot raise values. |
 | The effective floor and required use are reproducible. | Two evaluators can derive the same status without choosing an easier frame after seeing evidence. | The invoking use or E.9.DA default must be named, and every below-floor required coordinate remains noncompensatory. |
-| One bounded search tests the DRR's frame before coordinate closure. | A polished answer cannot hide an important question merely by omitting it from the DRR. | The evaluator must inspect problem, practice, sources, alternative, failure/recovery, and true consumers far enough to answer that one question. |
+| One bounded search tests the DRR's frame before coordinate closure. | The reviewer can identify an omitted question that changes the answer. | The evaluator must inspect problem, practice, sources, alternative, failure/recovery, and true consumers far enough to answer that one question. |
 
 ### E.9.DA:10 - Rationale
 
-The cheapest place to repair a missing FPF decision is the DRR, before uncertainty fans out into hosts. A direct semantic judgement over the exact DRR, the bounded omitted-question search, and any triggered actual-host replay is the ordinary result. A complete coordinate result and exact evaluation/result identities are valuable only when a separately requested reusable evaluation or named later reliance needs them. The ordinary and reusable results preserve the observed trade-off between concise usable decision records and detail needed for a specific reliance; neither form substitutes for decision content.
+Repairing a missing FPF decision in the DRR before distribution avoids leaving the same choice to several later authors. A direct semantic judgement over the exact DRR, the bounded omitted-question search, and any triggered actual-host replay is the ordinary result. A complete coordinate result and exact evaluation/result identities are valuable only when a separately requested reusable evaluation or named later reliance needs them. The ordinary and reusable results address the trade-off between concise usable decision records and detail needed for a specific reliance; neither form substitutes for decision content.
 
 ### E.9.DA:11 - SoTA-Echoing and source use
 

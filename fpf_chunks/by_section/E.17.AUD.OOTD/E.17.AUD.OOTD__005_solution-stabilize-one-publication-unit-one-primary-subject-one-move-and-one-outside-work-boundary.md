@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:4"
 section_title: "Solution - stabilize one publication unit, one primary subject, one move, and one outside-work boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__005_solution-stabilize-one-publication-unit-one-primary-subject-one-move-and-one-outside-work-boundary.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:4 — Solution - stabilize one publication unit, one primary subject, one move, and one outside-work boundary"
-line_start: 109411
-line_end: 109551
+line_start: 109212
+line_end: 109352
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ If the real problem is still only one vague local lexical head word, start with 
 - **Publication unit** = one written or displayed bounded unit others are meant to read as one unit, such as a note, memo, sheet, table, or guided screen.
 - **Primary subject** = what that bounded unit is mainly about for the current reading. It is an ordinary local publication term, not a new ontological kind.
 - **Concern** = the question, aspect, or issue foregrounded about that subject. The concern can change while the subject remains the same.
-- **Exact `EntityOfConcern`** = the one exact `U.Entity` participating in the `C.2.1` constitution of one identified claim-bearing episteme. It is not a synonym for topic, kind, interpretation, question, or subject.
+- **Exact `EntityOfConcern`** = the one exact `U.Entity` participating in the `C.2.1` constitution of one identified claim-bearing episteme. Neither a topic label nor a writing question identifies that participant by itself.
 - **Carried move** = what the unit asserts, compares, explains, recommends, or otherwise communicates about its subject; it may also say that it only stabilizes the reading without adding a new claim.
 - **Downstream use** = what a reader is invited or permitted to do with the unit, such as understand, compare, approve, rely, assign, or act.
 - **Outside-work boundary** = what wider review, execution work, non-admissible downstream decision, or reliance claim stays outside the current unit.
@@ -165,7 +165,7 @@ These fields do not create a rival rule track. `publicationUnitFormCue` names wo
 **Quick boundary to neighboring patterns and project records**
 - use `E.17.AUD.LHR` (`Local Head Restoration`) when the instability is still local to one lexical head, qualifier, or interpretation word;
 - use `E.17.ID.CR` when the same publication unit already holds one stable primary subject, one carried move, and one outside-work boundary, and the question under repair is one bounded comparative review move over already available source epistemes or publications;
-- use this pattern when one publication unit still has unstable subject, concern, carried-move, downstream-use, or outside-work interpretation after honest local repair;
+- use this pattern when the unit's unstable subject, concern, carried move, downstream use, or outside-work interpretation extends beyond local lexical repair;
 - use the neighboring pattern that addresses the view, face, carrier, entityOfConcernRef-preserving transform, explanation, bridge, ontology, gate, approval, or execution question; keep any required project record with that question.
 
 #### E.17.AUD.OOTD:4.5 - Boundary-rule summary
@@ -173,10 +173,10 @@ These fields do not create a rival rule track. `publicationUnitFormCue` names wo
 Use this summary to decide whether to stay with this pattern or move to a neighboring one.
 
 The practical summary is:
-1. keep one declared primary subject unless a transition is explicit;
+1. choose the least-cost honest unit architecture under 4.2.a: retain one primary subject, declare a transition, keep an explicitly sectioned unit, or split;
 2. do not collapse primary subject, concern, exact `EntityOfConcern`, description, carrier, publication unit, carried move, process, and downstream use into one unchanged interpretation;
 3. keep the carried move and permitted downstream use distinct from the wider work around them;
-4. use local `E.17.AUD.LHR` (`Local Head Restoration`) first, and open this pattern when publication-unit interpretation instability remains after that;
+4. use `E.17.AUD.LHR` when one local head or qualifier is the defect; use this pattern when that repair cannot settle the unit's subject, move, use, or outside boundary;
 5. apply `E.17.ID.CR` when publication-unit stability already holds and the remaining question is one bounded comparative review move over already available source epistemes or publications;
 6. move out when the unit starts carrying downstream decision pressure or another neighboring-pattern question.
 

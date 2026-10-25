@@ -6,12 +6,12 @@ section_id: "E.24:5.7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__012_rationale.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5.7 — Rationale"
-line_start: 115908
-line_end: 115918
+line_start: 115659
+line_end: 115669
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -42,7 +42,7 @@ keywords:
 
 ### E.24:5.7 - Rationale
 
-FPF needs a pattern for ontic introduction because many important ontology units require one exact identity rule and several direct relation patterns to remain coherent. The repair is not to make one record-shaped episteme or universal head relation stand in for every nearby object. It is to give the ontic stable identity, state the smallest independently governed relation set needed by dependent use, single out an identity-bearing relation only when the subject's subject pattern does, and add RelationSignature declarations only where dependent uses need them.
+FPF needs a pattern for ontic introduction because many important ontology units require one exact identity rule and several direct relation patterns to remain coherent. The repair is not to make one record-shaped episteme or universal head relation stand in for every nearby object. It is to give the ontic stable identity, state the smallest independently governed relation set needed by dependent use, single out an identity-bearing relation only when the subject pattern does, and add RelationSignature declarations only where dependent uses need them.
 
 `U.Episteme` is the main stress case. C.2.1 identifies one episteme through claim content, exact EntityOfConcern, and effective reference scheme, while separate direct relations govern grounding and edition continuity. A `RelationSignature` declares reusable participant typing only when another use needs it. If a card is current, classify its actual use through `E.24:4.3a`; neither its layout nor its publication makes the episteme's claims true.
 

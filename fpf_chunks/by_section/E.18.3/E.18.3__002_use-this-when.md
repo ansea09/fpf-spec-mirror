@@ -6,12 +6,12 @@ section_id: "E.18.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__002_use-this-when.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:0 — Use This When"
-line_start: 111119
-line_end: 111132
+line_start: 110901
+line_end: 110912
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,6 +50,4 @@ Do not use this pattern merely because a visible record or description is a rout
 The first useful move is small and ordinary: name the concrete thing being transformed, mark two recognizable places or states on the flow card in domain language, state the proposed connection or guard, and ask which continuation depends on it. A useful result can be a provisional explanation that names the missing relation, fact, or constraint. It need not yet be asserted as a C.2.1 episteme, E.18 position mapping, or selected A.22 structure. If that explanation answers the current use, stop there.
 
 Only when the team must assert E.18.3 qualification, compare or publish the selected structure, or support a stronger downstream claim should it recover the A.22 identity, CGUS locus bindings and potential continuation rows, the E.18 or E.18.NET positions and bindings, obtaining relations, applied constraints, and current continuation judgements. Add replay fields, C.33 loss notes for a declared architecture use, publication material, or downstream assurance only when that named use needs them. Here `move` is Plain wording for the current action, not a universal kind or relation; a proposal, selection result, or formalized description does not establish that the proposed action was performed.
-
-**What changes in practice.** The practitioner stops asking whether a diagram “looks like a flow” and first names the concrete transformation subject, two recognizable places or states, the proposed relation or guard, and the smallest honest continuation question. Exact structure identity, E.18 or E.18.NET bindings, already-obtaining relations, and replay fields are added only when qualification, comparison, publication, or stronger reliance makes them material. A provisional explanation or later demonstration can guide attention without becoming the structure, a MethodDescription, a WorkPlan, or performed Work.
 

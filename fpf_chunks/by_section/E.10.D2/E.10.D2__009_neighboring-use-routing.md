@@ -6,33 +6,22 @@ section_id: "E.10.D2:8"
 section_title: "Neighboring use routing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__009_neighboring-use-routing.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:8 — Neighboring use routing"
-line_start: 101911
-line_end: 101977
+line_start: 101798
+line_end: 101864
 dependencies:
-  - "A.1.1"
-  - "A.10"
-  - "A.2.6"
-  - "A.3.2"
   - "A.7"
-  - "B.3"
   - "C.2.1"
   - "C.2.3"
-  - "C.29"
-  - "E.10"
   - "E.10.D1"
-  - "E.17"
-  - "E.17.0"
-  - "E.24.PUB"
   - "F.15"
   - "F.4"
   - "F.5"
   - "F.8"
   - "F.9"
-  - "G.11"
 keywords:
   - "DescriptionContext (legacy cue)"
   - "EntityOfConcern"
@@ -55,7 +44,7 @@ For one named describing use, state that the use selects one exact `U.Viewpoint`
 
 That selection:
 
-* does not acquire C.2.1 episteme identity;
+* does not change the C.2.1 identity of the episteme being read;
 * does not establish `EpistemeViewpointConformanceRelation`;
 * does not admit or remove same-individual `U.View` membership;
 * selects no receiving view and performs no A.6.3 viewing construction;

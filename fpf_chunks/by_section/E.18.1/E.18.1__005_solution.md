@@ -6,12 +6,12 @@ section_id: "E.18.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__005_solution.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:4 — Solution"
-line_start: 110380
-line_end: 110655
+line_start: 110166
+line_end: 110439
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -92,7 +92,7 @@ Choose the first of these three levels that lets the current reader act and any 
 
 Choose a higher level only when its transfer, audit, delayed-feedback, costly-reversal, automation, durable-reuse or explicit-structure need is present. More fields do not improve the subject result and do not substitute for applying the pattern whose Solution answers the question.
 
-**What is always needed, and what is optional.** The stable P2W core is only: one accepted problem-side claim; one receiving decision or use; one concrete relation-specific question; one pattern contribution per independent claim; the result or honest stop returned by that pattern; a split when several claims are current; and the smallest local return when a relied-on result changes.
+**Choose only the extension the receiving use needs.**
 
 | Material | Modularity status | Boundary |
 |---|---|---|
@@ -105,7 +105,7 @@ Choose a higher level only when its transfer, audit, delayed-feedback, costly-re
 
 No conditional extension may add a mandatory input to ordinary P2W use, change the kind or identity of a result returned by the cited pattern, or mutate the stable core. When an extension is not needed, omit it rather than filling its fields with generic placeholders.
 
-**Assurance scope by use.** For a materialized positive episteme, check the accepted ProblemCard edition, carried ClaimGraph slice, decision or use that relies on the result, effective ReferenceScheme, returned result kind and ref, the particular cited pattern contribution used, and carry-through rationale. Check a separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` only when the claim designates that object and its organization changes how the receiving claim is interpreted. For a stop use, check that no result was fabricated and that the cue and stop are stated. The episteme is about the accepted ProblemCard under C.2.1, not a P2W relation occurrence or `RelationSignature`. For practitioner guidance or conformance, verify that the mantra reaches one result or honest stop without making the episteme, structure, reader or checklist perform work. Pattern authoring or review additionally replays the cases, neighboring-pattern boundaries, checklist, and no-new-kind and non-procedural boundaries. None of these checks adds Work, transformation, evidence, gate, MethodDescription membership or downstream subject facts.
+**Assurance scope by use.** For a materialized positive episteme, check the accepted ProblemCard edition, carried ClaimGraph slice, decision or use that relies on the result, effective ReferenceScheme, returned result kind and ref, the particular cited pattern contribution used, and carry-through rationale. Check a separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` only when the claim designates that object and its organization changes how the receiving claim is interpreted. For a stop use, check that no result was fabricated and that the cue and stop are stated. The episteme is about the accepted ProblemCard under C.2.1, not a P2W relation occurrence or `RelationSignature`. For practitioner guidance or conformance, verify that the mantra reaches one result or honest stop without making the episteme, structure, reader or checklist perform work. None of these checks adds Work, transformation, evidence, gate, MethodDescription membership or downstream subject facts.
 
 #### E.18.1:4.0 - P2W result without a new relation species
 
@@ -121,7 +121,7 @@ A positive use closes only when the accepted card and carried slice remain curre
 
 Use P2W as a declarative interface from one accepted `ProblemCard@Context` claim to results or stops obtained by applying the patterns that answer its continuation questions. P2W preserves the carried claim and receiving use, states the concrete relation-specific question and its participants when relation-like, cites the applicable pattern, and keeps each result or honest stop on a separate continuation. It defines none of the selected relations or results; it cites rather than reproduces the neighbouring guidance.
 
-The table below is the complete P2W-local decision aid. It asks only what result or blocker the applicable pattern returned for this use; it does not copy that pattern's test, derivation, or admission method.
+Use the following questions to carry the result or blocker returned by the applicable pattern.
 
 | P2W-local question | Required interface result | P2W disposition |
 |---|---|---|
@@ -212,7 +212,7 @@ Open this didactic extension only for a fast DPF seed, and keep the source-use a
 
 If choosing a DPF, an access-only route, or stop must settle a downstream-used framework boundary, use `E.4.PFAD` to profile that framework-specific content in one `E.9` DRR; a cheap seed or route that settles no such boundary stops without that DRR. State each material initial pattern relation with the predicate that defines it, and use `E.4.PFR` only when a named maintenance use needs relation records. Using the `E.4.PFAD` profile adds no second decision or decision record.
 
-Use `E.8` for authoring, `E.21` for evaluation, `E.23` for improvement, and `G.11` for currentness or refresh. Keep the source result, selected answer and DRR, direct relation assertions or optional records, authored patterns, quality results, and currentness results separate. P2W preserves the carried claim only until the next concrete claim or relation-specific question is stated and its applicable pattern is selected.
+If the receiving use needs a way that the sources do not yet supply, develop it through `C.39`; for a framework contribution, use `E.4.CM` to develop the connected Methods and their explanation before allocating them to patterns. An adequate supplied way can be used directly. Use `E.8` for pattern authoring, `E.21` for evaluation, `E.23` for improvement, and `G.11` for currentness or refresh. Keep the source result, selected answer and DRR, direct relation assertions or optional records, authored patterns, quality results, and currentness results separate. P2W preserves the carried claim only until the next concrete claim or relation-specific question is stated and its applicable pattern is selected.
 
 **Cooling-module example.** `ProblemCard@Context PC-DEV-041` states that cheap generation produces many cooling-module layouts while fair problem framing and comparison remain weak. The carried claim is that the current candidate set retains maintainable low-energy variants until energy use, service access, manufacturability, thermal margin, and test cost are represented in the current characteristic and comparison relations. A `C.18` archive and front are current now. `A.19` defines the characteristic space and its comparability boundary; `A.19.CPM` comparison becomes current only when that characteristic space and comparator are current. The `G.5` selected-set result declaration remains stopped until that comparison and front are current; actual audience availability is a separate later question that uses `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability. An `E.16` generator boundary may separately bound search and test spending. Prototype observations enter through `A.10`; assurance-sensitive confidence use enters through `B.3`. A `C.30` architecture-candidate relation appears only for retained layouts that change selected structure. No `U.WorkPlan` has yet been produced under `A.15.2`, and no dated `U.Work` occurrence has yet been admitted under `A.15.1`. Thermal and serviceability measurements can feed but cannot create three separate results: applying `A.15.5` may return `WorkEntryReadiness@Context` for one named intended-work concern; applying `A.21` may return a `GateDecision` only for one current `OperationalGate(profile)` and its declared checks; applying `A.2.8.PER` may return one named non-prohibition, granted-permission, permission-exercise, non-violation, or permission-conflict result with its required participants and basis. An actual release action is an `A.15.1` `U.Work` occurrence; a further claim that a subject was released needs its named subject predicate and participants. No predicate definition or occurrence rule for that release relation is current in this example, so an `approved`, `authorized`, or `released` cue stops as `missing-governor` for that attempted use rather than inheriting the measurement, readiness, or gate result. When descriptors, tests, competitor information, or cited publication editions change, reopen the currentness-dependent continuations under `G.11`.
 
@@ -220,7 +220,7 @@ The current next question in this example is: which retained layouts belong in t
 
 #### E.18.1:4.1c - Conditional naming and publication extension
 
-Ordinary P2W use skips this extension. Open it only when a pattern author, publisher, trainer, or tool builder must cite the already defined practice outside its local use. The header's Tech/Plain pair identifies this pattern for readers: `ProblemToWorkCarryThrough` / *problem-to-work carry-through*. It does not classify a `U.Method`, `U.MethodDescription`, relation, Work or result. The selected name keeps the work-facing receiving use visible without implying a generic value endpoint, a linear continuation or path, unchanged preservation, or a principle-only source; it is the widened successor to *Principles-to-Work Carry-Through*. If MethodDescription membership is actually needed, first identify one C.2.1 episteme, require one independently admitted `U.Method` as its exact EntityOfConcern, and apply the A.3.2 substantive way-of-doing claim threshold.
+Ordinary P2W use skips this extension. Open it only when a pattern author, publisher, trainer, or tool builder must cite the already defined practice outside its local use. The header's Tech/Plain pair identifies this pattern for readers: `ProblemToWorkCarryThrough` / *problem-to-work carry-through*. It does not classify a `U.Method`, `U.MethodDescription`, relation, Work or result. If MethodDescription membership is actually needed, first identify one C.2.1 episteme, require one independently admitted `U.Method` as its exact EntityOfConcern, and apply the A.3.2 substantive way-of-doing claim threshold.
 
 The compact positive, stop and replay shapes in `4.1` and `4.8` are local ClaimContent uses of ordinary C.2.1 epistemes. Their field labels are local phrases, not reusable U-kinds, NameCards or term rows. Before any external citation or tool-interface reuse, F.8 decides whether a name is needed; F.18 settles the name only for that exact governed value and use; F.17 publishes the exact scheme-local sense and source basis. F.9 opens only if two independently identified scheme-sense cells require an exact Bridge. No Bridge is current merely because two readers use similar P2W wording.
 
@@ -253,8 +253,6 @@ P2W carries a returned value or stop; it does not restate the neighboring patter
 For every other exceptional object, state the relation-specific question and consult the canonical map in Relations. A label, diagram, note, plan, trace, or familiar noun can trigger that question but cannot answer it.
 
 #### E.18.1:4.4 - Boundary and relation discipline
-
-P2W does not repeat the boundary rules of neighbouring patterns. Its local rule is simple: carry only the accepted problem-side distinction, state the next relation and participants, apply the pattern whose Solution answers that question, and continue only with its result or honest stop. Split several relation claims; if no relation can be stated, retain the cue and stop.
 
 A neighboring pattern's detail appears outside Relations only when one local discriminator in `4.3` or one worked case needs it to choose, split, or stop. Section `4.6` is the plain branch rule; Relations is the only question-to-pattern map. Neither place restates a neighbour's occurrence basis, recovery algorithm, production criterion, derivation method, or admission law.
 

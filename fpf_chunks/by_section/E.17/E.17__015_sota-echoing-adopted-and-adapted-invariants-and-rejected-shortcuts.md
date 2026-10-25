@@ -6,12 +6,12 @@ section_id: "E.17:12"
 section_title: "SoTA-Echoing: Adopted And Adapted Invariants And Rejected Shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__015_sota-echoing-adopted-and-adapted-invariants-and-rejected-shortcuts.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:12 — SoTA-Echoing: Adopted And Adapted Invariants And Rejected Shortcuts"
-line_start: 107390
-line_end: 107402
+line_start: 107246
+line_end: 107256
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -52,6 +52,4 @@ keywords:
 | Pickering, Gibbons, and Wu, *Profunctor Optics: Modular Data Accessors* (ICFP 2017; arXiv [`1703.10857`](https://arxiv.org/abs/1703.10857)), and Clarke et al., *Profunctor Optics, a Categorical Update* (2020; arXiv [`2001.07488`](https://arxiv.org/abs/2001.07488)), used as a research/theory lineage rather than downstream-reliance evidence, provide the concrete compositional-optics source idea. | MVPK adopts only local publication-composition tests: identity, composition witness, no-new-claim diff, monotone promotion, and scope non-widening. | Adopt the five-test publication-composition bundle; reject optics vocabulary as proof by analogy or as a replacement for local witnesses. |
 | **Local design rationale, not external SoTA evidence:** current FPF `C.16` defines characteristics, scales, measurement procedures, and result interpretation; `A.19` defines admitted `U.CharacteristicSpace` values and their slots. E.17 reuses those definitions because omitting a material unit, scale, reference plane, or edition can change the value read from a publication form. | A numeric or comparable value exposed through a publication form retains the characteristic reference and every pin that changes interpretation; focused test: remove each pin in turn and reject the form for the bounded use only when the interpreted value changes or becomes unresolved. | Adopt the existing characteristic and scale discipline; reject readable numbers and a local PC label as self-validating values or new kinds. |
 | **Local design rationale, not external SoTA evidence:** current FPF `E.24.PUB` separates selected episteme, publication form, carrier, bounded use, and publication occurrence; `A.10` supplies source-to-use evidence/provenance paths and bounded reliance, `G.6` supplies addressable path citation, slicing, and local refresh, and `G.11` supplies currentness. E.17 combines only the references needed to stop a reader from mistaking an envelope or carrier for the carried claim. | A publication form may expose an exchange envelope, carrier, evidence pointer, or provenance pointer, but the source or evidence relation remains separately recoverable; focused test: removing the envelope leaves the source claim unchanged, while removing the source or evidence relation blocks only the use that relied on it. | Adopt the existing object separation and source-return discipline; reject envelope presence as semantic authority, evidence sufficiency, performed work, or gate passage. |
-
-(External references are retained only for the payload they contribute; named local rationales are deductions from current FPF patterns rather than claims of external SoTA support. MVPK remains notation-agnostic.)
 

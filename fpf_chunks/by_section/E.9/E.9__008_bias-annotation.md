@@ -6,12 +6,12 @@ section_id: "E.9:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__008_bias-annotation.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.9 — Design-Rationale Record (DRR) for FPF Content Decisions"
   - "E.9:6 — Bias-Annotation"
-line_start: 97781
-line_end: 97792
+line_start: 97716
+line_end: 97727
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,7 +41,7 @@ keywords:
 | Lens | Bias risk in DRR use | Mitigation in this pattern |
 |---|---|---|
 | **Gov** | The DRR can become a bureaucratic approval ritual rather than a decision-rationale record. | Keep `CC-DRR.5` for lightweight editorial changes and require richer DRRs only when the content decision is semantically load-bearing. |
-| **Arch** | A rich DRR can become a shadow specification that competes with the selected Core patterns and selected non-pattern FPF kind-reference pairs. | Treat the DRR as a temporary convergence aid; enduring content is distributed into the selected Core patterns and selected non-pattern FPF kind-reference pairs. |
+| **Arch** | A rich DRR can become a shadow specification that competes with the selected Core loci. | Treat the DRR as a temporary convergence aid; enduring content is distributed into the selected Core loci. |
 | **Onto/Epist** | Authors can mix content decisions, evidence paths, source-use grounds, process state, and provenance into one ambiguous object. | Require exact decision grounds and selected-answer boundaries while excluding process-order state, baton, packet, and mutable status state from the DRR. |
 | **Prag** | The method adds work before editing Core text. | Allow pointer-based DRRs and require only the selected non-pattern FPF kind-reference pairs materially needed for the selected decision. |
 | **Did** | Rationale can become too internal for later authors to use. | Distill stable rationale, consequences, anti-cases, and SoTA implications into informative pattern sections when the Core text is updated. |

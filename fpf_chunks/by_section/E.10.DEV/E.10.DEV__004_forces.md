@@ -6,12 +6,12 @@ section_id: "E.10.DEV:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__004_forces.md"
-commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:3 — Forces"
-line_start: 100400
-line_end: 100410
+line_start: 100326
+line_end: 100336
 dependencies:
   - "A.15"
   - "A.2.2"
@@ -40,8 +40,8 @@ keywords:
 | --- | --- |
 | Familiar umbrella language | Practitioners need ordinary words such as development and evolution. |
 | Unlike subjects | Holder continuity, population membership, model identity, archive retention, and programme order support different claims. |
-| Positive first use | A warning without a route leaves the reader to rediscover the same neighborhood. |
+| Positive first use | A warning without a route leaves the subject question unresolved. |
 | Domain ownership | Mechanisms, interventions, evidence, and safety remain with the owning FPF or DPF pattern. |
 | Light burden | A clear sentence should close locally without a mandatory card or record. |
-| Honest gaps | A missing non-cultural population owner is better than a false cultural or one-holder route. |
+| Honest gaps | A missing rule for a non-cultural population leaves that claim open. |
 
