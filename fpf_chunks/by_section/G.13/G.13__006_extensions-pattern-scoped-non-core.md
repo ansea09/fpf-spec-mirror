@@ -6,12 +6,12 @@ section_id: "G.13:5"
 section_title: "Extensions (pattern‑scoped; non‑core)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__006_extensions-pattern-scoped-non-core.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:5 — Extensions (pattern‑scoped; non‑core)"
-line_start: 132354
-line_end: 132418
+line_start: 132243
+line_end: 132307
 dependencies:
   - "A.18"
   - "A.19"
@@ -67,7 +67,7 @@ keywords:
 **RSCRTriggerSetIds / RSCRTriggerKindIds:** `∅` *(covered by `G.13:4.1`)*
 **Notes (seed; wiring‑only):**
 
-* Provider‑specific ingestion choices (e.g., OpenAlex‑class, Crossref‑class, ORKG‑class, discipline repositories) **must not** become Part‑G‑wide norms in Phase‑2. This module only records which provider cards exist and which editions/policies are pinned.
+* Provider‑specific ingestion choices (e.g., OpenAlex‑class, Crossref‑class, ORKG‑class, discipline repositories) **must not** become Part-G-wide norms. This module only records which provider cards exist and which editions/policies are pinned.
 
 #### G.13:5.2 - `G.13:Ext.EmbeddingBasedAlignment` *(Phase‑3 seed; method‑specific wiring stub)*
 
@@ -85,7 +85,7 @@ keywords:
 * `EvidenceGraphId?` *(when evidence paths for alignment decisions are published)*
 
 **RSCRTriggerSetIds / RSCRTriggerKindIds:** `∅` *(covered by `G.13:4.1`)*
-**Notes (wiring‑only; post‑2015 practice orientation):**
+**Notes (wiring-only):**
 
 * “Embedding‑based” techniques are treated as **declared transforms** constrained by `ScaleEmbeddingSpec` and/or `NormalizationMethod` references, rather than as implicit semantics.
 * The module binds editions and policies; it does not define what is “similar enough”.

@@ -6,12 +6,12 @@ section_id: "B.1.4:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:2 — Solution"
-line_start: 42502
-line_end: 42564
+line_start: 42480
+line_end: 42542
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -69,7 +69,7 @@ ContextTemporalAggregation@Context:
 
 `stopOrReturnCondition` states when to stop aggregating or apply another pattern; `strongerSourceReturnCondition` states the condition for a stronger claim. Include `nonAdmissibleOverread?` only when it passes F.19's plausible-reader test. `groundedNonAdmissibleOverread?` is an alias for that same optional value.
 
-Use the record to describe the exact aggregation claim and its independently established relations. The record is not itself the relation or a new `U.Level`, `U.Boundary`, `U.Interaction`, or generic process object.
+Use the record to describe the aggregation claim and its independently established relations. Keeping that description distinct from the relations lets a reader inspect what has actually been established.
 
 #### B.1.4:2.1 - Two Aggregation Modes
 

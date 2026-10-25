@@ -6,12 +6,12 @@ section_id: "B.1.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:intro — Intro"
-line_start: 42466
-line_end: 42479
+line_start: 42444
+line_end: 42457
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -44,7 +44,7 @@ keywords:
 
 **Not this pattern when.** If the question is ordinary part-whole or collection admission, use `B.1`, `A.14`, and `C.13`. If it is episteme identity or historical edition continuity, use `C.2.1` before any aggregation. If the question is the method as such, method description, work plan, dated work occurrence, or Work temporal part or episode, use `A.3.1`, `A.3.2`, `A.15.2`, or `A.15.1`. If the question is work-resource accounting, use `B.1.6`. If the question is changed identity, use the pattern that defines the subject's identity or change; for a clear whole-reidentification question, use `B.2` directly to test whether the existing whole suffices or a new whole must be reidentified. Use `B.2.P` first only when emergence-family wording hides the claim kind. If the question is temporal adequacy of a claim, use `C.27`.
 
-**What goes wrong if missed.** Order, phase, context, or time-window wording becomes ordinary parthood, method order, performed work, evidence currentness, or whole reidentification by label.
+**What goes wrong if missed.** A reader may mistake an ordering for parthood, a planned sequence for performed work, a phase for a new whole, or temporal coverage for evidence currentness.
 
 **What this buys.** The practitioner can aggregate order-sensitive and temporal material while keeping method, work, transformation, work-resource, temporal-adequacy, and MHT claims with the patterns that define or test them.
 

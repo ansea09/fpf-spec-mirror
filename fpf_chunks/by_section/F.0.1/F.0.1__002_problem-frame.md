@@ -6,12 +6,12 @@ section_id: "F.0.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__002_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:1 — Problem frame"
-line_start: 117113
-line_end: 117124
+line_start: 117039
+line_end: 117050
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -37,7 +37,7 @@ Use `F.0.1` when a word in an already selected source may be read in more than o
 
 The first useful result is one source-backed meaning statement. For example: “In OMG BPMN 2.0.2 (January 2014), *Process* here means the designed sequence or flow of Activities in an organization; this reading comes from §10.1.” If that answers the question, use it and stop.
 
-**What changes in practice.** A reader can inspect the source of the meaning without first creating a semantic container, record, relation, or assurance package. A stronger formal result is added only for a named later use.
+**What changes in practice.** The meaning and its source are inspectable from one statement. Add a formal result only when a named receiving use needs it.
 
 **Not this pattern when.** Use an already clear source claim directly when no lexical distinction changes the work. Use `F.1` when the open question is which sources can change the answer, `F.0.2` when several source ontologies must be compared for one receiving claim, and `F.18` when the problem is selecting an FPF term after the subject is settled. When the problem is not lexical, use the rule that defines or tests the exact entity, relation, claim, measurement, permission, or Work question. Use `F.9` only when an actual relation between already recovered source-local meanings is current.
 

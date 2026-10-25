@@ -6,12 +6,12 @@ section_id: "A.19.SPR:6"
 section_title: "Conformance checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__008_conformance-checks.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:6 — Conformance checks"
-line_start: 35791
-line_end: 35805
+line_start: 35777
+line_end: 35791
 dependencies:
   - "A.10"
   - "A.16"

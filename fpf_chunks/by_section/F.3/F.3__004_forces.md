@@ -6,12 +6,12 @@ section_id: "F.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:3 — Forces"
-line_start: 118650
-line_end: 118658
+line_start: 118576
+line_end: 118584
 dependencies:
   - "A.11"
   - "A.7"
@@ -39,5 +39,5 @@ keywords:
 | **Parsimony vs fidelity** | Few claims are easier to teach; too few erase distinctions the source relies on. |
 | **Usage vs definition** | Recover how the source uses an expression, not an imported dictionary meaning. |
 | **Labels vs idiom** | Tech stays source-faithful while Plain helps a newcomer without widening the claim. |
-| **Stability vs revision** | Local meanings should remain citable yet change when the source evidence really changes. |
+| **Stability vs revision** | Local meanings should remain citable yet change when the source evidence changes. |
 

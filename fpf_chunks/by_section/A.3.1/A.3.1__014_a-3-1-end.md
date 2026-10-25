@@ -6,12 +6,12 @@ section_id: "A.3.1:End"
 section_title: "A.3.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__014_a-3-1-end.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:End — A.3.1:End"
-line_start: 9765
-line_end: 9766
+line_start: 9751
+line_end: 9752
 dependencies:
   - "A.1"
   - "A.1.1"

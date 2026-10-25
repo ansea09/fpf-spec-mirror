@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.RS.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
-line_start: 43285
-line_end: 43451
+line_start: 43259
+line_end: 43425
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -120,7 +120,7 @@ An allowed reversal of two equal-priority records with different arrival times e
 
 #### B.1.5.RS:5.2 - A bounded estimate and a threshold decision
 
-A constituent estimates a quantity with absolute error at most 2. A receiving whole only needs to distinguish alternatives separated by more than 4; the bound can support their ordering when both estimates satisfy it.
+A constituent estimates a quantity with absolute error at most 2. A receiving whole can establish a strict ordering between two alternatives when their estimated values differ by more than 4 and both estimates satisfy that bound.
 
 Another whole must decide whether the quantity exceeds 100. An estimate of 99 is insufficient: the admitted interval is 97 to 101 and crosses the threshold. A more accurate estimate or another decision rule is needed for that case. At an estimate of 95, the same error bound puts the whole interval below 100 and can settle that particular decision.
 

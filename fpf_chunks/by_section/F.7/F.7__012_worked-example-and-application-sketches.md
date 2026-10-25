@@ -6,12 +6,12 @@ section_id: "F.7:11"
 section_title: "Worked example and application sketches"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__012_worked-example-and-application-sketches.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:11 — Worked example and application sketches"
-line_start: 120006
-line_end: 120037
+line_start: 119930
+line_end: 119961
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -59,7 +59,7 @@ Performed-Work attribution remains an A.15.1 and F.6 claim about actual Work and
 
 | Comparison or use | Exact entries | Relation | Boundary | Basis | Conclusion |
 | --- | --- | --- | --- | --- | --- |
-| Judge an observed service characteristic against a target | SOSA observation and its result; ISO quantity value if used; ITIL service target | Measurement, scale, and unit relations; F.9 only for a genuine local-meaning relation | Composite KPI, sampling, and unit limits | C.16, A.10, B.3, and F.12 | Compare only the named characteristic, population, and window with adequate evidence. |
+| Judge an observed service characteristic against a target | SOSA observation and its result; ISO quantity value if used; ITIL service target | Measurement, scale, and unit relations; F.9 only for a relation between source-local meanings | Composite KPI, sampling, and unit limits | C.16, A.10, B.3, and F.12 | Compare only the named characteristic, population, and window with adequate evidence. |
 
 #### F.7:11.4 - Class inclusion and FCA order
 

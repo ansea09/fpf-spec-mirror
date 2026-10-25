@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "F.13"
 pattern_title: "Lexical Continuity & Deprecation"
 section_id: "F.13:6"
-section_title: "Solution — Continuity, not “registries”"
+section_title: "Solution — Continuity"
 source_path: "FPF-Spec.md"
-output_path: "by_section/F.13/F.13__007_solution-continuity-not-registries.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+output_path: "by_section/F.13/F.13__007_solution-continuity.md"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
-  - "F.13:6 — Solution — Continuity, not “registries”"
-line_start: 122195
-line_end: 122222
+  - "F.13:6 — Solution — Continuity"
+line_start: 122118
+line_end: 122145
 dependencies:
   - "F.1"
   - "F.17"
@@ -32,7 +32,7 @@ keywords:
   - "splitting and merging labels"
 ---
 
-### F.13:6 - Solution — Continuity, not “registries”
+### F.13:6 - Solution — Continuity
 
 Use the least-committing continuity relation that tells the truth after recovering the subject's identity or change under its own rule.
 

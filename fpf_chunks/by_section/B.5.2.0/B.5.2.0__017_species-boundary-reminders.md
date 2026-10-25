@@ -6,12 +6,12 @@ section_id: "B.5.2.0:15"
 section_title: "Species boundary reminders"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__017_species-boundary-reminders.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:15 — Species boundary reminders"
-line_start: 50434
-line_end: 50441
+line_start: 50362
+line_end: 50369
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -38,5 +38,5 @@ Use anomaly species for an explanatory question arising from a failure, contradi
 
 For the four specialization-sensitive species, use the explanatory questions and conditions in §4.1.1. Questions asking which option to acquire, which probe to perform or which substrate to try follow the direct choice routes in §4.3.
 
-Cue-derived prompt entries should stay prompt-headed species rather than projection-headed aliases. The load-bearing question is the prompt kind itself, not one package-local naming trick.
+Name each cue-derived entry as a prompt species, preserving the explanatory question it introduces.
 

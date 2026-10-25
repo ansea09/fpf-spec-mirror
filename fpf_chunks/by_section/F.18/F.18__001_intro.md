@@ -6,12 +6,12 @@ section_id: "F.18:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:intro — Intro"
-line_start: 124533
-line_end: 124536
+line_start: 124455
+line_end: 124458
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -45,5 +45,5 @@ keywords:
 
 ## F.18 - Local-First Unification Naming Protocol
 > **Status:** Stable
-*Pattern state: stable pattern. Audience: engineer-managers, lead architects, ontology editors, and authors who must make one name reusable without turning that name into a hidden ontology.*
+*For practitioners who need a durable reusable name for an already governed value.*
 

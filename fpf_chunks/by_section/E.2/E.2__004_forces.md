@@ -6,12 +6,12 @@ section_id: "E.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "E.2 — FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)"
   - "E.2:3 — Forces"
-line_start: 91935
-line_end: 91943
+line_start: 91861
+line_end: 91869
 dependencies:
   - "A.10"
   - "A.15.1"

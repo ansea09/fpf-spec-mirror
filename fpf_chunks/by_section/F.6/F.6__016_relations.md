@@ -6,12 +6,12 @@ section_id: "F.6:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__016_relations.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:14 — Relations"
-line_start: 119842
-line_end: 119849
+line_start: 119767
+line_end: 119774
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,7 +49,7 @@ keywords:
 
 ### F.6:14 - Relations
 
-**Builds on:** `A.6.REL` for relation obtaining and occurrence identity; `A.2` for system-role kinds; `A.2.1` for direct assignment species; and `A.15.1` for dated Work.
+**Builds on:** `A.6.REL` for relation obtaining and occurrence identity; `A.2` for system-role kinds; `A.2.1` for direct assignment species; `A.13` for the actual-performer basis; and `A.15.1` for dated Work.
 
 **Uses when current:** `A.2.5` for assignment state; `A.2.2` for capability; `A.3` and `A.15` for Method and Work alignment; `A.10` for evidence; `A.15.4` for encountered-material reliance; `C.3.3`, `F.9`, and `A.6.9` for cross-context use; and `A.1.1` only when a selected model-use structure changes the receiving interpretation.
 

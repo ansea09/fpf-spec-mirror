@@ -6,12 +6,12 @@ section_id: "F.15:8"
 section_title: "Static conformance rules for local material"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__010_static-conformance-rules-for-local-material.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:8 — Static conformance rules for local material"
-line_start: 122904
-line_end: 122923
+line_start: 122827
+line_end: 122846
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -35,6 +35,7 @@ dependencies:
   - "F.14"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "F.4"
   - "F.6"
   - "F.8"
@@ -60,7 +61,7 @@ keywords:
 Every selected member resolves to one exact governed value, occurrence, episteme, or by-value scheme at one exact version; the receiving use and triggered rule refs are explicit. Scope membership is selection, not evidence or conformance.
 
 **SCR-F15-S2 (Local-sense basis currentness).**
-Each relied-on local-sense claim names its effective ReferenceScheme and exact expression. If a `LocalSenseBasisRelation` is cited, its exact occurrence and separate description resolve under F.17; a source title, carrier, NameCard, or row does not replace it.
+Each relied-on local-sense claim names its effective ReferenceScheme and exact expression. If a `LocalSenseBasisRelation` is cited, resolve its exact occurrence under F.17 and any description as a separate episteme. A source title, carrier, NameCard, or row does not replace the relation.
 
 **SCR-F15-S3 (SchemeSenseCell identity).**
 Each cell is the exact F.17 value `<ReferenceScheme by value, LocalExpression, LocalSenseClaim>`. No cross-local items, description fields, source labels, or selected Structures are merged into one cell.
@@ -69,7 +70,7 @@ Each cell is the exact F.17 value `<ReferenceScheme by value, LocalExpression, L
 When Tech and Plain designations are current, both are the exact expressions selected by the same current F.18 NameCard for the same governed value and admitted use. Register difference does not create another value or sense.
 
 **SCR-F15-S5 (Minimal gloss).**
-A local gloss states only the needed sense and blocked use. It does not smuggle behavior, permission, evidence, source authority, publication status, global sameness, or a check result.
+A local gloss states the needed sense and includes a blocked use only when F.19's grounded-contribution test requires it. It does not smuggle behavior, permission, evidence, source authority, publication status, global sameness, or a check result.
 
 **SCR-F15-S6 (Local reuse before Bridge).**
 Another expression under the same `<ReferenceScheme, LocalSenseClaim>` projection is a designation or alias question. Different projections open the F.9 question only when a named semantic-correspondence use is current; scheme difference alone proves no Bridge.

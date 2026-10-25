@@ -6,12 +6,12 @@ section_id: "B.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:4 — Solution"
-line_start: 45375
-line_end: 45497
+line_start: 45326
+line_end: 45448
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -78,7 +78,7 @@ Add a claim scope, condition set, interpretation scheme, audience, or time windo
 
 Add assessment Work, performer, Method, application bindings, witnesses, or a reusable record only when the receiving use depends on competence, conflict of interest, timing, reproducibility, contest, redress, or later replay. These identities are never mandatory merely because B.3 is used.
 
-An optional assurance note may cite the result and its basis. B.3 does not define a reusable `RelianceSafetyCase`, a safety authority, or a general contest-and-redress profile. If such a reusable object is needed, it requires its own problem, ontology, sources, minimum output, and direct domain boundaries.
+An optional assurance note may cite the result and its basis. Safety authority, contest, and redress remain governed by their direct domain rules, as described in §4.7.
 
 #### B.3:4.3 - Name each characteristic by its bearer and scale
 
@@ -96,7 +96,7 @@ AssuranceCharacteristicResult:
 
 One characteristic name must not silently change meaning between subjects. System reliability, replication quality, evidential support, proof inspectability, and relation congruence are different characteristics even when a local source labels several of them `R` or `CL`.
 
-The legacy letters `F`, `G`, `R`, and `CL` may appear inside a declared local scheme, but B.3 assigns them no universal cross-domain meaning:
+The letters `F`, `G`, `R`, and `CL` may appear inside a declared local scheme, but B.3 assigns them no universal cross-domain meaning:
 
 - **Formality or inspectability.** Formal structure can make assumptions and inference steps easier to check. It raises assurance only when the named argument explains which uncertainty or verification need it closes. Making a wrong model proof-grade does not improve truth or empirical adequacy.
 - **Claim scope.** `U.ClaimScope` stays an A.2.6 value. It is not a quality coordinate. Widening or narrowing scope changes the claim and its applicable use under the declared scope rules.
@@ -132,7 +132,7 @@ Do not select the replay path merely because the use is important. Importance ma
 
 #### B.3:4.6 - Keep visible authority outside the result
 
-A badge, score, dashboard tile, credential display, provenance mark, model card, datasheet, data card, assurance document, attestation, generated confidence phrase, or publication form can be a cue, source, evidence item, or representation. It contributes to assurance only through an exact claim and basis relation used by the argument.
+A visible artifact, such as an attestation or dashboard tile, contributes to assurance only through a claim and basis relation used by the argument. Establish whether the artifact supplies a cue, source, evidence item, or representation for that use.
 
 If the visible item only reports a status, gate decision, permission, warning, or source location, use its direct pattern and produce no B.3 result. If an assurance claim is current, cite the item only for the property it actually establishes. A valid signature or provenance chain can establish origin and integrity without establishing safety, truth, compliance, or readiness.
 

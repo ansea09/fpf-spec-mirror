@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__014_relations.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:12 — Relations"
-line_start: 11152
-line_end: 11160
+line_start: 11138
+line_end: 11146
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"

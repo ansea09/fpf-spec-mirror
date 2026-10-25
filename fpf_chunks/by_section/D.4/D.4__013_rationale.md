@@ -6,12 +6,12 @@ section_id: "D.4:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__013_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:9 — Rationale"
-line_start: 91585
-line_end: 91590
+line_start: 91513
+line_end: 91516
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -34,7 +34,5 @@ keywords:
 
 ### D.4:9 - Rationale
 
-`D.4` exists because an inspectable ethical conflict still needs a bounded use. Some uses stop work. Some demand evidence. Some return to causal, assurance, or architecture patterns. Some proceed under an accepted residual with named responsibility and return conditions. Without this pattern, teams either freeze because conflict exists or move too fast because the conflict was mapped once.
-
-The pattern keeps refusal, evidence demand, and residual acceptance visible as ordinary outcomes. It also prevents formulas, assurance labels, architecture residual repairs, or causal claims from silently becoming moral authorization.
+Recognizing a conflict leaves a practical question: what can be done under the stated value premises and available conditions? Developing alternatives can change the means that created the conflict, while comparison can justify a bounded recommendation or show why the choice remains unresolved.
 

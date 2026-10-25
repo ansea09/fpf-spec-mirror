@@ -6,12 +6,12 @@ section_id: "B.4.1:13"
 section_title: "Worked Route Sets"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__014_worked-route-sets.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:13 — Worked Route Sets"
-line_start: 46574
-line_end: 46599
+line_start: 46513
+line_end: 46538
 dependencies:
   - "A.15"
   - "A.16"
@@ -58,5 +58,5 @@ This is admissible only if the route rationale makes the plurality explicit rath
 It is invalid to treat a routed cue set as if it were already a hypothesis, a gate, or a work plan. The route-bearing publication form records candidate continuations; the applicable subject pattern governs the downstream result.
 
 #### B.4.1:13.4 - Specialization-route and nonhuman-utility split
-A routed cue set for a new task family may admissibly keep `ProblemAbductionRoute`, `TaskFamilySpecializationRoute`, and `NonHumanUtilityRoute` live together. The point is to preserve the declared task family, utility target, current budget window, missing discriminator, and possible corridor-entry load without laundering those routes into a premature prompt, selector, or policy choice.
+A routed cue set for a new task family may admissibly keep `ProblemAbductionRoute`, `TaskFamilySpecializationRoute`, and `NonHumanUtilityRoute` live together. The point is to preserve the declared task family, utility target, current budget window, missing discriminator, and possible corridor-entry load without presenting those candidates as an already justified prompt, selector, or policy choice.
 

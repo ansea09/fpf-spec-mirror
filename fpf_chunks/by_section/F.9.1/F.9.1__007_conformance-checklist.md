@@ -6,12 +6,12 @@ section_id: "F.9.1:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__007_conformance-checklist.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:6 — Conformance checklist"
-line_start: 121283
-line_end: 121295
+line_start: 121206
+line_end: 121218
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
@@ -39,7 +39,7 @@ keywords:
 1. One exact F.9 Bridge obtains before the stance note is cited.
 2. One separately constituted bounded-use claim names the proposed use, direction, correspondence rule, tolerated loss, polarity, and effective scheme.
 3. The stance note is a separate C.2.1 episteme whose EntityOfConcern is that exact bounded-use claim.
-4. The note states a plain reading and nearest likely overread; a stance token is optional.
+4. The note states a plain reading; it includes a rejected overread only when F.19's grounded-contribution test requires it. A stance token is optional.
 5. The stance changes neither Bridge kind nor Bridge identity, claim identity or polarity, reliance, authorization, nor any downstream occurrence.
 6. A Card is optional packaging, not a prerequisite or source of truth.
 7. `CL`, observed loss, permitted loss, reliance, and stance remain distinct.

@@ -6,12 +6,12 @@ section_id: "D.4:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__012_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:7 — Consequences"
-line_start: 91581
-line_end: 91584
+line_start: 91509
+line_end: 91512
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -34,5 +34,5 @@ keywords:
 
 ### D.4:7 - Consequences
 
-This pattern makes ethical action reviewable without pretending that every conflict has a clean optimum. It preserves refusal, evidence demand, and residual acceptance as first-class outcomes. It also prevents architecture, assurance, or causal evidence from quietly becoming moral permission.
+A recommendation can be reviewed against its value premises, alternatives and remaining concerns. Refusal, a justified evidence request and acceptance of an explicit residual remain possible outcomes.
 

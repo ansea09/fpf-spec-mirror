@@ -6,12 +6,12 @@ section_id: "C.28.CM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__008_conformance-checklist.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:7 — Conformance Checklist"
-line_start: 68759
-line_end: 68769
+line_start: 68689
+line_end: 68699
 dependencies:
   - "A.15.9"
   - "B.5.2"

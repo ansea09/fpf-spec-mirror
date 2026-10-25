@@ -6,12 +6,12 @@ section_id: "B.1.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__002_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:1 — Problem Frame"
-line_start: 42688
-line_end: 42733
+line_start: 42664
+line_end: 42709
 dependencies:
   - "A.1"
   - "A.15"
@@ -69,20 +69,20 @@ Use this pattern when a project must decide whether several recovered methods co
 
 Typical moments:
 
-- a procedure, workflow, algorithm, pipeline, proof route, clinical protocol, manufacturing recipe, inference pipeline, or operational playbook has named steps or branches;
+- a procedure, algorithm, or protocol has named steps or branches;
 - changing the order of two candidate submethods changes the result or the admissible conditions of use;
 - a diagram or code file looks like a method, but it may be only a method description, a work plan, a dated work trace, a selector registry, or a mathematical lens;
 - a larger method must expose some interactions at its boundary while hiding internal steps;
 - assurance needs to know which joins, adapters, cutsets, or exposed interfaces make the composite method reliable enough to enact.
 - a source presents Methods as a first–then list even though representative Work may also require several of them to contribute at the same time.
 
-**Primary EntityOfConcern.** The EntityOfConcern is one exact candidate or composite `U.Method`, already identified under A.3.1. The proposition that exact part Methods and whole-forming facts qualify it as composite is separately governed claim content. A separately identified C.2.1 episteme may carry that proposition in its ClaimGraph; the episteme then has the exact candidate Method as its EntityOfConcern under its effective ReferenceScheme. The proposition does not become the episteme.
+**Primary EntityOfConcern.** The EntityOfConcern is one exact candidate or composite `U.Method`, already identified under A.3.1. The proposition that exact part Methods and whole-forming facts qualify it as composite is separately governed claim content. A separately identified C.2.1 episteme may carry that proposition in its ClaimGraph; the episteme then has the exact candidate Method as its EntityOfConcern under its effective ReferenceScheme.
 
 **First useful move.** For each apparent step or branch, recover the governed object before composing anything: `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, an A.22-selected `U.Structure`, method-family registry or selector outcome, mathematical lens, mechanism, formal substrate, or quoted wording that does not yet carry a method claim.
 
 **What goes wrong if missed.** A flowchart becomes the method, a plan item becomes a submethod, an event log becomes proof that a method was enacted, an order edge becomes a part, or a registry of alternatives is treated as one composed method. Then work starts from a description or label whose method identity, joins, interfaces, and failure conditions were never recovered.
 
-**What this buys.** The project can test whether an already identified candidate `U.Method` is composite and can state the needed part, order, join, interface, and identity facts without turning every useful sentence into a relation kind. If that qualification fails, the project still has a useful lower object: an A.22-selected `U.Structure`, description, plan, work occurrence, lens, selector result, or `A.15.4` appearance-based reliance repair request.
+**What this buys.** The project can test whether an already identified candidate `U.Method` is composite and state the part, order, join, interface, and identity facts needed for that claim. If qualification fails, another useful result may remain, such as a description, plan, selected structure, or selector result, under its own pattern. Use `A.15.4` when the failed qualification reveals reliance on appearance.
 
 **Not this pattern when.**
 
@@ -107,5 +107,5 @@ and what whole-level commitments let a practitioner identify, reidentify, and en
 
 The whole method is not the diagram, code, schedule, event log, card, or work history that may describe, plan, record, or evidence it. Work enacts the method; the method does not perform work. An A.22-selected `U.Structure` may organize several methods and obtaining relations for one use without constructing another method.
 
-`Gamma_method` is the name for this method-composition discipline. It is not a new root U-kind, not a workflow notation, not a generic container, not a resource-accounting operator, and not a substitute for `U.Work`.
+`Gamma_method` names this method-composition discipline. Use the patterns above for related objects and B.1.6 for resource accounting.
 

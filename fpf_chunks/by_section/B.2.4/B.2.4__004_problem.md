@@ -6,12 +6,12 @@ section_id: "B.2.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__004_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:2 — Problem"
-line_start: 44918
-line_end: 44928
+line_start: 44872
+line_end: 44882
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,10 +37,10 @@ keywords:
 
 ### B.2.4:2 - Problem
 
-Without this specialization:
+Confusing capability and whole identity produces these errors:
 
 1. **Capability becomes generic emergence.** A threshold crossing or new envelope is treated as a new whole without B.2 checks.
-2. **Function becomes ontology.** Function-like wording creates `U.Function` or a hidden peer kind.
+2. **Function wording hides the claim.** A function label substitutes for identifying the obtaining relation and its participants.
 3. **Method and work collapse.** The way of doing, description of doing, planned work, and performed work are compressed into one vague operational claim.
 4. **Module allocation becomes functional truth.** A module label is treated as evidence for the required behavior or selected structure.
 5. **Transformation-flow description replaces in-life structure.** A graph, diagram, or publication of a flow is treated as the flow structure or whole.

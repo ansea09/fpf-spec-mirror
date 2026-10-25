@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__006_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:4 — Solution"
-line_start: 11806
-line_end: 11837
+line_start: 11792
+line_end: 11823
 dependencies:
   - "A.3.2"
   - "C.37"

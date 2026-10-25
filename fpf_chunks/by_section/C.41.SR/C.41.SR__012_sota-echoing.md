@@ -6,15 +6,16 @@ section_id: "C.41.SR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__012_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:11 — SoTA-Echoing"
-line_start: 89234
-line_end: 89243
+line_start: 89164
+line_end: 89173
 dependencies:
   - "A.10"
   - "B.1.5"
+  - "C.41.QC"
   - "C.41.UA"
 keywords:
 ---

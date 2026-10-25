@@ -6,12 +6,12 @@ section_id: "B.5.FM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__012_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:11 — SoTA-Echoing"
-line_start: 49072
-line_end: 49089
+line_start: 49012
+line_end: 49029
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -40,5 +40,5 @@ Reconsider the scheme-based entry when it repeatedly produces irrelevant questio
 
 **Subject premises of the physical cases.** [OpenStax, University Physics 2, §1.6](https://openstax.org/books/university-physics-volume-2/pages/1-6-mechanisms-of-heat-transfer) supplies the conducting-layer and convection relations. [Volume 2, §2.1](https://openstax.org/books/university-physics-volume-2/pages/2-1-molecular-model-of-an-ideal-gas) supplies the isothermal fixed-amount gas relation; [Volume 1, §14.1](https://openstax.org/books/university-physics-volume-1/pages/14-1-fluids-density-and-pressure) supplies the hydrostatic pressure relation. The chosen arrangements, simplifications and receiving questions are the present constructions.
 
-Reopen the method when another construction approach supplies a more useful model at comparable effort, or when a recurring difficulty calls for a model-building move absent from this account.
+Reconsider the construction approach when another supplies a more useful model at comparable effort, or when a recurring difficulty calls for an additional model-building move.
 

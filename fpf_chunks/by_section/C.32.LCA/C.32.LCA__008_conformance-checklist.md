@@ -6,12 +6,12 @@ section_id: "C.32.LCA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__008_conformance-checklist.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:7 — Conformance Checklist"
-line_start: 76994
-line_end: 77006
+line_start: 76924
+line_end: 76936
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"

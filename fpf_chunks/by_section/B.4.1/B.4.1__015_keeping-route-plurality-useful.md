@@ -6,12 +6,12 @@ section_id: "B.4.1:14"
 section_title: "Keeping route plurality useful"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__015_keeping-route-plurality-useful.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:14 — Keeping route plurality useful"
-line_start: 46600
-line_end: 46617
+line_start: 46539
+line_end: 46556
 dependencies:
   - "A.15"
   - "A.16"
@@ -42,7 +42,7 @@ A routed cue set stays useful only when route plurality, route grounds, selectio
 Use the minimal route package in §4 (Solution).
 
 #### B.4.1:14.2 - Selected route is not endpoint governance
-Even when one route is selected, the routed cue set remains a seam publication form. Apply a downstream subject pattern when its entry conditions are met; that pattern governs the next claim or result.
+Even when one route is selected, the routed cue set states the route choice. Apply a downstream subject pattern when its entry conditions are met; that pattern governs the next claim or result.
 
 #### B.4.1:14.3 - Review prompt and threshold reminder
 A reviewer should check whether the selected route is justified by the published cue pack or equivalent early form and whether suppressed alternative routes were genuinely considered rather than silently erased. If the articulation threshold required for a proposed late prompt, requirement, or work claim is not yet met, keep the publication early.

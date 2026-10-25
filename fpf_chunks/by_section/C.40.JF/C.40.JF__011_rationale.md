@@ -6,12 +6,12 @@ section_id: "C.40.JF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__011_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:10 — Rationale"
-line_start: 87245
-line_end: 87250
+line_start: 87175
+line_end: 87180
 dependencies:
   - "A.10"
   - "A.15.9"

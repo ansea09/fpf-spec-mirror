@@ -6,12 +6,12 @@ section_id: "B.1.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__006_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:4 — Solution"
-line_start: 41807
-line_end: 41877
+line_start: 41790
+line_end: 41860
 dependencies:
   - "A.1"
   - "A.10"
@@ -75,7 +75,7 @@ DependencyGraphRepresentation@Context:
   publicationOrViewRef?
 ```
 
-The graph may express acyclicity, reachability, cutsets, weak links, flow, or traceability. Those checks apply to the graph expression and bear on the selected relation only when the rule for that relation admits the mapping. Use C.29 to state the mathematical representation correspondence, preserved and lost distinctions, and validation boundary on which that inference depends.
+Use the graph to examine properties such as acyclicity, reachability, cutsets, weak links, flow, or traceability. These checks concern the graph expression; their results bear on the selected relation only when its rule admits the mapping. Use C.29 to state the mathematical representation correspondence, preserved and lost distinctions, and validation boundary on which that inference depends.
 
 #### B.1.1:4.3 - Relation Grounding Guide
 
@@ -91,7 +91,7 @@ The graph may express acyclicity, reachability, cutsets, weak links, flow, or tr
 
 #### B.1.1:4.4 - Graph Checks Are Conditional
 
-Acyclicity, topological order, cutset, reachability, and flow checks are useful only after the graph is selected as a lens over a selected relation structure.
+Run graph checks only after selecting the graph as a lens over the dependency structure.
 
 Do not infer:
 

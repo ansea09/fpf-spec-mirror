@@ -6,12 +6,12 @@ section_id: "F.6:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__013_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:11 — Consequences"
-line_start: 119812
-line_end: 119819
+line_start: 119737
+line_end: 119744
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,7 +49,7 @@ keywords:
 
 ### F.6:11 - Consequences
 
-**Benefits.** Assignment and Work remain independently identifiable, while attribution becomes a direct relation that can be cited, supported, corrected, or left unresolved. People, teams, organizations, machines, services, and software systems use the same pattern because every assignment occurrence exposes its admitted holder through the species-declared holder slot.
+**Benefits.** Assignment and Work remain independently identifiable, while attribution becomes a direct relation that can be cited, supported, corrected, or left unresolved. The rule applies to every admitted holder System because each assignment occurrence exposes that holder through its species-declared holder slot.
 
 **Costs.** Reliance-bearing use must recover both the assignment occurrence and its declared species rather than stop at a familiar label. A compact sentence can split into assignment assertion, Work occurrence, attribution, Method enactment, change or production claim, result episteme, and evidence relation when the receiving use needs them.
 

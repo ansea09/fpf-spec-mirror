@@ -6,17 +6,19 @@ section_id: "C.40.JD:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__012_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:11 — SoTA-Echoing"
-line_start: 88242
-line_end: 88249
+line_start: 88172
+line_end: 88179
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"
   - "C.39"
   - "C.40.CD"
+  - "C.40.CU"
+  - "C.40.NP"
   - "C.40.OD"
   - "E.23.CDI"
 keywords:

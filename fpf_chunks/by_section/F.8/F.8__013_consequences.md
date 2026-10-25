@@ -6,12 +6,12 @@ section_id: "F.8:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__013_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:10 — Consequences"
-line_start: 120460
-line_end: 120487
+line_start: 120384
+line_end: 120411
 dependencies:
   - "A.11"
   - "A.15"
@@ -68,7 +68,7 @@ Good consequences:
 - role-like, source, and record-like expressions return to their governed subjects before naming;
 - aliases and F.17 rows retain their admitted meaning and scope;
 - F.5 and F.18 receive a recovered subject and a selected naming path; and
-- accountable decisions and policy identifiers remain inspectable without making their records act.
+- accountable decisions and policy identifiers remain inspectable and distinct from their records.
 
 Costs:
 

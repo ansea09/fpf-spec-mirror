@@ -6,12 +6,12 @@ section_id: "B.1.6:9.1"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__014_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:9.1 — Rationale"
-line_start: 43854
-line_end: 43859
+line_start: 43828
+line_end: 43833
 dependencies:
   - "A.1"
   - "A.10"
@@ -59,5 +59,5 @@ keywords:
 
 `B.1.6` exists because a convenient total can hide several ontically different chains. Its result is obtained only after exact resource measurement, work-set and overlap grounding, an edition-pinned aggregation policy, and dated aggregation work. The ledger represents that recovered account.
 
-The pattern keeps the useful old `Gamma_work` notation, but only as notation over a recovered aggregation record. It also preserves the old planned-versus-measured warning: a method description or work plan can declare expected yield or expected resource use, but measured aggregation depends on dated work evidence.
+`Gamma_work` denotes the aggregation described by that account. A MethodDescription or WorkPlan can state expected yield or resource use; a measured aggregation requires evidence of dated Work and its resource use.
 

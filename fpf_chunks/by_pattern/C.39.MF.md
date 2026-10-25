@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.MF.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
-line_start: 83383
-line_end: 83551
+line_start: 83313
+line_end: 83481
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -33,7 +33,7 @@ Use this pattern when a project says that its “methodology”, “process”, 
 
 Begin with the result that is missing, late, unsafe, or too costly and the representative Work in which that result matters. Recover the Methods and candidate accounts already visible there before choosing the level of focus.
 
-The first useful move is to compare four possible focus classes: one Method; an established family or project-local grouping; named Method relations; and a non-Method return. The practical gain is that later repertoire, qualification, or architecture Work receives the smallest subject it can act on without inventing a Method or a composite.
+The first useful move is to compare four possible focus classes: one Method; an established family or project-local grouping; named Method relations; and a non-Method return. This gives later repertoire, qualification, or architecture Work a supported subject and the relations it needs to address, without inventing a Method or a composite.
 
 Do not use C.39.MF merely because one tool failed, one practitioner lacks capability, one document is incomplete, or one project, process, or case view is inconvenient. Return that question to its direct subject unless changing a Method would change the receiving result.
 
@@ -75,7 +75,7 @@ The project then asks the wrong downstream question. It builds a repertoire for 
 
 C.39 supplies the receiving-result and missing-way inquiry. Use this narrower Method-focus construction when it is not yet clear whether changing a Method, a relation among Methods, or its support would answer that inquiry. An adequate focus supplied by C.39 or A.15.6 is an input, not work to repeat.
 
-Select the smallest focus class whose subject and status are supported and whose change could alter the receiving result. Keep the rejected focus options and one observable reopen condition in the result.
+Select a focus whose subject and status are supported. Compare what addressing each plausible focus could contribute to the receiving decision, together with all the work and resources it requires, using `C.11` or a domain decision Method. Retain the dependencies needed for that contribution, including relations among several Methods when they affect the result. Keep the rejected focus options and one observable reopen condition in the result.
 
 #### C.39.MF:4.1 - Pattern-Use Unfolding
 
@@ -100,7 +100,7 @@ Select the smallest focus class whose subject and status are supported and whose
 
 #### C.39.MF:4.3 - What Changes in Practice
 
-The project stops asking which named methodology should replace another. It first decides whether the live subject is one Method, a governed family or local grouping, relations among several Methods, or a non-Method condition. Downstream Work becomes smaller, and a useful plurality can remain plural without being packaged as a fictitious composite.
+The project stops asking which named methodology should replace another. It first decides whether the live subject is one Method, a governed family or local grouping, relations among several Methods, or a non-Method condition. Downstream Work can address the selected subject and the relations on which its result depends. A useful plurality can remain plural without being packaged as a fictitious composite.
 
 ### C.39.MF:5 - Archetypal Grounding — EC-417 Release Focus
 
@@ -155,7 +155,7 @@ The schedule exposes a timing conflict, the reusable accounts expose the checks 
 | “These methods are our family.” | Use a local grouping unless governed membership is independently established. |
 | “The tracker shows the real process.” | Recover what the recorded claims concern and their coverage and loss; a tracker label establishes neither a Method nor a view. |
 | “Several contributors imply one composite.” | Return a Method-relation focus and send a proposed whole to B.1.5.CM only when that later question is live. |
-| “Choose the smallest item.” | Choose the smallest *decision-changing* subject, which may be a relation focus rather than one operation. |
+| “Choose the smallest item.” | Compare the contribution and full burden of the plausible focus options; retain the dependencies needed for the receiving result. |
 
 ### C.39.MF:9 - Consequences
 

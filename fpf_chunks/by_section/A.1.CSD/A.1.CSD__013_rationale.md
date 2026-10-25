@@ -6,12 +6,12 @@ section_id: "A.1.CSD:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__013_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:11 — Rationale"
-line_start: 4029
-line_end: 4036
+line_start: 4015
+line_end: 4022
 dependencies:
   - "A.1"
   - "A.1.SCR"

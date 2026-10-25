@@ -6,12 +6,12 @@ section_id: "C.19:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__007_archetypal-grounding.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:5 — Archetypal Grounding"
-line_start: 61832
-line_end: 61845
+line_start: 61762
+line_end: 61775
 dependencies:
   - "A.10"
   - "A.19.CPM"

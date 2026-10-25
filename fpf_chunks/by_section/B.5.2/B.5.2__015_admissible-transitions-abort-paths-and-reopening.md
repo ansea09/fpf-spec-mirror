@@ -6,12 +6,12 @@ section_id: "B.5.2:14"
 section_title: "Admissible Transitions, Abort Paths, and Reopening"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__015_admissible-transitions-abort-paths-and-reopening.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:14 — Admissible Transitions, Abort Paths, and Reopening"
-line_start: 50176
-line_end: 50213
+line_start: 50115
+line_end: 50150
 dependencies:
   - "A.10"
   - "A.16"
@@ -31,7 +31,7 @@ The abductive loop keeps its outcomes distinct so the recipient can tell whether
 
 #### B.5.2:14.1 - Relation to `B.4.1` and `A.16`
 
-`B.4.1` and `A.16` often supply the pre-abductive seam. They help preserve and stabilize upstream publications, including publication forms that carry route-shaped representations when those forms are explicitly governed, before the publication is fit for explicit conjecture. `B.5.2` begins only once the current publication is ready to function as an abductive prompt. This boundary matters because it prevents two opposite errors:
+`B.4.1` and `A.16` can help preserve and clarify an initiating publication until it supplies an abductive prompt. `B.5.2` begins only once the current publication is ready to function as an abductive prompt. This boundary matters because it prevents two opposite errors:
 
 - **premature abduction**, where a low-articulation cue is treated as if it had already earned hypothesis form;
 - **delayed abduction**, where a now-stable prompt is kept indefinitely in early cue form even though rival conjectures should already be compared.
@@ -44,7 +44,6 @@ Not every abductive run should end in a prime hypothesis. Three non-selection ou
 2. **Defer.** Several candidates remain live and the available comparison does not justify a winner, for example because a needed discriminator is unavailable. Preserve the unresolved set and its limits without inventing a winning explanation. A separately warranted present action may still proceed under C.11.
 3. **Split.** The original prompt turns out to contain several distinct questions. The run should fork into several narrower prompts rather than select one over-broad conjecture.
 
-These outcomes are not failures. They are part of keeping abduction honest.
 
 #### B.5.2:14.3 - Reopening and rival reinstatement
 
@@ -57,9 +56,8 @@ A conforming reopening note should identify:
 - what change in evidence, scope, or internal contradiction triggered the reopening,
 - and whether the original prompt itself has changed or only the candidate ranking has changed.
 
-This allows the reasoning cycle to keep continuity without pretending that the earlier abductive choice had never been made.
 
 #### B.5.2:14.4 - Scope discipline during iteration
 
-Abductive drift often comes from silent scope expansion. A conjecture first framed for one target slice quietly becomes a universal explanation. `B.5.2` therefore expects scope discipline to remain explicit during iteration. If a candidate requires a broader or narrower scope than the prompt originally declared, that scope move should be stated rather than smuggled in under the rhetoric of a "better explanation."
+Abductive drift often comes from silent scope expansion. A conjecture first framed for one target slice quietly becomes a universal explanation. `B.5.2` therefore expects scope discipline to remain explicit during iteration. If a candidate requires a broader or narrower scope than the prompt originally declared, state that change before using the candidate at the new scope.
 

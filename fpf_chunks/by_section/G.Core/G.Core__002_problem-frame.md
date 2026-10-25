@@ -6,12 +6,12 @@ section_id: "G.Core:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__002_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:1 — Problem frame"
-line_start: 125788
-line_end: 125798
+line_start: 125710
+line_end: 125719
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -34,12 +34,11 @@ keywords:
 
 ### G.Core:1 - Problem frame
 
-Part G contains patterns for CG‑frame characterization and its downstream artefacts (cards, evidence graphs, bridge surfaces, refresh/shipping orchestration, parity harnesses, dashboards, interop surfaces). In the current spec, several invariants are already present as **suite obligations/protocol norms** and are **reused across Part G**.
+Part G contains patterns for CG‑frame characterization and its downstream artefacts (cards, evidence graphs, bridge surfaces, refresh/shipping orchestration, parity harnesses, dashboards, interop surfaces). These patterns reuse invariants defined by their governing patterns as **suite obligations and protocol norms**.
 
 *Part‑G‑wide* invariants are governed by `G.Core` so every `G.x` can:
 
 * cite the core invariants rather than restating them, and
 * isolate pattern-scoped specifics as `Extensions` without turning each `G.x` into a mixed bag of universal rules, kit surfaces, and method/generator descriptions.
 
-This pattern (`G.Core`) therefore acts as the **deduplication hub** for FPF Part G.
 

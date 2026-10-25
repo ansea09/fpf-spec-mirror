@@ -6,14 +6,15 @@ section_id: "G.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__011_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:10 — Rationale"
-line_start: 129571
-line_end: 129578
+line_start: 129468
+line_end: 129475
 dependencies:
   - "A.10"
+  - "A.10.1"
   - "A.13"
   - "A.15.1"
   - "A.15.PROD"
@@ -58,7 +59,7 @@ keywords:
 
 ### G.6:10 - Rationale
 
-A.10 recovers one relied-on claim, its source/provenance account, and bounded reliance. G.6 adds stable graph-path identity, slicing, shared citation, and path-local refresh when several downstream consumers need the same dependency-closed representation.
+A.10 recovers one relied-on claim, its source/provenance account and bounded reliance. G.6 adds stable path identity, slicing and shared citation. Its indexes help locate uses of a changed common basis; A.10.1 supplies further source-change discovery when needed, and G.11 selects refresh from the resulting scope.
 
 That representational gain does not justify a second ontology of evidence edges. Work, participants, products, subject results, result epistemes, outcomes, sources, provenance, currentness, and later uses already have direct governors. G.6 therefore projects their exact refs and direct relations, and C.29 governs the representation correspondence when current. This makes a complex chain readable without allowing graph topology to create facts.
 

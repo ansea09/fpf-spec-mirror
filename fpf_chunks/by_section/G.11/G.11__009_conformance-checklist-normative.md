@@ -6,15 +6,17 @@ section_id: "G.11:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__009_conformance-checklist-normative.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:7 — Conformance Checklist (normative)"
-line_start: 131806
-line_end: 131822
+line_start: 131701
+line_end: 131717
 dependencies:
+  - "A.10.1"
   - "A.6.RCD"
   - "B.3.4"
+  - "C.11.DUA"
   - "C.18"
   - "C.19"
   - "C.23"
@@ -49,7 +51,7 @@ keywords:
 | ID                                                    | Requirement                                                                                                                                                                                                                                                                                                                                     | Purpose and Notes                                                                                                            |
 | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | **CC‑G11‑CoreRef**                                    | A conforming `G.11` artefact **MUST** satisfy the **effective** core conformance set implied by the `GCoreLinkageManifest` in `G.11:4.1` (profile expansion plus explicit deltas; delegated to `G.Core`).                                                                                                                                       | `G.11` is conformant only if the relevant `G.Core` invariants and trigger discipline are satisfied. |
-| **CC‑G11.1 (Slice-scoped planning).**                 | A conforming `RefreshPlan@Context` **SHALL** be scoped to `PathSliceId[]` (preferred) or `PatternScopeId[]` and **SHALL** record canonical `RSCRTriggerKindId` for each planned cause. Pack-wide reruns **MAY** occur only if the declared dependency closure spans all slices; the closure rationale **SHALL** be recorded.                    | Prevents full-rerun mania while keeping a safety escape hatch explicit and auditable.                                      |
+| **CC‑G11.1 (Slice-scoped planning).** | A conforming `RefreshPlan@Context` **SHALL** name its complete affected scope as `PathSliceId[]` (preferred where graph-expressed) or `PatternScopeId[]` and record canonical `RSCRTriggerKindId` for each planned cause. Its closure rationale **SHALL** account for all actual dependent uses that can change within the declared coverage, including shared-premise branches and combining uses. Pack-wide reruns **MAY** occur only if that closure spans all slices. | Prevents both unrelated reruns and omission of another dependent use. |
 | **CC‑G11.2 (Edition discipline; QD and OEE wiring).**     | When QD, OEE, or both are active, a conforming `RefreshPlan@Context` and `RefreshReport@Context` **SHALL** satisfy the required pin, edition, and policy wiring of the applicable extension blocks: `G.11:Ext.QDRefreshWiring`, `G.11:Ext.OEERefreshWiring`, or both. **`.edition` SHALL apply only on `…Ref`.** Missing required pins **SHALL** block publication. | Keeps replayability strict while keeping method-specific pin lists inside the applicable extension blocks.                  |
 | **CC‑G11.3 (Telemetry-metric admissibility).** | A refresh **SHALL** retain the metrics and pins required by the applicable subject method and receiving contract. Any Q, D, QD-score, coverage or regret it publishes **SHALL** be published as telemetry metrics, and any published IlluminationSummary as a telemetry summary. These values **SHALL** be excluded from dominance unless a CAL policy explicitly promotes them, and the promoting policy id **SHALL** be recorded in SCR-visible evidence bindings through the cited subject patterns. | Preserves required telemetry and prevents covert scalarisation. |
 | **CC‑G11.4 (Bridge penalties).** | Any refresh reacting to a sense or kind correspondence change or to a change in an independently governed plane relation **SHALL** satisfy `CC‑GCORE‑PEN‑1`. It **SHALL** preserve the obtaining relation under its direct governor, cited calibration basis and losses, and the separate receiving-use and reliance claims consumed by the refreshed result. It **SHALL** publish the `CL`, `CL^k`, `CL^plane` values and policy/model pins required by the actual calibration or receiving use, including any required `Φ`, `Ψ` and `Φ_plane` policy ids. Any supported loss penalty **SHALL** follow its declared assurance rule and affect `R_eff` only (F and G invariant). | Keeps the actual relation, calibration and assurance grounds recoverable during refresh. |

@@ -6,12 +6,12 @@ section_id: "B.5.2.0:14"
 section_title: "Prompt package discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__016_prompt-package-discipline.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:14 — Prompt package discipline"
-line_start: 50404
-line_end: 50433
+line_start: 50332
+line_end: 50361
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -38,7 +38,7 @@ A prompt becomes reusable in `B.5.2` only when its initiating question is explic
 
 #### B.5.2.0:14.1 - Minimal prompt package
 
-A robust abductive prompt should make explicit:
+An abductive prompt should make explicit:
 
 - the **prompt species**,
 - the **open question**,

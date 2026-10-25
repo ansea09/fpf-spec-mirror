@@ -6,12 +6,12 @@ section_id: "C.32.LCA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__007_bias-annotation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:6 — Bias-Annotation"
-line_start: 76986
-line_end: 76993
+line_start: 76916
+line_end: 76923
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"

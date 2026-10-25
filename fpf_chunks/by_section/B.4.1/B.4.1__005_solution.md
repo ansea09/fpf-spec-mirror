@@ -6,12 +6,12 @@ section_id: "B.4.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:4 — Solution"
-line_start: 46458
-line_end: 46535
+line_start: 46397
+line_end: 46474
 dependencies:
   - "A.15"
   - "A.16"
@@ -35,13 +35,13 @@ keywords:
 ---
 
 ### B.4.1:4 - Solution
-Use this seam to make the candidate continuations and any selected route explicit after cue stabilization. The pre-abductive route-bearing seam sits inside the language-state cluster, between observation/cue preservation and endpoint subject-pattern entries:
+After cue stabilization, make the candidate continuations and any selected route explicit. Keep downstream claims under their subject patterns. The optional route follows this sequence:
 
 `Observe -> Notice -> Stabilize -> Route`
 
 Publish the route package as a `RoutedCueSet`, normally downstream of `PreArticulationCuePack`.
 
-A robust route package should identify:
+The route publication should identify:
 
 - the **originating cue pack**, if any, or the equivalent early form preserving the stabilized cue,
 - the **candidate route set**,
@@ -77,7 +77,7 @@ A conforming routed cue set may publish:
 
 `publicationFaceRefs` names MVPK faces only when face typing matters for publication or review. Faces are renderings of the routed cue set or of later typed projection publications; they are not the route-bearing form itself.
 
-A multi-route `RoutedCueSet` is still one governed member. A lineage fork requires distinct successor epistemes or project records under their applicable identity and lineage rules. Use `C.2.1` for episteme identity; publication availability remains separate under `E.24.PUB`.
+One `RoutedCueSet` can describe several candidate routes. A lineage fork requires distinct successor epistemes or project records under their applicable identity and lineage rules. Use `C.2.1` for episteme identity; publication availability remains separate under `E.24.PUB`.
 
 #### B.4.1:4.2 - Starter route family and conditional extension species
 The candidate route set may contain, among others:
@@ -97,7 +97,7 @@ The candidate route set may contain, among others:
 ##### B.4.1:4.2.1 - Specialization-sensitive extension route family
 These four routes are not part of the starter canonical core. Use them only when the cue already carries explicit bounded-specialization pressure, corridor-entry pressure, or substrate-fit doubt that subject patterns must be able to recover by value.
 
-Use `TaskFamilySpecializationRoute` when the cue points toward acquiring one narrower higher-fit specialist lane for one declared task family under budget, where that lane may later resolve into one specialist method, portfolio, or competence bundle. Use `AdaptationProbeRoute` when the honest next question is whether threshold-reaching specialization is actually attainable under the current budget. Use `NonHumanUtilityRoute` when the cue suggests a promising utility target outside the current human-default solution corridor but still tied to one declared task family or utility target. Use `SubstrateDiversificationRoute` when the cue says the current method substrate may be too narrow and a broader or different substrate should be tested before commitment.
+Use `TaskFamilySpecializationRoute` when the cue points toward acquiring one narrower higher-fit specialist lane for one declared task family under budget, where that lane may later resolve into one specialist method, portfolio, or competence bundle. Use `AdaptationProbeRoute` when the next question is whether threshold-reaching specialization is attainable under the current budget. Use `NonHumanUtilityRoute` when the cue suggests a promising utility target outside the current human-default solution corridor but still tied to one declared task family or utility target. Use `SubstrateDiversificationRoute` when the cue says the current method substrate may be too narrow and a broader or different substrate should be tested before commitment.
 
 Contexts may refine the route family locally, but they shall keep the distinction between early route publication and endpoint governance.
 
@@ -110,5 +110,5 @@ A routed cue set may support these continuations:
 - apply `A.6.P`, `A.6.A`, or `C.16.Q` under its own entry conditions and produce the sentence, record, or other result that the selected pattern calls for,
 - or publish another explicitly typed upstream projection.
 
-For a proposed downstream projection, if no typed publication form can yet be named honestly, keep the content in `RoutedCueSet`; an MVPK face alone supplies no such form.
+For a proposed downstream projection, if no applicable typed publication form can yet be identified, keep the content in `RoutedCueSet`; an MVPK face alone supplies no such form.
 

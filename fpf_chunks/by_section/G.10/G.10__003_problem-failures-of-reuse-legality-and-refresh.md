@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "G.10"
 pattern_title: "SoTA Pack Shipping"
 section_id: "G.10:2"
-section_title: "Problem — Why naive shipping breaks reuse, legality, and refresh"
+section_title: "Problem — Failures of reuse, legality and refresh"
 source_path: "FPF-Spec.md"
-output_path: "by_section/G.10/G.10__003_problem-why-naive-shipping-breaks-reuse-legality-and-refresh.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+output_path: "by_section/G.10/G.10__003_problem-failures-of-reuse-legality-and-refresh.md"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
-  - "G.10:2 — Problem — Why naive shipping breaks reuse, legality, and refresh"
-line_start: 131049
-line_end: 131059
+  - "G.10:2 — Problem — Failures of reuse, legality and refresh"
+line_start: 130949
+line_end: 130959
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -53,14 +53,14 @@ keywords:
   - "telemetry pins"
 ---
 
-### G.10:2 - Problem — Why naive shipping breaks reuse, legality, and refresh
+### G.10:2 - Problem — Failures of reuse, legality and refresh
 
-Naive shipping fails (conceptually) when any of the following occurs:
+Shipping fails when:
 
 1. **Format-as-governing-spec.** A concrete export format is treated as “the pack,” turning a tool choice into a governing pack definition.
 2. **Editionless hand‑offs.** Shipped artefacts omit the edition/policy pins required to replay or compare outcomes, so parity and RSCR become non‑actionable.
-3. **Pack smuggles semantics.** Shipping reintroduces “convenience” rules (hidden scalarisation, competing defaults, private gate decisions), fragmenting the governing spec ref.
-4. **Invisible crossings.** Cross-context or cross-plane reuse is present, but the pack does not expose the crossing bundles and penalty policy pins needed for audit and refresh planning.
+3. **Shipping changes the rules.** The pack adds local rules (hidden scalarisation, competing defaults, private gate decisions), fragmenting the governing spec ref.
+4. **Invisible crossings.** An actual correspondence, flow crossing or gate lacks the grounds, bundle anchors or policy pins required for its receiving use.
 5. **No method‑of‑obtaining‑output disclosure.** Consumers receive outcomes without a minimal, citable trail of *which methods, mechanisms, and policies were used, at which editions, to obtain them*.
 6. **Refresh orphaning.** Telemetry and decay signals exist, but the shipped artefact provides no stable scope keys (`PathId` / `PathSliceId`) and no payload pins for RSCR triggers.
 

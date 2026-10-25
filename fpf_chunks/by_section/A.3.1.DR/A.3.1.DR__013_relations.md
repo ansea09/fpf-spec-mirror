@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__013_relations.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:12 — Relations"
-line_start: 10176
-line_end: 10185
+line_start: 10162
+line_end: 10171
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"

@@ -6,12 +6,12 @@ section_id: "B.1.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__006_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:4 — Solution"
-line_start: 42036
-line_end: 42084
+line_start: 42017
+line_end: 42065
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,7 +40,7 @@ keywords:
 
 ### B.1.2:4 - Solution
 
-Use B.1.2 to coordinate one named system-aggregation or delimitation decision across independently governed results. Do not introduce `SystemAggregationRelation@Context`, `HolonDelimitationRelation@Context`, `HolonBoundaryCrossingRelation@Context`, or another record-shaped relation merely to hold the answers together.
+Coordinate one named system-aggregation or delimitation decision using the independently grounded results below. A record can bring those results together; establishing any further relation requires its own grounds.
 
 #### B.1.2:4.1 - Recover Each Direct Result Or Blocker
 
@@ -54,19 +54,19 @@ Use B.1.2 to coordinate one named system-aggregation or delimitation decision ac
 | Which whole-level characteristic is claimed? | `C.16`, `A.19`, and `C.29` when a mathematical lens is used | Exact bearer, characteristic, assignment or value, scale, threshold or aggregation relation, and lens-use boundary; otherwise the missing bearer, scale, relation, or evidence. |
 | Which evidence, description, representation, or publication supports inspection? | `A.10`, `B.3`, `C.2.1`, `C.29`, `E.17`, and the exact source or architecture-description pattern | The exact episteme and exact evidence, assurance, description, representation, source-use, or publication relation; otherwise the missing identity, relation, applicability, or reliance basis. |
 
-Naming those results together does not create a further world-side relation. Stop at the first direct blocker that prevents the named decision; do not weaken it into an aggregate-shaped placeholder.
+Stop when a missing direct result prevents the named decision, and identify that missing result. Collecting the available results does not supply it.
 
 #### B.1.2:4.2 - Select A Structure Only When The Joint Organization Matters
 
 If the joint organization of several exact results itself changes the named decision, select one ordinary `U.Structure` under `A.22`. Recover all four identity discriminators: exact independently identified constituents, exact selected obtaining relation occurrences, exact constraints as applied, and one named selection-use frame with its admissible action or stop.
 
-The selected structure is non-agentive. It creates no system, part, crossing, allocation, characteristic, evidence, or decision fact and does not become the system, its environment, or its containing whole. A box, list, graph, table, description, view, or publication can represent or describe the selected organization but supplies none of the four discriminators by form.
+The selected structure is non-agentive. Selecting it does not itself establish systemhood or the relations being selected. A diagram or other representation can express the selected organization; its form alone supplies none of the four discriminators.
 
 #### B.1.2:4.3 - Make Interface Choices About Exact Crossing Relations
 
-When the aggregate exposes, namespaces, internalizes, excludes, or leaves a crossing with its subject pattern, make that choice about one exact crossing-relation occurrence and one named use. These words are ordinary decision options, not a closed FPF enumeration and not another relation kind.
+When choosing an interface arrangement, identify the crossing-relation occurrence and the use affected by the choice. Options include exposing the crossing, assigning it a namespace, internalizing it, excluding it, or leaving its treatment with its subject pattern. These are ordinary decision options.
 
-Name the direct world facts, affected endpoints, exact crossing predicate and occurrence, preserved obligation or information, evidence if relied on, and the C.11 `ChoiceResult` or C.32.PAD `ArchitectureDecisionRelation@Project` that chooses among the ordinary interface options when its exact predicate applies. A different choice passes only after its exact subject assertion, predicate, and result are named; otherwise stop with the established `missing-governor` blocker, whose content identifies the absent exact predicate source. If a later use must inspect the choice, identify a separate C.2.1 episteme whose claim content describes it and cites that direct result; the episteme does not make the crossing, parthood, compatibility, or decision fact obtain. This preserves interface accountability without an omnibus compatibility-check object. Without that account, an apparent simplification can silently drop an external obligation or proliferate unmanaged endpoints.
+Name the direct world facts, affected endpoints, exact crossing predicate and occurrence, preserved obligation or information, evidence if relied on, and the C.11 `ChoiceResult` or C.32.PAD `ArchitectureDecisionRelation@Project` that chooses among the ordinary interface options when its exact predicate applies. A different choice passes only after its exact subject assertion, predicate, and result are named; otherwise stop with the established `missing-governor` blocker, whose content identifies the absent exact predicate source. If a later use must inspect the choice, identify a separate C.2.1 episteme whose claim content describes it and cites that direct result; the episteme does not make the crossing, parthood, compatibility, or decision fact obtain. This account lets the practitioner check whether an interface change loses an external obligation or leaves an endpoint unmanaged.
 
 #### B.1.2:4.4 - Whole-Level Characteristics
 

@@ -6,17 +6,18 @@ section_id: "C.40.DC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__010_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:9 — Consequences"
-line_start: 87022
-line_end: 87029
+line_start: 86952
+line_end: 86959
 dependencies:
   - "A.3.1"
   - "A.3.2"
   - "C.11.CRC"
   - "C.40.JF"
+  - "C.40.OC"
   - "C.40.PC"
   - "C.40.RQ"
 keywords:

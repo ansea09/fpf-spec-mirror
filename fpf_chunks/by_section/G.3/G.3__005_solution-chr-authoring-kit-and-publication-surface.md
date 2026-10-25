@@ -6,12 +6,12 @@ section_id: "G.3:4"
 section_title: "Solution — CHR authoring kit and publication surface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__005_solution-chr-authoring-kit-and-publication-surface.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:4 — Solution — CHR authoring kit and publication surface"
-line_start: 127608
-line_end: 127920
+line_start: 127507
+line_end: 127819
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -64,7 +64,7 @@ keywords:
 
 **Builds on:** `G.Core` (Part‑G core invariants; citation/delegation hub)
 
-**GCoreLinkageManifest (normative; size‑controlled).**
+**GCoreLinkageManifest (normative).**
 
 ```text
 GCoreLinkageManifest := ⟨
@@ -152,7 +152,7 @@ If `EvidenceLanes` are used, the charter MUST:
 *Crossing semantics and penalty routing are cited via `G.Core` (do not restate).*
 
 **S2 — Mint or reuse terms (UTS‑first).**
-For each candidate characteristic, scale, level, or coordinate term: attempt reuse; otherwise mint via UTS Name Cards with twin labels and public-id continuity notes. When a term is imported across contexts, the import must be explicit and auditable (bridge and loss notes live with the crossing artefacts; CHR only cites them).
+For each candidate characteristic, scale, level, or coordinate term: attempt reuse; otherwise mint via UTS Name Cards with twin labels and public-id continuity notes. When importing a term across contexts, identify its source-local meaning and the correspondence the receiving use relies on. Cite any required bridge and loss account.
 
 **S3 — Define `CharacteristicCard` (the per-characteristic publication unit).**
 A CharacteristicCard is the minimum unit CHR publishes for downstream legality. It SHOULD include (field names are indicative; semantics governed by cited definitions):
@@ -212,7 +212,7 @@ Rules (CHR‑governed intent, semantics governed by cited definitions where indi
 **S4 — Define `ScaleCard` and `LevelCard` (lawful measurement).**
 Publish the scale type and admissible transforms, plus levels/orders when applicable. CHR does not invent new legality semantics; it cites MM‑CHR governing definitions and makes the legality surface concrete for the frame’s characteristics.
 
-Typical distinctions that must be representable:
+Represent the distinctions needed by the measurement. A scale type may be combined with counting, exposure or cyclic constraints:
 
 * **Nominal / categorical:** equality + counting; transforms are permutations.
 * **Ordinal:** order‑preserving transforms; no arithmetic that presupposes intervals.
@@ -242,7 +242,7 @@ Guard macro names are allowed as authoring ergonomics, but their semantics MUST 
 * `METRIC_EDITION_REF(...)` (edition‑pin discipline governed by `G.Core`; metric semantics governed by `C.18`/`C.21` as applicable)
 
 **S7 — Publish `AggregationSpecs` (typed, admissible, reproducible).**
-CHR may publish typed aggregation/comparison specs that are *safe by construction* and usable as building blocks by `G.4` and `G.5`. For any published spec:
+CHR may publish typed aggregation/comparison specs whose admissibility follows from their declared scales, constraints and proof basis, for use by `G.4` and `G.5`. For any published spec:
 
 * The legality regime is explicit (scale/unit/polarity constraints + required proof hooks).
 * If a contributor folding policy (Γ‑fold) is used and not explicitly overridden, cite `DefaultId.GammaFoldForR_eff` through `G.Core.DefaultGoverningDefinitionIndex`; do not restate the default here.

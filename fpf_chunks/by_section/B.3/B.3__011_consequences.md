@@ -6,12 +6,12 @@ section_id: "B.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__011_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:9 — Consequences"
-line_start: 45594
-line_end: 45609
+line_start: 45545
+line_end: 45560
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,7 +41,7 @@ keywords:
 
 - Assurance remains explicit without forcing one cross-domain score.
 - A small local claim can stop after six fields.
-- Calculations become more trustworthy because assumptions and dependency structure are visible.
+- Visible assumptions and dependency structure let the practitioner check whether a calculation applies.
 - Domain safety, access, responsibility, status, and decision rules retain their own meaning.
 - Visible artifacts can contribute useful provenance or evidence without becoming authority.
 

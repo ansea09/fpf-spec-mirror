@@ -6,12 +6,12 @@ section_id: "D.3:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:2 — Solution"
-line_start: 91212
-line_end: 91292
+line_start: 91139
+line_end: 91219
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,18 +40,18 @@ keywords:
 
 #### D.3:2.1 - First useful result
 
-Start with two sides and one tension statement. For each side, write:
+Identify the sides needed to explain the conflict. At least two claims are involved; include more when the tension depends on their combination. For each side, write:
 
 1. the ethical claim that states the concern in ordinary language;
-2. the exact affected entity;
+2. the affected entity;
 3. the declared level relation, claim scope, or Work extent that locates the concern;
 4. the value-frame edition under which the consequence matters;
 5. the expected benefit, harm, or constraint and its consequence horizon; and
 6. the evidence use or uncertainty only when the side currently relies on it.
 
-Then say why the sides cannot both be met as stated, what would be traded, or why they remain in unresolved tension. Name the next live use: mediation, refusal, a decision, an evidence or causal question, assurance, or architecture return. Stop there when this makes the conflict inspectable for that use.
+Then explain why the claims cannot all be met as stated, what would be traded, or why they remain in unresolved tension. Three or more claims may be jointly incompatible even when every pair is compatible. Name the intended use of this description and any question that remains to be settled. Stop when this makes the conflict inspectable for its intended use.
 
-This first result can remain a short working note. It does not need a schema, publication, assurance package, responsibility model, or complete account of every participant.
+A short working note can be sufficient. Develop a more elaborate description only when its intended use requires the additional content.
 
 #### D.3:2.2 - Reusable conflict description
 
@@ -65,7 +65,7 @@ Apply the C.2.1 identity test:
 
 Changed claim content, EntityOfConcern, or effective ReferenceScheme identifies another episteme. Say that a later description revises or supersedes an earlier one only when an exact C.2.1 `EpistemeEditionRelation` is asserted. A changed narrative, table layout, publication form, carrier, or publication occurrence does not by itself change the episteme.
 
-Use this compact content shape when a reusable record helps:
+Use this content shape when a reusable record helps:
 
 ```text
 InterlevelEthicalConflictDescription — C.2.1 identity:

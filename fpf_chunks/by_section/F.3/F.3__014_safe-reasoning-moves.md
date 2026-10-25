@@ -6,12 +6,12 @@ section_id: "F.3:13"
 section_title: "Safe reasoning moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__014_safe-reasoning-moves.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:13 — Safe reasoning moves"
-line_start: 118813
-line_end: 118825
+line_start: 118739
+line_end: 118751
 dependencies:
   - "A.11"
   - "A.7"
@@ -40,7 +40,7 @@ keywords:
 4. **Parsimony merge.** Merge when no relevant source-grounded test distinguishes the candidates.
 5. **Counterexample trigger.** Tighten or split a claim that admits a concrete excluded use.
 6. **Label check.** Tech stays idiomatic; Plain explains without widening.
-7. **Address check.** Create an F.17 cell only when recurring use needs a stable address.
+7. **Address check.** Create an F.17 cell only when the receiving use needs a stable address.
 8. **Edition check.** Re-evaluate the interpretation basis before carrying a claim across an edition change.
 9. **Coverage ping.** If a frequent source expression that matters to the receiving question has no local-sense claim, check whether one useful cluster is missing.
 10. **Stop rule.** Do not infer a relation to another local meaning from clustering alone.

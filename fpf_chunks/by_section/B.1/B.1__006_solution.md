@@ -6,12 +6,12 @@ section_id: "B.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__006_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:4 — Solution"
-line_start: 41574
-line_end: 41660
+line_start: 41558
+line_end: 41644
 dependencies:
   - "A.1"
   - "A.14"
@@ -54,7 +54,7 @@ HolonAggregationClaim@Context:
   mathLensOrRepresentationRef?
 ```
 
-This is a claim frame, not a U-kind and not an acting record. It says what must be named before the aggregation claim is relied on.
+This claim frame identifies the objects, relations, and qualifications needed to rely on the aggregation claim. Include optional fields when they change that claim or its use.
 
 Use:
 
@@ -78,7 +78,7 @@ Use:
 
 #### B.1:4.3 - Work Occurrence Holarchy
 
-Performed work is different from structural composition.
+A Method's composition and the parts of a performed Work require different grounds.
 
 A dated Work may have independently admitted temporal or operational parts under `A.15.1`. C.27 governs temporal claims, and B.1.4 aggregates recovered order or temporal relations when that is the question. Resource roll-ups use B.1.6; composing effects needs the direct relation and composition rule for those effects. Neither kind of calculation establishes Work parthood or makes a Method or role expression a holonic part.
 
@@ -86,7 +86,7 @@ Use A.15.1 when the claim needs occurrence identity, temporal coverage, `Gamma_t
 
 #### B.1:4.4 - Mathematical And Representation Apparatus
 
-Use Γ, graph, algebra, tuple, matrix, embedding, or neural representation only after the object under concern and selected relation are named.
+Before using Γ notation or another aggregation representation, name the object and selected relation.
 
 Acceptable uses:
 
@@ -111,7 +111,7 @@ Before declaring B.2 whole reidentification, ask whether the whole-level gain ca
 - improved measurement;
 - role or method relation repair;
 - work occurrence evidence repair;
-- functional or architecture selected-structure repair;
+- a correction to the selected functional or architectural structure;
 - source, publication, or representation correction.
 
 Use B.2 only when the whole itself must be reidentified.

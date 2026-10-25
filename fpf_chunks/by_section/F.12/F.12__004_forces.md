@@ -6,12 +6,12 @@ section_id: "F.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:3 — Forces"
-line_start: 121908
-line_end: 121916
+line_start: 121831
+line_end: 121839
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -54,5 +54,5 @@ keywords:
 | **Promise and occurrence** | Promise content is stated in advance; fulfilment concerns actual Work and delivered outcome. |
 | **Local meaning and integration** | Sources use different words, while the judgement must join their claims without a generic Bridge. |
 | **Parsimony and realism** | One compact pattern must cover thresholds, percentiles, shares, counts, and bands. |
-| **Evidence and feasibility** | Direct observation is best, but sometimes only a limited proxy is available. |
+| **Evidence and feasibility** | Evidence must concern the promised characteristic; available measurements may cover only an indicator. |
 

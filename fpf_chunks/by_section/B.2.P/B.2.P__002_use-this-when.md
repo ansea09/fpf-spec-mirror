@@ -6,12 +6,12 @@ section_id: "B.2.P:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__002_use-this-when.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:0 — Use This When"
-line_start: 44202
-line_end: 44230
+line_start: 44170
+line_end: 44194
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,11 +49,7 @@ keywords:
 
 Use this pattern when wording such as `emergence`, `emergent`, `synergy`, `higher-level property`, `meta-system`, `meta-epistemic`, `meta-functional`, `MHT`, `MET`, `MFT`, `promotion`, `post*`, or collection words mixed with those terms could be pointing to several different FPF objects.
 
-The first useful move is:
-
-```text
-Recover the claim kind before choosing replacement wording.
-```
+**First useful move.** Recover the claim kind before choosing replacement wording.
 
 B.2.P is selected only when the source wording hides one of these recurring questions:
 
@@ -65,7 +61,7 @@ B.2.P is selected only when the source wording hides one of these recurring ques
 
 **What goes wrong if missed.** A word like "emergent" becomes a shortcut to a new U-kind, a collection receives agency by name, a metric jump becomes MHT, or source title mnemonics survive as if they were current pattern authority.
 
-**What this buys.** B.2.P gives one local recovery profile for emergence-family and MHT wording. It keeps B.2-family subject patterns centered on whole reidentification while ordinary capability, characteristic, function, architecture, evidence, math-lens, publication, and collection claims remain with their subject patterns.
+**What this buys.** The practitioner can replace ambiguous emergence wording with the actual claim and the pattern that supplies its grounds. Whole reidentification stays distinguishable from the neighboring claims in :4.2.
 
 **Not this pattern when.**
 

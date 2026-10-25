@@ -6,17 +6,19 @@ section_id: "C.39:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__013_relations.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:12 — Relations"
-line_start: 83154
-line_end: 83168
+line_start: 83084
+line_end: 83098
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
   - "A.3.2"
   - "B.1.5"
+  - "B.1.5.EW"
+  - "B.1.5.RS"
   - "C.11"
   - "C.30.ASV"
   - "C.32.MWA"

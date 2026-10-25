@@ -6,12 +6,12 @@ section_id: "B.1.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__003_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:2 — Problem"
-line_start: 42734
-line_end: 42747
+line_start: 42710
+line_end: 42723
 dependencies:
   - "A.1"
   - "A.15"
@@ -65,9 +65,9 @@ keywords:
 
 ### B.1.5:2 - Problem
 
-Without B.1.5:
+When the objects and composition grounds are left unclear:
 
-1. **Source-wording composition.** "Step", "stage", "activity", "task", "procedure", "workflow", "pipeline", or "algorithm" wording is accepted as method composition without recovering the actual objects.
+1. **Source-wording composition.** A label such as "step", "workflow", or "algorithm" is accepted as method composition without recovering the actual objects.
 2. **Description-as-method.** A workflow diagram, BPMN model, code repository, proof script, table, checklist, or graph path is treated as the composite method itself.
 3. **Order as mereology.** `SerialStepOf`, `ParallelFactorOf`, guarded choice, or fallback relation is placed in a structural part-whole chain.
 4. **Typed joins disappear.** One submethod's intended result is assumed to satisfy the next submethod's precondition without an adapter method, governed correspondence or equivalence, and an explicit failure route.

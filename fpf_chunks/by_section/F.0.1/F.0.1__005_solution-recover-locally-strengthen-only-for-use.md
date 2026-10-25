@@ -6,12 +6,12 @@ section_id: "F.0.1:4"
 section_title: "Solution — recover locally, strengthen only for use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__005_solution-recover-locally-strengthen-only-for-use.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:4 — Solution — recover locally, strengthen only for use"
-line_start: 117141
-line_end: 117204
+line_start: 117067
+line_end: 117130
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -91,5 +91,5 @@ When a current claim or action actually relies on it, recover only the values th
 - **No transitive shortcut.** Two established relations through an intermediate meaning do not establish a direct third relation.
 - **Affected-only reopening.** A changed source premise reopens the claims that used it, not every claim that cites the edition.
 
-These are allowable conceptual moves, not storage fields, APIs, or mandatory workflow records.
+These examples illustrate the reasoning; they prescribe no storage format or workflow record.
 

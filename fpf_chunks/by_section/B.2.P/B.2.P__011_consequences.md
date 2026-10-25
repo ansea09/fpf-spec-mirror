@@ -6,12 +6,12 @@ section_id: "B.2.P:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__011_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:8 — Consequences"
-line_start: 44415
-line_end: 44428
+line_start: 44379
+line_end: 44392
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,7 +49,7 @@ keywords:
 
 Positive consequences:
 
-- B.2-family emergence language no longer creates hidden U-kinds.
+- Readers can distinguish emergence-family claims without inferring a new kind from the wording.
 - B.2, B.2.2, B.2.3, and B.2.4 stay centered on their subject claims instead of carrying repeated first-stage precision restoration.
 - Collections, capabilities, functions, characteristics, architecture residuals, mathematical expressions, and publications keep their subject patterns.
 

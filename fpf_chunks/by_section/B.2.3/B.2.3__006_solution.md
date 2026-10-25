@@ -6,12 +6,12 @@ section_id: "B.2.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__006_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:4 — Solution"
-line_start: 44733
-line_end: 44787
+line_start: 44695
+line_end: 44741
 dependencies:
   - "A.1"
   - "A.10"
@@ -36,7 +36,7 @@ keywords:
 
 ### B.2.3:4 - Solution
 
-Use B.2.3 as the `U.Episteme` specialization of B.2. Reuse B.2's exact existing whole, exact candidate new whole, direct construction facts, and optional C.2.1 records; add no context-shaped slice or episteme-result schema.
+Use B.2.3 as the `U.Episteme` specialization of B.2. Reuse its existing whole, candidate new whole, direct construction facts, and any optional C.2.1 records needed for this use.
 
 #### B.2.3:4.1 - Reuse The B.2 Candidate And Complete Episteme Recognition
 
@@ -79,13 +79,5 @@ These cues identify claims and relations to inspect. They neither constitute the
 
 #### B.2.3:4.4 - Blocked Readings
 
-Do not use B.2.3 as:
-
-- a name for generic emergence;
-- an authority claim for a publication;
-- an agentive claim about a theory, standard, or doctrine;
-- an effect-free episteme morphism, view, retargeting, or coarsening;
-- a second episteme ontic beside C.2.1;
-- a shortcut from source synthesis to high trust;
-- a replacement for source-use, evidence, assurance, or publication patterns.
+Recognition of an episteme result establishes neither agency, publication authority, nor inherited assurance. Use the applicable subject patterns for those separate claims; the non-use cases in :0 identify the other operations.
 

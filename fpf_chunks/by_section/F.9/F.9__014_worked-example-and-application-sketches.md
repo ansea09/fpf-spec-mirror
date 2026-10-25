@@ -6,12 +6,12 @@ section_id: "F.9:12"
 section_title: "Worked example and application sketches"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__014_worked-example-and-application-sketches.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:12 — Worked example and application sketches"
-line_start: 120806
-line_end: 120849
+line_start: 120730
+line_end: 120773
 dependencies:
   - "A.10"
   - "A.13"
@@ -97,5 +97,5 @@ A second premise is still required. The C.2.1 claim names the proposed type-stru
 
 #### F.9:12.4 - Setpoint versus service target
 
-`CTRL:setpoint` and `ITIL:target` share a familiar word but usually have only `Partial-overlap` or are `Disjoint` under the exact readings. A proposed substitution in a control calculation receives a negative bounded-use claim because its rule and tolerance cannot preserve the physical-reference meaning. A didactic comparison may receive a different affirmative claim. Neither claim changes which Bridge obtains.
+`CTRL:setpoint` and `ITIL:target` can both be described as a "target", but usually have only `Partial-overlap` or are `Disjoint` under the exact readings. A proposed substitution in a control calculation receives a negative bounded-use claim because its rule and tolerance cannot preserve the physical-reference meaning. A didactic comparison may receive a different affirmative claim. Neither claim changes which Bridge obtains.
 

@@ -6,13 +6,14 @@ section_id: "C.11.MV:5"
 section_title: "Archetypal Grounding - Field Evidence and Alternatives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__007_archetypal-grounding-field-evidence-and-alternatives.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:5 — Archetypal Grounding - Field Evidence and Alternatives"
-line_start: 58171
-line_end: 58217
+line_start: 58101
+line_end: 58147
 dependencies:
+  - "A.3.1.FT"
   - "A.3.1.QM"
   - "C.11"
   - "C.11.DUA"
@@ -37,7 +38,7 @@ The Halogen case can supply evidence about project demands, practitioner skill s
 
 #### C.11.MV:5.1 - EC-417 Early Stop
 
-The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference169---choose-the-smallest-method-development-result-needed-for-release-ec-417) supplies the receiving problem, alternatives, calculations and the distinct limits used below.
+The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference169---choose-the-method-development-result-needed-for-release-ec-417) supplies the receiving problem, alternatives, calculations and the distinct limits used below.
 
 In the constructed EC-417 case, the team must release a controller firmware and harness change on `D0`. Its software-integration slot is `D-21`, but signed supplier pinout evidence is expected at `D-8`. The present question is which proposed way to coordinate that release is worth pursuing under the current constraints.
 

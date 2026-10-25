@@ -6,14 +6,15 @@ section_id: "G.6:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__002_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:1 — Problem Frame"
-line_start: 129283
-line_end: 129307
+line_start: 129178
+line_end: 129193
 dependencies:
   - "A.10"
+  - "A.10.1"
   - "A.13"
   - "A.15.1"
   - "A.15.PROD"
@@ -58,26 +59,17 @@ keywords:
 
 ### G.6:1 - Problem Frame
 
-Use this pattern when a later user must cite, replay, audit, or refresh a path through several already established objects and relations rather than repeat their complete source account.
+Use this pattern when a later user must cite, replay, audit or refresh a chain of established facts, such as a measurement, an acceptance judgement and a decision. Give that chain a stable address while preserving the evidence and rules for its members.
 
-Use it when the working question is:
-
-* which admitted dated Work occurrences and A.13-qualified actual performer Systems must remain addressable, together with already-established F.6 attribution refs only when the selected path expressly consumes precise assignment-bound attribution, and any local system-role kind or assignment identifier that the path separately uses;
-* which direct participation or binding facts, produced entities, domain results, result epistemes, outcomes, source publications, carriers, and provenance relations must remain addressable;
-* which exact direct relations connect those objects, which pattern defines or constrains each relation, and whether each relation is already established as obtaining;
-* which bounded context, reference plane, time window, bridge, edition, policy, source-currentness result, or reliance boundary limits the cited path;
-* which downstream work and exact use relation may cite the path; and
-* what stronger conclusion, assurance, permission, acceptance, gate passage, or decision the path does not carry.
-
-**Primary EntityOfConcern.** The primary `EntityOfConcern` is an addressable provenance representation: one `EvidenceGraph`, its `PathId` or `PathSliceId`, and any ledger entry that makes the path replayable. G.6 governs path identity, slicing, citation, and local refresh. It does not create the represented work, participation, production, result, episteme, outcome, source, currentness, reliance, or representation correspondence.
+**Primary EntityOfConcern.** The primary `EntityOfConcern` is an addressable provenance representation: one `EvidenceGraph`, its `PathId` or `PathSliceId`, and any ledger entry that makes the path replayable. G.6 governs path identity, slicing, citation and refresh of the representation. The represented facts remain governed by their subject patterns.
 
 **First useful move.** Name the relied-on claim or bounded use, then list the exact object refs and direct relation refs needed to replay it. For every relation record its direct governor and obtaining claim. Only then draw the path. Keep an unresolved relation as a gap; do not turn it into a graph edge asserted as obtaining.
 
 **What goes wrong if missed.** A tidy graph makes an unperformed method look like Work, a co-listed System or entity look like a participant or Work performer, a carrier look like a produced result, a measurement or verdict look like generic evidence, or a provenance edge look like the world-side relation itself.
 
-**What this buys.** Downstream work can cite one stable path while a reviewer can still recover the exact work, participants, products, subject results, result epistemes, sources, direct relations, currentness, and bounded use that the path represents.
+**What this buys.** A downstream user can cite one path and recover its supporting facts, their qualifications and the direct relations that connect them. A changed premise can be traced to every dependent path within the established coverage.
 
-**Not this pattern when.** Use `A.2.4` for the first evidence-use or status-use classification, `A.10` for source recovery and bounded reliance, `A.15.1` and `F.6` for performed Work and its attribution, `A.2.1` only when an assignment occurrence itself is current, `A.6.1` for actual operation bindings, `A.15.PROD` when production or inception is current, the exact domain pattern for its local result, `C.2.1` for the result episteme, `G.11` for currentness, `C.29` for representation correspondence, and `B.3` for assurance. If only one local source-to-use statement is needed, stay in A.10.
+**Not this pattern when.** If the required fact or relation has not been established, use its subject pattern in §4.1 first. If only one local source-to-use statement is needed, stay in A.10.
 
-Here `path` means a path in a descriptive provenance graph. It is not an action route, method, workflow, transformation flow, universal evidence relation, or generic work-result relation.
+Here `path` means a path in a descriptive provenance graph, not an action route.
 

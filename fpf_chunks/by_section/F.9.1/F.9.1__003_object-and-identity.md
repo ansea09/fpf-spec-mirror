@@ -6,12 +6,12 @@ section_id: "F.9.1:2"
 section_title: "Object and identity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__003_object-and-identity.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:2 — Object and identity"
-line_start: 121173
-line_end: 121186
+line_start: 121096
+line_end: 121109
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
@@ -41,7 +41,7 @@ A bridge stance note is an ordinary C.2.1 episteme. It is not a U-kind and it is
 Its C.2.1 identity is settled as follows:
 
 - its `EntityOfConcern` is one exact F.9 bounded-use claim;
-- its `ClaimGraph` states the selected stance, the ordinary-language reading that stance abbreviates, and the nearest overread it rejects;
+- its `ClaimGraph` states the selected stance, the ordinary-language reading that stance abbreviates, and any grounded overread it needs to reject;
 - its effective `ReferenceScheme` supplies the local meanings of the stance wording.
 
 Changing the bounded-use claim, stance, material reading boundary, or effective scheme identifies another stance episteme. Rewording that preserves those values may be a new edition of the same claim-bearing account under the applicable C.2.1 edition rule. Changing how the note is published or found—for example, its Card, registry entry, file, or visual placement—does not reidentify it.

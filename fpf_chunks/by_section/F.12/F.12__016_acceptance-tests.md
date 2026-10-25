@@ -6,12 +6,12 @@ section_id: "F.12:15"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__016_acceptance-tests.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:15 — Acceptance tests"
-line_start: 122107
-line_end: 122133
+line_start: 122030
+line_end: 122056
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -60,7 +60,7 @@ keywords:
 * **SCR-F12-S07 (result and status).** The operation result stays on its declared scale; RequirementStatus and EvidenceStatus are mapped separately, and evidence insufficiency is never implicit target falsity.
 * **SCR-F12-S08 (optional episteme).** A C.2.1 verdict episteme exists only for a named later use and remains distinct from result and status.
 * **SCR-F12-S09 (no generic Bridge).** F.9 is used only for a real local-meaning relation and establishes none of the other relations.
-* **SCR-F12-S10 (temporal honesty).** No timeless or retroactively rewritten result or status assertion appears.
+* **SCR-F12-S10 (temporal identity).** No timeless or retroactively rewritten result or status assertion appears.
 
 #### F.12:15.2 - Regression
 

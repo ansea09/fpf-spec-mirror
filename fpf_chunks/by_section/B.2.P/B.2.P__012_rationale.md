@@ -6,12 +6,12 @@ section_id: "B.2.P:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__012_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:9 — Rationale"
-line_start: 44429
-line_end: 44434
+line_start: 44393
+line_end: 44396
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -47,7 +47,5 @@ keywords:
 
 ### B.2.P:9 - Rationale
 
-Emergence-family wording is useful because it marks a possible explanatory concern. It is dangerous because it can hide the actual object: a holon, system, episteme, capability, characteristic, architecture structure, mathematical expression, evidence relation, source publication, or collection.
-
-B.2.P follows F.19's whole-span reading with compact E.10 cues; E.10.ARCH or a direct subject rule resolves only the remaining FPF ontology question, after which F.19 tests the repaired sentence. This prevents one word from creating several local ontologies.
+Emergence-family wording can mark a useful explanatory question while leaving its object and claim unclear. Read the complete span through F.19 with the E.10 cues. Use E.10.ARCH or a subject pattern only for the remaining FPF meaning question, then reread the repaired sentence through F.19. The result states the object, claim, and conditions needed for its use.
 

@@ -6,12 +6,12 @@ section_id: "B.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__010_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:9 — Consequences"
-line_start: 46403
-line_end: 46410
+line_start: 46342
+line_end: 46349
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -28,7 +28,7 @@ keywords:
 
 | Benefits | Trade-offs / Mitigations |
 | :--- | :--- |
-| **Creates a learning architecture:** The loop gives repeated adaptation a readable structure and connects learning to actual change. | **Record overhead:** A full trace is too heavy for many local changes. *Mitigation:* keep the account proportional to the receiver and expand it only for reliance, assurance, audit, or replay. |
+| **Connects learning to change:** The loop relates an observed basis, a change, and renewed use across repeated adaptations. | **Record overhead:** A full trace is too heavy for many local changes. *Mitigation:* keep the account proportional to the receiver and expand it only for reliance, assurance, audit, or replay. |
 | **Exposes design-reality divergence:** Separate phase outputs make stale descriptions, failed deployment, and missing renewed use visible. | **No automatic success:** The loop cannot guarantee reconciliation. Deployment can fail, evidence can overturn a candidate, and renewed use can reveal another problem. |
 | **Makes evolution auditable:** Named subjects, Systems, Work, identity relations, and evidence let a reviewer reconstruct why a change was made. | **Several patterns remain necessary:** B.4 coordinates their results; it does not replace the subject's identity, Work, evidence, publication, or acceptance patterns. |
 

@@ -6,12 +6,12 @@ section_id: "F.2:7"
 section_title: "Guard-rails (normative, lightweight)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__008_guard-rails-normative-lightweight.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:7 — Guard-rails (normative, lightweight)"
-line_start: 118485
-line_end: 118495
+line_start: 118411
+line_end: 118421
 dependencies:
   - "A.11"
   - "A.7"
@@ -39,6 +39,6 @@ keywords:
 4. **Minimal generality.** The LocalSenseClaim **MUST** say no more than the source use and receiving question require.
 5. **Category hygiene.** A lexical note **MUST NOT** stand in for behaviour, obligation, measurement, kind, assignment, Work, or evidence.
 6. **No cross-source claim.** F.2 **MUST NOT** assert equivalence, subsumption, similarity, permission, or transfer between local meanings.
-7. **Edition and language honesty.** When edition or language changes meaning, recover a distinct source-local claim and interpretation basis; do not manufacture a universal “new Context” rule.
+7. **Edition and language honesty.** When edition or language changes meaning, recover a distinct source-local claim and interpretation basis.
 8. **Parsimony.** Keep the head expressions that affect F.3, F.4, F.8, or a real F.9 question; omit an unused tail.
 

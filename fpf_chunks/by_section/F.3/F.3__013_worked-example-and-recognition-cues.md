@@ -6,12 +6,12 @@ section_id: "F.3:12"
 section_title: "Worked example and recognition cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__013_worked-example-and-recognition-cues.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:12 — Worked example and recognition cues"
-line_start: 118771
-line_end: 118812
+line_start: 118697
+line_end: 118738
 dependencies:
   - "A.11"
   - "A.7"
@@ -52,13 +52,13 @@ Section 12.2 supplies one source-grounded clustering case. The other entries are
 
 **Agent.** Keep a separate local meaning. Tech **agent (PROV-O)**; Plain **responsible participant**. LocalSenseClaim: something responsible for an activity, an entity's existence or another agent's activity. An RBAC permission role is not thereby a PROV agent.
 
-The namespace expansion supports the alias consolidation; the temporal-occurrence and responsibility meanings remain separate. These two local claims answer the receiving question; an F.17 address is added only for a later recurring use.
+The namespace expansion supports the alias consolidation; the temporal-occurrence and responsibility meanings remain separate. These two local claims answer the receiving question; add an F.17 address only when a later use needs that stable address.
 
 #### F.3:12.3 - ITIL 4
 
 **Service-level objective and SLO.** One claim may consolidate the full form and abbreviation when the cited edition uses them interchangeably: a target value or range for a service characteristic. Counterexample: an observed availability value is evidence, not the target.
 
-**Incident.** Claim: an unplanned interruption or reduction in service quality. Counterexample: a plant sensor fault is not an ITIL incident unless another relation is separately established.
+**Incident.** Claim: an unplanned interruption or reduction in service quality. Counterexample: a plant sensor fault that causes no service interruption or reduction in service quality.
 
 #### F.3:12.4 - SOSA/SSN
 

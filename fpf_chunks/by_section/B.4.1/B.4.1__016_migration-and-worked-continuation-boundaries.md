@@ -6,12 +6,12 @@ section_id: "B.4.1:15"
 section_title: "Migration and worked continuation boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__016_migration-and-worked-continuation-boundaries.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:15 — Migration and worked continuation boundaries"
-line_start: 46618
-line_end: 46647
+line_start: 46557
+line_end: 46586
 dependencies:
   - "A.15"
   - "A.16"
@@ -39,7 +39,7 @@ keywords:
 `B.4.1` governs route publication. Use the applicable subject patterns for abductive reasoning, lexical repair, deontic commitment, and work execution when their entry conditions are met.
 
 #### B.4.1:15.1 - Migration from anomaly-first prose
-Older anomaly-first language should be migrated into route publication when the publication does not yet meet anomaly-governance entry conditions.
+If a publication labels a cue as an anomaly before the anomaly's entry conditions hold, recover the stabilized cue and publish its candidate routes.
 
 #### B.4.1:15.2 - Intervention vs inquiry split
 An operator-facing disturbance may legitimately support both:

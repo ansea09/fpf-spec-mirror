@@ -6,14 +6,15 @@ section_id: "G.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__010_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:9 — Consequences"
-line_start: 129556
-line_end: 129570
+line_start: 129453
+line_end: 129467
 dependencies:
   - "A.10"
+  - "A.10.1"
   - "A.13"
   - "A.15.1"
   - "A.15.PROD"
@@ -61,7 +62,7 @@ keywords:
 Benefits:
 
 * downstream records cite evidence-provenance paths without copying evidence tables;
-* source, bridge, policy, edition, and time changes reopen the smallest path slice;
+* source, bridge, policy, edition and time changes reopen their full affected dependency scope while preserving independent results;
 * evidence, assurance, causal use, status, gate, work, and publication claims stay in their subject patterns;
 * provenance becomes replayable and privacy-minimizable through scoped refs.
 

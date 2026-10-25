@@ -6,12 +6,12 @@ section_id: "B.1.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__011_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:9 — Consequences"
-line_start: 41928
-line_end: 41942
+line_start: 41911
+line_end: 41925
 dependencies:
   - "A.1"
   - "A.10"
@@ -34,14 +34,14 @@ keywords:
 
 Positive consequences:
 
-- Dependency views become useful without becoming hidden ontology.
-- External influences can be discussed without corrupting parthood.
+- Dependency views expose the relations they represent.
+- External influence and parthood are assessed as separate claims.
 - Graph checks keep their value and their limits.
-- B.1 aggregation receives cleaner part-whole inputs.
+- B.1 aggregation can rely on explicitly grounded part-whole inputs.
 
 Costs:
 
-- A diagram alone is no longer enough; relation kinds and the patterns that define or test them must be named.
+- Name the relation kinds and the patterns that define or test them, in the diagram or its accompanying explanation.
 - Some compact dependency graphs need multiple relation layers or views.
 - Graph-based checks may need C.29 when the mathematical lens is relied on.
 

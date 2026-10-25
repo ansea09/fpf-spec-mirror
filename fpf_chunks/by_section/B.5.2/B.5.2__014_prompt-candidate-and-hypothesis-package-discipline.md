@@ -6,12 +6,12 @@ section_id: "B.5.2:13"
 section_title: "Prompt, Candidate, and Hypothesis Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__014_prompt-candidate-and-hypothesis-package-discipline.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:13 — Prompt, Candidate, and Hypothesis Package Discipline"
-line_start: 50135
-line_end: 50175
+line_start: 50074
+line_end: 50114
 dependencies:
   - "A.10"
   - "A.16"
@@ -51,7 +51,7 @@ A candidate-set note is the minimal record that preserves rival plurality. It ne
 - whether the candidate remains live, is deferred, or is rejected,
 - and the implication or possible evidence that would best discriminate among remaining rivals, with an availability limitation when it changes the receiving use.
 
-The important point is not bureaucratic completeness. The important point is to prevent retrospective rewriting in which the surviving candidate is made to look as if it had been the only serious option from the beginning.
+Keep the alternatives visible so a later reader can recover what was compared before the preferred candidate was selected.
 
 #### B.5.2:13.3 - Prime-hypothesis record
 
@@ -64,5 +64,5 @@ A selected prime hypothesis should preserve more than the hypothesis sentence it
 - the **allowed downstream use or next question**, which may concern deduction, a possible probe, a separately justified action or reconsideration; include availability limits when they change that use,
 - and any **known fragilities** already visible at selection time.
 
-This is how `B.5.2` stays connected to the rest of the reasoning cycle. The abductive loop does not merely emit an idea; it emits a conjecture with explicit downstream-use terms.
+These terms let the recipient choose a permitted continuation from the conjecture.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.RQ.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
-line_start: 83731
-line_end: 83953
+line_start: 83661
+line_end: 83883
 dependencies:
   - "A.3.1"
   - "C.11"

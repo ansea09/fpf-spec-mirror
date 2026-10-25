@@ -6,12 +6,12 @@ section_id: "B.1.4:1.2"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:1.2 — Forces"
-line_start: 42492
-line_end: 42501
+line_start: 42470
+line_end: 42479
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -42,5 +42,5 @@ keywords:
 | Temporal coverage vs. carrier identity | A phase aggregate needs useful time windows, but it must not hide that the carrier changed identity. |
 | Design-time relation vs. run-time history | Method order, work plan, and performed work often share labels, but they are different claims. |
 | Compact notation vs. ontology | `Gamma_ctx`, `Gamma_time`, graph, or algebra notation can make a relation easy to use, but cannot create a holon, method, work occurrence, or transformation. |
-| Local aggregation vs. stronger return | The pattern should keep a small aggregation record, while sending resource, evidence-currentness, transformation, and MHT claims to their owners. |
+| Local aggregation vs. related claims | The aggregation account should remain compact while retaining links to the independent grounds for resource, evidence-currentness, transformation, and MHT claims. |
 

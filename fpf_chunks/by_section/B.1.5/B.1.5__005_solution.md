@@ -6,12 +6,12 @@ section_id: "B.1.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:4 — Solution"
-line_start: 42759
-line_end: 42959
+line_start: 42735
+line_end: 42935
 dependencies:
   - "A.1"
   - "A.15"
@@ -73,13 +73,13 @@ Start with the smallest useful composition claim:
 2. In ordinary domain language, state the candidate's reusable whole action, what each part contributes, and the order, guard, adapter, or join condition that the whole action actually needs.
 3. For every whole-forming statement other than B.1.5's narrow `methodPartOf`, use A.6.RCD's lightest sufficient disposition: an existing direct predicate, a local compound claim, or a reusable predicate-definition episteme. A convenient edge label is not a relation-kind admission.
 4. Add stable relation-occurrence identity, typed declarations, publication, or assurance only when a named dependent use consumes that extra result. Submit any relation-kind candidate to the exact E.24/E.24.UK admission predicates rather than admitting it here.
-5. If the whole action, boundary, contribution, or reidentification rule is still missing, stop the composite claim and keep the useful lower object under its subject pattern.
+5. If the whole action, boundary, contribution, or reidentification rule is still missing, stop the composite claim. Retain any independently supported description, plan, structure, or other result under its subject pattern.
 
 **Minimal positive.** `BuildAndVerifyPumpUnit` is already an exact A.3.1 Method. Its construction rule requires frame assembly, motor installation, connector adaptation when the installed connector does not meet the test precondition, and functional testing; installation and any required adaptation must finish before testing, and adapter failure stops the whole before test. These plain claims, exact `methodPartOf` facts, and the whole identity rule can warrant the composite-method qualification without minting one relation kind per arrow.
 
 **Discriminating non-composite.** `AssessVitals`, `ClassifyUrgency`, and `RouteToCare` can support readable result-to-precondition and guarded-dispatch claims while still lacking one reusable whole action, complete boundary, and whole reidentification rule. Keep those claims local and do not call their organization a composite Method. Select an A.22 `U.Structure` only if a real receiving use needs a load-bearing selected organization.
 
-When a caller system, planner system, substituting-method selection use, auditor, or assurance use needs a reliance-bearing account, check the complete coordinates below. This is a reading checklist, not a schema, record, `RelationSignature`, or set of `SlotSpec`s.
+When a receiving use relies on the composition account—for example, planning, Method substitution, or assurance—check the complete questions below. They guide reading; they do not declare a schema or relation signature.
 
 ```text
 Composite-method qualification:
@@ -119,7 +119,7 @@ An apparent step can be:
 - mechanism or formal-substrate material;
 - quoted wording that does not yet carry a method claim.
 
-Only the first case can be a method part. Do not mint `U.StepSpec`, `U.StepMethod`, `U.MethodStep`, or `U.MethodAlgebra` for the others.
+Only an independently identified `U.Method` can be a method part; keep the other objects under their own patterns.
 
 B.1.5 directly governs `MethodPartOfRelation`, expressed in Plain register as `methodPartOf(partMethod, wholeMethod)`. Both participants are exact `U.Method` values already identified under A.3.1. The predicate obtains exactly when the whole Method's stable construction rule names the part Method as a required contributor or as an admitted alternative for a required contribution, and that contribution participates in the whole's reusable action. It establishes neither A.14 structural-component parthood, a work part, nor a transformation part.
 
@@ -193,7 +193,7 @@ In B.1.5, *composite-Method boundary account* is the local Plain phrase for this
 3. An independently identified reusable boundary-account arrangement is a publication-form participant only while E.24.PUB `PublicationFormExpressionRelation(description edition, boundary-account form, bounded-use declaration)` obtains.
 4. A paper card, poster, page, file, or screen must first be identified independently as a physical or digital `U.PresentationCarrier`; E.24.PUB `PublicationFormBearingRelation(carrier, boundary-account form)` then states which form it bears.
 5. An actual system performs separate rendering, printing, uploading, indexing, or access-granting publication Work. That Work may establish or restore availability, but it is not the publication occurrence or one of its participants.
-6. One `EpistemePublicationRelation` occurrence, with the exact five participants `<description edition, audience-declaration episteme, bounded-use-declaration episteme, boundary-account form, carrier>`, makes the edition available to the declared audience for the declared use throughout its maximal continuous interval of availability. The relation occurrence is not performed by the publishing system, and the boundary-account form does not publish itself.
+6. One `EpistemePublicationRelation` occurrence, with the exact five participants `<description edition, audience-declaration episteme, bounded-use-declaration episteme, boundary-account form, carrier>`, makes the edition available to the declared audience for the declared use throughout its maximal continuous interval of availability.
 7. Names, labels, and links that designate the Method or description edition remain separately governed designation content. Neither the form nor the carrier establishes designation merely by displaying similar words.
 
 ```text
@@ -211,13 +211,13 @@ Reader-facing boundary-account prompts:
   plain rationale for each encapsulated interaction on which misuse is likely
 ```
 
-These prompts organize presentation; they are not direct-relation `SlotSpec`s, relation participants, Method parts, or a schema that creates a Method. None supplies the world-side `methodPartOf` facts or any other whole-forming claim. For a lightweight internal use, state the few boundary decisions in clear sentences and stop; do not create a description edition, declaration episteme, boundary-account form, carrier, publication Work, or publication occurrence by ritual.
+These prompts organize presentation; they are not direct-relation `SlotSpec`s, relation participants, Method parts, or a schema that creates a Method. None supplies the world-side `methodPartOf` facts or any other whole-forming claim. For a lightweight internal use, state the boundary decisions in clear sentences and stop. Use the publication branch only when a receiver needs that published account.
 
 #### B.1.5:4.5 - Keep Method Qualification And Work Occurrence Separate
 
 B.1.5 evaluates and grounds the composite-method qualification of an exact `U.Method` already identified under A.3.1. A separately constituted `U.MethodDescription` may state that composition claim. Neither object creates performed Work.
 
-One dated `U.Work` occurrence enacts one exact `U.Method` only when the A.15.1 method-enactment relation obtains. Recover each exact actual performer through A.13; A.15.1 then independently identifies the Work, time, containing System, and enacted Method. F.6 enters only when the Method-enactment account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work and enactment intact. The System acts and the assignment does not. An assertion or occurrence description may cite those facts and the MethodDescription used; the Work occurrence does not store a card or record.
+One dated `U.Work` occurrence enacts one exact `U.Method` only when the A.15.1 method-enactment relation obtains. Recover each exact actual performer through A.13; A.15.1 then independently identifies the Work, time, containing System, and enacted Method. F.6 enters only when the Method-enactment account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work and enactment intact. The performing System acts under the recovered relations. An assertion or occurrence description may cite those facts and the MethodDescription used.
 
 Parameter bindings, affected referents, resource use, telemetry, retries, results, actual transformations, production, evidence, evaluation, delivery, and acceptance remain separate objects and direct relations under their own governors. They do not become method parts, method identity fields, or generic Work outcomes merely because a report places them beside the Work.
 
@@ -229,7 +229,7 @@ The composition link is not one-to-one. A Work occurrence may enact the whole me
 - the method-side object: exact A.3.1 submethod, `methodPartOf` occurrence, whole-forming claim at its A.6.RCD disposition, preconditions, intended result or preserved condition, interface boundary, and whole-Method identity;
 - the cross-side fact: the exact `enactsMethod(workPart, submethod)` occurrence.
 
-If any side is missing, lower only that side. Do not repair a missing submethod by inventing a work part, and do not repair a missing work part by inventing a submethod. Keep a method-description node, evidence segment, mechanism material, system-component behavior, or `A.15.4` appearance-based reliance repair request under its subject pattern.
+If one of these grounds is missing, leave that claim unresolved while retaining the independently supported claims. A Work part and a submethod each need their own grounds. Keep a method-description node, evidence segment, mechanism material, system-component behavior, or `A.15.4` appearance-based reliance repair request under its subject pattern.
 
 For an ordinary working question—what larger work is being done through this action now—use **B.1.5.EW**. It recovers the constitutive connections at the needed grain and shows how a changed encompassing condition changes the action. An ongoing whole need not be completed, and its constituents need not all act at once. When changing a constituent for use in one or several wholes, **B.1.5.RS** follows the change through their entry conditions, interactions and required results. The qualifications above still decide the corresponding Method and Work claims.
 
@@ -241,7 +241,7 @@ B.1.5 has three common use positions, but they are positions in use, not U-kinds
 - **Performed-work use.** Recover each exact actual performer through A.13, let A.15.1 independently admit the Work, and recover the exact `enactsMethod` occurrence for the whole Work. Add the exact covering A.2.1 assignment and F.6 relation only when this use expressly consumes precise assignment-bound attribution; missing or failed F.6 leaves the Work and enactment intact. Check capability fit or admission only when the work-entry decision consumes those claims; then check preconditions, order conformance, and exposed or forwarded interactions through their subject patterns. State resource use, evidence, and results only through their own obtaining relations. None becomes part of the method.
 - **Assurance use.** Identify cutset submethods, fragile typed joins, adapter points, mapping congruence or CL-sensitive edges, and the envelope or scope in which the composite method is expected to hold. B.3 and related assurance patterns evaluate those hooks; B.1.5 only makes them visible.
 
-Useful invariants remain: a single recovered submethod composed alone does not create a surprising new Method; order is deterministic only under the exact order claims and conditions at their selected A.6.RCD dispositions; any throughput or quality bound must name its characteristic, critical path, and weakest-link basis; strengthening a submethod, adapter, or typed join should not make the composite Method worse unless a stated side condition changes.
+Useful invariants remain: a single recovered submethod composed alone does not create a surprising new Method; order is deterministic only under the exact order claims and conditions at their selected A.6.RCD dispositions; any throughput or quality bound must name its characteristic, critical path, and weakest-link basis; a claim that improving a submethod, adapter, or typed join improves the composite must name the characteristic and conditions under which that improvement transfers.
 
 ##### B.1.5:4.5.2 - Stop Before Transformation Composition
 
@@ -262,5 +262,5 @@ Typical cases:
 
 The selected structure is a dependent organization for its named use. It does not create its constituents or relations, become a Method, or supply holonhood. Conversely, the internal construction of one exact Method whose composite qualification has been established does not become a second generic structure merely because a diagram can display it. Select a `U.Structure` only when that organization itself changes the next question or action.
 
-This lower object is not a failure. It is the right governed object when relation organization is useful but whole-method construction is not current.
+A selected structure is useful when the question concerns relation organization and does not require a composite Method.
 

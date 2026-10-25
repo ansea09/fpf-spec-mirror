@@ -6,12 +6,12 @@ section_id: "F.2:6"
 section_title: "Solution — three mental moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__007_solution-three-mental-moves.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:6 — Solution — three mental moves"
-line_start: 118465
-line_end: 118484
+line_start: 118391
+line_end: 118410
 dependencies:
   - "A.11"
   - "A.7"
@@ -43,11 +43,11 @@ Name the source and edition, locate the passage, and recover the effective refer
 
 Ask: **“How does this source itself say it?”**
 
-Choose the LNF with minimal editing. Keep an idiomatic Tech label, add a genuinely explanatory Plain label, and write one LocalSenseClaim. Prefer the source’s head noun and meaningful modifiers. Put behavioural equations, obligations, measurements, and kind criteria under their direct patterns rather than inside the lexical note.
+Choose the LNF with minimal editing. Keep an idiomatic Tech label, add an explanatory Plain label, and write one LocalSenseClaim. Prefer the source’s head noun and meaningful modifiers. Put behavioural equations, obligations, measurements, and kind criteria under their direct patterns rather than inside the lexical note.
 
 #### F.2:6.3 - Move C — Fence the result
 
 Ask: **“What has this source use not established?”**
 
-Refuse to infer sameness, substitution, hierarchy, or transfer across sources; refuse to merge a materially different edition or language use by spelling alone; and refuse to treat the expression as the value that the substantive claim is about. Record an itch to compare for F.9, but do not settle it in F.2.
+Refuse to infer sameness, substitution, hierarchy, or transfer across sources; refuse to merge a materially different edition or language use by spelling alone; and refuse to treat the expression as the value that the substantive claim is about. Take a needed cross-source relation question to F.9.
 

@@ -6,12 +6,12 @@ section_id: "A.1.CSD:9"
 section_title: "Consequences and Reopen Condition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__011_consequences-and-reopen-condition.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:9 — Consequences and Reopen Condition"
-line_start: 4006
-line_end: 4013
+line_start: 3992
+line_end: 3999
 dependencies:
   - "A.1"
   - "A.1.SCR"

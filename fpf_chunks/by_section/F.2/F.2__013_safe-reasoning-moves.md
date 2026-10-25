@@ -6,12 +6,12 @@ section_id: "F.2:12"
 section_title: "Safe reasoning moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__013_safe-reasoning-moves.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:12 — Safe reasoning moves"
-line_start: 118559
-line_end: 118569
+line_start: 118485
+line_end: 118495
 dependencies:
   - "A.11"
   - "A.7"
@@ -36,7 +36,7 @@ keywords:
 1. **Localise.** Hear the expression only in the exact source use now under examination.
 2. **Recover.** Identify the edition, passage, effective scheme, and source-local claim.
 3. **Normalise minimally.** Choose an LNF that preserves the source’s idiom.
-4. **Explain twice.** Keep an idiomatic Tech label and a genuinely helpful Plain label.
+4. **Explain twice.** Keep an idiomatic Tech label and a helpful Plain label.
 5. **Check scope.** Tighten any sentence that says more than the passage supports.
 6. **Signal homonymy.** Note repeated spelling without claiming a relation.
 7. **Stop.** When the local note is clear enough for the receiving question, do not add a cell or comparison merely for completeness.

@@ -6,12 +6,12 @@ section_id: "G.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__011_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:10 — Rationale"
-line_start: 127512
-line_end: 127516
+line_start: 127412
+line_end: 127415
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -52,6 +52,5 @@ keywords:
 
 ### G.2:10 - Rationale
 
-SoTA synthesis is a bottleneck for new `CG‑Frame` work: without a disciplined harvest, downstream formalization (CHR/CAL) and operational selection (G.5) either (i) inherit hidden semantic collisions, or (ii) re‑invent incompatible “mini‑standards.”
-`G.2` resolves this by treating SoTA work as a **publishable kit**: explicit plurality, explicit crossings, explicit evidence anchors, and explicit hand‑offs.
+Source-qualified claims let CHR/CAL authors and G.5 selectors reuse a comparison basis without re-harvesting it. Separate Claim Sheets preserve lineage commitments; justified mappings and support relations permit a qualified joint conclusion. The pack keeps these grounds citable for reuse and refresh.
 

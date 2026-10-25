@@ -6,14 +6,15 @@ section_id: "G.6:4"
 section_title: "Solution — cite independently governed objects and relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__005_solution-cite-independently-governed-objects-and-relations.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:4 — Solution — cite independently governed objects and relations"
-line_start: 129332
-line_end: 129491
+line_start: 129218
+line_end: 129379
 dependencies:
   - "A.10"
+  - "A.10.1"
   - "A.13"
   - "A.15.1"
   - "A.15.PROD"
@@ -78,7 +79,7 @@ Create an `EvidenceGraph` only after the relied-on claim or bounded use and its 
 | Transformation-flow structure distinct from performed work | `E.18` and `E.18.2` |
 | First evidence/status use, provenance and bounded reliance, currentness, or assurance | `A.2.4`, `A.10`, `G.11`, or `B.3` respectively |
 
-G.6 does not substitute for any row. If the subject pattern or relation cannot be recovered, the path records an unresolved gap and cannot present that edge as obtaining.
+If the subject pattern or relation cannot be recovered, the path records an unresolved gap and cannot present that edge as obtaining.
 
 Do not add a local `U.EvidenceRole` or turn proof, measurement, benchmark, source, or status labels into system-role kinds. For any claim that a producer, verifier, laboratory, issuer, or maintainer participates, recover the exact direct relation, the participants it declares, and the place each actual participant fills. Other nearby facts—for example, a local system-role kind, assignment, Work occurrence, responsibility, authority, or permission—are separate and may be cited only when they independently obtain; none establishes participation. Do not infer that a passive laboratory or produced entity performs Work merely because the path cites it.
 
@@ -86,7 +87,7 @@ Do not add a local `U.EvidenceRole` or turn proof, measurement, benchmark, sourc
 
 #### G.6:4.2 - EvidenceGraph as a representation
 
-An `EvidenceGraph` is a typed directed graph used for provenance citation and replay. It may project a dependency-closed slice of independently governed objects and relations. It is not a holarchy, work plan, method, transformation flow, result algebra, or proof that its contents obtain.
+An `EvidenceGraph` is a typed directed graph used for provenance citation and replay. It may project a dependency-closed slice of independently governed objects and relations.
 
 Minimal graph fields:
 
@@ -106,7 +107,7 @@ EvidenceGraph:
   C29RepresentationRefs
 ```
 
-A node record is a projection, not a new universal object kind:
+A node record is a projection:
 
 ```text
 RepresentedNodeRecord:
@@ -118,7 +119,7 @@ RepresentedNodeRecord:
   RepresentationRef
 ```
 
-The node set may cite exact Work occurrences and their A.13-qualified actual performer Systems. It may also cite local system-role kinds, assignment occurrences whose identities the path uses, obtaining F.6 relations when precise attribution is expressly consumed, direct participation and binding facts, produced entities, subject results, result epistemes, outcomes, sources, carriers, currentness results, reliance dispositions, and later Work. Every cited Work occurrence uses the independently established performer and A.15.1 Work refs described in §4.1; F.6 refs are optional and never discover the performer. Co-listing creates no relation among these objects.
+Node records use the object kinds and subject patterns in §4.1. Every cited Work occurrence uses the independently established performer and A.15.1 Work refs specified there; add F.6 refs only when precise attribution is consumed. Co-listing creates no relation among the cited objects.
 
 An asserted edge is also a projection:
 
@@ -136,7 +137,7 @@ RepresentedRelationEdgeRecord:
 
 Before the edge enters a relied-on path, the exact direct relation must already be established under its governor. The participant refs in the edge must match that relation; adjacency, direction, shared identifiers, timestamps, source order, or visual layout cannot supply them. `RepresentationRef` points outward to the applicable C.29 correspondence when that correspondence is current.
 
-G.6 defines no fallback core edge vocabulary. Legacy or display labels such as `verifiedBy`, `validatedBy`, `measuredBy`, `producedByWork`, `derivedFrom`, `usesMethodDescription`, `citesSource`, or `evidences` are navigation prompts only. Replace each with the exact formal, measurement, work, production, publication, representation, provenance, temporal, status-use, premise, reference, argument, or other direct relation before asserting the edge as obtaining.
+G.6 defines no fallback core edge vocabulary. Legacy or display labels such as `verifiedBy`, `validatedBy`, `measuredBy`, `producedByWork`, `derivedFrom`, `usesMethodDescription`, `citesSource` or `evidences` are navigation prompts. Recover the exact direct relation and its governor before asserting an edge as obtaining.
 
 #### G.6:4.3 - PathId and PathSliceId
 
@@ -173,7 +174,7 @@ PathCitationRecord:
 
 #### G.6:4.4 - Provenance ledger
 
-A `ProvenanceLedger` is a citable replay index over `PathCitationRecord` entries. It is not a work-progress log, result registry, review-comment log, process-status log, or ontic source.
+A `ProvenanceLedger` indexes `PathCitationRecord` entries for citation and replay. Its object and relation indexes let a user find paths that cite the same basis.
 
 ```text
 ProvenanceLedger:
@@ -188,17 +189,19 @@ ProvenanceLedger:
   RefreshScopeRule
 ```
 
-The ledger may cite work, participants, produced entities, domain results, result epistemes, outcomes, sources, transformations, representation correspondences, provenance, and later uses. A row establishes none of them. Use a ledger when several downstream consumers need the same path family; do not create one merely because a local A.10 account is easy to write.
+Use a ledger when several downstream consumers need the same path family; a single local source-to-use account can remain in A.10.
 
 #### G.6:4.5 - Refresh and source return
 
-Reopen the smallest affected `PathId`, `PathSliceId`, node projection, or relation-edge projection when any cited object, direct relation, governor, source, bridge, representation correspondence, edition, policy, time window, currentness result, or reliance boundary changes.
+When a cited object, direct relation, governor, source, bridge, representation correspondence, edition, policy, time window, currentness result or reliance boundary changes, start at its node or relation-edge projection. Identify the exact changed claim or condition and the receiving use it may alter. Use the represented-object and direct-relation indexes to locate other `PathId` or `PathSliceId` values that consume the same basis. The first located slice is an entry to this inquiry, not its completion boundary.
 
-If the direct relation no longer obtains or its proof becomes unavailable, remove it from the relied-on path or mark the exact unresolved gap. Do not preserve the edge from graph history, infer a replacement relation, rerun unrelated paths, or certify a new downstream result through refresh alone.
+For each candidate path, recover the actual premise, evidence-use, operation-argument or other direct use under its governor. Follow that dependence while a receiving claim, action or required check can change. A shared calibration, causal assumption or source conclusion can affect several otherwise separate paths; include each affected use. Common storage, a citation or graph reachability alone establishes no such dependence. When a changed source requires discovery beyond an adequate existing index, use A.10.1 for its bounded search, direct-use test and coverage limits. An unsearched or unresolved branch is a limit on the conclusion, not an unaffected branch.
+
+Retain independent results and their qualified paths. For an affected branch, return to the subject pattern to determine whether the available basis supports the same result, a narrower use, a changed result or a scoped gap. If a represented relation no longer obtains or its required support is unavailable, remove it from the relied-on path or mark that gap; retain the earlier account for its historical use where warranted. G.11 uses the resulting dependency scope to decide which refresh actions, if any, are needed. Updating a projection does not establish a replacement relation or perform that Work.
 
 #### G.6:4.6 - Declarative representation discipline
 
-`EvidenceGraph`, `PathId`, `PathSliceId`, and `ProvenanceLedger` tell a reader which already governed account is being cited. They do not tell a worker what to do and they do not reconstruct missing world-side facts.
+`EvidenceGraph`, `PathId`, `PathSliceId` and `ProvenanceLedger` identify the governed accounts a reader can inspect. When a needed account is missing, return to its subject pattern.
 
 | Current phrase or artifact | Required recovery before G.6 representation |
 | --- | --- |
@@ -212,7 +215,7 @@ If the direct relation no longer obtains or its proof becomes unavailable, remov
 
 #### G.6:4.7 - Extension wiring without core drift
 
-Selector, benchmark, assurance, refresh, or telemetry patterns may require additional pins in `PathCitationRecord`. They may cite `PathId` or `PathSliceId`, but they do not mint a universal edge, result, evidence, or criterion-participant relation. Any added graph record still names the exact represented object or direct relation and its governor.
+Selector, benchmark, assurance, refresh or telemetry patterns may require additional pins in `PathCitationRecord` and cite `PathId` or `PathSliceId`. Each added record still names its represented object or direct relation and governor.
 
 `G.5` may cite a path for selector explanation, `G.9` for benchmark replication, `G.11` for local refresh, and B.3 for an assurance input. Their selection, benchmark, currentness, and assurance results remain their own.
 

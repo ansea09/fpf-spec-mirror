@@ -6,12 +6,12 @@ section_id: "G.Core:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:4 — Solution"
-line_start: 125822
-line_end: 126099
+line_start: 125743
+line_end: 126007
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -38,12 +38,12 @@ keywords:
 
 #### G.Core:4.1 - Delegation-first citation for Part‑G‑wide invariants
 
-`G.Core` is a *citation hub*, not a “second spec”. For any Part‑G‑wide invariant that already has a governing definition, `G.Core`:
+For each Part G invariant already defined elsewhere, `G.Core`:
 
 1) standardises naming via `SuiteObligations.*` (A.6.7:4.2), and
 2) records where the invariant is governed, so downstream patterns cite rather than restate.
 
-**Delegation table (normative index; no semantic duplication).**
+**Governing definitions (normative index).**
 
 | Obligation handle | Canonical governing definition(s) | Part‑G note |
 | --- | --- | --- |
@@ -134,7 +134,7 @@ When more than one channel is used, retain every channel's independently require
 
 #### G.Core:4.3 - RSCR Trigger Catalogue and docking discipline
 
-`G.Core` is the **single writer** for Part‑G‑wide trigger kinds.
+`G.Core` defines the canonical Part G trigger kinds.
 
 ##### G.Core:4.3.1 - Definitions
 
@@ -182,21 +182,8 @@ When more than one channel is used, retain every channel's independently require
 
 ##### G.Core:4.3.4 - Canonical trigger catalogue
 
-Use these canonical kinds to classify refresh causes and to interpret the deprecated `G.6:H3` and `G.11:T0…T7` aliases used across `G.0…G.13`:
+Use the canonical kinds defined below to classify refresh causes and interpret the deprecated `G.6:H3` and `G.11:T0…T7` aliases used across `G.0…G.13`.
 
-* `RSCRTriggerKindId.LegalitySurfaceEdit`
-* `RSCRTriggerKindId.PenaltyPolicyEdit`
-* `RSCRTriggerKindId.CrossingBundleEdit`
-* `RSCRTriggerKindId.ReferencePlaneEdit`
-* `RSCRTriggerKindId.EditionPinChange`
-* `RSCRTriggerKindId.TokenizationOrNameChange`
-* `RSCRTriggerKindId.PolicyPinChange`
-* `RSCRTriggerKindId.TelemetryDelta`
-* `RSCRTriggerKindId.FreshnessOrDecayEvent`
-* `RSCRTriggerKindId.EvidenceSurfaceEdit`
-* `RSCRTriggerKindId.MaturityRungChange`
-* `RSCRTriggerKindId.BaselineBindingEdit`
-* `RSCRTriggerKindId.DefaultGoverningDefinitionChange`
 
 ###### G.Core:4.3.4.1 - Canonical kind definitions (normative, minimal)
 
@@ -261,7 +248,7 @@ EvidenceGraph `H3` example causes → canonical kinds:
 
 #### G.Core:4.4 - Default Governing Definition Index
 
-`G.Core` provides an index of Part‑G defaults with **one governing definition** per `DefaultId`. The index is not a “second spec”; it is a cross-reference table that points to the *governing definition reference* (a CC item, policy‑id, or TaskSignature rule) and states applicability conditions.
+The index below identifies **one governing definition** per `DefaultId`: a CC item, policy-id or TaskSignature rule. It also states the default's applicability conditions.
 
 ##### G.Core:4.4.1 - Definitions
 
@@ -276,7 +263,7 @@ EvidenceGraph `H3` example causes → canonical kinds:
 * Exactly one governing definition per `DefaultId`.
 * Any other mention in `G.x` MUST be a citation/delegation to the governing definition, not a competing statement.
 * A default may be conditional (default-rule) with explicit applicability conditions.
-* The Default Governing Definition Index SHALL NOT be used to “smuggle” mandatory invariants as defaults. Invariants remain invariants (typically cited through `CC‑GCORE‑…` and their canonical governing definitions).
+* The Default Governing Definition Index SHALL contain only defaults. Cite mandatory invariants through `CC‑GCORE‑…` and their governing definitions.
 
 ##### G.Core:4.4.3 - Default governing definitions
 
@@ -286,7 +273,7 @@ EvidenceGraph `H3` example causes → canonical kinds:
 | `DefaultId.DominanceRegime`     | `CC‑G5.28`                                                | Existing governing definition; other mentions delegate to it. |
 | `DefaultId.GammaFoldForR_eff` | `CC‑G5.4` | Model-qualified support composition under B.3/C.2.2; no universal numeric fold. Keep separate support when no common model is justified. |
 
-This table may grow over time; the rule is that the **governing definition must already be named** (or be intentionally set to `G.Core` when the default is truly Part‑G‑wide and not governed elsewhere). Any change in a row (add/remove/change governing definition) SHALL be treated as a refresh‑sensitive edit and recorded as `RSCRTriggerKindId.DefaultGoverningDefinitionChange` (payload: affected `DefaultId.*`, old governing definition ref, new governing definition ref).
+To add a default, name its governing definition. Use `G.Core` as that definition only for a Part G default not governed elsewhere. Any change in a row (add/remove/change governing definition) SHALL be treated as a refresh‑sensitive edit and recorded as `RSCRTriggerKindId.DefaultGoverningDefinitionChange` (payload: affected `DefaultId.*`, old governing definition ref, new governing definition ref).
 
 #### G.Core:4.5 - ID continuity protocol (Δ‑discipline)
 

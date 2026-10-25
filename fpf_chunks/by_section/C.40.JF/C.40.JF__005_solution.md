@@ -6,12 +6,12 @@ section_id: "C.40.JF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:4 — Solution"
-line_start: 87100
-line_end: 87168
+line_start: 87030
+line_end: 87098
 dependencies:
   - "A.10"
   - "A.15.9"

@@ -6,12 +6,12 @@ section_id: "F.14:15"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__016_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:15 — SoTA-Echoing"
-line_start: 122727
-line_end: 122739
+line_start: 122650
+line_end: 122661
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -59,5 +59,4 @@ F.14 does not import access-control, terminology, credential, or modeling-langua
 | Why must a governed value be recovered before a durable designation or family is minted? | [ISO 704:2022](https://www.iso.org/standard/79077.html) is a **current terminology standard** connecting objects, concepts, definitions, and designations. | **Adopt.** Recover the value and use first; then choose no durable name, an existing designation, a local expression, a NameCard, or a public row only at its own trigger. Reject shared spelling as value identity or semantic equivalence. | Reopen when ISO 704 or F.17 and F.18 change the distinction between a value and its designation or the publication threshold used here. |
 | Why are credential presentation, status, and relying use different from the governed value? | W3C [Verifiable Credentials Data Model v2.0](https://www.w3.org/TR/vc-data-model-2.0/) (2025) is a **current W3C Recommendation** separating issuer, subject, holder, verifier, credential, presentation, and credential status, and leaving authorization decisions outside the data model. | **Adapt.** Keep status, evidence, credential, view, verifier action, and relying decision distinct. Reject a suffix, badge, credential view, or dashboard row as a system-role kind, assignment, permission, assurance, or decision. | Reopen when the VC Recommendation or its status family changes the boundaries among presentation, status, and relying use applied in the worked cases. |
 
-SysML is intentionally excluded from the positive SoTA basis and from lineage for this pattern. The official [OMG SysML 2.0 specification](https://www.omg.org/spec/SysML/2.0) (September 2025) is recorded only as a **rejected-popular comparison**: a modeling-language role spelling does not independently establish FPF's local system-role kind, classification, assignment, capability, permission, Method, or Work. Official status and popularity are not evidence for this anti-explosion question. Reopen that rejection only if demonstrated practice supplies a directly relevant, lower-cost kind-admission and assignment boundary that improves the F.14 cases.
 

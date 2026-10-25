@@ -6,12 +6,12 @@ section_id: "C.2.3:13"
 section_title: "Distinctions for describing expression"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__014_distinctions-for-describing-expression.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:13 — Distinctions for describing expression"
-line_start: 53230
-line_end: 53277
+line_start: 53160
+line_end: 53207
 dependencies:
   - "A.16"
   - "A.18"

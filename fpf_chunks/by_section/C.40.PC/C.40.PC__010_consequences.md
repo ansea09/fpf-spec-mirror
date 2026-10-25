@@ -6,12 +6,12 @@ section_id: "C.40.PC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__010_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:9 — Consequences"
-line_start: 86775
-line_end: 86780
+line_start: 86705
+line_end: 86710
 dependencies:
   - "A.15.9"
   - "A.2.3"

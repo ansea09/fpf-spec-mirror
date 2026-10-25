@@ -6,21 +6,24 @@ section_id: "F.16:3"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__004_core-idea-didactic.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:3 — Core idea (didactic)"
-line_start: 123250
-line_end: 123265
+line_start: 123173
+line_end: 123187
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.2"
+  - "A.2.1"
   - "A.3"
   - "A.6.1"
   - "A.6.RCD"
   - "B.1.5"
   - "B.3"
   - "C.16.P"
+  - "C.3"
   - "E.10.D1"
   - "E.13"
   - "F.0.1"
@@ -53,13 +56,12 @@ A useful worked example is a compact case with nine visible parts:
 
 * **Question and gain** — the recognizable practical problem and what changes when it is solved.
 * **Claim** — one sentence that can be accepted, rejected, or qualified.
-* **Actual subjects** — the Systems, epistemes, Methods, Work occurrences, kinds, assignments, claims, observations, values, operation applications, results, status uses, or other entities involved.
+* **Actual subjects** — the values and entities to which the worked claim applies, with their relevant kinds and relation positions.
 * **Direct patterns** — the patterns that define, constrain, or test each substantive value or relation.
 * **Source basis** — exact sources and editions and the passages or interpretation schemes that matter.
 * **Obtaining relations** — each named directly, with participants, direction, and limits.
 * **Evidence, result, and reliance** — what supports the claim, what evaluation actually returned when one occurred, and what remains uncertain.
-* **Optional aids** — F.17 cells for recurring local meanings and an F.7 table for comparison; neither creates a fact.
+* **Optional aids** — F.17 cells when a local meaning needs a stable address and an F.7 table when comparison needs a display; their presence establishes no fact.
 * **Boundary and checks** — where the example stops and the few checks a reader can replay.
 
-The old theatre metaphor can still help memory: the question is the scene, actual values are the participants, obtaining relations are what happens between them, sources and evidence are what let the audience check the scene, and the boundary says what the scene does not show. No fictional “actor” or “cue” replaces an ontological subject.
 

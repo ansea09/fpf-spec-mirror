@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.OI.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
-line_start: 85852
-line_end: 86116
+line_start: 85782
+line_end: 86046
 dependencies:
   - "A.15.9"
   - "B.5.PI"

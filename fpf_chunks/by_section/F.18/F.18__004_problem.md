@@ -6,12 +6,12 @@ section_id: "F.18:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__004_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:2 — Problem"
-line_start: 124576
-line_end: 124588
+line_start: 124498
+line_end: 124510
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -54,5 +54,5 @@ FPF texts fail when names are treated as if they carried ontology by themselves.
 5. A term chosen for convenience becomes a permanent Core-facing name without candidate comparison, rejected alternatives, or lineage.
 6. Local names proliferate until the corpus has several almost-synonyms and no recoverable reason for choosing one.
 
-The repair is not to choose prettier words. Recover the governed value, then record a naming settlement whose kind, effective reference scheme, exact local sense, intended use, and selected designations remain visible. Publication is a separate later relation.
+Recover the governed value, then record a naming settlement whose kind, effective reference scheme, exact local sense, intended use, and selected designations remain visible. Publication is a separate later relation.
 

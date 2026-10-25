@@ -6,12 +6,12 @@ section_id: "F.10:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__010_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:9 — Consequences"
-line_start: 121617
-line_end: 121624
+line_start: 121540
+line_end: 121547
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -43,9 +43,9 @@ keywords:
 
 ### F.10:9 - Consequences
 
-F.10 adds a small amount of relation recovery before status can be relied on. The user names exact target/result, local value, scheme, scope, window, source, rule, and use instead of letting a word decide everything.
+F.10 requires relation recovery before status can be relied on. The user names exact target/result, local value, scheme, scope, window, source, rule, and use instead of letting a word decide everything.
 
 The payoff is practical: teams can compare statuses across disciplines, explain why a status was asserted or rejected, locate bridge/interpretation loss, and stop a display from becoming target truth, permission, assurance, gate passage, or work evidence.
 
-The cost is that F.10 cannot decide neighboring results. It does not perform measurement or evaluation, compute assurance, approve a standard by speech act, satisfy a clause, pass a gate, authorize work, prove causal effect, decide currentness, or establish actual downstream use.
+The cost is the need to obtain each consumed domain result from its subject pattern; F.10 supplies only the status-use and interpretation judgments.
 

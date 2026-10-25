@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.STRAT.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
-line_start: 73109
-line_end: 73367
+line_start: 73039
+line_end: 73297
 dependencies:
   - "A.10"
   - "A.15"

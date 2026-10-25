@@ -6,12 +6,12 @@ section_id: "B.5.2:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__012_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:11 — SoTA-Echoing"
-line_start: 50117
-line_end: 50120
+line_start: 50056
+line_end: 50059
 dependencies:
   - "A.10"
   - "A.16"
@@ -27,5 +27,5 @@ keywords:
 
 ### B.5.2:11 - SoTA-Echoing
 
-Contemporary inquiry practice in science, engineering, design, and diagnosis treats candidate generation as iterative and contrast-driven rather than singular and opaque. The pattern aligns with that practice, but keeps the representation lightweight: explicit prompts, visible rival candidates, and local plausibility grounds instead of heavyweight ideation machinery.
+Iterative comparison keeps a candidate explanation open to revision as rival explanations and plausibility grounds change. A short publication can preserve the prompt, rival candidates and comparison rationale.
 

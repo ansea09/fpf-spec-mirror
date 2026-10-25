@@ -6,12 +6,12 @@ section_id: "B.1.6:2"
 section_title: "Solution — separate measurement from aggregation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__005_solution-separate-measurement-from-aggregation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:2 — Solution — separate measurement from aggregation"
-line_start: 43679
-line_end: 43744
+line_start: 43653
+line_end: 43718
 dependencies:
   - "A.1"
   - "A.10"
@@ -103,7 +103,7 @@ Recover each of these objects and claims independently:
 - a distinct **C.2.1 aggregation-result episteme** states the result, work set, policy, boundary, time window, qualifications, and uncertainty; and
 - **A.10/G.6 provenance** makes the measurement sources, transformations, aggregation work, and result episteme replayable.
 
-A ledger, dashboard, policy, profile, clause, citation, or graph edge may represent or cite this chain. None establishes work occurrence, actual participation, measurement, aggregation, or result identity by presence.
+A ledger or other representation may describe this chain. Establish the Work, participation, measurements, aggregation, and result identities from their own grounds before relying on that description.
 
 #### B.1.6:2.1 - Subject Pattern Map
 

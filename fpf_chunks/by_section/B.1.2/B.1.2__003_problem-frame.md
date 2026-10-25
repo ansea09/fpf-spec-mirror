@@ -6,12 +6,12 @@ section_id: "B.1.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__003_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:1 — Problem Frame"
-line_start: 42000
-line_end: 42013
+line_start: 41981
+line_end: 41994
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,7 +40,7 @@ keywords:
 
 ### B.1.2:1 - Problem Frame
 
-B.1.2 specializes B.1 for system holons, but it is a coordination method rather than the source of one omnibus system-aggregation relation. The useful engineering question is which exact independently governed facts must be considered together for one aggregation or delimitation decision.
+B.1.2 specializes B.1 for system holons. It coordinates independently grounded facts for one aggregation or delimitation decision; each relation retains its own defining pattern.
 
 Keep five frequently collapsed objects distinct:
 

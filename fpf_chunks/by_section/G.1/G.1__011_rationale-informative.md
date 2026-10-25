@@ -6,12 +6,12 @@ section_id: "G.1:10"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__011_rationale-informative.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:10 — Rationale (informative)"
-line_start: 127025
-line_end: 127031
+line_start: 126926
+line_end: 126932
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -54,8 +54,8 @@ keywords:
 
 ### G.1:10 - Rationale (informative)
 
-* **Why six cards?** It matches the minimal decomposition needed to keep scope, harvesting, generation, selection, publication, and refresh **explicitly separable** (and thus auditable and evolvable).
+* **Six cards** keep scope, harvesting, generation, selection, publication and refresh separately inspectable and changeable.
 * **Why “kit/index” rather than “pack”?** A CG‑Frame authoring effort must stay modular; shipping is a separate governing boundary (`G.10`).
 * **Why put method-specific wiring into Extensions?** It prevents conflating (i) universal invariants, (ii) frame‑specific kit surfaces, and (iii) method/generator families.
-* **Why working‑model first?** Many CG‑Frames fail due to premature formalism; a chassis with didactic micro‑examples improves correctness of pins, names, and boundaries before deep formalisation.
+* **Working models and micro-examples** let authors check pins, names and boundaries before deeper formalisation.
 

@@ -6,21 +6,24 @@ section_id: "F.16:4"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__005_minimal-vocabulary.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:4 — Minimal vocabulary"
-line_start: 123266
-line_end: 123278
+line_start: 123188
+line_end: 123200
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.2"
+  - "A.2.1"
   - "A.3"
   - "A.6.1"
   - "A.6.RCD"
   - "B.1.5"
   - "B.3"
   - "C.16.P"
+  - "C.3"
   - "E.10.D1"
   - "E.13"
   - "F.0.1"
@@ -56,7 +59,7 @@ keywords:
 * **Evidence basis** — the observations, source claims and independently established direct relations supporting the conclusion, represented in A.10's descriptive evidence-provenance account with its bounded-reliance disposition. A separately current B.3 assurance claim retains its own result and limits.
 * **Evaluation result** — when the case evaluates a promise or criterion, the result bound by an exact A.6.1 application during evaluation Work, on the result scale declared by the applicable rule.
 * **Receiving use** — the concrete decision, explanation, comparison, or action for which the result is used.
-* **SchemeSenseCell** — the exact F.17 coordinate `<ReferenceScheme by value, LocalExpression, LocalSenseClaim>`. A separate address resolves that coordinate when recurring use needs it.
+* **SchemeSenseCell** — the exact F.17 coordinate `<ReferenceScheme by value, LocalExpression, LocalSenseClaim>`. A separate address resolves that coordinate when the receiving use needs it.
 * **Comparison table** — an optional F.7 display of exact entries and already obtaining relations.
 * **Window and separation of duties** — F.10 or F.14 constraints included only when time, population, phase, or separation of duties changes the case.
 

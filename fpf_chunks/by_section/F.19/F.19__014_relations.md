@@ -6,12 +6,12 @@ section_id: "F.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__014_relations.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:12 — Relations"
-line_start: 125752
-line_end: 125768
+line_start: 125674
+line_end: 125690
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -39,7 +39,7 @@ keywords:
 | `E.8` | In FPF authoring, keep positive practitioner-facing content and pattern form there; use `F.19` for the shared sentence, coordination, list, and foregrounding repair rather than maintaining a second algorithm. |
 | `E.10` | Use its compact cues to notice likely candidates and its exact rows only for unresolved FPF wording. The final ordinary semantic disposition belongs to `F.19` or the subject pattern. |
 | `E.10.ARCH` | Use the shared wording-use architecture only when subject, predicate, relation, representation, or another ontological value remains unresolved after ordinary reading. |
-| `E.10.ROLE` and `A.6.F` | Route a genuinely unresolved role- or function-shaped claim once; `F.19` keeps the capable-subject and metonymy boundary without copying either taxonomy. |
+| `E.10.ROLE` and `A.6.F` | Route an unresolved role- or function-shaped claim once; `F.19` keeps the capable-subject and metonymy boundary without copying either taxonomy. |
 | `F.18` | Use it for durable reusable names after kind and use are known. |
 | `A.6.P` | Use it when the remaining content hides relation kind, endpoint, basedness, anchoring, slot, relation position, or use relation. |
 | `A.19.SPR`, `C.2.P`, `C.16.P`, `C.30.P` | Use the applicable pattern for unresolved state-family, source or publication, characteristic or scale, and architecture or structure claims. |

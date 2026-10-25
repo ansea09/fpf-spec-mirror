@@ -6,12 +6,12 @@ section_id: "B.5.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__002_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.3 — Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)"
   - "B.5.3:1 — Problem Frame"
-line_start: 50659
-line_end: 50664
+line_start: 50589
+line_end: 50594
 dependencies:
   - "A.13"
   - "A.15"
@@ -44,7 +44,7 @@ keywords:
 
 ### B.5.3:1 - **Problem Frame**
 
-FPF keeps a small set of admitted U-kinds, ontics, slot relations, mechanisms, characteristics, methods, work values, epistemes, and publication-use relations. Working domains use their own words. A thermodynamicist says "system", "macrostate", "control volume", and "free energy"; a safety engineer says "hazard", "mitigation", and "assurance case"; a software team says "service", "endpoint", and "release".
+Working domains use their own vocabulary, while an FPF claim must preserve the kind and relations its meaning requires. A thermodynamicist uses terms such as "system", "macrostate", "control volume" and "free energy".
 
-Those words are useful. The problem starts when one local word is silently treated as a new root kind, a role assignment, a characteristic, a method, a work occurrence, an evidence relation, or a publication claim without saying which FPF value the claim uses.
+The problem starts when the familiar word substitutes for identifying what the local claim denotes or asserts. The same expression can require different FPF interpretations in different claims.
 

@@ -6,12 +6,12 @@ section_id: "F.9:6"
 section_title: "Bridge kinds"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__008_bridge-kinds.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:6 — Bridge kinds"
-line_start: 120695
-line_end: 120717
+line_start: 120619
+line_end: 120641
 dependencies:
   - "A.10"
   - "A.13"
@@ -61,7 +61,7 @@ A Bridge kind classifies the direct semantic relation tested by a profile. It sa
 
 #### F.9:6.1 - Same-family relation kinds
 
-1. **Equivalence** - the endpoint senses have the same extension and relevant intension under the stated relation condition. The relation is symmetric and should be rare. A later use still names its direction, rule, and tolerance.
+1. **Equivalence** - the endpoint senses have the same extension and relevant intension under the stated relation condition. The relation is symmetric. A later use still names its direction, rule, and tolerance.
 2. **Narrower-than** - the source sense is properly included in the receiving sense. The relation is asymmetric.
 3. **Broader-than** - the source sense properly includes the receiving sense. The relation is asymmetric.
 4. **Partial-overlap** - the senses have a non-empty intersection, while each has cases excluded by the other. The relation is symmetric.

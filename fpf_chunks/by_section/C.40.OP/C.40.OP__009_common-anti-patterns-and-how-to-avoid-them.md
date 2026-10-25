@@ -6,17 +6,18 @@ section_id: "C.40.OP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 87438
-line_end: 87449
+line_start: 87368
+line_end: 87379
 dependencies:
   - "A.15.9"
   - "C.11.CRC"
   - "C.18"
   - "C.19"
+  - "C.40.DC"
   - "C.40.JF"
   - "C.40.PC"
   - "C.40.RQ"

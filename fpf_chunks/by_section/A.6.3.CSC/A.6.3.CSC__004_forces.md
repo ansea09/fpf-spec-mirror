@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:3 — Forces"
-line_start: 18020
-line_end: 18029
+line_start: 18006
+line_end: 18015
 dependencies:
   - "A.15"
   - "A.20"

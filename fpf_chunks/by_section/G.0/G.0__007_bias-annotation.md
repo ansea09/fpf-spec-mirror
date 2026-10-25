@@ -6,12 +6,12 @@ section_id: "G.0:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__007_bias-annotation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:6 — Bias-Annotation"
-line_start: 126500
-line_end: 126508
+line_start: 126402
+line_end: 126410
 dependencies:
   - "A.10"
   - "A.17"
@@ -56,8 +56,8 @@ keywords:
 
 `CG‑Spec` can encode (and therefore amplify) biases if authored carelessly:
 
-* **Tradition favoritism.** Comparator choices may privilege a tradition’s evidence style; mitigation: require explicit evidence minima and explicit crossing costs, and keep cross-tradition aggregation gated by explicit justifications.
+* **Tradition favoritism.** Comparator choices may privilege a tradition’s evidence style; mitigation: declare evidence minima and any justified crossing loss, and require grounds for cross-tradition aggregation.
 * **Metric gaming and Goodhart effects.** Overemphasis on a single scalar can lead to gaming; mitigation: preserve set-return semantics and require explicit, auditable scalarisations when they are lawful and intended.
 * **Hidden thresholds and opaque safety policy.** Embedding acceptance thresholds in prose or code hides value judgments; mitigation: keep thresholds in CAL acceptance clauses and pin policy ids.
-* **Scope creep.** Comparisons leak across entityOfConcern or reference planes; mitigation: require explicit `entityOfConcern` and `ReferencePlane` pins and treat plane moves as explicit crossing events.
+* **Scope creep.** A comparison may be reused for a different entityOfConcern or reference plane. Retain `entityOfConcern` and `ReferencePlane` pins, and apply the governing rule for any plane relation the comparison uses. Include E.18/A.21 crossing or gate pins when that use applies.
 

@@ -6,12 +6,12 @@ section_id: "F.17:7"
 section_title: "Row schema"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__009_row-schema.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:7 — Row schema"
-line_start: 123655
-line_end: 123684
+line_start: 123577
+line_end: 123606
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -71,7 +71,7 @@ Use these positions when they are current. Presence means that the exact referen
 | `BridgeRefs` | only for an actual cross-local relation used by the row | Exact obtaining F.9 occurrences; the separate use claim and reliance stay in rationale or notes. |
 | `Row rationale` | yes | Why these projections form one row decision. |
 | `Admissible use` | yes | Exact citation use supported by the row; it grants no authorization or occurrence. |
-| `Not this use` | yes | Nearest tempting overread that remains blocked. |
+| `Not this use` | when a grounded overreading changes understanding or action | A locally plausible use that the row does not support, with the distinction needed to avoid that error. |
 | `Row edition id` | yes | Designator for this exact row episteme edition. |
 | `EpistemeEditionRelationRef` | only when C.2.1 historical continuation obtains | Separate relation from an exact earlier row episteme to this later one. |
 | `Currentness condition` | yes | Claim stating what reopens review; not a self-proving currentness relation. |

@@ -6,12 +6,12 @@ section_id: "B.2.3:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__011_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:8 — Consequences"
-line_start: 44847
-line_end: 44860
+line_start: 44801
+line_end: 44814
 dependencies:
   - "A.1"
   - "A.10"
@@ -38,7 +38,7 @@ keywords:
 
 Positive consequences:
 
-- Episteme-result MHT becomes usable without preserving title mnemonics as ontology.
+- The practitioner can distinguish a new claim-bearing whole from a collection or changed publication.
 - C.2.1 remains the episteme identity pattern.
 - Publications, source use, synthesis work, evidence, assurance, and acting systems remain separate.
 

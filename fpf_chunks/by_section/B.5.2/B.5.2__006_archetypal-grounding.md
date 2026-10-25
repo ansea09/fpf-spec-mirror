@@ -6,12 +6,12 @@ section_id: "B.5.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__006_archetypal-grounding.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:5 — Archetypal Grounding"
-line_start: 50074
-line_end: 50081
+line_start: 50013
+line_end: 50020
 dependencies:
   - "A.10"
   - "A.16"
@@ -27,7 +27,7 @@ keywords:
 
 ### B.5.2:5 - Archetypal Grounding
 
-**Tell.** Abduction is not "a flash of insight." It is the governed passage from a typed prompt to a candidate conjecture through explicit rival generation and plausibility comparison.
+**Tell.** Abduction develops a candidate conjecture from a typed prompt through explicit rival generation and plausibility comparison.
 
 **Show (System).** An operations team sees a recurring latency spike that existing explanations do not cover. They publish an `AnomalyStatement`, compare rival causes against current telemetry and mechanism knowledge, and retain a qualified prime conjecture. They name a possible discriminating probe without assigning a maturity level or committing the service team to an experiment.
 

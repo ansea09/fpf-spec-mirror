@@ -6,12 +6,12 @@ section_id: "B.5.2.0:17"
 section_title: "Scope, rival-set, and comparative-validity discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__019_scope-rival-set-and-comparative-validity-discipline.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:17 — Scope, rival-set, and comparative-validity discipline"
-line_start: 50452
-line_end: 50474
+line_start: 50378
+line_end: 50394
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -46,12 +46,6 @@ One note may legitimately contain a bundle of closely related prompts. If so, th
 
 An assurance reader can test prompt readiness with three questions:
 
-1. **Is there a real open explanatory question?** An asserted answer is no longer a prompt; an action-choice question needs its own Method.
-2. **Is the prompt species plausible?** If the initiating cue shape is opportunity-shaped or probe-shaped, forcing anomaly species is a category error.
-3. **Could rival hypotheses now be compared against this prompt?** If not, the prompt candidate probably needs more stabilization before entering `B.5.2`.
-
-Add three follow-up checks:
-
-- **Is the scope tight enough for downstream comparison?**
-- **Is there an imaginable rival-set, even if not yet fully written?**
-- **Is the narrowing still a question rather than a disguised answer?**
+1. **Is there an open explanatory question?** An asserted answer is no longer a prompt; narrowing the scope must leave the answer open. An action-choice question needs its own Method.
+2. **Does the prompt species fit its initiating grounds?** If those grounds are an opportunity or a probe-related contrast, forcing anomaly species misclassifies the question.
+3. **Could meaningful rival hypotheses now be compared under the declared scope?** The rival set need not yet be fully written, but possible alternatives and a scope that permits their comparison must be recoverable. Otherwise stabilize the prompt before entering `B.5.2`.

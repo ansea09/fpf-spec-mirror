@@ -6,12 +6,12 @@ section_id: "F.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__006_archetypal-grounding.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:5 — Archetypal Grounding"
-line_start: 118153
-line_end: 118280
+line_start: 118079
+line_end: 118206
 dependencies:
   - "A.10"
   - "A.7"
@@ -48,7 +48,7 @@ SPEM 2.0 or ISO 24744 may change the reading of Method and MethodDescription; OW
 
 ##### F.1:5.1.3 - Control, actuation, and services
 
-Control-theory sources, IEC 61131-3, ISA-95, ITIL 4, and SOSA/SSN can contribute different claims about controller design, program execution, integration, service commitments, and observations. A current question may need only a subset. *Actuation* is not a service promise, and *incident* is not a plant fault merely because the words occur near operational work.
+Control-theory sources, IEC 61131-3, ISA-95, ITIL 4, and SOSA/SSN can contribute different claims about controller design, program execution, integration, service commitments, and observations. A current question may need only a subset. Keep an actuation claim separate from a service commitment, and inspect whether an incident report concerns a plant fault.
 
 #### F.1:5.2 - Minimal worked source cut
 

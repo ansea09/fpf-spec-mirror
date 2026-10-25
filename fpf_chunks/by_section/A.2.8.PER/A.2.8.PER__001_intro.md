@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:intro — Intro"
-line_start: 8376
-line_end: 8381
+line_start: 8362
+line_end: 8367
 dependencies:
   - "A.10"
   - "A.13"

@@ -6,21 +6,24 @@ section_id: "F.16:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__002_intent-applicability.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:1 — Intent & applicability"
-line_start: 123230
-line_end: 123239
+line_start: 123153
+line_end: 123162
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.2"
+  - "A.2.1"
   - "A.3"
   - "A.6.1"
   - "A.6.RCD"
   - "B.1.5"
   - "B.3"
   - "C.16.P"
+  - "C.3"
   - "E.10.D1"
   - "E.13"
   - "F.0.1"
@@ -55,5 +58,5 @@ keywords:
 
 **Do not use this when.** A shorter direct example already shows the claim. F.16 does not require a cross-source relation, table row, lexical cell, system-role claim, window, or SoD unless the case actually contains one.
 
-**Non-goals.** No registry, workflow, editor, storage format, or proof by page layout. The template shapes what the reader sees, not how a team produces it.
+**Scope.** The template organizes the explanation presented to the reader.
 

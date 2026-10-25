@@ -6,12 +6,12 @@ section_id: "D.4:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:1.1 — Forces"
-line_start: 91424
-line_end: 91433
+line_start: 91353
+line_end: 91362
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -37,7 +37,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Described conflict vs. premature closure | A conflict description makes action discussable, but does not by itself decide compromise, refusal, or permission. |
-| Evidence demand vs. decision pressure | Work may need a decision, while the ethical claim still needs stronger evidence, causal analysis, assurance, or architecture return. |
+| Evidence demand vs. decision pressure | The decision may be time-sensitive while a claim it relies on still lacks the required support. |
 | Mediation vs. universal authority | D.4 can guide one bounded use of a described conflict, but cannot become a general decision theory. |
 | Residual acceptance vs. hidden harm | Proceeding under residual harm can be admissible only when residuals, the admitted Systems involved, prospective plans or assignment requirements, direct responsibility relations or exact missing governors, and return conditions are explicit. When the account asserts performed work, identify that occurrence and its performer; add assignment attribution when that claim is made. |
 | Mathematical allocation vs. ethical decision | A formula or optimization can inform a decision, but it is not the ethical decision by itself. |

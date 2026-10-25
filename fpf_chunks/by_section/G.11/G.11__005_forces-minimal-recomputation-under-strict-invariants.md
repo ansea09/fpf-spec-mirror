@@ -6,15 +6,17 @@ section_id: "G.11:3"
 section_title: "Forces — Minimal recomputation under strict invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__005_forces-minimal-recomputation-under-strict-invariants.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:3 — Forces — Minimal recomputation under strict invariants"
-line_start: 131510
-line_end: 131517
+line_start: 131397
+line_end: 131404
 dependencies:
+  - "A.10.1"
   - "A.6.RCD"
   - "B.3.4"
+  - "C.11.DUA"
   - "C.18"
   - "C.19"
   - "C.23"
@@ -46,9 +48,9 @@ keywords:
 
 ### G.11:3 - Forces — Minimal recomputation under strict invariants
 
-* **Minimal scope vs. completeness.** Refresh must be *as local as possible* (slice-scoped), but still include a defensible dependency closure over evidence and crossings.
+* **Minimal scope vs. completeness.** Include every actual dependent use that can change, while excluding unrelated work. The resulting closure can contain several slices.
 * **Operational urgency vs. auditability.** Actual refresh Work must remain inspectable through the needed pins, references and paths. A currentness decision or an unchanged use must not become a fictitious Work occurrence.
 * **Alias stability vs. semantic unification.** Existing trigger labels must remain usable, but their meaning must be one governing definition and id-based.
 * **Modularity vs. orchestration power.** `G.11` must coordinate harvesting, parity, and shipping without re-implementing them or importing discipline-specific method semantics into core.
-* **Policy-bound behavior vs. “smart defaults.”** Ordering of refresh, priority heuristics, and budget handling are valuable—but must live as policy-bound extensions, not as hidden universal rules.
+* **Policy-bound behavior vs. “smart defaults.”** Ordering, priority and budget handling must follow their declared policies rather than hidden universal rules.
 

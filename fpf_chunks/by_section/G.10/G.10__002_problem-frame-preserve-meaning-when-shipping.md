@@ -1,0 +1,65 @@
+---
+chunk_kind: "child"
+pattern_id: "G.10"
+pattern_title: "SoTA Pack Shipping"
+section_id: "G.10:1"
+section_title: "Problem frame — Preserve meaning when shipping"
+source_path: "FPF-Spec.md"
+output_path: "by_section/G.10/G.10__002_problem-frame-preserve-meaning-when-shipping.md"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
+heading_path:
+  - "G.10 — SoTA Pack Shipping"
+  - "G.10:1 — Problem frame — Preserve meaning when shipping"
+line_start: 130939
+line_end: 130948
+dependencies:
+  - "A.10"
+  - "A.15.3"
+  - "C.18"
+  - "C.21"
+  - "E.18"
+  - "E.5.2"
+  - "F.17-F.18"
+  - "G.11"
+  - "G.12"
+  - "G.12-G.13"
+  - "G.13"
+  - "G.2"
+  - "G.2-G.9"
+  - "G.3"
+  - "G.4"
+  - "G.5"
+  - "G.6"
+  - "G.7"
+  - "G.8"
+  - "G.9"
+  - "G.Core"
+keywords:
+  - "AuditPins"
+  - "CrossingBundle"
+  - "MOOManifest"
+  - "PathId/PathSliceId"
+  - "PortfolioRosterId"
+  - "RSCR wiring"
+  - "SoTA-Pack(Core)"
+  - "UTS publication"
+  - "edition pins"
+  - "no semantic respecification"
+  - "notation-independent pack"
+  - "pack-boundary governing definition"
+  - "parity pins"
+  - "selector-ready publication surface"
+  - "shipping"
+  - "telemetry pins"
+---
+
+### G.10:1 - Problem frame — Preserve meaning when shipping
+
+Part G produces many **kit-governed** and **suite-governed** publications or records (harvest packs, CHR/CAL packs, evidence graphs, bridge calibration records, log bundles, parity reports). Without an explicit pack boundary, shipping can become:
+
+* a tool-specific export without citable contents, or
+* a silent re-specification step (shipping accidentally redefines legality, defaults, or selection semantics), or
+* a brittle hand‑off that cannot support RSCR/refresh (no actionable pins/editions/policies attached).
+
+`G.10` fixes the pack boundary: it defines the **single, normative shipping surface** for Part‑G outputs — **`SoTA‑Pack(Core)`** — and the composition steps needed to make shipped artefacts **selector-ready** and **audit-citable**. `G.Core` governs the shared invariants.
+

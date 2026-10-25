@@ -6,14 +6,16 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.WT.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
-line_start: 10350
-line_end: 10557
+line_start: 10336
+line_end: 10543
 dependencies:
   - "A.10"
   - "A.15.1"
+  - "A.3.1.CC"
+  - "A.3.1.FT"
   - "A.3.1.QM"
 keywords:
 ---
@@ -151,7 +153,7 @@ The useful A.3.1.WT result is therefore not “SSFD works”. It is a set of rep
 
 #### A.3.1.WT:5.3 - EC-417 Early Stop
 
-The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference169---choose-the-smallest-method-development-result-needed-for-release-ec-417) supplies the receiving problem, alternatives, calculations and the distinct limits used below.
+The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference169---choose-the-method-development-result-needed-for-release-ec-417) supplies the receiving problem, alternatives, calculations and the distinct limits used below.
 
 In `EC-417`, the three-release statement remains a WorkPlan. The three named-user retrieval, tailoring, and selection-support occurrences from A.15.8.MS establish only those support tasks; they do not perform a release or enact the candidate whole `C-EC-Release-v2`.
 

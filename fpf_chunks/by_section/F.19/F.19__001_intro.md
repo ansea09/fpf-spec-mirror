@@ -6,12 +6,12 @@ section_id: "F.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:intro — Intro"
-line_start: 125413
-line_end: 125427
+line_start: 125335
+line_end: 125349
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -41,9 +41,9 @@ keywords:
 **Plain-name.** Ontology-first plain rewriting.
 
 **Intent.**
-Repair technical prose that is grammatically plausible or locally true yet makes the reader supply an unsupported relation, participant, alternative, list meaning, or rhetorical branch. First recover the governing object, claim, action, required operands, referents, and kinds; then remove apparatus and other structure that contributes nothing to the intended use. The normal result is repaired text, not an audit form. Preserve every technical distinction and operational detail that changes truth or action, and route only genuinely unresolved FPF wording to `E.10`, `E.10.ARCH`, `E.10.ROLE`, `A.6.F`, `F.18`, or the subject pattern that defines it.
+Repair technical prose that is grammatically plausible or locally true yet makes the reader supply an unsupported relation, participant, alternative, list meaning, or rhetorical branch. First recover the governing object, claim, action, required operands, referents, and kinds; then remove apparatus and other structure that contributes nothing to the intended use. The normal result is repaired text, not an audit form. Preserve every technical distinction and operational detail that changes truth or action, and route unresolved FPF wording to `E.10`, `E.10.ARCH`, `E.10.ROLE`, `A.6.F`, `F.18`, or the subject pattern that defines it.
 
-**Builds on.** `E.8`, `E.10`, `E.10.ARCH`, `F.18`, `A.6.P`, `A.7`, `E.18`, `E.21`, and source-use, evidence, assurance, gate, work, decision, publication, architecture, characteristic, state-family, and relation patterns when those objects carry the repaired span's claim.
+**Builds on.** `E.8`, `E.10`, `E.10.ARCH`, `F.18`, `A.6.P`, `A.7`, `E.18`, `E.21`, and the subject patterns governing the repaired span's claims.
 
-**Coordinates with.** `E.19`, `E.22`, `E.23`, `A.19.SPR`, `C.2.P`, `C.16.P`, `C.30.P`, `E.11`, pattern-quality records, review records, `DRR`s, projection loci, and source-side notes.
+**Coordinates with.** `E.19`, `E.22`, `E.23`, `A.19.SPR`, `C.2.P`, `C.16.P`, `C.30.P`, and `E.11`.
 

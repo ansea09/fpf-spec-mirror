@@ -6,12 +6,12 @@ section_id: "F.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__002_use-this-when.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:0 — Use This When"
-line_start: 119215
-line_end: 119253
+line_start: 119140
+line_end: 119178
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,19 +63,19 @@ Use F.5 when a project needs a durable name for either:
 Typical moments:
 
 - a Concept-Set comparison has enough witnesses for a naming question and the reusable value is already admitted, but candidate names import one source tradition too strongly;
-- an F.4 description names `ReviewerSystemRole`, `OperatorSystemRole`, `InspectorSystemRole`, or `TransformerSystemRole`, and the label must remain faithful to the exact local kind without smuggling assignment, capability, permission, Method, Work, evidence, status, or responsibility;
+- an F.4 description names `ReviewerSystemRole`, and the label must remain faithful to the exact local kind without smuggling assignment, capability, permission, Method, Work, evidence, status, or responsibility;
 - source wording with *role* must be named locally, but the project has not yet recovered its use—for example, a system-role kind, assignment, status or access relation, relation position, another object, or ordinary wording; or
 - similar names threaten to collapse independently governed objects—for example, a kind, assignment, status, Method, Work occurrence, and description episteme.
 
 **Primary EntityOfConcern.** The EntityOfConcern is the naming discipline for these name families. It relates a recovered meaning to selected Tech and Plain designations. It defines neither the named U-kind nor the local system-role kind, constitutes no description, classifies no candidate, creates no assignment, asserts no status or responsibility, supplies no evidence, and publishes no form.
 
-**Primary working reader.** The first reader is a practitioner who already has a candidate meaning and must choose a name that readers can use without creating another ontology—for example, an engineer-manager, analyst, pattern author, or terminology steward.
+**Primary working reader.** The first reader is a practitioner who has a candidate meaning and must choose a name that keeps the named value's kind and intended use recoverable.
 
 **First useful move.** Recover the exact named value and its direct meaning source before choosing the label. For a U-kind, use its accepted E.24.UK admission result or its direct admission rule. For a local system-role kind, use its A.2 and C.3 identity and criterion; use F.4 for the separate description episteme. Then choose one Tech label and one short Plain explanation whose scope does not exceed the recovered meaning.
 
 **Smallest useful result and stop.** Stop with one already identified value, one Tech label, and one Plain explanation as soon as they resolve unambiguously for the named local use. Do not create a NameCard, public row, Bridge, description episteme, or new kind merely to complete a form. If the value or kind is unresolved, apply its direct recovery rule. Use F.18 or F.17 only for the durable or public use they address. Use C.3.3 only for an actual relation between exact local kinds and F.9 only for an actual relation between distinct F.17 cells. If the label starts carrying assignment, Work, result, provenance, assurance, responsibility, or publication claims, stop naming and recover those objects first.
 
-**What goes wrong if missed.** Names become arguments. A system-role-kind label smuggles in neighboring claims—for example, assignment, permission, responsibility, or capability. A status phrase becomes a system-role kind. A U-kind name imports one practice's or source's private ontology. A polished global word hides disagreement among witnesses. Downstream patterns then repair semantics that naming already broke.
+**What goes wrong if missed.** Names become arguments. A system-role-kind label smuggles in neighboring claims—for example, assignment, permission, responsibility, or capability. A status phrase becomes a system-role kind. A U-kind name imports one practice's or source's private ontology. A shared word can hide disagreement among witnesses. Downstream patterns then repair semantics that naming already broke.
 
 **What this buys.** Readers can use short names without guessing the ontology. U-kind names stay neutral across witnesses. Concrete `...SystemRole` designations point to exact local kinds, and `...SystemRoleKindDescription` designations point to their separate description epistemes. Names for neighboring claims—for example, status, evidence, access, requirement, source, publication, assurance, gate, and decision claims—remain with their direct relations.
 

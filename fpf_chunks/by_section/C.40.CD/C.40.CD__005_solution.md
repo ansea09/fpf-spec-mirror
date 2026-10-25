@@ -6,14 +6,15 @@ section_id: "C.40.CD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:4 — Solution"
-line_start: 85101
-line_end: 85165
+line_start: 85031
+line_end: 85095
 dependencies:
   - "B.5.MPC"
+  - "B.5.MPC.R"
   - "B.5.QD"
   - "B.5.RC"
   - "B.5.TU"

@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__002_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
   - "A.6.RSIG:1 — Problem frame"
-line_start: 14376
-line_end: 14425
+line_start: 14362
+line_end: 14411
 dependencies:
   - "A.6"
   - "A.6.P"

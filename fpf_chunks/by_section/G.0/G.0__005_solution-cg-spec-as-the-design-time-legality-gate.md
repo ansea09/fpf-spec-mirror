@@ -6,12 +6,12 @@ section_id: "G.0:4"
 section_title: "Solution — CG‑Spec as the design-time legality gate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__005_solution-cg-spec-as-the-design-time-legality-gate.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:4 — Solution — CG‑Spec as the design-time legality gate"
-line_start: 126266
-line_end: 126470
+line_start: 126168
+line_end: 126372
 dependencies:
   - "A.10"
   - "A.17"
@@ -69,7 +69,7 @@ keywords:
 
 **Builds on:** `G.Core` (Part-G core invariants; governing-pattern citation)
 
-**GCoreLinkageManifest (normative; size-controlled via profiles/sets).**
+**GCoreLinkageManifest (normative).**
 
 Effective obligations/pins/triggers are computed by union expansion of the referenced ids (per `G.Core:4.2`).
 Profiles/sets + explicit deltas; `Nil‑elision` applies.
@@ -164,7 +164,7 @@ CG‑Spec :=
 ⟩
 ```
 
-**Local typing notes (non-exhaustive; normative intent but no shadow specs).**
+**Local typing notes (normative, non-exhaustive).**
 
 * `ComparatorSpec` MUST be typed against SCP/CHR constraints. Examples of lawful comparators are frame-local choices and are authored here (e.g., dominance where lawful; lexicographic over typed traits; medoid/median for ordinal where lawful; explicit weighted sums only where legality is proven and units are aligned).
 * `MinimalEvidenceEntry` MUST declare: lane requirements, evidence carriers, freshness window (if any), and explicit failure behavior wiring. The semantics of `{pass|degrade|abstain}` and `degrade(mode=…)` are delegated to `G.Core`.
@@ -223,8 +223,8 @@ All blocks below are `GPatternExtension` modules (PatternScopeId; not new Patter
 * **⊑/⊑⁺:** `∅`
 * **RequiredPins/EditionPins/PolicyPins (minimum):**
 
-  * `BridgeCardId/BridgeId` (when crossings are permitted)
-  * `CL` / `CL^k` and `Φ`/`Φ_plane` policy ids (when penalties are in play)
+  * `BridgeCardId/BridgeId` (when the use relies on the corresponding semantic bridge)
+  * `CL` / `CL^k` and `Φ`/`Φ_plane` policy ids (when the corresponding calibration or loss model is used)
 * **RSCRTriggerKindIds:** `{RSCRTriggerKindId.CrossingBundleEdit, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.ReferencePlaneEdit}`
 * **Notes (wiring-only):** Crossing semantics and penalty routing are delegated to `G.Core`; this module only lists the required pins used by `CG‑Spec` entries.
 

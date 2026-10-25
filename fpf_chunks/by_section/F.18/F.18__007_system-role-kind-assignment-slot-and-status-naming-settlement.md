@@ -6,12 +6,12 @@ section_id: "F.18:5"
 section_title: "System-Role-Kind, Assignment, Slot, and Status Naming Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__007_system-role-kind-assignment-slot-and-status-naming-settlement.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:5 — System-Role-Kind, Assignment, Slot, and Status Naming Settlement"
-line_start: 125039
-line_end: 125156
+line_start: 124961
+line_end: 125078
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,7 +50,7 @@ This settlement keeps naming aligned with the object already recovered. Bare *ro
 
 #### F.18:5.1 - System-Role-Kind Names
 
-A durable system-role-kind name designates one exact local kind admitted through C.3 and A.2. Recover that kind through its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. A practice or source reference can locate the definition or signal that two definitions should be compared; it does not identify the kind. Candidates are entities already admitted under A.1 as `U.System`, including a person, team, organization, or non-human technical object. The Tech designation normally ends in `...SystemRole`, for example `ReviewerSystemRole`, `ShipbuilderSystemRole`, or `ServiceProviderSystemRole`. `SystemRole` is compound morphology, not a universal governed value. The name creates no system admission, kind membership, assignment, agency, capability, or Work.
+A durable system-role-kind name designates one exact local kind admitted through C.3 and A.2. Recover that kind through its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. A practice or source reference can locate the definition or signal that two definitions should be compared; it does not identify the kind. Candidates are entities already admitted under A.1 as `U.System`. The Tech designation normally ends in `...SystemRole`, for example `ReviewerSystemRole`. `SystemRole` is compound morphology, not a universal governed value. The name creates no system admission, kind membership, assignment, agency, capability, or Work.
 
 A system-role-kind name must not include:
 
@@ -80,27 +80,27 @@ Keep these separate:
 
 A role-derived or role-method-coupled expression is only a naming cue. First recover the exact value it refers to. If that value is an exact Method or Method family under A.3.1, choose a Method name. If it is an exact `U.MethodDescription`, `U.WorkPlan`, or dated `U.Work` occurrence, name that description episteme, plan episteme, or occurrence separately under A.3.2, A.15.2, or A.15.1; those names are not Method names. If the expression refers to another value, use the rule that defines or tests that value. Only then use F.18 to choose a durable name. An exact relation involving a system-role kind or assignment may constrain who may use a Method or perform Work; it neither creates nor names the Method, description, plan, or Work occurrence.
 
-Treat an action nominal such as `testing`, `assembly`, `maintenance`, `evaluation`, or `inspection` as a morphology cue, not a governed kind. Placement in function- or flow-structure prose identifies no `U.Function`. If the function-like use remains claim-bearing while its exact object or relation is hidden, apply `A.6.F`; if it is already recoverable, name the exact method, method description, required-transformation or required-effect claim, actual `U.Transformation`, `TransformationFlowStructure` locus, functional-view record, plan content, performed-work occurrence, or other governed value under the rule that defines or tests it. Only then use F.18 to choose a durable name. A WBS element, activity, or Work Package remains plan- or assignment-episteme content about intended work; none of these uses identifies a performed Work occurrence admitted under `U.Work`.
+Treat an action nominal such as `testing` as a morphology cue, not a governed kind. Placement in function- or flow-structure prose identifies no `U.Function`. If the function-like use remains claim-bearing while its exact object or relation is hidden, apply `A.6.F`; if it is already recoverable, name that value under the rule that defines or tests it. Only then use F.18 to choose a durable name. A WBS element, activity, or Work Package remains plan- or assignment-episteme content about intended work; none of these uses identifies a performed Work occurrence admitted under `U.Work`.
 
 A durable name for performed Work points to one dated occurrence already grounded under `A.15.1`. An action word, plan row, local work-family label, or `U.WorkPlan` does not create that occurrence or an assignment.
 
 Every System claimed as an actual performer must already have its A.13 core, including the obtaining assignment for the exact action, scope, situation and window. A.15.1 independently admits the dated Work from its Method, temporal extent, containing System and other required direct facts. Add F.6 only when the naming account or receiving use needs precise attribution through that same assignment; the assignment must cover the Work interval, have the recovered performer as holder and retain every participant required by its declared species. Missing or failed F.6 leaves the independently admitted Work and its durable name intact. A compact naming account cites only the identities its receiving use needs. Add a continuity policy only when interruption, retry, a changed Method or binding, or competing designators make occurrence identity material.
 
-Keep neighbouring direct subject and resource-use claims, `A.15.PROD` production claims, measurement-result epistemes, evaluation results, `C.11` choices or decisions, delivery occurrences, acceptance verdicts, and downstream-effect claims separately named under their direct patterns.
+Name any other result separately under its subject pattern, such as `A.15.PROD` for a production claim or `C.11` for a decision.
 When the underlying boundary wording still hides the relation, apply `A.6.P.WMR`. Use `F.18` only after an exact governed value and its use are recovered through a direct subject relation, an exact `A.6.1` application binding, or an exact local `A.15.PROD`/`A.6.RCD` claim. An exact non-assertability result retains its reason under `A.6.P.WMR:4.3`; it does not authorize durable naming of the attempted relation. A missing subject rule may identify a future pattern or declaration need; unavailable constructor semantics retain their separate derivation question. This section selects and tests a name. It does not define a second work-occurrence or work-result recovery algorithm.
 
-Method-relation and method-composition names are method-side names too. If a phrase names serial composition, parallel composition, guarded choice, iteration, refinement, substitution, decomposition, parameterization, method-family membership, fallback, or dispatch among methods, first decide which object the phrase names.
+For a method-relation or method-composition name, first decide whether the phrase names a Method, relations among Methods, a selected structure, or an episteme describing one of those objects.
 
 - If admitted submethods make one composite way of doing, name the composite `U.Method`. Use A.3.1 for that Method and B.1.5 or another direct composition pattern for its exact composition relation.
-- If the phrase names relations among methods without making one whole Method, name the relations first. When a named use depends on how several such relations are organized, select that `U.Structure` under A.22 and designate it `MethodRelationStructure`; state the question and prohibited overread that bound the selection. Identify and constrain each included method-side relation—for example, composition, refinement, substitution, iteration, decomposition, family membership, selection, or fallback—through its A.3.1, G.5, or other defining rule. A claim-bearing episteme that describes such a relation remains separate under C.2.1, and any Work-use relation remains under A.15.
+- If the phrase names relations among methods without making one whole Method, name the relations first. When a named use depends on how several such relations are organized, select that `U.Structure` under A.22 and designate it `MethodRelationStructure`; state the question and the limits that bound the selection. Identify and constrain each included method-side relation through its A.3.1, G.5, or other defining rule. A claim-bearing episteme that describes such a relation remains separate under C.2.1, and any Work-use relation remains under A.15.
 - If the current object is a separately identified episteme that describes one exact admitted Method, `A.3.2` may classify it as `U.MethodDescription`; F.18 names that episteme separately from the Method.
 - If an episteme instead describes the selected relation structure, `C.2.1` keeps that structure as its exact `EntityOfConcern`; the episteme is not thereby a `U.MethodDescription`.
 
-F.18 settles a durable name only after one of those exact objects has been recovered. Algebraic, graph, categorical, process-calculus, matrix, embedding, distributed, or neural notation names the lens or representation only when that lens is the governed value.
+F.18 settles a durable name only after one of those exact objects has been recovered. Name a mathematical lens or representation only when it is the governed value.
 
 #### F.18:5.4 - System-Role-Kind Relations, Method Relations, System-Role–Method Relations, and Lens Names
 
-System-role-kind-relation expressions remain ordinary expressions or direct relations unless their exact local kinds and relation predicates are already admitted. An algebraic, graph, matrix, embedding, distributed, or neural description is a lens over the selected `SystemRoleKindRelationStructure`; it is not automatically the named kind, holder, assignment, Method, or Work.
+System-role-kind-relation expressions remain ordinary expressions or direct relations unless their exact local kinds and relation predicates are already admitted. A mathematical description can represent a selected `SystemRoleKindRelationStructure`; distinguish that description from the object it represents.
 
 First recover what the name is for:
 
@@ -112,10 +112,10 @@ First recover what the name is for:
 | `R1 bundle R2`, or quoted source shorthand `RoleBundle := R1 and R2` | one order-insensitive finite-set relation among exact system-role kinds, with a joint-admission and holder-allocation predicate | Keep it as a bundle relation. A convenient bundle name does not admit a compound system-role kind; such a kind would need its own independent C.3 identity and use. |
 | `R1` qualified by a domain, practice, Method family, or ordinary work field | either one independently admitted local system-role kind or a residual A.2.7 qualification relation between two kinds | Before naming a kind, recover its C.3 candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. A domain, practice, ordinary work field, Method, Work family, or performed Work occurrence remains a separate value or comparison cue. Keep a non-monotonic restriction as its exact relation and do not infer admission substitution. |
 | Method-like phrase derived from a system-role label | Method, Method family, MethodDescription, WorkPlan, or Work occurrence | Name the recovered object through `A.3.1`, `A.3.2`, or `A.15`; cite the exact system-role-kind relation separately when it constrains admission or performance. |
-| algebraic, graph, matrix, embedding, distributed, or neural representation of system-role kinds or their relations | mathematical or representation description of a selected `SystemRoleKindRelationStructure` | Name the lens only when the representation itself is the object being named; otherwise name the recovered kind, relation occurrence, selected structure, Method, assignment, or Work. |
-| Method algebra, Method graph, Method matrix, process calculus, selector calculus, or Method embedding | mathematical or representation description of exact method-side relations or their selected `MethodRelationStructure` | Name the lens only when the representation itself is the object being named; otherwise name the exact relation, selected structure, Method family, MethodDescription, WorkPlan, Work occurrence, or neighboring relation. |
+| representation of system-role kinds or their relations | mathematical or representation description of a selected `SystemRoleKindRelationStructure` | Name the lens only when the representation itself is the object being named; otherwise name the recovered kind, relation occurrence, selected structure, Method, assignment, or Work. |
+| representation of Methods or their relations, such as a Method algebra | mathematical or representation description of exact method-side relations or their selected `MethodRelationStructure` | Name the lens only when the representation itself is the object being named; otherwise name the exact relation, selected structure, Method family, MethodDescription, WorkPlan, Work occurrence, or neighboring relation. |
 
-Ordinary speech may say “surgeon”, “reviewer”, or “operator” when the local sentence makes the intended system-role kind or assignment obvious. Use the concrete `...SystemRole` designation when stable technical reference to the kind is needed. Do not infer kind identity, assignment, relation, Method, capability, or Work from the ordinary word alone. Add a qualifier only when it distinguishes a live neighboring reading.
+Ordinary speech may say “reviewer” when the local sentence makes the intended system-role kind or assignment obvious. Use the concrete `...SystemRole` designation when stable technical reference to the kind is needed. Do not infer kind identity, assignment, relation, Method, capability, or Work from the ordinary word alone. Add a qualifier only when it distinguishes a live neighboring reading.
 
 #### F.18:5.5 - Status, Evidence, Source, and Publication Names
 

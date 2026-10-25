@@ -6,12 +6,12 @@ section_id: "B.2.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__012_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
   - "B.2.2:9 — Rationale"
-line_start: 44653
-line_end: 44658
+line_start: 44615
+line_end: 44620
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,5 +44,5 @@ keywords:
 
 Valentin Turchin's meta-system transition remains a useful intuition for the system case: components can become a higher operating whole when coordination and control create a new object of management and assurance. FPF generalizes that intuition in B.2, then uses B.2.2 to keep the classical system case precise.
 
-The key distinction is ontological, not lexical. A whole proposed for recognition under the admitted `U.System` kind is not a trigger profile, coordination mechanism, graph, description, dashboard, or process label. It is one exact candidate new whole that satisfies A.1 and the direct `U.System` criterion; every changed system fact and claim stays with its subject pattern.
+Recognizing the candidate requires actual construction and acting eligibility under A.1 and the `U.System` criterion. A description or coordination claim supplies only its own contribution; every additional claim about the recognized system needs its subject-specific grounds.
 

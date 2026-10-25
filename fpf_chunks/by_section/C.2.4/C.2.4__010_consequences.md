@@ -6,12 +6,12 @@ section_id: "C.2.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__010_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:9 — Consequences"
-line_start: 53731
-line_end: 53733
+line_start: 53661
+line_end: 53663
 dependencies:
   - "A.15"
   - "A.15.1"

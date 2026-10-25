@@ -6,12 +6,12 @@ section_id: "D.5:3"
 section_title: "Bias and Fairness Recognition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__006_bias-and-fairness-recognition.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:3 — Bias and Fairness Recognition"
-line_start: 91680
-line_end: 91728
+line_start: 91606
+line_end: 91654
 dependencies:
   - "A.10"
   - "B.3"
@@ -40,7 +40,7 @@ keywords:
 
 #### D.5:3.1 - Optional Audit Records And Depth
 
-D.5 may use a compact `BiasRegister@Context` when the live need is to keep concerns visible during ordinary work:
+A `BiasRegister@Context` can keep concerns recoverable during ongoing work:
 
 ```text
 BiasRegister@Context:
@@ -63,7 +63,7 @@ Use a fuller `BiasAuditReport@Context` when the receiving decision needs to insp
 
 A concrete indication of harm, a missing basis for an intended claim, or an applicable assurance requirement can make further investigation necessary before that use. Name what its result could change, who can obtain it, and whether its contribution warrants its full cost and delay; use `C.11.DUA` when this appraisal is unresolved. If the needed basis remains unavailable, state which intended claim remains unsupported and give any feasible narrower use, mitigation, or stop with its conditions. Neither a short record nor a large report supplies missing evidence.
 
-Exposure, repetition, automation, publication, and changed populations are cues to examine the actual use and consequence. They do not by themselves prescribe a full audit or a separate explanation for omitting one. When a protective or documentation requirement is disputed, use `C.11.DUA` to examine its hazard, threshold basis, protective contribution, feasibility, and distributed burden, while keeping its current force and amendment authority explicit.
+Exposure, repetition, automation, publication, and changed populations are cues to examine the actual use and consequence. They do not by themselves prescribe a full audit. When a protective or documentation requirement is disputed, use `C.11.DUA` to examine its hazard, threshold basis, protective contribution, feasibility, and distributed burden, while keeping its current force and amendment authority explicit.
 
 #### D.5:3.2 - Compact Bias Concern Taxonomy
 
@@ -71,8 +71,8 @@ Exposure, repetition, automation, publication, and changed populations are cues 
 | --- | --- | --- |
 | REP | Representation, coverage, sampling, proxy choice, missing group, or shifted population. | Who or what is missing, over-weighted, proxied, or moved out of scope? |
 | ALG | Algorithmic, modeling, objective, ranking, optimization, or threshold behavior. | Which model or optimization choice changes outcomes for whom? |
-| VIS | Visibility, interface, dashboard, presentation, or publication framing. | What becomes easy to see, hard to see, or too authoritative by display? |
-| MET | Metric, measurement, scale, comparator, normalization, or threshold. | What does the metric count, hide, compare, or turn into a pass or fail claim? |
+| VIS | What the presentation makes visible or authoritative. | What becomes easy to see, hard to see, or too authoritative by display? |
+| MET | Measurement and comparison. | What does the metric count, hide, compare, or turn into a pass or fail claim? |
 | LNG | Language, naming, category, definition, group label, or claim wording. | Which words change what can be asserted, counted, blamed, or done? |
 
 The codes are only concern locators. They do not replace the governed object, affected people or groups, intended use, evidence, mitigation, or accepted residual.

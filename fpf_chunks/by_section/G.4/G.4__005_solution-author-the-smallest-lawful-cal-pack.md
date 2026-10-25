@@ -6,12 +6,12 @@ section_id: "G.4:4"
 section_title: "Solution — author the smallest lawful CAL pack"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__005_solution-author-the-smallest-lawful-cal-pack.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:4 — Solution — author the smallest lawful CAL pack"
-line_start: 128071
-line_end: 128326
+line_start: 127970
+line_end: 128225
 dependencies:
   - "A.10"
   - "A.13"
@@ -76,7 +76,7 @@ The authoring path is complete when a cold reader can reconstruct the plain acce
 
 #### G.4:4.1 - G.Core linkage (normative)
 
-**Builds on:** `G.Core` (Part‑G core invariants; citation/delegation hub)
+**Builds on:** `G.Core` (Part-G core invariants)
 
 **GCoreLinkageManifest (normative).** Canonical shape, Nil‑elision, and the Expansion rule are defined in `G.Core`.
 
@@ -116,7 +116,7 @@ By the `G.Core` Expansion rule, the effective conformance ids / trigger kinds / 
 Notes (normative intent, delegated semantics):
 
 * The semantics of tri‑state outcomes, penalty routing, set‑return discipline, crossing visibility, P2W split, typed RSCR causes, and the Default Governing Definition Index are governed in `G.Core` and are not redefined here.
-* EvidenceGraph/Path pins (when used) are declared only via **`G.4:Ext.EvidenceGraphWiring`** in **G.4:4.5** (so `G.Core linkage` stays minimal and does not “pull in” `G.6` by default).
+* EvidenceGraph/Path pins, when used, are declared only via **`G.4:Ext.EvidenceGraphWiring`** in **G.4:4.5**.
 * Method‑specific pins (e.g., QD descriptor/distance/insert policy pins; open‑ended transfer rules pins) MUST appear only in **Extensions** blocks (see **G.4:4.5**) and MUST NOT introduce competing defaults.
 
 #### G.4:4.2 - `CAL Pack@CG-Frame` surface (kit governed by this pattern)
@@ -258,7 +258,7 @@ This chain keeps declaration, execution, local result, result episteme, provenan
   - `UTSRowId[]` (for cited artifacts)
 - **RSCRTriggerSetIds:** `∅`
 - **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EvidenceSurfaceEdit, RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange}`
-- **Notes (wiring‑only):** This block does not define EvidenceGraph semantics; it only fixes that CAL proofs/examples may cite evidence by Path ids.
+- **Notes:** CAL proofs and examples may cite G.6 evidence paths by these ids.
 
 **GPatternExtension block: `G.4:Ext.NQD`**
 - **PatternScopeId:** `G.4:Ext.NQD`
@@ -310,5 +310,5 @@ This chain keeps declaration, execution, local result, result episteme, provenan
   - `FailureBehaviorPolicyId`
 - **RSCRTriggerSetIds:** `∅`
 - **RSCRTriggerKindIds:** `{RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.MaturityRungChange, RSCRTriggerKindId.TelemetryDelta}`
-- **Notes (wiring‑only):** This block only pins branch/rule ids for degrade/abstain explanation; it does not redefine rule semantics.
+- **Notes:** The pinned C.23 branches and rules explain the clause's degrade/abstain behavior.
 

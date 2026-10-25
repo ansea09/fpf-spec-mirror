@@ -6,12 +6,12 @@ section_id: "F.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__006_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:4 — Solution"
-line_start: 122816
-line_end: 122828
+line_start: 122738
+line_end: 122750
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -35,6 +35,7 @@ dependencies:
   - "F.14"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "F.4"
   - "F.6"
   - "F.8"
@@ -59,7 +60,7 @@ keywords:
 The harness has two rule families:
 
 1. **Static Conformance Rules (SCR).** Check exact current object and relation refs in one finite slice version. A rule result is a separately constituted claim, not a field value that becomes true because a record is filled.
-2. **Regression and Stability Conformance Rules (RSCR).** Compare exact earlier and later refs for the changed member only. State the governed continuity or change claim, admitted losses, evidence, and receiving use; changed spelling or edition alone proves neither sameness nor difference.
+2. **Regression and Stability Conformance Rules (RSCR).** Compare exact earlier and later refs for the changed member and reconsider dependent claims or uses whose grounds changed. State the governed continuity or change claim, admitted losses, evidence, and receiving use; changed spelling or edition alone proves neither sameness nor difference.
 
 Both families are F.15-local check declarations over already defined objects. A practitioner may apply their questions and obtain a local result without naming the checking activity as Tech `U.Work`. An exact rule application, when its identity is needed, uses A.6.1.
 

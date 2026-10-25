@@ -6,12 +6,12 @@ section_id: "B.3.5:7"
 section_title: "Author Standard (at a glance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__009_author-standard-at-a-glance.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:7 — Author Standard (at a glance)"
-line_start: 46017
-line_end: 46033
+line_start: 45966
+line_end: 45981
 dependencies:
   - "B.3"
   - "C.13"
@@ -33,6 +33,5 @@ When you add or import a relation edge:
 3. **Declare the selected `tv:validationMode`** for every covered claim.
 
 
-> **What managers see:** nothing new in the graph picture.
-> **What auditors get:** a reliable trail from every edge covered by the elected profile back to its inspectable construction or evidence account.
+> The public graph retains its relation vocabulary. For each assertion covered by the profile, a reviewer can follow the grounding reference to its construction or evidence account.
 

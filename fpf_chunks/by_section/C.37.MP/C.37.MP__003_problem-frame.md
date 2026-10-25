@@ -6,12 +6,12 @@ section_id: "C.37.MP:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__003_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:1 — Problem Frame"
-line_start: 82224
-line_end: 82229
+line_start: 82154
+line_end: 82159
 dependencies:
   - "A.10"
   - "A.3.1"

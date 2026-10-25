@@ -6,12 +6,12 @@ section_id: "B.5.TC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Working Question"
   - "B.5.TC:4 — Solution"
-line_start: 49332
-line_end: 49402
+line_start: 49272
+line_end: 49342
 dependencies:
   - "B.5.RA"
   - "B.5.RR"
@@ -57,7 +57,7 @@ For a mathematical application, compare the retained distinctions and operations
 
 Begin with an understood case so a transcription or implementation error can be found. Then use a changed case that exercises the claimed difference: a shared resource, a constraint, an intervention or another relevant variation. Derive a general relation when the intended conclusion ranges beyond the cases. A finite example establishes its own result; a counterexample can refute a general assertion whose premises it satisfies.
 
-Agreement of reported numbers is informative only after their meanings and conditions are aligned. Conversely, different intermediate objects can lead to the same answer through an explained correspondence. Record only the derivation or explanation the receiving use needs; the comparison does not require a standard table or separate report.
+Agreement of reported numbers is informative only after their meanings and conditions are aligned. Conversely, different intermediate objects can lead to the same answer through an explained correspondence. Record only the derivation or explanation the receiving use needs.
 
 #### B.5.TC:4.4 - Locate what causes the difference
 

@@ -6,14 +6,15 @@ section_id: "G.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__003_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:2 — Problem"
-line_start: 129308
-line_end: 129320
+line_start: 129194
+line_end: 129206
 dependencies:
   - "A.10"
+  - "A.10.1"
   - "A.13"
   - "A.15.1"
   - "A.15.PROD"
@@ -67,5 +68,5 @@ The common failures are:
 3. **Result collapse.** Subject result, result episteme, carrier, outcome, assurance, and later decision become one generic result node.
 4. **Declaration-to-runtime collapse.** A `MethodDescription`, operation signature, policy, clause, or plan is read as an actual run and its bindings.
 5. **Hidden crossing.** A path silently crosses context, reference plane, edition, source order, or currentness window.
-6. **Refresh fanout.** One changed source or relation forces a global rerun because the smallest affected path slice cannot be found.
+6. **Incomplete refresh reach.** A changed premise prompts a global rerun or a repair of only the first located slice because its actual dependent paths have not been identified.
 

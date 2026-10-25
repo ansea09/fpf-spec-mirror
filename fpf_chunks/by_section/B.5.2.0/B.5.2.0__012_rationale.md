@@ -6,12 +6,12 @@ section_id: "B.5.2.0:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__012_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:10 — Rationale"
-line_start: 50380
-line_end: 50382
+line_start: 50308
+line_end: 50310
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -33,5 +33,5 @@ keywords:
 ---
 
 ### B.5.2.0:10 - Rationale
-This keeps admissible cue preservation and trajectory publication able to dock into `B.5.2` through a typed prompt form without anomaly inflation and without making `A.16.0` mandatory.
+A typed prompt lets a preserved cue contribute its explanatory question to `B.5.2` while retaining the grounds that made the question worth asking.
 

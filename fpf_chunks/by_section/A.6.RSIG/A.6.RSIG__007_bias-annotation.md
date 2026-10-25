@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__007_bias-annotation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
   - "A.6.RSIG:6 — Bias-Annotation"
-line_start: 14686
-line_end: 14700
+line_start: 14672
+line_end: 14686
 dependencies:
   - "A.6"
   - "A.6.P"

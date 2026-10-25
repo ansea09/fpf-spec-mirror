@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__014_relations.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:12 — Relations"
-line_start: 38608
-line_end: 38622
+line_start: 38594
+line_end: 38608
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

@@ -6,12 +6,12 @@ section_id: "F.15:7"
 section_title: "Finite scope and conformance record"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__009_finite-scope-and-conformance-record.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:7 — Finite scope and conformance record"
-line_start: 122858
-line_end: 122903
+line_start: 122780
+line_end: 122826
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -35,6 +35,7 @@ dependencies:
   - "F.14"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "F.4"
   - "F.6"
   - "F.8"
@@ -70,7 +71,8 @@ FiniteHarnessScope:
   SelectedStructureRefs[]?:
   SelectedStructureDescriptionRefs[]?:
   TriggeredRuleRefs[]:
-  ExcludedClaimsAndNearestNonUses[]:
+  ExcludedClaimsAndNearestNonUses[]?: # only when F.19 admits the grounded boundary
+
 ```
 
 `SelectedStructureRefs` is empty unless an independently selected A.1.1/A.22 structure changes interpretation for the receiving use. A Structure description never replaces the Structure, its obtaining membership relations, or another scope member.
@@ -94,7 +96,7 @@ UnificationConformanceRecord:
   PublicationFormRefs[]?:
   PresentationCarrierRefs[]?:
   CurrentnessRelationRefs[]?:
-  NonAdmittedUses[]:
+  NonAdmittedUses[]?: # only when F.19 admits the grounded boundary
   ReopenTrigger:
 ```
 

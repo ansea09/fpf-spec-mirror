@@ -6,12 +6,12 @@ section_id: "B.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__006_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:4 — Solution"
-line_start: 44939
-line_end: 44996
+line_start: 44893
+line_end: 44950
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,7 +37,7 @@ keywords:
 
 ### B.2.4:4 - Solution
 
-Use B.2.4 as a decision bridge from direct capability and functioning facts to B.2 whole reidentification. Add no generic slice, context placeholder, candidate-bearer list, or second B.2 record.
+Use the capability and functioning facts to decide whether B.2 whole reidentification is needed.
 
 #### B.2.4:4.1 - Start From Exact Facts, Claims, And Support
 
@@ -47,7 +47,7 @@ Use B.2.4 as a decision bridge from direct capability and functioning facts to B
 4. Perform B.2's ordinary existing-whole comparison. Better measurement, component improvement, Method or Work repair, allocation repair, or architecture-view repair can leave the same whole in place.
 5. If a residual whole-reidentification question remains, use B.2 for it. B.2 then identifies one exact candidate new whole, applies the complete A.1 and kind-specific criteria, and compares that candidate with the existing whole.
 
-B.2.4 adds no result species. If a receiving use needs a durable account, use B.2's optional C.2.1 epistemes; their content neither creates the direct facts nor selects the new whole.
+If a receiving use needs a durable account, use B.2's optional C.2.1 epistemes to state the facts, comparison, and supported conclusion.
 
 #### B.2.4:4.2 - Subject-Pattern Test
 
@@ -91,5 +91,5 @@ Use B.2 when the exact direct facts show that the existing whole cannot carry th
 - exact coordination and work facts concerning a team, a toolchain, and the enacted Methods from a method family make a result-system candidate live; or
 - a candidate episteme has exact constitution and explanatory-use facts that leave an episteme whole-reidentification question.
 
-After the return, use B.2 for the existing-whole/new-whole comparison, its one exact candidate, and any optional record. B.2.4 adds no result record or evidence slice. The direct patterns still define and test the contributing facts, while evidence or measurement supports the associated claims.
+Use B.2 to compare the existing whole with one candidate and, when needed, record the result. The subject patterns define and test the contributing facts; evidence and measurement support the associated claims.
 

@@ -6,12 +6,12 @@ section_id: "F.10:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__002_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:1 — Problem frame"
-line_start: 121356
-line_end: 121371
+line_start: 121279
+line_end: 121294
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -43,7 +43,7 @@ keywords:
 
 ### F.10:1 - Problem frame
 
-**Use this when.** Use F.10 when a receiving use depends on a word such as *observed*, *measured*, *validated*, *approved*, *deprecated*, *satisfied*, *violated*, *waived*, *pending*, *current*, or *ready*, and the exact status value, governed target, scope, window, source, rule, or use is still implicit.
+**Use this when.** Use F.10 when a receiving use depends on a status word and its exact value, governed target, scope, window, source, rule, or use is still implicit.
 
 Use it especially when evidence, standards, and requirements are being mixed: a dashboard says a service is ready, a standard says a method is approved, a measurement is cited as requirement satisfaction, a model card says a model is validated, or a requirement register says a clause is waived.
 

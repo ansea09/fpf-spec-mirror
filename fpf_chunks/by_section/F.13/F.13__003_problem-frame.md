@@ -6,12 +6,12 @@ section_id: "F.13:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__003_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:2 — Problem frame"
-line_start: 122156
-line_end: 122164
+line_start: 122079
+line_end: 122087
 dependencies:
   - "F.1"
   - "F.17"
@@ -34,7 +34,7 @@ keywords:
 
 ### F.13:2 - Problem frame
 
-Unification efforts rot when names drift faster than senses or, worse, when senses change under a constant name.
+Readers lose the connection between earlier and later claims when names or senses change without an explicit account.
 
 * **Silent relabeling.** A new label is introduced as if nothing changed; readers cannot connect past to present.
 * **Alias bloat.** Synonyms accumulate without discipline; reading becomes guesswork.

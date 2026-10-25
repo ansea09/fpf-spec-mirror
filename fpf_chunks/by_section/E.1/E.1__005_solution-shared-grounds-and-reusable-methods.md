@@ -6,12 +6,12 @@ section_id: "E.1:4"
 section_title: "Solution — Shared Grounds and Reusable Methods"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__005_solution-shared-grounds-and-reusable-methods.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:4 — Solution — Shared Grounds and Reusable Methods"
-line_start: 91840
-line_end: 91863
+line_start: 91766
+line_end: 91789
 dependencies:
   - "E.2"
 keywords:

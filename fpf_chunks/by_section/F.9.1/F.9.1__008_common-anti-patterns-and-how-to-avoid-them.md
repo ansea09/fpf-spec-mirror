@@ -6,12 +6,12 @@ section_id: "F.9.1:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__008_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 121296
-line_end: 121308
+line_start: 121219
+line_end: 121231
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
@@ -40,7 +40,7 @@ keywords:
 | --- | --- | --- |
 | Card-first entry | Packaging is made a prerequisite for relation or claim truth. | Start from the obtaining Bridge and exact bounded-use claim; add a Card only when reuse pays. |
 | Stance as Bridge kind | The gloss competes with F.9 relation semantics. | Keep the F.9 kind unchanged and make the stance a separate episteme about one use claim. |
-| Stance as licence | Friendly wording silently authorizes substitution or action. | State claim polarity and current reliance separately; apply the pattern that defines the needed authorization. |
+| Stance as licence | The gloss is used to authorize substitution or action. | State claim polarity and current reliance separately; apply the pattern that defines the needed authorization. |
 | `CL` as threshold | Evidence shorthand becomes a rule for use. | Keep `CL` in the evidence account and retain the exact use rule and tolerated loss in the bounded-use claim. |
 | Loss note as tolerance | An observed difference is treated as accepted loss. | Keep observed loss in evidence and permitted loss in the bounded-use claim. |
 | Several stance tags | Labels replace one intelligible sentence and hide incompatible readings. | Use one primary stance plus plain loss and boundary wording. |

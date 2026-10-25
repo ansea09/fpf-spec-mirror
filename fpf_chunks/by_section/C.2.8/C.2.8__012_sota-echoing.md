@@ -6,12 +6,12 @@ section_id: "C.2.8:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__012_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.2.8 — U.ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:11 — SoTA-Echoing"
-line_start: 54621
-line_end: 54632
+line_start: 54551
+line_end: 54562
 dependencies:
   - "A.17"
   - "A.18"

@@ -6,12 +6,12 @@ section_id: "G.13:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:3 — Forces"
-line_start: 132217
-line_end: 132227
+line_start: 132106
+line_end: 132116
 dependencies:
   - "A.18"
   - "A.19"
@@ -53,5 +53,5 @@ keywords:
 | **Interop as generation input** | Interop should speed SoTA authoring, not merely decorate audit reports.                                |
 | **Planes & bridges**            | Cross‑plane/context reuse must remain explicit and auditable rather than implicit in “aligners”.       |
 | **Telemetry vs dominance**      | External telemetry should inform exploration and refresh without silently changing selector semantics. |
-| **Operational drift**           | External sources evolve; interop must be refresh‑ready by construction (typed causes + payload pins).  |
+| **Operational drift**           | Source editions change; typed causes and payload pins must identify the affected inputs and receiving uses.  |
 

@@ -6,12 +6,12 @@ section_id: "B.5.2.0:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__003_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:1 — Problem frame"
-line_start: 50313
-line_end: 50315
+line_start: 50241
+line_end: 50243
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -33,5 +33,5 @@ keywords:
 ---
 
 ### B.5.2.0:1 - Problem frame
-`B.5.2` needs an entry form that can accept admissible language-state trajectories after cue preservation and routing, without pretending that anomaly is the only admissible starting form.
+`B.5.2` needs an entry form that preserves a question's motivating grounds, including when they arise from an opportunity or probe rather than an anomaly.
 

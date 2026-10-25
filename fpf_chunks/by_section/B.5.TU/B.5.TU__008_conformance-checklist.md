@@ -6,12 +6,12 @@ section_id: "B.5.TU:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__008_conformance-checklist.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
   - "B.5.TU:7 — Conformance Checklist"
-line_start: 49239
-line_end: 49249
+line_start: 49179
+line_end: 49189
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"

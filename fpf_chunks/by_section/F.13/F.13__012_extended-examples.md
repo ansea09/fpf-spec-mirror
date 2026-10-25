@@ -6,12 +6,12 @@ section_id: "F.13:11"
 section_title: "Extended examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__012_extended-examples.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:11 — Extended examples"
-line_start: 122293
-line_end: 122332
+line_start: 122216
+line_end: 122255
 dependencies:
   - "F.1"
   - "F.17"
@@ -69,6 +69,6 @@ keywords:
 
 * **Rows:** `{“DBaaS”, “Database‑Service”}` representing service notions across several Contexts.
 * **Comparison basis:** Both rows display the same named comparison or use, exact source-local entries, independently established relations, losses, basis and receiving-use conclusion. Only the duplicate display is combined; no source meanings or Bridge occurrences are merged.
-* **Move:** `merges({"DBaaS","Database‑Service"} ⇒ "Database‑Service")` at **row level**. Both legacy labels become row‑local aliases with epoch notes.
+* **Move:** `merges({"DBaaS","Database‑Service"} ⇒ "Database‑Service")` at **row level**. Keep “Database‑Service” as the preferred row label and “DBaaS” as its legacy alias with an epoch note.
 * **Pay‑off:** One clearer row label; old articles still understandable.
 

@@ -6,12 +6,12 @@ section_id: "G.0:11"
 section_title: "SoTA‑Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__012_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:11 — SoTA‑Echoing"
-line_start: 126555
-line_end: 126564
+line_start: 126457
+line_end: 126466
 dependencies:
   - "A.10"
   - "A.17"
@@ -54,7 +54,7 @@ keywords:
 
 ### G.0:11 - SoTA‑Echoing
 
-This pattern aligns with post‑2015 best practice in evaluation and governance by:
+The pattern connects the following evaluation and governance practices:
 
 * treating “abstain / defer” as a first-class outcome rather than forcing a single brittle scalar (cf. selective prediction / abstention and set-valued reporting practices),
 * preserving multiobjective / partial-order outputs as sets (Pareto / archive thinking) rather than silently collapsing to a scalar,

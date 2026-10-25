@@ -6,12 +6,12 @@ section_id: "F.7:16"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__017_didactic-distillation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:16 — Didactic distillation"
-line_start: 120092
-line_end: 120095
+line_start: 120016
+line_end: 120019
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -39,5 +39,5 @@ keywords:
 
 ### F.7:16 - Didactic distillation
 
-> “A Concept-Set table is a comparison surface. Put the exact source-local claims in it, then list only relations that have already been established, with direction and loss. State separately what one named comparison or use may conclude and why. A shared row, a shared label, or a minimum score proves nothing. If no relation is known, show a contrast. The table makes the reasoning easier to read; it never supplies the reasoning.”
+> “A Concept-Set table displays a comparison. Put exact source-local claims in it and show established relations with direction and loss. State separately what the named comparison or use may conclude and why. Row position, shared labels or a row-wide CL do not establish those relations or warrant their use. Where no relation is established, show a contrast. The layout helps readers inspect the supplied reasoning.”
 

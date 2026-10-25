@@ -6,12 +6,12 @@ section_id: "F.0.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__012_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:11 — SoTA-Echoing"
-line_start: 117334
-line_end: 117344
+line_start: 117260
+line_end: 117270
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -38,5 +38,5 @@ keywords:
 | Abd Nikooie Pour et al., *Results of the Ontology Alignment Evaluation Initiative 2025* (2025); Giglou et al., *LLMs4OM* (2024); Hu and Ichise, *From Matching to Retrieval: A New Role for LLMs in Ontology Alignment* (2025); and Qiang et al., *OAEI-LLM* (2024). | **Adapt.** Use lexical, structural, retrieved, or model-produced correspondences to find candidates worth inspecting; establish an F.9 relation only from the exact recovered senses and its relation profile. | A benchmark result, similarity score, or model answer establishes neither semantic identity nor the separate C.2.1 claim that a Bridge suits a receiving use. |
 | W3C SHACL (2017) and DCAT 3 (2024) separate constraints, validation, catalog metadata, versions, and provenance from described subject claims. | **Adapt.** Keep source and edition metadata recoverable and use a compact source note when useful. | Metadata form, validation, or provenance establishes neither meaning, truth, reliance, nor assurance. |
 
-The non-dominated combination is a plain local answer first, an exact durable address only for reuse, an inspectable relation only when current, and receiving-use judgment separately.
+Together, these choices support a plain local answer, with a durable address or explicit relation added only when the receiving use needs it. A Bridge's suitability for that use remains a separate judgment.
 

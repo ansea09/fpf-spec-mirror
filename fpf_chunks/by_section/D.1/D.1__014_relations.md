@@ -6,12 +6,12 @@ section_id: "D.1:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__014_relations.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:10 — Relations"
-line_start: 91000
-line_end: 91011
+line_start: 90929
+line_end: 90940
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -42,6 +42,6 @@ keywords:
 - Coordinates with `A.10` for descriptive provenance and bounded reliance on the source or evidence used.
 - Coordinates with `C.11.DUA` when a proposed ethical record or evidence demand needs appraisal of its contribution, feasibility, burden, or requirement merits.
 - Coordinates with `B.3` when an assurance claim is current.
-- Coordinates with `D.2`, `D.3`, `D.4`, and `D.5` for multilevel entry, conflict structure, mediation, bias audit, causal-fairness audit consumption, and ethical assurance.
+- Use `D.2` to recognize concerns across levels and scopes, `D.3` to describe conflicts, `D.4` to develop and compare continuations, and `D.5` to select and interpret an ethical audit.
 - Coordinates with `C.28` for causal fairness use and with `C.30.ILC` when an architecture residual is current.
 

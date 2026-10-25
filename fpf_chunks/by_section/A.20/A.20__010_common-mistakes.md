@@ -6,12 +6,12 @@ section_id: "A.20:8"
 section_title: "Common mistakes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__010_common-mistakes.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:8 — Common mistakes"
-line_start: 40304
-line_end: 40314
+line_start: 40290
+line_end: 40300
 dependencies:
   - "A.10"
   - "A.15"

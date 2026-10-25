@@ -6,12 +6,12 @@ section_id: "B.4.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__011_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:10 — Rationale"
-line_start: 46563
-line_end: 46565
+line_start: 46502
+line_end: 46504
 dependencies:
   - "A.15"
   - "A.16"
@@ -35,5 +35,5 @@ keywords:
 ---
 
 ### B.4.1:10 - Rationale
-`B.4.1` provides the route-bearing seam between cue preservation and endpoint or abductive entry. It keeps route publication explicit without forcing cue packs to become route records.
+Cue preservation and route choice answer different questions. A separate route publication makes the proposed continuations inspectable while retaining the cue pack as the account of the stabilized cue.
 

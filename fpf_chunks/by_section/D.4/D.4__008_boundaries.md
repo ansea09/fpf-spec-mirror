@@ -6,12 +6,12 @@ section_id: "D.4:5"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__008_boundaries.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:5 — Boundaries"
-line_start: 91548
-line_end: 91553
+line_start: 91476
+line_end: 91481
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -36,5 +36,5 @@ keywords:
 
 `D.4` does not define the conflict description, bias audit, ethical assurance, architecture residual, causal identification, evidence provenance, or decision theory in general. It defines one ethical use of a conflict already described by D.3.
 
-Do not name a mediation move "calculus" unless a mathematical lens is selected and the lens is actually doing work. Do not name a mediation move "operator" unless the current pattern explicitly governs an operation. Most D.4 use concerns a practical recommendation or decision. A mathematical representation can support that comparison; its premises and result still need their ethical interpretation.
+Use a mathematical representation when its operations improve the comparison. Explain its premises and interpret its result under the ethical value frames.
 

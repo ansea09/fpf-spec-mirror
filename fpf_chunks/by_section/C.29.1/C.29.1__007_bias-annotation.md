@@ -6,12 +6,12 @@ section_id: "C.29.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__007_bias-annotation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:6 — Bias-Annotation"
-line_start: 70354
-line_end: 70364
+line_start: 70284
+line_end: 70294
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

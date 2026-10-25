@@ -6,12 +6,12 @@ section_id: "B.1.4:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__012_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:8 — Consequences"
-line_start: 42651
-line_end: 42656
+line_start: 42629
+line_end: 42632
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -36,7 +36,5 @@ keywords:
 
 ### B.1.4:8 - Consequences
 
-This pattern makes ordered and temporal aggregation inspectable without turning every sequence, phase, or context label into a holon level. It also lets practitioners keep useful `Gamma_ctx` and `Gamma_time` notation while avoiding a category error: the notation is an apparatus over a recovered aggregation claim, not the in-life work, method, transformation, or whole.
-
-The cost is that the practitioner must name the relation being aggregated. The gain is that contextual order, temporal coverage, work evidence, resource accounting, transformation, and whole reidentification stop interfering with one another.
+The practitioner obtains an inspectable account of ordered or temporal aggregation, with `Gamma_ctx` and `Gamma_time` available to express it. Naming the relations and their conditions takes work, but lets the practitioner distinguish the aggregation result from claims about performed work, resources, transformation, or whole reidentification.
 

@@ -6,12 +6,12 @@ section_id: "F.0.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__010_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:9 — Consequences"
-line_start: 117322
-line_end: 117327
+line_start: 117248
+line_end: 117253
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -33,5 +33,5 @@ keywords:
 
 Local meanings become inspectable and revisable without forcing a global vocabulary. A reader sees when source selection, synthesis, naming, subject reasoning, or a cross-local relation is the real next question. Most uses become cheaper because one sentence and one citation can close them.
 
-The cost is explicit judgment about source, edition, passage, and meaning. A reusable cell or relation requires more work only when a later receiver needs it. This cost is preferable to hiding several different objects behind one generic container.
+The cost is explicit judgment about source, edition, passage, and meaning. A reusable cell or relation requires more work only when a later receiver needs it.
 

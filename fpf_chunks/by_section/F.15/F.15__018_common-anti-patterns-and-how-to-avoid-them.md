@@ -6,12 +6,12 @@ section_id: "F.15:14"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__018_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:14 — Common Anti-Patterns and How to Avoid Them"
-line_start: 123146
-line_end: 123163
+line_start: 123069
+line_end: 123086
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -35,6 +35,7 @@ dependencies:
   - "F.14"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "F.4"
   - "F.6"
   - "F.8"
@@ -68,7 +69,7 @@ keywords:
 | H8 | `CL` or witness optimism | Evidence shorthand silently strengthens relation or use authority | Confuses evidence, relation truth, and bounded use | RSCR-F15-E9/E10 re-test the exact occurrence and separate use claim |
 | H9 | Plain label drift | Plain expression suggests another kind or claim | Reader imports a wrong prototype | SCR-F15-T1-T4 require the current F.18 settlement |
 | H10 | Scope membership as evidence | A member is considered supported because it is listed | Selection has no evidential force | CC-F15-3/9 require exact result and evidence refs |
-| H11 | Record performs check | Filling `StaticRuleResults` is treated as an application or Work | Erases occurrence and result identity | Keep ordinary checking outside Work admission. If dated assessment Work is asserted, cite each performer's A.13 core and the independent A.15.1 Work facts stated in the Solution; add F.6 only when precise assignment-bound attribution is also current. Keep any A.6.1 application and the separate C.2.1 result distinct. |
+| H11 | Record performs check | Filling `StaticRuleResults` is treated as an application or Work | Erases occurrence and result identity | For ordinary checking, apply the questions directly. If dated assessment Work is asserted, cite each performer's A.13 core and the independent A.15.1 Work facts stated in the Solution; add F.6 only when precise assignment-bound attribution is also current. Keep any A.6.1 application and the separate C.2.1 result distinct. |
 | H12 | Witness is result | A trace, example, or report is labelled `pass` | Carrier presence establishes no claim | Cite the result episteme and A.10 path separately |
 | H13 | Description replaces occurrence | Bridge, Structure, status, or row description is checked as the subject itself | Confuses description truth with world-side or governed object | Resolve the exact occurrence/value and keep its description as a neighbor |
 

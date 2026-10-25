@@ -6,12 +6,12 @@ section_id: "B.2.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__006_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
   - "B.2.2:4 — Solution"
-line_start: 44507
-line_end: 44580
+line_start: 44469
+line_end: 44542
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,7 +42,7 @@ keywords:
 
 ### B.2.2:4 - Solution
 
-After B.2 leaves a whole-reidentification question open, continue with the same exact candidate new whole and direct facts. Add no system-specific result species or context-shaped slice.
+After B.2 leaves a whole-reidentification question open, continue with the same candidate new whole and its direct facts.
 
 #### B.2.2:4.1 - Reuse The B.2 Candidate And Complete System Recognition
 

@@ -6,12 +6,12 @@ section_id: "G.5:11"
 section_title: "SoTA-Echoing — return what the receiving use can actually select"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__013_sota-echoing-return-what-the-receiving-use-can-actually-select.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:11 — SoTA-Echoing — return what the receiving use can actually select"
-line_start: 129231
-line_end: 129244
+line_start: 129126
+line_end: 129139
 dependencies:
   - "C.11"
   - "C.18"
@@ -56,7 +56,7 @@ keywords:
 
 ### G.5:11 - SoTA-Echoing — return what the receiving use can actually select
 
-**Practice question.** What should a dispatcher hand over when several candidates remain useful but the declared comparison does not justify one winner? The selected line returns the admissible alternatives with their ordering status and basis. A serious default chooses one best candidate under a declared objective and returns it ready for use. That default is efficient when the objective settles the choice; it loses a needed alternative when an undeclared scalar objective is substituted for an unresolved trade-off.
+**Practice question.** What should a dispatcher hand over when several candidates remain useful but the declared comparison does not justify one winner? The selected line returns the admissible alternatives with their ordering status and basis. A single-winner procedure chooses one best candidate under a declared objective and returns it ready for use. That procedure is efficient when the objective settles the choice; it loses a needed alternative when an undeclared scalar objective is substituted for an unresolved trade-off.
 
 The [scikit-learn GridSearchCV documentation](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html), `refit` and `best_estimator_`, supplies the concrete default. It can choose one estimator by a scorer or a custom rule over the evaluation results; multi-metric evaluation still needs a specified refit choice. **Adopt** that explicit-choice requirement when G.5 emits an ordered result. **Reject** reading a single best-estimator interface as a warrant to invent the missing comparator. The library supports custom choices and exposes other candidate results; it does not require G.5 to discard them.
 

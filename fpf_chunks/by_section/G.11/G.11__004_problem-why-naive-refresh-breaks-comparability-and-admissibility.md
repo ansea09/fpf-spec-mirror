@@ -6,15 +6,17 @@ section_id: "G.11:2"
 section_title: "Problem — Why naive refresh breaks comparability and admissibility"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__004_problem-why-naive-refresh-breaks-comparability-and-admissibility.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:2 — Problem — Why naive refresh breaks comparability and admissibility"
-line_start: 131500
-line_end: 131509
+line_start: 131387
+line_end: 131396
 dependencies:
+  - "A.10.1"
   - "A.6.RCD"
   - "B.3.4"
+  - "C.11.DUA"
   - "C.18"
   - "C.19"
   - "C.23"
@@ -46,7 +48,7 @@ keywords:
 
 ### G.11:2 - Problem — Why naive refresh breaks comparability and admissibility
 
-A refresh loop fails (conceptually) when any of the following happens:
+A refresh loop fails when any of the following happens:
 
 1. **Full-rerun mania.** Minor edits (e.g., a single Bridge calibration) trigger pack-wide rebuilds without a traceable scope rationale.
 2. **Editionless telemetry.** Telemetry signals are recorded without edition pins, making reruns non-comparable and parity-unreplayable.

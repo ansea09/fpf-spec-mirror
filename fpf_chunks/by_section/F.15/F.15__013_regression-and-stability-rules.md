@@ -6,12 +6,12 @@ section_id: "F.15:11"
 section_title: "Regression and stability rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__013_regression-and-stability-rules.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:11 — Regression and stability rules"
-line_start: 122978
-line_end: 123034
+line_start: 122901
+line_end: 122957
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -35,6 +35,7 @@ dependencies:
   - "F.14"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "F.4"
   - "F.6"
   - "F.8"
@@ -56,7 +57,7 @@ keywords:
 
 ### F.15:11 - Regression and stability rules
 
-The RSCR family compares exact earlier and later refs for each changed member. Every result names the continuity or change proposition, admitted losses, receiving use, and evidence path. It does not infer identity or difference from spelling, path, stable id, table position, timestamp, or edition label.
+The RSCR family compares exact earlier and later refs for each changed member and rechecks dependent results whose grounds changed. Every result names the continuity or change proposition, admitted losses, receiving use, and evidence path. It does not infer identity or difference from spelling, path, stable id, table position, timestamp, or edition label.
 
 #### F.15:11.1 - Schemes, versions, and known confusions
 
@@ -72,15 +73,15 @@ Recheck or explicitly retire every prior confusion, blocked use, and nearest cou
 When the basis episteme, source unit, or attestation changes, the `@t1` local-sense claim remains recoverable from exact current basis relations and descriptions. Changed witnesses or source publication do not silently rewrite the sense claim.
 
 **RSCR-F15-E4 (SchemeSenseCell value identity).**
-The exact F.17 cell value is `<ReferenceScheme by value, LocalExpression, LocalSenseClaim>`. Changing any component yields another coordinate value; keeping a label or id does not preserve it. Same sense under a renamed expression is handled through designation/lineage rather than cell identity by wish.
+The exact F.17 cell value is `<ReferenceScheme by value, LocalExpression, LocalSenseClaim>`. Changing any component yields another coordinate value; keeping a label or id does not preserve it. Same sense under a renamed expression is handled through designation/lineage; it does not preserve the cell.
 
 #### F.15:11.3 - UnifiedTermRows
 
 **RSCR-F15-E5 (Row episteme identity and edition).**
 Compare the exact C.2.1 row epistemes and their ClaimGraphs, EntityOfConcern values, and effective schemes. Changed governed value, NameCard, selected designation, cell, Bridge ref, admitted use, or rationale creates the corresponding later row claim content; an edition id cannot hide it.
 
-**RSCR-F15-E6 (Explicit add, split, merge, or retire).**
-When a changed value, sense, or use alters row support, preserve the exact earlier row and state the later add, split, merge, retirement, admitted losses, and receiving use under F.13/F.17. Do not mutate a shared table cell as continuity proof.
+**RSCR-F15-E6 (State the row change).**
+When a changed value, sense, or use alters row support, preserve the exact earlier row and state the warranted later disposition, admitted losses, and receiving use under F.13/F.17. A one-to-one change uses its subject-governed revision or replacement; split or merge only when those relations hold. Do not mutate a shared table cell as continuity proof.
 
 #### F.15:11.4 - SystemRoleKindDescriptions and names
 
@@ -93,10 +94,10 @@ If only a selected expression changes while the exact value, scheme, sense, and 
 #### F.15:11.5 - Bridges and bounded uses
 
 **RSCR-F15-E9 (Exact Bridge change).**
-Compare exact prior/later endpoint cells and relation-semantic profiles. A changed endpoint or profile concerns another Bridge candidate and obtaining test; changed assertion, description, Card, evidence, reliance, or bounded-use claim does not by itself reidentify or negate a fixed obtaining occurrence.
+Compare exact prior/later endpoint cells and relation-semantic profiles. A changed endpoint or profile concerns another Bridge candidate and obtaining test; reconsider every bounded-use claim that depends on that Bridge. Changed assertion, description, Card, evidence, reliance, or bounded-use claim does not by itself reidentify or negate a fixed obtaining occurrence.
 
 **RSCR-F15-E10 (No drift to equivalence or use authority).**
-A later equivalence claim requires an exact Equivalence profile, true predicate, required dependencies, and a separately identified obtaining occurrence. A new witness set, high `CL`, polished Card, or earlier partial relation is insufficient. Any later substitution still needs its own bounded-use claim and reliance.
+A later equivalence claim requires an exact Equivalence profile, true predicate, required dependencies, and a separately identified obtaining occurrence. A new witness set, high `CL`, Card, or earlier partial relation is insufficient. Any later substitution still needs its own bounded-use claim and reliance.
 
 #### F.15:11.6 - Status and system-role-kind relation structure
 

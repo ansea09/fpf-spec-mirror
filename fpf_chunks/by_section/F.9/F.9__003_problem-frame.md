@@ -6,12 +6,12 @@ section_id: "F.9:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__003_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:2 — Problem frame"
-line_start: 120578
-line_end: 120590
+line_start: 120502
+line_end: 120514
 dependencies:
   - "A.10"
   - "A.13"
@@ -59,7 +59,7 @@ keywords:
 
 Cross-context work fails in predictable ways:
 
-1. **String-equals fallacy.** Identical spellings such as "process", "role", "accuracy", or "ready" are taken as identical meaning.
+1. **String-equals fallacy.** An identical spelling, such as "process", is taken as identical meaning.
 2. **Relation-to-use jump.** A true semantic correspondence is treated as sufficient for whatever comparison, substitution, translation, or publication is wanted next.
 3. **Design-run jumping.** Design artefacts are substituted for run-time occurrences, or run-time occurrences are treated as design definitions.
 4. **Direction amnesia.** A symmetric relation is read as two use licences, or narrower and broader senses are used in the unsafe direction.

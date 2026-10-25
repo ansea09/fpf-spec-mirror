@@ -6,12 +6,12 @@ section_id: "F.3:6"
 section_title: "Solution — how to think about clustering"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__007_solution-how-to-think-about-clustering.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:6 — Solution — how to think about clustering"
-line_start: 118678
-line_end: 118709
+line_start: 118604
+line_end: 118635
 dependencies:
   - "A.11"
   - "A.7"
@@ -60,7 +60,7 @@ Merge candidates when no source-grounded test relevant to the receiving question
 
 Keep the Tech label in the source’s idiom. Make the Plain label explain the same claim to a careful newcomer. Neither label is the value being described, and neither may widen the claim.
 
-#### F.3:6.6 - Address only recurring uses
+#### F.3:6.6 - Address only when needed
 
-Ordinary prose may cite the source, expression, and claim directly. Mint an F.17 cell only when the local meaning must be reused, compared, or traced repeatedly.
+Ordinary prose may cite the source, expression, and claim directly. Create an F.17 cell when reuse, comparison or traceability needs a stable address for the local meaning.
 

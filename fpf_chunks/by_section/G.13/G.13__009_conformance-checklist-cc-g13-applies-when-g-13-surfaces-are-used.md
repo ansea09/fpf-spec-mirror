@@ -6,12 +6,12 @@ section_id: "G.13:8"
 section_title: "Conformance Checklist (CC‑G13; applies when G.13 surfaces are used)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__009_conformance-checklist-cc-g13-applies-when-g-13-surfaces-are-used.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:8 — Conformance Checklist (CC‑G13; applies when G.13 surfaces are used)"
-line_start: 132437
-line_end: 132469
+line_start: 132326
+line_end: 132358
 dependencies:
   - "A.18"
   - "A.19"
@@ -54,7 +54,7 @@ keywords:
 3. **CC‑G13‑CrossingsAreExplicitWhenInteropTouchesPlanesOrContexts.** *(delegated)* Any cross‑plane/context reuse implied by alignment **MUST** be made explicit through the crossing visibility discipline.
    → delegate to `CC‑GCORE‑CROSS‑1`.
 
-4. **CC-G13-PlanePenaltyPoliciesArePinned.** *(local; governing-definition citing)* If `PlaneMapRef` is used (or alignment implies plane‑level penalties), interop surfaces **MUST** publish the relevant policy‑id pins via the crossing‑visibility discipline, and any such policies **MUST** satisfy the constraints governed by `CG‑Spec` (cite `CC‑G0‑Φ`). Interop surfaces **MUST NOT** define interop‑local penalty functions.
+4. **CC-G13-PlanePenaltyPoliciesArePinned.** *(local; governing-definition citing)* When a receiving use applies a numerical plane loss, interop surfaces **MUST** publish the relevant model and policy-id pins under the crossing-visibility discipline, and those policies **MUST** satisfy the constraints governed by `CG-Spec` (cite `CC-G0-Φ`). A `PlaneMapRef` alone supplies no loss model or penalty. Interop surfaces **MUST NOT** define interop-local penalty functions.
 
 5. **CC‑G13‑SetReturnPreserved.** *(delegated)* Interop **MUST NOT** introduce hidden scalarisation or forced single‑winner selection.
    → delegate to `CC‑GCORE‑SET‑1`.

@@ -6,12 +6,12 @@ section_id: "C.37:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:3 — Forces"
-line_start: 81953
-line_end: 81963
+line_start: 81883
+line_end: 81893
 dependencies:
   - "A.10"
   - "A.2.4"

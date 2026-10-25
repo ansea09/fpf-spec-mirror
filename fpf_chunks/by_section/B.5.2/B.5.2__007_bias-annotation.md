@@ -6,12 +6,12 @@ section_id: "B.5.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__007_bias-annotation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:6 — Bias-Annotation"
-line_start: 50082
-line_end: 50085
+line_start: 50021
+line_end: 50024
 dependencies:
   - "A.10"
   - "A.16"
@@ -27,5 +27,5 @@ keywords:
 
 ### B.5.2:6 - Bias-Annotation
 
-This pattern biases authors toward visible candidate plurality, explicit plausibility criteria, and persistent prompt provenance. That bias is intentional. `B.5.2` would rather keep early conjectures slightly over-exposed than let their origin and selection grounds disappear.
+This pattern biases authors toward visible candidate plurality, explicit plausibility criteria, and persistent prompt provenance.
 

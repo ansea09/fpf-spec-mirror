@@ -6,12 +6,12 @@ section_id: "F.9.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:intro — Intro"
-line_start: 121147
-line_end: 121168
+line_start: 121070
+line_end: 121091
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
@@ -48,9 +48,9 @@ keywords:
 
 **Start here when.** You already have the Bridge and its bounded-use claim, but a reader may still overread a phrase such as “operationalizes”, “projection”, or “roughly analogous”.
 
-**First useful move.** Point to the exact bounded-use claim and write one ordinary sentence: “For this named use, read the relation as `___`; do not infer `___`.” Choose a stance word only if it makes that sentence shorter and clearer.
+**First useful move.** Point to the exact bounded-use claim and write one ordinary sentence: “For this named use, read the relation as `___`.” Add a rejected overread only when it has an independent local ground and changes the intended reader's interpretation, as F.19 requires. Choose a stance word only if it makes the sentence shorter and clearer.
 
-**What goes wrong if missed.** A friendly gloss starts acting like proof of equivalence, permission to substitute, or evidence that a use happened. The opposite failure also occurs: authors build a second bridge taxonomy merely to explain how one already warranted use should be read.
+**What goes wrong if missed.** An interpretive gloss is treated as proof of equivalence, permission to substitute, or evidence that a use happened. The opposite failure also occurs: authors build a second bridge taxonomy merely to explain how one already warranted use should be read.
 
 **What this buys.** Readers get a compact caution or reading aid while the Bridge, proposed use, evidence, reliance, authorization, actual downstream act, and optional publication package remain separately checkable.
 

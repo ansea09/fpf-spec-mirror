@@ -6,16 +6,17 @@ section_id: "B.1.5.CM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__013_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:11 — SoTA-Echoing"
-line_start: 43625
-line_end: 43634
+line_start: 43599
+line_end: 43608
 dependencies:
   - "A.3.1"
   - "B.1.5"
   - "B.1.5.EW"
+  - "B.1.5.RS"
   - "C.32.MWA.PP"
 keywords:
 ---
@@ -28,5 +29,5 @@ keywords:
 | Gericke, Eckert, and Stacey, [Elements of a design method](https://doi.org/10.1017/dsj.2022.23) | Intended use, procedure, representation, tool, ecosystem, and adaptation conditions for a coherent proposal. | Conceptual completeness does not prove world-side Method existence or relations. |
 | Current FPF `A.3.1`, `A.22`, `B.1.5`, and `C.32.MWA` | Method identification, selected structures, Method composition, and several-structure synthesis. | B.1.5.CM adds the truthful whole-versus-prospective-account resolution and realization continuation. |
 
-Reopen when a representative proposal cannot be expressed through the positive/prospective/lower branches, when variation repeatedly defeats reidentification, or when a positive composition claim cannot be distinguished from Work order or co-use.
+Reconsider the account when its content fits none of these supported results, when variation defeats its reidentification rule, or when the claimed composition depends only on Work order or co-use.
 

@@ -6,12 +6,12 @@ section_id: "A.1.SCR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__013_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:11 — SoTA-Echoing"
-line_start: 3766
-line_end: 3777
+line_start: 3752
+line_end: 3763
 dependencies:
   - "A.1"
   - "A.1.CSD"

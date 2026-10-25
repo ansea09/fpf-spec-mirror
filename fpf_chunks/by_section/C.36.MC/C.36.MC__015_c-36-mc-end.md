@@ -6,12 +6,12 @@ section_id: "C.36.MC:End"
 section_title: "C.36.MC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__015_c-36-mc-end.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:End — C.36.MC:End"
-line_start: 90786
-line_end: 90789
+line_start: 90716
+line_end: 90719
 dependencies:
   - "A.15.1"
   - "A.3.1"

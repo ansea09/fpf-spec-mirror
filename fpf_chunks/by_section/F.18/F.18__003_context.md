@@ -6,12 +6,12 @@ section_id: "F.18:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__003_context.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:1 — Context"
-line_start: 124556
-line_end: 124575
+line_start: 124478
+line_end: 124497
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -45,7 +45,7 @@ keywords:
 
 ### F.18:1 - Context
 
-Names are handles for use, not creators of ontology. A good name lets people talk about a governed value without smuggling in an extra system-role kind, assignment, capability, method, work, status, evidence, interface, or cross-context claim.
+A name lets people refer to an independently governed value. The naming decision selects designations for that value; its subject pattern supplies the rules for identifying it and testing claims about it.
 
 `FPFCoreReferenceScheme` is the by-value `U.ReferenceScheme` used to interpret current FPF Core Tech labels and relation names; a name under another scheme carries that scheme by value. Most naming work stays within one `<ReferenceScheme, LocalSenseClaim>` projection and needs no Bridge. If one named use must relate different projections, follow the later cross-projection branch in section 4.4.1. Shared spelling, another scheme, or a selected model-use structure alone creates no Bridge, use claim, reliance, governed-value identity, or `U.BoundedContext`.
 

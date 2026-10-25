@@ -6,14 +6,15 @@ section_id: "B.5.WN:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__006_archetypal-grounding.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
   - "B.5.WN:5 — Archetypal Grounding"
-line_start: 47285
-line_end: 47352
+line_start: 47224
+line_end: 47291
 dependencies:
   - "A.15.10"
+  - "A.15.11"
   - "A.6.3.RT.OE"
   - "B.5.EA"
   - "B.5.QD"
@@ -45,7 +46,7 @@ In another project, all reviews are reported as completed, but the receiving com
 
 > **Which event makes a result available for its next use?** Ending the producing activity and obtaining a usable receiving result can differ. Investigate the required relation in each case; equal words such as “completed” do not establish it.
 
-This note is an own cross-case conjecture and question. Its links name the bench and review contributions and preserve their different grounds. It proposes an inquiry; it does not establish a common cause.
+This note states the practitioner's cross-case conjecture and question. Its links name the bench and review contributions and preserve their different grounds. It proposes an inquiry; it does not establish a common cause.
 
 Now change the review facts: all reviewers used a common valid basis, but the recipient has not opened their results. The missing-basis explanation fails in that case. The practitioner narrows the connection to the distinction between a result's availability and its actual use, retaining the original bench observations. If no current project needs this question, the semantic entry is a sufficient continuation. If a delivery decision needs it today, the project must establish which result is actually available before acting.
 

@@ -6,12 +6,12 @@ section_id: "F.17:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__002_intent-and-applicability.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:1 — Intent and applicability"
-line_start: 123497
-line_end: 123510
+line_start: 123419
+line_end: 123432
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -53,7 +53,7 @@ keywords:
 
 ### F.17:1 - Intent and applicability
 
-`UnifiedTermSheet` is a reader-facing collection of independently identified term-row epistemes for one useful naming thread. Each row makes one selected naming decision easy to find: it names the governed value, its kind, where that value is defined or constrained, selected designations, exact local senses, any actual Bridge needed by the declared use, admitted and blocked citation uses, and reopen condition.
+`UnifiedTermSheet` is a reader-facing collection of independently identified term-row epistemes for one useful naming thread. Each row makes one selected naming decision easy to find: it names the governed value, its kind, where that value is defined or constrained, selected designations, exact local senses, any actual Bridge needed by the declared use, admitted citation use and any grounded blocked-use claim, and reopen condition.
 
 Use it especially for:
 
@@ -63,5 +63,5 @@ Use it especially for:
 - one exact naming use between independently recovered local senses;
 - row identifiers that must remain usable across row-episteme editions.
 
-F.17 introduces no system-role kind, assignment, relation position, status, evidence, method, Work, relation occurrence, slot kind, local concept, NameCard, Bridge, publication occurrence, form, or carrier. It constitutes the row episteme only. Its visible table form can be useful, but table position, filled cells, suffix, source prestige, or row count has no ontological force.
+F.17 constitutes the row episteme. Claims about the named value and its use remain governed by their defining or constraining patterns. A table can display the row, but its position, filled cells, suffix, source prestige, or row count does not establish the value's identity or permitted use.
 

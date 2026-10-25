@@ -6,12 +6,12 @@ section_id: "F.0.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__003_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:2 — Problem"
-line_start: 117125
-line_end: 117130
+line_start: 117051
+line_end: 117056
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -31,7 +31,7 @@ keywords:
 
 ### F.0.1:2 - Problem
 
-A string does not identify one meaning across sources. The same spelling can denote a designed structure, a performed occurrence, a status, a permission, a measurement, or another subject. If the source, edition, and passage disappear, a later claim can silently change its entity, relation, time stance, or intended use.
+A string does not identify one meaning across sources. The same spelling can denote different kinds of subject; for example, *process* can name a designed structure or a performed occurrence. If the source, edition, and passage disappear, a later claim can silently change its entity, relation, time stance, or intended use.
 
 The opposite response is also harmful. A full source survey, durable cell, provenance record, reliance disposition, or assurance claim for every word makes ordinary reading needlessly expensive. The problem is to recover one local meaning cheaply while keeping the point of escalation visible.
 

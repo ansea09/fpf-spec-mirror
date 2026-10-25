@@ -6,12 +6,12 @@ section_id: "A.15.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__008_conformance-checklist.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:7 — Conformance Checklist"
-line_start: 31588
-line_end: 31605
+line_start: 31574
+line_end: 31591
 dependencies:
   - "A.1"
   - "A.1.STM"

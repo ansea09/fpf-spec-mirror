@@ -6,12 +6,12 @@ section_id: "C.36.MC:5"
 section_title: "Archetypal Grounding - MeCaMinD Transmission"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__007_archetypal-grounding-mecamind-transmission.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:5 — Archetypal Grounding - MeCaMinD Transmission"
-line_start: 90628
-line_end: 90691
+line_start: 90558
+line_end: 90621
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -68,7 +68,7 @@ The source does not establish recurring practitioner enactment, population recog
 
 #### C.36.MC:5.3 - EC-417 Missing Basis
 
-The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference169---choose-the-smallest-method-development-result-needed-for-release-ec-417) supplies the receiving problem, alternatives, calculations and the distinct limits used below.
+The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference169---choose-the-method-development-result-needed-for-release-ec-417) supplies the receiving problem, alternatives, calculations and the distinct limits used below.
 
 EC-417 supplies no C.20 recognition, bounded Method-development population, admitted Method-development Method with actual enactment, or derived cultural predicate and evidence. Its candidate release, candidate accounts, description epistemes, support results, WorkPlan, and task observations do not establish culture. Because no admitted Method is identified as the descriptions' `EntityOfConcern`, they are not `U.MethodDescription`. A.3.2.DE can still correct candidate-Method-account content when a defect is found; the absence of a cultural result is not itself such a defect. A status-preserved candidate branch may carry those identified accounts, epistemes, and Work facts, but it asserts neither Method nor enactment. Return the missing value, participants, and predicate when a cultural result is actually needed; do not invent an intervention, rivals, or future observation merely to complete EC-417's separate release task. Use MeCaMinD, SRA, and Essence only for the unlike claims each source supports.
 

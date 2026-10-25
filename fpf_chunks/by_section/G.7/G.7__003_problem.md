@@ -6,12 +6,12 @@ section_id: "G.7:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__003_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:2 — Problem"
-line_start: 129626
-line_end: 129633
+line_start: 129523
+line_end: 129530
 dependencies:
   - "A.21"
   - "B.3"
@@ -55,9 +55,9 @@ keywords:
 
 ### G.7:2 - Problem
 
-1. Cross‑Tradition comparisons are frequently attempted via informal “synonymy” or ad‑hoc mappings, causing silent meaning drift and hidden crossings.
-2. Plane mismatches (world ↔ concept ↔ episteme, or other `ReferencePlane` shifts) are often ignored, or conflated with “semantic sameness”, causing wrong downstream confidence.
-3. Calibration changes (CL/CL^k/plane or their policy pins) must trigger **targeted** re‑checks; pack‑wide reweaves are too costly and too slow.
+1. Cross-Tradition comparison through informal “synonymy” or an unspecified mapping can hide meaning drift and the relation actually needed.
+2. An unexamined plane mismatch (world ↔ concept ↔ episteme, or another `ReferencePlane` shift) can support an unwarranted downstream confidence claim.
+3. Calibration changes (CL/CL^k/plane or their policy pins) require rechecks of the uses that depend on them. Unrelated pack contents retain their existing basis.
 4. If bridges are involved in QD/illumination or other edition‑sensitive telemetry, **edition pins** must be tracked (otherwise comparisons become irreproducible after a map/distance/policy update).
-5. Row‑level summaries (for matrix rows / comparable construct groups) tend to be averaged or “smoothed”, which is incompatible with bottleneck semantics and loss honesty.
+5. Averaging ordinal row values is inadmissible; even a lawful summary can hide a loss needed by a receiving task. Preserve the cell evidence and use only a summary justified for the stated calibration question.
 

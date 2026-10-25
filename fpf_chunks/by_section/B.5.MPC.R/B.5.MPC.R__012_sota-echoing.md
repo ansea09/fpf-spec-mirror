@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__012_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:11 — SoTA-Echoing"
-line_start: 48087
-line_end: 48098
+line_start: 48026
+line_end: 48037
 dependencies:
   - "A.15.9"
   - "A.3.3"
@@ -36,5 +36,5 @@ keywords:
 
 **Which sampling repair changes the physical inference?** Use NI's [sampling and aliasing account, “Sample Rate” and “Aliasing”](https://www.ni.com/en/shop/data-acquisition/measurement-fundamentals/analog-fundamentals/acquiring-an-analog-signal--bandwidth--nyquist-sampling-theorem-.html) for the acquisition constraint and input conditioning. Section 5.2 derives its alias equality explicitly and states f_s and the admitted signal band. Compared with increasing numerical precision, changing acquisition can distinguish the physical cases. The instrument's bandwidth, filtering and timing remain part of that repair.
 
-Reopen the source choices when a physical theory, representation, computational method or executing technology supplies a better way to resolve the same disagreement. Compare the actual operation, consequence and conditions that let the receiving work use it.
+Reconsider the chosen repair when a physical theory, representation, computational method or executing technology supplies a better way to resolve the same disagreement. Compare the actual operation, consequence and conditions that let the receiving work use it.
 

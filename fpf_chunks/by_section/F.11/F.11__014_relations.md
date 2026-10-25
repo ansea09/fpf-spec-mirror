@@ -6,15 +6,17 @@ section_id: "F.11:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__014_relations.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:13 — Relations"
-line_start: 121832
-line_end: 121847
+line_start: 121755
+line_end: 121770
 dependencies:
+  - "A.13"
   - "A.15"
   - "A.15.1"
+  - "A.2.1"
   - "A.3"
   - "A.3.1"
   - "A.3.2"
@@ -45,7 +47,7 @@ keywords:
 
 **Builds on:**
 
-- Use **A.3** and **A.3.1** for `U.Method`, **A.3.2** for `U.MethodDescription`, and **A.15** and **A.15.1** for dated `U.Work`.
+- Use **A.3** and **A.3.1** for `U.Method`, **A.3.2** for `U.MethodDescription`, **A.13** for the actual-performer basis, and **A.15** and **A.15.1** for dated `U.Work`.
 - Use **B.1.5** for Method composition and Work enactment, **C.2.1** for the identity of every claim-bearing episteme and report, and **E.10.D1** when vague *context* wording hides the actual source, scheme, scope, use, situation, or evidence basis.
 - Use the direct transformation, observation, or control pattern when an output claim is made; F.11 creates no universal actuation kind.
 

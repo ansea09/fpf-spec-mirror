@@ -6,12 +6,12 @@ section_id: "C.39.RQ:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 83909
-line_end: 83918
+line_start: 83839
+line_end: 83848
 dependencies:
   - "A.3.1"
   - "C.11"

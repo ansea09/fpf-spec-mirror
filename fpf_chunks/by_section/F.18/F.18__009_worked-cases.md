@@ -6,12 +6,12 @@ section_id: "F.18:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__009_worked-cases.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:7 — Worked Cases"
-line_start: 125167
-line_end: 125333
+line_start: 125089
+line_end: 125255
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -84,7 +84,7 @@ NameCard:
   RefreshCondition: reopen if the local kind identity changes or repeated readers infer a non-human-only system, admission, assignment, agency, capability, or Work from the name
 ```
 
-The candidates execute the section 4.3 stopping rule: each live head family is represented, and the recovered Method and Work objects are not synonyms for the local kind. If public or cross-context reuse becomes current, apply section 4.4; until it passes, keep this card local.
+The candidate comparison meets the section 4.3 stopping condition: each live head family is represented, and the recovered Method and Work objects are not synonyms for the local kind. If public or cross-context reuse becomes current, apply section 4.4; until it passes, keep this card local.
 
 #### F.18:7.1a - Reviewer in a Journal Context
 
@@ -125,7 +125,7 @@ Recovered values:
 - `MusicianSystemRole` as another exact local kind when its own music-performance condition and boundary matter separately;
 - any current engineering or musician assignments as occurrences of their declared A.2.1 species;
 - robot-engineering Method or Work, music-performance Work, and robot-music-teaching Method or Work under their direct patterns;
-- an optional algebraic, graph, matrix, embedding, or neural representation only if the project actually uses that lens to describe the selected system-role-kind relation structure.
+- an optional representation only if the project uses it to describe the selected system-role-kind relation structure.
 
 If the exact robotics-qualified local kind has been admitted, its local naming settlement is:
 
@@ -208,5 +208,5 @@ Recovered values:
 - deployable module under module-interface patterns;
 - management unit under organizational patterns.
 
-F.18 settlement: first keep the three recovered values and their local labels separate. If only local speech is needed, stop there; do not name a claim merely because one team wants to explain the difference. If a public term use is proposed between different `<ReferenceScheme, LocalSenseClaim>` projections, identify the exact source and receiving F.17 cells and test the F.9 Bridge predicate between them. The same scheme with different `LocalSenseClaim` values qualifies; a different scheme only opens the question and never establishes the relation. When the Bridge obtains, state in ordinary C.2.1 wording whether it is suitable for this naming use, naming the direction, label-correspondence rule, tolerated loss, and polarity, and establish the current A.10 or B.3 reliance required by section 1. The Bridge does not choose the Tech label, the claim does not identify the governed value, and neither authorizes or performs publication. Only after those objects are current should the practitioner apply F.17 as specified in section 4.4. If the F.17 gate fails, keep the name and card local and mark the row pending; if no correspondence use is current, stop with the local settlement and create no Bridge or use claim regardless of scheme count.
+F.18 settlement: first keep the three recovered values and their local labels separate. If only local speech is needed, stop there; do not name a claim merely because one team wants to explain the difference. If a public term use is proposed between different `<ReferenceScheme, LocalSenseClaim>` projections, identify the exact source and receiving F.17 cells and test the F.9 Bridge predicate between them. The same scheme with different `LocalSenseClaim` values qualifies; a different scheme only opens the question and never establishes the relation. When the Bridge obtains, state in ordinary C.2.1 wording whether it is suitable for this naming use, naming the direction, label-correspondence rule, tolerated loss, and polarity, and establish the current A.10 or B.3 reliance required by section 4.4.1. The Bridge does not choose the Tech label, the claim does not identify the governed value, and neither authorizes or performs publication. Only after those objects are current should the practitioner apply F.17 as specified in section 4.4. If the F.17 gate fails, keep the name and card local and mark the row pending; if no correspondence use is current, stop with the local settlement and create no Bridge or use claim regardless of scheme count.
 

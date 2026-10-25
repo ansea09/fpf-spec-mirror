@@ -6,12 +6,12 @@ section_id: "D.3:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__012_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:7 — Consequences"
-line_start: 91366
-line_end: 91369
+line_start: 91295
+line_end: 91298
 dependencies:
   - "A.1"
   - "A.10"
@@ -38,5 +38,5 @@ keywords:
 
 ### D.3:7 - Consequences
 
-Work under `D.4`, `D.5`, `B.3`, `C.28`, `A.10`, `C.11`, and `C.30.ILC` can cite one conflict description without mistaking that description for the ethical object. The cost is that a reusable description must keep its claims, subject, interpretation, and neighboring relations distinct. The gain is that ordinary mediation and decision work can start from a short, connected account rather than a slogan or a large assurance form.
+A connected conflict description lets mediation or decision work start from the claims and their tension. For later reliance, keep its subject, claims, interpretation and supporting relations identifiable.
 

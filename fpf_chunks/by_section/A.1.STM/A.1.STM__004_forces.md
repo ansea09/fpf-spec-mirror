@@ -6,12 +6,12 @@ section_id: "A.1.STM:2"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:2 — Forces"
-line_start: 4098
-line_end: 4109
+line_start: 4084
+line_end: 4095
 dependencies:
   - "A.1"
   - "A.1.CSD"

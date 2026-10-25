@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:intro — Intro"
-line_start: 32112
-line_end: 32118
+line_start: 32098
+line_end: 32104
 dependencies:
   - "A.15.8"
   - "A.19"

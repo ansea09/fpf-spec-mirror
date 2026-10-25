@@ -6,12 +6,12 @@ section_id: "G.3:11"
 section_title: "SoTA‑Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__012_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:11 — SoTA‑Echoing"
-line_start: 128005
-line_end: 128013
+line_start: 127904
+line_end: 127912
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -60,10 +60,10 @@ keywords:
 
 ### G.3:11 - SoTA‑Echoing
 
-This pattern aligns with post‑2015 best practice by:
+The pattern connects these evaluation practices to measurement authoring:
 
-* treating abstention/defer and set‑valued outcomes as first‑class design objects (consistent with modern selective prediction and set‑valued reporting practice),
-* keeping multiobjective and archive‑based reasoning set‑returning rather than silently scalarizing (consistent with QD/illumination and open‑ended evaluation practice after 2015),
-* making evaluation semantics reproducible through explicit edition/policy pinning (aligned with the modern emphasis on reproducibility and “specifying the evaluation surface” rather than only reporting metrics),
+* treating abstention/defer and set‑valued outcomes as first‑class design objects (as in selective prediction and set-valued reporting),
+* keeping multiobjective and archive‑based reasoning set‑returning rather than silently scalarizing (as in QD/illumination and open-ended evaluation),
+* making evaluation semantics reproducible through explicit edition/policy pinning so users can recover how a reported metric was evaluated,
 * modularizing method‑family specifics (QD/OEE, explore‑exploit) via explicit wiring and governing-definition assignment rather than embedding method semantics into universal measurement admissibility.
 

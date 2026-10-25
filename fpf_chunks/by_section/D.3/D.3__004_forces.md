@@ -6,12 +6,12 @@ section_id: "D.3:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:1.1 — Forces"
-line_start: 91201
-line_end: 91211
+line_start: 91128
+line_end: 91138
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,10 +40,10 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Conflict description vs. decision use | The sides and their tension must be inspectable before D.4 can mediate, refuse, or support a bounded decision. |
-| Level and scope plurality vs. fixed ladder | A case may involve persons, teams, organizations, communities, systems, epistemes, or environments without one universal hierarchy. |
+| Conflict description vs. decision use | Make the sides and their tension inspectable for mediation or decision use under D.4. |
+| Level and scope plurality vs. fixed ladder | Recover the relevant relations and scopes from the case; structural levels do not establish ethical priority. |
 | Conflict vs. description | A narrative, table, graph, or formal expression can describe the conflict but is not the situation, claims, harms, or relations it describes. |
-| Cheap first result vs. reusable precision | Most cases first need two clear sides and one tension statement; later reuse may need an identified episteme and typed supporting relations. |
+| Useful first result vs. reusable precision | The first result needs connected sides and a tension statement; later reuse may need an identified episteme and typed supporting relations. |
 | Agency evidence vs. responsibility | Evidence may support an agency characteristic or threshold. Responsibility still needs its own direct predicate and actual participants; no score, label, collection name, or assignment supplies it. |
 | Architecture residual vs. ethical conflict | A cross-scope structure can be architectural, ethical, or both. `C.30.ILC` triages the architecture residual; D.3 describes the ethical conflict. |
 

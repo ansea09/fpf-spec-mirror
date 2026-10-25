@@ -6,14 +6,15 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.SelectorMechanism.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
-line_start: 39656
-line_end: 40088
+line_start: 39642
+line_end: 40074
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
+  - "A.19.CPM"
   - "A.19.ULSAM"
   - "A.19.USCM"
   - "A.6.1"

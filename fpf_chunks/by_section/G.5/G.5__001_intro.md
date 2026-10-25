@@ -6,12 +6,12 @@ section_id: "G.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.5 — Method-Family Registry, Dispatch and Selected-Set Result Declaration"
   - "G.5:intro — Intro"
-line_start: 128480
-line_end: 128489
+line_start: 128379
+line_end: 128388
 dependencies:
   - "C.11"
   - "C.18"
@@ -60,7 +60,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative
 
-**Intent.** Help an engineer use a dispatcher and registry for rival method families and state selector-facing set outcomes. The outcome distinction covers retained alternatives and members jointly included for one named use without collapsing plurality into one hidden scalar winner.
+**Intent.** Help an engineer or framework author use a dispatcher and registry for rival method families and state selector-facing set outcomes. The outcome distinction covers retained alternatives and members jointly included for one named use without collapsing plurality into one hidden scalar winner.
 
-**Primary working reader and object.** An engineer or framework author who already has a set of identified candidates or members and must state the selector-facing result—outcome kind, members, ordering, named use when required, and basis pins—for a named downstream use, without also claiming a choice, Work, or publication occurrence that has not happened.
+
 

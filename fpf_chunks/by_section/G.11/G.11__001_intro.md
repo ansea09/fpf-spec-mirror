@@ -6,15 +6,17 @@ section_id: "G.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:intro — Intro"
-line_start: 131446
-line_end: 131461
+line_start: 131339
+line_end: 131353
 dependencies:
+  - "A.10.1"
   - "A.6.RCD"
   - "B.3.4"
+  - "C.11.DUA"
   - "C.18"
   - "C.19"
   - "C.23"
@@ -46,7 +48,7 @@ keywords:
 
 ## G.11 - Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)
 
-**Tag.** Architectural pattern (architectural; notation-independent)
+**Tag.** Architectural pattern (notation-independent)
 > **Status:** Stable
 **Normativity.** Normative (unless explicitly marked informative)
 
@@ -56,7 +58,6 @@ keywords:
 
 **Primary hooks.** `G.Core` (RSCR trigger catalogue, alias docking, and Default Governing Definition Index), `G.6` (EvidenceGraph; `PathId` and `PathSliceId`), `G.7` (Bridge Sentinels; CL, Φ, and plane policy pins), `G.5` (set-returning selection and dispatch), `G.8` (SoS-LOGBundle telemetry hooks), `G.9` (parity reruns), `G.10` (shipping hooks and pack-level telemetry pins), `G.12` (dashboard telemetry pins), `B.3.4` (freshness and decay), `E.18` (GateCrossing and CrossingBundle visibility), `C.18` and `C.19` archive, front, and live-pool policy pins, `C.23` (SoS-LOG branches and maturity ladders), `C.28` (causal-use support results whose SoTA-sensitive fields can change downstream causal-use results).
 
-**Non-duplication note.**
 `G.11` cites `G.Core` for RSCR trigger-kind meaning, CN and CG admissibility, tri-state guards, penalties, set-return semantics, shipping or harvesting delegation, `RSCRTriggerKindId` values, and default governing definitions.
 Refresh plans and reports cite those governed definitions; they do not create local trigger meanings or default definitions inside the refresh record.
 

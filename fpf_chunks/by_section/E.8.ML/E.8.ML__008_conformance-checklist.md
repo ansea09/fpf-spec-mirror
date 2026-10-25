@@ -6,12 +6,12 @@ section_id: "E.8.ML:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__008_conformance-checklist.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:7 — Conformance Checklist"
-line_start: 97271
-line_end: 97280
+line_start: 97197
+line_end: 97206
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"
@@ -20,6 +20,7 @@ dependencies:
   - "E.4.CM"
   - "E.8"
   - "F.0.2.MA"
+  - "F.0.2.RC"
 keywords:
 ---
 

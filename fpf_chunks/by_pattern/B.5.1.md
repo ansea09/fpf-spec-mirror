@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.1.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.1 — Coordinate Development States: Explore → Shape → Evidence → Operate"
-line_start: 49909
-line_end: 49969
+line_start: 49849
+line_end: 49909
 dependencies:
   - "B.3.3"
   - "B.4"
@@ -70,7 +70,7 @@ B.3.3 governs any assurance conclusion about the particular claim and receiving 
 
 ### B.5.1:6 - **Rationale**
 
-This pattern operationalizes the **Principle of State Explicitness (P-9)** for development coordination. The four states make the project's focus and transition obligations inspectable. B.5 supplies reasoning contributions and B.3.3 qualifies assurance for a claim and use. Keeping those questions distinct supports iterative development without requiring every useful idea or result to become an operational holon.
+This pattern operationalizes the **Principle of State Explicitness (P-9)** for development coordination. The four states make the project's focus and transition obligations inspectable. B.5 supplies reasoning contributions and B.3.3 qualifies assurance for a claim and use. Keeping those questions distinct lets a project use a sufficient result while continuing development of its subject.
 
 ### B.5.1:7 - **Relations**
 

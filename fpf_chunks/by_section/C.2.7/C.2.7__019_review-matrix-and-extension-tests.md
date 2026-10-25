@@ -6,12 +6,12 @@ section_id: "C.2.7:18"
 section_title: "Review Matrix and Extension Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__019_review-matrix-and-extension-tests.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:18 — Review Matrix and Extension Tests"
-line_start: 54379
-line_end: 54397
+line_start: 54309
+line_end: 54327
 dependencies:
   - "A.16"
   - "A.16.0"

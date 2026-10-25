@@ -6,12 +6,12 @@ section_id: "G.1:11"
 section_title: "SoTA‑Echoing (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__012_sota-echoing-informative.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:11 — SoTA‑Echoing (informative)"
-line_start: 127032
-line_end: 127041
+line_start: 126933
+line_end: 126942
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -54,11 +54,11 @@ keywords:
 
 ### G.1:11 - SoTA‑Echoing (informative)
 
-This chassis is designed to stay compatible with modern (post‑2015) practice without confusing “SoTA” with “currently popular”:
+The following practices connect to the chassis through its governed modules:
 
-* **Evidence synthesis:** living systematic review protocols (e.g., PRISMA‑style traceability and update cadence) map naturally to M2 wiring governed by `G.2`.
-* **Quality‑Diversity and archives:** modern QD families (MAP‑Elites‑class, CMA‑ME‑class, and related archive‑based exploration) fit as M3/M4 extensions (`C.18`/`C.19`) because they require explicit descriptor/distance/insertion pins and preserve set‑valued outcomes.
-* **Open‑ended exploration:** post‑2015 open‑endedness systems (POET‑class, paired/adversarial environment generation lines, and modern curriculum‑generation approaches) fit when treated as generator‑family wiring (governed elsewhere) rather than as chassis semantics.
-* **Set‑valued decision outputs:** modern multi‑objective and set‑valued evaluation practices align with the `G.Core` set‑return discipline, preventing hidden scalarisation.
-* **Governed traceability:** contemporary reproducibility and accountability norms (mechanism disclosure, provenance anchors, and audit trails) are supported via pinned policies/editions and explicit module boundaries, without introducing data‑governance machinery.
+* **Evidence synthesis:** systematic and living reviews use explicit selection criteria and source-selection reporting; living review also needs an update policy. M2 obtains these through `G.2`. PRISMA-style reporting can make the source selection inspectable.
+* **Quality‑Diversity and archives:** QD families (MAP‑Elites‑class, CMA‑ME‑class, and related archive‑based exploration) fit as M3/M4 extensions (`C.18`/`C.19`) because they require explicit descriptor/distance/insertion pins and preserve set‑valued outcomes.
+* **Open‑ended exploration:** open-endedness systems (POET‑class, paired/adversarial environment generation lines, and curriculum-generation approaches) fit when treated as generator‑family wiring (governed elsewhere) rather than as chassis semantics.
+* **Set‑valued decision outputs:** multi-objective and set‑valued evaluation practices align with the `G.Core` set‑return discipline, preventing hidden scalarisation.
+* **Governed traceability:** pinned policies and editions make the selected mechanisms and provenance inspectable across module boundaries.
 

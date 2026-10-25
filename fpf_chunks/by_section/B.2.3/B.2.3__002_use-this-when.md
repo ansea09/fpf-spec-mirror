@@ -6,12 +6,12 @@ section_id: "B.2.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__002_use-this-when.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:0 — Use This When"
-line_start: 44684
-line_end: 44703
+line_start: 44646
+line_end: 44665
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,7 +44,7 @@ Use `B.2` first to decide whether whole reidentification is current and to ident
 
 **What goes wrong if missed.** A catalogue, literature review, dashboard, model repository, or vocabulary is called a new theory without claim-graph reidentification; or a real new episteme whole is treated as a pile of publications.
 
-**What this buys.** The pattern preserves B.2 whole reidentification while keeping episteme ontology with C.2.1 and the episteme family. It prevents episteme-result MHT from becoming episteme agency, publication authority, generic emergence, or a second episteme ontology.
+**What this buys.** The practitioner can recognize B.2's candidate as an episteme under C.2.1 and distinguish that result from its publication, use, and assurance claims.
 
 **Not this pattern when.**
 

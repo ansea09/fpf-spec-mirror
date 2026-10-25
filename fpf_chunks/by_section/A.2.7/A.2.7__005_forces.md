@@ -6,12 +6,12 @@ section_id: "A.2.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__005_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:3 — Forces"
-line_start: 7596
-line_end: 7608
+line_start: 7582
+line_end: 7594
 dependencies:
   - "A.2"
   - "A.2.1"

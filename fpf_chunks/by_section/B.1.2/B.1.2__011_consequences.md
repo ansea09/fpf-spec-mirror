@@ -6,12 +6,12 @@ section_id: "B.1.2:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__011_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:8 — Consequences"
-line_start: 42144
-line_end: 42158
+line_start: 42125
+line_end: 42139
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,9 +43,9 @@ keywords:
 Positive consequences:
 
 - System aggregation remains practical for engineering systems and organizations.
-- Boundary and interface concerns become explicit subject-pattern work without omnibus relation or check objects.
-- Functional architecture, module allocation, and physical parthood stop collapsing into one diagram.
-- Digital-twin and publication artifacts stay on the description side unless an exact stronger relation predicate is defined and current facts satisfy it.
+- Boundary and interface decisions expose the facts and rules they depend on.
+- Practitioners can distinguish functional architecture, module allocation, and physical parthood within a shared diagram.
+- A digital twin or publication remains a description unless a further relation is independently defined and established.
 
 Costs:
 

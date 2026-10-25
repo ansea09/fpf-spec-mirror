@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.6.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
-line_start: 119498
-line_end: 119859
+line_start: 119423
+line_end: 119784
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,8 +64,8 @@ Typical moments:
 - a MethodDescription names a system-role kind and the project must connect actual Work to the assigned performer;
 - source wording says `RoleEnactment`, “played the role”, or `Holder#Role:Context@Window`;
 - a stronger appointment has a commission, position, or locus participant and must retain that occurrence identity during attribution;
-- a report, standard, dashboard, or access label is described with role wording although it did not perform Work;
-- a corresponding kind or assignment from another context is cited without a current Bridge and local occurrence.
+- an attribution claim names a report instead of the Work's already admitted performer System;
+- a corresponding kind or assignment from another context is used to stand in for the actual assignment occurrence.
 
 **Primary EntityOfConcern.** One obtaining `performedUnderAssignment` relation occurrence between a `U.Work` occurrence and an assignment occurrence whose species is declared under `U.SystemRoleAssignment`.
 
@@ -235,7 +235,7 @@ After the Work–assignment link and its necessary constraints are established, 
 InspectionWork-17 was performed by Robot-7 under InspectionAssignment-17.
 ```
 
-Expose declarations and occurrence keys only when a dependent use must distinguish occurrences, cite one as a participant, compare assertions, or preserve provenance. If the assignment cannot be recovered, lower the claim to “Robot-7 is named as performer in record R” and state the source, reliance, and evidence claims under their direct predicates.
+Expose declarations and occurrence keys only when a dependent use must distinguish occurrences, cite one as a participant, compare assertions, or preserve provenance. If the assignment cannot be recovered for this attribution, retain the admitted Work and actual performer and leave the attribution unresolved. State any source-reliance or evidence limit under its direct predicate.
 
 Another pattern may require a **complete A.13/A.15.1/F.6 basis** when its receiving use needs both admitted Work and precise assignment-bound performer attribution, and may point here instead of repeating this declaration and check sequence. That combined basis has a fixed order: A.13 first supplies every performer's exact System, local agential kind and criterion, classification, obtaining assignment, needed scope, working situation, window, and adequate core evidence; A.15.1 independently admits the dated Work from its performance history, at least one obtaining `enactsMethod` relation, extent, and at least one obtaining locally declared Work-to-System containment relation; only then does F.6 test every required exact Work-assignment pair through the same obtaining A.13 assignment. The phrase is never an A.15.1 membership test. A missing F.6 relation preserves `W : U.Work` and leaves only the precise attribution unresolved. A characteristic profile remains conditional, and another enactment or containing-system relation is named only when the receiving use relies on it.
 
@@ -362,7 +362,7 @@ A.13 first recovers `ReviewTeam-9` and `Alice` as the two exact actual performer
 
 ### F.6:11 - Consequences
 
-**Benefits.** Assignment and Work remain independently identifiable, while attribution becomes a direct relation that can be cited, supported, corrected, or left unresolved. People, teams, organizations, machines, services, and software systems use the same pattern because every assignment occurrence exposes its admitted holder through the species-declared holder slot.
+**Benefits.** Assignment and Work remain independently identifiable, while attribution becomes a direct relation that can be cited, supported, corrected, or left unresolved. The rule applies to every admitted holder System because each assignment occurrence exposes that holder through its species-declared holder slot.
 
 **Costs.** Reliance-bearing use must recover both the assignment occurrence and its declared species rather than stop at a familiar label. A compact sentence can split into assignment assertion, Work occurrence, attribution, Method enactment, change or production claim, result episteme, and evidence relation when the receiving use needs them.
 
@@ -378,7 +378,7 @@ Making a log, status, decision, or evidence item a participant would confuse att
 
 ### F.6:13 - SoTA-Echoing and Source Use
 
-**Internal basis, not an external SoTA claim.** A.2.1 and A.6.5 supply the declaration-local slot, domain, and participant-value discipline. A.2.5 keeps assignment state distinct from the assignment occurrence. A.6.REL supplies relation obtaining and occurrence identity. A.15.1 supplies dated Work and the actual-performer basis. F.6 uses these as its governing FPF neighbours; they do not replace comparison with external work.
+**Internal basis, not an external SoTA claim.** A.2.1 and A.6.5 supply the declaration-local slot, domain, and participant-value discipline. A.2.5 keeps assignment state distinct from the assignment occurrence. A.6.REL supplies relation obtaining and occurrence identity. A.13 supplies the actual-performer basis; A.15.1 independently admits dated Work using that basis. F.6 uses these as its governing FPF neighbours; they do not replace comparison with external work.
 
 | Source and status | Decision for F.6 | What F.6 uses and does not import | Affected loci and smallest source-driven revisit |
 | --- | --- | --- | --- |
@@ -386,13 +386,13 @@ Making a log, status, decision, or evidence item a participant would confuse att
 | W3C [PROV-O](https://www.w3.org/TR/prov-o/), 2013 Recommendation — representation lineage | **Adapt as a representation contrast.** Its qualified association keeps activity, agent, role, and plan separately addressable. | Use the separation when checking reports and provenance. Do not treat a PROV association as an FPF assignment occurrence, its role as a system-role kind, its activity as dated Work, or a provenance record as proof that attribution obtains. | §§4.2, 4.5, and §7.3. Revisit only if the qualified-association meaning used in this contrast changes materially. |
 | [OCEL 2.0 Specification](https://www.ocel-standard.org/2.0/ocel20_specification.pdf), 2023 — event-log stress test | **Adapt as a logging stress test.** Its separate events, objects, and qualified relations test whether an exported log can preserve the identities F.6 needs. | Use the separation, not the log's identities as the world-side ontology. An event is not thereby FPF Work, a qualifier is not thereby an assignment or system-role kind, and a row does not establish that attribution obtains. | §§4.2, 7.2, and 7.3. Revisit only if the event/object/qualified-relation structure used by this test changes materially. |
 
-The comparison is qualified on 2026-08-15 for this question and these source editions. gUFO is the current comparator because it directly addresses the classification–relational-aspect–occurrence separation at issue; PROV-O and OCEL answer narrower representation and logging questions and therefore serve as lineage and stress tests. A new edition number, publication status, or harmless wording change does not reopen the comparison. A material change to a distinction used above, or a competitor that offers a better direct Work–assignment attribution solution with at least the same exactness, readability, and use cost, reopens only the affected row and F.6 loci.
+gUFO is the current comparator because it directly addresses the classification–relational-aspect–occurrence separation at issue; PROV-O and OCEL answer narrower representation and logging questions and therefore serve as lineage and stress tests. A new edition number, publication status, or harmless wording change does not reopen the comparison. A material change to a distinction used above, or a competitor that offers a better direct Work–assignment attribution solution with at least the same exactness, readability, and use cost, reopens only the affected row and F.6 loci.
 
-**Refresh by meaning, not by publication.** If A.2.1 or A.6.5 changes how an assignment species declares slot domains or how an occurrence supplies participant values, revisit §§4.3, 5, 7.1, and 9. If A.6.REL changes relation obtaining or occurrence identity, revisit §§4.1–4.2, 5, 7, and 9. If A.15.1 changes the actual-performer or covering-assignment basis, revisit §§4.4–4.6, 7, and 9. If a better direct Work–assignment solution changes the source decision, revisit §13 and only the solution or examples that depend on it. Wording or publication changes that leave these meanings intact require no refresh.
+**Refresh by meaning, not by publication.** If A.2.1 or A.6.5 changes how an assignment species declares slot domains or how an occurrence supplies participant values, revisit §§4.3, 5, 7.1, and 9. If A.6.REL changes relation obtaining or occurrence identity, revisit §§4.1–4.2, 5, 7, and 9. If A.13 changes the actual-performer or obtaining-assignment basis, or A.15.1 changes Work admission, revisit the affected attribution conditions, examples, and checks. If a better direct Work–assignment solution changes the source decision, revisit §13 and only the solution or examples that depend on it. Wording or publication changes that leave these meanings intact require no refresh.
 
 ### F.6:14 - Relations
 
-**Builds on:** `A.6.REL` for relation obtaining and occurrence identity; `A.2` for system-role kinds; `A.2.1` for direct assignment species; and `A.15.1` for dated Work.
+**Builds on:** `A.6.REL` for relation obtaining and occurrence identity; `A.2` for system-role kinds; `A.2.1` for direct assignment species; `A.13` for the actual-performer basis; and `A.15.1` for dated Work.
 
 **Uses when current:** `A.2.5` for assignment state; `A.2.2` for capability; `A.3` and `A.15` for Method and Work alignment; `A.10` for evidence; `A.15.4` for encountered-material reliance; `C.3.3`, `F.9`, and `A.6.9` for cross-context use; and `A.1.1` only when a selected model-use structure changes the receiving interpretation.
 

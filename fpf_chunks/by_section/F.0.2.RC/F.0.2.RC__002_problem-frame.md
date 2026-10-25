@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__002_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:1 — Problem frame"
-line_start: 117761
-line_end: 117768
+line_start: 117687
+line_end: 117694
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"
@@ -24,7 +24,7 @@ keywords:
 
 ### F.0.2.RC:1 - Problem frame
 
-**Use this when.** A Method-description language claims to preserve useful source contributions, but you need to find out whether a user can actually recover the promised action, conditions and source basis. Use it again when a source or use changes and you must identify the affected repair without discarding supported work.
+**Use this when.** A Method-description language claims to preserve useful source contributions, but you need to find out whether a user can recover the promised action, conditions and source basis. Use it again when a source or use changes and you must identify the affected repair without discarding supported work.
 
 The working reader is a Method engineer maintaining a source-grounded description or pattern language. Begin with one promise: **which source contribution should a user be able to reconstruct for this action, and what would count as a consequential loss?**
 

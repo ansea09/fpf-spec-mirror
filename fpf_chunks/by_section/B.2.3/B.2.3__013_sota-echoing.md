@@ -6,12 +6,12 @@ section_id: "B.2.3:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__013_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:10 — SoTA-Echoing"
-line_start: 44867
-line_end: 44875
+line_start: 44821
+line_end: 44829
 dependencies:
   - "A.1"
   - "A.10"
@@ -38,7 +38,7 @@ keywords:
 
 | Source family | Lesson for B.2.3 | FPF decision |
 | --- | --- | --- |
-| Evidence synthesis and living-review practice | Synthesis claims need explicit scope, evidence relation, currentness, and maintenance rather than narrative authority. | B.2.3 requires current C.2.1 constitution and keeps assurance and source use in neighboring relations. |
+| Evidence synthesis and living-review practice | Synthesis claims need explicit scope, evidence relations, currentness, and maintenance conditions. | B.2.3 requires current C.2.1 constitution and keeps assurance and source use in neighboring relations. |
 | Knowledge-graph and claim-network practice | A knowledge body can be represented as related claims, evidence, and sources. | The actual ClaimGraph is a C.2.1 constitution participant; its graph representation, evidence, and sources do not declare MHT or add episteme identity positions. |
 | Science-of-science and paradigm-change studies | Fields and theories can consolidate into named bodies with new scope and organizing principles. | B.2.3 treats consolidation as a cue to inspect; it neither constitutes the candidate episteme nor selects B.2. |
 | Publication and standards practice | A standard, report, model, or dashboard use may concern claim content, a representation, a publication form, or its carrier; its name alone does not decide which. | E.17 and source-use patterns remain separate from the episteme whole. |

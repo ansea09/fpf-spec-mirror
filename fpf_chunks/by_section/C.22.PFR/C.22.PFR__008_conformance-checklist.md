@@ -6,12 +6,12 @@ section_id: "C.22.PFR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__008_conformance-checklist.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:7 — Conformance Checklist"
-line_start: 63662
-line_end: 63678
+line_start: 63592
+line_end: 63608
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "G.7:4"
 section_title: "Solution — Bridge calibration kit (BCT + BridgeCards + RegressionSet/Sentinels)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__005_solution-bridge-calibration-kit-bct-bridgecards-regressionset-sentinels.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:4 — Solution — Bridge calibration kit (BCT + BridgeCards + RegressionSet/Sentinels)"
-line_start: 129644
-line_end: 129924
+line_start: 129541
+line_end: 129821
 dependencies:
   - "A.21"
   - "B.3"
@@ -57,7 +57,7 @@ keywords:
 
 #### G.7:4.1 - G.Core linkage (normative)
 
-**Builds on:** `G.Core` (Part‑G core invariants; citation/delegation hub)
+**Builds on:** `G.Core` (Part-G core invariants)
 
 **GCoreLinkageManifest (normative).**
 
@@ -171,9 +171,9 @@ payloadPins: { BCT.id, RegressionSetId, FreshnessWindowRef, affected RowEntryId[
 
 `SentinelSet := ⟨ SentinelSetId, BridgeSentinel[] ⟩`
 
-#### G.7:4.3 - Minimal calibration procedure (auditable; table‑backed; bridge‑first)
+#### G.7:4.3 - Minimal calibration procedure
 
-For each Tradition‑pair and each comparable construct row from **G.2**:
+For each correspondence selected for calibration, grouped by Tradition pair and comparable construct:
 
 1. **Recover the correspondence being calibrated.** For an F.9 row, resolve the exact F.17 sense cells and profile, then produce or reuse its BridgeCard. A kind-channel row cites the C.3.3 kind endpoints and assertion; a plane row cites its own relation and rule. A coarser source label must be resolved to those actual endpoints before calibration.
 2. **Record row scope and losses.** Author a `RowScopeId` and record loss notes as first‑class citations (e.g., `LossNoteRef[]`), not as informal footnotes.
@@ -193,7 +193,7 @@ A conformant G.7 publication:
 * emits RSCR triggers using canonical `RSCRTriggerKindId` and attaches the minimum payload pins listed in §4.1.
 * keeps SCR/Evidence citations complete for their actual use: include the row locator, exact correspondence basis and `{BCT.id, RegressionSetId}`, plus the policy/model pins actually consumed by the reliance or assurance claim. Representation follows G.6/SCR when that surface is used.
 
-#### G.7:4.5 - Worked mini‑examples (informative; post‑2015; row scopes + loss notes)
+#### G.7:4.5 - Worked mini-examples (row scopes and loss notes)
 
 > These worked rows use illustrative calibration values and source scopes. Actual calibration needs its stated evidence. Each receiving use still has a separate rule and loss tolerance.
 
@@ -204,7 +204,7 @@ A conformant G.7 publication:
    *Proposed use:* a didactic comparison of objective intent. Its separate claim must limit the comparison to that intent and retain the listed differences; method eligibility and acceptance require their own rule.
 
 2. **Robustness evaluation (Measurement; RowScope = “metric‑family‑intent”).**
-   *Cells:* `Accuracy@IID` ↔ `Robustness@ShiftBench` (e.g., distribution‑shift benchmarks common in post‑2019 practice)
+   *Cells:* `Accuracy@IID` ↔ `Robustness@ShiftBench` (for example, a declared distribution-shift benchmark)
    *RowCL_min:* 2
    *Loss notes:* shift taxonomy differs; comparability depends on pinned protocol editions and window selection; “robustness” is not a scalar substitute for accuracy.
 
@@ -215,7 +215,7 @@ A conformant G.7 publication:
    *Proposed use:* cross-reporting only the named descriptor-map relation under explicit edition pins and an affirmative bounded-use claim with passing reliance. Edition pins alone do not make the telemetry comparable.
 
 4. **Open‑ended transfer semantics (Method; RowScope = “transfer‑rule intent”).**
-   *Cells:* `POET‑class transfer rule` ↔ `Enhanced‑POET‑class transfer rule` ↔ “modern open‑ended transfer variants”
+   *Cells:* `POET-class transfer rule` ↔ `Enhanced-POET-class transfer rule`
    *RowCL_min:* 2
    *Loss notes:* environment validity region differs; transfer timing and selection pressures differ; pinning transfer rule editions is mandatory for audit.
 

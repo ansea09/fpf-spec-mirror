@@ -6,12 +6,12 @@ section_id: "F.9.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
   - "F.9.1:4 — Solution"
-line_start: 121196
-line_end: 121252
+line_start: 121119
+line_end: 121175
 dependencies:
   - "A.10"
   - "A.6.3.CSC"
@@ -54,7 +54,7 @@ Write the note in this order:
 - cite the bounded-use claim it explains;
 - state one plain reading of that claim;
 - name one primary stance when a reusable label helps;
-- state the nearest likely overread; and
+- state the nearest overread only when F.19's grounded-contribution test requires the correction; and
 - emphasize a material loss only when that emphasis changes how the reader should understand the claim.
 
 The stance note may cite evidence or a current A.10 or B.3 reliance result, but it does not create either. If the proposed direction, rule, tolerated loss, polarity, or reliance result changes, repair that object under F.9, A.10, or B.3 rather than editing the stance as a proxy.
@@ -81,9 +81,9 @@ A stance word carries no direction by itself. Direction belongs to the bounded-u
 - The stance note says how to read that one claim.
 - A claim that a comparison, translation, publication, Work occurrence or other downstream act occurred uses that object's subject pattern and evidence. When authorization is needed, recover it under the pattern that defines the permission or authority claim. The stance note establishes neither.
 
-A Bridge Card is optional claim-bearing packaging. A Card may publish the Bridge description, bounded-use claim, evidence references, reliance result, and stance note together, but the Card is not a prerequisite for any of them. The Card's layout and edition, and any publication occurrence or file carrying it, remain separate from the objects it brings together.
+A Bridge Card is optional claim-bearing packaging. A Card may package the Bridge description, bounded-use claim, evidence references, reliance result, and stance note together, but the Card is not a prerequisite for any of them. The Card's layout and edition, and any publication occurrence or file carrying it, remain separate from the objects it brings together.
 
-`CL` is optional F.9 shorthand for evidence strength about a stated correspondence. It is not a substitution threshold and does not rank the stance. A stance note may not turn `CL`, a loss note, or friendly wording into suitability or permission.
+`CL` is optional F.9 shorthand for evidence strength about a stated correspondence. It is not a substitution threshold and does not rank the stance. A stance note establishes neither suitability nor permission from `CL`, a loss note, or the gloss itself.
 
 #### F.9.1:4.5 - Preserve source return and coarsening boundaries
 

@@ -6,12 +6,12 @@ section_id: "C.2.LS:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__012_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:11 — SoTA-Echoing"
-line_start: 53506
-line_end: 53520
+line_start: 53436
+line_end: 53450
 dependencies:
   - "A.16"
   - "A.16.0"

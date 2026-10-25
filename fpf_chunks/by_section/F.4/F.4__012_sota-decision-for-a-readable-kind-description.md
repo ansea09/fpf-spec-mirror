@@ -6,12 +6,12 @@ section_id: "F.4:10"
 section_title: "SoTA Decision for a Readable Kind Description"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__012_sota-decision-for-a-readable-kind-description.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:10 — SoTA Decision for a Readable Kind Description"
-line_start: 119136
-line_end: 119151
+line_start: 119062
+line_end: 119076
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 
 ### F.4:10 - SoTA Decision for a Readable Kind Description
 
-Source use was checked on 2026-08-20. The bounded question is: **how can one work-facing kind be described for recognition without confusing the kind with its bearer, a classification judgment, assignment, capability, Method, Work, designation, or publication?** The comparison assumes the effort of authoring one project pattern, not adopting a whole upper ontology.
+The bounded question is: **how can one work-facing kind be described for recognition without confusing the kind with its bearer, a classification judgment, assignment, capability, Method, Work, designation, or publication?** The comparison assumes the effort of authoring one project pattern, not adopting a whole upper ontology.
 
 | Current line | Strong contribution | Limit at comparable pattern-authoring effort | FPF decision and receiving locus |
 | --- | --- | --- | --- |
@@ -57,7 +57,6 @@ Source use was checked on 2026-08-20. The bounded question is: **how can one wor
 
 **Selected non-dominated contribution.** gUFO and BFO offer richer foundational categorization, but at higher mapping effort and without deciding the project-local recognition use. ISO 704 and OntoLex keep description and designation separate at lower effort, but leave assignment, capability, Method, Work, and publication outside their answer. F.4 takes the smallest useful middle path: one C.2.1 episteme about one already recovered C.3 kind, a short ordinary-language recognition distinction, and explicit exits for stronger neighboring claims. At the effort of one pattern description, it preserves the needed ontology while remaining usable by a cold project reader.
 
-SysML is intentionally not a SoTA comparator, lineage source, or ontology authority for this question. Its modeling notation does not supply the kind-identity, classification, assignment, description, or Work rules being compared; search visibility or standard status does not make it a content rival.
 
 Currentness and reopen condition: reopen F.4 when A.2, C.3, A.2.1, A.2.5, A.2.7, A.15, A.6.5, A.6.RSIR, C.2.1, F.9, F.10, F.18, or the accepted episteme-use discipline changes enough that the described-kind or non-inference boundary would be stated differently.
 

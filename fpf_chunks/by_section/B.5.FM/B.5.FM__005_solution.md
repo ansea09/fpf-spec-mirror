@@ -6,12 +6,12 @@ section_id: "B.5.FM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:4 — Solution"
-line_start: 48884
-line_end: 48965
+line_start: 48824
+line_end: 48905
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -66,7 +66,7 @@ When a relation appears absent, distinguish the following outcomes:
 
 An empty position in a diagram establishes none of these outcomes by itself. If adapting a scheme changes a relation's meaning, state that change and reconsider the conclusions that depend on it.
 
-Try two plausible answers when that cheaply reveals what is at stake. If both permit the same sufficient continuation, stop the additional inquiry. Otherwise formulate the question in the participant's working language and say what answer would help: a condition, construction, distinction or bound. The benefit can concern a later inquiry or a new method. C.11.DUA governs whether obtaining the answer is worth its burden; no record of declining an unnecessary inquiry is required.
+Try two plausible answers when that cheaply reveals what is at stake. If both permit the same sufficient continuation, stop the additional inquiry. Otherwise formulate the question in the participant's working language and say what answer would help: a condition, construction, distinction or bound. The benefit can concern a later inquiry or a new method. C.11.DUA governs whether obtaining the answer is worth its burden.
 
 Use the resulting answer directly or continue constructing the model it needs. A subject specialist or AI can supply a relation, correspondence or calculation; the required knowledge and access depend on that contribution. Selecting a scheme creates no requirement to traverse a whole ontology or to learn every relation before making the useful move.
 

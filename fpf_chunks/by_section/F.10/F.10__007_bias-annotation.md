@@ -6,12 +6,12 @@ section_id: "F.10:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__007_bias-annotation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:6 — Bias-Annotation"
-line_start: 121570
-line_end: 121581
+line_start: 121493
+line_end: 121504
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -43,7 +43,7 @@ keywords:
 
 ### F.10:6 - Bias-Annotation
 
-F.10 blocks five recurring biases:
+F.10 addresses five recurring biases:
 
 * **label-authority bias:** familiar wording is treated as source authority;
 * **target-by-status bias:** assigning a value is treated as defining or creating its target;
@@ -51,5 +51,5 @@ F.10 blocks five recurring biases:
 * **family/bridge explanation bias:** a family edge, shared spelling, row, Card, or Bridge replaces the exact interpretation relation and rule; and
 * **system-role drift:** an evidence, status, standard, or requirement use is treated as proof that its bearer is a `U.System`, has a local system-role classification, or holds a system-role assignment.
 
-The repair is to recover target and direct result first, then the exact local value, relation occurrence, assertion, evaluation basis, display, and receiving use. None of those use facts establishes System admission, a local system-role classification, or an assignment. The same bearer may have those neighbouring facts only when it independently passes System admission and is the holder of an assignment occurrence whose declared species is known.
+The repair is to recover target and direct result first, then the exact local value, relation occurrence, assertion, evaluation basis, display, and receiving use. None of those use facts establishes System admission, a local system-role classification, or an assignment. Recover System admission and any local system-role classification separately. If an assignment is claimed, identify its obtaining occurrence and declared species, with the independently admitted System as holder.
 

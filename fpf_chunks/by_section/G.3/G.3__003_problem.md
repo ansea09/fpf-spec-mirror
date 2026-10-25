@@ -6,12 +6,12 @@ section_id: "G.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__003_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:2 — Problem"
-line_start: 127586
-line_end: 127597
+line_start: 127485
+line_end: 127496
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -60,7 +60,7 @@ keywords:
 
 ### G.3:2 - Problem
 
-Without a disciplined CHR authoring layer, teams repeatedly produce “measurable slots” that are *numerically manipulable but semantically unlawful*:
+Numbers alone do not tell a downstream user which measurements and operations are admissible. Common failures include:
 
 * **Meaning leaks** when the same token is reused after its referent or sense, bearer, scope, validity window, evidence basis, or intended use has changed.
 * **Illicit arithmetic** (e.g., averaging ordinals, mixing units, laundering polarity).

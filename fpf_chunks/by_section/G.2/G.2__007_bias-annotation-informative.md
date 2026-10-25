@@ -6,12 +6,12 @@ section_id: "G.2:6"
 section_title: "Bias-Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__007_bias-annotation-informative.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:6 — Bias-Annotation (informative)"
-line_start: 127435
-line_end: 127450
+line_start: 127336
+line_end: 127350
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -52,17 +52,16 @@ keywords:
 
 ### G.2:6 - Bias-Annotation (informative)
 
-Bias lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: harvesting and synthesis for a `CG‑Frame`.
 
-* **Selection bias (Gov/Onto).** Any harvesting protocol can over‑represent certain venues, languages, or evidence styles.
+* **Selection bias.** Any harvesting protocol can over‑represent certain venues, languages, or evidence styles.
   *Mitigation:* pluralism floor + explicit `CorpusLedger` + explicit protocol pins.
 
-* **Consolidation bias (Onto/Epist).** Pressure to “merge” lineages can erase incompatible commitments.
+* **Consolidation bias.** Pressure to “merge” lineages can erase incompatible commitments.
   *Mitigation:* keep Claim Sheets disjoint by default; require explicit alignment proof for fusion; preserve loss notes.
 
-* **Recency bias (Prag).** Overweighting newest papers can hide durable backbone results; underweighting them misses SoTA drift.
+* **Recency bias.** Overweighting newest papers can hide durable backbone results; underweighting them misses SoTA drift.
   *Mitigation:* publish freshness windows and make them RSCR‑relevant.
 
-* **Didactic bias (Did).** Micro‑examples can steer interpretation toward familiar domains.
+* **Didactic bias.** Micro‑examples can steer interpretation toward familiar domains.
   *Mitigation:* require heterogeneous substrates and explicit A.10 anchors.
 

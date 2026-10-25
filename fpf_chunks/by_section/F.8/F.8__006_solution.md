@@ -6,12 +6,12 @@ section_id: "F.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__006_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:4 — Solution"
-line_start: 120166
-line_end: 120341
+line_start: 120090
+line_end: 120265
 dependencies:
   - "A.11"
   - "A.15"
@@ -97,8 +97,8 @@ The corresponding F.8 result labels are `localPhraseOnly`, `reuseExistingDesigna
 | A cross-local or public reading admitted by one F.17 row | `reuseAdmittedTermRow` only for its declared use | `F.17`; `F.9` only when an obtaining Bridge between the named cells is used |
 | A new designation for a recovered local system-role kind | `localPhraseOnly` when local wording is enough; otherwise `openDurableNamingSettlement` when durable reuse is needed | `A.2` and `C.3` for the kind, then `F.5`; `F.18` only for a durable settlement |
 | A label for a separately justified `SystemRoleKindDescription` episteme about that kind | `nameSystemRoleKindDescription` | `F.4` for the description, then `F.5`; `F.18` only when the description's own name must be durable |
-| Any other governed subject—for example, a status, evidence use, source use, requirement, assurance use, gate, decision, access value, policy, Method, Work, publication use, characteristic, architecture value, or relation position | `reuseDirectPatternName`, or `openDurableNamingSettlement` only after that subject is recovered | Its subject pattern, then `F.5` or `F.18` when needed |
-| A recurring durable naming settlement not served by lighter dispositions | `openDurableNamingSettlement` | `F.14`, then `F.18`; a NameCard is optional until its own enduring-use gate passes |
+| Any other governed subject | `reuseDirectPatternName`, or `openDurableNamingSettlement` only after that subject is recovered | Its subject pattern, then `F.5` or `F.18` when needed |
+| A durable naming settlement not served by lighter dispositions | `openDurableNamingSettlement` | `F.14`, then `F.18`; a NameCard is optional until its own enduring-use gate passes |
 | A public, Core-facing, durable, or cross-local term not covered by an admitted row | `proposePublicTermRow` | `F.17` after the F.18 inputs and row threshold are met |
 | A policy identifier | reuse the existing identifier, or select `introducePolicyIdentifier` for a recovered policy specification; add a mint-occurrence basis only for the stronger history uses in §8.1 | `F.8:8.1` and the subject pattern for the policy use |
 | An expression offered as a new cross-family primitive before its admission disposition is stable | `blockOrLowerUse`; no naming disposition is available yet | `E.24.CD` when the governed object is still unclear; if a U-kind proposal remains, `E.24.UK` decides admission. Return only after the governed object is recovered or one stable `root`, `same-individual-dependent`, `identity-dependent`, `reuse`, `local-kind`, or `reject` result is available. |
@@ -139,7 +139,7 @@ After A.2 and C.3 have recovered `K`, apply the naming ladder. Keep a one-off ex
 | --- | --- | --- |
 | `ReviewerRole` in a review method | A recovered review-system-role kind needs a durable designation; that naming need requires no description episteme | `openDurableNamingSettlement`; A.2 and C.3 govern the kind, F.5 its designation, and F.18 the durable settlement; use F.4 only for a separately needed description |
 | `Alice as reviewer` | A system is assigned to a local system-role kind for an interval | Not a name decision until `A.2.1` recovers the `U.SystemRoleAssignment` occurrence |
-| `review happened` | Dated performed Work | Use `A.15.1`; open naming only if a Work-kind designation is needed |
+| `review happened` | Dated performed Work | Use `A.15.1`; open naming only if the admitted Work occurrence needs a designation |
 | `EvidenceRole` | An episteme used as evidence | Use the evidence-use pattern; only then consider a name for the governed relation |
 | `AccessRole` | Permission or policy grouping | Use access, policy, status, or deontic pattern; do not mint a local system-role kind by suffix |
 | `ProviderRole` in a signature | Relation position | Use `A.6.5` SlotSpec discipline; name a slot only if needed |
@@ -157,7 +157,7 @@ F.8 consumes one named F.17 row and its declared use; it neither constitutes the
 | Measurement naming | Shared measurement label where units and procedure constraints remain visible | The measurement pattern for any claim of procedure interchange. |
 | Type-structure naming | Name for an admitted structural relation under the row's invariants | `E.24.UK` for U-kind admission. |
 
-If the row does not admit the proposed use, lower the name's use or repair the F.17 row and any needed F.9 relation. Attractive wording supplies neither a stronger use nor cross-local sameness.
+If the row does not admit the proposed use, lower the name's use or repair the F.17 row and any needed F.9 relation. Wording alone establishes neither a stronger use nor cross-local sameness.
 
 #### F.8:4.5 - Accountable Decision Branch
 
@@ -194,7 +194,7 @@ MintReuseDecisionResultEpisteme:
   EffectiveNamingReferenceScheme: [U.ReferenceScheme carried by value]
   LocalSenseClaim:
   LocalSenseCellRef?: [only when a current SchemeSenseCell is needed]
-  LocalSenseBasisRelationRef?: [only when the cell-to-basis-episteme relation obtains]
+  LocalSenseBasisRelationRef?: [only when the basis-episteme-to-cell support relation obtains]
   SelectedModelUseStructureRef?: [only when a selected Structure changes this use]
   ReuseCandidateRefs?:
   SelectedDisposition:
@@ -207,7 +207,7 @@ The block describes the result episteme. `EntityOfConcernRef` resolves to the de
 
 #### F.8:8.1 - Policy-Identifier Mint-or-Reuse Discipline
 
-FPF treats policy identifiers such as `Phi(CL)`, `Phi_plane`, `Psi(CL^k)`, `Aut-Guard`, `EmitterPolicyRef`, insertion-policy identifiers, and acceptance-clause identifiers as versioned references whose meaning must be recoverable. They are not "just strings", system-role-kind names, gate decisions, permissions, or policy specifications.
+FPF treats policy identifiers such as `Phi(CL)`, `Phi_plane`, `Psi(CL^k)`, `Aut-Guard`, `EmitterPolicyRef`, insertion-policy identifiers, and acceptance-clause identifiers as versioned references whose meaning must be recoverable. The identifier resolves to a separate policy specification; it does not itself assert a gate outcome or permission.
 
 ```text
 PolicyIdentifierReference:

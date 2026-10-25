@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__003_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:1 — Problem Frame"
-line_start: 10989
-line_end: 10994
+line_start: 10975
+line_end: 10980
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"

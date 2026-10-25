@@ -6,12 +6,12 @@ section_id: "B.2.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__004_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:2 — Problem"
-line_start: 44712
-line_end: 44722
+line_start: 44674
+line_end: 44684
 dependencies:
   - "A.1"
   - "A.10"
@@ -36,10 +36,10 @@ keywords:
 
 ### B.2.3:2 - Problem
 
-Without this specialization:
+Confusing the episteme with its collection, representation, or publication can produce these errors:
 
 1. **Catalogues become theories.** Aggregated publications or dashboards are treated as a new episteme because they are stored together.
-2. **Theory becomes publication.** The paper, report, standard document, model card, or dashboard is used as the episteme itself.
+2. **Publication form becomes episteme.** A carrier or publication form is mistaken for the claim-bearing episteme it presents.
 3. **Episteme receives agency.** The theory, standard, or doctrine is described as if it performs work or enforces behavior by itself.
 4. **Morphing becomes MHT.** A view, retargeting, coarsening, translation, or model transformation is treated as a new episteme whole.
 5. **Assurance is inherited silently.** Trust in constituent sources is treated as trust in the reidentified episteme whole.

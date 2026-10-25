@@ -6,15 +6,17 @@ section_id: "G.11:10"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__012_rationale-informative.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:10 — Rationale (informative)"
-line_start: 131841
-line_end: 131848
+line_start: 131736
+line_end: 131743
 dependencies:
+  - "A.10.1"
   - "A.6.RCD"
   - "B.3.4"
+  - "C.11.DUA"
   - "C.18"
   - "C.19"
   - "C.23"
@@ -46,7 +48,7 @@ keywords:
 
 ### G.11:10 - Rationale (informative)
 
-`G.11` is intentionally a **thin orchestration governing definition**:
+G.6 makes a cited basis and its paths recoverable; G.11 connects the affected reach to a supported continuation. A shared premise can require several local judgements, while independent results remain usable. The connection separates three concerns:
 
 * The refresh loop coordinates reruns and republishing; trigger semantics, invariants, and defaults are delegated to `G.Core`.
 * The kit is split across the **P2W planning-to-work boundary** so that the exact `U.WorkPlan` and its declaration-local planned-filling rows remain planning content while dated Work remains independently established.

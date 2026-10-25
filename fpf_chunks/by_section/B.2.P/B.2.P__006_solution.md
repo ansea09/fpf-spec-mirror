@@ -6,12 +6,12 @@ section_id: "B.2.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__006_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:4 — Solution"
-line_start: 44258
-line_end: 44330
+line_start: 44222
+line_end: 44294
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,7 +59,7 @@ Read the complete natural span with F.19 and E.10's compact cues. If an emergenc
 4. **Subject pattern.** Which pattern defines or constrains that object and claim without using `emergence` as a substitute?
 5. **Disposition.** Keep the exact direct claim, open B.2 only for a remaining whole-reidentification question, or stop with the exact missing object or governor.
 
-A temporary author note may retain the source phrase, exact object, subject pattern, blocked overread, and replacement or stop. The note is not a U-kind, relation, result object, or required project record. Do not ask a practitioner to fill a generic emergence card before the direct object can be named.
+Retain the source phrase beside the recovered claim and replacement only when that comparison is needed.
 
 #### B.2.P:4.2 - Claim-Kind Recovery and Subject-Pattern Selection Table
 
@@ -82,7 +82,7 @@ A temporary author note may retain the source phrase, exact object, subject patt
 
 #### B.2.P:4.3 - Whole-Reidentification Recovery
 
-When a whole-reidentification question remains after claim-kind recovery, do not create a second MHT schema. Use B.2 with this concrete account:
+When claim-kind recovery leaves a whole-reidentification question, use B.2 with this account:
 
 1. name the exact existing whole, admitted kind, and identity or reidentification rule;
 2. name each changed delimitation, constituent, constructive relation, assembly, supervision, objective, capability, characteristic, or temporal fact and its subject pattern;
@@ -91,7 +91,7 @@ When a whole-reidentification question remains after claim-kind recovery, do not
 5. state whether the direct identity rules preserve the same whole or require a new whole for the current subject claim;
 6. only when a specific downstream task must inspect or cite the decision, identify any separate assertion or record, supporting evidence and warrant, G.11 currentness result, and rely, decline, defer, or reopen decision.
 
-Evidence availability, an evaluation value, a record field, and receiving reliance neither construct the candidate nor decide whether the existing whole continues or a new whole must be identified. If the exact candidate, one required constructive fact, or the larger-assembly compatibility condition has no governor, stop with that missing object or governor rather than writing `candidateResultRef`, `resultKindRef`, `mhtWitnessRef`, or a context-shaped placeholder.
+Evidence availability, an evaluation value, a record field, and receiving reliance neither construct the candidate nor decide whether the existing whole continues or a new whole must be identified. If the candidate, a required constructive fact, or the larger-assembly compatibility condition lacks a defining rule or needed grounds, stop and name that gap.
 
 #### B.2.P:4.4 - Collection Boundary
 
@@ -105,7 +105,7 @@ If the claim is plain collection admission:
 - use `A.1` for an acting collective admitted as `U.System`; use `A.15` for a separate alignment question and A.2 patterns for the exact system-role-kind or assignment claim when either is current;
 - use `C.16` for a whole-level characteristic.
 
-B.2.P may point to these subject patterns; it does not own their claims. An unassembled collection remains an unassembled collection even when a list, dashboard, or project card names it as one whole. A C.13 collection construction does not by itself establish an integrated assembly, acting system, or A.1 holon.
+Use each pattern for its corresponding claim. A C.13 collection construction does not by itself establish an integrated assembly, acting system, or A.1 holon.
 
 #### B.2.P:4.5 - Source Mnemonics and Result Fields
 

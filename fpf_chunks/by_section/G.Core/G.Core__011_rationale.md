@@ -6,12 +6,12 @@ section_id: "G.Core:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__011_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:10 — Rationale"
-line_start: 126185
-line_end: 126188
+line_start: 126088
+line_end: 126091
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -34,5 +34,5 @@ keywords:
 
 ### G.Core:10 - Rationale
 
-Universalization of Part G requires a stable "gravity center" for invariants, otherwise each pattern becomes a competing governing source. Delegation-first citation prevents duplication and makes governing-definition assignment explicit, while typed trigger kinds and the Default Governing Definition Index turn historically prose-driven drift into checkable, id-based structure.
+Citing one governing definition lets authors change an invariant without maintaining competing statements across Part G. Stable trigger kinds make refresh causes comparable across patterns. The Default Governing Definition Index lets an author resolve a default to its rule and applicability conditions.
 

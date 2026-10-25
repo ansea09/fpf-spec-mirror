@@ -6,12 +6,12 @@ section_id: "B.5.SD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.SD — Construct a Useful Answer through Substantive Discussion"
   - "B.5.SD:3 — Forces"
-line_start: 51086
-line_end: 51095
+line_start: 51016
+line_end: 51025
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -28,5 +28,5 @@ A clear question limits effort, yet the question may change when a hidden assump
 
 Participation and neutrality matter to the fairness of discussion. A warranted technical conclusion also requires discriminating between supported and unsupported claims. Fair hearing does not assign equal evidential weight to every statement.
 
-An inquiry can improve the answer, but waiting for every uncertainty to disappear can defeat its use. The method needs a bounded result, an honest limit and a useful continuation.
+An inquiry can improve the answer, but waiting for every uncertainty to disappear can defeat its use. The method needs a bounded result, a supported limit and a useful continuation.
 

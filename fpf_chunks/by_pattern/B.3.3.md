@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.3.3.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
-line_start: 45642
-line_end: 45747
+line_start: 45591
+line_end: 45696
 dependencies:
   - "A.10"
   - "B.3"
@@ -111,9 +111,9 @@ A Target of Assurance (ToA) denotes the claim being assessed for the named use, 
 
 ### B.3.3:6 - Consequences
 
-Recipients can inspect what an assurance result supports and why a stronger use remains open. Teams direct effort towards relevant gaps and can reuse genuinely covering evidence.
+Recipients can inspect what an assurance result supports and why a stronger use remains open. Teams direct effort towards relevant gaps and can reuse evidence that covers the claim.
 
-Comparability becomes profile-specific. Defining a useful shared profile takes judgement about consequences, criteria and evidence; routine uses avoid that overhead. Review remains fallible and contestable rather than becoming objective merely because a status is computed.
+Comparability becomes profile-specific. Defining a useful shared profile takes judgement about consequences, criteria and evidence; routine uses avoid that overhead.
 
 ### B.3.3:7 - Rationale
 

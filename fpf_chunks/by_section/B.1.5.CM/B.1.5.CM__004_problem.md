@@ -6,16 +6,17 @@ section_id: "B.1.5.CM:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__004_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:2 — Problem"
-line_start: 43487
-line_end: 43492
+line_start: 43461
+line_end: 43466
 dependencies:
   - "A.3.1"
   - "B.1.5"
   - "B.1.5.EW"
+  - "B.1.5.RS"
   - "C.32.MWA.PP"
 keywords:
 ---
@@ -24,5 +25,5 @@ keywords:
 
 One failure declares a whole whenever a document gives several steps a shared name. Another refuses to state anything useful until a mature Method has already been identified. A third treats participant co-use, Work order, or a successful tool integration as `methodPartOf` evidence.
 
-The first error overclaims, the second prevents learning, and the third confuses several relation structures. B.1.5.CM needs a positive lower branch that supports present comparison or later realization while keeping uncertainty explicit.
+The first error overclaims, the second prevents learning, and the third confuses several relation structures. A prospective or partial account can support present comparison or later realization while keeping uncertainty explicit.
 

@@ -6,12 +6,12 @@ section_id: "B.2.P:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__004_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:2 — Problem"
-line_start: 44237
-line_end: 44247
+line_start: 44201
+line_end: 44211
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -47,12 +47,12 @@ keywords:
 
 ### B.2.P:2 - Problem
 
-Without B.2.P:
+Unresolved emergence wording can produce these errors:
 
 1. **Generic emergence becomes ontology.** `U.Emergence` or an equivalent hidden kind appears even though no such root kind is selected.
-2. **Collections become systems by poetry.** A fleet, community, pool, or base is treated as an acting system because the phrase sounds collective.
+2. **Collections become systems by name.** A fleet, community, pool, or base is treated as an acting system because the phrase sounds collective.
 3. **Capability becomes MHT.** A new capability envelope or functioning relation is treated as a new whole without checking existing-whole explanations.
 4. **Mathematics becomes declaration.** A graph, scaling law, RG-like expression, benchmark jump, or MSPD score is treated as whole reidentification.
 5. **Old mnemonic titles are mistaken for applicable PatternIDs.** Source labels such as `MET` or `MFT` hide whether the claim concerns an episteme whole, capability or functioning facts, evidence for those facts, or something else.
-6. **Semio-bias returns.** Publication, dashboard, model, or source interpretation claims displace the in-life holon or characteristic under concern.
+6. **Description displaces the subject.** A publication, dashboard, model, or source interpretation is examined in place of the holon or characteristic the claim concerns.
 

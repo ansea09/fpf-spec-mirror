@@ -6,15 +6,17 @@ section_id: "G.11:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__002_use-this-when.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:0 — Use this when"
-line_start: 131462
-line_end: 131483
+line_start: 131354
+line_end: 131375
 dependencies:
+  - "A.10.1"
   - "A.6.RCD"
   - "B.3.4"
+  - "C.11.DUA"
   - "C.18"
   - "C.19"
   - "C.23"
@@ -46,23 +48,23 @@ keywords:
 
 ### G.11:0 - Use this when
 
-Use this pattern when a shipped pack, evidence set, dashboard, selected set, archive, front, Q-front, term bridge, descriptor set, parity result, or a use that relies on an `A.6.RCD` predicate definition or derived relation kind may be stale because telemetry, freshness, edition pins, policy pins, evidence, bridge calibration, source currentness, a relied-on base relation definition, the named substrate edition, or derivation applicability changed.
+Use this pattern when a changed premise or condition may alter whether a shipped pack or related result supports its receiving use. The change can concern evidence, source currentness, telemetry, an edition or policy, bridge calibration, a relied-on base relation definition, the named substrate edition or derivation applicability. The affected result can be an evidence set, dashboard, selected set, archive, front, Q-front, term bridge, descriptor set, parity result or use of an `A.6.RCD` definition.
 
 #### G.11:0.1 - What goes wrong if missed
 
-The team either rebuilds everything after every small change or keeps using a shipped record whose source, descriptor, edition, policy, bridge, or archive currentness has silently drifted. Refresh then becomes an informal maintenance habit rather than a scoped, reviewable work plan and report.
+A team may rerun unrelated work, continue using an unsupported result or publish a currentness report without repairing the affected use. First determine what the changed basis permits; select and perform upkeep only where it is needed.
 
 #### G.11:0.2 - What this buys
 
-The practitioner first decides what the available support permits for the receiving use. When a changed premise requires upkeep, the refresh kit names the affected object and scope, the source and policy basis, and the justified action. Planning and reporting remain separate, and refresh can stay local while preserving comparability and subject-specific result meanings.
+The practitioner first decides what the available support permits for the receiving use. A shared premise can reopen several dependent results while leaving independent results usable. When upkeep is justified, the refresh plan names that scope, its source and policy basis, and the selected actions. The resulting report records what was actually performed.
 
-When a later or replacement source may change a claim and the actual receiving uses must first be found and revalidated, use `A.10.1` for the bounded search frame, discovery coverage and gaps, exact-use test, action-changing reach, application of the direct subject guidance, and the independently obtained subject result. `G.11` continues to govern source currentness, decay, refresh planning, and refresh reporting. A practitioner or admitted System may use a separately established currentness result or independently obtained subject result to plan later refresh without changing either result or the governing patterns.
+When a later or replacement source may change a claim and the actual receiving uses must first be found and revalidated, use `A.10.1` for the bounded search frame, discovery coverage and gaps, exact-use test, action-changing reach, application of the direct subject guidance, and the independently obtained subject result. `G.11` continues to govern source currentness, decay, refresh planning, and refresh reporting. Use a separately established currentness result or independently obtained subject result to plan later refresh under its governing pattern.
 
 #### G.11:0.3 - First output
 
-For loop, harness, workflow-store, or DPF seed artifacts, a refresh line names the currentness object directly: source pack, evaluator, benchmark, harness edition, workflow edition, pattern seed, PFAD and PFR dependency, selected set, archive, front, or publication carrier. `G.11` records currentness, source decay, edition change, telemetry, scoped refresh action, and report refs; it does not decide whether the artifact improved.
+When a structured currentness line is useful for a loop, harness, workflow-store or DPF seed artifact, name its currentness object: for example, the source pack, evaluator, benchmark, harness or workflow edition, pattern seed, PFAD/PFR dependency, selected set, archive, front or publication carrier. The line can state currentness, source decay, edition change, telemetry and scoped refresh refs. Its subject pattern determines whether the artifact improved.
 
 First establish whether the current conditions and available basis already support the receiving use. If they do, retain that result without a new currentness line, WorkPlan, waiver or skip-refresh certificate. When a later recipient needs a changed limit or retained reason, keep the minimum useful content with the existing result or publication; a `RefreshCurrentnessLine@Context` can express it when a structured line is useful. Produce a `RefreshPlan@Context` only for selected planned refresh. For an underlying claim about a selected set, archive, culture, bridge, evidence, dashboard or shipping, obtain that subject pattern's result; currentness does not establish its adequacy.
 
-When currentness is the live question, use G.11 to record framework edition pins, source packs, publication-carrier currentness, deprecation, supersession, and source-decay conditions. In that record, cite `E.4` for the affected framework, `E.4.PFR` for a framework relation, `E.4.PFAD` for the framework architecture decision, the exact source contribution and bounded use, including the `G.2` pack when that route was used, and `E.11` for discovery. For publication, cite `E.17` for a source-backed face and return to source and `E.24.PUB` for the occurrence, form, carrier, audience, bounded use, and availability. Do not create private refresh vocabulary for these neighboring meanings.
+When a currentness record is needed, include the applicable framework edition pins, source packs, publication-carrier currentness, deprecation, supersession and source-decay conditions. In that record, cite `E.4` for the affected framework, `E.4.PFR` for a framework relation, `E.4.PFAD` for the framework architecture decision, the exact source contribution and bounded use, including the `G.2` pack when that route was used, and `E.11` for discovery. For publication, cite `E.17` for a source-backed face and return to source and `E.24.PUB` for the occurrence, form, carrier, audience, bounded use, and availability.
 

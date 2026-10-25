@@ -6,12 +6,12 @@ section_id: "C.39.RP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__005_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:3 — Forces"
-line_start: 83596
-line_end: 83606
+line_start: 83526
+line_end: 83536
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

@@ -6,12 +6,12 @@ section_id: "G.10:5"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__006_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:5 — Consequences"
-line_start: 131367
-line_end: 131379
+line_start: 131261
+line_end: 131273
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -58,7 +58,7 @@ keywords:
 **Benefits**
 
 * A shipped result becomes **selector‑ready** and **audit‑citable** without turning file formats into governing specifications.
-* Shipping is no longer a semantic “backdoor”: pack‑level semantics remain governing-definition delegated.
+* Shipping preserves the semantics of the cited outputs and their governing definitions.
 * RSCR/refresh becomes operationally viable because pack‑level scope keys and payload pins are present.
 
 **Costs / trade‑offs**

@@ -6,21 +6,24 @@ section_id: "F.16:15"
 section_title: "Migration notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__016_migration-notes.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:15 — Migration notes"
-line_start: 123446
-line_end: 123454
+line_start: 123368
+line_end: 123376
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.2"
+  - "A.2.1"
   - "A.3"
   - "A.6.1"
   - "A.6.RCD"
   - "B.1.5"
   - "B.3"
   - "C.16.P"
+  - "C.3"
   - "E.10.D1"
   - "E.13"
   - "F.0.1"

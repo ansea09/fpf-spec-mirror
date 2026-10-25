@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__006_archetypal-grounding.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:5 — Archetypal Grounding"
-line_start: 117842
-line_end: 117871
+line_start: 117768
+line_end: 117797
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"
@@ -30,7 +30,7 @@ This constructed case starts with handbook H, edition 3, §4: “Reuse an earlie
 
 A candidate language has a “Reuse review” entry and cites H and L, but its body says only “reuse the prior review for display changes”. The destination map marks H §4 and L §2 as covered.
 
-Reconstruction finds the reusable action but not the qualification window or source-return stop. The topic is present; the promised decision is not fully recoverable. Return a description-content correction to the body carrying that answer. The correct narrower conclusion is that the action is recoverable while its conditions are missing, not that the entire language has failed.
+Reconstruction finds the reusable action but not the qualification window or source-return stop. The topic is present; the promised decision is not fully recoverable. Return a description-content correction to the body carrying that answer. The bounded result is that the action is recoverable while its conditions are missing.
 
 After repair, the body states the matching-claim/question/window condition and the local source stop. Repeat the same use: the reader can now distinguish permitted reuse from a recheck lacking its basis. This is a constructed content check, not a measurement of review effectiveness.
 

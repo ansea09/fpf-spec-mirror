@@ -6,12 +6,12 @@ section_id: "A.3.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__003_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:2 — Problem"
-line_start: 9334
-line_end: 9345
+line_start: 9320
+line_end: 9331
 dependencies:
   - "A.1"
   - "A.1.1"

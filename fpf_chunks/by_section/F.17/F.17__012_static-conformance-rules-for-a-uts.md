@@ -6,12 +6,12 @@ section_id: "F.17:10"
 section_title: "Static conformance rules for a UTS"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__012_static-conformance-rules-for-a-uts.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:10 — Static conformance rules for a UTS"
-line_start: 123719
-line_end: 123740
+line_start: 123641
+line_end: 123662
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -71,5 +71,5 @@ Use these checks before citing a row outside its immediate sheet.
 | UTS-SCR-12 | The row states the exact scheme, receiving use, and reader breadth actually checked; a narrow row claims neither universal nor corpus-wide reuse. |
 | UTS-SCR-13 | C.2.1 row succession and E.24.PUB availability are independently recovered; row, edition relation, publication occurrence, form, carrier, rendering Work, and upload Work stay distinct. |
 
-Passing the schema is not the value criterion. A row succeeds only when intended readers can recover the correct naming decision, governed value, and applicable defining or constraining rule for the declared use while avoiding the blocked use. Row count, filled-cell count, label uniformity, block neatness, and stable identifiers are maintenance aids only.
+A row succeeds when intended readers can recover the correct naming decision, governed value, and applicable defining or constraining rule for the declared use, and distinguish any grounded excluded use. Schema conformance and maintenance aids such as row counts, label uniformity and stable identifiers do not establish that recovery.
 

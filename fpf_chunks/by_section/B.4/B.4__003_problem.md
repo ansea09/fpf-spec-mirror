@@ -6,12 +6,12 @@ section_id: "B.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__003_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:2 — Problem"
-line_start: 46270
-line_end: 46277
+line_start: 46209
+line_end: 46216
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -26,9 +26,9 @@ keywords:
 
 ### B.4:2 - **Problem**
 
-Without a canonical, shared model for evolution, projects fall into predictable and costly failure modes:
+When use, observation, and change are disconnected, three failures can follow:
 
-1. **Design-Reality Divergence (The "Drift"):** The run-time subject in use slowly diverges from its design-time account. Formal models become elegant fictions, assurance cases become irrelevant, and the project loses the ability to reason reliably about what it uses.
-2. **Learning Stagnation (The "Ivory Tower"):** Observation produces valuable findings, but no explicit change path carries them into a revised design or renewed use. "Lessons learned" remain static documents.
-3. **Chaotic Change (The "Whack-a-Mole"):** Reactive patches have no stated observed basis, identity decision, or return-to-use condition. Hidden dependencies and unintended consequences accumulate.
+1. **Design-reality divergence:** The subject in use diverges from its design-time account. Models and assurance cases can continue to describe conditions that no longer hold.
+2. **Unused findings:** Observation produces valuable findings, but no explicit change path carries them into a revised design or renewed use. "Lessons learned" remain static documents.
+3. **Unexplained change:** Reactive patches have no stated observed basis, identity decision, or return-to-use condition. Hidden dependencies and unintended consequences accumulate.
 

@@ -6,12 +6,12 @@ section_id: "C.29.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.3/C.29.3__006_archetypal-grounding.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.29.3 — Computational Realization"
   - "C.29.3:5 — Archetypal Grounding"
-line_start: 70993
-line_end: 71092
+line_start: 70923
+line_end: 71022
 dependencies:
   - "A.3.3"
   - "A.6.1"

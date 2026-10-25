@@ -6,12 +6,12 @@ section_id: "C.40.RQ:End"
 section_title: "C.40.RQ:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__014_c-40-rq-end.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:End — C.40.RQ:End"
-line_start: 87722
-line_end: 87723
+line_start: 87652
+line_end: 87653
 dependencies:
   - "A.10"
   - "A.10.1"

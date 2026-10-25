@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "G.9"
 pattern_title: "Parity and Benchmark Harness"
 section_id: "G.9:8"
-section_title: "Archetypal grounding (informative; SoTA‑oriented)"
+section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
-output_path: "by_section/G.9/G.9__010_archetypal-grounding-informative-sota-oriented.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+output_path: "by_section/G.9/G.9__010_archetypal-grounding.md"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
-  - "G.9:8 — Archetypal grounding (informative; SoTA‑oriented)"
-line_start: 130977
-line_end: 130990
+  - "G.9:8 — Archetypal grounding"
+line_start: 130876
+line_end: 130889
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -46,16 +46,16 @@ keywords:
   - "selected-set outcomes"
 ---
 
-### G.9:8 — Archetypal grounding (informative; SoTA‑oriented)
+### G.9:8 — Archetypal grounding
 
-**Show‑A — Multi‑tradition parity for decision systems (post‑2015 practice).**
+**Show-A — Multi-tradition parity for decision systems.**
 ParityPlan pins a rolling evidence window and comparator refs; ParityReport publishes a selected-set outcome plus the evidence trace. Family labels such as preference-learning comparators, causal decision pipelines, offline-RL evaluation pipelines, and robust BO-style selectors remain illustrative until a `G.2` SoTA pack or named current source pins the exact family being compared; the parity report still must preserve the selected set or partial order rather than collapse everything into a single scalar.
 
-**Show‑B — QD parity (MAP‑Elites lineage; CMA-MAE `arXiv:2205.10752`; DQD `arXiv:2106.03894`; QDax `arXiv:2308.03665`; QDHF or QDAIF refs only when a feedback-guided QD claim is live).**
-ParityPlan pins descriptor/distance definitions and archive insertion policy editions. ParityReport includes archive outcomes and telemetry deltas needed for refresh, without silently converting illumination summaries into dominance.
+**Show-B — QD parity (for example, CMA-MAE `arXiv:2205.10752` and DQD `arXiv:2106.03894`).**
+ParityPlan pins descriptor/distance definitions and archive insertion policy editions. ParityReport identifies the compared archive states, records the lawful comparison result and telemetry deltas, and keeps illumination summaries separate from dominance unless explicitly promoted.
 
-**Show‑C — Open‑ended parity (POET `arXiv:1901.01753` as lineage; AlphaEvolve `arXiv:2506.13131` when the live generator-family claim is coding-agent discovery; other current generator-family claims require a named `G.2` SoTA pack or exact current source).**
-ParityPlan pins transfer rule editions and exploration policy refs. ParityReport publishes selected-set outcomes plus transfer‑keyed traces (PathSlice), enabling refresh reruns when any pinned policy changes.
+**Show-C — Open-ended parity (POET `arXiv:1901.01753` as an environment–method co-evolution lineage).**
+ParityPlan pins transfer rule editions and exploration policy refs. ParityReport publishes the comparison and any declared selected-set outcome with transfer-keyed traces (PathSlice). A policy change identifies the dependent uses for G.11 to reconsider.
 
 **Show-D — Causal method rung parity.**
 A team compares an observational predictor, an intervention optimizer, and a counterfactual policy strategy under one "best causal method" headline. `G.9` first runs `CausalRungParityScreen`: if rungs, support components, estimands, endpoints, or outcome windows differ, the screen returns degraded parity or abstain before a full record is fabricated. When full parity remains plausible, `G.9` requires `CausalMethodRungParityRecord`: each method declares `targetCausalUseClaimKind`, target `CausalityLadderRung`, `causalEstimandRef`, interventional-action basis, the support components actually consumed, relevant C.28 support result, follow-up window, outcome measure, changed transport endpoints, and estimate-result basis. If those fields differ, the parity report names `declaredCausalityLadderBridgeOrLossRef`, transportability or estimation refs where available, and degraded parity or abstain result. The admissible output may be a selected set by comparable rung, not one scalar winner.

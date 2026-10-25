@@ -6,12 +6,12 @@ section_id: "G.9:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__002_use-this-when.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:0 — Use this when"
-line_start: 130481
-line_end: 130500
+line_start: 130378
+line_end: 130399
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -51,6 +51,8 @@ keywords:
 - rival method families, method sets, or adaptation paths must be compared under one declared baseline set and freshness window
 - you need parity to publish one reproducible report rather than one opaque benchmark score
 - downstream selection must recover comparator, normalization, bridge, and evidence pins without relying on one hidden scoring sheet
+
+**First move.** State whether the comparison concerns exact targets or results about one subject, then fix the baseline, comparison rule and windows in one plan edition. Use A.19.CPM directly for a bounded comparison that needs no reproducible parity report; use this harness when the report and its replay basis are required.
 
 #### G.9:0.1 — What goes wrong if missed
 

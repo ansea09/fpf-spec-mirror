@@ -6,12 +6,12 @@ section_id: "F.13:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__014_relations.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:13 — Relations"
-line_start: 122382
-line_end: 122395
+line_start: 122305
+line_end: 122318
 dependencies:
   - "F.1"
   - "F.17"
@@ -39,7 +39,7 @@ F.1 selects the question-relative sources; F.2 and F.3 recover source-local expr
 
 **Constrains:**
 
-* **F.5 (Naming):** may select preferred labels **only** after applying these continuity relations.
+* **F.5 (Naming):** when replacing an earlier label, recover its historical continuity before selecting the new preferred label.
 * **F.7 (Rows):** relabel unchanged comparison content directly; recover changed entries, relations or receiving use before deciding revision, split or merge.
 * **F.9 (Bridges):** Cross‑context changes must **not** be expressed as renames/aliases.
 

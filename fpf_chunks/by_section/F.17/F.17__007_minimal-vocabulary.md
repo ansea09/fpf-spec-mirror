@@ -6,12 +6,12 @@ section_id: "F.17:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__007_minimal-vocabulary.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:5 — Minimal vocabulary"
-line_start: 123555
-line_end: 123642
+line_start: 123477
+line_end: 123564
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -88,7 +88,7 @@ LocalSenseBasisRelationDescription <: U.Episteme:
   viewpointRef?: U.ViewpointRef
   subjectRef?: U.SubjectRef, only when independently governed
   basisPublicationUnitRef?: U.EntityRef resolving one exact source unit as description/provenance content, never as relation participant or identity discriminator
-  claimGraph: U.ClaimGraph carrying supported-sense, admitted-use, blocked-use, and any exact source-unit qualifier claims
+  claimGraph: U.ClaimGraph carrying supported-sense and admitted-use claims, with any grounded blocked-use claim or exact source-unit qualifier
   referenceScheme: U.ReferenceScheme by value; exactly the scheme in localSenseCellRef
   editionId: designator only
 
@@ -108,7 +108,7 @@ UnifiedTermRow <: U.Episteme:
   BridgeRefs[]?: actual F.9 Bridge occurrences only
   RowRationale
   AdmissibleUse
-  BlockedUse
+  BlockedUse?: grounded overreading whose exclusion changes understanding or action
   RowEditionId: designator only
   EpistemeEditionRelationRef?: exact C.2.1 occurrence only when historical continuation obtains
   CurrentnessCondition
@@ -119,7 +119,7 @@ UnifiedTermRow <: U.Episteme:
 
 The basis relation has exactly two participants. `basisEpistemeRef` resolves the exact current basis-episteme edition; its exact kind is derived from that referent and is not copied as another participant. A relation reference resolves the exact `LocalSenseBasisRelation` occurrence rather than its description or designator. `basisPublicationUnitRef`, when present, is a provenance qualifier that narrows the supporting episteme; it neither participates in nor identifies the relation. A source publication occurrence, its form, and its carrier remain separate E.24.PUB objects.
 
-The relation says only that this basis episteme supports this cell's exact sense claim for the admitted use. Its description states the supported and blocked uses and any exact source-unit qualifier. A changed NameCard reopens the selected expression. A changed scheme, expression, sense claim, or basis-episteme edition identifies another cell or basis-relation participant pair. A changed source-unit or supported-use claim creates another relation-description episteme without silently changing the basis relation.
+The relation says only that this basis episteme supports this cell's exact sense claim for the admitted use. Its description states the supported uses, any grounded blocked-use claim, and any exact source-unit qualifier. A changed NameCard reopens the selected expression. A changed scheme, expression, sense claim, or basis-episteme edition identifies another cell or basis-relation participant pair. A changed source-unit or supported-use claim creates another relation-description episteme without silently changing the basis relation.
 
 Any description of a `SchemeSenseCell` is a separate C.2.1 episteme whose EntityOfConcern is that exact cell. The cell's identifier, description, source publication, NameCard, and basis relation neither replace nor identify the cell.
 

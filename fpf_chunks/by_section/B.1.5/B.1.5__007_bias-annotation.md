@@ -6,12 +6,12 @@ section_id: "B.1.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__007_bias-annotation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:6 — Bias-Annotation"
-line_start: 43008
-line_end: 43019
+line_start: 42984
+line_end: 42995
 dependencies:
   - "A.1"
   - "A.15"
@@ -65,7 +65,7 @@ keywords:
 
 ### B.1.5:6 - Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: cross-domain order-sensitive composition of already identified `U.Method` values. It does not cover sole-Method identification, description-only organization, dated Work decomposition, structural mereology, or transformation composition without a direct governor.
+The following risks concern cross-domain order-sensitive composition of already identified `U.Method` values. It does not cover sole-Method identification, description-only organization, dated Work decomposition, structural mereology, or transformation composition without a direct governor.
 
 - **Gov:** each `methodPartOf` occurrence and each other whole-forming claim stays with its direct governor; a named receiver changes how much of the boundary account must be stated or published, not whether a world-side fact obtains.
 - **Arch:** the whole is qualified from exact part Methods and construction facts; order aggregation, a selected A.22 Structure, and a separate higher-level reidentification claim remain distinct architectural objects.
@@ -73,5 +73,5 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: cros
 - **Prag:** ordinary use may stop at readable local claims; reusable definitions, relation kinds, declarations, publication, and assurance are added only when a named receiving use needs them.
 - **Did:** the manufacturing, emergency-intake, learned-pipeline, evidence-synthesis, and performance slices show positive composition, useful non-composite stopping results, and the difference between real order and simultaneous contribution across domains.
 
-The pattern intentionally biases toward explicit construction and boundary accounts when joins or outside reliance are load-bearing. The lightweight local-claim lane and subject-pattern exits mitigate that bias so inspectability does not become ritual apparatus.
+Explicit construction and boundary accounts are useful when a join or outside reliance depends on them. Keep a local claim when it supplies the needed result, and use another pattern for a different object or relation.
 

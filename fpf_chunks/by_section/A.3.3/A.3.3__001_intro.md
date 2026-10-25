@@ -6,12 +6,12 @@ section_id: "A.3.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:intro — Intro"
-line_start: 11947
-line_end: 11952
+line_start: 11933
+line_end: 11938
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "F.8:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__002_use-this-when.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:0 — Use This When"
-line_start: 120104
-line_end: 120136
+line_start: 120028
+line_end: 120060
 dependencies:
   - "A.11"
   - "A.15"
@@ -76,13 +76,13 @@ Typical triggers include:
 
 **Primary working object.** One F.8 disposition for the expression and proposed use. Ordinary use creates no decision occurrence or result episteme. If a later claim must cite, replay, or assign accountability to the decision itself, use the separately triggered branch in §4.5.
 
-**Primary working reader.** An engineer-manager, analyst, method author, pattern author, or terminology steward choosing whether an expression should stay local, reuse a name, or open a stronger naming path.
+**Primary working reader.** A practitioner choosing whether an expression should stay local, reuse a name, or open a stronger naming path.
 
 **First useful move.** Write the four starting facts. Then try, in order, a local phrase, an existing designation, an alias, the subject pattern's name, and an admitted F.17 row. Stop at the first sufficient result. Open a cell, NameCard, public row, or policy identifier only when the receiving use needs it.
 
 **What goes wrong if missed.** A convenient expression is treated as the subject it merely names. Local or source wording becomes durable ontology; a row or alias gains uses it never admitted; a role-like word hides a kind, description, assignment, Work occurrence, or another governed relation; or a record is mistaken for the decision it describes.
 
-**What this buys.** Teams get short usable names without creating duplicate kinds or naming records. Stronger names are harder to introduce but easier to trust because the governed subject and use remain visible.
+**What this buys.** Teams get short usable names without creating duplicate kinds or naming records. When a stronger name is needed, readers can recover its governed subject and permitted use.
 
 **Not this pattern when.**
 

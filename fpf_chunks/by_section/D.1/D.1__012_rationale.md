@@ -6,12 +6,12 @@ section_id: "D.1:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__012_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:8 — Rationale"
-line_start: 90984
-line_end: 90989
+line_start: 90913
+line_end: 90918
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -35,7 +35,7 @@ keywords:
 
 ### D.1:8 - Rationale
 
-`D.1` is an entry boundary for ethical value plurality. It is intentionally modest: it does not settle ethical theory and does not decide an interlevel conflict. It makes the live value frame visible enough for neighboring FPF patterns to carry the next claim without hiding ethics inside technical adequacy, evidence, architecture, method, work, or publication wording.
+D.1 connects a value concern with the premises and facts needed to assess its use. Revealing that connection lets a reader identify whether a disagreement concerns values, facts or authority and direct the unresolved question to the appropriate method.
 
 This keeps FPF usable in engineering, research, organizational, public, and AI-enabled contexts where ethical traditions differ but value-bearing claims still need explicit affected entities, value concerns, and warranted use, with the evidence and return conditions that this use needs.
 

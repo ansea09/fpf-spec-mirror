@@ -6,12 +6,12 @@ section_id: "C.29.BB:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__011_architectural-rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:10 — Architectural Rationale"
-line_start: 71391
-line_end: 71398
+line_start: 71321
+line_end: 71328
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"

@@ -6,17 +6,19 @@ section_id: "C.41.UA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__012_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:11 — SoTA-Echoing"
-line_start: 89054
-line_end: 89063
+line_start: 88984
+line_end: 88993
 dependencies:
   - "A.10"
   - "A.15.1"
   - "C.41"
+  - "C.41.OF"
   - "C.41.QC"
+  - "C.41.TF"
 keywords:
 ---
 

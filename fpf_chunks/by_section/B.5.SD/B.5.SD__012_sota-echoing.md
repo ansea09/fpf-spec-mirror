@@ -6,12 +6,12 @@ section_id: "B.5.SD:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__012_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.SD — Construct a Useful Answer through Substantive Discussion"
   - "B.5.SD:11 — SoTA-Echoing"
-line_start: 51236
-line_end: 51247
+line_start: 51166
+line_end: 51177
 dependencies:
   - "A.3.1"
   - "B.5.RA"
@@ -24,9 +24,9 @@ keywords:
 
 The practice question is how a discussion produces a usable substantive result. The selected line combines competent facilitation with explicit subject construction and a receiving-use test. The serious alternative is professional facilitation that already supplies both. Retain that adequate arrangement; this pattern adds a missing integration operation, not a universal requirement for another specialist.
 
-**Adopt** the relevant distinction from the IAF [Core Competencies, revised 2021](https://iaf-world.org/wp-content/uploads/2025/09/Revised-IAF-Core-Competencies-December-6-2021.pdf): facilitation includes helping a group obtain useful outcomes, inquire into underlying issues and select suitable methods, while respecting professional boundaries. This defeats a caricature of facilitation as speaking-turn logistics. **Adapt** the contribution in sections 4.2–4.6 by making the subject inference, receiver and consequential variation explicit. The competency framework does not itself supply every domain's constructive method or validate this pattern.
+**Adopt** the relevant distinction from the IAF [Core Competencies, revised 2021](https://iaf-world.org/wp-content/uploads/2025/09/Revised-IAF-Core-Competencies-December-6-2021.pdf): facilitation includes helping a group obtain useful outcomes, inquire into underlying issues and select suitable methods, while respecting professional boundaries. **Adapt** the contribution in sections 4.2–4.6 by making the subject inference, receiver and consequential variation explicit. The competency framework does not itself supply every domain's constructive method.
 
-The practitioner essay [“Об фасилитаторов,” 2020](https://ailev.livejournal.com/1520610.html) provides a critical case of orderly communication substituting for connected thought. **Adopt** its distinction between constructing a connected model and checking whether important concerns have been considered and related. **Adapt** that distinction in 4.3. This pattern does not adopt categorical judgements of a facilitator's subject competence from the professional title, or treat checklist completion as proof of a sound construction. A competent facilitator can also perform subject integration. The essay is conceptual criticism, not comparative effectiveness evidence.
+The practitioner essay [“Об фасилитаторов,” 2020](https://ailev.livejournal.com/1520610.html) provides a critical case of orderly communication substituting for connected thought. **Adopt** its distinction between constructing a connected model and checking whether important concerns have been considered and related. **Adapt** that distinction in 4.3. Assess subject competence independently of the professional title, and examine the construction's reasoning rather than relying on checklist completion. A competent facilitator can also perform subject integration. The essay is conceptual criticism, not comparative effectiveness evidence.
 
 Against a meeting that already produces the required answer, no additional procedure is selected. Against a missing relation, the additional subject work is justified by the receiving use; its cost is made explicit. Reopen if the direct answer is adequate, if an unexamined condition defeats the result, or if another construction supplies the same warrant with less burden.
 

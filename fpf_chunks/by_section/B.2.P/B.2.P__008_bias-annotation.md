@@ -6,12 +6,12 @@ section_id: "B.2.P:5.7"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__008_bias-annotation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:5.7 — Bias-Annotation"
-line_start: 44376
-line_end: 44385
+line_start: 44340
+line_end: 44349
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -47,7 +47,7 @@ keywords:
 
 ### B.2.P:5.7 - Bias-Annotation
 
-| Bias | How B.2.P prevents it |
+| Bias | How to address it |
 | --- | --- |
 | Emergence-as-root-kind bias | The recovery starts from EntityOfConcern, claim kind, and subject pattern; no generic `U.Emergence` is introduced. |
 | Collection-agency bias | Collective nouns are separated into membership set, constructed whole, acting collective system, whole-level characteristic bearer, or candidate new holon named by an MHT claim. |

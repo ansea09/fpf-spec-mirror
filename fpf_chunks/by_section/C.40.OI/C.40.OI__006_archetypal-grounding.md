@@ -6,12 +6,12 @@ section_id: "C.40.OI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__006_archetypal-grounding.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:5 — Archetypal Grounding"
-line_start: 86005
-line_end: 86036
+line_start: 85935
+line_end: 85966
 dependencies:
   - "A.15.9"
   - "B.5.PI"

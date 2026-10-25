@@ -6,12 +6,12 @@ section_id: "F.0.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__006_archetypal-grounding.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:5 — Archetypal Grounding"
-line_start: 117205
-line_end: 117277
+line_start: 117131
+line_end: 117203
 dependencies:
   - "E.10"
   - "E.10.D1"
@@ -81,7 +81,7 @@ Keep the verified formal reading and the unresolved cue separate. Relate them on
 - **Worked result — W3C ODRL Information Model 2.2 Recommendation (15 February 2018), §2.6.1, Permission Class.** A Permission allows an action on an Asset when its refinements and constraints are satisfied and its duties are fulfilled.
 - **Recognition cue — NIST RBAC.** If *role* is being used for an access-control grouping through which permissions are assigned, identify the exact NIST publication, edition, and passage before using that reading.
 
-The verified permission reading is not the unresolved role reading. A later access-control use may relate two source-backed meanings, but familiar wording alone establishes neither the relation nor interchangeability.
+Recover the RBAC *role* meaning from its source before relating it to the ODRL *Permission* meaning for a receiving access-control use.
 
 #### F.0.1:5.3 - Quick checks for later use
 

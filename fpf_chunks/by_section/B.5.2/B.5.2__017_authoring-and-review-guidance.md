@@ -6,12 +6,12 @@ section_id: "B.5.2:16"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__017_authoring-and-review-guidance.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:16 — Authoring and Review Guidance"
-line_start: 50256
-line_end: 50277
+line_start: 50193
+line_end: 50213
 dependencies:
   - "A.10"
   - "A.16"
@@ -41,7 +41,6 @@ Hypothesis reviewers should not ask only whether the chosen hypothesis looks pla
 - whether the selected hypothesis has interpretable implications and a meaningful possible discriminator, with actual availability kept separate from that explanatory contribution,
 - and whether any scope inflation occurred during selection.
 
-A polished hypothesis with no visible rivals is usually less trustworthy than a rougher hypothesis whose rival space is explicit.
 
 #### B.5.2:16.3 - For integrators and assurance leads
 

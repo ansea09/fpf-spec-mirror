@@ -6,12 +6,12 @@ section_id: "A.15.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:intro — Intro"
-line_start: 30253
-line_end: 30291
+line_start: 30239
+line_end: 30277
 dependencies:
   - "A.15.1"
   - "A.15.2"

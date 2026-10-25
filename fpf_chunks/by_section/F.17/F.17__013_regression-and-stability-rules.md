@@ -6,12 +6,12 @@ section_id: "F.17:11"
 section_title: "Regression and stability rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__013_regression-and-stability-rules.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:11 — Regression and stability rules"
-line_start: 123741
-line_end: 123753
+line_start: 123663
+line_end: 123675
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -60,7 +60,7 @@ Recheck only the rows affected by the changed object, name, scheme, sense, Bridg
 | UTS-RSCR-01 | Reference-scheme value, local expression, or local-sense claim changes | Preserve the old coordinate when it is still cited and create or cite the new exact coordinate; do not silently reuse the old address. |
 | UTS-RSCR-02 | The defining or constraining rule changes the underlying value kind or admissible use | Recheck the governed value, its kind, the applicable pattern, admitted use, and blocked use. |
 | UTS-RSCR-03 | F.18 changes the selected name or NameCard decision | Recheck Tech name, Plain name, NameCardRef, aliases, coordinate expression, and rationale. |
-| UTS-RSCR-04 | F.9 changes a Bridge endpoint or relation-semantic profile, or C.2.1/A.10/B.3 changes the bounded-use claim or reliance basis | Recheck the changed object only: BridgeRefs for endpoint or profile change; row use, rationale, and notes for changed direction, rule, tolerance, polarity, evidence, reliance, or assurance. |
+| UTS-RSCR-04 | F.9 changes a Bridge endpoint or relation-semantic profile, or C.2.1/A.10/B.3 changes the bounded-use claim or reliance basis | Apply F.9:16 to changed endpoints or a changed profile, then reconsider every row use that depends on that Bridge. A changed direction, rule, tolerance or polarity changes the use claim; changed evidence or reliance reopens its support. Update affected references, rationale and notes; retain the Bridge and row uses whose grounds remain valid. |
 | UTS-RSCR-05 | Row relocation between blocks | Keep the row id stable and state that relocation between blocks has no ontological force. |
 | UTS-RSCR-06 | A system-role, status, evidence, source, publication, or description row is reused under another semantic-context projection or by another reader group | Recheck the pattern that defines or constrains the governed value, the exact sense coordinate, and any required Bridge before reuse. |
 

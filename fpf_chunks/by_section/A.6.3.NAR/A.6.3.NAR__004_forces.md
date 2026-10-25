@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:3 — Forces"
-line_start: 19551
-line_end: 19560
+line_start: 19537
+line_end: 19546
 dependencies:
   - "A.10"
   - "A.22.CGUS"

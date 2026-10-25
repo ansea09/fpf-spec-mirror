@@ -6,12 +6,12 @@ section_id: "B.5.2.1:9"
 section_title: "Context‑Level KPIs (optional, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__010_context-level-kpis-optional-informative.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:9 — Context‑Level KPIs (optional, informative)"
-line_start: 50604
-line_end: 50613
+line_start: 50536
+line_end: 50545
 dependencies:
   - "A.17"
   - "A.18"
@@ -28,7 +28,7 @@ keywords:
 
 ### B.5.2.1:9 - Context‑Level KPIs (optional, informative)
 
-Contexts *may* monitor these—*not* as gates, but to improve practice:
+Practitioners may monitor these indicators to improve practice; they do not serve as admission conditions:
 
 1. **Profile-specific assurance progression (optional).** When a receiving domain uses an assurance-level profile, report the fraction of cycles whose candidate meets a named level under that profile within the policy window. Name the claim, use and satisfying evidence; omit this KPI when no such profile is used.
 2. **Frontier‑Hit Rate (FHR).** % of cycles where the chosen candidate lies on the **Pareto front** over the declared `DominanceSet` at selection time; track novelty/diversity contribution separately as archive, tie-break, or policy-promoted evidence.

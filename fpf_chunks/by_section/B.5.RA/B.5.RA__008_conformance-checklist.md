@@ -6,12 +6,12 @@ section_id: "B.5.RA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__008_conformance-checklist.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:7 — Conformance Checklist"
-line_start: 48587
-line_end: 48602
+line_start: 48526
+line_end: 48541
 dependencies:
   - "B.5"
   - "B.5.MPC"

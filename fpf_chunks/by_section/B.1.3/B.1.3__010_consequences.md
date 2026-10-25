@@ -6,12 +6,12 @@ section_id: "B.1.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__010_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:9 — Consequences"
-line_start: 42433
-line_end: 42446
+line_start: 42411
+line_end: 42424
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,13 +45,13 @@ keywords:
 
 **Benefits**
 
-* **Auditability by construction.** Every retained claim remains tied to its sources; **SCR** guarantees reconstructability.
+* **Traceable composition.** Every retained claim remains tied to its sources; the **SCR** identifies the carriers needed to reconstruct the aggregate.
 * **Qualified synthesis.** Useful formal and complementary support is retained; dependency assumptions, contrary evidence, and mapping limitations constrain the resulting claim.
 * **Target-scheme results.** Compiled epistemes are aligned with one declared reference scheme; any release or publication remains separately governed.
 * **Didactic clarity.** Separates **semantic folding** (Γ\_epist) from **order** (Γ\_ctx), **time** (Γ\_time), **spend** (Γ\_work), and **emergence** (B.2).
 
 **Trade‑offs**
 
-* **Mapping overhead.** Declaring mappings and **CL** costs time; it prevents silent incoherence.
+* **Mapping overhead.** Declaring mappings and **CL** costs time and makes interpretation differences inspectable.
 * **No forced single score.** Heterogeneous support may remain separate. This makes some comparisons less compact but avoids fictitious assurance and preserves a useful bounded conclusion. B.2 remains specific to a genuinely unresolved whole-reidentification question.
 

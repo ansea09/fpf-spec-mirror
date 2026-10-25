@@ -6,12 +6,12 @@ section_id: "G.0:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__002_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:1 — Problem frame"
-line_start: 126236
-line_end: 126248
+line_start: 126139
+line_end: 126150
 dependencies:
   - "A.10"
   - "A.17"
@@ -59,9 +59,8 @@ A team defines or evolves a `CG‑Frame` (e.g., a frame for creativity measureme
 * lawful with respect to measurement admissibility (scale/unit/polarity constraints),
 * auditable with explicit evidence minima and provenance,
 * reproducible via pinned editions and explicit policy ids,
-* portable only via explicit crossings (bridges and reference-plane moves), never via implicit semantic leakage.
+* portable under the explicit correspondence and plane-relation conditions that the receiving use requires.
 
 `CG‑Spec` is the single design-time object that fixes *what comparisons and aggregations are lawful in this frame*, under which pinned assumptions and minimal evidence requirements, so that run-time selection and publication can be audited without inventing new “local legality gates”.
 
-Didactic subtitle: **Design-time rules for safe, auditable comparison.**
 

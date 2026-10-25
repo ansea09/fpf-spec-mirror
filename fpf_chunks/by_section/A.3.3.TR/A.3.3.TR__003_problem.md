@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__003_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:2 — Problem"
-line_start: 12513
-line_end: 12520
+line_start: 12499
+line_end: 12506
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"

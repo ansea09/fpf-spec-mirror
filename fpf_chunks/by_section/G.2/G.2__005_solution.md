@@ -6,12 +6,12 @@ section_id: "G.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:4 — Solution"
-line_start: 127098
-line_end: 127407
+line_start: 126999
+line_end: 127308
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -171,7 +171,7 @@ A view‑friendly description object (pack‑local `SoTAPaletteDescriptionId`) t
 * `MicroExamples`, `UTSProposals`,
 * and the `entityOfConcern Map` for citation and later CHR/CAL authoring.
 
-**Note (normative intent):** this is the primary “consumable surface” for `G.3/G.4/G.5`; it prevents downstream patterns from scraping free prose.
+`G.3/G.4/G.5` use this export view to find and cite the pack components.
 
 **Editorial template: 1‑page “SoTA Sheet” per Tradition (informative).**
 When authoring `ClaimSheets[Tradition]`, teams often benefit from a single‑page template: scope + claims + evidence anchors + validity region + failure modes + freshness window + cross‑Tradition reuse notes + pointers to micro‑examples.
@@ -199,7 +199,9 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
 5. **Build alignment/divergence surfaces.**
    Where reuse across `Tradition` is desired, record the obtaining correspondence and its exact basis in `BridgeMatrix`: F.9 for sense correspondence, C.3.3 for kind correspondence, or the direct rule for a plane relation, as actually used. State preserved distinctions and losses for the receiving question. Consolidation requires explicit alignment proof. Add bundle or gate anchors only for an independently applicable E.18 flow crossing or A.21 gate, under `CC‑GCORE‑CROSS‑1`.
 
-6. **(Alias: G.2‑F) Produce Γ_epist synthesis records when fusion/substitution is asserted.**
+6. **(Alias: G.2‑F) Construct a needed synthesis and record asserted fusion/substitution.**
+   Use B.1.3:4.4 to construct a joint conclusion from the source claims when the receiving question needs one. Recover their support and conflict relations, shared dependencies, subject and applicability before composing. A qualified synthesis with separately stated support can suffice when no common numerical model is justified.
+
    If a `G.2` pack publication asserts fusion or substitution across sources or across `Tradition` records (beyond mere “parallel divergent claims”), it **MUST** emit `GammaEpistSynthId` records per `G.2:Ext.GammaEpistSynthesis` (provenance union + explicit object alignment refs + assurance tuple refs), and it **MUST** keep penalties routed to `R_eff` only by delegation (`CC‑GCORE‑PEN‑1`).
 
 7. **Publish teachable micro‑groundings.**
@@ -247,13 +249,13 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
 
 * `GammaEpistSynthId[]` *(pack‑local ids of synthesis records; emitted iff fusion/substitution is asserted)*
 * `EvidenceAnchorRef[]` *(provenance union; evidence carriers cited by A.10 evidence-provenance paths)*
-* `BridgeMatrixId` and `BridgeCardId[]` *(explicit object alignment references when crossing is involved)*
+* `BridgeMatrixId` and the applicable correspondence references when a sense, kind or plane relation is used; include `BridgeCardId[]` for an F.9 semantic bridge
 * `CL/CL^plane` and `Φ/Ψ/Φ_plane policy-ids` when required by the cited crossing or actually used loss model *(semantics and penalties → `R_eff` remain governed by the cited definitions)*
 * `PathId/PathSliceId?` *(only when citing via `G.6`)*
 
 **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EvidenceSurfaceEdit, RSCRTriggerKindId.CrossingBundleEdit, RSCRTriggerKindId.ReferencePlaneEdit, RSCRTriggerKindId.PenaltyPolicyEdit, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.EditionPinChange}`
 
-**Notes (normative intent; duplication‑avoidant):**
+**Synthesis and its record (normative):**
 * The auditable synthesis record identified by `GammaEpistSynthId` binds: (i) provenance union, (ii) explicit object alignment refs, (iii) assurance tuple refs (via their governing definitions) for each asserted fusion/substitution. A B.1.3 `Γ_epist^synth` application and its returned episteme remain separate from this record.
 * This extension cites the `Γ‑fold`, `Φ`, and penalty rules through `G.Core` and exposes the pins needed for replay. When B.3/C.2.2 supplies no justified common numerical score or loss calculation, retain the separate support, actual mapping limitations and bounded assurance conclusion; a synthesis record does not supply the missing model.
 
@@ -342,15 +344,13 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
 
 #### G.2:4.6 - Palette first
 
-- `SoTAPaletteDescription` is one plurality-preserving palette.
-- It is not by itself one `Front`, one `Archive`, or one `Shortlist`.
-- When that palette's members are traditions, `TraditionPalette` is the reader-facing tradition-only palette head over the same palette declaration, not one second governing definition. For methods, hypotheses, or other members, keep `SoTAPaletteDescription` or `Palette + SubjectKind` explicit instead.
-- Traditions remain in the palette until a later surface declares comparison, retention, or choice semantics explicitly.
-- `TraditionFront` is one derived view over the declared palette under one declared `Q`; the `Q` basis stays pinned separately and the view does not rename `Tradition` or `SoTAPaletteDescription`.
-- `TraditionArchive` is one derived retention view over that same palette under one declared reachability or coverage rule; that rule stays pinned separately and the view does not turn the palette into one archive by default.
-- When one derived tradition view is shown, keep the base palette recoverable at the same time.
-- When comparison or retention needs richer geometry or atlas language, treat that as support for the derivation rather than as the default meaning of the palette.
-- A reader should be able to say both `this is the palette` and `this is the derived tradition view currently being shown` without collapsing those two objects.
+`SoTAPaletteDescription` is the base, plurality-preserving palette. Keep it recoverable while displaying a derived front, archive or shortlist. A derived view declares its own comparison, retention or choice semantics; it does not replace the base palette or silently remove its members.
+
+When the palette's members are traditions, `TraditionPalette` is the reader-facing name for that same palette declaration. For methods, hypotheses or other members, use `SoTAPaletteDescription` or `Palette + SubjectKind`.
+
+A `TraditionFront` is derived under a declared `Q`. A `TraditionArchive` is derived under a declared reachability or coverage rule. Pin each view's governing basis separately; neither view renames `Tradition` or changes the base palette's meaning.
+
+Use richer geometry or atlas language when the comparison or retention question needs it to explain the derivation. Keep that interpretation separate from the palette's default meaning.
 
 #### G.2:4.7 - Optional atlas interpretation of a declared palette
 

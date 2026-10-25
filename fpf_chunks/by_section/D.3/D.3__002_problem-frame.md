@@ -6,12 +6,12 @@ section_id: "D.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__002_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:1 — Problem Frame"
-line_start: 91189
-line_end: 91196
+line_start: 91116
+line_end: 91123
 dependencies:
   - "A.1"
   - "A.10"
@@ -38,9 +38,9 @@ keywords:
 
 ### D.3:1 - Problem Frame
 
-Interlevel ethical conflict is not just disagreement between people. It may involve a system part and a whole, a person and an organization, one organization and a community, a project and a society, a collection and its members, an episteme family and the decisions it shapes, or an architecture move and the holon levels it affects. The case supplies its levels and scopes; D.3 does not impose a universal moral ladder.
+Ethical conflicts can cross part–whole relations or overlapping scopes. A decision may improve an organization's performance while harming affected people; an episteme may shape decisions that benefit some users and disadvantage others. Declare the relations and scopes present in the case; structural levels do not establish a moral hierarchy.
 
-The practical problem is connecting each claim to what it affects. A list of affected entities, values, Methods, Work, evidence, and horizons does not show which claim concerns which entity or why two sides cannot both be satisfied. D.3 therefore records each side as one connected statement and then records the tension among the sides.
+The practical problem is connecting each claim to what it affects. An inventory of affected entities and values does not explain which claim concerns which entity or why the claims cannot all be satisfied. Describe each side as one connected statement and explain their tension.
 
 The reusable result is a description episteme, not the conflict in the situation and not the form used to show it. The phrase *conflict structure* remains useful ordinary shorthand for the connected claim content inside that description. It does not name a new public `U.*` kind or a generic direct relation.
 

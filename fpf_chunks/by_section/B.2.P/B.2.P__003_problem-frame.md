@@ -6,12 +6,12 @@ section_id: "B.2.P:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__003_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:1 — Problem Frame"
-line_start: 44231
-line_end: 44236
+line_start: 44195
+line_end: 44200
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,5 +49,5 @@ keywords:
 
 Emergence-family wording is overloaded. It can point to a new system whole, an episteme whole, a capability envelope, a characteristic crossing, an architecture residual, a mathematical scale expression, a benchmark artifact, a publication claim, or a collection-as-whole question.
 
-It asks which exact EntityOfConcern, world-side or claim-side fact, and subject pattern are current, and whether the same whole still carries the claim.
+Recover the EntityOfConcern, the fact or assertion being discussed, its subject pattern, and whether the same whole still carries the claim.
 

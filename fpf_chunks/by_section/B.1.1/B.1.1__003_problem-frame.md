@@ -6,12 +6,12 @@ section_id: "B.1.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__003_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:1 — Problem Frame"
-line_start: 41782
-line_end: 41787
+line_start: 41765
+line_end: 41770
 dependencies:
   - "A.1"
   - "A.10"
@@ -34,5 +34,5 @@ keywords:
 
 B.1.1 separates dependency structure from graph representation.
 
-A dependency structure can be ontology-side when a direct pattern has selected the relation under concern. A dependency graph is a mathematical or representation description of that selected relation structure. The graph may be useful, but it is not the holon, not the part-whole relation, and not the constructional grounding by itself.
+A dependency structure can be ontology-side when a direct pattern has selected the relation under concern. A dependency graph describes that selected relation structure. The facts and rules governing the relations supply the grounds for the whole-level claim.
 

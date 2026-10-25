@@ -6,16 +6,18 @@ section_id: "C.40.OD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__006_archetypal-grounding.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:5 — Archetypal Grounding"
-line_start: 87922
-line_end: 87947
+line_start: 87852
+line_end: 87877
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"
+  - "C.40.CU"
   - "C.40.JD"
+  - "C.40.NP"
   - "C.40.OCN"
 keywords:
 ---

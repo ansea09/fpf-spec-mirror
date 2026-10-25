@@ -6,12 +6,12 @@ section_id: "F.6:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__002_use-this-when.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:0 — Use This When"
-line_start: 119504
-line_end: 119530
+line_start: 119429
+line_end: 119455
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,8 +59,8 @@ Typical moments:
 - a MethodDescription names a system-role kind and the project must connect actual Work to the assigned performer;
 - source wording says `RoleEnactment`, “played the role”, or `Holder#Role:Context@Window`;
 - a stronger appointment has a commission, position, or locus participant and must retain that occurrence identity during attribution;
-- a report, standard, dashboard, or access label is described with role wording although it did not perform Work;
-- a corresponding kind or assignment from another context is cited without a current Bridge and local occurrence.
+- an attribution claim names a report instead of the Work's already admitted performer System;
+- a corresponding kind or assignment from another context is used to stand in for the actual assignment occurrence.
 
 **Primary EntityOfConcern.** One obtaining `performedUnderAssignment` relation occurrence between a `U.Work` occurrence and an assignment occurrence whose species is declared under `U.SystemRoleAssignment`.
 

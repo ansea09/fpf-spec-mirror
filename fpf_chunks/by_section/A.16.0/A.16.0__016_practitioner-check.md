@@ -6,12 +6,12 @@ section_id: "A.16.0:15"
 section_title: "Practitioner check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__016_practitioner-check.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:15 — Practitioner check"
-line_start: 34074
-line_end: 34084
+line_start: 34060
+line_end: 34070
 dependencies:
   - "A.16"
   - "A.16.1"

@@ -6,16 +6,19 @@ section_id: "C.40.CU:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:4 — Solution"
-line_start: 85321
-line_end: 85424
+line_start: 85251
+line_end: 85354
 dependencies:
   - "B.1.5.EW"
+  - "B.1.5.RS"
   - "C.11"
+  - "C.16.IR"
   - "C.16.MR"
+  - "C.16.RM"
   - "C.28.CM"
   - "C.32"
   - "C.38"

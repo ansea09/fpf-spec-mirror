@@ -6,12 +6,12 @@ section_id: "B.5.FM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__008_conformance-checklist.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:7 — Conformance Checklist"
-line_start: 49038
-line_end: 49047
+line_start: 48978
+line_end: 48987
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

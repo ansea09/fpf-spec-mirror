@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:intro — Intro"
-line_start: 79068
-line_end: 79073
+line_start: 78998
+line_end: 79003
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"

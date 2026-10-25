@@ -6,12 +6,12 @@ section_id: "F.7:6"
 section_title: "The table"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__007_the-table.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:6 — The table"
-line_start: 119920
-line_end: 119938
+line_start: 119845
+line_end: 119862
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -54,5 +54,4 @@ For a teaching contrast, the relation column may say **none asserted** and the c
 4. **Unknown stays unknown.** A blank or unresolved relation is not an invitation to infer similarity.
 5. **Loss stays visible.** If the limit needs more than one line, link to the underlying relation or evidence rather than compressing it away.
 
-The nickname **Giants’ table** recalls that comparison relies on prior source work. It signals humility toward those sources, not authority supplied by the table.
 

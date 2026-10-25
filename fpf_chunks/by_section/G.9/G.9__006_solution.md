@@ -6,12 +6,12 @@ section_id: "G.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__006_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:4 — Solution"
-line_start: 130532
-line_end: 130897
+line_start: 130431
+line_end: 130796
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -185,7 +185,7 @@ The report carries the exact `ParityPlanRef` and echoes the `BaselineBindingRef`
 
 #### G.9:4.2 — Parity planning (one exact `U.WorkPlan`)
 
-Planning is the act of making the parity run *reproducible by construction*:
+Planning records the conditions needed to repeat and interpret the parity run:
 
 1. **Fix the baseline set.** Choose the exact `BaselineSet` (MethodFamilies, and optionally GeneratorFamilies) used as the comparison baseline. When SoS-log or source-maturity values change baseline eligibility or interpretation, cite `SoS‑LOGBundleId?` and the source-maturity ids by reference; acceptance-gate thresholds remain in `G.4` Acceptance.
 2. **Bind subject, scope, and evaluation window.** Choose exactly one subject branch: one `entityOfConcernRef`, or exact `targetRefs[]` under their existing kinds and editions. For G.5 families, use `MethodFamilyRowRef` or `GeneratorFamilyRowRef`, not a bare lineage id. Then fix `groundingHolonRef`, `referencePlaneRef = ReferencePlane`, one exact `ClaimScope`, and `EvaluationWindow`; record them without silent widening, narrowing, collapse of an EntityOfConcern into the grounding holon, or window drift.
@@ -274,7 +274,7 @@ CausalRungParityScreen:
     returnToC28
 ```
 
-`causalSupportComponentTypeSet` records which methods rely on evidence paths/data regimes, identification, estimates, direct counterfactual sampling, simulation, or transport. Difference is not an automatic ban, but it must be exposed and bridged; one label cannot make unlike components equivalent.
+`causalSupportComponentTypeSet` records which methods rely on evidence paths/data regimes, identification, estimates, direct counterfactual sampling, simulation, or transport. Expose the difference and justify the proposed comparison under its causal-support conditions; a shared label does not make unlike components equivalent.
 
 Open the full record only when comparison remains meaningful:
 
@@ -324,16 +324,16 @@ The following blocks store **wiring only** (pins/refs/policy‑ids, relevant tri
 * **Uses:** `{G.7, F.9, E.18, A.21}`
 * **⊑/⊑⁺:** `∅`
 * **RequiredPins/EditionPins/PolicyPins (minimum; conditional on use):**
-  * `BridgeId/BridgeCardId[]`
+  * `BridgeId/BridgeCardId[]` *(for an actual F.9 sense correspondence; cite a card when used)*
   * `BridgeMatrixId?`
   * `CalibrationLedgerId?` / `BCT.id?`
   * `RegressionSetId?` / `SentinelId[]?` *(when sentinel wiring is used)*
-  * `CL/CL^k/CL^plane`
-  * `Φ(CL) policy-id`, `Φ_plane policy-id`, `Ψ(CL^k) policy-id?`
-  * `CrossingBundleId?`
+  * `CL/CL^k/CL^plane` *(only the channel values consumed or required by the calibration or named assurance account)*
+  * `Φ(CL) policy-id`, `Φ_plane policy-id`, `Ψ(CL^k) policy-id?` *(only when the receiving model or assurance account requires that policy)*
+  * `CrossingBundleId?` *(required for an actual flow/gate use whose governing rule requires the bundle)*
 * **RSCRTriggerSetIds:** `{GCoreTriggerSetId.BridgeCalibrationKit}` *(preferred; expands in `G.Core`)*
 * **RSCRTriggerKindIds (delta, if any):** `∅`
-* **Notes (wiring-only):** This block does not define CL/Φ/Ψ semantics; it only requires the pins needed to cite calibration records and crossing visibility bundles.
+* **Notes:** Apply the channel and receiving-use conditions of G.Core:4.2.3. A kind or plane correspondence keeps its own relation and receiving grounds; it creates no F.9 Bridge. The pins cite the calibration, loss model or crossing bundle actually consumed.
 
 **GPatternExtension block: `G.9:Ext.SoSLogGuardNarration`**
 **GPatternExtension: SoSLogGuardNarration**
@@ -394,7 +394,7 @@ The following blocks store **wiring only** (pins/refs/policy‑ids, relevant tri
   * `EmitterPolicyRef`
   * `InsertionPolicyRef`
 * **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.TelemetryDelta}`
-* **Notes (wiring-only):** Post‑2015 QD families are referenced here only as wiring + edition/policy pin obligations (semantics come from `C.18`/`C.19`/`G.5`).
+* **Notes:** Pin the QD definitions used by the comparison; their semantics remain in `C.18`, `C.19` and `G.5`.
 
 **GPatternExtension block: `G.9:Ext.OEEParity`**
 **GPatternExtension: OEEParity**

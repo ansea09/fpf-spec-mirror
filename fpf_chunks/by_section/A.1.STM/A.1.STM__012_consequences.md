@@ -6,12 +6,12 @@ section_id: "A.1.STM:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__012_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:10 — Consequences"
-line_start: 4308
-line_end: 4315
+line_start: 4294
+line_end: 4301
 dependencies:
   - "A.1"
   - "A.1.CSD"

@@ -6,12 +6,12 @@ section_id: "E.11.PUA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:3 — Forces"
-line_start: 102917
-line_end: 102928
+line_start: 102843
+line_end: 102854
 dependencies:
   - "A.13"
   - "A.15"

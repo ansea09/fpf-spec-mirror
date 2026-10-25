@@ -6,12 +6,12 @@ section_id: "C.40.OI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__008_conformance-checklist.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:7 — Conformance Checklist"
-line_start: 86046
-line_end: 86062
+line_start: 85976
+line_end: 85992
 dependencies:
   - "A.15.9"
   - "B.5.PI"

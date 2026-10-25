@@ -6,12 +6,12 @@ section_id: "G.7:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__006_archetypal-grounding-system-episteme.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:5 — Archetypal Grounding (System / Episteme)"
-line_start: 129925
-line_end: 129932
+line_start: 129822
+line_end: 129829
 dependencies:
   - "A.21"
   - "B.3"
@@ -55,9 +55,9 @@ keywords:
 
 ### G.7:5 - Archetypal Grounding (System / Episteme)
 
-**System case:** *Cross-standard comparison of safety claims about one physical system (bridge-first).*
-A team must compare a safety assurance claim across two regulatory Traditions (e.g., a “functional safety case” tradition and a “ML system testing” tradition) for the *same physical system scope*. `G.7` forces explicit SenseCell‑level bridges (what exactly is the “hazard”, what is the “evidence carrier”, what is the “pass criterion”), records losses, pins planes, and provides sentinels so that changes in the safety evidence protocol editions trigger path‑local RSCR rather than re‑authoring the entire safety case.
+**System case:** *Cross-standard comparison of safety claims about one physical system.*
+A team must compare a safety assurance claim across two regulatory Traditions (e.g., a “functional safety case” tradition and a “ML system testing” tradition) for the *same physical system scope*. Where “hazard”, “evidence carrier” or “pass criterion” has distinct source-local meanings, the team establishes the corresponding F.9 relations and uses G.7 to calibrate them. It records losses and any plane relation actually consumed, then watches the affected uses so a protocol-edition change reopens their dependent claims under G.11.
 
-**Episteme case:** *Benchmark protocol pluralism (post-2015 evaluation practice).*
-A research group wants to compare “state‑of‑the‑art” across multiple evaluation Traditions (IID performance, shift robustness, preference‑based evaluation). `G.7` turns “these are comparable” into explicit BridgeCards with declared row scope, pins the evaluation protocol editions, and registers sentinels so that when a benchmark protocol or policy pin changes, downstream selector decisions can be re‑audited by replaying the affected PathSlice‑scoped evidence.
+**Episteme case:** *Benchmark protocol pluralism.*
+A research group wants to compare “state‑of‑the‑art” across multiple evaluation Traditions (IID performance, shift robustness, preference‑based evaluation). For each actual correspondence needed by that comparison, G.7 records the calibrated scope, preserved distinctions and losses, with BridgeCards for F.9 rows. Protocol-edition pins and sentinels identify affected selector uses when a protocol or policy changes; G.11 governs their reconsideration.
 

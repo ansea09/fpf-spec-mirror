@@ -6,12 +6,12 @@ section_id: "G.9:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__003_intent.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:1 — Intent"
-line_start: 130501
-line_end: 130508
+line_start: 130400
+line_end: 130407
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -51,6 +51,6 @@ keywords:
 Provide a **notation‑independent** harness that:
 
 * plans parity runs for one explicit subject—either one `EntityOfConcernRef` or target refs under their existing subject patterns—with a `ReferencePlane`, scope, window, applicable rules, CSLC comparability and admissibility references, comparator references (`CNSpecRef`, `CGSpecRef`, `ComparatorSpecRef`), and reproducibility pins for editions and policy ids;
-* executes parity in a way that **G.5** can consume, with selected-set outcomes and a DRR and SCR evidence trace;
+* executes the comparison with a DRR and SCR evidence trace; when selection is current, **G.5** consumes its result and declares the selector outcome;
 * publishes an edition-pinned **ParityReport** suitable for downstream consumption, shipping, refresh wiring, and RSCR.
 

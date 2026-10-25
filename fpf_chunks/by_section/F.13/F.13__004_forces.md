@@ -6,12 +6,12 @@ section_id: "F.13:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:3 — Forces"
-line_start: 122165
-line_end: 122173
+line_start: 122088
+line_end: 122096
 dependencies:
   - "F.1"
   - "F.17"
@@ -36,8 +36,8 @@ keywords:
 
 | Force                          | Tension to resolve                                                                           |
 | ------------------------------ | -------------------------------------------------------------------------------------------- |
-| **Continuity vs truthfulness** | Preserve readers’ continuity yet surface real sense changes (no paint‑over).                 |
+| **Continuity vs truthfulness** | Preserve readers’ continuity while making sense changes visible.                 |
 | **Locality vs convenience**    | Keep aliases **inside Contexts** even when a catchy global name tempts reuse.                   |
-| **Simplicity vs coverage**     | Avoid giant synonym lists while still catching the one or two legacy names people will meet. |
+| **Simplicity vs coverage**     | Retain the legacy names readers will encounter within the declared alias budget. |
 | **Didactics vs formality**     | Make the mapping teachable without inventing new low‑level artefacts or processes.           |
 

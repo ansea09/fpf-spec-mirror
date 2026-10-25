@@ -6,12 +6,12 @@ section_id: "C.36.RP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__007_bias-annotation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:6 — Bias-Annotation"
-line_start: 90396
-line_end: 90401
+line_start: 90326
+line_end: 90331
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

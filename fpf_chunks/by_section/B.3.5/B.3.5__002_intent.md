@@ -6,12 +6,12 @@ section_id: "B.3.5:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__002_intent.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:1 — Intent"
-line_start: 45895
-line_end: 45909
+line_start: 45844
+line_end: 45858
 dependencies:
   - "B.3"
   - "C.13"
@@ -21,7 +21,7 @@ keywords:
 
 ### B.3.5:1 - Intent
 
-*Provide a single, human-facing family of **Working-Model** relations as the **public relation layer**, with explicit hooks for (G) grounding and (R) reliability, without exposing constructor jargon or overloading day-to-day authors.*
+*Keep **Working-Model** relations readable and, when this profile is elected, connect each covered assertion to inspectable grounding and a declared validation posture.*
 
 **What you get (manager/engineer view).**
  The same relations you already know (e.g., **ComponentOf**) remain the **public relation vocabulary**.

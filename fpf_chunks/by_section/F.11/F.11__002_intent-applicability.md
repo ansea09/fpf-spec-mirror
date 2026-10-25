@@ -6,15 +6,17 @@ section_id: "F.11:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__002_intent-applicability.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:1 — Intent & applicability"
-line_start: 121662
-line_end: 121676
+line_start: 121585
+line_end: 121599
 dependencies:
+  - "A.13"
   - "A.15"
   - "A.15.1"
+  - "A.2.1"
   - "A.3"
   - "A.3.1"
   - "A.3.2"
@@ -43,12 +45,12 @@ keywords:
 
 ### F.11:1 - Intent & applicability
 
-**Intent.** Give a cold reader four practical questions that prevent common category errors:
+**Intent.** Give the reader four practical questions that prevent common category errors:
 
 1. What **`U.Method`**, the way of doing, is meant?
 2. What **`U.MethodDescription`**, the episteme whose one exact `EntityOfConcern` is that Method, is being used?
 3. What dated **`U.Work`** actually occurred?
-4. Did that Work produce a control signal, command, setpoint, transformation output, or other domain-specific output that matters to this claim?
+4. Did that Work produce a domain-specific output that matters to this claim?
 
 These questions are a reading aid, not a universal four-kind ontology. The fourth answer is whatever value and relation its direct control or transformation pattern defines; F.11 does not mint a universal `U.Actuation` kind.
 

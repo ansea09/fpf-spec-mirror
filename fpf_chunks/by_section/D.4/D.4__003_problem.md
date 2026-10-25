@@ -6,12 +6,12 @@ section_id: "D.4:1.0"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__003_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:1.0 — Problem"
-line_start: 91420
-line_end: 91423
+line_start: 91349
+line_end: 91352
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -34,5 +34,5 @@ keywords:
 
 ### D.4:1.0 - Problem
 
-A described ethical conflict can still be used badly. The failure is to treat its description, an assurance input, a formula, or an architecture return as if it already selected a compromise, refusal, evidence demand, accepted residual, or bounded decision use.
+Describing the conflict does not develop or compare ways of responding to it. Evidence and formal comparisons contribute to that judgement only within their stated scope.
 

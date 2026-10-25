@@ -6,12 +6,12 @@ section_id: "B.1.2:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__013_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:10 — SoTA-Echoing"
-line_start: 42165
-line_end: 42173
+line_start: 42144
+line_end: 42152
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "B.5.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__003_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:2 — Problem"
-line_start: 49990
-line_end: 50004
+line_start: 49930
+line_end: 49944
 dependencies:
   - "A.10"
   - "A.16"
@@ -27,10 +27,10 @@ keywords:
 
 ### B.5.2:2 - Problem
 
-Without an explicit abductive pattern:
+Abductive work can fail in several ways:
 
 1. **Inquiry stalls at surprise.**
-   A team encounters an anomaly, opportunity, or probe pressure but has no admissible next action for producing a candidate hypothesis.
+   A team encounters an anomaly, opportunity, or probe question but does not know how to form and compare candidate explanations.
 2. **Origin is lost.**
    Once a conjecture appears, the initiating prompt, rival candidates, and early plausibility grounds disappear from the record.
 3. **Candidate space collapses too early.**

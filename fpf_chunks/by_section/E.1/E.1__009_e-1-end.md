@@ -6,12 +6,12 @@ section_id: "E.1:End"
 section_title: "E.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__009_e-1-end.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:End — E.1:End"
-line_start: 91919
-line_end: 91920
+line_start: 91845
+line_end: 91846
 dependencies:
   - "E.2"
 keywords:

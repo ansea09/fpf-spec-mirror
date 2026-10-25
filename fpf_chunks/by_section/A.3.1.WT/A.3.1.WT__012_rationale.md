@@ -6,15 +6,17 @@ section_id: "A.3.1.WT:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__012_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:10 — Rationale"
-line_start: 10531
-line_end: 10536
+line_start: 10517
+line_end: 10522
 dependencies:
   - "A.10"
   - "A.15.1"
+  - "A.3.1.CC"
+  - "A.3.1.FT"
   - "A.3.1.QM"
 keywords:
 ---

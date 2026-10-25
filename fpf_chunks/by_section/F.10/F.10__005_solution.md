@@ -6,12 +6,12 @@ section_id: "F.10:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:4 — Solution"
-line_start: 121397
-line_end: 121547
+line_start: 121320
+line_end: 121470
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -108,7 +108,7 @@ Use this order:
 5. resolve the local status expression to its exact F.17 cell and F.10 family;
 6. recover the source, edition, scheme, scope, conditions, window, provenance, and currentness required by this status use;
 7. recover the exact rule and any direct/A.6.1 application and evaluation-result claim needed by the use; identify dated evaluation Work and its enacted Method only when that history is current and independently admitted under A.13/A.15.1;
-8. assert the status-use relation and its C.2.1 status-assertion episteme; then separately recover publication/display and any actual later premise, decision-use, status-use, gate-use, or operation-argument relation.
+8. test the status-use relation under §4.2 and state the corresponding C.2.1 status assertion; then separately recover publication/display and any actual later premise, decision-use, status-use, gate-use, or operation-argument relation.
 
 Status never defines or constitutes the target. A changed status may change a receiving disposition without changing target identity or the earlier domain result. Conversely, a changed target or direct result requires the status application to be re-evaluated; copying the old value is not continuation proof.
 
@@ -123,7 +123,7 @@ When an A.2.4 first-use classification is current, retain its positions by value
 | `StatusScopeSlot` | Claim, requirement, admission, or use scope; not a generic context object. |
 | `StatusValueSlot` | Exact local status-value cell or value governed here or by another direct status pattern. |
 | `StatusWindowSlot` | Validity, edition, freshness, or source window. |
-| `StatusUseSlot` | Named intended use; actual later use still needs its dated work and direct relation. |
+| `StatusUseSlot` | Named intended use; any actual later use keeps the identity and basis defined by its subject pattern. Dated Work is separately admitted only when that occurrence is claimed. |
 | `StatusProvenanceConstraintSlot` | Exact source order, authority source, publication, proof, verification, register, or provenance condition. |
 
 These are relation positions, not system-role-kind qualifier slots, a record schema that applies status, or a new generic status ontic.

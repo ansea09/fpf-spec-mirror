@@ -6,12 +6,12 @@ section_id: "A.3.4.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__010_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:9 — Consequences"
-line_start: 13568
-line_end: 13576
+line_start: 13554
+line_end: 13562
 dependencies:
   - "A.10"
   - "A.15.1"

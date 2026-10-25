@@ -6,16 +6,17 @@ section_id: "C.40.OC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__008_conformance-checklist.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:7 — Conformance Checklist"
-line_start: 86339
-line_end: 86355
+line_start: 86269
+line_end: 86285
 dependencies:
   - "C.11.CRC"
   - "C.16"
   - "C.40.DC"
+  - "C.40.JF"
   - "C.40.OI"
   - "C.40.PC"
 keywords:

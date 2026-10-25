@@ -6,12 +6,12 @@ section_id: "F.9:20"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__022_bias-annotation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:20 — Bias-Annotation"
-line_start: 121053
-line_end: 121062
+line_start: 120977
+line_end: 120985
 dependencies:
   - "A.10"
   - "A.13"
@@ -57,11 +57,10 @@ keywords:
 
 ### F.9:20 - Bias-Annotation
 
-Lenses tested: governance, architecture, ontology and episteme, pragmatics, didactics. Scope: universal for cross-context correspondence and reuse.
 
 * **Governance bias.** The pattern adds a separate use claim and reliance check. Mitigation: keep them in ordinary sentences when durable packaging has no payoff.
 * **Architecture bias.** Typed relation profiles can look heavier than synonym prose. Mitigation: the five-part script begins with the practical action and introduces exact terms only where they stop a real overread.
 * **Ontology and episteme bias.** F.9 resists global meaning claims and keeps claims separate from their subject. Mitigation: explicit Bridges still permit practical cross-context comparison.
 * **Pragmatic bias.** Conservative separation can feel slower than reusing a mapping table. Mitigation: a fixed Bridge can support many independently stated uses without being reidentified.
-* **Didactic bias.** The four-object split can become bureaucratic if written only in internal nouns. Mitigation: every use starts by saying what a person will do, what rule they will follow, and what result would make them stop.
+* **Didactic bias.** An explanation using only internal nouns can obscure the action. Mitigation: every use starts by saying what a person will do, what rule they will follow, and what result would make them stop.
 

@@ -6,15 +6,17 @@ section_id: "F.11:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__012_worked-examples.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:11 — Worked examples"
-line_start: 121788
-line_end: 121818
+line_start: 121711
+line_end: 121741
 dependencies:
+  - "A.13"
   - "A.15"
   - "A.15.1"
+  - "A.2.1"
   - "A.3"
   - "A.3.1"
   - "A.3.2"

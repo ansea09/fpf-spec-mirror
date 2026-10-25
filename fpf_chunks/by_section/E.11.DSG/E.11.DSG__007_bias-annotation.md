@@ -6,12 +6,12 @@ section_id: "E.11.DSG:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__007_bias-annotation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:6 — Bias-Annotation"
-line_start: 104366
-line_end: 104372
+line_start: 104292
+line_end: 104298
 dependencies:
   - "C.2.1"
   - "C.2.P"

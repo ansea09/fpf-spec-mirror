@@ -6,12 +6,12 @@ section_id: "E.12:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__009_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:8 — Rationale"
-line_start: 104525
-line_end: 104542
+line_start: 104451
+line_end: 104468
 dependencies:
   - "C.11.DUA"
   - "E.13"

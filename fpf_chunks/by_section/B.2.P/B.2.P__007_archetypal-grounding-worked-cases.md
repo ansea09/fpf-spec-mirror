@@ -6,12 +6,12 @@ section_id: "B.2.P:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__007_archetypal-grounding-worked-cases.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:5 — Archetypal Grounding (Worked Cases)"
-line_start: 44331
-line_end: 44375
+line_start: 44295
+line_end: 44339
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,9 +64,9 @@ Recover:
 - Which claims concern the model as a description episteme, and which concern its mathematical expression or lens use?
 - Is robustness a characteristic-space claim?
 - Is the result a benchmark artifact?
-- Is there an in-life holon whole-reidentification question?
+- Does the claim concern reidentifying the actual holon?
 
-For those direct claims, use `C.29`, `C.16`, `A.10`, and source-use patterns as applicable. Use B.2 when the identity of the in-life whole remains the question.
+For those direct claims, use `C.29`, `C.16`, `A.10`, and source-use patterns as applicable. Use B.2 when that whole's identity remains the question.
 
 #### B.2.P:5.3 - "A Meta-Functional Transition Happened"
 

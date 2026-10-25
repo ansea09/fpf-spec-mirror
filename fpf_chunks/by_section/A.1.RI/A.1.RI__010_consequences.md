@@ -6,12 +6,12 @@ section_id: "A.1.RI:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.RI/A.1.RI__010_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.1.RI — Reidentifying an Object across Observations"
   - "A.1.RI:9 — Consequences"
-line_start: 3050
-line_end: 3055
+line_start: 3036
+line_end: 3041
 dependencies:
   - "A.1"
   - "A.3.3.PI"

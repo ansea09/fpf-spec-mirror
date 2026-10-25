@@ -6,15 +6,17 @@ section_id: "F.11:12"
 section_title: "Safe reasoning moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__013_safe-reasoning-moves.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:12 — Safe reasoning moves"
-line_start: 121819
-line_end: 121831
+line_start: 121742
+line_end: 121754
 dependencies:
+  - "A.13"
   - "A.15"
   - "A.15.1"
+  - "A.2.1"
   - "A.3"
   - "A.3.1"
   - "A.3.2"
@@ -52,5 +54,5 @@ keywords:
 7. **Bind agency exactly.** Recover the A.13 core for each performer before independent A.15.1 Work admission; add F.6 only for precise assignment-bound attribution through the same obtaining assignment.
 8. **Use outcome evidence.** Observations about the Work support evaluation; commands and approvals alone do not.
 9. **Preserve history.** A new description does not alter past Work or its evidence.
-10. **Recover words locally.** Use F.9 only when a genuine relation between local meanings is part of the question.
+10. **Recover words locally.** Use F.9 only when a relation between local meanings is part of the question.
 

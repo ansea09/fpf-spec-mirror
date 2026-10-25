@@ -6,16 +6,17 @@ section_id: "C.40.NU:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:intro — Intro"
-line_start: 86410
-line_end: 86417
+line_start: 86340
+line_end: 86347
 dependencies:
   - "C.17"
   - "C.18"
   - "C.19"
+  - "C.40.DC"
   - "C.40.JF"
   - "C.40.NU"
   - "C.40.OC"

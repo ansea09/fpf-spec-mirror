@@ -6,12 +6,12 @@ section_id: "D.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:intro — Intro"
-line_start: 91400
-line_end: 91413
+line_start: 91329
+line_end: 91342
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -36,13 +36,13 @@ keywords:
 
 > **Type:** D-family ethical mediation and decision-use pattern
 > **Status:** Stable
-> **Pattern role:** Develop and compare ways to act when an ethical conflict has already been described; return a recommendation, conditional continuation, refusal or impasse.
 
-**Use this when.** Use this pattern when an `InterlevelEthicalConflictDescription` from `D.3` must support mediation, refusal, a decision, an evidence demand, or a return to causal, assurance, or architecture work.
+
+**Use this when.** Use this pattern when you need to develop and assess ways of responding to a described ethical conflict.
 
 **Not this pattern when.** If the conflict has not yet been described, use `D.3`. If the issue is only value plurality, use `D.1`. If the issue is only entry recognition, use `D.2`. If the current work is bias, fairness, impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.
 
 **What goes wrong if missed.** Naming the conflict or filling in a decision record replaces the work of developing options and judging what each would require or change.
 
-**What this buys.** The practitioner can compare available ways to act, recognize a useful change to the proposed means, and explain a recommendation or why the choice remains unresolved. Evidence, causal, assurance, architecture and bias-audit claims keep their own subject methods.
+**What this buys.** The practitioner can compare available ways to act, recognize a useful change to the proposed means, and explain a recommendation or why the choice remains unresolved.
 

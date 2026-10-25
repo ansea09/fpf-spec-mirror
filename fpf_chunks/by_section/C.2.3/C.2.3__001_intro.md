@@ -6,12 +6,12 @@ section_id: "C.2.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:intro — Intro"
-line_start: 53072
-line_end: 53081
+line_start: 53002
+line_end: 53011
 dependencies:
   - "A.16"
   - "A.18"

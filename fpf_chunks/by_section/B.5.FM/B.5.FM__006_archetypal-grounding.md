@@ -6,12 +6,12 @@ section_id: "B.5.FM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__006_archetypal-grounding.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:5 — Archetypal Grounding"
-line_start: 48966
-line_end: 49031
+line_start: 48906
+line_end: 48971
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"
@@ -26,7 +26,7 @@ keywords:
 
 ### B.5.FM:5 - Archetypal Grounding
 
-These constructed cases expose different model choices. Their calculations establish conditional consequences; no apparatus test is reported.
+These constructed cases expose different model choices. Their calculations establish conditional consequences.
 
 #### B.5.FM:5.1 - Choose the heat path before commissioning a calculation
 

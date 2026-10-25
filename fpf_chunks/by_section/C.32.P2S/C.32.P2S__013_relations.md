@@ -6,12 +6,12 @@ section_id: "C.32.P2S:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__013_relations.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:12 — Relations"
-line_start: 77414
-line_end: 77420
+line_start: 77344
+line_end: 77350
 dependencies:
   - "A.1"
   - "A.1.SCR"

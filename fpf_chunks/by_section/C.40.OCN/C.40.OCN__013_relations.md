@@ -6,16 +6,23 @@ section_id: "C.40.OCN:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__013_relations.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:12 — Relations"
-line_start: 85846
-line_end: 85849
+line_start: 85776
+line_end: 85779
 dependencies:
   - "A.15.9"
   - "C.11"
+  - "C.40.DC"
+  - "C.40.JF"
+  - "C.40.NU"
+  - "C.40.OC"
   - "C.40.OI"
+  - "C.40.OP"
+  - "C.40.PC"
+  - "C.40.RQ"
 keywords:
 ---
 

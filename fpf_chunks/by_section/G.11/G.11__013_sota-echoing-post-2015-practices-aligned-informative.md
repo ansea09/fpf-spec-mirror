@@ -6,15 +6,17 @@ section_id: "G.11:11"
 section_title: "SoTA-Echoing — Post‑2015 practices aligned (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__013_sota-echoing-post-2015-practices-aligned-informative.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:11 — SoTA-Echoing — Post‑2015 practices aligned (informative)"
-line_start: 131849
-line_end: 131894
+line_start: 131744
+line_end: 131789
 dependencies:
+  - "A.10.1"
   - "A.6.RCD"
   - "B.3.4"
+  - "C.11.DUA"
   - "C.18"
   - "C.19"
   - "C.23"
@@ -58,13 +60,13 @@ Each entry follows: **claim → practice → source → alignment → adoption s
    Practice: self-improving-agent, AlphaEvolve-style, and DeepEvolve-style lines use generated variants, external knowledge, evaluators, tests, archives, and empirical validation.
    Source: Darwin Godel Machine `arXiv:2505.22954`, AlphaEvolve `arXiv:2506.13131`, and DeepEvolve-style deep-research augmentation `arXiv:2510.06056`.
    Alignment: G.11 refresh records carry source, evaluator, descriptor, policy, edition, lineage, and report refs; generated method text, evaluator success, and archive update keep their subject patterns.
-   Adoption: **Adopt and adapt** (refresh tracks currentness and smallest affected scope; it does not accept generated text as proof, gate passage, or performed work).
+   Adoption: **Adopt and adapt** (refresh tracks currentness and complete affected scope; generated text, gate passage and performed work retain their different subject claims).
 
-1. **Continuous refresh is necessary in deployed evaluation pipelines.**
-   Practice: production ML systems use monitoring, retraining, and reevaluation triggers and insist on reproducibility hooks.
-   Source: Breck et al., *The ML Test Score* (`arXiv:1706.04599`, 2017); Amershi et al., *Software Engineering for Machine Learning* (ICSE-SEIP 2019).
-   Alignment: `G.11` formalizes triggers as typed causes and forces edition and policy pins for replay.
-   Adoption: **Adopt and adapt** (adapted to id-based, PathSlice-scoped refresh rather than “retrain everything”).
+1. **Deployed evaluation needs monitoring and justified refresh conditions.**
+   Practice: production ML teams monitor data and model behaviour, relate staleness to prediction quality, and use observed changes to decide when to update.
+   Source: Breck et al., [*The ML Test Score*](https://research.google/pubs/the-ml-test-score-a-rubric-for-ml-production-readiness-and-technical-debt-reduction/) (IEEE Big Data, 2017), Model 4 and Monitor 4; Amershi et al., [*Software Engineering for Machine Learning: A Case Study*](https://www.microsoft.com/en-us/research/publication/software-engineering-for-machine-learning-a-case-study/) (ICSE-SEIP 2019), §II.B.
+   Alignment: G.11 uses typed causes, edition and policy pins, and the receiving-use comparison in §4.3 to select a replayable response.
+   Adoption: **Adopt and adapt** the monitoring and update-decision practices to affected-use refresh; retain sufficient applicable support.
 
 2. **Non-stationarity requires explicit drift and decay handling, not ad-hoc updates.**
    Practice: continual learning emphasizes non-stationarity as a first-class maintenance condition.

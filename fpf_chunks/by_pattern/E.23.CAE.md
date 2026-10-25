@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.CAE.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "E.23.CAE — Capability Access and Expression Differential Probe"
-line_start: 115048
-line_end: 115323
+line_start: 114974
+line_end: 115249
 dependencies:
   - "A.15.7"
   - "A.15.8"

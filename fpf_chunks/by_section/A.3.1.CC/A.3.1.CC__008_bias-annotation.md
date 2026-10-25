@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__008_bias-annotation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:6 — Bias-Annotation"
-line_start: 10695
-line_end: 10705
+line_start: 10681
+line_end: 10691
 dependencies:
   - "A.10"
   - "A.15.8.MS"

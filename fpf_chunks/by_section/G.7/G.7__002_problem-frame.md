@@ -6,12 +6,12 @@ section_id: "G.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__002_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:1 — Problem frame"
-line_start: 129615
-line_end: 129625
+line_start: 129512
+line_end: 129522
 dependencies:
   - "A.21"
   - "B.3"
@@ -58,9 +58,9 @@ keywords:
 SoTA synthesis (**G.2**) can legitimately preserve pluralism by exporting a **BridgeMatrix**: a Tradition×Tradition inventory of “comparable constructs” with preliminary notes (candidate correspondences, likely losses, tentative levels). When the receiving use requires calibrated cross‑Context reuse, downstream patterns (CHR/CAL/selector/logging/shipping) must ensure that the reuse is:
 
 * **recoverable** through the actual correspondence and its source basis, including BridgeCards for F.9 rows,
-* **calibrated** with a small, auditable procedure (so CL/CL^k/plane routing is not a narrative),
+* **calibrated** with a small procedure whose evidence and conditions are inspectable,
 * **published** with the anchors required by the receiving use; UTS and E.18/A.21 harnesses apply to their actual public names and flow/gate crossings,
-* **refreshable** in a *targeted* way (path‑scoped RSCR rather than whole‑pack reruns).
+* **refreshable** through the uses that depend on changed calibration, with path-scoped RSCR where paths are used.
 
 `G.7` packages this into a kit: `BCT` + applicable correspondence references + `RegressionSet`/`SentinelSet` wiring, so that later patterns can satisfy core invariants without re‑inventing cross‑Tradition machinery.
 

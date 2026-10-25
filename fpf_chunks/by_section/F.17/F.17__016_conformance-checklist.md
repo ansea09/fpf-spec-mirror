@@ -6,12 +6,12 @@ section_id: "F.17:13.5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__016_conformance-checklist.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:13.5 — Conformance Checklist"
-line_start: 124444
-line_end: 124457
+line_start: 124366
+line_end: 124379
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,7 +61,7 @@ keywords:
 | `CC-F17-4` | Every cell resolves to an effective by-value ReferenceScheme, exact expression, and local-sense claim; no generic context field or selected structure substitutes for them. |
 | `CC-F17-5` | Every actual `LocalSenseBasisRelation` has exactly the cell and basis episteme as participants; descriptions, source units, publication occurrences, forms, and carriers stay separate. |
 | `CC-F17-6` | Any F.9 Bridge actually obtains between exact cells; the separate use claim and A.10/B.3 reliance are visible only when that row use is current. |
-| `CC-F17-7` | Admissible use, blocked use, row edition id, currentness condition, and any exact C.2.1 edition relation are recoverable without treating designators as identity. |
+| `CC-F17-7` | Admissible use, any grounded blocked-use claim, row edition id, currentness condition, and any exact C.2.1 edition relation are recoverable without treating designators as identity. |
 | `CC-F17-8` | If availability is claimed, exact E.24.PUB expression, bearing, and publication occurrences are recoverable independently from the row and from rendering or upload Work. |
 | `CC-F17-9` | Multi-view naming uses three separate rows: `U.Viewpoint` names same-individual P only under E.17.0's fixed-content/selected-S predicate; `U.View` names same-individual E only after exact E/P conformance obtains; and `EpistemeViewpointConformanceRelation` names the two-participant pair-determined direct kind. References, designators, NameCards, RelationSignature, occurrences, construction, and publication grant none of those results. |
 

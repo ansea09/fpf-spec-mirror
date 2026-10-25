@@ -6,14 +6,15 @@ section_id: "B.5.WN:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
   - "B.5.WN:4 — Solution"
-line_start: 47201
-line_end: 47284
+line_start: 47140
+line_end: 47223
 dependencies:
   - "A.15.10"
+  - "A.15.11"
   - "A.6.3.RT.OE"
   - "B.5.EA"
   - "B.5.QD"
@@ -89,7 +90,7 @@ Compare deferral with the present reliance. If today's choice consumes the missi
 
 #### B.5.WN:4.6 - Compose an argument for a recipient
 
-When a project becomes useful or an assigned question needs an answer, select the notes that can contribute to it. State the proposed conclusion and arrange the reasons in the order the recipient needs. A visible outline can keep the whole argument available while one passage is being written.
+When a project or assigned question needs an answer, select the notes that can contribute to it. State the proposed conclusion and arrange the reasons in the order the recipient needs. A visible outline can keep the whole argument available while one passage is being written.
 
 Turn the selected material into that argument. Supply missing transitions, examine contrary material, remove repetitions and distinguish a useful example from evidence for a general claim. A chain of links is not yet the written inference. Composition often exposes a premise that seemed present only because the author knew the collection.
 

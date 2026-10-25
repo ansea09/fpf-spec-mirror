@@ -6,12 +6,12 @@ section_id: "E.11.DSG:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:3 — Forces"
-line_start: 104197
-line_end: 104209
+line_start: 104123
+line_end: 104135
 dependencies:
   - "C.2.1"
   - "C.2.P"

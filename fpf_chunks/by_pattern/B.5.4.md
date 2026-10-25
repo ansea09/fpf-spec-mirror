@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.4.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
-line_start: 50753
-line_end: 50873
+line_start: 50683
+line_end: 50803
 dependencies:
   - "A.7.1"
   - "B.5"
@@ -126,7 +126,7 @@ The selected trade-off is more explicit participant-by-participant work where th
 
 [Kashyap and Singh (2026), §II and case B](https://journals.aps.org/prper/abstract/10.1103/j6lc-c5q8) shows redrawing alongside spatial reinterpretation and continuing grounding errors in electrostatics problem solving. Adapt that contribution in step 2 and :5.1: change a viewpoint when it can reveal a needed relation, then check the relation's physical conditions.
 
-Reconsider this choice if an intended reader cannot fill a decisive relation from the available concept account, or if the broader modeling instruction supplies the same recoverable correspondence with less effort. Change the affected instruction or its prerequisite; a comparison showing that the explicit recovery adds no useful contribution would remove the reason to use this specialization. The optics law remains supplied by the linked Feynman account, and the laboratory consequences follow from their stipulated operating conditions.
+Reconsider this choice if an intended reader cannot fill a decisive relation from the available concept account, or if the broader modeling instruction supplies the same recoverable correspondence with less effort. Obtain the missing explanation, or use the broader modeling route when it already supplies the needed correspondence. The optics law remains supplied by the linked Feynman account, and the laboratory consequences follow from their stipulated operating conditions.
 
 ### B.5.4:12 - Relations
 

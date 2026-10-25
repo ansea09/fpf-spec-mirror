@@ -6,12 +6,12 @@ section_id: "B.5.2.0:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__005_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:3 — Forces"
-line_start: 50319
-line_end: 50325
+line_start: 50247
+line_end: 50253
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,6 +36,6 @@ keywords:
 | Force | Tension |
 |---|---|
 | **Breadth vs discipline** | Admit more than anomaly, but keep a bounded family of admissible prompt species. |
-| **Reuse vs type inflation** | Introduce a clean entry form without exploding the number of heavy publication kinds. |
+| **Reuse vs type inflation** | Use one entry form for several prompt species while keeping their questions distinguishable. |
 | **Prompt vs hypothesis** | Keep the initiating prompt distinct from the downstream abductive outcome. |
 

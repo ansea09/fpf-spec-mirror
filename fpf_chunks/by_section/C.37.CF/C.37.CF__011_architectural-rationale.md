@@ -6,12 +6,12 @@ section_id: "C.37.CF:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__011_architectural-rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:10 — Architectural Rationale"
-line_start: 82644
-line_end: 82649
+line_start: 82574
+line_end: 82579
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"

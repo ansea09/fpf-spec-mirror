@@ -6,12 +6,12 @@ section_id: "F.3:9"
 section_title: "Self-checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__010_self-checks.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:9 — Self-checks"
-line_start: 118733
-line_end: 118741
+line_start: 118659
+line_end: 118667
 dependencies:
   - "A.11"
   - "A.7"
@@ -38,6 +38,6 @@ keywords:
 * **Argument probe.** Substitute the participants from one use into the other. If the source proposition fails, split.
 * **Entailment probe.** Does one use imply an occurrence while the other implies a description, kind, or status? Split.
 * **Label inversion.** Read the Plain label alone. If it invites a broader claim, tighten it.
-* **Counterexample ping.** State a short use that must be excluded. If it falls inside the claim, refine the boundary.
-* **Memory rule.** If a careful reader cannot recall the few relevant claims, the partition is probably too fine.
+* **Counterexample ping.** Use a source-grounded excluded use when it matters to the receiving question. If that use falls inside the claim, refine the boundary.
+* **Memory rule.** Poor recall is a cue to inspect the partition for needless splits. Retain every source-grounded distinction that changes the receiving use.
 

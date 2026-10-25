@@ -6,17 +6,19 @@ section_id: "C.39:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__012_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:11 — SoTA-Echoing"
-line_start: 83141
-line_end: 83153
+line_start: 83071
+line_end: 83083
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
   - "A.3.2"
   - "B.1.5"
+  - "B.1.5.EW"
+  - "B.1.5.RS"
   - "C.11"
   - "C.30.ASV"
   - "C.32.MWA"

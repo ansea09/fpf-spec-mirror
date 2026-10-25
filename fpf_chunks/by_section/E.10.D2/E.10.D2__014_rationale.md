@@ -6,12 +6,12 @@ section_id: "E.10.D2:13"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__014_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:13 — Rationale"
-line_start: 102145
-line_end: 102150
+line_start: 102071
+line_end: 102076
 dependencies:
   - "A.1.1"
   - "A.10"

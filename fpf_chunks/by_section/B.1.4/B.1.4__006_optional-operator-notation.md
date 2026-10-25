@@ -6,12 +6,12 @@ section_id: "B.1.4:3"
 section_title: "Optional Operator Notation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__006_optional-operator-notation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:3 — Optional Operator Notation"
-line_start: 42565
-line_end: 42580
+line_start: 42543
+line_end: 42558
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -46,7 +46,7 @@ Gamma_time(temporalAggregationRecord, timeWindow, coverageAndOverlapPolicy)
   -> temporal aggregate record
 ```
 
-The notation does not create a holon, transformation, method, work occurrence, or whole reidentification by itself. It records how the selected relation set is combined for the current use.
+The notation expresses how the selected relation set is combined for the current use. Establish the objects and relations independently before using it.
 
 Keep an ordinary statement about who prepared the aggregation ordinary. If the use asserts one exact dated sequencing, combining, measuring or auditing Work, recover the actual performer's A.13 core and admit the Work independently under A.15.1. Use A.3.4 for a separate transformation claim, B.1.6 for resource aggregation, and A.10 to recover provenance and bounded reliance on independently established results. Writing the record does not identify its writer as the transformer of the EntityOfConcern.
 

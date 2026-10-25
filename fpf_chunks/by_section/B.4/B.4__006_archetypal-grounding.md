@@ -6,12 +6,12 @@ section_id: "B.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__006_archetypal-grounding.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:5 — Archetypal Grounding"
-line_start: 46345
-line_end: 46376
+line_start: 46284
+line_end: 46315
 dependencies:
   - "A.12"
   - "A.15.1"

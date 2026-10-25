@@ -6,12 +6,12 @@ section_id: "B.5.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:intro — Intro"
-line_start: 49970
-line_end: 49983
+line_start: 49910
+line_end: 49923
 dependencies:
   - "A.10"
   - "A.16"

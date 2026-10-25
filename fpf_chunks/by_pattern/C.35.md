@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.35.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
-line_start: 81261
-line_end: 81508
+line_start: 81191
+line_end: 81438
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

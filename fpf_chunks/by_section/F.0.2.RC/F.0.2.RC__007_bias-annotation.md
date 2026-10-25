@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__007_bias-annotation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:6 — Bias-Annotation"
-line_start: 117872
-line_end: 117877
+line_start: 117798
+line_end: 117803
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"

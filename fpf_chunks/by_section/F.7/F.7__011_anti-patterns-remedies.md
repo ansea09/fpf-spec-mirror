@@ -6,12 +6,12 @@ section_id: "F.7:10"
 section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__011_anti-patterns-remedies.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:10 — Anti-patterns & remedies"
-line_start: 119991
-line_end: 120005
+line_start: 119915
+line_end: 119929
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -47,7 +47,7 @@ keywords:
 | **AP-4** | Temporal blur | Design descriptions and Work occurrences are treated as interchangeable. | MethodDescription and Work collapse. | Show the distinction and any actual relation through F.11, A.3, and A.15. |
 | **AP-5** | Loss denial | A relation is shown without its material limitation. | Readers over-transfer. | Add the loss and a concrete counterexample. |
 | **AP-6** | Row CL | A minimum or average CL is computed across heterogeneous relations. | One number collapses unrelated claims. | Keep CL only on the F.9 relation that declares it; assess the receiving use separately. |
-| **AP-7** | Overwide row | Many sources are added “for completeness”. | Differences hide and the entry cost rises. | Keep two to four answer-changing entries. |
+| **AP-7** | Overwide row | Many sources are added “for completeness”. | Differences hide and the entry cost rises. | Retain only answer-changing entries; split the display when needed without losing a required comparison. |
 | **AP-8** | Minted paraphrase | A cell replaces the source expression with a new umbrella term. | Provenance and locality vanish. | Cite the exact local claim; put any selected designation in its own column. |
 | **AP-9** | Duplicate rows by wording | The same argument is repeated under different labels. | Readers infer distinct concepts where none were established. | Keep one comparison and let F.5 manage aliases. |
 | **AP-10** | Automatic transitivity | A–B and B–C are used to assert A–C. | Relation composition may not hold or may add loss. | State only relations whose composition is justified by their direct patterns. |

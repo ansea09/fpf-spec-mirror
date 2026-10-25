@@ -6,12 +6,12 @@ section_id: "G.0:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:3 — Forces"
-line_start: 126258
-line_end: 126265
+line_start: 126160
+line_end: 126167
 dependencies:
   - "A.10"
   - "A.17"
@@ -56,7 +56,7 @@ keywords:
 
 * **Pluralism vs. comparability.** Multiple traditions must co-exist while allowing admissible comparison where justified.
 * **Expressiveness vs. safety.** Rich comparator sets and aggregators vs. measurement admissibility constraints.
-* **Locality vs. portability.** Context-local semantics first; portability only via explicit bridges and explicit losses.
+* **Locality vs. portability.** Preserve context-local meanings and establish the correspondences and use conditions needed for transfer, including any justified loss.
 * **Assurance vs. agility.** Evidence minima must meet the claim threshold while staying light enough to adopt.
 * **Design-time vs. run-time.** Keep legality standards and templates design-time; run-time only cites and applies them.
 

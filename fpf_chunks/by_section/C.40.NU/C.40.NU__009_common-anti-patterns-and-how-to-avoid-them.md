@@ -6,16 +6,17 @@ section_id: "C.40.NU:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 86565
-line_end: 86575
+line_start: 86495
+line_end: 86505
 dependencies:
   - "C.17"
   - "C.18"
   - "C.19"
+  - "C.40.DC"
   - "C.40.JF"
   - "C.40.NU"
   - "C.40.OC"

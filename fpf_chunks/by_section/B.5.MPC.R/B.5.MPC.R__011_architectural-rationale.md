@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__011_architectural-rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:10 — Architectural Rationale"
-line_start: 48079
-line_end: 48086
+line_start: 48018
+line_end: 48025
 dependencies:
   - "A.15.9"
   - "A.3.3"

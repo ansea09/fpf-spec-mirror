@@ -6,12 +6,12 @@ section_id: "F.14:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__006_minimal-vocabulary.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:5 — Minimal vocabulary"
-line_start: 122501
-line_end: 122511
+line_start: 122424
+line_end: 122434
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,11 +51,11 @@ keywords:
 ### F.14:5 - Minimal vocabulary
 
 * **Anti-explosion control pass** — one bounded review of related candidate expressions before durable naming objects are added.
-* **Candidate name family** — proposed expressions that appear to cover related system-role, status, Work, evidence, source, capability, Method, policy, or local-sense concerns.
+* **Candidate name family** — proposed expressions that appear to designate related values or relations.
 * **Recovered governed value** — the exact typed value or relation the expression is trying to designate, under its direct pattern.
 * **Naming use** — the exact reader or practitioner action for which the expression is being considered.
 * **Light disposition** — no durable name, existing designation, alias, local expression, or existing row reuse.
 * **System-role-kind relation expression** — an expression designating an exact A.2.7 substitution, incompatibility, qualification, or bundle relation rather than another local system-role kind.
 * **Status-family expression** — an expression for a status family, value, window, confidence claim, or status-use relation defined under F.10 or a direct status pattern.
-* **Blocked minting** — the explained result that the candidate remains a light disposition or direct-pattern expression rather than a new durable name or naming object.
+* **Blocked minting** — the explained decision to keep the candidate as local wording or reuse an existing designation rather than create a new durable name or naming object.
 

@@ -6,12 +6,12 @@ section_id: "G.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__002_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:1 — Problem frame"
-line_start: 127070
-line_end: 127080
+line_start: 126971
+line_end: 126981
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -57,7 +57,7 @@ A team extends FPF into a new `CG‑Frame`. The relevant literature is typically
 * **plural** (multiple `Tradition` lineages with incompatible commitments),
 * **source- and use-sensitive** (results depend on the exact source and edition, claim region, EntityOfConcern, comparison basis, evidence, and receiving use),
 * **method‑heterogeneous** (different evidence styles, operator sets, and validity regions),
-* **time‑sensitive** (rapid drift post‑2015; frequent benchmark/protocol shifts).
+* **time-sensitive** (new evidence or changed benchmarks and protocols can alter a claim's applicability).
 
 Downstream Part-G work in CHR, CAL, selection, shipping, and refresh depends on citation-ready claims that keep each exact CG-frame, source edition, claim region, EntityOfConcern, comparison basis, evidence anchor, and actual cross-source relation recoverable.
 

@@ -6,14 +6,15 @@ section_id: "F.0.2.MA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__006_archetypal-grounding.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:5 — Archetypal Grounding"
-line_start: 117669
-line_end: 117697
+line_start: 117595
+line_end: 117623
 dependencies:
   - "A.3.1.DR"
+  - "A.3.1.MR"
   - "A.3.1.QM"
   - "B.1.5.CM"
   - "E.8.ML"
@@ -43,7 +44,7 @@ The engineer's allocation is:
 | Shortening the warning | Retain W's rival accounts and the missing comparison. Do not create an admitted “shortcut Method” from one reported occurrence. |
 | Layout instructions for the handbook's publishing tool | Keep them in H. They do not belong in the reusable Method claim. |
 
-The first useful result is the conditional reuse answer, not a new pattern count. A description author can now state the condition and the exact return to A.3.1.CC.
+The first useful result is the conditional reuse answer. A description author can now state the condition and the return to A.3.1.CC.
 
 #### F.0.2.MA:5.2 - A changed source does not erase a former result
 

@@ -6,12 +6,12 @@ section_id: "C.29.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.1/C.29.1__006_archetypal-grounding.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.29.1 — Mathematical Result Transfer"
   - "C.29.1:5 — Archetypal Grounding"
-line_start: 70219
-line_end: 70353
+line_start: 70149
+line_end: 70283
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

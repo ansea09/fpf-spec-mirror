@@ -6,12 +6,12 @@ section_id: "G.10:4"
 section_title: "Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__005_solution-sota-pack-core-as-the-shipping-object-and-publication-kit.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:4 — Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
-line_start: 131071
-line_end: 131366
+line_start: 130971
+line_end: 131260
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -102,11 +102,11 @@ Effective obligations/pins/triggers are computed as **union(expand(sets), explic
 
   `MOOManifestId?` *(method‑of‑obtaining‑output disclosure; conceptual object id)*
   }
-  *(Optional pins from `CrossingVisibilityPins` MAY be strengthened to unconditional by listing them above; `G.10` typically strengthens `UTSRowId[]` and path/crossing bundles when the pack is publicly shipped.)*
+
 
 * `TriggerAliasMapRef` := `∅` *(canonical trigger ids are used directly)*
 
-> **Mode‑specific definition pins.** Any additional pins required for QD/OEE/interop shipping are introduced only by `GPatternExtension` blocks in `G.10:4.6` (never smuggled into the core linkage).
+> **Mode-specific definition pins.** Use the applicable `GPatternExtension` blocks in `G.10:4.6` for additional QD/OEE/interop pins.
 
 #### G.10:4.2 - `SoTA‑Pack(Core)` object model (normative; notation‑independent)
 
@@ -217,12 +217,12 @@ The `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `sourceSetFamily`, 
 
 **Interpretation constraints (normative by delegation).** Any universal invariants governing (i) CN/CG spec-ref governing-definition assignment, (ii) crossing visibility and penalty routing, (iii) tri‑state guards, (iv) set‑return semantics, (v) P2W split, (vi) defaults, and (vii) RSCR trigger typing are **not restated here** and are enforced via `G.Core` conformance (see `CC‑G10‑CoreRef`).
 
-#### G.10:4.3 - Shipping choreography (normative; governing-definition delegating)
+#### G.10:4.3 - Shipping procedure (normative)
 
-`G.10` prescribes a minimal, governing-definition delegating sequence for composing a shipped pack:
+Compose the pack while preserving the cited definitions:
 
 1. **S‑1 — Gather & pin.** Collect upstream artefact ids and verify the **required pins** implied by the linkage manifest (edition pins, policy pins, UTS/Path pins).
-2. **S‑2 — Compose `SoTA‑Pack(Core)` + MOO disclosure.** Assemble the pack object and attach a **`MOOManifest`** that lists the referenced methods, mechanisms, and policies used, at their exact editions, to obtain the shipped outcomes (ids only; semantics stay with governing definitions).
+2. **S‑2 — Compose `SoTA‑Pack(Core)` + MOO disclosure.** Assemble the pack object. For shipped outcomes intended for downstream use, attach a **`MOOManifest`** listing the methods, mechanisms and policies used to obtain them at their exact editions (ids only; semantics stay with governing definitions).
 3. **S‑3 — Publish selection/parity roster (selector‑facing).** Except when the inputs-only presence-rule exception in §4.2.1 is used, produce a selector‑readable `PortfolioRosterId` with the parity/definition pins required for reproducibility; do not mandate formats.
 4. **S‑4 — Anchor and publish path citations.** Ensure A.10 anchors exist and publish/record `PathId/PathSliceId` citations required for downstream explainability (e.g., the `C.23` W2 `AdmissibilityLedger`) and maturity rung changes.
 5. **S‑5 — Expose CrossingBundle.** For each GateCrossing relevant to the shipped artefacts, expose the required `CrossingBundle` references (fail fast on missing or non‑conformant bundles when required).
@@ -324,18 +324,12 @@ All method‑/generator‑/interop‑specific shipping extension declarations li
 **Notes (shipping-pin discipline):**
 * This block only records that an interop surface contributed to the shipped pack’s provenance; it does not redefine any crosswalk semantics.
 
-#### G.10:4.7 - Published surfaces must ship kind, source, derivation, lens, and shortlist token
+#### G.10:4.7 - Metadata for shipped results and source views
 
-- Published surfaces should carry the subject kind, source set kind, and relevant declared surface pins. When a selector outcome is shipped, they should also carry its outcome kind and, when applicable, the set-result kind or handoff kind.
-- These are publication payload metadata fields inside `SoTA-Pack(Core)`, not publication face kinds, publication form kinds, interop publication form kinds, or carrier kinds.
-- Good publication fields include `selectorOutcomeKind`, `setResultFamily`, `handoffKind`, `subjectKind`, `sourceSetFamily`, `sourceSetComposition`, `dominanceRegime`, `lensId`, `shortlistId`, and any declared archive or promotion-policy ids that the reader needs to interpret the visible set.
-- Those payload fields should use controlled tokens, cited ids, or already-declared head labels rather than shipping-local prose values.
-- When the visible surface or the shortlisted source is one derived tradition view, also publish the derivation explicitly.
-- Useful additional fields there include `derivedViewKind`, `basePaletteRef`, and the declared `qId` or reachability rule id that disciplined that derivation.
-- `portfolioMode` may remain as one support field about selector operation, but it should not stand in for the public set label.
-- A published surface should mirror semantics that are already declared in the governing palette, front, archive, or shortlist language.
-- It should not redefine that semantics locally.
-- When one shipped surface still needs a plain-language label, use the declared set-result kind and source set rather than falling back to `portfolioMode`.
+Ship the metadata the receiver needs to interpret the visible result: subject and source-set kind, the declared surface pins, and any shipped selector outcome's `selectorOutcomeKind`, `setResultFamily` or `handoffKind`. Use controlled tokens, cited ids or already declared head labels. The roster may carry `subjectKind`, `sourceSetFamily`, `sourceSetComposition`, `dominanceRegime`, `lensId`, `shortlistId` and applicable archive or promotion-policy ids; include those that change interpretation.
+
+For a derived tradition view, retain `derivedViewKind`, `basePaletteRef` and its declared `qId` or reachability/coverage rule. `portfolioMode` describes selector operation; the declared result kind and source set supply the public label. These fields carry the governing palette, front, archive or selected-set meaning inside the publication. They neither redefine it nor name publication-face, publication-form, interop-form or carrier kinds.
+
 
 ##### G.10:4.7.1 - Worked publication slice
 

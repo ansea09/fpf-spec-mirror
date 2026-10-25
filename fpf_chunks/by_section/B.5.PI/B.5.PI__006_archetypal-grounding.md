@@ -6,25 +6,26 @@ section_id: "B.5.PI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__006_archetypal-grounding.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:5 — Archetypal Grounding"
-line_start: 50965
-line_end: 50996
+line_start: 50895
+line_end: 50926
 dependencies:
   - "A.15.11"
   - "A.16.1"
   - "B.5"
   - "B.5.EA"
   - "B.5.QD"
+  - "C.11.CRC"
   - "C.11.DUA"
 keywords:
 ---
 
 ### B.5.PI:5 - Archetypal Grounding
 
-These are constructed cases with stated conditions, not measurements of the method's effectiveness.
+These are constructed cases with stated conditions.
 
 #### B.5.PI:5.1 - An on-time handover hides recurring work
 

@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:4 — Solution"
-line_start: 49746
-line_end: 49807
+line_start: 49686
+line_end: 49747
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"
@@ -27,7 +27,7 @@ keywords:
 
 **Recover the need and the conflict → expose the premises producing it → examine an assumed necessity or shared condition → construct another question or way → return to the retained requirements.**
 
-Enter at the unresolved step. A short explanation beside the working model can carry the result; no separate conflict form is required.
+Enter at the unresolved step. A short explanation beside the working model can carry the result.
 
 #### B.5.QD.CF:4.1 - State what must be obtained and where the conflict arises
 

@@ -6,12 +6,12 @@ section_id: "F.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__011_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:9 — Consequences"
-line_start: 119442
-line_end: 119460
+line_start: 119367
+line_end: 119386
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,8 +58,9 @@ Good consequences:
 - durable names become shorter because the ontology stays at the right object;
 - local system-role-kind names stay usable without becoming assignment, capability, Method, or evidence claims;
 - description names no longer collapse into the kinds they describe;
-- U-kind names are easier to bridge because their comparison evidence remains explicit; and
-- For an E.10 repair that uncovers a durable naming issue, use F.5 or F.18 instead of ad hoc word substitution.
+- U-kind names are easier to bridge because their comparison evidence remains explicit.
+
+For an E.10 repair that uncovers a durable naming issue, use F.5 or F.18 instead of ad hoc word substitution.
 
 Costs:
 

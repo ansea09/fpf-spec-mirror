@@ -6,12 +6,12 @@ section_id: "F.13:12"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__013_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:12 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 122333
-line_end: 122381
+line_start: 122256
+line_end: 122304
 dependencies:
   - "F.1"
   - "F.17"
@@ -34,7 +34,7 @@ keywords:
 
 ### F.13:12 - Reasoning primitives (judgement schemas, notation‑free)
 
-> Each judgement is a **pure thought**: premises ⇒ safe conclusion. No storage, no workflow, no roles.
+Use these schemas to decide which continuity claim the recovered facts support.
 
 Let `meaningOf(ℓ)` recover the exact `<ReferenceScheme, LocalSenseClaim>` projection for one local label use; let `useOf(ℓ)` recover its intended naming use. Where a value is being named, recover it independently under its subject rule. `pref(t)` denotes the preferred expression for that exact naming use, not a global preferred word.
 

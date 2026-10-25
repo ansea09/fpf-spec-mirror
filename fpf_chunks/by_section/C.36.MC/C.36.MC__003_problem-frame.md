@@ -6,12 +6,12 @@ section_id: "C.36.MC:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__003_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:1 — Problem Frame"
-line_start: 90508
-line_end: 90515
+line_start: 90438
+line_end: 90445
 dependencies:
   - "A.15.1"
   - "A.3.1"

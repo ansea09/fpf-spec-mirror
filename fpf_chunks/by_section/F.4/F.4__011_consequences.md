@@ -6,12 +6,12 @@ section_id: "F.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__011_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:9 — Consequences"
-line_start: 119121
-line_end: 119135
+line_start: 119047
+line_end: 119061
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -56,7 +56,7 @@ keywords:
 
 **Costs.**
 
-- Former “role-or-status template” material must move to F.10, A.2.4, B.3, A.10, E.17, G.6, or another direct relation.
+- When adapting a template that mixes role and status, route each claim to F.10, A.2.4, B.3, A.10, E.17, G.6, or the direct relation that governs it.
 - A stronger claim may require several neighboring patterns instead of one overloaded card.
 - Public, Core-facing, or durable cross-local names require F.18.
 

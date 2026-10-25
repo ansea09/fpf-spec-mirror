@@ -6,12 +6,12 @@ section_id: "F.4:14"
 section_title: "Didactic Memory"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__016_didactic-memory.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:14 — Didactic Memory"
-line_start: 119203
-line_end: 119206
+line_start: 119128
+line_end: 119131
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,5 +47,5 @@ keywords:
 
 ### F.4:14 - Didactic Memory
 
-A `SystemRoleKindDescription` is the readable episteme that tells people what one exact local system-role kind means. It helps a reader classify, assign, name, or compare the kind. It does not admit the kind or a candidate system, produce the classification judgment, create an assignment, prove capability, define a Method, perform Work, grant permission, establish responsibility, carry evidence, publish itself, or turn every useful episteme into a system-role holder.
+A `SystemRoleKindDescription` is an episteme that explains one local system-role kind. Use its recognition account and current `KindSignature` to judge a candidate under C.3.2; establish any assignment separately under A.2.1. Follow :4.2 for capability, Method, Work or other neighboring claims.
 

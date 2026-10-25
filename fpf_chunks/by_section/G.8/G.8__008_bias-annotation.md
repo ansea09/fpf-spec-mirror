@@ -6,12 +6,12 @@ section_id: "G.8:7"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__008_bias-annotation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:7 — Bias‑Annotation"
-line_start: 130368
-line_end: 130371
+line_start: 130265
+line_end: 130268
 dependencies:
   - "A.10"
   - "A.21"
@@ -43,5 +43,5 @@ keywords:
 
 ### G.8:7 - Bias‑Annotation
 
-Scope: packaging kit only. Rule semantics remain governed by `C.23`; thresholds remain governed by `G.4`; evidence path semantics remain governed by `G.6`; selection semantics remain governed by `G.5`.
+A maturity label can hide different evidence or admission conditions. Keep the exact rule, row edition and receiving use beside the label; the bundle itself supplies no maturity verdict.
 

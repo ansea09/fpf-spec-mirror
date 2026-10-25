@@ -6,15 +6,16 @@ section_id: "C.41.QC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__012_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:11 — SoTA-Echoing"
-line_start: 89384
-line_end: 89397
+line_start: 89314
+line_end: 89327
 dependencies:
   - "A.10"
   - "C.41"
+  - "C.41.SR"
   - "C.41.UA"
 keywords:
 ---

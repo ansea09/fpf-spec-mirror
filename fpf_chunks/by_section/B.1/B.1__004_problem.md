@@ -6,12 +6,12 @@ section_id: "B.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__004_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:2 — Problem"
-line_start: 41554
-line_end: 41563
+line_start: 41538
+line_end: 41547
 dependencies:
   - "A.1"
   - "A.14"
@@ -31,7 +31,7 @@ keywords:
 
 ### B.1:2 - Problem
 
-Without B.1:
+When these distinctions are missed:
 
 1. **Mereology and notation collapse.** A graph or algebra is treated as the part-whole structure itself.
 2. **Roles and methods become parts.** Role factors, method parameters, guards, steps, and compositions are read as holonic parts because the same word "decomposition" appears.

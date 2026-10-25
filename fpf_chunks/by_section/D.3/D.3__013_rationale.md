@@ -6,12 +6,12 @@ section_id: "D.3:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__013_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:9 — Rationale"
-line_start: 91370
-line_end: 91375
+line_start: 91299
+line_end: 91304
 dependencies:
   - "A.1"
   - "A.10"
@@ -38,7 +38,7 @@ keywords:
 
 ### D.3:9 - Rationale
 
-The description episteme resolves the pattern's main ambiguity. The ethical situation is not a file or table, while D.4 still needs a stable object it can cite. C.2.1 supplies that object without inventing a universal conflict kind: the claims say what the sides are, one exact EntityOfConcern says what case they concern, and the effective ReferenceScheme says how to read them.
+When a later judgement must cite or revise the description, C.2.1 identifies the claim-bearing episteme: the claims say what the sides are, its EntityOfConcern identifies the case, and its effective ReferenceScheme says how to read them.
 
-Side rows make the conflict inspectable because they preserve which claim affects which entity and scope. Conditional branches then recover Method, Work, transformations, evidence use, collection structure, agency, responsibility, publication, assurance, causality, and architecture only where the case actually depends on them. This keeps exact ontology available without making specialist prose the entrance price for ethical work.
+Side rows make the conflict inspectable because they preserve which claim affects which entity and scope. Add supporting detail where it changes that account or its intended use.
 

@@ -6,15 +6,17 @@ section_id: "F.11:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__005_core-idea-didactic.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:4 — Core idea (didactic)"
-line_start: 121694
-line_end: 121706
+line_start: 121617
+line_end: 121629
 dependencies:
+  - "A.13"
   - "A.15"
   - "A.15.1"
+  - "A.2.1"
   - "A.3"
   - "A.3.1"
   - "A.3.2"
@@ -45,12 +47,12 @@ keywords:
 
 Use four questions, then state only the relations that actually obtain:
 
-* **Method — the way.** An algorithm, test method, clinical pathway, or welding technique is a way of doing under A.3 and A.3.1.
-* **MethodDescription — the description episteme.** An SOP, program text, BPMN or SPEM model, or other episteme is a `U.MethodDescription` only when A.3.2 finds one admitted Method as its exact `EntityOfConcern` and at least one substantive claim about that Method as a way of doing.
-* **Work — the occurrence.** A dated performance, run, batch, or service episode is `U.Work` under A.15 and A.15.1. Work is the occurrence itself, not a record of the occurrence; a record or report is a separate episteme or carrier.
-* **Control or transformation output — if present.** A setpoint, command, duty-cycle value, signal, or changed output is identified under its direct pattern and related to the Work only when that relation obtains.
+* **Method — the way.** A.3 and A.3.1 govern the way of doing, such as a welding technique.
+* **MethodDescription — the description episteme.** An episteme is a `U.MethodDescription` only when A.3.2 finds one admitted Method as its exact `EntityOfConcern` and at least one substantive claim about that Method as a way of doing.
+* **Work — the occurrence.** A dated occurrence is `U.Work` only after admission under A.15 and A.15.1. Work is the occurrence itself, not a record of the occurrence; a record or report is a separate episteme or carrier.
+* **Control or transformation output — if present.** Identify the output under its direct pattern and relate it to the Work only when that relation obtains.
 
 F.11 allows the plain sentence “this MethodDescription describes the Method” as shorthand for that A.3.2 constitution and membership judgement. It does not add a binary description relation. Several epistemes may each have the same Method as their exact `EntityOfConcern`; one episteme may concern one admitted composite Method; and one document or publication may present several separately identified epistemes. One MethodDescription episteme cannot have several Methods as its `EntityOfConcern`.
 
-Work may enact a Method when the exact enactment relation and evidence are stated. A System may perform Work under an obtaining system-role assignment when A.15.1 and F.6 support that attribution. A claim that a System or Work used, followed, deviated from, conformed to, or relied on a particular MethodDescription edition is separate. Cite the pattern that defines or tests that claim; use A.10 or B.3 for evidence reliance, and return A.6.RCD `missing-governor` when no current pattern supplies the needed relation after its participants and sentence are explicit.
+Work may enact a Method when the exact enactment relation and evidence are stated. Recover the actual performer through A.13 and admit the Work independently under A.15.1; add F.6 only when precise attribution to the same obtaining assignment is needed. A claim that a System or Work used, followed, deviated from, conformed to, or relied on a particular MethodDescription edition is separate. Cite the pattern that defines or tests that claim; use A.10 or B.3 for evidence reliance, and return A.6.RCD `missing-governor` when no current pattern supplies the needed relation after its participants and sentence are explicit.
 

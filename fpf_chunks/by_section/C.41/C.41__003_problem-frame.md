@@ -6,16 +6,20 @@ section_id: "C.41:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__003_problem-frame.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:1 — Problem frame"
-line_start: 88471
-line_end: 88478
+line_start: 88401
+line_end: 88408
 dependencies:
   - "A.3.1"
   - "A.3.2"
+  - "C.41.OF"
+  - "C.41.QC"
+  - "C.41.SR"
   - "C.41.TF"
+  - "C.41.UA"
 keywords:
 ---
 

@@ -6,12 +6,12 @@ section_id: "F.9:25"
 section_title: "Bridge Card publication discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__027_bridge-card-publication-discipline.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:25 — Bridge Card publication discipline"
-line_start: 121106
-line_end: 121119
+line_start: 121029
+line_end: 121042
 dependencies:
   - "A.10"
   - "A.13"
@@ -63,7 +63,7 @@ A reusable description/Card states its mode and exact C.2.1 identity. An actual 
 
 #### F.9:25.2 - One occurrence, several claims and descriptions
 
-Several bounded-use claims, cards, reviews, or publications may concern the same actual Bridge. Their C.2.1 identities differ when their ClaimGraph, EntityOfConcern, or effective scheme differs; the Bridge identity does not. Prefer one primary current card only when it reduces navigation cost.
+Several bounded-use claims and description/Card epistemes may concern the same actual Bridge. Their C.2.1 identities differ when their ClaimGraph, EntityOfConcern, or effective scheme differs; the Bridge identity does not. Any review Work or publication occurrence is identified separately under its subject pattern. Prefer one primary current card only when it reduces navigation cost.
 
 #### F.9:25.3 - Revision without silent ontology change
 

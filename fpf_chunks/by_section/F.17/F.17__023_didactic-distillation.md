@@ -6,12 +6,12 @@ section_id: "F.17:17"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__023_didactic-distillation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:17 — Didactic distillation"
-line_start: 124527
-line_end: 124530
+line_start: 124449
+line_end: 124452
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -53,5 +53,5 @@ keywords:
 
 ### F.17:17 - Didactic distillation
 
-A row is a signpost, not the place it points to. Recover the value first, use the lightest sufficient name, and create a row only when a reader-facing durable route is needed. Keep card, cell, basis, Bridge, row, edition, publication, form, and carrier separate. The row may help a reader find the governed value; it cannot make that value, relation, use, authority, Work, or publication true.
+Recover the governed value and settle only the name needed for the use. If readers need a durable route, make a row that leads back to the naming decision, exact local sense and defining rules. Revisit the row and its dependent uses when those grounds change; establish publication availability separately.
 

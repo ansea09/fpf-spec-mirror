@@ -6,14 +6,15 @@ section_id: "B.5.WN:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__004_forces.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
   - "B.5.WN:3 — Forces"
-line_start: 47190
-line_end: 47200
+line_start: 47129
+line_end: 47139
 dependencies:
   - "A.15.10"
+  - "A.15.11"
   - "A.6.3.RT.OE"
   - "B.5.EA"
   - "B.5.QD"

@@ -6,12 +6,12 @@ section_id: "F.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__010_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:9 — Consequences"
-line_start: 118345
-line_end: 118365
+line_start: 118271
+line_end: 118291
 dependencies:
   - "A.10"
   - "A.7"
@@ -35,7 +35,7 @@ keywords:
 ### F.1:9 - Consequences
 
 
-An unfamiliar name or incomplete search view need no longer end finding silently. The practitioner can construct a route from the available source, words or references, repair a consequential blind spot and return material with an honest limit. That result may support a direct answer without requiring source selection.
+An unfamiliar name or incomplete search view need no longer end finding silently. The practitioner can construct a route from the available source, words or references, repair a consequential blind spot and return material with its limits. That result may support a direct answer without requiring source selection.
 
 The source cut becomes small enough to inspect, while a decisive rival, counterexample, or transfer limit cannot be discarded merely to satisfy a count. Later work can recover why each source was present, which edition was used, what the cut deliberately omitted, and what change reopens it.
 

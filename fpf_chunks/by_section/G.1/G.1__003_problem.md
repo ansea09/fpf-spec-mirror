@@ -6,12 +6,12 @@ section_id: "G.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__003_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:2 — Problem"
-line_start: 126612
-line_end: 126622
+line_start: 126513
+line_end: 126523
 dependencies:
   - "A.10"
   - "A.15.2"
@@ -54,7 +54,7 @@ keywords:
 
 ### G.1:2 - Problem
 
-Without a chassis, CG‑Frame authoring tends to fail in repeatable ways:
+Without the connections supplied by the chassis, a CG-Frame kit can have the following gaps:
 
 * **SoTA is not locally scoped**: inputs are “in the air”, not a reconstructible set.
 * **Generation is ad‑hoc**: variant candidates are emitted without a stable trace of why/when/how.

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.7.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
-line_start: 119860
-line_end: 120097
+line_start: 119785
+line_end: 120021
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -113,7 +113,6 @@ For a teaching contrast, the relation column may say **none asserted** and the c
 4. **Unknown stays unknown.** A blank or unresolved relation is not an invitation to infer similarity.
 5. **Loss stays visible.** If the limit needs more than one line, link to the underlying relation or evidence rather than compressing it away.
 
-The nickname **Giants’ table** recalls that comparison relies on prior source work. It signals humility toward those sources, not authority supplied by the table.
 
 ### F.7:7 - Conceptual construction
 
@@ -121,8 +120,8 @@ The nickname **Giants’ table** recalls that comparison relies on prior source 
 * **Bring exact local meanings.** Use F.0.1, F.2, F.3, and F.17 only as needed.
 * **Bring relations, do not manufacture them.** Cite the direct pattern and evidence for each relation that matters.
 * **State the receiving-use conclusion separately.** Say what the current comparison permits, with its basis and limits.
-* **Keep the row small.** Usually two to four entries are enough; add another only when it changes the answer.
-* **Use contrast honestly.** When no adequate relation is established, show the difference rather than forcing a unification.
+* **Keep the row focused.** Add an entry only when it changes the answer.
+* **Use contrast.** When no adequate relation is established, show the difference rather than forcing a unification.
 
 ### F.7:8 - Invariants
 
@@ -177,7 +176,7 @@ The nickname **Giants’ table** recalls that comparison relies on prior source 
 | **AP-4** | Temporal blur | Design descriptions and Work occurrences are treated as interchangeable. | MethodDescription and Work collapse. | Show the distinction and any actual relation through F.11, A.3, and A.15. |
 | **AP-5** | Loss denial | A relation is shown without its material limitation. | Readers over-transfer. | Add the loss and a concrete counterexample. |
 | **AP-6** | Row CL | A minimum or average CL is computed across heterogeneous relations. | One number collapses unrelated claims. | Keep CL only on the F.9 relation that declares it; assess the receiving use separately. |
-| **AP-7** | Overwide row | Many sources are added “for completeness”. | Differences hide and the entry cost rises. | Keep two to four answer-changing entries. |
+| **AP-7** | Overwide row | Many sources are added “for completeness”. | Differences hide and the entry cost rises. | Retain only answer-changing entries; split the display when needed without losing a required comparison. |
 | **AP-8** | Minted paraphrase | A cell replaces the source expression with a new umbrella term. | Provenance and locality vanish. | Cite the exact local claim; put any selected designation in its own column. |
 | **AP-9** | Duplicate rows by wording | The same argument is repeated under different labels. | Readers infer distinct concepts where none were established. | Keep one comparison and let F.5 manage aliases. |
 | **AP-10** | Automatic transitivity | A–B and B–C are used to assert A–C. | Relation composition may not hold or may add loss. | State only relations whose composition is justified by their direct patterns. |
@@ -204,7 +203,7 @@ Performed-Work attribution remains an A.15.1 and F.6 claim about actual Work and
 
 | Comparison or use | Exact entries | Relation | Boundary | Basis | Conclusion |
 | --- | --- | --- | --- | --- | --- |
-| Judge an observed service characteristic against a target | SOSA observation and its result; ISO quantity value if used; ITIL service target | Measurement, scale, and unit relations; F.9 only for a genuine local-meaning relation | Composite KPI, sampling, and unit limits | C.16, A.10, B.3, and F.12 | Compare only the named characteristic, population, and window with adequate evidence. |
+| Judge an observed service characteristic against a target | SOSA observation and its result; ISO quantity value if used; ITIL service target | Measurement, scale, and unit relations; F.9 only for a relation between source-local meanings | Composite KPI, sampling, and unit limits | C.16, A.10, B.3, and F.12 | Compare only the named characteristic, population, and window with adequate evidence. |
 
 #### F.7:11.4 - Class inclusion and FCA order
 
@@ -270,7 +269,7 @@ Show NIST RBAC **role** as a permission grouping and a local system-role-kind cl
 
 ### F.7:16 - Didactic distillation
 
-> “A Concept-Set table is a comparison surface. Put the exact source-local claims in it, then list only relations that have already been established, with direction and loss. State separately what one named comparison or use may conclude and why. A shared row, a shared label, or a minimum score proves nothing. If no relation is known, show a contrast. The table makes the reasoning easier to read; it never supplies the reasoning.”
+> “A Concept-Set table displays a comparison. Put exact source-local claims in it and show established relations with direction and loss. State separately what the named comparison or use may conclude and why. Row position, shared labels or a row-wide CL do not establish those relations or warrant their use. Where no relation is established, show a contrast. The layout helps readers inspect the supplied reasoning.”
 
 ### F.7:End
 

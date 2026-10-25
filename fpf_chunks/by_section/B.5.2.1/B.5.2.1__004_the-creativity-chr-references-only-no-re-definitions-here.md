@@ -6,12 +6,12 @@ section_id: "B.5.2.1:3"
 section_title: "The Creativity‑CHR (references only; no re‑definitions here)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__004_the-creativity-chr-references-only-no-re-definitions-here.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:3 — The Creativity‑CHR (references only; no re‑definitions here)"
-line_start: 50499
-line_end: 50512
+line_start: 50420
+line_end: 50437
 dependencies:
   - "A.17"
   - "A.18"
@@ -29,7 +29,11 @@ keywords:
 ### B.5.2.1:3 - The **Creativity‑CHR** (references only; no re‑definitions here)
 
 This binding **references** the context‑local **Creativity‑CHR** (see **C.17**) and **does not** restate measurement templates. The primary coordinates are:
-- **`Novelty@context`** (C.17 §4.1), • **`ΔDiversity_P`** (marginal; C.17 §5.1), and • **`Q` components** (per A.18).
+
+- **`Novelty@context`** (C.17 §4.1);
+- **`ΔDiversity_P`** (marginal; C.17 §5.1);
+- **`Q` components** (per A.18).
+
 Surprise is an optional coordinate; IlluminationSummary is a retained-set telemetry report under C.17. Use either in comparison only when the C.19 policy names that use and its constituted basis; promotion into dominance requires an explicit policy.
 **`Use‑Value`** (*alias:* `ValueGain`) is **informative for decision lenses** (Decsn‑CAL) and **MUST NOT** enter NQD dominance by default (see C.17 §4.2).
 

@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__006_archetypal-grounding.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:5 — Archetypal Grounding"
-line_start: 43200
-line_end: 43225
+line_start: 43174
+line_end: 43199
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"
@@ -32,7 +32,7 @@ A solo drill established that the dancer can make a large turn. In the partnered
 
 A different dancer has adequate strength and static axis control and knows the figure, but cannot maintain balance during its rotation. The missing performance lies between available muscular actions and the known figure. More strength practice or sequence recall need not repair this stipulated gap. Develop the rotational coordination in suitable practice, then return to the figure and vary the conditions that affect the combination. Keep already attained abilities; test the needed intermediate performance rather than assuming that mastery below and knowledge above fill it.
 
-The selected Work structure here connects the performed movement, coordinated figure and phrase through their constituent–whole relations. Playing the recording is external support under this boundary. Practising these movements may later contribute to cultural transmission, but one beat does not establish that a cultural variant persists in a population.
+The selected Work structure here connects the performed movement, coordinated figure and phrase through their constituent–whole relations. Playing the recording is external support under this boundary.
 
 #### B.1.5.EW:5.2 - An update within a running calculation
 

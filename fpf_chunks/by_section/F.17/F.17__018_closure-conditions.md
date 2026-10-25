@@ -6,12 +6,12 @@ section_id: "F.17:14"
 section_title: "Closure conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__018_closure-conditions.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:14 — Closure conditions"
-line_start: 124474
-line_end: 124490
+line_start: 124396
+line_end: 124412
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,12 +56,12 @@ keywords:
 One row is ready for its declared citation use only when:
 
 - the governed value, exact kind, the pattern that defines or constrains it, and the proposed use are explicit;
-- F.14 has rejected every lighter sufficient disposition before the current card, cell, and row;
+- F.14 has found the lighter dispositions insufficient for the declared use before the current card, cell, and row are constituted;
 - the exact F.18 NameCard and selected Tech/Plain designations are current for this public-row gate;
 - every `SchemeSenseCell` resolves to one by-value ReferenceScheme, local expression, and local-sense claim;
 - every relied-on local-sense basis is an actual two-participant `LocalSenseBasisRelation` and every description/source/publication object remains separate;
 - any cross-local use cites an obtaining F.9 Bridge for the exact endpoints, then a separate affirmative use claim and current A.10 or B.3 reliance;
-- the row has one decision, admitted and blocked citation uses, edition designator, and reopen condition;
+- the row has one decision, an admitted citation use, any grounded blocked-use claim, an edition designator, and a reopen condition;
 - any historical continuation is an exact C.2.1 `EpistemeEditionRelation` rather than shared id or title;
 - any availability is an exact E.24.PUB publication package rather than row, form, carrier, rendering, or upload alone; and
 - every ontology, obtaining, equivalence, authority, system-role-kind, assignment, relation-position, status, evidence, Work, and other subject-use claim uses the pattern that defines, constrains, or tests it.

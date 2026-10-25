@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:End"
 section_title: "A.3.1.CC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__015_a-3-1-cc-end.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:End — A.3.1.CC:End"
-line_start: 10759
-line_end: 10760
+line_start: 10745
+line_end: 10746
 dependencies:
   - "A.10"
   - "A.15.8.MS"

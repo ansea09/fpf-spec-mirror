@@ -6,12 +6,12 @@ section_id: "C.32.MWA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__003_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:2 — Problem"
-line_start: 78894
-line_end: 78905
+line_start: 78824
+line_end: 78835
 dependencies:
   - "A.15.1"
   - "A.22"

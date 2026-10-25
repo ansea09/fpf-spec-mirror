@@ -6,12 +6,12 @@ section_id: "F.15:9"
 section_title: "Static conformance rules for composed material"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__011_static-conformance-rules-for-composed-material.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:9 — Static conformance rules for composed material"
-line_start: 122924
-line_end: 122958
+line_start: 122847
+line_end: 122881
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -35,6 +35,7 @@ dependencies:
   - "F.14"
   - "F.17"
   - "F.18"
+  - "F.19"
   - "F.4"
   - "F.6"
   - "F.8"
@@ -63,7 +64,7 @@ An F.4 `SystemRoleKindDescription` is one C.2.1 episteme about one exact local s
 Every candidate or selected name cites the recovered governed value and the pattern containing its defining or constraining rule. Apply the F.14 and F.8 criteria to decide whether naming work continues; use F.18 to form the NameCard and choose designations; use F.17 to constitute an admitted row. In an F.15 check, verify those exact references; do not choose a name.
 
 **SCR-F15-S9 (F.17 row truth).**
-Each cited row is one exact F.17 `UnifiedTermRow` episteme that records one value, its direct kind, the locator where that kind or value is defined, its NameCard, selected designations, effective scheme, one or more exact `SchemeSenseCell` refs, admitted and blocked uses, and reopen condition. One cell is valid when the row use is not cross-local; a row-shaped local note or table position is not a row episteme.
+Each cited row is one exact F.17 `UnifiedTermRow` episteme that records one value, its direct kind, the locator where that kind or value is defined, its NameCard, selected designations, effective scheme, one or more exact `SchemeSenseCell` refs, admitted uses, any grounded blocked uses required by F.19, and reopen condition. One cell is valid when the row use is not cross-local; a row-shaped local note or table position is not a row episteme.
 
 **SCR-F15-S10 (Cell and neighbor purity).**
 Each row cell remains an exact SchemeSenseCell. NameCard, local-sense basis relation, Bridge, Bridge description/Card, selected Structure, source publication, row id, and carrier remain separate refs and substitute for no cell component.
@@ -77,7 +78,7 @@ A cited F.9 Bridge has two exact endpoint cells, one exact relation-semantic pro
 **SCR-F15-S13 (Cross-local locality).**
 Use F.9 only for different `<ReferenceScheme, LocalSenseClaim>` projections and one named current correspondence use. Same-projection expression reuse stays with designation; different projections do not themselves establish a relation; when no current correspondence use exists, add no Bridge or bounded-use claim.
 
-**SCR-F15-S14 (Status honesty).**
+**SCR-F15-S14 (Status basis).**
 A status-shaped item resolves through F.10 or another applicable status rule to the exact family and value definitions, target, scope, window, source condition, and intended use. Adjective, time, scale, phase, confidence, row presence, or display label creates no status family, value, assurance, gate decision, or evidence use.
 
 **SCR-F15-S15 (System-role-kind relation preservation).**

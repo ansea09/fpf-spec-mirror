@@ -6,12 +6,12 @@ section_id: "B.5.RC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__012_sota-echoing.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:11 — SoTA-Echoing"
-line_start: 48280
-line_end: 48287
+line_start: 48219
+line_end: 48226
 dependencies:
   - "A.6.3.RT"
   - "B.5"

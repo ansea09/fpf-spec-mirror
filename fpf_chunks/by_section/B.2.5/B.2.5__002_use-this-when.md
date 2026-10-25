@@ -6,12 +6,12 @@ section_id: "B.2.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__002_use-this-when.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:0 — Use This When"
-line_start: 45090
-line_end: 45119
+line_start: 45044
+line_end: 45070
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,19 +43,16 @@ keywords:
 
 ### B.2.5:0 - Use This When
 
-Use this pattern when a holon is supervised, regulated, steered, corrected, constrained, or coordinated through a two-sided feedback relation between one supervising acting system and one or more supervised holons. If the supervision is conditioned by a local system-role kind or assignment, recover that classification and exact assignment separately.
+Use this pattern to describe two-sided feedback between one supervising acting system and one or more supervised holons. If the supervision is conditioned by a local system-role kind or assignment, recover that classification and exact assignment separately.
 
 The first useful move is to recover the facts supporting the feedback claim:
 
-```text
-Which holons are supervised?
-Which admitted system supervises these holons for this feedback use, under which policy and during which time window, and which local supervisor system-role kind and exact assignment obtain when that classification matters?
-What observation, report, signal, publication, or source relation carries state?
-What influence, constraint, objective, mode, or work change returns?
-Which rule and case facts couple that return to the observation for each supervised holon?
-Which transformation, work, architecture, evidence, assurance, timing,
-or causal claim is being made in addition to the relation?
-```
+1. Name the supervised holons and the admitted system supervising them.
+2. State the feedback use, policy, and time window. Add a local supervisor system-role kind and assignment when that classification matters.
+3. Identify the observation, report, signal, publication, or source relation that conveys state.
+4. Identify the influence, constraint, objective, mode, or Work change returned to each holon.
+5. State the rule and case facts coupling each return to its observation.
+6. Separate any additional transformation, Work, architecture, evidence, assurance, timing, or causal claim.
 
 **What goes wrong if missed.** A control diagram, policy note, dashboard, publication channel, or supervisor word starts carrying part-whole, agency, safety, assurance, timing, gate, or architecture claims that belong elsewhere.
 

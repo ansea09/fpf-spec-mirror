@@ -6,12 +6,12 @@ section_id: "F.3:15"
 section_title: "Migration notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__016_migration-notes.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:15 — Migration notes"
-line_start: 118844
-line_end: 118852
+line_start: 118770
+line_end: 118778
 dependencies:
   - "A.11"
   - "A.7"
@@ -36,7 +36,7 @@ keywords:
 
 1. **Usage clarifies.** Merge only when the source-grounded distinction test fails.
 2. **Usage diverges.** Split and add a counterexample when argument patterns or entailments pull apart.
-3. **Edition changes.** Recover the changed basis and claim; do not automatically invent a new universal container.
+3. **Edition changes.** Recover the changed basis and claim.
 4. **Labels drift.** Repair Tech or Plain without silently changing the claim.
 5. **Dormant claim.** Omit it from the active comparison when it no longer changes the receiving answer; do not fold it into another claim without evidence.
 6. **Bridge temptation.** Record the question for F.9; do not answer it in F.3.

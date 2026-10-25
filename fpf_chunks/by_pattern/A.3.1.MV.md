@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.MV.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
-line_start: 10956
-line_end: 11162
+line_start: 10942
+line_end: 11148
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"
@@ -138,7 +138,7 @@ The sustainable-design study reports activity- and mindset-level observations fr
 
 #### A.3.1.MV:5.1 - EC-417 Candidate Lineage
 
-The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference169---choose-the-smallest-method-development-result-needed-for-release-ec-417) supplies the receiving problem, alternatives, calculations and the distinct limits used below.
+The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference169---choose-the-method-development-result-needed-for-release-ec-417) supplies the receiving problem, alternatives, calculations and the distinct limits used below.
 
 Maintain editions of `C-EC-Release-v2` as a candidate lineage until `A.3.1` admits a Method with recoverable reusable semantics. Keep the four admitted constituent Methods, their descriptions, representations, PLM and CI Systems, prompts, support arrangements, release Work, and local deviations separate.
 

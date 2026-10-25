@@ -6,12 +6,12 @@ section_id: "D.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:intro — Intro"
-line_start: 91175
-line_end: 91188
+line_start: 91102
+line_end: 91115
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,13 +40,13 @@ keywords:
 
 > **Type:** D-family ethical conflict-description pattern
 > **Status:** Stable
-> **Pattern role:** This compact pattern helps a practitioner make an interlevel ethical conflict inspectable and identify the result as an `InterlevelEthicalConflictDescription` episteme. Use D.4 for mediation and decision use, D.5 for bias, fairness, impact, and ethical assurance, C.28 for causal claims, and C.30.ILC for architecture residuals.
 
-**Use this when.** Use this pattern when ethical claims at different declared levels or scopes cannot all be met as stated, and their tension must be clear before mediation, decision, assurance, or architecture work. State an ethical concern as the claim that makes it current in this case.
+
+**Use this when.** Use this pattern when ethical claims at different declared levels or scopes cannot all be met as stated and their tension needs explaining. State each ethical concern as a claim about the case.
 
 **Not this pattern when.** If only the ethical value frame is missing, use `D.1`. If only entry recognition is needed, use `D.2`. If D.3 has already described the conflict and the current question is mediation or decision use, use `D.4`. If the question is bias, fairness, impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.
 
 **What goes wrong if missed.** The team debates values or decisions before it can say who or what is affected, under which value frame and scope, over what horizon, and why the live claims are in tension.
 
-**What this buys.** A reader can see each side, what it affects, and how the sides are in tension before deciding what to do. The same description can later support work under `D.4`, `D.5`, evidence, causal, assurance, or architecture patterns without turning its table or file into the conflict itself.
+**What this buys.** A reader can see each side, what it affects, and how the sides are in tension before deciding what to do.
 

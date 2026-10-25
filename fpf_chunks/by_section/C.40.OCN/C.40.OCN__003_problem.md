@@ -6,16 +6,23 @@ section_id: "C.40.OCN:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__003_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:2 — Problem"
-line_start: 85566
-line_end: 85569
+line_start: 85496
+line_end: 85499
 dependencies:
   - "A.15.9"
   - "C.11"
+  - "C.40.DC"
+  - "C.40.JF"
+  - "C.40.NU"
+  - "C.40.OC"
   - "C.40.OI"
+  - "C.40.OP"
+  - "C.40.PC"
+  - "C.40.RQ"
 keywords:
 ---
 

@@ -6,12 +6,12 @@ section_id: "C.39.MF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__006_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:4 — Solution"
-line_start: 83434
-line_end: 83464
+line_start: 83364
+line_end: 83394
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -25,7 +25,7 @@ keywords:
 
 C.39 supplies the receiving-result and missing-way inquiry. Use this narrower Method-focus construction when it is not yet clear whether changing a Method, a relation among Methods, or its support would answer that inquiry. An adequate focus supplied by C.39 or A.15.6 is an input, not work to repeat.
 
-Select the smallest focus class whose subject and status are supported and whose change could alter the receiving result. Keep the rejected focus options and one observable reopen condition in the result.
+Select a focus whose subject and status are supported. Compare what addressing each plausible focus could contribute to the receiving decision, together with all the work and resources it requires, using `C.11` or a domain decision Method. Retain the dependencies needed for that contribution, including relations among several Methods when they affect the result. Keep the rejected focus options and one observable reopen condition in the result.
 
 #### C.39.MF:4.1 - Pattern-Use Unfolding
 
@@ -50,5 +50,5 @@ Select the smallest focus class whose subject and status are supported and whose
 
 #### C.39.MF:4.3 - What Changes in Practice
 
-The project stops asking which named methodology should replace another. It first decides whether the live subject is one Method, a governed family or local grouping, relations among several Methods, or a non-Method condition. Downstream Work becomes smaller, and a useful plurality can remain plural without being packaged as a fictitious composite.
+The project stops asking which named methodology should replace another. It first decides whether the live subject is one Method, a governed family or local grouping, relations among several Methods, or a non-Method condition. Downstream Work can address the selected subject and the relations on which its result depends. A useful plurality can remain plural without being packaged as a fictitious composite.
 

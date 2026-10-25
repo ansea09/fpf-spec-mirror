@@ -6,12 +6,12 @@ section_id: "G.13:4"
 section_title: "Solution — Conceptual interop kit: registered sources, alignment cards, feature derivations, and RSCR‑wired telemetry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__005_solution-conceptual-interop-kit-registered-sources-alignment-cards-feature-derivations-and-rscr-wired-telemetry.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:4 — Solution — Conceptual interop kit: registered sources, alignment cards, feature derivations, and RSCR‑wired telemetry"
-line_start: 132228
-line_end: 132353
+line_start: 132117
+line_end: 132242
 dependencies:
   - "A.18"
   - "A.19"
@@ -95,7 +95,7 @@ All objects below are **conceptual**. Any concrete serialisation belongs to Anne
 
   **Intent.** Create a stable, citable “source card” so downstream artefacts can pin the *card edition* via `ExternalIndexRef.edition`, while the provider snapshot remains visible as `ExternalEdition` (do not echo provider snapshot ids into downstream cards; cite refs instead).
 
-* **`ClaimMapperCard@Context`** — a conceptual “mapping recipe” that yields FPF‑native artefacts from an external source.
+* **`ClaimMapperCard@Context`** — a declaration of the recipe whose application maps an external source into FPF-native inputs.
 
   **Shape (conceptual):**
   `⟨ MapperId, ExternalIndexId, MappingPolicyRef, Targets{ClaimSheet|BridgeHints|SoSFeatureSet|UTSProposals}, PlaneMapRef?, ScaleEmbeddingSpecRef?, EvidenceGraphId?, CSLCProofStubs? ⟩`
@@ -137,27 +137,27 @@ All objects below are **conceptual**. Any concrete serialisation belongs to Anne
 
   **Publication.** Published to UTS with twin labels as applicable.
 
-#### G.13:4.3 - Generation‑first interop flow (notation‑independent; governing-definition delegating)
+#### G.13:4.3 - Use external sources to construct the needed input
 
-1. **Register source editions.** Author `ExternalIndexCard@Context` for each external source/snapshot used for SoTA authoring, including `ExternalEdition` and the `entityOfConcern` plane anchor.
+1. **Register source editions.** Author `ExternalIndexCard@Context` for each external source snapshot mapped through this kit, including `ExternalEdition` and the `entityOfConcern` plane anchor.
 2. **Author mapping recipes.** Create `ClaimMapperCard@Context` describing which FPF artefacts are produced (ClaimSheets, BridgeHints, feature sets, UTS proposals), and which policies/specs constrain the mapping (policy refs + optional `PlaneMapRef` / `ScaleEmbeddingSpecRef`).
-3. **Produce FPF‑native inputs.** Use the alignment recipe outputs as inputs to:
+3. **Produce FPF-native inputs.** Route the mapping outputs to the receiving operation that needs them, for example:
 
    * `G.2` harvesting (ClaimSheets / operator & object inventories / candidate bridge hints),
    * `G.3` CHR typing (when numeric signals are formalized as CHR characteristics/scales/coordinates),
    * `G.4` acceptance/threshold policies (when a downstream decision requires explicit CAL policy rather than telemetry),
    * `G.12` dashboards (when derived SoS features support DHC readings; measurement claims consume C.16 results with the C.21 replay basis required by their use).
-4. **Feed selection/parity/shipping without smuggling semantics.**
+4. **Use the resulting inputs under the receiving rules.** Open only the applicable branch:
 
-   * `G.5` consumes the produced artefacts under its own governing spec refs and returns its declared outcome, including the applicable set-result kind, narrowed handoff, abstain, or escalation result (selector semantics remain governed by `G.5` + `G.Core`).
-   * `G.9` parity consumes pinned editions/windows and produces traceable parity reports.
-   * `G.10` shipping may include interop surfaces **as cited publications or records**; `G.13` does not govern shipping.
+   * When selection or a selector-facing declaration is needed, `G.5` consumes the applicable grounded inputs and returns its declared outcome: a set result, narrowed handoff, abstain or escalation.
+   * When a reproducible parity report is needed, `G.9` consumes the pinned editions and windows under its comparison plan.
+   * When shipping is needed, `G.10` may include interop surfaces as cited publications or records.
 5. **Emit telemetry and refresh causes.** On any change in external editions, alignment policies, plane maps, or embedding specs, emit:
 
    * a canonical `RSCRTriggerKindId` (per `G.Core`),
    * a scope (`PathSliceId[]` and/or `PatternScopeId`),
    * payload pins (editions/policies/UTS rows),
-     enabling `G.11` to plan slice‑scoped refresh.
+     enabling `G.11` to identify dependent uses and choose the further work their changed basis requires.
 
 #### G.13:4.4 - Interfaces — minimal I/O standard (conceptual; kit‑only)
 

@@ -6,12 +6,12 @@ section_id: "F.0.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2/F.0.2__003_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.0.2 — Semantic Synthesis across Source Ontologies"
   - "F.0.2:2 — Problem"
-line_start: 117376
-line_end: 117387
+line_start: 117302
+line_end: 117313
 dependencies:
   - "A.2.4"
   - "C.2.1"
@@ -42,5 +42,5 @@ Three failures follow:
 2. a source difference that changes action is hidden as terminology variation; or
 3. missing or weak source material is reported as if the disputed domain claim were false.
 
-Semantic synthesis must preserve source-local meanings while returning a positive next move or an honest bounded stop.
+Semantic synthesis must preserve source-local meanings while returning a positive next move or a bounded stop.
 

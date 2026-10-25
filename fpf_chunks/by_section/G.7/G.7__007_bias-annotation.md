@@ -6,12 +6,12 @@ section_id: "G.7:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__007_bias-annotation.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:6 — Bias‑Annotation"
-line_start: 129933
-line_end: 129937
+line_start: 129830
+line_end: 129833
 dependencies:
   - "A.21"
   - "B.3"
@@ -55,6 +55,5 @@ keywords:
 
 ### G.7:6 - Bias‑Annotation
 
-Bias lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**.
-Scope: Universal for the bridge calibration kit; any method‑family or discipline‑specific calibration technique is modularized as `GPatternExtension` and cited to its governing patterns.
+A favourable calibration summary can hide a missing distinction required by the receiving task. Keep the calibration basis and that task’s premises separate, as in §4.5’s paired transport and battery-health uses.
 

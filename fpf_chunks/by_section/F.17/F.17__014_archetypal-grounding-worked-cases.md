@@ -6,12 +6,12 @@ section_id: "F.17:12"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__014_archetypal-grounding-worked-cases.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:12 — Archetypal Grounding - worked cases"
-line_start: 123754
-line_end: 124439
+line_start: 123676
+line_end: 124361
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -57,7 +57,7 @@ keywords:
 
 One project has an exact local `DesignReviewerSystemRole` kind and another has an independently governed `ExternalAuditReviewerSystemRole` kind. Both local expressions say `reviewer`, but one classifies an admitted System that may perform design-review Work and the other classifies an admitted assurance System that may produce an audit report. Any actual assignment and Work are separately identified.
 
-The UTS row does not declare one universal reviewer kind. It creates two rows. Only when a named use really needs correspondence between their two exact sense cells may it cite an obtaining F.9 Bridge plus an affirmative C.2.1 claim that names direction, label rule, and tolerated loss. Each row cites the pattern that defines or constrains its local system-role kind, its `SystemRoleKindDescription` when current, and the `F.18` NameCardRef. Use A.10 or B.3 to state reliance on the use claim; no row or card creates an assignment or review Work.
+Create two rows, one for each independently governed local reviewer kind. If a named use needs correspondence between their two exact sense cells, cite an obtaining F.9 Bridge and an affirmative C.2.1 claim that names direction, label rule and tolerated loss. Each row cites the pattern that defines or constrains its local system-role kind, its `SystemRoleKindDescription` when current, and the `F.18` NameCardRef. Use A.10 for ordinary reliance on the use claim and B.3 when a named assurance claim is current; the row and card establish neither assignment nor review Work.
 
 #### F.17:12.2 - Status label looks like a system-role-kind name
 
@@ -87,7 +87,7 @@ A clinical publication proposes one row for `discharge` and `discharge-ready`. F
 
 #### F.17:12.4c - Demonstrative walkthrough and bounded mantra
 
-A.22.CGUS:4.4 permits a separate C.2.1 episteme that shows one traversal through an already qualified CGUS for a declared teaching or comparison use. It does not define a demonstrative-slice `U.Kind`, and the token `DemonstrativeUnfoldingSlice@Context` does not identify one exact slice. The current sources also do not constitute `FPFSeminarTeachingReferenceScheme-2026-07-11` as a second by-value reference scheme. F.17 therefore records no demonstrative-slice row, seminar SenseCell, Bridge, bounded-use claim, or current public-row result from those tokens.
+A.22.CGUS:4.4 permits a separate C.2.1 episteme that shows one traversal through an already qualified CGUS for a declared teaching or comparison use. It does not define a demonstrative-slice `U.Kind`, and the token `DemonstrativeUnfoldingSlice@Context` does not identify one exact slice. A proposed seminar reference-scheme name must also resolve to an effective by-value scheme. These labels alone therefore supply no basis for a demonstrative-slice row, seminar SenseCell, Bridge or bounded-use claim.
 
 Use *demonstrative walkthrough* as ordinary readable wording for a shown traversal when the sentence makes the exact slice clear. Keep *mantra* as bounded seminar or pattern-local recall wording when repetition and attention are the point. Neither expression creates a kind, episteme, scheme, cell, Bridge, row, or publication occurrence. `mantra move` remains E.10.MOVE Plain wording for an E.11.PUA practice-continuation description when such a description is actually shown; ordinary long and local mantras receive no F.17 row.
 
@@ -95,7 +95,7 @@ If a later use needs a durable public name, first recover one exact slice episte
 
 #### F.17:12.4d - Bounded model-use structure public row
 
-This row records and exposes the already selected A.1.1/F.18 naming decision for the dependent `U.Structure` specialization. It does not make A.1.1 Stable, create a structure individual, make any relation obtain, or make the row edition available.
+This row records the selected A.1.1/F.18 names for the dependent `U.Structure` specialization. A.1.1 separately governs the identity and membership of structure individuals and the obtaining of their relations; E.24.PUB governs availability of the row edition.
 
 ```text
 UTSRowId: UTS.BoundedModelUseStructure.FPFCore.2026-07-25
@@ -141,11 +141,11 @@ LocalSenseBasisRelationDescription.BoundedModelUseStructure.FPFCore.2026-07-25:
   editionId: 2026-07-25
 ```
 
-This row makes only `BoundedModelUseStructure` current for public reuse; that currentness does not make its row edition available without an exact E.24.PUB publication package. A.22's separate cross-structure NameCard remains local and pending: without an independently governed obtaining crossing and an exact positive membership basis, no public row is admitted or current for that label.
+This row records `BoundedModelUseStructure` for public reuse; availability of its selected edition requires the separate E.24.PUB publication relations. A.22 keeps its cross-structure NameCard local until an independently governed crossing obtains and the exact positive membership basis is available. That conditional label needs its own public-row decision when those conditions are met.
 
 #### F.17:12.4e - Three bounded-model-use direct relation-kind rows
 
-These rows record the three already governed A.1.1 relation-kind names used by E.24.UK. Each row makes one naming decision recoverable; it does not make that row edition available. A.1.1 defines the obtaining and reidentification tests for each such relation occurrence. The naming objects and the separately governed local-sense basis occurrences make none of the three A.1.1 relations obtain, and they create no assertion, temporal extent, Work, or structure.
+These rows record the three A.1.1 relation-kind names used by E.24.UK. Each row makes one naming decision recoverable. A.1.1 separately defines the obtaining and reidentification tests for relation occurrences, and E.24.PUB governs availability of a selected row edition.
 
 ```text
 UTSRowId: UTS.ModelApplicabilityRelation.FPFCore.2026-07-25
@@ -286,9 +286,9 @@ Do not create a public F.17 row for `ModelExpressionCoherencePredicate`: that la
 
 #### F.17:12.4f - Viewpoint, view, and conformance-relation public rows
 
-These three rows satisfy different receiver needs and therefore cannot be merged. E.24.UK has already admitted `U.Viewpoint` and `U.View` as same-individual dependent kinds under `U.Episteme`; E.17.0 defines both positive membership predicates and the direct `EpistemeViewpointConformanceRelation`. F.14 has been applied again: the existing Tech designations are retained, no synonym family is opened, and the public rows are justified by stable Core citation and exact typed-reference use. The rows admit no kind, make no relation obtain, and assert no E.24.PUB publication occurrence, form, carrier, or authority.
+Use three separate rows for the different receiver needs below. E.24.UK admits `U.Viewpoint` and `U.View` as same-individual dependent kinds under `U.Episteme`; E.17.0 defines their positive membership predicates and `EpistemeViewpointConformanceRelation`. Stable Core citation and typed-reference use justify the rows. Retain the existing Tech designations under F.14 rather than creating a synonym family; establish membership, relation obtaining and publication through their separate governing rules.
 
-The two existing dependent-kind designations use these progressive-minimum F.18 naming-settlement epistemes. They remain distinct from the E.24.UK admission results, the governed kinds, their members, every reference or designator, and the F.17 rows that cite them.
+The two existing dependent-kind designations use the following F.18 naming-settlement epistemes. They remain distinct from the E.24.UK admission results, the governed kinds, their members, every reference or designator, and the F.17 rows that cite them.
 
 ```text
 NameCard:
@@ -484,7 +484,7 @@ LocalSenseBasisRelationDescription.EpistemeViewpointConformanceRelation.FPFCore.
   editionId: 2026-08-02
 ```
 
-The three row epistemes, their `UTSRowId` designators, external references, selected designations, governed values, NameCards, cells, basis relations, admission-result refs, conformance RelationSignature, and every obtaining relation occurrence remain independently recoverable. If availability for an audience later becomes current, exact E.24.PUB expression, bearing, and publication occurrences must be added outside these rows; file inclusion or this displayed block is not publication.
+Each row retains its C.2.1 episteme identity and refers separately to the governed value, naming decision and local sense. The displayed fields preserve the distinct designators, references and relation occurrences. When readers need access to a selected row edition, recover the E.24.PUB expression, bearing and publication occurrences outside the row; displaying this block alone does not establish them.
 
 #### F.17:12.4g - Make a settled row available only through a separate publication operation
 
@@ -494,7 +494,7 @@ A NameCard, scheme-sense cell, basis relation, row reference, or E.24.PUB occurr
 
 #### F.17:12.4h - Role-Precision Core Rows
 
-These eight rows expose the accepted F.18 designation pairs for Core citation. Each row names one value already defined or constrained by its subject pattern and uses one `FPFCoreReferenceScheme` sense cell. Its currentness follows that value and subject-pattern rule, the stable E.10 token classification and allowed-use rule it consumes, its exact NameCard, sense cell, and cited use. A dated corpus audit or candidate-conformance result is not a row dependency. The rows create no assignment, declaration, judgment, description, relation occurrence, predicate truth, structure, Bridge, or publication occurrence.
+These eight rows expose the F.18 designation pairs for Core citation. Each names one value defined or constrained by its subject pattern and uses one `FPFCoreReferenceScheme` sense cell. Its currentness depends on that value and subject-pattern rule, the E.10 token classification and allowed-use rule it consumes, its exact NameCard, sense cell and cited use.
 
 ```text
 UTSRowId: UTS.U.SystemRoleAssignment.FPFCore.2026-08-09
@@ -685,7 +685,7 @@ SenseCell.SystemRoleAssignmentStateRelation.FPFCore.2026-08-09:
   ReferenceScheme: FPFCoreReferenceScheme
   LocalSenseId: SystemRoleAssignmentStateRelation-core
   LocalExpression: SystemRoleAssignmentStateRelation
-  LocalSenseClaim: an obtaining direct relation between one exact U.SystemRoleAssignment occurrence and one by-value SystemRoleAssignmentStatePredicate
+  LocalSenseClaim: the direct relation kind whose obtaining occurrences relate one exact U.SystemRoleAssignment occurrence to one by-value SystemRoleAssignmentStatePredicate
   NameCardRef: NC-SYSTEM-ROLE-ASSIGNMENT-STATE-RELATION
 
 SenseCell.SystemRoleAssignmentStatePredicate.FPFCore.2026-08-09:

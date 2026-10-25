@@ -6,12 +6,12 @@ section_id: "B.1.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__012_rationale.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:9 — Rationale"
-line_start: 42159
-line_end: 42164
+line_start: 42140
+line_end: 42143
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,7 +40,5 @@ keywords:
 
 ### B.1.2:9 - Rationale
 
-System aggregation is the place where holonic thinking is most tempting and most useful. It is also where false parthood is easy: anything connected, measured, represented, or controlled can be drawn inside a system box.
-
-B.1.2 preserves the engineering payoff by coordinating exact subject-pattern results for recognition, parthood, assembly, delimitation, crossings, function, bearer, characteristic, evidence, and description. It selects one ordinary A.22 structure only when their joint organization changes the named decision.
+An engineering decision may depend on several relations involving the same system. Drawing them inside one box can obscure which objects are parts and which participate through other relations. B.1.2 coordinates the independently grounded results and selects an A.22 structure only when their joint organization changes the decision.
 

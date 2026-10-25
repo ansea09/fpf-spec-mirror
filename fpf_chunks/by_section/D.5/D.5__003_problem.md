@@ -6,12 +6,12 @@ section_id: "D.5:1.0"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__003_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:1.0 — Problem"
-line_start: 91629
-line_end: 91632
+line_start: 91555
+line_end: 91558
 dependencies:
   - "A.10"
   - "B.3"
@@ -30,5 +30,5 @@ keywords:
 
 ### D.5:1.0 - Problem
 
-Bias, fairness, human-impact, causal-fairness, and ethical-assurance concerns can remain invisible after ordinary technical verification. The failure is to let the model, metric, policy, publication, method, work plan, system, or holon be treated as admissible for use while the audited EntityOfConcern, intended use, affected people or groups, evidence, mitigation, and residuals are not explicit.
+The failure is to treat technical verification as sufficient for a fairness or ethical-assurance conclusion without identifying the audited object, affected people and intended use. Examine the evidence and any mitigation or residual on which that conclusion relies.
 

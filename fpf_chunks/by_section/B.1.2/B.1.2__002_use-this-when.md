@@ -6,12 +6,12 @@ section_id: "B.1.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__002_use-this-when.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:0 — Use This When"
-line_start: 41972
-line_end: 41999
+line_start: 41953
+line_end: 41980
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,21 +40,21 @@ keywords:
 
 ### B.1.2:0 - Use This When
 
-Use this pattern when one exact entity recognized under the already admitted `U.System` kind, or one exact entity still being evaluated under A.1 for that kind, is being considered as a whole and an engineering decision depends on coordinating its independently governed part-whole, delimitation, crossing, function/bearer, and whole-characteristic claims.
+Use this pattern when an engineering decision about a system whole depends on several independently grounded claims: its part-whole relations, delimitation, boundary crossings, functions and their bearers, or whole-level characteristics. The entity may already be recognized under `U.System` or still be under evaluation through A.1.
 
 Typical moments:
 
-- a machine, plant, robot, vehicle, building asset, service organization, or operating unit is proposed as a whole assembled from exact constituents;
+- a machine, building asset, or organization is proposed as a whole assembled from identified constituents;
 - a system-level characteristic is to be rolled up from constituent characteristics;
 - a supply, signal, measurement, control, source, publication, evidence, or transformation relation is being mistaken for a part relation;
 - a functional element must be distinguished from and allocated to physical, organizational, software, or operational bearers;
 - a named decision needs one recoverable view of the system boundary, exact crossings, and compatibility choices without turning that view into the system.
 
-**First useful move.** Name the exact whole and its A.1 recognition status, the decision being made, and each load-bearing claim. For every claim, select its subject pattern and either recover the exact result or state the exact missing governor or information. Only then ask whether their joint organization itself changes the named decision.
+**First useful move.** Name the whole and its A.1 recognition status, the decision, and the claims it depends on. For each claim, use the applicable subject pattern to recover its result or identify the missing defining rule or information. Then ask whether considering the results' joint organization changes the decision.
 
-**What goes wrong if missed.** System aggregation becomes a drawing exercise. Ports, suppliers, documents, digital twins, dashboards, source records, and measuring instruments become components by placement. Functional elements become physical parts by label. External change or measurement is read as containment. One convenient record then appears to establish all those unrelated facts.
+**What goes wrong if missed.** A reader may infer components and containment from placement in a diagram, treat a functional element as a physical part, or mistake an external transformation or measurement relation for parthood. A coordination record then appears to establish facts that each need their own grounds.
 
-**What this buys.** B.1.2 coordinates one engineering aggregation decision while leaving system recognition, exact parthood, assembly, delimitation, crossing, function, bearer, characteristic, evidence, description, representation, and decision claims with their subject patterns.
+**What this buys.** The practitioner can combine the results needed for one engineering aggregation decision while retaining each claim's own grounds and use conditions.
 
 **Not this pattern when.**
 

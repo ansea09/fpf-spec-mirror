@@ -6,12 +6,12 @@ section_id: "B.2.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__004_problem.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
   - "B.2.2:2 — Problem"
-line_start: 44487
-line_end: 44496
+line_start: 44449
+line_end: 44458
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,10 +42,10 @@ keywords:
 
 ### B.2.2:2 - Problem
 
-Without this specialization:
+When system recognition and the claims about the new whole are conflated:
 
 1. **System identity stays on old parts.** The project keeps component assurance, component responsibilities, and component interfaces after the operating whole has changed.
-2. **System claims become rhetoric.** A group gets a collective name, but no delimitation, objective, obtaining coordination relation, or capability envelope is established for the exact new whole proposed for recognition under `U.System`.
+2. **System claims become rhetoric.** A collective name is used in place of System-recognition grounds or of the additional facts that the particular claim needs, such as an objective, coordination relation, or capability envelope.
 3. **Supervision is overread.** A coordination mechanism is treated as a containing whole, safety warrant, or complete system recognition without the corresponding direct facts.
 4. **Transformation is confused with containment.** One system changing another holon is treated as part-whole construction instead of transformation and work.
 5. **Architecture description replaces architecture.** Dashboards, diagrams, simulations, bills, and digital twins are treated as the operating system rather than descriptions of it.

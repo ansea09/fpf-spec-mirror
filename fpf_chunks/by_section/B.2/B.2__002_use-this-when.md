@@ -6,12 +6,12 @@ section_id: "B.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__002_use-this-when.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:0 — Use This When"
-line_start: 43891
-line_end: 43917
+line_start: 43863
+line_end: 43889
 dependencies:
   - "A.1"
   - "A.10"
@@ -59,7 +59,7 @@ Typical moments:
 
 **What goes wrong if missed.** Emergence becomes rhetoric, ordinary improvement is overclaimed as a new whole, or a genuinely new whole remains hidden under old part, evidence, assurance, architecture, or responsibility claims.
 
-**What this buys.** B.2 gives one accountable whole-reidentification move: recover the exact existing whole, the separately governed facts that challenge its identity, the exact candidate new whole, and decide whether the existing whole continues or the new whole must carry the claim before relying on evidence, a record, or a receiving-use decision.
+**What this buys.** The practitioner can decide whether the current claim concerns the existing whole or a new one, using the changed facts and each whole's identity grounds. The result guides subsequent records and reliance decisions.
 
 **Not this pattern when.**
 

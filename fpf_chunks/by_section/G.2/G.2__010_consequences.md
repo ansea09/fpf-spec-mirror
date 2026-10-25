@@ -6,12 +6,12 @@ section_id: "G.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__010_consequences.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "G.2 — Harvest and Synthesize SoTA for a CG-Frame"
   - "G.2:9 — Consequences"
-line_start: 127504
-line_end: 127511
+line_start: 127404
+line_end: 127411
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -53,7 +53,7 @@ keywords:
 ### G.2:9 - Consequences
 
 * **Positive:** Downstream CHR/CAL/dispatch work becomes faster and less ambiguous because the pack is citable and structured.
-* **Positive:** Plurality is preserved while still enabling disciplined comparability through explicit crossings.
+* **Positive:** Plural claims remain available, with the correspondences and comparison basis needed for any joint use.
 * **Positive:** Refresh becomes tractable because pins and typed causes exist.
 * **Negative:** Adds authoring overhead (ledger, flow record, micro‑examples, explicit pins).
 * **Negative:** Requires governance discipline to prevent the pack from becoming an uncontrolled “everything bucket”.

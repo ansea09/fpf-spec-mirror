@@ -6,12 +6,12 @@ section_id: "B.3.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__005_solution.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
   - "B.3.4:4 — Solution"
-line_start: 45777
-line_end: 45836
+line_start: 45726
+line_end: 45785
 dependencies:
   - "A.10"
   - "B.3"
@@ -58,7 +58,7 @@ Elapsed days can contribute to a justified priority rule or deterioration model.
 
 #### B.3.4:4.4 - Choose the feasible response to the actual change
 
-Determine what the receiving use can support now. The following are possible responses, not a compulsory completion triad:
+Determine which continuation the available support and applicable rules permit. Choose the response that addresses the actual change:
 
 | Response | When useful | Result for the receiving use |
 | --- | --- | --- |

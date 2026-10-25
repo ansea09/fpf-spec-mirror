@@ -6,12 +6,12 @@ section_id: "B.1.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:intro — Intro"
-line_start: 43645
-line_end: 43658
+line_start: 43619
+line_end: 43632
 dependencies:
   - "A.1"
   - "A.10"
@@ -67,5 +67,5 @@ keywords:
 
 **What goes wrong if missed.** Resource, effort, time, energy, or cost totals are read from methods, plans, dashboards, or phase labels without a dated work occurrence, resource ledger, and overlap policy.
 
-**What this buys.** A replayable chain that keeps the resource Characteristic, measurement work/result episteme, aggregation work/result, exact policy, work parthood/overlap, and provenance separately recoverable while preventing double counting.
+**What this buys.** The practitioner can reconstruct a resource total from its measurements, Work set, overlap facts, policy, and provenance, and check whether shared use has been counted more than once.
 

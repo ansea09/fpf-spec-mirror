@@ -6,12 +6,12 @@ section_id: "F.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__001_intro.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:intro — Intro"
-line_start: 123481
-line_end: 123496
+line_start: 123403
+line_end: 123418
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -55,11 +55,11 @@ keywords:
 > **Type:** Lexical row pattern (F)
 > **Status:** Stable
 
-**Use this when.** Use F.17 only when one already-governed value already has a selected durable naming settlement and public, Core-facing, durable, or cross-local reuse now needs one reader-facing term row.
+**Use this when.** Use F.17 when an independently governed value has a settled durable name and public, Core-facing, durable, or cross-local reuse needs a reader-facing term row.
 
 **First useful move.** Point to the exact governed value, its kind, the pattern that defines or constrains it, one proposed row use, and the selected Tech and Plain designations. Then apply F.14 at the row gate. If no durable row is needed, reuse the designation, alias, local expression, or name already supplied for that value and stop.
 
-**Primary working object.** One C.2.1 `UnifiedTermRow` episteme whose exact EntityOfConcern is the independently governed value. Its claim graph cites the separate F.18 naming-settlement episteme and selected designation expressions. The value, its kind, the pattern that defines or constrains it, the designations, effective `U.ReferenceScheme`, `SchemeSenseCell`, NameCard, basis relation, F.9 Bridge, row episteme, edition relation, publication occurrence, publication form, and carrier remain different objects.
+**Primary working object.** One C.2.1 `UnifiedTermRow` episteme whose exact EntityOfConcern is the independently governed value. Its claim graph cites the separate F.18 naming-settlement episteme and selected designation expressions. Section 5.1 explains the identities and relations needed to recover this decision and distinguish the row from its publication.
 
 **What goes wrong if missed.** A table entry becomes an ontology claim; a stable identifier looks like identity evidence; one source title or file stands in for a local sense; a NameCard automatically creates a cell and row; or a row is mistaken for the publication occurrence that makes it available.
 

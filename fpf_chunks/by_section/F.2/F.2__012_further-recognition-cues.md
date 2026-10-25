@@ -6,12 +6,12 @@ section_id: "F.2:11"
 section_title: "Further recognition cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__012_further-recognition-cues.md"
-commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
+commit_sha: "64ebce216e1be91beb67120d83f4308a42795eaf"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:11 — Further recognition cues"
-line_start: 118534
-line_end: 118558
+line_start: 118460
+line_end: 118484
 dependencies:
   - "A.11"
   - "A.7"
@@ -45,7 +45,7 @@ Use the completed PROV-O note as one source-backed input. The BPMN, SOSA/SSN and
 * **IEC 61131-3, cited runtime passage and scheme** — `task`; Plain **scheduled program execution**; claim as above.
 * **ITIL 4 (2020), incident-management use** — `incident`; Plain **reported service disruption**; claim: “An unplanned interruption or reduction in service quality.”
 
-This prevents a plant fault from becoming an ITIL incident merely because a writer wants one word for both.
+Use the source's service-disruption criteria to decide whether a reported plant fault also qualifies as an ITIL incident.
 
 #### F.2:11.3 - Kind, method, and knowledge sources
 
