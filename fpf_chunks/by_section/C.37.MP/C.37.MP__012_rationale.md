@@ -6,7 +6,7 @@ section_id: "C.37.MP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__012_rationale.md"
-commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
+commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:10 — Rationale"

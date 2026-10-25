@@ -6,7 +6,7 @@ section_id: "A.3.3:End"
 section_title: "A.3.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__014_a-3-3-end.md"
-commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
+commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:End — A.3.3:End"

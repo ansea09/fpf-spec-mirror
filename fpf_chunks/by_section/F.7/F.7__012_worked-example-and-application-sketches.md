@@ -6,7 +6,7 @@ section_id: "F.7:11"
 section_title: "Worked example and application sketches"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__012_worked-example-and-application-sketches.md"
-commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
+commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:11 — Worked example and application sketches"

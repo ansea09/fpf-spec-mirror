@@ -6,7 +6,7 @@ section_id: "B.5.2:15"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__016_worked-examples.md"
-commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
+commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:15 — Worked Examples"

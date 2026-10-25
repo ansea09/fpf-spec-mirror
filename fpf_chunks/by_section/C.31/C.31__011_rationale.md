@@ -6,7 +6,7 @@ section_id: "C.31:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__011_rationale.md"
-commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
+commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:10 — Rationale"

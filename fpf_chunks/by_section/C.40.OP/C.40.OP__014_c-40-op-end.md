@@ -6,7 +6,7 @@ section_id: "C.40.OP:End"
 section_title: "C.40.OP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__014_c-40-op-end.md"
-commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
+commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:End — C.40.OP:End"

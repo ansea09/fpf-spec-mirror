@@ -6,7 +6,7 @@ section_id: "A.15.8.MS:5"
 section_title: "Worked Build and Test Replays"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__007_worked-build-and-test-replays.md"
-commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
+commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:5 — Worked Build and Test Replays"

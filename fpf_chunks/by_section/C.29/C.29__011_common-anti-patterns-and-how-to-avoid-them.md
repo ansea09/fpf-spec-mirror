@@ -6,7 +6,7 @@ section_id: "C.29:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
+commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:10 — Common Anti-Patterns and How to Avoid Them"

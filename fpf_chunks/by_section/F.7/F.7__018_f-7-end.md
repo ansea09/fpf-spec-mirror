@@ -6,7 +6,7 @@ section_id: "F.7:End"
 section_title: "F.7:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__018_f-7-end.md"
-commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
+commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:End — F.7:End"

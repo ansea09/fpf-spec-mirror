@@ -6,7 +6,7 @@ section_id: "C.39.RQ:5"
 section_title: "Archetypal Grounding — EC-417 Situational Criteria"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__007_archetypal-grounding-ec-417-situational-criteria.md"
-commit_sha: "996ae39ce00b4a9c9b59b48a4f1446b2175dcffb"
+commit_sha: "fcd12ecc699c236021602dde85b5daf345e17c0b"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:5 — Archetypal Grounding — EC-417 Situational Criteria"
