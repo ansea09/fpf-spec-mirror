@@ -6,12 +6,12 @@ section_id: "C.30.ASV:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:3 — Forces"
-line_start: 73361
-line_end: 73371
+line_start: 72311
+line_end: 72321
 dependencies:
   - "A.1"
   - "A.10"
@@ -69,8 +69,8 @@ keywords:
 | --- | --- |
 | View usefulness vs view overread | Views make architecture discussable, but a useful description episteme, diagram, or publication form can be mistaken for architecture, selected structure, view membership, proof, or decision. |
 | Structure kind vs viewpoint | A structure kind classifies selected structure; one exact viewpoint episteme states the rules under which the same candidate episteme is a view. They often appear together but are not the same object. |
-| TEVB template reuse vs architecture-specific structure | E.17.2 distinguishes four useful authoring positions but supplies no current family or viewpoint references. Only a materialized project-local declaration supplies exact reusable `U.ViewpointRef` values; architecture-specific structure kinds are defined beside them and alter neither the resolved P editions nor declaration membership. |
+| TEVB template reuse vs architecture-specific structure | E.17.2 distinguishes four useful authoring positions but supplies no current family or viewpoint references. Only a materialized project-local family declaration supplies that family's exact reusable `U.ViewpointRef` members; architecture-specific structure kinds are defined beside them and alter neither the resolved P editions nor declaration membership. |
 | Small triage vs full view record | Many cases need only the structure kind under consideration and next architecture use; the full description-plus-conformance record is justified only when it changes action. |
 | Multi-view correspondence vs single-view shortcut | Architecture work often needs relations among functional, flow, control, module, information, work, evidence, scale, and placement views; one favored diagram cannot carry all claims. |
-| Hidden structure vs practical compression | A useful view omits something; omitted structure becomes a problem only when subsequent action relies on it. |
+| Hidden structure vs practical compression | A useful view can omit structure; an omission becomes a problem when the intended use needs the omitted distinction. |
 

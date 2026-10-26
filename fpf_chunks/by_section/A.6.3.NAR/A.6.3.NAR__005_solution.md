@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:4 — Solution"
-line_start: 19547
-line_end: 19720
+line_start: 19199
+line_end: 19372
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -51,7 +51,7 @@ Produce the ordinary useful result first:
 4. Choose an ordering and connective account: event, causal, discovery, didactic, tension, traversal, or another explicit rule.
 5. Draft the smallest narrative that lets the reader follow that path. For technical prose, use F.19 for precise plain-language repair.
 6. Compare the draft back to the source material. Record what it preserves and foregrounds, what it omits or weakens, and which connective or interpretive statements are not source claims.
-7. State the admissible narrative use and the return condition. Name when exact source material must be restored, or state the stronger claim-specific question and apply the pattern whose Solution answers it. Use F.19:4's plausible-reader test for any optional non-admissible use.
+7. State the supported narrative use. When omitted structure or a changed question requires return, identify the source to restore or the stronger claim-specific question and its governing pattern. Any excluded use follows F.19:4's full guard test.
 
 Use this compact note for ordinary work. Fill only entries that affect use or block a likely overread:
 
@@ -68,7 +68,7 @@ Use this compact note for ordinary work. Fill only entries that affect use or bl
 
 #### A.6.3.NAR:4.0.1 - Exact construction branch
 
-Open this branch only when the receiving use makes exact identity material: the narrative must travel independently or be cited; an exact interpretation is disputed; a material cross-scheme reuse is consequential; generated-output admission requires claim-level identity; consequential reliance is current; or another named public, evidence, or assurance receiver explicitly requires exact identity. Public distribution by itself is not such a requirement. Apply E.24.PUB separately when an actual publication occurrence, form, carrier, audience, or bounded publication use is current.
+Open this branch when the identified receiving use depends on exact claim identity and preservation, under §1. Citation, distribution or generated status is a cue to examine that need, not a requirement by itself. Apply E.24.PUB separately when an actual publication occurrence, form, carrier, audience or bounded publication use matters.
 
 Then establish exact A.6.3 construction `n : X -> Y`:
 
@@ -159,7 +159,7 @@ This subsection applies only after the exact branch is open. Exact NAR is same-E
 
 Use the **direct-source-claims** profile when `n` constructs `Y` from claims in `X` and fixed configuration. A situation, event stream, domain model, proof-dependency field, evidence set, fictional canon, or source pack can contribute only through claims in `X` or through named additional source epistemes and exact relation occurrences. The raw object, graph, set, or pack is not the source endpoint.
 
-Use the **correspondence-mediated** profile when `n` depends on exact relations among `X`, additional source epistemes, or their designated structures. Recover each correspondence, realization, trace, equivalence, or consistency relation by applying the pattern that defines its predicate, and cite the assertion episteme when the construction uses a claim about that occurrence. Use a C.34 record only when C.34's correspondence test fits the current use; it is not a generic cure for dissimilar endpoints.
+Use the **correspondence-mediated** profile when `n` depends on relations among `X`, additional source epistemes or their designated structures. Recover each needed relation under its defining predicate and identify the source assertion used by the construction. That assertion may remain within a broader source episteme; a separate relation-description episteme is needed only when the use depends on it. C.34 applies only when its correspondence test fits the architecture use.
 
 ##### A.6.3.NAR:4.2.1 - Direct and architecture-mediated routes
 
@@ -167,7 +167,7 @@ In the direct route, the exact source episteme states or designates the source s
 
 In the architecture-mediated route, one exact architecture-description, architecture-view, decision, candidate-structure, or telemetry episteme participates as `X` or as an explicitly named additional source episteme. Independently recover any selected A.22 structures, world-side holons, decisions, relations, or telemetry occurrences that its claims designate. The return chain is `Y` to exact source episteme(s), then through their exact designation relations to exact structures or occurrences when those are current. Keep every selection, coarsening, abstraction, omission, ordering, and correspondence explicit by using the applicable `C.32.*`, C.33, C.34, architecture-description, or decision test. NAR defines only `n`'s source-to-narrative construction, preservation, loss, and return boundary.
 
-In either route, the temporal posture matters. A historical reconstruction, live commentary, prospective project narrative, and fictional continuation can all be narrative epistemes, but they have different source claims, evidence and uncertainty boundaries, order, and return conditions. A system may perform narrative-construction Work; recover its identity only when actual production history matters.
+In either route, identify temporal posture when it affects interpretation. A historical reconstruction, live commentary, prospective project narrative and fictional continuation have different source claims, uncertainty and ordering conditions. A particular dated narrative-construction Work claim remains separately governed by A.13 and A.15.1, with F.6 only for precise assignment-bound attribution.
 
 #### A.6.3.NAR:4.3 - Ordering rationale
 

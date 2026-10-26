@@ -6,12 +6,12 @@ section_id: "A.3.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__004_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:2 — Problem"
-line_start: 13016
-line_end: 13029
+line_start: 12876
+line_end: 12889
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,11 +54,11 @@ keywords:
 
 ### A.3.4:2 - Problem
 
-Without `U.Transformation`, projects repeatedly make category errors:
+The following substitutions leave actual-change identity unestablished:
 
 1. **Method as transformation.** A way of doing is treated as if the change already happened or must happen.
-2. **Mechanism as transformation.** A law-governed operation algebra is mistaken for the actual or intended change, although it only states how a transformation may proceed.
-3. **Work as transformation law.** A dated work occurrence or trace is treated as if it defined the reusable transformation.
+2. **Mechanism as transformation.** A law-governed operation algebra states how change may proceed; it does not establish the actual occurrence.
+3. **Work as transformation law.** A dated work occurrence or trace is treated as if it defined the law governing a reusable kind of change.
 4. **Dynamics as permission.** A state-space or transition-law episteme is used as if it authorized action, gate passage, or result acceptance.
 5. **Temporal claim as transformation.** A claim about rate, rhythm, recovery, delay, effort, inertia, freshness, or validity window is used as if it specified the whole change and its conditions.
 6. **Formal construction as project-world work.** A morphism, proof construction, or formal transformation inside a mathematical substrate is treated as a physical or organizational change without a realization or work relation.

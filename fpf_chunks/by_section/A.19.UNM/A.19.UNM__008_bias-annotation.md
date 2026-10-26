@@ -6,12 +6,12 @@ section_id: "A.19.UNM:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:6 — Bias‑Annotation"
-line_start: 38211
-line_end: 38220
+line_start: 37455
+line_end: 37464
 dependencies:
 keywords:
   - "CV→NCV"
@@ -28,7 +28,7 @@ keywords:
 ### A.19.UNM:6 - Bias‑Annotation
 
 Common cognitive traps around normalization:
-- **Normalization-as-truth bias:** treating NCVs as “objective” instead of “objective under declared invariants and validity window”.
+- **Normalization-as-truth bias:** treating an NCV as a justified answer before checking its input basis, transformation and receiving-use conditions.
 - **Hidden-steps bias:** assuming normalization “happened somewhere” and skipping explicit routing/pins.
 - **Unit-blindness:** treating numeric sameness as semantic sameness.
 - **Proxy legitimacy:** assuming a popular method is legitimate without evidence pins or validity region.

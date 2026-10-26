@@ -6,12 +6,12 @@ section_id: "C.32.P2S:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:10 — Rationale"
-line_start: 77319
-line_end: 77326
+line_start: 76239
+line_end: 76244
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -49,9 +49,7 @@ keywords:
 
 ### C.32.P2S:10 - Rationale
 
-C.32.P2S belongs under C.32 because its central architecturing concern is architecture synthesis: recovering problem pressure and structural uncertainty, generating candidate selected-structure changes, preserving alternatives, making decision-ready content, and returning actual-structure feedback to the next synthesis question. During realization, identify and test every actual bounded change under `A.3.4`.
+The connected architecturing work includes recovering problem pressure and structural uncertainty, generating candidate selected-structure changes, preserving alternatives, making decision-ready content, and returning actual-structure feedback to the next synthesis question. During realization, identify and test every actual bounded change under `A.3.4`.
 
-It cannot be only a C.22 pattern because a problem card does not carry architecture synthesis, decision, realization, and feedback. It cannot be only a C.30 pattern because grounded architecture and structural-view adequacy do not supply candidate construction or downstream-work instructions. It cannot be only a C.32 pattern because the palette is only one stage of the larger architecturing flow. It cannot be only C.32.PAD or C.32.ADR because decisions and records do not create the candidate space and do not realize structures. It cannot be only A.15 or E.18.1 because method and work carry-through and P2W do not supply architecture candidate synthesis or selected-structure decision content.
-
-The P2S structural-information slots are necessary because otherwise P2S cannot explain what changes. Architecturing refines uncertainty about future structures into candidate, selected, expected, and actual structures. Descriptions and records capture only part of that content. The practitioner records which structural content is captured by descriptions, decisions, method handoffs, references to Work occurrences, separate work-record epistemes, evals, and measurements; which structure remains latent, hidden, or lost; and which stronger-structure inspection return condition returns the work to stronger structure inspection, description or view loss repair, decision repair, or a `C.29` lens use such as epiplexity, DSM, graph, coarse-graining, equivalence, or morphism.
+The next action depends on what is known about the structure and what the receiving use still needs. Candidate construction makes proposed structures more specific; a decision selects what to pursue, and domain work can make structures obtain. Descriptions and records retain only part of that content. Explain which distinctions the receiving description, decision, Method or Work needs and whether its available information preserves them. If an omitted distinction can change that use, recover it through stronger inspection, description or view repair, decision repair, or a C.29 mathematical lens as appropriate. An adequate account can be retained without another inspection.
 

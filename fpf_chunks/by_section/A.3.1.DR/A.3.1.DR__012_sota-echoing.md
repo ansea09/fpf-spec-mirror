@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:11 — SoTA-Echoing"
-line_start: 10151
-line_end: 10161
+line_start: 10070
+line_end: 10079
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"
@@ -26,8 +26,7 @@ keywords:
 | --- | --- | --- |
 | Daalhuizen and Cash, [Method Content Theory](https://doi.org/10.1016/j.destud.2021.101018) | Goal, procedure, rationale, framing, and mindset as questions that prevent procedure-only recovery. | Static content variables and initial study population do not define FPF kinds, Method parts, or cross-domain effectiveness. |
 | Gericke, Eckert, and Stacey, [Elements of a design method](https://doi.org/10.1017/dsj.2022.23) | Core idea, representation, procedure, intended use, tool, ecosystem, and adaptation prompts. | Source elements remain questions and source claims, not a universal dossier ontology. |
-| Stacey et al., [Methods as a form of engineering knowledge](https://doi.org/10.1017/dsj.2025.9) | Current comparison of engineering-Method knowledge and the placement of representations, framing, and rationale. | Conceptual comparison supplies no project Method identity or package parthood. |
-| Current FPF `A.3.1`, `A.3.2`, `B.1.5`, and `F.18` | Method identity, MethodDescription membership, composition law, and name recovery. | The DPF adds the decision-bounded dossier and dependency-slice Method. |
+| Stacey et al., [Methods as a form of engineering knowledge](https://doi.org/10.1017/dsj.2025.9) | Comparison of engineering-Method knowledge and the placement of representations, framing, and rationale. | Conceptual comparison supplies no project Method identity or package parthood. |
 
-Reopen when a current source or package case exposes a decision-bearing contribution that cannot retain its kind, provenance, role, and relation in the open dossier; when a source profile hides material receiving conditions; or when the ordinary one-package result acquires burden that its use does not need.
+Revisit the recovered dossier when a source or package case exposes a decision-bearing contribution whose kind, provenance, role or relation remains unclear; when a selected recovery profile omitted a material receiving condition; or when the dossier imposes work that its receiving use does not need.
 

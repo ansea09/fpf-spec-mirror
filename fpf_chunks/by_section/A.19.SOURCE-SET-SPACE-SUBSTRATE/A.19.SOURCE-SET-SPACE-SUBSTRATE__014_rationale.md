@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__014_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:10 — Rationale"
-line_start: 36331
-line_end: 36344
+line_start: 35642
+line_end: 35653
 dependencies:
   - "A.0"
   - "A.17"
@@ -37,8 +37,6 @@ keywords:
 ---
 
 ### A.19.SOURCE-SET-SPACE-SUBSTRATE:10 - Rationale
-
-The pattern chooses a narrow but sturdy center of gravity.
 
 `A.19` already declares `CharacteristicSpace`. The missing load is not another free-floating space kind. It is the ref-position and relation stack that tells the reader:
 

@@ -6,17 +6,18 @@ section_id: "C.2.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:4 — Solution"
-line_start: 54174
-line_end: 54215
+line_start: 53327
+line_end: 53361
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.18"
+  - "A.19"
   - "B.4.1"
   - "B.5.2.0"
   - "C.2.2a"
@@ -40,11 +41,11 @@ keywords:
 - `U.Sparsity`
 - `U.Symbolicity`
 
-Authors may publish a local alias such as `EncodingBasis`, but it shall dock back to the underlying factor bundle instead of replacing it.
+A local alias such as `EncodingBasis` shall identify the factors and readings it summarizes.
 
 #### C.2.7:4.0a - Kind and factor-bundle boundary
 
-`U.LanguageStateRepresentationFactorBundle` is a dependent durable factor-bundle value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the bundle of representation factors used for governed episteme publication positions. Individual factors, aliases, dashboards, model probes, or publication forms do not become separate U-kinds unless another governing pattern admits them.
+`U.LanguageStateRepresentationFactorBundle` groups readings of distinct representation Characteristics. Each factor needs its own meaning and Scale, and the declared chart binds these under A.18/A.19. The bundle describes the representation identified in the position claim; a factor reading is distinct from that representation or its publication form.
 
 #### C.2.7:4.1 - Minimal factor readings
 | Factor | Question it answers | Typical values |
@@ -63,14 +64,7 @@ When the list travels separately, supply the unit order and decoding rule needed
 
 #### C.2.7:4.2 - Non-collapse rules
 
-`LanguageStateRepresentationFactorBundle` is not:
-
-- `LanguageStateAnchoringMode`;
-- `ArticulationExplicitness`;
-- `LanguageStateClosureDegree`;
-- evidence, source-currentness, publication authority, work permission, or gate readiness.
-
-A representation may be distributed yet have high trace anchoring; symbolic yet low-articulation; sparse yet low-closure. Those combinations shall remain visible. A model-state, embedding, vector-store relation, or operator-facing publication face may fill one or more representation factors, but the factor bundle does not decide the episteme, carrier, evidence, bridge, work, or gate relation by itself.
+Representation organization, anchoring, articulation and closure answer different questions. A distributed code can be trace-anchored; a symbolic note can leave its meaning unclear; a sparse representation can express a claim that remains open. Assess each relevant facet on its own grounds. The representation factors alone establish neither evidence for the claim nor permission to act on it.
 
 #### C.2.7:4.3 - Extension rule
 Authors may add extra local representation factors only if the extension is published as a factor addition rather than as a new master factor that erases the core factor bundle.

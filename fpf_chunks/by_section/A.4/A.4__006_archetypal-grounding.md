@@ -6,12 +6,12 @@ section_id: "A.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:5 — Archetypal Grounding"
-line_start: 13644
-line_end: 13667
+line_start: 13463
+line_end: 13486
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -47,7 +47,7 @@ Selecting D2 changes the comparison basis; it does not physically change Pump37.
 | Working situation | Correct exit |
 |---|---|
 | A pump circulates coolant while its CAD account is edited. | Use the continuing pump and the selected CAD account claim in the comparison. Operating Work and editing Work concern different subjects; the edit establishes no physical pump change. |
-| An author cites an unchanged theorem. | Use the direct episteme-use rule. The theorem executes no OperationalMethod; any reasoning Work has its own performer and Method. |
+| An author cites an unchanged theorem. | Use the direct episteme-use rule for the citation; the cited theorem remains unchanged. |
 | An unused pump weathers. | A.3.4 can qualify the actual material change without invented Work. If later design conformance matters, compare the resulting condition with the selected criterion. |
 | A sensor measurement produces a new observation record. | Use the observation as warranted input to the comparison. Measurement and result do not by themselves establish target change. |
 | A pump's internal control System performs maintenance. | A.12 distinguishes acting and changed participants. The System's identity rule can preserve the same pump; compare its relevant resulting facts if the intended use requires it. |

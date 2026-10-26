@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:3 — Forces"
-line_start: 19537
-line_end: 19546
+line_start: 19189
+line_end: 19198
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -49,5 +49,5 @@ keywords:
 | Engagement vs truth boundary | Tension, viewpoint, protagonist, and pacing can help attention, but they do not widen truth, evidence, authority, ethical permission, or admissible downstream use. |
 | Compression vs recoverability | A narrative foregrounds some structure and leaves other structure behind. The useful loss must be visible. |
 | Event comprehension vs non-event structure | Some selected source structures involve events and actions; others involve dependencies, constraints, alternatives, or architectures. The pattern must support both without forcing a fiction model. |
-| Domain richness vs Core economy | Narratology, storycraft, cognitive narrative research, science communication, NLG, and teaching practice are rich, but most of their vocabulary belongs in domain narrative source packs or local and domain frameworks rather than FPF Core. |
+| Domain richness vs a usable common method | Narrative domains use different ordering, viewpoint and evaluation conventions. Use the relevant domain distinctions while keeping the source-to-sequence comparison explicit. |
 

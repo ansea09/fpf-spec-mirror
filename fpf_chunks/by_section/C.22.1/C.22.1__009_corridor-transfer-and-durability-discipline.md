@@ -6,12 +6,12 @@ section_id: "C.22.1:8"
 section_title: "Corridor, transfer, and durability discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__009_corridor-transfer-and-durability-discipline.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:8 — Corridor, transfer, and durability discipline"
-line_start: 63251
-line_end: 63262
+line_start: 62228
+line_end: 62239
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -20,8 +20,6 @@ dependencies:
   - "C.24"
   - "E.10"
   - "E.16"
-  - "E.19"
-  - "E.22"
   - "E.23"
   - "G.11"
   - "G.5"
@@ -42,7 +40,7 @@ keywords:
 ### C.22.1:8 - Corridor, transfer, and durability discipline
 
 - If the adaptation claim depends on entering a new solution corridor, publish the `corridorEntryBaseline` first: the prior repertoire, baseline set, or comparison family relative to which corridor entry is being claimed.
-- Then publish the `corridorEntryEvidence` that marks real entry into that corridor rather than exotic accident, for example a reproducible solution class, a stable descriptor shift, or one explicit stepping-stone sequence.
+- State `corridorEntryEvidence` that supports the claimed difference from that baseline, such as a reproducible solution class, a stable descriptor shift or a supported stepping-stone sequence. Name what distinguishes the corridor; an unfamiliar sample alone does not establish entry.
 - If a stepping stone mattered, publish the stepping-stone evidence as part of the adaptation signature rather than treating it as retrospective color.
 - Corridor or stepping-stone notes do not replace the work-measure threshold account; they explain why the adaptation path matters, not whether the threshold was actually reached.
 - A fast threshold result is not yet enough to claim durable specialization.

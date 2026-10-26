@@ -6,12 +6,12 @@ section_id: "C.38:10"
 section_title: "Rationale and SoTA use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__011_rationale-and-sota-use.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:10 — Rationale and SoTA use"
-line_start: 82779
-line_end: 82788
+line_start: 81603
+line_end: 81612
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -31,11 +31,11 @@ keywords:
 
 ### C.38:10 - Rationale and SoTA use
 
-The practice question is how to construct several decision-ready ways to obtain one named result without smuggling in a choice, false actuality, or a domain-specific arrangement schema. The best-known current line is result-first, whole-way, and parity-first: begin with the one receiving result and use, expand every serious candidate into a complete-enough possible-future way, expose the same decision-relevant burdens and limits for each, and only then hand a finite `OptionSet` to `C.11`.
+The practice question is how to construct several decision-ready ways to obtain one named result without smuggling in a choice, false actuality, or a domain-specific arrangement schema. Begin with the receiving result and use, expand each serious candidate into a complete-enough possible-future way, and expose the same decision-relevant burdens and limits. The resulting finite `OptionSet` is an input to C.11 when local choice is current.
 
-The serious default is to list familiar labels such as internal, provider, buy, build, partner, procurement vehicle, or lifecycle stage and score them immediately. Those labels mix unlike grains and hide missing integration, evidence, support, capability, custody, consequence, recovery, and exit burdens. Familiarity, official standing, adoption breadth, recency, or institutional praise can make such rows look credible; none shows that they are complete or comparable ways. `C.38` repairs that defect by fixing one result and receiver, resolving every label into a whole possible-future way, applying a bounded parity basis, marking unknowns without inventing current relations, and stopping before local choice or actual Work.
+An initial table may contain labels such as internal, provider, buy, build, partner, procurement vehicle or lifecycle stage. Scoring those labels before recovering their contents can mix unlike alternatives and hide integration, evidence, support, capability, custody, consequence, recovery and exit burdens. Familiarity, official standing, adoption breadth, recency, or institutional praise can make such rows look credible; none shows that they are complete or comparable ways. `C.38` repairs that defect by fixing one result and receiver, resolving every label into a whole possible-future way, applying a bounded parity basis, marking unknowns without inventing current relations, and stopping before local choice or actual Work.
 
-Complete engineering comparison supplies the domain comparator and the subtraction boundary: `C.38` keeps only same-result candidate formation and the parity move, while Systems Engineering keeps the engineered-System context, engineering arrangement content, specialist boundaries, realization, and assurance. The recording case checks transfer: its downstream performance-production Method consumes a prior comparison without yielding performance-production authority to `C.38`. The direct Method-base case is the non-use test: when a domain Method already returns the full comparison, no generic duplicate is added. These cases retain the comparator, transfer, and non-use distinctions; a Method's name or institutional standing does not rank an alternative.
+The common comparison depends on its domain inputs. Systems Engineering supplies the engineered-System conditions, specialist criteria, realization and assurance; the recording Method supplies artistic, participatory and production requirements. Those differences determine what a complete way must include. When a domain Method already returns the sufficient comparison, use that result directly.
 
-A source changes this pattern only when it exposes a defect in the current move or demonstrates a better repair. Reopen the smallest affected candidate or parity question when a decision-changing premise changes; reopen the common line itself only when a current direct pattern supplies the whole move at comparable effort, or evidence shows that result-first whole-way parity systematically hides a burden that changes the decision.
+Reopen the affected candidate or parity question when a decision-changing premise changes. Reconsider the comparison approach when an available direct Method supplies the needed result more economically or when evidence shows that the current comparison hides a consequential burden.
 

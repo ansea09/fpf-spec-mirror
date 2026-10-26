@@ -6,17 +6,15 @@ section_id: "C.21:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__011_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:9 — Conformance Checklist"
-line_start: 62718
-line_end: 62735
+line_start: 61699
+line_end: 61716
 dependencies:
   - "A.10"
-  - "A.17"
   - "A.17-A.18"
-  - "A.18"
   - "A.19"
   - "A.2.6"
   - "B.3"
@@ -24,7 +22,6 @@ dependencies:
   - "C.2"
   - "C.2.1"
   - "C.20"
-  - "C.I"
   - "E.24.PUB"
   - "F.9"
   - "G.0"
@@ -59,7 +56,7 @@ keywords:
 | `CC-C.21-4` | Every persisted, compared, aggregated, or published coordinate carries the active DHC replay basis; no generic “metric edition” substitutes for an exact object. |
 | `CC-C.21-5` | Characteristic, Scale, Unit, polarity or target rule, and legal operations are coherent. Ordinals are not averaged and Units are not mixed. |
 | `CC-C.21-6` | Direct comparison uses C.16's compatible-semantics branch. A comparison that relies on a cross-local semantic relation keeps the obtaining F.9 relation, its separate bounded-use claim, observed loss, and current reliance distinct as specified in section 4.2. |
-| `CC-C.21-7` | Formal recognition and actual adoption or convergence are separate Characteristics; neither rank proves health or SoTA. |
+| `CC-C.21-7` | Formal recognition and actual adoption or convergence are separate Characteristics; neither reading proves health or SoTA. |
 | `CC-C.21-8` | EvidenceUnitResolution, ClaimsPerArtifact, and SupportAnchorsPerClaim are separate; their constructions and Units are not interchanged. |
 | `CC-C.21-9` | Entropy and concentration are separate, with opposite directions explicit; any transformation and receiving Scale are declared. |
 | `CC-C.21-10` | Measurement definition, exact Method, MethodDescription, model, calibration, Work, result, result episteme, series episteme, dashboard representation, publication occurrence, form, and carrier remain distinct where present. |

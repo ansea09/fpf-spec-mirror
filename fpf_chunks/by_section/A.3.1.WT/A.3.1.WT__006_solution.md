@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:4 — Solution"
-line_start: 10390
-line_end: 10446
+line_start: 10304
+line_end: 10362
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,10 +35,10 @@ Select situations from the later evidence questions, arrange and observe actual 
 4. **Select a discriminating situation when the decision needs one.** Change or seek one condition whose outcome can show whether a live claim holds in that situation: unfamiliar technical coupling, another domain, missing support relation, changed capability envelope, stale material, or another named alternative. State the claim that could fail. Do not require every trial to contain an artificial stress case.
 5. **Write the WorkPlan without backdating Work.** State intended tasks, performers, admitted Methods, support conditions, observation points, protected conditions, burdens to record, stop rules, and the later use of each observation. Keep simulation and demonstration as planned or separately typed activities unless independently admitted Work occurs.
 6. **Check capability and support inputs separately.** When reliance on capability changes interpretation, identify the holder System, Work family or result class, operating envelope, measures, qualification or currentness condition, and evidence. Recover only A.15.8.MS material, access, tool, provider, feedback, and decision conditions supported for the relevant task rows; preserve retained candidates, split boundaries, untested conditions, and gaps rather than treating them as configured inputs.
-7. **Admit only Work that occurred.** For each occurrence, recover every actual performer System and its A.13 basis, the action history, at least one admitted Method actually followed, temporal extent, and required containing-System relation under `A.15.1`. Add assignment attribution, System use, operation binding, affected referent, resource use, or result relations only when their own predicates obtain.
+7. **Admit only Work that occurred.** For each occurrence, recover every actual performer System and its A.13 basis, the action history, at least one admitted Method actually followed, temporal extent, and required containing-System relation under `A.15.1`. Use F.6 through the same obtaining A.13 assignment only when precise assignment-bound attribution is needed. Add System use, operation binding, affected referent, resource use, or result relations only when the claim needs them and their own predicates obtain.
 8. **Record conditions and departures.** For each Work occurrence, record the situation, relied-on Systems and direct relations, holder capabilities used in interpretation, deviations from the WorkPlan, adaptations, burdens, stops, domain results, and observations. Keep the domain result, report, log, and evidence-use relation separate from Work.
-9. **Qualify the evidence reach.** Distinguish direct observation, participant report, source interpretation, observed association, contribution claim, and causal claim. Return the strongest supported level and name missing comparison, temporal, capability, relation, or alternative evidence.
-10. **Return evidence by later use.** Send contradicted description or relation claims to A.3.1.CC, situation comparisons and an unlike-situation result to A.3.1.FT, and results, burdens, alternatives, side effects, and evidence limits to C.11.MV. Return `missing-performed-work`, `missing-method-admission`, `missing-capability-basis`, `missing-direct-relation`, or the named missing premise when a required condition is absent.
+9. **Qualify the evidence reach.** Distinguish direct observation, participant report, source interpretation, observed association, contribution claim, and causal claim. Return the supported level needed by the receiving claim and name missing comparison, temporal, capability, relation, or alternative evidence.
+10. **Return evidence by later use.** For each selected receiving question, send contradicted description or relation claims to A.3.1.CC, situation comparisons and an unlike-situation result to A.3.1.FT, and results, burdens, alternatives, side effects, and evidence limits to C.11.MV. Return `missing-performed-work`, `missing-method-admission`, `missing-capability-basis`, `missing-direct-relation`, or the named missing premise when a required condition is absent.
 
 #### A.3.1.WT:4.2 - Record the Result
 
@@ -51,8 +51,10 @@ Select situations from the later evidence questions, arrange and observe actual 
 | actual Work | Each admitted Work occurrence, actual performers, enacted admitted Methods, temporal extent, containing System, and deviations from plan. |
 | relied-on conditions | Holder capabilities, Systems, Agent-performed Work, direct relations, access, assignments, permissions, authority, tools, providers, and support conditions that actually obtain or remain missing. |
 | observations | Domain results, burdens, adaptations, failures, participant reports, direct observations, and their source or evidence-use relations. |
-| reach and gaps | Supported observation level, unsupported contribution or causal overreads, missing evidence, and conditions that would reopen the slice. |
-| return | Occurrence-level evidence routed separately to A.3.1.CC, A.3.1.FT, and C.11.MV, or a supported lower result. |
+| reach and gaps | Supported observation level, missing evidence, material limits on contribution or causal claims, and conditions that would reopen the slice. |
+| return | Occurrence-level evidence for the selected A.3.1.CC, A.3.1.FT or C.11.MV question, or a supported lower result. |
+
+Keep these distinctions in the account and its referenced records. A table is useful when several occurrences need comparison; a single account need not use one row per position.
 
 #### A.3.1.WT:4.3 - What Changes in Practice
 
@@ -60,9 +62,9 @@ Teams stop calling a scheduled exercise or positive report “the trial”. They
 
 A failed or incomplete occurrence remains useful. It can expose a description defect, a representation difficulty, a missing support relation, a capability condition, or a situation boundary without being inflated into a universal verdict on the Method.
 
-#### A.3.1.WT:4.4 - Minimal Constructed Trial Replay
+#### A.3.1.WT:4.4 - Constructed Trial Case
 
-The following is a constructed teaching replay, not field evidence. It shows the smallest result that lets later checks reuse the same Work without turning the trial into their conclusion.
+This constructed case illustrates how later checks can reuse the same Work while reaching their own conclusions; it is not field evidence.
 
 `M-Unit-Review-1` is admitted for reviewing temperature-sensor calibration reports before release. Its current description tells the reviewer to identify every source unit, normalize values, compare them with the declared tolerance, and stop on an unresolved mismatch. `WP-ME11-1` plans two review tasks for the same week. `S-Rep-1` is a current same-unit report of the ordinary kind. `S-Disc-1` keeps the product, decision, reviewer, description, and support fixed but introduces a Celsius/Kelvin mismatch; it is selected because the live claim is that the Method lets this reviewer expose a unit mismatch before release.
 

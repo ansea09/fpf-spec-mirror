@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__004_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:2 — Problem"
-line_start: 54621
-line_end: 54631
+line_start: 53767
+line_end: 53777
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,7 +50,7 @@ Without this repair:
 1. **Graph path becomes work route.** A path or path slice in `E.18` is treated as an ordered work narrative, even when no work occurrence, work plan, or method description is current.
 2. **Evidence path becomes permission.** An evidence relation or provenance relation is treated as approval, gate passage, release, safety, or authority rather than as evidence for a named claim or effect.
 3. **Query becomes method.** A query, access path, query plan, or dashboard is treated as the semantic way of doing, rather than as a representation, method description, evidence relation, source relation, or ordinary source wording.
-4. **Pattern relation overread as dispatch.** Pattern application prose starts saying that one pattern exits to, routes to, calls, invokes, receives, owns, or dispatches another, hiding declarative pattern relations and subject pattern selection.
-5. **Programming-paradigm label becomes ontology.** Imperative, functional, logical, constraint, object-centric event, effect-handler, pipeline, orchestration, or workflow wording is treated as the FPF kind rather than as one representation style or source label.
+4. **Pattern relation overread as dispatch.** A reference to another pattern is treated as an actual call or work occurrence. Ordinary navigation remains adequate when it expresses the intended relation clearly.
+5. **Programming-paradigm label becomes ontology.** A label such as functional, declarative or workflow is treated as sufficient to determine an FPF kind.
 6. **Mechanism, method, and work collapse.** A method-like expression is repaired to `method` or `mechanism` by vocabulary rather than by the current claim: way of doing, description, formal substrate, law-governed mechanism, plan, occurrence, evidence, or quote-only wording.
 

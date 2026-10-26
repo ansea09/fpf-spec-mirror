@@ -6,12 +6,12 @@ section_id: "A.12:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:4 — Solution"
-line_start: 28151
-line_end: 28254
+line_start: 27715
+line_end: 27819
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -19,9 +19,12 @@ dependencies:
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.15.2"
   - "A.2.1"
   - "A.2.6"
   - "A.2.7"
+  - "A.3.1"
+  - "A.3.2"
   - "A.3.4"
   - "A.6.RCD"
   - "A.7"
@@ -47,6 +50,7 @@ ActingSideExternalization@Context:
   changedSubjectRef: one exact continuing referent identified by the identity rule that defines that referent
   actingEntityRef: exact U.Entity proposed for the acting side
   actingSystemRef?: U.System, fill only after actingEntityRef satisfies the complete A.1 U.System criterion
+  actingSystemA13CoreRef?: A.13 performer basis, required when an actual Work performer is claimed
   a1RecognitionDispositionOrBlockerRef?: required when this account needs an A.1 recognition result and actingSystemRef is unfilled
   actingSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment, only when one exact obtaining work-facing assignment is current
   actingSideParticipationRef?: one exact obtaining relation occurrence satisfying the predicate and participant meanings that define the participation, causal, or interaction claim
@@ -62,7 +66,7 @@ ActingSideExternalization@Context:
 
 Identify `actingEntityRef` and `changedSubjectRef` as distinct participants in the claim. `changedSubjectRef` is a question-local position, not a U-kind or union ValueKind: its value retains its independently admitted kind and identity rule. A presentation carrier does not become a `U.Holon` by filling it. Fill `transformationRef` only when A.3.4 establishes a bounded change of that same continuing referent.
 
-Before calling the acting entity a `U.System`, apply the complete A.1 criterion. When this account needs an A.1 recognition result and recognition is not established, retain the entity and its `recognized | rejected | unknown` disposition or blocker. Leave `actingSystemRef` unfilled until recognition is established; once recognized, that position names the same entity under `U.System`, not another actor. Tight coupling or membership in a larger holon does not merge the acting and changed positions.
+Use the complete A.1 criterion or an applicable established A.1 result before classifying the acting entity as a `U.System`. When this account needs recognition and it is not established, retain the entity and its `recognized | rejected | unknown` disposition or blocker. Leave `actingSystemRef` unfilled until recognition is established; once recognized, it names the same entity under `U.System`. Tight coupling or membership in a larger holon does not merge the acting and changed positions.
 
 `ActingSideExternalization@Context` describes the relation frame; it does not define a U-kind or establish that a change occurred. Each neighboring claim has its own participants and defining or testing rule. Neither A.12 frame has a generic context, scope or qualifier position. Ask what the proposed qualifier changes:
 
@@ -75,7 +79,7 @@ For another condition, state the condition or relation and apply its defining or
 Use:
 
 - `A.3.4` when `transformationRef` becomes current;
-- `A.15` and `A.15.1` when method, work plan, work occurrence or work success is claimed; for an actual Work occurrence, follow the performer/admission/attribution order below;
+- `A.3.1` for Method identity, `A.3.2` for MethodDescription admission, `A.15.2` for a WorkPlan, and `A.15.1` for a dated Work claim; `A.15` connects these distinct claims, and an actual Work occurrence follows the performer/admission/attribution order below;
 - `A.2.1` when an exact assignment occurrence becomes current, and `A.2.7` only when a relation among exact local system-role kinds becomes current;
 - `A.10` when evidence or source independence becomes current;
 - `A.1`, `A.14`, and `C.13` when holon identity, part-whole, or constructive grounding becomes current.

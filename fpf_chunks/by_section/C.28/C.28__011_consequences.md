@@ -6,12 +6,12 @@ section_id: "C.28:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:9 — Consequences"
-line_start: 68469
-line_end: 68472
+line_start: 67443
+line_end: 67446
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,5 +51,5 @@ keywords:
 
 ### C.28:9 - Consequences
 
-The pattern makes unsupported causal claims easier to lower while keeping ordinary triage cheap. Consequential claims become replayable across question, support components, threats, limits, and source window. The cost is additional specialist work only where a stronger causal statement or downstream decision genuinely depends on it.
+The pattern makes unsupported causal claims easier to lower while keeping ordinary triage cheap. Consequential claims become replayable across question, support components, threats, limits, and source window. The cost is additional specialist work only where a stronger causal statement or downstream decision depends on it.
 

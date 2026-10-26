@@ -6,16 +6,16 @@ section_id: "A.18:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:3 — Forces"
-line_start: 34767
-line_end: 34778
+line_start: 34175
+line_end: 34186
 dependencies:
   - "A.17"
-  - "A.18"
   - "A.19"
+  - "A.19.CHR"
   - "A.19.CN"
   - "B.3"
   - "C.16"
@@ -37,11 +37,11 @@ keywords:
 
 ### A.18:3 - Forces
 
--   **F1 – Transdisciplinarity.** The pattern must uniformly handle measurements in _physical domains_ (e.g. length, time, temperature), _system attributes_ (e.g. a module’s coupling or reliability), and _human judgments_ (e.g. user satisfaction scores). It needs to be neither overly quantitative (alienating softer domains) nor overly qualitative (lacking precision for hard science).
+- **F1 — Disciplinary interpretation.** Physical measurements and human assessments can use the same structural distinctions while retaining their different domain assumptions and methods.
 
--   **F2 – Comparability vs. freedom.** We want to compare readings under a common Characteristic and Scale with the compatible measurement conditions required by C.16. At the same time, the system should allow **different Scales for the same Characteristic** when necessary (for example, one project might measure Quality on a 0–5 star scale, another on a 0–100 percentage scale). The pattern must permit such flexibility _without_ letting those differing scales be conflated.
+- **F2 — Comparability and alternative Scales.** Compare values under a common Characteristic and Scale with compatible conditions under C.16. The same Characteristic may use different Scales, such as temperature in Celsius or Kelvin; use a declared conversion when the comparison needs a common Scale.
 
--   **F3 – Ordinal vs. cardinal integrity.** The Standard should preserve the nature of the data: **order-only vs order+distance**. If something is ordinal (ranks, grades), the framework should prevent unwarranted numeric operations on it. If it’s cardinal (real-valued with units), the framework should enable arithmetic but still keep track of units and zero. In essence, it must protect ordinal data from “leaking” into interval arithmetic.
+- **F3 — Scale integrity.** Retain the distinction between category, order, interval and ratio structure. Numerical labels alone establish neither distances nor admissible arithmetic.
 
 -   **F4 – Named tiers vs. continuous magnitudes.** In many domains, **named Levels** (tiers or grades) are useful – e.g. Technology Readiness Levels or bond credit ratings – whereas in others, a continuous scale is needed. The pattern should support **optional Level labels** (for tiered scales) _without forcing_ every scale to have such labels. In other words, Levels are an add-on for discrete/tiered scales, not a requirement for truly continuous measures.
 

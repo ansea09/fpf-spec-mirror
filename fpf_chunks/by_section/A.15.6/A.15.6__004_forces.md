@@ -6,12 +6,12 @@ section_id: "A.15.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:3 — Forces"
-line_start: 31319
-line_end: 31333
+line_start: 30880
+line_end: 30894
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -52,5 +52,5 @@ keywords:
 | Expected target vs actual result | An objective or target guides work; an actual change, produced entity, evaluation, delivery, acceptance, or later use needs the pattern and facts that define its relation to the Work. |
 | Temporary work vs temporary organization | A team or organization may change while the same work whole continues, or persist across several work wholes. |
 | Description coherence vs EntityOfConcern honesty | Shared source events tempt authors to call project, process, and case accounts views of one entity even when their descriptions concern different entities. |
-| Continuity vs organizational change | Interruption, resumption, team replacement, split, and merge require a work continuity policy rather than identity by label. |
+| Continuity vs. organizational change | Recover the actual history first; use a Work-continuity policy when interruption, replacement, split or merge leaves an identity question for the receiving use. |
 

@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:End"
 section_title: "A.3.1.FT:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__015_a-3-1-ft-end.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:End — A.3.1.FT:End"
-line_start: 10940
-line_end: 10941
+line_start: 10849
+line_end: 10850
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"

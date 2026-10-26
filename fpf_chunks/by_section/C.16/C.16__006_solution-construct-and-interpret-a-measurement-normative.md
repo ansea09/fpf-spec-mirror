@@ -6,12 +6,12 @@ section_id: "C.16:5"
 section_title: "Solution - Construct and interpret a measurement (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__006_solution-construct-and-interpret-a-measurement-normative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:5 — Solution - Construct and interpret a measurement (Normative)"
-line_start: 58525
-line_end: 58608
+line_start: 57622
+line_end: 57705
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -73,7 +73,7 @@ If a fact needed for that interpretation is unavailable, state which conclusion 
 
 #### C.16:5.2 - Fix Characteristic, Scale, unit and time stance
 
-**M‑CSLC‑1.** One `U.DHCMethod` binds exactly one Characteristic to exactly one Scale. A discrete reading names its Level; another reading names its Coordinate or value on that Scale.
+**M‑CSLC‑1.** One `U.DHCMethod` binds exactly one Characteristic to exactly one Scale. A reading names its Coordinate or value on that Scale, and a Level when the Scale supplies that named category or tier.
 
 **M‑CSLC‑2.** When units apply, name the quantity kind and presentation Unit. Conversions are admissible only when they preserve the quantity kind and the Scale supports the operation. Nominal and ordinal labels do not acquire interval or ratio arithmetic by being encoded as numbers.
 

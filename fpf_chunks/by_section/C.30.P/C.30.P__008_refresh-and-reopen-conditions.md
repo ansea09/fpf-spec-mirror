@@ -6,12 +6,12 @@ section_id: "C.30.P:5a"
 section_title: "Refresh and reopen conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__008_refresh-and-reopen-conditions.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:5a — Refresh and reopen conditions"
-line_start: 72960
-line_end: 72971
+line_start: 71919
+line_end: 71921
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,13 +60,4 @@ keywords:
 
 ### C.30.P:5a - Refresh and reopen conditions
 
-Reopen or narrow `C.30.P` when the FPF pattern-language ecology changes the first architecture or structure entry:
-
-- a named `C.30.*`, structural-view, architecture transformation-flow, LCA or control, module-interface, mathematical-lens, characteristic, evidence, assurance, gate, work, decision, causal-use, release, or publication pattern now governs one row directly;
-- source-current architecture-description, view, model, decision-record, or architecture-documentation practice changes one adopted distinction in `C.30.P:7`;
-- README, ToC, `E.11`, retrieval, or local Problem-frame entry cues change the first practical entry for hidden architecture or structure wording;
-- a subject pattern starts copying first-stage architecture or structure trigger lists that belong here;
-- `C.30.P` begins to act as a registry of architecture topics rather than a wording-use repair pattern for hidden selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or named C.30 subcase.
-
-The refresh action is to remove, narrow, or reassign the first-stage row. It is not to preserve old assignment wording as history.
-
+Reopen the wording when a changed source meaning, intended use, subject predicate or receiving rule changes what the sentence asserts or what the reader may do with it. Repair the affected claim and its direct use. Retain an adequate sentence when only its packaging changes; a new template or neighboring pattern does not by itself make its meaning unclear.

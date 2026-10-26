@@ -6,12 +6,12 @@ section_id: "C.40.PC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:7 — Conformance Checklist"
-line_start: 86680
-line_end: 86693
+line_start: 85498
+line_end: 85511
 dependencies:
   - "A.15.9"
   - "A.2.3"
@@ -34,7 +34,7 @@ A conforming problem/contribution account:
 4. **MUST** preserve material contrary evidence, affected-System consequences, and burdens that can reverse the worth claim.
 5. **MUST** state an inspectable acceptance expectation without reporting actual acceptance or achieved benefit.
 6. **MUST** distinguish a proposed promise from an existing promise and both from commitment, provision, and fulfilment.
-7. **MUST** expose the evidence or hypothesis linking the contribution to the problem and the next discriminating question.
+7. **MUST** expose the evidence or hypothesis linking the contribution to the problem, and a discriminating question when a material uncertainty remains.
 8. **MUST NOT** infer need from novelty, a supplier offer, or solution feasibility, or reject a supported receiving problem solely because solution evidence is missing.
 9. **MUST** return to the next missing result or stop; a direction, recommendation, choice, or intervention is not required to complete this account.
 

@@ -6,12 +6,12 @@ section_id: "C.40.PC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:4 — Solution"
-line_start: 86580
-line_end: 86646
+line_start: 85398
+line_end: 85464
 dependencies:
   - "A.15.9"
   - "A.2.3"
@@ -48,7 +48,7 @@ For example:
 
 Faster approval is a different benefit claim; automatic approval is a different contribution and authority question. Preserve those differences if they become live rather than silently extending the proposal.
 
-If rival problem formulations change the subject, boundary, evidence, intervention family, or affected interests, keep them distinct. Retain each materially different formulation with the subject, boundary, evidence, intervention and interests it changes. Obtain a bounded problem-structuring contribution through A.15.9 if the needed formulation cannot yet be constructed from the available grounds. A change of wording that leaves those consequences identical does not create another worthwhile problem.
+Retain rival problem formulations separately when they change the subject, boundary, evidence, intervention family or affected interests, and make those differences explicit. Obtain a bounded problem-structuring contribution through A.15.9 if the needed formulation cannot yet be constructed from the available grounds. A change of wording that leaves those consequences identical does not create another worthwhile problem.
 
 #### C.40.PC:4.3 - Establish what makes the problem worthwhile
 
@@ -77,13 +77,13 @@ A research contribution can be a criticism, discriminating experiment, reproduci
 
 Explain why the proposed result could address the missing receiving result. Mark that connection as supported, conditional, disputed, or hypothetical according to its evidence. Identify what a plausible contrary answer would change.
 
-Ask the smallest question that distinguishes the live possibilities. “Does the reviewer need a source-traceable account of unsupported claims, or is the delay actually caused by unavailable acceptance authority?” can redirect the contribution. “Would you like better AI?” cannot distinguish the problem from the preferred solution.
+When a consequential uncertainty remains, ask a discriminating question whose attainable answer warrants the inquiry. “Does the reviewer need a source-traceable account of unsupported claims, or is the delay actually caused by unavailable acceptance authority?” can redirect the contribution. “Would you like better AI?” cannot distinguish the problem from the preferred solution.
 
 Use existing adequate results before requesting new Work. When another practice must supply an answer, use [A.15.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) for the bounded result request and reliance boundary. The supplying practice answers its own substantive question. A proposed interview, measurement, or experiment still needs the permissions and conditions applicable to that activity.
 
 #### C.40.PC:4.6 - Return the account at the strength it supports
 
-Ordinary prose is enough when the receiver can recover the situation, worthwhile difference or hypothesis, contribution, acceptance expectation, evidence limits, and next question. For example:
+Ordinary prose is enough when the receiver can recover the situation, worthwhile difference or hypothesis, contribution, acceptance expectation, evidence limits and any next question needed by the use. For example:
 
 > The case's acceptance engineer reports that unsupported claims cannot be recovered reliably from the incoming package, and the stipulated review records support that concern. We propose a source-traceable claim-to-evidence account, not approval; the next question is whether the available records and review criteria cover a representative package without breaching confidentiality.
 

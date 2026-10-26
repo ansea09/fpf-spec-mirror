@@ -6,12 +6,12 @@ section_id: "C.19.1:2"
 section_title: "Policy clauses (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__004_policy-clauses-normative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:2 — Policy clauses (normative)"
-line_start: 61892
-line_end: 61933
+line_start: 60861
+line_end: 60902
 dependencies:
   - "A.0"
   - "A.10"
@@ -45,7 +45,7 @@ keywords:
 ### C.19.1:2 - Policy clauses (normative)
 
 **BLP-1 — Probe first; select audit depth by claim and risk.**
-Every BLP use starts with the cheap scale-claim probe. A scale claim is current only when the exact bearer kind and direct pattern, a recoverable scale predicate, an objective vector, a comparison basis, an evidence form, and a named receiving use are present. If any of those is absent, return `no scale claim yet`; if a local analogy or policy remains useful, label it as such and do not present it as an empirical conclusion or manufacture a `Scale-Audit`.
+Every BLP use starts with the scale-claim examination above. A claim ready for comparison needs the bearer kind and direct pattern, a recoverable scale predicate, objective vector, comparison basis, evidence form and named receiving use. If any is absent, identify the missing basis and return `no scale claim yet`: the asserted claim remains unsupported, rather than disappearing. A useful local analogy or policy may be retained as such, but it supplies no empirical conclusion and does not bypass an applicable preference or waiver condition.
 
 When the scale claim is current, choose evidence proportional to the bearer, stakes, feasible observations, and receiving use. A selector-facing superiority claim, durable reusable-bearer policy, safety-material override, or expensive irreversible choice normally justifies a fuller audit. A reversible local probe may need only a small matched comparison. The method shall preserve:
 
@@ -58,7 +58,7 @@ When the scale claim is current, choose evidence proportional to the bearer, sta
 (g) **Claim-matched tests:** use knee or budget-constrained regret tests only when the asserted advantage depends on a knee or dominance inside the audited window.
 
 **BLP-2 — Preference rule with alpha and delta tolerances.**
-Among admissible options with comparable assurance within `delta` and budget within `alpha`, a scale-based preference for one option over another is warranted when the first option's response over the audited range Pareto-dominates the second's, with uncertainty accounted for. If no option dominates within the evidence bounds, `C.19.1` returns `no scale-based preference`; it does not turn greater generality into an empirical winner. A separately declared project policy may break that tie in favor of a more general bearer, but the result shall be labeled as that local policy or analogy, not as the empirical Bitter Lesson, and its E/E-LOG tie-breaker and edition shall be cited. For an agentic use, keep any alpha and delta values in the actual C.19.1 comparison, local-policy or waiver result consumed by the C.24 CallPlan.
+Among admissible options with comparable budgets, using `alpha` when a tolerance is needed, and comparable assurance under any applicable `delta` when an assurance result is material to this use, a scale-based preference is warranted when one option’s response over the audited range Pareto-dominates the other’s, with uncertainty accounted for. Apply any required assurance condition; a comparison that consumes no assurance result does not create one merely to fill `delta`. If no option dominates within the evidence bounds, `C.19.1` returns `no scale-based preference`; it does not turn greater generality into an empirical winner. A separately declared project policy may break that tie in favor of a more general bearer, but the result shall be labeled as that local policy or analogy, not as the empirical Bitter Lesson, and its E/E-LOG tie-breaker and edition shall be cited. For an agentic use, keep any alpha and delta values in the actual C.19.1 comparison, local-policy or waiver result consumed by the C.24 CallPlan.
 > **BLP‑2.1 — Valid waiver grounds (override transparency).**
 > Overrides of a declared local generality preference are allowed **only** when:
 > • **Admissibility override:** guard rails, ethics, or precedence make the general bearer inadmissible (`E.5`, `E.3`).
@@ -79,7 +79,7 @@ Record **Heuristic Debt** only when an admitted heuristic functions as reusable 
 **BLP-5 — Adaptation policy is a separate question.**
 The Bitter Lesson does not by itself require feedback-driven adaptation or make disabling adaptation a waiver. When adaptation is current, use `C.22.1` for the task-family adaptation claim, `E.23` for repeated object-version improvement, and `C.24` for tool-call planning and replanning, together with the applicable privacy and Guard-Rail patterns. A product policy may require or prohibit adaptation, but that result needs its own objective, evidence, risk boundary, and review date.
 **BLP‑6 — Precedence & safeguards.**
-BLP is constitutional (instantiates **P‑10**, **P‑11**, **P‑7**, and **P‑1**), but **does not supersede Guard‑Rails (E.5) or precedence rulings (E.3)**. Where a declared **NQD** or **C.19 E‑LOG** policy promotes illumination into dominance, use that lens for the audited window.
+BLP draws on **P‑10**, **P‑11**, **P‑7** and **P‑1**. Apply E.3 to the actual principles being compared; the combined policy has no single precedence class. It **does not supersede Guard‑Rails (E.5) or precedence rulings (E.3)**. Where a declared **NQD** or **C.19 E‑LOG** policy promotes illumination into dominance, use that lens for the audited window.
 
 **BLP‑7 — Publication discipline.**
 When a durable `Scale-Audit` is actually performed, its artifacts **SHALL** be exported to **G.11** with the used edition pins, uncertainty method, alpha and delta tolerances when current, ComparatorSet, policy reference, and qualification window. A `no scale claim yet` or local bounded-use exit creates no audit package.

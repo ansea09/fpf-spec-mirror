@@ -6,12 +6,12 @@ section_id: "A.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__005_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:3 — Forces"
-line_start: 28141
-line_end: 28150
+line_start: 27705
+line_end: 27714
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -19,9 +19,12 @@ dependencies:
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.15.2"
   - "A.2.1"
   - "A.2.6"
   - "A.2.7"
+  - "A.3.1"
+  - "A.3.2"
   - "A.3.4"
   - "A.6.RCD"
   - "A.7"
@@ -40,7 +43,7 @@ keywords:
 | --- | --- |
 | Causal clarity vs convenient speech | Everyday speech compresses "self-repair" and "automatic update"; engineering use needs the acting side and changed object. |
 | Internal regulation vs object collapse | A larger holon may contain both regulator and regulated parts; that does not make the regulator and regulated position identical for the current claim. |
-| Automation vs accountability | Automated work still needs a system in role, method or work claim, and evidence relation when those claims matter. |
+| Automation vs accountability | Automated action may require distinct System, role, Method, Work and evidence claims; include each only when the explanation needs it and its basis holds. |
 | Episteme use vs episteme agency | A carrier update, another episteme edition and a changed publication relation need different identity tests (§4.3). A Work performer or `U.SystemRoleAssignment` holder must be an admitted `U.System`. |
 | Boundary crossing vs parthood | When an exact boundary-crossing relation independently satisfies the predicate, applicability, and identity rules that define it, it does not thereby make the acting system a part of the changed holon or the larger whole containing it. Without those rules, keep the crossing claim open rather than inferring either crossing or parthood. |
 

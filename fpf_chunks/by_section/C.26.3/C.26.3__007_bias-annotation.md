@@ -6,12 +6,12 @@ section_id: "C.26.3:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:6 — Bias-Annotation"
-line_start: 66910
-line_end: 66917
+line_start: 65883
+line_end: 65890
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,9 +41,9 @@ keywords:
 
 ### C.26.3:6 - Bias-Annotation
 
-This pattern biases authors against scalar comfort. That bias prevents "green dashboard" from replacing viability.
+This pattern emphasizes constraints that a favorable scalar can hide, including damage to another envelope dimension.
 
-It also biases authors toward actionable architecture work. The pattern asks which direct object a boundary, access, protocol, staffing, cache, throttle, bridge, or measurement proposal denotes and how quickly its separately governed effects can matter. For any precise Work claim, establish each actual performer's A.13 core and independently admit the dated occurrence under A.15.1. Add F.6 attribution only if the account must also identify the assignment under which that Work was performed. Any actual transformation is grounded separately.
+It also biases authors toward actionable architecture work. The pattern asks which direct object a boundary, access, protocol, staffing, cache, throttle, bridge, or measurement proposal denotes and how quickly its separately governed effects can matter. For a particular dated Work claim, establish each actual performer's A.13 core and independently admit the dated occurrence under A.15.1. Add F.6 attribution only if the account must also identify the assignment under which that Work was performed. Any actual transformation is grounded separately.
 
 Use `C.25` alone when one quality bundle or metric can be handled without envelope, disturbance, boundary condition, recovered candidate intervention, adaptation cost, or viability failure mode.
 

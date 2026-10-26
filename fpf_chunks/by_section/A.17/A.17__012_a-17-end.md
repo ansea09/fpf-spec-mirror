@@ -6,12 +6,12 @@ section_id: "A.17:End"
 section_title: "A.17:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__012_a-17-end.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:End — A.17:End"
-line_start: 34737
-line_end: 34738
+line_start: 34143
+line_end: 34144
 dependencies:
   - "A.17"
   - "A.18"
@@ -24,8 +24,8 @@ dependencies:
   - "C.2"
   - "D.3"
   - "E.10"
-  - "U.Dynamics"
-  - "U.PromiseContent.acceptanceSpec"
+  - "F.7"
+  - "F.9"
 keywords:
   - "attribute"
   - "axis"

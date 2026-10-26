@@ -6,12 +6,12 @@ section_id: "C.40.OC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 86286
-line_end: 86299
+line_start: 85104
+line_end: 85117
 dependencies:
   - "C.11.CRC"
   - "C.16"
@@ -27,12 +27,12 @@ keywords:
 | Anti-pattern | Why it fails | Repair |
 | --- | --- | --- |
 | One maturity score | Meanings, weights, scales, protections, and uncertainty disappear. | Select the characteristics that can change this inquiry and preserve their distinct scales. |
-| Method or tool inventory as characterization | Possession or use does not establish the subject's state or contribution. | Ask which result or protected condition each item changes and obtain the direct evidence. |
+| Method or tool inventory as characterization | Possession or use alone does not establish the needed capability or result. | Ask which result or protected condition each item changes and obtain the direct evidence. |
 | Target without baseline | The proposed delta cannot be interpreted. | State the current reading or an explicit unknown under the same subject, scale, and horizon. |
 | Measurement by dashboard | A display is treated as subject state, result, evidence, and verdict. | Recover the complete C.16 measurement chain and separate later interpretation. |
 | Higher is always better | Polarity and target regions are assumed. | Declare higher-, lower-, target-, or unordered semantics for each scale. |
 | Person-to-system transfer | Human capability or learning evidence is reused for an AI model or organization. | Identify the actual bearer and configuration, then obtain the transfer basis from the direct practice owning the receiving characteristic and its evidence under `C.40.OC:4.5`. |
 | Benefits-only comparison | Resources, affected Systems, distribution, and protections vanish. | Orient the complete coordinate set before finite comparison. |
-| Unknown as favorable | A missing premise enters a direction as if it had passed. | Preserve `unknown` and state the strongest claim it blocks. |
+| Unknown as favorable | A missing premise enters a direction as if it had passed. | Preserve `unknown` and identify each dependent claim that remains unsupported. |
 | Characterization as diagnosis of everything | Entry burden expands beyond the decision. | Keep only action-changing characteristics and name relevant unsearched areas. |
 

@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__009_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5 — Archetypal Grounding"
-line_start: 36731
-line_end: 36767
+line_start: 36001
+line_end: 36037
 dependencies:
   - "A.0"
   - "A.19"
@@ -41,11 +41,11 @@ keywords:
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5.1 - System
 
-**Tell.** One QD line already has one declared archive-side substrate. Readers still need one ordinary interpretive reading that keeps local archive neighborhoods readable, but no shortlist, atlas bundle, or shipping result exists yet.
+**Tell.** One QD archive has a declared substrate. A reader asks which candidates are neighbors of candidate p under its declared metric.
 
-**Show.** The active interpretive head is ordinary `DeclaredSubstrateInterpretiveView`. It reads one declared archive-side substrate line whose active source set remains `Archive` and whose active space question remains recoverable through `BehaviorCharacteristicSpace@ed=12`. The only extra qualifier kept visible here is `ArchiveNeighborhoodMetric@ed=4`, because the current question is simply how local archive neighborhoods shape the reader's interpretation of the already-declared line.
+**Show.** In this constructed case, `Archive-12` uses `BehaviorCharacteristicSpace@ed=12` and `ArchiveNeighborhoodMetric@ed=4`. The declared neighborhood criterion is distance at most 0.3. Distances from p to q and r are 0.2 and 0.8 respectively. An ordinary `DeclaredSubstrateInterpretiveView` groups q with p and leaves r outside that neighborhood, showing the criterion alongside the grouping. The source Coordinates and metric remain recoverable.
 
-**Cash-out.** This is one thinner interpretive view over one already-declared substrate. It keeps one source set and one inspection question in view without introducing several `TypedSetViews`, one `OutcomeMapRef`, one `TransitionRelationRef`, or one bridge-loss note. Downstream interpretation gets the extra legibility without accidentally turning the metric note into ontology.
+**Cash-out.** The reader can recover why q is a neighbor and r is not. This grouping answers the inspection question; it does not itself select which candidates to retain. No fuller atlas is needed.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5.2 - Episteme
 
@@ -53,13 +53,13 @@ keywords:
 
 **Show.** The active interpretive head is `DeclaredSubstrateAtlasView`. It reads one declared palette-facing substrate line whose source-set family remains `TraditionPalette`, whose active derived view remains `TraditionFront`, and whose base palette remains recoverable through `SoTAPaletteDescriptionId`. The cited spaces stay explicit as `TraditionComparisonSpace@ed=3` and `AdoptionOutcomeSpace@ed=2`. The atlas reading keeps together the declared set views `TraditionFront` and `TraditionArchive`, the `OutcomeMapRef` value `PaletteToAdoptionOutcomeMap@ed=1`, the distortion note `CrossTraditionComparisonLossNote@ed=1`, and the local `G.2` specialization `TraditionAtlasView`.
 
-**Cash-out.** Here the fuller atlas form is honest because several declared views, spaces, and qualifiers really must stay visible together. Even so, it still does not redefine the base palette. The reader can recover the palette, the active derived set result, the cited spaces, the `OutcomeMapRef`, the qualifier note, and the local specialization together.
+**Cash-out.** The reader follows a tradition profile from the palette into its front or archive view, then follows `PaletteToAdoptionOutcomeMap@ed=1` to its conditional adoption outcome. The comparison-loss note stays beside comparisons that depend on it. These connections explain why the views are shown together; a front alone would hide the archive and its relation to the same palette. The atlas changes inspection, not membership of the base palette.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5.3 - Boundary anti-case
 
 **Tell.** One note starts from "atlas view" language, then quietly changes the base outcome posture and argues that only one shortlisted tradition should remain live.
 
-**Show.** This is not a interpretive view anymore. It is mixing substrate repair with candidate-pool or publication policy.
+**Show.** The changed-relation and retention claims need their own governing patterns.
 
 **Cash-out.** Reopen the substrate if the base relation or posture changed. Apply `C.19`, `C.24`, `G.5`, or `G.10` to retention or shipping decisions instead of using interpretive-view prose to smuggle them in.
 

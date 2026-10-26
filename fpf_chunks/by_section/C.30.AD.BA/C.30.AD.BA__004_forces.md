@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:1.1 — Forces"
-line_start: 72557
-line_end: 72567
+line_start: 71525
+line_end: 71535
 dependencies:
   - "A.1"
   - "A.10"
@@ -58,7 +58,7 @@ keywords:
 | --- | --- |
 | Long asset life vs changing descriptions | The built asset can retain identity while descriptions, model editions, sensor systems, representations, publications, and information uses change. |
 | Many useful structures vs exact description identity | Spatial, functional, flow, module, interface, placement, control, and information structures can all matter, but every description still has one exact C.2.1 EntityOfConcern and every selected structure keeps its own A.22 identity. |
-| Exchange interoperability vs FPF relation meaning | IFC and related exchange formats carry explicit object and relation data, but exchange content is source description until actual subject relations and selected structures are recovered under their subject patterns. |
+| Exchange interoperability vs FPF relation meaning | IFC and related exchange formats carry explicit object and relation data, but exchange content supplies source description; claims that its relations obtain in the asset need their subject-pattern basis, while proposed relations remain candidate content. |
 | Designation stability vs aspect dependence | A reference designation can make an object retrievable across descriptions while still depending on a declared structuring aspect, designation scheme, exact referent, and qualification window. |
 | Auxiliary-view usefulness vs direct claim ownership | Cost, schedule, operation, maintenance, sustainability, and energy views can guide architecture work; their characteristic measurement, Work, temporal-claim adequacy, causal use, evidence, assurance, and currentness claims still require `C.16`, `A.15.1`, `C.27`, `C.28`, `A.10`, `B.3`, and `G.11`. |
 | Live coupling vs currentness | Telemetry and simulations can update a digital-twin description rapidly; freshness and fidelity still bound each claim made from it and do not create physical change. |

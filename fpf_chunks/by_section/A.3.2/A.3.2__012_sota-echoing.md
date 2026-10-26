@@ -6,12 +6,12 @@ section_id: "A.3.2:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:11 — SoTA-Echoing"
-line_start: 11722
-line_end: 11731
+line_start: 11600
+line_end: 11609
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,11 +52,11 @@ keywords:
 
 ### A.3.2:11 - SoTA-Echoing
 
-| Source line and status, qualified 2026-08-26 | Source refs | Adopt, adapt, or reject | Effect in this pattern |
+| Source line | Source refs | Contribution and limit | Effect in this pattern |
 | --- | --- | --- | --- |
-| Current constructor-theory and process-theory work | Gogioso et al., "Constructor Theory as Process Theory", EPTCS 397, 2023, arXiv:2401.05364; Deutsch and Marletto, "Constructor theory of time", arXiv:2505.08692v3, revised 2026-06-05. | Adopt and adapt: descriptions stay close to transformation claims without becoming the transformation or Work occurrence. | The pattern separates MethodDescription, Method, mechanism, WorkPlan, Work, and evidence across physical, informational, organizational, and mathematical examples. |
-| Current scoped-effects and handlers work | Bosman et al., ["A Calculus for Scoped Effects & Handlers"](https://arxiv.org/abs/2304.09697), 2024; Matache et al., ["Scoped Effects as Parameterized Algebraic Theories"](https://arxiv.org/abs/2402.03103), 2024; Kura, ["On Complete Categorical Semantics for Effect Handlers"](https://arxiv.org/abs/2602.03275), 2026. | Adopt the separation of syntax, handling, scope, resources, equations, and semantic model; reject the inference from executable coherence to one uniquely determined semantics. | An executable-looking episteme may describe a Method, but form or one working interpretation does not by itself settle its Method, mechanism law, semantic equivalence, or success. |
-| Current binding-aware equality representation | Tiurin, Ghica, and Hu, ["E-Graphs With Bindings"](https://arxiv.org/abs/2505.00807), 2025; Zucker, ["Lifting E-Graphs: A Function Isn't a Constant"](https://arxiv.org/abs/2606.22734), 2026. | Adapt: variables, binders, and contexts need explicit representation semantics; ordinary graph equality is not enough. | When equivalence depends on binding or context, state that comparison basis. Alpha-equivalent or graph-equivalent representations do not automatically identify one Method or equivalent claim content. |
-| Current persistent equality representation | Merckx et al., ["E-Graphs as a Persistent Compiler Abstraction"](https://arxiv.org/abs/2602.16707), 2026. | Adapt: an equality representation may persist across several intermediate-representation levels while its expression changes. | Persistence of one representation structure across compiler stages is a C.29 representation fact; it does not establish episteme-edition continuity, Method identity, MethodDescription membership, or performed Work. |
-| Historical declarative-versus-imperative programming contrasts | Codd 1970; Kowalski 1979; Selinger et al. 1979; van der Aalst, Pesic, and Schonenberg 2009; Van Roy and Haridi 2004. | Reject as current SoTA; retain only as lineage and regression contrast. | Older slogans remain useful recognition cues, but the reader still asks what the artifact asserts and which FPF object that claim concerns. |
+| constructor-theory and process-theory work | Gogioso et al., "Constructor Theory as Process Theory", EPTCS 397, 2023, arXiv:2401.05364; Deutsch and Marletto, "Constructor theory of time", arXiv:2505.08692v3, revised 2026-06-05. | Descriptions stay close to transformation claims without becoming the transformation or Work occurrence. | The pattern separates MethodDescription, Method, mechanism, WorkPlan, Work, and evidence across physical, informational, organizational, and mathematical examples. |
+| scoped-effects and handlers work | Bosman et al., ["A Calculus for Scoped Effects & Handlers"](https://arxiv.org/abs/2304.09697), 2024; Matache et al., ["Scoped Effects as Parameterized Algebraic Theories"](https://arxiv.org/abs/2402.03103), 2024; Kura, ["On Complete Categorical Semantics for Effect Handlers"](https://arxiv.org/abs/2602.03275), 2026. | Separate syntax, handling, scope, resources, equations and semantic model; executable coherence does not establish uniquely determined semantics. | An executable-looking episteme may describe a Method, but form or one working interpretation does not by itself settle its Method, mechanism law, semantic equivalence, or success. |
+| binding-aware equality representation | Tiurin, Ghica, and Hu, ["E-Graphs With Bindings"](https://arxiv.org/abs/2505.00807), 2025; Zucker, ["Lifting E-Graphs: A Function Isn't a Constant"](https://arxiv.org/abs/2606.22734), 2026. | Variables, binders, and contexts need explicit representation semantics; ordinary graph equality is not enough. | When equivalence depends on binding or context, state that comparison basis. Alpha-equivalent or graph-equivalent representations do not automatically identify one Method or equivalent claim content. |
+| persistent equality representation | Merckx et al., ["E-Graphs as a Persistent Compiler Abstraction"](https://arxiv.org/abs/2602.16707), 2026. | An equality representation may persist across several intermediate-representation levels while its expression changes. | Persistence of one representation structure across compiler stages is a C.29 representation fact; it does not establish episteme-edition continuity, Method identity, MethodDescription membership, or performed Work. |
+| Historical declarative-versus-imperative programming contrasts | Codd 1970; Kowalski 1979; Selinger et al. 1979; van der Aalst, Pesic, and Schonenberg 2009; Van Roy and Haridi 2004. | Historical lineage and comparison cases; these anchors do not establish the current state of their fields. | Older slogans remain useful recognition cues, but the reader still asks what the artifact asserts and which FPF object that claim concerns. |
 

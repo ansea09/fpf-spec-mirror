@@ -6,12 +6,12 @@ section_id: "C.26.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:5 — Archetypal Grounding"
-line_start: 66580
-line_end: 66587
+line_start: 65541
+line_end: 65548
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,9 +37,9 @@ keywords:
 
 ### C.26.2:5 - Archetypal Grounding
 
-Tell: During an incident, several teams independently stop non-critical releases, reroute support, and prepare rollback evidence before any single manager issues a written decision. Later, a survey asks whether "we had decided to freeze release", and answers conflict.
+Tell: In a constructed incident case, the independently identified incident-response System includes Release, Support and Operations teams. Between 14:00 and 14:30, their deployment logs show non-critical releases held, support-routing records show incident traffic redirected, and rollback artifacts are prepared. No written freeze decision is found for that interval. Later survey answers about whether "we had decided to freeze release" conflict.
 
-Show, System side: the collective bearer is the incident-response organization during a declared incident window. Its carriers include deployment logs, meeting records, escalation messages, rollback preparation, support routing, and release queue changes.
+Show, System side: the bearer is that incident-response System during the stated half-hour. Preparing rollback and changing support routing are observed work; logs, messages and artifact records make those actions inspectable. The observations are not replaced by the later survey.
 
-Show, Episteme side: the supported claim is minimal. The organization acted consistently with a release-freeze readiness posture during window W. The claim does not say every participant knew the same proposition or that the coordination exists apart from the declared evidence carriers. A management directive, playbook, or dashboard effect remains a rival unless evidence narrows it.
+Show, Episteme side: the System acted consistently with a release-freeze readiness posture during 14:00–14:30. Report those coordinated actions in incident communication instead of reporting a unanimous freeze decision. An unwritten directive, playbook, shared alarm or dashboard effect remains a rival explanation; the case does not establish a separate causal mechanism. If a playbook fully explains the actions needed by the receiving use, retain that ordinary account. If a next-day plan relies on the posture persisting, obtain the additional support for that later window. The half-hour reading supplies neither persistence nor release-readiness assurance.
 

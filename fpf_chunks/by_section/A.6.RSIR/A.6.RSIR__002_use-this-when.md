@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:0 — Use This When"
-line_start: 21785
-line_end: 21802
+line_start: 21419
+line_end: 21436
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,11 +59,11 @@ keywords:
 
 **Plain name.** Relation-signature-interface-role-slot recovery.
 
-Use this pattern when relation, signature, interface, assignment, enactment, slot, field, parameter, argument, endpoint, port, API, protocol, connector, capability, affordance, method, function, concern, interest, Markov-blanket, computational-boundary, or active-inference-boundary wording hides which FPF object or claim kind is current. For bare claim-bearing *role*, apply `E.10.ROLE` once. Do not apply RSIR when that step recovers a system-role kind, assignment, capability, Work, deontic relation, evidence use, another direct object, or ordinary non-use. Apply RSIR only when the still-unanswered question concerns direct participation, a reusable declaration, an interface, an operation declaration or binding, or a representation position.
+Use this pattern when engineering wording such as *role*, *interface*, *signature*, *slot* or *parameter* hides the object or claim needed by the task. For bare claim-bearing *role*, apply E.10.ROLE once. If it identifies the direct object and rule or settles ordinary use, proceed with that result. Use RSIR only for a remaining question about direct participation, a reusable declaration, an interface, an operation declaration or binding, or a representation position.
 
 **Primary EntityOfConcern.** The EntityOfConcern is one encountered use of an ambiguous engineering phrase together with the claim that this use is intended to carry. RSIR recovers the direct governed object, direct relation and participant meaning, actual participant, declaration-local `SlotSpec` or operation declaration, exact operation application and binding, assertion- or description-side designation, representation position and correspondence, or claim before selecting its subject pattern. The phrase remains wording in an episteme or in speech; it is not the world-side object, occurrence, value, or relation named by the recovered claim.
 
-**Primary working reader.** The first reader is an FPF pattern author, reviewer, or practitioner repairing a phrase before selecting the subject pattern. The downstream reader is the engineer, manager, analyst, or steward who needs the repaired phrase to preserve useful project language without minting a shadow ontology.
+The intended reader is an FPF practitioner, author or reviewer repairing an engineering phrase so that its next user can recover the object, rule and action it concerns.
 
 **First useful move.** Recover the project concern first, then recover the current governed EntityOfConcern or claim kind. As soon as the applicable definition, constraint, or test is clear, apply that rule and stop the RSIR repair. Keep a reduced-use source label only when no governed value is being asserted.
 

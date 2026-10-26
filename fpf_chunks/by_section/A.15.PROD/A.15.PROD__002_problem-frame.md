@@ -6,12 +6,12 @@ section_id: "A.15.PROD:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:1 — Problem Frame"
-line_start: 33035
-line_end: 33072
+line_start: 32591
+line_end: 32628
 dependencies:
   - "A.1"
   - "A.10"
@@ -71,5 +71,5 @@ The practitioner **MUST NOT** substitute one branch's conclusion for another bra
 
 **Not this pattern when.** Practitioners **SHOULD** use `A.15.1` directly when the only question is what work occurred; `A.3.4` when the only question is what actually changed; `A.3.1` when the only question is the reusable way of doing; the direct identity pattern when only entity identity is current; or the direct evaluation, delivery, acceptance, release, publication, availability, evidence, or assurance pattern when only that neighboring claim is current. This pattern coordinates those objects only for a selected production-recovery question.
 
-**No-mint disposition.** Authors and modelers **MUST NOT** introduce `U.ProductionWork` as a U-kind. They **MUST NOT** introduce `WorkProducesEntityRelation`, `EntityIdentityInceptionByWorkRelation`, `ProductionWorkRelation`, or `ProductionCompletionRelation` as universal relation kinds. The default result is one local C.2.1 claim episteme per selected question under A.6.RCD disposition 2. Repeated use of the same predicate with the same participant meanings in one subject practice may justify one reusable predicate-definition episteme in the pattern that defines it for that practice. Consider a derived relation-kind candidate only when a named later action must refer again to the same obtaining relation occurrence rather than merely reuse the predicate; A.6.RCD and later admission govern that continuation.
+**Local claim and ontology boundary.** This pattern introduces neither a production-Work U-kind nor universal production, inception or completion relation kinds. The default result is a local compound claim under A.6.RCD disposition 2; identify its C.2.1 episteme when a receiving use needs that separate identity. A reusable predicate-definition episteme is justified when its parameterized participant meanings serve a named use. Consider a derived relation-kind candidate when a named use needs an obtaining occurrence as a participant, comparison object or otherwise identified relation; A.6.RCD and later admission govern that continuation.
 

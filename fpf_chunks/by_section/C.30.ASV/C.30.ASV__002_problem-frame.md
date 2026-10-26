@@ -6,12 +6,12 @@ section_id: "C.30.ASV:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:1 — Problem frame"
-line_start: 73304
-line_end: 73344
+line_start: 72254
+line_end: 72294
 dependencies:
   - "A.1"
   - "A.10"
@@ -69,7 +69,7 @@ Use this pattern when you have a structural description of one selected architec
 
 The first useful move is small. In ordinary prose, name the described holon or actual `ArchitectureRelation` when known, the selected structure, the smallest useful structure-kind set, any qualifier that changes interpretation, and the next architecture move. If one or two sentences make those values clear, stop.
 
-For example: “The failover diagram describes runtime-interaction and control structures, but it hides the actual failover relation. Recover that relation before relying on the diagram as a view.” This is already a usable triage result. Use `ArchitectureStructureKindTriage@Project` only when the result must be retained, compared, or handed on.
+For example: “The failover diagram describes runtime-interaction and control structures, but it hides the actual failover relation. Recover that relation before relying on the diagram to decide whether failover works.” This is already a usable triage result. An adequate sentence can be retained, compared, or handed on. Use `ArchitectureStructureKindTriage@Project` when its fields help that work.
 
 ```text
 ArchitectureStructureKindTriage@Project:
@@ -94,7 +94,7 @@ ArchitectureStructureKindTriage@Project:
 
 `@Project` is a compatibility and retrieval cue for a project-side use record. It supplies no project identity, authority, context, viewpoint, parthood, or Work occurrence. When one actual project matters to this triage, `projectWorkOccurrenceRef` identifies the composite `U.Work` recovered under `A.15.6`. Include `architectureStructuralViewProjectUseRelationRef` only when a named pattern defines the relation by which this use concerns that Work and an occurrence of the relation obtains. A Work reference alone does not establish project locality. If locality matters but that relation is not yet defined, use A.6.RCD before filling the field; otherwise omit both project-local fields. `claimPatternRefs` points only to patterns that define or test separate claims; it does not identify a pattern-application occurrence.
 
-Start with `C.30` when the actual architecture relation, exact selected structure, or architecture claim is unclear. Use C.30.ASV only when a structural description over selected architecture-relevant structure changes the next architecture use. Use the full `ArchitectureStructuralView` record only when one exact description episteme passes E.17.0 conformance to an exact viewpoint and the view changes action, selected reliance relation, correspondence, source return, publication, comparison, or another non-ASV claim or use.
+Start with `C.30` when the actual architecture relation, exact selected structure, or architecture claim is unclear. Use C.30.ASV only when a structural description over selected architecture-relevant structure changes the next architecture use. Claim `ArchitectureStructuralView` only when the exact description episteme passes E.17.0 conformance to the exact viewpoint. Use the fuller record when its organized fields help the intended action, correspondence, source return, comparison or other use; adequate existing wording remains sufficient.
 
 What goes wrong if C.30.ASV is missed: one favored diagram, module view, TEVB viewpoint, generated relation graph, control sketch, or neural-network block diagram is treated as the architecture, selected structure, `U.View`, or proof without naming the exact description episteme, selected structure kind, viewpoint-conformance occurrence, hidden or lost structure, correspondence, and next architecture use.
 

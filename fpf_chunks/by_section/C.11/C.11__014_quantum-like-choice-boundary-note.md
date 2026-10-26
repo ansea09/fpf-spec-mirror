@@ -6,12 +6,12 @@ section_id: "C.11:12a"
 section_title: "Quantum-like choice-boundary note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__014_quantum-like-choice-boundary-note.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:12a — Quantum-like choice-boundary note"
-line_start: 57288
-line_end: 57320
+line_start: 56392
+line_end: 56424
 dependencies:
   - "A.10"
   - "A.13"
@@ -68,7 +68,7 @@ When the question leaves local choice, apply the subject pattern instead of stre
 | Question that appears in the decision case | First pattern |
 | --- | --- |
 | Boundary interaction, API read, workshop, dashboard, or message changes the represented state | `C.26.1` only for the remaining state or probe question, with `A.6`, `A.6.B`, and `A.6.P` still active |
-| Cross-context export, translation, or same-label comparison loses state or comparability | `F.9` |
+| Cross-context export, translation, or same-label comparison loses state or comparability | Use the direct source/use rule; apply `F.9` when the use requires correspondence between different local senses. |
 | Coordinated work evidences a state no report faithfully carries | `A.15` plus evidence patterns, with `C.26.2` only for the remaining low-recoverability distributed-state reading |
 | Measurement, metric, survey, or score frame changes the represented state | `C.16` plus evidence patterns |
 | Viability envelope, adaptation cost, or boundary-maintenance decision is load-bearing | `C.25` for a quality bundle with several differently typed contributors; `C.26.3` for a multi-characteristic viability envelope under disturbance when a candidate intervention, boundary condition, adaptation cost, or failure mode matters. Add `C.26` for a remaining probe/export/frame/coarsening question only when an exact contextual-model obstruction still changes what may be inferred or done after the ordinary patterns have carried their part. |

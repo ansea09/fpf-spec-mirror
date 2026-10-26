@@ -6,12 +6,12 @@ section_id: "E.18:6.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:6.1 — Bias-Annotation"
-line_start: 109893
-line_end: 109902
+line_start: 108713
+line_end: 108722
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

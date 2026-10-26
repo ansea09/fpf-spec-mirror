@@ -6,12 +6,12 @@ section_id: "C.11.MV:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:intro — Intro"
-line_start: 57971
-line_end: 57977
+line_start: 57069
+line_end: 57075
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -27,5 +27,5 @@ keywords:
 > **Type:** Method pattern
 > **Status:** Stable
 
-> **Primary working result:** `keep`, `revise`, `replace`, `branch`, or `stop` for one named Method decision, or a retained set with its limitation when the choice remains unresolved. The result makes current alternatives, domain results, burdens, capability and System demands, side effects, opportunity costs, reversibility, evidence strength, and trade-offs explicit. It states what the selected action preserves, creates, or changes and the qualification window. Bounded evidence may inform another Method-repertoire decision without transferring this decision or a broader claim.
+> **Primary working result:** `keep`, `revise`, `replace`, `branch`, or `stop` for one named Method decision, or a retained set with its limitation when the choice remains unresolved. The result compares the receiving contribution and full burden of the current alternatives, then states what the selected action preserves, creates or changes within its qualification window. Bounded evidence may inform another Method-repertoire decision without transferring this decision or a broader claim.
 

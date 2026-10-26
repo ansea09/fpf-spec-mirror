@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:4 — Solution"
-line_start: 10999
-line_end: 11049
+line_start: 10906
+line_end: 10956
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"
@@ -31,12 +31,12 @@ Identify variants only through changed reusable Method semantics, preserve admis
 
 1. **Name the maintenance use.** Identify the practitioner or decision that needs the repertoire, the Method family or candidate lineage in scope, the situation and qualification window, and what selection, reuse, comparison, or retirement action the entry must support.
 2. **Recover each subject and status.** Identify every `A.3.1`-admitted Method and every candidate account separately. A parent Method, candidate child, MethodDescription, representation, support configuration, and Work occurrence keep different identities and statuses.
-3. **Recover the semantic baseline.** From the parent or earlier candidate, record the reusable operations, dependencies, entry and stop rules, roles in the way of doing, required relations, and applicability claims that matter to the maintenance use. Include the inclusion and decision rules that make professional judgments operational when those rules affect the reusable way of doing. Do not use a file diff as the semantic baseline.
+3. **Recover the semantic baseline.** From the parent or earlier candidate, record the reusable operations, dependencies, entry and stop rules, participant conditions, required relations, and applicability claims that matter to the maintenance use. Include the inclusion and decision rules that make professional judgments operational when those rules affect the reusable way of doing. Do not use a file diff as the semantic baseline.
 4. **Classify the observed change.** Separate changed reusable Method semantics from description wording, representation, publication, tool, prompt, support, capability, organizational System or selected structure, assignment, permission, authority, and local Work deviations. For every non-semantic change, name the changed object, the separately governed maintained result, the exact claim or edition affected, and the next maintenance, reconsideration, or stop action. For a representation change, locate the affected claim in the one-action C.37 result or, when several unlike Method-related actions are related, in the C.37.MP profile. Use step 8 for the complete maintained profile basis. Name a direct predicate and its participants only when the disposition relies on that obtaining relation; otherwise assert no path or relation occurrence.
 5. **Construct the proposed child account.** State preserved semantics, changed semantics, reason for change, intended situations, required capability and support conditions, and the limits of the available evidence. A traceable candidate entry can complete the maintenance use. Select further evidence or a trial through C.11.DUA only when its obtainable result could change the receiving decision enough to warrant the full burden. If no reusable semantic difference remains, maintain an edition, support, or Work result rather than a variant.
 6. **Establish derivation without inheriting admission.** Record the source Method or candidate, change Work or source account, changed positions, chronology when relevant, and evidence supporting the derivation claim. Then admit the proposed child independently under `A.3.1` or keep it as a candidate.
 7. **Bind evidence to the right semantics and situation.** Attach available A.3.1.WT trial observations, A.3.1.CC corrections, A.3.1.FT fit or transfer results, and C.11.MV worth decisions only to the Method or candidate semantics, situation, support, capability, alternative set, and window they actually concern. Parent evidence does not automatically cover the child.
-8. **Maintain descriptions, Method representation profiles, and support relations separately.** Name current A.3.2.DE MethodDescription editions, complete C.37.MP profiles, A.15.8.MS method-base and support results, publications, tools, prompts, and any exact access or use relation that serves the variant use. For every [C.37.MP profile](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37mp42---record-the-result) retain the shared MethodDescription or candidate-account source, one complete C.37 claim group for each unlike action, cross-use correspondences, conflicting omissions, edition relations, decisions to keep representations separate, and conditions for reconsidering several selections. A changed result, edition, or relation does not by itself change variant identity.
+8. **Maintain descriptions, representations and support relations separately.** Name the MethodDescription editions, direct one-action C.37 results or complete C.37.MP profiles, and A.15.8.MS method-base or support results relied on by the maintained use. Include publications, tools, prompts and access or use relations only when that use depends on them. For every [C.37.MP profile](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37mp42---record-the-result) retain the shared MethodDescription or candidate-account source, one complete C.37 claim group for each unlike action, cross-use correspondences, conflicting omissions, edition relations, decisions to keep representations separate, and conditions for reconsidering several selections. A changed result, edition, or relation does not by itself change variant identity.
 9. **State applicability and selection uses.** Record supported situations, defeated situations, missing evidence, capability and support conditions, current alternative set, and the receiving decision that may use the entry. Use A.19 selected-set semantics for a non-trivial repertoire choice; the entry itself selects nothing.
 10. **Maintain currentness and retirement.** State source, evidence, edition, situation, and qualification windows; superseding or defeating evidence; review trigger; and what retirement means for this use. Preserve historical and other-use access when the Method or candidate still matters elsewhere.
 11. **Return the maintained repertoire and non-variant dispositions.** Report admitted variants, candidate lineages, applicability and evidence gaps, current entries, retired entries, and the smallest repertoire claim reopened by defeated applicability, evidence, currentness, or retirement evidence. For every non-variant, report the changed object, separately governed maintained result, exact affected claim or edition, and next maintenance, reconsideration, or stop action. Do not assign repair authority or invent a relation when the governing result and next action are sufficient.
@@ -47,12 +47,12 @@ Identify variants only through changed reusable Method semantics, preserve admis
 | --- | --- |
 | maintenance use | Practitioner or receiver, repertoire decision, situation, qualification window, and stop. |
 | subject and status | Parent and child Methods or candidate accounts; separate descriptions, representations, support results, Work, and evidence. |
-| semantic baseline | Reusable operations, dependencies, entry and stop rules, roles in the way of doing, relations, and applicability claims relevant to the use. |
+| semantic baseline | Reusable operations, dependencies, entry and stop rules, participant conditions, relations, and applicability claims relevant to the use. |
 | change classification | Changed reusable semantics; for each non-variant, the changed object, separately governed maintained result, exact affected claim or edition, and next maintenance, reconsideration, or stop action. |
 | derivation | Parent, proposed child, change basis, chronology when material, preserved semantics, changed semantics, and evidence reach. |
 | admission branch | Independent Method admission or status-preserved candidate account and missing admission basis. |
 | applicability and evidence | Situations, capability and support conditions, the available evidence and decisions from step 7, alternatives, gaps and qualification windows, all bound to the right semantics and receiving use. |
-| edition and support links | Current descriptions; current C.37.MP profiles with the complete basis named in step 8; method-base editions, publications, tools, prompts, and support results for each maintained use. |
+| edition and support links | Relied-on descriptions; direct one-action C.37 results or C.37.MP profiles with the complete basis named in step 8; method-base editions, publications, tools, prompts, and support results for each maintained use. |
 | currentness and retirement | Current selection uses, source and evidence windows, defeating conditions, retirement meaning, retained history, and reopen trigger. |
 | return | Maintained admitted-variant repertoire and candidate lineages; non-variant dispositions in the same four-part shape; the smallest defeated repertoire claim when one exists; and limits on what the repertoire establishes. |
 
@@ -62,7 +62,7 @@ Teams stop using version labels and project names as Method identities. They can
 
 The repertoire becomes smaller and more useful. Local departures can remain Work evidence, descriptions can evolve without multiplying Methods, and real semantic branches receive applicability, evidence, currentness, and retirement conditions.
 
-#### A.3.1.MV:4.4 - Minimal Constructed Variant Replay
+#### A.3.1.MV:4.4 - Constructed Variant Case
 
 Continue the temperature-sensor review chain. `M-Unit-Review-1` is admitted with reusable semantics: identify every source unit, normalize values, compare with declared tolerance, and stop on an unresolved mismatch. C.11.MV retained it for reports whose sources can use different unit systems.
 

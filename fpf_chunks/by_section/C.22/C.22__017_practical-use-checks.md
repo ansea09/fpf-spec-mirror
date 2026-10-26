@@ -6,12 +6,12 @@ section_id: "C.22:14"
 section_title: "Practical Use Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__017_practical-use-checks.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:14 — Practical Use Checks"
-line_start: 63172
-line_end: 63178
+line_start: 62150
+line_end: 62156
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -34,6 +34,6 @@ keywords:
 
 - If two candidate approaches are answering different `TaskKind`s or different `ScopeSlice(G)` cuts, a direct comparison is not admissible yet.
 - If specialization is the live question, the task-family reference, threshold target, adaptation budget, and freshness or provenance basis should already be recoverable from the assigned `TaskSignature` edition.
-- If crossing, normalization, or missingness changes what comparison means, state that in the signature and its cited refs rather than hiding it in code, local memory, or explanatory prose.
+- If crossing, normalization or missingness changes the comparison, state the relevant meaning and rule in the signature or its cited basis. Ordinary explanatory prose is sufficient when it supplies that declared content; an undocumented assumption is not.
 - If `QD` or `OEE` heads are in scope, archive and generator fields belong in the same typed signature rather than in a detached explanatory appendix.
 

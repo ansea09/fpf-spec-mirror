@@ -6,12 +6,12 @@ section_id: "A.6.B:5"
 section_title: "Quadrant specifications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__007_quadrant-specifications.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:5 — Quadrant specifications"
-line_start: 14890
-line_end: 15001
+line_start: 14593
+line_end: 14704
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -52,9 +52,8 @@ keywords:
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
-  - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
-  - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
@@ -66,9 +65,7 @@ keywords:
   - "evaluation"
   - "individual institution"
   - "laws"
-  - "may"
   - "not a duty.)"
-  - "not normative"
   - "observable effects and evidence"
   - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
   - "or (iii) assign responsibility or enforcement (that is D-*)"
@@ -111,7 +108,7 @@ EntityOfConcern need not itself be a description and may be Work.
 
 **Intent.** Specify when a mechanism application is admissible: runtime entry predicates, validity gates, and applicability checks that require context or execution environment. An `A-*` predicate may consume a separately established result as one input, but it does not create or settle that result. If the sentence uses permission wording, choose its job with the branch in §8.4.1.
 
-**Common mistake #0 — Applicability ≠ Admissibility (informative).** Signature `Applicability` scopes *intended use and bounded context*; it is not a runtime entry gate. Runtime entry checks and admissibility predicates belong in `U.Mechanism.AdmissibilityConditions` as `A-*`. If prose reads “clients must satisfy the applicability”, separate the `A-*` gate from either a generic `D-*` prescription or, when independently instituted, an individual duty linked to that gate.
+**Applicability and admissibility.** Signature `Applicability` scopes intended use and bounded context; runtime entry predicates belong in `U.Mechanism.AdmissibilityConditions` as `A-*`. If prose says “clients must satisfy the applicability”, first recover whether it means the declared scope or an actual entry condition. State the generic `D-*` prescription, or the independently instituted individual duty, separately and reference the condition it actually requires. Classify that condition as `A-*` only when it is an entry predicate.
 
 **Adjudication.** In‑work: evaluated at mechanism entry (or operationally at the point the mechanism is applied).
 
@@ -157,7 +154,7 @@ The assertion states and supports a claim about the relation. Its fields, public
 **Prohibitions.**
 
 * A generic `D-*` statement **MUST NOT** invent an individual bearer or commitment; name its exact normative source and rule content. An individual-duty `D-*` statement **MUST NOT** use “the system, service, interface, or specification” as a vague subject; name the actual duty-bearing system or separately governed party and exact `U.Commitment`, with an assignment only when the constitutive rule uses it as a ground. Use `A.6.C` when ambiguity in promise, utterance, approval, guarantee, or agreement-like boundary wording changes the claim's interpretation or use.
-* A `D-*` statement **MUST NOT** restate `L-*` or `A-*` predicates in new words when an ID exists; it **SHOULD** reference the ID or canonical location.
+* A `D-*` statement **MUST NOT** give a referenced `L-*` or `A-*` predicate a different meaning. It **MUST** reference that predicate by ID or canonical location when its meaning depends on it; a faithful explanation may accompany the reference.
 * A `D-*` statement **MUST NOT** pretend that a duty, commitment, or grant is a law or that writing the claim makes it obtain.
 
 **A.7 EntityOfConcern binding.** A generic `D-*` claim episteme concerns the exact normative rule content it states. An individual `D-*` claim concerns the exact duty, commitment, or grant named by its content and does not substitute for that object. When permission wording is live, the branch in §8.4.1 names the subject pattern and the obtaining or non-obtaining test.
@@ -171,7 +168,7 @@ The assertion states and supports a claim about the relation. Its fields, public
 
 **Intent.** State a truth-conditional result that can be settled only from actual work, evaluation, observation, or produced carriers.
 
-**Adjudication.** In-work or by an exact evaluation of work and its conditions. Reading a subject-pattern description or seeing a record is not enough.
+**Adjudication.** From actual work, evaluation or observation under the claim’s subject predicate. A record can support that judgment through its evidence relation; its presence alone does not settle the claim.
 
 **Canonical form.** Write the ordinary result first, then make recoverable only what settles it:
 
@@ -185,13 +182,13 @@ When permission wording is current, use the branch in §8.4.1 for the exact occu
 
 * `E-*` statements **SHOULD NOT** use RFC deontic keywords; they report adjudicable results rather than obligations.
 * An `E-*` statement **MUST NOT** hide a gate predicate; gate predicates are `A-*`.
-* An `E-*` statement **MUST NOT** assign agency to an interface, record, or publication. For any precise cited Work, first recover each exact actual performer through A.13 and let A.15.1 independently admit the dated Work. Add an exact A.2.1 assignment reference and F.6 only when this claim or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither the assignment nor the performer, and missing or failed F.6 leaves the Work intact. If enforceability or commitment is intended, express a separate `D-*` claim.
+* For a claim about a particular dated Work, first recover each actual performer through A.13 and let A.15.1 independently admit the Work. Ordinary metonymy is usable when the capable performer remains recoverable; an interface, record or publication does not supply a performer merely by being named. Add an A.2.1 assignment reference and F.6 only when this claim or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither the assignment nor the performer, and missing or failed F.6 leaves the Work intact. If a duty or commitment is also claimed, express it separately in `D-*`.
 
 **A.7 EntityOfConcern binding.** An `E-*` claim episteme concerns the exact work effect, evaluated finding, evidence relation, or carrier condition named by its predicate. A record or carrier is a separate object and becomes the concern only when its existence or condition is itself the claim.
 
 **Required references (explicit).**
 
-* If the result is conditioned on a gate decision, the `E-*` statement **SHOULD** reference the relevant `A-*` ID(s) or canonical location(s).
+* If the result depends on an entry predicate, the `E-*` statement **SHOULD** reference the relevant `A-*` claim. If it depends on an actual gate decision, reference the separate `E-*` claim about that A.21 decision result.
 * If another object is needed to settle the predicate, reference that object's subject pattern without importing its quadrant.
 * If evidence is used for reliance, recover the independently established support or evidence-use relation and its basis through A.10; use G.6 when an addressable provenance path is needed. Carrier presence alone is not support.
 

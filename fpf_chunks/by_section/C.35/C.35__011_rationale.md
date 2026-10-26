@@ -6,13 +6,14 @@ section_id: "C.35:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:10 — Rationale"
-line_start: 81408
-line_end: 81414
+line_start: 80235
+line_end: 80241
 dependencies:
+  - "A.13"
   - "A.15.1"
   - "A.15.PROD"
   - "A.2.1"
@@ -58,8 +59,8 @@ keywords:
 
 ### C.35:10 - Rationale
 
-Architecture synthesis increasingly receives results from search, model transformation, LLM proposal, code-agent mapping, DSM modularization, NAS, simulation, benchmark, and source discovery. Refusing those results would waste useful structure. Accepting them as architecture would create false authority. Four readable facts are normally enough to hold the middle position: exact result, actual or proposed organization, next-use condition, and limit or return. The larger record is justified only by a receiving use that depends on its additional distinctions.
+Architecture synthesis increasingly receives results from search, model transformation, LLM proposal, code-agent mapping, DSM modularization, NAS, simulation, benchmark, and source discovery. Refusing those results would waste useful structure. Accepting them as architecture would create false authority. A short account can identify the result, actual or proposed organization and supported next use, with any condition or limitation that affects reliance. The larger record is justified only by a receiving use that depends on its additional distinctions.
 
-The separation among claim-bearing result, modal architecture claim, obtaining A.22 structure, represented object, C.29 representation, publication occurrence or form, presentation carrier, bearer boundary, eval result, and decision authority is the core ontology of the pattern. Without that separation, C.35 would duplicate C.29, C.32, PAD, ADR, ACE, C.16, C.18, C.19, G.5, E.24.PUB, and the patterns for evidence, assurance, gates, release, methods, and Work.
-The source families explain why the branches differ. MBSE query practice, DSM and MDM work, and code-agent mapping expose discovery questions about extraction basis, observation, inference, unexplored regions, uncertainty, and validation. Graph grammars and model transformations expose the distinct need for exact source and result objects, trace, preservation, and loss. Multi-objective NAS and LLM-assisted design expose proposal questions about constraints, proposed organization, omissions, and validation without inventing a source structure. GonzoML shows why source labels still need recovery before any branch can support candidate admission.
+The result can carry a proposal, describe an obtaining structure or serve as a representation. Its selected use determines which distinctions and supporting results matter: representation correspondence, feasibility, evaluation, publication or decision authority, for example. Obtain each required result under its own subject rule; a mathematical representation used as a lens retains C.29 conditions.
+The source families explain why the branches differ. MBSE query practice, DSM and MDM work, and code-agent mapping expose discovery questions about extraction basis, observation, inference, unexplored regions, uncertainty, and validation. Graph grammars and model transformations expose the distinct need for exact source and result objects, trace, preservation, and loss. Multi-objective NAS and LLM-assisted design expose proposal questions about constraints, proposed organization, omissions, and validation without inventing a source structure. The GonzoML intake supplies neural operation vocabulary; resolve a source label when its meaning is unclear and changes the branch-specific claim or use.
 

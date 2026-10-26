@@ -6,12 +6,12 @@ section_id: "A.6.A:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:3 — Forces"
-line_start: 22144
-line_end: 22154
+line_start: 21749
+line_end: 21759
 dependencies:
   - "A.15"
   - "A.16"
@@ -57,5 +57,5 @@ keywords:
 * **Opportunity vs obligation.** Not every invitation is a gate or commitment.
 * **Option plurality vs premature scalarisation.** Several candidate actions may co-exist without an admissible total ordering.
 * **Cross-tradition dialogue vs false unification.** The framework should preserve parallels without asserting identity.
-* **Progressive closure.** An action cue may later become an option, then a policy hook, and only later a formal gate or work plan.
+* **Different continuations.** A cue can support inquiry, an action option or an existing policy application; each requires its own grounds, with no compulsory sequence.
 

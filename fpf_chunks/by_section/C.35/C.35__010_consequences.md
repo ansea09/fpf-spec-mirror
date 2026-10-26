@@ -6,13 +6,14 @@ section_id: "C.35:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:9 — Consequences"
-line_start: 81393
-line_end: 81407
+line_start: 80220
+line_end: 80234
 dependencies:
+  - "A.13"
   - "A.15.1"
   - "A.15.PROD"
   - "A.2.1"
@@ -60,14 +61,14 @@ keywords:
 
 Positive consequences:
 
-- Generated or discovered results can enter architecture work without becoming authority. Ordinary use stops after one sentence or four lines; the optional dossier appears only for a real downstream dependency.
+- Generated or discovered results can enter architecture work without becoming authority. Ordinary use can stop with a sufficient account; additional detail appears only for a receiving dependency.
 - C.35 keeps the result-use return visible. If the exact result cannot support the next architecture claim, repair returns to that result, the obtaining structure or modal organization it concerns, the missing condition, and the required rule or test; the return never turns the proposal into an A.22 member.
 - C.32 continues to define candidate-palette admission. C.35 supplies the result-use boundary that C.32 may need.
 - Search, query, transformation, and AI-assisted results become auditable without conflating claim-bearing content, represented objects, representations, publication items, and carriers.
 - Reusable generator governance stays outside C.35 until explicitly opened, which prevents one-case result review from becoming a hidden method or mechanism-suite pattern.
 Costs and trade-offs:
 
-- C.35 adds an admission step before fast use of generated outputs. That is a real cost when teams want quick candidate expansion.
+- Assessing a result takes attention. Reuse a sufficient account; obtain further detail when it can change the warranted next use.
 - Some outputs will be useful but not yet admissible. The repair is not to discard them or fill irrelevant preservation rows; it is to supply the missing branch-specific basis, bearer boundary, validation, or next claim plus its required rule.
 - The pattern is intentionally narrow. It does not choose among alternatives, manage archives, define eval programs, or authorize work.
 

@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:2 — Solution"
-line_start: 72568
-line_end: 72716
+line_start: 71536
+line_end: 71684
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,11 +54,11 @@ keywords:
 
 ### C.30.AD.BA:2 - Solution
 
-Start with one intended architecture use, not with the available tool outputs. Name the exact built asset and recover the actual subject-relation occurrences and exact selected A.22 structures that matter. Cite an obtaining `ArchitectureRelation` only when its C.30 predicate holds; otherwise keep required, desired, expected, candidate, negative, or unresolved content in a bounded `ArchitectureClaim`.
+Start with one intended architecture use, not with the available tool outputs. Name the exact built asset and selected A.22 structures that matter. Recover subject-relation occurrences when making actual-relation claims; a proposed arrangement can remain candidate content. Cite an obtaining `ArchitectureRelation` only when its C.30 predicate holds; otherwise keep required, desired, expected, candidate, negative, or unresolved content in a bounded `ArchitectureClaim`.
 
 Constitute each architecture description under C.2.1 about exactly one EntityOfConcern: the built asset, one obtaining `ArchitectureRelation` occurrence, or one exact selected structure. Keep its exact ClaimGraph and effective `U.ReferenceScheme` recoverable. The same episteme is a `U.View` only while a separately identified E.17.0 conformance relation to one exact viewpoint episteme obtains. Then recover reference designation, model exchange, source use, representation, publication, and currentness through their own objects and relations.
 
-For a first controlled use, record only the references needed to make the next architecture move:
+For a first use, make the relevant descriptions, structures, reference designations, sources and allowed use recoverable. Ordinary wording is sufficient when it answers the question; stop there. The following record can organize the references when that helps the receiving work:
 
 ```text
 BuiltAssetArchitectureDescriptionUse@Project:
@@ -94,7 +94,7 @@ BuiltAssetArchitectureDescriptionUse@Project:
   descriptionFreshnessClaimRefs?: FinSet(U.EpistemeRef)
   publicationCurrentnessRelationRefs?: FinSet(U.RelationRef)
   admissibleUse:
-  nextGoverningPatternApplicationRef:
+  nextGoverningPatternApplicationRef?:
   nonAdmissibleUse:
 ```
 
@@ -112,7 +112,7 @@ When ISO 19650 discipline is invoked, cite the exact published part and edition 
 
 #### C.30.AD.BA:2.1 - Recover the selected structures before combining views
 
-For every included view, state the exact candidate description episteme, its selected-structure EntityOfConcern, the architecture concern for which it is used, the exact viewpoint episteme, and the obtaining E.17.0 conformance occurrence. A geometry or coordination model can expose several structures, but the file boundary does not select one structure or grant view membership.
+For every included architecture structural view, state the exact candidate description episteme, its selected-structure EntityOfConcern, the architecture concern for which it is used, the exact viewpoint episteme, and the obtaining E.17.0 conformance occurrence. A geometry or coordination model can expose several structures, but the file boundary does not select one structure or grant view membership.
 
 | Encountered description | First recover | Architecture-description use |
 | --- | --- | --- |
@@ -122,7 +122,7 @@ For every included view, state the exact candidate description episteme, its sel
 | Control or operational model | Exact selected control structure under `C.30.LCA`, together with direct control, measurement, Work, and currentness relations. | Cite the control description/view without treating live values, a dashboard, or the LCA diagram as architecture adequacy or proof. |
 | Cost, schedule, operation, maintenance, sustainability, or energy view | The exact description episteme and selected structure; then any measurement-result episteme for a claimed Characteristic under `C.16`, operation or maintenance Work under `A.15.1`, positive temporal aspect under `C.27.TA` or action-guiding temporal claim under `C.27`, causal use of an intervention, maintenance action, simulation, telemetry change, or claimed effect under `C.28`, and evidence, reliance, or assurance under `A.10` or `B.3`. | Keep the description or view, measured Characteristic, Work, temporal aspect or claim, causal-use question and verdict, currentness boundary, evidence, and assurance distinct; cite its source-to-use path and `G.11` validity or reopen condition. |
 
-This last row is a distinct recognition-and-routing branch, not a new auxiliary-view kind and not a claim that every such description is an architecture structural view. Admit one as `U.View` only through the same exact selected-structure EntityOfConcern, viewpoint, and independently obtaining E.17.0 conformance required of every other view; return each embedded claim to the owner named in the row.
+The last row is a recognition branch, not a new auxiliary-view kind. An asserted architecture structural view must have the selected-structure EntityOfConcern, viewpoint and independently obtaining E.17.0 conformance required by `C.30.ASV`. Another `U.View` keeps its own EntityOfConcern and E.17.0 viewpoint conformance without thereby becoming an architecture structural view. Return each embedded claim to the applicable pattern named in the row.
 
 A single IFC publication may carry source descriptions for several rows. Conversely, one selected structure may be the EntityOfConcern of several descriptions and may be represented or published several times. `C.30.AD.BA` therefore keys each use to exact description identity, selected structure, view conformance, built-asset trace, and declared use rather than to a file, platform, package, or view count.
 
@@ -153,7 +153,7 @@ The designation use permits retrieval and cross-description coordination. Part-w
 An IFC exchange or another machine-readable model is a representation and publication of one or more epistemes. Its schema relations can preserve valuable source structure. Before using it as architecture-description content:
 
 1. identify every source episteme used, its representation, and the publication occurrence, form, and carrier;
-2. recover the exact actual subject-relation occurrences and A.22 selected structures represented by the relation data being used;
+2. recover the A.22 selected structures and the status of the relation content being used; identify actual subject-relation occurrences only when asserting that those relations obtain;
 3. record the source-to-use path into the exact architecture description or view episteme;
 4. state the admissible architecture use and any lost, inferred, unknown, stale, or unavailable relation content.
 
@@ -163,7 +163,7 @@ An exchange checker can use a computer-interpretable specification to evaluate w
 
 The phrase *digital twin* can cover a model episteme, software system, sensor systems, telemetry epistemes, simulation methods, operational Work, interfaces, representations, and publications. Recover each current object by its direct kind and relation. `C.30.AD.BA` uses only the exact descriptions and views that contribute to the built asset's architecture-description use.
 
-When one declared architecture-description use crosses design-side and run-side material, fill the optional by-value record named by `designRunSeparationUse`:
+When one architecture-description use crosses design-side and run-side material, identify the descriptions on each side and the correspondence needed for that use. Preserve an adequate existing explanation; the optional by-value `designRunSeparationUse` record can organize it:
 
 ```text
 BuiltAssetDesignRunSeparationUse:
@@ -186,11 +186,11 @@ BuiltAssetDesignRunSeparationUse:
 
 This is a by-value classifier for one built-asset description use, not a new FPF kind, a generic tag, or a relation constructor. `designSideDescriptionRefs` cite exact epistemes used for intended, required, proposed, or design-state material; `runSideDescriptionRefs` cite exact as-built, observed, operating, inspection, or maintenance-state epistemes. The classification is local to the declared use, not intrinsic to an episteme. If one publication carries both, identify the exact description or ClaimGraph loci before classifying them.
 
-Every referenced object and relation keeps its subject pattern. C.2.1 governs description identity; `A.15.1` governs each exact `U.Work`; `G.11` governs freshness, currentness, and decay; the exact source-use owner governs each source path; the direct correspondence or coupling owner governs an affirmative relation; and `A.10` or `B.3` governs reliance or assurance. `C.28` governs a causal use of telemetry, simulation, maintenance, or a claimed physical or energy change; `C.27` continues to govern the temporal adequacy of the change statement. A.3.4 governs an actual physical transformation only when the exact changed referent, boundary, conditions, before/during/after facts, and continuity or reidentification basis are complete. A required or desired effect, live value, simulation result, control-view row, or local design/run classification is not that actual transformation. The local classification states only which already identified references belong on each side of this one cross-lifecycle use. Its nested source and currentness refs must resolve to the same exact refs cited by the enclosing use record, not duplicate or replace them. When an exact side, source path, Work occurrence, currentness boundary, or required direct relation cannot be recovered, state that gap in `blockedMerge` and narrow or block the cross-lifecycle use.
+Every referenced object and relation keeps its subject pattern. C.2.1 governs description identity; `A.15.1` governs each exact `U.Work`; `G.11` governs freshness, currentness, and decay; the exact source-use owner governs each source path; the direct correspondence or coupling owner governs an affirmative relation; and `A.10` or `B.3` governs reliance or assurance. `C.28` governs a causal use of telemetry, simulation, maintenance, or a claimed physical or energy change; `C.27` continues to govern the temporal adequacy of the change statement. A.3.4 governs an actual physical transformation only when the exact changed referent, boundary, conditions, before/during/after facts, and continuity or reidentification basis are complete. A required or desired effect, live value, simulation result, control-view row, or local design/run classification is not that actual transformation. The local classification states only which already identified references belong on each side of this one cross-lifecycle use. Its nested source and currentness refs must resolve to the same exact refs cited by the enclosing use record, not duplicate or replace them. When a required side identity, source path, claimed Work occurrence, currentness boundary, or direct relation cannot be recovered, state the gap and narrow or block the dependent cross-lifecycle use. Use `blockedMerge` for that gap when keeping this record.
 
 | Local anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Design/run collapse | A design description, realized asset description, telemetry episteme, operation or maintenance Work, and physical change are treated as one because a platform links or displays them together. | Fill `BuiltAssetDesignRunSeparationUse` with the exact side-specific descriptions, Work, sources, and currentness refs; cite correspondence, coupling, or transformation only under its subject pattern, or block the merged use. |
+| Design/run collapse | A design description, realized asset description, telemetry episteme, operation or maintenance Work, and physical change are treated as one because a platform links or displays them together. | Recover the side-specific descriptions, sources, currentness and any claimed Work; use `BuiltAssetDesignRunSeparationUse` if helpful. Cite correspondence, coupling, or transformation only under its subject pattern; narrow or block only the use whose needed relation remains unsupported. |
 | Lifecycle view merge | Original design, as-built model, operation record, maintenance Work, and an alleged transformation are merged because one dashboard presents them as one lifecycle view. | Keep each existing object and relation reference explicit; actual change enters only through A.3.4, and identity, parthood, evidence, assurance, or architecture adequacy is never inferred from co-display. |
 
 The twin's coupling to the asset establishes neither parthood nor identity between the digital and physical objects. Connection, synchronization, rendering, bundling, and publication also establish neither architecture relation, selected structure, description truth, empirical grounding, view membership, evidence sufficiency, assurance, gate passage, Work, nor project-use relation.

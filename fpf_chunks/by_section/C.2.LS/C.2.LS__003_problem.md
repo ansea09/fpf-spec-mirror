@@ -6,12 +6,12 @@ section_id: "C.2.LS:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:2 — Problem"
-line_start: 53340
-line_end: 53342
+line_start: 52496
+line_end: 52498
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "C.22:9"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__010_conformance-checklist-normative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:9 — Conformance Checklist (normative)"
-line_start: 63103
-line_end: 63127
+line_start: 62081
+line_end: 62105
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -39,7 +39,7 @@ keywords:
 3. **Unknowns remain typed.** A live unknown remains `unknown`, cites the direct downstream policy, and is not coerced. The acceptance, eligibility, or selector pattern records its own governed result.
 4. **Evidence and assurance are conditional.** When the receiving use relies on evidence or provenance, cite the exact A.10 relation and only the source edition, currentness, and freshness conditions that reliance needs. When a named assurance claim about an exact target claim is current for this receiving use, including when a material-reliance rule requires it, cite its separate B.3 result, applicable assurance lanes, and declared fold. Otherwise the TaskSignature needs neither an evidence dossier nor an assurance fold.
 5. **Cross-semantic use is separated.** Declare `ReferencePlane` for a value or objective head when its interpretation or comparison needs it. A scheme or plane difference alone creates neither a Bridge nor a penalty. Resolve two exact F.17 local senses, test the F.9 predicate, and state any proposed use separately.
-6. **Acceptance thresholds live in CAL.** No acceptance-gate thresholds in CHR or code paths; only in **G.4 AcceptanceClauses**.
+6. **Acceptance thresholds live in CAL.** G.4 AcceptanceClauses govern acceptance-gate thresholds. Signatures and implementations reference those clauses instead of redefining them as CHR properties or hidden constants.
 7. **Selector-use support.** The TaskSignature exposes the scales, units, polarities, and admitted order relations needed by `G.5`; it carries no mixed-scale scalarization or local selector verdict. `G.5` governs the emitted outcome and its source under G.5:4.4b–4.4e, including retained alternatives drawn from a non-dominated front.
 8. **Bridge and use claims remain distinct.** For current cross-semantic reuse, cite the two exact local senses and an actual F.9 Bridge only when its predicate is true. State the action, direction, correspondence rule, tolerated loss, and polarity in a separate bounded-use claim; if the predicate is false, keep the local values separate.
 9. **Packaging is conditional.** Create an F.9 card, terminology row, Name Card, or reusable package only when a named receiving pattern independently needs that artifact. Packaging describes an already tested relation and separate use claim; it establishes neither.

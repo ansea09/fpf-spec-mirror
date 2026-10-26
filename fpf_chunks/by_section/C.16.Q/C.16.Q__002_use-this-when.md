@@ -6,12 +6,12 @@ section_id: "C.16.Q:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:0 — Use this when"
-line_start: 59764
-line_end: 59781
+line_start: 58792
+line_end: 58807
 dependencies:
   - "A.10"
   - "A.16"
@@ -64,13 +64,11 @@ keywords:
 
 Use this pattern when wording such as `quality`, `good`, `fit`, `high-quality`, `quality characteristic`, `quality improved`, or an evaluative `-ility` claim hides which quality or evaluative-characterization use is live.
 
-**Lowest sufficient use.** Keep ordinary praise or quoted source-local wording ordinary when it carries no FPF-governed use. When the evaluative endpoint is already known, publish the form defined for that endpoint directly. Use `qualityTermAscription(...)` only when transitional ambiguity must remain inspectable. Its core bearer, scheme, frame, scope, evaluator/viewpoint, and result boundaries stay explicit; add optional witness, evidence, grounding, Bridge, bounded-use-claim, Card, stance-note, time, plane, and substrate refs only when those branches are live.
+**First useful move.** Identify what is being evaluated and what the speaker means by “quality” here. Use the sentence and its receiving question to distinguish the live alternatives. If the meaning and applicable endpoint are already clear, use that endpoint directly.
 
-**What goes wrong if missed.** A broad quality word becomes a scalar verdict, gate, evidence claim, relation, Bridge, action invitation, or bundle by appearance, while the bearer, scheme, probe/model configuration, comparison configuration, ClaimScope, quality sense, admissible normal form, and applicable endpoint rule remain hidden.
+**Lowest sufficient use.** Keep ordinary praise and source-local description ordinary when no further FPF-governed claim is made. A supported ordinary explanation can settle the ambiguity. Preserve an insufficiently articulated cue under A.16.1 or its possible continuations under B.4.1; do not invent the missing interpretation to complete a record. Use the transitional form only when the remaining ambiguity must be inspected or reused, with the required interpretation basis in §4.1.
 
-**What this buys.** The reader can recover the bearer and interpretation basis, see which probe/model and comparison configurations are active, distinguish evaluator from viewpoint, identify the candidate quality sense and admissible normal form, and take any result, evidence, grounding, Bridge, or relation claim to the pattern that defines or tests it before using the quality word as action guidance.
-
-**First useful move.** Name the bearer, effective ReferenceScheme, probe/model frame, comparison frame or `none`, and ClaimScope; then decide whether the wording is evaluative characterization, characteristic-scale construction, Q-bundle, pattern-quality coordinate, relation construction, an F.9 Bridge or bounded-use claim, an optional F.9.1 stance note, action invitation, or ordinary prose, and apply the pattern for that use.
+**Practical gain.** The reader can distinguish what improved, according to which comparison or evaluation, and what that result supports. A shared quality word no longer substitutes for the relation between different traditions or for a separate evidence or decision claim.
 
 **Not this pattern when.**
 

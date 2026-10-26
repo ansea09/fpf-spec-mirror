@@ -6,12 +6,12 @@ section_id: "C.36:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:1 — Problem frame"
-line_start: 81447
-line_end: 81505
+line_start: 80272
+line_end: 80330
 dependencies:
   - "A.1"
   - "A.10"
@@ -84,7 +84,7 @@ The practitioner gets one small statement of the cultural relations now supporte
 
 Start with one ordinary sentence. For example: `In this dance school, teachers transmit variants through teaching, the festival archive retains and presents records of variants, jury recognition and peer copying select variants, and the current intervention changes how new variants enter the syllabus.` Add the next pattern only when its definition or test changes the action. A qualified current account or a decision to continue the existing arrangement may finish without a new intervention.
 
-When the result must be retained or handed on, use a small card:
+When a card helps retain or share the result, use:
 
 ```text
 CulturalEvolutionCaseCard@Context:
@@ -114,7 +114,7 @@ Many current projects no longer develop one isolated object. They shape, for exa
 
 Cultural evolution is current when the question is how a collective or discipline generates, transmits, recognizes, selects, retains, or changes variants. Memory or canon epistemes, recognition and selection relations, comparison, platform or algorithmic mediation, and changing Method families may all matter.
 
-When the case says that Work was performed, recover each exact actual performer through A.13 and let A.15.1 independently admit the dated Work occurrence and enacted Method. Add A.2.1 and F.6 only when the case or receiving use expressly represents precise assignment-bound attribution; missing or failed F.6 leaves the Work intact. A local system-role kind, classification judgment, assignment species, assignment occurrence, Work occurrence, Method, effect claim, responsibility relation, and family description remain separate.
+When the case says that Work was performed, recover each exact actual performer through A.13 and let A.15.1 independently admit the dated Work occurrence and enacted Method. Include explicit A.2.1 assignment refs and F.6 when the case or receiving use represents precise assignment-bound attribution. The A.13 assignment basis remains required for actual Work even when those fields are omitted; missing or failed F.6 attribution alone leaves independently admitted Work intact while its independent A.13/A.15.1 grounds still hold. A local system-role kind, classification judgment, assignment species, assignment occurrence, Work occurrence, Method, effect claim, responsibility relation, and family description remain separate.
 
 This pattern provides a first-use cultural-evolution case. The same pattern can serve engineering product families, scientific research programs, medical disciplines, pedagogy, music styles, dance styles, organizational cultures, and AI-agent framework evolution because it begins with existing FPF objects and relations rather than domain labels.
 

@@ -6,12 +6,12 @@ section_id: "A.6.A:11"
 section_title: "SoTA-Echoing — choose wording recovery or a domain form by the receiving task"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__012_sota-echoing-choose-wording-recovery-or-a-domain-form-by-the-receiving-task.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:11 — SoTA-Echoing — choose wording recovery or a domain form by the receiving task"
-line_start: 22616
-line_end: 22640
+line_start: 22220
+line_end: 22244
 dependencies:
   - "A.15"
   - "A.16"
@@ -54,7 +54,7 @@ keywords:
 
 [ReKep, PMLR 270 (2025)](https://proceedings.mlr.press/v270/huang25g.html) supplies a concrete form-and-method alternative: language instructions and RGB-D observations can be converted into constraints over 3D keypoints, then used in optimization for robot actions. It is a serious alternative for an actual manipulation task, not a proposed general theory of wording. **Adapt** its explicit interface demand to the last branch in §5.2: use the representation when the receiver needs that plan and has the required inputs. Its manipulation results do not establish the truth of this pattern's handle claim or validate the six-step recovery.
 
-Compare one author pass over the same supplied handle case and receiving question; do not compare that pass with a robot experiment or count absent observations as free inputs:
+Compare the same receiving question and supplied inputs when choosing between recovery and a domain method:
 
 | Receiving task and available basis | Direct source-specific method or form | Recovery-first choice and accepted cost |
 | --- | --- | --- |
@@ -62,14 +62,14 @@ Compare one author pass over the same supplied handle case and receiving questio
 | Produce actions from an already understood instruction, with the domain method and required observations available. | Apply the method's representation and planning procedure directly. | Reuse the established interpretation and continue to that method. Another recovery note has no required role. The ordinary sentence alone does not deliver the executable plan. |
 | Explain differing detections with physical handle facts held fixed, as in §5.3. | A manipulation-command form serves a different output; a source-specific inquiry method is suitable if it preserves that question. | Return the detector question first, then use an inquiry method only if further construction is needed. This avoids silently replacing inquiry with a movement target. |
 
-This is a **local inference** about the stated tasks, supplied information and required outputs. It motivates §4.0a steps 1/5/6, the optional forms in §4.5, and the explicit domain-method continuation in §5.2. It establishes neither a robot effect nor a measured reduction in author effort. The deliberate trade-off is some interpretive work before committing to a form, with that work omitted when an adequate interpretation already exists.
+The choice depends on the task, supplied information and required output. Ambiguous documentation needs interpretation before selecting a form; an already understood action task can proceed directly to its domain method. This reasoning supports the distinction but establishes neither a robot effect nor a measured reduction in effort.
 
 The supporting sources constrain different claims:
 
-* **Hansen (2024), §2**, distinguishes action possibilities from obligations and allows possibilities to escape immediate perception. **Adopt** those distinctions for the physical case; his account of perception supplies no universal ontology for metaphorical invitations. ([Frontiers][1])
-* **Vauclin and colleagues (2023)** review attunement and action calibration in human person-plus-object systems. **Adapt** the distinction to the question about changed detection versus changed capabilities or physical conditions. The human findings do not establish the robot case; its physical rule and evidence remain necessary. ([Springer][2])
-* **Pezzulo and colleagues**, in *Neural representation in active inference*, distinguish roles of generative models in action-perception, planning and imagination. **Adapt** that distinction when recovering a model-side claim from “the model wants”; the model tendency establishes no duty, explicit rationale or performed Work. ([UCL Discovery][3])
-* **MOKA (2024)** supplies a compact point-based interface between image predictions and robot manipulation. **Adopt** the principle of an intermediate form with an actual receiver. Its robot-interface use neither makes such a form compulsory for an inquiry nor provides one obtaining predicate for every invitation. ([Robotics: Science and Systems][4])
+* **Hansen (2024), §2**, distinguishes action possibilities from obligations and allows possibilities to escape immediate perception. **Adopt** those distinctions for the physical case; his account of perception supplies no universal ontology for metaphorical invitations. ([Frontiers][A6A-1])
+* **Vauclin and colleagues (2023)** review attunement and action calibration in human person-plus-object systems. **Adapt** the distinction to the question about changed detection versus changed capabilities or physical conditions. The human findings do not establish the robot case; its physical rule and evidence remain necessary. ([Springer][A6A-2])
+* **Pezzulo and colleagues**, in *Neural representation in active inference*, distinguish roles of generative models in action-perception, planning and imagination. **Adapt** that distinction when recovering a model-side claim from “the model wants”; the model tendency establishes no duty, explicit rationale or performed Work. ([UCL Discovery][A6A-3])
+* **MOKA (2024)** supplies a compact point-based interface between image predictions and robot manipulation. **Adopt** the principle of an intermediate form with an actual receiver. Its robot-interface use neither makes such a form compulsory for an inquiry nor provides one obtaining predicate for every invitation. ([Robotics: Science and Systems][A6A-4])
 
 Reopen the affected recovery when a source-specific meaning or physical criterion changes the supported interpretation, when new observations answer the named gap, or when the receiver now needs an executable interface. Recompare the method if a serious alternative preserves these distinctions with less required work. A new source's date, another field in a record, or shared terminology alone changes none of those conditions.
 

@@ -6,12 +6,12 @@ section_id: "C.22.2:24"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__025_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:24 — Consequences"
-line_start: 64306
-line_end: 64324
+line_start: 63267
+line_end: 63285
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,7 +62,7 @@ keywords:
 
 - FPF gains a clear problem-side output for problematization as the input P2W can use.
 - P2W uses a typed problem-side record rather than a slogan, ticket-shaped wish, or preselected method.
-- `C.22.2` has practical value for FPF when it reduces at least one expensive failure: a wish enters P2W as `TaskSignature`; a preselected work request is treated as the problem; method selection happens before the problem is reviewable; a problem from a set loses `sourceSetRef`; an indicator is used without a declared indicator-use relation; problem-formulation follow-up reason is cited as proof; a stale problem remains active; scalar readiness replaces set-return; or the problem-formulation follow-up reason is inherited across a changed representation without the governing representation-continuity or wording-use relation.
+- A source-grounded formulation can expose that a requested rewrite, selected candidate or indicator change does not yet answer the concern. The next use can then seek the missing distinction, retain alternatives or stop before unnecessary work.
 - Current archive, pool, front, shortlist, set-return, parity, refresh, evidence, and `C.29` patterns are reused instead of duplicated.
 - The positive use of mathematical and first-principles thinking is preserved: it can find missing structure, not only check already-written mathematics.
 - Characterization and parity are no longer optional background when they are prerequisites for problem reviewability.
@@ -73,5 +73,5 @@ keywords:
 - A `ProblemCard` adds a small writing step before P2W. The cost is justified only when the signal is not yet reviewable before downstream use.
 - The practitioner keeps the card small: preserve the split between problem, task, method, work, and result; keep `TaskSignature` minimal; and add conditional fields only when their relation is current.
 - For problems emitted from archives, pools, fronts, selected sets, or portfolios, the practitioner preserves `sourceSetRef` or the set-source relation without turning the card into a portfolio, archive, selected-set, or work-planning carrier.
-- External or source-local terms may guide recognition only when they change a concrete boundary, field, relation, or validation requirement. Otherwise they remain examples or local cues.
+- Keep source-local or ordinary domain wording when it supplies the needed meaning. Recover its governed object or relation only when that distinction changes the card or its next use.
 

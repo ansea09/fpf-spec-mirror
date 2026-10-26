@@ -6,12 +6,12 @@ section_id: "A.13:1"
 section_title: "Intent & Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__003_intent-context.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:1 — Intent & Context"
-line_start: 28414
-line_end: 28425
+line_start: 27979
+line_end: 27990
 dependencies:
   - "A.10"
   - "A.12"
@@ -42,7 +42,7 @@ keywords:
 
 A.13 separates a precise agency claim from a claim about the holder’s agency characteristics. The former identifies a System’s local kind and obtaining assignment; the latter states the characteristics the receiving use needs.
 
-This pattern builds directly on the FPF Kernel. A.1 establishes that the acting holder must be a `U.System`. A.2 and A.2.1 distinguish a local system-role kind, classification by that kind, and an obtaining occurrence of a directly declared `U.SystemRoleAssignment` species. A.12 supplies the acting-side externalization principle.
+A.1 establishes the holder as a `U.System`. A.2 and A.2.1 distinguish a local system-role kind, classification by that kind, and an obtaining occurrence of a directly declared `U.SystemRoleAssignment` species. A.12 helps recover the acting and changed participants when that distinction matters.
 
 This distinction serves three uses:
 

@@ -6,12 +6,12 @@ section_id: "A.15.9:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__006_worked-cases.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:5 — Worked cases"
-line_start: 32507
-line_end: 32528
+line_start: 32065
+line_end: 32086
 dependencies:
   - "A.10"
   - "A.13"
@@ -33,7 +33,7 @@ keywords:
 
 #### A.15.9:5.1 - Reuse closes a payroll scheduling question
 
-An administrator asks whether moving one contractor submission from Thursday to Friday will miss the current pay run. Before requesting new payroll Work, the administrator finds a dated payroll result covering the same payroll entity, cutoff, and calendar edition. The source is current for employee payments but explicitly excludes the contractor batch.
+An administrator asks whether moving one contractor submission from Thursday to Friday will miss the current pay run. The existing Thursday submission is already admissible under the contractor arrangement; only the proposed later date is unresolved. Before requesting new payroll Work, the administrator finds a dated payroll result covering the same payroll entity, cutoff, and calendar edition. The source is current for employee payments but explicitly excludes the contractor batch.
 
 The administrator returns: “Use the current result for employee items. Keep the contractor submission date unchanged; the checked source does not cover that batch.” The present scheduling answer is complete, while permission to move the contractor item remains unestablished. If moving it later becomes valuable enough to warrant an obtainable contractor-cutoff result, step 3 selects that acquisition.
 

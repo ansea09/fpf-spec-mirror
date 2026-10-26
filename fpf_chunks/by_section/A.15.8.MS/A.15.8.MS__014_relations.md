@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__014_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:12 — Relations"
-line_start: 32410
-line_end: 32421
+line_start: 31968
+line_end: 31979
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.15.8.MS:12 - Relations
 
-- A.3.2.DE supplies use-bounded MethodDescription or candidate-account content. The direct branch uses the complete one-result/one-use answer and retains its full applicable C.37 basis only for a later receiving need, without an C.37.MP row or duplicate account. The profile branch consumes C.37.MP's complete action selections and Method-specific cross-use result. A.15.8.MS still owns its separate support-configuration comparison.
+- A.3.2.DE supplies use-bounded MethodDescription or candidate-account content. The direct branch uses the complete one-result/one-use answer and retains its full applicable C.37 basis only for a later receiving need, without a C.37.MP row or duplicate account. The profile branch consumes C.37.MP's complete action selections and Method-specific cross-use result. A.15.8.MS still owns its separate support-configuration comparison.
 - `C.37` governs use-bounded representation selection and co-use. It does not select the support configuration, establish Method status, publication or access, capability, authority, Work, task result, or arrangement adequacy.
 - `A.15.8` governs generic actual-Work or present-WorkPlan performer-support configuration and recovery probes. A.15.8.MS supplies Method-material-specific users, tasks, supports, criteria, and repair returns.
 - `A.19.CPM` governs non-trivial comparison results; `A.19.SelectorMechanism` governs set-valued selection. A.15.8.MS does not turn a configuration pass into a forced winner.

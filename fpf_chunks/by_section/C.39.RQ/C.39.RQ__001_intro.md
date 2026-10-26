@@ -6,12 +6,12 @@ section_id: "C.39.RQ:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:intro — Intro"
-line_start: 83661
-line_end: 83667
+line_start: 82485
+line_end: 82491
 dependencies:
   - "A.3.1"
   - "C.11"

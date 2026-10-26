@@ -6,24 +6,19 @@ section_id: "C.18.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:intro — Intro"
-line_start: 61293
-line_end: 61310
+line_start: 60270
+line_end: 60285
 dependencies:
-  - "A.10"
-  - "A.15.1"
-  - "A.15.2"
-  - "B.1.6"
   - "C.16"
   - "C.17"
   - "C.18"
   - "C.19"
   - "C.24"
   - "G.10"
-  - "G.11"
   - "G.5"
   - "G.9"
 keywords:
@@ -51,16 +46,14 @@ keywords:
 > **Status:** Stable
 > **Type:** Pattern
 
-**Use this pattern when.** Use C.18.1 when a generator, selector, method family, benchmark, or comparison claims that behavior changes with scale, budget, data, model capacity, iteration budget, freedom of action, or another monotone scale variable.
+**Use this pattern when.** Use C.18.1 when a generator, selector, method family, benchmark, or comparison claims that behavior changes with scale—for example, with resource budget, data, model capacity, iteration budget or freedom of action. First name what is scaled, the window and the outcome being compared. Reuse an applicable probe account; new probing is needed only when the required scale claim remains unsupported. If no scale claim is needed, use the ordinary comparison directly.
 
 **What goes wrong if missed.** Teams compare unequal budgets, call coverage telemetry an objective, claim a knee without probe evidence, or assume more scale means linear improvement across a window where the behavior has already changed.
 
 **What this buys.** A compact scale-law lens: declare the scale variables, ScaleWindow, probe points, elasticity class, parity notes, and policy thresholds before treating a scale claim as usable in selection, parity, refresh, shipping, or mathematical-lens work.
 
-**One‑screen purpose (manager‑first).**
-Make **generation/selection** scale‑savvy: at the level of **conceptual descriptors**, declare (a) **which monotone knobs** we would scale, (b) the **ScaleWindow** over which we claim behaviour, and (c) the **elasticity class** we observed—**without** imposing numeric fits or vendor tools at Core level. This surfaces knees early and keeps comparisons lawful and fair across families. (Parity is handled by **G.9**; illumination remains **report-only telemetry** unless a CAL policy promotes it.)
+**Purpose.** Declare which scale variables change, the ScaleWindow and the supported behavior class. Numeric fits remain domain work. G.9 governs parity, and a selector policy must admit any decision use of illumination.
 
-**Builds on.** C.16 (MM‑CHR), C.17 (Creativity‑CHR), and C.18 (Open-Ended Search Archive and Front Stewardship); resource-use and work-cost claims use A.15.1, A.15.2, B.1.6, C.16, and A.10 as applicable.
-**Coordinates with.** C.19 (E/E‑LOG), G.5 (Selector & Registry), G.9 (Parity Harness), G.10 (Shipping), G.11 (Refresh‑Telemetry), C.24 (Agent‑Tools‑CAL).
+
 **Keywords.** scaling law; **Scale Variables (S)**; ScaleWindow; knee; diminishing returns; **iso‑scale parity**; **UNM/NormalizationMethod‑based mapping**; **scale‑probe**; **DoE** (design‑of‑experiments); segmented regression; knee detection.
 

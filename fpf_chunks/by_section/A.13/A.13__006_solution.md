@@ -6,12 +6,12 @@ section_id: "A.13:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:4 — Solution"
-line_start: 28444
-line_end: 28497
+line_start: 28009
+line_end: 28062
 dependencies:
   - "A.10"
   - "A.12"
@@ -66,9 +66,9 @@ The following descriptions state what the five characteristics concern. A measur
 
 1. **Boundary Maintenance Capacity (BMC):** The ability of the System to maintain its own structural and functional integrity against perturbations. The maintained property is the holder’s integrity, not merely the value it controls.
 2. **Predictive Horizon (PH):** The temporal or causal depth of the holder’s internal model. State which depth the claim uses; the horizon is distinct from prediction accuracy.
-3. **Model Plasticity (MP):** The rate at which the holder can update its internal model (`U.GenerativeModel`) in response to prediction errors (`U.Error`). Describe the model update and its rate; evaluate capability acquisition separately under E.10.LRN.
+3. **Model Plasticity (MP):** The rate at which the holder can update its internal model in response to prediction errors. Describe the model update and its rate; evaluate capability acquisition separately under E.10.LRN.
 4. **Policy Enactment Reliability (PER):** The probability that the holder will successfully execute its chosen `U.Method` under operational conditions. The event is successful Method execution; a result or safety claim needs its own basis.
-5. **Objective Complexity (OC):** A measure of the complexity of the `U.Objective` the holder can pursue, from simple set-points to abstract, multi-scale goals. These examples distinguish objectives; a complexity comparison needs a declared criterion and scale.
+5. **Objective Complexity (OC):** A measure of the complexity of the objective the holder can pursue, from simple set-points to abstract, multi-scale goals. These examples distinguish objectives; a complexity comparison needs a declared criterion and scale.
 
 ##### A.13:4.3.1 - Task-family specialization claims
 
@@ -80,7 +80,7 @@ Low-human-overlap or newly discovered task families remain admissible when the t
 
 Engineers and managers can use the **Agency Grade** as a **non-normative, didactic** summary of a profile. The scale runs from 0 to 4; an assurance use that consumes agency characteristics needs their supported values, not this summary.
 
-| Grade | Label | Typical agency-characteristic profile (Conservative Lower Bound) | Archetypal Example |
+| Grade | Label | Illustrative agency-characteristic profile | Archetypal Example |
 | :--- | :--- | :--- | :--- |
 | **0** | **Non-Agential** | `BMC ≈ 0`, `PH ≈ 0`, `MP ≈ 0` | An admitted System whose supported profile has the stated values. A document or another non-System has no Agency Grade. |
 | **1** | **Reactive** | `BMC > 0`, `PH ≈ 0`, `MP ≈ 0` | A thermostat; a simple feedback controller. Follows fixed rules. |
@@ -90,5 +90,5 @@ Engineers and managers can use the **Agency Grade** as a **non-normative, didact
 
 The Grade 0 label summarizes a profile; it does not settle the separate local-kind classification or assignment claim.
 
-The profile states characteristic claims and their supporting evidence; the Grade is a pedagogical summary. A claim about a holder’s Agency Grade requires a corresponding auditable profile under CC-A13.3. The Grade remains unavailable as a normative premise under CC-A13.4.
+The profile states characteristic claims and their supporting evidence; the Grade is a pedagogical summary. An actual Grade claim needs a supported profile and a stated mapping from its values to the label, including thresholds when the mapping uses them. Without that basis, leave the Grade unresolved. CC-A13.3 governs that support; CC-A13.4 excludes the Grade as a normative premise.
 

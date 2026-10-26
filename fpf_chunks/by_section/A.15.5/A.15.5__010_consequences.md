@@ -6,12 +6,12 @@ section_id: "A.15.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:9 — Consequences"
-line_start: 31228
-line_end: 31240
+line_start: 30788
+line_end: 30800
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,7 @@ Benefits:
 
 - Teams can inspect work-entry readiness without flattening plan, preparation, gate, resource, and performed-work claims.
 - The adapted pre-entry Full-Kitting distinctions supply a recognition palette for a local readiness criterion; neither TameFlow nor its source vocabulary governs FPF readiness.
-- Gate and work evidence remain auditable because readiness only cites them when they are current.
+- The result exposes the exact input claims and qualification intervals on which a later gate or work-entry decision may rely.
 
 Costs:
 

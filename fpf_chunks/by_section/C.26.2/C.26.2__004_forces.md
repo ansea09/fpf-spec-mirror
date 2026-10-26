@@ -6,12 +6,12 @@ section_id: "C.26.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:3 — Forces"
-line_start: 66350
-line_end: 66359
+line_start: 65309
+line_end: 65318
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,5 +43,5 @@ keywords:
 | Minimal evidence-bound claim vs useful claim | The pattern must say something useful without claiming group mind or durable hidden ontology. |
 | Evidence vs measurement | Some cases have formal measures; many have traces, commitments, routines, and artifacts instead. |
 | Export need vs export loss | The state often must be summarized for a decision, but the summary may lose the coordination that matters. |
-| Primary source family vs QL lens | Distributed cognition, team cognition, routines, and socio-technical evidence are primary; QL enters only when probe, frame, or export effects are load-bearing. |
+| Primary source family vs QL lens | Distributed cognition, team cognition, routines and socio-technical evidence are primary. QL additionally requires C.26's named residual contextual-model obstruction. |
 

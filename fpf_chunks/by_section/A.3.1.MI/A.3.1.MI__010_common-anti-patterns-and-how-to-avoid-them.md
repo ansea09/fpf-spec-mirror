@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 11361
-line_end: 11370
+line_start: 11263
+line_end: 11272
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -25,7 +25,7 @@ keywords:
 
 | Anti-pattern | Repair |
 | --- | --- |
-| “We trained everyone and rolled out the Method.” | Name the actual training or development result, introduction Work, later Work, and every unobserved position. |
+| “We trained everyone and rolled out the Method.” | Name the actual training or development result, introduction Work, later Work, and any missing observation that the receiving decision needs. |
 | “The tool was available, so the Method was used.” | Recover actual performer Work, enacted Method, direct tool-use relation, and result. |
 | “Management sponsored it, so the team was authorized.” | Recover assignment, permission or authority, Agent basis, and scope separately. |
 | “Results improved after launch, so the Method caused them.” | State timing, alternatives, covarying changes, contribution basis, and residual uncertainty. |

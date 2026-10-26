@@ -6,12 +6,12 @@ section_id: "A.1.SCR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__004_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:2 — Problem"
-line_start: 3547
-line_end: 3556
+line_start: 3542
+line_end: 3551
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -26,7 +26,7 @@ keywords:
 
 ### A.1.SCR:2 - Problem
 
-Without this conditional route, practitioners commonly:
+The following errors obscure the subject needed by the decision:
 
 1. classify every unusual noun before asking what the decision needs;
 2. treat wording, physical embodiment, a system-role label or assignment, or a record as proof of systemhood;

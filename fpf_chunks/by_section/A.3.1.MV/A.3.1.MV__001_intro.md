@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:intro — Intro"
-line_start: 10942
-line_end: 10948
+line_start: 10851
+line_end: 10855
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"
@@ -25,6 +25,4 @@ keywords:
 
 > **Type:** Method pattern
 > **Status:** Stable
-
-> **Primary working result:** a maintained repertoire of admitted Method variants and separately status-preserved candidate lineages, with derivation, preserved and changed reusable semantics, applicable situations, descriptions and support editions, evidence, selection uses, currentness, and retirement conditions. For every non-variant change, the changed object, separately governed maintained result, exact affected claim or edition, and next maintenance, reconsideration, or stop action are visible.
 

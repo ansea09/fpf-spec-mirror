@@ -6,12 +6,12 @@ section_id: "A.15.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:4 — Solution"
-line_start: 31334
-line_end: 31529
+line_start: 30895
+line_end: 31090
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -56,7 +56,7 @@ Use this branch only while the next decision still depends on selecting or reope
 
 **Project-focus decision** is Plain wording for one conforming C.11 `ChoiceResult` over an already-current `OptionSet`. It introduces no project-focus kind, project record, project-partition object, relation kind, or actual project occurrence. If options are still being invented, expanded, or reframed, complete that work under the Method that governs the project question. If the rows are only labels or fragments and the question is several complete ways to obtain the same result, stop here and apply `C.38`. If the hard work is open-ended invention, expansion, or reframing, apply `C.18`. Return only after a current `OptionSet` exists; do not manufacture a winner to enter this branch.
 
-When the result must persist, identify one ordinary C.2.1 episteme through all three identity discriminators:
+When the result needs its own reference, identify its C.2.1 episteme through all three discriminators. Preserve a durable representation when later access requires it:
 
 | C.2.1 discriminator | Project-focus value |
 | --- | --- |
@@ -112,7 +112,7 @@ Only then apply five project-specific qualification tests to the admitted Work:
 
 1. The composite work has a temporary or transient boundary with a start and a completion or termination condition.
 2. An accepted intention episteme states the intended objective and any intended product, service, result, or value. For this qualification, either an existing direct predicate connects its intended-performance designation to the admitted Work and obtains, or one local claim under A.15.2 or A.6.RCD names the plan or decision, designation, Work, applicable policy, and independently obtaining Work facts. If no predicate or claim constructor governs the needed connection, return `missing-governor` and name the unsupported relation; use test 5's `factually unsupported` or `missing-information` result when a governor exists but the case does not support the positive claim. Do not imply a generic plan-or-decision relation.
-3. A work-part and continuity policy says how interrupted, resumed, split, or merged work retains or changes identity; the policy decides an actual ambiguity but does not create the Work or its parts.
+3. Apply A.15.1's Work-part and identity rules. When interruption, resumption, split or merge leaves an identity question that the receiving use must resolve, use the applicable continuity policy. The policy neither creates the Work nor its parts.
 4. At least one independently admitted performed Work occurrence is connected to the composite Work by an obtaining work-part relation.
 5. For each claim used to qualify the project, name what the claim is about—the participating system, affected referent, transformation, result referent, or another subject actually asserted—and say how that subject matters to the Work. Then choose one truthful claim form: state an obtaining direct relation of the needed kind; use a typed `A.6.1` binding for one reusable-operation application; state a local production, inception, or completion claim under `A.15.PROD`, or another relation-defined claim under `A.6.RCD`; or return one non-assertability result. For non-assertability, state whether the reason is `factually unsupported`, `missing-information`, or `missing-governor`. Only `missing-governor` means that no pattern currently admits the relation or claim needed for the question, so only that reason reopens ontology. Project wording and container membership supply none of these links.
 
@@ -138,7 +138,7 @@ Project designation, local system-role classification, and system-role assignmen
 
 When one project question spans operation or use of the project system-of-interest together with production, identity inception, later change, verification, feedback, or recursive builder questions, E.18.NET may select the relevant independently identified TFS or nested-network members. The selection must pass its four A.22 discriminators: direct members, obtaining cross-member relation occurrences, applied constraints, and one `networkUseFrame`; all endpoint bindings must resolve. If a member or relation is ungrounded, keep a Plain proposed network explanation and name the missing member, governor, false or unresolved predicate, occurrence, or binding. The selected network is a non-agentive `U.Structure`, not the project, performed Work, a case, or evidence of work parthood.
 
-If the network-selection judgment must persist, use one ordinary C.2.1 result episteme whose `EntityOfConcern` is the selected network and whose claim says only why it answers the named project question for the stated basis and qualification window. Project Work, transformations, case closure, production, evidence, and decisions remain separate subjects and claims. A record creates none of them and creates no `projectHasNetwork` relation.
+When the network-selection judgment needs a separate reference, identify the C.2.1 result episteme whose EntityOfConcern is the selected network and whose claim explains its use under the stated basis and qualification window. A durable representation may preserve access. Project Work, changes, case closure, production, evidence and decisions retain their own claims; recording the selection establishes none of them or a `projectHasNetwork` relation.
 
 **Use the lightest claim that answers the project-selection question.** A plan or decision designation and every independently obtaining Work, change, production, evaluation, delivery, acceptance, or use fact remain usable. Often the ordinary sentence “this plan designates PumpUnit-3 as the system this upgrade is about” answers a local designation question; do not construct a conjunction around it. It does not by itself establish the participants' common target, agreement or expected contribution. Keep the larger systemic question at its own scope through A.1.STM.
 
@@ -160,7 +160,7 @@ Keep a measure, evaluation result, relation occurrence, event collection, or dat
 
 For a method-side `U.Structure`, identify the constituents, the selected obtaining relations, the applied constraints, and the frame that states the selection question, permitted action, and prohibited overread. Only then may `MethodRelationStructure` serve as a local designator. If any discriminator is absent, keep the direct relations unbundled.
 
-A dated `U.Work` occurrence supports only the fact recovered from it. To show Method enactment, use A.15.1 to state which Method that Work enacts. To show one operation application, name the reusable A.6.1 declaration, the particular application, and its typed argument or result bindings. A shared label, compatible result, trace, record, order, or timestamp establishes neither fact and does not retype Work as a Method or structure.
+A Work occurrence supports only facts grounded in its history and relations. For Method enactment, establish A.15.1 `enactsMethod` for that Work and Method. For an operation application, identify its A.6.1 declaration, application and argument/result bindings. A trace or record may supply evidence; a shared label, compatible result or record presence alone establishes neither predicate and does not retype Work as a Method or structure.
 
 Do not force multi-object event data into one preselected case key or one flattened sequence. Preserve the relevant object and event relations, then select a process execution, grouping, query, or constraint only when the current use needs it. The selection is a modeling decision. A selection-result episteme concerns the observed material and serves as evidence only through an independently obtaining evidence-use relation; neither the selection nor that evidence use establishes Method identity. Stop when the reusable way, selected organization, or transformation-flow question has been answered.
 
@@ -177,7 +177,7 @@ The subject need not be one continuing changed entity. It may be any independent
 
 Do not infer the case subject from a log's case key or from one record format. Object-centric evidence may connect several objects and several possible groupings. Select the grouping the closure question needs and state the information lost by any flattening. CMMN, DCR, Declare, and similar notations can help represent flexible case work, but their usefulness or ease of use is a separate use question; notation does not choose the subject, close the case, or prove that Work occurred.
 
-If a case claim must persist, use one or more ordinary C.2.1 epistemes. A case record remains an episteme and has no participant slots; any `SlotSpec` belongs to the signature of the relation it declares. Split closure, relation, evidence, and network-selection claims when they concern different subjects. Use A.22 only when one named later use must reuse their organization as one selected structure and all four identity discriminators pass.
+When case claims need separate reference, identify their C.2.1 epistemes. A case record has no ontic participant slots; a SlotSpec belongs to the RelationSignature that declares it. Split closure, relation, evidence and network-selection claims when they concern different subjects. Select a structure under A.22 when a current or later use needs that organization and its four discriminators pass; otherwise keep the sufficient direct claims.
 
 You may state the working boundary without asserting a new relation. If a later use requires a relation from the closed case to that use, apply the pattern that defines or tests that relation. If none does, return its participants and `missing-governor`; prose or a record cannot make it obtain.
 
@@ -193,7 +193,7 @@ Project, process, and case wording is only a cue to inspect the claim. Under `C.
 | process repeatability, variation, throughput, or improvement | Select `U.Method` only when the claim concerns the reusable way; select an A.22 `U.Structure` or `TransformationFlowStructure` only when it concerns that admitted organization. Otherwise select the measure, evaluation result, obtaining relation, relation-bearing claim, or admitted collection-as-whole of occurrences actually asserted. |
 | case condition, trajectory, closure, or next downstream use | Select the subject or claim named by the closure question: a continuing referent and its conditions, an episteme edition thread, characteristic bearer or assignment, measurement or result episteme, relation occurrence, Work, decision, or another directly identified subject. Name the downstream receiving use but keep it outside the closed case. |
 
-One description keeps one truthful `EntityOfConcern`. When independent claims have different direct subjects, keep separate epistemes rather than inventing a union concern. An E.17.0 viewpoint episteme states the concern and conformance rules for a description; it does not turn different direct subjects into views of one entity. When accounts with different `EntityOfConcern` values must be related, keep each episteme and its own viewpoint-conformance judgment explicit, then state the correspondence relations required by the Work that uses those accounts; source-event proximity creates neither conformance nor a new multi-view family.
+One description keeps one truthful `EntityOfConcern`. When independent claims have different direct subjects, keep separate epistemes rather than inventing a union concern. An E.17.0 viewpoint episteme states the concern and conformance rules for a description; it does not turn different direct subjects into views of one entity. When accounts with different `EntityOfConcern` values must be related, keep each episteme and its own viewpoint-conformance judgment explicit, then state the correspondence relations required by the use of those accounts; source-event proximity creates neither conformance nor a new multi-view family.
 
 If the description needs empirical grounding, identify the admitted grounding holon and the `EpistemeEmpiricalGroundingRelation` defined by `C.2.1`. `GroundingHolonSlot` belongs to that relation's `RelationSignature`; it is not a slot of the description episteme. Project Work, `U.Method`, a selected method-side `U.Structure`, `TransformationFlowStructure`, transformation, and affected referent do not acquire episteme or grounding-relation slots from the account.
 
@@ -219,11 +219,11 @@ Use `projectWorkOccurrenceRef` only for the identified project-work occurrence. 
 #### A.15.6:4.6 - Apply work continuity rather than label or focus continuity
 
 Project-focus succession and actual-project Work continuity are different questions. A changed focus-defining claim, `EntityOfConcern`, or effective scheme identifies another C.2.1 episteme. It becomes another focus edition only through an obtaining `EpistemeEditionRelation` under the project-focus continuation rule in 4.0a; a same chooser or label is insufficient. Neither another focus episteme nor an edition relation continues or reidentifies performed Work. Conversely, one composite Work may continue under its declared A.15.1 policy while its focus episteme changes.
-For interrupted, resumed, split, merged, or performer-changing project Work, apply the A.15.1 work-part and continuity policy:
+For interrupted, resumed, split, merged or performer-changing project Work, recover the actual history and apply A.15.1's identity and Work-part rules. Use a continuity policy when the named use still needs a boundary judgment:
 
 - performer or team replacement changes participation and A.13/F.6 bases but need not change parent-Work identity;
-- interruption and resumption remain episodes of one parent Work or become linked Work occurrences according to the declared policy;
-- split and merge use work-part, containing-work, predecessor, successor, or new-Work identities;
+- interruption and resumption may be episodes of one parent Work or later occurrences; establish their identities and the applicable part or locally declared resumption relation, using a continuity policy only for the remaining ambiguity;
+- split and merge require independently identified Works and the obtaining Work-part or other direct relations actually claimed; predecessor or successor wording needs its own governed predicate;
 - failed or terminated Work remains actual project Work even when its intended result is absent or adverse; and
 - continuous operations qualify as a project only when one finite composite Work first passes independent A.15.1 admission and obtaining work-parthood, then passes the five project-specific qualifications; any precise assignment-bound performer attribution is a separate later F.6 result.
 

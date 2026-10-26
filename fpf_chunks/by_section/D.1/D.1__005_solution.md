@@ -6,12 +6,12 @@ section_id: "D.1:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:2 — Solution"
-line_start: 90756
-line_end: 90847
+line_start: 89576
+line_end: 89667
 dependencies:
   - "A.1"
   - "A.1.CSD"

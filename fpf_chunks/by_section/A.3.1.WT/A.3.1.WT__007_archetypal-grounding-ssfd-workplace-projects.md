@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:5"
 section_title: "Archetypal Grounding - SSFD Workplace Projects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__007_archetypal-grounding-ssfd-workplace-projects.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:5 — Archetypal Grounding - SSFD Workplace Projects"
-line_start: 10447
-line_end: 10474
+line_start: 10363
+line_end: 10390
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,5 +47,5 @@ The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md
 
 In `EC-417`, the three-release statement remains a WorkPlan. The three named-user retrieval, tailoring, and selection-support occurrences from A.15.8.MS establish only those support tasks; they do not perform a release or enact the candidate whole `C-EC-Release-v2`.
 
-For a release trial, apply §4.1(6–9) to the release's own occurrence, support, evidence and authority facts. The observed support tasks do not supply that release Work; until its basis is recovered, return `missing-performed-work`. Even after a release is admitted, keep `C-EC-Release-v2` as a candidate and send the occurrence evidence separately to A.3.1.CC, A.3.1.FT, C.11.MV.
+For a release trial, apply §4.1(6–9) to the release's own occurrence, support, evidence and authority facts. The observed support tasks do not supply that release Work; until its basis is recovered, return `missing-performed-work`. Even after a release is admitted, keep `C-EC-Release-v2` as a candidate and send the occurrence evidence to the selected A.3.1.CC, A.3.1.FT or C.11.MV question.
 

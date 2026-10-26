@@ -6,12 +6,12 @@ section_id: "A.2.9:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__012_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:9 — Consequences"
-line_start: 9033
-line_end: 9047
+line_start: 8973
+line_end: 8987
 dependencies:
   - "A.10"
   - "A.13"
@@ -20,11 +20,11 @@ dependencies:
   - "A.2.1"
   - "A.2.6"
   - "A.2.8"
+  - "A.2.9"
   - "A.6.C"
   - "A.7"
   - "F.6"
   - "U.Method"
-  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "A.13-qualified actual performer"

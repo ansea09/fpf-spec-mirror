@@ -6,12 +6,12 @@ section_id: "A.6.0:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:7 — Conformance Checklist"
-line_start: 16680
-line_end: 16699
+line_start: 16363
+line_end: 16382
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -52,9 +52,9 @@ keywords:
 7. **Direct relation-pattern governance.** The direct relation pattern defines or constrains obtaining and occurrence identity.
 8. **Typed-declaration boundary.** Reused participant meanings are declared inside a `RelationSignature` by A.6.5 SlotSpecs with exact SlotKind, ValueKind, and refMode. Operation arguments and results remain A.6.1 declaration content. Mathematical operands and field order remain representation-side under A.6.3.RT; C.29 opens only when a named mathematical lens changes the declared lens use or next comparison action. An operand-to-participant correspondence is stated only for an already governed relation claim.
 9. **Semantic locality.** Meaning uses the effective reference scheme; applicability uses the exact claim scope and only qualifiers current for the declaration, such as a relevant time interval, selected `CHR:ReferencePlane`, or genuinely current model-use structure.
-10. **Dependency truth.** Every import names the provider and exact term or law without which interpretation or law replay fails; every provide entry names a dependent declaration that relies on the introduced term or law. Citations and list order do not qualify. SM-1 through SM-4 hold, and a replay cycle is distinguished from a semantic-prohibition verdict.
+10. **Dependency truth.** Every import names the provider and exact term or law without which interpretation or law replay fails; every provide entry names a dependent declaration that relies on the introduced term or law. Citations and list order do not qualify. SM-1 through SM-4 hold, including E.5.3 acyclicity for explicit imports. A cycle in another semantic relation is judged under that relation's own governor.
 11. **Realization boundary.** Mechanism behavior and admission conditions remain with A.6.1.
-12. **Progressive elaboration.** A direct assertion is enough when the task only asks whether the predicate holds; a signature opens when at least two named claims or consumers share declaration content; occurrence identity opens only for a later same-occurrence reference, comparison, qualification, history/change claim, or relation participation. A log or assertion identifier alone opens none of them.
+12. **Progressive elaboration.** A direct assertion suffices when the task only asks whether the predicate holds. A signature opens when a receiving use needs reusable declaration content. Occurrence identity opens for same-occurrence reference, comparison, qualification, history/change or relation participation. A log or assertion identifier alone opens none of them.
 13. **CGUS boundary.** Judge any condition-governed unfolding claim through A.22.CGUS, using the independently identified structure and continuation conditions stated in §4.
 14. **Profile boundary.** FormalSubstrate and PrincipleFrame remain profiles of `U.Signature` rather than new root kinds. A PrincipleFrame names its postulates and the observable distinctions needed to check them, leaves operation and gate admission with their subject patterns, and uses F.9 for a relation between two exact F.17 local senses, citing a Bridge only when its direct predicate obtains.
 15. **Changed object.** Changed exact claim content carried by the `U.ClaimGraph`, exact EntityOfConcern, or effective reference scheme identifies another episteme. Judge A.6.0 membership for that episteme independently, and assert edition, refinement, supersession, or another continuity relation only when its own predicate obtains. A changed use, identifier, publication form, carrier, provider currentness, or G.11 refresh state does none of those things by itself.

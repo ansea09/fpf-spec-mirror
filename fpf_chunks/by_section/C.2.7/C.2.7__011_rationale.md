@@ -6,17 +6,18 @@ section_id: "C.2.7:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:10 — Rationale"
-line_start: 54240
-line_end: 54242
+line_start: 53386
+line_end: 53388
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.18"
+  - "A.19"
   - "B.4.1"
   - "B.5.2.0"
   - "C.2.2a"
@@ -34,5 +35,5 @@ keywords:
 ---
 
 ### C.2.7:10 - Rationale
-The factor-bundle design keeps the representation basis-slot family in the declared language-state chart over `U.CharacteristicSpace` orthogonal to articulation, closure, and anchoring.
+Separate representation factors let the reader compare code organization while assessing articulation, closure and anchoring on their own grounds.
 

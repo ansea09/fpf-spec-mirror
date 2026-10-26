@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 21321
-line_end: 21333
+line_start: 20959
+line_end: 20970
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -34,7 +34,6 @@ keywords:
 
 ### A.6.P.WMR:8 - Common Anti-Patterns and How to Avoid Them
 
-**Informative misuse examples.** The Repair column describes the outcome of applying the checklist; it creates no additional imperative or world-side fact.
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Boundary word as kind | `Input`, `Output`, `Result`, or `Handoff` is used as the entity kind. | The repaired claim restores the entity's admitted kind, related object, direct relation, orthogonal claim dimensions, and governor. |

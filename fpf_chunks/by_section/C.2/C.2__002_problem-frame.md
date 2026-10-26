@@ -6,12 +6,12 @@ section_id: "C.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:1 — Problem Frame"
-line_start: 51208
-line_end: 51211
+line_start: 50376
+line_end: 50379
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,5 +41,5 @@ keywords:
 
 ### C.2:1 - Problem Frame
 
-FPF fixes two archetypal sub-holons: **`U.System`** (physical/operational) and **`U.Episteme`** (knowledge holon). KD-CAL is the primary composition pattern for `U.Episteme`, giving engineers a compact, testable way to say (a) how strictly an episteme is written (**F**), (b) where its exact claim is asserted to apply (**G**), (c) how well that claim is warranted by evidence or severe tests (**R**), and (d) how closely **two** epistemes coincide (**CL**). C.2.1 supplies the constitution test: exact claim content, one exact EntityOfConcern, and one effective `U.ReferenceScheme`. Grounding, edition, viewpoint, view, representation, publication, form, and carrier remain neighboring objects or relations under their direct patterns.
+FPF fixes two archetypal sub-holons: **`U.System`** (physical/operational) and **`U.Episteme`** (knowledge holon). KD-CAL is the primary composition pattern for `U.Episteme`, giving engineers a way to say (a) which expression properties an episteme supplies for the receiving use (**F**), (b) where its exact claim is asserted to apply (**G**), (c) how well that claim is warranted by evidence or severe tests (**R**), and (d) how closely **two** epistemes coincide (**CL**). C.2.1 supplies the constitution test: exact claim content, one exact EntityOfConcern, and one effective `U.ReferenceScheme`. Grounding, edition, viewpoint, view, representation, publication, form, and carrier remain neighboring objects or relations under their direct patterns.
 

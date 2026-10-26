@@ -6,12 +6,12 @@ section_id: "C.3.1:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__011_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:9 — Conformance Checklist"
-line_start: 55202
-line_end: 55216
+line_start: 54341
+line_end: 54355
 dependencies:
   - "A.1"
   - "A.11"
@@ -47,7 +47,7 @@ keywords:
 | Check | Requirement |
 | --- | --- |
 | `CC-C31-1` | Each `U.Kind` individual has a recoverable candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. Practice/source provenance is a comparison cue, not an automatic identity discriminator. |
-| `CC-C31-2` | `U.SubkindOf` cites `E24UK-AR-USUBKINDOF-R5-01`, has exact ordered kind participants, declared applicability, one valid obtaining branch, and participant-determined occurrence identity. |
+| `CC-C31-2` | `U.SubkindOf` has exact ordered kind participants, declared applicability, one valid obtaining branch, and participant-determined occurrence identity. |
 | `CC-C31-2a` | Predicate content, C.2.1 assertion, evidence item, representation edge, scheme and signature editions, and optional occurrence designator remain distinct; none makes the relation obtain by form. |
 | `CC-C31-2b` | Obtaining facts form a preorder. Mutual facts between distinct kinds record classification equivalence for the alignment; a partial order is formed only over equivalence groups when needed. |
 | `CC-C31-3` | Criterion entailment compares exact membership rules under aligned interpretation, or exhaustive evaluation covers a deliberately closed finite domain. Non-exhaustive observations support only the assertion. |

@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 10897
-line_end: 10906
+line_start: 10809
+line_end: 10818
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"
@@ -24,7 +24,7 @@ keywords:
 
 | Anti-pattern | Repair |
 | --- | --- |
-| “It worked in automotive, so it transfers to health services.” | Replay the comparison architecture in the unlike domain; do not join Method, population, or history. |
+| “It worked in automotive, so it transfers to health services.” | Recover evidence for the same Method under the receiving conditions. Tests of another Method in health services do not establish this transfer. |
 | “Project 32 proves the Method failed.” | Identify the representation or applicability claim and the missing receiving evidence first. |
 | “We tailored it, therefore it transferred.” | Check whether reusable semantics changed; if so, return a variant question. |
 | “The workshop participants liked it, so transfer is established.” | Preserve immediate self-report and return missing long-term Work and result evidence. |

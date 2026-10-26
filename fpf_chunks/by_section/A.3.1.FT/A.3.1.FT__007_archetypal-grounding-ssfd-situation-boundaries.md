@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:5"
 section_title: "Archetypal Grounding - SSFD Situation Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__007_archetypal-grounding-ssfd-situation-boundaries.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:5 — Archetypal Grounding - SSFD Situation Boundaries"
-line_start: 10850
-line_end: 10871
+line_start: 10762
+line_end: 10783
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"
@@ -30,7 +30,7 @@ A defensible result may be narrow: Project 11 supplies bounded evidence for one 
 
 #### A.3.1.FT:5.1 - Unlike-Domain and Current-Alternative Probes
 
-The Digital Vaccine action-research case supplies performed validation actions in an operating health-services ecosystem and three plan-perform-evaluate cycles. Use it to replay the A.3.1.FT architecture in another domain, not to claim that SSFD transfers to health services. Its evaluation is ex ante and case-specific.
+The Digital Vaccine action-research case supplies performed validation actions in an operating health-services ecosystem and three plan-perform-evaluate cycles. Use it to examine the A.3.1.FT comparison in another domain, not to claim that SSFD transfers to health services. Its evaluation is ex ante and case-specific.
 
 The sustainable-design workshops supply bounded applications of The Natural Step, Whole System Mapping, and Biomimicry across consumer electronics, furniture, and clothing. They can expose industry and activity differences, but immediate participant self-reports do not establish long-term transfer. The Halogen case shows that practitioner skill, project demands, and organization can accompany cyclic Method adaptation; if reusable semantics changed, route the result to A.3.1.MV instead of expanding one fit claim.
 

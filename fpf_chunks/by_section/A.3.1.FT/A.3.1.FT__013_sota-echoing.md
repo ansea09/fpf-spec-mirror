@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__013_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:11 — SoTA-Echoing"
-line_start: 10919
-line_end: 10930
+line_start: 10831
+line_end: 10839
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"
@@ -22,13 +22,10 @@ keywords:
 
 ### A.3.1.FT:11 - SoTA-Echoing
 
-| Source | Adopted or adapted contribution | Boundary and practitioner implication |
+| Source | Contribution | Boundary and practitioner implication |
 | --- | --- | --- |
-| Yildirim, Campean, and Uddin, [function-modeling evaluation in industry practice](https://doi.org/10.1017/dsj.2026.10056) | Adopt workplace-project strata, reported applications and limitations, later report analysis, and the Project 11 to Project 32 unlike-situation probe. | One automotive OEM, retrospective reports, and SSFD use within a broader methodology establish neither SSFD-only causality nor general transfer. |
-| Schønheyder and Nordby, [design-Method use and evolution in professional practice](https://doi.org/10.1016/j.destud.2018.04.001) | Adopt project demands, practitioner skill sets, organization, and cyclic adaptation as conditions that can change a fit or variant decision. | One multidisciplinary design firm supplies no universal situation taxonomy, causal result, or admitted variant family. |
-| Tsai, Zdravkovic, and Söder, [DBE-design Method action research](https://doi.org/10.1007/s10270-022-01068-z) | Adopt repeated plan-perform-evaluate cycles in an operating health-services ecosystem as an unlike-domain replay of the comparison method. | The evaluation is ex ante and case-specific; it does not prove long-term effect or transfer to the other elicited domains. |
-| Faludi, Yiu, and Agogino, [empirical tests of sustainable-design Methods](https://doi.org/10.1017/dsj.2020.17) | Adopt several Methods, industries, activities, and immediate participant reports as bounded situation-comparison inputs. | Immediate self-report establishes neither long-term product results nor causal superiority or transfer of recombined variants. |
-| Current FPF `A.3.1`, `A.15.1`, `A.2.2`, and `A.10` | Reuse Method admission, actual Work admission, holder-dependent capability, and claim-bound evidence. | A.3.1.FT contributes the source-to-receiving situation comparison and semantic-continuity return; it does not redefine those governors. |
-
-Reopen the pattern when a stronger field method changes which situation dimensions test the limits of the claim, when practitioners cannot separate semantic adaptation from local Work, when transfer decisions repeatedly require another independent result, or when governing FPF identities change the comparison.
+| Yildirim, Campean, and Uddin, [function-modeling evaluation in industry practice](https://doi.org/10.1017/dsj.2026.10056) | Workplace-project strata, reported applications and limitations, later report analysis, and the comparison of Project 11 and Project 32 supply an unlike-situation probe. | One automotive OEM, retrospective reports, and SSFD use within a broader methodology establish neither SSFD-only causality nor general transfer. |
+| Schønheyder and Nordby, [design-Method use and evolution in professional practice](https://doi.org/10.1016/j.destud.2018.04.001) | Project demands, practitioner skill sets, organization, and cyclic adaptation are conditions that can change a fit or variant decision. | One multidisciplinary design firm supplies no universal situation taxonomy, causal result, or admitted variant family. |
+| Tsai, Zdravkovic, and Söder, [DBE-design Method action research](https://doi.org/10.1007/s10270-022-01068-z) | Repeated plan-perform-evaluate cycles in an operating health-services ecosystem provide an unlike-domain example for the comparison method. | The evaluation is ex ante and case-specific; it does not prove long-term effect or transfer to the other elicited domains. |
+| Faludi, Yiu, and Agogino, [empirical tests of sustainable-design Methods](https://doi.org/10.1017/dsj.2020.17) | Several Methods, industries, activities, and immediate participant reports supply bounded situation-comparison inputs. | Immediate self-report establishes neither long-term product results nor causal superiority or transfer of recombined variants. |
 

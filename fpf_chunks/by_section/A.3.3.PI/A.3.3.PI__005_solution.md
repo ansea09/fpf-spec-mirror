@@ -6,12 +6,12 @@ section_id: "A.3.3.PI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.PI/A.3.3.PI__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
   - "A.3.3.PI:4 — Solution"
-line_start: 12759
-line_end: 12828
+line_start: 12634
+line_end: 12703
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"
@@ -48,7 +48,7 @@ For a probabilistic model, compare the distributions of the relevant future resu
 
 One divergent pair refutes sufficiency for a claim covering both cases. Matching a few pairs supports only those comparisons. A general sufficiency claim needs an argument or subject Method covering its stated class; a local counterexample or conditional forecast may already be enough for the present work.
 
-#### A.3.3.PI:4.3 - Choose the least costly useful repair
+#### A.3.3.PI:4.3 - Choose a useful repair by its contribution and cost
 
 Use the missing distinction to choose a repair.
 

@@ -6,12 +6,12 @@ section_id: "A.17:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:4 — Solution"
-line_start: 34633
-line_end: 34666
+line_start: 34041
+line_end: 34074
 dependencies:
   - "A.17"
   - "A.18"
@@ -24,8 +24,8 @@ dependencies:
   - "C.2"
   - "D.3"
   - "E.10"
-  - "U.Dynamics"
-  - "U.PromiseContent.acceptanceSpec"
+  - "F.7"
+  - "F.9"
 keywords:
   - "attribute"
   - "axis"
@@ -63,7 +63,7 @@ To enforce this solution, the following rules apply:
 
 - **A17-R9 (Relational scale anchors).** For relation‑level cases, the Scale’s admissible values **SHALL** be defined over the **tuple** domain (e.g., distances, similarities, inter‑role latencies). Ambiguity that re‑reads a relational Characteristic as unary is **forbidden**.
 
-- **A17-R10 (Intension vs Description).** The **Characteristic** remains the **Characteristic EntityOfConcern**; any rubric, catalogue of levels, or examples are **Description epistemes**. Keep the intensional Characteristic distinct from its descriptive episteme (cf. `U.Episteme` roles: Object–Concept–Symbol).
+- **A17-R10 (Characteristic and description).** Distinguish the Characteristic from an episteme that describes it. A rubric, catalogue of levels or examples can contribute to that description; identify a separate episteme under C.2.1 when the receiving use needs its claim content, EntityOfConcern and effective ReferenceScheme.
 
 #### A.17:4.1 - CharacteristicSpace & Change Reasoning *(Normative/Clarifying)*
 

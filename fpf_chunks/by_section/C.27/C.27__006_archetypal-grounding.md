@@ -6,12 +6,12 @@ section_id: "C.27:4"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:4 — Archetypal Grounding"
-line_start: 67159
-line_end: 67280
+line_start: 66132
+line_end: 66251
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -50,8 +50,6 @@ keywords:
 
 ### C.27:4 - Archetypal Grounding
 
-The cases come before the rare trigger reference because they show where ordinary work should stop.
-
 #### C.27:4.1 - Backlog Reduction Planning
 
 Source claim: “Adding two reviewers for two sprints will double the backlog-reduction rate.”
@@ -78,10 +76,10 @@ supportedUse:
 unsupportedUse:
   causal proof, long-term capacity model, or benchmark superiority
 reopenTrigger:
-  work-mix shift, saturation, quality loss, or no measured reduction after sprint N
+  work-mix shift, saturation, quality loss, or a measured rate after sprint N that does not match the planning estimate
 ~~~
 
-This card does not need a boundary-crossing profile for a local plan choice.
+For a numerical version of this constructed case, let the backlog start at 120 comparable items, the baseline reduction rate be 20 per week, and each sprint last one week with no new incoming items. The doubling assumption gives 40 per week and leaves 40 items after the two sprints. That conditional calculation can inform local staffing discussion without establishing the assumed gain. If the measured first-sprint reduction is 20, there is progress, but the uniform 40-per-week estimate is not met in that sprint. Reassess ramp-up and the remaining estimate before relying on the second-sprint forecast; the first sprint alone does not determine the two-sprint outcome. No boundary-crossing profile is needed for this local use.
 
 #### C.27:4.2 - Braking to Protect Viability
 

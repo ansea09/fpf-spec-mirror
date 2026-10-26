@@ -6,13 +6,14 @@ section_id: "C.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:4 — Solution"
-line_start: 53599
-line_end: 53637
+line_start: 52752
+line_end: 52790
 dependencies:
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.16"
@@ -21,6 +22,7 @@ dependencies:
   - "A.16.2"
   - "A.18"
   - "A.3.1"
+  - "A.3.2"
   - "A.6.3.RT"
   - "A.6.P"
   - "B.4.1"
@@ -32,6 +34,8 @@ dependencies:
   - "C.2.8"
   - "C.2.LS"
   - "C.2.P.DR"
+  - "C.29"
+  - "F.6"
 keywords:
   - "AE0–AE5"
   - "articulation explicitness"
@@ -46,7 +50,7 @@ keywords:
 
 #### C.2.4:4.0a - Kind and characteristic boundary
 
-`U.ArticulationExplicitness` is a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the articulation-explicitness basis slot and ordinal scale discipline for governed episteme publication positions. Local thresholds, route labels, and score-table columns may reference it, but they do not create a separate U-kind.
+`U.ArticulationExplicitness` names the Characteristic assessed here. The `AE0`–`AE5` readings belong to its declared ordinal Scale. A language-state chart binds that Characteristic and Scale in a basis slot under A.19; the Characteristic, a value on its Scale and the chart slot remain distinct. Local thresholds, route labels and table columns may reference them without introducing another U-kind.
 
 #### C.2.4:4.1 - Characteristic specification
 - **Kind:** CHR characteristic.
@@ -75,7 +79,7 @@ The anchors are a starter set. A local use may refine them, but it shall keep th
 - `A.6.P` is only the relational branch. A note does not enter it merely because a table, arrow, or sentence looks relation-shaped.
 - `AE` may justify why an episteme remains in `A.16.1` or `B.4.1` while its branch or required structure is still unresolved.
 - A local threshold shall name both the intended receiving pattern and the branch-appropriate structure it requires.
-- `AE` shall not stand in for closure, confidence, truth, trust, or authorization. High `F` does not imply high `AE`, and high `AE` does not imply high `F`.
+- `AE` shall not stand in for closure, confidence, truth, trust, or authorization. Judge articulation and the C.2.3 expression properties by their own criteria; neither assessment label substitutes for the other.
 
 #### C.2.4:4.4 - Change discipline
 Raising `AE` requires additional recoverable anchors, participants, actions, conditions, bounds, or stable receiving-use structure appropriate to the current branch. Lowering `AE` is admissible under `A.16.2` when a prior articulation proves over-committed, misleading, or routed to the wrong branch.

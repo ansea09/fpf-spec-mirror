@@ -6,12 +6,12 @@ section_id: "A.6.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:3 — Forces"
-line_start: 20173
-line_end: 20184
+line_start: 19832
+line_end: 19843
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"

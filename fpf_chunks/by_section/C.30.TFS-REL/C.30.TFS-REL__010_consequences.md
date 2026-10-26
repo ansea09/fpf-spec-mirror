@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:9 — Consequences"
-line_start: 75098
-line_end: 75106
+line_start: 74043
+line_end: 74051
 dependencies:
   - "A.10"
   - "A.15"

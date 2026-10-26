@@ -6,12 +6,12 @@ section_id: "C.30.AD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__005_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:3 — Forces"
-line_start: 72172
-line_end: 72183
+line_start: 71136
+line_end: 71147
 dependencies:
   - "A.1"
   - "A.10"
@@ -84,5 +84,5 @@ keywords:
 | Viewpoint utility vs viewpoint-as-kind collapse | Viewpoints do not choose the selected structure kind. Use `C.30.ASV`, or the pattern for the particular structural view, to keep viewpoint conformance and structure-kind recovery separate. |
 | Reuse vs freshness | A reused architecture description names its source-to-use path and applicable source or structure edition. A source-return condition is added only when stronger use must return to a named source or the exact defining or constraining ClaimGraph. |
 | Specification-use vs representation and publication | A description can be used as a specification, but specification use is a bounded use of an episteme or publication; it is not the diagram, publication occurrence, publication form, carrier, architecture, or project Work. |
-| Thin C.30 bridge vs full description mechanism | C.30 defines the obtaining architecture relation and bounded architecture claim; C.30.AD defines the heavier description-use account only when durable description use is current. |
+| Thin C.30 bridge vs full description mechanism | C.30 defines the obtaining architecture relation and bounded architecture claim; C.30.AD develops description use; its fuller account is optional when ordinary wording already preserves the needed distinctions. |
 

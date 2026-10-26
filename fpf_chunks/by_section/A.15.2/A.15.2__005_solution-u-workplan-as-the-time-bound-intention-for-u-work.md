@@ -6,12 +6,12 @@ section_id: "A.15.2:4"
 section_title: "Solution - U.WorkPlan as the time-bound intention for U.Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__005_solution-u-workplan-as-the-time-bound-intention-for-u-work.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:4 — Solution - U.WorkPlan as the time-bound intention for U.Work"
-line_start: 29997
-line_end: 30093
+line_start: 29554
+line_end: 29650
 dependencies:
   - "A.10"
   - "A.15"
@@ -87,7 +87,7 @@ A `PlanItem` is a declaration-local content component in one exact `U.WorkPlan`,
 
 Choose only the claims the team will use to coordinate the intended work. The list is an open recognition palette, not a record schema or a kind defined by enumeration. When one row mentions a neighboring relation, state its own participants and predicate rather than treating the row or reference as proof that it obtains:
 
-1. **Target method and description use** — the `U.Method` intended for enactment and, only when one plan claim relies on a particular `U.MethodDescription` episteme, that episteme and the relying instruction, constraint, or justification claim. Call the description an edition only when the C.2.1 `EpistemeEditionRelation` predicate obtains. The description neither identifies the method, constrains or justifies it by itself, nor becomes the enacted object.
+1. **Target Method and description use** — identify the Method intended for enactment. When a plan claim relies on a MethodDescription, cite that episteme and the instruction, constraint or justification it supplies. A.3.2 requires the admitted Method as its exact EntityOfConcern and substantive way-of-doing claims. Call it a later edition only when the C.2.1 `EpistemeEditionRelation` obtains. The plan describes intended Work that is to enact the Method, with a System as its intended performer; the MethodDescription supplies the claims used in planning. These intended relations do not establish an actual Work occurrence.
 2. **Planned window or entry condition** — earliest start, latest finish, timebox, recurrence, blackout period, or another exact intended temporal condition.
 3. **Intended performer and system-role-kind conditions** — an intended performer `U.System` designator, the local system-role kind under which that performer is expected to qualify, its admission conditions, and, only when it already obtains, an assignment occurrence whose species is declared under `U.SystemRoleAssignment` and that is expected to cover later Work. A proposed holder-and-kind pair is not an actual assignment.
 4. **Capability requirement** — an exact A.2.2 threshold or `CapabilityFitCondition` needed for planned work entry. Cite an existing capability claim only when the plan relies on it. The plan establishes neither the holder's actual ability nor fit for the later work interval.
@@ -100,15 +100,15 @@ Choose only the claims the team will use to coordinate the intended work. The li
 
 A method description may describe generic participant meanings and intended effects, but it supplies no planned filling by itself. A desired filling remains planned; an expected result or effect remains expected. Neither establishes a dated Work occurrence admitted under `U.Work`, actual participant, operation application, actual change, returned value, result episteme, produced entity, acceptance verdict, delivery occurrence, or downstream outcome.
 
-> **Didactic guardrail:** No log, telemetry value, performed-work fact, actual participant, or actual result belongs in WorkPlan identity-bearing claims merely because the plan later receives a comparison. Step logic and solver internals remain with the exact Method, MethodDescription, Mechanism, or representation pattern.
+> **Keep the baseline identifiable.** Record later fulfilment or variance claims separately from the plan being compared. A new plan may use actual observations as its basis, but changing its identity-bearing content identifies another episteme under C.2.1. Keep step logic and solver details in the applicable Method or representation.
 
 #### A.15.2:4.3 - Clear distinctions for schedule, process, and workflow wording
 
 | If you say…                                 | In FPF it is…                                        | Why                                               |
 | ------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------- |
 | "The **schedule** for tomorrow's surgeries" | **`U.WorkPlan`** | Episteme declaring intended cases, windows, intended performer Systems and local system-role-kind conditions, resources, dependencies, and targets without asserting occurrence. |
-| "The **workflow** for appendectomy"         | **`U.MethodDescription`** and `U.Method`             | Recipe and semantic way, not a calendar.          |
-| "The **process** already ran at 10:00" | A Work occurrence admitted under `U.Work` only when A.15.1 grounds that dated individual | Identify its performer System, obtaining assignment, enacted Method, temporal extent, and containing System. Add participation, resource use, change, result, acceptance, or outcome only when that separate claim is actually being made. |
+| "The **workflow** for appendectomy" | a `U.Method`, or its `U.MethodDescription` when A.3.2 admission holds | Distinguish the way of doing from the episteme describing that admitted Method; neither supplies a schedule merely by form. |
+| "The **process** already ran at 10:00" | a Work occurrence only when A.15.1 grounds that dated individual | Recover the performer's A.13 core, independent occurrence history, enacted Method, temporal extent and containing-System relation. Add F.6 only for precise assignment-bound attribution and other result or resource claims only when needed. |
 | "The **thermodynamic trajectory**" | a trajectory representation or model; **`U.Dynamics`** only when the episteme meets A.3.3's state-space and transition-law criterion; add exact changed-subject and `U.Transformation` claims only when their direct predicates obtain | A trajectory expression is neither plan nor performed work by form. |
 | "The **plan** assigns Dr. Lee" | **`U.WorkPlan`** carrying a claim about the System intended to perform the Work and its local system-role-kind condition; cite an assignment occurrence and its declared species only when that assignment already exists | The plan does not create or validate an assignment for the performed Work interval. |
 | "The **budget** for Shift-B" | **`U.WorkPlan`** planned resource-budget claim | The plan states the budget. A.15.1 identifies later Work, the applicable resource-use predicate states what it consumed, and B.1.6 aggregates those facts only when a ledger or allocation result is needed. |
@@ -117,7 +117,7 @@ A method description may describe generic participant meanings and intended effe
 
 #### A.15.2:4.4 - Plan mereology (composition of plans ≠ composition of methods or work occurrences)
 
-Keep three separations crystal-clear:
+Keep these three relations distinct:
 
 * **Method composition** admits a composite `U.Method` only when A.3.1/B.1.5 supplies the submethods, whole-forming relations, and whole-level commitments.
 * **Work organization** starts with exact A.15.1 work-part relations. Temporal overlap is an independently governed interval fact under C.27.TA, and coordination is a separate direct claim when it obtains. Shared parentage or overlap creates neither a `ConcurrentPartOf_work` primitive nor coordination.
@@ -151,5 +151,5 @@ A variance question is handled in the same economy. Use a separate local compari
 * **acceptance-target variance:** a separately governed measurement, evaluation, or acceptance verdict against the planned target; and
 * **assignment variance:** for every actual performer, compare the exact obtaining assignment occurrence used by F.6 with the corresponding intended performer and local system-role-kind conditions in the plan. Check the occurrence's directly declared species, actual holder System, assigned local system-role-kind value, every additional participant that the plan constrains, and the part of its covering interval constrained by the plan. Report a **species mismatch** when the actual occurrence instantiates a different assignment species; when the species matches, report an **occurrence-value mismatch** only for a holder, assigned-kind value, plan-relevant additional participant, or interval value that differs from the plan. Do not collapse either comparison into a label match.
 
-> **Manager's view:** A plan that cannot support one exact later local fulfilment or variance question is only a calendar picture for that use, not yet a reliance-bearing WorkPlan.
+> **Manager's view:** A usable coordination plan can stop before later comparison. If a receiving question needs fulfilment or variance, recover the relevant baseline and policy under §4.5; missing comparison grounds limit that use rather than cancelling the plan's membership.
 

@@ -6,12 +6,12 @@ section_id: "A.2.2:14"
 section_title: "Neighboring Claims"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__015_neighboring-claims.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:14 — Neighboring Claims"
-line_start: 5436
-line_end: 5452
+line_start: 5431
+line_end: 5434
 dependencies:
   - "A.1"
   - "A.15"
@@ -33,18 +33,5 @@ keywords:
 
 ### A.2.2:14 - Neighboring Claims
 
-Keep the direct governor of each neighboring value needed by the ability or fit claim:
-
-- local system-role kind, direct system-role assignment, `SystemRoleAssignmentStateRelation`, structure of relations among system-role kinds, or system-role-kind description;
-- method, method family, method description, or algorithm description;
-- work plan, work occurrence, run record, or measurement trace;
-- evidence graph, source record, model card, standard, report, dashboard, publication, or specification-use relation;
-- promise content, commitment, permission, authority relation, or policy decision;
-- `U.Characteristic`, scale row, coordinate, score, metric, indicator, or threshold;
-- `C.25` Q-Bundle, quality-family label, mechanism, status, or evidence slot;
-- architecture-characteristic starter head, project criteria row, eval program, eval reading, selected-structure adequacy claim, or architecture-description concern;
-- capability-fit predicate, gate, admission relation, or work-entry readiness record;
-- structural part, module, interface, port, or functional structure unless the current claim is the ability of a holder system expressed through that structure.
-
-These values may contribute to a holder-ability claim, its support or a receiving fit check. Name the neighboring value, record, relation, or predicate through its own governing pattern when that neighboring claim is current.
+Use the direct pattern for any additional claim that the ability or fit decision consumes. Section 4 distinguishes common ambiguous wordings, and section 13 identifies their governors. Keep the neighboring value's own identity and the contribution it makes to the ability claim, its support or the receiving comparison.
 

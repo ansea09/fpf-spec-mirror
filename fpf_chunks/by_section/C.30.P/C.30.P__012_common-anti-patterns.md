@@ -6,12 +6,12 @@ section_id: "C.30.P:9"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__012_common-anti-patterns.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:9 — Common anti-patterns"
-line_start: 73011
-line_end: 73021
+line_start: 71962
+line_end: 71971
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,5 +67,4 @@ keywords:
 | Function-as-default-architecture | Any function, interface, module behavior, or source label such as block is treated as architecture. | Use `C.30.STRAT` for source-label recovery where needed, then `A.6.F`, `C.30.ASV` functional-structure, `C.30.TFS-REL` transformation-flow structure relation, `A.6.M` module-relation repair, or quality pattern governing the claim. |
 | Score-as-architecture | A score, metric, benchmark, or quality coordinate is used as architecture adequacy. | Apply `C.16.P` and the measurement named by value, characteristic-space, Q-bundle, pattern-quality, gate, or benchmark pattern. |
 | Viewpoint-as-structure-kind | A viewpoint label is used as if it selected structure kind. | Use `C.30.ASV`; recover structure kind and viewpoint separately. |
-| Repair registry duplication | `A.22`, `C.30`, `C.30.ASV`, or a named `C.30.*` host copies architecture or structure first-stage repair lists. | Keep the subject invariant there and use one thin pointer to `C.30.P`. |
 

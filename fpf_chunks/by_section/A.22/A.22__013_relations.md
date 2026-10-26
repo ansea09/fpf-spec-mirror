@@ -6,12 +6,12 @@ section_id: "A.22:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:12 — Relations"
-line_start: 41119
-line_end: 41130
+line_start: 40286
+line_end: 40298
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -78,4 +78,5 @@ Architecture-specific adequacy: `C.33`, `C.34`, and `C.35` define or test archit
 Does not replace: `C.30.P` or `C.30.STRAT` wording-use precision restoration, `C.30` for grounded architecture adequacy and conditional architecture-description use, `C.29` for mathematical-lens use, `C.16` for measurement and characterization, `C.28` for causal-use relation, `B.3` for assurance, `A.10` for claim-bound evidence reliance, `G.6` for citable evidence-provenance paths, `A.20` for internal-constraint validity, `A.21` for gate decisions, the subject pattern for release claims, `A.15` for work-family objects, `C.11` for decisions, `E.17` for a source-backed reader face, or `E.24.PUB` for publication occurrence, form, carrier, audience, bounded use, and availability.
 
 Use `F.19` for ordinary precise-plain-language repair and its plausible-reader test for optional guards; unresolved structure or architecture wording follows `C.30.P` or `C.30.STRAT`.
+
 

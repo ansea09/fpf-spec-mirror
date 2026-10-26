@@ -6,12 +6,12 @@ section_id: "C.27:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:10 — Rationale"
-line_start: 67407
-line_end: 67421
+line_start: 66378
+line_end: 66390
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -60,6 +60,4 @@ C.27 adopts:
 - interval-sensitive practice transfer, including the error introduced by copying static poses or rate words without the timing and effort pattern.
 
 C.27 adapts physical vocabulary into authored-claim adequacy and direct FPF relations. It rejects literal force, mass, acceleration, rhythm, or second-order-process kinds, mandatory calculus, universal control theory, and automatic QL relevance.
-
-The pattern is successful when it improves action quality more than paperwork and remains easier not to use than to misuse.
 

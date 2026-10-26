@@ -6,12 +6,12 @@ section_id: "A.3:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__009_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:8 — Consequences"
-line_start: 9219
-line_end: 9232
+line_start: 9160
+line_end: 9173
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -34,7 +34,7 @@ keywords:
 
 **Benefits**
 
-* **Explainability by construction.** A conforming assertion about performed Work designates the world-side occurrence, each performer System's A.13 basis, enacted Method, and any obtaining F.6 attribution or neighboring description, capability, work-to-change, evidence, or aggregation claim on which the current use relies; actual-change identity remains separately inspectable under A.3.4.
+* **Recoverable Work basis.** A conforming assertion about performed Work designates the world-side occurrence, each performer System's A.13 basis, enacted Method, and any obtaining F.6 attribution or neighboring description, capability, work-to-change, evidence, or aggregation claim on which the current use relies; actual-change identity remains separately inspectable under A.3.4.
 * **Keep system parts distinct from method and edition claims.** A Method, local system-role kind, or description does not become a part of a System by describing its operation; edition succession is also distinct from a part-whole relation. Actual Method-to-Method parts remain governed by A.3.1 and B.1.5.
 * **Composable analytics without hidden ownership.** Exact Work intervals and performed resource-use facts can feed separately recovered B.1.4 or B.1.6 aggregations; the selected policy, evidence, and result remain inspectable at that direct owner.
 * **Local plurality without whole-context bridges.** Exact role taxonomies, ReferenceSchemes, compatibility rules, and use-specific mappings let local practices differ without treating a shared label or one bridge as wholesale equivalence.
@@ -42,5 +42,5 @@ keywords:
 **Trade‑offs**
 
 * **More explicit separation when reliance needs it.** Start with the smallest grounded performer-assignment, Method, and Work claims; add MethodDescription, capability, policy, plan, change, evidence, and aggregation relations only when a named use depends on them.
-* **Discipline for reflexive work.** Modellers must ground distinct acting and changed positions before using a controller–plant or other reflexive split; this adds only the relation claims the use needs and avoids both self-magic and arbitrary decomposition.
+* **Discipline for reflexive work.** Modellers must ground distinct acting and changed positions before using a controller–plant or other reflexive split; this adds only the relation claims the use needs and avoids an ungrounded performer or arbitrary decomposition.
 

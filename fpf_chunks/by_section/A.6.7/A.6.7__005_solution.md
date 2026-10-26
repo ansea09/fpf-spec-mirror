@@ -6,12 +6,12 @@ section_id: "A.6.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:4 — Solution"
-line_start: 24369
-line_end: 24636
+line_start: 23945
+line_end: 24194
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -41,10 +41,7 @@ keywords:
 
 Declare the members and their shared conditions in a `MechSuiteDescription`:
 
-
-
 #### A.6.7:4.1 - `MechSuiteDescription` (data model)
-
 
 `MechSuiteDescription` declares:
 
@@ -54,7 +51,7 @@ Declare the members and their shared conditions in a `MechSuiteDescription`:
 4. **Suite spec pins:** required citations/pins to governing spec refs and other “anchor” references.
 5. **Suite protocols:** allowed pipelines of use (permitted ordering and optional steps), expressed at the descriptive level.
 6. **Suite audit obligations:** required audit/pin visibility for downstream uses (UTS/Path pins, crossing pins, guard pins), expressed as required anchors (not run-time values).
-7. **Notes:** didactic boundaries and anti-pattern warnings.
+7. **Notes:** optional explanations or boundaries needed to interpret or use the suite.
 
 A minimal canonical form:
 
@@ -106,11 +103,11 @@ MechSuiteDescription := ⟨
 * **WF‑MS‑4 (Suite ≠ Mechanism).** `MechSuiteDescription` contains no `OperationAlgebra`/`LawSet`/execution semantics and is not admissible where a `U.Mechanism.*` node is required.
 
 * **Membership is by exact declaration (order-free).**
-  `mechanisms` MUST denote a duplicates-free set of distinct `U.Mechanism` members. Membership order has no semantics; any intended ordering is expressed only in `suite_protocols`. A suite is defined by selected operation declarations and suite protocols.
+  `mechanisms` MUST resolve to a duplicates-free set of member declaration epistemes. Membership order has no semantics; intended ordering belongs in `suite_protocols`. Shared conditions and selected operations determine which joint uses the description permits.
 
 **Declaration reference and edition selection.** `MechanismDeclarationRef` is a reference to an independently identified A.6.1 `U.Mechanism` episteme, not a new kind. Resolve it under the effective reference scheme to its content and EntityOfConcern. The published edition used for that resolution must be explicit or uniquely determined by the cited suite baseline. When several editions qualify, state a selection condition that yields one before using a protocol step; otherwise return the unresolved alternatives. There is no implicit latest.
 
-Changing declaration content, EntityOfConcern or effective reference scheme follows A.6.1/C.2.1 identity. Changing a carrier, layout or citation alone can leave the member unchanged. A changed guard or argument selects a different declaration contract and requires the affected protocol bindings to be checked again. A claim that two declarations concern the same operation family needs that subject's own identity rule; suite membership does not establish it. Distinct declaration contracts can be selected without inventing a universal operation-family kind.
+Changing declaration content, EntityOfConcern or effective reference scheme follows A.6.1/C.2.1 identity. Changing a carrier, layout or citation alone can leave the member unchanged. A changed guard or argument selects a different declaration contract and requires the affected protocol bindings to be checked again. A claim that two declarations concern the same operation family needs that subject's own identity rule; suite membership does not establish it. Distinct declaration contracts can be selected without inventing a universal operation-family kind. A change to a shared specification or policy similarly reopens the steps and downstream results that depend on it. Reuse unaffected conditions and results when their grounds still hold.
 
 * **No substitution by `MechFamilyDescription`.**
   A suite MUST NOT be encoded as a `MechFamilyDescription`.
@@ -122,12 +119,9 @@ Changing declaration content, EntityOfConcern or effective reference scheme foll
 * **No mechanism semantics in the suite.**
   A suite is a **Description**, not a mechanism: it does not define `OperationAlgebra` and does not absorb gate logic.
 
-
-
 #### A.6.7:4.2 - SuiteObligations (canonical obligation vocabulary)
 
-
-`MechSuiteDescription` MAY declare any obligations. The canonical names in §4.1 support reuse across Part G and admissibility-gated characterization stacks; they are not an exhaustive inventory.
+A MechSuiteDescription may state additional shared obligations within the member contracts and applicable FPF rules. The names in §4.1 are reusable examples, not an exhaustive inventory.
 
 `SuiteObligations` SHOULD be written as an explicit, duplicates-free clause set. Select applicable clauses from the canonical vocabulary in §4.1 and state any additional obligations explicitly. The requirements below remain applicable under their stated conditions.
 
@@ -156,7 +150,7 @@ Changing declaration content, EntityOfConcern or effective reference scheme foll
    Well-formedness constraint: `USM.CompareGuard` and `USM.LaunchGuard` denote gate-owned guard events/pins; member mechanisms and suite protocols use `…Admissibility` / `…Eligibility` for guard predicates, not the reserved gate lexemes.
 
 6. **`cg_spec_cite_required_for_numeric_ops`.**
-   Well-formedness constraint: any member operation that performs numeric comparison/aggregation/admissibility-sensitive scoring cites the applicable `CG-Spec` (and relevant subrefs) as spec pins, rather than embedding equivalent local admissibility content.
+   For a suite whose numeric comparison, aggregation or scoring is admissibility-gated under CG-Spec, the relevant member operations cite that specification and its needed subrefs. Keep the admissibility content in the specification; a suite does not create a second local version.
 
 7. **`no_silent_scalarisation_of_partial_orders` and `no_silent_totalisation`.**
    Well-formedness constraint: if a member mechanism induces a partial order, it preserves set-/relation-valued semantics; it does not silently reduce to a scalar/total order. Any totalization is explicit and policy-bound.
@@ -175,10 +169,7 @@ Changing declaration content, EntityOfConcern or effective reference scheme foll
 11. **`finalize_launch_values_in_work_enactment_only`.**
    Well-formedness constraint: `FinalizeLaunchValues` (and any witness of actual launch values) occurs only in `U.WorkEnactment`; neither the suite nor any planned-baseline WorkPlanning plan item is a place for launch values.
 
-
-
 #### A.6.7:4.3 - SuiteSpecPins
-
 
 A `MechSuiteDescription` MUST be able to declare required spec pins as references, not as duplicated content. Canonically:
 
@@ -198,10 +189,7 @@ SuiteSpecPins := ⟨
 * A suite may require an edition/reference baseline in ordinary A.15.2 WorkPlan content. Address it through the exact plan and its local content locator; it supplies no launch value or gate decision.
 * Use A.15.3 typed planned filling only when an existing declaration member independently supplies the position meaning, designation, cardinality and actual-use predicate. A suite Description field is not a SlotSpec or operation argument merely because a plan names it. Missing planned information can remain unknown in the plan; a missing governor requires recovery or definition of that member before typed filling. Actual launch bindings and any FinalizeLaunchValues witness remain with actual enactment.
 
-
-
 #### A.6.7:4.4 - SuiteProtocols
-
 
 A suite MAY describe allowed protocols (pipelines) as descriptive constraints on how suite members are intended to be composed. A `SuiteProtocol` describes the member-operation sequence. Its description:
 
@@ -227,10 +215,7 @@ ProtocolStep := ⟨
 ⟩
 ```
 
-
-
 #### A.6.7:4.5 - SuiteAuditObligations
-
 
 A suite MAY require that downstream use provide certain audit anchors. These are **requirements**, not run-time values. A suite audit obligation MAY include:
 
@@ -244,10 +229,7 @@ A suite MAY require that downstream use provide certain audit anchors. These are
 
 **Norm.** A suite must never publish a `DecisionLog` or `GateDecision`. If the suite requires guard pins, it requires their **presence** as anchors so that the gate-level owner can aggregate `GuardFail`s and decide `degrade|block` per gate profile.
 
-
-
 #### A.6.7:4.6 - Examples
-
 
 **Example 1 — compare two offers and retain the nondominated set.** The question is whether either offer can be discarded without accepting a worse cost or quality. This is a stipulated mathematical use; the following specifications and applications are case facts, not empirical measurements or dated Work claims.
 

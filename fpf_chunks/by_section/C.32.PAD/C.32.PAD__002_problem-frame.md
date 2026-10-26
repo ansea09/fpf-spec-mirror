@@ -6,12 +6,12 @@ section_id: "C.32.PAD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:1 — Problem frame"
-line_start: 79907
-line_end: 80024
+line_start: 78754
+line_end: 78871
 dependencies:
   - "A.10"
   - "A.15"
@@ -97,7 +97,7 @@ Adoption test: after using C.32.PAD, another practitioner can answer: what archi
 
 Not this pattern when the current work is candidate synthesis, architecture-description adequacy, ADR publication projection, adequacy evaluation, evidence, assurance, gate passage, local choice, or performed work. Use the pattern for the next question named in `Relations` for those claims.
 
-The first useful output is `ArchitectureDecisionRelation@Project`:
+The first useful output is a recoverable project architecture decision. The following form can describe `ArchitectureDecisionRelation@Project`; ordinary prose can carry the same required values, and optional or inapplicable branches need not be filled:
 
 ```text
 ArchitectureDecisionRelation@Project:
@@ -173,9 +173,9 @@ ArchitectureDecisionRelation@Project:
   status:
 ```
 
-The filled `ArchitectureDecisionRelation@Project` is the decision result. Its selected option, affected structures, criteria and trade-offs, scope, window, consequences, and status make that result recoverable; a second generic result or context record would only duplicate it.
+The decision result must make its selected option, affected structures, criteria and trade-offs, scope, window, consequences and status recoverable. The relation and a description of it remain distinct; no second generic result or context record is required.
 
 The field names in this first-output form are publication-friendly filled-reference fields. Durable relation positions must be expressible through `A.6.5` SlotSpecs: each position has a local `SlotKind`, an admitted `ValueKind`, and a by-value or concrete `RefKind` filling mode. A field name such as `decisionSubjectRef` is not a SlotKind, not a U-kind, and not an ADR heading; it is the filled-reference field by which this relation record points to the value governed by the slot-bearing relation.
 
-When an instruction cites actual implementation Work, recover each exact actual performer through A.13 and let `actualImplementationWorkRef` name the `U.Work` occurrence independently admitted through A.15.1. Assignment species and occurrence fields remain optional neighboring claims. Add `actualImplementationWorkAttributionRef` only when the instruction or receiving use expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work ref intact. The decision record creates none of these facts.
+When an instruction cites actual implementation Work, recover each exact actual performer through A.13 and let `actualImplementationWorkRef` name the `U.Work` occurrence independently admitted through A.15.1. Assignment species and occurrence fields remain optional neighboring claims. Add `actualImplementationWorkAttributionRef` only when the instruction or receiving use expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 attribution alone leaves the Work ref intact while the referenced Work's independent A.13/A.15.1 grounds still hold. The decision record creates none of these facts.
 

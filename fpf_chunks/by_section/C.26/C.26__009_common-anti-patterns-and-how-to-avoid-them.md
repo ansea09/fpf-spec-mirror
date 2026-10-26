@@ -6,12 +6,12 @@ section_id: "C.26:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 65863
-line_end: 65929
+line_start: 64824
+line_end: 64890
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,22 +63,22 @@ keywords:
 | Hidden search problem | The option menu is frame-bound, but the text tries to solve it by naming QL. | Use QL only as a suspicion cue; apply search patterns to generation and regime movement. |
 | Cell-like service jump | A service or access bearer is called cell-like because it has a boundary or internal state. | Use `A.6.P:4.11a` to recover only the boundary, controlled-exchange, state, viability, behavior, coupling, resource, invariant, repair, or continuity claim the current decision needs, then use that claim's subject pattern. Do not assemble the possibilities as one service bundle. Retain the analogy only for a residual QL issue that changes the decision. |
 
-Near-miss taxonomy:
+Near misses remain ordinary uses unless the separate :4 activation test establishes a contextual-model obstruction.
 
 | Near miss | Why not QL by itself |
 | --- | --- |
-| Feedback loop | Ordinary dynamics/control unless admissible reading, export, or comparison is affected. |
-| Metric gaming | Ordinary metric/incentive problem unless measurement publication changes the state reading. |
+| Feedback loop | Use dynamics/control to recover the effect on reading, export or comparison before testing a further obstruction. |
+| Metric gaming | Publication-induced behavior and its effect on a state reading can remain an ordinary metric/incentive problem. |
 | Uncertainty | Ordinary epistemic uncertainty unless an exact probe/model frame, comparison frame, or effective reference scheme changes variable identity or comparison law and one named contextual-model obstruction remains. |
-| Complexity | Ordinary complexity unless shortcut, export, or probe issue remains. |
+| Complexity | Complexity and a difficult shortcut, export or probe issue do not themselves identify a contextual-model obstruction. |
 | Compression | `A.6.3.CSC`, `A.6.3.RT`, modeling, or implementation pattern first; QL only for state-representation residue. |
 | DDD bounded-context cue | Direct boundary, local-sense, work, and model-use subject patterns first; the label does not identify a universal object or activate QL. Retain C.26 only when a named probe, order, comparison, or export obstruction changes the admissible inference. |
 | Low-bit or quantized implementation | Engineering representation first; not QL because it is "quantized". |
-| Collective behavior | `A.15`, distributed cognition, routines, and evidence patterns first; QL only for low-recoverability state-reading residue. |
+| Collective behavior | `A.15`, distributed cognition, routines and evidence patterns can support a bounded state reading without QL. |
 
 #### C.26:8.1 - Cluster conformance scenarios
 
-Use these as quick applicability tests. A good C.26 use leaves one practical output.
+Use these as quick applicability tests. The ordinary result, including a result supplied by C.26.1–C.26.3, may be sufficient. Only a further named contextual-model obstruction activates C.26; the scenarios do not establish one merely by mentioning a child pattern.
 
 | Scenario | Expected route | Avoid | Expected output |
 | --- | --- | --- | --- |
@@ -95,9 +95,9 @@ Use these as quick applicability tests. A good C.26 use leaves one practical out
 | Assurance load is raised because a QL explanation is published, reused or written formally. | Identify the receiving conclusion and what support it needs under :12b. | Making a fuller record without resolving a consequential question. | Reuse the adequate account; add only the missing mathematical, empirical or assurance contribution needed for the new use. |
 | Author claims QL is faster or better than a classical method. | Require baseline, metric, mechanism, evidence or formal argument, loss/use declaration, ordinary alternatives, and reopen trigger. | Accepting superiority rhetoric. | Either write the claim declaration or remove the speed/superiority claim. |
 
-QL findings can also inform design options to test under the ordinary subject patterns:
+The ordinary accounts and any supported QL finding can inform design options to test under the subject patterns:
 
-| Problem | QL-inspired design option |
+| Problem | Design option to test |
 | --- | --- |
 | Dashboard changes behavior destructively. | Delay publication, split private and public metrics, add independent sampling, or publish confidence and loss boundaries. |
 | Workshop creates alignment but masquerades as discovery. | Record pre-workshop hypotheses, post-workshop commitments, and created boundary meaning separately. |
@@ -108,11 +108,11 @@ QL findings can also inform design options to test under the ordinary subject pa
 
 #### C.26:8.2 - AI and LLM work-cycle route examples
 
-LLM-mediated work cycles often create the same representational mistakes C.26 repairs: false passive read, false faithful summary, false shared comparison frame, and shortcut without loss/use declaration.
+LLM-mediated work cycles can involve false passive reads, overused summaries, unsupported shared comparison frames and shortcuts without loss limits. The routes below recover the ordinary claim first. A C.26 child can supply its ordinary result; QL still requires the :4 activation test.
 
 | AI case | Route |
 | --- | --- |
-| LLM summary of an architecture record | `A.6.3.CSC`, `A.6.3.RT`, and `A.10` first; C.26 coarsening only if a state-representation shortcut is being overused. |
+| LLM summary of an architecture record | `A.6.3.CSC`, `A.6.3.RT`, and `A.10` as applicable; overuse of a summary alone does not activate QL coarsening. |
 | Prompted model evaluation changes model or prompt behavior | `C.16` / `B.3` first; `C.26.1` only if the eval output is treated as a passive model-state read. |
 | Agent work cycle "discovers" requirements | `A.15` / `A.10` / `A.6` first; `C.26.1` only if the interaction created the requirement framing. |
 | Synthetic personas "represent market state" | `A.10` / `B.3` first; `C.26.2` only if a low-recoverability state-reading claim is carefully bounded with non-admissible use visible. |

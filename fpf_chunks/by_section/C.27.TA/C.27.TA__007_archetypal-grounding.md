@@ -6,12 +6,12 @@ section_id: "C.27.TA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__007_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:5 — Archetypal Grounding"
-line_start: 67646
-line_end: 67691
+line_start: 66615
+line_end: 66660
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,7 +55,7 @@ This is a complete first result: exact bearer, cadence predicate, release-train 
 
 A benchmark comparison uses a model report from April and a competitor report from June.
 
-C.27.TA names the source-currentness and validity windows. `G.9`, source-use, evidence, and benchmark patterns carry comparator parity, provenance, and evidence use.
+Name each report's currentness predicate, reference date or edition, and validity window for the comparison. April versus June publication dates alone do not establish that one claim is stale or that the reports are comparable. If no currentness basis is available, retain only the supported dated-report claim. `G.9`, source-use, evidence and benchmark patterns carry the separate parity, provenance and reliance questions.
 
 #### C.27.TA:5.3 - Architecture Recovery Timing
 
@@ -85,7 +85,7 @@ TemporalAspectStatementClaimContent:
 
 A review practice depends on a two-day response rhythm across several review positions and participants. Keep a responsibility claim separate when the temporal account relies on it.
 
-Name a local system-role kind or a separate System-classification judgement only when the receiving claim uses that distinction. If it relies on an assignment, cite the directly declared relation species and its obtaining occurrence with the actual participant values, holder, applicability, and extent under `A.2.1`. An assignment may be current in a plan or availability statement before any response Work occurs; it neither classifies a System nor implies completed Work. Only when the claim says that a System performed dated response Work should the reader first recover that exact performer through A.13 and independently admit the Work under A.15.1. Add F.6 only if the temporal account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact.
+Name a local system-role kind or a separate System-classification judgement only when the receiving claim uses that distinction. If it relies on an assignment, cite the directly declared relation species and its obtaining occurrence with the actual participant values, holder, applicability, and extent under `A.2.1`. An assignment may be current in a plan or availability statement before any response Work occurs; it neither classifies a System nor implies completed Work. Only when the claim says that a System performed dated response Work should the reader first recover that exact performer through A.13 and independently admit the Work under A.15.1. Add F.6 only if the temporal account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds still hold.
 
 C.27.TA names the exact EntityOfConcern, rhythm or cadence predicate, temporal reference, and window. When cross-bearer coordination matters, cite the direct coupling-relation declaration and an obtaining occurrence only after its predicate passes; keep the PatternID as a separate rule citation.
 

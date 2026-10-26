@@ -6,12 +6,12 @@ section_id: "A.17:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:3 — Forces"
-line_start: 34619
-line_end: 34632
+line_start: 34027
+line_end: 34040
 dependencies:
   - "A.17"
   - "A.18"
@@ -24,8 +24,8 @@ dependencies:
   - "C.2"
   - "D.3"
   - "E.10"
-  - "U.Dynamics"
-  - "U.PromiseContent.acceptanceSpec"
+  - "F.7"
+  - "F.9"
 keywords:
   - "attribute"
   - "axis"
@@ -41,15 +41,15 @@ keywords:
 
 ### A.17:3 - Forces
 
--   **F1 – Single anchor of meaning.** Any numeric value is meaningless unless one can ask “value of _what_?”. The measurement’s meaning must be anchored in a single clearly named aspect.
+- **F1 — Recoverable measured aspect.** A reported number needs the answer to “value of what?” before it can be interpreted as a measurement.
 
 -   **F2 – Arity clarity.** Some characteristics apply to a single entity (e.g. its mass or length), while others inherently relate multiple entities (e.g. distance between two points, coupling between modules, agreement between judges). If arity isn’t explicit, claims and calculations become corrupted.
 
--   **F3 – Scale integrity.** Different kinds of scales permit different operations – e.g. you can average temperatures on a common interval or ratio scale but not ranks or grades (ordinal scale) without losing meaning. If one mixes values without regard to scale type or units, the result is nonsense (**pseudo-arithmetic**).
+- **F3 — Scale integrity.** Scale types constrain meaningful operations. A numerical encoding of ordinal ranks does not by itself justify their arithmetic mean; interval and ratio values retain their applicable unit and transformation rules. A calculation also needs the relation or ScoringMethod that gives its result meaning.
 
 - **F4 - Combining measurements.** A measurement model relates quantities to obtain another quantity; a ScoringMethod combines values into a score for a declared evaluation. Each calculation needs its applicable relation and Scale operations. A common numerical encoding alone supplies neither.
 
--   **F5 – Transdisciplinarity.** The measurement framework should work for **any domain**. The same conceptual scaffold must serve physical science (e.g. lab temperature readings), software engineering (e.g. module cohesion ratings), and even subjective assessments (e.g. figure-skating scores) without bias. One vocabulary, many CG‑frames.
+- **F5 — Disciplinary meanings.** The same distinctions can describe a lab temperature, a software-cohesion rating or a judged performance. Each retains its domain definition, bearer, Scale and conditions of assessment.
 
 - **F6 - Revisable state descriptions.** Development can change the Characteristics and state distinctions that matter. The description should support the changes, returns and further questions needed by the practice, including revision of its state space or transition law.
 

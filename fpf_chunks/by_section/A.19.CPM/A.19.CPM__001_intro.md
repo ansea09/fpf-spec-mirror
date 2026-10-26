@@ -6,12 +6,12 @@ section_id: "A.19.CPM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:intro — Intro"
-line_start: 39251
-line_end: 39263
+line_start: 38486
+line_end: 38492
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -28,11 +28,5 @@ keywords:
 > **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Normative (unless explicitly marked informative)
-> **Placement:** Part A, CN-Spec cluster (A.19), CHR mechanism-governing patterns
-> **Source:** FPF, CHR mechanism-governing patterns
-> **Modified:** 2026‑01‑20
->
-> **Governing-pattern note:** this pattern governs the canonical `U.Mechanism` declaration for `CPM.IntensionRef` (CHR suite stage `compare`). Mechanism-intension semantics are governed by explicitly designated governing patterns (`E.20`).
-> `A.6.1` governs the semantic content of a `U.Mechanism` declaration. This pattern specialises that content for CPM through the exact `EntityOfConcernRef`, effective `U.ReferenceScheme`, operation-local argument/result declarations, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, Applicability, and an optional `SignatureManifest`. An obtaining F.9 `Bridge`, its separate C.2.1 bounded-use claim when consumed, any applicable ReferencePlane relation and policy, dated comparison `U.Work`, actual `Compare` operation application with its `ComparisonResultSlot` binding, an A.10 account of exact sources, independently established support relations, currentness and bounded use, G.11 currentness relation, and optional G.9 `ParityPlan` and `ParityReport` remain neighboring objects and relations.
-> Other descriptions of CPM cite `A.19.CPM:4.1` rather than restating its declaration content or absorbing those named neighboring objects and relations into mechanism fields.
+> This pattern declares the CPM comparison operations under A.6.1. Their actual applications, evidence use and any dated Work retain the separate conditions in §4.1.
 

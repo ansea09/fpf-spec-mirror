@@ -6,12 +6,12 @@ section_id: "A.6.C:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:3 — Forces"
-line_start: 15621
-line_end: 15631
+line_start: 15320
+line_end: 15330
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,33 +34,24 @@ dependencies:
   - "U.SpeechAct"
   - "U.Work"
 keywords:
-  - "MUST NOT"
+  - "A.6.B separately classifies the actual claim"
   - "MVPK no-new-semantics"
-  - "OPTIONAL"
-  - "SHOULD"
-  - "a mechanism entry predicate enters A"
-  - "an individual duty"
-  - "and SHOULD NOT enter D for a generic prescription or"
-  - "and an actual A.21 GateDecisionResult"
-  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
-  - "are statement operators"
+  - "OPTIONAL or authority-looking wording is ambiguous"
   - "atomic L/A/D/E rows"
   - "commitment or grant"
   - "dated Work"
   - "description and publication"
-  - "exercise"
   - "four-question contract lens"
   - "gate"
-  - "not ontology or quadrant selectors. MUST"
+  - "marking it informative does not settle the claim"
   - "obtaining versus representation"
-  - "or evaluated finding enters E. If the wording does not expose the branch and direct object"
-  - "or prohibition. MAY"
   - "promise content"
-  - "recommendation-as-duty"
-  - "rewrite it or mark it informative"
+  - "recommendation-as-duty or prohibition enters D. When MAY"
+  - "retain it as bounded source wording with that uncertainty"
   - "separate result and evidence"
   - "speech-act Work"
-  - "when separately instituted for an actual bearer"
+  - "the visible keyword alone does not establish its object or whether an individual relation obtains"
+  - "use the A.6 A6-AW-* branch. If its object or meaning remains unresolved"
 ---
 
 ### A.6.C:3 — Forces

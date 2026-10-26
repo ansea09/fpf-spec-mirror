@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 10295
-line_end: 10304
+line_start: 10211
+line_end: 10220
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"
@@ -29,7 +29,7 @@ keywords:
 | --- | --- |
 | “This account fits, so it is a Method.” | Retain or exclude the account and send identity to `A.3.1`. |
 | “All individual Methods pass, so the architecture is compatible.” | State the unresolved combined structure and use C.32.MWA.PP only when it changes the decision. |
-| “The adapter works, so integration is solved.” | Bound the adapter-feasibility result; compare placement, versioning, responsibility, and failure in C.32.MWA.PP. |
+| “The adapter works, so integration is solved.” | Bound the adapter-feasibility result; use C.32.MWA.PP for placement, versioning, responsibility or failure questions only when the combined arrangement changes the decision. |
 | “Use the same checklist for every subject.” | Ask only applicable questions but preserve the common result positions needed by the decision. |
 | “More evidence is always safer.” | Select evidence by consequence and claim; stop when the bounded decision can be made honestly. |
 

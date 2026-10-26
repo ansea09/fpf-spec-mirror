@@ -6,12 +6,12 @@ section_id: "C.11.DBR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:4 — Solution"
-line_start: 57565
-line_end: 57621
+line_start: 56663
+line_end: 56719
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -80,5 +80,5 @@ The receiving Method makes its own decision and returns that result directly to 
 
 Explain what remains usable, what current result has been obtained and which next contribution is still missing. If the current choice calls for intended work or a revised plan, A.15.2 separately supplies that WorkPlan. Permission, an available performer and actual performance still require their own grounds. Updating a reconsideration account performs none of that work.
 
-Stop when the included uses have a supported preservation answer, an obtained current decision, or a precise unresolved contribution. Stop earlier when a narrower answer completes the receiving question. Preserve a reason and a condition for another return only where later reliance needs them. A new observation, changed use or newly discovered dependency reopens the affected comparison, not every preserved result.
+Stop when the included uses have a supported preservation answer, an obtained current decision, or a precise unresolved contribution. Stop earlier when a narrower answer completes the receiving question. Preserve a reason and a condition for another return only where later reliance needs them. A new observation, changed use or newly discovered dependency can reopen the comparison it could materially change; independently preserved results remain usable.
 

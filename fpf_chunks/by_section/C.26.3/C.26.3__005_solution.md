@@ -6,12 +6,12 @@ section_id: "C.26.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:4 — Solution"
-line_start: 66713
-line_end: 66901
+line_start: 65674
+line_end: 65862
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,18 +43,18 @@ keywords:
 
 Use C.26.3 when the work must regulate a multi-characteristic viability envelope under disturbance. Use `C.25`, `U.Dynamics`, measurement, boundary, causal, and work patterns to state the exact qualities, changes, observations, relations, and Work on which the envelope claim relies. Add `C.26` / QL only under the residual-obstruction condition in §1. If no such obstruction remains, omit the QL fields and checks; do not discard an otherwise useful envelope-regulation result.
 
-Start with this recognition note:
+Start with these recognition questions; ordinary prose can supply the answers.
 
 | Mini-entry | Question |
 | --- | --- |
 | Viability bearer | Is it one System with its A.1 identity, one A.22 `U.Structure` with exact constituents, selected obtaining relations, applied constraints, and a named selection-use frame, or a population/market slice with its own declared basis? A list of system-role kinds and assignment occurrences is not a bearer. |
 | Protected promise / function | Which `U.PromiseContent`, stakeholder value, function, operating regime, commitment payload, or delivery promise is protected? |
-| Envelope variables | Which two to five variables matter, rather than one comfort scalar? |
+| Envelope variables | Which dimensions and bounds must be retained for this viability decision? |
 | Disturbance | What pushes the exact object in the local viability-bearer position outside the declared envelope? |
 | Sensor / probe / candidate intervention | What reads the situation? What change is proposed, which exact object carries that proposal, and what actual Work, transformation, relation, or resulting state exists, if any? |
 | Trade-off / failure | What gets worse, what cost is paid, and what failure would show the envelope move did not work? |
 
-Use the fuller envelope-regulation record below when the viability reading will change a metric, candidate-intervention choice, boundary, staffing, routing, promise, or evidence decision.
+Use the fuller account below when the receiving viability decision needs distinctions missing from the recognition note. Reuse adequate existing content. A supported diagnosis can finish without an intervention proposal.
 
 Full envelope-regulation record:
 
@@ -78,7 +78,7 @@ Full envelope-regulation record:
 
 `Homeostasis` means keeping a parameter or bundle inside viable bounds. `Allostasis` means preserving functioning through separately governed changes to internal settings, external relations, boundary conditions, or operating regime when circumstances change.
 
-Do not say that all architecture is homeostasis. Say that some architecture decisions are viability-envelope decisions.
+Use these terms when their distinction changes the interpretation of the viability decision.
 
 #### C.26.3:4.2 - Finish conditions
 
@@ -129,15 +129,15 @@ Envelope-regulation sequence:
 2. Name the envelope variables and the viable range or qualitative boundary for each.
 3. Name the disturbance or regime change.
 4. Name sensors/probes and say whether they only report, also frame, or also change behavior.
-5. Name each candidate intervention and recover the exact object of the proposal: Method or description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description. Separately identify any dated Work, actual change, obtaining relation occurrence, or resulting state. Work may change an access, permission, assignment, local-sense claim, reference scheme, Bridge description, bounded-use claim, or other world-side object only as its direct pattern permits. If an F.9 endpoint or profile changes, test the resulting Bridge candidate anew; a fixed Bridge occurrence cannot be revised or ended by authority.
+5. When regulation is proposed, name each candidate intervention and recover the exact object of the proposal: Method or description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description. Separately identify any dated Work, actual change, obtaining relation occurrence, or resulting state. Work may change an access, permission, assignment, local-sense claim, reference scheme, Bridge description, bounded-use claim, or other world-side object only as its direct pattern permits. If an F.9 endpoint or profile changes, test the resulting Bridge candidate anew; a fixed Bridge occurrence cannot be revised or ended by authority.
 6. State the boundary condition being preserved or changed.
-7. State the trade-off condition and adaptation cost.
+7. For a proposed regulation, state the trade-off condition and adaptation cost.
 8. State the failure mode and re-probe/destabilization condition.
 9. Add dynamics detail only if rate, inertia, damping, latency, resistance, or acceleration changes the decision.
 
-Ordinary output: produce a viability-envelope record with envelope variables and viable region, a disturbance/sensor/probe map, a candidate-intervention-to-direct-object recovery, and a trade-off, adaptation, and failure condition that tells the practitioner what changes in the work.
+Ordinary output: explain the viability bearer, variables and bounds, disturbance, observations and failure condition. When regulation is proposed, add the identified proposal, trade-off and adaptation cost. A record is useful when its layout helps recover those distinctions; ordinary prose can preserve them.
 
-The output should give one direct next move: revise a MethodDescription or policy episteme; amend a WorkPlan; recover each actual performer's A.13 core and independently admit the Work under A.15.1; if that Work account must also identify the assignment under which it was performed, check the relation separately through F.6; change a setting through a separately grounded transformation; change an access or permission relation when its direct pattern permits; revise a local-sense claim, reference scheme, Bridge description, or bounded-use claim; test a new F.9 candidate after an endpoint/profile change; record the resulting state; or drop the envelope claim.
+Finish with the supported diagnosis or the proposal it warrants. Use the proposal's direct pattern for its development and any later execution or change; keep the supported envelope claim separate from those results. If its necessary grounds are missing, retain only the narrower supported claim or return the missing basis.
 
 #### C.26.3:4.6 - Viability envelope record
 
@@ -159,7 +159,7 @@ failure mode: ...
 re-probe or destabilization condition: ...
 ```
 
-The record is not a new U-kind or a universal architecture constructor. Changing its ClaimGraph content changes the claim and therefore identifies another episteme under `C.2.1`. A new layout, publication occurrence, form, or carrier can leave the episteme unchanged. New evidence can change the support for the claim without changing that claim; if the asserted ClaimGraph changes, the result is another episteme.
+Changing the ClaimGraph content changes the claim and therefore identifies another episteme under `C.2.1`. A new layout, publication occurrence, form, or carrier can leave the episteme unchanged. New evidence can change the support for the claim without changing that claim; if the asserted ClaimGraph changes, the result is another episteme.
 
 Well-formedness constraints:
 
@@ -194,7 +194,7 @@ Use the minimal reading that carries the case:
 
 | Reading | Use when | Practical output |
 | --- | --- | --- |
-| Scalar quality repair | One characteristic or Q-bundle dimension is enough. | Apply `C.25`, measurement patterns, or evidence patterns as appropriate. |
+| Scalar quality repair | One characteristic or Q-bundle dimension is enough. | Use `C.16` for the Characteristic/measurement claim, `C.25` for an engineering-quality bundle when needed, and evidence patterns for the actual reliance. |
 | Homeostatic envelope | The target is to keep a bundle inside a stable range under disturbance. | State variables, range, disturbance, sensor, candidate intervention with its recovered direct object, and failure mode. |
 | Allostatic envelope | Function is preserved through one or more separately governed changes. | State the proposal's exact Method or description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description; separately state any dated Work, actual transformation or other change, obtaining relation occurrence, resulting state, and moved cost. |
 | Probe-coupled viability | The measurement, dashboard, review, or readiness check changes the envelope it reports, but its output is used as a passive read for the decision. | Coordinate with `C.26.1`. |
@@ -226,5 +226,5 @@ Allostasis, active inference, FEP, Markov blankets, and computational-boundary s
 | Criticality / metastability | Stability may be regime-bounded and fluctuation-bearing, not one final fixed point. |
 | Expected free energy / precision control | Information gathering, action, and confidence have cost; use only when those costs change the architecture decision. |
 
-This translation keeps the pattern practical for architects. The reader should be able to move from a source line to one concrete action: change a metric or probe; recover the candidate proposal as its exact Method or description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description; separately identify any dated Work, actual transformation or other change, obtaining relation occurrence, or resulting state; where a direct relation pattern permits Work or a transformation to establish, change, or end its occurrence, state that occurrence under its predicate; for F.9, revise only the relevant claim, scheme, endpoint sense, profile, or description and test any new Bridge candidate independently; change a boundary condition; state a trade-off; or reroute.
+Use the translated source contribution to explain an envelope constraint or choose the next needed operation—for example, compare a probe redesign or a proposed setting change. The operational sequence and direct subject patterns govern the resulting proposal, observation or actual change; a source analogy supplies none of their missing grounds.
 

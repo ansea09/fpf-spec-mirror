@@ -6,12 +6,12 @@ section_id: "A.6.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:4 — Solution"
-line_start: 17762
-line_end: 17868
+line_start: 17441
+line_end: 17547
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -77,12 +77,12 @@ A separate assertion says whether this arrow supports one named receiving use an
 For every admitted `v : X -> Y`:
 
 1. **Same EntityOfConcern.** X and Y designate the same exact EntityOfConcern. Similar labels, bridge claims, or one shared project do not establish this equality.
-2. **No unsupported strengthening.** Every claim in Y about that entity is recoverable as a consequence, conservative re-expression, or explicitly admitted aggregation of claims in the identified sources under the declared reference and representation semantics.
+2. **No unsupported strengthening.** Every claim in Y is recoverable as a consequence, conservative re-expression, or explicitly admitted aggregation of claims in the identified sources under the declared reference and representation semantics. This includes claims about the EntityOfConcern and any asserted correspondence, evidence or evaluation facts.
 3. **Declared loss.** Every omitted concern or claim family that affects receiving use is named, together with the condition under which the loss is admitted.
 4. **Reference discipline.** A changed effective reference scheme is explicit. If the change alters available operations or representation semantics, use A.6.3.RT; apply C.29 when the transition uses a declared mathematical lens. Do not call such a change formatting.
 5. **No hidden retargeting.** Subsystem-to-system, method-to-work, model-to-modeled-system, or episteme-to-publication changes are not same-EntityOfConcern viewing.
 
-For a lightweight check, take each claim in Y—or each group covered by one rule—and point to the source claims and the selection, rewriting, or aggregation rule that licenses it. Mark omitted claim groups. If a result claim cannot be traced this way, treat it as a new claim rather than a viewing result. If support cannot be decided exactly, state the structural or domain check used as an approximation and what it cannot establish. Add a proof only when disagreement, risk, or the receiving use makes it necessary.
+For a lightweight check, take each claim in Y—or each group covered by one rule—and point to the source claims and the selection, rewriting or aggregation rule that licenses it. Mark omitted claim groups. If support cannot be established, leave that claim's admissibility in the viewing unresolved; if the rule demonstrably introduces an unsupported claim, the proposed construction fails the viewing law. A structural or domain check used as an approximation states what it cannot establish. Add a proof when disagreement, risk or the receiving use requires one.
 
 Truth of source claims is a separate evaluation. Conservativity says what Y is licensed to claim from the sources; it does not establish that those claims are true in the world or adequate for a decision.
 
@@ -105,7 +105,7 @@ Directly authored Y can be a view without any A.6.3 source relation. Conversely,
 
 **Correspondence-mediated viewing.** Y depends on several exact source epistemes or on exact relations between their claim-bearing contents. Recover each direct correspondence, realization, trace, equivalence, or consistency relation under its governing pattern before using it. Then identify the C.2.1 episteme that states or describes those relations if the construction must cite it.
 
-Plain `correspondence model` may name that exact claim-bearing episteme for convenience. It is not a public `U.CorrespondenceModel` kind, and its graph edges or table cells do not establish the direct relations. If a needed relation lacks a governor, return the exact missing-relation blocker or use A.6.RCD.
+Plain `correspondence model` may name that claim-bearing episteme for convenience. It is not a public `U.CorrespondenceModel` kind. A graph edge or table cell may state or support a correspondence claim; its mere presence does not establish that the relation obtains. Judge the content and any evidence under the relation's governor and A.10. If a needed relation lacks a governor, return the missing-relation blocker or use A.6.RCD.
 
 The viewing declaration cites the exact source epistemes and exact correspondence claims on which Y depends. If Y asserts facts about a correspondence episteme, evidence, or evaluation result, those assertions belong to Y's claim content and follow C.2.1's identity rule. The cited objects remain independently identified, and the assertions still require the support specified by the viewing law.
 

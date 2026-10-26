@@ -6,12 +6,12 @@ section_id: "A.3.4.P:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:11 — SoTA-Echoing"
-line_start: 13569
-line_end: 13580
+line_start: 13398
+line_end: 13401
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -58,13 +58,5 @@ keywords:
 
 ### A.3.4.P:11 - SoTA-Echoing
 
-| Source family | Use of source | What changes here |
-| --- | --- | --- |
-| Current FPF `A.3.4` transformation ontic | Governing ontology source for bounded actual change under conditions. | This pattern tests wording against the exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification basis. |
-| Current FPF `E.18`, `E.18.2`, and `C.29` | Governing source line for compound transformation-flow structure and mathematical description. | Flow, path, network, circuit, graph, morphism, algebra, and category wording is separated into selected structure, mathematical expression, or lens use. |
-| Current FPF `E.10` and `E.10.ARCH` precision-restoration architecture | Governing source line for recognition and distribution. | `E.10` recognizes change-situation wording; `E.10.ARCH:2.2` chooses direct governing, ontic-level restoration, or facet-level restoration; `A.3.4.P` restores only the transformation ontic neighborhood. |
-| Current FPF `C.2.P.DR` and method, work, and mechanism patterns | Governing source line for declarative representation, method, mechanism, plan, work, and evidence separation. | Algorithm, workflow, process, proof, and path wording is recovered by exact object, direct relation, use relation, or claim kind rather than by programming-paradigm slogans. |
-| Current FPF `A.6.F`, `A.6.M`, `A.13`, `A.15.1`, `F.6`, and architecture structural-view patterns | Defining source line for function-like, performer-attribution, module, interface, and structural-view claims. | `A.3.4.P` separates the actual transformation basis, exact performed-work attribution or other direct actor-side relation, every influence source's exact kind and relation, and boundary relations; each recovered claim is stated under the exact predicate or constraint located through its subject pattern. |
-
-SoTA use is conservative: this pattern relies on the current FPF settlements already carried by `A.3.4`, `C.2.P.DR`, and the governing neighboring patterns; it contributes the reusable restoration use for transformation-situation wording.
+A.3.4 supplies the actual-change criterion and its comparison with theories of change. E.18 distinguishes selected transformation-flow structure from occurrence, and C.29 supplies representation correspondence. This pattern connects ambiguous change-situation wording to those different tests. E.10 supplies recognition cues; F.19 governs the connected reading and rewrite. The function, method, Work and publication patterns supply the remaining subject distinctions when those claims are made.
 

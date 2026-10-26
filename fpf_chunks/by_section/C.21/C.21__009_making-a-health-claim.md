@@ -1,0 +1,59 @@
+---
+chunk_kind: "child"
+pattern_id: "C.21"
+pattern_title: "Field Health & Structure (Discipline-CHR)"
+section_id: "C.21:7"
+section_title: "Making a health claim"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.21/C.21__009_making-a-health-claim.md"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+heading_path:
+  - "C.21 — Field Health & Structure (Discipline-CHR)"
+  - "C.21:7 — Making a health claim"
+line_start: 61684
+line_end: 61694
+dependencies:
+  - "A.10"
+  - "A.17-A.18"
+  - "A.19"
+  - "A.2.6"
+  - "B.3"
+  - "C.16"
+  - "C.2"
+  - "C.2.1"
+  - "C.20"
+  - "E.24.PUB"
+  - "F.9"
+  - "G.0"
+  - "G.10"
+  - "G.11"
+  - "G.12"
+  - "G.2"
+  - "G.4"
+  - "G.5"
+  - "G.6"
+  - "G.9"
+keywords:
+  - "alignment"
+  - "discipline"
+  - "disruption"
+  - "diversity"
+  - "evidence resolution"
+  - "field health"
+  - "formal recognition"
+  - "practice adoption"
+  - "reproducibility"
+  - "standardisation"
+---
+
+### C.21:7 - Making a health claim
+
+1. State the ordinary health question and smallest useful conclusion.
+2. Identify the discipline under C.20 and one exact Characteristic and Scale.
+3. State ClaimScope, comparison or observation basis, and time or population basis.
+4. Stop if an ordinary typed claim is enough.
+5. If measuring, comparing, or aggregating, recover the C.16 chain and DHC replay basis; add only the exact legal-operation and crossing branches used.
+6. If repeated windows matter, construct a series episteme from exact result refs.
+7. If a dashboard matters, represent those results under G.12.
+8. If audience availability matters, establish E.24.PUB publication separately.
+

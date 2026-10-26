@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:9 — Consequences"
-line_start: 78464
-line_end: 78475
+line_start: 77358
+line_end: 77369
 dependencies:
   - "A.10"
   - "A.12"
@@ -54,5 +54,5 @@ keywords:
 | Changed referent and transformed architecture stay recoverable. | A useful local frame may remain below exact-row assertion when the governor is missing or case facts remain unresolved. |
 | Network recursion remains with E.18.NET. | One pair row cannot stand in for the whole network or its cross-flow relations. |
 | Candidate architectures are checked against source-side production, testing, maintenance, evidence, and evolution arrangements. | Changing the influence-source side can be expensive; an attractive transformed-side candidate may therefore be rejected for the current evolution window. |
-| Organization, Work, method, tool, and module claims are routed to their subject patterns instead of being hidden in an architecture-pair result. | This separation may require the practitioner to follow several separately governed exits before comparison. Mirroring supplies candidate pressure, not architecture adequacy; use C.29 when the claim is structural similarity or preservation. |
+| Organization, Work, method, tool, and module claims are routed to their subject patterns instead of being hidden in an architecture-pair result. | This separation may require the practitioner to follow several separately governed exits before comparison. Mirroring supplies candidate pressure, not architecture adequacy; use C.29 when the claim is mathematical structural similarity or preservation. |
 

@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__016_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:12 — Relations"
-line_start: 36354
-line_end: 36360
+line_start: 35663
+line_end: 35669
 dependencies:
   - "A.0"
   - "A.17"
@@ -40,6 +40,6 @@ keywords:
 
 - **Builds on:** `A.19`, `A.17`, `A.18`.
 - **Coordinates with:** `C.18`, `C.19`, `G.5`, `G.10`, `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW`, `A.6.P`, `A.0`.
-- **Specialized by:** `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` and later interpretive-view or atlas specializations when one line needs derived interpretation over an already-declared substrate.
+- **Used by:** `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` and interpretive or atlas methods when a receiving use needs a derived view over the declared substrate.
 - **Does not replace:** selector outcome publication, shipping metadata, live pool policy, or enactment planning.
 

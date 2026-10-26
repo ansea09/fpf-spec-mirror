@@ -6,12 +6,12 @@ section_id: "C.39.MC:End"
 section_title: "C.39.MC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__014_c-39-mc-end.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:End — C.39.MC:End"
-line_start: 84082
-line_end: 84085
+line_start: 82904
+line_end: 82907
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"

@@ -6,12 +6,12 @@ section_id: "C.2.LS:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:5 — Archetypal Grounding"
-line_start: 53404
-line_end: 53410
+line_start: 52560
+line_end: 52566
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -43,7 +43,7 @@ keywords:
 ### C.2.LS:5 - Archetypal Grounding
 **Tell.** A team may say a draft is "still forming" for different reasons. `U.LanguageStateFacetProfile` forces the team to say whether the issue is low articulation, low candidate-space closure, an anchoring mismatch, or an unresolved representation-factor bundle.
 
-**Show (System).** An operator alert note can be `AM.OperatorLoop` anchored and low-closure without being low-formality in every respect.
+**Show (System).** An operator alert note can have stable alert terms and structure, `AM.OperatorLoop` anchoring and low closure.
 
 **Show (Episteme).** An inquiry note can be low articulation yet already tightly anchored to exemplars and traces.
 

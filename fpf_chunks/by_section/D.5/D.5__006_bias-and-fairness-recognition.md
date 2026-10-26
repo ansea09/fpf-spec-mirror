@@ -6,12 +6,12 @@ section_id: "D.5:3"
 section_title: "Bias and Fairness Recognition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__006_bias-and-fairness-recognition.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:3 — Bias and Fairness Recognition"
-line_start: 91606
-line_end: 91654
+line_start: 90426
+line_end: 90474
 dependencies:
   - "A.10"
   - "B.3"

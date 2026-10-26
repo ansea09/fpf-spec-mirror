@@ -6,12 +6,12 @@ section_id: "C.3.4:6"
 section_title: "Norms and Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__008_norms-and-invariants.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:6 — Norms and Invariants"
-line_start: 55780
-line_end: 55809
+line_start: 54913
+line_end: 54942
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -43,7 +43,7 @@ keywords:
 
 #### C.3.4:6.3 - Stable Refinement and Catalog Representation
 
-**KUA-07 (Stable refinement).** Broad reuse triggers a review for another kind. If that kind and an obtaining subkind fact are established, retain the adaptation declaration only for any remaining local use or retire it. Declaration reuse, catalog action, or labeling performs no kind admission and establishes no subkind fact.
+**KUA-07 (Stable refinement).** When repeated uses may require one stable membership distinction, review whether another kind would serve them. If that kind and an obtaining subkind fact are established, retain the adaptation declaration for any remaining local use or retire it. Reuse of a vocabulary binding alone adds no membership distinction. Declaration reuse or labeling performs no kind admission and establishes no subkind fact.
 
 **KUA-08 (Addressability).** Every guard-addressable adaptation declaration resolves to its exact edition, base signature, dependencies, applicability, and intended use. A correspondence declaration also resolves its source declaration as EntityOfConcern, target declaration, direction, deterministic rule, effective scheme, definedness, and loss. A catalog represents those references; it is neither the declaration episteme nor ontology, and consolidation does not merge kind identities.
 
@@ -51,5 +51,5 @@ keywords:
 
 **KUA-09 (Identity check before bridge).** On a locality change, first compare exact base-kind definitions. Same-kind reuse needs no `KindBridge` but still uses the receiving declaration and a fresh judgment. Distinct-kind use establishes a `KindBridge` only when its directional correspondence predicate obtains. Differing adaptation constraints or bindings may additionally require an exact correspondence declaration. Source judgments are never copied as receiving truth; justified bridge consequences affect R only.
 
-**KUA-10 (Definedness and fail-closed use).** Outside adaptation applicability, return `not-applicable` and form no judgment. For an admissible request with an unavailable dependency, return `unknown`. Outside correspondence definedness, the guard declines that cross-local use without rewriting an independently evaluated receiving result.
+**KUA-10 (Definedness and fail-closed use).** Outside adaptation applicability, return `not-applicable` and form no judgment. For an admissible request, return `unknown` when an unavailable dependency leaves the conjunction unsettled under KUA-04; a known false conjunct still gives `false`. Outside correspondence definedness, the guard declines that cross-local use without rewriting an independently evaluated receiving result.
 

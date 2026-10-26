@@ -6,12 +6,12 @@ section_id: "A.3.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__007_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:5 — Archetypal Grounding"
-line_start: 13201
-line_end: 13249
+line_start: 13052
+line_end: 13099
 dependencies:
   - "A.1"
   - "A.10"
@@ -82,14 +82,13 @@ An architecture team performs dated architecture `U.Work`. During the same inter
 
 #### A.3.4:5.6 - Functional transformer in a flow
 
-When a sentence says that a system *transforms input to output* or *implements an algorithm*, split at least four questions: which system and role assignment are claimed; which subject actually changed; which participant, port, or operation bindings hold at the boundary; and where the transformation sits in the selected E.18 flow. Add a method or method description only if the sentence also makes that claim.
+When a sentence says that a system *transforms input to output* or *implements an algorithm*, recover the subject and the claim it makes. Identify the continuing changed subject for an actual-transformation claim. Use A.3 for an acting-system claim, and A.13 followed by A.15.1 for a dated Work claim. Identify participant, port or operation bindings when the sentence uses them, and use E.18 when it claims a position in a transformation flow. A Method or MethodDescription is needed only for the corresponding way-of-doing claim.
 
 Examples:
 
 - A pump can be the acting system while the actual transformation is the bounded pressure change of an identified fluid volume. Inlet and outlet pressure facts are characteristic-state and port facts; the pump curve is a model episteme.
 - A warehouse can perform receiving `U.Work` while pallet-location and inventory-state changes occur. If a later use needs a work-to-change claim, name the pair and apply `4.2.4`. Orders and pallets keep their work, transfer, resource, or affected-subject relations.
 - A neural-network block can participate in an activation transformation. Tensor-shape declarations, the attention method, dated inference work, benchmark evaluation, and architecture allocation stay separate and use their own patterns.
-
 
 #### A.3.4:5.7 - Assembly changes before PumpSkid identity
 

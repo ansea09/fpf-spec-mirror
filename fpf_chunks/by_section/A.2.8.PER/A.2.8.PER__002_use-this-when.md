@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:0 — Use this when"
-line_start: 8368
-line_end: 8383
+line_start: 8319
+line_end: 8334
 dependencies:
   - "A.10"
   - "A.13"
@@ -47,5 +47,5 @@ First select the result needed now. Recover the inputs required by its declarati
 
 **Not this pattern when.** Use `A.2.8` for one actual bearer's obligation, recommendation-as-duty, or prohibition; `A.2.9` for the communicative work that institutes or revokes a grant; `A.6.B` for L/A/D/E classification; `A.15.5` for work-entry readiness; `A.21` for gate decisions; and `A.15.1` for the identity and result of performed work.
 
-The primary reader is a policy, boundary, work-planning, assurance, or operations practitioner who must decide exactly what a permission-looking claim can support. The performer of a grant speech act or later Work remains an admitted system under one exact obtaining system-role assignment.
+When the account asserts a particular dated Work occurrence, identify its performer through A.13 and admit the Work independently through A.15.1. Use F.6 where the relevant declaration consumes precise attribution to a covering assignment; the grantor, beneficiary and decision branches below state those conditions.
 

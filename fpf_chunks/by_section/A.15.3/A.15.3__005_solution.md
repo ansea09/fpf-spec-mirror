@@ -6,12 +6,12 @@ section_id: "A.15.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:4 — Solution"
-line_start: 30304
-line_end: 30409
+line_start: 29863
+line_end: 29968
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -55,11 +55,11 @@ A planned-filling row states a positive intention. To prohibit or exclude a valu
 
 #### A.15.3:4.1 - Use only members that a declaration already defines
 
-Each row points to one member in one declaration edition selected for the intended future use. First choose what is being planned; then open the pattern that defines that member and the rule for its actual use:
+Each row points to one member in one declaration episteme selected for the intended future use. First choose what is being planned; then open the pattern that defines that member and the rule for its actual use:
 
 | Planned choice | Existing declaration member | What remains defined elsewhere |
 | --- | --- | --- |
-| participant in a future direct-relation claim | one `SlotSpec` in one `RelationSignature` edition | the relation pattern defines participant meaning and the obtaining predicate; A.6.5 defines the local `SlotKind`, `ValueKind`, and `refMode`; A.15.3 records only the planned designation |
+| participant in a future direct-relation claim | one `SlotSpec` in one `RelationSignature` episteme | the relation pattern defines participant meaning and the obtaining predicate; A.6.5 defines the local `SlotKind`, `ValueKind`, and `refMode`; A.15.3 records only the planned designation |
 | argument in a future operation application | one `ArgumentDeclaration` in one A.6.1 `OperationDeclaration` | A.6.1 and the cited mechanism define the argument meaning, ValueKind, designation rule, binding predicate, and cardinality; A.15.3 records only the planned value |
 | expected result of a future operation application | one `ResultDeclaration` in one A.6.1 `OperationDeclaration` | A.6.1 and the cited mechanism define result meaning and the result-binding predicate; an expected value is not a returned value |
 | another declared future use | one declaration member whose own pattern defines both the member meaning and its actual-use predicate | cite that pattern and declaration; if either definition is absent, return `missing-governor` instead of inventing a target |
@@ -96,7 +96,7 @@ SlotFillingsPlanItem:
   laterComparisonPolicyRef?
 ```
 
-This block represents WorkPlan claim content; it is not an ontic record schema or a second authority for rows. `targetMemberFamily` is an open local dispatch vocabulary, not a public kind or closed inventory. For an operation argument or result, `targetOperationDesignator` is required so the member resolves inside the cited mechanism edition; it stays absent for relation SlotSpecs. The `memberDefinitionPattern` field points to the pattern that defines the member and its actual-use predicate. A.15.3 still states only the plan's intention.
+This block represents WorkPlan claim content; it is not an ontic record schema or a second authority for rows. `targetMemberFamily` is an open local dispatch vocabulary, not a public kind or closed inventory. For an operation argument or result, `targetOperationDesignator` is required so the member resolves inside the cited mechanism episteme; it stays absent for relation SlotSpecs. The `memberDefinitionPattern` field points to the pattern that defines the member and its actual-use predicate. A.15.3 still states only the plan's intention.
 
 Read the designation rule from the selected member instead of copying it into the plan. An A.6.5 member uses its `refMode`; an A.6.1 member uses its `bindingDesignationRule`. A ByRef value must use the concrete reference kind required there and resolve to the declared ValueKind. A generic `Ref`, `SpecRef`, stored token, or merely compatible value does not pass.
 
@@ -108,14 +108,14 @@ Omitting a row leaves that planned filling unstated by this item. It does not sa
 
 Add time, location, capability, readiness, gate, evidence, source-currentness, bridge, or publication conditions only when changing one would change whether the planned value applies or which value is selected. Cite the separate claims that establish those conditions. `planningConditions` points to them; it creates none of them and is not a generic condition bundle.
 
-When a baseline or comparison policy selects a planned value or judges a later match, identify its concrete kind, defining pattern, edition, applicability, and reference scheme. A generic `PolicyRef` or shared label supplies no policy. Pin a declaration or edition-bearing value only when another resolution would change the planned meaning, and make the target reference and pin agree.
+When a baseline or comparison policy selects a planned value or judges a match, identify its kind, defining pattern, applicable episteme, conditions and reference scheme. A generic `PolicyRef` or shared label supplies no policy. Pin a declaration or value when another resolution could change the planned meaning, and make the reference and pin agree. Such a pin identifies the selected episteme; it asserts historical continuity only when the C.2.1 `EpistemeEditionRelation` is separately established.
 
 #### A.15.3:4.3 - Plan a future relation participant
 
 For a RelationSignature row:
 
 1. open the relation pattern and its obtaining predicate;
-2. choose the `RelationSignature` edition the plan will use;
+2. choose the `RelationSignature` episteme the plan will use;
 3. choose its declaration-local SlotSpec and `SlotKind`;
 4. check the planned designation against the SlotSpec's `ValueKind` and `refMode`;
 5. apply the declaration's semantic cardinality and participant constraints; and
@@ -125,23 +125,23 @@ The row does not fill the SlotSpec. The SlotSpec remains reusable declaration co
 
 #### A.15.3:4.4 - Plan a future operation argument or result
 
-Open the cited A.6.1 mechanism edition, choose its `operationDesignator`, then choose the `argumentDesignator` or `resultDesignator`. Apply that declaration's ValueKind, `bindingDesignationRule`, binding predicate, semantic cardinality, and the plan's stated conditions.
+Open the cited A.6.1 mechanism episteme, choose its `operationDesignator`, then choose the `argumentDesignator` or `resultDesignator`. Apply that declaration's ValueKind, `bindingDesignationRule`, binding predicate, semantic cardinality, and the plan's stated conditions.
 
 The row plans a value; it is not an application or binding. An actual argument binding needs an identified application whose argument-binding predicate holds. An actual result binding additionally needs that application to return the value under the declared result meaning. Type compatibility, an expected result, a method phrase, a ticket value, or a matching token establishes neither binding.
 
 #### A.15.3:4.5 - Compare later use without changing the plan
 
-When work actually occurs, identify `W : U.Work` under A.15.1. Independently establish actual relation participation under the relation's obtaining predicate and each operation argument or result binding under the A.6.1 application-binding predicate. A matching plan row, label, type, or value establishes none of those facts.
+When actual use is compared with the plan, establish the relation participation under its obtaining predicate or the operation argument/result binding under A.6.1. A plan row, matching label, type or value supplies none of those facts by itself. Add an independently admitted A.15.1 Work identity only when the comparison also consumes that dated occurrence claim.
 
-If the team must state whether actual use matched the plan, name the comparison policy and the independently established actual facts. A one-off comparison may use A.6.RCD disposition 2 for a local compound assertion. Repeated parameterized comparisons may use disposition 3: keep a compound law subject-bounded when every reuse concerns one exact subject, or identify a reusable predicate-definition episteme when the rule is used across subjects. Do not admit a comparison relation kind unless a later calculation or decision must refer to repeated comparison occurrences as such; then name that use and follow relation-kind admission. None of these comparisons changes the WorkPlan or creates a universal planned-to-actual relation.
+If the team must state whether actual use matched the plan, name the comparison policy and the independently established actual facts. A one-off comparison may use A.6.RCD disposition 2 for a local compound assertion. Repeated parameterized comparisons may use disposition 3: keep a compound law subject-bounded when every reuse concerns one exact subject, or identify a reusable predicate-definition episteme when the rule is used across subjects. Do not admit a comparison relation kind unless a later calculation or decision needs distinct comparison occurrences as such; then name that use and follow relation-kind admission. None of these comparisons changes the WorkPlan or creates a universal planned-to-actual relation.
 
 An unplanned participant is still an actual participant when the relation's obtaining predicate holds for the complete participant set. To say that a planned value was missing, excluded, or substituted, apply the comparison policy's closure or negative criterion to the case facts. An absent log, unresolved reference, or unavailable fact yields `missing-information`, not a negative use or variance result; absent authority yields `missing-governor`.
 
 #### A.15.3:4.6 - Preserve revisions and replay
 
-Pin a declaration edition or edition-bearing planned value only when choosing another one could change the planned meaning. *Latest*, a mutable alias, a publication face, or an untyped policy label is not a reproducible reference.
+Pin a declaration episteme or edition-bearing planned value only when choosing another one could change the planned meaning. *Latest*, a mutable alias, a publication face, or an untyped policy label is not a reproducible reference.
 
 If the selected declaration member changes before use, revise the WorkPlan claim content. An identity-bearing change creates another WorkPlan episteme; assert historical continuity only when `EpistemeEditionRelation` obtains. Preserve the earlier WorkPlan reference already cited by work or another actual use, and state substitution or variance separately. A carrier or representation change alone does not reidentify the plan while the C.2.1 discriminators stay fixed.
 
-A card, table, view, index, or generated summary may show selected WorkPlan content under its publication-use pattern. It is read-only: it may not add planned rows, defaults, declaration meanings, cardinality, conditions, or baseline rules.
+When a card, table, view, index or generated summary presents selected WorkPlan content, use its publication rules to trace that content to the plan. A new planned row, default, condition or baseline rule belongs in a revised WorkPlan under §4.0; it cannot acquire authority merely from appearing in the view.
 

@@ -6,12 +6,12 @@ section_id: "C.11.CRC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:4 — Solution"
-line_start: 57380
-line_end: 57442
+line_start: 56484
+line_end: 56546
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -83,7 +83,7 @@ reopenCondition:
 nextGoverningPattern: named receiving Method; C.11 when the result supplies its local choice
 ```
 
-Omit a field only when it cannot change this comparison and that omission is apparent from the bounded case. A polished record cannot compensate for a missing current configuration or receiving question.
+An ordinary comparison sentence or existing calculation can carry this result when the material premises are recoverable. Omit a field when it cannot change the comparison and that omission is apparent from the bounded case. The current configuration and receiving question remain necessary.
 
 #### C.11.CRC:4.2 - Mathematical and model-routing distinction
 
@@ -97,7 +97,7 @@ Omit a field only when it cannot change this comparison and that omission is app
 | Variational inference | Which member of an approximation family best approximates a target probability distribution under a declared divergence or bound? | The result is an approximate distribution and uncertainty account, not an extremal physical trajectory, capability acquisition, or general marginal value. |
 | Evolutionary variation | How are retained variants generated and selected in an evolutionary or cultural process? | The shared word *variation* does not identify the mathematical object or Method above; route to `C.18`, `C.36`, or the field practice. |
 
-This is why calculus of variations matters without becoming the default interpretation of marginality. When the candidate is a whole trajectory, field, function, control, or shape, pointwise finite-coordinate reasoning can miss the coupled admissible deformation. `C.29` governs the mapping from the world or domain model to that mathematical object, what structure is preserved or lost, and when the lens must stop. Specialist practice governs derivation, discretization, solver choice, optimality and sufficiency checks, and validation.
+This is why calculus of variations matters without becoming the default interpretation of marginality. When the candidate is a whole trajectory, field, function, control, or shape, pointwise finite-coordinate reasoning can miss the coupled admissible deformation. Use `C.29` when the mapping from the world or domain model to that mathematical object, its preservation/loss or its transfer limits remain at issue. An adequate domain formulation can be used directly. Specialist practice governs derivation, discretization, solver choice, optimality and sufficiency checks, and validation.
 
 #### C.11.CRC:4.3 - Recognition and assurance split
 

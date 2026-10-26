@@ -6,12 +6,12 @@ section_id: "A.14:5"
 section_title: "Formal cores (normative semantics)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__006_formal-cores-normative-semantics.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:5 — Formal cores (normative semantics)"
-line_start: 28630
-line_end: 28714
+line_start: 28198
+line_end: 28282
 dependencies:
   - "A.1"
   - "A.15"
@@ -75,36 +75,36 @@ keywords:
 
 - ✔ “5 kg from a 20 kg billet” — PortionOf.
 - ✔ Two disjoint 5 kg cuts from the same 20 kg billet have a 10 kg join under the same mass unit and boundary rule; that join is still a ProperPortionOf the billet.
-- ✔ “Pages 1–10 of the report” — PortionOf (μ = page or token count).
+- ✔ “The report text rendered on pages 1–10” — PortionOf when the identified text span and whole report text satisfy the same-content and boundary rules, using page count under fixed pagination or a separately established token count.
 - ✘ “The pump module of the plant” as an integrated structural part — use **ComponentOf** for that claim, not PortionOf.
 - ✘ “The Methods section of the paper” as a conceptual part of its argument — use **ConstituentOf** for that claim, not PortionOf.
 
 Either object may also support a separate PortionOf claim when it satisfies the same-stuff/extent, measure and boundary conditions above.
 
-#### A.14:5.2 - PhaseOf — temporal part of the same carrier
+#### A.14:5.2 - PhaseOf — temporal part of the same holon
 
 **Intent.** Capture “the same holon during a sub‑interval”, preserving identity through change.
 
-**Applicability.** Any `U.Holon` that persists across time with a recognised **carrier identity**.
+**Applicability.** Any `U.Holon` that persists across time with a recognised **holon identity**.
 
-**Primitive.** `PhaseOf(x, y)` means: *x is y restricted to a proper time interval*.
+**Primitive.** `PhaseOf(x, y)` means: *x is y itself restricted to a proper time interval*. Identify that temporal part of the holon; a time-limited use of y or a claim about y retains its own applicability rule.
 
 **Axioms (A14‑PHA‑\*)**
 
-* **PHA‑1 (Strict temporal parthood).** `PhaseOf` is irreflexive, asymmetric, and transitive on proper temporal restrictions of one unchanged carrier. In particular, `PhaseOf(y,y)` is false: a whole-lifetime or self-reference is not a proper temporal part.
-* **PHA‑2 (Proper interval and same carrier).** `PhaseOf(x,y)` requires the interval of x to be a proper sub-interval of y's interval and the carrier-identity rule to hold throughout both. It does not require x to be a maximal cell of a partition.
-* **PHA‑3 (Nesting and overlap are allowed).** Temporal restrictions of the same carrier may nest or overlap. A week may be part of a year-long phase, and a diagnostic window may overlap a calibration window. Those facts are not contradictions and do not by themselves select an aspect or partition.
-* **PHA‑4 (Selected partition is an additional claim).** When a use needs exhaustive non-overlapping cells, declare one carrier, one interval to be covered, one analysis aspect or partition rule, and the selected family of `PhaseOf` values. Only cells of that same explicitly selected partition must be pairwise non-overlapping and jointly cover the declared interval. Another aspect or rule may select a different, overlapping family.
-* **PHA‑5 (Identity through change).** Properties may vary between phases, but the carrier’s identity criteria hold continuously (e.g., same serial number, same legal identity, same theorem statement).
-* **PHA‑6 (Identity failure).** If the carrier-identity criterion fails, do not assert **PhaseOf** across that boundary. Apply the subject's identity and continuation rules; use **B.2** only for a whole-reidentification claim and declare MHT only after its conditions hold.
+* **PHA‑1 (Strict temporal parthood).** `PhaseOf` is irreflexive, asymmetric, and transitive on proper temporal restrictions of one continuing holon. In particular, `PhaseOf(y,y)` is false: a whole-lifetime or self-reference is not a proper temporal part.
+* **PHA‑2 (Proper interval and same holon).** `PhaseOf(x,y)` requires the interval of x to be a proper sub-interval of y's interval and the holon-identity rule to hold throughout both. It does not require x to be a maximal cell of a partition.
+* **PHA‑3 (Nesting and overlap are allowed).** Temporal restrictions of the same holon may nest or overlap. A week may be part of a year-long phase, and a diagnostic window may overlap a calibration window. Those facts are not contradictions and do not by themselves select an aspect or partition.
+* **PHA‑4 (Selected partition is an additional claim).** When a use needs exhaustive non-overlapping cells, declare one holon, one interval to be covered, one analysis aspect or partition rule, and the selected family of `PhaseOf` values. Only cells of that same explicitly selected partition must be pairwise non-overlapping and jointly cover the declared interval. Another aspect or rule may select a different, overlapping family.
+* **PHA‑5 (Identity through change).** Properties may vary between phases while the holon's complete identity rule holds continuously. For an episteme, this includes its unchanged C.2.1 identity triple; a stable name or theorem statement alone does not establish that identity.
+* **PHA‑6 (Identity failure).** If the holon-identity criterion fails, do not assert **PhaseOf** across that boundary. Apply the subject's identity and continuation rules; use **B.2** only for a whole-reidentification claim and declare MHT only after its conditions hold.
 
 **Didactic tests.**
 
 - ✔ “PumpUnit\#3 **before** calibration” — PhaseOf(Pump\#3\_pre, Pump\#3).
 - ✔ If `PhaseOf(Pump#3@week-32, Pump#3@2026)` and `PhaseOf(Pump#3@2026, Pump#3)`, transitivity also gives `PhaseOf(Pump#3@week-32, Pump#3)`. A high-vibration diagnostic window may overlap a calibration window for the same pump; neither is thereby a cell of one selected partition.
-- ✔ “Specification episteme E during τ₂”, with the C.2.1 identity triple unchanged and a proper interval current — PhaseOf(E@τ₂, E). ✘ “Spec v2” — if a C.2.1 discriminator changed, identify another episteme and test `EpistemeEditionRelation(E_v1,E_v2)` separately; the label proves neither identity nor continuity.
+- ✔ “Specification episteme E during τ₂” — PhaseOf(E@τ₂, E) when E@τ₂ is identified as a proper temporal restriction of E itself and the C.2.1 identity triple remains unchanged. ✘ “Spec v2” — if a C.2.1 discriminator changed, identify another episteme and test `EpistemeEditionRelation(E_v1,E_v2)` separately; the label proves neither identity nor continuity.
 - ✘ “Shift 1 of the same batch run” — use A.15.1 `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, or another exact Work-part or occurrence relation whose predicate obtains.
-- ✘ “Prototype vs. production unit” — identify each carrier and any separately established relation. The labels alone select neither **PhaseOf**, **ComponentOf**, **ConstituentOf**, nor MHT.
+- ✘ “Prototype vs. production unit” — identify each holon and any separately established relation. The labels alone select neither **PhaseOf**, **ComponentOf**, **ConstituentOf**, nor MHT.
 
 #### A.14:5.3 - AspectOf — bearer-dependent structural part under one named facet rule
 
@@ -124,7 +124,7 @@ Either object may also support a separate PortionOf claim when it satisfies the 
 
 **Didactic tests.**
 
-- ✓ In Reactor-7, the thermal-boundary rule distinguishes ThermalEnvelope-7 as the connected enclosure of insulation panels, seals, and boundary interfaces that constrains heat transfer across the reactor boundary. ThermalEnvelope-7 is identified by the continuing enclosure under that rule, not by a fixed panel list. `AspectOf(ThermalEnvelope-7, Reactor-7; thermal-boundary)` obtains while that enclosure and Reactor-7 continue. Replacing one panel under the same rule preserves the aspect; dismantling the enclosure, replacing the facet rule with a different boundary, or reidentifying Reactor-7 ends the occurrence. A changed temperature reading or dashboard view does not.
+- ✓ In this constructed case, Reactor-7 and ThermalEnvelope-7 are independently admitted holons. The thermal-boundary rule distinguishes ThermalEnvelope-7 as the connected enclosure of insulation panels, seals, and boundary interfaces that constrains heat transfer across the reactor boundary. ThermalEnvelope-7 is identified by the continuing enclosure under that rule, not by a fixed panel list. `AspectOf(ThermalEnvelope-7, Reactor-7; thermal-boundary)` obtains while that enclosure and Reactor-7 continue. Replacing one panel under the same rule preserves the aspect; dismantling the enclosure, replacing the facet rule with a different boundary, or reidentifying Reactor-7 ends the occurrence. A changed temperature reading or dashboard view does not.
 - ✗ “Safety is an aspect of the design” when *safety* is only a Characteristic, concern, viewpoint, or heading. Recover that actual claim first.
 - ✗ “Pump-7 during warm-up is its thermal aspect.” Use `PhaseOf` for the proper temporal restriction and `A.19` for a measured thermal Characteristic when those claims obtain.
 
@@ -132,7 +132,7 @@ Either object may also support a separate PortionOf claim when it satisfies the 
 
 - A direct structural parthood claim is usable without this assurance handshake. If the publication elects B.3.5 or a named current requirement demands it, link the claim through `tv:groundedBy` to its applicable current C.2.1 `Γ_m.sum` or `Γ_m.slice` construction-trace episteme and declare `validationMode=axiomatic`. The direct relation pattern decides whether the occurrence obtains and how it is identified; the relevant entity pattern decides identity through change. The trace only reports that basis.
 - **AspectOf** uses one current `C.13 slice` trace when that assurance branch is elected. The trace names the aspect, bearer, facet rule, relation occurrence, and identity conditions; it creates none of them.
-- **PhaseOf** is temporal parthood and shall not be grounded through `Γ_m`. Its assurance follows the same-carrier and proper-interval criteria, the separately declared selected-partition rule when one is claimed, and `Γ_time` ordering (`B.1.4`).
+- **PhaseOf** is temporal parthood and shall not be grounded through `Γ_m`. Its assurance follows the same-holon and proper-interval criteria, the separately declared selected-partition rule when one is claimed, and `Γ_time` ordering (`B.1.4`).
 - A collection's own belongs-to relation remains distinct from constructive parthood (`CC-MEM-2`). State its participants, what makes it obtain, and whether later belonging is the same occurrence or a new one under the collection's pattern. A direct claim needs no B.3.5 fields. If B.3.5 assurance is elected, link `validationMode=axiomatic` to one current `C.13 set` trace that reports the relation that already obtains. The trace supports neither a ComponentOf inference nor a universal prohibition on separately grounded parthood.
 
 Two quick identity tests apply before relying on a trace. The same listed constituents can form a different whole when their direct assembly relations or rule differ. Conversely, a permitted constituent replacement can preserve the same whole. An equal input list, a repeated trace, or `validationMode=axiomatic` decides neither case.

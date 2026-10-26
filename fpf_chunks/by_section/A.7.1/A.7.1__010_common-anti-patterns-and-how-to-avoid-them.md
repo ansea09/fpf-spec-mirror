@@ -6,16 +6,19 @@ section_id: "A.7.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 26231
-line_end: 26241
+line_start: 25781
+line_end: 25791
 dependencies:
+  - "A.11"
   - "A.7"
+  - "A.7.1"
   - "A.7.2"
   - "A.7.CP"
+  - "A.8"
   - "C.19.2"
   - "E.24"
   - "E.24.UK"
@@ -36,6 +39,6 @@ keywords:
 | Treat missing evidence as a missing kind. | Return to measurement/evidence with the exact blocked claim. |
 | Run constructive analysis for every typed relation. | Stop when direct kinds, positions, direction, time, and identity already determine the move. |
 | Treat a graph, predicate, or formal class as the world construction. | Recover CT2R loss and the direct subject construction before reverse inference. |
-| Let the MethodDescription episteme, reader designation, local system-role kind, or assignment do the Work. | Recover the exact performing `U.System` through A.13, then let A.15.1 independently admit the dated ontology-analysis `U.Work` and enacted Method. Add F.6 only when the repair also consumes precise assignment-bound attribution; its absence or failure leaves the Work intact. Classify the performer by the local system-role kind's criterion; keep that judgment separate from the assignment. |
+| Let a description episteme, local kind or assignment act. | Name the capable System when it is unclear. For a deliberately asserted dated ontology-analysis Work, apply the §0 basis; keep local-kind classification, assignment and any F.6 attribution distinct. Ordinary reader action needs no invented Work identity. |
 | Copy the twelve compact claims into the method. | Cite exact `A7CP-*` IDs only when load-bearing; keep `A.7.CP` as the authoritative source. |
 

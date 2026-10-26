@@ -6,12 +6,12 @@ section_id: "C.32.ADR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:7 — Conformance Checklist"
-line_start: 80418
-line_end: 80429
+line_start: 79261
+line_end: 79272
 dependencies:
   - "A.10"
   - "A.15"
@@ -48,8 +48,8 @@ keywords:
 |---|---|
 | `CC-ADR-1` | The record cites an `ArchitectureDecisionRelation@Project` or states the equivalent accepted decision relation by value. |
 | `CC-ADR-2` | The record's publication carrier, intended readers, scope, and status are explicit. |
-| `CC-ADR-3` | Section functions are mapped to headings or carrier slots. |
-| `CC-ADR-4` | Problem frame, forces, candidate options, outcome, rationale, consequences, confirmation or eval exit, and supersession or update condition are recoverable. |
+| `CC-ADR-3` | Needed decision functions are recoverable through headings or carrier positions; an explicit mapping is added only when useful. |
+| `CC-ADR-4` | The question, outcome, rationale, material consequences, status and update condition are recoverable, with candidate options, forces and confirmation/eval when needed for the declared use. |
 | `CC-ADR-5` | Method-use instruction and work split are included when the decision guides developer work. |
 | `CC-ADR-6` | Architecture descriptions, views, evidence, assurance, gate, method, work, and publication claims exit to their subject patterns. |
 | `CC-ADR-7` | The record does not create new candidate options, new architecture-description adequacy, or new evidence authority by prose. |

@@ -6,12 +6,12 @@ section_id: "A.3.4.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:1 — Problem frame"
-line_start: 13353
-line_end: 13360
+line_start: 13195
+line_end: 13202
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -58,9 +58,9 @@ keywords:
 
 ### A.3.4.P:1 - Problem frame
 
-People talk about change with familiar labels—for example, a manufacturing process, refrigeration cycle, or team workflow. To use such wording in FPF, recover the object and claim it names.
+People talk about change with familiar labels—for example, a manufacturing process, refrigeration cycle, or team workflow. Recover the object and claim when that wording leaves an FPF-governed distinction unresolved.
 
 The recurring defect is a second ontology by convenience. The same text may treat "process" as method, work occurrence, transformation-flow structure, mechanism, result evidence, and publication diagram. A graph path may become an action route. A network label may become a durable head beside `TransformationFlowStructure`. A function word may collapse functioning, mathematical function, software routine, module allocation, a system merely named as actor, and a differently typed influence source whose direct relation has not been recovered.
 
-This pattern restores the current `U.Transformation` ontic first, then assigns linked values to their subject patterns.
+This pattern distinguishes the actual change, its description and any neighboring claims, then uses the subject pattern for each unresolved question.
 

@@ -6,17 +6,18 @@ section_id: "C.2.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:intro — Intro"
-line_start: 54147
-line_end: 54160
+line_start: 53300
+line_end: 53313
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.18"
+  - "A.19"
   - "B.4.1"
   - "B.5.2.0"
   - "C.2.2a"
@@ -41,9 +42,9 @@ keywords:
 
 **Plain-name.** Language-state representation-factor bundle.
 
-**Use this pattern when.** Use C.2.7 when a governed `U.Episteme` publication needs to describe how its representation is organized through locality/distribution, sparsity/density, symbolicity/subsymbolicity, or an explicit local factor bundle.
+**Use this pattern when.** Use C.2.7 when a comparison or use depends on how an episteme is represented: the distribution of its code, its sparsity or its symbolic structure. Identify the representation and the units being assessed. An ordinary description can suffice when the receiving use needs no factor-bundle claim.
 
 **What goes wrong if missed.** One representation label such as `symbolic`, `distributed`, or `encoding basis` starts doing too much work: it hides articulation, closure, anchoring, bridge loss, or comparison assumptions.
 
-**What this buys.** A factor-bundle account of representation that keeps representation organization separate from anchoring, articulation, closure, evidence, carrier, and admissible-use claims.
+**What this buys.** A comparison of representation factors on explicit bases, without deriving articulation, closure or anchoring from a single label.
 

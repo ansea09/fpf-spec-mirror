@@ -6,12 +6,12 @@ section_id: "C.37:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:5 — Archetypal Grounding"
-line_start: 82024
-line_end: 82051
+line_start: 80849
+line_end: 80876
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -50,9 +50,9 @@ C.11 result CR7 is `choose now`: ME1 selects retaining the current edition and d
 | --- | --- | --- | --- |
 | Workflow diagram in `MethodDescription-MD5`, edition 5 | A.3.2 identifies the episteme as a MethodDescription about `Method-M2`. A.2.4 may classify its intended evidence use. A.10 path `P-MD5` carries the premise “edition 5 states the proposed MC7 action order,” its source/currentness window, direct decision-use relation, and `RelianceDisposition=pass`. Receiving result: CR7, defined above. | Exposes proposed sequence and handoff; withholds actual effort, achieved result, and future performer availability. | `select` for proposed-way claims only; return if the edition, intended Method, path, or reliance window changes. |
 | `WorkPlan-WP4` trial item | A.15.2 identifies the schedule-of-intent episteme and its planned performer, interval, and capability conditions. A.2.4 may classify the intended use. A.10 path `P-WP4` carries the premise “WP4 currently provides the named trial slot and conditions,” source/currentness, direct decision-use relation, and `RelianceDisposition=pass`. Receiving result: CR7, defined above. | Exposes a bounded trial slot and intended conditions; withholds actual occurrence, performance, and result. | `select` for the stated trial-slot availability and intended conditions only; return if the plan, performer, interval, capability condition, path, or disposition changes. |
-| `WorkRecord-W19` about actual `Work-W19` | A.15.1 admits the dated Work independently; C.2.1 identifies the record episteme. A.2.4 may classify its intended use. A.10 path `P-W19` carries the premise “WorkRecord-W19 reports the stated rework and effort under the named earlier conditions,” its provenance and decision-use relation, and `RelianceDisposition=degrade` to that comparability-limited premise. Receiving result: CR7, defined above. | Exposes observed breakdown and effort under the earlier edition and conditions; withholds proof that MC7 fixes the breakdown or that the trial planned in WP4 will reproduce those observations. | `select` only for the narrowed comparability-qualified premise; return if the observed conditions, path, currentness, disposition, or relevance to MC7 changes. |
+| `WorkRecord-W19` about actual `Work-W19` | A.13 establishes the actual performers' assignment bases; A.15.1 admits the dated Work independently. C.2.1 identifies the record episteme. A.2.4 may classify its intended use. A.10 path `P-W19` carries the premise “WorkRecord-W19 reports the stated rework and effort under the named earlier conditions,” its provenance and decision-use relation, and `RelianceDisposition=degrade` to that comparability-limited premise. Receiving result: CR7, defined above. | Exposes observed breakdown and effort under the earlier edition and conditions; withholds proof that MC7 fixes the breakdown or that the trial planned in WP4 will reproduce those observations. | `select` only for the narrowed comparability-qualified premise; return if the observed conditions, path, currentness, disposition, or relevance to MC7 changes. |
 
-The completed account retains two pass premises and the comparability-limited degrade premise as inputs to CR7. Declining MC7 for WP4 does not make those representations unusable as decision premises; it states the result obtained using them and the additional budget facts. None of the three rows proves that MC7 improves the Method. If the same diagram is later used for a tailoring choice or WorkRecord-W19 for a learning decision, start another account.
+The completed account retains two pass premises and the comparability-limited degrade premise as inputs to CR7. Declining MC7 for WP4 does not make those representations unusable as decision premises; it states the result obtained using them and the additional budget facts. None of the three rows proves that MC7 improves the Method. If the same diagram is later used for a tailoring choice or WorkRecord-W19 for a learning decision, establish that different use account, reusing unaffected premises and reconsidering changed dependencies.
 
 #### C.37:5.2 - Failed diagram use
 

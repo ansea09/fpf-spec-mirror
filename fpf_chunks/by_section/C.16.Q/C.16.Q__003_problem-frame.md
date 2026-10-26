@@ -6,12 +6,12 @@ section_id: "C.16.Q:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__003_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:1 — Problem frame"
-line_start: 59782
-line_end: 59817
+line_start: 58808
+line_end: 58831
 dependencies:
   - "A.10"
   - "A.16"
@@ -62,19 +62,7 @@ keywords:
 
 ### C.16.Q:1 - Problem frame
 
-FPF repeatedly encounters a predictable precision failure mode around the token **quality**:
-
-drafts say:
-
-* “this design has quality”
-* “the model quality improved”
-* “quality matters before formalisation”
-* “quality characteristics”
-* “quality in QD and NQD”
-* “the world model is higher quality”
-* “the explanation is high-quality”
-
-…but the intended meaning is actually one of several different **evaluative families**, for example:
+Statements such as “the model quality improved” or “the architecture is high-quality” can concern different subjects and evaluative families. For example:
 
 1. **Phenomenal character or qualia** when the experienced quality itself is the topic of description rather than an externally measured characteristic.
 2. **Preconceptual fit or felt rightness** before stable EntityOfConcern characterization.

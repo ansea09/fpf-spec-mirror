@@ -6,12 +6,12 @@ section_id: "A.14:1"
 section_title: "Problem frame - why an advanced mereology?"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__002_problem-frame-why-an-advanced-mereology.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:1 — Problem frame - why an advanced mereology?"
-line_start: 28580
-line_end: 28593
+line_start: 28145
+line_end: 28158
 dependencies:
   - "A.1"
   - "A.15"
@@ -62,7 +62,7 @@ Four recurring questions then matter:
 
 2. **Selected concern vs. structural aspect.** Engineers also say “the thermal aspect”, “the safety view”, or “the inspection slice”. A Characteristic, viewpoint, representation, selected partition, or time window does not become a world-side part by that wording. `AspectOf` is used only for a bearer-dependent structural part distinguished under a named facet rule.
 
-3. **Change vs. replacement.** “The prototype **before calibration**” may be a proper temporal restriction of one unchanged pump. By contrast, “v2 of the spec” first opens C.2.1 identity and, for two different epistemes, its independent edition-continuity test; “shift 1 vs. shift 2” first opens A.15.1 Work-part or occurrence law. None of those labels selects `PhaseOf` by itself.
+3. **Change vs. replacement.** “The prototype **before calibration**” may be a proper temporal restriction of the same continuing pump. By contrast, “v2 of the spec” first opens C.2.1 identity and, for two different epistemes, its independent edition-continuity test; “shift 1 vs. shift 2” first opens A.15.1 Work-part or occurrence law. None of those labels selects `PhaseOf` by itself.
 
 4. **Belonging vs. construction.** “Vehicle 12 belongs to Fleet North” uses the fleet's own rule. That sentence alone makes neither the vehicle a constructive part nor the fleet an acting System, and it does not prohibit either separate claim.
 

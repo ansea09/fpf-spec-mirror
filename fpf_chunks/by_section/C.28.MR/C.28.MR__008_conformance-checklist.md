@@ -6,12 +6,12 @@ section_id: "C.28.MR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:7 — Conformance Checklist"
-line_start: 68889
-line_end: 68899
+line_start: 67863
+line_end: 67873
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"
@@ -23,7 +23,7 @@ keywords:
 
 ### C.28.MR:7 - Conformance Checklist
 
-- The intervention and queried consequence identify the same modeled subject, population and relevant time.
+- The intervention and queried consequence refer to the intended model and population, with their times or horizon explicit where they affect the answer.
 - The replaced equation or rule is recoverable, including any inputs used by a policy or randomizer.
 - Other mechanisms remain in force; their values are recomputed where the replacement affects them.
 - The joint input law and common causes needed by the query survive the computation.

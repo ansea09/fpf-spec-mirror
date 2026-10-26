@@ -6,12 +6,12 @@ section_id: "A.1.CSD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__005_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:3 — Forces"
-line_start: 3847
-line_end: 3857
+line_start: 3842
+line_end: 3852
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -45,5 +45,5 @@ keywords:
 | Breadth vs ontology | More candidate bearers improve discovery only while each keeps its exact kind or honest blocker. |
 | Several scales vs one decision | Several holons may change differently, while the receiver still needs a bounded next move. |
 | Reuse vs domain authority | A common discovery action is transferable; domain quantities, thresholds, evidence Methods, and decisions are not. |
-| Proportionality vs completeness | Exhaustive discovery is rarely possible, but an explicit residual is more useful than silent closure. |
+| Proportionality vs completeness | A bounded investigation can leave paths unexamined; its material residual must remain visible to the receiver. |
 

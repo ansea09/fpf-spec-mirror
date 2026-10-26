@@ -6,12 +6,12 @@ section_id: "A.16.0:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 33988
-line_end: 33995
+line_start: 33519
+line_end: 33526
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -43,7 +43,7 @@ keywords:
 ---
 
 ### A.16.0:8 - Common Anti-Patterns and How to Avoid Them
-- **Meta-wrapper inflation.** Treat `A.16.0` as obligatory around every move. Repair by publishing a local `A.16` move note unless a later use depends on the history.
+- **Meta-wrapper inflation.** Treat `A.16.0` as obligatory around every move. Repair by using sufficient local `A.16` publication content unless a later use depends on the history.
 - **One-publication myth.** Record a changed claim discriminator under the same episteme edition. Repair by identifying the different epistemes and only the lineage links whose predicates obtain.
 - **Pattern and form collapse.** Treat a pattern reference as if it were a publication form. Repair by naming the form and the cited pattern's concrete definition, constraint, or test separately.
 - **Form and face collapse.** Treat seam publications as if they minted a second MVPK face family. Repair by naming form and face separately.

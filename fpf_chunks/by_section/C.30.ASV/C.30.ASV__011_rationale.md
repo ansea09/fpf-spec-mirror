@@ -6,12 +6,12 @@ section_id: "C.30.ASV:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:10 — Rationale"
-line_start: 74113
-line_end: 74120
+line_start: 73063
+line_end: 73070
 dependencies:
   - "A.1"
   - "A.10"
@@ -67,7 +67,7 @@ keywords:
 
 C.30.ASV exists because architecture descriptions are commonly multi-view, but FPF cannot let "view" absorb every architecture claim. A structure kind and a viewpoint are different. A structure kind says what kind of selected structure is described; a viewpoint is one exact episteme whose fixed rules the candidate description must satisfy. The direct conformance occurrence, not a label or bundle, makes the same episteme a `U.View`.
 
-The pattern keeps first use light by providing `ArchitectureStructureKindTriage@Project`. If triage identifies the structure kind under consideration and the next admissible architecture move, no full view record is needed. The full record is used when exact conformance obtains and a view changes action, correspondence, publication, source return, source or reliance use, or non-view claim kind.
+The first useful result is an explanation of the selected structure, its kind and the intended use. An adequate ordinary sentence can finish triage. `ArchitectureStructureKindTriage@Project` and the fuller view record organize content when that helps a receiving use; neither is required merely because the explanation is retained or published. A claimed architecture structural view still requires exact description identity and E.17.0 conformance.
 
-The TEVB decision is conservative. E.17.2 supplies a four-position project-local authoring template, not a current family or importable bundle. Architecture may reuse only exact `U.ViewpointRef` values resolved from a materialized local declaration, with catalogue and member provenance preserved. Architecture-specific structure kinds and candidate-record bindings are defined beside those exact local references rather than mutating their resolved viewpoint epistemes or treating declaration membership as conformance.
+The TEVB decision is conservative. E.17.2 supplies a four-position project-local authoring template, not a current family or importable bundle. To reuse a declared family, resolve exact `U.ViewpointRef` values from its materialized local declaration and preserve catalogue and member provenance. Direct use of an independently admitted viewpoint does not require forming that family. Architecture-specific structure kinds and candidate-record bindings are defined beside those exact local references rather than mutating their resolved viewpoint epistemes or treating declaration membership as conformance.
 

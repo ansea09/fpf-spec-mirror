@@ -6,12 +6,12 @@ section_id: "A.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:4 — Solution"
-line_start: 40391
-line_end: 40535
+line_start: 39575
+line_end: 39723
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -62,7 +62,7 @@ GateDecisionResult:
 
 One result is identified by the tuple containing the gate, decision subject, bounded action, profile application, canonical required and optional check-application identity sets, the exact consumed check-application result refs, scope, and qualification window. A changed rule edition, checked subject, criterion, case, result, scope, or window requires another result. The decision value and rationale are the content derived for that fixed tuple; a contradictory value for the same tuple is an error, not another result to merge.
 
-The rationale links every check-application result to its mapping rule and then to the aggregate and action consequence. A `GateDecisionExplanation` may restate that rationale in ordinary language; it is optional, carries no decision value, and cannot replace the result or rationale.
+The rationale links every check-application result to its mapping rule and then to the aggregate and action consequence. A `GateDecisionExplanation` may restate the rationale and decision value in ordinary language. It is optional and creates no additional decision; the identified result remains the basis for its explanation.
 
 #### A.21:4.2 - One check application
 
@@ -91,7 +91,7 @@ GateCheckApplicationResult:
 
 The pattern that defines or tests the source claim determines `sourceOutcome`; A.21 only applies the cited mapping rule. A not-applicable application states why the criterion does not apply. A not-run application states that evaluation work did not produce a result. Unknown, error, violation, and success keep the meanings supplied by their source patterns.
 
-The application identity includes the checked subject, criterion and edition, applicable rule application, case facts, scope, and window. Two `SystemRoleFit` applications for different Systems and two `RegulatedConformance(X)` applications for different regulators or rule editions are different applications. Deduplicate only genuinely identical application results. If two copies claim different source outcomes for the same identity, stop and resolve the contradiction; do not join them by `checkKind`.
+The application identity includes the checked subject, criterion and edition, applicable rule application, case facts, scope, and window. Two `SystemRoleFit` applications for different Systems and two `RegulatedConformance(X)` applications for different regulators or rule editions are different applications. Deduplicate only identical application results under these identity conditions. If two copies claim different source outcomes for the same identity, stop and resolve the contradiction; do not join them by `checkKind`.
 
 When a publication or selected structure needs a short `GateCheckRef`, that value refers to one identified `GateCheckApplicationResult`. It is not the old `{aspect, kind, edition, scope}` record and cannot omit the checked subject, criterion or rule application, case, scope, or window needed to resolve that result.
 
@@ -129,6 +129,8 @@ In ordinary language: **the worst mapped result wins**. Only after every require
 
 The join is associative, commutative, and idempotent. `abstain` is neutral and `block` absorbs other values, but those algebraic properties do not change the source results.
 
+The join determines the decision value; the profile rule also determines its action consequence. Retain every applicable action restriction unless an authorized rule changes it. For example, two checks may each map to `degrade`, one requiring reduced speed and the other supervision: the permitted action must satisfy both. Conflicting restrictions permit no action unless an applicable rule resolves the conflict; the shared `degrade` value alone supplies no permission.
+
 | Decision | Meaning for the bounded action |
 | --- | --- |
 | `abstain` | The applicable profile says this gate makes no decision for this action and names the remaining decision route or absence of one. It grants no permission. It is not used for missing, unknown, failed, or unrun required checks. |
@@ -147,7 +149,7 @@ Recompute the result when the decision subject, bounded action, profile applicat
 
 #### A.21:4.7 - Optional LaunchGate use
 
-Use `LaunchGate` only when an A.21 gate-decision relation is current for one prospective `workEntryClaimRef`, WorkPlan or PlanItem entry question, and bounded attempted action. The gate refers to that prospective claim; it never targets a not-yet-existing Work individual.
+Use `LaunchGate` only when an A.21 gate decision is needed for one prospective `workEntryClaimRef`, WorkPlan or PlanItem entry question, and bounded attempted action. The gate refers to that prospective claim; it never targets a not-yet-existing Work individual.
 
 `A.15.5` remains the ordinary route for full-kit and work-entry readiness. Add a LaunchGate only when the selected transformation-flow structure actually contains that gate use. Freshness, design-run-tag consistency, A.20 ingress validity, structural crossing, and SquareLaw are checks only when their exact claims, rules, and defining patterns are current. No one of them is mandatory merely because the word “launch” appears.
 
@@ -167,9 +169,11 @@ The following names are recognition aids, not a universal catalogue: freshness, 
 
 Use A.10 for claim-bound evidence reliance and B.3 when an actual named assurance claim is current. Use A.2 and C.3.2 for system-role classification, A.2.1 for exact assignments, and F.6 only for an expressly consumed assignment-bound Work attribution. A.2.6 answers whether a claim covers the selected slice; channel criteria remain with their domain pattern. Use E.18 for crossing claims within its applicable structure and the applicable comparison pattern for comparator claims.
 
+If later Work is asserted, first establish its A.13 core: the performing System, exact local agential-role kind and membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits that performance; F.6 applies afterward only for precise assignment-bound attribution.
+
 #### A.21:4.10 - Publication, rationale, and reuse
 
-The ordinary one-time result needs the fields in section 4.1 and a short rationale. It does not require a Multi-View Publication Kit (MVPK) face, AssuranceLane, evidence bundle, Bridge apparatus, cache key, or equivalence witness.
+The ordinary one-time result needs the content in section 4.1 and a short rationale; existing descriptions may supply it without a new form. It does not require a Multi-View Publication Kit (MVPK) face, AssuranceLane, evidence bundle, Bridge apparatus, cache key, or equivalence witness.
 
 When publication is current, E.24.PUB defines the publication occurrence, form, carrier, audience, bounded use, and availability. Use E.17 when the result needs a source-backed reader face and return to source. A publication mode changes only that form; it neither selects a profile nor changes the required check set or aggregate. The published minimum is the result identity, decision subject, profile application, check-application refs, decision, action consequence, scope, window, and recheck condition. Crossing, evidence, regulation, safety, and assurance fields appear only when the corresponding claim is current.
 

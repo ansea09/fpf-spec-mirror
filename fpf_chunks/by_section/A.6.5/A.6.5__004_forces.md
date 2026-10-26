@@ -6,12 +6,12 @@ section_id: "A.6.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:3 — Forces"
-line_start: 23522
-line_end: 23532
+line_start: 23108
+line_end: 23118
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -33,7 +33,7 @@ keywords:
 | Readability and reuse | The first relation sentence stays simple, while later claims may need exact typed SlotSpecs. |
 | Local SlotKind and durable participant | A SlotKind is local to one declaration, while the relation participant keeps the identity and kind defined elsewhere. |
 | Exact range and open-ended ontology | A ValueKind needs enough precision for the predicate without forcing every participant into a newly minted U-kind. |
-| Embedded value and stable reference | Some assertion or relation-occurrence description epistemes designate an actual participant by value; others designate it through a reference to an independently identified entity. The world-side relation occurrence has the participant directly in either case. |
-| Logical form and constructive grounding | Predicate and slot discipline help review a relation, while FPF still needs grounded participants, a relation obtaining predicate, and a relation occurrence-identity rule. |
+| Embedded value and stable reference | An assertion or description may designate an entity by value or reference. When the relation obtains, that entity participates directly; the designation mode does not change the participant. |
+| Logical form and constructive grounding | Predicate and slot discipline help review a relation, while FPF still needs grounded participants, a relation obtaining predicate, and an occurrence-identity rule when that identity is needed. |
 | Grammatical verb and ontological kind | A verb can express a relation predicate without turning the relation into work, method, transformation, agency, or a holon. |
 

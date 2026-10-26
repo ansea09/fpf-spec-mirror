@@ -6,12 +6,12 @@ section_id: "C.43:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:4 — Solution"
-line_start: 89661
-line_end: 89877
+line_start: 88479
+line_end: 88695
 dependencies:
   - "A.12"
   - "C.11"
@@ -179,7 +179,7 @@ Model predictive control repeatedly solves a finite-horizon problem and applies 
 
 Economic MPC can optimize an operating cost directly rather than only track a fixed setpoint. It still needs a defensible objective and constraints. The adjective economic does not identify whose consequences are included or supply an economic interpretation of every cost coefficient.
 
-**Economic reasoning.** The common comparison becomes economic when it concerns competing uses of limited means and the consequences for participants with particular preferences and exchange opportunities. The current configuration is the starting condition. The opportunity cost concerns the best genuinely available use displaced by the choice; that use need not be the current practice.
+**Economic reasoning.** The common comparison becomes economic when it concerns competing uses of limited means and the consequences for participants with particular preferences and exchange opportunities. The current configuration is the starting condition. The opportunity cost concerns the best available use displaced by the choice; that use need not be the current practice.
 
 A finite change may be an indivisible contract or a whole machine. A derivative is useful when the model and scale of change justify a local approximation. A shadow price describes sensitivity of an optimized objective to a modeled constraint under the relevant mathematical conditions. A purchase price states an available exchange. These answer related but different questions. A payment already made is not recovered by rejecting the next action, while the acquired asset and surviving obligations remain part of the present situation. A future unavoidable payment can cancel from the difference between alternatives and still matter to solvency.
 

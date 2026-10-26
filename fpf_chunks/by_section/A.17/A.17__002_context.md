@@ -6,12 +6,12 @@ section_id: "A.17:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__002_context.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:1 — Context"
-line_start: 34603
-line_end: 34606
+line_start: 34013
+line_end: 34016
 dependencies:
   - "A.17"
   - "A.18"
@@ -24,8 +24,8 @@ dependencies:
   - "C.2"
   - "D.3"
   - "E.10"
-  - "U.Dynamics"
-  - "U.PromiseContent.acceptanceSpec"
+  - "F.7"
+  - "F.9"
 keywords:
   - "attribute"
   - "axis"
@@ -41,5 +41,5 @@ keywords:
 
 ### A.17:1 - Context
 
-To have reproducibility and explainability there is a need to **measure** various aspects of systems or knowledge epistemes or publications. A dedicated measurement backbone (see **C.MM‑CHR**, Measurement & Metrics Characterization) already exists, prescribing the **CSLC discipline** – i.e. define a **Characteristic**, choose a **Scale** (with a **Unit** if applicable), record a **Level/Value**, and thus obtain a **Coordinate** on that scale, optionally mapping to a **Score** via a **ScoringMethod (USCM)**. However, historically multiple near-synonyms (“axis”, “dimension”, “property”, “feature”, "metric") have been used interchangeably for “what is being measured,” and often the _aspect itself_ gets conflated with _how it is expressed_ (units, ranges, labels). This pattern enters the FPF **Kernel lexicon** to **canonize a single term** for the measured aspect and enforce a clear separation between **what** is measured and **how** it is measured.
+A measurement needs a recognizable aspect, its bearer or participants, and a way to express the result. C.16 supplies the CSLC discipline: define a **Characteristic**, choose a **Scale** and any applicable **Unit**, and report a **Level/Value** as a **Coordinate** on that Scale. A **ScoringMethod** may then map Coordinates to a **Score** for a declared evaluation. A.17 fixes the vocabulary and arity of the measured aspect so that terms such as axis, dimension, feature or metric do not hide these different meanings.
 

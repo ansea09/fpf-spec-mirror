@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 9915
-line_end: 9926
+line_start: 9838
+line_end: 9849
 dependencies:
   - "A.10"
   - "A.13"

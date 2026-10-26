@@ -6,12 +6,12 @@ section_id: "C.26.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:10 — Rationale"
-line_start: 66280
-line_end: 66285
+line_start: 65239
+line_end: 65244
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,7 +40,7 @@ keywords:
 
 ### C.26.1:10 - Rationale
 
-The pattern exists because boundary work is where the QL lens becomes practically visible fastest. Teams already experience dashboard effects, workshop effects, order effects, and bridge loss. The pattern gives those experiences a lightweight, typed, ordinary-pattern-compatible form.
+An output depends on the operation that produced it. When that operation also changes the represented state, the user must recover which state the output supports before using it in a decision. A supported ordinary account can establish that relation without QL.
 
 The pattern is not a generic interaction theory. It is a boundary/probe repair for cases where passive read or unjustified lossless-transfer reading is materially false.
 

@@ -6,12 +6,12 @@ section_id: "C.39.RO:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:5 — Archetypal Grounding"
-line_start: 83194
-line_end: 83242
+line_start: 82018
+line_end: 82066
 dependencies:
   - "A.3.1"
   - "A.3.2"

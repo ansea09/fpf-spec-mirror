@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__004_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:2 — Problem"
-line_start: 73077
-line_end: 73080
+line_start: 72027
+line_end: 72030
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,5 +64,5 @@ keywords:
 
 ### C.30.STRAT:2 - Problem
 
-How can FPF keep common stratification and architecture-operation language without turning the words into false root kinds, routing every structure-like phrase through C.30, copying the same trigger catalogue into many patterns, inferring technical claims from word shape, or deleting useful source language before its remaining reader use is clear?
+A compact label can carry a useful source-local meaning while leaving the intended technical claim unclear to its receiver. Recover the claim and its use without inferring a kind from word shape or replacing an already clear domain term.
 

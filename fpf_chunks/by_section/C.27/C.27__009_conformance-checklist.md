@@ -6,12 +6,12 @@ section_id: "C.27:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:7 — Conformance Checklist"
-line_start: 67346
-line_end: 67364
+line_start: 66317
+line_end: 66335
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -57,13 +57,13 @@ keywords:
 | C27-3 | The source claim's world-side EntityOfConcern remains with the source claim and is not duplicated as the adequacy episteme's subject. |
 | C27-4 | C.27 cites an exact C.27.TA episteme or ClaimAddress and does not redefine its bearer, predicate, temporal reference, window, coupling, or currentness. |
 | C27-5 | Dyn0, Dyn1, and Dyn2 classify claims, not Systems or other world objects. |
-| C27-6 | The local result is the one-screen card; a boundary-crossing profile contains only the small header and exact direct-result references. |
+| C27-6 | The local result supplies the one-screen content in ordinary prose or a card; a boundary-crossing profile adds only the needed direct-result references and their contributions. |
 | C27-7 | The card names claimed input, resistance or cost, reason for the reading, supported use, unsupported use, and reopen condition without implying causal effect, Work, authority, value, promise, or assurance. |
 | C27-8 | Performed Work names the actual System actor, whose A.13 core precedes independent A.15.1 Work admission. F.6 follows only when precise assignment-bound attribution is current. An assignment remains a separate obtaining relation and never acts. |
 | C27-9 | A non-system input uses its actual direct relation or remains an unresolved or source-side intervention claim; no generic applier branch is created. |
 | C27-10 | A viability use cites an exact C.26.3 claim episteme or ClaimAddress and an exact System, A.22 Structure, or another subject with its direct identity rule as bearer; no generic viability or configuration relation is invented. |
 | C27-11 | Measurement, dynamics, Work, causality, benchmark, promise, value, quality, viability, scaling, adaptation, search, publication, assurance, and residual QL stay with their direct patterns. |
-| C27-12 | Cases precede the optional trigger reference, and the trigger reference copies no neighboring schema. |
-| C27-13 | At least one golden case stops at ordinary prose, Dyn0, or Dyn1, and braking or coasting is not treated as failed acceleration. |
+| C27-12 | A sufficient local use can finish without the optional trigger reference. A dependent use cites the needed neighboring result without copying its schema. |
+| C27-13 | A sufficient ordinary, Dyn0 or Dyn1 reading can finish without Dyn2. Braking or coasting is not treated as failed acceleration. |
 | C27-14 | Publication occurrence, form, carrier, and availability appear only when they change use and do not reidentify unchanged claim content. |
 

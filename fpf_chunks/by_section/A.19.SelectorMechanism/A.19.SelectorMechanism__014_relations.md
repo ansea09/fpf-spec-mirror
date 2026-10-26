@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__014_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:12 — Relations"
-line_start: 40046
-line_end: 40072
+line_start: 39230
+line_end: 39256
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -49,7 +49,7 @@ keywords:
   * `A.19.CN` for `CN-Spec` governance card used as an explicit input.
   * `C.22` for `TaskSignature` as a policy-reference artifact when used.
   * `A.6.1 §4.2` for operation-local argument/result meanings and their SlotIndex projection; the local extension rule preserves inherited meanings.
-  * `A.15.2` for the edition/policy baseline; `A.15.3` plus `A.19.CHR:4.7.2` for typed filling of independently declared positions.
+  * `A.15.2` for the edition/policy baseline on P2W paths; `A.15.3` plus `A.19.CHR:4.7.2` for typed filling of independently declared positions.
   * `C.27.TA` for the explicit selection-evaluation point or interval.
   * `A.2.4`, `A.10`, and `G.11` for evidence-use scope, provenance, and currentness, separately from selection scope and output.
 * **Used by**
@@ -61,5 +61,5 @@ keywords:
 
   * `CPM` and other admissible comparison stages as producers of the exact result bindings whose justified-token union fills the Selector's `ComparisonResultSlot` argument.
   * `ULSAM` and other admissible aggregation stages that must remain explicit rather than hidden inside selection.
-  * `E.20` governing-pattern discipline and `F.18` naming or alias handling when a source term needs a bridge.
+  * `E.20` for governing-pattern discipline; `F.18` when a reusable name or alias needs to be chosen. An F.9 semantic Bridge requires its own predicate, not merely a source term.
 

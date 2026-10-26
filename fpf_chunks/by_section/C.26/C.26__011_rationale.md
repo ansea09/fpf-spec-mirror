@@ -6,12 +6,12 @@ section_id: "C.26:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:10 — Rationale"
-line_start: 65954
-line_end: 65961
+line_start: 64915
+line_end: 64922
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,9 +52,9 @@ keywords:
 
 ### C.26:10 - Rationale
 
-The cluster stays small on purpose. A single giant "Quantum-Like Architecture" pattern would hide distinct modeling concerns. Scattering the lens across local pattern bodies would repeat the same definition and boundary notes. This modeling-lens pattern lets the common lens live once while child patterns carry their own primary EntityOfConcern and admissible move.
+The common lens relates a contextual-model obstruction to the inference it constrains. Probe effects, distributed-state evidence and viability envelopes have their own objects and operations in the child patterns. Their ordinary results can stand alone; a surviving obstruction determines when they need the common lens.
 
-The key rule is simple: quantum-like is not quantum. With that boundary explicit, FPF can use the mathematical lens normally. The lens earns its keep when it prevents a passive-read, one-space comparison, faithful-copy, or exact-state shortcut.
+The lens earns its use when a named contextual-model obstruction changes the admissible inference or action. The inherited non-quantum boundary keeps that mathematical contribution separate from a physical claim.
 
 Literature supports the modeling move; local evidence supports the local state, export, or probe claim. A source anchor can justify why order effects, contextual probability, instrument-like readings, or open-system modeling are legitimate modeling patterns. It does not prove that this dashboard changed this team's state, that this workshop changed a boundary, or that this export lost the live coordination. That proof or evidence still belongs under `A.10`, `C.16`, `A.15`, `B.3`, and the ordinary pattern for the local claim.
 

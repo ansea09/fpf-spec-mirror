@@ -6,12 +6,12 @@ section_id: "C.23:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:1 — Problem frame"
-line_start: 64343
-line_end: 64346
+line_start: 63302
+line_end: 63307
 dependencies:
   - "A.10"
   - "B.3"
@@ -40,5 +40,7 @@ keywords:
 
 ### C.23:1 - Problem frame
 
-Families of methods compete inside a CG‑Frame. The selector (G.5) must **admit, degrade, or abstain** per family **without** universal scores, using **typed** problem descriptors and **auditable** evidence. Maturity of a family (its evidence-backed rung for the declared admission use) must be **visible to LOG** rules yet **separate from acceptance thresholds** (which live only in **AcceptanceClauses**, G.4).
+**Use this when** a G.5 selector must admit, restrict or refuse a registered MethodFamily for a declared TaskSignature and use. Apply executable rules to typed descriptors and the applicable evidence, retaining the branch and its grounds. Family maturity is evidence about that bounded admission use; an admission threshold belongs to a G.4 AcceptanceClause.
+
+An ordinary application of a sufficient domain Method needs no MethodFamily admission record. Use C.11 for a local choice when no selector-facing family admission is required.
 

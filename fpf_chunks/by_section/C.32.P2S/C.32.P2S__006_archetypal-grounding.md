@@ -6,12 +6,12 @@ section_id: "C.32.P2S:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:5 — Archetypal Grounding"
-line_start: 77251
-line_end: 77266
+line_start: 76172
+line_end: 76187
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -51,7 +51,7 @@ keywords:
 
 **Tell.** The architect carries pressure into structure: first by finding which selected structures are missing or inadequate, then by constructing alternatives, deciding what will be pursued, enabling exact domain work, and watching which subject-side structures actually obtain under operation. An actual transformation is introduced only when its own `A.3.4` basis is grounded.
 
-**First-minute use slice.** A plant architect sees that expected throughput and actual throughput diverge after a layout change. The first P2S card pass names the production cell as described holon, the throughput-after-layout-change architecture question, operating-shift qualification window, pressure kind `actualStructureDivergesFromExpectedStructure`, first pattern to use `C.30`, unknown structure `material-flow bottleneck bearer`, selected structure candidate `buffer placement`, and pattern for the next claim `C.32`. The card does not yet add a PAD decision, work plan, or eval result; those refs appear only when their questions become current.
+**First-minute use slice.** A plant architect sees that expected throughput and actual throughput diverge after a layout change. The first P2S account names the production cell as described holon, the throughput-after-layout-change architecture question, operating-shift qualification window, pressure kind `actualStructureDivergesFromExpectedStructure`, first pattern to use `C.30`, unknown structure `material-flow bottleneck bearer`, selected structure candidate `buffer placement`, and pattern for the next claim `C.32`. A PAD decision, work plan or eval result is added only when its question becomes current; the account may use the card above when a reusable record helps.
 
 **Lens-use slice.** If the plant team builds a DSM or epiplexity-style lens over stations, buffers, and routing events, P2S records only the architecture use: which dependency or learnable structural content was preserved, which flow distinction was compressed away, which selected structures the lens can inform, and which lens-use return condition sends the claim back to `C.29`. The lens result is not architecture adequacy, an eval result, or a decision.
 

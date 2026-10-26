@@ -6,12 +6,12 @@ section_id: "A.2.9:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__009_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:6 — Bias-Annotation"
-line_start: 8990
-line_end: 8999
+line_start: 8932
+line_end: 8939
 dependencies:
   - "A.10"
   - "A.13"
@@ -20,11 +20,11 @@ dependencies:
   - "A.2.1"
   - "A.2.6"
   - "A.2.8"
+  - "A.2.9"
   - "A.6.C"
   - "A.7"
   - "F.6"
   - "U.Method"
-  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "A.13-qualified actual performer"
@@ -46,11 +46,9 @@ keywords:
 
 ### A.2.9:6 — Bias-Annotation
 
-Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Kernel universal** when the named receiving use of communicative Work, or its governance, eligibility, gating, provenance, or protocol use, makes the act itself current.
+The account favors explicit performers, recognizable communicative functions and evidence suited to a named use. Its limits are:
 
-* **Gov bias:** favors explicit accountable performers and auditable records; increases clarity but adds modeling overhead.
-* **Arch bias:** optimizes evolvability by keeping institutional effects referenceable rather than embedded in prose.
-* **Onto/Epist bias:** preserves the kind/actual-act/record/utterance-description/carrier distinctions and requires an actual performer for an occurrence claim.
-* **Prag bias:** models only what is needed for decisions/audit (not full intention/sincerity/perlocutionary psychology).
-* **Did bias:** keeps the record minimal and queryable for state checklists and boundary reviews.
+* Exact occurrence and institutional claims need the performer and evidence basis, which adds modeling effort; an ordinary receiving-use judgement can remain conversational.
+* Institutional effects are separately referenceable, preserving the distinction between the act and its enduring consequences.
+* Recognition covers the functions needed by the use; the account does not provide a full model of intention, sincerity or perlocutionary psychology.
 

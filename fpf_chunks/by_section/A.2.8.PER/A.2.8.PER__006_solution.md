@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:4 — Solution"
-line_start: 8407
-line_end: 8597
+line_start: 8358
+line_end: 8548
 dependencies:
   - "A.10"
   - "A.13"
@@ -79,11 +79,11 @@ NonProhibitionFinding@Context <: U.Episteme
   evaluationWindow: QualificationWindowPolicy
   checkedProhibitionAddresses: set<ClaimAddress>
   result: nonProhibited | unresolved
-  evaluationWorkRef: WorkRef
+  evaluationWorkRef?: WorkRef             # when the account asserts this dated evaluation Work
 
 NonViolationFinding@Context <: U.Episteme
   workRef: WorkRef
-  performerSystemRoleAssignmentRefs: set<U.RelationRef constrained to U.SystemRoleAssignment>
+  performerSystemRoleAssignmentRefs?: set<U.RelationRef constrained to U.SystemRoleAssignment> # when the checked norm uses precise assignment attribution
   onBehalfOfRelationOccurrenceRef?: U.RelationRef constrained to the direct on-behalf-of relation kind
   normativeFrameRef: U.EpistemeRef
   frameCurrentnessResultRef: U.EpistemeRef
@@ -93,14 +93,14 @@ NonViolationFinding@Context <: U.Episteme
   evaluationWindow: QualificationWindowPolicy
   checkedProhibitionAddresses: set<ClaimAddress>
   result: nonViolating | unresolved
-  evaluationWorkRef: WorkRef
+  evaluationWorkRef?: WorkRef             # when the account asserts this dated evaluation Work
 ```
 
 `nonProhibited` and `nonViolating` are admissible only when the named frame is current and explicitly sufficiently complete for the intended use. Otherwise the finding is `unresolved`. Neither finding institutes permission or proves absence outside its frame.
 
 Every `ClaimAddress` in this pattern means the reusable `C.2.1 ClaimAddress`: an exact episteme-edition reference plus an intrinsic claim identity declared by that edition's ClaimGraph. A heading, row number, file location, or printed token is insufficient.
 
-For `NonViolationFinding@Context`, recover the performer Systems from the named Work and cite each covering assignment occurrence and its declared `U.SystemRoleAssignment` species. If the checked norm instead turns on Work done for a `PartyRef`, cite the obtaining on-behalf-of relation defined in its pattern. These are case facts used by the evaluation. Omit the on-behalf-of reference when no such branch is used.
+For `NonViolationFinding@Context`, recover the performer Systems from the independently admitted Work. Cite each covering assignment occurrence and its declared species when the checked norm uses that assignment attribution. If the norm instead turns on Work done for a `PartyRef`, cite the obtaining on-behalf-of relation defined in its pattern. These are case facts consumed by the evaluation. Omit unused assignment or on-behalf-of references. A finding need not identify a separate dated evaluation Work unless the account asserts that occurrence; its frame, completeness, currentness and checked-prohibition requirements still apply.
 
 #### A.2.8.PER:4.4 - Declare the strong granted-permission relation
 
@@ -165,7 +165,7 @@ The match and eligibility are direct obtaining predicates over the Work, grant, 
 
 The exercise relation obtains only when those two predicates hold, the grant obtains throughout the exercise interval, and the work remains in scope. The work is a satisfier of permitted action content. Judge any obligation-satisfaction or discharge claim under the separate evaluation or compliance rule (A.2.8:4.6). The work consumes the grant only when the named policy explicitly makes it single-use or quota-bound.
 
-Non-exercise leaves an obtaining grant unused and ordinarily still obtaining; it does not establish `NonViolationFinding@Context`. Exercise establishes only the exercise relation and likewise does not establish that finding without the separate checked-frame evaluation. Work outside the action specification, beneficiary eligibility, scope, or window does not exercise the grant; any further consequence is established only by the applicable prohibition, commitment, admissibility, or Work-related predicate. If a decision is required, an admitted system performs the dated decision Work under the relevant Method, covering assignment, and authority relation.
+Non-exercise leaves a grant unused; it continues while the §4.4 conditions hold. Neither non-exercise nor exercise establishes `NonViolationFinding@Context` without the separate checked-frame evaluation. Work outside the action specification, beneficiary eligibility, scope or window does not exercise the grant; any further consequence follows from the applicable prohibition, commitment, admissibility or Work-related predicate. When a decision is required, identify its result and use the relevant decision rule; an asserted dated decision Work follows the performer-and-Work route above and any assignment or authority conditions required by that rule.
 
 #### A.2.8.PER:4.6 - Expose conflict without inventing precedence
 
@@ -203,7 +203,7 @@ PermissionNormConflictFinding@Context <: U.Episteme
 
 Create the finding only when the grant and current prohibition or commitment concern the same beneficiary/action content, overlapping scope/window, and incompatible practical conclusions. Check that match directly from the two claims and their participants. Permission and an obligation to perform the same action are not automatically in conflict.
 
-An unresolved finding may omit `governingPrecedencePolicyRef` when no governing precedence policy has been identified. Keep the disposition unresolved and retain the missing input and what would reopen the question. A settled finding identifies the governing policy and the applicable rule or independently grounded decision result.
+An unresolved finding may omit `governingPrecedencePolicyRef` when no governing precedence policy has been identified. Keep the disposition unresolved and retain the missing input and what would reopen the question. A settled finding identifies the governing policy and the applicable rule or independently grounded decision result. For a proposed action, `blockedWorkOrRelianceRef` identifies the action or its WorkPlan under the applicable subject rule; it does not designate a future Work occurrence.
 
 Resolve the conflict through exactly one of two branches:
 

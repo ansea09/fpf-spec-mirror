@@ -6,12 +6,12 @@ section_id: "C.3.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:0 — Use This When"
-line_start: 55098
-line_end: 55111
+line_start: 54237
+line_end: 54250
 dependencies:
   - "A.1"
   - "A.11"
@@ -48,7 +48,7 @@ Use this pattern when work must recover one reusable kind, decide whether one ki
 
 **What goes wrong if missed.** A source or practice label becomes an identity key, `U.SubkindOf` carries dependency or construction, a finite sample is mistaken for a universal order, mutually classifying kinds are silently merged, or a changed declaration is treated as automatically new or automatically harmless.
 
-**What this buys.** The user gets an operational kind-continuity test, a replayable subkind test, and a small preorder that remains distinct from declaration identity, current extension, evidence, bridging, and public naming.
+**What this buys.** The user gets an operational kind-continuity test, a replayable subkind test, and a preorder of subkind facts distinct from declaration identity, current extension, evidence, bridging, and public naming.
 
 **Primary EntityOfConcern.** One `U.Kind` individual recovered through its candidate domain, operative membership condition, intended member/non-member distinction, and continuity rule; or one proposed `U.SubkindOf` relation between exact kind participants within declared applicability.
 

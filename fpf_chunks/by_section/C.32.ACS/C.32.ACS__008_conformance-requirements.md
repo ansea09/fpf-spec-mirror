@@ -6,12 +6,12 @@ section_id: "C.32.ACS:7"
 section_title: "Conformance requirements"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__008_conformance-requirements.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:7 — Conformance requirements"
-line_start: 77775
-line_end: 77792
+line_start: 76687
+line_end: 76704
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -51,13 +51,13 @@ keywords:
 
 | Requirement | Required result |
 |---|---|
-| `CC-ACS-1` | The criteria set names the described holon, architecture use, and receiving use; every row names its exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, and qualification or evaluation window. |
+| `CC-ACS-1` | The criteria set names the described holon, architecture use, and receiving use; every admitted row names its exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, and qualification or evaluation window. |
 | `CC-ACS-2` | Source catalogue, HCS starter pack, draft project criteria rows, optimization indicators, monitored guardrails, and context-only rows remain distinct. |
-| `CC-ACS-3` | The ordinary optimization core is three to five rows, or the text states why more are needed. |
-| `CC-ACS-4` | Each row names a bearer or selected structure. A characteristic without a bearer is not admitted as an architecture criteria row. |
+| `CC-ACS-3` | The optimization core is small enough to guide the current work. Three to five rows is a heuristic, not a minimum; a larger core needs a use reason, and all binding constraints remain. |
+| `CC-ACS-4` | Each admitted row names a bearer or selected structure. A draft with an unresolved bearer remains a question and cannot guide the dependent architecture choice. |
 | `CC-ACS-5` | User function, architecture characteristic, Q-Bundle, scale row, reading, eval program, and eval result remain separate. |
 | `CC-ACS-6` | Any composite quality family belongs to `C.25`; ACS may reference the Q-Bundle or one declared slot. |
-| `CC-ACS-7` | Each optimization row names proxy risk and protected counter-characteristics before it is used in C.32, C.32.MLAO, C.32.ACE, or E.23. |
+| `CC-ACS-7` | Before an optimization row guides a change or evaluation, examine its material proxy risk and retain the constraints and counter-characteristics needing protection. If no material proxy loss is found, retain the basis of that judgment rather than inventing a loss. |
 | `CC-ACS-8` | Eval-program construction belongs to `C.32.ACE`; eval programs are not used as criteria rows. |
 | `CC-ACS-9` | The criteria set does not compare, select, publish, decide, certify, or carry an architecture-adequacy claim by itself. |
 | `CC-ACS-10` | A project-local criteria set or improvement row names both `projectWorkOccurrenceRef` and the obtaining `architectureCriteriaProjectUseRelationRef` for that exact record; the suffix or either reference alone asserts no locality. |

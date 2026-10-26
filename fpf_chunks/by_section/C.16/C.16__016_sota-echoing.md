@@ -6,12 +6,12 @@ section_id: "C.16:14.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__016_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:14.1 — SoTA-Echoing"
-line_start: 58731
-line_end: 58748
+line_start: 57826
+line_end: 57841
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,19 +55,17 @@ keywords:
 
 ### C.16:14.1 - SoTA-Echoing
 
-Recheck the affected source-use decision before relying on it after 2027-07-30 or following an earlier change to the source edition, amendment, correction, Recommendation status, or normative definition. External terms guide the bounded C.16 rules named below; no source imports its ontology wholesale or establishes a measurement, work occurrence, result, episteme, calibration fact, or later-use relation.
+These sources contribute different parts of measurement interpretation. Their quantity, model and observation concepts retain their source meanings; correspondence to an FPF concept requires F.9 only when the use depends on that semantic mapping.
 
-| Exact source and source-use decision | Visible C.16 mutation | Rejected overread | Smallest source-change replay |
-| --- | --- | --- | --- |
-| [JCGM 200:2012, VIM3, online entry 2.9 `measurement result`](https://jcgm.bipm.org/vim/en/2.9.html), including the online corrections/annotations as of 2026-07-30 — **adopt** the attributed-values-plus-relevant-information boundary. | `M-RES-1`, `M-RES-2`, the calibrated-detector case, and checklist items 6–7 keep measurand, attributed values, uncertainty/relevant information, and result episteme distinct. | A displayed indication, raw output, actual subject state, diagnosis, verdict, or decision is not the measurement result. | Reopen only `M-RES-1/2`, the calibrated-detector result paragraph, and checklist items 6–7 if VIM changes the result/measurand boundary. |
-| [JCGM GUM-6:2020, *Developing and using measurement models*](https://doi.org/10.59161/JCGMGUM-6-2020) — **adapt** its model/input/output/model-adequacy and uncertainty discipline to the C.16 measurement chain. | `M-MODEL-1`, `M-IO-1`, `M-UNC-1/2`, the engine-test case, and checklist items 3–4 make model edition, actual inputs, output quantity, assumptions, calibration, covariance, propagation, and validity domain recoverable. | Model input/output roles are not universal work relations; more provenance pointers do not reduce uncertainty; a formula or function does not prove that measurement work occurred. | Reopen only `M-MODEL-1`, `M-IO-1`, `M-UNC-1/2`, the engine-test uncertainty paragraph, and checklist items 3–4 if GUM changes model construction, adequacy, or propagation requirements. |
-| [ISO 80000-1:2022, *Quantities and units — Part 1: General*](https://www.iso.org/standard/76921.html) and [ISO/IEC 25024:2015, confirmed current in 2022](https://www.iso.org/standard/35749.html) — **Bridge-only** for quantity/unit names and data-quality-measure alignment. | They may populate a Concept-Set/Bridge used by `M-CSLC-2` or a receiving data-quality measure; they do not change C.16's separation between Characteristic/Scale and measurement result. | Standard quantity, unit, or quality-measure labels do not authorize arithmetic, comparability, acceptance, or a C.16 result. | Reopen only the affected Bridge row plus `M-CSLC-2` and checklist item 2; reopen no measurement case unless the mapped term was load-bearing there. |
-| [QUDT Schema 3.4.0, June 2026 catalogue](https://www.qudt.org/catalog/qudt-catalog.html) — **Bridge-only** for citable quantity-kind, unit, dimension, and datatype identifiers. | A C.16 record may cite a QUDT identifier after the F-pattern Bridge establishes the correspondence; `M-CSLC-2` still governs admissible C.16 use. | A shared URI does not prove same measurand, Scale, model, calibration regime, or direct comparability. | Reopen only the cited Bridge mapping, `M-CSLC-2`, and checklist items 2 and 8 when the mapped QUDT graph or identifier changes. |
-| [W3C/OGC SOSA/SSN Recommendation 19 October 2017](https://www.w3.org/TR/vocab-ssn/) — **Bridge-only** for sensor, observation, procedure, feature-of-interest, and observed-property terms. The [2023 Edition First Public Working Draft of 16 September 2025](https://www.w3.org/TR/vocab-ssn-2023/) is watch-only until it reaches a governing publication status. | A Bridge may align an external observation/procedure record with C.16's measurand, method, work, indication, and result boundaries; it never replaces `M-WORK-1` or `M-RES-1/2`. | An SOSA/SSN observation graph does not by itself establish FPF work identity, actual bindings, measurement result, result episteme, or later use. | Reopen only the affected SOSA/SSN Bridge, `M-WORK-1`, the external-record case that uses it, and checklist items 5–7 when the Recommendation changes or the 2023 Edition advances with a conflicting normative separation. |
+| Source | Measurement contribution | Use boundary |
+| --- | --- | --- |
+| [JCGM 200:2012, VIM3, entry 2.9](https://jcgm.bipm.org/vim/en/2.9.html) | A measurement result comprises attributed values with the relevant information needed to interpret them. | An indication, raw output, actual subject state, diagnosis, verdict or decision has a different role in the measurement and its use. |
+| [JCGM GUM-6:2020, *Developing and using measurement models*](https://doi.org/10.59161/JCGMGUM-6-2020) | Model construction and adequacy connect actual inputs, output quantity, assumptions, calibration, covariance and uncertainty propagation within a validity domain. | Model input/output roles are not universal Work relations. A formula does not establish performed measurement work; more provenance pointers do not reduce uncertainty. |
+| [ISO 80000-1:2022, *Quantities and units — Part 1: General*](https://www.iso.org/standard/76921.html) and [ISO/IEC 25024:2015, *Measurement of data quality*](https://www.iso.org/standard/35749.html) | Quantity, unit and data-quality-measure definitions can supply the terms used by a measurement. | A standard label alone establishes neither Scale-compatible arithmetic nor comparability, acceptance or a C.16 result. |
+| [QUDT Schema 3.4.0, June 2026 catalogue](https://www.qudt.org/catalog/qudt-catalog.html) | Citable identifiers distinguish quantity kinds, units, dimensions and datatypes. Source-local citation needs no additional semantic mapping; a different intended local sense does. | A shared URI does not establish the same measurand, Scale, model, calibration regime or direct comparability. |
+| [W3C/OGC SOSA/SSN Recommendation, 19 October 2017](https://www.w3.org/TR/vocab-ssn/), and [2023 Edition First Public Working Draft, 16 September 2025](https://www.w3.org/TR/vocab-ssn-2023/) | Observation and procedure accounts can supply relevant subject, property and measurement information. Interpret each claim under its cited edition; a draft proposal carries its stated draft status. | An observation graph does not by itself establish FPF Work identity, actual bindings, a measurement result, its episteme or a later use. A correspondence claim needs its own basis. |
 
 **Constructing and revising the model.** GUM-6:2020, §§7, 9-10 and 12, supplies the distinction between the measurement principle, effects of implementation and adequacy for use. Section :5.3.1 turns that distinction into a construction and an ambiguity test. The circuit and assessment cases work this instruction using their stated subject models.
 
 [Dounas-Frazer and Lewandowski (2018), §2](https://arxiv.org/pdf/1805.10334), distinguishes models of the phenomenon and measurement equipment and allows revision of either model or either physical arrangement. C.16 adopts those different returns. Its stopping question is the intended use of the measurement: a sufficient interval can end the work, while a consequential discrepancy can require further investigation. B.5 and C.11.DUA supply the wider inquiry and choice.
-
-Other lineage and domain examples are informative comparators. A source change reopens the contribution that relies on it; extend that comparison when a changed premise also affects another use.
 

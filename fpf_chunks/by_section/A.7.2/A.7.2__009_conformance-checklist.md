@@ -6,12 +6,12 @@ section_id: "A.7.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:7 — Conformance Checklist"
-line_start: 26431
-line_end: 26444
+line_start: 25979
+line_end: 25992
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -38,9 +38,9 @@ keywords:
 |---|---|
 | `CC-A7.2-1` | The conflict names exact receiving claims, practical consequences, contexts, scopes, and current editions. |
 | `CC-A7.2-2` | Vocabulary difference or unlike source function alone does not trigger reconciliation. |
-| `CC-A7.2-3` | The reader, `U.MethodDescription` episteme, described `U.Method`, actual performer identified through A.13, independently admitted dated reconciliation `U.Work`, source uses, and returned result are distinct. For a precise actual-Work claim, retain the separately declared assignment species and obtaining occurrence used by A.13; add the F.6 check only when the case must also identify the assignment under which the Work was performed. A short result may omit unused identifiers without presuming those facts. |
+| `CC-A7.2-3` | Keep the reader, pattern episteme, described Method and result distinct. Any MethodDescription claim satisfies A.3.2. For an asserted dated reconciliation Work, retain the independent A.13/A.15.1 basis in §0, including the separately admitted assignment species and obtaining occurrence used by A.13; add F.6 only for the precise attribution consumed. A short result may omit unused identifiers without presuming their facts. |
 | `CC-A7.2-4` | Every load-bearing common claim is cited from `A.7.CP` through an actual reasoning-basis occurrence. |
-| `CC-A7.2-5` | Every source-use occurrence has the three exact participants, source and receiving-claim editions, function, claim scope, and maximal continuous actual-use interval. It includes only content-slice, model-use, currentness, evidence, disposition, blocked-overread, or claim-change qualifiers actually used or asserted in this reconciliation. |
+| `CC-A7.2-5` | Every source-use occurrence has the three participants, source and receiving-claim editions, function, claim scope and maximal continuous actual-use interval. Corrected knowledge of that interval does not itself change occurrence identity. Include only qualifiers used or asserted in this reconciliation, with blocked-overread references satisfying §4.3's F.19 conditions. |
 | `CC-A7.2-6` | Evidence, publication, formal semantics, and currentness remain with subject patterns. |
 | `CC-A7.2-7` | The repair reopens the smallest decision set and preserves unrelated FPF decisions. |
 | `CC-A7.2-8` | The result is one of the five declared dispositions with affected use and stop/reopen condition. |

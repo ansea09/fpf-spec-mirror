@@ -6,12 +6,12 @@ section_id: "A.6.S:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:10 — Rationale"
-line_start: 25369
-line_end: 25378
+line_start: 24924
+line_end: 24931
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -44,7 +44,5 @@ Stable boundaries sometimes benefit from a reusable description of how they are 
 
 A.6.5, A.6.6, A.6.2-A.6.4, and E.17 supply distinct optional moves. Treating all of them as mandatory constructor primitives would recreate the ambiguity and overhead those patterns are meant to remove. The direct move comes first; the reusable ConstructorSignature packages only the operation language that has an actual receiver.
 
-The result keeps viewing, declaration edits, episteme succession, reference retargeting, EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities, application, and Work distinct. A.6.B likewise keeps laws, gates, duties, and evidence-use claims from competing in one “contract” paragraph.
-
-**SoTA source note (informative).** Modern effect systems support the separation between an operation declaration and effectful realization; categorical optics inform explicit preservation claims; and architecture-description practice informs accountable views. A.6.S adopts those limited separations without importing a tool ontology or making a ConstructorSignature mandatory.
+The result keeps viewing, declaration edits, episteme succession, reference retargeting, EntityOfConcern retargeting, application and Work distinct. A.6.B separately recovers the actual law, admissibility, deontic or observation claim hidden by contract wording.
 

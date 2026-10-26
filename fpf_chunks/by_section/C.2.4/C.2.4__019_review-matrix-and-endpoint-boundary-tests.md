@@ -6,13 +6,14 @@ section_id: "C.2.4:18"
 section_title: "Review Matrix and Endpoint Boundary Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__019_review-matrix-and-endpoint-boundary-tests.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:18 — Review Matrix and Endpoint Boundary Tests"
-line_start: 53757
-line_end: 53774
+line_start: 52910
+line_end: 52927
 dependencies:
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.16"
@@ -21,6 +22,7 @@ dependencies:
   - "A.16.2"
   - "A.18"
   - "A.3.1"
+  - "A.3.2"
   - "A.6.3.RT"
   - "A.6.P"
   - "B.4.1"
@@ -32,6 +34,8 @@ dependencies:
   - "C.2.8"
   - "C.2.LS"
   - "C.2.P.DR"
+  - "C.29"
+  - "F.6"
 keywords:
   - "AE0–AE5"
   - "articulation explicitness"
@@ -46,7 +50,7 @@ keywords:
 #### C.2.4:18.1 - Review matrix
 A reviewer should ask:
 
-- are the named anchors genuinely present rather than presupposed;
+- are the named anchors present in the published expression rather than presupposed;
 - does the level rest on recoverable meaning rather than tone, formatting, arrows, or columns;
 - is the direct semantic branch explicit, or is a relation route being inferred from presentation alone;
 - are the participants, actions, fields, meanings, conditions, bounds, or ordinary wording required by that branch still hidden;
@@ -57,5 +61,5 @@ A reviewer should ask:
 High `AE` does not by itself authorize endpoint claims, gate claims, or quality ascriptions. If such consequences appear, show which downstream governing pattern takes over.
 
 #### C.2.4:18.3 - Migration note for false precision
-Rigid templates, capitalized labels, or tidy sentence rhythm can simulate articulation. Migration should therefore test whether the claimed branch-appropriate structure, including any required anchors or slots, is really recoverable; if not, the articulation level should drop.
+Rigid templates, capitalized labels, or tidy sentence rhythm can simulate articulation. Test whether the claimed branch-appropriate structure, including any required anchors or slots, is recoverable. If it is not, revise the assessment to the level supported by the available structure, or leave the level unresolved when its grounds cannot be established.
 

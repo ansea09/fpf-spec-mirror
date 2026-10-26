@@ -6,12 +6,12 @@ section_id: "A.4:4"
 section_title: "Solution - One Bounded Comparison"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__005_solution-one-bounded-comparison.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:4 — Solution - One Bounded Comparison"
-line_start: 13621
-line_end: 13643
+line_start: 13442
+line_end: 13462
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -42,8 +42,6 @@ keywords:
 3. **Obtain or reuse comparable facts.** Recover the actual operating conditions and results required by the criterion. Check their temporal reference, units, tolerance, relevant configuration and measurement uncertainty when it affects the selected decision rule. If the design and observation concern different conditions, use an already justified translation only within its limits. Otherwise name the missing basis. Use C.27 when temporal adequacy is itself unresolved.
 4. **Perform the comparison and return its boundary.** State what meets the criterion, the discrepancy, or the precise missing or incomparable premise. Qualify the result to the named System, account claim, conditions and use. When a rule withholds acceptance because the evidence is too uncertain, distinguish that outcome from an established physical failure. A partial comparison can leave other requirements unexamined.
 5. **Separate any response decision.** Keeping the present use, qualifying reliance, changing the System and revising the account are different possible next decisions. Use their own authority and subject methods when needed; B.4 coordinates repeated adaptation. Do not replace the selected target with an easier one and report that as improved conformance. Stop at the comparison when it answers the working question.
-
-No additional record is required when the subject, criterion, actual facts and bounded answer are already recoverable in the working account. Describing this method does not assert that an observation or Work occurrence happened.
 
 #### A.4:4.1 - Observation, change and continuity
 

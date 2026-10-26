@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:6 — Bias-Annotation"
-line_start: 11078
-line_end: 11089
+line_start: 10985
+line_end: 10996
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"
@@ -23,10 +23,10 @@ keywords:
 
 ### A.3.1.MV:6 - Bias-Annotation
 
-| Recurring bias | Likely drift | Repair |
+| Bias | Likely drift | Repair |
 | --- | --- | --- |
 | file-version bias | Every document or repository version becomes a Method variant. | Compare reusable Method semantics; for an edition-only change, name the maintained result, exact edition claim, and next maintenance or stop action. |
-| local-deviation bias | One Work departure becomes a reusable Method. | Recover repetition, intended reuse, semantic account, and independent admission; otherwise keep Work evidence. |
+| local-deviation bias | One Work departure becomes a reusable Method. | Recover intended reuse, a semantic account, and independent admission; otherwise keep Work evidence. |
 | inherited-admission bias | A child or hybrid inherits parent Method status. | Admit every proposed Method independently or preserve candidate status. |
 | tool-identity bias | A new prompt, tool, or platform becomes the variant. | Ask which reusable operations or stops changed; maintain support when none did. |
 | evidence-smearing bias | Parent fit or worth evidence is attached to every descendant. | Bind evidence to semantics, situation, support, capability, alternative set, and window. |

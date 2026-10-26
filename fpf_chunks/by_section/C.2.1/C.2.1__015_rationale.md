@@ -6,12 +6,12 @@ section_id: "C.2.1:14"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__015_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:14 — Rationale"
-line_start: 51859
-line_end: 51864
+line_start: 51024
+line_end: 51029
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -54,7 +54,7 @@ keywords:
 
 ### C.2.1:14 - Rationale
 
-Adding empirical grounding, viewpoint, scope, edition, and publication to every identity would instead collapse distinct relations and make ordinary use needlessly heavy.
+The three constitution discriminators identify the knowledge holon; empirical grounding, viewpoint, scope, edition, and publication remain separately governed. A change in one of those neighboring relations can therefore be examined without reidentifying an unchanged episteme.
 
-Separating the episteme from its constitution relation is equally important. The direct relation explains how the identity-bearing participants are organized. The episteme is the resulting holon with a whole-level capacity to carry interpretable claims. A relation declaration is first its own C.2.1 episteme; `A.6.0` independently recognizes that same individual as a `U.Signature`, and `RelationSignature` names its relation-facing use. Its claims declare the direct relation for typed reuse; an assertion claims that the relation obtains, and a publication occurrence makes a selected episteme edition available. None replaces another.
+The constitution relation explains how the identity-bearing participants are organized. The episteme is the resulting holon with a whole-level capacity to carry interpretable claims. A relation declaration is first its own C.2.1 episteme; `A.6.0` independently recognizes that same individual as a `U.Signature`, and `RelationSignature` names its relation-facing use. Its claims declare the direct relation for typed reuse; an assertion claims that the relation obtains, and a publication occurrence makes a selected episteme edition available. None replaces another.
 

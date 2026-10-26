@@ -6,12 +6,12 @@ section_id: "C.26:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:7 — Conformance Checklist"
-line_start: 65842
-line_end: 65862
+line_start: 64803
+line_end: 64823
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,7 +55,7 @@ keywords:
 | ID | Check |
 | --- | --- |
 | CC-C26.1 | The text names the ordinary FPF pattern before admitting QL wording. |
-| CC-C26.2 | The text states the QL cue as a probe, order, frame, export, comparison, open-information-system update/probe/export-admissibility, or coarsening effect, not as vague complexity. |
+| CC-C26.2 | The text names the contextual-model obstruction, its assumptions and its consequence under the :4 activation test; a general probe, frame, export or coarsening effect alone is insufficient. |
 | CC-C26.3 | The text states a practical representational payoff. |
 | CC-C26.4 | The text states the minimal admissible output. |
 | CC-C26.5 | The text states a local stop or neighboring-pattern handoff. |

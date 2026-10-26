@@ -6,12 +6,12 @@ section_id: "C.3.4:12"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__014_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:12 — Conformance Checklist"
-line_start: 55886
-line_end: 55900
+line_start: 55019
+line_end: 55033
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -36,5 +36,5 @@ keywords:
 | **KUA-07** | Stable refinement is independently identified and checked; declaration reuse does not promote it. |
 | **KUA-08** | Guard-addressable adaptation and correspondence declarations resolve to their exact editions and all interpretation, dependency, definedness, direction, and loss values required by section 6.3; a catalog remains representation and does not merge kind identities. |
 | **KUA-09** | Locality change triggers identity comparison. Same-kind reuse has no bridge and still gets a fresh receiving judgment; distinct-kind use requires an obtaining C.3.3 correspondence before bridge reliance. |
-| **KUA-10** | Non-applicability forms no judgment; unavailable admissible dependencies yield `unknown`; correspondence failure blocks use without rewriting the receiving result. |
+| **KUA-10** | Non-applicability forms no judgment. For an admissible request, unavailable dependencies yield `unknown` only when KUA-04 leaves the conjunction unsettled. Correspondence failure blocks that use without rewriting the independent receiving result. |
 

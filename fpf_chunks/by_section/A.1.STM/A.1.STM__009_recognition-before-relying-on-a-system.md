@@ -6,12 +6,12 @@ section_id: "A.1.STM:7"
 section_title: "Recognition before relying on a system"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__009_recognition-before-relying-on-a-system.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:7 — Recognition before relying on a system"
-line_start: 4254
-line_end: 4259
+line_start: 4249
+line_end: 4254
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -40,7 +40,7 @@ keywords:
 
 ### A.1.STM:7 - Recognition before relying on a system
 
-Before relying on an acting system or changed-system boundary in the map, use A.1.SCR to obtain the recognition result for that exact entity.
+Before relying on an acting system or changed-system boundary in the map, use an adequate available A.1 recognition result for that entity. Use A.1.SCR when a system-dependent question remains unresolved.
 
 A.1.STM consumes only the returned recognition result. It does not repeat the six-component test, replace the exact entity with a convenient neighboring bearer, infer a system-role assignment from causal participation, or infer Method, Work, transformation, promise, permission, project designation, or a system-role kind from systemhood.
 

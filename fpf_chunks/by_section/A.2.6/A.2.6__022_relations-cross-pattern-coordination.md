@@ -1,0 +1,62 @@
+---
+chunk_kind: "child"
+pattern_id: "A.2.6"
+pattern_title: "Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
+section_id: "A.2.6:21"
+section_title: "Relations - Cross-Pattern Coordination"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.2.6/A.2.6__022_relations-cross-pattern-coordination.md"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+heading_path:
+  - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
+  - "A.2.6:21 — Relations - Cross-Pattern Coordination"
+line_start: 7449
+line_end: 7476
+dependencies:
+  - "A.1.1"
+  - "A.15.1"
+  - "A.2.2"
+  - "A.22"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.7"
+  - "C.2.1"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.29"
+  - "C.3"
+  - "E.24.UK"
+  - "F.9"
+keywords:
+  - "& guard style)"
+  - "alone"
+---
+
+### A.2.6:21 - Relations - Cross-Pattern Coordination
+
+#### A.2.6:21.1 - With F–G–R (C.2.2)
+
+* **G is Claim scope.** Use set algebra (∩ / SpanUnion).
+* **F** remains the expression rigor (C.2.3); **R** captures evidence currentness and bounded reliance. Observed loss may bear on the translation-use claim; its permitted-loss tolerance remains in that claim rather than in G or the Bridge profile.
+* **Composition.** F follows C.2.3:15.1: the essential content and connecting inferences must provide the expression properties claimed for the whole. R follows the justified support-composition model or non-aggregate synthesis under C.2.2. G follows §7.2–§7.3 (set rules).
+
+#### A.2.6:21.2 - With Formality (C.2.3)
+
+* **No conflation.** Strengthening an expression property changes **G** only when the scope extension changes; a different expression alone can be a refit.
+* **Guarding rigor.** ESG may require named expression properties alongside scope coverage. A local ordinal threshold abbreviates them only under its declared C.2.3 scale and mapping.
+
+#### A.2.6:21.3 - With Work & Run (A.15)
+
+* **Work scope** delimits the exact job slices on which a capability's deliverability claim is evaluated.
+* Method–Work gates use **Work scope coverage** plus **measures** and **qualification windows**.
+
+#### A.2.6:21.4 - With exact F.9 Bridge occurrences
+
+* **Translation boundary.** Use an exact F.9 Bridge only for exact local-sense translation. State the translation's direction, rule, tolerated loss, and polarity in a separate C.2.1 claim. Before the receiving use proceeds, require A.10 `pass` for ordinary reliance or, when an actual named assurance claim is current, a B.3 `AssuranceResult` for the same use with `disposition=supported-for-use`.
+* **Best practice.** If the bounded-use claim's rule and tolerance permit translation only for part of the source scope, identify that part and return its target image; do not turn observed mapping loss into a Bridge identity field or a generic R penalty.
+
+#### A.2.6:21.5 - With Capability governance (A.2.2)
+
+* Capabilities MUST declare **Work scope**, **measures**, **qualification windows**; gates MUST verify all three.
+* Capability refits that preserve the set (unit changes) are **Refit**, not Δ(WorkScope).
+

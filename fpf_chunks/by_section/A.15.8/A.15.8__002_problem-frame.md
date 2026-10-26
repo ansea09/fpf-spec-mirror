@@ -6,12 +6,12 @@ section_id: "A.15.8:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:1 — Problem frame"
-line_start: 31881
-line_end: 31901
+line_start: 31443
+line_end: 31463
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,12 +40,12 @@ keywords:
 
 ### A.15.8:1 - Problem frame
 
-**Use this when.** Use this pattern when a result succeeds in one configuration but may fail after interruption, handoff, delay, support loss, replacement, or changed conditions, and the decision needs to know which exact relation to repair or test. Begin through exactly one lawful branch:
+**Use this when.** Use this pattern when a result succeeds in one configuration but may fail after interruption, handoff, delay, support loss, replacement, or changed conditions, and the decision needs to know which exact relation to repair or test. Choose the branch for the focus being examined:
 
 - **Actual-Work branch:** start from one exact dated `U.Work` occurrence already admitted under `A.15.1`. Name actual performers, assignments, and attribution only where their direct rules pass.
 - **Present-WorkPlan branch:** start from one exact present `U.WorkPlan` under `A.15.2`. Intended performers and intended performance remain declaration-local plan content; they are not an existing future `U.Work`, obtaining assignment, or actual attribution.
 
-Start with an ordinary branch-exact sentence:
+Start with a sentence appropriate to that branch:
 
 > **Actual Work:** For this admitted Work occurrence, these Systems performed it under the direct attribution rules; these other Systems or values supported it; this is where the state needed to continue lives; this dependency failed under this probe; repair this relation or stop.
 >

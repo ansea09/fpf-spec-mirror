@@ -6,12 +6,12 @@ section_id: "C.29:13"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__014_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13 — SoTA-Echoing"
-line_start: 69840
-line_end: 69898
+line_start: 68814
+line_end: 68872
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -115,7 +115,7 @@ Adapt the obstructions and failures-of-compositionality perspective into `LostSt
 
 [Turing 1936, §6](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf) constructs a machine that interprets encoded machine descriptions. C.29.2 adopts the rules-as-data construction. Its finite interpreter obtains results from the listed instructions; Turing's broader universality result uses his machine-simulation construction.
 
-[Horsman, Stepney, Wagner and Kendon 2014, §§VI–VIII](https://arxiv.org/abs/1309.7979) connect abstract computation with physical preparation, evolution and interpretation. C.29.3 adopts this comparison and explains its current extensions to digital, analog and stochastic realizations. Its source discussion distinguishes the resulting computational claim, the system model and performed execution.
+[Horsman, Stepney, Wagner and Kendon 2014, §§VI–VIII](https://arxiv.org/abs/1309.7979) connect abstract computation with physical preparation, evolution and interpretation. C.29.3 adopts this comparison for digital, analog and stochastic realizations. Its source discussion distinguishes the resulting computational claim, the system model and performed execution.
 
 These Methods are a methodological synthesis. Their worked cases are constructed under the stated models and conditions. Algorithm design, numerical analysis, learning, coding and distributed computation supply further construction techniques, guarantees and cost analysis when the working question needs them.
 

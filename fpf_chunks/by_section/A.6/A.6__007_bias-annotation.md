@@ -6,12 +6,12 @@ section_id: "A.6:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:6 — Bias-Annotation"
-line_start: 14230
-line_end: 14236
+line_start: 14022
+line_end: 14027
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,8 +57,7 @@ keywords:
 
 ### A.6:6 - Bias-Annotation
 
-
-* **Arch bias:** Biases toward separation of concerns and explicit layering; mitigated by allowing multiple faces so audiences are not forced into the same amount of detail.
-* **Ontological and Epistemic bias:** Treats signatures and mechanisms as epistemes that must not be conflated with work.
-* **Gov bias:** Prefers auditable responsibility (viewpoint accountability and commitment unpacking).
+* Explicit classification can make a small repair needlessly elaborate. Use a register or additional publication face only when the receiving work needs it.
+* Software examples can suggest that all effects are Work. The seedling case keeps non-Work change available, while each actual Work claim retains its own admission conditions.
+* An audit-oriented description can emphasize carriers over what happened. Establish the occurrence or finding and then the evidence relation needed for reliance.
 

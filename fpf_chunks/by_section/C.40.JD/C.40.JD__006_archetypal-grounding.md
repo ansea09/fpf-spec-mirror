@@ -6,12 +6,12 @@ section_id: "C.40.JD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:5 — Archetypal Grounding"
-line_start: 88090
-line_end: 88139
+line_start: 86908
+line_end: 86957
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"
@@ -32,7 +32,7 @@ In this constructed case, two integration leads repeatedly promise delivery befo
 
 The company compares three whole arrangements. Ordinary managers can provide the help if they have the relevant development skill and protected time, obtaining the data specialist where necessary. A development specialist can supply problematisation and learning support while obtaining technical judgement from elsewhere. A general competence office can supply both through a broader maintained service. The office gains no presumption merely because several kinds of help occur.
 
-For this initial horizon, suppose the ordinary managers lack time to supply the development help, an available adviser has that capability, and the subject specialist can provide the bounded technical contribution. The proposed general office would add fixed coordination work without removing another current constraint. Choose the specialist arrangement for the first undertaking. Keep the conditions under which recurrent demand and genuinely common support would change that choice.
+For this initial horizon, suppose the ordinary managers lack time to supply the development help, an available adviser has that capability, and the subject specialist can provide the bounded technical contribution. The proposed general office would add fixed coordination work without removing another current constraint. Choose the specialist arrangement for the first undertaking. Keep the conditions under which recurrent demand and reusable common support would change that choice.
 
 The adviser has six hours available each week. Existing support consumes two. Joint work on the failed premise, question and conditional commitment requires two; each lead's own contrasting case requires one; preparing another helper would require two more. The initial request is therefore eight hours. Defer helper preparation for this first attempt, leaving six. This does not establish the wider cultural aim or make preparing a successor unnecessary forever.
 

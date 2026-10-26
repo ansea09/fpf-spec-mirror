@@ -6,12 +6,12 @@ section_id: "A.19.CN:13"
 section_title: "Minimal CN‑Spec template (copy/paste, informational)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__014_minimal-cn-spec-template-copy-paste-informational.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:13 — Minimal CN‑Spec template (copy/paste, informational)"
-line_start: 37212
-line_end: 37256
+line_start: 36482
+line_end: 36526
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -51,7 +51,7 @@ Chart:
   coordinate_patch: <domain/subset>
   measurement_protocol_ref?: <applicable measurement MethodDescriptionId>
   value_ascription_basis?: <applicable evaluation rule and evidence>
-Normalization:
+Normalization (when used):
   UNM: <UNMId?>
   methods: [<NormalizationMethodId>… ]
   method_descriptions: [<NormalizationMethodDescriptionRef>… ]
@@ -63,16 +63,16 @@ Indicators (optional):
 Comparability:
   mode: coordinatewise | normalization-based
   minimal_evidence: <what must be observed to compare>  # admissibility/evidence gate surface (see G.0 and C.16)
-Aggregation:
+Aggregation (when used):
   fold: <Γ_fold expr>   time_policy: <window, statistic>
   WLNK/COMM/LOC/MONO: <only selected property claims, with their model and applicability basis>
 Acceptance:
   checklist: [<observable criterion>… ]
-  window: <ISO 8601 interval>
+  window?: <qualification interval when required>
   evidence_anchors: [<Observation/Evaluation ids>… ]
 Alignment (optional):
   bridges: [<BridgeId, CL, kept/lost characteristics, extra guards>… ]
-MaintenanceAndDeprecation:
+MaintenanceAndDeprecation (for a maintained edition):
   source_maintenance_role_assignment: <RoleAssignmentRef>
   DRR_links: [<DRR ids>… ]
   deprecation_plan: <short note>

@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:7 — Conformance checklist"
-line_start: 73229
-line_end: 73245
+line_start: 72182
+line_end: 72197
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,13 +67,12 @@ keywords:
 | ID | Check |
 | --- | --- |
 | `CC-C30STRAT-1` | The source word remains a source label until an object, relation, claim, or ordinary non-use is recovered. |
-| `CC-C30STRAT-2` | The result names the bounded sentence, recovered meaning, any actual participants or bearer needed by the claim, repaired wording, allowed use, next action, and stop or return condition; an optional blocked overread passes F.19's plausible-reader test. |
+| `CC-C30STRAT-2` | The repaired sentence makes its meaning, needed participants or bearer, and useful conclusion recoverable. Add a next action or return condition only when the use needs it; an optional blocked overread passes F.19's plausible-reader test. |
 | `CC-C30STRAT-3` | No universal kind is minted for layer, level, tier, stack, ladder, rung, block, expert, cache, router, gate, or stratification. |
 | `CC-C30STRAT-4` | The recovered meaning selects the applicable rule; the label and C.30 placement do not. |
 | `CC-C30STRAT-5` | A known object or relation uses its pattern directly, without a restoration detour. |
 | `CC-C30STRAT-6` | Several claims compressed into one sentence are separated; they are not forced under one label or invented common head. |
-| `CC-C30STRAT-7` | Other patterns keep at most a thin pointer here and do not copy the cue table. |
-| `CC-C30STRAT-8` | The engineer gets the shortest usable sentence or compact note; E.10.ARCH routing coordinates remain author-facing. |
+| `CC-C30STRAT-8` | The engineer gets a usable sentence; a compact note is optional when it helps the receiving work. |
 | `CC-C30STRAT-9` | A consequential level claim names the subject, says what is being ordered, compared, grouped, or mapped and how, states when the claim applies, and marks it as asserted, proposed, assumed, or illustrative. No list, diagram row, first-then order, carrier section, curriculum, scale label, stage sequence, or coarse-grained description supplies that claim by form. |
 | `CC-C30STRAT-10` | A label is treated as a designation in one bounded source use. Any model, viewpoint, standard, or local-vocabulary meaning is preserved in that use without becoming a universal kind or relation. |
 | `CC-C30STRAT-11` | An architecture-description element is distinguished from the architecture or other world-side subject it describes; any claimed subject relation is stated and tested separately. |

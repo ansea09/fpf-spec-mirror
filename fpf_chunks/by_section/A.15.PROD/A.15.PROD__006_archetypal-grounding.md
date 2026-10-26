@@ -6,12 +6,12 @@ section_id: "A.15.PROD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:5 — Archetypal Grounding"
-line_start: 33270
-line_end: 33422
+line_start: 32801
+line_end: 32955
 dependencies:
   - "A.1"
   - "A.10"
@@ -37,15 +37,17 @@ keywords:
 
 ### A.15.PROD:5 - Archetypal Grounding
 
+The following constructed cases isolate the production questions under stated domain premises. The ReleaseBinary case exposes a complete build-to-inception basis; the other cases retain their named assumptions and conditional claims.
+
 #### A.15.PROD:5.1 - Car 42 and the required nut
 
 **Identity boundary.** Car 42 already satisfies its identity rule before `NutFasteningWork-42`.
 
 **Assignment declaration.** `Car42FasteningAssignmentSpecies` is a directly declared `U.SystemRoleAssignment` species. Its ordered participant positions are holder and assigned system-role kind; their domains are `U.System` and `Car42FasteningPerformerSystemRoleKindDomain`.
 
-**Assignment occurrence rule.** The species applies to Car-42 fastening Work and says that its holder supplies the fastening contribution as `Car42FasteningPerformerSystemRole` throughout the declared interval. Holder, assigned-kind value, and that uninterrupted interval identify one occurrence.
+**Assignment occurrence rule.** The species applies to fastening Car 42. It assigns `Car42FasteningPerformerSystemRole` when the cell designation and enabled fastening-control connection obtain. The kind's criterion is condition-sensitive control of the specified fastener attachment; stipulated observations show that `FasteningCell-7` satisfies it. The designation and connection establish `Car42FasteningAssignment-42` from 08:00 to 08:20 UTC on 27 August 2026. Holder, assigned-kind value and that uninterrupted interval identify the occurrence.
 
-**Work and Method basis.** The common route in section 4.2 is instantiated here: A.13 recovers `FasteningCell-7 : U.System` through obtaining `Car42FasteningAssignment-42`; A.15.1 independently admits `NutFasteningWork-42` with its enacted fastening Method. Because this case consumes precise assignment-bound attribution, F.6 then relates the admitted Work through the same assignment.
+**Work and Method basis.** The common route in section 4.2 is instantiated here: A.13 recovers `FasteningCell-7 : U.System` through obtaining `Car42FasteningAssignment-42`. Its independent performance history places `NutFasteningWork-42` from 08:05 to 08:10 UTC on that date, enacting the admitted `Car42FasteningMethod`, within admitted `CarAssemblyService-42` under the declared `FasteningWorkOccursWithinService@Car42` predicate. These facts and the A.13 core independently admit the Work under A.15.1. Because this case consumes precise assignment-bound attribution, F.6 then relates the admitted Work through the same assignment.
 
 **Actual-change basis.** A.3.4 separately identifies `Car42FastenerAttachmentTransformation`. It concerns the same continuing car and does not bring Car 42 into existence.
 
@@ -57,7 +59,7 @@ keywords:
 
 **Wider-work contrast.** For the broader factory use, the same occurrence can be a proper operational part of `CarProductionWork-42` under an exact A.15.1 part relation. The verb *fasten* and narrative order decide none of these claims.
 
-**Cold-practitioner replay.** Applying section 4.7 to the case facts returns: **this Work completed the required fastening for this use; Car 42 already existed**. Missing `FasteningWorkChangedAttachment@Car42` returns `missing-governor[CAR42-FASTENING-WORK-TO-CHANGE]`. Missing `Car42FasteningClosureRule-v1` preserves `Car42FinishingStateSatisfactionClaim` and returns `missing-governor[CAR42-FASTENING-WORK-COMPLETION]`. The author-side counterfactual uses `Car42FasteningPredicates-v1` for the Work-to-change predicate and `Car42-Claims-v2` for the separate state-satisfaction and Work-completion claims; removing each deciding fact separately reproduces those two results without introducing a universal production or completion relation kind.
+**Result and missing grounds.** Applying section 4.7 to the case facts returns: **this Work completed the required fastening for this use; Car 42 already existed**. The case uses `Car42FasteningPredicates-v1` for the Work-to-change predicate and `Car42-Claims-v2` for the separate state-satisfaction and Work-completion claims. If `FasteningWorkChangedAttachment@Car42` is undefined, return `missing-governor[CAR42-FASTENING-WORK-TO-CHANGE]` and obtain its governing predicate before attributing the attachment change to this Work. If `Car42FasteningClosureRule-v1` is absent, preserve the independently grounded `Car42FinishingStateSatisfactionClaim` and return `missing-governor[CAR42-FASTENING-WORK-COMPLETION]`; obtain the completion rule before claiming that this Work completed the required fastening. These two missing grounds concern different claims.
 
 #### A.15.PROD:5.2 - Incomplete but identifiable Ship 27
 
@@ -69,9 +71,9 @@ keywords:
 
 **Continuing edition — assignment declaration.** `ShipIdentityRuleRevisionAssignmentSpecies` is a directly declared `U.SystemRoleAssignment` species. Its ordered positions are holder and assigned system-role kind, with holder domain `U.System` and assigned-kind domain `ShipIdentityRuleReviserSystemRoleKindDomain`.
 
-**Continuing edition — assignment predicate.** The predicate applies to ship-identity revision Work in `Yard-27` under `ShipIdentityRuleRevisionMethod`. It obtains when the holder supplies that revision contribution throughout the declared interval. Holder, assigned-kind value, `Yard-27`, and that uninterrupted interval identify one occurrence.
+**Continuing edition — assignment predicate.** The assignment predicate applies to ship-identity revision in `Yard-27`. It obtains when the holder is designated to revise that rule and has the operative access needed for revision. `ShipIdentityRuleReviserSystemRole` requires controlled revision that preserves the declared identity claims and exposes a changed claim; the stipulated revision actions satisfy this criterion independently of Work admission. The designation and access establish the assignment from 10:00 to 11:00 UTC on 27 August 2026. Holder, assigned-kind value, `Yard-27` and that uninterrupted interval identify one occurrence.
 
-**Continuing edition — Work and Method.** Applying the common route in section 4.2, A.13 recovers `YardIdentityGovernanceSystem` through obtaining `ShipIdentityRuleReviserAssignment-2R`, whose assigned-kind value is `ShipIdentityRuleReviserSystemRole` and whose interval covers the full Work. A.15.1 independently admits `ShipIdentityRuleRevisionWork-2R` with the enacted revision Method. Because this branch consumes precise assignment-bound attribution, F.6 then relates the admitted Work through that same assignment.
+**Continuing edition — Work and Method.** Applying the common route in section 4.2, A.13 recovers `YardIdentityGovernanceSystem` through obtaining `ShipIdentityRuleReviserAssignment-2R`, whose assigned-kind value is `ShipIdentityRuleReviserSystemRole` and whose interval covers the full Work. The independent revision history runs from 10:05 to 10:30 UTC in that interval, enacts the admitted `ShipIdentityRuleRevisionMethod`, and lies within admitted `YardGovernanceService-27` under the declared `IdentityRevisionOccursWithinService@Yard27` predicate. With the A.13 core, these facts independently admit `ShipIdentityRuleRevisionWork-2R` under A.15.1. Because this branch consumes precise assignment-bound attribution, F.6 then relates the admitted Work through that same assignment.
 
 **Source expression and predicate.** C.2.P recovers the source expression *hull assembly closes Ship 27 identity* in `SHIP-ID-2`. Predicate-definition episteme `YardRevisionSourceUsePredicates-v1` declares case-local predicate `usesAsRevisionSource(work, sourceEpisteme)` with participant order `<revision Work, source episteme>`.
 
@@ -79,18 +81,18 @@ keywords:
 
 **Edition basis.** The exact source-use participants are `ShipIdentityRuleRevisionWork-2R` and `SHIP-ID-2`. The revision Work opens `SHIP-ID-2`, selects its hull-closure claim as an explicit premise, and produces `SHIP-ID-2R`, whose separate C.2.1 ClaimContent says that hull assembly plus installed propulsion closes Ship 27 identity. Those facts make `usesAsRevisionSource(ShipIdentityRuleRevisionWork-2R, SHIP-ID-2)` obtain.
 
-The applicable continuity rule for this specification family requires exact use of `SHIP-ID-2`, preservation of the ship EntityOfConcern and listed identity claims, and explicit identification of the corrected claim content without a reference-scheme retargeting. The current source use and preserved and deliberately changed features satisfy that rule, so `ShipIdentitySpecEdition-2-to-2R : EpistemeEditionRelation` obtains for `SHIP-ID-2` and `SHIP-ID-2R`. The performer, Method, Work, provenance, and replacement facts supply evidence for the test; no label makes continuity true. The lineage carries forward neither old applicability nor a new inception boundary.
+The applicable continuity rule for this specification family requires exact use of `SHIP-ID-2`, preservation of the same identity-rule definition as EntityOfConcern and of the listed identity claims, and explicit identification of the corrected claim content without a reference-scheme retargeting. The current source use and preserved and deliberately changed features satisfy that rule, so `ShipIdentitySpecEdition-2-to-2R : EpistemeEditionRelation` obtains for `SHIP-ID-2` and `SHIP-ID-2R`. The performer, Method, Work, provenance, and replacement facts supply evidence for the test; no label makes continuity true. The lineage carries forward neither old applicability nor a new inception boundary.
 
 **Lineage blockers.** Keep the two failures distinct:
 
 - If the source-use predicate is not defined, return `missing-governor[SHIP-IDENTITY-REVISION-SOURCE-USE]`.
 - If its definition is current but the actual premise-selection facts cannot be recovered, return `missing-information[SHIP-IDENTITY-REVISION-SOURCE-USE]`.
 
-Either result keeps `SHIP-ID-2R` usable as a separately identified specification episteme but blocks `ShipIdentitySpecEdition-2-to-2R`. A similar title, later date, common publisher, or bare provenance edge does not restore that lineage.
+Either result keeps `SHIP-ID-2R` usable as a separately identified specification episteme but leaves `ShipIdentitySpecEdition-2-to-2R` unestablished. A similar title, later date, common publisher, or bare provenance edge does not restore that lineage.
 
-**Non-continuing replacement.** `SHIP-ID-3` is another exact specification episteme, but this fixture establishes no `EpistemeEditionRelation` from `SHIP-ID-2` or `SHIP-ID-2R` to it. A later date, similar ship terminology, and use by the same yard do not make it an edition. A use selecting `SHIP-ID-3` must establish its applicability independently and constitute a separately qualified C.2.1 claim or return the exact blocker; lineage-based refresh cannot substitute it for either earlier specification.
+**Unestablished continuity.** `SHIP-ID-3` is another exact specification episteme, but this case establishes no `EpistemeEditionRelation` from `SHIP-ID-2` or `SHIP-ID-2R` to it. That leaves continuity unresolved; it does not establish a negative result. A later date, similar ship terminology, and use by the same yard do not make it an edition. A use selecting `SHIP-ID-3` must establish its applicability independently and constitute a separately qualified C.2.1 claim or return the exact blocker; lineage-based refresh cannot substitute it for either earlier specification.
 
-The continuing edition reopens dependent current uses through the named lineage. The non-continuing replacement opens a new applicability question without altering earlier claims.
+The continuing edition reopens dependent current uses through the named lineage. A separately identified specification with unresolved continuity still needs its own applicability basis without altering earlier claims.
 
 **Author-side substrate.** Exact substrate edition `YardIdentityHistory-v3` defines time-indexed conjunction over the named work, applicability, actual-effect, work-to-change, change-to-identity, and identity-satisfaction claims. It also defines earliest selection over its declared ordered candidate-boundary domain.
 
@@ -98,7 +100,7 @@ The positive replay returns exact boundary `tI` because the identity predicate s
 
 **Nearest substrate failure.** A snapshot substrate can conjoin facts at `tI` but supplies no ordered boundary domain or earliest-selection law. It cannot establish inception even if a later image satisfies the rule, so the branch returns the exact missing-substrate blocker rather than treating first observation as first existence. The example adds no universal earliest operator or arbitrary minimal-work selection.
 
-**Designation is not identity.** The current IMO integrated scheme uses an IMO ship identification number as a stable designator across later flag, name, ownership, or type changes and states that allocation does not define ship status. Ship identity and continuity therefore still require their applicable subject rules. If the receiving use cannot recover a separate ship-identity rule for this candidate basis and boundary, the inception branch returns the exact identity-governor blocker.
+**Designation is not identity.** The cited IMO integrated scheme uses an IMO ship identification number as a stable designator across later flag, name, ownership, or type changes and states that allocation does not define ship status. Ship identity and continuity therefore still require their applicable subject rules. If the receiving use cannot recover a separate ship-identity rule for this candidate basis and boundary, the inception branch returns the exact identity-governor blocker.
 
 **Larger Work.** A larger exact production-work occurrence contains the identity-closing and later Work through declared A.15.1 part relations.
 
@@ -146,7 +148,7 @@ If only the closure rule is missing, the state-satisfaction claim remains and on
 
 **Actual transformation.** A spontaneous reaction or biological growth process may be independently grounded as one or more actual transformations under A.3.4. The transformed referent may itself be a `U.System`; the performer question remains separate.
 
-**Performer and Work result.** Apply the common route in section 4.2. A production-through-Work claim opens only after A.13 recovers every exact actual performer and A.15.1 independently admits dated Work with an applicable enacted Method. This fixture stipulates neither basis, so it retains the referent and transformations and returns the performer/Work blocker. Assignment-bound attribution and F.6 are additional only when the receiving use expressly consumes them; their absence is not itself a Work-membership failure.
+**Performer and Work result.** Apply the common route in section 4.2. A production-through-Work claim opens only after A.13 recovers every exact actual performer and A.15.1 independently admits dated Work with an applicable enacted Method. This case stipulates neither basis, so it retains the referent and transformations and returns the performer/Work blocker. Assignment-bound attribution and F.6 are additional only when the receiving use expressly consumes them; their absence is not itself a Work-membership failure.
 
 Entity inception and completion then still need their own exact identity, state-satisfaction, and Work-closure governors. Do not turn observed growth into the missing performer-side basis.
 
@@ -162,7 +164,7 @@ Entity inception and completion then still need their own exact identity, state-
 
 #### A.15.PROD:5.9 - ReleaseBinary 12: complete build-to-inception replay
 
-BuildOps asks one question: **when did exact `ReleaseBinary_12` first exist?** Verification, transfer, release, deployment, publication, and availability are not part of this answer. The fixture uses one affected referent and one transformation; it does not hide an unnamed effect chain.
+BuildOps asks one question: **when did exact `ReleaseBinary_12` first exist?** Verification, transfer, release, deployment, publication, and availability are not part of this answer. The constructed case uses one affected referent and one transformation; it does not hide an unnamed effect chain.
 
 **Ordinary answer.** The runner performed the named Work under the applicable build Method. The named Work-to-change predicate connects that Work to the store-population transformation, and the named change-to-identity predicate says that the transformation made the applicable binary-identity rule become true first at 09:11. Therefore **`ReleaseBinary_12` first exists at 09:11 through this build Work; decide completion and later uses separately.** The table below supplies the exact assurance basis for that answer.
 

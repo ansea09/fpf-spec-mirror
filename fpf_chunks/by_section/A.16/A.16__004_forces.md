@@ -6,12 +6,12 @@ section_id: "A.16:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:3 — Forces"
-line_start: 33568
-line_end: 33578
+line_start: 33101
+line_end: 33111
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -60,7 +60,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | **Coordination vs duplication** | Coordinate moves over the declared language-state chart without recreating `A.19`, endpoint patterns, or `E.18`. |
-| **Local sufficiency vs history visibility** | Let one typed note stand alone while preserving richer history when it changes a later decision. |
+| **Local sufficiency vs history visibility** | Use sufficient local content while preserving richer history when it changes a later decision. |
 | **Early capture vs endpoint discipline** | Preserve low-articulation content without claiming that an endpoint test has passed. |
 | **Continuity vs identity change** | Keep a form-only publication of one episteme distinct from the first typed preservation and from a content-changing successor episteme. |
 | **Advance vs retreat** | Support formalize and operationalize together with reopen, sketch-backoff, respecify, and retire. |

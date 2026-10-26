@@ -6,12 +6,12 @@ section_id: "C.40.OP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:4 — Solution"
-line_start: 87242
-line_end: 87311
+line_start: 86060
+line_end: 86129
 dependencies:
   - "A.15.9"
   - "C.11.CRC"
@@ -86,7 +86,7 @@ Ordinary opportunity retention does not require all those practices. A few descr
 
 #### C.40.OP:4.6 - Return a discriminating question and reconsider locally
 
-Name the next question whose plausible answers would retain, narrow, reject, or open a particular opportunity or path. Use the declared receiving policy to consider relevant value, inquiry burden, delay, protections, and uncertainty. Reuse a sufficient partial comparison; no complete ranking is needed merely to state the question.
+When further qualification or revision is needed, name the next question whose plausible answers would retain, narrow, reject, or open a particular opportunity or path. An adequate retained set can be used directly until its reconsideration condition occurs. Use the declared receiving policy to consider relevant value, inquiry burden, delay, protections, and uncertainty. Reuse a sufficient partial comparison; no complete ranking is needed merely to state the question.
 
 If the question becomes “which candidate or probe should we choose now?”, return to the actual local choice or decision-support question. A proposed probe needs its own feasibility, exposure, authority, and execution basis before it becomes recommended or performed. An information request is not that authorization.
 

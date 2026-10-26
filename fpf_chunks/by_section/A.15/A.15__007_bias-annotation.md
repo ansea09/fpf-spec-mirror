@@ -6,12 +6,12 @@ section_id: "A.15:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:6 — Bias-Annotation"
-line_start: 29178
-line_end: 29189
+line_start: 28743
+line_end: 28754
 dependencies:
   - "A.10"
   - "A.13"
@@ -73,5 +73,5 @@ Bias lenses: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**. Scope: **
 | Architectural bias | A system-role kind, capability, fit condition, Method, or record is placed in structural decomposition. | Keep structure, classification, dependent capability, relations, epistemes, and dated Work distinct. |
 | Epistemic bias | A recipe, schedule, roster, or log is treated as its world-side referent. | Recover the exact Method, assignment, WorkPlan, Work, and obtaining relations; keep the source as an episteme. |
 | Pragmatic bias | One overloaded *process* or *role* term is retained because it feels shorter. | Use `E.10.ARCH` or `E.10.ROLE`, then write the shortest sentence that names the recovered values. |
-| Didactic bias | The chef analogy hides direct-species and occurrence requirements. | Pair it with one concrete assignment species and one F.6 attribution; do not require a full schema for ordinary use. |
+| Didactic bias | The chef analogy hides direct-species and occurrence requirements. | Recover the concrete assignment species; add F.6 only for precise assignment-bound attribution. An ordinary explanation needs no complete schema. |
 

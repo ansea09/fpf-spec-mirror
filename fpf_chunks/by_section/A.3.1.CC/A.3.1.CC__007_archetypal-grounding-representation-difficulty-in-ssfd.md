@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:5"
 section_title: "Archetypal Grounding - Representation Difficulty in SSFD"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__007_archetypal-grounding-representation-difficulty-in-ssfd.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:5 — Archetypal Grounding - Representation Difficulty in SSFD"
-line_start: 10661
-line_end: 10680
+line_start: 10576
+line_end: 10595
 dependencies:
   - "A.10"
   - "A.15.8.MS"
@@ -39,5 +39,5 @@ The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md
 
 `C-EC-Release-v2` remains a candidate account and the three-release statement remains a WorkPlan. A.3.1.CC may check current description, representation, A.15.8.MS task, collection, edition, reliance, permission, application, Work, result-binding, and proposed-organization claims against their own bases. It must not verify planned releases as performed Work or call the candidate whole coherent as a Method.
 
-For every correction, name the exact maintained position. A stale method-base edition returns to that edition result. A failed viewpoint rule returns the lower episteme and failed `E.17.0` rule to their direct governor. Recheck the action's complete C.37 basis when that use relied on the failed result. For an C.37.MP profile, follow §4.1(6) and recheck only its actually dependent cross-use relations. A missing A.22 selection-use basis remains the already named gap. Keep the observed support results separate from the missing tailoring definition and untested permission/authority stop; none supplies release evidence.
+For every correction, name the exact maintained position. A stale method-base edition returns to that edition result. A failed viewpoint rule returns the lower episteme and failed `E.17.0` rule to their direct governor. Recheck the action's complete C.37 basis when that use relied on the failed result. For a C.37.MP profile, follow §4.1(6) and recheck only its actually dependent cross-use relations. A missing A.22 selection-use basis remains the already named gap. Keep the observed support results separate from the missing tailoring definition and untested permission/authority stop; none supplies release evidence.
 

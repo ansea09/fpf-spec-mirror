@@ -6,12 +6,12 @@ section_id: "A.3.4.P:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:10 — Rationale"
-line_start: 13563
-line_end: 13568
+line_start: 13392
+line_end: 13397
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -58,7 +58,7 @@ keywords:
 
 ### A.3.4.P:10 - Rationale
 
-The current transformation ontology gives FPF one compact way to speak about bounded actual change. That compactness only helps if wording repair returns common source labels to the exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification basis. Otherwise source labels reappear as local mini-ontologies: a process ontology here, a graph ontology there, a function ontology elsewhere.
+Words such as process and circuit are useful across several disciplines, but they can conceal different subjects and predicates. Recovering those differences lets the reader choose the appropriate occurrence test or construction without replacing every familiar word with a formal label.
 
-The repair starts from the `U.Transformation` ontic and asks whether the current use is an actual occurrence established on that basis, a performed-Work actor claim with each precise performer's A.13 core and independent A.15.1 Work admission plus any later required F.6 attribution and separate Work-to-change relation, a non-Work actor claim under another exact actor-side predicate and defining `ClaimGraph`, a differently typed influence source under its exact relation, a compound structure, a mathematical description, or another neighboring object connected by an exact current relation. `E.10` recognizes the wording-use problem; `E.10.ARCH:2.2` distributes direct-rule-content, ontic-level-restoration, and facet-level-restoration loci; the rule content located here supplies the ontic-level transformation restoration.
+A change description can concern an actual occurrence, an acting System, an influence source, a selected structure or a representation. Each has its own conditions. The conditional sequence therefore starts from the claim being made and restores only the distinctions needed to interpret and use it.
 

@@ -6,12 +6,12 @@ section_id: "E.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.6 — Didactic Architecture of the FPF Specification"
   - "E.6:3 — Forces"
-line_start: 96045
-line_end: 96052
+line_start: 94865
+line_end: 94872
 dependencies:
   - "E.2"
 keywords:

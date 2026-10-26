@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:6 — Bias-Annotation"
-line_start: 10106
-line_end: 10114
+line_start: 10025
+line_end: 10033
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.3.1.DR:6 - Bias-Annotation
 
-| Recurring bias | Likely drift | Repair |
+| Bias | Likely drift | Repair |
 | --- | --- | --- |
 | source-taxonomy bias | Goal, procedure, rationale, framing, mindset, representation, role, or tool becomes a universal Method component kind. | Use those terms as source questions and place each returned claim with its actual subject. |
 | diagram-containment bias | A box or lane is read as composition or parthood. | Require the direct relation and its evidence independently. |

@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:10 — Rationale"
-line_start: 32384
-line_end: 32393
+line_start: 31948
+line_end: 31957
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -24,9 +24,9 @@ keywords:
 
 Enactment assistance is relational and work-bound. A repository can hold material; a representation can expose a claim; a tool can return a value; a provider can offer a service; a user System can perform Work; a policy can institute permission; an assignment or authority relation can obtain. None substitutes for the others.
 
-Current FPF supplies the generic one-receiver/one-action representation-selection discipline in `C.37`, configuration-and-recovery in `A.15.8`, and comparison and set-valued selection in `A.19.CPM` and `A.19.SelectorMechanism`. A.15.8.MS specializes those moves for Method material and adds the bounded task-set bridge across Method or candidate status, A.3.2.DE results, Method Base collection and edition facts, retrieval, tailoring, provider and AI particulars, and their receiving uses.
+FPF supplies the generic one-receiver/one-action representation-selection discipline in `C.37`, configuration-and-recovery in `A.15.8`, and comparison and set-valued selection in `A.19.CPM` and `A.19.SelectorMechanism`. A.15.8.MS specializes those moves for Method material and adds the bounded task-set bridge across Method or candidate status, A.3.2.DE results, Method Base collection and edition facts, retrieval, tailoring, provider and AI particulars, and their receiving uses.
 
 The direct branch remains cheap: use the complete one-result/one-use answer without a new profile or duplicate account. Retain the full applicable selection basis in its owning task result when a later receiver needs it. A.15.8.MS opens C.37.MP only when unlike actions need the Method-specific cross-use allocation, including source correspondences, conflicting omissions, edition relations and return conditions. Neither C.37 nor the profile selects the support configuration.
 
-A.15.8.MS brings these contributions together for Method-material tasks: identify the tasks that need support, choose the comparison and recovery approach required by those tasks, and return observed gaps to the practice responsible for the failed material, relation or condition. The constructed one-task and two-task replays and the bounded EC-417 case show how to apply this combination; they do not establish general effectiveness. Reopen when an unlike Method-material task defeats this routing, a current FPF dependency changes, or direct mature practice supplies a better domain specialization.
+A.15.8.MS brings these contributions together for Method-material tasks: identify the tasks that need support, choose the comparison and recovery approach required by those tasks, and return observed gaps to the practice responsible for the failed material, relation or condition. The constructed one-task and two-task replays and the bounded EC-417 case show how to apply this combination; they do not establish general effectiveness.
 

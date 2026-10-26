@@ -6,17 +6,15 @@ section_id: "C.21:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__013_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:11 — Consequences"
-line_start: 62748
-line_end: 62755
+line_start: 61729
+line_end: 61736
 dependencies:
   - "A.10"
-  - "A.17"
   - "A.17-A.18"
-  - "A.18"
   - "A.19"
   - "A.2.6"
   - "B.3"
@@ -24,7 +22,6 @@ dependencies:
   - "C.2"
   - "C.2.1"
   - "C.20"
-  - "C.I"
   - "E.24.PUB"
   - "F.9"
   - "G.0"
@@ -53,7 +50,7 @@ keywords:
 
 **Benefits.** Field-health claims remain readable, scale-admissible, comparable when justified, and reusable without turning a dashboard or standard into authority.
 
-**Costs.** A numerical or reused claim must expose its definition and comparison basis. A cross-local comparison must additionally expose the exact relation and loss.
+**Costs.** A numerical or reused claim must expose its definition and comparison basis. A comparison that depends on semantic correspondence between distinct local senses additionally needs the obtaining relation, bounded-use claim, loss account and applicable reliance basis.
 
 **Risks avoided.** False maturity ladders, hidden polarity reversal, scope substitution, Bridge inflation, stale trends, publication-as-result, and assurance-by-record are blocked.
 

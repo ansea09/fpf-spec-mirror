@@ -6,12 +6,12 @@ section_id: "A.2.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:6 — Bias-Annotation"
-line_start: 6150
-line_end: 6162
+line_start: 6119
+line_end: 6122
 dependencies:
   - "A.10"
   - "A.2"
@@ -41,14 +41,5 @@ keywords:
 
 ### A.2.4:6 - Bias-Annotation
 
-This pattern mainly blocks six biases:
-
-* **episteme-as-system-role-holder bias**: an episteme is placed in `U.SystemRoleAssignment` because it is useful as evidence or status;
-* **evidence-name-as-kind bias**: an evidence-use label ending in *Role* is treated as a local system-role kind without a C.3 identity basis and membership criterion;
-* **status-display-as-authority bias**: a visible badge or status cell becomes gate passage, permission, or assurance;
-* **work-as-evidence-use collapse**: producing work, produced episteme, and later evidence use are treated as one relation;
-* **scope-free evidence bias**: target claim, grounding holon, claim scope, polarity, time, assurance use, or provenance constraints are omitted;
-* **causal laundering bias**: causal evidence classes are changed by source vocabulary rather than by `C.28` causal-use reasoning.
-
-The repair is to recover the episteme first, then recover the evidence-use, status-use, source-use, publication-use, assurance-use, or causal-use relation that is current.
+An evidence or status label can prompt readers to assume that the needed relation already obtains. Recover the episteme and its evidence-use or status-use relation before relying on that label. Apply the direct source, causal, or assurance rule when the receiving claim requires it.
 

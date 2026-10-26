@@ -6,12 +6,12 @@ section_id: "C.39.MC:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__011_architectural-rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:10 — Architectural Rationale"
-line_start: 84054
-line_end: 84061
+line_start: 82877
+line_end: 82884
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"
@@ -28,5 +28,5 @@ General pattern use and live Work steering already exist. The Method-development
 
 A direct MethodDescription is preferable when it already supplies the action and stop. A fixed route is useful when its dependencies remain sufficient. For a changing plurality of questions, reconstructing the returns from separate patterns can hide an unresolved whole or repeat unaffected qualification. This method keeps those returns visible at a cost proportionate to the present decision.
 
-Pattern-language form supplies problem-oriented knowledge, not a replacement chooser. Local first–then dependencies can still matter. Neither situational use nor the word unfolding claims that Methods have no causal assumptions or that all actions can occur in any order.
+A pattern language supplies problem-oriented knowledge for the deciding practitioner. Local action order follows the applicable prerequisites and causal assumptions; a contents order does not establish them.
 

@@ -6,12 +6,12 @@ section_id: "C.32:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:2 — Problem"
-line_start: 76356
-line_end: 76369
+line_start: 75287
+line_end: 75300
 dependencies:
   - "A.10"
   - "A.15"
@@ -73,7 +73,7 @@ Architecture synthesis is the constructive middle of architecture work. A practi
 
 The typical synthesis problem is multi-structure. State each required function or functioning claim through the predicate and bearer recovered with `A.6.F`. Candidate module, placement, control, transformation-flow, information, evidence, Method, Work, local-kind, classification, or assignment structures may constrain or help explain a candidate, but a kind or assignment establishes no functioning, participation, capability, function bearing, or Work. A control relation can improve supervision while increasing timing or responsibility burden; an information structure can improve maintenance access when exposed through a digital-twin view while still hiding source-return loss; a team structure can improve flow while failing to match module or deployment structure. Every positive responsibility claim still needs its direct domain predicate, actual participants, applicability, and occurrence identity, or the exact A.6.RCD missing governor.
 
-A functional architecture is not enough by itself. A function graph, use case decomposition, workflow, neural cell graph, Method step, or source function from cultural or practice material can enter architecture synthesis only after `A.6.F` identifies the function or functioning claim and its possible bearer, and after any selected structure or source label is recovered. If no bearer can satisfy the predicate recovered with A.6.F under the relevant module, Method, resource, placement, control, Work, evidence, local-kind, classification, or assignment constraints, the candidate must be repaired before it enters comparison, selection, local choice, or decision work. Those neighboring structures constrain the candidate; they do not bear the function by label.
+A functional description contributes only part of the synthesis. Recover the function or functioning claim and possible bearer, using `A.6.F` when that meaning remains unresolved. Module, Method, resource, placement, control, Work, evidence and assignment conditions can constrain its feasibility. If no bearer can satisfy the function under the applicable constraints, mark the candidate infeasible: repair or reject it before treating it as a feasible option for choice. It can remain an explicit countercase for comparison or diagnosis. Missing feasibility evidence instead leaves the claim unresolved. Neighboring structures constrain the candidate; their labels do not establish function bearing.
 
 The typical synthesis problem is also multi-characteristic. Architecture characteristics such as cohesion, coupling, substitutability, evidence reuse, work repeatability, latency, locality, control separation, source-return cost, and composite quality families often compete. Functional demands describe what the holon is to do; architecture characteristics describe whether the selected structures make those demands maintainable, controllable, evolvable, replaceable, inspectable, and otherwise acceptable in the current context.
 

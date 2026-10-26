@@ -6,12 +6,12 @@ section_id: "C.36.MC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:7 — Conformance Checklist"
-line_start: 90635
-line_end: 90653
+line_start: 89455
+line_end: 89473
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -25,9 +25,9 @@ keywords:
 ### C.36.MC:7 - Conformance Checklist
 
 - [ ] A C.20 Discipline result is used, or a smaller C.36 practice and population boundary is named with the Discipline claim unresolved.
-- [ ] The subject branch is honest: admitted Method plus independently grounded enactment, or candidate/observed practice plus honestly named candidate accounts, source claims, cards, templates, description epistemes, and Work facts without Method, `U.MethodDescription`, or enactment inflation.
+- [ ] The subject's status is preserved: admitted Method plus independently grounded enactment, or candidate/observed practice plus identified candidate accounts, source claims, cards, templates, description epistemes, and Work facts without Method, `U.MethodDescription`, or enactment inflation.
 - [ ] One value, participant meanings, applicability condition, obtaining predicate, positive case, and discriminating negative or failed case are explicit.
-- [ ] A.6.RCD returns the lightest truthful disposition; A.6.REL occurrence identity is opened only when later use must distinguish occurrences.
+- [ ] An existing direct predicate is used when sufficient; otherwise A.6.RCD returns the lightest truthful disposition. A.6.REL occurrence identity is opened only when later use must distinguish occurrences.
 - [ ] The world-side claim, claim episteme, evidence and reliance, and named-interval observations remain separate.
 - [ ] Cards, descriptions with their recorded kind and status, publications, Systems, teaching/tutoring/event Work, rules, fields, forums, assignments, permissions, authority, and other direct relations are separately identified as subjects.
 - [ ] A.22 is used only for one selected structure and C.30 only for a current architecture question.
@@ -39,5 +39,5 @@ keywords:
 - [ ] When transmission or adaptation is the receiving problem, the account connects the recipient's needed decision, preserved requirements, changed operation, explanation and actual support. A finished answer supplied by a teacher is not credited as the recipient's capability.
 - [ ] An unresolved explanation remains `unknown` where relevant without erasing an independently supported continuation, narrower claim, or stop.
 - [ ] Separate cases, populations, organizational Systems, histories, predicates, and effects are not joined.
-- [ ] A return names either the particular defeated claim or edition, or a useful new contribution and its receiving use. A.3.1.MV preserves candidate status for a proposed reusable semantic difference; Explanation content, a one-action representation, a multi-use profile and support retain their respective A.3.2.DE, C.37, C.37.MP and A.15.8.MS results. Origin, changed content and evidence limits remain visible. Mere novelty or population spread establishes none of these needs.
+- [ ] A return names either the particular defeated claim or edition, or a useful new contribution and its receiving use. A.3.1.MV preserves candidate status for a proposed reusable semantic difference; explanation content, a one-action representation, a multi-use profile and support retain their respective A.3.2.DE, C.37, C.37.MP and A.15.8.MS results. Origin, changed content and evidence limits remain visible. Mere novelty or population spread establishes none of these needs.
 

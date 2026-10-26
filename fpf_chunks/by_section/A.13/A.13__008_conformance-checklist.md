@@ -6,12 +6,12 @@ section_id: "A.13:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:6 — Conformance Checklist"
-line_start: 28521
-line_end: 28533
+line_start: 28086
+line_end: 28098
 dependencies:
   - "A.10"
   - "A.12"
@@ -46,7 +46,7 @@ Apply these normative checks to the corresponding agency, profile or Grade claim
 | :--- | :--- | :--- |
 | **CC-A13.1 (Holder Type)** | The holder System of an obtaining agential `U.SystemRoleAssignment` **MUST** be a `U.System`. | Prevents the "episteme-as-actor" category error. Enforces **Strict Distinction (A.7)**. |
 | **CC-A13.2 (Assignment Mandate)** | A precise claim of agency **MUST** name the exact local agential system-role kind and an obtaining occurrence of a directly declared `U.SystemRoleAssignment` species. Any claim scope, working situation, and time window needed by the use remain separate. | Binds agency to a specific holder and assignment without turning a generic context field into their identity. |
-| **CC-A13.3 (Characteristic Evidence)** | Any claim about a holder’s Agency Grade or autonomy profile **MUST** be substantiated by an auditable agency-characteristic profile with Evidence Graph Ref (A.10). | Requires support for the Grade or profile claim. |
+| **CC-A13.3 (Characteristic Evidence)** | An actual claim about a holder's Agency Grade or autonomy profile **MUST** have a supported agency-characteristic profile with recoverable evidence and provenance under A.10. A Grade claim also states the mapping from those values to its didactic label. Use an Evidence Graph Ref when that representation is needed. | Supports the characteristic values and the Grade interpretation. |
 | **CC-A13.4 (Grade is Didactic)** | The **Agency Grade (0-4)** **SHALL NOT** be used as a normative input for formal reasoning. It is a didactic summary of the agency-characteristic profile. | An assurance case that consumes these characteristics uses their supported values, not the Grade. |
 | **CC-A13.5 (Collective as System)** | To claim agency for a collective (e.g., a team or swarm), it **MUST** first be admitted as a `U.System` under the complete A.1 criterion. Identify its defined boundary and coordination `U.Method`; those two features alone do not establish Systemhood. | Distinguishes an admitted collective System from a mere set or collection (`MemberOf`); parthood claims use A.14. |
 | **CC-A13.6 (MHT for Emergent Agency)** | If a collection of Systems develops a new supervisory structure and crosses a documented agency-characteristic threshold, apply B.2’s whole-reidentification test. When B.2 establishes the transition, a **Meta-Holon Transition (MHT)** **MUST** be declared. | Supervision and threshold crossing prompt the inquiry. If the same whole explains the changed facts, stop without MHT. A prior description as non-agential or at a lower didactic Grade may describe the starting case; it is not a normative premise. |

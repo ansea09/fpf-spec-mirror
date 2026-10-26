@@ -6,12 +6,12 @@ section_id: "C.26.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:5 — Archetypal Grounding"
-line_start: 66902
-line_end: 66909
+line_start: 65863
+line_end: 65882
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,9 +41,21 @@ keywords:
 
 ### C.26.3:5 - Archetypal Grounding
 
-Tell: A platform team tries to preserve checkout latency during a traffic spike. The first move is to increase cache aggressiveness. Latency improves, but support load rises because stale payment-failure status causes confused customer contacts.
+Tell: In a constructed case, a platform team tries to preserve checkout latency during a traffic spike. Increasing cache aggressiveness improves latency, but stale payment-failure status increases confused customer contacts and support load.
 
-Show, System side: take `CheckoutSystem-1` as a case premise: it has already been independently recognized under A.1 as the deployed `U.System` whose viability envelope the team regulates. If that recognition is unavailable, stop; *checkout*, *payment*, and *service* wording do not establish the bearer. Keep the protected promise separate: `CheckoutPromiseContent-1` is the `U.PromiseContent` stating the checkout outcome and reliability on which the customer may rely. For this envelope decision, latency and payment-correctness measurements support claims about selected behaviour and results of `CheckoutSystem-1`; support-load measurement concerns the team's dated support Work; operator-attention measurement concerns the people doing that Work; and customer-promise reliability is tested by a separate evaluation of whether `CheckoutPromiseContent-1` is fulfilled. The decision uses these claims as distinct constraints; it does not turn them into facets of one bearer. Candidate interventions are proposed cache-policy, retry-policy, or routing changes. If the team plans one as intended Work, place that intention in a `U.WorkPlan`; the proposal is not `U.Work`. Assert `U.Work` only after each actual performer's A.13 core is established and A.15.1 independently admits the dated occurrence from its history, enacted Method, temporal extent, and containing-System relation. If the case must also identify the assignment under which that Work was performed, check the relation separately through F.6. For the cache intervention, this case asserts only the observed cache-setting change, not a Work individual. A dashboard query remains a probe unless the case separately names a behaviour-changing occurrence. Changing escalation terms, a local-sense claim, a reference scheme, an F.9 endpoint/profile component, or a Bridge description keeps the resulting promise content, commitment, claim, description, and dated Work separate. After an endpoint/profile change, test the new F.9 candidate independently; do not say that Work revised the fixed Bridge occurrence. Here the observed cache-setting change improves latency while stale payment-failure status increases support load, so optimizing one declared dimension damages another.
+Show, System side: `CheckoutSystem-1` is independently recognized under A.1 as the deployed System. `CheckoutPromiseContent-1` separately states the checkout outcome and reliability on which customers may rely. Compare two matched one-hour windows under the stipulated spike condition, one before and one after the cache-setting change. The envelope decision uses three independently defined constraints:
 
-Show, Episteme side: the supported claim is not "latency is the viability state." It is an envelope-regulation claim: the observed cache-setting change preserved latency while damaging another envelope dimension. The text records that actual change separately from the proposed cache-policy intervention. The repair is to state the trade-off, adaptation cost, applicable authority and latency, and failure mode.
+| Constraint and subject | Required bound | Before cache-setting change | After cache-setting change |
+| --- | --- | ---: | ---: |
+| CheckoutSystem-1 request latency, highest five-minute p95 within each hour | <=250 ms | 350 ms | 180 ms |
+| CheckoutSystem-1 stale payment-failure statuses over the incident hour | <=1% | 0.2% | 3% |
+| Incident support Work: customer contacts handled during that hour | <=20 | 10 | 45 |
+
+These numbers are constructed case premises. The latency condition improves, but the changed setting violates the status and support constraints, so it does not restore the declared envelope. These claims concern different subjects; the decision uses them together without making support Work a facet of CheckoutSystem-1. Operator attention, if added, would concern the people doing that Work. Fulfillment of CheckoutPromiseContent-1 still needs its own evaluation.
+
+The case stipulates the observed cache-setting change; it identifies no dated cache-intervention Work individual. A claim about a particular such Work would require each actual performer's A.13 basis and independent A.15.1 admission, with F.6 only for assignment-bound attribution. A dashboard query is an observation operation unless a behavior-changing effect is separately established.
+
+Show, Episteme side: retain the diagnosis that the changed setting improves latency while violating other envelope constraints. A lower-cache-duration setting or revised retry policy is a proposal to compare, not an observed remedy. Recover that proposal's object, expected trade-off, adaptation cost, applicable authority and realization latency before choosing it; a planned enactment belongs in a WorkPlan. Missing intervention evidence leaves the diagnosis useful and the proposed remedy unresolved. If support capacity is independently revised to 50 contacts per hour, the observed 45 satisfies that revised constraint, but the 3% stale-status result still exceeds 1%; changing one bound does not repair the other failure.
+
+Keep promise content, commitments, claims, descriptions and dated Work separately identified if escalation or access is changed. For an F.9 endpoint/profile change, test the resulting Bridge candidate independently; Work does not revise a fixed Bridge occurrence.
 

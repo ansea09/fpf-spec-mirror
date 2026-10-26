@@ -6,12 +6,12 @@ section_id: "A.6.0:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:11 — SoTA-Echoing"
-line_start: 16742
-line_end: 16762
+line_start: 16425
+line_end: 16444
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -43,14 +43,13 @@ keywords:
 
 ### A.6.0:11 - SoTA-Echoing
 
-| Current source | What it contributes | FPF disposition and practical implication |
+| Source | What it contributes | Use and boundary in this pattern |
 |---|---|---|
-| JuliaHub Dyad 3.2 component and analysis documentation; Modelica 3.7 retained only as historical acausal-modeling lineage | Dyad supplies the current engineering comparator: reusable relation-first components and connections remain separate from selected analyses, solution objects, generated artifacts, and optional schematic presentation. Modelica preserves the older declarative-connection lineage. | **Adopt and generalize the separation, not either tool's ontology.** Keep the connector or relation declaration separate from a concrete assertion, analysis, generated equations or artifacts, solver Work, and diagram. FPF relation-kind admission, participant meanings, the direct predicate, applicability, and the occurrence-identity rule require an FPF direct governor. |
-| The current Lean Language Reference, covering Lean `4.33.0-rc1`, describes structures through named fields whose types may depend on earlier fields, while the kernel checks formal terms independently from presentation convenience. | It supports the case 5.4 representation of the indexed result as `Vector Real n` and makes the dependence of result length on argument `n` inspectable. | **Adapt as a dependent-type representation precedent.** A.6.1 defines the argument and result meanings. The concrete Lean-to-proof-carrying-record comparison stays under A.6.3.RT unless a named lens changes the next comparison action. |
-| TypeDB 3.x declares relation types through explicit related role types and can specialize those declarations. | It supports stable schema-local names as a representation precedent for declared participant positions. | **Adapt with a stricter boundary.** A.6.5 SlotSpecs are used only after the FPF relation kind and direct governor are independently settled. |
-| For the RDF-validation branch, SHACL 1.2 Core (Working Draft, 30 June 2026) gives the current standards-track answer by separating shapes graphs, evaluated data graphs, validation work, and validation reports. | It supports keeping a reusable constraint declaration, evaluated data, evaluation work, and an evaluation-report episteme as different objects. | **Adapt only as a work-in-progress representation and validation precedent.** The clinical local claim and the learning A.2.4/A.10 evidence-use relation remain governed by their current FPF subject patterns. |
-| For the semantic-web foundational-ontology branch, the March 2026 gUFO preprint gives a current branch answer by using reification patterns for relational aspects. | It supplies a stress question about when arity, participant dependence, and relation-occurrence reification matter. | **Reject as FPF ontology; retain only as a stress comparator.** For relation-kind admission, the direct predicate and occurrence identity, use the FPF direct governor. Apply §4.8's three receiving-use questions to decide whether a declaration or occurrence identity is needed. |
-
+| JuliaHub Dyad 3.2 component and analysis documentation; Modelica 3.7 as acausal-modeling lineage | Reusable components and connections are separate from selected analyses, solution objects, generated artifacts and schematic presentation. Modelica supplies the older declarative-connection lineage. | Keep connector or relation declarations separate from concrete assertions, analyses, generated equations, solver Work and diagrams. FPF relation-kind admission, participant meanings, predicate, applicability and identity still require their direct governor. |
+| Lean Language Reference, edition covering Lean `4.33.0-rc1` | Named structure fields may have types depending on earlier fields; the indexed `Vector Real n` representation makes the result-length dependence inspectable. | A.6.1 supplies the argument and result meanings. The comparison with a proof-carrying record stays under A.6.3.RT unless a named mathematical-lens use changes the comparison question. |
+| TypeDB 3.x relation declarations | Explicit related role types supply schema-local names for participant positions. | This is a representation precedent. A.6.5 SlotSpecs require an independently governed FPF relation kind and direct rule. |
+| SHACL 1.2 Core, Working Draft, 30 June 2026 | Separates shapes graphs, evaluated data graphs, validation and validation reports. | This work-in-progress validation precedent helps distinguish a constraint declaration, evaluated data, evaluation and result episteme. The clinical and learning claims retain their direct FPF governors. |
+| gUFO, March 2026 preprint | Reification patterns for relational aspects expose questions about arity, participant dependence and occurrence identity. | Use those questions to examine representation choices; FPF relation-kind admission, predicate and identity remain governed by their direct patterns. Section 4.8 selects declaration or occurrence identity according to the receiving use. |
 
 Sources:
 

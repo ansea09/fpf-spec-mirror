@@ -6,12 +6,12 @@ section_id: "A.6.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:1 — Problem frame"
-line_start: 23481
-line_end: 23515
+line_start: 23067
+line_end: 23101
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -36,9 +36,9 @@ keywords:
 
 **Primary EntityOfConcern.** One `SlotSpec` declaration in one exact `RelationSignature`.
 
-**First useful move.** Write the readable relation sentence, identify the relation kind and relation-participant meanings, and name where its predicate, applicability, and identity rule are defined. For every relation-participant meaning whose reusable typed declaration is current, add one SlotSpec to the `RelationSignature`, using the compact declaration notation `SlotSpec = <SlotKind, ValueKind, refMode>`. `refMode` states how an assertion or relation-occurrence description episteme carrying a relation-participant designation denotes the actual participant. When a reference is used, it retains its RefKind and its referent retains the declared ValueKind; the SlotSpec remains declaration content. If the direct relation or its relation obtaining predicate is still unclear, stop and use `A.6.P` or `A.6.RSIR`; declaration notation cannot recover a missing ontology.
+**First useful move.** Write the readable relation sentence, identify the relation kind and relation-participant meanings, and name where its predicate, applicability and any identity rule needed by the receiving use are defined. For every relation-participant meaning whose reusable typed declaration is current, add one SlotSpec to the `RelationSignature`, using the compact declaration notation `SlotSpec = <SlotKind, ValueKind, refMode>`. `refMode` states how an assertion or relation-occurrence description episteme carrying a relation-participant designation denotes the entity named under that meaning. When a reference is used, it retains its RefKind and its referent retains the declared ValueKind; the SlotSpec remains declaration content. If the direct relation or its relation obtaining predicate is still unclear, stop and use `A.6.P` or `A.6.RSIR`; declaration notation cannot recover a missing ontology.
 
-**First-minute result.** For `Robot_7 is assigned to InspectorSystemRole for this inspection shift`, start from an independently defined species under `U.SystemRoleAssignment`, here illustrated as `InspectionShiftAssignment`, and use its predicate and case facts to determine whether a shift occurrence obtains. When reusable participant typing is needed, give `HolderSystemSlot` the value kind `U.System` and entity-reference mode; give `AssignedSystemRoleKindSlot` the value domain `InspectorSystemRoleKindDomain` and by-value reference mode. Add another participant only when it changes the predicate or occurrence identity. An assertion designates the occurrence's participants and states its `assignmentInterval` separately. Stop there unless later work must substitute a participant, distinguish this assignment episode from another, or test an A.2.5 state condition.
+**First-minute result.** For `Robot_7 is assigned to InspectorSystemRole for this inspection shift`, start from an independently defined species under `U.SystemRoleAssignment`, here illustrated as `InspectionShiftAssignment`, and use its predicate and case facts to determine whether a shift occurrence obtains. When reusable participant typing is needed, give `HolderSystemSlot` the value kind `U.System` and entity-reference mode; give `AssignedSystemRoleKindSlot` the value domain `InspectorSystemRoleKindDomain` and `ByValue` designation mode. Add another participant only when it changes the predicate or occurrence identity. An assertion designates the occurrence's participants and states its `assignmentInterval` separately. Stop there unless later work must substitute a participant, distinguish this assignment episode from another, or test an A.2.5 state condition.
 
 **What goes wrong if missed.** In the readable sentence `Robot_7 is assigned to InspectorSystemRole`, the holder system, the exact system-role kind, each declaration-local SlotKind, and each participant designation carried by an assertion episteme can collapse into one word such as *role* or *holder*. A later claim then cannot tell what may be substituted, what retains identity, or whether it refers to a system, a system-role kind, an assignment occurrence, an assignment-state relation, or an assertion about either occurrence.
 
@@ -54,10 +54,10 @@ The following objects meet at this boundary and remain distinct:
 2. the direct relation kind and its predicate;
 3. a `RelationSignature` episteme whose content includes SlotSpecs corresponding to the direct relation's relation-participant meanings and restates its predicate, applicability, and identity rule for reuse;
 4. a `SlotSpec` containing the declaration-local SlotKind name for one relation-participant meaning, its actual-participant ValueKind, and its designation mode;
-5. an assertion or other episteme claiming that the relation obtains.
+5. an assertion or other episteme affirming, denying, modalizing or leaving unresolved whether the predicate holds.
 
-Use the `A.6.REL` relation-object architecture. A **relation-participant meaning** is the relation-local semantic content specifying one domain contribution to the obtaining predicate. An **actual relation participant** is the concrete entity participating in an obtaining occurrence under that meaning while retaining its intrinsic kind. A `SlotSpec` is declaration content corresponding to the relation-participant meaning. A **relation-participant designation** is the value or reference of a declared RefKind carried by an assertion or relation-occurrence description episteme to denote the actual participant. Source-specific vocabulary keeps its meaning inside the source representation or ontology until an explicit correspondence relates it to the named FPF object.
+Use the `A.6.REL` relation-object architecture. A **relation-participant meaning** specifies one domain contribution to the obtaining predicate. An **actual relation participant** is an entity participating in an obtaining occurrence under that meaning while retaining its own kind. A `SlotSpec` is declaration content corresponding to the participant meaning. A **relation-participant designation** is a value or reference carried by an assertion or description to designate the entity in that participant meaning. The entity is an actual participant in an obtaining occurrence only if the predicate holds; correct designation also serves negative or unresolved claims without establishing participation. Source-specific vocabulary retains its meaning until the applicable declaration or representation correspondence relates it to the FPF object.
 
-The RelationSignature and SlotSpecs are declaration content about reusable relation semantics. The world-side relation obtains under its direct predicate and identity rule independently of those epistemes.
+A `RelationSignature` is a declaration episteme whose content includes SlotSpecs for reusable relation semantics. A world-side relation obtains under its direct predicate independently of those epistemes, and its own rule supplies any needed occurrence identity.
 In Tech register, `SlotKind` is the declaration-local kind by which one `RelationSignature` distinguishes a relation-participant meaning. World-side relation prose names the meaning and actual participant directly; the relation occurrence contains no SlotKind. In an assertion or relation-occurrence description episteme, the corresponding SlotSpec distinguishes a relation-participant designation carried by value or by a reference of the declared RefKind. External representation elements retain their source-specific names. A declared correspondence must relate such an element to a named SlotSpec before an FPF relation claim can reuse it.
 

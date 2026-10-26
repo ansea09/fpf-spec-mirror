@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:intro — Intro"
-line_start: 36365
-line_end: 36374
+line_start: 35674
+line_end: 35683
 dependencies:
   - "A.0"
   - "A.19"
@@ -45,5 +45,5 @@ keywords:
 
 **Plain-name.** Declared-substrate interpretive view.
 
-**Declared-substrate interpretive-view record.** One declared substrate-side only view over one already-declared source-set and search/outcome-space substrate-bearing basis, written as a domain-specific use-site under existing `U.EpistemicViewing` and `U.MultiViewDescribing` law, so the reader can inspect one substrate through thinner or fuller interpretive views without changing the substrate, the publication face, or the EntityOfConcern. In this slice, the admissible basis is either the explicit substrate line itself or one declared source-set entry point or set-result entry point through which that substrate remains recoverable.
+**Declared-substrate interpretive view.** An explanation or representation that answers an inspection question about an already-declared source set, its search/outcome spaces and their connection. Cite that substrate directly or through a source set or set result that makes it recoverable. Use the simplest sufficient interpretation; use atlas form when the question needs several views or qualifications read together. Formal epistemic viewing and `U.View` claims have the additional conditions in §4.8.
 

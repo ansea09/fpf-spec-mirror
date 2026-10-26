@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__009_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:5 — Archetypal Grounding"
-line_start: 36211
-line_end: 36278
+line_start: 35521
+line_end: 35589
 dependencies:
   - "A.0"
   - "A.17"
@@ -42,16 +42,18 @@ keywords:
 
 **Tell.** One QD line keeps saying that one archive is both the search-side role and the evaluation basis. Downstream readers need to see that the same declared `CharacteristicSpace` can still occupy two different role positions without turning the archive or the descriptor layer into the space itself.
 
-**Show.**
+**Show.** In this constructed case, `Archive-12` is the selected candidate set. The declared descriptor map assigns behavior Coordinates to its members; the separately declared neighborhood metric is used to assess coverage in that same behavior space.
 
 ```text
 SourceSetFamily       = Archive
+SourceSetRef          = Archive-12
 SearchSpaceRef          = BehaviorCharacteristicSpace@ed=12
 OutcomeSpaceRef         = BehaviorCharacteristicSpace@ed=12
 SpaceRefRelationKind    = sameDeclaredSpaceAs
-SourceToOutcomeRelation = archive-retained candidates are navigated and judged
-                          for local coverage gain in the same declared behavior
-                          space
+SourceToOutcomeRelation = QDDescriptorMap@ed=9 assigns each Archive-12 candidate
+                          its Coordinates in BehaviorCharacteristicSpace@ed=12;
+                          a coverage comparison uses ArchiveNeighborhoodMetric@ed=4
+                          on those Coordinates
 DistortionPosture       = metric/model-dependent; descriptor realization and
                           neighborhood metric qualifier are active
 DescriptorMapRef        = QDDescriptorMap@ed=9
@@ -59,7 +61,7 @@ DistanceDefRef          = ArchiveNeighborhoodDistance@ed=4
 SpaceMetricRef          = ArchiveNeighborhoodMetric@ed=4
 ```
 
-**Cash-out.** This line now says three distinct things cleanly: the active source set is one archive, both role-refs resolve to the same declared `CharacteristicSpace`, and the `DescriptorMapRef` plus `DistanceDefRef` are only interpretive layers over that shared space reference. A downstream selection or archive-maintenance discussion can reuse this line without pretending the archive itself is the space.
+**Cash-out.** The archive supplies the candidate members; both space references resolve to the same declared `CharacteristicSpace`. The descriptor map assigns Coordinates, and the distance and metric define the stated coverage comparison. Selection or archive maintenance can reuse these relations while keeping the archive distinct from the space.
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:5.2 - Episteme
 
@@ -78,9 +80,8 @@ SourceToOutcomeRelation = for each retained tradition profile, AdoptionEstimate@
                           uses its integration requirements and the named team's
                           capability and workload facts to estimate adoption cost
                           and expected benefit in AdoptionOutcomeSpace@ed=2
-DistortionPosture      = model-dependent; the estimate is conditional on those
+DistortionPosture      = metric/model-dependent; the estimate is conditional on those
                          team and workload facts and omits unmodelled adoption effects
-BridgeDistortionNote   = not used; this example asserts no F.9 semantic Bridge
 ```
 
 **Cash-out.** The visible front stays a derived view over the recoverable palette. `AdoptionEstimate@ed=1` supplies the stated conditional source-to-outcome mapping. A later interpretive or atlas view may reorganize the presentation while preserving that mapping and its model limitations.
@@ -100,7 +101,7 @@ Use the pattern this way across different working situations:
 | Working situation | What to do with this pattern | What must stay explicit | Common miss avoided |
 | --- | --- | --- | --- |
 | Archive-side QD line where navigation and evaluation stay in one declared behavior space | Use the shared-space profile. Fill the six core fields, then add descriptor/metric qualifier only if active. | `Archive` as source set, both role-refs, `sameDeclaredSpaceAs`, and the active posture. | Treating the archive or descriptor layer as if it were the space itself. |
-| Derived tradition/front line that is judged against one different outcome space | Use the cross-space profile and keep `DerivedViewKind` plus `BasePaletteRef` visible. | The derived view stays derived, the base palette stays recoverable, and the cross-space relation stays explicit. | Letting the visible front replace the base palette or hiding the bridge-loss posture. |
+| Derived tradition/front line that is judged against one different outcome space | Use the cross-space profile and keep `DerivedViewKind` plus `BasePaletteRef` visible. | The derived view stays derived, the base palette stays recoverable, and the cross-space relation stays explicit. | Letting the visible front replace the base palette or hiding the adoption model's limitations. |
 | Learned, adaptive, or uncertainty-bearing line where the space declaration is real but heavier qualification is still case-bound | Keep the substrate core explicit and choose the honest posture token such as `uncertainty-bearing`, `learned/adaptive`, or `unstable-under-refresh`. | The reader can see that the substrate is real without being promised fake geometric closure. | Pretending every serious case is either fully transparent or fully described by one metric stack. |
 | Shortlist or publication note that only says what set result or publication form is shown or shipped | Do not use this pattern. Apply `G.5` or `G.10` directly. | The note stays publication-facing instead of imitating substrate depth. | Padding publication metadata with pseudo-substrate language. |
 

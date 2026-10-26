@@ -6,12 +6,12 @@ section_id: "C.36:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:9 — Consequences"
-line_start: 81801
-line_end: 81815
+line_start: 80626
+line_end: 80640
 dependencies:
   - "A.1"
   - "A.10"
@@ -72,5 +72,5 @@ Costs:
 
 - first use must name more than one value; a cultural-evolution case is not captured by one label;
 - projects must decide whether their question is variant-set generation and retention, cultural-evolution structure, architecture work, local choice, or refresh;
-- durable style and tradition terms need term rows and bridge refs when they cross contexts.
+- durable style and tradition terminology may need F.17 term accounts; cross-context substitution or claim transport uses a Bridge when required.
 

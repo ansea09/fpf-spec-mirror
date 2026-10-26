@@ -6,12 +6,12 @@ section_id: "E.11.DSG:End"
 section_title: "E.11.DSG:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__014_e-11-dsg-end.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:End — E.11.DSG:End"
-line_start: 104234
-line_end: 104235
+line_start: 103054
+line_end: 103055
 dependencies:
   - "C.2.1"
   - "C.2.P"

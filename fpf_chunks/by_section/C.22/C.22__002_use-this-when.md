@@ -6,12 +6,12 @@ section_id: "C.22:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:0 — Use This When"
-line_start: 62815
-line_end: 62824
+line_start: 61793
+line_end: 61802
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -36,7 +36,7 @@ Use this pattern when one stabilized problem-side episteme must be related to a 
 
 The working moment often sounds like this: "We are about to compare possible ways of doing, but which facts about this problem make a method family eligible, comparable, or unacceptable for this use?" Construct the smallest A.6.0 TaskSignature that a later selector can consume without selecting a method in advance, then assign it to the exact problem-side episteme and receiving use. If problem framing remains contested or stale, use `C.22.2`. If a sufficient signature and assignment already exist and the current question is selection, use `G.5`. If a method is selected and dated enactment is being prepared, use `A.15.2`.
 
-**What goes wrong if missed.** A problem remains a paragraph: selector inputs drift, ordinals and units get mixed, unknowns are coerced, acceptance thresholds leak into CHR fields, and reuse proceeds from a shared name, scheme, plane, or package instead of two exact local senses, a tested F.9 relation, and a separate claim about the proposed use.
+**What goes wrong if missed.** Unstated selector inputs let eligibility drift; incompatible scales are combined, unknowns are coerced and acceptance criteria are mistaken for characteristic definitions. A reuse that depends on semantic correspondence can also proceed without its local senses, obtaining F.9 relation and separate bounded-use claim.
 
 **What this buys.** The downstream selection question gets one separately constituted TaskSignature with typed vocabulary, laws, applicability, unknown handling, and ClaimScope. Evidence, freshness, and cross-semantic relations are added only when that receiving use actually needs them. Its assignment is replayable while publication and serialization can vary without changing the signature.
 

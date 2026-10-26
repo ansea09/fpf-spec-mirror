@@ -6,12 +6,12 @@ section_id: "C.2.2a:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 52916
-line_end: 52923
+line_start: 52072
+line_end: 52079
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -47,7 +47,7 @@ keywords:
 ### C.2.2a:8 - Common Anti-Patterns and How to Avoid Them
 - **Maturity monism.** Replace five facets with one stage word. Repair by publishing explicit slot placement.
 - **Formality capture.** Use `F` to stand in for articulation, closure, or anchoring. Repair by naming the actual facet subject pattern.
-- **Carrier collapse.** Treat a document, cue pack, or routed note as if it were the position itself. Repair by separating carrier lane, publication form, publication face, and position claim.
+- **Carrier collapse.** Treat a document, cue pack, or routed note as if it were the position itself. Repair by distinguishing the position claim, publication form (including an MVPK face) and carrier.
 - **Threshold folklore.** Speak of readiness without any explicit threshold declaration. Repair by publishing relevant local threshold notes on explicit slots.
 - **Bridge by vibe.** Similar stage language is treated as equivalence. Recover the two exact F.17 local senses and test F.9; cite a Bridge only when its predicate obtains. Otherwise keep both positions local and route the actual comparison or translation question.
 - **Corridor inflation.** Treat the navigation cluster or corridor map as if it were the subject-pattern set for all downstream semantics. Repair by naming the pattern that governs the current chart, seam, or downstream claim; identify any seam publication form separately.

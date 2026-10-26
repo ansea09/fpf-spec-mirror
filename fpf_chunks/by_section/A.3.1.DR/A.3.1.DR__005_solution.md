@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:4 — Solution"
-line_start: 10017
-line_end: 10065
+line_start: 9936
+line_end: 9984
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"
@@ -35,7 +35,7 @@ Build a source-traceable dossier around the receiving decision. Recover each doc
 5. **Record intended use and possible loss.** Say what the receiving use proposes to keep, change, reject, or leave unresolved and what source meaning or context would be lost. These are source-local recovery dispositions. Do not yet assert cross-source sameness, perform semantic merging, allocate a remainder to a supplier, or design the resulting pattern language.
 6. **Recover direct relations and small dependency slices.** Retain supported production/use, schema correspondence, provider access, allocation, responsibility, authority, or other relevant relations. A line, container, chapter, lane, or local section supplies no relation. Attach only the source claims, conditions, and returns needed for the next judgement.
 7. **Prepare the actual downstream subjects.** A.3.1.QM receives only identified Methods and individually scoped candidate Method accounts, each with the smallest slice needed to judge contribution, inputs/results, applicability, burden, capability, support, authority/access, and evidence. B.1.5.CM receives a proposed-whole account when whole identity and relations are the question; retain its proposed semantics, participant statuses, relation boundary, and source slices. Other kinds remain in the dossier or accompany those subjects without becoming Methods.
-8. **Return the dossier or the first blocking gap.** Use open navigation sections when they help retrieval. Stop when the receiving decision can recover its subjects and source basis. If edition, role, receiving use, a needed current comparator, source return, kind, relation, or evidence is missing, name the affected contribution and the missing basis. Do not manufacture corpus completeness.
+8. **Return the dossier and any blocking gaps.** Use open navigation sections when they help retrieval. Stop when the receiving decision can recover its subjects and source basis. If edition, role, receiving use, a needed current comparator, source return, kind, relation, or evidence is missing, name the affected contribution and the missing basis. Continue unaffected recovery when it can still serve the receiving decision; do not claim completeness beyond the recovered boundary.
 
 ##### A.3.1.DR:4.1.1 - Select the Recovery Profile Per Source
 

@@ -6,12 +6,12 @@ section_id: "C.41.SR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:7 — Conformance Checklist"
-line_start: 89134
-line_end: 89143
+line_start: 87952
+line_end: 87961
 dependencies:
   - "A.10"
   - "B.1.5"

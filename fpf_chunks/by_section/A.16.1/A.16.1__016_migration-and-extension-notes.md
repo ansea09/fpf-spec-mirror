@@ -6,12 +6,12 @@ section_id: "A.16.1:15"
 section_title: "Migration and Extension Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__016_migration-and-extension-notes.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:15 — Migration and Extension Notes"
-line_start: 34267
-line_end: 34277
+line_start: 33775
+line_end: 33782
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,11 +39,8 @@ keywords:
 ### A.16.1:15 - Migration and Extension Notes
 
 #### A.16.1:15.1 - Migration from vague cue or signal language
-Source prose often says merely "there is a signal" or "something suggests possible work". A conforming migration first asks whether the source is truly signal-like in the narrow telemetry or trace sense, or whether the load-bearing phenomenon is a broader cue nucleus, work-possibility hint, reliance-possibility hint, contrast, or figure-against-background shift. It then turns the passage into a cue pack with explicit cue nucleus, primary witness or anchor, and route-candidate hints only if those hints are already visible.
+Source prose often says merely "there is a signal" or "something suggests possible work". A conforming migration first asks whether the source is truly signal-like in the narrow telemetry or trace sense, or whether the load-bearing phenomenon is a broader cue nucleus, work-possibility hint, reliance-possibility hint, contrast, or figure-against-background shift. It then makes the cue nucleus and its grounds explicit, naming a primary witness or anchor when one carries the preservation need. Include route-candidate hints only when already visible.
 
 #### A.16.1:15.2 - Local extension rule
 Contexts may add local cue-pack fields only if they remain preservation aids rather than covert route-decision or endpoint semantics.
-
-#### A.16.1:15.3 - Boundary reminder
-If a cue pack begins to carry a route decision, a passed endpoint test or stronger-use disposition, relation slots, Method or Work semantics, or an independently claimed authority relation, this pattern no longer suffices. Use the pattern that defines, constrains, or tests that claim, and publish the corresponding form.
 

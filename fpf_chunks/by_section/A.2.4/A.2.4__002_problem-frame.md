@@ -6,12 +6,12 @@ section_id: "A.2.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:1 — Problem Frame"
-line_start: 5954
-line_end: 5975
+line_start: 5926
+line_end: 5946
 dependencies:
   - "A.10"
   - "A.2"
@@ -46,9 +46,8 @@ Use this pattern when an episteme, such as a report's content, is being used as 
 Use it when the working question is:
 
 * which episteme is being used;
-* which claim, theory statement, status assertion, use, or causal-use question the episteme is being used for;
-* which effective source scheme (when interpretation depends on it), ClaimScope, grounding holon, polarity, relevance window, assurance use, weight model, and provenance constraints are current;
-* whether source wording such as "evidence role", "status role", "standard role", or "the report plays a role" hides an evidence-use, status-use, source-use, publication-use, assurance-use, gate-use, or causal-use relation;
+* for which claim or governed status it is being used;
+* which interpretation, scope and other §4.1 or §4.2 conditions change that use; and
 * whether the evidence-use or status-use relation is sufficiently specified for the intended reliance, or only enough for orientation, source-finding, a reversible probe, or a narrowed use.
 
 **Primary EntityOfConcern.** The `EntityOfConcern` is the evidence-use relation or status-use relation around an episteme.
@@ -57,7 +56,7 @@ Use it when the working question is:
 
 **What goes wrong if missed.** Producing or evaluating work is attributed to the document itself, a dataset is treated as if it were classified under a work-facing system-role kind, a dashboard status is used as permission, a proof is used outside its theory-version fence, or a simulation-only counterfactual output is relabelled as realized causal evidence.
 
-**What this buys.** A cheap first-use classification that identifies the episteme and its evidence-use or status-use relation. The further questions in §4.6 are answered through their direct patterns.
+**What this buys.** A first-use classification that identifies the episteme and its evidence-use or status-use relation. The further questions in §4.6 are answered through their direct patterns.
 
-**Not this pattern when.** Use A.13 to identify the actual performer and A.15.1 to admit performed Work independently. If the current result must also identify the assignment under which that Work was performed, check it separately through F.6. Use A.6.1 for actual bindings, and use the exact formal, measurement, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, system-role-kind, assignment, or decision pattern for its local result. Use C.2.1 for the result episteme, A.10/G.6 for provenance and bounded reliance, G.11 for currentness, B.3 for assurance, F.10 or another direct status pattern for status, and E.17 for publication. A.2.4 classifies only the episteme's first evidence-use or status-use.
+**Not this pattern when.** For a local result beyond evidence-use or status-use classification, use its defining pattern as §4.6 explains. In particular, A.13 identifies an actual performer and A.15.1 admits dated Work independently; add F.6 only when the result must also identify the assignment under which that Work was performed.
 

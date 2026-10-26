@@ -6,12 +6,12 @@ section_id: "A.15.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:3 — Forces"
-line_start: 30294
-line_end: 30303
+line_start: 29853
+line_end: 29862
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -44,7 +44,7 @@ keywords:
 | Force | Demand |
 | --- | --- |
 | Planning usefulness | Preserve the value or designation intended for later work. |
-| Declaration locality | Read each member only inside the cited declaration edition and the pattern that defines it. |
+| Declaration locality | Read each member only inside the cited declaration episteme and the pattern that defines it. |
 | Family separation | Keep RelationSignature participants distinct from A.6.1 operation arguments and results. |
 | Intention versus actuality | Permit useful planned claims without asserting work or participation. |
 | Replay versus burden | Pin only the editions and conditions that can change a later planning or comparison decision. |

@@ -6,12 +6,12 @@ section_id: "A.15.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:9 — Consequences"
-line_start: 30513
-line_end: 30521
+line_start: 30074
+line_end: 30082
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -45,6 +45,6 @@ keywords:
 | --- | --- |
 | Planned choices remain replayable. | Each row must point to a declared member and the pattern that defines it. |
 | Declaration families remain coherent. | Planners must dispatch relation participants and operation values separately. |
-| Actual-use claims remain honest. | A matching plan row cannot substitute for grounding the Work occurrence and the independently obtaining relations involving it. |
-| Missing ontology becomes visible. | An unowned filling returns a precise blocker instead of a convenient generic slot. |
+| Actual-use claims have separate grounds. | A matching plan row supplies neither relation participation nor an application binding; add Work admission only when the claim consumes it. |
+| Missing declared semantics becomes visible. | Return the specific missing-governor result when the member or actual-use rule is absent; distinguish missing planning information under §12b. |
 

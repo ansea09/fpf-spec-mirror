@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:0 — Use This When"
-line_start: 11750
-line_end: 11768
+line_start: 11626
+line_end: 11644
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -24,7 +24,7 @@ keywords:
 
 Use this pattern when people need usable claims about an identified Method or a candidate account of a proposed way of working. The receiving use may concern planning, enactment, comparison, review, revision, publication or teaching; retain the claims' actual status. Start from one named use: who needs to do or decide what, which Method claims that use consumes, and what can remain outside the edition.
 
-The first useful result is a short use-coverage row. It names the Method or candidate account, the receiving use, the claims needed now, the claims deliberately omitted, and the stop. That row prevents a documentation project from expanding before its practical question is clear.
+The first useful result is a short use-coverage account. It names the Method or candidate account, the receiving use, the claims needed now, the claims deliberately omitted, and the stop. That account prevents a documentation project from expanding before its practical question is clear.
 
 Do not use this pattern merely to publish, diagram, approve, schedule, or record Work. A `U.MethodDescription` is the claim-bearing episteme whose exact `EntityOfConcern` is one Method already admitted under `A.3.1`; its code, diagram, form, carrier, approval, WorkPlan, and dated Work remain different things. If the proposed whole is still a candidate account, improve that account without classifying it as a `U.MethodDescription` for the whole.
 

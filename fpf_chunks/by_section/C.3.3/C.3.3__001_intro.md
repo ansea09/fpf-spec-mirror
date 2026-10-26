@@ -6,12 +6,12 @@ section_id: "C.3.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:intro — Intro"
-line_start: 55492
-line_end: 55510
+line_start: 54627
+line_end: 54645
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -25,7 +25,7 @@ keywords:
 
 ## C.3.3 - KindBridge and CL^k — Correspondence between Distinct Kinds
 
-> **One-line summary.** A changed practice, source, team, or scheme first triggers a comparison of kind definitions. If the same kind continues, reuse it and evaluate the receiving candidate afresh; no `KindBridge` is needed. When two independently identified kinds are distinct and a directional correspondence predicate holds, one `KindBridge` direct relation may obtain. A separate bridge-assertion episteme states direction, paired declaration editions, preservation or loss, `CL^k`, evidence, and admitted use. It never transfers source classification truth.
+> **Summary.** A changed practice, source, team, or scheme first triggers a comparison of kind definitions. If the same kind continues, reuse it and evaluate the receiving candidate afresh; no `KindBridge` is needed. When two independently identified kinds are distinct and a directional correspondence predicate holds, one `KindBridge` direct relation may obtain. A separate bridge-assertion episteme states direction, paired declaration editions, preservation or loss, `CL^k`, evidence, and admitted use. It never transfers source classification truth.
 
 **Normativity:** Normative in **Part C**. Identifier **C.3.3**.
 
@@ -40,5 +40,5 @@ keywords:
 - **C.2.2 — F–G–R:** justified bridge penalties affect reliance R, not F or G.
 - **C.2.3 — Formality assessment:** the assessed expression properties belong to the declaration or assertion episteme.
 
-**Non-goals.** No repository or notation mandate. No Scope mapping here. No bridge from a locality change alone. No transfer of classification truth. `CL^k` reuses an ordinal congruence anchor for a declared kind-correspondence use without becoming a universal interoperability score.
+**Use boundary.** Kind correspondence leaves scope translation and local-sense correspondence to their own patterns when needed. `CL^k` is an ordinal assessment for a declared kind-correspondence use, not a universal interoperability score.
 

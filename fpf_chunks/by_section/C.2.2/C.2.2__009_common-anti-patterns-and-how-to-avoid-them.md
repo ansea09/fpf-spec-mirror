@@ -6,12 +6,12 @@ section_id: "C.2.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 52681
-line_end: 52694
+line_start: 51847
+line_end: 51860
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -62,7 +62,7 @@ Informative; non-binding.
 | **Unsupported assurance fold** | A mean, minimum, maximum, or weighted sum is reported as confidence without its model | Boundedness and monotonicity do not warrant the input scale or dependency interpretation | Identify support roles and a justified receiving model; otherwise return separate support and a bounded synthesis. |
 | **Truth-by-score**         | `R=0.9` is treated as “the claim is true.”                                                    | R is warrant strength, not ontological truth.                    | Require explicit evidence links and scope; treat R as decision warrant only.                             |
 | **Scope laundering**       | The claim’s applicability grows by wording changes while `G` is unchanged.                    | It silently widens scope, making comparisons meaningless.        | Use A.2.6 operators and treat scope changes as explicit revisions.                                       |
-| **Relation laundering**    | A claim or its evidence is reused after a changed scope, kind, plane, notation, local meaning, model use, or evidence basis, while `R` is carried over unchanged. | It hides the actual change and its relation-specific loss. | Name the direct relation or scope operation and recompute `R_eff` from its declared loss; stop if that relation is missing. |
+| **Relation laundering** | A claim or its evidence is reused after a change, and its old warrant is carried forward without establishing its applicability to the receiving use. | It hides the changed value and any relation-specific loss. | Name the actual relation or scope operation and apply its warranted loss, if any. Calculate `R_eff` only under a justified model; otherwise retain separate support and a qualified conclusion. Stop the reuse if a required relation is missing. |
 | **DesignRunTag chimera**     | Design-time proofs and run-time telemetry are mixed as if they were the same evidence object. | Evidence belongs to different stances and decays differently.    | Separate lanes and validity windows; treat crossings explicitly.                                         |
 | **Ordinal arithmetic** | Local formality or CL ranks become a probability or loss merely by tagging, tabulating, or rescaling them | Ordered categories are not calibrated ratio quantities | Retain the ordinal meaning; any receiving conversion needs its actual model, meaning, scale, and assumptions. |
 | **Counting support labels** | More reports are treated as independent confirmation, or one weak additional study automatically defeats the whole | Duplicates, shared bias, complementary information, and counterevidence contribute differently | Recover their actual dependencies and effects on the claim; use neither study count nor a universal min/max fallback. |

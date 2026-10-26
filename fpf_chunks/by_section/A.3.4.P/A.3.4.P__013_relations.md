@@ -6,12 +6,12 @@ section_id: "A.3.4.P:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:12 — Relations"
-line_start: 13581
-line_end: 13588
+line_start: 13402
+line_end: 13409
 dependencies:
   - "A.10"
   - "A.15.1"

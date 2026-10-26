@@ -6,12 +6,12 @@ section_id: "C.3.2:7"
 section_title: "Extension as Representation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__009_extension-as-representation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:7 — Extension as Representation"
-line_start: 55346
-line_end: 55357
+line_start: 54483
+line_end: 54494
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -35,7 +35,7 @@ Materialize `KindExtension(k, slice)` only when a named query, quantification, c
 - State the candidate domain without inventing `U.EntitySet`.
 - Include exactly admissible candidates whose judgment is `true`. Keep `unknown` and `not-applicable` distinct when the receiver needs those exclusions explained.
 - Treat braces, rows, indexes, or database results as representations. They create neither a collection holon, A.14 membership occurrence, direct classification relation, nor criterion condition.
-- Use C.29 when the represented set changes a claim-bearing use; otherwise the extension may remain a local calculation.
+- Use C.29 when interpretation, preservation or transfer of the represented set leaves a separate mathematical question. Otherwise finish the local calculation under the kind and query rules.
 
 Candidate state or a later slice can change an extension without changing the signature or kind. An extension row cannot repair an inconsistent declaration or subkind fact.
 

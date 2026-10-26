@@ -6,12 +6,12 @@ section_id: "A.12:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:0 — Use This When"
-line_start: 28099
-line_end: 28125
+line_start: 27663
+line_end: 27689
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -19,9 +19,12 @@ dependencies:
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.15.2"
   - "A.2.1"
   - "A.2.6"
   - "A.2.7"
+  - "A.3.1"
+  - "A.3.2"
   - "A.3.4"
   - "A.6.RCD"
   - "A.7"
@@ -47,7 +50,7 @@ Typical moments:
 - "the system verifies that its own change succeeded";
 - "the lathe makes the workpiece, therefore the workpiece is part of the lathe during manufacturing".
 
-**First useful move.** Name the proposed acting participant and the subject claimed to change, then state the relation between them that matters to your question. For the robot below, the calibration controller acts on the sensor suite. Use the precise account in §4.1 when you need to distinguish their identities or establish a particular System, change, Work or evidence claim; the ordinary acting-side distinction does not require constructing that frame.
+**First useful move.** Name the proposed acting participant and the subject claimed to change, then state the relation between them that matters to your question. For the robot below, the calibration controller acts on the sensor suite. Keep ordinary wording when those participants and their relation are already clear. Use §4.1 when their identities or a particular System, change, Work or evidence claim need the precise account.
 
 **What goes wrong if missed.** A controller and controlled part can collapse into one object, an automated publication update can hide its performer, and the performer’s output can be mistaken for sufficient evidence of success. Changing another holon can also be mistaken for containing it.
 

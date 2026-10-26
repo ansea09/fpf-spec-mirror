@@ -6,12 +6,12 @@ section_id: "A.7:5"
 section_title: "Solution — The Clarity Lattice (normative distinctions & safe vocabulary)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__007_solution-the-clarity-lattice-normative-distinctions-safe-vocabulary.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:5 — Solution — The Clarity Lattice (normative distinctions & safe vocabulary)"
-line_start: 25802
-line_end: 25944
+line_start: 25355
+line_end: 25496
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,21 +50,20 @@ keywords:
 - **senseFamily** — the categorical characteristic, used by F.7/F.8/F.9: {Role | Status | Measurement | Type‑structure | Method | Execution}. Rows must be **sense‑uniform**.
 - **ReferencePlane** — the referent mode per CHR: {world/external | conceptual | epistemic}.
 - **EntityOfConcern and Description-episteme boundary** — the item under concern is separated from Description epistemes (E.10.D2, C.2.1). Specification use requires an independently constituted Description episteme, checkable claims, and a named harness, validation, conformance, measurement, or evaluation relation capable of checking them for the stated use. When viewpoint selection affects reliance, preserve or explicitly update the named describing use and its selected viewpoint. Formality, acceptance conditions, a C.16 measurement criterion, and verification practice may contribute under their direct rules. Specification is not a third member of the strict distinction.
-- **DesignRunTag** — the design vs run DesignRunTag. It is not a temporal “plane”, generic layer, or stance.
+- **DesignRunTag** — identifies design or run use; it does not select a ReferencePlane.
 - **Publication face, form, unit, carrier, and rendering boundary** — Description epistemes, including Description epistemes admitted for specification use, may be made available through publication units, publication forms, faces, renderings, and carriers. Their publication positions do not by themselves identify the `EntityOfConcern`, the Description episteme, or a specification-use gate or refinement; readable form alone establishes no evidence, gate passage, work, assurance, or decision force. The ordinary didactic faces for architectural patterns in FPF are:
   {**PlainView** (explanatory prose), **TechCard** (typed cards and IDs), **NormsCard** (TechCard profile for checklists), **AssuranceLane** (evidence bindings)}. Publication faces and forms are orthogonal to the `EntityOfConcern` and Description-episteme boundary, to specification-use gates and refinements, and to DesignRunTag.
 - **Direct Description account and specification-use boundary** — a Description episteme is independently identified under C.2.1 by its complete claim content, exact `EntityOfConcern`, and effective `ReferenceScheme`. A.7 introduces no universal EntityOfConcern-to-Description constructor or morphism. When it matters how the claims were produced, selected, carried, or revised, state the exact authoring, measurement, observation, model, source-use, representation, refinement, or other direct relation that is current. A later specification-use claim must satisfy the preceding conjunction under E.10.D2 and the direct pattern that supplies the capable checking relation.
 
-- **EntityOfConcern / episteme / publication boundary** — `EntityOfConcern` names the exact item under concern. An independently identified episteme may genuinely concern a document, publication face, or carrier; bearing or publishing this episteme does not by itself make that object its EntityOfConcern. A Description episteme makes claims about its exact item under its effective scheme. Publication faces, forms, units, renderings, and carriers may make it available, but presentation alone establishes neither episteme identity nor specification use, evidence, gate passage, Work, assurance, or decision force. Evidence and any constitutive contribution to those relations remain governed by their direct rules.
 A.7 establishes the following **distinction groups**. Use their **names** and **scope** exactly as below.
 
 #### A.7:5.2 - System-role kind vs function-like wording, functional behaviour, capability, method, and work
 
-* **System-role kind.** One local `U.Kind` with `U.System` candidates and an operative condition for a stable, assignable, work-facing contribution. Its member/non-member boundary and continuity rule complete the C.3 recovery. A practice or source reference locates the definition; it does not identify the kind. An obtaining assignment occurrence may relate a system to that kind only through a directly admitted `U.SystemRoleAssignment` species. The kind is **not behaviour**. Example: the kind currently named `CoolingCirculatorSystemRole`, whose ThermalLoop-7 provenance locates one definition.
+* **System-role kind.** One local `U.Kind` with `U.System` candidates and an operative condition for a stable, assignable, work-facing contribution. Its member/non-member boundary and continuity rule complete the C.3 recovery. A practice or source reference locates defining content; the reference label alone identifies no kind. An obtaining assignment occurrence may relate a system to that kind only through a directly admitted `U.SystemRoleAssignment` species. The kind is not the behaviour. Example: the kind currently named `CoolingCirculatorSystemRole`, whose ThermalLoop-7 provenance locates one definition.
 * **Function-like wording.** A source phrase such as "function", "behaviour", "service", or "does X" may name a required transformation or effect (A.3.4), functional behaviour (A.6.F), a capability envelope, a method, performed work, a quality, or a structure. Recover the governed claim before choosing the FPF term.
 * **Under a system-role assignment.** A System or acting holon that holds an assignment may have a **Capability** to enact a **Method** under conditions. A precise Work claim still uses A.13 to identify the actual performer and A.15.1 to admit the dated occurrence independently. Add F.6 only if the claim must also identify the assignment under which that Work was performed. The system-role kind, assignment, Method, Capability, transformation, and effect do not substitute for the Work or performer.
 
-Safe rewrite for earlier "Holonic Duality (Substance vs Function)": **Holonic Duality (Substance vs system-role kind).** A `U.System` keeps its identity while its classifications and obtaining assignments change. A contribution named by a system-role kind may call for a Method, a Capability envelope to enact that Method under conditions, and possible Work occurrences; none follows from the kind alone.
+**System identity and changing contributions.** A `U.System` can keep its identity while its classifications and obtaining assignments change. A contribution named by a system-role kind may call for a Method, a Capability envelope to enact that Method under conditions, and possible Work occurrences; none follows from the kind alone.
 
 **Normative guard:** Use **system-role kind** for that exact local `U.Kind`, an admitted direct species under `U.SystemRoleAssignment` for assignment occurrences, **functional behaviour** for a behaviour claim stated with A.6.F, **Method** for the abstract way-of-doing, **Capability** for a holder System's bounded ability or envelope for a Work family or result class under stated conditions, **Work** for the performed occurrence, and **Transformation** or effect wording for an actual change identified with A.3.4. Do not call the kind or assignment itself a function, and do not define Method as Capability or as the transformation or effect itself.
 
@@ -89,7 +88,7 @@ Safe rewrite for earlier "Holonic Duality (Substance vs Function)": **Holonic Du
 * **System-role kind and assignment, when current.** Add a local system-role-kind classification and obtaining assignment when their identity, extent, or participants are used by the claim, including the A.13 core for precise Work admission. State the admitted assignment species when that relation is current. Precise attribution of an already admitted Work to that assignment remains a separate F.6 claim. The assignment and kind do not make the System able to act and do not act themselves.
 * **Capability, Method, and Work, when current.** Name Capability only for an ability or envelope claim, Method only for the way of doing, and Work only for a performed occurrence. An ordinary actor sentence need not materialize all three.
 * **Episteme.** An episteme cannot act. A System may author, revise, use, or publish it; state the actual operation, Work, carrier, publication, evidence, or source relation only when the receiving claim uses that distinction.
-* **Holon.** Use the umbrella word only when systemness is not part of the claim. If action is asserted, the acting entity must satisfy A.1 as a System; an assignment is not the admission test.
+* **Holon.** Use the umbrella word when it adequately identifies the subject. An entity claimed to act must satisfy A.1 as a System; name that distinction explicitly when the capable participant would otherwise be unclear. An assignment is not the System-admission test.
 
 **Progressive example.** `The design team selected valve V-12` is enough for an ordinary design account when the team is a recoverable collective System and no later inference needs a precise Work or assignment identity. If an audit claims dated `ValveSelectionWork-47`, use A.13 to recover `DesignTeamSelectionSystem` as the actual performer with its core basis, then A.15.1 to admit the Work independently from the occurrence facts in :2, including at least one Method actually followed. If the audit must also identify the assignment under which that Work was performed, use F.6 to check `ValveSelectionAssignment-47` and compare its holder with the already identified performer. Keep the core's admitted assignment species, assigned local kind, extent, and evidence recoverable; add another Method, Capability, or further evidence detail only to the degree used by the audit.
 
@@ -112,7 +111,7 @@ Safe rewrite for earlier "Holonic Duality (Substance vs Function)": **Holonic Du
   - **ComponentOf** — mechanical or structural part in systems.
   - **ConstituentOf** — logical or content part in epistemes.
   - **PortionOf** — quantitative portion with conserved extensives.
-  - **PhaseOf** — temporal part of the same carrier over a proper interval.
+  - **PhaseOf** — a proper temporal restriction of the same unchanged enduring individual, admitted under A.14 and its direct identity rule; Work parts use A.15.1.
   - **System-role assignment** — a System is the `HolderSystemSlot` value in one obtaining occurrence of a directly admitted `U.SystemRoleAssignment` species.
 
 **Normative guard:** Formal inclusion establishes no world-side belonging. Collection belonging establishes neither constructive parthood nor holonhood and does not make either impossible. If a grouping is claimed to act, test it against all six `A.1` matters. Add a local system-role kind, assignment, Method, Work, or constructive part relation only when that separate claim obtains.
@@ -148,17 +147,17 @@ Use this split when the text needs to say whether two descriptions or views are 
 | unresolved candidate | construction/reference/bridge/witness trace is insufficient | candidate tracking, question framing, or non-use |
 | different entity | the applicable identity or reference rule and the available facts establish that the two descriptions concern distinct entities | keep the established difference; a missing sameness or reuse path alone leaves identity unresolved |
 
-When a sameness, difference, or reuse claim needs mathematical justification, use the defining mathematical rule; use C.29 only for an actual lens. E.18 and E.18.1 govern their transformation-flow and problem-to-work carry-through claims, and E.18 applies when a gate crossing is the live relation. A structural, graph, flow, or architecture-description comparison uses its relevant architecture pattern. If no rule supplies the needed identity, correspondence, or postulate-theory justification, leave that claim unresolved.
+When a sameness, difference, or reuse claim needs mathematical justification, use the defining mathematical rule; use C.29 only for an actual lens. E.18 and E.18.1 govern their transformation-flow and problem-to-work carry-through claims. Use E.18 for a gate crossing only when that crossing belongs to the selected transformation-flow structure. A structural, graph, flow, or architecture-description comparison uses its relevant architecture pattern. If no rule supplies the needed identity, correspondence, or postulate-theory justification, leave that claim unresolved.
 
 #### A.7:5.8b - Compact relation-position recovery aid
 
-When one visible source-side carrier, publication face, diagram, dashboard, card, model output, `PublicationUnit`, rendering, or generated artifact can be read as several FPF values at once, use A.7 only to recover the current relation position. Name the current `EntityOfConcern`, Description episteme, view, publication face, publication form, `PublicationUnit`, carrier, rendering, mathematical-lens use, evidence relation, gate decision, work occurrence, authority-reference relation, source-currentness relation, or source-use claim, then apply the subject pattern for that position.
+When a visible representation could be read as several FPF objects, recover the position used by the claim: the EntityOfConcern, description or view, publication object, or a separate evidence, gate, Work, authority, source or mathematical-use relation. Apply the pattern for that position; §§5.5–5.9 distinguish the relevant objects and relations.
 
-This aid is not a reusable object, local record, table, or master checklist. If the direct governed claim is already clear, do not add an A.7 recovery note; cite the direct pattern.
+If the object and direct claim are already clear, apply the subject rule immediately. A separate recovery note is unnecessary.
 
 #### A.7:5.9 - Direct Description account and specification-use boundary (normative)
 
-A.7 uses no `Describe_EoC_DescEp` function. To say that one episteme describes something:
+To say that one episteme describes something:
 
 1. identify the Description episteme through its complete C.2.1 claim content, exact `EntityOfConcern`, and effective `ReferenceScheme`;
 2. state the claims it makes about that EntityOfConcern in ordinary language;
@@ -171,7 +170,7 @@ If the EntityOfConcern is itself an episteme, the new Description does not autom
 
 A Description episteme becomes usable as a specification when its C.2.1 constitution, checkable claims, and a named harness, validation, conformance, measurement, or evaluation relation capable of checking them for the stated use are recoverable under E.10.D2 and the applicable direct pattern. When viewpoint selection affects reliance, preserve or explicitly update the named describing use and its selected viewpoint. Formality, acceptance conditions, measurement criteria, and verification practice contribute under their own rules; formal notation alone is insufficient. Specification use remains separate from the EntityOfConcern, Description identity, publication expression, and Work.
 
-A Description episteme, its specification-use status, and a publication result are distinct from the dated activity that produces them. An actual describing, formalizing, specifying, or publishing activity may be admitted separately as Work. Use B.1.5 for Method composition, A.15.1 for Work occurrences and temporal parts, B.1.4 for aggregation of already established temporal relations, and B.1.6 for resource spend and yields tied to that Work. An ordinary statement about authoring needs those relations only when its claim uses them.
+A Description episteme, its specification-use status, and a publication result are distinct from the activity producing them. Admit a deliberately asserted dated describing, formalizing, specifying or publishing Work using the basis in :2. Use B.1.5 for Method composition, A.15.1 for Work occurrences and temporal parts, B.1.4 for aggregation of already established temporal relations, and B.1.6 for resource spend and yields tied to that Work. An ordinary statement about authoring needs those relations only when its claim uses them.
 
 #### A.7:5.10 - Outcome specification strict distinction
 

@@ -6,12 +6,12 @@ section_id: "A.15.1:16"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__021_lowering-repair-and-refresh-conditions.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:16 — Lowering, Repair, and Refresh Conditions"
-line_start: 29918
-line_end: 29924
+line_start: 29483
+line_end: 29489
 dependencies:
   - "A.1"
   - "A.10"
@@ -57,8 +57,8 @@ keywords:
 
 ### A.15.1:16 - Lowering, Repair, and Refresh Conditions
 
-Lower a candidate Work assertion when any claimed actual performer lacks the complete A.13 basis for the action, scope, and window, or when the exact candidate-action history, occurrence designator, temporal extent, at least one Method actually followed, or one required locally declared containing-System relation cannot be recovered. Do not lower an independently admitted Work merely because F.6 is missing, unresolved, uses another assignment, or fails holder or coverage checks; lower only the precise `performedUnderAssignment` and assignment-bound performer claim. Lower an additional enactment, Work-to-referent, operation binding, or resource-use claim separately when its direct basis is missing. Do not lower supported System functioning, behaviour, causal participation, Transformation, plan, Method, evidence, or telemetry claims merely because the Agent, Work, or attribution branch fails.
+Lower a candidate Work assertion when any claimed actual performer lacks the complete A.13 basis for the action, scope, and window, or when the exact candidate-action history, occurrence designator, temporal extent, at least one Method actually followed, or one required locally declared containing-System relation cannot be recovered. A missing, unresolved or failed F.6 relation lowers the precise `performedUnderAssignment` and assignment-bound performer claim. Preserve independent Work admission; if that finding also questions an actual admission premise, recheck it and its dependents under §4.1. Lower an additional enactment, Work-to-referent, operation binding, or resource-use claim separately when its direct basis is missing. Do not lower supported System functioning, behaviour, causal participation, Transformation, plan, Method, evidence, or telemetry claims merely because the Agent, Work, or attribution branch fails.
 Repair the Work assertion or description when a subsequent source changes the resolved temporal extent, actual performance history, an actual performer System's A.13 basis, enacted Method, selected method-description reference, direct binding, resource-use claim, work-to-referent relation, obtaining containing-system relation, or work-part relation. Repair the separate F.6 attribution when the covering assignment, direct pair fact, holder equality, species, participants, or coverage changes; do not rewrite Work membership merely because attribution changes. Reidentify only when the direct A.15.1 boundary rules decide the change or the selected policy's branch criterion applies to a named ambiguous use. Repair a result or consequence through the matching §4.6 row rather than editing Work.
 
-Refresh before cross-context model use, aggregation, comparison, measurement, acceptance, release reliance, gate use, evidence use, assurance use, QD or OEE archive use, or P2W carry-through use. If the claim being made after refresh is no longer about performed work, use the direct pattern for that object or relation and retain a Work-occurrence reference only when the receiving claim actually depends on that occurrence.
+Before a new receiving use, confirm that the occurrence and related results still have the meaning, applicability and currentness that use requires. Reuse a result with unchanged grounds; recheck changed, missing or expired dependencies, using A.10.1 when a changed relied-on source affects several uses. If the question is no longer about performed Work, apply its direct pattern and keep a Work reference only when the claim depends on that occurrence.
 

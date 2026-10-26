@@ -6,13 +6,14 @@ section_id: "C.2.4:13"
 section_title: "Worked Examples and Edge Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__014_worked-examples-and-edge-cases.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:13 — Worked Examples and Edge Cases"
-line_start: 53674
-line_end: 53687
+line_start: 52827
+line_end: 52840
 dependencies:
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.16"
@@ -21,6 +22,7 @@ dependencies:
   - "A.16.2"
   - "A.18"
   - "A.3.1"
+  - "A.3.2"
   - "A.6.3.RT"
   - "A.6.P"
   - "B.4.1"
@@ -32,6 +34,8 @@ dependencies:
   - "C.2.8"
   - "C.2.LS"
   - "C.2.P.DR"
+  - "C.29"
+  - "F.6"
 keywords:
   - "AE0–AE5"
   - "articulation explicitness"
@@ -43,8 +47,8 @@ keywords:
 
 ### C.2.4:13 - Worked Examples and Edge Cases
 
-#### C.2.4:13.1 - High formality, low articulation
-A template may be syntactically precise and high in `F`, yet still low in `AE` because the actual participants, field meanings, bearer, planned action, admitted Work occurrence, reliance move, evaluator, or ordinary domain meaning remains unclear. A local system-role kind, classification, or assignment is selected only after evidence supports that branch. Formal-looking language does not make its semantic route recoverable.
+#### C.2.4:13.1 - Precise syntax, unclear meaning
+A template may enforce precise syntax while leaving the meaning needed by the receiving use unclear. For example, a plan template can name a field without identifying the actual actor or the completion condition. A local system-role kind, classification, or assignment is selected only after evidence supports that branch. Formal-looking language does not make its semantic route recoverable.
 
 #### C.2.4:13.2 - Plain plan, high articulation
 The note `At 14:00, Maintenance Team 2 will isolate Pump P-17, replace Seal S-4, and restore service only after Leak Test LT-9 passes` uses ordinary language and little formal notation. It can still reach `AE4`: the planned actor, affected entity, ordered actions, time, and completion condition are explicit enough for the planning branch. It routes to `A.15`; the note describes planned actions, while `A.15.1` governs any admitted Work occurrence. The note needs no relation repair merely to count as explicit.
@@ -53,5 +57,5 @@ The note `At 14:00, Maintenance Team 2 will isolate Pump P-17, replace Seal S-4,
 A row `Maintenance Team 2 | Pump P-17 | isolate | 14:00` looks slot-shaped. If it records intended action, however, it is a compact plan row rather than proof of a durable relation. Its layout does not raise `AE` until the planning meaning and conditions are recoverable, and it does not select `A.6.P`.
 
 #### C.2.4:13.4 - Threshold edge case
-A cue with a stable trigger and candidate anchors may still sit between `AE2` and `AE3` because its direct branch is unresolved. Keep it in `B.4.1` or `A.16.1`, state what is missing, and apply the threshold of the branch eventually selected rather than a universal relation threshold.
+A cue with a stable trigger and candidate anchors may still sit between `AE2` and `AE3` because its direct branch is unresolved. Keep the cue recoverable in `B.4.1` or `A.16.1` and state what is missing. An applicable first recognition or clarification step can help select the branch; use its required inputs and apply the receiving branch's threshold before claiming that result. There is no universal relation threshold.
 

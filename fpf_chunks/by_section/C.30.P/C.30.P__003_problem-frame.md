@@ -6,12 +6,12 @@ section_id: "C.30.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__003_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:1 — Problem frame"
-line_start: 72834
-line_end: 72855
+line_start: 71802
+line_end: 71823
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,7 +69,7 @@ The repair question is:
 The architecture or structure use under repair may be:
 
 - selected structure under `A.22`;
-- an `ArchitectureOf@Context` claim under `C.30`, a thin architecture-description bridge under `C.30`, or the full architecture-description mechanism under `C.30.AD`;
+- an `ArchitectureRelation` or bounded `ArchitectureClaim` under `C.30`, its initial description question, or architecture-description use under `C.30.AD`;
 - an `ArchitectureStructuralView@Context` or named `C.30.*` subcase;
 - a publication, view, face, `PublicationUnit`, carrier, dashboard, ADR, source document, or source-return relation under `C.2.P` or `E.17`;
 - a relation construction under `A.6.P`;

@@ -6,12 +6,12 @@ section_id: "C.40.OD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:4 — Solution"
-line_start: 87695
-line_end: 87851
+line_start: 86513
+line_end: 86669
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"
@@ -151,7 +151,7 @@ These branches can rejoin or reopen one another. They are not stages that every 
 
 #### C.40.OD:4.7 - Obtain the contributions that realize the construction
 
-Use the first real receiving occasion to define a bounded realization. Which contribution will be made, by whom, with which means, on what terms, and what will its recipient then be able to do? Keep the uncertainty that the first attempt is meant to resolve. A charter, budget and meeting schedule can enable this work without being its intended result.
+Use the first real receiving occasion to define a bounded realization. Which contribution will be made, by whom, with which means, on what terms, and what will its recipient then be able to do? Keep any uncertainty that the first attempt is meant to resolve visible. A charter, budget and meeting schedule can enable this work without being its intended result.
 
 Prepare the proposal with the participants whose contributions it requires and obtain the effective decisions, commitments and first useful handover under their actual authority and participation conditions. Voluntary participants must be able to decline or qualify their contribution. For a subject uncertainty, use [B.5.SD](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b5sd---construct-a-useful-answer-through-substantive-discussion); for incompatible contributions, identify the conflict in result, burden, timing or authority and obtain a workable agreement, revised proposal or truthful stop before relying on the combination. Recover the proposal in the participants' own working terms; let them consult trusted advisers; distinguish misunderstanding from a correctly understood objection; revise the proposed work, conditions or distribution of gains and losses where the objection is material. Make the accepted contributions mutually knowable before relying on them. This work can change formulation and selection, not only implement a completed strategy.
 

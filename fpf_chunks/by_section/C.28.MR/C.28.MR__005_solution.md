@@ -6,12 +6,12 @@ section_id: "C.28.MR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:4 — Solution"
-line_start: 68781
-line_end: 68842
+line_start: 67755
+line_end: 67816
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"
@@ -53,7 +53,7 @@ For a randomized replacement, give its randomization law and its dependence on e
 
 Keep a replacement's scope visible in time. In a discrete-time model, identify the affected update steps. In an event-driven model, identify the triggering condition and the state change it initiates. A.3.3.TR helps construct the relevant continuation rule from interactions, events and subject laws when that rule is missing.
 
-At the physical interpretation, ask whether the proposed action also changes another modeled mechanism. Changing a supply command and attaching a device that forces its output can have different consequences for current limits and other connections. Add the relevant effects before using the modified model to answer that physical question.
+For physical interpretation, ask whether the proposed action also changes another modeled mechanism. Changing a supply command and attaching a device that forces its output can have different consequences for current limits and other connections. Add the relevant effects before using the modified model to answer that physical question.
 
 #### C.28.MR:4.4 - Solve what the intervention query requires
 
@@ -63,7 +63,7 @@ Check the transformed relations themselves when a replacement can change existen
 
 For probabilistic results, the selected solutions must define the requested random quantity under the input law. Existence of one numerical trace supplies less than a uniquely determined distribution. A general proof is unnecessary when a direct finite calculation settles the present query.
 
-For a dynamically triggered jump, recover the event-order or flow/jump choice if it changes the result. A model's steady-state solution alone does not determine what happens during a transient. The hybrid-system approach discussed in :11 supplies one current treatment with explicit conditions; the subject model still determines which treatment is appropriate.
+For a dynamically triggered jump, recover the event-order or flow/jump choice if it changes the result. A model's steady-state solution alone does not determine what happens during a transient. The hybrid-system approach discussed in :11 supplies one treatment with explicit conditions; the subject model still determines which treatment is appropriate.
 
 #### C.28.MR:4.5 - Calculate the consequence under the retained conditions
 

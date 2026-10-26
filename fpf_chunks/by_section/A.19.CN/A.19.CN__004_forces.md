@@ -6,12 +6,12 @@ section_id: "A.19.CN:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:3 — Forces"
-line_start: 36893
-line_end: 36901
+line_start: 36163
+line_end: 36171
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -40,7 +40,7 @@ keywords:
 | Force                         | Tension we must balance                                                              |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
 | **Universality vs nuance**    | One Standard for robotics, safety, and finance, while each named source scheme retains its own exact meanings. |
-| **Speed vs audit**            | Light ceremony for on‑ramp; hard guarantees for assurance and SoD.                   |
+| **Speed vs audit**            | A short sufficient comparison basis; further evidence when assurance or independent certification is required.                   |
 | **Local truth vs federation** | Keep meanings tied to their exact schemes and claims; still allow explicit relations and bounded receiving uses. |
 | **Minimalism vs safety**      | Few mandatory slots; enough structure to forbid silent normalization drift.                  |
 

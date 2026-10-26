@@ -6,12 +6,12 @@ section_id: "B.1.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__010_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:6 — Conformance Checklist"
-line_start: 42608
-line_end: 42618
+line_start: 41776
+line_end: 41786
 dependencies:
   - "A.1.1"
   - "A.14"

@@ -6,12 +6,12 @@ section_id: "A.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__004_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:2 — Problem"
-line_start: 2558
-line_end: 2568
+line_start: 2555
+line_end: 2565
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -40,7 +40,7 @@ Without A.1:
 
 1. **System-bias spreads.** Physical and operational assumptions are projected onto epistemes, descriptions, theories, documents, dashboards, and source records.
 2. **Epistemes become agents.** A document, model, theory, pattern, or report is said to decide, promise, authorize, perform work, or revise itself.
-3. **Collections become collectives by wording.** A set of people, services, files, claims, assets, or suppliers is treated as an acting whole without boundary, coordination, system-role assignments, capability, method, or work evidence.
+3. **Collections become collectives by wording.** A collection is treated as an acting whole without establishing its constituent relations, assembly and acting eligibility.
 4. **Transformation becomes containment.** A system that changes another holon is treated as the larger whole containing it, or as standing in a part-whole relation to it, merely from that interaction.
 5. **Architecture loses its grounding holon.** A structure, view, graph, diagram, or architecture claim floats free of the holon whose selected structure is under concern.
 6. **Slot filling creates false kinds.** A system, episteme, holon, relation occurrence, or other value is given a new intrinsic kind merely because it fills one slot of a system-role assignment, evidence, publication, description, or another direct relation.

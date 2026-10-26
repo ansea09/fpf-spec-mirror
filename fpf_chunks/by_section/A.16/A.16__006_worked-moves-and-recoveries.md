@@ -6,12 +6,12 @@ section_id: "A.16:5"
 section_title: "Worked moves and recoveries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__006_worked-moves-and-recoveries.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:5 — Worked moves and recoveries"
-line_start: 33674
-line_end: 33707
+line_start: 33207
+line_end: 33240
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -67,7 +67,7 @@ An inquiry cue about a model-versus-observation discrepancy may follow `notice -
 
 #### A.16:5.3 - Three identity cases in one line
 
-A raw vibration trace and operator contrast may first be preserved as `PumpVibrationCuePack-1`; no fictional source episteme is required. Publishing the unchanged cue-pack episteme in a review card and a long-form note is a form-only case under E.24.PUB. If later analysis changes its ClaimGraph from “unexpected vibration” to a bounded bearing-fault proposition, C.2.1 identifies a successor episteme; the move note states the changed claim, retained trace, discarded rival, and any exact `EpistemeEditionRelation` that obtains.
+A raw vibration trace and operator contrast may first be preserved as `PumpVibrationCuePack-1`; no fictional source episteme is required. Publishing the unchanged cue-pack episteme in a review card and a long-form note is a form-only case under E.24.PUB. If later analysis changes its ClaimGraph from “unexpected vibration” to a bounded bearing-fault proposition, C.2.1 identifies a successor episteme; its publication or an accompanying note states the changed claim, retained trace, discarded rival, and any exact `EpistemeEditionRelation` that obtains.
 
 #### A.16:5.4 - Retired route or branch
 
@@ -75,11 +75,11 @@ A `RoutedCueSet` may keep evaluative and abductive routes live. If review later 
 
 #### A.16:5.5 - Premature endpoint capture
 
-`notice -> gate decision` is not admissible merely because the cue sounds urgent. Recover the missing stabilization, route publication, and applicable endpoint test. Reopen an over-committing requirement label and publish the earlier safe form instead of defending the label.
+`notice -> gate decision` is not admissible merely because the cue sounds urgent. Recover the contributions required by the applicable endpoint test; stabilize or publish a route when that test or the receiving use needs it. Reopen an over-committing requirement label and publish the earlier safe form instead of defending the label.
 
 #### A.16:5.6 - Silent route drift into Work planning
 
-If an evaluative note starts guiding Work planning, publish a new route selection and operationalization note or use A.15.2 to plan the Work. Name an acting system, Method, system-role assignment, or Work only when the claim depends on that distinction; none is contained in the earlier cue.
+If an evaluative note starts guiding Work planning, make the changed route or operational use explicit in the existing material or an accompanying note. Apply A.15.2 to the WorkPlan content. Name an acting system, Method, system-role assignment, or Work only when the claim depends on that distinction; none is contained in the earlier cue.
 
 #### A.16:5.7 - Form, pattern, and face stay distinct
 

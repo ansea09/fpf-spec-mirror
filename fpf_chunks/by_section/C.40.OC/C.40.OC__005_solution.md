@@ -6,12 +6,12 @@ section_id: "C.40.OC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:4 — Solution"
-line_start: 86102
-line_end: 86233
+line_start: 84920
+line_end: 85051
 dependencies:
   - "C.11.CRC"
   - "C.16"
@@ -24,7 +24,7 @@ keywords:
 
 ### C.40.OC:4 - Solution
 
-Build the smallest characteristic account that can change this inquiry, and expose every material unknown or protected coordinate.
+Build a characteristic account sufficient for this inquiry, exposing every material unknown and protected coordinate.
 
 #### C.40.OC:4.1 - Bind the characterization to one subject, use, and horizon
 
@@ -67,7 +67,7 @@ For every selected characteristic, state in ordinary language:
 9. source, method, and qualification needed for reliance; and
 10. the next claim that this reading can change.
 
-Use [`C.16`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) when a value, score, sensor indication, rating, or comparison must be made interpretable as a measurement. A label, dashboard tile, method description, or evidence link is not the measurement result or the actual subject state.
+Use [`C.16`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) when a value, score, sensor indication, rating, or comparison must be made interpretable as a measurement. A display or source link can report or locate a result; reliance still needs its measurement basis and supported relation to the subject. A MethodDescription explains a way of obtaining a result without establishing that the result was obtained.
 
 #### C.40.OC:4.4 - Orient the complete comparison coordinate set
 

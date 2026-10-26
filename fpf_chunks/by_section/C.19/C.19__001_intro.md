@@ -6,12 +6,12 @@ section_id: "C.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:intro — Intro"
-line_start: 61432
-line_end: 61447
+line_start: 60407
+line_end: 60419
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -61,9 +61,6 @@ keywords:
 
 **Intent.** State and test exploration and exploitation policy over still-live candidate pools so frontier treatment, graduation, narrowing, and sunset treatment stay explicit and auditable. A C.19 result governs pool treatment only; `C.19:4.4` routes a question that has moved to another operation or result.
 
-**Export relation.** `C.19` defines no generation operation. Use it to state and test live-pool treatment records over candidate pools, fronts, archive regions, family regions, and cultural live pools.
+C.19 states policy over a live pool. It does not generate candidates; use §4.4 when the next result requires another operation.
 
-**Depends on.** `C.18` for archive and front stewardship, `C.16` for characteristic and measurement claims, `A.19.CPM` and `A.19.SelectorMechanism` for comparison and selection kernels, `B.3` for assurance-sensitive confidence claims, and `G.5` for ordinary selector and default tokens.
-
-**Coordinates with.** `E.10.LRN` only while learning-family wording hides an input's exact identity; `C.17` for compatible characteristic results; `C.11.CRC` for a missing finite configuration-relative comparison; and `G.9` for parity comparison. `C.19:4.4` names the exact next-pattern coordination when the live question changes.
 

@@ -6,12 +6,12 @@ section_id: "C.2.2a:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:9 — Consequences"
-line_start: 52924
-line_end: 52926
+line_start: 52080
+line_end: 52082
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,5 +45,5 @@ keywords:
 ---
 
 ### C.2.2a:9 - Consequences
-The benefit is that practitioners, including engineers, operators, researchers, managers, and engineer-managers, can speak about where a governed `U.Episteme` stands without hiding the reasons inside vague maturity language. The trade-off is that publication must carry explicit slot and threshold information when decisions depend on it.
+Practitioners can state the language-state readings of a governed `U.Episteme` and their grounds without hiding them inside one maturity adjective. The trade-off is that publication must carry explicit slot and threshold information when decisions depend on it.
 

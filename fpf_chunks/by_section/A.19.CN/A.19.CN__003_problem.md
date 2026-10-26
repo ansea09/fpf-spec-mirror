@@ -6,12 +6,12 @@ section_id: "A.19.CN:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:2 — Problem"
-line_start: 36884
-line_end: 36892
+line_start: 36154
+line_end: 36162
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -40,7 +40,7 @@ keywords:
 Absent a governance layer, four failure modes recur:
 
 1. **Chartless numbers.** Measures move between teams without units, reference states, or declared normalization → **illusory comparability**.
-2. **Hidden normalization flips.** Re‑parameterisations (e.g., normalising by batch size) silently alter meaning; trend lines lie.
-3. **CN‑frame sprawl.** Every initiative mints a new “dashboard dimension”; semantics diverge; assurance collapses.
+2. **Hidden normalization changes.** Re-parameterisation, such as normalising by batch size, can change the quantity being compared while a trend line still appears continuous.
+3. **CN-frame sprawl.** Unrelated dashboard definitions can leave receivers unable to establish a shared comparison basis.
 4. **Un‑bridgeable reports.** Cross‑team roll‑ups average **incongruent** CN‑frames, without a justified common comparison/aggregation model under B.3.
 

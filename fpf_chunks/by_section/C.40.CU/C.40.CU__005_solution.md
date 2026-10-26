@@ -6,12 +6,12 @@ section_id: "C.40.CU:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:4 — Solution"
-line_start: 85251
-line_end: 85354
+line_start: 84073
+line_end: 84176
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"
@@ -71,7 +71,7 @@ Keep two environmental questions separate. Changing the demand on a fixed arrang
 
 The domain must supply any valid reset, intervention, calibration or observation used by the comparison. For an unavailable operation, obtain or develop it, use a sufficient existing bound, or retain the explicit limitation. Naming a “control condition” does not create it.
 
-Return the outcome as a supported response, contradicted account, conditional relation or unresolved distinction, together with the material conditions. A negative result can reject the tested arrangement without establishing an intrinsic incapacity. Stop at the smallest supported conclusion that permits the receiving action.
+Return the outcome as a supported response, contradicted account, conditional relation or unresolved distinction, together with the material conditions. A negative result can reject the tested arrangement without establishing an intrinsic incapacity. Stop when the supported conclusion is sufficient for the receiving action.
 
 #### C.40.CU:4.4 - Construct alternative ways of obtaining the useful result
 

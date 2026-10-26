@@ -6,12 +6,12 @@ section_id: "A.10:6.2"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:6.2 — Common Anti-Patterns and How to Avoid Them"
-line_start: 27268
-line_end: 27277
+line_start: 26828
+line_end: 26837
 dependencies:
   - "A.10"
   - "A.13"
@@ -54,7 +54,7 @@ keywords:
 
 - **Carrier as truth.** Recover the claim and direct source relation; authenticity or availability is not truth.
 - **MethodDescription replaced by a plan or run trace.** Recover the substantive generic method claims, including any intended effect, separately from a particular plan, dated Work, and actual bindings.
-- **Generic result field.** Name the domain result, the pattern that defines or tests it, and the distinct C.2.1 episteme.
+- **Generic result field.** Recover the domain result and its defining or testing rule; identify the result episteme separately when its identity matters.
 - **Edge as fact.** Establish the direct relation first; then let the graph represent or cite it.
 - **Provenance as assurance or permission.** Enter B.3, A.2.8.PER, A.21, or the pattern that defines or tests the additional claim only when that claim is live.
 - **Citation as actual use.** Ground the exact premise/reference/argument relation and any later Work claimed as such.

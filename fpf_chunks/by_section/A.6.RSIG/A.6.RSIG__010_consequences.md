@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
   - "A.6.RSIG:9 — Consequences"
-line_start: 14727
-line_end: 14739
+line_start: 14443
+line_end: 14448
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -22,14 +22,7 @@ keywords:
 
 ### A.6.RSIG:9 - Consequences
 
-This pattern gives one neutral governing discipline for first-contact
-description recognition without turning discoverability into one universal
-governing pattern. It sharpens the boundary between cue recognition, semantic
-authority, lexical repair, publication-face projection, and pattern-language
-entry.
+A reader can identify the relevant defining account while leaving its full semantics, applicability judgment and any subsequent selection to the work that needs them.
 
-The cost is one extra explicit split when a cue is confusing: description,
-encountered carrier or projection, and defining `U.Episteme` must not be
-collapsed; include the false neighbor when §4.1's grounded-guard condition holds. The cost stays bounded because the expanded shape is review-only
-or risk-triggered, not a required card for ordinary prose.
+The cost is recovering enough purpose, conditions and source identity to make that choice. Use the expanded questions only when the ordinary cue leaves a consequential ambiguity.
 

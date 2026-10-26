@@ -6,12 +6,12 @@ section_id: "A.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:intro — Intro"
-line_start: 34901
-line_end: 34911
+line_start: 34304
+line_end: 34314
 dependencies:
   - "A.10"
   - "A.15"

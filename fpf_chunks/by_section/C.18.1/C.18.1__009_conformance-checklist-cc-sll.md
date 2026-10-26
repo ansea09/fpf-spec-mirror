@@ -6,24 +6,19 @@ section_id: "C.18.1:6"
 section_title: "Conformance Checklist (CC-SLL)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__009_conformance-checklist-cc-sll.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:6 — Conformance Checklist (CC-SLL)"
-line_start: 61373
-line_end: 61380
+line_start: 60348
+line_end: 60355
 dependencies:
-  - "A.10"
-  - "A.15.1"
-  - "A.15.2"
-  - "B.1.6"
   - "C.16"
   - "C.17"
   - "C.18"
   - "C.19"
   - "C.24"
   - "G.10"
-  - "G.11"
   - "G.5"
   - "G.9"
 keywords:
@@ -51,6 +46,6 @@ keywords:
 1. `S` declared **or** `S = N/A` with rationale.
 2. **Scale-probe** performed; the supported **χ** or unresolved classification recorded with **replicates and CI**; invariants disclosed.
 3. **iso-scale parity** or **loss notes**; any applicable penalties **→ R only**; editions/seeds pinned; ComparatorSet cited.
-4. If used as tie-breaker, the selector cites **χ** and **lens id** in **E/E-LOG** provenance.
+4. If illumination is used as a tie-breaker, the selector cites the admitting policy, **χ** and **lens id** in **E/E-LOG** provenance.
 5. Knee claims cite the **policy threshold** and CI level used.
 

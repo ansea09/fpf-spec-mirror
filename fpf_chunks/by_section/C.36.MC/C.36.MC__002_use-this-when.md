@@ -6,12 +6,12 @@ section_id: "C.36.MC:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:0 — Use This When"
-line_start: 90409
-line_end: 90437
+line_start: 89229
+line_end: 89257
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -42,9 +42,9 @@ Do not use this pattern for a bounded introduction whose primary result is targe
 | --- | --- | --- |
 | Discipline or practice boundary | A C.20-recognized Discipline when that result exists; otherwise a named bounded practice, collective, or population under C.36 with the Discipline claim unresolved. | A field name, school label, package, organization, or edition does not establish a Discipline. |
 | admitted-Method branch | One independently A.3.1-admitted Method or variant plus a particular dated Work occurrence for which the A.15.1 `enactsMethod` predicate obtains. | Presence, teaching, a candidate account, or a source label establishes neither Method admission nor enactment. |
-| candidate or observed-practice branch | A status-preserved candidate lineage or source-described observed practice, its candidate account or source claim, honestly named card, template, description episteme, or other claim-bearing material, and independently supported Work facts. A claim-bearing item is a `U.MethodDescription` only when one A.3.1-admitted Method is its `EntityOfConcern` and A.3.2 classifies the episteme. | This branch makes no Method or enactment claim until A.3.1 and A.15.1 independently succeed; use alone establishes no content defect. A needed correction to a candidate Method account can use A.3.2.DE without changing its candidate status. |
+| candidate or observed-practice branch | A status-preserved candidate lineage or source-described observed practice, its candidate account or source claim, identified card, template, description episteme, or other claim-bearing material, and independently supported Work facts. A claim-bearing item is a `U.MethodDescription` only when A.3.2 establishes that it has an already admitted Method as its exact `EntityOfConcern` and makes at least one substantive claim about that Method as a way of doing. | This branch makes no Method or enactment claim until A.3.1 and A.15.1 independently succeed; use alone establishes no content defect. A needed correction to a candidate Method account can use A.3.2.DE without changing its candidate status. |
 | bounded population | Identified transmitting, receiving, recognizing, selecting, remembering, retaining, generating, or losing participants for the named predicate, place, and period. | “The organization”, “the community”, or “users” is insufficient without participant meanings and a boundary. |
-| cultural predicate and disposition | The transmitted, selected, recognized, remembered, retained, generated, or lost value; participant meanings; applicability; positive test; discriminating negative or failed case; and the lightest truthful A.6.RCD result. | A convenient relation label does not create a direct relation kind or obtaining occurrence. |
+| cultural predicate and disposition | The transmitted, selected, recognized, remembered, retained, generated, or lost value; participant meanings; applicability; positive test; discriminating negative or failed case; and an existing direct predicate or, when needed, the lightest truthful A.6.RCD result. | A convenient relation label does not create a direct relation kind or obtaining occurrence. |
 | claim, evidence, and occurrence | The world-side direct relation or bounded relation-bearing claim; a separate claim episteme; evidence and reliance; and observations at named intervals. Use A.6.REL occurrence identity only when later work must distinguish occurrences. | A claim episteme, identifier, evidence item, or later report neither creates nor reidentifies a world-side occurrence. |
 | participating subjects | Identified cards, descriptions with their recorded kind and status, publication occurrences, repositories or other Systems, teaching/tutoring/event Work, decision-rule epistemes, fields, forums, assignments, permissions, authority, and other direct relations actually relied on. | A bundle word does not establish selected structure; A.22 applies only to one selected organization whose constituents and obtaining relations change the decision, and C.30 only to a current architecture question. |
 | bounded authorization | One named assignment, permission, or authority predicate with Agent, action or changed subject, scope, and positive basis that permits the intervention. | Ownership, project position, assignment, permission, authority, and expertise are not interchangeable. |

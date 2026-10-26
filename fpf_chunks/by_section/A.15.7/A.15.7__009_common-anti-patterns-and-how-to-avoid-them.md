@@ -6,12 +6,12 @@ section_id: "A.15.7:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 31823
-line_end: 31834
+line_start: 31388
+line_end: 31399
 dependencies:
   - "A.10"
   - "A.13"
@@ -41,5 +41,5 @@ keywords:
 | “The steering Method is obviously part of the domain Method.” | Either state two separately grounded enactments or admit the exact submethod relation; infer neither from consultation. |
 | “The recommendation was recent enough.” | State the action-changing qualification window or refresh, safe fallback, or stop. |
 | “The plan already contains the action, so Work occurred.” | Keep plan revision, next-action answer, and performed Work separate. |
-| “Several options might exist, so use C.11 first.” | Recover the current Work, relevant Method limits, facts, and available actions first; use `C.11` only when several live options remain. |
+| “Several options might exist, so use C.11 first.” | Recover the current Work, relevant Method limits, facts, and available actions first; use `C.11` when the live alternatives genuinely need comparison. |
 

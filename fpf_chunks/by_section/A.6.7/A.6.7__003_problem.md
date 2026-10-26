@@ -6,12 +6,12 @@ section_id: "A.6.7:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:2 — Problem"
-line_start: 24333
-line_end: 24346
+line_start: 23909
+line_end: 23922
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -47,7 +47,7 @@ The suite user needs one description that can:
 4. constrain **allowed protocols** of use (allowed pipelines / permitted ordering), without turning the suite into a mechanism, and
 5. preserve strict distinction among:
 
-   * a suite of mechanisms (`MechSuiteDescription`),
-   * a family of realizations of one mechanism (`MechFamilyDescription`),
+   * a description of several distinct mechanism contracts (`MechSuiteDescription`),
+   * a description of realizations of one contract (`MechFamilyDescription`),
    * a publication bundle (`Pack`, e.g., G.10).
 

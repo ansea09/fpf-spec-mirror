@@ -6,12 +6,12 @@ section_id: "C.11.MV:5"
 section_title: "Archetypal Grounding - Field Evidence and Alternatives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__007_archetypal-grounding-field-evidence-and-alternatives.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:5 — Archetypal Grounding - Field Evidence and Alternatives"
-line_start: 58101
-line_end: 58147
+line_start: 57201
+line_end: 57247
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -32,7 +32,7 @@ The sustainable-design study supplies three families of separate workshop observ
 
 The source reports immediate participant-perceived value of activities and mindsets and warns against theoretical-only recommendations. It does not itself supply one named receiver's feasible current-alternative set, a common decision, matched alternative Work, or a counterfactual basis.
 
-For an C.11.MV use, establish those positions locally, preserve explicit incomparability and the missing counterfactual basis, and retain voluntary-participation selection bias, unmatched timing, immediate self-report, long-term, causal, transfer, and recombination limits before returning a worth action.
+For a C.11.MV use, establish those positions locally, preserve explicit incomparability and the missing counterfactual basis, and retain voluntary-participation selection bias, unmatched timing, immediate self-report, long-term, causal, transfer, and recombination limits before returning a worth action.
 
 The Halogen case can supply evidence about project demands, practitioner skill sets, organization, and cyclic adaptation. It can justify a `branch` or variant question when conditions differ, but one firm's history does not make its repertoire universally preferable.
 

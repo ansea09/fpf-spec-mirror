@@ -6,12 +6,12 @@ section_id: "A.1.RI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.RI/A.1.RI__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.RI — Reidentifying an Object across Observations"
   - "A.1.RI:4 — Solution"
-line_start: 2910
-line_end: 2970
+line_start: 2907
+line_end: 2965
 dependencies:
   - "A.1"
   - "A.3.3.PI"
@@ -68,8 +68,6 @@ Compare the surviving alternatives at the distinction required by the receiving 
 - When none fits, inspect the failed observation, rule or assumption before extending the same account.
 
 A best score answers the ranking question defined by that score. If the work uses the top-ranked association provisionally, carry its selection rule and relevant uncertainty into that use. Claiming that the observations uniquely determine it requires the corresponding exclusion of alternatives.
-
-The strength of the identifying judgment changes with its basis.
 
 #### A.1.RI:4.5 - Resolve only the distinction the next use needs
 

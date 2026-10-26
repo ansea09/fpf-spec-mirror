@@ -6,12 +6,12 @@ section_id: "A.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:4 — Solution"
-line_start: 4409
-line_end: 4546
+line_start: 4404
+line_end: 4541
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -76,7 +76,7 @@ J(candidateSystem, systemRoleKind, kindSignatureEdition, contextSlice)
 
 An assignment may be one feature only when the local `KindSignature` explicitly uses that independently obtaining assignment predicate. There is no family-wide rule that assignment means membership. The judgment being computed, a broader-kind judgment, an extension row, or the proposed `U.SubkindOf` occurrence cannot be a premise of the same judgment.
 
-For an admissible candidate and slice, a known failed criterion gives `false`; missing support for a required feature or an unavailable dependency gives `unknown`. Evidence supports a claim about the governed feature; it does not create that feature or the membership result.
+For an admissible candidate and slice, a known failed criterion gives `false`; missing support for a required feature or an unavailable dependency gives `unknown`. Evidence supports the claim that a governed candidate feature holds; the feature and membership criterion determine what is being classified.
 
 Every `U.SubkindOf` proposal evaluates the aligned narrower and broader signatures independently for the same candidate and slice. Admit the order only when the C.3.1 monotonicity condition holds. The edge records an already established implication; it never produces either classification judgment.
 
@@ -138,16 +138,16 @@ Select only the objects needed by the current claim. None of these values is a �
 
 #### A.2:4.7 - Recover Contribution Wording before Formalizing It
 
-The phrase “the role of X” often means that X contributes to a use. Apply `E.10.ROLE` first. If X is an admitted system and the claim needs a work-facing classification, recover the local system-role kind and C.3.2 judgment; add an assignment only when holding is claimed. Otherwise keep X in its actual kind and name the direct relation or declaration place.
+The phrase “the role of X” often means that X contributes to a use. Use `E.10.ROLE` when its technical meaning remains unclear; section 4.9 permits ordinary wording when no stronger distinction is needed. If X is an admitted system and the claim needs a work-facing classification, recover the local system-role kind and C.3.2 judgment; add an assignment only when holding is claimed. Otherwise keep X in its actual kind and name the direct relation or declaration place.
 
 | Ordinary wording | Governed repair |
 | --- | --- |
-| `RFC 9110 plays a normative role in this design` | Keep the publication as an episteme and state the current external-rule, constraint, source-use, or publication relation selected by the design claim. |
-| `this dataset plays the benchmark role` | Keep the dataset as an episteme and state the measurement, evidence, benchmark, source-use, or currentness relation that actually obtains. |
+| `RFC 9110 plays a normative role in this design` | Identify the RFC's claim-bearing content as the source episteme and state the external-rule, constraint, source-use, or publication relation selected by the design claim. |
+| `this dataset plays the benchmark role` | State the measurement, benchmark, evidence, source-use, or currentness relation actually used. Identify any claim-bearing dataset account under C.2.1; keep its file or publication under the relevant direct pattern. |
 | `this parameter has the control role` | Recover the Method or model parameter, or an A.6.5 participant slot, from the direct declaration. |
 | `this interface plays the integration role` | Recover the selected module-interface, port, signature, or protocol relation under its governor. |
 
-Use these recognition probes to identify the relation in the current claim. If no direct relation can yet be named, return the exact `missing-governor` rather than minting a system-role kind.
+Use these recognition probes to identify the relation in the current claim. If the predicate or participants remain unclear, recover them through A.6.P. Return `missing-governor` through A.6.RCD only when that recovered relation has no applicable governor; do not substitute a system-role kind.
 
 #### A.2:4.8 - System-Role Vocabularies and Relations among Kinds
 
@@ -161,7 +161,7 @@ Algebraic, graph, matrix, embedding, or neural representations are mathematical 
 | --- | --- | --- |
 | `CoolingCirculatorSystemRole` | A pump supplies a circulation contribution in plant operation. | Capability, assignment, functioning, and performed Work remain separate. |
 | `TestArticleSystemRole` | The same pump is selected for qualification use. | The classification or assignment does not change pump identity. |
-| `VerifierSystemRole` | A person, team, organization, service, or non-human technical system supplies verification contribution under its local criterion. | A verification report is an episteme, not the classified system. |
+| `VerifierSystemRole` | A person, team, organization, deployed service system, or non-human technical system supplies verification contribution under its local criterion. | A verification report is an episteme, not the classified system. |
 | `TransformerSystemRole` | A system is classified for a transformation-facing contribution. | For performed Work, name the performer system. |
 
 #### A.2:4.9 - Reduced Use and Stronger Claims

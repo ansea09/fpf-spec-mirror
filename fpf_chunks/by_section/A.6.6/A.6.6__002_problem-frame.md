@@ -6,12 +6,12 @@ section_id: "A.6.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:1 — Problem frame"
-line_start: 23861
-line_end: 23890
+line_start: 23441
+line_end: 23470
 dependencies:
   - "A.10"
   - "A.14"
@@ -54,9 +54,9 @@ Examples occur across several disciplines:
 * admissibility/assurance (claims linked to evidence, checks, or proofs),
 * publication discipline (what a statement is fit to be used for, where, and when).
 
-In drafts, authors often reach for a single umbrella metaphor (frequently “anchor/anchoring”). That metaphor collapses **different ontological situations** and **different operation classes**, blocking precise invariants and obscuring their direction and applicable rules.
+An umbrella metaphor such as anchor can leave different relations and operations indistinguishable. When it hides the actual relation, recover that relation so its direction, invariants and applicable rules are clear.
 
-Like A.6.5, this family can expose **typing conflicts across viewpoints**: an endpoint may be named by its self-kind while the selected direct relation expects another participant kind or reference mode. Make that mismatch explicit only when it is current; do not hide it by renaming ends or flipping direction. Use SlotSpecs only when a reusable relation declaration actually needs them.
+This family can expose a typing mismatch: the named dependent or base may not satisfy the participant kind required by the direct relation, or its designation may not satisfy the receiving declaration's reference mode. Resolve the mismatch under the applicable rule; renaming participants or reversing direction does not fix it. Add SlotSpecs only when a reusable declaration needs them.
 
 Every ordinary basedness assertion first needs only:
 

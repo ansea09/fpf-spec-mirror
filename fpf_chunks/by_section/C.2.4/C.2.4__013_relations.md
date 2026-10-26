@@ -6,13 +6,14 @@ section_id: "C.2.4:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:12 — Relations"
-line_start: 53670
-line_end: 53673
+line_start: 52823
+line_end: 52826
 dependencies:
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.16"
@@ -21,6 +22,7 @@ dependencies:
   - "A.16.2"
   - "A.18"
   - "A.3.1"
+  - "A.3.2"
   - "A.6.3.RT"
   - "A.6.P"
   - "B.4.1"
@@ -32,6 +34,8 @@ dependencies:
   - "C.2.8"
   - "C.2.LS"
   - "C.2.P.DR"
+  - "C.29"
+  - "F.6"
 keywords:
   - "AE0–AE5"
   - "articulation explicitness"
@@ -43,5 +47,5 @@ keywords:
 
 ### C.2.4:12 - Relations
 - Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
-- Coordinates with: `C.2.1`, `C.2.5`, `C.2.8`, `A.16.0`, `A.16`, `A.16.1`, `A.16.2`, `A.3.1`, `A.6.P`, `A.6.3.RT`, `A.15`, `A.15.1`, `B.4.1`, `B.5.2.0`, `C.2.P.DR`, and `C.16.P`.
+- Coordinates with: `C.2.1`, `C.2.5`, `C.2.8`, `A.16.0`, `A.16`, `A.16.1`, `A.16.2`, `A.3.1`, `A.3.2`, `A.6.P`, `A.6.3.RT`, `A.13`, `A.15`, `A.15.1`, `C.29`, `F.6`, `B.4.1`, `B.5.2.0`, `C.2.P.DR`, and `C.16.P`.
 - Constrains: articulation thresholds for routing and repair.

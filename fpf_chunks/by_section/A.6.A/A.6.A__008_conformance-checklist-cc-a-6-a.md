@@ -6,12 +6,12 @@ section_id: "A.6.A:7"
 section_title: "Conformance Checklist (CC-A.6.A)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__008_conformance-checklist-cc-a-6-a.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:7 — Conformance Checklist (CC-A.6.A)"
-line_start: 22513
-line_end: 22581
+line_start: 22117
+line_end: 22185
 dependencies:
   - "A.15"
   - "A.16"
@@ -61,7 +61,7 @@ A text or pattern conforms to A.6.A iff:
    Identify the would-be enactor when the claim or question depends on it.
 
 4. **CC-A.6.A-4 — Enactor discipline.**
-   When the invited enactor is meant as the actual would-be enactor, it resolves to a `U.System` or role assignment with system holder.
+   Identify the System that would act. A cited assignment may designate its holder; it is not itself the enactor.
 
 5. **CC-A.6.A-5 — Recoverable action and independently identified Method when selected.**
    State the action or inquiry being discussed. If the result selects a Method for enactment, identify its exact `U.Method` and keep any MethodDescription separate. A proposed action need not invent a Method, WorkPlan or actual Work.
@@ -103,10 +103,10 @@ A text or pattern conforms to A.6.A iff:
     A cross-tradition comparison first states whether it asserts or relies on semantic correspondence between exact senses in different semantic contexts. If yes, it cites an obtaining F.9 Bridge only after the predicate passes and adds a matching bounded-use claim only when a proposed use is live. If no, it uses E.17.ID.CR or the exact direct relation that supplies the contrast. Any F.9.1 stance note remains optional reader help for an already constituted claim.
 
 18. **CC-A.6.A-18 — Boundary-claim hook when needed.**
-    If the recovered claim bears on admissibility, commitment, publication or automation, its applicable L, A, D or E classification and grounds are explicit.
+    Apply L, A, D or E only when the recovered statement is an A.6.B boundary claim. For A, name the mechanism application and predicate checked at entry or during it; otherwise retain the direct rule for scope, claim use, duty, publication or the actual result.
 
-19. **CC-A.6.A-19 — Lexical firewall.**
-    Bare action-first trigger tokens are absent from Tech prose and normative prose except as quoted metalinguistic discussion.
+19. **CC-A.6.A-19 — Consequential lexical ambiguity.**
+    Action-first wording is repaired when its intended claim, participants or conditions remain unclear for the receiving use. A trigger token alone does not require replacement.
 
 20. **CC-A.6.A-20 — Direct semantics for an actual relation claim.**
     An obtaining relation or individuated occurrence uses its own predicate and any needed identity rule under A.6.REL. A recovery note, menu label, detector change or publication event does not supply those semantics or establish world-side change.

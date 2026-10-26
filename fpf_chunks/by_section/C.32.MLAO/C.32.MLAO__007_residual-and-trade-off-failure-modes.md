@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:6"
 section_title: "Residual And Trade-Off Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__007_residual-and-trade-off-failure-modes.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:6 — Residual And Trade-Off Failure Modes"
-line_start: 78693
-line_end: 78709
+line_start: 77583
+line_end: 77599
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -58,7 +58,7 @@ keywords:
 | **Local improvement shifts the residual elsewhere** | Record the scope and selected structure that improved, the scope and selected structure that worsened, and the new burden created. |
 | **Universal optimizer is assumed** | Treat optimization as bounded residual reduction over declared holon-level refs or declared scope refs, with comparison inputs, pattern for the next question, and stop condition. |
 | **Proxy result substitutes for comparison or choice claim** | When a score, vector, graph partition, front, DSM, or C.29 lens output is used to prefer a candidate, name the selected structures, preserved structure, lost structure, architecture characteristic, and pattern for the next question. |
-| **Level or scale word is not typed** | Recover level, layer, tier, scope, and scale wording through `E.10.ARCH`, `C.30.STRAT`, and `C.16.P` as applicable; recover BOSC, MHT, MET, MFT, and emergence-family wording through `E.10` and `B.2.P` before declaring holon-level refs, scope refs, scale windows, B.2 whole reidentification, or C.32.MLAO residual claims. |
+| **Level or scale wording leaves the relevant distinction unclear** | Use `E.10.ARCH`, `C.30.STRAT` or `C.16.P` for the unresolved meaning, and `E.10`/`B.2.P` for an unresolved whole-reidentification claim. Keep adequate ordinary wording and supply exact refs only where the receiving claim needs them. |
 | **Software-source overfit** | Treat software examples as domain lineage; admit other holons only after selected structures and affected scopes are recoverable. |
 | **Lossless repair is assumed** | Inspect possible new burdens in the affected scopes. Name any expected burden or loss; if none is identified, state the inspected structures, criteria, and evolution window without claiming universal losslessness. |
 | **Front member is treated as durable optimum** | A front member has archive or front membership under an evolution window; membership does not establish a durable architecture optimum. |
@@ -66,5 +66,5 @@ keywords:
 | **Architecture-influence residual is hidden** | A residual between one typed influence-side architecture source and transformed-side architecture content must open `C.32.CONWAY`; keep the changed referent and any actual transformation separate, and prepare influence-source-side, transformed-side, joint, and bounded-mismatch candidates as comparison inputs or downstream candidate alternatives. |
 | **Ideality is used as optimum** | Treat ideality as direction for candidate generation, not as an adequacy claim that a bearer may be removed. |
 | **Universal bearer is admitted without scale window** | A general bearer still needs declared criteria rows, scale window, safety and admissibility boundaries, and an eval result when the claim depends on a reading. |
-| **Functional graph has no feasible bearer** | A functional architecture that lacks feasible bearers is an unfit candidate, not an optimized architecture. |
+| **Functional graph has no feasible bearer** | Do not claim feasible residual reduction. Distinguish an unresolved feasibility question from demonstrated infeasibility; revise the candidate or retain it for an appropriate exploratory use. |
 

@@ -6,12 +6,12 @@ section_id: "C.3.2:11"
 section_title: "Work Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__013_work-boundary.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:11 — Work Boundary"
-line_start: 55416
-line_end: 55426
+line_start: 54553
+line_end: 54563
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -33,8 +33,8 @@ For a Work classification, keep these distinctions:
 
 - `U.Work` is the admitted kind;
 - `W : U.Work` is one independently grounded dated 4D work occurrence under `A.15.1`;
-- a plan, expected-work item, log, card, database row, assertion, or description about W remains distinct from W; identify any claim-bearing episteme through C.2.1, separately from its publication form or carrier; and
-- performer assignment, enacted method, temporal extent, containing system, affected referent, material binding, resource use, transformation, production, result, delivery, and acceptance remain separately governed.
+- a plan, record or description about W remains distinct from W; identify any claim-bearing episteme through C.2.1, separately from its publication form or carrier; and
+- further claims about W, such as its resource use or result, follow their direct subject patterns.
 
 A kind may classify an already identified W. A kind symbol, work label, plan, or record never occupies W's individual position, and record existence does not make planned Work actual.
 

@@ -6,12 +6,12 @@ section_id: "A.2.8:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__011_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:8 — Conformance Checklist"
-line_start: 8296
-line_end: 8310
+line_start: 8247
+line_end: 8261
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -30,7 +30,7 @@ dependencies:
 keywords:
   - "actual bearer"
   - "constitutive rule"
-  - "do not identify an individual bearer or institute a duty. Adapt"
+  - "do not identify an individual bearer or institute a duty"
   - "individual duty"
   - "instituting basis"
   - "obligation"
@@ -50,7 +50,7 @@ keywords:
 | `CC-A2.8-5` | The actual instituting basis required by that rule obtains under the pattern that defines that basis. |
 | `CC-A2.8-6` | The occurrence identity and continuity decision distinguish changed bearers, content, rules, and interrupted intervals, and treat a changed instituting basis as identity-bearing exactly when the constitutive rule says so. |
 | `CC-A2.8-7` | System-role kind, classification, assignment, policy, publication, assertion, and evidence are not commitment participants or duty bearers by form. |
-| `CC-A2.8-8` | Responsibility, permission, authority, access, Work, result, and compliance are separately asserted or left unresolved. |
+| `CC-A2.8-8` | When the receiving use needs responsibility, permission, authority, access, Work, result or compliance, its claim is separately governed; the commitment alone supplies none of those results. |
 | `CC-A2.8-9` | An occurrence-description reliance or audit record names its exact `U.Commitment` EntityOfConcern and does not claim to create it. |
 | `CC-A2.8-10` | A missing constitutive rule or instituting-relation governor returns `missing-governor[individual commitment institution]`. Unavailable required evidence leaves reliance `unknown`; demonstrated failure of an obtaining condition yields non-obtaining. Do not complete a placeholder relation. |
 

@@ -6,12 +6,12 @@ section_id: "A.6.M:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:3 — Forces"
-line_start: 23158
-line_end: 23170
+line_start: 22746
+line_end: 22758
 dependencies:
   - "A.10"
   - "A.20"
@@ -32,21 +32,14 @@ dependencies:
   - "E.20"
   - "G.5"
 keywords:
-  - "are used only for pattern users"
-  - "claims"
   - "component"
-  - "conformance items"
-  - "evidence records"
   - "interface"
   - "interface specification"
   - "layer"
   - "module relation"
   - "open architecture"
-  - "or assurance records. Modeled modules and interfaces are not written as agents with duties"
-  - "or publication records"
   - "platform"
   - "port"
-  - "records"
   - "stack"
   - "substitutability"
 ---
@@ -60,7 +53,7 @@ keywords:
 | Interface label vs interface specification | An API name, port label, connector label, or signature may substantiate an interface claim, but it is not by itself substitutability or conformance. |
 | Function-flow-module proximity vs false identity | Functions, E.18 flow relations, control relations, mechanisms, and module interfaces often meet at the same artifact, but each has a different subject pattern. |
 | Open architecture payoff vs open label overread | MOSA and open-system practice make open interfaces useful only with standards, conformance expectations, replacement or change policy, and data or access constraints when those conditions are part of the claim being made. |
-| Team boundary vs module boundary | Conway's law and mirroring practice make team communication boundaries and delivery-responsibility scopes architecture-relevant, but they do not turn a team boundary, delivery unit, system-role assignment, or responsibility relation into a module interface by identity. Assignment also does not establish responsibility: cite an admitted direct domain predicate with its actual participants or the exact A.6.RCD missing governor. |
+| Team boundary vs module boundary | Conway's law and mirroring practice make team communication boundaries and delivery-responsibility scopes architecture-relevant, but they do not turn a team boundary, delivery unit, system-role assignment, or responsibility relation into a module interface by identity. Assignment also does not establish responsibility: use its domain predicate and case facts; return an A.6.RCD missing governor only when the needed rule is absent. |
 | Parallel decomposition vs serial bottleneck | Amdahl-style reasoning makes serial work, synchronization, communication overhead, and shared resource limits visible; more modules, teams, or parallel transformation-flow paths do not automatically improve throughput or evolvability. |
-| Cheap repair vs full evidence pack | Most cases need a relation repair note, not a full conformance, evidence, assurance, gate, or mechanism-suite record. |
+| Cheap repair vs full evidence pack | Most cases need a sufficient sentence or short repair note. Additional conformance, evidence, assurance, gate or mechanism-suite work depends on the receiving claim. |
 

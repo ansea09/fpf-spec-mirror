@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:2 — Problem"
-line_start: 10001
-line_end: 10006
+line_start: 9920
+line_end: 9925
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.3.1.DR:2 - Problem
 
-The common decomposition error copies package headings into a Method library. A role becomes a Method, a checklist becomes a component, a tool becomes a participant Method, and adjacency becomes `methodPartOf`. The opposite error extracts a procedure alone and loses the rationale, input/result correspondence, authority, evidence, or support condition that makes it usable.
+Copying package headings into a Method library can misidentify the contributions. A role becomes a Method, a checklist becomes a component, a tool becomes a participant Method, and adjacency becomes `methodPartOf`. The opposite error extracts a procedure alone and loses the rationale, input/result correspondence, authority, evidence, or support condition that makes it usable.
 
 A later qualification then appears precise but cannot be replayed from the source and cannot distinguish a Method defect from missing access, capability, evidence, or authority.
 

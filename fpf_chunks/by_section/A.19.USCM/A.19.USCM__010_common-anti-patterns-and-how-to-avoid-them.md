@@ -6,12 +6,12 @@ section_id: "A.19.USCM:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 38860
-line_end: 38877
+line_start: 38105
+line_end: 38122
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -25,17 +25,17 @@ keywords:
 
 ### A.19.USCM:8 - Common Anti‑Patterns and How to Avoid Them
 
-* **Hidden normalization inside scoring.** Scoring silently normalizes or aligns measures. Avoid by making UNM explicit in choreography and keeping USCM's `Score` admissibility‑only.
+* **Hidden normalization inside scoring.** Scoring silently normalizes or aligns measures. Avoid by making UNM explicit in choreography and keeping Score as the declared scoring transformation under its admission conditions.
 
 * **Weighted sum across mixed or non-admissible scales.** Treating “weights + sum” as universal. Avoid by requiring SCP+CSLC admissibility; if the scale operation is not scale-admissible, it is not admissible.
 
 * **Silent scalarization.** Collapsing vector scores or partial orders into a single “overall score” via an untracked tie‑breaker. Avoid by leaving vector scores intact, and making scalarization an explicit declared commitment.
 
-* **Implicit scoring method (“we just use the standard formula”).** The scoring method is assumed rather than declared and pinned. Avoid by requiring `ScoringMethodDescriptionSlot` and edition pinning in planned baseline; treat “identity scoring” (if ever needed) as an explicit method description, not a hidden default.
+* **Implicit scoring method (“we just use the standard formula”).** The scoring method is assumed rather than declared and pinned. Avoid by requiring `ScoringMethodDescriptionSlot` and resolving its edition, recorded in a planned baseline on P2W paths; treat “identity scoring” (if ever needed) as an explicit method description, not a hidden default.
 
 * **Unknown → 0 coercion.** Treating missing evidence as zero, false, or “good enough.” Avoid by tri‑state guards and explicit failure behavior, with auditable effective evidence policy.
 
-* **Shadow CG‑Spec.** Hard‑coding admissibility rules inside a scoring method description instead of citing `CGSpecSlot.SCP`. Avoid by keeping admissibility in CG‑Spec and treating method details as wiring.
+* **Shadow CG‑Spec.** Copying governing CG conditions into a competing local specification creates drift. Cite `CGSpecSlot.SCP` and retain the scoring method's own domain, law and restrictions; method-specific conditions are substantive content, not merely wiring.
 
 * **Telemetry or publish leakage.** Treating scoring as a reporting step. Avoid by keeping publish/telemetry outside suite closure and using the appropriate post-suite mechanisms.
 

@@ -6,12 +6,12 @@ section_id: "A.6.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:9 — Consequences"
-line_start: 20593
-line_end: 20608
+line_start: 20252
+line_end: 20267
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"

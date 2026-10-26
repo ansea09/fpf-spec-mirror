@@ -6,12 +6,12 @@ section_id: "C.11.DBR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:5 — Archetypal Grounding"
-line_start: 57622
-line_end: 57656
+line_start: 56720
+line_end: 56754
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -33,11 +33,11 @@ A team chose arrangement A for one recurring report. Its recorded comparison exp
 
 Recovering the basis separates the expected saving from the Friday obligation and from the completed rollout. Inspecting the dashboard then reveals that it combines two reports; the earlier comparison concerned one. Six is not yet a comparable observation. The useful answer is the precise scope mismatch, with the delivery obligation and rollout history preserved. No causal or reversal conclusion follows.
 
-**Change the evidence.** A corrected, qualified observation now establishes five hours for the same content and volume. The current decision rule requires at least two hours of saving to justify retaining A's support burden; all other relevant conditions are stipulated unchanged. The actual one-hour saving fails that condition. This challenges continued reliance on the expected saving, but does not establish why the shortfall occurred.
+**Change the evidence.** A corrected, qualified observation now establishes five hours for the same content and volume. The current decision rule requires at least two hours of total effort saving relative to B, including A's support burden; all other relevant conditions are stipulated unchanged. A now requires six hours in total and supplies no saving, so it fails that condition. This challenges continued reliance on the expected saving, but does not establish why the shortfall occurred.
 
 The reconsideration statement names that difference, preserves Friday delivery and the rollout history, and supplies the responsible manager with the available alternatives. Suppose a supported adjustment C is available at three preparation hours plus one support hour, and satisfies the unchanged delivery and quality constraints. Its total is four hours; A and B now each require six. Under the stipulated preference for lower total effort, C.11 can choose C without another study of A's cause. The manager's actual choice, any necessary plan revision and the later performance of C are separate results. If the manager has not decided, the analyst returns the comparison and recommendation, not an implemented change.
 
-**Change the observation instead.** Had the qualified observation been three hours for A with its other conditions unchanged, A would still provide the required saving. Preserve the earlier choice for this use; the fact that three differs from the original estimate of two does not require a new choice. If C was already a serious available improvement, comparing it would be a separate live opportunity, not proof that the original basis had failed.
+**Change the observation instead.** Had the qualified observation been three preparation hours for A with its other conditions unchanged, its four total hours would provide the required two-hour saving. Preserve the earlier choice for this use; the fact that three differs from the original estimate of two does not require a new choice. If C was already a serious available improvement, comparing it would be a separate live opportunity, not proof that the original basis had failed.
 
 #### C.11.DBR:5.2 - A model remains valid for one use
 

@@ -6,12 +6,12 @@ section_id: "C.39.MC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:5 — Archetypal Grounding"
-line_start: 83988
-line_end: 84021
+line_start: 82811
+line_end: 82844
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"
@@ -40,7 +40,7 @@ The engineer uses A.15.7 to choose the available bounded review. The review lead
 
 Before the next choice, the relevant procedure is inspected. Its construction rule places M2 outside W: M2 supplies optional advice but is neither required nor an admitted construction alternative. That changes the proposed composition claim, not the independently established identity of W, M1, or M2.
 
-The engineer returns the affected composition question to B.1.5.CM. The proposed relation set is not supported as W's obtaining composition; retain the useful support relation and return P for correction or another proposed arrangement. The participant A.3.1.QM results remain supported; the bounded review and publication blocker remain as before. The new situated result changes the composition-claim and return content. It does not backdate a new Method, change completed review Work, or announce a new structure from one new fact. If another proposed arrangement changes W's reusable semantics, that later proposal needs its own identity question.
+The engineer returns the affected composition question to B.1.5.CM. The proposed relation set is not supported as W's obtaining composition; retain the useful support relation and return P for correction or another proposed arrangement. The participant A.3.1.QM results remain supported; the bounded review and publication blocker remain as before. The new situated result changes the composition-claim and return content. It does not backdate a new Method, change independently established completed review Work, or announce a new structure from one new fact. If another proposed arrangement changes W's reusable semantics, that later proposal needs its own identity question.
 
 What changed in practice is small but consequential: one changed source claim reopens one whole-account decision and its dependent uses, while available independent review continues.
 

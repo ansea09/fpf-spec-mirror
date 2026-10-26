@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
   - "A.6.RSIG:2 — Problem"
-line_start: 14412
-line_end: 14423
+line_start: 14160
+line_end: 14171
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.6.RSIG:2 - Problem
 
-When first-contact recognition is under-governed, several defects recur:
+A missing or ambiguous recognition cue can leave the following questions unresolved:
 
 1. One reader finds a boundary, method, interface, or pattern-local opening but
    cannot tell whether it is the right description to inspect.

@@ -6,12 +6,12 @@ section_id: "F.9:9"
 section_title: "Boundary to coarsening and quantum-like export"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__011_boundary-to-coarsening-and-quantum-like-export.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:9 — Boundary to coarsening and quantum-like export"
-line_start: 120438
-line_end: 120452
+line_start: 119258
+line_end: 119272
 dependencies:
   - "A.10"
   - "A.13"

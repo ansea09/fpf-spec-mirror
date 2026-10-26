@@ -6,12 +6,12 @@ section_id: "G.1:9"
 section_title: "Consequences (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__010_consequences-informative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "G.1 — Author a Reusable CG-Frame Generator and Selector Kit"
   - "G.1:9 — Consequences (informative)"
-line_start: 126670
-line_end: 126676
+line_start: 125490
+line_end: 125496
 dependencies:
   - "A.10"
   - "A.15.2"

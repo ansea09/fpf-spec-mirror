@@ -6,12 +6,12 @@ section_id: "C.30:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:3 — Forces"
-line_start: 71446
-line_end: 71456
+line_start: 70414
+line_end: 70424
 dependencies:
   - "A.1"
   - "A.10"
@@ -81,7 +81,7 @@ keywords:
 | Everyday architecture speech vs FPF kind precision | Engineers need familiar phrases such as functional architecture, physical architecture, and control architecture; a precise FPF use recovers the described holon, selected structure, structure kind, architecture concern, admissible-use frame, and the exact use of inspected material as source, description, view, or publication form. |
 | Direct architecture relation vs claim vs description | An obtaining `ArchitectureRelation`, a C.2.1 claim about it or about candidate or expected structure, and a useful architecture description are easy to collapse into one word even though only the direct relation is subject-side architecture. |
 | Multi-view adequacy vs module reduction | Architecture includes functional, flow, control, module structure, interface relation, Work, system-role-kind or assignment structure, evidence relation, information structure, placement structure, scale, and declared logical structures; module structure and interface relations form only one structure family. |
-| Small first architecture move vs full record | The practitioner often needs one architecture question card, not a complete architecture description record set. |
-| Multi-view architecture discipline vs tool lock-in | Current FPF separates holons, selected structures, descriptions, viewpoints, views, correspondences, publications, source return, and the patterns used for separate claims without importing a tool-specific lifecycle. |
+| Small first architecture move vs full record | A short account can support the next move; additional description is useful when its information changes that move. |
+| Multi-view architecture discipline vs tool lock-in | FPF separates holons, selected structures, descriptions, viewpoints, views, correspondences, publications, source return, and the patterns used for separate claims without importing a tool-specific lifecycle. |
 | Structure source relation vs overread | A structure, graph, lens, measurement, or model can supply a source relation for an architecture description without proving evidence, assurance, causality, gate passage, or release. |
 

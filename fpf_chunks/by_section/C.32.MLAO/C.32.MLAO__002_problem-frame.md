@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:1 — Problem frame"
-line_start: 78519
-line_end: 78609
+line_start: 77409
+line_end: 77499
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -64,16 +64,16 @@ Typical entry phrases:
 "The platform helps product teams but grows evidence exceptions."
 "Local agent autonomy conflicts with the control or policy scope."
 "The method template speeds authoring and slows review."
-"A graph, residual vector, or Pareto front can inform comparison only after selected structures, residuals, losses, and the pattern for the next question are declared; it is not the architecture."
+"The graph looks better, but which architecture change reduced the residual?"
 ```
 
 **First-minute use slice.** A regulated product-family team has used `C.30.ILC` to name a residual: local product variants are quicker to ship, but certification evidence grows at the family scope. Using C.32.MLAO, the practitioner frames three residual-reducing candidate changes: add evidence scope, narrow interface grammar, or accept a bounded exception with a reopen trigger. Each candidate states the residual it reduces and the new burden it creates. The team now has explicit inputs for `A.19.CPM`, `C.11`, `A.19.SelectorMechanism`, or `G.5` when comparison, local choice, selection, or selected-set result declaration is current.
 
-The primary `EntityOfConcern` is a residual-reducing candidate frame for one grounded architecture question. In plain working terms, the frame asks where a local architecture improvement moved the cost and which candidate can reduce that moved cost without hiding its new burden. The described holon can be a system, organization-as-system, discipline, AI-agent setup, built asset, episteme, work occurrence, or an instance of another admitted holon kind. Recover source labels such as practice, culture, tradition, style, or method before architecture use. Use `E.10.ROLE` for unresolved `role` wording: it may resolve to a local system-role kind, an assignment occurrence, a participant position in a direct relation, a function claim, an organization or representation position, or ordinary wording. Carry only the recovered object or relation, never a generic role-side structure. Candidate Systems, assignments, Methods, plans, and structures remain modal content until their own facts obtain; a publication family appears only under its applicable pattern. Use `E.17` for a source-backed publication face and source return and `E.24.PUB` for the publication occurrence and audience availability. C.32.MLAO is not a universal optimizer, adequacy claim, selector, decision, assurance argument, publication pattern, or software-system-only pattern.
+The primary `EntityOfConcern` is a residual-reducing candidate frame for one grounded architecture question. In plain working terms, the frame asks where a local architecture improvement moved the cost and which candidate can reduce that moved cost without hiding its new burden. The described holon can be a system, organization-as-system, discipline, AI-agent setup, built asset, episteme, work occurrence, or an instance of another admitted holon kind. Recover source labels such as practice, culture, tradition, style, or method before architecture use. Use `E.10.ROLE` for unresolved `role` wording: it may resolve to a local system-role kind, an assignment occurrence, a participant position in a direct relation, a function claim, an organization or representation position, or ordinary wording. Carry only the recovered object or relation, never a generic role-side structure. Candidate Systems, assignments, Methods, plans, and structures remain modal content until their own facts obtain; a publication family appears only under its applicable pattern. Use `E.24.PUB` for a publication occurrence and audience availability; add `E.17` when a source-backed face and source return are needed. C.32.MLAO is not a universal optimizer, adequacy claim, selector, decision, assurance argument, publication pattern, or software-system-only pattern.
 
 What goes wrong if C.32.MLAO is missed: local success is called whole-holon architecture success, or an optimization phrase hides the residual that shifted to another declared holon-level ref or declared scope ref.
 
-What C.32.MLAO buys in practice: the practitioner can prepare residual-reducing architecture candidates for later comparison by naming residual reduced, new burden created, affected scope, preserved structure, lost structure, and source-return condition.
+What C.32.MLAO buys in practice: the practitioner can prepare residual-reducing architecture candidates for later comparison by explaining expected residual reduction, possible new burden, affected scopes and relevant preservation or loss. Include source-return conditions when later use needs omitted distinctions.
 
 Ordinary working move: name where the local improvement moved the cost, name the selected structure and scope that now carry the residual, then prepare candidate changes that reduce that residual while making the new burden explicit.
 
@@ -92,9 +92,9 @@ Common exits by claim kind:
 - `C.30.AD` for architecture-description work, `E.17` for a source-backed publication face and source return, and `E.24.PUB` for the publication occurrence and audience availability.
 - `C.32.PAD` for project decision.
 
-The first useful output is `MultilevelArchitectureResidualOptimizationFrame@Project`. The frame is a working record for residual-reducing candidate framing. It records residual movement and candidate burdens; it is not a universal optimizer, scalar optimum, C.29 lens result, or architecture decision:
+The first useful output is an account of candidate changes, the residual each addresses and its possible new burden. An ordinary explanation can suffice. Use `MultilevelArchitectureResidualOptimizationFrame@Project` when a structured record helps retain or compare these contributions:
 
-For a first pass, fill only the described holon, optimization question and objective basis, residual-triage ref, affected level or scope refs, selected structures, residual-bearing loci, criteria rows, ClaimScope when needed, evolution window, residual-reducing candidates with residual reduced and new burden, pattern for the next question, and stop condition. Add front, archive, NQD, OEE, C.29 lens, ideality, scale-amenability, function-bearer, and architecture-influence-correspondence refs only when that support is current for the candidate being framed.
+For a first pass, name the residual, affected holon, scopes and structures, candidate changes, expected burden and relevant window. Keep unknown structure, criteria or feasibility as questions to resolve. Before a candidate supports a comparison or stronger claim, supply the criteria, ClaimScope and other bindings that use requires. Add front, archive, NQD, OEE, C.29 lens, ideality, scale-amenability, function-bearer, and architecture-influence-correspondence refs only when that support is current for the candidate being framed.
 
 ```text
 MultilevelArchitectureResidualOptimizationFrame@Project:
@@ -132,7 +132,7 @@ MultilevelArchitectureResidualOptimizationFrame@Project:
       newBurden:
       preservedStructure:
       lostOrHiddenStructure:
-      sourceReturnCondition:
+      sourceReturnCondition?:
   comparisonInputRefs?:
   receivingOperationPatternRef?:
   c29LensOutputRef?:

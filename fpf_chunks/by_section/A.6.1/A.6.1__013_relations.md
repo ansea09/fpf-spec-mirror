@@ -6,12 +6,12 @@ section_id: "A.6.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:12 — Relations"
-line_start: 17254
-line_end: 17282
+line_start: 16934
+line_end: 16962
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -70,7 +70,7 @@ For a `U.Mechanism` identification, state that its defining predicate is not sat
 
 Return to the smallest changed object:
 
-- changed declaration content, EntityOfConcern, or effective reference scheme requires A.6.1 and identifies another mechanism episteme; call it a continuing edition only when the separate C.2.1 `EpistemeEditionRelation` obtains, otherwise treat it as a non-continuing replacement;
+- changed content, EntityOfConcern or effective reference scheme identifies another C.2.1 episteme; judge its mechanism membership from the new content and historical continuation through the separate edition predicate. Missing continuity facts leave that claim unresolved, while assessment of the declaration can proceed independently;
 - exact cross-context `SchemeSenseCell` correspondence requires F.9; a selected `CHR:ReferencePlane` change requires CHR, and a model-use-structure change requires A.1.1/A.22. An asserted transition or use relation must name its predicate and participants or stop; none becomes a generic mechanism-transport claim;
 - a particular application or binding returns to its exact declaration-local predicate, extent, and identity rules; if a required rule is absent for the claimed actual use at its required granularity, retain the exact missing-governor blocker rather than widen A.6.1 into a universal work-participant relation;
 - realizer capability or realization scope returns to the direct realization relation;

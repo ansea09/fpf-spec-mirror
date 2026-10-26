@@ -6,12 +6,12 @@ section_id: "C.24:10"
 section_title: "Rationale and current practice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__011_rationale-and-current-practice.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:10 — Rationale and current practice"
-line_start: 64915
-line_end: 64929
+line_start: 63873
+line_end: 63887
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,5 +55,5 @@ keywords:
 | DeepPlanning, ACL 2026, [DeepPlanning: Benchmarking Long-Horizon Agentic Planning with Verifiable Constraints](https://aclanthology.org/2026.acl-long.335/) | **Adapt:** retain global budgets, dependencies, or safe parallelism when material, and use the bounded scout and checkpoint cycle for information needed before commitment. | Long-horizon benchmarks expose degradation and efficiency trade-offs, but their task schemas do not belong in every ordinary call plan. |
 | `C.19.1` current scale-comparison sources and method | **Adopt conditionally:** use Bitter-Lesson pressure only with the actual probe and a named bearer, scale window, evidence, cost, safety, and uncertainty. | Generality is not a winner by label; local policy and waiver stay separate from empirical comparison. |
 
-This set is non-dominated for C.24's declared use because it keeps the smallest common planning contract while exposing the failure dimensions that later work shows can move independently. Remove a field when it changes no route, stop, reliance, or replay; reopen when a new contribution changes that trade-off rather than merely adding another benchmark.
+These contributions distinguish route grounding, plan quality, execution and replanning. Keep only fields that change the route, stop, reliance or replay. Reconsider the plan when new knowledge changes one of those decisions; another benchmark alone need not change an adequate plan.
 

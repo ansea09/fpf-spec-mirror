@@ -6,12 +6,12 @@ section_id: "C.13:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__007_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:5 — Archetypal Grounding"
-line_start: 58321
-line_end: 58354
+line_start: 57418
+line_end: 57451
 dependencies:
   - "A.1"
   - "A.14"
@@ -45,11 +45,11 @@ Reuse the filled Reactor-7 case in `A.14:5.3`: `Γ_m.slice(Reactor-7, thermal-bo
 
 #### C.13:5.3 - Episteme, Method, Work, And Discipline Holons
 
-A theory episteme may use C.13 only after C.2.1 identifies the episteme and an exact direct episteme-part or claim-composition pattern identifies the constituent entities, the part relations that obtain, and the assembly and reidentification rule. C.2.1 claim-graph content helps constitute the episteme but does not thereby supply a C.13 part predicate. A definition, derivation, diagram, representation, publication, or evidence relation likewise does not become a part merely because it states, shows, publishes, or supports the theory; include it in a `sum` trace only when an exact direct part predicate independently obtains. The trace then reports the claim-bearing assembly rather than creating it.
+A theory episteme may use C.13 only after C.2.1 identifies the episteme and an exact direct episteme-part or claim-composition pattern identifies the constituent entities, the part relations that obtain, and the assembly and reidentification rule. C.2.1 claim-graph content helps constitute the episteme but does not thereby supply a C.13 part predicate. For example, a definition, diagram or evidence item enters a `sum` trace only when a direct part predicate independently obtains; stating, showing or supporting the theory alone is insufficient. The trace then reports the claim-bearing assembly rather than creating it.
 
 A composite method may use C.13 after B.1.5 or another direct method-composition pattern identifies exact submethods, whole-forming relations, constraints, and the whole-method reidentification rule. A dated work occurrence may use C.13 only after the direct work-mereology owner identifies exact work parts and whole-forming relations. Step labels, a recipe, work-plan items, a WBS, co-occurrence, or common performer do not supply those facts.
 
-A discipline may use C.13 only after C.20 and its direct relation owners identify whatever constituent entities the case actually requires, the whole-forming relations that obtain among them, and the discipline identity or reidentification rule. Do not infer parts from C.20 card positions or from objects merely associated with the discipline. A canon item, practice, organization, carrier, bridge, comparison relation, field name, bibliography, curriculum, or publication collection enters a `sum` trace only when an exact direct part predicate independently obtains.
+A discipline may use C.13 only after C.20 and its direct relation owners identify whatever constituent entities the case actually requires, the whole-forming relations that obtain among them, and the discipline identity or reidentification rule. Do not infer parts from C.20 card positions or from objects merely associated with the discipline. For example, a practice, organization or canon item enters a `sum` trace only when a direct part predicate independently obtains.
 
 #### C.13:5.4 - Selected Structure And Transformation Stops
 

@@ -6,12 +6,12 @@ section_id: "A.3:5"
 section_title: "Solution — The Transformer Quartet"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__006_solution-the-transformer-quartet.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:5 — Solution — The Transformer Quartet"
-line_start: 9114
-line_end: 9166
+line_start: 9055
+line_end: 9107
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -32,7 +32,7 @@ keywords:
 
 ### A.3:5 - Solution — The Transformer Quartet
 
-For work-enactment, A.3 keeps four neighboring anchors visible: the performer-side assignment, a MethodDescription edition when the receiving use relies on one, the enacted Method, and the dated Work. For another independently grounded asymmetric actor-side claim, apply only the anchors required by its direct governor. These anchors qualify the actor-side claim; they are not occurrence conditions for every `U.Transformation`.
+For work enactment, A.3 distinguishes four objects: the performer System with its needed assignment basis, a MethodDescription edition when the use relies on one, the enacted Method, and the dated Work. Another independently grounded actor-side claim uses only the participants and relations required by its direct governing pattern. These distinctions qualify that acting-side claim; they are not occurrence conditions for every `U.Transformation`.
 
 #### A.3:5.1 - The four anchors (terms & types)
 

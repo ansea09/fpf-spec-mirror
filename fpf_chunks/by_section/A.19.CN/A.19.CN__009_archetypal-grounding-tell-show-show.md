@@ -6,12 +6,12 @@ section_id: "A.19.CN:8"
 section_title: "Archetypal Grounding (Tell‑Show‑Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__009_archetypal-grounding-tell-show-show.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:8 — Archetypal Grounding (Tell‑Show‑Show)"
-line_start: 37028
-line_end: 37157
+line_start: 36298
+line_end: 36427
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -72,9 +72,9 @@ keywords:
   - slot_id: Age
     characteristic: Age
     scale: { type: ratio, unit: years }
-    polarity: neutral
+    polarity: none
 * `chart`: cohort definition; `MethodDescription#TrialProtocol_v5`
-* `normalization`: case‑mix adjustment (propensity score); invariant = adjusted ΔBP
+* `normalization`: the named propensity-score case-mix adjustment uses its declared covariates and target population to estimate the specified ΔBP contrast. Preserve the estimand, adjustment assumptions and residual limitations; the adjusted estimate is an output, not an invariant guaranteed by the method name.
 * `comparability`: **normalization‑based (UNM)** (post‑adjustment)
 * `aggregation`: recombine subcohorts only under the declared population and weighting model; select the law or supported bound for each named safety outcome under its own justified dependency model.
 * **RSG hook**: evidence-use validation of an admission requires CN‑frame acceptance; **Assurance** pulls CL from any Bridge used.
@@ -96,7 +96,7 @@ Work ── performedBy ──> assigned System
 Work ── enacts ──> Method
 ```
 
-The System is classified under one exact local system-role kind and participates in an obtaining assignment for the stated scope and window. A role-state graph lists states such as Ready, Waiting, or Degraded. Evaluation Work applies the state checklist and supports a StateAssertion. Operational Work may proceed only when the relied-on assertion says that an enactable state obtains; the Work, Method, assignment, and result remain different objects.
+The System is classified under the exact local system-role kind and participates in the obtaining assignment used by this RSG account. A deliberately asserted evaluation or operational Work additionally needs the complete A.13 core: the performing System, exact local agential-role kind and its membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits the Work; F.6 applies afterward only when precise assignment-bound attribution is needed. The schema abbreviates these grounds; its arrows do not establish them. A role-state graph lists states such as Ready, Waiting, or Degraded. Evaluation applies the state checklist and supports a StateAssertion. In this gating use, operational enactment requires an admissible assertion that an enactable state obtains; the Work, Method, assignment, and result remain different objects.
 
 _Relational stub:_
 
@@ -134,26 +134,26 @@ _Relational stub:_
 | **COMPARISON_USE** | `USE_CLAIM_ID`; `RESULT_REF`; `NORMALIZATION_INSTANCE_ID?`; `BRIDGE_ID?`; `EVIDENCE_USE_REF`; `ASSURANCE_REF?` |
 | **ASSURANCE_EVENT** | `AE_ID`; `USE_CLAIM_ID`; `EFFECT`; `DETAILS`; `WINDOW` |
 
-The tables make an audit path possible without assigning meaning to the table itself. A low-assurance relation, stale normalization instance, or refreshed evidence can be recorded as a distinct event and can reopen only the comparisons that rely on it.
+The table content can express the relevant claims and their audit path; the presence of the table supplies no missing evidence. A low-assurance relation, stale normalization instance, or refreshed evidence can be recorded as a distinct event and can reopen only the comparisons that rely on it.
 
 ##### A.19.CN:8.4.3 - Alignment CN‑frame — design-time reuse across local schemes
 
 _Entity graph view:_
 
 ```
-Checklist for target state ← re-expressed by N ─ Checklist for source state
+Checklist for target state ← re-expression (N when normalization is used) ─ Checklist for source state
 source F.17 cell ── Bridge with direction and loss ──> target F.17 cell
 SystemRoleKind' ── stated refinement relation ──> SystemRoleKind
 ```
 
-A checklist from one source scheme may be re-expressed for another only through the named normalization instance and, when its local meaning changes, an obtaining F.9 Bridge plus a separate use claim. A stated refinement between system-role kinds records how their state distinctions correspond; it must preserve the entailment needed for enactability rather than relying on similar role names.
+A checklist re-expression cites the normalization instance when it uses normalization. If reuse depends on different exact local senses, it also needs the obtaining F.9 Bridge and separate use claim. A stated refinement between system-role kinds records how their state distinctions correspond; it must preserve the entailment needed for enactability rather than relying on similar role names.
 
 _Relational stub:_
 
 | Table | Key columns (essential) |
 |---|---|
 | **RSG_REFINEMENT** | `REFINEMENT_ID`; `SOURCE_SYSTEM_ROLE_KIND_ID`; `TARGET_SYSTEM_ROLE_KIND_ID`; `SOURCE_STATE_ID`; `TARGET_STATE_ID`; `ENTAILMENT_RULE`; `EVIDENCE_REF` |
-| **CHECKLIST_REEXPRESSION** | `REEXPRESSION_ID`; `SRC_STATE_ID`; `TGT_STATE_ID`; `NORMALIZATION_INSTANCE_ID`; `BRIDGE_USE_CLAIM_REF?`; `SOURCE_EDITION`; `TARGET_EDITION`; `VALIDITY_WINDOW` |
+| **CHECKLIST_REEXPRESSION** | `REEXPRESSION_ID`; `SRC_STATE_ID`; `TGT_STATE_ID`; `NORMALIZATION_INSTANCE_ID?`; `BRIDGE_USE_CLAIM_REF?`; `SOURCE_EDITION`; `TARGET_EDITION`; `VALIDITY_WINDOW` |
 
 At least one enactable source state must correspond under the stated rule to an enactable target state when that is the promised refinement. The re-expression record fixes the two editions and validity window so later changes can reopen the affected alignment rather than silently changing an old checklist.
 

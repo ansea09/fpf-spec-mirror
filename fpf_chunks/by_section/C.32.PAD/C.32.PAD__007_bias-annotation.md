@@ -6,12 +6,12 @@ section_id: "C.32.PAD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:6 — Bias-Annotation"
-line_start: 80167
-line_end: 80177
+line_start: 79014
+line_end: 79024
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,7 +65,7 @@ keywords:
 
 | Risk handled | How C.32.PAD handles it |
 |---|---|
-| Record-before-decision drift | The pattern requires `ArchitectureDecisionRelation@Project` before ADR-like publication projection. |
+| Record-before-decision drift | The account preserves the decision relation and its actual or proposed status; an ADR template does not make the decision. |
 | Description-as-decision drift | Architecture descriptions remain `C.30.AD` objects; PAD records the decision relation that may cite them. |
 | Metric-winner drift | Eval readings and metrics can inform trade-offs but do not select or decide by themselves. |
 | Method-structure collapse | Method-use instructions and intended target structures are both recorded and kept distinct. |

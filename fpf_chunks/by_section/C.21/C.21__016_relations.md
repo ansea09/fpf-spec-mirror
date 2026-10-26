@@ -6,17 +6,15 @@ section_id: "C.21:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__016_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:13 — Relations"
-line_start: 62770
-line_end: 62775
+line_start: 61751
+line_end: 61756
 dependencies:
   - "A.10"
-  - "A.17"
   - "A.17-A.18"
-  - "A.18"
   - "A.19"
   - "A.2.6"
   - "B.3"
@@ -24,7 +22,6 @@ dependencies:
   - "C.2"
   - "C.2.1"
   - "C.20"
-  - "C.I"
   - "E.24.PUB"
   - "F.9"
   - "G.0"

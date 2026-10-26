@@ -6,12 +6,12 @@ section_id: "C.36.MC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:4 — Solution"
-line_start: 90467
-line_end: 90557
+line_start: 89287
+line_end: 89377
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -33,7 +33,7 @@ For transmission and development, connect the recipient's needed action, the ava
 #### C.36.MC:4.1 - Pattern-Use Unfolding
 
 1. **Bound the practice and Discipline claim.** Use a current C.20 result when the named practice is recognized as a Discipline for this use. Otherwise name the smaller practice, collective, population, place, and period under C.36 and keep the Discipline claim unresolved.
-2. **Choose the subject-status branch.** For the admitted-Method branch, name an A.3.1-admitted Method or variant and independently ground the A.15.1 `enactsMethod` occurrence in a particular dated Work occurrence. For the candidate branch, name the status-preserved candidate lineage or source-described observed practice, its candidate account or source claim, honestly named card, template, description episteme, or other claim-bearing material, and actual Work facts. Assert no Method or enactment until their governors succeed, and no `U.MethodDescription` membership until one admitted Method is the episteme's `EntityOfConcern` and A.3.2 classifies it.
+2. **Choose the subject-status branch.** For the admitted-Method branch, name an A.3.1-admitted Method or variant and independently ground the A.15.1 `enactsMethod` occurrence in a particular dated Work occurrence. For the candidate branch, name the status-preserved candidate lineage or source-described observed practice, its candidate account or source claim, identified card, template, description episteme, or other claim-bearing material, and actual Work facts. Assert no Method or enactment until their governors succeed, and no `U.MethodDescription` membership until A.3.2 establishes that the episteme has an already admitted Method as its exact `EntityOfConcern` and makes at least one substantive claim about that Method as a way of doing.
 3. **Derive the cultural claim before naming a relation.** State the value said to be generated, transmitted, recognized, selected, remembered, retained, or lost; participant meanings; applicability; positive test; and a discriminating negative or failed case. If a current direct predicate states the claim, use it and stop. Otherwise use A.6.RCD for the lightest truthful local compound claim, reusable predicate definition, or relation-kind question. A label or C.36 category alone is not an obtaining relation.
 4. **Separate the world claim, episteme, evidence, and intervals.** Keep the direct relation or bounded relation-bearing claim separate from its claim episteme and evidence reliance. Name the interval the available evidence covers. Compare later claims or intervals when the current use concerns later change, retention, or loss; current evidence need not be replaced by a new observation. Open A.6.REL occurrence identity only when a later use must distinguish one obtaining occurrence from another; repeated participants do not establish the same occurrence.
 5. **Name every participating subject.** Identify the cards, descriptions with their recorded kind and status, publication occurrences, repositories or other Systems, teaching, tutoring or event Work, decision-rule epistemes, fields, forums, assignments, permissions, authority, and other direct relations actually relied on. Select an A.22 structure only when one organization of identified constituents, obtaining relations, constraints, and use frame changes the decision; open C.30 only for a current architecture claim.
@@ -53,8 +53,8 @@ Keep only the rows the actual claim and receiving use need. An absent interventi
 | Result position | Content when used |
 | --- | --- |
 | practice boundary | C.20 Discipline result or bounded practice/population under C.36, unresolved claim, place, period, and qualification window. |
-| subject-status branch | Admitted Method plus independently grounded `enactsMethod` Work occurrence; or candidate lineage/source-described observed practice plus its honestly named claim-bearing materials and Work facts with no Method or enactment inflation; description kind, status, maintained result, and missing admission or classification basis. |
-| cultural predicate | Value, participant meanings, participants, applicability, positive test, discriminating negative or failed case, and lightest truthful A.6.RCD disposition. |
+| subject-status branch | Admitted Method plus independently grounded `enactsMethod` Work occurrence; or candidate lineage/source-described observed practice plus its identified claim-bearing materials and Work facts with no Method or enactment inflation; description kind, status, maintained result, and missing admission or classification basis. |
+| cultural predicate | Value, participant meanings, participants, applicability, positive test, discriminating negative or failed case, and existing direct predicate or needed A.6.RCD disposition. |
 | claim, evidence, and interval observations | World-side relation or bounded claim; separate claim episteme; current evidence and reliance; the interval supported. A later positive, negative, inapplicable, unknown, or missing-information result only when a later claim is made; A.6.REL identity only when consumed. |
 | participating subjects | Identified cards, descriptions with their recorded kind and status, publications, Systems, teaching/tutoring/event Work, rules, fields, forums, assignments, permissions, authority, and other direct relations; conditional A.22 structure or C.30 architecture only when independently established. |
 | authorization | For the intended continuation or change where its governor requires it: Agent and A.13 basis, named assignment, permission, or authority predicate and participants, permitted action, scope, positive basis, and protected conditions. The account creates no change to authorize. |
@@ -76,7 +76,7 @@ A supported practice can continue without a manufactured second explanation or a
 
 The value under test is that four-part defect-disposition rule. Local compound predicate `CAL-TransmissionPredicate-1` applies from method engineers as transmitting participants to one reviewer as receiving participant during D30–D60 when the reviewer later applies the rule correctly to both seeded defects without a transmitter choosing the maintained result. A positive case is an independently admitted review-practice Work occurrence meeting that test. A discriminating negative is a completed occurrence that merges two separately governed results or cannot name the next action. A.6.RCD stops at this local compound claim; no reusable predicate definition or relation kind is admitted. The claim episteme records each reviewer result and evidence; no later use needs relation-occurrence identity under A.6.REL.
 
-The participating subjects remain separately identified: one-page card `CAL-Decision-Card-1`; two paired teaching Work occurrences; coached-practice Work; two seeded-finding epistemes; and each reviewer's later Work. The card has admitted Method `M-ME-One-Defect-One-Result-1` as its one `EntityOfConcern`, and A.3.2 classifies it as a `U.MethodDescription`. Permission `PERM-CAL-CARD-EDIT-1(ME-Agent-B1, ME-Agent-B2, edit, CAL-Decision-Card-1)` permits the two engineers to edit that project card. Assignment `ASG-CAL-TEACH-1` assigns the paired sessions. Neither predicate authorizes changing the wider field or a reviewer's later Method choice.
+The participating subjects remain separately identified: one-page card `CAL-Decision-Card-1`; two paired teaching Work occurrences; coached-practice Work; two seeded-finding epistemes; and each reviewer's later Work. The card has admitted Method `M-ME-One-Defect-One-Result-1` as its exact `EntityOfConcern` and states the defect-disposition rule as a way of doing; A.3.2 therefore classifies it as a `U.MethodDescription`. Permission `PERM-CAL-CARD-EDIT-1(ME-Agent-B1, ME-Agent-B2, edit, CAL-Decision-Card-1)` permits the two engineers to edit that project card. Assignment `ASG-CAL-TEACH-1` assigns the paired sessions. Neither predicate authorizes changing the wider field or a reviewer's later Method choice.
 
 The two seeded findings are separate teaching packets adapted from [A.3.1.CC §4.4](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31cc44---minimal-constructed-coherence-replay):
 

@@ -6,12 +6,12 @@ section_id: "A.3.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:6 — Bias-Annotation"
-line_start: 13250
-line_end: 13253
+line_start: 13100
+line_end: 13103
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,5 +54,5 @@ keywords:
 
 ### A.3.4:6 - Bias-Annotation
 
-This pattern keeps the actual change separate from a composition question, holon classification, facts about the changed subject, method, work, flow structure, representation, assertion, evidence, evaluation, publication, production, and later use. It resists software narrowing, method-as-effect, model-as-authority, trace-as-law, formal-as-project-work, relation-verb-as-change, sampled-slice composition, blanket transformation holonhood, work-caused-change-as-production, and result-word-as-kind errors.
+A familiar representation can draw attention away from the actual subject and its continuity: a process diagram suggests work steps, while sampled time points suggest parts of a change. Return to the occurrence facts before inferring enactment or composition. The non-agentive seedling case also shows why identifying change need not begin with an acting system.
 

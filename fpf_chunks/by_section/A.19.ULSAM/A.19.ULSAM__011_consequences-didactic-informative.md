@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:9"
 section_title: "Consequences (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__011_consequences-didactic-informative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:9 — Consequences (didactic, informative)"
-line_start: 39187
-line_end: 39195
+line_start: 38424
+line_end: 38432
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -34,7 +34,7 @@ keywords:
 | Benefits | Costs / trade-offs |
 |---|---|
 | Clear separation of concerns: folding is explicit and auditable. | Adds an explicit step; authors must name Γ‑fold policies. |
-| Prevents illegal “single-number” shortcuts (ordinal means, unit mixing). | Some familiar heuristics become non-conformant. |
+| Exposes the scale and model conditions that an admitted aggregate must satisfy. | Some familiar heuristics become non-conformant. |
 | Improves evolvability: folding methods evolve via wiring, while the kernel signature stays stable. | Requires discipline to keep method specifics out of kernel prose. |
 | Supports evidence-aware aggregation via tri-state guards. | Guard + Audit expectations may feel heavier than ad-hoc aggregation. |
 

@@ -6,12 +6,12 @@ section_id: "A.19.CHR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
   - "A.19.CHR:7 — Conformance Checklist"
-line_start: 37693
-line_end: 37794
+line_start: 36963
+line_end: 37048
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -73,26 +73,10 @@ Each member reference resolves to one exact declaration edition under §4.2.2, a
 A conforming `CHRMechanismSuiteDescription` SHALL cite `CN‑Spec` and `CG‑Spec` as required spec refs and SHALL NOT duplicate them as “shadow specs”.
 
 **CC‑A67CHR‑3a (Planned-baseline requirement is pinned).**
-A conforming suite cites the exact WorkPlan and baseline locator that will hold its selected editions and references. A.15.3 typed filling is conditional on independently declared positions.
+For a P2W path, a conforming suite cites the exact WorkPlan and baseline locator carrying its selected editions and references. Other uses resolve the editions without inventing a WorkPlan. A.15.3 typed filling is conditional on independently declared positions.
 
 **CC‑A67CHR‑4 (Crossing discipline is complete).**
-A conforming `CHRMechanismSuiteDescription.suite_obligations` SHALL include, at minimum:
-`bridge_only_crossings`,
-`two_bridge_rule_for_described_entity_change`,
-`transport_declarative_only`,
-`penalties_route_to_r_eff_only`,
-`guard_decision_tristate(pass|degrade|abstain)`,
-`unknown_never_coerces_to_pass`,
-`gate_decision_separation`,
-`guard_lexeme_reservations`,
-`cg_spec_cite_required_for_numeric_ops`,
-`no_silent_scalarisation_of_partial_orders`,
-`no_silent_totalisation`,
-`no_thresholds_in_suite_core`,
-`crossing_visibility_required`,
-`planned_slot_filling_in_work_planning_only`,
-`finalize_launch_values_in_work_enactment_only`,
-`implementation_export_discipline_when_cited`.
+A conforming `CHRMechanismSuiteDescription.suite_obligations` SHALL include the complete clause set in §4.3, with each clause applied under its stated conditions.
 
 **CC‑A67CHR‑5 (Guard/gate separation).**
 A conforming `CHRMechanismSuiteDescription.suite_obligations` SHALL:
@@ -120,7 +104,7 @@ where `fold_Γ` is explicitly optional.
 Any publish/telemetry continuation is governed externally (e.g., by G.10 and/or PTM) and MUST NOT be encoded as a `ProtocolStep` inside `suite_protocols` (to preserve WF‑MS‑2 closure).
 
 **CC‑A67CHR‑9 (Packaging separation).**
-If protocols include `publish/telemetry`, it is governed by G.10 and/or PTM; the suite does not act as a pack or shipping publication.
+A publish/telemetry continuation is outside `suite_protocols` and governed by G.10 and/or PTM. The suite description itself is not the shipping publication.
 
 #### A.19.CHR:7.2 - Planned baseline checks
 

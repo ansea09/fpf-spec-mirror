@@ -6,12 +6,12 @@ section_id: "C.3.5:3"
 section_title: "Anchors K0…K3 (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__004_anchors-k0-k3-informative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:3 — Anchors K0…K3 (informative)"
-line_start: 55946
-line_end: 55987
+line_start: 55074
+line_end: 55115
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -40,7 +40,7 @@ keywords:
 
 **Non-example.** A stable invariant-bearing distinction belongs nearer K2 even if few candidates are currently known.
 
-**Planning.** Prefer exact slice-bound judgments and assurance over the current candidate domain. Cross-context reuse is likely to need explicit instance correspondence. If the use relies on a KindBridge between distinct kinds, `CL^k` may be low.
+**Planning.** Prefer exact slice-bound judgments and assurance over the current candidate domain. When reuse depends on matching named candidates, make that correspondence explicit. Any KindBridge assessment follows the actual distinct-kind correspondence and its preservation evidence.
 
 #### C.3.5:3.2 - K1 — Behavioral pattern
 
@@ -50,7 +50,7 @@ keywords:
 
 **Non-example.** A kind with stable explicit predicates and order relations belongs nearer K2.
 
-**Planning.** Invest in making the signature criterion evaluable and in testing behavioral diversity. Bridges are usually pattern correspondences whose assertions must state loss.
+**Planning.** Invest in making the signature criterion evaluable and in testing behavioral diversity. For a bridge that compares behavioral distinctions, its assertion states the demonstrated preservation and loss.
 
 #### C.3.5:3.3 - K2 — Formal kind/class
 
@@ -60,7 +60,7 @@ keywords:
 
 **Non-example.** An informal cohort or role cue does not become K2 merely because it is stored in a schema.
 
-**Planning.** Consider raising the declaration episteme's F where the receiving use warrants it; plan R across relevant subkinds and boundary cases. KindBridge assertions may support medium or high `CL^k` only from demonstrated signature/order preservation.
+**Planning.** Develop the expression properties the receiving use needs under C.2.3; plan assurance across relevant subkinds and boundary cases. KindBridge assertions may support medium or high `CL^k` only from demonstrated signature/order preservation.
 
 #### C.3.5:3.4 - K3 — Up-to-Iso
 
@@ -70,5 +70,5 @@ keywords:
 
 **Non-example.** A class whose candidate identity matters beyond the declared structure is not K3.
 
-**Planning.** Require explicit equivalence witnesses and receiver acceptance. High `CL^k` is justified only when the obtaining bridge and its assertion demonstrate preservation of the relevant equivalence structure.
+**Planning.** For a use that relies on equivalence, make the equivalence witnesses explicit and establish receiver acceptance. High `CL^k` is justified only when the obtaining bridge and its assertion demonstrate preservation of the relevant equivalence structure.
 

@@ -6,12 +6,12 @@ section_id: "C.33:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:10 — Rationale"
-line_start: 80974
-line_end: 80981
+line_start: 79807
+line_end: 79814
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -52,9 +52,9 @@ keywords:
 
 ### C.33:10 - Rationale
 
-Architecture work often starts from carriers that are neither useless nor complete. Both facts matter for the next architecture use. If C.33 only says "do not confuse the carrier with architecture," it becomes a negative catalogue. If it treats every carrier as an architecture description or measurement, it duplicates C.30, C.16, and C.32.ACE. The chosen solution is a small adequacy note whose center is captured selected structure, lost structure, admissible use, and missing-structure return.
+A partial carrier can preserve the relations needed for one architecture use while omitting those needed for another. Assessing its captured structure against the intended use makes that boundary explicit and identifies any missing structural contribution. A description, measurement or evaluation remains available under its own requirements.
 
-This split keeps P2S as the whole architecturing spine and C.32 as the pattern that describes candidate synthesis. C.33 does not synthesize architecture and does not decide the project architecture. It gives the practitioner and the next check a typed account of what a carrier contributes and what must still be recovered.
+This split keeps P2S as the whole architecturing spine and C.32 as the pattern that describes candidate synthesis. C.33 does not synthesize architecture and does not decide the project architecture. It explains what the carrier contributes and what the next use still needs.
 
 The source choices explain the fields. Epiplexity supplies a computational model for observer-bounded structural information; `C.2.8` defines the general characteristic consumed here when the source is an expressed episteme. Captured amount informs the architecture-use adequacy judgment without replacing it. Multi-relational structural entropy motivates relation-kind awareness but not adequacy by number. Sapunov and ToCS motivate partial observability, active-passive gap, invariant fields, confidence, and unexplored regions. GonzoML motivates richer neural architecture operation language without making those labels FPF ontology.
 

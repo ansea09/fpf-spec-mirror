@@ -6,17 +6,15 @@ section_id: "C.21:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 62736
-line_end: 62747
+line_start: 61717
+line_end: 61728
 dependencies:
   - "A.10"
-  - "A.17"
   - "A.17-A.18"
-  - "A.18"
   - "A.19"
   - "A.2.6"
   - "B.3"
@@ -24,7 +22,6 @@ dependencies:
   - "C.2"
   - "C.2.1"
   - "C.20"
-  - "C.I"
   - "E.24.PUB"
   - "F.9"
   - "G.0"
@@ -54,7 +51,7 @@ keywords:
 * Treating discipline health as one scalar before separately typed coordinates exist.
 * Treating `ClaimScope` and `TargetSlice` as two spellings for one object.
 * Requiring a Bridge merely because sources, schemes, or editions differ.
-* Comparing distinct local senses without the exact obtaining F.9 relation and loss.
+* Making a comparison that relies on semantic correspondence between distinct local senses without the obtaining F.9 relation and its use/loss basis.
 * Ordering formal status and adoption on one universal maturity ladder.
 * Calling `claims/artifact` and `anchors/claim` alternative Units of one Characteristic.
 * Writing `<entropy/HHI>` as if either formula produced the same reading.

@@ -6,12 +6,12 @@ section_id: "A.14:11"
 section_title: "Pedagogy aids (non-normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__012_pedagogy-aids-non-normative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:11 — Pedagogy aids (non-normative)"
-line_start: 28856
-line_end: 28866
+line_start: 28424
+line_end: 28434
 dependencies:
   - "A.1"
   - "A.15"
@@ -59,7 +59,7 @@ keywords:
 1. What subject and relation does the sentence claim?
 2. Does every PortionOf have a declared extensive measure, unit, boundary, and additivity condition?
 3. Does every AspectOf name the aspect, bearer, facet rule, occurrence, and identity rule—and avoid replacing a Characteristic, view, projection, partition, or time window?
-4. Is every PhaseOf a proper interval of one unchanged carrier rather than another episteme or Work occurrence?
+4. Is every PhaseOf a proper interval of one continuing holon rather than another episteme or Work occurrence?
 5. Does every collection claim use its own belongs-to rule without inferring or prohibiting a separate part relation?
 6. Are local system-role kinds, assignments, Methods, Work, views, and traces kept outside the part tree unless an independently admitted entity and direct part relation are current?
 

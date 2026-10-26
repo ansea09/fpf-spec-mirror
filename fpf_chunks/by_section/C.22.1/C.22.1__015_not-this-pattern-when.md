@@ -6,12 +6,12 @@ section_id: "C.22.1:14"
 section_title: "Not this pattern when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__015_not-this-pattern-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:14 — Not this pattern when"
-line_start: 63320
-line_end: 63325
+line_start: 62300
+line_end: 62305
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -20,8 +20,6 @@ dependencies:
   - "C.24"
   - "E.10"
   - "E.16"
-  - "E.19"
-  - "E.22"
   - "E.23"
   - "G.11"
   - "G.5"
@@ -43,5 +41,5 @@ keywords:
 
 - the claim only needs to name the task family and work-measure threshold target, with no adaptation-speed or transfer claim at all; ordinary `C.22` anchoring is enough
 - the question under repair is already selector or parity law across candidate selected sets; that belongs to `G.5 / G.9`
-- the text cannot yet declare one work-measure threshold target or one prior-exposure stance, or, when corridor entry is claimed, cannot name one evidence source or evidence locus for that entry
+- the threshold or prior-exposure basis cannot yet be established: retain a narrower observation or an unresolved adaptation claim. Missing corridor evidence leaves that corridor claim unresolved; it need not prevent a separately supported threshold account
 

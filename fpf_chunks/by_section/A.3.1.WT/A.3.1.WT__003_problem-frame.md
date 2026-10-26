@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__003_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:1 — Problem Frame"
-line_start: 10366
-line_end: 10371
+line_start: 10280
+line_end: 10285
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,5 +25,5 @@ keywords:
 
 Method trials are often easiest to describe after the fact: a team used some material, produced a result, and reported value. That compression hides what Method was admitted, which Work occurred, who performed it, which support conditions were present, what changed, and which conclusions the observations can support.
 
-Convenient success cases also miss the situations that matter most. A Method may look usable in a familiar task and fail when feedback is closed-loop, information is incomplete, capability is stale, or a required relation is absent. Representative and discriminating situations therefore serve different purposes and must be selected for an explicit later question.
+Selecting only convenient success cases can miss conditions that change the outcome. A Method may look usable in a familiar task and fail when feedback is closed-loop, information is incomplete, capability is stale, or a required relation is absent. Representative and discriminating situations therefore serve different purposes and must be selected for an explicit later question.
 

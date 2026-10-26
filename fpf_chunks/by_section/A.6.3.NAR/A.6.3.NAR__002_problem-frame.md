@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:1 — Problem frame"
-line_start: 19489
-line_end: 19522
+line_start: 19141
+line_end: 19174
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -45,7 +45,7 @@ keywords:
 
 Use this pattern when selected source structure must become a readable sequential account for a declared reader or listener use. In plain language: **turn this structure into a narrative that this reader can follow without hiding what the narrative leaves behind**. Typical cases include a scientific mechanism turned into a paper section, an architecture trade-off turned into a team explanation, a conceptual graph turned into a lesson sequence, or an event graph turned into a story draft.
 
-Start from the reader's practical need, not from an identity dossier. Select the relations, constraints, events, mechanisms, dependencies, conflicts, alternatives, or changes that matter for that need; choose a useful order and connective account; draft the smallest narrative that works; then compare it with the source material for preservation, foregrounding, loss, and unsupported additions.
+Start from the reader's practical need. Select the source structures that matter for that need, choose a useful order and connective account, draft the narrative, then compare it with the sources for preservation, foregrounding, loss and unsupported additions.
 
 Plain starting vocabulary:
 
@@ -60,18 +60,18 @@ Plain starting vocabulary:
 | `ordering and connective account` | The chosen event, causal, discovery, didactic, tension, traversal, or other order, plus the links that explain why one step follows another. |
 | `narrative rendering` | The receiving sequential account. A page, audio file, slide, or publication carrier can express or make it available without being the account's claim-bearing identity. |
 | `loss and return` | What the narrative omits, weakens, rearranges, or cannot support, and where the reader returns when that missing structure matters. |
-| `narrating or rendering worker` | The person, team, or system doing the narrative-construction work. Recover the exact worker, system-role assignment, method, and dated Work only when actual production history matters; establish any authority claim separately. |
+| `narrating or rendering worker` | The person, team or system preparing the narrative. A particular dated Work claim follows A.13 and independent A.15.1 admission; F.6 applies only when precise assignment-bound attribution matters. Any authority claim has its own grounds. |
 | `structural-information question` | How much of the selected source structure can this reader correctly extract from the narrative under the stated preparation, access and budget? Use `C.2.8` for the characteristic, `C.33` for architecture-use adequacy and the applicable domain evaluation for a local scale. |
 
-**First useful move.** Write the shortest useful narrative and place a compact narrative note beside it: reader/use; source material; selected structures and why they matter; ordering/connective account; what is preserved and foregrounded; what is omitted, weakened, or newly asserted without support; admissible use; and the return trigger. Use F.19:4's plausible-reader test for any optional non-admissible downstream use. This note is a reading aid.
+**First useful move.** Write a useful narrative and give the reader enough source and ordering information to see what it preserves, foregrounds or omits. A compact note can carry that information. Add a source-return condition when omitted structure or a changed question requires it; any excluded downstream use follows F.19:4's full guard test.
 
 **What goes wrong if missed.** A memorable sequence substitutes for the source structure. Readers retain the story but cannot reconstruct the relations that licensed it, or they treat a connective sentence added for fluency as a source claim.
 
-**What this buys.** Narrative ordering can make tangled structure usable while selection, sequence, loss, unsupported strengthening, and return remain inspectable. The narrative does not thereby become proof, authority, evidence, architecture, publication, work history, or the selected source structure itself.
+**What this buys.** Narrative ordering can make tangled structure usable while selection, sequence, loss and unsupported additions remain inspectable. Any proof, evidence or authority claim still needs its own grounds.
 
 **Ordinary use.** For low-reliance teaching, orientation, or internal explanation, the useful narrative and compact note are enough. Exact endpoint identities and a formal construction record are not prerequisites for this first result.
 
-**Reliance-facing use.** Open the exact branch only when the receiving use makes claim-level identity and preservation evidence material: for example, the narrative must travel independently, be cited or disputed, cross a material representation-scheme boundary for consequential use, enter generated-output admission under an identity-bearing receiver, support consequential reliance, or satisfy another named receiver that requires exact identity. A public context is a cue to ask which receiving requirement applies; publicness alone is not sufficient. Then recover exact source episteme `X`, receiving narrative episteme `Y`, and construction `n : X -> Y`, together with the additional source chain, scheme relation, loss, evidence, or assurance actually required by that receiving use.
+**Reliance-facing use.** Open the exact branch only when the receiving use makes claim-level identity and preservation evidence material: for example, the narrative must travel independently, be cited or disputed, cross a material representation-scheme boundary for consequential use, enter generated-output admission under an identity-bearing receiver, support consequential reliance, or satisfy another named receiver that requires exact identity. A public context is a cue to ask which receiving requirement applies; publicness alone is not sufficient. Then recover exact source episteme `X`, receiving narrative episteme `Y`, and construction `n : X -> Y`, together with the additional source dependencies, scheme relation, loss, evidence, or assurance actually required by that receiving use.
 
 Carrier export, generated-output admission, publication, evidence, assurance, ethics, and work authorization are separate questions; apply the corresponding pattern only when that claim is current.
 

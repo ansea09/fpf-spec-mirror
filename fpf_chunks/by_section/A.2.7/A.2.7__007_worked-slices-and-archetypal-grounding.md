@@ -6,12 +6,12 @@ section_id: "A.2.7:5"
 section_title: "Worked Slices and Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__007_worked-slices-and-archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:5 — Worked Slices and Archetypal Grounding"
-line_start: 7811
-line_end: 7937
+line_start: 7763
+line_end: 7889
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -69,7 +69,7 @@ PlantPressureTestSubstitutionAssertion:
     systemRoleKindRelationExtent: [2026-07-01, 2026-12-31]
 ```
 
-The system performing admission checking resolves the candidate's exact A.2.1 assignment and its current `PressureTestReady` state occurrence. Those are inputs to the receiving rule, not substitution-relation participants. Capability is checked separately. A claim about performed pressure-test Work needs its own A.15 basis.
+The system performing admission checking resolves the candidate's exact A.2.1 assignment and its current `PressureTestReady` state occurrence. Those are inputs to the receiving rule, not substitution-relation participants. Capability is checked separately. For a claim about a particular performed pressure-test Work, identify the performer through A.13 and admit the occurrence independently through A.15.1; add F.6 when precise assignment attribution is needed.
 
 #### A.2.7:5.2 - Safety Separation of Duties
 

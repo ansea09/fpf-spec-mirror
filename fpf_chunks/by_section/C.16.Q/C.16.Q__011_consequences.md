@@ -6,12 +6,12 @@ section_id: "C.16.Q:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:9 — Consequences"
-line_start: 60456
-line_end: 60465
+line_start: 59464
+line_end: 59473
 dependencies:
   - "A.10"
   - "A.16"
@@ -68,5 +68,5 @@ It also makes subsequent wording repair easier because one explicit quality-term
 
 **Trade-offs and mitigations.**
 The pattern adds drafting overhead and can feel heavy in exploratory notes.
-Mitigation: allow bare *quality* in Plain commentary during exploration, but require repair before the term enters Tech and normative, boundary, selector, or assurance use.
+Mitigation: use an adequate ordinary explanation or known endpoint directly. Restore a missing distinction before relying on it in an evaluation or further claim; use of the Tech register alone does not require the full transitional form.
 

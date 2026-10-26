@@ -6,12 +6,12 @@ section_id: "A.1.CSD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:4 — Solution"
-line_start: 3858
-line_end: 3915
+line_start: 3853
+line_end: 3910
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -38,7 +38,7 @@ keywords:
 
 ### A.1.CSD:4 - Solution
 
-Discover outward from concrete possibilities, preserve the status of every relation and bearer claim, and stop at the smallest account that changes one receiver.
+Discover outward from concrete possibilities, preserve the status of every relation and bearer claim, and stop at the smallest account that supports the receiving decision or investigation.
 
 #### A.1.CSD:4.1 - Perform the Move
 
@@ -46,7 +46,7 @@ Discover outward from concrete possibilities, preserve the status of every relat
 2. **Name focus and receiver.** State the exact proposed or observed focus entity, current configuration when relevant, exact receiving decision or investigation, scope, place when material, and horizon.
 3. **Generate change-producing possibilities.** Consider intended and plausible Work, realization, operation, use, maintenance, misuse, failure, recovery, adaptation, continuing change, retirement, and later conditions that matter here. These are examples of possibilities, not a lifecycle or mandatory sequence.
 4. **Trace paths and challenge the boundary.** Follow supported obtaining direct-relation occurrences separately from modal path claims. For a modal claim, name the proposed relation kind, candidate participants, conditions, support, and uncertainty. Then ask which Systems capable of bearing the stated change remain outside the current frame.
-5. **Recover relation status and holon basis.** Establish every claimed world-side relation occurrence—such as part-whole, participation, dependency, crossing, or exposure—only through its direct governor. Recover an environment from one focal System delimitation, exact external referents, supported crossing relations, and the selected use; recover a delimitation or boundary through its own FPF construction and supporting facts, not as a relation occurrence. Support a containing-System claim through the exact part-whole relation and construction. A context or declared scope remains a use-bounding fact and does not by itself make a world-side relation obtain. Use exact construction facts rather than a level word. Use B.2 or B.2.2 only when current facts create a real whole-reidentification question, then inspect possible bearers on both sides.
+5. **Recover relation status and holon basis.** Establish every claimed world-side relation occurrence—such as part-whole, participation, dependency, crossing, or exposure—only through its direct governor. Recover an environment from one focal System delimitation, exact external referents, supported crossing relations, and the selected use; recover a delimitation or boundary through its own FPF construction and supporting facts, retaining its kind under the direct pattern. A boundary label alone establishes no relation occurrence. Support a containing-System claim through the exact part-whole relation and construction. A context or declared scope remains a use-bounding fact and does not by itself make a world-side relation obtain. Use exact construction facts rather than a level word. Use B.2 or B.2.2 only when current facts create a real whole-reidentification question, then inspect possible bearers on both sides.
 6. **Recognize or retain bearer references.** Use `A.1.SCR` only when an actual candidate's systemhood is load-bearing. Keep a not-yet-present intended bearer as a designator inside modal content; retain an unidentified bearer as an explicit unknown without changing the claim's modality. Preserve a collection, place, scope, or other holon under its own kind or blocker.
 7. **Qualify each consequence claim.** Name the changed state or characteristic, exact bearer, obtaining-occurrence or modal-path status, conditions, configuration, direction and magnitude cue when known, time, grounded whole/part or declared-scope coordinate when current, evidence, uncertainty, and causal status.
 8. **Keep cross-scale coordinates distinct.** Preserve each bearer's changed state or characteristic, conditions, horizon, evidence, uncertainty, and receiving use. A later domain aggregate may be added for its own use; it does not replace the original claims or set priority by scale.
@@ -70,9 +70,9 @@ This sequence of actions is a reasoning aid. Discovery, observation, design, com
 
 An exact modal claim can qualify the present answer and identify what a later observation would have to establish. Add a separate actuality claim only when the direct obtaining predicate and its case conditions are supported.
 
-#### A.1.CSD:4.3 - Record the Result as One Ordinary Episteme
+#### A.1.CSD:4.3 - Make the account recoverable for use
 
-The account is reusable only when its `C.2.1` identity and working content are explicit:
+For reuse, make the account's focus, claims and interpretation basis recoverable. These supply its `C.2.1` identity; ordinary prose can state the working content below.
 
 | Result part | Required content |
 | --- | --- |
@@ -86,7 +86,7 @@ The account is reusable only when its `C.2.1` identity and working content are e
 | receiver connection | Constraint, alternative, evidence-producing probe, specialist return, monitoring condition, reversible step, or unresolved gap. |
 | discovery residual and reopen | The missing bearer or path and reopen condition that matter to the receiving use. Include a further action only when its obtainable contribution warrants the complete inquiry burden. |
 
-A thin account may contain one qualified consequence claim plus one unresolved bearer, path, or specialist return when those entries already change the receiver. Blank fields do not assert closure. Bearers and unknowns are participants in the ClaimGraph, not extra EntityOfConcern values. If one truthful focus cannot govern the combined claims, keep the claims local or identify several account epistemes.
+A thin account may contain one qualified consequence claim plus one unresolved bearer, path, or specialist return when those entries already support the receiving decision or investigation. Blank fields do not assert closure. Bearers and unknowns are participants in the ClaimGraph, not extra EntityOfConcern values. If one truthful focus cannot govern the combined claims, keep the claims local or identify several account epistemes.
 
 #### A.1.CSD:4.4 - Recognition and Assurance Split
 

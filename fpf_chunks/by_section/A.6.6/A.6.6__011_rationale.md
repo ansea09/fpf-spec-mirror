@@ -6,12 +6,12 @@ section_id: "A.6.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:10 — Rationale"
-line_start: 24220
-line_end: 24236
+line_start: 23800
+line_end: 23816
 dependencies:
   - "A.10"
   - "A.14"
@@ -49,10 +49,10 @@ The recurring ambiguity is not “how to attach”, but which direct relation is
 A base is a participant in the selected direct relation. Evidence or other supporting material justifies an assertion only through its own direct relations. Conflating the two makes both reasoning and audit unreliable.
 
 **Why add scope and `Gamma_time` conditionally.** They are required when the direct predicate or receiving use changes across extent or time. Adding them everywhere hides the ordinary relation behind a universal qualifier form.
-A declaration is never “everywhere forever” by default in FPF. Scope makes applicability explicit; `Γ_time` prevents hidden time dependence (“recent”, “current”, “latest”).
+Recover applicable extent and time from the direct relation and the receiving use. An already clear interval or temporal rule needs no duplicate field; an implicit current or latest that leaves the intended case ambiguous does.
 
-**Why prohibit kind edits.**
-Changing the relation kind changes meaning; treating it as an update erases history and breaks continuity discipline.
+**Why distinguish semantic revision from representation editing.**
+Changing the relation kind changes the assertion's meaning. Preserve the former episteme when history matters and establish any claimed continuity under C.2.1; a new wording or representation alone need not change identity.
 
 **Why retain a local declaration-change lexicon.** When a named receiver tracks assertion or declaration history, the labels distinguish which episteme field changed. They are optional and do not describe actual relation change without the direct relation's own predicate.
 When that history is needed, explicit change classes distinguish rebase, retime, rescope, and witness refresh; a generic edit label hides those differences and recreates the ambiguity A.6.5 removed at the slot layer.

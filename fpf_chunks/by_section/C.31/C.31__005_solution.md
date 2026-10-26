@@ -6,12 +6,12 @@ section_id: "C.31:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:4 — Solution"
-line_start: 75194
-line_end: 75408
+line_start: 74139
+line_end: 74353
 dependencies:
   - "A.10"
   - "A.17"
@@ -49,7 +49,7 @@ C.31 defines and constrains modularity and reusable-structure characteristic ass
 
 #### C.31:4.1 - Ordinary output: `ModularityVectorLite`
 
-`ModularityVectorLite` is the ordinary output. It names at most three characteristics under evaluation because the first task is to find the next repair, not to audit all possible modularity interpretations.
+The ordinary output is a small account of the characteristics that explain the difficulty and what follows from them. `ModularityVectorLite` can retain it. Its first diagnostic pass names at most three characteristics; later work can extend the account when the question requires it.
 
 ```text
 ModularityVectorLite:
@@ -69,13 +69,13 @@ ModularityVectorLite:
       currentCue:
       repairDirection:
       claimUseClass:
-      forbiddenOverread:
+      forbiddenOverread?:
   observedProblem:
   relatedClaimPatternLocatorsIfClaimed:
   stopCondition:
 ```
 
-The vector is complete enough when it states what can be done next and what cannot be inferred. `relatedClaimPatternLocatorsIfClaimed` is a non-semantic locator field: if a characteristic is used beyond local repair, the exact subject assertion and its defining or constraining ClaimGraph remain separately required. Architecture scale-preference claims use the predicate defined in `C.31.ASAP`.
+The account is complete enough when it answers the architecture question or identifies the next warranted repair. State a blocked inference when a plausible intended reader could make it here and the distinction matters. `relatedClaimPatternLocatorsIfClaimed` locates a governing pattern; it supplies neither the claim nor its grounds. Further use needs the actual subject, assertion and applicable rule. Exact rule identity is required only under section 4.3. Architecture scale-preference claims use `C.31.ASAP`.
 
 #### C.31:4.1a - Filled `ModularityVectorLite`
 
@@ -86,7 +86,7 @@ ModularityVectorLite:
   intendedArchitectureUse: choose the next modularity repair for field service and procurement
   claimScopeRef?: field-service and procurement architecture claims
   qualificationWindowRef?: 2026Q2
-  architectureClaimRef?: ArchitectureOf@PumpControllerPlatform
+  architectureClaimRef?: ArchitectureClaim@PumpControllerPlatform
   selectedStructureRefs: PumpControllerModuleInterfaceStructure, PumpControllerEvidencePackageStructure
   structureKindRefs: ModuleInterfaceStructure, EvidencePackageStructure
   threeLiveCharacteristicsAtMost:
@@ -114,7 +114,7 @@ Near miss: a high interface-standardization count alone is not a C.31 improvemen
 
 #### C.31:4.2 - Characteristic classes
 
-Every C.31 head is classified before use:
+Identify the classes that apply to the characteristic use. They distinguish requirements and can overlap: a measured temporal relationship used causally needs its measurement, time-window and causal grounds.
 
 | Class | Use | Boundary |
 | --- | --- | --- |
@@ -123,13 +123,13 @@ Every C.31 head is classified before use:
 | `LensBackedCharacteristic` | The head depends on a model description or mathematical lens, such as compression or RG or coarsening lens. | Apply C.29 for lens use that changes action. |
 | `TemporalOrScaleCharacteristic` | The head depends on time window, repeated instance, scale variable, aggregation scope, or source-return condition. | Apply `C.31.ASAP` for architecture scale preference, `C.27` for temporal adequacy, and `C.18.1` or `C.19.1` when scale-law or general BLP preference claims are being made. |
 | `CausalUseSensitiveCharacteristic` | The interpretation is used to claim effect or intervention success. | Apply C.28 before relying on the claim causally. |
-| `ReportOnlyProxy` | The interpretation is only a local diagnostic or communication aid. | State forbidden overread and the subject pattern needed for any beyond-local-repair use. |
+| `ReportOnlyProxy` | The interpretation is only a local diagnostic or communication aid. | Preserve its stated scope and relevant limits; use the applicable subject rule before stronger reliance. |
 
 In C.31, `declared basis` and `comparability basis` name C.16-compatible measurement or comparison fields. They are not generic reason words and are not substitutes for evidence, assurance, cause, source, decision, or architecture-description relations.
 
 #### C.31:4.3 - Measurement-head mapping
 
-When a head becomes decision-facing or publication-facing, create `MeasurementHeadMapping` before relying on it:
+When a proposed comparison or decision relies on a measurement head whose meaning or admissible operations remain unresolved, recover the following mapping. Reuse an adequate existing account; the form is optional.
 
 ```text
 MeasurementHeadMapping:
@@ -144,8 +144,8 @@ MeasurementHeadMapping:
   evidenceProvenanceRelationRefs?:
   sourceRelationRefs?:
   evidenceClaimAbsentBecause?:
-  commonFalseUse:
-  nonAdmissibleUse:
+  commonFalseUse?:
+  nonAdmissibleUse?:
   repairAction:
   relationFunctionClaimRef?:     # only when this use depends on exact rule identity
   authoritySourceRef?:           # only when a non-pattern source carries relevant authority
@@ -155,11 +155,11 @@ Use an ordinary PatternID to locate the rule. Under E.10 L-EPI-PUB, relationFunc
 
 For example, an ordinary InterfaceStandardizationShare account states its subject, the counted interface population, conformance specification, ratio Scale, source/test basis and limitations. It needs no extra rule-identity claim merely to describe that share. If a comparison combines two editions that count partial conformance differently, cite the exact defining predicates through relationFunctionClaimRef before treating their shares as comparable. The comparison still needs its actual measurement and evidence basis; citing the predicate supplies neither test results nor assurance.
 
-This mapping is not a measurement template by itself. It prepares a C.16-compatible characteristic card or a report-only boundary. When the head is decision-facing or publication-facing, the mapping names required evidence plus at least one evidence relation, evidence-provenance relation, or source relation. If no evidence claim is being made, `evidenceClaimAbsentBecause` states why the head remains local, report-only, or repair-only.
+This mapping prepares a C.16-compatible measurement or a report-only interpretation; it does not supply observations or a measurement procedure. Recover the evidence or source relations that the actual claim relies on. Use `evidenceClaimAbsentBecause` only when the receiving use needs an explanation of that absence; a local cue needs no invented evidence claim. Sharing a bounded account preserves its existing qualification.
 
 #### C.31:4.4 - C.31 characteristic card
 
-Use the full card only when the use goes beyond local repair:
+Use the full card when retaining or comparing the characteristic requires these distinctions. An existing adequate account can carry them:
 
 ```text
 ModularityCharacteristicCard:
@@ -177,14 +177,14 @@ ModularityCharacteristicCard:
   evidenceClaimAbsentBecause?:
   proxyRisk:
   auditQuestion:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
   repairAction:
   relatedClaimPatternLocators:
   relationFunctionClaimRef?:     # same rule-identity condition as MeasurementHeadMapping
   authoritySourceRef?:           # relevant non-pattern authority, when used
 ```
 
-Each card states its own C.16 well-formedness fields: characteristic, scale, unit or unitless interpretation, declared measurement basis, comparability basis, evidence relation, evidence-provenance relation, source relation, or evidence-claim-absent reason, non-admissible use, and repair action. When source material is used as evidence, the source relation is named. A source checklist, source-discharge slice, dashboard label, or inherited score is not enough.
+A measurement or comparison states the characteristic, bearer, scale, unit interpretation, measurement or comparison basis, and evidence on which it relies under C.16. Retain relevant limits and any warranted repair. When source material is used as evidence, identify that source relation. A checklist, dashboard label or inherited score supplies no missing basis. The optional card organizes this content; it does not make a qualitative diagnostic cue a measurement.
 
 #### C.31:4.5 - Seed characteristic heads and repair actions
 
@@ -220,7 +220,7 @@ C.31 uses residual heads only as qualitative repair cues. These heads do not cre
 | Head | Meaning | Related claim pattern locator and assertion requirement | Risk | Repair direction |
 | --- | --- | --- | --- | --- |
 | ComplexityGrowthPressure | Pressure to add, split, mediate, or stabilize a declared aggregation scope, interface grammar, control relation, evidence scope, work-method scope, abstraction scope, or source-return condition. | C.30.ILC, C.31.ASAP when an architecture scale-preference claim is being made, G.5, C.11 | treating more apparatus as progress | name the pressure and the repair direction; use set-return or decision patterns when the corresponding claim is being made |
-| `FrustrationResidual` | Persistent cross-scope residual after local repair. | `C.30.ILC`, C.29-local cross-scope lens claim | turning a lens-backed interpretation into proof | keep as residual cue or apply C.29 or C.30.ILC |
+| `FrustrationResidual` | Persistent cross-scope residual after attempted local repair or a stated reason for its insufficiency. | `C.30.ILC`, C.29-local cross-scope lens claim | turning a lens-backed interpretation into proof | keep as residual cue or apply C.29 or C.30.ILC |
 | `ConflictResidualSlope` | Residual grows or shrinks over declared scale variable, scale window, or coarse-graining scale. | `C.31.ASAP`, `C.29`, `C.27`, `C.18.1`, `C.19.1` | treating two points as universal law | declare window, lens-use boundary, and measurement basis or stop at report-only |
 | `DeclaredScopeAdditionCost` | Added work, evidence, change-policy, latency, observability, accountability, or interface cost from a new declared aggregation or control scope. | `C.16`, `C.31`, `C.30.LCA` | ignoring the cost of added structure | identify cost bearer and apply the measurement pattern if used for comparison |
 | `BespokeResidueGrowth` | One-off exceptions grow with deployment spread, regulation, or project repetition. | `C.31.RSA`, `C.31.ASAP` when an architecture scale-preference claim is being made | assuming all bespoke work is bad | split useful exception from repairable residue |
@@ -230,7 +230,7 @@ C.31 uses residual heads only as qualitative repair cues. These heads do not cre
 
 #### C.31:4.7 - Proxy-risk discipline
 
-Every decision-facing C.31 card includes `proxyRisk` and `auditQuestion`. If the proxy diverges from the value it was meant to represent, the card stops at report-only use or returns to repair.
+When a decision relies on a proxy, identify how it could diverge from the intended value and how that divergence would be detected. The card can retain these as `proxyRisk` and `auditQuestion`. An observed divergence blocks the unsupported value inference; the measured proxy can remain a valid report within its scope.
 
 | Head | Proxy risk | Audit question |
 | --- | --- | --- |
@@ -253,8 +253,8 @@ Lower or reopen a `ModularityVectorLite`, `ModularityCharacteristicCard`, or rep
 - measurement basis, comparability basis, scoring method, codomain, polarity, unit policy, or declared characteristic basis changes;
 - evidence relation, evidence-provenance relation, source relation, evidence-claim-absent reason, or source-return condition changes;
 - described holon, architecture question or intended use, ClaimScope or qualification window, architecture claim, structure kind, characteristic head, or repair direction changes;
-- a report-only proxy is used for comparison, selection, publication, assurance, benchmark, causal-use, cross-case reuse, decision, procurement, or architecture scale-preference;
+- a report-only proxy is used to support a stronger comparison, assurance, causal, selection or scale-preference claim; simply publishing its qualified local meaning does not create that stronger use;
 - `C.31.RSA`, `C.31.ASAP`, `C.16`, `C.25`, `C.29`, `C.30.STRAT`, `A.6.M`, `C.30`, `C.30.ASV`, `A.10`, `B.3`, `A.20`, `A.21`, `G.5`, or `C.11` changes the boundary for the neighboring claim being made.
 
-Admissible repair results are: keep the result report-only, split or rename the characteristic head, update basis or evidence fields, revise the repair direction, change `relatedClaimPatternLocatorsIfClaimed`, lower a score to a local proxy, or stop C.31 use for the beyond-local-repair claim and constitute the exact subject assertion under its predicate.
+Admissible repair results are: keep the result report-only, split or rename the characteristic head, update basis or evidence fields, revise the repair direction, change `relatedClaimPatternLocatorsIfClaimed`, lower a score to a local proxy, or stop the unsupported use and establish the required subject claim under its applicable rule.
 

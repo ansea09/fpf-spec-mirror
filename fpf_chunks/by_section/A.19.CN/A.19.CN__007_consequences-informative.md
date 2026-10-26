@@ -6,12 +6,12 @@ section_id: "A.19.CN:6"
 section_title: "Consequences (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__007_consequences-informative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:6 — Consequences (informative)"
-line_start: 37015
-line_end: 37023
+line_start: 36285
+line_end: 36293
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -39,8 +39,8 @@ keywords:
 
 | Benefit                           | Why it matters                                                                                                        |
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Auditable comparability**       | Chart + declared normalization (UNM + NormalizationMethods) make “same number” meaningful; silent re‑basings become explicit, reviewable choices.                   |
+| **Auditable comparability**       | Chart and any required normalization expose the basis on which equal numbers may be compared; changes to that basis remain visible.                   |
 | **Safe roll‑ups**                 | Γ-folds preserve only the properties justified by the named quantity, operation and dependency model.                                    |
-| **Pluralism without incoherence** | Bridges with CL and loss notes allow federation without pretending to global sameness.                                |
+| **Pluralism without incoherence** | Obtaining Bridges and separately grounded use claims support the stated cross-local reuse; apply CL and loss rules when that use requires them.                                |
 | **RSG‑ready**                     | Admission checklists let **RSG** states reference **CN‑frame‑backed** facts (e.g., *Ready* requires characteristics within bounds). |
 

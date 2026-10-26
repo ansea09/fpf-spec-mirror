@@ -6,12 +6,12 @@ section_id: "A.20:7"
 section_title: "Check the ordinary local result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__009_check-the-ordinary-local-result.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:7 — Check the ordinary local result"
-line_start: 40270
-line_end: 40289
+line_start: 39454
+line_end: 39473
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,7 +37,7 @@ For an ordinary A.20 use, check only these five points:
 2. **Case and applicability (`CC-A20-2`).** State the assumptions, case facts, scope, evaluation window, and why the constraint is `required`, `optional`, or `notApplicable`.
 3. **Evaluation and outcome (`CC-A20-2`).** Record `evaluated` or `notRun`. For an evaluated applicable constraint, record `satisfied`, `violated`, `unknown`, or `error` under the constraint's own outcome rule.
 4. **Support (`CC-A20-1`).** Give the witness, counterexample, missing-information reason, or error reason that supports that result.
-5. **Complete summary (`CC-A20-3`).** Use `ConstraintValiditySummary=satisfied` only when every constraint in the complete declared required set was evaluated and satisfied.
+5. **Complete summary (`CC-A20-3`).** Use `ConstraintValiditySummary=satisfied` only when the complete declared required set is nonempty and every member was evaluated and satisfied.
 
 A specialist constraint such as a stability bound, return-shape condition, or retargeting invariant is present only when its trigger in section 4.3 applies (`CC-A20-4`).
 

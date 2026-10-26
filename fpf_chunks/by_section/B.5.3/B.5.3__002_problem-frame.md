@@ -6,12 +6,12 @@ section_id: "B.5.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "B.5.3 — Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)"
   - "B.5.3:1 — Problem Frame"
-line_start: 50589
-line_end: 50594
+line_start: 49757
+line_end: 49762
 dependencies:
   - "A.13"
   - "A.15"

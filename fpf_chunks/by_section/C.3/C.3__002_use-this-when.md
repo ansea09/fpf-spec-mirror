@@ -6,23 +6,24 @@ section_id: "C.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:0 — Use This When"
-line_start: 54927
-line_end: 54940
+line_start: 54068
+line_end: 54081
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
+  - "A.22"
   - "A.22.CGUS"
   - "A.6.0"
   - "A.7.1"
   - "A.8"
+  - "B.3.5"
   - "C.2.1"
   - "C.29"
-  - "C.3"
   - "C.3.1"
   - "C.3.2"
   - "C.3.3"
@@ -49,11 +50,11 @@ Use this pattern when a claim needs a reusable kind, a subkind comparison, a jud
 
 **What goes wrong if missed.** A source type, practice label, programming class, schema label, mathematical set, or public `U.*` name starts doing several jobs at once. A source boundary splits one unchanged kind; several kinds inside one source collapse; the kind is confused with its declaration; evidence is treated as membership; a non-applicable request becomes `unknown`; or a current extension becomes ontology.
 
-**What this buys.** A practitioner can recover the kind's membership distinction, the declaration used to classify, an admissibility result, one three-valued judgment when admissible, and any optional extension representation while leaving source provenance, direct world-side conditions, evidence, scope, Work, and public naming with their own patterns.
+**What this buys.** A practitioner can classify an admissible candidate under a known kind without confusing the kind, its declaration and the judgment. A represented set of current members remains available when a query needs it; the conditions being classified retain their own rules.
 
 **Primary EntityOfConcern.** One typed-reasoning question: the exact `U.Kind` individual, its intended candidate domain and membership distinction, any `U.SubkindOf` comparison needed by the claim, and the C.3.2 candidate question the use actually asks. The exact `KindSignature` edition carries the effective `U.ReferenceScheme` in its claim content; the scheme and practice/source provenance are not stored on the kind.
 
 **First useful move.** Write the ordinary conclusion first. For example: `Pump #14 counts as a cooling pump in this plant slice because it satisfies the declared cooling-pump condition.` Add a reusable declaration, admissibility detail, explicit judgment, support reference, or extension representation only when a named receiving use needs it.
 
-**Not this pattern when.** Use `E.24.UK` when the question is admission of another durable public FPF U-kind. Use the direct subject pattern when the question is whether a physical quality, relation, registration, certification, publication occurrence, Work, or other governed condition obtains. Use `A.2.6` for claim, work, or publication scope and `C.29` for a claim-bearing mathematical representation.
+**Not this pattern when.** Use `E.24.UK` when the question is admission of another durable public FPF U-kind. Use the direct subject pattern when the question is whether a physical quality, relation, registration, certification, publication occurrence, Work, or other governed condition obtains. Use `A.2.6` for claim, work, or publication scope and `C.29` when a separate mathematical representation or transfer question remains.
 

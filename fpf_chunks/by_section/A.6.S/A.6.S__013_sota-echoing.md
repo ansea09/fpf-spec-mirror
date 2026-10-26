@@ -6,12 +6,12 @@ section_id: "A.6.S:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__013_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:11 — SoTA-Echoing"
-line_start: 25379
-line_end: 25392
+line_start: 24932
+line_end: 24945
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -41,14 +41,14 @@ keywords:
 ### A.6.S:11 - SoTA-Echoing
 
 * **Adopt: algebraic effects and effect systems separate operation signatures from handler semantics.**
-  Contemporary effect systems emphasise that an operation signature can be described independently of how effects are handled. A.6.S adopts that separation here: the TargetSignature remains the boundary declaration, while any operation application, construction Work, and operational enforcement remain separately identified. This echoes row-typed algebraic effects and modern handler formulations (Leijen 2017; Hillerström & Lindley 2018).
+  The cited effect-system work describes operation signatures independently of how effects are handled (Leijen 2017; Hillerström & Lindley 2018). A.6.S adopts that separation: a TargetSignature declares the boundary, while operation application, construction Work and operational enforcement retain their own identities and rules.
 
 * **Adapt: categorical optics treat “focus” and “round‑trip laws” as a disciplined interface for bidirectional structure.**
-  Optics offer a compact mathematical language for “what is preserved” under a transformation and when updates are coherent. A.6.S adapts this mindset to boundary evolution: viewing corresponds to projection, and retargeting corresponds to an explicit transition with stated preservation claims. Profunctor optics provide a post‑2015 reference point for this style of interface reasoning (Pickering, Gibbons & Wu 2017).
+  Categorical optics make preservation and round-trip laws explicit for bidirectional structure (Pickering, Gibbons & Wu 2017). A.6.S adapts the practice of stating the laws a constructor use needs. An A.6.3 viewing or A.6.4 retargeting still follows its own rule; this analogy alone establishes neither an optic nor a round-trip law for a particular constructor.
 
 * **Adapt: architecture-description practice relates views to viewpoints and stakeholder concerns.**
   ISO/IEC/IEEE 42010:2022 contributes that discipline. FPF's local adaptation identifies the exact `U.Viewpoint` episteme and tests the selected episteme's `U.View` membership through E.17.0 conformance; a publication face remains the separate form over its source for a bounded reader/use, with membership and A.6.3 construction conditional under §4.4. Any separate `responsibility` or `view-accountability` claim needs its actual participants and governing predicate. A ConstructorSignature is added only when a named receiver reuses the view-producing operation declaration; it is not required to explain how every view was produced.
 
 * **Adopt in spirit: behavioural protocol disciplines treat boundaries as typed interaction protocols with safety commitments.**
-  Session and behavioural type practice treats boundaries as protocols with progress and safety properties, which matches the A.6 split between signature laws and mechanism entry gates. A.6.S does not import tooling or typechecking, but it adopts the practice of making boundary interactions explicit and law‑governed (e.g., modern MPST practice as cited in A.6.1).
+  Session and behavioural type practice treats boundaries as protocols with progress and safety properties, which matches the A.6 split between signature laws and mechanism entry gates. A.6.S does not import tooling or typechecking, but it adopts the practice of making boundary interactions explicit and law‑governed (the MPST sources discussed in A.6.1).
 

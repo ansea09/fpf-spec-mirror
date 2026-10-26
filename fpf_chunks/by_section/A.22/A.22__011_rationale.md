@@ -6,12 +6,12 @@ section_id: "A.22:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:10 — Rationale"
-line_start: 41097
-line_end: 41104
+line_start: 40265
+line_end: 40272
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -71,7 +71,7 @@ keywords:
 
 FPF needs one general selected-structure kind because many useful claims depend on organization before they depend on a specific architecture, mathematical, measurement, or publication pattern. The selected structure is dependent and non-agentive. Claims about it are carried by separate epistemes and views: it can be described, sourced, compared, coarsened, extracted, or used by architecture.
 
-The selected design keeps A.22 small enough for first use. A practitioner can write one `StructureQuestionCard@Project` and stop. Heavier describing-use viewpoint selection, independently selected model-use structure, A.6.6 base-dependence, extraction, lens, evidence, and structure-use return records are used only when the next use would otherwise hide loss, source-basis dependence, or a non-structure claim kind.
+A practitioner can state the four identity values and stop when they answer the receiving question. `StructureQuestionCard@Project` is one optional aid. Heavier describing-use viewpoint selection, independently selected model-use structure, A.6.6 base-dependence, extraction, lens, evidence, and structure-use return records are used only when the next use would otherwise hide loss, source-basis dependence, or a non-structure claim kind.
 
 C.30 defines the direct `ArchitectureRelation` between one exact holon and one selected A.22 structure. An architecture claim states whether that relation obtains, or describes candidate or expected structure. Architecture descriptions and views are epistemes; publication makes them available. A.22 supplies the selected structure and its identity basis.
 

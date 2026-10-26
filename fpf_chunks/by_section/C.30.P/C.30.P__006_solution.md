@@ -6,12 +6,12 @@ section_id: "C.30.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:4 — Solution"
-line_start: 72878
-line_end: 72926
+line_start: 71837
+line_end: 71885
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,7 +62,7 @@ keywords:
 
 Repair architecture or structure wording by producing an `architecture-structure repair note` or an equivalent local rewrite.
 
-Minimum fields:
+An optional note can organize the following information; include only what the repair needs:
 
 ```text
 ArchitectureOrStructureRepairNote:
@@ -90,13 +90,13 @@ Use the note only when the repair must remain inspectable. A direct local rewrit
 
 #### C.30.P:4.1 - Recovery sequence
 
-1. **Capture the trigger.** Copy the architecture or structure wording and the sentence that uses it.
-2. **Recover the encountered FPF kind or reference.** Decide whether the text points to a selected structure, architecture claim, description, view, diagram, graph, model, dashboard, ADR, source document, carrier, publication, stratification-wording case or source-label case for `C.30.STRAT`, function, module-interface relation, signature, flow, control, score, quality term, evidence, gate, work, decision, release, or ordinary prose.
+1. **Read the span.** Read the architecture or structure wording in its sentence and the nearby context needed to recover its meaning. Keep a copy only when the repair needs an inspectable record.
+2. **Recover the object and claim.** Identify the subject, predicate, participants and intended use. Distinguish, for example, a selected structure from its description, or an architecture claim from a score or decision. Use the assignment table below for the unresolved kind; keep ordinary prose when no formal distinction changes the claim.
 3. **Recover source-publication relations before architecture assignment.** If the wording relies on a source, publication, view, face, `PublicationUnit`, dashboard, ADR, file, carrier, or source-return relation and a source-use, source-currentness, or publication distinction remains hidden, apply `C.2.P` before assigning the architecture or structure claim. If that distinction and its subject pattern are already recoverable, use the subject pattern directly.
 4. **Choose the subject pattern for the architecture or structure use.**
    - selected structure -> `A.22`;
-   - `ArchitectureOf@Context`, selected architecture-relevant structure, or thin conditional `ArchitectureDescription@Context` bridge use -> `C.30`;
-   - full `ArchitectureDescription@Context` mechanism -> `C.30.AD`;
+   - `ArchitectureRelation`, bounded `ArchitectureClaim`, or its initial description question -> `C.30`;
+   - architecture-description identity, correspondence or use -> `C.30.AD`;
    - architecture structural view -> `C.30.ASV`;
    - architecture transformation-flow relation -> `C.30.TFS-REL`;
    - control-structure view -> `C.30.LCA`;
@@ -104,6 +104,6 @@ Use the note only when the repair must remain inspectable. A direct local rewrit
    - stratification wording or source-label wording such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` -> `C.30.STRAT` while the label's technical meaning remains unclear, before choosing the final subject pattern;
    - named C.30 subcase -> that subpattern.
 5. **Assign non-architecture claims to their subject patterns.** If the sentence uses architecture wording to carry relation, function or functionality, mathematical-lens, characteristic and scale, quality, evidence, assurance, gate, work, decision, causal-use, release, or method claim, apply the subject pattern for that claim and keep this pattern only for the architecture or structure wording repair.
-6. **State admissible and non-admissible use.** Say what the reader may do with the repaired wording and what non-admissible adjacent interpretation is blocked.
+6. **Preserve the useful conclusion.** State what the repaired wording supports. Add a blocked interpretation only when a plausible reader could take it here and the distinction changes the conclusion or action.
 7. **Stop C.30.P after assignment.** Stop after the subject pattern or ordinary-prose demotion is named.
 

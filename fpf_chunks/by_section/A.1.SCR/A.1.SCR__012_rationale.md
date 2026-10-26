@@ -6,12 +6,12 @@ section_id: "A.1.SCR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:10 — Rationale"
-line_start: 3746
-line_end: 3751
+line_start: 3741
+line_end: 3746
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -26,7 +26,7 @@ keywords:
 
 ### A.1.SCR:10 - Rationale
 
-The smallest reusable repair is a conditional MethodDescription, not a new kind or universal router. A.1 supplies the system-recognition predicate. A.1.SCR contributes a working situation, subject-pattern result, complete-test branch, decision-bearing results, project-designation guard, and migration cases. This prevents ontology work from becoming a ritual, prevents a familiar noun from selecting an actor or project system-of-interest, and prevents a convenient neighboring referent from erasing an exact proposed-system reading before evaluation.
+The conditional route preserves two useful results: a direct subject-pattern answer when systemhood does not change the decision, and a complete A.1 recognition result when it does. Keeping the proposed entity fixed through that choice prevents a familiar noun or a convenient neighboring referent from selecting a different actor, change bearer or project target. Project designation remains a separate claim.
 
 Extent-sensitive identity remains useful because it forces the practitioner to state what exists and survives change. Unrestricted composition and category import remain rejected. The seven cases demonstrate transfer across domains without asserting a common kind.
 

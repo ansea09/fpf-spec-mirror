@@ -6,12 +6,12 @@ section_id: "C.39.RP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:6 — Bias-Annotation"
-line_start: 83596
-line_end: 83605
+line_start: 82421
+line_end: 82430
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

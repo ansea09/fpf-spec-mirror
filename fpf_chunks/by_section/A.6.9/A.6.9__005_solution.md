@@ -6,15 +6,16 @@ section_id: "A.6.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:4 — Solution"
-line_start: 24819
-line_end: 24974
+line_start: 24377
+line_end: 24531
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.6"
   - "A.2.1"
@@ -58,11 +59,11 @@ keywords:
 
 Treat an umbrella sameness sentence as a **dispatch trigger**, not as an automatic Bridge and not as a demand for a card. Recover the concrete subject and action first. Then choose the smallest truthful branch:
 
-1. **Ordinary designation inside one semantic bounded context.** If both expressions resolve to the same exact `<ReferenceScheme, LocalSenseClaim>` projection, use the ordinary naming pattern and stop. When only the admitted extent of that claim changes, apply A.2.6 `widen`, `narrow`, or `refit`. No F.9 Bridge is current.
+1. **Ordinary designation inside one semantic bounded context.** If both expressions resolve to the same exact `<ReferenceScheme, LocalSenseClaim>` projection, keep ordinary designation and stop; use F.18 only when a durable name is needed. When only the admitted extent of that claim changes, apply A.2.6 `widen`, `narrow`, or `refit`. No F.9 Bridge is current.
 2. **Lane or reference-plane repair.** If the sentence confuses Object, Description, Carrier, or `CHR:ReferencePlane`, restore the exact kinds under A.7 or the governing plane rule.
 3. **Identification or indexing.** If the sentence means same id, key, code, or index target, use A.6.6. Identifier equality does not establish meaning correspondence.
 4. **Scope operation.** A.2.6 is the pattern for `widen`, `narrow`, `refit`, and `translate` over exact scope values; when the sentence concerns claim extent, recover the exact `U.ClaimScope`. `translate` may consume an independently obtaining F.9 Bridge and a separate affirmative claim for that exact direction, rule, and tolerance; it is neither representation Work nor a structure crossing.
-5. **Other locality hidden by context wording.** Route interpretation to the effective `U.ReferenceScheme`; claim extent to `U.ClaimScope`; empirical grounding to one exact `EpistemeEmpiricalGroundingRelation`; time to the qualification window required by the temporal predicate; project wording to an exact composite `U.Work` under A.15.6; viewpoint use to the E.17.0 viewpoint relation and one `U.ViewpointRef` resolving exact P; and any world-side subject claim to the pattern that defines its relation predicate and obtaining condition. A bare context word supplies none of these governed objects or claims.
+5. **Other locality hidden by context wording.** Route interpretation to the effective `U.ReferenceScheme`; claim extent to `U.ClaimScope`; empirical grounding to one exact `EpistemeEmpiricalGroundingRelation`; time to the qualification window required by the temporal predicate; a deliberately asserted actual composite project Work to A.13, independent A.15.1 admission and A.15.6; viewpoint use to the E.17.0 viewpoint relation and one `U.ViewpointRef` resolving exact P; and any world-side subject claim to the pattern that defines its relation predicate and obtaining condition. A bare context word supplies none of these governed objects or claims.
 6. **Representation transition.** A representation change is not a Bridge. For ordinary A.6.3.RT use, name the same concern, content to survive, target representation, source comparison, admissible use boundary, and source-return trigger and destination. When cross-scheme dependency or reliance makes exact claim identity material, independently constitute source episteme `X` and receiving episteme `Y`, require `EntityOfConcern(X)=EntityOfConcern(Y)` exactly, and state exact `v : X -> Y` with scheme relation, preservation, loss, and prohibited strengthening. Assert `RepresentationSchemeTransitionRelation@Context` only when every six-participant obtaining condition and actual dated representation-transformation Work are present; performed Work alone neither proves `v` nor makes that relation obtain. A Bridge supplies neither `v` nor the Work and makes no transition occurrence obtain.
 7. **Structure comparison or crossing.** Recover each exact `BoundedModelUseStructure` independently, then apply the conditional A.22 cross-structure rule in §4.8 only if exact governed subject crossings and a named receiving use remain. A SenseCell Bridge, label, diagram, shared participant, or reference supplies neither structure selection nor crossing; without an exact direct crossing governor, return the A.6.RCD missing-governor stop.
 8. **Cross-local semantic relation.** Resolve two exact F.17 `SchemeSenseCell` values from different semantic bounded contexts, declare the F.9 relation-semantic profile, and cite a Bridge only when its predicate obtains. Scheme difference, same spelling, a mapping witness, or two endpoint references alone establishes no Bridge.
@@ -80,7 +81,7 @@ If the dispatch leaves a semantic-correspondence question, resolve the local sen
 
 Pin the endpoint reference-scheme and local-sense-claim editions, or an exact as-of basis, when the correspondence can change with a canon or model edition. `Γ_time` may be used as a compact card label for that basis. It is not a participant. It contributes to profile identity only when it states the profile's exact applicability or as-of basis.
 
-Before testing a Bridge, check ontological strata. C.3.3 establishes only the exact `KindBridge` between source and target local kinds. C.3.2 makes a fresh target classification judgment under the target `KindSignature` edition and slice. Use the pattern that defines the measurement claim for value normalization, A.2.1 for system-role assignment, F.6 for performed-Work attribution, E.24.PUB for publication occurrence, form, and carrier, and A.6.3.RT for representation transition. F.9 can supply a semantic premise needed by one of those claims; each neighboring claim obtains only under its named subject pattern.
+Before testing a Bridge, check ontological strata. C.3.3 establishes only the exact `KindBridge` between source and target local kinds. C.3.2 makes a fresh target classification judgment under the target `KindSignature` edition and slice. Use the pattern that defines the measurement claim for value normalization, A.2.1 for system-role assignment, A.13 and independent A.15.1 admission for actual Work, with F.6 only for precise assignment-bound attribution, E.24.PUB for publication occurrence, form, and carrier, and A.6.3.RT for representation transition. F.9 can supply a semantic premise needed by one of those claims; each neighboring claim obtains only under its named subject pattern.
 
 #### A.6.9:4.1 - Stable lens: relation, use claim, reliance, and receiving object
 
@@ -103,7 +104,6 @@ Changing `u`, `d`, `r`, or `t` changes the bounded-use claim, not the Bridge. Ch
 #### A.6.9:4.2 - Explicit claim skeleton
 
 Use this table for the semantic branch. The action, direction, rule, and tolerance rows apply only to a proposed use of an obtaining Bridge.
-
 
 | Item | When required | Meaning and stop |
 | --- | ---: | --- |
@@ -131,10 +131,10 @@ Choose the least-committing truthful Bridge kind: `Equivalence`, `Narrower-than`
 If a Bridge obtains and a use is proposed, judge that use separately:
 
 * `Partial-overlap` can support an affirmative label-use claim when its exact rule preserves the named differences; the Bridge does not grant that use automatically.
-* `Disjoint` can support a contrastive explanation; a proposed substitution receives negative polarity.
+* `Disjoint` can support a contrastive explanation. A substitution that requires shared meaning receives negative polarity; other proposed uses still need their own rule and tolerance.
 * `Equivalence` is symmetric, but `A -> B` and `B -> A` are different use claims.
 * `Narrower-than` and `Broader-than` orient the semantic relation. Narrower-to-broader is usually easier to warrant, but every use direction still needs its own rule, tolerance, and polarity; recover reliance when someone will rely on that claim.
-* A broader-to-narrower proposal normally requires refined cells and a separately tested Bridge. Another profile over the same broad endpoints cannot make an unsafe use safe by declaration.
+* For a broader-to-narrower use, establish the target conditions required by that use. This may require fresh classification, a bounded use restricted to qualifying cases, or refined cells with a separately tested Bridge. Merely changing a profile cannot make an unsupported use safe.
 * Type-structure reuse requires a separate claim naming the structural rule and loss tolerance. Matched invariants can support that claim; no `CL` number grants it.
 
 `CL` may remain optional evidence shorthand: `0` contradicted, `1` weakly comparable, `2` bounded support with counterexamples, `3` matched stated invariants with no current material counterexample. It is neither profile identity nor a suitability threshold.
@@ -154,19 +154,19 @@ An inverse asymmetric relation and any direct A-to-C relation require their own 
 
 #### A.6.9:4.4 - Lexical guardrails
 
-In normative or decision-carrying prose, replace the umbrella word with a sentence that exposes the action and stop:
+When normative or decision-carrying wording leaves its meaning unresolved, expose the action and any necessary stop:
 
 | Intended meaning | Plain action | Exact follow-through |
 | --- | --- | --- |
-| ordinary same-context designation | “Both expressions designate this local sense.” | Cite the common projection and naming pattern; no Bridge. |
-| cross-family semantic interpretation | “Use A to explain B; do not substitute it.” | Test the cross-family Bridge. Use it for explanation only when it obtains and a separate affirmative explanation-use claim states its nearest non-use. |
+| ordinary same-context designation | “Both expressions designate this local sense.” | Make the common interpretation recoverable; use F.18 only for durable naming. No Bridge is needed. |
+| cross-family semantic interpretation | “Use A to explain B by rule R.” | Test the cross-family Bridge and the separate explanation-use claim. State a non-use restriction only when its independently grounded contrast changes this use. |
 | naming convenience | “Use the label ‘actor’ in this comparison; keep account and customer eligibility distinct.” | Obtaining Bridge plus a C.2.1 claim naming direction, label rule, and zero tolerance for eligibility transfer. |
-| directional substitution | “For calculation X, read A as B by rule R within tolerance T; do not reverse it.” | Obtaining Bridge, affirmative claim for `<X,A->B,R,T>`, and current A.10 or B.3 reliance. |
+| directional substitution | “For calculation X, read A as B by rule R within tolerance T.” | Obtaining Bridge, affirmative claim for `<X,A->B,R,T>`, and current A.10 or B.3 reliance. A proposed reverse use requires its own claim. |
 | type-structure reuse | “Reuse this subtype row only while invariants I remain true and loss stays within T.” | Obtaining Bridge plus a separately warranted structural-use claim. |
-| contrast | “These senses differ in this stated way; do not substitute them.” | Obtaining `Disjoint` or `Partial-overlap` Bridge plus negative substitution-use polarity. |
+| contrast | “These senses differ in this stated way.” | An obtaining Disjoint or Partial-overlap Bridge can support the contrast. Judge any proposed substitution separately under its rule and tolerance; contrast alone supplies no blanket prohibition. |
 | unresolved proposal | “The mapping is available, but the semantic relation is not established.” | Candidate card or plain stop naming the missing endpoint, predicate fact, or dependency. |
 
-Plain teaching prose may retain *same*, *align*, or *map* when the local sentence tells the reader what to do and what result would reopen the claim. Add a non-inference only when a plausible intended reader could otherwise overread the sentence and the guard changes understanding or action.
+Keep clear same, align or map wording, including in technical prose. Add a non-inference only when the rejected reading has independent local grounds, a plausible intended reader could take it here, and the distinction changes truth, understanding or action. Use the smallest sufficient correction under F.19:4.
 
 #### A.6.9:4.5 - Disambiguation guide
 
@@ -181,7 +181,7 @@ Plain teaching prose may retain *same*, *align*, or *map* when the local sentenc
 
 #### A.6.9:4.6 - Mapping witnesses are not Bridges
 
-A lookup table, aligner model, transformation function, API, or ETL step is an implementation or evidence object. It may support the claim that a Bridge obtains or that one bounded use is suitable. It does not determine either claim by itself. Code may run `A -> B` while the semantic Bridge is symmetric, oriented the other way, or absent; and even an obtaining Bridge may be unsuitable for that operation's rule or tolerance.
+A lookup table, aligner model, transformation function, API or ETL step may implement or represent a mapping. Its content may express claims or supply grounds for a Bridge or a bounded-use judgment; its mere presence or successful execution does not establish either. Code may run A → B while the semantic relation is symmetric, oriented the other way or absent. Even an obtaining Bridge needs a separate judgment for the operation's rule and tolerated loss.
 
 When the mapping witness is used to support a semantic-correspondence claim, keep it in the A.10 evidence path or optional card. Test the F.9 predicate; if a Bridge obtains and a use is proposed, state the C.2.1 bounded-use claim and recover reliance when someone will rely on that claim.
 
@@ -191,13 +191,13 @@ When the mapping witness is used to support a semantic-correspondence claim, kee
 - **Reference scheme and scope:** C.2.1 is the pattern for the effective `U.ReferenceScheme`; A.2.6 is the pattern for `U.ClaimScope`, `widen`, `narrow`, `refit`, and `translate`. A.2.6 translation may consume an exact Bridge plus its affirmative bounded-use claim but is not representation Work or structure crossing.
 - **Grounding:** C.2.1 alone supplies an `EpistemeEmpiricalGroundingRelation`. Its grounding holon is the participant against which covered empirical claims are grounded; it is not assumed identical to the episteme's EntityOfConcern.
 - **Time:** the qualification window is part of the exact temporal or subject predicate and assertion. F.9 profile applicability or `Γ_time` does not become a generic context or time participant for another claim.
-- **Project wording:** A.15.6 recovers an actual project as one exact composite `U.Work` after A.15.1 admission and exact work parthood. Project label, plan, situation word, or Bridge supplies no project identity.
+- **Project wording:** keep an ordinary project label or plan under its own meaning. When an actual composite project Work is deliberately asserted, use A.13, independent A.15.1 admission, and A.15.6 with exact work parthood. A label, plan or Bridge alone establishes no such occurrence.
 - **Viewpoint:** E.17.0 governs the direct `EpistemeViewpointConformanceRelation`; one `U.ViewpointRef` resolves exact viewpoint episteme P. The viewpoint, its reference, candidate/View episteme, and evaluator remain distinct.
 - **Evidence and assurance:** A.10 is the pattern for evidence provenance and local reliance; B.3 is the pattern for assurance claims, records, and explicit dispositions.
 - **Representations and publications:** E.17.0 is the pattern for conformance-dependent View membership, E.24.PUB is the pattern for publication occurrence/form/carrier, and C.29 is the pattern for mathematical-representation objects. A.6.3.RT starts an ordinary same-concern representation move with content to survive, source comparison, loss, admissible use, and the source-return trigger and destination; its triggered exact construction independently identifies `X`, `Y`, and `v`; actual representation-transformation Work is required only for the six-participant occurrence.
 - **Kinds and classifications:** C.3.3 establishes the exact `KindBridge` between source and target local kinds. C.3.2 separately judges the candidate under the target kind, target `KindSignature` edition, and target slice; the result may be `true`, `false`, or `unknown`. F.9 supplies only local-sense correspondence needed by that use.
 - **Structures:** A.1.1/A.22 independently select each exact `BoundedModelUseStructure`; §4.8 applies the descriptive A.22 conditional cross-structure rule only after exact governed crossings and all four structure discriminators are recoverable. A SenseCell Bridge cannot substitute for that architecture.
-- **Direct subject relations, Work, and system-role claims:** every world-side relation has its own exact predicate, participant bindings, and assertion. A.2.1, F.6, A.15.1, and A.15.6 define assignment and exact performed or composite Work predicates; semantic relation, context wording, and use claim have no enactment effect.
+- **Direct subject relations, Work, and system-role claims:** a world-side relation obtains under its own predicate and participant conditions, independently of whether an assertion describes it. A.2.1 governs assignment. Actual Work requires A.13 and independent A.15.1 admission; F.6 applies only for precise assignment-bound attribution, and A.15.6 for the separately claimed composite Work. A semantic relation or use claim establishes none of those occurrences by itself.
 - **Permission:** apply A.2.8.PER and cite the exact result the proposed use needs—an obtaining strong grant, weak non-prohibition finding, exercise relation, or conflict result. Policy and direct predicates supply conditions or grounds but are not the permission result. Any required authority relation remains separate.
 
 #### A.6.9:4.8 - Structure comparison and conditional cross-structure selection
@@ -206,7 +206,7 @@ Use this branch only when the receiving question depends on the organization of 
 
 Next enumerate every actually obtaining subject-crossing occurrence selected for the proposed organization. For each one, name its exact participants, relation kind and predicate, direction when asymmetric, applicability, obtaining result, occurrence identity, and recurrence rule, and test them against the pattern that defines those relation rules. An F.9 Bridge relates exact local senses only. Context labels, edge labels, Cards, registry rows, references, Views, diagrams, and common participants may help locate the proposed crossing's objects or evidence; only an occurrence satisfying its direct governor establishes that crossing. If no current pattern defines a required crossing, stop through A.6.RCD at the exact missing-governor question; do not replace it with a vague edge family.
 
-Only then apply A.22's conditional cross-structure rule for one named receiving or crossing-analysis use. Declare the substrate as the exact independently selected `BoundedModelUseStructure` values; the selected relation organization as the exact obtaining crossing occurrences; the exact applied constraints and invariants; and the use frame as the question, admissible action, and forbidden overread. Those are the four A.22 discriminators. The A.22-local label `CrossContextRelationStructure` serves only as a retrieval aid under that rule; A.6.9 gives it no public-vocabulary use. The resulting `U.Structure` is the dependent organization identified by those four discriminators. Container or holon identity, context grouping, and the crossing occurrences remain governed separately. Any `U.View`, Context Map, diagram, Card, or publication that depicts, packages, or carries the organization retains its own identity and relation to it.
+Only then apply A.22's conditional cross-structure rule for one named receiving or crossing-analysis use. Declare the substrate as the exact independently selected `BoundedModelUseStructure` values; the selected relation organization as the exact obtaining crossing occurrences; the exact applied constraints and invariants; and the use frame as the question, admissible action and necessary use boundary. Those are the four A.22 discriminators. Include an explanatory forbidden reading only under the F.19:4 guard test. The A.22-local label `CrossContextRelationStructure` serves only as a retrieval aid under that rule; A.6.9 gives it no public-vocabulary use. The resulting `U.Structure` is the dependent organization identified by those four discriminators. Container or holon identity, context grouping, and the crossing occurrences remain governed separately. Any `U.View`, Context Map, diagram, Card, or publication that depicts, packages, or carries the organization retains its own identity and relation to it.
 
-When a load-bearing claim says that this organization was selected, separately name the selecting system, exact Method, dated selection `U.Work`, and direct participation relations or A.6.1 bindings. Name the exact selection judgment and its result: when persistence is needed, a C.2.1 result episteme whose exact EntityOfConcern is the selected structure; when an accountable choice is claimed, the exact decision and its direct decision governor. A generic result reference, the dated selection Work, and visible mapping artifacts may designate or warrant the selection claim only through the named relations. They remain outside the structure's four discriminators, and every crossing still obtains only under its direct governor.
+A selected structure can be described by its four discriminators without inventing a dated selection Work. If the claim concerns an actual selection judgment, identify that judgment and result under its own rule; preserve a C.2.1 result episteme with the structure as EntityOfConcern when persistence is needed. If a particular dated selection Work is deliberately asserted, establish its A.13 basis and independent A.15.1 admission, with F.6 only for precise assignment-bound attribution; identify the system, Method and participation or A.6.1 bindings required by that Work claim. An accountable decision additionally needs its own decision rule. These objects remain separate from the structure's four discriminators; every selected crossing still needs its direct governor.
 

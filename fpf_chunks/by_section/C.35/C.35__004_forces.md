@@ -6,13 +6,14 @@ section_id: "C.35:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:3 — Forces"
-line_start: 81308
-line_end: 81318
+line_start: 80135
+line_end: 80145
 dependencies:
+  - "A.13"
   - "A.15.1"
   - "A.15.PROD"
   - "A.2.1"
@@ -63,7 +64,7 @@ keywords:
 | Discovery value vs authority overread | Generated and discovered outputs widen the candidate space; any selection, decision, proof, or realization claim still needs its own rule and support. |
 | Result, proposal, obtaining structure, and representation | Claim-bearing result, modal architecture proposal, obtaining A.22 structure, represented object, representation, publication form or occurrence, and presentation carrier have different identities; include only the distinctions on which the architecture use relies. |
 | Search quality vs architecture adequacy | A Pareto point, benchmark score, archive member, or cluster objective can guide synthesis only through the evidence required by its actual branch and the concrete rule for the next synthesis claim. |
-| Model transformation vs preservation | Graph grammars and model transformations can return useful results, but transformation rules, exact source and result objects, trace, preserved structure, and lost structure matter only in the transformation branch. |
-| Bearer feasibility | A function or relation found by search is architecturally feasible only when an admitted bearer can carry it under constraints. |
+| Model transformation vs preservation | Graph grammars and model transformations can return useful results, but the transformation claim needs its rules, source and result objects, trace and preservation/loss account. An express baseline comparison also needs the preservation relation it claims. |
+| Bearer feasibility | A feasibility claim needs a viable bearer and applicable constraints. The bearer may be proposed; a claim that it actually exists requires its independent admission. |
 | Reusable generator boundary | One-case generated output stays with C.35 and its declared next use; reusable-generator or mechanism-suite claims require the patterns that define or constrain those claims. |
 

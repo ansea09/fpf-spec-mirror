@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__005_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:3 — Forces"
-line_start: 11191
-line_end: 11202
+line_start: 11093
+line_end: 11104
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -26,10 +26,10 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Real practice | Natural Work reveals use and consequences, while many conditions change together. |
-| Intervention clarity | Separate intended changes make learning possible, while programmes prefer one headline. |
+| Intervention clarity | Separate intended changes make learning possible, while one programme label can hide those changes. |
 | Capability | New Work may need development, while A.3.1.MI must not smuggle training in as capability. |
-| Authority and participation | Local change needs authorization and actual performers, while sponsorship and attendance are weaker facts. |
+| Authority and participation | A governed change needs its applicable authorization and actual performers, while sponsorship and attendance are weaker facts. |
 | Time | Later observation is needed, while waiting too long can make sources and alternatives stale. |
 | Contribution | A decision needs a plausible account, while causal isolation is often unavailable. |
-| Revision locality | One defeated claim should reopen one result, while bundled rollout invites whole-programme repair. |
+| Revision locality | A defeated claim should reopen its owner and affected dependents, while bundled rollout invites whole-programme repair. |
 

@@ -6,12 +6,12 @@ section_id: "C.22.2:25"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__026_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:25 — Relations"
-line_start: 64325
-line_end: 64329
+line_start: 63286
+line_end: 63290
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,6 +58,6 @@ keywords:
 
 ### C.22.2:25 - Relations
 
-- Builds on: `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `C.16.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
-- Coordinates with: `C.11`, `C.18`, `C.19`, `C.22.1`, `C.22.PFR`, `A.15`, `A.15.5`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, `E.18`, `E.18.1`, `C.32.P2S`, and `E.10.MOVE`. Use `C.22.PFR` when actual Problem obtaining or identity is current. Use `C.32.P2S` only when a problem-side record exposes architecture pressure that must continue into selected structures, candidate synthesis, decision, realization, actual-structure feedback, or refresh.
+- Builds on: `C.2.1`, `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `C.16.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
+- Coordinates with: `C.11`, `C.18`, `C.19`, `C.22.1`, `C.22.PFR`, `C.24`, `C.27`, `C.28`, `A.15`, `A.15.5`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, `E.18`, `E.18.1`, `C.32.P2S`, and `E.10.MOVE`. Use `C.22.PFR` when actual Problem obtaining or identity is current. Use `C.32.P2S` only when a problem-side record exposes architecture pressure that must continue into selected structures, candidate synthesis, decision, realization, actual-structure feedback, or refresh.
 

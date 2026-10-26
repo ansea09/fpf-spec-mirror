@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:3"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__006_worked-cases.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:3 — Worked Cases"
-line_start: 72717
-line_end: 72738
+line_start: 71685
+line_end: 71706
 dependencies:
   - "A.1"
   - "A.10"
@@ -62,7 +62,7 @@ The engineer names the hospital facility as `builtAssetRef`, recovers the actual
 
 The IFC publication supplies a source-to-use path for the spatial and equipment descriptions while its representation, publication occurrence, form, and carrier stay separate. The telemetry episteme has a currentness boundary and can support separately governed operating-state claims; it is not itself the control structure, an architecture relation, an actual physical transformation, or architecture evaluation.
 
-For the energy use, one current `C.16` measurement-result episteme attributes `112 kWh ± 4 kWh` electrical-energy consumption to air-handling unit `AHU-3` over a declared 24-hour commissioning window. It names the exact measurand, Characteristic, Scale and unit, method and model, calibration basis, dated measurement Work, time stance, and uncertainty. Its source-to-use path cites the meter telemetry and source edition; its `G.11` currentness condition limits use to the named sensor, calibration, model editions, and validity window and reopens that use when one changes. If the engineer claims that the control revision will reduce the daily consumption rate, the action-guiding temporal claim enters `C.27` with the intervention, window, resistance or cost, evidence or assumption relation, supported use, unsupported use, and reopen condition. If that same statement is used to say that the control revision causes the reduction, and causal support makes publication, choice, deployment, assurance, audit, benchmark, or support treatment admissible, `C.28` additionally governs the causal-use class, support basis, supported use, unsupported use, and verdict. `C.27` temporal adequacy does not establish a causal intervention effect, and `C.28` does not replace the `C.16` measurement result, `C.27` temporal claim, or `G.11` currentness boundary. `A.10` and `B.3` still govern material reliance and assurance. Neither the energy view nor the recent reading proves sustainability, smoke-control adequacy, or architecture adequacy.
+For the energy use, one current `C.16` measurement-result episteme attributes `112 kWh ± 4 kWh` electrical-energy consumption to air-handling unit `AHU-3` over a declared 24-hour commissioning window. It names the exact measurand, Characteristic, Scale and unit, method and model, calibration basis, dated measurement Work, time stance, and uncertainty. Its source-to-use path cites the meter telemetry and source edition; its `G.11` currentness condition limits use to the named sensor, calibration, model editions, and validity window and reopens that use when one changes. If the engineer claims that the control revision will reduce the daily consumption rate, the action-guiding temporal claim enters `C.27` with the intervention, window, resistance or cost, evidence or assumption relation, supported use, unsupported use, and reopen condition. For the causal claim that the control revision produces the reduction, `C.28` additionally governs the causal-use class, support basis, supported use, unsupported use, and verdict. `C.27` temporal adequacy does not establish a causal intervention effect, and `C.28` does not replace the `C.16` measurement result, `C.27` temporal claim, or `G.11` currentness boundary. `A.10` and `B.3` still govern material reliance and assurance. With no comparable baseline given, the reading supplies the reported commissioning-window consumption, not a conclusion that consumption fell. Neither the energy view nor the recent reading proves sustainability, smoke-control adequacy, or architecture adequacy.
 
 An air-handling unit has a product-aspect designation and a location-aspect designation. Each designation use names its scheme, selected structure, designated entity, qualification window, and exact direct relation when one obtains. A bounded correspondence claim or obtaining correspondence relation lets the maintenance team retrieve both descriptions without making the product structure identical to the location structure.
 

@@ -6,12 +6,12 @@ section_id: "A.6.B:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__017_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:15 — Relations"
-line_start: 15503
-line_end: 15512
+line_start: 15205
+line_end: 15214
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -52,9 +52,8 @@ keywords:
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
-  - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
-  - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
@@ -66,9 +65,7 @@ keywords:
   - "evaluation"
   - "individual institution"
   - "laws"
-  - "may"
   - "not a duty.)"
-  - "not normative"
   - "observable effects and evidence"
   - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
   - "or (iii) assign responsibility or enforcement (that is D-*)"
@@ -87,7 +84,7 @@ keywords:
 
 * **Used by A.6 and A.6.C:** supplies the canonical matrix and cross-quadrant link discipline. Both consumers classify each exact atomic claim by predicate and adjudication, keep the claim episteme separate from its EntityOfConcern, and use the §8.4.1 branch only when permission wording is live.
 * **Constrains A.6.0 (`U.Signature`):** enforces that `L-*` laws are truth‑conditional and do not include admissibility predicates.
-* **Constrains A.6.1 (`U.Mechanism`):** enforces that admissibility lives in `AdmissibilityConditions` (`A-*`) and that evidence semantics are classified as `E-*` with carrier references.
+* **Constrains A.6.1 (`U.Mechanism`):** places admissibility in `AdmissibilityConditions` (`A-*`) and classifies actual results and evidence claims as `E-*`, adding carrier references when their use requires them.
 * **Requires A.7:** identifies each claim's EntityOfConcern separately from the
   episteme carrying it. The concern may itself be a Description episteme or
   publication carrier.

@@ -6,12 +6,12 @@ section_id: "A.16.0:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:6 — Bias-Annotation"
-line_start: 33975
-line_end: 33977
+line_start: 33506
+line_end: 33508
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -43,5 +43,5 @@ keywords:
 ---
 
 ### A.16.0:6 - Bias-Annotation
-The pattern biases authors toward lineage-aware history accounts rather than stage stories that conflate re-expression with changed claims. That bias is intentional when branch, loss, next-use, actual responsibility, or authority semantics matter. The counter-bias is equally intentional: do **not** publish a trajectory account when a local move note already suffices.
+The pattern biases authors toward lineage-aware history accounts rather than stage stories that conflate re-expression with changed claims. That bias is intentional when branch, loss, next-use, actual responsibility, or authority semantics matter. The counter-bias is equally intentional: reuse sufficient local publication content instead of adding another account.
 

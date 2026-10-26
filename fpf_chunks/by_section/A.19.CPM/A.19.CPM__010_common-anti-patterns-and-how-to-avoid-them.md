@@ -6,12 +6,12 @@ section_id: "A.19.CPM:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 39535
-line_end: 39576
+line_start: 38756
+line_end: 38797
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -33,7 +33,7 @@ keywords:
   *Symptom:* comparison logic embeds winner selection or selected-set truncation.
   *Avoid:* CPM only compares; selection is `SelectorMechanism`, which consumes comparison outcomes and remains policy‑bound.
 
-* **Anti‑pattern: “Comparator by prose or code default.”**
+* **Anti-pattern: Implicit comparator choice.**
   *Symptom:* comparator choice is implicit (e.g., “we usually do lexicographic by safety then cost”), not edition‑pinned.
   *Avoid:* require an explicit `ComparatorSpecRef` from `CG-Spec.ComparatorSet`; the actual `Compare` application binds the effective edition. Recover dated comparison `U.Work` and the A.10 evidence-provenance path under their independent grounds when asserted or consumed (§4.1).
 
@@ -47,7 +47,7 @@ keywords:
 
 * **Anti‑pattern: “Smuggling plan‑binding into CPM.”**
   *Symptom:* hard‑coding comparator editions, policy ids, or “launch values” inside the CPM intension or pattern prose.
-  *Avoid:* select intended editions and policies in the A.15.2 baseline; use A.15.3 typed filling only for independently declared positions. Establish actual Compare bindings under §4.1 and cite Work/provenance only under their own grounds.
+  *Avoid:* resolve the intended editions and policies, recording them in A.15.2 on a P2W path; use A.15.3 typed filling only for independently declared positions. Establish actual Compare bindings under §4.1 and cite Work/provenance only under their own grounds.
 
 * **Anti‑pattern: “Tie‑breakers as hidden constants.”**
   *Symptom:* forced total order via untracked thresholds, epsilons, or “if equal then compare cost” logic.

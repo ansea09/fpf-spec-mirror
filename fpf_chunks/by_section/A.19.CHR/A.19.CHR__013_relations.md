@@ -6,12 +6,12 @@ section_id: "A.19.CHR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
   - "A.19.CHR:12 — Relations"
-line_start: 37844
-line_end: 37874
+line_start: 37096
+line_end: 37118
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -55,8 +55,8 @@ keywords:
 * **A.6.7 `MechSuiteDescription`** (the base suite description kind and obligations surface)
 * **A.15.2 WorkPlan** for edition/reference baselines; **A.15.3** for conditional typed planned filling
 * **A.6.1 `U.Mechanism`** (operation-local argument/result declarations, their derived SlotIndex, and the exact comparison tests in §4.8)
-* **A.19 CN-Spec** and **G.0 CG-Spec** (governance card and admissibility gate)
-* **E.18 / E.18** (P2W, crossings, UTS and Path pins)
+* **A.19.CN CN-Spec** and **G.0 CG-Spec** (comparison and admission conditions)
+* **E.18 / E.18.1** for an actual TransformationFlowStructure, its crossings and P2W carry-through
 * **E.10** (lexical and ontological discipline) and **E.19** (conformance style)
 
 #### A.19.CHR:12.2 - Coordinates with
@@ -69,13 +69,5 @@ keywords:
 #### A.19.CHR:12.3 - Constrains and informs
 
 * Constrains Part G universalization: G patterns should reference this suite for the universal CHR node set and express method and generator specifics only as (a) explicit specializations (`⊑/⊑⁺`) or (b) separate provider mechanisms connected via `Uses`.
-* Informs other kits and suites: record the selected edition/reference baseline in A.15.2 WorkPlan content; use A.15.3 only where independently declared positions require typed planned filling.
-
-#### A.19.CHR:12.4 - Notes for Part‑G
-
-**Tell.** This pattern is intended as a universal core anchor for the Part‑G:
-
-* G patterns not mixing universal CHR admissibility mechanics with CG-frame specifics, discipline-specific method content, and packaging concerns in one construct.
-* Instead, they cite `CHRMechanismSuiteDescription` (universal node set and obligations) and keep specifics in explicit specializations or separate `Uses` providers.
-* P2W integration cites the ordinary planned baseline and any applicable typed fillings, while actual bindings and launch witnesses remain enactment claims.
+* Informs other kits and suites: resolve the selected edition/reference baseline; on P2W paths record it in A.15.2 WorkPlan content. Use A.15.3 only where independently declared positions require typed planned filling.
 

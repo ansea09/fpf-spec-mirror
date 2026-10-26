@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__008_conformance-and-counterexample-replay.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:7 — Conformance and counterexample replay"
-line_start: 19785
-line_end: 19815
+line_start: 19443
+line_end: 19473
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -49,11 +49,11 @@ keywords:
 | `CC-NAR-2` | Reader/listener use, source material, selected structures, and the reason for selecting them are clear. |
 | `CC-NAR-3` | The ordering and connective account are explicit enough to distinguish source relations from narrative links added for readability. |
 | `CC-NAR-4` | The narrative has been compared with its source for preservation, foregrounding, omission, weakening, rearrangement, and unsupported strengthening. |
-| `CC-NAR-5` | Admissible use and a usable return trigger and destination are present; any optional non-admissible use passes F.19:4's plausible-reader test. |
+| `CC-NAR-5` | The supported use is clear; source return is specified when omitted structure or a changed question requires it. Any excluded use passes F.19:4's full guard test. |
 | `CC-NAR-6` | Temporal posture, mediation, event-model support, viewpoint, engagement, and worker history appear only when each changes use or blocks a likely overread. |
 | `CC-NAR-7` | Evidence, assurance, ethics, policy, publication, decision, and Work claims use the patterns that define or test those exact claims. |
-| `CC-NAR-8` | The exact branch is opened only when an identified receiving use makes claim identity material, such as independent travel, citation, dispute, material cross-scheme reuse, identity-bearing admission, consequential reliance, or an explicit named-receiver requirement; publicness alone is not a trigger. |
-| `CC-NAR-9` | In that branch, exact `X` and `Y` are independently identified by claim content, exact EntityOfConcern, and effective `U.ReferenceScheme`; source objects, forms, carriers, and readable prose do not substitute for them. |
+| `CC-NAR-8` | The exact branch opens when the identified receiving use depends on claim identity and preservation. Citation, distribution or generated status alone does not establish that need. |
+| `CC-NAR-9` | In that branch, `X` and `Y` are independently identified by claim content, EntityOfConcern and effective `U.ReferenceScheme`; a model, file or prose label alone supplies none of those identities. |
 | `CC-NAR-10` | Exact `n : X -> Y` states same EntityOfConcern, claim construction, endpoint scheme relation, ordering, preservation, loss, prohibited strengthening, applicability, and return. |
 | `CC-NAR-11` | Additional source epistemes and correspondence dependencies are exact when used; actual Work, system, system-role kind or assignment, method, publication, carrier, evidence, assurance, and `U.View` membership remain separately identified and must satisfy their own definitions or tests. Completing the exact record does not itself authorize reliance. |
 | `CC-NAR-12` | Reuse is lowered or locally repaired when the source, selected structure, order, loss, use, exact identity, depended-on relation, or return changes. |

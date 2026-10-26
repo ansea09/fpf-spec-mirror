@@ -6,12 +6,12 @@ section_id: "C.32.ACS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:12 — Relations"
-line_start: 77841
-line_end: 77854
+line_start: 76753
+line_end: 76766
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -58,6 +58,6 @@ keywords:
 - **Measurement boundary:** Use `C.16` when a reading, coordinate, unit, threshold, score, or cross-case comparability claim is made.
 - **Structural-information boundary:** Use `C.33` or `C.34` when the issue is captured structure, lost structure, or preservation adequacy before a criterion row exists. Use C.32.ACS only when that structural-information or preservation concern becomes a declared architecture-characteristic criterion row. Use `C.35` only for kind restoration and architecture-use adequacy of a generated or discovered result before C.32 or ACS uses a criteria-bearing claim based on that result.
 - **Proxy boundary:** Use `E.13` when an optimization indicator, score, eval result, or dashboard state begins to replace the declared architecture concern.
-- **Synthesis boundary:** Use `C.32` after criteria rows exist and the next useful work is to synthesize candidate selected-structure changes.
-- **Decision and publication boundary:** Use `A.19.CPM` for comparison, `A.19.SelectorMechanism` for selection, `C.11` for choice, `G.5` for selected-set result declaration, and `C.32.PAD` for an architecture decision. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
+- **Synthesis boundary:** Use C.32 when characteristic pressure is recoverable and the next useful work is to synthesize candidate structures. Retain missing criterion bindings as unresolved; do not treat an exploratory candidate as an established improvement.
+- **Decision and publication boundary:** Use `A.19.CPM` for comparison, `A.19.SelectorMechanism` for selection, `C.11` for choice, `G.5` for selected-set result declaration, and `C.32.PAD` for an architecture decision. For publication, use `E.24.PUB` for the publication occurrence and audience availability, and E.17 when a source-backed face and source return are needed.
 

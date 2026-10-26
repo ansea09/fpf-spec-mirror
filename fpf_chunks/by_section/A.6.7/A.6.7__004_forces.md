@@ -6,12 +6,12 @@ section_id: "A.6.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:3 — Forces"
-line_start: 24347
-line_end: 24368
+line_start: 23923
+line_end: 23944
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -56,6 +56,6 @@ keywords:
 5. **Guard vs gate separation.**
    Mechanisms can output tri-state guard outcomes and explanations; **gate decisions** (including `block`) and `DecisionLog` remain gate-level (`OperationalGate(profile)`). A suite must not collapse these layers.
 
-6. **FPF is conceptual.**
-   The suite is a conceptual descriptor: no implementation fields, no “lint rules”, no machine governance. The suite expresses obligations as conceptual constraints and required pins/anchors.
+6. **Description and actual use.**
+   Shared conditions constrain later use; they are not that use or its results. Implementation references may be cited under their own rules, while member declarations retain the operation semantics.
 

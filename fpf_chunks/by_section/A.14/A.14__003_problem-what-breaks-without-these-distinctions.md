@@ -6,12 +6,12 @@ section_id: "A.14:2"
 section_title: "Problem — what breaks without these distinctions?"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__003_problem-what-breaks-without-these-distinctions.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:2 — Problem — what breaks without these distinctions?"
-line_start: 28594
-line_end: 28607
+line_start: 28159
+line_end: 28172
 dependencies:
   - "A.1"
   - "A.15"
@@ -60,7 +60,7 @@ If we only have “generic partOf” plus Component/Constituent, five classes of
 
 2. **Aspect creation by wording.** A selected Characteristic, view, projection, partition rule, dashboard slice, or concern label is turned into a world-side part without identifying the aspect, bearer, facet rule, or identity condition.
 
-3. **Temporal smearing.** Flattening “before/after” for one enduring carrier into a timeless whole collapses history; treating two changed epistemes or two Work occurrences as temporal pieces of that carrier collapses identity and occurrence history. Resolve those identities and Work relations before temporal aggregation (B.1.4) or Method composition (B.1.5).
+3. **Temporal smearing.** Flattening “before/after” for one enduring holon into a timeless whole collapses history; treating two changed epistemes or two Work occurrences as temporal pieces of that holon collapses identity and occurrence history. Resolve those identities and Work relations before temporal aggregation (B.1.4) or Method composition (B.1.5).
 
 4. **Identity confusion.** Modelling a “new version” as a component or phase lets a label decide identity. For an episteme, first compare the C.2.1 identity triple and then test edition continuity separately; for another enduring holon, apply its direct identity rule to determine whether the same individual persists or a reidentification question opens.
 

@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:4 — Solution"
-line_start: 74818
-line_end: 75043
+line_start: 73766
+line_end: 73991
 dependencies:
   - "A.10"
   - "A.15"
@@ -82,7 +82,7 @@ ArchitectureTransformationFlowStructureRelation minimum:
   nonAdmissibleUse?:
 ```
 
-At least one architecture-side field and at least one E.18 or E.18.NET field must be named by value. Network branch fields obey `C.30.TFS-REL:4.4a`; other optional trace fields follow the ordinary minimum in section 1. The explanatory `nonAdmissibleUse` guard follows the full F.19:4 test and needs no absence entry unless a concrete receiving use requires that distinction.
+At least one architecture-side field and at least one E.18 or E.18.NET field must be named by value. Network branch fields obey `C.30.TFS-REL:4.4a`; other optional trace fields follow the ordinary minimum in section 1. The explanatory `nonAdmissibleUse` guard follows the ordinary minimum in section 1 and needs no absence entry unless a concrete receiving use requires that distinction.
 
 #### C.30.TFS-REL:4.1 - Use trigger
 
@@ -98,7 +98,7 @@ Use this pattern only when an actual `ArchitectureRelation` occurrence, bounded 
 - a correspondence claim or independently governed relation between functional structure and transformation-flow structure;
 - a generated or extracted relation graph used as candidate input for the architecture-to-transformation-flow use.
 
-If the sentence only says that Work occurred, use A.15.1 or the governing Work pattern. If it says that an actual referent changed, use A.3.4 before citing a `U.Transformation`. If it only says that one selected TFS exists, use E.18; if it only says that one independently identified E.18.NET-conforming TFS network is selected, use E.18.NET. If the sentence uses a graph-shaped expression as mathematical description, use E.18.2. If it relies on a mathematical lens, use C.29.
+For a particular dated Work claim, recover its A.13 basis and independent A.15.1 admission; use F.6 only for precise assignment-bound attribution. Ordinary practitioner action wording needs no invented occurrence or assignment. If it says that an actual referent changed, use A.3.4 before citing a `U.Transformation`. If it only says that one selected TFS exists, use E.18; if it only says that one independently identified E.18.NET-conforming TFS network is selected, use E.18.NET. If the sentence uses a graph-shaped expression as mathematical description, use E.18.2. If it relies on a mathematical lens, use C.29.
 
 Use `transformationFlowUnfoldingStructureRef?` only when the architecture use depends on one A.22-selected CGUS qualified under `E.18.3`. The ref names that selected CGUS; its E.18.3 account separately names one independently identified E.18 substrate branch and the exact positions, bindings, and already-obtaining occurrences the CGUS uses. Architecture, decision, work, feedback, narrative, or refresh values connect only through exact already-obtaining supporting relations, with predicate-definition content and current facts when the claim needs them; the pattern reference adds no connection relation. Generic architecture use of a constraint-governed unfolding structure belongs in `C.32.P2S` or the direct C.30 architecture governing pattern; this pattern keeps only the architecture-to-transformation-flow trace.
 
@@ -167,7 +167,7 @@ When several transformation-flow variants are kept or compared as candidate arch
 | Interface, signature, or module compatibility | `A.6.M` for module-claim repair and the direct pattern for the interface claim; `A.6.5` only when reusable relation-participant typing is needed, and `A.6.0` when a signature declaration is being made |
 | Architecture decision | the project-side architecture decision pattern when the corresponding claim is being made |
 
-This table is the single boundary for generic non-flow claims. Apply F.19's plausible-reader test before adding a local guard. Relevant candidates include structure-as-architecture, graph-description-as-architecture, flow-as-work-log, crossing-as-gate, valuation-as-score, generated relation-graph proof, and prompt-data-tool flow as authority proof.
+Apply a row when its claim is made; a sufficient architecture-to-flow account can finish without those further inquiries. For another claim kind, use the rule that governs it.
 
 #### C.30.TFS-REL:4.4 - E.18 selected-structure boundary statement
 
@@ -191,7 +191,7 @@ Use `networkCrossFlowRelationRowRefs[]` only for E.18.NET-owned composite locato
 
 For every maintainability, capability, responsibility, production, safety, or other architecture-characteristic claim made or used by this record, name the exact holon, actual architecture relation, selected structure, description/view episteme, bounded claim, or other bearer governed by C.30 or the characteristic's direct owner. A network may have selected structural facts—members, relations, recursion, or exposed positions—but those facts do not make an unnamed network the bearer of holon characteristics, agency, Work, production, required effects, or actual transformations.
 
-A network diagram, member graph, mathematical description, publication, or `TransformationFlowStructureNetworkRecord` establishes none of these architecture uses and does not enter architecture identity. It may represent, describe, or publish the selected network only under its direct representation, description, or publication pattern.
+A network diagram, member graph, mathematical description, publication, or `TransformationFlowStructureNetworkRecord` may supply facts or claims used in the account. Its form alone establishes neither an architecture relation nor the applicable branch. Keep its identity distinct from the network and any architecture relation, and qualify its representation, description or publication use under the applicable pattern.
 
 **Named containing-holon case.** Exact holon `ManufacturingPlatform-7` has one obtaining architecture relation whose selected structure is the exact product-development/production-system-change network. C.30.TFS-REL may use that network to localize an architecture change while each member TFS, production relation, Work occurrence, and actual transformation keeps its own owner.
 
@@ -263,7 +263,7 @@ Cooling countercase: a selected cooling-flow TFS and `RequiredCoolingEffect-1` m
 
 Near miss: if the selected transformation-flow structure has no exact C.30-side architecture reference named by value, the case stays in `E.18`. If the same sentence is a mathematical description, use `E.18.2`; if it is a math-lens-use claim, use `C.29`. If it is a Work log, evidence claim, gate decision, or benchmark result, that non-flow claim is governed by its governing pattern and this record keeps only the architecture-to-transformation-flow use.
 
-**Pump-station flow relation.** A plant team says, "the safety architecture is the bypass flow." C.30.TFS-REL applies only if the exact plant holon, its actual architecture relation or bounded architecture claim as current, selected control or material-flow structure, and E.18 selected bypass-flow structure are named. The bypass path may be architecture-relevant, but it is not an actual cooling/pumping transformation, safety proof, performed maintenance Work, gate passage, or release permission. The record names the plant architecture locus, selected E.18 path or crossing, hidden relation-structure return condition, and the one architecture move changed by the bypass relation.
+**Pump-station flow relation.** A plant team says, "the safety architecture is the bypass flow." C.30.TFS-REL applies only if the exact plant holon, its actual architecture relation or bounded architecture claim as current, selected control or material-flow structure, and E.18 selected bypass-flow structure are named. The bypass path may be architecture-relevant, but it is not an actual cooling/pumping transformation, safety proof, performed maintenance Work, gate passage, or release permission. The account names the plant architecture locus, selected E.18 path or crossing, any action-changing hidden relation and return condition, and what the bypass relation lets the team conclude or change. An adequate conclusion need not propose an architecture change.
 
 **Supply-chain transformation-flow relation.** A logistics architecture view may use an E.18 selected flow structure for supplier handoff, transport crossing, freshness window, and valuation. The exact subject holons, actual architecture relations when claimed, and selected supply-chain structures remain named; Work occurrences, contractual commitments, evidence, and gate decisions stay with their governing patterns.
 

@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:5"
 section_title: "Archetypal Grounding - Workplace Introduction and Revision"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__007_archetypal-grounding-workplace-introduction-and-revision.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:5 — Archetypal Grounding - Workplace Introduction and Revision"
-line_start: 11296
-line_end: 11331
+line_start: 11198
+line_end: 11233
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -33,13 +33,13 @@ Record acceptability or rejection, appropriateness or fit, feasibility, enactmen
 
 The Digital Vaccine case supplies three sequential action-research cycles in an operating health-services ecosystem. For each cycle, record the Method-related target, the introduction strategy and its status, its separately identified description, and any separate WorkPlan. Then record prioritization, performed introduction or validation Work, observation, target adaptation, strategy adaptation, and revision for the bounded concern. The evaluation remains ex ante and case-specific and establishes neither Method admission, long-term effect, nor transfer to the other elicited domains.
 
-The Halogen and methodology-spread studies add observed adaptation, project demands, practitioner skills, identified organizational conditions where recoverable, drivers, and barriers. For each adaptation record whether it changed the Method-related target, the introduction strategy, its description, a separate WorkPlan, support, or local use, while preserving the recorded kind and status of each. Also record when, planned or reactive status, deciding Agent and authorization basis, affected level, reason, and conditions. Neither source proves a universal sequence or one causal driver of spread.
+The Halogen and methodology-spread studies add observed adaptation, project demands, practitioner skills, identified organizational conditions where recoverable, drivers, and barriers. For each adaptation record whether it changed the Method-related target, the introduction strategy, its description, a separate WorkPlan, support, or local use, while preserving the recorded kind and status of each. Also record when, planned or reactive status, decision-maker and any applicable authorization basis, affected level, reason, and conditions. Neither source proves a universal sequence or one causal driver of spread.
 
 Implementation-science comparators sharpen this account without supplying its domain ontology. Proctor et al. motivate separate acceptability, appropriateness, feasibility, enactment/fidelity, burden/cost, reach, and sustainment questions. FRAME motivates recording changes to the Method-related target. FRAME-IS supplies the separate question of what changed in the introduction strategy itself. Updated CFIR motivates context and determinant questions; the 2021 MRC framework motivates iterative refinement around key uncertainty and decision usefulness. A.3.1.MI retains the target-versus-strategy distinction while rejecting health-specific entities, a maturity ladder, phase gate, compulsory adoption sequence, and any inference from those taxonomies to FPF Method admission, Work, relation, capability, authority, or culture.
 
 #### A.3.1.MI:5.1 - APP-ME-01 Early Stop
 
-The [EC-417 three-release statement](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference169---choose-the-method-development-result-needed-for-release-ec-417) remains a WorkPlan. Do not report introduction, release enactment, later revision, cadence effect, or receiving result until the introduction strategy is identified and actual introduction Work and release Work are admitted with performers, enacted admitted constituent Methods, capability inputs, Systems, named Agent-performed Work occurrences, relation occurrences, assignments, permissions, authority, conditions, target and strategy adaptations, burdens, deviations, and domain results.
+The [EC-417 three-release statement](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference169---choose-the-method-development-result-needed-for-release-ec-417) remains a WorkPlan. A claim that introduction occurred requires independently admitted introduction Work; a release-enactment claim requires the release Work separately. Recover each claimed occurrence's performers and A.13 basis, enacted admitted Methods, extent, containing System and relied-on relations under A.15.1. Capability, permission, authority, adaptations, burdens and domain results need their own grounds when the receiving claim depends on them. Later revision, cadence effect and receiving-result claims are also separate. Completion of introduction does not have to wait for release, and neither occurrence can be inferred from the three-release plan.
 
 The A.15.8.MS support-use task observations may supply identified support baselines and gaps. They do not establish an introduction Method, release Work, AI-provider use, feedback Work, capability, or Method fit. Preserve `C-EC-Release-v2` as a target candidate and `CUR-EC417-CadenceEffect-1` as unsupported. The application has no supplied `A.2.2` capability basis, so a receiving decision that relies on capability returns that missing basis first. If a current adequate basis is supplied and no capability change is needed, retain it without requiring development. Name `E.23.CDI` or a domain development result and next action only for an actually needed capability change; do not invent capability or prescribe development from the gap alone.
 

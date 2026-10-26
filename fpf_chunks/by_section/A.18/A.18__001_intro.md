@@ -6,16 +6,16 @@ section_id: "A.18:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:intro — Intro"
-line_start: 34739
-line_end: 34744
+line_start: 34145
+line_end: 34152
 dependencies:
   - "A.17"
-  - "A.18"
   - "A.19"
+  - "A.19.CHR"
   - "A.19.CN"
   - "B.3"
   - "C.16"
@@ -38,6 +38,8 @@ keywords:
 ## A.18 - Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)
 
 > **Status:** Stable
+
+**Use this when.** A reported value or proposed calculation leaves its measured aspect, Scale or permissible interpretation unclear. Recover those meanings from an existing adequate measurement template, or define the missing parts below. CSLC makes the value interpretable; the receiving use still selects its measurement and inference rules.
 
 **Aliases (for narrative use only):** _“Axis”_ (≈ Characteristic), _“Point”_ (≈ Coordinate). _(These colloquial aliases may be used in Plain language **explanations**, but never in formal identifiers or normative text.)_
 

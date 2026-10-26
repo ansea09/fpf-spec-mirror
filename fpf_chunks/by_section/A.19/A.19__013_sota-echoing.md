@@ -6,12 +6,12 @@ section_id: "A.19:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__013_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:10 — SoTA-Echoing"
-line_start: 35290
-line_end: 35301
+line_start: 34684
+line_end: 34689
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,10 +54,4 @@ keywords:
 Measurement and evaluation practice requires explicit variable definitions, subject/input roles, Scales, units, value ranges, partial-input treatment, normalization, and comparability before multi-criteria comparison is meaningful. A.19 adapts that discipline by treating the CharacteristicSpace and its genuine Coordinate values as the declared ontic object, while observation absence, scoring, indicator choice, normalization use, and assurance remain with their direct patterns.
 
 Dynamical-systems and state-space practice supplies the useful hook: a dynamics model needs a declared state space, but the state space does not itself define the law, time base, observation model, or intervention. FPF keeps that boundary so that characteristic-space declarations can be reused across system, episteme, evaluation, and architecture work without smuggling consumer semantics into the space.
-
-#### A.19:12.2 - Source-use basis and currentness
-
-A.19 is primarily internal-kernel doctrine, not an external SoTA-import pattern. The accepted FPF basis for `U.CharacteristicSpace` is the chain of `A.17` for `U.Characteristic`, `A.18` for scale and value discipline, `C.16` for measurement and coordinate evidence, `A.19.UNM` for normalization methods, `C.29` when a mathematical lens is used beyond local space declaration, and `E.24` for ontic-head and slot-relation discipline.
-
-Use G.11 to check source currentness for the named use. Reopen A.19 when a subject pattern changes Characteristic identity, Scale semantics, value-set meaning, subject/input arity, partial-observation discipline, normalization admissibility, comparability, Bridge discipline, mathematical-lens boundary, or ontic slot discipline. Do not reopen A.19 merely because one consumer adds a score table, dashboard, evaluation report, certification interface, or portfolio view that uses the space.
 

@@ -6,12 +6,12 @@ section_id: "C.26.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:3 — Forces"
-line_start: 66049
-line_end: 66057
+line_start: 65010
+line_end: 65018
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -43,7 +43,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Boundary discipline vs probe sensitivity | `A.6` and `F.9` already govern boundaries and bridges; this pattern adds only a probe-coupled reading of the state-changing or export-changing interaction. |
-| Intervention vs readout | Many actions change the world ordinarily. QL is active only when the action is being used as a read, export, comparison, or optimization of the state it changes. |
-| Lean use vs evidence-support class | A working team needs a small card; release, audit, or measurement claims need evidence and measurement-governing patterns or records. |
+| Intervention vs readout | An action can intentionally change the world. This pattern applies when its output is incorrectly used as a passive reading of that state; QL needs the additional C.26 activation condition. |
+| Lean use vs evidence-support class | A short explanation can support local recognition. A release, audit or measurement claim needs the evidence and subject account on which that use relies. |
 | Coupling words vs relation tokens | Words such as coupling, interaction, and export can remain local explanatory wording. A reusable name under `F.18` designates an already settled relation; use `A.6.P` when the relation or participants remain unclear. |
 

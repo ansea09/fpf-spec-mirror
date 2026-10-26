@@ -6,12 +6,12 @@ section_id: "C.23:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 64473
-line_end: 64514
+line_start: 63433
+line_end: 63474
 dependencies:
   - "A.10"
   - "B.3"
@@ -40,15 +40,15 @@ keywords:
 
 ### C.23:5 - Archetypal Grounding (Tell–Show–Show)
 
-*(Plain register for pedagogy; Core remains notation‑independent per E.10/E.8.)*
+The following are constructed branch examples. For each later branch, stipulate that the named family and policy editions resolve and R0 passes; the QD case also passes R0.QD. Every Admit below additionally requires the complete R1 Eligibility, evidence and Acceptance basis. If a stipulated prerequisite is missing, use the early-Abstain result in §4.2.1 instead.
 
 **Show‑1 - Continuous dynamics (ODE task).**
-*S2 excerpt.* `DataShape=ODE; stiff?=unknown; Size≈10^3; Objective={↓error@ratio, ↑throughput@ratio}; Constraints={safety_gate@ordinal}; Jacobian_sparsity=high; Missingness=MAR`.
+*S2 excerpt.* `DataShape=ODE; stiff?=unknown; Hamiltonian=unknown; Size≈10^3; Objective={↓error@ratio, ↑throughput@ratio}; Jacobian_sparsity=high; Missingness=MAR`. A declared safety predicate tests the required ordinal safety level.
 *Families.* `Implicit‑BDF` vs `Explicit‑RK` vs `Symplectic`.
 *Rules.*
-- `Implicit‑BDF`: **Eligibility** tolerates `stiff?=unknown` if `Jacobian_sparsity=high` (guarded precondition); **MaturityCard**=`L3` (replicated & benchmarked). Outcome: `Admit`.
-- `Explicit‑RK`: requires `stiff?=false`; with `unknown` ⇒ `Degrade(sandbox)` (probe).
-- `Symplectic`: eligible only when `Hamiltonian=true`; here ⇒ `Abstain`.
+- `Implicit‑BDF`: with `Jacobian_sparsity=high`, its declared unknown-handling branch permits `Degrade(probe-only)` under exploration policy `EE-ODE-1` and Acceptance-bound guards `Probe-ODE-1`. An applicable L3 maturity judgement remains cited. If later observations establish `stiff?=true` and `Hamiltonian=false`, and the complete R1 basis for the intended use holds, that new input can receive `Admit`; the original unknown is not silently converted to true.
+- `Explicit‑RK`: requires `stiff?=false` for ordinary use. Its declared unknown branch permits `Degrade(sandbox)` after R0 and eligibility are checked for that bounded use.
+- `Symplectic`: requires `Hamiltonian=true`; its declared branch for the live `unknown` returns `Abstain`, without reporting a false Hamiltonian judgement.
 *Didactic anchor.* This mirrors C.22’s typed‑signature discipline and CHR legality (no ordinal means; unit alignment for **ratio**).
 
 > The cited ecosystem examples of these families (post‑2015) are organised in **DifferentialEquations.jl**, which exposes multiple solver **families** under one call surface—precisely the pattern G.5 expects. ([Journal of Open Research Software][17])
@@ -58,8 +58,8 @@ keywords:
 *Families.* `MILP (branch‑and‑bound)`, `Constraint‑Programming`, `Heuristic meta‑search`.
 *Rules.*
 - `MILP`: **Eligibility** requires `convex_relaxation=available`; the cited L3 MaturityCard edition names the registered family, evidence profile, benchmark basis, claim scope, qualification window, and intended selector use ⇒ `Admit`.
-- `Constraint‑Programming`: **MaturityCard**=`L2`; Acceptance demands `service_level≥B` (ordinal predicate). With `B` met but baseline parity unknown ⇒ `Degrade(scope‑narrow)`.
-- `Heuristic meta‑search`: **MaturityCard**=`L1` ⇒ `Degrade(sandbox)` or `Abstain` depending on RSCR parity policy.
+- `Constraint‑Programming`: **MaturityCard**=`L2`; the ordinal `service_level≥B` Acceptance predicate is met. Baseline parity is an additional CAL condition, not a missing R0 minimum in this example. Its declared failure behavior permits `Degrade(scope-narrow)` while parity is unresolved, after R0 and eligibility pass for the narrowed use. If that parity basis were required by R0, the result would be `Abstain`.
+- `Heuristic meta‑search`: **MaturityCard**=`L1`. The applicable AcceptanceClause and family failure policy decide between a permitted `Degrade(sandbox)` branch and `Abstain`; L1 alone supplies neither outcome.
 *Didactic anchor.* G.5 declares a `Shortlist` of the non-dominated retained candidates, with its comparison basis and unresolved ties; no cross-ordinal weighting is introduced.
 
 > The cited “single call / many solvers” packaging that motivates MethodFamily rows is exemplified by **JuMP** (2017–2022), which cleanly separates **model description** from solver choice. ([Miles Lubin][18])

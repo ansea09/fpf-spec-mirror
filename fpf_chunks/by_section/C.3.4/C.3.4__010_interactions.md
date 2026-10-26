@@ -6,12 +6,12 @@ section_id: "C.3.4:8"
 section_title: "Interactions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__010_interactions.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:8 — Interactions"
-line_start: 55816
-line_end: 55836
+line_start: 54949
+line_end: 54969
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -27,7 +27,7 @@ keywords:
 
 #### C.3.4:8.1 - With Kinds and Subkinds
 
-Use an adaptation declaration for procedural tailoring. If the criterion becomes conceptual and stable, identify another local kind and establish the exact obtaining `U.SubkindOf` relation. Repeated declaration use, promotion language, and a catalog link do not establish that relation.
+Use an adaptation declaration for procedural tailoring. If the receiving uses need a stable conceptual distinction as a kind, identify it under C.3.1 and establish any claimed `U.SubkindOf` relation. Repeated declaration use or a catalog link does not establish that relation.
 
 #### C.3.4:8.2 - With Judgment and Declarations
 

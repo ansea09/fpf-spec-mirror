@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:0 — Use This When"
-line_start: 10343
-line_end: 10365
+line_start: 10257
+line_end: 10279
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,7 +25,7 @@ keywords:
 
 Use this pattern when a Method or candidate Method account is ready for a trial in actual Work and the next decisions need observations from named situations rather than another plan, demonstration, or document review. Begin with one trial question: what must be learned from actual Work for a later coherence, fit, transfer, or worth decision?
 
-The first useful result is a trial-slice row. It names the subject and its status, the situation-selection reason, the planned task, the Work that actually occurred, actual performers and enacted admitted Methods, relied-on Systems and capabilities, observations, gaps, and the later decision that may use them. A row that returns `missing-performed-work` is useful when the trial remains only planned.
+The first useful result is an account of the selected trial Work and observations. It names the subject and its status, the situation-selection reason, the planned task, the Work that actually occurred, actual performers and enacted admitted Methods, relied-on Systems and capabilities, observations, gaps, and the later decision that may use them. A result that returns `missing-performed-work` is useful when the trial remains only planned.
 
 Here *trial* is Plain practice wording for intentionally selected Work and observation. It is not a new subtype of `U.Work`, a Method admission, an evaluation result, or a claim that the situation statistically represents a population.
 

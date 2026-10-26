@@ -6,12 +6,12 @@ section_id: "C.33:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:6 — Bias-Annotation"
-line_start: 80927
-line_end: 80936
+line_start: 79760
+line_end: 79769
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -54,9 +54,9 @@ keywords:
 
 | Bias | How C.33 counters it |
 | --- | --- |
-| Carrier completeness bias | Require captured selected structure, lost or hidden structure, admissible use, and non-admissible use before relying on the carrier; add expected but uncaptured structure when the next use depends on it. |
+| Carrier completeness bias | Explain captured structure and the use it supports. State lost, hidden or uncaptured structure and excluded uses where they affect reliance. |
 | Metric bias | Treat entropy, epiplexity estimate, benchmark score, dashboard value, dependency F1, and invariant F1 as readings only when `C.16` or `C.32.ACE` has opened that claim. |
 | Source-label ontology bias | Keep source labels such as layer, router, cache, expert, pruning, distillation, block, DSM cluster, and architecture-search result as source wording. When a label carries an unresolved FPF structure or relation claim, use `C.30.STRAT`, `C.30.TFS-REL`, `A.6.M`, `C.31`, `C.32`, or another direct subject pattern to recover the object and predicate for that claim. |
-| Observer-belief bias | Record observation class, confidence, active-passive gap when present, budget boundary, and unexplored regions for agent-produced or probe-produced carriers. Do not infer internal belief, safe change, or assurance from a map. |
+| Observer-belief bias | State observation class, confidence, active-passive gap, budget boundary and unexplored regions where they qualify the use of an agent-produced or probe-produced carrier. A map alone does not establish internal belief, safe change or assurance. |
 | Decision-memory bias | Treat ADR-like records as decision descriptions and method expectations. Use `C.32.PAD` or `C.32.ADR` for decision and projection claims, and use C.33 only for what structural content the record carries or loses. |
 

@@ -6,23 +6,25 @@ section_id: "C.2.6:13"
 section_title: "Worked Examples and Bridge-Loss Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__014_worked-examples-and-bridge-loss-cases.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:13 — Worked Examples and Bridge-Loss Cases"
-line_start: 54062
-line_end: 54072
+line_start: 53215
+line_end: 53225
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.18"
+  - "A.19"
   - "A.7"
   - "B.4.1"
   - "B.5.2.0"
   - "C.2.2a"
   - "C.2.7"
   - "C.2.LS"
+  - "C.2.P"
   - "F.9"
   - "F.9.1"
 keywords:
@@ -32,7 +34,7 @@ keywords:
   - "mixed modes"
   - "model state"
   - "operator loop"
-  - "publication-face anchoring"
+  - "receiving-episteme anchoring"
   - "source anchoring"
   - "trace"
 ---
@@ -40,10 +42,10 @@ keywords:
 ### C.2.6:13 - Worked Examples and Bridge-Loss Cases
 
 #### C.2.6:13.1 - Embodied-to-document shift
-A prose publication of an episteme grounded in a bodily felt cue may retain `AM.EmbodiedFelt` as source mode while using `AM.DocumentMediated` as publication-face mode. Such a shift may introduce bridge loss, which should be assessed when cross-context equivalence is claimed.
+An operator first notices vibration through bodily sensation. That cue has `AM.EmbodiedFelt` anchoring even after it is described in prose. A later analyst who has only the written account may form a receiving episteme anchored in that document, with mode `AM.DocumentMediated`. Distinguish the source cue from the analyst's episteme and assess any loss that matters to the intended comparison or use. Apply F.9 when the use claims a semantic correspondence between local senses from different semantic contexts.
 
 #### C.2.6:13.2 - Model-latent to operator-loop case
-An episteme recording a latent probe score may first be `AM.ModelLatent`, then be published as an operator-facing alert with `AM.OperatorLoop` publication-face anchoring when the alert is directly tied to operator intervention or console control. A conforming account should keep both the model-side source mode and the operator-loop publication-face mode visible.
+An episteme recording a latent probe score is anchored in model state (`AM.ModelLatent`). A receiving alert episteme can have `AM.OperatorLoop` anchoring when it is directly tied to operator intervention or console control. Keep the model-side source and the operator-loop anchor visible. Merely displaying the score on a console does not establish the operator-loop relation.
 
 #### C.2.6:13.3 - Mixed-mode publication
 An alert note may admissibly be `AM.Mixed` when it combines operator-loop anchoring, trace anchoring, and document mediation. The declaration must name each component mode explicitly.

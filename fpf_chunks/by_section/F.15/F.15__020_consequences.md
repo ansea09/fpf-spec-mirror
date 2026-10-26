@@ -6,12 +6,12 @@ section_id: "F.15:15.1"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__020_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
   - "F.15:15.1 — Consequences"
-line_start: 122853
-line_end: 122860
+line_start: 121673
+line_end: 121680
 dependencies:
   - "A.1.1"
   - "A.10"

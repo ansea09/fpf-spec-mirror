@@ -6,12 +6,12 @@ section_id: "A.7.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__014_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:12 — Relations"
-line_start: 26477
-line_end: 26485
+line_start: 26025
+line_end: 26033
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -38,6 +38,6 @@ keywords:
 - **Consumes:** exact claim contents from `A.7.CP` through actual `ClaimUsedAsReasoningBasisRelation@Context` occurrences; it does not copy or own the compact. Pattern epistemes and `U.MethodDescription` epistemes supply clauses or declared premises; their described Methods remain distinct, while dated application Work and its separately governed result claims supply the reconciliation inputs.
 - **Defines:** `OntologyClaimSourceUseRelation@Context` and `OntologySourceUseConflictFinding@Context` for bounded ontology-decision and reconciliation source use only.
 - **Coordinates with:** `A.10` for evidence use, `G.11` for currentness, `C.29` and direct formal patterns for formal semantics, `C.2.1` for source epistemes, `E.24.PUB` for publication-occurrence, form, and carrier questions, `E.17` for multi-view publication, and subject patterns for the receiving ontology claim.
-- **Preserves:** current landed FPF decisions as default internal basis while allowing grounded, claim-specific reopen. It does not replace `E.9.DA` review or DRR discharge.
+- **Preserves:** current published FPF decisions as an internal basis, with grounded, claim-specific reconsideration. Use `E.9.DA` review or DRR discharge when that separately governed question is current.
 - **Does not define:** a universal source-authority kind, source role, prestige ranking, evidence relation, publication relation, or source-currentness relation.
 

@@ -6,12 +6,12 @@ section_id: "E.10.D1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:11 — SoTA-Echoing"
-line_start: 101618
-line_end: 101632
+line_start: 100438
+line_end: 100452
 dependencies:
   - "A.1.1"
   - "A.2.6"

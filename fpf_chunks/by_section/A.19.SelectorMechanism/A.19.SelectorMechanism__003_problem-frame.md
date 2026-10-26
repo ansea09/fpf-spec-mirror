@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__003_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:1 — Problem frame"
-line_start: 39675
-line_end: 39689
+line_start: 38879
+line_end: 38893
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"

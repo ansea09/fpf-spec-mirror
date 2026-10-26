@@ -6,12 +6,12 @@ section_id: "C.13:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__002_intent.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:1 — Intent"
-line_start: 58236
-line_end: 58247
+line_start: 57333
+line_end: 57344
 dependencies:
   - "A.1"
   - "A.14"
@@ -37,5 +37,5 @@ Also known as *“Γₘ mereology”* and *“constructor-based composition”*.
 **Depends on.** A.14 and the direct relation patterns for participants, obtaining conditions, and occurrence identity; the direct kind pattern for the candidate whole and its identity or reidentification rule.
 **Consumed by.** A.1 when candidate holon recognition needs constructive assembly, B.3.5 when a named assurance use needs a structural grounding account, and subject patterns that need a compact construction narrative.
 
-Compose-CAL keeps exactly three narrative forms—`sum`, `set`, and `slice`. A materialized construction trace is a C.2.1 episteme about the construction facts. Its claims can designate entities, relation occurrences, rules, and identity conditions; the trace is neither the whole, collection, or aspect it describes nor a participant in the world-side relations.
+Compose-CAL keeps exactly three narrative forms—`sum`, `set`, and `slice`. A materialized construction trace is a C.2.1 episteme about the construction facts. Its claims can designate entities, relation occurrences, rules and identity conditions. Designation alone does not make the trace a participant in the construction; any such participation needs its own direct relation basis.
 

@@ -6,12 +6,12 @@ section_id: "A.16.2:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:11 — SoTA-Echoing"
-line_start: 34453
-line_end: 34455
+line_start: 33911
+line_end: 33913
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -34,5 +34,5 @@ keywords:
 ---
 
 ### A.16.2:11 - SoTA-Echoing
-This fits iterative design, incident response, scientific reframing, embodied inquiry, and exploratory model work where recovery from over-commitment and honest branch retirement are part of competent practice.
+**FPF proposal.** The four moves distinguish reopening closure, reducing an over-committing form, changing a framing and ending a use. A.16:10 gives bounded incident-response and historical provenance comparisons; the move distinctions and admission rules here remain FPF's own contribution.
 

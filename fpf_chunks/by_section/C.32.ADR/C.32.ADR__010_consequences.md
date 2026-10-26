@@ -6,12 +6,12 @@ section_id: "C.32.ADR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:9 — Consequences"
-line_start: 80441
-line_end: 80449
+line_start: 79284
+line_end: 79292
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,7 +47,7 @@ keywords:
 | Consequence | Benefit | Cost |
 |---|---|---|
 | ADR is a publication projection. | Records stay readable while decision authority remains in PAD. | Authors must maintain the relation between record and decision. |
-| Section functions are stable even when headings vary. | Software ADR, engineering memo, and certification rationale can be compared by function. | Local templates must be mapped rather than copied blindly. |
+| Section functions are stable even when headings vary. | Software ADR, engineering memo, and certification rationale can be compared by function. | Local templates must preserve the needed decision functions; a separate mapping is optional. |
 | Method and work effects are visible. | Developers can act on the decision instead of only reading rationale. | Records may need exact method refs and work-split refs. |
 | Supersession is explicit. | Future readers can distinguish history from current decision. | Record packages need simple upkeep. |
 

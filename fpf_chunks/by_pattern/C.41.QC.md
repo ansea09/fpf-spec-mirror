@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.QC.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
-line_start: 89182
-line_end: 89335
+line_start: 88000
+line_end: 88153
 dependencies:
   - "A.10"
   - "C.41"
@@ -153,7 +153,7 @@ An applicable prior qualification can settle the uncertainty. Otherwise begin wi
 
 ### C.41.QC:11 - SoTA-Echoing
 
-Which checking means and qualification effort fit the intended reliance? **Adopt** a direct comparison for an explicit observable property; **adapt** selective rubric or pairwise judging for a genuinely interpretive or relative question, with discriminating cases when its adequacy is uncertain. These are serious alternatives, not successive compulsory stages. In §§4.2 and 5, inspecting identifier or catalogue equality supplies the relevant grounds directly. Asking a model for a persuasive overall score adds cost without settling those properties. Pairwise judging can instead help choose between two explanations, but the preferred one still needs a separate answer to an absolute suitability question.
+Which checking means and qualification effort fit the intended reliance? **Adopt** a direct comparison for an explicit observable property; **adapt** selective rubric or pairwise judging for an interpretive or relative question, with discriminating cases when its adequacy is uncertain. These are serious alternatives, not successive compulsory stages. In §§4.2 and 5, inspecting identifier or catalogue equality supplies the relevant grounds directly. Asking a model for a persuasive overall score adds cost without settling those properties. Pairwise judging can instead help choose between two explanations, but the preferred one still needs a separate answer to an absolute suitability question.
 
 [Selective Checklist Evaluation](https://aclanthology.org/2025.emnlp-main.538/) supplies a current rival to full-rubric/direct scoring, with effects that differ by setting and comparison mode. It warrants choosing and qualifying the mode for the receiving question, not declaring one universally superior. The study by [Hong and colleagues](https://arxiv.org/html/2607.12835v1) supplies counterevidence about detail and uneven emphasis in generated criteria. Section 4.2 therefore examines consequential errors, missing answers and induced weighting alongside judgement cost. The extra qualification is worthwhile when it can defeat misplaced reliance or select better means; an applicable prior qualification remains sufficient for its unchanged scope.
 

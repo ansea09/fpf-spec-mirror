@@ -6,12 +6,12 @@ section_id: "A.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__008_conformance-checklist-normative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:7 — Conformance Checklist (normative)"
-line_start: 9184
-line_end: 9218
+line_start: 9125
+line_end: 9159
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -54,7 +54,7 @@ When Work on an episteme or its carrier is claimed, the performer is still a Sys
 Every performed resource-use fact relied on for a claim about Work MUST state its measure and units. A percentage that enters a resource aggregation must be grounded in the exact PortionOf measure needed by that use. Totals, allocation, overlap handling, deduplication, and optional `Gamma_work` notation belong to a separately recovered B.1.6 aggregation, not to Work identity.
 
 **CC‑A3‑7 - Authority, justification, and provenance boundary.**
-Authority, justification, and provenance are not constitutive fields of a SystemRoleAssignment occurrence or Work occurrence. When a receiving use relies on one of them, identify the exact episteme and direct authority, justification, source, evidence, or provenance relation and connect it to the exact assignment occurrence, Work individual, assertion, or description. None of those neighboring claims makes the assignment obtain or the Work occur.
+Authority, justification and provenance are not generic constitutive fields of a SystemRoleAssignment or Work occurrence. When a receiving use relies on one of them, identify the exact episteme and direct authority, justification, source, evidence or provenance relation and connect it to the assignment occurrence, Work individual, assertion or description. The assignment and Work must obtain under their own predicates.
 
 **CC‑A3‑8 - Agentic policy, planning, Work, and outcome separation.**
 An agentic case does not license a generic pipeline from policy, through a planned action, to an action. Recover each exact policy, objective, selection or decision, WorkPlan, SystemRoleAssignment, dated Work, actual change, and outcome claim under its direct owner when that claim is current. A policy does not create a plan or Work; a plan does not prove Work; and Work does not prove an outcome. Do not mint `U.PlannedAction` or `U.Action` from ordinary action wording.

@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:10 — Rationale"
-line_start: 78476
-line_end: 78483
+line_start: 77370
+line_end: 77377
 dependencies:
   - "A.10"
   - "A.12"
@@ -46,7 +46,7 @@ keywords:
 
 ### C.32.CONWAY:10 - Rationale
 
-Architectures do not act. Systems perform dated Work under exact system-role assignments when performance is claimed. Architectures, selected structures, Work arrangements, communication structures, constraints, and candidate-synthesis results can nevertheless influence which transformed architecture is feasible. C.32.CONWAY is useful precisely because it relates those facts without merging them.
+Architectures do not act. Actual Work requires the A.13 performer basis and independent A.15.1 occurrence admission; precise assignment-bound attribution additionally uses F.6. Architectures, selected structures, Work arrangements, communication structures, constraints, and candidate-synthesis results can nevertheless influence which transformed architecture is feasible. C.32.CONWAY is useful precisely because it relates those facts without merging them.
 
 The exact pair row gives one obtaining architecture-influence or correspondence occurrence a reusable episteme. The larger frame remains useful when a project has enough information to prepare candidates but not enough to assert that exact row. This preserves practical forward motion while keeping the exact relation status visible: missing governor, unresolved grounding, false predicate, or satisfied affirmative case.
 

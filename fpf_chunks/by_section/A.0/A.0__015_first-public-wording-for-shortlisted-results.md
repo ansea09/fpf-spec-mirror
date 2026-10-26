@@ -6,12 +6,12 @@ section_id: "A.0:QF.2"
 section_title: "First public wording for shortlisted results"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__015_first-public-wording-for-shortlisted-results.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.2 — First public wording for shortlisted results"
-line_start: 2431
-line_end: 2438
+line_start: 2428
+line_end: 2435
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
@@ -55,7 +55,7 @@ keywords:
 
 ### A.0:QF.2 - First public wording for shortlisted results
 
-- When one reader needs the visible selected set, say `Shortlist from <SourceSetFamily> under <LensId>` rather than one generic `choice set` or `portfolio`.
+- When a reader needs the visible selected set, say `Shortlist from <SourceSetFamily> under <LensId>`.
 - When the selected set must be cited as one stable emitted object, say `ShortlistId` and keep one nearby line that names the shortlist and its source set.
 - When the shortlist is ordered, say `RankedShortlist` and keep the underlying shortlisted set result recoverable rather than jumping straight from `Front` to ranking.
 - Use `choice set underlying that shortlist` only when the mathematical set object itself is the point of the sentence.

@@ -6,12 +6,12 @@ section_id: "C.41.TF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:4 — Solution"
-line_start: 88601
-line_end: 88644
+line_start: 87419
+line_end: 87462
 dependencies:
   - "C.37"
   - "C.41"
@@ -34,7 +34,7 @@ Develop ambiguous headings with someone who understands the work. For a printing
 
 For each answer, make recoverable what is being asked, what counts as an answer and what grounds could support it. A direct instruction may name the observation; a more complex judgement may point to a domain procedure. [A.3.2.DE](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a32de---describe-a-method-for-its-intended-use) supplies the broader description of how to carry out the Method. A short checklist can refer to that description without trying to replace it.
 
-Distinguish a reusable instruction from a filled claim. “Count the cards against the contents description” is part of the template's help. “Twenty cards present in S, observed at 10:00” is an instance answer and its basis. [FPF A.3.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a32---umethoddescription-description-episteme-for-a-way-of-doing) supplies the MethodDescription distinction where the template substantively describes a Method; a table label alone does not establish that membership.
+Distinguish a reusable instruction from a filled claim. “Count the cards against the contents description” is part of the template's help. “Twenty cards present in S, observed at 10:00” is an instance answer and its basis. [FPF A.3.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a32---umethoddescription-description-episteme-for-a-way-of-doing) governs a MethodDescription claim when the template has an already admitted Method as its exact EntityOfConcern and makes at least one substantive claim about that Method as a way of doing; a table label alone does not establish that membership.
 
 #### C.41.TF:4.2 - Give answers enough expressive range
 

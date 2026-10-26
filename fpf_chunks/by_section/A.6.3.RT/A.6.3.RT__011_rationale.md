@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:10 — Rationale"
-line_start: 19106
-line_end: 19111
+line_start: 18758
+line_end: 18763
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,7 +49,7 @@ keywords:
 
 ### A.6.3.RT:10 - Rationale
 
-Representation changes are neither always cosmetic nor always new ontology. The reusable move is to preserve practical content for a use, expose the changed reasoning medium, and keep loss and return honest. Exact `v : X -> Y` is the stronger claim-level description when needed; the six-participant occurrence is later-specific evidence about actual transition Work, not the entrance fee for changing prose into a table.
+The representation, its construction and an actual transition answer different questions. Comparing source and target establishes the preservation account needed for a use. An exact `v : X -> Y` states that construction between identified epistemes. The six-participant relation additionally connects the selected model-use structure, preserved concern, endpoints and scheme descriptions under the actual-Work conditions in §4.1.b. A user who only needs a comparison table can stop at the sufficient ordinary account.
 
 An expression can help obtain a result by keeping relevant parts available for joint inspection or manipulation. This benefit depends on its arrangement, the permitted operations and the user's preparation. Comparing the expression with its source protects the givens while the subject Method develops the construction or argument. E.5.2 keeps the meaning portable when another notation is used; portability leaves the effort and available reasoning operations to be compared.
 

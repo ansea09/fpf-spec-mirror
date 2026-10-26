@@ -6,12 +6,12 @@ section_id: "C.29:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__010_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:9 — Conformance Checklist"
-line_start: 69761
-line_end: 69798
+line_start: 68735
+line_end: 68772
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -66,7 +66,7 @@ Use this checklist after constructing or delimiting the result in :4.1. Its cond
 
 | ID | Requirement | Purpose |
 |---|---|---|
-| `CC-C29-0 Use condition` | Use C.29 only when a mathematical object, formalism, family, learned representation, or simulation object is used for explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer, or when a stable problem needs a first candidate lens that could change the next lens-use action. | Keeps local analogies lightweight. |
+| `CC-C29-0 Use condition` | Use C.29 when choosing or transferring a mathematical representation affects the working question, when reliance exceeds the established correspondence, or when a stable problem needs a first useful candidate. Use an adequate local equation, algorithm or domain model directly when no separate representation issue remains. | Preserves the entry condition and sufficient ordinary result. |
 | `CC-C29-1 Mathematical move before record` | State the question, choose a concrete object, establish its correspondence and losses, and derive or delimit the consequence before selecting the sufficient record under :4.4. | Keeps recording subordinate to the mathematical work. |
 | `CC-C29-1a Computational construction` | When the mathematical result needs a computational construction, use C.29.2 to obtain the procedure, its interpretation, the argument supporting its claimed result and the relevant cost estimate. | Lets the reader construct or locate the missing computation. |
 | `CC-C29-1b Realization correspondence` | When the result depends on an unsettled execution correspondence, use C.29.3 to connect preparation, system operations and readout and establish the required result relation. | Lets the reader use or repair the proposed execution. |

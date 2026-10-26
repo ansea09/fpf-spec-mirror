@@ -6,12 +6,12 @@ section_id: "C.27.TA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:intro — Intro"
-line_start: 67472
-line_end: 67477
+line_start: 66441
+line_end: 66446
 dependencies:
   - "A.10"
   - "A.15.1"

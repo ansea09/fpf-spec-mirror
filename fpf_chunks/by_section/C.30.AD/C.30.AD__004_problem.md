@@ -6,12 +6,12 @@ section_id: "C.30.AD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__004_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:2 — Problem"
-line_start: 72160
-line_end: 72171
+line_start: 71132
+line_end: 71135
 dependencies:
   - "A.1"
   - "A.10"
@@ -76,13 +76,5 @@ keywords:
 
 ### C.30.AD:2 - Problem
 
-How can FPF keep architecture descriptions adequate without:
-
-- treating a description, model, view, diagram, graph, card, table, dashboard, file, publication occurrence, publication form, carrier, or rendering as the architecture, an obtaining relation, or a selected structure;
-- treating all architecture documentation as one generic description with no exact EntityOfConcern or selected-structure recovery;
-- granting `U.View` membership because an episteme was authored, constructed, queried, selected, bundled, diagrammed, or published;
-- losing the link between one exact viewpoint episteme, the five-part conformance predicate, and the architecture structure kind being described;
-- letting one attractive view hide lost structure, stale source, or missing correspondence;
-- letting publication quality become empirical grounding, evidence sufficiency, assurance, gate passage, decision claim, work completion, or release authorization;
-- making ordinary architecture triage too heavy for a first useful architecture move.
+A practitioner needs to know whether an architecture description supports the intended work: what it describes, which claims and selected structures it makes recoverable, how it corresponds to other descriptions, and where its use must stop or return to a source. A polished view set can leave these questions unanswered; requiring a full documentation apparatus for an already adequate sentence creates a different failure. The task is to supply the missing description content and its grounds at the scale the use needs.
 

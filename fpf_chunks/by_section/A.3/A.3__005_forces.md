@@ -6,12 +6,12 @@ section_id: "A.3:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__005_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:4 — Forces"
-line_start: 9104
-line_end: 9113
+line_start: 9045
+line_end: 9054
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -35,8 +35,8 @@ keywords:
 | Force                       | Tension                                                                                     |
 | --------------------------- | ------------------------------------------------------------------------------------------- |
 | **Identity vs behaviour**   | Keep holon identity stable while roles/behaviours change.                                   |
-| **Simplicity vs precision** | Managers want one “process” box; kernel must keep **MethodDescription / Method / Work** distinct.  |
-| **Universality vs idioms**  | Pumps, proofs, and data‑pipelines must read the same, yet allow domain names.               |
+| **Simplicity vs precision** | One process box can hide the distinctions among MethodDescription, Method and Work that a receiving use needs. |
+| **Universality vs idioms** | Accounts of physical and epistemic Work need the common distinctions while preserving domain terms. |
 | **Reusable semantics vs dated occurrence** | Keep Method, any MethodDescription edition, and Work distinct; make each relied-on connection explicit. |
 | **Evidence vs mereology**   | Provenance edges (EPV‑DAG) must never turn into part‑whole edges.                           |
 

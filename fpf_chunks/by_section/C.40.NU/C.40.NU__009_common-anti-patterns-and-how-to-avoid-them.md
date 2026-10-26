@@ -6,12 +6,12 @@ section_id: "C.40.NU:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 86495
-line_end: 86505
+line_start: 85313
+line_end: 85323
 dependencies:
   - "C.17"
   - "C.18"
@@ -33,8 +33,8 @@ keywords:
 | --- | --- | --- |
 | Five brands, one possibility | The receiving use and mechanism remain unchanged. | Vary the contribution, characteristic, or support that could alter the inquiry. |
 | Idea-count target | Quantity says nothing about decision-bearing differences. | Name the difference each retained lead exposes and stop at useful coverage or a gap. |
-| Analogy as permission | Another configuration's demonstration supplies no local access or safety basis. | Retain a conditional lead and request the receiving owner's result. |
+| Analogy as permission | Another configuration's demonstration supplies no local access or safety basis. | Retain the conditional lead; obtain the receiving practice's result when its attainable contribution warrants the burden. |
 | Protected constraint deleted | The attractive lead depends on an unauthorized change. | Keep the limit or investigate a separately authorized alternative. |
-| Infinite ideation | Generation postpones the receiver or evidence question. | State which answer would retain, narrow, or reject the lead and obtain that answer. |
+| Infinite ideation | Generation postpones the receiver or evidence question. | State which answer would retain, narrow or reject the lead; obtain it when worthwhile, or finish with the conditional result or gap. |
 | Archive as value verdict | Retention is mistaken for a useful or non-dominated opportunity. | Name the archive's actual retention basis and keep worth and comparison separate. |
 

@@ -6,12 +6,12 @@ section_id: "A.14:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__013_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:12 — Consequences"
-line_start: 28867
-line_end: 28882
+line_start: 28435
+line_end: 28450
 dependencies:
   - "A.1"
   - "A.15"
@@ -56,15 +56,15 @@ keywords:
 
 **Benefits**
 
-- **Predictable composition.** Additive portions, facet-local aspects, same-carrier phases, and explicit collection rules keep unlike claims separate.
+- **Predictable composition.** Additive portions, facet-local aspects, same-holon phases, and explicit collection rules keep unlike claims separate.
 - **Analysis does not create ontology.** Characteristics, viewpoints, views, projections, partitions, and time windows remain usable without being turned into structural parts.
 - **History without confusion.** Aspect and phase identity changes are explicit; collection history stays with the collection's rule.
 - **Readable first use.** A practitioner can state the direct component, constituent, portion, aspect, phase, or belongs-to sentence before any elected assurance account.
 
 **Trade-offs and mitigations**
 
-- **More distinctions.** Authors must name a measure for PortionOf, a facet and identity rule for AspectOf, or a proper interval and carrier identity for PhaseOf. The decision table and practitioner checklist organize that first relation choice.
+- **More distinctions.** Authors must name a measure for PortionOf, a facet and identity rule for AspectOf, or a proper interval and holon identity for PhaseOf. The decision table and practitioner checklist organize that first relation choice.
 - **Aspect judgement.** Distinguishing a structural aspect from a Characteristic, view, projection, or temporal claim requires judgement; neighboring patterns provide the stop and route.
 - **Optional assurance effort.** `sum`, `slice`, and `set` traces are added only when B.3.5 or another named current requirement elects them.
-- **Escalation discipline.** When bearer or carrier identity fails, use the direct reidentification pattern rather than preserving an AspectOf or PhaseOf occurrence by label.
+- **Escalation discipline.** When the holon's identity rule fails, use the direct reidentification pattern rather than preserving an AspectOf or PhaseOf occurrence by label.
 

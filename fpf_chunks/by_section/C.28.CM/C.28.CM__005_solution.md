@@ -6,12 +6,12 @@ section_id: "C.28.CM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:4 — Solution"
-line_start: 68551
-line_end: 68631
+line_start: 67525
+line_end: 67605
 dependencies:
   - "A.15.9"
   - "B.5.2"
@@ -49,7 +49,7 @@ Retain enough distinctions for the proposed contrast. Combining two stages is un
 
 For each consequential relation, explain how changing a proposed cause could change its effect under the relevant conditions. Use the process arrangement, physical law, subject theory, observations or qualified source that supports that proposal. Mark a conjecture as such. A chronological sequence can suggest a mechanism while leaving common causes unresolved.
 
-Construct a material alternative: another cause, a common influence, a recording difference, or a model in which the proposed direct influence is absent. Causes may coexist. An account of overload need not remove an effect of missing information. Keep the outcome and horizon comparable, and specify the same intervention in each model when that is the question.
+Construct another account when it remains materially plausible: for example, another cause, a common influence, a recording difference, or a model in which the proposed direct influence is absent. Causes may coexist. An account of overload need not remove an effect of missing information. Keep the outcome and horizon comparable, and specify the same intervention in each model when that is the question.
 
 A directed arrow X → Y represents a proposed direct causal influence in the chosen model. “Direct” is relative to the variables retained. Explain a consequential omitted influence as carefully as an included one: excluding it may be what makes the answer follow.
 
@@ -102,7 +102,7 @@ Revise only as far as the finding warrants. Preserve a valid observation when it
 
 Give the recipient the question, the relevant mechanisms and alternatives, their source basis and assumptions, the derived consequence, and the uncertainty that changes its use. A short explanation can carry this result; no universal record form is required.
 
-Recognition can stop at “these two accounts imply different responses”. Consequential reliance requires the corresponding subject and evidential grounds. C.28 qualifies causal support; a statistical estimate or bound requires its own identification and estimation result. A controlled direct effect is a different query from a total effect. A claim about the cause of one historical outcome or responsibility also needs its chosen concept and subject standard; a population effect does not settle it.
+Recognition can stop at “these two accounts imply different responses”. Consequential reliance requires the corresponding subject and evidential grounds. C.28 qualifies causal support. A causal estimate needs its identification or design basis; a bound needs its derivation and an estimation result only where it relies on estimated quantities. A controlled direct effect is a different query from a total effect. A claim about the cause of one historical outcome or responsibility also needs its chosen concept and subject standard; a population effect does not settle it.
 
 Return the next useful contribution by what it must establish: for example, whether a log reflects an actual omission, whether a controller reads a display, or whether an apparent AI effect survives comparable task selection. Temporary mitigation can remain available under its own evidence, costs and authority while the causal question is open.
 

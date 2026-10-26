@@ -6,12 +6,12 @@ section_id: "C.32.P2S:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:1 — Problem frame"
-line_start: 77004
-line_end: 77125
+line_start: 75925
+line_end: 76046
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -53,9 +53,9 @@ Use this pattern when an architect or architecture-responsible practitioner has 
 
 The common first moment is practical: a required function has no recoverable bearer; an architecture characteristic is failing; a cross-scope residual survives local repair; a modularity, reuse, interface, scale, or description-loss problem blocks action; one typed Work, communication, tool, method, deployment, evidence, selected-structure, or architecture-side source cannot yet sustain the transformed-side architecture content needed for the changed referent; or operation shows that expected structures and actual structures diverge.
 
-The first useful output is `ProblemToStructureArchitecturingFlowCard@Project`. The card is a working `U.Episteme` about one project-local P2S architecturing transformation flow, not the flow itself, the P2S method, a `U.MethodDescription`, or any planned or performed `U.Work`. It is not a new `U` kind, not an architecture claim, not an architecture decision, not a work plan, not an eval result, and not a publication format. It keeps the connected flow reviewable while each local object remains distinct and the practitioner uses the pattern for each current claim.
+The first useful result explains how the architecture pressure bears on the structures needed for the outside use and what the receiving work needs next. An ordinary account can be sufficient. Use `ProblemToStructureArchitecturingFlowCard@Project` when a reusable record helps keep those connections recoverable. The card is a working `U.Episteme` about one project-local P2S architecturing transformation flow; the flow, Method, descriptions, decisions and Work remain independently identified objects.
 
-For the first pass, fill only the fields that prevent the next wrong move: exact problem claim or pressure, described holon, architecture question and intended use, ClaimScope or qualification window when material, first pattern to use, one unknown or selected structure slot, selected transformation-flow structure when one is actually relied on, and pattern for the next claim. Add decision, work, eval, publication, and feedback refs only when the corresponding question becomes current.
+For the first pass, make the following content recoverable, using the card only when needed: exact problem claim or pressure, described holon, architecture question and intended use, ClaimScope or qualification window when material, first pattern to use, one unknown or selected structure, selected transformation-flow structure when one is actually relied on, and pattern for the next claim. Add decision, work, eval, publication, and feedback refs only when the corresponding question becomes current.
 
 ```text
 ProblemToStructureArchitecturingFlowCard@Project:
@@ -87,24 +87,24 @@ ProblemToStructureArchitecturingFlowCard@Project:
     architectureClaimRefs[]?: exact C.30 ArchitectureClaimRefs
     currentArchitectureRelationRefs[]?: exact obtaining C.30 ArchitectureRelation refs
 
-    candidateStructureKindRefs:
+    candidateStructureKindRefs?:
     selectedStructureRefs?:
     expectedStructureRefs?:
     actualStructureRefs?:
-    architectureCharacteristicRefs:
+    architectureCharacteristicRefs?:
     architectureCharacteristicCriteriaSetRef?:
     qBundleRefs?:
     candidateSynthesisRef?:
   structuralInformation:
-    unknownStructure:
-    selectedStructure:
-    expectedStructure:
-    actualStructure:
-    capturedInDescriptionsOrDecisions:
-    handedToMethodsOrWork:
-    latentOrHiddenStructure:
-    lostStructure:
-    strongerStructureInspectionReturnCondition:
+    unknownStructure?:
+    selectedStructure?:
+    expectedStructure?:
+    actualStructure?:
+    capturedInDescriptionsOrDecisions?:
+    handedToMethodsOrWork?:
+    latentOrHiddenStructure?:
+    lostStructure?:
+    strongerStructureInspectionReturnCondition?:
   decisionAndWorkDocking:
     candidateSetOrPaletteRef?:
     selectedSetRef?:
@@ -161,7 +161,7 @@ ProblemToStructureArchitecturingFlowCard@Project:
 
 For `ProblemToStructureArchitecturingFlowCard@Project`, `flowId` designates the exact project-local P2S architecturing transformation flow that is the card's C.2.1 EntityOfConcern. The claims carried by the filled card and the effective `U.ReferenceScheme` for its designations remain recoverable; changed claim content, changed flow EntityOfConcern, or changed effective reference scheme identifies another card episteme. `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the card is genuinely used in one actual project, `projectWorkOccurrenceRef` identifies the exact composite Work occurrence admitted under `U.Work` and `architecturingFlowCardProjectUseRelationRef` identifies the direct relation by which architecturing work uses the card. The card, the architecturing work it helps coordinate, and the larger project work remain distinct.
 
-The problem, architecting-side, realization, and architecture refs point to independently established objects; they are not P2S relation kinds. `acceptedProblemCardRef` resolves to one C.22.2 C.2.1 episteme; the nested signal and pressure fields neither constitute that card nor make an actual Problem obtain. An assignment claim uses `architectingAssignmentSpeciesRef` and `architectingSystemRoleAssignmentRef` for its separately declared species and obtaining occurrence; it supplies neither classification nor performance. When performance is current, each exact performer first has its A.13 core and each `performedWorkRef` names Work independently admitted through A.15.1. `performedWorkAttributionRefs` are optional and appear only when the flow or receiving use expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work refs intact. Authority, responsibility, capability, Work, assignment, attribution, and result remain separate.
+The problem, architecting-side, realization, and architecture refs point to independently established objects; they are not P2S relation kinds. `acceptedProblemCardRef` resolves to one C.22.2 C.2.1 episteme; the nested signal and pressure fields neither constitute that card nor make an actual Problem obtain. An assignment claim uses `architectingAssignmentSpeciesRef` and `architectingSystemRoleAssignmentRef` for its separately declared species and obtaining occurrence; it supplies neither classification nor performance. When performance is current, each exact performer first has its A.13 core and each `performedWorkRef` names Work independently admitted through A.15.1. `performedWorkAttributionRefs` are optional and appear only when the flow or receiving use expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 attribution alone leaves the Work refs intact while the independent A.13/A.15.1 grounds for each referenced Work still hold. Authority, responsibility, capability, Work, assignment, attribution, and result remain separate.
 
 `actualTransformationRefs` name independently identified actual changes under `A.3.4`. The Work-to-change fields pair each relation that actually obtains with the cited pattern or local claim used to check it. The three production refs resolve to separate local `A.15.PROD` claims and remain absent when their particular question is not current.
 

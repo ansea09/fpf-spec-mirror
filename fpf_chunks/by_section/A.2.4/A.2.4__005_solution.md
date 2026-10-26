@@ -6,12 +6,12 @@ section_id: "A.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:4 — Solution"
-line_start: 6001
-line_end: 6131
+line_start: 5972
+line_end: 6100
 dependencies:
   - "A.10"
   - "A.2"
@@ -111,7 +111,6 @@ Episteme evidence-use statement:
   CurrentnessRef:                      # G.11 when current
   ReceivingWorkAndUseRelationRef:      # when actual use is claimed
   RelianceDispositionRef:              # A.10 when reliance is judged
-  UnsupportedOverread:                # only when grounded and consequential under F.19:4
 ```
 
 #### A.2.4:4.4 - Minimal Status-Use Statement
@@ -128,7 +127,6 @@ Episteme status-use statement:
   CurrentnessRef:                      # G.11 when current
   ReceivingWorkAndUseRelationRef:      # when actual use is claimed
   RelianceDispositionRef:              # A.10 when reliance is judged
-  UnsupportedOverread:                # only when grounded and consequential under F.19:4
 ```
 
 A.2.4 does not fill a missing direct governor with a generic status, evidence, work-result, or evaluation-result relation.
@@ -164,9 +162,9 @@ Use A.2.4 only to classify evidence use or status use around the episteme.
 
 When episteme inception through work matters, A.15.PROD supplies the local entity-identity inception claim.
 
-#### A.2.4:4.7 - Shortcut cost and reopen condition
+#### A.2.4:4.7 - First-use boundary and reopen condition
 
-A.2.4 is the inexpensive first-use classifier. It may identify the episteme, target claim or status, effective source scheme when material, ClaimScope, polarity or value, window, intended use, applicable definition or constraint, and any unsupported overread grounded under F.19:4. It does not decide the source work, local result, provenance, currentness, assurance, causal support, gate passage, permission, commitment, publication interpretation, or receiving action.
+A.2.4 classifies the episteme's first evidence or status use. It may identify the episteme, target claim or status, effective source scheme when material, ClaimScope, polarity or value, window, intended use, and applicable definition or constraint. Questions about source Work, a local result, provenance, currentness, assurance or another receiving claim remain governed by their direct patterns.
 
 Open only the exact subject question whose predicate decides the use: A.13 for the actual performer; A.15.1 for independent Work admission; F.6 when the result must also identify the assignment under which that Work was performed; A.6.1 for actual bindings; the domain result predicate plus C.2.1 for result content; A.10/G.6 for provenance and bounded reliance; G.11 for currentness; B.3 for assurance; C.28 for causal use; F.10 for a status family; or E.17 for publication. Reopen the A.2.4 classification when the episteme, target claim/status, scope, polarity/value, window, or intended use changes.
 

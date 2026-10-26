@@ -6,12 +6,12 @@ section_id: "F.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__007_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:5 — Archetypal Grounding"
-line_start: 119047
-line_end: 119078
+line_start: 117867
+line_end: 117898
 dependencies:
   - "A.10"
   - "A.15"

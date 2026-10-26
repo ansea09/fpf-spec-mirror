@@ -6,12 +6,12 @@ section_id: "A.6.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:9 — Consequences"
-line_start: 17645
-line_end: 17660
+line_start: 17326
+line_end: 17341
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -44,6 +44,6 @@ keywords:
 
 * **Value-and-relation clarity.**
   By requiring each EFEM species to compare the three C.2.1 identity values and name the exact separately obtaining relations its rule reads, the pattern keeps an EntityOfConcern, a declaration-local SlotKind, and a reference to the entity distinct. Equal or different endpoint relation facts are a comparison result, not an effect of the arrow.
-* **Better didactics.**
+* **Didactic projection.**
   When a didactic expression–meaning–subject triangle is useful, use the C.2.1:5 projection: expression maps to selected representation elements and any publication carrier; meaning is the ClaimGraph interpreted under its effective ReferenceScheme; subject is the exact EntityOfConcern. Keep any material empirical grounding, representation correspondence, reference, and viewpoint selection for a named describing use separately identified, rather than adding triangle slots.
 

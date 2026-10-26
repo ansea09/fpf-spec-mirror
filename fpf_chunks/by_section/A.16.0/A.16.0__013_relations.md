@@ -6,12 +6,12 @@ section_id: "A.16.0:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:12 — Relations"
-line_start: 34016
-line_end: 34020
+line_start: 33547
+line_end: 33551
 dependencies:
   - "A.16"
   - "A.16.1"

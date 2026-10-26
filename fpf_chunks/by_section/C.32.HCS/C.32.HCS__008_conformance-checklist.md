@@ -6,12 +6,12 @@ section_id: "C.32.HCS:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:7 — Conformance checklist"
-line_start: 77509
-line_end: 77519
+line_start: 76423
+line_end: 76433
 dependencies:
   - "A.19"
   - "C.11"
@@ -43,7 +43,7 @@ keywords:
 | `CC-HCS-1` | The architecture-bearing family is named; when it is not itself an admitted holon family, the described holon or the source-bearing episteme or publication context for a description-side family is named, together with any recovery-pattern refs actually used. |
 | `CC-HCS-2` | Starter heads are paired with likely bearers or selected structures. |
 | `CC-HCS-3` | Q-Bundle boundaries are marked when the head is composite. |
-| `CC-HCS-4` | Software-derived heads are generalized only after the source label is resolved to an architecture-bearing family and the bearer and scale are recoverable. |
-| `CC-HCS-5` | Before project optimization, measurement, comparison, or selection, starter heads are either handed to `C.32.ACS` for project-row admission or kept as source catalogue wording. |
-| `CC-HCS-6` | Catalogue, benchmark, or dashboard cues that look mature answer the proxy-resistance question or remain source catalogue wording. |
+| `CC-HCS-4` | Cross-family reuse identifies the target bearer and the source meaning that survives. An unresolved scale remains a project question; a stronger claim of applicability needs its conditions established. |
+| `CC-HCS-5` | Before relying on a starter head for optimization, measurement, comparison or selection, establish its project meaning and required binding through ACS or reuse an adequate existing binding. A still unresolved head can remain a question, but cannot support that stronger use. |
+| `CC-HCS-6` | A catalogue, benchmark or dashboard cue supports a starter head only when its architecture concern and likely bearer are recoverable. Plausible proxy loss is retained; absence of a manufactured counterexample does not reject the head. |
 

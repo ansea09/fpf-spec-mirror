@@ -6,12 +6,12 @@ section_id: "A.19.SPR:6"
 section_title: "Conformance checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__008_conformance-checks.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:6 — Conformance checks"
-line_start: 35777
-line_end: 35791
+line_start: 35163
+line_end: 35177
 dependencies:
   - "A.10"
   - "A.16"
@@ -50,8 +50,8 @@ keywords:
 | `CC-A19SPR-1` | The final sentence names the exact item and what is claimed or valued, or explicitly keeps the wording ordinary, quoted, navigation-only, narrowed, or blocked. |
 | `CC-A19SPR-2` | The direct rule or criterion is recoverable whenever the claim is not understandable or usable without it. |
 | `CC-A19SPR-3` | A predicate appears only when the direct pattern defines or needs one; relations, assertions, results, decisions, and record fields keep their own forms. |
-| `CC-A19SPR-4` | An allowed-use or blocked-inference clause appears only when it changes the receiving action or prevents a likely harmful conclusion. |
-| `CC-A19SPR-5` | A time window, expiry rule, or recheck condition appears when the value can change during the intended use. |
+| `CC-A19SPR-4` | An allowed-use clause changes the receiving action. A blocked-inference clause passes §4's independent-ground, plausible-reader and contribution test. |
+| `CC-A19SPR-5` | A time window, expiry rule or recheck condition appears when change could alter the claim or action during the intended use. |
 | `CC-A19SPR-6` | Source, evidence, assurance, publication, assignment state, work entry, gates, decisions, release or admission, and project records use the patterns or records that define or test those exact claims. |
 | `CC-A19SPR-7` | Source and publication patterns are not used as a general home for evidence, assurance, gate, Work, temporal, mathematical-lens, or project status. |
 | `CC-A19SPR-8` | A retained technical field names its item, possible values, and rule; it adds use, time, evidence, and blocked-inference fields only under their triggers. |

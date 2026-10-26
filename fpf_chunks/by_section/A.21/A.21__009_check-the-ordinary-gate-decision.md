@@ -6,12 +6,12 @@ section_id: "A.21:7"
 section_title: "Check the ordinary gate decision"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__009_check-the-ordinary-gate-decision.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:7 — Check the ordinary gate decision"
-line_start: 40559
-line_end: 40579
+line_start: 39747
+line_end: 39767
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -39,7 +39,7 @@ keywords:
 3. **Checks.** For each check, name its subject, criterion and edition, case, requirement, evaluation state, source result, and mapping rule.
 4. **Nothing missing.** Keep every required check visible, including `notRun`, `unknown`, error, and failure.
 5. **Worst result wins.** Aggregate only after the rule has mapped every required result. A missing or unrun required result cannot support `pass`.
-6. **Next action.** State what `pass`, `degrade`, `block`, or `abstain` means for this action and when to decide again.
+6. **Next action.** State what `pass`, `degrade`, `block`, or `abstain` means for this action, retain every applicable restriction under §4.5, and state when to decide again.
 7. **Boundary.** Do not turn the decision into work-entry readiness or performed Work, and add no crossing, Bridge, publication, or assurance claim that is absent.
 
 #### A.21:7.1 - Triggered additions

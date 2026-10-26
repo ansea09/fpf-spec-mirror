@@ -6,12 +6,12 @@ section_id: "A.3.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:7 — Conformance Checklist"
-line_start: 13254
-line_end: 13272
+line_start: 13104
+line_end: 13122
 dependencies:
   - "A.1"
   - "A.10"
@@ -59,7 +59,7 @@ keywords:
 | `CC-A34-1` | One continuing changed subject, temporal extent or formal ordering boundary, boundary conditions, before/during/after facts, and continuity or reidentification rule identify the transformation. Changed claim content instead yields two C.2.1 epistemes and a separate edition-relation question. |
 | `CC-A34-2` | Actuality and transformation identity require the complete basis in 4.1, even when a method, plan, model, representation, or individual relation fact is available. |
 | `CC-A34-3` | Every subject fact uses the pattern that defines its relation or characteristic; no union-valued `transformationRelation` field is used. |
-| `CC-A34-4` | Method, method description, operation declaration or binding, plan, work, flow structure, representation, evidence, evaluation, and publication retain separate identities and relations. |
+| `CC-A34-4` | Any additional method, operation, work, flow, representation, evidence, evaluation or publication claim retains its own objects and relations. |
 | `CC-A34-5` | A transformation assertion is a C.2.1 episteme about the actual transformation or exact base facts. |
 | `CC-A34-6` | Time, rate, rhythm, duration, and ordering claims use `C.27.TA` and `C.27` without replacing transformation identity. |
 | `CC-A34-7` | Use E.18 for the selected flow structure and C.29 for mathematical representation; ground actual transformation and work claims separately through A.3.4 and A.15.1. |
@@ -67,7 +67,7 @@ keywords:
 | `CC-A34-9` | `input`, `output`, `result`, `outcome`, `deliverable`, and `handoff` remain wording cues until the reader names the participant and relation being asserted. |
 | `CC-A34-10` | When performed `U.Work` is claimed to cause, realize, or participate in a transformation, the case applies an existing subject predicate, states one `A.6.RCD` disposition-2 local compound claim over named base facts, or preserves the applicable `A.6.RCD` stop for the pair. Co-occurrence and a shared subject are insufficient. |
 | `CC-A34-11` | Every proposed component change and whole-configuration change is identified independently. Shared timing, referent, work, flow position, or representation establishes neither composition nor partlessness. |
-| `CC-A34-12` | A use that needs positive transformation composition returns the parked result in 4.2.1. |
-| `CC-A34-13` | A transformation is tested under A.1 only after a future accepted architecture independently supplies the exact candidate and all six A.1 constructive components; the current blocker, evaluation, assertion, evidence, currentness, receiving disposition, and B.2 remain separate. |
+| `CC-A34-12` | A positive transformation-composition claim requires a governing rule; preserve the missing-governor or missing-substrate result from 4.2.1 when its required basis is absent. |
+| `CC-A34-13` | Test a transformation under A.1 only after an independently admitted construction supplies the candidate and all six required construction facts. Recognition, assertion, assurance and receiving-work disposition remain separate. |
 | `CC-A34-14` | When a production claim is current, test production-work participation, entity-identity inception, and production completion separately under `A.15.PROD`, using the exact work, work part, subject-identity facts, completion criterion, and direct effect facts. |
 

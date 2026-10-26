@@ -6,12 +6,12 @@ section_id: "C.32.HCS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:9 — Consequences"
-line_start: 77530
-line_end: 77537
+line_start: 76444
+line_end: 76451
 dependencies:
   - "A.19"
   - "C.11"
@@ -41,6 +41,6 @@ keywords:
 | Consequence | Benefit | Cost |
 |---|---|---|
 | Criteria-row narrowing starts from architecture-bearing family. | The practitioner is not forced to read a giant catalogue first. | Starter packs must be maintained as FPF architecture practice grows. |
-| Cross-family generalization is disciplined. | Software sources can inform starter packs without importing software ontology or admitting source labels as holon kinds. | Every reuse must re-identify the family, bearer, and scale; record a recovery pattern only when a source label needed recovery. |
-| ACS remains project-specific. | HCS does not overload project criteria construction. | The project still must do ACS work before optimization. |
+| Cross-family generalization is disciplined. | Software sources can inform starter packs without importing software ontology or admitting source labels as holon kinds. | A changed family, bearer, domain or use requires rebinding; unchanged adequate bindings can be reused. Record a recovery pattern only when source wording needed recovery. |
+| ACS remains project-specific. | HCS does not overload project criteria construction. | Optimization requires an adequate project binding, whether newly constructed through ACS or reused. |
 

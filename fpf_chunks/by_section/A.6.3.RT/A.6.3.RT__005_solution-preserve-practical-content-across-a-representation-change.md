@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:4"
 section_title: "Solution — preserve practical content across a representation change"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__005_solution-preserve-practical-content-across-a-representation-change.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:4 — Solution — preserve practical content across a representation change"
-line_start: 18727
-line_end: 18917
+line_start: 18379
+line_end: 18569
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -60,13 +60,13 @@ Produce the useful target first:
 5. Compare target and source. Mark what is preserved and foregrounded; what is rearranged, omitted or harder to recover; and which visible links or interpretations were added by the representation.
 6. Try the intended operation when a short trial can decide whether the expression is useful. Apply the relevant mathematical, physical or other subject Method. Use the result to judge or repair the expression.
 7. State the representation and reasoning-medium delta only as far as it changes use or blocks a likely overread.
-8. Close with admissible use, non-admissible use, and a concrete return trigger and destination.
+8. State the supported use. Add a non-admissible use or return condition when a source limitation, representation feature, observed misunderstanding or applicable risk gives a plausible reader a consequential reason to need it. Name the return destination when return is required.
 
 The first result is the expression and its representation note. If working with the expression establishes a new claim, its construction or argument supplies the source for representing that claim. Do not describe the new conclusion as content preserved from the original givens; sharing an EntityOfConcern does not establish that preservation.
 
 Choose another available scheme when the current one cannot express a needed distinction. If new signs or rules are needed, develop the scheme through notation-design work. The scheme's description can use A.6.0 for a reusable vocabulary, laws and applicability, and A.6.1 for declared operations when those are needed. Those declarations describe the designed rules. RT uses the selected rules to construct particular expressions.
 
-Use this compact note for ordinary work:
+The following questions can guide a compact note; retain only entries needed to interpret or use the target:
 
 | Representation note entry | Practical question |
 | --- | --- |
@@ -76,12 +76,12 @@ Use this compact note for ordinary work:
 | Target and reason | Which representation is chosen, and why does it help? |
 | Preserved/foregrounded | What remains recoverable, and what becomes easier to see? |
 | Rearranged/lost/added | What is omitted or weakened, and which apparent relation is not source-given? |
-| Use boundary | What may and may not be done with the target? |
-| Return | Which condition sends the user back to the source or to a stronger claim's direct pattern? |
+| Use boundary | What use is supported, and which plausible stronger use, if any, must be excluded? |
+| Return | Does a material limit or changed question require source return, and where? |
 
 #### A.6.3.RT:4.1.a - Exact episteme-construction branch
 
-Open this branch only when the receiving use makes exact claim identity material: the target must travel independently, be cited or disputed, cross a scheme boundary for consequential use, be considered for admission as receiving episteme `Y` in a generated or decode-mediated case, or meet an exact-identity requirement from a named public, evidence, or assurance receiver.
+Open this branch when the receiving use depends on exact claim identity or an explicit preservation construction, as described in §1. The need comes from that use, not merely from a target being generated, cited or displayed independently.
 
 Then establish exact A.6.3 construction `v : X -> Y`:
 
@@ -91,7 +91,7 @@ Then establish exact A.6.3 construction `v : X -> Y`:
 4. state the relation between endpoint schemes, preserved and foregrounded content, admitted loss or recoverability, prohibited strengthening, applicability, use, and return; and
 5. cite every exact correspondence relation on which `v` actually depends. Scheme difference, similar content, adjacency, or a visible edge proves none.
 
-A source model, graph, publication occurrence, form, carrier, table, or display does not substitute for `X`; a target table, diagram, notation, page, or file does not substitute for `Y`. If the target has no recoverable claim content, exact EntityOfConcern, or effective reference scheme, keep it as a useful rendering or candidate carrier and do not assert exact RT yet.
+Identify `X` and `Y` from their claim content, EntityOfConcern and effective schemes. A model or decoded output can supply an endpoint if those C.2.1 conditions are established; its label, visible form or carrier does not establish them. When an endpoint cannot yet be identified, retain the useful rendering or candidate carrier without asserting the exact construction.
 
 An exact `v` performs no Work and is not a relation occurrence. A system may perform representation-transformation Work under A.15.1; methods, source-use relations, A.6.1 bindings, and any A.15.PROD inception claim remain separate. E.17.0 independently decides viewpoint conformance and dependent `U.View` membership. E.24.PUB independently identifies publication occurrence, form, carrier, audience, and bounded use. Completing the exact construction does not itself authorize reliance.
 
@@ -125,7 +125,7 @@ The occurrence is participant-determined by the complete six-participant tuple. 
 
 #### A.6.3.RT:4.1.c - Transition description and source-relation epistemes
 
-Describe the occurrence durably only after it obtains and a receiving use needs that description. The transition-description episteme is identified under C.2.1 by claim content about the exact six-participant occurrence, that occurrence as EntityOfConcern, and its own effective `U.ReferenceScheme`. Editing its claim graph creates another description episteme without changing the occurrence.
+For a durable description of an obtaining occurrence, first establish that occurrence. Identify its description episteme under C.2.1 by claim content about the six-participant occurrence, that occurrence as EntityOfConcern and the description's effective `U.ReferenceScheme`. Editing the claim graph creates another description episteme without changing the occurrence.
 
 Its claim content may make these values recoverable; they are not extra participants or identity fields:
 
@@ -134,7 +134,7 @@ Its claim content may make these values recoverable; they are not extra particip
 | `transitionRelationRef` | The exact six-participant occurrence. |
 | `viewingConstructionRefOrStatement` | Exact `v : X -> Y`, including claim construction, endpoint-scheme relation, same exact EntityOfConcern, preservation, loss/recoverability, prohibited strengthening, applicability, use, and return. |
 | `representationTransformationWorkRef` | Exact A.15.1 Work already used in the obtaining test; actual performer, assignment, Method, A.6.1 bindings, and any A.15.PROD inception claim remain separate. |
-| `sourceRelationReferenceEpistemeRefs[]` | C.2.1 epistemes about exact source relations actually used; each relation still needs its own obtaining basis. |
+| `sourceRelationReferenceEpistemeRefs[]?` | Separately needed C.2.1 epistemes about source relations used by the construction; each relation retains its own obtaining basis. |
 | `preservedClaimRefs[]` | Exact source claims carried into `Y` for this use. |
 | `preservedCommitmentRefs[]?` | Exact commitments preserved when a commitment is current. |
 | `representationSchemeDeltaDescriptionRef` | What differs between the source and receiving schemes described by the participating scheme-description epistemes. |
@@ -142,12 +142,12 @@ Its claim content may make these values recoverable; they are not extra particip
 | `representationLossDescriptionRef?` | Lost, narrowed, foregrounded, or rearranged distinctions. |
 | `recoverabilityDescriptionRef?` | How omitted content is recovered from exact `X` or source relations. |
 | `admissibleUseDescriptionRef` | What `Y` supports now. |
-| `nonAdmissibleDownstreamUseDescriptionRef` | Which stronger use has not been established. |
-| `returnConditionDescriptionRef` | When the user returns to exact `X` or its source relations. |
+| `nonAdmissibleDownstreamUseDescriptionRef?` | A stronger use excluded under §4.1's plausible-reader and consequence test, when needed. |
+| `returnConditionDescriptionRef?` | A condition requiring return to `X` or its source relations, when needed. |
 
 At least one of loss and recoverability is explicit; both are explicit when distinctions are lost and a recovery route is claimed.
 
-When `v` cites a claim about one exact source relation, identify any reference-bearing episteme independently by its own C.2.1 triple: claims designating that relation and stating its exact kind, signature, defining pattern, and use in `v`; the source relation as EntityOfConcern; and its effective scheme. The episteme is not the relation, and citation does not make the relation obtain.
+When the use needs a separate reference-bearing episteme about a source relation, identify it by its C.2.1 triple: claims about that relation, the relation as EntityOfConcern and an effective scheme. Include the relation kind, signature or defining pattern only as needed to recover the claim used by `v`. A claim cited within a broader source episteme can remain there; identify that source and claim without requiring a second relation-description episteme. Citation alone does not establish that the relation obtains.
 
 Publication may expose `X`, `Y`, the occurrence, or its description; forms, carriers, C.29 representations, and publication occurrences substitute for none of them.
 
@@ -175,7 +175,7 @@ State the actual use, loss, evidence, and return once. Use A.10 or B.3 only when
 
 In a **direct** exact construction, `Y` is constructed from `X` and fixed declared configuration. State the claim construction, endpoint-scheme relation, same exact EntityOfConcern, preservation, loss/recoverability, prohibited strengthening, applicability, use, and return; no generic correspondence object is required.
 
-In a **correspondence-mediated** exact construction, `Y` depends on additional source epistemes or governed relations among their claim-bearing contents. Recover each needed direct relation and, when `v` cites a claim about it, the exact C.2.1 assertion episteme. A correspondence table, model, graph edge, or scheme difference is neither the relation nor proof that it obtains.
+In a **correspondence-mediated** exact construction, `Y` depends on additional source epistemes or governed relations among their claim-bearing contents. Recover each needed relation and the source claims used by `v`. A table, model or graph may carry those claims and their grounds; its presence or a scheme difference alone does not establish that the relation obtains. Cite a separate relation-description episteme only when the construction needs one.
 
 Both profiles retain the same exact EntityOfConcern. A correspondence by itself establishes neither an F.9 Bridge nor any substitution, comparative-review, evidence, or publication claim. Add C.29 only for a current mathematical modeling or reasoning use.
 
@@ -209,11 +209,11 @@ State which distinctions, inspection possibilities, uncertainty cues, or local q
 
 A latent or decode-mediated case stays bounded until it has source material for the same concern, a decoding or access relation, recoverability evidence for the intended use, admissible and non-admissible use, remaining user action, and source return. When exact reliance is claimed, recover exact source episteme `X`, receiving episteme `Y`, construction `v`, and the source dependencies of `v` defined in §4.2.
 
-A latent region, activation pattern, embedding, probe result, decoded rendering, publication form, or carrier may help locate the case but fills no episteme endpoint. Missing recovery evidence keeps the result exploratory, report-only, or blocked.
+A latent region, embedding, probe result, decoded rendering or publication may help locate the case. To use an episteme endpoint, recover its C.2.1 identity rather than inferring it from a label or readable output. Missing recovery evidence leaves the affected use exploratory, report-only or unavailable, according to what the remaining grounds support.
 
 ##### A.6.3.RT:4.5.d - Composition and reopen rule
 
-Repeated same-regime normalization may be idempotent; heterogeneous representation shifts are generally order-sensitive. For an ordered sequence of representation shifts, compare the source and target of each shift and carry forward the loss from earlier shifts. Keep the source and target, content under test, scheme delta, preserved and withdrawn commitments, loss/recovery, and remaining action recoverable at every step.
+A normalization repeat claim follows A.6.3:4.7: identify the first and next arrows, the same resulting episteme and composite equivalence, with a fixture or proof. Different orders of representation shifts may yield different results. For an ordered sequence, compare each source and target and carry forward earlier loss. Keep the content under test, scheme change, preserved or withdrawn commitments, loss/recovery and remaining action recoverable at each step.
 
 Reopen the affected account when source content, endpoint identity, recovery assumptions, pins or provenance, correspondence or counter-witness disposition, primary semiotic mode, intended publication or receiving use, or accumulated loss changes. A changed EntityOfConcern requires A.6.4; a changed target-side claim uses the pattern that defines that exact claim.
 

@@ -6,12 +6,12 @@ section_id: "A.16.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:4 — Solution"
-line_start: 34115
-line_end: 34186
+line_start: 33640
+line_end: 33696
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,7 +37,7 @@ keywords:
 ---
 
 ### A.16.1:4 - Solution
-`PreArticulationCuePack` is a typed publishable episteme form that serves as the earliest durable seam publication form inside the language-state cluster. It is not a claim, not a characteristic, not a method, not work, and not a route record. When rendered, it appears on an ordinary MVPK face; cue-pack status is a property of the publication form, not a rival face kind.
+`PreArticulationCuePack` is a publication form for preserving a cue while its interpretation and next use remain open. A filled account can state what was observed and why it merits preservation. That content does not by itself establish a causal explanation, evaluative result, selected route, Method or Work occurrence. When rendered, the form appears on an ordinary MVPK face; it defines no rival face kind.
 
 A cue pack may exist before any route is selected and even before route-candidate hints can yet be named clearly. When route plurality or selection becomes explicit enough to publish, use `B.4.1` to state it and publish the next form as a `RoutedCueSet`.
 
@@ -46,7 +46,7 @@ A cue pack may exist before any route is selected and even before route-candidat
 PreArticulationCuePack names the publication form defined here; it is not an admitted U-kind. A filled claim-bearing preservation account is an episteme only when its claim content, exact EntityOfConcern and effective ReferenceScheme satisfy C.2.1. The form, that episteme, its cue and witnesses, its carrier and any E.24.PUB publication occurrence remain distinct.
 
 #### A.16.1:4.1 - Core shape
-A conforming cue pack may publish:
+`cueNucleus` is required. Fields marked `?` are optional and selected for the receiving use:
 
 - `cueNucleus`
 - `preservationRationale?`
@@ -68,11 +68,11 @@ A conforming cue pack may publish:
 - `scope?`
 - `GammaTime?`
 
-`cueNucleus` names the minimal preserved core: what exactly is being kept visible rather than lost in carrier noise or premature endpoint wording.
+`cueNucleus` names what is being kept visible. When several sources contribute, state what unifies their traces, tensions or contrasts into this cue; a collection of unrelated fragments supplies no common nucleus.
 
 When the nucleus is still unclear, try arranging the available material as in [the operator example](#a161131---operator-cue-pack).
 
-`primaryWitnessRef` and `primaryAnchor` provide explicit triage when one witness or anchor is load-bearing for preservation. Secondary witnesses, anchors, traces, embodiment refs, and model-state refs may enrich the pack without displacing that primary nucleus.
+Use `primaryWitnessRef` or `primaryAnchor` when one witness or anchor carries the preservation need. If several grounds are jointly essential, preserve that joint basis instead of inventing a single primary one. Add secondary material only for the contribution it makes to understanding or using the cue.
 
 `laneCandidates` and `routeCandidateHints` are early directional hints only. They are **not** a selected route, route rationale, or route-selection status. Those belong to `RoutedCueSet` under `B.4.1`.
 
@@ -81,24 +81,9 @@ The referenced facets keep their own definitions. `primaryAnchor`, `candidateAnc
 In this cluster, a cue is a salient epistemic nucleus extracted from witnesses, traces, felt tensions, model outputs, work-possibility hints, reliance-possibility hints, contrasts, or other grounds and made preservable as a pack. A raw signal-like trace counts as a cue only when that salience and preservability have been made explicit; otherwise it remains a trace, not yet a cue. Any evidence use is separately qualified under A.10 for a named target claim.
 
 #### A.16.1:4.2 - Use boundary
-A cue pack may preserve:
+The cue pack preserves the nucleus, its grounds and any visible directional hints. Valence, urgency, discomfort, promise or attraction may explain preservation; they do not by themselves establish an evaluation, abductive prompt, selected route, or an action-oriented claim recovered through A.6.A.
 
-- a cue nucleus,
-- preservation rationale,
-- primary and candidate anchors,
-- primary and secondary witnesses,
-- contrasts and exemplars,
-- early directional plurality or route-candidate hints.
-
-A cue pack shall not silently serve as:
-
-- a route decision record,
-- a selected-route publication,
-- a finished anomaly statement,
-- a finished evaluative ascription,
-- a claim or question recovered through `A.6.A`,
-- a method step,
-- a work occurrence.
+If the content already contains a route decision or an endpoint result, apply its governing pattern and use the corresponding publication form. Choosing the cue-pack form does not establish that the later test has passed.
 
 #### A.16.1:4.3 - Transition discipline
 A cue pack may admissibly feed:

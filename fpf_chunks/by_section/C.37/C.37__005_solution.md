@@ -6,12 +6,12 @@ section_id: "C.37:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:4 — Solution"
-line_start: 81894
-line_end: 82023
+line_start: 80719
+line_end: 80848
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -59,7 +59,7 @@ Write one sentence:
 <receiving System> must <take this exact action or make this exact decision>.
 ```
 
-Every row in the account uses that same receiver and action. A diagram used to select a proposed Method edition and the same diagram used later to tailor that Method belong to different accounts. Adjacent actions, one project, one carrier, or one meeting do not merge their use boundaries.
+Every row in the account uses that same receiver and action. A diagram used to select a proposed Method edition and the same diagram used later to tailor that Method have different use accounts. Reuse unaffected candidate and source results; reconsider the claims, losses and conditions that change with the action. Adjacent actions, one project, one carrier or one meeting do not merge their use boundaries.
 
 If one direct pattern already returns the complete representation–operation choice and limits for this use, take that direct exit. Do not add C.37 merely to rename its result.
 
@@ -75,7 +75,7 @@ Open only the layers required by the attempted use.
 | Receiving result | The exact `ChoiceResult`, gate result, permission, authorization, acceptance, or domain result supplied by the pattern that defines or tests the receiving action. | Candidate identity or evidence merely by mentioning the row. |
 | Auxiliary facts | Lens, publication, form, carrier, repair, provenance, source, or rendering facts needed to interpret or recover the row. | Any missing positive subject result, reliance, or receiving result. |
 
-If a layer required by the attempted use is negative, missing, or unresolved, do not borrow support from another layer. Decline the row or mark it unresolved and name the missing fact or direct result.
+If a layer required by the attempted use is negative, missing or unresolved, decline the row or mark it unresolved and name the missing fact or direct result. An unresolved assessment may help construct the required receiving result; it does not supply that result or permit a use that depends on it. Preserve independently supported premises while the missing result is obtained.
 
 #### C.37:4.3 - State exposure, loss, and the row disposition
 

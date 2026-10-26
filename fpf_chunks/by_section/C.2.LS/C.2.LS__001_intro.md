@@ -6,12 +6,12 @@ section_id: "C.2.LS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:intro — Intro"
-line_start: 53323
-line_end: 53336
+line_start: 52477
+line_end: 52492
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -48,7 +48,9 @@ keywords:
 
 **Plain-name.** Language-state facet profile.
 
-**Use this pattern when.** Use C.2.LS when a `U.Episteme` publication needs one explicit profile that keeps formality, articulation, closure, anchoring, representation factors, and local thresholds visible together.
+**Use this pattern when.** Use C.2.LS when the next use of a published `U.Episteme` needs an explicit profile of selected language-state readings and local thresholds. Select from formality, articulation, closure, anchoring and representation factors.
+
+**Sufficient result and non-use.** The profile can point to existing readings and include only the facets needed together. If ordinary wording, one direct facet reading or an applicable existing profile already serves the receiving use, use it without constructing another bundle.
 
 **What goes wrong if missed.** Teams replace the facet profile with a maturity adjective such as `ready`, `raw`, or `stable`, then use that label to choose routes, decide whether to reopen, interpret Bridges, or make publication decisions. The label hides the actual facet values.
 

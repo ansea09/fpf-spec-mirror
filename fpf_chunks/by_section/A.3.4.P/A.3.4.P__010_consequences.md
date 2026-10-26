@@ -6,12 +6,12 @@ section_id: "A.3.4.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:9 — Consequences"
-line_start: 13554
-line_end: 13562
+line_start: 13386
+line_end: 13391
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -58,10 +58,7 @@ keywords:
 
 ### A.3.4.P:9 - Consequences
 
-- FPF gains one reusable restoration pattern for language about change situations. Subject patterns can reuse its cue-to-object recovery.
-- `A.3.4` becomes easier to use because source labels are tested against the exact subject-side transformation basis and then routed to exact neighboring relations.
-- `E.18`, `E.18.2`, and `C.29` retain their respective responsibilities for selected compound structure, mathematical expression, and mathematical-lens use.
-- Architecture, method, work, mechanism, function, evidence, publication, and temporal patterns can point to the transformation ontic.
+- The reader can keep a recognizable domain expression while making its object and relation unambiguous.
+- A.3.4 establishes the basis needed by an actual-change claim; other subject patterns answer the separate claims.
 - The ordinary result is the repaired wording and the needed stop or subject-pattern return; use a `TransformationWordingRepair` note only when the receiving use needs recoverable detail.
-
 

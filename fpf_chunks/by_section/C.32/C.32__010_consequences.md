@@ -6,12 +6,12 @@ section_id: "C.32:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:9 — Consequences"
-line_start: 76541
-line_end: 76553
+line_start: 75465
+line_end: 75477
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,7 +72,7 @@ keywords:
 | Positive consequence | Cost or trade-off |
 |---|---|
 | Candidate architecture configurations are visible before local choice or decision. | Losses and constraint fits must be named earlier. |
-| Architecture-characteristic improvement is handled as iterative architecture work. | Each iteration must say which characteristic pressure changed, which selected structures were changed, which reading or feedback is admissible as synthesis input, and what source-return condition opens the next synthesis question. |
+| Architecture-characteristic improvement can reopen synthesis when needed. | A warranted next iteration identifies changed pressure, affected structures and usable feedback; a sufficient palette can finish the current question. |
 | Multi-structure synthesis is reviewable. | The practitioner must keep functional, module, placement, control, Work, evidence, and other selected structures distinct when they matter. |
 | Architecture characteristics and quality bundles are recorded as comparison inputs for the pattern for the next question. | The palette may need characteristic repair through `C.25`, `C.31`, `C.16`, or later comparison, local-choice, selection, or selected-set result-declaration work through `A.19.CPM`, `C.11`, `A.19.SelectorMechanism`, or `G.5`, respectively, when those claims are being made. |
 | Holonic architecture breadth is preserved. | Examples and candidates must name the described holon and selected structures instead of using domain defaults as unstated selected structures. |

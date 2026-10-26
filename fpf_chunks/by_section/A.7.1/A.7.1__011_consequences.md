@@ -6,16 +6,19 @@ section_id: "A.7.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:9 — Consequences"
-line_start: 26242
-line_end: 26245
+line_start: 25792
+line_end: 25795
 dependencies:
+  - "A.11"
   - "A.7"
+  - "A.7.1"
   - "A.7.2"
   - "A.7.CP"
+  - "A.8"
   - "C.19.2"
   - "E.24"
   - "E.24.UK"
@@ -30,5 +33,5 @@ keywords:
 
 ### A.7.1:9 - Consequences
 
-The pattern gives ontology work a practical exit. It can repair a consequence-changing conflation, return to the real blocker, or stop at an adequate working account without pretending the rest of ontology is false. The cost is naming the defeated claim and the work/result boundary. The benefit is less speculative ontology and more reliable engineering action.
+The pattern gives ontology work a practical exit. It can repair a consequential conflation, return to the unresolved domain question, or stop at an adequate working account without declaring the unneeded alternatives false. The practitioner must identify the defeated claim and what result resolves it. This bounds the ontology work while retaining the facts and distinctions the engineering action needs.
 

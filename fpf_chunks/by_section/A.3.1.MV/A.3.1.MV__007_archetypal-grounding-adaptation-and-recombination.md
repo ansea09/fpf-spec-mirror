@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:5"
 section_title: "Archetypal Grounding - Adaptation and Recombination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__007_archetypal-grounding-adaptation-and-recombination.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:5 — Archetypal Grounding - Adaptation and Recombination"
-line_start: 11050
-line_end: 11077
+line_start: 10957
+line_end: 10984
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"
@@ -41,7 +41,7 @@ A changed release document, cadence, tool integration, AI prompt, or method-base
 
 Use the constructed contact-planning and handover-review accounts in A.3.2.DE:5.4. The maintenance decision is whether the proposed handover account is only another presentation of the contact Method or a candidate with changed reusable semantics. Recover the operations rather than comparing the two canvases.
 
-The parent includes people with the approval or supply roles needed to arrange rollout contacts. The proposed child retains identifying roles, recording supported facts and arranging contact, but changes two operative commitments: include a role when it produces or uses information needed for the handover, regardless of approval influence; and withhold a complete-coverage conclusion while a material working dependency lacks an account or contribution. Thus a low-influence night operator can be essential to the child's construction even when absent from a correct parent map. Changing an inclusion rule and the conditions for concluding the task is a reusable semantic change. Merely adding that operator's name to a particular drawing, without changing the reusable rule, would not establish a variant.
+The parent includes people with the approval or supply roles needed to arrange rollout contacts. The proposed child retains identifying roles, recording supported facts and arranging contact, but changes two operative commitments: include a role whose holders produce or use information needed for the handover in their work, regardless of approval influence; and withhold a complete-coverage conclusion while a material working dependency lacks an account or contribution. Thus a low-influence night operator can be essential to the child's construction even when absent from a correct parent map. Changing an inclusion rule and the conditions for concluding the task is a reusable semantic change. Merely adding that operator's name to a particular drawing, without changing the reusable rule, would not establish a variant.
 
 Keep the parent admitted under its existing basis and maintain the child as a candidate derived from it. The child entry names the preserved operations, changed inclusion and completion rules, intended handover-review use, access to the needed work accounts, and unresolved evidence about its usefulness. The inherited canvas remains a representation choice; contact access and facilitator preparation remain separate conditions. Retaining the proposal for a future choice can finish this maintenance task without admitting the child or commissioning a trial.
 

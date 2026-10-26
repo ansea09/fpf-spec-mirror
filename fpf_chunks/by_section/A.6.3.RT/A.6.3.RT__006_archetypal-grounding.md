@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:5 — Archetypal grounding"
-line_start: 18918
-line_end: 19031
+line_start: 18570
+line_end: 18683
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,7 +61,7 @@ keywords:
 
 The first result needs no endpoint dossier. The note says the service, window, count, recurrence, and pins can be inspected together; those claims survive; prose order is lost; no causal or severity claim is added; use is inspection; and any question about an omitted qualifier or causality returns to the source note and traces.
 
-An independently cited target includes the recurrence caption. If the table is independently cited or disputed, exact source episteme `LatencyFinding-X` and receiving episteme `LatencyTable-Y` concern `Service-S-during-W` under effective schemes `ServiceTelemetryScheme-4` and `TabularTelemetryScheme-2`. `TabulateLatency : LatencyFinding-X -> LatencyTable-Y` is the exact construction; it states claim construction, endpoint-scheme relation, same exact EntityOfConcern, preservation, omission and recoverability, prohibited strengthening, applicability, inspection-only use, and return to the source note and traces. The visible table form and file carrier are not `Y`.
+An independently cited target includes the recurrence caption. When the receiving use needs the exact preservation construction, identify source episteme `LatencyFinding-X` and receiving episteme `LatencyTable-Y`. Both concern `Service-S-during-W` under effective schemes `ServiceTelemetryScheme-4` and `TabularTelemetryScheme-2`. `TabulateLatency : LatencyFinding-X -> LatencyTable-Y` is the exact construction; it states claim construction, endpoint-scheme relation, same exact EntityOfConcern, preservation, omission and recoverability, prohibited strengthening, applicability, inspection-only use, and return to the source note and traces. The visible table form and file carrier are not `Y`.
 
 #### A.6.3.RT:5.1.a - A diagram used in a geometric construction
 
@@ -81,7 +81,7 @@ For this identity-and-obtaining illustration, take the stated endpoint, scheme, 
 
 Exact source episteme `CoolingLoopRelationTable-X` and exact receiving episteme `CoolingLoopDependencyDiagram-Y` state the same two connection claims about `CoolingLoop-7` under effective schemes `TabularPlantScheme-5` and `DirectedDiagramPlantScheme-3`. `Y` is a candidate episteme, not automatically a `U.View`.
 
-Scheme-description epistemes `TabularPlantSchemeDescription-5` and `DirectedDiagramPlantSchemeDescription-3` concern their respective schemes and state their interpretation rules. Independently selected `CoolingLoopReviewModelUseStructure` satisfies A.1.1 because its model-use organization changes this review. A.13 identifies `PlantModelingTool-2` as the actual performer through the exact covering assignment. A.15.1 independently admits dated `CoolingLoopDiagrammingWork-18`. Because this example states precise assignment-bound attribution, its direct case fact says that the Work was performed under the same exact A.13 assignment, so the F.6 check is positive. If that direct fact were missing or another F.6 condition failed, the Work would remain intact and only the attribution would be unresolved. The Work's A.6.1 bindings use all six participants. `DiagramCoolingLoop : X -> Y` is the exact construction; it states claim construction, endpoint-scheme relation, same exact EntityOfConcern, preserved connection claims, omitted table qualifiers and their recoverability, prohibited strengthening, applicability, topology-inspection use, and return to `X`.
+Scheme-description epistemes `TabularPlantSchemeDescription-5` and `DirectedDiagramPlantSchemeDescription-3` concern their respective schemes and state their interpretation rules. Independently selected `CoolingLoopReviewModelUseStructure` satisfies A.1.1 because its model-use organization changes this review. A.13 identifies `PlantModelingTool-2` as the actual performer through the exact covering assignment. A.15.1 independently admits dated `CoolingLoopDiagrammingWork-18`. Because this example states precise assignment-bound attribution, its direct case fact says that the Work was performed under the same exact A.13 assignment, so the F.6 check is positive. If that direct fact were missing, attribution would remain unresolved. If the facts refuted an F.6 condition, that attribution would fail. The independently admitted Work would remain intact in either case. The Work's A.6.1 bindings use all six participants. `DiagramCoolingLoop : X -> Y` is the exact construction; it states claim construction, endpoint-scheme relation, same exact EntityOfConcern, preserved connection claims, omitted table qualifiers and their recoverability, prohibited strengthening, applicability, topology-inspection use, and return to `X`.
 
 Only then does this occurrence obtain:
 
@@ -109,7 +109,7 @@ Its transition-description episteme cites the Work, construction, exact source r
 
 `CM-12` is an additional illustrative correspondence reference, not content recovered from the source quotation. Until its relation kind, endpoints and obtaining basis are supplied, this row does not establish a correspondence-mediated exact construction.
 
-For reliance-facing use, the case stays RT only when exact `X`, exact `Y`, and `v : X -> Y` are identified, their EntityOfConcern is the same, and every relied-on correspondence is an exact governed occurrence. The visible row and correspondence record are not those governed correspondence occurrences.
+When the receiving use needs an exact construction, identify `X`, `Y` and `v : X -> Y`, establish the same EntityOfConcern and recover the grounds for each relied-on correspondence. A row or record can state or support such a claim; it is distinct from the correspondence occurrence.
 
 #### A.6.3.RT:5.2.b - Same-concern diagram-to-structured-notation shift
 
@@ -159,5 +159,5 @@ The source-faithful alternative orders the selected structures into a reader pat
 
 #### A.6.3.RT:5.5 - Guarded decode-mediated rendering
 
-Probe run P-8 is tied to model-state log M-12 and evaluation bundle EV-4. If their source material concerns one independently identified failure episode, a decoded rendering may suggest a cluster corresponding to that same episode. Until the decoding/access relation and recoverability evidence support a named stronger use, keep the result exploratory and report-only. A latent region, feature cluster, probe result, source publication, or readable output fills no episteme endpoint.
+Probe run P-8 is tied to model-state log M-12 and evaluation bundle EV-4. If their source material concerns one independently identified failure episode, a decoded rendering may suggest a cluster corresponding to that episode. Until the decoding/access relation and recoverability evidence support the stronger use, keep the result exploratory and report-only. A readable output may express an episteme, but an exact endpoint still requires its C.2.1 identity; a latent region or feature-cluster label does not supply it.
 

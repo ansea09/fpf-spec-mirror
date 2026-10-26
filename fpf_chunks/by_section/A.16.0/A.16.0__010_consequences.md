@@ -6,12 +6,12 @@ section_id: "A.16.0:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:9 — Consequences"
-line_start: 33996
-line_end: 33998
+line_start: 33527
+line_end: 33529
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -43,5 +43,5 @@ keywords:
 ---
 
 ### A.16.0:9 - Consequences
-The benefit is that heavy-history language-state movement becomes lineage-aware, reviewable, and dockable without premature endpoint capture or metonymic collapse. The trade-off is more explicit publication of position claims, lineage links, move kinds, loss notes, next-use docking, and any actual responsibility handoff when history is worth publishing.
+Readers can recover which epistemes supplied later claims, what changed or was lost, and how that history constrains the next use. The trade-off is more explicit publication of position claims, lineage links, move kinds, loss notes, next-use docking, and any actual responsibility handoff when history is worth publishing.
 

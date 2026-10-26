@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:9 — Consequences"
-line_start: 11899
-line_end: 11904
+line_start: 11777
+line_end: 11782
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.3.2.DE:9 - Consequences
 
-Method descriptions become smaller, more reusable, and easier to compare because their subject and receiving uses are explicit. Candidate accounts remain useful without losing their truth status, and missing claims return to the right owner.
+Method descriptions become more reusable and easier to compare because their subject and receiving uses are explicit. Candidate accounts remain useful without losing their truth status, and missing claims return to the right owner.
 
-The cost is plurality: one Method may have several editions, use-coverage rows, and representations. Projects must also maintain links to neighboring plans, evidence, policy, and publication results instead of copying them into one manual.
+The cost is plurality: one Method may have several editions, use-coverage accounts, and representations. Projects must also maintain links to neighboring plans, evidence, policy, and publication results instead of copying them into one manual.
 

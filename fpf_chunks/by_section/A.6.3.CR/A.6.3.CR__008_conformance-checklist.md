@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:7 — Conformance Checklist"
-line_start: 18597
-line_end: 18615
+line_start: 18257
+line_end: 18275
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -43,7 +43,7 @@ keywords:
 4. **CC-CR-4 — Direct vs correspondence split is explicit.**
    The direct-vs-correspondence split is explicit and justified.
 5. **CC-CR-5 — Correspondence witness is named where needed.**
-   If correspondence-mediated, `CorrespondenceModelRef` is declared.
+   If correspondence-mediated, identify the relations and supporting claims; use `CorrespondenceModelRef` when their describing episteme must be cited.
 6. **CC-CR-6 — Local conservativity witness remains satisfied.**
    The reviewed case does not silently widen modality, remove caveats, raise reliability assessment, add an F.9 Bridge or bounded-use suitability claim, establish current reliance or authorization, claim that receiving use occurred, or collapse declared alternatives beyond stated loss notes.
 7. **CC-CR-7 — A missing condition, preservation defect, or changed claim is explicit on failure.**

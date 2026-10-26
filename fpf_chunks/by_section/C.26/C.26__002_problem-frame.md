@@ -6,12 +6,12 @@ section_id: "C.26:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:1 — Problem frame"
-line_start: 65371
-line_end: 65451
+line_start: 64332
+line_end: 64410
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,11 +64,9 @@ Use this pattern only after the ordinary FPF subject assertion and exact predica
 
 If a viewpoint matters, record one `U.ViewpointRef` that resolves to the `U.Viewpoint` episteme P.
 
-When evaluation Work is claimed, recover the actual performer System through A.13 and let A.15.1 independently admit the dated Work with its enacted Method. Cite the same obtaining A.13 assignment occurrence, its declared species, and F.6 only when the receiving use consumes precise assignment-bound attribution. Name a non-performing participant by its evaluation relation and position. Keep these neighboring values separate from the QL-use fields.
+When a particular dated evaluation Work is claimed, recover the actual performer System through A.13 and let A.15.1 independently admit the dated Work with its enacted Method. Cite the same obtaining A.13 assignment occurrence, its declared species, and F.6 only when the receiving use consumes precise assignment-bound attribution. Name a non-performing participant by its evaluation relation and position. Keep these neighboring values separate from the QL-use fields.
 
 This pattern is not a physics claim. In FPF, `quantum-like` names a detached mathematical and representational lens, comparable in use to probability, calculus, optimization, or state-space modeling. A QL-lite note can supply a small recognition or conditional comparison. Choose additional mathematical or empirical support from what the receiving use needs the claim to establish, following :12b.
-
-Unifying principle: use QL to make the first correct move cheaper.
 
 | Working view | Value |
 | --- | --- |
@@ -78,9 +76,9 @@ Unifying principle: use QL to make the first correct move cheaper.
 | Outside work | Physical quantum claims, general ontology, ordinary uncertainty/complexity, ordinary DDD locality, ordinary compression, and search/regime generation. |
 | What changes in practice | The writer stops asking "does quantum-like help here?" and asks "what representational mistake does this lens prevent here?" |
 
-What this lens buys in practice:
+Ordinary modeling questions that can expose a QL need are listed below. C.26.1–C.26.3 also supply independently useful ordinary accounts of probe effects, distributed-state evidence and viability envelopes. Using one of those accounts does not activate QL; the lens requires the residual obstruction stated above.
 
-| QL support | Practical gain |
+| Modeling question | Practical gain |
 | --- | --- |
 | Probe-aware design | Design a workshop, dashboard, API read, survey, readiness check, or metric publication as a state-shaping interaction when it is not only a readout. |
 | Comparison-frame discipline | Notice earlier that two options, scores, or judgments cannot be compared in one frame without a bridge, coupling, or declared joint-comparison route. |
@@ -106,7 +104,7 @@ Phrase hygiene:
 | Dashboard changed the state. | Dashboard publication or use changed work behavior or evidence conditions. |
 | Metric acted as observer. | Measurement/publication regime functioned as a probe interaction. |
 | Organization knows. | Coordinated work traces support a low-recoverability state reading over a declared collective bearer. |
-| Market is entangled with product team. | Ordinary market, feedback, negotiation, and organizational-coupling routes fail; local reads or exports are not admissibly comparable or reusable without declaring the probe, frame, update, or export relation. |
+| Market is entangled with product team. | Market participants and the product team respond to each other; identify the observed responses and the model used to relate them. |
 | Boundary collapsed after workshop. | Workshop work selected or created a local boundary reading for this decision window. |
 | State cannot be copied. | No faithful-enough export supports the named receiving use under its effective reference scheme and declared loss. |
 | Same metric in two contexts. | Same-named results under independently recovered measurement and comparison frames; compare only through an admitted joint-comparison route. |
@@ -118,7 +116,7 @@ Example style:
 | --- | --- |
 | Bad | The team's quantum-like distributed state collapsed after the readiness dashboard observation. |
 | Better | The readiness dashboard was not a passive read: its publication changed team behavior, so the dashboard result cannot be used alone as pre-publication readiness evidence. |
-| Best | Apply `C.16` to ordinary metric issues and `B.3` to release assurance. Retain `C.26.1` only for the residual false passive-read issue: dashboard publication changed readiness behavior in window W. Decision diff: do not use the dashboard as sole release evidence; add independent work traces and record non-admissible use. |
+| Best | Apply `C.16` and `A.15` to the metric and changed work; `C.26.1` can clarify the probe effect. Publication changed readiness behavior in window W, so add independent work traces before using the dashboard for release assurance under `B.3`. These facts alone supply no contextual-model obstruction and require no QL wording. |
 
 Informative bilingual translation note:
 

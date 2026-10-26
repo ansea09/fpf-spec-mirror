@@ -6,12 +6,12 @@ section_id: "C.2.5:16"
 section_title: "Closure Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__017_closure-publication-package-discipline.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:16 — Closure Publication Package Discipline"
-line_start: 53914
-line_end: 53931
+line_start: 53067
+line_end: 53084
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -40,7 +40,7 @@ A publishable `CD` claim should name what has narrowed:
 
 - the rival routes or frames that remain live;
 - the route, frame, or interpretation that is currently privileged or fixed;
-- the guard, `governingPatternRef`, `authoritySourceRef`, or policy that makes the narrowing binding;
+- any guard, `governingPatternRef`, `authoritySourceRef`, or policy that makes the narrowing binding;
 - the condition under which an admissible reopen or backoff would occur.
 
 A bare claim such as "now settled" is insufficient when closure affects routing or authority.

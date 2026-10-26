@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__011_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:8 — Relations"
-line_start: 72777
-line_end: 72788
+line_start: 71745
+line_end: 71756
 dependencies:
   - "A.1"
   - "A.10"
@@ -61,6 +61,6 @@ keywords:
 - **Uses lifecycle information-management source discipline from:** exact published `ISO 19650-1:2018` and `ISO 19650-3:2020` editions through source-to-use, edition, currentness, source-return, and admissible-use boundaries, without ontology or authority import.
 - **Records design/run separation in:** one local `BuiltAssetDesignRunSeparationUse` over exact C.2.1 descriptions, `A.15.1` Work, source-use paths, `G.11` currentness, directly governed correspondence or coupling, and A.3.4 transformation refs; the local classification admits no kind or relation.
 - **Use for auxiliary-view claims:** `C.16` for characteristic measurement, `A.15.1` for operation or maintenance Work, `C.27.TA` for positive temporal aspects, `C.27` for action-guiding temporal-claim adequacy, `C.28` when an intervention, maintenance action, simulation, telemetry change, or claimed effect is used causally, `A.10` for evidence or material reliance, `B.3` for assurance, and `G.11` for currentness and reopen conditions.
-- **Use for gate- and release-looking claims:** `A.21` when a named gate must decide a bounded action or its `GateDecisionResult` is being relied on; the display remains a cue until the required result is established. Route a release action or other performed Work to `A.15.1`, work-entry readiness to `A.15.5`, a permission result or exercise to `A.2.8.PER`, an instituting or revoking grant act to `A.2.9`, and a subject-release claim to its named predicate and participants or `A.6.RCD missing-governor`; none of these claims entails another.
+- **Use for gate- and release-looking claims:** `A.21` when a named gate must decide a bounded action or its `GateDecisionResult` is being relied on; the display remains a cue until the required result is established. Route a release action or other performed Work to `A.15.1`, work-entry readiness to `A.15.5`, a permission result or exercise to `A.2.8.PER`, an instituting or revoking grant act to `A.2.9`, and a subject-release claim to its named predicate and participants or `A.6.RCD missing-governor`; none of these conclusions follows merely from a display or an authorization-looking label.
 - **Use for other claims:** `A.3.4` and the direct transformation, evaluation, evidence, assurance, Work, decision, acceptance, or project-use pattern named by the claim.
 

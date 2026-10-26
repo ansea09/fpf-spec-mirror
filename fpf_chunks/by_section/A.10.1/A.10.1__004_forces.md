@@ -6,12 +6,12 @@ section_id: "A.10.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:3 — Forces"
-line_start: 27387
-line_end: 27398
+line_start: 26947
+line_end: 26958
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -32,7 +32,7 @@ keywords:
 | Source-outward trace vs receiver-side reality | Backlinks and lineage find declared uses; receiver inspection finds equivalent or undeclared premises. Neither direction alone is generally adequate. |
 | Automation vs judgment | Search, lineage, traces, and AI can find candidates; the practitioner tests actual reliance in the receiving content under the direct rule. |
 | Local closure vs hidden gaps | Independent resolved branches should finish, while inaccessible or unindexed surfaces must not become implicit evidence of no impact. |
-| Reuse vs safety | Unaffected prior results should remain usable, but only when the changed claim lies outside their actual dependency. |
+| Reuse vs changed grounds | Reuse an unaffected result directly; when a consumed premise changes, recheck the needed condition and retain the result if it remains justified. |
 | Common move vs subject authority | Source-to-use discovery is reusable; materiality remains specific to the subject, including any separate evidence, assurance, or release question. |
 | Short account vs recoverability | The result should be usable without a universal impact record, yet another practitioner must be able to reproduce the frame, coverage, direct-use test, and stop. |
 

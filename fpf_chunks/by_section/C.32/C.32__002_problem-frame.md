@@ -6,12 +6,12 @@ section_id: "C.32:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:1 — Problem frame"
-line_start: 76249
-line_end: 76355
+line_start: 75180
+line_end: 75286
 dependencies:
   - "A.10"
   - "A.15"
@@ -97,7 +97,7 @@ What C.32 buys in practice: a practitioner can build a small set of candidate ar
 
 Ordinary working move: name the selected structures that really change, name the few architecture characteristics that make the trade-off real, then write two to five candidate configurations with gain, loss, preserved structure, hidden loss, and next receiving use.
 
-Adoption test: after using C.32, another practitioner can see at least two structurally different candidate configurations, the selected-structure changes, the architecture characteristics under pressure, each gain and loss, the source-return condition, and the next receiving use.
+A useful palette makes at least two structurally different configurations recoverable, with their selected-structure changes, relevant characteristics, expected gains, known losses and next use. Preserve a source-return condition when omitted detail can change that use.
 
 Use C.32 only for candidate palette construction. Do not use it to ground the architecture claim, recover one structure, build characteristic criteria rows, design eval programs, handle architecture-influence correspondence, run archive or front-policy work, declare a selected-set result, publish it to an audience, choose locally, or decide the project architecture.
 
@@ -110,12 +110,12 @@ Common exits by claim kind:
 - `C.30` grounds the described holon, any obtaining `ArchitectureRelation`, its selected `U.Structure`, and any separate `ArchitectureClaim`; `C.30.ASV`, `A.6.F`, and `A.6.M` recover structural views, function wording, and module-interface relations.
 - `C.32.HCS`, `C.32.ACS`, `C.32.ACE`, `C.25`, `C.31`, `C.31.ASAP`, and `C.16` govern starter heads, project criteria rows, eval programs, Q-Bundles, modularity or scale-preference claims, and measurement.
 - `C.32.MLAO`, `C.32.CONWAY`, `C.32.FAIL`, and `C.29` govern residual-reducing frames, architecture-influence and transformed-architecture correspondence, candidate repair, and mathematical-lens use.
-- Use `A.19.CPM` for comparison, `A.19.SelectorMechanism` for set-returning selection, `C.18` and `C.19` for archive, front, and current-pool treatment, `G.5` for selected-set result declaration, `C.11` for local choice, and `C.32.PAD` for a project architecture decision. When audience availability is current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
+- Use `A.19.CPM` for comparison, `A.19.SelectorMechanism` for set-returning selection, `C.18` and `C.19` for archive, front, and current-pool treatment, `G.5` for selected-set result declaration, `C.11` for local choice, and `C.32.PAD` for a project architecture decision. For audience availability, use `E.24.PUB` for the publication occurrence, form, carrier and bounded use, with `E.17` when a source-backed face and return are needed.
 - `C.30.AD`, `E.17`, `E.24.PUB`, `A.10`, and `B.3` govern architecture-description, publication-face, publication-occurrence, evidence, and assurance claims, respectively.
 
-The first useful output is `CandidateArchitecturePalette@Project`. It is the project working record for candidate-palette construction. The name does not introduce a new `U.*` kind, and the record does not carry selection, publication, evidence, assurance, or decision authority.
+The first useful output is the small candidate palette. An adequate ordinary account can carry it; `CandidateArchitecturePalette@Project` is an optional working record. Its name introduces no new `U.*` kind, and the record does not establish selection, publication, evidence, assurance or decision authority.
 
-For a first pass, fill only the described holon, synthesis question, intended palette use, current architecture relations and selected structures that change the question, selected-structure contribution rows, live architecture-characteristic rows, candidate configurations, and palette stop condition. Add ClaimScope or a bounded model-use structure only when it changes synthesis; add other optional refs only when they change the next use of the palette:
+For a first pass, identify the described holon, synthesis question, intended palette use, relevant actual and proposed structures, what those structures contribute, the architecture characteristics under pressure, the configurations and the sufficient stop. Add ClaimScope or a bounded model-use structure only when it changes synthesis; add optional references only when they change the next use:
 
 ```text
 CandidateArchitecturePalette@Project:
@@ -136,10 +136,10 @@ CandidateArchitecturePalette@Project:
       selectedStructureRef?:
       contributionToSynthesis:
       constraintOrAffordance:
-      relationFunctionClaimRef:
+      relationFunctionClaimRef?:
       sourceReturnCondition?:
   architectureCharacteristicCriteriaSetRef?:
-  architectureCharacteristicCriteriaRowRefs:
+  architectureCharacteristicCriteriaRowRefs?:
   qBundleRefs?:
   characteristicImprovementCycleRef?:
   architectureIdealityPressureRef?:
@@ -152,7 +152,7 @@ CandidateArchitecturePalette@Project:
         - structureKindRef:
           selectedStructureRef?:
           changeMade:
-          relationFunctionClaimRef:
+          relationFunctionClaimRef?:
       affectedArchitectureCharacteristicRefs:
       affectedCriteriaRowRefs?:
       architectureCharacteristicEvalResultRefs?:
@@ -164,10 +164,10 @@ CandidateArchitecturePalette@Project:
       lostOrHiddenStructure:
       sourceCueRefs?:
       sourceSideReferent?:
-      sourceReturnCondition:
+      sourceReturnCondition?:
       nextUse:
   tradeoffFrontOrArchiveRef?:
-  evolutionWindowRef:
+  evolutionWindowRef?:
   architectureInfluenceCorrespondenceRef?: C.32.CONWAY frame or exact pair-row ref
   paletteStopCondition:
 ```

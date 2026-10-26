@@ -6,12 +6,12 @@ section_id: "E.19:5"
 section_title: "Archetypal Grounding — transfer across three pattern subjects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__007_archetypal-grounding-transfer-across-three-pattern-subjects.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:5 — Archetypal Grounding — transfer across three pattern subjects"
-line_start: 112422
-line_end: 112427
+line_start: 111242
+line_end: 111247
 dependencies:
   - "A.15.1"
   - "A.6.P"

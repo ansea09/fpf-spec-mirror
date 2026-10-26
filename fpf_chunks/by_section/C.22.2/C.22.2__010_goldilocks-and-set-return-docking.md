@@ -6,12 +6,12 @@ section_id: "C.22.2:9"
 section_title: "Goldilocks and Set-Return Docking"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__010_goldilocks-and-set-return-docking.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:9 — Goldilocks and Set-Return Docking"
-line_start: 63973
-line_end: 63997
+line_start: 62947
+line_end: 62971
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ keywords:
 
 ### C.22.2:9 - Goldilocks and Set-Return Docking
 
-Goldilocks problem selection is the problem-side adaptation of the current NQD, OEE, and set-return family. It is not direct QD or OEE vocabulary import, not a new scalar readiness doctrine, not a local QD or OEE vocabulary, and not a single score. `C.22.2` does not mint `GoldilocksProblem`, `GoldilocksScore`, `GoldilocksReadiness`, or any equivalent local kind; Goldilocks remains a readiness and selection interpretation carried by current subject patterns.
+Use a Goldilocks interpretation only when a declared search or learning policy seeks a problem of suitable difficulty for current capability. Explain that fit through the applicable characteristics, constraints and comparison or retention rule. It supplies neither a universal readiness score nor a new problem kind.
 
 A Goldilocks, stepping-stone, or archive-derived problem is represented by its source-set reference, selection or retention criterion, and current next use, not by one difficulty, priority, or readiness score.
 
@@ -79,5 +79,5 @@ The local `solvability band` label means a scheme-and-scope-qualified, non-scala
 
 If the band cannot be tied to a characteristic, Q-bundle, comparison, retention, or capability relation and its qualification, treat Goldilocks wording as informal recognition only and bind any selection, set-return, or parity claim to its direct governor.
 
-The current governing family is `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. Its relation to `C.22:15` concerns entry and timing inside the same family: `C.22.2` uses it before P2W, while `C.22:15` uses it downstream when candidate solutions for a `TaskKind` make `TaskSignature` informative.
+The governing family is `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a` and `C.16.Q`, selected for the actual relation needed. C.22.2 can state this qualified problem-side fit before P2W. C.22:15 addresses difficulty targets only when a declared search or learning policy uses them; a TaskSignature includes the resulting trait only when it can change the receiving eligibility, acceptance or selection question.
 

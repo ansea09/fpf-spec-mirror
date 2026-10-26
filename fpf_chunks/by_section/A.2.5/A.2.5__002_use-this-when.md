@@ -6,12 +6,12 @@ section_id: "A.2.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:0 — Use This When"
-line_start: 6236
-line_end: 6261
+line_start: 6195
+line_end: 6220
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -48,9 +48,9 @@ Typical working moments include these:
 - two assignments are incompatible only while both satisfy the conditions that make them work-admitting; and
 - a model-use structure, `KindSignature`, reference scheme, or bridge changes the meaning of one predicate clause and must therefore be included in that predicate's semantic basis.
 
-**Primary EntityOfConcern.** The EntityOfConcern is one obtaining `SystemRoleAssignmentStateRelation`, a direct relation kind admitted under `U.Relation`. Its two participants are one exact obtaining `U.SystemRoleAssignment` occurrence and one by-value `SystemRoleAssignmentStatePredicate`. The relation's maximal continuous temporal extent comes from uninterrupted predicate truth while that assignment obtains.
+**Primary EntityOfConcern.** The EntityOfConcern is one obtaining occurrence of `SystemRoleAssignmentStateRelation`. This direct relation kind is admitted under `U.Relation`. The occurrence has two participants: one exact obtaining `U.SystemRoleAssignment` occurrence and one by-value `SystemRoleAssignmentStatePredicate`. Its maximal continuous temporal extent comes from uninterrupted predicate truth while that assignment obtains.
 
-**Primary working reader.** The first reader is an engineer, operator, method designer, safety checker, or manager deciding whether a current assignment can support the next method or Work claim without confusing assignment, capability, state, evidence, gate outcome, and performed Work.
+**Primary working reader.** The intended reader defines or checks the state conditions that the next operation requires of an assignment.
 
 **What goes wrong if missed.** A system-role label is treated as current readiness. A dashboard value is substituted for the world-side state relation. Missing evidence is read as proof that the predicate is false. Capability is mistaken for Work admission. A state-machine diagram is used as both the ontology and the method order.
 

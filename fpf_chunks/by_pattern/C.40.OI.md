@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.OI.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
-line_start: 85782
-line_end: 86046
+line_start: 84602
+line_end: 84864
 dependencies:
   - "A.15.9"
   - "B.5.PI"
@@ -33,7 +33,7 @@ keywords:
 
 ### C.40.OI:1 - Problem Frame
 
-What is the smallest useful inquiry when someone says “we should develop,” names a fashionable solution, or asks what to develop next before the receiving change is clear?
+What inquiry is worth conducting when someone says “we should develop,” names a fashionable solution, or asks what to develop next before the receiving change is clear?
 
 Use this pattern when a person, organization, community, AI arrangement, platform, facility, research programme, or another identified subject has a development concern or aspiration but the receiving use, horizon, protected conditions, reason to explore, or affordable inquiry effort is still loose. The first useful result is a bounded inquiry that another person can inspect, or one exact missing premise that prevents such an inquiry.
 
@@ -78,7 +78,7 @@ The reader then cannot tell whether to characterize the subject, search neighbor
 
 ### C.40.OI:4 - Solution
 
-Construct the smallest inquiry boundary that can direct one useful next action and expose one truthful stopping point.
+Bound the inquiry so it can direct the selected useful action and identify a sufficient return or truthful stopping point.
 
 #### C.40.OI:4.1 - Identify the subject and claim posture
 
@@ -248,11 +248,9 @@ A conforming use or companion account:
 
 ### C.40.OI:9 - Consequences
 
-The inquiry becomes cheap enough to start and strong enough to direct a useful next move. A person can explore without inventing an adviser; an adviser can reuse an adequate boundary without forcing construction; and a missing premise becomes a named request rather than hidden uncertainty.
+The bounded inquiry identifies a useful next move and the effort it warrants. A person can explore without an adviser; an adviser can reuse an adequate boundary; and a missing premise remains an explicit question or condition. Request its answer only when the attainable contribution warrants acquisition.
 
-The cost is explicit incompleteness. The result may be only a question, blocker, or narrow source request. Naming the subject, horizon, protections, posture, and budget also makes attractive but unsupported directions visibly weaker. That is preferable to premature certainty.
-
-This pattern does not guarantee that search will find a worthwhile opportunity, that the subject can change, or that any later recommendation, choice, programme, Work, or effect will succeed.
+The cost is explicit incompleteness. The result may be only a question, blocker, or narrow source request. Naming the subject, horizon, protections, posture and budget exposes which proposed directions still lack support.
 
 ### C.40.OI:10 - Rationale
 

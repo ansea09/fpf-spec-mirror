@@ -6,12 +6,12 @@ section_id: "A.15.1:10"
 section_title: "Work-claim interpretation checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__012_work-claim-interpretation-checks.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:10 — Work-claim interpretation checks"
-line_start: 29833
-line_end: 29842
+line_start: 29400
+line_end: 29409
 dependencies:
   - "A.1"
   - "A.10"
@@ -57,11 +57,11 @@ keywords:
 
 ### A.15.1:10 - Work-claim interpretation checks
 
-When another decision relies on a work occurrence, perform three quick checks:
+When another decision relies on Work, apply only the following checks that its claims consume; reuse an established result while its basis remains applicable:
 
-1. **Method-description interpretation.** Does `methodDescriptionRef` resolve to the selected `U.MethodDescription` episteme under the effective `U.ReferenceScheme` used by the receiving claim? If the claim also says this is an edition of an earlier description, does the exact C.2.1 `EpistemeEditionRelation` obtain? If two local senses must be related, test an F.9 Bridge and state the bounded use separately rather than treating the reference change as a Bridge.
-2. **Performer and conditional assignment coverage.** For every admitted `U.System` named as performer, does section 4.0 recover its A.13 basis? If this receiving check expressly consumes precise assignment-bound attribution, does the account also cite the exact directly declared assignment species and the same obtaining occurrence `RA` already recovered through A.2.1 and A.13, and does F.6 obtain for the already admitted Work and that `RA`? Does `RA` carry the actual participant values, have that System as holder, and cover the Work or exact performed part? If no attribution is current, stop after the performer and Work checks. If the conditional attribution branch fails, retain the Work and performer and repair or reject only the assignment occurrence or F.6 attribution that failed.
-3. **Evaluation boundary.** Has separately performed evaluation or acceptance work applied the selected criterion episteme to the independently obtaining relations involving the Work occurrence, changed subject, measurement results, or delivered entity that the criterion actually requires? If not, no acceptance verdict follows. If yes, keep the evaluation work, result episteme, verdict content, evidence, and acceptance relation separate. Claim edition continuity only when the exact C.2.1 relation obtains.
+1. **Method-description interpretation, when used.** Does `methodDescriptionRef` resolve to the selected `U.MethodDescription` episteme under the effective `U.ReferenceScheme` used by the receiving claim? If the claim also says this is an edition of an earlier description, does the exact C.2.1 `EpistemeEditionRelation` obtain? If two local senses must be related, test an F.9 Bridge and state the bounded use separately rather than treating the reference change as a Bridge.
+2. **Performer and conditional assignment coverage.** For every admitted `U.System` named as performer, does section 4.0 recover its A.13 basis? If this receiving check expressly consumes precise assignment-bound attribution, does the account also cite the exact directly declared assignment species and the same obtaining occurrence `RA` already recovered through A.2.1 and A.13, and does F.6 obtain for the already admitted Work and that `RA`? Does `RA` carry the actual participant values, have that System as holder, and cover the Work or exact performed part? If no attribution is current, stop after the performer and Work checks. If the conditional attribution branch fails, repair or reject the unsupported attribution. Retain independently grounded Work and performer claims; under §4.1, recheck any admission premise also affected by that finding.
+3. **Evaluation or acceptance, when claimed.** Identify the criterion, its application to the required subject facts, returned value and evidence. Assert acceptance only under its own predicate and actual participants. Identify evaluation Work separately when its dated occurrence is claimed; keep result content and acceptance distinct. Historical criterion continuity requires the C.2.1 relation.
 
 These checks tell the reader which description, assignment, criterion, evaluation, and relation to cite. They neither create one judgment-context object nor make acceptance part of work identity.
 

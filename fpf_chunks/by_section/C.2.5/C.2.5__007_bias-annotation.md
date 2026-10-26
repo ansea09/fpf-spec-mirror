@@ -6,12 +6,12 @@ section_id: "C.2.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:6 — Bias-Annotation"
-line_start: 53850
-line_end: 53852
+line_start: 53003
+line_end: 53005
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -34,5 +34,5 @@ keywords:
 ---
 
 ### C.2.5:6 - Bias-Annotation
-The pattern makes closure explicit, which resists hidden overconfidence but may feel heavy to authors who prefer implicit consensus.
+Explicit closure takes description work; it makes the remaining rivals and grounds of fixation recoverable.
 

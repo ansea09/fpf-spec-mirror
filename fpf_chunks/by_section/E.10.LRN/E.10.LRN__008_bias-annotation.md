@@ -6,12 +6,12 @@ section_id: "E.10.LRN:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:6 — Bias Annotation"
-line_start: 100058
-line_end: 100066
+line_start: 98878
+line_end: 98886
 dependencies:
   - "A.10"
   - "A.15"

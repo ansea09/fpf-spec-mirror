@@ -6,16 +6,16 @@ section_id: "A.18:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:1 — Problem Frame"
-line_start: 34745
-line_end: 34756
+line_start: 34153
+line_end: 34164
 dependencies:
   - "A.17"
-  - "A.18"
   - "A.19"
+  - "A.19.CHR"
   - "A.19.CN"
   - "B.3"
   - "C.16"
@@ -45,5 +45,5 @@ We often need to **characterize some aspect** of a subject, whether the subject 
 
 -   accommodate both **ordered tiers** (qualitative levels like Low/Medium/High) and **numeric magnitudes** (continuous or interval values) without mixing them up.
 
-In FPF’s kernel, the **CSLC pattern** (Characteristic–Scale–Level–Coordinate) provides the minimal vocabulary and constraints to achieve this. It defines how one **Characteristic** ties to one **Scale**, and how any measured **value** can be treated as a **Coordinate** on that scale (with an optional named **Level** if the scale is discrete or tiered). The context here is the need for a _unified Standard_ so that every single measurement can be interpreted and compared on common grounds.
+The CSLC pattern (Characteristic–Scale–Level–Coordinate) binds each measurement template to one Characteristic and one Scale. Each reported value belongs to that Scale; a named Level is optional for a discrete or tiered Scale. Reusing the declared meanings lets a receiving practitioner determine whether two readings can be compared.
 

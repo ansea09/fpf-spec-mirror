@@ -6,12 +6,12 @@ section_id: "A.8:4"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:4 — Conformance Checklist"
-line_start: 26783
-line_end: 26793
+line_start: 26341
+line_end: 26351
 dependencies:
   - "A.11"
   - "C.3"
@@ -35,7 +35,7 @@ keywords:
 | `CC-A8-1` | The candidate has an `E.24.UK` durable U-kind admission basis before A.8 is applied. |
 | `CC-A8-2` | The A.8 claim is kernel-level universal-core admission, not C.3 typed reasoning. |
 | `CC-A8-3` | At least three domain-family projections are recorded. |
-| `CC-A8-4` | Each projection states the same abstract contribution in that domain. |
+| `CC-A8-4` | Each valid projection tests the same abstract contribution and contributes distinct evidence; repair a misidentified object or invalid projection before judging the candidate. Successful cases support the test rather than proving all future applications. |
 | `CC-A8-5` | Differences and losses are explicit; same-word evidence alone is insufficient. |
 | `CC-A8-6` | A failed A.8 test does not support the proposed universal-core claim. Reconsider local use, a dependent value, a Concept-Set row, C.3 `U.Kind`, or a subject-pattern expression under E.24.UK, A.11 and the defining subject rule; select an alternative only when its own conditions hold. Rejection or an unresolved proposal remains possible. |
 

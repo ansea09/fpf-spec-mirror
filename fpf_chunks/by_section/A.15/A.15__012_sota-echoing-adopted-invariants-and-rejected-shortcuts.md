@@ -6,12 +6,12 @@ section_id: "A.15:11"
 section_title: "SoTA-Echoing: Adopted Invariants and Rejected Shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__012_sota-echoing-adopted-invariants-and-rejected-shortcuts.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:11 — SoTA-Echoing: Adopted Invariants and Rejected Shortcuts"
-line_start: 29244
-line_end: 29258
+line_start: 28809
+line_end: 28823
 dependencies:
   - "A.10"
   - "A.13"
@@ -74,7 +74,7 @@ keywords:
 | Keep authorization acts and the operations they permit distinct. | ITIL 4 Change Enablement (2023) and DMN 1.5 (2024) separate assessment, decision, authorization, scheduling, and realization. | Admit each communicative or operational Work occurrence independently and state its exact effect relation. | Approval collapsed into later operational Work, or label-defined Work subkinds. |
 | Keep bounded exploration separate from committed rollout. | Current agentic tool-use, self-correction, and human-in-the-loop work-control practice extends the ReAct, Toolformer, and Reflexion lines with explicit checkpoints and bounded tool use. | When an action or option is fixed, tool or service calls must be planned, and route shape or rollout order is uncertain, use exact local system-role kinds and assignments for the participating systems, and return candidate evidence, budget, and a commit trigger in `CheckpointReturn`. | One successful probe silently becomes the selected Method, WorkPlan, or rollout. |
 
-Use FPF's direct identity rules for alignment, not SysML v2 or ISO 42010. Use `C.30.AD` for architecture-description questions.
+Use the direct FPF identity rules for the alignment claims above. Use `C.30.AD` for an architecture-description question.
 
 For visible credential, provenance, dashboard, explanation, or composed-source cases that require a project-side value and relation before reliance, use A.15.4.
 

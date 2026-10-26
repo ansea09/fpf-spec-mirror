@@ -6,12 +6,12 @@ section_id: "A.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:9 — Consequences"
-line_start: 14264
-line_end: 14272
+line_start: 14055
+line_end: 14063
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,5 +62,5 @@ keywords:
 | **Evolvable boundaries.** Implementations can change while signatures remain stable.                               | More upfront structure; mitigated by MVPK faces that present only relevant slices per audience. |
 | **Reduced category mistakes.** Object, description, and carrier confusion becomes detectable.                            | Requires discipline in writing; mitigated by the “Where statements go” classification examples.        |
 | **Inputs for audit and replication.** Effect claims name their exact Work, transformation, interaction, evaluation, or other actual occurrence and use evidence carriers only through the needed evidence relation. | Requires identifying the applicable occurrence and evidence relations; a compact `AssuranceLane` evidence map can expose them. |
-| **Clearer cross‑disciplinary communication.** Legal and compliance deontics no longer compete with math invariants.    | Teams must align on viewpoint responsibilities; mitigated by explicit viewpointRef in MVPK.     |
+| **Clearer comparison across disciplines.** Normative duties can be considered alongside mathematical constraints without conflating their conditions. | Viewpoint and reader/use declarations supply the needed interpretation when those publication claims are made. |
 

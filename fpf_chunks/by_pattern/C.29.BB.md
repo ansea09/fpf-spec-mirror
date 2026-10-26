@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.BB.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
-line_start: 71135
-line_end: 71354
+line_start: 70109
+line_end: 70328
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"
@@ -28,7 +28,7 @@ keywords:
 
 ### C.29.BB:1 - Problem frame
 
-Use this pattern when a total changes and you need to construct the relation between that change, transfers across a chosen boundary, and creation or removal within it. The difficulty may be choosing what belongs inside, combining accounts for parts, or understanding why a balance changes after the boundary is redrawn.
+Use this pattern when you need to relate a total's change over an interval to transfers across a chosen boundary and creation or removal within it. The difficulty may be choosing what belongs inside, combining accounts for parts, or understanding why a balance changes after the boundary is redrawn.
 
 Two tanks can gain less liquid than their external inflow minus outflow suggests because some liquid remains in their connecting line. A job moving between two stages changes their separate counts while leaving the total unfinished count unchanged. A computation can introduce a discrepancy if two cells use different amounts for their shared transfer.
 

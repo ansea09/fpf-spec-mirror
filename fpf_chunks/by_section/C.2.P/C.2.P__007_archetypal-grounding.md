@@ -6,12 +6,12 @@ section_id: "C.2.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__007_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:5 — Archetypal Grounding"
-line_start: 52236
-line_end: 52275
+line_start: 51400
+line_end: 51439
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,7 +70,7 @@ keywords:
 
 **Result when a decision exists:** “The dashboard shows `GateDecision GD-17` for release candidate R; the decision, not the display, records that the gate passed.” E.24.PUB separates publication form, carrier, and occurrence; use E.17 when publishing a reader-facing account of the accepted decision. A.21 supplies the gate-decision meaning. The reader may find and cite GD-17, but must use the direct release or permission rule for launch. Stop.
 
-**Result when no decision resolves:** “The dashboard is only a cue; launch approval is unresolved.” Block approval-bearing use until the exact decision exists.
+**Result when no decision resolves:** “The dashboard is only a cue; launch approval is unresolved.” Block approval-bearing use until the required decision is recoverable under the direct approval rule.
 
 #### C.2.P:5.1 - Boundary and Anti-Cases
 | Boundary case | C.2.P result | Why this protects use |

@@ -6,12 +6,12 @@ section_id: "C.2.5:18"
 section_title: "Review Matrix and Reopen Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__019_review-matrix-and-reopen-tests.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:18 — Review Matrix and Reopen Tests"
-line_start: 53950
-line_end: 53969
+line_start: 53103
+line_end: 53122
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,16 +39,16 @@ keywords:
 An assurance reader should ask:
 
 - what was narrowed;
-- by what `governingPatternRef`, `authoritySourceRef`, or guard it was narrowed;
+- what evidence, choice or applicable rule supports that narrowing, with a `governingPatternRef`, `authoritySourceRef` or guard when one is used;
 - what would reopen it;
 - which gate, release, work, evidence-use, assurance, policy, or adjudication claims depend on the stated closure conditions and remain supported;
-- whether the publication distinguishes local closure from whole-context finality.
+- whether the publication distinguishes local closure from whole-case finality.
 
 #### C.2.5:18.2 - False-finality test
-Words such as "final", "settled", or "decided" should be challenged unless the route-governance and guard package is explicit. Final-sounding rhetoric often overstates actual closure.
+When a receiving action relies on "final", "settled", or "decided", check the actual scope and source of fixation and any applicable guard. A final-sounding word alone does not establish those conditions.
 
 #### C.2.5:18.3 - Cross-facet reminder
-Low `CD` does not imply low articulation, low anchoring, or poor representation. Reviewers should not treat openness as low seriousness.
+Low `CD` does not imply low articulation, low anchoring, or poor representation.
 
 #### C.2.5:18.4 - Split-closure review case
 A publication may be closed enough for immediate local work use or reliance use while remaining open about broader explanation, long-horizon consequences, or alternative classification. Allow the split when locality is explicit; reject prose that advertises whole-case finality when only one language-state segment is fixed.

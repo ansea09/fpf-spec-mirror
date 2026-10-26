@@ -6,12 +6,12 @@ section_id: "A.19.CHR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
   - "A.19.CHR:3 — Forces"
-line_start: 37301
-line_end: 37309
+line_start: 36571
+line_end: 36579
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -54,6 +54,6 @@ keywords:
 * **CN‑Spec and CG‑Spec must remain the governing spec refs.** Mechanisms cite them; mechanisms do not duplicate them.
 * **Strict separation of layers.** Universal CHR core vs discipline/method specializations vs generators vs packaging.
 * **SlotKind invariance.** Specialisation chains must preserve SlotKind meaning and only refine ValueKind / strengthen guards/laws.
-* **No silent scalarization / totalization.** Partial orders must remain set‑valued; any numeric summary is report‑only unless explicitly declared as a lawful comparator/policy.
+* **No silent scalarization / totalization.** CPM comparison results preserve the declared partial-order distinctions, and selection remains set-returning; any numeric summary is report‑only unless explicitly declared as a lawful comparator/policy.
 * **P2W split.** Planned slot filling belongs to WorkPlanning; launch values belong to WorkEnactment.
 

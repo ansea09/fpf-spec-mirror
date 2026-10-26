@@ -6,12 +6,12 @@ section_id: "A.15.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:7 — Conformance Checklist"
-line_start: 31574
-line_end: 31591
+line_start: 31139
+line_end: 31156
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -43,7 +43,7 @@ keywords:
 
 1. Start with section 4.0: read the claim and name the subject it actually concerns rather than interpreting the management label as a kind.
 2. For an actual project, apply A.15.1 to the composite `U.Work`, then the five project qualifications in section 4.1. Planning material remains content of its `U.WorkPlan` until Work occurs.
-3. Use obtaining Work-part relations and A.15.1 continuity rules; a time interval, team, charter, repository, policy, or label establishes neither parthood nor continuity.
+3. Use obtaining Work-part relations and A.15.1 identity rules; apply a continuity policy only for the boundary question the receiving use needs. A time interval, team, charter, repository, policy or label establishes neither parthood nor continuity.
 4. For a process concern, choose among `U.Method`, an A.22-selected `U.Structure`, and `TransformationFlowStructure` as section 4.2 states. Before using Work as evidence, use A.15.1 to state which Method the Work enacts, or identify the A.6.1 application and bindings that support the claim.
 5. Preserve multi-object evidence until the current use selects a grouping, query, or constraint. Record what a flattening omits; do not identify its result with a Method, Work occurrence, or case subject.
 6. For a case concern, name the subject or claim, the references used by closure, the closure basis, and the downstream use that remains outside. Keep the case record as a separate episteme.
@@ -55,5 +55,5 @@ keywords:
 12. Use E.18.NET only for independently identified transformation-flow structures connected by obtaining cross-boundary relation occurrences. The network is not the project, an actor, performed Work, or evidence of Work parthood.
 13. For a Transformation, first identify the actual bounded change and continuing referent. Add an actor-side or Work-realization claim only when its own predicate and facts establish it.
 14. Reuse of one Method or transformation-flow structure elsewhere has its own enactment or selection facts and creates neither cross-project Work parthood nor cross-case identity.
-15. A changed source or direct FPF dependency reopens only the affected rule and nearest case named in section 11.
+
 

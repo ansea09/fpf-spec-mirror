@@ -6,12 +6,12 @@ section_id: "A.6.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:intro — Intro"
-line_start: 24289
-line_end: 24324
+line_start: 23865
+line_end: 23900
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -49,7 +49,7 @@ keywords:
 
 **Not this pattern when.** Use A.6.1 for one operation declaration, A.3.1 for a way of doing, and A.15.2 for an ordinary plan or edition baseline. A suite is useful only when several declarations have joint conditions to express.
 
-A `MechSuiteDescription` is a Kernel **Description** token that names a **set of distinct** `U.Mechanism` (different declaration contracts, not different realizations of one contract) and declares **suite-level obligations**, **required spec pins**, and any **allowed usage protocols**, without conflating this with `MechFamilyDescription` or with publication `Pack`s.
+A `MechSuiteDescription` describes a finite set of distinct mechanism declaration contracts, their shared obligations, required specification references and permitted protocols. Two realizations of one contract remain one member. The description is distinct from a MechFamilyDescription and a publication Pack.
 
 **Plain-name.** mechanism suite description; mechanism suite passport.
 

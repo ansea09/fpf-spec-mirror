@@ -6,12 +6,12 @@ section_id: "C.40.RQ:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:1 — Problem Frame"
-line_start: 87425
-line_end: 87434
+line_start: 86243
+line_end: 86252
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -26,7 +26,7 @@ keywords:
 
 **Use this when** something relied on by an opportunity, direction, path, or advising engagement changes, and a practitioner needs to know what can still be used. The change may concern the subject, receiving use, horizon, characteristic, contribution, support, resource, permission, evidence, or an enabling step.
 
-Begin with the changed premise and the particular opportunity claim that used it. Compare the earlier and current conditions and return the useful result they support. Obtain new qualification only when a stronger current use needs it and its attainable contribution warrants acquisition. The first useful result is an unchanged, narrowed, blocked, revised, or retired contribution for a stated use, with its affected downstream return.
+Begin with the changed premise and the particular opportunity claim that used it. Compare the earlier and current conditions and return the useful result they support. Obtain new qualification only when the current use needs it and its attainable contribution warrants acquisition. The first useful result is an unchanged, narrowed, blocked, revised, or retired contribution for a stated use, with its affected downstream return.
 
 This is application-specific requalification shared by Construction and Advising. A changed recommendation returns to its actual advice owner for the affected follow-up question; changed source-currentness or publication work retains its direct owner.
 

@@ -6,12 +6,12 @@ section_id: "A.6.7:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:9 — Consequences"
-line_start: 24712
-line_end: 24724
+line_start: 24270
+line_end: 24282
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -42,11 +42,11 @@ keywords:
 **Benefits.**
 
 * Eliminates level confusion between “family of realizations” vs “bundle of mechanisms”.
-* Provides a Kernel governing pattern for universal obligations reused across multiple patterns (notably Part G universalization).
+* Lets several protocols reuse one identified set of shared conditions.
 * Makes admissibility/transport/audit obligations shared and explicit, reducing semantic drift across member mechanisms.
 
 **Costs.**
 
-* Introduces an additional `MechSuiteDescription` publication that must be maintained as suites evolve.
+* Adds a description that must be maintained when its member contracts or shared conditions change. Publication is needed only when the receiving use requires it.
 * Requires discipline: suites must remain descriptive and must not become “meta-mechanisms” or “hidden gates”.
 

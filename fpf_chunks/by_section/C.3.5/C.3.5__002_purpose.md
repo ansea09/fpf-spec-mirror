@@ -6,12 +6,12 @@ section_id: "C.3.5:1"
 section_title: "Purpose"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__002_purpose.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:1 — Purpose"
-line_start: 55924
-line_end: 55935
+line_start: 55054
+line_end: 55065
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -32,7 +32,7 @@ keywords:
 
 ### C.3.5:1 - Purpose
 
-Teams need a quick answer to a planning question: is this local kind intended as a curated instance-like cohort, a behavioral pattern, a formal invariant-bearing kind, or a kind considered up to structural equivalence? The answer can guide where declaration rigor and assurance effort are likely to pay off without pretending that abstraction itself widens scope, raises formality, settles classification, or increases reliability.
+Teams need a quick answer to a planning question: is this local kind intended as a curated instance-like cohort, a behavioral pattern, a formal invariant-bearing kind, or a kind considered up to structural equivalence? The answer can guide where declaration rigor and assurance effort are likely to pay off. An ordinary description of those planning needs is sufficient when a shared tag adds no useful distinction.
 
 KindAT gives that planning vocabulary while keeping the governing objects separate:
 

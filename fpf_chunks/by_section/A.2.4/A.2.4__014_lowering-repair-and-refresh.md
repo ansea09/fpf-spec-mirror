@@ -6,12 +6,12 @@ section_id: "A.2.4:12"
 section_title: "Lowering, Repair, and Refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__014_lowering-repair-and-refresh.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:12 — Lowering, Repair, and Refresh"
-line_start: 6220
-line_end: 6227
+line_start: 6179
+line_end: 6186
 dependencies:
   - "A.10"
   - "A.2"
@@ -45,5 +45,5 @@ Lower an attempted A.2.4 use when the episteme is known but the target claim, sc
 
 Repair the use when a neighboring object is current: dated work and actual bindings, a domain-local result, its C.2.1 episteme, source/provenance, G.11 currentness, receiving work and direct use, A.10 reliance, B.3 assurance, gate passage, permission, commitment, publication, requirement, definition, or explanation.
 
-Refresh the use when the episteme edition, target claim, grounding holon, claim scope, theory version, relevance window, source-currentness relation, status source, proof check, measurement trace, method description, or assurance-use relation changes.
+Reconsider the classification when the episteme, target claim, grounding holon, scope, polarity or status value, window, or intended use changes. Reopen the affected reliance question when a change in source currentness, proof checking, measurement, MethodDescription, or assurance basis could alter that use.
 

@@ -6,12 +6,12 @@ section_id: "C.41.QC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:12 — Relations"
-line_start: 89328
-line_end: 89333
+line_start: 88146
+line_end: 88151
 dependencies:
   - "A.10"
   - "C.41"

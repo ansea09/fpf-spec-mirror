@@ -6,12 +6,12 @@ section_id: "A.6.B:11"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:11 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 15462
-line_end: 15472
+line_start: 15164
+line_end: 15174
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -52,9 +52,8 @@ keywords:
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
-  - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
-  - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
@@ -66,9 +65,7 @@ keywords:
   - "evaluation"
   - "individual institution"
   - "laws"
-  - "may"
   - "not a duty.)"
-  - "not normative"
   - "observable effects and evidence"
   - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
   - "or (iii) assign responsibility or enforcement (that is D-*)"
@@ -89,8 +86,8 @@ keywords:
 | ---------------------------- | -------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | **Gate‑as‑law**              | Preconditions written as “laws”                    | Collapses signature or mechanism boundary; breaks substitution | Move to `A-*` in Mechanism.AdmissibilityConditions; reference `L-*` terms.                  |
 | **Deontics in predicates**   | “MUST” inside definitions or gates                 | Confuses governance with truth or admissibility                | Rewrite the definition or gate as `L-*`/`A-*`; add a generic `D-*` prescription or an independently established individual-duty claim when current. |
-| **Interface‑as‑promiser**    | “The API promises or guarantees …”                    | Category error: interface descriptions do not commit              | Recover the exact policy and generic prescription, or the actual bearer and separately obtaining `U.Commitment` when an individual duty is claimed; keep measured property (`E-*`) and metric definition (`L-*`) separate, and use `A.6.C` when ambiguity in that wording changes the claim's interpretation or use. |
+| **Unresolved duty bearer** | “The API promises” is used for an individual duty without its actual bearer and commitment | The institutional claim cannot be settled from the interface wording | Recover the policy and generic prescription, or the actual bearer and separately obtaining `U.Commitment` when an individual duty is claimed. Keep measured property (`E-*`) and metric definition (`L-*`) separate; use `A.6.C` when ambiguity changes interpretation or use. |
 | **Unestablished operational-result guarantees** | An asserted p95 result lacks its actual evaluation | The operational-result claim lacks the basis needed to settle it | Use `A.6.C:4.3` when the guarantee's meaning is ambiguous. For an operational result, state the actual Work, evaluation, or observation, predicate and object, scope/window, and result; if that basis is absent, leave the result unestablished. Add A.10 support and a `D-* → E-*` link only when the receiving reliance and duty claims need them. A carrier-existence observation alone does not complete the measured claim. |
-| **Paraphrase drift**         | Same rule restated across faces                    | Divergence becomes invisible                                | Use claim IDs or canonical locations; faces cite them; optional Claim Register.                                           |
+| **Paraphrase drift** | A restatement changes the governing rule | Different faces can then imply different conditions or consequences | Reference the claim ID or canonical location and repair the explanation to preserve its meaning; use a Claim Register when useful. |
 | **View‑fork semantics**      | A face introduces new L/A/D/E content              | Violates “no new semantics” publication discipline          | Put any new boundary claim in its canonical source before publishing it on a face. Mark explanatory commentary informative when it adds no boundary semantics.                  |
 

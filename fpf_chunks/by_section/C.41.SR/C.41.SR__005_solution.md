@@ -6,12 +6,12 @@ section_id: "C.41.SR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:4 — Solution"
-line_start: 89032
-line_end: 89081
+line_start: 87850
+line_end: 87899
 dependencies:
   - "A.10"
   - "B.1.5"
@@ -58,7 +58,7 @@ When a room, description, tool, subject or intended use changes, identify which 
 
 Retain the historical account. Reuse unaffected observations where their basis remains sufficient. A continuation after interruption consumes this account of current questions and grounds, not only a remembered set of colours.
 
-Record or communicate the resulting shared conclusion, its unresolved contribution and the useful next move. Stop at enough detail for the current dependence. If maintaining the connections costs more than the shared reliance warrants, simplify to a conversation or an existing coordination arrangement.
+Record or communicate the resulting shared conclusion, any unresolved contribution and any needed next move. Stop at enough detail for the current dependence. If maintaining the connections costs more than the shared reliance warrants, simplify to a conversation or an existing coordination arrangement.
 
 #### C.41.SR:4.4 - Change, simultaneous work and the whole result
 

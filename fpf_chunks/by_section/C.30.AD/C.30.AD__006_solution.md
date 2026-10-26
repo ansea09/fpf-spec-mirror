@@ -6,12 +6,12 @@ section_id: "C.30.AD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:4 — Solution"
-line_start: 72184
-line_end: 72422
+line_start: 71148
+line_end: 71386
 dependencies:
   - "A.1"
   - "A.10"
@@ -155,7 +155,7 @@ workingConcernRef
 
 When allocation or responsibility is current, add the exact direct relation separately. A system-role kind or assignment can support the work context but does not establish responsibility; `VP.AllocationResponsibility` only helps recognize the concern. When a source episteme or source view is used, a source-to-use path joins it to the view or description. Representation adds its own representation relation or object. Publication adds a publication occurrence with its form and carrier kept distinct. Cross-view use adds a correspondence claim or a direct correspondence relation only when its exact predicate obtains. A source-return condition is added only when a stronger use must return from a derivative or reused expression to a named source or exact defining or constraining ClaimGraph.
 
-`E.17.0` tests whether the description is a `U.View`; `C.30.ASV` tests whether it carries the right selected structure and structure kind. `C.30.AD` records how the description is composed and used: what it describes, which views and correspondence it uses, where source material enters, when stronger use must return to a source, and what architecture move or separate claim remains.
+`E.17.0` tests whether the description is a `U.View`; `C.30.ASV` tests whether it carries the right selected structure and structure kind. `C.30.AD` explains how to compose and use the description: what it describes, which views and correspondence it uses, where source material enters, when stronger use must return to a source, and what architecture move or separate claim remains.
 
 If a needed link is absent, do not substitute a label, query result, bundle, diagram, file, or publication. Add the missing reference or relation that actually holds, narrow the allowed use, or use the pattern that defines how to recover it.
 
@@ -227,7 +227,7 @@ C.2.1 constitution:
   effectiveReferenceScheme: U.ReferenceScheme, byValue
 ```
 
-`ArchitectureDescriptionCorrespondenceClaim` is a C.2.1 episteme about one description set. The block separates claim content from its C.2.1 identity; it does not add slots or create a world-side relation. Cite a direct correspondence relation only when its predicate is defined, the facts satisfy it, and the relation actually holds. Correspondence helps a reader combine views without changing what each is about; it does not establish proof, grounding, assurance, gate passage, shared subject, or architecture identity.
+`ArchitectureDescriptionCorrespondenceClaim` is a C.2.1 episteme about one description set. The block separates claim content from its C.2.1 identity; it does not add slots or create a world-side relation. Cite a direct correspondence relation only when its predicate is defined, the facts satisfy it, and the relation actually holds. A warranted correspondence claim lets a reader combine views to the extent it supports: for example, a supported `sameDescribedHolon` claim establishes their common subject. It does not thereby establish the truth of their other claims, assurance, gate passage, or the identity of an architecture-relation occurrence.
 
 #### C.30.AD:4.4 - Freshness and currentness boundary
 
@@ -311,5 +311,5 @@ An architecture description may also carry a project architecture decision or se
 
 An architecture description may contain claims about an archive, front, selected set, candidate palette, local choice, or planned architecture move. That content does not turn the description into any of those things or establish recommendation, readiness, authorization, or permission. Use `C.32.MLAO` and `C.32` for candidates, `C.18` and `C.19` for archives, fronts, and pools, `G.5` for a selected-set result, `C.11` for local choice, `C.30` for the architecture move, `C.30.ASV` for the structural view, `E.11.PUR` for recommended pattern use, and `A.15.5` or the A.15 family for readiness and Work. If the content is published, use `E.17` for the source-backed face and source return, and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability. C.30.AD still records only the architecture description and its publication use.
 
-For an architecture-description claim, record its C.2.1 identity and only the view conformance, set use, viewpoint, correspondence, source path or return condition, freshness, representation, publication use, and specification use that actually apply. If a source only grounds the first architecture move, use `C.30`. If it synthesizes alternatives, use `C.32` or `C.32.MLAO`. If it changes which variants are archived, pooled, compared, selected, published, locally chosen, or decided, use the pattern that defines or constrains that relation.
+For an architecture-description claim, record its C.2.1 identity and only the view conformance, set use, viewpoint, correspondence, source path or return condition, freshness, representation, publication use, and specification use that actually apply. For the first architecture move, use `C.30`; for synthesizing alternatives, use `C.32` or `C.32.MLAO`. When using source content to change which variants are archived, pooled, compared, selected, published, locally chosen, or decided, use the pattern that defines or constrains that relation.
 

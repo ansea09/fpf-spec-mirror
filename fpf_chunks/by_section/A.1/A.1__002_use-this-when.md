@@ -6,12 +6,12 @@ section_id: "A.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:0 — Use This When"
-line_start: 2504
-line_end: 2542
+line_start: 2501
+line_end: 2539
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -36,14 +36,14 @@ keywords:
 
 ### A.1:0 - Use This When
 
-Use this pattern when a project must say what kind of thing is under concern before it can rely on parts, wholes, boundaries, acting systems, roles, methods, work, architecture, or descriptions.
+Use this pattern when a decision depends on whether an entity is a whole with parts, an acting System, or a claim-bearing holon.
 
 Typical moments:
 
-- a team calls everything a "system" and then asks physical or operational questions about theories, documents, models, dashboards, or descriptions;
+- physical or operational abilities are being attributed to a theory or document merely because it is called a system;
 - an episteme is treated as an acting agent that decides, performs work, authorizes, promises, or revises itself;
-- a product, organization, machine, document family, research program, discipline, work occurrence, or model family must be treated as a whole with parts;
-- a list, batch, fleet, pool, clientele, community, or supplier base is expected to act, but no acting system has been constructively recognized;
+- a proposed whole needs an account of its constituents and construction;
+- a collection is expected to act, but no acting system has been constructively recognized;
 - architecture or selected-structure claims need the holon whose structure is being selected.
 
 **Primary EntityOfConcern.** One exact `U.Entity` candidate whose actual construction may or may not satisfy the constructive recognition criterion for one already admitted holon kind.
@@ -59,7 +59,7 @@ Once the exact proposed or observed focus is current, use `A.1.CSD` when the nex
 After recognition, use `A.1.STM` only when the remaining problem is loss of the long dependency from project use through architecture, Work, change, and recursive builders. Otherwise apply the rule that defines or tests the next claim.
 
 
-**What goes wrong if missed.** A document edits itself, a theory gets ports, a list becomes an organization, a lathe that changes a workpiece is treated as its containing whole without an obtaining part-whole relation, and architecture is discussed without naming the holon whose structure is selected.
+**What goes wrong if missed.** A claim attributes revision Work to a document, gives a theory physical ports, or treats a list as an organization. A lathe that changes a workpiece is treated as its containing whole without an obtaining part-whole relation. An architecture claim lacks the holon whose structure is selected.
 
 **What this buys.** FPF gets one compact part-whole foundation without turning every whole into a physical system: identity starts at `U.Entity`; part-whole treatment starts at `U.Holon`; acting work attaches to `U.System`; claim-bearing knowledge is carried by `U.Episteme`; method holonhood is governed by `U.Method`; other admitted holon kinds keep their own subject patterns.
 

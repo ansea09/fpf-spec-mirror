@@ -6,12 +6,12 @@ section_id: "C.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:4 — Solution"
-line_start: 51372
-line_end: 51660
+line_start: 50537
+line_end: 50825
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -114,7 +114,7 @@ Split the ClaimGraph only when it combines independent subjects in a way that ma
 
 The effective `U.ReferenceScheme` supplies the designation and interpretation rules needed to read this ClaimGraph as claims about this EntityOfConcern. Add measurement, comparison, or evaluation rules only when the claims' meaning uses them. The corresponding measurement or evaluation entities and relation occurrences remain under their direct patterns.
 
-Formal near-miss: a theorem read under a formal vocabulary and calculus needs designation and interpretation rules, but it does not acquire ceremonial measurement or evaluation rules. Empirical contrast: a pump-tolerance episteme uses the applicable units, measurement procedure, and pass/fail criterion to make its claim meaningful; the actual measurement and evaluation occurrences remain neighboring objects rather than episteme constituents.
+A theorem read under a formal vocabulary and calculus needs designation and interpretation rules; it needs measurement or evaluation rules only if its meaning uses them. By comparison, a pump-tolerance episteme uses the applicable units, measurement procedure, and pass/fail criterion to make its claim meaningful; the actual measurement and evaluation occurrences remain neighboring objects rather than episteme constituents.
 
 Changing any identity discriminator yields another episteme. Changing a carrier, layout, rendering, publication occurrence, evidence item, viewpoint assignment, or model-use setting does not by itself yield another episteme. A direct pattern may recognize the same individual as a dependent episteme kind through its stable membership condition, but it does not add another identity discriminator. `A.3.2` governs `U.MethodDescription` membership; `E.17.0` governs `U.Viewpoint` and `U.View` membership through fixed predicates over already identified epistemes. `A.6.3` governs an optional viewing construction between source and receiving epistemes, not view membership. If any work or construction changes claim content, EntityOfConcern, or effective reference scheme, those changed C.2.1 discriminators identify the resulting episteme, not the dependent-kind label.
 
@@ -130,7 +130,7 @@ This identity is constructive. The claim graph and reference scheme are epistemi
 
 Before using any signature-local table, identify the declaration itself. Each of `EpistemeConstitutionRelationSignature`, `EpistemeEmpiricalGroundingRelationSignature`, and `EpistemeEditionRelationSignature` is first one exact C.2.1 episteme: its own `U.ClaimGraph` carries the declaration claims, its exact EntityOfConcern is the direct relation kind, and its effective `U.ReferenceScheme` makes those claims interpretable. For each of these three declarations the fixed `A.6.0` membership predicate obtains, so `A.6.0` independently recognizes that same episteme individual as a `U.Signature`. `RelationSignature` names the relation-facing use of that same individual; it is neither another U-kind nor another identity.
 
-A complete declaration claim names the direct relation-kind designator, the exact `A.6.5` SlotSpecs needed by reusable typed uses, the obtaining predicate, the occurrence-identity rule, applicability, and only the dependencies and provided names that are actually current. The direct relation kind, its actual participants, an obtaining occurrence, an assertion about it, a relation-occurrence description episteme, the declaration episteme, its publication, and a representation of any of these remain distinct. A receiving need may justify typed reuse but does not identify the declaration. One readable assertion needs no signature or manifest. An A.6.0 manifest is optional and is used only when actual dependencies or provided names must be exposed; a manifest row, list, citation, identifier, or edition marker creates neither episteme identity nor dependency.
+A complete declaration claim names the direct relation-kind designator, the exact `A.6.5` SlotSpecs needed by reusable typed uses, the obtaining predicate, the occurrence-identity rule, applicability, and only its actual dependencies and provided names. The direct relation kind, its actual participants, an obtaining occurrence, an assertion about it, a relation-occurrence description episteme, the declaration episteme, its publication, and a representation of any of these remain distinct. A receiving need may justify typed reuse but does not identify the declaration. One readable assertion needs no signature or manifest. An A.6.0 manifest is optional and is used only when actual dependencies or provided names must be exposed; a manifest row, list, citation, identifier, or edition marker creates neither episteme identity nor dependency.
 
 Applying that shared rule locally, typed reuse of `EpistemeConstitutionRelation` uses the one declaration episteme `EpistemeConstitutionRelationSignature`, whose exact EntityOfConcern is `EpistemeConstitutionRelation` and whose declaration includes these SlotSpecs:
 
@@ -168,9 +168,9 @@ An affirmative bounded-use assertion is one premise for that use; it is neither 
 
 Use B.3 only when an actual named assurance claim about this bounded use is current. That assurance result remains separate from the Bridge-use assertion and adds assessment Work, System, Method, assignment, bindings, witnesses, or a reusable note only when the assurance use depends on those identities. A direct domain rule may require an assurance claim for a consequential use, but neither consequence nor a display creates the claim. Neither the A.10 nor B.3 branch authorizes the use. If the use actually happened, recover the actual Work under A.15.1, assertion episteme under C.2.1, publication occurrence under E.17, direct relation under its domain predicate, operation application under A.6.1, or another result under its own pattern.
 
-##### C.2.1:4.2.4 - State rule-content and subject assertions without pattern ownership
+##### C.2.1:4.2.4 - State rule-content and subject assertions
 
-In ordinary prose, cite the PatternID and state the concrete contribution: what the cited content defines, constrains, tests, distinguishes, or helps the practitioner do. This readable branch is normally sufficient. A pattern is neither an owner nor an actor, and no governance relation is implied by an instrumental sentence such as “use A.1 to test constructive holon recognition.”
+In ordinary prose, cite the PatternID and state the concrete contribution: what the cited content defines, constrains, tests, distinguishes, or helps the practitioner do. This readable branch is normally sufficient. For example, “use A.1 to test constructive holon recognition” states the needed contribution.
 
 Open an exact defining or constraining episteme edition or ClaimGraph only when its identity changes interpretation, migration, conflict analysis, publication, dependency repair, or reuse. Then identify the subject, predicate or constraint, polarity, exact defining content, case facts, and only the scope, time, scheme, or bounded-use qualifications that change the assertion. Do not fabricate an assertion episteme merely to avoid an ordinary pattern citation.
 
@@ -227,7 +227,7 @@ The grounding holon need not be identical to the EntityOfConcern. One method-des
 
 | Current distinction | Relation or object to use | Why it stays outside the core constitution relation |
 | --- | --- | --- |
-| classification judgment or separately current classification assertion | the `A.1` recognition judgment for an admitted holon kind or the `C.3.2` membership judgment for a local kind; one C.2.1 episteme when a receiving review treats the judgment as a separate claim-bearing object | the governing criterion states the membership condition; the classification judgment evaluates the candidate under it; the assertion carries that judgment but neither creates the candidate nor admits the kind |
+| classification judgment or assertion needed as a separate claim-bearing object | the `A.1` recognition judgment for an admitted holon kind or the `C.3.2` membership judgment for a local kind; one C.2.1 episteme when a receiving review treats the judgment as a separate claim-bearing object | the governing criterion states the membership condition; the classification judgment evaluates the candidate under it; the assertion carries that judgment but neither creates the candidate nor admits the kind |
 | claim scope | exact `U.ClaimScope` and its A.2.6 membership semantics | scope delimits where claims hold; it does not identify every episteme |
 | concern-bearing viewpoint use | one exact `U.Viewpoint` episteme P selected for one named describing use | selection states the concern under which the description is used; it neither establishes conformance nor enters episteme identity |
 | view | the same episteme individual recognized as `U.View` when an exact `EpistemeViewpointConformanceRelation` to at least one exact viewpoint episteme obtains | conformance, source-to-receiving construction, current-use selection, publication, form, and carrier remain different relations or objects |
@@ -324,7 +324,7 @@ For an A.6.3 source-to-receiving viewing construction, the two identified episte
 | `U.Episteme` | one knowledge holon with identity `<claim content, EntityOfConcern, effective ReferenceScheme>` | C.2.1 |
 | `EpistemeConstitutionRelation` occurrence | the obtaining direct relation among the exact claim graph, exact EntityOfConcern, and effective reference scheme that constructively identifies one episteme | C.2.1 and `A.6.REL` |
 | `EpistemeEmpiricalGroundingRelation` occurrence | the direct relation between one identified episteme and one exact grounding holon for one exact nonempty covered claim subgraph, while every empirical claim in that subgraph has a current mapping to the required observation, intervention, measurement, or test relations involving that holon; evaluation or evidence supports an assertion unless explicitly mapped as part of the empirical test | C.2.1 and the governing observation, intervention, measurement, test, evaluation, or evidence patterns |
-| classification assertion episteme, when separately current | a claim-bearing episteme whose EntityOfConcern is the exact candidate and whose claim content states a classification judgment under the exact governing criterion: `A.1` for an admitted holon kind or `C.3.2` for a local kind | C.2.1 for assertion identity; the pattern governing the criterion for the judgment; `E.24.UK` only for public U-kind admission |
+| classification assertion episteme needed as a separate claim-bearing object | a claim-bearing episteme whose EntityOfConcern is the exact candidate and whose claim content states a classification judgment under the exact governing criterion: `A.1` for an admitted holon kind or `C.3.2` for a local kind | C.2.1 for assertion identity; the pattern governing the criterion for the judgment; `E.24.UK` only for public U-kind admission |
 | `EpistemeEditionRelation` occurrence | the direct historical continuation relation between one exact earlier episteme and one exact later episteme; exact source use, the applicable continuation policy or rule, and the preserved and deliberately changed claim, EntityOfConcern, and scheme features decide whether it obtains; Work, Method, provenance, and change facts supply case facts only; apply the shared 4.9 inception boundary only when that separate fact is consumed | C.2.1, coordinated with `C.2.P`, A.3.1, A.3.4, and C.2.1:4.9 only for a separately current inception claim |
 | `EpistemeConstitutionRelationSignature`, `EpistemeEmpiricalGroundingRelationSignature`, or `EpistemeEditionRelationSignature` | one C.2.1 declaration episteme whose exact EntityOfConcern is its direct relation kind; the fixed `A.6.0` predicate gives that same individual `U.Signature` membership, and `RelationSignature` is its relation-facing use with complete direct semantics and exact A.6.5 SlotSpecs | C.2.1 for declaration identity, `A.6.0` for membership and reusable vocabulary, and `A.6.5` for SlotSpecs |
 | `SlotSpec` | one declaration-content component of that `RelationSignature` | `A.6.5` |

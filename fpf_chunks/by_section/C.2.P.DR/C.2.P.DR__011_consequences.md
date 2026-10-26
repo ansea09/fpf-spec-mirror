@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:9 — Consequences"
-line_start: 54897
-line_end: 54903
+line_start: 54041
+line_end: 54047
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -46,7 +46,7 @@ keywords:
 ### C.2.P.DR:9 - Consequences
 
 - FPF can keep useful graph, path, query, table, dashboard, publication, and pattern-relation vocabulary without banning ordinary words.
-- The repair blocks hidden authority, release, gate, evidence, method, mechanism, work, and pattern-dispatch claims by requiring the subject pattern named by value.
+- Operational claims receive their actual grounds and conditions; a supported comparison remains useful while a stronger claim is unresolved.
 - Method and mechanism claims become easier to compose because `E.10.ARCH:3.1` keeps separately recovered values connected only by the exact direct relations and participant meanings supplied by their subject patterns, without treating source labels as alternate ontology.
 - The cost is this recovery, with a small note only when the receiving use needs an inspectable repair. Ordinary navigation, source quotation, and already-governed graph or evidence paths do not need the note.
 

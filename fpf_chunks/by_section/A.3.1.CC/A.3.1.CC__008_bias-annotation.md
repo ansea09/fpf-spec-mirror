@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:6 — Bias-Annotation"
-line_start: 10681
-line_end: 10691
+line_start: 10596
+line_end: 10606
 dependencies:
   - "A.10"
   - "A.15.8.MS"
@@ -23,7 +23,7 @@ keywords:
 
 ### A.3.1.CC:6 - Bias-Annotation
 
-| Recurring bias | Likely drift | Repair |
+| Bias | Likely drift | Repair |
 | --- | --- | --- |
 | package-coherence bias | One local contradiction becomes a verdict on the whole Method package. | Bound the claim, use, owner, and window before checking. |
 | document-owner bias | The document displaying a claim is edited even when construction or support owns it. | Recover the maintained result and direct governor. |

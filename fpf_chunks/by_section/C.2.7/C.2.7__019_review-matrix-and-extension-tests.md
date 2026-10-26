@@ -6,17 +6,18 @@ section_id: "C.2.7:18"
 section_title: "Review Matrix and Extension Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__019_review-matrix-and-extension-tests.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:18 — Review Matrix and Extension Tests"
-line_start: 54309
-line_end: 54327
+line_start: 53455
+line_end: 53473
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.18"
+  - "A.19"
   - "B.4.1"
   - "B.5.2.0"
   - "C.2.2a"
@@ -47,7 +48,7 @@ An assurance reader should ask:
 An additional factor is justified only if it captures a distinct representational question that cannot be reduced to locality, sparsity, or symbolicity. The extra factor should extend the bundle, not become a rival master factor.
 
 #### C.2.7:18.3 - Migration test for source terminology
-Source vocabularies often use "symbolic", "distributed", or "encoding basis" as if one term solved the whole classification problem. A conforming migration unpacks the term into explicit factor dockings and then checks whether any cross-facet claims were smuggled into the source label.
+For a source term such as "symbolic", "distributed" or "encoding basis", retain its source-local meaning and scope. If an FPF comparison needs factor readings, establish which factors the source actually supports and leave the others unresolved. Mere citation of the source term needs no reconstruction into a complete bundle. Test any further cross-facet claim separately.
 
 #### C.2.7:18.4 - Bundle-comparison reminder
 Representation bundles may be compared across contexts only after the compared factors are explicit. If one context uses a compact local alias and another publishes the full factor bundle, require explicit docking before treating the two descriptions as commensurable.

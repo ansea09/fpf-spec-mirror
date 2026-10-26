@@ -6,12 +6,12 @@ section_id: "A.2.8:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__015_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:12 — SoTA-Echoing"
-line_start: 8344
-line_end: 8353
+line_start: 8295
+line_end: 8304
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -30,7 +30,7 @@ dependencies:
 keywords:
   - "actual bearer"
   - "constitutive rule"
-  - "do not identify an individual bearer or institute a duty. Adapt"
+  - "do not identify an individual bearer or institute a duty"
   - "individual duty"
   - "instituting basis"
   - "obligation"
@@ -43,9 +43,9 @@ keywords:
 
 > **Informative.** These comparisons motivate the distinctions; they do not govern local claims.
 
-- **BCP 14 (RFC 2119 and RFC 8174).** Controlled normative keywords support explicit modality, but keywords do not identify an individual bearer or institute a duty. **Adapt.**
-- **W3C ODRL 2.2.** Duties, permissions, assignees, actions, constraints, and policy provenance motivate explicit participants and qualifiers. FPF keeps individual commitment, permission, policy episteme, and evidence separate. **Adapt.**
-- **Institutional and constitutive-rule approaches.** Their distinction between rule content, institutional conditions, and resulting relations supports the required constitutive rule and actual basis. **Adopt the separation.**
-- **Policy-as-code practice.** Admission predicates and policy evaluation should not be confused with individual obligation or performed Work. **Adapt.**
-- **Trace-based compliance and supply-chain attestations.** Evidence and carriers can support adjudication while remaining distinct from relation obtaining. **Adopt.**
+- **BCP 14 (RFC 2119 and RFC 8174).** Controlled normative keywords support explicit modality, but keywords do not identify an individual bearer or institute a duty.
+- **W3C ODRL 2.2.** Duties, permissions, assignees, actions, constraints, and policy provenance motivate explicit participants and qualifiers. FPF keeps individual commitment, permission, policy episteme, and evidence separate.
+- **Institutional and constitutive-rule approaches.** Their distinction between rule content, institutional conditions, and resulting relations supports the required constitutive rule and actual basis.
+- **Policy-as-code practice.** Admission predicates and policy evaluation should not be confused with individual obligation or performed Work.
+- **Trace-based compliance and supply-chain attestations.** Evidence and carriers can support adjudication while remaining distinct from relation obtaining.
 

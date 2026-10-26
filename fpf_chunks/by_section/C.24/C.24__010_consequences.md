@@ -6,12 +6,12 @@ section_id: "C.24:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:9 — Consequences"
-line_start: 64911
-line_end: 64914
+line_start: 63869
+line_end: 63872
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,5 +44,5 @@ keywords:
 
 ### C.24:9 - Consequences
 
-Tool use becomes inspectable before execution: the result shows which accepted decision fixed the action or option, which Methods are planned, what budget is reserved, and what changes the route. Identical vendor tokens remain distinguishable by source scheme, edition, intended use, and selected Method. The cost is explicit Method grounding and branch-specific constraint refs. Heavy assurance, causal, or scale-comparison records appear only when their use justifies them.
+Tool use becomes inspectable before execution: the result shows which applicable prescription or accepted decision fixed the action or option, which Methods are planned, what budget is reserved, and what changes the route. Identical vendor tokens remain distinguishable by source scheme, edition, intended use, and selected Method. The cost is explicit Method grounding and branch-specific constraint refs. Heavy assurance, causal, or scale-comparison records appear only when their use justifies them.
 

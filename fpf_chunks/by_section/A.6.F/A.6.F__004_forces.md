@@ -6,12 +6,12 @@ section_id: "A.6.F:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:3 — Forces"
-line_start: 22721
-line_end: 22731
+line_start: 22308
+line_end: 22318
 dependencies:
   - "A.10"
   - "A.15"
@@ -73,8 +73,8 @@ keywords:
 | --- | --- |
 | Familiar engineering speech vs object and claim precision | Engineers naturally say "function", "functional", and "functionality"; when the phrase carries an FPF claim, the exact entity, value, claim, or claim-bearing episteme and its subject pattern must be recoverable. |
 | Functional architecture vs peer ontology | Functional architecture is useful, but it is the `FunctionalStructure` case of `ArchitectureOf@Context`, not a separate root architecture kind. |
-| Capability or effect vs work or method | A function-like phrase may describe what a holon can do, what a method prescribes, or what work has done; those are different values, claims, epistemes, and, where applicable, direct relations, each with its own subject pattern. |
-| Mathematical function vs design relation | Mathematical functions and relations can be used for reasoning; use C.29 to test their lens use and stop condition. |
+| Capability or effect vs work or method | A function-like phrase may describe what a System can do, what a method prescribes, or what work has done; those are different values, claims, epistemes, and, where applicable, direct relations, each with its own subject pattern. |
+| Mathematical function vs design relation | Keep an adequate mathematical definition or calculation. Use C.29 when a separate question about choosing a mathematical representation, transferring structure or relying on an inference remains. |
 | Module allocation vs functional relation | Functional dependencies may be allocated to modules, but function and module-interface structure do not become one FPF kind. |
 | Small repair vs unneeded evidence, quality, decision, or assurance apparatus | Most cases need the exact object or claim, its subject pattern, and a stop condition. Add direct-relation participants, reusable declaration, selected claim-bearing episteme, or representation correspondence only when the current use needs that object. |
 

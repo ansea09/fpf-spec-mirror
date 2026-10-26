@@ -6,12 +6,12 @@ section_id: "C.23:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:2 — Problem"
-line_start: 64347
-line_end: 64356
+line_start: 63308
+line_end: 63317
 dependencies:
   - "A.10"
   - "B.3"
@@ -43,7 +43,7 @@ keywords:
 Unstructured “readiness” stories and undisciplined evidence lead to:
 
 * (i) **Illicit scalarisation** across mixed scale types,
-* (ii) **Prose‑only** gating that a dispatcher cannot execute,
+* (ii) ambiguous gating conditions that a dispatcher cannot apply,
 * (iii) reuse after the family, evidence profile, claim scope, qualification window, or comparison basis changed, or reliance on an unstated source-local, kind, or plane relation, and
 * (iv) Immature families leaking into production.
   We need a **notation‑independent LOG layer** whose **executable rules** use **TaskSignature (S2)** + **EvidenceProfiles** to return *admit / degrade / abstain*, **routing CL penalties selected under R4 to `R_eff` only** (never mutating **F/G**).

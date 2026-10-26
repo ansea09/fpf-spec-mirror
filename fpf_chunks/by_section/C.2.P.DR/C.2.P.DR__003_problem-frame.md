@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__003_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:1 — Problem frame"
-line_start: 54613
-line_end: 54620
+line_start: 53759
+line_end: 53766
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -45,9 +45,9 @@ keywords:
 
 ### C.2.P.DR:1 - Problem frame
 
-FPF work meets many declarative-looking expressions and many direct objects or relations: graph and table artifacts; paths and selected structures; state predicates and values; dashboard and publication faces; evidence, provenance, source, and pattern relations; formal substrates; and method descriptions. Some visible expressions represent a separately governed object or claim; other named items are themselves the current direct object or relation. Their common declarative appearance does not make them peers in one kind.
+A graph can itself be the object under inspection, or a drawing can represent a graph. A table can express claims about a system, or its layout can be the publication form being examined. Recover that distinction before deciding which rule governs the disputed use.
 
-The recurring failure is a category shift. Because some representations look like paths, pipelines, calls, dispatches, states, gates, or control programs, the prose starts granting them operational effects. A representation then seems to authorize work, pass a gate, enact a method, prove a result, release a system, or select a pattern by its shape alone.
+The recurring failure is an unsupported shift from appearance to operational effect. For example, an arrow in a graph can represent a relation without prescribing an action or proving that it occurred.
 
 This pattern repairs that shift. It does not build a general theory of representation. It only restores the exact FPF-governed object, relation, or claim and its subject pattern when declarative-looking wording is overread as imperative or operational.
 

@@ -6,12 +6,12 @@ section_id: "C.22.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:intro — Intro"
-line_start: 63185
-line_end: 63195
+line_start: 62164
+line_end: 62172
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -20,8 +20,6 @@ dependencies:
   - "C.24"
   - "E.10"
   - "E.16"
-  - "E.19"
-  - "E.22"
   - "E.23"
   - "G.11"
   - "G.5"
@@ -43,10 +41,8 @@ keywords:
 
 > **Status:** Stable
 
-**One-screen purpose (manager-first).**
-Make a specialization claim publishable as one typed adaptation record over a declared `TaskFamilyRef` or `TaskSignature`, so later selector and parity work compares the same threshold target, budget burn, prior exposure, transfer, durability, downside, and corridor-entry field rather than reconstructing that story from narrative prose.
+**Purpose.**
+Compare how a holder, dyad or bounded specialist portfolio acquires usable specialization on a declared task family. An adaptation signature connects the threshold, acquisition time and cost, and prior exposure with any claimed transfer, retention, downside or entry into a new solution corridor. An explicit account in ordinary prose is sufficient when these distinctions and their grounds are recoverable; a shared record can support later selector or parity use.
 
-**Builds on.** `C.22` (TaskSignature attachment and task-family anchoring), `C.19.1` (`BLP` compatibility), `A.15` (system-role kind and assignment, Method, WorkPlan, and Work-occurrence split for scout or probe Work), `C.24` (`CheckpointReturn` planning semantics), `E.16` (budget enforcement).
-**Coordinates with.** `G.5` (selector specialization profiles), `G.9` (adaptation parity), `G.11` (later telemetry and refresh reuse).
 **Keywords.** adaptation signature; task-family specialization; time-to-threshold; budget-to-threshold; prior exposure; corridor entry; stepping stone; transfer; retention; downside field.
 

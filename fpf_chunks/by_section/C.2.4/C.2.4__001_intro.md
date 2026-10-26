@@ -6,13 +6,14 @@ section_id: "C.2.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:intro — Intro"
-line_start: 53572
-line_end: 53585
+line_start: 52725
+line_end: 52738
 dependencies:
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.16"
@@ -21,6 +22,7 @@ dependencies:
   - "A.16.2"
   - "A.18"
   - "A.3.1"
+  - "A.3.2"
   - "A.6.3.RT"
   - "A.6.P"
   - "B.4.1"
@@ -32,6 +34,8 @@ dependencies:
   - "C.2.8"
   - "C.2.LS"
   - "C.2.P.DR"
+  - "C.29"
+  - "F.6"
 keywords:
   - "AE0–AE5"
   - "articulation explicitness"
@@ -51,7 +55,7 @@ keywords:
 
 **Use this pattern when.** Use C.2.4 when the next move depends on how explicitly a governed episteme's meaning is articulated for its semantic branch and receiving use.
 
-**What goes wrong if missed.** A formal-looking sentence is treated as semantically ready, a real early cue is discarded as too vague, or every partly explicit note is forced through relation repair even when it is a plan, MethodDescription, Work claim, representation, question, characteristic, or ordinary domain statement.
+**What goes wrong if missed.** A formal-looking sentence is treated as semantically ready, a real early cue is discarded as too vague, or a partly explicit note is forced through relation repair even when its receiving question concerns another kind of content, such as a plan or ordinary domain statement.
 
 **What this buys.** One branch-neutral ordinal characteristic: a stable cue can acquire recoverable governed structure and a complete form for its actual semantic branch, with meaning that remains stable in a receiving use, without confusing articulation with formality, closure, truth, trust, or endpoint authority.
 

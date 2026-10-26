@@ -6,23 +6,24 @@ section_id: "C.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:intro — Intro"
-line_start: 54921
-line_end: 54926
+line_start: 54062
+line_end: 54067
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
+  - "A.22"
   - "A.22.CGUS"
   - "A.6.0"
   - "A.7.1"
   - "A.8"
+  - "B.3.5"
   - "C.2.1"
   - "C.29"
-  - "C.3"
   - "C.3.1"
   - "C.3.2"
   - "C.3.3"

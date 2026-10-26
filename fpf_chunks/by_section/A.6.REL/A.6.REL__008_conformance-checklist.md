@@ -6,12 +6,12 @@ section_id: "A.6.REL:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
   - "A.6.REL:7 — Conformance Checklist"
-line_start: 16238
-line_end: 16253
+line_start: 15929
+line_end: 15944
 dependencies:
   - "A.6.0"
   - "A.6.5"
@@ -28,14 +28,14 @@ keywords:
 1. Across the subject pattern and the current use, the relation kind, relation-participant meanings, relation obtaining predicate, actual relation participants, applicability, relation occurrence-identity rule, and any currently needed `RelationSignature` SlotSpecs are recoverable. An ordinary relation sentence remains complete without repeating that settlement.
 2. The text does not conflate relation obtaining, predicate satisfaction, root-kind admission, explicit-individuation work, identifier assignment, and reference use.
 3. Root `U.Relation` admission is governed by `E.24.UK` from the common `A.6.REL` discipline and the relation-specific witness supplied by each direct relation pattern; project use does not repeat the admission decision.
-4. Immediately after the readable direct relation, answer whether later work must tell this occurrence from another occurrence of the same relation. Answer no for a current-status report; answer yes when a history or comparison must distinguish repeated episodes with the same participants.
-5. Apply the subject pattern's obtaining test to relevant current-case facts or constituting history, and record the resulting polarity in a claim-bearing episteme. Neither an affirmative assertion nor evidence nor a supported, refuted, or unresolved reliance result establishes or constitutes the world-side occurrence merely by its form; any constitutive contribution requires the direct rule stated in section 4.3.
+4. After the readable direct relation, ask whether the receiving use needs to reidentify this occurrence or distinguish it from another. A simple current report can stop; a history, same-occurrence comparison or dependent relation can require the identity branch.
+5. Apply the subject pattern's obtaining test to the relevant case facts or constituting history and state the supported result. Assertion polarity or an evidence/reliance result supplies no occurrence merely by its form; any constitutive contribution must satisfy the direct rule in section 4.3.
 6. Every admitted direct or derived relation kind has a direct governing settlement that declares its occurrence-identity rule; ordinary omission of explicit individuation or an occurrence designator does not count as absence of that rule.
 7. Participant-determined identity is used only when the direct ontology establishes that the same participant identities cannot recur in distinct occurrences of that relation kind.
 8. When the same participants can recur, the direct pattern declares the domain discriminator; maximal continuous obtaining interval and constituting work are possible choices only when that pattern includes them in the occurrence-identity rule.
 9. When construction is constitutive, the constructing system, input entities, performed construction work, and identity contribution are named; representation creation is not substituted for construction.
 10. Each object in the relation-object architecture is reidentified under its subject pattern and connected to adjacent objects only by the direct relations stated in section 4.1.
-11. A relation occurrence used as another relation's world-side participant is individuated first; the receiving assertion's reference remains distinct from that participant.
-12. When later work must distinguish repeated occurrences, apply the direct same-versus-new-occurrence rule without first creating a `RelationSignature`. Follow the receiving branch in section 4.2 and add a designator or reference only when stable reference is needed.
+11. Before asserting or relying on a relation occurrence as another relation's participant, identify it under its direct rule. The receiving assertion's reference remains distinct from that world-side participant.
+12. When the receiving use needs occurrence identity, apply the direct same-versus-new-occurrence rule without first creating a `RelationSignature`. Follow section 4.2 and add a designator or reference only when stable reference is needed.
 13. Another episteme edition, publication occurrence, name association, or reference use does not by itself establish another world-side relation occurrence. Apply the direct occurrence-identity rule to the current case facts or constituting history; use A.10 only for a separate evidence-based reliance judgment.
 

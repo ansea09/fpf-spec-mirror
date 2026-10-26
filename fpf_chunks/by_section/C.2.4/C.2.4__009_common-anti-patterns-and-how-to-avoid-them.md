@@ -6,13 +6,14 @@ section_id: "C.2.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 53655
-line_end: 53660
+line_start: 52808
+line_end: 52813
 dependencies:
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.16"
@@ -21,6 +22,7 @@ dependencies:
   - "A.16.2"
   - "A.18"
   - "A.3.1"
+  - "A.3.2"
   - "A.6.3.RT"
   - "A.6.P"
   - "B.4.1"
@@ -32,6 +34,8 @@ dependencies:
   - "C.2.8"
   - "C.2.LS"
   - "C.2.P.DR"
+  - "C.29"
+  - "F.6"
 keywords:
   - "AE0–AE5"
   - "articulation explicitness"
@@ -42,7 +46,7 @@ keywords:
 ---
 
 ### C.2.4:8 - Common Anti-Patterns and How to Avoid Them
-- **Formal-looking but semantically thin.** High `F`, low `AE`. Declare both.
+- **Precise syntax, unclear meaning.** A template constrains the sentence form while needed meanings remain unresolved. State the expression properties and the articulation gap separately.
 - **Mystical cue immunity.** Low `AE` is presented as exempt from authoring discipline. Preserve it, but state what remains unresolved.
 - **Ready-by-tone.** A sentence sounds precise, so authors assume `AE3+`. Publish the actual recoverable structure.
 - **Relation-shaped shortcut.** Arrows, columns, or grammatical subjects and objects are treated as proof that the claim is relational. Recover the actual claim kind and route its branch before assigning the higher level.

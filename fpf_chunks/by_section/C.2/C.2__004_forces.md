@@ -6,12 +6,12 @@ section_id: "C.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:3 — Forces"
-line_start: 51216
-line_end: 51222
+line_start: 50384
+line_end: 50390
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,7 +42,7 @@ keywords:
 ### C.2:3 - Forces
 
 * **Universality vs domain idioms.** One calculus must cover physics theories, legal codes, safety specs, algorithms, and formal proofs without flattening their differences.
-* **Meaning vs materiality.** Meaning must be independent of carrier, yet accountable to it historically.
+* **Meaning vs materiality.** The same claims can appear on different carriers. When a historical use depends on a particular source, its provenance must remain recoverable.
 * **Deductive vs empirical.** Axiomatic certainty and empirical trust have different evidence-continuity profiles; both must compose.
 * **Abstraction vs enactment.** Epistemes constrain action; **systems** act. The calculus must keep the roles distinct.
 

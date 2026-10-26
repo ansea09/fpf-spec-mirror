@@ -6,12 +6,12 @@ section_id: "A.15.9:10"
 section_title: "Rationale and SoTA use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__011_rationale-and-sota-use.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:10 — Rationale and SoTA use"
-line_start: 32585
-line_end: 32592
+line_start: 32143
+line_end: 32148
 dependencies:
   - "A.10"
   - "A.13"
@@ -31,9 +31,7 @@ keywords:
 
 ### A.15.9:10 - Rationale and SoTA use
 
-The best-known current line for this problem is result-first and use-bounded: define what the receiving decision needs, reuse a qualified result when possible, retain a useful narrower answer, select worthwhile obtainable acquisition, and preserve the supplier's Method and authority separately from the receiver's decision. Current `SYSE.9` demonstrates the bounded-request, specialist-Method, authority-split, and receiving-use parts of this move in engineering, while `C.11.DUA` governs acquisition value and feasibility; the unlike administration, finance, and governance cases show that the boundary transfers while their domain content does not.
+The Method starts with the result and its receiving use: define what the receiving decision needs, reuse a qualified result when possible, retain a useful narrower answer, select worthwhile obtainable acquisition, and preserve the supplier's Method and authority separately from the receiver's decision. `SYSE.9` demonstrates the bounded-request, specialist-Method, authority-split, and receiving-use parts of this move in engineering, while `C.11.DUA` governs acquisition value and feasibility; the unlike administration, finance, and governance cases show that the boundary transfers while their domain content does not.
 
-This pattern does not select a professional standard, role framework, maturity model, organization chart, or review regime because it is official, new, popular, or widely taught. Such sources matter only when a distinction they supply changes the nine-step move, one direct domain result, or its limits. A source with institutional authority can still be obsolete for the live problem; a less famous source can be stronger when it identifies and repairs the older line's failure.
-
-`A.10` already owns evidence, provenance, currentness, and bounded reliance, while `RESULT-TO-NEXT-MOVE` already routes an obtained result to the downstream question that is current. Repeating either Method here would create a shadow specification. `A.15.9` contributes only the cross-practice receiving-decision boundary, the existing-result stop, the bounded request after acquisition is selected, the supplier/receiver authority split, and local reopen.
+`A.10` already owns evidence, provenance, currentness, and bounded reliance, while `RESULT-TO-NEXT-MOVE` already routes an obtained result to the downstream question that is current. `A.15.9` contributes only the cross-practice receiving-decision boundary, the existing-result stop, the bounded request after acquisition is selected, the supplier/receiver authority split, and local reopen.
 

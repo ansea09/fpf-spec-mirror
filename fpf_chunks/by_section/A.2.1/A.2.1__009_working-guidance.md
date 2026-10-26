@@ -6,12 +6,12 @@ section_id: "A.2.1:7"
 section_title: "Working Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__009_working-guidance.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:7 — Working Guidance"
-line_start: 5016
-line_end: 5027
+line_start: 5011
+line_end: 5022
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -49,6 +49,6 @@ keywords:
 5. Decide whether a receiver needs explicit occurrence identity. Stop at the readable assertion when it does not.
 6. Distinguish repeated episodes by uninterrupted predicate obtaining, not by storage identifiers.
 7. Keep classification, capability, state, Method, Work, responsibility, commitment, permission, authority, access, evidence, reliance, and publication under their direct patterns.
-8. Use context fields ending in `...SystemRoleAssignmentRef` only with `U.RelationRef constrained to U.SystemRoleAssignment` and an exact recovered occurrence.
+8. Use reference fields ending in `...SystemRoleAssignmentRef` only with `U.RelationRef constrained to U.SystemRoleAssignment` and an exact recovered occurrence.
 9. For source shorthand, recover each hidden value by kind and relation before relying on it.
 

@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__005_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:3 — Forces"
-line_start: 32140
-line_end: 32150
+line_start: 31702
+line_end: 31712
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -26,8 +26,8 @@ keywords:
 | --- | --- |
 | User-task value | A small configuration may solve the problem, while platform ambitions encourage premature breadth. |
 | Current material | Users need trustworthy status and editions, while publication and collection membership do not establish currentness by themselves. |
-| Tool assistance | Search, PLM, CI, prompts, and automation can reduce burden, while outputs and interfaces must not acquire authority. |
+| Tool assistance | Search, PLM, CI, prompts, and automation can reduce burden, while their presence alone establishes no authority. |
 | Organizational precision | Relations and constraints may need an A.22 structure, while a proposal must remain useful before selection facts exist. |
 | User and provider boundaries | Human and non-human user Systems and provider Systems can contribute differently, while vague “support” wording can merge performance, service, capability, permission, authority, and result. |
-| Testing | Actual user Work is needed to test the arrangement, while a successful bounded task proves neither general capability nor Method effectiveness. |
+| Testing | Observed user performance is needed to test the arrangement, while a successful bounded task proves neither general capability nor Method effectiveness. |
 

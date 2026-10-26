@@ -6,12 +6,12 @@ section_id: "A.1.STM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:4 — Solution"
-line_start: 4115
-line_end: 4200
+line_start: 4110
+line_end: 4195
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -74,7 +74,7 @@ Design reasoning also works with types, variants and repeated provision. A proje
 
 #### A.1.STM:4.3 - Derive the long mantra from the intended use
 
-The order below teaches the reasons for connecting the questions. An answer supplies requirements, possibilities or limits for other answers; it rarely determines them uniquely. Later construction or capability knowledge can reopen the proposed functioning or use. The project account is assembled by resolving these mutual constraints, not by completing each line once.
+The order below teaches the reasons for connecting the questions. An answer supplies requirements, possibilities or limits for other answers; it need not determine them uniquely. Later construction or capability knowledge can reopen the proposed functioning or use. The project account is assembled by resolving these mutual constraints, not by completing each line once.
 
 1. **From outside need to target functioning.** Describe the change or maintained condition required in the target's environment, then ask what the target must do under the intended conditions for that result to be possible. Work through a use scenario. A required effect becomes a functioning hypothesis to investigate; it does not establish an actual effect.
 2. **From functioning to functional role and construction.** Name the function-bearing role only after its contribution is understood. Compare constructions and materials that could realize it. This is why starting with a favourite component or organization can mislead: its properties matter through the functioning they permit. C.32.P2S and the C.30 family develop the outside-use-to-architecture choice; A.1.SCR tests an actual proposed whole when systemhood matters.
@@ -118,8 +118,8 @@ Use this narrower mode when the shared target and intended-use basis is already 
 1. **Choose by the result needed now.** Name the release, runtime use, or outside change and its connection to the common project target. If a local result is current, say what it is about and ask which supported fact or justified prospective dependency connects it next to production or change, release, runtime use, or that outside change. If another long mantra better answers the local question, use it while retaining the shared target basis.
 2. **Place supported answers and the current scope.** Put only answers supported by named facts, observations, decisions, or results in the matching regions. A systemic project account can use ordinary explanations and prospective hypotheses without an E.18.NET selection. When the current question needs that stronger network claim, name its admitted selection and use question; before admission, keep that network proposal provisional and name the missing member, relation occurrence, or endpoint binding. The network is not project Work. For one current case, state only four things in ordinary language: the exact subject or claim; the bounded references and direct claims needed to answer this closure question; the separately governed closure basis; and one named downstream receiving use that remains outside the closed case. Use A.15.6 to choose any technical reference form the case actually needs; do not copy those forms here. Keep plans, descriptions, Methods, Work, systems, changes, relations, evidence, and assurance distinct; do not turn this placement into a dossier or record schema.
 3. **Find the first unsupported dependency.** Read backward from the final result and choose the earliest missing, stale, disputed, or unsupported answer that blocks the next dependency. *First* means logical firstness, not calendar firstness.
-4. **Use one subject pattern.** Perform the working move described by the pattern whose `Use this when` accepts the missing question, and retain the resulting assertion or named stop. Do not copy its `Solution` into this pattern.
-5. **Return only what the next use needs.** Put the answer back in the map. Select an E.18.NET network only when its members, relations, constraints, use frame, and endpoint bindings are grounded. Usually return the individual answers. Select another A.22 structure only when one named later task must reuse their organization as one thing and all four identity discriminators pass. Otherwise keep the direct plurality or Plain provisional map.
+4. **Use one subject pattern.** Perform the working move described by the pattern whose `Use this when` accepts the missing question, and retain the resulting assertion or named stop.
+5. **Return only what the next use needs.** Put the answer back in the map. Select an E.18.NET network only when its members, relations, constraints, use frame, and endpoint bindings are grounded. Return the individual answers when they suffice. Select another A.22 structure only when one named use needs their organization and all four identity discriminators pass. Otherwise keep the direct plurality or Plain provisional map.
 6. **Trace forward and test.** Follow actual Work, production and identity facts, later changes, participation in use, and environment-side changes through their subject patterns. Repeat for each relevant builder branch. Bind evidence to the claim it supports; stop at the first unsupported direct link and reopen only the smallest affected earlier answer.
 
 Four orders remain separate throughout: the order used to teach the map; the logical dependency read backward; planned or actual Work order; and the subject relations that obtain. One ordering establishes none of the others.

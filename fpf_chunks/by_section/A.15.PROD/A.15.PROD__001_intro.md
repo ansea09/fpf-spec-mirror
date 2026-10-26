@@ -6,12 +6,12 @@ section_id: "A.15.PROD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:intro — Intro"
-line_start: 33023
-line_end: 33034
+line_start: 32579
+line_end: 32590
 dependencies:
   - "A.1"
   - "A.10"

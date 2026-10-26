@@ -6,12 +6,12 @@ section_id: "C.2.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:10 — Rationale"
-line_start: 53867
-line_end: 53869
+line_start: 53020
+line_end: 53022
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -34,5 +34,5 @@ keywords:
 ---
 
 ### C.2.5:10 - Rationale
-Closure is the route-governance basis slot that complements articulation within the declared language-state chart over `U.CharacteristicSpace`. `A.16.0` and its seam species need both.
+Closure describes how fixed the candidate space is; articulation describes how explicit its meaning is. `A.16.0` and its related patterns can use both when each affects the move condition.
 

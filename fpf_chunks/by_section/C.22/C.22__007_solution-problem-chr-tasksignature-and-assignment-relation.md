@@ -6,12 +6,12 @@ section_id: "C.22:5"
 section_title: "Solution — Problem CHR, TaskSignature, and assignment relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__007_solution-problem-chr-tasksignature-and-assignment-relation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:5 — Solution — Problem CHR, TaskSignature, and assignment relation"
-line_start: 62882
-line_end: 63060
+line_start: 61860
+line_end: 62038
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -39,13 +39,13 @@ Apply that formula as follows:
 1. Confirm that the problem-side representation is stable enough for selector-facing use; otherwise use `C.22.2`.
 2. Name the receiving eligibility, acceptance, or selection question and the `TaskKind`, optional task family, or work target that the signature will declare.
 3. Include only the problem traits whose values can change that receiving use. Leave a non-current optional extension absent.
-4. Type each live characteristic by scale, unit, polarity, reference plane, and admitted comparison relation before aggregation or comparison.
+4. Identify each live Characteristic and Scale, its Unit and polarity when applicable, and the admitted comparison relation. Declare ReferencePlane when interpretation or the receiving comparison contract requires it. Apply these conditions before aggregation or comparison.
 5. Preserve a live but unknown value as `unknown`; include or reference the exact scope, evidence relation, freshness or edition condition on which later use relies. When cross-semantic reuse is current, resolve the two local senses and test the F.9 Bridge separately; a shared label, scheme, or plane does not establish it.
 6. Close with one minimal `TaskSignature`. Pass later eligibility and acceptance claims to `C.23` and `G.4`, and actual method-family selection to `G.5`; do not put their outcomes back into the signature as if they were problem traits.
 
 #### C.22:5.0a - Positive closure, bounded non-use, and local return
 
-Close the C.22 use positively when the direct TaskSignature fields, Vocabulary, Laws, and Applicability are complete and the assignment obtains under C.22:5.2. Its assertion identifies the exact problem-side episteme, TaskSignature, receiving-use episteme, effective ReferenceScheme, ClaimScope, and current qualification conditions. Each live characteristic has its scale, unit, polarity, reference plane, admitted comparison relation, and value or explicit `unknown`; every relied-on evidence, freshness, or edition relation is named. When cross-semantic reuse is current, its exact local senses, obtaining F.9 Bridge, and separate bounded-use claim are recoverable. A downstream selector can now consume the assigned signature without guessing, but no eligibility verdict, acceptance result, method recommendation, selector outcome, WorkPlan, or dated Work is claimed.
+Close the C.22 use positively when the direct TaskSignature fields, Vocabulary, Laws, and Applicability are complete and the assignment obtains under C.22:5.2. Its assertion identifies the exact problem-side episteme, TaskSignature, receiving-use episteme, effective ReferenceScheme, ClaimScope, and current qualification conditions. Each live characteristic has its Scale, applicable Unit and polarity, required ReferencePlane, admitted comparison relation, and value or admitted `unknown`; every relied-on evidence, freshness or edition relation is named. When cross-semantic reuse is current, its exact local senses, obtaining F.9 Bridge, and separate bounded-use claim are recoverable. A downstream selector can now consume the assigned signature without guessing, but no eligibility verdict, acceptance result, method recommendation, selector outcome, WorkPlan, or dated Work is claimed.
 
 Close by bounded non-use when problem framing is not stable enough for a TaskSignature declaration, when no selector-facing receiving use is current, or when the current question has already become eligibility, acceptance, selection, planning, or performed work. A non-current optional extension remains absent. If several signatures or assignment relations remain plausible, preserve them as candidates under the governing problem or selection pattern rather than asserting one assignment.
 
@@ -64,7 +64,7 @@ Use the lightest signature declaration and assignment relation that the named re
 More fields, publication packaging, name cards, or telemetry do not make the problem better formulated, the TaskSignature more true, or a method more suitable. If no selector-facing receiving use needs a TaskSignature, close by bounded non-use rather than publishing a thin declaration for its own sake.
 
 #### C.22:5.1 - Minimal CHR fields (tri‑state aware).
-**Selector-side field boundary.** The fields below are live only after problem framing has been stabilized enough to ask eligibility, acceptance, selection, Method-family, or policy-constrained choice questions. They are not a universal problem-framing checklist and do not replace the `C.22.2` Thin `ProblemCard` pass for a messy signal. Each live characteristic field is **CHR-typed** by Characteristic, Scale, Unit, and Polarity under MM-CHR discipline. A live predicate may preserve `unknown` only when its exact value rule permits it; the cited downstream policy states what follows. This aligns G.4 and G.6 without making their results C.22 values.
+**Selector-side field boundary.** The fields below are live only after problem framing has been stabilized enough to ask eligibility, acceptance, selection, Method-family, or policy-constrained choice questions. They are not a universal problem-framing checklist and do not replace the `C.22.2` Thin `ProblemCard` pass for a messy signal. Each live characteristic field is **CHR-typed** by its Characteristic and Scale, with Unit and polarity where applicable under MM-CHR discipline. A live predicate may preserve `unknown` only when its exact value rule permits it; the cited downstream policy states what follows. This aligns G.4 and G.6 without making their results C.22 values.
 
 **Optional extension absence rule.** If QD, OEE, archive, generator, parity, specialization, or another optional relation is not live for the current case, the corresponding optional fields are absent, not `unknown`. Use `unknown` only for a live field whose value is currently unknown. An absent non-live extension triggers no downstream disposition.
 
@@ -72,8 +72,8 @@ More fields, publication packaging, name cards, or telemetry do not make the pro
 * **`NoiseModel`** — uncertainty class and robustness envelope (e.g., iid Gaussian; heavy‑tailed; adversarial budget).
 * **`ObjectiveProfile`** — objective heads (**Scale, Unit, Polarity** and **ReferencePlane** declared), **admissible order relations** (lexicographic, Pareto), and medoid or median operations where admissible. **Weighted sums across mixed scale types are inadmissible**; ordinal heads use order-only guards. For QD tasks, explicitly enumerate quality heads, diversity or descriptor-space heads, and any policy-authorized QD contribution heads; see **DominanceRegime** below. Do not introduce a default QD score. If a scalar or set-scalarization policy is live, cite the governing CAL policy and keep the uses of dominance and telemetry explicit.
 * `RegularityTraits` — method-relevant structure (**convexity, differentiability, separability, monotonicity**) as CHR-typed predicates with guard macros (for example, `ORD_COMPARE_ONLY`, `UNIT_CHECK`, `POLARITY_CHECK`). Include `ConditionClass` such as stiffness or kappa proxies where applicable.
-* **`Constraints`** — explicit hard and soft constraint classes (feasibility predicates; **ResourceEnvelope** and **RiskEnvelope**). **Acceptance-gate thresholds live in `G.4` only; never inside CHR or code paths.**
-* `ShiftClass` and stationarity — CHR‑typed claims about regime stability (iid | covariate‑shift | concept‑drift | adversarial). Default=`unknown`. The cited acceptance or selector policy governs the consequence of that unknown for its receiving use.
+* **`Constraints`** — explicit hard and soft constraint classes (feasibility predicates; **ResourceEnvelope** and **RiskEnvelope**). **Declare acceptance-gate thresholds in G.4 AcceptanceClauses.** A signature or implementation may reference those clauses for its use; it does not redefine them as Characteristic properties or hidden constants.
+* `ShiftClass` and stationarity — CHR‑typed claims about regime stability (iid | covariate‑shift | concept‑drift | adversarial). When this field is live but unrecovered, its value is `unknown`. The cited acceptance or selector policy governs the consequence; omit the field when the receiving use does not need it.
 * **Evidence and assurance (conditional).** Include an exact **A.10** evidence-use or provenance relation only when the receiving use relies on it. State source edition, currentness, or freshness only to the degree that reliance requires. Open **B.3** only for a named assurance claim about an exact target claim and receiving use, including when a material-reliance rule requires it, and use only the assurance lanes and fold that its declared policy requires. A TaskSignature by itself requires neither all TA/VA/LA lanes nor a Gamma-fold.
 * `ScopeSlice(G)` — the A.2.6 **`U.ClaimScope` value** that bounds this declaration's claims about **`EntityOfConcernRef`** (discipline governance in **CG‑Spec**; Domain is a catalog mark only).
 * `SizeAndConditionProfile` — size and condition proxies (**n, m, kappa, sparsity**) with **declared units**; a unit mismatch makes the current comparison unsupported until the direct acceptance or selector policy supplies its governed result.
@@ -96,7 +96,7 @@ Select these fields from the actual receiving use. A QD search constructs and ma
 * **`TelemetryHooks`** — `PathSliceId` only when an E.18 path-slice reference is current, plus **decay and refresh policy ids**, **edition counters**, descriptor-map updates, and **policy-id** updates upon illumination gains.
 * **`GeneratorIntent`** (OEE) — optional intent to use a registered **`GeneratorFamily`** (G.5), with pointers to **`EnvironmentValidityRegion`**, **`TransferRulesRef`**, and **coverage and regret** reporting expectations.
 
-**Admissibility.** Before any numeric comparison or aggregation, establish CSLC admissibility for Scale, Unit, and Polarity and cite **CG-Spec.Characteristics**; record **ReferencePlane**. Preserve `unknown` for the downstream policy; do not coerce it to `0` or `false`, and do not invent a C.22-local disposition.
+**Admissibility.** Before any numeric comparison or aggregation, establish CSLC admissibility for Scale and the applicable Unit and polarity, and cite **CG-Spec.Characteristics**. Record **ReferencePlane** when its interpretation or the receiving contract requires it. Preserve `unknown` for the downstream policy; do not coerce it to `0` or `false`, and do not invent a C.22-local disposition.
 
 #### C.22:5.2 - `TaskSignature` declaration and assignment
 
@@ -116,7 +116,7 @@ ResultKind = absent; selector outcomes are not TaskSignature values
 Vocabulary:
   TaskFamilyRef?
   KindSet
-  characteristic bindings with Scale, Unit, Polarity, ReferencePlane, admitted comparison relation, and value or admitted unknown
+  characteristic bindings with Scale, applicable Unit and Polarity, required ReferencePlane, admitted comparison relation, and value or admitted unknown
   constraint relation references
   evidence-use relation references only when the receiving use relies on them
   optional QD, OEE, archive, generator, parity, budget, telemetry, and specialization vocabulary only when current
@@ -165,7 +165,7 @@ Values are CHR-typed and tied to the exact measurement, evidence-use, source-use
 
 ##### C.22:5.2a - Lowering and withdrawal conditions
 
-Withdraw the assignment for the current receiving use when its problem-side episteme, TaskSignature, receiving-use episteme, scheme, scope, or qualification conditions cannot be recovered. The TaskSignature may remain a valid declaration for another assignment. Use C.22.2 only when the problem-side representation itself is no longer stable enough.
+Stop relying on the assignment for the current use when its problem-side episteme, TaskSignature, receiving-use episteme, scheme, scope or qualification conditions cannot be recovered. Actual withdrawal of adoption or failure of an obtaining condition ends the occurrence under §5.2; missing access to its account does not by itself rewrite the assignment history. The TaskSignature may remain valid for another assignment. Use C.22.2 only when the problem-side representation itself is no longer stable enough.
 
 Identify the resulting episteme and apply C.22:5.2's signature-membership and edition-continuity checks when a direct declaration field, Vocabulary, Law, Applicability claim, `EntityOfConcernRef`, or effective `U.ReferenceScheme` changes. Lower or remove one vocabulary position when its filler kind, scale, unit, polarity, reference plane, direct basis relation, or subject pattern cannot support the claimed use. Preserve `unknown` only when the position remains live and admitted. Split any selected method, selector outcome, acceptance result, plan, or Work occurrence into its subject pattern.
 

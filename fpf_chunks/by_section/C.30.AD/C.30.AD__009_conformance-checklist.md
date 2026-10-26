@@ -6,12 +6,12 @@ section_id: "C.30.AD:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:6 — Conformance checklist"
-line_start: 72449
-line_end: 72462
+line_start: 71419
+line_end: 71432
 dependencies:
   - "A.1"
   - "A.10"
@@ -85,6 +85,6 @@ keywords:
 | **CC-C30AD-4 Correspondence and source use.** | Cross-view use names a correspondence claim or independently obtaining relation; source-derived or reused use names its source-to-use path; a source-return condition is present only when stronger use opens return to the named source or exact defining or constraining ClaimGraph. | Add the missing claim or direct relation, or narrow the admissible use. |
 | **CC-C30AD-5 Representation and publication boundary.** | A diagram, rendering, publication occurrence or form, dashboard, card, file, or carrier is not treated as architecture, selected structure, `U.View`, truth, decision, evidence, assurance, gate passage, Work, authorization, or release. | Use `C.2.P`, `E.17`, `E.24.PUB`, or the pattern for the actual representation, publication, source-use, or other non-description claim. |
 | **CC-C30AD-6 Specification-use boundary.** | Specification use names the description episteme or publication. Project locality additionally names one composite `U.Work` and a project-use relation that actually holds; separate non-description claims cite their applicable patterns. | Add the description, Work, and use relation as needed, or keep the use non-project-specific. |
-| **CC-C30AD-7 Remaining architecture candidate use.** | Under the declared use boundary, the description still identifies the next architecture move, view repair, source repair, return condition, or pattern needed for a separate claim. | Add that remaining use or reduce the account to source, representation, or publication use. |
+| **CC-C30AD-7 Remaining architecture candidate use.** | Under the declared use boundary, the description answers the question or identifies a remaining architecture move, view repair, source repair, return condition, or pattern needed for a separate claim. | If the question remains unanswered, recover the missing contribution or narrow the use. An adequate answer needs no invented next move. |
 | **CC-C30AD-8 Coarse-graining boundary.** | A coarsening claim names the described subject, finer and coarser description structures, their mapping or correspondence, distinctions preserved and lost, and allowed use. It asserts no matching subject levels, parts, or relations without a separate subject-side basis. | Add the missing description facts, narrow the use, or establish the needed subject relation through its own pattern. |
 

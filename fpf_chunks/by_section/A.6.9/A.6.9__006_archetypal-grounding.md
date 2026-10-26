@@ -6,15 +6,16 @@ section_id: "A.6.9:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:5 — Archetypal Grounding"
-line_start: 24975
-line_end: 25017
+line_start: 24532
+line_end: 24574
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.6"
   - "A.2.1"
@@ -73,7 +74,7 @@ Now state the use separately. Dashboard team proposes `u-actor-label`: render IA
 
 Reliance on that claim remains conditional on the exact A.10 evidence-provenance relation and `RelianceDisposition=pass` for the named dashboard comparison. A hypothetical passing result would be an additional example premise, not a result recovered from the endpoint sketches. It would not authorize data processing, create a system-role assignment, or prove that a dashboard publication occurred. Reverse label reuse is another bounded-use claim even though the Bridge relation is symmetric.
 
-An optional actual card may package the Bridge claim, this bounded-use claim, observed counterexamples, the A.10 path and disposition, currentness, and nearest non-use. Its EntityOfConcern is `b-iam-crm`; the card neither creates the relation nor performs the dashboard work.
+An optional actual card may package the Bridge claim, this bounded-use claim, observed counterexamples, the A.10 path and disposition, currentness and any independently grounded use restriction that passes the F.19:4 test. Its EntityOfConcern is `b-iam-crm`; the card neither creates the relation nor performs the dashboard work.
 
 If a later workflow isolates `HumanVerifiedUser` and `VerifiedCustomer`, refine both cells and test another Bridge. A stronger use claim over the broad cells cannot repair a false or unsuitable predicate.
 
@@ -89,9 +90,9 @@ When their basis is supplied, both claims concern the same obtaining Bridge; nei
 
 #### A.6.9:5.3 - Published NAICS language and a `Conformist` cue
 
-Start with separate objects. C.2.1 identifies exact model episteme edition `NAICS-2022-ClassificationEpisteme` by its exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme; A.1 independently identifies exact `IndustryClassificationApplication-7 : U.System`. If availability matters, E.24.PUB separately tests `EpistemePublicationRelation(NAICS-2022-ClassificationEpisteme, ClassificationAudienceDeclaration-2, ClassificationUseDeclaration-5, NAICS-2022-TableForm, NAICS-2022-PDFCarrier)` together with its exact form-expression and form-bearing occurrences. The episteme, publication occurrence, form, carrier, declarations, and application system keep different identities. Publication establishes availability to the exact audience and use declarations. Access, adoption, applicability, actual use, performed Work, and any application-side parthood remain claims under their own predicates and facts.
+Consider a hypothetical application with the following independently identified objects. C.2.1 identifies exact model episteme edition `NAICS-2022-ClassificationEpisteme` by its exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme; A.1 independently identifies exact `IndustryClassificationApplication-7 : U.System`. If availability matters, E.24.PUB separately tests `EpistemePublicationRelation(NAICS-2022-ClassificationEpisteme, ClassificationAudienceDeclaration-2, ClassificationUseDeclaration-5, NAICS-2022-TableForm, NAICS-2022-PDFCarrier)` together with its exact form-expression and form-bearing occurrences. The episteme, publication occurrence, form, carrier, declarations, and application system keep different identities. Publication establishes availability to the exact audience and use declarations. Access, adoption, applicability, actual use, performed Work, and any application-side parthood remain claims under their own predicates and facts.
 
-Recover the use branch before selecting structure. Require `HolderSystem(ClassificationAssignment-3)=IndustryClassificationApplication-7`, exact F.6 `performedUnderAssignment(ClassificationWork-4, ClassificationAssignment-3)`, and the application's actual use of the selected NAICS content during that Work concerning exact `ClassifiedOrganization-42`; only then may `ModelUseRelation(ClassificationAssignment-3, NAICS-2022-ClassificationEpisteme, ClassificationWork-4, ClassifiedOrganization-42)` obtain. A positive `NAICSClassificationModelUseStructure` additionally requires exact `ModelApplicabilityRelation(NAICS-2022-ClassificationEpisteme, ClassifiedOrganization-42, ClassificationClaimScope)`, fixed-content coherence with the exact classification-expression episteme under a declared predicate and ReferenceScheme, exact applied constraint claims naming the edition and classification distinctions to preserve, and `NAICSClassificationFrame`: “Which NAICS edition and distinctions govern the classification of `ClassifiedOrganization-42` as a complete organization?” Model use comes from the actual-use facts above; any application-system parthood claim requires its own predicate and facts. Without the complete A.1.1/A.22 basis, stop at publication availability or the exact direct relation that does obtain.
+Recover the use branch before selecting structure. Establish the A.13 basis and independent A.15.1 admission of ClassificationWork-4. This model-use claim additionally consumes assignment-bound attribution: require `HolderSystem(ClassificationAssignment-3)=IndustryClassificationApplication-7`, exact F.6 `performedUnderAssignment(ClassificationWork-4, ClassificationAssignment-3)`, and the application's actual use of the selected NAICS content during that Work concerning exact `ClassifiedOrganization-42`; only then may `ModelUseRelation(ClassificationAssignment-3, NAICS-2022-ClassificationEpisteme, ClassificationWork-4, ClassifiedOrganization-42)` obtain. A positive `NAICSClassificationModelUseStructure` additionally requires exact `ModelApplicabilityRelation(NAICS-2022-ClassificationEpisteme, ClassifiedOrganization-42, ClassificationClaimScope)`, fixed-content coherence with the exact classification-expression episteme under a declared predicate and ReferenceScheme, exact applied constraint claims naming the edition and classification distinctions to preserve, and `NAICSClassificationFrame`: “Which NAICS edition and distinctions govern the classification of `ClassifiedOrganization-42` as a complete organization?” Model use comes from the actual-use facts above; any application-system parthood claim requires its own predicate and facts. Without the complete A.1.1/A.22 basis, stop at publication availability or the exact direct relation that does obtain.
 
 Treat DDD *Conformist* only as a Plain cue to a proposed directed subject dependency. Preserve the exact proposed source, target, direction, adoption condition, dependency predicate, update authority, required preserved meaning, permitted loss, claim scope, and standard-edition basis. A positive occurrence would additionally require exact participant meanings and fillers, its direct relation kind and predicate, obtaining and applicability conditions, occurrence identity and recurrence, all supplied by one compatible direct subject governor. The label, published-language status, table edge, and selected structure may cue or represent the proposal; only a compatible direct subject governor supplies its predicate and occurrence rules. When no such governor is current, return `missing CROSS-LOCALITY-BRIDGE governor`.
 

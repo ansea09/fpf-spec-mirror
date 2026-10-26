@@ -6,12 +6,12 @@ section_id: "A.16.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:intro — Intro"
-line_start: 34374
-line_end: 34381
+line_start: 33825
+line_end: 33836
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -40,4 +40,8 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Admissible reopen / backoff / respecification.
+
+**Use this when.** A published framing, route or use claim exceeds its grounds, or a branch should cease to be used. Choose the move in §4.1, retain the supported content and revise only the dependent claims affected by the change.
+
+**First useful result.** Make the source, reason, surviving content and changed use recoverable in the existing publication or an accompanying note. Apply A.16:4.3 to any episteme-identity change. Use A.16.0 only when the receiving question needs a separate account of the history.
 

@@ -6,12 +6,12 @@ section_id: "C.16.IR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:6 — Bias-Annotation"
-line_start: 59179
-line_end: 59184
+line_start: 58272
+line_end: 58277
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"
@@ -25,7 +25,7 @@ keywords:
 
 ### C.16.IR:6 - Bias-Annotation
 
-Under the five Principle-Taxonomy lenses of E.3 (Gov, Arch, Epist, Prag and Did), this pattern is scoped to interpreting indications through available relations. The cases use supplied, simple relations. Real inverse problems may be high-dimensional, unstable or sensitive to uncertain model structure. Establishing complete bounds can then require considerably more work than exhibiting one ambiguity.
+The cases use supplied, simple relations. Real inverse problems may be high-dimensional, unstable or sensitive to uncertain model structure. Establishing complete bounds can then require considerably more work than exhibiting one ambiguity.
 
 The set-based branch treats uncertainty as admitted possibilities. Statistical inference and decisions under risk can distinguish those possibilities by likelihood, loss or preference when their own assumptions are supplied. Use the result form appropriate to the question; a demand for uniqueness can make an already useful measurement appear inadequate.
 

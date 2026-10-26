@@ -6,12 +6,12 @@ section_id: "A.16:6"
 section_title: "Bias and common mistakes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__007_bias-and-common-mistakes.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:6 — Bias and common mistakes"
-line_start: 33708
-line_end: 33723
+line_start: 33241
+line_end: 33256
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -57,7 +57,7 @@ keywords:
 
 ### A.16:6 - Bias and common mistakes
 
-A.16 biases authors toward typed movement and away from “it naturally matured.” The bias must not become bookkeeping for its own sake: one local note is the default.
+A.16 biases authors toward typed movement and away from “it naturally matured.” Make the move recoverable in sufficient existing content; add a note only for information the receiving use would otherwise lose.
 
 - **Trajectory-wrapper inflation.** Do not wrap every move in A.16.0.
 - **Pattern-as-form or form-face collapse.** A pattern, publication form, episteme, occurrence, carrier, and MVPK face remain different.

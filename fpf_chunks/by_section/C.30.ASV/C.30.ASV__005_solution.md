@@ -6,12 +6,12 @@ section_id: "C.30.ASV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:4 — Solution"
-line_start: 73372
-line_end: 74045
+line_start: 72322
+line_end: 72995
 dependencies:
   - "A.1"
   - "A.10"
@@ -71,7 +71,7 @@ A conforming `ArchitectureStructuralView` is not a second individual beside its 
 
 C.30.ASV is the selected-structure structural-view adequacy pattern for architecture work. It explains how descriptions of different selected structure kinds may satisfy declared viewpoints and concerns. It is not a complete architecture-description pattern; `C.30.AD` composes separately identified descriptions, view-use claims, and correspondence only when that broader description use is being made.
 
-C.30.ASV does not extend any TEVB family by implication. It defines architecture structure kinds and architecture-specific bindings to exact viewpoint epistemes. A project reuses a TEVB or architecture viewpoint only through an exact `U.ViewpointRef` resolved from a materialized local declaration in one exact E.17.1 catalogue; E.17.2 and C.30.ASV otherwise provide templates, not current family values. Source-to-use, work-reliance, project-use, representation, and publication relations remain separate from viewpoint conformance.
+C.30.ASV does not extend any TEVB family by implication. It defines architecture structure kinds and architecture-specific bindings to exact viewpoint epistemes. A one-off architecture viewpoint can be identified and used directly under E.17.0 without a family catalogue. Reuse of a declared TEVB or architecture viewpoint family resolves its exact `U.ViewpointRef` members through the materialized declaration in an exact E.17.1 catalogue. E.17.2 and C.30.ASV otherwise provide templates, not family values. Source-to-use, work-reliance, project-use, representation, and publication relations remain separate from viewpoint conformance.
 
 #### C.30.ASV:4.1 - Architecture structural view record
 
@@ -131,7 +131,7 @@ ArchitectureStructuralView ::= ArchitectureDescription & U.View & {
 
 The selected `U.Structure` is the one EntityOfConcern. Before that field can be filled, A.22 identifies the structure from exact constituents, selected independently obtaining relation occurrences, applied constraint claims, and one exact receiving-use frame. A description, query, diagram, family declaration, file, representation, or publication creates none of those discriminators. `relatedStructureRefs` may name structures needed to interpret correspondence, allocation, or crossing, but they do not create a union-valued EntityOfConcern. When another selected structure becomes primary, identify another description episteme under C.2.1. Assert edition continuity only when its historical-continuation predicate obtains, and apply A.6.4 separately when retargeting is claimed; do not overwrite identity through a view field.
 
-The direct conformance occurrence has exactly two participants: `viewEpistemeRef` as candidate E and `viewpointRef` as exact P. Its fixed E.17.0 predicate requires: (1) independently identified E and admitted P; (2) exact `EntityOfConcern(E)` recovered; (3) P's fixed EntityOfConcern-kind criterion succeeds for that exact object; (4) E has an independently admitted episteme kind accepted by P without circular `U.View` use; and (5) E's fixed claim content under its effective scheme satisfies P's concern-coverage, semantic-form, completeness, and admitted-omission rules. The occurrence is participant-determined by `<E,P>`.
+The direct conformance occurrence has exactly two participants: `viewEpistemeRef` as candidate E and `viewpointRef` as exact P. Its fixed E.17.0 predicate requires: (1) independently identified E and admitted P; (2) exact `EntityOfConcern(E)` recovered; (3) P's fixed EntityOfConcern-kind criterion succeeds for that exact object; (4) E has an independently admitted episteme kind accepted by P without circular `U.View` use; and (5) E's fixed claim content under its effective scheme satisfies P's concern-coverage, semantic-form, consistency, completeness, and admitted-omission rules. The occurrence is participant-determined by `<E,P>`.
 
 An architecture claim can carry positive, negative, unresolved, required, desired, expected, or candidate content. `architectureRelationOccurrenceRefs` is affirmative only for independently obtaining direct `ArchitectureRelation` occurrences. `describedHolonRef` and participant traces keep the subject recoverable; neither an optional claim nor a diagram derives the subject-side occurrence.
 
@@ -186,7 +186,7 @@ Each structure kind needs a short definition, allowed relation families, locally
 
 #### C.30.ASV:4.3 - Small triage output
 
-When triage must be retained, compared, or handed on, use `ArchitectureStructureKindTriage@Project` before a full view record when the practitioner only needs to identify the structure kind under consideration and next architecture move.
+Retain an adequate triage sentence for comparison or handoff. `ArchitectureStructureKindTriage@Project` can organize the result when the practitioner needs its fields; it is not a required step before a full view record.
 
 ```text
 ArchitectureStructureKindTriage@Project ::= {
@@ -258,15 +258,15 @@ If the candidate cannot name an exact selected structure or structure kind, keep
 
 #### C.30.ASV:4.4 - Project-local architecture viewpoint-family template and binding rows
 
-C.30.ASV ships no exact architecture viewpoint catalogue, family value, reference, or viewpoint episteme edition. `VF.ARCH.STRUCTURE`, `VF.TEVB.ENG`, and `VP.Architecture*` are therefore not current global values. A project may use similarly spelled ordinary designators only after it constitutes exact catalogue episteme L and binds exact local references.
+C.30.ASV ships no exact architecture viewpoint catalogue, family value, reference, or viewpoint episteme edition. `VF.ARCH.STRUCTURE`, `VF.TEVB.ENG`, and `VP.Architecture*` are therefore not current global values. To claim reuse of such a family, identify the exact catalogue episteme L and its reference bindings. A local viewpoint itself can be admitted and used independently under E.17.0.
 
-Architecture structural views can reuse a materialized local family without turning structure kinds into viewpoints. The project first:
+When a recurring viewpoint family is needed, reuse its admitted catalogue and declaration while their edition, scheme, bindings and relied-on premises remain unchanged; resolve only the members needed for this use. For a new family, or when its constitution or binding is missing or disputed, perform these steps:
 
-1. constitutes exact L through obtaining `EpistemeConstitutionRelation(G_L, K_L, R_L)`;
-2. places one local declaration claim block inside exact `G_L`, retrieved by ordinary `familyDesignator = f_arch` under `R_L`;
-3. states the exact target-kind compatibility condition and a finite non-empty set of exact `U.ViewpointRef` members;
-4. resolves every retained reference under `R_L` to one exact P already admitted under E.17.0; and
-5. preserves exact catalogue and member provenance for any imported project-local TEVB reference rather than importing a family label.
+1. constitute or verify exact L through obtaining `EpistemeConstitutionRelation(G_L, K_L, R_L)`;
+2. identify or declare the local claim block inside exact `G_L`, retrieved by ordinary `familyDesignator = f_arch` under `R_L`;
+3. state or verify the exact target-kind compatibility condition and a finite non-empty set of exact `U.ViewpointRef` members;
+4. resolve every retained reference under `R_L` to one exact P already admitted under E.17.0; and
+5. preserve exact catalogue and member provenance for any imported project-local TEVB reference rather than importing a family label.
 
 Until those bindings exist, use this only as an authoring template:
 
@@ -327,7 +327,7 @@ This is the C.30.ASV structural-view publication-use boundary. C.30.ASV covers t
 
 The initial set is a seed for first architecture moves, not an atlas. Use the table to choose one structure kind under consideration and the applicable pattern for any non-ASV claim.
 
-| Seed structure kind | Structural view | Minimum record fields beyond common ASV fields | First boundary |
+| Seed structure kind | Structural view | Structure-specific content to recover as needed | First boundary |
 | --- | --- | --- | --- |
 | `FunctionalStructure` | `FunctionalStructureView` | `functionalBehaviorClaimRefs`, `requiredOrDesiredEffectClaimRefs?`, `actualTransformationRefs?`, `selectedTransformationFlowStructureRefs?`, `functionalElementClaimRefs?`, `transformerSideFillerRefs?`, `candidateBearerRefs?`, input-condition refs, output-condition refs, functional-port refs, capability refs, dependency refs, allocation refs, correspondence refs | Required or desired content stays a claim; use `A.3.4` only for independently actual transformations, and use capability, work, module-allocation, or requirement patterns when those claims are being made. |
 | `TransformationFlowStructure` | `TransformationFlowStructureView` | `transformationFlowStructureRef`, `pathSliceRefs`, `crossingRefs`, `valuationRefs`, `mathematicalDescriptionRefs?` | Use `E.18` and `C.30.TFS-REL` for selected transformation-flow structure, transformation-flow path, or crossing input; use `E.18.2` and `C.29` for mathematical graph descriptions; use `C.28` for causal claims. |
@@ -521,7 +521,7 @@ Compositional formalisms may express explicit composition structures, view relat
 
 #### C.30.ASV:4.7 - Correspondence and source return
 
-Use correspondence records when the view relates functional, flow, control, module-interface, information, runtime, placement, work, evidence, scale, or logical structures. Do not assert cross-view consistency by prose alone.
+When a view relates structures, state the correspondence and its basis. An ordinary sentence can carry a warranted correspondence claim; use a record when it helps retain or compare that content. Shared packaging or graph adjacency alone supplies no correspondence.
 
 Correspondence examples:
 
@@ -537,7 +537,7 @@ Use `SourceReturnCondition` when compression, extraction, coarsening, evidence r
 
 If `viewConstruction` is `query`, `extraction`, `coarsening`, `correspondenceSlice`, or `sourceReturnSlice`, and omitted structure changes action, assurance, causal use, law-domain or regulatory review, or subsequent decision reopening, `SourceReturnCondition` is needed.
 
-When the view is used to name affected structures for a next architecture use but no decision record is being used, use C.30 `AffectedArchitectureStructureNote`: affected structure kinds, affected structure refs when known, affected ASV refs, accepted or suspected view loss, source-return condition, and the next admissible use. The note is not an architecture decision, ADR, gate passage, evidence sufficiency, or release authority.
+When the view names affected structures for an architecture use, recover their kinds and references, any relevant ASV references or view loss, and the allowed use or needed source return. C.30 `AffectedArchitectureStructureNote` can organize this content; an adequate ordinary account is sufficient. The note is not an architecture decision, ADR, gate passage, evidence sufficiency, or release authority.
 
 Use the thinnest source or reliance relation that preserves the next architecture move. Use fuller source, evidence, assurance, or claim-kind relation only when the source or reliance relation being used cannot be inspected, used, compared, refreshed, or bounded without it. A `ControlStructureViewNote` may precede full `C.30.LCA` use or use of the applicable proof or assurance pattern when one control relation and its boundary are enough for the architecture move being made.
 
@@ -633,7 +633,7 @@ stop condition:
   evidence, or gate proof by appearance
 ```
 
-**Organization or operating-model architecture.** An org chart or Work-Method diagram can be architecture-relevant only after Systems, local system-role kinds, separate System-classification judgments, assignments, enactor relations, complete actual-Work bases, direct responsibility relations, concern or affected-party relations, information, and evidence are separated:
+**Organization or operating-model architecture.** An org chart or Work-Method diagram may carry several architecture-relevant claims. Recover the ones needed by the decision, distinguishing Systems, system-role classifications and assignments, enactor and responsibility relations, any claimed actual Work, information and evidence. The following slice illustrates their combination; it is not a requirement to establish every claim for a question about one relation:
 
 ```text
 Organization and operating-model architecture first recovery:
@@ -735,5 +735,5 @@ Structural AI-agent security is architecture structure when these structure kind
 
 **Generated code-agent relation graph.** A probe JSON or code-agent architecture relation graph can be an architecture structural view publication only after observed, inferred, or unknown observation value, evidence pointers or source pointers, unexplored regions, and typed relation semantics are present. Add source-return conditions when the intended use relies on hidden distinctions. Use the applicable proof and assurance patterns for the separate belief-state and downstream-change-safety claims.
 
-**Neural-network block replacement.** Replacing attention, FFN, convolution, SSM, recurrent, memory block or cache block, MoE expert-selection, pruning, distillation, or another block is an architecture move only when the changed structure kind, flow relation, module-interface claim kind, preserved and lost structure, affected characteristic, source relation, and applicable decision or evidence pattern are named.
+**Neural-network block replacement.** For a neural-network modification, such as substituting an attention block or changing MoE path selection, recover which selected structure or relation changes and use `C.30` for its architecture relevance. Identify flow, module-interface, preserved or lost structure, characteristic and source-use claims when they matter to that change. Establish any separate decision or evidence conclusion under its own rule; a modification need not assert every one of these claims.
 

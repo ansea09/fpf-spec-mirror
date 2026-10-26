@@ -6,12 +6,12 @@ section_id: "A.6.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:2 — Problem"
-line_start: 17325
-line_end: 17342
+line_start: 17006
+line_end: 17023
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -42,7 +42,7 @@ Concretely, without EFEM:
    Some arrow families have endpoint epistemes about the same exact EntityOfConcern; others have endpoints about independently different entities. Without a common `EntityOfConcernChangeMode` classification, a relation that looks like a harmless representation change can hide a different receiving EntityOfConcern.
 
 3. **No functorial backbone.**
-   MVPK, KD‑CAL, and E.18 all rely on episteme arrows that compose and respect identities, but the conditions for identity, composition, purity, conservativity, formal domain, and any arrow-family repeat law are not formulated once and reused. Different parts of the spec repeat subtly different sets of laws.
+   To compose arrows from MVPK, KD-CAL or E.18, the receiving use needs compatible identity, composition, purity, conservativity and formal-domain conditions. Any repeat law must also be stated for the particular arrow family.
 
 4. **Slot/Ref confusion.**
    C.2.1 identifies an episteme through exact claim content, one exact EntityOfConcern, and one effective ReferenceScheme. A.6.5 SlotSpecs apply only inside an exact reusable relation declaration. Laws for projection or retargeting that rely on unnamed fields or tuple positions therefore hide which parts of the source and receiving epistemes are being compared and which separately obtaining facts the rule reads.

@@ -6,12 +6,12 @@ section_id: "C.3.3:11"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__012_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:11 — Conformance Checklist"
-line_start: 55669
-line_end: 55687
+line_start: 54804
+line_end: 54820
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -39,6 +39,4 @@ keywords:
 | **KB-10** | A comparable-link minimum remains a link summary; a claim about composed correspondence establishes joint definedness and preservation of the distinctions required by the receiving use, keeping occurrences and assertions distinct. |
 | **KB-11** | Loss notes state non-preserved criteria or subkind facts and do not change either kind. |
 | **KB-12** | Definedness is explicit; outside it the guard declines that bridge use while independent receiving classification keeps its own result. |
-
-**Integration requirements with Part B.** Part B distinguishes the C.3.3 kind-correspondence channel from scope and F.9 sense channels, routes justified `CL^k` consequences to R, and uses KB-10 for composition: comparable-link summaries remain separate from established preservation through the chain. Templates designate exact relied-on relations and assertions; their fields create none of them.
 

@@ -6,12 +6,12 @@ section_id: "C.11.MV:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:0 — Use This When"
-line_start: 57978
-line_end: 58001
+line_start: 57076
+line_end: 57099
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -26,7 +26,7 @@ keywords:
 
 Use this pattern when a practitioner must decide what to do with an admitted Method or status-preserved candidate relative to current alternatives. Use the available basis at its supported strength: observations, credible estimates, domain judgement or a structural constraint can support a present choice. Begin with the decision and alternative set: keep the present Method, revise it, replace it, branch by situation, or stop the Method change or use.
 
-The first useful result is a practical-worth comparison row. It names the Method or candidate status, decision situation and receiver, one current alternative, the available evidence and its limits, domain results, burdens, capability and System demands, direct relations, side effects, opportunity cost, reversibility, evidence strength, unresolved trade-off, and the action the row can support. Include the status quo, stopping, or the next best use of scarce Work when it can change the decision.
+The first useful result is a practical-worth comparison for the named Method or candidate, decision situation and receiver. It makes the alternatives, material consequences and burdens, their support and limits, and the available action recoverable. Include the status quo, stopping or the next best use of scarce Work when it can change the decision. An existing domain comparison that already supplies this basis can be used directly.
 
 Here *practical worth* is Plain practice wording for the situated judgment that a Method-related course is worth keeping, changing, replacing, branching, or stopping relative to named alternatives. It is not a universal score, Method admission, fit result, causal attribution, or organization-wide adoption decision.
 

@@ -6,12 +6,12 @@ section_id: "C.30.P:5"
 section_title: "Subject pattern assignments"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__007_subject-pattern-assignments.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:5 — Subject pattern assignments"
-line_start: 72927
-line_end: 72959
+line_start: 71886
+line_end: 71918
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,8 +63,8 @@ keywords:
 | Recovered use, claim kind, or admissible-use boundary | Subject pattern |
 | --- | --- |
 | selected structure, structural description, structure source-return | `A.22` |
-| `ArchitectureOf@Context`, selected architecture-relevant structure, thin conditional `ArchitectureDescription@Context` bridge use, architecture question card | `C.30` |
-| full `ArchitectureDescription@Context` mechanism, architecture-description multi-view set, architecture-description specification-use boundary | `C.30.AD` |
+| `ArchitectureRelation`, bounded `ArchitectureClaim`, initial architecture-description question, architecture question card | `C.30` |
+| architecture-description identity or use, multi-view correspondence, architecture-description specification-use boundary | `C.30.AD` |
 | architecture structural view, structure-kind view, hidden or lost structure | `C.30.ASV` |
 | transformation-flow graph expression, flow relation, architecture-to-transformation-flow relation | `E.18.2` for a mathematical flow-graph expression; `E.18` for selected transformation-flow structure; `C.30.TFS-REL` for its bounded architecture-use record; otherwise the subject pattern for the claim being made |
 | architecture-synthesis wording | Recover the concrete claim kind, then use the architecture-synthesis routing note below. |
@@ -75,7 +75,7 @@ keywords:
 | function, functional, functionality, effect, module, interface, or signature claim | `A.6.F`, `A.6.M`, A.6 signature and slot pattern, or the retained module, interface, or signature specialization selected by the claim |
 | stratification or source labels such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` | `C.30.STRAT` while the label's technical meaning remains unclear; after recovery, use `A.22`, `C.30`, `C.30.ASV`, `C.30.LCA`, `C.30.TFS-REL`, `A.6.M`, `A.6.F`, `E.18`, `C.16.P`, `C.29`, or the pattern governing the recovered claim |
 | mathematical lens, mapping, model, similarity, preserved-structure and lost-structure as mathematical-lens use | `C.29` |
-| characteristic, scale, metric, score, indicator, threshold, architecture score, quality coordinate | `C.16.P`, then `C.16`, `A.19`, `C.25`, `E.21`, or the pattern governing the claim |
+| characteristic, scale, metric, score, indicator, threshold, architecture score, quality coordinate | `C.16.P` while the meaning remains unclear; otherwise `C.16`, `A.19`, `C.25`, `E.21`, or the pattern governing the claim |
 | quality-term or evaluative characterization | `C.16.Q`, `C.25`, `E.21`, or the characterization pattern governing the claim |
 | evidence, proof, validation, witness | `A.10` for source recovery and bounded reliance; the defining or testing pattern for the evidence, proof, validation, or witness claim itself |
 | assurance, engineering justification, safety case | `B.3` or the applicable assurance pattern for a named assurance claim; the defining domain pattern for a separate safety claim |

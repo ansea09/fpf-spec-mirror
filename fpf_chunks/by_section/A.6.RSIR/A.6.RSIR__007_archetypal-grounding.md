@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__007_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:5 — Archetypal Grounding"
-line_start: 21945
-line_end: 21964
+line_start: 21559
+line_end: 21578
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ keywords:
 
 ### A.6.RSIR:5 - Archetypal Grounding
 
-**System case: module interface claim.** A team says "the cooling module exposes the heat-exchanger interface." RSIR first asks what claim is current. If the claim is substitutability or separate change, use `A.6.M`. If a reusable relation declaration for exchanged-medium and boundary-condition participant meanings is current, use `A.6.0` plus `A.6.5` for the `RelationSignature` and complete `SlotSpec`s. If the current use is a diagram, API schema, or other representation, keep its positions under `C.29` or the exact representation pattern and state explicit correspondence. If the claim is a functional port in a transformation-flow structure, use `A.6.F`, `A.3.4`, and `E.18`. RSIR does not create `U.Interface`.
+**System case: module interface claim.** A team says "the cooling module exposes the heat-exchanger interface." RSIR first asks what claim is current. If the claim is substitutability or separate change, use `A.6.M`. If a reusable relation declaration for exchanged-medium and boundary-condition participant meanings is current, use `A.6.0` plus `A.6.5` for the `RelationSignature` and complete `SlotSpec`s. If the current use is a diagram, API schema, or other representation, interpret its positions under the selected scheme and state the correspondence needed by the receiving claim. If the claim is a functional port in a transformation-flow structure, use `A.6.F`, `A.3.4`, and `E.18`. RSIR does not create `U.Interface`.
 
 **Bare-role case: API provider wording.** A source says “the API role is provider.” Apply `E.10.ROLE` once. If it recovers a provider System, local `ProviderSystemRole` kind, assignment, capability, provider Work, promise, access relation, publication, or another direct object, apply that object's rule and do not apply RSIR. Apply RSIR only when the still-unanswered question is the participant meaning in a direct relation, a reusable declaration, an interface claim, an operation declaration or binding, or an API-schema representation position. For protocol, service-term, SLA, or agreement-like wording that bundles several claims, use A.6.C to unpack the claims before stating each object or relation. Use A.6.M only for a module-interface claim and A.6.B only for boundary-package statement classification. Do not assign a system role to the API description.
 
@@ -70,8 +70,8 @@ keywords:
 | Source phrase | Positive recovery | Near miss to reject |
 |---|---|---|
 | “API role is provider” | Apply `E.10.ROLE` once. If it recovers `ProviderSystemRole`, an exact assignment, provider Work, API publication, promise, access relation, or another direct object, apply that object's rule and leave RSIR closed. Apply A.6.RSIR only for a remaining declaration, direct-participation, interface, operation, or representation-position question; use A.6.C only when protocol, SLA, service-term, or agreement-like wording bundles unlike claims. | Do not assign a system role to an API description or protocol, and do not repeat the E.10.ROLE recovery inside RSIR. |
-| "endpoint parameter source" | Use the direct relation pattern when the phrase hides a participant meaning or actual participant; use `A.6.5` only for a complete `SlotSpec` in a current reusable `RelationSignature`; use `A.6.1` when it names an operation `ArgumentDeclaration`, `ResultDeclaration`, or an actual binding in one independently identified exact application; use `C.29` or `E.17` when it is a representation position or API description, and `A.6.P:4.11a` when a service-documentation label hides the concrete subject or relation; state explicit correspondence whenever the FPF claim consumes the representation. | Do not create an endpoint kind, a work-facing role from the word "source", a parameter ontology, a public application kind, a universal input/output relation, or a world-side participant or binding from representation shape. |
-| “`Engineer-7#Verifier:Lab-A`” | Recover `Engineer-7` as the holder System, `VerifierSystemRole` as the local kind, and both the assignment occurrence and its declared `U.SystemRoleAssignment` species. In this case `Lab-A` is the facility System in which verification Work occurs; state that Work relation separately when claimed. | Do not put `Lab-A` into assignment identity or keep `Holder#Role:Context` as normative ontology. |
+| "endpoint parameter source" | Use the direct relation pattern when the phrase hides a participant meaning or actual participant; use `A.6.5` only for a complete `SlotSpec` in a current reusable `RelationSignature`; use `A.6.1` when it names an operation `ArgumentDeclaration`, `ResultDeclaration`, or an actual binding in one independently identified exact application; use the selected representation rule or E.17 when it is a representation position or API-description publication, and `A.6.P:4.11a` when a service-documentation label hides the concrete subject or relation; recover correspondence from the selected scheme, making it explicit when the receiving claim needs it. | Do not create an endpoint kind, a work-facing role from the word "source", a parameter ontology, a public application kind, a universal input/output relation, or a world-side participant or binding from representation shape. |
+| “`Engineer-7#Verifier:Lab-A`” | Recover Engineer-7 as the holder System, VerifierSystemRole as the local kind, and any claimed assignment under its declared U.SystemRoleAssignment species. In this case Lab-A denotes the facility System where verification Work occurs; that Work-location claim is separate. | The spelling alone does not make Lab-A an assignment participant or establish Holder#Role:Context as an identity rule. Apply the species' own participant and identity rules. |
 | "function of the pump" | `A.6.F`, `A.3.4`, `E.18`, or `C.30.TFS-REL` when the phrase names functional structure; `A.2.2` when it names a system capability. | Do not treat "function" as the recovered kind before the current claim is known. |
 | “standard evidence role” | Apply `E.10.ROLE` once, then use A.10, B.3, F.10, or E.17 for the recovered evidence, source, status, assurance, or publication claim. Leave RSIR closed unless a separate direct-participation, declaration, interface, operation, or representation-position question remains. | Do not invent `U.EvidenceRole` or put the standard episteme into `U.SystemRoleAssignment`. |
 

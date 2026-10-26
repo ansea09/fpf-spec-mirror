@@ -6,12 +6,12 @@ section_id: "A.3:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__002_intent.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:1 — Intent"
-line_start: 9082
-line_end: 9085
+line_start: 9022
+line_end: 9027
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -32,5 +32,7 @@ keywords:
 
 ### A.3:1 - Intent
 
-Establish a substrate-neutral way to say which system performed one dated world-side Work occurrence by enacting which `U.Method`, under which exact `U.SystemRoleAssignment` when assignment-bound attribution is needed, and which separately governed method-description, capability, work-to-change, evidence, or aggregation claims the current use additionally relies on—without self-magic and without blurring run-independent semantics, the occurrence, and an episteme that describes or asserts it. The pattern keeps the **Transformer Quartet** object families distinct; it does not require every change claim or Work assertion to carry all four. `A.3.4` independently identifies an actual bounded change; that identification alone establishes no acting system, agency, role assignment, method, or work. A.3 builds directly on **System-Role Kinds and Assignments (A.2)** and the direct Work and episteme rules in **A.15.1 and C.2.1** and is guarded by **Strict Distinction (A.7)** and **Evidence Graph Referring (A.10)**.
+Use this pattern to distinguish a performed Work occurrence from its performer, enacted Method and any relied-on MethodDescription. Recover each performer's A.13 basis, then admit the dated Work independently through A.15.1 with its actual enacted Method. Use F.6 when the account also needs precise assignment-bound attribution. Add MethodDescription, capability, work-to-change, evidence or aggregation claims only when the receiving use relies on them.
+
+The **Transformer Quartet** keeps those object families distinct; it does not require every change claim or Work assertion to name all four. A.3.4 independently identifies an actual bounded change. That result alone establishes no acting System, agency, assignment, Method or Work. A.2, A.15.1 and C.2.1 define the neighboring objects; A.7 preserves their distinctions and A.10 governs evidence use.
 

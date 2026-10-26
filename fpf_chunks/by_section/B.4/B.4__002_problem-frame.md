@@ -6,12 +6,12 @@ section_id: "B.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:1 — Problem Frame"
-line_start: 46205
-line_end: 46208
+line_start: 45373
+line_end: 45376
 dependencies:
   - "A.12"
   - "A.15.1"

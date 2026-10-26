@@ -6,12 +6,12 @@ section_id: "A.6.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:10 — Rationale"
-line_start: 17232
-line_end: 17243
+line_start: 16913
+line_end: 16924
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -60,5 +60,5 @@ The actual application and each binding are separate because the stable declarat
 
 The realization relation is separate because several entities can realize the same declaration and one entity can realize it only for a bounded scope and interval. Evidence can change without changing that world-side or semantic relation. This keeps mechanism evolution local and makes failure diagnosis practical.
 
-Progressive explicitness serves didactic primacy. The pattern begins with a readable engineering question and a mantra, then introduces typed content only when reuse requires it. The mantra improves recall; A.22.CGUS enters only for an independently identified structure of potential continuations, while an enabled continuation, Work occurrence, and actual Transformation remain separate values.
+The practitioner begins with the operation question and adds typed content when reuse needs it. The mantra summarizes these distinctions. A.22.CGUS applies to an independently identified structure of potential continuations; an enabled continuation, a Work occurrence and an actual Transformation remain separate.
 

@@ -6,12 +6,12 @@ section_id: "A.19.CHR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
   - "A.19.CHR:10 — Rationale"
-line_start: 37816
-line_end: 37829
+line_start: 37070
+line_end: 37081
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -54,11 +54,9 @@ This pattern deliberately fixes the CHR core as a **description object** rather 
 
 1. **Level separation stays clean.** The suite is a D-episteme that enumerates mechanisms and obligations; the mechanisms remain A.6.1 declaration epistemes with their own arguments, results, laws and admission conditions. This prevents a “god object” that re-implements A.6.1 inside a new container.
 
-2. **Spec refs remain centralized.** CN-Spec and CG-Spec already define the governance card and admissibility gate that own comparability, normalization, indicatorization policy, and numeric admissibility. The suite requires those specs as pins and forbids duplicating them, making “one center of gravity” operational rather than rhetorical.
+2. **Spec refs remain centralized.** CN-Spec and CG-Spec state the applicable comparison, normalization, indicator-choice and numeric-admission conditions. The suite requires those specs as pins and forbids duplicating them, making “one center of gravity” operational rather than rhetorical.
 
 3. **P2W integration becomes explicit without turning planning into execution.** Ordinary A.15.2 content records the edition/reference baseline. Typed A.15.3 filling is needed only for an independently declared position; only enactment supplies actual bindings and launch witnesses.
 
-4. **Uncertainty handling is made safe by construction.** Tri-state guard decisions are a minimal guard-decision form that supports admissible abstention and degradation while keeping gate decisions and decision logs in their proper place (OperationalGate(profile)).
-
-In short: *governing specs are cited, not copied; plans are declared, not executed; and admissibility is a first-class surface, not a hidden tail.*
+4. **Uncertainty has an explicit disposition.** Tri-state guard decisions distinguish passing, qualified degradation and abstention. Safety of a receiving use still depends on its evidence and policy; a decision token supplies no missing ground. Gate decisions and decision logs remain with OperationalGate(profile).
 

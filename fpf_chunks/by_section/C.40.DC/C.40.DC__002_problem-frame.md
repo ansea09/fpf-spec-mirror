@@ -6,12 +6,12 @@ section_id: "C.40.DC:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:1 — Problem Frame"
-line_start: 86750
-line_end: 86759
+line_start: 85568
+line_end: 85577
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -27,7 +27,7 @@ keywords:
 
 **Use this when** a worthwhile problem or proposed contribution is clear enough to explore, but the proposed direction is still “train,” “buy,” “automate,” “hire,” or “learn Pattern X.” Those labels omit the change, later Work, access, support, transition burden, and evidence that would make the contribution possible.
 
-Start by describing one finite change from the actual situation, together with the support needed to obtain the proposed contribution. Construct a materially different way when it could change the inquiry. The first useful result is a small set of contribution-bearing direction/support configurations, or one such candidate with an exact missing alternative or premise.
+Start by describing one finite change from the actual situation, together with the support needed to obtain the proposed contribution. Construct a materially different way when it could change the inquiry. The first useful result is an adequate contribution-bearing direction/support candidate, a set of materially different candidates, or a conditional candidate with a named missing premise.
 
 A *direction* here is a prospective change in contribution, capability, use, or enabling conditions over a declared horizon. Its description is not an obtaining arrangement, selected programme, WorkPlan, performed Work, or choice. A person exploring their own development can use it without asking for advice.
 

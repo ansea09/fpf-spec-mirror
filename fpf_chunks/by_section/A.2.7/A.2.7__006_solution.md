@@ -6,12 +6,12 @@ section_id: "A.2.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:4 — Solution"
-line_start: 7595
-line_end: 7810
+line_start: 7549
+line_end: 7762
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -49,11 +49,9 @@ SystemRoleKindRelationStructure : U.Structure
     admissibleAction:
     stopOrNonAdmissibleOverread:
       exact stop or return condition; also named stopOrReturnCondition
-  groundedNonAdmissibleOverread?:
-    optional explanation outside the identity basis
 ```
 
-The structure specializes A.22's four-part identity: the exact system-role-kind constituents, the exact selected obtaining relation occurrences, the exact constraint claims applied, and one named selection-use frame stating the question, admissible action, and stop or return condition. `stopOrReturnCondition` and `stopOrNonAdmissibleOverread` name that same condition, not two independently filled values. A `groundedNonAdmissibleOverread?` is optional explanatory material under F.19:4's plausible-reader test and is not an identity discriminator. A changed rendering, identifier, selecting Work, publication, table, or graph changes no structure while all four values remain unchanged. Replacing a constituent, selected relation occurrence, applied constraint, or use frame identifies another structure. Without a required constraint or named frame, the material is still an arrangement or description rather than an admitted `SystemRoleKindRelationStructure`.
+The structure specializes A.22's four-part identity: the exact system-role-kind constituents, the exact selected obtaining relation occurrences, the exact constraint claims applied, and one named selection-use frame stating the question, admissible action, and stop or return condition. `stopOrReturnCondition` and `stopOrNonAdmissibleOverread` name that same condition, not two independently filled values. A changed rendering, identifier, selecting Work, publication, table, or graph changes no structure while all four values remain unchanged. Replacing a constituent, selected relation occurrence, applied constraint, or use frame identifies another structure. Without a required constraint or named frame, the material is still an arrangement or description rather than an admitted `SystemRoleKindRelationStructure`.
 
 #### A.2.7:4.1 - Direct Relation and Declaration Discipline
 
@@ -188,7 +186,7 @@ A relied-on kind-relation claim is a C.2.1 assertion episteme, not the relation 
 1. name the exact direct relation family or `U.SubkindOf`, participant kinds, predicate, and applicability;
 2. establish whether current facts or accepted constituting history satisfy that predicate;
 3. when the receiver needs occurrence identity, apply the direct identity rule and recover the already obtaining occurrence;
-4. only then let an affirmative assertion use that occurrence as its `EntityOfConcern` and state its known extent; and
+4. for an assertion about that recovered occurrence, use it as the `EntityOfConcern` and state its known extent; and
 5. add evidence, currentness, and reliance only when the receiving use needs them.
 
 When no positive occurrence is recovered, a negative, candidate, counterfactual, or unsupported affirmative claim normally uses the exact admitted relation kind, or another independently identified entity, as its EntityOfConcern. Its ClaimGraph carries proposed fillings, predicate, polarity or modality, and meaning-bearing semantic basis. It carries no fabricated positive occurrence reference or actual extent.
@@ -201,7 +199,7 @@ Supported assertions serve as typed premises for another Method. A system perfor
 2. tests the exact relation predicate without copying assignments or state occurrences into the kind-relation participant set;
 3. individuates the relation only when the receiving use needs its identity;
 4. records the appropriate assertion and its separate reliance posture;
-5. evaluates capability, resource, interface, risk, evidence, currentness, assurance, or other conditions under their direct patterns; and
+5. evaluates the other conditions required by the receiving use under their direct patterns; and
 6. records the outcome defined for the next question's exact decision kind.
 
 Current facts make a world-side relation obtain. Optional individuation recovers one occurrence. An episteme asserts it. Evidence supports reliance. A system performs the check.
@@ -219,7 +217,7 @@ When ordinary wording says *subrole*, *role part*, or *combined role*, start fro
 | Must assignments to several kinds be present together under an allocation rule? | order-insensitive bundle relation |
 | Which system is assigned, and for which interval? | exact direct species under `U.SystemRoleAssignment`; use A.2.1 to recover it |
 | Does an assignment satisfy a Work-admitting state condition? | `SystemRoleAssignmentStateRelation`; use A.2.5 to recover it |
-| Can the holder perform within an operating envelope? | capability and capability-fit relations under A.2.2 |
+| Can the holder perform within an operating envelope? | the qualified ability claim and separate capability-fit predicate under A.2.2 |
 | Are ways of doing or Work occurrences composed? | Method composition under A.3 and B.1.5, or Work structure under A.15 |
 | Did one actual bounded change occur? | one `U.Transformation` under A.3.4, with its affected entity, boundary, precondition, postcondition, and obtaining relations |
 
@@ -231,7 +229,7 @@ A graph, table, matrix, algebra, embedding, policy file, taxonomy, or organizati
 
 Reference an independently selected `BoundedModelUseStructure` only when interpretation depends on that model-use organization. Keep it with the receiving assertion or use unless one direct relation predicate truly depends on its exact edition; only then does that edition enter the predicate's semantic basis.
 
-When a comparison, translation, or reuse crosses schemes, first recover the exact F.17 sense cells and obtaining F.9 Bridge. Then state a separate C.2.1 bounded-use assertion naming direction, correspondence rule, tolerated loss, polarity, use, and effective scheme. Ordinary reliance requires the current A.10 evidence-provenance relation and a passing disposition for that use. Use B.3 only when an actual named assurance claim is current; require its result for the same bounded assurance use. Establish any required authorization separately.
+When a comparison, translation or reuse needs correspondence between different local senses, recover the F.17 sense cells and obtaining F.9 Bridge. A difference of label or reference scheme alone does not establish that need. State a separate C.2.1 bounded-use assertion naming direction, correspondence rule, tolerated loss, polarity, use and effective scheme. Ordinary reliance requires the current A.10 evidence-provenance relation and a passing disposition for that use. Use B.3 only when an actual named assurance claim is current; require its result for the same bounded assurance use. Establish any required authorization separately.
 
 Apply the direct rule for each claim of bounded-use suitability, an A.2.7 relation, assignment, authorization, receiving-check outcome, or performed Work. A Bridge, profile, or card may provide information for that claim. A local relation that obtains keeps the participant set and identity declared here.
 

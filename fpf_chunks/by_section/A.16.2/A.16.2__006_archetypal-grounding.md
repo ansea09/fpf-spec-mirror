@@ -6,12 +6,12 @@ section_id: "A.16.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
   - "A.16.2:5 — Archetypal Grounding"
-line_start: 34423
-line_end: 34429
+line_start: 33881
+line_end: 33887
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -34,7 +34,7 @@ keywords:
 ---
 
 ### A.16.2:5 - Archetypal Grounding
-**Tell.** Backoff is not regression; it is an admissible language-state move when the current publication form over-commits. Retirement is not erasure; it says that the exact cue, episteme, publication, or branch is no longer current for the named use while preserving its history.
+**Tell.** Backoff is admissible when the current publication form over-commits. Retirement is not erasure; it says that the exact cue, episteme, publication, or branch is no longer current for the named use while preserving its history.
 
 **Show (System).** On a rollback cue, a practitioner may reopen a prior decision path instead of pretending the original operationalization still holds, or retire one branch once a better-supported successor line has taken over.
 

@@ -6,12 +6,12 @@ section_id: "C.25:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:5 — Archetypal Grounding"
-line_start: 65039
-line_end: 65046
+line_start: 63997
+line_end: 64004
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,7 @@ keywords:
 
 **Tell.** A quality family is not automatically one metric. Use one Characteristic when one measure and Scale carry the claim; use a Q-Bundle only when several differently typed contributors are jointly load-bearing.
 
-**Minimal completed availability case.** Under `ServiceQualityScheme-v4`, the claim says: *CheckoutAPI maintained at least 99.9% availability for customer-facing request handling over the rolling 30-day window.* Its exact bearer is the independently identified `CheckoutAPI` System. Its Q-Bundle content has `Name: Availability`, `ClaimScope: customer-facing request handling`, `Measures: AvailabilityRatio[%] >= 99.9`, and `QualificationWindow: rolling 30 days`. `WorkScope`, `Mechanisms`, `Status`, and `Evidence` are omitted because this drafting use does not rely on them. If evidence reliance, a failover prerequisite, or a gate later becomes current, add only the direct relation or slot that question needs.
+**Minimal completed availability case.** Under `ServiceQualityScheme-v4`, the claim says: *CheckoutAPI maintained at least 99.9% availability for customer-facing request handling over the rolling 30-day window.* Its exact bearer is the independently identified `CheckoutAPI` System. In this example the receiving use separately checks coverage of customer-facing requests and the rolling-window qualification as well as the ratio. Its Q-Bundle content has `Name: Availability`, `ClaimScope: customer-facing request handling`, `Measures: AvailabilityRatio[%] >= 99.9`, and `QualificationWindow: rolling 30 days`. `WorkScope`, `Mechanisms`, `Status`, and `Evidence` are omitted because this drafting use does not rely on them. If evidence reliance, a failover prerequisite, or a gate later becomes current, add only the direct relation or slot that question needs. If the receiving question instead asks only for AvailabilityRatio under an already fixed scope and measurement window, the single-Characteristic branch is sufficient.
 
 **Escalation examples.** A resilience or security claim often needs several measures, scenario or attack-class scope, mechanisms or control statuses, and a qualification window. Those contributors belong in the bundle only when they are part of that claim's truth conditions; treating the family as one scalar score would erase which contributor failed.
 

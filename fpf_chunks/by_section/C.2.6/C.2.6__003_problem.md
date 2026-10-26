@@ -6,23 +6,25 @@ section_id: "C.2.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:2 — Problem"
-line_start: 53989
-line_end: 53991
+line_start: 53142
+line_end: 53144
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.18"
+  - "A.19"
   - "A.7"
   - "B.4.1"
   - "B.5.2.0"
   - "C.2.2a"
   - "C.2.7"
   - "C.2.LS"
+  - "C.2.P"
   - "F.9"
   - "F.9.1"
 keywords:
@@ -32,11 +34,11 @@ keywords:
   - "mixed modes"
   - "model state"
   - "operator loop"
-  - "publication-face anchoring"
+  - "receiving-episteme anchoring"
   - "source anchoring"
   - "trace"
 ---
 
 ### C.2.6:2 - Problem
-Without an explicit anchoring-mode declaration, embodiment and source anchoring are smuggled into informal prose or folded into representation terms. That makes cues harder to compare, hides bridge-loss notes, and leaves operator-facing language-state work without an explicit anchoring rule.
+When a comparison or use depends on anchoring, leaving it implicit can hide the difference between a bodily cue, a trace and a description of either. A representation label alone may leave that difference unresolved.
 

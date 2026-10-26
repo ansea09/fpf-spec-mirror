@@ -6,12 +6,12 @@ section_id: "B.5.WN:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__011_architectural-rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
   - "B.5.WN:10 — Architectural Rationale"
-line_start: 47326
-line_end: 47333
+line_start: 46494
+line_end: 46501
 dependencies:
   - "A.15.10"
   - "A.15.11"

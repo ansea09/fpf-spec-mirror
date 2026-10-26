@@ -6,12 +6,12 @@ section_id: "C.2.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:1 — Problem frame"
-line_start: 52429
-line_end: 52447
+line_start: 51595
+line_end: 51614
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -55,19 +55,20 @@ keywords:
 
 ### C.2.2:1 - Problem frame
 
-KD‑CAL asks a simple operational question: *“Where can I safely use this claim?”*
-FPF answers with a minimal “epistemic location” built from three coordinates. Any relations traversed by a justification path are named separately:
+KD‑CAL asks: *“What does the available support warrant for this claim and use?”*
+FPF separates expression, applicability and warrant in the F–G–R assessment. Relations traversed by a justification path are named separately:
 
 * **F** (Formality) describes *how the claim is expressed* and how strongly it supports verification workflows (C.2.3).
 * **G** (Claim scope) describes *where the claim is asserted to apply* as a set-like object (A.2.6).
 * **R** (Reliability) describes *how strongly the claim is warranted* by linked evidence under that scope.
 * **CL / CL^k / CL^plane** (Congruence Levels) describe fit or loss for the relation families that define them—for example, a semantic relation, kind relation, or reference-plane relation (B.3, C.3, F.9).
   A CL value belongs to the declared relation or traversal used by the path, not to the claim as a fourth coordinate. Shared wording about a "context" creates no relation and no loss value.
+
 In practice, the triad is frequently used before it is made explicit:
 
 * Authors implicitly “average” disparate evidence and report a single confidence.
 * Teams treat higher formality (F) as if it automatically implies higher warrant (R).
-* Scope growth is smuggled in through phrasing instead of explicit scope operators (A.2.6).
+* The claim's scope grows implicitly through phrasing instead of explicit scope operators (A.2.6).
 * A claim or its evidence is reused after a change of scope, kind, plane, notation, source-local meaning, model-use basis, or evidence basis without naming the actual relation and routing its declared loss into R.
 
 This pattern makes **R** explicit in KD‑CAL and fixes the **triad discipline** required by Kind‑CAL (C.3) and the Trust & Assurance calculus (B.3).

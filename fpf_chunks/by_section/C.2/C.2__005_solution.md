@@ -6,12 +6,12 @@ section_id: "C.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:4 — Solution"
-line_start: 51223
-line_end: 51264
+line_start: 50391
+line_end: 50432
 dependencies:
   - "A.1"
   - "A.10"
@@ -52,14 +52,14 @@ keywords:
  **Congruence Level (CL), pairwise ladder.**
  `CL‑0` **Opposed/Disjoint** (contrastive; no substitution); `CL‑1` **Comparable / Naming‑only** (label similarity; no substitution); `CL‑2` **Translatable** (structure‑preserving correspondence in a declared fragment with **stated loss**); `CL‑3` **Near‑identity** (the declared invariants match). *CL is a characteristic of a relation between two epistemes; it is not a fourth member of the F–G–R assurance tuple and it is not a characteristic space of its own.* **KD-CAL substitution constraint:** plane preservation and **CL ≥ 2** are necessary for a substitution under this calculus; substituting **type‑structure** additionally requires **CL = 3**. These conditions do not establish suitability for the proposed use. State the exact substitution, direction, correspondence rule, and tolerated loss under the direct receiving pattern, and establish reliance separately. When local meanings cross semantic contexts, first test the F.9 Bridge predicate on exact F.17 cells; keep the obtaining Bridge, bounded-use claim, and reliance result distinct. A CL value establishes no local system-role-kind membership or assignment.
 
-**Constitution and neighboring relations.** When stating or using a KD-CAL epistemic location, recover F, G, and R for one exact claim and use of one C.2.1 episteme. The episteme's exact claim content, EntityOfConcern, and effective `U.ReferenceScheme` identify the episteme through `EpistemeConstitutionRelation`. F characterizes the claim's form; G is the separate `U.ClaimScope`; R relies on exact evaluation, evidence-use, and assurance relations. Empirical grounding and edition remain separate C.2.1 relations. Viewpoint selection and view conformance remain under E.17.0; notation and other representation structure remain under C.29/A.6.3.RT; publication occurrence, form, and carrier remain under E.17/E.24.PUB. Multiple notations are allowed only when their exact representation or notation relation is explicit and any declared loss is applied to R rather than hidden in an omnibus episteme field.
+**Constitution and neighboring relations.** For a KD-CAL F–G–R assessment, recover F, G, and R for one exact claim and use of one C.2.1 episteme. The episteme's exact claim content, EntityOfConcern, and effective `U.ReferenceScheme` identify the episteme through `EpistemeConstitutionRelation`. F characterizes the claim's form; G is the separate `U.ClaimScope`; R relies on exact evaluation, evidence-use, and assurance relations. Empirical grounding and edition remain separate C.2.1 relations. Viewpoint selection and view conformance remain under E.17.0; notation and other representation structure remain under C.29/A.6.3.RT; publication occurrence, form, and carrier remain under E.17/E.24.PUB. Multiple notations are allowed only when their exact representation or notation relation is explicit and any declared loss is applied to R rather than hidden in an omnibus episteme field.
 
 #### C.2:4.2 - Four Δ‑moves (epistemic motion)
 
 * **ΔF — Formalise.** Make the expression property needed by the receiving use explicit or stricter: resolve terms, supply a predicate or semantics, or express a required derivation. Name the changed property; a different calculus alone establishes no increase.
 * **ΔG — Generalise / Specialise.** Widen or narrow the **claim scope** (assumptions & scope). Changes to decomposition granularity are an **orthogonal view** and do not change **G** unless they alter the envelope.
 * **ΔR — Calibrate / Validate.** Revise warrant through support that actually bears on the claim: proof or reasoning, calibration, severe tests, or monitoring as applicable. State what the contribution changes. A formalization alone is ΔF, not an R increase; choosing new inquiry is a separate decision.
-* **ΔCL — Congrue.** Establish and record the sameness relation between **two** epistemes (ladder 0→3).
+* **ΔCL — Congrue.** Establish or revise the congruence relation between **two** epistemes and state its warranted level (CL 0…3) under the declared correspondence rule.
   Moves compose into **paths**. A CL chain minimum retains only the ordered congruence meaning justified by the relation family; it is not a numerical reliability loss.
 
 #### C.2:4.3 - Composition (Γ_epist) and propagation
@@ -78,6 +78,6 @@ For example, two necessary independent conditions with probabilities 0.9 each ha
 #### C.2:4.4 - What **must not** be conflated (normative guards)
 
 * **Representation structure ≠ carrier.** Files, PDFs, or repositories are **carriers** outside the episteme; they never count as parts of `U.Episteme` (**see C.2.1 EP‑1; CC‑EPI‑2/3**).
-* **Epistemes do not act.** Only **systems** perform Work. Epistemes carry claim content and can participate in constitution, grounding, edition, description, evidence-use, reliance, viewing, representation, and publication relations under their direct patterns.
+* **Work and guidance.** **Systems** perform Work. Epistemes can guide or constrain that Work through their claim content; keep the guiding content distinct from its performer.
 * **CL is not a score.** It is a **qualitative ladder** of preservation classes; do not average it.
 

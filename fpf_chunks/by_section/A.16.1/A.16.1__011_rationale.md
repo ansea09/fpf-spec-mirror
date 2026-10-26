@@ -6,12 +6,12 @@ section_id: "A.16.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:10 — Rationale"
-line_start: 34216
-line_end: 34218
+line_start: 33726
+line_end: 33728
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,5 +37,5 @@ keywords:
 ---
 
 ### A.16.1:10 - Rationale
-`PreArticulationCuePack` is the earliest durable seam publication in the cluster. It keeps pre-threshold cues visible before route selection and without overloading `A.6.P`, `B.4.1`, or `B.5.2`.
+`PreArticulationCuePack` preserves content before route selection is justified, without requiring premature entry into `A.6.P`, `B.4.1`, or `B.5.2`.
 

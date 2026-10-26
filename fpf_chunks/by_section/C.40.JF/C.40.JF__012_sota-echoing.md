@@ -6,12 +6,12 @@ section_id: "C.40.JF:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:11 — SoTA-Echoing"
-line_start: 87181
-line_end: 87192
+line_start: 85999
+line_end: 86010
 dependencies:
   - "A.10"
   - "A.15.9"

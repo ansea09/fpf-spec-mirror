@@ -6,12 +6,12 @@ section_id: "A.14:9"
 section_title: "Conformance Checklist - type guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__010_conformance-checklist-type-guards.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:9 — Conformance Checklist - type guards"
-line_start: 28746
-line_end: 28845
+line_start: 28314
+line_end: 28413
 dependencies:
   - "A.1"
   - "A.15"
@@ -77,10 +77,10 @@ keywords:
 
 | ID                                    | Requirement                                                                                                                                                      | Purpose                                |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| **CC‑PHA‑1 (Proper interval & carrier identity)** | `PhaseOf(x,y)` requires `x ≠ y`, a proper sub-interval of y's interval, and an explicit identity criterion for y valid throughout both restrictions (e.g., serial number, legal identity, theorem statement). | Excludes self/whole-lifetime phasing and prevents re-identification by stealth. |
-| **CC‑PHA‑2 (Nesting & overlap)** | Nested or overlapping `PhaseOf` values for one carrier **MAY** obtain. Do not infer a partition, aspect difference, or carrier difference merely from overlap. | Keeps universal temporal parthood consistent and permits ordinary windows. |
-| **CC‑PHA‑3 (Selected partition)** | If a claim selects an exhaustive partition, it **MUST** name one carrier, covered interval, aspect or partition rule, and family of phase cells. Only cells of that same selected partition are required to be pairwise non-overlapping and jointly cover the declared interval. | Makes coverage and non-overlap local to the claim that needs them. |
-| **CC‑PHA‑4 (Identity failure)** | If the carrier-identity criterion fails, **PhaseOf** does not span that boundary. Apply the subject's identity and continuation rules; a claimed **Meta‑Holon Transition** must independently satisfy B.2. | Keeps temporal parthood separate from whole reidentification. |
+| **CC‑PHA‑1 (Proper interval & holon identity)** | `PhaseOf(x,y)` requires `x ≠ y`, a proper sub-interval of y's interval, and the complete identity rule for y valid throughout both restrictions. Identify x as the temporal restriction of y itself under §5.2; an interval of use alone is insufficient. | Excludes self/whole-lifetime phasing and prevents re-identification by stealth. |
+| **CC‑PHA‑2 (Nesting & overlap)** | Nested or overlapping `PhaseOf` values for one holon **MAY** obtain. Do not infer a partition, aspect difference, or holon difference merely from overlap. | Keeps universal temporal parthood consistent and permits ordinary windows. |
+| **CC‑PHA‑3 (Selected partition)** | If a claim selects an exhaustive partition, it **MUST** name one holon, covered interval, aspect or partition rule, and family of phase cells. Only cells of that same selected partition are required to be pairwise non-overlapping and jointly cover the declared interval. | Makes coverage and non-overlap local to the claim that needs them. |
+| **CC‑PHA‑4 (Identity failure)** | If the holon-identity criterion fails, **PhaseOf** does not span that boundary. Apply the subject's identity and continuation rules; a claimed **Meta‑Holon Transition** must independently satisfy B.2. | Keeps temporal parthood separate from whole reidentification. |
 | **CC-PHA-5 (Episteme & Work boundary)** | `PhaseOf` **MAY** restrict one unchanged `U.MethodDescription` episteme to a proper interval only after its C.2.1 identity triple remains fixed. Changed description epistemes use `EpistemeEditionRelation` only when C.2.1's historical-continuation predicate obtains. Work intervals, episodes, performed parts, retries, resumptions, and later occurrences **SHALL** use A.15.1's exact relations; generic `PhaseOf` is not their substitute. `PhaseOf` never applies to a local system-role kind by kind identity or to `U.Method`. | Keeps episteme identity, edition continuity, and Work-temporal law with their subject patterns. |
 
 #### A.14:9.4 - AspectOf guards
@@ -125,7 +125,7 @@ keywords:
 
 **Step 2 — Does the claim concern a discrete integrated or conceptual part?** If yes, use **ComponentOf** or **ConstituentOf**. Do not use PortionOf merely because the part can also be measured.
 
-**Step 3 — Is it the same carrier during a proper sub-interval?** If yes, use **PhaseOf** after the carrier-identity and interval tests. Another episteme or Work occurrence uses its own identity and relation patterns.
+**Step 3 — Is it the same holon during a proper sub-interval?** If yes, use **PhaseOf** after the holon-identity and interval tests. Another episteme or Work occurrence uses its own identity and relation patterns.
 
 **Step 4 — Is it a bearer-dependent structural aspect?** Use **AspectOf** only after naming the aspect, bearer, facet rule, relation occurrence, and aspect-identity rule. If the source names only a Characteristic, viewpoint, view, projection, selected partition, concern, or time window, return that actual claim instead.
 
@@ -146,9 +146,9 @@ keywords:
 
 | Receiving use | Mereological hooks (what A.14 supplies) | Key effect |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
-| **System aggregation decision (B.1.2:4)** | Add measures of disjoint portions only under :5.1 and the selected whole-characteristic rule in B.1.2:4.4. Establish ComponentOf and boundary integration separately. AspectOf remains facet-local structural parthood; PhaseOf requires its own carrier identity and temporal restriction. | Supports justified quantitative roll-up while preserving the distinct component, aspect and phase claims. |
+| **System aggregation decision (B.1.2:4)** | Add measures of disjoint portions only under :5.1 and the selected whole-characteristic rule in B.1.2:4.4. Establish ComponentOf and boundary integration separately. AspectOf remains facet-local structural parthood; PhaseOf requires its own holon identity and temporal restriction. | Supports justified quantitative roll-up while preserving the distinct component, aspect and phase claims. |
 | **Γ\_epist (B.1.3)** | PortionOf of text or data uses a declared measure; ConstituentOf composes arguments or sections; AspectOf is available only for an independently admitted episteme-dependent structural aspect under a declared facet rule. A viewpoint, view, heading, or projection remains with E.17 or C.29. PhaseOf may restrict one unchanged episteme to a proper interval. | Preserves provenance and prevents description choices from creating episteme parts. |
 | **Γ\_ctx / Γ\_time (B.1.4)** | **PhaseOf** supplies proper temporal restrictions, including nested or overlapping windows. A separately selected partition supplies non-overlap and coverage only for its own cells. Order/dependencies live in **Γ\_ctx** and method graphs (A.15/B.1.5). **PortionOf** is orthogonal (quantities inside steps/runs). | Ensures chronological consistency without turning every temporal restriction into one partition. |
 | **Γ\_method (B.1.5)** | Γ\_method composes Methods rather than A.14 structural parts. A recipe-labelled claim-bearing episteme is a **MethodDescription** only when its `EntityOfConcern` is one admitted `U.Method` and at least one substantive way-of-doing claim obtains under A.3.2; any graph form is a representation handled by C.29. When a recipe refers to stuff-like inputs, those are **PortionOf** statements on resources. | Separates recipe composition from structure. |
-| **Γ\_work (B.1.6)**          | Only **Work** carries resource deltas; when logging “consumed 5 kg from Tank A”, model it as **PortionOf** relation to the stock prior to consumption. | Makes Σ‑balance explicit; aligns with CC‑POR‑3/4.                                             |
+| **Γ\_work (B.1.6)** | For a Work consumption claim such as “consumed 5 kg from Tank A”, identify the consumed fuel as a PortionOf the stock before consumption under its mass measure and boundary rule. | Connects the portion identity to the consumption delta; B.1.6 supplies the resource-balance account. |
 

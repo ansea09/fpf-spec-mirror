@@ -6,12 +6,12 @@ section_id: "A.11:8"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__013_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:8 — SoTA-Echoing"
-line_start: 27815
-line_end: 27820
+line_start: 27379
+line_end: 27384
 dependencies:
   - "A.6.P"
   - "A.6.RCD"
@@ -27,7 +27,7 @@ keywords:
 
 ### A.11:8 - SoTA-Echoing
 
-Current ontology-engineering practice favors modularity, reuse, explicit competency questions, and controlled admission of new terms over unchecked class growth. A.11 adapts that practice to FPF: the admission question is not merely "can a class be defined?" but whether the candidate changes admissible claims, boundaries, or work-facing use inside the FPF pattern system.
+Ontology-engineering approaches to modularity, reuse and explicit competency questions supply the comparison discipline used here. A.11 asks whether the candidate changes admissible claims, boundaries or work-facing use, beyond whether a class can be defined.
 
-Constructional-ontology and BORO-like source lines add a second discipline: identity, construction, dependency, and part-whole distinctions must be recovered before a convenient term becomes a kind. FPF keeps that source discipline without importing a classical top-level taxonomy as-is; U-kinds remain tied to accepted ontics, slot discipline, and action-facing pattern use.
+Constructional-ontology and BORO-like source lines contribute the separation of identity, construction, dependency and part-whole relations. A.11 uses those distinctions to recover what a candidate denotes before testing whether it needs a new durable kind; U-kinds remain subject to their complete FPF admission conditions.
 

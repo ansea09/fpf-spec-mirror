@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__005_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:3 — Forces"
-line_start: 10586
-line_end: 10597
+line_start: 10497
+line_end: 10508
 dependencies:
   - "A.10"
   - "A.15.8.MS"
@@ -25,7 +25,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Local correction | A small owner-specific repair preserves working claims, while a package-wide rewrite feels safer. |
+| Local correction | Repairing the claim at its owner preserves unaffected claims, while dependent claims may also need rechecking. |
 | Construction and description | They must correspond for relied-on uses, while they remain different results with different tests. |
 | Representation | A representation must expose what its use needs, while omission can be deliberate for another use. |
 | Trial evidence | Actual Work can reveal contradictions, while failure can also come from situation, capability, support, or another direct relation. |

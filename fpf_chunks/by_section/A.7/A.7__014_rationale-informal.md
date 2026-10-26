@@ -6,12 +6,12 @@ section_id: "A.7:12"
 section_title: "Rationale (informal)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__014_rationale-informal.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:12 — Rationale (informal)"
-line_start: 26070
-line_end: 26076
+line_start: 25622
+line_end: 25627
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,7 +47,6 @@ keywords:
 ### A.7:12 - Rationale (informal)
 
 * **Engineering cognition:** A small, repeatable grammar helps practitioners recognize and correct category slips such as “process vs procedure vs execution”.
-* **Compatible with ISO/BORO practice:** Distinguishing reusable ways of doing, claim-bearing description epistemes, system capabilities, and dated operations mirrors established systems-engineering discipline while keeping FPF’s holonic rigor; procedure-like labels remain cues rather than kind evidence.
 * **Didactic primacy:** Practitioners start with a readable sentence naming the System, action, subject, or Description. They add assignment, local system-role kind, Method, Capability, WorkPlan, Work, MethodDescription, carrier, source, or evidence relations only when the current claim uses those distinctions.
-* **Why name publication faces and forms in A.7?** Strict Distinction already guards the `EntityOfConcern` value from the Description episteme that makes claims about it. In practice, misreadings happen at the publication face: cards and tables are taken as the EntityOfConcern merely because they publish the claims, even when those claims concern another item; governance words leak where physics or logic should stand. Naming publication face, form, unit, carrier, and rendering uses as orthogonal closes that gap without entangling semantics with any tool or notation. Specification use or refinement is also named only to keep it orthogonal to `EntityOfConcern`, Description, and publication expression. This preserves **C-1 universality** and **P-1 Cognitive Elegance**, while giving E.8 a crisp governing source for multi-face presentation rules.
+* **Publication boundaries:** A card or table makes claims available; it may also be the subject of a different description. Identify which relation is current before treating it as the EntityOfConcern, a Description, a specification use, or evidence. Keeping those positions separate lets one source support several publication forms without changing its claims merely through presentation.
 

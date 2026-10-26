@@ -6,12 +6,12 @@ section_id: "E.17.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:7 — Conformance Checklist"
-line_start: 106113
-line_end: 106125
+line_start: 104933
+line_end: 104945
 dependencies:
   - "A.16.0"
   - "A.22"

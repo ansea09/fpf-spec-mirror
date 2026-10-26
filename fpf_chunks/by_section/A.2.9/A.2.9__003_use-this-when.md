@@ -6,12 +6,12 @@ section_id: "A.2.9:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__003_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:0 — Use This When"
-line_start: 8687
-line_end: 8722
+line_start: 8639
+line_end: 8664
 dependencies:
   - "A.10"
   - "A.13"
@@ -20,11 +20,11 @@ dependencies:
   - "A.2.1"
   - "A.2.6"
   - "A.2.8"
+  - "A.2.9"
   - "A.6.C"
   - "A.7"
   - "F.6"
   - "U.Method"
-  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "A.13-qualified actual performer"
@@ -69,14 +69,4 @@ Typical moments:
 **First useful move.** State who should understand or do what because of the communication, including later self-use by its producer, and what evidence would be enough for the present judgement. Keep response, achievement, later action or change, causal contribution, authority, consent, permission, and admissibility separate. Repair the smallest blocker in the wording, representation, prerequisites, medium, interaction, or a future receiving use—or stop. Only when the named modeling, audit, institutional, or reliance use needs exact occurrence detail, follow the admission and conditional attribution route in §4.1 and SA-C0/SA-C1. Recover taxonomy, scheme, policy, optional channel, and any separate effect only when the use needs them. Create a `SpeechActRecord` only when a receiving use needs a persistent claim about the already admitted occurrence. Apply SA-C1 when a guard, gate, or claim needs exact assignment-bound attribution; otherwise the record may omit that attribution.
 
 **Not this pattern when.** If the question is only what a document says, use A.7/C.2/E.17. If the question is only evidentiary support for a later claim or whether the communication caused a later effect, use A.10 or C.28 after identifying that claim. For whether an actual system or party has a duty, use A.2.8. When the Work is not an act of communicating under §4.1, use A.15.1 directly.
-> **Type:** Definitional (D)
-> **Normativity:** Normative (unless explicitly marked informative)
-> **Placement:** Part A → **A.2 System-role kinds, assignments, and agency kernel**
-> **Refines:** A.2 (System-role kinds and assignments)
-> **Builds on:** A.2.1 (`U.SystemRoleAssignment` direct species), A.2.6 (`Γ_time` and windows), A.7 (EntityOfConcern, Description episteme, and carrier), A.10 (SCR/RSCR carrier discipline), A.13 (precise local agency basis), A.15.1 (`U.Work`), and F.6 (`performedUnderAssignment` attribution)
-> **Purpose (one line):** Admit communicative enactments under `U.SpeechAct`, make a named receiving use and its smallest evidence-backed repair usable before heavier occurrence detail, and provide a minimal optional `SpeechActRecord` while keeping the act, record, utterance description, and evidence carrier separate.
-
-> FPF already treats communicative acts as observable events used in system-role-assignment-state checklists and grounding (“presence of act: AuthorizationSpeechAct exists…”); those checks cite actual occurrences admitted under `U.SpeechAct`, not the kind itself.
-> The spec’s micro-examples and conformance gates distinguish **communicative Work** (“performed a SpeechAct”) from **operational Work** (“executed Work”) while keeping both inside `U.Work` (cf. CC‑A15‑10 GateSplit).
-
 

@@ -6,17 +6,15 @@ section_id: "C.21:14"
 section_title: "Practitioner Quick Template"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__017_practitioner-quick-template.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:14 — Practitioner Quick Template"
-line_start: 62776
-line_end: 62798
+line_start: 61757
+line_end: 61779
 dependencies:
   - "A.10"
-  - "A.17"
   - "A.17-A.18"
-  - "A.18"
   - "A.19"
   - "A.2.6"
   - "B.3"
@@ -24,7 +22,6 @@ dependencies:
   - "C.2"
   - "C.2.1"
   - "C.20"
-  - "C.I"
   - "E.24.PUB"
   - "F.9"
   - "G.0"
@@ -67,7 +64,7 @@ Only if measurement, comparison, or aggregation is current
   Legal operation or target-distance rule: <exact ref>
 
 Only if a reusable series, dashboard, or publication is current
-  Series episteme: <exact coordinate-result refs and windows>
+  Series episteme: <only if repeated windows are needed; exact coordinate-result refs and windows>
   Dashboard representation: <optional G.12 row/slice refs>
   Publication: <optional E.24.PUB relation, audience, bounded use, form, carrier, interval>
 ```

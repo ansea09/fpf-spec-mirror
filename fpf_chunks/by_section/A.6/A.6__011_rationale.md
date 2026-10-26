@@ -6,12 +6,12 @@ section_id: "A.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:10 — Rationale"
-line_start: 14273
-line_end: 14285
+line_start: 14064
+line_end: 14076
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,14 +57,14 @@ keywords:
 
 ### A.6:10 - Rationale
 
-The claims in a boundary description concern:
+A boundary account can contain different claims, including:
 
-* a **mathematical object** (signature: operations over vocabulary, governed by laws),
-* an **engineering boundary signature** (stable intent, evolvable implementations),
-* a **governance object** (commitments, responsibilities, deontics), and
+* definitions and laws about operations or other mathematical objects;
+* admissibility conditions for the selected operation;
+* prescriptions, commitments or grants under their governing rules; and
 * **actual occurrences and evidence** (effects may arise through Work, natural or spontaneous transformation, formal change, or another directly governed interaction, and evidence supports but does not create them).
 
 Mixing these claims makes it harder to distinguish a semantic boundary change from an implementation change, and to test each claim against its own rule and evidence.
 
-The stack creates a default **direction of dependence**: higher layers constrain lower layers, not vice versa. The matrix creates a default **classification** that is not reliant on word choice alone and therefore survives natural‑language variation (“must”, “guarantee”, “valid”, “allowed”).
+Reusable declarations constrain their realizations, while observations and evaluated results can expose a reason to revise those declarations. Keep the dependence and the reason for revision distinct. The classification follows what each claim says rather than its visible word, such as “must”, “guarantee”, “valid” or “allowed”.
 

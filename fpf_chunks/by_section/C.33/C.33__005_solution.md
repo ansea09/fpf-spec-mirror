@@ -6,12 +6,12 @@ section_id: "C.33:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:4 — Solution"
-line_start: 80890
-line_end: 80912
+line_start: 79725
+line_end: 79745
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -52,22 +52,20 @@ keywords:
 
 ### C.33:4 - Solution
 
-Create one `StructuralInformationAdequacyNote@Context` for the declared architecture use.
-
-Read the note as a small missing-structure return tool, not as a new documentation format. Its didactic question is simple: "What can I safely take from this carrier, what must I not take, and where do I go if the missing structure matters?"
+Assess the captured structure for the declared architecture use. Explain what the carrier supports and obtain any missing structure needed for further reliance. Use the optional note when it makes that explanation easier to retain or share.
 
 Work in this order:
 
 1. Name the architecture claim or pre-claim, described holon, architecture concern, intended use, and any ClaimScope or qualification window that changes the adequacy judgment.
-2. Name the selected structure refs or structure kinds being relied on. If they are not recoverable, stop and use `C.30`, `C.30.ASV`, `A.22`, or `C.32.P2S`.
+2. Identify the selected structures being relied on. If a needed structure is not recoverable, leave the dependent adequacy conclusion open and recover it through `C.30`, `C.30.ASV`, `A.22` or `C.32.P2S` as appropriate. Retain independently supported uses.
 3. Name the carrier, selected source structure, description, view, narrative rendering, decision record, eval report, method handoff, generated relation graph, or realized observation being used.
 4. State the captured selected structure in relation terms: relations, constraints, invariants, allocations, compositions, variation classes, operations, dynamics refs, or preserved organization.
 5. State the expected but uncaptured structure when the next use needs it: hidden placement, data custody, runtime dependency, transformation-flow relation, unexplored region, or missing bearer. State any unresolved source-label semantics or missing confidence class separately when it changes that use.
-6. State lost or hidden structure. If no loss is claimed, justify why the carrier is adequate for the declared use rather than for all uses.
+6. State lost or hidden structure when it limits the intended use or could mislead its reader. Explain the basis of the adequacy conclusion; no invented loss is required when the captured structure suffices.
 7. Add the observer and budget conditions needed to interpret a `C.2.8` comparison or a source obtained from a bounded observer, learned representation, probe, relation graph, or epiplexity-style lens. Keep preparation, source access and actual help visible when they can change the recovery claim.
 8. Add source label recovery when unresolved terms from a domain practice such as neural-network architectures, software modules, built assets, organizational roles, methods, or work change an architecture claim or its next use.
 9. Use the pattern that defines or tests each mathematical-lens, measurement, eval, decision, evidence, assurance, gate, release, method, work, or publication claim when one of those claims is current.
-10. Stop when admissible use, non-admissible use, missing-structure return condition, the next claim or question, and its required rule or test are clear.
+10. Stop when the supported use is clear, with any material limitation and the missing structure needed to resolve it. Apply a further rule or test only when the receiving claim needs it.
 
 CGUS-aware neighbor use: when a carrier, route card, narrative rendering, architecture description, framework publication, or generated relation graph is relied on because it preserves a constraint-governed unfolding structure, C.33 records only what that carrier captures and loses. The selected structure remains `ConstraintGovernedUnfoldingStructure@Context` or a local `U.Structure` block governed by `A.22.CGUS`, `E.18.3`, `C.32.P2S`, `E.23`, or another direct structure pattern. When the carrier is a narrative, `A.6.3.NAR` governs only its selected-source carry-through, ordering and connective account, loss, reader use, and source return; it neither selects nor admits the structure.
 

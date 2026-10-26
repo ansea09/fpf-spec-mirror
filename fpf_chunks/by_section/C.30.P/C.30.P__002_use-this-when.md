@@ -6,12 +6,12 @@ section_id: "C.30.P:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.P — Clarify Architecture and Structure Wording (Precision Restoration)"
   - "C.30.P:0 — Use this when"
-line_start: 72810
-line_end: 72833
+line_start: 71778
+line_end: 71801
 dependencies:
   - "A.10"
   - "A.15"
@@ -71,14 +71,14 @@ Typical triggers:
 
 **What goes wrong if missed.** A diagram becomes the architecture, a graph becomes proof, a view becomes the selected structure, a source document becomes an architecture decision, a score becomes architecture adequacy, or a function, module, or interface claim becomes architecture by default.
 
-**What this buys.** The reader can recover the architecture or structure use under repair, block the overread, and move to the subject pattern: selected structure under `A.22`, grounded architecture claim or conditional architecture description under `C.30`, architecture structural view under `C.30.ASV`, stratification-wording repair and source-label repair under `C.30.STRAT`, architecture transformation-flow relation under `C.30.TFS-REL`, control-structure view under `C.30.LCA`, mathematical lens under `C.29`, characteristic and scale repair under `C.16.P`, or a project-side evidence, assurance, gate, work, decision, causal-use, release, or publication pattern.
+**What this buys.** The reader can state the intended claim, retain its useful content, and use the pattern that addresses the remaining question. Clear ordinary wording needs no repair record.
 
-**First useful move.** Ask which selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or neighboring claim the architecture or structure wording is actually naming, then either apply the architecture or structure pattern named by value directly or use one `architecture-structure repair note` to assign the claim elsewhere.
+**First useful move.** Recover what the sentence says and what the reader needs to do with it. Keep adequate ordinary wording. Otherwise rewrite the ambiguous claim, then use its subject pattern for any remaining substantive question. A repair note is optional when the repair needs to remain inspectable.
 
 **Not this pattern when.**
 
 - If the use under repair is already a selected structure, use `A.22` directly.
-- If the use under repair is already `ArchitectureOf@Context`, use `C.30` directly. If the use under repair is the full `ArchitectureDescription@Context` mechanism, use `C.30.AD`; use `C.30` only for the thin architecture-description bridge tied to one architecture move.
+- For an already recoverable `ArchitectureRelation` or bounded `ArchitectureClaim`, use `C.30` directly. For architecture-description identity, correspondence or use, use `C.30.AD`; use `C.30` for the initial description question tied to one architecture move.
 - If the use under repair is already an architecture structural view, use `C.30.ASV` or a named `C.30.*` view pattern directly.
 - If the claim being made is evidence, assurance, gate, work, decision, causal-use, release, mathematical-lens use, characteristic and scale construction, quality characterization, source-use, or relation construction, use the subject pattern for that claim after any architecture or structure wording is demoted or assigned.
 

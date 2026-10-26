@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
   - "A.6.RSIG:7 — Conformance checklist"
-line_start: 14687
-line_end: 14709
+line_start: 14406
+line_end: 14425
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -35,10 +35,7 @@ keywords:
 - **CC-RSIG-4 No kind inflation.** An ordinary recognition cue is not by itself a
   typed `U.Signature`; a task requiring a typed declaration uses the applicable
   neighboring pattern under §4.5.
-- **CC-RSIG-5 Recoverable cue shape.** For load-bearing cases, description,
-  viewpoint, cue, applicability, exclusion, defining `U.Episteme`, and admissible
-  entry stop remain recoverable. A false neighbor is required only when the
-  grounded-guard condition in §4.1 holds.
+- **CC-RSIG-5 Recoverable cue.** For a consequential recognition use, keep the description’s purpose, applicability, defining source and next inspection recoverable. Include viewpoint, carrier/projection distinctions, exclusions or a false-neighbor correction when they change the reading under §4.1.
 - **CC-RSIG-6 No alias minting.** Query cues and ordinary phrasing do not by
   themselves establish a naming settlement or Bridge. Use `F.18` for naming
   settlement and `F.9` for a Bridge, each under its own conditions.

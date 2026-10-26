@@ -6,12 +6,12 @@ section_id: "C.37:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 82080
-line_end: 82092
+line_start: 80905
+line_end: 80917
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -46,6 +46,6 @@ keywords:
 | Publication as representation authority | A published diagram is accepted because it is available and readable. | Recover the direct subject result, any exact conformance or correspondence, and the relied-on claim; E.24.PUB supplies availability only. |
 | Co-use as composition | Several rows become a collection, structure, integrated view, or graph by adjacency. | Keep independent rows; open C.13, A.22, E.17.0, C.29, or a domain integration pattern only for an additional named claim. |
 | Duplicate account | A completed immediate choice is made to create an unused record, or an owning result and standalone episteme repeat the same claims. | Retain the complete basis only for a use that needs it; embed once in the same-use owner when available, otherwise use one identifiable account. |
-| Cross-use carryover | A row selected for one decision is silently reused for tailoring, learning, maintenance, or another action. | Start another account and re-evaluate direct result, loss, path, disposition, and receiving result. |
+| Cross-use carryover | A row selected for one decision is silently reused for tailoring, learning, maintenance, or another action. | Establish the new use account. Reuse unaffected direct results and reassess the claim, loss, path, disposition or receiving result that the changed action affects. |
 | Diagram-first ontology | What exists or what happened is inferred from a graph, table, card, or route shape without the direct subject result. | Recover the direct object and relation first; then state the exact representation use or `none`. |
 

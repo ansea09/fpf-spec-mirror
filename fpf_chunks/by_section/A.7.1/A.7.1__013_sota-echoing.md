@@ -6,16 +6,19 @@ section_id: "A.7.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__013_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:11 — SoTA-Echoing"
-line_start: 26252
-line_end: 26262
+line_start: 25802
+line_end: 25811
 dependencies:
+  - "A.11"
   - "A.7"
+  - "A.7.1"
   - "A.7.2"
   - "A.7.CP"
+  - "A.8"
   - "C.19.2"
   - "E.24"
   - "E.24.UK"
@@ -30,12 +33,11 @@ keywords:
 
 ### A.7.1:11 - SoTA-Echoing
 
-| Practice question | Current practice and source | FPF alignment | Disposition |
+| Practice question | Source contribution | FPF alignment | Disposition |
 |---|---|---|---|
 | How should analysis effort be bounded? | Resource-rational cognition ties analysis to decision value under limited resources (Lieder & Griffiths 2020). | The useful threshold, first-capable locus, and positive subject-qualified result or blocker bound current ontology work. The missing-telemetry case demonstrates non-use. | **Adapt.** No universal cost scalar decides ontology truth. |
 | How much model detail is useful? | Resolution is question-relative and balances decision distortion against parsimony (Merrick & Weyant 2019). | A working account is enough when alternatives cannot change the result or guarantee; consequence-changing cases reopen it. | **Adapt.** FPF preserves multiple direct ontological accounts under their applicable patterns rather than one resolution axis. |
-| Do different ontology questions need different methods and outputs? | Current competency-question research distinguishes purposes and expected products (Keet & Khan 2024). | The four diagnostic loci and result dispositions keep domain, wording, typed, constructive, and return outcomes distinct. | **Adapt.** No mandatory competency-question artifact is imposed. |
+| Do different ontology questions need different methods and outputs? | Competency-question research distinguishes purposes and expected products (Keet & Khan 2024). | The four diagnostic loci and result dispositions keep domain, wording, typed, constructive, and return outcomes distinct. | **Adapt.** No mandatory competency-question artifact is imposed. |
 | When should a coarse account be refined? | Counterexample-guided abstraction refinement repairs only distinctions exposed by a consequential counterexample (Clarke et al. 2000, canonical verification lineage). | A grounded counterexample can trigger one application and reopen the smallest receiving claim. | **Comparator only.** Model-checking authority and tooling are not generalized to ontology. |
 
-These sources change the working method and its cases. They do not license a fixed explication ladder, exhaustive ontology traversal, or replacement of domain evidence by conceptual work.
 

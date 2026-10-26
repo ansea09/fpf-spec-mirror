@@ -6,12 +6,12 @@ section_id: "C.32.ACS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:1 — Problem frame"
-line_start: 77575
-line_end: 77662
+line_start: 76485
+line_end: 76574
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,15 +61,15 @@ Typical entry phrases:
 "Architecture around a Method, local system-role kind, separate System-classification judgment, assignment, AI workflow, or built asset has trustworthiness or teachability pressure; what is the exact characteristic bearer and which Q-Bundle slot or ACS row is current?"
 ```
 
-**First-minute use slice.** A product-family architect has HCS starter heads and source catalogue names for maintainability, substitutability, evidence reuse, safety, availability, latency, and scale amenability. Using C.32.ACS, the practitioner builds project rows and gives each row its bearer, exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, qualification or evaluation window, scale form, proxy risk, protected losses, and source-return condition. Maintainability, substitutability, and evidence reuse become optimization indicators; safety and availability remain monitored guardrails. The source phrase "scale amenability" remains only a starter cue until ACS admits a concrete characteristic row, such as exception growth or interface-grammar variation, with its bearer and scale form; a claim that one alternative is preferable under a declared scale window remains a separate `C.31.ASAP` object. C.32 can now synthesize candidates against declared criteria instead of a loose list of quality words.
+**First-minute use slice.** A product-family architect has HCS starter heads and source catalogue names for maintainability, substitutability, evidence reuse, safety, availability, latency, and scale amenability. Using C.32.ACS, the practitioner builds project rows and gives each admitted row its bearer, exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, qualification or evaluation window, scale form, relevant proxy risk and protected losses, and a source-return condition when that use needs one. Maintainability, substitutability, and evidence reuse become optimization indicators; safety and availability remain monitored guardrails. The source phrase "scale amenability" remains only a starter cue until ACS admits a concrete characteristic row, such as exception growth or interface-grammar variation, with its bearer and scale form; a claim that one alternative is preferable under a declared scale window remains a separate `C.31.ASAP` object. C.32 can now synthesize candidates against declared criteria instead of a loose list of quality words.
 
-This pattern concerns one project architecture-characteristic criteria-set record for improvement cycles. Its rows can supply C.32 synthesis, C.32.MLAO residual work, C.32.ACE eval programs, and later patterns for the next questions. The set and its rows are C.32.ACS-local record forms, not new `U.*` kinds; starter packs, `U.Characteristic` values, Q-Bundles, measurement methods and results, eval programs and results, candidate palettes, comparison rules, selection results, G.5 result declarations, actual publications, local choices, and architecture decisions remain separate objects.
+This pattern constructs a project architecture-characteristic criteria set for the receiving improvement or evaluation question. The optional records below can keep its bindings recoverable. Its rows can supply C.32 synthesis, C.32.MLAO residual work, C.32.ACE eval programs, and later patterns for the next questions. The named set and row records are C.32.ACS-local forms, not new `U.*` kinds; starter packs, `U.Characteristic` values, Q-Bundles, measurement methods and results, eval programs and results, candidate palettes, comparison rules, selection results, G.5 result declarations, actual publications, local choices, and architecture decisions remain separate objects.
 
 Ordinary working move: make one row per project architecture characteristic, bind its bearer and scale, mark whether it drives optimization, guards against loss, or only gives context, and record what eval reading can reopen synthesis.
 
-The first useful output is `ArchitectureCharacteristicCriteriaSet@Project`:
+The first useful result is a set of criteria with their meanings, use classes and necessary bindings. Use `ArchitectureCharacteristicCriteriaSet@Project` when a record helps:
 
-For a first pass, fill the described holon, architecture use, a small set of draft row names, and for every row the bearer or selected structure, exact claim scope and selected context slices, reference scheme and plane, qualification or evaluation window, scale form, use class, protected losses, receiving use, and reopen condition. Add readings, target bands, and eval-program references only when the current receiving use needs them; add a selected `BoundedModelUseStructure` only when it independently changes interpretation of the row use.
+For a first pass, identify the described holon, architecture use, a small set of draft criteria and their possible bearers. Keep missing bindings as explicit questions. Before admitting a criterion for its receiving use, establish its bearer or selected structure, claim scope and relevant context slices, reference scheme and applicable plane, qualification or evaluation window, scale form, use class, protected losses and reopen condition. An incomplete draft does not yet support that use. Add readings, target bands, and eval-program references only when the current receiving use needs them; add a selected `BoundedModelUseStructure` only when it independently changes interpretation of the row use.
 
 ```text
 ArchitectureCharacteristicCriteriaSet@Project:
@@ -99,10 +99,10 @@ ArchitectureCharacteristicCriteriaSet@Project:
       targetBandOrStopCondition?:
       readingMethodRefOrNoReadingReason:
       evalProgramRefs?:
-      proxyRisk:
-      protectedCounterCharacteristicRefs:
+      proxyRisk: relevant risk, unresolved risk, or reason no material proxy risk was identified
+      protectedCounterCharacteristicRefs?: when a loss needs protection
       receivingUseRef:
-      sourceReturnCondition:
+      sourceReturnCondition?: when source return can change the receiving use
   optimizationIndicatorRowRefs:
   monitoredGuardrailRowRefs:
   contextOnlyRowRefs?:
@@ -112,11 +112,13 @@ ArchitectureCharacteristicCriteriaSet@Project:
 
 For `ArchitectureCharacteristicCriteriaSet@Project` and `ArchitectureCharacteristicImprovementRow@Project`, `@Project` is a compatibility and retrieval cue only; it establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. A criteria set or improvement row local to one actual project names both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining direct use relation for that exact record in `architectureCriteriaProjectUseRelationRef`; either field alone is insufficient, and a relation occurrence about the set is not silently reused for a distinct row. Otherwise the record remains retrieval-only and no project locality is asserted.
 
+If precise Work is asserted, recover each actual performer System's A.13 core, then independently admit the dated occurrence under A.15.1 from its performance history, Method actually followed, temporal extent and required containing-System relation. Add F.6 only when the receiving use consumes precise assignment-bound attribution through the same obtaining A.13 assignment and its declared species. F.6 identifies neither assignment nor performer; missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds still hold.
+
 `draftProjectCriteriaRows` are draft project criteria rows. They are not candidate architectures, selected architectures, or a selected set returned by `A.19.SelectorMechanism`.
 
 What goes wrong if C.32.ACS is missed: the team says that the architecture should be more maintainable, scalable, modular, safe, or evolvable, but no one can say which selected structures carry the characteristic, which few rows are criteria for the next optimization, which rows only guard against loss, which C.25 Q-Bundle is involved, or which eval result can reopen synthesis.
 
-What C.32.ACS buys in practice: the practitioner can reduce broad catalogue and starter-pack material to draft project criteria rows, then to three to five optimization indicators, while keeping other important characteristics as monitored guardrails against Goodhart-style proxy loss.
+The practitioner can narrow catalogue or starter material to criteria that change the next action, with optimization indicators distinguished from binding constraints and safeguards against proxy loss.
 
 Adoption test: after using C.32.ACS, the project can name the few rows that drive optimization, the guardrail rows that protect against loss, and the bearer, scale, proxy risk, receiving use, and reopen condition for each live row.
 
@@ -131,7 +133,7 @@ Common exits by claim kind:
 - `E.13` when an indicator, score, or dashboard starts replacing the declared architecture concern.
 - `E.22` and `E.23` for improvement-question framing and repeated improvement method.
 - `C.32` for candidate synthesis and `C.32.MLAO` for residual-reducing candidates.
-- `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice, and `G.5` for selected-set result declaration. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
+- `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice, and `G.5` for selected-set result declaration. For publication, use `E.24.PUB` for the publication occurrence and audience availability, and E.17 when a source-backed face and source return are needed.
 - `A.10` for source recovery and bounded reliance, `G.6` when an addressable provenance path is needed, and `B.3` for an actual named assurance claim; use the direct pattern that defines or tests any additional evidence or validity claim.
 - `C.32.PAD` for project decision.
 

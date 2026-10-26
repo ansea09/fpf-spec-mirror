@@ -6,12 +6,12 @@ section_id: "A.14:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 28846
-line_end: 28855
+line_start: 28414
+line_end: 28423
 dependencies:
   - "A.1"
   - "A.15"
@@ -60,5 +60,5 @@ keywords:
 - **Method as part.** A Method, recipe, or algorithm is treated as a structural component instead of using Method, MethodDescription, Work, or transformation patterns.
 - **Portion without measure.** Some fuel, data, time, or text is named as a portion without measure kind, unit, boundary, and additivity conditions.
 - **Phase as replacement or lineage.** Another episteme, version label, or Work segment is treated as PhaseOf without applying C.2.1 or A.15.1.
-- **Diagram or trace as relation.** A breakdown, graph, table, construction trace, or validation mode is used as proof that parthood or identity obtains.
+- **Diagram or trace as relation.** The presence or form of a breakdown, graph, table or trace is taken as proof of parthood or identity. Inspect its content and the applicable relation and identity rules; the content may supply grounds, while the representation alone establishes no occurrence.
 

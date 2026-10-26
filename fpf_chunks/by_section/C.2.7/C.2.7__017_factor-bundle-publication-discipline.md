@@ -6,17 +6,18 @@ section_id: "C.2.7:16"
 section_title: "Factor-Bundle Publication Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__017_factor-bundle-publication-discipline.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:16 — Factor-Bundle Publication Discipline"
-line_start: 54287
-line_end: 54297
+line_start: 53433
+line_end: 53443
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.18"
+  - "A.19"
   - "B.4.1"
   - "B.5.2.0"
   - "C.2.2a"
@@ -36,7 +37,7 @@ keywords:
 ### C.2.7:16 - Factor-Bundle Publication Discipline
 
 #### C.2.7:16.1 - Minimal representation package
-A publishable `U.LanguageStateRepresentationFactorBundle` should normally show the current factor settings for locality/distribution, sparsity/density, and symbolicity/subsymbolicity, together with any declared extra factor. If a factor is intentionally omitted, say so rather than hiding the omission under a compact alias.
+A bundle claim should show the readings relevant to its stated use, using the starter factors and any declared additions. A partial bundle can suffice; identify an omitted or unresolved factor when it could change the comparison or continuation. An alias must not imply that an unreported reading is known.
 
 #### C.2.7:16.2 - No hidden scalar rule
 Compact overlays such as "sparse-symbolic" are admissible only when they dock to the underlying factor bundle. No compact label may behave as a hidden master score for comparison, bridge comparison, or stage/progression talk.

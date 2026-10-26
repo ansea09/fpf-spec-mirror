@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:1 — Problem frame"
-line_start: 43264
-line_end: 43273
+line_start: 42432
+line_end: 42441
 dependencies:
   - "A.3.1"
   - "B.1.5"

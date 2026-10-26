@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:4 — Solution"
-line_start: 39732
-line_end: 39883
+line_start: 38936
+line_end: 39085
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -58,8 +58,6 @@ Method semantics and SoTA algorithm families do not live inside the kernel: they
 * **IntensionHeader:** `id = SelectorMechanism`, `version = 1.0.0`, `status = stable`.
 
 * **IntensionRef:** `SelectorMechanism.IntensionRef` designates this `U.Mechanism` episteme as the canonical suite member named in `A.19.CHR:4.2`; it is not the `EntityOfConcernRef` of the declared operation family.
-
-* **Tell.** Universal set‑returning selection kernel over candidates and criteria; defaults remain policy‑bound; **no hidden thresholds**.
 
 * **Purpose:** universal set‑returning selection kernel over candidates and criteria; defaults remain policy‑bound; **no hidden thresholds**.
 
@@ -122,7 +120,7 @@ For example, use the admitted incomparable supplier pair from A.19.CPM §4.1 and
 
 * **LawSet** (minimum): the selection kernel is set-returning and policy-bound
 
-  1. **Set‑returning by default:** a conformant `Select` MUST return a declared selected set by default. It MUST NOT silently collapse partial orders or incomparabilities to a single winner; if a singleton outcome is required, it MUST be an explicit criterion (or a declared upstream total order).
+  1. **Set‑returning by default:** a conformant `Select` MUST return a declared selected set by default. It MUST NOT silently collapse partial orders or incomparabilities to a single winner; a singleton outcome MUST follow from the explicit criteria applied to the admitted comparison outcomes.
   2. **No hidden thresholds or constants:** a conformant publication MUST NOT smuggle thresholds, weights, dominance rules, or tie‑breakers. Selection‑level commitments MUST be explicit in `CriteriaSlot` and, where needed, in explicit policy defaults exposed through `TaskSignatureSlot`. Admissibility and acceptance thresholds are applied only via `SelectEligibility` using `CNSpecSlot.acceptance` and the effective evidence policy (`MinimalEvidenceSlot?` or `CGSpecSlot.MinimalEvidence`).
   3. **No hidden scalarization or token aggregation by assertion:** a conformant publication MUST consume `ComparisonResultSlot` as the exact union of the finite basis members' justified set-valued or partial outputs. Every consumed token MUST be traceable to at least one exact producing CPM application. Scalar summaries or relation tokens inferred from a missing pair, empty output, `degrade`, or `abstain` are forbidden; scalar summaries, if produced at all, are report-only unless explicitly promoted by policy outside suite closure.
   4. **Evidence gating is explicit:** when selection depends on evidence, it MUST cite either `MinimalEvidenceSlot` or the effective `CGSpecSlot.MinimalEvidence` policy and evaluate selection with the tri-state predicate. Candidate-level ineligibility handling MUST be explicit in current criteria or upstream results and bound by the actual selection application; the kernel MUST NOT invent evidence thresholds.
@@ -152,7 +150,7 @@ For example, use the admitted incomparable supplier pair from A.19.CPM §4.1 and
 
 * **Neighboring dated work, operation application, result binding, and evidence relations:**
 
-  The identified Select application binds the candidate set, finite comparison basis, required coverage, token union, selection-use arguments, policies and returned SelectionSlot. If the account also asserts dated selection U.Work, A.15.1 independently admits that performance; neither its identity nor extent is automatically that of one Select application. When the account asserts them or the receiving use consumes them, A.2.4 governs evidence use with its own claim scope and relevance window, A.10 governs reliance and provenance, and G.11 governs source or assertion-edition currentness. A durable selected-set episteme, when needed, is governed by C.2.1, and any current entity-identity inception claim by A.15.PROD. No universal work-result, comparison-result, or selection-result relation is presumed. To replay the selection, recover:
+  The identified Select application binds the candidate set, finite comparison basis, required coverage, token union, selection-use arguments, policies and returned SelectionSlot. If the account also asserts dated selection U.Work, first establish its A.13 core: the performing System, exact local agential-role kind and membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits that performance; F.6 applies afterward only for precise assignment-bound attribution. The Work identity and extent are not automatically those of one Select application. When the account asserts them or the receiving use consumes them, A.2.4 governs evidence use with its own claim scope and relevance window, A.10 governs reliance and provenance, and G.11 governs source or assertion-edition currentness. A durable selected-set episteme, when needed, is governed by C.2.1, and any current entity-identity inception claim by A.15.PROD. No universal work-result, comparison-result, or selection-result relation is presumed. To replay the selection, recover:
 
   * the candidate set and required binary comparisons; for every basis member, the exact CPM application, pair, realized `GuardDecision`, and its own output binding or explicit absence; and the trace from every consumed token to its producing member;
   * one `U.ClaimScope`, selected A.2.6 context slices, A.19 predicate basis, effective reference scheme and plane, and evaluation point or interval shared as required by the selection conditions;
@@ -169,7 +167,7 @@ For example, use the admitted incomparable supplier pair from A.19.CPM §4.1 and
 
 0. **Selection conditions are explicit values, not a new object kind.** The actual application binds `CriteriaSlot` plus effective selector-policy refs, defaults, and `degrade` failure behavior. Acceptance and admission predicates remain separate. `SelectionSlot` contains only the resulting candidate set; eligibility, conditions, scope, evidence, and replay metadata stay outside it.
 
-1. **Selection consumes a traceable finite basis of upstream CHR products; it does not invent them.** Any indicator-derived scoring or comparison input retains its exact A.19 basis and the UINDM positions selected under that declaration. A changed basis requires the affected upstream position resolution and result again; the selector cannot carry old naked indices into the new declaration. The actual use binds exact binary CPM applications separately and supplies `ComparisonResultSlot` only as the union of their justified outputs. The kernel MUST NOT perform normalization (UNM), indicatorization (UINDM), scoring (USCM), folding (ULSAM), comparison (CPM), batch-result fabrication, or missing-pair completion inside `Select`. If a scalar “overall score” is desired, it must be declared upstream as an admissible scoring or comparator choice, not invented inside selection.
+1. **Selection consumes a traceable finite basis of upstream CHR products; it does not invent them.** Any indicator-derived scoring or comparison input retains its exact A.19 basis and the UINDM positions selected under that declaration. A changed basis requires rechecking affected upstream position resolutions and dependent results, preserving reuse where their grounds still hold; the selector cannot carry old naked indices into the new declaration. The actual use binds exact binary CPM applications separately and supplies `ComparisonResultSlot` only as the union of their justified outputs. The kernel MUST NOT perform normalization (UNM), indicatorization (UINDM), scoring (USCM), folding (ULSAM), comparison (CPM), batch-result fabrication, or missing-pair completion inside `Select`. If a scalar “overall score” is desired, it must be declared upstream as an admissible scoring or comparator choice, not invented inside selection.
 
 2. **Threshold discipline (acceptance is not selection).** Acceptance and admission thresholds are not selection criteria: they remain in their governing declarations and are applied only through `SelectEligibility`. Selection-level tie-breakers, `PortfolioMode`, and selected-set constraints may exist, but they MUST be explicit in current criteria or policy refs and bound by the actual selection application, never hidden as unnamed constants.
 
@@ -184,7 +182,7 @@ For example, use the admitted incomparable supplier pair from A.19.CPM §4.1 and
 
    For the exact refinement, conservative-extension or equivalence claim, apply its own `A.6.1 §4.8` test, preserving the applicable operation, application and binding meanings. CC‑A19SelectorMechanism‑10 retains the exact predicate, endpoint facts and A.6.RCD gap branch.
 
-5. **Planned use and actual binding.** An A.15.2 baseline selects TaskSignature, CG-Spec and evidence-policy editions. A.15.3 supplies planned filling only for an independently declared receiving position. Actual Select arguments and returns are established under this declaration; the planned values remain available for a separately governed comparison with what occurred.
+5. **Planned use and actual binding.** On a P2W path, an A.15.2 baseline selects TaskSignature, CG-Spec and evidence-policy editions. A.15.3 supplies planned filling only for an independently declared receiving position. Actual Select arguments and returns are established under this declaration; the planned values remain available for a separately governed comparison with what occurred.
 
 ---
 

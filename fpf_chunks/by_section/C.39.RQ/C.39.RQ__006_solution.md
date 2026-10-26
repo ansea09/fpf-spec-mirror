@@ -6,12 +6,12 @@ section_id: "C.39.RQ:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:4 — Solution"
-line_start: 83718
-line_end: 83765
+line_start: 82542
+line_end: 82589
 dependencies:
   - "A.3.1"
   - "C.11"
@@ -31,7 +31,7 @@ Recognition is cheap: recurring Work, a changed constraint, or one plausible cap
 
 #### C.39.RQ:4.1 - Pattern-Use Unfolding
 
-1. **Bound the situation family.** Name representative Work, receiving result, affected subjects, decision window, recurrence expected, important variants, and ordinary exclusions. Recover the subject of each project, process, or case claim under `A.15.6`; attach a criterion to the plan, Method, Work, result, or other subject it constrains. Several accounts concern one Work only when their claims support that reading.
+1. **Bound the situation family.** Name representative Work, receiving result, affected subjects, decision window, recurrence expected, important variants, and ordinary exclusions. Use `A.15.6` when a project, process or case claim leaves its subject unclear; attach a criterion to the plan, Method, Work, result, or other subject it constrains. Several accounts concern one Work only when their claims support that reading.
 2. **State required contributions before candidates.** Describe the reusable actions, results, or preserved conditions that one Method or named Method relations must contribute. Do not write a familiar candidate's current procedure as the requirement unless that exact feature is independently non-negotiable.
 3. **Use source prompts without importing kinds.** Ask what goal, procedure, rationale, framing, mindset, intended use, representation, tool, scope, and adaptation conditions a source makes visible. Place the answer with its actual subject. A stated mindset may be description content; an obtaining capability or cultural relation needs separate evidence.
 4. **Recover conditions around enactment.** State performer capabilities, technical and organizational conditions, inputs, support/provider access, responsibility, covering Work assignments, permission and decision-authority relations, evidence timing, reversibility, and other Work or result constraints. Keep these conditions distinct from one another and from the performed Work and its decision result.
@@ -39,7 +39,7 @@ Recognition is cheap: recurring Work, a changed constraint, or one plausible cap
 6. **Set burdens at the right level.** Attach time, attention, capacity, delay, meeting, or cost limits to a participant, Work scope, and window. Keep individual burden distinguishable from combined peak demand and burden transferred to another participant or period.
 7. **Name evidence and observations.** For every decision-changing criterion, state what record or observation a later evaluation needs, its edition or window when material, and what would count as satisfied, failed, or unknown. Do not turn the requested evidence into a fit verdict.
 8. **State acceptance, stop, and reopen rules.** Say when the criteria set is adequate for its next use, which missing fact stops that route, and which situation or source change requires rebuilding it. A stop may route to capability, support, authority, product, or Work redesign rather than Method selection.
-9. **Return without selecting.** Publish the criteria by subject and decision level. Send individual subject questions to A.3.1.QM and combined structure questions to C.32.MWA.PP only when their own entry conditions hold.
+9. **Return without selecting.** Make the criteria available by subject and decision level; an adequate existing account can carry them. Send individual subject questions to A.3.1.QM and combined structure questions to C.32.MWA.PP only when their own entry conditions hold.
 
 #### C.39.RQ:4.2 - Record the Result
 

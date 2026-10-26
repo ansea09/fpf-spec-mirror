@@ -6,12 +6,12 @@ section_id: "C.29:8"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__009_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:8 — Bias-Annotation"
-line_start: 69748
-line_end: 69760
+line_start: 68722
+line_end: 68734
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -69,7 +69,7 @@ keywords:
 | **Category-theory monoculture** | Use category-theoretic material only when composition, interfaces, views, transformations, or transport structure matters to the stated use; otherwise choose the local lens family that exposes the working cue. |
 | **Speculation laundering** | Keep the metric/noise-coupling use in :13.2 conditional on its actual model assumptions and correspondence. |
 | **Over-formalization** | Apply :4.4's consequence/reliance rule; reusing or publishing a conditional explanation alone does not require a full empirical-model account. |
-| **Scale blindness** | Require `ScaleWindow?`; coordinate scale claims with `C.18.1` or `C.19.1`. |
+| **Scale blindness** | State the relevant scale window when the claim depends on it; use C.18.1, C.19.1 or C.31.ASAP for the respective scale-law or preference claim. |
 | **Causal laundering** | If the lens licenses causal claims, apply `C.28`; MathLensUse cannot supply causal use by itself. |
 | **Assurance laundering** | Mathematical elegance does not raise `R`; evidence and assurance use apply `A.10`, `B.3`, and relevant G patterns. |
 

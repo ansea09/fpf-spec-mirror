@@ -6,12 +6,12 @@ section_id: "C.3.A:4"
 section_title: "Normative guard macros"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__005_normative-guard-macros.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:4 — Normative guard macros"
-line_start: 56119
-line_end: 56218
+line_start: 55247
+line_end: 55346
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -90,7 +90,7 @@ Declaration compatibility alone MUST NOT classify a future or actual output. Sco
 
 `Guard_MaskedUse(artifact, candidate, kind, kindSignatureEdition, roleMaskEdition, TargetSlice)` SHALL:
 
-1. recover the exact C.2.1 RoleMask declaration episteme, its base kind, pinned base signature edition, intended use, candidate-feature constraints, bindings, dependencies, and definedness;
+1. recover the exact C.3.4 RoleMask declaration episteme, its base kind, pinned base signature edition, intended use, candidate-feature constraints, bindings, dependencies, and definedness;
 2. for cross-context use, compare base-kind identity and recover target declarations; when this use requires a correspondence between distinct kinds, establish the KindBridge relation and assertion under C.3.3 and recover any needed `MaskAdapter` declaration;
 3. check artifact scope separately through USM;
 4. check receiving admissibility; refuse on `not-applicable` without forming a judgment, otherwise evaluate `J_mask(candidate, kind, kindSignatureEdition, roleMaskEdition, TargetSlice)`;

@@ -6,12 +6,12 @@ section_id: "C.31:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:12 — Relations"
-line_start: 75502
-line_end: 75521
+line_start: 74444
+line_end: 74463
 dependencies:
   - "A.10"
   - "A.17"
@@ -47,8 +47,8 @@ keywords:
 
 | Pattern | Relation |
 | --- | --- |
-| `C.30.STRAT` | Recovers source labels such as layer, level, tier, stack, block, expert, cache, router, and gate before C.31 uses any recovered characteristic subject, scale cue, repair action, or proxy-risk row. |
-| `A.6.M` | Repairs module-interface relations before C.31 characterizes modularity. |
+| `C.30.STRAT` | Recovers unresolved stratification or structure meanings in source labels when those distinctions change the C.31 use. |
+| `A.6.M` | Repairs a module-interface claim when its meaning or required substitution conditions remain unresolved. |
 | `C.31.RSA` | Governs reusable-structure accounting, bespoke residue, and report-only shares. |
 | `C.31.ASAP` | Governs architecture scale-preference claims after C.31 names the scale-sensitive characteristic, scale variable or window, and repair direction. |
 | `C.16`, `A.17`, `A.18`, `A.19` | Govern characteristic, scale, coordinate, score, unit, comparability, and measurement admissibility. |
@@ -61,5 +61,5 @@ keywords:
 | `C.28` | Governs causal-use claims. |
 | `A.10`, `B.3`, `A.20`, `A.21` | Govern evidence provenance and reliance, named assurance claims, internal-constraint results, and named gate decisions, respectively. Safety and release claims use their direct domain patterns. |
 | `C.32.P2S` | Uses C.31 modularity and reusable-structure characteristics when problem pressure must continue into candidate synthesis, decision, realization, and actual-structure feedback; C.31 still governs only characteristic and report-only modularity use. |
-| `G.2`, `C.32`, `G.5`, `C.11` | Define SoTA-basis, candidate architecture synthesis, selected-set declaration, and local-decision predicates, respectively. Candidate-generation or architecture-synthesis claims stay outside C.31; each requires an exact current assertion satisfying the predicate or constraint whose defining `ClaimGraph` is located through `C.32` or another named candidate-generation or architecture-synthesis pattern description. C.31 records only modularity or reusable-structure characteristic use and report-only boundaries. |
+| `G.2`, `C.32`, `G.5`, `C.11` | Define SoTA-basis, candidate architecture synthesis, selected-set declaration, and local-decision predicates, respectively. Candidate-generation or architecture-synthesis claims use the Method and conditions in C.32 or another applicable synthesis pattern. C.31 records only modularity or reusable-structure characteristic use and report-only boundaries. |
 

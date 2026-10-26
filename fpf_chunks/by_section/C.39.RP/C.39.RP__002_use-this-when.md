@@ -6,12 +6,12 @@ section_id: "C.39.RP:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:0 — Use This When"
-line_start: 83489
-line_end: 83513
+line_start: 82312
+line_end: 82336
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -26,7 +26,7 @@ keywords:
 
 Use this pattern when a one-Method, plurality, or Method-relation focus needs alternatives, variants, evidence, and provenance that another practitioner can inspect and reuse. Typical uses include comparing several Methods, forming a project proposal, locating a variant, or checking whether a familiar source contribution still supports the current question.
 
-Begin with the named comparison or proposal use, the focus result or equivalent subject statement, and the practical result the project needs. Search the practice that owns that result; add primary Method-construction and reuse sources when their contribution can change the repertoire. Keep exact editions and status visible while assembling the smallest repertoire that can support the use.
+Begin with the named comparison or proposal use, the focus result or equivalent subject statement, and the practical result the project needs. Search the practice that owns that result; add primary Method-construction and reuse sources when their contribution can change the repertoire. Keep exact editions and status visible while assembling a repertoire sufficient for the use. Reuse an adequate repertoire whose grounds still apply.
 
 The first useful result is a set of status-preserving entries with claim-bearing source material, supported relations, evidence limits, currentness, and explicit missing positions. An honest gap is part of the repertoire when it changes comparison or proposal work.
 
@@ -36,7 +36,7 @@ Do not treat a bibliography, repository, package outline, observed Work, or list
 
 | Name used here | Meaning |
 | --- | --- |
-| named-use repertoire | The smallest inspectable result that exposes subjects, statuses, claim-bearing sources, relations, limits, and gaps for one comparison or proposal use. It is not every item in a repository. |
+| named-use repertoire | An inspectable result that exposes subjects, statuses, claim-bearing sources, relations, limits, and gaps for one comparison or proposal use. It is not every item in a repository. |
 | identified Method | A reusable world-side way of doing already identified under `A.3.1`. Repertoire inclusion does not repeat or strengthen that identity. |
 | candidate Method account | A provisional claim-bearing episteme about a possible Method. Repertoire inclusion preserves its unresolved identity conditions. |
 | MethodDescription | A description of one already identified Method under `A.3.2`, kept distinct from that Method, candidate accounts, and Work occurrences. |

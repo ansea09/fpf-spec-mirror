@@ -6,12 +6,12 @@ section_id: "A.2.8:7"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__010_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:7 — Bias Annotation"
-line_start: 8285
-line_end: 8295
+line_start: 8236
+line_end: 8246
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -30,7 +30,7 @@ dependencies:
 keywords:
   - "actual bearer"
   - "constitutive rule"
-  - "do not identify an individual bearer or institute a duty. Adapt"
+  - "do not identify an individual bearer or institute a duty"
   - "individual duty"
   - "instituting basis"
   - "obligation"
@@ -45,7 +45,7 @@ keywords:
 | --- | --- | --- |
 | Record-first bias | A filled form is treated as an obtaining relation. | Test the direct predicate; keep the record as an assertion. |
 | Office-label bias | A role, office, or assignment becomes the bearer. | Recover the actual system or party and use the kind or assignment only as a rule ground. |
-| Legal-form bias | A maximal legal-policy schema is imposed on every duty. | Keep the direct participants minimal and add grounds or assurance only when the current claim needs them. |
+| Legal-form bias | A maximal legal-policy schema is imposed on every duty. | Keep the direct participants minimal and establish the rule-required instituting basis. Add further legal-policy detail or assurance only when the receiving claim needs it. |
 | Evidence-as-constitution | An audit trail is treated as what creates the duty. | Keep support and institution separate. |
 | Responsibility overreach | Duty is read as ownership or accountability. | Apply the direct responsibility predicate or return its missing governor. |
 | Keyword bias | `MUST`, `SHALL`, `MAY`, or `responsible` selects an ontology by spelling. | Recover the claim first, then select the exact relation or ordinary non-use. |

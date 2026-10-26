@@ -6,12 +6,12 @@ section_id: "C.27:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:3 — Solution"
-line_start: 67071
-line_end: 67158
+line_start: 66044
+line_end: 66131
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -56,7 +56,7 @@ Use the least-committing result that changes the receiving action.
 2. Cite the exact C.27.TA episteme or ClaimAddress that states the positive temporal aspect. C.27 does not redefine its bearer, predicate, temporal reference, window, coupling, or currentness.
 3. Classify the source claim as Dyn0, Dyn1, or Dyn2.
 4. If it is Dyn0 or Dyn1 and no intervention-sensitive use remains, stop or use C.16.
-5. If it is Dyn2, write the one-screen card below.
+5. If it is Dyn2, supply the one-screen account below; its required content can remain one readable sentence.
 6. Add a direct neighboring result only when the supported use relies on its distinction.
 7. If the claim cannot meet the small card, narrow it. Do not open a larger profile merely because the card exposed uncertainty.
 
@@ -115,7 +115,7 @@ Keep coasting and debt distinct. Coasting describes continued movement or stabil
 
 #### C.27:3.4 - Boundary-Crossing Header
 
-Most uses stop at the one-screen card. When an exact beyond-local use depends on another pattern result, add only this header and exact references:
+Most uses stop at the one-screen account. When a receiving use depends on another pattern result, add its exact reference and contribution to that same account. The following header can organize those references when they need to travel together:
 
 ~~~text
 Dyn2TemporalClaimProfileClaimContent

@@ -6,12 +6,12 @@ section_id: "C.40.OC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:9 — Consequences"
-line_start: 86300
-line_end: 86307
+line_start: 85118
+line_end: 85125
 dependencies:
   - "C.11.CRC"
   - "C.16"
@@ -28,5 +28,5 @@ Practitioners gain a characterization that is smaller than a full diagnosis yet 
 
 The cost is that a familiar word such as *maturity* may unfold into several claims with different owners and evidence windows. Some apparently precise numbers become conditional or unusable. Completing the account may require measurements or specialist results that the current inquiry cannot afford.
 
-This pattern improves the integrity of the inquiry, not the subject itself. It supplies no measurement Work, capability, diagnosis, direction choice, intervention, assurance, or observed effect.
+The characterization supports the inquiry. Obtaining a measurement, diagnosing a condition or changing the subject still requires the applicable operation and evidence.
 

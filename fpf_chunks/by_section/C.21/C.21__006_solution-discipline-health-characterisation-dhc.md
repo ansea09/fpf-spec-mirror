@@ -6,17 +6,15 @@ section_id: "C.21:4"
 section_title: "Solution — Discipline Health Characterisation (DHC)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__006_solution-discipline-health-characterisation-dhc.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:4 — Solution — Discipline Health Characterisation (DHC)"
-line_start: 62585
-line_end: 62664
+line_start: 61565
+line_end: 61645
 dependencies:
   - "A.10"
-  - "A.17"
   - "A.17-A.18"
-  - "A.18"
   - "A.19"
   - "A.2.6"
   - "B.3"
@@ -24,7 +22,6 @@ dependencies:
   - "C.2"
   - "C.2.1"
   - "C.20"
-  - "C.I"
   - "E.24.PUB"
   - "F.9"
   - "G.0"
@@ -69,7 +66,7 @@ Rendering, measuring, assembling a series, uploading, and maintaining availabili
 
 #### C.21:4.0a - One replay basis for every persisted coordinate
 
-Every persisted, compared, aggregated, or published coordinate makes the following values recoverable. This is a field group, not another public kind:
+Every persisted, compared, aggregated or published C.16 measurement coordinate makes the following values recoverable. This is a field group, not another public kind. An ordinary non-measurement health claim retains its own support; writing or publishing it does not create a measurement chain:
 
 `DHCReplayBasis := <DisciplineRef, IntendedUse, ClaimScopeRef, ComparisonBasis, CharacteristicRef.edition, ScaleRef.edition, UnitRef.edition?, DHCMethodRef.edition, MethodRef, MethodDescriptionRef.edition?, MeasurementModelRef.edition?, CalibrationBasisRef?, TimeOrPopulationBasis, DHCDefinitionSetRef.edition?, TargetSliceRef?, DistanceDefRef.edition?>`
 
@@ -121,6 +118,7 @@ When either extension is active, add a short explanation naming the current clai
 4. **Cross-scale transformation.** A conversion, normalization, distance, or aggregate names its exact Method, Scale, legal operation, and loss or uncertainty. No common scale is inferred from similar labels.
 5. **Freshness.** A persisted or reused coordinate carries its observation window and applicable currentness rule. Staleness leads to the receiving pattern's degrade, abstain, or reopen result; it does not rewrite the historical measurement.
 6. **Target bands.** “Target-is-best” is not “higher-is-better.” A comparison to a band uses an explicit distance-to-band rule and leaves the G.4 threshold separate.
+
 | Scale family | Lawful ordinary operations | Prohibited shortcut |
 | --- | --- | --- |
 | nominal status | equality, membership, mode when justified | lifecycle ranking or arithmetic without an ordered scheme |

@@ -6,12 +6,12 @@ section_id: "C.18:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:0 — Use This When"
-line_start: 60999
-line_end: 61012
+line_start: 59964
+line_end: 59979
 dependencies:
   - "A.15"
   - "A.19"
@@ -53,9 +53,11 @@ keywords:
 
 ### C.18:0 - Use This When
 
-Use this pattern when a project needs to generate, retain, compare, or report many candidate variants while preserving descriptor editions, distance definitions, archive policies, front semantics, telemetry, lineage, retained exploration value, and any action-bearing claim that generation stayed inside or changed the effective possibility space.
+Use this pattern when generating or retaining variants raises a practical question: which candidates belong on the current front, which should remain available for exploration, and what changed in the basis for those decisions? A retained stepping stone can matter even when another candidate currently dominates it.
 
-Typical cases include quality-diversity archives, open-ended engineering variant sets, Pareto or Q-front treatment, phenotype-like descriptor maps, architecture-candidate generation, style or tradition variant generation, scientific or engineering school variants, and candidate pools whose value is not captured by one immediate selected set.
+**First useful move.** Name the candidate set, the comparison or retention rule actually needed, and the supported return. If the question asks only which candidates are non-dominated, return that front under the declared comparator. If it asks what to keep for later exploration, state the archive membership and its retention reason. Keep the two answers distinct when both are needed.
+
+An ordinary set description and explanation can finish the work. Use a reusable record when another use needs its references, editions or history. Generation alone can return a variant set without creating an archive or front; use C.40 when constructing or changing the material itself is the missing work.
 
 #### C.18:0.1 - What Goes Wrong If Missed
 
@@ -63,5 +65,5 @@ The project treats an archive as a shortlist, a front as a decision, illuminatio
 
 #### C.18:0.2 - What This Buys
 
-The practitioner gets separate records for archive, front, and generation. Together, these records pin descriptors, characteristic spaces, edition refs, retention policy, telemetry, lineage, and next governing relation. Downstream selection, architecture, cultural evolution, work planning, measurement, and refresh then start from named records rather than from a broad archive label.
+The practitioner can retain a promising but currently dominated variant, report a front without treating it as a choice, and determine which comparison or retention claims must change after an edition or policy changes. Records can preserve those grounds for reuse; they are not the practical result by themselves.
 

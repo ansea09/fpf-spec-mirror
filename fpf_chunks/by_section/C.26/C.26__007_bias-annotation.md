@@ -6,12 +6,12 @@ section_id: "C.26:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:6 — Bias-Annotation"
-line_start: 65834
-line_end: 65841
+line_start: 64795
+line_end: 64802
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,5 +56,5 @@ This pattern intentionally biases authors toward ordinary FPF patterns before QL
 
 It also biases authors toward minimal admissible outputs. In ordinary use, the right result is often "apply the neighboring FPF pattern", "do not merge these comparison frames", "mark this dashboard as an instrument", or "return to the source representation if the shortcut fails".
 
-The pattern may under-admit some mathematically valid QL models when the author cannot explain the practical payoff. That is acceptable for FPF pattern prose: a model that cannot say what it buys the working reader is not ready for Core-facing law.
+The pattern may under-admit some mathematically valid QL models when the author cannot explain the practical payoff. That is acceptable for FPF pattern prose: a model that cannot say what it buys the working reader does not yet support this pattern's practical use.
 

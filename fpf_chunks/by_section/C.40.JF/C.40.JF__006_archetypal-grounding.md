@@ -6,12 +6,12 @@ section_id: "C.40.JF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:5 — Archetypal Grounding"
-line_start: 87099
-line_end: 87138
+line_start: 85917
+line_end: 85956
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -39,7 +39,7 @@ The relevant practice has qualified each direction separately for its own use. E
 | A followed by B | Both need eight weeks, so moving B after A does not fit the original eight-week horizon. A longer horizon would be a revised claim requiring its own availability and continuing-demand basis. |
 | Shared support for A and B | “The specialist can cover both at once” is an unqualified new configuration, not a consequence of the individual results. |
 
-The useful answer is not “development is impossible.” Both separate directions remain candidates. The organization can request the exact combined-work estimate for a genuinely shared-support configuration, examine another provider, or later consider a different horizon. Those possibilities require their own qualification. Choosing between A and B remains a separate decision.
+The useful answer is not “development is impossible.” Both separate directions remain candidates. The organization can request the exact combined-work estimate for a shared-support configuration, examine another provider, or later consider a different horizon. Those possibilities require their own qualification. Choosing between A and B remains a separate decision.
 
 #### C.40.JF:5.2 - Mira needs a transfer premise, not another label
 

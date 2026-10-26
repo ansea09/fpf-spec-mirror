@@ -6,12 +6,12 @@ section_id: "C.40.OCN:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:4 — Solution"
-line_start: 85510
-line_end: 85675
+line_start: 84330
+line_end: 84495
 dependencies:
   - "A.15.9"
   - "C.11"
@@ -28,7 +28,7 @@ keywords:
 
 ### C.40.OCN:4 - Solution
 
-The Method identified under [A.3.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31---umethod-reusable-way-of-doing-with-explicit-applicability) is: construct a bounded opportunity by relating possible later Work to neighboring uses and technologies, distinguishing a useful problem from an offered promise, constructing materially different directions and supports, qualifying their dependencies, and returning the strongest supported reachability claim and next question.
+Construct a bounded opportunity by relating possible later Work to neighboring uses and technologies, distinguishing a useful problem from an offered promise, constructing materially different directions and supports, qualifying their dependencies, and returning the strongest supported reachability claim and next question.
 
 Its generic participants are the person or arrangement conducting the inquiry, the developing holder or subject, possible receivers or users of the later contribution, and sources or suppliers of material premises. They are Method-side meanings, not actual assignments or Work participants. The inquiry performer may also be the subject of the proposed change; no distinct recommendation recipient is an applicability condition.
 
@@ -54,7 +54,7 @@ Do not demand a fully specified goal before discovery. “Explore a useful contr
 
 A small reversible inquiry may use a few relevant source checks and conversations. A consequential commitment will need much stronger domain evidence, but that is not a reason to manufacture certainty during opportunity construction.
 
-The six working sections unfold one reusable way. They express information dependencies and permit iteration; they do not impose a schedule. Return to the earliest changed claim, not automatically to the beginning.
+The following operations develop the opportunity. They express information dependencies and permit iteration; they do not impose a schedule. Return to the earliest changed claim, not automatically to the beginning.
 
 The independently usable opportunity Methods supply the missing contributions: C.40.OI bounds the inquiry, C.40.OC characterizes its subject, C.40.NU searches, C.40.PC constructs the problem and contribution, C.40.DC constructs directions, C.40.JF qualifies joint reachability, C.40.OP retains useful continuations and C.40.RQ requalifies change. Enter at the missing result; an adequate existing contribution need not be reconstructed. The connections below explain how their results form one opportunity account.
 
@@ -113,7 +113,7 @@ A direction should say more than “train,” “buy,” “automate” or “hi
 
 Use C.40.DC to construct materially different directions and their support configurations. Obtain qualified holder, organization, AI and other subject results through A.15.9 for what the proposed changes would require. After one result/use/acceptance premise is stable, an applicable organizational Method can compare whole organizational obtaining arrangements. Before that point, forcing every lead into the same-result comparison would conceal the still-open opportunity question.
 
-Retain the obtaining baseline, a smaller repair, a staged direction or no change when they genuinely answer the inquiry. Do not count a fragment as a complete direction merely to populate a table, and do not discard a potentially useful contribution only because its supporting arrangement is not yet designed.
+Retain the obtaining baseline, a smaller repair, a staged direction or no change when they answer the inquiry. Do not count a fragment as a complete direction merely to populate a table, and do not discard a potentially useful contribution only because its supporting arrangement is not yet designed.
 
 
 

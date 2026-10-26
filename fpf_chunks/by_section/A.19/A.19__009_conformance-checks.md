@@ -6,12 +6,12 @@ section_id: "A.19:6"
 section_title: "Conformance checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__009_conformance-checks.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:6 — Conformance checks"
-line_start: 35210
-line_end: 35241
+line_start: 34604
+line_end: 34635
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,7 +68,7 @@ Apply a row only when its trigger is present.
 | Trigger | Additional check |
 | --- | --- |
 | Subspace or product | List the carried slots and Scale meanings. Projection uses the type-correct composition law; a product performs no aggregation. |
-| Embedding or lossy mapping | An embedding is point-injective and preserves every named structure. A many-to-one normalization, binning, dropped Coordinate, or other coarse-graining is a lossy mapping or projection with preserved and lost distinctions stated. |
+| Embedding or lossy mapping | An embedding is point-injective and preserves every named structure. State actual loss for a many-to-one mapping or coarse-graining. A dropped Coordinate is a projection and may remain point-injective on a stated restricted domain; any embedding claim still meets all its slot and structure conditions. |
 | Normalization, quotient, equality, or join across spaces | Cite the admissible A.19.UNM instance, Scale conditions, domain, and validity window. Compare in one declared target space. Check preservation of the equality/join question; a class-level use needs query constancy and any inherited operation needs compatibility. Retain lost inputs, refine the transformation or return the unsupported comparison. |
 | Same-space state comparison | Compare Coordinates directly only when both states use the same declared space, slot meanings, Scale metadata, and state definition. A.19.CPM separately binds the comparator, scope, plane, window, application, and result. |
 | Indicator use | Cite the `IndicatorChoicePolicy`; a normalized value is not automatically an indicator. |

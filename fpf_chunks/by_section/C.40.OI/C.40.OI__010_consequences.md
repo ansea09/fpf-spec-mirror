@@ -6,12 +6,12 @@ section_id: "C.40.OI:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:9 — Consequences"
-line_start: 86006
-line_end: 86013
+line_start: 84826
+line_end: 84831
 dependencies:
   - "A.15.9"
   - "B.5.PI"
@@ -25,9 +25,7 @@ keywords:
 
 ### C.40.OI:9 - Consequences
 
-The inquiry becomes cheap enough to start and strong enough to direct a useful next move. A person can explore without inventing an adviser; an adviser can reuse an adequate boundary without forcing construction; and a missing premise becomes a named request rather than hidden uncertainty.
+The bounded inquiry identifies a useful next move and the effort it warrants. A person can explore without an adviser; an adviser can reuse an adequate boundary; and a missing premise remains an explicit question or condition. Request its answer only when the attainable contribution warrants acquisition.
 
-The cost is explicit incompleteness. The result may be only a question, blocker, or narrow source request. Naming the subject, horizon, protections, posture, and budget also makes attractive but unsupported directions visibly weaker. That is preferable to premature certainty.
-
-This pattern does not guarantee that search will find a worthwhile opportunity, that the subject can change, or that any later recommendation, choice, programme, Work, or effect will succeed.
+The cost is explicit incompleteness. The result may be only a question, blocker, or narrow source request. Naming the subject, horizon, protections, posture and budget exposes which proposed directions still lack support.
 

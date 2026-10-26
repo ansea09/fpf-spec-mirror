@@ -6,12 +6,12 @@ section_id: "A.19.ECS:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:2 — Problem"
-line_start: 35344
-line_end: 35361
+line_start: 34730
+line_end: 34747
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -42,6 +42,6 @@ Recurring failures:
 7. **No protected trade-off.** The evaluation encourages improvement on visible coordinates while damaging safety, usability, affordability, source preservation, entry cost, neighbour fit, or another value that should constrain the change.
 8. **No stop or reopen condition.** Improvement continues forever or stops after a convenient checklist closure, not because the evaluation says the evaluated object has reached the declared aim.
 9. **Specification underdeclaration.** A new evaluation is mentioned in prose, table, rule, or local rubric, but its declared specification does not make evaluated object kind, coordinate set, value meanings, status meanings, relations, and non-use boundaries recoverable.
-10. **Result-form underdeclaration.** The evaluation has coordinates, but the returned result can be a prose impression, a two-column value table, or a checklist count without evidence basis, adjacent-value rationale, calibration discipline, or coordinate-specific payload.
+10. **Result-form underdeclaration.** The evaluation has coordinates, but the returned result can be a prose impression, a two-column value table, or a checklist count without its evidence basis, Scale-appropriate rationale, calibration discipline, or required coordinate-specific payload.
 11. **Evidence-basis leakage.** Evidence needed to justify the evaluation result, corpus projection, currentness, retrieval, or parity is written as if it were the evaluated object's own method or user action.
 

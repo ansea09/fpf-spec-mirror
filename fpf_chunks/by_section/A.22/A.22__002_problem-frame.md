@@ -6,12 +6,12 @@ section_id: "A.22:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:1 — Problem frame"
-line_start: 40632
-line_end: 40678
+line_start: 39820
+line_end: 39866
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -71,16 +71,16 @@ keywords:
 
 Use this pattern when a practitioner needs to select `U.Structure` as the `EntityOfConcern`: an organization among exact constituents and obtaining relations, selected to expose a relation class, applied constraint, invariant, variation class, preserved arrangement, or lost arrangement that changes the next engineering or reasoning action.
 
-The first A.22 question is not “which diagram or record shows the structure?” It is “which organization is selected for this named use?” Recover that organization in this order:
+First identify the organization selected for the named use. Recover:
 
 1. identify every constituent independently through the content that defines its kind and identity;
 2. recover the exact relation occurrences among those constituents that actually obtain under their direct predicates;
 3. state the exact constraints applied to those constituents and relations, plus the named selection-use frame that says what question or action this organization serves;
 4. name the resulting selected organization and the admissible action or stop that follows.
 
-When the use makes a load-bearing claim that a structure was selected, also recover the selecting system, its dated selection work and exact method-enactment relation, and the exact participant relations or A.6.1 bindings used by that work. Those neighboring facts support the selection judgment; they do not enter `U.Structure` identity. If the judgment must persist, identify a separate C.2.1 result episteme whose claim content designates the selected structure.
+When the account deliberately asserts dated selection Work, establish its independent grounds under §4.1. Those facts explain the performed selection and remain outside `U.Structure` identity. If the judgment must persist, identify a separate C.2.1 result episteme whose claim content designates the selected structure.
 
-The first useful move is small:
+The four values above can be stated in ordinary prose or recovered from an existing description. The following optional aid also keeps use limits and any separately needed claims visible:
 
 ```text
 StructureQuestionCard@Project:
@@ -94,7 +94,7 @@ StructureQuestionCard@Project:
   admissible action:
   stop or non-admissible overread: exact stop or return condition
   grounded non-admissible overread, optional:
-  selecting system, method, and dated work, when selection is claimed:
+  selecting system, method, and dated work, only when dated Work is asserted:
   selection-result episteme, when a durable result is needed:
   claim scope or effective reference scheme of that claim, if current:
   reliance relation, if a neighboring reliance claim is being made:
@@ -102,9 +102,9 @@ StructureQuestionCard@Project:
 
 `StructureQuestionCard@Project` is a project-side triage aid for this selected-structure use. It is not a new structure kind. Fill the reliance row only when extraction, coarsening, source-description, base-dependence, grounding, evidence, lens, simulation, representation, or action reliance is being claimed; otherwise leave it unused and keep the move on selected structure.
 
-Here `@Project` is a compatibility and retrieval cue, not a type or relation assertion. It identifies neither a project entity nor a composite project `U.Work`, and it establishes no context, authority, viewpoint, or parthood. When this card is used in relation to one actual project, name that exact composite `U.Work` and the relation by which the current structure-selection work, decision, description, or other identified object concerns it. Otherwise no project-work reference is implied. The same rule applies to `ArchitectureStructureKindTriage@Project` below.
+The `@Project` suffix is a local retrieval cue. If the account separately asserts a composite project `U.Work`, identify that Work and how the current selection, decision or description concerns it. The suffix supplies neither identity nor that relation; the same applies to `ArchitectureStructureKindTriage@Project`.
 
-Stop at this card when it makes the next structure use clear. Open heavier records only when a named description, view, publication, extraction, coarsening, comparison, mathematical-lens, architecture-description, or other neighboring claim is being made.
+Stop when the selected organization and next use are clear. Develop a neighboring description, view, publication, extraction, comparison or other claim only when the receiving task needs it.
 
 What goes wrong if A.22 is missed: the practitioner reasons from the visible diagram, source publication, source-use record, lens output, generated representation, project record, or architecture description instead of asking which organization is selected and what loss or reliance boundary matters for action.
 
@@ -112,5 +112,5 @@ What A.22 buys in practice: a practitioner can name selected structure, state pr
 
 Not this pattern when the question under repair is grounded architecture adequacy, architecture structural-view adequacy, or mathematical-lens use. Use `C.30`, `C.30.ASV`, or `C.29` respectively. For any other claim, use the pattern that defines or tests that claim and keep A.22 only to the selected-structure portion.
 
-Thin precision-restoration pointer: when the wording still may name a structure, a structure description, an architecture description, a view, a publication form, or another exact claim, use `C.30.P` or `C.30.STRAT` first as triggered. Apply A.22 only after the selected-structure claim or structure-view portion is recoverable.
+For unresolved wording: when the wording still may name a structure, a structure description, an architecture description, a view, a publication form, or another exact claim, use `C.30.P` or `C.30.STRAT` first as triggered. Apply A.22 only after the selected-structure claim or structure-view portion is recoverable.
 

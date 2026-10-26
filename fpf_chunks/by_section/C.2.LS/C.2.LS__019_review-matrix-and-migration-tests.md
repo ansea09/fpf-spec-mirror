@@ -6,12 +6,12 @@ section_id: "C.2.LS:18"
 section_title: "Review Matrix and Migration Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__019_review-matrix-and-migration-tests.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:18 — Review Matrix and Migration Tests"
-line_start: 53553
-line_end: 53569
+line_start: 52705
+line_end: 52722
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -49,11 +49,12 @@ An assurance reader should ask:
 - does any overlay smuggle a hidden scalar or gate decision;
 - are threshold claims tied to the facet that really bears them;
 - do cited moves in `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, or `B.5.2.0` actually match the facet bundle;
-- if the profile crosses a Bridge or viewpoint boundary, did the author use `F.9` for the Bridge, bounded-use claim, and loss account, and keep any optional F.9.1 stance note separate rather than importing it as a fake facet?
+- if reuse depends on distinct local meanings, was `F.9` used for the actual Bridge and its bounded-use claim, keeping any optional loss account or F.9.1 stance note separate from the facets;
+- if viewpoint conformance is claimed, was it tested under `E.17.0`?
 
 #### C.2.LS:18.2 - Migration test for source prose
-Source phrases such as "still immature", "not ready yet", or "already stable enough" should be unpacked into: which facet is claimed, which anchor or bundle member justifies it, which threshold or route consequence follows, and which cited rule or external `authoritySourceRef` justifies that consequence.
+When a receiving use depends on a source phrase such as "still immature" or "already stable enough", recover the claimed facet reading, its grounds, any threshold or route consequence, and the cited rule that warrants that consequence. Add an external `authoritySourceRef` only when an external authority actually supplies the rule.
 
 #### C.2.LS:18.3 - Comparative profile use
-Compare profiles facetwise unless a Context has published an explicit local aggregation for reporting. Such an aggregation remains secondary and must not replace the profile in norms, thresholds, or bridge claims.
+Compare profiles on the named facets. A missing reading leaves that facet's comparison unresolved. A reporting aggregate needs a declared local model and operations admissible for the actual Scales under A.18/A.19; publishing an aggregation rule alone does not establish that basis. The aggregate remains secondary and must not replace the profile in norms, thresholds, or Bridge claims.
 

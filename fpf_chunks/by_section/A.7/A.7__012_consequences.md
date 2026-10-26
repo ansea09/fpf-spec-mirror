@@ -6,12 +6,12 @@ section_id: "A.7:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__012_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:10 — Consequences"
-line_start: 26044
-line_end: 26060
+line_start: 25596
+line_end: 25612
 dependencies:
   - "A.1"
   - "A.10"
@@ -49,15 +49,15 @@ keywords:
 | Benefit                      | Why it matters                                    | Trade‑off / Mitigation                             |
 | ---------------------------- | ------------------------------------------------- | -------------------------------------------------- |
 | **Category safety at scale** | Makes category slips in claims across holarchies easier to recognize and correct. | Slight explicitness; mitigate by keeping ordinary System-and-action wording and adding assignment, kind, Method, Capability, Work, carrier, or evidence detail only when a receiving inference needs it. |
-| **Trustworthy evidence**     | Claim-relative evidence use and the applicable A.10 provenance, carrier, and source-currentness relations make the audit basis inspectable. | Requires discipline → provide checklists.          |
-| **Operator determinism**     | Correct Γ‑flavour selection preserves invariants. | A bit more modelling → reusable templates.         |
-| **On‑ramp for managers**     | Canonical rewrites give immediate phrasing fixes. | Team training → this pattern is the training page. |
+| **Inspectable evidence use** | Claim-relative evidence use and the needed A.10 provenance, carrier and source-currentness relations expose the audit basis. | Recover only the relations and facts needed by that use. |
+| **Composition rule selection** | The subject determines which Γ rule and premises govern an aggregation claim. | Check the invariant under that rule and its actual premises. |
+| **Readable repair examples** | The rewrites show how a recovered distinction changes the sentence. | Establish the teaching case's stipulated facts in a real use before adopting its rewrite. |
 
 #### A.7:10.1 - EntityOfConcern and publication-boundary consequences
 
 | Benefits | Trade‑offs / Mitigations |
 |---------|---------------------------|
 | **Category-error detection and correction.** Clear separation of System and Episteme, `EntityOfConcern` and Description-episteme boundary, specification use or refinement, and publication availability helps expose recurring modeling defects. | Name publication face, form, unit, carrier, and rendering uses when the distinction matters; E.8 supplies publication-face guidance. |
-| **Audit and pedagogy align.** References distinguish the evidence episteme, its target claim, a carrier, and any current source-currentness claim; Normative face houses checklists; Plain face teaches; Tech face types. | Slight increase in pattern length; offset by predictable navigation and machine-checkable CC. |
+| **Audit and explanation share referents.** References distinguish the evidence episteme, target claim, carrier and any needed source-currentness claim. Different publication faces can explain or expose those same values. | Add only the face and reference detail the receiving use needs. |
 | **Cross-context and plane safety.** Faces expose an obtaining F.9 Bridge only for two exact local senses and keep its bounded-use claim and optional `CL` separate; cross-plane use exposes its applicable plane relation. | Authors must name only current relations and policies; tooling may assist, but no penalty follows automatically from context, plane, Bridge, or `CL`. |
 

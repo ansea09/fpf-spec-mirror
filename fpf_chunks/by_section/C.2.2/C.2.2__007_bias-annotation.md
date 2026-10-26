@@ -6,12 +6,12 @@ section_id: "C.2.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:6 — Bias-Annotation"
-line_start: 52654
-line_end: 52663
+line_start: 51820
+line_end: 51829
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -58,8 +58,8 @@ keywords:
 Informative; non-binding.
 
 
-* **Onto/Epist bias:** High formality is often mistaken for high warrant (“proof therefore true in the world”). This pattern mitigates by forcing LA/TA visibility and by routing transport loss into R rather than mutating the claim.
-* **Prag bias:** Teams may Goodhart R by narrowing scope or selecting easy tests. This pattern mitigates by requiring explicit scope declaration and by making scope changes first-class (A.2.6).
-* **Gov bias:** Overconfident reuse after a changed scope, scheme, model use, evidence basis, kind, or plane is a recurring failure. This pattern requires the actual relation and its declared loss instead of one generic crossing label.
-* **Did bias:** A single scalar is seductive; it hides what kind of warrant exists. Lane reporting keeps the scalar honest.
+* **Ontological and epistemic bias:** High formality is often mistaken for high warrant (“proof therefore true in the world”). Report the applicable assurance lanes and route declared reuse loss into R. A formal proof keeps its conclusion under its axioms; empirical adequacy needs its own support.
+* **Pragmatic bias:** Teams may Goodhart R by narrowing scope or selecting easy tests. Explicit scope and its revisions under A.2.6 expose the cases covered by the claim.
+* **Governance bias:** Overconfident reuse after a changed scope, scheme, model use, evidence basis, kind, or plane is a recurring failure. This pattern requires the actual relation and its declared loss instead of one generic crossing label.
+* **Didactic bias:** A single scalar can hide what kind of warrant exists. Separate lane reporting keeps the kinds of support visible.
 

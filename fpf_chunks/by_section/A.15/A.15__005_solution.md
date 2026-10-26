@@ -6,12 +6,12 @@ section_id: "A.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:4 — Solution"
-line_start: 29033
-line_end: 29134
+line_start: 28593
+line_end: 28694
 dependencies:
   - "A.10"
   - "A.13"
@@ -67,7 +67,7 @@ keywords:
 
 Recover the actual values first, then state only the relations needed by the receiving use. A.15 aligns system-role kind, assignment, Method, MethodDescription, capability, WorkPlan, Work, and separate records; it does not create a universal process object or a universal assignment signature.
 
-When source wording points to changing, producing, selecting, deriving, controlling, or maintaining an `EntityOfConcern`, use `E.10.ARCH` to recover the object. A workflow graph, process calculus, matrix, category, embedding, or neural representation may describe or serve as a lens over a Method relation structure; it is not automatically a Method, assignment, WorkPlan, or Work occurrence.
+When wording about changing, producing, selecting, deriving, controlling or maintaining leaves its object unresolved, use `E.10.ARCH`. A workflow graph, process calculus, matrix, category, embedding or neural representation may describe or serve as a lens over a Method relation structure; its representation form alone establishes no Method, assignment, WorkPlan or Work occurrence.
 
 #### A.15:4.1 - Core entities kept distinct
 
@@ -111,7 +111,7 @@ graph TD
     style W fill:#ffe6cc,stroke:#d79b00,stroke-width:2px,font-weight:bold
 ```
 
-The diagram shows a simple direct assignment species. A stronger appointment can declare a real additional participant such as a review commission; that specialized occurrence itself is the `U.SystemRoleAssignment`. Do not create a weaker generic occurrence beside it.
+The diagram shows a simple direct assignment species. A stronger appointment can declare a real additional participant such as a review commission; that specialized occurrence itself is the `U.SystemRoleAssignment`. Do not create a weaker generic occurrence beside it. The displayed F.6 edge is included because this example claims precise assignment-bound attribution; a Work claim that does not need that attribution omits it.
 
 * **Capability fit.** A MethodDescription, WorkPlan, or work-admission assertion may require a holder capability threshold. The fit condition compares the holder's qualified ability claim with the receiving work conditions and bounds and may cite declared measures, `U.Characteristic` values, Q-Bundle slots, or architecture-characteristic criteria. It is neither an assignment participant nor a second capability kind.
 * **MethodDescription membership.** `D` is a `U.MethodDescription` only when A.3.2 recovers Method `M` as its exact EntityOfConcern and at least one substantive way-of-doing claim. “D describes M” is shorthand for that constitution and membership result, not another binary relation.
@@ -157,7 +157,7 @@ Do not create a linkage record merely because one unfolding structure mentions s
 
 Call this episteme a *Method–Work alignment account* in ordinary prose. Its identity comes from its EntityOfConcern, ClaimGraph, and effective ReferenceScheme, not from a field bundle. Each claim in the account remains defined or tested by its own pattern: A.3.1 for Method, A.3.2 for MethodDescription, A.15.2 for planning, A.15.5 for readiness, A.15.1 for dated Work and Work relations, A.10 for evidence, B.3 for assurance, A.20 for internal-constraint results, and A.21 for gate decisions. If the useful account would need several unrelated entities of concern, split it instead of using one umbrella record.
 
-Another structure, such as CGUS, P2W, P2S, an improvement-loop slice, or a transformation-flow slice, may cite the exact episteme only when its receiving use needs this alignment explanation. The citation creates none of the cited relations and cannot replace their sources, currentness checks, or criteria.
+Another structure, such as CGUS, P2W, P2S, an improvement-loop slice or a transformation-flow slice, may cite the episteme when its receiving use needs the alignment explanation. Recover the cited claims under their source, identity and applicability conditions; reuse an established result while those grounds remain valid.
 
 #### A.15:4.5 - Boundary to A.15.5 Work-Entry Readiness
 

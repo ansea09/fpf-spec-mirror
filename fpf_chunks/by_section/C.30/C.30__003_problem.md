@@ -6,12 +6,12 @@ section_id: "C.30:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:2 — Problem"
-line_start: 71417
-line_end: 71445
+line_start: 70391
+line_end: 70413
 dependencies:
   - "A.1"
   - "A.10"
@@ -91,15 +91,9 @@ These uses are all useful in ordinary engineering speech, but they cannot carry 
 The first-minute practitioner asks four questions:
 
 1. Are we recovering an actual architecture relation, considering a candidate structure, or only reading a representation?
-2. Which subject relations actually obtain, and which exact A.22 structure is selected from them?
+2. For an actual architecture claim, which subject relations obtain and which A.22 structure is selected from them?
 3. Which structure kind is in view—function, flow, control, module, Work, system-role-kind or assignment, enactor, information, data, placement, deployment, scale, or a declared logical structure—and which adjacent interface, evidence, or assurance relations matter?
 4. How is the inspected material being used: as claim content, description, view, representation, publication form, decision, source relation, or mathematical lens?
 
-How can FPF describe architecture without:
-
-- creating `U.Architecture` as a new root kind;
-- treating a description, view, diagram, graph, ADR, dashboard, or generated relation graph as the architecture;
-- reducing architecture to module structure or interface relation;
-- letting E.18 transformation-flow structures, LCA structures, control structures, C.29 lenses, quality language, evidence, assurance, gates, work, or decisions silently become architecture ontology;
-- making architecture descriptions so heavy that ordinary practitioners cannot get a first useful architecture move.
+The useful result preserves the distinctions needed by the architecture question. A module diagram may omit a control or flow relation that changes the next action. Conversely, a clear candidate statement may settle the present question before an actual relation or full description is available.
 

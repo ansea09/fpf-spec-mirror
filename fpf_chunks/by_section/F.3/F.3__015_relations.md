@@ -6,12 +6,12 @@ section_id: "F.3:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__015_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:14 — Relations"
-line_start: 118503
-line_end: 118520
+line_start: 117323
+line_end: 117340
 dependencies:
   - "A.11"
   - "A.7"

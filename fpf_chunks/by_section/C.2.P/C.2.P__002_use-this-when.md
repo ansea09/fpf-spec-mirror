@@ -6,12 +6,12 @@ section_id: "C.2.P:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:0 — Use this when"
-line_start: 51904
-line_end: 51951
+line_start: 51069
+line_end: 51116
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,12 +68,12 @@ Use C.2.P only when one unresolved distinction still prevents the reader from se
 
 **Smallest outputs.**
 
-- **Direct repair:** the repaired sentence plus one plain reason or non-use boundary. No record.
+- **Direct repair:** the repaired sentence. Add a reason or non-use boundary only when it changes interpretation or action. No record.
 - **Compact row:** the exact sentence, its function, one recovered kind or relation, the selected wording or disposition, and the reader's remaining use.
 - **Full check:** only when several recovery fields interact, a source-to-FPF use is contested, or a reusable ontological or naming decision is being made.
-- **Non-use result:** reduced-use cue, blocked use, incomplete rewrite, or not triggered.
+- **Other outcomes:** reduced-use cue, blocked use, incomplete rewrite, or not triggered.
 
-Changing an FPF pattern is not by itself a reason to use the full check. Use the cheapest product that preserves the live distinction.
+Changing an FPF pattern is not by itself a reason to use the full check. Use the cheapest product that preserves the needed distinction.
 
 **Source-expression boundary.** External or ordinary prose may be clarified without forcing all of its vocabulary into FPF. If no FPF-governed use is recoverable, keep the phrase as source-local wording, a source-finding cue, or a blocked claim-bearing use.
 
@@ -92,11 +92,11 @@ The immediate cost is not only ugly terminology. Engineers and FPF authors start
 
 `C.2.P` gives one small epistemic precision-restoration move: recover the FPF kind and relation set first, then write wording that preserves the needed distinction without adding another claim. It prevents string-replacement cleanup, keeps FPF-side and project-side episteme and publication work separate, and blocks unclear wording from having FPF-governed use by guesswork.
 
-**Successful repair condition.** Type-correct wording is not enough. A repair must satisfy the `E.2` Pillars, especially `P-2 Didactic Primacy`, together with `E.12` and the register rule in `E.10:6.2`. It closes only when the text preserves or restores a usable action, a recognition reason that tells the working reader why the distinction matters, or a named FPF pattern application that carries the claim. When Tech and Plain registers are both current, the Tech interpretation remains recoverable and the Plain or didactic line maps back to it. An ordinary or metaphorical Plain line may stay light when it carries no FPF-governed use; if it carries an ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim, that claim must be recoverable through the Tech fields, named FPF kind, recovered relation, project-side reference, or disposition. A repair to a Problem frame, recognition text, example, or worked slice is incomplete if it improves typing but hides the working situation, why it matters, or the first useful action; name the applicable FPF pattern when that pattern carries the claim. Overread removal is only half of the repair; the other half is remaining action guidance under the Pillars.
+**Successful repair condition.** Type-correct wording is not enough. A repair must satisfy the `E.2` Pillars, especially `P-2 Didactic Primacy`, together with `E.12` and the register rule in `E.10:6.2`. It closes only when the text preserves or restores a usable action, a recognition reason that tells the working reader why the distinction matters, or a named FPF pattern application that carries the claim. When Tech and Plain registers are both current, the Tech interpretation remains recoverable and the Plain or didactic line maps back to it. An ordinary or metaphorical Plain line may stay light when it carries no FPF-governed use; if it carries an ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim, that claim must be recoverable through the Tech fields, named FPF kind, recovered relation, project-side reference, or disposition. A repair to a Problem frame, recognition text, example, or worked slice is incomplete if it improves typing but hides the working situation, why it matters, or the first useful action; name the applicable FPF pattern when that pattern carries the claim. Preserve the remaining action guidance as well as the recovered meaning.
 
 **Recovery focus in plain terms.** The use being made is one episteme-publication-heavy wording use inside conformant text: the word or phrase, the sentence function it carries, the FPF kind or relation it must recover, and the remaining declared use boundary after recovery.
 
 **Primary working user.** The first user is a practitioner maintaining conformant FPF-style or project text: an author, reviewer, or engineer-manager who must repair wording without losing ontology. The downstream user is the practitioner who will rely on the repaired pattern or project text in a working situation.
 
-**Anti-overread payoff question.** A repair is useful only if the text can say in ordinary prose what false downstream interpretation is blocked, what useful action remains, and when the reader must apply another named FPF pattern because evidence, gate, decision, work, assurance, bridge, release, or reliance is current. If the repair blocks an overclaim but leaves no useful action, it is probably becoming ceremony rather than guidance.
+**Practical payoff.** State what the repair lets the reader distinguish or do, and any remaining question that requires another named FPF pattern. Explain a rejected reading only when F.19 establishes an independent ground, a plausible intended-reader interpretation, and a consequence for truth or use. If the repair blocks a false claim, retain the useful remaining statement or state the blocked use.
 

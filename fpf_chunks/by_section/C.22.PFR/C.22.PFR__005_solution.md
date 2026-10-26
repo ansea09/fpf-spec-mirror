@@ -6,12 +6,12 @@ section_id: "C.22.PFR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:4 — Solution"
-line_start: 63377
-line_end: 63553
+line_start: 62357
+line_end: 62533
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -43,7 +43,7 @@ Before testing adversity, answer three plain questions: **what exact point or va
 
 A relation reference alone is not a coordinate. If neither path yields the exact point and the problem-for link, adverse truth and PFR remain unestablished. When two projections are plausible, the rule names the selected one; identify the nearest inadmissible alternative only when one fails the declared input or problem-for-link conditions. `ConditionToPredicateInputRule` is a pattern-local by-value rule inside `CharacteristicSpacePredicate`; it is not a U-kind, relation occurrence, evaluation result, or copied PFR field.
 
-**Public name settlement.** The following F.18 NameCard names the applicability relation kind.
+The F.18 NameCard identifies the applicability relation kind.
 
 ```text
 NameCard:
@@ -78,7 +78,7 @@ A semantic predicate change selects a different predicate participant; it is not
 
 #### C.22.PFR:4.2 - Keep the PFR signature reduced to two participants
 
-**Public name settlement.** The following F.18 NameCard names the actual dependent evaluative relation kind.
+The F.18 NameCard identifies the dependent evaluative relation kind.
 
 ```text
 NameCard:
@@ -97,7 +97,7 @@ NameCard:
   RefreshCondition: reopen if participant references plus actual adverse inception cannot keep one stable occurrence reference through closure or distinguish later adverse episodes, or if the predicate's condition-to-input rule no longer yields one unambiguous characteristic point and problem-for link
 ```
 
-**No-mint disposition for root `U.Problem`.** Do not introduce a second problem entity beside the obtaining `ProblematicForRelation` occurrence. That occurrence is the actual Problem; a `ProblemCard`, criterion description, assessment claim, or local Plain label may describe or designate it but does not supply another world-side identity.
+The obtaining `ProblematicForRelation` occurrence is the actual Problem. A `ProblemCard`, criterion description, assessment claim or local Plain label may describe or designate it without supplying a second world-side problem identity.
 
 The complete non-derived participant set is:
 
@@ -138,7 +138,7 @@ The selected direct consumer supplies the governed input projection or consumes 
 
 A Problem can therefore obtain unnoticed. Later detection can involve work, evidence, and claims about the already obtaining relation; it does not create retroactive actuality.
 
-When evaluation is actually performed, recover every exact actual performer `U.System` through A.13, independently admit the dated evaluation `U.Work` under A.15.1, and name the `U.Method` actually followed. Name any declared A.6.1 operation application separately when its returned-value binding is claimed. Add F.6 only when the evaluation account or a receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the evaluation Work intact. A short PFR explanation may omit an assignment identifier that no later claim uses. That Work may return the separate evaluation result `true`, `false`, or `unknown` defined by the selected evaluation pattern; a C.2.1 assertion may state the result. A.10 governs evidence use for reliance on that assertion, B.3 governs any named assurance claim, and G.11 may qualify the assertion's current edition. The practitioner may rely on the assertion for the receiving Work, decline or defer that reliance, or reopen its basis. `unknown` is an evaluation result, never a world-side PFR value; test PFR obtaining through the three conditions in §4.3.
+When an account asserts a particular dated evaluation `U.Work`, recover its actual performer `U.System` through A.13, independently admit the Work under A.15.1, and name the `U.Method` actually followed. Name any declared A.6.1 operation application separately when its returned-value binding is claimed. Add F.6 only when the evaluation account or a receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 attribution alone leaves the evaluation Work intact while its independent A.13/A.15.1 grounds still hold. A short PFR explanation may omit an assignment identifier that no later claim uses. That Work may return the separate evaluation result `true`, `false`, or `unknown` defined by the selected evaluation pattern; a C.2.1 assertion may state the result. A.10 governs evidence use for reliance on that assertion, B.3 governs any named assurance claim, and G.11 may qualify the assertion's current edition. The practitioner may rely on the assertion for the receiving Work, decline or defer that reliance, or reopen its basis. `unknown` is an evaluation result, never a world-side PFR value; test PFR obtaining through the three conditions in §4.3.
 
 
 #### C.22.PFR:4.4 - Identify repeated adverse episodes from world-side continuity
@@ -169,7 +169,7 @@ A current assertion or description distinguishes three cases in ordinary words:
 
 Later evidence may revise the assertion, including its claimed start, end, or continuity, without creating or changing the world-side episode. If it supports an earlier actual cessation, complete the extent of the earlier occurrence at that boundary. If it also supports later renewed adverse truth, identify the later occurrence from its own actual inception. Until that distinction is supported, do not attach the later adverse segment to either the old or a new occurrence by default.
 
-Use the A-B-C regression while holding one continuously obtaining applicability occurrence fixed. The criterion remains governing for the same entity, scope, and declared window through A, B, and C; only world-side adverse truth changes:
+Consider three successive condition intervals A, B and C while holding one continuously obtaining applicability occurrence fixed. The criterion remains governing for the same entity, scope, and declared window through A, B, and C; only world-side adverse truth changes:
 
 - During A, the condition is actually adverse, so the first PFR obtains from `A.start` until its actual cessation at `A.end`.
 - During B, the condition is actually non-adverse, so the first PFR does not obtain.

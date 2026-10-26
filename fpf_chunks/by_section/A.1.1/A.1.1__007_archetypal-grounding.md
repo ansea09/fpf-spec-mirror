@@ -6,12 +6,12 @@ section_id: "A.1.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__007_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:5 — Archetypal Grounding"
-line_start: 3370
-line_end: 3428
+line_start: 3365
+line_end: 3423
 dependencies:
   - "A.1"
   - "A.14"
@@ -39,9 +39,9 @@ keywords:
 
 ### A.1.1:5 - Archetypal Grounding
 
-#### A.1.1:5.1 - Full control-model assurance replay
+#### A.1.1:5.1 - Detailed control-model case
 
-The first-minute case in section 0 is enough for ordinary entry. This longer replay checks the ontology and stop conditions without turning them into the first-use path. Any claim of authority over the Work in the filled cases below needs its own governing basis.
+Section 0 gives the entry case. The following detail develops the relation identities, maintenance and evaluation claims, and their stop conditions when the receiving use needs them. Any claim of authority over the Work needs its own governing basis.
 
 1. **Applicability decision.** `ModelApplicabilityRelation` obtains among model episteme `PressControlModel-5`, system `Press-3`, and claim scope `SafetyControlClaimScope`. C.2.1 fixes `PlantControlReferenceScheme` as the model episteme's effective scheme, so it supplies the interpretation basis without becoming a fourth participant. The derived `ModelApplicabilityInterval` remains open while the model's declared applicability conditions hold for `Press-3` over the exact `U.ContextSlice` values admitted by `member(slice, SafetyControlClaimScope)` under that scheme.
 2. **Actual-use decision.** A.13 first recovers `Operator-12 : U.System` as exact actual performer through obtaining `OperatorAssignment-8`, and A.15.1 independently admits `PressOperationWork-91 : U.Work`. Because this decision expressly represents assignment-bound model use, exact F.6 `performedUnderAssignment(PressOperationWork-91, OperatorAssignment-8)` then obtains. The already recovered performer actually uses `PressControlModel-5` concerning `Press-3` during that Work. Those four relation participants plus the derived maximal continuous `ModelUseInterval` reidentify one `ModelUseRelation` occurrence.
@@ -86,7 +86,7 @@ Across these five filled structures, each expression episteme is a participant o
 When a proposed directional dependency is called *Conformist*, retain its source, target, direction, required fit, permitted loss, and claim scope. Return `missing CROSS-LOCALITY-BRIDGE governor` until a compatible direct relation exists.
 **Stale description.** An already recognized Context Map view is six months old while the same already governed applicability, actual-use, and model-expression-coherence relations continue. Its currentness claim can become obsolete; revising the `U.View` episteme or publishing another rendering changes those epistemic and publication objects only. Reidentify each structure using all four discriminators and the continuity rule in section 4.3.
 
-**Context-mapping assurance case.** This case tests the heavier method, product, view, and publication boundaries after the ordinary entry path has succeeded.
+**Context-mapping case.** Apply the method, product, view, and publication distinctions when the receiving claim depends on them.
 
 1. **Method and Work.** `Architect-9 : U.System` performs dated `ContextMappingWork-14 : U.Work` under `ArchitectureAssignment-6`. First recover Architect-9's A.13 core for this action, including the same obtaining assignment; A.15.1 then independently admits the Work from its performance history, enacted `ContextMappingMethod-3 : U.Method`, extent, and containing-System relation. Because this case explicitly attributes performance under `ArchitectureAssignment-6`, F.6 afterward relates that already admitted Work to the assignment. The assignment obtains, names Architect-9 as holder, and covers the Work. The repeatable Method and this dated Work remain different objects.
 2. **Candidate product.** C.2.1 independently identifies episteme `ContextRelationsAnalysis-8`. Its EntityOfConcern is the six-part proposed crossing organization: source, target, direction, required fit, permitted loss, and claim scope. The episteme is not the proposed organization.

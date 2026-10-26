@@ -6,12 +6,12 @@ section_id: "C.19.2:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:0 — Use this when"
-line_start: 62010
-line_end: 62019
+line_start: 60991
+line_end: 61000
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -42,5 +42,5 @@ The first useful move is to name the practical use, result kind, claimed guarant
 
 **Not this pattern when.** If an adequate way to obtain the result is still unexplained, use `C.39`. If usable material needs feasible variation and examination, use `C.40`. Use `C.18` when the question concerns the generation account or archive/front stewardship. If the live question is a local choice over an existing option set, use `C.11`. If the blocker is an ontology conflation, use `A.7.1`; if it is a material conflict among FPF premises, use `A.7.2`.
 
-The primary working reader is an engineer, method or model selector, or technical lead. That reader position is not a system-role kind or assignment. This pattern is a `U.MethodDescription` episteme whose claims describe one admitted `U.Method`. When an admitted `U.System` performs dated configuration or application `U.Work` using that Method, first recover the performer's A.13 core and independently admit the Work under A.15.1. Add F.6 afterward only when the present use needs precise assignment-bound attribution. Show an assignment identifier, species, participants, and attribution detail only when that use relies on them, attribution is ambiguous, or the source wording must be repaired. The problem-facing result remains with the pattern that defines or tests it.
+The primary reader is an engineer, method or model selector, or technical lead. Use the instructions below to guide bounded application; the problem-facing result remains with the pattern that defines or tests it. Reader position, guidance and performed Work have different meanings. Section 4.1 gives the identity-bearing conditions when a claim about a Method, MethodDescription or dated Work is needed.
 

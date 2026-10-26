@@ -6,12 +6,12 @@ section_id: "A.10.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:1 — Problem Frame"
-line_start: 27344
-line_end: 27372
+line_start: 26904
+line_end: 26932
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -45,7 +45,7 @@ When a material change makes several receiving uses worth discovering, state:
 **Not this pattern when.**
 
 - Use `A.10` when one already-known bounded reliance use is the whole question.
-- Use `C.2.1`, `E.17`, or `E.24.PUB` when source identity, edition continuity, publication, carrier, form, audience, or availability is the live question and no several-use revalidation is needed.
+- Use `C.2.1`, `E.17`, or `E.24.PUB` when source identity, edition continuity, publication, carrier, form, audience, or availability is the live question and no revalidation across several uses is needed.
 - Use `G.11` when currentness, decay, refresh planning, or refresh reporting is the live result.
 - Use `E.15` when the changed object is one FPF pattern edition; it retains Delta-Class, predecessor-function continuity, pattern checks, and its own change result.
 - Use the direct subject pattern for a world-side change with no source change; examples include a changed sensor, market, organization, configuration, or situation affecting a law's applicability.

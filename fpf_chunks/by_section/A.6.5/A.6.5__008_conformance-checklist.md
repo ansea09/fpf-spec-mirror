@@ -6,12 +6,12 @@ section_id: "A.6.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:7 — Conformance Checklist"
-line_start: 23760
-line_end: 23782
+line_start: 23342
+line_end: 23364
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -28,10 +28,10 @@ keywords:
 
 ### A.6.5:7 - Conformance Checklist
 
-1. The direct relation kind and the definition of its predicate, applicability, participant meanings, and identity rule are named before SlotSpecs are declared.
+1. The direct relation kind and the definition of its predicate, applicability, participant meanings, and any identity rule needed by the receiving use are named before SlotSpecs are declared.
 2. Every participant meaning needed by reusable typed use has one complete `<SlotKind, ValueKind, refMode>` SlotSpec in the `RelationSignature`.
 3. Each SlotKind is local to the one exact `RelationSignature` that contains its SlotSpec.
-4. World-side relation prose names participant meanings and actual participants; declaration prose uses `SlotSpec` for the complete declaration and `...Slot` only for its declaration-local SlotKind; receiving-episteme prose names participant designations and uses `...Ref` only for admitted RefKinds or reference values of those kinds. Actual participant ValueKind names carry neither suffix. For every semantic or representation field that receives relation semantics, verify the applicable §4.2 declaration or representation correspondence route and keep the field, SlotSpec, designation, and actual participant distinct. `Position` and `place` are not alternate FPF names for a declaration slot.
+4. World-side relation prose names participant meanings and actual participants. Declaration prose uses `SlotSpec` for the complete declaration and `...Slot` for its declaration-local SlotKind. Receiving-episteme prose distinguishes a designation from its referent, using `...Ref` for the reference kind or value. For a field receiving relation semantics, apply the §4.2 declaration or representation-correspondence rule. Position and place remain ordinary representation words unless a specific declaration establishes a SlotSpec.
 5. Each ValueKind is exact enough for the direct predicate and does not combine participant kinds for which the predicate has different semantics.
 6. An assertion or description episteme that designates a participant by reference names the exact RefKind and resolves it to the declared ValueKind.
 7. The actual relation participant, its reference, reference resolution, SlotSpec declaration, participant designation in the assertion, and relation occurrence remain distinct.
@@ -47,5 +47,5 @@ keywords:
 17. A SlotSpec declares one direct-relation participant meaning inside one exact `RelationSignature`. Method-description, operation, plan, work, evaluation, representation, card, schema, and record fields retain the kinds and declaration rules supplied by their defining patterns; a field that receives relation semantics uses the applicable §4.2 route.
 18. An A.15.3 planned-filling row may cite an exact SlotSpec, but the planned designation remains plan content and establishes neither an actual participant nor relation obtaining.
 19. Interface, port, endpoint, API, and signature language remains available for recognition. The text states what connects, crosses, or is transferred between which entities and recovers the direct-relation definition before declaring SlotSpecs; an unresolved case requires A.6.RSIR or an exact missing-relation result.
-20. When source wording calls an entity a result, first determine whether the same entity continued or a new entity began. A separately worded delivery, acceptance, or evaluation claim is opened one at a time with its concrete participants; no pattern catalogue or generic result kind substitutes for that decision.
+20. When result wording leaves continuation or inception unresolved, determine whether the same entity continued or a new entity began. Recover a separately asserted delivery, acceptance or evaluation relation from its predicate and participants; clear wording needs no additional history inquiry. A catalogue or generic result kind cannot supply a missing relation.
 

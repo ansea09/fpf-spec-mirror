@@ -6,12 +6,12 @@ section_id: "A.8:3.2"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:3.2 — Bias-Annotation"
-line_start: 26779
-line_end: 26782
+line_start: 26337
+line_end: 26340
 dependencies:
   - "A.11"
   - "C.3"
@@ -30,5 +30,5 @@ keywords:
 
 ### A.8:3.2 - Bias-Annotation
 
-A.8 intentionally biases against kernel growth by name familiarity. This is useful because every admitted universal primitive raises the cost of FPF reasoning. The counter-bias is the three-domain falsification test: do not reject a candidate merely because domains spell it differently when the same abstract contribution is visible and losses are recorded.
+A.8 resists kernel growth based on familiar names because downstream patterns may rely on each admitted primitive. The three-domain test also resists rejection based only on different spellings: compare the actual contribution and retain differences and losses.
 

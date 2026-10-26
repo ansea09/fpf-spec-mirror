@@ -6,12 +6,12 @@ section_id: "A.15.11:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.11 — Make Applicable Methods Noticeable in Work"
   - "A.15.11:9 — Consequences"
-line_start: 32982
-line_end: 32987
+line_start: 32538
+line_end: 32543
 dependencies:
   - "A.15"
   - "A.15.7"

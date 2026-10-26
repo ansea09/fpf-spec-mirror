@@ -6,12 +6,12 @@ section_id: "A.6.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:5 — Archetypal Grounding"
-line_start: 20491
-line_end: 20546
+line_start: 20150
+line_end: 20205
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -68,13 +68,13 @@ If the adopted construction rule makes installation Work constitutive, identify 
 
 **Needed sentence.** `For bearing-replacement planning on PumpAssembly_P204, CAD-Part-Scheme-v7 label BRG-6204 and Asset-Register-Scheme-2026Q2 label bearing-4471 denote the same installed bearing.` This is a candidate claim, not yet a fact.
 
-**Edge boundary.** Under `C.29`, `AlignmentEdge_17` represents that sentence. It does not make the sentence true, prove one referent, or identify a Bridge occurrence.
+**Edge meaning.** Under the selected graph convention, `AlignmentEdge_17` expresses the candidate sentence. Its presence does not establish one referent or a Bridge occurrence. Use C.29 only if a separate mathematical representation or transfer question remains.
 
 **Adjacent reading.** Record `ninety-seven percent of endpoint pairs passed the mapping test` with `C.16`. If approval relies on that measurement, `A.10` governs the evidence relation. The percentage does not establish the needed sentence.
 
 **Result.** Bearing-replacement approval is not yet supported. First recover what each label designates under its reference scheme and the grounding or identity evidence for those referents. If the applicable designation and subject-identity rules establish one independently identified bearing, return that bounded identity claim; it does not by itself authorize replacement. If the labels designate different referents, or a kind and an individual, revise or reject the candidate claim as warranted. Keep missing interpretation or evidence explicit. Return `A.6.RCD missing-governor` only when the exact remaining predicate or a required applicability or identity rule is absent, naming that gap and the affected use.
 
-**Show the boundary.** The graph edge and its endpoint positions remain representation elements. An explicit `C.29` correspondence states which assertion content, participants, and direct relation the edge represents. The edge does not make the correspondence obtain, prove same EntityOfConcern, or individuate a relation occurrence. Shared labels likewise establish neither same world-side referent nor substitutability.
+**Representation boundary.** The edge and endpoint positions represent the assertion and its participants under the graph convention. Their interpretation makes the claim readable; the designation and subject-identity evidence decide its truth. Neither shared labels nor a visible edge establishes substitutability or an individuated relation occurrence by itself.
 
 When the claim is that both model epistemes concern the same world-side holon, recover each episteme's exact EntityOfConcern or grounding designation plus the observations, trajectory, or identity evidence governed for that holon. A Bridge preserves stated correspondences and losses; it does not prove the common world-side referent.
 
@@ -82,13 +82,13 @@ When the claim is that both model epistemes concern the same world-side holon, r
 
 For unchanged `E` and `P`, the pair `<E,P>` determines one positive occurrence. Selecting `P` for this review is a separate use qualification: selection neither makes conformance obtain nor enters occurrence identity. If another review selects `P2`, test `<E,P2>` instead of retagging `E`. A `viewpointRef` or diagram label does not identify either participant by itself. A query, transformation, or projection may supply construction history for `E`, but neither that history nor an assertion, evaluation, representation, or publication makes conformance obtain.
 
-Add an occurrence designator only if the next decision must distinguish two conformance occurrences. Add an evaluation result or evidence path only if the reader must rely on the conformance verdict. Add construction history only if the task asks how `E` was produced; add a representation or publication only if another reader must inspect or receive it; add associated Work only if the task asks who performed which activity. Otherwise add none of these objects. A.6.P stops after recovering `E`, `P`, and the direct relation; `E.17.0` governs the predicate and, if the use separately asks whether an episteme is a `U.View`, that recognition.
+Add an occurrence designator when a receiving use needs to refer to or reidentify that conformance occurrence, distinguish it from another, or use it as a participant. Add evaluation, evidence, construction history, representation or publication detail only when the corresponding question matters. A.6.P stops after recovering E, P and the direct relation. E.17.0 governs the predicate and any separately requested U.View recognition; actual Work retains its own basis.
 
 #### A.6.P:5.4 - Method, Work, system-role objects, and agency
 
-The sentence `the inspection method checks Pump_P` may remain ordinary metonymy under F.19. For a separate claim about actual inspection history, recover the following exact case. The source basis says that admitted `System_S` has the A.13 core for inspection: it is independently classified under local kind `InspectorSystemRole` and holds obtaining `InspectionAssignment-17` of declared `MaintenanceInspectionAssignment` species for the stated scope and window. A.15.1 then independently admits `InspectionWork_W` and its `enactsMethod(InspectionWork_W, InspectionMethod_M)` relation; the examination relation separately connects the Work to `Pump_P`. Because this worked account expressly states under which assignment the inspection was performed, F.6 then establishes `performedUnderAssignment(InspectionWork_W, InspectionAssignment-17)` and checks the already recovered performer against the holder. If that F.6 relation were unsupported, the Work would remain and only its assignment-bound attribution would be unresolved. Taxonomy episteme and reference scheme may interpret the assertion but are not assignment participants. `System_S` performs `InspectionWork_W`.
+The sentence `the inspection method checks Pump_P` may remain ordinary metonymy under F.19. For a separate claim about actual inspection history, recover the following exact case. The source basis says that admitted `System_S` has the A.13 core for inspection: it is independently classified under local kind `InspectorSystemRole` and holds obtaining `InspectionAssignment-17` of declared `MaintenanceInspectionAssignment` species for the stated scope and window. A.15.1 then independently admits `InspectionWork_W` and its `enactsMethod(InspectionWork_W, InspectionMethod_M)` relation; the examination relation separately connects the Work to `Pump_P`. Because this worked account expressly states under which assignment the inspection was performed, F.6 then establishes `performedUnderAssignment(InspectionWork_W, InspectionAssignment-17)` and checks the already recovered performer against the holder. If the deciding F.6 fact were missing, attribution would remain unresolved; contrary facts would refute that attribution. The independently admitted Work remains in either case. Taxonomy episteme and reference scheme may interpret the assertion but are not assignment participants. `System_S` performs `InspectionWork_W`.
 
 #### A.6.P:5.5 - Formal reduced case
 
-`3 < 5` is assertion content in mathematical notation. The numeral occurrences, comparison sign, and operand places are representation elements under `C.29`. An explicit correspondence can relate them to the values, direct less-than predicate, and any compatible declaration used for typed reuse. No receiving use here distinguishes one obtaining occurrence from another, so the engineer stops at the assertion. A graph edge, tuple, or statement reifier introduced by a tool represents the proposition or assertion; it does not constitute the direct relation.
+`3 < 5` states an ordinary mathematical comparison. The numerals designate values and the sign expresses the less-than predicate under familiar arithmetic conventions. No separate representation or transfer question remains, so C.29 requires no additional account. If a later use introduces one, explain the correspondence it needs. The present use requires no explicit occurrence identity and can stop at the assertion. A tool's graph edge, tuple or reifier represents that content without constituting the relation.
 

@@ -6,12 +6,12 @@ section_id: "C.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:4 — Solution"
-line_start: 53804
-line_end: 53842
+line_start: 52957
+line_end: 52995
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -38,16 +38,16 @@ keywords:
 
 #### C.2.5:4.0a - Kind and characteristic boundary
 
-`U.LanguageStateClosureDegree` is a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the closure-degree basis slot and ordinal scale discipline for governed episteme publication positions. Claims about local route commitments, gates, or authority states remain separate from the closure-degree claim. When one matters to the current use, test it against its applicable rule and current case facts.
+`U.LanguageStateClosureDegree` names the Characteristic assessed here. The `CD0`–`CD5` readings belong to its ordinal Scale. A language-state chart binds that Characteristic and Scale in a basis slot under A.19; the Characteristic, a value on its Scale and the chart slot remain distinct. Claims about local route commitments, gates, or authority states remain separate from the closure-degree claim. When one matters to the current use, test it against its applicable rule and current case facts.
 
 #### C.2.5:4.1 - Characteristic specification
 - **Kind:** CHR characteristic.
 - **Scale discipline:** ordinal.
-- **What rises:** the local state becomes more fixed or more binding.
+- **What rises:** the candidate space or selected route becomes more fixed for the named use. Any binding force comes from its separately established rule.
 - **What does not follow automatically:** truth, trust, formality, or quality.
 
 #### C.2.5:4.2 - Starter anchor set
-| Anchor | Reading | Typical governance effect |
+| Anchor | Reading | Typical interpretation for use |
 |---|---|---|
 | `CD0` | exploratory-open | broad rival space remains live |
 | `CD1` | weakly stabilized | some contrasts are present, but rival routes remain normal |

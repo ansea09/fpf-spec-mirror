@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:6 — Bias-Annotation"
-line_start: 19407
-line_end: 19412
+line_start: 19059
+line_end: 19064
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"
@@ -26,7 +26,7 @@ keywords:
 
 ### A.6.3.RT.OE:6 - Bias-Annotation
 
-Under E.3's five Principle-Taxonomy lenses (Gov, Arch, Epist, Prag and Did), this pattern concerns expression construction for a stated operation under available conventions. It assumes that subject operations and notation rules can be obtained. It does not supply the full practice of notation invention, mathematical proof, composition or instruction.
+This pattern concerns expression construction for a stated operation under available conventions. It assumes that subject operations and notation rules can be obtained. It does not supply the full practice of notation invention, mathematical proof, composition or instruction.
 
 The cases favor expressions whose participating parts can be inspected directly or followed in time. Very large constructions can need abstraction, tooling or several coordinated representations. Reader preparation and the operation govern whether the added structure helps.
 

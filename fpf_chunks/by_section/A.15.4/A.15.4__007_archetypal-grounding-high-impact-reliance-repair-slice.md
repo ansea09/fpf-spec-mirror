@@ -6,12 +6,12 @@ section_id: "A.15.4:3.2"
 section_title: "Archetypal Grounding - High-Impact Reliance-Repair Slice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__007_archetypal-grounding-high-impact-reliance-repair-slice.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3.2 — Archetypal Grounding - High-Impact Reliance-Repair Slice"
-line_start: 30875
-line_end: 30970
+line_start: 30430
+line_end: 30525
 dependencies:
   - "A.10"
   - "A.13"
@@ -53,7 +53,7 @@ keywords:
 
 ### A.15.4:3.2 - Archetypal Grounding - High-Impact Reliance-Repair Slice
 
-A lab manager sees a green tile for `CRISPR-guide-G42 ready` and a copied message saying the edit is approved. `A.15.4` does not ask the manager to decide whether the tile is a good UI. It asks what work or reliance claim is about to be made.
+In this constructed case, a lab manager sees `CRISPR-guide-G42 ready` and a copied approval. The intended use is to determine the next permitted preparation or intervention step. The local policy separately requires the following prerequisites; this is not a universal kit for all appearance-repair cases.
 
 ```text
 A.15.4 structured local note:
@@ -109,7 +109,7 @@ A.15.4 structured local note:
       DirectObjectKind: B17EditorSystemRoleAssignment, a direct species of U.SystemRoleAssignment
       ProjectSideObjectRef: B17-EditorAssignment
       RequiredPostureOrCurrentness: obtains, names the intended performer as holder, and covers the proposed Work window
-      DependencyOnAttemptedUse: identifies the intended performer and the assignment context required by the beneficiary branch and F.6 attribution; it establishes neither capability, permission, authority, responsibility, nor Work
+      DependencyOnAttemptedUse: supplies the holder-and-kind condition consumed by the grant beneficiary branch; any later precise Work attribution requires its own F.6 check after Work admission
     - EntryId: B17-PROTOCOL-EVIDENCE
       SubjectPatternLocator: A.10
       DirectObjectKind: C.2.1 episteme carrying an A.10 evidence-provenance account
@@ -139,10 +139,10 @@ A.15.4 structured local note:
       DirectObjectKind: U.WorkPlan
       ProjectSideObjectRef: B17-GeneEditWorkPlan-e4
       RequiredPostureOrCurrentness: current plan for the intended performer, intervention, sample batch, method, resources, and window; not actual Work or permission
-      DependencyOnAttemptedUse: describes the Work that would be entered if every other prerequisite passes
+      DependencyOnAttemptedUse: coordinates intended Work; after the other entry prerequisites pass, seek the separately governed commitment required by this case before starting
   AllowedUseNow: source-finding and prerequisite refresh only; do not intervene while any entry is absent or fails its required posture or currentness
   AppearanceOverreadBlocked: tile color and copied message do not authorize biological work or prove safety
-  RecoveryOrStopCondition: before intervention, follow every typed ref; reopen only when every listed relation obtains or result passes its stated criterion, is current for this beneficiary, action, sample batch, scope, and window, and has its required evidence or source relation; B17-CONFLICT must have a current grant-selecting disposition, the gate must say pass, and work-entry readiness must have ReadinessResultValue=ready, with commitment-seeking stated separately as the next move
+  RecoveryOrStopCondition: revisit each missing or failed prerequisite and its affected dependencies; retain unchanged applicable results. The conflict must have a current grant-selecting disposition, the gate must pass, and readiness must be ready for this use. These results permit the stated commitment-seeking next move. Intervention remains blocked until the separately required commitment and all other entry conditions obtain.
 ```
 
 **Named-but-revoked grant near-miss.** Suppose `B17-InterventionGrant` and its complete-looking record are present, but policy-valid `B17-GrantRevocation` took effect before the intervention window. The `B17-GRANT` entry then fails `RequiredPostureOrCurrentness` because the grant no longer obtains. A current protocol, plan, `GateDecisionResult` with `decisionValue=pass`, readiness result, and green tile do not repair that failure: `AllowedUseNow` remains source-finding and prerequisite repair, and the intervention stays blocked.

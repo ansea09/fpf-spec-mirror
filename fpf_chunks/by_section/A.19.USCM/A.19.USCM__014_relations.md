@@ -6,12 +6,12 @@ section_id: "A.19.USCM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__014_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:12 — Relations"
-line_start: 38925
-line_end: 38947
+line_start: 38170
+line_end: 38192
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -32,7 +32,7 @@ keywords:
   * `G.0` (CG‑Spec, specifically `SCP` and `MinimalEvidence`).
   * `A.18` (CSLC lawfulness discipline).
   * `C.16` (measurement constitution and scale-lawful operations when measurement is claimed).
-  * `A.15.2` for the planned edition/policy baseline; `A.15.3` plus `A.19.CHR:4.7.2` for typed filling of independently declared positions.
+  * `A.15.2` for the planned edition/policy baseline on P2W paths; `A.15.3` plus `A.19.CHR:4.7.2` for typed filling of independently declared positions.
   * `A.19.CN` (CN‑Spec, specifically `comparability` routing and normalization‑based comparability expectations).
 * **Used by**
 

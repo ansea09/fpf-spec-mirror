@@ -6,12 +6,12 @@ section_id: "C.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:2 — Problem"
-line_start: 51212
-line_end: 51215
+line_start: 50380
+line_end: 50383
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,5 +41,5 @@ keywords:
 
 ### C.2:2 - Problem
 
-Teams routinely entangle **programs, specifications, proofs, and datasets**; a proof is treated as evidence that an actual system meets its assumptions, or a program as if it entailed a theorem. Warrant becomes opaque when support and its applicable currentness conditions are not explicit. Epistemes are anthropomorphised as actors (“the standard enforces…”), producing category errors at execution. Aggregation can hide a missing necessary premise, erase complementary support, or conceal contrary evidence behind an unjustified score. KD-CAL keeps constitution, input meanings, scales, and support dependencies explicit.
+A proof is treated as evidence that an actual system meets its assumptions, or a program as if it entailed a theorem. Warrant becomes opaque when support and its applicable currentness conditions are not explicit. Attributing performed Work to a standard conceals the system that performs it. Aggregation can hide a missing necessary premise, erase complementary support, or conceal contrary evidence behind an unjustified score. KD-CAL keeps constitution, input meanings, scales, and support dependencies explicit.
 

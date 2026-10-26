@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:4 — Solution"
-line_start: 73091
-line_end: 73216
+line_start: 72040
+line_end: 72169
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,7 +66,7 @@ keywords:
 
 Write the direct local repair first. For example: `Here “gate” names the neural-network path selector; use E.18 to describe the selected path.` That sentence can be the complete result.
 
-When the repair must be compared, handed on, or revisited, retain a compact note:
+A sufficient sentence can be compared, handed on, or revisited as it stands. Retain a compact note when organizing the repair helps that use:
 
 ```text
 StratificationSourceLabelRepairNote:
@@ -91,13 +91,13 @@ The note is neither the selected structure nor the relation, claim, publication,
 
 #### C.30.STRAT:4.1 - Recovery sequence
 
-1. **Copy the sentence and label.** Keep enough source context to tell what the sentence is doing.
+1. **Read the sentence and label.** Keep enough source context to tell what the sentence is doing; retain a copy when it is needed for the repair.
 2. **Try the cheap exits.** If the word carries no FPF claim, keep ordinary prose or quote it and stop. If the source already gives the technical term one clear local meaning, keep that term and use its rule directly. If one local rewrite makes the meaning clear, write it and stop. A controlled vocabulary or preferred-word list is not by itself a reason to replace useful domain language.
 3. **Recover plausible meanings.** Treat the label as a designation, not as the object, relation, or claim. If it belongs to a named model, viewpoint, standard, or local vocabulary, recover that source-local convention first. Then ask which object, relation, participants or bearer, claim, scope, time, and source use the sentence could be compressing. Include literal and metonymic readings when both are plausible.
-4. **Choose by the recovered meaning.** Use the first matching row in C.30.STRAT:4.2; never choose from the label alone. A standard or model may settle the label inside its declared use, but neither its status nor its popularity extends that meaning to another subject or source.
+4. **Choose by the recovered meaning.** Use the row in C.30.STRAT:4.2 that matches the recovered claim; separate several claims when they need different rules. Do not choose from the label alone. A standard or model may settle the label inside its declared use, but neither its status nor its popularity extends that meaning to another subject or source.
 5. **Open only the needed rule.** Name the actual participants, relation, structure, characteristic, state, publication, evidence, work, decision, or other object that makes the claim true or false. Do not copy every possible field into the result.
 6. **Return to ordinary wording.** Write the shortest sentence that preserves the recovered claim and names the next pattern only when its contribution matters.
-7. **State the stop.** Give the allowed use, the next action, and the condition for stopping or returning. Include a blocked overread only when it passes F.19's plausible-reader test. If no useful action survives, use quote-only, reduced-use, blocked, or incomplete-rewrite disposition.
+7. **State the result.** Give the useful conclusion and any next action or return condition the receiving use needs. Stop if the question is answered. Include a blocked overread only when it passes F.19's plausible-reader test. If the needed meaning or use remains unresolved, state that limit through quote-only, reduced-use, blocked, or incomplete-rewrite disposition.
 
 #### C.30.STRAT:4.2 - Recovered meanings and patterns to use
 
@@ -123,7 +123,11 @@ The note is neither the selected structure nor the relation, claim, publication,
 
 One sentence may use a source label while making several claims. Split them instead of adding a local catalogue of everything the label does not prove. C.30.STRAT repairs the label; the applicable pattern defines, constrains, or tests each separate claim. The table above lists common destinations, not a mandatory reading list.
 
+For a particular dated Work claim, recover the performer basis under A.13 and independently admit the Work under A.15.1. Use F.6 afterward only for precise assignment-bound attribution. The source word *expert*, ordinary practitioner action or instrumental use of a pattern does not require inventing those identities.
+
 #### C.30.STRAT:4.3 - Source-label cue table
+
+Use the source context and receiving question to select plausible readings from this cue table. It is not a required sweep of every meaning; stop when the intended claim is recoverable.
 
 | Source label family | Recovery discipline |
 | --- | --- |
@@ -180,11 +184,11 @@ StratificationSourceLabelRepairNote:
   disposition: reduced-use-cue; direct-pattern-use only for branches that become current
 ```
 
-The note preserves every live branch without requiring a project engineer to reproduce E.10.ARCH authoring coordinates.
+The three questions can be resolved separately. Recovering the cache referent does not supply the scaling comparison or its evidence; a sufficient answer to one question can be used within its boundary.
 
 #### C.30.STRAT:4.6 - Lowering and reopen conditions
 
-A repair remains usable only while its source span, recovered meaning, applicable rule, allowed use, and next action remain clear. Reopen or narrow it when the label begins carrying another relation or claim, the actual object becomes clear and makes this detour unnecessary, the interpretation was chosen from word similarity rather than evidence, or the repair is precise but leaves no useful reader action.
+A repair remains usable while its source meaning, applicable rule and conclusion remain clear for the intended use. Reopen or narrow it when the label begins carrying another relation or claim, the actual object becomes clear and makes this detour unnecessary, the interpretation was chosen from word similarity rather than evidence, or the precise repair still fails to answer the receiving question.
 
-Lower the result to ordinary wording, quotation, reduced-use cue, blocked use, or incomplete rewrite when the object, applicable rule, allowed use, next action, or stop or return condition cannot be stated. Include a blocked overread only when it passes F.19's plausible-reader test.
+Use ordinary wording or quotation when that is the intended result. Narrow or block a stronger use when its needed object, rule or support cannot be recovered; an adequate answer needs no invented next action or return condition. Include a blocked overread only when it passes F.19's plausible-reader test.
 

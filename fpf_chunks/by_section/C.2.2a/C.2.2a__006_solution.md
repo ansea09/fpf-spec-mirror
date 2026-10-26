@@ -6,12 +6,12 @@ section_id: "C.2.2a:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:4 — Solution"
-line_start: 52805
-line_end: 52896
+line_start: 51971
+line_end: 52052
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -51,10 +51,10 @@ It is not a second kernel state-space apparatus beside `A.19`. It is the particu
 
 #### C.2.2a:4.0a - Kind and chart boundary
 
-`U.LanguageStateSpace` is a dependent durable chart value under `U.CharacteristicSpace` and the episteme language-state boundary, not a new root state-space U-kind. Its identity is the declared characteristic-space chart for governed episteme publication positions. Practitioners can publish or use the chart through score tables, publication forms, local route maps, and carriers, which remain distinct from the chart.
+`U.LanguageStateSpace` is a dependent durable chart value under `U.CharacteristicSpace` and the episteme language-state boundary, not a new root state-space U-kind. Its identity is the declared characteristic-space chart for governed episteme publication positions. Here, the positioned episteme publication is the selected published `U.Episteme` edition being assessed; the E.24.PUB publication occurrence remains separate. Practitioners can publish or use the chart through score tables, publication forms, local route maps, and carriers, which remain distinct from the chart.
 
 #### C.2.2a:4.1 - Core use
-`U.LanguageStateSpace` gives FPF one explicit declared chart for answering five questions:
+`U.LanguageStateSpace` gives FPF an explicit declared chart for answering five questions:
 
 - which basis slots define where the governed episteme stands;
 - what a position claim in that chart means;
@@ -67,7 +67,7 @@ A language-state position is a partial, slot-explicit coordinate claim in the de
 
 Publish each basis-slot reading as a `ValueSet(slot)`, interval, or other admissible set-valued claim. Early seam publications may leave some slots unknown or wide, but that uncertainty must be declared rather than hidden inside one stage word.
 
-`position` language is therefore admissible here only as shorthand for such slot-explicit `A.19` coordinate claims. It does **not** authorize a rival process-sequence or feature-vector story.
+`position` here abbreviates these slot-explicit `A.19` coordinate claims.
 
 #### C.2.2a:4.3 - Facet basis
 The language-state chart is coordinated by explicit facet subject patterns rather than by an informal master progression. Select the actual Characteristics and Scales needed for the next action from:
@@ -80,16 +80,15 @@ The language-state chart is coordinated by explicit facet subject patterns rathe
 
 The selected basis slots together define the chart under A.19. Each actual Characteristic has its own Scale and slot. In particular, neither a formality profile nor a representation-factor bundle is silently treated as one Coordinate. `C.2.2a` does **not** govern the internal meanings or Scale semantics of those Characteristics.
 
-#### C.2.2a:4.4 - Ontological slot groups
-Within this cluster, keep five slot groups distinct:
+#### C.2.2a:4.4 - Position, grounds and publication
+Keep the positioned episteme publication separate from the grounds for its assessment and from its publication form and carrier:
 
 - **positioned episteme publication** - the governed `U.Episteme` publication whose current position is being claimed;
 - **grounds / witnesses** - disturbances, discrepancies, traces, model outputs, bodily tensions, exemplars, or contrasts that justify the current reading;
-- **publication forms** - cue packs, routed cue sets, prompt forms, typed route-bounded projection publications, partial normal forms, and endpoint-bound records through which the episteme is published;
-- **publication faces** - the existing MVPK faces on which those publication forms are rendered when face typing matters;
-- **carriers** - documents, console notes, cards, trace files, or model carriers that hold or render a publication.
+- **publication forms** - arrangements or notations used for publications such as cue packs, prompts, typed projections, partial normal forms and endpoint records; an MVPK face is a selected publication form, identified when that distinction matters;
+- **carriers** - physical or digital media, such as a paper sheet, file or console display, that bear the selected form.
 
-`U.LanguageStateSpace` governs only the coordinate reading of the position claim. It does not collapse that claim into the grounds, publication form, publication face, or carrier.
+`U.LanguageStateSpace` governs only the coordinate reading of the position claim. Keep that claim distinct from its grounds, publication form and carrier.
 
 #### C.2.2a:4.5 - Position publication rule
 
@@ -100,7 +99,7 @@ Add the local threshold and named next action only when the row is used for move
 The position is reviewable when the named or inherited episteme publication, relevant readings, grounds, and any relied-on threshold are recoverable, and when any form, face, or carrier actually mentioned remains distinct from the positioned episteme publication. A polished note or better carrier does not by itself prove a new chart position.
 
 #### C.2.2a:4.6 - Non-substitution of `F`
-`F` remains one basis slot in the chart, not the whole chart.
+The formality assessment supplies the selected expression Characteristics, each with its own basis slot. A justified local summary may occupy one slot; a multi-property profile does not. These readings describe only the expression properties selected under C.2.3.
 
 A conforming account shall not infer:
 
@@ -112,23 +111,14 @@ A conforming account shall not infer:
 Where operationally meaningful thresholds exist, they must be published on the relevant slots rather than being disguised as informal `F` sublevels.
 
 #### C.2.2a:4.7 - Position versus publication form
-A position claim in `U.LanguageStateSpace` is distinct from:
-
-- the underlying governed `U.Episteme`,
-- the source disturbance, discrepancy, or witness,
-- the current publication form,
-- the MVPK face that renders that publication,
-- the carrier that stores or displays it,
-- or the endpoint-subject-qualified publication that may result from it.
-
-These objects are coupled but distinct. `U.LanguageStateSpace` keeps the position claim readable without conflating it with any of them.
+A position claim states facet readings about the identified episteme. Witnesses provide grounds for those readings; a selected publication form, including an MVPK face, expresses the claim; a carrier bears that form. Changing the form or carrier does not by itself change a facet reading. Any later publication qualified under an endpoint subject pattern still needs that pattern's conditions.
 
 #### C.2.2a:4.8 - Threshold publication discipline
 If a threshold is used to justify a move or endpoint entry, that threshold shall be stated on explicit basis slots in the chart. Statements such as `this is now ready`, `this has matured`, or `this is still too early` are non-conformant when they substitute for undeclared slot conditions.
 
 #### C.2.2a:4.9 - Comparison and bridge note
 
-Positions may be compared directly only under one shared chart meaning and the applicable local comparison rule. For cross-context use, first recover the two exact F.17 local senses and test the direct F.9 predicate. Cite a Bridge only when that predicate obtains. State the proposed bounded use and any reliance separately; a loss note is optional and belongs to that use, not to the fact that the contexts differ.
+Positions may be compared directly only under one shared chart meaning and the applicable local comparison rule. When comparison or reuse depends on distinct local meanings, recover the two exact F.17 local senses and test the direct F.9 predicate. Cite a Bridge only when that predicate obtains. State the proposed bounded use and any reliance separately; a loss note is optional and belongs to that use, not to the fact that the contexts differ.
 
 If no Bridge obtains, preserve both local positions. Name the actual comparison or translation relation needed by the receiving use, or return the applicable missing-governor result instead of inventing correspondence.
 

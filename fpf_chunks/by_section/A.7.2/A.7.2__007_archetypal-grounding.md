@@ -6,12 +6,12 @@ section_id: "A.7.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__007_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:5 — Archetypal Grounding"
-line_start: 26415
-line_end: 26424
+line_start: 25964
+line_end: 25973
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -40,5 +40,5 @@ If the evidence does not establish whether the required act occurred, reliance o
 
 **Context split.** One dated application uses a pattern's `ComponentOf` clause for a pump assembly; another applies a maintenance-set pattern's belongs-to rule to a candidate item. Both result claims say “part”, but their subjects, receiving claims, constructions, and consequences differ. The result is `contextSplit`; neither source clause nor application result defeats the other.
 
-**Non-convergence.** Two dated method applications yield incompatible same-scope dependence claims, but available evidence and formal consequences warrant neither correction. The result is `doNotCompose` for the affected assurance use or `unresolvedEscalation` with exact result claims, missing evidence basis or decision predicate and source, and reopen condition. Familiarity or institutional status cannot manufacture convergence.
+**Non-convergence.** Two dated method applications yield incompatible same-scope dependence claims, but available evidence and formal consequences warrant neither correction. If the receiving question is whether the outputs may be combined for an assurance use requiring compatibility, return `doNotCompose` for that use. If the receiving decision instead needs the unresolved premise settled, return `unresolvedEscalation` with the result claims, missing evidence basis or decision rule, its source and the reopen condition. Familiarity or institutional status settles neither question.
 

@@ -6,12 +6,12 @@ section_id: "C.40.OCN:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:5 — Archetypal Grounding"
-line_start: 85676
-line_end: 85733
+line_start: 84496
+line_end: 84553
 dependencies:
   - "A.15.9"
   - "C.11"
@@ -30,7 +30,7 @@ keywords:
 
 #### C.40.OCN:5.1 - A new model without a settled problem
 
-This is a constructed example of the Method, not a report about an actual model, organization or performed Work. Its source packet stipulates the bounded facts described below; absent facts remain absent.
+This constructed example assumes the bounded facts below. It reports no actual model, organization or performed Work; missing facts remain unknown.
 
 An engineering-services unit hears that a new model can process long technical records. No accepted development problem or target result has been selected. The inquiry concerns useful contributions to engineering handoffs within ninety days, under confidential-data, independent-acceptance and continuing-service conditions. Buying or deploying the model is not the inquiry's objective.
 
@@ -62,7 +62,7 @@ A small archive is optional. If the unit retains these candidates for later inqu
 
 #### C.40.OCN:5.2 - A person exploring future engineering work
 
-This is another prospective, constructed use. An engineer wants to explore a useful next contribution within four months without asking an external adviser for a recommendation. The holder is the person. The inquiry's source packet distinguishes two prospective Work families: technical evidence review and coordination of cross-discipline interface questions. No future assignment, promotion or learning effect is assumed.
+This is another prospective, constructed use. An engineer wants to explore a useful next contribution within four months without asking an external adviser for a recommendation. The holder is the person. The example distinguishes two prospective Work families: technical evidence review and coordination of cross-discipline interface questions. No future assignment, promotion or learning effect is assumed.
 
 The person searches neighboring applications of their technical experience, different characteristics of contribution and possible supports. Evidence review could emphasize identifying mismatches between claims and tests; interface coordination could emphasize recovering incompatible assumptions between specialists. The first is not renamed as the second merely because both involve reading documents.
 

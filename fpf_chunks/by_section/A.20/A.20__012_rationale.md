@@ -6,12 +6,12 @@ section_id: "A.20:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:10 — Rationale"
-line_start: 40305
-line_end: 40308
+line_start: 39489
+line_end: 39492
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,5 +31,5 @@ keywords:
 
 ### A.20:10 - Rationale
 
-Constraint truth, knowledge about that truth, and a policy response are different. A.20 records the evaluation result. The constraint's own pattern defines the truth condition. A.21 or another consumer decides what follows. Keeping those steps separate removes evaluation-order dependence and prevents a local validity pattern from becoming a second architecture for flows, publication, refresh, and gates.
+Constraint truth, knowledge about that truth, and a policy response are different. A.20 records the evaluation result. The constraint's own pattern defines the truth condition. A.21 or another consumer decides what follows. Keeping those steps separate preserves independent findings across evaluation order and leaves policy consequences with the receiving decision.
 

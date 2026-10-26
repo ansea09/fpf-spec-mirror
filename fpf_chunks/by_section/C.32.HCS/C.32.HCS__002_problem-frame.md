@@ -6,12 +6,12 @@ section_id: "C.32.HCS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:1 — Problem frame"
-line_start: 77363
-line_end: 77422
+line_start: 76277
+line_end: 76336
 dependencies:
   - "A.19"
   - "C.11"
@@ -56,7 +56,7 @@ The primary `EntityOfConcern` is one architecture-bearing family starter pack fo
 
 Ordinary working move: choose the starter pack for the admitted holon family or recovered architecture-bearing family, keep only the heads that plausibly fit the project, ask the first project question for each head, then hand those heads to `C.32.ACS` for bearer, scale, and use-class binding.
 
-The first useful output is an `ArchitectureBearingFamilyCharacteristicStarterPack@FPF`. It is a working starter record under C.32.HCS: it suggests heads and first questions for one admitted holon family or one recovered architecture-bearing family. It does not introduce a new `U.*` kind and does not by itself create project criteria, scale rows, Q-Bundles, measurement methods, eval programs, or a universal holon ontology:
+The first useful result is a small set of plausible characteristic heads and the questions needed to bind them to the project. An ordinary account can suffice. Use the following optional `ArchitectureBearingFamilyCharacteristicStarterPack@FPF` record when a reusable family guide helps. Its suggestions remain candidate heads; project criteria and stronger uses need their own grounds:
 
 ```text
 ArchitectureBearingFamilyCharacteristicStarterPack@FPF:
@@ -72,17 +72,17 @@ ArchitectureBearingFamilyCharacteristicStarterPack@FPF:
       likelyQBundleBoundary?:
       firstProjectQuestion:
       usualNextQuestionPatternRef:
-  nonUniversalCaution:
+  nonUniversalCaution?: include only when a plausible generalization would change use
   criteriaRowPatternRef: C.32.ACS
 ```
 
 Use `describedHolonRef` when the starter heads concern an exact holon. Use `presentationCarrierRef` only when the carrier itself changes how the starter pack is presented or used; do not fill it as a substitute for the described holon.
 
-What goes wrong if C.32.HCS is missed: the team faces hundreds of `-ility` or quality names, copies a catalogue, or starts from a software-module list even when a source label such as method, role, culture, practice, built asset, or evidence workflow still hides what actually bears the characteristic.
+A copied quality catalogue can hide what bears the characteristic, especially when software-module names are applied to a Method, organization, built asset or evidence workflow. Recover that object before narrowing the heads.
 
-What C.32.HCS buys in practice: the practitioner has a short architecture-bearing starting point before `C.32.ACS` turns starter heads into project criteria rows, normally three to five optimization indicators, and monitored guardrails.
+The practitioner gains a small starting set for C.32.ACS to bind to project use. The later choice of optimization indicators and guardrails depends on that use; mandatory constraints remain binding.
 
-Adoption test: after using C.32.HCS, the project has a short starter set and first project questions; it has not copied a catalogue and has not yet claimed bearer, scale, use class, or optimization status.
+The result is a short starter set with first project questions. Likely bearers and scales remain proposals until their project binding is established.
 
 Not this pattern when the project already has admitted architecture-characteristic rows with bearers, scales, and use classes. Also not this pattern when the current work is composite-quality modeling, measurement, eval design, candidate synthesis, comparison, selected-set result declaration, actual publication, local choice, or project architecture decision.
 
@@ -92,7 +92,7 @@ Common exits by claim kind:
 - `C.25` for Q-Bundles and composite quality families.
 - `C.16` for measurement and `C.32.ACE` for eval programs or eval results.
 - `E.13` when a source-looking cue, score, benchmark, or dashboard starts replacing the architecture concern.
-- `C.32` for candidate synthesis after project criteria rows exist.
+- `C.32` for candidate synthesis when the relevant characteristic pressure is recoverable; use existing criteria or develop missing ones through ACS.
 - `A.19.CPM` for explicit comparison and `A.19.SelectorMechanism` for set-returning selection.
-- `G.5` for selected-set result declaration, `C.11` for local choice, and `C.32.PAD` for a project decision. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
+- `G.5` for selected-set result declaration, `C.11` for local choice, and `C.32.PAD` for a project decision. For publication, use `E.24.PUB` for the publication occurrence and audience availability, and `E.17` when a source-backed face and source return are needed.
 

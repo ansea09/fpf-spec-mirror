@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:7 — Conformance Checklist"
-line_start: 10692
-line_end: 10703
+line_start: 10607
+line_end: 10618
 dependencies:
   - "A.10"
   - "A.15.8.MS"
@@ -31,5 +31,5 @@ keywords:
 - [ ] Agreement, contradiction, missing information, failed declared conformance, staleness, and missing owner are not merged.
 - [ ] Every correction returns to one maintained result and preserves unaffected claims.
 - [ ] A repaired claim is rechecked against the same basis, or a changed basis starts a new use.
-- [ ] No coherence result is overread as fit, transfer, worth, contribution, causality, capability, admission, or publication.
+- [ ] The conclusion is limited to the claims actually checked; any stronger receiving claim retains its separate basis.
 

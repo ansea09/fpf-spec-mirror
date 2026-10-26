@@ -6,23 +6,25 @@ section_id: "C.2.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:intro — Intro"
-line_start: 53972
-line_end: 53985
+line_start: 53125
+line_end: 53138
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.18"
+  - "A.19"
   - "A.7"
   - "B.4.1"
   - "B.5.2.0"
   - "C.2.2a"
   - "C.2.7"
   - "C.2.LS"
+  - "C.2.P"
   - "F.9"
   - "F.9.1"
 keywords:
@@ -32,7 +34,7 @@ keywords:
   - "mixed modes"
   - "model state"
   - "operator loop"
-  - "publication-face anchoring"
+  - "receiving-episteme anchoring"
   - "source anchoring"
   - "trace"
 ---
@@ -45,9 +47,9 @@ keywords:
 
 **Plain-name.** Language-state anchoring mode.
 
-**Use this pattern when.** Use C.2.6 when a `U.Episteme` publication needs to say whether its current position is anchored in bodily enactment, traces, model state, document mediation, operator loop, or an explicit mixed regime.
+**Use this pattern when.** Use C.2.6 when how an episteme is anchored changes its interpretation, comparison or use. The mode can distinguish bodily enactment, traces, model state, document mediation, an operator loop or an explicit mixture. An ordinary description of the anchor is sufficient unless the receiving use needs a declared mode.
 
 **What goes wrong if missed.** A prose note hides an embodied, trace-based, model-latent, or operator-loop cue; bridge-loss notes disappear; and the final publication face is mistaken for the original anchoring regime.
 
-**What this buys.** A nominal anchoring-mode characteristic that keeps source anchoring, publication face, carrier, bridge loss, evidence, and reliance claims separate while still letting teams compare language-state positions.
+**What this buys.** A nominal Characteristic for comparing how epistemes are anchored, independently of their publication forms. Evidence and loss accounts can then address the actual anchoring relation.
 

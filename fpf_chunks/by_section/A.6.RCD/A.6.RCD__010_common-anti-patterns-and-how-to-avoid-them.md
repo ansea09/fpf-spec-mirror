@@ -6,12 +6,12 @@ section_id: "A.6.RCD:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 21715
-line_end: 21729
+line_start: 21349
+line_end: 21363
 dependencies:
   - "A.11"
   - "A.6.0"
@@ -36,7 +36,7 @@ keywords:
 | Anti-pattern | Failure | Repair |
 | --- | --- | --- |
 | `RelatedTo` as a universal fallback | Vague wording substitutes for participants and predicate. | Name the blocked use and derive the smallest exact claim. |
-| Formula-as-fact | A formula tree or theorem token is treated as predicate satisfaction. | Recover the claim and its applicability; keep the formula under `C.29`. |
+| Formula-as-fact | A formula tree or theorem token is treated as predicate satisfaction. | Interpret the formula and examine its claim, applicability and grounds. Add C.29 when a separate mathematical representation or transfer question remains. |
 | Query-path ontology | A path match is treated as an obtaining relation occurrence. | Separate base-edge obtaining, closure semantics, query result, and any later occurrence identity. |
 | Definition-as-kind | A reusable episteme is treated as a classifier of occurrences. | Keep its one `EntityOfConcern` and claim content; run separate derived-kind admission only for an occurrence-semantics need. |
 | Kind-by-name | A good relation name is treated as admission evidence. | Use `F.18` only after the exact definition episteme, kind, or occurrence is settled. |

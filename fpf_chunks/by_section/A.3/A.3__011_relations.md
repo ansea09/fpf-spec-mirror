@@ -6,12 +6,12 @@ section_id: "A.3:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__011_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:10 — Relations"
-line_start: 9246
-line_end: 9287
+line_start: 9187
+line_end: 9225
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -39,7 +39,7 @@ A.3 keeps the target EntityOfConcern, MethodDescription, Method, local system-ro
 A.3's CC-A3-1 uses A.12 only when an actor-side or reflexive-work claim is current. The split keeps grounded acting and changed positions distinct for that claim; it neither invents an actor for non-separable change nor turns ordinary descent to already grounded parts into an MHT.
 
 **A.13 Agential Role.**
-When an agency claim is current, A.13 governs agenthood and the domain profile, while A.17, A.18, A.19, C.16, and A.10 govern its measurement and evidence as applicable; planned C.9 may later consolidate the profile but supplies no current governing force. A.3 keeps identity, role assignment, method, plan, work, transformation, and evidence separate. Scale-free or minimal physical agentivity, observerhood, self-evidencing, or causal participation does not by itself establish an obtaining `U.SystemRoleAssignment`, `TransformerRole@Context`, method enactment, or dated Work.
+When an agency claim is current, A.13 governs agenthood and the domain profile, while A.17, A.18, A.19, C.16, and A.10 govern its measurement and evidence as applicable. A.3 keeps identity, role assignment, method, plan, work, transformation, and evidence separate. Scale-free or minimal physical agentivity, observerhood, self-evidencing, or causal participation does not by itself establish an obtaining `U.SystemRoleAssignment`, `TransformerRole@Context`, method enactment, or dated Work.
 
 **A.3.4 Actual Bounded Change Under Conditions.**
 A.3.4 independently identifies one actual bounded transformation from the changed referent and subject-side occurrence facts. A.3 opens only when an actor-side enactment claim is additionally grounded. Natural, spontaneous, formal, relational, and joint-dynamics changes therefore need no fictive performer.
@@ -55,9 +55,6 @@ A.3 consumes A.14/C.13 only for independently grounded part or structure relatio
 
 **B-cluster (Gamma sections).**
 A.3 supplies grounded actor-side facts and exact Work occurrences; receiving assertions may designate them, but A.3 does not require a universal bundle of Gamma calculations. B.1.5 governs order-sensitive Method composition and optional `Gamma_method`; B.1.4 governs a selected temporal aggregation and optional `Gamma_time`; B.1.6 governs a selected Work-resource aggregation and optional `Gamma_work`. System-boundary and epistemic aggregations use their exact direct patterns when current. Every such result has its own EntityOfConcern, policy, evidence, and admissible use rather than becoming a field or identity condition of MethodDescription, SystemRoleAssignment, or Work.
-
-**Indexing to the glossary.**
-Terms used here (TransformerRole, Work, Method, MethodDescription, PortionOf, PhaseOf, BoundedContext) remain exactly as defined in Annex A; see A.1/A.2/A.14/A.15 entries for lexical registers.
 
 [1]: https://royalsocietypublishing.org/doi/10.1098/rspa.2014.0540 "Constructor theory of information | Proceedings of the Royal Society A"
 [2]: https://arxiv.org/abs/1405.5563 "Constructor Theory of Information"

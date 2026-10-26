@@ -6,12 +6,12 @@ section_id: "C.11:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:11 — SoTA-Echoing"
-line_start: 57243
-line_end: 57277
+line_start: 56355
+line_end: 56381
 dependencies:
   - "A.10"
   - "A.13"
@@ -76,12 +76,4 @@ Practical reading of this alignment:
 - If the chooser is embodied, online, and socially coupled, or if context and order effects change the comparison state, keep those repaired limitations visible by naming the observation, social-expectation clarification, order stabilization, response-replicability check, or measurement-class clarification that could still change the current `ChoiceResult`, and say directly when fuller `ROE`, quantum-like state-space, or multilevel doctrine still sits outside this local choice body.
 - If the quantum-like line is activated, treat it as one measurement-sensitive mathematical lens or representational repair, not as one claim that the chooser or world is physically quantum.
 - If none of those heavier repaired limitations is live, stay with the lighter branch rather than activating one prestigious label that does not yet change the next action.
-
-Worked-slice discipline from these rows:
-
-- the system grounding slice is disciplined primarily by the bounded-resource and classical-baseline rows, so the output must end in one explicit probe-or-choose result;
-- the episteme grounding slice is disciplined by the bounded-resource row and the dependence layer active in the case; the output must name the comparison pass that could still reverse the result, or a predictor-coupled clarification when that coupling is live;
-- the collective and contextual grounding slice is disciplined primarily by the active-inference and quantum-like rows, so the output must name the embodied observation, framing stabilization, or reroute that now becomes lawful.
-
-**Smallest reopen.** A newer publication does not by itself reopen `C.11`. Reopen only when it materially changes the current-option boundary, chooser, comparison basis, probe value or cost, or one branch-activation condition used by the `Solution`. Revise the affected source row and its matching procedure branch, worked slice, checklist item, or public entry cue; leave unrelated decision doctrine unchanged.
 

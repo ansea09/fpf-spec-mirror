@@ -6,12 +6,12 @@ section_id: "A.16:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__009_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:8 — Consequences"
-line_start: 33743
-line_end: 33750
+line_start: 33276
+line_end: 33283
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -57,9 +57,9 @@ keywords:
 
 ### A.16:8 - Consequences
 
-**Benefits.** Practitioners can advance or retreat without inventing maturity, Work, publication, or authority claims. The three identity cases prevent both false continuity and needless successor creation. A small note remains useful on its own; A.16.0 opens when history is load-bearing, while E.18 requires its independently selected transformation-flow subject.
+**Benefits.** Practitioners can advance or retreat without inventing maturity, Work, publication, or authority claims. The three identity cases prevent both false continuity and needless successor creation. Local publication content can be sufficient; A.16.0 opens when history is load-bearing, while E.18 requires its independently selected transformation-flow subject.
 
-**Trade-off.** A consequential move needs explicit guards and preservation content. The mitigation is one canonical move table, one note schema, one history threshold, and one checklist rather than repeated packages.
+**Trade-off.** A consequential move needs explicit guards and preservation content. The move table, minimum content, history threshold, and checklist provide one reusable account of those requirements.
 
 **Failure containment.** A missing endpoint rule, Work relation, publication occurrence, lineage predicate, or actual authority relation blocks only that additional claim. The cue and any independently admitted earlier publication remain available.
 

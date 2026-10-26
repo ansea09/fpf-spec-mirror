@@ -6,23 +6,25 @@ section_id: "C.2.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:4 — Solution"
-line_start: 53999
-line_end: 54027
+line_start: 53152
+line_end: 53180
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.18"
+  - "A.19"
   - "A.7"
   - "B.4.1"
   - "B.5.2.0"
   - "C.2.2a"
   - "C.2.7"
   - "C.2.LS"
+  - "C.2.P"
   - "F.9"
   - "F.9.1"
 keywords:
@@ -32,23 +34,23 @@ keywords:
   - "mixed modes"
   - "model state"
   - "operator loop"
-  - "publication-face anchoring"
+  - "receiving-episteme anchoring"
   - "source anchoring"
   - "trace"
 ---
 
 ### C.2.6:4 - Solution
-`U.LanguageStateAnchoringMode` is a nominal characteristic that states the primary anchoring regime of the `U.Episteme` named by the current position claim: bodily enactment, trace, model state, document, operator loop, or an explicit mixed regime. If source anchoring and current publication-face anchoring differ, both shall be distinguished rather than collapsed.
+`U.LanguageStateAnchoringMode` is a nominal characteristic that states the primary anchoring regime of the `U.Episteme` named by the current position claim: bodily enactment, trace, model state, document, operator loop, or an explicit mixed regime. When a receiving episteme has a different anchoring regime from its source, distinguish both. A change of publication form alone does not establish that difference.
 
 #### C.2.6:4.0a - Kind and characteristic boundary
 
-`U.LanguageStateAnchoringMode` is a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the anchoring-mode basis slot and nominal family for episteme publication positions. This characteristic does not decide evidence, source-currentness, publication-face, carrier, Work, gate, or reliance claims; those claims retain their own definitions and tests.
+`U.LanguageStateAnchoringMode` is the Characteristic of an episteme assessed in the declared language-state chart. Its readings belong to a nominal Scale; the chart slot binds that Characteristic to its Scale under A.18/A.19. The mode identifies how the episteme is anchored. Any evidence, currentness or action claim still needs the relation and conditions that establish it.
 
 #### C.2.6:4.1 - Starter family
-| Mode | Reading | Typical evidence anchor |
+| Mode | Reading | Possible witness of anchoring |
 |---|---|---|
 | `AM.EmbodiedFelt` | bodily or kinesthetic anchoring matters directly | embodiment note, felt trace, human witness |
-| `AM.TraceAnchored` | traces, logs, telemetry traces, or observations anchor the episteme | trace references, measured events, observations |
+| `AM.TraceAnchored` | traces or observations anchor the episteme | trace references, measured events, observations |
 | `AM.ModelLatent` | latent or internal model state is the key anchor | model-state refs, probe results, latent summaries |
 | `AM.DocumentMediated` | document or description is the principal anchor | documents, cards, method-description text |
 | `AM.OperatorLoop` | the episteme is directly tied to operator intervention or console control | operator witness, console event, policy hook |
@@ -56,7 +58,7 @@ keywords:
 
 #### C.2.6:4.2 - Contribution boundary
 
-`U.LanguageStateAnchoringMode` is an anchoring-mode characteristic for one `U.Episteme` position claim. It is not a representation factor bundle, closure state, truth status, evidence relation, source-currentness relation, Work claim, gate claim, or reliance permission by itself. Model-latent, operator-loop, embodied, trace, and document-mediated cases name where the episteme is anchored for the current claim. A publication-face, carrier, source-currentness, bridge-loss, Work, evidence, or gate claim needs its applicable definition or test; anchoring mode alone does not decide it.
+The mode characterizes anchoring of the episteme named in the position claim. Representation factors describe how information is represented; closure describes fixity. Neither follows from an anchoring mode. Apply the rule for any further claim, such as an evidence relation or permission to act.
 
 If embodiment matters, it shall be declared here or immediately beside this characteristic rather than being hidden inside representation talk.
 
@@ -64,5 +66,5 @@ If embodiment matters, it shall be declared here or immediately beside this char
 `AM.Mixed` is admissible only when the component modes are named explicitly. "Mixed" shall not stand in for an undetermined anchoring mode.
 
 #### C.2.6:4.4 - Bridge implications
-An anchoring shift can matter when a receiving use needs a semantic relation between local senses from different semantic contexts. A shift from `AM.EmbodiedFelt` or `AM.ModelLatent` source anchoring to `AM.DocumentMediated` publication-face anchoring may provide evidence about an F.9 Bridge or bounded-use claim. Use F.9 to state and test the Bridge and the separate bounded-use claim, with its evidence and loss account. Use F.9.1 only for a separate optional stance note about that claim.
+An anchoring shift can matter when a receiving use needs a semantic relation between local senses from different semantic contexts. A receiving episteme anchored in a document may depend on a source anchored in bodily experience or model state. That difference may affect the evidence or loss account for the semantic correspondence. Use F.9 to state and test the Bridge and the separate bounded-use claim, with its evidence and loss account. Use F.9.1 only for a separate optional stance note about that claim.
 

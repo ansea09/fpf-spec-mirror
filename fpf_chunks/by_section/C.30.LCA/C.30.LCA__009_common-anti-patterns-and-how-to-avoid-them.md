@@ -6,12 +6,12 @@ section_id: "C.30.LCA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 74417
-line_end: 74426
+line_start: 73365
+line_end: 73374
 dependencies:
   - "A.10"
   - "A.20"
@@ -51,7 +51,7 @@ keywords:
 |---|---|---|
 | LCA-as-proof | The text says the control stack proves safety, stability, or gate readiness. | Keep the control view and use the relevant dynamics, evidence, assurance, gate, or safety pattern for each proof or claim named by value. |
 | Control-layer-as-generic-level | `Layer`, `level`, `tier`, or `stack` is used without a direct control relation, inter-layer relation, rate band, or `B.2.5` supervisor-subholon relation. | Apply `C.30.STRAT`; use C.30.LCA only after a control-specific relation is recovered. |
-| Agentive episteme, kind, or assignment | A policy, model, dashboard, local system-role kind, assignment, or architecture note is said to watch, decide, plan, or adapt. | Recover the direct control relation and participant meanings. For actual action, recover the exact performer through A.13 and admit the `U.Work` occurrence independently through A.15.1. Add assignment and F.6 only when precise assignment-bound attribution is expressly consumed; keep publication, source-to-use, work-reliance, authority, responsibility, gate, safety, and evidence relations separate. |
+| Agentive episteme, kind, or assignment | A policy, model, dashboard, local system-role kind, assignment, or architecture note is said to watch, decide, plan, or adapt. | Recover the direct control relation and participant meanings. For a particular dated action asserted as Work, recover the exact performer through A.13 and admit the `U.Work` occurrence independently through A.15.1. Ordinary instrumental wording alone does not assert such an occurrence. Add assignment and F.6 only when precise assignment-bound attribution is expressly consumed; keep publication, source-to-use, work-reliance, authority, responsibility, gate, safety, and evidence relations separate. |
 | Transformation-flow and LCA substitution | A transformation-flow graph expression is treated as control architecture, or an LCA diagram is treated as the transformation-flow graph expression. | Recover both exact selected structures and description epistemes separately; use E.17.0 only for actual viewpoint conformance. |
-| Hidden rate claim | Multi-rate control is named, but rate adequacy is not checked. | Add `rateSeparationClaimRefs?`; use `C.27.TA` for temporal-aspect or rate-band claims and `C.27` for authored temporal-claim adequacy. |
+| Hidden rate claim | Multi-rate control is used to claim adequacy, but the timing relation needed by that property is not established. | Recover the stated rates, their relations and bounds. Use `C.27.TA` for temporal aspects or rate bands, `C.27` for an action-guiding temporal claim, and the applicable dynamics or control rule for stability or performance. Merely reporting different update periods need not assert adequacy. |
 

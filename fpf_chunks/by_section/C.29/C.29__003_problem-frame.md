@@ -6,12 +6,12 @@ section_id: "C.29:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__003_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:1 — Problem frame"
-line_start: 68976
-line_end: 69003
+line_start: 67950
+line_end: 67977
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -78,9 +78,9 @@ A production manager sees waiting work but cannot tell whether an extra station 
 
 **Positive scenario.** In :4.4's two-station queue, the departure recurrence distinguishes a five-minute latency reduction from a change in sustained output. The next observation focuses on the slower station. Changed service time or finite-buffer blocking withdraws the affected calculation; actual capacity reliance requires checking the model against the line.
 
-**Anti-case.** “The organization is a quantum system” is written without a candidate mathematical object, probe distinction or readout distinction, preserved structure, lost structure, `LensUseBoundaryValue`, or stop condition. The `C.29` result is either a downgrade to local metaphor or a repaired use through `C.29` and, where relevant, `C.26`.
+**Anti-case.** “The organization is a quantum system” supplies no mathematical object, correspondence or derived consequence. Keep a local metaphor when it helps orientation, or construct the needed model and its use boundary through C.29; apply C.26 when a residual contextual-model obstruction warrants that branch.
 
-**Under-lensed anti-case.** “The work stream has dynamics” or “this portfolio is a network” is used for a diagnosis that affects prediction, comparison, repair, or stop conditions, but no mathematical object changes what can be predicted, compared, diagnosed, repaired, or stopped. The repair is to choose a cheap candidate lens that exposes useful structure, or keep the sentence as ordinary prose.
+**Under-lensed anti-case.** “The work stream has dynamics” or “this portfolio is a network” is offered as a diagnosis, but no model supplies its claimed consequence. Construct a candidate that could answer the diagnostic question, or keep the sentence as ordinary orientation.
 
 **False-positive scenario.** A Markov kernel appears inside accepted local reliability modeling. When no separate representation or transfer question is open, complete the A.3.3 result without a C.29 output. If such a question arises, use the reliance rule in :4.4.
 

@@ -6,12 +6,12 @@ section_id: "C.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:0 — Use this when"
-line_start: 61448
-line_end: 61486
+line_start: 60420
+line_end: 60456
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -53,10 +53,8 @@ keywords:
 
 ### C.19:0 - Use this when
 
-- several candidate lines, family regions, or frontier segments remain live under one declared exploration and exploitation policy and the question is now policy over that pool rather than one more local choice result
-- the next result should say whether to widen, keep the frontier, narrow to a subset, or sunset a line
-- if the question is no longer pool policy, the C.19 use closes by naming the next subject pattern and the reason that pattern now applies
-- the governing lens or policy state must be explicit rather than inferred from vague exploration language
+Use C.19 when several candidate lines, family regions or frontier segments remain live and the question is how to treat that pool: widen exploration, keep the frontier, narrow to a subset or sunset a line. Name the governing policy and what would justify changing the treatment. Use C.11 when the remaining question is a local choice among fixed options.
+
 
 If a proposed pool-policy premise is expressed as *learning progress*, information gain, novelty, or an articulated former cue, recover its exact result owner first. Use `E.10.LRN` only while learning wording hides that result, `A.10` only when an evidence-bearing or source-bearing claim is actually relied on, `C.17` or `C.18` only when characterization or possibility-space change is current, `C.11.CRC` only when a finite configuration-relative comparison is missing, and `C.11` for local option or probe choice. Stop before C.19 unless the remaining question is policy over a still-live pool.
 
@@ -84,9 +82,9 @@ If a proposed pool-policy premise is expressed as *learning progress*, informati
 
 For loop-engineering practice, use this first output only when the live question is pool policy over still-live candidates such as loops, harnesses, workflows, method families, or framework seeds. A `C.19` record may say that the pool should widen, keep its frontier, narrow to an internal subset, or sunset a line under a declared lens. If the question leaves pool policy, finish this record and use the handoff in `C.19:4.4`.
 
-The first useful output is one explicit pool-policy record that names the live pool, `governingLens`, one `currentTreatment` token from the closed set `widen | keep_frontier | narrow_to_subset | sunset_line`, and the exact event that would justify changing that treatment next. If another question has become current, set `nextQuestionPatternLocator` from `C.19:4.4` instead of inventing another `currentTreatment`.
+The first useful output states the live pool, governing lens or policy, treatment and the event that would justify changing it. A sufficient ordinary explanation can complete that result. When recording it for reuse, use `governingLens` and one `currentTreatment` token from the closed set `widen | keep_frontier | narrow_to_subset | sunset_line`. If another question has become current, set `nextQuestionPatternLocator` from `C.19:4.4` instead of inventing another `currentTreatment`.
 
-The word `result` in `PoolPolicyResult` means the stated conclusion of this pool-policy pass; it does not mint a universal result kind. The record and its inputs create neither an actual Problem nor a `ProblematicForRelation`, improvement-result or work-result identity, project Work or work parthood, `ChoiceResult`, public shortlist, work permission, nor refreshed edition. When a durable claim episteme about the pool treatment is needed, constitute that episteme separately under `C.2.1` and keep its exact EntityOfConcern and claim content explicit.
+The word `result` in `PoolPolicyResult` means the stated conclusion of this pool-policy pass; it does not mint a universal result kind. The record and its inputs create neither an actual Problem nor a `ProblematicForRelation`, improvement-result or work-result identity, project Work or work parthood, `ChoiceResult`, public shortlist, work permission, nor refreshed edition. A claim-bearing account of the treatment is an episteme under `C.2.1`; identify its EntityOfConcern and claim content when that identity matters. An existing adequate account can supply it.
 
-That record states pool treatment only. Use `C.19:4.4` for the next result rather than adding its fields or claims to `PoolPolicyResult`. If the output still cannot name the pool, governing lens, current treatment, and change trigger honestly, the current `C.19` pass is unfinished.
+Use `C.19:4.4` when the next question leaves pool treatment. If the account cannot identify the pool, policy, treatment and relevant change trigger, state the missing basis; that pool-policy question remains open.
 

@@ -6,12 +6,12 @@ section_id: "C.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:5 — Archetypal Grounding"
-line_start: 57126
-line_end: 57169
+line_start: 56238
+line_end: 56281
 dependencies:
   - "A.10"
   - "A.13"
@@ -82,14 +82,14 @@ keywords:
 
 **Show.** `C.11` keeps the case legible by typing the chooser as one `DecisionSubject` at explicit `DecisionSubjectGranularity`, keeping the available actions as one current `OptionSet`, keeping one explicit `BeliefState` and `OutcomeModel` around those actions, and asking whether another test belongs in the `ProbeActionSet` with enough expected value to justify its `CostToProbe`.
 
-**Show.** Active-inference-adjacent pressure is visible because the chooser is embodied, online, and socially coupled; quantum-like pressure is visible because context and question order change the comparison state. `C.11` keeps both repaired limitations visible without pretending that the whole pattern has already become one full active-inference or quantum-like formal package.
+**Show.** The changing patient state and the board's update process matter when they change feasible actions or estimated consequences. The observed order effect requires an explicit comparison-order account. Neither collective choice nor an order effect alone establishes that active-inference or quantum-like formalism is needed; use a branch only for the remaining limitation it actually addresses.
 
 **Show.** If the order effect still changes which option survives, the comparison should say that directly and keep the comparison unfinished. The next comparison move is then either one framing-stabilizing probe or declaring the comparison order under which the current result will be judged. It should not hide that instability inside one vague statement that the board has mixed intuitions.
 
 **Show.** An admissible output here therefore looks like one of three concrete records:
 
-- `ChoiceResult = probe again with one rapid diagnostic test because the current prognosis-first versus risk-first framing still changes which option survives`;
-- `ChoiceResult = choose now and escalate because, under the fixed risk-first order and current evidence, no remaining feasible test can reverse the survivor relation before delay increases harm`;
+- `ChoiceResult = probe again with a comparison under both stated question orders because it can distinguish a missing prognosis premise from a framing-dependent ranking; the expected decision gain justifies the feasible delay`;
+- `ChoiceResult = choose now and escalate because the receiving decision accepts the declared risk-first comparison, and no further feasible test offers enough expected decision gain to justify the harmful delay`;
 - `ChoiceResult = reroute to C.24 because the board has already chosen escalation and the next task is now treatment sequencing rather than local choice`.
 
 **Show.** The output still has to be one actionable record. If the current result cannot say which of those three forms is now lawful, then the contextual pressure has been noticed but not yet carried into one usable decision result.

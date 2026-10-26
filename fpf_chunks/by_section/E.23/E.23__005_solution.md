@@ -6,12 +6,12 @@ section_id: "E.23:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:4 — Solution"
-line_start: 114040
-line_end: 114352
+line_start: 112860
+line_end: 113172
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -32,7 +32,7 @@ keywords:
 
 `E.23` guides repeated improvement of one object version under a settled evaluation question. Reuse an adequate ordinary request; use the E.22 `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration` when a receiving use needs those exact declarations. The evaluation pattern defines the evaluation; restoration and subject patterns supply the relevant rules or guidance. A pattern body or locator does not by itself establish a semantic `U.Method` or qualify as its description. Claim Method or MethodDescription identity only after A.3.1 and A.3.2 admit it.
 
-When an evaluation or improvement pass is claimed as actual A.15.1 `U.Work`, recover every exact actual performer through A.13 and independently identify the occurrence, time, Method, and containing System through A.15.1. Add A.2.1 assignment-occurrence identity and F.6 only when the loop record or receiving use expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact. A proposed pass, intended performer, planned condition, or A.15.2 WorkPlan remains modal until its predicates obtain.
+When an evaluation or improvement pass is claimed as actual A.15.1 `U.Work`, recover every exact actual performer through A.13 and independently identify the occurrence, time, Method, and containing System through A.15.1. Add A.2.1 assignment-occurrence identity and F.6 only when the loop record or receiving use expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed attribution alone leaves independent Work admission intact. If the same finding invalidates a premise consumed by A.13 or A.15.1, apply A.15.1's premise-recheck rule to that premise and its dependent conclusions, preserving independently grounded history and relations. A proposed pass, intended performer, planned condition, or A.15.2 WorkPlan remains modal until its predicates obtain.
 
 Keep a returned value, durable result episteme, changed object, and actual Transformation separate. Connect a returned value through its A.6.1 binding or the evaluation's direct result relation. Connect Work to a result or change only through a declared direct relation or local claim that actually obtains; otherwise return the missing governor.
 

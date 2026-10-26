@@ -6,12 +6,12 @@ section_id: "C.17:1"
 section_title: "The practitioner route"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__003_the-practitioner-route.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:1 — The practitioner route"
-line_start: 60613
-line_end: 60642
+line_start: 59583
+line_end: 59612
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -42,7 +42,6 @@ dependencies:
   - "F.9"
   - "G.11"
   - "G.5"
-  - "U.Mechanism"
 keywords:
   - "ConstraintFit"
   - "Novelty"
@@ -61,7 +60,7 @@ keywords:
 
 Name the bearer, comparison set, practical objective or must-criterion, observed or argued difference, supported consequence, evidence, and limitation. A useful statement can be as simple as:
 
-> Compared with the admitted five-year pump-design set, P-22's inspected split-clamp arrangement is a supported difference. The cited assembly evidence supports shorter assembly, and the design must not require new tooling. The inspection does not support claims about other pump families.
+> Compared with the admitted five-year pump-design set, P-22's inspected split-clamp arrangement is a supported difference. The cited assembly evidence supports shorter assembly than the current shop design P-11, and the design must not require new tooling. The inspection does not support claims about other pump families.
 
 This is already a valid C.17 result for an ordinary design discussion. It does not imply a numerical Novelty value or an overall assessment occurrence.
 
@@ -81,7 +80,7 @@ Return only the missing premise that blocks the current coordinate or conclusion
 
 #### C.17:1.3 - Dated overall-assessment branch
 
-Open this branch only when the claim says that an overall assessment actually occurred and later reliance needs that fact. Recover the evaluator System through A.13 and the admitted Method through A.3.1, then use A.15.1 to independently admit the dated Work that enacts that Method. Add the exact A.2.1 assignment occurrence and F.6 relation only when later reliance expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the assessment Work intact. Only the evaluator System performs the Work. A separate MethodDescription may explain the reusable Method; it is not enacted. Coordinate-measurement Work remains its own `C.16` Work, and the aggregate result states claims.
+Use this branch when a statement deliberately asserts dated overall-assessment Work or the receiving use needs that occurrence established. Recover the evaluator System through A.13 and the admitted Method through A.3.1, then use A.15.1 to independently admit the dated Work that enacts that Method. Add the exact A.2.1 assignment occurrence and F.6 relation only when later reliance expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 attribution alone leaves the assessment Work intact while its independent A.13/A.15.1 grounds still hold. Only the evaluator System performs the Work. A separate MethodDescription may explain the reusable Method; it is not enacted. Coordinate-measurement Work remains its own `C.16` Work, and the aggregate result states claims.
 
 Do not infer an A.6.1 operation application from the Method, Work, configuration, or result. If a receiving claim separately asserts an exact operation application or binding, satisfy the current A.6.1 application account and cite that application. Otherwise retain only the C.17-local evaluator System, assignment, Method enactment, dated assessment Work, coordinate results, and aggregate result that the claim actually needs.
 

@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:7 — Conformance Checklist"
-line_start: 38517
-line_end: 38542
+line_start: 37762
+line_end: 37787
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -42,7 +42,7 @@ A UINDM publication or use is conformant if it satisfies:
 7. **Gate/guard separation + lexeme discipline.** UINDM uses `…Eligibility` returning `GuardDecision ∈ {pass|degrade|abstain}` and does not embed GateDecision/GateLog in suite steps.
    Reserved gate‑lexemes (e.g., `…Guard`) are not used for mechanism‑level predicates; the mechanism stays at the guard/admissibility layer.
 
-8. **Planning and actual use.** An A.15.2 WorkPlan selects the intended editions; A.15.3 governs typed filling only for independently declared positions. Record the actual application and its effective bindings under §4.1, keeping the refs and pins needed for replay in Audit.
+8. **Planning and actual use.** On a P2W path, an A.15.2 WorkPlan selects the intended editions; A.15.3 governs typed filling only for independently declared positions. Record the actual application and its effective bindings under §4.1, keeping the refs and pins needed for replay in Audit.
 
 9. **Extension discipline (if extended).** A proposed UINDM specialization MUST preserve the inherited SlotKind designators and their meanings, add no mandatory input to Indicatorize, and declare any additional output or operation explicitly (the local extension notation is ⊑⁺). A refinement, conservative-extension or equivalence claim additionally uses its own A.6.1 §4.8 preservation test and exact comparison predicate; those three claims are not interchangeable. Preserve inherited application/binding meanings, identity and extent to the degree required by the claimed comparison, and retain narrowed applicability or stronger conditions explicitly. A missing comparison predicate or substrate returns the applicable A.6.RCD gap.
 

@@ -6,12 +6,12 @@ section_id: "A.19.USCM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:9 — Consequences"
-line_start: 38878
-line_end: 38891
+line_start: 38123
+line_end: 38136
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -30,7 +30,7 @@ keywords:
 * Makes scoring a first‑class, admissibility‑gated CHR step, reducing illicit arithmetic and silent assumptions.
 * Improves auditability and reproducibility via explicit edition pins and explicit evidence policy selection (override vs default).
 * Preserves evolvability: scoring method families can change via SoTA wiring without changing the USCM intension.
-* Supports correctness under uncertainty via tri‑state guards and explicit unknown handling.
+* Makes uncertainty disposition explicit through the guard result and its effective failure policy.
 
 **Costs / trade‑offs**
 

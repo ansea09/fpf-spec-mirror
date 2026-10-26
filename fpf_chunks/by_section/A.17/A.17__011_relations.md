@@ -6,12 +6,12 @@ section_id: "A.17:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__011_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:10 — Relations"
-line_start: 34727
-line_end: 34736
+line_start: 34133
+line_end: 34142
 dependencies:
   - "A.17"
   - "A.18"
@@ -24,8 +24,8 @@ dependencies:
   - "C.2"
   - "D.3"
   - "E.10"
-  - "U.Dynamics"
-  - "U.PromiseContent.acceptanceSpec"
+  - "F.7"
+  - "F.9"
 keywords:
   - "attribute"
   - "axis"
@@ -41,11 +41,11 @@ keywords:
 
 ### A.17:10 - Relations
 
--   **Builds on / Elaborates:** _FPF Core Measurement Schema_ (as outlined in C.16). A.17 lifts the metric template concepts from C.16 into a kernel-level rule. It also reinforces **A.7 Strict Distinction**, by giving each measurement concept a unique name and forbidding overloaded terms.
+- **Builds on:** C.16 for measurement construction and A.7 for the distinctions among a Characteristic, its description and its result.
 
--   **Constrains:** All other patterns that define or use metrics. For example, **A.3.3 `U.Dynamics`** (system dynamics) must name its state variables as Characteristics with proper scales (it cannot refer to them loosely as “KPIs” without context). Similarly, any **service-level targets / SLO clauses (A.2.3 `U.PromiseContent.acceptanceSpec`)** or **assurance calculations (B.3, D.3 patterns)** that involve measurements are governed by this canonical terminology (no unwarranted synonyms or unit confusion per ISO/IEC 80000, ISO/IEC 25024, QUDT, SOSA/SSN best practices). The pattern’s lexical rules are part of the **LEX-BUNDLE** (E.10) – any FPF-conformant context must adhere to these naming conventions.
+- **Constrains:** measurement claims in other patterns. A.3.3 state variables, A.2.3 promise acceptance conditions and B.3/D.3 assurance calculations retain the Characteristic, Scale, participants and applicable calculation rule required for their use.
 
 -   **Coordinates with:** **A.18 (CSLC-KERNEL)**, which defines the minimal **Characteristic/Scale/Level/Coordinate** Standard in detail. A.17 provides the vocabulary and basic distinctions (what is a Characteristic, and its arity), while A.18 applies this to ensure each measurement template is well-formed. Also coordinates with **C.2 KD-CAL** and the **A.19/C.16 characterization stack**; those patterns use the Characteristic/Scale constructs to build domain-specific metrics (e.g. knowledge quality scores) and rely on A.17’s canon for consistency.
 
--   **Anticipates:** **E.10 Lexical Discipline** rules – A.17’s enforcement of a single term and controlled aliases is a concrete instance of the lexical uniformity mandated in E.10. It also paves the way for **F.7 Concept-Set Bridges** in Unification patterns, since external ontologies for quantities (ISO 80000, QUDT, etc.) can be mapped cleanly onto FPF Characteristics now that the term is fixed. In short, A.17 is a foundational lexicon pattern that a) ensures internal consistency and b) simplifies alignment with external standards for measurable properties.
+- **Coordinates with:** E.10 for governed terms and clear Plain aliases; F.7 for displaying source-local comparisons; F.9 for any justified cross-context alignment or Bridge. A common name alone establishes no equivalence between disciplinary meanings.
 

@@ -6,12 +6,12 @@ section_id: "A.16.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:7 — Conformance Checklist"
-line_start: 34197
-line_end: 34205
+line_start: 33707
+line_end: 33715
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,9 +37,9 @@ keywords:
 ---
 
 ### A.16.1:7 - Conformance Checklist
-- `CC-A.16.1-1` A cue pack **SHALL NOT** be presented as a claim, characteristic, method, work occurrence, or route-decision record.
+- `CC-A.16.1-1` Cue preservation **SHALL NOT** be presented as sufficient grounds for an endpoint claim, Characteristic, Method, Work occurrence or route decision. A filled account may state its observations and preservation grounds.
 - `CC-A.16.1-2` A cue pack **SHALL** make `cueNucleus` explicit.
-- `CC-A.16.1-3` When preservation depends on privileged grounding, `primaryWitnessRef` or `primaryAnchor` **SHALL** be explicit.
+- `CC-A.16.1-3` When one witness or anchor carries the preservation need, `primaryWitnessRef` or `primaryAnchor` **SHALL** be explicit. When several grounds are jointly essential, their joint contribution **SHALL** remain recoverable.
 - `CC-A.16.1-4` `laneCandidates` and `routeCandidateHints` **MAY** be published early, but `selectedRoute`, `routeRationale`, and route-selection status **SHALL NOT** be smuggled into the cue pack.
 - `CC-A.16.1-5` If route-candidate hints are not yet nameable, publication is still admissible only when `preservationRationale` and grounding make the preservation need explicit.
 - `CC-A.16.1-6` Language-state, anchoring, and representation-factor details **MAY** be referenced; use `C.2.LS` for the facet profile, `C.2.4` for articulation explicitness (`AE`), `C.2.6` for anchoring mode, `C.2.5` for closure degree, and `C.2.7` for representation factors.

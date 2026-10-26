@@ -6,12 +6,12 @@ section_id: "A.16:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:intro — Intro"
-line_start: 33536
-line_end: 33557
+line_start: 33069
+line_end: 33090
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -63,7 +63,7 @@ keywords:
 
 **Plain-name.** Language-state move coordination.
 
-**Start here when.** Your first honest content is a cue, not yet a claim, requirement, method, or Work record, and you need to name the next admissible language-state move without pretending that the cue already meets a downstream pattern's entry conditions.
+**Start here when.** You have a cue or claim-bearing episteme and need to choose its next publication or use, including reopening or retiring it. For an early cue, preserve what is available without claiming that it already meets a downstream pattern's entry conditions.
 
 **First useful move.** Name the cue or current claim-bearing episteme and the intended next use. Then decide which identity case applies:
 
@@ -71,7 +71,7 @@ keywords:
 2. the same episteme edition is being issued in another publication form; or
 3. changed C.2.1 identity content requires a separately identified successor episteme.
 
-Choose one admissible move from §4.1, publish one small move note from §4.4, and stop. Add optional history, Work, publication, rendering, or authority detail only when the current use depends on it.
+Choose one admissible move from §4.1 and make the content in §4.4 recoverable from its publication. Add a short move note when the existing material does not convey that content. Stop when the next use is supported; add history, Work, publication, rendering, or authority detail only when that use depends on it.
 
 **Typical next patterns.** Use `A.16.1` for early preservation, `B.4.1` for route publication, `B.5.2.0` for cue-derived abductive prompting, precision repair in `A.6.P` or `C.16.Q`, wording recovery in `A.6.A` followed by the recovered subject rule, and `A.16.2` when the right move is reopen, backoff, respecify, or retire.
 

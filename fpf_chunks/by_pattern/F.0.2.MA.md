@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.0.2.MA.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
-line_start: 117273
-line_end: 117431
+line_start: 116093
+line_end: 116251
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

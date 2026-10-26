@@ -6,12 +6,12 @@ section_id: "A.16.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:11 — SoTA-Echoing"
-line_start: 34219
-line_end: 34221
+line_start: 33729
+line_end: 33731
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,5 +37,5 @@ keywords:
 ---
 
 ### A.16.1:11 - SoTA-Echoing
-The pattern fits early cue capture in design, embodied cognition, incident triage, model interpretation, and focusing-like practice, where low-articulation but real cues need preservation before route or endpoint choice.
+**FPF proposal.** The form preserves a recognizable observation or tension while its interpretation and next use remain open. Its contribution is a publication constraint; recognizing the phenomenon and testing an interpretation remain with the applicable domain methods.
 

@@ -6,12 +6,12 @@ section_id: "A.3.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 9689
-line_end: 9699
+line_start: 9618
+line_end: 9628
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -43,7 +43,7 @@ keywords:
 | --- | --- |
 | Treating executable text as sufficient Method identity. | Recover the claim-bearing episteme expressed by the repository or executable text and apply A.3.2's membership test; if it fails, use the pattern for the actual object. If the claim is about the semantic way of doing, name the `U.Method`, participant meanings, applicability, effects, and bounds. |
 | Treating a workflow diagram as the dated Work occurrence. | Recover the claim-bearing episteme expressed by the diagram and apply A.3.2's membership test; if it fails, use the pattern for the actual object. Use `U.WorkPlan` for planned work and one Work occurrence admitted under `U.Work` for the dated occurrence. |
-| Inferring prescribed action from graph layout. | Use `E.18` when the sentence is about graph structure and `C.2.P.DR` when layout is being made to prescribe action. If the source actually asserts gate passage or authority, state that separate gate or authority claim. |
+| Inferring prescribed action from graph layout. | Use the pattern that defines the represented structure, such as E.18 for a transformation flow, and C.29 for a mathematical representation claim. Apply C.2.P.DR when layout is being made to prescribe action. State any gate passage or authority claim separately under its own rule. |
 | Leaving the optimization-model claim unresolved. | Ask whether the sentence states a formal object, a method description, a reusable way, a work plan, dated Work, or evidence; then keep only that claim in the method position. |
 | Inferring safe execution solely from protocol approval. | Separate publication-state claim, gate or authorization claim, evidence claim or assurance claim, work plan, and dated work. |
 | Using a team's identity in place of method semantics. | Keep admitted Systems, local system-role kinds, classifications, assignments, and capability claims with their direct patterns; keep participant meanings, applicability, conditions, effects, and bounds with the Method. |

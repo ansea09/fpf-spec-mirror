@@ -6,12 +6,12 @@ section_id: "E.11:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:3 — Forces"
-line_start: 102083
-line_end: 102096
+line_start: 100903
+line_end: 100916
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"

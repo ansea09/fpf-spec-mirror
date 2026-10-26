@@ -6,12 +6,12 @@ section_id: "A.6.A:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:1 — Problem frame"
-line_start: 22097
-line_end: 22132
+line_start: 21702
+line_end: 21737
 dependencies:
   - "A.15"
   - "A.16"
@@ -75,7 +75,7 @@ Authors say:
 The recurrent failure modes are:
 
 * **Site confusion.** The invitation-bearing site is unclear: physical entity, scene, interface entity, description episteme, carrier, policy state, or problem episode.
-* **Enactor confusion.** It is unclear **which `U.System`, collective system, or role assignment whose holder is a `U.System`** is invited to act: human operator, robot controller, research team, review service, or named automation system.
+* **Enactor confusion.** The system that would act is unclear: for example, a human operator, robot controller, team or automation system. An assignment may help designate its holder, but is not itself the actor.
 * **Action confusion.** The candidate action is hidden behind vague language like *actionable*, *calls for*, *ready for*, *natural next step*.
 * **Invitation vs obligation collapse.** A situation that merely invites an action is rewritten as if it already created a duty.
 * **Invitation vs capability collapse.** A local, situated action opportunity is rewritten as if it were a general capability claim.

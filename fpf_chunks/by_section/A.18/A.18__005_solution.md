@@ -6,16 +6,16 @@ section_id: "A.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:4 — Solution"
-line_start: 34779
-line_end: 34817
+line_start: 34187
+line_end: 34220
 dependencies:
   - "A.17"
-  - "A.18"
   - "A.19"
+  - "A.19.CHR"
   - "A.19.CN"
   - "B.3"
   - "C.16"
@@ -43,7 +43,7 @@ keywords:
 
 Concretely, the parts of this clause are defined as follows:
 
--   **Characteristic:** the aspect or feature being measured (the “CG‑frame” along which comparison is made). It answers “_What are we measuring?_” – e.g. _Distance, Temperature, Quality, Reliability_.
+- **Characteristic:** the aspect being measured, such as Distance, Temperature or a defined quality or reliability aspect. It answers “What are we measuring?”
 
 -   **Scale:** the organized set of possible values that the Characteristic can take, including the type of scale (_nominal_, _ordinal_, _interval_, or _ratio_), the measurement **Unit** (if applicable), and any bounds or structure. The Scale defines “_How are values represented, and which operations does the Scale permit?_” – e.g. “meters on a linear scale from 0 up to 1000” or “ratings 1 through 5 with ordering only”.
 
@@ -57,14 +57,9 @@ Finally, the solution ensures **tier optionality**: If a domain uses named Level
 
 #### A.18:4.1 - Characteristic-space support must stay declared
 
-- When one front, archive, shortlist, or derived tradition view is discussed in one space, declare the object kind and the relevant characteristic space explicitly.
-- Use one `SpaceRef` only when the text truly needs to recover which space or typed feature family is carrying the comparison.
-- One declared space does not imply that every neighboring line must use the same space.
-- Different declared spaces may coexist for the same family when they answer different comparison questions, but the active one must stay recoverable.
-- If one atlas-like reading uses several declared spaces over the same palette, front, archive, or shortlist family, say which `SpaceRef` is active in the current reading rather than letting the atlas label hide that choice.
-- If one outcome-side declared space/ref is materially different from one representation-side or search-side declared space/ref, keep that difference explicit rather than calling both simply `space`.
-- `OutcomeMapRef` is warranted only when the text needs one declared map from the current set result into one outcome-side or effect-side declared space/ref.
-- When `OutcomeMapRef` is cited for one atlas-like or cross-scale reading, keep the source set result and the projected outcome-side declared space/ref visible together so the map stays support for the view rather than a replacement default.
+When a comparison uses a declared space, make the subject kind and active CharacteristicSpace recoverable. Use `SpaceRef` when its identity matters. Different questions about the same subjects may use different spaces; a shared display or atlas label does not determine which one applies.
+
+Keep outcome-side, representation-side and search-side spaces distinct when their difference affects the comparison. Use `OutcomeMapRef` only when the receiving use needs a declared map from a set result into an outcome or effect space. Identify that source result and target space together; the map supplements the view's interpretation rather than selecting a universal space for it.
 
 #### A.18:4.2 - Scale order, preference and calculation
 

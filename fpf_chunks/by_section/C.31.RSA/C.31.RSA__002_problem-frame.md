@@ -6,12 +6,12 @@ section_id: "C.31.RSA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:1 — Problem frame"
-line_start: 75530
-line_end: 75569
+line_start: 74472
+line_end: 74511
 dependencies:
   - "A.10"
   - "A.19"
@@ -44,7 +44,7 @@ Use this pattern when a practitioner needs to locate where reusable structure li
 
 Claim-use boundary: any use that relies on the RSA account to make a claim beyond reusable-structure accounting is outside RSA. Examples include comparison, publication, evidence validity, assurance or safety-case reliance, gate use, architecture scale preference, causal use, selected-set result declaration, candidate synthesis, and local decision. Record with C.31.RSA only the reusable locus, bespoke residue, accounting basis, report-only share, repair direction, and source-return condition. Add another claim only after naming and applying the pattern that defines and tests it.
 
-The first useful move is `ReusableStructureTriage`:
+First locate the reusable structure and bespoke residue, identify the accounting question, and explain any warranted repair or bounded exception. An adequate ordinary account can finish. `ReusableStructureTriage` can retain these distinctions:
 
 ```text
 ReusableStructureTriage:
@@ -70,7 +70,7 @@ ReusableStructureTriage:
   stopCondition:
 ```
 
-Use the fuller accounting description only when an accounting basis and structure references are declared. Ordinary use stops when the practitioner knows where reusable structure lives, where bespoke residue grows, what can be refactored, and what remains a bounded exception.
+Use a fuller accounting description when the receiving question needs its structure references and accounting rule. Ordinary use stops when the practitioner knows where reusable structure lives, where bespoke residue grows, what can be refactored and what remains a bounded exception. Retaining or sharing that answer need not create another form.
 
 What goes wrong if C.31.RSA is missed: a reusable share is treated as a proof of modularity; one-off work is hidden under a reuse label; evidence reuse is counted without validity context; hidden residual uncertainty is averaged with reusable templates; and "more reusable structure" is treated as always better.
 

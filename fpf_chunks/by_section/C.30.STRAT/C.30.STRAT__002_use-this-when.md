@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:0 — Use this when"
-line_start: 73055
-line_end: 73068
+line_start: 72005
+line_end: 72018
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,7 +72,7 @@ Typical labels are `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, structur
 
 **What this buys.** The reader can keep the source word while making its actual meaning and safe use explicit. Once the object, relation, or claim is clear, use the pattern that defines, constrains, or tests it.
 
-**First useful move.** Copy the sentence and ask: “What does this label name here, what may I infer from it, and what must I do next?” If it is ordinary wording, keep it and stop. If the answer is already clear, use the applicable pattern directly. Otherwise write one line: `label -> recovered meaning; allowed use; next pattern or blocker; stop or return condition`. Do not fill an author-facing E.10.ARCH routing row during ordinary project work. Include a blocked overread only when it passes F.19's plausible-reader test.
+**First useful move.** Read the sentence in context and ask: “What does this label name here, what may I infer from it, and what must I do next?” If it is ordinary wording, keep it and stop. If the answer is already clear, use the applicable pattern directly. Otherwise write one line: `label -> recovered meaning and useful conclusion; any needed next action or return condition`. Include a blocked overread only when it passes F.19's plausible-reader test.
 
 **Not this pattern when.** Do not detour through C.30.STRAT when the object, relation, or claim is already clear. Do not use it merely because a familiar word appears. Ordinary source prose with no FPF claim remains ordinary prose or a quotation.
 

@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:7 — Conformance Checklist"
-line_start: 78710
-line_end: 78722
+line_start: 77600
+line_end: 77612
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -56,11 +56,11 @@ keywords:
 | ID | Requirement | Purpose |
 |---|---|---|
 | `CC-C32.MLAO-1` | The use starts from a recoverable residual triage. | Prevents premature optimization. |
-| `CC-C32.MLAO-2` | Affected declared holon-level refs or declared scope refs and selected structures are named. | Keeps multilevel wording reviewable. |
-| `CC-C32.MLAO-3` | Each candidate names residual reduced, architecture characteristic affected, and new burden. | Prevents one-sided optimization. |
+| `CC-C32.MLAO-2` | Affected scopes and selected structures are named, with declared refs where the receiving claim requires them. | Keeps multilevel wording reviewable. |
+| `CC-C32.MLAO-3` | Each candidate states expected residual reduction, affected architecture characteristics and possible new burden, preserving unresolved questions. | Prevents one-sided optimization. |
 | `CC-C32.MLAO-4` | Comparison inputs, comparison results, selection results, and choice results name their pattern for the next question. | Keeps C.32.MLAO from performing comparison, selection, or choice locally. |
 | `CC-C32.MLAO-5` | Lens-backed claims use C.29 when mathematical-lens use is being claimed. | Keeps mathematical adequacy outside this pattern. |
-| `CC-C32.MLAO-6` | Source-return condition is present when compression hides distinctions. | Keeps later source-use or decision-use claims tied to recoverable sources. |
+| `CC-C32.MLAO-6` | Source-return conditions are present when compression hides distinctions needed for a later use. | Keeps later source-use or decision-use claims tied to recoverable sources. |
 | `CC-C32.MLAO-7` | Evolution window, dynamic front or archive relation, and any NQD or OEE support are typed as retention or generation support only. | Blocks static-optimum and selector overread. |
 | `CC-C32.MLAO-8` | Influence-source and transformed-side architecture content stay distinct through exact C.30 holon, obtaining-`ArchitectureRelation`, selected-structure, or modal-`ArchitectureClaim` refs; the changed referent and any actual A.3.4 transformation stay separate; `C.32.CONWAY` is used when correspondence candidates are being prepared. | Preserves kind distinction among architecture content, influence, Work, actual transformation, and structural similarity. |
 

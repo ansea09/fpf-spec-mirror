@@ -6,12 +6,12 @@ section_id: "A.1.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:10 — Rationale"
-line_start: 3470
-line_end: 3475
+line_start: 3465
+line_end: 3470
 dependencies:
   - "A.1"
   - "A.14"

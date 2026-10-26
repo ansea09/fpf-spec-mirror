@@ -6,12 +6,12 @@ section_id: "A.15.2:7d"
 section_title: "SoTA Alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__012_sota-alignment.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:7d — SoTA Alignment"
-line_start: 30194
-line_end: 30204
+line_start: 29753
+line_end: 29763
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,12 +58,12 @@ keywords:
 
 ### A.15.2:7d - SoTA Alignment
 
-| Source tradition and status, qualified 2026-08-26 | Local invariant adopted | Shortcut rejected |
+| Source tradition and contribution | FPF use | Shortcut rejected |
 | --- | --- | --- |
-| ISO 21502:2020 project-management guidance and PMBOK Guide Eighth Edition (2025), used as current planning-practice inputs | A plan is an intended-work coordination episteme: horizon, selected delivery approach or Method family, baseline, dependencies, resource expectations, and acceptance targets are declared before performed Work and compared with performed values after Work occurs. | Treating a schedule, ticket, or baseline as evidence that the Work already occurred. |
+| ISO 21502:2020 project-management guidance and PMBOK Guide Eighth Edition (2025), cited for planning practice | A plan is an intended-work coordination episteme: horizon, selected delivery approach or Method family, baseline, dependencies, resource expectations, and acceptance targets are declared before performed Work and compared with performed values after Work occurs. | Treating a schedule, ticket, or baseline as evidence that the Work already occurred. |
 | ISO 55000:2024 asset-management practice | Asset reservations, maintenance windows, lifecycle objectives, risk, and value expectations belong in planning until A.15.1 identifies the performed Work and the applicable change and resource-use predicates are satisfied. | Treating planned asset availability or reserved capacity as actual asset intervention or actual resource consumption. |
-| [ISO 9001:2015](https://www.iso.org/standard/62085.html) with Amendment 1:2024 remains the published edition; [Edition 6](https://www.iso.org/standard/88464.html) is under publication and scheduled for September 2026 | Planned quality objectives, acceptance targets, change notes, and performance evaluation stay replayable so variance can drive improvement. The unpublished replacement is a refresh trigger, not yet a basis for silently changing the distinctions between plans and performed Work. | Editing the plan after the fact so that quality, cost, or schedule variance disappears, or treating a forthcoming edition as already applicable. |
+| [ISO 9001:2015](https://www.iso.org/standard/62085.html) with Amendment 1:2024, a quality-planning source | Preserve planned quality objectives, acceptance targets and performance-evaluation criteria so actual results can be compared with that baseline. | Rewriting the plan after the fact so that quality, cost or schedule variance disappears. |
 | Mature adaptive-work representation practice such as OMG CMMN 1.1 (2016) | Weakly structured or ad hoc Work can still be compared with identified plan content through a local assertion, or through a direct relation when one is actually defined. | Treating CMMN as current universal practice; forcing every emergency, adaptive, or consolidated Work occurrence into the original plan shape; or minting a universal fulfilment relation from one comparison. |
 
-**Qualification and smallest reopen.** Recheck the ISO 9001 row when Edition 6 is published and its changed requirements can be compared by value. Reopen only the plan-content, variance, acceptance-target, or worked-use passage whose practitioner action changes. A new notation edition or example with no such effect does not reopen the whole pattern.
+
 

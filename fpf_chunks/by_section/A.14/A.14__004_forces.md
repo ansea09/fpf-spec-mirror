@@ -6,12 +6,12 @@ section_id: "A.14:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:3 — Forces"
-line_start: 28608
-line_end: 28617
+line_start: 28173
+line_end: 28182
 dependencies:
   - "A.1"
   - "A.15"
@@ -59,6 +59,6 @@ keywords:
 | **Expressiveness vs. parsimony** | Portion, aspect, and phase claims need usable direct relations, while the catalogue must not turn every concern word into a part kind. |
 | **World-side structure vs. analysis** | A real bearer-dependent aspect must be stateable, while Characteristics, views, projections, partitions, and time windows keep their own meanings. |
 | **Universality vs. domain nuance** | One relation discipline must serve physical systems and epistemes, while measurement, facet rules, and time behave differently by subject. |
-| **Identity vs. change** | Preserve the same bearer or carrier through allowed change, while making reidentification explicit when its rule fails. |
+| **Identity vs. change** | Preserve the holon's identity through allowed change, while making reidentification explicit when its rule fails. |
 | **Readable claim vs. assurance** | The ordinary relation sentence must stand on its own, while a named assurance use may require a `sum`, `slice`, or `set` account. |
 

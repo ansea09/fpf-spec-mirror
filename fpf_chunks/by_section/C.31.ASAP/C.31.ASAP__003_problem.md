@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:2 — Problem"
-line_start: 75958
-line_end: 75965
+line_start: 74887
+line_end: 74894
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,5 +61,5 @@ Architecture work often asks whether one structure will scale better than anothe
 
 These claims are useful only after the scale relation is declared. "Scales better" can mean fewer interface grammar variants, lower exception growth, better learning transfer, more reusable templates, more stable control relations, less source-return cost, fewer regulatory exceptions, or more freedom of action. Those are not the same claim.
 
-C.31.ASAP turns architecture scale-preference talk into a declared scale variable or window, a preference claim, evidence or no-probe reason, expected stable or improving structure, exception-growth risk, and source-return condition. It does not turn scale preference into proof, selection, assurance, causal use, or a universal law.
+C.31.ASAP connects a declared scale variable and window to a preference claim, its evidence or no-probe reason, expected structural behavior, exception-growth risk and any needed source return. It does not turn scale preference into proof, selection, assurance, causal use, or a universal law.
 

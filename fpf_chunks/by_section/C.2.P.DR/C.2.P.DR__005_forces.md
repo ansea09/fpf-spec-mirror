@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__005_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:3 — Forces"
-line_start: 54632
-line_end: 54641
+line_start: 53778
+line_end: 53787
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,6 +50,6 @@ keywords:
 | Representation usefulness and action overread | Graphs, queries, predicates, and dashboards are useful precisely because they expose structure; their shape does not supply hidden work, permission, or release. |
 | Legitimate path words and metaphor repair | `A.10 evidence path`, `E.18` graph path, and carrier file paths may be legitimate; `path` becomes a defect only when it carries a stronger action or authority claim by metaphor. |
 | Method generality and subject discipline | Algorithms, programs, solver models, proofs, SOPs, and process models can all be useful, but first identify the direct object or relation, the current claim, and any exact representation use. Select `U.MethodDescription` only after the claim-bearing episteme passes the A.3.2 membership test; representation form alone selects nothing. |
-| Declarative and imperative labels are too crude | Current programming and process practice includes effects, handlers, constraint models, object-centric events, e-graphs, and process theories; the repair names the direct object or relation, current claim, any representation use, and subject pattern rather than choosing one programming-paradigm slogan. |
+| Paradigm label and actual semantics | A programming or process label can locate a source treatment, but the actual object and claim determine the receiving FPF rule. |
 | Subject pattern and local repair | When `E.18`, `A.10`, `A.3.1`, `A.3.2`, `A.6.1`, `A.15.2`, `A.15.1`, `E.17`, or another pattern already governs the current claim, this pattern names only the overread and leaves the next claim to that pattern rather than duplicating it. |
 

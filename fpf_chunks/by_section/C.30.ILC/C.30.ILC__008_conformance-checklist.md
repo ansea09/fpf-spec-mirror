@@ -6,12 +6,12 @@ section_id: "C.30.ILC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:7 — Conformance Checklist"
-line_start: 74649
-line_end: 74662
+line_start: 73597
+line_end: 73610
 dependencies:
   - "A.10"
   - "A.22"
@@ -47,8 +47,8 @@ keywords:
 |---|---|---|
 | CC-ILC-1 | A conforming use names `describedHolonRef`, the architecture concern, intended use, ClaimScope or qualification window when each changes the result, and any independently selected bounded model-use structure actually relied on. | Keeps the triage grounded without narrowing architecture to systems or making a generic context field supply locality. |
 | CC-ILC-2 | A conforming use names declared holon levels or declared scopes, not only `level`, `layer`, `scope`, or `scale` prose. | Prevents pseudo-level and pseudo-scope reasoning. |
-| CC-ILC-3 | A conforming use names the selected structure or structure kind that carries, separates, or relates the declared levels or scopes affected by the residual. | Keeps the residual interlevel rather than merely a same-level, same-scope, or unassigned conflict between structures. |
-| CC-ILC-4 | A conforming use records conflict carriers, local repair attempted, and why local repair was insufficient when a conflict or local repair is claimed. | Prevents premature synthesis and repeated local fixes. |
+| CC-ILC-3 | A conforming use names the selected structure or structure kind that carries, separates, or relates the declared levels or scopes affected by the residual. | Distinguishes a cross-level or cross-scope residual from a conflict confined to the same level and scope or one whose relevant assignment is unknown. |
+| CC-ILC-4 | A conforming use identifies the conflict carriers. For a claimed frustration residual, it states any attempted local repair and its insufficiency, or the reason that such repair would leave the loss unresolved. | Prevents premature synthesis and repeated local fixes. |
 | CC-ILC-5 | A conforming use states one first admissible architecture move or `noArchitectureMove`. | Makes the output action-guiding without candidate generation. |
 | CC-ILC-6 | Evidence, assurance, measurement, causal, ethical, selection, scale, RG, coarse-graining, mathematical-lens, and residual-reducing candidate-set claim kinds use their subject patterns. | Prevents triage from becoming proof, lens adequacy, mediation, synthesis, or selection. |
 | CC-ILC-7 | If a source-return condition is needed, the record states what hidden or lost distinction triggers return to the source. | Protects compressed and extracted views. |

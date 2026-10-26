@@ -6,12 +6,12 @@ section_id: "C.2.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:4 — Solution"
-line_start: 52469
-line_end: 52623
+line_start: 51635
+line_end: 51789
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -91,7 +91,7 @@ In all modes, **R remains warrant**, not ontological truth; “proof ⇒ R=1 in 
 **Definition DEF‑C2.2‑2 (Reliability as warrant).**
 `R` is a conservative, evidence-bound indicator of how strongly the claim "holds as stated" under its declared `U.ClaimScope` and the separately named evidence and use conditions. It is interpreted as *warrant strength*, not as truth.
 
-**Prophylactic clarification.**
+**Interpreting the assessments.**
 
 * A higher `R` means stronger warrant only within the same declared quantity, scale, claim, and receiving model. A number from another model is not automatically comparable.
 * A change in F identifies changed expression properties or a justified change on a declared local scale. It can enable a particular check or reuse without establishing the claim's warrant or widening its scope.
@@ -124,7 +124,7 @@ A reused claim may traverse more than one independently governed relation. Befor
 
 A scope translation may narrow or re-express `G`; it never widens the claim silently. A change in formality is a new episteme or explicit ΔF move, not a transport penalty. A semantic Bridge changes neither kind nor scope by itself. A kind or plane relation supplies no semantic correspondence unless that separate relation also obtains. Evidence reuse changes warrant only through its own evidence-use or reliance claim.
 
-There is no implicit crossing. If a reuse depends on a changed value and its required relation or operation is absent, unresolved, or outside its applicability, the reuse is non-conformant. This keeps guard macros simple: each path records the relations it actually traverses and routes their declared losses to `R`, while every other coordinate changes only under its own rule.
+There is no implicit crossing. If a reuse depends on a changed value and its required relation or operation is absent, unresolved, or outside its applicability, the reuse is non-conformant. Each path records the relations it actually traverses and routes their declared losses to `R`, while every other coordinate changes only under its own rule.
 
 #### C.2.2:4.4.A - Worked micro-example: scope revision and evidence reuse
 
@@ -160,20 +160,20 @@ For a loss-only interpretation on an ordered scale, worsening fit cannot by itse
 * A numerical R requires a justified receiving model even at high formality. A complete formal proof remains useful with empirical R marked N/A; a missing empirical score does not demote the theorem.
 * When support has no common numerical model, publish its separate contributions, limitations, and the bounded conclusion. Use validity windows, empirical reproducibility information, and B.3.4 decay only where the claim actually consumes them.
 
-#### C.2.2:4.6 - Evidence lanes are not new characteristics
+#### C.2.2:4.6 - Assurance lanes
 
-KD‑CAL does not add new global coordinates beyond F–G–R. Instead, it requires that reliability be *explainable* via **assurance lanes** (B.3.3):
+KD‑CAL requires that reliability be explainable through the applicable **assurance lanes** (B.3.3):
 
 * **TA** (Typing assurance): semantic/type alignment sufficient for transport and composition.
 * **VA** (Verification assurance): logical/algorithmic checking, proof, model checking, static guarantees.
 * **LA** (Validation assurance): empirical adequacy under declared conditions, tests, benchmarks, telemetry.
 
-Lane reporting is how KD-CAL supports the common research distinction between logical soundness and empirical adequacy **without introducing new global characteristics**.
+Lane reporting distinguishes logical soundness, empirical adequacy and typing or semantic alignment.
 Lanes remain **separable** in SCR/Notes; they are not averaged into a “single tradition score”.
 
 #### C.2.2:4.7 - Scope operations are kind-safe (and use the ClaimScope algebra)
 
-Reliability is meaningless if scope operations are applied to ill-typed entities.
+Establish the kinds of the claim subjects before combining their scopes.
 
 **Well-formedness constraint WFC‑C2.2‑1 (Type before scope).**
 Let `G1` and `G2` be claim scopes for claims about entities of kinds `K1` and `K2`. A scope operation that combines them—such as `G1 ∩ G2` for serial intersection or `SpanUnion({G_i})` for parallel coverage—is defined only if:

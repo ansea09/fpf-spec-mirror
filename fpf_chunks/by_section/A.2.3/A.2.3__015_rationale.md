@@ -1,0 +1,63 @@
+---
+chunk_kind: "child"
+pattern_id: "A.2.3"
+pattern_title: "U.PromiseContent — Promised Outcomes and Acceptance Criteria"
+section_id: "A.2.3:10.2"
+section_title: "Rationale"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.2.3/A.2.3__015_rationale.md"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+heading_path:
+  - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
+  - "A.2.3:10.2 — Rationale"
+line_start: 5895
+line_end: 5900
+dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.PROD"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.2"
+  - "A.2.6"
+  - "A.2.8"
+  - "A.2.9"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "A.6.C"
+  - "A.6.P"
+  - "A.7"
+  - "B.3"
+  - "C.2.1"
+  - "E.10"
+  - "F.12"
+  - "F.9"
+  - "U.ClaimScope"
+  - "U.Episteme"
+  - "U.Method"
+  - "U.MethodDescription"
+  - "U.SystemRoleAssignment"
+  - "U.Work"
+  - "U.WorkPlan"
+  - "U.WorkScope"
+keywords:
+  - "SLA"
+  - "SLO"
+  - "Work evidence"
+  - "acceptance specification"
+  - "access specification"
+  - "claim scope"
+  - "promise content"
+  - "promised outcome"
+  - "provider and consumer system-role kinds"
+---
+
+### A.2.3:10.2 - Rationale
+
+Everyday "service" language is useful because one label can denote promise content, provider systems, access points, commitments, methods, work occurrences, and evidence epistemes. When those claims guide evaluation or work, FPF distinguishes the referents and states their direct relations. `U.PromiseContent` gives the promised-outcome side one stable episteme, A.6.P:4.11a recovers the referent intended by the service wording, and each named direct relation remains governed by its direct pattern.
+
+The pattern keeps promise content in the episteme family because it is a clause or description whose outcome and acceptance predicates state conditions on delivery work, affected referents, and post-work states. A fulfilment assertion and the evidence relations supporting it remain distinct from those referents and from the world-side relations whose obtaining the assertion describes. The referents position of an A.2.8 commitment relation may contain it, an A.2.9 speech-act occurrence may communicate or institute that commitment, and A.6.C may unpack agreement or SLA wording carried by a publication, while gate and policy relations remain separate.
+

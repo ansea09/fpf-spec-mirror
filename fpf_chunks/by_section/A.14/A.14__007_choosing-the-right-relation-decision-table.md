@@ -6,12 +6,12 @@ section_id: "A.14:6"
 section_title: "Choosing the right relation (decision table)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__007_choosing-the-right-relation-decision-table.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:6 — Choosing the right relation (decision table)"
-line_start: 28715
-line_end: 28728
+line_start: 28283
+line_end: 28296
 dependencies:
   - "A.1"
   - "A.15"
@@ -60,7 +60,7 @@ keywords:
 | “This is a discrete structural part inside the whole.” | **ComponentOf** | The part is structurally integrated; amount and facet selection do not decide it. |
 | “This is a logical or content part of a conceptual whole.” | **ConstituentOf** | The claim concerns conceptual or epistemic assembly. |
 | “This dependent structural part is one aspect of this bearer under this facet rule.” | **AspectOf** | Name the aspect, bearer, facet rule, occurrence, and identity rule; a Characteristic, view, projection, partition, or time window is not enough. |
-| “This is the same entity during a proper sub-interval.” | **PhaseOf** | The same carrier and its identity rule hold over a proper temporal restriction. |
+| “This is the same entity during a proper sub-interval.” | **PhaseOf** | The same holon and its identity rule hold over a proper temporal restriction. |
 | “This item belongs to that collection.” | **The belongs-to rule defined for that collection** | Name the entity and collection, state what makes belonging begin and end, and distinguish recurrence. Belonging establishes neither parthood nor its impossibility. |
 | “This System is classified by a local work-facing kind, has an assignment to that kind, or participates in a direct relation.” | The corresponding local system-role-kind classification, `U.SystemRoleAssignment`, or direct relation participation; use A.6.5 when the relation needs reusable participant typing. | Kind classification, assignment occurrence, and relation participation are not parts. |
 

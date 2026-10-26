@@ -6,12 +6,12 @@ section_id: "A.7.CP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:9 — Consequences"
-line_start: 26652
-line_end: 26655
+line_start: 26199
+line_end: 26202
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -27,5 +27,5 @@ keywords:
 
 ### A.7.CP:9 - Consequences
 
-The compact makes broad constructive reliance recoverable without enlarging current `A.7` or creating copied foundation variants. Ordinary users pay nothing unless a claim is actually load-bearing. The cost is precise claim/work/posture identity in consequential reasoning; the benefit is one stable authoritative content source and bounded reopen.
+The compact makes consequential constructive reliance recoverable from one claim source. Ordinary use requires no traversal of unused claims. For a load-bearing use that another reader must recover, identify the basis claim, Work, receiving result and posture. That account supports reconsidering only results that depend on a changed ground.
 

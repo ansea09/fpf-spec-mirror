@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:10 — Rationale"
-line_start: 40002
-line_end: 40012
+line_start: 39203
+line_end: 39213
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -40,10 +40,10 @@ keywords:
 
 Selection is where many systems accidentally convert admissible but nuanced information into an unjustified scalar decision. Making selection a separate, explicit mechanism boundary achieves two things that matter for engineering management:
 
-1. **Technical integrity:** it enforces admissibility and evidence discipline at the decision boundary without smuggling heuristics.
+1. **Technical integrity:** the declared guard tests the admissibility and evidence conditions needed by this selection.
 2. **Organizational clarity:** it makes defaults and thresholds discussable, reviewable, and maintainable as explicit policy references.
 
-The set‑returning default is not a preference for large retained sets; it is a correctness safeguard when the order is not total. Single‑winner outcomes remain possible, but only by explicit criteria or declared admissible comparators.
+The set‑returning default is not a preference for large retained sets; it is a correctness safeguard when the order is not total. Single-winner outcomes remain possible when the criteria select one candidate from the admitted comparison outcomes.
 
 ---
 

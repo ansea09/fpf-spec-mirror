@@ -6,12 +6,12 @@ section_id: "A.6.A:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:5 — Archetypal Grounding"
-line_start: 22450
-line_end: 22499
+line_start: 22054
+line_end: 22103
 dependencies:
   - "A.15"
   - "A.16"
@@ -60,7 +60,7 @@ Read an affordance-like sentence as a question about its intended meaning. The r
 
 **Repair A — control and incident line**
 
-Recover the proposed use: OpsTeam_Phoenix is considering RollbackMethod_R41 on Release_R41 in ProdCluster_EU_1 during RunWindow_RW. RollbackRunbook_R41 describes that Method. AlarmBundle_AB9 exposes the cue about ServiceState_S7; AnomalyPolicy_AP7 detected it. AlertTrace_91 and ErrorBudgetSeries_4 are candidate evidence for applying IncidentPolicy_IP2 over Horizon_H15m.
+Recover the proposed use: OpsTeam_Phoenix is considering RollbackMethod_R41 on Release_R41 in ProdCluster_EU_1 during RunWindow_RW. RollbackRunbook_R41 describes that Method. AlarmBundle_AB9 exposes the cue about ServiceState_S7; AnomalyPolicy_AP7 specifies the detection criteria. AlertTrace_91 and ErrorBudgetSeries_4 are candidate evidence for applying IncidentPolicy_IP2 over Horizon_H15m.
 
 The first useful statement is: “Check whether the current incident-policy guard and authority permit this team to use RollbackMethod_R41 on Release_R41 in this window; the alarm alone does not settle that question.” If the rule and facts establish a required rollback, state that independently grounded duty or gate result. Otherwise retain the proposed action or the precise missing condition. Nothing in these supplied names asserts a performed rollback.
 
@@ -88,7 +88,7 @@ When that subject rule and the evidence support the claim, return the qualified 
 
 For this worked case, take EP3 to compare detected and missed handle opportunities with the robot, grip and clearance facts fixed. O2 asks whether a changed physical opportunity or a changed detector explains the discrepancy. CounterexampleCard_2 records the same physical configuration with a different detection result. The recovered question is: “With the physical conditions held fixed, does changing PS4's detection configuration change which pulling opportunities are detected?” The counterexample motivates that inquiry; it does not already establish its answer or a general detector effect.
 
-This question is the first useful result. If further question construction is needed, the team can select the already admitted `ContrastiveQuestioningMethod_Q2`; `ContrastiveQuestioning_Q2` is its separate MethodDescription. An explanatory prompt follows B.5.2.0 when its conditions hold. Choosing the inquiry, scheduling it and actually performing it remain separate claims. No invitation occurrence or compulsory `OptionSet` precedes the question.
+This question is the first useful result. If further question construction is needed, the team can select the already admitted `ContrastiveQuestioningMethod_Q2`; `ContrastiveQuestioning_Q2` is a separate MethodDescription with `ContrastiveQuestioningMethod_Q2` as its exact EntityOfConcern and substantive claims about how to perform that Method. An explanatory prompt follows B.5.2.0 when its conditions hold. Choosing the inquiry, scheduling it and actually performing it remain separate claims. No invitation occurrence or compulsory `OptionSet` precedes the question.
 
 **Repair B — closure-advance line**
 

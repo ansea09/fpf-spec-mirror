@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:6"
 section_title: "Repair-Entry Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__007_repair-entry-failure-modes.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:6 — Repair-Entry Failure Modes"
-line_start: 79811
-line_end: 79826
+line_start: 78678
+line_end: 78693
 dependencies:
   - "A.10"
   - "A.13"
@@ -67,14 +67,14 @@ keywords:
 | Failure mode | C.32.FAIL repair action |
 |---|---|
 | **Warning name without repair action** | A warning row is useful only when it names the architecture object under stress and the first repair action. Otherwise keep the warning name out of the pattern. |
-| **Architecture repair skipped for evidence or assurance** | Evidence may be needed, but the first repair action is still to name the architecture object under stress and the candidate change. Evidence and assurance claims belong to their subject patterns after that. |
-| **Decision jump** | A repair cue does not select an architecture. Rebuild the candidate palette or residual frame before G.5 selected-set result declaration, actual publication, choice, or decision work. |
+| **Evidence collection without a repair question** | Name the affected object and the uncertainty that evidence could settle. Obtain evidence or assurance through its subject pattern when needed; use that result to choose or revise the architecture repair. |
+| **Decision jump** | A repair cue does not select an architecture. Recover adequate candidate or residual information for the intended use. Build what is missing; retain a sufficient existing result. Publication, selection and decision keep their own conditions. |
 | **Source expression substitutes for architecture object** | Use a source term, method word, benchmark result, or generated output as a cue to recover selected structures and characteristics; the applicable subject pattern defines or constrains the architecture claim. |
 | **Software-source overfit** | Software and AI sources can supply strong repair actions, but the action must be translated to selected structures of the described holon. |
 | **Description carrier substitutes for repair** | Architecture descriptions and publication faces can make the problem visible; the repair cue must name the selected architecture object under stress and the repair action. |
-| **Function and characteristic collapse** | User functions and architecture characteristics must occupy distinct fields before comparison or repair. |
-| **Function without bearer** | A functional architecture is only a candidate when admissible bearers are recoverable under current constraints. |
+| **Function and characteristic collapse** | Keep user functions and architecture characteristics distinct where they change the repair or comparison; separate record fields are optional. |
+| **Function without bearer** | A functional architecture can remain a provisional candidate while feasibility is unresolved. Claim feasible use only when the required bearers and constraints support it. |
 | **Ideality used as deletion admissibility** | Ideal final result wording is a generation pressure; deleting a bearer is admissible only after function bearing, lost structure, new burden, and architecture characteristics are named. |
 | **Universal bearer admitted by name** | A universal module or general substrate must be treated as a candidate bearer under BLP scale-window discipline and declared architecture-characteristic criteria rows. |
-| **Conway wording without correspondence repair** | Conway, mirroring, or inverse-Conway wording is useful only when it opens `C.32.CONWAY` and names the changed referent, each exact obtaining C.30 architecture relation or modal claim, the direct influence relation and its truthful disposition, affected architecture characteristics, candidate form, gain, loss, and pattern for the next question. Architecture influence supplies no actor, assignment, Work, actual transformation, network membership, or cross-flow relation. |
+| **Conway wording without correspondence repair** | For a correspondence repair, use `C.32.CONWAY` to recover the changed referent, relevant architecture sides, influence claim and its truthful disposition, affected characteristics and useful candidate alternatives. A preliminary account can retain unresolved questions; an exact pair requires its own admitted relations. Architecture influence supplies no actor, assignment, Work, actual transformation, network membership, or cross-flow relation. |
 

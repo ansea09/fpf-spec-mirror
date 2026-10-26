@@ -6,12 +6,12 @@ section_id: "A.3.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:2 — Problem"
-line_start: 9320
-line_end: 9331
+line_start: 9257
+line_end: 9268
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -39,7 +39,7 @@ keywords:
 
 ### A.3.1:2 - Problem
 
-Without a current `U.Method` distinction, FPF cannot repair method-like wording cleanly. Texts then slide among several different claims:
+When the reusable way of doing remains unclear, method-like wording can hide different claims:
 
 1. **Description as method.** A SOP, code repository, proof script, BPMN diagram, SQL query, solver model, or protocol is treated as the method itself.
 2. **Plan or run as method.** A calendar plan, access plan, run log, telemetry trace, or work-result record is called the method.

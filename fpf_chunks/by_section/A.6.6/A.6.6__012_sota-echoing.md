@@ -6,12 +6,12 @@ section_id: "A.6.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:11 — SoTA-Echoing"
-line_start: 24237
-line_end: 24260
+line_start: 23817
+line_end: 23838
 dependencies:
   - "A.10"
   - "A.14"
@@ -59,8 +59,6 @@ keywords:
    *Primary source:* [OMG Structured Assurance Case Metamodel (SACM), version 2.3, October 2023](https://www.omg.org/spec/SACM/2.3).
 
 5. **Objects over a base as a stable mathematical lens.**
-   **Adopt/Adapt.** Modern category-theory texts make “objects over a base” (slice categories) a reusable pattern for “X relative to B”. We adopt that lens as the stable abstraction behind base declarations, and adapt it with explicit scope/time and witness semantics needed for engineering governance.
+   **Adopt/Adapt.** Category-theory treatments of objects over a base, including slice categories, offer a mathematical way to compare an X-relative-to-B construction. Use that lens only when the selected mathematical construction and its correspondence to the direct domain relation are established under C.29. It supplies no universal obtaining predicate, scope, time or witness rule for calibration, evidence, attribution and the other distinct domain relations.
    *Primary source:* Riehl, *Category Theory in Context* (2016).
-
-**SoTA binding note (informative):** the “object over a base” lens is the abstraction used to keep the pattern stable across domains (item 5).
 

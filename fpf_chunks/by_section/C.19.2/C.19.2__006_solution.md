@@ -6,12 +6,12 @@ section_id: "C.19.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:4 — Solution"
-line_start: 62042
-line_end: 62101
+line_start: 61023
+line_end: 61082
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -42,8 +42,8 @@ Use this minimal lens before taking a branch:
 
 1. **Declared use:** the practical question, direct result kind, claimed guarantee, non-negotiable constraints, and horizon.
 2. **Selected or candidate direct-kind object:** the method description, model, ontology module, formal technique, or other governed object being considered.
-3. **Application MethodDescription and described Method:** this pattern's `U.MethodDescription` episteme and the admitted `U.Method` it describes. A practitioner uses its claims to guide the Work.
-4. **Performer and work:** when an admitted `U.System` performs dated configuration or application `U.Work` using the described Method, recover its A.13 core and independently admit the Work under A.15.1. Add F.6 afterward only when the present use needs precise assignment-bound attribution. In a short account, expose assignment identity, species, participants, or attribution detail only when the use relies on them, attribution is ambiguous, or source wording must be repaired.
+3. **Application guidance and Method:** use this pattern’s instructions to guide the application. When identifying a particular Method, apply A.3.1. Treat a claim-bearing episteme as its `U.MethodDescription` only when A.3.2 establishes that the already admitted Method is its EntityOfConcern and it makes substantive claims about that way of doing. Using the guidance does not itself require that classification.
+4. **Performer and work:** when a claim identifies particular dated configuration or application `U.Work`, recover the admitted performing `U.System` through A.13 and independently admit the Work under A.15.1, including its enacted Method under A.3.1. Add F.6 afterward only when the present use needs precise assignment-bound attribution. In a short account, expose assignment identity, species, participants, or attribution detail only when the use relies on them, attribution is ambiguous, or source wording must be repaired.
 5. **Problem-facing result:** the domain, engineering, assurance, architecture, or other subject-pattern result inspected after the work.
 
 The intended reader may also be the person-system that performs the Work, but reader position and performer relation remain different.
@@ -77,16 +77,16 @@ These four dispositions form the complete current `C.11` result set. “Configur
 
 1. State the practical use, direct result kind, claimed guarantee, constraints, horizon, and current apparatus state.
 2. If one apparatus is already selected, test its credible adaptation path without inventing choice. If candidates are missing, use `C.39` for an unexplained way to obtain the result or `C.40` for feasible variation and examination of usable material. Add `C.18` only when a generation account or archive/front claim is needed.
-3. Name available alternatives by their direct kinds and apply the shared eligibility predicate.
+3. When alternatives are current, identify them by their direct kinds and apply the shared eligibility predicate.
 4. For each current path, state the smallest adaptation/configuration work and the useful-result threshold: what must be learned, evidenced, integrated, or reviewed before the path can improve the use.
 5. Compare available time and budget, prior exposure, post-threshold efficiency, transfer, retention, interoperability, downside, reversibility, and expected reuse using values supplied by their subject patterns. Do not compress them into an undeclared scalar.
 6. If choice is current, consume one lawful `C.11 ChoiceResult`; otherwise continue on the one-apparatus path.
-7. On a branch that proceeds to application, prepare the needed `A.15.2` plan or, for tool-call enactment, `C.24` call plan. Have the admitted system perform `A.15.1` work.
+7. Carry out the selected application. Use A.15.2 when a plan is needed and C.24 when tool-call planning is the question. A precise dated-Work claim uses the performer and admission conditions in §4.1.
 8. Inspect the separately governed problem-facing result. Keep an application/configuration note only when reuse, dispute, automation, or consequence makes it useful.
 
 #### C.19.2:4.5 - Stop and reopen
 
-Stop when the direct result is usable at the claimed guarantee and no additional distinction or setup burden has an expected practical return for the declared use and horizon. This is a positive result, not a claim that the unused apparatus is inferior.
+Stop when the direct result is usable at the claimed guarantee and no further distinction or setup is expected to improve the declared use enough to justify its burden over the stated horizon. This is a positive result, not a claim that the unused apparatus is inferior.
 
 Reopen when a consequential counterexample, failed result, changed use or guarantee, changed recurrence horizon, new candidate path, automation need, or changed adaptation cost alters the lawful path. Reopen only the affected application, candidate, choice, plan, or work question under its subject pattern.
 

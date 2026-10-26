@@ -6,12 +6,12 @@ section_id: "A.3:End"
 section_title: "A.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__012_a-3-end.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:End — A.3:End"
-line_start: 9288
-line_end: 9289
+line_start: 9226
+line_end: 9227
 dependencies:
   - "A.10"
   - "A.12-A.15"

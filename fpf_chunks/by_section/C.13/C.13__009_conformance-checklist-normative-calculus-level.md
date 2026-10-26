@@ -6,12 +6,12 @@ section_id: "C.13:7"
 section_title: "Conformance Checklist (normative, calculus‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__009_conformance-checklist-normative-calculus-level.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:7 — Conformance Checklist (normative, calculus‑level)"
-line_start: 58367
-line_end: 58386
+line_start: 57464
+line_end: 57483
 dependencies:
   - "A.1"
   - "A.14"
@@ -39,7 +39,7 @@ The following regulate a C.13 use.
 | **CC-C13-4 — No order or time by constructor.** | Keep execution order, parallelism, temporal coverage, and phase with their direct patterns. | Preserve the boundary among structural construction, temporal extent, and method order. |
 | **CC-C13-5 — Narratability.** | State the construction in ordinary language before or beside the shorthand. | Keep the construction usable without notation. |
 | **CC-C13-6 — Direct-relation discipline.** | Use ComponentOf, a collection's own belongs-to predicate, AspectOf, PortionOf, or ConstituentOf only with the meaning defined for that relation; the trace defines none of them. | Keeps public relation meanings with the patterns that define them. |
-| **CC-C13-7 — Trace separation.** | Treat a materialized trace as a C.2.1 episteme about construction; creating, publishing, losing, or revising it does not create or end the whole, collection, or aspect it describes. | Keep ontology and epistemics separate. |
+| **CC-C13-7 — Trace separation.** | Treat a materialized trace as a C.2.1 episteme about construction. A change to the account alone establishes no change in the described construction; any constitutive effect requires its direct rule. | Keep ontology and epistemics separate. |
 | **CC-C13-8 — Collection belonging is not component parthood.** | A `set` construction establishes no integrated assembly, acting eligibility, or holonhood. | Prevent collection-to-system drift. |
 | **CC-C13-9 — Facet explicitness.** | A `slice` use names the exact aspect, bearer, governed facet, direct relation, and identity rule; a temporal window is not a structural facet here. | Prevent arbitrary slicing. |
 | **CC-C13-10 — Subject owner.** | Apply C.13 to method, work, or discipline holons only after their direct patterns identify exact parts and whole-forming relations. | Permit accepted holon construction without generic decomposition. |

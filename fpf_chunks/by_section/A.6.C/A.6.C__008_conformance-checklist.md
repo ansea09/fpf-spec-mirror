@@ -6,12 +6,12 @@ section_id: "A.6.C:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:7 — Conformance Checklist"
-line_start: 15845
-line_end: 15873
+line_start: 15539
+line_end: 15567
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,33 +34,24 @@ dependencies:
   - "U.SpeechAct"
   - "U.Work"
 keywords:
-  - "MUST NOT"
+  - "A.6.B separately classifies the actual claim"
   - "MVPK no-new-semantics"
-  - "OPTIONAL"
-  - "SHOULD"
-  - "a mechanism entry predicate enters A"
-  - "an individual duty"
-  - "and SHOULD NOT enter D for a generic prescription or"
-  - "and an actual A.21 GateDecisionResult"
-  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
-  - "are statement operators"
+  - "OPTIONAL or authority-looking wording is ambiguous"
   - "atomic L/A/D/E rows"
   - "commitment or grant"
   - "dated Work"
   - "description and publication"
-  - "exercise"
   - "four-question contract lens"
   - "gate"
-  - "not ontology or quadrant selectors. MUST"
+  - "marking it informative does not settle the claim"
   - "obtaining versus representation"
-  - "or evaluated finding enters E. If the wording does not expose the branch and direct object"
-  - "or prohibition. MAY"
   - "promise content"
-  - "recommendation-as-duty"
-  - "rewrite it or mark it informative"
+  - "recommendation-as-duty or prohibition enters D. When MAY"
+  - "retain it as bounded source wording with that uncertainty"
   - "separate result and evidence"
   - "speech-act Work"
-  - "when separately instituted for an actual bearer"
+  - "the visible keyword alone does not establish its object or whether an individual relation obtains"
+  - "use the A.6 A6-AW-* branch. If its object or meaning remains unresolved"
 ---
 
 ### A.6.C:7 — Conformance Checklist
@@ -68,7 +59,7 @@ keywords:
 A boundary description conforms to A.6.C iff it satisfies all items below:
 
 1. **CC‑A.6.C‑1 (Four questions, atomic answers).**
-   When contract-like wording leaves a consequential ambiguity, the text **SHALL** answer only the applicable four-question branches with atomic claims. Speech act, description/publication, generic prescription, individual commitment, selected permission-side claim, dated Work, each consequence, and each evidence claim **SHALL** retain its own direct object, exact subject assertion, non-semantic pattern locator, and quadrant.
+   When contract-like wording leaves a consequential ambiguity, the text **SHALL** answer only the applicable four-question branches with atomic claims. Each asserted object and its subject predicate **SHALL** remain separately recoverable. Classify each claim through A.6.B and identify the defining pattern when its rules govern that claim.
 
 2. **CC‑A.6.C‑2 (No agency to epistemes).**
    When a dated act or individual commitment is claimed, the text **MUST** identify its capable actual participant and **MUST NOT** substitute an API/interface label, description, publication carrier, kind, or assignment for that participant's basis. Ordinary metonymy may remain when its participant and relation are locally recoverable. A generic prescription **SHALL** name its exact normative source and applicable content without inventing an individual bearer. An individual duty or commitment **SHALL** name its actual bearer and exact separately obtaining `U.Commitment`; an assignment may appear only as an instituting rule's applicability ground.
@@ -77,7 +68,7 @@ A boundary description conforms to A.6.C iff it satisfies all items below:
    When contract-language leaves a consequential ambiguity, its unpacked statements **SHALL** be atomic L/A/D/E claims. In that unpacking, permission-looking wording **SHALL** select one A.6 `A6-AW-*` row; A.2.8.PER membership alone **MUST NOT** set the quadrant.
 
 4. **CC‑A.6.C‑4 (Promise content ≠ Work discipline).**
-   A performed-work statement **SHALL** name the exact A.15.1 dated Work occurrence. A result, production, change, delivery/transfer, evidence, or acceptance statement **SHALL** use its own direct object and shall not be inferred from Work. Promise-content language remains about `U.PromiseContent`, not execution or consequence.
+   A statement about one particular dated Work **SHALL** name the A.15.1 occurrence. A result, production, change, delivery/transfer, evidence or acceptance statement **SHALL** use its own direct object and shall not be inferred merely from Work. Promise-content language remains about `U.PromiseContent`.
    When *service* or access-like wording occurs in a relied-on boundary claim, recommendation, decision, gate, assurance, publication, or reuse and hides the concrete subject, participant, predicate, kind, permission, Work occurrence, or next subject question, the text **SHALL** recover that hidden choice through E.10 **L-SERV** and **A.6.P:4.11a**, then state the exact assertion under the recovered predicate with its pattern locator. Quoted, historical, illustrative, and harmless ordinary wording remains outside this recovery rule; an actual `U.PromiseContent` referent still uses the head phrase **promise content**, not bare *service*.
 
 5. **CC‑A.6.C‑5 (Evidence hook for operational guarantees).**

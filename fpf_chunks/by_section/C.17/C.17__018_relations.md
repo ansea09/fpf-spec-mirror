@@ -6,12 +6,12 @@ section_id: "C.17:16"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__018_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:16 — Relations"
-line_start: 60977
-line_end: 60982
+line_start: 59945
+line_end: 59950
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -42,7 +42,6 @@ dependencies:
   - "F.9"
   - "G.11"
   - "G.5"
-  - "U.Mechanism"
 keywords:
   - "ConstraintFit"
   - "Novelty"

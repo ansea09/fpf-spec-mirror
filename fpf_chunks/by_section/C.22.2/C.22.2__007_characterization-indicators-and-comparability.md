@@ -6,12 +6,12 @@ section_id: "C.22.2:6"
 section_title: "Characterization, Indicators, and Comparability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__007_characterization-indicators-and-comparability.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:6 — Characterization, Indicators, and Comparability"
-line_start: 63916
-line_end: 63933
+line_start: 62890
+line_end: 62907
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,13 +58,13 @@ keywords:
 
 ### C.22.2:6 - Characterization, Indicators, and Comparability
 
-`ProblemCard` states either a recoverable `characterization relation` and `comparability or parity relation`, or an explicit current reason why the problem can proceed without one.
+State the characterization and comparison basis when the formulation or next use depends on it. A card that only preserves a signal or proposes an inquiry can finish without a measurement or parity account.
 
 The heavy content stays with existing FPF patterns:
 
 - `C.16` carries measurement characterization, backing, and comparability discipline;
 - `A.19` carries characteristic, scale, unit, polarity, and indicator-use discipline;
-- `C.25` carries Q-bundles and quality-like multi-characteristic bundles;
+- `C.25` governs engineering-quality bundles; `C.16.Q` helps recover other quality-like descriptions and the Characteristics their use needs;
 - `G.9` carries parity, comparison-window, comparator, budget, unit, repeatability, and reproducibility pins;
 - `G.0` carries comparison-frame and CG-Spec governance;
 - `G.4` carries acceptance clauses and threshold predicates;

@@ -6,12 +6,12 @@ section_id: "C.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:1 — Problem frame"
-line_start: 56600
-line_end: 56641
+line_start: 55728
+line_end: 55754
 dependencies:
   - "A.10"
   - "A.13"
@@ -57,18 +57,9 @@ keywords:
 
 **Use this when.** Use this pattern when one `DecisionSubject` already has an `OptionSet` in hand and the real question is how to choose among those already-available options under uncertainty, preference, causal or subjunctive dependence, and bounded probing or computation.
 
-**Start here when.** Start here when a person, team, organization, or other decision-capable system must decide whether to choose now or spend more effort on probing, information gathering, or computation before choosing.
-
 **First output.** The first useful output is one explicit `DecisionSubject`, one explicit `OptionSet`, one explicit comparison basis, one explicit `ChoiceRule`, and one explicit `ChoiceResult` saying whether the lawful choice result is choose now, reject the current set, probe more, or move to a neighboring question.
 
 If that first output still cannot be stated, the local comparison is unfinished or the question belongs to a neighboring pattern.
-
-**Immediate failure indicators.**
-
-- The chooser is still moving between person, team, organization, or another collectivity-bearing level.
-- The current comparison is still inventing, expanding, or reframing options while also claiming to compare them.
-- The current comparison says more information would help but cannot name one next probe that could still change the result.
-- The current result is really surfacing one selected set or one enactment plan rather than one local choice.
 
 **First-minute questions.**
 
@@ -80,15 +71,9 @@ If that first output still cannot be stated, the local comparison is unfinished 
 
 **When advice still hides the decision.** Use `C.11.DUA` when a recommendation or evidence demand still needs its receiving question, demanded work or requirement merits recovered. Return here when a current chooser and options support a local choice. An already adequate choice uses this pattern directly.
 
-**Typical reroutes.** `C.38` when labels or fragments still need to become complete ways of obtaining the same result; `C.39` when a way to obtain the result still needs explanation; `C.40` when usable material needs feasible variation and examination; `C.18` when generation-account or archive/front claims are needed; `C.19` when the working question is how broadly to explore or exploit the candidate pool; `C.24` when one option is already chosen and the work has become sequencing or enactment; `A.13` when the hard question is agenthood rather than choice; `A.18` for Scale and Coordinate bindings or `A.19` for a declared CharacteristicSpace or reusable predicate when that support question itself becomes primary.
-
-**Common neighboring-pattern mistakes.** Do not use `C.11` to hide search work inside "decision", to hide candidate-pool policy inside one local choice, or to hide execution planning inside one generic rationality account. Do not treat declaring selector-facing set-result content, or later making that result available, as if either were the same question as deciding.
-
-**What goes wrong if this pattern is missed.** Search, selection policy, planning, and choice doctrine collapse into one blurred notion of rationality. Teams either choose too early because pool policy was never stated, keep probing without one reason the next probe is still worth its cost, or leave only one vague claim that "a decision was made" without one explicit decision record naming the current result.
+**Typical reroutes.** For candidate construction or development, use `C.38`–`C.40` as specified in §4.4; that section also distinguishes pool policy, selected-set publication and enactment. Use `A.13` when agency itself is at issue, or `A.18`/`A.19` when Scale bindings or a declared CharacteristicSpace or reusable predicate are the unresolved question.
 
 **What this pattern buys.** This pattern gives one stable place to compare classical, causal, success-first or subjunctive, bounded-resource, active-inference-adjacent, and quantum-like decision lines without silently reassigning search, selection, or planning doctrine to the wrong question. In practice it buys one explicit answer to four questions: choose now, reject the current set, probe again, or reroute.
 
 **Not this pattern when.** Do not start here when the current question is still generating candidate options, setting exploration or exploitation policy over a candidate pool, declaring selector-facing set-result content, making that result available to an audience, or sequencing execution under an operational plan.
-
-Decision work often fails not because no options exist, but because the choice among existing options is never typed as its own question. `C.11` starts from one narrower and more useful center: one decision subject choosing among already-available options, including whether more probing is worth the cost before the choice is fixed.
 

@@ -6,12 +6,12 @@ section_id: "C.24:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:intro — Intro"
-line_start: 64558
-line_end: 64573
+line_start: 63518
+line_end: 63531
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,8 +51,6 @@ keywords:
 **Plain-name.** Plan tool or service calls for a fixed action.
 
 **Intent.** Help a practitioner turn an already fixed action or option into a budgeted call plan, then revise that plan or return a bounded checkpoint without confusing planning with selection or execution.
-
-**Instantiates and refines Pillars.** `E.2` `P-3` Scalable Formality, `P-7` Pragmatic Utility, `P-10` Open-Ended Evolution, `P-11` SoTA Alignment, and `C.19.1` Bitter-Lesson Preference when a real scale comparison is current.
 
 **Depends on.** `A.15` and its planning and Work patterns for Methods, descriptions, plans, performed Work, and attribution; `A.15.7` for a situation-responsive next-action decision; `C.11` for a fixed choice among a current `OptionSet`; `C.2.1` when the relied-on decision or checkpoint needs a persistent episteme; `C.18` for candidate-generation records; `C.19` for live-pool policy; `C.19.1` for a scale-based comparison or waiver; `C.16` for measured comparison inputs; `G.6` for call-trace representation; and `B.3` only when a named assurance use needs one bounded assurance result.
 

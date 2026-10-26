@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__005_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:3 — Forces"
-line_start: 10378
-line_end: 10389
+line_start: 10292
+line_end: 10303
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -30,6 +30,6 @@ keywords:
 | Status preservation | Candidate claims need testing, while useful Work must not be reported as enactment of an unidentified Method whole. |
 | Observability | Later decisions need traceable observations, while instrumentation and reporting can burden or distort Work. |
 | Capability | Performer ability can change the result, while training or one success invites premature capability claims. |
-| Failure value | Failure can localize a correction, while teams and sponsors are biased toward a favourable trial narrative. |
+| Failure value | Failure can localize a correction, while a preference for a favourable narrative can hide it. |
 | Evidence reach | Several occurrences can strengthen a local account, while they still may not establish contribution, causality, transfer, or practical worth. |
 

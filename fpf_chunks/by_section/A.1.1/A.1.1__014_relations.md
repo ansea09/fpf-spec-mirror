@@ -6,12 +6,12 @@ section_id: "A.1.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__014_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:12 — Relations"
-line_start: 3498
-line_end: 3512
+line_start: 3493
+line_end: 3507
 dependencies:
   - "A.1"
   - "A.14"
@@ -50,5 +50,5 @@ keywords:
 - `E.17.0`, `E.24.PUB`, and `C.29` separately govern view conformance, publication occurrence and availability, representation, rendering, form, and carrier.
 - `C.2.P` recovers an exact source expression and routes any source-use relation to its direct governor.
 - `A.6.0` and `A.6.5` govern the `RelationSignature` and SlotSpecs declared here; `A.6.REL` governs progressive explicit individuation after the direct relation kind, obtaining condition, and occurrence-identity rule exist.
-- `F.19` tests whether an explanatory guard is justified for the intended reader.
+
 

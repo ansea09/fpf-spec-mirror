@@ -6,12 +6,12 @@ section_id: "A.12:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__007_archetypal-grounding-worked-cases.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:5 — Archetypal Grounding (Worked Cases)"
-line_start: 28255
-line_end: 28331
+line_start: 27820
+line_end: 27896
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -19,9 +19,12 @@ dependencies:
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.15.2"
   - "A.2.1"
   - "A.2.6"
   - "A.2.7"
+  - "A.3.1"
+  - "A.3.2"
   - "A.3.4"
   - "A.6.RCD"
   - "A.7"
@@ -66,7 +69,7 @@ Robot-R17 remains the containing holon. CalibrationWork-R17 and SensorCalibratio
 
 Source wording: "the document updates its cross-references."
 
-BuildRunner-4 updates the cross-references in PublicationFile-17. BuildScriptEpisteme-9 describes CrossReferenceUpdateMethod-3 under A.3.2; the script is the MethodDescription, not the acting entity or the Method merely by its form. This case follows the publication carrier through the update.
+BuildRunner-4 updates the cross-references in PublicationFile-17. BuildScriptEpisteme-9 has the already admitted CrossReferenceUpdateMethod-3 as its exact EntityOfConcern and describes how that Method updates links, satisfying A.3.2. The script is its MethodDescription; BuildRunner-4 is the acting participant. This case follows the publication carrier through the update.
 
 The bounded case-local continuity rule treats PublicationFile-17 as the same carrier only if the file object opened for the build still exists when the build closes, every write asserted to update PublicationFile-17 targets that same open object, and the build neither deletes and recreates that file, atomically replaces it, nor substitutes another carrier. E.24.PUB states which publication form the carrier bears; it does not supply this case-local identity rule. If a continuity fact fails, identify the replacement carrier rather than asserting a transformation of one continuing file. If carrier identity is unresolved, stop before asserting that change. A changed C.2.1 episteme discriminator selects the separate episteme-edition reading.
 

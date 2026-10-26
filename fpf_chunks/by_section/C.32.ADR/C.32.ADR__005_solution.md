@@ -6,12 +6,12 @@ section_id: "C.32.ADR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:4 — Solution"
-line_start: 80355
-line_end: 80396
+line_start: 79198
+line_end: 79239
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,25 +44,25 @@ keywords:
 
 ### C.32.ADR:4 - Solution
 
-Create `ArchitectureDecisionRecordProjection@Project` from an existing `ArchitectureDecisionRelation@Project` and `ArchitectureDecisionDescription@Project`. If the decision relation is missing, require `C.32.PAD` before writing the record.
+Publish the recoverable decision and its description for the declared readers. If the decision content is missing, develop it through `C.32.PAD`; the same written account can support that work and later describe its result. A draft or template does not establish that a decision was made.
 
 Work in this order:
 
 1. Name the publication carrier and intended readers. Use a file or other carrier for the Markdown ADR, decision memo, trade-study record, engineering change note, certification rationale, design-review record, or other decision-description form.
-2. Cite the decision relation and decision description. If the record cannot cite them, draft them first.
-3. Choose the smallest record scope that lets intended readers use the decision. Avoid copying architecture descriptions or full method descriptions; cite them by value where possible.
-4. Map section functions to headings or carrier slots. Use local headings if needed, but keep the function rows recoverable.
+2. Make the decision relation and its description recoverable by reference or by value. If either remains unresolved, develop the missing content and keep the draft's status truthful.
+3. Choose the smallest scope that lets intended readers use the decision. Include the explanatory slice they need, with access to the fuller architecture or Method description when needed; avoid duplicating material that adds no useful content.
+4. Choose headings or carrier positions that make the needed decision functions recoverable. A separate mapping table is useful only when the relationship would otherwise be unclear.
 5. Carry the candidate basis. Record candidate options from `C.32` or the reason no candidate-set question is live. Do not invent options in the ADR after the decision.
 6. Carry the decision outcome. State the selected architecture option, bounded exception, or supersession relation from PAD.
 7. Carry rationale, accepted losses, and consequences. Include architecture-characteristic trade-offs and guardrails, not only benefits.
-8. Carry method-use instruction and work split when the decision guides developer work. Cite `A.15`, method descriptions, pattern-use refs, readiness exits, and expected structure effects rather than burying them in prose.
+8. Carry Method-use instructions and work split when the decision guides developer work. State the required action and expected structure effect plainly; cite the Method, pattern-use guidance or readiness rule when the reader needs it.
 9. Carry confirmation, eval, or violation-detection exits. Use `C.32.ACE`, `C.16`, `A.10`, `B.3`, `A.21`, or governance patterns when those claims are live.
-10. Carry publication and source-return boundaries. Use `E.17` for source-backed publication faces and source return, `E.24.PUB` for publication occurrences and audience availability, and `C.30.AD` for architecture-description claims.
+10. Carry the applicable publication and source-return boundaries. Use `E.24.PUB` for publication occurrences and audience availability, `E.17` when a source-backed face and source return are needed, and `C.30.AD` for architecture-description claims.
 11. Carry status, supersession, and update conditions. Old records remain useful as history when superseded; the active decision relation tells which one governs current work.
 
 #### C.32.ADR:4.1 - Required section functions
 
-The following section functions are required unless the decision relation states why the function is not live for this record use.
+Select the following functions by the declared reader use, retaining what is needed to understand, apply, check or reconsider the decision. Explain a consequential omission when the reader could otherwise infer a missing option, instruction or confirmation. The table does not require a heading or an omission statement for every inapplicable function.
 
 | Section function | What the record must let the reader recover |
 |---|---|
@@ -80,7 +80,7 @@ The following section functions are required unless the decision relation states
 
 #### C.32.ADR:4.2 - ADR package use
 
-When several records form a package, create a package map that names active, proposed, superseded, and related records. A package map is a publication navigation aid. It does not merge decisions, replace PAD relations, or decide record priority by file order alone.
+When readers need navigation among several records, provide a package map or an adequate existing index that identifies active, proposed, superseded and related records. A package map is a publication navigation aid. It does not merge decisions, replace PAD relations, or decide record priority by file order alone.
 
 When one decision changes another, use explicit supersession or amendment links. Do not rewrite history by deleting the old record unless the project has a governed archival policy.
 

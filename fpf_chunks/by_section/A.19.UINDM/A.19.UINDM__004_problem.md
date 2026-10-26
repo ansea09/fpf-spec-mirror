@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__004_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:2 — Problem"
-line_start: 38344
-line_end: 38352
+line_start: 37589
+line_end: 37597
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -24,7 +24,7 @@ keywords:
 
 ### A.19.UINDM:2 - Problem
 
-Engineering teams routinely need to decide “which characteristics count as indicators” for a CN‑frame—before they can score, compare, aggregate, or select. If indicatorization is not given a **first‑class mechanism boundary**, several failure modes emerge:
+Engineering teams routinely need to decide “which characteristics count as indicators” for a CN‑frame—when a downstream score, comparison, aggregation or selection depends on that choice. Leaving the choice implicit can produce these failures:
 
 * **Hidden indicatorization:** downstream mechanisms (scoring/comparison/selection) implicitly decide which characteristics matter, making the CHR pipeline opaque and hard to audit.
 * **NCV conflation:** measurability (or “having an NCV”) is treated as sufficient to be an indicator, collapsing the crucial distinction between “measurable characteristic” and “indicator chosen under policy.”

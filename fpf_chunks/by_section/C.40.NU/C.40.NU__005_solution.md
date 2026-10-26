@@ -6,12 +6,12 @@ section_id: "C.40.NU:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:4 — Solution"
-line_start: 86377
-line_end: 86441
+line_start: 85195
+line_end: 85259
 dependencies:
   - "C.17"
   - "C.18"
@@ -60,7 +60,7 @@ Use explicit value questions: what would matter to a receiver, what burden shoul
 
 #### C.40.NU:4.3 - Keep the operation, source, and claim status together
 
-For each retained lead, say what was varied, where the idea came from, what concrete difference might matter, and what remains unsupported. Preserve a source date or edition when its currentness affects the next use. Distinguish the source's actual claim from the inference made for this subject.
+For each retained lead, say what was varied, where the idea came from, what concrete difference might matter, and any material limit or unsupported premise. Preserve a source date or edition when its currentness affects the next use. Distinguish the source's actual claim from the inference made for this subject.
 
 For example: “The supplier describes long-record retrieval; changing the receiving use from automatic approval to claim-to-evidence recovery suggests a possible review aid. We have no result establishing its accuracy or permitted use with these records.” That is a search lead with a testable connection, not a supplier-validated opportunity.
 
@@ -78,7 +78,7 @@ Mark leads as ready for problem/contribution inquiry, conditional on a named pre
 
 Stop widening when the retained contrasts expose the unknowns that can change the inquiry at its chosen effort, when an adequate set already exists, or when a missing premise makes further generation uninformative. If the effort limit is reached first, report that limit and any consequential unsearched area; do not describe the search as sufficient merely because the time was spent.
 
-State the next discriminating question and how plausible answers would change the leads. Use `C.40.PC` when the missing result is the receiver's worthwhile problem or proposed contribution, and `C.40.DC` when that result is already adequate and directions need support configurations. A return to one missing frame or characteristic is also a complete outcome.
+When the receiving inquiry needs a further answer, state the discriminating question and how plausible answers would change the leads. A sufficient local result or adequate lead set can end the search. Use `C.40.PC` when the missing result is the receiver's worthwhile problem or proposed contribution, and `C.40.DC` when that result is already adequate and directions need support configurations. A return to one missing frame or characteristic is also a complete outcome.
 
 A two-sentence return can suffice: “Changing the use and support exposed claim-to-evidence recovery and shift-exception handoff as different leads; three other products repeat the first mechanism. We stopped after the agreed source search because the next difference depends on whether receivers need either contribution; accessibility beyond the current office use remains unsearched.”
 

@@ -6,12 +6,12 @@ section_id: "A.3.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:2 — Problem"
-line_start: 11951
-line_end: 11956
+line_start: 11826
+line_end: 11831
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,5 +49,5 @@ keywords:
 
 A time series describes observations but leaves the next state to be explained. A control instruction selects an action but may leave its physical effect unspecified. Even a declared law can give an inadequate prediction when its chosen state hides a consequential difference, as the two-substance case shows.
 
-A usable account must therefore connect the changing subject, the state distinctions, the transition law and the observations. Its applicability and support must be sufficient for the particular prediction or decision, which may demand more than the initial model comparison.
+A usable account must connect the changing subject, the state distinctions and the transition law, adding the observation relation when the question uses observations. Its applicability and support must be sufficient for the particular prediction or decision, which may demand more than the initial model comparison.
 

@@ -6,12 +6,12 @@ section_id: "A.6.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:11 — SoTA-Echoing"
-line_start: 17244
-line_end: 17253
+line_start: 16925
+line_end: 16933
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -52,11 +52,10 @@ keywords:
 
 ### A.6.1:11 - SoTA-Echoing
 
-| Source line | Source refs | Adopt, adapt, or reject | Effect in this pattern |
+| Source line | Source refs | Contribution and boundary | Effect in this pattern |
 |---|---|---|---|
-| Current complete semantics for effect handlers | Satoshi Kura, ["On Complete Categorical Semantics for Effect Handlers"](https://arxiv.org/abs/2602.03275), 2026. | Adapt as a software-derived stress case. The work distinguishes operation signatures, equational theories, handlers, and semantic models, and shows that one familiar realization model is not uniquely forced by the declaration. It does not supply a universal ontology for physical or social mechanisms. | `U.Mechanism`, its laws, a realizing entity, and the realization relation remain separate. One implementation cannot define mechanism identity by itself. |
-| Current dependent effect semantics | Kura, Gaboardi, Sekiyama, and Unno, ["A Category-Theoretic Framework for Dependent Effect Systems"](https://arxiv.org/abs/2601.14846), 2026. | Adapt the use of indexed predicates and graded structure to stress typed positions and condition-dependent operation claims. Reject the inference that one categorical formalism determines the FPF ontology. | Argument and result declarations, application rules, `AdmissibilityConditions`, `U.ClaimScope`, and mathematical-lens boundaries are explicit. |
-| Current relation-first multi-domain modeling, with historical acausal lineage | JuliaHub Dyad 3.2 component and analysis documentation, 2026; Modelica Language Specification 3.7 as historical lineage. | Adapt Dyad's current separation of reusable relation-first components from separately selected analyses and their result objects. Retain Modelica only for the historical distinction between acausal equations and imposed calculation order. Neither source is FPF ontology authority. | The physical case separates declaration laws, component relations, analysis choice, solver or simulation Work, result, and diagram. Equation or display order does not create a continuation structure; apply A.22.CGUS only when its own structure conditions hold. |
-| Scoped operations, resources, and handlers | Bosman, van den Berg, Tang, and Schrijvers, ["A Calculus for Scoped Effects and Handlers"](https://arxiv.org/abs/2304.09697), LMCS 20(4), 2024; Matache, Lindley, Moss, Staton, Wu, and Yang, ["Scoped Effects as Parameterized Algebraic Theories"](https://arxiv.org/abs/2402.03103), 2024. | Adapt the separation among operations, equations, scopes, resources, and handlers. Keep it as one demanding software case rather than the default transdomain model. | `OperationAlgebra`, `LawSet`, Applicability, and realization remain distinct content and relation positions. |
-
+| Semantics for effect handlers | Satoshi Kura, ["On Complete Categorical Semantics for Effect Handlers"](https://arxiv.org/abs/2602.03275), 2026. | Distinguishes operation signatures, equational theories, handlers and semantic models; one familiar realization model is not uniquely forced by the declaration. This is a software-derived comparison, not a universal physical or social ontology. | The mechanism declaration, laws, realizing entity and realization relation remain separate. One implementation does not define declaration identity. |
+| Dependent effect semantics | Kura, Gaboardi, Sekiyama, and Unno, ["A Category-Theoretic Framework for Dependent Effect Systems"](https://arxiv.org/abs/2601.14846), 2026. | Indexed predicates and graded structure help examine typed positions and condition-dependent operations. The categorical formalism does not determine the FPF ontology. | Argument/result declarations, application rules, admission, scope and mathematical-lens boundaries remain explicit. |
+| Multi-domain modeling and acausal lineage | JuliaHub Dyad 3.2 component and analysis documentation, 2026; Modelica Language Specification 3.7 as historical lineage. | Separates reusable components from selected analyses and their results; Modelica supplies the acausal-equation versus calculation-order lineage. | The physical case keeps declaration laws, component relations, analysis, solver Work, result and diagram distinct. Equation order alone supplies no continuation structure. |
+| Scoped operations, resources and handlers | Bosman, van den Berg, Tang, and Schrijvers, ["A Calculus for Scoped Effects and Handlers"](https://arxiv.org/abs/2304.09697), LMCS 20(4), 2024; Matache, Lindley, Moss, Staton, Wu, and Yang, ["Scoped Effects as Parameterized Algebraic Theories"](https://arxiv.org/abs/2402.03103), 2024. | Separates operations, equations, scopes, resources and handlers in a software setting. | OperationAlgebra, LawSet, Applicability and realization retain distinct jobs; other domains retain their own operation and realization semantics. |
 

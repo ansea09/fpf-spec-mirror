@@ -6,24 +6,19 @@ section_id: "C.18.1:9"
 section_title: "Archetypal Grounding (post-2015; informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__007_archetypal-grounding-post-2015-informative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:9 — Archetypal Grounding (post-2015; informative)"
-line_start: 61357
-line_end: 61364
+line_start: 60332
+line_end: 60339
 dependencies:
-  - "A.10"
-  - "A.15.1"
-  - "A.15.2"
-  - "B.1.6"
   - "C.16"
   - "C.17"
   - "C.18"
   - "C.19"
   - "C.24"
   - "G.10"
-  - "G.11"
   - "G.5"
   - "G.9"
 keywords:
@@ -48,7 +43,7 @@ keywords:
 
 ### C.18.1:9 - Archetypal Grounding (post-2015; informative)
 
-* **LLM scaling.** Kaplan-style & **Chinchilla-optimal** regimes; **Mixture-of-Experts** and **retrieval-augmented** families shift effective capacity with different inference budgets; prompt-policies often transfer better than narrow pipelines.
+* **LLM scaling.** Historical Kaplan-style and **Chinchilla-optimal** regimes illustrate different compute/data allocations. **Mixture-of-Experts** and **retrieval-augmented** families require their own capacity and inference-budget account.
 * **RL/Planning.** Model-based optimization & general agents vs hand-tuned controllers; slopes reported wrt budget/FoA under safety envelopes.
 * **QD/OEE.** MAP-Elites, **CMA-ME**, **DQD**, **QDax**; **POET/Enhanced-POET** families: coverage/illumination as telemetry metrics; parity uses fixed grids/spaces and edition pins.
 

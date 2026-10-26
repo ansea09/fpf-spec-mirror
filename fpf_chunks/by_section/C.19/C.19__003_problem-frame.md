@@ -6,12 +6,12 @@ section_id: "C.19:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__003_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:1 — Problem frame"
-line_start: 61487
-line_end: 61498
+line_start: 60457
+line_end: 60468
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -52,9 +52,9 @@ keywords:
 ---
 
 ### C.19:1 - Problem frame
-C.19 describes named, versioned policies and lenses for treating a still-live pool after C.18 generation, archive, or front records exist.
+C.19 describes policies and lenses for treating an identified live pool. Use the applicable C.18 generation, archive or front account when the treatment depends on it; the existence of a record is not an entry condition.
 
-When `C.11` has already made local choice among one fixed `OptionSet` explicit, `C.19` begins where the question becomes policy over several still-live candidate lines, family regions, or frontier segments rather than one more local `ChoiceResult` record.
+C.11 concerns local choice among a fixed `OptionSet`; C.19 concerns treatment of several still-live candidate lines, family regions or frontier segments. Either question can arise without first completing the other.
 
 Immediate failure indicators for this pattern:
 - the current pool-policy result cannot name the still-live candidate pool whose treatment it states

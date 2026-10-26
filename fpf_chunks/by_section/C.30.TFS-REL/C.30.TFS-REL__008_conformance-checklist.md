@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:7 — Conformance Checklist"
-line_start: 75066
-line_end: 75084
+line_start: 74011
+line_end: 74029
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,7 +72,7 @@ keywords:
 | **CC-C30TFR-4a Network architecture branch.** | A network use selects exactly one branch. The containing branch has one exact holon and actual architecture relation whose selected structure is the exact network. The single-holon claim branch has Q about exact H and independently selected N, preserves Q's `doesNotObtain`, `unresolved` or `candidateOrExpectedOnly` disposition and basis, has no containing fields or participating arrays, and sets `noNetworkBearerHolonAsserted=true`. The inter-holon branch has at least two exact holons, exactly the actual architecture relations and bounded claims this question uses, no containing fields, and `noNetworkBearerHolonAsserted=true`; a singular participant ref never implies a containing architecture. | Complete the applicable branch and its return, remove or reroute a conflicting architecture-side ref, or keep the network claim under E.18.NET without architecture use. A missing network discriminator still stops E.18.NET selection. |
 | **CC-C30TFR-4b Named characteristic bearer and representation boundary.** | Every architecture characteristic claimed or used remains on an exact named holon, actual architecture relation, selected structure, view/description episteme, bounded claim, or other governed bearer; no graph, representation, mathematical description, publication, or network record becomes that bearer merely by presenting it. | Name the exact bearer under C.30 or its direct owner; demote the visible object to representation, description, or publication use. |
 | **CC-C30TFR-4c Member-local, unfolding, and row-reference boundary.** | Every path, slice, crossing, valuation, required effect, or actual transformation named with a network remains bound to its exact owning member TFS and local positions, participants, or bindings; a network-aware unfolding selects the same network through its E.18.3 locator; every `NetworkCrossFlowRelationRowRef` resolves exactly one row in a current record for that network without replacing the obtaining relation occurrence. | Restore the member-local binding or network-locator match; repair or remove a row locator that resolves zero or several rows or points to another network; keep occurrence truth with its direct governor. |
-| **CC-C30TFR-5 Work boundary.** | Establish any Work occurrence through A.15.1 and any work-result claim through its governing predicate. | Keep the selected TFS, network, path, or slice as the flow-structure reference used by that claim; use A.15 for Method/Work alignment. |
+| **CC-C30TFR-5 Work boundary.** | Establish a particular dated Work occurrence from its A.13 basis and independent A.15.1 admission; establish a work-result claim through its governing predicate. | Keep the selected TFS, network, path, or slice as the flow-structure reference used by that claim; use A.15 for Method/Work alignment. |
 | **CC-C30TFR-6 Evidence, assurance, and gate boundary.** | Establish any evidence-sufficiency, assurance, internal-constraint, gate-decision, or release-permission claim through its direct governing application and result. | Apply A.10 for source recovery and bounded reliance, G.6 for an addressable provenance path, and the applicable subject rule for evidence sufficiency; use B.3 for assurance, A.20 for an internal-constraint result, A.21 for a named gate decision, or the direct domain pattern for the particular release, admissibility, or approval claim. |
 | **CC-C30TFR-7 Causal and mathematical boundaries.** | Causal or intervention claims and mathematical-lens claims are assigned to C.28 and C.29. | Apply those governing patterns or narrow the record's admissible use. |
 | **CC-C30TFR-8 Pin and scalarization boundary.** | Edition, context, and plane pins plus no-hidden-scalarization claims remain E.18-governed. | Add E.18 pin and set-return references or remove the comparison or selection claim. |

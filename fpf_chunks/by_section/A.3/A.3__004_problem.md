@@ -6,12 +6,12 @@ section_id: "A.3:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__004_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:3 — Problem"
-line_start: 9093
-line_end: 9103
+line_start: 9035
+line_end: 9044
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -32,12 +32,11 @@ keywords:
 
 ### A.3:3 - Problem
 
-Legacy phrasing (“actor / process / blueprint”) causes recurrent failures:
+Shorthand such as “actor,” “process” or “blueprint” can hide these different questions:
 
-1. **Self‑magic in an actor-side claim:** “the system configures itself” is used as if it already supplied a performer, role assignment, method, work occurrence, causal relation, and evidence.
+1. **Missing acting-side basis:** a self-configuration claim depends on a performer or distinct acting and changed positions that its account has not established.
 2. **Plan = event:** blueprint/algorithm reported as if execution happened.
 3. **Capability or Method = Work:** having a capability or a Method is taken to establish that Work occurred.
 4. **Episteme as doer:** documents/models treated as actors.
-5. **Occurrence-description leak:** a method, plan, log, ticket, carrier, or evidence item is treated as the dated Work occurrence, while the assertion fails to designate the actual performer assignment, enacted Method, extent, affected referent, and direct relations.
-   A.2, A.7, A.10 and A.15.1 supply these distinctions, but A.3 must give the **canonical quartet** that authors can apply consistently.
+5. **Occurrence-description confusion:** a Method, plan, log, ticket or carrier is treated as the dated Work occurrence, leaving the actual occurrence and the basis required by the receiving claim unresolved.
 

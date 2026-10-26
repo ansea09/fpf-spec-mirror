@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:2 — Problem"
-line_start: 18323
-line_end: 18331
+line_start: 18002
+line_end: 18010
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -39,5 +39,5 @@ Without a dedicated pattern for conservative textual re-expression:
 2. authors treat textual simplification as if it were automatically conservative;
 3. the boundary to explanation-facing renderings stays blurry;
 4. correspondence-mediated rewrites are not distinguished from direct rewrites;
-5. subsequent users cannot tell whether the result is still a view of the same EntityOfConcern or a new interpretive publication.
+5. subsequent users cannot tell whether the result remains a supported restatement or adds interpretation.
 

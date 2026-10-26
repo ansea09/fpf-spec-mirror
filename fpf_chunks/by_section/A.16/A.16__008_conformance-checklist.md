@@ -6,12 +6,12 @@ section_id: "A.16:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:7 — Conformance checklist"
-line_start: 33724
-line_end: 33742
+line_start: 33257
+line_end: 33275
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -60,7 +60,7 @@ keywords:
 Use this one checklist for authoring and review:
 
 1. `A.16` does not redefine `F`, an endpoint test, Work, publication, or a graph-path calculus.
-2. The note uses one move from §4.1 and names the facet or route guard; rhetorical relabeling is insufficient.
+2. The publication or accompanying note identifies one move from §4.1 and its facet or route guard; rhetorical relabeling is insufficient.
 3. The identity case is explicit. A precursor needs no invented source episteme; a form-only case preserves all C.2.1 discriminators; changed content identifies a target episteme and records preserved, changed, and lost content.
 4. The source condition, typed target form, and object or claim that the downstream pattern defines, constrains, or tests are recoverable. The publication occurrence and MVPK face are added only when material and substitute for none of them.
 5. `projection` names a typed route-bounded form and its omissions; `respecify` does not hide an A.6.P, C.16.Q, or A.6.A precision repair.
@@ -70,7 +70,7 @@ Use this one checklist for authoring and review:
 9. Any dated Work and Work-result claim is established separately under its own patterns.
 10. Docking or a Work crossing alone establishes no authority, responsibility, permission, or commitment change. A real change names the exact relation and its own participants, object or action, scope, interval, and instituting or ending act. An unchanged-relation claim requires an applicable negative criterion or complete closure basis.
 11. Use `EndpointAdmissionProfile` only to judge admissible docking; apply all of the endpoint pattern's own conditions.
-12. A short note stands alone. A.16.0 opens only at the §4.7 threshold, and E.18 opens only for an independently selected TransformationFlowStructure.
+12. Sufficient local publication content stands alone. A.16.0 opens only at the §4.7 threshold, and E.18 opens only for an independently selected TransformationFlowStructure.
 13. A summarized chain leaves intermediate move identities, endpoint-rule changes, losses, and material status changes reconstructible.
 14. Compared histories are typed by form, move, applicable pattern or rule, and independent status claims; they are not compared as generic “maturity speed.”
 

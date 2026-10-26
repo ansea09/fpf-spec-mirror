@@ -6,12 +6,12 @@ section_id: "C.38:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:3 — Forces"
-line_start: 82629
-line_end: 82640
+line_start: 81453
+line_end: 81464
 dependencies:
   - "A.10"
   - "A.15.9"

@@ -6,23 +6,25 @@ section_id: "C.2.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:9 — Consequences"
-line_start: 54049
-line_end: 54051
+line_start: 53202
+line_end: 53204
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.18"
+  - "A.19"
   - "A.7"
   - "B.4.1"
   - "B.5.2.0"
   - "C.2.2a"
   - "C.2.7"
   - "C.2.LS"
+  - "C.2.P"
   - "F.9"
   - "F.9.1"
 keywords:
@@ -32,11 +34,11 @@ keywords:
   - "mixed modes"
   - "model state"
   - "operator loop"
-  - "publication-face anchoring"
+  - "receiving-episteme anchoring"
   - "source anchoring"
   - "trace"
 ---
 
 ### C.2.6:9 - Consequences
-The benefit is cleaner reasoning about embodied, operator-facing, trace-based, and model-latent cues. The trade-off is more explicit declaration work and, for shifts involved in semantic Bridges, more explicit bridge loss notes.
+The mode makes differences in anchoring available to comparison and use. Establishing a mode requires enough information about its anchor; a shift involved in a semantic Bridge also needs the applicable loss account.
 

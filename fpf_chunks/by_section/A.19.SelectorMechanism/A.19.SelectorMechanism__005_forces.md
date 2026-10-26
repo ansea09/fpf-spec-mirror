@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__005_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:3 — Forces"
-line_start: 39710
-line_end: 39731
+line_start: 38914
+line_end: 38935
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -50,7 +50,7 @@ keywords:
 
 6. **Evolvability vs didactic usability.** The kernel must be stable enough to support SoTA wiring and specialisation chains, but also teachable: one place states the mechanism boundary, laws, eligibility behavior, and the neighboring replay basis for realized use.
 
-7. **Planned use and gate/guard separation.** A.15.2 carries the intended baseline; A.15.3 typed filling is conditional on independently declared positions. Selection must not mutate into a gate pattern: no GateDecision or decision logs inside the mechanism boundary.
+7. **Planned use and gate/guard separation.** On a P2W path, A.15.2 carries the intended baseline; A.15.3 typed filling is conditional on independently declared positions. Selection must not mutate into a gate pattern: no GateDecision or decision logs inside the mechanism boundary.
 
 8. **No competing defaults.** If defaults exist for `PortfolioMode`, dominance regime, or archive policy, cite their declared sources rather than re-declaring them in the kernel.
 

@@ -6,12 +6,12 @@ section_id: "A.3.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:9 — Consequences"
-line_start: 12225
-line_end: 12230
+line_start: 12100
+line_end: 12105
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,5 +49,5 @@ keywords:
 
 An explicit state and transition law lets the practitioner calculate a possible trajectory and compare it with observations through a declared relation. A failed comparison can then change a particular state choice, parameter, observation account or applicability condition.
 
-The work costs more than collecting measurements: the model needs interpretable characteristics and a supported law. A bounded prediction may be sufficient; a more consequential use may require additional observation, calibration or validation under :4.6.
+Constructing the model requires interpretable characteristics and a supported law. A bounded prediction may be sufficient; a more consequential use may require additional observation, calibration or validation under :4.6.
 

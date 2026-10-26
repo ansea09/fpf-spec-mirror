@@ -6,12 +6,12 @@ section_id: "A.7.CP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:6 — Bias-Annotation"
-line_start: 26622
-line_end: 26627
+line_start: 26170
+line_end: 26174
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -27,7 +27,6 @@ keywords:
 
 ### A.7.CP:6 - Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: cross-pattern constructive premise support and actual reasoning-basis use.
 
 The main biases are foundation maximalism, premise-kind inflation, and trace-by-citation. The mitigation is one compact publication source, exact claim IDs, two context-local postures, actual work participation, and a non-use rule that keeps ordinary reasoning cheap.
 

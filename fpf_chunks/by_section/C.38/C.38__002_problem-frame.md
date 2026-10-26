@@ -6,12 +6,12 @@ section_id: "C.38:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:1 — Problem frame"
-line_start: 82605
-line_end: 82620
+line_start: 81429
+line_end: 81444
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -37,7 +37,7 @@ keywords:
 
 **Primary reader.** The practitioner preparing decision-ready alternatives for one receiver. The pattern forms candidates; it neither chooses for the receiver nor realizes a retained way.
 
-**First useful result.** A finite same-result comparison containing at least two materially different complete-enough possible-future ways, one shared parity basis, explicit supported/proposed/unknown premises and gaps, and the truthful next handoff. When choice is current, hand the resulting `OptionSet` to `C.11`; its `ChoiceResult` is separate. For a retained way, name the first unsupported realization branch.
+**First useful result.** A finite same-result comparison containing at least two materially different complete-enough possible-future ways, one shared parity basis, explicit supported/proposed/unknown premises and gaps, and the truthful next handoff. When choice is current, hand the resulting `OptionSet` to `C.11`; its `ChoiceResult` is separate. For a retained way, name any first unsupported realization branch; if none remains, use the direct realization Method.
 
 **What changes in practice.** Instead of comparing *buy* against *AI* or *internal* as if the labels were peer kinds, the practitioner asks how each whole way could make the same accepted result available. Duplicate labels merge, materially different ways under one label split, and omitted integration, evidence, support, capability, custody, resource, consequence, and exit burdens become visible before commitment.
 

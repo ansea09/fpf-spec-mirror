@@ -6,12 +6,12 @@ section_id: "A.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:intro — Intro"
-line_start: 28932
-line_end: 28991
+line_start: 28501
+line_end: 28551
 dependencies:
   - "A.10"
   - "A.13"
@@ -71,50 +71,41 @@ keywords:
 
 **At a glance.** Use this pattern when a team must say which System performed which Work, under which assignment, which Method the Work enacted, and which plan applied without confusing any of those values with a description, capability, record, or result. A precise actual-performer branch first reuses A.13's core, then A.15.1 independently admits the dated Work, and only afterward F.6 uses the same obtaining assignment when precise assignment-bound attribution is current; an agency characteristic profile remains conditional on its receiving use.
 
-**Use this when.** Separate a local system-role kind, an assignment occurrence that obtains, its holder system, a `U.Method`, any `U.MethodDescription`, a `U.WorkPlan`, a qualified ability claim about the holder, the capability-fit and evidence claims actually relied on, and dated Work before a schedule, display, document, or familiar label is treated as if it established the whole chain.
+**Use this when.** Use A.15 when a receiving decision needs to connect classification or assignment, Method, capability, planning and performed Work while keeping the particular claims distinct. Recover only the values and relations that decision consumes.
 
 **Start here when.** The team is mixing system classification or assignment with recipe, schedule, capability, or performed Work, often under an ambiguous source word such as *role*, *process*, *workflow*, or *activity*.
 
-**First output.** If the team is planning, name the intended `U.WorkPlan`, intended performer System, local system-role kind, and Method needed by the next decision; do not invent Work or an obtaining assignment. If performance has occurred, first recover the A.13 core and independently admit the dated Work under A.15.1 from its actual history, Method, extent, and containing-System relation. Then, only when precise assignment-bound attribution is current, establish F.6 `performedUnderAssignment` through the same obtaining assignment. Name only the assignment occurrence, declared species, holder System, and Method needed by this decision. Say plainly that the A.13-qualified holder System performed the Work under that same assignment and that the Work enacted the Method only when both relations obtain. Keep the local system-role kind, MethodDescription, WorkPlan, capability, assertions, records, and results separate in either branch.
+**First output.** For planning, identify the intended WorkPlan, performer, local system-role kind and Method only as the next decision requires them. For precise actual performance, recover the A.13 core and independently admit dated Work under A.15.1 from its history, Method, extent and containing-System relation. Add F.6 `performedUnderAssignment` only for precise assignment-bound attribution, using that same obtaining assignment. State that the System performed the Work under the assignment and that the Work enacted the Method only when both relations obtain. Keep descriptions, plans, capability claims, records and results distinct.
 
-**Working enactment-alignment sequence.** For precise actual performance, recover the A.13 core for the holder System and local agential kind -> recover the same obtaining assignment occurrence and its declared species -> separate Method from MethodDescription, WorkPlan from Work, and capability from performance -> independently admit the dated Work through A.15.1 -> apply F.6 only when precise assignment-bound attribution is current -> state only the relations needed by the next use -> proceed, plan, probe, narrow, use the pattern for another claim, or stop.
-
-**Working alignment applications.**
-
-1. For a precise actual-performer claim, recover the exact holder System, the local agential system-role kind and criterion, classification, same obtaining assignment, scope, working situation, window, and adequate A.13 core evidence. Add a characteristic profile only when a Grade, autonomy or profile result, criterion-dependent characteristic, or assurance use consumes it.
-2. Name the declared assignment species and the occurrence that actually obtains. The species defines the holder and assigned-kind positions; the occurrence supplies their actual values. Add another participant only when it changes the assignment.
-3. Name the Method and keep any MethodDescription separate. Name the intended `U.WorkPlan`, the actual dated Work occurrence, or both as the claim requires; never use one as proof of the other.
-4. State `performedUnderAssignment` and `enactsMethod` only when their predicates obtain. The holder system performs the Work; neither the kind, assignment, Method, description, plan, nor capability acts.
-5. If a visible item is being relied on for a Work, approval, evidence, gate, or release claim before the relation required by that claim is known, use `A.15.4`; keep only the alignment part here.
 
 
 **Minimum sufficient use.** Recover only the values and relations needed by the receiving use. Ordinary orientation can stop at one clear sentence. A reliance-bearing claim may also need exact occurrence identity and extent, the selected source and its currentness, a capability-fit claim, and the evidence or assurance claim actually relied on.
 
-**Recovered-reference sufficiency condition.** Proceed when every project-side value on which the claim relies is identified by its admitted kind, exact referent, scope, and current window. Otherwise narrow the claim, run a bounded reversible probe, recover the missing relation, or create only the smallest repair request, decision request, prospective WorkPlan entry, or missing-source note needed for the next use.
+**Recovered-reference sufficiency condition.** Proceed when every value and relation consumed by the claim is recoverable with the meaning, identity and conditions that use needs. Otherwise narrow the claim or recover the missing basis. A bounded reversible probe is one option when its attainable contribution justifies its burden under C.11.DUA. Record a repair or decision request, prospective plan entry or source gap only when the continuation needs it.
 
 **Ordinary use.** “Robot-7 performed InspectionWork-17 under InspectionAssignment-17, and the Work enacted TurbineInspectionMethod” can be enough when the A.13 core, same obtaining assignment, F.6 link, and `enactsMethod` relation remain recoverable and the receiving use needs no additional identifiers. A Grade or autonomy profile is not implied.
 
 **Reliance-bearing use.** Use the fuller frame when assignment identity, assignment state, Method edition, capability fit, plan baseline, approval, evidence, release, or disputed responsibility changes the decision. Responsibility and authority remain separate direct relations; neither follows from a system-role kind or assignment.
 
-**Stop condition.** Stop once the separation changes no next admissible use and blocks no concrete overclaim about classification, assignment, assignment state, Method, plan, Work, result, approval, evidence, or release.
+**Stop condition.** Stop when the needed values and relations are clear enough for the supported next use and further separation would not change that use.
 
 **Admissible-use examples.**
 
 | Admissible project use | Source-finding or reversible probe | Non-admissible use |
 | --- | --- | --- |
-| A maintenance team identifies `PumpInspectorSystemRole`, the direct `MaintenanceInspectionAssignment` species and current occurrence, the inspection Method and its MethodDescription, and the current `U.WorkPlan`. After inspection, it identifies the dated Work occurrence and a separate inspection record. | A briefing says inspection is ready, but the MethodDescription, plan, or assignment occurrence is missing; use the briefing only to locate or repair that source before reliance. | A dashboard tile, copied approval, generated explanation, role label, or briefing is treated as the assignment, Method, WorkPlan, performed Work, or execution evidence. |
+| A maintenance team identifies the local inspection kind, assignment species and occurrence, Method, and any description or WorkPlan needed by its decision. After inspection, it identifies dated Work independently of the inspection record. | A briefing lacks a source or relation required for its attempted use; use it to locate or recover that basis before making the unsupported claim. | The presence or form of a dashboard, copied approval, generated explanation, label or briefing is treated as proof of assignment, Method, WorkPlan or performed Work. Its content may supply evidence when A.10 supports that use. |
 
-**Alignment frame in plain terms.** The system-role kind says what contribution kind is in question. The assignment relates this system to that kind in one actual episode. The Method is the way the Work is done. The WorkPlan says what is intended. The dated Work occurrence is what happened. Descriptions and records state claims about those values; they are not those values.
+**Alignment frame in plain terms.** The system-role kind says what contribution kind is in question. The assignment relates this System to that kind while its predicate obtains. The Method is the way the Work is done. A MethodDescription describes the admitted Method; a WorkPlan states possible future Work. Dated Work is what happened. A log reports it and remains distinct from that occurrence.
 
 **What goes wrong if missed.** A team collapses classification, assignment, recipe, plan, capability, and performed Work into one fuzzy “process” or “role” label, then mistakes documentation for execution, capability for performance, a schedule for an occurrence, or an assignment for responsibility.
 
-**What this buys.** A compact trace that answers who performed the Work, under which assignment, which Method the Work enacted, and which separate plan and evidence applied, while leaving every stronger neighboring claim to its direct pattern.
+**What this buys.** A compact trace answers who performed the Work, under which assignment, which Method it enacted, and which separate plan and evidence applied, while leaving each additional claim to its direct pattern.
 
 **Not this pattern when.** Use `A.15.1` for one dated Work occurrence, `A.15.2` for planning or schedule baselines, `A.15.5` for work-entry readiness, `A.16` or `A.16.1` for a cue that has not become an alignment question, `A.6` or `A.6.B` for boundary or policy wording, `E.10.ROLE` when *role* is still unresolved, and `A.15.4` when a visible item is being relied on by appearance.
 
 **Related pattern contributions.** Use `A.2` and C.3 to identify exact local system-role kinds, `A.2.1` for direct `U.SystemRoleAssignment` species, A.13 for the precise local agency core and any conditionally consumed profile, `F.6` for performed-Work attribution through that same assignment, `A.15.1` for dated Work, `A.15.2` for WorkPlan epistemes, `A.15.3` for declaration-local planned-filling content inside a WorkPlan, `A.15.4` for work-relevant reliance by appearance, `A.15.5` for work-entry readiness, `F.11` to align Method and Work vocabulary across contexts, and `F.17` for the human-facing term sheet.
 
-**Causal-use work boundary.** Counterfactual sampling, randomization, intervention assignment, target-trial emulation, and causal evidence collection can be represented here as Methods, MethodDescriptions, WorkPlans, dated Work occurrences, and their exact assignment and Method relations. A.15 does not make the resulting causal use admissible. Use `C.28` for the causal-use question, rung, estimand, separate evidence/identification/estimate/sampling/simulation components, counterfactual-sampling result, support result, and supported and unsupported uses.
+**Causal-use work boundary.** Causal inquiry can use the Method, plan, performer and Work distinctions when those claims are needed. `C.28` separately governs the causal-use question, rung, estimand, identification, estimate, sampling and simulation contributions, and supported or unsupported uses. Alignment alone does not establish causal admissibility.
 
 **Related-record mistakes.** A cue, publication, plan, record, result, evidence item, or approval can help locate a value without becoming that value. Recover the dated Work under `A.15.1`. State a subject-specific production or result relation only under its direct pattern; for a production-work, entity-inception, or production-completion question, A.15.PROD may instead return one local claim or exact blocker. Use `A.15.4` only when reliance on an encountered appearance is the problem.
 

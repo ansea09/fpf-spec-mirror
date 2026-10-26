@@ -6,12 +6,12 @@ section_id: "C.22.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:2 — Problem"
-line_start: 63200
-line_end: 63203
+line_start: 62177
+line_end: 62180
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -20,8 +20,6 @@ dependencies:
   - "C.24"
   - "E.10"
   - "E.16"
-  - "E.19"
-  - "E.22"
   - "E.23"
   - "G.11"
   - "G.5"
@@ -41,5 +39,5 @@ keywords:
 
 ### C.22.1:2 - Problem
 
-FPF needs one compact way to publish a bounded specialization claim on the same declared task family and work target without retyping the task anchor from `C.22` or silently pushing the adaptation-signature question into selector/parity prose.
+A comparison of specialization acquisition needs a common task family and work target, with enough acquisition history to distinguish equal final scores reached under different conditions.
 

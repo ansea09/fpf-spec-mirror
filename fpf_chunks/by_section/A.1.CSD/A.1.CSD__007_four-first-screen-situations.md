@@ -6,12 +6,12 @@ section_id: "A.1.CSD:5"
 section_title: "Four First-Screen Situations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__007_four-first-screen-situations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:5 — Four First-Screen Situations"
-line_start: 3916
-line_end: 3949
+line_start: 3911
+line_end: 3944
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -51,7 +51,7 @@ The same discovery action changes all four situations. Their domain Methods, qua
 
 In this constructed case, `FeedPulsePlan-FP4` proposes a larger nutrient pulse for `BioreactorOperatingSystem-BR7`. The receiving investigation is `ProbeDecision-PD4`: decide whether and which further observations are worthwhile before changing the feed setting for the next 48 hours. The plan is the account's one exact focus EntityOfConcern; the ClaimGraph examines the possible feed-operation occurrence it specifies rather than treating the plan as a physical cause. The probe decision is the account's neighboring use.
 
-Baseline instrumentation supports one obtaining substrate-transfer occurrence from `FeedLine-F2` into the reactor medium and one obtaining effluent-flow occurrence from `BR7` to `TreatmentTrain-TT2`. Microscopy and persistence observations support the constructive recognition of individual bacterial Systems and `BiofilmPatch-BP3`: matrix-linked constituents, persistent assembly, whole-level nutrient-processing and shear-resistance characteristics, and actual participation in nutrient transformation establish the patch as a distinct System. The exact constituent relations used for the patch are recorded under their part-whole governors. No generic impact edge is added.
+Baseline instrumentation supports one obtaining substrate-transfer occurrence from `FeedLine-F2` into the reactor medium and one obtaining effluent-flow occurrence from `BR7` to `TreatmentTrain-TT2`. Take a complete A.1 recognition basis for the individual bacterial Systems as a case input. For `BiofilmPatch-BP3`, microscopy and persistence observations support matrix-linked constituents and their obtaining part relations, persistent assembly under the same-matrix continuity rule, and whole-level nutrient-processing and shear-resistance characteristics. The case's governed biofilm-integration rule admits the patch as a constituent of `BR7`'s carrier assembly when its matrix attaches to `Carrier-C3`, its extent fits the available carrier surface, and it retains its matrix-connected identity at the declared operating flow. The case supplies those attachment, fit and continuity facts. Together with its physical organization and causal participation in nutrient transformation, these facts supply the A.1 recognition basis for the patch. Keep the constituent relations under their part-whole governors.
 
 The proposed larger pulse has not occurred. The account therefore keeps four paths modal:
 

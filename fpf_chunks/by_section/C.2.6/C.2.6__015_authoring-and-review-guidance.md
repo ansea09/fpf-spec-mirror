@@ -6,23 +6,25 @@ section_id: "C.2.6:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__015_authoring-and-review-guidance.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?"
   - "C.2.6:14 — Authoring and Review Guidance"
-line_start: 54073
-line_end: 54088
+line_start: 53226
+line_end: 53241
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.18"
+  - "A.19"
   - "A.7"
   - "B.4.1"
   - "B.5.2.0"
   - "C.2.2a"
   - "C.2.7"
   - "C.2.LS"
+  - "C.2.P"
   - "F.9"
   - "F.9.1"
 keywords:
@@ -32,7 +34,7 @@ keywords:
   - "mixed modes"
   - "model state"
   - "operator loop"
-  - "publication-face anchoring"
+  - "receiving-episteme anchoring"
   - "source anchoring"
   - "trace"
 ---
@@ -48,7 +50,7 @@ When declaring anchoring mode, ask:
 - if multiple modes matter, which ones and why?
 
 #### C.2.6:14.2 - Review prompt
-An assurance reader should watch for the common mistake where prose formatting tricks authors into forgetting the original anchoring mode.
+Check whether a mode attributed to a prose publication describes its actual anchor or merely its format.
 
 #### C.2.6:14.3 - Bridge note
 If anchoring changes across publication or translation and the receiving use needs a semantic relation between local senses from different contexts, use F.9 for the Bridge, bounded-use claim, and its evidence and loss account. Use F.9.1 only when a separate stance note about that claim helps replace silent equivalence language with a bounded reading.

@@ -6,12 +6,12 @@ section_id: "A.19.ECS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:1 — Problem frame"
-line_start: 35322
-line_end: 35343
+line_start: 34710
+line_end: 34729
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -28,8 +28,6 @@ keywords:
 ---
 
 ### A.19.ECS:1 - Problem frame
-
-Use `A.19.ECS` when an object version is to be improved or judged, but the evaluation that says what "better" means is not yet available, not yet explicit, or not yet adequate for the object.
 
 `A.19` says how a `CharacteristicSpace` is structured: declared characteristics, declared scales, slots, value sets, declared coordinate groups, and no hidden normalization or aggregation. `A.19.ECS` says how to make such a `CharacteristicSpace` for the evaluated object, so that an evaluation can later evaluate that object and `E.23` can run an improvement loop without inventing values.
 

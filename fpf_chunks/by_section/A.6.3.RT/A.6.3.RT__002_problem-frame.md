@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:1 — Problem frame"
-line_start: 18673
-line_end: 18706
+line_start: 18325
+line_end: 18358
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -65,9 +65,9 @@ Plain starting vocabulary:
 | `representation delta` | What changed in shape, notation, salience, topology, ordering, interaction, or another representation factor. |
 | `loss and recoverability` | What becomes harder to see or is omitted, and how the user can recover it when it matters. |
 | `use and return` | What the target supports, what it does not support, and when and where to return to source material. |
-| `representation worker` | The person, team, or system doing the conversion. Recover the exact system-role assignment, method, and dated Work only when production history matters; doing the work grants no authority over the represented claims. |
+| `representation worker` | The person, team or system doing the conversion. A particular dated Work claim follows A.13 and independent A.15.1 admission; use F.6 only when precise assignment-bound attribution matters. Doing the conversion grants no authority over the represented claims. |
 
-**First useful move.** Name the content that must survive and the target representation; make the target; then attach a compact representation note: source material, intended user action, target representation and why, preserved content, representation/reasoning-medium delta, loss or unsupported additions, admissible and non-admissible use, and return trigger.
+**First useful move.** Name the content that must survive and the intended user action, choose the representation, make it, and compare it with the source. State the material preservation, loss and use conditions in a compact note. Add a rejected use or return condition only when it changes what the reader should do.
 
 **What goes wrong if missed.** A cleaner table, diagram, notation, or decoded rendering is treated as harmless formatting after it has hidden uncertainty, changed the concern, imported a new relation, weakened recoverability, or invited a stronger action than the source supports.
 
@@ -75,7 +75,7 @@ Plain starting vocabulary:
 
 **Ordinary use.** For inspection, comparison, source-finding, technical discussion, or reversible planning preparation, the target representation and compact note are normally enough.
 
-**Reliance-facing use.** Open the exact episteme-construction branch when the target must travel independently, be cited or disputed, cross a scheme boundary for consequential use, be considered for admission as receiving episteme `Y` in a generated or decode-mediated case, or meet an exact-identity requirement from a named public, evidence, or assurance receiver. Then recover exact source episteme `X`, receiving episteme `Y`, and viewing construction `v : X -> Y`, together with the source claims and relations on which `v` depends, and the scheme relation, loss/recoverability, evidence, or assurance actually needed for that use.
+**Exact claim identity.** Open the episteme-construction branch when a receiving use depends on exact claim identity or an explicit preservation construction. Independent citation, a consequential scheme crossing, disputed support or a decode-mediated claim can create that need. Recover source episteme `X`, receiving episteme `Y` and viewing construction `v : X -> Y`, together with the source claims and relations on which `v` depends, and the scheme relation, loss/recoverability or assurance needed by that use.
 
 **Later-specific occurrence.** Open `RepresentationSchemeTransitionRelation@Context` only when actual representation-transformation Work and the exact six participants defined in §4.1.b are themselves material. An exact `v : X -> Y` does not imply that occurrence.
 

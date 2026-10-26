@@ -6,12 +6,12 @@ section_id: "G.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:5 — Archetypal Grounding"
-line_start: 129131
-line_end: 129162
+line_start: 127951
+line_end: 127982
 dependencies:
   - "A.10"
   - "A.10.1"

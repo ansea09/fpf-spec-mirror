@@ -6,12 +6,12 @@ section_id: "A.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:intro — Intro"
-line_start: 26683
-line_end: 26688
+line_start: 26229
+line_end: 26234
 dependencies:
   - "A.11"
   - "C.3"

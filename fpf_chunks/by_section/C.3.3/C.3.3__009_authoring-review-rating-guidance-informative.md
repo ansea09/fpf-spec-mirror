@@ -6,12 +6,12 @@ section_id: "C.3.3:8"
 section_title: "Authoring, Review & Rating Guidance (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__009_authoring-review-rating-guidance-informative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:8 — Authoring, Review & Rating Guidance (informative)"
-line_start: 55618
-line_end: 55643
+line_start: 54753
+line_end: 54778
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -34,18 +34,18 @@ keywords:
 * **Fix the definedness area.** Bind to target Standards/versions and any environment selectors essential to classification.
 * **Assign `CL^k` from exemplars.** Calibrate on concrete counter‑examples and preserved properties; resist optimistic ratings.
 
-#### C.3.3:8.2 - Review playbook (10 minutes)
+#### C.3.3:8.2 - Review prompts
 
 1. **Identity checked first?** Same kind reused without a bridge, or two distinct kinds and the obtaining correspondence shown? Add Scope or F.9 relations only when the receiving use consumes them.
 2. **Order claims honest?** Any `⊑` inversions? Collapses disclosed?
 3. **`CL^k` plausible?** Based on preserved properties, not name similarity?
-4. **Loss notes present?** Will they force narrowing of Scope or extra tests?
-5. **Definedness area clear?** Guard will **fail closed** outside it?
-6. **Penalties wired to R?** No hidden tweaks to **F/G**?
+4. **Loss consequences clear?** Do they change the justified inference, require more basis or leave the intended use adequate?
+5. **Definedness area clear?** Outside it, does the guard decline this bridge use while preserving the independent classification result?
+6. **Reliance consequence justified?** Any numerical change to R needs its receiving model; F and G remain unchanged.
 
 #### C.3.3:8.3 - Rating `CL^k` (rules of thumb)
 
 * **High `CL^k`**: signature equivalence or **up‑to‑iso**; `⊑` fragment preserved; only cosmetic losses.
-* **Medium `CL^k`**: some invariants relaxed or lost; selected subkinds collapsed; order preserved on critical path.
-* **Low `CL^k`**: name‑only correspondences; properties diverge; order not preserved. Establish that the KB-01 correspondence predicate holds before bridge use, even for a name-only match. Expect significant **R** penalty and/or adapters.
+* **Medium `CL^k`**: some invariants relaxed or lost; selected subkinds collapsed; the source-order facts required by the use remain preserved.
+* **Low `CL^k`**: name-only correspondences; properties diverge; order not preserved. Establish that the KB-01 correspondence predicate holds before bridge use, even for a name-only match. Determine which inferences remain justified; narrow the use or repair the correspondence if a required distinction is lost. A numerical R penalty requires the receiving model under C.2.2/B.3.
 

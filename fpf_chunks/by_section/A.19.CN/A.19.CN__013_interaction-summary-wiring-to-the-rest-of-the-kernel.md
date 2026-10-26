@@ -6,12 +6,12 @@ section_id: "A.19.CN:12"
 section_title: "Interaction summary (wiring to the rest of the kernel)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__013_interaction-summary-wiring-to-the-rest-of-the-kernel.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:12 — Interaction summary (wiring to the rest of the kernel)"
-line_start: 37205
-line_end: 37211
+line_start: 36475
+line_end: 36481
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -39,6 +39,6 @@ keywords:
 
 * **A.2 / A.2.5 (Roles / RSG).** RSG **checklists** quote **CN‑Spec.acceptance**; enactment gates rely on **admitted** CN‑frame data.
 * **B.1 and A.9.** B.1 supplies any claimed whole/part construction; A.9 supplies an unresolved aggregation-law choice or property check. CN-Spec records the justified `Γ_fold`, including its model and time policy.
-* **B.3 (Assurance).** Bridge CL enters the **R** term; a safety roll-up requires the law or bound justified for its named outcome and dependency model.
-* **Current proof/inference support and the C.16/A.19 characterization stack.** Units, scales, and measurement templates come from C.16, A.17, A.18, and A.19. Claims about folds currently use C.2.1 for claim/episteme identity, A.10 for evidence and provenance, B.3 for assurance, and C.23 when method-family evidence or maturity is at issue. Planned C.6 LOG‑CAL may later consolidate proof-use semantics, but supplies no current governing force.
+* **B.3 (Assurance).** Where the receiving assurance use requires it, Bridge CL enters the **R** term; a safety roll-up requires the law or bound justified for its named outcome and dependency model.
+* **Current proof/inference support and the C.16/A.19 characterization stack.** Units, scales, and measurement templates come from C.16, A.17, A.18, and A.19. Claims about folds currently use C.2.1 for claim/episteme identity, A.10 for evidence and provenance, B.3 for assurance, and C.23 when method-family evidence or maturity is at issue.
 

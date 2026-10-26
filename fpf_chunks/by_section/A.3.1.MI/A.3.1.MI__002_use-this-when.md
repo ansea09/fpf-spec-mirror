@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:0 — Use This When"
-line_start: 11156
-line_end: 11178
+line_start: 11058
+line_end: 11080
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -27,7 +27,7 @@ Use this pattern when a Method or a sufficiently interpretable proposal can be t
 
 For an ordinary first use, explain what the team tried to establish, what it did, what was later observed or could not begin, and what to keep, revise, branch, replace or stop. Separate a change to the target way from a change to how people obtain, learn or use it. The [Harbor application (IS.Application:1.3)](https://github.com/ailev/FPF/blob/main/DPFs/IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md#isapplication13---use-a31mi-to-separate-what-happened-from-what-is-claimed) shows this small account leading directly to a receiving action.
 
-Add the precise subjects, relations and evidence needed by the claims on which that decision relies. Sections 4.1–4.2 keep those conditions available: a capability claim needs its holder and grounds; a change needs its actual authority; a causal explanation needs C.28. A description, plan, completed introduction and successful later use remain different results. Introduction can finish while access, fitness or later performance still fails.
+Add the precise subjects, relations and evidence needed by the claims on which that decision relies. Sections 4.1–4.2 keep those conditions available: a capability claim needs its holder and grounds; a change governed by an authorization rule needs that basis; a causal explanation needs C.28. A description, plan, completed introduction and successful later use remain different results. Introduction can finish while access, fitness or later performance still fails.
 
 Use an adequate current capability without prescribing development. Bring in E.23.CDI or the relevant domain capability-development Method when the attempt requires that change; an absent result returns to that supplier or prevents the dependent attempt. A.3.1.MI does not itself produce or certify capability development. Use C.36.MC when the primary question concerns transmission, recognition, selection, retention, loss or another cultural result across a population.
 

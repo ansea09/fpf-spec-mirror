@@ -6,12 +6,12 @@ section_id: "C.22.2:2"
 section_title: "Thin First Use and Output Kind"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__003_thin-first-use-and-output-kind.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:2 — Thin First Use and Output Kind"
-line_start: 63705
-line_end: 63868
+line_start: 62679
+line_end: 62842
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,15 +67,15 @@ A `ProblemCard` is complete for its current use when it states:
 1. what signal or cue made the practitioner stop;
 2. the one exact joint `EntityOfConcern`, effective `U.ReferenceScheme`, and `U.ClaimScope` for the claims being carried;
 3. which claim family is current: actual-PFR assertion, anticipated-condition claim, method-availability or solvability claim, or another directly governed problem-side claim;
-4. why this is not merely a wish, ticket, slogan, label, or preselected Work request;
-5. what would count as improvement or as an acceptance probe; and
+4. what observation, need or constraint makes the concern worth addressing, independently of a proposed solution;
+5. what would count as improvement or as an acceptance probe when the next use needs one, or what remains missing; and
 6. one honest next use.
 
 The next use may be `P2W-ready`, characterize, compare, search, refresh, retire, archive, `abstainOrNoChange`, or apply the direct pattern governing the named claim, relation, or boundary. If an improvement check or acceptance probe is absent, the card may preserve the signal and choose one of the other uses but cannot claim `P2W-ready`.
 
 `C.22.2 - ProblemCard` is the pattern heading. A `ProblemCard` instance is the C.2.1 episteme described above. `ProblemCardRef` is only a reference value designating one such episteme; it is not another durable kind. Plain-register glosses and local labels do not replace the Tech name.
 
-Local labels include `problem-formulation follow-up reason`, `validation boundary`, `risk condition`, `solvability band`, `P2W-ready`, `reviewable`, `stale`, `refreshed`, `retired`, `archived`, `abstainOrNoChange`, and `firstPrinciplesCue`. They describe claim content or a local disposition; they create no FPF kind, state-machine kind, gate result, relation occurrence, or mathematical-lens object.
+The local `not-wish reason` label means the positive grounds for addressing the concern; a stakeholder need can supply such grounds, while a proposed solution alone cannot. Local labels include `problem-formulation follow-up reason`, `validation boundary`, `risk condition`, `solvability band`, `P2W-ready`, `reviewable`, `stale`, `refreshed`, `retired`, `archived`, `abstainOrNoChange`, and `firstPrinciplesCue`. They describe claim content or a local disposition; they create no FPF kind, state-machine kind, gate result, relation occurrence, or mathematical-lens object.
 
 Use `E.10.MOVE` only when move-like wording no longer denotes one of these local dispositions and instead hides a pattern-use recommendation, Work-entry readiness, performed Work, gate, transformation, source relation, architecture move, call-planning move, or another directly governed value.
 
@@ -96,16 +96,16 @@ The Solution turns observed signal material into one C.2.1 episteme and one gove
 2. Recover the one joint EntityOfConcern, effective ReferenceScheme, ClaimScope, and claim family. If the claims concern unrelated entities, split the ClaimGraph and card.
 3. Separate the signal detector, actual-PFR assertion if independently grounded, anticipated-condition claim, improvement check, candidate acceptance criterion, method-availability claim, monitored risk signal, and proxy-distortion risk. These are not one card status or one PFR participant set.
 4. Pay only for current complexity. Add conditional content only when it changes the current next use; otherwise stop at the lighter card or name the direct pattern for the claim now current.
-5. If the formulation changes EntityOfConcern, effective scheme, ClaimScope, diagram, functional description, or transformation-flow interpretation, name the representation-transition, retargeting, Bridge, structural-reinterpretation, or wording-use relation before inheriting an earlier card disposition.
+5. If a reformulation changes the represented concern, meaning, scope or intended use, establish the actual relation on which reuse of an earlier disposition depends. Use the applicable representation-transition, retargeting or structural-reinterpretation rule; F.9 is needed only when a relied-on semantic correspondence meets its Bridge conditions. Ordinary wording cleanup can preserve the disposition without a new relation.
 6. Close by the honest next use. A filled card without a truthful next use is not a successful result.
 
 **Cheap stop.** The smallest card that gives a truthful next use is sufficient. A conforming use does not require heavier fields merely because the full inventory exists.
 
-**First practitioner use.** State the signal, joint EntityOfConcern, scheme, scope, claim family, not-wish reason, improvement check or acceptance probe, and honest next use. Open the relation-boundary aid only when another claim or relation changes that move.
+Open the relation-boundary aid only when another claim or relation changes the next use.
 
 #### C.22.2:2.3 - Relation Boundary Aid
 
-Use this aid only after the Thin `ProblemCard` is legible: signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, claim family, not-wish reason, improvement check or acceptance probe, and honest next use. It is not a second writing order and not a catalogue of other patterns. It answers one question:
+Once the Thin card is legible, use this aid for an unresolved claim or relation that changes its next use:
 
 > Which claim being made, relation, or boundary changes the problem-card use, and which FPF pattern defines or constrains that claim, relation, or boundary?
 
@@ -165,9 +165,9 @@ Use these readable labels only when current for the case:
 | Conditional claims and references | Add only the exact characterization, comparison, risk, validation, freshness, set-source, representation, forecast, solvability, PFR, or other direct relation content that changes the move. |
 | Subject-pattern cue | Keep only the local cue or reference needed by the card, then name the direct pattern and claim kind that govern the outside use. |
 
-If a conditional value is not current, omit it rather than writing `unknown`. Use `unknown` only where the exact current value rule permits that result. If a required current value is unavailable, state whether the next use is blocked, degraded, sandboxed, or must be reconsidered under a named condition. A stale value gets the exact G.11/currentness assertion; an intentionally omitted value states the record-budget reason without implying it was checked.
+If a conditional value is not current, omit it rather than writing `unknown`. Use `unknown` only where the exact current value rule permits that result. If a required current value is unavailable, state whether the next use is blocked, degraded, sandboxed, or must be reconsidered under a named condition. A stale value needs the applicable G.11 currentness qualification. An irrelevant field can be omitted silently; explain an omission only when the receiving reader could otherwise rely on a missing value or mistake it for a completed check.
 
-When the card compares options, retained candidates, or rival formulations, it states the exact comparison or parity relation or why comparison is not current. Absence is a disposition, not an automatic defect; any positive parity or selected-set result remains outside C.22.2.
+When a comparison of options, retained candidates or rival formulations is part of the claim, state its basis and applicable comparison or parity relation. Merely preserving alternatives does not assert comparability or require a parity result. Any claimed parity or selected-set result remains under its direct governor.
 
 `problemCardWitnessRefs` may be used as a local recoverability group, not as a new kind or evidence graph:
 
@@ -197,7 +197,7 @@ Anti-pattern checks start from the local card use:
 
 Local stop rule: if the encountered material tries to carry a claim outside `C.22.2`, the card keeps only the cue or reference that changes problem formulation or the next use, then names the governing FPF pattern and claim kind named by value to use before that claim is relied on.
 
-A conforming `C.22.2` use is testable against at least one Thin worked slice, such as repeated task rework or another compact problem signal, showing signal, EntityOfConcern, ReferenceScheme, ClaimScope, exact claim family, not-preselected-work reason, improvement check, and honest next use. It is also testable against at least one High-relation worked slice from a set, archive, pool, front, shortlist, selected set, or portfolio source, showing `sourceSetRef`, candidate acceptance criterion, risk condition, and the claim, relation, or boundary without creating a local portfolio or archive kind.
+The worked cases in §20 show both a Thin card and set-derived recognition. Use the applicable case to recover a needed distinction; an ordinary card need not reproduce both examples or acquire their conditional fields.
 
 #### C.22.2:2.7 - Conformance Checklist Requirements
 
@@ -216,7 +216,7 @@ The checklist protects a completed or reviewed card from overread; the writing o
 | Constitution stays exact | Only ClaimGraph, one joint EntityOfConcern, and effective ReferenceScheme constitute the card. ClaimScope, assumptions, windows, viewpoint, receiving use, and any exact A.15.6 Work reference stay in their claims and direct relations; no setting, carrier, or organization is added as a participant. |
 | Currentness and change | Freshness, changed representation, retargeting, or unknown-blocked use states refresh, retirement, bounded use, `abstainOrNoChange`, or the exact relation reopened. |
 | Scalar and proxy guard | Goldilocks, NQD, OEE, set-return, priority, indicator, or stepping-stone wording does not become one readiness score or substitute for value. |
-| First-principles payoff | A mathematical cue states practical payoff, preserved and lost structure when current, follow-up reason, and stop; C.29 governs the lens use. |
+| First-principles payoff | A mathematical cue changes the formulation through a supported consequence. Domain mathematics can be used directly; C.29 governs a live representation or transfer question, with its correspondence and limits. |
 | External wording recovery | Passport, rule-of-choice card, evidence pack, autonomy budget, logs, gates, portfolio, factory, and similar source terms enter only as exact signal, set, characterization, comparison, or follow-up material under their direct governors. |
 | Record-budget invariant | The card is as small as the current next use permits; a template, relation aid, or worked example is not another FPF kind. |
 

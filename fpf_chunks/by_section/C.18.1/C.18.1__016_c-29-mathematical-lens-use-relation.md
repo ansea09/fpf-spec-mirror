@@ -6,24 +6,19 @@ section_id: "C.18.1:13a"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__016_c-29-mathematical-lens-use-relation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:13a — C.29 mathematical-lens use relation"
-line_start: 61426
-line_end: 61429
+line_start: 60401
+line_end: 60404
 dependencies:
-  - "A.10"
-  - "A.15.1"
-  - "A.15.2"
-  - "B.1.6"
   - "C.16"
   - "C.17"
   - "C.18"
   - "C.19"
   - "C.24"
   - "G.10"
-  - "G.11"
   - "G.5"
   - "G.9"
 keywords:

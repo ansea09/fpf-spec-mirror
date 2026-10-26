@@ -6,12 +6,12 @@ section_id: "A.8:4.4"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__013_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:4.4 — SoTA-Echoing"
-line_start: 26811
-line_end: 26814
+line_start: 26369
+line_end: 26372
 dependencies:
   - "A.11"
   - "C.3"
@@ -30,5 +30,5 @@ keywords:
 
 ### A.8:4.4 - SoTA-Echoing
 
-The pattern adapts three current practice lines. Ontology engineering distinguishes upper-level commitments from domain ontology terms; A.8 turns that distinction into a falsification test for FPF U-kinds. Cross-domain modeling practice uses multiple heterogeneous cases to test whether a construct travels; A.8 records those projections with losses rather than treating analogy as proof. Quality-diversity practice helps surface non-trivial diversity, but A.8 keeps telemetry as evidence for projection records, not as an admission gate.
+The design combines the separation of upper-level commitments from domain concepts, comparison across heterogeneous cases, and explicit treatment of diversity. A.8 uses them as an FPF admission test: identify the same contribution, preserve local conditions, and seek a counterexample. The minimum of three domain families is this pattern's admission rule, not a logical proof of universality. C.17/C.19 govern any quality-diversity telemetry used as evidence.
 

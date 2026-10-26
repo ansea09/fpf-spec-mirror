@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:7 — Conformance Checklist"
-line_start: 76182
-line_end: 76198
+line_start: 75113
+line_end: 75129
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,16 +59,16 @@ keywords:
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| `CC-C31.ASAP-1` | A C.31.ASAP use being made names the architecture alternative set, described holon, exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, scale variable or scale window, and claimed preference under scale. | Prevents generic "scales better" and generic-context wording. |
-| `CC-C31.ASAP-2` | `ScaleClaimTriage` names slope evidence, scale-probe evidence, or a no-probe reason. | Prevents preference claims without declared evidence or no-probe reason. |
+| `CC-C31.ASAP-1` | A C.31.ASAP use being made names the architecture alternative set, described holon, exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, scale variable and its window, and claimed preference under scale. | Prevents generic "scales better" and generic-context wording. |
+| `CC-C31.ASAP-2` | The account names slope/probe evidence or a no-probe reason and retains its actual reach. An untested window remains hypothetical without an extrapolation basis; a no-probe reason is not observed evidence. | Keeps the strength of the preference proportionate to its grounds. |
 | `CC-C31.ASAP-3` | Expected stable or improving structure and exception-growth risk are stated. | Keeps the pattern about architecture structure rather than scale vocabulary. |
-| `CC-C31.ASAP-4` | Source-return condition is present when any compressed, coarse, extracted, indexed, or accounting representation drops source-side distinctions. | Prevents unsafe coarse descriptions. |
+| `CC-C31.ASAP-4` | Source-return condition is present when a compressed, coarse, extracted, indexed or accounting representation drops distinctions on which the receiving action depends. | Prevents unsafe coarse descriptions. |
 | `CC-C31.ASAP-5` | Waiver reason is one of deontic constraint, safety or law-domain boundary, scale-probe overturn, assurance infeasibility, or context-specific bounded exception. | Prevents false debt labels. |
 | `CC-C31.ASAP-6` | `ArchitectureHeuristicDebt` remains report-only unless a decision, risk, work, evidence, assurance, or selected-set record is being used under its governing pattern. | Prevents shadow project authority. |
 | `CC-C31.ASAP-7` | Platform, product-line, modularity, reuse, open-interface, RG, and coarse-graining labels do not establish scale preference by themselves. | Blocks source-label overread. |
 | `CC-C31.ASAP-8` | Mathematical-lens claims name C.29 output fields; C.31.ASAP governs only the architecture scale-preference side. | Keeps C.29 and C.31.ASAP distinct. |
 | `CC-C31.ASAP-9` | Comparison, selected-set, local choice, evidence, assurance, gate, work, or release claims name the governing pattern. | Prevents scale preference from becoming selection or assurance. |
-| `CC-C31.ASAP-10` | SoTA rows mutate at least one solution line, checklist item, boundary, relation, or worked slice. | Keeps source use non-decorative. |
+| `CC-C31.ASAP-10` | A source-dependent preference retains the adopted contribution, its assumptions and limits. | Makes the grounds of the particular preference recoverable. |
 | `CC-C31.ASAP-11` | Project-local audit use names both `projectWorkOccurrenceRef` and `architectureScaleAuditProjectUseRelationRef`; a residue register remains retrieval-only unless its own governed direct relation to the exact composite Work is cited. | Prevents an `@Project` suffix, work reference, or borrowed audit relation from fabricating locality. |
 | `CC-C31.ASAP-12` | When an ACS criterion row and an ASAP preference are both current, each is separately referenced and neither substitutes for the other. | Keeps criterion admission and alternative preference distinct. |
 

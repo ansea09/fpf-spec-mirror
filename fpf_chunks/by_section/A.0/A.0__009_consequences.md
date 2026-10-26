@@ -6,7 +6,7 @@ section_id: "A.0:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__009_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:8 — Consequences"
@@ -56,9 +56,9 @@ keywords:
 ### A.0:8 - Consequences
 
 **Benefits.**
-- **Immediate usability** for engineer‑managers (plain one‑liners) with **formal anchors** for auditors.
-- **Declared-set-first / typed portfolio-publication** culture (typed set results & illumination) instead of brittle leaderboards.
-- **Edition‑aware comparability**; parity/refresh is routine, not ad‑hoc.
+- Plain definitions tied to the formal anchors needed for use and checking.
+- Distinct names for retained sets and selector outcomes, with their metric and policy meanings.
+- Explicit edition and policy basis for checking comparability and refreshing affected results.
 
 **Trade‑offs & mitigations.**
 - Slightly longer UTS rows → mitigated by consistent schema and copy‑paste snippets.

@@ -6,12 +6,12 @@ section_id: "C.42:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.42 — Reduce Avoidable Work While Preserving the Needed Result"
   - "C.42:7 — Conformance Checklist"
-line_start: 89551
-line_end: 89564
+line_start: 88369
+line_end: 88382
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

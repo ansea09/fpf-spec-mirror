@@ -6,12 +6,12 @@ section_id: "C.33:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:9 — Consequences"
-line_start: 80959
-line_end: 80973
+line_start: 79792
+line_end: 79806
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -61,7 +61,7 @@ Positive consequences:
 
 Costs and trade-offs:
 
-- C.33 adds one small note before some architecture work. The cost is justified only when a next use might overread a carrier.
+- The assessment takes attention and may need a retained note. Its cost is justified when a structural uncertainty could change the next use; an already adequate account can be reused.
 - The note can be too weak for decision, evidence, assurance, eval, release, or realized-structure claims. In those cases C.33 should stop early and use the pattern that defines or tests the current claim.
 - A team may discover that a familiar diagram or ADR is insufficient for the intended use. That is not a failure of C.33; it is the missing-structure return condition doing its job.
 

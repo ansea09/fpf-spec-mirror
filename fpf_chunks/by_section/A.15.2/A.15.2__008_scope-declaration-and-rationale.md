@@ -6,12 +6,12 @@ section_id: "A.15.2:7"
 section_title: "Scope Declaration and Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__008_scope-declaration-and-rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:7 — Scope Declaration and Rationale"
-line_start: 30148
-line_end: 30153
+line_start: 29707
+line_end: 29712
 dependencies:
   - "A.10"
   - "A.15"

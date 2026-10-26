@@ -6,12 +6,12 @@ section_id: "C.38:6"
 section_title: "Precision restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__007_precision-restoration.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:6 — Precision restoration"
-line_start: 82722
-line_end: 82735
+line_start: 81546
+line_end: 81559
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -41,5 +41,5 @@ keywords:
 | *AI* or *automation* | The Agent or tool's proposed contribution inside each way, plus capability, access, evidence, authority, stop, and recovery where needed. | A performer species is a whole way or receives decision authority. |
 | *arrangement* or *option* | The complete-enough claim bundle for this one comparison and its premise modality. | A new universal kind, selected Structure, architecture, or obtaining world-side relation. |
 
-**Bias check.** Do not privilege the official, fashionable, familiar, widely adopted, or institutionally praised arrangement. Popular practice often describes the previous generation's compromise. Prefer the candidate whose claimed improvement over known weaknesses is explicit and supported for this result and situation. A way that follows a standard or uses a common provider can still be the best current way, but neither officiality nor popularity proves it.
+**Bias check.** Compare the supported benefits, burdens and limits of each way for this result and situation, including any decision-relevant weakness. An adequate incumbent may remain preferable. Familiarity, novelty, popularity or institutional standing alone does not establish suitability.
 

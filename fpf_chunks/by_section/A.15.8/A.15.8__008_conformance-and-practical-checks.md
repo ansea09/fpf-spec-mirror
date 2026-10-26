@@ -6,12 +6,12 @@ section_id: "A.15.8:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__008_conformance-and-practical-checks.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:7 — Conformance and practical checks"
-line_start: 32028
-line_end: 32046
+line_start: 31590
+line_end: 31608
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,8 +47,8 @@ A use conforms to this pattern only when it passes the checks that its claimed r
 3. Actual performers, intended performers, supports, values, and environmental conditions remain distinct. Every attempted relation claim names exact participants and the receiving use, applies a current direct governor when one exists, and preserves its `factually unsupported`, `missing-information`, inapplicable, negative, or other direct result; `missing-governor` is used only when no rule can state or test that claim.
 4. No arrangement becomes a System, performer, Agent, capability holder, Structure, architecture, or evidence merely by inclusion or wording.
 5. Continuation-critical state names its concern, bearer or carrier, update and use relations, currentness or consistency condition, and return condition when each matters.
-6. The probe is the weakest representative condition that can change the receiving decision; its mechanism, thresholds, safety rules, and evidence rules come from an applicable direct domain Method. For any dated probe Work, recover the exact actual performer through A.13 and let A.15.1 independently admit the occurrence; add F.6 only for an expressly consumed precise assignment-bound attribution, whose failure leaves the Work intact.
-7. Actual test or later performance Work is admitted separately under `A.15.1`; a proposed condition remains a plan or probe claim.
+6. The probe uses the least burdensome representative condition that can change the receiving decision; its mechanism, thresholds, safety rules, and evidence rules come from an applicable direct domain Method. For any dated probe Work, recover the exact actual performer through A.13 and let A.15.1 independently admit the occurrence; add F.6 only for an expressly consumed precise assignment-bound attribution, whose failure alone preserves independent Work admission unless the finding also questions an admission premise.
+7. A distinct test or later-performance Work asserted by the account has its own A.13 and A.15.1 basis; ordinary observations may stay within the current Work grain. A proposed condition remains a plan or probe claim.
 8. The result names one unsupported dependency and next repair or stop, or states that the selected probe found none within its declared window.
 9. A relied-on account has one truthful C.2.1 focus and effective ReferenceScheme; incompatible focuses split instead of forming a plural EntityOfConcern.
 10. Recognition and assurance remain separate; high-consequence use opens direct evidence, assurance, authority, and domain-stop rules.

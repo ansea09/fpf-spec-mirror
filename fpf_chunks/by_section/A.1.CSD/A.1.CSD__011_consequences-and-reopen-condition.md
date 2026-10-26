@@ -6,12 +6,12 @@ section_id: "A.1.CSD:9"
 section_title: "Consequences and Reopen Condition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__011_consequences-and-reopen-condition.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:9 — Consequences and Reopen Condition"
-line_start: 3992
-line_end: 3999
+line_start: 3987
+line_end: 3994
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -42,5 +42,5 @@ The pattern makes quiet and remote Systems discoverable without turning discover
 
 The cost is explicit uncertainty and more disciplined relation handling. Some inquiries stop with a missing System-recognition or relation fact; that limit can be useful without commissioning the observation needed for a stronger claim.
 
-Reopen the account when the focus, configuration, scope, horizon, whole/part construction, obtaining-relation support, bearer recognition, observation, specialist result, or receiving use changes. Reopen this pattern itself only if repeated cross-domain use cannot express the shared discovery move without a new genuinely transdisciplinary result.
+Reopen the account when the focus, configuration, scope, horizon, whole/part construction, obtaining-relation support, bearer recognition, observation, specialist result, or receiving use changes.
 

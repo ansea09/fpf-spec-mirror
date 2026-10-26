@@ -6,12 +6,12 @@ section_id: "A.16.0:15"
 section_title: "Practitioner check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__016_practitioner-check.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:15 — Practitioner check"
-line_start: 34060
-line_end: 34070
+line_start: 33591
+line_end: 33601
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -47,7 +47,7 @@ A practitioner should ask:
 
 1. Is the author describing history over the declared language-state `U.CharacteristicSpace`, or only narrating progress informally?
 2. Is the selected episteme edition distinct from the grounds, publication form, occurrence, face, and carrier?
-3. Is this history heavy enough to justify `A.16.0`, or would a local `A.16` move note have sufficed?
+3. Is this history heavy enough to justify `A.16.0`, or would local `A.16` publication content have sufficed?
 4. Are multi-route state and lineage fork being kept distinct?
 5. Are derivation, supersession, fork, merge, or retirement links visible where the reading depends on them?
 6. Does the current claim concern an episteme edition, a seam or endpoint publication form, or—when bounded availability matters—an `EpistemePublicationRelation` occurrence? Are those positions kept separate, and is the endpoint test named?

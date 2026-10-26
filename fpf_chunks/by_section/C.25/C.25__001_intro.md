@@ -6,12 +6,12 @@ section_id: "C.25:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:intro — Intro"
-line_start: 64947
-line_end: 64967
+line_start: 63905
+line_end: 63925
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,11 +59,11 @@ keywords:
 **Coordinates with.**
 `C.17-C.19` for quality-related measurement families, `C.16.P` when characteristic/scale/score wording is not yet recoverable, `A.15` for method, work-plan, or work-occurrence gating, and `C.16.Q` for quality/evaluative-characterization wording before the endpoint is one explicit characteristic, Q-Bundle-shaped claim content, objective, or another governing pattern.
 
-**Use this pattern when.** Use C.25 when a familiar quality family such as availability, resilience, security, or maintainability may be hiding several differently typed contributors and the reader needs one claim that keeps them distinct.
+**Use this pattern when.** Use C.25 when an engineering-quality family such as availability, resilience, security or maintainability may be hiding several differently typed contributors and the reader needs one claim that keeps them distinct.
 
 **First useful move.** Ask: *what would make this quality claim false?* If one measure on one declared Scale answers the question, state that one Characteristic and stop. Use Q-Bundle-shaped claim content only when several differently typed contributors—such as a measure and scope, or measures plus a load-bearing window or mechanism—jointly determine the answer.
 
-**First result.** Write one readable quality claim about one exact bearer and include only the contributors on which its truth or the next receiving action depends. An optional slot is omitted unless changing that slot could change the current claim or receiving action.
+**First result.** Write one readable quality claim about one exact bearer and include only the contributors on which its truth or the next receiving action depends. Ordinary prose can express that structure; no separate template is required. Omit an optional slot unless changing it could change the current claim or receiving action.
 
 **Nearest non-use.** Stay with the direct Characteristic pattern when one measure and Scale carry the claim. Use the direct scope, measurement, evidence, assurance, gate, publication, viability-envelope, or temporal pattern when that neighboring question—not quality-family decomposition—is the current work.
 

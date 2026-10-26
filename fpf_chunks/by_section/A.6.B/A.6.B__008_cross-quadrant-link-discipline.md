@@ -6,12 +6,12 @@ section_id: "A.6.B:6"
 section_title: "Cross‑quadrant link discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__008_cross-quadrant-link-discipline.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:6 — Cross‑quadrant link discipline"
-line_start: 15002
-line_end: 15092
+line_start: 14705
+line_end: 14795
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -52,9 +52,8 @@ keywords:
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
-  - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
-  - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
@@ -66,9 +65,7 @@ keywords:
   - "evaluation"
   - "individual institution"
   - "laws"
-  - "may"
   - "not a duty.)"
-  - "not normative"
   - "observable effects and evidence"
   - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
   - "or (iii) assign responsibility or enforcement (that is D-*)"
@@ -85,13 +82,13 @@ keywords:
 
 ### A.6.B:6 — Cross‑quadrant link discipline
 
-The square is not just classification; it is a **dependency discipline**. Claims often depend on each other; such dependencies **MUST** be explicit (by claim ID or canonical location) rather than duplicated prose.
+The square also makes dependencies between claims inspectable. A material dependency **MUST** be explicit by claim ID or canonical location.
 
 #### A.6.B:6.1 — Explicit reference rule
 
-If a claim’s meaning materially depends on another L/A/D/E-classified claim, that dependency **MUST** be represented as an explicit reference to the other claim’s ID (or to the canonical location where it lives), rather than by restating it.
+If a claim’s meaning materially depends on another L/A/D/E-classified claim, that dependency **MUST** be represented as an explicit reference to its ID or canonical location. A faithful restatement may explain the referenced content; it does not define an alternative rule.
 
-**Guideline (informative).** Treat this as “import hygiene” for prose: reuse by reference, not by copy.
+A reader can then follow the explanation back to its governing claim and reconsider dependent uses when that claim changes.
 
 #### A.6.B:6.2 — Canonical cross‑quadrant dependency patterns
 
@@ -122,7 +119,7 @@ When governance prescribes evidence production, retention, exposure, or a
 measured property and a separate `E-*` claim states the related result:
 
 * generic `D-*`: “`Policy-P` requires covered subjects to retain or expose carrier class `C` used by `E-*` …”; or
-* individual `D-*`: “Actual bearer `S` has commitment `CMT` to meet `E-*` under exclusions …”
+* individual `D-*`: “Actual bearer `S` has commitment `CMT` to meet the criterion evaluated by `E-*` under the stated exclusions …”
 
 This separates a **generic prescription or individual duty** (D) from its **adjudication** (E).
 

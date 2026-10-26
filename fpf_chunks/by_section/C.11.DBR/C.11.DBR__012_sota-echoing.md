@@ -6,12 +6,12 @@ section_id: "C.11.DBR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:11 — SoTA-Echoing"
-line_start: 57691
-line_end: 57700
+line_start: 56789
+line_end: 56798
 dependencies:
   - "A.10"
   - "A.10.1"

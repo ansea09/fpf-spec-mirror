@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:1 — Problem frame"
-line_start: 75926
-line_end: 75957
+line_start: 74855
+line_end: 74886
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,7 +59,7 @@ keywords:
 
 Use this pattern when a practitioner compares architecture alternatives under a declared scale variable or scale window and needs to avoid treating a modularity label, platform label, product-line label, reusable-structure share, or coarse-graining metaphor as an automatic scale-preference claim.
 
-The first useful move is `ScaleClaimTriage`:
+First identify the alternatives, the scale variable and its window, and the grounds and limits of the proposed preference. An adequate ordinary account can finish; `ScaleClaimTriage` can retain it:
 
 ```text
 ScaleClaimTriage:
@@ -74,12 +74,12 @@ ScaleClaimTriage:
   slopeEvidenceRef, scaleProbeEvidenceRef, or noProbeReason:
   expectedStableOrImprovingStructure:
   exceptionGrowthRisk:
-  sourceReturnCondition:
+  sourceReturnCondition?:
   relatedClaimGovernanceIfClaimed:
   stopCondition:
 ```
 
-Ordinary use starts by naming the alternatives and described holon, the exact `U.ClaimScope` and relevant A.2.6 `U.ContextSlice` membership, the scale variable and scale window, the claimed preference under scale, the available slope or scale-probe evidence or no-probe reason, the expected stable or improving structure, and the exception-growth risk. Name `modelUseStructureRef` only when one independently selected `BoundedModelUseStructure` changes this receiving interpretation; it never replaces the claim scope. Use `ArchitectureScaleAuditRecord@Project` only when the scale preference is being used to affect a comparison, selected set, publication, assurance input, or architecture decision.
+Ordinary use starts by naming the alternatives and described holon, the exact `U.ClaimScope` and relevant A.2.6 `U.ContextSlice` membership, the scale variable and scale window, the claimed preference under scale, the available slope or scale-probe evidence or no-probe reason, the expected stable or improving structure, and the exception-growth risk. Name `modelUseStructureRef` only when one independently selected `BoundedModelUseStructure` changes this receiving interpretation; it never replaces the claim scope. Use `ArchitectureScaleAuditRecord@Project` when those distinctions help retain or examine the preference for its receiving use. Sharing an already adequate account needs no new form.
 
 What goes wrong if C.31.ASAP is missed: "modular", "platform", "product line", "reusable", "general", "open", "coarse-grained", or "RG-like" becomes a shortcut for a scale-preference claim; a locally hand-engineered solution is called debt even when safety, law-domain, or mission constraints justify it; exception growth is hidden until the architecture is already expensive to change; and coarse descriptions keep losing lower-scope safety or semantic distinctions without a source-return condition.
 

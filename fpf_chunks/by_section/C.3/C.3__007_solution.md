@@ -6,23 +6,24 @@ section_id: "C.3:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__007_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:5 — Solution"
-line_start: 54979
-line_end: 54992
+line_start: 54120
+line_end: 54133
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
+  - "A.22"
   - "A.22.CGUS"
   - "A.6.0"
   - "A.7.1"
   - "A.8"
+  - "B.3.5"
   - "C.2.1"
   - "C.29"
-  - "C.3"
   - "C.3.1"
   - "C.3.2"
   - "C.3.3"

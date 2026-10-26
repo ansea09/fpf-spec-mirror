@@ -6,12 +6,12 @@ section_id: "A.2.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:intro — Intro"
-line_start: 5099
-line_end: 5128
+line_start: 5094
+line_end: 5123
 dependencies:
   - "A.1"
   - "A.15"
@@ -40,7 +40,7 @@ Capability is a System's ability to perform a work family or produce a result cl
 
 **Primary EntityOfConcern.** The holder System whose ability is being asserted. A capability statement that needs an identified account is an episteme under C.2.1; its subject is the holder, and its claims state what that holder can do. Actual ability, the assertion, its support, current qualification and fit to a receiving demand remain distinguishable.
 
-**Primary working reader.** A manager, architect, engineer, safety assessor, scheduler or model author deciding whether a holder can meet a Work, Method-step, service-promise or architecture need.
+**Working reader.** A practitioner deciding whether a holder can meet a Work, Method-step, service-promise or architecture need.
 
 **First useful move.** Name the holder, work or result, conditions and attained bounds. Then compare the receiving demand with that qualified claim, using the support and currentness required for this use. An adequate existing claim and fit result may be reused without another record. When a whole-result claim hides a consequential difference in how the holder uses a Method, use :2.1 to expose that difference.
 

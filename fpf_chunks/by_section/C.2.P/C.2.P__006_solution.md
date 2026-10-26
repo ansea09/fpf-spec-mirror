@@ -6,12 +6,12 @@ section_id: "C.2.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:4 — Solution"
-line_start: 51991
-line_end: 52235
+line_start: 51156
+line_end: 51399
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ A successful rewrite satisfies these field-validity constraints:
 1. the head kind and sentence function are recoverable under `E.10`;
 2. a stable reusable name has an `F.18` naming result;
 3. a relation, comparison, dependency, support, sameness, grounding, mapping, or endpoint claim has `A.6.P` relation precision, with use-boundary and project-side reliance questions split into their own fields;
-4. a claim-bearing episteme, episteme species named by value, episteme-lane view, or project-side FPF kind and reference named by value has the needed `C.2.1` typing or named FPF claim or declared-use boundary named by value;
+4. a claim-bearing episteme has a recoverable `C.2.1` identity; dependent-kind membership, such as `U.View`, uses its defining pattern. A project-side object or relation keeps its own kind, applicable reference, and declared use;
 5. publication, view, face, and carrier distinctions satisfy the applicable `E.17.0` view-conformance, `E.17`/MVPK publication-face, and `E.24.PUB` publication-occurrence, form, and carrier rules;
 6. the repaired text satisfies `E.2` Pillars, especially `P-2 Didactic Primacy`, by preserving or restoring one remaining reader use: a usable action, a recognition reason that tells the working reader why the distinction matters, or a named FPF pattern application that carries the claim being made; when both Tech and Plain registers are current, the Plain or didactic line maps back to the recovered Tech kind, relation, or FPF pattern application under `E.10:6.2`; ordinary Plain wording and intentional didactic metaphor stay light when they carry no FPF-governed use, but ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim in a more expressive Plain line must be recoverable through the repaired Tech fields; FPF-governed Problem frames, Problem sections, recognition texts, examples, and worked slices must still show the broad working situation and first useful move, or the rewrite is incomplete;
 7. the final phrase preserves the distinction without adding another claim;
@@ -71,7 +71,7 @@ A successful rewrite satisfies these field-validity constraints:
 
 #### C.2.P:4.0a - Progressive recovery products
 
-An ordinary application ends with the repaired sentence and one plain reason or non-use boundary. It creates no record.
+An ordinary application ends with the repaired sentence. Add a reason or non-use boundary only when it changes interpretation or action; no record is required.
 
 Use a compact row only when another reader must later inspect the recovery:
 
@@ -86,7 +86,7 @@ Compact epistemic precision-restoration row:
 
 Add a source identity, publication occurrence, carrier relation, declared-use boundary, project-side reference, naming decision, evidence relation, or assurance reference only when that exact claim is live. Optional fields do not become a common schema.
 
-Use a full check only when several unresolved fields interact, the source-to-FPF use is contested, or a reusable ontological or naming decision is being made. A full check records the original sentence, the competing interpretations, the selected kinds and relations, the exact neighboring-pattern contributions, rejected overreads, selected wording, remaining reader use, and reopen condition. It does not repeat empty trigger flags or every possible downstream field.
+Use a full check only when several unresolved fields interact, the source-to-FPF use is contested, or a reusable ontological or naming decision is being made. Record the original sentence, its function, the selected kinds and relations, the exact neighboring-pattern contributions, selected wording, remaining reader use, and reopen condition. Record competing interpretations or rejected overreads only when they are independently grounded, plausible for the intended reader, and consequential under F.19. Omit unused fields.
 
 When the wording exposes a field defined elsewhere, name the `contributingPattern` and the concrete definition, constraint, or test it supplies.
 
@@ -106,12 +106,12 @@ Fail closed when the kind, relation, use, or remaining reader action cannot be r
 In conventional abbreviations, source titles, mathematical notations, standards, URLs, file paths, and ordinary notations, a slash can be part of an accepted designation rather than a hidden FPF kind. In FPF-facing episteme and publication ontology, a slash is still a recovery trigger before it is a synonym marker unless the mark is part of such accepted notation, carrier syntax, or conventional designation.
 
 Before leaving a slash expression in current prose, classify the expression as one of these cases:
-- accepted notation or conventional designation: a standard name, source name, discipline abbreviation, established compound name, formula, ratio, fraction, unit, path-like quoted source token, title, product name, file path, URL, or quoted source wording where the slash is part of the accepted designation or carrier syntax; keep `ISO/IEC`, `ISO/IEC/IEEE`, `1/2`, URLs, conventional abbreviations, and similar forms when the sentence uses them as notation;
+- accepted notation or conventional designation: keep established names, mathematical and unit notation, file paths, URLs, and quoted source tokens whose slash belongs to the designation or carrier syntax. Examples include `ISO/IEC`, `ISO/IEC/IEEE`, and `1/2`;
 - a plain-language synonym pair with no ontology, authority, evidence, or use-boundary claim;
 - a lazy `and/or`-style join that must be split or recovered before FPF-governed use;
-- a composite-kind candidate that needs `F.18` and `A.6.P` recovery;
-- a relation claim that needs a `RelationKind`, a `QualifiedRelationRecord`, or a multi-term relation phrase with typed endpoints, slots, qualifiers, scope, time, and viewpoint;
-- a tuple-like record that needs a named record kind and named slot semantics;
+- a proposed composite kind: establish its meaning under the kind’s subject pattern; use `F.18` only for a durable reusable name and `A.6.P` for an unresolved relation;
+- a relation claim: recover the direct predicate, its actual participants, and its defining pattern through `A.6.P`; add declaration, occurrence-identity, qualification, or representation detail only when the receiving use needs it;
+- a tuple-like record: state the record’s purpose and component meanings; use `A.6.5` SlotSpecs only for a reusable typed declaration that needs them;
 - a failed ontology signal where the sentence lists unlike values because the FPF kind under repair, relation record, relation phrase, tuple-like record, alternative-case disposition, or not-triggered disposition has not yet been recovered.
 
 If the expression is not one of the safe notation, conventional-designation, carrier-syntax, quoted-source, or plain-language cases, do not keep the slash as final wording. Do not repair it by replacing the slash with one equally vague grouped word.
@@ -125,10 +125,10 @@ Sometimes the problem is not a bad word but one of two different cases:
 
 Do not merge those cases.
 An unclear claim is not current architecture truth merely because deleting it feels risky, and it must not be rewritten by guessing a likely author intention.
-An understandable uncovered claim may be retained as a candidate `FPF` extension only when the problem situation, tempting overread, rejected current uses, current `FPF` gap, and the first user action that would improve are stated by value.
+An understandable uncovered claim may be retained as a candidate `FPF` extension when the problem situation, current FPF gap, and first user action that would improve are stated. State a tempting overread or rejected use only when it has the independent ground and practical consequence required by F.19.
 
 Classify the case explicitly:
-- **recovered by value:** the text now names the current `U.Episteme`, selected `EntityOfConcern`, `U.View`, publication form, generic publication face, MVPK face under E.17 constraints, `PublicationUnit`, carrier relation, relation record, relation phrase, tuple-like record, FPF pattern, document named for source, evidence, architecture, or review use, reviewed publication, review packet, review record, or review state, project-side FPF kind and reference named by value when `projectSideFPFRef` is current. The selected value is one current value, not the list: `C.11` `ChoiceResult`; `C.11` decision record; `A.6.A` action invitation; `A.15` `U.WorkPlan`; `A.15.1` dated `U.Work` occurrence; `U.Method`; `U.MethodDescription`; `A.20` constraint or adjudication decision record; `A.21` `GateDecision`; `A.21` `DecisionLogRef`; `A.10` evidence path; typed evidence record; `B.3` `AssuranceResult`; an engineering-justification result under its direct pattern; typed status record whose FPF status pattern is named; carrier relation; front-end relation; or not-triggered alternative;
+- **recovered by value:** the sentence names the actual object or relation, its defining or constraining pattern, and the declared use. When it uses `projectSideFPFRef`, recover the exact project-side kind and reference described in :4.2.1. Stop at the selected value and the relation needed for that use;
 - **understandable FPF extension candidate:** the thought is clear enough to state as a candidate new or amended FPF kind, pattern, relation record, method guidance, accepted `DRR` content decision, or campaign-scoped content question, but it does not carry current authority, evidence, or use-boundary claim until an accepted architecture decision, accepted `DRR`, or accepted FPF pattern supplies that authority;
 - **source wording without FPF-governed use:** the phrase has no current authority, evidence, or use-boundary claim;
 - **reduced-use cue:** the phrase is kept only as a recognition cue or anti-case, not as a claim-bearing architecture decision;
@@ -137,7 +137,6 @@ Classify the case explicitly:
 
 These dispositions are recovery results, not a meta-governance authority over all of `FPF`.
 When recovery names another FPF kind, use the pattern that defines or constrains that kind, its declared use boundary, and its conformance checks.
-`C.2.P` may identify that `A.10`, `A.15`, `A.15.4`, `A.20`, `A.21`, `B.3`, `C.11`, `F.9`, `E.17.EFP`, `E.17.ID.CR`, or another FPF pattern applies.
 After that identification, `C.2.P` no longer defines or constrains the recovered kind.
 `C.2.P` only makes the kind under repair, relation, and use boundary explicit enough to apply the appropriate pattern.
 
@@ -191,20 +190,20 @@ The same local-aid rule applies to neighboring field names such as `sourceRelati
 | Term | Current interpretation | Must not mean |
 | --- | --- | --- |
 | `FPF` as episteme | The whole `FPF` is a claim-bearing episteme with publications, parts, patterns, pattern sections, `DRR`s, and companion publications and documents named for source, evidence, architecture, or review use. | A file, repository, taxonomy, pattern-language metaphor, or packet-local summary by default. |
-| FPF pattern | A named FPF pattern: a reusable episteme species that gives action guidance for a problem situation. It is applied in a current problem situation. | Any recurring arrangement, procedure, method call, route, cluster label, checklist, or document named only as a citation or source-finding pointer. |
+| FPF pattern | A named pattern episteme that gives reusable action guidance for a problem situation. A practitioner applies its content in that situation. | A recurring arrangement, performed procedure, method call, cluster label, or document treated as a pattern merely from its name or appearance. |
 | pattern section | Either a part of the pattern episteme or a bounded `PublicationUnit` of that pattern publication, depending on sentence function. State which one matters when the distinction carries a claim. | Independent pattern, file location, generic locus, or record with named authority-reference relation. |
 | accepted campaign `DRR` | A campaign decision source that states accepted content decisions for one campaign. | A pattern, current-authority summary, open-ended plan, review log, or replacement for pattern text. |
-| `relationClaimSlice` | Empty, or a local note that `A.6.P` relation precision is current for one sentence. It must name the relation problem being handled: relation, comparison, dependency, support, sameness, grounding, mapping, endpoint claim, or cross-context bridge claim. The recovery then names `RelationKind`, `QualifiedRelationRecord`, relation phrase, candidate-set note, or bridge card when current, with typed endpoints, slots, qualifiers, and scope. | Dictionary replacement, one new umbrella kind, a bare `RelationKind` standing in for a relation record, a generic relation slot, support relation by default, or a list left as the final answer. |
-| `declaredUseBoundary` | The declared use boundary and blocked use outside that boundary when the sentence says what declared use boundary applies to a use, act, claim, or reliance. Use A.6.B when the boundary claim needs L-, A-, D-, and E-claim separation. | Generic supported use, permission-by-appearance, or visual cue or readability cue treated as use-boundary. |
+| `relationClaimSlice` | An optional local note for a sentence whose direct predicate or participants still need `A.6.P` recovery. Name that problem, then recover the predicate, actual participants, and defining pattern. Add declaration, occurrence identity, qualifications, or representation detail only when the receiving use needs it. | A generic record-shaped relation, an invented umbrella kind, or a token or list used instead of the actual predicate and participants. |
+| `declaredUseBoundary` | The use for which the statement or result is offered, with any excluded or unsupported use whose distinction changes interpretation or action. State a blocked use only when its governing rule blocks it. Use A.6.B when the boundary claim needs L-, A-, D-, and E-claim separation. | Permission inferred from the declaration, a display, or readability alone. |
 | `projectSideFPFRef` | The project-side FPF kind and reference named by value when a publication, display, cue, or explanation is treated as a project-side source for work, evidence, gate, constraint, adjudication, decision, commitment, method, action invitation, assurance, or engineering justification. The field points to that kind and reference; use the relevant FPF pattern for the relation and its checks. | One slot accepting records, actions, methods, carriers, evidence, gates, decisions, assurance, and engineering justification interchangeably. |
-| `rejectedOverread` | A local field naming the tempting interpretation, evidence, gate, work, permission, approval, commitment, release, safety-proof, engineering-justification, or pattern-entry interpretation that must not be granted by resemblance alone. It is valid only with the recovered relation or subject-specific source, scheme, scope, practice, or use that blocks it. It is not `U.Kind`, not a record kind, not a review-finding kind, and not a moralized defect class. | A general risk slogan, review finding, moralized "bad use", vague misuse label, or reusable FPF kind. |
+| `rejectedOverread` | An optional local note naming an independently grounded reading that a plausible intended reader could take and that changes truth, selection, reliance, or action. State the recovered relation or subject-specific source, scheme, scope, practice, or use that rules it out; apply F.19’s contribution test. | A mandatory invented foil, risk slogan, review-finding kind, moralized defect class, or reusable FPF kind. |
 | `useBoundaryTargetKind`, `useBoundaryTargetRef` | Source-local helper fields. Prefer `declaredUseBoundary`; if these fields appear in material being repaired, they name the kind and reference inside `declaredUseBoundary`, not an `A.6.P` relation slot. | A generic `supported use`, document capability, "claim outside the declared boundary", review permission, or untyped pattern assignment. |
 
 ##### C.2.P:4.2.1 - Episteme, Publication, and Carrier Distinctions
 
 | Term | Current interpretation | Must not mean |
 | --- | --- | --- |
-| `U.Episteme` | Claim-bearing episteme or episteme species. Use when the value is a claim-bearing episteme that can be described, viewed, grounded, revised, published, or relied on under FPF. | File, paragraph, screen, carrier, status note, process state, or generic "content". |
+| `U.Episteme` | A claim-bearing holon identified under C.2.1. A dependent episteme kind has its own membership condition for that same individual. Use this head when the selected object is the knowledge that can be described, viewed, grounded, revised, published, or relied on. | A file, display, or process state treated as knowledge merely from appearance. For a paragraph or status note, identify the claim-bearing whole it carries. |
 | C.2.1 episteme constitution and neighboring relations | An exact episteme is identified through claim content, one exact EntityOfConcern, and one effective ReferenceScheme under `EpistemeConstitutionRelation`. Empirical grounding is a separate `EpistemeEmpiricalGroundingRelation`; describing-use viewpoint selection, E.17.0 conformance and same-individual `U.View` membership, C.29 representation, and publication or carrier relations are also separate. SlotKinds occur only inside the exact reusable `RelationSignature` that declares their participant meanings. | One universal episteme-slot tuple, card, field family, or context container. |
 | `EntityOfConcern`, `EntityOfConcernRef` | The EntityOfConcern participant under `C.2.1` and its applicable reference for a claim-bearing episteme or episteme-lane `U.View`. The participant may be an entity, relation, FPF pattern, FPF publication, project episteme, project publication, a project-side entity identified by its FPF kind and reference, work or action when that work or action is itself the entity of concern, or another explicitly typed EntityOfConcern referent. Use this when the text is really about what the episteme is about. In publication-unit work, `EntityOfConcernRef` is used only through a claim-bearing episteme or episteme-lane `U.View`; it does not float as a free field on the unit. | Generic topic, local table subject, file title, reviewed publication, review packet, or review record, required project-side work, decision, action invitation, authoring work, or anything someone happens to talk about by default; the episteme's constitution must identify the exact entity as its EntityOfConcern before this reference is used. |
 | wording such as `describedEntity`, `DescribedEntityRef`, `primary described entity` | Use the exact EntityOfConcern participant and its applicable reference under C.2.1 when a claim-bearing episteme is current. Use `publicationUnitPrimaryEntityOfConcern` when one bounded `PublicationUnit` carries or exposes a claim-bearing episteme or same-individual `U.View` and the primary entity of concern must be named. | A second C.2.1 slot family, a free publication-unit field, a generic topic, a second current name, or a new ontology beside `EntityOfConcern`. |
@@ -212,14 +211,14 @@ The same local-aid rule applies to neighboring field names such as `sourceRelati
 | `GroundingHolon`, empirical-grounding relation | The exact grounding holon and obtaining C.2.1 `EpistemeEmpiricalGroundingRelation` that maps named empirical claims of one exact episteme to the required direct observation, intervention, measurement, or test relations. | A constituent of episteme identity, a convenient source citation, an untyped entity mention, or the declaration-local `GroundingHolonSlot` used as the world-side value. |
 | `U.View`, `U.EpistemeView` | Same-individual dependent membership of one already identified episteme when an exact E.17.0 `EpistemeViewpointConformanceRelation` to at least one exact viewpoint episteme obtains. A.6.3 source-to-receiving construction, describing-use viewpoint selection, publication, form, and carrier remain separate. For an episteme published through an MVPK face, this membership requires the same E.17.0 conformance; the publication form remains separate under E.17. | A UI view, reader viewpoint, screen, generic publication face, projection by default, or new claim-bearing episteme by membership alone. |
 | `Viewpoint` | One exact `U.Viewpoint` episteme used as the viewpoint participant of an E.17.0 conformance relation or selected for one named describing use. Selection does not prove conformance or `U.View` membership. If source wording says “system in role,” use E.10.ROLE and recover the exact concern, object, local system-role kind, classification judgment, participant relation, or assigned System by value. | A reader opinion, episteme-identity slot, pattern-application order, publication label, carrier label, or assignment manufactured by the viewpoint phrase. |
-| publication | A publishable episteme, view, record relation, act or occurrence of publishing, or publication form, depending on sentence function. Always split by kind before use. | Generic document, any public-looking file, or proof that a claim is authorized. |
+| publication | Depending on sentence function, recover the selected episteme, publication occurrence, publication form, publishing Work, or carrier under the direct pattern. | A public-looking file treated as proof that the claim is authorized. |
 | `U.EpistemePublication` (rejected spelling) | No durable kind. Recover the claim as the selected `U.Episteme`, an `EpistemePublicationRelation` occurrence or reference when availability matters, publication form, or `U.PresentationCarrier`, according to sentence function. The spelling may remain only in this rejection explanation or a negative test. | A positive object, kind, reference, field, publication identity, or carrier identity. |
-| publication form | The typed form in which an episteme, view, or record is published. | The claim-bearing episteme itself, the face rendered for a reader, or the carrier holding bytes. |
+| publication form | An arrangement, notation, or rendering convention selected to express an episteme edition for a bounded use under E.24.PUB. An E.17 MVPK face is one such form. | The selected claim-bearing episteme, actual publishing Work, or the carrier that bears the form. |
 | generic publication face | Reader-facing publication projection or face. Keep it distinct from the selected episteme; `U.View` membership of that episteme requires exact `E.17.0` conformance. | `U.View` by default, carrier, UI face, front-end display, MVPK face under E.17 constraints, or claim-bearing episteme. |
 | MVPK face under E.17 constraints | An `E.17` publication form published under MVPK constraints from a source episteme or episteme-lane view, with publication viewpoint, scope, pins, and face kind. Its selected source or receiving episteme may be a `U.EpistemeView` when the exact `E.17.0` conformance relation obtains. | Generic publication face, carrier, UI face, front-end display, or proof of evidence, work, gate, or authority by presentation. |
 | carrier, front-end, rendering | Publication-side or access-side bearer or display relation. Use `U.PresentationCarrier` under E.17 and E.24.PUB when that exact carrier is current; otherwise name the file carrier, transport carrier, rendering, front-end relation, access-carrier relation, or another carrier relation by sentence function. | Episteme identity, publication form, `U.View`, proof of evidence, or authority-reference relation. |
 | `PublicationUnit` | `E.17.AUD`-cluster head for one bounded unit inside a publication that a person inspects as one unit: a pattern body, section, table, note, card, sheet, screen block, or another bounded publication unit whose boundary is named. A card, sheet, or screen block counts only when its boundary is inside a named publication or generic publication face and the sentence needs that bounded unit as the inspected publication unit. It is part of or bounded by the publication face that renders or locates it, whether that face is generic or published under E.17 and MVPK constraints. It may carry or expose a claim-bearing episteme, view, record, cue, or local rendered content when that carried value and relation are named, but it is not identical with the carried value. | Authoring process, review work, file, carrier, front-end, UI behavior, dashboard behavior or export behavior, whole publication architecture, `U.Episteme`, `U.View`, publication form, generic publication face, MVPK face under E.17 constraints, or "anything written". |
-| project-side FPF kind and reference named by value | Evidence record, gate record, Work record, status record, commitment record, system-role-assignment record, decision record, selected source `U.Episteme`, `EpistemePublicationRelation` occurrence reference when availability matters, status-register entry, or another project record whose FPF kind is named. | Semantic content in general, current process state, or a free-form note. |
+| project-side FPF kind and reference named by value | The independently identified project object or relation, named by its FPF kind and an applicable reference: for example, a `U.Work`, `U.WorkPlan`, `GateDecision`, A.10 evidence path, source `U.Episteme`, or the typed record actually referenced. Use an `EpistemePublicationRelation` occurrence reference only when availability matters. | An untyped label, carrier, or note used in place of the exact object and its reference. |
 | source document | A document named for source-use, evidence use, architecture use, or review use. Name that document use directly. | A governing source by folder proximity, the EntityOfConcern carried or exposed by that source document, or the authority-reference relation unless that relation is explicit. |
 | reviewed publication, review packet, or review record | The reviewed publication named by value, review packet, review record, or bounded publication unit sent or inspected in review. | The EntityOfConcern carried or exposed by that reviewed publication, review packet, or review record, the source relation behind it, or a packet-local summary. |
 
@@ -262,9 +261,9 @@ Keep any E.10 cue or routing result as input. Apply C.2.P only while a source-ex
 
 ##### C.2.P:4.5.1 - Direct repair
 
-Use this mode for the ordinary case. Rewrite the sentence and state one plain reason or non-use boundary. No row or note is required.
+Use this mode for the ordinary case. Rewrite the sentence; add a reason or non-use boundary only when it changes interpretation or action. No row or note is required.
 
-Example result: “The note helps the reader find section 4.2.” Reason: this is navigation, not evidence or assurance. Stop.
+When the intended function is navigation, “The note helps the reader find section 4.2” is a sufficient result. Stop.
 
 ##### C.2.P:4.5.2 - Compact row
 
@@ -278,7 +277,7 @@ Use a full check only when:
 - the source-to-FPF use is contested; or
 - a reusable ontological or naming decision is being made.
 
-The full check records the exact span and function, competing readings, selected kinds and relations, direct pattern contributions, rejected overreads, final wording, remaining reader use, and reopen condition. It is not required because the text is an FPF pattern or because a source is cited.
+The full check records the exact span and function, selected kinds and relations, direct pattern contributions, final wording, remaining reader use, and reopen condition. Add competing readings or rejected overreads only when they pass F.19’s independent-ground, plausible-reader, and contribution tests. Pattern authorship or a source citation alone does not require this mode.
 
 ##### C.2.P:4.5.4 - Publishing the compact row as a local note
 

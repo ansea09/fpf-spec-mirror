@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:intro — Intro"
-line_start: 72529
-line_end: 72546
+line_start: 71497
+line_end: 71514
 dependencies:
   - "A.1"
   - "A.10"
@@ -66,7 +66,7 @@ keywords:
 
 **What goes wrong if missed.** A rich model is treated as the asset or its architecture; a file or multi-view bundle is allowed to select structure or grant `U.View` membership; or a designation and a live data feed are asked to carry identity, occurrence, truth, and currentness claims that their direct relations do not establish.
 
-**What this buys.** An engineer can use current built-asset information systems while keeping the physical asset, actual subject relations, exact selected structures, any obtaining `ArchitectureRelation`, bounded architecture claims, each description episteme, exact viewpoint conformance, each representation and publication object, each designation or reference relation, and each currentness claim inspectably connected but distinct.
+**What this buys.** An engineer can retrieve the intended asset or component, combine the relevant descriptions, and determine which architecture use their contents and freshness support. Actual asset relations, candidate claims and the descriptions of them remain distinguishable.
 
 **Not this pattern when.** Use `C.30` when the current object is the direct architecture relation or bounded architecture claim, `C.30.AD` when no built-asset specialization is needed, and `C.30.ASV` when one structural view is under repair. Use the direct designation/reference, evidence, currentness, Work, decision, transformation, or causal-use pattern when that relation rather than built-asset architecture-description use is current. When auxiliary-view, telemetry, simulation, maintenance, or digital-twin material is used to claim that an intervention caused an effect, handle that causal use under `C.28`; `C.27` remains the owner of temporal-claim adequacy. When a twin, dashboard, exchange result, or release screen looks like gate passage, recover whether a named gate decision is current. Use `A.21` when that gate must decide a bounded action or when its `GateDecisionResult` is being relied on; the display remains a cue until the required result is established. Return any separate evidence, work-entry readiness, assurance, Work, or other claim to its own governor. Do not collapse release into gate passage: route a release action or other performed Work to the exact `A.15.1` `U.Work` occurrence, work-entry readiness to `A.15.5`, a permission result or exercise to `A.2.8.PER`, an instituting or revoking grant act to `A.2.9`, and a claim that a subject was released to its named subject predicate and participants; if that predicate cannot be recovered, return `A.6.RCD missing-governor`. An authorization-looking label does not choose among these claims.
 

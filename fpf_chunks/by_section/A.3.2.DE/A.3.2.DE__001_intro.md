@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:intro — Intro"
-line_start: 11743
-line_end: 11749
+line_start: 11621
+line_end: 11625
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -24,6 +24,4 @@ keywords:
 
 > **Type:** Method pattern
 > **Status:** Stable
-
-> **Primary working result:** one `U.MethodDescription` edition and a use-coverage account for one admitted `U.Method`; or, when Method admission is absent, improved candidate-account content that keeps its candidate status.
 

@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:6 — Bias-Annotation"
-line_start: 73225
-line_end: 73228
+line_start: 72178
+line_end: 72181
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,5 +64,5 @@ keywords:
 
 ### C.30.STRAT:6 - Bias-Annotation
 
-Lenses: **Arch**, **Onto and Epist**, **Prag**, **Did**, and **Gov**. The pattern deliberately resists word-shape inference. Its counter-bias is equally important: ordinary prose stays ordinary, a known meaning uses its pattern directly, and the author-facing routing coordinates never become a project form.
+Recover the claim from its source use instead of word shape. Keep ordinary prose and already clear domain terms; a known meaning uses its applicable rule directly.
 

@@ -6,12 +6,12 @@ section_id: "A.6.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:2 — Problem"
-line_start: 23891
-line_end: 23927
+line_start: 23471
+line_end: 23507
 dependencies:
   - "A.10"
   - "A.14"
@@ -54,7 +54,7 @@ Typical failure modes this pattern is designed to eliminate:
    Evidence, pins, certificates, or proofs are treated as “the base”, even when they are only witnesses for a base relation (or conversely: a true base is treated as a mere witness).
 
 4. **Scope/time collapse.**
-   Based declarations are treated as timeless truths; time dependence is smuggled in via “current/latest/recently”, violating explicit `Γ_time` discipline.
+   A time-dependent assertion leaves its applicable interval or temporal rule unclear, so readers cannot tell which case it covers.
 
 5. **`Γ_time` used as a proxy for freshness.**
    Authors treat `Γ_time` as “freshness” or “evidence decay”, collapsing TimePolicy with witness-timespan/freshness predicates.
@@ -69,7 +69,7 @@ Typical failure modes this pattern is designed to eliminate:
    * source-local meaning recovery and, when needed, an F.17 `SchemeSenseCell` and `LocalSenseBasisRelation` (not a base declaration).
 
 8. **Slot/basing conflation.**
-   A.6.5 distinguishes relation positions, their fillers, and stored references. Umbrella basing language can hide the direct relation at the next layer, while record-edit language can be mistaken for change in the relation itself.
+   A.6.5 separates a declaration-local SlotSpec, a designation carried in an episteme and the actual participant. Editing a designation does not itself change the obtaining relation.
 
 9. **Anchor relapse (source or meaning surrogate).**
    “Anchor/anchoring” is used to mean “the source”, “the meaning”, “the global reference”, or “the thing that makes this true”. This hides the exact source, scheme, expression, local claim, and any obtaining basis relation behind a metaphor; the phrase alone does not let a reviewer recover them.

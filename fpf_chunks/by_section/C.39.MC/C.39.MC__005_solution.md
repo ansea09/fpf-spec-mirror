@@ -6,12 +6,12 @@ section_id: "C.39.MC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:4 — Solution"
-line_start: 83922
-line_end: 83987
+line_start: 82745
+line_end: 82810
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"
@@ -72,7 +72,7 @@ These are different change questions, not a universal event classification. For 
 
 #### C.39.MC:4.4 - Retain Only What Another Use Needs
 
-An ordinary continuation answer needs the current difficulty, selected knowledge, available/blocked/unknown action, first missing fact, and stop or return. Retain an existing result by reference when it already carries the needed claims.
+An ordinary continuation answer states the current difficulty, selected knowledge, available/blocked/unknown action, any missing fact that matters, and the applicable stop or return. Retain an existing result by reference when it already carries the needed claims.
 
 Only when another turn must cite, compare, audit, or rely on the connected answer, keep a Situated Method-Architecture Result as an ordinary C.2.1 episteme. Its content includes the architecture claims and statuses in use, their source/result returns, the current continuations and conditions, the affected-delta answer, and the next return. This is a descriptive result name, not a new root kind or mandatory register.
 
@@ -82,7 +82,7 @@ The profile/language episteme, a description of one Method, a selected structure
 
 #### C.39.MC:4.5 - Open Formal CGUS Only for Its Own Use
 
-The plain alternatives-and-conditions answer often suffices. Use A.22.CGUS when an independently selected structure must be qualified, persisted, compared, published, or more strongly relied on. A structure requires its constituents, selected obtaining relations, applied constraints, and named use frame; its CGUS membership requires at least two potential continuations across allowed cases. Zero or one currently enabled continuation is compatible with that potential branching.
+The plain alternatives-and-conditions answer often suffices. Use A.22.CGUS when the needed claim concerns a selected structure with potential continuation branching, and that claim must be qualified, persisted, compared, published or more strongly relied on. A structure requires its constituents, selected obtaining relations, applied constraints, and named use frame; its CGUS membership requires at least two potential continuations across allowed cases. Zero or one currently enabled continuation is compatible with that potential branching.
 
 For a Method-architecture continuation use, the local frame name Situated-Method-Architecture-Continuation denotes this question: which continuation can obtain the next bounded Method-architecture result or honest stop? Its admissible actions are to select a continuation, retain alternatives, request the first missing fact, or stop. The stop is the first decision-usable result or a missing condition that prevents it. Naming this frame does not establish the structure or choose the action.
 

@@ -6,12 +6,12 @@ section_id: "E.7:5"
 section_title: "Archetypal Grounding (of this pattern itself)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__006_archetypal-grounding-of-this-pattern-itself.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.7 — Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases"
   - "E.7:5 — Archetypal Grounding (of this pattern itself)"
-line_start: 96145
-line_end: 96150
+line_start: 94965
+line_end: 94970
 dependencies:
   - "E.5.4"
   - "E.6"

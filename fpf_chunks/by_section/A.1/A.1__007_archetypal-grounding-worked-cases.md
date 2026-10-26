@@ -6,12 +6,12 @@ section_id: "A.1:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__007_archetypal-grounding-worked-cases.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:5 — Archetypal Grounding (Worked Cases)"
-line_start: 2711
-line_end: 2774
+line_start: 2708
+line_end: 2771
 dependencies:
   - "A.1.1"
   - "A.1.STM"

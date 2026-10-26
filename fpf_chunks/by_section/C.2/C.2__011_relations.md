@@ -6,12 +6,12 @@ section_id: "C.2:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__011_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:10 — Relations"
-line_start: 51296
-line_end: 51301
+line_start: 50464
+line_end: 50468
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,5 +43,4 @@ keywords:
 
 * **Depends on:** `C.2.1 U.Episteme: Constitution, Empirical Grounding, and Edition Relations` for episteme identity, the constitution relation, and the separate grounding and edition relations; `E.17.0` for viewpoint selection and `U.View` conformance; `C.29` and `A.6.3.RT` for representation; and `E.17`/`E.24.PUB` for publication occurrence, form, and carrier.
 * **Peers:** planned **Sys-CAL** (`C.1`) may later consolidate physical-system guidance; current system composition, boundary, state, conservation, resource, and measurement claims use `A.1`, `A.14`, `A.22`, `A.3.4`, `B.1.6`, and `C.16` as applicable. KD-CAL composes **epistemes** and feeds assurance lenses in Part B.
-* **Constrained by authoring:** Architectural patterns must include Tell–Show–Show with **Archetypal Grounding** (this section).
 

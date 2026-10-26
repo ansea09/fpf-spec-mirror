@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:End"
 section_title: "C.30.STRAT:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__015_c-30-strat-end.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:End — C.30.STRAT:End"
-line_start: 73296
-line_end: 73297
+line_start: 72246
+line_end: 72247
 dependencies:
   - "A.10"
   - "A.15"

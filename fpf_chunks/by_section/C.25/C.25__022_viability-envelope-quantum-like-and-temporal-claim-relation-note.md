@@ -6,12 +6,12 @@ section_id: "C.25:20a"
 section_title: "Viability-envelope, quantum-like, and temporal-claim relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__022_viability-envelope-quantum-like-and-temporal-claim-relation-note.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:20a — Viability-envelope, quantum-like, and temporal-claim relation note"
-line_start: 65326
-line_end: 65362
+line_start: 64286
+line_end: 64323
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,6 +57,7 @@ Practical reading:
 3. If one proxy or this proportional bundle answers the receiving question, stay in `C.25`.
 4. Open `C.26.3` only when several characteristics must remain inside a viable region under disturbance and a candidate intervention, boundary condition, adaptation cost, or failure mode matters.
 5. Open `C.27` only when a temporal claim is being used to change action—for example, when rate-change, effort, window, resistance, recovery, or cadence changes that action.
+
 Minimum viability-envelope note:
 
 | Field | Required content |

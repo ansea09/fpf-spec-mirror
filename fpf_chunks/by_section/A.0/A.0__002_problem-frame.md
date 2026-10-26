@@ -6,7 +6,7 @@ section_id: "A.0:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:1 — Problem Frame"
@@ -55,5 +55,5 @@ keywords:
 
 ### A.0:1 - Problem Frame
 
-Engineer‑managers meeting FPF for the first time need a **plain, on‑ramp vocabulary** for the framework’s *generative* engine so they can run an informed **problem‑solving/search loop** on day one—*before* formal specifications. Without that, Part G and Part F read as assurance/alignment only, and teams default to single “best” options. This **undercuts P‑10 Open‑Ended Evolution** and harms adoption.
+Engineer-managers choosing a search or selection need to distinguish candidate quality, search coverage, explore/exploit policy and the result being returned. Plain definitions provide an entry to these distinctions; the corresponding operation in C.17–C.19 or Part G supplies the method and its conditions.
 

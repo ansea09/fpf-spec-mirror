@@ -6,12 +6,12 @@ section_id: "A.6.F:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:10 — Rationale"
-line_start: 23059
-line_end: 23066
+line_start: 22646
+line_end: 22653
 dependencies:
   - "A.10"
   - "A.15"
@@ -71,7 +71,7 @@ keywords:
 
 Function-like wording is too useful to ban and too overloaded to leave unresolved. The smallest useful repair is not a new ontology or a generic record. Name the exact entity, value, claim, or claim-bearing episteme, apply its subject pattern, and state the remaining use. Add an explanatory rejected reading only under the full F.19:4 test.
 
-This design follows A.6.P: recover the direct relation and actual participants when one obtains; add a reusable `RelationSignature` and declaration-local `SlotSpec`s only for typed reuse; keep assertion, specification, or view epistemes separate; and keep representation elements under C.29 with explicit correspondence. It also follows C.30: functional architecture is selected structure for a described holon, not a peer of architecture, not a selected transformation-flow structure by default, and not a mathematical graph description by itself.
+This follows A.6.P: recover the direct predicate and participants when a relation question is current; add a reusable `RelationSignature` and declaration-local `SlotSpec`s only when typed use needs them; distinguish assertion, specification and view epistemes; and interpret a representation under its applicable correspondence. Use C.29 only for a remaining mathematical representation, transfer or inference question. Under C.30, functional architecture concerns selected structure for a described holon. A selected transformation-flow structure or mathematical graph description requires its own basis.
 
-The pattern keeps ordinary language usable. A phrase can remain Plain when it carries no FPF claim. When it carries an ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim, the exact object or claim and subject pattern are recoverable. No generic relation, claim, slot, or view record stands in for that result.
+The pattern keeps ordinary language usable, including an FPF claim whose object and governing rule are already clear. Repair ambiguity when it changes an ontological, evidence, causal, assurance, bridge, gate, work, decision or admissibility claim. A generic record does not supply the missing meaning.
 

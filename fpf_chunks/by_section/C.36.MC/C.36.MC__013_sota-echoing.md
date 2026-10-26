@@ -6,12 +6,12 @@ section_id: "C.36.MC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__013_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:11 — SoTA-Echoing"
-line_start: 90684
-line_end: 90704
+line_start: 89504
+line_end: 89524
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -26,7 +26,7 @@ keywords:
 
 **Practice question.** When recipients can work with a combination of descriptions, tools and teaching, what warrants continuing that arrangement, developing a more adaptable explanation, or first studying which contribution makes the difference?
 
-**Selected answer.** Preserve the bounded result established under the actual receiving conditions. Spend on further construction or discrimination only when a different receiving requirement, unavailable provision, credible failure or prospective gain makes its result consequential. This is an original conditional synthesis of the source contributions below. Its advantage is a more precise continuation decision; the cases do not establish superior population outcomes for this whole Method.
+**Selected answer.** Preserve the bounded result established under the actual receiving conditions. Spend on further construction or discrimination only when a different receiving requirement, unavailable provision, credible failure or prospective gain makes its result consequential.
 
 One serious alternative is to retain the complete demonstrated arrangement: provide the cards, board, teaching and tutoring together, without first making every adaptation decision independently recoverable. That is the better answer when recipients need the same result, the provision remains obtainable, and its whole burden is acceptable. Section 4.5 must not turn such a success into a compulsory reconstruction project. If another recipient must adapt the practice under changed conditions or cannot obtain a necessary teacher's contribution, repeating the arrangement no longer answers that use. The additional construction makes the consequential choice, its grounds, the changed operation and the remaining provision recoverable. It costs explanation, practice and feedback work; it earns that cost only through the receiving action it enables. Sections 4.5 and 5.4 work through this difference without assuming that a shorter card or a new example teaches adaptation.
 

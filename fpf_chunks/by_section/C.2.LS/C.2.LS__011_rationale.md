@@ -6,12 +6,12 @@ section_id: "C.2.LS:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:10 — Rationale"
-line_start: 53433
-line_end: 53435
+line_start: 52589
+line_end: 52591
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -41,5 +41,5 @@ keywords:
 ---
 
 ### C.2.LS:10 - Rationale
-The pattern gives the declared language-state chart over `U.CharacteristicSpace` one stable record through which its facet bundle can be published together, without taking over definitions and tests supplied elsewhere in FPF.
+The profile brings together the references needed to interpret facet readings and test a local threshold. Each referenced pattern supplies the corresponding definition and test; the profile preserves their different contributions to the receiving judgement.
 

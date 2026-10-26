@@ -6,12 +6,12 @@ section_id: "C.25:17"
 section_title: "Repair and Boundary Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__018_repair-and-boundary-notes.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:17 — Repair and Boundary Notes"
-line_start: 65253
-line_end: 65291
+line_start: 64213
+line_end: 64251
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,7 @@ keywords:
 
 #### C.25:17.1 - Repair from bare quality requirement prose
 
-Bare phrases such as *quality requirement*, *security requirement*, or *availability requirement* should not survive as bare heads when the underlying endpoint is actually a characteristic or bundle. The repair rule is:
+Keep a familiar label such as *security requirement* when its content already makes the intended claim clear. If the label hides what is required, recover the endpoint:
 
 - choose the endpoint shape first,
 - then bind the requirement or commitment to that explicit head.

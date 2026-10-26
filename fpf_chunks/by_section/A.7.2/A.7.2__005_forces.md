@@ -6,12 +6,12 @@ section_id: "A.7.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__005_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:3 — Forces"
-line_start: 26302
-line_end: 26311
+line_start: 25851
+line_end: 25860
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -40,5 +40,5 @@ keywords:
 | Small repair vs foundation drift | Reopen the decision that carries the conflict without rewriting unrelated ontology. |
 | Source use vs source prestige | Sources matter through exact claim use, not status labels or total rankings. |
 | Formal comparability vs domain evidence | Typed consequences can expose contradiction, but formal shape cannot settle the world by itself. |
-| Current decision vs reopenability | Landed FPF is the default internal basis, yet grounded counterexamples and accepted contradictions can reopen it. |
+| Current decision vs reopenability | The current published FPF decisions supply an internal basis, while grounded counterexamples and contradictions can require reconsideration. |
 

@@ -6,12 +6,12 @@ section_id: "A.15.9:6"
 section_title: "Precision restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__007_precision-restoration.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:6 — Precision restoration"
-line_start: 32529
-line_end: 32542
+line_start: 32087
+line_end: 32100
 dependencies:
   - "A.10"
   - "A.13"
@@ -37,9 +37,9 @@ keywords:
 | *ask legal / safety / architecture / finance* | The smallest result question and the decision it can change. | A department, title, or field name already identifies the answer. |
 | *review* | The reusable Method, planned Work, dated review Work, communication, and returned result that are actually claimed. | Scheduling or delivery proves Work, acceptance, or adequacy. |
 | *approved* or *signed off* | The exact result plus any separately supported authority, permission, acceptance, or gate relation. | A word, signature image, or provider status transfers decision authority. |
-| *specialist* | The candidate or actual performing Agent; for an actual-Agent claim, its A.13 core includes the obtaining assignment. Add current capability, access, conflict, and authority only when needed. | Title, credential, organization, species, or tool label establishes those relations. |
+| *specialist* | The practitioner or other supplying System relevant to the result. If a precise Agent claim is needed, recover its A.13 local-kind classification and obtaining assignment. Add capability, access, conflict and authority only when consumed by the use. | Title, credential, organization, species, or tool label establishes those relations. |
 | *AI review* or *tool check* | The source or result, actual performer if current, Method, dated Work, provenance, checks, evidence, and authority boundary needed by this use. | Fluency, automation, branding, or activity establishes truth, Work, permission, or acceptance. |
 | *received* or *delivered* | The communication or transfer that occurred, the independently identified result, and any separate acceptance and use. | Delivery is production, acceptance, reliance, or effect. |
 
-**Bias check.** Institutional prestige, official status, publication recency, ubiquity, and academic praise are retrieval cues, not proof that a result is the best current answer or fits this use. Prefer the result that repairs known shortcomings and survives the receiving question's evidence and applicability checks. An official standard may be the best available basis, but not because it is official.
+**Bias check.** Prestige, recency and popularity can help locate a source; assess its claims against the receiving question's evidence and applicability requirements. Official status may matter through an applicable authority or binding rule, whose scope must be established separately. That status alone does not establish empirical adequacy or fit outside that scope.
 

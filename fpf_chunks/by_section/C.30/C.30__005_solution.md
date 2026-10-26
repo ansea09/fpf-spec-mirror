@@ -6,12 +6,12 @@ section_id: "C.30:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:4 — Solution"
-line_start: 71457
-line_end: 71967
+line_start: 70425
+line_end: 70941
 dependencies:
   - "A.1"
   - "A.10"
@@ -76,7 +76,7 @@ keywords:
 
 ### C.30:4 - Solution
 
-C.30 starts from one architecture move over one exact `U.Holon`. Recover separately: any actual subject-relation occurrences; the exact A.22 structures selected from them; any obtaining `ArchitectureRelation`; the claim episteme that states an affirmative, negative, unresolved, candidate, or expected architecture claim; the concern and admissible-use frame; and the exact use of inspected material as source, description, view, representation, publication form, decision input, or another use defined by its applicable pattern. Use a conditional architecture-description bridge when durable, reusable, multi-view, regulated, comparison, or reliance-bearing description is being made. If an ordinary sentence or `ArchitectureQuestionCard@Project` gives one usable next architecture move, stop there.
+Start with the holon and the architecture action or question. Recover an actual architecture relation under :4.1 when that is the claim; otherwise retain the negative, unresolved, candidate or expected content at its supported scope. Identify the selected structure kind, concern and use conditions, and explain how inspected material contributes. If the action depends on unresolved description or view conditions, use :4.2 or C.30.AD. An ordinary sentence or question card can finish when it gives the needed next move.
 
 In C.30, the EntityOfConcern is one exact described holon, one exact `ArchitectureRelation` occurrence, one exact selected structure, or another exact subject object selected by the current claim. A claim episteme, description, diagram, or publication is not a proxy EntityOfConcern for a world-side relation or structure. Description hygiene supports this boundary but is not the center of C.30.
 
@@ -247,7 +247,7 @@ ModelCardOrSystemCardBoundaryNote@Project ::= {
 }
 ```
 
-If the card or harness is used beyond transparency, recover the architecture structure kind being used first and then apply `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.16`, `C.28`, or `C.11` for the non-architecture claim kind.
+For an architecture use of the card or harness, recover the structure kind at issue. For a separate evidence, measurement, causal, assurance or decision claim, use its governing pattern directly; that question may need no architecture claim.
 
 #### C.30:4.4 - Architecture name formation
 
@@ -312,7 +312,7 @@ C. ArchitectureDescriptionOrViewAdequacy
 
 An `ArchitectureClaim` may state a characteristic claim, but the claim episteme is not automatically the characteristic bearer when its content names the holon, direct architecture relation, or selected structure. Select the exact bearer using the pattern that defines or tests that characteristic claim. Likewise, a diagram or publication cannot inherit the subject's quality by describing it.
 
-C.30 keeps only a thin bridge from structural characteristics to Q-Bundle relevance. If the claim says architecture causes an outcome improvement, assign causal use to `C.28`. If a structural characteristic is used as a mechanism, constraint, predictor, proxy, evidence relation, or causal hypothesis for a Q-Bundle slot, start with `ArchitectureStructuralCharacteristicQBundleClaimLine` rather than a formula such as `low coupling = maintainability`.
+C.30 keeps only a thin bridge from structural characteristics to Q-Bundle relevance. If the claim says architecture causes an outcome improvement, assign causal use to `C.28`. If a structural characteristic is used as a mechanism, constraint, predictor, proxy, evidence relation or causal hypothesis for a Q-Bundle slot, state that connection and its basis. An ordinary sentence may suffice; `ArchitectureStructuralCharacteristicQBundleClaimLine` organizes the needed distinctions. The formula `low coupling = maintainability` leaves that connection unexplained.
 
 `ArchitectureStructuralCharacteristicQBundleClaimLine` is claim content for first contact, not a `U.Relation` occurrence or reusable relation declaration:
 
@@ -355,7 +355,7 @@ The line supports an inspectable next question without claiming measurement, mod
 
 Minimal structural-characteristic claim-line examples:
 
-| Structure kind | Structural characteristic cue or relation | Affected Q-Bundle slot | Relation grounding note | Non-admissible use |
+| Structure kind | Structural characteristic cue or relation | Affected Q-Bundle slot | Candidate connection to investigate | Non-admissible use |
 | --- | --- | --- | --- | --- |
 | `ModuleInterfaceStructure` | Stable interface specification plus substitution policy. | Evolvability or replaceability. | Replacement without global retesting. | Open label as substitutability proof. |
 | `PlacementDeploymentStructure` | Controller placed near plant or edge-node locality. | Latency, resilience, or jurisdictional compliance. | Reduced communication delay and bounded data custody. | Placement diagram as performance or regulatory acceptance proof. |
@@ -430,7 +430,7 @@ Use `C.30.ASV` to test structural-view adequacy for an exact architecture-descri
 
 A diagram, model, table, selected transformation-flow diagram, mathematical graph description, LCA diagram, C.29 lens output, ADR, dashboard, generated explanation, or other publication face may carry an architecture description or an architecture structural view. It does not become the architecture, and it does not become a conforming view only because it looks like a view.
 
-Use `AffectedArchitectureStructureNote` when the next architecture move needs to name affected structures or view losses without using an architecture decision, ADR, gate, evidence, assurance, or release record:
+Name affected structures or view losses when they change the next architecture move. An ordinary account can suffice; this note organizes that content when needed:
 
 ```text
 AffectedArchitectureStructureNote:
@@ -449,7 +449,7 @@ This note only names affected architecture structure for the next architecture u
 
 Use these notes when a common architecture phrase is close to a claim defined or tested by another pattern but full use of that pattern is not yet needed.
 
-Use the thinnest claim or boundary form that preserves the next architecture move. Use a fuller claim or relation record only when the content or independently admitted relation being used cannot be inspected, compared, refreshed, or bounded without it. Typical thin forms are `ArchitectureMathLensUseBoundary` before C.29 Mini or Full, `AffectedArchitectureStructureNote` before an architecture decision record, and `ArchitectureStructuralCharacteristicQBundleClaimLine` before full measurement, causal, evidence, or reusable direct-relation records.
+Use the smallest account that preserves the next architecture move. Use a fuller claim or relation record only when its content or independently admitted relation cannot otherwise be inspected, compared, refreshed or bounded. These notes can carry a mathematical-use limit, affected structure or characteristic connection. They are not mandatory preliminary records before using the pattern for a separate decision, measurement or causal question.
 
 ```text
 InterfaceSignatureBoundaryNote ::= {
@@ -504,7 +504,7 @@ ArchitectureMathLensUseBoundary:
     claimPatternRefs?
 ```
 
-Use the one-line boundary only when it is enough to keep the lens from being overread. Use a C.29 Mini or Full card when the lens choice, preserved structure, lost structure, relation class or admissible-use value, or stop condition changes the architecture move.
+Use an ordinary sentence or the one-line boundary when it states the mathematical contribution and its limits sufficiently. Apply C.29 when a representation or transfer question remains unresolved. Its :4.4 reliance rule selects the sufficient account; a changed architecture action alone does not require a Mini or Full card.
 
 Lens use by architecture problem:
 
@@ -526,17 +526,17 @@ Epiplexity-like use remains a C.29 bounded-observer structural-information lens.
 
 | Tempting collapse | C.30 repair |
 | --- | --- |
-| Bare architecture as free-floating selected claim | Recover the actual subject-relation occurrences and exact A.22 structure, then either identify the obtaining `ArchitectureRelation` or keep candidate, expected, negative, or unresolved content in `ArchitectureClaim`. Also recover the exact described holon, structure kind, concern and admissible-use frame, effective reference scheme and ClaimScope when applicable, and the exact source, description, view, representation, publication-form, or other direct use of inspected material. |
+| Bare architecture as free-floating selected claim | Name the holon, structure kind, concern, intended use and contribution of the inspected material. For an actual architecture claim, recover its subject relations and selected A.22 structure before testing `ArchitectureRelation`. Otherwise retain the supported candidate, expected, negative or unresolved claim without a fictitious positive occurrence. |
 | Architecture description as architecture | Keep `ArchitectureDescription` as a C.2.1 episteme about one exact holon, obtaining `ArchitectureRelation`, or selected structure; keep specification use, representation, and publication separate. |
 | Diagram, model, table, dashboard, or generated relation graph as architecture | Treat it as publication form, description, view, source relation, or source-finding aid only when that relation is explicit. |
 | Module diagram as all architecture | Use `C.30.ASV` to recover structure kind; module structure and interface relation are only one structure family. |
 | Transformation-flow structure or graph description as architecture | Use E.18 for selected transformation-flow structure, path, and crossing records; use E.18.2 and C.29 for mathematical graph descriptions; use C.30.TFS-REL for the architecture-to-transformation-flow relation. |
 | LCA diagram or control diagram as proof | Use `C.30.LCA` for the control-structure view; use the applicable dynamics, temporal, causal, evidence, gate, safety, or assurance pattern for each separate claim. |
-| Mathematical lens as architecture ontology | Use `C.29`; cite `MathLensUseOutputRef` only through an `ArchitectureMathLensUseBoundary` or C.29 lens record and state stop condition. |
+| Mathematical lens as architecture ontology | Recover the mathematical correspondence and its limit. Cite an adequate C.29 result directly when available; use :4.8 only for the architecture question that still needs its contribution. |
 | ADR as architecture decision | Use the project-side architecture decision pattern when a decision claim is being made; ADR is a publication form, not the decision. |
 | Quality, score, or measurement term as architecture adequacy | Recover the bearer through `ArchitectureCharacteristicAssignment`; then use C.25, C.16, A.17-A.19, or the exact characteristic or Q-Bundle pattern that defines or tests the claim. Use C.30 only for grounded architecture, selected-structure, or conditional description-use scope. |
 | Architecture record as evidence, assurance, gate, work, or release | Assign evidence, assurance, gate, work, or release claims to A.10, G.6, B.3, A.20, A.21, A.15, or the release locus named by value when a release claim is being made. |
-| Architecture as agent, worker, controller, gate, or proof | Split the claim. If precise performed Work is meant, recover each exact actual performer System through A.13 and let A.15.1 independently admit the dated Work and enacted Method. Add an assignment occurrence, its declared species, and F.6 only when the architecture account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Recover mechanism or control relations, permission, authority, responsibility, gate results, evidence, assurance, proof, and guarantees only through their own predicates or results. Keep any neighboring local system-role-kind or assignment fact distinct from those claims. |
+| Architecture as agent, worker, controller, gate, or proof | Split the claim. If precise performed Work is meant, recover each exact actual performer System through A.13 and let A.15.1 independently admit the dated Work and enacted Method. Add an assignment occurrence, its declared species, and F.6 only when the architecture account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds still hold. Recover mechanism or control relations, permission, authority, responsibility, gate results, evidence, assurance, proof, and guarantees only through their own predicates or results. Keep any neighboring local system-role-kind or assignment fact distinct from those claims. |
 
 **Currentness and smallest reopen.** When a decisive input changes, reopen only the C.30 object and use conclusion that depend on it. A changed holon or obtaining subject relation reopens the affected selected structure and, if asserted, the direct `ArchitectureRelation` predicate; a changed selected structure or predicate result reopens that relation occurrence and any affirmative `ArchitectureClaim` reference; a changed claim scheme or `ClaimScope` reopens only that claim; and a changed description, view, source edition, admissible-use boundary, or definition of a directly used relation reopens its exact reference and dependent `ArchitectureQuestionCard@Project` disposition. Admissible results are to update the affected reference or claim mode, narrow use, re-run the direct predicate, or reopen the card when its next architecture move is no longer supported; unrelated structures, descriptions, and claims stay closed.
 
@@ -556,12 +556,18 @@ ArchitectureQuestionCard@Project:
   inspectedMaterialUse: publication form carrying possible architecture structural-view material
   inspectedMaterialUseRelationRefs: exact publication occurrence or representation relation when independently current
   selectedStructureKindRefs: FunctionalStructure, ModuleInterfaceStructure, TransformationFlowStructure
-  firstArchitectureMove: recover the diagram as a publication face and create a minimal architecture structural-view note
+  firstArchitectureMove: recover whether payment orchestration currently invokes fraud scoring and which interface and change conditions that dependency uses
   claimPatternRefs: C.30.ASV
-  non-admissible overread: treating the diagram as architecture itself, evidence, assurance, gate passage, or decision
+  non-admissible overread: treating the depicted dependency as an established actual relation
 ```
 
-**"Low coupling gives maintainability."** C.30 does not allow that formula to carry the claim by itself. The ordinary repair starts with the thin claim line:
+**Continue the payment question.** In a constructed case, take an independently identified payment-system holon, `PaymentSystem1`, and an A.22 module-interface structure, `PaymentStructure1`, selected for its latency and replacement concern. Its constituents are `Orchestrator1` and `Scorer1`; supplied subject facts establish that Orchestrator1 synchronously invokes Scorer1 under interface contract K. The selected structure's constraints and invariants hold, and this dependency organizes PaymentSystem1 in the declared way. These premises establish the ArchitectureRelation between that holon and that selected structure. A diagram showing a direct bypass is only a candidate until its subject relations obtain.
+
+A code optimization inside Scorer1 can reduce its response time while leaving these participants, selected relations and invariants unchanged. If the architecture predicate continues to hold, retain that relation occurrence; assess the latency change on its own measurement basis.
+
+A proposal to replace Scorer1 by a distinct Scorer2 has different candidate constituents. Describe that candidate structure and work out the intended invocation and compatibility with K. This can support the next implementation decision without asserting that the new relation already obtains. A successful isolated Scorer2 benchmark supplies neither an actual invocation relation nor end-to-end latency. After a replacement, an affirmative architecture claim requires the resulting structure's A.22 identity, actual subject relations and architecture predicate; until those are established, retain the supported candidate or unresolved claim.
+
+**"Low coupling gives maintainability."** State the proposed connection and its basis. The thin claim line can organize that explanation:
 
 ```text
 ArchitectureStructuralCharacteristicQBundleClaimLine:

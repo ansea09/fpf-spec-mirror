@@ -6,12 +6,12 @@ section_id: "C.36.MC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:10 — Rationale"
-line_start: 90676
-line_end: 90683
+line_start: 89496
+line_end: 89503
 dependencies:
   - "A.15.1"
   - "A.3.1"

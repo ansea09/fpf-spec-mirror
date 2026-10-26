@@ -6,12 +6,12 @@ section_id: "A.6.B:9"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__011_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:9 — Bias‑Annotation"
-line_start: 15442
-line_end: 15449
+line_start: 15144
+line_end: 15151
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -52,9 +52,8 @@ keywords:
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
-  - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
-  - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
@@ -66,9 +65,7 @@ keywords:
   - "evaluation"
   - "individual institution"
   - "laws"
-  - "may"
   - "not a duty.)"
-  - "not normative"
   - "observable effects and evidence"
   - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
   - "or (iii) assign responsibility or enforcement (that is D-*)"
@@ -89,5 +86,5 @@ Scope: **Universal** for boundary descriptions.
 
 * **Arch bias:** favors explicit separation and explicit references; mitigated by allowing narrative faces while keeping commitments classified and referenced by ID or canonical location.
 * **Gov bias:** makes actual duty bearers and duties explicit (D) and auditability explicit (E); mitigated by keeping evidence conceptual and carrier-referenced rather than tool-specific. Responsibility, when claimed, remains a separate direct relation.
-* **Ontological and Epistemic bias:** insists on EntityOfConcern, Description episteme, and carrier and on work‑adjudicated effects; mitigated by providing clear cross‑quadrant link patterns so authors can still express real‑world governance needs.
+* **Ontological and epistemic bias:** distinguishes the EntityOfConcern, claim-bearing episteme and carrier, and requires the actual basis for work, evaluation or observation claims. Cross-quadrant references preserve their connections in a readable account.
 

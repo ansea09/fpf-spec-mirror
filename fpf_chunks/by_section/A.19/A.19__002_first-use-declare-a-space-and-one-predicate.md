@@ -6,12 +6,12 @@ section_id: "A.19:0"
 section_title: "First use: declare a space and one predicate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__002_first-use-declare-a-space-and-one-predicate.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:0 — First use: declare a space and one predicate"
-line_start: 34912
-line_end: 34942
+line_start: 34315
+line_end: 34345
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,7 @@ keywords:
 
 ### A.19:0 - First use: declare a space and one predicate
 
-Use A.19 when you need to say which Characteristics form one state space and what reusable condition can be tested on a state in that space.
+Declare which Characteristics form the space. Add a reusable predicate when the receiving use needs to test a condition on a state in that space.
 
 **First move.** Name the `CharacteristicSpace` and list its slots. Each slot names one Characteristic, its subject or input roles, and one Scale with its admissible values. Add order, topology, distance, or a mapping only when a real use needs it.
 

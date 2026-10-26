@@ -6,16 +6,19 @@ section_id: "A.7.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__004_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:2 — Problem"
-line_start: 26135
-line_end: 26140
+line_start: 25686
+line_end: 25691
 dependencies:
+  - "A.11"
   - "A.7"
+  - "A.7.1"
   - "A.7.2"
   - "A.7.CP"
+  - "A.8"
   - "C.19.2"
   - "E.24"
   - "E.24.UK"
@@ -32,5 +35,5 @@ keywords:
 
 Ontology work often starts from available vocabulary rather than a failed consequence. That encourages blanket constructive replay, premature kind admission, and durable records even when direct kinds and relations already decide the next action. The opposite failure treats clear words as sufficient and leaves a category error inside Work, evidence, system-role-kind, assignment, state, capability, relation, responsibility, or representation claims.
 
-The practical question is not “How much ontology can we recover?” It is “Which distinction changes the engineering move at the required guarantee, and what is the cheapest truthful return?”
+The practical question is which distinction changes the engineering move at the required guarantee, and which sufficient return requires the least effort.
 

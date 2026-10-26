@@ -6,12 +6,12 @@ section_id: "C.30:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:10 — Rationale"
-line_start: 72029
-line_end: 72038
+line_start: 71003
+line_end: 71012
 dependencies:
   - "A.1"
   - "A.10"
@@ -76,11 +76,11 @@ keywords:
 
 ### C.30:10 - Rationale
 
-Architecture is most useful in FPF when it stays close to actual selected structure over a holon and far away from document-as-architecture, graph-as-architecture, model-as-architecture, and decision-as-architecture collapses. The direct `ArchitectureRelation` keeps the exact holon and actual selected structure together without minting `U.Architecture`; an `ArchitectureClaim` gives practitioners a claim-bearing handle for affirmative, negative, unresolved, candidate, or expected content without substituting that episteme for the relation.
+An architecture question concerns how a holon is organized and what a proposed change would affect. `ArchitectureRelation` connects the holon to an actually selected structure; `ArchitectureClaim` can assert, deny, leave unresolved or propose that organization. Keeping these separate lets a candidate guide work before realization, and lets an actual change be distinguished from a new description of the same organization.
 
 C.30 and C.30.ASV establish an FPF architecture kernel: actual subject relations first; exact selected A.22 structure; direct `ArchitectureRelation` to the described holon; separately constituted claim, description, viewpoint, and view epistemes; structure-kind discipline; correspondence and source-return boundaries; and characteristic-claim applications. They do not by themselves provide full measurement, synthesis, decision, causal proof, safety proof, or assurance.
 
-The small first move is deliberate. Architecture discussions often need one immediate result: name the holon, choose the structure kind under consideration, recover the exact use of inspected material, identify the pattern for any separate evidence or assurance claim, or stop. One or two ordinary sentences usually suffice. Keep the card only when the result must be retained, compared, or handed on. A full architecture description is useful only when durable publication, cross-team use, comparison, regulated use, source reuse, or reliance-relation reuse is being made.
+The small first move is deliberate. Architecture discussions often need one immediate result: name the holon, choose the structure kind under consideration, recover the exact use of inspected material, identify the pattern for any separate evidence or assurance claim, or stop. One or two ordinary sentences can suffice, including for retention or handoff. A fuller description earns its cost when the receiving action needs subject, correspondence, view or use conditions that the short account does not supply.
 
 Exact episteme identity and direct view conformance also preserve plurality. The same holon, architecture-relation occurrence, or selected structure may be described by several independently identified epistemes; one episteme may conform to several exact viewpoints through distinct occurrences; several publications may render one description. C.30 keeps those variants usable without turning any publication form into architecture or any bundle or list into view membership.
 

@@ -6,12 +6,12 @@ section_id: "A.6.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:5 — Archetypal Grounding"
-line_start: 24112
-line_end: 24161
+line_start: 23692
+line_end: 23741
 dependencies:
   - "A.10"
   - "A.14"
@@ -58,7 +58,7 @@ scope        = WorkScope{rig=R3, range=[0..200]°C},
 gammaTime          = interval[2025-09-01, 2026-03-01] 〉
 ```
 
-When a later decision relies on this assertion, cite the exact A.2.4 evidence-use relation from the calibration-certificate episteme to the assertion. Use A.10 only if that decision also needs the producing Work, operation result, carrier, provenance, or currentness path. Then distinguish changes by what actually changed:
+When a later decision relies on this assertion, identify the calibration-certificate episteme and its A.2.4 evidence-use relation to the assertion. Use A.10 when the decision needs a bounded-reliance judgment or the producing Work, operation result, carrier, provenance or currentness path. Distinguish changes by what actually changed:
 
 * New standard ⇒ **rebase** + **refreshWitnesses**.
 * Wider applicability window ⇒ **retime** and likely **refreshWitnesses**.
@@ -76,7 +76,7 @@ Stop with the short evidence-use statement when it answers the question. No `val
 
 **Tell.** Suppose a B.3.5 assurance requirement for this publication requires a recoverable constructor trace. A structural edge is published (“A componentOf B”) without that trace. It becomes treated as “obvious”, while the construction chain is not recoverable. Ordinary parthood does not require this trace; the failure here concerns the selected hypothetical assurance requirement.
 
-**Show.** First state and test the direct `tv:groundedBy` assertion between the model edge and constructor trace. Stop when that assertion answers the use. If a publication needs a stable assertion edition with its current qualifiers, it may represent that C.2.1 episteme as:
+**Show.** Locate the required constructor trace and test the direct `tv:groundedBy` predicate for the model edge and trace. If the trace remains unavailable, retain that gap and stop the dependent assurance claim. For illustration, suppose `ComposeCAL#c17` is recovered and the case facts satisfy the grounding predicate for `Edge:componentOf#17`. The short affirmative assertion may be enough; a publication needing a stable assertion edition with its qualifiers can represent it as:
 
 ```
 BD#EdgeGrounding_ComponentOf_17 :=

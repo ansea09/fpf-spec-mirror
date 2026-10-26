@@ -6,15 +6,16 @@ section_id: "A.6.H:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:10 — Rationale"
-line_start: 25712
-line_end: 25719
+line_start: 25265
+line_end: 25272
 dependencies:
   - "A.1"
   - "A.10"
+  - "A.13"
   - "A.14"
   - "A.15"
   - "A.15.1"
@@ -39,6 +40,7 @@ dependencies:
   - "C.29"
   - "E.17"
   - "E.24.PUB"
+  - "F.6"
 keywords:
   - "boundary"
   - "completeness"
@@ -62,5 +64,5 @@ Wholeness language is useful because it compresses boundary, identity, relation,
 
 The minimal repair is an exact-object sequence that starts with the working decision, recovers only the objects that decision consumes, and applies another rule only for a still-current concrete question. This preserves conversational economy while preventing a representation, record, label, or adjective from replacing an in-world object or relation.
 
-The sequence also preserves two positive uses. `PhaseOf` remains valid for a proper restriction of one unchanged enduring individual, including one unchanged episteme when its C.2.1 identity triple is fixed. And ordinary whole recognition remains useful when an exact candidate entity, boundary, parts, relations, and direct identity rule are genuinely current.
+The sequence also preserves two positive uses. `PhaseOf` can state a proper restriction of one unchanged enduring individual, including an unchanged episteme, when A.14 and the subject's direct rule admit it; fixed episteme identity alone does not establish the restriction. Ordinary whole recognition remains useful when a candidate entity, boundary, parts, relations, and direct identity rule are current.
 

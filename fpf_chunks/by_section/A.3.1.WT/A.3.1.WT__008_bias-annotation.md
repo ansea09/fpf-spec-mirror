@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:6 — Bias-Annotation"
-line_start: 10475
-line_end: 10486
+line_start: 10391
+line_end: 10402
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -23,7 +23,7 @@ keywords:
 
 ### A.3.1.WT:6 - Bias-Annotation
 
-| Recurring bias | Likely drift | Repair |
+| Bias | Likely drift | Repair |
 | --- | --- | --- |
 | plan-completion bias | A scheduled or demonstrated task is recorded as trial Work. | Admit each actual Work occurrence separately; otherwise return `missing-performed-work`. |
 | candidate-laundering bias | Constituent activity is reported as enactment of the candidate whole. | Preserve the candidate account and name only separately admitted enacted Methods. |
@@ -31,5 +31,5 @@ keywords:
 | instrument bias | Logs, reports, or telemetry are treated as the Work or result. | Keep the occurrence, result, record, and evidence-use relation separate. |
 | capability inflation | Training or one success becomes a holder capability claim. | Require the A.2.2 holder, Work family, envelope, measures, window, and evidence. |
 | causal inflation | Reported benefit or association becomes Method-caused effect. | State the observation level and missing comparison or causal basis. |
-| trial-judgment collapse | One trial record decides coherence, fit, transfer, and worth at once. | Route evidence to A.3.1.CC, A.3.1.FT, and C.11.MV as separate receiving uses. |
+| trial-judgment collapse | One trial record decides coherence, fit, transfer, and worth at once. | Route evidence to A.3.1.CC, A.3.1.FT, and C.11.MV according to the selected receiving questions. |
 

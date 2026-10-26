@@ -6,12 +6,12 @@ section_id: "A.6.S:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:7 — Conformance Checklist"
-line_start: 25334
-line_end: 25348
+line_start: 24889
+line_end: 24903
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -43,8 +43,8 @@ keywords:
 | ID | Requirement | Purpose |
 | ---: | --- | --- |
 | **CC-A.6.S-1** | State the actual assertion, revision, relation, arrow, application, or Work first. If it answers the receiving use, no ConstructorSignature or pair object is required. | Preserves the cheap direct path. |
-| **CC-A.6.S-2** | A ConstructorSignature appears only when a named receiving use needs reusable constructor vocabulary, laws, and applicability shared by at least two named claims or consumers under A.6.0:4.8. Those claims may belong to one receiver. It is an independently identified `U.Signature`; `U.SignatureEngineeringPair` is not used. | Prevents an unsupported object and needless second signature. |
-| **CC-A.6.S-3** | When two signatures are both current, state the exact A.6.0 dependency, method/source use, or other direct relation that actually obtains. Co-mentioning them creates no relation. | Keeps the connection explicit without inventing a universal pair. |
+| **CC-A.6.S-2** | A ConstructorSignature appears when a named receiving use needs reusable constructor vocabulary, laws and applicability under A.6.0:4.8; a concrete anticipated use can qualify. It is an independently identified U.Signature, without a U.SignatureEngineeringPair. | Prevents an unsupported pair and needless second signature. |
+| **CC-A.6.S-3** | When both signatures are relevant, state any actual dependency or source-use relation the receiving claim needs. They may also be named without a relation claim; co-mention alone establishes none. | Keeps the useful connection explicit without inventing a universal pair. |
 | **CC-A.6.S-4** | The ConstructorSignature declares only operation families its named receiver reuses. A.6.5 slot verbs, A.6.6 declaration-change labels, A.6.2-A.6.4 arrows, E.17 views, assignment identity, and evidence are each conditional on their own current use. | Prevents the constructor menu from becoming a mandatory package. |
 | **CC-A.6.S-5** | A meaning change identifies a new TargetSignature episteme when a C.2.1 discriminator changes. State edition, continuity, and reference-retargeting claims only under their actual predicates; use A.6.4 only when the exact EntityOfConcern-retargeting arrow `r` is current, and identify any bounded-use assertion `q` and current-case judgement separately. | Separates episteme change, editioning, reference change, and retargeting. |
 | **CC-A.6.S-6** | If an A.6.2-A.6.4 arrow is declared, keep the arrow, any separately governed use assertion, any current-case judgement, operation description, application, and Work distinct. Name the endpoint values and neighboring facts read or compared; the arrow changes no neighboring relation occurrence. | Preserves the accepted arrow/application/Work boundary. |

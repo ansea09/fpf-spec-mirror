@@ -6,12 +6,12 @@ section_id: "A.19.CN:4"
 section_title: "Solution — The CN‑Spec (CN‑Spec) + Registry + Bridges"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__005_solution-the-cn-spec-cn-spec-registry-bridges.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:4 — Solution — The CN‑Spec (CN‑Spec) + Registry + Bridges"
-line_start: 36902
-line_end: 36984
+line_start: 36172
+line_end: 36254
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -58,7 +58,7 @@ CN‑Spec {
     // if needed: missingness?, admissible_domain? (MM‑CHR-consistent metadata)
   }]
   chart             : { reference_state, coordinate_patch, measurement_protocol_ref?, value_ascription_basis? }
-  normalization     : {
+  normalization?    : {
     UNM_id?,
     methods: [NormalizationMethodId],
     instances?: [NormalizationMethodInstanceId],
@@ -70,14 +70,14 @@ CN‑Spec {
   comparability     : { mode ∈ {coordinatewise, normalization-based}, minimal_evidence }
   intended_use      : <claim, comparison, admission, or aggregation use>
   indicator_policy? : { IndicatorChoicePolicyRef, scope, edition }
-  acceptance        : { checklist_for_admission, window, evidence_anchors }
+  acceptance        : { checklist_for_admission, window?, evidence_anchors }
   aggregation?      : { Γ_fold, selected WLNK/COMM/LOC/MONO claims, time_policy }
   alignment?        : [{ bridge_ref, direction, correspondence_rule, tolerated_loss, reliance_ref? }]
-  maintenance       : { source_maintenance_assignment, DRR_links, deprecation_plan }
+  maintenance?      : { source_maintenance_assignment, DRR_links, deprecation_plan }
 }
 ```
 
-**Reading:** the CN-frame is the selected characteristic space and chart for one named bearer and use. `CN‑Spec` pins the editions, comparison basis, scope and window, normalization references, aggregation choice, and admission evidence that make that use auditable. A.19.UNM still defines normalization semantics, A.19.UINDM defines indicatorization, C.16 supplies measurement and evidence backing, and G.0 supplies admissibility gates. CN‑Spec records the values used; it does not make a source, scope, or Bridge into a universal container. An actual `Γ_fold` cites its law and applicability basis. Its property codes express only the claims needed by this use; A.9 supplies an unresolved law choice or property check, while ULSAM retains the actual CHR fold and admissibility rules.
+**Reading:** the CN-frame is the selected characteristic space and chart for one named bearer and use. The normalization block is needed for normalization-based comparison; direct coordinatewise comparison can omit it. Add maintenance arrangements when the specification is retained for later reuse or maintained as a shared edition. `CN‑Spec` pins the editions, comparison basis, scope and window, normalization references, aggregation choice, and admission evidence that make that use auditable. A.19.UNM still defines normalization semantics, A.19.UINDM defines indicatorization, C.16 supplies measurement and evidence backing, and G.0 supplies admissibility gates. CN‑Spec records the values used; it does not make a source, scope, or Bridge into a universal container. An actual `Γ_fold` cites its law and applicability basis. Its property codes express only the claims needed by this use; A.9 supplies an unresolved law choice or property check, while ULSAM retains the actual CHR fold and admissibility rules.
 
 **Mechanism-reference note.** `UNM_id` identifies the admitted normalization mechanism. `NormalizationMethodId` and `NormalizationMethodInstanceId` retain the meanings declared by A.19.UNM, and evidence for a relied-on instance remains with C.16. CN‑Spec neither redefines those terms nor implies transport or a cross-local relation.
 
@@ -113,7 +113,7 @@ Bridge <source F.17 cell> → <target F.17 cell>
   tolerated_loss: <declared limit>
   transform: {pullback | pushforward | re-scaling | re-binning | … }
   plane_relation_ref?: <only when a separately defined plane relation obtains>
-  extra_guards: {additional evidence, review assignment, or waiver speech act}
+  extra_guards?: {additional evidence, required review, or an authorized exception within its applicable scope}
 ```
 
 The Bridge establishes only the exact sense relation. A claim that uses it for comparison, admission, or aggregation remains a separate C.2.1 use claim with its direction, rule, and tolerated loss, together with the A.10 provenance account and any B.3 assurance result required for that use. No Bridge follows from matching names, and no reverse direction follows automatically. B.3 supplies any current loss effect on assurance; CN‑Spec may add operational guards but does not redefine that calculus.

@@ -6,12 +6,12 @@ section_id: "C.39.MF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:10 — Rationale"
-line_start: 83456
-line_end: 83461
+line_start: 82280
+line_end: 82285
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -23,7 +23,7 @@ keywords:
 
 ### C.39.MF:10 - Rationale
 
-The focus determines which claims are admissible in later Method use. Preserving the difference among a Method, family, local grouping, relation focus, and non-Method subject prevents downstream qualification or architecture prose from silently upgrading an unsupported object.
+The focus identifies the subject and relations that later Method development must address. Preserving the difference among a Method, family, local grouping, relation focus, and non-Method subject prevents downstream qualification or architecture prose from silently upgrading an unsupported object.
 
 C.39.MF connects questions about Methods, their descriptions, Work, capability, tools, variants and Method change. Project, process and case accounts help discover those questions. Recovering each claim's subject before selecting its representation preserves both useful accounts of one Work and useful connections among different subjects.
 

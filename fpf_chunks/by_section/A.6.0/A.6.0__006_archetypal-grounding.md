@@ -6,12 +6,12 @@ section_id: "A.6.0:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:5 — Archetypal Grounding"
-line_start: 16611
-line_end: 16664
+line_start: 16294
+line_end: 16347
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -85,7 +85,7 @@ Practical payoff: formal-methods engineers can fill and inspect the dependent A.
 
 #### A.6.0:5.5 - PrincipleFrame: heat-flow balance
 
-A thermal-modeling team writes a `PrincipleFrame` stating that net heat flow across a selected system boundary must balance the change in stored energy. The frame names the observable distinction between inward and outward heat flow at that boundary. It cites separately governed heat-flow characteristics, units, the selected `CHR:ReferencePlane`, and the measurement declaration needed to check that distinction; its Applicability names the modeled systems and conditions for which the balance claim is made.
+A thermal-modeling team writes a `PrincipleFrame` for a selected system boundary and interval. Under the explicit assumption that heat is the only net energy transfer, net heat transferred across that boundary during the interval equals the change in stored energy. The frame distinguishes inward and outward transfer. It cites the heat-flow characteristics, units, selected `CHR:ReferencePlane` and measurement declaration needed to check the balance; Applicability states the modeled systems and conditions under which this assumption and balance hold.
 
 A comparison result may show that the residual is below the chosen tolerance. The comparator and tolerance remain under their direct comparison and measurement patterns; operation admission remains under A.6.1, and a gate-passage verdict remains under A.21/C.11. If a laboratory measurement sense is proposed for use in a plant-model sense, resolve both exact F.17 local senses and apply F.9. Cite a Bridge only when its predicate obtains; state the bounded use and any preservation or loss of sign convention, unit, and boundary interpretation separately.
 

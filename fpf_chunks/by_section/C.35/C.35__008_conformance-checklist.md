@@ -6,13 +6,14 @@ section_id: "C.35:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:7 — Conformance checklist"
-line_start: 81370
-line_end: 81381
+line_start: 80197
+line_end: 80208
 dependencies:
+  - "A.13"
   - "A.15.1"
   - "A.15.PROD"
   - "A.2.1"
@@ -60,11 +61,11 @@ keywords:
 
 | Check | Pass condition |
 | --- | --- |
-| `CC-C35-1` | A sentence or four-line statement names the exact result, the organization that already obtains or is only proposed, the one condition required for the next use, and the forbidden overread or return. This is a conforming first result. |
+| `CC-C35-1` | A sentence or four-line statement names the exact result, the organization that already obtains or is only proposed, the supported next use and any unresolved condition, material limitation or required return. This is a conforming first result. |
 | `CC-C35-2` | An optional materialized note has the exact result as its EntityOfConcern and repeats the readable minimum. It adds identity, representation, publication, project-use, branch, Method, Work, attribution, bearer, evaluation, or next-claim fields only when the receiving use relies on them. Any present publication-form, publication-occurrence, or presentation-carrier reference names its truthful object; absent publication apparatus creates no field-filling duty. |
-| `CC-C35-3` | When branch evidence is relied on, exactly one branch is selected. Transformation supplies exact source and result objects, trace, preservation, and loss; discovery supplies observation or extraction basis, what is observed, what is inferred, what remains unknown, coverage, uncertainty, and validation; generative proposal supplies constraints, proposed organization content, omissions, and validation needs, with source and preservation only for an exact declared baseline. |
+| `CC-C35-3` | When branch evidence is relied on, the applicable branch is selected for each claim; distinct operations in a complex result retain their separate bases. Transformation supplies exact source and result objects, trace, preservation, and loss; discovery supplies observation or extraction basis, what is observed, what is inferred, what remains unknown, coverage, uncertainty, and validation; generative proposal supplies constraints, proposed organization content, omissions, and validation needs, with source and preservation only for an exact declared baseline. |
 | `CC-C35-4` | A positive structure reference passes all four A.22 discriminators. Otherwise the organization remains modal architecture-claim content, which C.32 may receive as candidate input without treating it as obtaining architecture. |
 | `CC-C35-5` | Bearer or realization detail appears only when the intended use relies on feasibility or realization; any such question uses the rule that defines or tests it. |
 | `CC-C35-6` | Any current archive, front, pool, publication, eval, measurement, mathematical-lens, decision, evidence, assurance, gate, release, Method, or Work claim uses its direct pattern; an absent claim creates no C.35 field-filling duty. |
-| `CC-C35-7` | The first result states the next-use condition and limit or return. An exact next-claim or rule reference is added only when the receiving action relies on reidentifying it independently. |
+| `CC-C35-7` | The first result states the supported next use and any condition, limit or return that changes reliance. An exact next-claim or rule reference is added only when the receiving action relies on reidentifying it independently. |
 

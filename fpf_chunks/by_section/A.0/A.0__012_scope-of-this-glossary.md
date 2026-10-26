@@ -6,7 +6,7 @@ section_id: "A.0:QF.0a"
 section_title: "Scope of this glossary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__012_scope-of-this-glossary.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.0a — Scope of this glossary"
@@ -55,5 +55,5 @@ keywords:
 
 ### A.0:QF.0a - Scope of this glossary
 
-This pattern is an **on‑ramp**: it **does not replace** C.17–C.19. It binds Plain definitions to **publication/telemetry** expectations so newcomers can *use* NQD/E/E‑LOG immediately while experts follow the formal trails.
+Use C.17–C.19 for the corresponding metrics and search policies. This glossary connects their terminology to the selected operation and its publication or telemetry requirements.
 

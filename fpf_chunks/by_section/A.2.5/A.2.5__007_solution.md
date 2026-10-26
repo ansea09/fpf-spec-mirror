@@ -6,12 +6,12 @@ section_id: "A.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__007_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:4 — Solution"
-line_start: 6314
-line_end: 6411
+line_start: 6273
+line_end: 6370
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -88,15 +88,15 @@ For a relied-on state claim, keep this order:
 5. use `A.2.4` for compact evidence use and `A.10` only when fuller evidence-basis detail changes the relied-on use; and
 6. let the direct consumer apply the supported assertion under its own subject pattern.
 
-When evaluation itself is current, recover the exact actual evaluator System through A.13 and let A.15.1 independently admit exact dated evaluation `W_eval : U.Work`. Add F.6 `performedUnderAssignment(W_eval, RA_eval)` through the same obtaining A.13 assignment only when this account or its receiving use expressly consumes precise assignment-bound attribution; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the evaluation Work intact. A separately constituted evaluation result is a `C.2.1` episteme whose ClaimGraph states the judgment about the assignment or established occurrence. The evaluation and receiving use add no participants to the state relation: its participants remain the tested assignment and its predicate, and occurrence identity still follows §4.3.
+When the account makes a claim about a particular dated evaluation Work, recover the evaluator System through A.13 and let A.15.1 independently admit that evaluation `W_eval : U.Work`. Add F.6 `performedUnderAssignment(W_eval, RA_eval)` through the same obtaining A.13 assignment only when this account or its receiving use expressly consumes precise assignment-bound attribution; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the evaluation Work intact. A separately constituted evaluation result is a `C.2.1` episteme whose ClaimGraph states the judgment about the assignment or established occurrence. The evaluation and receiving use add no participants to the state relation: its participants remain the tested assignment and its predicate, and occurrence identity still follows §4.3.
 
-The actual state extent, target evaluation window, and evidence-relevance interval answer different questions. Expired evidence lowers reliance without retroactively rewriting an earlier world-side occurrence.
+The actual state extent, target evaluation window, and evidence-relevance interval answer different questions. When evidence no longer supports the receiving use, reconsider reliance without retroactively rewriting an earlier world-side occurrence.
 
 #### A.2.5:4.5 - Work-Admission Use
 
-A.2.5 supplies the state relation and exact assertion form. Use the direct subject patterns when Method selection, a gate decision, authority, or a claim that Work occurred is needed.
+A.2.5 defines the assignment-state relation and guides recognition of its occurrences and formulation of assertions. Use the direct subject patterns when Method selection, a gate decision, authority, or a claim that Work occurred is needed.
 
-For a consequence-bearing admission use, the system performing the consumer's evaluation or decision Work applies that consumer's direct pattern and checks:
+For a consequence-bearing admission use, apply the consumer's direct pattern and check:
 
 1. the exact `U.SystemRoleAssignment` obtains throughout the receiving decision or Work window;
 2. the consumer selects one exact `SystemRoleAssignmentStatePredicate`, whose truth condition may be an explicit conjunction;
@@ -104,7 +104,7 @@ For a consequence-bearing admission use, the system performing the consumer's ev
 4. the assertion has the evidence relation and currentness that this consumer requires; and
 5. every other admission condition is separately established under its subject pattern.
 
-The consumer's direct pattern defines any admit, deny, defer, or unresolved outcome. A.2.5 contributes only the exact state relation on which that decision Work may rely.
+The consumer's direct pattern defines any admit, deny, defer, or unresolved outcome. This pattern supplies the state-recognition and assertion rules used in that decision.
 
 #### A.2.5:4.6 - System-Role-Kind Relation Use
 
@@ -126,7 +126,7 @@ When the model needs continuous coordinates rather than discrete labels, use `A.
 
 #### A.2.5:4.8 - Semantic Basis and Receiving-Use Qualification
 
-Most state claims need no bridge, reference scheme, or bounded-model-use structure. Directly governed truth-condition clauses are enough.
+Use directly governed truth-condition clauses when they suffice for the state claim.
 
 When a `KindSignature`, reference scheme, bridge, or `BoundedModelUseStructure` changes the meaning of a predicate clause, include its exact edition in `SystemRoleAssignmentStatePredicate` semantic basis and therefore in predicate identity. When it changes only how a separate receiving assertion, comparison, or Work use presents or consumes an unchanged predicate, cite it in that receiving use instead. The generic relation signature remains the two-participant declaration in §4.1.
 

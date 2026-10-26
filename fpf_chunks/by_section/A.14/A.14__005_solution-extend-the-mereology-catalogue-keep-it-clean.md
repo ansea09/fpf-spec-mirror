@@ -6,12 +6,12 @@ section_id: "A.14:4"
 section_title: "Solution — extend the mereology catalogue, keep it clean"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__005_solution-extend-the-mereology-catalogue-keep-it-clean.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:4 — Solution — extend the mereology catalogue, keep it clean"
-line_start: 28618
-line_end: 28629
+line_start: 28183
+line_end: 28197
 dependencies:
   - "A.1"
   - "A.15"
@@ -54,13 +54,16 @@ keywords:
 
 ### A.14:4 - Solution — extend the mereology catalogue, keep it clean
 
-**A.14 defines three direct sub-relations of `partOf`** and re-affirms the firewall between mereology and neighboring claims:
+**A.14 defines three additional direct sub-relations of `partOf`:**
 
 1. **PortionOf** — a measured part of a whole under one extensive measure and boundary rule.
 2. **AspectOf** — a bearer-dependent structural part distinguished under a named facet rule.
-3. **PhaseOf** — the same carrier restricted to a proper time interval.
-4. **Keep local kinds, Methods, and Work out of structural part trees.** Do not treat a local system-role kind or a Method as a structural part. A separately identified System or Episteme may have its own direct part relation; use method-composition patterns for submethods and A.15.1 for Work parts and occurrences.
-5. **Use the collection's own belongs-to rule.** State who or what may belong, what makes belonging begin and end, and how recurrence and past belonging are handled. FPF does not use one public `MemberOf` relation for unlike collections. Belonging alone establishes neither holonhood nor parthood, and it does not rule out a separately grounded constructive part relation after all six A.1 matters pass.
+3. **PhaseOf** — the same holon restricted to a proper time interval.
+
+Two neighboring distinctions govern how these relations are used:
+
+- **Keep local kinds, Methods, and Work out of structural part trees.** Do not treat a local system-role kind or a Method as a structural part. A separately identified System or Episteme may have its own direct part relation; use method-composition patterns for submethods and A.15.1 for Work parts and occurrences.
+- **Use the collection's own belongs-to rule.** State who or what may belong, what makes belonging begin and end, and how recurrence and past belonging are handled. FPF does not use one public `MemberOf` relation for unlike collections. Belonging alone establishes neither holonhood nor parthood, and it does not rule out a separately grounded constructive part relation after all six A.1 matters pass.
 
 The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** (conceptual, logical/epistemic) remain as in the kernel; § 6 distinguishes them from **PortionOf**, **AspectOf**, **PhaseOf**, and collection belonging.
 

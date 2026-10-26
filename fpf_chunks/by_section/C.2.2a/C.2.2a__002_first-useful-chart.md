@@ -6,12 +6,12 @@ section_id: "C.2.2a:0"
 section_title: "First useful chart"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__002_first-useful-chart.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:0 — First useful chart"
-line_start: 52764
-line_end: 52779
+line_start: 51930
+line_end: 51945
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -51,12 +51,12 @@ Start with the smallest row that can change the next action:
 - the exact episteme publication being positioned;
 - only the currently relevant facet values or intervals; mark a decision-relevant unknown as `unknown`;
 - the grounds for those readings;
-- the local threshold used by the named next action and the action now allowed, blocked, or still undecided;
+- any local threshold used by the named next action and whether the readings meet it, fail it, or leave the result undecided;
 - publication form, face, or carrier only when that distinction changes interpretation, preservation, or the next action.
 
-**Filled example.** `Pump-alert-17` is the alerting episteme publication being positioned. Its affected asset and discrepant reading are visible, but the claim structure is not yet complete; rival diagnostic routes remain open; the alert is anchored in the operator loop; and its representation mixes text with telemetry. Formality is omitted because the present routing decision does not depend on it. The grounds are trace `T-17` and operator note `N-4`. The local rule permits routing to the diagnostic-question seam once the affected asset and discrepant reading are explicit; it does not yet permit treating the alert as a Work record. Form, face, and carrier are omitted because none changes that decision.
+**Filled example.** `Pump-alert-17` is the alerting episteme publication being positioned. Its affected asset and discrepant reading are visible, but the claim structure is not yet complete; rival diagnostic routes remain open; the alert is anchored in the operator loop; and its representation mixes text with telemetry. Formality is omitted because the present routing decision does not depend on it. The grounds are trace `T-17` and operator note `N-4`. The local rule permits routing to the diagnostic-question seam once the affected asset and discrepant reading are explicit. Form, face, and carrier are omitted because none changes that decision.
 
-**Non-use.** If a pinned inherited chart already supplies the current values and threshold for the same next action, cite it instead of publishing another row. If `early` or `ready` is only ordinary prose and no routing, comparison, publication, or threshold decision depends on it, leave it as ordinary prose rather than creating a governed position.
+**Non-use.** If an existing chart already supplies the applicable values and threshold for the same next action, cite it instead of publishing another row. If `early` or `ready` is only ordinary prose and no routing, comparison, publication, or threshold decision depends on it, leave it as ordinary prose rather than creating a governed position.
 
 **Practical result.** The row tells the practitioner whether to continue, stop, or route the publication to the pattern that governs the next question; it does not itself authorize that action.
 

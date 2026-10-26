@@ -6,12 +6,12 @@ section_id: "C.19.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:7 — Conformance Checklist"
-line_start: 62119
-line_end: 62131
+line_start: 61108
+line_end: 61120
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -43,7 +43,7 @@ keywords:
 | `CC-C19.2-3` | Candidate generation, local choice, planning, tool-call planning, dated work, and direct result retain their subject patterns. |
 | `CC-C19.2-4` | Every candidate retains its direct kind and satisfies one explicit eligibility predicate for the same use and guarantee. |
 | `CC-C19.2-5` | Any `C.11` result is exactly `choose now`, `reject current set`, `probe again`, or `reroute`. |
-| `CC-C19.2-6` | The intended-reader position, `U.MethodDescription` episteme, described `U.Method`, admitted performing `U.System`, dated `U.Work`, and problem-facing result remain distinct. Every precise performer has an A.13 core, and the Work is independently admitted under A.15.1. F.6 is required only when the receiving use also needs precise assignment-bound attribution. A short projection exposes assignment identity, species, participants, or attribution detail only when that use relies on them, attribution is ambiguous, or source wording must be repaired. |
+| `CC-C19.2-6` | The intended-reader position, guidance, any independently identified `U.Method` and qualifying `U.MethodDescription`, performing `U.System`, dated `U.Work` and problem-facing result remain distinct. Every precise performer has an A.13 core, and the Work is independently admitted under A.15.1. F.6 is required only when the receiving use also needs precise assignment-bound attribution. A short projection exposes assignment identity, species, participants, or attribution detail only when that use relies on them, attribution is ambiguous, or source wording must be repaired. |
 | `CC-C19.2-7` | The first useful result and stop are practical, and every reopen condition changes a named next action. |
 | `CC-C19.2-8` | No generic apparatus U-kind, hidden scalar, or unadmitted CGUS is introduced. |
 

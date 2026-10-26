@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:5"
 section_title: "Archetypal grounding (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__007_archetypal-grounding-didactic-informative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:5 — Archetypal grounding (didactic, informative)"
-line_start: 39123
-line_end: 39148
+line_start: 38360
+line_end: 38385
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -39,18 +39,18 @@ keywords:
 
 #### A.19.ULSAM:5.2 - Show
 
-**Scenario A (manager-facing): “roll up” a multi-metric readiness into one reliability-like coordinate.**
+**Scenario A (manager-facing): assess a proposed aggregate readiness measure.**
 1. A CHR pipeline produces a set of admitted measures (post-`USCM` or directly from characteristic measures):
    `MeasureSetSlot = {m₁, m₂, …, m_k}`.
 2. The team wants a single “readiness” measure `m_ready` to be used as an input to later comparison/selection.
-   The temptation is to “just average” or “just do weighted sum”.
+   Define the question this aggregate would answer and its acceptance or comparison use; a readiness label supplies no aggregation law.
 3. ULSAM forces three explicit questions before folding:
    - **Admissibility:** Is the fold admissible under `CGSpecSlot.SCP` (units/scale) and `CGSpecSlot.Γ_fold` (declared fold kinds)?
    - **Evidence:** Is the evidence posture sufficient under `MinimalEvidence`? If not, do we `degrade` or `abstain`?
    - **Policy identity:** What is the identity of the fold (which ΓFoldRef, which edition)?
-4. Only then, the pipeline performs:
+4. When those conditions hold, the application computes:
    `Fold_Γ(MeasureSetSlot, CNSpecSlot, CGSpecSlot, GammaFoldSlot, MinimalEvidenceSlot?) → (AggregatedMeasureSlot, ContributorSetSlot?)`.
-   The audit records `ΓFoldRef` and (optionally) the contributor surface.
+   The audit records ΓFoldRef and makes the actual contributors recoverable, with the optional contributor output when needed. If no justified fold answers the readiness question, retain the separate measures and their direct criteria.
 
 **Scenario B (engineer-facing): proposed aggregation across different bases.**
 - A project tries to fold measures with different bearers, membership rules, scales, comparison bases, or reference planes. ULSAM first checks whether one admitted set and lawful fold can be stated. If the conclusion relies on an F.9 Bridge, kind relation, aggregation or membership relation, or plane relation, the project cites that exact obtaining relation and its loss; otherwise it constitutes separate folds or fails closed.

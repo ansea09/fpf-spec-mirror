@@ -6,12 +6,12 @@ section_id: "A.6.F:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:2 — Problem"
-line_start: 22705
-line_end: 22720
+line_start: 22292
+line_end: 22307
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,7 +72,7 @@ keywords:
 FPF texts repeatedly use function-like wording for different FPF kinds and relations:
 
 - required transformation or effect in an architecture view;
-- capability of a holon;
+- capability of a System;
 - method wording;
 - work occurrence or work result;
 - a system-role kind or assignment, participation, actual functioning, or responsibility;

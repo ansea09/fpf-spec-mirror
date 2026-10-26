@@ -6,12 +6,12 @@ section_id: "C.2.3:19"
 section_title: "Reusing an earlier assessment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__020_reusing-an-earlier-assessment.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:19 — Reusing an earlier assessment"
-line_start: 53307
-line_end: 53320
+line_start: 52461
+line_end: 52474
 dependencies:
   - "A.16"
   - "A.18"

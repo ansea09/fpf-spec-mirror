@@ -6,12 +6,12 @@ section_id: "C.2.2a:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:6 — Bias-Annotation"
-line_start: 52904
-line_end: 52906
+line_start: 52060
+line_end: 52062
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,5 +45,5 @@ keywords:
 ---
 
 ### C.2.2a:6 - Bias-Annotation
-The pattern deliberately biases authors toward decomposable coordinate claims and away from folk stage vocabularies. That costs some brevity, but it prevents collapse of genuinely different state facets into one adjective.
+The pattern favors separate facet readings over one stage adjective when a decision depends on them. Ordinary descriptions remain sufficient under the non-use boundary in :0.
 

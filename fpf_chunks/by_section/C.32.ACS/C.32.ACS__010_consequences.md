@@ -6,12 +6,12 @@ section_id: "C.32.ACS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:9 — Consequences"
-line_start: 77807
-line_end: 77816
+line_start: 76719
+line_end: 76728
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -51,7 +51,7 @@ keywords:
 
 | Consequence | Benefit | Cost |
 |---|---|---|
-| Architecture optimization gets declared criteria. | C.32 and C.32.MLAO can use multi-criteria language without unnamed criteria. | The project must admit and type rows before synthesis or optimization claims. |
+| Architecture optimization gets declared criteria. | C.32 and C.32.MLAO can use multi-criteria language without unnamed criteria. | A synthesis or optimization claim that relies on a criterion needs its admitted binding; candidate exploration can help resolve an incomplete draft. |
 | The 300-to-3 problem is handled by staged admission. | Broad catalogues inform the project without serving as the project criteria set. | Some familiar qualities must be guardrails or context rows. |
 | Anti-Goodhart guardrails are explicit. | Optimization can protect functional adequacy and other architecture concerns. | A single convenient score cannot govern choice by itself. |
 | Measurement and eval stay clean. | C.16 and ACE keep readings, eval programs, and eval results separate from criteria. | Some eval programs require additional receiving-pattern work before they can drive action. |

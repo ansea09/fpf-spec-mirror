@@ -6,12 +6,12 @@ section_id: "A.6.C:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:intro — Intro"
-line_start: 15572
-line_end: 15590
+line_start: 15271
+line_end: 15289
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -34,33 +34,24 @@ dependencies:
   - "U.SpeechAct"
   - "U.Work"
 keywords:
-  - "MUST NOT"
+  - "A.6.B separately classifies the actual claim"
   - "MVPK no-new-semantics"
-  - "OPTIONAL"
-  - "SHOULD"
-  - "a mechanism entry predicate enters A"
-  - "an individual duty"
-  - "and SHOULD NOT enter D for a generic prescription or"
-  - "and an actual A.21 GateDecisionResult"
-  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
-  - "are statement operators"
+  - "OPTIONAL or authority-looking wording is ambiguous"
   - "atomic L/A/D/E rows"
   - "commitment or grant"
   - "dated Work"
   - "description and publication"
-  - "exercise"
   - "four-question contract lens"
   - "gate"
-  - "not ontology or quadrant selectors. MUST"
+  - "marking it informative does not settle the claim"
   - "obtaining versus representation"
-  - "or evaluated finding enters E. If the wording does not expose the branch and direct object"
-  - "or prohibition. MAY"
   - "promise content"
-  - "recommendation-as-duty"
-  - "rewrite it or mark it informative"
+  - "recommendation-as-duty or prohibition enters D. When MAY"
+  - "retain it as bounded source wording with that uncertainty"
   - "separate result and evidence"
   - "speech-act Work"
-  - "when separately instituted for an actual bearer"
+  - "the visible keyword alone does not establish its object or whether an individual relation obtains"
+  - "use the A.6 A6-AW-* branch. If its object or meaning remains unresolved"
 ---
 
 ## A.6.C — Contract Unpacking for Boundaries
@@ -71,7 +62,7 @@ keywords:
 > **Placement:** Part A → **A.6 Signature Stack & Boundary Discipline**
 > **Builds on:** A.6 (stack + classification intent), **A.6.B** (L/A/D/E), **A.6.P:4.11a** (service/access subject-pattern recovery), **A.7** (EntityOfConcern, Description episteme, and carrier separation), **A.2.3** (`U.PromiseContent`), **A.2.8** (`U.Commitment`), **A.2.8.PER** (strong/weak permission, exercise, and conflict), **A.2.9** (`U.SpeechAct`), **A.15.1** (`U.Work`), **A.10** and **B.3** (evidence and assurance use), E.10 (`L-SERV` and `LEX-BUNDLE`), E.17 (MVPK “no new semantics” faces), F.12 (service acceptance and evidence discipline)
 > **Naming boundary:** **F.18** may provide durable names for recovered terms when naming is current; it does not define or constrain the promise-content, speech-act, commitment, permission, work, evidence, or boundary ontology.
-> **Vocabulary boundary:** Reuses “contract”, “SLA”, and “guarantee” only as Plain-level source cues. The four questions below are a boundary-language unpacking lens, not a `Contract`, bundle, register-part kind, or rival claim set. The existing A.6.B Claim Register may add `bundleId`, optional `questionRef`, `directObjectDesignation`, `directObjectPatternLocator`, and `faceRefs`; it remains the one atomic-claim record.
+> **Vocabulary boundary:** “Contract”, “SLA” and “guarantee” are Plain-level source cues. The four questions unpack their meaning without defining a new `Contract` kind.
 > **Purpose (one line):** Resolve consequential ambiguity in boundary contract language through the applicable four questions and atomic claims; use the A.6.B Claim Register only when the receiving use needs a record under §4.5.
 
 **Use this when.** Use `A.6.C` when words such as *contract*, *promise*, *guarantee*, *SLA*, or *interface agreement* leave a consequential ambiguity about what was promised, instituted, governed, performed, produced, delivered, accepted, or evidenced.

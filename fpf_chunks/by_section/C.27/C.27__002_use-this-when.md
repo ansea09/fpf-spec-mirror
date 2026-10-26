@@ -6,12 +6,12 @@ section_id: "C.27:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:0 — Use This When"
-line_start: 67001
-line_end: 67038
+line_start: 65974
+line_end: 66011
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -71,7 +71,7 @@ A local note can remain record-shaped claim content. Use E.24.PUB only when a pu
 | --- | --- | --- |
 | Dyn0 | a state or snapshot | ordinary prose; C.16 only when measurement construction matters |
 | Dyn1 | a rate, trend, trajectory, flow, throughput, tempo, or cadence | ordinary prose or a C.16 result |
-| Dyn2 | effort, input, policy, timing, resistance, feedback, or constraint is claimed to change a rate, rhythm, recovery, or regime | one small C.27 card |
+| Dyn2 | effort, input, policy, timing, resistance, feedback, or constraint is claimed to change a rate, rhythm, recovery, or regime | one small C.27 account, in ordinary prose or the card below |
 
 Dyn0, Dyn1, and Dyn2 classify authored claims. They do not classify Systems, teams, services, Methods, or practices as kinds of things.
 

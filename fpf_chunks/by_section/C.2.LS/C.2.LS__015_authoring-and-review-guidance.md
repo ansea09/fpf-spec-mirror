@@ -6,12 +6,12 @@ section_id: "C.2.LS:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__015_authoring-and-review-guidance.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:14 — Authoring and Review Guidance"
-line_start: 53484
-line_end: 53504
+line_start: 52636
+line_end: 52656
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -48,7 +48,7 @@ When publishing a language-state facet profile:
 1. start from the local authoring problem rather than from a memorized progression;
 2. name the facet refs explicitly;
 3. add threshold refs only when a threshold changes routing, repair, or another operative decision;
-4. avoid global labels such as "mature", "raw", or "ready" unless the profile decomposition is already visible.
+4. when a label such as "mature", "raw", or "ready" carries an operational claim, make the relevant facet readings and conditions visible.
 
 #### C.2.LS:14.2 - For assurance readers
 An assurance reader should ask:
@@ -56,8 +56,8 @@ An assurance reader should ask:
 - is any facet silently replaced by `F`?
 - is a threshold published on an explicit facet rather than on a poetic surrogate?
 - do route or reopen claims actually match the published facet bundle?
-- are profile notes genuinely informative, or are they smuggling definitions or tests from elsewhere?
+- do profile notes guide interpretation while preserving the definitions and tests supplied by the applicable patterns?
 
 #### C.2.LS:14.3 - For integrators
-Integrators should preserve profile references rather than rephrasing them into local slang. A local alias is acceptable only if the underlying facet docking remains explicit and stable.
+Integrators should preserve the profile references. A local alias is acceptable when the underlying facet references remain recoverable and unambiguous.
 

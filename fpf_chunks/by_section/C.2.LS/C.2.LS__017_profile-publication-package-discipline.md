@@ -6,12 +6,12 @@ section_id: "C.2.LS:16"
 section_title: "Profile Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__017_profile-publication-package-discipline.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:16 — Profile Publication Package Discipline"
-line_start: 53522
-line_end: 53541
+line_start: 52674
+line_end: 52693
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -43,19 +43,19 @@ keywords:
 ### C.2.LS:16 - Profile Publication Package Discipline
 
 #### C.2.LS:16.1 - Minimal publishable profile package
-A publishable `U.LanguageStateFacetProfile` should normally carry:
+A publishable `U.LanguageStateFacetProfile` carries what its receiving use needs:
 
-- the declared facet refs for `AE`, `CD`, `LanguageStateAnchoringMode`, and `LanguageStateRepresentationFactorBundle`;
+- the selected facet refs from :4, with their readings or references to those readings;
 - any threshold refs that substantively affect routing, repair, bridge interpretation, or review load;
-- the local relation to `F` when readers might otherwise treat `F` as a surrogate;
-- any omission note when a facet is intentionally unpublished, unknown, or locally irrelevant.
+- the relation to `F` when readers might otherwise treat `F` as a surrogate;
+- any missing or unknown reading that could change the receiving judgement.
 
 One-line publication is admissible only if the facet definitions and tests remain legible.
 
 #### C.2.LS:16.2 - Partial-profile rule
-A partial profile is admissible only when omission is explicit. Publishing `AE` and `CD` while deferring `LanguageStateAnchoringMode` is acceptable; silently omitting it and then speaking in scalar prose such as "early" or "ready" is not.
+A partial profile identifies its selected facets and any missing reading that could change the receiving judgement. Publishing `AE` and `CD` can suffice when anchoring is irrelevant to that use. If the use depends on anchoring and its value is unavailable, state that unknown; a readiness label cannot fill it.
 
-If only one facet is published, either explain why the others are not included in the current note or point to the note where they are already published.
+One facet can be sufficient for the named use. Refer to other readings only when that use needs them; no note about irrelevant omissions is required.
 
 #### C.2.LS:16.3 - Overlay discipline
 Local overlays such as "explicit-but-open", "trace-heavy", or "operator-tight" are admissible only when they dock to explicit facet refs. Overlays remain secondary to the declared profile and must not replace the facet bundle.

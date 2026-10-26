@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.TC.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Working Question"
-line_start: 49238
-line_end: 49437
+line_start: 48406
+line_end: 48605
 dependencies:
   - "B.5.RA"
   - "B.5.RR"

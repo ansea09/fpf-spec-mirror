@@ -6,12 +6,12 @@ section_id: "C.2.5:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__015_authoring-and-review-guidance.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:14 — Authoring and Review Guidance"
-line_start: 53888
-line_end: 53903
+line_start: 53041
+line_end: 53056
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -40,11 +40,11 @@ To assign `CD`, ask:
 
 - how many rivals remain live?
 - is one route merely preferred, or actually fixed?
-- what guard, `governingPatternRef`, or `authoritySourceRef` makes the closure binding?
+- if the closure is binding, what applicable guard, `governingPatternRef`, or `authoritySourceRef` makes it so?
 - what would count as an admissible reopen trigger?
 
 #### C.2.5:14.2 - Review prompt
-An assurance reader should ask whether closure is being inferred from tone, from hierarchy, or from social force rather than from an explicit narrowing of route or frame space.
+An assurance reader should identify the actual narrowing and its source under :16.2, including a policy or protocol when it fixes the route. Confident tone or an appeal to hierarchy alone does not establish that fixity.
 
 #### C.2.5:14.3 - Governance note
 Whenever a claim about a gate, commitment, or endpoint use depends on `CD`, the supporting guard, `governingPatternRef`, or `authoritySourceRef` should be visible.

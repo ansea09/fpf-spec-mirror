@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:4 — Solution"
-line_start: 20948
-line_end: 21173
+line_start: 20596
+line_end: 20815
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -34,9 +34,7 @@ keywords:
 
 ### A.6.P.WMR:4 - Solution
 
-**Normative method boundary.** The Conformance Checklist states each method requirement once; the explanatory sections add none. A generic prescription states what one exact policy or other normative episteme requires; it does not create an individual duty bearer or commitment occurrence. A claim that one actual System or separately governed party has that duty instead cites one separately obtaining A.2.8 `U.Commitment`. WMR opens that individual branch only when the source sentence actually makes that claim. Ontic identity, obtaining, polarity, non-entailment, and admissibility remain declarative.
-
-**Stable WMR lens.** Treat the boundary wording as one use-specific claim about an exact thing relative to an exact object. Recover the direct verb or reason-specific stop first. Keep claim subject, time, polarity, and assertability independently recoverable when any of them can change the answer; do not turn the wording into a participant kind, relation kind, or universal input or result family.
+Treat the boundary wording as a claim about one thing relative to another object. Recover the direct verb or reason-specific stop first. Keep claim subject, time, polarity and assertability independently recoverable when they can change the answer.
 
 The method handles one relation-bearing claim at a time. The trigger word stays in view only until the exact thing, related object, and safe direct verb or stop are recoverable. The result replaces the compressed phrase with the shortest ordinary sentence. If a neighboring claim is still needed, apply the pattern whose Solution answers that exact question.
 
@@ -51,11 +49,9 @@ Claim subject, modality and temporal extent, polarity, and recovery or support s
 | the rule that defines or tests the exact direct relation, or `A.6.1` | the exact relation or one declared operation application is the current question | one readable direct subject-relation claim, one exact declaration-local application binding, or its exact non-assertability result |
 | `A.6.RCD` | no direct relation closes the named use, and a substrate-admitted compound claim, repeated predicate semantics, or relation-kind question is current | its lightest local claim, reusable-definition or conditional kind-admission continuation, or exact blocker; WMR does not reproduce the derivation or disposition algorithm |
 | `A.15.PROD` | production-work participation, entity-identity inception, or production completion is explicitly the current question | one local production claim or that branch's exact blocker; WMR does not reproduce the branch basis |
-| `A.15.1`, then `F.18` when naming is needed | an action nominal or plan-like label is being relied on as one performed occurrence | one exact Work occurrence admitted under `U.Work` at the required granularity or the exact lowered neighboring object or blocker; apply F.18 only after that result when durable naming is needed |
+| `A.13` and `A.15.1`, then `F.18` when naming is needed | the sentence deliberately claims a particular performed Work occurrence | the A.13 basis and independent A.15.1 Work admission at the needed granularity, or the supported neighboring object or blocker; F.6 only for a separate precise assignment-bound attribution; F.18 only for a needed durable name |
 | `A.3.4` and the rule for the current transformation-composition claim | the current claim actually depends on an actual change or positive transformation composition | one independently identified transformation, one governed composition result, or the exact missing-governor or missing-substrate blocker |
 | the rule for evidence use, assurance, naming, delivery, acceptance, transfer, publication, or another subject | the current use additionally needs that distinct claim | only the separately established claim, judgment, name, occurrence, or blocker; none becomes a WMR field or makes the recovered relation obtain |
-
-The substantial interfaces retained below distinguish exits or show why tempting exits differ. Repetition of another rule's full basis is not evidence of correctness; use only the separately established result needed by the current claim.
 
 #### A.6.P.WMR:4.1 - Three ordinary questions and two conditional assurance questions
 
@@ -82,9 +78,9 @@ The four dimensions remain independent. Make a dimension explicit when two plaus
 
 **Well-formedness constraint `WMR-WF1` — orthogonal claim dimensions.** Whenever one of the four dimensions can alter the result, its value must be separately recoverable from the sentence or its immediate governed basis. No dimension supplies another. Explicit axis vocabulary is required only for a material ambiguity, comparison, assurance replay, or reusable formalization; it is not a prerequisite for every simple direct sentence.
 
-`Factually unsupported` applies when an applicable governor is known but the available facts fail to support the proposed assertion; no opposite polarity follows without its own basis. `Missing-information` applies when the governor is known but one named fact needed for the answer is unavailable. `Missing-governor` applies when the exact participants and question are known but no current direct predicate, condition, or defining pattern or declaration closes it.
+`Factually unsupported` applies when an applicable governor and sufficient deciding facts are available but those facts fail the test for the proposed polarity. `Missing-information` applies when a fact needed to decide the test or its applicability is unavailable. `Missing-governor` applies when the participants and question are known but no direct rule supplies the needed predicate, condition or occurrence law. A failed test supplies no opposite polarity without its own basis.
 
-A current commitment is expressible without collapsing fulfilment only when its exact commitment `RelationKind`, participant meanings, extent, obtaining predicate, and the `SubjectPatternLocator` for its defining or constraining content are named; a local id such as `COM-17` is not that settlement. The promised delivery remains intended and unfulfilled until its own exact token, fulfilment predicate, and facts establish fulfilment. A separately stated past case fact remains positive at its governed extent after its named participants satisfy the governor's predicate; it need not obtain now to remain historically true.
+A current commitment is expressible without collapsing fulfilment only when its exact commitment `RelationKind`, participant meanings, extent, obtaining predicate, and the `SubjectPatternLocator` for its defining or constraining content are named; a local id such as `COM-17` is not that settlement. The commitment does not establish fulfilment of the promised delivery. Judge that separate claim under its own predicate and case facts; unavailable facts leave fulfilment unresolved rather than proving non-fulfilment. A separately stated past case fact remains positive at its governed extent after its named participants satisfy the governor's predicate; it need not obtain now to remain historically true. A generic prescription from a policy or another normative episteme does not by itself assert an individual commitment. Open that individual branch only when the sentence claims a duty of an actual System or separately governed party under A.2.8.
 
 A change in any dimension is substantive. A plan does not become an actually obtaining relation because its date arrives; a later observation does not retroactively manufacture a missing relation; and stronger support does not substitute for the subject relation's own facts.
 
@@ -116,15 +112,15 @@ For the fourth exit, retain the distinction that determines the next move:
 
 These are reasons for withholding the attempted claim, not five truth values or new result kinds.
 
-A case-local positive direct relation needs two independent premises. An already published project relation-declaration episteme names the exact `RelationKind`, participant meanings, predicate, applicability, and defining source. A separate didactic world-side fact says that the exact participants at the exact extent satisfy that predicate. A positive sentence needs both. Within the governor's applicability, a failed positive test returns `factually unsupported`; an unavailable deciding fact returns `missing-information`. A known case outside applicability retains the rule's inapplicable result. Reserve `missing-governor` for absence of the governor. WMR neither publishes the token nor copies its declaration.
+A positive direct-relation claim needs both a rule and case facts. The direct subject pattern or an applicable relation-declaration episteme supplies the admitted `RelationKind`, participant meanings, predicate, applicability and identity rule. Separate facts establish that the participants at the relevant extent satisfy that predicate. Within applicability, a failed positive test returns `factually unsupported`; an unavailable deciding fact returns `missing-information`; a case outside applicability retains the rule's inapplicable result. Reserve `missing-governor` for an absent governing rule. An additional published project declaration is unnecessary when the existing direct rule already supplies the needed meaning.
 
 A governed negative sentence needs the analogous negative or non-obtaining criterion and separate facts satisfying it. Failure to support a positive claim, an absent record, or an unobserved event is not a negative premise.
 
-The rejected `MethodDescriptionSlotFillingInWorkRelation` is not a fallback. A method-description field, planned filling, compatible type, stored reference, matching token, work-card row, or nearby result record establishes no actual participant relation by itself.
+A method-description field, planned filling, compatible type, stored reference, matching token or nearby record alone establishes no actual participant relation. Its content may make a claim or supply grounds; assess those under the direct predicate and, where reliance matters, A.10.
 
 #### A.6.P.WMR:4.4 - Ordinary sentence shapes
 
-These shapes are informative drafting aids. A practitioner **MAY** use one after the ordinary answer is known. Only distinctions current for the receiving use appear. In either direct-relation shape, the relation wording is an ordinary reading of one exact `RelationKind` with its resolving direct pattern or relation-declaration episteme; any assertion id remains outside that governor position. The actually-obtaining and historically-obtained shapes are available only after a separate fact says that their exact participants and extent satisfy the predicate; the compact sentence need not copy the fact fixture or evidence package.
+These informative shapes help draft an answer once its meaning is known. Include only distinctions needed by the receiving use. Direct-relation wording is an ordinary reading of an admitted `RelationKind` under its defining rule; an assertion id does not replace that rule. Current and historical claims need facts for their participants and extent, but the compact sentence need not repeat the supporting account.
 
 ```text
 Reusable declaration:
@@ -175,7 +171,7 @@ A practitioner **MAY** retain the trigger word as optional Plain orientation aft
 
 #### A.6.P.WMR:4.5 - Composition and universal-result stop
 
-**Invariant `WMR-I1` — ontology economy.** No universal work-result, transformation-result, production, input, output, outcome, deliverable, handoff, evidence, actual-filling, or status relation or kind follows from boundary-word recovery. **Invariant `WMR-I2` — transformation non-entailment.** No actual transformation follows from a method, plan, desired state, model, description, evaluation result, publication, transfer, flow arrow, adjacency, shared work, or common affected referent.
+**Invariant `WMR-I1` — ontology economy.** Recovering boundary wording does not introduce a universal input, result or handoff kind or relation; retain each recovered object and predicate under its own definition. **Invariant `WMR-I2` — transformation non-entailment.** A plan, desired state, model, description, evaluation, publication or flow representation does not establish an actual transformation merely by its presence or label. Claims and evidence in that material can support a transformation judgement under A.3.4; shared time, Work or referent alone does not.
 
 When the repaired claim depends on transformation composition, state its exact participants and question, then apply `A.3.4` and the rule for that composition claim. Keep only the resulting independently identified transformations plus either one governed composition claim or the exact missing-governor or missing-substrate blocker. WMR does not restate or evaluate their contribution, compatibility, composition, or reidentification algorithm.
 
@@ -186,8 +182,6 @@ The blocker reaches only the composition-dependent claim; independent work, chan
 For ordinary recognition, the first three questions and one of four truthful exits are enough. Use the two assurance questions and explicit claim-dimension vocabulary only when they can change the answer or a named later use needs to inspect it.
 
 A practitioner **MAY** open a separate assurance branch when the receiving use additionally needs evidence, warrant, assurance, gate, currentness, publication, or reliance. Apply the relevant evidence, assurance, gate, currentness, publication, or reliance check to the exact direct subject claim, `A.6.1` application binding, local `A.15.PROD` or `A.6.RCD` claim, or non-assertability result together with its governor. Preserve the section 4.3 reasons and their different continuations. A missing subject rule may identify a future pattern or declaration need; unavailable constructor semantics retain their separate derivation question. Support or assurance changes neither polarity nor whether the subject relation obtains.
-
-DPF or FPF authoring may trigger the applicable E.19, A.10, B.3, or other assurance checks. Those checks remain with their subject patterns rather than becoming a second WMR checklist.
 
 #### A.6.P.WMR:4.7 - Recover a result and reuse its established meaning
 
@@ -239,11 +233,11 @@ When no direct governor closes a selected row, name the exact participants, prop
 
 #### A.6.P.WMR:4.8 - Work-name grounding by morphology and occurrence
 
-An action nominal such as `testing`, `assembly`, `maintenance`, `evaluation`, or `inspection` is a morphology cue, not an occurrence identification or recovered kind. Placement in function- or flow-structure prose does not identify a `U.Function` or any other object by itself. When the use remains function-like and claim-bearing while its exact FPF object or relation is hidden, `A.6.F` is the next subject pattern. When the object is already recoverable, the label resolves to the exact `U.Method`, `U.MethodDescription`, required or desired behavior or effect claim, actual `U.Transformation` independently grounded under A.3.4, selected `TransformationFlowStructure`, selected functional `U.Structure` and its `ArchitectureStructuralView`, C.2.1 `FunctionalElementClaim` episteme, `FunctionalStructureViewUse`, candidate bearer, qualified ability claim about the bearer System under A.2.2, functional-port declaration, allocation or correspondence claim, plan content, performed Work occurrence admitted under `U.Work`, or another object actually defined by its direct pattern. The view branch cites these separate values; it does not create an individual from the action word. In a WBS element, activity, or Work Package the nominal ordinarily names plan or assignment content about intended work; none of these uses identifies an already performed Work occurrence.
+An action nominal such as `testing`, `assembly`, `maintenance`, `evaluation` or `inspection` does not identify an occurrence by its morphology. Recover what it names under the applicable subject rule: for example, an admitted Method, a MethodDescription about that Method, a plan item, a required effect or a performed Work. Use A.6.F when function-like wording still hides its object or relation; that pattern distinguishes the transformation, structure, view, capability and other functional claims. A WBS element or Work Package ordinarily describes intended work; an actual occurrence needs its own basis.
 
 A use that needs only the recovered method, method description, plan, structure, or other already governed value closes under that direct pattern. Only reliance on the label as one performed occurrence handles the candidate designation and required granularity under `A.15.1`.
 
-For a performed-occurrence question, apply A.15.1 and use only its established result: one exact Work occurrence admitted under `U.Work` at the granularity needed by the current use, an exact lowering to the neighboring method, description, plan, evidence, telemetry, temporal, or other supported object, or an exact blocker. A materially needed `workContinuityPolicyRef` remains part of the A.15.1 identity judgment rather than a WMR field. Apply `F.18` only after one occurrence is established and needs a durable name.
+For a deliberately asserted particular Work occurrence, recover its A.13 basis and apply A.15.1 independently. Use the established Work at the needed granularity, a supported neighboring object, or the stated blocker. A material `workContinuityPolicyRef` belongs to the A.15.1 identity judgement. If the sentence additionally attributes Work to an assignment, use F.6 with that same A.13 assignment; missing or contrary attribution facts do not erase the Work. Apply F.18 only after the occurrence is established and needs a durable name.
 
 Any output, result, outcome, production, delivery, or acceptance wording is a separate WMR claim only while its direct relation or claim dimensions remain hidden. Once readable, apply the rule for that relation or claim; it does not become part of work identity.
 
@@ -252,7 +246,7 @@ The preceding action-nominal classification is an FPF-scoped synthesis from recu
 | Planning or description lineage | Bounded use here | Prohibited inference |
 | --- | --- | --- |
 | PMBOK WBS practice | Its deliverable-oriented naming pressure is used only to recognize that WBS elements and Work Packages are often named from expected deliverables. | The named plan element proves no dated occurrence, enacted method, actual participant, produced entity, result, or outcome. |
-| PRINCE2 7 public Foundation page | The page is used only as currentness evidence that PeopleCert presents Version 7 and describes seven recurring project-management practices. It does not expose detailed product, product-description, activity, or Work Package distinctions, so those distinctions are not source authority here. | Neither the page nor PRINCE2 terminology supplies occurrence identity, a positive FPF kind inference, or any production, delivery, or acceptance claim. |
+| PRINCE2 7 public Foundation page | Its description of seven broad project-management practices supplies a vocabulary comparison. Detailed product, product-description, activity and Work Package distinctions need their own official source. | The page alone supplies neither those detailed distinctions nor FPF occurrence identity, production, delivery or acceptance facts. |
 | IDEF0 historical recognition lineage (non-authoritative here) | A box label remains source-side function-model wording. A still-hidden FPF claim requires `A.6.F`; otherwise the label names the already recovered required-transformation or required-effect claim, actual `U.Transformation`, functional-view record, method description, `TransformationFlowStructure` locus, or other exact governed value under its direct pattern. | This lineage supplies no positive FPF kind inference: neither box form nor function wording identifies `U.Function` or supplies identity evidence for a performed Work occurrence admitted under `U.Work`. |
 | IDEF3 Units-of-Behavior historical recognition lineage (non-authoritative here) | The terminology remains only as wording that may occur in inherited process descriptions. | This lineage supplies no positive FPF kind or relation inference; a Unit-of-Behavior description or label is never identity evidence for a dated Work occurrence admitted under `U.Work`. |
 

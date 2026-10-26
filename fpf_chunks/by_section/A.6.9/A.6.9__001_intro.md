@@ -6,15 +6,16 @@ section_id: "A.6.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:intro — Intro"
-line_start: 24756
-line_end: 24773
+line_start: 24314
+line_end: 24331
 dependencies:
   - "A.1.1"
   - "A.10"
+  - "A.13"
   - "A.15.1"
   - "A.15.6"
   - "A.2.1"
@@ -66,9 +67,9 @@ keywords:
 **What this buys.** The sentence becomes one concrete result: a same-context designation, a claim stated using its concrete predicate or constraint, an obtaining F.9 Bridge with a separate bounded-use claim when a use is proposed, or an explicit stop. A card is added only when the claims must travel.
 
 > **Builds on:** A.6.P for relational prose repair; F.17 for exact scheme-based SenseCells; F.18 for designation; F.9 for the direct Bridge relation, profile, bounded-use boundary, and card boundary; C.2.1 for claim and description identity; F.0.1, F.7, and F.8 for sense-family and downstream naming discipline; A.7 and A.6.6 for lane and identifier dispatch
-> **Coordinates with:** A.10 for evidence-provenance relations and local reliance dispositions; B.3 for assurance; E.17.0 for View membership; E.24.PUB for publication occurrence, form, and carrier; C.3.3 for the exact `KindBridge` relation and C.3.2 for a fresh target classification judgment; A.2.6 for scope operations; A.6.3.RT for representation transition; A.22 for structure; A.2.1, F.6, and A.15.1 for system-role-kind, assignment, and Work claims
+> **Coordinates with:** A.10 for evidence-provenance relations and local reliance dispositions; B.3 for assurance; E.17.0 for View membership; E.24.PUB for publication occurrence, form, and carrier; C.3.3 for the exact `KindBridge` relation and C.3.2 for a fresh target classification judgment; A.2.6 for scope operations; A.6.3.RT for representation transition; A.22 for structure; A.2.1, A.13, A.15.1, and conditional F.6 for system-role-kind, assignment, and Work claims
 
-Use this pattern when umbrella sameness wording could hide which exact local senses, designation, lane, identifier, scope operation, representation transition, structure relation, or proposed use is current. The trigger starts a dispatch; it does not oblige the author to assert a Bridge or complete a card.
+Use this pattern when umbrella sameness wording could hide which exact local senses, designation, lane, identifier, scope operation, representation transition, structure relation, or proposed use is current. The trigger starts a dispatch; it does not oblige the author to assert a Bridge or complete a card. Keep wording whose object, meaning and use are already clear.
 
 When the remaining question is semantic, first test whether a Bridge obtains. For a proposed use of an obtaining Bridge, state the use separately in ordinary language: what someone will do, in which direction, by which correspondence rule, and how much semantic loss that use tolerates. Give that C.2.1 claim affirmative or negative polarity. F.9, A.10, and B.3 supply the exact follow-through; A.6.9 teaches the reader how to recover it from ambiguous prose.
 

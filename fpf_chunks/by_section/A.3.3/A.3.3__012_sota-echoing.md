@@ -6,12 +6,12 @@ section_id: "A.3.3:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:11 — SoTA-Echoing"
-line_start: 12235
-line_end: 12258
+line_start: 12110
+line_end: 12133
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -51,7 +51,7 @@ keywords:
 
 | Available description | What it answers | Added effort and limit |
 | --- | --- | --- |
-| One present total | Bounds the next total between one quarter and one half of the present total. | Cheapest when that interval settles the question; it cannot select one exact next value under unequal retention. |
+| One present total | Bounds the next total between one quarter and one half of the present total. | Needs only the present total when that interval settles the question; it cannot select one exact next value under unequal retention. |
 | The two component masses | Determines the next state and total directly. | Requires observing or otherwise establishing the composition. |
 | Two consecutive exact totals | Recovers the two masses, then predicts by the derived second-order recurrence. | Replaces a composition observation with a second timed reading; noisy readings require an error account. |
 

@@ -6,12 +6,12 @@ section_id: "A.6.M:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:1 — Problem frame"
-line_start: 23094
-line_end: 23140
+line_start: 22680
+line_end: 22728
 dependencies:
   - "A.10"
   - "A.20"
@@ -32,28 +32,21 @@ dependencies:
   - "E.20"
   - "G.5"
 keywords:
-  - "are used only for pattern users"
-  - "claims"
   - "component"
-  - "conformance items"
-  - "evidence records"
   - "interface"
   - "interface specification"
   - "layer"
   - "module relation"
   - "open architecture"
-  - "or assurance records. Modeled modules and interfaces are not written as agents with duties"
-  - "or publication records"
   - "platform"
   - "port"
-  - "records"
   - "stack"
   - "substitutability"
 ---
 
 ### A.6.M:1 - Problem frame
 
-Use this pattern when an architecture or engineering text says "module", "component", "interface", "port", "platform", or "open architecture", and the phrase is doing more than ordinary orientation. If a stratification or architecture-operation source label covered by `C.30.STRAT` is doing the work, apply `C.30.STRAT` first; use A.6.M only when that repair recovers module-interface claim content. Use A.6.M when the question under repair is whether one holon is being claimed as a replaceable, reusable, or separately changed structural unit of a larger holon under the exact `VP.ModuleInterface` viewpoint episteme. The note or claim does not make a direct module relation obtain.
+Use this pattern when module, component, interface, port, platform or open-architecture wording leaves a module-interface claim unresolved. The question is whether a holon is claimed as a replaceable, reusable or separately changed structural unit of a larger holon, under `VP.ModuleInterface` when that viewpoint matters. Keep already clear wording. Use `C.30.STRAT` first only when a covered stratification or architecture-operation label still hides the claim; return here if that recovery selects module-interface content. The claim does not itself make a direct module relation obtain.
 
 The first useful output is a sufficient account of the recovered claim or question; an ordinary sentence can be complete. Use `ModuleRelationRepairNote` when its structure helps the receiving use, including policy, blocked-interpretation and neighboring-claim details only when they change that use:
 
@@ -73,8 +66,10 @@ ModuleRelationRepairNote:
   substitutabilityPolicyRef?:
   changePolicyRef?:
   directModuleRelationDisposition:
-    noDirectRelationClaimed | admittedRelationAndOccurrence | missingGovernor
+    noDirectRelationClaimed | admittedPredicateClaim | admittedRelationAndOccurrence | missingGovernor
   admittedRelationKindOrDeclarationRef?:
+  relationParticipantRefs?:
+  relationClaimContent?:
   obtainingRelationOccurrenceRef?: U.RelationRef
   missingRelationParticipantRefs?:
   proposedPredicate?:
@@ -82,11 +77,11 @@ ModuleRelationRepairNote:
   futureDefinitionNeed?:
   definingPatternLocator?: PatternID used only as a locator
   claimBoundary:
-  notAModuleBecause?:
+  unsupportedModuleInference?:
   governedNonModuleClaimPatternRefs?:
   stopCondition:
 ```
-Exactly one of `interfaceSpecificationRef` and `interfaceSpecificationGap` is current. `noDirectRelationClaimed` leaves every direct-relation field empty. `admittedRelationAndOccurrence` requires an exact admitted relation kind or defining declaration plus one separately obtaining occurrence. `missingGovernor` names the actual participants, proposed predicate, affected use, and missing definition or declaration; a PatternID may locate an applicable rule but cannot fill any of those positions.
+Exactly one of `interfaceSpecificationRef` and `interfaceSpecificationGap` is current. `noDirectRelationClaimed` leaves the direct-relation fields empty. `admittedPredicateClaim` names an already governed predicate, its participants and the affirmative, negative, modal or unresolved claim being made; it requires no invented obtaining occurrence. `admittedRelationAndOccurrence` additionally identifies one independently obtaining occurrence when its identity matters. `missingGovernor` names the participants, proposed predicate, affected use and missing rule. Missing case facts under an available rule leave a factual question, not a missing governor. A PatternID may locate the rule but cannot substitute for its predicate, participants or facts.
 
 Ordinary use stops when the whole, candidate module, boundary, interface specification or explicit gap, relation disposition, and conditions needed by the selected claim are clear enough to choose the next architecture move. Recover substitution or change policy when replacement or separate change is claimed, and a neighboring subject pattern when another claim remains current. Use the fuller `ModuleInterfaceClaim` record only when substitutability, conformance, publication, evidence, assurance, change policy, repeated reuse, or cross-team coordination requires durable claim content.
 

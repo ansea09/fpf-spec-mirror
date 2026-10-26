@@ -6,12 +6,12 @@ section_id: "C.11.CRC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__014_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:12 — Relations"
-line_start: 57523
-line_end: 57529
+line_start: 56621
+line_end: 56627
 dependencies:
   - "A.1.CSD"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.19.CPM:0"
 section_title: "At a glance (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__002_at-a-glance-didactic-informative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:0 — At a glance (didactic, informative)"
-line_start: 39264
-line_end: 39297
+line_start: 38493
+line_end: 38519
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -29,7 +29,7 @@ CPM is the CHR comparison kernel: it compares two admitted profiles under an exp
 
 **One-screen purpose (manager-first).** CPM answers: "Given two admitted profiles and an explicit comparator, what relation holds under the declared admissibility frame?" It does **not** answer: "Which one should we pick?" (selection) nor "What is the score?" (scoring).
 
-**Use this when.** Use CPM when the current project question is comparison under one declared comparator, not scoring, folding, selection, publication, or work authorization.
+**Use this when.** Two admitted profiles must be compared under a declared rule. Recover their value meanings, select the admitted comparator and test its use conditions, then return only the justified relation tokens. If this comparison answers the receiving question, stop without adding selection or authorization.
 
 **What this buys.** The practitioner gets one set-valued comparison outcome that downstream selection can consume. The actual `Compare` application keeps the profile pair, comparator, claim scope and selected context slices, optional A.19 predicate, reference plane, evaluation window, policies, and output binding recoverable. Partial order, incomparability, missing evidence, and scale limits remain explicit instead of becoming a hidden scalar winner.
 
@@ -37,7 +37,7 @@ CPM is the CHR comparison kernel: it compares two admitted profiles under an exp
 
 **Manager quick checklist (before you trust a comparison):**
 * **Comparator is explicit:** do we have a `ComparatorSpecRef`, and is it admitted by `CG‑Spec.ComparatorSet`?
-* **Admissibility is declared:** do we cite `CG‑Spec` (and `SCP` when numeric ops exist) and treat violations as `degrade|abstain`?
+* **Admissibility is declared:** do we cite CG-Spec and any required SCP, and restrict a degraded result to a lawful outcome explicitly permitted by the failure policy?
 * **Evidence is not faked:** are missing or unknown inputs treated as `degrade|abstain` under the effective MinimalEvidence policy (never as `pass`)?
 * **Partiality is preserved:** are we willing to accept incomparability and ties as first‑class outcomes (set‑valued result), rather than forcing a winner?
 
@@ -46,13 +46,6 @@ CPM is the CHR comparison kernel: it compares two admitted profiles under an exp
 * **Output (conceptual):** the by-value `ComparisonResultSlot` set of relation or poset tokens. It is not a score, selected set, result episteme, work-result relation, evidence record, or container for replay metadata.
 * **Planned use:** an A.15.2 baseline selects ComparatorSpecRef editions and policy ids. A.15.3 and SlotFillingsPlanItem apply only to independently declared receiving positions under A.19.CHR:4.7.2. The actual Compare application carries its argument and result bindings under §4.1. Any dated comparison Work and A.10 evidence-provenance account retain their independent grounds.
 * **Reproducible comparisons:** for parity and benchmark style runs that require a stable run package plus report record (editions, windows, parity pins), use `G.9` (Parity and Benchmark Harness). CPM stays kernel-only.
-* **What CPM does not do (strict distinction):**
-
-  * does **not** normalize (`UNM`);
-  * does **not** choose indicators (`UINDM`);
-  * does **not** score (`USCM`);
-  * does **not** fold or aggregate (`ULSAM`);
-  * does **not** select (“pick best”) — that is `SelectorMechanism`.
 * **Core safety commitments:** admissibility gate via `CG-Spec.ComparatorSet` + `CG-Spec.SCP` + CSLC; tri-state admissibility (`pass|degrade|abstain`); unknown never coerces to “pass” or to a fabricated outcome; no silent scalarization or totalization.
 * **Where method details live:** in editions of `ComparatorSpec` and their SoTA wiring (Part G packs and extensions), not inside CPM’s kernel semantics.
 * **Quick rule of thumb:** use `USCM` when you need scores from a declared scoring method and `SelectorMechanism` when you need a selected candidate set. Obtaining measured values follows the applicable C.16 measurement method; normalization follows UNM. CPM compares admitted profiles and returns relation tokens.

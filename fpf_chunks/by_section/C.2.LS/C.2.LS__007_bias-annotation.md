@@ -6,12 +6,12 @@ section_id: "C.2.LS:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:6 — Bias-Annotation"
-line_start: 53411
-line_end: 53413
+line_start: 52567
+line_end: 52569
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -41,5 +41,5 @@ keywords:
 ---
 
 ### C.2.LS:6 - Bias-Annotation
-The pattern biases authors toward keeping facets explicit and away from master-scale stories. That cost is intentional: the goal is to prevent surrogate progressions from entering the Core.
+Making selected facet readings explicit costs more than using one stage adjective. It lets the receiving reader test the actual threshold; retain the ordinary wording or existing reading when that already serves the use.
 

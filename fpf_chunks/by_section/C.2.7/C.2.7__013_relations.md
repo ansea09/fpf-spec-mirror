@@ -6,17 +6,18 @@ section_id: "C.2.7:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:12 — Relations"
-line_start: 54246
-line_end: 54249
+line_start: 53392
+line_end: 53395
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.18"
+  - "A.19"
   - "B.4.1"
   - "B.5.2.0"
   - "C.2.2a"
@@ -34,6 +35,6 @@ keywords:
 ---
 
 ### C.2.7:12 - Relations
-- Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
+- Builds on: `A.18`, `A.19`, `C.2.2a`, `C.2.LS`.
 - Coordinates with: `C.2.6`, `A.16.0`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, `F.9` for any Bridge and bounded-use claim, and `F.9.1` only for an optional stance note about that claim.
 - Constrains: language-state position publication and bridge loss notes around representation shifts.

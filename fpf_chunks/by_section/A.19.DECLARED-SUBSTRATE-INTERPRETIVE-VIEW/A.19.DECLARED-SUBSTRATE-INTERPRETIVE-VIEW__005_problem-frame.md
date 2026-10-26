@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__005_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:1 — Problem frame"
-line_start: 36456
-line_end: 36473
+line_start: 35765
+line_end: 35777
 dependencies:
   - "A.0"
   - "A.19"
@@ -48,10 +48,5 @@ Examples include:
 - one atlas-form reading that collects several typed set views, active set results, spaces, declared map refs, metrics, or distortion notes so that cross-scale structure stays readable;
 - one interpretive rendering that helps the reader inspect the declared substrate without turning that rendering into the substrate's default meaning.
 
-Current FPF already points in that direction. `A.6.3` governs EntityOfConcern-preserving epistemic viewing; `E.17.0` separately qualifies a resulting episteme as a `U.View` through viewpoint conformance. `G.2` already keeps `TraditionAtlasView` as optional neighboring interpretation over one palette and declared set results rather than making atlas semantics the meaning of `Tradition` itself. What is still missing is one common interpretive-view pattern that:
-
-- stays explicitly under existing view law;
-- keeps thinner interpretive views admissible;
-- keeps atlas form reusable but non-default;
-- and keeps interpretive qualifiers optional and recoverable.
+`A.6.3` governs EntityOfConcern-preserving epistemic viewing; `E.17.0` separately qualifies a resulting episteme as a `U.View` through viewpoint conformance. `G.2` uses `TraditionAtlasView` for an optional interpretation of a palette and declared set results. This pattern applies those distinctions to inspection of a declared substrate, with the amount of representation determined by the inspection question.
 

@@ -6,12 +6,12 @@ section_id: "A.6.4:5"
 section_title: "Archetypal Grounding (Tell-Show-Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:5 — Archetypal Grounding (Tell-Show-Show)"
-line_start: 20032
-line_end: 20043
+line_start: 19690
+line_end: 19707
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,13 @@ keywords:
 
 **Tell.** Retargeting means “different EntityOfConcern, one stated invariant, visible loss, one named use, and exact current facts for judging it”.
 
-**Show 1 — Physical cabinet to selected functional structure.** X concerns cabinet `Cab-7`; Y concerns selected functional `U.Structure` `Route-A`. C.2.1 identifies the cabinet and structure independently. Affirmative q states that the routing-behaviour invariant makes the visible loss acceptable for fault-isolation planning. A current behaviour-test result compares `Cab-7`'s observed routing under q's named conditions with the routing decisions stated for `Route-A` and meets q's criterion; the judgement is `satisfies`. The source expression `Realises(Cab-7, Route-A)` names an intended relation and its participants but has no current direct predicate or governor, so it stops at `missing-governor` and contributes nothing to that judgement. Y drops cabinet layout and manufacturer details. E.18 placement identifies neither r nor q and supplies no judgement.
+**Show 1 — Physical cabinet to selected functional structure.** Take `Cab-7` and functional `U.Structure` `Route-A` as independently identified entities. Under an explicit finite-routing scheme, source episteme X states two observations of `Cab-7` in configuration K: input L routed to output 1, and input R routed to output 2. X also identifies cabinet layout `Layout-7` and manufacturer `Maker-7`. A separate definition episteme Z specifies `Route-A` with those pairs and a third pair M→3. Receiving episteme Y concerns `Route-A` and selects only its declared L→1 and R→2 pairs. C.2.1 distinguishes X, Y and Z by their complete claims, concerns and effective schemes.
+
+In the selected finite-table substrate, r relates X to Y by the rule `TestedRowProjection`: match the named input rows and use Z's definition for the receiving structure assertions. Arrow equivalence uses the same endpoints and rowwise equality of that rule. This does not infer Route-A's definition from cabinet behavior alone.
+
+Affirmative q states: `Under K, Cab-7's observed outputs for {L,R} match Route-A's declared outputs. Dropping cabinet layout, manufacturer details and Route-A's M branch is acceptable for preparing a fault-isolation check list restricted to the observed inputs L and R.` The current case compares L→1 with L→1 and R→2 with R→2; both match. The resulting check list is “for L, inspect output 1; for R, inspect output 2”; that use needs neither the omitted cabinet details nor the M branch. The judgement is therefore `satisfies` for this bounded use. A changed configuration or another input requires new case facts. Missing output observations yield `cannot decide`; an observed mismatch yields `fails` without changing q's polarity.
+
+The unused expression `Realises(Cab-7, Route-A)` has no supplied direct predicate or governor in this fixture. It contributes nothing to the judgement. Placement of r and q in E.18 likewise supplies no case fact.
 
 **Show 2 — Fourier near-miss and positive branch.** In the ordinary case, X and Y both concern sampled signal run `Signal-17`; X uses a time-domain representation and Y a frequency-domain representation. Use A.6.3.RT for this representation change. Under its declared conditions, Parseval's relation gives the energy-preservation equality; the spectrum notation still represents the same EntityOfConcern. If that mathematical correspondence or its conditions are unsettled for the receiving use, use C.29 to establish their adequacy before relying on the equality.
 

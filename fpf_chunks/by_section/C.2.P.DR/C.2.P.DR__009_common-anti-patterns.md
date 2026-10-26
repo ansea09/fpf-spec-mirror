@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:7"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__009_common-anti-patterns.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:7 — Common anti-patterns"
-line_start: 54878
-line_end: 54889
+line_start: 54022
+line_end: 54033
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -53,5 +53,5 @@ keywords:
 | Mechanism by prestige | `mechanism` is used because the word sounds more rigorous than method or algorithm. | Require operation algebra, laws, admissibility predicates, transport, audit, realization, or governing-definition assignment. |
 | Dashboard as gate | Green status, dashboard tile, score, or status label becomes permission or release. | Recover source relation or publication relation, state-family value, evidence relation, and gate or release pattern when current. |
 | Pattern dispatcher | Pattern relations are given action or control effects through route, exit, receiver, call, owner, or home wording. | Write declarative neighboring-pattern boundary or application relation; use `E.8` and `F.19` together when both publication-form and phrase-apparatus claims are live, or use the one subject pattern when only one claim is live. |
-| Generic representation theory | The repair tries to classify every representation in FPF or becomes an API pattern, schema pattern, legal framework, workflow framework, or generic admissibility pattern. | Stop at the representation-use field set and use the subject pattern for the current claim. |
+| General theory substituted for repair | The repair expands into classifying all representations. | Resolve the disputed inference and continue under its subject pattern. |
 

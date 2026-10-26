@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:5 — Archetypal Grounding"
-line_start: 18506
-line_end: 18591
+line_start: 18167
+line_end: 18252
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -46,7 +46,7 @@ This is an admissible direct `ConservativeRetextualization` because the EntityOf
 
 **Published stand-up slice.** `Evening-batch latency exceeded the threshold for Service S. See N-14 / T-44 / D-17 for the pinned source cluster.`
 
-This is still an admissible ordinary case even though the short stand-up slice does not restate every pin and qualifier inline. The didactic point is that lightweight use may inherit already-published pins and provenance when the tether stays visible to the reader.
+For reporting the threshold exceedance, this short slice may inherit the published pins and omit the separate hypotheses because it asserts no cause. A causal decision would need the hypotheses and their qualifications from N-14. The source remains reachable to the reader.
 
 #### A.6.3.CR:5.1.b - Benign omission that stays ordinary
 **Source note slice.** `Service S exceeded the latency threshold in the evening batch window. Trace T-44 and dashboard pin D-17 show the spike. The note also lists two low-confidence hypotheses for separate investigation.`
@@ -65,13 +65,13 @@ This remains `ConservativeRetextualization` because it is a textual restatement 
 
 #### A.6.3.CR:5.1.d - Generated-summary source-relation variant
 
-A generated or machine-assisted summary may stay in `ConservativeRetextualization` only when it remains an entityOfConcernRef-preserving textual re-expression and its source relation is visible enough for the intended use. This is the ordinary LLM-generated-summary case: a model-produced paragraph over a pinned inspection note, method-selection note, safety note, incident note, or other source slice is not automatically `ExplanationFaithfulnessProfile` merely because it was generated; it remains `ConservativeRetextualization` only while it restates source claims and leaves omissions, loss, and non-admissible uses visible. Ordinary source-finding use can stay light; use the compact variant below when the summary will be reused, cited, disputed, or relied on.
+A generated summary follows the same source, EntityOfConcern and conservativity conditions as any other rewrite. A model-produced paragraph over an inspection or method-selection note is not an explanation merely because it was generated. Restated claims, material omissions and use conditions must be recoverable. Use the distinctions below when a source-use or support question affects reuse, citation or reliance.
 
 | Source-relation question | CR-local meaning |
 | --- | --- |
 | source pointer present | The summary points to the source slice or source bundle it claims to restate. |
 | source actually used | The inspectable source relation shows that the generation or rewrite actually used the named source, not merely a similar topic or remembered background. If that relation is unavailable, source use remains unresolved; retain only the justified source-pointer or orientation use until the relation is recovered. |
-| claim recoverable from source | Each claim-bearing summary claim can be recovered from the source slice or declared correspondence witness. |
+| claim recoverable from source | Each summary assertion can be recovered from the source claims or admitted correspondence witness under the declared rule. |
 | claim merely plausible | A sentence sounds likely but is not recoverable from the source. Do not present it as source-backed: retain only a justified source-finding or orientation pointer, or explicitly separate the unsupported proposition and repair it or handle it under the pattern for the new claim. |
 | omission or loss | Relevant omitted qualifiers, alternatives, caveats, uncertainty, or conditions are visible enough for the admissible use. |
 | claim widening | The summary does not turn possibility, hypothesis, bounded scope, or low-confidence wording into a wider commitment. |
@@ -91,7 +91,7 @@ If the generated summary is source-pointer-only, merely plausible, claim-widened
 
 **Published joint-review slice.** `For standard operating demand, Cooling loop CL-2 is described in both the design and safety views as maintaining the required temperature condition. This summary relies on CorrespondenceModel CM-12 and does not add claims beyond that declared overlap.`
 
-The synthesis may stay in this pattern only if the source relation remains explicit, every downstream claim remains recoverable to the design slice, the safety slice, or the declared `CorrespondenceModel`, and the text does not silently widen claims beyond the declared entityOfConcernRef-preserving overlap. Because this case requires a correspondence witness, a fuller review record is usually warranted.
+The synthesis remains in this pattern only while its source relation is explicit and every receiving claim is supported by the design slice, safety slice or admitted correspondence claims. `CM-12` names the episteme stating that correspondence; its label alone supplies no witness. Add the review detail needed to establish the claimed overlap.
 
 #### A.6.3.CR:5.2.b - Cross-language re-expression without hidden bridge work
 **Source slice.** `The backup controller stays in passive watch mode until the primary loop fails two consecutive heartbeat checks.`

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.9.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
-line_start: 26823
-line_end: 26949
+line_start: 26381
+line_end: 26507
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"
@@ -111,9 +111,9 @@ For the additive construction, the singleton base case returns 2 from the one-el
 
 ### A.9:7 - Consequences
 
-The practitioner can explain why the chosen operation answers the actual question and what would defeat it. A combined result remains usable only while the stated model and conditions apply. Lawful reordering or repartitioning can support distributed calculation; it does not guarantee that independently developed Systems will integrate without other work.
+The practitioner can explain why the chosen operation answers the actual question and what would defeat it. A combined result remains usable only while the stated model and conditions apply. Lawful reordering or repartitioning can support distributed calculation.
 
-The cost is recovering the domain meaning, dependencies and any property required by the action. A sufficient existing law can make this cheap. When its basis is absent, a qualified bound or retained inputs preserves useful information and exposes the missing premise. New-whole recognition remains a separate B.2 decision.
+The cost is recovering the domain meaning, dependencies and any property required by the action. A sufficient existing law can make this cheap. When its basis is absent, a qualified bound or retained inputs preserves useful information and exposes the missing premise. Whole recognition uses A.1; use B.2 for a remaining whole-reidentification question.
 
 ### A.9:8 - Rationale
 
@@ -136,7 +136,7 @@ Checking only the needed property also keeps the burden proportionate. A request
 
 ### A.9:10 - Application situations
 
-Apply the method to an unresolved choice in resource combination, joint or alternative reliability, control composition, numerical regrouping or ordered Methods. Use the actual subject source for the intended result and its applicability; the examples establish no universal cross-scale guarantee or empirical performance benefit.
+Apply the method to an unresolved choice in resource combination, joint or alternative reliability, control composition, numerical regrouping or ordered Methods. Use the subject source for the intended result and its applicability.
 
 ### A.9:11 - SoTA-Echoing
 

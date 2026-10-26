@@ -6,12 +6,12 @@ section_id: "A.22:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:7 — Conformance Checklist"
-line_start: 41057
-line_end: 41076
+line_start: 40225
+line_end: 40244
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -73,7 +73,7 @@ keywords:
 | --- | --- | --- |
 | **CC-A22-1 Base identity.** | The selected `U.Structure` is recoverable from exact independently identified constituents, exact selected obtaining relation occurrences, exact constraints as applied, and one named selection-use frame. | Recover the missing discriminator. If a constituent lacks its defining identity content or a relation lacks its predicate or occurrence rule, stop at that blocker rather than naming a structure from a graph or record. |
 | **CC-A22-1a Independent grounding.** | Every constituent and selected relation occurrence keeps its direct identity; a collection, constraint episteme, graph, table, description, view, or publication neither creates them nor makes a relation obtain. | Apply the constituent and direct relation patterns first; treat the visible artifact as a C.29 representation or C.2.1 episteme only when that is what is present. |
-| **CC-A22-1b Selection work and result separation.** | When a load-bearing selection claim is current, an exact system performs dated work with an exact method-enactment relation and exact participation relations or A.6.1 bindings. Any durable result is a separate C.2.1 episteme, and any accountable choice uses its decision predicate and test. | Name the acting system, method, work, bindings, and result or decision separately; remove them from structure identity. |
+| **CC-A22-1b Selection work and result separation.** | When dated selection Work is deliberately asserted, establish the complete A.13 core and A.15.1 admission in §4.1, plus the actual method-enactment and direct participation or A.6.1 binding relations. Any durable result is a separate C.2.1 episteme, and any accountable choice uses its decision predicate and test. | Name the acting system, method, work, bindings, and result or decision separately; remove them from structure identity. |
 | **CC-A22-1c Reidentification.** | A changed designator, method, work, result episteme, graph, description, or publication leaves the structure unchanged when all four identity discriminators remain unchanged; a changed discriminator reopens identity. | Compare the four discriminators and apply each selected relation occurrence's direct identity rule before reapplying A.22. |
 | **CC-A22-1d Transformation-flow network profile.** | An E.18.NET value applies all four A.22 discriminators to exact TFS or nested-network constituents, exact cross-member relation occurrences satisfying their predicates, the E.18.NET constraints as applied, and one named network-use frame. A constituent row supplies no generic membership occurrence, and A.22 carries no duplicate network fields. | Recover any missing member, relation predicate, or identity rule, then apply E.18.NET. If a separate membership relation is actually needed, state its participants and apply its predicate rather than inferring it from the constituent list or graph. |
 | **CC-A22-2 Non-agentive structure.** | Any claimed action has a recoverable capable actor. Use F.19:4 to test literal or metonymic action wording; apply the relevant proof, decision, warrant, or adaptation predicate when that claim is current. | Recover the actor and action; identify exact System and Work only when the claim needs their identity. For another claim, use the pattern that defines or tests its result. |

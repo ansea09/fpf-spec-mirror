@@ -6,12 +6,12 @@ section_id: "E.10.D2:8"
 section_title: "Neighboring use routing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__009_neighboring-use-routing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:8 — Neighboring use routing"
-line_start: 101798
-line_end: 101864
+line_start: 100618
+line_end: 100684
 dependencies:
   - "A.7"
   - "C.2.1"

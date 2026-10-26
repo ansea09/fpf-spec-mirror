@@ -6,12 +6,12 @@ section_id: "C.39.MC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:11 — SoTA-Echoing"
-line_start: 84062
-line_end: 84073
+line_start: 82885
+line_end: 82895
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"
@@ -30,7 +30,6 @@ keywords:
 | Hoppenbrouwers and colleagues, [Agile Service Development: A Rule-Based Method Engineering Approach](https://doi.org/10.1007/978-3-642-19997-4_17), 2011; historical declarative/agile SME anchor. | Retain rules and constraints as an alternative to prescribing one complete development route. | Declarative and on-the-fly Method Engineering are prior ideas, not novelty claims here. Each current continuation still needs its facts and an acting/deciding System. |
 | Christopher Alexander, [The Origins of Pattern Theory](https://christopher-alexander-ces-archive.org/article/the-origins-of-pattern-theory-the-future-of-the-theory-and-the-generation-of-a-living-world/), OOPSLA 1996 address published in 1999; historical lineage. | Retain context-sensitive use of a connected pattern language and the contribution of generative order. | Pattern order can be meaningful without being a universal Work sequence. This tradition supplies neither current FPF identity nor a claim that causality disappears. |
 | Stacey and colleagues, [Methods as a form of engineering knowledge](https://doi.org/10.1017/dsj.2025.9), 2025; recent engineering-knowledge comparator. | Retain explicit how-to knowledge together with the knowledge needed to interpret and use it. | Their treatment of Method knowledge does not settle FPF's world-side Method/episteme boundary. It supports exposing the needed knowledge and result, not importing a definition by vocabulary. |
-| Current E.11.PUA/PUR, A.15.7, A.22.CGUS, A.3.1/B.1.5, and A.3.1.QM, C.32.MWA.PP, B.1.5.CM, A.3.2.DE, C.37.MP; direct working comparators. | Reuse pattern use and result reuse, live choice, potential/current continuation separation, Method identity/composition, and professional result contracts. | The new contribution is limited to the question-to-result return and situation-delta localization across Method-development uses. If direct use supplies that same result more cheaply, take the direct exit. |
 
-These sources support a bounded synthesis, not a claim that this construction invented continuous or pattern-based Method Engineering. Reopen the affected source or action when a current alternative supplies the same result with less reconstruction, a source change alters a load-bearing distinction, or use evidence reveals a missed dependency or unnecessary burden. Claims of human or AI superiority require their own comparative evidence.
+Use these source contributions for the stated questions and limits. Reopen the affected source or action when a current alternative supplies the same result with less reconstruction, a source change alters a load-bearing distinction, or use evidence reveals a missed dependency or unnecessary burden. Claims of human or AI superiority require their own comparative evidence.
 

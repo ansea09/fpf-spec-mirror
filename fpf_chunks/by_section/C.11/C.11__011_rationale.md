@@ -6,12 +6,12 @@ section_id: "C.11:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:10 — Rationale"
-line_start: 57231
-line_end: 57242
+line_start: 56343
+line_end: 56354
 dependencies:
   - "A.10"
   - "A.13"
@@ -58,7 +58,7 @@ A live option set and a live choice among that set are not the same question as 
 
 A minimal mathematical floor is necessary because choice doctrine without one stable object stack quickly turns into verbal drift. But a pattern also fails if it keeps only the object names and never shows how those objects discipline an actual choice. That is why `Solution` here is procedural: it must carry the path from `OptionSet` through one `ChoiceRule` to one `ChoiceResult`, including the stop-or-probe decision, rather than only one survey of neighboring theories.
 
-The practical gain of that procedure is not elegance for its own sake. It is that later search, policy, publication, and planning work receive one explicit result instead of one hand-waving claim that deliberation happened somewhere upstream.
+The receiving work can use the selected option, retained alternatives or next probe together with the grounds and limits of that choice.
 
 At the same time, this pattern should not pretend that one full quantum-like or geometry-heavy package is already settled just because those neighboring lines are real.
 

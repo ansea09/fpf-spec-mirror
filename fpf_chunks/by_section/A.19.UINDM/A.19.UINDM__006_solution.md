@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:4 — Solution"
-line_start: 38370
-line_end: 38466
+line_start: 37615
+line_end: 37711
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -95,7 +95,7 @@ For example, select Celsius temperature twice from CS7 under the same policy in 
 * **Applicability:**
   * Intended to be used before any scoring/comparison/selection that assumes an indicator profile, while remaining a distinct step (no hidden indicatorization inside downstream mechanisms).
   * Reuse for another bearer, source-local meaning, scope and window, evidence basis, reference plane, or intended use requires a new eligibility decision. Cite an F.9 Bridge, kind relation, or plane relation only when the new use actually relies on it.
-  * Pin‑binding note: choosing concrete policy editions/pins is a planned baseline concern (P2W); UINDM only consumes those refs and records the effective ones in `Audit`.
+  * Pin-binding note: a P2W path records intended policy editions in its planned baseline. Every application consumes resolved references and keeps the effective ones in Audit; a direct use needs no invented WorkPlan.
 * **Relation boundary:** indicatorization creates no transfer relation. When a receiving use relies on an obtaining F.9 Bridge, kind relation, or plane relation, cite it with direction, preserved or lost meaning, and receiving use; supported penalties route to **`R_eff` only**.
 * **Γ_timePolicy:** `point` by default (no implicit “latest”).
 * **PlaneRegime:** the indicator set keeps the reference plane declared by the characteristic-space and CN-Spec editions; UINDM introduces no plane shift.
@@ -111,10 +111,10 @@ For example, select Celsius temperature twice from CS7 under the same policy in 
 
 * **IndicatorSet selects basis positions.** A Characteristic reference can match several positions with different Scales. S identifies the selected positions in the exact space declaration; each resolves uniquely through that basis. Obtain or reuse their values under the corresponding measurement/evaluation rule and retain the position and Scale in the profile. UINDM computes no measurement or conversion.
 
-* **Subspace views are derived, not mandatory.** If a project needs an explicit subspace view, treat it as a derived support view `CS|_S`, with `S = IndicatorSetSlot` over the exact base `CS = CharacteristicSpaceSlot`. Restrict its ordered basis and any state `x|_S` to S without reordering the retained positions. Do not add a new mandatory output to the kernel signature; model a first-class subspace support view via `⊑⁺` only when it is genuinely needed.
+* **Subspace views are derived, not mandatory.** If a project needs an explicit subspace view, treat it as a derived support view `CS|_S`, with `S = IndicatorSetSlot` over the exact base `CS = CharacteristicSpaceSlot`. Restrict its ordered basis and any state `x|_S` to S without reordering the retained positions. Do not add a new mandatory output to the kernel signature; declare a separate support-view result only when needed, and justify any extension claim under §7 item 9.
 
 * **Justification is optional and externalized.** The CHR SlotKind lexicon includes `JustificationSlot`, but the canonical UINDM intension does not require it.
-  If a project needs a first‑class justification output, treat it as an **extension** (`⊑⁺`) rather than by mutating the base `Indicatorize` signature,
+  If a project needs a separately declared justification output, specify the additional result and test the claimed extension under §7 item 9,
   and model the justification as a justification `U.Episteme` (e.g., `JustificationSlot : ⟨ValueKind = U.Episteme, refMode = U.EpistemeRef⟩`).
 
 * **Evidence-gated indicatorization is explicit.** Evidence gating is activated only by the chosen `IndicatorChoicePolicy`. In that case `CGSpecSlot` is required and the effective MinimalEvidence is explicit: use `MinimalEvidenceSlot` when supplied, otherwise `CGSpecSlot.MinimalEvidence`. The override remains optional.

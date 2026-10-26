@@ -6,12 +6,12 @@ section_id: "A.6.3:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__007_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:6 — Consequences"
-line_start: 17895
-line_end: 17904
+line_start: 17574
+line_end: 17583
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -36,7 +36,7 @@ keywords:
 |---|---|
 | Construction history is inspectable without defining view membership. | X and Y must be independently identified before the construction is asserted. |
 | Direct authoring and generated epistemes coexist. | A generated result needs a separate E.17.0 test before it can be called a view. |
-| Correspondence-mediated constructions can use exact domain relations. | Graph edges and trace tables cannot substitute for relation obtaining. |
+| Correspondence-mediated constructions can use exact domain relations. | A graph or trace table must supply the relevant claims and grounds; its presence alone does not establish the relation. |
 | Work and publication stay outside the mathematical construction. | Tool execution and availability require their own patterns when current. |
-| Composition can be replayed. | Hidden state or undeclared loss invalidates the algebraic claim. |
+| Composition and any declared deterministic replay can be checked. | Composition needs matching endpoints and admitted laws. Uncontrolled state that can change Y prevents the corresponding repeatability claim for the construction operation; undeclared material loss prevents the corresponding receiving-use claim. |
 

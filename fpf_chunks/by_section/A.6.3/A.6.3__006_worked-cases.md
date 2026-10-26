@@ -6,12 +6,12 @@ section_id: "A.6.3:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__006_worked-cases.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:5 — Worked cases"
-line_start: 17869
-line_end: 17894
+line_start: 17548
+line_end: 17573
 dependencies:
   - "A.13"
   - "A.15.1"

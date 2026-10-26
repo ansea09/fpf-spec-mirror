@@ -1,0 +1,45 @@
+---
+chunk_kind: "child"
+pattern_id: "A.16.2"
+pattern_title: "Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
+section_id: "A.16.2:19"
+section_title: "Review Matrix for Retreat Integrity"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.16.2/A.16.2__018_review-matrix-for-retreat-integrity.md"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+heading_path:
+  - "A.16.2 — Reopen, SketchBackoff, Respecify, or Retire a Language-State Publication"
+  - "A.16.2:19 — Review Matrix for Retreat Integrity"
+line_start: 33973
+line_end: 33982
+dependencies:
+  - "A.16"
+  - "A.16.0"
+  - "A.16.1"
+  - "A.6.A"
+  - "A.6.P"
+  - "B.4.1"
+  - "B.5.2"
+  - "C.16.Q"
+  - "C.2.2a"
+  - "C.2.5"
+keywords:
+  - "authority withdrawal"
+  - "backoff"
+  - "branch withdrawal"
+  - "reopen"
+  - "respecify"
+  - "retire"
+  - "retreat"
+---
+
+### A.16.2:19 - Review Matrix for Retreat Integrity
+
+A reviewer can test retreat integrity with five questions:
+
+1. **Was the trigger explicit?** If not, the retreat risks becoming retrospective narrative repair.
+2. **Were the affected claims updated?** If the earlier route selection, endpoint admission, gate result, publication availability, current-use claim, evidence-use basis, or actual authority relation no longer applies, revise that exact dependent claim under its direct pattern.
+3. **Did valid witnesses survive?** If all earlier grounding disappeared without reason, the retreat probably became erasure.
+4. **Was the move kind correctly named?** Reopen, sketch-backoff, respecify, and retire solve different problems; confusing them obscures what actually changed.
+5. **If the next use needs successor information, is its basis clear?** Distinguish an obtaining successor relation, a supported no-successor result and an unresolved question.
+

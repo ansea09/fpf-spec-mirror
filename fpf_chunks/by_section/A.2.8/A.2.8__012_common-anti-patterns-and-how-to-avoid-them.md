@@ -6,12 +6,12 @@ section_id: "A.2.8:9"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:9 — Common Anti-Patterns and How to Avoid Them"
-line_start: 8311
-line_end: 8323
+line_start: 8262
+line_end: 8274
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -30,7 +30,7 @@ dependencies:
 keywords:
   - "actual bearer"
   - "constitutive rule"
-  - "do not identify an individual bearer or institute a duty. Adapt"
+  - "do not identify an individual bearer or institute a duty"
   - "individual duty"
   - "instituting basis"
   - "obligation"
@@ -43,7 +43,7 @@ keywords:
 
 | Anti-pattern | Why it fails | Repair |
 | --- | --- | --- |
-| “The API shall…” as duty-bearer structure | An interface description is an episteme, not the actual bearer. | Identify the policy claim and actual system or party; test institution. |
+| “The API shall…” as duty-bearer structure | The API label leaves unclear whether the sentence states generic policy or an individual duty, and what entity it concerns. | Recover the referent. For an individual duty, identify the actual System or party and test institution under §4.2. |
 | `CommitmentSubject ::= RoleRef | RoleAssignmentRef | PartyRef` | It merges a kind, relation occurrence, and actual bearer. | Use one actual bearer branch; keep kind and assignment in the rule's grounds. |
 | Optional institution source | A published sentence appears sufficient to create the relation. | Require the applicable rule and its actual instituting basis. |
 | Assignment-as-duty | Staffing becomes obligation. | Treat the assignment only as a rule fact and identify a separate commitment. |

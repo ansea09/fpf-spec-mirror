@@ -6,12 +6,12 @@ section_id: "C.23:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__011_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:10 — Relations"
-line_start: 64549
-line_end: 64555
+line_start: 63509
+line_end: 63515
 dependencies:
   - "A.10"
   - "B.3"
@@ -40,7 +40,7 @@ keywords:
 
 ### C.23:10 - Relations
 
-**Builds on:** **G.5** (selector consumes these rules), **G.4** (Acceptance & EvidenceProfiles), **C.22** (S2 typing), **C.18 NQD‑CAL**, **C.19 E/E‑LOG**, **B.3** (named assurance claims and declared aggregation, including WLNK only when applicable).
+**Builds on:** **G.5** (selector consumes these rules), **G.4** (Acceptance & EvidenceProfiles), **C.22** (S2 typing), **C.18 NQD‑CAL**, **C.19 E/E‑LOG**, **B.3** (named assurance claims and declared aggregation, including WLNK only when applicable), **A.10** (evidence basis) and **E.10** (naming). **G.6** supplies EvidenceGraph paths when used; **E.18** applies when a selected structural crossing is current.
 **Publishes to:** **UTS** (MaturityCards, rule ids), **SCR/RSCR** (branch coverage; parity hooks).
 **Constrains:** **G.8** (LOG Bundling must cite MaturityCards), **G.9** (parity harness draws baselines per rung), **G.11** (refresh windows per rung & decay), **G.5** (Open‑Ended Family mode for GeneratorFamily).
 **Outcome.** **Admissibility logic** for MethodFamilies combines LOG shells, the maturity poset, degrade modes, and publication requirements with CG‑Spec legality rules, CHR guard‑macros, and CAL acceptance mechanics.

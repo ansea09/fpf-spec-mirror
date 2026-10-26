@@ -6,12 +6,12 @@ section_id: "C.22.2:22"
 section_title: "First Practical Entry Aid"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__023_first-practical-entry-aid.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:22 — First Practical Entry Aid"
-line_start: 64259
-line_end: 64288
+line_start: 63224
+line_end: 63249
 dependencies:
   - "A.10"
   - "A.15"
@@ -80,9 +80,5 @@ Direct-entry cues that are not `C.22.2`:
 
 First-use Thin-card test:
 
-Given a messy signal, a practitioner can produce a Thin `ProblemCard` in under one page with the exact core from `2.1`: signal; one joint EntityOfConcern, effective ReferenceScheme, and ClaimScope; exact claim family; not-wish or not-preselected-Work reason; improvement check or acceptance probe; and one honest governed next use. That use may be `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstainOrNoChange`, or apply the FPF pattern that defines or constrains the claim, relation, or boundary outside the card.
-
-Entry relation:
-
-The entry relation is local: `C.22.2` is introduced under `C.22`, and `C.22` names the `ProblemCard` relation. The `C.22.2` body carries the Problem frame, first-entry phrases, tempting-wrong-pattern boundaries, and first-use Thin-card test needed for ordinary discovery.
+Aim for a Thin card that fits on one page when only the core content is needed. Use `2.1` to recover: signal; one joint EntityOfConcern, effective ReferenceScheme, and ClaimScope; exact claim family; not-wish or not-preselected-Work reason; improvement check or acceptance probe; and one honest governed next use. That use may be `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstainOrNoChange`, or apply the FPF pattern that defines or constrains the claim, relation, or boundary outside the card.
 

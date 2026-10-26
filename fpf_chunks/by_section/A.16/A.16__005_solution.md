@@ -6,12 +6,12 @@ section_id: "A.16:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:4 — Solution"
-line_start: 33579
-line_end: 33673
+line_start: 33112
+line_end: 33206
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -76,7 +76,7 @@ This is the one canonical move table. Later examples apply it; they do not defin
 | `reopen` | the current route, frame, or closure no longer holds cleanly | a publication in the same broad family expresses the reduced closure claim | reopened rivals, retained witnesses, and which prior endpoint-use or current-use claim no longer holds |
 | `sketchBackoff` | an endpoint-bound or operational form over-commits the available grounds | an exploratory cue-bearing form becomes admissible again | retained anchors and witnesses, withdrawn closure, and the next safe question |
 | `respecify` | the broad family remains plausible but its framing scaffold, facet reading, or route specification is wrong | a revised framing or route specification replaces the earlier one | replaced commitments, invariants that stay fixed, and any episteme-identity change |
-| `retire` | a cue, route-bearing publication, episteme, or branch is no longer current for the named use because its grounds failed, a successor took over, or a current-use decision ended | retirement or withdrawal is explicit | reason, exact retired object, successor or no-successor note, and preserved history |
+| `retire` | a cue, route-bearing publication, episteme, or branch is no longer current for the named use because its grounds failed, a successor took over, or a current-use decision ended | retirement or withdrawal is explicit | reason, exact retired object, preserved history, and supported successor information or an unresolved successor question when the receiving use needs it |
 
 The table names moves, not the resulting objects. `PreArticulationCuePack`, `RoutedCueSet`, and `U.AbductivePrompt` are publication forms defined elsewhere. A claim-bearing episteme remains `U.Episteme`; `E.24.PUB` separately defines a bounded publication occurrence.
 
@@ -100,9 +100,9 @@ Do not use “move between publication forms” as a shortcut across these three
 
 The same discipline applies to project records through their own identity patterns. `E.24.PUB` says that an already identified episteme was made available for a bounded use; it says neither that content changed nor that an endpoint test passed.
 
-#### A.16:4.4 - One minimal move note
+#### A.16:4.4 - Minimum content for a move
 
-Write one note, keeping conditional fields out unless they change the use:
+Make the following content recoverable in the publication or, where needed, a short move note. Include conditional details only when they change the use:
 
 | Field | Minimum content |
 | --- | --- |
@@ -117,11 +117,11 @@ Add an `EpistemePublicationRelation` occurrence only when bounded availability m
 
 #### A.16:4.5 - Work crossing and actual relation changes
 
-Some `formalize` and `operationalize` moves only re-express available content. Others require measurements, experiments, installation or use of instrumentation, execution, or other dated `U.Work`. In the latter case, expose the boundary and use the applicable Work, measurement, experiment, gate, or endpoint pattern. A.16 records the pending or separately established crossing; it does not claim that Work occurred or produced a result.
+Some `formalize` and `operationalize` moves only re-express available content. Others require measurement, experiment, installation or use of instrumentation, or execution. Expose the needed action and use the applicable measurement, experiment, gate, or endpoint pattern. If the receiving claim requires a distinct dated `U.Work`, establish its A.13 basis and independent A.15.1 admission; use F.6 afterward only for precise assignment-bound attribution. A.16 records the pending or separately established crossing; it does not establish that the action occurred or produced a result.
 
 Next-use docking and a Work crossing do not by themselves establish a change in authority, responsibility, permission, or commitment. If one of those relations actually changes, record it as a separate claim: the exact relation under its governing pattern; participants in that relation's own roles, including exact giving and receiving admitted systems when its predicate requires them; any exact `U.SystemRoleAssignment` occurrences through which they participate; its object or action, scope, and effective interval; and the assigning, instituting, revoking, or superseding act when its pattern requires one. A.2, A.2.1, and the applicable deontic or authority pattern establish and test that claim.
 
-Use `A.16.0` for such a handoff only when its legitimacy or interpretation depends on upstream move or lineage history. Otherwise the local Work-boundary note and separately established relation are enough.
+Use `A.16.0` for such a handoff only when its legitimacy or interpretation depends on upstream move or lineage history. Otherwise the local account of the needed or performed action and the separately established relation are enough.
 
 #### A.16:4.6 - Keep coordination claims separate
 
@@ -141,7 +141,7 @@ Open route plurality is not a lineage fork. A multi-route state keeps several di
 
 #### A.16:4.7 - One history threshold
 
-A local note is sufficient when the move or short chain is reconstructible without extra lineage machinery. Use `A.16.0` only when at least one of these is load-bearing:
+Local publication content is sufficient when the move or short chain is reconstructible without extra lineage machinery. Use `A.16.0` only when at least one of these is load-bearing:
 
 - derivation, supersession, fork, merge, or retirement structure;
 - a multi-move history whose compression would hide a change in the applicable pattern or rule;

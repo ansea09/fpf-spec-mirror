@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.3.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
-line_start: 11933
-line_end: 12268
+line_start: 11808
+line_end: 12143
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -66,7 +66,7 @@ This pattern identifies the episteme that states the model's state space and tra
 
 A time series describes observations but leaves the next state to be explained. A control instruction selects an action but may leave its physical effect unspecified. Even a declared law can give an inadequate prediction when its chosen state hides a consequential difference, as the two-substance case shows.
 
-A usable account must therefore connect the changing subject, the state distinctions, the transition law and the observations. Its applicability and support must be sufficient for the particular prediction or decision, which may demand more than the initial model comparison.
+A usable account must connect the changing subject, the state distinctions and the transition law, adding the observation relation when the question uses observations. Its applicability and support must be sufficient for the particular prediction or decision, which may demand more than the initial model comparison.
 
 ### A.3.3:3 - Forces
 
@@ -340,7 +340,7 @@ A familiar equation or a well-fitting simulation can also encourage extrapolatio
 
 An explicit state and transition law lets the practitioner calculate a possible trajectory and compare it with observations through a declared relation. A failed comparison can then change a particular state choice, parameter, observation account or applicability condition.
 
-The work costs more than collecting measurements: the model needs interpretable characteristics and a supported law. A bounded prediction may be sufficient; a more consequential use may require additional observation, calibration or validation under :4.6.
+Constructing the model requires interpretable characteristics and a supported law. A bounded prediction may be sufficient; a more consequential use may require additional observation, calibration or validation under :4.6.
 
 ### A.3.3:10 - Rationale
 
@@ -352,7 +352,7 @@ The needed prediction determines which state distinctions have to remain recover
 
 | Available description | What it answers | Added effort and limit |
 | --- | --- | --- |
-| One present total | Bounds the next total between one quarter and one half of the present total. | Cheapest when that interval settles the question; it cannot select one exact next value under unequal retention. |
+| One present total | Bounds the next total between one quarter and one half of the present total. | Needs only the present total when that interval settles the question; it cannot select one exact next value under unequal retention. |
 | The two component masses | Determines the next state and total directly. | Requires observing or otherwise establishing the composition. |
 | Two consecutive exact totals | Recovers the two masses, then predicts by the derived second-order recurrence. | Replaces a composition observation with a second timed reading; noisy readings require an error account. |
 

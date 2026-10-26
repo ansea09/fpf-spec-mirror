@@ -6,12 +6,12 @@ section_id: "C.39.RP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:9 — Consequences"
-line_start: 83628
-line_end: 83633
+line_start: 82453
+line_end: 82458
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"
@@ -26,5 +26,5 @@ keywords:
 
 The project gains reusable alternatives with recoverable provenance, bounded evidence, and visible gaps. Later qualification and architecture comparison can inspect the same subjects without repeating search or inheriting false family and composition claims.
 
-The cost is a smaller catalogue. Some lineages remain partial, and the newest source may be unusable until its changed meaning or applicability is checked.
+Recovering subjects and provenance takes work. Some lineages remain partial, and a new source whose changed meaning or applicability is unresolved may be unusable for the affected claim.
 

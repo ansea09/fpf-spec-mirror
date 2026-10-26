@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:intro — Intro"
-line_start: 39642
-line_end: 39654
+line_start: 38854
+line_end: 38860
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -41,11 +41,5 @@ keywords:
 > **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Normative (unless explicitly marked informative)
-> **Placement:** Part A, CN-Spec cluster (A.19), CHR mechanism-governing patterns
-> **Source:** FPF, CHR mechanism-governing patterns
-> **Modified:** 2026‑01‑20
->
-> **Governing-pattern note:** this pattern governs the canonical `U.Mechanism` declaration for `SelectorMechanism.IntensionRef` (CHR suite stage `select`). Mechanism-intension semantics are governed by explicitly designated governing patterns (`E.20:4.2`).
-> `A.6.1` governs the semantic content of a `U.Mechanism` declaration. This pattern specialises that content for selection through the exact `EntityOfConcernRef`, effective `U.ReferenceScheme`, operation-local argument/result declarations, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, and Applicability. An F.9 bridge relation, dated selection `U.Work`, actual `Select` operation application with its `SelectionSlot` binding, any result episteme, A.10 evidence-provenance graph relation, G.11 currentness relation, and any publication relation remain neighboring objects and relations.
-> Other descriptions of SelectorMechanism cite `A.19.SelectorMechanism:4.1` rather than restating its declaration content or absorbing those neighboring objects and relations into mechanism fields.
+> This pattern declares Select and SelectEligibility under A.6.1. Actual applications and any separately asserted Work use the conditions in §4.1.
 

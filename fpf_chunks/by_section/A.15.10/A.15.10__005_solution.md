@@ -6,12 +6,12 @@ section_id: "A.15.10:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.10 — Resume Interrupted Work"
   - "A.15.10:4 — Solution"
-line_start: 32637
-line_end: 32702
+line_start: 32193
+line_end: 32258
 dependencies:
   - "A.15"
   - "A.15.5"
@@ -65,7 +65,7 @@ For an uncertain continuation, try stating:
 
 This can be an internal or spoken reconstruction. It is not a required written formula.
 
-If you cannot recover a decisive relation, use its source rather than filling the gap with a plausible story. Reconstruct a small missing calculation or argument, ask for the unavailable contribution, or return to the last reliable point. B.5.RA helps recover an argument; B.5.RC helps reconstruct a construction. Repeating the whole task is justified only when the useful remainder cannot be recovered more cheaply.
+If you cannot recover a decisive relation, use its source rather than filling the gap with a plausible story. Reconstruct a small missing calculation or argument, ask for the unavailable contribution, or return to the last reliable point. B.5.RA helps recover an argument; B.5.RC helps reconstruct a construction. Repeat the whole task only when the needed contribution cannot be recovered adequately through a smaller safe operation under the applicable rules.
 
 A remembered intention, a selected next step and a performed operation remain different. When the completion of an important step is uncertain, inspect its result or repeat the smallest safe operation that settles the uncertainty. Do not repeat an irreversible action merely because its record is missing.
 
@@ -73,7 +73,7 @@ A remembered intention, a selected next step and a performed operation remain di
 
 Compare the recovered account with conditions that can change the continuation: the question, inputs, material state, definitions, decision criterion, available tools, access or responsible performer. Inspect only the dependencies that matter to the intended use.
 
-A retained record says what was known or intended when it was made. It does not establish the current physical state, current access or permission to act. If a changed premise affects a result, revise the affected reasoning; B.5.RR supplies that operation. If a support dependency is missing or its recovery is in question, use A.15.8. When the working basis is usable but entry conditions remain unresolved, A.15.5 supplies the readiness question.
+A retained record says what was known or intended when it was made. Assess whether its claims still apply to the physical state, access or permission needed now; continued availability of the record alone establishes none of those conditions. If a changed premise affects a result, revise the affected reasoning; B.5.RR supplies that operation. If a support dependency is missing or its recovery is in question, use A.15.8. When the working basis is usable but entry conditions remain unresolved, A.15.5 supplies the readiness question.
 
 Retain a result whose conditions still hold. Reopen a result whose changed condition matters. Set aside a continuation that no longer serves the current purpose. Do not require a complete recheck merely because time has passed.
 

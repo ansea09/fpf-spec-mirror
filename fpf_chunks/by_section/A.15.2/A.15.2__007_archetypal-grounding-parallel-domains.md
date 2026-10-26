@@ -6,12 +6,12 @@ section_id: "A.15.2:6"
 section_title: "Archetypal grounding (parallel domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__007_archetypal-grounding-parallel-domains.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:6 — Archetypal grounding (parallel domains)"
-line_start: 30109
-line_end: 30147
+line_start: 29666
+line_end: 29706
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,6 +58,8 @@ keywords:
 
 ### A.15.2:6 - Archetypal grounding (parallel domains)
 
+These constructed cases stipulate their project facts. The hospital case follows one plan item through a later comparison; the other cases show different constraints and reuse limits.
+
 #### A.15.2:6.1 - Hospital OR day plan (shift rota + cases)
 
 * **WorkPlan:** `OR_DayPlan_2025-08-12-E3 : U.WorkPlan` is one C.2.1 episteme. Its present `EntityOfConcern` is exact existing system `OR-Service-System-12 : U.System`; its effective reference scheme is `HospitalORPlanningScheme-E4`; its horizon is `2025-08-12T00:00:00+03:00/2025-08-13T00:00:00+03:00`. Proposed case performances remain ClaimGraph designators and are not dated Work occurrences.
@@ -73,18 +75,18 @@ keywords:
 | acceptance target | `procedureCompleteBy10:30`, compared under C.27.TA against the exact Work extent after Work occurs |
 | baseline | exact C.2.1 episteme `OR-DayBaseline-2025-08-05-E1` |
 
-* **Later Work:** A.13 first recovers the surgeon and anesthetist as the exact actual performers through their respective obtaining assignments, and A.15.1 independently admits `AppendectomyWork-2025-08-12-Case1 : U.Work` with `workContinuityPolicyRef = SingleProcedureFromAnesthesiaStartToHandover-E1`, temporal extent `2025-08-12T09:04:00+03:00/2025-08-12T10:21:00+03:00`, and `enactsMethod` to `LaparoscopicAppendectomyMethod-E2`. Because the named one-case policy expressly consumes both assignment-bound attributions, F.6 afterward establishes `performedUnderAssignment` for `RA-Surgeon-DrK-2025-08-12` and `RA-Anesthetist-DrM-2025-08-12` through those same assignments. The named policy tests the exact within-window claim qualified under C.27.TA. The plan created none of those facts, and either failed F.6 relation would leave the Work intact while preventing this attribution-dependent fulfilment conclusion.
+* **Later Work:** The case independently admits DrK and DrM as Systems. Under the local A.13 criteria, DrK regulates the operative action to the procedure target and DrM maintains the declared anesthesia conditions under relevant perturbations; the stipulated observations support these classifications for the surgery scope and window. Under the directly declared assignment species, the stipulated case facts establish obtaining `RA-Surgeon-DrK-2025-08-12` and `RA-Anesthetist-DrM-2025-08-12` occurrences with those Systems as holders and the intended local kinds, covering that window. The observed performance history and the local containing-System predicate place the complete occurrence within `OR-Service-System-12`. These premises and the enactment and extent below independently admit `AppendectomyWork-2025-08-12-Case1 : U.Work` under A.15.1, with `workContinuityPolicyRef = SingleProcedureFromAnesthesiaStartToHandover-E1`, temporal extent `2025-08-12T09:04:00+03:00/2025-08-12T10:21:00+03:00`, and `enactsMethod` to `LaparoscopicAppendectomyMethod-E2`. Because the named one-case policy expressly consumes both assignment-bound attributions, F.6 afterward establishes `performedUnderAssignment` for `RA-Surgeon-DrK-2025-08-12` and `RA-Anesthetist-DrM-2025-08-12` through those same assignments. The named policy tests the exact within-window claim qualified under C.27.TA. The plan created none of those facts, and either failed F.6 relation alone would prevent this attribution-dependent fulfilment conclusion while preserving independent Work admission. If the same finding questions an actual admission premise, recheck that premise and its dependents under A.15.1.
 * **Named one-case policy:** `ORCase1FulfilmentPolicy-E2` is one exact C.2.1 episteme about exact plan episteme `OR_DayPlan_2025-08-12-E3`, interpreted under `HospitalORPlanningScheme-E4`. Its ClaimGraph is limited to item `Case_1_Appendectomy` and states positive polarity only when the identified Work enacts the target Method, both required `performedUnderAssignment` relations obtain, and its extent lies inside the planned window. It uses only those four facts for this local conclusion, does not travel to another plan episteme, and admits no fulfilment relation kind.
 * **Visible result:** C.2.1 assertion episteme `OR-DayPlan-Case1-Fulfilment-Assertion-E1` has `OR_DayPlan_2025-08-12-E3` as its exact `EntityOfConcern`; its ClaimGraph names `AppendectomyWork-2025-08-12-Case1`, item `Case_1_Appendectomy`, policy `ORCase1FulfilmentPolicy-E2`, the four supporting facts, and positive polarity. The result says that this Work satisfies this plan item under that policy. It does not rewrite the plan and does not assert a universal relation.
 * **Nearest false shortcut:** a theatre log row carrying key `Case_1_Appendectomy` and start time `09:04` establishes neither `performedUnderAssignment` nor `enactsMethod`. Without those independently obtaining facts the local conclusion returns `missing-information`; matching labels and times produce neither negative polarity nor fulfilment.
-* **Edition boundary:** `OR_DayPlan_2025-08-12-E3` is the first plan episteme used for this day, so this case has no `EpistemeEditionRelation` and needs no change note. If planners later change its ClaimGraph but establish no edition predicate, C.2.1 identifies a new, non-continuing plan episteme. Reusing the day-plan label or adding a `Rev-4` note cannot turn that replacement into a continuation; a later policy must name whichever exact plan it judges.
+* **Edition boundary:** this is the first plan episteme selected for the day. Changing its ClaimGraph identifies another episteme; edition continuity with the earlier plan requires its own C.2.1 basis. If that relation is unestablished, continuity remains unresolved rather than becoming negative. A reused label or `Rev-4` note supplies no such basis. A later fulfilment policy must identify whichever plan it judges.
 
 #### A.15.2:6.2 - Fab maintenance weekend (asset reservations)
 
 * **WorkPlan:** `Fab_Maintenance_W36` is interpreted under `FabMaintenancePlanningScheme-E3`, has horizon `[2025-09-06T00:00Z, 2025-09-08T00:00Z)`, and concerns already identified `Fab-Production-System-4 : U.System`. `Tool_42` and `Tool_13` remain exact assets named by the PlanItems; they are not an unproved joint EntityOfConcern.
 * **`PlanItem` content:** `Tool_42 chamber clean` under `ChamberCleanMethod-E2`; `Tool_13 calibration` under `ToolCalibrationMethod-E1`; the ClaimGraph carries an exact exclusivity constraint with production windows under the named scheduling policy, not a reusable `MutuallyExclusive_pl` relation kind.
 * **Reservations:** nitrogen, DI water, metrology window.
-* **Later local assertion:** The exact chamber-cleaning Work occurrence is identified independently as an individual admitted under `U.Work`. `FabChamberCleanPlanUsePolicy-E1` asks whether that Work enacted `ChamberCleanMethod-E2`, stayed inside the planned window, and kept nitrogen use within the reserved amount. A.15.1 supplies the Work and enactment facts; C.27.TA qualifies the within-window claim; B.1.6 supplies the resource aggregate used in the budget comparison. In this transfer probe the three policy conditions all obtain, so a separate C.2.1 assertion about the plan states positive fulfilment. Early completion and nitrogen underrun additionally require the corresponding strict comparisons. A shared item label or reservation row supplies none of those facts.
+* **Later local assertion:** The exact chamber-cleaning Work occurrence is identified independently as an individual admitted under `U.Work`. `FabChamberCleanPlanUsePolicy-E1` asks whether that Work enacted `ChamberCleanMethod-E2`, stayed inside the planned window, and kept nitrogen use within the reserved amount. A.15.1 supplies the Work and enactment facts; C.27.TA qualifies the within-window claim; B.1.6 supplies the resource aggregate used in the budget comparison. In this illustrative case the three policy conditions all obtain, so a separate C.2.1 assertion about the plan states positive fulfilment. Early completion and nitrogen underrun additionally require the corresponding strict comparisons. A shared item label or reservation row supplies none of those facts.
 
 #### A.15.2:6.3 - Data-center rollout (multi-context plan)
 

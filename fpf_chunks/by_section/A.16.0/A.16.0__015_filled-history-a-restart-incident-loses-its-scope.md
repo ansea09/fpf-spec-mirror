@@ -6,12 +6,12 @@ section_id: "A.16.0:14"
 section_title: "Filled history: a restart incident loses its scope"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__015_filled-history-a-restart-incident-loses-its-scope.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:14 — Filled history: a restart incident loses its scope"
-line_start: 34044
-line_end: 34059
+line_start: 33575
+line_end: 33590
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -54,7 +54,7 @@ The local incident-edition rule permits a note to continue S0 only if it actuall
 | S1, a briefing composed from S0 | “Checkout is permanently undersized; add replicas.” The explicit claim/action supports AE3; the selected capacity route is CD3. It omits both the restart window and the later success, and drops the rival explanations. | S1 has changed claim content and fails the stated edition-continuity rule. Record that failed continuation claim rather than silently linking it as the next valid edition. Its polish and closure establish no stronger warrant. |
 | S2, a corrected note composed directly from S0 after S1's loss is found | Retains both observations and rivals; adds “Which explanation accounts for the restart-only timeouts, and what observation would distinguish them?” It withdraws the permanent-shortage conclusion. Its explicit diagnostic structure gives `ValueSet(AE)={AE3}`; restored rivals give `ValueSet(CD)={CD2}`. | C.2.1 continuation from S0 to S2 obtains: distinct content, actual source use, same System/scheme, retained observations and an explicitly changed question satisfy the stated rule. Do not infer continuation from S1. |
 
-The A.16 `reopen` guard is met for the earlier capacity-route commitment: recovering S0 reveals the lost scope and unsupported elimination of rivals. The local next-use rule requires at least AE2, both named rivals and the observation window to be recoverable; it permits a return to B.5.2.0's diagnostic-question entry, not authorization to add replicas. S2 meets that guard. The receiving practitioner can now frame the discriminating inquiry while withholding the permanent-capacity conclusion. Any additional measurement is prospective Work under its own rule.
+The A.16 `reopen` guard is met for the earlier capacity-route commitment: recovering S0 reveals the lost scope and unsupported elimination of rivals. The local next-use rule requires at least AE2, both named rivals and the observation window to be recoverable; it permits a return to B.5.2.0's diagnostic-question entry, not authorization to add replicas. S2 meets that guard. The receiving practitioner can now frame the discriminating inquiry while withholding the permanent-capacity conclusion. Any additional measurement remains to be planned and performed under its applicable rule; admit a distinct Work only when that claim is needed.
 
 This short history is needed because the loss occurred between notes and changes how the later action proposal may be used. If the same facts and return were already recoverable in one adequate local move note, §4.3 would stop there. No successor publication, fork, responsibility transfer or history-of-H17 is required for this result.
 

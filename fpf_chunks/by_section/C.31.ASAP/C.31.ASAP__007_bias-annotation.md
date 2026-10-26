@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:6 — Bias-Annotation"
-line_start: 76172
-line_end: 76181
+line_start: 75103
+line_end: 75112
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -60,7 +60,7 @@ keywords:
 | Bias risk | C.31.ASAP correction |
 | --- | --- |
 | **Platform label bias** | Platform or product-line wording names a possible source context, not scale-preference evidence. Recover variability slots, extension rules, exception curve, refactor triggers, and source-return condition. |
-| **Modularity-means-scalability bias** | A module count, interface count, or reusable-structure share is not a scale preference. Use C.31 and C.31.RSA first, then C.31.ASAP only when scale variable and scale window are named. |
+| **Modularity-means-scalability bias** | A count or reusable share alone does not establish scale preference. Use C.31 or C.31.RSA when the characteristic or accounting meaning remains unresolved; proceed directly to C.31.ASAP when the alternatives, variable, window and relevant grounds are recoverable. |
 | **Debt inflation bias** | A locally hand-engineered solution is called debt without checking deontic, safety, law-domain, mission, assurance, or scale-probe waiver reasons. |
 | **RG proof bias** | RG, coarse-graining, fixed-point, or universality wording is treated as scale-preference proof. Use C.29 for lens recovery and keep scale preference in C.31.ASAP. |
 | **Selection laundering** | The scale-preference claim is used as if it selected the architecture. Use `G.5` for selected-set declaration and `C.11` for local choice; use `G.9` when parity is current. |

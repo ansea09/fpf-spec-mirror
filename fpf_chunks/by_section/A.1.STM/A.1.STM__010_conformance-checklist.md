@@ -6,12 +6,12 @@ section_id: "A.1.STM:8"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__010_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:8 — Conformance checklist"
-line_start: 4260
-line_end: 4276
+line_start: 4255
+line_end: 4271
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -47,7 +47,7 @@ keywords:
 | `CC-A1-STM-3` | Generic system-of-interest, project target-system role, the target's functional role, actual holder, future description, project designation, classification and assignment remain distinguishable where they change the decision. |
 | `CC-A1-STM-4` | Project Work, an admitted project-level network selection or Plain provisional map, and one minimal case placement retain their own identities. |
 | `CC-A1-STM-5` | Backward attention, forward actuality, didactic order, Work order, and direct subject relations are not substituted for one another. |
-| `CC-A1-STM-6` | Every local answer is one exact assertion under its subject predicate, with the pattern retained only as a locator, or a truthful stop. |
+| `CC-A1-STM-6` | Each local answer states the claims and conditions needed by its receiving use, retaining the subject predicates that govern those claims and any unresolved stop. A cited pattern locates the governing content. |
 | `CC-A1-STM-7` | A case states four things in ordinary language: the exact subject or claim; the bounded references and direct claims needed to answer this closure question; the separately governed closure basis; and one named downstream receiving use that remains outside the closed case. |
 | `CC-A1-STM-8` | An admitted network has independently identified members, exact obtaining cross-member relations, applied constraints, a use frame, and complete endpoint bindings; otherwise that network proposal stays provisional. A shared systemic account does not by itself require this stronger claim. |
 | `CC-A1-STM-9` | Expected environmental effect, actual runtime transformation and system participation, production, identity inception, completion, later change, and use are separately grounded; required behaviour is not actuality, and no not-yet-existing system is transformed. |

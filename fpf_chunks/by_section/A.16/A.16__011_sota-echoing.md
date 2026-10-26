@@ -6,12 +6,12 @@ section_id: "A.16:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__011_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:10 — SoTA-Echoing"
-line_start: 33755
-line_end: 33766
+line_start: 33288
+line_end: 33297
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -57,13 +57,11 @@ keywords:
 
 ### A.16:10 - SoTA-Echoing
 
-**Claim 1.** Best-known incident-response, exploratory-design, and inquiry practice since 2015 treats advance, rollback, reopening, and retirement as explicit transitions rather than an irreversible maturity climb.
+**Incident-response contribution.** [NIST SP 800-61r3 (2025), §2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf) connects lessons from incident-response activities to revisions of cybersecurity practices; learning can affect ongoing work rather than wait for recovery to end. A.16 uses that feedback idea for reopening a publication or its use. The source's scope is cybersecurity incident response.
 
-**Local adoption.** A.16 adopts explicit retreat and retirement, adapts them to typed publication forms and route conditions, and rejects the shortcut in which every change is narrated as improvement.
+**Historical provenance contribution.** [W3C PROV-DM (2013), §5.2.2](https://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-revision) distinguishes revision as a particular derivation relation between entities. This supplies a historical comparison for stating a lineage predicate rather than inferring it from a repeated label. C.2.1 supplies FPF episteme identity.
 
-**Claim 2.** Current provenance and evaluation practice separates a lightweight transition note from a heavier history when branching, loss, or a history-dependent handoff affects later interpretation.
-
-**Local adoption.** A.16 keeps the local note cheap, uses A.16.0 only at the stated threshold, and uses E.18 only for an independently selected TransformationFlowStructure. It rejects both mandatory trajectory wrappers and vague compression of important history.
+**FPF adaptation.** The ten moves and the threshold for a separate A.16.0 history are FPF's coordination choices. Neither cited source establishes that move set or the threshold. Keep sufficient local content, expose consequential loss and retreat, and use E.18 only for an independently selected TransformationFlowStructure.
 
 **Local stance.** Admissible language-state movement needs typed moves, explicit identity and status claims, and retreat options. It needs neither a mandatory formality climb nor a single “authority” scale.
 

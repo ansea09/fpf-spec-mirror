@@ -6,12 +6,12 @@ section_id: "A.19:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:8 — Consequences"
-line_start: 35275
-line_end: 35283
+line_start: 34669
+line_end: 34677
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,16 +6,19 @@ section_id: "A.7.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__014_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:12 — Relations"
-line_start: 26263
-line_end: 26271
+line_start: 25812
+line_end: 25820
 dependencies:
+  - "A.11"
   - "A.7"
+  - "A.7.1"
   - "A.7.2"
   - "A.7.CP"
+  - "A.8"
   - "C.19.2"
   - "E.24"
   - "E.24.UK"
@@ -30,10 +33,10 @@ keywords:
 
 ### A.7.1:12 - Relations
 
-- **Description-level specialization:** A.7.1 narrows the method claims stated by `C.19.2`. On the ordinary one-apparatus path, the already selected A.7.1 analysis Method is the direct-kind apparatus; the engineering subject and its subject pattern remain inputs and constraints. A.7.1 retains the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, the distinct MethodDescription episteme and described Method, reader, A.13-qualified performing System, independently admitted dated Work and result, and the stop and reopen conditions. For an actual-Work claim, the separately declared assignment species and obtaining occurrence are those used by A.13; add F.6 attribution through that same occurrence only when the receiving use expressly consumes exact assignment-bound attribution. It retains `C.18` and `C.11` candidate and choice behavior only for alternative analysis Methods, models, formalisms, or other applicable apparatuses eligible for the same use and guarantee. This wording adds no relation occurrence between the described Methods and asserts neither `U.SubkindOf` nor a world relation.
+- **Description-level specialization:** A.7.1 narrows the method claims stated by `C.19.2` to ontology analysis. It retains the use, problem-facing result, guarantee, horizon, useful threshold and stop/reopen conditions. On the ordinary one-apparatus path, the selected analysis Method is the apparatus and the engineering subject and its rule are inputs. Alternative generation and choice use C.18/C.11 only under §4.1. Description membership and actual Work use the separate conditions in §0; this description-level relation alone establishes no relation between the described Methods.
 - **Consumes:** exact `A.7.CP` claim epistemes through `ClaimUsedAsReasoningBasisRelation@Context` only when the ontology-analysis work relies on them.
 - **Coordinates with:** `A.7.2` when a material cross-pattern premise conflict is current; neither method is the other's parent or source of premise truth.
 - **Returns to:** direct relation, local system-role-kind, assignment, System, state, capability, Method, Work, responsibility, evidence, temporal, structural, and domain patterns for the claim being repaired.
-- **Escalates durable ontology to:** `E.24`/`E.24.UK`, `A.8`, and `A.11`; it does not admit U-kinds or relations itself.
+- **Uses for new framework-pattern or U-kind proposals:** `E.24` or `E.24.UK`, with `A.8` and `A.11`. A.7.1 itself admits neither; local kinds and relations retain their subject rules.
 - **Preserves:** current `A.7` Strict Distinction and `A.22.CGUS` admission law.
 

@@ -6,12 +6,12 @@ section_id: "A.10.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:5 — Archetypal Grounding"
-line_start: 27539
-line_end: 27583
+line_start: 27099
+line_end: 27143
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -26,11 +26,11 @@ keywords:
 
 ### A.10.1:5 - Archetypal Grounding
 
-**Tell.** A source change matters through a claim that a receiving use actually relied on. Search helps find possible receiving uses; the practitioner applies the direct subject rule to determine whether an action can change.
+**Tell.** A source change matters through a claim that a receiving use actually relied on. Search finds candidates; the practitioner applies the subject rule to determine whether a result or action can change. The following constructed cases use named subject patterns; their stated project facts and results are illustrative.
 
-#### A.10.1:5.1 - Show: Sensor-Calibration Range in an Actual Engineering Host
+#### A.10.1:5.1 - Show: Sensor-Calibration Range
 
-A pump-controller project used edition E2 of a sensor-calibration `MethodDescription`. E2 states that temperature compensation for module `TS-2` is valid from `-20 °C` to `50 °C`. E3 narrows ordinary validity to `-10 °C` through `50 °C` and requires a new calibration Method and evidence below that range.
+A pump-controller project used edition E2 of a sensor-calibration `MethodDescription`. E2 states that temperature compensation for module `TS-2` is valid from `-20 °C` to `50 °C`. E3 narrows ordinary validity to `-10 °C` through `50 °C` and requires a new calibration Method and evidence below that range. The service-release requirement includes cold start at `-15 °C`, below E3's ordinary validity range.
 
 The search frame is the named pump-controller project, `TS-2` configurations, current service-release interval, and the model, test, safety, interface-architecture, and decision stores used for that release question. Other hardware configurations are excluded when they do not use `TS-2` under the changed condition.
 
@@ -41,7 +41,7 @@ The source-outward route follows exact E2 references and established traces. The
 - the safety claim's use of evidence produced under that condition `depends`, and its action-changing reach continues to the service-release premise; and
 - the interface description's bibliography entry `mentions only`.
 
-The affected reach stops at the last service-release action that can change. A practitioner or admitted System applies `SYSE.19` to the discovery-and-reach statement. The independently governed engineering revalidation result records evidence that supports units `S006`–`S008` under the tested conditions and leaves `S009`–`S010` without the needed calibration evidence. That result goes directly to `SYSE.14`, where the authorized release decision remains. The release coordinator also needs one overview across the unit groups. That common account cites the engineering result, preserves the bibliography-only use and unaffected configurations, and summarizes the affected release branches. The engineering result could otherwise finish its direct receiving use without a second account.
+The affected reach stops at the last service-release action that can change. A practitioner or admitted System applies `SYSE.19` to the discovery-and-reach statement. The independently governed engineering revalidation result records tests using the new calibration Method at `-15 °C` for units `S006`–`S008`, supporting that release condition, and leaves `S009`–`S010` without the needed calibration evidence. That result goes directly to `SYSE.14`, where the authorized release decision remains. The release coordinator also needs one overview across the unit groups. That common account cites the engineering result, preserves the bibliography-only use and unaffected configurations, and summarizes the affected release branches. The engineering result could otherwise finish its direct receiving use without a second account.
 
 #### A.10.1:5.2 - Show: Financial Model and Data Refresh
 

@@ -6,12 +6,12 @@ section_id: "C.36.RP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.RP/C.36.RP__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.36.RP — Sustain and Renew Shared Ways of Working"
   - "C.36.RP:4 — Solution"
-line_start: 90227
-line_end: 90297
+line_start: 89047
+line_end: 89117
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"
@@ -31,7 +31,7 @@ keywords:
 
 Make the required methods obtainable through an arrangement that participants can use and, where needed, develop.
 
-**Recover the receiving work → locate the unavailable contribution → choose how it will remain obtainable → arrange acquisition, access or redistribution → use it in the receiving situation → retain the means of use and develop a worthwhile continuation.**
+**Recover the receiving work → locate the unavailable contribution → choose how it will remain obtainable → arrange acquisition, access or redistribution → use it in the receiving situation → retain the means of use. Develop a further continuation when its expected value justifies the work.**
 
 These are dependencies of the work. An available demonstration, tool or newly discovered method can be the starting point.
 

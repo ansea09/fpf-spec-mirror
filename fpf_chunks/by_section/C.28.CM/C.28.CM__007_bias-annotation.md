@@ -6,12 +6,12 @@ section_id: "C.28.CM:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:6 — Bias-Annotation"
-line_start: 68683
-line_end: 68688
+line_start: 67657
+line_end: 67662
 dependencies:
   - "A.15.9"
   - "B.5.2"
@@ -29,5 +29,5 @@ keywords:
 
 The scope is construction for a bounded causal question. Epistemic discipline separates a mechanism proposal from its evidence; pragmatic discipline stops at a useful conditional result; ontological discipline separates variables, their values, observations and the subject being changed.
 
-Narrative closure favors the first fluent explanation. Diagram authority favors a tidy graph. Observed-variable bias omits causes that were not measured. Remedy these tendencies by constructing a material rival, explaining consequential omissions, and checking how observations and case selection were produced. Retaining every imaginable model can also prevent useful work; narrow the family by subject grounds and the receiving question.
+Narrative closure favors the first fluent explanation. Diagram authority favors a tidy graph. Observed-variable bias omits causes that were not measured. Remedy these tendencies by constructing any materially plausible rival, explaining consequential omissions, and checking how observations and case selection were produced. Retaining every imaginable model can also prevent useful work; narrow the family by subject grounds and the receiving question.
 

@@ -6,12 +6,12 @@ section_id: "C.2.LS:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:7 — Conformance Checklist"
-line_start: 53414
-line_end: 53422
+line_start: 52570
+line_end: 52578
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -47,5 +47,5 @@ keywords:
 - `CC-C.2.LS-4` Trajectory accounts that rely on facet profiles **SHOULD** reuse A.16 move kinds. Apply E.18 only to an independently selected TransformationFlowStructure; use E.18.2 when its mathematical description is needed.
 - `CC-C.2.LS-5` Composite labels such as `early`, `settled`, or `ready` **SHALL NOT** stand in for the explicit facet bundle when those states matter operationally.
 - `CC-C.2.LS-6` Composite readings, overlays, and route notes **SHALL** remain decomposable into named facets and **MUST NOT** behave as hidden master factors.
-- `CC-C.2.LS-7` A profile bundle **MUST NOT** smuggle move rules, bridge rules, gate state, or downstream definitions and tests into what should remain a thin facet-profile record.
+- `CC-C.2.LS-7` Profile references or notes **MUST NOT** replace the governing move, Bridge, gate or downstream rule. Cite the applicable rule when a proposed consequence depends on it.
 

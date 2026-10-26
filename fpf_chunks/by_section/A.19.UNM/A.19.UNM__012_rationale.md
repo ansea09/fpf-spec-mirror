@@ -6,12 +6,12 @@ section_id: "A.19.UNM:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:10 — Rationale"
-line_start: 38274
-line_end: 38283
+line_start: 37518
+line_end: 37527
 dependencies:
 keywords:
   - "CV→NCV"

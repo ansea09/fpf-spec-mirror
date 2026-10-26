@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__003_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:1 — Problem Frame"
-line_start: 10202
-line_end: 10207
+line_start: 10118
+line_end: 10123
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"
@@ -25,7 +25,7 @@ keywords:
 
 ### A.3.1.QM:1 - Problem Frame
 
-Method-selection literature correctly emphasizes situation and fit, but real project candidates arrive at unlike epistemic states. One is an identified Method with known use evidence, another is a candidate account recovered from Work records, and a third phrase refers only to a tool or support condition.
+Method selection depends on situation and fit, but project candidates arrive with different bases for their identification. One is an identified Method with known use evidence, another is a candidate account recovered from Work records, and a third phrase refers only to a tool or support condition.
 
 Individual qualification can save architecture effort by rejecting a candidate that cannot produce the required result or cannot meet one non-negotiable condition. It becomes misleading when it averages several Methods and support arrangements into one fit score or upgrades an account through confident language.
 

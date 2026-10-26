@@ -6,12 +6,12 @@ section_id: "A.8:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__003_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:1 — Problem Frame"
-line_start: 26714
-line_end: 26719
+line_start: 26260
+line_end: 26265
 dependencies:
   - "A.11"
   - "C.3"
@@ -30,7 +30,7 @@ keywords:
 
 ### A.8:1 - Problem Frame
 
-FPF needs some universal primitives. It also needs to avoid turning a field's favorite vocabulary into the kernel. A word that works in software, finance, biology, or physics may still be local. A kernel-level U-kind must survive contact with different foundational domains without changing what kind of work it does in the model.
+FPF needs universal primitives while keeping domain-specific concepts outside the kernel. A term used in software, finance, biology or physics may still name a local kind. A kernel-level U-kind must retain its defined contribution when applied across the foundational domains in its claimed scope.
 
 When source wording proposes a kernel-level U-kind, recover its admission claim: `E.24.UK` decides durable U-kind admission basis, and A.8 tests the universal-core claim.
 

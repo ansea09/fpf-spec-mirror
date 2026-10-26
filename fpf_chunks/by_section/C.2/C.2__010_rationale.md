@@ -6,12 +6,12 @@ section_id: "C.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__010_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:9 — Rationale"
-line_start: 51292
-line_end: 51295
+line_start: 50460
+line_end: 50463
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,5 +41,5 @@ keywords:
 
 ### C.2:9 - Rationale
 
-KD-CAL turns the coarse legacy semiotic picture into **holonic composition** over exact C.2.1 epistemes and their claims. Exact claim content, EntityOfConcern, and effective reference scheme keep episteme identity stable; formal structure and claim scope (**F,G**), evidence (**R**), and pairwise congruence (**CL**) remain visible and composable without an omnibus slot relation. Direct grounding, edition, view, representation, publication, and carrier patterns prevent category collapse. The resulting assessments remain **manager-readable** and **formalisation-ready**, with **G** grounded in scope/envelope rather than part count.
+KD-CAL composes C.2.1 epistemes through the relations among their claims and support. Exact claim content, EntityOfConcern, and effective reference scheme keep episteme identity stable; formal structure and claim scope (**F,G**), evidence (**R**), and pairwise congruence (**CL**) remain distinct in composition. Direct grounding, edition, view, representation, publication, and carrier patterns prevent category collapse. **G** concerns the claim’s applicability; changing decomposition detail changes G only if it changes that applicability.
 

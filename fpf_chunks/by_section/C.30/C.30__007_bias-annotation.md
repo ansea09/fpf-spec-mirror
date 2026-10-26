@@ -6,12 +6,12 @@ section_id: "C.30:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:6 — Bias-Annotation"
-line_start: 71976
-line_end: 71989
+line_start: 70950
+line_end: 70963
 dependencies:
   - "A.1"
   - "A.10"
@@ -82,9 +82,9 @@ Lenses: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: FPF ar
 | --- | --- |
 | Module-diagram bias | Keep module structure and interface relation as one structure family among several; use `C.30.ASV` and the module-and-interface repair pattern when a module or interface claim is being made. |
 | Tool-model bias | Treat notation, tool model, generated relation graph, diagram, and dashboard as description, specification-use, or publication forms unless an exact direct relation gives the source material a more specific use. |
-| Check-only bias | The first output is an architecture question card plus action palette, not a checklist that only detects mistakes. |
+| Check-only bias | Return a concrete architecture action with its needed basis; a clear ordinary account can supply it. |
 | Assurance or gate bias | Architecture descriptions do not certify safety, evidence sufficiency, release, or gate passage; use the applicable pattern for each such claim. |
 | Didactic-thinning risk | The practitioner situation, payoff, stop condition, and first architecture move explain why the distinctions matter. |
 
-This checklist verifies the preceding guidance after the practitioner has chosen the selected architecture candidate use; it is not a required project control form and not a substitute for the card, note, view, relation, or repair use above.
+Use the following checklist for the architecture claim or action being considered. Its conditions may already be established in the working account; completing a separate form adds no missing relation or argument.
 

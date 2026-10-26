@@ -6,12 +6,12 @@ section_id: "F.16:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__002_intent-applicability.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:1 — Intent & applicability"
-line_start: 122904
-line_end: 122913
+line_start: 121724
+line_end: 121733
 dependencies:
   - "A.10"
   - "A.15"

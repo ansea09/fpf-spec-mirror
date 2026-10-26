@@ -6,12 +6,12 @@ section_id: "C.28.MR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:12 — Relations"
-line_start: 68939
-line_end: 68947
+line_start: 67913
+line_end: 67921
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"
@@ -28,5 +28,5 @@ keywords:
 - **A.3.3.TR** constructs continuation rules from interactions, operations and subject laws when time or events matter to the replacement.
 - **B.5.MPC** connects the physical account, mathematical construction, computation and observation used to interpret the consequence.
 - **B.5.RR** revises the affected reasoning when a premise or mechanism changes.
-- **C.29.1** checks transfer of a mathematical result into another representation or use; the current member constructs the intervention result that can later be transferred.
+- **C.29.1** checks transfer of a mathematical result into another representation or use; this member constructs the intervention result that can later be transferred.
 

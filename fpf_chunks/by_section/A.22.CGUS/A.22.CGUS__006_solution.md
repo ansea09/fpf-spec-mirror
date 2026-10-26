@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:4 — Solution"
-line_start: 41175
-line_end: 41340
+line_start: 40343
+line_end: 40509
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,7 +53,7 @@ Write the smallest useful answer in domain language:
 2. list the real alternatives;
 3. state the condition for each alternative;
 4. state the facts known for this case;
-5. mark each alternative `available`, `blocked`, or `unknown`, and name the first missing fact or rule.
+5. mark each alternative `available`, `blocked`, or `unknown` under its condition, and name any gap that prevents deciding it. If the evaluation itself failed, state that error rather than treating it as a domain fact.
 
 For example, a design review has two alternatives: accept the design or repair it. Acceptance needs both checks to pass. Repair needs at least one failed check and a repair proposal that concerns this design.
 
@@ -166,11 +166,12 @@ CurrentContinuationSetResult:
   enabledContinuationCandidateRefs[]
   disabledContinuationCandidateRefs[]
   unknownContinuationCandidateRefs[]
+  errorContinuationCandidateRefs[]
   stopOrNextAction
   recheckConditions[]
 ```
 
-A claim reference identifies the claim being applied; it does not show that the test applies or that its condition is satisfied. An obtaining relation is not a condition claim. Keep these two basis branches distinct and derive the case result only from completed judgements.
+A claim reference identifies the claim being applied; it does not show that the test applies or that its condition is satisfied. An obtaining relation is not a condition claim. Keep these two basis branches distinct and derive the case result only from completed judgements. Apply the candidate’s own condition logic: for example, one false required conjunct can establish `disabled` despite another unknown conjunct. Retain that unknown basis value; it is not thereby satisfied. An evaluation failure yields `error` under the applicable test, not an invented fact about the candidate.
 
 The membership test concerns potential topology. Changed facts, evidence, test outcomes, or time windows normally change a judgement and the current set, not the structure. Reidentify the A.22 structure when a constituent, selected obtaining relation occurrence, applied constraint, or named use frame changes. Reapply CGUS membership when a locus binding or potential-continuation row changes.
 
@@ -181,7 +182,7 @@ Do not turn qualification, case evaluation, description adequacy, and downstream
 | Decision | Passing basis | Honest lower result |
 | --- | --- | --- |
 | A.22 identity and CGUS membership | The four A.22 discriminators identify one structure; its local loci, relations, and constraints define at least two potential continuations across allowed cases. | Name the missing discriminator, binding, relation, constraint, or candidate. Keep the artifact as an explanation. |
-| Continuation result for this case | Each candidate has an applicable test or obtaining-relation basis, case inputs, facts, required polarity, time window, and an `enabled`, `disabled`, `unknown`, or `error` result. | Mark the affected candidate unknown or stop on the missing value. Do not revoke an independently established structure. |
+| Continuation result for this case | Each candidate has an applicable test or obtaining-relation basis, case inputs, facts, required polarity, time window, and an `enabled`, `disabled`, `unknown`, or `error` result. | Mark the affected candidate unknown when the gap prevents deciding its condition; retain an independently established disabled result. Do not revoke an independently established structure. |
 | Description or demonstrative-slice adequacy | The description says what it shows and omits for its declared use. Use C.33 only when a carrier's loss affects a declared architecture use within C.33's scope. | Narrow or correct the description. Missing publication or loss material does not deny the structure. |
 | A stronger neighboring claim | The method, Work, evidence, assurance, gate, architecture, publication, currentness, or mathematical claim passes its own definition or test. | Stop only that stronger use and name its missing rule or basis. |
 

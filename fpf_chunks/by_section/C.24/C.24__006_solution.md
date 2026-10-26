@@ -6,12 +6,12 @@ section_id: "C.24:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:4 — Solution"
-line_start: 64687
-line_end: 64881
+line_start: 63645
+line_end: 63839
 dependencies:
   - "A.10"
   - "A.15"
@@ -150,7 +150,7 @@ The field states the planned causal use and any support already consumed. It doe
 
 #### C.24:4.6 - Public quick card
 
-Record:
+An ordinary written plan can supply this content; the schemas above are optional forms. Retain an existing applicable plan when it already states:
 
 - exactly one action-basis branch: the grounded domain-prescribed action, an A.15.7 decision episteme, or a C.11 `choose now` ChoiceResult; add the objective and ordered Method refs;
 - route-description refs only when needed, with their source scheme, exact edition, intended use, and selected Method binding;
@@ -227,7 +227,7 @@ CheckpointReturn:
   commitTrigger = reproduction_is_stable_and_required_evidence_is_current
 ```
 
-If the repeat establishes the trigger, the maintainer decides whether to end route probing and adopt `ci_patch_plan_09`: produce the patch, then run its targeted tests. The maintainer checks the time remaining after that repeat against the plan's 25-minute need and the applicable safety or assurance conditions. If the plan is adopted, the repair agent may start its first call only with the required work-entry permission. The checkpoint itself records neither that permission nor a performed call.
+If the repeat establishes the trigger, the maintainer decides whether to end route probing and adopt `ci_patch_plan_09`: produce the patch, then run its targeted tests. The maintainer checks the time remaining after that repeat against the plan's 25-minute need and the applicable safety or assurance conditions. A 3-minute repeat leaves 27 minutes; a 6-minute repeat leaves 24 and cannot fund the unchanged 25-minute plan. The latter result requires a feasible shorter route, independently permitted budget revision, or stop. If the plan is adopted, the repair agent may start its first call only with the required work-entry permission. The checkpoint itself records neither that permission nor a performed call.
 
 **Two vendor routes with one token.** Vendor A and Vendor B both publish a route called `search`. `vendor_a_search_v2` states scheme `VendorA API`, edition `2026-07`, intended use `repository text search`, and selected Method `RepositoryTextSearchMethod_3`. `vendor_b_search_v5` states scheme `VendorB agent tools`, edition `2026-08`, intended use `web source retrieval`, and selected Method `WebSourceRetrievalMethod_8`. The shared token identifies neither binding; the description fields do. An executable adapter, if used, remains distinct from the Method it implements, and its execution remains separate Work.
 

@@ -6,12 +6,12 @@ section_id: "C.26.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:7 — Conformance Checklist"
-line_start: 66244
-line_end: 66263
+line_start: 65203
+line_end: 65222
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -43,7 +43,7 @@ keywords:
 | ID | Check |
 | --- | --- |
 | CC-C26.1.1 | The boundary, role relation, authority relation, bridge, split, or queried system edge is named. |
-| CC-C26.1.2 | The active probe or interaction lane is typed as work, method, measurement, speech act, interaction channel, evidence carrier, bridge/export act, or API/service operation; any quantum-instrument wording is recorded only as a modeling analogy unless formalized elsewhere. |
+| CC-C26.1.2 | Identify the probe operation or interaction separately from its Method, instrument/channel and output carrier when those distinctions carry the claim. Quantum-instrument wording remains a modeling analogy unless supported by a formal account. |
 | CC-C26.1.3 | Observable, probe method, measurement scheme or interaction scheme, emitted output or result record, update class, and evidence carrier are separated when they carry the claim. |
 | CC-C26.1.4 | The QL cue or formal cue is named, or the case is handled without QL wording. |
 | CC-C26.1.5 | The false passive reading or unjustified lossless-transfer reading is stated. |

@@ -6,12 +6,12 @@ section_id: "A.1.SCR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:4 — Solution"
-line_start: 3568
-line_end: 3665
+line_start: 3563
+line_end: 3660
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -35,7 +35,7 @@ Start with four plain statements:
 3. the decision or action that would differ if this entity were or were not a system; and
 4. the observation, boundary fact, or construction fact that would settle that difference.
 
-Do not use bare *system candidate* as a working noun. Before referent recovery say *the proposed system reading of the phrase*. Once an actual referent is identified, say *the exact `U.Entity` being evaluated under the already admitted `U.System` kind*. Say *an alternative being considered for designation as the project system-of-interest* only when one named project plan or decision compares possible referents.
+Keep a proposed system reading of a phrase separate from the entity being evaluated under `U.System`. Name the entity as soon as it is recovered. When a named project plan or decision compares possible referents for designation as the project system-of-interest, state that proposed designation separately from system recognition.
 
 #### A.1.SCR:4.2 - Take the subject-pattern exit first
 

@@ -6,12 +6,12 @@ section_id: "C.3.4:11"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__013_authoring-and-review-guidance.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:11 — Authoring and Review Guidance"
-line_start: 55864
-line_end: 55885
+line_start: 54997
+line_end: 55018
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -25,7 +25,7 @@ keywords:
 
 ### C.3.4:11 - Authoring and Review Guidance
 
-An adaptation card may show its declaration designator, base kind, effective scheme, pinned base-signature and declaration editions, adaptation type, intended use, candidate constraints, bindings, separately routed Scope, applicability, examples, known bridge or correspondence declarations, and a stable-distinction review note when current. A correspondence card shows its source declaration as EntityOfConcern and names target, direction, rule, definedness, loss, and effective scheme. A card represents the declaration; it is not the declaration or another kind.
+A card can express an adaptation or correspondence declaration, or point to its exact edition and show the content needed for the receiving use. Keep the declaration's claim-bearing content distinct from the card's arrangement as publication form and from its carrier under C.2.P. A pointer-only card needs an accessible source for the declaration content required by the use. The declarations retain all applicable conditions in section 6; changing their presentation does not change the base kind.
 
 Rules of thumb:
 

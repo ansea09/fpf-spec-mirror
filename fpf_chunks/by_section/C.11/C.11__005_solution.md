@@ -6,12 +6,12 @@ section_id: "C.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:4 — Solution"
-line_start: 56662
-line_end: 57125
+line_start: 55775
+line_end: 56237
 dependencies:
   - "A.10"
   - "A.13"
@@ -149,7 +149,7 @@ This minimal choice doctrine does not settle every decision-theory dispute, but 
 
 The following are lawful in this `C.11` body when they are stated explicitly:
 
-- one incomplete or only partially ordered `PreferenceOrder`, so long as the unresolved comparison stays visible through one retained tie-set, one further probe, or one honest `reject current set` result rather than one fake winner;
+- an incomplete or partially ordered `PreferenceOrder`, with unresolved alternatives retained explicitly, a worthwhile further probe, or an unfinished comparison; incomparability alone does not justify `reject current set`, which requires the current rule to exclude every option;
 - one `EvaluativeMeasure` for magnitude, threshold, or trade-off-sensitive cases, so long as the measure being used now is explicit enough to explain why the current result follows under it;
 - one temporary unresolved criterion conflict, so long as the record says whether the present comparison is using one priority order, one threshold, one explicit trade-off measure, or one unfinished state that still blocks closure;
 - one explicit `BeliefState` revision, so long as it enters the comparison as one named probe result or one named model repair rather than as one silent basis shift;
@@ -162,7 +162,7 @@ The following are not admissible in this `C.11` body:
 - pretending that unresolved cross-scale or cross-collectivity conflict is already one settled local ranking when the aggregation question has not actually been discharged;
 - using one polished record shape as a substitute for one stated comparison doctrine.
 
-This is why `C.11` is more than one note-taking protocol. The body already supports local incompleteness, partial order, explicit trade-off measures, and wider chooser-bearing cases, but it requires those semantic facts to change the lawful result rather than remain hidden beneath one elegant summary line.
+These distinctions change the result: a partial order can leave alternatives unresolved, a trade-off measure can settle a comparison, and conflicting collective objectives can leave it unfinished. When using the `retainedTieSet` field for unresolved alternatives, state whether they are equally preferred or incomparable. A partial order does not turn incomparability into equality.
 
 ##### C.11:4.2.2 - Probe-worthiness rule
 
@@ -242,6 +242,7 @@ The comparison should close as `probe again` only when all of the following are 
 
 - one next probe is named by value;
 - that probe fits the remaining `ProbeBudget`;
+- its expected contribution to the choice justifies its `CostToProbe`;
 - that probe is expected to repair one named comparison defect;
 - that repaired defect could still change which option survives, whether the current set should be rejected, or whether the question should reroute.
 
@@ -328,7 +329,7 @@ What changes here is not the prestige label of the theory line, but the comparat
 
 Typical practical cash-outs are:
 
-- `choose now` because, under the declared intervention structure, one option now causally dominates or remains the survivor and no remaining feasible probe can reverse that causal ranking;
+- `choose now` because, under the declared intervention structure, one option now causally dominates or remains the survivor and no remaining feasible probe can change that comparison with enough expected gain to justify its cost;
 - `probe again` because one intervention-relevant uncertainty still blocks a lawful causal comparison and one named next probe could still change which option causally survives;
 - `reroute` because the intervention-use question has already moved from local choice into enactment planning, protocol design, or one neighboring question.
 
@@ -436,13 +437,13 @@ The following objects activate when the case needs them:
 - `CounterfactualModel` plus `SubjunctiveDependenceRelation` for success-first or predictor-coupled repair;
 - `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, `ValueOfInformation`, and `ValueOfComputation` when one more probe or one more computation pass is still live.
 
-What matters is not that every decision record mechanically mentions every token. What matters is that the current comparison does not smuggle one active question without naming the object that carries it.
+Use these names or ordinary wording that makes the applicable objects and their roles in the comparison recoverable.
 
 Immediate lexical commitments:
 
 - the default chooser term is `DecisionSubject`, not `Agent`;
 - `DecisionSubjectGranularity` names the chooser-bearing level when the question is about whether the chooser is one person, team, organization, or another collectivity-bearing system rather than one generic scalar or coordinate;
-- relation-heavy wording remains answerable to `A.6.P` together with `A.6.5`.
+- use `A.6.P` if a relation's predicate or participants remain unclear, and `A.6.5` when its argument or slot structure needs clarification.
 
 Local plain glosses for the load-bearing inventory:
 
@@ -483,7 +484,7 @@ This minimal choice doctrine does not yet settle all of the heavier doctrine tha
 - one full `ROE` or social-expectation structure for socially scaffolded choice;
 - one full multilevel or geometry-heavy formal package for those cross-scale or cross-collective questions.
 
-Those absences are not hidden exceptions. They are explicit scope boundaries of this `C.11` body. If one of those heavier questions is already live in the case, the decision record should say that the local `C.11` floor is being used only as the current typed floor and should keep the unresolved aggregation, `ROE`, or multilevel support question visible by value.
+If one of these questions matters to the choice, retain the unresolved aggregation, social-expectation or multilevel premise and obtain its needed support. The local choice record alone does not settle it.
 
 #### C.11:4.6 - Minimal decision tuple and finish condition
 
@@ -498,9 +499,7 @@ A `C.11` decision record is complete only when it states:
 - what the current comparison concludes: one emitted `ChoiceResult` that says choose now, reject the current set, probe again, or reroute.
   That result must name either the selected option, the retained tie-set, the rejected current set, or the next probe or reroute named by value.
 
-Without that explicit tuple, choice doctrine usually collapses into one of three easier but wrong substitutes: generic rationality talk, search folklore, or planning folklore.
-
-The finish condition is more specific than "the record now sounds informed." The record is finished enough for practical use only when the choice result stated in `ChoiceResult` follows from the stated comparison basis, stated `ChoiceRule`, and any applicable probe decision value rather than from unstated background assumptions.
+The result is usable when `ChoiceResult` follows from the stated comparison basis, `ChoiceRule` and any applicable probe decision value.
 
 A `C.11` pass is finished enough for practical use when all three conditions hold:
 
@@ -512,5 +511,5 @@ An inactive inquiry item adds no placeholder or omission account to this tuple o
 
 If the case remains tied or underdetermined under the current basis, say that directly and keep the tie-set explicit. A lawful `ChoiceResult` may still be `probe again` or `reroute`, but it must not pretend that one winner already exists when the current basis has not earned that conclusion.
 
-If those conditions are still missing, the pattern has not yet answered the choice question even if the terminology already sounds sophisticated.
+If those conditions are missing, retain the unfinished comparison and identify the premise or decision still needed.
 

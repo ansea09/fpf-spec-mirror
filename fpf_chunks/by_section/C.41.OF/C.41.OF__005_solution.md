@@ -6,12 +6,12 @@ section_id: "C.41.OF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.OF/C.41.OF__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
   - "C.41.OF:4 — Solution"
-line_start: 88754
-line_end: 88791
+line_start: 87572
+line_end: 87609
 dependencies:
   - "A.15.8"
   - "C.41"
@@ -49,7 +49,7 @@ For an AI agent, provide the applicable description and criteria, usable tools, 
 
 Use [A.15.8.MS](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a158ms---configure-methodological-support-for-work) to arrange enactment and [A.3.1.WT](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31wt---design-and-interpret-a-method-work-trial) to try representative work. Observe whether the user encounters the aid, interprets the question, obtains the grounds and chooses a useful continuation. In shared use, observe who contributes, whether another participant understands and responds, and whether a raised concern changes the work where it matters. Examine the intended interaction and the aid's contribution separately: opening the form, reading its items and obtaining a useful conversation are different observations. Include a negative or unresolved case so the trial does not reward only effortless completion.
 
-Choose observations from the unresolved question. An existing reliable record may settle whether the aid appeared at the intended occasion. It cannot by itself settle whether a participant understood or acted on a concern; inspect that interaction when it matters. Use a bounded observation of representative work before choosing continuing oversight. Include the observer's effort and any change their presence makes to the work.
+Choose observations from the unresolved question. An existing reliable record may settle whether the aid appeared at the intended occasion. That appearance alone does not settle whether a participant understood or acted on a concern; use evidence of that interaction when it matters. Use a bounded observation of representative work before choosing continuing oversight. Include the observer's effort and any change their presence makes to the work.
 
 A first assisted use can reveal unfamiliar wording or a missing observation route. Provide enough help to diagnose and repair the obstacle, then distinguish what the user can do with that help from what is independently repeatable. Ask whether the aid changed the work result and what effort it moved to other people or tools.
 

@@ -6,12 +6,12 @@ section_id: "A.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:3 — Forces"
-line_start: 13872
-line_end: 13883
+line_start: 13674
+line_end: 13685
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ keywords:
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Modularity vs expressiveness**             | A stable boundary must be abstract, but users want operational detail “in the same doc”.                                                                           |
 | **Truth condition vs governance content** | Whether the sentence states what is true or observed, or states a prescription, individual duty, prohibition, commitment, or grant; visible RFC words and the selected subject pattern do not decide this axis. |
-| **Design‑time clarity vs run‑time evidence** | What can be checked statically vs what requires executing work and observing traces.                                                                               |
+| **Declared conditions and actual facts** | Some claims are settled from definitions; others require actual observations or evaluations under their subject predicates. |
 | **View, viewpoint, and construction discipline** | A view is an episteme satisfying exact viewpoint conformance; a viewpoint is an exact convention-bearing episteme; optional A.6.3 construction and publication remain different relations. Losing any distinction makes omissions and provenance uninterpretable. |
 | **Local meaning vs cross‑context reuse** | Boundaries keep meaning local ↔ cross-context reuse needs its actual correspondence and bounded-use basis. Use an F.9 Bridge only for two exact local senses when its predicate obtains; `CL` is optional evidence shorthand. |
 | **Evolvability vs auditability**             | Evolving interfaces requires change; auditors require stable evidence trails.                                                                                      |

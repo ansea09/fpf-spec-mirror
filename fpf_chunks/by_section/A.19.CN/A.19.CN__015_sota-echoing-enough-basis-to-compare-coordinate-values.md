@@ -6,12 +6,12 @@ section_id: "A.19.CN:14"
 section_title: "SoTA-Echoing — enough basis to compare coordinate values"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__015_sota-echoing-enough-basis-to-compare-coordinate-values.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:14 — SoTA-Echoing — enough basis to compare coordinate values"
-line_start: 37257
-line_end: 37270
+line_start: 36527
+line_end: 36540
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -37,7 +37,7 @@ keywords:
 
 ### A.19.CN:14 - SoTA-Echoing — enough basis to compare coordinate values
 
-**Practice question.** What must accompany two chart values before a practitioner treats them as comparable? The selected best-known line identifies the bearer/property, value-producing procedure or evaluation rule, relevant time and result basis alongside Scale/Unit meanings. A serious smaller alternative is to carry only the quantity kind, value and unit, converting units before comparison.
+**Practice question.** What must accompany two chart values before a practitioner treats them as comparable? The selected comparison basis identifies the bearer/property, value-producing procedure or evaluation rule, relevant time and result basis alongside Scale/Unit meanings. A serious smaller alternative is to carry only the quantity kind, value and unit, converting units before comparison.
 
 The [QUDT quantity model](https://www.qudt.org/pages/QUDToverviewPage.html) is the useful comparator: it separates Quantity, QuantityKind, QuantityValue and Unit and supports precise quantity descriptions. **Adopt** that discipline where a Unit applies. Using only that portion is cheaper and sufficient when the same property, procedure and observation basis are already fixed outside the record. **Reject** treating it alone as evidence that two independently obtained readings answer the same question; this is a limit of that reduced use, not a claim that QUDT forbids richer descriptions.
 

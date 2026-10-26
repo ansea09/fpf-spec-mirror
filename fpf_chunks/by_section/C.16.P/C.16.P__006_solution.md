@@ -6,44 +6,34 @@ section_id: "C.16.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:4 — Solution"
-line_start: 59559
-line_end: 59602
+line_start: 58617
+line_end: 58660
 dependencies:
-  - "A.10"
-  - "A.15"
   - "A.17"
   - "A.18"
   - "A.19"
   - "A.19.ECS"
-  - "A.20"
-  - "A.21"
   - "A.6.P"
-  - "B.3"
-  - "C.11"
   - "C.16"
   - "C.16.Q"
   - "C.25"
-  - "C.28"
   - "C.29"
   - "E.10"
   - "E.10.ARCH"
   - "E.21"
   - "F.18"
-  - "G.0"
-  - "G.5"
-  - "G.9"
 keywords:
 ---
 
 ### C.16.P:4 - Solution
 
-Repair compressed characterization wording by producing a `characteristic-scale repair note` or equivalent local rewrite.
+Rewrite the claim so the reader can recover its subject, the relevant characterization or comparison, its basis and the use it supports. Keep necessary applicability and stop conditions.
 
-Minimum fields when a note is needed:
+When the receiving work needs a separate inspectable note, the following scaffold can retain the repair. Include only fields relevant to that claim:
 
 ```text
 CharacteristicScaleRepairNote:
@@ -63,7 +53,7 @@ CharacteristicScaleRepairNote:
   comparisonReferenceOrComparatorSet?:
   thresholdRuleOrReference?:
   proxyDistortionRisk?:
-  relationFunctionClaimRef:
+  relationFunctionClaimRef?:
   repairedWordingOrDemotion:
   admissibleUse:
   nonAdmissibleUse?:
@@ -71,15 +61,15 @@ CharacteristicScaleRepairNote:
   disposition:
 ```
 
-Use the full note only when the repair must remain inspectable. Use a local rewrite when one sentence clearly states the characteristic and scale construction and subject pattern. In a note, include `indicatorRelationDisposition` when indicator wording or an indicator/proxy claim is under repair, following §4.1; otherwise omit it. Keep necessary subject applicability or stop conditions in the repaired wording or `admissibleUse`. Include `nonAdmissibleUse` as an explanatory guard only under F.19:4's full independent-ground, plausible-reader, contribution, and smallest-clear-correction test; an unused guard needs no absence entry.
+A local rewrite is sufficient when the sentence conveys the needed meaning and conditions. An ordinary PatternID can locate the governing rule. Include `relationFunctionClaimRef` only when the use depends on the identity of its defining or constraining ClaimGraph. Include `indicatorRelationDisposition` when an indicator or proxy relation is under repair, following §4.1. An explanatory `nonAdmissibleUse` guard is optional under F.19:4's independent-ground, plausible-reader, contribution and smallest-clear-correction test; its absence needs no entry.
 
 #### C.16.P:4.1 - Recovery sequence
 
-1. **Capture the trigger.** Copy the exact word or phrase and the sentence that uses it.
-2. **Recover the bearer.** Name what is being characterized: holon, pattern, design-rationale record, architecture description, structure, model, method, work result, publication, candidate, relation, decision option, evidence relation, or another subject identified by value. For a relational characteristic, retain the tuple of bearers required by its definition.
-3. **Recover the construction.** Decide whether the trigger means `Characteristic`, `Scale`, coordinate, value, score, unit, scoring method, indicator, threshold, comparison reference or comparator set, proxy, Q-bundle, mathematical lens, gate, evidence, decision, or ordinary prose.
-4. **Select subject pattern when possible.** If `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, `E.21`, or another subject pattern is already recoverable, use it directly.
-5. **Repair hidden characteristic and scale construction.** When construction is hidden, recover the minimal needed set: characteristic, scale, value set, score, unit, scoring method, indicated characteristic or claim, exact direct indicator or proxy relation, comparison reference or comparator set, threshold rule or reference, admissible use, and any necessary applicability or stop condition. Add an explanatory non-admissible-use guard only under the full F.19:4 test. If the text relies on an indicator relation but no governing rule can state or test that claim, return `missing-governor` rather than storing an `indicatorRole` label. Use `A.6.RCD:0.1` to distinguish an absent rule from missing case facts or a failed positive test.
-6. **Separate adjacent claims.** Evidence, assurance, gate, work, decision, causal-use, release, benchmark, publication, or authority claims are governed by their direct patterns.
-7. **State remaining reader use.** Say what the reader can now compare, measure, score, block, or assign to a neighboring pattern. If the result is type-correct but gives no action or recognition reason, the repair is incomplete.
+1. **Read the trigger in its sentence.** Recover the complete assertion. Retain the source wording when the repair needs an inspectable comparison.
+2. **Recover the bearer.** Name the subject being characterized. For a relational Characteristic, retain the tuple required by its definition.
+3. **Recover the construction.** Use §5 to identify what the wording means. A trigger can be ordinary prose; its appearance does not create an FPF kind.
+4. **Use a recovered subject rule directly.** Once the construction is clear, apply its subject pattern from §6 or the relevant domain practice.
+5. **Repair what remains hidden.** Recover the contributions needed by this claim: for a measurement, its Characteristic, Scale and interpretation; for a comparison, its reference or comparator set; for a threshold, its predicate and applicability; for an indicator, the indicated property or claim and the direct relation, including distortion risk when it is a proxy. Keep necessary use and stop conditions. If an indicator relation is required but no governing rule can state or test it, return `missing-governor` rather than storing an `indicatorRole` label. Use A.6.RCD:0.1 to distinguish that absent rule from missing case facts or a failed positive test. Add explanatory non-use guards only under the F.19:4 test.
+6. **Separate further claims.** A measurement or score may contribute to evidence, a decision or another use. Apply the governing conditions for that additional claim; repairing the characterization alone does not establish it.
+7. **Return a useful statement.** Say what the reader can now recognize, compare or conclude, or which missing contribution leaves the claim unresolved. Type-correct wording with no useful interpretation is insufficient.
 

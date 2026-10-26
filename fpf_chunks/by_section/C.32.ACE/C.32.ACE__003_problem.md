@@ -6,12 +6,12 @@ section_id: "C.32.ACE:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:2 — Problem"
-line_start: 77949
-line_end: 77956
+line_start: 76857
+line_end: 76864
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,5 +55,5 @@ Architecture synthesis is an optimization and learning activity under competing 
 
 Testing for errors is a neighboring use. A test asks whether an expectation is violated. An eval asks how variants compare, how a candidate changes the trade-off front, which constraint is hit, or whether the next synthesis pass should open. A candidate that loses the eval is not automatically an error; it may be a deliberate probe that improves the architecture team's knowledge of the solution space.
 
-Evolutionary-architecture sources often say "fitness function". In FPF that is source-side wording. The recoverable FPF object is an eval program over declared architecture-characteristic rows, Q-Bundle slots, candidate structures, and a parity frame. Some eval programs can specify automated tests or monitors, but automation does not change the kind of the program record.
+Evolutionary-architecture sources often say "fitness function". Recover the operation, rule or expression meant by that source term before identifying its FPF use. When an architecture evaluation needs framing over declared criteria or structures, use this pattern; an individual test, monitor or expression keeps its own meaning within that framing. Automation does not change the kind of the program record.
 

@@ -6,12 +6,12 @@ section_id: "C.40.NU:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:7 — Conformance Checklist"
-line_start: 86481
-line_end: 86494
+line_start: 85299
+line_end: 85312
 dependencies:
   - "C.17"
   - "C.18"

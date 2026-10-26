@@ -6,12 +6,12 @@ section_id: "C.3.3:10"
 section_title: "Anti‑patterns & Remedies (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__011_anti-patterns-remedies-informative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:10 — Anti‑patterns & Remedies (informative)"
-line_start: 55658
-line_end: 55668
+line_start: 54793
+line_end: 54803
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -29,7 +29,7 @@ keywords:
 | -------------------------------------------- | -------------------------------------- | ----------------------------------------------------------------------------------- |
 | One interoperability score, or mandatory scope-plus-kind bridges | Blurs independent channels and invents unused relations | Open only the exact Scope, kind, and sense relations consumed by the receiving use; keep their losses and R consequences separate |
 | Claiming preserved `⊑` while inverting order | Makes typed reasoning unsound          | Mark as **not preserved**; add **loss note**; consider adapter or subkind redesign  |
-| Hiding collapses                             | Overstates coverage                    | List collapsed subkinds explicitly; plan the justified **R** penalty for lost granularity           |
+| Hiding collapses | Overstates coverage | State the collapsed subkinds and their consequence for the receiving use; apply only a justified R consequence. |
 | Implicit latest mapping | Non-deterministic and non-auditable | Pin both scheme editions and the mapping-rule edition in the bridge assertion; outside bridge definedness decline that bridge use without changing an independently obtained receiving result. |
 | Using KindBridge to widen G                  | Conflates kind correspondence with claim-scope translation | Keep Scope edits in **USM** (ΔG±); KindBridge never widens Scope                    |
 | Adjusting F/G for poor `CL^k`                 | Violates F–G–R & USM separation             | Route consequences to **R** only; consider narrowing Scope or adding adapters       |

@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:7 — Conformance Checklist"
-line_start: 32345
-line_end: 32362
+line_start: 31909
+line_end: 31926
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -35,6 +35,6 @@ keywords:
 - [ ] Project, user, provider, repository, tool, and automation Systems and their access, assignment, permission, authority, capability, publication, direct-use, Work, and task-result facts remain separate.
 - [ ] A curated collection has a project or namespace, purpose, current rule, identified membership predicates, edition policy, and return conditions.
 - [ ] An A.22 selected-structure result has all four discriminator groups plus an actual selection-use basis; otherwise the result remains a proposal and returns the named missing fact.
-- [ ] Each positive task result rests on independently admitted Work and the direct relations actually observed.
+- [ ] Each positive task result rests on observed performance and the direct relations actually used. Any claimed dated Work has its independent A.13 and A.15.1 basis; assignment-bound attribution additionally uses F.6.
 - [ ] Provider or AI use, review, feedback, capability, fit, effectiveness, transfer, and authority are claimed only when their own facts obtain.
 

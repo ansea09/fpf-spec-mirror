@@ -6,12 +6,12 @@ section_id: "C.34:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:9 — Consequences"
-line_start: 81147
-line_end: 81161
+line_start: 79976
+line_end: 79990
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -55,7 +55,7 @@ Positive consequences:
 
 Costs and trade-offs:
 
-- C.34 adds friction before easy claims such as "same diagram," "same graph," or "same module." That cost prevents stronger authority from entering through weak similarity.
+- Assessing correspondence takes attention. Reuse an adequate account; investigate further when a plausible preservation difference could change the intended use.
 - The pattern does not prove formal equivalence by itself. When proof, measurement, evidence, assurance, gate, release, or work authorization is current, apply the corresponding rule or test.
 - Some comparisons will lower from equivalence to correspondence or near-sameness. That lowering is a success when it prevents a false downstream claim.
 

@@ -6,12 +6,12 @@ section_id: "C.2.P:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:7 — Conformance Checklist"
-line_start: 52285
-line_end: 52308
+line_start: 51449
+line_end: 51472
 dependencies:
   - "A.10"
   - "A.15"
@@ -74,5 +74,5 @@ For FPF-governed wording, use `E.10:0.2`, `E.10:0.2a`, `E.10:0.2b`, `E.10:0.2c`,
 
 `C.2.P` conformance begins only when one C.2.P distinction remains unresolved under §0's entry condition. This same condition covers non-FPF source text being unpacked before possible FPF transfer; source status creates no separate entry branch.
 
-Do not copy the `E.10` trigger list into this pattern as a second registry. Keep any `E.10` cue or routing result as input and recover source-expression unpacking mode, FPF-governed use mode, current episteme-publication relation set, use disposition, and remaining reader use. When the relation-bearing slice is current, `A.6.P` remains a separate required precision-restoration pattern.
+Do not copy the `E.10` trigger list into this pattern as a second registry. Keep any `E.10` cue or routing result as input and recover source-expression unpacking mode, FPF-governed use mode, current episteme-publication relation set, use disposition, and remaining reader use. Use `A.6.P` only while the remaining direct predicate or participant question is unresolved.
 

@@ -6,12 +6,12 @@ section_id: "A.15.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:9 — Consequences"
-line_start: 31611
-line_end: 31620
+line_start: 31176
+line_end: 31185
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -45,7 +45,7 @@ keywords:
 
 A team can say plainly which System the project is about without inventing a kind or assignment and can tell when that System is only intended. Process evaluation can use Work observations whose A.15.1 relation states which Method was enacted, or operation-application observations supported by a declared A.6.1 operation and typed binding, without turning observed Work into a Method or structure. Case Work can close around a continuing entity, episteme edition, characteristic inquiry, relation, decision, or result while naming—but not absorbing—the downstream use.
 
-**Costs.** Teams must state work continuity policy and distinguish intention from performed occurrence. Some legacy `@Project` records need explicit typed relation fields. Description families may need to be separated when earlier publications hid different `EntityOfConcern` values behind one project label.
+**Costs.** Practitioners must distinguish intended from performed work and recover a continuity policy when an identity ambiguity requires it. A legacy `@Project` reference may need its actual relation made explicit; descriptions with different EntitiesOfConcern need separate identities rather than one project label.
 
 **Limits.** This pattern does not supply project-management, process-management, or case-management methods. It does not decide success, acceptance, evidence strength, authority, or result semantics. It only recovers the direct FPF subject and relations those methods operate on.
 

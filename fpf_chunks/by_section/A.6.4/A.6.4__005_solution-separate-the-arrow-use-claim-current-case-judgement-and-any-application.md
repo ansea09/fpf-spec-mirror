@@ -6,12 +6,12 @@ section_id: "A.6.4:4"
 section_title: "Solution — separate the arrow, use claim, current-case judgement, and any application"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__005_solution-separate-the-arrow-use-claim-current-case-judgement-and-any-application.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:4 — Solution — separate the arrow, use claim, current-case judgement, and any application"
-line_start: 19925
-line_end: 20031
+line_start: 19583
+line_end: 19689
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,7 +67,7 @@ When the judgement of an affirmative q is `fails`, retain q as the stated propos
 
 #### A.6.4:4.2 - Formal declaration and object boundaries
 
-Repeated formal use may be declared in an A.6.0 `U.Signature(profile=FormalSubstrate)` episteme. That declaration is about the local subtype `EntityOfConcernRetargetingMorphism`; it is not the subtype, one arrow, a use claim, or an application occurrence.
+When a receiving use needs a reusable formal declaration, an A.6.0 `U.Signature(profile=FormalSubstrate)` episteme can declare the local subtype `EntityOfConcernRetargetingMorphism`. The declaration remains distinct from the subtype, an arrow, a use claim and an application.
 
 ```text
 SubjectKind     = local formal subtype EntityOfConcernRetargetingMorphism of EpMorphism
@@ -84,7 +84,7 @@ The bounded-use assertion q, current-case judgement, and any application occurre
 
 #### A.6.4:4.3 - Laws (ER-0...ER-6)
 
-These laws refine A.6.2 for the local retargeting subtype. They do not assert durable U-kind membership.
+These laws refine A.6.2 for the local retargeting subtype. Every assertion in Y remains subject to the parent P2 support condition, including assertions outside the invariant named by q. The laws do not assert durable U-kind membership.
 
 **ER-0 - Arrow class and endpoint basis.**
 
@@ -113,17 +113,17 @@ No universal SquareLaw follows. A consumer that claims two evaluation routes equ
 
 **ER-4 - Determinism and repeat boundary.**
 
-Determinism, reversibility, and idempotence may be properties of the declared arrow only when the selected formal substrate states the exact domain, equality or equivalence, and evidence used to test them. A repeat property of an operation or application is a different claim: it follows from the rule and inputs of that operation or application. The mathematical statement `r : X -> Y` says nothing about execution or repetition. Ambient time, randomness, solver state, and external services belong to an explicitly declared operation or mechanism.
+Functionality, reversibility or equivalence of routes requires the selected formal substrate's domain, equality or equivalence and applicable witness. A retargeting arrow `r : X -> Y` has different endpoint EntitiesOfConcern, hence `X ≠ Y`; it is not self-composable, so `compose(r,r)` cannot express an idempotence law for that arrow. A repeat property of a construction operation is a separate claim about its rule and inputs. A.6.3:4.7 illustrates the first-arrow/next-arrow form when that repeat returns the same receiving episteme. Ambient time, randomness, solver state or external services must be accounted for when they can change the operation's result.
 
 **ER-5 - Applicability and optional semantic-Bridge branch.**
 
 The formal declaration states admissible endpoint families and material mathematical conditions. Each q separately states the invariant, loss boundary, receiving use, case conditions, and affirmative or negative polarity; the current-case judgement states whether the facts satisfy it. F.9 is triggered only for a separately claimed relation between two exact local senses. Optional `CL` summarizes evidence about that Bridge; it is neither a retargeting threshold nor a participant in r or q.
 
-Legacy `KindBridge` plus mandatory `CL`, and generic SquareLaw-retargeting interfaces, are not reactivated here. A consumer that still needs one identifies a current direct governor or stops at `missing-governor`.
+A named mapping or relation without a governing definition supplies no additional claim. If the receiving use needs that claim, identify its direct governor or leave the missing-governor question unresolved.
 
 **ER-6 - Separate application, Work, and resulting episteme.**
 
-An arrow that preserves the EntityOfConcern remains in the preserve mode of A.6.2 rather than this retargeting subtype. Use A.6.3 only when its declared viewing construction and additional laws are satisfied. When a system measures, computes, fits, translates, authors, or otherwise changes an episteme, identify the A.6.1 application and bindings when current, the performing system and Work, and the resulting C.2.1 episteme separately. The arrow can relate those epistemes without performing that activity or creating a universal production relation.
+An arrow that preserves the EntityOfConcern remains in A.6.2 preserve mode. A.6.3 additionally requires its viewing construction and laws. Describe measuring, fitting, translating or authoring in ordinary practitioner terms. Identify an A.6.1 application and its bindings when a declared operation is current. A particular dated Work claim follows A.13 and independent A.15.1 admission, with F.6 only for precise assignment-bound attribution. Identify any resulting episteme under C.2.1; the mathematical arrow relates endpoints without performing that activity.
 
 #### A.6.4:4.4 - Boundary with representation, explanation, transformation-flow structure, and neighboring claims
 
@@ -133,7 +133,7 @@ Boundary rules:
 - if the EntityOfConcern is preserved and the main change is representation scheme or reasoning medium, use `A.6.3.RT`;
 - if the EntityOfConcern is preserved and the main change is explanation mode, explanatory stance, or explanation-facing publication, use `E.17.EFP`;
 - if the same case also asserts a semantic relation between two exact local senses from different semantic contexts, test `F.9` separately and cite a Bridge only when its predicate obtains; use `F.9.1` only for an optional stance note about that already constituted use claim. A domain correspondence, mathematical rule, or direct case fact enters the current-case basis only through the exact claim established by its governor; that claim alone does not open F.9;
-- if a legacy consumer asks for `KindBridge`, `CL`, or a universal SquareLaw-retargeting witness without a current direct governor, stop at `missing-governor` rather than making that apparatus constitutive in A.6.4;
+- if the receiving use requires a mapping, correspondence or route-equivalence claim whose direct governor is missing, resolve that missing basis before relying on the claim;
 - if the EntityOfConcern is preserved and the receiving item is useful only under narrower declared use with visible loss and source-bearing reopen, use `A.6.3.CSC`;
 - if a `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is present, use `E.18`, `A.20`, or `A.21` for graph, path, constraint, and gate relations. Those references do not prove semantic continuity or retargeting admissibility by themselves;
 - for decoded or latent output, use C.2.6 and C.2.7 for the anchoring mode and representation factors; keep the output report-only or exploratory until its exact source or model-state relation, decode or probe relation, recoverability evidence, admissible use, and source-return action are stated under their current governors;

@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:6 — Bias-Annotation"
-line_start: 21287
-line_end: 21301
+line_start: 20929
+line_end: 20939
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -34,16 +34,12 @@ keywords:
 
 ### A.6.P.WMR:6 - Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Limited to recovering one method-or-work boundary claim after A.6.P has isolated it; not Universal governance for all relation ambiguity, work identity, production, evidence, publication, transfer, or receiving use.**
-
-The pattern deliberately weights **Onto/Epist** toward exact entities, relation kinds, claim distinctions, and non-invention, and **Prag** toward the shortest usable result from the four-exit architecture. **Did** puts ordinary wording and heterogeneous cases before heavier assurance. The **Arch** cost is coordinating the defining content and predicates for several exact claims rather than one convenient input, output, or result architecture. The **Gov** boundary is that WMR cannot admit a missing relation: a current definition must supply its predicate, participants, applicability, and occurrence rule, or the result remains `missing-governor`. Mitigation is the three-question ordinary core, two conditional assurance questions, and four truthful exits with the reason-specific stops in section 4.3. A missing subject rule can open a concrete definition question; inapplicability and missing constructor semantics retain their different continuations. The following domain-bias rows are informative risk cues; they add no duties beyond the checklist.
-
 | Bias | Countermeasure |
 | --- | --- |
 | Artifact bias | The countermeasure distinguishes a changed continuing referent, newly constituted entity, episteme, resource, or delivered item before any `result` reading. |
 | Workflow bias | Arrows, stages, WBS rows, and work-package names remain descriptions or plans until exact work and direct relations obtain. |
 | Production bias | Work-caused change, entity-identity inception, and production completion remain separate claims. |
 | Data bias | Epistemic source-to-use and premise or reference relations remain explicit; a datum does not become an operation argument or work input by default. |
-| Evidence bias | An available record or application binding establishes neither truth, warrant, acceptance, nor downstream use. |
+| Evidence bias | A record's presence or an application binding alone establishes no truth, warrant, acceptance or downstream use. Examine the recorded claim and grounds for the particular inference. |
 | Ontology-growth bias | An exact blocker replaces any convenience move toward a broad new kind. |
 

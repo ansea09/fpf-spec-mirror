@@ -6,12 +6,12 @@ section_id: "C.36.P:5"
 section_title: "Worked Micro-Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__007_worked-micro-examples.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:5 — Worked Micro-Examples"
-line_start: 90136
-line_end: 90170
+line_start: 88956
+line_end: 88990
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -72,7 +72,7 @@ CulturalEvolutionWordingRecoveryLine:
   recoveredObjects: short-video recommendation System; dance-variant set
   recoveredRelations: recommendation mediation; visibility; recognition; selection
   recoveredClaim: these relations changed which variants were copied and retained
-  applicablePatternRefs: A.1, C.36, F.17, F.18
+  applicablePatternRefs: A.1, C.36
   retainedSourceLabelUse: keep "platform" as the source label for the recommender and visibility infrastructure
   admissibleUse: discuss how visibility and recognition changed retained dance variants
   blockedUse: treat platform as a root cultural kind or style as one global kind
@@ -85,7 +85,7 @@ If `attractor` is a loose metaphor for a stable recognizable style, state that l
 
 #### C.36.P:5.3 - "Technique As Developmental Machinery"
 
-If technique names a way of doing work, use `A.3.1 U.Method`. If it names a training plan, use `A.15.2 U.WorkPlan`. If it names performed rehearsal or production, use dated `U.Work`. If the same term carries different source-local meanings, use F.17 and F.18; use F.9 only when an actual relation between distinct cells is current. Use C.36 only when the technique participates in a cultural-evolution case.
+If technique names a way of doing work, use `A.3.1 U.Method`. If it names a training plan, use `A.15.2 U.WorkPlan`. For a claim about a particular rehearsal or production occurrence, establish A.13's basis and independent A.15.1 admission; use F.6 only for precise assignment-bound attribution. Ordinary guidance about rehearsing or producing needs no invented occurrence. If the same term carries different source-local meanings, preserve each meaning and its claims. Use F.17 when their identification or qualification is needed, F.18 only when a durable name is needed, and F.9 only when an actual relation between distinct cells is current. Use C.36 only when the technique participates in a cultural-evolution case.
 
 #### C.36.P:5.4 - "The Scene Became A New Level"
 

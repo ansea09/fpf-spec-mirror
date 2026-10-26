@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:1 — Problem frame"
-line_start: 78089
-line_end: 78273
+line_start: 76993
+line_end: 77177
 dependencies:
   - "A.10"
   - "A.12"
@@ -91,14 +91,14 @@ Common exits by claim kind:
 - `A.12` for acting-side externalization, `A.13` for exact actual-performer recovery, `A.15.1` for independent dated-Work admission and distributed-performer forms, `A.2.1` for an exact assignment occurrence when separately claimed, `F.6` for a later `performedUnderAssignment(W, RA)` relation only when precise assignment-bound attribution is expressly consumed, and the pattern that defines any direct actor-side or Work-to-change relation needed by the current use. F.6's holder projection only supports equality comparison with the already recovered performer; it identifies neither assignment nor performer.
 - `A.6.M` for module-interface repair.
 - `C.32.ACS` for current architecture-characteristic criteria rows and `C.25` for any composite Q-Bundle and exact slot used by the trade-off.
-- `C.29` and the project-selected structural-equivalence pattern for structural similarity.
+- `C.29` and the project-selected structural-equivalence pattern for mathematical structural similarity.
 - `A.19.CPM` for explicit comparison and `A.19.SelectorMechanism` for set-returning selection.
 - `G.5` for selected-set result declaration; `E.17` for a source-backed publication face and source return; `E.24.PUB` for the publication occurrence and audience availability; `C.18` and `C.19` for archive, front, or pool-treatment policy.
 - `C.11` for fixed local choice and `C.32.PAD` for a project architecture decision.
 
-The first useful output is `ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project`. It is a working record for candidate synthesis, not an acting entity, exact relation occurrence, architecture decision, or structural-equivalence claim.
+The first useful result explains which source-side condition constrains the candidate and which change could address it. An ordinary account can suffice. Use `ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project` when a record helps preserve that reasoning; the record does not establish an acting entity, relation occurrence, architecture decision or structural equivalence.
 
-For a first pass, fill only the synthesis question, intended correspondence use, ClaimScope when it changes the claim, independently identified changed referent, source-side and transformed-side exact holon and selected-structure refs, and either an obtaining C.30 `ArchitectureRelation` ref or a truthful modal `ArchitectureClaim` ref for each side. Add architecture-characteristic criteria refs or plain provisional heads, applicable candidate-form heads, evidence and the evolution window, and the next pattern. Assert an influence row only when its direct relation is current and both architecture sides are obtaining C.30 occurrences; otherwise keep one explicit provisional pressure in `provisionalArchitectureCharacteristicHeads[]` and its exact return. The first-minute case above can be filled as follows:
+For a first pass, recover the synthesis question, intended use, independently identified changed referent and typed influence source. State the source-side and transformed-side structures available for the question, and keep a missing structure explicit rather than inventing it. For an architecture side, distinguish an obtaining C.30 ArchitectureRelation from modal ArchitectureClaim content. Add current criteria or provisional characteristic heads, applicable candidate forms and the next needed result; include evidence and a window when the claim uses them. Assert an exact pair row only when its direct relation and both obtaining architecture sides satisfy :4.2. Otherwise retain the provisional pressure and its precise unresolved condition. The first-minute case above can be recorded as follows:
 
 ```text
 ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
@@ -146,7 +146,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
   nextQuestionPatternLocator: C.32.ACS
 ```
 
-This sparse frame asserts no influence occurrence and no exact pair row. The four candidate refs are first-pass heads, not comparison-ready configurations. Add acting-system, exact system-role-assignment, dated-Work, exact-pair-row, C.29, network, publication, comparison-ready gain, loss, and preservation, and any additional source-return fields only when the corresponding claim becomes current; adding them refines this frame without changing its changed referent, architecture pair, or provisional pressure. The complete extension schema is:
+This sparse frame asserts no influence occurrence and no exact pair row. The four candidate refs are first-pass heads, not comparison-ready configurations. Add acting-system, exact system-role-assignment, dated-Work, exact-pair-row, C.29, network, publication, comparison-ready gain, loss, and preservation, and any additional source-return fields only when the corresponding claim becomes current; compatible additions refine the frame. Reconsider the affected claims if the referent, architecture pair or pressure changes. The complete extension schema is:
 
 ```text
 ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
@@ -162,7 +162,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
     performerA13CoreBasisRef?: required with workOccurrenceRef; cites the exact local kind and criterion, classification, same obtaining assignment, scope, working situation, window, and adequate core evidence
     workOccurrenceRef?: U.EntityRef constrained to U.Work, independently admitted by A.15.1 when performance is claimed
     actingSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment, include when an obtaining assignment is separately represented and require the same A.13 assignment when attribution is represented
-    performedUnderAssignmentRelationRef?: U.RelationRef governed by F.6, include only when this row expressly represents precise assignment-bound attribution; omit otherwise; missing or failed F.6 leaves workOccurrenceRef intact
+    performedUnderAssignmentRelationRef?: U.RelationRef governed by F.6, include only when this row expressly represents precise assignment-bound attribution; omit otherwise; missing or failed F.6 attribution alone leaves workOccurrenceRef intact while the referenced Work's independent A.13/A.15.1 grounds still hold
     actorSideOrWorkToChangeRelationRefs[]: exact U.RelationRef values required by the current claim
   influenceSourceRows[]?: asserted influence facts only
     influenceSourceRef:

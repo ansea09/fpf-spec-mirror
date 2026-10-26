@@ -6,12 +6,12 @@ section_id: "A.15.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.9/A.15.9__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.9 — Use or Request a Bounded Result from Another Practice"
   - "A.15.9:1 — Problem frame"
-line_start: 32430
-line_end: 32447
+line_start: 31988
+line_end: 32005
 dependencies:
   - "A.10"
   - "A.13"

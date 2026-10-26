@@ -6,12 +6,12 @@ section_id: "A.16.0:13"
 section_title: "Worked trajectories"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__014_worked-trajectories.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:13 — Worked trajectories"
-line_start: 34021
-line_end: 34043
+line_start: 33552
+line_end: 33574
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -60,8 +60,8 @@ An operator alert note about a service disturbance may move:
 
 `notice -> stabilize -> route -> projection -> operationalize`
 
-If later evidence no longer supports one route, the admissible continuation may include explicit retirement of that branch rather than silent disappearance. The retirement does not erase the prior branch; it ends the retired branch's current use and preserves continuity explicitly. Any authority change still requires the separate relation in §4.6.
+If later evidence no longer supports one route, the admissible continuation may include explicit retirement of that branch rather than silent disappearance. The retirement ends the branch's current use while preserving its history. Any episteme-continuity claim still requires its own obtaining relation. Any authority change still requires the separate relation in §4.6.
 
 #### A.16.0:13.4 - Bridge-sensitive trajectory
-A route-bearing comparative note may move through a seam publication and only later dock to a bridge overlay or viewpoint bundle. The bridge or viewpoint attachment does not replace the trajectory account; it annotates or re-expresses a lineage that already exists.
+A route-bearing comparative note may move through a seam publication and only later dock to a bridge overlay or viewpoint bundle. Apply F.9 or E.17.1 to the receiving use and reuse the established history needed there. A Bridge or viewpoint attachment supplies no missing lineage facts.
 

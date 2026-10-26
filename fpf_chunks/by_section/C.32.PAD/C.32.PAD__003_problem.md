@@ -6,12 +6,12 @@ section_id: "C.32.PAD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:2 — Problem"
-line_start: 80025
-line_end: 80037
+line_start: 78872
+line_end: 78884
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,5 +72,5 @@ The problem is also multilevel. The architecture decision may fix selected struc
 
 Finally, architecture decisions are evolutionary. They are made under current candidate knowledge, current characteristic criteria, current eval readings, and current organization or tool constraints. They should be explicit enough for present work and cheap enough to supersede when a better candidate, changed characteristic pressure, or architecture-influence/transformed-side fit changes.
 
-C.32.PAD solves the post-synthesis decision problem by making the decision relation explicit before any ADR-like publication projection is written.
+C.32.PAD makes the decision relation recoverable for later use. Drafting its description can help develop the decision; a published account must distinguish a proposal from a decision that has actually been made.
 

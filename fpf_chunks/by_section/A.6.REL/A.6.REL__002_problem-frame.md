@@ -6,12 +6,12 @@ section_id: "A.6.REL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed"
   - "A.6.REL:1 — Problem frame"
-line_start: 15941
-line_end: 15960
+line_start: 15634
+line_end: 15653
 dependencies:
   - "A.6.0"
   - "A.6.5"
@@ -27,19 +27,19 @@ keywords:
 
 **Plain name.** Relation occurrence.
 
-**Primary EntityOfConcern.** One obtaining relation occurrence of an admitted relation kind, opened only when later work must distinguish it from another occurrence of that same relation.
+**Primary EntityOfConcern.** One obtaining relation occurrence of an admitted relation kind, when a receiving use needs to reidentify it or distinguish it from another occurrence.
 
-**Primary working reader.** An engineer who has stated a direct relation and must decide whether a readable current report is enough or later work must distinguish repeated occurrences.
+**Primary working reader.** An engineer who has stated a direct relation and must decide whether that sentence suffices or a receiving use needs explicit occurrence identity.
 
-**Working concern and viewpoint.** Preserve the readable direct relation assertion and ask first what later work must distinguish. Open occurrence identity only when that work must tell this occurrence from another; do not substitute an epistemic, designation, or representation-side object for the world-side relation.
+**Working concern and viewpoint.** Preserve the readable direct relation assertion. Add explicit occurrence identity when reidentification, comparison or another dependent use needs it, keeping the world-side occurrence distinct from its description, designation and representation.
 
-**Use this when.** Use this pattern when later use must tell one obtaining relation occurrence from another occurrence of the same relation. With `Robot-7 is assigned as inspector through InspectionAssignment-17`, a report that only says who is currently assigned can keep that direct sentence and stop. A history or comparison that must tell a second `MaintenanceInspectionAssignment` episode from the first, even with the same `Robot-7` and `InspectorSystemRole`, needs the occurrence-identity branch. A dependent direct relation may likewise require one already distinguished occurrence as its participant.
+**Use this when.** Use this pattern when a receiving use needs to reidentify one obtaining relation occurrence, distinguish it from another or use that specific occurrence as a participant or argument. A report that only needs to say `Robot-7 is assigned as inspector through InspectionAssignment-17` can keep that direct sentence and stop. A history distinguishing two `MaintenanceInspectionAssignment` episodes with the same `Robot-7` and `InspectorSystemRole` needs the identity branch. So does a dependent relation that requires one already distinguished occurrence as its participant; a second episode need not already have occurred.
 
-**First useful move.** State the direct relation and named participants using the subject pattern's meanings and obtaining predicate. Apply that test to the relevant world facts or constituting history and record the resulting polarity in a claim-bearing episteme. Ask whether later work must distinguish this occurrence from another, including a repeated episode with the same participants. If not, keep the direct sentence and stop; otherwise apply the identity and receiving-use steps in section 4.2.
+**First useful move.** State the direct relation and participants using the subject pattern's meanings and obtaining predicate. Apply that test to the relevant facts or constituting history and state the supported result. Ask whether the receiving use needs to reidentify or distinguish this occurrence. If not, keep the direct sentence and stop; otherwise apply the identity and receiving-use steps in section 4.2.
 
 **What goes wrong if missed.** An epistemic, designation, or representation-side object is treated as what creates the relation it is meant to describe or designate. Repeated assignments with the same participants then collapse into one. At the opposite extreme, every ordinary relational sentence is expanded into a relation-occurrence description episteme even though later work does not need to distinguish occurrences.
 
 **What this buys.** Engineers can report a current relation in ordinary prose without opening unused apparatus. When history, comparison, evaluation, or another direct relation must distinguish repeated occurrences, a system can apply the domain identity rule while assertions, descriptions, designations, representations, and publication occurrences retain their own identities.
 
-**Not this pattern when.** If the wording does not yet identify the direct relation and participants, start with `A.6.P` or `A.6.RSIR`. If no exact ClaimGraph yet defines the participant meanings, applicability, and obtaining predicate, recover that content rather than inventing a case test here. If the current case lacks relevant world facts or constituting history, keep the statement as a `C.2.1` claim under the exact direct predicate. Keep denials, forecasts, scenarios, counterfactuals, and permissions in their exact claim families; keep evidence and reliance results under their separate governors. Individuate an occurrence only when the relevant facts or history satisfy the predicate. Record supported, refuted, or unresolved reliance under `A.10` or the current evaluation when that separate judgement is needed. When current-case facts satisfy the direct predicate, A.6.REL remains available only if later work must tell this occurrence from another occurrence of the same relation. If the question concerns only the SlotSpecs of a reusable relation declaration, apply `A.6.5`. If later work only reports the current relation, keep the direct sentence and stop.
+**Not this pattern when.** If the wording leaves the direct relation or participants unclear, use `A.6.P` or `A.6.RSIR`. If the defining content does not supply participant meanings, applicability and the obtaining predicate, recover that content first. When case facts do not establish obtaining, keep the claim and its actual polarity or uncertainty under its direct semantics; an assertion alone supplies no occurrence to individuate. Forecasts, scenarios, counterfactuals and permissions retain their own claim families. Use `A.10` or the current evaluation for a separate reliance judgement. For reusable declaration SlotSpecs use `A.6.5`. When the direct sentence already suffices for the receiving use, stop there.
 

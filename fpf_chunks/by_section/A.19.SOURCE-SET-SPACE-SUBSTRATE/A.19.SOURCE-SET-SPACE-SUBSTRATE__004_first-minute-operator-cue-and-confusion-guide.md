@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:0.b"
 section_title: "First-minute operator cue and confusion guide"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__004_first-minute-operator-cue-and-confusion-guide.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:0.b — First-minute operator cue and confusion guide"
-line_start: 35893
-line_end: 35915
+line_start: 35277
+line_end: 35299
 dependencies:
   - "A.0"
   - "A.17"
@@ -38,15 +38,15 @@ keywords:
 
 ### A.19.SOURCE-SET-SPACE-SUBSTRATE:0.b - First-minute operator cue and confusion guide
 
-If you are about to write one line that says what is being searched, what is being judged, and whether those two relations sit in one declared space or in two declared spaces, stop and fill this pattern before you write any more umbrella prose such as `space`, `projection`, `portfolio`, or `front`.
+When the receiving use depends on the source set, search space and outcome space together, recover the following facts from the existing account. Add only what is missing; an adequate paragraph or model declaration needs no duplicate form.
 
-Do this in the first minute:
+First recover:
 
 1. Name the active source set.
 2. Point `SearchSpaceRef` and `OutcomeSpaceRef` to declared `CharacteristicSpace`.
 3. Choose `sameDeclaredSpaceAs` or `distinctDeclaredSpaceFrom`.
 4. State the source-to-outcome relation in direction, mode, and carrier.
-5. State the governing posture token.
+5. State the applicable limitations; use a primary posture token to organize them without hiding other material qualifications.
 
 If one of those five cells cannot yet be filled honestly, do not improvise around it. Either you are still in `A.19`, or you have really moved into interpretive-view work, publication, or policy, or the current line is still missing one declared basis.
 
@@ -57,5 +57,5 @@ If one of those five cells cannot yet be filled honestly, do not improvise aroun
 | "What do we publish, ship, keep live, or plan next?" | `G.5`, `G.10`, `C.19`, or `C.24` | Those are downstream output or policy questions. |
 | "I only need one space declaration." | `A.19` | No source-to-outcome substrate stack is in play yet. |
 
-Common confusion to kill early: `DescriptorMapRef`, distance definitions, and `OutcomeMapRef` values may discipline the line, but they do not answer the first-minute substrate question unless the five cells above are already filled.
+A descriptor map or distance definition supplies one part of this account; it does not identify the source set and both spaces by itself.
 

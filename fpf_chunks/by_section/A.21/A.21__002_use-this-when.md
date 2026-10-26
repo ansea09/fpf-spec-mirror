@@ -6,12 +6,12 @@ section_id: "A.21:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:0 — Use this when"
-line_start: 40340
-line_end: 40363
+line_start: 39524
+line_end: 39547
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -42,7 +42,7 @@ Use A.21 when a named gate must decide whether one bounded action or transition 
 
 If the state of `WorkshopEnclosure-2` is unknown, that check remains `unknown`. `WorkshopEntryProfile-E5` maps the uncertainty to `block`, not to `abstain`, so the cycle stays on hold until the enclosure is checked. A different policy may accept a bounded uncertainty only through an explicit rule that names the subject, tolerance, consequence, and validity window.
 
-**Short boundary.** A gate decision is neither work-entry readiness nor performed Work. Use `A.15.5` for the ordinary readiness question. If Work later occurs, identify it under `A.15.1`; do not treat the gate, plan item, or prospective claim as that later Work.
+**Short boundary.** A gate decision is neither work-entry readiness nor performed Work. Use `A.15.5` for the ordinary readiness question. An asserted later Work uses the independent admission grounds in §4.9. The gate, plan item and prospective claim do not identify that later Work.
 
 **What goes wrong if missed.** A green display is mistaken for permission, an unknown required check disappears as a neutral value, two different check subjects are merged by label, or a new path slice is treated as authority to weaken policy.
 

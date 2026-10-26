@@ -6,12 +6,12 @@ section_id: "E.2.DA:End"
 section_title: "E.2.DA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__014_e-2-da-end.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:End — E.2.DA:End"
-line_start: 92260
-line_end: 92261
+line_start: 91080
+line_end: 91081
 dependencies:
   - "A.19.ECS"
   - "E.10"

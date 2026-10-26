@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:9 — Consequences"
-line_start: 32378
-line_end: 32383
+line_start: 31942
+line_end: 31947
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.15.8.MS:9 - Consequences
 
-Method material becomes usable through declared task coverage and observed Work rather than through platform completion claims. Repairs are smaller because the defeated task row, edition, representation-use claim, relation, constraint, permission, authority, capability input, interaction, or Work result is visible. A useful result may be one supported configuration, several retained candidates, a stated split, or a missing priority or test.
+Declared task coverage and observed performance show what users can obtain from the Method material and where the configuration needs repair. Repairs are smaller because the defeated task row, edition, representation-use claim, relation, constraint, permission, authority, capability input, interaction, or Work result is visible. A useful result may be one supported configuration, several retained candidates, a stated split, or a missing priority or test.
 
-The cost is maintaining separate accounts of the uses and their participants. Direct subject results, use-bounded rows, collections, editions, publications, Systems, relations, user Work, criteria, evidence status, and results must be maintained separately. Some sophisticated features remain untested; some choices remain set-valued; and a proposed organization may remain unselected even when all bounded tasks pass.
+The cost is preserving the distinctions and grounds needed by the named uses. Direct results, collection and edition facts, publication, participants, relations, observations and criteria may share a sufficient account when its C.2.1 focus and claims remain truthful. Separate them when their uses require it; retain durable accounts only for later reliance. Some sophisticated features remain untested; some choices remain set-valued; and a proposed organization may remain unselected even when all bounded tasks pass.
 

@@ -6,12 +6,12 @@ section_id: "C.2.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:intro — Intro"
-line_start: 53777
-line_end: 53790
+line_start: 52930
+line_end: 52943
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -43,7 +43,7 @@ keywords:
 
 **Use this pattern when.** Use C.2.5 when a governed `U.Episteme` publication must say how fixed its candidate space, route space, or frame space has become before endpoint use, reopening, or retreat.
 
-**What goes wrong if missed.** A confident tone is mistaken for closure, closure is mistaken for truth or gate authority, or a closure drop leaves endpoint expectations and route commitments silently hanging.
+**What goes wrong if missed.** A confident tone is mistaken for closure, closure is mistaken for truth or gate authority, or a closure drop leaves readers unable to tell which endpoint uses and route commitments remain supported.
 
 **What this buys.** A separate ordinal characteristic for closure degree, so teams can distinguish exploration, stabilization, selected route, guarded fixation, and admissible retreat without collapsing closure into formality, articulation, warrant, or obligation.
 

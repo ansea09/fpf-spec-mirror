@@ -6,12 +6,12 @@ section_id: "C.3.A:1"
 section_title: "Purpose and audience"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__002_purpose-and-audience.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:1 — Purpose and audience"
-line_start: 56085
-line_end: 56097
+line_start: 55213
+line_end: 55225
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -42,5 +42,5 @@ Use this Annex when a receiving action must check one or more of these without b
 5. a RoleMask declaration and exact masked judgment; or
 6. an actual capability use or Work occurrence whose input/output candidates are typed.
 
-The practical gain is a readable refusal reason. “The kinds are incompatible”, “the candidate is known not to satisfy the criterion”, “classification is unknown”, “scope does not cover”, “a bridge is unavailable”, and “the guard refuses use” remain different outcomes.
+When a receiving rule already makes the needed predicates and disposition clear, apply it directly; no macro notation is required. The practical gain of these macros is a readable refusal reason. “The kinds are incompatible”, “the candidate is known not to satisfy the criterion”, “classification is unknown”, “scope does not cover”, “a bridge is unavailable”, and “the guard refuses use” remain different outcomes.
 

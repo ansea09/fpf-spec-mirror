@@ -6,12 +6,12 @@ section_id: "A.16.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:4 — Solution"
-line_start: 33820
-line_end: 33953
+line_start: 33351
+line_end: 33484
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -51,9 +51,9 @@ It answers the question: `when the history matters, which episteme edition is cu
 
 #### A.16.0:4.0a - Identify the account and its expression
 
-1. **Apply the history threshold.** Keep a local A.16 move note when it answers the receiving question. Use the fuller account only when branch, loss, lineage or an actual responsibility history changes a later use.
+1. **Apply the history threshold.** Keep the local A.16 publication content when it answers the receiving question. Use the fuller account only when branch, loss, lineage or an actual responsibility history changes a later use.
 2. **Identify the account's subject.** For a source-centred history, name the exact source episteme as EntityOfConcern and state the relevant edition and relation claims in the account's ClaimGraph. For a relation-centred account, identify the independently obtaining relation it concerns. A negative or unresolved lineage claim remains about an independently identified source or other subject; it creates no relation occurrence.
-3. **Recover the relevant history claims.** Distinguish the source editions, position claims, actual lineage, moves, losses and next use needed here. Use their direct rules below. State an unknown link or a supported no-successor result explicitly rather than inventing continuity.
+3. **Recover the relevant history claims.** Distinguish the source editions, position claims, actual lineage, moves, losses and next use needed here. Use their direct rules below. Distinguish an unknown link from a no-successor result supported by an applicable negative criterion or complete closure basis. Neither result establishes continuity.
 4. **Choose an adequate expression.** The `LanguageStateMoveTrajectory` form can express that account. Under E.24.PUB, publication form is a relation-defined participant meaning over an independently identified entity; using the form admits no subtype or second account individual. Recover its expression relation, carrier and any availability occurrence only when the receiving claim needs those distinctions.
 5. **Return the history needed by the next use.** Make the relevant branch, loss, limit or responsibility fact recoverable. Stop when that use is supported; a further account of the account's own history is needed only if another receiving question requires it.
 
@@ -86,7 +86,7 @@ The position read by this pattern is the slot-explicit claim defined in `C.2.2a`
 Early seam publications may leave some slots unknown or wide. That uncertainty is admissible only if it is explicit. A trajectory account therefore records the position claim for the current episteme edition and, when needed, for predecessor or sibling editions that justify the move reading.
 
 #### A.16.0:4.3 - Use threshold and core trajectory record
-A single local `A.16` move note is sufficient when no load-bearing branch, loss, or supersession structure needs publication and no actual responsibility handoff depends on upstream history. An existing version history can also supply the answer when the needed source-use, continuity and loss facts are already recoverable there; the form does not require copying them into another document.
+Local `A.16` publication content is sufficient when no load-bearing branch, loss, or supersession structure needs publication and no actual responsibility handoff depends on upstream history. An existing version history can also supply the answer when the needed source-use, continuity and loss facts are already recoverable there; the form does not require copying them into another document.
 
 Use the `LanguageStateMoveTrajectory` account form when at least one of the following changes the receiving use:
 
@@ -99,7 +99,7 @@ An account using this form identifies its own subject, claim content and effecti
 
 - the current selected episteme edition;
 - predecessor, sibling, or ancestor editions when the current reading depends on lineage;
-- the lineage link kind (`derivedFrom`, `supersedes`, `forkedFrom`, `mergedFrom`, `retiredWithSuccessor`, `retiredWithoutSuccessor`, or another explicitly typed link);
+- the obtaining lineage link kind, such as `derivedFrom`, `supersedes`, `forkedFrom`, `mergedFrom` or `retiredWithSuccessor`; a supported `retiredWithoutSuccessor` result is a claim about the retired episteme, not a link to an invented successor;
 - the current position claim and any load-bearing predecessor position claims;
 - the typed move or move sequence;
 - the publication form and, when availability matters, the publication occurrence;
@@ -116,7 +116,7 @@ Not every account uses every move. Forward movement, retreat, reframing, and exp
 `A.16` defines the detailed move guards. `A.16.0` records the moves and their satisfied guards; it does not replace them.
 
 #### A.16.0:4.5 - Seam publication and face discipline
-A trajectory account may refer to seam publication forms that remain upstream of endpoint admission. In the current cluster these include:
+A trajectory account may refer to seam publication forms that remain upstream of endpoint admission. Examples include:
 
 - `PreArticulationCuePack`;
 - `RoutedCueSet`;
@@ -149,7 +149,7 @@ After docking to a next use, monitoring, maintenance, revisit, or later re-entry
 #### A.16.0:4.7 - Re-expression and additional world-facing Work
 Some `formalize` and `operationalize` steps re-express already available grounds through rewriting, slot-explicit articulation, route-bounded partialization, view retargeting, or normal-form repair. Performing those activities can itself be dated Work under A.15.1; the distinction here is whether new world-side measurements or interventions are needed.
 
-Some steps additionally require new measurements, experiments, installation or use of instrumentation, execution, or other `U.Work`. When that happens, the trajectory account shall expose the work-boundary crossing. The account records why the crossing was required; use the relevant work, gate, or endpoint pattern to describe or test the world step. Add a particular Work, assertion, or `ClaimGraph` identity only when the claim or later reliance depends on it.
+Some steps additionally require new measurements, experiments, installation or use of instrumentation, or execution. Make that needed action and its reason visible; use the relevant measurement, experiment, gate, or endpoint pattern to describe or test it. A distinct Work identity is needed only when the receiving claim or reliance depends on that occurrence: establish the A.13 basis and independent A.15.1 admission, then apply F.6 if precise assignment-bound attribution is needed. An assertion or `ClaimGraph` identity is likewise conditional on its use.
 
 A work-boundary crossing does not by itself transfer responsibility or authority. If a separate actual responsibility handoff occurs, use the triggered branch in `A.16.0:4.6` and keep its relation distinct from the Work, episteme lineage, publication, and endpoint use.
 

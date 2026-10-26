@@ -6,12 +6,12 @@ section_id: "E.4.PFR:1.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:1.1 — Problem"
-line_start: 95025
-line_end: 95028
+line_start: 93845
+line_end: 93848
 dependencies:
   - "A.10"
   - "A.6.0"

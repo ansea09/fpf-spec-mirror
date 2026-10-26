@@ -6,12 +6,12 @@ section_id: "A.3.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:7 — Conformance Checklist"
-line_start: 11652
-line_end: 11683
+line_start: 11539
+line_end: 11570
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -66,7 +66,7 @@ keywords:
 
 **CC-A3.2-7 (Description not formal substrate).** A method description does not close a formal-substrate or mathematical-lens claim. If variables, equations, invariants, structure, substrate, or mathematical payoff are current, use `A.6.0`, `C.29`, or the direct mathematical pattern.
 
-**CC-A3.2-8 (No people or calendars inside the description claim).** A method description may state local system-role kinds and capability thresholds that bound admissible enactment. A claim that a particular System belongs to one of those kinds is a separate System-classification judgment. Named people or Systems, dates, schedules, launch values, assignment species and obtaining assignment occurrences, F.6 attributions, and Work witnesses belong to their planning, classification, assignment, or Work patterns.
+**CC-A3.2-8 (Generic conditions and actual participants).** A method description may state local system-role kinds and capability thresholds that bound admissible enactment. A claim that a particular System belongs to one of those kinds is a separate System-classification judgment. Named people or Systems, dates, schedules, launch values, assignment species and obtaining assignment occurrences, F.6 attributions, and Work witnesses belong to their planning, classification, assignment, or Work patterns.
 
 **CC-A3.2-9 (Parameters and use time).** A method description may state parameter meanings and ranges. A `U.WorkPlan` names planned values against the declaration that gives them meaning. An actual participant or operation value requires an obtaining subject relation or A.6.1 application binding; otherwise keep it planned and return `missing-governor[actual-use]`.
 

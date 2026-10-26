@@ -6,12 +6,12 @@ section_id: "C.32:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:7 — Conformance Checklist"
-line_start: 76496
-line_end: 76508
+line_start: 75427
+line_end: 75439
 dependencies:
   - "A.10"
   - "A.15"
@@ -75,8 +75,8 @@ keywords:
 | `CC-C32-2` | The selected-structure contribution rows name the smallest useful set of selected structures and subject patterns and state what each contributes. | Prevents one-structure optimization from masquerading as synthesis. |
 | `CC-C32-3` | Architecture characteristics and any quality bundles are named before candidate comparison. | Keeps functional demand distinct from architecture trade-offs. |
 | `CC-C32-4` | Each candidate configuration names selected structure changes, expected gain, known loss, and constraint fit. | Makes the candidate actionable. |
-| `CC-C32-5` | Compressed, generated, or view-derived candidates carry a source-return condition. | Keeps later source-use or decision-use claims tied to recoverable sources. |
+| `CC-C32-5` | Compressed, generated or view-derived candidates carry a source-return condition when omitted distinctions change their receiving use. | Keeps dependent source-use or decision claims tied to recoverable grounds. |
 | `CC-C32-6` | Archive, front, pool-treatment, G.5 result declaration, publication availability, local choice, and decision uses have named patterns for the next questions. | Keeps synthesis separate from downstream receiving claims. |
-| `CC-C32-7` | Worked slices show what changes in practice across multiple selected structures. | Keeps the pattern constructive. |
+| `CC-C32-7` | Each configuration explains how its selected structures work together toward the required result and which dependencies constrain it. | Makes the synthesis usable beyond a list of parts. |
 | `CC-C32-8` | If an independently typed source constrains transformed-side architecture content for a changed referent, `C.32.CONWAY` is opened before Conway, mirroring, or inverse-Conway language is used as guidance; the source kind, its exact obtaining direct relation or precise provisional disposition, and both exact C.30 architecture sides or modal claims are named without inferring acting, Work, or transformation facts. | Keeps influence-source and transformed-side content distinct while making correspondence synthesis constructive. |
 

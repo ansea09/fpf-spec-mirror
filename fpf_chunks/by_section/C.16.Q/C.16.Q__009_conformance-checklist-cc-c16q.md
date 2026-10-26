@@ -6,12 +6,12 @@ section_id: "C.16.Q:7"
 section_title: "Conformance Checklist (CC-C16Q)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__009_conformance-checklist-cc-c16q.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:7 — Conformance Checklist (CC-C16Q)"
-line_start: 60397
-line_end: 60439
+line_start: 59405
+line_end: 59447
 dependencies:
   - "A.10"
   - "A.16"
@@ -62,10 +62,10 @@ keywords:
 
 ### C.16.Q:7 - Conformance Checklist (CC-C16Q)
 
-A text or pattern conforms to C.16.Q iff:
+Apply the following conditions to the branch actually used. A known endpoint follows its own form. Requirements for ascription fields and records apply when the transitional form is used; the semantic distinctions remain relevant wherever they change the claim.
 
 1. **CC-C16Q-1 - Explicit endpoint classification and explicit sense.**
-   Every in-scope use resolves either to the evaluative form for one declared endpoint or to one declared `qualityTermAscription(...)` transitional record with a `QualitySense` and explicit endpoint classification.
+   Every repaired claim makes its evaluated subject, intended sense and governing conditions recoverable. Use a known endpoint directly. A transitional `qualityTermAscription(...)` has an explicit `QualitySense` and endpoint classification; an adequate ordinary explanation needs no additional record.
 2. **CC-C16Q-2 - Exact bearer and arity.**
    The evaluated bearer designator or tuple is explicit; description, carrier, evaluator, viewpoint, work, and result are not substituted for it.
 3. **CC-C16Q-3 - Exact probe/model and comparison frames.**
@@ -81,7 +81,7 @@ A text or pattern conforms to C.16.Q iff:
 8. **CC-C16Q-8 - No illegal scalarization.**
    Composite senses are not collapsed into one score without an explicit admissible scoring and comparison method.
 9. **CC-C16Q-9 - No silent sense rewrite.**
-   Any semantic change uses the declared change lexicon; changing sense, scheme, frame, scope, or neighboring relation silently is forbidden.
+   Any semantic change preserves the distinctions of the declared change lexicon; changing sense, scheme, frame, scope, or neighboring relation silently is forbidden.
 10. **CC-C16Q-10 - QD default.**
     In search, selection, or NQD practice, *quality* resolves to `QS.UseValue` unless overridden explicitly.
 11. **CC-C16Q-11 - Engineering family discipline.**
@@ -89,17 +89,17 @@ A text or pattern conforms to C.16.Q iff:
 12. **CC-C16Q-12 - Functional separation.**
     Function or capability claims remain distinct from quality-family claims.
 13. **CC-C16Q-13 - Bridge accountability.**
-    Cross-local comparison resolves exact F.17 cells and cites an obtaining F.9 Bridge plus the exact bounded-use claim when a use is proposed. Any optional Card and F.9.1 stance note remain separate; the stance note's `EntityOfConcern` is that claim. A stance word, `CL`, shared label, or loss note establishes none of them.
+    When cross-local comparison requires semantic correspondence, it resolves exact F.17 cells and cites an obtaining F.9 Bridge plus the exact bounded-use claim when a use is proposed. Source-local description or independent citation of different senses does not require that Bridge. Any optional Card and F.9.1 stance note remain separate; the stance note's `EntityOfConcern` is that claim. A stance word, `CL`, shared label, or loss note establishes none of them.
 14. **CC-C16Q-14 - Boundary-claim hook when needed.**
-    If a repaired ascription is used for admissibility, commitment, publication, evidence-bearing decision, or adjudication, the downstream `L/A/D/E` claims and the patterns used to define or test them are explicit.
+    For a repaired ascription used in a boundary decision, the relevant claims and material dependencies remain recoverable under A.6.B. A separate register or publication form is needed only under its receiving-use conditions.
 15. **CC-C16Q-15 - Lexical firewall.**
-    Bare *quality* is absent from Tech and normative prose except as quoted and marked metalinguistic discussion.
+    The intended sense is recoverable in Tech and normative claims; already adequate endpoint wording and marked metalinguistic discussion need no further ascription.
 16. **CC-C16Q-16 - Transitional skeleton is complete.**
     The published skeleton carries bearer position and bearer-kind mismatch repair, sense, effective scheme, exact frames, evaluator, `U.ViewpointRef`, ClaimScope, qualifier expectations, normal form, result, witness/evidence/grounding discipline, admissible change classes, and cross-local boundaries without minting universal context, frame, evidence, or grounding kinds.
-17. **CC-C16Q-17 - Candidate-Set Note is used when ambiguity is live.**
-    If sense selection, bearer facet, or the distinction between the evaluated EntityOfConcern, a description or other `episteme`, a publication face, and a carrier evaluated in its own right is non-obvious, the text records a short Candidate-Set Note before decision-bearing or publication-bearing use.
+17. **CC-C16Q-17 - Consequential alternatives remain inspectable.**
+    If sense selection, bearer facet, or the distinction between the evaluated EntityOfConcern, a description or other `episteme`, a publication face, and a carrier evaluated in its own right is non-obvious, the remaining alternatives are made inspectable before a decision or publication relies on their resolution. An adequate existing explanation can supply this; a separate Candidate-Set Note is optional.
 18. **CC-C16Q-18 - Reference resolution is not object substitution.**
     Designators, governed refs, their resolved viewpoint or bearer objects, evaluator, result, frame, scope, grounding holon, and any selected structure remain distinct.
 19. **CC-C16Q-19 - Change verbs dock cleanly with A.6.P and A.6.5.**
-    `retargetBearer(...)` and the other declared reference moves are used only for ref retargeting; by-value revisions use their declared verbs; a scheme or scope change triggers claim-identity review; edits to witnesses, evidence paths, grounding, Bridge, bounded-use-claim, Card, or stance-note refs do not silently rewrite one another; and silent retyping is forbidden.
+    `retargetBearer(...)` and the other declared reference moves are used only for ref retargeting; by-value revisions remain distinct from reference changes; a scheme or scope change triggers claim-identity review; edits to witnesses, evidence paths, grounding, Bridge, bounded-use-claim, Card, or stance-note refs do not silently rewrite one another; and silent retyping is forbidden.
 

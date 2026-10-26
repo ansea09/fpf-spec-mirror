@@ -6,12 +6,12 @@ section_id: "C.26.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:6 — Bias-Annotation"
-line_start: 66588
-line_end: 66593
+line_start: 65549
+line_end: 65554
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,5 +39,5 @@ keywords:
 
 This pattern biases authors toward minimal evidence-bound claims and explicit evidence. That may feel conservative, but it makes distributed-state language usable.
 
-It also biases authors to keep primary grounding in distributed cognition, team cognition, organizational routines, socio-technical work, and evidence practice. The QL lens is secondary and only becomes active when probing, exporting, or comparing the state changes or loses load-bearing structure.
+It also biases authors to keep primary grounding in distributed cognition, team cognition, organizational routines, socio-technical work, and evidence practice. The QL lens is secondary and additionally requires C.26's contextual-model obstruction test; ordinary export loss or changed probing alone is insufficient.
 

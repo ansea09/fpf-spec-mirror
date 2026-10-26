@@ -6,12 +6,12 @@ section_id: "C.2.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:2 — Problem"
-line_start: 51347
-line_end: 51360
+line_start: 50512
+line_end: 50525
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -61,7 +61,7 @@ Without one direct episteme ontology, several practical failures recur.
 3. **Interpretation drift.** The same tokens or graph are read under different designation, measurement, or evaluation rules while users assume one unchanged episteme.
 4. **Neighboring-relation collapse.** Grounding holon, viewpoint, view, claim scope, model-use structure, evidence, edition, and publication become optional fields of one omnibus record. Their different obtaining and identity rules disappear.
 5. **Representation-first ontology.** Tuple components, graph nodes, schema fields, and database keys are treated as actual relation participants or subject identity discriminators merely because a tool exposes them.
-6. **Agency leakage.** A standard, model, method description, or claim graph is said to perform work. Systems perform work; epistemes participate in use, description, evidence, decision, and publication relations.
+6. **Agency leakage.** An episteme or its claim graph is said to perform Work. Systems perform Work; the claim content can guide or constrain it.
 7. **Dependent-kind identity fork.** A method description or view is assigned another identity merely because its direct pattern supplies a membership condition. The same episteme can then appear twice, and a viewpoint or method-description use can be mistaken for a change of knowledge object.
 
 The familiar Symbol-Concept-Object triangle can still introduce the difference among expression, meaning, and subject. It cannot serve as the ontology because it suppresses reference scheme, grounding, viewpoint, evidence, and the distinction between a relation and a representation of that relation.

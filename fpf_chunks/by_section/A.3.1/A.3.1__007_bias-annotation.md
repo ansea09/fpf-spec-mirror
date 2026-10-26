@@ -6,12 +6,12 @@ section_id: "A.3.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:6 — Bias-Annotation"
-line_start: 9647
-line_end: 9660
+line_start: 9576
+line_end: 9589
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -39,7 +39,7 @@ keywords:
 
 ### A.3.1:6 - Bias-Annotation
 
-This pattern mainly blocks seven recurring biases:
+The following biases obscure method identity:
 
 * **description-as-method bias**: a publication, program, diagram, or protocol is treated as the method instead of a method description;
 * **practice-as-method bias**: a source says "practice" and the repair silently chooses `U.Method` without checking whether the current claim is Work, system-role assignment, discipline, cultural-evolution, evidence, source label, or Method relation structure;
@@ -49,5 +49,5 @@ This pattern mainly blocks seven recurring biases:
 * **holder-as-method bias**: a team, system, supplier, or capability holder becomes the method name;
 * **semio-bias**: the discussion shifts to wording, a document, publication, or evidence face before the reusable action and its boundary have been stated.
 
-Use one concrete test in every case: can the reader state the reusable action, its participants, applicability, intended result, and stop? If yes, identify the `U.Method`; apply A.3.2 separately to each candidate `U.MethodDescription` episteme; handle any plan under A.15.2; and state only those enactment, evidence, or other relations that actually obtain. If not, keep the source phrase unresolved or use the subject pattern shown in §4.
+Use one concrete test in every case: can the reader state the reusable action, its participants, applicability, intended result, and stop? If yes, identify the `U.Method`; apply A.3.2 when a method-description membership claim is needed and A.15.2 when planned Work is being described; and state only those enactment, evidence, or other relations that actually obtain. If not, keep the source phrase unresolved or use the subject pattern shown in §4.
 

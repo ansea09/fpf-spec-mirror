@@ -6,12 +6,12 @@ section_id: "A.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.5/A.5__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.5 — Open-Ended FPF Kernel and Extension Layering"
   - "A.5:1 — Problem frame"
-line_start: 13714
-line_end: 13724
+line_start: 13533
+line_end: 13542
 dependencies:
 keywords:
   - "FPF architecture"
@@ -24,12 +24,11 @@ keywords:
 
 ### A.5:1 - Problem frame
 
-FPF helps practitioners combine shared conceptual grounds and reusable methods with suitable domain methods.
-FPF can support that use across changing disciplines only if it:
+**Use this when** adding or revising domain knowledge raises a question about what belongs in the shared Kernel, which assumptions belong in an extension, or which uses depend on a changed declaration.
 
-* **(i)** remains *stable* and *self‑consistent* over multi‑decade timespans;
-* **(ii)** *invites*, rather than resists, the continual influx of new disciplinary knowledge; and
-* **(iii)** allows multiple, even competing, explanatory lenses to coexist without forcing a “winner‑takes‑all” unification.
+**First useful move.** Name the contribution, its applicability and the declarations it relies on. Reuse an adequate existing contribution. For a new domain-specific assumption, keep its applicability with the extension rather than making every Kernel use depend on it.
+
+FPF combines shared conceptual grounds with domain Methods by keeping the common commitments stable enough for reuse while allowing extensions to supply different assumptions and laws. Competing explanations can remain available under their respective conditions.
 
 Different domains can require different assumptions and laws. Making a domain-specific assumption an unconditional Kernel commitment would impose it on uses where it may not hold and make those uses depend on its revision. Place domain-specific knowledge in extensions by default, with its applicability stated. Use **A.8** to test a U-kind’s cross-domain contribution and **A.11** to test whether a new ontological value is needed. The declaration rules in **A.5:4** expose dependencies so that a changed declaration can be followed to the uses that rely on it.
 

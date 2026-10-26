@@ -6,12 +6,12 @@ section_id: "A.16:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:1 — Problem frame"
-line_start: 33558
-line_end: 33563
+line_start: 33091
+line_end: 33096
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -59,5 +59,5 @@ keywords:
 
 The language-state `U.CharacteristicSpace` in `C.2.2a` makes positions explicit, but practitioners still need admissible moves for preserving, publishing, narrowing, reopening, or docking selected content to a later use. Those moves must not become a second formality-only climb, a generic one-pass process, or an invisible jump into a stronger pattern claim.
 
-A local note is usually enough. A heavier history is warranted only when lineage, branching, loss, supersession, or a history-dependent responsibility handoff changes what a later reader may conclude.
+The existing publication or a short local note can make the move recoverable. A fuller history is warranted only when lineage, branching, loss, supersession, or a history-dependent responsibility handoff changes what a later reader may conclude.
 

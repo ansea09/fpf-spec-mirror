@@ -6,13 +6,14 @@ section_id: "C.2.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:1 — Problem frame"
-line_start: 53586
-line_end: 53588
+line_start: 52739
+line_end: 52741
 dependencies:
+  - "A.13"
   - "A.15"
   - "A.15.1"
   - "A.16"
@@ -21,6 +22,7 @@ dependencies:
   - "A.16.2"
   - "A.18"
   - "A.3.1"
+  - "A.3.2"
   - "A.6.3.RT"
   - "A.6.P"
   - "B.4.1"
@@ -32,6 +34,8 @@ dependencies:
   - "C.2.8"
   - "C.2.LS"
   - "C.2.P.DR"
+  - "C.29"
+  - "F.6"
 keywords:
   - "AE0–AE5"
   - "articulation explicitness"
@@ -42,5 +46,5 @@ keywords:
 ---
 
 ### C.2.4:1 - Problem frame
-A governed `U.Episteme` can matter while its semantic shape is only partly explicit. The declared language-state chart over `U.CharacteristicSpace` therefore needs one basis-slot pattern for the degree to which that shape is explicitly articulated, without assuming in advance whether the direct branch is relational, planning, method, Work, representation, prompt, characteristic, or ordinary domain content.
+A governed `U.Episteme` may matter before its meaning is fully explicit. In the language-state chart over `U.CharacteristicSpace`, `AE` assesses how explicit that meaning is for its receiving use. The content may be a relation claim, a plan, a question or another domain statement; :17.1 gives the applicable branches.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.RM.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
-line_start: 59244
-line_end: 59480
+line_start: 58337
+line_end: 58573
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"
@@ -198,7 +198,7 @@ The useful result is a repaired average rate from existing observations. Repeati
 
 ### C.16.RM:6 - Bias-Annotation
 
-Under the five Principle-Taxonomy lenses of E.3 (Gov, Arch, Epist, Prag and Did), this pattern is scoped to repairing model-based measurements for a receiving use. The examples separate influences with simple relations and supplied conditions. Coupled effects, nonlinear response, drift, hysteresis or uncertain model structure can require richer diagnosis and uncertainty Methods. The pattern identifies where those contributions become necessary; it does not supply their complete domain repertoires.
+The examples separate influences with simple relations and supplied conditions. Coupled effects, nonlinear response, drift, hysteresis or uncertain model structure can require richer diagnosis and uncertainty Methods. The pattern identifies where those contributions become necessary; it does not supply their complete domain repertoires.
 
 The method favors a repair sufficient for the receiving use. A fault investigation concerned with reliability, causal explanation or a wider operating range can require work beyond restoring one useful reading. Keep that broader question explicit when it governs the effort.
 

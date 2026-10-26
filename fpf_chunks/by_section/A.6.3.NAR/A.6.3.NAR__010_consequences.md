@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:9 — Consequences"
-line_start: 19829
-line_end: 19845
+line_start: 19487
+line_end: 19503
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -47,14 +47,14 @@ Positive consequences:
 
 - A reader receives a usable sequence before formal identity work is required.
 - Selection, ordering, connective additions, loss, and return remain inspectable.
-- Exact episteme and source-chain discipline remains available when independent travel, citation, dispute, material cross-scheme or generated admission, consequential reliance, or another named receiving requirement makes it necessary; publicness alone adds no identity burden.
+- Exact episteme identity and source dependencies remain available when the receiving claim needs them.
 - Human-authored and generated narratives face the same source-comparison boundary without pretending that their production histories are the narrative relation.
-- FPF Core stays small while narratology, NLG, pedagogy, and storycraft details mature in their own domains.
+- Domain narrative conventions can be used without confusing them with FPF Core kinds.
 
 Costs and trade-offs:
 
 - Authors must compare the narrative with the source rather than judging it by fluency alone.
 - Reliance-facing narratives require exact identity and preservation work proportionate to the receiver's use.
 - Some attractive narratives must be limited to orientation because selected structure or return is not recoverable.
-- Evidence, assurance, ethics, or policy claims may add work when they are genuinely current, preventing persuasion from becoming hidden authority.
+- Evidence, assurance, ethics or policy claims add their own required work.
 

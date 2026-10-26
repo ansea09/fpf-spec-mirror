@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:intro — Intro"
-line_start: 35828
-line_end: 35837
+line_start: 35212
+line_end: 35221
 dependencies:
   - "A.0"
   - "A.17"
@@ -44,5 +44,5 @@ keywords:
 
 **Plain-name.** Source-set / search-outcome-space substrate.
 
-**Declared relation-and-ref-position stack.** The declared relation-and-ref-position stack that links one recoverable source set to search-side and outcome-side references over `A.19` `CharacteristicSpace`, states how those two refs relate, and makes the source-to-outcome relation plus its distortion, uncertainty, or error posture explicit enough to guide use.
+**Working contribution.** Identify the set being searched or compared, the space used to describe its members, and the space in which their outcomes are judged. State the relation that connects source members to outcome values and the limits of that relation. Search and outcome may use the same A.19 space; the two uses still need to remain distinguishable.
 

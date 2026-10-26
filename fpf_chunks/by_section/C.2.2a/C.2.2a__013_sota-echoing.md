@@ -6,12 +6,12 @@ section_id: "C.2.2a:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__013_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:11 — SoTA-Echoing"
-line_start: 52930
-line_end: 52946
+line_start: 52086
+line_end: 52100
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -46,18 +46,16 @@ keywords:
 
 ### C.2.2a:11 - SoTA-Echoing
 
-**SoTA note.** This section does not mint a second rule source. It is a load-bearing alignment statement: the Solution, Conformance Checklist, and bearer-lane discipline of this pattern must match the stance stated here or explicitly justify divergence.
+The external comparisons below concern publication distinctions and scoped profiles. The chart basis remains grounded in A.19 and its facet patterns.
 
-**Traditions covered.** This pattern binds itself to architecture-description governance, model-based systems engineering, and risk/governance profiling practice.
-
-| Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with `C.2.2a` | Adoption status |
+| Claim need | Practice contribution | Primary source | Alignment with `C.2.2a` | Adoption status |
 |---|---|---|---|---|
-| Complex technical state should be published through explicit views, viewpoints, and model distinctions rather than one implicit maturity word. | Contemporary architecture-description governance separates source architecture description, view, viewpoint, and correspondence evidence instead of letting one visible adjective stand in for the whole state. | ISO/IEC/IEEE 42010:2022 | `C.2.2a` adopts this by keeping chart position, publication form, face, and carrier in distinct slot groups and by rejecting stage-language as a surrogate coordinate system. | **Adopt.** |
+| Complex technical state should be published through explicit views, viewpoints, and model distinctions rather than one implicit maturity word. | Contemporary architecture-description governance separates source architecture description, view, viewpoint, and correspondence evidence instead of letting one visible adjective stand in for the whole state. | ISO/IEC/IEEE 42010:2022 | `C.2.2a` keeps chart position, publication form and carrier distinct; an MVPK face is a form under E.17. A stage adjective cannot substitute for the required facet readings. | **Adopt.** |
 | Governance-relevant readiness requires context-local profiles and thresholds, not one global adjective. | Current governance and risk frameworks use explicit profiles, thresholds, and scoped conditions rather than one blanket readiness label. | NIST AI RMF 1.0 (2023) | `C.2.2a` adopts the threshold-publication discipline and rejects the popular shortcut where `ready`, `early`, or `mature` replaces explicit slot conditions. | **Adopt/Reject-popular-shortcut.** |
 
-**Architecture-description governance.** `C.2.2a` adopts the discipline that positions, publication forms, faces, and carriers stay explicitly distinct, even when one local rendering makes them look aligned.
+**Architecture-description contribution.** Keep the position claim and the form and carrier through which it is published distinguishable when their identity changes interpretation or use.
 
 **Characteristic-space and profile discipline.** The multi-facet chart is grounded in FPF `A.19` and the current `C.2.3`–`C.2.7` facet patterns; it is not imported from an external modeling language. Current governance practice contributes the narrower discipline of publishing scoped profiles and thresholds.
 
-**Local stance.** The load-bearing architecture decision is FPF-native: governed language-state is a multi-facet chart with explicit thresholds and bearer-lane distinctions, not one maturity progression or one polished publication face. The external rows support the narrower view, publication, profile, and threshold disciplines stated above.
+**Local stance.** The load-bearing architecture decision is FPF-native: governed language-state uses a multi-facet chart with explicit thresholds and the publication distinctions needed by the receiving use, not one maturity progression or one polished publication face. The external rows support the narrower view, publication, profile, and threshold disciplines stated above.
 

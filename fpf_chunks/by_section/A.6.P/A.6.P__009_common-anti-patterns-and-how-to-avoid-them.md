@@ -6,12 +6,12 @@ section_id: "A.6.P:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 20578
-line_end: 20592
+line_start: 20237
+line_end: 20251
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -49,5 +49,5 @@ keywords:
 | Infer agency or identity from an active verb | Grammar is treated as ontological evidence. | Recover the exact acting system or direct identity rule independently of grammar. |
 | Preserve a hidden union as a long list | The predicate changes meaning across listed participant kinds. | Recover the common predicate or split the relation kind and any compatible declarations. |
 | Reverse a sentence for style | Participant meanings and polarity can change silently. | Use the direct inverse law or keep the forward predicate explicit. |
-| Use a graph, tuple, function, arrow, or table as ontological proof | Representation is mistaken for what it represents. | State an explicit `C.29` correspondence and keep world-side obtaining and identity with the direct pattern. |
+| Use a graph, tuple, function, arrow or table as ontological proof | Representation form is mistaken for an obtaining relation. | Recover what the elements mean and examine the claim and grounds under the direct rule. Add C.29 only for a separate mathematical representation or transfer question. |
 

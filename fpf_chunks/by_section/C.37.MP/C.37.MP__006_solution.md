@@ -6,12 +6,12 @@ section_id: "C.37.MP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:4 — Solution"
-line_start: 82178
-line_end: 82232
+line_start: 81003
+line_end: 81057
 dependencies:
   - "A.10"
   - "A.3.1"
@@ -32,7 +32,7 @@ Build the Method representation profile from the current MethodDescription or ca
 
 #### C.37.MP:4.1 - Pattern-Use Unfolding
 
-1. **Name one Method-related use.** State the receiving System, exact decision about the Method or enactment-support action, situation, qualification window, and stop. Another action starts another `C.37` invocation even when the user, carrier, or Method is unchanged.
+1. **Name one Method-related use.** State the receiving System, exact decision about the Method or enactment-support action, situation, qualification window, and stop. Another action has its own `C.37` use account even when the user, carrier or Method is unchanged. Reuse unaffected grounds and reconsider the dependencies changed by that action.
 2. **Fix the Method subject and source account.** Name the admitted Method or candidate status and the current MethodDescription or candidate-account edition. Use A.3.2.DE when the needed Method claims are absent or not current enough.
 3. **Recover the claims needed by the action.** Select only the needed purpose, input/result, performer, capability, tool or resource, action or Work specification, variation point, guard, evidence, authority, support, feedback, or stop claims. Keep their actual subjects and statuses.
 4. **Recover every candidate through its direct governor.** Use `C.2.1` for the claim-bearing episteme, `E.17.0` for a view with its own conformance relation, `C.29` for a mathematical lens and correspondence, `E.24.PUB` for publication, and `A.22` for a selected structure. A title, layout, Method label, carrier, or profile row supplies none of those results.

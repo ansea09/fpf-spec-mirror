@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:1 — Problem frame"
-line_start: 9763
-line_end: 9792
+line_start: 9692
+line_end: 9716
 dependencies:
   - "A.10"
   - "A.13"
@@ -51,9 +51,4 @@ keywords:
 - If the question concerns one dated Work occurrence only, use `A.15.1`.
 - If the project needs prospective practice-architecture synthesis, use `C.32.MWA`.
 - If the domain needs a complete reconstruction programme, use `RMP.10`.
-
-**When a DPF reuses this pattern.** A DPF uses it only when several occurrences or sources create a candidate-recovery question that passes this entry. The DPF still supplies any domain-specific problem, evidence limits, vocabulary, result, and return that change practitioner action or judgment. If no such use-changing contribution remains, cite this pattern rather than copying it.
-
-For example, an engineering study across several test runs may pass this entry, while a live maintenance incident may need only `A.15.7` and a stable administrative checklist may need neither pattern. A music or dance DPF uses this recovery Method only for an actual several-performance question and keeps its own evidence, terminology, result, and return.
-
 

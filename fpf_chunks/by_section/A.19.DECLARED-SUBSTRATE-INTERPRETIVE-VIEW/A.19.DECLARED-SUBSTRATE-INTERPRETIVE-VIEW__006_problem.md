@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__006_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:2 — Problem"
-line_start: 36474
-line_end: 36486
+line_start: 35778
+line_end: 35790
 dependencies:
   - "A.0"
   - "A.19"
@@ -39,7 +39,7 @@ keywords:
 
 ### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:2 - Problem
 
-How should one declare a interpretive view so that:
+How should one declare an interpretive view so that:
 
 1. it is explicitly one domain-specific use-site of existing `U.EpistemicViewing` and `U.MultiViewDescribing` law, not one fresh autonomous theory of views;
 2. it keeps the already-declared substrate recoverable instead of replacing it;

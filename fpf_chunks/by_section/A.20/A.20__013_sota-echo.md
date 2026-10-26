@@ -6,12 +6,12 @@ section_id: "A.20:11"
 section_title: "SoTA echo"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__013_sota-echo.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:11 — SoTA echo"
-line_start: 40309
-line_end: 40317
+line_start: 39493
+line_end: 39501
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,7 +31,7 @@ keywords:
 
 ### A.20:11 - SoTA echo
 
-| Current practice line | Adopted move | Limit |
+| Practice comparison | Adopted move | Limit |
 | --- | --- | --- |
 | Refinement-type, property-based, and proof-carrying validation | Name the property, case, outcome, and witness rather than publishing an unqualified validation label. | A witness supports only the stated property and case. |
 | Dimensional analysis and assumption-bound numerical validation | Keep quantity, unit, domain, assumptions, and validity region with the result. | The check does not define unit conversion or comparison policy. |

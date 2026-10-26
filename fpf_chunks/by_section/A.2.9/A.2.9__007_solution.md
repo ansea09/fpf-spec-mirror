@@ -6,12 +6,12 @@ section_id: "A.2.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__007_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:4 — Solution"
-line_start: 8766
-line_end: 8905
+line_start: 8708
+line_end: 8847
 dependencies:
   - "A.10"
   - "A.13"
@@ -20,11 +20,11 @@ dependencies:
   - "A.2.1"
   - "A.2.6"
   - "A.2.8"
+  - "A.2.9"
   - "A.6.C"
   - "A.7"
   - "F.6"
   - "U.Method"
-  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "A.13-qualified actual performer"
@@ -54,7 +54,7 @@ When exact occurrence identity, governance, modeling, audit, or reliance is curr
 
 #### A.2.9:4.1 — Normative definition
 
-`U.SpeechAct <: U.Work` is a kind declaration. An actual Work individual is admitted as `SA : U.SpeechAct` when its primary effect is **communicative**: it places an utterance through an optional channel in a way classified by an exact speech-act recognition taxonomy under an effective reference scheme and, when institutional force is claimed, by a current policy, procedure, or protocol rule as potentially:
+`U.SpeechAct <: U.Work` is a kind declaration. An actual Work individual is admitted as `SA : U.SpeechAct` when its primary effect is **communicative**: it places an utterance through an optional channel in a way classified by an exact speech-act recognition taxonomy under an effective reference scheme. A claimed institutional force additionally depends on the applicable current policy, procedure or protocol rule. The taxonomy may distinguish functions such as:
 
 * asserting/informing,
 * requesting/directing,
@@ -167,10 +167,10 @@ A **`SpeechActRef`** resolves to one actual Work individual admitted as `SA : U.
 
 #### A.2.9:4.4 — Separation rules with `U.Commitment`, `GrantedPermissionRelation@Context`, and `U.PromiseContent` (normative)
 
-1. **Instituting an enduring deontic relation.** A speech-act occurrence may be the actual instituting basis for one `U.Commitment` or `GrantedPermissionRelation@Context` only under an exact current constitutive policy or rule and the effect pattern's satisfied direct predicate. The enduring relation is separately identified. Do not encode obligations or permissions as prose inside `SpeechActRecord`; cite only the exact already obtaining relation occurrences in `institutes.commitments` or `institutes.permissions`.
+1. **Instituting an enduring deontic relation.** A speech-act occurrence may be the actual instituting basis for one `U.Commitment` or `GrantedPermissionRelation@Context` only under an exact current constitutive policy or rule and the effect pattern's satisfied direct predicate. The enduring relation is separately identified. To state an instituted effect in `SpeechActRecord`, cite its already obtaining occurrence in `institutes.commitments` or `institutes.permissions`; quoted duty or permission wording alone does not establish that effect.
 
 2. **Promise content and the act of offering it.**
-   `U.PromiseContent` is the promised-outcome statement; a speech act may be the act of offering or issuing that promise, but the promise content lives in the promise-content object and is referenced from the resulting commitments.
+   `U.PromiseContent` is the promised-outcome statement. A speech act may offer or issue that promise; any resulting commitment references the separate promise-content episteme.
 
 3. **The act and its evidence carrier.**
    A “signed approval PDF”, ticket, message, or API log is a carrier; it may carry an utterance-description episteme or a `SpeechActRecord`. The speech act is the Work occurrence described or evidenced.

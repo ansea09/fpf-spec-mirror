@@ -6,12 +6,12 @@ section_id: "A.6.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:12 — Relations"
-line_start: 23827
-line_end: 23842
+line_start: 23407
+line_end: 23422
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -38,7 +38,7 @@ keywords:
 - `A.15.1` and `A.3.1` define the constructive holonhood and identity of Work and Methods; `A.3.4` defines the actual-bounded-change identity of transformations; `E.18` defines selected transformation-flow structures over those independently defined transformations and adjacent loci.
 - `A.1`, `A.2`, `A.2.1`, and `A.15` keep acting systems, exact local system-role kinds, system-role assignments, Methods, and performed Work distinct.
 - Use `A.2.4` for compact episteme evidence-use and status-use relation SlotSpecs, `A.10` for the full evidence-provenance path, and `F.10` for durable status semantics. A.6.5 does not duplicate those relations or make an episteme the holder system, assigned system-role kind, assignment occurrence, or assignment-state relation.
-- When one is current, the exact named C.30 architecture-relation subpattern defines the architecture relation. `A.6.M` defines module-interface relations; after `A.6.RSIR` recovery, a non-module interface use follows its direct-relation definition. A.6.5 does not duplicate either family.
+- A named C.30 architecture-relation pattern supplies the rule for its relation. `A.6.M` repairs module-interface claims and specifications; it admits no general direct module relation. After A.6.RSIR recovery, a direct relation needs its own definition before A.6.5 declares its SlotSpecs.
 - `C.29` governs a declared mathematical-lens use of tuple, graph, database, or mathematical representations of a relation, assertion, signature, or occurrence description.
 - `E.10` supplies wording-use recovery, `E.24.UK` supplies the U-kind admission test, and `F.18` supplies designation guidance after the object is known.
 

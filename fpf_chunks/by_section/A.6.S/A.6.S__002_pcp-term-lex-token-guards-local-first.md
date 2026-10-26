@@ -6,12 +6,12 @@ section_id: "A.6.S:0"
 section_title: "PCP-TERM/LEX token guards (local-first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__002_pcp-term-lex-token-guards-local-first.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:0 — PCP-TERM/LEX token guards (local-first)"
-line_start: 25140
-line_end: 25153
+line_start: 24697
+line_end: 24710
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -48,7 +48,7 @@ This pattern reserves the following tokens in Tech (normative) register:
 Rename-guards (common collisions):
 
 * **enabling** — Plain adjective meaning “producing/maintaining the TargetSignature”; it is not a `U.*` token.
-* **constructor** — MUST distinguish `ConstructorSignature` (episteme), a constructor-operation description, the A.6.2 arrow used to state its effect-free episteme relation, and the admitted System that applies the described constructor operation and performs any separately admitted construction Work. State any local system-role classification and obtaining assignment separately. If the physics term is intended, spell **Constructor Theory** explicitly.
-* **target** — avoid bare “target” in Tech clauses; use `TargetSignature` or qualify the target (for example, “F.9 target cell” or “target holon”).
+* **constructor** — distinguish the objects consumed by the claim: ConstructorSignature, constructor-operation description, any A.6.2 mathematical arrow, the applying System, and independently admitted Work. A system-role classification or assignment is a separate claim. Spell out Constructor Theory when that physics concept is intended.
+* **target** — qualify the word when its intended object is ambiguous: for example, TargetSignature, F.9 target cell or target holon. A locally clear use needs no repeated expansion.
 * **contract** — if source wording uses this Plain shorthand, recover whether it means `TargetSignature`, Contract Bundle, promise content, commitment, or work/evidence. In this pattern the intended recovered value is usually `TargetSignature`; promises, duties, and gates are classified under `A.6.B` and `A.6.C`.
 

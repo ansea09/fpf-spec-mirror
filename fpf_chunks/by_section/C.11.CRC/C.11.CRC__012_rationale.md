@@ -6,12 +6,12 @@ section_id: "C.11.CRC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:10 — Rationale"
-line_start: 57504
-line_end: 57509
+line_start: 56608
+line_end: 56611
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -45,6 +45,4 @@ keywords:
 ### C.11.CRC:10 - Rationale
 
 The pattern is narrow because its result is neither a new value ontology nor a decision. The reusable action is to construct a finite configuration-relative claim for a receiving choice or construction. The claim can remain useful while alternatives or a conditional policy are still being developed. `A.19` remains the comparison-mechanism owner, `C.29` the mathematical-lens owner, and `C.11` the choice owner.
-
-The selected name follows `F.18`. *Marginal contribution decision* conflates finite difference, derivative, economic terminology, and the later decision; *marginal value* encourages one scalar; *sensitivity analysis* names a different question. `Configuration-Relative Contribution Comparison` names the reference configuration and comparison while leaving domain quantities and choice outside.
 

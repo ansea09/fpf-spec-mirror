@@ -6,12 +6,12 @@ section_id: "C.3.3:9"
 section_title: "Worked Examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__010_worked-examples-informative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:9 — Worked Examples (informative)"
-line_start: 55644
-line_end: 55657
+line_start: 54779
+line_end: 54792
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -35,5 +35,5 @@ Frontend and gateway services use the same `AuthenticatedRequest` kind: the cand
 
 #### C.3.3:9.3 - AdultPatient across jurisdictions (clinical)
 
-The obtaining bridge relates source kind `AdultPatient` to independently identified target kind `AdultPerson_Y`. Its assertion gives `CL^k=1`, states the 18-versus-21 boundary loss, and limits definedness to the declared jurisdictional editions. The target classification uses its own signature edition. For an admissible candidate, missing DOB support yields `unknown`; a mask adapter or narrower Scope may support a later use, while the guard's refusal and R penalty remain separate from target truth.
+The obtaining bridge relates source kind `AdultPatient` to independently identified target kind `AdultPerson_Y`. Its assertion gives `CL^k=1`, states the 18-versus-21 boundary loss, and limits definedness to the declared jurisdictional editions. The target classification uses its own signature edition. For an admissible candidate, missing DOB support yields `unknown`. That result and a separate guard refusal can suffice for the present decision. If later classification is needed, obtain the required birth-date support; a claim restricted to an independently supported subset is another possible use. Neither narrowing the claim nor applying a justified R consequence turns the candidate's unknown classification into a true one.
 

@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__005_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:3 — Forces"
-line_start: 73081
-line_end: 73090
+line_start: 72031
+line_end: 72039
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,7 +68,6 @@ keywords:
 | --- | --- |
 | Source-language usability vs ontology | Practitioners need compact local words; a technical claim needs the actual object or relation, its participants or bearer, its scope, and its allowed use. |
 | Pattern placement vs applicable rule | C.30 placement does not decide the applicable rule: the recovered claim may belong to control, modules, flow, scale, publication, state, evidence, work, or decision. |
-| Thin repair vs shadow registry | One shared cue table is useful; copied local trigger lists are not. |
 | Known meaning vs detour | When the current object or relation is already clear, use its pattern directly. |
-| Precision vs action | A type-correct result is still a failure if the reader cannot see what to do next. |
+| Precision vs action | A type-correct result is still inadequate if it leaves the receiving question unanswered. |
 

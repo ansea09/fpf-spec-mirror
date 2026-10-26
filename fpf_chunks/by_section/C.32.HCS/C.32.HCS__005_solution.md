@@ -6,12 +6,12 @@ section_id: "C.32.HCS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:4 — Solution"
-line_start: 77439
-line_end: 77492
+line_start: 76353
+line_end: 76406
 dependencies:
   - "A.19"
   - "C.11"
@@ -69,11 +69,11 @@ In HCS, `source-return cost` is a starter head for a holon family only when repe
 
 #### C.32.HCS:4.3 - Rebinding rule
 
-When a starter head is reused at another bearer kind, holon level, domain, or concrete use, rebind it. Name the target bearer, relevant relations, receiving result, conditions, quality meaning and attainable observation. State which part of the source construction survives and which part needs replacement. The reusable item is a candidate head, not an already valid project row.
+When a starter head is reused at another bearer kind, holon level, domain, or concrete use, rebind it. Identify the target bearer, relevant relations and receiving result. State what is known about the conditions, quality meaning and attainable observation; carry unanswered binding questions to ACS. State which part of the source construction survives and which part needs replacement. The reusable item is a candidate head, not an already valid project row.
 
 Example: `availability` for an engineered service may use time-window and service-scope measures. A method-side case may ask whether an exact System can access a Method description and evidence relation in the working situation. A kind case may ask whether A.2.7 admits substitution; an assignment case may ask whether holder replacement or assignment continuity obtains; a responsibility case needs its own direct relation. These are different bearers, predicates, and scales.
 
-Refresh the starter pack when its starting assumptions no longer hold: the admitted holon family changes, source-label recovery changes the recovered family or bearer, a B.2 whole reidentification changes the bearer or scale, a source catalogue changes the available vocabulary, repeated ACS project-row uses show that a head never survives project binding, or repeated ACS project-row uses reveal a missing head for that family. Refresh only starter-pack fields and blocked overreads. Existing project criteria rows remain with `C.32.ACS`; measurements remain with `C.16`; eval programs remain with `C.32.ACE`.
+Refresh the starter pack when its starting assumptions no longer hold: the admitted holon family changes, source-label recovery changes the recovered family or bearer, a B.2 whole reidentification changes the bearer or scale, a source catalogue changes the available vocabulary, repeated ACS project-row uses show that a head never survives project binding, or repeated ACS project-row uses reveal a missing head for that family. Revise the affected guidance and any action-changing caution. Existing project criteria rows remain with `C.32.ACS`; measurements remain with `C.16`; eval programs remain with `C.32.ACE`.
 
 #### C.32.HCS:4.4 - ACS Criteria-Row Use
 
@@ -84,9 +84,9 @@ HCS stops with starter heads and first project questions. The next `C.32.ACS` us
 - whether the project uses it as an optimization indicator, monitored guardrail, or context-only row;
 - which scale, reading, and pattern for the next question apply.
 
-Before ACS criteria-row use, ask one proxy-resistance question for each carried starter head: what architecture concern would worsen or disappear if the visible catalogue entry, domain term, benchmark row, or dashboard value looked better? Such visible material is not yet an architecture-characteristic starter head. Carry the head forward only when the architecture-bearing family, likely bearer, likely scale, Q-Bundle boundary, first project question, and reopen condition remain recoverable. When the head relies on a catalogue, benchmark, dashboard, or publication cue, retain that exact source item and its source-to-use path. A head obtained from direct inspection retains that inspection basis instead. Also name the selected source `U.Episteme` and an `EpistemePublicationRelation` occurrence when availability matters. If the architecture concern cannot be recovered, keep the wording as source catalogue wording or remove it from the starter pack. When the concern and the required starter-head bindings are recoverable but no plausible worsening or loss is found, carry the head forward, name the concerns inspected, and leave any unresolved proxy risk explicit.
+Before ACS criteria-row use, ask whether improving a visible catalogue, benchmark or dashboard value could hide a loss in the actual architecture concern. Retain a plausible action-changing risk; do not invent one to qualify the head. Carry a head when the architecture-bearing family, likely bearer, concern and first project question are recoverable. A likely scale or composite-quality boundary can remain an explicit question for ACS or C.25. Preserve the source item and relevant source-to-use connection for a borrowed head, or the inspection basis for a directly recovered one. Name formal source identity or publication availability when the receiving use depends on it. If no architecture concern can be recovered, keep the term as source vocabulary or remove it from the starter set.
 
-**Stop condition.** Stop C.32.HCS when the starter pack names the admitted holon family or recovered architecture-bearing family, starter heads, likely bearers or selected structures, likely composite-quality boundaries, first ACS questions, and any blocked overread. The next project criteria-row work belongs to `C.32.ACS`.
+**Stop condition.** Stop C.32.HCS when the family, plausible starter heads, likely bearers or selected structures, and first ACS questions are recoverable. Carry a suspected composite boundary or unresolved scale as a question for C.25 or ACS, and retain a caution only when it changes use. The next project criteria-row work belongs to `C.32.ACS`.
 
-**Lowering condition.** Lower a starter head to source catalogue wording or remove it from the starter pack when the architecture-bearing family is not declared, the likely bearer or likely scale is missing, the composite-quality boundary is still unresolved, the first ACS question is absent, repeated ACS uses reject the head for that family, or the item is being used to smuggle measurement, eval, comparison, publication, local choice, or decision work into HCS. Use `C.25` when the head is composite, `C.32.ACS` when the project criteria-row question is ready, and the named pattern for the next question when the stronger claim is current.
+**Lowering condition.** Keep a term as source vocabulary, or remove it from this starter set, when its architecture-bearing family, likely bearer, concern or first project question cannot be recovered. Repeated rejection during ACS binding can justify narrowing or revising the family guidance; inspect why the head failed before excluding another use. An unresolved scale or composite boundary is a question to resolve before stronger reliance, not evidence that the head is irrelevant. Use C.25 for composite quality and ACS for project binding; measurement, evaluation, comparison and decisions retain their own conditions.
 

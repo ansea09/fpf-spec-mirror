@@ -6,12 +6,12 @@ section_id: "A.19.CPM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__014_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:12 — Relations"
-line_start: 39614
-line_end: 39639
+line_start: 38826
+line_end: 38851
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -30,7 +30,7 @@ keywords:
 * `A.6.1` (operation declarations and actual application/binding rules)
 * `A.6.1 §4.2` (operation-local argument/result meanings and binding rules; SlotIndex projects those declarations)
 * `A.19.CHR` (suite membership + obligations + `suite_protocols`; CHR SlotKind lexicon)
-* `A.15.2` for the edition/policy baseline; `A.15.3` plus `A.19.CHR:4.7.2` for typed filling of independently declared positions.
+* `A.15.2` for the edition/policy baseline on P2W paths; `A.15.3` plus `A.19.CHR:4.7.2` for typed filling of independently declared positions.
 * `A.19` for `CharacteristicSpace` and the optional by-value `CharacteristicSpacePredicate` used by one comparison
 * `A.2.6` for `U.ClaimScope` identity and exact `U.ContextSlice` membership
 * `A.19.CN` for CN-Spec comparability plus acceptance and admission declarations

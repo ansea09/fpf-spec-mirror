@@ -6,12 +6,12 @@ section_id: "A.2.2:10"
 section_title: "Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__011_anti-patterns-and-repairs.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:10 — Anti-Patterns and Repairs"
-line_start: 5361
-line_end: 5377
+line_start: 5356
+line_end: 5372
 dependencies:
   - "A.1"
   - "A.15"
@@ -42,9 +42,9 @@ keywords:
 | Work-as-capability | "We did it once, so we can." | Keep the work occurrence; add a separate capability claim only when envelope, measures, and currentness are justified. |
 | Promise-as-capability | "The SLA is our capability." | Use promise content or commitment for what is offered; capability is the internal measured ability that makes the promise credible. |
 | Episteme-as-holder | "The report has assessment capability." | Use evidence, source, status, or assessment relation for the episteme; capability holder remains a system. |
-| Unbounded capability | "The tool can machine titanium." | Add material grade, tolerances, feed range, environment, version, qualification window, and measurement evidence. |
+| Unbounded capability | "The tool can machine titanium." | State the material grade and performance bounds needed by the receiving use, with the operating conditions and qualification basis that support them. |
 | Capability threshold in system-role-kind name | `HighPrecisionWelderSystemRole` hides a measured threshold. | Keep the system-role-kind name free of the threshold; put precision in the Method-side admission or fit condition and the holder capability claim. |
 | Characteristic-as-capability | "Low latency is a capability." | Use `U.Characteristic` with declared scale for latency; add a capability claim only when a named holder can produce a result class within an envelope that includes the latency measure. |
-| Q-Bundle-as-capability | "Resilience is our capability." | Use `C.25` for the composite quality family; cite a capability only when a currentness assessment supports reliance on a qualified holder ability and a fit predicate tests the relevant bundle slot. |
+| Q-Bundle-as-capability | "Resilience is our capability." | Use `C.25` for the quality family. If a capability is claimed, state what the holder can maintain or produce under specified conditions and bounds; use a relevant bundle slot in the fit comparison when the receiving demand calls for it. |
 | Architecture-row-as-capability | "Maintainability row gives capability." | Use `C.32.ACS` for the architecture-characteristic criteria row; it may constrain a capability-fit condition but does not establish the holder's ability. |
 

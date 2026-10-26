@@ -6,12 +6,12 @@ section_id: "C.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:4 — Solution"
-line_start: 61507
-line_end: 61761
+line_start: 60477
+line_end: 60730
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -86,7 +86,7 @@ Omit this tail when the pool treatment makes no causal claim and consumes no cau
 
 **Decision-subject clarification.** Attribute any later choice to one declared `DecisionSubject` at explicit `DecisionSubjectGranularity`. Record measurement spaces and admissible policies in the semantic-frame epistemes that state them. Use LOG to describe lenses and policies; that description does not enact a choice.
 
-**EmitterPolicy use.** The canonical profile and its assurance boundary are defined above. A C.18 generation or archive record cites it only when pool treatment, insertion, or deduplication actually uses that profile. The profile is not a staffing or budget instruction.
+**EmitterPolicy use.** A C.18 generation or archive account cites this profile only when pool treatment, insertion or deduplication uses it.
 
 Use the ordinary default tokens defined in `G.Core` and `G.5`. The rules below explain their pool-policy consequences without defining a rival default family.
 
@@ -116,12 +116,12 @@ Use the ordinary default tokens defined in `G.Core` and `G.5`. The rules below e
 **Policy logic is not generation or work.** In one C.19 use, compute and record a treatment over an already identified live pool. It does not recompute a C.18 front or archive, update a generator, seed a candidate, constitute dated `U.Work`, create or classify a local system-role kind, create or change an assignment occurrence or its state, establish responsibility, authority, or permission, approve a budget or plan, or authorize enactment. At enactment, recover only the branches that independently obtain; send unresolved claim-bearing “role” wording through `E.10.ROLE`.
 
 **Pool-policy pass (per `rebalance_period`).**
-1) Read the current C.18 archive/front reference and its replay boundary; do not recompute either object inside C.19.
+1) Identify the live pool. Read any C.18 archive/front account on which the treatment depends and retain its replay boundary; front or archive recomputation remains a C.18 question.
 2) Record the governing lens and desired policy values, such as `explore_share`, emitter-profile preference, `wild_bet_quota`, or an admitted heterogeneity constraint. These are policy values, not generation actions.
 3) Apply the conditions for the proposed treatment. For exploitation or a wider supported use, apply eligibility and `graduationConditionRef`, citing the bounded B.3 result when assurance is needed. For exploration or retention, assess the continuation basis and the whole pool's competing commitments. Choose exactly one `currentTreatment` from `widen | keep_frontier | narrow_to_subset | sunset_line` and state whether the retained line warrants active probing or only lower-burden retention.
-4) If that judgement requires fresh candidates, a changed emitter mix or temperature, archive insertion, or front recomputation, set `nextQuestionPatternLocator = C.18` and pass only the desired emitter profile, quota or constraint, and the exact generation/archive/front reason. Apply C.18 to decide and record the generation, archive, and front operations.
+4) If that judgement requires fresh candidates, a changed emitter mix or temperature, archive insertion, or front recomputation, set `nextQuestionPatternLocator = C.18` and pass only the desired emitter profile, quota or constraint, and the exact generation/archive/front reason. Use §4.4 to obtain the needed generation, archive or front result.
 5) If carrying out the treatment requires dated implementation, planning, staffing, or budget use, pass the policy record to the A.15 family; the policy record itself grants none of them.
-6) Emit one `PoolPolicyResult` with `livePool`, `governingLens`, `currentTreatment`, `changeTrigger`, and any inputs required by the next subject pattern. The result may justify keeping, narrowing, graduating, or sunsetting a line without taking over the named next subject pattern's operation.
+6) State the pool-policy result. When a reusable record is needed, use `PoolPolicyResult` with `livePool`, `governingLens`, `currentTreatment`, `changeTrigger`, and any inputs required by the next subject pattern. The result may justify keeping, narrowing, graduating, or sunsetting a line without taking over the named next subject pattern's operation.
 
 **Named lenses (heuristics; policy‑level, not norms)**
 The following **lens profiles** are **illustrative heuristics**. Practitioners MAY reuse or modify them; they are **not** normative.
@@ -139,7 +139,7 @@ The following **lens profiles** are **illustrative heuristics**. Practitioners M
 
 **Canonical record vocabulary.** A serialized `PoolPolicyResult` uses the field `governingLens` and exactly one `currentTreatment` token from `widen | keep_frontier | narrow_to_subset | sunset_line`. Reader prose may say *widen*, *keep the frontier*, *narrow to a subset*, or *sunset a line*, but those phrases are labels, not alternate serialized values. Do not use `lens` as a second field name.
 
-At the end of a C.19 use, write one explicit pool-policy record rather than one atmospheric statement that exploration will continue somehow.
+At the end of a C.19 use, make the treatment and its grounds explicit. A record preserves the account when later inspection or reuse needs it.
 
 That result should state:
 
@@ -162,7 +162,7 @@ or, for one narrower family region:
 - `currentTreatment = narrow_to_subset`
 - `changeTrigger = quota satisfaction plus a compatible cited C.17 Novelty coordinate result clearing novelty_floor_policy_v2`
 
-Those fields define the result: live pool, governing lens, current treatment, and change trigger.
+Both examples identify the pool, policy, treatment and change trigger; their different scopes require different continuation grounds.
 
 #### C.19:4.2 - Closure rule over the live pool
 
@@ -209,7 +209,7 @@ When `currentTreatment = narrow_to_subset`, `livePool` still names one internal 
 
 Goal and task space growth is one pool-policy doctrine over the archive or curriculum side. When autotelic or capability-discovery pressure is active, cite `goalSpaceExpansionPolicyRef` only for an independently declared policy. Retain every supporting information-acquisition, capability, novelty, objective, articulated-endpoint, or other result or claim through its native direct-owner reference and kind. Add `a10RelianceRef` only for an evidence-bearing or source-bearing claim on which this treatment actually relies. Use `competenceModelRef` only for one exact model episteme, never as an alternative name for the capability, result, or reliance account. These inputs may support `widen`, `keep_frontier`, `narrow_to_subset`, or `sunset_line`; none becomes a generic signal or cue, default `Q`, dominance coordinate, probe choice, or selector-facing shortlist by entering the record.
 
-If the record does not already state which pool remains live, which lens and policy apply, and what would change that treatment next, it is still one unfinished `C.19` result.
+If a needed value is unknown, preserve the supported account and leave only the dependent treatment judgement open.
 
 #### C.19:4.3a - Worked closure slice
 
@@ -279,8 +279,7 @@ whyNotLocalChoice = the next use needs declaration of the retained set, not a ch
 
 #### C.19:4.3b - Cultural and style live pools
 
-Use the same minimal pool-policy record
- for cultural or style live pools when the current question is how several style, tradition, method-family, work-family, canon, scene, or technique variants remain live under one lens.
+For a cultural or style live pool, state how the variants remain live under one policy. The pool might contain style, tradition, Method-family, Work-family, canon, scene or technique variants; use the actual local kind. The same minimal record can preserve that account.
 
 ```text
 PoolPolicyResult:
@@ -292,11 +291,11 @@ PoolPolicyResult:
   nextQuestionPatternLocator?:
 ```
 
-The record states pool treatment only. If a label is unstable across communities, first recover its exact source-local meanings through `F.17` and use `F.18` for naming. Include `termBridgeRefs` only for an actual F.9 relation between exact sense cells. That reference identifies the sense relation; it does not by itself support this pool treatment. Any claim that relies on the Bridge for the treatment stays separate from `PoolPolicyResult`: state the named use, direction, correspondence rule, and tolerated loss in a C.2.1 claim, and establish the current A.10 or B.3 reliance required by F.18. If the question becomes the cultural-evolution case, finish the pool-policy result and set `nextQuestionPatternLocator = C.36`. For result declaration, audience availability, or currentness, use the exact exit in `C.19:4.4` rather than extending the pool-policy record.
+When source labels need disambiguation, use F.17 to identify their local senses. Use F.18 when a durable new name is needed. Source-local labels can retain their cited meanings. Include `termBridgeRefs` only for an independently established F.9 relation between identified sense cells. That reference identifies the relation; a pool-treatment claim relying on it must also establish the named use, direction, correspondence rule and tolerated loss, with A.10/B.3 reliance when required. An existing adequate claim episteme can carry this account. If the question becomes the cultural-evolution case, use C.36. Result declaration, publication availability and currentness use §4.4.
 
 #### C.19:4.4 - Exit from pool treatment
 
-When fresh candidates, a changed emitter mix or temperature, archive insertion, or front recomputation are current, use `C.18` with the desired policy values and exact reason as the pool-policy pass requires. When one evaluation suffices to answer whether one bearer or version should improve, use the applicable object evaluation, with `E.22` when its framing is needed. When the object version will be improved through repeated passes under a declared evaluation, use `E.23`. For either exit, pass the exact bearer or version, objective or criterion, evidence, and pool-policy reason that made improvement current. A C.19 treatment is neither a generation operation nor an improvement result.
+When fresh candidates, a changed emitter mix or temperature, archive insertion or front recomputation are needed, use C.18 with the desired policy values and the pool-policy reason. C.18 keeps the generation, archive and front claims distinct. If obtaining the variants requires construction or change of usable material, use the actual generation Method, with C.40 when that development is the missing contribution; a generation record does not perform it. When one evaluation suffices to answer whether one bearer or version should improve, use the applicable object evaluation, with `E.22` when its framing is needed. When the object version will be improved through repeated passes under a declared evaluation, use `E.23`. For either exit, pass the exact bearer or version, objective or criterion, evidence, and pool-policy reason that made improvement current. A C.19 treatment is neither a generation operation nor an improvement result.
 
 An internal subset retained by `narrow_to_subset` is still the live pool named by one C.19 policy record. It is not a public `Shortlist`, `RankedShortlist`, or `ShortlistId`-bearing selector artefact, and no public selector artefact is emitted by this pool-policy use. `Front` and `Archive` retain their C.18 meanings; a scalarized pick does not rename either one.
 

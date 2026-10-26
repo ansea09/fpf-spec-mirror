@@ -6,12 +6,12 @@ section_id: "C.28:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Identification, and Realizability"
   - "C.28:0 — Use This When"
-line_start: 67769
-line_end: 67852
+line_start: 66738
+line_end: 66821
 dependencies:
   - "A.10"
   - "A.15"
@@ -94,7 +94,7 @@ When the causal question requires relations that have not yet been constructed, 
 
 **Ordinary first result.** Suppose the available comparison says that self-selected teams using method A completed more tasks than teams not using it, while task difficulty and prior team capability were not controlled. Report the observed association; the claim that A caused the improvement remains unsupported by that comparison. The next useful question is whether a design or existing evidence can distinguish the method's effect from those rival explanations.
 
-This sentence-level result can finish the task. When the triage must be reused, its local form is:
+This sentence-level result can finish the task and remain reusable. When a receiving use needs its distinctions separately addressable, the following local form can retain them:
 
 ```text
 CausalUseTriageRecord:

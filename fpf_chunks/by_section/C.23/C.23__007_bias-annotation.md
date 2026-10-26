@@ -6,12 +6,12 @@ section_id: "C.23:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:6 — Bias‑Annotation"
-line_start: 64515
-line_end: 64518
+line_start: 63475
+line_end: 63478
 dependencies:
   - "A.10"
   - "B.3"
@@ -40,5 +40,5 @@ keywords:
 
 ### C.23:6 - Bias‑Annotation
 
-**Principle‑taxonomy lenses.** *Universality* (trans‑discipline), *Didactic primacy* (Tell–Show–Show), *Open‑ended evolution* (refresh‑ready), *Lexical firewall* (no tool names in Core), *Notation independence*. Limits: Worked examples reference widely‑used ecosystems **in Plain register** only.
+Maturity is evidence-relative: a rung established for one family, scope and use does not establish suitability for another. A declared bounded exploration branch can remain useful below an exploitation floor, while keeping its own prerequisites and limits.
 

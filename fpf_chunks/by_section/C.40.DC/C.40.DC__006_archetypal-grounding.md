@@ -6,12 +6,12 @@ section_id: "C.40.DC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:5 — Archetypal Grounding"
-line_start: 86856
-line_end: 86913
+line_start: 85674
+line_end: 85731
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -27,7 +27,7 @@ keywords:
 
 #### C.40.DC:5.1 - A complete pattern contribution for a person's later Work
 
-This constructed case concerns Mira's four-month exploration of useful engineering-review Work. Its source packet stipulates permitted example packages and a maximum of two inquiry hours per week. The stipulated review record identifies recurring delays from missing outside-practice premises. Her current ability to recognize those missing premises in representative Work is unknown. Independent acceptance, confidentiality, and sustainable workload remain protected.
+This constructed case concerns Mira's four-month exploration of useful engineering-review Work. The case assumes permitted example packages and a maximum of two inquiry hours per week. The stipulated review record identifies recurring delays from missing outside-practice premises. Her current ability to recognize those missing premises in representative Work is unknown. Independent acceptance, confidentiality, and sustainable workload remain protected.
 
 One lead is “learn A.15.9.” The direction instead cites the complete [A.15.9 body](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) and recovers its contribution:
 

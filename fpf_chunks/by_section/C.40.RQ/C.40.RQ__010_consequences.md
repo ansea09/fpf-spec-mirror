@@ -6,12 +6,12 @@ section_id: "C.40.RQ:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:9 — Consequences"
-line_start: 87617
-line_end: 87622
+line_start: 86435
+line_end: 86440
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -26,5 +26,5 @@ keywords:
 
 A change can now produce a small useful correction rather than a global restart or a cosmetic source update. Practitioners can retain independently supported routes, revise a conditional branch, and explain exactly which premise would restore a stronger claim.
 
-The cost is recovering the earlier use and enough current evidence to distinguish dependence from proximity. Some coverage remains unresolved, and an urgent operational or professional duty can continue while the opportunity update is incomplete. Local closure is honest only within the inspected conditions.
+The cost is recovering the earlier use and enough current evidence to distinguish dependence from proximity. Some coverage may remain unresolved, and an urgent operational or professional duty can continue while the opportunity update is incomplete. Local closure is honest only within the inspected conditions.
 

@@ -6,12 +6,12 @@ section_id: "C.25:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 65061
-line_end: 65069
+line_start: 64019
+line_end: 64027
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,5 +53,5 @@ keywords:
 | **One-number `-ility`** | `Resilience = 82` with no declaration of what is being measured and what scope/scenario is intended. | `CC-C.25-2` requires a Q-Bundle when the family is composite. |
 | **Scope as metric** | The claim treats wider applicability as a higher quality value rather than as a larger USM set. | `CC-C.25-3` keeps scope set-valued and non-CHR. |
 | **Mechanism equals quality** | Presence of a mechanism or certificate is reported as if it were the measurement itself. | `CC-C.25-4` keeps mechanism/status slots distinct from measures. |
-| **Collapsed guard prose** | One sentence mixes coverage, thresholds, windows, and mechanisms without typed separation. | `C.25` rewrites the claim into explicit slots and typed guard factors. |
+| **Ambiguous guard** | The reader cannot tell which coverage, thresholds, windows or mechanisms make the claim true. | Make those conditions and their kinds recoverable, in ordinary prose or explicit slots. |
 

@@ -6,12 +6,12 @@ section_id: "A.2.9:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__010_conformance-checklist-normative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:7 — Conformance Checklist (normative)"
-line_start: 9000
-line_end: 9014
+line_start: 8940
+line_end: 8954
 dependencies:
   - "A.10"
   - "A.13"
@@ -20,11 +20,11 @@ dependencies:
   - "A.2.1"
   - "A.2.6"
   - "A.2.8"
+  - "A.2.9"
   - "A.6.C"
   - "A.7"
   - "F.6"
   - "U.Method"
-  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "A.13-qualified actual performer"

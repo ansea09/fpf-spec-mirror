@@ -6,12 +6,12 @@ section_id: "A.15.1:5"
 section_title: "Work mereology (how occurrences form holarchies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__006_work-mereology-how-occurrences-form-holarchies.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:5 — Work mereology (how occurrences form holarchies)"
-line_start: 29514
-line_end: 29597
+line_start: 29081
+line_end: 29164
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,12 +64,12 @@ Work identity is occurrence-grounded and 4D. Start from the actual performance h
 * **Temporal-part (`TemporalPartOf_work`).** Both participants are independently admitted Work individuals. The first is a proper temporal sub-occurrence of the second under the §4.1a predicate, with its own exact extent and performed content. Use it when a later resource, evidence, KPI, acceptance, repair, or aggregation claim needs that Work part as an individual. A bare interval, telemetry window, or evidence slice stays a C.27.TA temporal aspect or its direct domain object; it is not the first participant of `TemporalPartOf_work`.
 * **Episode-part (`EpisodeOf_work`).** Both participants are independently admitted Work individuals. The first is an event-bounded performed sub-occurrence of the second under the §4.1a predicate. Entry, resumption, mode switch, switch-to-method, interruption, switch-away, completion, or a declared pause may supply candidate boundary events. Cite an exact `workContinuityPolicyRef` only when direct facts permit more than one grouping for the named use; timestamps, a policy, or an episode-looking label alone establish no episode relation.
 
-`workContinuityPolicyRef` designates the exact C.2.1 episteme whose claims state the named use, boundary events, tolerated variation, and branch criterion. Interpret those claims under that episteme's effective `U.ReferenceScheme`. Add a `U.ClaimScope`, temporal qualification window, or model-use structure only when changing it changes the segmentation assertion; otherwise omit it. The policy episteme supports classification of the already existing history for that use. A later or competing policy episteme can support another identity or segmentation assertion. Call it an **edition** only when an exact C.2.1 `EpistemeEditionRelation` obtains between the exact earlier and later epistemes; without that relation it is a non-continuing replacement. Either way, the policy neither becomes a `U.MethodDescription` by policy form nor changes the occurrence, its parts, or their actual facts.
+`workContinuityPolicyRef` designates the C.2.1 episteme stating the named use, boundary events, tolerated variation and branch criterion. Interpret it under its effective `U.ReferenceScheme`. Add claim scope, qualification window or model-use structure only when it changes the segmentation assertion. The policy supports classification of the existing history for that use; another policy can support a competing assertion. Apply §4.1's edition rule: unestablished continuity remains unresolved, rather than becoming a negative continuity claim. A policy is a `U.MethodDescription` only after A.3.2 admission, and its selection does not change the occurrence or its actual parts.
 
 * **Operational-part (`OperationalPartOf_work`).** A **work-part occurrence** that may enact a factor of a recovered `U.Method`, for example, an incision occurrence within an appendectomy occurrence, possibly **overlapping** with others in time. If a method-description reference is used, it identifies, describes, constrains, or evidences that method factor; the referenced `U.MethodDescription` is not enacted. If no `U.Method` factor is recovered, keep the material as the work part, evidence segment, telemetry segment, mechanism material, system-component behavior, or missing-source-relation note that was actually identified; do not infer a method factor from its label.
 * **Concurrent work parts (derived use-side reading; no fourth parthood relation).** First state each exact work-part relation to the same parent. Then use C.27.TA to state the exact temporal-overlap predicate, reference, intervals, and use. If a claim also says that the parts were coordinated, name its declared coordination predicate and actual participants. Shared parentage and overlap do not by themselves establish coordination, and `ConcurrentPartOf_work` is not introduced as a primitive work-part relation.
 
-**Naming threshold.** Do not mint a durable public U-kind or durable named work object, or infer a separate work occurrence for every interval, telemetry segment, pause, or episode-looking wording. Use a derivative part relation for an independently admitted Work part; give that part a durable name only when downstream use needs its own resources, evidence, KPI, acceptance, repair, aggregation, cross-context reliance, or source-relation return use. In other cases keep the temporal relation, evidence slice, telemetry segment, method-description constituent, missing-source-relation note, or other concrete neighboring object that the task actually needs.
+**Naming threshold.** First identify the actual Work part under its occurrence and relation rules. Give it a stable name when a current or later use needs a distinct reference—for example for resources, evidence, KPI, acceptance, repair or aggregation. Otherwise retain the interval, evidence slice, telemetry or other object actually needed. A name creates no occurrence; a proposed new U-kind has its separate admission test.
 
 **Didactic rule:** **Method composition is not proof of Work decomposition, and Work decomposition is not proof of method composition.** A temporal work part may enact the same whole method during a slice. An episode may continue one method or mode, span several operational parts, or repeat the same method fragment; an evidence policy may support a finer segmentation claim without changing method identity. An operational part may correspond to a method factor only when that factor is recovered as `U.Method`.
 
@@ -98,7 +98,7 @@ Work identity is occurrence-grounded and 4D. Start from the actual performance h
 
 #### A.15.1:5.3a - Before A Timetable Becomes Architecture Evidence
 
-A timetable, workflow row, or architecture table can help locate candidate Work. It does not establish a Work occurrence, whole, part, overlap, or order. Before relying on such rows in an architecture decision:
+A timetable, workflow row or architecture table can help locate candidate Work and may contain evidence. Its presence or layout alone establishes no Work occurrence, part, overlap or order. Before relying on its content in an architecture decision:
 
 1. identify each Work occurrence from every actual performer's A.13 basis, independently grounded performance history, enacted Method, actual interval, and an obtaining relation to a containing System; when precise assignment-bound attribution is current, apply F.6 separately after admission;
 2. if several rows are claimed as parts of one Work whole, identify that whole and every part independently, then state the exact Work-part relation that holds;
@@ -118,7 +118,7 @@ Two descriptions, assertions, records, or traces resolve to the same Work occurr
 
 A corrected or later description of the same actual start, open end, or completed end can refine the assertion without changing the occurrence. A change of performer, assignment, enacted Method, referent, binding, resource use, or obtaining containing-system relation during an otherwise unended performance history is an actual change to state explicitly; that change alone neither splits nor preserves the Work occurrence.
 
-When a named receiving use must decide whether an interruption, resumption, method or mode switch, performer replacement, retune, rework, referent or binding change, or composite boundary stays inside one parent, cite the exact continuity-policy episteme, its effective reference scheme, applicable scope and window, and the branch criterion it applies to those facts. The selected policy can support one identity or segmentation assertion for that use. A later or competing policy episteme may support another assertion; call it a later edition only when the exact C.2.1 `EpistemeEditionRelation` obtains, and otherwise treat it as a non-continuing replacement. Neither branch retroactively changes what occurred.
+When a named receiving use must decide whether an interruption, resumption, method or mode switch, performer replacement, retune, rework, referent or binding change, or composite boundary stays inside one parent, cite the exact continuity-policy episteme, its effective reference scheme, applicable scope and window, and the branch criterion it applies to those facts. The selected policy can support one identity or segmentation assertion for that use. A later or competing policy episteme may support another assertion; call it a later edition only when the C.2.1 `EpistemeEditionRelation` is established. Otherwise retain the separately identified policy and any supported replacement-use claim without inferring non-continuity. Neither branch retroactively changes what occurred.
 
 #### A.15.1:5.5 - Interruptions, retries, resumptions, and description changes
 

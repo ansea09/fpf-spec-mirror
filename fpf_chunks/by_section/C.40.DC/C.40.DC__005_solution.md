@@ -6,12 +6,12 @@ section_id: "C.40.DC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:4 — Solution"
-line_start: 86780
-line_end: 86855
+line_start: 85598
+line_end: 85673
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -31,7 +31,7 @@ Construct whole-enough prospective directions around the receiving contribution.
 
 Name the subject of the proposed change and configuration, receiving Work or use, proposed result, acceptance expectation, horizon, scenarios, and protected conditions. Use the current problem/contribution account from `C.40.PC` or an adequate direct source. Preserve an unconfirmed problem as a hypothesis rather than strengthening it through detailed design.
 
-Recover the actual starting configuration `S0`: relevant capability, access, support, Work, interfaces, resources, and current readings. Mark unknowns. A job title, organization chart, tool inventory, or source publication is not that baseline.
+Recover the actual starting configuration `S0`: relevant capability, access, support, Work, interfaces, resources, and current readings. Mark unknowns. A job title, organization chart, tool inventory or source publication may supply relevant information, but its presence alone does not establish the needed baseline.
 
 Use `C.40.OC` for the characteristic meanings, scales, current/intended/protected/unknown readings, and evidence window needed by the inquiry. Characterize only what could change the direction or its qualification; do not commission a complete diagnosis by default.
 
@@ -41,7 +41,7 @@ For every serious proposal, explain what the subject or supported arrangement co
 
 When a pattern is the proposed address, cite its complete current body and recover the action-bearing contribution from it. Do not substitute its title, PatternID, a summary card, or a list of topics for that contribution. Keep the body's relevant applicability, assurance, and stopping conditions; the direction need not copy the entire source.
 
-If the receiving claim depends on a Method or MethodDescription, preserve its established relation under [A.3.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) and [A.3.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). A pattern is a MethodDescription only when it describes an already admitted Method as its EntityOfConcern. Otherwise use its content as pattern guidance and leave that stronger relation unasserted. In neither case does reading or publishing the description establish the subject's capability.
+If the receiving claim depends on a Method or MethodDescription, preserve its established relation under [A.3.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) and [A.3.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). A pattern is a MethodDescription only after A.3.2 establishes an already admitted Method as its exact EntityOfConcern and at least one substantive claim about that Method as a way of doing. Otherwise use its content as pattern guidance and leave that stronger relation unasserted. In neither case does reading or publishing the description establish the subject's capability.
 
 For a person, connect the contribution to representative later Work. “Use A.15.9 to formulate and rely on a bounded outside-practice result in evidence review” can specify a contribution; “finish A.15.9” cannot specify capability or transfer. A capability or transfer claim needs qualified evidence about this person, the later Work and permitted support; obtain that result from the relevant capability and subject practice before relying on it.
 
@@ -56,7 +56,7 @@ Distinguish two questions:
 
 For a separately selected decision-design inquiry, an applicable alternative-generation Method can develop an explicit set of decision alternatives from the directions returned here. That Method can retain alternatives for different live formulations; same-result parity is not its universal entry condition.
 
-Retain the actual baseline, a smaller repair, a staged direction, or no new development when each genuinely answers the inquiry. No change still carries continuing Work, resource use, and exposure. A missing alternative is an honest return; do not invent a weak candidate to make a preferred one win.
+Retain the actual baseline, a smaller repair, a staged direction, or no new development when each answers the inquiry. No change still carries continuing Work, resource use, and exposure. A missing alternative is an honest return; do not invent a weak candidate to make a preferred one win.
 
 #### C.40.DC:4.4 - Specify the finite change and support configuration
 

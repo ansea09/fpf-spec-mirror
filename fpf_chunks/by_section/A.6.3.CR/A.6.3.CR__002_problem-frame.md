@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:1 — Problem frame"
-line_start: 18305
-line_end: 18322
+line_start: 17984
+line_end: 18001
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -34,19 +34,19 @@ keywords:
 
 ### A.6.3.CR:1 - Problem frame
 
-Use this pattern when one already available source line about the same EntityOfConcern needs a second textual form: a report rewrite, summary, translation, or declared filtered restatement. The real job is still same-entity textual re-expression, not explanation, representation change, bridge work, retargeting, evidence, gate authority, or work authorization.
+Use this pattern when available source claims about the same EntityOfConcern need another textual form, such as a report, summary, translation or filtered restatement. The receiving claims must remain supported by the identified sources under A.6.3.
 
 **Primary governed case.** One textual re-expression of already available source claims whose resolved EntityOfConcern remains the same. The source and receiving epistemes concern that entity; the textual rendering expresses the receiving claims.
 
-**First useful move.** Separate the source slice, the published slice, the omission or source-loss note, and the admissible use. If preservation is doubtful, name the missing basis or defect; repair it within CR when possible, or name the pattern for the actual changed claim or use.
+**First useful move.** Identify the source claims and resulting text, compare their meaning, and state any omission or loss that affects the intended use. If preservation is doubtful, name the missing basis or defect; repair it within CR when possible, or use the pattern for the changed claim.
 
 **What goes wrong if missed.** A summary, translation, or manager-readable rewrite is treated as harmless editing after it has started hiding explanation work, bridge work, changed authority relation, or a narrower admissible use.
 
 **What this buys.** One honest same-entity textual rewrite with visible source-relation tether, visible omission or loss notes, and a clear repair or next-pattern route when conservativity fails.
 
-**Ordinary use.** If the rewrite is admissible only for orientation, source-finding, review, comparison, or planning preparation, one source-slice to published-slice sentence or mini-card with the admissible use and visible omission or source-loss note is enough.
+**Ordinary use.** A short source-to-result statement can suffice when the source relation, material omissions and intended use remain recoverable.
 
-**Reliance-facing use.** Open the fuller rewrite-admissibility record only when the rewritten text will be externally relied on, disputed, cited as a source-relation reason, used across context, or read as release, gate, work-preparation, engineering-justification, approval, or evidence justification.
+**Fuller review.** Add the information needed when a dispute, risk or intended reliance cannot be settled from that short statement. External citation, cross-context use or a release decision may make preservation, correspondence or use conditions material; they do not by themselves require every field in §4.3.
 
-**Not this pattern when.** Not this pattern when the case is primarily explanatory rendering (`ExplanationFaithfulnessProfile`), representation-scheme change (`RepresentationSchemeTransition`), changed EntityOfConcern (`A.6.4`), comparative review (`E.17.ID.CR`), an F.9 Bridge or bounded-use claim, an optional F.9.1 stance note about such a claim, or a deliberately coarsened rendering whose narrower admissible use, non-admissible downstream use, and source-bearing return have become primary. In that last case, use `A.6.3.CSC Controlled Semantic Coarsening`.
+**Use a neighboring pattern when** explanation is primary (`ExplanationFaithfulnessProfile`), the representation scheme materially changes (`RepresentationSchemeTransition`), the EntityOfConcern changes (`A.6.4`), or the work makes a comparative-review claim (`E.17.ID.CR`). F.9 governs an asserted semantic Bridge or its bounded use; F.9.1 supplies an optional stance note. A coarsened rendering whose loss requires a narrower use and return to the source is governed by `A.6.3.CSC Controlled Semantic Coarsening`.
 

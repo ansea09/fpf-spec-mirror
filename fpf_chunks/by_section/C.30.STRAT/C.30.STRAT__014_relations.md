@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__014_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.STRAT — Clarify Stratification and Architecture Source Labels"
   - "C.30.STRAT:12 — Relations"
-line_start: 73284
-line_end: 73295
+line_start: 72234
+line_end: 72245
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,7 +64,7 @@ keywords:
 
 ### C.30.STRAT:12 - Relations
 
-- E.10 catches the wording trigger; E.10.ARCH supplies the author-facing recovery architecture and anti-fanout rule.
+- E.10 supplies wording cues; E.10.ARCH helps recover a still-unresolved FPF meaning or relation.
 - C.30.P is the broader architecture and structure wording repair; C.30.STRAT is the narrow recurring source-label case.
 - Use A.22, C.30, C.30.ASV, C.30.LCA, C.30.TFS-REL, or C.30.ILC only for the selected structure, architecture relation, view, control, flow, or conflict question each pattern defines or tests.
 - Use A.6.M for recovered module and interface relations; A.6.F for recovered function claims; E.18 for graph, path, crossing, and transformation-flow claims; C.16.P, C.16, C.29, C.31, or C.31.RSA for recovered characteristic, scale, mathematical-lens, reusable-locus, bespoke-residue, or report-only-share claims.
@@ -72,5 +72,5 @@ keywords:
 - C.33, C.34, and C.35 handle captured, lost, preserved, generated-carrier, or discovered-carrier structure when those claims are current.
 - A recovered level claim returns to the pattern that defines or tests its subject relation or mapping. C.30.STRAT establishes no level by itself.
 
-Stop after repairing the source label and naming the next useful action. Use the defining or testing pattern for each recovered object or claim, and keep its rules there.
+Stop when the repaired source label supplies the needed meaning and conclusion. Use the defining or testing pattern for each recovered object or claim, and keep its rules there.
 

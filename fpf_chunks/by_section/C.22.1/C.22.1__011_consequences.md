@@ -6,12 +6,12 @@ section_id: "C.22.1:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:10 — Consequences"
-line_start: 63270
-line_end: 63275
+line_start: 62250
+line_end: 62255
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -20,8 +20,6 @@ dependencies:
   - "C.24"
   - "E.10"
   - "E.16"
-  - "E.19"
-  - "E.22"
   - "E.23"
   - "G.11"
   - "G.5"
@@ -41,7 +39,7 @@ keywords:
 
 ### C.22.1:10 - Consequences
 
-- Threshold speed, budget burn, prior exposure, and post-threshold efficiency become part of the same reviewable object instead of one after-the-fact prose explanation.
+- Acquisition time and cost can be compared with prior exposure and any claimed post-threshold efficiency on one recoverable basis.
 - Selector and parity pattern applications can consume a stable upstream specialization object without minting shadow vocabularies.
-- Corridor-entry and downside fields stay visible in the same claim that celebrates the specialization gain, reducing romanticized novelty talk.
+- Claimed corridor entry and known downside remain visible alongside the specialization gain.
 

@@ -6,12 +6,12 @@ section_id: "C.30.AD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:intro — Intro"
-line_start: 72063
-line_end: 72077
+line_start: 71035
+line_end: 71049
 dependencies:
   - "A.1"
   - "A.10"
@@ -83,7 +83,7 @@ keywords:
 **Plain-name.** Architecture-description adequacy.
 
 **Intent.**
-Keep an architecture description useful without letting the description, view, diagram, publication, or tool publication face become the architecture itself.
+Make architecture descriptions useful for the intended work while keeping their claims and representations distinct from the architecture they describe.
 
 **Builds on.** `C.30`, `C.30.ASV`, `A.1`, `A.22`, `E.24.PUB`, `A.7`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, `C.2.P`, `E.10`, `E.10.ARCH`, and `E.10.D2`.
 

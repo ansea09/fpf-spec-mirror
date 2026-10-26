@@ -6,12 +6,12 @@ section_id: "A.7.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:9 — Consequences"
-line_start: 26456
-line_end: 26459
+line_start: 26004
+line_end: 26007
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -34,5 +34,5 @@ keywords:
 
 ### A.7.2:9 - Consequences
 
-FPF gains a way to repair foundation conflicts without a total source hierarchy or an omnibus ontology pattern. The method can prove compatible co-use, preserve scoped pluralism, block composition, or return unresolved with an accountable reopen. The cost is exact source/receiving/work and currentness recovery; that cost is paid only for material conflicts.
+The Method can establish compatible co-use, retain scoped alternatives, block composition for a named use, or return an unresolved decision with its reopen condition. Its cost is recovering the source, receiving claim and actual application facts, including currentness where it affects the comparison. That work is justified by a material conflict and stops at the sufficient scoped result.
 

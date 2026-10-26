@@ -6,12 +6,12 @@ section_id: "C.3.2:14"
 section_title: "Common Anti-Patterns and Remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__016_common-anti-patterns-and-remedies.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:14 — Common Anti-Patterns and Remedies"
-line_start: 55454
-line_end: 55467
+line_start: 54591
+line_end: 54604
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -36,7 +36,7 @@ keywords:
 | Returning `false` for missing support | Preserve `unknown`; let the receiving guard decide whether to decline use. |
 | Treating any evidence item or record as membership | Ask whether the criterion directly concerns that governed episteme, relation, status, or publication occurrence. If not, keep it only as support. |
 | Reusing a world-side belongs-to predicate or minting a relation by notation | Keep the result as a classification judgment unless a direct relation pattern is justified. |
-| Treating an extension or braces as ontology | Keep the candidate domain and extension as representations; use C.29 when claim-bearing. |
+| Treating an extension or braces as ontology | Keep the candidate domain and extension as representations. Resolve a separate mathematical representation or transfer issue through C.29; an adequate local calculation needs no additional lens account. |
 | Attaching scope or formality to the kind | Keep them on their declaration or assertion epistemes. |
 | Editing an extension to hide a subkind counterexample | Repair the relation proposal, declaration alignment, or distinct-kind bridge. |
 | Classifying a record as actual Work | Recover an independently grounded `W : U.Work`; keep its record separate. |

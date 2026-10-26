@@ -6,12 +6,12 @@ section_id: "A.6.F:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:6 — Bias-Annotation"
-line_start: 23006
-line_end: 23019
+line_start: 22593
+line_end: 22606
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,15 +69,15 @@ keywords:
 
 ### A.6.F:6 - Bias-Annotation
 
-Lenses tested: **Arch**, **Ontology and episteme**, **Prag**, **Did**, **Gov**. Scope: function-like wording that carries an FPF claim being made across FPF.
+Scope: unresolved function-like wording that changes an FPF claim or its use.
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Function-root bias | The pattern explicitly does not mint `U.Function`; it requires the subject pattern for the exact object or claim. |
+| Function-root bias | Recover the object or claim and its applicable rule; A.6.F supplies no universal `U.Function` kind. |
 | Functional-architecture exception bias | Functional architecture is normalized as `FunctionalStructure`, not a peer ontology. |
 | Module bias | Function-to-module allocation uses correspondence or `A.6.M` module-relation repair; function and module remain distinct. |
-| Mathematical bias | Mathematical function wording is assigned to C.29 when used as a lens. |
+| Mathematical bias | Keep adequate mathematical wording; open C.29 only for a remaining mathematical representation, transfer or inference question. |
 | Check-only bias | Every conformance item carries a repair action or subject-pattern application. |
 
-This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the card, note, view, relation, or repair guidance above.
+Use the checklist to verify a repair when needed; it adds no required project form.
 

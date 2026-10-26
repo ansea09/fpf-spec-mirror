@@ -6,12 +6,12 @@ section_id: "C.2.LS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:4 — Solution"
-line_start: 53350
-line_end: 53403
+line_start: 52506
+line_end: 52559
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -41,7 +41,7 @@ keywords:
 ---
 
 ### C.2.LS:4 - Solution
-`U.LanguageStateFacetProfile` is a typed profile bundle that names the facets by which position claims in the declared language-state chart over `U.CharacteristicSpace` are published and interpreted:
+`U.LanguageStateFacetProfile` is a typed profile bundle that names the facets needed to publish and interpret a position claim in the declared language-state chart over `U.CharacteristicSpace`. Select the applicable references from:
 
 - `formalityRef` -> the expression-property assessment governed by `C.2.3`, including its selected basis and any justified local ordered summary
 - `articulationExplicitnessRef` -> `U.ArticulationExplicitness` from `C.2.4`
@@ -55,7 +55,7 @@ keywords:
 
 #### C.2.LS:4.0a - Kind and profile-bundle boundary
 
-`U.LanguageStateFacetProfile` is a dependent durable profile-bundle value under the declared `U.LanguageStateSpace` and `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the explicit bundle of language-state facet refs used for position reading and threshold publication. A local dashboard, table, route note, or maturity label is a publication or interpretation over the bundle, not the bundle itself.
+`U.LanguageStateFacetProfile` is a dependent durable profile-bundle value under the declared `U.LanguageStateSpace` and `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the explicit bundle of language-state facet refs used for position reading and threshold publication. A dashboard or table can publish the bundle; its display or label does not determine the facet readings or their admissible use.
 
 #### C.2.LS:4.1 - Contribution boundary
 `C.2.LS` defines only profile composition and requires the language-state facets to remain explicit and non-collapsed. It does **not**:
@@ -72,10 +72,10 @@ Any threshold used to choose a next question, constrain an admissible move, or b
 #### C.2.LS:4.2.a - Local profile-reading witness
 For this pattern, a published facet profile is reviewable when:
 
-- the facet refs are explicit or explicitly inherited from an already pinned upstream publication;
+- the selected facet refs and readings are explicit or recoverable from a cited applicable upstream publication;
 - any threshold-bearing use names the facet whose threshold is being invoked;
 - route notes or local overlays remain informative and visibly docked to the explicit facet bundle;
-- and the profile does not smuggle move rules, bridge rules, gate state, or downstream definitions and tests into the bundle record.
+- and any claimed move, Bridge, gate state or downstream result retains its own governing definition and test.
 
 A polished label, one strong facet, or one memorable route note does not by itself yield an admissible profile reading. The profile remains conformant only when the named facets stay explicit and decomposable.
 
@@ -87,7 +87,7 @@ A language-state judgement may be composite, but the composite shall be decompos
 - `AM.TraceAnchored`,
 - and representation-wise mixed rather than purely symbolic.
 
-A conforming profile makes this decomposition visible rather than hiding it under one poetic label such as "early" or "raw".
+A conforming profile makes this decomposition visible rather than hiding it under one stage label such as "early" or "raw".
 
 #### C.2.LS:4.4 - Corridor map note
 `C.2.LS` participates in the current `Language-State & Semantic Routing Corridor`, but contributes only the thin facet-profile bundle. Readers who need one map of the full language-state pattern set should read the corridor note in `C.2.2a`.

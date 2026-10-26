@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:6 — Bias-Annotation"
-line_start: 11332
-line_end: 11344
+line_start: 11234
+line_end: 11246
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -23,7 +23,7 @@ keywords:
 
 ### A.3.1.MI:6 - Bias-Annotation
 
-| Recurring bias | Likely drift | Repair |
+| Bias | Likely drift | Repair |
 | --- | --- | --- |
 | rollout-compression bias | Target subjects, introduction strategy, descriptions, plans, relations, Work, and observations become one “introduction”. | Keep the typed target account, strategy and its status, description, any separate WorkPlan, performed Work, named direct relations, and observations distinct. |
 | success-presupposition bias | Completed introduction Work is said to make the Method available and usable. | State the intended conditions; later observations may return success, failure, uncertainty, or missing evidence. |

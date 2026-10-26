@@ -6,12 +6,12 @@ section_id: "D.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
   - "D.3:intro — Intro"
-line_start: 91102
-line_end: 91115
+line_start: 89922
+line_end: 89935
 dependencies:
   - "A.1"
   - "A.10"

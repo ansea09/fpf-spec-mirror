@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:5"
 section_title: "Archetypal Grounding (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__007_archetypal-grounding-informative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:5 — Archetypal Grounding (informative)"
-line_start: 38467
-line_end: 38504
+line_start: 37712
+line_end: 37749
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -26,12 +26,12 @@ keywords:
 
 #### A.19.UINDM:5.1 - Tell
 
-Think of UINDM as a **policy‑bound projection**:
+Use UINDM to select the basis positions for a policy-bound projection:
 
 * Input: “the declared characteristic basis for this exact bearer, claim scope and selected slices, qualification window, evidence basis, and intended use, plus an explicit indicator choice policy”
 * Output: “the selected positions of this exact basis, each retaining its Characteristic, Scale and meaning for downstream use”
 
-The key didactic boundary is: **UINDM chooses coordinates; it does not alter coordinates.**
+UINDM selects basis positions. A projection to those positions retains their coordinate values and Scale meanings.
 
 #### A.19.UINDM:5.2 - Show (U.System) — cross‑unit engineering dashboard
 
@@ -40,7 +40,7 @@ A program manager maintains a `U.CharacteristicSpace` for manufacturing sites, i
 * The CN‑Spec’s `indicator_policy` for the “weekly executive dashboard” selects a subset:
   `{DefectRate, IncidentRate, UnitCost, LeadTime, EnergyPerUnit, OnTimeDelivery}`.
 * In this example each named Characteristic has one basis position. UINDM resolves the six names to those exact positions and returns S; each position retains its original Scale.
-* One site lacks reliable incident reporting for the last week. The indicator policy is evidence‑gated; `IndicatorizeEligibility` returns `degrade` (not `pass`), and the audit records the effective MinimalEvidence and the edition pins used.
+* One site lacks reliable incident reporting for the last week. This example's evidence-gated policy permits retaining the fixed six-position set under `degrade`, with that gap explicit. IndicatorizeEligibility therefore returns `degrade`, and the audit retains the effective MinimalEvidence and edition pins. The selected IncidentRate position supplies no missing value; a downstream comparison depending on that value follows its own insufficient-evidence rule.
 
 Downstream mechanisms can now be held to the invariant: **they may only score/compare/select using the declared indicator profile (or explicitly abstain/degrade).** This avoids “dashboard drift” where different teams silently score on different subsets.
 
@@ -49,8 +49,8 @@ Downstream mechanisms can now be held to the invariant: **they may only score/co
 A research lead wants indicators for model robustness under distribution shift (different hospitals, sensors, geographies).
 
 * The declared characteristic-space basis includes many candidate metrics (accuracy slices, calibration, subgroup error, OOD detection quality).
-* The indicator choice policy is “invariance‑driven”: prefer indicators whose semantics remain stable under environment changes; deprioritize proxy metrics known to be environment‑sensitive.
-* UINDM returns an indicator set used by the scoring and comparison stages; uncertain indicators are handled via tri‑state guarding rather than coerced to zero or silently dropped.
+* The indicator choice policy is “invariance-driven”: prefer indicators whose meanings remain applicable across the selected environments; deprioritize proxies with an established environment-sensitive interpretation. For example, a constructed policy retains subgroup-error positions only when the subgroup definition, target label and error criterion match the intended comparison in each environment.
+* UINDM returns the positions resolved by that policy. An action-changing unresolved match yields no selection. Once the positions are resolved, insufficient evidence follows the declared degrade/abstain rule. Keeping the same error definition does not establish stable model performance under distribution shift; the later evaluation needs the actual values and evidence for that claim.
 
 #### A.19.UINDM:5.4 - One Characteristic at two Scale positions
 

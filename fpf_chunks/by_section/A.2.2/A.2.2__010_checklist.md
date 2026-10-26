@@ -6,12 +6,12 @@ section_id: "A.2.2:9"
 section_title: "Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__010_checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:9 — Checklist"
-line_start: 5344
-line_end: 5360
+line_start: 5339
+line_end: 5355
 dependencies:
   - "A.1"
   - "A.15"
@@ -45,6 +45,6 @@ keywords:
 | `CC-A2.2-08` | For Work admission, are the exact system-role assignment, capability claim, and capability-fit predicate all visible when all are current? |
 | `CC-A2.2-09` | For composite holders, is the capability stated at the whole whose ability is being claimed? |
 | `CC-A2.2-10` | Are lowering and reopen conditions local enough to change only the affected ability proposition, assertion, evidence relation, currentness assessment or fit predicate? |
-| `CC-A2.2-11` | When wording says that a holder possesses an algorithm, did the use dispatch separately to capability, exact Method, deployed-software or possession relation, or candidate episteme, and apply A.3.2's exact-Method `EntityOfConcern` plus substantive-claim threshold before admitting `U.MethodDescription`? Does only the admitted holder system perform dated Work under exact assignment while the Work separately enacts the Method? |
+| `CC-A2.2-11` | When wording says that a holder possesses an algorithm, did the use dispatch separately to capability, exact Method, deployed-software or possession relation, or candidate episteme, and apply A.3.2's exact-Method `EntityOfConcern` plus substantive-claim threshold before admitting `U.MethodDescription`? For a dated Work claim, are the actual performer and Work independently established through A.13 and A.15.1, with F.6 added only when precise assignment-bound attribution is needed and Method enactment kept separate? |
 | `CC-A2.2-12` | When a Method-relative profile is used, are the selected Method relations, holder, help, comparison conditions and supported claims explicit, with unresolved evidence and acquisition history kept distinct from current ability? |
 

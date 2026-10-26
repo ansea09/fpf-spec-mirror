@@ -6,12 +6,12 @@ section_id: "A.6.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:1 — Problem frame"
-line_start: 24325
-line_end: 24332
+line_start: 23901
+line_end: 23908
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -39,7 +39,7 @@ keywords:
 
 ### A.6.7:1 - Problem frame
 
-In FPF, a **mechanism** is a node-level `U.Mechanism` with explicit argument and result declarations for each operation and a declared LawSet/guards/transport/audit (A.6.1). Many architectures, however, require **a stable bundle of multiple different mechanisms** that are intended to be used together under shared admissibility and crossing discipline (e.g., a characterization chain, an admissibility-gated selection pipeline, or a universal Part-G kernel that multiple `G.*` patterns must reuse).
+An A.6.1 `U.Mechanism` declares its operations, arguments, results, laws, guards and any transport or audit conditions. Some architectures need several distinct declarations to be used together under shared conditions: for example, a characterization chain or an admissibility-gated selection protocol. The suite description states those joint conditions without redefining the member operations.
 
 FPF already has `MechFamilyDescription`, but its meaning is: **many realizations of one and the same `U.Mechanism`**. That construct cannot correctly represent a bundle of different mechanisms (different declarations), and trying to overload it creates a level error.
 

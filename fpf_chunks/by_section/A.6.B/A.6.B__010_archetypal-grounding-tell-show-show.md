@@ -6,12 +6,12 @@ section_id: "A.6.B:8"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__010_archetypal-grounding-tell-show-show.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:8 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 15114
-line_end: 15441
+line_start: 14817
+line_end: 15143
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -52,9 +52,8 @@ keywords:
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
   - "and MAY"
-  - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
-  - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
@@ -66,9 +65,7 @@ keywords:
   - "evaluation"
   - "individual institution"
   - "laws"
-  - "may"
   - "not a duty.)"
-  - "not normative"
   - "observable effects and evidence"
   - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
   - "or (iii) assign responsibility or enforcement (that is D-*)"
@@ -166,8 +163,8 @@ or plan without inventing an actual E result.
 |---|---|---|---|
 | **Grant or norm** | Does the sentence state a generic prescription, claim that one actual bearer has an individual duty, or tell a named beneficiary which action is permitted and under what conditions? | **D** | Use `A.2.8` for the generic-prescription or individual-duty route; only the individual route cites one separately obtaining commitment. For a grant use `A.2.8.PER`: name the exact grant occurrence, beneficiary, action, scope/window, and policy-valid A.2.9 act with its performer and assignment; confirm current policy conditions and absence of valid revocation or supersession; cite evidence needed before reliance. |
 | **Gate predicate or result** | Does the sentence state the mechanism condition for entry, or claim one actual `A.21` decision for a bounded action? | **A** for the entry predicate; **E** for the actual decision result | Keep the mechanism predicate as its own `A-*` claim. For an actual decision, use one separate `E-*` claim naming the exact `GateDecisionResult`, bounded action, applicable profile application, complete required `GateCheckApplicationResult` set, scope/window, `decisionValue`, action consequence, and recheck condition. A grant, finding, or conflict is only an input; neither the predicate nor the result creates or resolves it. |
-| **Actual exercise** | Did this dated Work match the named grant's action and beneficiary while that grant was in force? | **E** | Use `A.2.8.PER PermissionExerciseRelation@Context`: name the exact Work, grant occurrence, performer/assignment or on-behalf-of ground, scope, and interval. A failed match means that exercise relation does not obtain. |
-| **Weak evaluation or non-violation** | Did an evaluation of a current, sufficiently complete normative frame find no applicable prohibition before action, or no violation in the actual Work? | **E** | Use the exact `NonProhibitionFinding@Context` or `NonViolationFinding@Context`, its evaluation Work, frame, subject/action or Work, scope, and window. A stale or incomplete frame returns `unresolved`. |
+| **Actual exercise** | Did this dated Work match the named grant's action and beneficiary while that grant was in force? | **E** | Use `A.2.8.PER PermissionExerciseRelation@Context`: name the Work, grant occurrence, performer and the beneficiary-matching ground, scope and interval. Cite an assignment or on-behalf-of relation when that match depends on it. A failed match means that exercise relation does not obtain. |
+| **Weak evaluation or non-violation** | Did an evaluation of a current, sufficiently complete normative frame find no applicable prohibition before action, or no violation in the actual Work? | **E** | Use `NonProhibitionFinding@Context` or `NonViolationFinding@Context`, its frame, subject/action or actual Work, scope and window. Name a separate evaluation Work only when a dated evaluation occurrence is claimed or required by the receiving use. A stale or incomplete frame returns `unresolved`. |
 | **Conflict** | Do a current grant and norm cover the same case, and has a rule or authorized decision actually selected the outcome? | **E** | Use `A.2.8.PER PermissionNormConflictFinding@Context`. Cite the applicable selecting rule or the admitted system's authorized dated decision Work and current resolution result; otherwise keep the finding `unresolved`. |
 | **Source or display only** | Does the sentence only say that a permit, badge, registry entry, message, or carrier exists, displays, or evidences something? | **E** for an observed carrier/evidence claim; **L** for its definition | Use A.10/G.6 for evidence and the applicable publication or carrier pattern. A visible or published item is not itself a grant, exercise, finding, or resolution. |
 
@@ -175,7 +172,7 @@ Choose one row. If one sentence answers two questions, split it before classific
 
 **Guideline.** Keep the gate predicate separate from the observations and results used to evaluate it. Write the predicate in `A-*`; state an actual observation or result in `E-*` and reference the gate when the result concerns its application (`E → A`). An `A-*` predicate may consume a separately established result under §5.2; express a material dependency by reference under §6.1. That reference does not establish the result or a gate decision.
 
-**Step 4 — Link by ID or canonical location, not by paraphrase.** Apply the
+**Step 4 — Link by ID or canonical location.** Apply the
 cross-quadrant restrictions in §6.4, including its explicitly informative-note
 exception for L references to A/D/E. Same-quadrant references remain available.
 
@@ -187,7 +184,7 @@ exception for L references to A/D/E. Same-quadrant references remain available.
 * Bind a generic **D** claim to its exact normative episteme and applicable rule content. Bind an individual-duty **D** claim to its actual duty-bearing System or separately governed party and exact `U.Commitment`; cite an assignment only when the constitutive rule uses it as a ground. State responsibility and authority, when claimed, through their own admitted direct relations or exact missing governors. Prefer ID or canonical-location references rather than restating `L-*` or `A-*` content.
 * Bind each **E** claim first to its exact predicate/object and to the actual work, evaluation, observation, scope/window, comparison frame, and other conditions that settle that predicate. Add a carrier/schema, evidence or source-use relation, viewpoint, and consumer only when a receiving reliance decision depends on them; a claim about a carrier's own existence or condition names the carrier as its object.
 
-**Optional drift-control.** Add each L/A/D/E-classified claim verbatim to a Claim Register row (A.6.B:7) with canonical location + references so faces can cite by ID or canonical location without paraphrase.
+**Optional drift-control.** Add each L/A/D/E-classified claim verbatim to a Claim Register row (A.6.B:7) with its canonical location and references when this helps maintain faithful faces.
 
 **Step 6 — Recompose into readable text.**
 Include only the claim classes present in the source. Use separate Tech and Plain
@@ -205,10 +202,10 @@ forms when their readers need them; both may also serve as a teaching aid.
 * **AP-1 Unestablished operational-result guarantees.** An asserted operational
   result lacks the actual Work, evaluation, or observation needed to settle it.
   If the guarantee's L/A/D/E meaning is ambiguous, use `A.6.C:4.3` to recover it.
-* **AP-2 Interface-as-promiser.** Non-agent objects “promise or commit”.
+* **AP-2 Unresolved duty bearer.** “The API promises” is used for an individual duty without a recoverable bearer and independently obtaining commitment; use A.6.C when the intended meaning remains ambiguous.
 * **AP-3 Gate-as-evidence.** Treating the gate predicate (A) as if it were an observation (E).
 * **AP-4 Gate-as-law.** Entry predicates as signature “laws or definitions” (L) instead of `A-*`.
-* **AP-5 Adjective smuggling.** “fast, secure, approved, or aligned” used instead of qualifiers or slots.
+* **AP-5 Unresolved qualifier.** “Fast”, “secure”, “approved” or “aligned” leaves the relevant predicate, criterion or relation unrecoverable.
 * **AP-6 Paraphrase drift.** Restating L/A content in D or E with changed meaning (instead of citing by ID or canonical location).
 * **AP-7 Deontics in predicates.** RFC keywords (“MUST, SHALL, and related RFC keywords”) used as operators inside `L-*` or `A-*` predicates (should be `D-*` that references `L-*`/`A-*`).
 * **AP-8 View-fork semantics.** Recomposition/face text introduces new `L/A/D/E` meaning not present in the L/A/D/E-classified claim set (violates “no new semantics” discipline).
@@ -233,7 +230,7 @@ The API endpoints and parameters are as declared (including parameter passing di
 *(Signature-level structure.)*
 
 **A-API-01 (Gate predicate: admissibility).**
-The claim “p95 < 200ms” is admissible **only under** declared load profile + deployment region + sampling method + window:
+In this expanded case, the evaluation mechanism admits assessment of “p95 < 200ms” only under its declared load profile, deployment region, sampling method and window. Its entry predicate is:
 `AdmissibleLatencyClaim := (region=US) ∧ (concurrency≤X) ∧ (payload≤Y) ∧ (W=5m) ∧ (M=HDRHistogram@v…) ∧ (P=requests that match filter F)`
 *(References L-API-01 for definition.)*
 
@@ -298,7 +295,7 @@ The boundary relation involves shaft, bushing, datum axis, tolerance class, temp
 *(Signature-level arity recovery / slots.)*
 
 **A-FIT-01 (Gate predicate).**
-The coaxiality claim is admissible only if manufacturing and assembly satisfy the declared process envelope: material batch, temperature window, tool calibration validity, surface finish class, alignment procedure version.
+In this expanded case, the evaluation mechanism admits assessment of the coaxiality claim only when manufacturing and assembly satisfy the declared process envelope: material batch, temperature window, tool calibration validity, surface finish class and alignment procedure version.
 *(Gate predicate; can be checked using evidence, but is not itself evidence.)*
 
 **D-FIT-01 (Duty).**
@@ -338,14 +335,13 @@ For lot `L123` and window `Γ_time=[t1..t2]`, under conditions pinned to `A-FIT-
 
 ###### A.6.B:8.4.5.2 - Atomize + Classify
 
-With only the draft, ask which approval is claimed, which subsequent action depends on it, and what rule and actual result support that use. For the expanded worked case below, take the named approval definition, gate profile, independently obtaining coordinator duty, four actual check-application results and evidence path as additional premises.
+With only the draft, ask which approval is claimed, which subsequent action depends on it, and what rule and actual result support that use. For the expanded worked case below, take the named sponsor-approval definition, gate profile, independently obtaining coordinator duty, four actual check-application results and evidence path as additional premises.
 
 **L-PRJ-01 (Definition).**
-`approved(project, approvalKind)` is defined as a relation kind; approval kinds include: “sponsor-signoff”, “stage-gate-pass”, “budget-authorized”, “staffing-assigned”, etc.
-*(Truth-conditional: disambiguates kind and polarity.)*
+For this case, the project-entry policy defines `RequiredProjectApproval(project)` as sponsor sign-off on the identified project. Risk-review completion, budget availability and staffing are separate prerequisites.
 
 **A-PRJ-01 (Gate predicate: stage entry).**
-For starting execution work, `ExecutionAdmissible(project)` holds iff required approvals are present *and* required prerequisites are satisfied (e.g., risk review completed, budget line exists, key roles staffed).
+For starting execution work, `ExecutionAdmissible(project)` holds iff `RequiredProjectApproval(project)` and the required prerequisites are satisfied: risk review completed, budget line exists and key roles staffed.
 *(This is the real “may start work” entry predicate; it references L-PRJ-01 for what counts as approvals. If “approved” is meant as permission rather than gate evidence, use the permission-word branch in §8.4.1. An approval registry entry or evidence carrier alone remains source/display evidence and is not a grant.)*
 
 **D-PRJ-01 (Duty).**
@@ -364,13 +360,13 @@ For reliance on `E-PRJ-01`, the exact observed carrier set is `{DecisionRecord-R
 
 **Tech bundle:**
 
-* “Approved” is not one relation: `L-PRJ-01` defines approval kinds.
+* The required sponsor approval is defined by `L-PRJ-01`; risk review, budget and staffing remain separate prerequisites.
 * “May start execution” is a gate predicate: `A-PRJ-01`.
 * `ProjectCoordinator-A`'s project-entry duty: `D-PRJ-01`.
 * The actual A.21 gate result is `E-PRJ-01`; its bounded A.10 evidence support is `E-PRJ-02`.
 
 **Plain paragraph:**
-“In this expanded case, instead of a generic ‘approved’, we select an explicit approval kind as defined in **L-PRJ-01** and treat ‘may start execution’ as an admissibility predicate (**A-PRJ-01**). `ProjectCoordinator-A` has the project-entry and registry-maintenance duties stated in **D-PRJ-01**. At snapshot `t`, the current A.21 profile application maps every required check-application result to `pass`; **E-PRJ-01** records `decisionValue=pass` with the action consequence ‘start `StartExecution-P` within the stated window’, and **E-PRJ-02** supplies the exact evidence path for reliance on that result.”
+“In this expanded case, the required sponsor approval has the meaning defined in **L-PRJ-01**. Together with the separate risk-review, budget and staffing prerequisites, it supplies the inputs to the entry predicate **A-PRJ-01**. `ProjectCoordinator-A` has the project-entry and registry-maintenance duties stated in **D-PRJ-01**. At snapshot `t`, the current A.21 profile application maps every required check-application result to `pass`; **E-PRJ-01** records `decisionValue=pass` with the action consequence ‘start `StartExecution-P` within the stated window’, and **E-PRJ-02** supplies the evidence path for reliance on that result.”
 
 ###### A.6.B:8.4.5.4 - Filled permission case (each sentence classified)
 
@@ -403,11 +399,11 @@ For reliance on `E-PRJ-01`, the exact observed carrier set is `{DecisionRecord-R
 Include only the claim classes present in the source; use separate Tech and Plain
 forms when their readers need them. Cite claim IDs or canonical locations.
 
-###### A.6.B:8.4.6.1 - Tech register (2–5 lines)
+###### A.6.B:8.4.6.1 - Tech register
 
 > “This boundary claim is defined by **L-…** and applies only under **A-…**. **D-…** states either the exact generic prescription or the separately instituted duty of **[actual bearer]**. **E-…** states the observed or evaluated result for `Γ_time=…`; add its evidence support when the receiving use needs it.”
 
-###### A.6.B:8.4.6.2 - Plain register (1 paragraph)
+###### A.6.B:8.4.6.2 - Plain register
 
 > “We mean **[short label]** in the sense of **L-…**, and use it only when **A-…** holds. **D-…** either states what the named policy requires or, when an individual duty was separately instituted, names its actual bearer. **E-…** states the observed or evaluated result for the declared interval; add its evidence support when the receiving use needs it. If responsibility is also claimed, cite its direct relation separately.”
 

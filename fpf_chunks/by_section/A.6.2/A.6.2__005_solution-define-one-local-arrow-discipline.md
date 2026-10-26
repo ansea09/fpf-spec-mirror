@@ -6,12 +6,12 @@ section_id: "A.6.2:4"
 section_title: "Solution — define one local arrow discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__005_solution-define-one-local-arrow-discipline.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:4 — Solution — define one local arrow discipline"
-line_start: 17360
-line_end: 17530
+line_start: 17041
+line_end: 17211
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -61,7 +61,7 @@ The A.6.3 viewing branch has endpoint epistemes about the same EntityOfConcern. 
 
 #### A.6.2:4.2 - Direct signature components (A.6.0 alignment)
 
-When repeated use needs a reusable formal declaration, an A.6.0 `U.Signature(profile=FormalSubstrate)` episteme may declare this local arrow family. Its direct declaration components are:
+When a receiving use needs a reusable formal declaration, an A.6.0 `U.Signature(profile=FormalSubstrate)` episteme may declare this local arrow family. Its direct declaration components are:
 
 ```text
 SubjectKind     = local formal type EpMorphism
@@ -102,7 +102,7 @@ For any arrow `f : X→Y` presented as an effect-free episteme morphism:
    * `content(E) : U.ClaimGraph` — E's exact identity-bearing claim content;
    * `entityOfConcernRef(E) : U.EntityRef` — designates E's exact EntityOfConcern;
    * `selectedViewpointRef?(use) : U.ViewpointRef` — only when the named describing use selects one exact viewpoint; this is not a component of E's identity;
-   * `referenceScheme?(E) : U.ReferenceScheme` — E's effective designation and interpretation scheme;
+   * `referenceScheme(E) : U.ReferenceScheme` — E's effective designation and interpretation scheme;
    * `representationSchemeRef?(E) : U.RepresentationSchemeRef` — only when an exact representation scheme and its correspondence relation are current for E under their direct governors; C.29 governs any mathematical-lens use; this is not a C.2.1 identity component;
    * a separately current neighboring fact — name the exact `EpistemeEditionRelation`, exact A.10 evidence or provenance relation, or other governed predicate and its participants when the arrow family reads or compares it; do not collect these facts in a generic projection. If E asserts such a fact, that assertion is already part of `content(E)`.
 
@@ -200,5 +200,5 @@ Each arrow family states the formal domain in which its laws apply:
 
 If `X` or `Y` lies outside that domain, the arrow is not a member of this local family. This is distinct from an operation application being admitted or rejected. When a receiving-use claim is made, a use-specific scope, operating condition, or selected viewpoint enters `q` only when it changes the invariant, visible loss, receiving use, or conditions; `q` carries affirmative or negative polarity, and a separate current-case judgement tests exact facts against it. Changing either does not reidentify the arrow.
 
-When the use also relates two exact F.17 local senses and the F.9 predicate obtains, cite that Bridge and a separate bounded-use claim. When it crosses a ReferencePlane, cite the applicable plane relation. If transport is performed, identify the A.6.1 application separately. Different labels, contexts, schemes, planes, or operating conditions alone create none of these relations.
+When the use also relates two exact F.17 local senses and the F.9 predicate obtains, cite that Bridge and a separate bounded-use claim. When it crosses a ReferencePlane, cite the applicable plane relation. A claim about performed transport follows P1's separate application and Work conditions. Different labels, contexts, schemes, planes or operating conditions alone create none of these relations.
 

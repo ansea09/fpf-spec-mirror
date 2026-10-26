@@ -6,12 +6,12 @@ section_id: "C.25:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:12 — Relations"
-line_start: 65098
-line_end: 65116
+line_start: 64056
+line_end: 64074
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,5 +63,5 @@ keywords:
 
 #### C.25:12.1 - Endpoint function in evaluative classification
 
-In evaluative repair, `C.25` is the endpoint pattern for engineering quality families after overloaded quality wording has been repaired by `C.16.Q` and any hidden characteristic, scale, score, metric, or proxy wording has been repaired by `C.16.P`. `qualityTermAscription(...)` may remain a transitional repair record, but it is **not** the universal resting place when the admissible result is a claim about one `Characteristic`, one episteme with Q-Bundle-shaped claim content, or an explicit objective-oriented quality claim under its own endpoint pattern.
+Use C.25 directly when the engineering quality claim and its contributors are already recoverable. Use C.16.Q for unresolved evaluative wording and C.16.P for an unresolved Characteristic, Scale, score, metric or proxy; then return to the endpoint their result supports. `qualityTermAscription(...)` may remain a transitional repair record, but it is **not** the universal resting place when the admissible result is a claim about one `Characteristic`, one episteme with Q-Bundle-shaped claim content, or an explicit objective-oriented quality claim under its own endpoint pattern.
 

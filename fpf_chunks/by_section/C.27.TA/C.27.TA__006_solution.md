@@ -6,12 +6,12 @@ section_id: "C.27.TA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:4 — Solution"
-line_start: 67539
-line_end: 67645
+line_start: 66508
+line_end: 66614
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -146,7 +146,7 @@ Add a source-use boundary, currentness condition, refresh condition, or reopen c
 
 #### C.27.TA:4.6 - Recovery, Stabilization, Inertia, And Effort Over Time
 
-A recovery, stabilization, inertia, or effort-over-time claim first names the exact EntityOfConcern, temporal predicate, temporal reference, and interval. It becomes a C.27 adequacy question only when an authored claim uses that result for a practical action.
+A recovery, stabilization, inertia, or effort-over-time claim first names the exact EntityOfConcern, temporal predicate, temporal reference, and interval. Use C.27 when an unresolved question about the temporal claim's adequacy changes the receiving action. A sufficient positive temporal-aspect claim can still finish here.
 
 Add the disturbance or starting condition, measured reading, effort, resistance, residue, inertia relation, rule-pattern citation, or direct-relation reference only when the receiving use relies on that distinction. These values do not turn the temporal predicate into a transformation, Work, evidence, value, or assurance relation.
 

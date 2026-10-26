@@ -6,12 +6,12 @@ section_id: "A.1.SCR:7"
 section_title: "Conformance Checklist — Practical Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__009_conformance-checklist-practical-checks.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:7 — Conformance Checklist — Practical Checks"
-line_start: 3712
-line_end: 3728
+line_start: 3707
+line_end: 3723
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -38,6 +38,6 @@ keywords:
 | `CC-A1-SCR-8` | A missing relation preserves exact participants and dependent use and records the established A.6.RCD result `missing-governor[...]`. |
 | `CC-A1-SCR-9` | Designation follows a named plan or decision; local system-of-interest and common project target remain distinct. Recognition, designation, participants' agreement, technical classification and assignment are supported at their own scopes. |
 | `CC-A1-SCR-10` | Physical grounding creates no cross-kind identity or unrestricted composition. |
-| `CC-A1-SCR-11` | The seven noun cases and the scale-free stress fixtures state their exact entities, subject-pattern alternatives, result semantics, and blocked inferences; they form no kind or closed enumeration. |
-| `CC-A1-SCR-12` | No new candidate, session, access, mastery, situation, relation, restoration-record, or bundle ontology is introduced. |
+
+
 

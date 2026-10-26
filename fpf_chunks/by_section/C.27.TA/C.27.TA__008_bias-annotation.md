@@ -6,12 +6,12 @@ section_id: "C.27.TA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:6 — Bias-Annotation"
-line_start: 67692
-line_end: 67703
+line_start: 66661
+line_end: 66672
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,9 +49,9 @@ Lenses: **Onto**, **Prag**, **Epist**, **Arch**, **Gov**.
 
 Distortions to watch for:
 
-- **rhythm-as-vibe:** rhythm or cadence appears without bearer, timing reference, and window;
+- **unqualified rhythm:** rhythm or cadence appears without bearer, timing reference, and window;
 - **freshness-as-permission:** currentness is treated as permission, evidence, or gate passage;
 - **time-as-transformation:** timing language is treated as the transformation relation;
-- **dynamics theft:** a temporal aspect is treated as a state-space or transition-law episteme;
-- **measurement theft:** a temporal aspect is treated as a completed measurement construction.
+- **temporal aspect mistaken for dynamics:** a temporal aspect is treated as a state-space or transition-law episteme;
+- **temporal aspect mistaken for measurement:** a temporal aspect is treated as a completed measurement construction.
 

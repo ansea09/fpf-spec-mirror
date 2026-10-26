@@ -6,12 +6,12 @@ section_id: "C.29:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 69799
-line_end: 69825
+line_start: 68773
+line_end: 68799
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,16 +64,16 @@ keywords:
 
 | Anti-pattern | What it looks like | Repair |
 |---|---|---|
-| **Map-territory collapse** | “The organization is a quantum system.” | “A quantum-like lens models order, probe, or contextual-probability effects; no physical quantum ontology is licensed.” |
+| **Map-territory collapse** | “The organization is a quantum system.” | Explain ordinary order or probe effects through their subject account. Use a QL model only for C.26's remaining contextual-model obstruction; its success alone establishes no physical quantum claim. |
 | **Prestige substitution** | “Use category theory” without naming objects, morphisms, functors, preservation, or loss. | Name the categorical structure, preserved composition or interface, and failed transfer. |
 | **Family-name as object** | `field`, `graph`, `category`, `RG`, or `quantum` appears as if the family name were enough. | Name the concrete object, structure, formal position, or downgrade to Plain recognition. |
-| **C.29-everywhere** | Every measurement template, score, graph, kernel, ODE, equation, or local formal object is treated as requiring `C.29`. | Require lens-transfer, publication, assurance, bridge, comparison, or reusable-explanation use. |
+| **C.29-everywhere** | Every measurement template, score, graph, kernel, ODE, equation, or local formal object is treated as requiring `C.29`. | Apply :4.3: enter for a separate representation or transfer issue that affects the result. An adequate domain account remains sufficient for its stated use. |
 | **Card-before-problem** | Fields are filled before the question or mathematical operation is known. | State the question, construct the correspondence and derive or delimit its consequence before choosing a record. |
-| **Local-theory over-escalation** | Accepted local dynamics or domain equations are treated as needing C.29 by default. | Keep them under the local domain pattern or `A.3.3` unless a separate lens-transfer claim, publication use, assurance input, bridge, comparison, or reusable-explanation use is being made. |
+| **Local-theory over-escalation** | Accepted local dynamics or domain equations are treated as needing C.29 by default. | Keep the adequate local result. Enter C.29 when its correspondence or transfer conditions need work; repeating or publishing the same supported explanation does not create that need. |
 | **False exactness** | Equivalence, isomorphism, or representation is declared by value when only analogy, fit, or simulation exists. | Downgrade `LensMappingMode` or justify the declared relation named by value through the subject pattern. |
 | **RG-as-vibe** | “Everything is coarse-graining” with no scale window, coarse-graining rule, or fixed point. | Declare scale variable, coarse-graining rule, invariants, and rival micro-models. |
 | **Elegant-math override** | A specialized or elegant mathematical lens is selected over a more general or scale-amenable alternative because of elegance or prestige while a general method scale-preference claim or architecture scale-preference claim is being made. | Use BLP scale-audit when a general method scale-preference claim is being made; use C.31.ASAP when an architecture scale-preference claim is being made; otherwise mark the lens as local and bounded by `C.29` stop condition. |
-| **Familiar math misses needed structure** | A graph, linear trend, average, two-characteristic chart, or score is used because it is familiar while the working problem needs uncertainty, topology, dynamics, causal structure, scale law, distribution geometry, or operator view. | Name the working problem cue; choose a lens family that exposes the missing structure, or keep the simple math as local orientation only and block transfer, decision, evidence, assurance, publication, bridge, comparison, or reusable-explanation use. |
+| **Familiar math misses needed structure** | A graph, linear trend, average, two-characteristic chart, or score omits structure needed by the working question. | Recover that question and construct a representation that supports its answer. Suspend the consequence dependent on the missing structure; retain results the existing mathematics still supports. |
 | **Vanchurin over-adoption** | “FPF now says physics is learning.” | Mark as candidate lens; retain open questions and evidence limits. |
 | **Invariant-free metaphor** | “Market is a field” with no invariant, transition law, observation map, or `LensUseBoundaryValue`. | Downgrade to local metaphor or build a `MathLensUse.OneLine` or mini-card. |
 | **Loss-free bridge** | Mathematical structure is exported across semantic contexts as a Bridge without `F.9`, loss notes, counter-example, or declared lens use. | Use `F.9` Bridge plus MathLensUse `LostStructure` and `StopCondition`. |
@@ -84,6 +84,6 @@ keywords:
 | **LensUseBoundaryValue laundering** | `SoTA-echo candidate` sounds like authority. | Restrict to exploration or lens-use tests unless validation and neighboring evidence patterns define or constrain prediction, decision, causal use, bridge substitution, assurance, or ontology. |
 | **RivalLensSet as literature review** | A broad survey is produced before a material rival question has been named. | Start with the principal rival and its action-changing difference; broaden only when the actual selection or superiority question requires it. |
 | **StopCondition boilerplate** | The card says only “does not prove everything.” | State the concrete stop, no-lens exit, or source-return condition; include a blocked overread only when it passes F.19's plausible-reader test. |
-| **Plain metaphor carrying law** | “What survives transfer” becomes an unstated Tech claim. | Recover the commitment through `C.2.P` fields or keep it as ordinary Plain recognition only. |
+| **Plain metaphor carrying law** | “What survives transfer” carries a claim whose operation or preservation condition is unclear. | State the operation, correspondence and required preservation. Use C.2.P only when unresolved epistemic meaning prevents that recovery; keep adequate ordinary wording. |
 | **C.29 local-kind inflation** | `MathLensUse.Card` is treated as a universal `U.*` object or durable FPF record. | Keep it pattern-local; durable cross-pattern records require explicit minting or reuse, naming, kind, and design-rationale decision through `F.8`, `F.18`, `C.3`, and `E.9`. |
 

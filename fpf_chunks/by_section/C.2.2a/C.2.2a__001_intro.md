@@ -6,12 +6,12 @@ section_id: "C.2.2a:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:intro — Intro"
-line_start: 52742
-line_end: 52763
+line_start: 51908
+line_end: 51929
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -60,9 +60,9 @@ keywords:
 
 **Use this pattern when.** A team is about to route, compare, or publish a note by calling it `early`, `ready`, or `settled`, and the next action depends on what is actually known.
 
-**First question.** What is known or uncertain about each of these five aspects, which readings clear the local threshold, and what may happen next: formality, articulation, closure, anchoring, and representation?
+**First question.** Which of the five aspects can change the next action—formality, articulation, closure, anchoring, or representation—and which readings or unknowns does that action need?
 
 **What goes wrong if missed.** Teams flatten those five aspects, the grounds for judging them, and the publication lane into one maturity adjective. A polished document can then look ready although the claim is still open, or a useful early cue can be rejected because it is not yet polished.
 
-**What this buys.** One small chart row that shows only the distinctions needed by the next action while keeping the episteme publication separate from its grounds, form, face, and carrier.
+**What this buys.** One small chart row that shows only the distinctions needed by the next action while keeping the episteme publication separate from its grounds, publication form and carrier.
 

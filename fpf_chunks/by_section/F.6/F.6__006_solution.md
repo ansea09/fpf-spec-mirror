@@ -6,12 +6,12 @@ section_id: "F.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:4 — Solution"
-line_start: 119240
-line_end: 119366
+line_start: 118060
+line_end: 118186
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -87,7 +87,7 @@ The direct Work-assignment attribution is a world-side fact, separate from any a
 5. `RA.HolderSystemSlot = S`, the admitted System that actually performed `W`; and
 6. RA's species predicate obtains throughout the attributed temporal extent of `W`.
 
-Conditions 1–3, 5, and 6 are five constraints on a valid attribution but do not establish it. F.6 reuses the obtaining A.13 assignment; it does not create the A.13 classification, assignment, evidence, optional profile, or Work. Failure of condition 4 or any constraint leaves `W : U.Work` intact and leaves only this exact assignment-bound attribution unasserted.
+Conditions 1–3, 5, and 6 are five constraints on a valid attribution but do not establish it. F.6 reuses the obtaining A.13 assignment; it does not create the A.13 classification, assignment, evidence, optional profile, or Work. Where the independent A.13/A.15.1 admission grounds still hold, missing or failed attribution leaves `W : U.Work` intact and leaves only this exact assignment-bound attribution unasserted. If the same finding invalidates a premise actually consumed by that admission, recheck the premise and its dependent conclusions under A.15.1. Preserve independently grounded history and relations; absence of attribution alone is not evidence of no performance.
 Two overlapping assignments held by the same System may satisfy all five constraints while the case links the Work to only one. Use that case fact; if it does not distinguish the assignments, leave the attribution unresolved rather than asserting both.
 
 If attribution concerns only a temporal, episode, or operational part of a larger Work whole, first identify that part as its own `U.Work` occurrence under A.15.1. Do not hide an unidentified Work portion inside F.6.
@@ -127,7 +127,7 @@ Do not replace the species with one `Context` value. Recover what the source tok
 3. Find the case fact that directly links this Work to this assignment; do not infer that link merely because the holder and interval match.
 4. Confirm that the assignment holder is the actual performer.
 5. Confirm that the assignment predicate obtains throughout the attributed Work interval.
-6. When all five checks pass, state the F.6 relation or say plainly that the holder System performed the Work under that assignment. If the direct link, a participant, or a required constraint is missing, retain the admitted Work and leave only this assignment-bound attribution unresolved; do not select another covering assignment.
+6. When all five checks pass, state the F.6 relation or say plainly that the holder System performed the Work under that assignment. If the direct link, a participant, or a required constraint is missing, leave this assignment-bound attribution unresolved. Retain Work whose independent admission grounds still hold, and apply section 4.2's premise-recheck rule when the finding also affects those grounds; do not select another covering assignment.
 7. Keep assertions and evidence separate: they can support reliance on the attribution claim but do not make the relation obtain.
 8. Send classification, assignment state, capability, Method, evidence, source use, result, acceptance, publication, bridge, responsibility, and authority questions to their subject patterns.
 
@@ -147,7 +147,7 @@ The assignment, system-role kind, capability, Method, and MethodDescription do n
 | Does the holder count under its system-role kind? | `A.2`, C.3.2 | Classification is not supplied by attribution. |
 | Does the assignment satisfy a state predicate? | `A.2.5` | State has its own predicate, relation, window, assertion, and evidence. |
 | Can the holder perform the Work? | `A.2.2` capability and fit | Ability is not actual performance. |
-| Which Systems actually performed a top-level or child Work occurrence? | Recover each exact performer through `A.13`, then let `A.15.1` independently admit that Work occurrence; add one F.6 check per exact performer–assignment pair only when the receiving question also asks under which assignment the Work was performed. | A team lead, coordinator, member relation, or covering assignment cannot substitute for the full actual-performer set. Every child Work keeps its own A.13 performer basis, A.15.1 admission, and Work-part relation; assignment and F.6 are added only for an expressly consumed attribution. Missing or failed F.6 leaves the child Work intact. |
+| Which Systems actually performed a top-level or child Work occurrence? | Recover each exact performer through `A.13`, then let `A.15.1` independently admit that Work occurrence; add one F.6 check per exact performer–assignment pair only when the receiving question also asks under which assignment the Work was performed. | A team lead, coordinator, member relation, or covering assignment cannot substitute for the full actual-performer set. Every child Work keeps its own A.13 performer basis, A.15.1 admission, and Work-part relation; assignment and F.6 are added only for an expressly consumed attribution. Missing or failed attribution alone leaves independently admitted child Work intact; a finding that invalidates a consumed admission premise requires the separate recheck in section 4.2. |
 | Did a passive test article participate in Work? | the domain rule that defines passive participation; if no such rule is current, `A.6.RCD` returns `missing-governor` | Holding a test-subject assignment does not make the article a performer or establish passive participation. |
 | Which Method did the Work enact? | `A.15.1`, `A.3.1`, and A.3.2 only for a separate description-membership question | Method, description, and assignment do not become performers. |
 | What supports the attribution assertion? | `A.10` or the direct evidence relation | Support concerns knowledge or use, not relation obtaining. |
@@ -170,7 +170,7 @@ After the Work–assignment link and its necessary constraints are established, 
 InspectionWork-17 was performed by Robot-7 under InspectionAssignment-17.
 ```
 
-Expose declarations and occurrence keys only when a dependent use must distinguish occurrences, cite one as a participant, compare assertions, or preserve provenance. If the assignment cannot be recovered for this attribution, retain the admitted Work and actual performer and leave the attribution unresolved. State any source-reliance or evidence limit under its direct predicate.
+Expose declarations and occurrence keys only when a dependent use must distinguish occurrences, cite one as a participant, compare assertions, or preserve provenance. If the assignment cannot be recovered for this attribution, retain the independently grounded Work and actual performer, leave the attribution unresolved, and apply section 4.2 to any affected admission premise. State any source-reliance or evidence limit under its direct predicate.
 
 Another pattern may require a **complete A.13/A.15.1/F.6 basis** when its receiving use needs both admitted Work and precise assignment-bound performer attribution, and may point here instead of repeating this declaration and check sequence. That combined basis has a fixed order: A.13 first supplies every performer's exact System, local agential kind and criterion, classification, obtaining assignment, needed scope, working situation, window, and adequate core evidence; A.15.1 independently admits the dated Work from its performance history, at least one obtaining `enactsMethod` relation, extent, and at least one obtaining locally declared Work-to-System containment relation; only then does F.6 test every required exact Work-assignment pair through the same obtaining A.13 assignment. The phrase is never an A.15.1 membership test. A missing F.6 relation preserves `W : U.Work` and leaves only the precise attribution unresolved. A characteristic profile remains conditional, and another enactment or containing-system relation is named only when the receiving use relies on it.
 

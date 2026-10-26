@@ -6,12 +6,12 @@ section_id: "A.1.1:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__002_practitioner-entry.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:0 — Practitioner entry"
-line_start: 3083
-line_end: 3122
+line_start: 3078
+line_end: 3117
 dependencies:
   - "A.1"
   - "A.14"
@@ -50,7 +50,7 @@ keywords:
 3. Recover the remaining direct relations only when their joint organization changes the decision. Select `BoundedModelUseStructure` only then.
 4. Keep every boundary crossing separate. A proposed source, target, direction, required fit, permitted loss, and claim scope is useful planning content, but it is not an occurrence and cannot identify either endpoint structure.
 
-**First-minute success case.** A press-control team must decide whether a controller-code change may be handled as a local code edit or must enter the independently governed release review together with model applicability and operating use.
+**Entry case.** A press-control team must decide whether a controller-code change may be handled as a local code edit or must enter the independently governed release review together with model applicability and operating use.
 
 1. `PressControlModel-5` is the exact claim-bearing model edition, `Press-3` is the use locus, and the model applies within `SafetyControlClaimScope`; this is one `ModelApplicabilityRelation` occurrence.
 2. A.13 first recovers `Operator-12 : U.System` as the exact actual performer through obtaining `OperatorAssignment-8`, and A.15.1 independently admits `PressOperationWork-91 : U.Work`. Because this actual-use claim expressly represents assignment-bound use, exact F.6 `performedUnderAssignment(PressOperationWork-91, OperatorAssignment-8)` then obtains. The already recovered performer actually uses `PressControlModel-5` during that Work concerning `Press-3`; this is one `ModelUseRelation` occurrence.
@@ -61,7 +61,7 @@ keywords:
 |---|---|---|---|
 | `PressControlReleaseFrame` | Must this change be considered as code alone, or together with current applicability, operating use, and fixed-content coherence? | Give the three exact occurrences and applied constraints as the joint subject matter of the independently governed release review. | Return to the three direct relations if `PlantReleaseRule-3` is absent or does not require their joint review. |
 
-This row names the selection-use frame reconstructed in the full assurance replay in section 5.1; the first-minute action does not require unpacking its A.22 identity proof. If the decision asked only whether the model applies to `Press-3`, stop after step 1. If `PlantReleaseRule-3` were absent or did not require the three facts together, stop at the direct relations. No crossing is asserted.
+The named selection-use frame is developed in section 5.1. If the decision asks only whether the model applies to `Press-3`, stop after step 1. If `PlantReleaseRule-3` is absent or does not require the three facts together, stop at the direct relations. No crossing is asserted.
 
 **Three quick recognition situations.**
 
@@ -73,7 +73,7 @@ This row names the selection-use frame reconstructed in the full assurance repla
 
 **Short glosses.** A **model episteme** is one exact claim-bearing model edition. A **model-use holon** is one already admitted system or other concrete whole about which the model applies or is used; it is not a context container. **Work** (`U.Work`) is one exact dated doing, not its method, plan, or result. A **claim scope** (`U.ClaimScope`) is the set-valued boundary of context slices for one claim. A **relation occurrence** is a world-side relation actually obtaining under its predicate. A **reference scheme** is the interpretation basis for claim content. A **structure** here is a selected organization of already governed constituents, obtaining relations, applied constraints, and one exact selection-use frame; it is not another whole.
 
-**Adoption test.** After applying A.1.1, name the exact organization that changes the present decision and the condition for stopping or returning to its direct relations. If either is missing, stop at the direct relation or the pattern that defines or tests it. Use F.19:4's plausible-reader test for any optional explanatory guard.
+**Adoption test.** After applying A.1.1, name the exact organization that changes the present decision and the condition for stopping or returning to its direct relations. If either is missing, stop at the direct relation or the pattern that defines or tests it.
 
 **Names for retrieval.** The Plain label is **bounded context** and the Tech label is `BoundedModelUseStructure`. Use F.18 for designation settlement and lineage, and F.17 for the public terminology row and its refresh evidence; A.1.1 keeps only the names needed to apply this pattern. Authors **MUST NOT** publish `U.BoundedContext` as a U-kind.
 

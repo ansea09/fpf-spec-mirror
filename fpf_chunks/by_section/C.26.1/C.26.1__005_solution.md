@@ -6,12 +6,12 @@ section_id: "C.26.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:4 — Solution"
-line_start: 66058
-line_end: 66229
+line_start: 65019
+line_end: 65188
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -46,7 +46,7 @@ C.26.1 is active only when the interaction both participates in the represented 
 
 A probe-coupled interaction may be useful and intentionally state-shaping. The repair is not to avoid it; the repair is to stop using its output as if it were a neutral pre-probe read.
 
-Start with this recognition note:
+Start with these recognition questions; ordinary prose is sufficient when it preserves their answers.
 
 | Mini-entry | Question |
 | --- | --- |
@@ -56,15 +56,15 @@ Start with this recognition note:
 | Practical change | What does the team do differently now: mark probe-coupled, redesign the probe, order, or frame, rewrite bridge or export, add evidence, or apply a neighboring FPF pattern? |
 | Stop or neighboring-pattern handoff | Which use is unsupported by this note, and which FPF pattern carries that use? |
 
-Use the fuller decision-bearing record below when the boundary result will be reused, contested, used as evidence, or used to change an architecture decision.
+Use the fuller account below when the receiving decision or a substantive dispute needs distinctions missing from the recognition note. Reuse an already adequate account; publication or reuse alone does not require a new record.
 
-Full decision-bearing record:
+Distinctions for a fuller decision-bearing account:
 
 | Field | Question |
 | --- | --- |
-| Boundary | Which boundary, role relation, authority relation, context bridge, service interface, team boundary, or system edge is crossed or queried? |
-| Probe or interaction | Which workshop, dashboard, API read, metric, meeting, survey, message, event stream, or other typed probe lane is active? |
-| QL cue or formal cue | Which instrument-like update, order sensitivity or frame sensitivity, incompatible-probe structure, no faithful-enough export under the declared probe, frame, or use, or mutual interaction whose local reads and exports are no longer admissibly comparable or reusable without declaring the probe, frame, or update relation makes ordinary passive-read wording false? |
+| Boundary | Which boundary or interface is involved, and which direct relation, if any, is crossed or queried? Identify each under its applicable subject pattern. |
+| Probe or interaction | Which operation or interaction produces the output, using which instrument or channel? |
+| QL cue or formal cue | If QL is retained, which named contextual-model obstruction meets C.26's activation test? An ordinary probe effect can be handled without this field. |
 | False passive reading | What discovery, neutral observation, one-way transfer, or unjustified lossless-message reading would be false? |
 | Pre-probe hypothesis | What did the team think the boundary state, alignment, readiness, context cut, or export validity was before the probe? |
 | Observed or inferred post-probe state | What changed, stabilized, became visible, became non-exportable, or lost admissible use because of the probe or interaction? |
@@ -81,7 +81,7 @@ This pattern is active only when the interaction both participates in the repres
 
 Ordinary influence is not enough. A meeting that changes attention is ordinary work unless the meeting output is later used as a passive reading of alignment. An API call that is a mutating operation by its interface semantics is ordinary service/API semantics unless the call result is used as a neutral state export. A feature flag that changes behavior is ordinary intervention unless the flag readout is being used as evidence of the state it changes.
 
-Performative prediction is also an important ordinary rival. If a prediction, score, or metric changes behavior because people act on it, but no incompatible probe frame, order-sensitive reading, contextual-probability cue, or instrument-like state/export support load remains, try performative-prediction analysis first; use `C.16` for measurement, `A.10` for source recovery and bounded reliance, and `B.3` only for an actual named assurance claim. Keep C.26.1 only for the residual probe admissibility question.
+Performative-prediction analysis can explain behavior changed by a deployed prediction, score or metric. Use that account directly, with `C.16` for measurement, `A.10` for source recovery and bounded reliance, and `B.3` for a named assurance claim. C.26.1 can connect the supported probe effect to the corrected use of its output without QL; use it only while that question remains unresolved.
 
 #### C.26.1:4.2 - Finish conditions
 
@@ -100,7 +100,7 @@ The pattern emits one of these results:
 
 #### C.26.1:4.3 - Probe-coupled context-cut worked use slice
 
-This worked use slice is not a standalone pattern. It tests DDD and bounded-context work when the context cut is not only discovered but also changes meaning, coordination, export validity, or viability.
+The following constructed case shows a DDD workshop that changes the meaning and use of its own result.
 
 Ask: was the bounded-context cut merely discovered, or did the workshop, dashboard, API extraction, bridge, split, merge, or orchestration change alignment, ownership, vocabulary, export validity, or viability?
 
@@ -112,7 +112,7 @@ Ask: was the bounded-context cut merely discovered, or did the workshop, dashboa
 | Post-probe reading | Product, Support, and Payment start treating payment failure as a customer-risk gate, not only a technical retry condition. |
 | Evidence | Incident labels are reclassified, escalation changes, backlog priority changes, and the dashboard query is rewritten. |
 | Export loss | Copying `PaymentFailure = customer risk` into both contexts loses the difference between retryable technical failure, promise breach, and support escalation trigger. |
-| Decision output | Keep the split, mark the workshop result as probe-coupled, add `F.9` loss notes, and add a payment-risk escalation promise to the boundary design. |
+| Decision output | Treat the workshop result as evidence of the post-workshop reading; recover the separate local senses and their `F.9` correspondence/loss before export. Assess the proposed split and escalation promise under their ordinary design and authority grounds; the probe effect alone does not select or authorize them. |
 
 #### C.26.1:4.4 - Boundary interaction under concern and operational sequence
 
@@ -122,21 +122,19 @@ The pattern governs one move: convert an apparently passive boundary read into a
 
 Operational sequence:
 
-1. Name the boundary or relation being crossed.
-2. Name the probe lane, including the concrete artifact or work act that produced the output.
+1. Name the boundary or relation involved and whether it is queried, crossed or changed.
+2. Name the operation or interaction that produced the output and distinguish any instrument, channel or carrier it used.
 3. State the false passive reading: what the team would have assumed if the probe were only a window.
 4. State the pre-probe hypothesis and the observed or inferred post-probe state.
 5. State the evidence carriers and uncertainty posture.
-6. State the export loss, memory, order effect, or frame effect that makes the output not faithful enough for the declared use.
+6. State any export loss, memory, order or frame effect that changes the output's use. The already supported state change may itself explain why a pre-probe reading is invalid.
 7. Choose the finish result: keep boundary with probe note, redesign probe, order, or frame, redesign bridge or export, change the split, merge, or orchestration, or apply a neighboring FPF pattern.
 
 Required output: produce a probe-coupled interaction reading, a corrected use of the output, and, when it would reduce the problem, a redesign or decoupling move for the probe, order, frame, bridge, metric, dashboard, API read, or boundary interaction.
 
-This sequence is deliberately small. It is the boundary analogue of the `C.11` local choice pass: the pattern should end with a usable result, not with a richer vocabulary label.
-
 #### C.26.1:4.5 - Well-formed probe-coupled boundary state
 
-A probe-coupled boundary decision is usable only when the record states all of the following:
+A probe-coupled boundary decision needs the following content, in ordinary prose or a record:
 
 - the boundary, context bridge, service interface, team boundary, role relation, authority relation, or system edge involved;
 - the probe lane and output carrier;
@@ -145,7 +143,7 @@ A probe-coupled boundary decision is usable only when the record states all of t
 - the local stop condition: which use the output does not support without another pattern;
 - the neighboring FPF pattern that would carry the other claim.
 
-The record is unfinished when any of these remains true:
+The account is unfinished when any of these remains true:
 
 - the output is named, but the operation that produced it is hidden;
 - the operation is named, but the state that changed is not named;

@@ -6,12 +6,12 @@ section_id: "E.3:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__009_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.3 — Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)"
   - "E.3:8 — Consequences"
-line_start: 92401
-line_end: 92405
+line_start: 91221
+line_end: 91225
 dependencies:
   - "E.1"
   - "E.2"

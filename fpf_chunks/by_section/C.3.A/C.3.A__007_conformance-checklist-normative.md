@@ -6,12 +6,12 @@ section_id: "C.3.A:6"
 section_title: "Conformance checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__007_conformance-checklist-normative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:6 — Conformance checklist (normative)"
-line_start: 56233
-line_end: 56253
+line_start: 55361
+line_end: 55381
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -50,5 +50,5 @@ A context-specific guard alias is equivalent only when all required objects, inp
 
 #### C.3.A:6.2 - Bridge consequences
 
-`Phi(CL_scope)` and `Psi(CL_kind)` are monotone non-increasing consequences on the receiving R path under the governing bridge patterns. This Annex prescribes no numeric form. It never performs arithmetic on F or G.
+When a receiving R model uses penalties `Phi(CL_scope)` and `Psi(CL_kind)`, each penalty is monotone non-increasing in its own governing congruence scale. The model must justify that numerical consequence for the receiving use. This Annex prescribes no numeric form and performs no arithmetic on F or G.
 

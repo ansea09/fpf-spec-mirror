@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:4 — Solution"
-line_start: 10598
-line_end: 10660
+line_start: 10509
+line_end: 10575
 dependencies:
   - "A.10"
   - "A.15.8.MS"
@@ -31,6 +31,8 @@ When the parts appear locally consistent but the required whole result still has
 
 #### A.3.1.CC:4.1 - Pattern-Use Unfolding
 
+Use steps 4–8 only for the claims and evidence that the named coherence question depends on.
+
 1. **Name the blocked use and possible contradiction.** Identify the reader or decision, the claim needed, its qualification window, and what would count as agreement, contradiction, missing information, or a stop. Do not begin with “verify the Method”.
 2. **Preserve the subject and status branch.** Identify the admitted Method under `A.3.1`, or keep the proposed whole as a candidate account. Keep Work, WorkPlan, description, representation, support, evidence, publication, and structure claims at their current statuses.
 3. **Recover the maintained claim and owner.** Record the claim text or predicate, owning result, edition or occurrence, source or construction basis, intended use, and currentness condition. If ownership cannot be recovered, return `owner-not-recoverable` before editing several carriers.
@@ -42,7 +44,7 @@ When the parts appear locally consistent but the required whole result still has
 9. **Classify the finding.** Distinguish: `agreement-within-window`; `contradicted-claim`; `missing-information`; `failed-declared-conformance`; `stale-source-or-edition`; and `owner-not-recoverable`. Do not turn uncertainty into contradiction or a local defect into a whole-Method verdict.
 10. **Select one correction owner.** Return the smallest correction to B.1.5.CM construction, A.3.2.DE description, one direct C.37 use row, one complete C.37.MP Method representation profile, one exact A.15.8.MS result, or the direct governor of a lower representation result. If one observation defeats several independent claims, create separate findings with separate owners; do not copy one vague correction into every upstream result.
 11. **Repair and repeat the same check.** Preserve unaffected claims, statuses, evidence, and windows. Recheck the repaired claim against the same basis. If the use, subject, source, edition, or criteria changed, start a new coherence use instead of calling the old check passed.
-12. **Return the bounded result and non-use.** State the verified claim, correction or gap, owner, affected downstream uses, preserved claims, and reopen condition. Say explicitly that fit, transfer, worth, capability, contribution, causality, admission, and publication remain separate.
+12. **Return the bounded result.** State the verified claim, correction or gap, owner, affected downstream uses, preserved claims, material use limits, and reopen condition.
 
 #### A.3.1.CC:4.2 - Record the Result
 
@@ -55,7 +57,9 @@ When the parts appear locally consistent but the required whole result still has
 | finding | Agreement, contradiction, missing information, failed declared conformance, stale source or edition, or missing owner; include the evidence reach. |
 | repair routing | One maintained result to reconsider, smallest correction, unaffected claims and statuses, and downstream uses that must be rechecked. |
 | rerun | Same-check result after repair, or the changed use or basis that requires a new check. |
-| return | Verified bounded claim, corrected claim, or named gap; non-use and reopen condition. |
+| return | Verified bounded claim, corrected claim, or named gap; material use limits and reopen condition. |
+
+Use the existing claim and finding records or a concise account that preserves these distinctions; the positions do not require a separate form.
 
 #### A.3.1.CC:4.3 - What Changes in Practice
 

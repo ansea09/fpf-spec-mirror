@@ -6,12 +6,12 @@ section_id: "A.7.CP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:10 — Rationale"
-line_start: 26656
-line_end: 26661
+line_start: 26203
+line_end: 26208
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -27,7 +27,7 @@ keywords:
 
 ### A.7.CP:10 - Rationale
 
-Claim content and reasoning posture vary on different axes. Publishing the content once and recording use through a direct relation prevents both hidden premises and premise-kind inflation. Work participation makes the relation ontologically honest: an episteme can be used by reasoning work but cannot reason or act by itself.
+Claim content and reasoning posture vary independently. One source for the content and a separate relation for its actual use let readers recover both without treating premise and assumption as different claim kinds. The System performs the reasoning Work; the episteme supplies the claim on which that Work relies.
 
 **Use only the premise the work actually relies on.**
 

@@ -6,12 +6,12 @@ section_id: "B.3.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
   - "B.3.4:3 — Forces"
-line_start: 45717
-line_end: 45725
+line_start: 44885
+line_end: 44893
 dependencies:
   - "A.10"
   - "B.3"

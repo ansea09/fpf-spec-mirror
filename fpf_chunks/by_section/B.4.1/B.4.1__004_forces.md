@@ -6,12 +6,12 @@ section_id: "B.4.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:3 — Forces"
-line_start: 46389
-line_end: 46396
+line_start: 45557
+line_end: 45564
 dependencies:
   - "A.15"
   - "A.16"

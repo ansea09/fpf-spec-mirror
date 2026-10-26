@@ -6,12 +6,12 @@ section_id: "C.3.5:6"
 section_title: "Usage rules (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__007_usage-rules-normative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:6 — Usage rules (normative)"
-line_start: 56008
-line_end: 56019
+line_start: 55136
+line_end: 55147
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -32,7 +32,7 @@ keywords:
 
 ### C.3.5:6 - Usage rules (normative)
 
-**AT-01 (Facet, not Characteristic).** KindAT SHALL be treated as a Facet per MM-CHR. It has no algebra or threshold and MUST NOT appear in guard predicates or composition math.
+**AT-01 (Facet, not Characteristic).** KindAT SHALL be treated as the informative catalog and planning facet defined here. It has no algebra or threshold and MUST NOT appear in guard predicates or composition math.
 
 **AT-02 (Placement).** If recorded, KindAT SHALL characterize one exact local `U.Kind` under an effective reference scheme. A catalog row may represent that assignment. KindAT MUST NOT be attached to a claim, capability, `KindSignature` episteme, candidate, judgment, or extension as a substitute for its own governor.
 
@@ -40,5 +40,5 @@ keywords:
 
 **AT-04 (Bridge neutrality).** Editors assign KindAT from the kind's intentional stance. The bridge-assertion episteme may record an informative anchor comparison, but `CL^k` remains a separate assessment of the admitted bridge use from demonstrated signature/order preservation and loss.
 
-**AT-05 (Catalog representation).** When KindAT is represented in a catalog, the catalog SHOULD identify the local kind and effective reference scheme and reference, rather than collapse, the current `KindSignature` edition, obtaining subkind relations, `KindUseAdaptationDeclaration` editions, KindBridge occurrences/assertions, and optional extension representations. Absence of a tag means “not set”, not K0.
+**AT-05 (Catalog representation).** When KindAT is represented in a catalog, the catalog SHOULD identify the local kind and effective reference scheme. If the catalog also uses a signature, subkind relation, kind-use adaptation, bridge or extension, it SHOULD reference the corresponding declaration edition, relation or representation separately. Absence of a tag means “not set”, not K0.
 

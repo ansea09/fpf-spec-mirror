@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:10 — Rationale"
-line_start: 41468
-line_end: 41473
+line_start: 40637
+line_end: 40642
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,7 +45,7 @@ keywords:
 
 ### A.22.CGUS:10 - Rationale
 
-The recurring object is a thin specialization of A.22 `U.Structure`, not a new root kind. Constraint-based process modeling, object-centric querying, artifact-centric modeling, acausal modeling, and FPF pattern use all distinguish a constraint-bearing structure from a performed trace, work order, view, publication, solver run, or example path.
+The recurring object is a thin specialization of A.22 `U.Structure`, not a new root kind. The cited constraint-based, object-centric, artifact-centric and acausal approaches provide different ways to express relations and constraints beyond one displayed execution path. CGUS uses this design question while retaining its own A.22 identity and continuation tests.
 
 The same distinction appears in acausal engineering models: component relations and constraints can be stated before an analysis chooses a calculation direction. FPF adopts only that general separation. Mathematical models, analyses, executions, results, and publications keep their own kinds and rules.
 

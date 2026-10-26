@@ -6,12 +6,12 @@ section_id: "A.10.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:10 — Rationale"
-line_start: 27629
-line_end: 27638
+line_start: 27189
+line_end: 27198
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -26,7 +26,7 @@ keywords:
 
 ### A.10.1:10 - Rationale
 
-The pattern begins under A.10 because a source change matters through reliance, not through source succession alone. It is separate from A.10 because one known source-to-use account and the discovery of several partly unknown receivers have different first actions, coverage burdens, and stop rules.
+A source change matters through reliance, rather than source succession alone. A.10 handles one known source-to-use account; A.10.1 discovers several partly unknown receivers and therefore needs a bounded search frame, complementary discovery and its own coverage limits.
 
 The search frame solves the unknown-receiver problem without claiming a universal corpus. Complementary discovery solves a second asymmetry: source-side traces miss undeclared or equivalent premises, while receiver-side searches can miss transformed or aliased source content. The direct-use test then prevents either search route from becoming semantic authority.
 

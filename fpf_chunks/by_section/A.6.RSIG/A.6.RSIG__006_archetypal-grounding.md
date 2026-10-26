@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
   - "A.6.RSIG:5 — Archetypal grounding"
-line_start: 14574
-line_end: 14671
+line_start: 14308
+line_end: 14401
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -108,13 +108,9 @@ With only the cue, first ask what the pairwise comparison is intended to determi
    or review comment that mentions pairwise comparison.
 3. `applies_to` = comparison under a declared comparator set or characteristic
    family.
-4. `excludes` = publication of a selected set, execution planning, evidence
-   sufficiency, and one-off decision doctrine. If one of those questions is
-   current, apply the pattern that governs it and obtain the result it requires.
-5. `definitionEpistemeRef` = the relevant comparison or method pattern, not the
-   note itself.
+4. `excludes` = selection or publication rules absent from this defining description. Apply the governing pattern if either result is needed.
+5. `definitionEpistemeRef` = the defining comparison or Method-description episteme identified from the source, which this short cue does not supply.
 6. `nearby_false_description_or_wrong_definition_episteme` = selection/publication doctrine
    treated as if the method note had already settled it.
-7. `first_admissible_entry_stop_or_reroute` = method applicability is recognized or
-   rejected before selection semantics begin.
+7. `first_admissible_entry_stop_or_reroute` = inspect the identified comparison description. Its actual applicability and any subsequent selection still need their own conditions established.
 

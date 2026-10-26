@@ -6,12 +6,12 @@ section_id: "C.26.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:1 — Problem frame"
-line_start: 66021
-line_end: 66040
+line_start: 64982
+line_end: 65001
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -42,7 +42,7 @@ keywords:
 
 Use this pattern when a boundary read, meeting, metric, API read, dashboard, workshop, survey, split, bridge, or message is being used as if it merely revealed or transferred state, but the probe or interaction changes the represented state enough to alter the architecture decision.
 
-This is the main everyday entry into the QL cluster. It is useful because many teams already know how to talk about boundaries, interfaces, metrics, and workshops. The missing move is to notice when the act of reading or crossing the boundary participates in the state being read.
+The useful move is to recover what the interaction read, what it changed and which state its output can support. That ordinary result can finish the use. Add QL only under the separate C.26 activation test.
 
 | Working surface | Value |
 | --- | --- |

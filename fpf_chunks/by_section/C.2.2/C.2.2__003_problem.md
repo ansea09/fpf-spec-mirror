@@ -6,12 +6,12 @@ section_id: "C.2.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:2 — Problem"
-line_start: 52448
-line_end: 52457
+line_start: 51615
+line_end: 51623
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,5 +61,4 @@ FPF needs a reliability coordinate that is:
 2. **Composable.** Support can be combined under its warranted meanings and dependencies without illegal scale arithmetic; where no aggregate is justified, the separate contributions remain usable.
 3. **Orthogonal.** R is not conflated with F (expression) or G (scope).
 4. **Relation-aware.** Any loss declared by an actual scope-translation, kind, plane, notation, source-local, model-use, or evidence-reuse relation is explicit and affects **R only**.
-5. **Minimal.** The solution does not introduce new core types or new face-kinds.
 

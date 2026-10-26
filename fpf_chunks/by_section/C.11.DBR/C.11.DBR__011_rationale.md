@@ -6,12 +6,12 @@ section_id: "C.11.DBR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:10 — Rationale"
-line_start: 57685
-line_end: 57690
+line_start: 56783
+line_end: 56788
 dependencies:
   - "A.10"
   - "A.10.1"

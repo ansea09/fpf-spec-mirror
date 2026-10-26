@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:5"
 section_title: "Archetypal Grounding — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__007_archetypal-grounding-informative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:5 — Archetypal Grounding — informative"
-line_start: 39884
-line_end: 39930
+line_start: 39086
+line_end: 39132
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -40,7 +40,7 @@ keywords:
 
 #### A.19.SelectorMechanism:5.1 - Tell
 
-When comparisons are partial or set-valued, selection must not pretend there is a single best candidate by default. `SelectorMechanism` makes selection explicit, policy-bound, and replayable: it returns a set unless criteria explicitly demand otherwise.
+When comparisons are partial or set-valued, selection must not pretend there is a single best candidate by default. `SelectorMechanism` makes selection explicit, policy-bound, and replayable: it returns a set, including a singleton when the criteria determine one candidate.
 
 #### A.19.SelectorMechanism:5.2 - Show, U.System example
 
@@ -51,7 +51,7 @@ When comparisons are partial or set-valued, selection must not pretend there is 
 * The finite upstream comparison-application basis covers all three required pairs:
 
   * exact `Compare(OptionA, OptionB, ...)` has `GuardDecision = pass`: OptionB is strictly better than OptionA on latency, while OptionA is strictly better than OptionB on cost under the declared comparator. Its `ComparisonResultSlot` records those strict opposite wins, so neither dominates the other;
-  * exact `Compare(OptionA, OptionC, ...)` has `GuardDecision = degrade` because OptionC lacks the required risk attestation, and its output binding contributes no relation token about OptionC; and
+  * exact `Compare(OptionA, OptionC, ...)` has `GuardDecision = degrade` because OptionC lacks the required risk attestation. In this constructed case, the admitted comparator and partial-evidence policy explicitly define the empty token set as the lawful output for this restricted use; its output binding contributes no relation token about OptionC; and
   * exact `Compare(OptionB, OptionC, ...)` has the same explicit `degrade` basis and likewise contributes no relation token about OptionC.
 
   The Selector's `ComparisonResultSlot` argument is exactly the union of those justified member outputs, so its two tokens both trace to the `{A,B}` CPM application. No equality, worse-than, or `abstain` token is fabricated for OptionC.
@@ -62,7 +62,7 @@ When comparisons are partial or set-valued, selection must not pretend there is 
 
 * Under that explicitly bound `degrade` policy, `SelectEligibility` returns `degrade`, excludes OptionC without coercing unknown evidence, and `SelectionSlot` returns `{OptionA, OptionB}`.
 * If either required comparison involving OptionC instead had `GuardDecision = abstain`, that basis member would have no output binding, `SelectEligibility` would return `abstain`, and no selected-set value would be created. Neither guard value is a member of `ComparisonResultSlot` or `SelectionSlot`.
-* The dated selection `U.Work`, actual `Select` application, finite CPM application basis, evidence-policy and `SelectionSlot` bindings, and A.10 evidence-provenance path preserve why the reduced-set branch proceeded and why the abstain branch did not.
+* The actual selection or eligibility application, finite CPM application basis, policies and returned value or explicit absence preserve the branch taken. An A.10 provenance account is added for the bounded reliance at issue; any dated Work claim requires the independent grounds in §4.1.
 
 #### A.19.SelectorMechanism:5.3 - Show, U.Episteme example
 
@@ -79,7 +79,7 @@ When comparisons are partial or set-valued, selection must not pretend there is 
 **Outcome.**
 
 * `SelectionSlot` returns a selected set; any archive‑style behavior is a specialization and policy choice, not a hidden kernel default.
-* The dated selection `U.Work`, actual `Select` application with its `TaskSignatureRef.edition` and `SelectionSlot` bindings, and A.10 evidence-provenance path support later explanation without embedding tool tokens into the kernel.
+* The actual `Select` application retains its `TaskSignatureRef.edition`, effective criteria and `SelectionSlot` bindings for later explanation. Add provenance and dated Work only under their independent grounds in §4.1.
 
 ---
 

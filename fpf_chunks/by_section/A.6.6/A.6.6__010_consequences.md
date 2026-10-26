@@ -6,12 +6,12 @@ section_id: "A.6.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:9 — Consequences"
-line_start: 24204
-line_end: 24219
+line_start: 23784
+line_end: 23799
 dependencies:
   - "A.10"
   - "A.14"
@@ -45,7 +45,7 @@ keywords:
 **Benefits**
 
 - A readable direct assertion can close an ordinary question without record-first work.
-- Reusable declarations remain available when several consumers need the same participant meanings and laws.
+- Reusable declarations are available when a receiving use needs their participant typing and laws.
 - Scope, time, evidence, and continuity are explicit exactly where they change a predicate or receiving use.
 - Evidence use, source-local meaning, semantic Bridges, plane crossings, and ordinary help keep their own ontologies.
 

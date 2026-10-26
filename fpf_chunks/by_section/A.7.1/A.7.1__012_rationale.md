@@ -6,16 +6,19 @@ section_id: "A.7.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:10 — Rationale"
-line_start: 26246
-line_end: 26251
+line_start: 25796
+line_end: 25801
 dependencies:
+  - "A.11"
   - "A.7"
+  - "A.7.1"
   - "A.7.2"
   - "A.7.CP"
+  - "A.8"
   - "C.19.2"
   - "E.24"
   - "E.24.UK"
@@ -30,7 +33,7 @@ keywords:
 
 ### A.7.1:10 - Rationale
 
-Ontology effort should scale with changed consequence, not with available vocabulary. A subject-pattern invariant or grounded counterexample provides a better start than a universal checklist because it exposes why the current account fails. Four loci preserve the common places where repair occurs without forcing an order. The description-level narrowing of `C.19.2` carries the economics, work separation, and truthful one-apparatus path.
+Ontology effort should scale with the consequence that changes. A subject-pattern invariant or grounded counterexample exposes why the current account fails. The four loci distinguish where repair can occur without forcing an order. C.19.2 supplies the consequence-relative effort boundary, result separation and sufficient one-apparatus path.
 
 **Repair only the ontology that changes the engineering move.**
 

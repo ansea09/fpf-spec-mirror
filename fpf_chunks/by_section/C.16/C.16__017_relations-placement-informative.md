@@ -6,12 +6,12 @@ section_id: "C.16:15"
 section_title: "Relations - Placement (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__017_relations-placement-informative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:15 — Relations - Placement (Informative)"
-line_start: 58749
-line_end: 58778
+line_start: 57842
+line_end: 57871
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -81,5 +81,5 @@ keywords:
 
 **Using patterns.** KD‑CAL, Arch‑CAL, G.4, and other consumers cite C.16 measurement-result epistemes and then apply the direct patterns for their comparison, evaluation, acceptance, aggregation, or decision use, grounding dated `U.Work` when the account asserts it or the receiving use requires it. They do not produce a measurement merely by naming a template, score field, criterion, or evidence profile.
 
-**Unification (F‑cluster).** External standards (e.g., ISO 80000 quantity types; W3C SOSA/SSN observable properties; QUDT units/quantity kinds) are related via Concept‑Set rows and Bridges; MM‑CHR treats those alignments as context supplied by F‑patterns, not as local re‑definitions.
+**External terminology.** A standard can be cited and used in its own sense. When a C.16 use depends on correspondence between different local senses, use F.17 to identify the terms and F.9 to establish the needed Bridge. That correspondence does not itself establish a measurement result.
 

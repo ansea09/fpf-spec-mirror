@@ -6,12 +6,12 @@ section_id: "C.22.1:6"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__007_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:6 — Forces"
-line_start: 63222
-line_end: 63230
+line_start: 62199
+line_end: 62207
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -20,8 +20,6 @@ dependencies:
   - "C.24"
   - "E.10"
   - "E.16"
-  - "E.19"
-  - "E.22"
   - "E.23"
   - "G.11"
   - "G.5"
@@ -45,6 +43,6 @@ keywords:
 | :--- | :--- |
 | Threshold crossing vs final score | A static outcome can look similar even when one system specialized much faster or more cheaply than another. |
 | Local novelty vs reproducible evidence | Corridor-entry claims matter, but they are easy to over-romanticize when no baseline or entry evidence is published. |
-| Task anchor vs adaptation-signature question | The section must keep the adaptation-signature question readable without retyping task anchoring from `C.22` or turning selector/parity law into the same pattern. |
+| Task anchor vs adaptation-signature question | Task typing fixes what is being acquired; selector and parity rules govern subsequent comparisons. |
 | Reuse upside vs specialization cost | Transfer, retention, and downside matter to the same claim even when the first threshold crossing looks impressive. |
 

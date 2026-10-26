@@ -6,12 +6,12 @@ section_id: "A.6.3:8"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:8 — Conformance checklist"
-line_start: 17914
-line_end: 17927
+line_start: 17593
+line_end: 17606
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -35,12 +35,12 @@ keywords:
 1. X and Y each have recoverable C.2.1 identity.
 2. X and Y have the same exact EntityOfConcern; otherwise the route is A.6.4.
 3. The declaration states the exact claim construction, reference semantics, applicability, preserved content, and admitted loss.
-4. Y introduces no unsupported commitment about the EntityOfConcern.
+4. Every claim in Y has the support required by the viewing law, including any claim about a correspondence, evidence or evaluation result.
 5. Every correspondence-mediated dependency resolves to exact source epistemes and governed direct relations.
 6. `U.View` is asserted only after independent E.17.0 conformance.
 7. A viewpoint selected for a named describing use is not used as membership evidence and does not enter X or Y identity.
 8. Systems, tools, work, parameters, and production claims are recovered separately when actual construction work matters.
 9. Publication occurrence, form, carrier, and rendering remain separate from X, Y, and v.
-10. Composition, deterministic replay, and declared loss pass for the receiving use.
+10. Composition and declared loss satisfy their laws; any deterministic replay claim is tested under its stated conditions.
 11. Ordinary use stops without materializing objects the next work or decision does not need.
 

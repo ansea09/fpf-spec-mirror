@@ -6,12 +6,12 @@ section_id: "A.15.4:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__014_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:9 — Relations"
-line_start: 31020
-line_end: 31044
+line_start: 30575
+line_end: 30600
 dependencies:
   - "A.10"
   - "A.13"
@@ -60,7 +60,7 @@ keywords:
 
 #### A.15.4:9.1 - C.29 mathematical-lens use relation
 
-> If a mathematical lens appears in work-relevant appearance-based reliance repair, use `C.29` only to state why the lens helps expose or bound a reliance appearance such as generated wording, dashboard cue, copied phrase, publication form, MVPK face, publication carrier, rendering, `PublicationUnit`, or source-finding cue. Use `A.15.4` for the reliance appearance, required relation or result named by value, return or reopen condition, reliance relation, and whether that appearance can guide work under a recovered relation. Use `A.15` and `A.15.1` for method choice, plans, and performed work when those claims are being made; a `C.29` lens-use result does not turn a cue, rendering, or diagnostic phrase into source relation.
+> Use C.29 when a mathematical lens helps diagnose the apparent claim or bound a proposed inference. Return the result to the direct prerequisite test in A.15.4. For a Method, MethodDescription, plan or performed Work claim, use A.3.1, A.3.2, A.15.2 or A.15.1 respectively; A.15 explains their alignment. The lens supplies no missing subject relation.
 
 #### A.15.4:9.2 - P2W Result-Related Source Boundary
 
@@ -74,5 +74,6 @@ Lower an `A.15.4` use when the attempted Work or reliance claim, required relati
 
 Repair the local note or persisted claim when its appearance, source currentness, revocation, source order, dashboard or credential publication, copied or generated source relation, boundary wording, or work-result cue changes. Repair the recovered value through the applicable evidence, assurance, gate, constraint, system-role-assignment, assignment-state, Work, publication, boundary, permission, or authority pattern named in §3; A.15.4 does not replace the repair defined there.
 
-Refresh before allowing the reliance appearance to guide release, safety, compliance, a delegated system-role-assignment or assignment-state claim, contested source relation, cross-context reuse, work-result reliance, external-impact reliance, or irreversible Work. Stop at the smallest changed prerequisite or source relation: reliance appearance, selected source `U.Episteme` for the current claim, exact `EpistemePublicationRelation` occurrence when availability is material, publication form or carrier when either changed, required relation or result, source-currentness relation, system-role-assignment-state assertion or its evidence or currentness relation, credential-status record, context-state record, revocation record, gate relation, evidence relation, assurance relation, copied-source relation, generated-source relation, or Work relation.
+Before a consequential reliance use, confirm that the needed grounds remain applicable and sufficiently current. Reopen a changed, missing or expired prerequisite and every dependent use affected by it; retain unchanged applicable results. Apply the direct pattern to repair the failed premise, then reconsider the narrow disposition under A.15.4.
+
 

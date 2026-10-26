@@ -6,12 +6,12 @@ section_id: "A.2.2:5"
 section_title: "Work-Admission Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__006_work-admission-use.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:5 — Work-Admission Use"
-line_start: 5233
-line_end: 5257
+line_start: 5228
+line_end: 5252
 dependencies:
   - "A.1"
   - "A.15"
@@ -42,7 +42,7 @@ WorkAdmissionCheck:
   methodStepRequires: A.3.1 or A.3.2
   holderAbilityClaim: A.2.2 qualified claim about the assignment holder
   capabilityFitCondition: admission predicate over declared capability measures and any named characteristic, Q-Bundle, or architecture-characteristic inputs
-  performedWorkRecord: A.15.1 after execution
+  performedWorkRef?: A.15.1, only for a separately asserted dated Work occurrence
 ```
 
 The checks are separate:

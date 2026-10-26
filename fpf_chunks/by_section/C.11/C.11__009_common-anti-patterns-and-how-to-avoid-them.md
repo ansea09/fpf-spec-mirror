@@ -6,12 +6,12 @@ section_id: "C.11:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 57200
-line_end: 57218
+line_start: 56312
+line_end: 56330
 dependencies:
   - "A.10"
   - "A.13"
@@ -52,7 +52,7 @@ keywords:
 
 ### C.11:8 - Common Anti-Patterns and How to Avoid Them
 
-One quick usability test helps here: if the closing line does not state one lawful choice result for the working chooser or team, the current result is still unfinished even if the doctrine survey looks polished.
+A result is usable when its recipient can recover the choice and the grounds on which it follows.
 
 | Anti-pattern | Symptom | Why it fails | How to avoid / repair |
 | --- | --- | --- | --- |

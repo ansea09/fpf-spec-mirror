@@ -6,12 +6,12 @@ section_id: "A.1.CSD:8"
 section_title: "Common Failures and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__010_common-failures-and-repairs.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:8 — Common Failures and Repairs"
-line_start: 3979
-line_end: 3991
+line_start: 3974
+line_end: 3986
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -46,6 +46,6 @@ keywords:
 | Diagram proof | An arrow or model edge is treated as an obtaining relation. | State its status, participants, conditions, support, and uncertainty. |
 | Collection-to-System jump | A population, fleet, community, or aggregate is treated as one acting whole. | Apply A.1/C.13 to the exact candidate whole or retain the collection. |
 | Scale trump card | One constituent or larger whole receives automatic priority. | Preserve each consequence coordinate; route any comparison or priority claim to its owner. |
-| Universal assessment form | Every case must fill a domain-sized template. | Return the thin account that changes the receiver and name the residual. |
+| Universal assessment form | Every case must fill a domain-sized template. | Return the thin account that supports the receiving use and name the residual. |
 | Negative catalogue | The result mainly lists what was not found. | Return usable bearer claims, probes, direct-owner exits, and the honest blocker. |
 

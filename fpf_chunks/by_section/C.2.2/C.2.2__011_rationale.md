@@ -6,12 +6,12 @@ section_id: "C.2.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:10 — Rationale"
-line_start: 52705
-line_end: 52716
+line_start: 51871
+line_end: 51882
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -55,13 +55,13 @@ keywords:
 
 ### C.2.2:10 - Rationale
 
-A triad only works if each coordinate has a single job.
+The triad separates expression, applicability and warrant so that improving one is not mistaken for improving the others.
 
 * **G states applicability.** It states where the claim is asserted to apply. If G is implicit, teams argue about “what was meant” instead of updating scope.
 * **F describes expression properties.** It identifies what the claim's terms, semantics and inferential relations make available for interpretation, scrutiny and reuse. If these properties are conflated with R, formalisation becomes a rhetorical substitute for support.
 * **R carries warrant.** It describes support for this exact claim and use under a named meaning and scale. Its inputs must not erase the distinction between a necessary premise, complementary evidence, and a credible contrary result.
 
-Routing a traversed relation's declared congruence loss into **R only** prevents a subtle failure: a change of scope, kind, plane, notation, source-local meaning, model-use basis, or evidence basis cannot silently rewrite the claim or carry its old warrant forward.
+Each changed value has its own rule. Route a traversed relation's declared congruence loss into **R**; change the claim's expression or scope only through the applicable expression or scope operation. Re-establish warrant for the receiving use instead of carrying it forward without a basis.
 
 No universal fold is conservative for every support model. Minimum can overstate a conjunctive probability and can also suppress useful complementary evidence. The small common rule is to establish input meanings and dependencies, calculate only what they warrant, and otherwise preserve a useful bounded synthesis.
 

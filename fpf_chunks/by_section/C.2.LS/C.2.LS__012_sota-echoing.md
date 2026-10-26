@@ -6,12 +6,12 @@ section_id: "C.2.LS:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:11 — SoTA-Echoing"
-line_start: 53436
-line_end: 53450
+line_start: 52592
+line_end: 52602
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -42,16 +42,12 @@ keywords:
 
 ### C.2.LS:11 - SoTA-Echoing
 
-**SoTA note.** This section does not mint a second rule source. It is a load-bearing alignment statement: the Solution, Conformance Checklist, and boundary discipline of this pattern must match the stance stated here or explicitly justify divergence.
-
-**Source boundary.** The exact facet meanings and profile rules come from `A.18/A.19` and the neighboring FPF patterns. External sources are used only when they change a rule or case.
+**Source boundary.** The facet meanings and profile rules come from `A.18/A.19` and the neighboring FPF patterns. The external comparisons below contribute scoped conditions and publication distinctions.
 
 | Claim need | Bounded comparison | Exact source | Use in `C.2.LS` | Disposition |
 |---|---|---|---|---|
 | Readiness claims should stay scoped instead of collapsing into one global adjective. | A profile can state scoped conditions and local thresholds rather than one blanket readiness label. | NIST AI RMF 1.0 (2023) | Require explicit facet-level thresholds and reject a polished profile label as a substitute for the facet values. | **Adopt/Adapt.** |
 | A publication can keep several named description elements visible without making their container identical to those elements. | Architecture-description vocabulary distinguishes named elements and their correspondence in a published description. | ISO/IEC/IEEE 42010:2022 | Use this only as a narrow publication comparator; it does not establish the language-state facet ontology. | **Narrow comparator only.** |
-
-SysML v2 is deliberately excluded from the positive SoTA basis and from useful lineage for this question. Search prominence and official status do not show that it solves the facet-profile problem, and no demonstrated use here changes a rule or worked case. Treat it as a historical dead end for this comparison. Do not add a replacement citation merely to fill the removed row.
 
 **Local stance.** The useful bounded result is a small explicit facet profile with local thresholds and decomposable readings, not one maturity adjective or one route-coloured bundle label.
 

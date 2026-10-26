@@ -6,12 +6,12 @@ section_id: "A.2:7"
 section_title: "Working Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__009_working-guidance.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:7 — Working Guidance"
-line_start: 4655
-line_end: 4666
+line_start: 4650
+line_end: 4661
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -49,5 +49,5 @@ keywords:
 6. State each claim about state, capability, Method, Work, responsibility, commitment, permission, authority, evidence, or reliance through the pattern that defines or constrains it.
 7. Evaluate every subkind proposal from independently obtained aligned judgments; never use the proposed edge as a membership premise.
 8. For cross-local use, compare the C.3 definitions first. Reuse the same kind when its distinction continues; when two kinds are present, keep both kinds distinct and establish only the exact C.3.3 kind relation, any needed F.9 local-sense relation, and bounded-use claim actually consumed. In either branch, establish assignments independently; reusing the kind neither creates assignments nor licenses their substitution or merger.
-9. If the source uses *role* for another object, apply E.10.ROLE and continue with the recovered subject pattern; stop at `missing-governor` when no relation is yet admitted.
+9. If a technical use of *role* still hides another object, use E.10.ROLE and continue with the recovered subject pattern. If the relation itself is unclear, use A.6.P; return `missing-governor` through A.6.RCD only for a recovered relation lacking an applicable governor.
 

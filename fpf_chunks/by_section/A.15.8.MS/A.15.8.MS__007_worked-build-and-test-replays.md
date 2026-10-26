@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:5"
 section_title: "Worked Build and Test Replays"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__007_worked-build-and-test-replays.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:5 — Worked Build and Test Replays"
-line_start: 32211
-line_end: 32331
+line_start: 31773
+line_end: 31895
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -24,7 +24,7 @@ keywords:
 
 #### A.15.8.MS:5.1 - Minimal One-Task Manual Replay
 
-This small constructed replay shows the cheap branch without claiming field evidence. Assume that the named Method and MethodDescription editions are admitted and that the two retrieval occurrences are independently admitted under A.15.1; an actual use must supply those bases rather than inherit them from the example.
+This constructed replay shows the cheap branch. The named Method and MethodDescription editions are admitted. `CalibrationEngineer-5` is an independently identified System meeting the local `MethodMaterialRetrieverRole` criterion by controlling material selection. The directly declared `CalibrationRetrievalAssignment` species assigns that kind when service designation for family-B retrieval and access to its material obtain. Those stipulated facts establish `RA-CalEngineer5-Retrieve-B` throughout both retrieval intervals. The two retrieval Works occur within the admitted containing System `CalibrationPreparationService-1` on 27 August 2026: `W-ME10-Retrieve-Cal-B-0` from 08:00 to 08:02 UTC and `W-ME10-Retrieve-Cal-B-1` from 08:05 to 08:07 UTC. Their performance histories independently establish enactment of the admitted `MethodMaterialRetrievalMethod-1`; no assignment-bound attribution is needed for this comparison.
 
 `CalibrationEngineer-5` must retrieve the current description of admitted Method `M-Calibrate-Sensor-B` for planned calibration Work. The pass criterion is: return `MD-Calibrate-Sensor-B-v4`, its current status, applicability to sensor family B, and the stop for an unknown serial class. The failure criterion is return of another edition or omission of status, applicability, or stop.
 
@@ -52,7 +52,7 @@ The input is sensor B-17 with a required interval of 0–10 V, description v4, a
 
 Configure one local planning worksheet to consume those inputs. Its tailoring rule is explicit: establish sensor class and the register's currentness; check the supplied approval relation and compatible units; require `fixture lower bound <= required lower bound` and `required upper bound <= fixture upper bound`; copy the allowed selection into the plan while retaining v4's fixed operations and stops. Selecting a parameter within these declared options creates a plan for this case; it does not by itself alter reusable Method semantics. If the task needs a new acceptance rule, return to Method design and A.3.1.MV instead of silently editing the template.
 
-In the first constructed planning Work, the worksheet lists both fixtures but checks approval only. The user chooses F5 and obtains a plan labelled ready. The task fails: 5 V does not cover the required upper bound of 10 V. The register and v4 rule are correct, so the repair belongs to the worksheet's omitted interval check. Add that check before export. In a separate repeat of the same task, F5 is rejected with the uncovered 5–10 V interval, F10 is accepted, and the resulting plan retains the prescribed operations and stops. A further changed-input probe with an unknown serial class stops before fixture selection. These are stipulated Work occurrences in the constructed replay; an actual claim needs its own admitted Work and observations.
+In the first constructed planning attempt, the worksheet lists both fixtures but checks approval only. The user chooses F5 and obtains a plan labelled ready. The task fails: 5 V does not cover the required upper bound of 10 V. The register and v4 rule are correct, so the repair belongs to the worksheet's omitted interval check. Add that check before export. In a separate repeat of the same task, F5 is rejected with the uncovered 5–10 V interval, F10 is accepted, and the resulting plan retains the prescribed operations and stops. A further changed-input probe with an unknown serial class stops before fixture selection. These are stipulated observations in the constructed replay. A receiving claim that distinguishes dated Work occurrences must supply each occurrence's A.13 and A.15.1 basis.
 
 The receiving result is bounded: the repaired worksheet supports this permitted plan adaptation under the named edition, register and task conditions. The earlier retrieval result alone supplied none of this evidence. A changed fixture register reopens its coverage and currentness premises; a changed tailoring rule reopens the affected plan construction; a failed repeat returns to the defeated worksheet check. Neither the successful preparation nor the worksheet's ready label establishes release authority, general user capability, Method fit, or the result of performing the calibration.
 
@@ -103,7 +103,7 @@ The receiving relations remain direct: `TraceReviewer-17` retrieves the edition 
 | Candidate configuration | Evidence against the same three rows | Disposition for this case |
 | --- | --- | --- |
 | Published files and manual lookup only | The case supplies no performed task evidence for current status, `ATP-2`, D0, stale-edition rejection, signed-before-closure, or A/B2/R stops through this route. | Untested. Do not call it failed or insufficient from absent task evidence alone. |
-| Bounded PLM retrieval and selection aids plus the non-confidential CI tailoring fixture | Retrieval and branch-selection pass their declared checks through the identified PLM and CI Systems. Tailoring observations cover the fixture, signed-before-closure and stale-edition rejection, but not the permission/authority stop. | Supported for the observed actions; The missing tailoring definition and `missing-task-test[tailoring-permission-authority-stop]` prevent a pass for the complete three-task set. No claim of global minimality or parity superiority. |
+| Bounded PLM retrieval and selection aids plus the non-confidential CI tailoring fixture | Retrieval and branch-selection pass their declared checks through the identified PLM and CI Systems. Tailoring observations cover the fixture, signed-before-closure and stale-edition rejection, but not the permission/authority stop. | Supported for the observed actions; the missing tailoring definition and `missing-task-test[tailoring-permission-authority-stop]` prevent a pass for the complete three-task set. No claim of global minimality or parity superiority. |
 | Add an AI-provider route and feedback path | The case supplies no AI-provider interaction, used suggestion, review of such a suggestion, feedback Work, or feedback receiving use. No mandatory row currently requires this branch. | Outside the supported pass and untested; retain as named gaps, not features. |
 
 The configured PLM/CI route includes the Method Base edition and status cues, PLM retrieval and branch-selection aids, the CI fixture and stale-edition rejection, `ATP-2`, and the confidentiality, signed-evidence, assignment, permission, authority, reversibility, and D0 stops. The manual and AI routes lack parity evidence, so this table does not select the globally smallest arrangement. It identifies the only configuration with performed observations across all three tasks; the missing tailoring definition and tailoring-stop test still prevent complete task-set support. It is not an A.22 selected structure.
@@ -114,6 +114,8 @@ The case names tailoring aid `TAIL-EC417-B2-1` and Work `W-MESUP-EC417-Tailor-1`
 
 #### A.15.8.MS:5.4 - Three Performed Tasks and Their Bounded Reach
 
+The supplied EC-417 account takes the three Work occurrences below as admitted premises. Their admission is not established by these task observations. An actual use must recover each performer through A.13 and each independent A.15.1 basis, including Method, time and containing-System relation; use F.6 only if the account needs attribution through the same obtaining assignment. Without those grounds, retain the reported observations without asserting the Work identity.
+
 | User Work | System interaction and observed result | Result boundary |
 | --- | --- | --- |
 | `W-MESUP-EC417-Retrieve-1` by `TraceReviewer-17` | The user retrieves `MBE-EC417-B2-1` through `SYS-EC417-PLM-1` and recovers candidate status, `ATP-2`, the confidentiality boundary, and the D0 stop. The local `SupportSystemUsedInWork@EC417` occurrence obtains for that Work-System pair and interaction interval. | The result establishes this retrieval task only; it creates no general access entitlement, capability, or authority. |
@@ -122,7 +124,7 @@ The case names tailoring aid `TAIL-EC417-B2-1` and Work `W-MESUP-EC417-Tailor-1`
 
 `RES-MESUP-EC417-B2-1` returns `task-pass` for retrieval and branch selection. It retains the observed tailoring fixture, signed-before-closure and stale-edition results, but returns `missing-task-set[tailoring-input-action-result]` and the separate `missing-task-test[tailoring-permission-authority-stop]` for the full tailoring task. The other user's branch-selection stop does not fill that gap. No AI-provider interaction, used AI suggestion, review of such a suggestion, feedback SpeechAct, or feedback receiving use is part of that pass. Retrieving `ATP-2` is not provider use.
 
-No repair and rerun occurrence is asserted for EC-417: no performed task is reported as failed, and an untested tailoring stop is not a performed failure. If a later task fails, apply step 12 and add its Work and rerun rather than rewriting these histories. The minimal one-task replay supplies the filled failure-repair-rerun branch; the two-task extension supplies the unresolved-trade-off branch.
+No repair and rerun occurrence is asserted for EC-417: no performed task is reported as failed, and an untested tailoring stop is not a performed failure. If a later task fails, apply step 12 and preserve the new observation and rerun separately from these histories; identify dated Work only when needed by the receiving claim. The minimal one-task replay supplies the filled failure-repair-rerun branch; the two-task extension supplies the unresolved-trade-off branch.
 
 #### A.15.8.MS:5.5 - Proposed Organization, Not a Selected Structure
 

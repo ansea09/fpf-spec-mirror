@@ -6,12 +6,12 @@ section_id: "A.2.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__003_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:1 — Problem Frame"
-line_start: 4790
-line_end: 4799
+line_start: 4785
+line_end: 4794
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -46,7 +46,7 @@ keywords:
 
 `U.SystemRoleAssignment` is the common relation family. It has no permissive root `RelationSignature`. Concrete domain species declare the participant law that their occurrences actually satisfy. A simple inspection assignment may need only the holder and assigned kind. A project-review appointment may also depend on one exact commission. The stronger occurrence itself is the assignment; it does not sit beside a weaker generic assignment with the same projection.
 
-The holder can be any independently admitted `U.System`, including a person, team, organization, service, organism, or non-human technical object. Assignment establishes neither capability, responsibility, commitment, permission, authority, access, gate passage, functioning, Method enactment, nor performed Work.
+The holder can be any independently admitted `U.System`, including a person, team, organization, deployed service system, organism, or non-human technical object. Assignment establishes neither capability, responsibility, commitment, permission, authority, access, gate passage, functioning, Method enactment, nor performed Work.
 
 Taxonomy epistemes, reference schemes, `KindSignature`s, assertions, and interval descriptions can interpret or describe the assignment claim. They are not generic world-side assignment participants. A selected `BoundedModelUseStructure` belongs in the receiving assertion or use unless one separately admitted relation species makes that structure a required identity-bearing participant.
 

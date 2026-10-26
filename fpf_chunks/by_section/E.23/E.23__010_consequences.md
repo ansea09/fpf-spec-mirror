@@ -6,12 +6,12 @@ section_id: "E.23:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:9 — Consequences"
-line_start: 114457
-line_end: 114465
+line_start: 113277
+line_end: 113285
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"

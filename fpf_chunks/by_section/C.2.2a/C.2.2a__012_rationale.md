@@ -6,12 +6,12 @@ section_id: "C.2.2a:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:10 — Rationale"
-line_start: 52927
-line_end: 52929
+line_start: 52083
+line_end: 52085
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,5 +45,5 @@ keywords:
 ---
 
 ### C.2.2a:10 - Rationale
-Language-state work needs one explicit statement of what this chart is before individual facet, move, and endpoint patterns start using it. Without that statement, readers have to reconstruct the same geometry from scattered local rules and examples.
+Language-state work needs one explicit statement of what this chart is before individual facet, move, and endpoint patterns start using it. Its declared basis and each facet's rule let readers interpret a position and test the threshold needed by the next action.
 

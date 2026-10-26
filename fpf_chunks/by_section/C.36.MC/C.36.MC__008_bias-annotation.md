@@ -6,12 +6,12 @@ section_id: "C.36.MC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:6 — Bias-Annotation"
-line_start: 90622
-line_end: 90634
+line_start: 89442
+line_end: 89454
 dependencies:
   - "A.15.1"
   - "A.3.1"
@@ -27,7 +27,7 @@ keywords:
 | Recurring bias | Likely drift | Repair |
 | --- | --- | --- |
 | candidate-enactment bias | A source-described candidate or observed practice becomes an admitted Method and enactment occurrence. | Use the candidate branch until A.3.1 and A.15.1 independently succeed. |
-| relation-label bias | “Transmission”, “selection”, or “memory” substitutes for value, participants, applicability, and obtaining predicate. | Apply A.6.RCD and state a positive plus discriminating negative case. |
+| relation-label bias | “Transmission”, “selection”, or “memory” substitutes for value, participants, applicability, and obtaining predicate. | Use an existing direct predicate or derive the needed claim through A.6.RCD; state a positive and a discriminating negative case. |
 | claim-as-occurrence bias | A claim episteme, identifier, or later report creates or preserves a world-side relation occurrence. | Separate claim, evidence, interval observations, and conditional A.6.REL identity. |
 | carrier-bundle bias | Cards, teaching, tutoring, repository, rules, fields, and forums become one unnamed subject. | Name every actual subject and direct relation used; select a structure or architecture only when its governor applies. |
 | authorization inflation | Ownership, project position, assignment, permission, authority, and expertise become interchangeable. | Name the assignment, permission, or authority predicate, participants, permitted change, scope, and positive basis. |

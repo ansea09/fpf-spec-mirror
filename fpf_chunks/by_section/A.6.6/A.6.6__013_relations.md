@@ -6,12 +6,12 @@ section_id: "A.6.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:12 — Relations"
-line_start: 24261
-line_end: 24286
+line_start: 23839
+line_end: 23862
 dependencies:
   - "A.10"
   - "A.14"
@@ -42,13 +42,11 @@ keywords:
 
 ### A.6.6:12 - Relations
 
-
-
 **Specialises A.6.P Relational Precision Restoration.** A.6.6 handles basedness wording by recovering the actual dependent, base, and direct relation, then stopping or opening only the additional object required by a named use.
 
 **Builds on A.6.REL and `A.6.0`.** The direct pattern supplies relation obtaining and occurrence identity. A reusable `RelationSignature` is justified only for an already admitted relation kind and shared declaration content; the declaration form alone establishes no occurrence.
 
-**Builds on A.6.5 only when reusable declaration content is current.** SlotKinds, ValueKinds, and reference modes type participant positions inside that `RelationSignature`; an ordinary one-case assertion needs no SlotSpec record.
+**Builds on A.6.5 only when reusable declaration content is current.** A SlotSpec declares a participant meaning, ValueKind and designation mode inside one RelationSignature. An ordinary assertion needs no SlotSpec record unless its receiving use requires that declaration.
 
 **Coordinates with A.2.4 and A.10.** A.2.4 states the exact evidence-use relation. A.10 represents the independently established sources, Work, result epistemes, carriers, provenance, currentness, and later-use relations needed for bounded reliance. Neither pattern admits generic `verifiedBy` or `validatedBy` edges, and Work is not an evidence carrier.
 
@@ -58,7 +56,7 @@ keywords:
 
 **Coordinates with F.9 and ReferencePlane rules conditionally.** F.9 applies only to an obtaining Bridge between two exact F.17 cells and keeps its bounded-use claim separate. A ReferencePlane crossing uses its applicable plane relation. If both are current, state both; if only one is current, introduce no object from the other branch.
 
-**Coordinates with A.2.6, A.7, and E.24.UK:** A.2.6 governs scope and explicit `Γ_time`; implicit “latest/current” remains inadmissible. A.7 keeps EntityOfConcern, Description-episteme, specification use, and publication face, form, unit, carrier, and rendering distinct. E.24.UK supplies the kind-admission boundary applied in A.6.6:4.1.
+**Coordinates with A.2.6, A.7, and E.24.UK:** A.2.6 governs scope and Γ_time when the assertion or receiving use depends on them. A.7 distinguishes EntityOfConcern, description, specification and publication uses. E.24.UK supplies the U-kind admission boundary; an optional local record form admits no new kind.
 
 **Coordinates with C.3.3 and E.18.** C.3.3 supplies `U.KindBridge` only for an independently established cross-local kind correspondence, with its exact kinds, direction, declared `CL^k`, and use/loss conditions; different participant kinds alone establish no KindBridge or silent re-typing. E.18 retains the meanings of its assurance operations on `U.Transfer`, including `CalibrateTo`, `CiteEvidence`, `AttributeTo`, and `ConstrainTo`; A.6.6's declaration-change labels do not replace them.
 

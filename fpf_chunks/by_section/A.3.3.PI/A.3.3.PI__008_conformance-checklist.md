@@ -6,12 +6,12 @@ section_id: "A.3.3.PI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.PI/A.3.3.PI__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
   - "A.3.3.PI:7 — Conformance Checklist"
-line_start: 12901
-line_end: 12911
+line_start: 12776
+line_end: 12786
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"
@@ -33,5 +33,5 @@ keywords:
 - **CC-A3.3.PI-5 - Probabilistic account.** A probability claim supplies the initial, transition and observation assumptions it uses.
 - **CC-A3.3.PI-6 - Scope and error.** A sufficiency or performance claim is supported over its stated cases and horizon, with consequential observation and approximation error accounted for.
 - **CC-A3.3.PI-7 - Repeated use.** Repeated prediction supplies an update of the retained information or a predictor covering the intended horizon.
-- **CC-A3.3.PI-8 - Worthwhile return.** The result changes the calculation or decision; further information is sought when its expected contribution warrants the work.
+- **CC-A3.3.PI-8 - Worthwhile return.** The result supplies the information needed for the calculation or decision; further information is sought when its expected contribution warrants the work.
 

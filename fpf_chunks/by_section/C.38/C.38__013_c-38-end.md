@@ -6,12 +6,12 @@ section_id: "C.38:End"
 section_title: "C.38:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__013_c-38-end.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:End — C.38:End"
-line_start: 82797
-line_end: 82800
+line_start: 81621
+line_end: 81624
 dependencies:
   - "A.10"
   - "A.15.9"

@@ -6,12 +6,12 @@ section_id: "A.6.7:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:12 — Relations"
-line_start: 24746
-line_end: 24753
+line_start: 24304
+line_end: 24311
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -42,6 +42,6 @@ keywords:
 * **Relates to A.6.1:** suite members are `U.Mechanism`; the suite does not replace the mechanism definition.
 * **Relates to A.6.5:** member operation declarations retain A.6.1 argument/result meanings, ValueKinds and binding rules. A.6.5 applies only where a cited `RelationSignature` independently declares participant SlotSpecs; there SlotKind stability, correct refMode and non-semantic SlotIndex remain required.
 * **Relates to E.18 / P2W:** suite protocols describe intended composition; use E.18 for the selected transformation-flow structure and its crossings, and E.18.1 for P2W carry-through.
-* **Suite conformance:** Suite-level conformance uses the conceptual checklist in §7; suites require pins/anchors rather than procedural validation.
+* **Suite conformance:** use §7 for the applicable requirements. Resolve required references and check the content and facts those requirements consume; a pin's presence alone does not establish conformance.
 * **Relates to G.10:** suites are not packs; G.10 handles shipping of Part-G outputs as a SoTA pack, while E.17 publishes reader-facing forms of an already accepted engineering account.
 

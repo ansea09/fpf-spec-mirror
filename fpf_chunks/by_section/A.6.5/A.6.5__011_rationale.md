@@ -6,12 +6,12 @@ section_id: "A.6.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:10 — Rationale"
-line_start: 23808
-line_end: 23815
+line_start: 23390
+line_end: 23397
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -28,7 +28,7 @@ keywords:
 
 ### A.6.5:10 - Rationale
 
-SlotKind, ValueKind, and `refMode` answer three different engineering questions about one `RelationSignature`: **which participant meaning does this declaration distinguish**, **what exact world-side kind must the corresponding actual participant have**, and **how does a receiving assertion or description episteme designate that participant**. When `refMode` selects reference designation, RefKind names the exact reference kind. Keeping the answers separate is enough to support typed substitution and honest reference use without adding a universal relation record.
+SlotKind, ValueKind, and `refMode` answer three different engineering questions about one `RelationSignature`: **which participant meaning does this declaration distinguish**, **what kind must an entity designated under that meaning have**, and **how does a receiving assertion or description episteme designate that participant**. When `refMode` selects reference designation, RefKind names the exact reference kind. Keeping the answers separate is enough to support typed substitution and honest reference use without adding a universal relation record.
 
 The direct-relation definition remains essential. A pair of typed participants does not say whether the relation obtains or whether repeated occurrences with the same participants are identical. Constructive ontology therefore combines logical slot discipline with grounding and domain identity rather than treating a schema as the world.
 

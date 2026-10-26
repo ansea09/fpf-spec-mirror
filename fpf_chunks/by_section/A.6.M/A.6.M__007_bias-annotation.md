@@ -6,12 +6,12 @@ section_id: "A.6.M:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:6 — Bias-Annotation"
-line_start: 23372
-line_end: 23383
+line_start: 22962
+line_end: 22973
 dependencies:
   - "A.10"
   - "A.20"
@@ -32,21 +32,14 @@ dependencies:
   - "E.20"
   - "G.5"
 keywords:
-  - "are used only for pattern users"
-  - "claims"
   - "component"
-  - "conformance items"
-  - "evidence records"
   - "interface"
   - "interface specification"
   - "layer"
   - "module relation"
   - "open architecture"
-  - "or assurance records. Modeled modules and interfaces are not written as agents with duties"
-  - "or publication records"
   - "platform"
   - "port"
-  - "records"
   - "stack"
   - "substitutability"
 ---
@@ -59,7 +52,7 @@ keywords:
 | Open-label bias | Do not treat "open" as substitutability. Recover standards, conformance expectations, data or access constraints, and change policy when those conditions are part of the claim being made. |
 | Component bias | Do not treat every part as a module. Apply A.14 to component wording unless a module-interface relation is being claimed. |
 | Interface-label bias | Do not treat API, port, endpoint, or signature labels as implemented compatibility. Recover the independently identified `InterfaceSpecification` episteme and a governed reference that resolves it, or record an exact specification gap. |
-| Team-boundary bias | Do not treat Conway-like mirroring, a responsibility label, team communication boundary, or delivery-unit label as a module boundary. Recover the admitted Systems, exact system-role kinds and assignments needed for Work, Work and procedural relations, and direct responsibility predicate or exact missing governor first; add module-interface correspondence only when the boundary and interface specification are declared. |
+| Team-boundary bias | A team boundary or responsibility label does not establish a module boundary. Recover only the team, Work, system-role or responsibility claims actually needed, each under its rule and facts. Then assess the module-interface correspondence and specification. |
 | Parallelism bias | Do not treat decomposition into more modules, teams, services, or transformation-flow paths as performance or evolvability improvement. Recover serial work, synchronization, communication overhead, shared resources, and bottleneck claims through `E.18`, `C.30.TFS-REL`, C.29, C.31, or neighboring characteristic patterns when those claims are being made. |
 | Platform bias | Do not treat a platform name as architecture quality. Recover platform grammar and the claim named by value it can substantiate. |
 

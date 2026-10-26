@@ -6,12 +6,12 @@ section_id: "C.26.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:7 — Conformance Checklist"
-line_start: 66594
-line_end: 66612
+line_start: 65555
+line_end: 65573
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,6 +51,6 @@ keywords:
 | CC-C26.2.10 | Probe / measurement approximation, attempted export, faithful-enough criterion, loss cause, and higher-fidelity export possibility are stated when export or measurement carries the claim. |
 | CC-C26.2.11 | Export loss is stated when the claim depends on export that is not faithful enough for the declared use. |
 | CC-C26.2.12 | The evidence posture is stated when the claim is reused, contested, or higher consequence. |
-| CC-C26.2.13 | Formal measurement uses `C.16`; evidence provenance and bounded reliance use `A.10`; actual named assurance claims use `B.3`, and `QLP-3` requires a `B.3` assurance result for the named QL target claim and receiving use; loss in a cross-context Bridge between exact local senses uses `F.9`. |
+| CC-C26.2.13 | Formal measurement uses `C.16`; evidence provenance and bounded reliance use `A.10`; actual named assurance claims use `B.3`, and `QLP-3` requires a `B.3` assurance result for the target claim and receiving use; loss in a cross-context Bridge between exact local senses uses `F.9`. |
 | CC-C26.2.14 | The pattern inherits `QL-NQ` from `C.26` and does not mint `U.DistributedState`. |
 

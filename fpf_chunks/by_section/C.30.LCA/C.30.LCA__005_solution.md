@@ -6,12 +6,12 @@ section_id: "C.30.LCA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:4 — Solution"
-line_start: 74207
-line_end: 74386
+line_start: 73155
+line_end: 73334
 dependencies:
   - "A.10"
   - "A.20"
@@ -47,11 +47,11 @@ keywords:
 
 ### C.30.LCA:4 - Solution
 
-Treat LCA-like source descriptions as possible inputs to a control-structure description under C.30. Recover one described holon, any actual architecture relation, one selected control structure, the controlled holon, independently obtaining observation, actuation, reference and supervision relations, and the participant meaning in each relation. For B.2.5 feedback, retain the compound assertion alongside its base relations.
+Treat LCA-like source descriptions as possible inputs to a control-structure description under C.30. Identify the controlled holon and the actual control relations needed by the question, such as observation, actuation, reference provision or supervision, with each participant's meaning. For a selected-structure or full-view claim, identify that control structure and its described-holon trace; add an actual architecture relation only when independently established. For B.2.5 feedback, retain the compound assertion alongside its base relations.
 
-Add participating Systems, local kinds, separate System-classification judgments, assignment species and obtaining occurrences, Methods, and actual Work only when the corresponding fact is independently established. Use A.22 to identify the selected structure from its constituents, selected obtaining relation occurrences, applied constraint claims, and receiving-use frame; a note, diagram, list, description, kind, or assignment creates none of them. If a source label is not yet control-specific, apply `C.30.STRAT` first. Then state admissible use and the next pattern to use.
+Add participating Systems, local kinds, separate System-classification judgments, assignment species and obtaining occurrences, Methods, and actual Work only when the corresponding fact is independently established. Use A.22 to identify the selected structure from its constituents, selected obtaining relation occurrences, applied constraint claims, and receiving-use frame; a note, diagram, list, description, kind, or assignment creates none of them. If a source label is not yet control-specific, apply `C.30.STRAT` first. Then state the supported conclusion and any further pattern needed by the question.
 
-When the result must retain boundary, admissible-use, or handoff detail, expand the same `ControlStructureViewNote`:
+Retain any needed boundary, admissible-use or handoff detail in the existing account. This expanded `ControlStructureViewNote` can organize it:
 
 ```text
 ControlStructureViewNote:
@@ -77,7 +77,7 @@ ControlStructureViewNote:
   stopCondition:
 ```
 
-Use `rateBandRef?`, `controlLayerRelationRef?`, and `externalityBoundaryRef?` only when that object or relation changes the control-structure use. Otherwise the note may stop after one actual control relation, feedback-closure state, and the next pattern to use. Generic stratification labels stay with `C.30.STRAT` until a control-specific relation is recovered.
+Use `rateBandRef?`, `controlLayerRelationRef?`, and `externalityBoundaryRef?` only when that object or relation changes the control-structure use. Otherwise one actual control relation and its feedback-closure state can answer the question; name a further pattern only if its contribution is needed. Generic stratification labels stay with `C.30.STRAT` until a control-specific relation is recovered.
 
 When a recovered control-layer relation is used to justify decomposition, substitution, or design reliance, recover the inter-layer assumption-guarantee relation or mark the control-layer relation as orientation only. `interLayerControlRelationRefs?` is used only when the relation is already control-specific and is used for decomposition, substitution, design reliance, safety, or stability claims.
 
@@ -209,19 +209,19 @@ The note gives a positive safety-triggered architecture move: find the loss-cont
 
 **Control-specific stratification gate.** `Layer`, `level`, `tier`, and `stack` enter C.30.LCA only after `C.30.STRAT` or the local sentence recovers a direct control relation, inter-layer control relation, rate band, or `B.2.5` supervisor-subholon relation. An assignment alone is insufficient, and the label by itself establishes neither control structure nor separation.
 
-**B.2.5 boundary.** Use `B.2.5` for the compound supervisor-subholon feedback assertion. The description cites its observation and returned-influence base relations in `feedbackRelationRefs` and the assertion in `feedbackClaimRefs`; it does not coerce an episteme into U.Relation. Keep the coupling rule and facts recoverable from the assertion. Use the relevant patterns for stability, safety, causality, evidence, gate and assurance claims. If action involving an episteme is claimed, recover the exact performing System through A.13 and admit the dated Work and enacted Method independently through A.15.1. Add an assignment occurrence and F.6 only when the account expressly consumes precise assignment-bound attribution; keep publication, source-to-use, and work-reliance relations separate.
+**B.2.5 boundary.** Use `B.2.5` for the compound supervisor-subholon feedback assertion. The description cites its observation and returned-influence base relations in `feedbackRelationRefs` and the assertion in `feedbackClaimRefs`; it does not coerce an episteme into U.Relation. Keep the coupling rule and facts recoverable from the assertion. Use the relevant patterns for stability, safety, causality, evidence, gate and assurance claims. If a particular dated Work occurrence involving an episteme is claimed, recover the exact performing System through A.13 and admit the Work and enacted Method independently through A.15.1. Add an assignment occurrence and F.6 only when the account expressly consumes precise assignment-bound attribution; keep publication, source-to-use, and work-reliance relations separate.
 
 **Transformation-flow boundary.** An `E.18` transformation-flow path slice may supply flow-structure, path, crossing, or transformation-flow-structure input to the control view when that relation is being used. The transformation-flow description may use a mathematical graph expression under `E.18.2`; the description is a `U.View` only when E.17.0 conformance obtains. Neither the expression nor the description becomes the functional architecture, the control structure, or proof of control adequacy.
 
 **C.29 boundary.** An LCA can be a model used for one selected control structure, or it can be used as a transferable mathematical lens. Use `C.29` when a mathematical lens makes transfer, prediction, reusable cross-domain explanation, or another control-structure use more inspectable. Dynamics, rate bands, authored temporal-claim adequacy, and causal claims remain with `A.3.3`, `C.27.TA`, `C.27`, and `C.28`.
 
-**Nesting and scale rule.** If a control-structure view nests without a local depth limit, the record uses `scaleAuditRef?` when the nesting affects latency, stability, observability, accountability, or assurance.
+**Nesting and scale rule.** When nested control affects latency, stability, observability, accountability or assurance, recover the affected relation and the bounds needed for that use. Retain a scale-audit reference only when the applicable receiving rule calls for it; nesting alone requires no additional record.
 
 **Worked slice A - LCA diagram used as proof.** A safety note says: `The Layered Control Architecture proves the plant is safe because the supervisor monitors the lower controller.` A conforming repair keeps the control-structure view and names planner, controller, plant, and supervisor relations, observation and actuation boundaries, and any rate bands. Use the applicable safety pattern for the safety claim, `B.3` only for a named assurance claim, `A.10` for bounded source-to-use reliance, `G.6` for citable provenance paths, `C.27.TA` for temporal aspects and rate bands, `C.27` for authored temporal-claim adequacy, and `A.3.3` or the applicable dynamics pattern for dynamics or stability.
 
 **Worked slice B - multi-rate controller.** A source says a control stack has a slow planner, a faster regulator, and an observer with a different update period. Apply `C.30.LCA` only after the stack label has been recovered as exact reference-provision, regulation, observation, or other control relations with their participant meanings and rate bands; otherwise use `C.30.STRAT` first. Systems, classifications, assignments, Methods, and Work are added only where independently current. A C.30.LCA description establishes no rate adequacy. If the rate relation matters for oscillation, latency, stability, or safety, next use `C.27.TA` for temporal aspect or rate-band structure, `C.27` when an authored temporal-claim adequacy question is under repair, and the dynamics or assurance pattern named by value when that claim kind is being made.
 
-**Worked slice C - supervisor-subholon loop.** A subsystem is supervised by an external controller System. The C.30.LCA note cites the observation and returned-influence relations together with B.2.5's compound assertion and its coupling basis. If that System performs mode-change Work, recover it through A.13 and admit the Work and enacted Method independently through A.15.1. Add an assignment occurrence and F.6 only when this slice also expressly represents precise assignment-bound attribution; missing or failed F.6 leaves the mode-change Work intact. Authority, responsibility, gate passage, safety, stability, and policy-constraint results remain separate claims under their own patterns; the supervisor relation establishes none of them.
+**Worked slice C - supervisor-subholon loop.** A subsystem is supervised by an external controller System. The C.30.LCA note cites the observation and returned-influence relations together with B.2.5's compound assertion and its coupling basis. If that System performs mode-change Work, recover it through A.13 and admit the Work and enacted Method independently through A.15.1. Add an assignment occurrence and F.6 only when this slice also expressly represents precise assignment-bound attribution; missing or failed F.6 attribution alone leaves the mode-change Work intact while its independent A.13/A.15.1 grounds still hold. Authority, responsibility, gate passage, safety, stability, and policy-constraint results remain separate claims under their own patterns; the supervisor relation establishes none of them.
 
 **Currentness and smallest reopen.** When a decisive input changes, reopen only the control-structure locus and the use conclusions that depend on it. A changed selected control structure or controlled holon reopens the affected `ControlStructureViewNote` or full description and view; a changed direct control relation or participant meaning reopens that occurrence and its dependent structure selection; a changed classification, assignment, Method, Work, or F.6 attribution reopens only that neighboring fact and any view use that relied on it. A changed B.2.5 coupling rule, supervised set or report/return fact reopens the affected pair and interval assertion, its cited base relations where changed, and dependent structure uses. A communication break need not end an assignment; reconnection requires new supporting facts. Changed rate or control-layer relations reopen only their matching relation or boundary fields; changed view conformance reopens only the E.17.0 admission; and a changed source edition reopens its source-to-use and source-return locus. A changed authority, responsibility, safety, proof, evidence, assurance, or gate claim reopens only that neighboring claim unless a control-structure input also changed. Update the affected locus, demote full view use to a note or orientation, narrow use, or reopen the control-structure question; unrelated structures and claims stay closed.
 

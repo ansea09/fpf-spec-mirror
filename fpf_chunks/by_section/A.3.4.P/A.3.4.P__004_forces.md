@@ -6,12 +6,12 @@ section_id: "A.3.4.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:3 — Forces"
-line_start: 13372
-line_end: 13381
+line_start: 13214
+line_end: 13223
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -60,7 +60,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Recognition and precision | Source labels help readers recognize a change situation, but FPF use needs a recovered kind, subject-side occurrence basis, exact relation, and subject pattern. |
+| Recognition and precision | Source labels help readers recognize a situation; an unresolved FPF claim needs its kind, participants, governing relation and applicable conditions recovered. |
 | One actual transformation and selected flow structure | `U.Transformation` identifies one independently grounded actual bounded change and establishes neither transformation parthood nor partlessness at the current resolution. `TransformationFlowStructure` positions, relates, or locates transformation loci and adjacent governed values; common structure membership establishes no transformation composition. |
 | Acting System and influence source | An assignment occurrence alone does not prove performance, and generic transformation participation does not prove action. Performed Work requires each precise performer's A.13 core and independent A.15.1 admission; add F.6 afterward only when precise assignment-bound attribution is current. Any Work-to-change relation required by the claim remains separate. A non-Work actor needs another exact direct actor-side relation. Every influence source keeps its own kind and exact relation. |
 | Formal and project-world change | A formal construction may be a transformation over a formal object, or it may be a mathematical description of project-world structure; the current object decides. |

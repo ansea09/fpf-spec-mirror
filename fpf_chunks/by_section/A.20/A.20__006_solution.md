@@ -6,12 +6,12 @@ section_id: "A.20:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:4 — Solution"
-line_start: 40135
-line_end: 40246
+line_start: 39319
+line_end: 39430
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,7 +67,7 @@ ConstraintValidityResult:
 
 `outcome` is present only when `evaluationState=evaluated` and `applicabilityValue` is `required` or `optional`. A not-applicable constraint records the reason it is outside this case. A not-run constraint records that evaluation work has not produced a result. Neither is `unknown` and neither silently counts as success.
 
-If a dated evaluation Work occurrence matters, cite it separately through `evaluationWorkRef`; the Work and result episteme do not become one object.
+If a dated evaluation Work occurrence is asserted, first establish its A.13 core: the performing System, exact local agential-role kind and membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits that performance; F.6 applies afterward only for precise assignment-bound attribution. The optional `evaluationWorkRef` cites that Work separately from the result episteme.
 
 The legacy label `FlowConstraintValidity` may be retained only as a locator for this result family. It does not name a relation, gate status, publication record, or flow-wide property.
 
@@ -88,10 +88,10 @@ When a consumer needs one local summary over the complete required set, use:
 
 The summary rule is:
 
-1. `notApplicable` only when the declared required set is empty because no A.20 internal constraint applies to this subject and use;
+1. `notApplicable` only when the declared required set is empty because no required A.20 internal constraint applies to this subject and use; any optional results remain separately available;
 2. `violated` when at least one required result is `violated`;
 3. `unresolved` when no required result is violated but at least one required constraint is `notRun`, `unknown`, or `error`; and
-4. `satisfied` only when every required applicable constraint has an evaluated `satisfied` result.
+4. `satisfied` only when the required set is nonempty and every member has an evaluated `satisfied` result.
 
 Optional results do not change the summary unless a separately accepted use decision moves their constraints into the required set. A missing required result can therefore never disappear beside a satisfied result.
 
@@ -101,7 +101,7 @@ The following families are recognition aids, not a universal required list. Each
 
 | Constraint family | Trigger | `satisfied` means | Other outcomes |
 | --- | --- | --- | --- |
-| Type, domain, and range | The subject consumes or produces typed values. | Every case input and result used by the claim lies in the declared type, domain, and range. | A counterexample is `violated`; unavailable values are `unknown`; a failed test is `error`. |
+| Type, domain, and range | The subject consumes or produces typed values. | Every case input and result used by the claim lies in the declared type, domain, and range. | A counterexample is `violated`; unavailable values are `unknown`; an evaluation that cannot complete correctly is `error`. |
 | Admissibility conditions | The operation or transformation declares guards or admissible cases. | Every required guard is true for the case and window. | A false guard is `violated`; undetermined guard truth is `unknown`. |
 | Law or invariant set | The current claim relies on a named law or invariant. | The named invariant holds for the case under its assumptions. | A counterexample is `violated`; missing case facts or witness content are `unknown`. |
 | Quantity and unit coherence | The current operation combines quantities or units. | The case is coherent under the already declared quantity, unit, and reference-scheme rules. | A mismatch is `violated`; an unrecovered declaration is `unknown`. A.20 does not define or translate units or planes. |
@@ -137,7 +137,7 @@ A.20 keeps only the result content needed to reuse the internal-constraint findi
 - `C.27` defines temporal-claim adequacy;
 - `A.21` defines check applications, profile use, gate aggregation, and decision consequences;
 - `A.10` recovers provenance and bounded reliance; the direct support pattern defines each evidence relation and `B.3` governs assurance; and
-- `A.15` defines plans and dated Work.
+- `A.15.2` defines WorkPlans; an asserted dated Work uses the admission grounds in §4.1.
 
 Citing an A.20 result in one of those claims does not copy that consumer's identity, scheduling, publication, or policy fields into A.20.
 

@@ -6,12 +6,12 @@ section_id: "C.32.PAD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:9 — Consequences"
-line_start: 80208
-line_end: 80216
+line_start: 79055
+line_end: 79063
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,7 +65,7 @@ keywords:
 
 | Consequence | Benefit | Cost |
 |---|---|---|
-| The architecture decision relation to exact composite project work is explicit before publication. | ADRs, design memos, and governance files can describe a recoverable decision rather than inventing one. | The architect performs decision work before publication work. |
+| The architecture decision relation to exact composite project work is recoverable. | ADRs, design memos and governance files preserve the decision and its status. | Drafting can support decision work, but the record must not report an unresolved proposal as a made decision. |
 | Structure and method are coupled without collapsing. | Developers can see both intended architecture structures and required methods. | The decision record needs enough detail to avoid empty method instructions. |
 | Trade-offs and accepted losses are recorded. | Later teams can reopen the decision under changed characteristics instead of guessing the original rationale. | Decisions may look less tidy because loss is visible. |
 | Architect-developer split is stated. | Team refinement can proceed without losing source return. | Architecture governance must maintain split and reopen conditions. |

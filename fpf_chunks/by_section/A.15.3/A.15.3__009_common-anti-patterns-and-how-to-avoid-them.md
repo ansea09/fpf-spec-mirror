@@ -6,12 +6,12 @@ section_id: "A.15.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 30496
-line_end: 30512
+line_start: 30057
+line_end: 30073
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -51,8 +51,8 @@ keywords:
 | Relation/operation collapse | A.6.1 arguments and results are written as A.6.5 SlotSpecs. | Dispatch by target family and keep each declaration vocabulary local. |
 | Row-count cardinality | Row count or order silently defines multiplicity, alternatives, or sequence. | Use the declaration's cardinality; for alternatives, state conditions and a resolution rule. |
 | Empty filler as prohibition | Omission, null, or a negated reference is read as *must not use*. | State prohibition, exclusion, required absence, or completeness as a separate plan claim. |
-| Plan-as-actual | A planned value is treated as actual participation or a returned result. | Identify work and actual relation or application bindings independently. |
-| Generic reference or policy | `Ref`, `SpecRef`, `PolicyRef`, or a shared label is treated as sufficient. | Use the concrete RefKind and identify the policy's kind, defining pattern, edition, applicability, and reference scheme. |
-| Latest-as-baseline | A mutable label stands for a declaration or value edition. | Pin the edition when choosing another one could change the planned or comparison result. |
-| Backfilled plan | Actual values replace planned rows after work. | Preserve the cited plan edition and state a neighboring substitution or variance claim. |
+| Plan-as-actual | A planned value is treated as actual participation or a returned result. | Establish the relation or application binding independently; identify Work separately when that occurrence claim is needed. |
+| Generic reference or policy | `Ref`, `SpecRef`, `PolicyRef`, or a shared label is treated as sufficient. | Use the concrete RefKind and identify the policy's kind, defining pattern, episteme, applicability, and reference scheme. |
+| Latest-as-baseline | A mutable label stands for a declaration or value episteme. | Pin the selected episteme when another resolution could change the planned or comparison result. |
+| Backfilled plan | Actual values replace planned rows after work. | Preserve the cited plan episteme and state a neighboring substitution or variance claim. |
 

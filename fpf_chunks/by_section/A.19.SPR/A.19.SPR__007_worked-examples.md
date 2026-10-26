@@ -6,12 +6,12 @@ section_id: "A.19.SPR:5"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__007_worked-examples.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:5 — Worked examples"
-line_start: 35741
-line_end: 35776
+line_start: 35127
+line_end: 35162
 dependencies:
   - "A.10"
   - "A.16"
@@ -59,9 +59,9 @@ For a relied-on inspection decision, also name the reading time, measurement bas
 
 **Before:** “Release 12 is ready.”
 
-**After:** “At 10:00, the A.15.5 check found that `PlanItem-Deploy-12` satisfied its release-entry criterion and was ready for work entry until 10:30; recheck if a required input changes. No A.21 gate decision has yet been made.”
+**After:** “At 10:00, the A.15.5 check found that `PlanItem-Deploy-12` satisfied its release-entry criterion and was ready for work entry until 10:30; recheck if a required input changes.”
 
-When another use must replay the check, add the exact WorkPlan, criterion, checking Work, input facts, result episteme, and reliance window. Add an A.21 sentence only if a distinct `OperationalGate(profile)` actually consumes declared checks and publishes its own decision.
+For replay, make the plan item, criterion, input facts, result and reliance window recoverable. Identify a separate result episteme or checking Work only when that identity matters; a claimed Work needs its A.13 basis and independent A.15.1 admission, with F.6 only for precise assignment-bound attribution. The work-entry finding alone establishes no gate passage. Use A.21 for a distinct `OperationalGate(profile)` that consumes declared checks and publishes its own decision.
 
 #### A.19.SPR:5.3 - Source currentness
 
@@ -73,7 +73,7 @@ For automation or consequential reliance, also name the exact source-use relatio
 
 #### A.19.SPR:5.4 - Other direct repairs
 
-- **Evidence.** Replace “evidence status incomplete” with “The current evidence path does not yet support reliance on claim C; obtain the missing calibration record and check again.” Add exact evidence and currentness references only when the receiving decision needs them.
+- **Evidence.** Replace “evidence status incomplete” with “Reliance on claim C remains unestablished because the needed calibration basis is missing; obtain the calibration record and check again.” Add exact evidence and currentness references only when the receiving decision needs them.
 - **Publication.** Replace “publication posture allows decision input” with “This publication exposes candidate input X for the decision; the decision rule still evaluates X.” Publication does not decide or assure by itself.
 - **Mathematical lens.** Keep `LensUseBoundaryValue` in C.29 when its possible values and intended lens use are defined. State the practical result in ordinary words; the field does not establish evidence, assurance, release, or source authority.
 - **Temporal claim.** Keep `dynClaimPosture` in C.27 when its values and temporal use are defined. Say which temporal claim is usable and for what purpose; the field does not upgrade its evidence or authority.

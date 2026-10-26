@@ -6,12 +6,12 @@ section_id: "A.6.M:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:12 — Relations"
-line_start: 23449
-line_end: 23471
+line_start: 23036
+line_end: 23058
 dependencies:
   - "A.10"
   - "A.20"
@@ -32,21 +32,14 @@ dependencies:
   - "E.20"
   - "G.5"
 keywords:
-  - "are used only for pattern users"
-  - "claims"
   - "component"
-  - "conformance items"
-  - "evidence records"
   - "interface"
   - "interface specification"
   - "layer"
   - "module relation"
   - "open architecture"
-  - "or assurance records. Modeled modules and interfaces are not written as agents with duties"
-  - "or publication records"
   - "platform"
   - "port"
-  - "records"
   - "stack"
   - "substitutability"
 ---
@@ -57,7 +50,7 @@ keywords:
 | --- | --- |
 | `A.6.P` | A.6.M is an RPR specialization for module-interface claim and interface-specification language; its record forms do not create a direct relation occurrence. |
 | `A.6.RSIR` | Bare interface-like wording is recovered before A.6.M is applied; A.6.M governs only recovered module-interface claim content, interface specification, platform grammar, substitutability policy, change policy, or open-architecture slice. |
-| `A.6.RCD` and `A.6.REL` | A needed reusable direct module relation requires its subject pattern and A.6.RCD for participants, obtaining, applicability, recurrence, and identity. A.6.REL applies only after the direct relation is admitted and a later use must distinguish obtaining occurrences. |
+| `A.6.RCD` and `A.6.REL` | A needed reusable direct module relation requires its subject pattern and A.6.RCD for participants, obtaining, applicability, recurrence, and identity. A.6.REL applies after admission when the receiving use needs explicit identity for an obtaining occurrence. |
 | `C.2.1`, `A.2.6`, and `A.22` | Govern the `ModuleInterfaceClaim` episteme, the separate `InterfaceSpecification` episteme, effective reference scheme, ClaimScope, and any independently selected dependency or model-use structure. None creates a module relation. |
 | `C.30.STRAT` | Recovers stratification and architecture-operation source labels before A.6.M governs only recovered module-interface relation cases. |
 | `E.16` | Governs autonomy-budget, autonomous operation, independent acting, unsupervised decision or action, and freedom-of-action claims when those description or view uses are being made; A.6.M keeps only the module-interface relation, boundary, interface specification, and substitution or change-policy slice. |
@@ -67,7 +60,7 @@ keywords:
 | `C.30` and `C.30.ASV` | Architecture claims and module-interface structural views stay architecture-governed. |
 | `C.33`, `C.34`, and `C.35` | Use these only when a module carrier, interface carrier, view, source label, generated map, or discovered structure needs architecture-specific captured-structure adequacy, lost-structure adequacy, preservation adequacy, or generated-carrier admission support. Use A.6.M for module-interface relation, interface specification, substitutability, change-policy, and platform-grammar claims. |
 | `A.6.F` | Function and functional wording stays distinct from module allocation. |
-| `A.15` and `A.2` | Method, WorkPlan, performed Work, exact system-role-kind and assignment claims, team-boundary wording, and delivery-unit wording keep their own defining or constraining patterns. Responsibility claims use an admitted direct domain predicate or the exact A.6.RCD missing-governor result; `VP.AllocationResponsibility` is only a recognition cue. Use A.6.M only for a recovered module-interface relation or correspondence. |
+| `A.15` and `A.2` | Method, WorkPlan, performed Work, exact system-role-kind and assignment claims, team-boundary wording, and delivery-unit wording keep their own defining or constraining patterns. Responsibility claims require their domain predicate and case facts; A.6.RCD addresses a missing rule, not unknown facts; `VP.AllocationResponsibility` is only a recognition cue. Use A.6.M only for a recovered module-interface relation or correspondence. |
 | `E.18` and `C.30.TFS-REL` | E.18 transformation-flow relations, path slices, crossings, and flow valuations are not interface specifications. |
 | `C.31` | Modularity and reusable-structure characteristics are governed by C.31 after relation repair when characteristic or measurement use is being made. |
 | `C.31.RSA` | Reusable-structure accounting is governed by C.31.RSA when reusable loci, bespoke residue, or report-only share claims are being made. |

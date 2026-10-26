@@ -6,12 +6,12 @@ section_id: "A.6.2:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 17531
-line_end: 17612
+line_start: 17212
+line_end: 17293
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -41,8 +41,8 @@ The examples below show how EFEM is intended to be used across the EntityOfConce
 
 *Shape.*
 
-* Domain: `X = U.MethodDescription` episteme with `entityOfConcernRef(X) : U.MethodRef`, `content(X) : U.ClaimGraph_D`, and `ReferenceScheme_D`; when the named engineering validation use selects viewpoint P, record that selection separately.
-* Codomain: `Y = U.MethodSpec` episteme with the same `entityOfConcernRef(Y) = entityOfConcernRef(X)`, more structured `content(Y) : U.ClaimGraph_S`, and a more explicit ReferenceScheme. If the same named validation use continues, it preserves its selected viewpoint P separately.
+* Domain: exact episteme `X : U.MethodDescription` with `entityOfConcernRef(X) : U.MethodRef`, `content(X) : U.ClaimGraph_D`, and `ReferenceScheme_D`; when the named engineering validation use selects viewpoint P, identify that selection separately.
+* Codomain: exact episteme `Y : U.MethodSpec` concerning the same Method, with more structured `content(Y) : U.ClaimGraph_S` and a more explicit ReferenceScheme. If the same named validation use continues, it preserves its selected viewpoint P separately.
 
 `Specify_DescEp_SpecDesc` is a species of EFEM only when all of these hold:
 
@@ -77,11 +77,11 @@ MVPK can reuse the EFEM laws for these normalization arrows. Claim the relevant 
 
 #### A.6.2:5.3 - Retargeting sketch (`entityOfConcernChangeMode = retarget`)
 
-*Context.* E.18 structural reinterpretation relates a physical-layout episteme to a functional-behaviour episteme. The EntityOfConcern changes from the physical assembly to the functional network.
+*Context.* For this E.18 retargeting sketch, take the physical assembly `S₁` and functional network `S₂` as independently identified, different entities. The source episteme concerns `S₁`; the receiving episteme concerns `S₂`.
 
 Inside EFEM, this becomes a species with `entityOfConcernChangeMode = retarget`:
-* input episteme describes `S₁` (e.g. a component hierarchy holon);
-* output episteme describes `S₂` (e.g. a functional network holon);
+* the source episteme describes the physical assembly `S₁`;
+* the receiving episteme describes the independently identified functional network `S₂`;
 * one exact arrow `r` relates the two endpoint epistemes under its declared formal rule; a separate A.6.4 assertion `q` states the invariant, visible loss, bounded receiving use, conditions, and polarity; and a current-case judgement separately tests the exact facts;
 * P2 checks only the formal consequence relation declared for `r`; the ordinary current-case judgement tests the exact facts against `q`, and A.20 enters only when that proposition is an internal constraint.
 

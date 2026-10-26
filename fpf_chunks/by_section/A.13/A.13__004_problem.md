@@ -6,12 +6,12 @@ section_id: "A.13:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__004_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:2 — Problem"
-line_start: 28426
-line_end: 28434
+line_start: 27991
+line_end: 27999
 dependencies:
   - "A.10"
   - "A.12"
@@ -43,7 +43,7 @@ keywords:
 Treating agency as an intrinsic property or a mere label hides different questions:
 
 1. **Episteme-as-Actor:** When "the specification decided to update the system" hides the actor, use A.12 to identify the proposed acting entity. A precise agency claim needs that entity admitted as a System under A.1, distinct from the specification under A.7.
-2.  **Type Inflation:** Introducing a root agent kind alongside `U.System` and `U.Episteme` would violate **Ontological Parsimony (C-5)**. The same System may qualify for an agential system-role kind and receive an assignment in one working situation but not another. The agency claim states its scope and window separately; a root type cannot express these differences.
+2. **Type Inflation:** Adding a root agent kind duplicates existing ontology when System, local kind and assignment already express the needed claim. The same System may qualify for an agential system-role kind and receive an assignment in one working situation but not another. Scope and window remain separate; a root label alone does not express these differences. A.11 tests a proposed ontology addition for material loss under the best existing expression.
 3. **Unsupported Claims:** A label such as "agent" supplies neither the local kind criterion and obtaining assignment nor evidence for a claimed autonomy profile. Those claims need their own support under A.10.
 4. **The Binary Trap:** "Agent/not-agent" alone does not distinguish a thermostat’s feedback, a cruise-control system’s prediction and a strategic robotic swarm’s self-learning capabilities.
 

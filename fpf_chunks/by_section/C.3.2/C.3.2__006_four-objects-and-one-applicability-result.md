@@ -6,12 +6,12 @@ section_id: "C.3.2:4"
 section_title: "Four Objects and One Applicability Result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__006_four-objects-and-one-applicability-result.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:4 — Four Objects and One Applicability Result"
-line_start: 55294
-line_end: 55306
+line_start: 54431
+line_end: 54443
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -34,7 +34,7 @@ keywords:
 | `U.Kind` individual and order | The intensional kind and any obtaining `U.SubkindOf` facts used by typed reasoning. | C.3 and C.3.1; not this declaration, a practice/source label, or a new public-kind admission. |
 | `KindSignature` | A `U.Signature` declaration episteme whose exact `EntityOfConcern` is the kind. | A.6.0 and C.2.1 govern the episteme and its editions. |
 | classification judgment | One evaluation for an admissible exact candidate, kind, signature edition, and slice, returning `true`, `false`, or `unknown`. | C.3.2; it is not a direct relation occurrence or guard result by default. |
-| `KindExtension(k, slice)` | An optional set-valued representation of admissible candidates judged `true` for the pinned signature edition and slice. | Local calculation unless C.29 governs a claim-bearing use. |
+| `KindExtension(k, slice)` | An optional set-valued representation of admissible candidates judged `true` for the pinned signature edition and slice. | C.3.2 for the local set calculation; C.29 when a separate mathematical representation or transfer issue needs resolution. |
 
 `ClassificationAdmissibility(candidate, kind, signatureEdition, slice)` returns `admissible` or `not-applicable`. It is a precondition result, not another kind or membership value. `not-applicable` means the candidate fails the declared candidate `ValueKind`/interpretation or the slice falls outside signature applicability; no classification judgment is formed.
 

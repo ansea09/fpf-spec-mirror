@@ -6,12 +6,12 @@ section_id: "A.15:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:5 — Archetypal Grounding"
-line_start: 29135
-line_end: 29177
+line_start: 28695
+line_end: 28742
 dependencies:
   - "A.10"
   - "A.13"
@@ -76,9 +76,14 @@ Use this alignment whenever the live question joins a holder system, exact local
 | Direct assignment species and occurrence | `FactoryWeldingAssignment` with the robot and `WeldingRobotSystemRole`; include another participant, for example a factory line or work order, only if that species predicate depends on it | `JournalReviewAssignment` with Alice and `PeerReviewerSystemRole`; a commission-sensitive appointment species also carries the exact review commission |
 | Separate semantic sources when used | `FactoryProductionSystemRoles-2026` and `Factory-Line-B-Scheme` may be used as sources for classification or interpretation claims under the applicable source and evidence relations | `PhysicsPeerReviewSystemRoles-2026` and `PhysicsLetters-A-Review-Scheme` may be used as sources for classification or interpretation claims under the applicable source and evidence relations |
 | Selected model-use structure, only when current | Cited by the receiving factory interpretation claim, never inserted as a participant of every assignment species | Cited by the receiving journal interpretation claim, never inserted as a participant of every assignment species |
-| `U.MethodDescription` episteme | `Welding_Procedure_WP-28A.pdf`, with `WeldingMethod` as exact EntityOfConcern and substantive way-of-doing claims | `Peer_Review_Guidelines_v3.docx`, with `PeerReviewMethod` as exact EntityOfConcern and substantive way-of-doing claims |
+| `U.MethodDescription` episteme | The procedure episteme available through `Welding_Procedure_WP-28A.pdf`, with admitted `WeldingMethod` as exact EntityOfConcern and substantive way-of-doing claims | The guideline episteme available through `Peer_Review_Guidelines_v3.docx`, with admitted `PeerReviewMethod` as exact EntityOfConcern and substantive way-of-doing claims |
 | Holder capability, when relied on | ability to execute a 3F welding seam within a declared envelope and current window | ability to evaluate a quantum-optics manuscript within a declared envelope and current window |
-| Work occurrence | `Weld_Job_#78345`, whose temporal relation covers 15:32–15:34 UTC; separate resource-use relations connect 1.2 kWh and 5 g Argon, and `enactsMethod` connects `WeldingMethod` | `Review_of_Manuscript_#PL-2025-018`, whose temporal relation ends on 2025-08-15; a separate resource-use relation connects four hours of reviewer time, and `enactsMethod` connects `PeerReviewMethod` |
+| Work occurrence | `Weld_Job_#78345`, whose temporal relation covers 15:32–15:34 UTC on 2025-08-15; separate resource-use relations connect 1.2 kWh and 5 g Argon, and `enactsMethod` connects `WeldingMethod` | `Review_of_Manuscript_#PL-2025-018`, whose temporal relation ends on 2025-08-15; a separate resource-use relation connects four hours of reviewer time, and `enactsMethod` connects `PeerReviewMethod` |
+
+**Worked continuation: attribution can remain open after Work is identified.** In a constructed inspection, Robot-7 is an admitted System satisfying the local InspectorSystemRole criterion of detecting the specified blade discontinuities from the required images. InspectionAssignment-18 obtains under its direct maintenance-assignment species for Robot-7 in the morning inspection window. The performance history places InspectionWork-18 from 08:10 to 08:25 on Day-D; its independently established `enactsMethod` relation identifies the admitted `TurbineInspection@Maintenance-2026` Method, and the locally declared containing-System relation identifies the independently admitted System MaintenanceCell-1. These facts satisfy the stated A.13 core and the independent A.15.1 admission basis.
+
+The receiving attribution question additionally asks whether InspectionWork-18 was performed under InspectionAssignment-18. The case establishes that Robot-7 accepted the inspection task under InspectionAssignment-18 and carried out InspectionWork-18 as that assigned task. The assignment's holder is Robot-7 and its obtaining interval is 08:00–09:00. With the declared species and its obtaining conditions also established, these facts satisfy the F.6 constraints and the separate Work–assignment link. Another assignment with the same holder and interval does not inherit that link. If later evidence leaves the assignment's ending time unresolved, reopen that attribution and every decision relying on it. Preserve the independently established performance history and Method enactment. Retain Work identity where its independent admission grounds still hold, and recheck any admission condition that actually consumed the disputed premise. Missing F.6 attribution alone establishes neither no Work nor successful inspection; success requires its own result and evidence claim.
+
 
 **Key takeaway.** Both cases use an admitted holder System, a local system-role kind, an assignment occurrence and its declared species, a Method, a separate MethodDescription, a capability relied on for the case, and dated Work. Their taxonomies, schemes, commissions, records, and results remain separate values and relations. This common alignment does not erase their different domain ontologies.
 
@@ -86,7 +91,7 @@ Use this alignment whenever the live question joins a holder system, exact local
 
 **Source set.** A release team has one deployment method description, one current work plan, one approval or decision record when required, and the evidence records and evidence relations used to decide whether the rollout may proceed. A short rollout briefing is prepared for the daily stand-up.
 
-**Briefing slice.** `Status briefing only: rollback procedure appears verified in the current source bundle. Execution remains tied to the deployment method, work plan, required approval or decision record, and evidence relation.`
+**Briefing slice.** `For stand-up orientation: the source bundle reports that the rollback procedure passed its named check. Before rollout, recover that result and the deployment Method, WorkPlan and any required authorization and evidence under their applicable conditions.`
 
 This briefing may orient the team and cue attention. If the team wants to execute from the briefing alone, use `A.15.4` or the evidence, gate, decision, or assurance pattern that defines or tests the claim to recover the missing project-side kind and reference. Inside `A.15`, keep only the system-role kind, assignment, Method, plan, and Work-occurrence separation.
 
@@ -94,9 +99,9 @@ This briefing may orient the team and cue attention. If the team wants to execut
 
 **Source set.** A team has a principle scheme that shows an `E.18.1` P2W carry-through structure for a fabrication task: signature or principle episteme, method-family selection, selected method, `U.WorkPlan`, an actual Work occurrence admitted under `U.Work`, a separate work-result record, and result measurement.
 
-**Published slice.** `For this batch family, method M-2 is selected from the declared method family; prepare work plan WP-17 before any actual Work occurrence exists.`
+**Published slice.** `For the proposed next batch, Method M-2 is selected from the declared family; prepare WorkPlan WP-17 before performing that batch's planned Work.`
 
-This publication may guide method inspection and work-planning preparation under `A.15`. A conforming use keeps selected method, `U.WorkPlan`, actual dated Work occurrence, separate assertion or record about it, work-result record, and result measurement distinct. If the publication is used for evidence, provenance, engineering justification, gate or constraint decision, physical medium, screen, export, OCR behavior, or publication-use, use the pattern that defines or tests that claim. If no project-side kind and reference named by value exists, create only an `A.15.4` repair request, decision-request record for the next decision, prospective work-plan entry, or explicit missing-source-relation note.
+This publication can guide Method inspection and planning. Keep the selected Method, WorkPlan, any earlier actual Work occurrence, its record and result measurement distinct. For evidence, gate or engineering reliance, recover the required project-side claim under its direct rule. If that basis is missing, retain the supported planning use and state only the gap or continuation the receiver needs.
 
 #### A.15:5.1.c - Scenario guides method selection, not performed work
 
@@ -104,5 +109,5 @@ This publication may guide method inspection and work-planning preparation under
 
 **Published slice.** `Under scenario S, method family MF-2 is admissible for planning; choose the selected method and prepare the work plan before execution.`
 
-The scenario can guide method-family selection and work-planning preparation. Once the team selects a method or prepares a plan, state that project choice or plan in a separate episteme. If an actual Work occurrence is later claimed, ground that world-side individual independently under `A.15.1`; a separate assertion or performed-work record may designate it but does not become the occurrence. If the scenario is used for evidence, gate, or engineering-justification reliance, first recover the project evidence relation, gate or constraint decision, or engineering-justification record named by value under `A.10`, `A.20`, `A.21`, or `B.3`; otherwise record only an `A.15.4` repair request, decision-request record, prospective work-plan entry, or missing-source-relation note.
+The scenario can guide Method-family selection and planning. Identify a selected Method or resulting WorkPlan in the account where that result is needed. Ground any later dated Work independently under A.15.1; a record may designate it but is not that occurrence. For evidence, gate or engineering-justification reliance, recover the required relation or decision under A.10, A.20, A.21 or B.3. If it is unavailable, narrow the use and keep the needed gap or continuation in the receiving account.
 

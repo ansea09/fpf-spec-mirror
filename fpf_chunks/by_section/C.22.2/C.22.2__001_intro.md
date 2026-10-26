@@ -6,12 +6,12 @@ section_id: "C.22.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:intro — Intro"
-line_start: 63669
-line_end: 63692
+line_start: 62647
+line_end: 62666
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,10 +69,6 @@ keywords:
 **Use this when.** Use this pattern when work starts from a signal, anomaly, drift, risk, hypothesis, stakeholder demand or concern, set-derived candidate, underused capability, new constraint, new environment, opportunity-like cue, or solution-shaped request, and a downstream task-typing, method-family, planning, evidence, gate, autonomy, or P2W use needs one reviewable problem-side episteme.
 
 **Do not use this when.** Use another pattern directly when the current question is already actual PFR obtaining, task typing, method selection, Work planning, evidence, provenance, assurance, gate decision, autonomy, archive or selected-set governance, mathematical-lens use, or ordinary discussion with no receiving use. `C.22.PFR` governs the actual Problem; C.22 governs TaskSignature constitution and assignment.
-
-**Builds on.** `C.2.1`, `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `C.16.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
-
-**Coordinates with.** `C.11`, `C.18`, `C.19`, `C.22.1`, `C.22.PFR`, `C.24`, `C.27`, `C.28`, `A.15`, `A.15.5`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, `E.18`, `E.18.1`, `C.32.P2S`, and `E.10.MOVE`.
 
 **Boundary summary.** C.22.2 yields one reviewable `ProblemCard`, a `P2W-ready` problem-side input for downstream C.22, or an honest stop naming the direct pattern for the claim, relation, or boundary now current. It yields no world-side Problem, task assignment, selected method, WorkPlan, Work occurrence, gate result, or evidence verdict.
 

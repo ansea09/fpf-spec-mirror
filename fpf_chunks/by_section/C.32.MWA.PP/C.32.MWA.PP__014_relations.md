@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__014_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:12 — Relations"
-line_start: 79624
-line_end: 79653
+line_start: 78491
+line_end: 78520
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -28,8 +28,8 @@ The Core contributions below support the general construction. The domain entrie
 | Related contribution | General construction or separate subject use |
 | --- | --- |
 | A.3.1.QM | Supplies individually qualified Methods/accounts and whole-independent local connections, not whole compatibility. Preserve their statuses. |
-| B.1.5 and B.1.5.CM | Establish Method composition or resolve a proposed whole. Co-use can remain plural; a relation-only clarification can finish without B.1.5.CM or an C.32.MWA.PP comparison. |
-| C.32.MWA, *Practice Architecture Synthesis from Several Structures*, :4.1–4.4 | Provides truthful actual/prospective entry, separation of structures, comparison of changed arrangements and moved burden. C.32.MWA.PP supplies the Method-arrangement question, including performance and support, and returns the architecture consequence to the real decider. |
+| B.1.5 and B.1.5.CM | Establish Method composition or resolve a proposed whole. Co-use can remain plural; a relation-only clarification can finish without B.1.5.CM or a C.32.MWA.PP comparison. |
+| C.32.MWA, *Synthesize an Architecture Account of Methods and Their Use*, :4.1–4.4 | Provides truthful actual/prospective entry, separation of structures, comparison of changed arrangements and moved burden. C.32.MWA.PP supplies the Method-arrangement question, including performance and support, and returns the architecture consequence to the real decider. |
 | C.30.ASV, *Architecture Structural View Adequacy*, :4.5a | Distinguishes composition, result use, order, variation, replacement and separate performance/support structures. Use it when “method architecture” hides the relation being changed. |
 | E.18 and E.18.NET; C.30.TFS-REL:4.4–4.4a | Supply a qualified transformation-flow structure or network and its bounded architecture use. Retain member-local identities and relations; a network is neither the performer nor an automatic containing organization. |
 | A.3.4; A.13 and A.15.1 | Govern actual transformation, performer and Work claims when local enactment is asserted. A prospective configuration can be compared without inventing those actual occurrences. |

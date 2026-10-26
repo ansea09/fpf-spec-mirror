@@ -6,12 +6,12 @@ section_id: "A.11:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:2 — Solution"
-line_start: 27723
-line_end: 27763
+line_start: 27283
+line_end: 27323
 dependencies:
   - "A.6.P"
   - "A.6.RCD"
@@ -27,7 +27,7 @@ keywords:
 
 ### A.11:2 - Solution
 
-Use four gates to establish the parsimony finding for the proposed ontology addition. Apply every gate to the same exact candidate, receiving claim or use, and current facts. Find the best existing expression first; then state the exact loss, overlap discriminator, newly admissible claim or action, and nearest excluded case for that same use. A positive finding continues the complete admission test under E.24/E.24.UK or the candidate's direct subject-kind governor; it is not that admission result or project-side permission.
+Use four gates to establish the parsimony finding for the proposed ontology addition. Apply every gate to the same candidate, receiving claim or use, and facts. Find the best existing expression first; then state the material loss, overlap discriminator, newly admissible claim or action, and nearest excluded case for that same use. A positive finding continues the complete admission test under E.24/E.24.UK or the candidate's direct subject-kind governor; it is not that admission result or project-side permission.
 
 | Gate | Test question | Pass condition |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ Use four gates to establish the parsimony finding for the proposed ontology addi
 | Action-facing contribution | Which exact claim or action becomes admissible because this addition exists? | Pass only when that contribution reaches the named use rather than supplying naming comfort or source prestige. |
 | Sharp boundary | What is the one-sentence inclusion test, and which nearest case is excluded? | Pass only when both cases can be distinguished from stated facts without private author intent. |
 
-The questions can be answered as an ordinary comparison. Use this compact record or view when the result must be retained or consumed. If an E.24-family decision is current, put or reference the parsimony evidence there and resolve this view back to that decision, preserving every required E.24:4.0a value. The view is not a second independently editable admission decision; a local wording or existing-expression answer need not create one.
+The questions can be answered as an ordinary comparison. The following view may help retain or communicate the result. If an E.24-family decision is current, put or reference the parsimony evidence there and resolve this view back to that decision, preserving every required E.24:4.0a value. The view is not a second independently editable admission decision; a local wording or existing-expression answer need not create one.
 
 ```text
 ParsimonyAdmissionRecord:

@@ -6,12 +6,12 @@ section_id: "C.34:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:3 — Forces"
-line_start: 81069
-line_end: 81078
+line_start: 79900
+line_end: 79909
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

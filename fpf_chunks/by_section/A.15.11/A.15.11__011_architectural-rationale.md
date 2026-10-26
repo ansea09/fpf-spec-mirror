@@ -6,12 +6,12 @@ section_id: "A.15.11:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__011_architectural-rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.11 — Make Applicable Methods Noticeable in Work"
   - "A.15.11:10 — Architectural Rationale"
-line_start: 32988
-line_end: 32995
+line_start: 32544
+line_end: 32551
 dependencies:
   - "A.15"
   - "A.15.7"

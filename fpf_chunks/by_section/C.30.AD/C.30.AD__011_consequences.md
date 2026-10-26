@@ -6,12 +6,12 @@ section_id: "C.30.AD:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:8 — Consequences"
-line_start: 72475
-line_end: 72490
+line_start: 71445
+line_end: 71460
 dependencies:
   - "A.1"
   - "A.10"
@@ -80,12 +80,12 @@ Positive consequences:
 
 - Architecture descriptions become reusable without pretending to be the architecture, an obtaining relation, or selected structure.
 - Multi-view work can keep each episteme identity, exact viewpoint conformance, selected structures, cross-view correspondence, source-to-use paths, applicable source-return conditions, freshness, representation, publication, and specification use inspectable.
-- Keep description, view membership, representation, publication, empirical grounding, evidence, assurance, gate, decision, Work, project use, release, and mathematical-lens claims distinct, and use the pattern that defines or tests each non-description claim.
-- C.30 can stay focused on architecture while C.30.AD carries the heavier description machinery.
+- Separate non-description claims remain identifiable and receive the tests needed for their own use.
+- Architecture decisions can use descriptions whose purpose, correspondence and limits are recoverable.
 
 Costs:
 
-- A useful architecture document needs explicit links to exact description epistemes, EntitiesOfConcern, effective schemes, selected structures, and admissible use.
+- A useful architecture document must make its description epistemes, EntitiesOfConcern, effective schemes, selected structures, and admissible use recoverable. Ordinary wording or existing links can do this.
 - A claimed view additionally needs the exact viewpoint episteme and independently obtaining E.17.0 conformance relation.
 - Reused or regulated descriptions may need correspondence refs, source-to-use paths, source and structure editions, applicable source-return conditions, and freshness claims before they can be relied on.
 - Familiar diagrams, files, and publication forms lose implicit authority; establish grounding, evidence, assurance, gate, decision, and release claims through their relevant patterns.

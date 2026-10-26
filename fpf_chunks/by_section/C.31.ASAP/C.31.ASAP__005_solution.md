@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:4 — Solution"
-line_start: 75977
-line_end: 76127
+line_start: 74906
+line_end: 75058
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -57,14 +57,14 @@ keywords:
 
 ### C.31.ASAP:4 - Solution
 
-C.31.ASAP specializes scale-amenability preference for architecture alternatives. It applies when an architecture alternative set, scale variable or scale window, and claimed preference under scale are named.
+C.31.ASAP specializes scale-amenability preference for architecture alternatives. It applies when an architecture alternative set, scale variable with its window, and claimed preference under scale are named.
 
 #### C.31.ASAP:4.1 - Applicability fields
 
 C.31.ASAP applies only when all of the following are present:
 
 1. a declared architecture alternative set, described holon, exact `U.ClaimScope`, and relevant A.2.6 `U.ContextSlice` membership;
-2. a declared scale variable or scale window;
+2. a declared scale variable and its window;
 3. a claimed preference under scale;
 4. slope evidence, scale-probe evidence, or a no-probe reason;
 5. an expected stable or improving structure, exception-growth risk, or source-return condition that changes the next architecture move.
@@ -73,7 +73,7 @@ If those fields are absent, keep the claim in `C.31` as a temporal or scale-sens
 
 #### C.31.ASAP:4.2 - `ScaleClaimTriage`
 
-Use `ScaleClaimTriage` before any heavier scale audit:
+Recover the following content before a heavier scale audit. Reuse an adequate account; the triage form is optional:
 
 ```text
 ScaleClaimTriage:
@@ -91,24 +91,26 @@ ScaleClaimTriage:
   noProbeReason?:
   expectedStableOrImprovingStructure:
   exceptionGrowthRisk:
-  sourceReturnCondition:
+  sourceReturnCondition?:
   admissibleUse:
   nonAdmissibleUse?:
   relatedClaimGovernanceIfClaimed:
   stopCondition:
 ```
 
-The triage is complete enough when it states the next admissible architecture move and the stop or return condition. Include `nonAdmissibleUse?` only when it passes F.19's plausible-reader test; `groundedScaleShortcut?` is an alias for that same optional value. It may stop at local guidance when no comparison, publication, assurance, selected-set, or decision use is being made.
+The account is complete enough when it answers the scale-preference question or identifies the next warranted inquiry or architecture move. Include `nonAdmissibleUse?` only for an independently grounded alternative that is plausible here and whose rejection changes understanding or action; `groundedScaleShortcut?` is an alias for that optional value. Retaining or publishing the bounded answer preserves its limits. A stronger comparison, assurance, selected-set or decision claim needs its own grounds.
 
 `claimScopeRef` designates one exact `U.ClaimScope`; `selectedContextSliceRefs` records the A.2.6 membership relevant to this use. A scale window is the range of the scale variable for which the preference is claimed, not a substitute for either scope object. `modelUseStructureRef` is optional and is filled only when an independently selected A.1.1 `BoundedModelUseStructure` changes the interpretation of this exact preference use.
 
 #### C.31.ASAP:4.3 - Architecture scale-preference rule
 
-When architecture alternatives satisfy the same safety boundary, law-domain boundary, and assurance boundary, prefer the alternative whose reusable functional-structure, flow-structure, control-structure, module-interface, work-template, and evidence-package structure and learning-transfer slopes remain stable or improve over the declared scale window, unless an `ArchitectureScaleAuditRecord@Project` records a bounded exception.
+When architecture alternatives satisfy the same safety, law-domain and assurance boundaries, prefer the alternative whose relevant reusable structure remains stable or improves over the declared scale window, unless a stated bounded exception justifies another choice. Select the functional, flow, control, interface, work-template or evidence structure and any learning-transfer characteristic on which this architecture question actually depends.
+
+This is a declared structural preference policy. Its application needs grounds for the claimed behavior; it does not establish a scaling law. When the relevant profiles conflict, tie or remain uncertain, retain those limits and use the declared comparator or decision rule to resolve the question. A no-probe reason can justify a bounded provisional use or further inquiry, but supplies no observed slope.
 
 C.31.ASAP defines the scale-preference claim and its boundary. Use `G.9` for a parity claim and `A.21` for a gate claim; the candidate, comparison, set-declaration, and choice uses are distinguished below.
 
-A scale-preference claim may inform `C.32` candidate generation or supply one input to an `A.19.CPM` comparison by naming the scale variable, scale window, expected stable or improving structure, exception-growth risk, and source-return condition for candidate alternatives. Use `C.32` to construct the candidate architecture palette, `A.19.CPM` to compare alternatives, `G.5` to declare a selected-set result, `C.11` to make a final local choice, and `C.32.PAD` to record a project architecture decision. When audience availability is current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability. Apply the relevant evidence, assurance, gate, or release definition and test only when that claim is current.
+A scale-preference claim may inform `C.32` candidate generation or supply one input to an `A.19.CPM` comparison by naming the scale variable, scale window, expected stable or improving structure, exception-growth risk, and any source-return condition needed for candidate alternatives. Use `C.32` to construct the candidate architecture palette, `A.19.CPM` to compare alternatives, `G.5` to declare a selected-set result, `C.11` to make a final local choice, and `C.32.PAD` to record a project architecture decision. For audience availability, use `E.24.PUB` for the publication occurrence, form, carrier, audience and bounded use; use `E.17` when a source-backed face and return are needed. Apply the relevant evidence, assurance, gate, or release definition and test only when that claim is current.
 
 When the same scale-sensitive pressure must also become a project criterion, `C.32.ACS` creates a separate row for the exact characteristic or Q-Bundle slot, bearer, scale form, and use class. That row may supply declared input to an ASAP preference. Use C.31.ASAP to state which alternative is preferable under the scale window; use C.32.ACS to admit and classify the criterion row as an optimization indicator, guardrail, or context-only row. Keep the preference record and criterion row separately referenced.
 
@@ -130,11 +132,11 @@ Typical architecture scale variables include:
 | `N_regulatoryInstances` | approval, safety, or certification repeats |
 | `freedomOfAction` | allowed design, search, or control variation |
 
-The scale variable is not enough by name. The claim being made also needs a scale window, expected stable or improving structure, exception-growth risk, and source-return condition.
+The claim needs the scale variable with its window, the expected structural behavior and exception-growth risk. Add a source-return condition when omitted distinctions could change the receiving action.
 
 #### C.31.ASAP:4.5 - Scale audit outputs
 
-Use the heavier audit only when the scale preference changes comparison, publication, selected-set, assurance-input, or decision use:
+Use a fuller audit when unresolved behavior, exceptions or comparison grounds could change the receiving use. An existing adequate account can carry the necessary content:
 
 ```text
 ArchitectureScaleAuditRecord@Project:
@@ -151,7 +153,7 @@ ArchitectureScaleAuditRecord@Project:
   ASAPWaiverReason?:
   ArchitectureHeuristicDebt?:
   BespokeResidueRegisterRef?:
-  SourceReturnCondition:
+  SourceReturnCondition?:
   admissibleUse:
   nonAdmissibleUse?:
   relatedClaimGovernanceIfClaimed:
@@ -162,7 +164,7 @@ For `ArchitectureScaleAuditRecord@Project` and `BespokeResidueRegister@Project`,
 
 | Output | Meaning |
 | --- | --- |
-| `ArchitectureSlopeVector` | Slopes for reusable structure, interface variation, flow stability, control stability, work repeatability, bespoke residue, exception growth, and learning transfer. |
+| `ArchitectureSlopeVector` | Slopes for the selected characteristics, such as reusable structure, interface variation, flow or control stability, work repeatability, residue, exception growth or learning transfer. Keep missing estimates, uncertainty and incomparable dimensions visible. |
 | `IsoScaleParityNote` | Comparison under equalized scale budgets where possible; if parity is not possible, the loss is named. |
 | `ASAPWaiverReason` | Declared reason for not choosing the scale-amenable alternative. |
 | `ArchitectureHeuristicDebt` | Report-only note for knowingly accepting a locally hand-engineered solution with less scale-amenable slope profile under the declared scale window. |
@@ -196,13 +198,13 @@ Before scale-preference guidance becomes action-guiding, name at least one possi
 | interface variants grow without payoff | reduce interface alphabet or introduce interface grammar | A.6.M governs interface relation repair. |
 | product-line or platform variants lack explicit variation points | introduce variability slots or extension rules | Platform label alone is not scale-preference evidence. |
 | one aggregation scope hides lower-scope hazards | split the declared aggregation scope or architecture boundary | C.29 supplies lens-use fields only when coarse-graining is mathematical-lens use. |
-| repeated work contains reusable structure | reuse a method template for subsequent work | Use `A.3.1` for a Method claim, `A.15` for Method–Work alignment, and `A.15.1` for actual Work. Use `A.15.4` only while appearance hides a work-relevant prerequisite. |
+| repeated work contains reusable structure | reuse a method template for subsequent work | Use `A.3.1` for a Method claim and `A.15` for Method–Work alignment. For a particular dated Work, recover A.13 and independent A.15.1 admission, with F.6 only for precise assignment-bound attribution. Use `A.15.4` only while appearance hides a work-relevant prerequisite. |
 | regulatory or safety residue remains local and repeated | isolate regulatory residue or safety-specific exception register | Use `A.10` for source recovery and bounded reliance, `G.6` for addressable provenance, `B.3` when a named assurance claim is current, and `A.21` for a gate claim. |
-| coarse representation loses safety, semantic, or source distinctions | return to lower-scope source-side evidence or narrow the scale window | Source-return condition is mandatory. |
+| coarse representation loses action-changing safety, semantic or source distinctions | return to source-side evidence or narrow the scale window | Preserve the return condition needed by this reliance. |
 
 #### C.31.ASAP:4.8 - C.29 lens relation
 
 When a scale preference depends on an RG, coarse-graining, epiplexity, graph, multilevel-learning, or frustration lens, use `C.29` for the mathematical-lens recovery and keep the architecture scale-preference claim in C.31.ASAP. Use C.18.1 for any scale-law claim.
 
-For architecture use, the C.29 output should name `MLU.Description@RGArchitecture`, `MLU.Description@MultilevelLearningFrustration`, or another local MathLensUse output only when the lens changes the next admissible use. The C.31.ASAP side records the scale variable, scale window, slope or scale-probe evidence, exception-growth risk, and source-return condition. C.29 records candidate mathematical object, mapping mode, preserved structure, lost structure, visible payoff, declared use, stop condition, and any blocked overread justified through F.19.
+For architecture use, the C.29 output should name `MLU.Description@RGArchitecture`, `MLU.Description@MultilevelLearningFrustration`, or another local MathLensUse output only when the lens changes the next admissible use. The C.31.ASAP side records the scale variable, scale window, slope or scale-probe evidence, exception-growth risk, and any source-return condition needed by that use. C.29 records candidate mathematical object, mapping mode, preserved structure, lost structure, visible payoff, declared use, stop condition, and any blocked overread justified through F.19.
 

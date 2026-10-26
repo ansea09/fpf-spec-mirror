@@ -6,12 +6,12 @@ section_id: "C.19.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__007_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:5 — Archetypal Grounding"
-line_start: 62102
-line_end: 62112
+line_start: 61083
+line_end: 61102
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -36,7 +36,16 @@ keywords:
 
 ### C.19.2:5 - Archetypal Grounding
 
-**Repeated audited handoffs.** A fleet has 400 maintenance handoffs each year. The required result is an audited maintenance-decision episteme with a fixed safety and interoperability guarantee. Candidate generation is complete: an ontology-backed method description and a lighter local decision method are eligible; a spreadsheet macro is excluded because it cannot preserve required relation-occurrence identity. `C.11` returns `choose now` for the ontology-backed method because recurrence amortizes configuration.
+**Repeated audited handoffs.** A fleet has 400 maintenance handoffs each year. The required result is an audited maintenance-decision episteme with a fixed safety and interoperability guarantee. Candidate generation is complete: an ontology-backed Method and a lighter local decision Method are eligible; their descriptions are available. A spreadsheet macro is excluded because it cannot preserve required relation-occurrence identity.
+
+In this constructed planning account, both eligible Methods satisfy the same guarantee and material non-time conditions. The complete expected setup and per-handoff effort are comparable person-hours, including the required learning, review and integration. Forty setup hours are available. The ontology-backed Method needs 40 hours initially and 6 minutes per handoff; the lighter Method needs 2 hours initially and 14 minutes per handoff.
+
+| Horizon | Ontology-backed Method | Lighter Method |
+| --- | --- | --- |
+| 400 handoffs | 40 + 400 × 6/60 = 80 hours | 2 + 400 × 14/60 = 95 hours 20 minutes |
+| 100 handoffs | 40 + 100 × 6/60 = 50 hours | 2 + 100 × 14/60 = 25 hours 20 minutes |
+
+The setup difference is 38 hours and the per-handoff saving is 8 minutes: the methods tie at 285 handoffs. At the declared 400-handoff horizon, C.11 returns `choose now` for the ontology-backed Method on the supplied equal-guarantee basis, saving an expected 15 hours 20 minutes. If the feasible horizon falls to 100, the same basis favors the lighter Method. These are conditional estimates, not observed maintenance results; changed costs or guarantees reopen their respective questions.
 
 An admitted maintenance-information System performs the dated configuration and application Work using the selected ontology-backed Method. The account recovers the System's A.13 core and independently admits the Work under A.15.1. Because the current question is whether setup cost is repaid across the handoffs and consumes no exact assignment-bound attribution, this short example does not open F.6 or expose assignment identity, species, participants, or attribution detail. A later attribution-bearing claim adds F.6 through the same obtaining A.13 assignment.
 

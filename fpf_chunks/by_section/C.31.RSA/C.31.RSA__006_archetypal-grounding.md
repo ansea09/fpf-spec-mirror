@@ -6,12 +6,12 @@ section_id: "C.31.RSA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:5 — Archetypal Grounding"
-line_start: 75727
-line_end: 75819
+line_start: 74658
+line_end: 74750
 dependencies:
   - "A.10"
   - "A.19"
@@ -93,7 +93,7 @@ sourceReturnCondition:
 relatedClaimPatternsIfClaimed:
   `A.10` for the evidence-validity claim's source-to-use basis; `G.6` when a citable provenance path is needed; `B.3` for assurance reliance; `A.6.M` for interface grammar when a module-interface claim is made; `C.16` for the measurement account; `A.19.CPM` for comparison under a declared comparator
 stopCondition:
-  report-only accounting unless comparator admission, evidence validity, and assurance validity are declared
+  report-only accounting; establish comparison, evidence-validity or assurance grounds when that particular further use is made
 ```
 
 Admissible move: publish the local report-only RSA note and refactor the repeated organization of delivery approval work into reusable work structure and reusable evidence structure. Non-admissible move: claim that the reusable evidence package proves every deployment or that a high reusable share makes the architecture better.
@@ -109,7 +109,7 @@ The template makes many local exceptions necessary for product teams and side-ch
 
 This is not a successful RSA result. The accounting basis counts template instances but hides interface relation cost, lost variation, hidden bespoke work, and evidence decay. The repair is to mark the share as report-only, add the missing bespoke-residue slots, and apply A.6.M, C.31, or a characteristic pattern governing the claim to the interface relation cost before any comparison or decision use.
 
-Lowering replay: the team tries to use the 85 percent share to rank this template architecture above another product-line variant and approve the template program. The use is lowered to local report-only accounting because the comparator set, accounting-basis alignment, interface-cost measure, source-return condition, and decision record are absent. Before comparison or decision use, the interface grammar must be repaired under its direct pattern, using A.6.M when a module-interface claim is current, C.16 must govern the interface-cost measurement, A.19.CPM must govern comparison of the admitted profiles, A.19 must govern any CharacteristicSpace or reusable space predicate used, and C.11 must govern the local decision claim.
+Lowering replay: the team tries to use the 85 percent share to rank this template architecture above another product-line variant and approve the template program. The use is lowered to local report-only accounting because the comparator set, accounting-basis alignment, interface-cost measure, source-return condition, and decision record are absent. Recover the interface claim and actual costs, using A.6.M for unresolved module-interface meaning and C.16 for the cost measurement. A.19.CPM governs comparison of admitted profiles; A.19 applies to a CharacteristicSpace or reusable space predicate when one is used, and C.11 to local choice. These grounds can support comparison of the existing variants before any interface is changed. A chosen repair changes the candidate and reopens the affected accounting and comparison.
 
 Stop condition: do not use the 85 percent share for outside-RSA ranking, gate, assurance, or decision. Reopen the RSA note when the interface grammar, exception register, or comparator set changes.
 

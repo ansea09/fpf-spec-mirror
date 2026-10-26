@@ -6,12 +6,12 @@ section_id: "A.17:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__009_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:8 — Consequences"
-line_start: 34697
-line_end: 34712
+line_start: 34105
+line_end: 34120
 dependencies:
   - "A.17"
   - "A.18"
@@ -24,8 +24,8 @@ dependencies:
   - "C.2"
   - "D.3"
   - "E.10"
-  - "U.Dynamics"
-  - "U.PromiseContent.acceptanceSpec"
+  - "F.7"
+  - "F.9"
 keywords:
   - "attribute"
   - "axis"
@@ -41,17 +41,17 @@ keywords:
 
 ### A.17:8 - Consequences
 
-By instituting **Characteristic** as the single term and enforcing the CSLC structure, this pattern yields several positive outcomes:
+The distinctions support the following uses:
 
--   **Unambiguous metrics:** Every measurement has a single, well-defined anchor of meaning – the Characteristic – eliminating guesswork about “what is this number about?”.
+- **Recoverable measurement meaning:** a reader can identify the Characteristic to which a reported value belongs.
 
--   **Separation of concerns:** We cleanly separate _what_ is measured from _how_ it’s represented. The Characteristic names the quality of interest, while the Scale/Unit defines the expression. A raw value now **means nothing by itself** – it must be read as “X units on the Y scale of Z Characteristic,” which greatly reduces misinterpretation.
+- **Separate aspect and expression:** the Characteristic names what is measured; the Scale defines its admissible values and structure, with a Unit where applicable.
 
--   **Unary vs. relational clarity:** The explicit distinction between Entity-Characteristic and Relation-Characteristic ensures that relational properties (like “distance between A and B” or “consistency among experts”) aren’t mistakenly treated as inherent properties of a single object. This guards against logical errors and data modeling mistakes.
+- **Recoverable participants:** unary and relational Characteristics expose whether a value concerns one bearer or a tuple, such as the distance between two objects.
 
--   **Cross-domain comparability:** All measurements, regardless of domain, follow the same **CSLC** rails. This means a temperature in Kelvin and a reliability score in percent can each be traced through Characteristic → Scale → Coordinate. They can’t be directly compared unless designed to be, which is _good_: any composite scoring must be done via an explicit **SCP** mapping to a common **Score** scale. The pattern thus enables interoperability (through well-defined Score bridges) while preventing illegitimate comparisons.
+- **Cross-domain construction:** temperature and a verified-claim proportion can each be described through Characteristic → Scale → Coordinate. Their shared structure supplies no common desirability order. Combining them into a Score requires an explicit ScoringMethod with its preference and applicability conditions under A.19.USCM.
 
 - **Revisable change accounts:** Characteristic meanings and Scales remain explicit as a state model changes. Revising a constraint, input or law can change which states are reachable; adding a Characteristic can supply predictive information that an earlier description omitted.
 
-There are few downsides. One consequence is that modelers must learn the canonical terms and possibly refactor existing documentation (a short-term effort). Also, enforcing scale integrity means quick-and-dirty aggregate scores are not allowed unless justified via a SCP – this introduces a healthy “pause” to ensure composite metrics are well-founded. Overall, the benefits in clarity and correctness far outweigh the overhead. Teams gain a _lingua franca_ for metrics, and the risk of metric abuse (mixing apples and oranges) is significantly reduced.
+The cost is identifying disciplinary meanings and revising ambiguous descriptions. A shared term reduces one source of confusion; it does not establish measurement accuracy, evidence quality or a justified scoring model.
 

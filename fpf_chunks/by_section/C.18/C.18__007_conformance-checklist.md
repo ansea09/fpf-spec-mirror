@@ -6,12 +6,12 @@ section_id: "C.18:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__007_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:5 — Conformance Checklist"
-line_start: 61218
-line_end: 61236
+line_start: 60185
+line_end: 60203
 dependencies:
   - "A.15"
   - "A.19"
@@ -63,7 +63,7 @@ keywords:
 - `CC-C18-8` Agent-loop, harness-loop, workflow-store, or DPF-seed variants retained in an archive name their descriptor, lineage, and next governing relation, together with any telemetry on which the retained-exploration claim relies; archive membership alone establishes no quality improvement. Quality-improvement claims require their own re-evaluation; use `E.23` only for repeated improvement passes.
 - `CC-C18-9` A filled `projectLocality?` names independently admitted dated generation and composite project `U.Work` occurrences, the subject pattern, and one exact obtaining relation; `@Project` alone remains retrieval-only.
 - `CC-C18-10` Problem-card, result, selected-set, choice, work, and refresh references remain references to separately governed objects or next subject patterns and create none of those identities or relations.
-- `CC-C18-11` The SoTA basis names its reviewed-through boundary and exact mutable editions; a material source revision, newer field survey, or contrary archive, descriptor-generalization, or OEE-evaluation evidence records a reopen trigger and hands refresh to `G.11`.
+- `CC-C18-11` When a claim relies on a source premise, keep its edition and use basis recoverable. A material revision or contrary evidence reopens the dependent archive, front or generation claim through G.11; unaffected claims remain reusable.
 - `CC-C18-12` When the §4.3a branch applies, exploratory, expansive, or transformational wording names the earlier and candidate effective space declarations, changed component, counterfactual or trajectory evidence, uncertainty, blocked stronger claim, and next relation; distance, rarity, novelty, or local progress alone does not prove space change.
 
 

@@ -6,12 +6,12 @@ section_id: "C.30:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:1 — Problem frame"
-line_start: 71361
-line_end: 71416
+line_start: 70335
+line_end: 70390
 dependencies:
   - "A.1"
   - "A.10"
@@ -76,13 +76,13 @@ keywords:
 
 ### C.30:1 - Problem frame
 
-Use this pattern when you need to decide what the architecture of one exact holon (`U.Holon`) is and what to do next. First distinguish actual relations and a selected structure from a candidate or expected structure, a claim about either, and a description or representation.
+Use this pattern when you need to recover or consider the architecture of a particular holon (`U.Holon`) and choose the next architecture action. Distinguish actual relations and selected structure from a candidate or expected structure, and distinguish that subject from claims and descriptions about it.
 
-For a precise result, recover which subject relations actually obtain, which exact `U.Structure` is selected from them, whether the direct `ArchitectureRelation` obtains, what the C.2.1 claim says, the concern and admissible-use frame, and the next architecture move.
+For an actual architecture claim, recover the obtaining subject relations, the selected A.22 structure and whether the direct `ArchitectureRelation` obtains. For a candidate or expected arrangement, state that mode without inventing actual relations. In either case, identify the holon, structure kind, concern, intended use and next move; constitute a C.2.1 claim when the receiving use needs one.
 
 The first useful architecture move is small. In ordinary prose, name the holon; say whether the structure is actual, candidate, or expected; name the structure kind and architecture concern; state how any inspected material is being used; and give the next move. If one or two sentences make those values clear, stop.
 
-For example: “For the payment system, the diagram shows a candidate module-interface structure, not an established architecture relation. Next recover the actual dependency relations before deciding whether to replace the fraud-scoring module.” This is already a usable result. Use the card below only when the result must be retained, compared, or handed on:
+For example: “For the payment system, the diagram shows a candidate module-interface structure, not an established architecture relation. Next recover the actual dependency relations before deciding whether to replace the fraud-scoring module.” This is already a usable result and may be retained or shared as written. Use the card below when the receiving use needs its distinctions organized beyond what that ordinary account supplies:
 
 ```text
 ArchitectureQuestionCard@Project:
@@ -120,11 +120,11 @@ The card can stop before a durable claim. An `actualRelationNamed` result requir
 
 Across C.30, `@Project` in a record name is a compatibility and retrieval cue only. It identifies neither a project entity nor a composite project `U.Work`, and it establishes no context, authority, viewpoint, or parthood. When the card is genuinely local to one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work` recovered under A.15.6. Include `architectureQuestionProjectUseRelationRef` only when a named pattern defines the relation by which this card use concerns that Work and an occurrence of that relation obtains. A Work reference alone does not establish project locality. If that locality matters but the relation is not yet defined, record `missing-governor`; if locality does not matter, omit both project-local fields. Description publication and other project-local uses follow the same rule. A described holon, architecture claim, or architecture relation does not become project Work by retrieval suffix.
 
-Use a conditional `ArchitectureDescription` bridge only when durable architecture-description use is current: cross-team reuse, regulated or safety use, reusable design, comparison, source or lens reuse, or another named full-mode description use. Ordinary use stops at `ArchitectureQuestionCard@Project` when it makes one next architecture move clear. If the architecture description itself becomes the EntityOfConcern under repair, use `C.30.AD`.
+Use the `ArchitectureDescription` bridge when the next architecture move depends on a description whose subject, correspondence or use conditions need recovery. Cross-team reuse or a regulated use can create that need; retaining an already sufficient explanation does not. Ordinary prose or a question card can finish the question. Use `C.30.AD` when the description itself needs construction or repair.
 
 What goes wrong if C.30 is missed: the practitioner reasons from a document, module diagram, transformation-flow graph description, mathematical lens, benchmark, maturity score, or decision record instead of recovering the described holon, selected structures, first architecture move, and non-architecture claim kind.
 
-What C.30 buys in practice: the practitioner stops treating a document or diagram as architecture. They can distinguish actual relations and selected structure from the architecture relation, claim, description, view, representation, publication occurrence, publication form, carrier, and source relation, then choose one small next move.
+What C.30 buys in practice: the practitioner can determine whether the next work concerns the actual organization, a proposed change, or the description through which it is understood. This selects a concrete architecture action and the basis it still needs.
 
 Do not use C.30 when the question does not concern the architecture of one exact holon, an obtaining `ArchitectureRelation`, a selected architecture-relevant structure, an `ArchitectureClaim`, or the thin architecture-description bridge needed for one architecture move. Use the pattern that defines or tests the actual source, description, view, publication-use, or other non-architecture relation. If one piece remains an architecture claim, use C.30 only for that piece. Common non-architecture claim boundaries are summarized in `C.30:12`.
 

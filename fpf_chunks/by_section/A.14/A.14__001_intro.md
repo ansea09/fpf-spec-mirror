@@ -6,12 +6,12 @@ section_id: "A.14:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:intro — Intro"
-line_start: 28566
-line_end: 28579
+line_start: 28131
+line_end: 28144
 dependencies:
   - "A.1"
   - "A.15"
@@ -56,7 +56,7 @@ keywords:
 > **Type:** Kernel mereology and part-whole relation discipline pattern
 > **Status:** Stable
 
-**At a glance.** Use A.14 when wording such as *part*, *member*, *portion*, *aspect*, or *phase* could hide different claims. Recover whether the subject is a constructive part, belongs to a collection, is an amount of the same stuff, is one aspect, or is the same carrier during a proper time interval before downstream architecture, Work, assurance, or U-kind admission relies on it.
+**At a glance.** Use A.14 when wording such as *part*, *member*, *portion*, *aspect*, or *phase* could hide different claims. Recover whether the subject is a constructive part, belongs to a collection, is an amount of the same stuff, is one aspect, or is the same holon during a proper time interval before downstream architecture, Work, assurance, or U-kind admission relies on it.
 
 **Use this when.** Use this pattern when a text says that something is part of something else, belongs to a collection, is some amount of the same stuff, is an aspect of one holon, or is the same holon during a time interval, and choosing the wrong relation would change identity, aggregation, responsibility, evidence, or structural grounding.
 
@@ -64,5 +64,5 @@ keywords:
 
 **What this buys.** One human-facing relation catalogue that keeps constructive components and constituents, measured portions, bearer-dependent aspects, proper temporal phases, and collection belonging under each collection's own rule distinct without inventing a catch-all *aspect* or *member* vocabulary.
 
-**Not this pattern when.** Not this pattern when the current question is only a selected Characteristic (`C.16`/`A.19`), viewpoint or view (`E.17.0`/`E.17.1`), representation or projection (`C.29` or its direct projection pattern), temporal claim without a `PhaseOf` relation (`C.27.TA`), constructive trace (`C.13`), Working-Model assurance grounding (`B.3.5`), meta-holon transition (`B.2`), or general U-kind admission (`E.24.UK`).
+**Not this pattern when.** Use the direct pattern when the current question is only a selected Characteristic (`C.16`/`A.19`), viewpoint or view (`E.17.0`/`E.17.1`), representation or projection (`C.29` or its direct projection pattern), temporal claim without a `PhaseOf` relation (`C.27.TA`), constructive trace (`C.13`), Working-Model assurance grounding (`B.3.5`), meta-holon transition (`B.2`), or general U-kind admission (`E.24.UK`).
 

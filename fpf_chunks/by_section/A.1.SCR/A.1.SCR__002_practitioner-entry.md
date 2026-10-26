@@ -6,12 +6,12 @@ section_id: "A.1.SCR:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__002_practitioner-entry.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:0 — Practitioner entry"
-line_start: 3523
-line_end: 3540
+line_start: 3518
+line_end: 3535
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -30,7 +30,7 @@ keywords:
 
 **First useful move.** State the claim, the proposed actor or change bearer, and what you will decide differently if it is or is not a system. If the phrase already names Work, a Method, capability, transformation, episteme, structure, or a direct relation and your decision does not depend on systemhood, name that object and leave through its subject pattern. Apply the complete A.1 criterion only in the system-dependent branch.
 
-**First-minute recognized case.** A maintenance decision asks whether `Pump-37` or the larger pumping assembly must be isolated before repair. The exact pump has identified constituents, obtaining part relations and assembly, a reidentification rule across seal replacement, a composition-grounded pumping characteristic, and governed boundary/interface facts. Its organization can causally participate in pumping and maintenance Work while preserving identity. The first result is: **`Pump-37` is the recognized `U.System` whose boundary controls this isolation decision.**
+**Recognized case.** A maintenance decision asks whether `Pump #37` or the larger pumping assembly must be isolated before repair. A.1:5.1 supplies the pump's complete construction basis: constituents, part relations and assembly, reidentification through seal replacement, a composition-grounded pumping characteristic, compatibility with a governed larger assembly, and acting eligibility. The first result is: **`Pump #37` is the recognized `U.System` to which the repair is addressed.** Use the applicable isolation rule with its boundary and connections to decide which assembly must be isolated.
 
 **Subject-pattern and proposed-system readings.** “We develop the surgeon's mastery” ordinarily concerns the person and their actual ability, training Work or evaluation. Use A.2.2 for the ability under stated conditions; an account of it has that independently identified person as its subject. Training can change the ability while the report stays unchanged; editing the report alone changes no ability. Select the assertion episteme as subject only when the question concerns that assertion. If the source instead proposes the physically or operationally realized whole `SutureControl-M17`, identify that exact `U.Entity` and evaluate it—not a substituted surgeon or capability—under the already admitted `U.System` kind. Choose the reading on which the current decision depends.
 

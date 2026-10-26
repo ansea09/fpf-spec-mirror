@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__003_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:1 — Problem Frame"
-line_start: 10777
-line_end: 10782
+line_start: 10687
+line_end: 10692
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"
@@ -24,5 +24,5 @@ keywords:
 
 Methods are often moved by name: a team says that a Method worked in one project, industry, or organization and applies it to another. The label hides the conditions that mattered—project purpose, development phase, technical problem, performer capability, support Systems, direct relations, adaptations, and the domain result being judged.
 
-The opposite error is equally common. Any adaptation or local failure is treated as evidence that the Method cannot transfer, even when the changed condition, support defect, or altered Method semantics has not been identified. A useful validation result must show what stayed the same, what changed, what actual Work occurred, and what claim survives.
+The reverse inference can also fail. Any adaptation or local failure is treated as evidence that the Method cannot transfer, even when the changed condition, support defect, or altered Method semantics has not been identified. A useful validation result must show what stayed the same, what changed, what actual Work occurred, and what claim survives.
 

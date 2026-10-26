@@ -6,12 +6,12 @@ section_id: "C.2.2a:13"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__015_worked-examples.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:13 — Worked Examples"
-line_start: 52952
-line_end: 52981
+line_start: 52106
+line_end: 52135
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -49,7 +49,7 @@ keywords:
 #### C.2.2a:13.1 - Inquiry cue before endpoint capture
 A position claim for a research cue note may state:
 
-- moderate `F`,
+- `F`: the terms needed for the inquiry are defined, while the proposed inferences remain in prose,
 - low articulation explicitness,
 - low closure,
 - strong embodied or trace-based anchoring,
@@ -60,7 +60,7 @@ Keep these readings explicit when testing entry into `A.6.P` or `C.25`; the note
 #### C.2.2a:13.2 - Routed operator alert note
 A routed operational alert may have:
 
-- moderate formality,
+- `F`: the alert condition has unit-bearing variables and an explicit threshold predicate,
 - medium articulation,
 - low closure because several responses remain live,
 - high operator-loop anchoring,
@@ -69,7 +69,7 @@ A routed operational alert may have:
 Keep the live responses explicit in the route-bearing seam publication. Before publishing an endpoint-subject-qualified work record or reliance record, test the applicable downstream pattern's conditions; these chart readings do not decide that result.
 
 #### C.2.2a:13.3 - Viewpoint-bound adequacy note
-A document-mediated adequacy note about an architecture description may be relatively high in formality and articulation, mid-level in closure, document-mediated in anchoring, and symbolic in representation. That position remains within the same language-state chart even though its carrier lane differs from an embodied inquiry cue.
+A document-mediated adequacy note about an architecture description may state an explicit vocabulary and predicates for its claims, with articulation sufficient for the described comparisons, mid-level closure, document-mediated anchoring and symbolic representation. That position remains within the same language-state chart even though its carrier lane differs from an embodied inquiry cue.
 
 #### C.2.2a:13.4 - Polished prose is not closure
 A prose rewrite may look cleaner, more compact, or more manager-readable than the source cue and still remain low in closure or articulation explicitness. If the underlying slot values, uncertainty, and route plurality remain unchanged, then publication polish changes the rendering or carrier lane, not the chart position by itself.

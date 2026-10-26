@@ -6,12 +6,12 @@ section_id: "C.22.2:21"
 section_title: "Machine-Assisted Drafting Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__022_machine-assisted-drafting-boundary.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:21 — Machine-Assisted Drafting Boundary"
-line_start: 64244
-line_end: 64258
+line_start: 63216
+line_end: 63223
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,14 +60,7 @@ keywords:
 
 Machine-assisted `ProblemCard` drafting is only a drafting aid. Before the draft is used for P2W or selector-facing work, a practitioner checks the card's local fields and any subject-pattern cues for claims outside `C.22.2`.
 
-Required practitioner checks for a machine-assisted draft reuse the exact Thin contract:
-
-- problem signal;
-- one joint EntityOfConcern, effective ReferenceScheme, and ClaimScope;
-- exact claim family;
-- reason this is not merely a wish, ticket, slogan, label, or preselected Work request;
-- improvement check or acceptance probe; and
-- one honest next use.
+Check the Thin content in §2.1 against the available source material. A machine-generated field value is a proposal until its claim is supported; the same record budget applies as for a human draft.
 
 Check problem-formulation follow-up reason, validation boundary, freshness or expiry, unknown handling, source-set reference, representation or retargeting relation, and outside-pattern cues only when that content is current for the chosen next use. Omit a non-current field; do not invent a value or write `unknown` merely because the drafting aid exposes that field.
 

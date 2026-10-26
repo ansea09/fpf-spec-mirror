@@ -6,12 +6,12 @@ section_id: "A.19.CN:Close"
 section_title: "Closing perspective"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__016_closing-perspective.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:Close — Closing perspective"
-line_start: 37271
-line_end: 37275
+line_start: 36541
+line_end: 36545
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -38,5 +38,5 @@ keywords:
 ### A.19.CN:Close - Closing perspective
 
 
-A.19.CN makes comparability operational: a one-page *CN-Spec*, a registry for edition, status, supersession, and deprecation records, explicit relations and receiving-use claims for cross-local reuse, and a checklist plus harness for audit. It remains tool-agnostic and keeps every reading tied to its characteristic and scale editions, bearer, comparison basis, scope/window, evidence, and intended use.
+A CN-Spec keeps the comparison basis with the readings. Reuse it while that basis remains sufficient; revise it and the dependent conclusions when the Characteristic, chart, normalization or intended use changes. A registry supports maintained editions, and cross-local reuse keeps its exact relation and separate use claim recoverable.
 

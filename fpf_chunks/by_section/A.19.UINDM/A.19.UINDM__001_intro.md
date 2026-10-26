@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:intro — Intro"
-line_start: 38317
-line_end: 38323
+line_start: 37561
+line_end: 37568
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -27,5 +27,6 @@ keywords:
 > **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Normative (unless explicitly marked informative)
-> **Placement:** Part A / CN-Spec cluster (A.19) / CHR mechanism-governing patterns
+
+**Use this when** a receiving comparison, score or dashboard needs a declared choice of indicator positions from an existing CharacteristicSpace. Start with that receiving question and the selection policy, then resolve its chosen positions and Scales. Reuse an already adequate selection while its basis and intended use remain applicable; a measurement alone need not introduce indicatorization.
 

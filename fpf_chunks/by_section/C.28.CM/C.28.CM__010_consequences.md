@@ -6,12 +6,12 @@ section_id: "C.28.CM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.CM/C.28.CM__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.28.CM — Construct and Challenge a Causal Model"
   - "C.28.CM:9 — Consequences"
-line_start: 68712
-line_end: 68717
+line_start: 67686
+line_end: 67691
 dependencies:
   - "A.15.9"
   - "B.5.2"

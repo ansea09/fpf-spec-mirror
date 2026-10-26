@@ -6,12 +6,12 @@ section_id: "A.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__007_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:5 — Archetypal Grounding"
-line_start: 4547
-line_end: 4639
+line_start: 4542
+line_end: 4634
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -106,7 +106,7 @@ PlantCoolingAssignment@PumpUnit3:
 
 The interval is assertion content about the known extent; the occurrence continues only while the species predicate obtains without interruption for the same participants. `PlantOperationsSystemRoleVocabulary-2026`, its reference scheme, and the relevant signature can be cited as interpretation evidence. They are not extra assignment participants.
 
-Closing the open interval later refines the same occurrence description when uninterrupted identity is preserved; the stated interval neither makes the relation obtain nor becomes another participant.
+A later description may close the open interval while referring to the same uninterrupted assignment occurrence. Changed claim content identifies another episteme under C.2.1; the stated interval neither makes the relation obtain nor becomes another participant.
 
 The assignment proves neither circulation capability over every operating region nor performed circulation or maintenance Work. Those claims use A.2.2, A.15.1, and the applicable Method, transformation, measurement, and evidence relations.
 
@@ -116,7 +116,7 @@ An engineering team uses RFC 9110 while designing an HTTP service. Keep these cl
 
 1. `DesignTeam-2` independently counts under `ProtocolDesignerSystemRole` in the current slice when its signature criterion is satisfied.
 2. For this hypothetical assignment-bound case, suppose the practice has declared `ProtocolDesignSystemRoleAssignment` under `U.SystemRoleAssignment` according to A.2.1, and `DesignAssignment-1` is one obtaining occurrence with holder `DesignTeam-2` and assigned kind `ProtocolDesignerSystemRole`.
-3. The RFC publication is the source episteme in the direct source-use or external-rule relation selected by the design claim.
+3. The RFC's claim-bearing content is the source episteme in the direct source-use or external-rule relation selected by the design claim; any publication relation remains separate.
 4. In this hypothetical case, recover `DesignTeam-2` as the exact actual performer through A.13 with that same obtaining `DesignAssignment-1`, then let A.15.1 independently admit the dated design Work. Suppose this Work was performed under `DesignAssignment-1`; F.6 afterward establishes that relation to this same assignment. F.6 identifies neither assignment nor performer, and failed attribution would leave the Work intact. The Work may separately produce a MethodDescription or SystemDescription only through the applicable production claim.
 
 

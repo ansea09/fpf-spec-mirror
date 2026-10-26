@@ -6,12 +6,12 @@ section_id: "C.19:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:7 — Conformance Checklist"
-line_start: 61780
-line_end: 61799
+line_start: 60749
+line_end: 60768
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -56,9 +56,9 @@ keywords:
 - **C19-2** The characteristic set and indicators used for dominance **MUST** be declared and eligibility conditions applied first. If use-value participates in current `Q`, the record cites the C.16.Q `QS.UseValue` objective head in that Q; otherwise it states that the criterion remains outside Q. *(References to C.18 generator operators are descriptive only; LOG exports no Γ.)*
 - **C19-3** If a lens is used, its id MUST be recorded; do not label scalarized top-1 as "frontier".
 - **C19-4** Promotion of `Surprise` or `Illumination` into dominance MUST be explicit in policy.
-- **C19-5** A pool-policy record creates no `SystemRoleAssignmentStateRelation`, system-role assignment, permission, plan, budget, or Work occurrence. When implementation follows, cite the independently obtaining context and scope, exact system-role-kind classification, assignment or assignment-state condition, and direct planning or Work pattern; none of those facts follows from the pool-policy record.
+- **C19-5** A pool-policy record creates no `SystemRoleAssignmentStateRelation`, system-role assignment, permission, plan, budget or Work occurrence. For each such claim needed when implementation follows, establish its context, scope and independent basis under the applicable subject rule. Precise role, assignment or assignment-state claims need their respective grounds; ordinary implementation wording does not require asserting all of them.
 - **C19-6** When a pool-treatment lens uses dominance or tie-breakers, it **MUST** document or cite the applicable `Eligibility → Dominance → Tie-breakers` comparison. Eligibility is for the affected use. Continuation and retention without that comparison follow §4's contribution, commitment, and opportunity-cost basis; exploitation readiness is separate. For every tie-breaker actually used, cite a constituted result with the compatible basis required above; unused optional tie-breakers need no result. Any promotion of Surprise or Illumination into the dominance set **MUST** be named by lens or policy id and recorded in provenance.
-- **C19-7 (pattern-change boundary).** A project-local choice or revision of an `EmitterPolicy`, `DescriptorMap`, `DistanceDef`, sampler, quota, or `δ_family` threshold stays under C.19 and the decision or result that consumes it; it does not invoke E.15 merely because a profile changed. When the definition is changed in an existing FPF pattern edition, use E.15 to compare the exact predecessor and candidate, classify the actual effect, and repair dependent consumers. Use C.18/C.19 candidate generation only when several materially plausible definitions remain. No default heterogeneity quota or sampler is defined here. Keep the policy and card ids in the existing decision, change, or SCR result that actually needs them; create no separate authoring trace.
+- **C19-7 (pattern-change boundary).** A project-local choice or revision of an `EmitterPolicy`, `DescriptorMap`, `DistanceDef`, sampler, quota, or `δ_family` threshold stays under C.19 and the decision or result that consumes it; it does not invoke E.15 merely because a profile changed. When the definition is changed in an existing FPF pattern edition, use E.15 to compare the exact predecessor and candidate, classify the actual effect, and repair dependent consumers. Compare materially plausible candidate definitions when the question requires it. Use C.18 for their generation/archive account, C.40 for missing construction and C.19 only when their live-pool policy is the question. No default heterogeneity quota or sampler is defined here. Keep the policy and card ids in the existing decision, change, or SCR result that actually needs them; create no separate authoring trace.
 
 - **C19-8** When a heterogeneity-first profile is used, provenance **MUST** name each admitted heterogeneity constraint and its governing policy id. If a family or subfamily quota applies, record the exact quota vector and family-definition id; if sampling applies, record the sampler class, seed when relevant, and sampler-policy id. Do not fabricate a default triad, quota, or sampler.
 - **C19-9** A `PoolPolicyResult` **MUST** identify `livePool`, `governingLens`, `changeTrigger`, and exactly one `currentTreatment` token from `widen | keep_frontier | narrow_to_subset | sunset_line`; `lens` and space-separated treatment spellings are not alternate record fields or values.

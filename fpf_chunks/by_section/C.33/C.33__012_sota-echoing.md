@@ -6,12 +6,12 @@ section_id: "C.33:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:11 — SoTA-Echoing"
-line_start: 80982
-line_end: 80992
+line_start: 79815
+line_end: 79823
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -52,12 +52,10 @@ keywords:
 
 ### C.33:11 - SoTA-Echoing
 
-| Source or practice line | Adopt, adapt, or reject | Concrete C.33 locus changed | Boundary and currentness |
+| Source or practice line | Use of the contribution | Contribution to the assessment | Boundary of use |
 | --- | --- | --- | --- |
-| Finzi et al., `From Entropy to Epiplexity`, arXiv:2601.03220 | Adapt bounded-observer structural information through the qualified characteristic in `C.2.8`. | Relates `observerOrBudgetBoundary?` and captured/lost-structure comparison to the reader's preparation and access. A formal estimate also uses the `C.29` correspondence. | The amount characterizes extraction from the expressed source under observer conditions. The described architecture and its adequacy for the next use retain their own questions and evidence. Reopen the note when observer conditions, source publication edition, or downstream use changes. |
-| Cao et al., `Multi-Relational Structural Entropy`, arXiv:2405.07096 | Adapt relation heterogeneity and graph structural-information pressure. | Strengthens `typedRelationSemantics?`, relation-kind recovery, and measurement or eval routing. | For a graph entropy value, use `C.16` when measurement is claimed and `C.32.ACE` when architecture evaluation is current; it does not establish architecture adequacy. |
-| Sapunov, `Theory of Code Space`, and ToCS code-agent architecture-map practice | Adopt the partial-observability and belief-probing lessons; adapt them beyond software code agents. | Adds `relationObservationClass?`, confidence class, active-passive gap, unexplored regions, invariant return to the named architecture source map or the rule that defines the invariant claim, and non-overread of JSON probes and benchmark scores. | A probe, JSON output, dependency F1, invariant F1, active-passive gap, or benchmark score is not architecture adequacy, evidence sufficiency, safe-change authority, assurance, gate passage, or release authority. Reopen when the probed codebase, architecture source map, or observation budget changes. |
-| GonzoML neural-network architecture intake | Adapt practitioner operation labels into FPF recovery steps. | Adds neural source-label recovery for block substitution, dataflow change, routing, gating, cache, memory, pruning, distillation, NAS, ablation, and affected characteristics. | Source labels and results do not become FPF ontology or adequacy. Recover the selected structure, relation, bearer, affected characteristic, and loss needed by the architecture claim, and identify the next claim plus its required rule before relying on the label for that use. |
-
-C.33 rejects the shortcut: "the richest available diagram, map, score, or model summary is the architecture content." The better practice is to ask what the carrier captures for one declared use and what it cannot support. Use each SoTA contribution only for the fields, stop conditions, or concrete next-use rules named in its row.
+| Finzi et al., `From Entropy to Epiplexity`, arXiv:2601.03220 | Adapt bounded-observer structural information through the qualified characteristic in `C.2.8`. | Connects observer and budget conditions and captured/lost-structure comparison to the reader's preparation and access. A formal estimate also uses the `C.29` correspondence. | The amount characterizes extraction from the expressed source under observer conditions. The described architecture and its adequacy for the next use retain their own questions and evidence. Reopen the note when observer conditions, source publication edition, or downstream use changes. |
+| Cao et al., `Multi-Relational Structural Entropy`, arXiv:2405.07096 | Adapt relation heterogeneity and graph structural-information pressure. | Distinguishes relation kinds when interpreting a graph and its measurements or evaluation. | For a graph entropy value, use `C.16` when measurement is claimed and `C.32.ACE` when architecture evaluation is current; it does not establish architecture adequacy. |
+| Sapunov, `Theory of Code Space`, and ToCS code-agent architecture-map practice | Adopt the partial-observability and belief-probing lessons; adapt them beyond software code agents. | Distinguishes observation class, confidence, active-passive gap and unexplored regions; an invariant claim returns to the relevant architecture source map or defining rule. | A probe, JSON output, dependency F1, invariant F1, active-passive gap, or benchmark score is not architecture adequacy, evidence sufficiency, safe-change authority, assurance, gate passage, or release authority. Reopen when the probed codebase, architecture source map, or observation budget changes. |
+| GonzoML neural-network architecture intake | Adapt practitioner operation labels into FPF recovery steps. | Supports interpretation of neural source labels for block substitution, dataflow change, routing, gating, cache, memory, pruning, distillation, NAS, ablation, and affected characteristics. | Use clear source-local meanings directly. Resolve a structure, relation, bearer, characteristic or loss when it remains unclear and changes the architecture claim; apply any rule required by that claim. |
 

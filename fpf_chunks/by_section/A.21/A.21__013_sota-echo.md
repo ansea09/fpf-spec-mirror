@@ -6,12 +6,12 @@ section_id: "A.21:11"
 section_title: "SoTA echo"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__013_sota-echo.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:11 — SoTA echo"
-line_start: 40604
-line_end: 40612
+line_start: 39792
+line_end: 39800
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -38,6 +38,6 @@ keywords:
 | --- | --- | --- |
 | Join-semilattice aggregation in distributed-systems practice | Use an associative, commutative, idempotent worst-result join after explicit mapping. | Algebra does not make unknown or unrun input neutral. |
 | Policy evaluation and safety decision tables | Identify the applicable rule, subject, inputs, outcome mapping, and action consequence. | A profile label or default-looking branch is not policy application or authority. |
-| Attestation and provenance practice, including in-toto and SLSA lineage | Publish refs and rationale when audit, transfer, or reuse is current. | An attestation, log, or dashboard does not create the gate decision or source truth. |
+| Attestation and provenance practice, including in-toto and SLSA lineage | Keep references and rationale available for the declared audit, transfer or reuse; publish them when that use requires publication. | An attestation, log, or dashboard does not create the gate decision or source truth. |
 | Compositional crossing checks | Apply crossing equations to an exact structural crossing when its rule requires them. | A structural crossing does not imply a semantic Bridge; each applies only when its own relation and use are current. |
 

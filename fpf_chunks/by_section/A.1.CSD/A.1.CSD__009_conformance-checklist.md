@@ -6,12 +6,12 @@ section_id: "A.1.CSD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:7 — Conformance Checklist"
-line_start: 3962
-line_end: 3978
+line_start: 3957
+line_end: 3973
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -48,7 +48,7 @@ keywords:
 | `CC-A1-CSD-6` | derives scale distinctions from exact holons, scopes, construction, delimitation, crossings, or a genuine B.2/B.2.2 question rather than a fixed ladder. |
 | `CC-A1-CSD-7` | states the possible or observed changed characteristic, exact bearer, conditions, time, evidence, uncertainty, and causal status. |
 | `CC-A1-CSD-8` | keeps unlike bearer, change, horizon, evidence, uncertainty, and receiver coordinates visible across scales. |
-| `CC-A1-CSD-9` | identifies the constraint, alternative, probe, specialist return, monitoring condition, reversible step, or gap that changes the receiver. |
+| `CC-A1-CSD-9` | identifies the constraint, alternative, probe, specialist return, monitoring condition, reversible step, or gap needed by the receiver. |
 | `CC-A1-CSD-10` | returns one ordinary C.2.1 episteme with one focus EntityOfConcern, exact ClaimGraph, and effective ReferenceScheme, or keeps the claims local. |
 | `CC-A1-CSD-11` | retains the missing bearer or path and reopen condition needed by the receiving use; any further inquiry is worthwhile and obtainable separately and as a programme, without a mandatory no-inquiry record. |
 | `CC-A1-CSD-12` | leaves measurement, causality, value, comparison, authority, assurance, and domain decisions with their direct owners. |

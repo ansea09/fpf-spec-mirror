@@ -6,12 +6,12 @@ section_id: "A.2.2:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__014_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:13 — Relations"
-line_start: 5410
-line_end: 5435
+line_start: 5405
+line_end: 5430
 dependencies:
   - "A.1"
   - "A.15"
@@ -44,7 +44,7 @@ keywords:
 | `A.3.2` | Governs membership of one already identified claim-bearing episteme in `U.MethodDescription`; algorithm, procedure, or possession wording is only a cue until the exact admitted Method `EntityOfConcern` and substantive way-of-doing claim are recovered. An admitted method description may separately state required capability. |
 | `A.3.3` | Governs `U.Dynamics`, the state-space and transition-law episteme; dynamics may explain or predict capability but is not the qualified holder ability. |
 | `A.15`, `A.15.1`, `A.15.2` | Govern method, plan, and performed work alignment; capability is one input to work admission, not work itself. |
-| `A.6.5` | Supplies SlotSpec discipline for capability relation fields and capability-use relations. |
+| `A.6.5` | Governs SlotSpecs when an independently needed relation declaration is current; the capability statement can remain ordinary prose. |
 | `A.6.F` | Repairs function and functionality wording that may hide capability, method, work, math function, or functional-architecture claims. |
 | `A.6.RSIR` | Use it to recover relation, signature, interface, system-role, participation, declaration-position, and slot wording before capability repair when the source sentence is mixed; use E.10.ROLE to select the branch for bare *role*. |
 | `C.27.TA`, `C.27` | Use C.27.TA when a positive temporal aspect of capability—currentness, window, rhythm, or drift—is itself relied on; use C.27 for temporal-claim adequacy. |
@@ -55,5 +55,5 @@ keywords:
 | `E.23.CDI`, `E.23.CAE` | E.23.CDI develops the acquisition or provision choice; E.23.CAE distinguishes apparent loss or failed use from a supported capability change. |
 | `C.25` | Governs composite quality families and Q-Bundles that may supply slots for capability-fit checks. |
 | `C.30`, `C.32.HCS`, `C.32.ACS`, `C.32.ACE` | Govern architecture-characteristic material, project criteria rows, and eval readings that may constrain capability use without thereby establishing the holder's ability. |
-| Promise-content and commitment patterns | Govern outward promise and commitment relations; a promise or commitment claim may cite a capability relation, but capability does not become promise or commitment. |
+| Promise-content and commitment patterns | Govern outward promise and commitment relations; a promise or commitment claim may cite a qualified capability claim, but capability does not become promise or commitment. |
 

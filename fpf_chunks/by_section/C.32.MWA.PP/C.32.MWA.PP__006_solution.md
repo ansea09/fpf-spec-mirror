@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:4 — Solution"
-line_start: 79074
-line_end: 79321
+line_start: 77941
+line_end: 78188
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"
@@ -94,7 +94,7 @@ An individual can hold several compatible assignments. Several Systems can joint
 
 For each important connection, make the local claim explicit: this available or proposed holder can supply this contribution, using these means, in this window, under this permission, and the named receiver can use it under these conditions. Keep obtaining, proposed, contradicted and unresolved relation claims distinct. State the evidence, including whether it comes from observation or a qualified provider, and the receiving use it supports. A table is useful when it makes this comparison easier; it is not a substitute for the explanation.
 
-An actual transformation claim needs the subject, boundaries, before/during/after basis and continuity conditions required by A.3.4. An actual Work claim needs its real performer and occurrence. The current synthesis can remain a useful possible-future arrangement without pretending to supply either.
+An actual transformation claim needs the subject, boundaries, before/during/after basis and continuity conditions required by A.3.4. For an actual Work claim, establish the performer's A.13 bases and independently admit the occurrence under A.15.1; add F.6 only when precise assignment-bound attribution is claimed. The current synthesis can remain a useful possible-future arrangement without pretending to supply either.
 
 Retain description relations as well. A WorkPlan's intended dates, a reusable MethodDescription and a case account can concern connected but different subjects. Record the needed schema correspondences, version relations and losses rather than treating their similar layout as identity.
 
@@ -157,7 +157,7 @@ For each claimed gain, perform three connected inquiries.
 
 **Ask what was moved.** Did a shorter expert response move interpretation to an unqualified learner? Did local autonomy move risk or integration work to another unit? Did a cheaper office consume unpaid community work? Did a more demanding method improve an individual result while preventing sufficient throughput for the whole service? Keep the affected result and bearer identifiable. A gain reported at one scale does not cancel a loss at another.
 
-**Challenge the combined mechanism.** Hold the stated conditions fixed and ask whether the candidate can obtain all its promised results. Follow a consequential case, including a plausible exception. If a needed contribution is removed, what exactly fails? If local results are obtained, what makes their combination sufficient for the receiving result? Trace the required intermediate results, their receiving operations, interactions and shared conditions. Construct or obtain the missing connection through C.39, and use C.40.JF for unresolved joint reachability. A list of necessary parts does not establish that their combination is sufficient; retain the unsupported whole claim when its obtaining connection is still missing.
+**Challenge the combined mechanism.** Hold the stated conditions fixed and ask whether the candidate can obtain all its promised results. Follow a consequential case, including a plausible exception. If a needed contribution is removed, what exactly fails? If local results are obtained, what makes their combination sufficient for the receiving result? Trace the required intermediate results, their receiving operations, interactions and shared conditions. Construct or obtain the missing connection through C.39, and use C.40.JF for unresolved joint reachability. A list of necessary parts does not establish that their combination is sufficient. Keep the whole claim unresolved while its obtaining connection is missing, preserving the supported contributions.
 
 Then construct a repair that changes the proposed obtaining relation, not just the wording. Keep a causal hypothesis distinct from a qualified causal conclusion; C.28 governs any causal reliance used in the decision. Possible repairs include altering timing, distributing a decision, adding or replacing a qualified contribution, changing an interface, reserving shared capacity, separating conflicting roles, reducing simultaneous commitments, or revising the remit with its owner. Follow the repair through the same receiving wholes. An extra approval can reduce one error while adding a delay that defeats the useful result.
 

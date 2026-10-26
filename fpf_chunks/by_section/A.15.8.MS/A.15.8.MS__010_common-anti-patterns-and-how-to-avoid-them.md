@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 32363
-line_end: 32377
+line_start: 31927
+line_end: 31941
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -30,7 +30,7 @@ keywords:
 | “The PLM route passed, so manual lookup is insufficient.” | Record PLM as observed pass and manual lookup as untested unless a declared missing feature proves insufficiency. |
 | “Choose the smallest arrangement for each task and combine them.” | Check shared currentness, maintenance, confidentiality, latency, authority, and provider effects; return a retained set or stated split when the union has no supported order. |
 | “The interface gives users access.” | Establish the actual access relation and relevant permission; an interface is only one System or presentation element. |
-| “The AI supported the decision.” | Name provider interaction, consumed suggestion, reviewing Work, permission, authority, result, and evidence separately, or return the missing branch. |
+| “The AI supported the decision.” | Name the provider interaction, consumed suggestion, review, applicable permission and authority, and result; identify dated review Work only if needed. Return any missing premise. |
 | “All components are listed, so the structure is selected.” | Keep a proposed organization until A.22 selection-use facts obtain. |
 | “Three users passed, so the team is capable.” | Report the three Work-task observations and evaluate capability under `A.2.2` only when its holder, Work family, envelope, measures, and window are present. |
 | “Feedback is available through the form.” | Require actual feedback Work or SpeechAct and a named receiving use before claiming feedback occurred or was used. |

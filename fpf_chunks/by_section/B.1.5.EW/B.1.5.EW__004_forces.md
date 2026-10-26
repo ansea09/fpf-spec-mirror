@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:3 — Forces"
-line_start: 43106
-line_end: 43114
+line_start: 42274
+line_end: 42282
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"

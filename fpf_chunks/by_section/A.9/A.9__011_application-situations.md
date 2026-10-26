@@ -6,12 +6,12 @@ section_id: "A.9:10"
 section_title: "Application situations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__011_application-situations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:10 — Application situations"
-line_start: 26930
-line_end: 26933
+line_start: 26488
+line_end: 26491
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"
@@ -30,5 +30,5 @@ keywords:
 
 ### A.9:10 - Application situations
 
-Apply the method to an unresolved choice in resource combination, joint or alternative reliability, control composition, numerical regrouping or ordered Methods. Use the actual subject source for the intended result and its applicability; the examples establish no universal cross-scale guarantee or empirical performance benefit.
+Apply the method to an unresolved choice in resource combination, joint or alternative reliability, control composition, numerical regrouping or ordered Methods. Use the subject source for the intended result and its applicability.
 

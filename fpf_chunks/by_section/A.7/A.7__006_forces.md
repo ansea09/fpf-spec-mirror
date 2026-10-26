@@ -6,12 +6,12 @@ section_id: "A.7:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__006_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:4 — Forces"
-line_start: 25794
-line_end: 25801
+line_start: 25347
+line_end: 25354
 dependencies:
   - "A.1"
   - "A.10"

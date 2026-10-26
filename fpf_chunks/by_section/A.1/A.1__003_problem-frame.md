@@ -6,12 +6,12 @@ section_id: "A.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__003_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:1 — Problem Frame"
-line_start: 2543
-line_end: 2557
+line_start: 2540
+line_end: 2554
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -36,7 +36,7 @@ keywords:
 
 ### A.1:1 - Problem Frame
 
-FPF cannot use `system` as its universal root. A pump, theory, software product, legal code, dashboard, research program, work occurrence, discipline, and team can all be objects under concern, but they do not all act, exchange matter, execute methods, or carry physical ports.
+A pump can move water, a theory can carry claims, and a team can coordinate work. FPF needs a referenceable root broad enough for these objects while retaining the different conditions for part-whole, acting and claim-bearing claims.
 
 A.1 separates four questions that are often collapsed:
 

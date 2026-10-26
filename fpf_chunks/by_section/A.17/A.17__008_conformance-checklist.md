@@ -6,12 +6,12 @@ section_id: "A.17:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:7 — Conformance Checklist"
-line_start: 34677
-line_end: 34696
+line_start: 34085
+line_end: 34104
 dependencies:
   - "A.17"
   - "A.18"
@@ -24,8 +24,8 @@ dependencies:
   - "C.2"
   - "D.3"
   - "E.10"
-  - "U.Dynamics"
-  - "U.PromiseContent.acceptanceSpec"
+  - "F.7"
+  - "F.9"
 keywords:
   - "attribute"
   - "axis"
@@ -41,7 +41,7 @@ keywords:
 
 ### A.17:7 - Conformance Checklist
 
-When authoring or reviewing FPF-compliant metrics, use the following checklist to ensure **Characteristic normalization** is applied:
+When authoring or reviewing FPF-compliant measurements, check the following:
 
 1.  **Declared Characteristic:** Have you explicitly named a **Characteristic** for each aspect being measured, instead of using generic terms? (e.g. use _“Reliability”_ as a Characteristic name rather than saying “this dimension”).
 
@@ -49,7 +49,7 @@ When authoring or reviewing FPF-compliant metrics, use the following checklist t
 
 3.  **Separate Scale/Unit:** For each Characteristic, have you defined the **Scale** (and **Unit**, if applicable) separately, rather than embedding units or ordinal terms in the name of the Characteristic? (e.g. _“Length (m)”_ should be captured as Characteristic = _Length_, Unit = _meter_).
 
-4.  **Scale-appropriate operations:** Are you only performing comparisons or calculations that make sense for the declared scale type? (No averaging of ranks, no mixing of units – ensure **ordinal** Characteristics aren’t treated like numbers, and **interval/ratio** values respect zero and units.)
+4.  **Scale-appropriate operations:** Are you only performing comparisons or calculations that make sense for the declared scale type? (An ordinal encoding alone licenses no arithmetic mean; interval/ratio calculations retain their transformation and unit conditions.)
 
 5. **Calculation or scoring:** Does a quantity calculation use a stated relation with compatible quantities and Scale operations? If values are combined into an overall Score, does the ScoringMethod state the preference it represents and preserve the declared preference in its score order?
 
@@ -57,5 +57,5 @@ When authoring or reviewing FPF-compliant metrics, use the following checklist t
 
 7. **State use:** When Characteristics describe modeled change, are their admitted combinations and the transition law sufficient for the question under A.3.3? If a state condition is being recognized, is its predicate and required support determined by that receiving use?
 
-_(Failure to satisfy the above indicates a violation of this pattern’s intent. The **LEX-BUNDLE** rules in E.10 provide automated checks for term usage, and MM-CHR templates enforce explicit Characteristic/Scale definitions.)_
+Lexical checks can locate inconsistent terms; deciding the measured aspect, admissible operation and applicability requires the corresponding semantic rules.
 

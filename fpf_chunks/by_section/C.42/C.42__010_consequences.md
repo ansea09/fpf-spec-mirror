@@ -6,12 +6,12 @@ section_id: "C.42:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.42 — Reduce Avoidable Work While Preserving the Needed Result"
   - "C.42:9 — Consequences"
-line_start: 89577
-line_end: 89584
+line_start: 88395
+line_end: 88402
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

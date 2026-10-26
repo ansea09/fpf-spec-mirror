@@ -6,12 +6,12 @@ section_id: "C.38:7"
 section_title: "Conformance and practical checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__008_conformance-and-practical-checks.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:7 — Conformance and practical checks"
-line_start: 82736
-line_end: 82754
+line_start: 81560
+line_end: 81578
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -41,10 +41,10 @@ A use conforms only when the checks needed by its claimed comparison pass:
 6. `A.19.CPM` or `A.19.SelectorMechanism` is used only when its evidence-gating, incomparability, abstention, or set-return contribution is actually needed.
 7. Only complete-enough whole ways enter the finite `OptionSet`; `C.11` alone makes the local choice and emits the `ChoiceResult`.
 8. The rule for retaining the comparison prevents a duplicate episteme when an owning domain result already carries the complete comparison.
-9. A retained way names its first unsupported realization branch, but no realization or later Work is claimed by the comparison.
+9. A retained way names any first unsupported realization branch or the direct Method that can proceed; the comparison itself claims no realization or later Work.
 10. The reopen condition names a changed premise or result that can alter the comparison or choice.
 
-**Recognition check.** Give a cold reader a *build/buy/provider/AI* list. The reader should be able to name one common result and expose at least one hidden difference or duplicate without inventing an arrangement taxonomy.
+**Recognition check.** The practitioner can recover one common result from a *build/buy/provider/AI* list and identify a decision-relevant hidden difference or duplicate. An arrangement taxonomy is unnecessary.
 
 **Assurance check.** For a consequential use, inspect each actual premise under its direct evidence and authority patterns, challenge one omitted burden that could reverse the choice, and verify that the selected domain assurance and acceptance Methods remain outside `C.38`.
 

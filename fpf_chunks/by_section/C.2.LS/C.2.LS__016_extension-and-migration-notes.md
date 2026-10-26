@@ -6,12 +6,12 @@ section_id: "C.2.LS:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__016_extension-and-migration-notes.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:15 — Extension and Migration Notes"
-line_start: 53505
-line_end: 53521
+line_start: 52657
+line_end: 52673
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -46,14 +46,14 @@ keywords:
 Contexts may extend the profile with local threshold refs, route notes, or additional descriptive aids, but they shall not add a new master facet that collapses the named facet set into one summary factor.
 
 #### C.2.LS:15.2 - Migration from surrogate prose
-Older prose often says:
+When a stage label carries a claim used in routing, comparison or another decision, recover the readings it abbreviates. Examples include:
 
 - "the episteme is still early",
 - "the issue is not mature enough",
 - "the note is ready",
 - "the cue is still raw".
 
-A conforming migration rewrites such statements into explicit facet talk: which facet is low, which is high, which threshold is or is not met, and which move that fact justifies.
+For that use, state the facet reading and its grounds, whether any relied-on threshold is met, and the governing rule for the resulting move. An ordinary description with no such operational claim needs no profile expansion.
 
 #### C.2.LS:15.3 - Boundary reminder
-`U.LanguageStateFacetProfile` is a coordination record. If authors put move rules, bridge rules, scale rules, or bundle semantics into the profile itself, that content belongs with the pattern that defines the move, Bridge, scale, or bundle.
+Use the profile to refer to facet readings and applicable thresholds. Definitions and tests for moves, Bridges, Scales and bundles remain with their governing patterns.

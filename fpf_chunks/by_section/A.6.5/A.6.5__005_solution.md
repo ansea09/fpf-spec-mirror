@@ -6,12 +6,12 @@ section_id: "A.6.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:4 — Solution"
-line_start: 23533
-line_end: 23702
+line_start: 23119
+line_end: 23284
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -60,17 +60,15 @@ refMode := ByValue | RefKind
 
 **SlotKind** is the declaration-local kind by which one exact `RelationSignature` distinguishes one relation-participant meaning. `HolderSystemSlot` and `AssignedSystemRoleKindSlot` are different SlotKinds inside the `InspectionShiftAssignment` declaration even when a receiving assertion designates the holder by reference and the assigned system-role kind by value. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit correspondence to the declared SlotSpec; use C.29 when that correspondence is part of a declared mathematical-lens use. Neither route makes the field a SlotSpec or the designation an actual participant. A mathematical operand or numbered argument belongs to its mathematical representation, not to the relation declaration.
 
-**ValueKind** is the exact world-side kind admitted for the actual participant corresponding to the declared participant meaning. Recover it from the accepted declaration that defines that kind. The declaration may settle a durable U-kind, a current C.3 kind, a Concept-Set entry, or an imported sort whose bridge states the corresponding FPF kind. If one proposed ValueKind hides several kinds for which the predicate has different meaning, recover their real common kind or split the relation kind. A prose list of alternatives does neither.
+**ValueKind** is the exact world-side kind admitted for an entity designated under the declared participant meaning. Recover it from the accepted declaration that defines that kind. The declaration may settle a durable U-kind, a current C.3 kind, a Concept-Set entry, or an imported sort whose bridge states the corresponding FPF kind. If one proposed ValueKind hides several kinds for which the predicate has different meaning, recover their real common kind or split the relation kind. A prose list of alternatives does neither.
 
-**RefKind** is the kind of reference used when a named-use assertion or relation-occurrence description episteme carries a relation-participant designation by reference. A system applying the declared resolution Method obtains a participant of the declared ValueKind as referent. `U.EntityRef`, `U.HolonRef`, `U.EpistemeRef`, and `U.StructureRef` are examples only where their exact RefKind declarations and admission predicates apply. The shorthand `byRef` is usable in a compact local sketch only when the exact RefKind is declared next to that sketch; it is not a complete `refMode` by itself.
+**RefKind** is the kind of reference used when a named-use assertion or relation-occurrence description episteme carries a relation-participant designation by reference. A system applying the declared resolution Method obtains a referent of the declared ValueKind; resolution alone does not establish participation. `U.EntityRef`, `U.HolonRef`, `U.EpistemeRef`, and `U.StructureRef` are examples only where their exact RefKind declarations and admission predicates apply. The shorthand `byRef` is usable in a compact local sketch only when the exact RefKind is declared next to that sketch; it is not a complete `refMode` by itself.
 
-**ByValue** means that an assertion or relation-occurrence description episteme carries a value as its relation-participant designation. **By reference** means that it carries a reference value of the declared RefKind as that designation. In both cases, the designation denotes the world-side actual participant. The reference value retains its RefKind, its referent retains the declared ValueKind, the SlotSpec remains declaration content, and the relation occurrence retains its direct identity.
+**ByValue** means that an assertion or description carries a value as its participant designation. **By reference** means that it carries a reference value of the declared RefKind. In either case, check the designated entity against ValueKind separately from checking whether the predicate holds. A reference retains its RefKind, its referent retains its own kind, the SlotSpec remains declaration content, and any obtaining occurrence retains its direct identity.
 
-**Naming and source-token repair.** Use `...Slot` only for one declaration-local SlotKind inside one exact `RelationSignature`. Use `...Ref` only for an admitted RefKind or for a reference value or designator of that kind; never use it for the actual participant or the SlotKind. Keep the participant's ValueKind name free of both suffixes. Thus `HolderSystemSlot` is the SlotKind, `U.System` is the participant ValueKind, and `Robot_7_Ref : U.EntityRef` is a reference designation whose referent is `Robot_7 : U.System`. If a source token such as `holder` conflates those objects, split them rather than cosmetically renaming the token. A concrete source field keeps its source name and is related to the SlotSpec identified by `HolderSystemSlot` only through an explicit declaration or representation correspondence.
+**Naming and source-token repair.** Use `...Slot` for a declaration-local SlotKind inside one `RelationSignature`. Use `...Ref` for a reference kind or value, distinguishing that reference from its referent. For example, `HolderSystemSlot` is the SlotKind, `U.System` is the participant ValueKind, and `Robot_7_Ref : U.EntityRef` designates `Robot_7 : U.System`. If a relation independently admits a reference itself as a participant, retain that reference's kind and do not substitute its referent. Split a source word such as holder when it conflates these meanings. A source field keeps its own name and is related to the declared SlotSpec through the applicable declaration or representation correspondence.
 
 #### A.6.5:4.3 - Apply the well-formedness constraints
-
-
 
 ```text
 A6.5-S1 CompleteSlotSpec:
@@ -82,15 +80,15 @@ A6.5-S2 LocalSlotKind:
   contains the corresponding SlotSpec.
 
 A6.5-S3 ExactParticipantKind:
-  each actual participant corresponding to the declared relation-participant meaning
-  has the declared ValueKind; each receiving-episteme designation denotes such a participant.
+  each entity designated under a declared participant meaning has the declared ValueKind;
+  actual participation additionally requires the direct predicate to obtain.
   A C.3 kind ordered by an explicit U.SubkindOf relation may narrow
   that range only when typed membership or substitution is current.
 
 A6.5-S4 HonestReference:
   when refMode is a RefKind, the receiving assertion or description carries
-  a reference of that RefKind whose resolution denotes a participant
-  of the declared ValueKind. The relation itself does not store it.
+  a reference of that RefKind whose resolution denotes an entity
+  of the declared ValueKind, whether or not the predicate holds. The relation itself does not store it.
 
 A6.5-S5 DirectPredicateDefinition:
   the identified direct-relation definition states the predicate,
@@ -105,7 +103,7 @@ A6.5-S7 RepresentationBoundary:
   world-side participant or relation occurrence by form.
 ```
 
-A system performing typed substitution keeps the SlotSpec fixed, resolves any reference under its declared scheme, and checks the designated actual participant against the exact ValueKind; the designation must still satisfy the declared refMode and, when applicable, RefKind. A system performing retargeting changes a reference value in an assertion or description while preserving SlotKind, ValueKind, and RefKind. Neither designation operation by itself changes a world-side participant or makes the direct predicate true. The identified direct-relation definition supplies that predicate and identity rule; the current case must supply the relevant facts or constituting history. A system applies the direct obtaining test to those facts or constituting history, and a claim-bearing episteme records affirmative or negative polarity. Only when an explicit reliance judgment is current does `A.10` or the receiving evaluation separately record supported, refuted, or unresolved reliance. Type compatibility and assertion form do not by themselves establish obtaining or occurrence identity. Evidence supporting the case conclusion and any constitutive contribution are governed separately by the relevant evidence and direct-relation rules.
+A system performing typed substitution keeps the SlotSpec fixed, resolves any reference under its declared scheme, and checks the designated entity against the exact ValueKind; the designation must still satisfy the declared refMode and, when applicable, RefKind. A system performing retargeting changes a reference value in an assertion or description while preserving SlotKind, ValueKind, and RefKind. Neither designation operation by itself changes a world-side participant or makes the direct predicate true. The identified direct-relation definition supplies that predicate and identity rule; the current case must supply the relevant facts or constituting history. A system applies the direct obtaining test to those facts or constituting history, and a claim-bearing episteme records the warranted affirmative or negative claim, or leaves the factual question unresolved. Only when an explicit reliance judgment is current does `A.10` or the receiving evaluation separately record supported, refuted, or unresolved reliance. Type compatibility and assertion form do not by themselves establish obtaining or occurrence identity. Evidence supporting the case conclusion and any constitutive contribution are governed separately by the relevant evidence and direct-relation rules.
 
 #### A.6.5:4.4 - Distinguish predicate grammar from holonhood and agency
 
@@ -126,7 +124,7 @@ Predicate grammar also decides neither claim polarity nor reliance. An ordinary 
 
 A reusable predicate definition may be an ordinary A.6.0 `U.Signature` without being a `RelationSignature`. Its semantic parameters are not SlotSpecs unless an independently admitted direct relation kind has world-side participant meanings that a typed receiver must reuse. In particular, the `dependentContent` and `baseContent` parameters of `RuleContentBasisFindingDefinition@R7` are `U.ClaimGraph` values in a predicate declaration. They do not name relation participants, `SlotKind`s, occurrence positions, or a new relation kind.
 
-A C.2.1 assertion of `derivedUsingRuleContent` or `evaluatedAgainstRuleContent` designates those exact values and its exact derivation or criterion-selection claim. A record or formula may represent the parameters; use C.29 when that representation is used as a declared mathematical lens. Table shape does not turn the parameters into SlotSpecs. If later work proposes a relation kind, it must independently pass A.6.RCD and E.24/E.24.UK with participant meanings, obtaining, applicability, and occurrence identity; the predicate declaration supplies none by implication.
+A C.2.1 assertion of `derivedUsingRuleContent` or `evaluatedAgainstRuleContent` designates those exact values and its exact derivation or criterion-selection claim. A record or formula may represent the parameters; use C.29 when that representation is used as a declared mathematical lens. Table shape does not turn the parameters into SlotSpecs. If later work proposes a relation kind, it needs an independent A.6.RCD account of participant meanings, obtaining, applicability and any required occurrence identity. E.24 governs a proposed framework pattern, and E.24.UK applies when a new U-kind is proposed; the predicate declaration supplies none by implication.
 
 #### A.6.5:4.5 - Use progressive elaboration
 
@@ -134,7 +132,7 @@ Start with the lightest object that supports the named engineering use. The bran
 
 ```text
 readable assertion of the recovered direct relation
-  +-- reusable RelationSignature with SlotSpecs, when several uses need the same participant typing
+  +-- reusable RelationSignature with SlotSpecs, when the receiving use needs reusable participant typing
   +-- explicit occurrence individuation, when a named claim or direct relation relies on occurrence identity
       +-- relation-occurrence description episteme, when a receiving episteme describes the occurrence
       +-- stable relation-occurrence reference, when a receiving episteme contains a designation of it
@@ -152,8 +150,6 @@ The local-kind branch does not turn every participant qualification into a kind.
 | Relevant current-case facts or constituting history satisfy the direct obtaining predicate for these participants | one world-side relation occurrence whose participants retain their own kinds | direct relation pattern for the test and identity rule; the current case for its factual basis; `A.6.REL` only when occurrence identity is consumed |
 | A claim-bearing episteme designates the participants under declared SlotSpecs and records affirmative or negative polarity for the direct predicate; evidence and reliance remain separate when used | an assertion episteme about the direct relation; an affirmative assertion may designate an occurrence only after current-case facts or constituting history satisfy the direct predicate and the identity rule has been applied; the assertion states that result; assertion form by itself neither warrants nor constitutes the occurrence, and any constitutive contribution follows the direct relation's rule; forecasts, scenarios, counterfactuals, permissions, and other claim families retain their own defining rules | `C.2.1`, A.6.5, and the direct claim-family definition; add `A.10` or the receiving evaluation only when a reliance judgment is current |
 | A typed claim ranges over all actual participants corresponding to one declared participant meaning | local C.3 kind whose extent rule selects those participants | `C.3` and `C.3.1` for kind, subkind, and continuity; `C.3.2` for the KindSignature, admissibility, membership judgment, and optional extension |
-
-
 
 Keep the direct relation fact under its relation pattern, the claim under `C.2.1`, and introduce a C.3 local kind only when membership, substitution, quantification, or typed reasoning is current.
 
@@ -187,9 +183,9 @@ Keep recognizable source words such as **interface**, **port**, **endpoint**, **
 
 | Operation | Exact change | Relevant defining or constraining content |
 |---|---|---|
-| supply a designation under one SlotSpec in an assertion or description | carry a value or reference that designates the actual participant admitted by that SlotSpec | A.6.5 supplies designation typing; the direct-relation definition supplies the participant meaning and predicate |
+| supply a designation under one SlotSpec in an assertion or description | carry a value or reference that designates an entity of the declared ValueKind, without thereby asserting participation | A.6.5 supplies designation typing; the direct-relation definition supplies the participant meaning and predicate |
 | replace a participant designation in an assertion or description | change the designation associated with one SlotSpec while preserving that SlotSpec | resolve the new designation, then let a system apply the direct obtaining test to the relevant facts or constituting history before recording assertion polarity and any separate reliance posture |
-| substitute a participant designation in typed reasoning | replace one designation with another while preserving the SlotSpec, resolving any reference under its declared scheme, and checking the designated actual participant against the ValueKind while the designation satisfies refMode and, when applicable, RefKind; designation substitution by itself does not replace a world-side participant or establish predicate truth | A.6.5; C.3/C.3.1 only when a local participant-kind or subkind use is current, and C.3.2 for that kind's membership judgment |
+| substitute a participant designation in typed reasoning | replace one designation with another while preserving the SlotSpec, resolving any reference under its declared scheme, and checking the designated entity against the ValueKind while the designation satisfies refMode and, when applicable, RefKind; designation substitution by itself does not replace a world-side participant or establish predicate truth | A.6.5; C.3/C.3.1 only when a local participant-kind or subkind use is current, and C.3.2 for that kind's membership judgment |
 | retarget a reference | replace one reference value in an episteme with another of the same RefKind | the receiving episteme's definition states how it carries the designation; the effective reference scheme supplies the resolution rules and the RefKind declaration constrains the referent range; F.18 enters only when a durable name changes; world-side change is a separate claim |
 | resolve a reference | obtain the designated referent from a reference under its reference scheme | the effective reference scheme supplies the resolution rules and the direct RefKind pattern constrains the referent range; F.18 enters only when durable naming is current |
 | revise or re-edition a referent | change the referred object or episteme under its own continuity rules | direct object and edition patterns |

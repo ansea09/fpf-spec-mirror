@@ -6,12 +6,12 @@ section_id: "C.22:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__003_intent.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:1 — Intent"
-line_start: 62825
-line_end: 62860
+line_start: 61803
+line_end: 61838
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -32,7 +32,7 @@ keywords:
 
 ### C.22:1 - Intent
 
-Operationalise No-Free-Lunch discipline in selection by making each selector decision use a typed `TaskSignature`, not a paragraph. A problem reaches C.22 when its problem-side episteme is stable enough to constitute and assign that declaration without selecting a method in advance. The signature is the smallest CHR-typed A.6.0 declaration sufficient for eligibility, acceptance, and policy-governed selection without inadmissible arithmetic or silent coercions.
+Make the task distinctions relevant to a selector decision explicit in a typed `TaskSignature`. A problem reaches C.22 when its problem-side episteme is stable enough to constitute and assign that declaration without selecting a method in advance. The signature is the smallest CHR-typed A.6.0 declaration sufficient for eligibility, acceptance, and policy-governed selection without inadmissible arithmetic or silent coercions.
 
 #### C.22:1.1 - Term split used in this pattern
 

@@ -6,12 +6,12 @@ section_id: "E.10.D1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:3 — Forces"
-line_start: 101502
-line_end: 101511
+line_start: 100322
+line_end: 100331
 dependencies:
   - "A.1.1"
   - "A.2.6"

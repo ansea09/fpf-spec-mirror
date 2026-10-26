@@ -6,12 +6,12 @@ section_id: "A.6.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:7 — Conformance Checklist"
-line_start: 17172
-line_end: 17195
+line_start: 16853
+line_end: 16876
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -63,13 +63,13 @@ keywords:
 9. **Law and admission split.** Reusable laws, proposed-application admission predicates, and the operation's own returned value remain distinct.
 10. **Exact applicability.** `U.ClaimScope`, time, selected `CHR:ReferencePlane` when current, and mechanism-specific conditions replace generic context wording.
 11. **Optional structure.** A model-use structure is cited only when its selected relations delimit or change the receiving mechanism use; it does not replace the effective reference scheme or claim scope.
-12. **Dependency truth.** SignatureManifest content names actual imports and provided names only when dependency replay matters.
+12. **Dependency truth.** SignatureManifest content names actual imported and provided terms or laws when interpretation or law replay depends on them; apply A.6.0's dependency predicates.
 13. **Realization relation.** A realizer keeps its direct kind; the direct relation declares its participants, obtaining predicate, and maximal-continuous-interval identity rule.
 14. **Evaluation and evidence boundary.** Evidence availability can change evaluation or warrant without changing world-side satisfaction; an argument binding establishes use, not truth or warrant.
 15. **Method and work boundary.** Method, method description, work plan, dated work, actual application, and binding remain separately identifiable. A.6.1 defines neither dated-work identity nor work mereology.
 16. **Result boundary.** A result binding records the returned value. Production or entity-identity inception uses A.15.PROD; a materialized result episteme uses C.2.1.
 17. **Mechanism comparison claims.** Every refinement, conservative-extension, or equivalence claim names exact endpoint mechanism epistemes, reference schemes, scope, predicate, and preserved and changed content. Historical continuation is stated only through a separately obtaining C.2.1 `EpistemeEditionRelation`; a comparison or shared label supplies none. The claim uses an already admitted direct relation, the applicable A.6.RCD branch, or the exact missing-governor stop. Generic mechanism `transport` is absent; exact cross-context `SchemeSenseCell` correspondence requires F.9.
-18. **Mathematical-lens boundary.** Quotient, product, morphism, operand order, and tuple claims use C.29 when mathematical structure preservation is current.
+18. **Mathematical-lens boundary.** C.29 governs use of a mathematical object as a lens with selected preserved and lost structure. Mathematical notation or operand order alone does not open that use; a same-EntityOfConcern representation-scheme transition uses A.6.3.RT.
 19. **Progressive explicitness.** One-off direct use is not forced into a mechanism declaration or application-binding apparatus.
 20. **CGUS boundary.** Use A.22.CGUS only for a qualifying condition-governed continuation; mnemonic imperatives remain recall wording.
 21. **Changed object.** Declaration, application, binding, realization, evaluation, evidence, work, representation, and publication changes return to the object that actually changed.

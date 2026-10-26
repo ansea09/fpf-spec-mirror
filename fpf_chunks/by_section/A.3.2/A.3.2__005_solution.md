@@ -6,12 +6,12 @@ section_id: "A.3.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:4 — Solution"
-line_start: 11476
-line_end: 11595
+line_start: 11363
+line_end: 11482
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -72,7 +72,7 @@ Begin with the claim-bearing episteme, then distinguish how its claims are made 
 
 Only the claim-bearing episteme can meet the membership rule in 4.1; keep its representation, form, carrier, and publication occurrence separate.
 
-The representation may use procedural text, code, a diagram, functional composition, a typed pipeline, a state machine, event rules, constraints, a solver formulation, a proof script, a statistical model, or a combination of notations. Notation choice does not decide membership. Read each assertion separately: use A.6.0 or C.29 when it asserts a formal object, A.6.1 or E.20 when it declares an operation family and laws, A.15.2 when it states intended Work, and A.10 or B.3 when another claim relies on it as evidence or assurance.
+The representation may use procedural text, code, diagrams, rules, constraints, mathematical notation, or combinations of them. Notation choice does not decide membership. Read each assertion separately: use A.6.0 or C.29 when it asserts a formal object, A.6.1 or E.20 when it declares an operation family and laws, A.15.2 when it states intended Work, and A.10 or B.3 when another claim relies on it as evidence or assurance.
 
 #### A.3.2:4.3 - Method-description claim content
 
@@ -115,16 +115,16 @@ A `U.MethodDescription` describes one admitted Method. It is not the `RelationSi
 
 A project may accept, regulate, prefer, deprecate, or forbid a method description for one stated use, organization, or policy scope. Record that separate publication, gate, authority, or policy claim under its own pattern. It does not establish `U.MethodDescription` membership.
 
-When a method description is used to prepare or enact work, keep the chain explicit:
+When a method description is used to prepare or enact work, distinguish the planned-use and actual-occurrence branches:
 
 1. C.2.1 identifies one episteme through its claim content, exact `EntityOfConcern`, and effective `U.ReferenceScheme`; A.3.2 judges that same episteme to be `U.MethodDescription`. Plainly saying that the method description describes the method is shorthand for this constitution and membership judgment, not another binary relation occurrence.
 2. `U.WorkPlan` may cite that episteme when preparing dated work.
-3. Recover each performing `U.System` and its obtaining assignment of a local agential system-role kind under A.13. A.15.1 independently admits the dated Work and its `enactsMethod` relation to the Method. If precise assignment-bound attribution is claimed, F.6 `performedUnderAssignment` uses that same obtaining assignment of a separately declared `U.SystemRoleAssignment` species. A separate assertion cites `methodDescriptionRef` only when its claim depends on that edition.
+3. For a claim about actual Work, recover each performing `U.System` and its obtaining assignment of a local agential system-role kind under A.13. A.15.1 independently admits the dated Work and its `enactsMethod` relation to the Method. If precise assignment-bound attribution is claimed, F.6 `performedUnderAssignment` uses that same obtaining assignment of a separately declared `U.SystemRoleAssignment` species. A separate assertion cites `methodDescriptionRef` only when its claim depends on that edition.
 4. The word *result* is only a cue. Ask which claim is being made: an A.6.1 application returned a value, a referent changed under A.3.4, Work produced something under A.15.PROD, or a measurement, evaluation, delivery, or acceptance occurred. If the use needs a Work-to-result relation and no exact predicate is defined for it, keep Work and result separate and state `missing-predicate[work-to-result]`. A log, trace, measurement, or result episteme supports another claim only through its evidence relation.
 
 #### A.3.2:4.5 - Method, mechanism, and formal-substrate boundary
 
-Do not classify by the source word alone. First say in plain words what someone is trying to change, produce, select, derive, control, or maintain and what the sentence asserts about it. Then use `E.10.ARCH:3.1` to separate method, mechanism, formal-object, plan, Work, and result claims; write each claim under its own pattern.
+First say what the sentence asserts. When the distinction remains unclear, use `E.10.ARCH:3.1` to separate method, mechanism, formal-object, plan, Work and result claims; otherwise use the subject pattern directly. The source word alone does not decide the kind.
 
 For A.3.2 ask only: is this episteme about one admitted Method, and does at least one claim say how that Method is done? If the same source also asserts a mechanism, formal declaration, work plan, dated Work, evidence use, gate, result, publication, or temporal claim, state that claim separately.
 
@@ -141,14 +141,14 @@ Example: a `U.MethodDescription` episteme for a scheduling Method can meet the m
 
 #### A.3.2:4.6 - Constructor and process-theory note
 
-In the constructor-theory and process-theory interpretation used here, both informational and physical procedures are understood through possible or impossible transformations. That motivates a broad method-description kind without making software code privileged:
+Constructor-theory and process-theory sources distinguish possible or impossible transformations from their realizations. This helps explain Method claims about change without privileging software code. It does not require every MethodDescription to concern transformation; the same membership rule applies to a Method for observation, comparison or preservation. For claims about change:
 
 * an episteme about an information-transformation method may be represented through a program, proof script, or solver model;
 * an episteme about a material, energetic, organizational, or mixed-transformation method may be represented through a procedure, lab protocol, or control recipe;
 * an assertion or description about dated Work may cite a method description; §4.1 gives the Work-admission and conditional assignment-attribution route;
 * a mechanism may declare law-governed operation structure for transformations, but that mechanism claim is separate from the method-description claim.
 
-This interpretation explains why FPF can treat many representation forms uniformly after the current claim and described method are recovered.
+Across these cases, identifying the claim and described Method allows different representation forms to be treated under the same membership rule.
 
 #### A.3.2:4.7 - Declarative representation boundary
 
@@ -156,7 +156,7 @@ Some method descriptions use declarative representations: constraint sets, graph
 
 Even a representation that runs or is internally consistent may have more than one sound interpretation. If a comparison depends on variables and their bindings, surrounding context, or an e-graph kept across compiler stages, say what counts as equal. Agreement under one such rule does not by itself show whether the Method is the same, whether the claims are equivalent, or whether one episteme edition continued into another.
 
-Use `C.2.P.DR` when a graph path, evidence path, query plan, predicate, checklist, publication face, or neighboring-pattern relation is treated as an action route by its form or layout alone. Recover the direct object or relation and any separate representation use, then check whether the source actually asserts the proposed order. State a genuine ordered Method or WorkPlan as its own subject assertion with the exact defining or constraining ClaimGraph.
+Use `C.2.P.DR` when a graph path, evidence path, query plan, predicate, checklist, publication face, or neighboring-pattern relation is treated as an action route by its form or layout alone. Recover the direct object or relation and any separate representation use, then check whether the source actually asserts the proposed order. State a genuine ordered Method or WorkPlan as its own subject assertion with the ordering and conditions its claim actually defines.
 
 #### A.3.2:4.8 - Composite methods and independent method structures
 
@@ -168,5 +168,5 @@ Description nodes, workflow boxes, code blocks, proof-script blocks, diagram pat
 
 If a selected relation structure instead connects several methods as alternatives, substitutes, fallbacks, comparison candidates, or members of a family without constituting one composite method, the selected `U.Structure` is the exact `EntityOfConcern` under `A.22` and C.2.1. The resulting episteme can describe that structure, but the present rule does not classify it as `U.MethodDescription`.
 
-An algebraic, graph, categorical, process-calculus, effect-calculus, matrix, embedding, distributed, or neural representation can be used to express or analyze either case. Its correspondence to claims is governed separately through `C.29`. A work plan, work occurrence, method-family registry, or selector result also keeps its own governed object and subject pattern.
+A mathematical or graphical representation can express or analyze either case. Its correspondence to claims is governed separately through `C.29`. A work plan, work occurrence, method-family registry, or selector result also keeps its own governed object and subject pattern.
 

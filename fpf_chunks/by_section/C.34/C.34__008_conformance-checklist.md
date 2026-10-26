@@ -6,12 +6,12 @@ section_id: "C.34:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:7 — Conformance checklist"
-line_start: 81124
-line_end: 81134
+line_start: 79953
+line_end: 79963
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -49,9 +49,9 @@ keywords:
 | Check | Pass condition |
 | --- | --- |
 | `CC-C34-1` | Source and target structures are named before the mapping claim. |
-| `CC-C34-2` | Mapping mode is selected and is not stronger than the declared use needs. |
-| `CC-C34-3` | Preserved relations or constraints and lost structure are both stated. |
+| `CC-C34-2` | The selected mapping is warranted and sufficient for the declared use; no stronger result is required merely to complete the assessment. |
+| `CC-C34-3` | Preserved relations or constraints and any material loss or uncertainty are stated; absence of a preservation result is distinguished from an observed loss. |
 | `CC-C34-4` | Relation-type semantics, observation class, directionality, and scope are present when they affect use. |
 | `CC-C34-5` | Each current mathematical-lens, view, description, Bridge, conformance, candidate-synthesis, measurement, eval, decision, evidence, assurance, gate, release, or work-authorization claim uses the pattern that defines or tests it. |
-| `CC-C34-6` | Admissible use, non-admissible use, preservation-loss return condition, the next claim or use, and its required rule are named. |
+| `CC-C34-6` | The supported use and its grounds are clear, with any material limitation, recovery condition and rule required by the next reliance. |
 

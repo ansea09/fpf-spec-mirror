@@ -6,12 +6,12 @@ section_id: "A.10:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:5 — Archetypal Grounding"
-line_start: 27243
-line_end: 27250
+line_start: 26801
+line_end: 26810
 dependencies:
   - "A.10"
   - "A.13"
@@ -53,6 +53,8 @@ keywords:
 ### A.10:5 - Archetypal Grounding
 
 **Runtime acceptance from a measurement result.** C.16 dated measurement work obtains a pressure measurement result with uncertainty under a named model and calibration; a distinct C.2.1 episteme states it. If the claim that this Work first constituted that episteme is current, A.15.PROD recovers one local entity-inception claim. Separate evaluation work applies the declared G.4 pressure clause through A.6.1 bindings and obtains `unknown`; another C.2.1 episteme states that verdict. Later C.11 decision work uses the verdict episteme as a premise and defers. A.10 can trace the source publications, calibration and measurement work, result episteme, evaluation work, clause declaration, exact bindings, provenance, and any currentness or live rival that affects reliance. The supplied G.4 `unknown` and C.11 deferral are separate results, not an A.10 disposition. The bounded claim/use and the evidence basis needed by §4.5's seven-value rule are not specified here, so the A.10 reliance classification remains unresolved. Select that claim and use and recover their required basis before classifying them; neither `unknown` nor deferral fills the gap. No ledger edge establishes measurement, verdict, decision, or use.
+
+**Complete the bounded classification.** Continue the constructed case with claim C in Verdict-e7: “The evaluation of PressureClause-v3 for Batch-B17 returned unknown.” The intended use U is to report that clause verdict for Batch-B17. Stipulate that Verdict-e7 and the current clause are recoverable, the independently checked evaluation bindings select that batch and return `unknown`, their source and provenance relations hold, and the relevant window covers this use. No unresolved rival changes that reporting claim. These facts supply the missing basis; they are not inferred merely from the word `unknown`. A.10 returns `RelianceDisposition=pass` for reporting C within U. The pressure-acceptance verdict remains G.4 `unknown`, and the separately established C.11 deferral remains unchanged. A pass for reporting the verdict does not authorize acceptance of the batch.
 
 **Meta-analysis.** Source study publications, datasets, analysis code, inclusion work, statistical method, and synthesis work are recovered by their direct relations. The application of the statistical method and the result relation establish the pooled estimate and uncertainty; the relied-on claim in the result's C.2.1 episteme states that pooled estimate and uncertainty. A.10 records source identity, transformations, coverage, provenance, currentness, and the bounded clinical or policy use, not a generic `validatedBy` relation.
 

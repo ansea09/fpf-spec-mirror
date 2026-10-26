@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:7 — Conformance Checklist"
-line_start: 79827
-line_end: 79838
+line_start: 78694
+line_end: 78705
 dependencies:
   - "A.10"
   - "A.13"
@@ -67,9 +67,9 @@ keywords:
 | ID | Requirement | Purpose |
 |---|---|---|
 | `CC-C32.FAIL-1` | The cue states a recognizable symptom in practitioner language. | Keeps the pattern usable at first contact. |
-| `CC-C32.FAIL-2` | The described holon, architecture claim when current, architecture concern and intended repair use, architecture object under stress, failure evidence, and any material scope or qualification window are named. | Prevents source wording or a generic context field from replacing object recovery. |
-| `CC-C32.FAIL-3` | The blocked overread is stated in one sentence. | Makes the failure precise enough to repair. |
-| `CC-C32.FAIL-4` | The first subject pattern is named. | Keeps architecture, lens, work, evidence, assurance, and decision claims distinct. |
+| `CC-C32.FAIL-2` | The affected object, described holon, concern, repair use and available observations or unresolved questions are recoverable, with claim, scope or qualification window when material. | Prevents source wording or a generic context field from replacing object recovery. |
+| `CC-C32.FAIL-3` | A mistaken inference is stated when it explains the failure and changes the repair. | Makes the failure precise enough to repair. |
+| `CC-C32.FAIL-4` | The applicable subject definition or test is used when needed; a locator is supplied when the receiving user needs it. | Keeps architecture, lens, work, evidence, assurance, and decision claims distinct. |
 | `CC-C32.FAIL-5` | The repair action changes architecture handling. | Prevents warning-only rows. |
 | `CC-C32.FAIL-6` | The stop condition or pattern for the next question is named. | Keeps the cue lightweight and composable. |
 | `CC-C32.FAIL-7` | New cue rows name the architecture object, first repair action, and stop or pattern for the next question. | Prevents warning-bank inflation. |

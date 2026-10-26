@@ -6,12 +6,12 @@ section_id: "A.1.CSD:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__003_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:1 — Problem Frame"
-line_start: 3826
-line_end: 3833
+line_start: 3821
+line_end: 3828
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -38,9 +38,9 @@ keywords:
 
 ### A.1.CSD:1 - Problem Frame
 
-A change rarely ends at the boundary drawn for its proposer. For example, material, energy, chemical, biological, information, access, exposure, load, resource, capability, institutional, and dependency paths can reach other physical or operational wholes. Some paths already obtain; others are only plausible descriptions awaiting observation.
+A proposed change can affect Systems beyond its proposer's chosen boundary, for example through material transfers, information exchange or dependencies in the work being performed. Some paths already obtain; others are plausible claims awaiting observation.
 
-Find enough actual Systems or intended System referents whose changed states or characteristics can alter one named decision or investigation. Living, natural, engineered, artificial, human, non-human, low-agency, and non-intelligent Systems enter by the ordinary A.1 criterion, not by their visibility or ability to answer.
+Find enough actual Systems or intended System referents whose changed states or characteristics can alter the named decision or investigation. Apply the ordinary A.1 criterion to each candidate; visibility and the ability to answer an inquiry do not determine systemhood or consequence relevance.
 
 Scale words do not solve the search. A constituent, containing System, neighboring whole, and later reidentified whole are relevant only through their actual construction, delimitation, direct relations, or a genuine whole-reidentification question. Consequences on several sides remain separate even when a domain calculation later compares them.
 

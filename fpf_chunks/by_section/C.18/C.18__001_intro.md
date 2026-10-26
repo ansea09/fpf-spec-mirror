@@ -6,12 +6,12 @@ section_id: "C.18:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:intro — Intro"
-line_start: 60987
-line_end: 60998
+line_start: 59955
+line_end: 59963
 dependencies:
   - "A.15"
   - "A.19"
@@ -58,8 +58,5 @@ keywords:
 > **Type:** C-pattern
 > **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
-> **Placement:** Part C
-> **Builds on:** `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, and `E.18`.
-> **Coordinates with:** `C.19`, `C.11.CRC`, `C.11`, `C.28`, `G.5`, `G.9`, `G.11`, `E.23`, `E.18.1`, `E.17`, `E.24.PUB`, the `C.30` family, `C.32.P2S`, `C.32`, `C.35`, `C.36`, `F.17`, `F.18`, `F.9`, and the A.15 family.
-> **Purpose:** make archive, front, Q-front, descriptor, telemetry, retained exploration value, stepping-stone value, lineage, edition, architecture-candidate generation, and cultural-variant generation usable without turning them into publication, decision, work permission, or cultural-evolution authority.
+> **Purpose:** retain candidates for stated exploration purposes and report the non-dominated set under a declared comparison, while preserving the basis needed to interpret either return.
 

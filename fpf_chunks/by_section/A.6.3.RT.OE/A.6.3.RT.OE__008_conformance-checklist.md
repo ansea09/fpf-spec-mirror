@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:7 — Conformance Checklist"
-line_start: 19413
-line_end: 19422
+line_start: 19065
+line_end: 19074
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"

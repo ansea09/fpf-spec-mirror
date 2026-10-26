@@ -6,12 +6,12 @@ section_id: "A.16.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 34206
-line_end: 34212
+line_start: 33716
+line_end: 33722
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,7 +37,7 @@ keywords:
 ---
 
 ### A.16.1:8 - Common Anti-Patterns and How to Avoid Them
-- **Cue as claim.** Do not promote the pack into a proposition without a later admissible move.
+- **Cue as established conclusion.** Apply the appropriate test before treating a preserved observation or tension as an explanation or other endpoint result.
 - **Cue as route record.** Do not let `selectedRoute`, route rationale, or route-selection status hide inside cue-pack prose.
 - **Cue without nucleus.** Do not publish only refs and carriers while leaving the preserved core unnamed.
 - **Cue without triage.** Do not pretend all witnesses or anchors are equally load-bearing when one clearly carries the preservation need.

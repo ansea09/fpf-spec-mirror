@@ -6,12 +6,12 @@ section_id: "A.6.RCD:12"
 section_title: "Reopen Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__014_reopen-conditions.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:12 — Reopen Conditions"
-line_start: 21757
-line_end: 21769
+line_start: 21391
+line_end: 21403
 dependencies:
   - "A.11"
   - "A.6.0"
@@ -37,7 +37,7 @@ Reopen the exact affected disposition, not the whole relation foundation, when:
 
 - a base relation definition, participant meaning, obtaining law, or applicability changes;
 - a substrate edition changes a constructor used by the claim;
-- a local claim recurs enough to need one stable definition;
+- a receiving use needs a stable definition, including for planned reuse;
 - a reusable definition gains or loses a truthful single `EntityOfConcern`;
 - a named use begins or ceases to need stable occurrence identity;
 - an admitted derived kind loses a base dependency or identity rule;

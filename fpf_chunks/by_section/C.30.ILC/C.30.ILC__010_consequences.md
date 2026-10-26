@@ -6,12 +6,12 @@ section_id: "C.30.ILC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:9 — Consequences"
-line_start: 74677
-line_end: 74684
+line_start: 73625
+line_end: 73632
 dependencies:
   - "A.10"
   - "A.22"
@@ -43,9 +43,9 @@ keywords:
 
 ### C.30.ILC:9 - Consequences
 
-The gain is an early architecture move that is small and precise. The practitioner can preserve useful problem language such as conflict, frustration, level, layer, or local optimization while recovering the FPF fields that keep the claim reviewable.
+The gain is an early architecture move that is small and precise. The practitioner can preserve useful problem language such as conflict, frustration, level, layer, or local optimization while making the affected scopes, relations and remaining loss inspectable.
 
-The cost is that `C.30.ILC` refuses to solve the whole problem. It identifies the first architecture move or subject-pattern application. Measurement, scale relation, RG relation, coarse-graining relation, mathematical lens use, ethical mediation, candidate generation, evidence, assurance, and final choice remain outside until those claims are being made.
+C.30.ILC supplies the residual account and first warranted move, which can complete the receiving question. A further construction or evaluation uses the applicable subject pattern. Measurement, scale relation, RG relation, coarse-graining relation, mathematical lens use, ethical mediation, candidate generation, evidence, assurance, and final choice remain outside until those claims are being made.
 
 This makes multilevel optimization usable rather than decorative. Use `C.30.ILC` to identify the residual that makes optimization relevant, `C.29` for an admissible mathematical-lens use only when level or scale mapping and preserved and lost structure are recoverable, `C.32.MLAO` and `C.32` for residual-reducing candidate frames and palettes, `G.5` for selected-set result declaration, and `C.32.PAD` for a project architecture decision. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
 

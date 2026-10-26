@@ -6,12 +6,12 @@ section_id: "C.23:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:intro — Intro"
-line_start: 64332
-line_end: 64342
+line_start: 63293
+line_end: 63301
 dependencies:
   - "A.10"
   - "B.3"
@@ -46,6 +46,4 @@ keywords:
 *First use expansion:* **SoS‑LOG = Science‑of‑Science LOG** (LEX short‑form discipline applied).
 
 **Registration boundary.** A `MethodFamily` is registered by one exact G.5 registry row and registry edition. That record names the family, its admitted A.3.1 Method members and grouping basis, and intended selector use. Establish evidence, claim scope, validity, and the decision result under their respective rules.
-
-**Builds on.** **G.5** (MethodFamily registry/selector), **G.4** (Acceptance & EvidenceProfiles), **C.22** (TaskSignature S2), **C.18 NQD‑CAL** (QD/illumination), **C.19 E/E‑LOG** (emitters/policies), **B.3** (named assurance claims; `R_eff` under a declared policy), **A.10** (Evidence Graph Ref), **E.10** (LEX), **E.18** (GateCrossing / CrossingBundle visibility when a selected structural crossing is current). **Coordinates with.** **G.6** (EvidenceGraph), **G.8** (LOG bundling), **G.9** (Parity), **G.11** (Refresh).
 

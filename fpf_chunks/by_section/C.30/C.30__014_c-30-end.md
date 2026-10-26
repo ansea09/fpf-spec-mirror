@@ -6,12 +6,12 @@ section_id: "C.30:End"
 section_title: "C.30:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__014_c-30-end.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:End — C.30:End"
-line_start: 72061
-line_end: 72062
+line_start: 71033
+line_end: 71034
 dependencies:
   - "A.1"
   - "A.10"

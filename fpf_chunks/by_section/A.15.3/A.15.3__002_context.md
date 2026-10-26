@@ -6,12 +6,12 @@ section_id: "A.15.3:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__002_context.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:1 — Context"
-line_start: 30278
-line_end: 30283
+line_start: 29837
+line_end: 29842
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -41,7 +41,7 @@ keywords:
 
 ### A.15.3:1 - Context
 
-A WorkPlan may need more precision than *use this Method* or *perform this task*. An inspection plan may need to remember that `Robot_8_Ref` is intended for `HolderSystemSlot` in the cited `InspectionRobotSystemRoleAssignmentSignature` edition. A recognition plan may need to remember that `Pump_37_Ref` is intended for the declaration-local `candidate` argument.
+A WorkPlan may need more precision than *use this Method* or *perform this task*. An inspection plan may need to remember that `Robot_8_Ref` is intended for `HolderSystemSlot` in the cited `InspectionRobotSystemRoleAssignmentSignature` episteme. A recognition plan may need to remember that `Pump_37_Ref` is intended for the declaration-local `candidate` argument.
 
 The declaration already states the participant, argument, or result meaning. The WorkPlan states the intention. A.15.3 joins them only as plan content. It neither changes the declaration nor makes the planned value participate.
 

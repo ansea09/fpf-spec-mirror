@@ -6,12 +6,12 @@ section_id: "C.32.PAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:4 — Solution"
-line_start: 80049
-line_end: 80151
+line_start: 78896
+line_end: 78998
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,20 +63,20 @@ keywords:
 
 ### C.32.PAD:4 - Solution
 
-Create `ArchitectureDecisionRelation@Project` before writing an ADR-like publication record. Treat it as the architecture decision relation that includes the exact composite project `U.Work` and binds it to the candidate basis, selected architecture option, affected structures, architecture-characteristic trade-offs, rationale, consequences, method expectations, work split, and reopen conditions.
+Establish the decision relation with its exact composite project `U.Work`, candidate basis, selected option, affected structures, trade-offs, rationale, consequences and reopen conditions. Include the Method expectations and work split needed to guide its intended use. A single written account can develop and record these values; its form does not establish the decision.
 
 Work in this order:
 
 1. Name the composite project `U.Work` participant and the decision subject: described holon, decision question, intended use, ClaimScope, decision window, and status. If the decision designates a project system-of-interest, cite the existing `U.System` or the pre-inception intended-system claim. Add a local kind only when it is current, add a separate System-classification judgment only when that judgment independently obtains, and add an assignment only through its separately declared A.2.1 species and obtaining occurrence whose holder is that System. Route `SystemOfInterestRole` source wording through `E.10.ROLE`; establish every Work, change, and use fact through its own predicate and pattern. A decision designation proves no compound project-selection truth; return `missing-substrate[project-selection-conjunction]` when that stronger truth is required.
 2. Cite the candidate basis. Use `C.32` for the candidate palette, `C.32.MLAO` for residual-reducing multilevel candidate frames, `C.32.CONWAY` when an influence-source architecture and transformed-side architecture content shaped the candidate, and `C.32.FAIL` for repaired candidate errors. Cite a C.32.CONWAY synthesis frame while either side is modal or the direct influence relation is unresolved; cite an exact pair row only for its already obtaining direct occurrence and two obtaining C.30 architecture-relation participants.
-3. Cite comparison or selection input only when it exists. Use `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set result declaration, and `C.11` for local choice. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
+3. Cite comparison or selection input only when it exists. Use `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set result declaration, and `C.11` for local choice. For publication, use `E.24.PUB` for the occurrence and audience availability; add `E.17` when a source-backed face and source return are needed.
 4. State the selected architecture option or bounded exception. Name the affected selected structures and the subject pattern for each structure claim.
-5. Record the architecture-characteristic trade-off. Use criteria rows from `C.32.ACS`, eval results from `C.32.ACE`, measurement support from `C.16`, Q-Bundles from `C.25`, modularity or scale support from `C.31`, and `C.29` structural-information lens uses for compressed recoverable structure, accepted description loss, hidden dependency, and source-return. None of those lenses, measures, or bundles decides the architecture by itself.
+5. Record the architecture-characteristic trade-off, or why no live trade-off is needed. Reuse adequate criteria, readings and explanations. Use `C.32.ACS`, `C.32.ACE`, `C.16`, `C.25` or `C.31` for the particular missing criterion, evaluation, measurement, quality bundle or modularity/scale claim. Recover description correspondence and relevant loss through `C.30.AD`; use `C.29` when a mathematical lens is relied on. None of these inputs decides the architecture by itself.
 6. Record rationale, rejected options, accepted losses, and consequences. A rejected option can remain useful as a stepping stone or archive item; do not turn it into a failure unless the receiving failure pattern is triggered.
-7. Bind the decision to architecture descriptions. Use `C.30.AD` for architecture-description adequacy and `C.30.ASV` for selected-structure view adequacy. A diagram, model, file, or view can describe the decision basis; it does not become the decision relation.
+7. Relate the decision to architecture descriptions it uses. Use `C.30.AD` for architecture-description adequacy and `C.30.ASV` for selected-structure view adequacy. A diagram, model, file, or view can describe the decision basis; it does not become the decision relation.
 8. Bind the decision to method-use instructions when the architect needs developers to use a method, pattern, style, toolchain step, or work practice so the described or transformed-side holon is intended to gain or preserve the named structure. Use `A.15`, `A.15.1`, `A.15.2`, `A.15.5`, `A.6.M`, `E.8`, `E.11.PUR`, and `C.24` according to the live claim.
-9. State the architecture-to-refinement boundary. Name selected structures fixed by the decision, refinement scopes left open, source-return conditions, readiness exits, and patterns for any later governance question. When the boundary depends on holon level, changed whole, or BOSC-triggered pressure, fill `holonTransitionOrBOSCTriggerRefs?` through `B.2.P` claim-kind recovery or `B.2` whole reidentification instead of leaving a generic level note.
-10. Choose a publication projection only after the decision relation is clear. Use `C.32.ADR` for ADR-like projection, `E.17` for a source-backed publication face and source return, and `E.24.PUB` for the publication occurrence and audience availability.
+9. State the architecture-to-refinement boundary. Name selected structures fixed by the decision, refinement scopes left open, source-return conditions, readiness exits, and patterns for any later governance question. When level or whole-change wording leaves the boundary unclear, use `C.30.STRAT` or `B.2.P` to recover its meaning. Use `B.2` only for a remaining whole-reidentification question after existing-whole explanations are insufficient; cite the resulting claim in `holonTransitionOrBOSCTriggerRefs?` when needed.
+10. Use `C.32.ADR` when an ADR-like description is needed, and `E.24.PUB` for actual publication and audience availability. Add `E.17` when a source-backed face and source return are needed. The description must retain whether the decision is proposed, made or superseded.
 11. Add evidence, assurance, gate, and governance exits only when those claims are being made. Use `A.10`, `B.3`, `A.21`, and the local governance pattern rather than adding those statuses to the decision relation by name.
 12. Write reopen and supersession conditions. Reopen when the candidate basis changes, a protected architecture characteristic crosses its guardrail, an independently typed influence-source structure or arrangement no longer fits the transformed-side actual or modal architecture content, a stronger source changes the accepted loss, or the decision's method-use instruction proves unusable.
 
@@ -86,7 +86,7 @@ If one project question uses an E.18.NET network, first preserve that network's 
 
 A C.32.PAD decision is ready to draft when the current decision relation identifies the composite project `U.Work` participant and can cite at least one candidate basis, one affected selected structure, one architecture-characteristic trade-off or declared reason for no live trade-off, one expected work consequence, one reopen condition, and any triggered `holonTransitionOrBOSCTriggerRefs?` or `structuralInformationLensUseRefs?` needed to preserve source return. When system-of-interest local-kind, separate System-classification, assignment, architecture-influence, or network fields are present, the applicable A.15.6, A.2 and A.2.1, C.32.CONWAY, E.18.NET, and C.30.TFS-REL preconditions must already be satisfied or the reference remains absent.
 
-If the candidate basis is absent, require `C.32`. If architecture-characteristic rows are absent, require `C.32.ACS` or `C.25`. If the decision only says "the metric is best", require `C.32.ACE`, `C.16`, or `A.19.CPM` before deciding. If the intended work method is not recoverable, require `A.15`. If an existing system, role assignment, project-network judgment, network selection, architecture use, or influence pair is unresolved, require its subject pattern and keep only the truthful designation, modal claim, candidate frame, or explicit stop in PAD.
+If the candidate basis is absent, use `C.32` to obtain the missing contribution. If the decision lacks adequate architecture criteria, use `C.32.ACS` or `C.25`; a separate new row is unnecessary when the needed criterion is already recoverable. If the decision only says "the metric is best", recover the affected structure, criterion, loss and comparison basis through the applicable `C.32.ACE`, `C.16` or `A.19.CPM` contribution. If a required work Method is unclear, use its subject pattern and `A.15` for the relevant work claim. If an existing system, role assignment, project-network judgment, network selection, architecture use, or influence pair is unresolved, require its subject pattern and keep only the truthful designation, modal claim, candidate frame, or explicit stop in PAD.
 
 #### C.32.PAD:4.2 - Constructive architecture decision path
 
@@ -142,7 +142,7 @@ ArchitectureDecisionRelation@OrderFlow:
     openRefinementScopeRefs: [schema fields inside approved event boundary]
     sourceReturnCondition: return to PAD when refinement changes event boundary or version-skew band
   holonTransitionOrBOSCTriggerRefs?: [B.2.P: no new operational whole claimed for team-local schema refinement]
-  structuralInformationLensUseRefs?: [C.29: event-flow view compresses deployment and rollout structure; source-return keeps model refs recoverable]
+  architectureDescriptionRefs: [C.30.AD: event-flow view omits deployment and rollout structure; source-return keeps the model refs recoverable]
   publicationProjectionRef?: C.32.ADR:order-flow-adr
   reopenConditions: [payment latency guardrail crossed, schema-version coordination cost guardrail crossed]
   status: acceptedForDeveloperWork
@@ -160,7 +160,7 @@ When a filled field changes, repair the smallest declaration or claim record tha
 | `architectureCharacteristicTradeoffs` | Repair `C.32.ACS`, `C.32.ACE`, `C.25`, `C.16`, or comparison input before relying on the decision. |
 | `methodUseInstructions` or `architectDeveloperSplit` | Repair Method, plan, intended-System, local-kind, separate System-classification, assignment, actual-Work, readiness, and work-boundary claims through their subject patterns. Route unresolved role wording through `E.10.ROLE`; use `A.15`, `E.8`, `E.11.PUR`, or `C.24` only for the claim that pattern defines, constrains, or tests. |
 | `holonTransitionOrBOSCTriggerRefs?` | Use `B.2.P` for wording and claim-kind recovery; use `B.2` only when the decision depends on whole reidentification. |
-| `structuralInformationLensUseRefs?` | Use `C.29` to state which structure is preserved, compressed, hidden, or recoverable; return to source when the accepted loss changes. |
-| `publicationProjectionRef?` | Repair only the projection through `C.32.ADR`, the source-backed publication face and source return through `E.17`, and the publication occurrence and audience availability through `E.24.PUB`; do not rewrite the decision by template pressure. |
+| `structuralInformationLensUseRefs?` | Use `C.29` to revalidate the mathematical lens and its preservation or loss conditions; return to source when the accepted loss changes. |
+| `publicationProjectionRef?` | Repair the projection through `C.32.ADR`, any source-backed face through `E.17`, and actual publication/availability through `E.24.PUB` as applicable; do not rewrite the decision by template pressure. |
 | `reopenConditions` or `supersedesDecisionRefs?` | Update PAD and the active ADR-like projection; old decisions remain historical unless a governed archival policy says otherwise. |
 

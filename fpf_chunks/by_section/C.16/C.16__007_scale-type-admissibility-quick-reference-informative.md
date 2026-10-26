@@ -6,12 +6,12 @@ section_id: "C.16:6"
 section_title: "Scale-type admissibility quick reference (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__007_scale-type-admissibility-quick-reference-informative.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:6 — Scale-type admissibility quick reference (Informative)"
-line_start: 58609
-line_end: 58629
+line_start: 57706
+line_end: 57724
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,8 +55,7 @@ keywords:
 
 ### C.16:6 - Scale-type admissibility quick reference (Informative)
 
-> **Didactic note.** This table is a memory aid for engineers and managers. It does **not** introduce new admissibility rules. Normative admissibility of operations by scale type is governed by **A.18 (CSLC)** and, where mechanized in CG‑frames, by the relevant admissibility profiles.
-> If any row below conflicts with A.18, treat it as an illustrative example and follow A.18.
+A.18 governs operation admissibility by Scale type; CG-frame admissibility profiles govern their declared mechanized uses. This table summarizes those distinctions. A Scale-compatible calculation also needs the statistical or subject-model assumptions that justify its use.
 
 | Scale type   | Comparisons    | Location          | Differences        | Ratios                   | Admissible summaries                                  | Typical unsupported anti-patterns                                   |
 | ------------ | -------------- | ----------------- | ------------------ | ------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------- |
@@ -66,11 +65,10 @@ keywords:
 | **Ratio**    | <, =, >        | mean location     | Δ meaningful       | ratios meaningful        | arithmetic/geometric means, cv, growth rates          | adding heterogeneous units; log on nonpositive values               |
 
 **Reminders (informative; see A.18 for normative rules).**
-G‑1 (Order). On ordinal, transforms should be **monotone**.
+G‑1 (Order). Ordinal transforms preserve the declared order and distinctions.
 G‑2 (Differences). On interval or ratio, **Δ** is meaningful; on ordinal or nominal, it is undefined.
-G‑3 (Ratios). Only ratio Scales admit **x/y** semantics; interval, ordinal, or nominal do not.
+G‑3 (Ratios). Ratios of raw values require a ratio Scale. Ratios of derived differences require their own quantity interpretation and model conditions.
 G‑4 (Unit coherence). Interval or ratio arithmetic presumes compatible units (or a declared conversion).
 G‑5 (Target polarity). If polarity is targeted, comparisons use distance‑from‑target semantics as declared by the relevant subject pattern, template, and cited method or mechanism.
 
-*(These rules line up with the MM‑CHR exposition of CSLC and term discipline; A.17 fixes the lexical side.)*
 

@@ -6,12 +6,12 @@ section_id: "A.15.4:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__012_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:7 — Rationale"
-line_start: 30999
-line_end: 31004
+line_start: 30554
+line_end: 30559
 dependencies:
   - "A.10"
   - "A.13"
@@ -53,7 +53,7 @@ keywords:
 
 ### A.15.4:7 - Rationale
 
-A.15.4 exists because Work often first meets a source expression, selected source `U.Episteme`, exact publication occurrence, source-bearing relation, or composed source-relation chain through a display, publication face, generated explanation, copied statement, credential view, dashboard tile, schema wording, or API wording before the required relation or result and project-side reference are visible. Using A.15.4 lets the practitioner keep Work moving with orientation or bounded source-finding while preventing that appearance from becoming approval, evidence, assurance, gate passage, performed Work, release authorization, system-role-assignment currentness, assignment-state currentness, responsibility, authority, or credential-status currentness by appearance.
+Practitioners often encounter a claim through a display, generated explanation, copy or credential view before its basis is recoverable. A.15.4 connects that encountered expression to the predicate and evidence required for the attempted use. The practitioner can retain a useful source-finding continuation while withholding an unsupported stronger claim.
 
 The repair is deliberately local and creates no new authority relation. Once the exact evidence, gate, assurance, system-role assignment, assignment state, Work, publication, boundary, permission, or authority object selected in §3 is recovered, apply the predicate defined for it through `SubjectPatternLocator`. Resolve an exact defining or constraining `ClaimGraph` only when rule identity or edition changes this use; an ordinary PatternID is otherwise enough.
 

@@ -6,12 +6,12 @@ section_id: "B.5.PI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:4 — Solution"
-line_start: 50839
-line_end: 50894
+line_start: 50007
+line_end: 50062
 dependencies:
   - "A.15.11"
   - "A.16.1"

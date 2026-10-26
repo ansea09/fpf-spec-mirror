@@ -6,13 +6,14 @@ section_id: "C.32.MWA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:7 — Conformance Checklist"
-line_start: 78923
-line_end: 78939
+line_start: 77795
+line_end: 77810
 dependencies:
+  - "A.13"
   - "A.15.1"
   - "A.22"
   - "A.3.1"
@@ -44,10 +45,9 @@ keywords:
 | **CC-MWA-4 — Candidate difference** | The synthesis distinguishes competing accounts of an arrangement from proposed changes to it. Alternatives differ by decision use or unlike-case failure, not merely labels or picture layout; a better account alone establishes no world-side change. When NQD is current, novelty, use-value and diversity remain distinct. |
 | **CC-MWA-5 — Relation recovery** | Every relation used in the answer is stated by value and supported through its defining or constraining pattern when material. Order is not overlap; overlap is not parthood; co-use is not Method composition. |
 | **CC-MWA-6 — Subject-description separation** | The identified Methods, Work, Systems and relations remain distinct from descriptions, models, views and coarse-graining. A description’s use in Work is separate from the objects it describes; important correspondences and losses are stated. |
-| **CC-MWA-7 — Whole reidentification** | A Method, Work, System, or Discipline whole is reidentified when the old whole cannot carry the claim; a selected structure is reidentified under A.22 when the claim requires a different selected structure. |
+| **CC-MWA-7 — Whole reidentification** | A Method, Work, System or Discipline whole is reidentified when the old whole cannot carry the claim and existing-whole explanations remain insufficient; a selected structure is reidentified under A.22 when the claim requires a different selected structure. |
 | **CC-MWA-8 — Conflict and moved burden** | The main conflict is named and every claimed local improvement states any material residual or burden moved elsewhere. |
 | **CC-MWA-9 — Conditional product branch** | The four product arrangements are compared when product identity is current and omitted when it is not; the comparison itself selects no product. |
 | **CC-MWA-10 — Deliberate/distributed distinction** | Project choice and intervention remain distinct from cultural generation, transmission, recognition, selection, retention, and loss. |
 | **CC-MWA-11 — Usable result** | A cold reader can recover the short synthesis, the decision-changing alternative, the next use, and the stop or reopen condition without reading symbolic assurance first. |
-| **CC-MWA-12 — Unlike grounding** | At least two unlike cases test the Method, and a prospective case is used whenever the candidate claims it can synthesize an architecture account for proposed Method use. |
 

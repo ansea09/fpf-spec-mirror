@@ -6,12 +6,12 @@ section_id: "C.31.RSA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:9 — Consequences"
-line_start: 75859
-line_end: 75873
+line_start: 74790
+line_end: 74804
 dependencies:
   - "A.10"
   - "A.19"
@@ -50,6 +50,6 @@ Benefits:
 Costs:
 
 - Some attractive reuse reports remain report-only.
-- Numeric shares require declared `accountingBasisRef`, declared scale or unitless-value rule, relevant unit and polarity, admissible comparability relation, and comparator admission named by value before they can guide outside-RSA comparison, ranking, selection, gate, or decision use.
+- Numeric shares require an explicit counting and scale basis. Comparison needs aligned bases and its comparator; each further claim adds only its own required grounds.
 - The pattern raises a source-return question whenever accounting hides distinctions needed by downstream action.
 

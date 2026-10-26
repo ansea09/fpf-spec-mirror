@@ -6,12 +6,12 @@ section_id: "C.26.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 66264
-line_end: 66273
+line_start: 65223
+line_end: 65232
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -42,7 +42,7 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Every interaction is QL | Any message, meeting, or API call is called probe-coupled. | Require a false passive-read, export, comparison, or optimization use. |
+| Every interaction is QL | Any message, meeting, or API call is called probe-coupled or QL. | Require a materially false passive-read or transfer use for C.26.1; require the separate C.26 activation test for QL. |
 | Causal action mistaken for probe | A deployment or command changes the world, and QL is invoked. | Use intervention or work-governing patterns unless the action is being used as a readout of the state it changes. |
 | Bridge loss alone | Export loses local meaning, but no state-changing probe is live. | Use `F.9` with loss notes. |
 | Context-word drift | *Context* hides source-local meaning, a selected model-use organization, ClaimScope, a probe frame, or a measurement setup. | Name the actual value. Retain *bounded context* only when using the established DDD term. |

@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:5 — Archetypal Grounding"
-line_start: 9864
-line_end: 9892
+line_start: 9788
+line_end: 9815
 dependencies:
   - "A.10"
   - "A.13"
@@ -39,8 +39,7 @@ A fifth occurrence is held out. A reversal when the vibration cue is present sti
 
 If that held-out occurrence and the remaining evidence support the cue-responsive account while the fixed-order rival no longer fits, recovery can return one candidate account ready for the `A.3.1` identity test.
 
-
-#### A.3.1.MR:5.2 - Process-mining replay
+#### A.3.1.MR:5.2 - Process-mining case
 
 The same team names its event-data preparation Method: select inspection start and completion events from the source files, name activities under the plant vocabulary, correlate records by pump and maintenance visit, and collapse duplicate sensor bursts under a stated rule. It cites the selected configuration because that configuration affects the result. Dated preparation Work on the named files produces an event-log episteme about the selected event-data collection.
 
@@ -50,7 +49,7 @@ If the correlation key, configuration, or source window cannot be recovered, the
 
 Three timestamped records show that one operator checked A before B on three shifts, but the performer assignments, applicability, source window, and purpose of the sequence cannot be grounded. The useful result is an observed sequence in those records and a list of missing facts. It is not a candidate Method account, Method, or MethodDescription.
 
-#### A.3.1.MR:5.4 - A current account without another investigation
+#### A.3.1.MR:5.4 - A useful account without another investigation
 
 In a constructed continuation of the pump-inspection case, the supervisor needs only to compare the two candidate explanations against the four existing records before deciding how to organize the instruction material. The fixed-order and cue-responsive accounts, their separate subjects, source support and missing tactile contribution are enough for that limited comparison. Both remain provisional. No new question, fifth visit or research plan is needed to complete the requested account.
 

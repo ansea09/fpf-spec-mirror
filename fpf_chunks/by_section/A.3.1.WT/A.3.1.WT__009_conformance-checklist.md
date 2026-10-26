@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:7 — Conformance Checklist"
-line_start: 10487
-line_end: 10499
+line_start: 10403
+line_end: 10415
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -32,5 +32,5 @@ keywords:
 - [ ] Capability, System use, assignment, permission, authority, support, operation binding, and result relations are asserted only from their own bases.
 - [ ] Conditions, deviations, adaptations, burdens, observations, and domain results are recorded per occurrence.
 - [ ] Direct observation, self-report, association, contribution, and causality are not merged.
-- [ ] The result routes evidence and gaps separately to A.3.1.CC, A.3.1.FT, and C.11.MV and claims none of their judgments.
+- [ ] The result separates any selected A.3.1.CC, A.3.1.FT and C.11.MV uses and supplies evidence or gaps without claiming their judgments.
 

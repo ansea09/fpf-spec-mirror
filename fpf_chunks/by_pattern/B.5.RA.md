@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.RA.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
-line_start: 48239
-line_end: 48607
+line_start: 47407
+line_end: 47775
 dependencies:
   - "B.5"
   - "B.5.MPC"

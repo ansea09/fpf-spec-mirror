@@ -6,12 +6,12 @@ section_id: "A.15.1:13"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__015_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:13 — Consequences"
-line_start: 29871
-line_end: 29879
+line_start: 29438
+line_end: 29446
 dependencies:
   - "A.1"
   - "A.10"
@@ -59,8 +59,8 @@ keywords:
 
 | Benefits                                                                                                                 | Trade-offs and mitigations                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
-| **Auditable reality.** Cost, time, and quality claims cite concrete Work individuals through exact governing relations; root-cause analysis and Work attribution improve. | **More explicit occurrence claims.** Identify Work occurrences and their assertion or description epistemes; do not treat record creation as occurrence creation. |
+| **Auditable occurrence claims.** Cost, time and quality accounts can refer to independently identified Work through their governing relations. | Identify the occurrence separately from the assertion or description; record creation is not occurrence creation. |
 | **Sound roll-up inputs.** Exact Work refs, intervals, parts, and performed resource-use facts make temporal and resource aggregation replayable. | **Separate aggregation.** Recover temporal aggregation in `B.1.4` and work-resource aggregation in `B.1.6`; cite their policies and results rather than copying Gamma semantics into Work. |
 | **Cross-locality clarity.** Exact method-description, scheme, scope, criterion, evaluation, and acceptance relations prevent silent meaning drift. | **Bridge upkeep.** Maintain F.9 Bridges only for exact local-sense crossings that a receiving use actually needs. |
-| **4D extensional coherence.** Parts, overlaps, and retries stop double-counting and identity confusion.                  | **Learning curve.** Teach episode vs retry; include examples in onboarding.                |
+| **Explicit occurrence identity.** Distinct parts, overlaps and retries provide the inputs needed to detect double-counting and identity errors. | Their correct use still requires the applicable identity, temporal and accounting rules. |
 

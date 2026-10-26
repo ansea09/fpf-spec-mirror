@@ -6,12 +6,12 @@ section_id: "C.16.Q:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__004_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:2 — Problem"
-line_start: 59818
-line_end: 59830
+line_start: 58832
+line_end: 58835
 dependencies:
   - "A.10"
   - "A.16"
@@ -62,14 +62,5 @@ keywords:
 
 ### C.16.Q:2 - Problem
 
-How can FPF let working texts keep the communicative convenience of the word **quality** while preventing category errors when the term crosses:
-
-* phenomenological and epistemological discourse,
-* architecture-description fitness discourse and viewpoint-fit discourse,
-* representation-learning and neuro-symbolic discourse,
-* Popper- and Deutsch-style explanation-and-criticism discourse,
-* engineering architecture and quality-characteristic discourse,
-* open-ended evolution, NQD, and selection discourse,
-* control, world-model, and active-inference discourse,
-* ecological affordance discourse, including source-tradition `affordance` cases that must leave quality-term restoration for `A.6.A` for wording recovery, then the pattern for the recovered claim or question?
+How can a reader retain the convenience of “quality” while recovering its intended sense, subject and conditions? The difficulty is greatest when a statement connects traditions whose evaluative criteria differ. An action-oriented use may need meaning recovery under A.6.A rather than an evaluative ascription.
 

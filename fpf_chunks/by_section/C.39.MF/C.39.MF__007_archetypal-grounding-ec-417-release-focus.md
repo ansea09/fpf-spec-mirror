@@ -6,12 +6,12 @@ section_id: "C.39.MF:5"
 section_title: "Archetypal Grounding — EC-417 Release Focus"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__007_archetypal-grounding-ec-417-release-focus.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:5 — Archetypal Grounding — EC-417 Release Focus"
-line_start: 83395
-line_end: 83419
+line_start: 82219
+line_end: 82243
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -40,7 +40,7 @@ The status inventory contains four identified Methods: `M-HW-Verify`, `M-SW-Inte
 | one Method: `C-EC-Release-v2` | rejected because the whole is not identified as a Method |
 | established release-Method family | rejected because no governed family membership is supplied |
 | project-local `LG-EC417-ReleaseMethods` grouping | retained only as a comparison locator; no family claim |
-| candidate account: `C-AI-Trace-Review` | not selected as the current focus because its bounded trace suggestions govern neither evidence reconciliation nor release authority; candidate-account status is preserved |
+| candidate account: `C-AI-Trace-Review` | not selected as the current focus because its bounded trace suggestions supply neither the evidence-reconciliation result nor a release-authorization result; candidate-account status is preserved |
 | relations among the four Methods and two reconciliation accounts | selected because evidence timing, result use, allocation, and authority relations change the release decision |
 | test-rig support decision | retained as a rival non-Method return, but current evidence does not make it the sole focus |
 

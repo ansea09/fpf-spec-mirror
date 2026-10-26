@@ -6,12 +6,12 @@ section_id: "A.11.OP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__013_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:12 — Relations"
-line_start: 28079
-line_end: 28090
+line_start: 27643
+line_end: 27654
 dependencies:
   - "A.10"
   - "A.11"
@@ -36,7 +36,7 @@ keywords:
 ### A.11.OP:12 - Relations
 
 - **Classified by:** `E.3` as one `Prag` principle. It primarily advances P-1 Cognitive Elegance, P-7 Pragmatic Utility, P-10 Open-Ended Evolution, and P-11 State-of-the-Art Alignment while respecting the other Pillars.
-- **Coordinates with:** `A.11`, which governs admission of ontology additions. Namespace adjacency makes the two parsimony questions discoverable; their EntitiesOfConcern remain distinct.
+- **Coordinates with:** `A.11` for whether an ontology addition is needed. A useful operational requirement does not by itself require a new ontology value; an admitted value does not by itself justify mandatory work.
 - **Coordinates with:** `E.11.PUA` and `E.11.PUR`, which govern use, recommendation, coordination, and reuse after a pattern has been selected. A.11.OP asks whether an extra mandatory requirement belongs in the first place.
 - **Coordinates with:** `C.11.DUA` for the merits and feasible continuation of an advice or evidence demand, including a single requirement with no live OptionSet; `C.11` for a current local choice and probe-worthiness; and `C.19.2`, `A.19`, and Method Engineering for their apparatus, architecture or Method comparisons. A.11.OP supplies the contribution screen. These direct owners complete the applicable demand, selection or configuration question.
 - **Coordinates with:** `E.13` for proxy-to-value repair and `E.23` for operations inside repeated evaluated improvement. A.11.OP retains the initial action-admission question.

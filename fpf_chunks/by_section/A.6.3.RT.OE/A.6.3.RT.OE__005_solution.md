@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:4 — Solution"
-line_start: 19213
-line_end: 19300
+line_start: 18865
+line_end: 18952
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"
@@ -104,7 +104,7 @@ If the operation cannot be followed, locate what is missing. The expression may 
 
 Keep a new conclusion with the construction or argument that establishes it. A diagram can make the argument possible while the argument still supplies the conclusion's justification. Drawing scale, apparent symmetry or a coincident mark supports a subject claim only through the applicable rules.
 
-A worked operation establishes this use under the stated preparation. If fluent execution, learning, transfer or explanation quality is the question, select the corresponding assessment. Use C.2.8 for a recipient's recoverable structure and the relevant Explanation Design or learning Method for the needed change.
+An inspectable worked operation shows how the expression is used under the stated conventions. It does not establish another recipient's fluent execution, learning or transfer. When those results or explanation quality are the question, select the corresponding assessment. Use C.2.8 for a recipient's recoverable structure and the relevant Explanation Design or learning Method for the needed change.
 
 #### A.6.3.RT.OE:4.6 - Return the expression for its next use
 

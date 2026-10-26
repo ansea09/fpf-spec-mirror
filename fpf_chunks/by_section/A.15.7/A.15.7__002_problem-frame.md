@@ -6,12 +6,12 @@ section_id: "A.15.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:1 — Problem frame"
-line_start: 31675
-line_end: 31710
+line_start: 31240
+line_end: 31275
 dependencies:
   - "A.10"
   - "A.13"
@@ -41,7 +41,7 @@ keywords:
 2. **Performer:** name the intended System performer. If another System made the choice, name the chooser separately.
 3. **Stop and feedback:** say when to stop, fall back, or look again, and which resulting observation can inform the next choice.
 
-For a reversible local choice, ordinary project language is enough. Create a durable claim-bearing episteme only when another use needs to cite, compare, audit, or rely on the answer. The answer does not itself perform or predict the action, and this pattern adds no universal action, situation, or next-step kind.
+For a reversible local choice, ordinary project language is enough. When a use needs to cite, compare, audit, or rely on an identified claim, use an existing sufficient episteme or identify one under C.2.1. Preserve access when later reliance requires it. The answer does not itself perform or predict the action, and this pattern adds no universal action, situation, or next-step kind.
 
 **Three recognition cases.**
 
@@ -65,5 +65,5 @@ For a reversible local choice, ordinary project language is enough. Create a dur
 - For a plan revision before Work, use `A.15.2`.
 - For retrospective Method recovery, use `A.3.1.MR`.
 
-**When a DPF reuses this pattern.** A DPF uses it only for a live next-action question that passes this entry. Reuse supplies the general steering Method; the DPF still names any domain-specific problem, facts, authority, vocabulary, result, and return that change what its practitioner does. If no such use-changing contribution remains, cite this pattern rather than copying it.
+**Adapt to the domain.** Apply the steering Method to the domain facts, constraints and intended result that can change the next action. For example, a DJ tests a transition against the promised genre and live response; a maintenance practitioner tests an intervention against the equipment state and applicable safety conditions. The same steering operations can yield different actions because their domain premises differ.
 

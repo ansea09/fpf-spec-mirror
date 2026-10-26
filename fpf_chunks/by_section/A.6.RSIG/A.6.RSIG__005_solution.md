@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.RSIG — Recognition Signatures: Find the Defining Episteme for a Description"
   - "A.6.RSIG:4 — Solution"
-line_start: 14435
-line_end: 14573
+line_start: 14183
+line_end: 14307
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -22,12 +22,9 @@ keywords:
 
 ### A.6.RSIG:4 - Solution
 
-#### A.6.RSIG:4.1 - Recognition-cue discipline and non-goals
+#### A.6.RSIG:4.1 - Recognition-cue discipline
 
-`A.6.RSIG` governs description-recognition signatures in general: the
-first-contact cue structure by which one reader can recover what encountered
-description is live, what carrier or projection exposed it, what it applies to,
-what excludes it, and which `definitionEpistemeRef` identifies its defining `U.Episteme`.
+A recognition cue makes the description, its purpose and relevant applicability conditions recoverable, with a reference to its defining account. Identify the encountered carrier or projection when that distinction affects recognition.
 Reject a nearby reading or wrong defining `U.Episteme` only when it passes F.19's
 grounded-guard test: the rejected reading has an independent local ground, is
 plausible for the intended reader, and changes truth, understanding, selection,
@@ -41,7 +38,7 @@ declaration requires the applicable neighboring pattern's explicit conditions.
 The encountered carrier or projection may help recognition; it does not become
 authoritative merely by being encountered.
 
-Use `definitionEpistemeRef` for the defining `U.Episteme`. If the definition is available only through one publication, cite separately the exact E.24.PUB publication occurrence that makes it available; the publication, projection, or carrier does not become the defining episteme merely because it exposed the definition to the reader.
+Point to the defining `U.Episteme` through the available publication. Identify the E.24.PUB publication occurrence separately when its identity changes which definition or use is available. The publication and its carrier keep their own identities.
 
 `A.6.RSIG` does not govern:
 
@@ -54,18 +51,16 @@ Use `definitionEpistemeRef` for the defining `U.Episteme`. If the definition is 
 
 #### A.6.RSIG:4.2 - Two-level description-recognition shape
 
-**Reader-visible minimum.** For ordinary reader-facing use, the minimum is not a card. One or two
-sentences may be enough if they make recoverable:
+**Reader-visible minimum.** Ordinary prose is sufficient when it makes these values recoverable:
 
 1. what this description is for;
 2. when it applies;
-3. when it does not apply;
+3. any exclusion that changes recognition or use;
 4. which definitionEpistemeRef applies;
 5. what nearby false reading or wrong defining `U.Episteme` to reject, when
    the grounded-guard condition in §4.1 holds.
 
-**Review-expanded shape, only when needed.** When a recognition cue affects a
-decision or is being reviewed, use the expanded recoverability shape:
+**Expanded questions when needed.** Use the following questions when the shorter cue leaves a consequential recognition ambiguity unresolved. Existing prose can carry the answers; a separate form is optional.
 
 ```text
 description_seen
@@ -81,40 +76,31 @@ projection_role_if_any
 nearby_false_description_or_wrong_definition_episteme
 ```
 
-The `nearby_false_description_or_wrong_definition_episteme` field is optional:
-use it only when the grounded-guard condition in §4.1 holds.
+Use the exclusion and false-neighbor fields only when the grounded-guard condition in §4.1 holds. The viewpoint field names the reader’s perspective; identify a formal U.Viewpoint episteme only when that separate relation matters.
 
-This shape is a review aid, not a mandatory form for every encountered
-description. It exists to keep description, carrier, projection, and definitionEpistemeRef from
-collapsing into one overloaded publication label or projection label.
+The questions help distinguish the encountered description and its defining account from their publication or carrier when those differences affect the choice.
 
 ##### A.6.RSIG:4.2.1 - Minimal local repair and review sequence
 
 Use this sequence when authoring or reviewing one recognition-signature repair:
 
-1. Name the `description_seen` and the reader viewpoint in one concrete first
-   sentence.
+1. Name the encountered description and the reader’s question.
 2. Name the encountered carrier or projection if confusing it with authority is
    a live risk.
-3. State what the description applies to and what excludes it.
+3. State the applicability and any exclusion needed to choose the description.
 4. Name the defining `U.Episteme` to inspect first.
 5. When the grounded-guard condition in §4.1 holds, name the nearby false
    description or wrong defining `U.Episteme` to reject.
-6. State the first admissible entry stop or neighboring-pattern application.
+6. State the useful next inspection or the missing basis that prevents it.
 7. If that stop cannot be stated without A.6.B claim routing, publication-face law,
    lexical repair, or cross-pattern comparison, apply the appropriate neighboring pattern instead of
    stretching `A.6.RSIG`.
 
-Minimal admissible output:
+The result is the recognition statement, its defining source reference and the useful next inspection or limitation. Include a false-neighbor correction only under §4.1.
 
-- one first-contact recognition statement the reader can use immediately;
-- one explicit defining `U.Episteme`;
-- an explicit false-neighbor rejection when the grounded-guard condition in §4.1 holds;
-- one admissible entry stop or reroute.
+#### A.6.RSIG:4.3 - Common uses
 
-#### A.6.RSIG:4.3 - Parent cases
-
-`A.6.RSIG` keeps the main parent cases explicit:
+The same recognition question occurs in several settings:
 
 - **boundary-description recognition**: can one reader recover what one
   boundary-presented description is for before the reader needs to classify its

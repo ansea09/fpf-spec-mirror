@@ -6,15 +6,16 @@ section_id: "A.6.H:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__009_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:7 — Conformance Checklist"
-line_start: 25667
-line_end: 25683
+line_start: 25220
+line_end: 25236
 dependencies:
   - "A.1"
   - "A.10"
+  - "A.13"
   - "A.14"
   - "A.15"
   - "A.15.1"
@@ -39,6 +40,7 @@ dependencies:
   - "C.29"
   - "E.17"
   - "E.24.PUB"
+  - "F.6"
 keywords:
   - "boundary"
   - "completeness"
@@ -63,13 +65,13 @@ keywords:
 | `CC-A6H-1` | The entry names the working decision, concrete candidate objects, receiving use, and load-bearing sentence. |
 | `CC-A6H-2` | The subject level is explicit when referent, episteme, publication, carrier, Method, plan, Work, or evidence would select different relations. |
 | `CC-A6H-3` | An actual whole claim identifies the candidate individual, direct identity pattern, boundary or delimitation when relevant, and independently recovered parts or constituents. |
-| `CC-A6H-4` | Every direct relation claim names exact participants and satisfies the rule for its actual polarity or stated modality. An affirmative occurrence claim requires adequately grounded obtaining facts; a negative claim requires its own non-obtaining criterion or adequate closure basis. Missing facts establish neither result; co-listing, wording, position, or representation establishes none. |
+| `CC-A6H-4` | Every direct relation claim identifies its participants and satisfies the rule for its polarity or stated modality. An affirmative occurrence claim requires adequately grounded obtaining facts; a negative claim requires its own non-obtaining criterion or adequate closure basis. Missing facts establish neither result. Representation content may supply facts; co-listing or form alone does not establish the relation. |
 | `CC-A6H-5` | `PortionOf` names an extensive measure μ, compatible unit, and additivity/non-overlap basis. |
-| `CC-A6H-6` | `PhaseOf` is used only for a proper temporal restriction of one unchanged directly governed individual; changed epistemes use C.2.1 and Work uses A.15.1. |
+| `CC-A6H-6` | `PhaseOf` is used only for a proper temporal restriction admitted by A.14 and the unchanged individual's direct identity rule. A use window alone establishes no temporal part; changed epistemes use C.2.1 and Work uses A.15.1. |
 | `CC-A6H-7` | Method factors, description constituents, plan items, and performed Work parts remain separate and use their subject patterns. |
 | `CC-A6H-8` | `integrity` is classified as a characteristic/measurement, evidence/assurance, actual structural-whole claim, or another defined term before another rule is applied. |
 | `CC-A6H-9` | `complete`, `turnkey`, and `end-to-end` name the exact covered objects, scope, criterion, predicate, gaps, and applicable defining or testing rule. |
 | `CC-A6H-10` | C.13 construction and A.22 selected structure are added only for a named use and create no direct part or relation occurrence. |
 | `CC-A6H-11` | A.1 recognition and B.2 reidentification are opened only for their actual questions; an adjective, list, or changed label decides neither. |
-| `CC-A6H-12` | The result is one or more subject-qualified assertions or exact blockers. An ordinary note may hold them; its presence establishes no whole, relation occurrence, or new kind. A PatternID appears only as a locator for current defining or testing content, or for an identifiable future definition need. |
+| `CC-A6H-12` | The result is one or more subject-qualified assertions, an explicit unknown result, a needed next action or a missing-governor result. An ordinary note may hold them; its presence alone establishes no whole, relation occurrence, or new kind. A PatternID locates needed defining or testing content, or an identifiable future definition need. Any added blocked-inference guard satisfies the F.19 conditions stated at entry. |
 

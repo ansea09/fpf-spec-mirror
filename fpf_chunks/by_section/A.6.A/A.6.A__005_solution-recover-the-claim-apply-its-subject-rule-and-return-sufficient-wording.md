@@ -6,12 +6,12 @@ section_id: "A.6.A:4"
 section_title: "Solution - Recover the claim, apply its subject rule and return sufficient wording"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__005_solution-recover-the-claim-apply-its-subject-rule-and-return-sufficient-wording.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:4 — Solution - Recover the claim, apply its subject rule and return sufficient wording"
-line_start: 22155
-line_end: 22449
+line_start: 21760
+line_end: 22053
 dependencies:
   - "A.15"
   - "A.16"
@@ -62,7 +62,7 @@ Use A.6.A when the intended claim or question remains unclear for the receiving 
 
 #### A.6.A:4.0a - Operational repair sequence
 
-1. **Recover the occurrence and receiving use.** Read the trigger sentence with its source context. State which interpretation, decision or action the reader needs it for.
+1. **Recover the statement and receiving use.** Read the sentence with its source context. State which interpretation, decision or action the reader needs it for.
 2. **Compare the live interpretations.** Consider a physical opportunity, its detection, an operator prompt, a social response, a candidate inquiry, a proposed clarification, a learned policy tendency or a control option. Also consider an actual evaluation, ability, commitment or Work claim when the sentence supports that reading. Use §4.3 as a menu, not a required classification.
 3. **Select what the grounds support.** State the intended interpretation and why a consequential rival is excluded. If the grounds do not choose, preserve the rival meanings and return the fact or question that would distinguish them. A short note is useful when a later decision needs those grounds; it is not a prerequisite to every repair.
 4. **Recover the subject and relevant conditions.** Name the actual site, would-be actor, action and other participants only to the extent that they determine the claim. For an obtaining relation, recover its direct predicate and any needed occurrence identity under A.6.REL. For an inquiry, state the question and what an answer would resolve. A menu label supplies neither result.
@@ -92,7 +92,7 @@ detector, viewpoint, representation and publication details, when relevant
 next subject result or return, when one is needed
 ```
 
-This is a way to express the result. It neither declares a common relation kind nor supplies an obtaining predicate. For an actual relation claim, its participants, direction, applicability, evidence requirements and same/new rule come from that relation's direct governor. Recover ref-backed participants and by-value content under A.6.5 when the note itself is changed.
+This form expresses the result without defining a common relation kind. For an actual relation claim, its participants, direction, applicability, evidence conditions and identity rule come from the direct governor. Use A.6.5 for a reference-backed designation only when a compatible declared SlotSpec is current; ordinary note wording needs no invented relation declaration.
 
 Omit fields that do not change interpretation or use. A sufficient sentence remains a complete result. A particular receiving publication can require more structure under its own conditions; that requirement does not become a universal prerequisite to wording recovery.
 
@@ -102,7 +102,7 @@ When `viewpointRef` is present, `effectiveReferenceScheme` is also explicit and 
 A sentence such as “X affords Y” needs repair when its intended action, participants or basis remain hidden for the receiving use. For a recovered relation claim, apply A.6.REL; for a recovered question, preserve the question. Earlier cue content may remain a cue pack, RoutedCueSet or another appropriate expression.
 
 **Interpretation and enactment.**
-The menu label records a candidate reading of the wording. It does not identify an occurrence or establish that different interpretations have one relation kind. A proposed action is not an actual `U.Work` or a `U.WorkPlan`. When the result selects a Method for enactment, name the exact independently admitted `U.Method`; any `methodDescriptionRef` remains a separate source episteme. Use **A.15.2** for intended-work planning and **A.15.1** for actual Work. Route an already returned result or Work consequence through **A.15.1 §4.6** or its direct result/measurement governor: distinguish the application result binding, returned value, any independently established evaluation Work, and a result episteme when one is needed. A Work-to-result claim needs its own declared domain predicate; a missing predicate returns the named gap while leaving an independently established application binding usable.
+A menu label names a candidate interpretation; it establishes neither an occurrence nor a common relation kind. A proposed action can remain a proposal. When it selects a Method, identify the admitted U.Method and treat any MethodDescription under A.3.2. Use A.15.2 for planning. For a deliberately asserted dated Work, recover its A.13 basis and independent A.15.1 admission; F.6 is additional only for precise assignment-bound attribution. A returned value, application binding, evaluation Work and result episteme retain their own identities and rules. A Work-to-result claim needs its direct predicate; a missing predicate blocks that claim without erasing an independently established binding.
 
 **A.7 boundary note.**
 When the site affects interpretation, distinguish an EntityOfConcern-side participant, a Description episteme participant and any non-claim-bearing site kind. Name a participating publication face, publication form, carrier or rendering separately under A.7. An optional note may use `siteClassification` and `publicationOrCarrierParticipation` for these distinctions; ordinary wording can express them too.
@@ -112,10 +112,10 @@ When the site affects interpretation, distinguish an EntityOfConcern-side partic
 When both matter, they SHALL be published separately.
 
 **Enactor note.**
-When the recovery result names an actual would-be enactor, that enactor SHALL resolve to a `U.System` or to a role assignment whose holder is a `U.System`. An episteme, description, publication face, or carrier may participate in the **site**, but not as the acting bearer.
+When the result names an actual would-be enactor, it SHALL identify the System that would act. An assignment may designate that System through its holder, but the assignment is not the acting participant. An episteme, publication face or carrier may instead be part of the site.
 
 **Episteme non-agency note.**
-If the site is a Description episteme, any later enactment still occurs through carriers, acted-on systems, or both; the description itself never acts.
+For a claim about actual enactment, identify the acting System and any carrier or acted-on system that matters. A description can guide that actor through its content; it is not itself the performer. Ordinary instrumental wording may remain when the actor and use are recoverable.
 
 #### A.6.A:4.2 - Candidate interpretations
 
@@ -163,7 +163,7 @@ Use the following questions where their answer changes the recovered meaning or 
    Site tuple members: named EntityOfConcern, scene, interface element or front-end element, Description episteme, episode, control state, or non-claim-bearing site kind - with publication or carrier participation stated separately when live.
 
 2. **Invited enactor tuple.**
-   Which `U.System`, collective system, or role assignment whose holder is a `U.System` is invited to act.
+   Which System, including a qualified collective system, would act; an assignment may help identify its holder when that attribution matters.
 
 3. **Candidate action tuple.**
    What action or inquiry the phrase concerns. If the result selects a Method for enactment, identify its exact `U.Method`; keep any MethodDescription, WorkPlan and actual Work separate under their direct rules.
@@ -195,7 +195,7 @@ Use the following questions where their answer changes the recovered meaning or 
 Use a sufficient ordinary sentence first. The four forms below are optional ways to preserve cues, present a candidate, compare alternatives or refer to an existing policy. Select one only when it contributes to the receiving use; no sense token requires a default form.
 
 **Docking note.**
-Where the recovered result selects a Method for enactment, cite the existing exact `U.Method` ref. A current `U.MethodDescription` ref remains a separate C.2.1 source for identifying, constraining or justifying that Method or intended Work; existing `U.WorkPlan` and `U.Work` refs remain separate when those objects already exist. `PolicyHook` SHALL always be a hook over pre-existing gate, method, or protocol publications; it does not mint a new Method, execution, admissibility, or deontic ontology.
+Where the result selects a Method, cite that admitted Method. A MethodDescription, WorkPlan or Work is a separate object and is cited only when needed. A PolicyHook refers to an existing policy, Method, gate or protocol; each assertion about duty, admission or actual execution still follows its own rule.
 
 **ANF-1 — `CuePack`.**
 Use when preserving an early or incompletely articulated cue is the useful result, including `AIS.PhysicalAffordance`, `AIS.SocialAffordance`, and many cases of `AIS.LatentPolicyCue`.
@@ -207,8 +207,7 @@ A conforming `CuePack` publishes:
 * enactor descriptor or enactor constraints,
 * a small gloss set of candidate actions,
 * optional ordinal urgency or salience summaries,
-* explicit warning that the cue is **not yet** a commitment, a selected method, a gate, or work,
-* explicit note that witness-bearing does **not** by itself make the hinted action correct, required, or selected.
+* a qualification of a commitment, selection, gate or execution inference only when source context gives a plausible reader reason to make it and the distinction changes use.
 
 **ANF-2 — `ActionOption`.**
 Use when one candidate action tuple is explicit.
@@ -216,11 +215,11 @@ Use when one candidate action tuple is explicit.
 A conforming `ActionOption` publishes:
 
 * one candidate action tuple,
-* invited enactor and role assignment when live,
+* the would-be acting System and any assignment that the receiving claim actually needs,
 * local guard sketch,
 * expected near-field effect,
 * an exact `U.Method` ref when the option selects that Method for enactment, plus a separate optional `U.MethodDescription` ref or `U.WorkPlan` ref only when that independently existing object is current,
-* explicit note that the option is **not yet selected**, **not yet obligatory**, and **not yet executed**.
+* any separately established selection, duty or execution state needed by the receiving use. If such a state is unknown, the option form supplies no negative state either.
 
 **ANF-3 — `OptionSet`.**
 Use when several candidate actions coexist.
@@ -237,11 +236,11 @@ Use when the receiving use needs an explicit reference to an existing controller
 
 A conforming `PolicyHook` publishes:
 
-* referenced policy, method, gate, and protocol ids (pre-existing governing FPF patterns or `authoritySourceRef` named sources only),
+* references to the existing policy, Method, gate or protocol content governing this use, resolved under the applicable reference scheme,
 * applicable guard or trigger conditions,
-* admitted acting or maintaining System; any exact system-role kind or assignment needed by the hook's work context; the direct responsibility relation that selects that System, or the exact A.6.RCD missing governor; and any separate `authoritySourceRef` source,
+* the acting or maintaining System when the receiving use needs that identity, plus the responsibility or authority basis and any assignment actually claimed; a missing responsibility rule blocks only the dependent attribution,
 * escalation or override references when relevant,
-* explicit note that the hook is a **binding publication** over existing semantics, not itself a commitment, an admissibility rule, or a work occurrence.
+* enough source content to recover the applicable rule; publication of the hook alone establishes no individual commitment, admission decision or Work occurrence.
 
 #### A.6.A:4.6 - Separation from quality, capability, commitment, and work
 
@@ -249,8 +248,8 @@ A.6.A SHALL prevent the collapse of action invitation language into neighbouring
 
 * A statement about **better, worse, fit, or merit** belongs to **C.16.Q**.
 * A statement about **what a system can do in general** belongs to capability wording, method wording, or method-description wording under **A.6.F** and the subject pattern for the asserted capability, method, or method-description claim.
-* A statement about **what must be done** belongs to **A.6.B** when the wording asserts an A-classified admissibility claim or a D-classified commitment claim.
-* A statement about **what was actually done** belongs to **A.15** and exact dated `U.Work`, whose `enactsMethod` relation points to the exact `U.Method`.
+* For **what must or may be done**, distinguish a generic prescription, an individual duty, a grant and admission of a particular mechanism application. A.6.B distinguishes their boundary claims; the normative source, A.2.8 commitment rule, A.2.8.PER permission rule or application rule supplies the actual basis.
+* Ordinary statements of **what someone did** may remain ordinary. A deliberately asserted dated U.Work follows A.13 and independent A.15.1 admission with its enactsMethod relation; precise assignment-bound attribution additionally uses F.6.
 * A result that selects a Method identifies that Method without becoming a plan or occurrence; any `methodDescriptionRef` remains auxiliary. A proposed action can remain a proposal without inventing its Method. A Description episteme never acts and is never what Work enacts.
 * When a sentence carries both evaluative and action-oriented content, make the two claims and their respective grounds distinguishable. Use linked records only when the receiving use needs them.
 
@@ -261,7 +260,7 @@ Examples:
 * “This scene is good for grasping” can combine a physical-opportunity claim with an evaluation under a particular criterion. Recover each claim and its rule.
 * “This alarm requires rollback” needs the actual gate or duty rule, if that is the intended claim.
 * “The robot can grasp this handle” can concern ability under conditions or a situated physical opportunity. Recover which result the reader needs and apply its rule.
-* “The operator clicked rollback” is work, not invitation.
+* “The operator clicked rollback” reports an action rather than offering one. It needs no extra formal Work identity unless that identity is material to the receiving claim.
 
 #### A.6.A:4.7 - Bridge discipline across traditions
 
@@ -278,7 +277,7 @@ Useful stance labels include, for example:
 Examples:
 
 * A named comparison between `AIS.PhysicalAffordance` and `AIS.InterfaceAffordance` may remain a direct bounded contrast under E.17.ID.CR or another exact direct relation. If it asserts cross-context semantic correspondence, any bounded partial analogy needs an obtaining F.9 Bridge and a matching use claim. An optional `partialAnalogy` note helps reject identity; the label alone establishes nothing.
-* `AIS.EpistemicProbe` and `AIS.ClosureAdvance` usually need the direct progression-by-closure relation that is actually claimed. If their senses cross semantic contexts, apply F.9 before adding any optional stance note.
+* AIS.EpistemicProbe and AIS.ClosureAdvance use the direct progression or other relation actually claimed. Apply F.9 only if the statement asserts or relies on semantic correspondence between exact senses with different interpretation bases; a change of domain label alone does not open that branch.
 * A named use from `AIS.LatentPolicyCue` toward `AIS.ControlOpportunity` needs F.9 only when it relies on cross-context semantic correspondence; then any operationalization or projection reading follows the obtaining Bridge and the use claim's direction, rule, and tolerated loss. Otherwise the exact direct relation must supply the proposed contrast or use.
 * A robotics comparison from `AIS.PhysicalAffordance` toward `PolicyHook` may remain a direct contrast. If it relies on cross-context semantic correspondence, a projection reading requires the obtaining F.9 Bridge and a matching bounded-use claim under the controller frame; an F.9.1 note only explains that existing claim.
 * Action invitation and quality ascription may co-occur, but co-occurrence is **not** identity.
@@ -303,35 +302,35 @@ When a recovery note changes, state what changed. The following verbs are useful
 * **`refreshWitnesses(...)`** — refresh witness bindings.
 * **`changeRelationKind(...)`** — use only when an actual relation-kind claim changes under its direct governor. A different interpretation of wording need not be a change of relation kind.
 
-These operations describe changes to the account or its publication. For any claim that the opportunity itself began, ended or became a different occurrence, apply its direct obtaining and identity rule; record declaration, withdrawal, wording and detector changes do not supply that result. A silent move from invitation to commitment, capability, or work is a breaking semantic change.
+These verbs describe changes to an account or its publication. Changed claim content, EntityOfConcern or effective reference scheme identifies a different episteme under C.2.1; an edition or other continuity relation needs its own basis. A change in the actual opportunity follows its direct obtaining and identity rule. Changing wording, its availability or its detector alone supplies no such world-side change. Invitation, commitment, capability and Work claims retain their separate predicates.
 
 **A.6.P rewrite note.**
-`retargetSite(...)` and `retargetInvitedEnactor(...)` describe participant retargeting in an account and SHALL be used only when the corresponding slots are ref-backed. `reviseAction(...)`, `reviseSense(...)`, `reArticulate(...)`, `reFrame(...)`, `reGuard(...)`, and `rePolicyHook(...)` are by-value revisions unless the account explicitly declares the corresponding slot as ref-backed, in which case the text SHALL use the matching `retargetParticipant(...)` form. This preserves A.6.5’s ref-vs-value discipline.
+The technical retargeting forms apply only when a compatible declared SlotSpec makes the corresponding designation reference-backed. Then apply A.6.5 to the reference change. Otherwise describe the changed participant designation or other by-value content directly and apply C.2.1 to the resulting episteme; do not introduce a SlotSpec merely to revise an ordinary note.
 
 #### A.6.A:4.8a - Classify the recovered boundary-bearing claim
 
 When the recovered claim is boundary-bearing, use its actual A.6.B classification:
 
 * **L** — the rule that defines or constrains the recovered subject, including an actual relation predicate when that is the claim; applicable enactor/site discipline and the F.9/F.9.1 boundary retain their direct governors.
-* **A** — admissibility conditions for the recovered result in selection, triage, automation or publication.
-* **D** — a generic prescription with its exact normative episteme and applicable content, such as the rule to name the invited actor or required authority/override source. An asserted individual duty or commitment additionally needs its own obtaining basis; a generic prescription does not invent that individual occurrence.
-* **E** — an exact adjudicable claim about actual Work, an evaluation or observation result, or a produced carrier’s condition under A.6.B. Cite the relevant sensory result, event, probe or log as its evidence; a list of trace or carrier references is not itself the E claim.
+* **A** — a predicate checked at entry or during an identified mechanism application to admit, continue or reject that application. A statement of allowable claim use or general scope does not qualify by itself.
+* **D** — a generic prescription under its normative source, an individual duty under A.2.8, or a grant under A.2.8.PER. Individual commitments and grants need their own participants and obtaining basis; a generic prescription does not establish them.
+* **E** — an observation, effect or evaluation result and the conditions under which it is obtained. A particular Work, evidence relation or carrier-condition claim uses its own rule. Cite a sensory result, event, probe or log only when its content supplies grounds for the claim; a reference list alone is insufficient.
 
 Do not let bare action-first language carry L-, A-, D-, or E-classified claims, admissible-use consequences, or evidence consequences by itself.
 
 #### A.6.A:4.9 - Lexical guardrails
 
-In **Tech prose and normative prose**:
+Apply these rules when the wording carries a consequential claim:
 
-* bare **affords, invites, calls for, actionable, ready for, ripe for, natural next step, the model wants, or the interface tells** MUST NOT appear without immediate repair;
-* **actionable insight** MUST be made precise as the actual claim, candidate action, question or missing basis; use **C.16.Q** when the claim is evaluative;
-* **affordance** MUST NOT be treated as a monadic property of a site participant without enactor, site, and coupling frame;
+* action-first expressions MUST be clarified when their action, participants, conditions or intended meaning remain materially ambiguous; ordinary recoverable wording and metonymy may remain;
+* the claim, candidate action, question or missing basis meant by **actionable insight** MUST be recoverable; use C.16.Q when an evaluative meaning remains unresolved;
+* an affordance claim MUST preserve the actor, site and coupling conditions that change its meaning; an implicit participant may remain implicit when the intended value is cheaply and uniquely recoverable;
 * an invitation MUST NOT be presented as if it were already a duty, gate, or work occurrence;
 * a latent policy cue MUST NOT be presented as if it were already an explanation;
 * `articulationHint` MUST NOT be treated as **F**, as acceptance status, or as a replacement for `A.16` grounding references;
 * generic `Surface` facet tokens MUST NOT be introduced inside A.6.A; publication face, publication form, interop publication form, carrier, or rendering participation must be declared under A.7 and publication-face and publication-form discipline, not by widening the site classification;
-* hidden enactor language inside adjectives such as *graspable*, *deployable*, *actionable*, *ready* SHALL be unpacked;
-* quoted metalinguistic uses are allowed, but SHALL be marked as token-under-discussion.
+* unpack an adjective such as *graspable*, *deployable*, *actionable* or *ready* when a hidden actor, action or condition changes the claim;
+* distinguish quotation or discussion of an expression from an assertion using it when the distinction affects interpretation.
 
 #### A.6.A:4.10 - Elaborate only for the next use
 

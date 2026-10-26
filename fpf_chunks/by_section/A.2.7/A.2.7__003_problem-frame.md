@@ -6,12 +6,12 @@ section_id: "A.2.7:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__003_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:1 — Problem Frame"
-line_start: 7561
-line_end: 7570
+line_start: 7515
+line_end: 7524
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -38,5 +38,5 @@ These uses all concern exact system-role kinds, but they do not concern the same
 
 A system-role-kind description or taxonomy episteme may state a relation claim, and its reference scheme may help interpret that claim. The world-side relation obtains under its direct predicate. When a `KindSignature`, scheme, Bridge, or other edition changes the relation rule, include that edition in the predicate's semantic basis; otherwise keep it as interpretation material outside occurrence identity.
 
-`SystemRoleKindRelationStructure` is the selected organization among exact kinds and exact obtaining relations. For any checking Work, identify the acting system and dated Work under their direct patterns; the selected structure supplies only the organization used by that check.
+`SystemRoleKindRelationStructure` is the selected organization among exact kinds and exact obtaining relations. If the account asserts a particular dated checking Work, identify its performer through A.13 and admit the occurrence independently through A.15.1; add F.6 only when precise assignment attribution is needed. The selected structure supplies the organization used by the check.
 

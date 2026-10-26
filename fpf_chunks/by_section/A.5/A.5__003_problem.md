@@ -6,12 +6,12 @@ section_id: "A.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.5/A.5__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.5 — Open-Ended FPF Kernel and Extension Layering"
   - "A.5:2 — Problem"
-line_start: 13725
-line_end: 13735
+line_start: 13543
+line_end: 13551
 dependencies:
 keywords:
   - "FPF architecture"
@@ -24,12 +24,10 @@ keywords:
 
 ### A.5:2 - Problem
 
-If FPF were to let **domain‑specific primitives creep into its Kernel**, two pathologies would follow:
+Admitting domain-specific primitives without their applicability boundaries can create two problems:
 
-| Pathology               | Manifestation                                                                                                                  | Breach of Constitution                                                     |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
-| **Kernel Bloat**        | Adding domain-specific root U-kinds or local type vocabularies to the Kernel increases its size and review burden.       | Violates **C-5 Ontological Parsimony**; erodes **P-1 Cognitive Elegance**. |
-| **Conceptual Gridlock** | Conflicting axioms (deterministic thermodynamics vs. indeterministic econ‑metrics) must fight for space in the same namespace. | Breaks **C‑3 Cross‑Scale Consistency**; triggers chronic DRR deadlock.     |
-
-A *minimal, extensible* design is therefore mandatory.
+| Problem | Practical effect |
+| --- | --- |
+| **Kernel bloat** | Adding unnecessary root U-kinds or local type vocabularies increases what every Kernel user must understand and maintain. |
+| **Conflicting assumptions** | Incompatible axioms presented as unconditional commitments leave the reader unable to select an applicable explanation. |
 

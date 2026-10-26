@@ -6,12 +6,12 @@ section_id: "A.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__006_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.1 — Recognize a Whole with Parts (U.Holon and Admitted Holon Kinds)"
   - "A.1:4 — Solution"
-line_start: 2580
-line_end: 2710
+line_start: 2577
+line_end: 2707
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -80,7 +80,7 @@ Name the already admitted holon kind and its direct kind-specific pattern separa
 
 Exact dated classification work belongs to `A.15.1`. When a reusable typed recognition-evaluation operation is current, `A.6.1` governs its declared arguments and result plus the actual application bindings. The evaluation returns `true` when its governed inputs determine satisfaction, `false` when they determine failure, and `unknown` when missing evidence or an unavailable dependency prevents either determination. `unknown` is an evaluation result, not a third candidate state: the same candidate can satisfy or fail the criterion while the current evaluation remains unable to determine which.
 
-When another use must inspect or cite the judgment, identify an optional C.2.1 classification-assertion or evaluation-result episteme whose exact EntityOfConcern is the candidate. Its claim content names the admitted kind, the A.1 criterion, the constituent and part-relation facts, reidentification rule, whole-level characteristic, candidate-side compatibility facts, exact construction-method-or-rule episteme, evaluation frame, and `true | false | unknown` judgment needed by that use.
+When another use must inspect or cite the judgment, identify an optional C.2.1 classification-assertion or evaluation-result episteme whose EntityOfConcern is the candidate. Its claim content names the admitted kind, the A.1 criterion, the constituent and part-relation facts, reidentification rule, whole-level characteristic, candidate-side compatibility facts, construction method or rule and its applicable conditions, evaluation frame, and `true | false | unknown` judgment needed by that use.
 
 A person or system performing the receiving work separately decides whether to rely, decline to rely, defer, or reopen. Exact evidence and assurance relations support or warrant assertion claim content. Use G.11 to test whether the selected assertion edition is current. `B.2` addresses the different question whether the existing whole is no longer the right EntityOfConcern for a receiving use. A.1 satisfaction, failure, or evaluation uncertainty supplies neither warrant for a B.2 claim nor grounds for selecting B.2.
 
@@ -98,7 +98,7 @@ Current accepted holon-kind examples are:
 - `U.Discipline`, defined in `C.20` as a field-level practice-and-knowledge holon;
 - `U.Method`, defined in `A.3.1`, with method-composition patterns such as `B.1.5` defining how submethods compose into a whole method across levels.
 
-A project-local holon classification names its concrete C.3 `U.Kind`, the A.1 criterion, any kind-specific criterion, and the direct patterns for the construction facts it uses. A proposed public `U.*` holon kind first passes `E.24.UK` and gains one subject pattern. Neither route may rely on part-whole, architecture, system-role-kind classification or assignment, work, evidence, or source-use claims before the candidate-side criterion is recoverable.
+A project-local holon classification names its concrete C.3 `U.Kind`, the A.1 criterion, any kind-specific criterion, and the direct patterns for the construction facts it uses. A proposed public `U.*` holon kind first passes `E.24.UK` and gains one subject pattern. Before relying on a claim that depends on the candidate being a holon, recover its candidate-side criterion.
 
 Candidate recognition is decided by the six candidate-side constructive components in A.1:4.2, not by agentivity, wording, evidence availability, or a B.2 whole-reidentification result. Grounding work selects the participating objects from the surrounding practice or world, fixes their boundaries, identifies constituents and exact part relations, recovers the assembly and reidentification rule, and tests the resulting whole-level characteristic and larger-assembly compatibility. Relations may arrange, constrain, assign, qualify, or describe constituents; those relations do not become constituents by that fact.
 
@@ -143,11 +143,11 @@ A Markov blanket is not a holon boundary by name. First recover whether the sour
 
 #### A.1:4.7 - Collections, Collection-As-Whole, And Acting Collectives
 
-A list, set, batch, fleet, pool, clientele, community, supplier base, or coverage zone does not become a `U.System` by wording.
+A collection becomes a recognized `U.System` only when it satisfies the constructive and acting-eligibility conditions below.
 
-First recover the current claim: who or what belongs to which collection under the collection's own rule and A.14; a possible holon under the complete six-part A.1 test; a `C.13 set` account of already established belonging; optional B.3.5 assurance; a whole-level characteristic under C.16; an acting collective under the `U.System` criterion plus A.15.1 Work; or whole reidentification under B.2.
+Start with the claim needed by the task. Use the collection's own rule and A.14 for membership; the complete six-part A.1 test for a possible holon; and the additional acting-eligibility condition for a collective System. Use C.13 for a construction account of already established belonging, C.16 for a whole-level characteristic, and B.3.5 only for a named assurance use. B.2 addresses the separate whole-reidentification question.
 
-An acting collective `U.System` has a boundary, coordination, system-role assignments, capability or method evidence, and work-facing participation. If those are not current, keep the object as a collection or collection-as-whole claim under subject patterns.
+An acting collective must satisfy all six A.1 components and have an actual physical or operational organization through which it can causally participate in work or transformation while preserving its identity. Assignment, capability, method and performed-Work claims require their own bases under the direct patterns in section 4.4. If only collection membership is established, state that collection claim; if missing evidence prevents a requested System classification, the evaluation result is `unknown` under section 4.2.
 
 #### A.1:4.8 - Constructional Grounding
 

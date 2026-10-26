@@ -6,12 +6,12 @@ section_id: "A.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:1 — Problem frame"
-line_start: 13835
-line_end: 13856
+line_start: 13637
+line_end: 13658
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,22 +57,22 @@ keywords:
 
 ### A.6:1 - Problem frame
 
-Boundaries are where architecture lives: at the edge of a theory, an API, a protocol, a hardware connector, an organisational interface, or a published model. FPF already has the core building blocks to describe such edges:
+At an API, protocol, hardware connector, organizational interface or published model, a reader needs to distinguish the declaration from the conditions of use and what actually occurred. FPF supplies these contributions:
 
 * `U.Signature` as a *public, law‑governed declaration* (with Vocabulary, Laws, Applicability).
 * `U.Mechanism` as a reusable operation declaration with OperationAlgebra, LawSet, AdmissibilityConditions and Applicability.
 * Multi-view describing through E.17.0 `MultiViewDescribing`, plus separate E.17 publication discipline for selected epistemes, face uses, forms, and carriers.
 * Recover each claim's **EntityOfConcern** separately from its claim-bearing **Description episteme** and any **publication carrier**. The concern may itself be an episteme or carrier; its position does not establish agency, Work, evidence, or a decision.
 
-Yet boundary descriptions in practice fail in a predictable way: authors blend several fundamentally different kinds of claims into one undifferentiated contract paragraph. The result is brittle architecture: signatures become entangled with runtime gates, deontic language is mixed into mathematical invariants, and “effects” are asserted without any disciplined carrier and evidence story.
+A boundary account can blend these claims into one contract paragraph. Then a signature can acquire an unstated entry gate, a mathematical invariant can be read as a duty, or an effect can be asserted without its actual basis.
 
-This cluster overview makes one disciplined move:
+Connect the contributions in two steps:
 
-1. Treat a boundary as a **stack of boundary layers** (Signature → Mechanism → actual occurrences and their separately governed consequences/evidence) plus publication views and faces, and
-2. Provide a **boundary discipline matrix** (2×2) that classifies statements by boundary layer, so evolution remains controlled and substitutions are possible.
+1. Distinguish declaration layers from claims about occurrences and their consequences or evidence, and from publication uses.
+2. Classify each boundary claim through A.6.B and place it where its governing content can be maintained and reused.
 
 *Terminology note (informative):* In this pattern:
-* **Layer** names a stratum in the boundary stack (Signature → Mechanism → actual occurrences, separately governed consequences/evidence → Publication).
+* **Layer** names a position in the account: Signature, Mechanism, governance, consequence/evidence or Publication. Actual occurrences remain the subjects of claims rather than parts of their description.
 * **View** (`U.View`) is the same C.2.1 episteme individual when E.17.0 conformance to at least one exact viewpoint episteme obtains; it is not a projection operation, publication file, or document.
 * **Viewpoint** (`U.Viewpoint`) is the same C.2.1 episteme individual when the fixed E.17.0 viewpoint-convention conditions obtain; its accountability use does not replace those membership conditions.
 * **Face** (MVPK sense) is a publication form for a bounded reader/use. `PlainView`, `TechCard`, `InteropCard`, and `AssuranceLane` are face designators, not additional `publication-face kind` values. A face may expose an episteme that independently has `U.View` membership; the form, rendering and carrier remain separate from that episteme.

@@ -6,12 +6,12 @@ section_id: "C.3.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:intro — Intro"
-line_start: 55903
-line_end: 55923
+line_start: 55036
+line_end: 55053
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -32,13 +32,13 @@ keywords:
 
 ## C.3.5 - KindAT — Intentional Abstraction Facet for Kinds (K0…K3)
 
-> **One-line summary.** `KindAT` is an informative editorial facet on one local `U.Kind`. Its anchors—K0 Instance, K1 Behavioral Pattern, K2 Formal Kind/Class, and K3 Up-to-Iso—help plan declaration rigor, assurance coverage, bridge expectations, catalog search, and refactoring. KindAT is not a Characteristic: it has no algebra or threshold and never appears in guards or composition. It changes neither the kind, a `KindSignature`, a classification judgment, an extension representation, nor F–G–R.
+> **Use.** `KindAT` is an informative planning facet on one local `U.Kind`. Its anchors—K0 Instance, K1 Behavioral Pattern, K2 Formal Kind/Class, and K3 Up-to-Iso—describe how the kind is intended to be treated. They guide planning and catalog search; they supply no classification or assurance result.
 
 **Normativity:** Informative for anchors, heuristics, examples, and guidance; normative only for the usage rules that prohibit guard/composition use and constrain placement.
 
 > **Status:** Stable
 
-**Placement.** Part C (Kinds), identifier **C.3.5**. Audience: engineering managers, architects, editors, and assurance leads.
+**Audience:** engineering managers, architects, editors, and assurance leads.
 
 **Depends on.**
 
@@ -47,7 +47,4 @@ keywords:
 - **C.3.3:** the obtaining `KindBridge` relation and its separate bridge-assertion episteme carrying `CL^k`, loss, evidence, and admitted use.
 - **C.3.4:** the `KindUseAdaptationDeclaration` episteme and exact `KindUseAdaptationJudgment`.
 - **A.2.6, C.2.2, and C.2.3:** Claim/Work scope, F–G–R, and formality assessed on the episteme that owns the expression.
-- **MM-CHR:** the Facet-versus-Characteristic distinction.
-
-**Non-goals.** KindAT supplies no numerical scale, gating rule, composition operator, public-kind admission, classification result, or assurance score.
 

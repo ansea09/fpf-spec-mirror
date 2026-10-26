@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.31.ASAP — Which Architecture Is Preferable Under Scale? (Scale Amenability)"
   - "C.31.ASAP:5 — Archetypal Grounding"
-line_start: 76128
-line_end: 76171
+line_start: 75059
+line_end: 75102
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -76,15 +76,15 @@ ScaleClaimTriage:
   scaleVariableRef: N_sites
   scaleWindowRef: 5 to 40 regulated deployment sites inside the current qualification window
   claimedPreferenceUnderScale: platform alternative is preferred if interface variants and approval exceptions grow slower than bespoke variants
-  slopeEvidenceRef, scaleProbeEvidenceRef, or noProbeReason: scale-probe evidence from six deployments; no universal scale law claimed
+  slopeEvidenceRef, scaleProbeEvidenceRef, or noProbeReason: evidence from six deployments; behavior outside the tested conditions remains a hypothesis unless an extrapolation basis is supplied
   expectedStableOrImprovingStructure: interface grammar, reusable test package, deployment work template
   exceptionGrowthRisk: jurisdiction-specific clauses and side-channel integrations may grow faster than sites
-  sourceReturnCondition: return to exception register, interface variant log, and deployment evidence before publication, selected-set, assurance, or decision use
+  sourceReturnCondition: return to exception register, interface variant log and deployment evidence when a wider window or stronger use needs distinctions omitted from this account
   relatedClaimGovernanceIfClaimed: C.31 for the characteristic; C.31.RSA for reusable-structure share; C.16 for measurement; A.19.CPM for comparison; G.5 for selected-set declaration; G.9 for parity; C.11 for local decision; A.10 for source recovery and bounded reliance; G.6 for addressable provenance; B.3 for a named assurance claim
-  stopCondition: stop at local scale-preference guidance unless comparator admission, evidence validity, and decision or selected-set governance are present
+  stopCondition: retain the supported local guidance and the untested-window hypothesis; establish comparison, evidence-validity or decision grounds for that particular further use
 ```
 
-Admissible move: prefer the platform alternative as a local scale-preference guide and start interface-grammar repair before deployment spread increases. Stop at local guidance; open the direct selected-set, evidence-sufficiency, assurance, gate, or decision pattern only when that downstream claim is current.
+Admissible move: use the supported local comparison to consider the platform and its interface-grammar repair. The six-deployment probe alone does not establish the whole 5–40-site window. Retain the wider preference as a hypothesis until a warranted extrapolation or further probe supports it; if exceptions accelerate, narrow or split the window and revise the preference. A separate selected-set, evidence, assurance, gate or decision use retains its own grounds.
 
 #### C.31.ASAP:5.2 - Near-miss lowering slice
 
@@ -97,5 +97,5 @@ Lowering replay:
 - The RG-like phrase stays with C.29 unless the mathematical-lens fields, preserved structure, lost structure, payoff, admissible use, and stop condition are recoverable.
 - The "bespoke debt" label is lowered to waiver review when safety, law-domain, mission, assurance, or scale-probe overturn reasons may justify the local variant.
 
-Stop C.31.ASAP use when the scale window, probe evidence or no-probe reason, comparator admission required by the receiving use, or source-return condition is absent. Reopen it only after the fields required by that use are recoverable and the platform-label, share, lens, and waiver claims have their governing patterns.
+Stop the dependent C.31.ASAP use when its scale window, probe evidence or no-probe reason, required comparator admission, or action-changing source-return condition is absent. Reopen it only after the fields required by that use are recoverable and the platform-label, share, lens, and waiver claims have their governing patterns.
 

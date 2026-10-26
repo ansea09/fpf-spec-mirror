@@ -6,12 +6,12 @@ section_id: "C.2.P:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__013_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:11 — SoTA-Echoing"
-line_start: 52353
-line_end: 52413
+line_start: 51517
+line_end: 51579
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,18 +56,18 @@ keywords:
 
 When rewriting episteme-publication-heavy conformant text, the practitioner must recover accepted FPF kinds and relations, so that episteme, publication, view, carrier, naming, relation, and project-side records are not replaced by ad hoc words.
 
-A full external SoTA comparison is not needed for this bounded architectural precision-restoration pattern. A reduced external practice set is still required to check terminology drift and epistemic precision restoration. It sharpens only the recovery discipline, creates no new ontology, and does not outrank the FPF patterns named below.
+The external anchors below contribute designation and sense-recovery ideas. Their use here is limited to those contributions; the direct FPF patterns govern the restored claims.
 
-In this section, `SoTA-Echoing` means compatibility with current FPF ontology and selected external practice anchors, not that those anchors are sufficient SoTA for every field. ISO terminology entries are standards anchors for designation practice; SHACL-style validation is only a fail-closed constraint analogy; word-sense and ambiguity-resolution practice is used only for context-sensitive sense recovery. If one of those domains becomes the object of a future claim, use its current SoTA pattern or source review.
+In this section, `SoTA-Echoing` means compatibility with current FPF ontology and selected external practice anchors, not that those anchors are sufficient SoTA for every field. ISO terminology entries are standards anchors for designation practice; SHACL-style validation supplies an explicit-constraint analogy, with the FPF wording-use stop governed here; word-sense and ambiguity-resolution practice is used only for context-sensitive sense recovery. If one of those domains becomes the object of a future claim, use its current SoTA pattern or source review.
 
 
 | Reduced source idea | Adapted FPF invariant | Rejected shortcut | Recovery section |
 | --- | --- | --- | --- |
 | ISO 704:2022 and ISO 1087:2019 terminology work distinguishes the entity under discussion, the concept used in a terminology system, the definition, the designation, and term-formation practice. | Recover the FPF kind, relation, and sentence function before accepting a rewritten phrase. Use external terminology work only as external corroboration for careful designation and definition practice. | Do not replace FPF episteme and publication ontology with an ISO concept system, a dictionary substitution, or a global class row. | `C.2.P:4.1`, `C.2.P:4.4`, and `C.2.P:10` |
-| SHACL-style constraint validation makes local constraints explicit and fail-closed when a data shape does not satisfy them. | Use only the fail-closed analogy: when the FPF kind, relation, or declared use boundary cannot be recovered, return a non-use result instead of accepting the wording. | Do not import SHACL ontology, machine-validation authority, or shape vocabulary as FPF pattern ontology. | `C.2.P:4.0a`, `C.2.P:4.2`, and `C.2.P:8` |
+| [SHACL validation](https://www.w3.org/TR/shacl/#validation) checks a data graph against constraints in a shapes graph and reports conformance and validation results. | Use the explicit-constraint analogy: if the required FPF kind, relation, or declared use boundary cannot be recovered, keep that use unresolved or blocked under its direct rule. | The validation report supplies no FPF ontology or authority. Here, fail-closed means withholding the unrecovered FPF-governed wording use; the direct subject rule governs further action. | `C.2.P:4.0a`, `C.2.P:4.2`, and `C.2.P:8` |
 | Word-sense disambiguation and ambiguity-resolution practice treats sense recovery as context-sensitive rather than solved by the most common word sense. | When one local head or qualifier carries several plausible senses, recover the local FPF context and the applicable named FPF pattern before choosing wording. | Do not import machine-learning benchmarks or treat common usage as proof that the local FPF sense is recovered. | C.2.P:4.4, C.2.P:4.1.2, E.17.AUD.LHR, and F.18 |
 
-**External-practice boundary.** External traditions enter only through the local FPF invariant named by value they sharpen. Object-oriented modeling and OWL-style ontology modeling do not become the default repair for vague FPF wording. Architecture-description standards help keep views, viewpoints, concerns, and descriptions explicit. Explainability and NLP faithfulness work helps prevent explanation laundering. RAG evaluation helps separate retrieval evidence, source availability, and answer trust. Quality-diversity and multi-objective search help avoid premature scalarization in candidate selection. None of these traditions becomes FPF ontology, FPF authority, or a universal pattern-quality benchmark.
+
 
 #### C.2.P:11.1 - Relevant FPF Patterns
 
@@ -76,13 +76,13 @@ The current FPF corpus already has patterns that contribute to this discipline:
 - `E.10` supplies word/head, morphology, register, and naming cues and routes within the connected `F.19` reading.
 - `E.10.D2` gives the "thing vs words vs rules" discipline and the carrier humility rule.
 - `F.18` gives the local-first naming protocol: governed value and kind; the pattern and contribution that define or constrain them; by-value scheme; local-sense claim; intended use; candidate comparison; and any separately obtaining relation.
-- `A.6.P` gives the relation-precision restoration method: restore generic head kind, build candidate sets for endpoint kinds and relation kinds, select kind-explicit slots and qualifiers, then allow guardrailed wording.
+- `A.6.P` restores an ordinary sentence with the direct predicate, actual participants, and defining pattern. It adds a candidate note, reusable declaration, occurrence identity, or representation only when unresolved meaning or the receiving use needs that detail.
 - `C.2.1` gives episteme identity through exact claim content, EntityOfConcern, and effective ReferenceScheme and keeps empirical grounding and edition continuity as distinct direct relations.
 - `A.7` keeps EntityOfConcern, Description episteme, and publication carrier distinct.
 - `E.17.0` tests view conformance to a viewpoint; `E.17` governs reader-facing publication forms for an accepted account; `E.24.PUB` distinguishes publication occurrence, form, and carrier.
 - `A.15.4` shows how to keep an encountered publication, display, or low-articulation cue distinct from the project-side FPF kind and reference used for work or reliance.
 - `A.16` coordinates language-state moves; `A.16.0` supplies an optional trajectory account when their history matters; `A.19` defines the CharacteristicSpace and its reusable predicates; `B.2.5` governs supervisor-subholon feedback; `C.27` distinguishes state or rate readings from intervention-sensitive temporal claims; `A.3.3` defines the reusable state-space and transition-law episteme.
-- `E.19` already treats terminology and sentence-level precision restoration as required review checks, not editorial polish.
+- `E.19` compares a materially revised pattern edition with its earlier supported uses and tests the changed wording.
 - `A.6.A` carries action-invitation discipline when a publication, representation, or cue invites an action without itself becoming authority, evidence, gate passage, or work completion.
 - `C.11` carries decision-making and decision-record discipline when the question under repair is a decision rather than generic action.
 - `A.15` and `A.15.4` split system-role kind and assignment, Method, WorkPlan, and actual-Work alignment from appearance-based reliance repair; do not use `A.15` as a universal repair for episteme-publication wording.
@@ -94,7 +94,7 @@ These internal FPF patterns remain primary:
 | --- | --- | --- | --- |
 | Head-kind discipline | `E.10` | Use head-kind recovery before accepting a phrase. | Adopt. |
 | Stable naming | `F.18` | Run a name card when a reusable head is being minted. | Adopt. |
-| Relation precision | `A.6.P` | Recover relation kind, endpoints, slots, qualifiers, and scope when a relation or use-boundary claim is current. | Adopt. |
+| Relation precision | `A.6.P` | Recover the predicate, actual participants, and defining pattern. Add typed declaration, occurrence identity, qualifications, or representation only when the receiving use needs them. | Adopt. |
 | Carrier and EntityOfConcern-description humility | `A.7` | Keep EntityOfConcern, Description episteme, and carrier apart before treating a publication as evidence, work, gate, or authority. | Adopt. |
 | Episteme and publication ontology | `C.2.1`, `E.17.0`, `E.17`, MVPK, `E.24.PUB` | Separate episteme, publication, view, generic publication face, MVPK face under E.17 constraints, publication unit, carrier, and rendering. | Adopt. |
 | Project-side downstream use | `A.6.A`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, `A.21`, `C.11` | When a publication, display, cue, or explanation is treated as evidence, gate, decision, work permission, method, assurance, or engineering justification, name the applicable FPF pattern and the project-side FPF kind and reference. | Adopt. |
@@ -102,6 +102,8 @@ These internal FPF patterns remain primary:
 This reduced external-practice set changes the Solution in one practical way: epistemic precision restoration cannot close merely because the replacement sounds cleaner. The FPF kind, relation, declared use boundary, and any needed pattern application must be recoverable by value; otherwise the wording is blocked or becomes a candidate for a separate FPF-kind decision.
 
 #### C.2.P:11.2 - E.19 Review Profile Carry-Through
+
+Use this section for an E.19 judgment of a pattern edition. Select only the profiles whose triggers hold for that edition and use. For an ordinary sentence repair, :4.6 supplies the completion test.
 
 Run `PCP-TERM` when the repair changes episteme-publication-heavy naming, umbrella words, slash compounds, trigger-word replacements, or relation wording.
 

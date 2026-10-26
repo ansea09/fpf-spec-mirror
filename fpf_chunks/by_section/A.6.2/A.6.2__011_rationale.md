@@ -6,12 +6,12 @@ section_id: "A.6.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__011_rationale.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:10 — Rationale"
-line_start: 17661
-line_end: 17681
+line_start: 17342
+line_end: 17362
 dependencies:
   - "A.6.0"
   - "A.6.1"

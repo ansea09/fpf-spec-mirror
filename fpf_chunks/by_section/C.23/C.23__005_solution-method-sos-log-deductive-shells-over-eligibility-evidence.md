@@ -6,12 +6,12 @@ section_id: "C.23:4"
 section_title: "Solution — Method‑SoS‑LOG: deductive shells over Eligibility & Evidence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__005_solution-method-sos-log-deductive-shells-over-eligibility-evidence.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:4 — Solution — Method‑SoS‑LOG: deductive shells over Eligibility & Evidence"
-line_start: 64364
-line_end: 64472
+line_start: 63325
+line_end: 63432
 dependencies:
   - "A.10"
   - "B.3"
@@ -42,7 +42,6 @@ keywords:
 
 #### C.23:4.1 - Objects & heads (LEX/I‑D‑S)
 
-*Tech heads; Plain twins are published via UTS.*
 **`MethodFamily`** (registered in G.5) carries **Eligibility** and artefact identity; **`MaturityCard`** (this pattern) carries evidence‑aware maturity; **`SoS‑LOG.Rule`** (this pattern) is an executable rule schema; evaluating a rule returns one of `{Admit | Degrade(mode) | Abstain}` for a `(TaskSignature, MethodFamily)` pair. A qualifying description episteme uses `…Description`; `…Spec` names that same episteme only after the E.10.D2 specification-use gate grants the named use.
 
 #### C.23:4.2 - Rule schema (normative)
@@ -91,7 +90,7 @@ with the following **branch obligations**:
 
 **R8 — Telemetry and refresh hooks.** When an active QD or open-ended generator branch records an illumination increase or changes its search archive, publish the current editions and actual edition increments of the definitions on which the changed use depends. For QD, these include its characteristic space, descriptor map, distance, insertion and emitter policies under R0.QD and C.22. For open-ended generation, retain **`TransferRulesRef.edition`** and the applicable validity and telemetry policy ids; add QD definitions only when that branch uses QD. A separate illumination report retains the measurement basis required by C.17:5.1. Ordinary retention of selection evidence follows its own retention and source references; it does not require QD definitions. Expose **PathSliceId** for refresh or decay in SCR only when an E.18 path slice is current.
 
-> *Aphorism.* **“Admit on admissibility and sufficiency; degrade on uncertainty; abstain on inadmissibility.”**
+> Admit on the complete R1 basis. Degrade only through a declared narrower-use branch after its prerequisites pass. Abstain when a prerequisite fails or the policy supplies no permitted branch.
 
 ##### C.23:4.2.1 - Report the branch actually reached
 
@@ -121,10 +120,10 @@ When a maturity judgement is established for an admission use, publish or cite i
 * **L0 — Anecdotal.** Claims exist; lanes sparse; examples ad‑hoc.
 * **L1 — Worked‑Examples.** Multiple **worked examples** with lane tags and **Scope slices** declared; *no replication yet*.
 * **L2 — Replicated.** Independent replications identify their distinct bearers or operating conditions and declare the claim scope and selected slices, source and method editions, and qualification windows used; lane separation is observed and decay windows are explicit.
-* **L3 — Benchmark‑Severe.** Repeated wins or parity on **community baselines** or **severe tests**; cross‑Tradition bridges declared with **loss notes**.
+* **L3 — Benchmark‑Severe.** Repeated wins or parity on **community baselines** or **severe tests**. Declare any F.9 Bridge on which this comparison relies, with its loss notes.
 
 *Optional rung (for QD/OEE‑heavy families; ordinal, closed enum):*
-* **L4 — QD‑Hardened.** Archive stability under declared **InsertionPolicy/DistanceDef** editions; reproducible **IlluminationSummary** improvements under controlled budgets; OEE generators pass **EnvironmentValidityRegion** severe tests.
+* **L4 — QD‑Hardened.** For an active QD use, establish archive stability under the declared **InsertionPolicy/DistanceDef** editions and reproducible **IlluminationSummary** improvements under controlled budgets. For an OEE generator, establish severe tests of its **EnvironmentValidityRegion**. An OEE use without QD does not acquire QD archive or illumination requirements; retain the exact branch and evidence behind the rung.
 
 **Norms.**
 **M1.** The ladder is **lane‑aware** (TA/VA/LA) and **freshness‑aware**; it is **not** a global numeric score. Declare **Scale kind=ordinal** and the **closed enumeration** of rungs; register the enum at **UTS** (twin labels; editioned).
@@ -138,7 +137,7 @@ When a maturity judgement is established for an admission use, publish or cite i
 
 **U1. (LEX).** Enumerations for `Degrade(mode)` and Maturity rungs **MUST** be declared as **closed value sets** and **registered at UTS** (twin labels). **Lexical SD** (**E.10**) applies.
 **U2.** A live S2 characteristic or predicate admits `unknown` only when its C.22 value rule permits it; `unknown` **MUST** map to a branch (`Degrade` or `Abstain`) declared on the **family** (no coercions). Each branch publishes a **branch‑id** and (where used) a `mode` from a **closed enum** registered at **UTS** (LEX enum clarity).
-**U3.** `ShiftClass` semantics follow **C.22**. If `ShiftClass ∈ {covariate‑shift, concept‑drift, adversarial}` or `unknown`, default outcome is `Degrade(scope‑narrow)` unless a CAL.AcceptanceClause explicitly guards the regime.
+**U3.** `ShiftClass` semantics follow **C.22**. For a known `ShiftClass ∈ {covariate‑shift, concept‑drift, adversarial}`, the default is `Degrade(scope‑narrow)` unless a CAL.AcceptanceClause explicitly guards the regime. A live `unknown` follows U2 and its declared Degrade or Abstain branch. All these branches remain subject to R0, applicable R0.QD and R2/R3.
 
 #### C.23:4.5 - Publication & wiring
 

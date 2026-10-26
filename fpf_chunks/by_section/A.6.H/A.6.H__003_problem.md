@@ -6,15 +6,16 @@ section_id: "A.6.H:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:2 — Problem"
-line_start: 25454
-line_end: 25469
+line_start: 25007
+line_end: 25022
 dependencies:
   - "A.1"
   - "A.10"
+  - "A.13"
   - "A.14"
   - "A.15"
   - "A.15.1"
@@ -39,6 +40,7 @@ dependencies:
   - "C.29"
   - "E.17"
   - "E.24.PUB"
+  - "F.6"
 keywords:
   - "boundary"
   - "completeness"

@@ -6,12 +6,12 @@ section_id: "C.31:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:1 — Problem frame"
-line_start: 75141
-line_end: 75174
+line_start: 74086
+line_end: 74119
 dependencies:
   - "A.10"
   - "A.17"
@@ -47,7 +47,7 @@ keywords:
 
 Use this pattern when modularity or reusable-structure language is doing work in an architecture discussion and the practitioner needs to know which few characteristics matter, what repair follows, and whether any measurement or comparison is admissible.
 
-The first useful move is deliberately small:
+First identify the few characteristics that matter to the architecture question, the observed difficulty and any needed repair. An adequate ordinary account can finish; `ModularityVectorLite` offers a compact way to retain it:
 
 ```text
 ModularityVectorLite:
@@ -63,17 +63,17 @@ ModularityVectorLite:
   observedProblem:
   repairDirection:
   relatedClaimPatternLocatorsIfClaimed:
-  nonAdmissibleOverread:
+  nonAdmissibleOverread?:
   stopCondition:
 ```
 
-Start with recognition, at most three characteristics under evaluation, the observed problem, and a repair direction. A report-only proxy is an admissible stop when no beyond-local-repair use is being made.
+For the first diagnostic move, select at most three characteristics and connect them to the observed problem and any warranted repair. This limits the first inquiry, not the eventual analysis. A clearly bounded report-only proxy can be a sufficient result.
 
-Claim-use boundary: comparison, publication, evidence, assurance, gate, decision, benchmark, causal-use, cross-case reuse, selection, procurement, and architecture scale-preference are beyond-local-repair uses in C.31. Add their fields only when that use is being made and recoverable by value and the subject pattern can be named.
+Claim-use boundary: before relying on a characteristic for comparison, causal explanation, assurance, selection or another further use, establish the grounds required by that claim. Making a qualified local account available to an audience preserves its limits; publication alone does not turn it into a measurement or a selection result. Add only the information on which the receiving use depends.
 
 What goes wrong if C.31 is missed: "modular" becomes a binary label; a single modularity score hides incompatible characteristics; interface publication is confused with substitutability; internal cohesion is improved while evidence reuse gets worse; bespoke residue moves from templates into work or assurance; and complexity language becomes a commensurable score without a declared characteristic, scale, measurement basis, comparison basis, or admissible-use boundary.
 
-What C.31 buys in practice: the practitioner can see which modularity characteristic changes the next architecture use, which false use is blocked, which repair is plausible, and which exact subject assertion and defining or constraining ClaimGraph are needed for measurement, evidence, causal, scale, selection, or accounting claims.
+What C.31 buys in practice: the practitioner can choose the modularity characteristic that matters, identify a warranted repair, and determine what further measurement, evidence, causal, scale, selection or accounting grounds the intended use requires.
 
 Not this pattern when the question under repair is only source-label recovery, module-interface relation repair, reusable-structure accounting, general measurement admissibility, quality-family claim, architecture scale-preference claim, mathematical-lens use, candidate architecture synthesis, or selection. Use `C.30.STRAT`, `A.6.M`, `C.31.RSA`, `C.16`, `C.25`, `C.31.ASAP`, `C.29`, `C.32`, `G.5`, or `C.11` as appropriate: `C.32` governs candidate architecture synthesis, `G.5` selected-set result declaration, and `C.11` local choice.
 

@@ -6,24 +6,19 @@ section_id: "C.18.1:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__015_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:13 — Relations"
-line_start: 61413
-line_end: 61425
+line_start: 60388
+line_end: 60400
 dependencies:
-  - "A.10"
-  - "A.15.1"
-  - "A.15.2"
-  - "B.1.6"
   - "C.16"
   - "C.17"
   - "C.18"
   - "C.19"
   - "C.24"
   - "G.10"
-  - "G.11"
   - "G.5"
   - "G.9"
 keywords:
@@ -55,7 +50,7 @@ keywords:
 - Non-admissible use: more scale does not by itself establish linear improvement, and a scale word does not create a C.27 rate-change claim by itself.
 - Neighboring-pattern use: if comparison or benchmark use is current, cite G.9 for parity; if linear improvement is merely assumed, name the scale variable and scale window or state the improvement claim as an assumption.
 
-**Builds on:** C.16/17/18. **Coordinates with:** C.19 (lenses/policies), **G.5** (set‑returning selector), **G.9** (parity; **ParetoOnly** default; UNM/NormalizationMethod‑based mapping), **G.10** (shipping).
+**Builds on:** C.16/17/18. **Coordinates with:** C.19 (lenses/policies), **G.5** (set‑returning selector), **G.9** (parity; **ParetoOnly** default; UNM/NormalizationMethod‑based mapping), **G.10** (shipping). Use C.24 when the scale claim concerns agent/tool budgets or freedom of action.
 
-> *Pedagogical cue.* **Say what you would scale, probe at least two scale points, and use the slope‑class to steer.**
+> *Pedagogical cue.* **Say what is scaled, use the probe basis and steer only by the behavior it supports.**
 

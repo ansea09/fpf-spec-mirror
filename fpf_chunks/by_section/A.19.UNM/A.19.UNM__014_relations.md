@@ -6,12 +6,12 @@ section_id: "A.19.UNM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__014_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:12 — Relations"
-line_start: 38296
-line_end: 38314
+line_start: 37540
+line_end: 37558
 dependencies:
 keywords:
   - "CV→NCV"
@@ -30,7 +30,7 @@ keywords:
 **Builds on / cites**
 - `E.8` (pattern template)
 - `E.20` (governing-pattern discipline for mechanism‑intension content)
-- `A.15.2` for the edition/reference baseline; `A.15.3` only for typed planned filling of an independently declared position
+- `A.15.2` for the edition/reference baseline on a P2W path; `A.15.3` only for typed planned filling of an independently declared position
 - `F.18` (alias docking / token continuity, when renaming or retiring legacy UNM tokens)
 - `A.6.1` (U.Mechanism shape; specialization discipline)
 - `A.19.CHR` (CHR suite boundary; slot lexicon; suite protocols)

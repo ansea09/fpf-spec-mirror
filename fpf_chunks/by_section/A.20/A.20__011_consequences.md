@@ -6,12 +6,12 @@ section_id: "A.20:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.20 — Constraint Validity for Transformation Steps"
   - "A.20:9 — Consequences"
-line_start: 40301
-line_end: 40304
+line_start: 39485
+line_end: 39488
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,5 +31,5 @@ keywords:
 
 ### A.20:9 - Consequences
 
-The result is smaller and more reusable. A missing check can no longer disappear as success, and a gate can retain useful independent findings even after one internal failure. The cost is that a consequence-bearing use must name its required constraint set and cannot hide policy inside A.20 status words.
+The result retains the local finding and its reuse conditions. The summary rule prevents a missing required check from counting as success; a gate can retain useful independent findings even after one internal failure. The cost is that a consequence-bearing use must name its required constraint set and cannot hide policy inside A.20 status words.
 

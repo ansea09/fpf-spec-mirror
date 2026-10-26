@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__007_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:5 — Archetypal Grounding"
-line_start: 11824
-line_end: 11867
+line_start: 11702
+line_end: 11745
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -53,14 +53,14 @@ The receiving-use check asks the reader to recover that calculation and return f
 
 A stakeholder map can keep the same boxes and labels while the way of constructing and using it changes. In this constructed case, an admitted contact-planning Method includes people who hold the approval or supply roles needed to arrange a rollout. A proposed child account instead asks whether a new shift-handover routine covers the work of the people who produce and use the handover information. Its author cannot explain that change merely by adding "be inclusive" to the old instruction.
 
-The receiving use is a facilitator's preparation of a handover review. Available inputs are the proposed routine, the two-shift role roster, the information each role supplies or needs, and the known limits of those accounts. The author writes the proposed instruction:
+The receiving use is a facilitator's preparation of a handover review. Available inputs are the proposed routine, the two-shift role roster, the information each role's holders supply or need, and the known limits of those accounts. The author writes the proposed instruction:
 
-1. Start from the handover information that must reach the next shift and identify the roles that produce or use it. Include a role because of that working dependency, even when its holder has little influence over rollout approval. Use actual supplied facts; mark an uncertain dependency for clarification.
-2. For each included role, obtain an account of the information needed, the action it enables and a relevant missing-information case. Distinguish what a participant or work record actually supplies from the facilitator's assumption. A manager's approval does not supply another role's working account by itself.
+1. Start from the handover information that must reach the next shift and identify the roles whose holders produce or use it in their work. Include a role because of that working dependency, even when its holder has little influence over rollout approval. Use actual supplied facts; mark an uncertain dependency for clarification.
+2. For each included role, obtain an account of the information its holders need, the action that information enables and a relevant missing-information case. Distinguish what a participant or work record actually supplies from the facilitator's assumption. A manager's approval does not supply another role's working account by itself.
 3. Relate those needs to the proposed routine. Show which handover action supplies each needed result and which dependency remains uncovered or unknown. Influence can help arrange contact; it does not remove a required receiving role from this check.
 4. Return the map with the supported coverage and the particular missing account or handover contribution. Stop a claim of complete coverage when a material dependency remains unresolved. The result can guide a correction or a bounded trial; it does not itself authorize rollout or show that the routine works.
 
-For a small replay, suppose a day lead approves the trial, an IT maintainer supplies the display, and a night operator uses unresolved-item flags to resume work. The approval-contact map may correctly contain the first two roles. The proposed method also includes the night operator because the operator consumes a result needed for the handover. If the routine supplies a flag but no next action, the map exposes that missing contribution. If a relief operator's information need is unknown, add that unresolved dependency rather than treating a full roster of names as complete coverage.
+For a small worked case, suppose a day lead approves the trial, an IT maintainer supplies the display, and a night operator uses unresolved-item flags to resume work. The approval-contact map may correctly contain the first two roles. The proposed method also includes the night operator because the operator consumes a result needed for the handover. If the routine supplies a flag but no next action, the map exposes that missing contribution. If a relief operator's information need is unknown, add that unresolved dependency rather than treating a full roster of names as complete coverage.
 
-The explanation now makes the changed judgment recoverable: inclusion follows a working dependency, and completion requires an account of its contribution. The canvas may remain unchanged, but the operation, required evidence and stop differ. This is proposed reusable content, so retain candidate status and use A.3.1.MV:5.2 for its derivation and evidence boundaries. The replay checks whether the explanation supplies the intended distinctions; it is not a field validation of the proposed method.
+The explanation now makes the changed judgment recoverable: inclusion follows a working dependency, and completion requires an account of its contribution. The canvas may remain unchanged, but the operation, required evidence and stop differ. This is proposed reusable content, so retain candidate status and use A.3.1.MV:5.2 for its derivation and evidence boundaries. The worked case checks whether the explanation supplies the intended distinctions; it is not a field validation of the proposed method.
 

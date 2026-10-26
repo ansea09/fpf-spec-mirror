@@ -6,12 +6,12 @@ section_id: "C.19:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__008_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:6 — Bias-Annotation"
-line_start: 61776
-line_end: 61779
+line_start: 60745
+line_end: 60748
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -53,5 +53,5 @@ keywords:
 
 ### C.19:6 - Bias-Annotation
 
-No global scalarisation of partial orders; ordinal scales excluded from arithmetic; all selections record lens id and policy id; notation and tool neutrality.
+Keep partial orders unless the applicable policy justifies scalarization. Apply only operations supported by each Scale; an ordinal value supplies no interval or ratio arithmetic. Preserve lens and policy identity for selections, independently of notation or tool.
 

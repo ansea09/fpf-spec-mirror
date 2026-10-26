@@ -6,12 +6,12 @@ section_id: "C.2.1:9"
 section_title: "Archetypal Grounding — Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__010_archetypal-grounding-worked-cases.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:9 — Archetypal Grounding — Worked Cases"
-line_start: 51745
-line_end: 51806
+line_start: 50910
+line_end: 50971
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -58,7 +58,7 @@ These cases ground the pattern in practice; only a case that names an obtaining 
 
 #### C.2.1:9.1 - Physical engineering
 
-A pump-maintenance specification has a claim graph about exact pump `P` under a reference scheme that resolves part names, states, units, and measurement procedures. Those three participants identify the episteme. For test bench `B`, exact covered claim subgraph `C_B` contains the discharge-pressure-tolerance and leakage claims. Its claim-to-world mapping names the direct pressure-measurement and leakage-inspection relations involving `B`; a maintenance-interval claim outside `C_B` is not grounded by those measurements. The grounding relation over `(E,B)`, with `covered=C_B`, continues for the maximal interval during which every required mapping obtains. If that coverage continues while an evidence archive or inspection-work log becomes unavailable, only a separately governed support, warrant, confidence, or evidence-use assertion may change. A publication occurrence makes the episteme available through a rendered checklist form borne by an exact carrier. When checklist marks assert particular maintenance or inspection Work, use :4.0's Work branch; assignment attribution is added only when the checklist account requires it. A separately current assertion that `P` satisfies the constructive `U.System` criterion is another episteme about `P`; renaming or republishing the governing FPF pattern does not change `P` or create its systemhood.
+A pump-maintenance specification has a claim graph about exact pump `P` under a reference scheme that resolves part names, states, units, and measurement procedures. Those three participants identify the episteme. For test bench `B`, exact covered claim subgraph `C_B` contains the discharge-pressure-tolerance and leakage claims. Its claim-to-world mapping names the direct pressure-measurement and leakage-inspection relations involving `B`; a maintenance-interval claim outside `C_B` is not grounded by those measurements. The grounding relation over `(E,B)`, with `covered=C_B`, continues for the maximal interval during which every required mapping obtains. If that coverage continues while an evidence archive or inspection-work log becomes unavailable, only a separately governed support, warrant, confidence, or evidence-use assertion may change. A publication occurrence makes the episteme available through a rendered checklist form borne by an exact carrier. When checklist marks assert particular maintenance or inspection Work, use :4.0's Work branch; assignment attribution is added only when the checklist account requires it. When a receiving use needs a separate assertion that `P` satisfies the constructive `U.System` criterion, identify it as another episteme about `P`; renaming or republishing the governing FPF pattern does not change `P` or create its systemhood.
 
 The classification assertion changes only when its own claim content or reference scheme changes. Pump continuity is judged instead under the `A.1` reidentification rule; a changed or unchanged assertion does not establish that continuity.
 

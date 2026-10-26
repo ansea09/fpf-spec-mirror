@@ -6,12 +6,12 @@ section_id: "C.40.OI:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:1 — Problem Frame"
-line_start: 85791
-line_end: 85809
+line_start: 84611
+line_end: 84629
 dependencies:
   - "A.15.9"
   - "B.5.PI"
@@ -25,7 +25,7 @@ keywords:
 
 ### C.40.OI:1 - Problem Frame
 
-What is the smallest useful inquiry when someone says “we should develop,” names a fashionable solution, or asks what to develop next before the receiving change is clear?
+What inquiry is worth conducting when someone says “we should develop,” names a fashionable solution, or asks what to develop next before the receiving change is clear?
 
 Use this pattern when a person, organization, community, AI arrangement, platform, facility, research programme, or another identified subject has a development concern or aspiration but the receiving use, horizon, protected conditions, reason to explore, or affordable inquiry effort is still loose. The first useful result is a bounded inquiry that another person can inspect, or one exact missing premise that prevents such an inquiry.
 

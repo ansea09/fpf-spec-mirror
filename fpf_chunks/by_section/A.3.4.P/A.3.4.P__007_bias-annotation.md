@@ -6,12 +6,12 @@ section_id: "A.3.4.P:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__007_bias-annotation.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:6 — Bias-Annotation"
-line_start: 13515
-line_end: 13525
+line_start: 13354
+line_end: 13357
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -58,12 +58,5 @@ keywords:
 
 ### A.3.4.P:6 - Bias-Annotation
 
-
-This pattern intentionally biases toward kind recovery before wording repair. It resists:
-
-- **source-label ontology:** familiar labels such as pipeline, process, network, circuit, or workflow become FPF kinds;
-- **graph or path overread:** graph path, evidence path, and carrier path become action route, evidence sufficiency, assurance, deontic permission, work authorization, release authorization, or work sequence;
-- **function collapse:** functioning, functional element, module allocation, mathematical function, software routine, and everyday purpose collapse into one "function";
-- **semio displacement:** descriptions and publications of transformations replace the transformation under concern;
-- **neighboring-object fusion:** wording is used to infer a Method, mechanism, Work occurrence, System, influence source, or evidence record and then to treat it as the transformation, its actor, or a transformation participant before its direct kind and relation are recovered. Actor recovery follows A.3.4.P:4.4.
+Familiar domain words can bias kind selection before the actual claim is recovered. The refrigeration and attention examples show why the same label may describe a structure, mechanism or action. Start from the sentence’s participants and predicate, and retain an already adequate ordinary domain expression.
 

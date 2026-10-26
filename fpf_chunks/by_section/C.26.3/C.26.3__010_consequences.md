@@ -6,12 +6,12 @@ section_id: "C.26.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:9 — Consequences"
-line_start: 66948
-line_end: 66953
+line_start: 65921
+line_end: 65926
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,7 @@ keywords:
 
 ### C.26.3:9 - Consequences
 
-This pattern helps architects see stability-through-change. It supports decisions about candidate interventions only after each throttling, staffing, routing, protocol, context-boundary, cache, measurement, or escalation proposal is recovered as its exact Method, description, setting proposal, WorkPlan, access or permission claim, or Bridge proposal or description, while any dated Work, actual transformation or other change, obtaining relation occurrence, and resulting state remain separately grounded.
+The envelope account makes trade-offs visible: preserving one characteristic can violate a constraint supplied by another claim. It supports a diagnosis, or comparison of independently identified proposals, while the direct subject patterns continue to govern the proposed objects and any actual changes.
 
 The cost is that simple metric stories become less simple. That is acceptable when the metric story hides another envelope dimension, an intervention cost, a boundary condition, or a failure mode.
 

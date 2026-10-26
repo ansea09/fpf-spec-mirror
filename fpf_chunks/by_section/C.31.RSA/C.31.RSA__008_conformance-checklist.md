@@ -6,12 +6,12 @@ section_id: "C.31.RSA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:7 — Conformance Checklist"
-line_start: 75831
-line_end: 75847
+line_start: 74762
+line_end: 74778
 dependencies:
   - "A.10"
   - "A.19"
@@ -42,8 +42,8 @@ keywords:
 
 | ID | Check |
 | --- | --- |
-| `CC-C31.RSA-1` | The text starts from `ReusableStructureTriage` unless an accounting basis and structure refs are already named. |
-| `CC-C31.RSA-2` | Any accounting description names `accountingBasisRef`, `structureRefs`, `structuralAspectRefs`, reusable slots, bespoke residue slots, residual uncertainty slots, admissible use, and non-admissible use. |
+| `CC-C31.RSA-1` | The account identifies reusable and bespoke loci and the intended use. Reuse an adequate account; triage and full-description forms are optional. |
+| `CC-C31.RSA-2` | An accounting description identifies its structures, aspects, accounting rule, reuse, residue and relevant uncertainty. It states the bounded use and any action-changing restriction. Numeric shares retain the counting and scale basis in section 4.3. |
 | `CC-C31.RSA-3` | Report-only shares are marked report-only unless every outside-RSA use being made and named in the claim-use boundary meets the conditions defined by its applicable pattern. |
 | `CC-C31.RSA-4` | No text treats RSA as proof of modularity, quality, or any outside-RSA use named in the claim-use boundary. |
 | `CC-C31.RSA-5` | Heterogeneous slot labels are not summed unless a declared accounting basis and aggregation rule make the operation admissible. |
@@ -51,7 +51,7 @@ keywords:
 | `CC-C31.RSA-7` | For an evidence-validity claim, use `A.10` to recover its source-to-use basis and `G.6` when a citable provenance path is needed; use `B.3` for an assurance claim, including one about safety-case support. |
 | `CC-C31.RSA-8` | RSA does not duplicate the C.31 characteristic taxonomy; it uses C.31 only when a modularity characteristic under evaluation, such as bespoke residue, evidence reuse, or residual uncertainty, must govern the accounting interpretation. |
 | `CC-C31.RSA-9` | Source-return condition is present when accounting hides action-relevant source distinctions. |
-| `CC-C31.RSA-10` | Outside-RSA comparison, ranking, selection, gate use, or decision use names comparator admission named by value such as `CG-Spec`, `ComparatorSetRef`, or a comparator-governing reference named by value; otherwise the RSA share remains report-only. |
+| `CC-C31.RSA-10` | Comparison or ranking uses aligned accounting bases and the applicable comparator. A gate or decision requires that comparator only when its own rule relies on the comparison; other missing grounds block only the dependent use. |
 | `CC-C31.RSA-11` | The RSA note names reopen or lowering conditions for source distinction change, accounting-basis change, structure-edition change, implicit-interface change, comparator change, evidence or assurance decay, downstream reliance, repeated bounded exception, and reuse move side effects when those conditions are needed for the record. |
-| `CC-C31.RSA-12` | Source labels such as block, layer, expert, cache, router, gate, or pruning mask use `C.30.STRAT` before they become `structureRefs`, `structuralAspectRefs`, accounting-basis fields, repair actions, or source-return conditions. |
+| `CC-C31.RSA-12` | Preserve clear source meanings; use C.30.STRAT when unresolved stratification or structure meaning changes the accounting use. |
 

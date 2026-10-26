@@ -6,12 +6,12 @@ section_id: "C.22.2:15"
 section_title: "SoTA Decision-Use Source Material"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__016_sota-decision-use-source-material.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:15 — SoTA Decision-Use Source Material"
-line_start: 64111
-line_end: 64138
+line_start: 63085
+line_end: 63110
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,13 +66,11 @@ The following external anchors are adopted or adapted only where they change thi
 | Strategic problem framing distinguishes symptoms and attention allocation from causal problem formulation. | 2025 Organization Science article "Looking at the Trees to See the Forest: Construal Level Shift in Strategic Problem Framing and Formulation", DOI suffix `2024.19134`, `https://doi.org/10.1287/orsc.2024.19134` | Motivates the fields for problem signal, problem hypothesis/cause-theory cue, and improvement check. | Adapted; causal claims still apply `C.28` plus evidence, provenance, or assurance patterns when current. |
 | QD and OEE work motivates collections, fronts, archive retention, set-return, and non-single-winner treatment. | 2026 survey "A survey on Quality-Diversity optimization: Approaches, applications, and challenges", `https://www.sciencedirect.com/science/article/pii/S2210650225003979`; QD-as-MOO reference `https://arxiv.org/abs/2602.00478` | Motivates set-source-reference and Goldilocks docking into current `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. | Adopted as field and relation cue; no local QD or OEE vocabulary or scalar readiness score is introduced. |
 | Open-ended coding agents use archives, self-improvement, problem variants, evaluator feedback, and stepping-stone retention. | Darwin Godel Machine `https://arxiv.org/abs/2505.22954`, FrontierSmith `https://arxiv.org/abs/2605.14445`, and AlphaEvolve `https://arxiv.org/abs/2506.13131` | Contributes record-form, set-source reference, Goldilocks, safe-probe, and freshness fields and relation references for archive, problem generation, safe probes, evaluator feedback, no-change and abstain dispositions, and autonomy and evidence boundaries. | Adapted as recent trend cue; `C.22.2` is not turned into AI-agent doctrine or an AI-agent management pattern. |
-| External AI-agent and autonomy practice more often makes evidence, log, gate, autonomy-budget, and update-discipline claims current. | Presented material plus current FPF autonomy, evidence, and gate patterns | Motivates subject-pattern assignment for validation, AI-agent cues, and safe probing. | Non-FPF-governed for the center of `C.22.2`; FPF-governed content remains with `E.16`, `A.21`, `A.10`, `G.6`, `B.3`, `A.15`, and `G.11`. |
+| Agentic action can require independent authorization and evidence. | FPF `E.16`, `A.21`, `A.10`, `G.6`, `B.3`, `A.15` and `G.11` | Keeps the problem-side cue distinct from the applicable autonomy, gate, Work and reliance claims. | Use the governing pattern only when that claim is current; a generated draft or tool trace supplies no missing authorization. |
 
 If a `C.22.2` use carries a wider external claim than these dispositions, the claim is outside this pattern and requires a separate content decision or demotion to a non-FPF-governed example.
 
-Each FPF-governed SoTA use is recovered as a local test: source idea, FPF invariant, practitioner check, and popular shortcut rejected. A source citation without that local test is not enough to carry pattern use.
-
-Local SoTA-to-action tests:
+The following questions connect the source contributions to decisions in the card. Use the row whose distinction is current:
 
 | Source or relation cue | Popular shortcut rejected | Required local result | Reopen condition |
 |---|---|---|---|

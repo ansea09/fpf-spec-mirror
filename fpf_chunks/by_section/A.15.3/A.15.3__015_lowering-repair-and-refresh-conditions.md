@@ -6,12 +6,12 @@ section_id: "A.15.3:12b"
 section_title: "Lowering, repair, and refresh conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__015_lowering-repair-and-refresh-conditions.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:12b — Lowering, repair, and refresh conditions"
-line_start: 30548
-line_end: 30555
+line_start: 30109
+line_end: 30117
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -41,9 +41,10 @@ keywords:
 
 ### A.15.3:12b - Lowering, repair, and refresh conditions
 
-Use ordinary A.15.2 plan content when no reusable declaration member is needed. For typed use, name any missing or unresolved planning information, including the intended-performance designator, declaration edition or member designator; an operation argument or result also requires its operation designator. Recover that information so the row identifies the intended use and resolves to an existing declaration member. Return `missing-governor` only when the needed member or its defining pattern does not exist, or the member's meaning, designation rule, cardinality, or actual-use predicate has not been defined. Do not replace that blocker with a generic slot-bearing description.
+Use ordinary A.15.2 plan content when no reusable declaration member is needed. For typed use, name any missing or unresolved planning information, including the intended-performance designator, declaration episteme or member designator; an operation argument or result also requires its operation designator. Recover that information so the row identifies the intended use and resolves to an existing declaration member. Return `missing-governor` only when the needed member or its defining pattern does not exist, or the member's meaning, designation rule, cardinality, or actual-use predicate has not been defined. Do not replace that blocker with a generic slot-bearing description.
 
 State prohibitions, exclusions, required absence, and completeness under their plan-constraint or negative-claim patterns instead of using omission or an empty filler. A later missing-filler, substitution, or variance result needs a comparison policy whose closure or negative criterion applies to the case facts.
 
-Revise the WorkPlan ClaimGraph when the target member, planned value, intended-performance designator, condition, or relied-on declaration edition changes. If a C.2.1 identity discriminator changes, identify another WorkPlan episteme and relate it to the earlier one only when `EpistemeEditionRelation` obtains. Preserve the earlier WorkPlan reference already cited by work or another actual use. Refresh only a declaration, reference resolution, policy, or WorkPlan episteme whose changed resolution would alter the later decision; re-evaluate an actual-use change under its relation predicate or A.6.1 application predicate.
+Revise the WorkPlan ClaimGraph when the target member, planned value, intended-performance designator, condition, or relied-on declaration episteme changes. If a C.2.1 identity discriminator changes, identify another WorkPlan episteme and relate it to the earlier one only when `EpistemeEditionRelation` obtains. Preserve the earlier WorkPlan reference already cited by work or another actual use. Refresh only a declaration, reference resolution, policy, or WorkPlan episteme whose changed resolution would alter the later decision; re-evaluate an actual-use change under its relation predicate or A.6.1 application predicate.
+
 

@@ -6,12 +6,12 @@ section_id: "A.6.A:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:9 — Consequences"
-line_start: 22596
-line_end: 22607
+line_start: 22200
+line_end: 22211
 dependencies:
   - "A.15"
   - "A.16"
@@ -58,5 +58,5 @@ It also complements C.16.Q cleanly: C.16.Q repairs **evaluative** ambiguity, whi
 **Trade-offs and mitigations.**
 The pattern adds authoring overhead and can feel heavy in early exploration.
 
-Mitigation: allow bare action-first language in Plain exploratory notes, but require repair before it enters Tech prose, normative prose, boundary, automation, assurance, or publication use.
+Mitigation: retain a sufficient ordinary sentence, including in technical and normative prose. Expand it when unresolved meaning would change the boundary, automation, assurance or publication use; formal vocabulary alone does not settle that question.
 

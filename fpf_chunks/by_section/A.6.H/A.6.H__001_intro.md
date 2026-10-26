@@ -6,15 +6,16 @@ section_id: "A.6.H:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:intro — Intro"
-line_start: 25419
-line_end: 25436
+line_start: 24972
+line_end: 24989
 dependencies:
   - "A.1"
   - "A.10"
+  - "A.13"
   - "A.14"
   - "A.15"
   - "A.15.1"
@@ -39,6 +40,7 @@ dependencies:
   - "C.29"
   - "E.17"
   - "E.24.PUB"
+  - "F.6"
 keywords:
   - "boundary"
   - "completeness"
@@ -72,5 +74,5 @@ keywords:
 
 **What this buys.** A short identity-first repair from overloaded prose to one or more direct claims with exact participants and, when needed, PatternID locators for their definitions or tests—or to an explicit blocker when a needed predicate is absent.
 
-**What changes in practice.** The practitioner writes the few direct sentences the next decision consumes: which entity, which relation and participants, which rule defines or tests that claim, and which stronger inference remains blocked.
+**What changes in practice.** The practitioner writes the few direct sentences the next decision consumes: which entity, which relation and participants, and which rule defines or tests the claim. Add a blocked-inference guard only when its rejected reading has an independent local ground, is plausible for the intended reader, and changes truth, understanding or use; use the smallest clear correction under F.19.
 

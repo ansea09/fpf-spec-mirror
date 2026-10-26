@@ -1,0 +1,81 @@
+---
+chunk_kind: "child"
+pattern_id: "A.2.6"
+pattern_title: "Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
+section_id: "A.2.6:19"
+section_title: "Annexes (informative)"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.2.6/A.2.6__020_annexes-informative.md"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+heading_path:
+  - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
+  - "A.2.6:19 — Annexes (informative)"
+line_start: 7312
+line_end: 7358
+dependencies:
+  - "A.1.1"
+  - "A.15.1"
+  - "A.2.2"
+  - "A.22"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.7"
+  - "C.2.1"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.29"
+  - "C.3"
+  - "E.24.UK"
+  - "F.9"
+keywords:
+  - "& guard style)"
+  - "alone"
+---
+
+### A.2.6:19 - Annexes (informative)
+
+#### A.2.6:19.1 - Source wording -> USM dictionary
+
+| Source wording                      | USM term                                                 |
+| ----------------------------------- | -------------------------------------------------------- |
+| applicability (of a claim)          | **Claim scope (G)**                                      |
+| envelope (of a requirement/spec)    | **Claim scope**                                          |
+| generality G                        | **Claim scope (G)**                                      |
+| capability envelope                 | **Work scope**                                           |
+| validity (when it denotes a scope condition) | **Claim scope** or **Work scope**, according to the receiving use |
+| operational applicability           | **Work scope**                                           |
+| publication or view applicability      | **Publication scope**                                    |
+
+Interpret these source terms in their own use. In a guard or conformance claim, identify the exact FPF scope kind and membership predicate.
+
+#### A.2.6:19.2 - Minimal data model hints
+
+**ContextSlice tuple (suggested keys):**
+`effectiveReferenceScheme`, one exact `declaredSelectorSchema`, the values of every selector in that schema, and optional selector families such as `exactLocalSenseRefs`, `standardOrInterfaceEditions`, `environmentOrPlatformSelectors`, `cohortOrJurisdictionSelectors`, and `gammaTime` when that selector belongs to the declared schema. A scope predicate declares which projection it inspects; it does not define the tuple's identity.
+
+**Claim-scope predicate block:**
+`assumptions`, `cohorts`, `platformOrStandardEditions`, `environmentSelectors`, `exactLocalSenseRefs?`, and `gammaTime?` when time changes membership.
+
+**Work-scope predicate block:**
+`environmentSelectors`, `platformOrStandardEditions`, `resourceRegimeSelectors`, `exactLocalSenseRefs?`, and `gammaTime?` when time changes membership.
+
+**Publication-scope predicate block:**
+the exact audience, interface, availability, and other selectors that restrict publication use, always as a subset of the underlying claim or work scopes.
+
+**Separate use-time guard:**
+work-measure targets, qualification windows, evidence freshness, and any decision threshold. These are not fields of the scope value.
+*(These are informative; the spec does not mandate a concrete serialization.)*
+
+#### A.2.6:19.3 - Pseudocode membership evaluation (illustrative)
+
+```python
+def evaluate_membership(scope, target_slice, interpretation_basis):
+    required = scope.required_inputs(target_slice)
+    if not interpretation_basis.resolves_all(required):
+        return UNKNOWN
+    resolved_inputs = interpretation_basis.resolve(required)
+    return TRUE if scope.predicate(target_slice, resolved_inputs) else FALSE
+```
+
+`required_inputs` identifies the selector resolutions and any translation inputs needed by this scope predicate under the bound `interpretationBasis`. `resolves_all` requires resolved values, not merely available keys or selector tokens; a present but unresolved rig token therefore yields `UNKNOWN`. The full slice remains bound as `targetSlice`; only the needed resolutions are supplied to predicate evaluation. `UNKNOWN` belongs to the evaluation result because a required input is unavailable. The underlying membership predicate remains bivalent for an exact, fully interpreted scope and slice.
+

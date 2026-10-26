@@ -6,16 +6,19 @@ section_id: "A.7.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__007_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:5 — Archetypal Grounding"
-line_start: 26202
-line_end: 26209
+line_start: 25753
+line_end: 25760
 dependencies:
+  - "A.11"
   - "A.7"
+  - "A.7.1"
   - "A.7.2"
   - "A.7.CP"
+  - "A.8"
   - "C.19.2"
   - "E.24"
   - "E.24.UK"
@@ -34,5 +37,5 @@ keywords:
 
 **Missing telemetry non-use.** A team cannot determine pump state because telemetry was never collected. State kinds, evidence relations, and candidate actions are already clear. The result is `returnToDirectOwner` for measurement and evidence work with the blocked state claim; no premise-use occurrence or ontology artifact is minted.
 
-**Construction-changing case.** A maintenance set uses “part” both for an item that belongs under the set's own rule and for `ComponentOf`. Removing the item changes the construction only in the `ComponentOf` case. Apply `C.13` to the disputed item's construction, repair the maintenance claim, and leave unrelated belongs-to claims unchanged.
+**Construction-changing case.** A maintenance account uses “part” both for an item belonging to inventory collection R and for a component installed in pump P. Suppose R's membership rule includes exactly items with an active inventory entry. Closing that entry ends belonging to R; it does not by itself remove the installed component. Physical removal changes ComponentOf only under the direct A.14/subject predicate and case facts. If one item participates in both relations, test each separately. Use C.13 when the decision also needs the resulting construction account. Repair the maintenance claim to name the actual change and preserve any unaffected relation.
 

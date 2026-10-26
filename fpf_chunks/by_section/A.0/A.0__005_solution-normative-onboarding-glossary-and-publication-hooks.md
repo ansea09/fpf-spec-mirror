@@ -6,7 +6,7 @@ section_id: "A.0:4"
 section_title: "Solution - Normative onboarding glossary and publication hooks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__005_solution-normative-onboarding-glossary-and-publication-hooks.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:4 — Solution - Normative onboarding glossary and publication hooks"
@@ -73,7 +73,7 @@ keywords:
 | **BLP (Bitter‑Lesson Preference)** | A preference supported by a comparable, uncertainty-qualified scale comparison; begin with a **cheap scale-claim probe**. **No scale claim yet** or **no scale-based preference** are valid results. A local generality policy is a separate declared basis. | C.19.1, C.24 |
 | **Iso‑Scale Parity**  | *Fair comparison across candidates at equalised **scale budgets** along S*; may also include **scale‑probes** (two points) to test elasticity.                                                         | G.9, C.18.1  |
 
-*(Registers & forbidden forms per **LEX‑BUNDLE**; avoid “axis/dimension/validity/process” for measurement and scope.)*
+*(Use **LEX‑BUNDLE** for the applicable measurement and scope terminology.)*
 
 
 
@@ -86,7 +86,7 @@ keywords:
 
 
 
-#### A.0:4.3 - Minimal first-day construction
+#### A.0:4.3 - Putting the glossary to use
 
 1) Declare **CG‑Frame** (what “quality” means; admissible units and scales) and **ReferencePlane**.
 2) Choose the **Q components** and **DescriptorMap** coordinates needed by the intended operation; retain their meanings and applicable **editions**.

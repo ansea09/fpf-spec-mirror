@@ -6,12 +6,12 @@ section_id: "A.10.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:4 — Solution"
-line_start: 27399
-line_end: 27538
+line_start: 26959
+line_end: 27098
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -33,18 +33,18 @@ Use the outline in 4.1 to locate the current move; sections 4.2–4.7 give its c
 1. **Start from the changed source, not a presumed receiver.** Name the predecessor and later or replacement source epistemes, the claim set whose change may matter, and the present question that bounds the search. Leave source identity, edition continuity, access, or applicability unresolved when the required fact is missing.
 2. **Compare claims rather than files.** Separate changes in proposition, subject, scope, applicability, assumptions, limits, evidence status, and effective conditions from wording, layout, publication, carrier, and revision-label changes. If comparison establishes compatible meaning, applicability and access, finish with any needed reference repair. If comparison cannot establish them, return the material gap; neither branch requires a multi-use search merely to record its stop.
 3. **Select a receiving-use search frame.** Use the search-frame fields in 4.3 to state where a receiving use would count for the present question.
-4. **State reproducible discovery coverage.** Name the exact source identifiers, claim addresses and aliases used; the included search surfaces; the source-outward and receiver-oriented routes; and every unsearched, inaccessible, stale, unindexed, or identity-ambiguous surface.
+4. **State reproducible discovery coverage.** Name the source identifiers, aliases and claim addresses actually needed; the included search surfaces; the source-outward and receiver-oriented routes; and each known unsearched, inaccessible, stale, unindexed or identity-ambiguous surface within the frame.
 5. **Discover and then name candidate receiving uses.** Use search, citations, lineage, traces, indexes, owner knowledge, or tools to find candidates. Inspect the receiving content and recover the exact premise, evidence-use, operation-argument, specification, decision-basis, or other direct relation. Discovery alone establishes no reliance.
 6. **Classify and bound reach.** Distinguish actual dependence, irrelevant mentions and unresolved uses within the searched frame. Group equivalent irrelevant mentions when one inspected reason covers them. Retain the direct-use basis and gaps that can change the receiving conclusion, without a separate exclusion record for each mention. Follow a `depends` branch only through another exact use relation while a receiving action can change. Supply the discovery-and-reach content needed by each subject judgment.
 7. **Apply the direct subject pattern's guidance.** Use the discovery-and-reach statement to apply that guidance to the changed claim, exact direct use, current conditions, affected reach, coverage limits, and material subject facts. The practitioner or admitted System carrying out that application may find that the proposed dependence must be narrowed or rejected or that stronger evidence is required. Use adequate existing evidence and return the supported subject result or its scoped blocker directly to its existing consumers. Further inquiry is selected for the receiving question; a discovery gap alone does not commission Work.
 8. **Supply a common account when a receiver needs it.** A sufficient direct subject result can finish the use. If another receiving question needs an overview, cite the independently governed results and summarize only the consequences it needs. That summary neither replaces those results nor changes `A.10 RelianceDisposition`.
 9. **Stop at the completed receiving answer.** Apply the branch conditions in 4.7. Preserve the coverage and direct-use basis needed for the conclusion actually returned, including material gaps. Name a next actor or reopen observation when the receiving use needs that continuation. An unresolved independent branch need not delay a completed one.
 
-This numbered presentation is an `A.22.CGUS` learning unfolding, not a lifecycle and not a mandatory sequence of `U.Work`. Discovery, source recovery, subject inquiry, and communication may overlap. Only the information dependencies in the move impose order.
+The numbered outline presents the information dependencies of the Method. Discovery, source recovery, subject inquiry and communication may overlap; the numbering alone establishes neither a lifecycle nor a sequence of dated Work. An A.22.CGUS claim additionally requires its independently identified structure and admission conditions.
 
 #### A.10.1:4.2 - Compare the Source at Claim Size
 
-Recover each source as a `C.2.1` episteme: a claim-bearing informational object, not its file or display. Name the predecessor and later or replacement episteme, their relevant claim addresses, subjects, interpretation bases, effective conditions, and edition relation when that relation is established.
+Recover each source as a C.2.1 claim-bearing episteme, separately from its file or display. Name the predecessor and later or replacement episteme, relevant claim content, subjects, interpretation bases and effective conditions. Use claim addresses when needed and uniquely resolved; include an edition relation only when established.
 
 Treat a difference as material here only when it can alter a receiving action or result. Useful comparison dimensions are:
 
@@ -76,10 +76,10 @@ These fields apply when affected-use discovery is selected. Set the frame before
 
 Coverage is adequate only relative to that frame. Use complementary routes:
 
-- **Source-outward discovery** starts from exact source identifiers, claim addresses, aliases, citations, backlinks, provenance, data or model lineage, declared traces, and transformations.
+- **Source-outward discovery** starts from source identifiers, aliases, citations, backlinks, provenance, data or model lineage, declared traces and transformations, using claim addresses where they help locate the relevant content.
 - **Receiver-oriented discovery** inspects the included receiving families for the same or an equivalent premise, limit, parameter, assumption, evidence use, or decision basis, even when the source identifier is absent.
 
-One justified complete index may cover both directions. Otherwise state both routes and their limits. For every surface, record the query or inspection basis, the source identifiers and aliases used, the date or source value inspected when it matters, and the result or gap. An unsearched, inaccessible, stale, unindexed, or identity-ambiguous surface is a discovery-coverage gap. Outside the covered surface, a use is `not found`, not established unaffected.
+One justified complete index may cover both directions. Otherwise state both routes and their limits. For every surface, record the query or inspection basis, the source identifiers and aliases used, the date or source value inspected when it matters, and the result or gap. An unsearched, inaccessible, stale, unindexed, or identity-ambiguous surface is a discovery-coverage gap. For an uninspected surface, use occurrence remains unknown; absence from the returned search results establishes neither no use nor no impact.
 
 #### A.10.1:4.4 - Confirm Direct Reliance Before Following Reach
 
@@ -122,7 +122,7 @@ Discovery and reach classification prepare the branch for subject judgment. A pr
 | Assurance | `B.3`, only when an actual named assurance claim is current |
 | Authority, responsibility, commitment, permission, gate, or release | The direct authority, commitment, permission, gate, or release pattern |
 | Currentness and refresh planning | `G.11` |
-| Planned or performed Work and actual bindings | `A.15.2` for the applicable `U.WorkPlan` and `PlanItem` structure; `A.13` and `A.15.1` for precise performers and independently admitted dated Work; `A.6.1` for actual bindings |
+| Planned or performed Work and actual bindings | `A.15.2` for a current WorkPlan/PlanItem question; `A.13` and independent `A.15.1` for a deliberately asserted dated Work; `F.6` only for precise assignment-bound attribution; `A.6.1` for actual operation bindings |
 | FPF pattern-edition continuity | `E.15` |
 
 A practitioner or admitted System may, by applying the direct subject rule or test, narrow or reject the proposed affected reach. Keep the independently obtained result on its existing direct route: the engineering source-change result governed by `SYSE.19` goes to `SYSE.14`; revision feedback governed by `FIN.17` goes to `FIN.4`; and the assumption-impact result governed by `STR.2` goes to `STR.3` and `STR.4`.
@@ -133,7 +133,7 @@ When a common account is needed, it cites independently governed subject results
 
 #### A.10.1:4.6 - Complete the Affected-Use Revalidation Account
 
-Prepare a common account only when a receiving question needs an overview beyond the sufficient direct results. Cite each independently governed result used by that overview. A repaired reference or a direct subject result can close its own question without this account. When durability or reliance requires an episteme, ordinary `C.2.1` content is sufficient.
+Prepare a common account only when a receiving question needs an overview beyond the sufficient direct results. Cite each independently governed result used by that overview. A repaired reference or direct subject result can close its own question without this account. Identify the account episteme under C.2.1 when that identity matters; preserving it durably is a separate choice.
 
 | Account position | Content when needed for this receiving question |
 | --- | --- |
@@ -147,7 +147,7 @@ Prepare a common account only when a receiving question needs an overview beyond
 
 `Preserved`, `narrowed`, `reopened`, `superseded`, `reliance withdrawn`, and `blocked` are local prose summaries, not a universal status vocabulary. When they summarize subject judgments, they require those judgments' basis. They replace neither `RelianceDisposition` nor assurance, permission, authority, release or decision.
 
-Keep earlier source editions and prior results recoverable for their original uses and conditions. A later source does not rewrite what an earlier source meant. Reuse a prior result only when its conclusion and conditions remain current and the changed claim lies outside its actual dependency.
+Keep earlier source editions and prior results recoverable for their original uses and conditions. A later source does not rewrite what an earlier source meant. Reuse a result directly when its conclusion and conditions remain applicable and the changed content lies outside its consumed basis. If a consumed premise changed, recheck the affected condition or step under the subject rule; retain the result when that check still justifies it, with the updated basis. Unaffected work need not be repeated.
 
 #### A.10.1:4.7 - Stop, Return Gaps, and Reopen Locally
 

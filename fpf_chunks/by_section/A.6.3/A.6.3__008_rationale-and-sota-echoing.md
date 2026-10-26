@@ -6,12 +6,12 @@ section_id: "A.6.3:7"
 section_title: "Rationale and SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__008_rationale-and-sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:7 — Rationale and SoTA-Echoing"
-line_start: 17905
-line_end: 17913
+line_start: 17584
+line_end: 17592
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -32,10 +32,10 @@ keywords:
 
 ### A.6.3:7 - Rationale and SoTA-Echoing
 
-| Source or practice line | Adopted move | Rejected overread | Practical effect |
+| Source or practice line | Contribution | Boundary | Practical effect |
 |---|---|---|---|
-| Lenses, optics, and compositional transformation research | Use identity, composition, conservativity, and explicit loss as checks over episteme-to-episteme construction. | The mathematical construction does not itself establish that a direct world-side relation obtains. | Viewing arrows can be composed and replayed while operation applications, Work occurrences, and world-side relations remain separately governed. |
-| Bidirectional transformation and model-synchronization practice | Make cross-model correspondence dependencies explicit and test path agreement. | A generic correspondence record or graph edge does not establish correspondence. | Coverage and consistency viewing declarations cite exact source relations, so broken dependencies can be repaired locally. |
+| Lenses, optics and compositional transformation research | Supply identity and composition structures; the selected viewing family adds its stated conservativity and loss conditions. | A mathematical construction does not itself establish that a world-side relation obtains. | Viewing arrows can be composed while operation applications, Work occurrences and world-side relations remain separately governed. |
+| Bidirectional transformation and model-synchronization practice | Make cross-model correspondence dependencies explicit and test path agreement. | A record or graph must carry the required correspondence claims and grounds; its presence alone is insufficient. | Coverage and consistency viewing declarations cite their source relations, so broken dependencies can be repaired locally. |
 | Model-based view-as-query practice | Treat query and projection as common construction routes. | Query execution does not establish E.17.0 conformance. | Generated and directly authored epistemes meet the same independent E.17.0 membership rule. |
 | FPF C.2.1 and E.17.0 architecture | Keep episteme identity, viewing construction, conformance, evaluation, work, production, and publication separate. | — | The next engineering action can rely on the exact relation it actually needs. |
 

@@ -6,12 +6,12 @@ section_id: "C.38:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:4 — Solution"
-line_start: 82641
-line_end: 82699
+line_start: 81465
+line_end: 81523
 dependencies:
   - "A.10"
   - "A.15.9"
@@ -40,8 +40,8 @@ Fix one result, receiving use, situation, horizon, and acceptance basis. Constru
 3. **Construct at least two materially different complete ways.** Use labels only as prompts. For each surviving way, describe the relevant proposed or already-available Agents, Work, Methods, Systems, values, provision or access relations, enabling branches, and conditions through which the same result could become available. Mark every decision-bearing premise as supported now, proposed, or unknown. Merge labels that resolve to the same decision-changing contents; split ways under one label when a content difference can change the choice. If no second way can be supported, return the missing-alternative or search gap rather than fabricating a peer. When the gap is an unexplained obtaining operation, use `C.39` for a candidate explanation or the precise unresolved contribution. Its sufficient-one-way result does not complete this comparison.
 4. **Use one decision-changing parity basis.** Ask the same bounded questions of every way: result and availability condition; performers, Work, Methods, and means; production, transfer, provision, access, custody, or ownership; fit, interfaces, integration, and configuration; evidence, uncertainty, and assurance; support, maintenance, change, exit, and recovery; capability consequences; resources; and consequences for affected Systems. Omit a group only when it cannot change this choice. Keep a decision-reversing unknown as a visible gap.
 5. **Restore comparability without forcing totality.** Keep the result, receiving use, acceptance conditions, situation, configuration boundary, evidence horizon, and burden categories shared. Use ordinary comparison when the ordering is direct. Use `A.19.CPM` and `A.19.SelectorMechanism` only when evidence gates, partial orders, incomparability, abstention, or set-valued retention matter. Do not hide protected conditions inside an unexplained score.
-6. **Freeze and hand off a finite option set.** Put only complete-enough whole ways into the current `OptionSet`, with gaps that the chooser can see. Then apply `C.11` for local choice. Its result may choose one way or a retained tie-set, reject the current set, probe again, or reroute. `C.38` does not choose by implication and does not gain the chooser's authority.
-7. **Name the truthful continuation and reopen.** For a retained way, identify the first unsupported realization branch or the direct pattern that now owns the question. Reopen only when a changed result identity, use, acceptance basis, candidate, specialist result, capability, interface, evidence item, burden, support condition, affected-System consequence, exit condition, or observation can change the comparison or choice.
+6. **Freeze and hand off a finite option set.** Put only complete-enough whole ways into the current `OptionSet`, with gaps that the chooser can see. When local choice is current, apply `C.11`. Its result may choose one way or a retained tie-set, reject the current set, probe again, or reroute. `C.38` does not choose by implication and does not gain the chooser's authority.
+7. **Name the truthful continuation and reopen.** For a retained way, identify the first unsupported realization branch, if any, or the direct Method that can now proceed. Reopen only when a changed result identity, use, acceptance basis, candidate, specialist result, capability, interface, evidence item, burden, support condition, affected-System consequence, exit condition, or observation can change the comparison or choice.
 
 #### C.38:4.2 - Use a proportional parity view
 
@@ -75,9 +75,9 @@ The result is a comparison claim, not an obtaining arrangement in the world. It 
 
 #### C.38:4.4 - Retain the comparison without duplication
 
-Use the least burdensome way to keep the comparison recoverable:
+An immediate sufficient comparison can finish without a new record. When later use needs its basis retained, use the least burdensome arrangement:
 
-1. If a domain result already carries the complete same-use comparison and declares this specialization, keep it there rather than producing a second account.
+1. If a domain result already carries the complete same-use comparison, keep it there rather than producing a second account.
 2. Otherwise retain one ordinary `C.2.1` episteme about the one result-obtaining comparison, with a truthful EntityOfConcern and effective reference scheme.
 3. If a direct domain Method already returns the complete useful comparison more cheaply, use that Method and do not add a `C.38` account.
 

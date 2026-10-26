@@ -6,12 +6,12 @@ section_id: "A.7:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__003_intent.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:1 — Intent"
-line_start: 25764
-line_end: 25774
+line_start: 25317
+line_end: 25327
 dependencies:
   - "A.1"
   - "A.10"
@@ -46,9 +46,9 @@ keywords:
 
 ### A.7:1 - Intent
 
-Provide a **single, didactically clear lattice of distinctions** for recognizing and correcting category errors. The pattern addresses four recurrent confusions:
+Use the following distinctions to recognize and correct category errors. The pattern develops four recurrent confusion families:
 
-1. **System-role kind vs function** (classification vs behaviour),
+1. **System-role kind vs function-like wording** (classification versus the actual functional, behavioural or other claim),
 2. **MethodDescription vs Method vs Capability vs Work** (description vs abstract way-of-doing vs system ability/envelope vs performed occurrence),
 3. **Holon vs System vs Episteme** (what can act and what cannot),
 4. **EntityOfConcern vs Description episteme, View, and Publication** (the item under concern vs epistemes and publication relation positions that make it available; specification is a gated use or refinement of a Description episteme, not a third peer member of this distinction).

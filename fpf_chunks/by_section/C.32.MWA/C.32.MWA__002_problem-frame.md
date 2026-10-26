@@ -6,13 +6,14 @@ section_id: "C.32.MWA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:1 — Problem frame"
-line_start: 78796
-line_end: 78823
+line_start: 77668
+line_end: 77695
 dependencies:
+  - "A.13"
   - "A.15.1"
   - "A.22"
   - "A.3.1"
@@ -48,7 +49,7 @@ The primary working reader is an architect, methodologist, practice designer, or
 
 **What goes wrong if missed.** A source layout is mistaken for the arrangement it describes. A list becomes levels, a procedure becomes a hierarchy, overlapping activities become a sequence, a model becomes the thing modeled, or a future design acquires fictitious performed Work. A local repair may also look successful only because its unresolved burden moved to another structure or scope.
 
-**What this buys in practice.** The reader gets a short, usable account of the selected Methods and their use, structures and relations, their correspondences, the main conflict or moved burden, and the alternative that changes the current decision. The account can remain ordinary prose; a table or symbolic form is optional assurance.
+**What this buys in practice.** The reader gets a short, usable account of the selected Methods and their use, structures and relations, their correspondences, the main conflict or moved burden, and the alternative that changes the current decision. The account can remain ordinary prose; use a table or symbolic form when it helps express or check the relations.
 
 **Not this pattern when.**
 
@@ -58,7 +59,7 @@ The primary working reader is an architect, methodologist, practice designer, or
 - Do not use this pattern for one clear Method decomposition, one procedure order, a carrier index, a universal level stack, a mandatory record schema, domain filling, product-roster generation, or lifecycle design.
 - A practitioner can use this Method to prepare evidence for a framework or project decision. Making that decision, establishing a product, publishing a description, or putting a proposed organization of Method use into effect remains separate work.
 
-For the smaller question of what encompassing work is being done through one current action, start with **B.1.5.EW**. It can expose a missing constituent or a changed condition without requiring this full synthesis. Use **B.1.5.RS** when the difficulty is preserving encompassing uses while replacing one constituent. Return here when the answer depends on several structures that do not correspond one-for-one.
+Use an adequate existing account directly when it answers the question under the present conditions. For the smaller question of what encompassing work is being done through one current action, start with **B.1.5.EW**. It can expose a missing constituent or a changed condition without requiring this full synthesis. Use **B.1.5.RS** when the difficulty is preserving encompassing uses while replacing one constituent. Return here when the answer depends on several structures that do not correspond one-for-one.
 
 The result is an **architecture synthesis for Methods and their use**: a readable account connecting the selected Methods, Work and other identified objects through the relations relevant to one architecture question, with their consequences for the decision. The account describes how these objects fit together; whether any Methods form a composite Method remains a separate claim under B.1.5.
 

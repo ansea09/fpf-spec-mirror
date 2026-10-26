@@ -6,12 +6,12 @@ section_id: "A.7.CP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__014_relations.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:12 — Relations"
-line_start: 26673
-line_end: 26680
+line_start: 26219
+line_end: 26226
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -28,8 +28,8 @@ keywords:
 ### A.7.CP:12 - Relations
 
 - **Defines:** the twelve `A7CP-*` constructive claim contents and `ClaimUsedAsReasoningBasisRelation@Context`, whose direct result-specific edge states that dated reasoning work used one exact basis claim to form or revise one exact receiving result episteme.
-- **Is consumed by:** dated Work applying the Methods described by `A.7.1` or `A.7.2`, which cites exact compact claims and exposes relation occurrences only for load-bearing actual reliance. The A.7.1 and A.7.2 `U.MethodDescription` epistemes may separately declare premises or branch conditions for their described Methods; neither MethodDescription nor Method is a participant of `ClaimUsedAsReasoningBasisRelation@Context`.
-- **Coordinates with:** current `A.7` for its existing strict distinctions without broadening its EntityOfConcern, first move, Solution, or cases.
-- **Preserves subject patternship in:** `A.10` and `G.11` for evidence/currentness, `E.24`/`E.24.UK` for ontology admission, subject construction patterns for constructive settlement, and `A.7.2` for ontology source-use relations.
+- **Is consumed by:** dated Work applying the Methods described by `A.7.1` or `A.7.2`, which cites compact claims and exposes relation occurrences only for load-bearing actual reliance. Their procedural epistemes may separately declare premises or branch conditions; any MethodDescription membership satisfies A.3.2. Neither a MethodDescription nor a Method is a participant of `ClaimUsedAsReasoningBasisRelation@Context`.
+- **Coordinates with:** `A.7` for the object and relation distinctions needed by the receiving claim.
+- **Retains subject rules:** `A.10` and `G.11` govern evidence/currentness; `E.24`/`E.24.UK` govern applicable pattern/U-kind admissions; subject construction patterns govern constructive settlement; `A.7.2` governs ontology source-use relations.
 - **Does not define:** a premise method, source authority, evidence relation, work plan, performer kind, common realism checklist, or universal foundation ontology.
 

@@ -6,12 +6,12 @@ section_id: "A.15.4:2"
 section_title: "Problem - Cluster Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__003_problem-cluster-boundary.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:2 — Problem - Cluster Boundary"
-line_start: 30634
-line_end: 30637
+line_start: 30196
+line_end: 30199
 dependencies:
   - "A.10"
   - "A.13"

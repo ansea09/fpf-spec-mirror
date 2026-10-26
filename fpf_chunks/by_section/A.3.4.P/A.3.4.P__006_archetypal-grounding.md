@@ -6,12 +6,12 @@ section_id: "A.3.4.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:5 — Archetypal Grounding"
-line_start: 13469
-line_end: 13514
+line_start: 13311
+line_end: 13353
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -68,7 +68,7 @@ Repair: recover whether the current claim is a refrigerator subsystem transforma
 
 Source wording says: "The attention block transforms activations in the model pipeline."
 
-Repair: the block may be an architecture locus or module allocation. Test any actor claim through the relevant branch below. If dated inference Work is claimed, recover each precise performer's A.13 core and independently admit the Work under A.15.1; add F.6 only when precise assignment-bound attribution is current, and state the separate Work-to-activation relation required by the use. If a non-Work block action is claimed, recover the exact operation-application, functioning, causal, or other direct actor-side relation; otherwise leave action unresolved. A design organization, Method or Method family, toolchain, or communication System that shaped the block first keeps its exact kind and then only its exact architecture, Work, communication, constraint, or candidate-synthesis relation. Activation and tensor-shape claims use exact participant, port, operation-application, or signature relations; an episteme describing an admitted attention Method may be a MethodDescription under A.3.2; C.29 governs any separately selected mathematical-lens use. The pipeline may be a transformation-flow structure. Use the applicable evidence or evaluation pattern when relying on a benchmark or ablation result.
+Repair: the block may be an architecture locus or module allocation. For a claimed action, apply the dated-Work or non-Work test in 4.4 and establish any Work-to-activation relation required by the use. A design organization, Method, toolchain or communication System that influenced the block keeps its own kind and influence relation. Activation and tensor-shape claims use their participant, port, operation-application or signature relations. An episteme describing an admitted attention Method may be a MethodDescription under A.3.2; C.29 governs a mathematical-representation use when one is made. The pipeline may be a transformation-flow structure. Use the applicable evidence or evaluation pattern when relying on a benchmark or ablation result.
 
 #### A.3.4.P:5.3 - CRISPR editing workflow
 
@@ -89,15 +89,12 @@ TransformationWordingRepair:
   EncounteredWording: "the refrigeration circuit moves heat through the cycle"
   WorkingConcern: recover whether the sentence is about one bounded heat-transfer change, a selected compound transformation-flow structure, a thermodynamic mechanism, a functional architecture view, or a schematic publication.
   RecoveredEntityOfConcern: `RefrigeratorHeatTransferFlowStructure-1`, the exact selected `TransformationFlowStructure` over the compressor, condenser, expansion, and evaporator transformation loci.
-  ActualTransformationDisposition: no actual bounded transformation is recovered; the current object is the selected `RefrigeratorHeatTransferFlowStructure-1`.
-  TransformationOccurrenceBasis: no component transformation occurrence is asserted.
-  ActingSystemDisposition: unresolved and not asserted.
-  ArchitectureInfluenceDisposition: no influence claim is current and no influence source is selected.
-  NeighboringClaimAndExactRelation: the four named loci are positions in `RefrigeratorHeatTransferFlowStructure-1`; their bindings to actual transformation occurrences remain unresolved under `E.18` and `A.3.4`. Thermodynamic-law material, functional view, and schematic publication remain unselected neighboring candidates.
-  GoverningPattern: `E.18` governs `RefrigeratorHeatTransferFlowStructure-1`; `A.3.4` governs each component transformation only after its occurrence basis is recovered; mechanism, architecture-view, and publication patterns open only if one of those candidate objects becomes current.
+  ActualTransformationDisposition: no actual occurrence claim is made; the current object is the selected `RefrigeratorHeatTransferFlowStructure-1`.
+  NeighboringClaimAndExactRelation: the four named loci are positions in `RefrigeratorHeatTransferFlowStructure-1`; bindings to actual transformation occurrences have not been established.
+  GoverningPattern: `E.18` governs `RefrigeratorHeatTransferFlowStructure-1`; use `A.3.4` when a claim about an actual component occurrence needs its basis established.
   RetainedUse: "circuit" may remain ordinary domain wording for `RefrigeratorHeatTransferFlowStructure-1` after that exact selected structure is named.
-  StopOrReturnCondition: keep the current use on `RefrigeratorHeatTransferFlowStructure-1`; return to A.3.4 only for a component with a recovered occurrence basis, and route any other stronger claim to its direct pattern.
-  RemainingReaderUse: use `E.18` for `RefrigeratorHeatTransferFlowStructure-1`; open `A.3.4` only for a component whose exact occurrence basis is recovered, or the direct mechanism, architecture-view, or publication pattern only when that separate object becomes current.
+  StopOrReturnCondition: use the selected structure; a later claim about an actual occurrence needs the A.3.4 occurrence basis and remains unresolved while that basis is missing.
+  RemainingReaderUse: use `E.18` for `RefrigeratorHeatTransferFlowStructure-1`; open the applicable subject pattern when an additional claim is needed.
 ```
 
 One rewritten sentence for this selected structure is: “RefrigeratorHeatTransferFlowStructure-1 has four positions: compressor, condenser, expansion and evaporator.”

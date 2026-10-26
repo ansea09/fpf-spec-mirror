@@ -6,12 +6,12 @@ section_id: "C.33:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:1 — Problem frame"
-line_start: 80799
-line_end: 80864
+line_start: 79634
+line_end: 79699
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -68,9 +68,9 @@ Typical entry phrases:
 "The operation observation shows the real system diverged; what actual structure is visible enough to return to synthesis?"
 ```
 
-The first useful output is `StructuralInformationAdequacyNote@Context`. It is a project-side adequacy note for one declared architecture use. It is not a C.16 characteristic, not a measurement, not an evidence record, not an assurance result, not a project decision, and not an architecture description by itself.
+The first useful result states which captured structure supports the intended architecture use and which missing structure would limit it. An ordinary explanation can suffice; `StructuralInformationAdequacyNote@Context` is an optional working form. A measurement, assurance conclusion, project decision or architecture description has its own requirements. If an existing account already answers the question for this use, use it directly.
 
-For the first pass, fill only the fields that prevent the next wrong use:
+When the structured form helps, include the values needed for the intended use:
 
 ```text
 StructuralInformationAdequacyNote@Context:
@@ -89,7 +89,7 @@ StructuralInformationAdequacyNote@Context:
   realizedStructureObservationRefs?:
   capturedSelectedStructure:
   expectedButUncapturedStructureHypothesis?:
-  lostOrHiddenStructure:
+  lostOrHiddenStructure?:
   compressionOrAbstractionMode?:
   observerOrBudgetBoundary?:
   relationObservationClass?:
@@ -98,19 +98,19 @@ StructuralInformationAdequacyNote@Context:
   sourceLabelRecoveryRef?:
   mathematicalLensUseOutputRef?:
   measurementOrEvalRefs?:
-  adequacyEvidenceRefs:
+  adequacyEvidenceRefs?:
   admissibleUse:
-  nonAdmissibleUse:
-  missingStructureReturnCondition:
+  nonAdmissibleUse?:
+  missingStructureReturnCondition?:
   nextClaimOrRuleRef?:
-  receivingClaimKind:
+  receivingClaimKind?:
 ```
 
-Adoption test: after using C.33, another practitioner can tell what selected structure is captured, what structure is expected but not captured, what is lost or hidden, what use is admissible, which non-admissible uses are blocked, and which practical claim, question, rule, or test comes next. Record a stable reference only when that next use must travel independently.
+After using C.33, another practitioner can recover the captured structure and the use it supports. State missing structure, excluded uses and the question or test needed to recover it when they affect that use or a plausible continuation. Record a stable reference only when that next use must travel independently.
 
 What C.33 buys in practice: the practitioner can use a partial carrier without pretending it is complete. The pattern turns "this diagram, ADR, graph, report, or observation is useful" into a reviewable statement about captured structure, missing structure, missing-structure return, and the next claim or test that needs that structure.
 
-Ordinary working move: underline the carrier sentence, diagram, graph edge set, or observation being relied on; write what selected structure it captures; write what it leaves out; then name the use that remains admissible.
+Ordinary working move: identify the sentence, diagram, graph edges or observation being relied on; explain the structure it captures and any omission that matters; then state the use it supports.
 
 For a reader-relative comparison of structural amount in an expressed account, use `C.2.8` with the relevant preparation, access and budget. State a qualitative comparison directly in the note, or cite an existing measurement or evaluation through `measurementOrEvalRefs?` when that separate result is needed. Then judge whether the captured structure is sufficient for the declared architecture use. The note retains its capture-and-return purpose when it uses a characteristic result.
 

@@ -6,12 +6,12 @@ section_id: "C.3.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__002_use-this-when.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:0 — Use This When"
-line_start: 55258
-line_end: 55271
+line_start: 54395
+line_end: 54408
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -39,5 +39,5 @@ Use this pattern when repeated typed reasoning needs one explicit kind criterion
 
 **First useful move.** Write the readable result first: `Pump #14 counts as a cooling pump in this plant slice because it satisfies the declared cooling-pump condition.` Before evaluating, confirm that a pump candidate and this slice are within the declaration's candidate domain and applicability. Cite support only when the receiving use relies on it; create a reusable signature or extension only for repeated or set-consuming use.
 
-**Not this pattern when.** Use the direct subject pattern to establish the candidate and the exact quality, relation, episteme, status, publication occurrence, or other condition named by the criterion; A.14 for membership in a collection; C.3.3 for a claimed correspondence between distinct kinds; C.29 for a claim-bearing mathematical representation; and `E.24.UK` for admission of another durable public kind.
+**Not this pattern when.** Use the direct subject pattern to establish the candidate and the exact quality, relation, episteme, status, publication occurrence, or other condition named by the criterion; A.14 for membership in a collection; C.3.3 for a claimed correspondence between distinct kinds; C.29 for a separate mathematical representation or transfer question; and `E.24.UK` for admission of another durable public kind.
 

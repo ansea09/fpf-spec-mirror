@@ -6,12 +6,12 @@ section_id: "A.15.2:2"
 section_title: "Problem (what breaks without WorkPlan)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__003_problem-what-breaks-without-workplan.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:2 — Problem (what breaks without WorkPlan)"
-line_start: 29979
-line_end: 29986
+line_start: 29536
+line_end: 29543
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,9 +58,9 @@ keywords:
 
 ### A.15.2:2 - Problem (what breaks without `WorkPlan`)
 
-1. **“Workflow = schedule” conflation.** Flowcharts or code are used as calendars; resource clashes and SLA misses follow.
+1. **“Workflow = schedule” conflation.** A way-of-doing description is used to answer a scheduling question while time, performer or resource constraints remain unstated.
 2. **Plan and occurrence blur.** Gantt bars or Kanban tickets are reported as if the work already happened; audits and costing degrade.
-3. **Specification and time leakage.** People and calendars creep into MethodDescriptions; reuse and staffing agility collapse.
-4. **No variance model.** Without planned baselines, planned-versus-actual deviations in time, cost, and quality cannot be explained or improved.
-5. **Structure entanglement.** BoM and org charts get baked into “process” views; plans become brittle and unmaintainable.
+3. **Specification and time leakage.** A reusable MethodDescription embeds one staffing or calendar choice without distinguishing it from the Method's required conditions.
+4. **Missing comparison basis.** Without the planned baseline and applicable comparison rule, a later time, cost or quality difference cannot be classified as plan variance.
+5. **Structure entanglement.** Equipment or organization structure is copied into a plan without stating which structural relation constrains the intended Work.
 

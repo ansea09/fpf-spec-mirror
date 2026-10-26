@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__011_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:9 — Consequences"
-line_start: 10305
-line_end: 10310
+line_start: 10221
+line_end: 10226
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"
@@ -27,5 +27,5 @@ keywords:
 
 Weak subjects fail early, promising accounts remain usable without ontological promotion, and local handoffs become inspectable. Architecture comparison is smaller because it receives only retained subjects and unresolved combined questions.
 
-The cost is refusal to publish one convenient compatibility score. A project may receive several qualified individual results and still have no acceptable synthesis.
+The cost is keeping the different conditions visible even when a project needs one overall choice. Several qualified individual results may still leave no acceptable synthesis.
 

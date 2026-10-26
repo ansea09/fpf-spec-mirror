@@ -6,12 +6,12 @@ section_id: "A.15.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:4 — Solution"
-line_start: 31095
-line_end: 31168
+line_start: 30651
+line_end: 30724
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,17 +47,17 @@ keywords:
 
 ### A.15.5:4 - Solution
 
-Represent readiness as one domain-local result claim about exact plan content, not as a root U-kind, imported management object, generic container, or default relation occurrence. When persistence matters, C.2.1 identifies the result episteme; A.15.5 supplies the readiness-specific criterion and result-value semantics only.
+State readiness as a domain-local result about the identified plan content. When the result needs its own reference, identify its C.2.1 episteme; retain a durable representation when later access requires it. A.15.5 supplies the readiness criterion and value semantics, not another root kind or default relation occurrence.
 
-**E.24.UK settlement.** This pattern introduces no root `U.Readiness`, root `U.Move`, imported TameFlow `MOVE` kind, `FullKitCondition` object, independent readiness entity, or default readiness relation. Exact plans, plan components, methods, performed Work, resources, assignments, commitments, permission results, gate decisions, evidence, provenance, and assurance retain their subject patterns.
+**Ontology boundary.** Plans, Methods, performed Work and readiness results remain distinct. Full-kit and TameFlow MOVE wording supplies no additional root kind; use the actual plan, input or result needed by the question.
 
 #### A.15.5:4.1 - One work-entry readiness claim
 
 Start with one ordinary sentence:
 
-> At evaluation time T, checking Work W applied criterion C to intended performance I in PlanItem J of WorkPlan P and returned readiness value R for use through window V; stop or recheck when Q occurs.
+> At evaluation time T, criterion C applied to intended performance I in PlanItem J of WorkPlan P yields readiness value R for use through window V; stop or recheck when Q occurs.
 
-`P` is one exact `U.WorkPlan` episteme. `J` and `I` are declaration-local plan content, not existing future entities. `C` is one exact criterion episteme whose applicability to this plan item and evaluation time is current. `W` is one separately identified dated `U.Work` occurrence with its performer system, covering assignment, enacted method, extent, and any actual A.6.1 bindings or direct participants required by the check. `R` is a local `ReadinessResultValue`, not a gate decision, permission, commitment, work occurrence, or universal result kind.
+`P` is a WorkPlan episteme; `J` and `I` are its declaration-local content, not already existing future performances. `C` is the criterion episteme applicable to that item and evaluation time. `R` is one local `ReadinessResultValue`. If the account also identifies a dated checking occurrence W, admit it independently under §4.2's A.13/A.15.1 rule and add F.6 only for a consumed assignment-bound claim. The readiness verdict remains separate from that Work, a gate decision, permission or commitment.
 
 The local value family is:
 
@@ -66,7 +66,7 @@ The local value family is:
 - `notReady` — an applicable failure or closure condition in C is determined for this case; and
 - `unknown` — one required fact, currentness result, predicate, or applicability basis cannot be determined, and no already determined applicable failure or closure condition settles the result as `notReady`. Absence of an assertion or persisted episteme is not by itself `notReady`.
 
-When the answer must persist, one C.2.1 result episteme states this complete local claim. Its exact `EntityOfConcern` is P; its ClaimGraph names J, I, C, W, R, evaluated input facts, evaluation time, V, and the stop or recheck condition under one effective `U.ReferenceScheme`. C.2.1 supplies episteme identity. A.15.5 adds no second readiness identity, independent readiness U-kind, or default readiness relation occurrence. If repeated predicate semantics are needed, use A.6.RCD's reusable-predicate branch; open relation-kind admission only for a named receiver that must distinguish readiness occurrences as such.
+When the result needs a separate identity, its C.2.1 episteme has P as EntityOfConcern and a ClaimGraph stating J, I, C, R, the evaluated facts, evaluation time, reliance window and recheck condition under the effective reference scheme. Include W only when its occurrence is a claimed input. C.2.1 supplies identity. For reusable predicate semantics use A.6.RCD's corresponding branch; open relation-kind admission only when a receiving use needs distinct readiness occurrences.
 
 The result episteme reports the check. It is not performed target work, and the checking Work is not the result. If a current claim says that exact checking or preparation Work first constituted that episteme, recover only that local entity-identity inception claim under A.15.PROD; A.15.5 does not infer or copy it.
 
@@ -84,14 +84,14 @@ Full-kit thinking supplies a recognition palette for inputs; it is not a `FullKi
 1. exact A.15.2 plan content and any A.15.3 planned fillings, with the declaration member and conditions that give each filling meaning;
 2. current information, source-currentness, publication, measurement, evidence, or assurance claims under their subject patterns;
 3. exact resource-availability or reservation claims, intended performer Systems and local system-role-kind conditions, any already obtaining occurrence of an exact directly declared `U.SystemRoleAssignment` species when C requires an assignment, capability threshold or fit result, and exact commitment claims when C uses them; plus any exact current work-in-progress or load and flow-policy claims under the pattern that defines their counted work, boundary, threshold, and qualification window;
-4. separately performed preparation Work and readiness-checking Work, each with its exact performer system, obtaining assignment, enacted method, temporal extent, and actual direct participants or A.6.1 bindings;
+4. preparation or checking results required by C, and separately admitted preparation/checking Work only when its actual occurrence is consumed by the criterion;
 5. exact prospective A.2.8.PER grant, non-prohibition, or conflict facts and their qualification windows when permission is current; and
 6. an exact A.21 `GateDecisionResult` only when a current A.21 profile application governs the declared check applications and their mappings to that decision. The gate decision remains a separate result.
 
 An exact post-launch variance or recheck result may enter only after the target Work is actual and only through the measurement, comparison, evaluation, resource, temporal, acceptance, or other pattern that defines that exact result. Name the target Work, comparison or evaluation rule, local result, qualification window, and subject pattern. It may trigger or inform an explicitly marked recheck; it neither proves that readiness held before entry nor rewrites the earlier readiness result.
 For each input, name the subject pattern, exact proposition or relation occurrence, and the interval or currentness result on which this readiness check relies. A generic input, evidence, context, resource, assignment, or policy reference supplies none of those facts. Omission says only that the current criterion did not consume that input; it does not prove absence.
 
-Full-kit preparation can include gathering information, coordinating intended performer Systems and local system-role-kind conditions, producing a missing source `U.Episteme` or source publication, reserving a resource, pinning a planned filling, or creating shared understanding. Those activities are `U.Work` only when actually performed. The plan can state them before occurrence; the readiness claim may cite them after occurrence; neither object becomes the other.
+Full-kit preparation can include gathering information, coordinating intended performer Systems and local system-role-kind conditions, producing a missing source `U.Episteme` or source publication, reserving a resource, pinning a planned filling, or creating shared understanding. When a dated occurrence is claimed as `U.Work`, actual performance and the admission basis below must be established. Plan the preparation beforehand; cite its actual result or admitted Work only after the corresponding facts are established.
 
 For every cited preparation or readiness-checking Work occurrence, first recover each actual performer's A.13 core for the action and independently admit the exact dated `U.Work` under A.15.1 from its performance history, at least one actual `enactsMethod` relation, temporal extent, and at least one obtaining locally declared containing-system relation. Only when the readiness claim also needs precise assignment-bound attribution, establish F.6 afterward through the same obtaining A.13 assignment and keep its declared species, participants, holder, coverage, and exact Work-assignment link recoverable. Name another enacted Method, boundary, direct participant relation, or A.6.1 binding only when the readiness claim uses it. The system performs the work; an assignment, plan, method description, checklist, criterion, readiness result, evidence path, or dashboard does not. A planned preparation task remains A.15.2 content until the occurrence facts obtain.
 
@@ -111,7 +111,7 @@ Use `A.2.8.PER` when a pre-entry readiness criterion consumes permission materia
 | Planned fillings before work | A.15.3 declaration-local planned-filling content inside the exact `U.WorkPlan`. |
 | Preparation activity that actually happened | `A.15.1 U.Work`. |
 | Target work that actually happened | `A.15.1 U.Work`. |
-| Readiness before work entry | `A.15.5` local result claim, persisted as a C.2.1 episteme when needed. |
+| Readiness before work entry | `A.15.5` local result claim; C.2.1 identifies a result episteme when that content needs its own reference. |
 | Resource budgets or reservations before work | `A.15.2` plan content plus the exact predicate and source for the current resource-availability or reservation claim; A.15.5 cites the current claim only when the criterion consumes it. |
 | Resource consumption by work | `B.1.6` plus `A.15.1`. |
 

@@ -6,12 +6,12 @@ section_id: "C.26.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:1 — Problem frame"
-line_start: 66321
-line_end: 66341
+line_start: 65280
+line_end: 65300
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,6 +53,6 @@ Plain glosses:
 - `collective bearer`: the declared team, organization, service mesh, market slice, or other `U.System` whose coordinated work, behavior, or trace pattern is being read.
 - `coordinated work or behavior`: role-work, service behavior, market participant traces, routine, commitment, artifact use, or coordinated action.
 - `distributed-state reading`: a minimal evidence-bound interpretation of coordinated work or behavior, not a new hidden group entity.
-- `carrier`: a log, trace, artifact, commitment, routine, dashboard, report, API response, or document that grounds but does not equal the state.
+- `carrier`: a log, trace record, dashboard, report, API response or other artifact that makes relevant work inspectable. A commitment, routine or change in work is distinguished from the record or observation used as evidence of it.
 - `faithful-enough export`: a representation good enough for the current decision; when it is not faithful enough, state what was lost and why.
 

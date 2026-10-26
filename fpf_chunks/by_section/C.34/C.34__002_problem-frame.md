@@ -6,12 +6,12 @@ section_id: "C.34:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:1 — Problem frame"
-line_start: 81008
-line_end: 81060
+line_start: 79839
+line_end: 79891
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -61,7 +61,7 @@ Typical entry phrases:
 "The narrative order preserves the architecture trade-off; what selected source structure is still same enough for this use?"
 ```
 
-The first useful output is `StructuralPreservationAdequacyNote@Context`:
+The first useful result explains which correspondence supports the intended architecture use. An ordinary account can suffice; reuse an adequate existing account. `StructuralPreservationAdequacyNote@Context` is an optional working form:
 
 ```text
 StructuralPreservationAdequacyNote@Context:
@@ -74,7 +74,7 @@ StructuralPreservationAdequacyNote@Context:
     nearSameness | declaredOther
   preservedRelationsOrConstraints:
   preservedInvariantsOrCompositions?:
-  lostStructure:
+  lostStructure?:
   relationTypeSemantics?:
   relationObservationClass?:
   directionality:
@@ -83,17 +83,17 @@ StructuralPreservationAdequacyNote@Context:
   correspondenceRecordRef?:
   constraintGovernedUnfoldingStructureRefs?:
   admissibleUse:
-  nonAdmissibleUse:
-  preservationLossReturnCondition:
+  nonAdmissibleUse?:
+  preservationLossReturnCondition?:
   nextClaimOrRuleRef?:
-  receivingClaimKind:
+  receivingClaimKind?:
 ```
 
-Adoption test: after using C.34, another practitioner can tell which mapping mode is being claimed, which structure is preserved, which structure is lost, whether the relation is directional or scoped, and which downstream claim is licensed.
+After using C.34, another practitioner can recover the claimed correspondence, preserved structure, direction and scope, any loss or uncertainty that limits reliance, and the use it supports.
 
 What C.34 buys in practice: the practitioner can say "same enough for this use" without smuggling in stronger equivalence. The pattern makes sameness conditional on preserved relation, declared loss, and receiving use.
 
-Ordinary working move: put the source and target structures side by side, circle the relation or constraint that must survive, name any relation that does not survive, and choose the weakest mapping word that still supports the next use.
+Ordinary working move: put the source and target structures side by side, circle the relation or constraint that must survive, name any relation that does not survive, and choose a warranted mapping that supports the next use without seeking a stronger result unless needed.
 
 Not this pattern when the current claim is only mathematical-lens use, generic bridge translation, measurement, structural view adequacy, architecture-description correspondence, candidate synthesis, decision, evidence, assurance, gate, release, or work authorization. Use the pattern that defines or tests that current claim and keep C.34 only for the architecture-specific preservation claim.
 

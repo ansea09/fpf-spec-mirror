@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.MF.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
-line_start: 83313
-line_end: 83481
+line_start: 82137
+line_end: 82304
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -121,7 +121,7 @@ The status inventory contains four identified Methods: `M-HW-Verify`, `M-SW-Inte
 | one Method: `C-EC-Release-v2` | rejected because the whole is not identified as a Method |
 | established release-Method family | rejected because no governed family membership is supplied |
 | project-local `LG-EC417-ReleaseMethods` grouping | retained only as a comparison locator; no family claim |
-| candidate account: `C-AI-Trace-Review` | not selected as the current focus because its bounded trace suggestions govern neither evidence reconciliation nor release authority; candidate-account status is preserved |
+| candidate account: `C-AI-Trace-Review` | not selected as the current focus because its bounded trace suggestions supply neither the evidence-reconciliation result nor a release-authorization result; candidate-account status is preserved |
 | relations among the four Methods and two reconciliation accounts | selected because evidence timing, result use, allocation, and authority relations change the release decision |
 | test-rig support decision | retained as a rival non-Method return, but current evidence does not make it the sole focus |
 
@@ -165,7 +165,7 @@ The cost is a short recovery of Work, views, statuses, and non-Method alternativ
 
 ### C.39.MF:10 - Rationale
 
-The focus determines which claims are admissible in later Method use. Preserving the difference among a Method, family, local grouping, relation focus, and non-Method subject prevents downstream qualification or architecture prose from silently upgrading an unsupported object.
+The focus identifies the subject and relations that later Method development must address. Preserving the difference among a Method, family, local grouping, relation focus, and non-Method subject prevents downstream qualification or architecture prose from silently upgrading an unsupported object.
 
 C.39.MF connects questions about Methods, their descriptions, Work, capability, tools, variants and Method change. Project, process and case accounts help discover those questions. Recovering each claim's subject before selecting its representation preserves both useful accounts of one Work and useful connections among different subjects.
 
@@ -173,9 +173,8 @@ C.39.MF connects questions about Methods, their descriptions, Work, capability, 
 
 | Source | Retained contribution | Use boundary |
 | --- | --- | --- |
-| Current FPF `A.15.6`, `C.11`, `A.3.1`, and `G.5` | Project-relative subject recovery, bounded choice, Method identity, and family/selector discipline. | These patterns do not choose the Method-development focus for the project. |
 | Gericke, Eckert, and Stacey, [Elements of a design method](https://doi.org/10.1017/dsj.2022.23) | Method-ecosystem and element distinctions that help locate a candidate focus. | Source elements are prompts, not FPF kinds or Method parts. |
-| Bender, [embedded-analytics process selection](https://doi.org/10.1007/s10257-024-00675-1) | Current context-specific selection evidence. | One application population does not establish a universal focus taxonomy. |
+| Bender, [embedded-analytics process selection](https://doi.org/10.1007/s10257-024-00675-1) | Context-specific process-selection evidence. | One application population does not establish a universal focus taxonomy. |
 
 Reopen the affected rule when a current source or representative use exposes another materially different focus class, or when an account's subject, status, or omitted claim changes the Method question or non-Method return.
 

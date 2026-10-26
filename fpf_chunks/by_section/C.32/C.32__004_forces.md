@@ -6,12 +6,12 @@ section_id: "C.32:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:3 — Forces"
-line_start: 76370
-line_end: 76379
+line_start: 75301
+line_end: 75310
 dependencies:
   - "A.10"
   - "A.15"
@@ -75,5 +75,5 @@ keywords:
 | Candidate plurality | Several plausible variants may be useful for different reasons. |
 | Source richness | Source cues can suggest candidate work without establishing the architecture claim. |
 | Compression risk | A short palette can hide source distinctions needed later. |
-| Neighboring claim patterns | Front, G.5 result declaration, publication availability, local choice, evidence, assurance, and decision claims are admissible only through patterns for the next questions after the architecture content is shaped. |
+| Neighboring claim patterns | Candidate construction supplies content for front use, selected-set declaration, publication, choice, evidence, assurance or decision; each receiving claim needs its own grounds when made. |
 

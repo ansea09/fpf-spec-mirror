@@ -6,12 +6,12 @@ section_id: "A.15:12f"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__019_lowering-repair-and-refresh-conditions.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12f — Lowering, Repair, and Refresh Conditions"
-line_start: 29320
-line_end: 29327
+line_start: 28885
+line_end: 28892
 dependencies:
   - "A.10"
   - "A.13"
@@ -67,7 +67,7 @@ keywords:
 
 Lower an A.15 claim when the holder system, exact local system-role kind, direct assignment species or occurrence, Method, MethodDescription, WorkPlan, readiness relation, dated Work, or capability fit cannot be named at the granularity needed by the next use. A weaker result can be a separation note, missing-source note, A.15.4 repair request, decision request, prospective WorkPlan entry, or A.15.5 readiness-gap note.
 
-Repair only the relation that changed. A corrected assignment or `SystemRoleAssignmentStateRelation` does not rewrite the Method; a changed WorkPlan does not rewrite performed Work; corrected evidence or source-currentness does not rewrite assignment or Work; and an A.15.4 repair request carries no stronger A.15 claim.
+Repair the changed relation or its account and recheck every claim that depends on that change. A corrected assignment or `SystemRoleAssignmentStateRelation` does not by itself rewrite the Method or historical Work; a changed WorkPlan does not rewrite performed Work. Corrected evidence may change what is justified about an assignment or Work without changing the past occurrence. Preserve independently supported claims and unchanged dependencies.
 
 Refresh before reliance when the exact local system-role kind or its criterion changes, the assignment species or predicate changes, another assignment occurrence is needed, the Method family or WorkPlan changes, the execution window changes, or a result, evidence, assurance, gate, reliance, or mathematical-lens relation is no longer current. A taxonomy, scheme, KindSignature, or selected model-use structure triggers refresh only when the receiving claim actually depends on the changed semantic basis. If the remaining question is no longer system-role–Method–Work alignment, use its direct pattern and keep only the A.15 separation still needed.
 

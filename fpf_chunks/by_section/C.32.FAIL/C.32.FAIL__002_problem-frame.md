@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:1 — Problem frame"
-line_start: 79662
-line_end: 79727
+line_start: 78529
+line_end: 78594
 dependencies:
   - "A.10"
   - "A.13"
@@ -64,7 +64,7 @@ keywords:
 
 ### C.32.FAIL:1 - Problem frame
 
-Use this pattern when a practitioner sees a recurring architecture-synthesis failure and needs to turn that warning into the smallest repair action over a named architecture object before evidence, assurance, selection, or decision claims are current.
+Use this pattern when a recurring architecture-synthesis failure needs a first justified repair action over a named architecture object. The action may recover a missing premise before a structural change can be chosen.
 
 Primary working reader: an architect or architecture-responsible practitioner who sees a warning sign during synthesis and needs the first architecture repair action, not a larger risk catalogue.
 
@@ -78,7 +78,7 @@ Typical entry cues:
 "The graph looks convincing, but we cannot say which architecture object it repairs."
 ```
 
-**First-minute use slice.** A team calls an ML model a module in a safety-relevant product architecture. Using C.32.FAIL, the practitioner names the architecture object under stress: a candidate module-interface relation for the described product holon. The blocked overread is: model file equals stable module. The first repair action is to recover interface behavior, admissible-use conditions, change policy, and evidence-decay boundary before using the model as a module. If a safety assurance claim is current, the case escalates only after that architecture repair is named.
+**First-minute use slice.** A team calls an ML model a module in a safety-relevant product architecture. Using C.32.FAIL, the practitioner names the architecture object under stress: a candidate module-interface relation for the described product holon. The blocked overread is: model file equals stable module. The first repair action is to recover interface behavior, admissible-use conditions, change policy, and evidence-decay boundary before using the model as a module. If a safety assurance claim is current, use its subject pattern with the identified architecture question and available evidence.
 
 The primary `EntityOfConcern` is one repair cue for one architecture object under stress. The cue is a working repair aid, not a risk register, assurance case, selection result, release argument, or decision object.
 
@@ -86,9 +86,9 @@ What goes wrong if C.32.FAIL is missed: failure language degenerates into a warn
 
 What C.32.FAIL buys in practice: a practitioner can convert a vague failure signal into one typed repair action, keep the repair near the selected structure, and stop before nearby decision, release, or governance claims expand the case.
 
-Ordinary working move: convert the symptom into four fields: architecture object under stress, blocked overread, first repair action, and stop or escalation condition.
+Ordinary working move: explain the symptom, affected architecture object, first justified repair action and its stop or continuation condition. Name a mistaken inference when it explains the failure.
 
-Adoption test: after using C.32.FAIL, a reader can see four things in the cue: the architecture object under stress, the blocked overread, the first repair action, and the pattern for the next question or stop condition.
+After using C.32.FAIL, the reader can identify the affected architecture object, the first repair action and its stop or continuation condition.
 
 Use another pattern when the current work is only lexical cleanup, evidence sufficiency, release, architecture description, MVPK publication face, comparison, selection, archive, front, selected-set result declaration, actual publication, local choice, or final architecture decision. Use C.32.FAIL only when the failure cue changes the first architecture repair action.
 
@@ -101,7 +101,7 @@ Common exits by claim kind:
 - `C.30.AD` for architecture description, `E.17` for a source-backed publication face and source return, and `E.24.PUB` for the publication occurrence and audience availability.
 - `G.5` for selected-set result declaration, `C.11` for local choice, and `C.32.PAD` for a project decision. For publication, keep the distinct E.17 and E.24.PUB uses just named.
 
-The first useful output is `ArchitectureRepairCue@Project`. It is a working record for one repair action. It names the stressed architecture object and first repair; it is not a failure ontology, risk register, assurance case, release argument, selection result, or decision:
+The first useful output names the affected architecture object and a justified next action. An ordinary explanation can suffice; `ArchitectureRepairCue@Project` can organize it when a record is useful:
 
 ```text
 ArchitectureRepairCue@Project:
@@ -117,13 +117,13 @@ ArchitectureRepairCue@Project:
   architectureObjectUnderStress:
   selectedStructureRef?:
   sourceCueRef?:
-  failureEvidenceRefs:
-  blockedOverread:
-  firstPatternLocator:
+  failureEvidenceRefs?:
+  blockedOverread?:
+  firstPatternLocator?:
   repairAction:
-  sourceReturnCondition:
+  sourceReturnCondition?:
   stopCondition:
-  escalationIfCurrent:
+  escalationIfCurrent?:
 ```
 
 Here `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the repair cue is genuinely used in one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work` and `architectureRepairCueProjectUseRelationRef` identifies the direct relation by which that exact project Work uses the cue. Any separately claimed repair Work and its own cue-use or work-to-change relation remain under their direct governors. The cue, the actual repair Work, the architecture object under stress, and the composite project Work remain distinct.

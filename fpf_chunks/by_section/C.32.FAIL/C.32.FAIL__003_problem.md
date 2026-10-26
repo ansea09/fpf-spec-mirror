@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__003_problem.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:2 — Problem"
-line_start: 79728
-line_end: 79747
+line_start: 78595
+line_end: 78614
 dependencies:
   - "A.10"
   - "A.13"
@@ -77,7 +77,7 @@ Most first-contact failures cluster into a few repair-entry families:
 These cues are useful only when each one is converted into a repair shape: symptom, architecture object under stress, first repair action, and stop or pattern for the next question.
 
 ```text
-symptom -> architecture object under stress -> blocked overread -> first subject pattern -> repair action -> stop or escalation
+symptom -> affected architecture object -> justified repair action -> stop or continuation
 ```
 
 Use C.32.FAIL for that conversion. It does not mint a local ontology of failure kinds.

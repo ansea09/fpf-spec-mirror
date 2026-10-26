@@ -6,12 +6,12 @@ section_id: "A.19.CHR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
   - "A.19.CHR:5 — Archetypal Grounding"
-line_start: 37665
-line_end: 37682
+line_start: 36935
+line_end: 36952
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -62,7 +62,7 @@ keywords:
 
 **Tell.** A research episteme compares methodological claims across traditions where some evaluation scales are ordinal (rank-based) and others are interval or ratio. The group wants to select a method family for a task while keeping uncertainty explicit and avoiding illicit aggregation (e.g., averaging ranks).
 
-**Show.** The episteme’s planned baseline pins `CNSpecRef` (comparability mode and indicator policy) and `CGSpecRef` (SCP, ComparatorSet, MinimalEvidence, Γ_fold). The suite runs `UINDM` to select indicators, `USCM` to compute lawful score measures under SCP, `ULSAM` only when Γ_fold is explicitly selected, and `CPM` to compare without scalarizing partial orders. The selector returns a selected set rather than forcing a single winner.
+**Show.** The comparison cites `CNSpecRef` (comparability mode and indicator policy) and `CGSpecRef` (SCP, ComparatorSet, MinimalEvidence and Γ_fold when used). On a P2W path these references belong to the planned baseline. The application uses the selected `UINDM` operation to choose indicators, `USCM` to compute scale-lawful scores, `ULSAM` only for a selected fold, and `CPM` to preserve the comparison distinctions. The selector returns a selected set rather than forcing a single winner.
 
 **Show.** If a draft evaluation writes “take the mean rank and pick the minimum”, replace that step with a scale-lawful comparator declared in CG-Spec. For report-only telemetry, retain the rank distribution or another summary justified by the declared ordinal scale, such as a median when applicable. An arithmetic mean requires a separately justified quantitative model; calling it telemetry does not make ordinal averaging lawful.
 

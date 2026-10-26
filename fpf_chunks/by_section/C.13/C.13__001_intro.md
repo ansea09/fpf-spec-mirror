@@ -6,12 +6,12 @@ section_id: "C.13:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:intro — Intro"
-line_start: 58220
-line_end: 58235
+line_start: 57317
+line_end: 57332
 dependencies:
   - "A.1"
   - "A.14"
@@ -33,7 +33,7 @@ keywords:
 
 **At a glance.** Use C.13 when a practitioner must show how identified entities and relations that obtain form one whole, collection, or aspect. The account explains how those facts support the whole, collection, or aspect; writing a `sum`, `set`, or `slice` expression does not create the entities or relations.
 
-**Use this when.** Use this pattern after the direct relation patterns have identified the participants and relations that obtain, when you need a compact, inspectable account of how they assemble a whole, form a collection, or distinguish an aspect.
+**Use this when.** Use this pattern after the direct relation patterns have identified the participants and relations that obtain, when you need a compact, inspectable account of how they assemble a whole, form a collection, or distinguish an aspect. Reuse an existing ordinary account when it already supplies those facts and their construction rule; the notation is optional.
 
 **First useful move.** Name the whole, collection, or aspect whose construction you must explain; then name its inputs, the constructive part relations or the collection's own belongs-to relations, and the rule by which those facts form it. Choose `sum`, `set`, or `slice` as the shortest truthful construction narrative.
 

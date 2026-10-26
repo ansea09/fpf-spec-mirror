@@ -6,12 +6,12 @@ section_id: "C.40.OCN:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__002_problem-frame.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:1 — Problem frame"
-line_start: 85482
-line_end: 85495
+line_start: 84302
+line_end: 84315
 dependencies:
   - "A.15.9"
   - "C.11"

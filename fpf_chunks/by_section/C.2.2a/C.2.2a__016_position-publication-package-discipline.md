@@ -6,12 +6,12 @@ section_id: "C.2.2a:14"
 section_title: "Position Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__016_position-publication-package-discipline.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:14 — Position Publication Package Discipline"
-line_start: 52982
-line_end: 52993
+line_start: 52136
+line_end: 52147
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -51,8 +51,8 @@ A publishable row contains the exact episteme publication, the decision-relevant
 Minimum self-check:
 
 1. Does the row name the positioned episteme publication rather than a ground, form, face, or carrier?
-2. Does it state every facet that can change the named next action and mark a relevant unknown honestly?
+2. Does it state every facet that can change the named next action and mark a relevant unknown as unknown?
 3. Are the grounds and any relied-on local threshold recoverable?
-4. Does the row say what action is allowed, blocked, or still undecided without pretending to authorize it?
-5. For cross-context use, was F.9 tested on two exact local senses rather than inferred from similar wording?
+4. Does the row say whether its readings meet the named action's threshold, fail it, or leave the result undecided, while the receiving pattern governs the action?
+5. If the use depends on distinct local meanings, was F.9 tested on the two exact local senses rather than inferred from similar wording?
 

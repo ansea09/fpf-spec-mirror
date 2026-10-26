@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__005_solution.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:4 — Solution"
-line_start: 12518
-line_end: 12593
+line_start: 12393
+line_end: 12468
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"
@@ -31,7 +31,7 @@ Construct the rule around the change that matters to the question. Recover the r
 
 #### A.3.3.TR:4.1 - Choose the state, step and inputs
 
-Name what changes and the observation or decision that depends on it. Recover the admitted states, using A.3.3.CC when their compatibility is still unresolved. Separate changing values, parameters held fixed and inputs supplied from outside the model.
+Name what changes and the result needed from that change. Recover the admitted states, using A.3.3.CC when their compatibility is still unresolved. Separate changing values, parameters held fixed and inputs supplied from outside the model.
 
 Choose what counts as one step. A step can be one instruction, one transaction, an event, an observation interval or an interval of physical evolution. Say which intermediate effects the model retains. Declaring a read-and-write pair atomic is a substantive assumption about interference, as :5.1 shows.
 
@@ -83,7 +83,7 @@ A small test can find a violation; a claim covering all allowed behavior needs a
 
 Keep the intended property separate from the rule being examined. If the model is intended to reveal whether an implementation can overflow a buffer, silently clipping its successors to capacity removes that failure from the model. Derive a control rule that prevents overflow, model what happens at overflow, or narrow the claimed operating conditions with a stated reason.
 
-When no successor is found, determine what that result establishes. A contradictory set of equations, a terminal state, a disabled action, a deadlock and an unsuccessful incomplete search call for different next moves. Return the first missing condition or demonstrated obstruction that matters to the present use; do not invent a successor to fill the gap.
+When no successor is found, determine what that result establishes. A contradictory set of equations, a terminal state, a disabled action, a deadlock and an unsuccessful incomplete search call for different next moves. Return the missing conditions or demonstrated obstruction that matters to the present use.
 
 #### A.3.3.TR:4.5 - Add selection, progress or probability only when needed
 

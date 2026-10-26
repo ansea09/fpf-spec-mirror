@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__006_archetypal-grounding.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:5 — Archetypal Grounding"
-line_start: 43344
-line_end: 43369
+line_start: 42512
+line_end: 42537
 dependencies:
   - "A.3.1"
   - "B.1.5"

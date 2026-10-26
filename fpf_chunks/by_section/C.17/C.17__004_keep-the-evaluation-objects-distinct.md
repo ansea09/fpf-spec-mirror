@@ -6,12 +6,12 @@ section_id: "C.17:2"
 section_title: "Keep the evaluation objects distinct"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__004_keep-the-evaluation-objects-distinct.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:2 — Keep the evaluation objects distinct"
-line_start: 60643
-line_end: 60677
+line_start: 59613
+line_end: 59647
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -42,7 +42,6 @@ dependencies:
   - "F.9"
   - "G.11"
   - "G.5"
-  - "U.Mechanism"
 keywords:
   - "ConstraintFit"
   - "Novelty"
@@ -70,7 +69,7 @@ keywords:
 | Optional profile | `CreativityProfile` is a local, non-arithmetic payload containing selected coordinate-claim references, their declared arrangement, and any current frontier or incomparability annotation. |
 | Representation and publication | A table, chart, dashboard, or publication form represents or publishes the payload or result. It is not the payload or result. |
 | Optional record | A separate `CreativityEvaluationRecord` episteme may package references to the configuration, results, profile, evidence, rendering, and actual Work for a named receiver. |
-| Assessment occurrence | Dated Work exists only when an overall assessment actually occurred and its System, assignment, Method enactment, Work extent, and evidence are recoverable. Any claimed application of a Mechanism operation is a separate conditional fact under A.6.1. |
+| Assessment occurrence | A claim of dated overall-assessment Work requires the actual occurrence and recoverable System, assignment, Method enactment, Work extent and evidence. Any claimed application of a Mechanism operation is a separate conditional fact under A.6.1. |
 
 Changing a space slot, corpus membership or inclusion rule, model claims or training basis, objective, criterion, constraint, Scale meaning, scope, or window reopens only the coordinate claims that depend on that change and any aggregate conclusion that uses them.
 

@@ -6,12 +6,12 @@ section_id: "A.6.S:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__005_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:3 — Forces"
-line_start: 25181
-line_end: 25191
+line_start: 24738
+line_end: 24747
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,5 +47,4 @@ keywords:
 * **Multi‑view richness vs semantic coherence.** Views help stakeholders, but they risk becoming divergent “versions of truth”.
 * **Local meaning vs cross-local reuse.** Signature claim content pins its effective ReferenceScheme where interpretation matters. The local kind and any source-local meaning remain separate values. Use F.9 for an actual semantic Bridge between exact local senses whose `<ReferenceScheme, LocalSenseClaim>` interpretation bases differ, and judge its bounded-use claim separately. Distinct F.17 cells or a mapping alone do not establish that relation.
 * **Contract talk vs ontology.** “Contract” language invites mixing promises, norms, and invariants; FPF requires quadrant discipline.
-
 

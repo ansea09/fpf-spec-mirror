@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__007_worked-slices.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:5 — Worked slices"
-line_start: 54768
-line_end: 54862
+line_start: 53912
+line_end: 54006
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,13 +55,13 @@ Repair:
 DeclarativeRepresentationRepair:
   VisibleExpressionOrArtifact: P2W graph expression with a highlighted path or path slice
   CurrentDirectObjectOrRelation: exact E.18 `PathSlice` and E.18.1 carry-through relation among the named records when those objects are current
-  RepresentationOrCorrespondenceUse: proposed correspondence from this P2W graph expression to the exact E.18 `PathSlice`; C.29 lens-use account not yet supplied
+  RepresentationOrCorrespondenceUse: highlighted nodes and edges render the selected E.18 `PathSlice`; the highlight adds no work ordering
   SourceOrPublicationRelation: none
   TemptingStrongerActionClaim: ordered work route for the team
   RecoveredGoverningPattern: E.18.1, with A.15.2 or A.15.1 only if planned or dated work is current
   RetainedUse: selected graph path and carry-through relation for inspection
   BlockedStrongerActionClaim: no work route or prescribed workflow by path shape alone
-  StopOrReopenCondition: recover or cite a C.29 lens-use account that states the preserved and lost structure and bounds the intended use; until then this representation branch is an incomplete rewrite, and claim-bearing use of the proposed correspondence is blocked; reopen when path, source currentness, graph edition, or intended work relation changes
+  StopOrReopenCondition: stop at inspection of the selected path and carry-through relation; use A.15.2 for a prescribed work sequence. If a separate mathematical transfer is proposed, establish its C.29 correspondence and limits before relying on that transfer. Reopen when the selected graph, source or intended work relation changes
 ```
 
 A graph publication or pattern publication remains a separately governed publication object. If one is current, state its exact source or publication relation and participants in the neighbouring claim; neither publication object belongs in `SourceOrPublicationRelation` by mention alone.
@@ -106,13 +106,13 @@ Repair:
 DeclarativeRepresentationRepair:
   VisibleExpressionOrArtifact: reactor-cooling heat-flow graph with one highlighted preserved path
   CurrentDirectObjectOrRelation: exact E.18 heat-flow path or `PathSlice`; keep boundary conditions and any flow valuation under their subject patterns
-  RepresentationOrCorrespondenceUse: proposed correspondence from this reactor-cooling graph rendering to the exact selected E.18 heat-flow `PathSlice`; C.29 lens-use account not yet supplied
+  RepresentationOrCorrespondenceUse: the rendering identifies the selected E.18 path; a proposed inference from its edges to physical heat flow still lacks its correspondence and boundary conditions
   SourceOrPublicationRelation: none
   TemptingStrongerActionClaim: graph path authorizes physical valve-change work
   RecoveredGoverningPattern: E.18 and C.29 for graph and lens use; A.21, A.10, A.15.2, and A.15.1 only if gate, evidence, work plan, or dated work is current
-  RetainedUse: graph structure for comparison, model review, and source-finding
+  RetainedUse: graph inspection and identification of the missing heat-flow correspondence
   BlockedStrongerActionClaim: no release, gate passage, physical intervention, or work occurrence by highlighted path alone
-  StopOrReopenCondition: recover or cite a C.29 lens-use account that states the preserved and lost structure and bounds the intended use; until then this representation branch is an incomplete rewrite, and claim-bearing use of the proposed correspondence is blocked; reopen when gate decision, source currentness, measurement boundary, or work plan becomes current
+  StopOrReopenCondition: keep the proposed physical inference unresolved until the correspondence, material losses and boundary conditions support it under C.29; operational reliance also needs the applicable validation and gate or authority result. Reuse adequate existing domain/model documentation. Reopen when that basis or intended intervention changes
 ```
 
 An engineering-review publication and a gate record remain separate objects. State any exact source or publication relation with its participants, and keep any gate relation under its subject pattern; neither object belongs in `SourceOrPublicationRelation`.
@@ -127,13 +127,13 @@ Repair:
 DeclarativeRepresentationRepair:
   VisibleExpressionOrArtifact: CRISPR guide-selection table with off-target scores and candidate ranking
   CurrentDirectObjectOrRelation: candidate-guide comparison and exact characteristic values under C.16 or A.19; use A.10 to recover any independently established direct support relation needed for reliance
-  RepresentationOrCorrespondenceUse: proposed correspondence from this table's candidate and off-target-score representation elements to the exact candidate-guide comparison and exact characteristic values named above; C.29 lens-use account not yet supplied
+  RepresentationOrCorrespondenceUse: rows identify the compared candidate guides and columns reproduce named score values with their scales and source references; the ranking adds no approval relation
   SourceOrPublicationRelation: none
   TemptingStrongerActionClaim: ranked row approves biological intervention
   RecoveredGoverningPattern: C.16 or A.19 for characteristics when current; A.10 for evidence; A.15.2 for experimental work plan; A.21 or authority pattern only if approval or gate claim is current
   RetainedUse: source-finding, candidate comparison, and constraint review
   BlockedStrongerActionClaim: no edit approval, work occurrence, safety claim, or gate passage from table rank alone
-  StopOrReopenCondition: recover or cite a C.29 lens-use account that states the preserved and lost structure and bounds the intended use; until then this representation branch is an incomplete rewrite, and claim-bearing use of the proposed correspondence is blocked; reopen when protocol, gate decision, evidence path, lab classification or assignment, exact GrantedPermissionRelation@Context or direct authority result, or dated lab Work becomes current; unresolved “role authorization” goes to E.10.ROLE, and an unsupported stronger permission or authority claim returns missing-governor
+  StopOrReopenCondition: stop at the supported comparison under the stated score meanings and source conditions. Use C.29 only if a separate model or transfer claim is made. Intervention approval needs its applicable authority or gate result; resolve unclear “role authorization” through E.10.ROLE, distinguishing a missing rule from missing facts under a known rule. Reopen when the scores, protocol or intended use changes
 ```
 
 A lab notebook, protocol publication, source episteme, and review record remain separate objects. State an exact source or publication relation and its participants only when it obtains; none of these objects belongs in `SourceOrPublicationRelation` by mention alone.

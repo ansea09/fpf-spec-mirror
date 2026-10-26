@@ -6,12 +6,12 @@ section_id: "C.30.LCA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__004_forces.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:3 — Forces"
-line_start: 74198
-line_end: 74206
+line_start: 73146
+line_end: 73154
 dependencies:
   - "A.10"
   - "A.20"
@@ -47,7 +47,7 @@ keywords:
 
 ### C.30.LCA:3 - Forces
 
-* Control talk is useful and current engineering practice uses it, so deleting it would make architecture prose less usable.
+* Control terminology helps engineers identify observations, commands, feedback and their participants; preserve it when its local meaning is clear.
 * The same source labels can name different things. C.30.LCA applies after an exact direct control relation, rate-band relation, control-layer relation, or `B.2.5` supervisor-subholon relation is recovered. An assignment is neither required nor sufficient for control; include it only when it independently obtains. A model-use structure is cited only when that independently selected structure changes interpretation.
 * Layered and multi-rate control descriptions often need timing and dynamics claims before they can carry stability or safety claims.
 * `B.2.5` supplies a compound supervisor-subholon feedback claim grounded in observation, return and coupling facts. A feedback diagram alone establishes none of those facts.

@@ -6,12 +6,12 @@ section_id: "C.40.OP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:7 — Conformance Checklist"
-line_start: 87354
-line_end: 87367
+line_start: 86172
+line_end: 86185
 dependencies:
   - "A.15.9"
   - "C.11.CRC"
@@ -36,5 +36,5 @@ keywords:
 8. **MUST** distinguish archive retention, current-front membership, live-pool treatment, local choice, and actual Work when those questions occur.
 9. **MUST NOT** force one scalar winner, universal horizon taxonomy, selected programme, or work permission from a retained set.
 10. **MUST** localize changed-premise effects, retire defeated retention claims, and preserve unaffected independent opportunities.
-11. **SHOULD** return the next discriminating question and keep the account no larger than its receiving use requires.
+11. **SHOULD** return a discriminating question when its answer could change a retained opportunity or path, and keep the account no larger than its receiving use requires.
 

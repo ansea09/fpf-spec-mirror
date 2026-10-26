@@ -6,12 +6,12 @@ section_id: "A.6.M:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__010_consequences.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:9 — Consequences"
-line_start: 23413
-line_end: 23427
+line_start: 23002
+line_end: 23016
 dependencies:
   - "A.10"
   - "A.20"
@@ -32,21 +32,14 @@ dependencies:
   - "E.20"
   - "G.5"
 keywords:
-  - "are used only for pattern users"
-  - "claims"
   - "component"
-  - "conformance items"
-  - "evidence records"
   - "interface"
   - "interface specification"
   - "layer"
   - "module relation"
   - "open architecture"
-  - "or assurance records. Modeled modules and interfaces are not written as agents with duties"
-  - "or publication records"
   - "platform"
   - "port"
-  - "records"
   - "stack"
   - "substitutability"
 ---

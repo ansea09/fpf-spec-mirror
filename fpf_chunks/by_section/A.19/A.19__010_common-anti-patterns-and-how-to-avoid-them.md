@@ -6,12 +6,12 @@ section_id: "A.19:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 35242
-line_end: 35274
+line_start: 34636
+line_end: 34668
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,7 +67,7 @@ _The following are common modeling mistakes (“anti-patterns”) related to mea
 
 -   **“Retro-fix past assertions.”**
     ✗ Going back to edit or reinterpret old StateAssertions after changing a threshold or NormalizationMethod (e.g. “We updated the criteria, let’s ‘fix’ last quarter’s records to match”).
-    ✓ **Never alter historical assertions:** **Leave history as-is.** If criteria change, issue new assertions under the new criteria going forward, and if needed, explicitly **version** the **NormalizationMethod** or **UNM** declaration or checklist. Past assertions retain the criteria and time under which they were made; any renewed use requires checking their applicability and currentness. This ensures auditability and avoids erasing or rewriting what was asserted under earlier standards.
+    ✓ **Preserve the historical assertion and its basis.** New criteria require a new evaluation for the use that needs them, with the relevant NormalizationMethod, UNM declaration or checklist identified. Correct an erroneous assertion or retract an unsupported conclusion explicitly while retaining what was asserted, when, and under which criteria. Renewed use checks applicability and currentness; it does not silently rewrite the earlier criteria.
 
 **C.27 temporal-claim relation.**
 

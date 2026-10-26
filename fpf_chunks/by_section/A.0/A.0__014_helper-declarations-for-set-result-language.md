@@ -6,12 +6,12 @@ section_id: "A.0:QF.1a"
 section_title: "Helper declarations for set-result language"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__014_helper-declarations-for-set-result-language.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.1a — Helper declarations for set-result language"
 line_start: 2412
-line_end: 2430
+line_end: 2427
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
@@ -56,10 +56,7 @@ keywords:
 ### A.0:QF.1a - Helper declarations for set-result language
 
 - Ordinary public set-result family heads are `Palette`, `TraditionPalette`, `Front`, `Q-Front`, `Archive`, `ExplorationArchive`, `Shortlist`, `RankedShortlist`, and `JointUseSet`; the applicable pattern fixes which families its operation may return.
-- `ExplorationArchive` is the exploration-specific specialization of `Archive`; use `Archive` as the wider family head only when that exploration-specific subtype does not matter.
 - `SteppingStoneSet` is one narrow retained-subset head only when that subset itself is the visible published surface; do not treat it as the ordinary public head for retained exploration.
-- `ShortlistId` is the stable public token or id companion for one emitted shortlist; it is not a set-result family head.
-- `ChoiceSet` is only the mathematical set gloss for a shortlist when that object itself must be named.
 - `SetResultFamily` is a declaration field naming which public set-result family is being emitted; it is not another public head.
 - `SourceSetFamily` is a declaration field naming the immediate source-set family acted on by a lens, such as `Q-Front`, `ExplorationArchive`, `Front`, `Archive`, or `TraditionPalette`; it does not carry derivation, composition, or object-id load, and it does not rename the emitted result.
 - `SourceSetComposition` is an optional declaration field naming a multi-source composition such as `Front+Archive` when one lens genuinely acts over more than one declared source-set family; it is not itself a kind.

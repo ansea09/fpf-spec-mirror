@@ -6,12 +6,12 @@ section_id: "C.40.DC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__012_sota-echoing.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:11 — SoTA-Echoing"
-line_start: 86966
-line_end: 86977
+line_start: 85784
+line_end: 85795
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -33,5 +33,5 @@ keywords:
 
 **Front-end boundary.** [ISO 56007:2023](https://www.iso.org/standard/75068.html) supplies normative guidance for opportunity/concept work before solution development and deployment. Here that boundary supports prospective configurations and truthful gaps; it supplies no missing support, implementation, or effect evidence. A complete cited pattern contribution similarly supplies guidance, not holder capability.
 
-**Trade-off, limits, and reopen.** The selected account costs more than naming an intervention but less than designing and qualifying every implementation. Its constructed cases demonstrate distinctions, not comparative effectiveness. Reopen the affected move if current holder or configuration practice preserves the contribution, complete consequences, and necessary support with less burden; if a relied-on comparison or source changes; or if a real use reveals a consequential omitted interaction or transition.
+**Trade-off, limits, and reopen.** Recovering the contribution and support takes work; compare that burden with using an adequate existing direction or obtaining the fuller implementation detail needed by the receiving use. The constructed cases demonstrate distinctions, not comparative effectiveness. Reopen the affected move if current holder or configuration practice preserves the contribution, complete consequences, and necessary support with less burden; if a relied-on comparison or source changes; or if a real use reveals a consequential omitted interaction or transition.
 

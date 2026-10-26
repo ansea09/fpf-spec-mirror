@@ -6,12 +6,12 @@ section_id: "A.16.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__001_intro.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:intro — Intro"
-line_start: 34077
-line_end: 34098
+line_start: 33604
+line_end: 33623
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -44,13 +44,11 @@ keywords:
 
 **Plain-name.** Pre-articulation cue pack.
 
-**Use this when.** Use this pattern when the first honest publication is a preserve-worthy cue nucleus that should remain visible before it becomes a claim, selected route, method, work record, anomaly statement, or endpoint publication.
+**Use this when.** Use this pattern when the first honest publication is a preserve-worthy cue nucleus that should remain visible while its interpretation and next use remain open.
 
-**What goes wrong if missed.** Early cues either vanish, become vague "signals", or get promoted too soon into route decisions, claims, evaluations, methods, invitations, or work records.
+**What goes wrong if missed.** Early cues either vanish, become vague "signals", or are cited prematurely as a route decision, supported explanation, evaluation, method, or Work record.
 
 **What this buys.** One admissible preservation form for low-articulation but meaningful cue content, with enough witness, anchor, and route-candidate discipline for later successor publication without pretending the endpoint already exists.
-
-**Start here when.** Your first honest content is a preserve-worthy cue nucleus that should not yet be forced into a claim, route decision, method, or work record.
 
 **First output.** One `PreArticulationCuePack` with an explicit cue nucleus, preservation rationale, primary witness or anchor when one is load-bearing, and any early lane candidates or route-candidate hints that are already visible.
 

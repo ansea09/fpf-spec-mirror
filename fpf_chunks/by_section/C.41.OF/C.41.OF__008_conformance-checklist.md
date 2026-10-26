@@ -6,12 +6,12 @@ section_id: "C.41.OF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.OF/C.41.OF__008_conformance-checklist.md"
-commit_sha: "ea8c54542bf017f36659167f36e816fad4de88cb"
+commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
   - "C.41.OF:7 — Conformance Checklist"
-line_start: 88812
-line_end: 88821
+line_start: 87630
+line_end: 87639
 dependencies:
   - "A.15.8"
   - "C.41"
