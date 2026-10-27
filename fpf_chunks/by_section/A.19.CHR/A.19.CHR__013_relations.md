@@ -6,12 +6,12 @@ section_id: "A.19.CHR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__013_relations.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
   - "A.19.CHR:12 — Relations"
-line_start: 37171
-line_end: 37193
+line_start: 37228
+line_end: 37250
 dependencies:
   - "A.15.2"
   - "A.15.3"

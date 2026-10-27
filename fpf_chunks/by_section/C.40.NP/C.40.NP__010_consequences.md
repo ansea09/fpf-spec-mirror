@@ -6,12 +6,12 @@ section_id: "C.40.NP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NP/C.40.NP__010_consequences.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
   - "C.40.NP:9 — Consequences"
-line_start: 87201
-line_end: 87204
+line_start: 87623
+line_end: 87626
 dependencies:
   - "C.18"
   - "C.19"

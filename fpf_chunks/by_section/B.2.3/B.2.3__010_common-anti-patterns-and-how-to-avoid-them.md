@@ -6,12 +6,12 @@ section_id: "B.2.3:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 44034
-line_end: 44043
+line_start: 44151
+line_end: 44160
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,5 +42,5 @@ keywords:
 | PDF as episteme | A PDF carrier or its publication form is used as the theory itself. | Use publication patterns for the PDF and keep B.2's `resultHolonRef` for the independently constituted episteme. |
 | Doctrine receives agency | "The standard enforces..." or "the theory decides..." | For a literal claim of dated enforcement or decision Work, recover its actual performer through A.13 and admit the Work independently under A.15.1; add F.6 only when the use consumes precise assignment-bound attribution. Otherwise use F.19 to retain ordinary guidance wording when its capable user and action are recoverable. |
 | Morphism as MHT | A view, translation, coarsening, or retargeting is called a new episteme whole. | Use A.6.2, A.6.3, A.6.4, or A.6.3.CSC unless B.2 whole reidentification is current. |
-| Synthesis as high trust | A new theory inherits trust because its sources were reliable. | Rebuild assurance for the result episteme through A.10, B.3, B.3.5, C.2.1, and source-use patterns. |
+| Synthesis as high trust | A new theory inherits trust because its sources were reliable. | When this assurance claim is needed, use A.10, B.3, B.3.5, C.2.1, and source-use patterns to assess the result claim; reuse adequate existing support rather than inheriting assurance from the sources. |
 

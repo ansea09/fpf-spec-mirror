@@ -6,12 +6,12 @@ section_id: "C.41.UA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__003_problem.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:2 — Problem"
-line_start: 87766
-line_end: 87771
+line_start: 88188
+line_end: 88193
 dependencies:
   - "A.10"
   - "A.15.1"

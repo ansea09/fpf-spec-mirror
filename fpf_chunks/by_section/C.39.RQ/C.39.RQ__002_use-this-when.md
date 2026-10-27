@@ -6,12 +6,12 @@ section_id: "C.39.RQ:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__002_use-this-when.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:0 — Use This When"
-line_start: 82567
-line_end: 82593
+line_start: 82987
+line_end: 83013
 dependencies:
   - "A.3.1"
   - "C.11"

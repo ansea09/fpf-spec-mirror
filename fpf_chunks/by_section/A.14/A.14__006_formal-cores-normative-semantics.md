@@ -6,12 +6,12 @@ section_id: "A.14:5"
 section_title: "Formal cores (normative semantics)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__006_formal-cores-normative-semantics.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:5 — Formal cores (normative semantics)"
-line_start: 28216
-line_end: 28300
+line_start: 28269
+line_end: 28356
 dependencies:
   - "A.1"
   - "A.15"
@@ -71,6 +71,8 @@ keywords:
 * **POR‑4 (Kind integrity).** x and y must share the same **measure kind** and **unit** (or a declared conversion).
 * **POR‑5 (Boundary compatibility).** For physical wholes, the whole’s boundary encloses the union of its portions; cross‑boundary “leaks” are interactions, not portions.
 
+Check POR-2 separately for the chosen measure: additivity alone supplies only non-strict monotonicity. One sufficient practical case is an admitted disjoint decomposition `y = x ⊔ r` with finite `μ(y)` and positive `μ(x)` and `μ(r)`; additivity then gives strict dominance. If a proposed proper part has zero measure or the same measure as the whole, use a measure that distinguishes the portion and remainder, or retain the separately justified part relation under its own pattern.
+
 **Didactic tests.**
 
 - ✔ “5 kg from a 20 kg billet” — PortionOf.
@@ -108,7 +110,7 @@ Either object may also support a separate PortionOf claim when it satisfies the 
 
 #### A.14:5.3 - AspectOf — bearer-dependent structural part under one named facet rule
 
-**Intent.** State that one identified bearer-dependent part is an aspect of its bearer without turning a Characteristic, viewpoint, representation, concern, partition, or time window into a part.
+**Intent.** State that one identified bearer-dependent structural part is an aspect of its bearer under a named facet rule.
 
 **Participants and qualifier.** `x` and `y` occupy the `U.Holon` parthood domain: `x` is the aspect and `y` its bearer. Each must already satisfy its applicable holon-kind and identity rule; `AspectOf` does not grant systemness, agency, or independent-whole status. The qualifier `f` names the facet rule used in this occurrence; it does not introduce a universal `U.Facet` kind.
 
@@ -131,7 +133,8 @@ Either object may also support a separate PortionOf claim when it satisfies the 
 #### A.14:5.4 - CT2R-LOG and Compose-CAL handshake
 
 - A direct structural parthood claim is usable without this assurance handshake. If the publication elects B.3.5 or a named current requirement demands it, link the claim through `tv:groundedBy` to its applicable current C.2.1 `Γ_m.sum` or `Γ_m.slice` construction-trace episteme and declare `validationMode=axiomatic`. The direct relation pattern decides whether the occurrence obtains and how it is identified; the relevant entity pattern decides identity through change. The trace only reports that basis.
-- **AspectOf** uses one current `C.13 slice` trace when that assurance branch is elected. The trace names the aspect, bearer, facet rule, relation occurrence, and identity conditions; it creates none of them.
+- **PortionOf** uses the measured-portion `slice` account in `C.13:4.1.1` when B.3.5 is elected: identify the portion and whole, delimiting boundary, same-stuff/content basis, extensive measure and compatible unit. The aspect profile of `slice` has different conditions.
+- **AspectOf** uses one current `C.13 slice` trace when that assurance branch is elected. The trace names the aspect, bearer, facet rule, relation occurrence, and identity conditions.
 - **PhaseOf** is temporal parthood and shall not be grounded through `Γ_m`. Its assurance follows the same-holon and proper-interval criteria, the separately declared selected-partition rule when one is claimed, and `Γ_time` ordering (`B.1.4`).
 - A collection's own belongs-to relation remains distinct from constructive parthood (`CC-MEM-2`). State its participants, what makes it obtain, and whether later belonging is the same occurrence or a new one under the collection's pattern. A direct claim needs no B.3.5 fields. If B.3.5 assurance is elected, link `validationMode=axiomatic` to one current `C.13 set` trace that reports the relation that already obtains. The trace supports neither a ComponentOf inference nor a universal prohibition on separately grounded parthood.
 

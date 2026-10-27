@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.PFR.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
-line_start: 62391
-line_end: 62721
+line_start: 62557
+line_end: 62887
 dependencies:
   - "A.10"
   - "A.15.1"

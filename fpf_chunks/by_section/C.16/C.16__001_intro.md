@@ -6,12 +6,12 @@ section_id: "C.16:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__001_intro.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:intro — Intro"
-line_start: 57645
-line_end: 57655
+line_start: 57807
+line_end: 57817
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "E.8.ML:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__006_archetypal-grounding.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:5 — Archetypal Grounding"
-line_start: 96026
-line_end: 96049
+line_start: 96451
+line_end: 96474
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"

@@ -6,12 +6,12 @@ section_id: "E.4.FPF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__010_consequences.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:9 — Consequences"
-line_start: 92427
-line_end: 92432
+line_start: 92849
+line_end: 92854
 dependencies:
   - "C.33"
   - "C.34"
@@ -39,7 +39,7 @@ keywords:
 
 ### E.4.FPF:9 - Consequences
 
-Authors can reproduce an FPF publication by building its Readme, Architectural Reference, ToC and pattern-body units, arranging them in all-in-one or split forms, and publishing them through identified files, sites, volumes or bundles. Skill, MCP, search or retrieval access can expose that publication while keeping edition, publication and access claims distinct. The same declaration keeps FPF's few direct and cross-pattern examples, their forms, and the two reading-burden limits aligned across authoring, assembly, and validation. Explicit non-exhaustive wording lets the examples promote pattern-language use without turning the Readme into a catalogue or forcing a card onto every entry.
+Authors can reproduce an FPF publication by building its Readme, Architectural Reference, ToC and pattern-body units, arranging them in all-in-one or split forms, and publishing them through identified files, sites, volumes or bundles. Skill, MCP, search or retrieval access can expose that publication while keeping edition, publication and access claims distinct. The same declaration keeps FPF's few direct and cross-pattern examples, their forms, and the two reading-burden limits aligned across authoring, assembly, and validation. The selected examples show how to use the pattern language, while the unmatched-question return keeps further discovery available.
 
 The cost is one extra distinction for stewards: whole-FPF form is not the same problem as DPF authoring, package adequacy, individual pattern quality, or first-entry publication. That cost is acceptable because those problems have different evidence and failure modes.
 

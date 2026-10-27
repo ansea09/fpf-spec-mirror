@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:End"
 section_title: "A.6.P.RI:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__014_a-6-p-ri-end.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:End — A.6.P.RI:End"
-line_start: 20549
-line_end: 20550
+line_start: 20560
+line_end: 20561
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"

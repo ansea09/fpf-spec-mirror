@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.4.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
-line_start: 126618
-line_end: 127074
+line_start: 127043
+line_end: 127501
 dependencies:
   - "A.10"
   - "A.13"
@@ -194,7 +194,7 @@ Each `resultInputDeclarationRef` resolves an A.6.1 `ArgumentDeclaration` whose m
   * records which acceptance clauses gate which flows.
 * `CAL.EvidenceProfiles` — evidence wiring surface:
 
-  * lane tags (`F/G/R`) / provenance anchors / policy pins needed for `SCR` and audit surfaces,
+  * lane tags under their declared regime / provenance anchors / policy pins needed for `SCR` and audit surfaces,
   * explicit freshness/decay hooks (freshness window + decay/Γ_time selectors) as pinned policies/refs (not prose).
   * explicit `ReferencePlane` and any used penalty-policy refs (`Φ(CL)`, `Ψ(CL^k)`, `Φ_plane`); the ProofLedger supplies the receiving quantity, scale, input meanings, assumptions, and derivation or calibration. Monotonicity and boundedness alone do not justify a numerical loss.
 * **Optional** `CAL.NQD[]` — QD/OEE‑related calculus surfaces when declared:
@@ -253,9 +253,11 @@ CAL.Flow :=
     resultKind, decisionAidPolicyRef? ⟩
 
 CAL.EvidenceProfile :=
-  ⟨ evidenceProfileId(UTS), lanes(F/G/R), anchors(A.10)[],
+  ⟨ evidenceProfileId(UTS), lanes(declared tags), anchors(A.10)[],
     freshnessPolicyPins[]?, penaltyPolicyPins[]?, ΓFoldRef.edition? ⟩
 ```
+
+`lanes` carries the tags and meanings of the declared evidence-lane regime; when a CHR charter supplies that regime, retain its tags and meanings. The assurance claim, receiving use and selected contributions follow `B.3`/`B.3.3`. Keep any consumed `C.2.2:4.1` tuple, with its exact claim and `F`, `G` and `R_eff` values, separately recoverable from the lane tags.
 
 `CALCharterRef` and `TaskMapRef` each resolve one immutable edition. A changed charter, task, TaskSignature edition, clause, operator, flow, evidence profile, or edition-bearing cited list creates a new `taskMapEdition`; an old `TaskMapRef` continues to resolve its old values. The C.22 TaskSignature remains a separately constituted episteme. The map relates that exact signature to the CAL declarations used by selection but neither derives the signature nor duplicates their thresholds.
 

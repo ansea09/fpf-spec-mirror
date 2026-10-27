@@ -6,12 +6,12 @@ section_id: "A.19:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__007_solution.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:5 — Solution"
-line_start: 34461
-line_end: 34672
+line_start: 34518
+line_end: 34729
 dependencies:
   - "A.10"
   - "A.15"
@@ -75,7 +75,7 @@ Any `U.Dynamics.stateSpace` refers to a declared `CharacteristicSpace`. The dyna
 
 To ensure consistency and comparability, a CharacteristicSpace must obey the following invariants:
 
--   **A19-CS-1 (Exactly one per slot).** Each slot **binds exactly one** Characteristic to **exactly one** Scale (including a specific Unit or kind, if applicable). This mirrors the CSLC clause of “one aspect – one scale”: there are no ambiguous or compound mappings in a single slot. (If a Characteristic can be measured on multiple Scales, choose one Scale for each slot; another Scale for that Characteristic requires a separate slot in this space or a slot in another space.)
+-   **A19-CS-1 (Exactly one per slot).** Each slot **binds exactly one** Characteristic to **exactly one** Scale (including its scale type and, when applicable, its Unit with the quantity-kind and conversion semantics governed by C.16). This mirrors the CSLC clause of “one aspect – one scale”: there are no ambiguous or compound mappings in a single slot. (If a Characteristic can be measured on multiple Scales, choose one Scale for each slot; another Scale for that Characteristic requires a separate slot in this space or a slot in another space.)
 
 - **A19-CS-2 (Named basis).** A CharacteristicSpace declaration contains an ordered basis of slots. Each slot has a stable technical name and makes its Characteristic, Scale, position, and the Characteristic's subject/input signature recoverable. Plain-language aliases may aid recognition but do not change the basis.
 

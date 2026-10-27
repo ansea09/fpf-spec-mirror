@@ -6,12 +6,12 @@ section_id: "C.11.DUA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__006_archetypal-grounding.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:5 — Archetypal Grounding"
-line_start: 57006
-line_end: 57074
+line_start: 57156
+line_end: 57224
 dependencies:
   - "A.10"
   - "C.11"
@@ -36,7 +36,7 @@ These illustrative situations state their conditions for the comparison. Reporte
 
 **Completed answer.** “On your account, the threshold was below the incoming background. That alone does not establish a mistake. A criterion for the operation's added contribution and a criterion for total exposure govern different quantities; the latter can require reducing background too. Compare the protection gained with the feasible treatment burden before judging the threshold.”
 
-That answer supplies the requested distinction and keeps its attribution. It makes no independently verified historical claim and issues no operating permission. The answer itself completes this use; a second account of why archives were not searched adds nothing.
+That answer supplies the requested distinction and keeps its attribution. It makes no independently verified historical claim. The answer itself completes this use; a second account of why archives were not searched adds nothing.
 
 **Changed use.** The recipient now plans to attribute responsibility in a report. Suppose an accessible contemporary record can identify who set the criterion and what it governed. A one-hour record check is feasible and could settle the attribution.
 

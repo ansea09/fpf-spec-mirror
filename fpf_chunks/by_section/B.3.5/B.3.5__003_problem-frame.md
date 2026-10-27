@@ -6,12 +6,12 @@ section_id: "B.3.5:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__003_problem-frame.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:2 — Problem Frame"
-line_start: 45102
-line_end: 45105
+line_start: 45217
+line_end: 45220
 dependencies:
   - "B.3"
   - "C.13"
@@ -21,5 +21,5 @@ keywords:
 
 ### B.3.5:2 - Problem Frame
 
-B.3.5 exists where a readable Working-Model relation must remain usable by practitioners while assurance readers still need a grounding relation and declared validation stance. The EntityOfConcern is not a notation, trace file, or tool output. It is the relation-use discipline that keeps the public relation layer and assurance grounding layer distinct.
+B.3.5 exists where a readable Working-Model relation must remain usable by practitioners while assurance readers still need a grounding relation and declared validation stance. The pattern governs how a public relation claim connects to the support required by its selected assurance use.
 

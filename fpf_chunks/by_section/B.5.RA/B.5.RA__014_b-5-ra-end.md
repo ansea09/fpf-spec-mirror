@@ -6,12 +6,12 @@ section_id: "B.5.RA:End"
 section_title: "B.5.RA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__014_b-5-ra-end.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:End — B.5.RA:End"
-line_start: 47849
-line_end: 47850
+line_start: 47979
+line_end: 47980
 dependencies:
   - "B.5"
   - "B.5.MPC"

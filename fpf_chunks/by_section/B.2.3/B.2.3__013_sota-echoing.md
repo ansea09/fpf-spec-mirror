@@ -6,12 +6,12 @@ section_id: "B.2.3:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__013_sota-echoing.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:10 — SoTA-Echoing"
-line_start: 44064
-line_end: 44072
+line_start: 44181
+line_end: 44188
 dependencies:
   - "A.1"
   - "A.10"
@@ -36,10 +36,9 @@ keywords:
 
 ### B.2.3:10 - SoTA-Echoing
 
-| Source family | Lesson for B.2.3 | FPF decision |
-| --- | --- | --- |
-| Evidence synthesis and living-review practice | Synthesis claims need explicit scope, evidence relations, currentness, and maintenance conditions. | B.2.3 requires current C.2.1 constitution and keeps assurance and source use in neighboring relations. |
-| Knowledge-graph and claim-network practice | A knowledge body can be represented as related claims, evidence, and sources. | The actual ClaimGraph is a C.2.1 constitution participant; its graph representation, evidence, and sources do not declare MHT or add episteme identity positions. |
-| Science-of-science and paradigm-change studies | Fields and theories can consolidate into named bodies with new scope and organizing principles. | B.2.3 treats consolidation as a cue to inspect; it neither constitutes the candidate episteme nor selects B.2. |
-| Publication and standards practice | A standard, report, model, or dashboard use may concern claim content, a representation, a publication form, or its carrier; its name alone does not decide which. | E.17 and source-use patterns remain separate from the episteme whole. |
+The distinction between episteme constitution and neighboring relations is an FPF construction. B.2.3 requires current C.2.1 constitution. State the synthesis claim within the scope needed for its interpretation and use. Recover evidence relations, currentness qualifications, and maintenance conditions only where the receiving use or a binding rule requires them. Assurance and source use remain neighboring relations.
+
+A knowledge body can be represented as related claims, evidence, and sources. The actual ClaimGraph is a C.2.1 constitution participant. Keep its graph representation, evidence, and sources in the neighboring relations described in B.2.3:4.2; C.2.1 governs episteme identity and B.2 governs whole reidentification. Fields and theories can consolidate into named bodies with new scope and organizing principles. B.2.3 treats a named consolidation as a cue to inspect; use C.2.1 for the candidate's constitution and B.2 only for a whole-reidentification question.
+
+A standard, report, model, or dashboard use may concern claim content, a representation, a publication form, or its carrier; its name alone does not decide which. Publication and source use retain their own relations under E.17 and source-use patterns, separate from the episteme's constitution. The constructed case in B.2.3:5.1 applies these distinctions to a stronger claim about a deployment.
 

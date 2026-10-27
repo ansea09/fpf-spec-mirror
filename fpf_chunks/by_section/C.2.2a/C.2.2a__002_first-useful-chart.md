@@ -6,12 +6,12 @@ section_id: "C.2.2a:0"
 section_title: "First useful chart"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__002_first-useful-chart.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:0 — First useful chart"
-line_start: 52005
-line_end: 52020
+line_start: 52137
+line_end: 52152
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -49,7 +49,7 @@ keywords:
 Start with the smallest row that can change the next action:
 
 - the exact episteme publication being positioned;
-- only the currently relevant facet values or intervals; mark a decision-relevant unknown as `unknown`;
+- only the currently relevant facet values or supported sets of possible values; use intervals where the Scale admits them and mark a decision-relevant unknown as `unknown`;
 - the grounds for those readings;
 - any local threshold used by the named next action and whether the readings meet it, fail it, or leave the result undecided;
 - publication form, face, or carrier only when that distinction changes interpretation, preservation, or the next action.

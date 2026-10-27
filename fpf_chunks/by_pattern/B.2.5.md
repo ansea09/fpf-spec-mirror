@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.5.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
-line_start: 44281
-line_end: 44514
+line_start: 44396
+line_end: 44629
 dependencies:
   - "A.1"
   - "A.10"
@@ -200,7 +200,7 @@ For publication channels, journals, datasets, reports, and review records, keep 
 
 A product platform constrains component teams through interface rules and release gates. B.2.5 states the component reports, returned constraints and rule coupling those constraints to the reports for the admitted platform or governance system; a system-role kind or assignment is added only when separately current.
 
-Work alignment uses `A.15`; a separate work-authority claim needs its own direct pattern. Gate passage uses `A.21`; `A.6.M` restores interface wording before the exact commitment claim returns to its direct pattern; architecture view uses `C.30.LCA` when the control structure is described.
+Work alignment uses `A.15`; a separate work-authority claim needs its own direct pattern; use the lookup in `A.15.4:3.5` when the required permission or authority claim is still unclear. Gate passage uses `A.21`; `A.6.M` restores interface wording before the exact commitment claim returns to its direct pattern; architecture view uses `C.30.LCA` when the control structure is described.
 
 ### B.2.5:5.4 - Bias-Annotation
 

@@ -6,12 +6,12 @@ section_id: "F.10:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__011_rationale.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:10 — Rationale"
-line_start: 120244
-line_end: 120249
+line_start: 120669
+line_end: 120674
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "A.13:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__006_solution.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:4 — Solution"
-line_start: 28027
-line_end: 28080
+line_start: 28040
+line_end: 28111
 dependencies:
   - "A.10"
   - "A.12"
@@ -70,11 +70,27 @@ The following descriptions state what the five characteristics concern. A measur
 4. **Policy Enactment Reliability (PER):** The probability that the holder will successfully execute its chosen `U.Method` under operational conditions. The event is successful Method execution; a result or safety claim needs its own basis.
 5. **Objective Complexity (OC):** A measure of the complexity of the objective the holder can pursue, from simple set-points to abstract, multi-scale goals. These examples distinguish objectives; a complexity comparison needs a declared criterion and scale.
 
+**Build the profile for its receiving use.** First name the claim or decision that needs a characteristic. Select the characteristics whose values can change that answer. Keep the holder, configuration, task or Method, assistance and relevant conditions common across the results you combine. Reuse a sufficient existing account; a characteristic-only claim can remain separate from an assignment claim.
+
+For each selected question, use or construct a domain definition that connects an observable distinction to a characteristic value. A.17 and A.18 separate the characteristic, its scale and allowed operations from preference or scoring. C.16 supplies measurement discipline. Explain how the observation distinguishes the values needed by the receiving use. If the same observations fit materially different values, obtain a discriminating observation or retain that uncertainty.
+
+| Characteristic | Construct the measurement needed by the use |
+| --- | --- |
+| BMC | Identify the holder's structural and functional properties to preserve, the perturbations, tolerated loss and recovery, and external assistance. Test that integrity condition on the specified cases. Report the perturbations withstood, a supported limit or a success proportion for a declared population. |
+| PH | Name the internal model and choose temporal or causal depth. Establish the future interval or kind and number of causal transitions that the model represents. Report that extent in its declared units; assess prediction accuracy separately when the receiving use needs it. |
+| MP | Identify the changing model, prediction-error signal, measure of model change and time or budget denominator. For a scalar parameter, state whether the result uses net change or total variation; these differ when updates oscillate. Interpret the achieved rate under its observed conditions. |
+| PER | Identify the chosen Method, successful-execution event, operational population and probability model. Include required operations and permitted stops in the event definition. A sample frequency estimates a probability only under the stated sampling and inference assumptions. |
+| OC | Describe the objective and select a complexity criterion, such as independently adjustable targets or a declared rubric for coordinating conditional goals. Establish that the holder can pursue an objective with that structure. A demonstrated objective can supply a result without establishing the holder's maximum capacity. |
+
+Retain each value or admissible value range, uncertainty, evidence and applicability. An unmeasured characteristic remains unmeasured. Evidence that a holder has no predictive mechanism can establish zero PH; missing information about that mechanism cannot. A model-update rate and a task-performance improvement answer separate questions. A.13:4.3.1 connects a supported adaptation result to the task-family claim.
+
+Assemble only the results that the receiving use consumes, and apply its comparison or decision rule. Values require compatible meanings and conditions, or a justified transformation, before comparison. A faster model change can be useful correction or harmful oscillation; the receiving objective determines that preference. Use the Grade mapping in §4.4 only when a didactic summary is wanted. After a change, reopen the dependent result: new measurement error changes its warranted value range; a tighter task tolerance can change suitability while leaving that range intact; a new model can require a different PH or MP definition.
+
 ##### A.13:4.3.1 - Task-family specialization claims
 
 When assessing a holder’s **time-to-usable specialization**, name the holder, `TaskFamily` and work target. Use C.22 for the task anchor and C.22.1 for adaptation time or budget to the declared work-measure threshold. Keep task family, work target, claim scope, situation, measurement window, threshold, adaptation budget and provenance basis distinct where the claim uses them. The same holder can show different specializations for different task families; this does not establish greater intelligence in general or a new U-kind.
 
-Low-human-overlap or newly discovered task families remain admissible when the task family, evidence basis, and reuse window are explicit by value.
+For a task-family comparison described as low-human-overlap, use C.22:5.2.1 to state the human-practice reference set, correspondence and coverage rule. Newly discovered families retain the same explicit task-family, evidence and reuse-window conditions. Such a comparison characterizes the task-family relation; the holder's specialization still needs its own result.
 
 #### A.13:4.4 - The Agency Grade (Didactic Layer)
 
@@ -91,4 +107,6 @@ Engineers and managers can use the **Agency Grade** as a **non-normative, didact
 The Grade 0 label summarizes a profile; it does not settle the separate local-kind classification or assignment claim.
 
 The profile states characteristic claims and their supporting evidence; the Grade is a pedagogical summary. An actual Grade claim needs a supported profile and a stated mapping from its values to the label, including thresholds when the mapping uses them. Without that basis, leave the Grade unresolved. CC-A13.3 governs that support; CC-A13.4 excludes the Grade as a normative premise.
+
+A local mapping may cover only the profiles needed for its communication use. State non-overlapping conditions for the labels it assigns and leave other cases unclassified. When a supported value is a range, check the permitted values against those conditions. One label is supported only when all consequential admissible values select it; otherwise retain the uncertainty or alternatives allowed by the mapping. Preserve the characteristic results that the label does not summarize.
 

@@ -6,12 +6,12 @@ section_id: "C.40.OI:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__011_rationale.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:10 — Rationale"
-line_start: 84907
-line_end: 84912
+line_start: 85327
+line_end: 85332
 dependencies:
   - "A.15.9"
   - "B.5.PI"

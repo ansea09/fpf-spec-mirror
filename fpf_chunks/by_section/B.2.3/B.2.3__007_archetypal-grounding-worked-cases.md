@@ -6,12 +6,12 @@ section_id: "B.2.3:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__007_archetypal-grounding-worked-cases.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:5 — Archetypal Grounding (Worked Cases)"
-line_start: 43985
-line_end: 44011
+line_start: 44067
+line_end: 44128
 dependencies:
   - "A.1"
   - "A.10"
@@ -38,16 +38,51 @@ keywords:
 
 #### B.2.3:5.1 - Reliability Doctrine
 
-Before MHT, teams have local runbooks, incident reports, dashboards, and reliability definitions. They may be useful, but they are not yet one episteme.
+Reliability work may begin with local runbooks, incident reports, dashboards, and definitions that remain a collection. A first doctrine constitution requires A.1 and C.2.1; the collection supplies no prior holon merely by being named. The following constructed case instead starts with an already recognized episteme and asks whether it can support a stronger deployment claim.
 
-After MHT, the exact candidate may be a reliability doctrine when it passes A.1 and its ClaimGraph, EntityOfConcern, and effective ReferenceScheme stand in an obtaining C.2.1 constitution relation. Add empirical grounding to operating services, handbook publication, and source-use relations for standards or training materials only when the receiving use needs them.
+**Supplied setting and receiving need.** The example stipulates a modeled deployment `S = Relay-S/D17`, independently identified by its deployment configuration, and a fixed nonempty set of requests. Use classical two-valued logic. `Ack(r)` means that D17 emits an acknowledgement for request `r`; `PrimaryStored(r)` means its primary store holds that request's payload when the acknowledgement is emitted. The already recognized episteme `E0 = <G0, S, R0>` has a ClaimGraph containing the sole premise:
 
-- **Candidate new whole:** the reliability doctrine named by B.2.
-- **A.1 basis:** exact constituents and constructive relations established by an obtaining episteme-part or claim-composition predicate, a governed assembly and reidentification rule, a composition-grounded claim-bearing characteristic, and compatibility with an applicable larger knowledge-body construction rule.
-- **C.2.1 constitution:** the doctrine's exact ClaimGraph states its principles and definitions; its EntityOfConcern is user-visible service harm and reliability; its effective ReferenceScheme supplies the reliability designations and interpretation rules.
-- **Neighboring relations:** empirical grounding to operating services, handbook publication, source use for standards and training materials, and evidence or assurance are added only for the receiving use and do not identify the doctrine.
+```text
+P: for every request r, Ack(r) implies PrimaryStored(r).
+```
 
-Systems use and cite the doctrine, use it in training, and let its claims guide their work; any relevant local system-role kind and assignment remain separate claims.
+`R0` is the complete scheme interpreting this graph, with those request, acknowledgement, and primary-storage designations. The receiving work now needs one episteme whose own stated premises support a derivation of:
+
+```text
+Q: for every request r, Ack(r) implies
+   (PrimaryStored(r) and ReplicaStored(r)).
+```
+
+Here `ReplicaStored(r)` means the replica holds the same payload at acknowledgement time. Q concerns the deployment S. The required new object, if established, is an episteme carrying and supporting Q.
+
+**Compare with E0.** In the comparison vocabulary, retain all R0 meanings and add `ReplicaStored`. Set `Ack(r*) = true`, `PrimaryStored(r*) = true`, and `ReplicaStored(r*) = false` for one request, with `Ack = false` for every other request. This valuation satisfies P and falsifies Q, so G0's stated premise does not entail Q. To obtain the required derivation, supply the additional premise:
+
+```text
+T: for every request r, Ack(r) implies ReplicaStored(r).
+```
+
+T is a stipulated premise of this example, not a reliability fact proved about an operating service. Let G1 contain P, T, Q, and the inference deriving Q from P and T by conjunction introduction under the common antecedent. Let R1 retain R0's meanings and add the replica-storage designation. The candidate is `E1 = <G1, S, R1>`.
+
+Nonentailment alone would not establish a new identity. Here C.2.1's declared identity discriminators are the exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme. Keeping E0 requires retaining G0 and R0. Adding the premise, inference, and effective designation needed for this use changes both G and R, so the result cannot be E0 under that identity rule. This establishes `insufficient` for E0 and this receiving use. E0 still exists and supports P; a different layout or publication of its unchanged triple would leave it E0.
+
+**Recognize the candidate.** The construction supplies each A.1 ground:
+
+| Ground | Supplied fact or demonstrated result |
+| --- | --- |
+| Individuated candidate | E1 is the particular candidate `<G1, S, R1>`. |
+| Constituents | G1 and R1 are its epistemic constituents under C.2.1; S remains the independently identified EntityOfConcern. |
+| Construction | R1 interprets every claim and inference in G1 about S, and G1 organizes P and T as premises for Q. This satisfies the C.2.1 constitution predicate for one interpretable claim-bearing whole. |
+| Identity | C.2.1 reidentifies this episteme by that exact G1/S/R1 triple. A change in one of those values identifies another episteme. |
+| Composition-grounded characteristic | G1 supplies the inference organization and R1 its interpretation about S; together they yield an interpretable derivation of Q. P alone and T alone each leave one of Q's conjuncts unestablished. |
+| Compatibility with a larger assembly | The argument construction below incorporates E1 unchanged and uses Q in a further derivation. |
+
+For the last ground, supply a local argument-assembly rule: retain an interpreted argument as an unchanged constituent, preserve its graph and interpretation, and join its conclusion to an additional compatible premise by a named inference. Construct `E2 = <G2, S, R2>`. G2 contains G1 as an unchanged subargument and adds the supplied lemma `L: (PrimaryStored(r) and ReplicaStored(r)) implies Recoverable(r)` for each request. R2 retains R1 as the fixed local scheme for that subargument and adds the meaning of `Recoverable(r)`: the modeled recovery method can read back r's payload at the stated time. Under the assumption Ack(r), Q gives both storage conditions and L gives Recoverable(r) by modus ponens; discharging the assumption yields `Ack(r) implies Recoverable(r)`. Under this construction rule, E1 is a constituent of E2 with its graph, local scheme, subject, and identity preserved.
+
+E1 therefore satisfies the displayed A.1 grounds and C.2.1 constitution and meets the receiving need. If later work needs a reidentification record, `resultHolonRef` names E1 and `resultHolonKindRef` names `U.Episteme`. The record and any classification assertion concern E1; Q still concerns S. The logical construction establishes the conditional derivation, not the truth of P, T, or L for a real deployment. A use that must rely on those service claims needs their actual grounds and any assurance required under B.3.
+
+**Change the interpretation condition.** Suppose the supplied candidate uses G1 with the complete R0, whose declared vocabulary has no interpretation of `ReplicaStored`. The proposed `<G1, S, R0>` fails constitution: its scheme cannot interpret the whole graph. Supply a scheme that does interpret it and identify the resulting episteme. By contrast, if R1 exists but is unavailable to the evaluator, evaluation is `unknown`; recover the scheme or withhold the classification. Neither result erases E0 or changes the identity of an already constituted E1. A failed or unresolved judgment is not a typed positive result in the optional record.
+
+For a larger reliability doctrine, the same comparison uses its actual claims about user-visible service harm and reliability, its independently identified subject, and its effective designations. Add empirical grounding to operating services, handbook publication, and source use for standards or training materials only when the receiving use needs them. Systems use and cite the doctrine, use it in training, and let its claims guide their work; any relevant local system-role kind and assignment remain separate claims.
 
 #### B.2.3:5.2 - Model Family Becomes Theory
 

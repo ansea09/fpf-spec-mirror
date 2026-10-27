@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.NP.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
-line_start: 87079
-line_end: 87222
+line_start: 87499
+line_end: 87644
 dependencies:
   - "C.18"
   - "C.19"
@@ -74,6 +74,8 @@ Separate the end of a project, a provider's contract, one chosen direction and t
 Improvement of development itself is another possible direction. Identify the limitation in noticing, framing, choosing, obtaining means, checking or continuing; construct a better way; use it in a subsequent development occasion; and compare the result and its total burden. Preparing a replacement helper sustains supply. Changing how future helpers are developed can improve the means of development. Neither recursion nor a new generation is valuable by label alone.
 
 A finite observation can support a repeatable next transition, transfer to another carrier or reduced dependence. It cannot demonstrate that development will continue indefinitely.
+
+When the changed position exposes several costly or previously unattainable ways of working, C.39.WI develops their discovery and selection. Compare the receiving gain and complete improvement burden, including effects beyond throughput and work displaced at a constraint. The selected improvement returns to this Method through what its use makes newly attainable; neither the largest reported cost nor a fixed quota determines the next problem.
 
 #### C.40.NP:4.3 - Enable further carriers without requiring compliance
 

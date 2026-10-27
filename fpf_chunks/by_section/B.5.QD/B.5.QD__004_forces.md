@@ -6,12 +6,12 @@ section_id: "B.5.QD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD/B.5.QD__004_forces.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.5.QD — Develop a New Question from a Result or Construction"
   - "B.5.QD:3 — Forces"
-line_start: 48703
-line_end: 48712
+line_start: 48833
+line_end: 48842
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

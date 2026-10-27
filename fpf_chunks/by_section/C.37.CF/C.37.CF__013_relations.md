@@ -6,12 +6,12 @@ section_id: "C.37.CF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__013_relations.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:12 — Relations"
-line_start: 81487
-line_end: 81495
+line_start: 81653
+line_end: 81661
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"

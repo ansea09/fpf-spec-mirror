@@ -6,12 +6,12 @@ section_id: "B.3.5:4"
 section_title: "Solution (thumbnail)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__006_solution-thumbnail.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:4 — Solution (thumbnail)"
-line_start: 45118
-line_end: 45169
+line_start: 45233
+line_end: 45284
 dependencies:
   - "B.3"
   - "C.13"
@@ -21,17 +21,17 @@ keywords:
 
 ### B.3.5:4 - Solution (thumbnail)
 
-CT2R‑LOG introduces a **two‑link discipline** and a **validation flag** around each canonical edge:
+CT2R-LOG distinguishes an optional link between relation designations from the grounding link and validation flag required for each covered assertion:
 
-1. **Alias link (concept‑level).**
-   **Working-Model relations** (e.g., `ut:ComponentOf`) are the public names for their exact direct relation principles. **`tv:AliasOf`** may point from the public relation kind to that principle for comparison and reuse; the alias defines neither an occurrence nor a whole.
+1. **Alias link (lexical).**
+   **`tv:AliasOf`** may link a local relation designation to the accepted Tech designation of the same relation in that use. The definition in :5 fixes both endpoints and the conditions for using this alternative label. Cite the direct relation pattern to recover the relation’s meaning.
 
 2. **Grounding link (assurance level).**
    Each relation assertion covered by this elected profile carries `tv:groundedBy` according to its direct relation kind:
 
-   * **Structural parthood** (`ComponentOf`, `PortionOf`, or `AspectOf`) requires one current C.2.1 construction-trace episteme in the applicable `sum` or `slice` form and `validationMode=axiomatic`. `postulate` is not available for this branch.
+   * **ComponentOf, PortionOf, or AspectOf** requires one current C.2.1 construction-trace episteme in the applicable `sum` or `slice` form and `validationMode=axiomatic`. PortionOf uses the measured-portion profile in `C.13:4.1.1`; AspectOf uses the facet profile. This requirement follows the asserted relation, including measured text portions, and does not make those two profiles interchangeable.
    * **Collection belonging under the collection's own rule** requires one current C.2.1 `C.13 set` trace and `validationMode=axiomatic`. The trace reports the collection, the entity, the already established relation, the rule for belonging, and the identity conditions. It does not make the entity a constructive part, make belonging obtain, or prove that separately grounded parthood is impossible.
-   * **Other epistemic or constitutive edges** may use an admissible evidence object or logical argument under `validationMode ∈ {inferential, postulate}` when no constructive trace is appropriate.
+   * **Other epistemic or constitutive edges** use the support appropriate to their claim: an admissible evidence object for `postulate`, a followable argument for `inferential`, or a qualifying C.13 construction account for `axiomatic`. Constructive grounding is optional in this branch; select the mode from the basis actually used for this assertion.
 
 3. **Validation flag (author intent).**
    Every relation or aggregation rule covered by this profile carries `tv:validationMode` with one of:
@@ -39,7 +39,7 @@ CT2R‑LOG introduces a **two‑link discipline** and a **validation flag** arou
    * **`inferential`** — reasoned consequence with a followable argument; or
    * **`axiomatic`** — one inspectable construction account is the declared assurance basis.
 
-The direct branch above selects which modes and grounding targets are allowed. The flag is an assurance posture, not a species of world-side relation and not an identity or timelessness guarantee.
+The applicable branch above selects the allowed modes and grounding targets. The mode declares the author's justification posture; B.3.3 judges what that support establishes for the receiving use.
 
 > **Relation, grounding, and assurance.**
 > **Published relation claim:** `:PumpA ut:ComponentOf :Skid12`. Assess its expression properties under C.2.3 when that assessment matters to the use.

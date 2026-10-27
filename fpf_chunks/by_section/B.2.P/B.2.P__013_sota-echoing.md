@@ -6,12 +6,12 @@ section_id: "B.2.P:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__013_sota-echoing.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:10 — SoTA-Echoing"
-line_start: 43640
-line_end: 43648
+line_start: 43726
+line_end: 43731
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -47,10 +47,7 @@ keywords:
 
 ### B.2.P:10 - SoTA-Echoing
 
-| Line of practice | Practical implication for B.2.P |
-| --- | --- |
-| Emergence and whole-level behavior literature distinguishes new-whole questions from ordinary characteristic, capability, and measurement claims. | B.2.P keeps whole reidentification with `B.2` and assigns ordinary characteristic, capability, evidence, and measurement claims to their subject patterns. |
-| Systems and holonic practice use collection and whole language for many different objects. | B.2.P requires membership, constructed whole, acting collective system, whole-level characteristic bearer, and candidate new holon named by an MHT claim to be identified separately. |
-| Mathematical and statistical treatments of scale, coarse-graining, graphs, morphisms, and benchmarks can clarify a claim without replacing the ontology. | B.2.P uses `C.29` for the mathematical-lens claim and still requires the in-life EntityOfConcern and direct subject pattern. |
-| Publication and model practice often makes the description more visible than the described holon or characteristic. | B.2.P separates publication, source-use, model, dashboard, and architecture-description claims from the in-life whole-reidentification claim. |
+FPF uses claim-kind recovery (B.2.P:4.1–4.4) to keep whole reidentification with `B.2` and ordinary characteristic, capability, evidence, and measurement claims with their subject patterns. Membership, a constructed whole, an acting collective system, a whole-level characteristic bearer, and a candidate new holon named by an MHT claim must be identified separately. Publication, source-use, model, dashboard, and architecture-description claims remain separate from the in-life whole-reidentification claim.
+
+A historical comparison shows why the distinction matters for mathematical emergence. [Hoel, Albantakis, and Tononi (2013), Abstract and Fig. 2](https://pubmed.ncbi.nlm.nih.gov/24248356/) compare effective information at micro and macro scales in systems whose micro mechanisms are fixed; a macro model can have greater effective information. FPF adapts this comparison by keeping that mathematical result separate from an MHT claim, which needs the `B.2` identity account. Mathematical and statistical treatments of scale, coarse-graining, graphs, morphisms, and benchmarks can clarify a claim without replacing the ontology: `C.29` supplies the mathematical-lens account, with the in-life EntityOfConcern and direct subject pattern still identified (B.2.P:4.2 and B.2.P:5.2).
 

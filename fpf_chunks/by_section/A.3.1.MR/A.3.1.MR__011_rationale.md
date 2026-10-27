@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__011_rationale.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:10 — Rationale"
-line_start: 9867
-line_end: 9872
+line_start: 9878
+line_end: 9883
 dependencies:
   - "A.10"
   - "A.13"

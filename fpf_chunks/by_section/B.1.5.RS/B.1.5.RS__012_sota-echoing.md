@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__012_sota-echoing.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:11 — SoTA-Echoing"
-line_start: 42648
-line_end: 42657
+line_start: 42705
+line_end: 42714
 dependencies:
   - "A.3.1"
   - "B.1.5"

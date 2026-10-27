@@ -6,12 +6,12 @@ section_id: "E.11.PFP:section-006"
 section_title: "Practical-Use Cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__007_practical-use-cards.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:section-006 — Practical-Use Cards"
-line_start: 102649
-line_end: 102760
+line_start: 103074
+line_end: 103185
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -34,7 +34,7 @@ keywords:
 
 ### Practical-Use Cards
 
-<plain statement that these are selected examples of extended cross-pattern use, not a catalogue or prescribed workflow>
+<brief introduction to the selected cross-pattern examples and the questions they help answer>
 
 #### <card key> — <plain title>
 
@@ -85,7 +85,7 @@ The deterministic part of the form check handles recoverable syntax and projecti
 - product-declared Readme and architectural-reference entries in the established ToC grammar, before the logical pattern index, with no generic rival mini-menu;
 - one correctly addressed, content-free architectural-reference end heading at the boundary of that unit;
 - authoritative index segments, aggregate current-pattern row/body bijection, distinct future-facing `PlannedCatalogEntry` rows, duplicates, and reserved support-index grammar;
-- the Readme's one practical-entry set; its explicit examples-not-coverage statement; the product's declaration of example keys and forms; exactly one H3 ordinary entry or H4 card per declared key; five ordered ordinary-entry fields; a non-empty card-group explanation; six ordered card fields; the shared reading-burden measure and mantra/card limits; and zero or one same-key H5 expansion with the declared boundary; and
+- the Readme's one practical-entry set; the product's declaration of example keys and forms; exactly one H3 ordinary entry or H4 card per declared key; five ordered ordinary-entry fields; a non-empty card-group explanation; six ordered card fields; the shared reading-burden measure and mantra/card limits; and zero or one same-key H5 expansion with the declared boundary; and
 - equality and source agreement of every optional public cue that is actually projected.
 
 Check Markdown grouping with a focused source-hazard scan and a parser-backed render of the same candidate. Inspect the rendered heading outline and the block, list, table, code and link structure together. Reuse matching unchanged results. A clean mechanical result supports but does not replace the reader-visible judgement.

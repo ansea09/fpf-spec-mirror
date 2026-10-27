@@ -6,12 +6,12 @@ section_id: "E.11.PFP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__016_relations.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:12 — Relations"
-line_start: 102894
-line_end: 102902
+line_start: 103319
+line_end: 103327
 dependencies:
   - "A.3.2"
   - "C.29"

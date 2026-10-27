@@ -6,12 +6,12 @@ section_id: "B.5.2.0:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__004_problem.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:2 — Problem"
-line_start: 49487
-line_end: 49489
+line_start: 49617
+line_end: 49619
 dependencies:
   - "A.16"
   - "A.16.0"

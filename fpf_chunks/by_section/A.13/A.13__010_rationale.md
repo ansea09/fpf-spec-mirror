@@ -6,12 +6,12 @@ section_id: "A.13:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__010_rationale.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:8 — Rationale"
-line_start: 28126
-line_end: 28135
+line_start: 28179
+line_end: 28188
 dependencies:
   - "A.10"
   - "A.12"
@@ -42,7 +42,7 @@ keywords:
 
 The core answers which System qualifies for a local kind and holds its assignment. The profile answers separate questions about that holder’s capabilities. A Grade summarizes the profile for communication; it does not replace the detailed characteristic results needed by an assurance use.
 
-The following research contributions inform different agency questions:
+The five characteristics are FPF engineering choices. A domain profile develops their operational definitions for its intended use; its measurement methods and any Grade mapping need their own stated basis. The following research contributions inform different agency questions:
 
 - Levin’s [scale-free cognition paper (2019)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.02688/full) proposes an account of individuality and goal-directedness while allowing more than one useful agent definition.
 - Levin’s [TAME proposal (2022)](https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2022.768201/full) describes a rich space of capacities rather than one privileged scalar of cognition. It motivates distinguishing capabilities instead of treating "agent" as a sufficient comparison.

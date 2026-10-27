@@ -6,12 +6,12 @@ section_id: "C.40.RQ:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__007_bias-annotation.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:6 — Bias-Annotation"
-line_start: 86477
-line_end: 86482
+line_start: 86897
+line_end: 86902
 dependencies:
   - "A.10"
   - "A.10.1"

@@ -6,12 +6,12 @@ section_id: "A.2.6:9"
 section_title: "Scope Terminology"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__010_scope-terminology.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:9 — Scope Terminology"
-line_start: 6990
-line_end: 7001
+line_start: 7001
+line_end: 7012
 dependencies:
   - "A.1.1"
   - "A.15.1"

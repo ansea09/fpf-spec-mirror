@@ -6,12 +6,12 @@ section_id: "C.39.MF:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__002_use-this-when.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:0 — Use This When"
-line_start: 82219
-line_end: 82240
+line_start: 82385
+line_end: 82408
 dependencies:
   - "A.15.6"
   - "A.3.1"
@@ -42,4 +42,6 @@ Do not use C.39.MF merely because one tool failed, one practitioner lacks capabi
 | Method-relation focus | Named Methods and candidate accounts plus the relation kinds whose truth could change the project decision. It need not contain a composite whole. |
 | project, process, or case account | A description whose direct subject is recovered from its claims under `A.15.6` and `C.2.1`. It is a `U.View` only through its own `E.17.0` conformance relation. Several accounts can concern one Work; they can instead concern a plan, Method, result, or other subject. |
 | non-Method return | A result that redirects the decision to the actual subject, relation, and next useful question while naming what observation would reopen the Method question. |
+
+When the consequential work or worthwhile improvement has not yet been found, C.39.WI supports its discovery and comparison. Use its result here to settle an ambiguous Method or non-Method focus; an already adequate focus needs no repetition.
 

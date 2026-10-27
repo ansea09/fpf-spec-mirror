@@ -6,12 +6,12 @@ section_id: "C.40.OC:End"
 section_title: "C.40.OC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__014_c-40-oc-end.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:End — C.40.OC:End"
-line_start: 85231
-line_end: 85232
+line_start: 85651
+line_end: 85652
 dependencies:
   - "C.11.CRC"
   - "C.16"

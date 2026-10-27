@@ -6,12 +6,12 @@ section_id: "G.10:1"
 section_title: "Problem frame — Preserve meaning when shipping"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__002_problem-frame-preserve-meaning-when-shipping.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:1 — Problem frame — Preserve meaning when shipping"
-line_start: 129635
-line_end: 129644
+line_start: 130062
+line_end: 130071
 dependencies:
   - "A.10"
   - "A.15.3"

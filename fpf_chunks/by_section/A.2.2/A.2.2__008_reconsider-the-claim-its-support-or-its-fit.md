@@ -6,12 +6,12 @@ section_id: "A.2.2:7"
 section_title: "Reconsider the Claim, Its Support or Its Fit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__008_reconsider-the-claim-its-support-or-its-fit.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:7 — Reconsider the Claim, Its Support or Its Fit"
-line_start: 5313
-line_end: 5328
+line_start: 5324
+line_end: 5339
 dependencies:
   - "A.1"
   - "A.15"

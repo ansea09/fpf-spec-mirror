@@ -6,12 +6,12 @@ section_id: "C.21:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__002_use-this-when.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:0 — Use This When"
-line_start: 61599
-line_end: 61611
+line_start: 61761
+line_end: 61773
 dependencies:
   - "A.10"
   - "A.17-A.18"

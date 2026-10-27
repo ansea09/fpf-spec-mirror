@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 116510
-line_end: 116519
+line_start: 116935
+line_end: 116944
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"

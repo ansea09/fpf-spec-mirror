@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `00a27c2889bb2f7b8e0a7669075826e74d4dd270`
+Commit SHA: `c475118bc1c11d2921b14f74c876e69c24ced3ea`
 
 Chunking method: `pattern-aware`
 
-Patterns: `400`
+Patterns: `401`
 
 ## Patterns
 
@@ -268,6 +268,7 @@ Patterns: `400`
 - [C.39 — Find and Develop a Way to Obtain a Result](by_pattern/C.39.md)
 - [C.39.RO — Turn a Construction into a Reusable Operation](by_pattern/C.39.RO.md)
 - [C.39.MF — Choose and Reopen a Method Development Focus](by_pattern/C.39.MF.md)
+- [C.39.WI — Discover Worthwhile Method Improvements](by_pattern/C.39.WI.md)
 - [C.39.RP — Organize a Repertoire for Method Development](by_pattern/C.39.RP.md)
 - [C.39.RQ — Construct Situated Method Requirements](by_pattern/C.39.RQ.md)
 - [C.39.MC — Continue Method Development from Changed Conditions](by_pattern/C.39.MC.md)

@@ -6,12 +6,12 @@ section_id: "B.3.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__001_intro.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
   - "B.3.4:intro — Intro"
-line_start: 44940
-line_end: 44943
+line_start: 45055
+line_end: 45058
 dependencies:
   - "A.10"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "C.11.DUA:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__011_architectural-rationale.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:10 — Architectural Rationale"
-line_start: 57114
-line_end: 57121
+line_start: 57264
+line_end: 57271
 dependencies:
   - "A.10"
   - "C.11"
@@ -32,5 +32,5 @@ The recurring problem is the connection between a qualified claim and the work a
 
 This gives advice authoring and advice review the same method. Both start with what the recipient would do and end with usable advice. A wording repair under `F.19` may make a demand clear while leaving its cost or merits unresolved. A decision calculation may be correct while answering a different question from the one the recipient needs.
 
-The smaller route is direct use of the existing patterns or a short composing entry. Prefer it whenever it reaches the same warranted completion at comparable effort. This companion is useful where recovery of implicit work, requirement appraisal and the connected completion would otherwise have to be reconstructed. It introduces no choice calculus, new U-kind, universal record or exemption.
+The smaller route is direct use of the existing patterns or a short composing entry. Prefer it whenever it reaches the same warranted completion at comparable effort. This companion is useful where recovery of implicit work, requirement appraisal and the connected completion would otherwise have to be reconstructed.
 

@@ -6,12 +6,12 @@ section_id: "F.18:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__001_intro.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:intro — Intro"
-line_start: 123151
-line_end: 123154
+line_start: 123576
+line_end: 123579
 dependencies:
   - "A.10"
   - "A.15.1"

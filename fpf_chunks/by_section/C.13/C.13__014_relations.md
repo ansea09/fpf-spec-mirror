@@ -6,12 +6,12 @@ section_id: "C.13:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__014_relations.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:10 — Relations"
-line_start: 57612
-line_end: 57642
+line_start: 57774
+line_end: 57804
 dependencies:
   - "A.1"
   - "A.14"
@@ -49,7 +49,7 @@ keywords:
 **Constrains**
 
 - A pattern that relies on a constructive whole states that whole, its constituents, the part relations that obtain, the assembly rule, and the identity rule rather than relying on a list or diagram.
-- Collection, aspect, method, work, discipline, selected-structure, and transformation cases keep their direct owners and stop at missing governors.
+- Collection, aspect, portion, method, work, discipline, selected-structure, and transformation cases keep their direct owners and stop at missing governors.
 - New construction forms require a separate parsimony and use argument; ordinary time, order, evidence, representation, and domain labels do not justify one.
 
 **Provides**

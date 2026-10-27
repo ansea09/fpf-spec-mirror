@@ -6,12 +6,12 @@ section_id: "A.3:9"
 section_title: "Rationale and Source Comparisons"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__010_rationale-and-source-comparisons.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:9 — Rationale and Source Comparisons"
-line_start: 9181
-line_end: 9193
+line_start: 9192
+line_end: 9204
 dependencies:
   - "A.10"
   - "A.12-A.15"

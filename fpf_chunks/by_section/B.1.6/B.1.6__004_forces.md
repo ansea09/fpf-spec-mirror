@@ -6,12 +6,12 @@ section_id: "B.1.6:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__004_forces.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:1.1 — Forces"
-line_start: 42886
-line_end: 42895
+line_start: 42943
+line_end: 42952
 dependencies:
   - "A.1"
   - "A.10"

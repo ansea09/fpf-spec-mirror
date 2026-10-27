@@ -6,12 +6,12 @@ section_id: "A.21:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__003_problem-frame.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:1 — Problem frame"
-line_start: 39623
-line_end: 39628
+line_start: 39680
+line_end: 39685
 dependencies:
   - "A.10"
   - "A.15.5"

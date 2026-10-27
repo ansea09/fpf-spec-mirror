@@ -6,12 +6,12 @@ section_id: "A.15.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__012_sota-echoing.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:11 — SoTA-Echoing"
-line_start: 31267
-line_end: 31282
+line_start: 31324
+line_end: 31339
 dependencies:
   - "A.1"
   - "A.1.STM"

@@ -6,12 +6,12 @@ section_id: "C.22:5"
 section_title: "Solution — Problem CHR, TaskSignature, and assignment relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__007_solution-problem-chr-tasksignature-and-assignment-relation.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:5 — Solution — Problem CHR, TaskSignature, and assignment relation"
-line_start: 61935
-line_end: 62113
+line_start: 62097
+line_end: 62279
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -183,6 +183,10 @@ Use C.22 to revise the smallest affected identity or declaration-content compone
 A claim that one holder, dyad, team, or explicitly scoped specialist portfolio acquired usable specialization is complete only when it states one declared `TaskFamilyRef` or `TaskSignature`, one named work-measure threshold target, an adaptation budget, and the freshness or provenance basis for reuse. A method may be selected, refined, or retired as part of that story, but it is not the subject of the specialization claim. The TaskSignature declaration and assignment remain rich enough for the same task family and work target to stay admissible in `C.22.1` adaptation signatures, `G.5` specialization profiles, and `G.9` adaptation parity without reconstructing the claim from narrative prose.
 
 Low-human-overlap or newly discovered task families remain admissible when those task-family or signature references are explicit by value.
+
+When a low-human-overlap comparison matters to the receiving use, identify the target task family and a bounded reference set of documented human practice. Define the task correspondence through the inputs, objectives, constraints and conditions relevant to that use. State the direction, weighting or coverage rule and the local threshold meant by "low". These choices make the comparison reproducible; an ordinary task-family declaration needs no such comparison.
+
+For example, suppose one of five equally weighted target task classes has a match in a completely examined finite reference set. Directional coverage is 1/5, below a declared threshold of 1/4. If one class is matched, two are known not to match and two remain unclassified, possible coverage instead ranges from 1/5 to 3/5, so that evidence cannot settle the same low-coverage claim. The result concerns this reference set and task correspondence. Task admissibility and the holder's specialization retain their own tests.
 #### C.22:5.3 - Provenance, schemes, and planes
 
 Record the effective `U.ReferenceScheme`, `U.ClaimScope`, and any `ReferencePlane` needed to interpret a relied-on value. A difference in scheme or plane opens a comparison question; it does not by itself establish a Bridge, forbid use, or impose a penalty.

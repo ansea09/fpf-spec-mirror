@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__006_archetypal-grounding.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:5 — Archetypal Grounding"
-line_start: 42417
-line_end: 42442
+line_start: 42474
+line_end: 42499
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"

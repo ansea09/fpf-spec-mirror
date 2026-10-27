@@ -6,12 +6,12 @@ section_id: "C.2.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__011_rationale.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:10 — Rationale"
-line_start: 52892
-line_end: 52894
+line_start: 53042
+line_end: 53044
 dependencies:
   - "A.13"
   - "A.15"

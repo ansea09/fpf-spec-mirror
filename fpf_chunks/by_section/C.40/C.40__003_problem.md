@@ -6,12 +6,12 @@ section_id: "C.40:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__003_problem.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:2 — Problem"
-line_start: 82999
-line_end: 83004
+line_start: 83419
+line_end: 83424
 dependencies:
   - "C.11"
   - "C.18"

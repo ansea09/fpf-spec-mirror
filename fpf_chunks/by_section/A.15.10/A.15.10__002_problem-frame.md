@@ -6,12 +6,12 @@ section_id: "A.15.10:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__002_problem-frame.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.15.10 — Resume Interrupted Work"
   - "A.15.10:1 — Problem frame"
-line_start: 32239
-line_end: 32248
+line_start: 32296
+line_end: 32305
 dependencies:
   - "A.15"
   - "A.15.5"

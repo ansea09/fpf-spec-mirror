@@ -6,12 +6,12 @@ section_id: "C.2.LS:16"
 section_title: "Profile Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__017_profile-publication-package-discipline.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:16 — Profile Publication Package Discipline"
-line_start: 52749
-line_end: 52768
+line_start: 52899
+line_end: 52918
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -53,10 +53,10 @@ A publishable `U.LanguageStateFacetProfile` carries what its receiving use needs
 One-line publication is admissible only if the facet definitions and tests remain legible.
 
 #### C.2.LS:16.2 - Partial-profile rule
-A partial profile identifies its selected facets and any missing reading that could change the receiving judgement. Publishing `AE` and `CD` can suffice when anchoring is irrelevant to that use. If the use depends on anchoring and its value is unavailable, state that unknown; a readiness label cannot fill it.
+A partial profile identifies its selected facets and any missing reading that could change the receiving judgement. Publishing `AE` and `CD` can suffice when anchoring is irrelevant to that use. When anchoring matters, report its value, a supported set of remaining possible modes, or a decision-relevant `unknown` under C.2.2a:4.2; `AM.Mixed` requires the identified components under C.2.6.
 
 One facet can be sufficient for the named use. Refer to other readings only when that use needs them; no note about irrelevant omissions is required.
 
 #### C.2.LS:16.3 - Overlay discipline
-Local overlays such as "explicit-but-open", "trace-heavy", or "operator-tight" are admissible only when they dock to explicit facet refs. Overlays remain secondary to the declared profile and must not replace the facet bundle.
+Local overlays such as "explicit-but-open", "trace-anchored", or "operator-loop anchored" are admissible only when their meanings are recoverable from the explicit facet readings and refs. Overlays remain secondary to the declared profile and must not replace the facet bundle.
 

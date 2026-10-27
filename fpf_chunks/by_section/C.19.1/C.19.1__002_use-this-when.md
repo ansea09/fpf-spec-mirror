@@ -6,12 +6,12 @@ section_id: "C.19.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__002_use-this-when.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:0 — Use This When"
-line_start: 60900
-line_end: 60929
+line_start: 61062
+line_end: 61091
 dependencies:
   - "A.0"
   - "A.10"

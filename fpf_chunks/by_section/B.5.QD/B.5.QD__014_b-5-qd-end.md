@@ -6,12 +6,12 @@ section_id: "B.5.QD:End"
 section_title: "B.5.QD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD/B.5.QD__014_b-5-qd-end.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.5.QD — Develop a New Question from a Result or Construction"
   - "B.5.QD:End — B.5.QD:End"
-line_start: 48893
-line_end: 48894
+line_start: 49023
+line_end: 49024
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

@@ -6,12 +6,12 @@ section_id: "A.12:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__006_solution.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:4 — Solution"
-line_start: 27733
-line_end: 27837
+line_start: 27744
+line_end: 27849
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -43,7 +43,7 @@ Separate the acting participant from the subject claimed to change. Add the prec
 
 #### A.12:4.1 - Acting-Side Externalization
 
-When a precise change-bearing account is needed, use the following frame to distinguish the participants and the claims you are making. It is not a required form for an ordinary acting-side explanation. Fill a neighboring-claim position only when that claim is needed and its own admission conditions hold:
+For a precise change-bearing account, use one of the two optional A.12 outlines to organize the participants and independently governed claims of a case. Their fields are prompts for the explanation. Fill a neighboring-claim position only when that claim is needed and its own admission conditions hold:
 
 ```text
 ActingSideExternalization@Context:
@@ -61,14 +61,13 @@ ActingSideExternalization@Context:
   workOccurrenceRef?
   holonBoundaryCrossingRelationRef?: one exact obtaining relation occurrence satisfying the predicate, applicability, and identity rules that define the crossing relation
   evidenceRelationRefs?
-  strongerOwnerRefs:
 ```
 
 Identify `actingEntityRef` and `changedSubjectRef` as distinct participants in the claim. `changedSubjectRef` is a question-local position, not a U-kind or union ValueKind: its value retains its independently admitted kind and identity rule. A presentation carrier does not become a `U.Holon` by filling it. Fill `transformationRef` only when A.3.4 establishes a bounded change of that same continuing referent.
 
 Use the complete A.1 criterion or an applicable established A.1 result before classifying the acting entity as a `U.System`. When this account needs recognition and it is not established, retain the entity and its `recognized | rejected | unknown` disposition or blocker. Leave `actingSystemRef` unfilled until recognition is established; once recognized, it names the same entity under `U.System`. Tight coupling or membership in a larger holon does not merge the acting and changed positions.
 
-`ActingSideExternalization@Context` describes the relation frame; it does not define a U-kind or establish that a change occurred. Each neighboring claim has its own participants and defining or testing rule. Neither A.12 frame has a generic context, scope or qualifier position. Ask what the proposed qualifier changes:
+In these two A.12 outlines, `@Context` denotes a short case label: the examples use `RobotInternals`, `RobotCalibration`, `DocumentBuild` and `Machining`. Each stated claim keeps its own participants and defining or testing rule. Make the grounds needed by the present use recoverable with that claim, through an existing reference or an ordinary explanation. Neither A.12 outline has a generic context, scope or qualifier position. Ask what the proposed qualifier changes:
 
 - If claim content, EntityOfConcern or the effective reference scheme changes, C.2.1 identifies another episteme.
 - If the question is whether a `U.ContextSlice` belongs to a claim’s set-valued applicability boundary, use A.2.6’s `U.ClaimScope` and membership evaluation.
@@ -85,6 +84,8 @@ Use:
 - `A.1`, `A.14`, and `C.13` when holon identity, part-whole, or constructive grounding becomes current.
 
 For a dated Work claim, first establish each actual performer’s A.13 core: an admitted System, a local agential system-role kind and criterion it satisfies, an obtaining assignment, and the scope, situation and window the use needs, supported by evidence. Add an agency-characteristic profile only for a consumed Grade/autonomy/profile claim, a characteristic-dependent local criterion, or an assurance use that requires it. Then admit the occurrence independently under A.15.1 from its performance history, enacted Method, temporal extent and obtaining containing-System relation. Only if precise assignment-bound attribution is also claimed does F.6 relate that admitted Work to the same obtaining assignment. A Work-only account stops after admission.
+
+When the receiving question also asks how that Work changed the subject, use A.3.4:4.2.4. Recover the actual action performed within the Work, the property changed and the subject grounds connecting them. A.6.RCD permits an ordinary compound claim when its base facts and constructor semantics suffice. A physical account may need the interacting participants, an applicable response law and preparation under A.3.3.TR; a boundary-exchange question additionally selects the quantity, boundary and interval under C.29.BB. Develop only the connection the receiving question consumes. Section 5.3 shows a local contribution claim and the separate question of a durable crossing reference.
 
 #### A.12:4.2 - Reflexive Split
 

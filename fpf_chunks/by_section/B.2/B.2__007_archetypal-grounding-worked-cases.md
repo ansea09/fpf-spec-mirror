@@ -6,12 +6,12 @@ section_id: "B.2:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__007_archetypal-grounding-worked-cases.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:5 — Archetypal Grounding (Worked Cases)"
-line_start: 43268
-line_end: 43328
+line_start: 43350
+line_end: 43414
 dependencies:
   - "A.1"
   - "A.10"
@@ -51,11 +51,13 @@ Parts: plant, sensor, controller, actuator.
 
 Existing-whole repair may be enough if only a sensor improved or a controller parameter changed. B.2 becomes current only when exact constructive relations and a governed assembly close the feedback and supervision around an objective, yielding one exact new whole proposed for recognition under the already admitted `U.System` kind, whose boundary, external commitments, and capability envelope are no longer explainable as changes of the existing whole. That proposed whole can satisfy A.1 only if its actual boundary, interfaces, relevant characteristics, and identity-preservation conditions also satisfy at least one applicable governed larger-assembly construction method or rule—for example, a rule under which the regulated system can remain one constituent of a larger plant or production system. If that compatibility condition does not hold, the proposed whole fails A.1; if the needed evidence or dependency is unavailable, evaluation remains `unknown`. Loop closure, a record, or a measurement supplies none of those facts.
 
+The optional accounts below apply when the plant-plus-devices configuration is already an established holon under its identity rule and the regulated system has passed the comparison and recognition tests. If this is the first constitution of a whole from a collection of devices, use the A.1 construction-and-recognition route in :4 instead.
+
 ```text
 MHTTriggerProfile@Control : U.Episteme
   entityOfConcernRef: plant-plus-devices configuration
   content:
-    changedSupervisionRelationRefs: closed feedback relation
+    changedFeedbackClaimRef: FeedbackClosureClaim under B.2.5
     changedObjectiveClaimRef: maintain output y near reference r
     changedCapabilityClaimRef: capability envelope after closure
 
@@ -72,11 +74,13 @@ HolonReidentificationRecord@Control : U.Episteme
     changedClaimPatternLocators: A.1, B.1.2, B.2.2, C.30.LCA, A.2.2
 ```
 
-The exact EntityOfConcern is an actual participant in the C.2.1 `EpistemeConstitutionRelation`; `EntityOfConcernSlot` is only the corresponding declaration-local participant meaning inside `EpistemeConstitutionRelationSignature`. The `entityOfConcernRef` field and indented content fields carry participant or claim designations in each episteme; they are not SlotKinds or participants of a new MHT relation. The feedback and capability relations retain their direct identities, while the optional classification assertion retains its own C.2.1 identity and does not establish world-side holonhood.
+The exact EntityOfConcern is an actual participant in the C.2.1 `EpistemeConstitutionRelation`; `EntityOfConcernSlot` is only the corresponding declaration-local participant meaning inside `EpistemeConstitutionRelationSignature`. The `entityOfConcernRef` field and indented content fields carry participant or claim designations in each episteme; they are not SlotKinds or participants of a new MHT relation. The feedback assertion keeps its observation and return-influence relations and its coupling grounds under B.2.5. Any supervision or capability relations retain their direct identities, while the optional classification assertion retains its own C.2.1 identity and does not establish world-side holonhood.
 
 #### B.2:5.2 - Compendium Becomes Theory
 
-A collection of results can remain a catalogue. B.2 becomes current only when the knowledge body is reidentified as an episteme whole with its own claim-bearing structure, explanatory objective, reference scheme, and evidence relations.
+A collection of results can remain a catalogue. For a first episteme constitution, establish its claim-bearing structure and interpretation under C.2.1 and apply A.1. When an established prior whole is available, compare the changed claim-bearing structure, explanatory use, and reference scheme with its identity rule through :4.2. Evidence supports the comparison; a change in evidence alone does not reidentify the episteme.
+
+B.2.3:5.1 shows a complete constructed comparison: an existing episteme supports a narrower deployment claim, while the required conclusion needs a changed ClaimGraph and ReferenceScheme and hence a different episteme under C.2.1. The prior episteme remains usable for its narrower claim.
 
 `B.2.3` specializes this case when the exact candidate new holon named by the MHT claim is recognized under the already admitted `U.Episteme` kind. C.2.1 defines episteme constitution and identity; E.17 and E.24.PUB define publication occurrences, forms, and carriers; C.2.P recovers source-expression and source-to-use distinctions; use A.10 for bounded evidence reliance and G.6 for its evidence/provenance graph and ledger, retaining each relation's direct governor.
 

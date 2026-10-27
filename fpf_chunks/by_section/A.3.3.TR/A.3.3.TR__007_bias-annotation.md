@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__007_bias-annotation.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:6 — Bias-Annotation"
-line_start: 12536
-line_end: 12541
+line_start: 12547
+line_end: 12552
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"

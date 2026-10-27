@@ -6,12 +6,12 @@ section_id: "B.2.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__006_solution.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
   - "B.2.2:4 — Solution"
-line_start: 43712
-line_end: 43785
+line_start: 43795
+line_end: 43868
 dependencies:
   - "A.1"
   - "A.10"
@@ -46,7 +46,7 @@ After B.2 leaves a whole-reidentification question open, continue with the same 
 
 #### B.2.2:4.1 - Reuse The B.2 Candidate And Complete System Recognition
 
-Keep B.2's one `resultHolonRef` for the exact candidate new whole and its one `resultHolonKindRef`, which here resolves to the already admitted `U.System` kind. The references may appear in B.2's optional `HolonReidentificationRecord` when a receiving use needs a durable account; B.2.2 adds no second record.
+Start with B.2's candidate designated as an exact `U.Entity`, proposed for the already admitted `U.System` kind. After the recognition tests below establish the result, use B.2's one `resultHolonRef` for that individual and its one `resultHolonKindRef` resolving to `U.System`. The references may appear in B.2's optional `HolonReidentificationRecord` when a receiving use needs a durable account; B.2.2 adds no second record. Preliminary, failed, and unresolved evaluations follow B.2:4.4.
 
 Before calling the candidate a system result:
 
@@ -72,7 +72,7 @@ When the candidate is recognized as `U.System`, state every changed result-syste
 - evidence and assurance through `A.10`, `B.3`, and `B.3.5`;
 - temporal and dynamics claims through `C.27`, `A.19`, and the direct temporal patterns.
 
-Do not reuse old component evidence as if it automatically covered the proposed new whole after recognition under `U.System`. Carry an unchanged component claim only through its exact continuing relation; establish each changed result-system fact under its subject pattern and support the associated claim through a separate evidence or assurance relation.
+Do not reuse old component evidence as if it automatically covered the proposed new whole after recognition under `U.System`. Carry an unchanged component claim only through its exact continuing relation; establish each changed result-system fact under its subject pattern. Where evidence is relied on, recover its relation to the result claim. Apply B.3 for a named assurance use or binding requirement as in B.2:4.3; reuse existing support when it is adequate for that claim and use.
 
 #### B.2.2:4.3 - System Trigger Interpretation
 

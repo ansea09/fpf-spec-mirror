@@ -6,12 +6,12 @@ section_id: "C.2.3:15"
 section_title: "Composition and interaction"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__016_composition-and-interaction.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:15 — Composition and interaction"
-line_start: 52463
-line_end: 52484
+line_start: 52595
+line_end: 52616
 dependencies:
   - "A.16"
   - "A.18"

@@ -6,12 +6,12 @@ section_id: "E.14:9"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "E.14 — Human-Centric Working-Model: Readable Claims and Recoverable Assurance"
   - "E.14:9 — Common Anti-Patterns and How to Avoid Them"
-line_start: 103766
-line_end: 103775
+line_start: 104191
+line_end: 104200
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -29,6 +29,6 @@ keywords:
 | Machinery-first working text | The reader meets constructor traces, proof apparatus, or evidence ids before the working model. | Put the recognition text and chosen Working-Model labels first; keep assurance below. |
 | Assurance leakage upward | Mapping, proof, or empirical records rename the public working vocabulary. | Preserve downward grounding: Working-Model terms are not back-defined by assurance publications. |
 | Slash-label compromise | Several source labels are displayed because no model value was chosen. | Use Mapping to record source labels and show one chosen Working-Model label. |
-| Structure-time collapse | Order, phase, or execution is encoded as part-whole structure. | Keep time and order in their own relation families. |
+| Structure-time collapse | Sequence, phase labels, or temporal coverage are treated as sufficient grounds for parthood. | Recover the Work-part or proper-phase relation under A.15.1 or A.14 respectively, and keep order and temporal claims separate. |
 | Forever-light prose | Human-facing prose becomes so small that the reader cannot recover the problem, payoff, or assurance boundary. | Keep recognition text concise but still include problem framing, rationale, and worked slices. |
 

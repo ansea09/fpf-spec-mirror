@@ -6,12 +6,12 @@ section_id: "A.6.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__010_consequences.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:9 — Consequences"
-line_start: 16903
-line_end: 16919
+line_start: 16914
+line_end: 16930
 dependencies:
   - "A.1"
   - "A.1.1"

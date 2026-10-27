@@ -6,12 +6,12 @@ section_id: "B.5.2.1:4"
 section_title: "Solution — NQD-Generate and its C.18 records"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__005_solution-nqd-generate-and-its-c-18-records.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:4 — Solution — NQD-Generate and its C.18 records"
-line_start: 49681
-line_end: 49700
+line_start: 49811
+line_end: 49830
 dependencies:
   - "A.17"
   - "A.18"
@@ -36,7 +36,7 @@ keywords:
  `HypothesisSpace`, `CharacteristicSpace`, `Seeds?`, `Budget (time/compute)`, `EmitterPolicy` (**E/E-LOG policy id**), `QualityMeasures (Q components)`, `NoveltyMetric`, `CoverageGrid/Granularity`, `CellCapacity K? (default=1)`, `EpsilonDominance ε? (default=0)`, `TieBreakPolicy? (S/I)`, `DedupThreshold?`, `Policy(TimeWindow)`, `DeterminismSeed?`
 
 * **Outputs:**
-  CandidateSet = {h_i: (desc_i, Q_i, N_i?, D_i?:=ΔDiversity_P(h_i | Pool), S_i?, UseValue_i?), genealogy_i?, provenance_i (including **DHCMethodRef.edition** and **policyId** from E/E-LOG)} where `Q_i` is a vector and `provenance_i` captures generator settings and evaluation sources. The coordinate entries cite the constituted results actually used. When illumination is reported, carry IlluminationSummary separately as a report about its declared retained set. Unused optional readings need not be produced. If Use-Value is present, identify its objective or acceptance criterion and scope. For a gain claim, also identify the baseline and comparison or counterfactual Method; for a predicted reading, identify the model edition and assumptions under C.17. Note: `N`, `D`, `S`, and `I` are archive, tie-break, telemetry, or policy-promoted signals by default; only the declared `DominanceSet` enters the current front. `Use-Value` is decision-side/supporting unless the current Context explicitly declares it inside the active `Q` tuple / `DominanceSet`; when it is only recorded as a side measure, keep it outside dominance.
+  CandidateSet = {h_i: (desc_i, Q_i, N_i?, D_i?:=ΔDiversity_P(h_i | Pool), S_i?, UseValue_i?), genealogy_i?, provenance_i (including **policyId** from E/E-LOG and, when a DHC coordinate is consumed, **DHCMethodRef.edition** and the other active fields of C.21's `DHCReplayBasis`)} where `Q_i` is a vector and `provenance_i` captures generator settings and evaluation sources. The coordinate entries cite the constituted results actually used. When illumination is reported, carry IlluminationSummary separately as a report about its declared retained set. Unused optional readings need not be produced. If Use-Value is present, identify its objective or acceptance criterion and scope. For a gain claim, also identify the baseline and comparison or counterfactual Method; for a predicted reading, identify the model edition and assumptions under C.17. Note: `N`, `D`, `S`, and `I` are archive, tie-break, telemetry, or policy-promoted signals by default; only the declared `DominanceSet` enters the current front. `Use-Value` is decision-side/supporting unless the current Context explicitly declares it inside the active `Q` tuple / `DominanceSet`; when it is only recorded as a side measure, keep it outside dominance.
 
 **Strategy (notation‑neutral).**
 

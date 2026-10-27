@@ -6,12 +6,12 @@ section_id: "B.2.4:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__013_sota-echoing.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:10 — SoTA-Echoing"
-line_start: 44263
-line_end: 44271
+line_start: 44379
+line_end: 44386
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,10 +37,9 @@ keywords:
 
 ### B.2.4:10 - SoTA-Echoing
 
-| Source line | Practical implication for this pattern |
-| --- | --- |
-| Capability and functioning approaches | An A.2.2 capability envelope states what its named System holder can do under conditions; it is not automatically a new whole. Evidence supports or challenges the claim about the envelope but does not create it. |
-| Functional architecture and transformation-flow practice | Obtaining functioning relations and selected in-life flow structures can make a new-whole question live; descriptions and diagrams remain distinct from those facts. |
-| Method and work ontology in FPF | Method, method description, work plan, and performed work occurrence must stay separate when capability evidence is interpreted. |
-| TAME and agency-as-characteristic-space work | Agency-like evidence is multi-characteristic and thresholded by concern; B.2.4 does not create a binary agency kind. |
+FPF's construction in B.2.4 preserves capability and functioning claims while deciding whether whole reidentification is needed (B.2.4:4.1–4.3). The A.2.2 capability claim concerns the named System holder's ability under the conditions in its capability envelope and at the stated attained bounds. Evidence and source-use relations support or challenge that claim and qualify reliance on it.
+
+Obtaining functioning relations and selected in-life flow structures can make a new-whole question live; descriptions and diagrams remain distinct from those facts. Method, method description, work plan, and performed work occurrence must stay separate when capability evidence is interpreted.
+
+When a receiving use consumes agency-characteristic values, interpret the agency-like evidence through A.13's multi-characteristic profile and C.16's measurement discipline, with thresholds stated for that concern. B.2.4 does not create a binary agency kind. A.13:8 identifies the profile's FPF engineering choices and its research motivation.
 

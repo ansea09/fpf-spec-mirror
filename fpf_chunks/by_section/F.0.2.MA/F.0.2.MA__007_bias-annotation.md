@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__007_bias-annotation.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:6 — Bias-Annotation"
-line_start: 116320
-line_end: 116325
+line_start: 116745
+line_end: 116750
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

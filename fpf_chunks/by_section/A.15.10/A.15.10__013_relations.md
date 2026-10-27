@@ -6,12 +6,12 @@ section_id: "A.15.10:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__013_relations.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.15.10 — Resume Interrupted Work"
   - "A.15.10:12 — Relations"
-line_start: 32416
-line_end: 32427
+line_start: 32473
+line_end: 32484
 dependencies:
   - "A.15"
   - "A.15.5"

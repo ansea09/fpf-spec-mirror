@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.2.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.29.2 — Computational Formulation"
-line_start: 69445
-line_end: 69836
+line_start: 69611
+line_end: 70002
 dependencies:
   - "A.10"
   - "A.3.1"

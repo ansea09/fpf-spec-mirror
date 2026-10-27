@@ -6,12 +6,12 @@ section_id: "A.3.3.CC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.CC/A.3.3.CC__010_consequences.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.3.3.CC — Construct a Configuration Description under Constraints"
   - "A.3.3.CC:9 — Consequences"
-line_start: 12324
-line_end: 12329
+line_start: 12335
+line_end: 12340
 dependencies:
   - "A.17"
   - "A.18"

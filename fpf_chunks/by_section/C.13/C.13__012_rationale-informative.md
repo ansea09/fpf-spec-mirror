@@ -6,12 +6,12 @@ section_id: "C.13:9"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__012_rationale-informative.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:9 — Rationale (informative)"
-line_start: 57588
-line_end: 57603
+line_start: 57750
+line_end: 57765
 dependencies:
   - "A.1"
   - "A.14"
@@ -35,7 +35,7 @@ keywords:
 
 - `sum` asks how exact constituents and constructive relations assemble an integrated whole;
 - `set` asks which entities belong to a collection under that collection's identity and belongs-to rule;
-- `slice` asks which exact aspect is distinguished from one bearer under a governed facet.
+- `slice` asks which aspect is distinguished under a facet rule, or which measured portion is delimited under a boundary rule. These profiles keep their different relation conditions.
 
 The forms are intentionally small, but their inputs do not determine ontology by themselves. An assembly is more than a set of part names; a collection is not automatically a holon or agent; and a facet label is not an aspect occurrence. The direct patterns provide relation obtaining and occurrence identity, while the candidate's direct pattern decides whether the existing whole continues or a new whole must be identified.
 

@@ -6,12 +6,12 @@ section_id: "E.4.PFR:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__005_solution.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:3 — Solution"
-line_start: 93966
-line_end: 94116
+line_start: 94388
+line_end: 94540
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -58,7 +58,7 @@ If no actual formal-premise use or criterion selection is claimed, omit Lane 3; 
 
 #### E.4.PFR:3.2 - Lane 2: optional relation-specific maintenance row
 
-Choose the smallest stable form the named receiver consumes. Use `PatternFrameworkRelationRecord` when a cross-relation comparison or maintenance index needs common endpoint, relation-function, use, and blocked-reading fields. Use `FrameworkEditionDependencyRecord` when an edition-impact or refresh receiver needs the relied-on content, dependency reason, direction, and refresh fields. Choose one by default; either form faithfully represents an already identified assertion and creates no relation.
+Choose the smallest stable form the named receiver consumes. Use `PatternFrameworkRelationRecord` when a cross-relation comparison or maintenance index needs common endpoint, relation-function and use fields. Use `FrameworkEditionDependencyRecord` when an edition-impact or refresh receiver needs the relied-on content, dependency reason, direction, and refresh fields. Choose one by default; either form faithfully represents an already identified assertion and creates no relation.
 
 If one named receiver genuinely needs both views, both cite the same `subjectAssertionRef`, the dependency record cites the generic row through `genericRelationRecordRef`, and every overlapping value is derived from that assertion. Rebuild both views when the assertion changes; never maintain duplicate facts independently.
 
@@ -73,7 +73,7 @@ PatternFrameworkRelationRecord@Context:
   relationFunctionClaimRef?
   dependencyOrEditionEffect?
   preservationOrAdmissionRef?
-  blockedStrongerReading
+  blockedStrongerReading?
   sourceReturnCondition?
   refreshOrSupersessionCondition?
 ```
@@ -110,8 +110,10 @@ FrameworkPackageManifest@Context:
   qualityEvidenceRefs
   refreshPlanOrCurrentnessRefs
   firstEntryCarrierRefs
-  blockedRuntimeOrBuildReading
+  blockedRuntimeOrBuildReading?
 ```
+
+`blockedStrongerReading` and `blockedRuntimeOrBuildReading` are optional. Include a rejected reading only when it passes F.19:4.4's independent-ground, plausible-reader and contribution test, and state the smallest clear correction. Leave the field absent when no such correction is needed; a tabular consumer may keep an empty column.
 
 The dependency record mirrors exactly one already stated direct dependency and cites that assertion through `subjectAssertionRef`. It names one dependent edition, one relied-on edition, the exact content from that relied-on edition, the named use, direction, reason, and refresh conditions as one unit. If one edition has several direct dependencies, write one record per relied-on edition or use a keyed collection of those records; never pair parallel edition and content lists or read them as a cross-product. A useful aggregate is only a projection over those direct records, not a second maintained truth. The record contains no compatibility boundary. `compatibilityClaimRefs`, when present, points only to a separately stated pairwise compatibility claim because a named maintenance receiver needs that connection. The reference does not create or complete the compatibility claim. `genericRelationRecordRef` is present only when the same receiver also consumes the generic row; both views derive overlapping values from `subjectAssertionRef` and refresh together. Deprecation and supersession likewise remain separate assertions; a package manifest may index them when its named maintenance use needs those refs.
 

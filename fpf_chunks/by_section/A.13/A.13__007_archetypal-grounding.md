@@ -6,12 +6,12 @@ section_id: "A.13:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__007_archetypal-grounding.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:5 — Archetypal Grounding"
-line_start: 28081
-line_end: 28103
+line_start: 28112
+line_end: 28156
 dependencies:
   - "A.10"
   - "A.12"
@@ -60,4 +60,26 @@ The profile values above are illustrative assumptions, not measured results. The
 
 **Key takeaway from grounding:**
 The same ontology works for a thermostat, a predictive controller, a learning System, and a collective System: classification by a local kind and an obtaining assignment are both stated, while scope, situation, Work, evidence, profile, and grade remain separate. An exact ISO claim episteme may be cited in an A.10 evidence-provenance account or a B.3 reliance claim; any direct relation relied on by that account or claim must actually obtain under its own defining rule. Its file carrier merely bears a publication form.
+
+#### A.13:5.1 - Construct a measured profile for a calibration use
+
+Consider one installed `SensorArray-S7`, admitted as a System. This constructed case supplies its local `IndustrialProcessAdaptiveController` criterion and obtaining assignment: S7 detects deviation from a reference signal, selects a permitted offset update or stops calibration on an invalid input, and has the designation and enabled connection for that control. Those premises establish the agency core. The additional question is what its bench profile shows and whether calibration reaches residual error at most 0.1 °C within three minutes.
+
+The measurement definitions and observations below are stipulated case inputs. The internal sensor model is `z = r + b`, where z is the raw indication, r the reference value and b the estimated offset. The reference relation establishes a constant raw offset `z - r = 0.6 °C` for this test. The admitted `OffsetUpdateMethod-3` reads that reference, checks the allowed update and commits the new offset once per minute:
+
+`b_next = b + 0.5 * (z - r - b)`.
+
+Starting at `b = 0`, the three committed offsets are 0.3, 0.45 and 0.525 °C. The measurement basis bounds the total uncertainty in interpreting residual error by ±0.02 °C. After the third update, that residual therefore lies in `[0.055, 0.095] °C`, satisfying the 0.1 °C target. The following profile keeps the other supported characteristics separately interpretable.
+
+| Result | Basis and use boundary |
+| --- | --- |
+| BMC: integrity maintained in four of four specified perturbation cases | Integrity I requires an intact executable, one valid configuration and restoration of both channels within five seconds. The supplied test histories establish I after each one-second interruption of power, one channel or communication, and after an interrupted parameter write. Recovery is automatic after the interruption ends. This is coverage of those four cases. |
+| PH: 30 seconds temporal depth | S7's internal forecasting function produces `z_hat(t+h) = r(t) + b(t)` for `0 <= h <= 30 s`, holding the current reference and offset over that prediction interval. The implementation supplies that model extent. Prediction accuracy is a separate question. |
+| MP: 0.175 °C per minute over the three updates | The declared measure is total variation of the stored offset divided by elapsed time. All three updates have the same sign, so both total variation and net change equal 0.525 °C; divide by three minutes. Parameter readback resolution is 0.01 °C. |
+| PER: 0.95 for uniform selection from the stated finite population | The population is 20 fully examined scripted bench episodes with valid inputs. Successful execution means completing the required reads, checks and commits of OffsetUpdateMethod-3. Nineteen histories meet it; one records a failed commit. Under uniform selection of one of these episodes, the probability is 19/20. A production-population estimate would need its own sampling and inference basis. |
+| OC: one independently adjustable target pursued in this case | The local complexity criterion counts independently adjustable target quantities. Here the target quantity is residual temperature error; the three-minute budget and offset-update bounds are fixed conditions of this comparison. The calculation establishes pursuit of this objective in the stated regime. |
+
+For the C.22.1 adaptation question, the first successful minute checkpoint is at 180 seconds, with a budget of three reference/update cycles and the stated initial model. This threshold result uses the residual-error bound; MP reports the parameter-change rate. For a local didactic convention, assign Grade 3 within this controller family when BMC covers the named perturbation set, temporal PH is positive and error-driven MP is distinguishable from zero at the declared resolution. Leave other profiles unclassified. S7 receives that label; PER and OC remain explicit profile results outside what this partial mapping summarizes.
+
+**Changed receiving condition.** Tighten the residual-error target to 0.05 °C while keeping the three-update budget. The profile values and local Grade remain supported, but the calibration result fails the new target: even the lower residual bound after three updates is 0.055 °C. Under the same model, five updates would give an upper residual bound of 0.03875 °C. The practitioner can compare a larger adaptation budget with another update Method or a better measurement basis. The changed tolerance reopens the adaptation decision.
 

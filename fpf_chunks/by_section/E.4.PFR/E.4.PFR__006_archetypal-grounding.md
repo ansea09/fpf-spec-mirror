@@ -6,12 +6,12 @@ section_id: "E.4.PFR:4"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__006_archetypal-grounding.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:4 — Archetypal Grounding"
-line_start: 94117
-line_end: 94188
+line_start: 94541
+line_end: 94613
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -82,6 +82,8 @@ If this same pair also has a supported compatibility result for an overlapping u
 
 #### E.4.PFR:4.3 - Source and decision reuse
 
+Suppose a maintainer needs to find the nutrient-monitoring guidance to reconsider after a source-pack selection changes. The following row indexes its bounded source use for that maintenance task:
+
 ```text
 PatternFrameworkRelationRecord@HydroponicCucumberDomain:
   relationId: PFR-HC-SRC-001
@@ -92,7 +94,6 @@ PatternFrameworkRelationRecord@HydroponicCucumberDomain:
   subjectAssertionRef: HC-NutrientSourceUseAssertion
   relationFunctionClaimRef: exact G.2 bounded source-use ClaimGraph
   preservationOrAdmissionRef: C.33-source-pack-summary-loss-note
-  blockedStrongerReading: not framework dependency, specialization, publication, derivation, evidence, or assurance
   sourceReturnCondition: reconsider when including an omitted rival horticulture tradition could change the selected source answer or bounded nutrient-monitoring use
 ```
 

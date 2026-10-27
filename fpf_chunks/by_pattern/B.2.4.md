@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.4.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
-line_start: 44083
-line_end: 44280
+line_start: 44199
+line_end: 44395
 dependencies:
   - "A.10"
   - "A.15"
@@ -118,7 +118,7 @@ Before applying B.2, test whether the exact facts are already explained under a 
 
 #### B.2.4:4.3 - Existing-Whole Explanation
 
-Perform B.2's ordinary existing-whole comparison before claiming whole reidentification. Materialize its optional `ExistingWholeExplanationResult` only when another use must inspect or cite the outcome.
+Perform B.2:4.2's ordinary existing-whole comparison for the named receiving claim or use and the established whole's identity rule. Distinguish a supported explanation, established insufficiency, and an unresolved comparison. Materialize its optional `ExistingWholeExplanationResult` only when another use must inspect or cite the outcome. If no prior holon has been established, use B.2:4's first-constitution or recognition return to A.1 and the applicable subject pattern.
 
 Subject-pattern explanations that often stop B.2.4 include:
 
@@ -143,7 +143,7 @@ Use B.2 when the exact direct facts show that the existing whole cannot carry th
 - exact coordination and work facts concerning a team, a toolchain, and the enacted Methods from a method family make a result-system candidate live; or
 - a candidate episteme has exact constitution and explanatory-use facts that leave an episteme whole-reidentification question.
 
-Use B.2 to compare the existing whole with one candidate and, when needed, record the result. The subject patterns define and test the contributing facts; evidence and measurement support the associated claims.
+Use B.2 to compare the existing whole with one candidate. When needed, preserve the comparison in its optional result episteme or an established new whole in its reidentification record. An unresolved comparison requires its missing grounds; it does not establish that a new whole is necessary. B.2:4.4 separates the candidate designation and optional evaluation from typed result references. The subject patterns define and test the contributing facts; evidence and measurement support the associated claims.
 
 ### B.2.4:5 - Archetypal Grounding (Worked Cases)
 
@@ -216,12 +216,11 @@ B.2.4 asks whether those facts defeat the existing-whole explanation and, only t
 
 ### B.2.4:10 - SoTA-Echoing
 
-| Source line | Practical implication for this pattern |
-| --- | --- |
-| Capability and functioning approaches | An A.2.2 capability envelope states what its named System holder can do under conditions; it is not automatically a new whole. Evidence supports or challenges the claim about the envelope but does not create it. |
-| Functional architecture and transformation-flow practice | Obtaining functioning relations and selected in-life flow structures can make a new-whole question live; descriptions and diagrams remain distinct from those facts. |
-| Method and work ontology in FPF | Method, method description, work plan, and performed work occurrence must stay separate when capability evidence is interpreted. |
-| TAME and agency-as-characteristic-space work | Agency-like evidence is multi-characteristic and thresholded by concern; B.2.4 does not create a binary agency kind. |
+FPF's construction in B.2.4 preserves capability and functioning claims while deciding whether whole reidentification is needed (B.2.4:4.1–4.3). The A.2.2 capability claim concerns the named System holder's ability under the conditions in its capability envelope and at the stated attained bounds. Evidence and source-use relations support or challenge that claim and qualify reliance on it.
+
+Obtaining functioning relations and selected in-life flow structures can make a new-whole question live; descriptions and diagrams remain distinct from those facts. Method, method description, work plan, and performed work occurrence must stay separate when capability evidence is interpreted.
+
+When a receiving use consumes agency-characteristic values, interpret the agency-like evidence through A.13's multi-characteristic profile and C.16's measurement discipline, with thresholds stated for that concern. B.2.4 does not create a binary agency kind. A.13:8 identifies the profile's FPF engineering choices and its research motivation.
 
 ### B.2.4:11 - Relations
 

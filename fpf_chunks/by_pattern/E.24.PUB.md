@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.PUB.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
-line_start: 114980
-line_end: 115261
+line_start: 115405
+line_end: 115686
 dependencies:
   - "A.6.3"
   - "A.6.REL"

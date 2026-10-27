@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__005_solution.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:4 — Solution"
-line_start: 42532
-line_end: 42586
+line_start: 42589
+line_end: 42643
 dependencies:
   - "A.3.1"
   - "B.1.5"

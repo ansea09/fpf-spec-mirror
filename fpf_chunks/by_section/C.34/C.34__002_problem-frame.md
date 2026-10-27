@@ -6,12 +6,12 @@ section_id: "C.34:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__002_problem-frame.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.34 — Assess Structural Correspondence for Architecture Use (Equivalence and Morphisms)"
   - "C.34:1 — Problem frame"
-line_start: 79914
-line_end: 79966
+line_start: 80080
+line_end: 80132
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

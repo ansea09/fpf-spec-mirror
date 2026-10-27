@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:End"
 section_title: "A.6.3.RT.OE:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__014_a-6-3-rt-oe-end.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:End — A.6.3.RT.OE:End"
-line_start: 19140
-line_end: 19141
+line_start: 19151
+line_end: 19152
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"

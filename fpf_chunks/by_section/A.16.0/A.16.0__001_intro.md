@@ -6,12 +6,12 @@ section_id: "A.16.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__001_intro.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:intro — Intro"
-line_start: 33381
-line_end: 33400
+line_start: 33438
+line_end: 33457
 dependencies:
   - "A.16"
   - "A.16.1"

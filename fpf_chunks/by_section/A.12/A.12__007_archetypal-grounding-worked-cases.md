@@ -6,12 +6,12 @@ section_id: "A.12:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__007_archetypal-grounding-worked-cases.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:5 — Archetypal Grounding (Worked Cases)"
-line_start: 27838
-line_end: 27914
+line_start: 27850
+line_end: 27927
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -60,7 +60,6 @@ ActingSideExternalization@RobotCalibration:
   actingSystemRoleAssignmentRef: CalibrationAssignment-R17, one obtaining work-facing U.SystemRoleAssignment held by CalibrationController-R17
   transformationRef: SensorCalibrationTransformation-R17, independently admitted under A.3.4 as a bounded change of SensorSuite-R17
   workOccurrenceRef: CalibrationWork-R17, independently admitted under A.15.1 from its performance history, enacted Method, temporal extent, and containing-System relation; because this case claims exact assignment-bound attribution, F.6 afterward relates the already admitted Work to CalibrationAssignment-R17
-  strongerOwnerRefs: A.1 identities of SensorSuite-R17 and CalibrationController-R17; A.14 part relations; A.13 performer core including A.2.1 CalibrationAssignment-R17; A.15.1 CalibrationWork-R17; F.6 performed-under-assignment relation; A.3.4 SensorCalibrationTransformation-R17
 ```
 
 Robot-R17 remains the containing holon. CalibrationWork-R17 and SensorCalibrationTransformation-R17 are separate admitted objects. The A.13 core includes CalibrationAssignment-R17; after independent A.15.1 Work admission, this case’s additional F.6 attribution uses that same obtaining assignment. The references name the admissions used by the example; each admission still needs its stated basis.
@@ -85,8 +84,9 @@ ActingSideExternalization@DocumentBuild:
   transformationRef: PublicationCarrierChange-27, independently admitted under A.3.4 from the build boundary, the before/during/after carrier-state facts below, and the bounded case-local continuity rule
   workOccurrenceRef: DocumentBuildWork-27, independently admitted under A.15.1 from its performance history, enacted CrossReferenceUpdateMethod-3, temporal extent, and containing-System relation; because this case claims exact assignment-bound attribution, F.6 afterward relates the already admitted Work to CrossReferenceUpdateAssignment-27
 
-  strongerOwnerRefs: E.24.PUB PublicationFormBearingRelation for the before/after bearing facts; bounded case-local PublicationFile-17 continuity rule, not E.24.PUB; A.1 recognition of BuildRunner-4; A.13 performer core including A.2.1 CrossReferenceUpdateAssignment-27; A.15.1 DocumentBuildWork-27; F.6 performed-under-assignment relation; A.7 carrier/episteme distinction; A.3.1 CrossReferenceUpdateMethod-3; A.3.2 BuildScriptEpisteme-9; A.3.4 PublicationCarrierChange-27; A.10 source recovery and bounded reliance on the build log
 ```
+
+A.10 governs source recovery and bounded reliance on the build log for the following carrier-history claims; A.7 keeps the carrier distinct from the episteme it presents.
 
 Before the boundary, exact `PublicationFormBearingRelation(PublicationFile-17, CrossReferencePublicationForm-26)` obtains and the borne form contains stale form-level link addresses. During the boundary, the same open file object remains in place while its link-address state is rewritten; the build log records no replacement event. After the boundary, exact `PublicationFormBearingRelation(PublicationFile-17, CrossReferencePublicationForm-27)` obtains and the borne form contains the refreshed addresses. Those facts, the build-open/build-close boundary, and the case-local continuity rule ground `PublicationCarrierChange-27` under A.3.4. They do not decide episteme identity: if claim content, EntityOfConcern, or the effective reference scheme changed, C.2.1 identifies another episteme and any historical continuation needs a separately governed edition relation.
 
@@ -107,10 +107,11 @@ ActingSideExternalization@Machining:
   actingSystemRoleAssignmentRef: MachiningAssignment-8, one obtaining work-facing U.SystemRoleAssignment held by Lathe-3
   transformationRef: MachiningTransformation-8, independently admitted under A.3.4 as a bounded change of Workpiece-8
   workOccurrenceRef: MachiningWork-8, independently admitted under A.15.1 from its performance history, enacted Method, temporal extent, and containing-System relation; because this case claims exact assignment-bound attribution, F.6 afterward relates the already admitted Work to MachiningAssignment-8
-  strongerOwnerRefs: A.1 identities of Workpiece-8 and Lathe-3; A.13 performer core including A.2.1 MachiningAssignment-8; A.15.1 MachiningWork-8; F.6 performed-under-assignment relation; A.3.4 MachiningTransformation-8
 ```
 
-`MachiningWork-8` and `MachiningTransformation-8` are independently identified; this account asserts no Work-to-change relation between them.
+`MachiningWork-8` and `MachiningTransformation-8` are independently identified. To explain their connection, extend this constructed case with the following supplied facts. During the named Work, Lathe-3 performed `TurningApplication-8` with CuttingTool-3 on the continuing Workpiece-8. The operation history identifies the actual engaged cutting pass, its tool and workpiece bindings, and its start/end interval. The supplied material-removal account establishes that this pass removed the outer layer of the selected cylindrical surface, reducing its radius from 10 mm to 9.5 mm. Before/after measurements under the same dimensional reference conditions identify the corresponding diameter change from 20 mm to 19 mm as `MachiningTransformation-8`.
 
-The additional proposed claim is: "Lathe-3 transmits cutting force to Workpiece-8 during MachiningTransformation-8." To decide whether it supports a boundary-crossing explanation, a defining rule must supply the force-transfer or crossing relation kind, obtaining predicate, applicability and occurrence identity. This case supplies no such rule: that is its A.6.RCD `missing-governor`, and `holonBoundaryCrossingRelationRef` stays unfilled. The missing rule leaves this extension open; the acting/changed distinction remains usable and parthood still requires its own test.
+The useful result is the local assertion `MachiningContribution-8`: this Work included the actual cutting application whose material removal produced this diameter change. Under A.6.RCD disposition 2, its conjunction has these named base facts and their common workpiece and interval; it holds when all those facts hold for the same application and transformation. This supplies one C.2.1 compound claim. If the history records only a commanded feed and actual engagement is unknown, the connecting claim has `missing-information`; the independently observed diameter change remains available. Selecting a different physical regime reopens the material-removal account that the connection consumes.
+
+For an ordinary boundary explanation, select the tool-workpiece contact surface and interval. The contact force is the rate of the tool's momentum transfer to the workpiece across that surface; C.29.BB locates that contribution in a momentum balance. Predicting the workpiece's motion also needs the other consequential forces and applicable response conditions. This explanatory claim does not supply an occurrence identity for `holonBoundaryCrossingRelationRef`. If a further use needs that exact reference, it still needs the crossing predicate, applicability and occurrence-identity rule; their absence is the A.6.RCD `missing-governor` for that reference. The local contribution and boundary explanation remain usable, and parthood keeps its separate A.14 test.
 

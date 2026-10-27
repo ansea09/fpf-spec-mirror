@@ -6,12 +6,12 @@ section_id: "B.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__006_solution.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:4 — Solution"
-line_start: 44136
-line_end: 44193
+line_start: 44252
+line_end: 44309
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,7 +66,7 @@ Before applying B.2, test whether the exact facts are already explained under a 
 
 #### B.2.4:4.3 - Existing-Whole Explanation
 
-Perform B.2's ordinary existing-whole comparison before claiming whole reidentification. Materialize its optional `ExistingWholeExplanationResult` only when another use must inspect or cite the outcome.
+Perform B.2:4.2's ordinary existing-whole comparison for the named receiving claim or use and the established whole's identity rule. Distinguish a supported explanation, established insufficiency, and an unresolved comparison. Materialize its optional `ExistingWholeExplanationResult` only when another use must inspect or cite the outcome. If no prior holon has been established, use B.2:4's first-constitution or recognition return to A.1 and the applicable subject pattern.
 
 Subject-pattern explanations that often stop B.2.4 include:
 
@@ -91,5 +91,5 @@ Use B.2 when the exact direct facts show that the existing whole cannot carry th
 - exact coordination and work facts concerning a team, a toolchain, and the enacted Methods from a method family make a result-system candidate live; or
 - a candidate episteme has exact constitution and explanatory-use facts that leave an episteme whole-reidentification question.
 
-Use B.2 to compare the existing whole with one candidate and, when needed, record the result. The subject patterns define and test the contributing facts; evidence and measurement support the associated claims.
+Use B.2 to compare the existing whole with one candidate. When needed, preserve the comparison in its optional result episteme or an established new whole in its reidentification record. An unresolved comparison requires its missing grounds; it does not establish that a new whole is necessary. B.2:4.4 separates the candidate designation and optional evaluation from typed result references. The subject patterns define and test the contributing facts; evidence and measurement support the associated claims.
 

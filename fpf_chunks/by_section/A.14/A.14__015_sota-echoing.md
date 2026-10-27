@@ -6,12 +6,12 @@ section_id: "A.14:14"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__015_sota-echoing.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:14 — SoTA-Echoing"
-line_start: 28473
-line_end: 28510
+line_start: 28529
+line_end: 28567
 dependencies:
   - "A.1"
   - "A.15"
@@ -74,12 +74,13 @@ The resulting collection alternatives are deliberately distinct:
 
 A.14 supplies no immediate cross-domain query key for all belongs-to relations; use `F.18` to name a narrower relation when repeated query, comparison, or declaration use justifies that extra vocabulary.
 
-The rest of the catalogue retains its own governing source lines:
+The other relations draw on the following bounded contributions. The cited models have different domains and identity commitments; A.14's rules are FPF adaptations.
 
-- **Metrical mereology** advances motivate **PortionOf** with explicit μ and Σ-laws, preventing the classic “stuff as components” fallacy.
-- **Temporal parts and identity through change** motivate **PhaseOf** as transitive proper temporal parthood, with nesting and overlap allowed, partition-specific coverage and non-overlap, and escalation when identity criteria fail.
-- **Engineering product models**, including the ISO 15926 family, pressure authors to keep functional classification, physical product breakdown, and stocks or consumables distinct; A.14 routes those claims to their direct relations instead of one part tree.
-- **Knowledge-episteme edition histories** in contemporary MBSE and open-science practice motivate explicit endpoint identities and provenance-preserving composition. FPF uses the C.2.1 identity triple and independently obtaining `EpistemeEditionRelation` for distinct editions; A.14 retains `PhaseOf` only for a proper temporal restriction of one unchanged episteme.
+- **Measured parts.** Krifka's historical [*Nominal Reference, Temporal Constitution and Quantification in Event Semantics* (1989)](https://semantics.uchicago.edu/kennedy/classes/s13/aspect/krifka89.pdf), §2, ties measurement to a specified part structure and restricts addition to non-overlapping parts. Tao's [*An Introduction to Measure Theory*](https://terrytao.wordpress.com/wp-content/uploads/2012/12/gsm-126-tao5-measure-book.pdf), §1.4.3, supplies the general limit: a nonempty set can have zero measure, so proper inclusion need not give strictly smaller measure. **Adapt:** :5.1 keeps POR-2 as an independent condition and gives one sufficient finite-measure case; POR-3 applies only to admitted disjoint joins. Same-stuff/content, compatible units, boundary identity and any conservation law remain separately stated conditions of the FPF use.
+- **Temporal parts.** [BFO 2020](https://raw.githubusercontent.com/BFO-ontology/BFO-2020/master/21838-2/owl/bfo-core.owl), `BFO_0000139`, defines transitive temporal parthood between occurrents. The [OWL-Time Recommendation (2017)](https://www.w3.org/TR/2017/REC-owl-time-20171019/), §§4.2.23–4.2.35, distinguishes strict interval inclusion, equality and overlap. **Adapt:** :5.2 applies proper temporal restriction to a continuing holon under its own identity rule. That holon domain, identity condition, partition-only coverage and non-overlap, and identity-failure return are FPF choices. OWL-Time supplies interval relations; the subject pattern supplies holon identity.
+- **Engineering product identity and composition.** [ISO 15926-2:2003](https://www.iso.org/standard/29557.html), §5.2.6 (accessible [standard excerpt](https://www.normsplash.com/Samples/ISO/123263834/ISO-15926-2-2003-en-2.pdf), pp. 108–113), distinguishes simple composition from arrangement and assembly, and functional continuity from matter/energy continuity. The same tank can satisfy both object criteria; a stream can instead have path-based identity. Its temporal-whole-part relation belongs to its own 4D model of possible individuals. **Adapt:** choose the identity criterion and composition relation before asserting a part claim. FPF's specific PortionOf conditions and resource conservation accounts come from :5.1 and the applicable domain, not from a blanket rule about all stocks or consumables in ISO 15926.
+- **Engineering-model versions.** OMG's [*Systems Modeling API and Services 1.0* (March 2026)](https://www.omg.org/spec/SystemsModelingAPI/1.0/PDF), §§7.1.1–7.1.2 and 7.2.3, distinguishes a continuing `DataIdentity`, separately identified `DataVersion` values and commit history. **Adapt:** identify the compared endpoints and the history being asserted. These software identities do not supply C.2.1's episteme-identity test.
+- **Provenance and research versions.** The historical [PROV-DM Recommendation (2013)](https://www.w3.org/TR/2013/REC-prov-dm-20130430/), §§5.2, 5.4 and 5.5, distinguishes revision, derivation, alternate and specialization relations. [Zenodo versioning](https://zenodo.org/help/versioning) distinguishes a version DOI from the concept DOI for all versions; its [file-correction policy](https://help.zenodo.org/docs/deposit/manage-files/#modify-files-after-publication) also permits bounded corrections without changing the DOI. **Adapt:** recover the content and provenance of each endpoint. FPF uses the C.2.1 identity triple and independently obtaining `EpistemeEditionRelation` for distinct epistemes; A.14 reserves `PhaseOf` for a proper temporal restriction of one unchanged episteme.
 
 The catalogue keeps direct component, constituent, portion, bearer-dependent aspect, phase, and collection-belonging claims distinct, while a separately grounded constructive part claim remains possible without another universal relation vocabulary.
 
@@ -87,6 +88,6 @@ The catalogue keeps direct component, constituent, portion, bearer-dependent asp
 #### A.14:14.1 - Aspect branch application
 
 
-For AspectOf, the BORO and CCO rows above supply the constructor-sensitive question: which bearer, facet rule, dependent aspect, and identity conditions make this structural part? Fine's composition-first pressure blocks a bare *aspect* label from deciding parthood. A.14 adapts that line in `A.14:5.3`, the decision procedure, and `CC-ASP-1` through `CC-ASP-4`; `C.13 slice` remains an optional report, not the constructor of the aspect. The serious alternatives are routed rather than renamed: measured Characteristic (`C.16`/`A.19`), viewpoint or view (`E.17`), representation or projection (`C.29` or its direct pattern), selected partition, and temporal restriction (`PhaseOf`/`C.27.TA`). Identify the actual relation before reusing the word *aspect*.
+For AspectOf, A.14 adapts the constructor-and-identity questions of Partridge et al. and Florio and Linnebo's Core Constructional Ontology: which bearer, facet rule, dependent aspect and identity conditions make this structural part? The bearer/facet conditions and required `StructPartOf` relation are FPF choices. Fine's historical composition-first treatment motivates identifying the composition operation before the part claim. A.14 adapts that line in `A.14:5.3`, the decision procedure, and `CC-ASP-1` through `CC-ASP-4`; `C.13 slice` remains an optional report, not the constructor of the aspect. The serious alternatives are routed rather than renamed: measured Characteristic (`C.16`/`A.19`), viewpoint or view (`E.17`), representation or projection (`C.29` or its direct pattern), selected partition, and temporal restriction (`PhaseOf`/`C.27.TA`). Identify the actual relation before reusing the word *aspect*.
 
 

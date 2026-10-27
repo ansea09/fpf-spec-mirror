@@ -6,12 +6,12 @@ section_id: "E.4.PFR:5"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__007_bias-annotation.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:5 — Bias-Annotation"
-line_start: 94189
-line_end: 94208
+line_start: 94614
+line_end: 94633
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -58,7 +58,7 @@ keywords:
 | **Prag** | Stop after the direct assertion unless a named next action needs more structure; keep high-cost analysis exceptional. |
 | **Did** | Lead with the readable assertion and introduce optional machinery only through a concrete receiving use. |
 
-The first drift is relation-word overread: words such as *depends*, *uses*, *supports*, *governs*, or *profiles* are treated as if they settled relation function. Recover the exact subject assertion and blocked stronger readings.
+The first drift is relation-word overread: words such as *depends*, *uses*, *supports*, *governs*, or *profiles* are treated as if they settled relation function. Recover the exact subject assertion; use F.19:4.4 to decide whether a stronger reading needs an explicit correction.
 
 The second drift is record prestige: a standardized row is required before the assertion can count. Keep the direct assertion as default and demand a named receiver for every row.
 

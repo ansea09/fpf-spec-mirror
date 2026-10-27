@@ -6,12 +6,12 @@ section_id: "C.37:11"
 section_title: "SoTA-Echoing  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__012_sota-echoing-informative.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:11 — SoTA-Echoing  (informative)"
-line_start: 81005
-line_end: 81014
+line_start: 81171
+line_end: 81180
 dependencies:
   - "A.10"
   - "A.2.4"

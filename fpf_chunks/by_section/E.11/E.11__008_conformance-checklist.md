@@ -6,12 +6,12 @@ section_id: "E.11:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__008_conformance-checklist.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:7 — Conformance Checklist"
-line_start: 101551
-line_end: 101571
+line_start: 101976
+line_end: 101996
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -46,7 +46,7 @@ keywords:
 | `E11-8` | Author and reader separation | An FPF author or maintainer publishes or refreshes the guidance; a practitioner, manager, or assisting agent reads it and opens a direct pattern without becoming the publisher. |
 | `E11-9` | Plain architectural explanation and local recognition | The architectural reference gives ordinary engineering meaning before strict FPF terms and explains cross-pattern ideas without becoming an index; each pattern's `Problem frame` keeps its own local recognition and first action. |
 | `E11-10` | Thin projection and direct authority | ToC pattern rows expose the framework's declared retrieval fields, including a recognizable working-question cue, without copying a first move, result, or boundary mini-method. `E.11.PFP` defines the exact index fields and form grammar. ToC, query phrases, compact locators, and retrieval remain finding aids. A selected card carries practical-use guidance; every substantive claim returns to the direct pattern whose content defines, constrains, or tests it. |
-| `E11-11` | Representative, non-exhaustive public examples | Every displayed example names a concrete need, imaginable result or blocker, and choice-changing direct-pattern distinction. When both uses matter, the set shows cheap direct help and extended cross-pattern help, says that many other questions remain in the product, and returns unmatched questions to the index, guide, search, or direct patterns. Example inventory is not product coverage. |
+| `E11-11` | Representative public examples | Every displayed example names a concrete need, imaginable result or blocker, and choice-changing direct-pattern distinction. When both uses matter, the set shows cheap direct help and extended cross-pattern help and returns unmatched questions to the index, guide, search, or direct patterns. Any additional coverage correction follows F.19:4.4; an actual product-coverage claim needs its own basis. |
 | `E11-12` | Smallest change reach | When a direct result or boundary changes, repair the smallest affected entry plus determinate README, architectural-reference, ToC, example, relation, and true-consumer wording; unrelated publication units remain unchanged. |
 | `E11-13` | Architectural-reference entry and direct-use bypass | A question about a framework, Suite or Library whole can use its E.11.DSG architectural reference with full source returns; a known sufficient contribution remains directly usable. A Suite entry distinguishes its C.20-grounded constituent subdisciplines from outside suppliers. It does not invent disciplinary membership or imply that a MethodDescription is already an obtained result. |
 | `E11-14` | Honest card selection and distinct objects | Each declared card passes the same-content-without-mantra comparison, and at least one plausible direct entry is checked against the same test. Every card retains a real cross-pattern dependency; local reminders remain outside card selection. Card unit, published guidance, semantic key, selected form, optional expansion, direct pattern, ordinary walkthrough, and independently admitted CGUS demonstration remain distinct. |

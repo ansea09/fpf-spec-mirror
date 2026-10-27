@@ -6,12 +6,12 @@ section_id: "F.7:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__006_minimal-vocabulary.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:5 — Minimal vocabulary"
-line_start: 118531
-line_end: 118540
+line_start: 118956
+line_end: 118965
 dependencies:
   - "A.6.9"
   - "B.3"

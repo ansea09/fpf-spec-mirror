@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:12b"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__015_c-29-mathematical-lens-use-relation.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:12b — C.29 mathematical-lens use relation"
-line_start: 17979
-line_end: 17982
+line_start: 17990
+line_end: 17993
 dependencies:
   - "A.15"
   - "A.20"

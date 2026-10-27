@@ -6,12 +6,12 @@ section_id: "C.2.7:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__006_archetypal-grounding.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:5 — Archetypal Grounding"
-line_start: 53437
-line_end: 53443
+line_start: 53587
+line_end: 53593
 dependencies:
   - "A.16"
   - "A.16.0"

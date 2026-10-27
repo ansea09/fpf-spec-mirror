@@ -6,12 +6,12 @@ section_id: "B.2.2:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__013_sota-echoing.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
   - "B.2.2:10 — SoTA-Echoing"
-line_start: 43864
-line_end: 43872
+line_start: 43947
+line_end: 43954
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,10 +42,9 @@ keywords:
 
 ### B.2.2:10 - SoTA-Echoing
 
-| Source family | Lesson for B.2.2 | FPF decision |
-| --- | --- | --- |
-| Meta-system transition and holonic systems lineage | A new coordinated whole can become the relevant operating object. | Use B.2 for whole reidentification, then apply complete A.1 and `U.System` recognition to the same candidate as required by B.2.2. |
-| Systems-of-systems and cyber-physical systems practice | Operational closure, coordination, external commitments, and assurance often change at the level of the exact new whole proposed for and then recognized under `U.System`. | B.2.2 keeps the direct facts with their subject patterns and tests each assurance claim against that exact recognized system instead of transferring component support. |
-| Constructional and part-whole ontology | Acting on an object and being part of it are different relations. | A.12, A.3.4, A.15.1, A.14, and C.13 remain separate subject patterns. |
-| Digital-twin and architecture-description practice | Rich descriptions can track a system without being the system. | Use episteme, description, representation, and publication patterns for the descriptive item; recover the operating system independently as EoC. |
+A new coordinated whole can become the relevant operating object. FPF's construction here uses B.2 for whole reidentification, then applies complete A.1 and `U.System` recognition to the same candidate (B.2.2:4.1). B.2.2 keeps the direct facts with their subject patterns when the claim concerns changed operational closure, coordination, external commitments, or assurance at the level of the exact new whole proposed for and then recognized under `U.System`. Each assurance claim is tested against that exact recognized system instead of transferring component support.
+
+A historical comparison clarifies the coordination question. [Maier (1998), *Architecting Principles for Systems-of-Systems*, §§1 and 2.6–2.7](https://asymmetricleadership.com/wp-content/uploads/2020/04/architectingprinciplesofsystemofsystemsMAIER.pdf) distinguishes systems-of-systems whose components retain operational and managerial independence. In his collaborative category, central management lacks coercive power to run the system; treating it as a directed system can lead to unwarranted assumptions about component cooperation. FPF adapts this distinction in B.2.2:4.3 by recovering the actual controller or distributed-coordination facts and naming any protocol or governance claim separately. Maier's taxonomy does not supply the A.1 or `U.System` recognition tests.
+
+Acting on an object and being part of it are different relations. A.12, A.3.4, A.15.1, A.14, and C.13 remain separate subject patterns. Rich descriptions can track a system without being the system. Use episteme, description, representation, and publication patterns for the descriptive item; recover the operating system independently as EoC.
 

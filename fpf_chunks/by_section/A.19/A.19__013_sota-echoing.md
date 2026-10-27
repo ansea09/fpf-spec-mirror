@@ -6,12 +6,12 @@ section_id: "A.19:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__013_sota-echoing.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:10 — SoTA-Echoing"
-line_start: 34759
-line_end: 34764
+line_start: 34816
+line_end: 34821
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,7 @@ keywords:
 
 ### A.19:10 - SoTA-Echoing
 
-Measurement and evaluation practice requires explicit variable definitions, subject/input roles, Scales, units, value ranges, partial-input treatment, normalization, and comparability before multi-criteria comparison is meaningful. A.19 adapts that discipline by treating the CharacteristicSpace and its genuine Coordinate values as the declared ontic object, while observation absence, scoring, indicator choice, normalization use, and assurance remain with their direct patterns.
+FPF's characteristic and measurement patterns require explicit variable definitions, subject/input roles, Scales, applicable units, value ranges, partial-input treatment, normalization when used, and comparability for multi-criteria comparison. A.19 applies A.17, A.18, C.16 and A.19.UNM by treating the CharacteristicSpace and its genuine Coordinate values as the declared ontic object, while observation absence, scoring, indicator choice, normalization use, and assurance remain with their direct patterns.
 
-Dynamical-systems and state-space practice supplies the useful hook: a dynamics model needs a declared state space, but the state space does not itself define the law, time base, observation model, or intervention. FPF keeps that boundary so that characteristic-space declarations can be reused across system, episteme, evaluation, and architecture work without smuggling consumer semantics into the space.
+FPF's dynamics construction distinguishes the declared state space from the law and time base, any observation model, and any intervention on the modeled subject. A.19 supplies the space and typing hook; A.3.3 governs the state-law account and its conditional returns for other uses. This boundary lets characteristic-space declarations be reused across system, episteme, evaluation, and architecture work, with consumer semantics retained in their direct patterns.
 

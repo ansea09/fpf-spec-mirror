@@ -6,12 +6,12 @@ section_id: "E.4.CM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__001_intro.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:intro — Intro"
-line_start: 91730
-line_end: 91735
+line_start: 92152
+line_end: 92157
 dependencies:
   - "A.3.1"
   - "B.1.5"

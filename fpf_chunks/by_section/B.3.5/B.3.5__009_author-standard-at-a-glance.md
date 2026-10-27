@@ -6,12 +6,12 @@ section_id: "B.3.5:7"
 section_title: "Author Standard (at a glance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__009_author-standard-at-a-glance.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "B.3.5 — Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)"
   - "B.3.5:7 — Author Standard (at a glance)"
-line_start: 45209
-line_end: 45224
+line_start: 45336
+line_end: 45351
 dependencies:
   - "B.3"
   - "C.13"
@@ -29,7 +29,7 @@ When you add or import a relation edge:
 
    * Structural parthood → the applicable current construction trace and `validationMode=axiomatic`.
    * Collection belonging under the collection's own rule → one current `C.13 set` trace and `validationMode=axiomatic`.
-   * Another permitted epistemic or constitutive claim → the branch's logical argument or evidence object and allowed mode.
+   * Another permitted epistemic or constitutive claim → the evidence object, argument or qualifying C.13 account actually used, with its corresponding mode from :4.
 3. **Declare the selected `tv:validationMode`** for every covered claim.
 
 

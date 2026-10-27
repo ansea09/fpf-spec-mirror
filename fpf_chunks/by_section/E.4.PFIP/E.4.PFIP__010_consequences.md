@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__010_consequences.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:9 — Consequences"
-line_start: 94497
-line_end: 94504
+line_start: 94922
+line_end: 94929
 dependencies:
   - "C.2.1"
   - "C.33"

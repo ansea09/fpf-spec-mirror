@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__003_problem-frame.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:1 — Problem Frame"
-line_start: 11652
-line_end: 11657
+line_start: 11663
+line_end: 11668
 dependencies:
   - "A.3.2"
   - "C.37"

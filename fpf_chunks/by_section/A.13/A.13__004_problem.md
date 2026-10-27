@@ -6,12 +6,12 @@ section_id: "A.13:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__004_problem.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:2 — Problem"
-line_start: 28009
-line_end: 28017
+line_start: 28022
+line_end: 28030
 dependencies:
   - "A.10"
   - "A.12"

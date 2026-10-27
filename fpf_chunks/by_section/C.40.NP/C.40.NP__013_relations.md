@@ -6,12 +6,12 @@ section_id: "C.40.NP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NP/C.40.NP__013_relations.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
   - "C.40.NP:12 — Relations"
-line_start: 87217
-line_end: 87220
+line_start: 87639
+line_end: 87642
 dependencies:
   - "C.18"
   - "C.19"

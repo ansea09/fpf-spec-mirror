@@ -6,12 +6,12 @@ section_id: "C.40.OC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OC/C.40.OC__006_archetypal-grounding.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "C.40.OC — Characterize a Subject for a Possible Change"
   - "C.40.OC:5 — Archetypal Grounding"
-line_start: 85127
-line_end: 85150
+line_start: 85547
+line_end: 85570
 dependencies:
   - "C.11.CRC"
   - "C.16"

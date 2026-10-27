@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
+commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 101030
-line_end: 101418
+line_start: 101455
+line_end: 101843
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -87,7 +87,7 @@ Keep three reader-facing jobs distinct. A compact locator points to a direct pat
 
 When a Card or mantra is useful because it keeps material dependencies among several independently reusable recurring problem–move–result contributions in attention, return to the candidate-recognition move in `E.4.DPF:4` before treating the Card as only an access front. Its form is a cue for that comparison, not proof of framework scale or product membership. When no live framework question remains, continue choosing or maintaining the entry form under the tests below.
 
-The displayed entries are examples of how the pattern language can help, not a catalogue or coverage boundary. When both uses matter to discoverability, show at least one ordinary example of cheap direct help and a few cards that demonstrate extended cross-pattern use. Say plainly that many other questions can start from the index, a guide, search, or a small plausible set of direct patterns. Do not turn every useful topic, pattern, or reader-entry set into a public example merely to prove breadth.
+The displayed entries illustrate how the pattern language can help. When both uses matter to discoverability, show at least one ordinary example of cheap direct help and a few cards that demonstrate extended cross-pattern use. Return unmatched questions to the index, a guide, search, or a small plausible set of direct patterns. Apply F.19:4.4 when a catalogue or coverage-boundary reading needs an explicit correction. Do not turn every useful topic, pattern, or reader-entry set into a public example merely to prove breadth.
 
 The following comparison selects a Practical-Use Card for an entry; it does not select which subject reasoning the language preserves. A long mantra and its developed account can explain the language's architecture even when an ordinary entry is sufficient. Use E.11.PFP:4.7.2 to publish that connected explanation and its overview without forcing it into a card.
 
@@ -305,7 +305,7 @@ Give every selectable public entry one stable semantic key so the reader can ret
 
 E.11 records one F.13-form historical read path: `splits(SYSTEM-IN-CONTEXT -> {SYSTEM-RECOGNITION, SYSTEM-DELIMITATION, WORDING, ARCHITECTURE})`. The old card had no single surviving public-guidance identity: system recognition, system delimitation, lexical recovery, and architecture have different referents, relations or evaluations, receiving uses, first results, and direct governors. Older writing remains readable through this one read path; current entry use names only the four resulting keys. A.1.STM is a conditional continuation with a dedicated readable README guide, not a fifth resulting key. The split creates no U-kind, relation kind, record kind, result kind, or generic `Context` claim.
 
-The FPF Readme carries a selected, explicitly non-exhaustive set of current public examples and their optional expansions. The First Principles Framework Architectural Reference explains why FPF's distinctions and Methods work together. ToC locates pattern families and questions outside the examples. Full patterns carry Methods, conditions, costs, consequences, and result semantics. None is a second entry store or a claim that the examples bound FPF use.
+The FPF Readme carries a selected set of current public examples and their optional expansions. The First Principles Framework Architectural Reference explains why FPF's distinctions and Methods work together. ToC locates pattern families and questions outside the examples. Full patterns carry Methods, conditions, costs, consequences, and result semantics. None is a second entry store or a claim that the examples bound FPF use.
 
 #### E.11:4.5.1 - Architectural Reference, local recognition, and first-entry terminology
 
