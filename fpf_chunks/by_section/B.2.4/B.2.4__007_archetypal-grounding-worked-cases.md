@@ -6,12 +6,12 @@ section_id: "B.2.4:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__007_archetypal-grounding-worked-cases.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:5 — Archetypal Grounding (Worked Cases)"
-line_start: 44119
-line_end: 44136
+line_start: 44194
+line_end: 44211
 dependencies:
   - "A.10"
   - "A.15"

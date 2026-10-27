@@ -6,12 +6,12 @@ section_id: "F.13:6"
 section_title: "Solution — Continuity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__007_solution-continuity.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:6 — Solution — Continuity"
-line_start: 120689
-line_end: 120716
+line_start: 120814
+line_end: 120841
 dependencies:
   - "F.1"
   - "F.17"

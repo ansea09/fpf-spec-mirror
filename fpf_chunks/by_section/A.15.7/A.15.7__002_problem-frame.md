@@ -6,12 +6,12 @@ section_id: "A.15.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__002_problem-frame.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:1 — Problem frame"
-line_start: 31240
-line_end: 31275
+line_start: 31313
+line_end: 31348
 dependencies:
   - "A.10"
   - "A.13"
@@ -37,11 +37,11 @@ keywords:
 
 **First useful result.** Give a short answer with three visible parts:
 
-1. **Decision now:** take this next action because this current fact and the Method's limits make it the best supported choice.
+1. **Decision now:** take this next action because the current facts and the Method's limits support it as an adequate continuation.
 2. **Performer:** name the intended System performer. If another System made the choice, name the chooser separately.
 3. **Stop and feedback:** say when to stop, fall back, or look again, and which resulting observation can inform the next choice.
 
-For a reversible local choice, ordinary project language is enough. When a use needs to cite, compare, audit, or rely on an identified claim, use an existing sufficient episteme or identify one under C.2.1. Preserve access when later reliance requires it. The answer does not itself perform or predict the action, and this pattern adds no universal action, situation, or next-step kind.
+For a reversible local choice, ordinary project language is enough. When a use needs to cite, compare, audit, or rely on an identified claim, use an existing sufficient episteme or identify one under C.2.1. Preserve access when later reliance requires it. The answer states the selected action and its grounds.
 
 **Three recognition cases.**
 
@@ -62,7 +62,7 @@ For a reversible local choice, ordinary project language is enough. When a use n
 - For a choice outside current Work when the chooser and `OptionSet` are already known, use `C.11`.
 - For missing action candidates, use a subject-specific generation Method; use `C.18` only for an actual open-ended candidate archive and front.
 - After the action is fixed, use `C.24` if calls to tools or services must be planned. An already prescribed action can enter C.24 directly before Work begins; it needs no A.15.7 decision.
-- For a plan revision before Work, use `A.15.2`.
+- For intended-work content or plan revision before or during Work, use `A.15.2`; return here when current facts require a next-action choice.
 - For retrospective Method recovery, use `A.3.1.MR`.
 
 **Adapt to the domain.** Apply the steering Method to the domain facts, constraints and intended result that can change the next action. For example, a DJ tests a transition against the promised genre and live response; a maintenance practitioner tests an intervention against the equipment state and applicable safety conditions. The same steering operations can yield different actions because their domain premises differ.

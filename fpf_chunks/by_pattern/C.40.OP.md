@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.OP.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
-line_start: 86023
-line_end: 86234
+line_start: 86098
+line_end: 86309
 dependencies:
   - "A.15.9"
   - "C.11.CRC"

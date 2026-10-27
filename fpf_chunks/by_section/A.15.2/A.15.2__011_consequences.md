@@ -6,12 +6,12 @@ section_id: "A.15.2:7c"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__011_consequences.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:7c — Consequences"
-line_start: 29744
-line_end: 29752
+line_start: 29798
+line_end: 29806
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,5 +63,5 @@ keywords:
 | Plans become inspectable without being confused with performed work. | More explicit claims; mitigate by using compact `PlanItem` content for ordinary coordination. |
 | Variance becomes meaningful because planned baseline and performed work stay separate. | Requires discipline around baselines; keep the exact plan episteme and baseline visible, and name an edition relation only when its predicate actually obtains. |
 | Cross-context reuse exposes the correspondence and conditions on which the proposed transfer depends. | Apply checklist item 7 to the changed sense or value actually being reused; establish its required correspondence, use claim and reliance basis. |
-| P2W carry-through can prepare work without pretending work already happened. | Use `A.15.1`, `A.15.3`, `A.15.4`, `A.15.5`, `A.10`, `B.3`, `A.20`, or `A.21` only when the source actually makes the corresponding performed-work, planned-filling, appearance-based reliance, readiness, evidence, assurance, internal constraint, or gate claim. |
+| P2W carry-through can supply intended-work coordination. | Use `A.15.1`, `A.15.3`, `A.15.4`, `A.15.5`, `A.10`, `B.3`, `A.20`, or `A.21` only when the source actually makes the corresponding performed-work, planned-filling, appearance-based reliance, readiness, evidence, assurance, internal constraint, or gate claim. |
 

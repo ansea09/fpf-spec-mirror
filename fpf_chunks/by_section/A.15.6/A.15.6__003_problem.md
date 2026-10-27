@@ -6,12 +6,12 @@ section_id: "A.15.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__003_problem.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:2 — Problem"
-line_start: 30874
-line_end: 30879
+line_start: 30939
+line_end: 30944
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -41,7 +41,7 @@ keywords:
 
 ### A.15.6:2 - Problem
 
-The same happening can be approached through three legitimate concerns. A project manager may need the identity, cost, completion, or result of one unique Work whole, but a result or measure remains its own subject when that is what the claim asserts. A process engineer may need one reusable `U.Method`, one A.22-selected `U.Structure` whose organization changes the next question or action, or a `TransformationFlowStructure`. A case worker may need to follow one named subject or claim to a bounded closure while keeping the named downstream use outside that closure.
+The same happening can be approached through three legitimate concerns. A project manager may need the identity, cost, completion, or result of one unique Work whole, but a result or measure remains its own subject when that is what the claim asserts. A process engineer may need one reusable `U.Method`, one A.22-selected `U.Structure` whose organization changes the next question or action, or a `TransformationFlowStructure`. A case worker may need to follow one named subject or claim to a bounded closure while keeping any relevant downstream use outside that closure.
 
 Treating these concerns as three views of one unspecified "project situation" loses the direct subjects. Treating them as three sibling kinds duplicates ontics already supplied by `U.Work`, `U.Method`, `U.Transformation`, selected structures, epistemes, characteristic bearers and assignments, relation occurrences, and continuing referents. The engineering problem is to recover the subject or claim and its direct relations while keeping familiar Plain wording available for retrieval.
 

@@ -6,12 +6,12 @@ section_id: "C.3.4:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__006_forces.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:4 — Forces"
-line_start: 54874
-line_end: 54884
+line_start: 54949
+line_end: 54959
 dependencies:
   - "A.2.6"
   - "C.2.1"

@@ -6,12 +6,12 @@ section_id: "A.1.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__006_solution.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:4 — Solution"
-line_start: 3148
-line_end: 3364
+line_start: 3155
+line_end: 3371
 dependencies:
   - "A.1"
   - "A.14"

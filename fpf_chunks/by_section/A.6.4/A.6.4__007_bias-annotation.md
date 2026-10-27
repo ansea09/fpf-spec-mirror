@@ -6,12 +6,12 @@ section_id: "A.6.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__007_bias-annotation.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:6 — Bias-Annotation"
-line_start: 19708
-line_end: 19711
+line_start: 19715
+line_end: 19718
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.1.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__009_conformance-checklist.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:7 — Conformance Checklist"
-line_start: 3432
-line_end: 3445
+line_start: 3439
+line_end: 3452
 dependencies:
   - "A.1"
   - "A.14"

@@ -6,12 +6,12 @@ section_id: "C.2.P:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__002_use-this-when.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:0 — Use this when"
-line_start: 51069
-line_end: 51116
+line_start: 51144
+line_end: 51191
 dependencies:
   - "A.10"
   - "A.15"

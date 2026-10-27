@@ -6,12 +6,12 @@ section_id: "C.2.3:18"
 section_title: "Glossary and notation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__019_glossary-and-notation.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:18 — Glossary and notation"
-line_start: 52452
-line_end: 52460
+line_start: 52527
+line_end: 52535
 dependencies:
   - "A.16"
   - "A.18"

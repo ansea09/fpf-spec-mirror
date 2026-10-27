@@ -6,12 +6,12 @@ section_id: "A.12:End"
 section_title: "A.12:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__015_a-12-end.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split: Identify Who Acts on What"
   - "A.12:End — A.12:End"
-line_start: 27965
-line_end: 27966
+line_start: 27983
+line_end: 27984
 dependencies:
   - "A.1"
   - "A.1.1"

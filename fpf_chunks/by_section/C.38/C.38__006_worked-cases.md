@@ -6,12 +6,12 @@ section_id: "C.38:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__006_worked-cases.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:5 — Worked cases"
-line_start: 81524
-line_end: 81545
+line_start: 81599
+line_end: 81620
 dependencies:
   - "A.10"
   - "A.15.9"

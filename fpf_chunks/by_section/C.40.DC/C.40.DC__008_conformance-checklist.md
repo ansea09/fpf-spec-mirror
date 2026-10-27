@@ -6,12 +6,12 @@ section_id: "C.40.DC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__008_conformance-checklist.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:7 — Conformance Checklist"
-line_start: 85742
-line_end: 85757
+line_start: 85817
+line_end: 85832
 dependencies:
   - "A.3.1"
   - "A.3.2"

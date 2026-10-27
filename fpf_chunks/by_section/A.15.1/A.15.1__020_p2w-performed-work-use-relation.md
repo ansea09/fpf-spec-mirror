@@ -6,12 +6,12 @@ section_id: "A.15.1:15a"
 section_title: "P2W Performed-Work Use Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__020_p2w-performed-work-use-relation.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:15a — P2W Performed-Work Use Relation"
-line_start: 29478
-line_end: 29482
+line_start: 29532
+line_end: 29536
 dependencies:
   - "A.1"
   - "A.10"
@@ -57,6 +57,6 @@ keywords:
 
 ### A.15.1:15a - P2W Performed-Work Use Relation
 
-When E.18.1 reaches performed Work, first recover each actual performer System's A.13 local kind and criterion, classification, obtaining assignment, scope, working situation, and window, with evidence adequate for those core claims and a characteristic profile only when conditionally consumed. Then identify the exact candidate action, Method actually followed, extent, and at least one obtaining locally declared containing-System relation, and admit one Work individual under `U.Work`. Only after admission, if precise assignment-bound attribution is current, use F.6 to relate that Work to the same assignment. Add only the actual operation binding, resource use, or Work-to-referent relation on which the receiving sentence relies. Planning may name intended performer conditions but does not backdate an A.13 assignment, agency claim, or Work occurrence.
+When E.18.1 reaches performed Work, first recover each actual performer System's A.13 local kind and criterion, classification, obtaining assignment, scope, working situation, and window, with evidence adequate for those core claims and a characteristic profile only when conditionally consumed. Then apply the full §4.1 test to the exact candidate action: establish its A.1:4.2 construction, Method actually followed, extent, and containment facts under at least one declared local rule. Admit the same occurrence under `U.Work`, then assert its typed relations. Only after admission, if precise assignment-bound attribution is current, use F.6 to relate that Work to the same assignment. Add only the actual operation binding, resource use, or Work-to-referent relation on which the receiving sentence relies. Planning may name intended performer conditions but does not backdate an A.13 assignment, agency claim, or Work occurrence.
 A Work occurrence may be designated by an episteme that also cites a `U.WorkPlan`, exact A.15.3 planned-filling claim, or prior readiness claim as a baseline. For an operation argument or result, cite one identified A.6.1 application and its exact binding. For another participant, premise, resource use, or work-to-referent claim, name the declared predicate, participant order, and actual values; if that predicate is absent, return the corresponding `missing-governor` result. Do not copy a result or consequence into Work; follow the concrete §4.6 route.
 

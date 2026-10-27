@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__012_sota-echoing.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:11 — SoTA-Echoing"
-line_start: 116407
-line_end: 116414
+line_start: 116532
+line_end: 116539
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"

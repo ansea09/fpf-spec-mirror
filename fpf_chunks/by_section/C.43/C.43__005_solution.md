@@ -6,12 +6,12 @@ section_id: "C.43:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__005_solution.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:4 — Solution"
-line_start: 88479
-line_end: 88695
+line_start: 88554
+line_end: 88782
 dependencies:
   - "A.12"
   - "C.11"
@@ -101,6 +101,8 @@ Check the information needed at the moment of action. Prediction can permit a ju
 
 Construct alternatives from the available situation and from what must be obtained. Reason backward from the required result to the contributions it needs, and forward from available means to the results they could produce. Where the accounts fail to meet, obtain the missing contribution through **C.39**, revise the proposal, or retain the incompatibility as an explicit limit.
 
+A recommendation or evidence demand can leave that alternative partly unspecified. Recover what following it would require, who could perform the work and which receiving result it could improve. "Validate the model" may hide a study that finishes after the response window, while a narrower check could still support a useful action. Use **C.11.DUA:4.1–4.4** when this connection is missing: recover the demanded work, compare its attainable contribution and burden, and return the warranted advice. Bring the resulting proposal, sufficient present answer or actual impasse into this control account. A binding requirement continues to constrain the available continuations until its authority or agreement changes it.
+
 A continuation can contain an immediate action, a planned sequence, a rule that selects later actions from later information, or a change that makes new actions available. These have different uses. A fixed sequence is adequate when relevant future differences do not alter it. A conditional policy is needed when later choices should depend on information not yet available. Replanning after each observation can implement such responsiveness, but a present comparison must also anticipate that future responsiveness when it changes the value of the action chosen now.
 
 Include action that obtains information. Its consequences can be both physical and informational: a trial can produce an item, expose a failure mode, consume capacity and change subsequent choices. Explain which possible observation would change which later action, and whether that action will still be available. This is the constructive connection between exploration and control.
@@ -112,6 +114,10 @@ Avoid demanding a complete tree of all futures. Begin with contingencies capable
 Make alternatives answer the same question. Align the starting conditions, time horizon, outcome descriptions and resource assumptions. Retain differences that matter to affected participants. Apply **C.11.CRC** to construct what a finite change adds relative to the current configuration, and **C.11** to select among the warranted options.
 
 A positive contribution relative to the present configuration is not yet a choice among available continuations. Another attainable use of the same means may be better. Conversely, a locally attractive component can fail when it requires unavailable complements, conflicts with another action or removes a later correction. Compare the connected consequences, including transition work, interactions and remaining choices.
+
+The work of steering also changes this continuation. Further reasoning can change what an adviser can infer; presenting advice uses the recipient's attention; deciding to change can reserve means or establish a commitment; performing the change affects the subject. Recover the contribution and burden of the particular move being considered. **C.11.DUA:4.2.1** explains this comparison when optional advice to change a way of working leaves it unresolved. The same participant can perform several of these actions, and an existing sufficient answer can make further reasoning unnecessary.
+
+This distinction changes which interventions are worthwhile and when. Cheap computation can justify frequent consideration while interruption and transition costs favor less frequent advice or change. A warranted continuation may retain an idea for a later useful occasion, make a smaller change, obtain a discriminating observation or keep the current practice. Compare these possibilities against what they enable for the recipient over the relevant horizon. Section 4.5.1 constructs their timing and shared-resource relations. Reuse an adequate comparison or established response where it already supplies this answer.
 
 Value information through the decisions it can improve, together with any separately justified use of the knowledge. For one decision maker with a specified probability model, a fixed finite set of available actions A, integrable utility u, and current information I, the gross instrumental value of a signal Y can be written as:
 
@@ -222,9 +228,15 @@ One organization can remain the developing subject while it changes a working Me
 
 The comparison is marginal in the sense of starting from what is already attained. It includes the best obtainable competing use of scarce means, the transition burden, complementary resources, retained assistance and future options. Buying a result, acquiring a capability and changing the need for that capability can all be serious alternatives. At a later stage, compare from the then-current configuration: capability already acquired and help already secured change what the next intervention can obtain. Do not repeatedly credit the whole programme's gain to each later step. The economic specialization in §4.7 explains the relation to opportunity cost, finite changes and local marginal measures.
 
+Apply the distinction in §4.4 to the development advice itself. Identify which later work could use the proposed capability or Method and when that contribution becomes valuable. Examining an improvement can be worthwhile while the agent continues successful work; presenting it now additionally requires a worthwhile continuation through the recipient's interpretation, choice and development effort. Use **C.11.DUA** when that demand remains unclear. An explanatory advance or a newly attainable problem can warrant development before an operational intervention is selected. Its contribution is judged at that research or development horizon.
+
 **Observe the performed development and its receiving use.** A recommendation passes through an actual choice, available means and work. Recover what was done and under which conditions, then establish what the receiving work obtained, what the agent can now do with the retained help, and what the attempt revealed about the Method and provision. These are the connected results of **C.40.JD:4.3**. The mechanism of acquisition remains specific to the agent and subject: human practice, machine training, software modification and organizational learning can share this signature while requiring different bodies and evidence.
 
-Use the resulting evidence at the relevant return. Revised evidence can change the recommender's estimate while leaving capability unchanged. Changed practice or assistance can change capability; a redesigned working Method can change what capability is needed. A changed purpose can change the preferred continuation. Selecting among those returns is the same dependency-based operation as §4.6, now applied to development. Reconsider the recommender or the development Method itself when repeated misdiagnosis, ineffective interventions or excessive burden make it the consequential object of change. Test the proposed improvement through the development it helps obtain.
+Use the resulting evidence at the relevant return. Revised evidence can change the recommender's estimate while leaving capability unchanged. Changed practice or assistance can change capability; a redesigned working Method can change what capability is needed. A changed purpose can change the preferred continuation. Selecting among those returns is the same dependency-based operation as §4.6, now applied to development.
+
+Reconsider the recommender or the development Method itself when repeated misdiagnosis, ineffective interventions or excessive burden make it the consequential object of change. A new observation or a cheaper way to form sound advice can also make a better arrangement attainable while the current one succeeds. Explain how the proposed change would affect subsequent development, compare the transition from the existing arrangement, and test the improvement through the development it helps obtain.
+
+When a useful Method repeatedly fails to enter consideration, **A.15.11** can connect it with an occasion in the work, make its relevance recognizable and provide access to its operation. Establish what happens after that encounter. Recognition followed by an unavailable instruction, missing capability or an unsuccessful application calls for a different repair. Count the preparation and interruptions of a proposed cue in its comparison with the present arrangement. Its uptake and its benefit to the receiving work require different evidence.
 
 **Continue from the new possibility.** A completed project can supply both its promised result and the means to formulate a previously unattainable problem. Use **C.40.NP** to construct that next worthwhile question, including the knowledge, Methods and assistance it needs. It need not be another rung of a fixed ladder. Consolidation, use of the acquired result and ending one local programme can be appropriate. Open-ended development continues the construction of further attainable problems and means of addressing them; an indefinitely repeated operation or a fixed curriculum does not supply that continuation by duration alone.
 

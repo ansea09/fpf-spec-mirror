@@ -6,12 +6,12 @@ section_id: "A.15.2:7a"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__009_conformance-checklist.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:7a — Conformance Checklist"
-line_start: 29713
-line_end: 29729
+line_start: 29767
+line_end: 29783
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,7 +62,7 @@ keywords:
 | --- | --- | --- |
 | CC-A15.2-1 | Exact C.2.1 ClaimGraph, one already identified present EntityOfConcern, and effective `U.ReferenceScheme` identify the episteme; A.15.2 adds one stable intended-work membership condition and no second identity. | A possible future performance or PlanItem designator is not used as an existing EntityOfConcern merely because it appears in the plan. Carrier, layout, publication, ticket key, and version label can change without reidentification when the three discriminators remain fixed. |
 | CC-A15.2-2 | A conforming `U.WorkPlan` makes substantive claims for coordinating possible future performed Work over an exact horizon through at least one `PlanItem`. | The plan states an intended-performance designator, Method, window or entry condition, the System intended to perform the Work or its local system-role-kind condition, and the constraints, resources, dependencies, commitments, targets, or baseline needed by its receiving use without asserting that a Work occurrence exists. |
-| CC-A15.2-3 | Every `PlanItem` remains declaration-local plan content and names the possible future performance and claims it coordinates. | A `PlanItem` designator is not treated as a U-kind, future entity, method part, Work occurrence, assignment, relation occurrence, or result record. |
+| CC-A15.2-3 | Every `PlanItem` remains declaration-local plan content and names the possible future performance and claims it coordinates. | Resolve the designator to the content component in the identified WorkPlan; establish a claimed occurrence or participant separately under its own predicate. |
 | CC-A15.2-4 | Claims about a System intended to perform the Work, its local system-role-kind conditions, and A.2.2 capability requirements remain planned. Cite an assignment occurrence and its declared species only when that assignment already obtains; the plan supplies no capability-fit result. | Publishing a proposed holder-and-kind pair or threshold creates neither assignment, capability, nor fit for the later Work interval. |
 | CC-A15.2-5 | A desired participant, argument, or result uses A.15.3 only after one exact declaration member supplies its reusable meaning and later actual-use predicate. | The plan states the intended choice; it does not turn method-description wording, a broad field label, a compatible ValueKind, or a planned reference into participation. Keep ordinary plan content when typed reuse is unnecessary; otherwise return `missing-governor`. |
 | CC-A15.2-6 | An expected change, result, entity, delivery, acceptance, or outcome names its intended subject and target and remains a plan claim. | No `output`, `result`, `outcome`, `deliverable`, or `handoff` field is treated as a universal kind or as proof that the object exists or the effect occurred. |
@@ -71,5 +71,5 @@ keywords:
 | CC-A15.2-9 | A variance question compares exact planned and actual values through one local comparison assertion or the measurement, temporal, resource, evaluation, or acceptance pattern that defines the comparison. | Comparison method, scale, qualification window, and result are explicit; no universal variance relation or intrinsic Work field is inferred. |
 | CC-A15.2-10 | Cross-context planning pins each effective reference scheme and applies the separate Bridge/use/reliance branch in checklist item 7. | F.9 is cited only for an exact `SchemeSenseCell` Bridge; the separate C.2.1 use claim and A.10 or B.3 reliance result decide whether the attempted use proceeds, narrows, or stops. Run target conversion, commitment, acceptance, and verdict reuse under the pattern that defines each claim; the Bridge establishes none of them. |
 | CC-A15.2-11 | Evidence, assurance, gate, launch-value, and result-measurement claims stay in the patterns that govern those relations. | Evidence-reference notes or requests do not become evidence, assurance, gate passage, or result measurement. An A.15.5 readiness result and `GateDecision=pass` alone establish neither an A.2.8.PER permission relation nor a Work occurrence. |
-| CC-A15.2-12 | Planned preparation tasks may appear in the WorkPlan, but A.15.5 governs the local readiness criterion and result. | The plan says what should be prepared; it neither performs the preparation nor decides readiness for work entry by itself. |
+| CC-A15.2-12 | Planned preparation tasks may appear in the WorkPlan, but A.15.5 governs the local readiness criterion and result. | The plan says what should be prepared. A.15.5 judges readiness for work entry from the facts required by its selected criterion. |
 

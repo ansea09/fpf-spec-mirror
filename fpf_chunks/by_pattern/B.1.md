@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
-line_start: 40669
-line_end: 40901
+line_start: 40744
+line_end: 40976
 dependencies:
   - "A.1"
   - "A.14"

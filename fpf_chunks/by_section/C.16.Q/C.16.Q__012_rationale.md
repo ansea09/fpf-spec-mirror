@@ -6,12 +6,12 @@ section_id: "C.16.Q:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__012_rationale.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:10 — Rationale"
-line_start: 59474
-line_end: 59506
+line_start: 59549
+line_end: 59581
 dependencies:
   - "A.10"
   - "A.16"

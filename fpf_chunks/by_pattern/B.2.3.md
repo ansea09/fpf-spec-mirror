@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.3.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
-line_start: 43808
-line_end: 44007
+line_start: 43883
+line_end: 44082
 dependencies:
   - "A.1"
   - "A.10"

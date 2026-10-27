@@ -6,12 +6,12 @@ section_id: "C.24:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__001_intro.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:intro — Intro"
-line_start: 63518
-line_end: 63531
+line_start: 63593
+line_end: 63606
 dependencies:
   - "A.10"
   - "A.15"

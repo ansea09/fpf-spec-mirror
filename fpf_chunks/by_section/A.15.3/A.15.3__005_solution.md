@@ -6,12 +6,12 @@ section_id: "A.15.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__005_solution.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:4 — Solution"
-line_start: 29863
-line_end: 29968
+line_start: 29917
+line_end: 30022
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -41,15 +41,15 @@ keywords:
 
 ### A.15.3:4 - Solution
 
-#### A.15.3:4.0 - What the plan item is—and is not
+#### A.15.3:4.0 - Planned-filling content and its identity
 
-`SlotFillingsPlanItem` is a content form inside one `U.WorkPlan` ClaimGraph. It is not a U-kind, dependent durable kind, `U.Relation` occurrence, ontic `SlotRelation`, independent record, or second slot ontology. Its item and row designators have meaning only within that WorkPlan episteme.
+`SlotFillingsPlanItem` is a content form inside one `U.WorkPlan` ClaimGraph. Its item and row designators have meaning only within that WorkPlan episteme.
 
 C.2.1 and A.15.2 identify the WorkPlan episteme. Changing an identity-bearing row creates different WorkPlan claim content and therefore another WorkPlan episteme. The two are historical editions only if an `EpistemeEditionRelation` predicate obtains between them; a shared file, label, carrier, or revision order does not supply that continuity. A reference may point to the WorkPlan and this content component, but it gives the PlanItem no separate identity or edition rule.
 
 A **planned-filling claim** says: for this intended future performance and under these conditions, use this value or designation for this declared member. A.15.2 and A.15.3 state that intention. The member's own pattern still defines what the participant, argument, or result means and what must hold for its later actual use.
 
-The phrase **planned filling** does not mean that a declaration is filled, a relation obtains, an application occurs, or a value is actually bound. The row is plan content and needs no relation kind of its own. A later claim that the plan was fulfilled, missed, or changed belongs to A.15.2, A.6.RCD, or the applicable comparison pattern.
+A **planned filling** states the intended designation. Establish later relation participation or an operation binding under the selected member's actual-use predicate. A later claim that the plan was fulfilled, missed, or changed belongs to A.15.2, A.6.RCD, or the applicable comparison pattern.
 
 A planned-filling row states a positive intention. To prohibit or exclude a value, require its absence, or claim the list is complete, write a separate constraint or negative plan claim with its own applicability and polarity rule. Omission, an empty filler, and a negated reference do not express those claims.
 
@@ -64,7 +64,7 @@ Each row points to one member in one declaration episteme selected for the inten
 | expected result of a future operation application | one `ResultDeclaration` in one A.6.1 `OperationDeclaration` | A.6.1 and the cited mechanism define result meaning and the result-binding predicate; an expected value is not a returned value |
 | another declared future use | one declaration member whose own pattern defines both the member meaning and its actual-use predicate | cite that pattern and declaration; if either definition is absent, return `missing-governor` instead of inventing a target |
 
-A `U.MethodDescription` is not a target merely because it mentions inputs, effects, parameters, bounds, or acceptance conditions. Nor does a suite description, kit description, table, schema, card, checklist, interface form, or database field expose an A.6.5 SlotSpec unless a cited `RelationSignature` actually contains that SlotSpec. Operation arguments and results stay in A.6.1 declarations; planning them does not turn them into A.6.5 SlotSpecs.
+A `U.MethodDescription` is not a target merely because it mentions inputs, effects, parameters, bounds, or acceptance conditions. A table or form exposes an A.6.5 SlotSpec only when a cited `RelationSignature` actually contains that SlotSpec. Operation arguments and results stay in A.6.1 declarations; planning them does not turn them into A.6.5 SlotSpecs.
 
 One item may contain several rows when they serve the same intended performance, baseline policy, and rule for revising the plan. Each row still resolves to its own declared member. Split the item when those three controls differ. The WorkPlan's present EntityOfConcern remains its C.2.1 identity discriminator; a merely possible future performance does not replace it.
 
@@ -96,7 +96,7 @@ SlotFillingsPlanItem:
   laterComparisonPolicyRef?
 ```
 
-This block represents WorkPlan claim content; it is not an ontic record schema or a second authority for rows. `targetMemberFamily` is an open local dispatch vocabulary, not a public kind or closed inventory. For an operation argument or result, `targetOperationDesignator` is required so the member resolves inside the cited mechanism episteme; it stays absent for relation SlotSpecs. The `memberDefinitionPattern` field points to the pattern that defines the member and its actual-use predicate. A.15.3 still states only the plan's intention.
+This block represents WorkPlan claim content. `targetMemberFamily` is an open local dispatch vocabulary, not a public kind or closed inventory. For an operation argument or result, `targetOperationDesignator` is required so the member resolves inside the cited mechanism episteme; it stays absent for relation SlotSpecs. The `memberDefinitionPattern` field points to the pattern that defines the member and its actual-use predicate. A.15.3 still states only the plan's intention.
 
 Read the designation rule from the selected member instead of copying it into the plan. An A.6.5 member uses its `refMode`; an A.6.1 member uses its `bindingDesignationRule`. A ByRef value must use the concrete reference kind required there and resolve to the declared ValueKind. A generic `Ref`, `SpecRef`, stored token, or merely compatible value does not pass.
 
@@ -104,9 +104,9 @@ Use the selected member's semantic cardinality. For a single-valued member, cond
 
 Omitting a row leaves that planned filling unstated by this item. It does not say the value or later participant is absent. Prohibition, exclusion, required absence, and closed-world completeness remain separate plan claims with their own applicability and polarity rules.
 
-`intendedPerformanceDesignator` names the future use being planned; it does not make a future Work occurrence or entity exist. The enclosing WorkPlan keeps its already identified present EntityOfConcern under C.2.1 and A.15.2.
+`intendedPerformanceDesignator` names the future use being planned. The enclosing WorkPlan keeps its already identified present EntityOfConcern under C.2.1 and A.15.2.
 
-Add time, location, capability, readiness, gate, evidence, source-currentness, bridge, or publication conditions only when changing one would change whether the planned value applies or which value is selected. Cite the separate claims that establish those conditions. `planningConditions` points to them; it creates none of them and is not a generic condition bundle.
+Include a planning condition only when changing it would change whether the planned value applies or which value is selected. For example, cite an independently established readiness result when readiness controls the planned use. `planningConditions` points to these separately established claims under their governing patterns.
 
 When a baseline or comparison policy selects a planned value or judges a match, identify its kind, defining pattern, applicable episteme, conditions and reference scheme. A generic `PolicyRef` or shared label supplies no policy. Pin a declaration or value when another resolution could change the planned meaning, and make the reference and pin agree. Such a pin identifies the selected episteme; it asserts historical continuity only when the C.2.1 `EpistemeEditionRelation` is separately established.
 
@@ -141,7 +141,7 @@ An unplanned participant is still an actual participant when the relation's obta
 
 Pin a declaration episteme or edition-bearing planned value only when choosing another one could change the planned meaning. *Latest*, a mutable alias, a publication face, or an untyped policy label is not a reproducible reference.
 
-If the selected declaration member changes before use, revise the WorkPlan claim content. An identity-bearing change creates another WorkPlan episteme; assert historical continuity only when `EpistemeEditionRelation` obtains. Preserve the earlier WorkPlan reference already cited by work or another actual use, and state substitution or variance separately. A carrier or representation change alone does not reidentify the plan while the C.2.1 discriminators stay fixed.
+When a newer declaration becomes available, establish which declaration the planned use selects and whether that selection remains admissible. Retain an unchanged earlier selection while it remains admissible. Revise the WorkPlan claim content when its intended member, value, conditions or selected declaration reference changes, including a change required by the governing rule. If the necessary rule or selection is unresolved, identify that gap before claiming the row is usable. An identity-bearing change creates another WorkPlan episteme; assert historical continuity only when `EpistemeEditionRelation` obtains. Preserve the earlier WorkPlan reference already cited by work or another actual use, and state substitution or variance separately. A carrier or representation change alone does not reidentify the plan while the C.2.1 discriminators stay fixed.
 
-When a card, table, view, index or generated summary presents selected WorkPlan content, use its publication rules to trace that content to the plan. A new planned row, default, condition or baseline rule belongs in a revised WorkPlan under §4.0; it cannot acquire authority merely from appearing in the view.
+When presenting selected WorkPlan content, keep it traceable to the plan under the applicable publication rules. A new planned row, default, condition or baseline rule belongs in a revised WorkPlan under §4.0; it cannot acquire authority merely from that presentation.
 

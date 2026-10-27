@@ -6,17 +6,18 @@ section_id: "E.24.PUB:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__011_consequences.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:9 — Consequences"
-line_start: 115104
-line_end: 115109
+line_start: 115229
+line_end: 115234
 dependencies:
   - "A.6.3"
   - "A.6.REL"
   - "C.2.1"
   - "C.29"
+  - "C.3.2"
   - "C.30.AD"
   - "E.10"
   - "E.17"

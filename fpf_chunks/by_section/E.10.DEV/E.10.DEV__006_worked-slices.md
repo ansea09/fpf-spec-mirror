@@ -6,12 +6,12 @@ section_id: "E.10.DEV:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__006_worked-slices.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:5 — Worked Slices"
-line_start: 99215
-line_end: 99253
+line_start: 99328
+line_end: 99366
 dependencies:
   - "A.15"
   - "A.2.2"

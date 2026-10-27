@@ -6,12 +6,12 @@ section_id: "E.4.PFR:2"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__004_forces.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:2 — Forces"
-line_start: 93849
-line_end: 93862
+line_start: 93952
+line_end: 93965
 dependencies:
   - "A.10"
   - "A.6.0"

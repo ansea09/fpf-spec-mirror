@@ -6,12 +6,12 @@ section_id: "E.18:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__003_problem-frame.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:2 — Problem frame"
-line_start: 108406
-line_end: 108419
+line_start: 108519
+line_end: 108532
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

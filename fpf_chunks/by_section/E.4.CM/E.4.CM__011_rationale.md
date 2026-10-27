@@ -6,12 +6,12 @@ section_id: "E.4.CM:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.CM/E.4.CM__011_rationale.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.4.CM — Develop Connected Methods as Framework Contributions"
   - "E.4.CM:10 — Rationale"
-line_start: 92019
-line_end: 92024
+line_start: 92122
+line_end: 92127
 dependencies:
   - "A.3.1"
   - "B.1.5"

@@ -6,12 +6,12 @@ section_id: "F.3:15"
 section_title: "Migration notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__016_migration-notes.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:15 — Migration notes"
-line_start: 117341
-line_end: 117349
+line_start: 117466
+line_end: 117474
 dependencies:
   - "A.11"
   - "A.7"

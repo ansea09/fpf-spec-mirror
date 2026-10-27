@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__011_architectural-rationale.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:10 — Architectural Rationale"
-line_start: 10064
-line_end: 10069
+line_start: 10071
+line_end: 10076
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"

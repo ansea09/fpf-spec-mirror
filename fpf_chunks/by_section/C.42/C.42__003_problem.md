@@ -6,12 +6,12 @@ section_id: "C.42:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__003_problem.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.42 — Reduce Avoidable Work While Preserving the Needed Result"
   - "C.42:2 — Problem"
-line_start: 88174
-line_end: 88181
+line_start: 88249
+line_end: 88256
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

@@ -6,12 +6,12 @@ section_id: "G.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__001_intro.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:intro — Intro"
-line_start: 126493
-line_end: 126506
+line_start: 126618
+line_end: 126631
 dependencies:
   - "A.10"
   - "A.13"

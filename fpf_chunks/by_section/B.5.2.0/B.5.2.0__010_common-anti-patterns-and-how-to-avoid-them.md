@@ -6,12 +6,12 @@ section_id: "B.5.2.0:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 49468
-line_end: 49472
+line_start: 49543
+line_end: 49547
 dependencies:
   - "A.16"
   - "A.16.0"

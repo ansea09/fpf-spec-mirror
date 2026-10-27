@@ -6,12 +6,12 @@ section_id: "A.15.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__005_solution.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:4 — Solution"
-line_start: 31484
-line_end: 31540
+line_start: 31559
+line_end: 31615
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__012_sota-echoing.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:11 — SoTA-Echoing"
-line_start: 77378
-line_end: 77391
+line_start: 77453
+line_end: 77466
 dependencies:
   - "A.10"
   - "A.12"

@@ -6,12 +6,12 @@ section_id: "A.11:2.1"
 section_title: "Archetypal Grounding - Maintenance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__007_archetypal-grounding-maintenance.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:2.1 — Archetypal Grounding - Maintenance"
-line_start: 27324
-line_end: 27338
+line_start: 27340
+line_end: 27354
 dependencies:
   - "A.6.P"
   - "A.6.RCD"
@@ -34,9 +34,9 @@ keywords:
 | Provenance-chain wording | Use A.10 for one source-to-use account and bounded reliance. Open G.6 when the use needs path identity, slicing, citation, or local refresh through already established objects and relations. Continue a new durable-value proposal only if the direct evidence or provenance patterns cannot express the needed claim without material loss; complete admission remains separately required. | Parsimony tries subject patterns before minting a kernel addition; a chain label does not itself require an addressable path. |
 | `SmallPart` or similar vague size class | Reject or keep local. | The boundary depends on private scale expectations unless a direct measurement or classification pattern supplies a crisp rule. |
 
-**Worked case: retain a local classification.** A maintenance inventory needs to select the installed pumps whose specified function is coolant circulation in Loop-L. The stated project facts admit P-17 as a `U.System` and establish that it is an installed pump with that function. P-18 is also an installed pump, but its specified function is fuel supply. The project already has a C.3 local kind `CoolingPumpInLoopL` whose membership rule is exactly the inventory selection condition; its classification admits P-17 and excludes P-18.
+**Worked case: retain a local classification.** A maintenance inventory needs to select the installed pumps whose specified function is coolant circulation in Loop-L. The stated project facts admit P-17 as a `U.System` and establish that it is an installed pump with that function. P-18 is also an installed pump, but its specified function is fuel supply. The project already has a C.3.2 declaration of the local kind `CoolingPumpInLoopL` whose membership rule is exactly the inventory selection condition; its classification admits P-17 and excludes P-18.
 
-The proposal is to add a root `U.CoolingPumpInLoopL` with the same membership rule. The four gates give one result. Composition already expresses the selection without loss; the proposed extension coincides with the local kind; the new root admits no additional claim or maintenance action; and the P-18 boundary is already supplied by the local rule. Return **reuse** of the local kind, with no new U-kind admission. If later work needs a claim the local classification cannot express, reopen that particular loss and the applicable admission test; the useful project label remains available in the meantime.
+The proposal is to add a root `U.CoolingPumpInLoopL` with the same membership rule. The four gates give one result. Composition already expresses the selection without loss; the proposed extension coincides with the local kind; the new root admits no additional claim or maintenance action; and the P-18 boundary is already supplied by the local rule. Retain that local classification. If the proposal is carried into an E.24.UK decision, record `local-kind` through the existing C.3.2 declaration. If later work needs a claim the local classification cannot express, reopen that particular loss and the applicable admission test; the useful project label remains available in the meantime.
 
 A retained addition also needs a reopen condition. Reconsider the parsimony finding and admission under its governing rule when usage collapses, overlap is discovered, an existing expression becomes adequate, the boundary becomes fuzzy, or the name hides the underlying claim. A scheduled review is useful only when it helps detect such a change.
 

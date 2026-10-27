@@ -6,12 +6,12 @@ section_id: "C.24:10"
 section_title: "Rationale and current practice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__011_rationale-and-current-practice.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.24 — Plan Tool or Service Calls for a Fixed Action (C.Agent-Tools-CAL)"
   - "C.24:10 — Rationale and current practice"
-line_start: 63873
-line_end: 63887
+line_start: 63948
+line_end: 63962
 dependencies:
   - "A.10"
   - "A.15"

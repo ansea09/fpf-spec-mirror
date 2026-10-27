@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__007_archetypal-grounding.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:5 — Archetypal Grounding"
-line_start: 11702
-line_end: 11745
+line_start: 11709
+line_end: 11752
 dependencies:
   - "A.3.2"
   - "C.37"

@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 116211
-line_end: 116220
+line_start: 116336
+line_end: 116345
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

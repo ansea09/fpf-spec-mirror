@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__002_use-this-when.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:0 — Use This When"
-line_start: 10257
-line_end: 10279
+line_start: 10264
+line_end: 10286
 dependencies:
   - "A.10"
   - "A.15.1"

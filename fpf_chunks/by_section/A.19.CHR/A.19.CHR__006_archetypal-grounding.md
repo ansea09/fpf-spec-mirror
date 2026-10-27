@@ -6,12 +6,12 @@ section_id: "A.19.CHR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__006_archetypal-grounding.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
   - "A.19.CHR:5 — Archetypal Grounding"
-line_start: 36935
-line_end: 36952
+line_start: 37010
+line_end: 37027
 dependencies:
   - "A.15.2"
   - "A.15.3"

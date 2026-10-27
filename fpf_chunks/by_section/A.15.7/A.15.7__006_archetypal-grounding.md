@@ -6,12 +6,12 @@ section_id: "A.15.7:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__006_archetypal-grounding.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:5 — Archetypal Grounding"
-line_start: 31342
-line_end: 31367
+line_start: 31415
+line_end: 31442
 dependencies:
   - "A.10"
   - "A.13"
@@ -35,9 +35,11 @@ keywords:
 
 #### A.15.7:5.1 - DJ performance
 
-In this constructed case, `SetWork-1` runs from 20:00 to 21:00 UTC on 20 July 2026 within the admitted containing System `EventService-1`. Its independently identified performer System is the DJ. The local `SetPerformerRole` criterion requires control over track selection and transition; the observed behavior satisfies it independently of the Work label. The directly declared `SetPerformanceAssignment` species assigns that kind when event designation and control of the set's playback obtain. Both stipulated facts establish `RA-DJ-Set1` for the stated set and window. Performance history establishes enactment of `EventPerformanceMethod-1`. No assignment-bound attribution is requested. The DJ is already performing under that Method. The current track is ending, the DJ directly hears that room response has fallen, one promised genre constraint still applies, and three known tracks fit the remaining time. The DJ rules out one track because its transition violates the domain Method, recognizes a familiar cue favoring a second, briefly checks how the transition is likely to land, and chooses it.
+In this constructed case, assume the full A.15.1:4.1 admission basis is independently established for one performance from 20:00 to 21:00 UTC on 20 July 2026, including that occurrence's A.1:4.2 common construction. Its complete history satisfies the declared local containment predicate's boundary, window and applicability conditions for the admitted System `EventService-1`. The independently identified actual performer System is the DJ. The local `SetPerformerRole` criterion requires control over track selection and transition; the observed behavior satisfies it independently of the Work label. The directly declared `SetPerformanceAssignment` species assigns that kind when event designation and control of the set's playback obtain. Both stipulated facts establish `RA-DJ-Set1` for the stated set and window. The performance history shows the DJ following the independently identified `EventPerformanceMethod-1`. With admission established, identify `SetWork-1 : U.Work` and assert its grounded domain-Method enactment and containing-System relation. No assignment-bound attribution is requested.
 
-The answer names the chosen track and reason, the DJ as chooser and intended performer, and the condition for abandoning the transition. The described selection, cue check and stop condition supply the separate basis for saying this Work also enacts the steering Method. The performance history supplies its domain-Method enactment; neither claim follows merely from the other. The playlist shows available material; it is not the performer, the whole Method, or proof that either enactment obtains.
+The DJ is already performing under that Method. The current track is ending, the DJ directly hears that room response has fallen, one promised genre constraint still applies, and three known tracks fit the remaining time. The DJ rules out one track because its transition violates the domain Method, recognizes a familiar cue favoring a second, briefly checks how the transition is likely to land, and chooses it.
+
+The answer names the chosen track and reason, the DJ as chooser and intended performer, and the condition for abandoning the transition. The described selection, cue check and stop condition supply the separate basis for saying this Work also enacts the steering Method. The performance history supplies its domain-Method enactment; neither claim follows merely from the other. The playlist supplies the available material; the performance and selection facts above ground the two enactment claims.
 
 #### A.15.7:5.2 - Social dance or jazz
 
@@ -47,7 +49,7 @@ The performers, deciding System, musical or movement material, interaction, Meth
 
 #### A.15.7:5.3 - Case handling and stale information
 
-A worker is performing one case-handling Work occurrence under a domain Method. A displayed case state predates newly filed evidence. The new evidence changes a fact consumed by the displayed state, so the worker refreshes that affected claim before relying on it. If refresh is unavailable, the worker uses the declared safe fallback or stops. The case file records claims; it neither chooses, supplies authority, nor performs Work.
+A worker is performing one case-handling Work occurrence under a domain Method. A displayed case state predates newly filed evidence. The new evidence changes a fact consumed by the displayed state, so the worker refreshes that affected claim before relying on it. If refresh is unavailable, the worker uses the declared safe fallback or stops. The case file conveys the claims used by the worker; any authority or performed-Work claim keeps its own grounds.
 
 The worker also uses an identified procedure whose version and applicability remain unchanged. The displayed copy has no separate expiry field, and this use requires none. The worker retains that procedure while refreshing the case-state claim affected by the new evidence. The result names the current next action and its limits, with no separate certificate for retaining the unaffected procedure.
 

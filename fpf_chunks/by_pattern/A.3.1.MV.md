@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.MV.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
-line_start: 10851
-line_end: 11052
+line_start: 10858
+line_end: 11059
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"

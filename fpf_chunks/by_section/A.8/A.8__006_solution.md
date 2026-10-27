@@ -6,12 +6,12 @@ section_id: "A.8:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__006_solution.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:3 — Solution"
-line_start: 26284
-line_end: 26310
+line_start: 26291
+line_end: 26324
 dependencies:
   - "A.11"
   - "C.3"
@@ -30,7 +30,12 @@ keywords:
 
 ### A.8:3 - Solution
 
-Use the three-domain falsification test only after `E.24.UK` has admitted the candidate as a durable U-kind candidate.
+Recover the basis for the three-domain falsification test through `E.24.UK`:
+
+- **Already admitted kind.** Use its applicable accepted admission result and the candidate facts it establishes. Reconsider kernel placement at the claimed scope; an unchanged, still-applicable admission does not need to be repeated.
+- **New admission proposal.** Use the independent candidate inputs of the shared decision in `E.24:4.0a`: governed individuals, proposed membership or identity rule, intended extent, nearest non-member and receiving use. Complete the A.8 test alongside the other applicable admission tests, before E.24.UK closes the decision. The projections provide evidence for the core-placement claim; the complete E.24.UK test decides admission.
+
+In either case, the candidate description and the domain evidence must support the comparison independently of the conclusion being sought.
 
 The candidate passes A.8 only when all four conditions hold:
 
@@ -44,7 +49,7 @@ Use the following fields to make each projection inspectable. Equivalent prose o
 ```text
 UniversalCoreProjection:
   CandidateUKind:
-  UKindAdmissionResultRef: exact accepted E.24.UK output; follow it to the shared decision only when common inputs or decision mode are needed.
+  UKindAdmissionResultRef: exact accepted E.24.UK output, when available; follow it to the shared decision only when common inputs or decision mode are needed.
   DomainFamily:
   DomainTerm:
   LocalEoC:
@@ -52,6 +57,8 @@ UniversalCoreProjection:
   DifferenceOrLoss:
   EvidenceRef:
 ```
+
+For a new proposal, `CandidateUKind` identifies the candidate under consideration. Keep its projection findings with the shared decision's ClaimGraph. Supply `UKindAdmissionResultRef` when an applicable accepted result exists; a pending decision reference is not an accepted-result reference. The other projection values can be supplied and tested before that result exists.
 
 At least three supported projections are required. Try to defeat the proposed universal-core claim: a supported counterexample within its claimed scope refutes that form of the claim. A misidentified local object or invalid projection first needs correction. Three successful cases support this admission test; they do not prove universality over every future case.
 

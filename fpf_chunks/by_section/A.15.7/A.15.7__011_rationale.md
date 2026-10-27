@@ -6,12 +6,12 @@ section_id: "A.15.7:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__011_rationale.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:10 — Rationale"
-line_start: 31410
-line_end: 31415
+line_start: 31485
+line_end: 31490
 dependencies:
   - "A.10"
   - "A.13"
@@ -33,7 +33,7 @@ keywords:
 
 ### A.15.7:10 - Rationale
 
-This pattern supplies a reusable Method for a common working question: what should this deciding System do next during current Work, given current facts and the Method that still bounds the Work? Keeping that Method separate from the domain Method preserves two independently testable claims while allowing either co-enactment or an admitted composite.
+This pattern supplies a reusable Method for a common working question: what should happen next during current Work, which System is to perform it, and which current facts and domain-Method limits support that choice? Name the deciding System separately when it differs from the intended performer. Keeping the steering Method distinct from the domain Method permits separate enactment or composition claims when the use needs them and their grounds hold.
 
 The pattern begins before late-stage option comparison and ends before tool-call planning or performed-action recording. That placement keeps the first result small and makes explicit comparison, generation, planning, evidence, and assurance conditional rather than universal burdens.
 

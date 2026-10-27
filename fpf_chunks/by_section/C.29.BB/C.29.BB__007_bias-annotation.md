@@ -6,12 +6,12 @@ section_id: "C.29.BB:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__007_bias-annotation.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:6 — Bias-Annotation"
-line_start: 70265
-line_end: 70270
+line_start: 70340
+line_end: 70345
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"

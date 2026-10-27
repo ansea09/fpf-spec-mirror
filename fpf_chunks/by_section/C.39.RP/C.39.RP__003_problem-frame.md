@@ -6,12 +6,12 @@ section_id: "C.39.RP:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__003_problem-frame.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:1 — Problem Frame"
-line_start: 82337
-line_end: 82342
+line_start: 82412
+line_end: 82417
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

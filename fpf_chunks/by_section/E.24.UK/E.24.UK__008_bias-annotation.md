@@ -6,12 +6,12 @@ section_id: "E.24.UK:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__008_bias-annotation.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:6 — Bias-Annotation"
-line_start: 115506
-line_end: 115509
+line_start: 115631
+line_end: 115634
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -42,5 +42,5 @@ keywords:
 
 ### E.24.UK:6 - Bias-Annotation
 
-This pattern blocks punctuation-bias and taxonomy-bias. A `U.*` spelling, title, filename, table row, or imported type word is not enough to create a durable FPF kind. Recover the governed individuals, their identity or membership rule, and the PatternID that locates that rule first. When the candidate instead names participation in a relation, a SlotSpec, an assertion or description field, a selected `U.Structure`, an `E.24.PUB` form, or a `C.29` representation element, retain that exact object and its defining or testing rule. For a structure specialization, first recover the same base individual through A.22's four discriminators; a context, system, team, subsystem, label, scope, method, work, result, view, representation, publication, or use creates neither that base identity nor dependent membership. Only then decide whether any durable U-kind distinction remains.
+This pattern blocks punctuation-bias and taxonomy-bias. A `U.*` spelling, title, filename, table row, or imported type word is not enough to create a durable FPF kind. Recover the governed individuals, their identity or membership rule, and the PatternID that locates that rule first. When the candidate instead names participation in a relation, a SlotSpec, an assertion or description field, a selected `U.Structure`, an `E.24.PUB` form, or a `C.29` representation element, retain that exact object and its defining or testing rule. For a structure specialization, first recover the same base individual through A.22's four discriminators, then test its specialization predicate. Only then decide whether any durable U-kind distinction remains.
 

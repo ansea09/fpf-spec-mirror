@@ -6,12 +6,12 @@ section_id: "C.42:End"
 section_title: "C.42:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__014_c-42-end.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.42 — Reduce Avoidable Work While Preserving the Needed Result"
   - "C.42:End — C.42:End"
-line_start: 88436
-line_end: 88437
+line_start: 88511
+line_end: 88512
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

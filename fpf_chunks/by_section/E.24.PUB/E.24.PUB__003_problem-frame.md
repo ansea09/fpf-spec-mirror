@@ -6,17 +6,18 @@ section_id: "E.24.PUB:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__003_problem-frame.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:1 — Problem Frame"
-line_start: 114882
-line_end: 114891
+line_start: 115007
+line_end: 115016
 dependencies:
   - "A.6.3"
   - "A.6.REL"
   - "C.2.1"
   - "C.29"
+  - "C.3.2"
   - "C.30.AD"
   - "E.10"
   - "E.17"
@@ -39,7 +40,7 @@ Ontics and other entities are usually encountered through epistemes and physical
 
 Those are connected uses, not one presentation-side kind. E.24.PUB governs the publication relation and the two supporting relations needed to inspect that use. It keeps the described subject, description episteme, `U.View`, representation, publication form, carrier, and publication occurrence distinct without requiring every ordinary sentence to repeat the full stack.
 
-Plain `published episteme` names an episteme while it participates as the selected edition in a current publication occurrence. It is a contingent qualification, not a durable U-kind and not a second identity beside `U.Episteme`.
+Plain `published episteme` names an episteme while it participates as the selected edition in a current publication occurrence. C.2.1 continues to govern that episteme's identity. If the receiving use needs classification by publication participation, use C.3.2 with its declared criterion and slice. E.24.UK:5.0 rejects the additional public kind `U.EpistemePublication` for the availability-only use; a different classification need follows its admission tree.
 
 Here a publication occurrence is an occurrence of `EpistemePublicationRelation`: an availability relation that can endure. It is not the instantaneous rendering, printing, uploading, or access-control work that may establish or restore that availability.
 

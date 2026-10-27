@@ -6,12 +6,12 @@ section_id: "A.15.7:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__008_conformance-checklist.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:7 — Conformance Checklist"
-line_start: 31376
-line_end: 31387
+line_start: 31451
+line_end: 31462
 dependencies:
   - "A.10"
   - "A.13"
@@ -40,6 +40,6 @@ keywords:
 - **CC-A15.7-5 — Available actions.** Are mandatory action, recognition, comparison, generation, and tool-planning branches kept separate?
 - **CC-A15.7-6 — Chooser and performer.** Are the deciding System, intended performer, and any authority or capability claim stated separately?
 - **CC-A15.7-7 — First result.** Does the answer visibly state the decision, performer, and stop or feedback condition?
-- **CC-A15.7-8 — No backdating.** Are later observations, plan changes, performed actions, and Method changes identified separately rather than written back into earlier Work?
+- **CC-A15.7-8 — History and corrected claims.** Are later observations, plan changes, performed actions and Method changes kept at their actual times, with any refuted earlier claim corrected and its dependents rechecked?
 - **CC-A15.7-9 — Plain use.** Can a cold practitioner understand what to do before meeting the formal distinctions?
 

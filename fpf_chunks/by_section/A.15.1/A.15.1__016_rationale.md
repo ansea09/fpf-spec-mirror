@@ -6,12 +6,12 @@ section_id: "A.15.1:13.0"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__016_rationale.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:13.0 — Rationale"
-line_start: 29447
-line_end: 29450
+line_start: 29501
+line_end: 29504
 dependencies:
   - "A.1"
   - "A.10"
@@ -57,5 +57,5 @@ keywords:
 
 ### A.15.1:13.0 - Rationale
 
-`U.Work` is retained as the admitted kind for dated Work occurrences because performer System, local system-role kind, system-role assignment, Method, MethodDescription, WorkPlan, affected entity, actual change, evaluation-result episteme, delivered entity, and downstream effect are different FPF objects. One Work individual is the world-side occurrence. Every actual performer is an admitted `U.System` with an A.13 agency basis for the action, scope, and window. A.15.1 admits the occurrence from that performer basis plus independently grounded history, Method, extent, and containment. Only when precise assignment-bound attribution is current may F.6 then relate that already admitted Work to the same obtaining assignment already recovered through A.13; it identifies neither. An assertion or description about the Work is a separate episteme. Missing assignment attribution alone does not revoke Work membership; a finding against a separate admission premise requires its own recheck under §4.1. Add direct Work-to-referent, binding, resource-use, or change facts only when their own relations obtain.
+`U.Work` is retained as the admitted kind for dated Work occurrences because performer System, local system-role kind, system-role assignment, Method, MethodDescription, WorkPlan, affected entity, actual change, evaluation-result episteme, delivered entity, and downstream effect are different FPF objects. One Work individual is the world-side occurrence. Every actual performer is an admitted `U.System` with an A.13 agency basis for the action, scope, and window. A.15.1 admits the occurrence under the full §4.1 test from its A.1:4.2 construction, that performer basis and independently grounded history, Method, extent, and containment. Only when precise assignment-bound attribution is current may F.6 then relate that already admitted Work to the same obtaining assignment already recovered through A.13; it identifies neither. An assertion or description about the Work is a separate episteme. Missing assignment attribution alone does not revoke Work membership; a finding against a separate admission premise requires its own recheck under §4.1. Add direct Work-to-referent, binding, resource-use, or change facts only when their own relations obtain.
 

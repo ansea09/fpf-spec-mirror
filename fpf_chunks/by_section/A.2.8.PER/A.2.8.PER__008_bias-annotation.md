@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__008_bias-annotation.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:6 — Bias-Annotation"
-line_start: 8569
-line_end: 8573
+line_start: 8576
+line_end: 8580
 dependencies:
   - "A.10"
   - "A.13"

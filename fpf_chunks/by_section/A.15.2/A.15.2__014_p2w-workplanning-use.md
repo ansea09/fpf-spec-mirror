@@ -6,12 +6,12 @@ section_id: "A.15.2:8"
 section_title: "P2W WorkPlanning use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__014_p2w-workplanning-use.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:8 — P2W WorkPlanning use"
-line_start: 29770
-line_end: 29777
+line_start: 29824
+line_end: 29831
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,9 +58,9 @@ keywords:
 
 ### A.15.2:8 - P2W WorkPlanning use
 
-When `E.18.1` reaches WorkPlanning, one exact `U.WorkPlan` retains its present EntityOfConcern and states possible future performed Work over an exact horizon through `PlanItem` content: intended-performance designators, windows, Methods, intended performer Systems and local system-role-kind conditions, capability requirements, constraints, budgets, dependencies, commitments, targets, evidence-reference notes, and source-currentness requests. If the plan chooses a value for a reusable declaration member, use A.15.3; if it states an expected effect, name the intended subject and target under the pattern that defines that effect.
+When the next P2W question concerns planned work, use the accepted problem-side claim to choose or qualify the relevant `PlanItem` content. One exact `U.WorkPlan` retains its present EntityOfConcern and states possible future performed Work over an exact horizon through `PlanItem` content: intended-performance designators, windows, Methods, intended performer Systems and local system-role-kind conditions, capability requirements, constraints, budgets, dependencies, commitments, targets, evidence-reference notes, and source-currentness requests. If the plan chooses a value for a reusable declaration member, use A.15.3; if it states an expected effect, name the intended subject and target under the pattern that defines that effect.
 
 When the P2W use also needs a readiness question, the WorkPlan may supply target PlanItems, planned preparation tasks, reservations, and planned baselines. `A.15.5` supplies the exact readiness criterion and local result about that plan content; the criterion may consume current commitment, resource, work-in-progress or load, flow-policy, and launch-gate claims only through their separately governed values, boundaries, counting or threshold rules, and qualification windows.
 
-If the same P2W source material also claims performed work, an actual launch value or participant, evidence, gate passage, result, measurement, publication use, appearance-based reliance repair, or refresh, state that claim outside the WorkPlan under the pattern that defines it. The WorkPlan establishes none of them.
+If the same P2W source material also claims performed work, an actual launch value or participant, evidence, gate passage, result, measurement, publication use, appearance-based reliance repair, or refresh, state that claim outside the WorkPlan under the pattern that defines it.
 

@@ -6,12 +6,12 @@ section_id: "C.43:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__006_archetypal-grounding.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:5 — Archetypal Grounding"
-line_start: 88696
-line_end: 88756
+line_start: 88783
+line_end: 88859
 dependencies:
   - "A.12"
   - "C.11"
@@ -70,9 +70,15 @@ The recommender recovers the actual connection: calculation is available, assump
 
 Compare the alternatives from the team's present repertoire and commitments. Practice consumes time that could deliver existing work; the expert must have time to give the proposed feedback; continuing external help remains part of the result where required. Choose the combination only if its additional attainable capability and future uses warrant that burden. An AI assistant can supply contrasts or perform calculation, but the comparison still asks which consequential judgement the resulting team can obtain and under what continuing help.
 
-During implementation, team members examine previously unseen cases, decide which assumption matters and explain the resulting change of diagnosis. The receiving work then checks those judgements with appropriate subject evidence. Suppose they become dependable with a short independent review but not without it. The achieved configuration now includes that review. The next choice can retain it, reduce its burden through further development, or use the supported capability in a new family of diagnoses.
+Suppose qualified expert support remains available for six weeks. Two practice periods each week and the expert's feedback time can be reserved without displacing the team's existing delivery commitments. For its planned work after those six weeks, the team values the expected gain in independent judgement more than the other available uses of that time. The completed recommendation is: "Retain expert-supported delivery and undertake the bounded practice programme. Use unseen cases to establish what judgement becomes dependable and what help must remain." The responsible team chooses that combination and reserves the means. Capability still has to be established through the ensuing work.
 
-That new family may expose a limit shared by all performers. The next useful intervention can then be development of the diagnostic Method rather than more repetitions of the same exercises. If the recommender repeatedly prescribes exercises for this shared methodological gap, its own diagnostic distinction becomes a candidate for repair. The observed limitation can therefore redirect development to the team's capability, the diagnostic Method, or the recommender's diagnostic distinction.
+During practice, a new observation makes an exercise variation a plausible way to improve the next session. An AI recommender can compare it at low cost within its available means. Suppose the available comparison supports no improvement in attainable learning or later use over the selected exercise, while discussing the change would interrupt the team's work. Retain the selected programme: the attainable comparison was worth making, but its result gives no reason to present this variation or require the team to investigate it. Reuse that comparison while its basis holds. A newly feasible exercise that develops the missing judgement sooner could instead justify advice even while delivery remains successful.
+
+During implementation, team members examine previously unseen cases, decide which assumption matters and explain the resulting change of diagnosis. The receiving work then checks those judgements with appropriate subject evidence. Suppose they become dependable with a short independent review supplied by the expert, but not without it. The achieved configuration now includes that review. The next choice can retain it, reduce its burden through further development, or use the supported capability in a new family of diagnoses.
+
+Now suppose the expert announces an earlier departure and the retained review will become unavailable before the next planned reconsideration. Waiting to present this change would leave the team relying on unavailable support. The recommender raises it in time for the responsible chooser to obtain a qualified replacement, restrict the work to an independently supported scope, or stop the unsupported work. The earlier decision to limit routine advice does not govern this changed continuation. A proposed replacement becomes available only when its required capability, agreement and time are established.
+
+A new family of diagnoses may expose a limit shared by all performers. The next useful intervention can then be development of the diagnostic Method rather than more repetitions of the same exercises. If the recommender repeatedly prescribes exercises for this shared methodological gap, its own diagnostic distinction becomes a candidate for repair. The observed limitation can therefore redirect development to the team's capability, the diagnostic Method, or the recommender's diagnostic distinction. A change to the recommender earns its place through better subsequent development and its full burden, including any additional observations or human interpretation it needs.
 
 #### C.43:5.5 - Explain both effective and ineffective feedback in the same account
 
@@ -83,4 +89,14 @@ At `k = 0.5`, successive deviations are one half and one quarter of the initial 
 Suppose an actual updating component and parameter memory are distinct parts of the controller assembly. The component selects a new gain from observed behavior and writes it to the memory used by the acting controller. A.12 can expose this internal action. If the update changes the gain from 0.5 to 2.5, its being controlled and traceable does not make the result an improvement. The changed rule must be compared through its consequences for the subsequent operation. A recovery to an earlier qualified setting is available only if the implementation retains and can restore it under the current conditions.
 
 Now change the observation condition: the rule receives a delayed state. The original immediate-observation update no longer describes the joined operation. Recover the delayed information and the implemented rule, then evaluate that model or change the arrangement. Do not fix the explanation by declaring the missing timely observation a zero state. These returns preserve the common control relations while changing the subject calculation actually needed.
+
+#### C.43:5.6 - Obtain a decisive check before a difficult-to-reverse change
+
+Consider a constructed archive migration. Removing the old service would also remove the team's ordinary recovery route. The responsible operator has authorized removal only after compatibility of the required formats and operations is established. A qualified ten-minute check on an isolated copy can settle that compatibility question under the stipulated migration conditions; it finishes while both migration and retaining the old service remain available.
+
+The present uncertainty distinguishes continuations with different consequences. A compatible result allows the operator to consider migration under the remaining established conditions. An incompatible result keeps the old service in use while the migration Method is repaired. Running the check preserves that conditional choice at a burden the team accepts. The completed advice is: "Perform the compatibility check before removing the old service. Continue the migration only after compatibility has been established and the other conditions are satisfied. If incompatibility is found, retain the old service and repair the migration Method. If compatibility has not been established in time, retain the old service." This advice selects inquiry and a conditional continuation. The check and migration remain to be performed.
+
+If the selected check is unavailable, other qualified evidence may still establish the same compatibility in time. If compatibility has not been established in time, removal remains unavailable under the authorization. Difficulty obtaining evidence does not establish compatibility. The team can retain the service or pursue a feasible revision through the responsible authority. The qualified check supports its stated compatibility conclusion; other migration properties require their own basis.
+
+Change the receiving use. The team now needs only an explanation of the formats' conceptual differences and makes no migration commitment. Suppose the available specifications suffice for that explanation and the check's possible outcomes would leave it unchanged. Give the supported explanation with its scope. A later migration reopens the compatibility question. The worthwhile inquiry changed with its receiving use, while the requirement governing removal retained its force.
 

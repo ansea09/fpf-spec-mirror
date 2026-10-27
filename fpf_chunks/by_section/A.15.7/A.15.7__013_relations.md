@@ -6,12 +6,12 @@ section_id: "A.15.7:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__013_relations.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:12 — Relations"
-line_start: 31425
-line_end: 31430
+line_start: 31500
+line_end: 31505
 dependencies:
   - "A.10"
   - "A.13"

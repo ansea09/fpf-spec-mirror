@@ -6,12 +6,12 @@ section_id: "A.2.6:5"
 section_title: "Solution - Overview"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__006_solution-overview.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:5 — Solution - Overview"
-line_start: 6630
-line_end: 6645
+line_start: 6637
+line_end: 6652
 dependencies:
   - "A.1.1"
   - "A.15.1"

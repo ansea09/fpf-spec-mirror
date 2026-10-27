@@ -6,12 +6,12 @@ section_id: "E.11:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__012_sota-echoing.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:11 — SoTA-Echoing"
-line_start: 101486
-line_end: 101507
+line_start: 101599
+line_end: 101620
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"

@@ -6,12 +6,12 @@ section_id: "E.10:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__002_use-this-when.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:0 — Use this when"
-line_start: 97106
-line_end: 97836
+line_start: 97209
+line_end: 97939
 dependencies:
   - "A.10"
   - "A.15"
@@ -523,7 +523,7 @@ Split decision-making and decision records under `C.11`; local system-role-kind 
 
 A reusable name for performed work goes to `F.18` only after A.13 and A.15.1 independently admit the Work occurrence from its actual performer basis, time, Method, and containing System. If the reusable account also needs precise assignment-bound attribution, establish F.6 afterward through the same obtaining assignment. Keep the affected referent, application bindings, resource use, and other direct facts separately recoverable. Add a continuity policy only when occurrence identity matters. Keep production, measurement, evaluation, delivery, acceptance, and downstream-effect claims under their direct patterns.
 
-P2W language from `E.18` transformation-flow structure is not a generic `source-to-work` slogan. Use it only when the chain from principles, theories, and signatures through method choice, work planning, work execution, separate measurement or evaluation, and cycle return is actually being made.
+`P2W` in `E.18.1` carries accepted problem-side content into a question needed by the receiving work, then preserves that content in the result or stop obtained using the pattern that answers the question. `E.18:2` describes a first-principles specialization that can connect principles, theories and signatures with method choice, work planning, work execution, separate measurement or evaluation, and cycle return. The parts used depend on the receiving question; `E.18.1:4.0b` governs when an explicit transformation-flow structure is needed.
 
 ##### E.10:0.2c.21a - `method` and its contextual synonyms
 

@@ -6,12 +6,12 @@ section_id: "A.15.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__002_problem-frame.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:1 — Problem Frame"
-line_start: 28932
-line_end: 28937
+line_start: 28952
+line_end: 28957
 dependencies:
   - "A.1"
   - "A.10"
@@ -59,5 +59,5 @@ keywords:
 
 After we have separated **which system-role assignment obtains** (via `U.SystemRoleAssignment`), **what capability is being relied on** (through an A.2.2 qualified holder-ability claim), **how in principle** the Work is done (the exact `U.Method`), and which claim-bearing episteme, if selected, describes that Method (`U.MethodDescription`), we still need a precise concept for **what happened as performed Work** in real time and space.
 
-Every Work individual has an A.13 core basis for every claimed actual performer System, an independently grounded performance history, at least one enacted Method, temporal extent, and at least one locally declared containing-system relation. Several such relations may obtain under different exact system boundaries. The A.13 core already contains one obtaining assignment for its scope, situation, and window; an F.6 relation may later use that same occurrence but is not a Work-membership premise. A Work stands in a direct work-to-referent, binding, or resource-use relation only when that relation obtains world-side; none is a field stored in the occurrence. A separate assertion or description may designate that individual and state the relations, but the episteme neither creates the relations nor becomes the Work occurrence.
+Every Work individual has an A.13 core basis for every claimed actual performer System, an independently grounded performance history, at least one enacted Method, temporal extent, and at least one locally declared containing-system relation. Several such relations may obtain under different exact system boundaries. The A.13 core already contains one obtaining assignment for its scope, situation, and window; an F.6 relation may later use that same occurrence but is not a Work-membership premise. A Work stands in a direct work-to-referent, binding, or resource-use relation only when that relation obtains world-side; none is a field stored in the occurrence. A separate assertion or description episteme designates that individual and states the independently obtaining relations. Judge its evidence against the particular occurrence or relation claim being made.
 

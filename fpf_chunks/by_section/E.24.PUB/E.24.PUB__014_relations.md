@@ -6,17 +6,18 @@ section_id: "E.24.PUB:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__014_relations.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:12 — Relations"
-line_start: 115128
-line_end: 115134
+line_start: 115253
+line_end: 115259
 dependencies:
   - "A.6.3"
   - "A.6.REL"
   - "C.2.1"
   - "C.29"
+  - "C.3.2"
   - "C.30.AD"
   - "E.10"
   - "E.17"
@@ -37,6 +38,6 @@ keywords:
 
 - **Builds on:** `A.6.REL` for direct obtaining and occurrence identity, `C.2.1` for the selected edition and declaration epistemes, and `E.24` for ontic-description boundaries.
 - **Coordinates with:** `E.17.0` for `U.View` membership and `E.17` for multi-view publication; `A.6.3` for optional viewing construction; `C.29` for representation and admitted operations; `E.8` for FPF pattern publication form; and the direct carrier-currentness or access pattern when carrier availability is current.
-- **Coordinates with:** `E.24.CD` for candidate detection and `E.24.UK` for public U-kind and dependent-kind settlement. `U.EpistemePublication` is rejected there; this pattern uses Plain `published episteme` for contingent participation.
+- **Coordinates with:** `E.24.CD` for candidate detection and `E.24.UK` for public U-kind and dependent-kind settlement. Its result `E24UK-NAR-EPUB-01` rejects `U.EpistemePublication` for the availability-only use; this pattern states that participation, while C.3.2 governs a receiving classification use.
 - **Used by:** subject patterns only when a receiving use depends on distinguishing the subject, description episteme, selected edition, view, representation, publication form, carrier, audience, bounded use, or publication occurrence.
 

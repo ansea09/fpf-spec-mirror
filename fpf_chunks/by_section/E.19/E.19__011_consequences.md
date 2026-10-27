@@ -6,12 +6,12 @@ section_id: "E.19:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__011_consequences.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:9 — Consequences"
-line_start: 111328
-line_end: 111336
+line_start: 111453
+line_end: 111461
 dependencies:
   - "A.15.1"
   - "A.6.P"

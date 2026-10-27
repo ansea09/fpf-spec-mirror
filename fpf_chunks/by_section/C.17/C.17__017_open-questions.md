@@ -6,12 +6,12 @@ section_id: "C.17:15"
 section_title: "Open questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__017_open-questions.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:15 — Open questions"
-line_start: 59936
-line_end: 59944
+line_start: 60011
+line_end: 60019
 dependencies:
   - "A.0"
   - "A.1.1"

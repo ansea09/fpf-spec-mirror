@@ -6,12 +6,12 @@ section_id: "A.15.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__002_problem-frame.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:1 — Problem Frame"
-line_start: 30178
-line_end: 30195
+line_start: 30233
+line_end: 30250
 dependencies:
   - "A.10"
   - "A.13"
@@ -57,9 +57,9 @@ A display or copied claim can look sufficient for a decision while the required 
 
 **Plain recognition line.** Follow the displayed claim or pointer to the required relation or result and its test. A recoverable native reference can serve that purpose; appearance alone establishes no authorization or other relied-on fact.
 
-**Reliance-appearance and claim/effect-position discipline.** In this pattern, `source` is not a generic kind. The value required for the attempted use is an actual relation occurrence, decision/finding/status result, plan, Work occurrence, or claim about that object. Apply the criterion defined for that value. A project record may be a `U.Episteme` that names it, and a publication relation may expose that record; their presence or form alone establishes neither the relation nor a passing result; inspect their content under the governing predicate. If no typed reference and applicable test can be recovered, keep the appearance at orientation, source-finding, cue-pack preservation, repair request, or bounded-probe use.
+**Reliance-appearance and claim/effect-position discipline.** Recover the value required for the attempted use: an actual relation occurrence, decision/finding/status result, plan, Work occurrence, or claim about that object. Apply the criterion defined for that value. A project record may be a `U.Episteme` that names it, and a publication relation may expose that record; inspect its content under the governing predicate. Use a typed reference when the governing rule or receiving use needs that identity. If the prerequisite or its applicable test cannot be recovered, keep the appearance at orientation, source-finding, cue-pack preservation, repair request, or bounded-probe use.
 
-**How to read the optional note and rows.** The labels below are worksheet prompts for objects and relations defined by their own patterns; they add no generic source kind or repair relation:
+**How to read the optional note and rows.** The labels below are worksheet prompts for objects and relations defined by their own patterns:
 - `RelianceAppearanceRef` names the dashboard tile, credential view, copied wording, generated explanation, publication face, carrier, display, API wording, source-finding pointer, or low-articulation indication whose appearance is tempting the work or reliance use. `RelianceAppearanceKind` states its actual kind rather than making these items one kind. If the live value is a preserve-worthy early cue, use `PreArticulationCuePack` under `A.16.1`.
 - `WorkOrRelianceUseKind` and `WorkOrRelianceUseRef` name the use being justified: intended work, reliance on a claim, reliance on performed work, a work-relevant P2W claim, or a P2W chain position. These fields select the current branch; they do not create a durable kind.
 - When the worksheet is selected, `RequiredPositionEntries` carries the prerequisite set for the attempted use, with one row per independently required direct object. Every row states `SubjectPatternLocator`, `DirectObjectKind`, the native `ProjectSideObjectRef` required for that object, `RequiredPostureOrCurrentness`, and `DependencyOnAttemptedUse`. The locator points to the pattern whose content defines, constrains, or tests the direct object; a proxy or navigation pattern is insufficient. One row may point to a required claim, another to an instituting speech act, grant, conflict finding, gate decision, assignment, evidence/currentness relation, plan, or other direct object; the row set creates none of them and never turns a claim into an instituted effect.

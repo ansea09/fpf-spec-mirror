@@ -6,12 +6,12 @@ section_id: "E.10.LRN:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__012_rationale.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:10 — Rationale"
-line_start: 98919
-line_end: 98924
+line_start: 99032
+line_end: 99037
 dependencies:
   - "A.10"
   - "A.15"

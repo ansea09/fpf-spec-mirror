@@ -6,12 +6,12 @@ section_id: "A.8:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__002_use-this-when.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:0 — Use This When"
-line_start: 26235
-line_end: 26259
+line_start: 26242
+line_end: 26266
 dependencies:
   - "A.11"
   - "C.3"
@@ -40,12 +40,12 @@ Typical moments:
 
 - a candidate U-kind is proposed because several domains use similar words;
 - a local subject value starts being treated as universal because it is useful in one field;
-- `E.24.UK` admits a durable U-kind candidate, and the remaining question is whether it belongs in the universal core;
+- a new U-kind proposal includes a universal-core claim, or an already admitted kind is being considered for kernel placement;
 - source or draft type wording claims kernel-level status and must be recovered into current U-kind governance.
 
 **Primary EntityOfConcern.** The EntityOfConcern is the universal-core admission claim for one candidate U-kind.
 
-**First useful move.** Apply `E.24.UK` first. If the candidate survives as a durable U-kind and claims kernel-level status, test whether it makes the same abstract contribution in at least three foundationally different domain families.
+**First useful move.** Recover the candidate and its proposed membership or identity rule through `E.24.UK`. If kernel-level status is claimed, test whether it makes the same abstract contribution in at least three foundationally different domain families. Use the applicable accepted admission result for an already admitted kind; a new proposal supplies the shared decision's independently recovered candidate inputs.
 
 **Not this pattern when.**
 

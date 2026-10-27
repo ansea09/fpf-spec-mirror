@@ -6,17 +6,18 @@ section_id: "E.24.PUB:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__002_use-this-when.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:0 — Use This When"
-line_start: 114861
-line_end: 114881
+line_start: 114986
+line_end: 115006
 dependencies:
   - "A.6.3"
   - "A.6.REL"
   - "C.2.1"
   - "C.29"
+  - "C.3.2"
   - "C.30.AD"
   - "E.10"
   - "E.17"
@@ -41,7 +42,7 @@ Use this pattern when an ontic or another entity is encountered through a card, 
 
 **First useful move.** Put the intended receiving use in the bounded-use declaration itself. Then say, in one sentence, which episteme edition is available, to which declared audience, for which bounded use, in which publication form, and on which presentation carrier. Cite a separate plan, decision question, or `U.WorkPlan` only when it independently exists and changes the publication claim; it is not a second required statement of intended use. Availability establishes none of actual access, reliance, use, Work, or result. Open fuller relation detail only when needed to resolve disputed availability, its declared boundary, or publication-occurrence identity.
 
-**What goes wrong if missed.** A visible layout is treated as the described subject, a file is treated as the claims it carries, a diagram is treated as a view merely because it is graphical, or a currently available episteme is turned into a durable `U.EpistemePublication` kind. The receiving work then cannot tell which object changed when claims, layout, carrier, audience, or use changes.
+**What goes wrong if missed.** A visible layout is treated as the described subject, a file is treated as the claims it carries, a diagram is treated as a view merely because it is graphical, or publication availability alone is used to admit a durable `U.EpistemePublication` kind. The receiving work then cannot tell which object changed when claims, layout, carrier, audience, or use changes.
 
 **What this buys.** The user can change a claim, view, form, carrier, audience, or declared bounded use without silently changing all the others. A publication can be inspected and repaired while the subject pattern remains centered on its subject.
 

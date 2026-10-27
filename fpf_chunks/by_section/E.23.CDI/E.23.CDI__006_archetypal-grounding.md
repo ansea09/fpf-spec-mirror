@@ -6,12 +6,12 @@ section_id: "E.23.CDI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__006_archetypal-grounding.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:5 — Archetypal Grounding"
-line_start: 113443
-line_end: 113472
+line_start: 113568
+line_end: 113597
 dependencies:
   - "A.15.1"
   - "A.2.2"

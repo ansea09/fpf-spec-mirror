@@ -6,12 +6,12 @@ section_id: "B.5.4:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__012_sota-echoing.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
   - "B.5.4:11 — SoTA-Echoing"
-line_start: 49944
-line_end: 49959
+line_start: 50019
+line_end: 50034
 dependencies:
   - "A.7.1"
   - "B.5"

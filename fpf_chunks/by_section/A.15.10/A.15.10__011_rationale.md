@@ -6,12 +6,12 @@ section_id: "A.15.10:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__011_rationale.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.10 — Resume Interrupted Work"
   - "A.15.10:10 — Rationale"
-line_start: 32319
-line_end: 32328
+line_start: 32394
+line_end: 32403
 dependencies:
   - "A.15"
   - "A.15.5"

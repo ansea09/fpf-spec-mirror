@@ -6,12 +6,12 @@ section_id: "C.19:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__005_forces.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:3 — Forces"
-line_start: 60472
-line_end: 60476
+line_start: 60547
+line_end: 60551
 dependencies:
   - "A.10"
   - "A.19.CPM"

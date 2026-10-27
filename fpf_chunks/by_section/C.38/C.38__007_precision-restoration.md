@@ -6,12 +6,12 @@ section_id: "C.38:6"
 section_title: "Precision restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.38/C.38__007_precision-restoration.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.38 — Construct Comparable Ways to Obtain One Result"
   - "C.38:6 — Precision restoration"
-line_start: 81546
-line_end: 81559
+line_start: 81621
+line_end: 81634
 dependencies:
   - "A.10"
   - "A.15.9"

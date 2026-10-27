@@ -6,12 +6,12 @@ section_id: "C.2.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__001_intro.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:intro — Intro"
-line_start: 50477
-line_end: 50500
+line_start: 50552
+line_end: 50575
 dependencies:
   - "A.1"
   - "A.1.1"

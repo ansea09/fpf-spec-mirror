@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.TF.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
-line_start: 87389
-line_end: 87542
+line_start: 87464
+line_end: 87617
 dependencies:
   - "C.37"
   - "C.41"

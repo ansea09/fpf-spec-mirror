@@ -6,12 +6,12 @@ section_id: "C.3.1:8"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__010_bias-annotation.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:8 — Bias-Annotation"
-line_start: 54337
-line_end: 54340
+line_start: 54412
+line_end: 54415
 dependencies:
   - "A.1"
   - "A.11"

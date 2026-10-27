@@ -6,12 +6,12 @@ section_id: "B.5.2:4"
 section_title: "Solution - Structured abductive micro-cycle"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__005_solution-structured-abductive-micro-cycle.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:4 — Solution - Structured abductive micro-cycle"
-line_start: 49123
-line_end: 49180
+line_start: 49198
+line_end: 49255
 dependencies:
   - "A.10"
   - "A.16"

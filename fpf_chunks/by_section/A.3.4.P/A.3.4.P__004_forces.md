@@ -6,12 +6,12 @@ section_id: "A.3.4.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__004_forces.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:3 — Forces"
-line_start: 13214
-line_end: 13223
+line_start: 13221
+line_end: 13230
 dependencies:
   - "A.10"
   - "A.15.1"

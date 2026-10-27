@@ -6,12 +6,12 @@ section_id: "E.5.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__004_forces.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:3 — Forces"
-line_start: 94616
-line_end: 94623
+line_start: 94719
+line_end: 94726
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"

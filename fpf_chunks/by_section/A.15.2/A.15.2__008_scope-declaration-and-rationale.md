@@ -6,12 +6,12 @@ section_id: "A.15.2:7"
 section_title: "Scope Declaration and Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__008_scope-declaration-and-rationale.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:7 — Scope Declaration and Rationale"
-line_start: 29707
-line_end: 29712
+line_start: 29761
+line_end: 29766
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,5 +60,5 @@ keywords:
 
 * **Applicability:** Use the same intended-work test for coordination, budgeting, architecture planning, teaching examples, and source or evidence questions. When the current claim is performed work, a non-agentive forecast, dynamics, evidence, assurance, publication use, appearance-based reliance repair, or declarative representation, apply the direct pattern for that claim.
 * **Scope declaration:** Domain-general where a system is actually coordinating possible future performed work. A tide table, weather forecast, simulation schedule, or predicted natural trajectory is not a WorkPlan unless its claim content also coordinates a system's intended Work. Interpret the plan through its effective `U.ReferenceScheme` and, when the use needs a bounded claim set or model-applicability question, the exact `U.ClaimScope` and `ModelApplicabilityRelation` governed by A.2.6 and A.1.1. An already identified `BoundedModelUseStructure` enters only when a separate receiving claim or use relation states how that structure changes this plan use and its direct predicate obtains; otherwise omit the structure rather than inventing a context field. Ordinary project, domain, or context wording stays Plain and creates no container or identity field. For cross-context sense reuse, apply checklist item 7.
-* **Rationale:** Planning and scheduling become a first-class episteme that systems can use to coordinate intended Methods, intended performer Systems and local system-role-kind conditions, and possible future Work without turning the episteme into an actor or the proposal into an occurrence or assignment.
+* **Rationale:** A WorkPlan is an episteme that systems can use to coordinate intended Methods, intended performer Systems and local system-role-kind conditions, and possible future Work. The plan retains those intended choices for coordination and, when needed, later comparison.
 

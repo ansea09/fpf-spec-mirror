@@ -6,12 +6,12 @@ section_id: "F.7:7"
 section_title: "Conceptual construction"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__008_conceptual-construction.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:7 — Conceptual construction"
-line_start: 118434
-line_end: 118442
+line_start: 118559
+line_end: 118567
 dependencies:
   - "A.6.9"
   - "B.3"

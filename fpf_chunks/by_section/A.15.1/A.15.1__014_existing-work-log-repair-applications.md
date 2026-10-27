@@ -6,12 +6,12 @@ section_id: "A.15.1:12"
 section_title: "Existing work-log repair applications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__014_existing-work-log-repair-applications.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:12 — Existing work-log repair applications"
-line_start: 29426
-line_end: 29437
+line_start: 29480
+line_end: 29491
 dependencies:
   - "A.1"
   - "A.10"
@@ -57,7 +57,7 @@ keywords:
 
 ### A.15.1:12 - Existing work-log repair applications
 
-1. **Recover occurrence assertions.** For existing logs, first recover the exact candidate action, every actual performer System's A.13 basis, at least one Method actually followed, the extent, and at least one obtaining locally declared containing-system relation; admit the Work only from those independent facts. If precise assignment-bound attribution is current, then recover the same covering assignment occurrence and its separate F.6 relation. Add optional `methodDescriptionRef` and only those independently obtaining work-to-referent, binding, and resource-use relations on which the receiving claim relies. Do not create Work by creating a record.
+1. **Recover occurrence assertions.** For existing logs, apply the full §4.1 test: recover the exact candidate action and its A.1:4.2 construction, every actual performer System's A.13 basis, at least one Method actually followed, the extent, and containment facts under at least one declared local rule. Admit the Work from those independent facts, then assert the typed relations. If precise assignment-bound attribution is current, then recover the same covering assignment occurrence and its separate F.6 relation. Add optional `methodDescriptionRef` and only those independently obtaining work-to-referent, binding, and resource-use relations on which the receiving claim relies. Do not create Work by creating a record.
 2. **Recover the work-judgment basis.** Name the direct occurrence facts first. Add exact `workContinuityPolicyRef`, effective reference scheme, scope, or qualification window only when the identity, episode, retry, resumption, or aggregation judgment has more than one defensible branch. Keep any selected MethodDescription episteme, aggregation policy, criterion, and evidence-use relation outside the Work.
 3. **Record a continuity policy only for an actual ambiguity.** Cite exact `workContinuityPolicyRef` and its named use when an interruption, resumption, replacement, switch, or composite boundary could support more than one segmentation. If direct facts already close a simple uninterrupted case, omit the policy.
 4. **Separate temporal aspect, temporal Work part, episode, and operational part.** Keep a bare interval or aspect with C.27.TA or its direct domain object. Use `TemporalPartOf_work` only between independently admitted Work individuals when the proper temporal-sub-occurrence predicate passes; use `EpisodeOf_work` only for an independently admitted event-bounded Work sub-occurrence; and use `OperationalPartOf_work` only for an independently admitted performed constituent of the whole. Recover any Method factor separately.

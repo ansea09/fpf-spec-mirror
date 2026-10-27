@@ -6,12 +6,12 @@ section_id: "C.36.P:7"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__009_relations.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.36.P — Clarify Cultural-Evolution Wording for a Claim or Action"
   - "C.36.P:7 — Relations"
-line_start: 89001
-line_end: 89006
+line_start: 89104
+line_end: 89109
 dependencies:
   - "A.1"
   - "A.1.1"

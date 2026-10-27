@@ -6,12 +6,12 @@ section_id: "C.37.MP:5"
 section_title: "Archetypal Grounding - EC-417 Method Material for Four Uses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__007_archetypal-grounding-ec-417-method-material-for-four-uses.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:5 — Archetypal Grounding - EC-417 Method Material for Four Uses"
-line_start: 81058
-line_end: 81115
+line_start: 81133
+line_end: 81190
 dependencies:
   - "A.10"
   - "A.3.1"

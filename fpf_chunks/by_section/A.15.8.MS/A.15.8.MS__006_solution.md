@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__006_solution.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:4 — Solution"
-line_start: 31713
-line_end: 31772
+line_start: 31788
+line_end: 31847
 dependencies:
   - "A.15.8"
   - "A.19"

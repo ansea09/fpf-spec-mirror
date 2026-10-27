@@ -6,12 +6,12 @@ section_id: "C.41.OF:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.OF/C.41.OF__002_problem-frame.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.41.OF — Fit a Checklist to Its Occasion of Use"
   - "C.41.OF:1 — Problem frame"
-line_start: 87548
-line_end: 87555
+line_start: 87623
+line_end: 87630
 dependencies:
   - "A.15.8"
   - "C.41"

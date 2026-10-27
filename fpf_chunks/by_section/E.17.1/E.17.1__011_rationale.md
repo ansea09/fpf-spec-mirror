@@ -6,12 +6,12 @@ section_id: "E.17.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__011_rationale.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:10 — Rationale"
-line_start: 104964
-line_end: 104967
+line_start: 105077
+line_end: 105080
 dependencies:
   - "A.16.0"
   - "A.22"

@@ -6,12 +6,12 @@ section_id: "A.2.7:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__011_rationale.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:9 — Rationale"
-line_start: 7939
-line_end: 7946
+line_start: 7946
+line_end: 7953
 dependencies:
   - "A.2"
   - "A.2.1"

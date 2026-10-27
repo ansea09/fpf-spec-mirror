@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__009_conformance-checklist.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:7 — Conformance Checklist"
-line_start: 11756
-line_end: 11766
+line_start: 11763
+line_end: 11773
 dependencies:
   - "A.3.2"
   - "C.37"

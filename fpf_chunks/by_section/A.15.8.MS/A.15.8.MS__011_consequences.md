@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__011_consequences.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:9 — Consequences"
-line_start: 31942
-line_end: 31947
+line_start: 32017
+line_end: 32022
 dependencies:
   - "A.15.8"
   - "A.19"

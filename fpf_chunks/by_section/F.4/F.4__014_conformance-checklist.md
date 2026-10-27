@@ -6,12 +6,12 @@ section_id: "F.4:12"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__014_conformance-checklist.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:12 — Conformance Checklist"
-line_start: 117661
-line_end: 117677
+line_start: 117786
+line_end: 117802
 dependencies:
   - "A.15"
   - "A.15.1"

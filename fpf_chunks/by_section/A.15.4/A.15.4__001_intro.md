@@ -6,12 +6,12 @@ section_id: "A.15.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__001_intro.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:intro — Intro"
-line_start: 30120
-line_end: 30177
+line_start: 30175
+line_end: 30232
 dependencies:
   - "A.10"
   - "A.13"
@@ -57,7 +57,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**At a glance.** Use `A.15.4` when a dashboard tile, credential view, copied approval, generated explanation, publication face, API response, source pointer, or weak indication is about to justify work or reliance, but the prerequisite for that use is unclear. Ask three questions: **What am I about to do or rely on? Which exact fact, relation, decision, or result would warrant that use? Can I open it and confirm that it covers this case and time now?** Keep the appearance at the lightest safe use until that prerequisite can be checked.
+**At a glance.** Use `A.15.4` when a display, copied approval or generated explanation is about to justify work or reliance, but the prerequisite for that use is unclear. Ask three questions: **What am I about to do or rely on? Which fact, relation, decision, or result would warrant that use? Can I check that it holds for this case and time?** Keep the appearance at the lightest safe use until that prerequisite can be checked.
 
 **Use this when.** Use this pattern only while appearance hides the direct object and test needed for one attempted use. If the direct question and the pattern that defines or tests it are already known, apply that pattern directly.
 
@@ -78,7 +78,7 @@ Blocked overread:
 Return when:
 ```
 
-Keep each independently required object, its subject pattern and test, native reference, required posture or currentness, and dependency on the attempted use separately recoverable. Retain a sufficient existing note or exact accessible source account. Use `RequiredPositionEntries` when rows help compare or inspect the prerequisites; in that layout, use one row per direct object:
+Keep each independently required object, its subject pattern and test, required posture or currentness, and dependency on the attempted use separately recoverable. Keep a native reference when its governing rule or the receiving use requires one; an ordinary statement may identify its participants directly. Retain a sufficient existing note or accessible source account. Use `RequiredPositionEntries` when rows help compare or inspect the prerequisites; in that layout, use one row per direct object:
 
 ```text
 RequiredPositionEntries:
@@ -95,7 +95,7 @@ These rows represent prerequisites defined by their subject patterns. When the a
 
 **What goes wrong if missed.** The appearance is treated as proof of approval, gate passage, evidence, assurance, performed Work, currentness, or release authorization. Work then proceeds or stops while the relation or result that must support the claim is missing, stale, revoked, or contradicted.
 
-**Subject of the repair in plain terms.** The pattern handles one attempted-use question. It does not introduce a local repair relation. The appearance, attempted use, direct prerequisites, safe current use, and blocked overread retain the kinds and relations supplied by their own patterns.
+**Subject of the repair in plain terms.** The pattern handles one attempted-use question. The appearance, attempted use, direct prerequisites, safe current use, and blocked overread retain the kinds and relations supplied by their own patterns.
 
 **First repair checks.**
 1. Name the appearance by its actual kind without treating it as the required relation or result.

@@ -6,12 +6,12 @@ section_id: "C.11.MV:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__001_intro.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:intro — Intro"
-line_start: 57069
-line_end: 57075
+line_start: 57144
+line_end: 57150
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"

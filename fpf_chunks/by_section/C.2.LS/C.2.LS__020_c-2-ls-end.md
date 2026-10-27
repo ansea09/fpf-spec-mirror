@@ -6,12 +6,12 @@ section_id: "C.2.LS:End"
 section_title: "C.2.LS:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__020_c-2-ls-end.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:End — C.2.LS:End"
-line_start: 52723
-line_end: 52724
+line_start: 52798
+line_end: 52799
 dependencies:
   - "A.16"
   - "A.16.0"

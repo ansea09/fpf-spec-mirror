@@ -6,12 +6,12 @@ section_id: "A.15.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__006_archetypal-grounding.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:5 — Archetypal Grounding"
-line_start: 29969
-line_end: 30031
+line_start: 30023
+line_end: 30087
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -45,9 +45,11 @@ These constructed cases supply illustrative planning facts; they do not report o
 
 #### A.15.3:5.1 - Planned holder designation against one direct system-role-assignment species
 
-An inspection team plans a future assignment of `Robot_8`. It names `InspectionRobotSystemRoleAssignment` as the species and `Robot_8_Ref` as the intended holder. **Plan result:** one row points to the cited `InspectionRobotSystemRoleAssignmentSignature` episteme and its `HolderSystemSlot`; `Robot_8_Ref : U.EntityRef` resolves to admitted `Robot_8 : U.System`. The species declares `InspectionRobotSystemRoleKindDomain` as the domain of its local assigned-kind slot and uses `InspectionRobotSystemRole` as the required value. This plan item records only the planned holder designation. The enclosing A.15.2 WorkPlan separately states `InspectionRobotSystemRole` as the intended local system-role-kind condition; naming the species fills no occurrence participant. A.2.1 defines the species predicate and occurrence identity, while A.6.5 defines the declaration-local SlotKinds, ValueKinds, and reference modes.
+An inspection team plans a future assignment of `Robot_8`. It proposes `InspectionRobotSystemRoleAssignment` as the species and `Robot_8_Ref` as the intended holder; `Robot_8_Ref : U.EntityRef` resolves to admitted `Robot_8 : U.System`. The proposed `InspectionRobotSystemRoleAssignmentSignature` names `HolderSystemSlot`, `InspectionRobotSystemRoleKindDomain` as the domain of its local assigned-kind slot, and `InspectionRobotSystemRole` as the required value. The enclosing A.15.2 WorkPlan separately states `InspectionRobotSystemRole` as the intended local system-role-kind condition.
 
-The row establishes neither a `U.SystemRoleAssignment` occurrence nor actual participation. Later, an affirmative assignment assertion is available only when the direct species predicate holds for its complete real participant set and its occurrence law is satisfied. A type-compatible planned holder can therefore remain the baseline while that predicate either fails under a stated negative criterion or cannot yet be resolved; taxonomy, reference scheme, or generic context is not added as a world-side participant.
+**Planning result:** these inputs preserve the intended holder choice, but supply no resolving species declaration with its specific assignment predicate. A.2.1 states what each species must declare and the common occurrence-identity discipline; A.6.5 governs its declaration-local SlotKinds, ValueKinds and reference modes. Return `missing-governor` for the typed holder row until the domain declaration supplies the participant meanings, predicate, applicability and occurrence rule. The team can retain the intended holder as ordinary A.15.2 plan content.
+
+With that declaration available, the typed row points to its `HolderSystemSlot` and records the planned holder designation under §4.3. A later affirmative assignment assertion requires the direct species predicate to hold for its complete real participant set and its occurrence law to be satisfied. Preserve the planned holder choice as the baseline when that predicate fails under a stated negative criterion or its satisfaction remains unresolved.
 
 **Blocked near-miss:** `Bearing_C isPartOf Pump_P` cannot supply a relation row. A.6.5:5.2 keeps `PartHolonSlot` and `WholeHolonSlot` hypothetical until a part-relation pattern defines their meanings, predicate, applicability, and occurrence identity. Return `missing-governor: planned part-relation participant designation for <Bearing_C, Pump_P>` or keep the choice as ordinary A.15.2 plan content; do not present the sketch as an admitted `RelationSignature`.
 
@@ -88,7 +90,7 @@ In that operation declaration, `candidate` accepts exactly one `U.Entity` throug
 
 Later, A.6.1 identifies `Pump37RecognitionApplication-2026-07-21T100000Z`. The application binds Pump #37 as `candidate`, but a required fastening-relation fact is unavailable, so it returns `unknown`. **Comparison result:** the plan expected `true` under its cited conditions; the actual application returned `unknown` because one availability condition failed. An A.6.RCD disposition-2 local compound assertion may state that comparison from the preserved plan episteme, application, result binding, and failed condition. It neither rewrites a row nor admits a universal planned-to-actual relation.
 
-The plan rows themselves identify no application, bind no candidate, return no result, prove no A.1 criterion, create no result episteme, and warrant none of those actual-use claims. Those later facts remain with A.6.1, A.1, C.2.1, and the applicable evidence or assurance patterns.
+The plan keeps the expected `true`; A.6.1 supplies the separately established application and its returned `unknown`. Use A.1 for the recognition criterion and C.2.1 if a separate result episteme is needed. Evidence and assurance remain governed by their applicable patterns.
 
 #### A.15.3:5.3 - Hardware-acceptance pseudo-slots rejected
 

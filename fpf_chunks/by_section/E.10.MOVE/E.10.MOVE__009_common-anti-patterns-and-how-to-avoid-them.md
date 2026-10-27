@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
   - "E.10.MOVE:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 99609
-line_end: 99619
+line_start: 99722
+line_end: 99732
 dependencies:
   - "A.1.STM"
   - "A.10"

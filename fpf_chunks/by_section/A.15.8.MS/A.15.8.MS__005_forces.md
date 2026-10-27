@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__005_forces.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:3 — Forces"
-line_start: 31702
-line_end: 31712
+line_start: 31777
+line_end: 31787
 dependencies:
   - "A.15.8"
   - "A.19"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.BB.md"
-commit_sha: "4ce2f7202e12c5c519a3466f5e07fe0b92e78a44"
+commit_sha: "00a27c2889bb2f7b8e0a7669075826e74d4dd270"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
-line_start: 70109
-line_end: 70328
+line_start: 70184
+line_end: 70403
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"
