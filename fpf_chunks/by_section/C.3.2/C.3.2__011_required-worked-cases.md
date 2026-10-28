@@ -6,12 +6,12 @@ section_id: "C.3.2:9"
 section_title: "Required Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__011_required-worked-cases.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:9 — Required Worked Cases"
-line_start: 54740
-line_end: 54769
+line_start: 54768
+line_end: 54797
 dependencies:
   - "A.14"
   - "A.2.6"

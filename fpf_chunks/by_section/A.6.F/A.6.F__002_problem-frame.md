@@ -6,12 +6,12 @@ section_id: "A.6.F:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__002_problem-frame.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:1 — Problem frame"
-line_start: 22294
-line_end: 22309
+line_start: 22321
+line_end: 22336
 dependencies:
   - "A.10"
   - "A.15"

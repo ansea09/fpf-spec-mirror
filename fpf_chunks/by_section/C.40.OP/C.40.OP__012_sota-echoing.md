@@ -6,12 +6,12 @@ section_id: "C.40.OP:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__012_sota-echoing.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:11 — SoTA-Echoing"
-line_start: 86705
-line_end: 86716
+line_start: 87214
+line_end: 87225
 dependencies:
   - "A.15.9"
   - "C.11.CRC"

@@ -6,12 +6,12 @@ section_id: "E.10.LRN:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__014_relations.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:12 — Relations"
-line_start: 99477
-line_end: 99483
+line_start: 100019
+line_end: 100025
 dependencies:
   - "A.10"
   - "A.15"

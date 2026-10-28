@@ -6,12 +6,12 @@ section_id: "B.5.MPC.R:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.MPC.R/B.5.MPC.R__004_forces.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "B.5.MPC.R — Repair a Physical-Mathematical-Computational Connection"
   - "B.5.MPC.R:3 — Forces"
-line_start: 47195
-line_end: 47204
+line_start: 47222
+line_end: 47231
 dependencies:
   - "A.15.9"
   - "A.3.3"

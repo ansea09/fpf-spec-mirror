@@ -6,12 +6,12 @@ section_id: "C.40.JD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__011_rationale.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:10 — Rationale"
-line_start: 87481
-line_end: 87484
+line_start: 87990
+line_end: 87993
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"

@@ -6,12 +6,12 @@ section_id: "C.40.OD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__004_forces.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:3 — Forces"
-line_start: 86995
-line_end: 87007
+line_start: 87504
+line_end: 87516
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"

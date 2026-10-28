@@ -6,12 +6,12 @@ section_id: "E.8.ML:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__001_intro.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:intro — Intro"
-line_start: 96366
-line_end: 96371
+line_start: 96899
+line_end: 96904
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"

@@ -6,12 +6,12 @@ section_id: "E.5.4:End"
 section_title: "E.5.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__011_e-5-4-end.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:End — E.5.4:End"
-line_start: 95377
-line_end: 95378
+line_start: 95886
+line_end: 95887
 dependencies:
   - "E.3"
   - "E.5"

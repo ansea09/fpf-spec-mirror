@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__010_consequences.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:9 — Consequences"
-line_start: 19104
-line_end: 19109
+line_start: 19131
+line_end: 19136
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"

@@ -6,12 +6,12 @@ section_id: "E.11.PFP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__003_problem.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:2 — Problem"
-line_start: 102973
-line_end: 102980
+line_start: 103515
+line_end: 103522
 dependencies:
   - "A.3.2"
   - "C.29"

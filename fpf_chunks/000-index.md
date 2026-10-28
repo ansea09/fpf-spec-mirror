@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `c475118bc1c11d2921b14f74c876e69c24ced3ea`
+Commit SHA: `3f6e02840fe3a22427aed590f9688a9c8f6bf5c8`
 
 Chunking method: `pattern-aware`
 
-Patterns: `401`
+Patterns: `403`
 
 ## Patterns
 
@@ -266,6 +266,8 @@ Patterns: `401`
 - [C.37.CF — Compare Content and Form Changes](by_pattern/C.37.CF.md)
 - [C.38 — Construct Comparable Ways to Obtain One Result](by_pattern/C.38.md)
 - [C.39 — Find and Develop a Way to Obtain a Result](by_pattern/C.39.md)
+- [C.39.QR — Return Results to the Original Question](by_pattern/C.39.QR.md)
+- [C.39.WA — Develop an Account of the Whole Subject](by_pattern/C.39.WA.md)
 - [C.39.RO — Turn a Construction into a Reusable Operation](by_pattern/C.39.RO.md)
 - [C.39.MF — Choose and Reopen a Method Development Focus](by_pattern/C.39.MF.md)
 - [C.39.WI — Discover Worthwhile Method Improvements](by_pattern/C.39.WI.md)

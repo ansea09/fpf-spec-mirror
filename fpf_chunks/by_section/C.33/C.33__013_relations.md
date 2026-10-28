@@ -6,12 +6,12 @@ section_id: "C.33:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__013_relations.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:12 — Relations"
-line_start: 80065
-line_end: 80071
+line_start: 80093
+line_end: 80099
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

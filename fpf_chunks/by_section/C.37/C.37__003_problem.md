@@ -6,12 +6,12 @@ section_id: "C.37:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37/C.37__003_problem.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.37 — Select and Use Representations for One Action"
   - "C.37:2 — Problem"
-line_start: 80935
-line_end: 80948
+line_start: 80963
+line_end: 80976
 dependencies:
   - "A.10"
   - "A.2.4"

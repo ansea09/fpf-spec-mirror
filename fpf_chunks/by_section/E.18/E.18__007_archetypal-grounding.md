@@ -6,12 +6,12 @@ section_id: "E.18:6"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__007_archetypal-grounding.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:6 — Archetypal Grounding"
-line_start: 109237
-line_end: 109250
+line_start: 109779
+line_end: 109792
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

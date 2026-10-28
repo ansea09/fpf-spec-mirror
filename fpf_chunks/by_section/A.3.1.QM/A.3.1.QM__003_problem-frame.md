@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__003_problem-frame.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:1 — Problem Frame"
-line_start: 10136
-line_end: 10141
+line_start: 10163
+line_end: 10168
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"

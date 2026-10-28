@@ -6,12 +6,12 @@ section_id: "A.6.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 19752
-line_end: 19760
+line_start: 19779
+line_end: 19787
 dependencies:
   - "A.10"
   - "A.15"

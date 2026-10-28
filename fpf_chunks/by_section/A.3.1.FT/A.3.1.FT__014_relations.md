@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__014_relations.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:12 — Relations"
-line_start: 10858
-line_end: 10866
+line_start: 10885
+line_end: 10893
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"

@@ -6,12 +6,12 @@ section_id: "A.2.6:11"
 section_title: "Archetypal Grounding - Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__012_archetypal-grounding-worked-examples.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:11 — Archetypal Grounding - Worked Examples"
-line_start: 7094
-line_end: 7167
+line_start: 7114
+line_end: 7187
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -28,7 +28,6 @@ dependencies:
   - "E.24.UK"
   - "F.9"
 keywords:
-  - "& guard style)"
   - "alone"
 ---
 
@@ -56,7 +55,7 @@ Use that translation only while exact A.10 relation `EP-adhesive-scope-translati
 
 The path supports neither reverse translation, a mapping outside the named rule or tolerance, nor a claim that the A.6.1 application or membership evaluation occurred. If the record, carrier, or provenance edge is missing or stale, or the window closes, stop before translation and set `RelianceDisposition=reopen`; otherwise `RelianceDisposition=pass` applies only to this bounded use. No assurance claim is made.
 
-For this case, stipulate that the actual A.6.1 application `deriveTranslatedScope(G_adhesive, B-lab-assembly-temp, C-adhesive-scope-translation, AssemblyReferenceScheme)` applies the named rule and tolerance and returns the receiving scope `[122,148]°C`. The receiving membership evaluation uses that scope.
+For this worked case, let the named calibration rule associate each assembly reading `t` with possible laboratory temperatures in `[t−2,t+2]°C`, throughout the range being considered. Let the acceptance rule require this whole interval to lie within the supported laboratory range `[120,150]°C`. Then `t−2 ≥ 120` and `t+2 ≤ 150`, so the accepted assembly readings are `[122,148]°C`. These are assumptions of this example; a boundary-uncertainty limit alone does not supply the calibration rule or the acceptance rule. With the other selectors preserved, the actual A.6.1 application `deriveTranslatedScope(G_adhesive, B-lab-assembly-temp, C-adhesive-scope-translation, AssemblyReferenceScheme)` returns the scope with this temperature range. The receiving membership evaluation uses that scope.
 
 If the receiving use merely uses another designation for the same sense under an ordinary resolvable reference scheme, introduce no Bridge, use claim, or translation.
 

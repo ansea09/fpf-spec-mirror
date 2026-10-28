@@ -6,12 +6,12 @@ section_id: "A.2.6:10"
 section_title: "Guard Patterns (ESG & Method–Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__011_guard-patterns-esg-method-work.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:10 — Guard Patterns (ESG & Method–Work)"
-line_start: 7013
-line_end: 7093
+line_start: 7033
+line_end: 7113
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -28,7 +28,6 @@ dependencies:
   - "E.24.UK"
   - "F.9"
 keywords:
-  - "& guard style)"
   - "alone"
 ---
 

@@ -6,12 +6,12 @@ section_id: "A.6.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__007_bias-annotation.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:6 — Bias-Annotation"
-line_start: 23352
-line_end: 23359
+line_start: 23379
+line_end: 23386
 dependencies:
   - "A.15.3"
   - "A.6.0"

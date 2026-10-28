@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.2.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
-line_start: 51795
-line_end: 52114
+line_start: 51823
+line_end: 52142
 dependencies:
   - "A.1.1"
   - "A.10"

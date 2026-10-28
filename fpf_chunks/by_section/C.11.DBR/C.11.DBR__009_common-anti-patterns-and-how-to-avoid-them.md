@@ -6,12 +6,12 @@ section_id: "C.11.DBR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 56994
-line_end: 57003
+line_start: 57022
+line_end: 57031
 dependencies:
   - "A.10"
   - "A.10.1"

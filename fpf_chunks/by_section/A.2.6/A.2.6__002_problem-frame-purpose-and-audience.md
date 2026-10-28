@@ -6,12 +6,12 @@ section_id: "A.2.6:1"
 section_title: "Problem frame - Purpose and Audience"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__002_problem-frame-purpose-and-audience.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:1 — Problem frame - Purpose and Audience"
-line_start: 6588
-line_end: 6602
+line_start: 6608
+line_end: 6622
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -28,7 +28,6 @@ dependencies:
   - "E.24.UK"
   - "F.9"
 keywords:
-  - "& guard style)"
   - "alone"
 ---
 

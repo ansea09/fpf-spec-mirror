@@ -6,12 +6,12 @@ section_id: "C.39:End"
 section_title: "C.39:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__014_c-39-end.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:End — C.39:End"
-line_start: 82164
-line_end: 82165
+line_start: 82195
+line_end: 82196
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"

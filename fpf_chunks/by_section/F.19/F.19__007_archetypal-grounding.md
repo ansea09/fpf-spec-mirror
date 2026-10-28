@@ -6,12 +6,12 @@ section_id: "F.19:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__007_archetypal-grounding.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:5 — Archetypal Grounding"
-line_start: 124659
-line_end: 124694
+line_start: 125224
+line_end: 125259
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -56,7 +56,7 @@ These cases show repairs and situations in which ordinary wording should remain.
 | Incomplete relational noun | “Give the bearer to the next stage.” | Name what is borne and the transfer relation, or use the ordinary domain noun. |
 | False common head | “The method selects, publishes, and evaluates the alternatives,” where the text combines unrelated activities and supplies no common Method or capable participant. | Recover the separate claims and participants. When the context instead supplies one Method and its capable executor, the same wording may be ordinary metonymy; the verb list alone is not a defect. |
 | Catalogue instead of proposition | “Goals and objectives, forms and methods, quality and efficiency are supported.” | State the actual capability or decision. Keep only members with distinct consequences. |
-| Illustrative list read as classification | A bare plural head is followed by many instances with no signal that the list is partial. | Put the proposition or kind first, mark the cases as examples when completeness is plausibly ambiguous, and retain only representative cases. |
+| Illustrative list read as classification | A bare plural head is followed by many instances with no signal that the list is partial. | Make the illustrated proposition or kind and its relation to the cases clear. Mark the cases as examples when completeness or applicability is plausibly ambiguous. Retain cases for the differences they help the reader understand or act upon, together with the general claim and its needed grounds. |
 | Delayed governing event | An emergency report describes birds, wind, birches, heat, mist, and animals before saying that a house-museum is burning and a fire engine is no longer needed. | Put the event, location, safety consequence, and requested response first. Keep only detail that changes dispatch, safety, evidence, or identification. |
 | Material negation | “Do not energize the unit while the cover is open.” | Retain when the open-cover state creates the named risk and the stop changes action. The polarity is the instruction. |
 | Ordinary metonymy | “The diagram shows the dependency.” | Retain when the diagram depicts it and the reader can recover the represented relation; do not expand a clear sentence into a Method and Work trace. |

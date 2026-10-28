@@ -6,12 +6,12 @@ section_id: "A.2.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__001_intro.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:intro — Intro"
-line_start: 8647
-line_end: 8652
+line_start: 8674
+line_end: 8679
 dependencies:
   - "A.10"
   - "A.13"

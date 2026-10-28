@@ -6,12 +6,12 @@ section_id: "A.11.OP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__011_rationale.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:10 — Rationale"
-line_start: 27654
-line_end: 27663
+line_start: 27681
+line_end: 27690
 dependencies:
   - "A.10"
   - "A.11"

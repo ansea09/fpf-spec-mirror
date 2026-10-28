@@ -6,12 +6,12 @@ section_id: "B.5.WN:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__010_consequences.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
   - "B.5.WN:9 — Consequences"
-line_start: 46693
-line_end: 46698
+line_start: 46720
+line_end: 46725
 dependencies:
   - "A.15.10"
   - "A.15.11"

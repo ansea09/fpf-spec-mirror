@@ -6,12 +6,12 @@ section_id: "C.40:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40/C.40__010_consequences.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.40 — Develop Branching Search from Reusable Material"
   - "C.40:9 — Consequences"
-line_start: 84241
-line_end: 84244
+line_start: 84750
+line_end: 84753
 dependencies:
   - "C.11"
   - "C.18"

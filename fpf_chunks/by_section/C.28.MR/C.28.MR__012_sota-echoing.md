@@ -6,12 +6,12 @@ section_id: "C.28.MR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__012_sota-echoing.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:11 — SoTA-Echoing"
-line_start: 68144
-line_end: 68153
+line_start: 68172
+line_end: 68181
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"

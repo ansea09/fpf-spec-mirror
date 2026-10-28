@@ -6,12 +6,12 @@ section_id: "E.10:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__002_use-this-when.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:0 — Use this when"
-line_start: 97634
-line_end: 98364
+line_start: 98167
+line_end: 98898
 dependencies:
   - "A.10"
   - "A.15"
@@ -347,6 +347,7 @@ When the wording concerns representation, publication or reliance, classify the 
 
 Use the ordinary word once the surrounding text makes the intended object and use clear. Add an FPF kind name when that distinction changes the claim or the next action.
 
+
 ##### E.10:0.2c.10 - `reader`, `reviewer`, `author`, `operator`
 
 Do not use people-position words as hidden kind names.
@@ -463,12 +464,12 @@ Do not fill one authoring union-field position with whichever nearby FPF kind is
 
 ##### E.10:0.2c.17 - Coordination and FPF-governed lists
 
-Apply `F.19` first: ask whether the receiving use needs a series at all. If one governing claim, relation, or representative case would do, write it and remove the catalogue. A broader umbrella head is not a repair.
+Apply F.19:4.3, step 6, to recover the series' governing proposition, scope and membership semantics before choosing its form. When the series is unnecessary, preserve that content in the direct claim or relation; use cases for their contribution to its explanation.
 
 When a series is needed and its FPF meaning remains unresolved, distinguish the current use:
 
 - a closed set, with its classified kind, membership rule, and closure;
-- illustrative examples, with the proposition or kind first and a non-exhaustive cue when completeness is plausibly ambiguous;
+- illustrative examples, with their connection to the proposition or kind and a non-exhaustive cue when completeness or applicability is plausibly ambiguous;
 - explicit alternatives or a sequence;
 - several obtaining direct relations, each with its actual participants;
 - a reusable relation declaration, with its `RelationSignature` and A.6.5 `SlotSpec` values; or

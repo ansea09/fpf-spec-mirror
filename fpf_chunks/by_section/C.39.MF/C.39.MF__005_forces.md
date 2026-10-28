@@ -6,12 +6,12 @@ section_id: "C.39.MF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__005_forces.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:3 — Forces"
-line_start: 82421
-line_end: 82430
+line_start: 82930
+line_end: 82939
 dependencies:
   - "A.15.6"
   - "A.3.1"

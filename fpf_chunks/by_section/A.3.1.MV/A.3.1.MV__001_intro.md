@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__001_intro.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:intro — Intro"
-line_start: 10869
-line_end: 10873
+line_start: 10896
+line_end: 10900
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"

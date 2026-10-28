@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.DC.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
-line_start: 86055
-line_end: 86305
+line_start: 86564
+line_end: 86814
 dependencies:
   - "A.3.1"
   - "A.3.2"

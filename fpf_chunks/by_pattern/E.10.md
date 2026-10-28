@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
-line_start: 97624
-line_end: 99272
+line_start: 98157
+line_end: 99814
 dependencies:
   - "A.10"
   - "A.15"
@@ -356,6 +356,7 @@ When the wording concerns representation, publication or reliance, classify the 
 
 Use the ordinary word once the surrounding text makes the intended object and use clear. Add an FPF kind name when that distinction changes the claim or the next action.
 
+
 ##### E.10:0.2c.10 - `reader`, `reviewer`, `author`, `operator`
 
 Do not use people-position words as hidden kind names.
@@ -472,12 +473,12 @@ Do not fill one authoring union-field position with whichever nearby FPF kind is
 
 ##### E.10:0.2c.17 - Coordination and FPF-governed lists
 
-Apply `F.19` first: ask whether the receiving use needs a series at all. If one governing claim, relation, or representative case would do, write it and remove the catalogue. A broader umbrella head is not a repair.
+Apply F.19:4.3, step 6, to recover the series' governing proposition, scope and membership semantics before choosing its form. When the series is unnecessary, preserve that content in the direct claim or relation; use cases for their contribution to its explanation.
 
 When a series is needed and its FPF meaning remains unresolved, distinguish the current use:
 
 - a closed set, with its classified kind, membership rule, and closure;
-- illustrative examples, with the proposition or kind first and a non-exhaustive cue when completeness is plausibly ambiguous;
+- illustrative examples, with their connection to the proposition or kind and a non-exhaustive cue when completeness or applicability is plausibly ambiguous;
 - explicit alternatives or a sequence;
 - several obtaining direct relations, each with its actual participants;
 - a reusable relation declaration, with its `RelationSignature` and A.6.5 `SlotSpec` values; or
@@ -1506,6 +1507,14 @@ These are qualified applications, not exhaustive definitions of the familiar for
 Translate the intended subject and operation, not just the adjective. Russian «методологическое мышление» concerns methods and their grounds in this use; English “methodical thinking” can instead mean orderly procedure. “Systematic” does not by itself mean FPF's “system thinking.” For the Work application, “reasoning about performed work” and «мышление о выполненных работах» make the intended subject explicit. Preserve a source's different use when quoting or explaining it.
 
 [Library.Reference:1.2](https://github.com/ailev/FPF/blob/main/FPF-LIBRARY-REFERENCE.md#libraryreference12---holonic-thinking-across-different-kinds-of-whole) develops the common construction and its limits. Apply this distinction with F.19 when authoring or repairing a consequential use. The adjective alone supplies neither holon admission nor a part–whole, level or layer relation.
+
+#### E.10:9.10 - `present`, `represent`, `representation`, `representative`
+
+Recover what is being shown, described, modelled, instantiated, sampled or acted for, and which relation the current sentence asserts. The shared word can conceal different questions. A presentation can be an act of communicating or its material; a representation can be an expression used to reason about a subject; a representative can be a selected case, a statistical sample or an authorized participant.
+
+When the intended participants and predicate are already clear, keep ordinary wording and use the subject rule. For a remaining ambiguity, E.10.ARCH:3 recovers them. C.2.P supplies source, content and publication distinctions; C.37 supplies representation choice; C.29 supplies mathematical correspondence and returned inference. Kind membership, composition, statistical inference and acting under an assignment retain their own governing rules.
+
+When a sentence relies on a “representative” example or fragment, recover the claim it supports and the basis of that support. A case chosen to illustrate an operation and a sample used for population inference have different grounds. Use C.39.QR when the unresolved question is what the obtained result establishes for the originating assignment; use C.39.WA when that assignment requires the still-missing explanation of a whole subject. Select a useful case by its contribution to the explanation, while preserving the general proposition and its grounds.
 
 ### E.10:10 - Optional detailed lexical checks *(informative)*
 

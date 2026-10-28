@@ -6,12 +6,12 @@ section_id: "C.3:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 54409
-line_end: 54419
+line_start: 54437
+line_end: 54447
 dependencies:
   - "A.1"
   - "A.11"

@@ -6,12 +6,12 @@ section_id: "C.41.QC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__004_forces.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:3 — Forces"
-line_start: 88517
-line_end: 88526
+line_start: 89026
+line_end: 89035
 dependencies:
   - "A.10"
   - "C.41"

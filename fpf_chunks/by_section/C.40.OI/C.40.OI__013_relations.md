@@ -6,12 +6,12 @@ section_id: "C.40.OI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__013_relations.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:12 — Relations"
-line_start: 85347
-line_end: 85357
+line_start: 85856
+line_end: 85866
 dependencies:
   - "A.15.9"
   - "B.5.PI"

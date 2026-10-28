@@ -6,12 +6,12 @@ section_id: "E.19:4"
 section_title: "Solution — Profile-based gates for admission and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__006_solution-profile-based-gates-for-admission-and-refresh.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:4 — Solution — Profile-based gates for admission and refresh"
-line_start: 111220
-line_end: 111791
+line_start: 111762
+line_end: 112334
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -109,7 +109,7 @@ prioritize the FPF-governed sections and enforceable requirements in E.19:4.2.1.
 4. **Cross-pattern compatibility & impact radius**
    Relations are consistent with declared dependencies and dependents; declared scope/impact is compatible or explicitly limited.
 5. **Didactic grounding**
-   Archetypal Grounding is present and teaches the concept with concrete cases or references, not only abstractions.
+   Apply E.8:4.2.1.3 to the connected explanation and its cases. Recover the common relation or Method being taught, its grounds, and the correspondence to the example. For a Method example, distinguish the reusable way, the depicted performance and its subject material. Inspect whether the cases make the material variation of the declared use intelligible; a correct result in the example's domain answers only that part of the review.
 6. **Reader-fit**
    The pattern body addresses the intended FPF user in the working role governed by that pattern. FPF developers, package architects, reviewers, and evaluators are appropriate readers when they occupy that role. FPF-governed sections explain admissible use, costs, boundaries, the concrete definitions, constraints, tests, or other contributions used from FPF patterns named by value, project-side FPF kinds and references named by value, and related relations named by value in user terms. Architecture placement, freeze or merge state, package-boundary rationale, reference boilerplate, quality or projection evidence, corpus-entry evidence, `PatternQualityStatus`, monolith-parity evidence, landing evidence, and broader package-development rationale stay in `DRR`, architecture documents, review handoff, `E.21` result, `E.19` findings, README, ToC, `E.11`, cards, retrieval or projection carriers, release or landing evidence carriers, companions, or ordinary references unless they change the working reader's first admissible move.
 7. **Template & section integrity**
@@ -162,11 +162,12 @@ When E.21 is active, its `PrecisionRestorationProfile` carries the quality resul
 Check these connected uses:
 
 * **Recognition and first action:** an early `Use this when` or equivalent, a recognizable working situation, the cost of missing it, practical gain, first admissible action and ordinary non-use boundary.
-* **Performable guidance:** a minimally viable example, with a worked slice when misuse is likely; useful Consequences and Anti-Patterns; and a clear adoption test.
+* **Performable guidance:** a worked application that makes the Method's own choices, intermediate results and continuation recoverable; useful Consequences and Anti-Patterns; and a clear adoption test. Select additional materially different applications when the declared use requires them.
 * **Subject and reader:** a short account of the primary EntityOfConcern, relation or claim record and any minimal modeling lens needed by typed declaration content. Give early technical terms nearby plain glosses. When several reader situations are served, state the primary working reader, concern and viewpoint.
 * **Recognition and assurance:** put first-use guidance before the declaration, modeling and review/check material needed for assurance. Keep its scope consistent with the recognition claim.
 * **Grounding and breadth:** connect explanatory SoTA rows to their working-reader implication and the cases or boundaries they discipline. A universal or transdisciplinary claim needs heterogeneous recognition situations adequate to that breadth; F.16 is the preferred compact example-matrix template.
 
+Compare the account with the promised subject before using a successful case as an adequacy result. Identify which general grounds explain the choices across the required variations and which differences change the action. Follow a continuing case back to that account when its application problem begins to determine what the pattern teaches. Preserve its useful grounding, then obtain the missing explanation or varied application. Use E.21's scope and case-coverage coordinates when a quality value is required; a local demonstration does not settle a broader scope.
 When admission or refresh includes precise-language repair, apply `CC-E19-7a`. It preserves practical guidance and the Plain/Tech relation under `E.2` `P-2` and `E.12`, with formal identity and dated-Work checks only under the conditions stated there. `F.19` governs the whole-span repair; `E.10` supplies compact cues and FPF routing.
 
 For a broad cleanup across several patterns, or any cleanup that touches FPF-governed Problem frames, Problem sections, first-use recognition text, archetypal grounding, examples, or worked slices, check whether the didactic function was harmed. In inspect-repair-verify, restore the working situation, first useful move, and the definition, constraint, test, or other pattern contribution needed by the claim; in independent findings, record the exact harm and repair direction. A positive `improved` or `preserved` account is required only when another evaluation makes that value one of its substantive results, and it belongs in that evaluation.

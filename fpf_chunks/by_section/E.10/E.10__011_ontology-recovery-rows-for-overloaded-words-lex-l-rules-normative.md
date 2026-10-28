@@ -6,12 +6,12 @@ section_id: "E.10:9"
 section_title: "Ontology recovery rows for overloaded words (LEX L-rules; normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_ontology-recovery-rows-for-overloaded-words-lex-l-rules-normative.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:9 — Ontology recovery rows for overloaded words (LEX L-rules; normative)"
-line_start: 98931
-line_end: 99073
+line_start: 99465
+line_end: 99615
 dependencies:
   - "A.10"
   - "A.15"
@@ -200,4 +200,12 @@ These are qualified applications, not exhaustive definitions of the familiar for
 Translate the intended subject and operation, not just the adjective. Russian «методологическое мышление» concerns methods and their grounds in this use; English “methodical thinking” can instead mean orderly procedure. “Systematic” does not by itself mean FPF's “system thinking.” For the Work application, “reasoning about performed work” and «мышление о выполненных работах» make the intended subject explicit. Preserve a source's different use when quoting or explaining it.
 
 [Library.Reference:1.2](https://github.com/ailev/FPF/blob/main/FPF-LIBRARY-REFERENCE.md#libraryreference12---holonic-thinking-across-different-kinds-of-whole) develops the common construction and its limits. Apply this distinction with F.19 when authoring or repairing a consequential use. The adjective alone supplies neither holon admission nor a part–whole, level or layer relation.
+
+#### E.10:9.10 - `present`, `represent`, `representation`, `representative`
+
+Recover what is being shown, described, modelled, instantiated, sampled or acted for, and which relation the current sentence asserts. The shared word can conceal different questions. A presentation can be an act of communicating or its material; a representation can be an expression used to reason about a subject; a representative can be a selected case, a statistical sample or an authorized participant.
+
+When the intended participants and predicate are already clear, keep ordinary wording and use the subject rule. For a remaining ambiguity, E.10.ARCH:3 recovers them. C.2.P supplies source, content and publication distinctions; C.37 supplies representation choice; C.29 supplies mathematical correspondence and returned inference. Kind membership, composition, statistical inference and acting under an assignment retain their own governing rules.
+
+When a sentence relies on a “representative” example or fragment, recover the claim it supports and the basis of that support. A case chosen to illustrate an operation and a sample used for population inference have different grounds. Use C.39.QR when the unresolved question is what the obtained result establishes for the originating assignment; use C.39.WA when that assignment requires the still-missing explanation of a whole subject. Select a useful case by its contribution to the explanation, while preserving the general proposition and its grounds.
 

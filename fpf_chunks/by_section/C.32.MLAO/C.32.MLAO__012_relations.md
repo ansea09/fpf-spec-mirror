@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__012_relations.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.32.MLAO — Architecture Candidates to Reduce Cross-Scope Residuals"
   - "C.32.MLAO:12 — Relations"
-line_start: 77891
-line_end: 77898
+line_start: 77919
+line_end: 77926
 dependencies:
   - "A.10"
   - "A.19.CPM"

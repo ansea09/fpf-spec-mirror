@@ -6,12 +6,12 @@ section_id: "A.2.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__001_intro.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:intro — Intro"
-line_start: 6558
-line_end: 6587
+line_start: 6575
+line_end: 6607
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -28,7 +28,6 @@ dependencies:
   - "E.24.UK"
   - "F.9"
 keywords:
-  - "& guard style)"
   - "alone"
 ---
 
@@ -46,6 +45,9 @@ keywords:
 **What goes wrong if missed.** Teams infer coverage from a document, table, “current context” label, or selected structure; treat an unevaluated slice as excluded; or mint `ScopeDelimitationRelation` occurrences for included and excluded slices. Those moves collapse predicate truth, evaluation, representation, and structure.
 
 **What this buys.** One set-valued scope algebra supports exact membership, intersection, supported union, translation, widening, narrowing, and refit while keeping claim content, evaluation work, result epistemes, model-applicability relations, and selected structures separate.
+
+**When a direct domain calculation is enough.** A standalone mathematical applicability question may be settled by its stated conditions and calculation. When a receiving FPF rule requires scope membership, identify the required scope and slice and apply that guard; capability gating requires `U.WorkScope` (§10.3). A result record remains optional unless the receiving use needs one. Section 20 explains the additional value of reusable scopes.
+
 **Vocabulary boundary.** Use these scope names in live FPF wording:
 
 

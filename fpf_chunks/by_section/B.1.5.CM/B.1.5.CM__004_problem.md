@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__004_problem.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:2 — Problem"
-line_start: 42761
-line_end: 42766
+line_start: 42788
+line_end: 42793
 dependencies:
   - "A.3.1"
   - "B.1.5"

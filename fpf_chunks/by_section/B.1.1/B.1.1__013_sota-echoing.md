@@ -6,12 +6,12 @@ section_id: "B.1.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__013_sota-echoing.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:11 — SoTA-Echoing"
-line_start: 41230
-line_end: 41238
+line_start: 41257
+line_end: 41265
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.43.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
-line_start: 88935
-line_end: 89359
+line_start: 89444
+line_end: 89868
 dependencies:
   - "A.12"
   - "C.11"

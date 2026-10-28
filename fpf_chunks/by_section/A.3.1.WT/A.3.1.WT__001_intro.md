@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__001_intro.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:intro — Intro"
-line_start: 10270
-line_end: 10274
+line_start: 10297
+line_end: 10301
 dependencies:
   - "A.10"
   - "A.15.1"

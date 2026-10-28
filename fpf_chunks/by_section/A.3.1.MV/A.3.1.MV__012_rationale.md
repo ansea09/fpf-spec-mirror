@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__012_rationale.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:10 — Rationale"
-line_start: 11045
-line_end: 11050
+line_start: 11072
+line_end: 11077
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"

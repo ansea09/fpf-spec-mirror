@@ -6,12 +6,12 @@ section_id: "F.19:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__009_conformance-checklist.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:7 — Conformance checklist"
-line_start: 124707
-line_end: 124738
+line_start: 125272
+line_end: 125303
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -60,7 +60,7 @@ These questions guide one connected reading; they do not require separate record
 | `CC-F19-20` Predicate and kind fit | Interpret the complete predicate with its negation and modality. Positive assignments are kind-compatible under the intended literal or metonymic reading; a denial of a type mistake passes the grounded-contribution test. Preserve object kind, claim or relation kind, slot, relation position, use, and publication boundary where they change meaning. |
 | `CC-F19-21` Meaning and loss preservation | The rewrite preserves every live term, polarity, quantity, threshold, temporal or ordering condition, criterion, tolerance, exception, applicability boundary, and other action-changing detail. Any accepted change of kind, relation, scope, currentness, or use has its own decision. |
 | `CC-F19-22` Grounded contribution | Every optional guard, contrast, modifier, example, and coordinated member changes recognition, understanding, evidence, decision, safety, stop, reliance, or action for a plausible intended reader. A negative alternative has an independent local ground and is the smallest clear correction. |
-| `CC-F19-23` Coordination and foregrounding | A list states the proposition or action it serves; its kind, predicate, membership semantics, and closure are not fabricated; illustrative status is clear when needed; and coordination or modifiers do not postpone the governing message. |
+| `CC-F19-23` Coordination and foregrounding | The span makes recoverable the proposition or action served by a series, its scope, membership semantics and needed closure. The relation between examples and the general claim is clear in the chosen order of explanation. Shortening or removing the series preserves that claim, its needed grounds and the distinctions required for use. Coordination and modifiers contribute without postponing the governing message. |
 | `CC-F19-24` Plain result | A cold intended reader can recover the repaired claim and next useful action under F.19:4's selected evidence basis and coverage. The ordinary output is repaired text or a blocker, not a mandatory form or ledger. |
 | `CC-F19-25` Local revalidation | Any changed wording or syntax has been reread with only its meaning-dependent neighbours. An older semantic verdict is reused only for unchanged text. |
 

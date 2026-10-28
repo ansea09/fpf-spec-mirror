@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__002_use-this-when.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:0 — Use This When"
-line_start: 10480
-line_end: 10502
+line_start: 10507
+line_end: 10529
 dependencies:
   - "A.10"
   - "A.15.8.MS"

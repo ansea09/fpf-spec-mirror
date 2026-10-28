@@ -6,12 +6,12 @@ section_id: "C.37.MP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__014_relations.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:12 — Relations"
-line_start: 81416
-line_end: 81425
+line_start: 81444
+line_end: 81453
 dependencies:
   - "A.10"
   - "A.3.1"

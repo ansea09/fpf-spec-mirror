@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.md"
-commit_sha: "c475118bc1c11d2921b14f74c876e69c24ced3ea"
+commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
-line_start: 81866
-line_end: 82165
+line_start: 81894
+line_end: 82196
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -314,6 +314,9 @@ The alternative is retrieval of an already adequate Method; it wins when it retu
 Reopen this line when a current direct Method supplies the entire use with less effort, when target applications expose a missing constructive operation, or when the explanation burden exceeds what the next decision can use.
 
 ### C.39:12 - Relations
+
+C.39.QR returns work through a part, case, model or other intermediate construction to the original question. It distinguishes what the obtained result warrants about the subject from what it completes for the requested use, and brings a missing obtaining way here. C.39.WA develops the common grounds and organizing relations of a whole-subject account, follows them into choices about parts, and revisits its scope after consequential findings.
+
 
 C.39.MC continues a connected Method-development question after a result or changed condition. It preserves applicable qualification, composition, description and support results while returning only the affected question to its supplier. Use it when that continuation is unresolved; an adequate direct MethodDescription remains the sufficient return.
 
