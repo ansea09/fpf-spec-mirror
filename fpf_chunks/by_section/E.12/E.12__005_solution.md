@@ -6,12 +6,12 @@ section_id: "E.12:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__005_solution.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:4 — Solution"
-line_start: 104164
-line_end: 104201
+line_start: 104303
+line_end: 104340
 dependencies:
   - "C.11.DUA"
   - "E.13"

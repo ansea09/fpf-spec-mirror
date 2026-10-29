@@ -6,12 +6,12 @@ section_id: "C.41:0"
 section_title: "Use and combine the checklist Methods"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__002_use-and-combine-the-checklist-methods.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:0 — Use and combine the checklist Methods"
-line_start: 88160
-line_end: 88224
+line_start: 88279
+line_end: 88343
 dependencies:
   - "A.3.1"
   - "A.3.2"
@@ -86,5 +86,5 @@ The arrangement favors visible, discussable omissions. It can underrepresent tac
 
 Checklist tables compress questions, answer meanings and their relation to the work. To interpret or adapt a table, recover the domain knowledge, subject states and work descriptions on which its questions depend. To explain its adoption or effects, examine the wider working conditions. Return to the criterion's domain source when a judgement exceeds the question set; to the named FPF patterns for stronger ontology or structure claims; to the supplying Core Method-development patterns or DPF for capability development, operations or administration.
 
-The source line combines the supplied Methodology manuscript's checklist practice (R7, chapter 6 and its Method, qualification and change context) and Systems Management manuscript's coordination practice (R10, operational and administration passages), Gawande's historical account of professional checklist use, later human outcome and documentation studies, and current primary work on AI criteria and checking arrangements. Their useful contributions converge on situated questions with accessible grounds. Their differences survive: a human conversation, an executable test and a model judgement supply different observations and burdens. The shared language connects these contributions without treating one as a universal substitute for the others.
+The source line combines the supplied Methodology manuscript's checklist practice (R7, chapter 5 and its Method, qualification and change context) and Systems Management manuscript's coordination practice (R10, operational and administration passages), Gawande's historical account of professional checklist use, later human outcome and documentation studies, and current primary work on AI criteria and checking arrangements. Their useful contributions converge on situated questions with accessible grounds. Their differences survive: a human conversation, an executable test and a model judgement supply different observations and burdens. The shared language connects these contributions without treating one as a universal substitute for the others.
 

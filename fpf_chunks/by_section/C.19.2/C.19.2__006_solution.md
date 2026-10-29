@@ -6,12 +6,12 @@ section_id: "C.19.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__006_solution.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:4 — Solution"
-line_start: 61288
-line_end: 61347
+line_start: 61340
+line_end: 61399
 dependencies:
   - "A.15.1"
   - "A.15.2"

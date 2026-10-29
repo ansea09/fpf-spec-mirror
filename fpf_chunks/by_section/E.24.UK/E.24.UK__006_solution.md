@@ -6,12 +6,12 @@ section_id: "E.24.UK:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__006_solution.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:4 — Solution"
-line_start: 116318
-line_end: 116558
+line_start: 116457
+line_end: 116698
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -148,6 +148,7 @@ Each R5 or bootstrap result is a C.2.1 episteme about the pre-judgment subject c
 | `E24UK-AR-USTRUCTURE-R12-01` | `U.Structure`; `root`, R1.2 | `A.22:4.1`; one selected organization identified only by exact constituents, selected obtaining relation occurrences, applied constraints, and one named selection-use frame | selected-structure and specialization uses; context, label, system, team, subsystem, method, work, result, description, view, representation, publication, or use alone is not the structure |
 | `E24UK-AR-BMUS-R12-01` | `BoundedModelUseStructure`; `same-individual-dependent` under `U.Structure`, R1.2 | `A.22:4.1c` with `A.1.1` and `A.2.6`; the same already identified structure is selected over one exact model episteme, exact admitted model-use holons, and the required obtaining A.1.1 relation occurrences under applied constraints for the named bounded-model-use frame | bounded model-use reasoning; a bounded-context or model-use label, model episteme, team, subsystem, scope, description, view, graph, table, or publication alone grants no membership |
 | `E24UK-AR-A22-CROSSING-RULE-R12-01` | A.22 conditional crossing-analysis specialization; `same-individual-dependent` rule under `U.Structure`, R1.2; public term pending | `A.22:4.1c`; the same already identified structure must have several bounded model-use structures as exact constituents and exact selected obtaining crossing occurrences among them under applied constraints for one named crossing-analysis use | the rule may support future crossing analysis; no current member, context-map label, mapping method or work, view, diagram, publication, shared participant, or selected use grants membership or a public specialization name |
+| `E24UK-AR-UABDUCTIVEPROMPT-QI-01` | `U.AbductivePrompt`; `same-individual-dependent` under `U.Episteme` | `B.5.2.0:4.2.1–4.2.2`; the same C.2.1 episteme concerns one recoverable explanatory question and records species, scope and motivating provenance while leaving rival answers open; membership implies `U.Episteme` for that individual. Decision `E24-CO-UABDUCTIVEPROMPT-QI-01` retains direct subject-pattern use without an additional ontic. | B.5.2 entry and return, A.16 next-use admission, and A.16.0 trajectory references; an unfilled form, unstable cue or settled-answer account fails membership. Historical membership supplies no current entry permission. |
 | `E24UK-AR-UWORKPLAN-RG-01` | `U.WorkPlan`; `same-individual-dependent` under `U.Episteme`, RG | `A.15.2:4`; intended-work membership plus root inclusion | planning and readiness; a calendar image, possible work, method description, or performed Work is not a WorkPlan |
 | `E24UK-AR-USYSTEMROLEASSIGNMENT-RPR-01` | `U.SystemRoleAssignment`; `same-individual-dependent` under `U.Relation`, RPR | `A.2.1:4`; the same identified relation occurrence has family membership through one declared assignment species. That species declares `HolderSystemSlot`, a declaration-local assigned-kind slot limited to one local system-role kind, its own predicate and applicability, maximal uninterrupted occurrence identity, and every commission, position, installation, or other participant on which its identity depends. Membership implies `U.Relation` for that same occurrence. | attribution and work-facing assignment use; the family has no permissive binary root signature, and a stronger species is not a generic holder-kind occurrence plus another occurrence. A holder-kind pair, interval, assertion, responsibility claim, or generic `U.Kind` domain is not an assignment occurrence. |
 | `E24UK-AR-UMETHODDESCRIPTION-RG-01` | `U.MethodDescription`; `same-individual-dependent` under `U.Episteme`, RG | `A.3.2:4`; substantive claims about one admitted method | method use and planning; mention, metadata, approval, publication, or representation is not membership |

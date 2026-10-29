@@ -6,12 +6,12 @@ section_id: "A.6.S:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__004_problem.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:2 — Problem"
-line_start: 24774
-line_end: 24782
+line_start: 24776
+line_end: 24784
 dependencies:
   - "A.15"
   - "A.15.1"

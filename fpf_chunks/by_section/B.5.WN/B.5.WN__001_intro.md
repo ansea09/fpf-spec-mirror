@@ -6,12 +6,12 @@ section_id: "B.5.WN:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__001_intro.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
   - "B.5.WN:intro — Intro"
-line_start: 46505
-line_end: 46510
+line_start: 46508
+line_end: 46513
 dependencies:
   - "A.15.10"
   - "A.15.11"

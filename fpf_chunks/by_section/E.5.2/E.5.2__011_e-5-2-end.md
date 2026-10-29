@@ -6,12 +6,12 @@ section_id: "E.5.2:End"
 section_title: "E.5.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.2/E.5.2__011_e-5-2-end.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.5.2 — Notational Independence"
   - "E.5.2:End — E.5.2:End"
-line_start: 95733
-line_end: 95734
+line_start: 95872
+line_end: 95873
 dependencies:
   - "A.6.3.RT"
   - "A.6.3.RT.OE"

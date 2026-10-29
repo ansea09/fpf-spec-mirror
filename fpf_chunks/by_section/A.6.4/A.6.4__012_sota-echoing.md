@@ -6,12 +6,12 @@ section_id: "A.6.4:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__012_sota-echoing.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:11 — SoTA-Echoing"
-line_start: 19800
-line_end: 19812
+line_start: 19802
+line_end: 19814
 dependencies:
   - "A.10"
   - "A.15"

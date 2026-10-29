@@ -6,12 +6,12 @@ section_id: "F.9:7"
 section_title: "Evidence about relation and use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__009_evidence-about-relation-and-use.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:7 — Evidence about relation and use"
-line_start: 120328
-line_end: 120341
+line_start: 120468
+line_end: 120481
 dependencies:
   - "A.10"
   - "A.13"

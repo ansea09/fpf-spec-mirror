@@ -6,12 +6,12 @@ section_id: "A.19:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__012_rationale.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:9 — Rationale"
-line_start: 34837
-line_end: 34842
+line_start: 34840
+line_end: 34845
 dependencies:
   - "A.10"
   - "A.15"

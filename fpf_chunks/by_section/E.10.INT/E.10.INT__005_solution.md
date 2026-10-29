@@ -6,12 +6,12 @@ section_id: "E.10.INT:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__005_solution.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:4 — Solution"
-line_start: 100057
-line_end: 100101
+line_start: 100196
+line_end: 100240
 dependencies:
   - "C.11"
   - "C.16"

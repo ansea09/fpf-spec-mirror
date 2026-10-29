@@ -6,12 +6,12 @@ section_id: "F.14:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__004_forces.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:3 — Forces"
-line_start: 122086
-line_end: 122096
+line_start: 122226
+line_end: 122236
 dependencies:
   - "A.10"
   - "A.15.1"

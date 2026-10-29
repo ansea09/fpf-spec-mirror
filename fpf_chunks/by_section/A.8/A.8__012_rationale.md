@@ -6,12 +6,12 @@ section_id: "A.8:4.3"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__012_rationale.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:4.3 — Rationale"
-line_start: 26419
-line_end: 26422
+line_start: 26421
+line_end: 26424
 dependencies:
   - "A.11"
   - "C.3"

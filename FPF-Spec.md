@@ -1626,6 +1626,8 @@ These connected questions help a reader improve a way of working without treatin
 
 When it is unclear which work deserves improvement, `C.39.WI` follows work that consumes substantial resources, causes avoidable loss or cannot yet supply a useful result. It compares complete consequences and burden, then selects an attainable Method, explanation, access, provision or execution change, a retained possibility or continuation of current practice. Use `C.39.MF` when the selected development question still has an ambiguous subject. An adequate professional improvement Method can be used directly.
 
+When a selected failure survives correction, C.39.WI:4.4.1 connects the failed receiving use with the conditions that directed production, checking and the earlier repair. It uses a supported diagnosis to change the operative source or provision, makes that change available in the working form, and follows the changed basis through dependent results. C.28.CM supplies a needed causal distinction, B.5.RR preserves independent grounds during revision, and A.3.1.MI supports introduction and adaptation. Existing adequate results can supply these contributions. A corrected source, restored output, changed performance and worthwhile effect retain separate grounds.
+
 Partial work earns its contribution through a particular relation to the originating question. A model calculation requires a justified return to its subject; a component result requires the whole's composition and operating conditions; a worked case requires an explicit operation and grounds for its wider use. C.39.QR recovers the original question, establishes that relation and its warrant, and separately judges which part of the requested result is now available. A valid subject inference can still leave an explanation or operating capability to be constructed. The next move follows that remaining need.
 
 When the missing result is an account of an organized whole or broad field, C.39.WA develops the common grounds, constituent contributions and relations that make the account useful together. Those grounds explain choices about parts and which choices change with a premise. Findings in the parts can in turn change the common explanation. A discipline's knowledge–practice organization, a Method's obtaining relations and a system's functioning call for different subject constructions. The relevant subject patterns supply them; the common Method preserves the question through their use.
@@ -33291,7 +33293,7 @@ This is the one canonical move table. Later examples apply it; they do not defin
 | `respecify` | the broad family remains plausible but its framing scaffold, facet reading, or route specification is wrong | a revised framing or route specification replaces the earlier one | replaced commitments, invariants that stay fixed, and any episteme-identity change |
 | `retire` | a cue, route-bearing publication, episteme, or branch is no longer current for the named use because its grounds failed, a successor took over, or a current-use decision ended | retirement or withdrawal is explicit | reason, exact retired object, preserved history, and supported successor information or an unresolved successor question when the receiving use needs it |
 
-The table names moves, not the resulting objects. `PreArticulationCuePack`, `RoutedCueSet`, and `U.AbductivePrompt` are publication forms defined elsewhere. A claim-bearing episteme remains `U.Episteme`; `E.24.PUB` separately defines a bounded publication occurrence.
+The table names moves, not the resulting objects. `PreArticulationCuePack` and `RoutedCueSet` are publication forms defined elsewhere. `U.AbductivePrompt` is the question account defined by `B.5.2.0`; its publication form is selected separately. A claim-bearing episteme remains `U.Episteme`; `E.24.PUB` separately defines a bounded publication occurrence.
 
 `projection` means route-bounded partialization. Its result must be a typed publication form; an MVPK face alone or an untyped placeholder is not enough. `respecify` changes framing, route specification, or a facet-profile reading. Precision repair remains with `A.6.P` or `C.16.Q`; recovery of an ambiguous action-oriented claim or question remains with `A.6.A`.
 
@@ -33585,11 +33587,12 @@ A trajectory account may refer to seam publication forms that remain upstream of
 
 - `PreArticulationCuePack`;
 - `RoutedCueSet`;
-- `U.AbductivePrompt`;
 - partial normal forms already typed elsewhere;
 - other explicitly typed upstream publications that preserve a non-endpoint position.
 
 These are not a rival publication-face sequence. They are typed publication forms rendered, when necessary, on existing MVPK faces under `E.17`.
+
+For a published `U.AbductivePrompt`, identify the question account under `B.5.2.0:4.2.1–4.2.2` and its selected form separately. When a trajectory returns to that entry, distinguish a changed account from a changed explanatory question.
 
 Untyped placeholders such as "route-bounded publication face" are non-conformant in a trajectory account unless the text also names the actual publication form and, separately, the MVPK face if face typing matters.
 
@@ -49541,7 +49544,7 @@ A conforming reopening note should identify:
 - which prior prime hypothesis is being reopened,
 - whether a stored rival is being reinstated or a new candidate is entering,
 - what change in evidence, scope, or internal contradiction triggered the reopening,
-- and whether the original prompt itself has changed or only the candidate ranking has changed.
+- and whether the explanatory question, its prompt account, or only the candidate ranking has changed. Apply `B.5.2.0:4.2.1–4.2.2`: a revised account may still concern the same question; a changed question needs its own entry grounds.
 
 
 #### B.5.2:14.4 - Scope discipline during iteration
@@ -49634,9 +49637,9 @@ Integrators receive a qualified conjecture, not early assurance conferred by an 
 
 **Not this pattern when.** Not this pattern when the object is still a raw cue (`B.4.1`), a language-state threshold claim (`C.2.4`, `C.2.5`), a chosen hypothesis (`B.5.2`), or a selector decision about methods, substrates, or portfolios.
 
-### B.5.2.0:0 - Kind and publication-form boundary
+### B.5.2.0:0 - Question, account and publication form
 
-`U.AbductivePrompt` is a dependent durable publication-form value under episteme publication and abductive entry, not a root U-kind. It may seed `B.5.2` when its explanatory question, scope and motivating grounds are clear enough for rival comparison under the applicable language-state thresholds. A cue, routing note, anomaly sentence, candidate hypothesis, or local prompt label does not become `U.AbductivePrompt` unless the prompt species, open question, scope, and provenance required by this pattern are present.
+`U.AbductivePrompt` is a claim-bearing account of one open explanatory question. It records the question, its scope, prompt species and motivating grounds. It is a same-individual-dependent kind under `U.Episteme`: the account keeps C.2.1 identity, and §4.2.2 supplies its prompt-membership test. It may seed `B.5.2` when those grounds and the applicable language-state thresholds support rival comparison. The reusable form expresses the account; it can also express another account of another question.
 
 ### B.5.2.0:1 - Problem frame
 `B.5.2` needs an entry form that preserves a question's motivating grounds, including when they arise from an opportunity or probe rather than an anomaly.
@@ -49652,7 +49655,7 @@ If anomaly is the only admissible input, pre-anomaly opportunity cues and route-
 | **Prompt vs hypothesis** | Keep the initiating prompt distinct from the downstream abductive outcome. |
 
 ### B.5.2.0:4 - Solution
-`U.AbductivePrompt` covers the prompt forms that may seed `B.5.2`. Use `A.16`, `A.16.1` and `B.4.1` when the initiating cue needs preservation, clarification or selection of its next reasoning contribution. Use `A.16.0` only when the cue-to-prompt history itself needs an explicit trajectory account. A prompt uses ordinary MVPK faces; its prompt status belongs to the publication form and remains distinct from its face.
+`U.AbductivePrompt` classifies the question accounts used for entry into `B.5.2`. Use `A.16`, `A.16.1` and `B.4.1` when the initiating cue needs preservation, clarification or selection of its next reasoning contribution. Use `A.16.0` only when the cue-to-prompt history itself needs an explicit trajectory account. Publish the account through a suitable form and ordinary MVPK faces; account membership and current entry depend on the content and grounds described below.
 
 #### B.5.2.0:4.1 - Starter canonical species and conditional extension species
 - starter canonical species:
@@ -49674,7 +49677,44 @@ These extension species are admissible only when cue provenance or trajectory ac
 #### B.5.2.0:4.2 - Core shape
 A conforming abductive prompt makes `promptSpecies`, its explanatory `openQuestion`, `scope` and motivating provenance explicit. The provenance may be carried by `motivatingCueRef`, `witnessRefs` or `routeProvenance`; include the applicable basis even when no routing history exists. A rendering may additionally include `contrastSet` and `GammaTime`.
 
-A prompt is not yet a hypothesis. Prompt admission usually presupposes articulation high enough to publish a stable open question and closure low enough that rival answers remain live; those articulation and closure thresholds remain governed by `C.2.4` and `C.2.5`, typically reached through cue or route provenance from `A.16.1` and `B.4.1`. It is the initiating publication form that licenses entry into the abductive loop.
+A prompt is not yet a hypothesis. Prompt admission usually presupposes articulation high enough to publish a stable open question and closure low enough that rival answers remain live; those articulation and closure thresholds remain governed by `C.2.4` and `C.2.5`, typically reached through cue or route provenance from `A.16.1` and `B.4.1`. The published account must satisfy those entry conditions; its layout supplies no additional admission.
+
+##### B.5.2.0:4.2.1 - Identify the explanatory question
+
+Identify the question from what the inquiry asks someone to explain:
+
+- the subject and the fact, contrast or expected effect to be explained;
+- the relevant population, conditions and time horizon in `scope`;
+- the explanatory demand: what remains unknown and what an answer would have to explain.
+
+Resolve the terms against their intended referents and interpretation. These three elements identify the question together. A change of wording, notation or publication preserves it when those elements retain their meaning. Two questions differ when a change in any element changes what an explanation must answer. A current list of rival hypotheses helps compare answers; it need not exhaust the possible answers and does not identify the question by itself.
+
+Distinguish making an existing condition explicit from changing that condition. Use the earlier expression and its recoverable context to establish which happened. If a table drops an essential condition, first restore the damaged expression. When the earlier question cannot be recovered, leave its continuity unresolved; do not carry an earlier answer across the gap as an answer to the new formulation.
+
+Motivating evidence and `promptSpecies` qualify the entry. Changing them changes the question only when it changes the explanatory demand, subject or relevant scope. A new observation can change the grounds for comparing explanations of the same event. Correcting the reported event can instead remove the reason to seek that explanation or raise a different question. A budget change affects question identity when the question concerns performance under that budget; a change in the resources available to investigate the same event need not do so.
+
+This rule identifies the explanatory content of the question. An occasion on which someone asks it has its own occurrence identity.
+
+##### B.5.2.0:4.2.2 - Identify the prompt account and check its use
+
+A prompt account makes claims about one question identified under §4.2.1: what is being asked, its scope, how it arose and the grounds for treating it as open in the stated inquiry. The question is its exact `EntityOfConcern`. C.2.1 identifies that account as one `U.Episteme` through its claim content, the question and the effective `ReferenceScheme`.
+
+Under `FPFCoreReferenceScheme`, that same episteme is a `U.AbductivePrompt` when its content records one recoverable explanatory question, a declared species with the conditions in §4.1, and the scope and motivating provenance in §4.2, while leaving rival answers open. Thus `U.AbductivePrompt(E)` implies `U.Episteme(E)` for the same individual. This is the same-individual-dependent membership rule. An unfilled layout, an underspecified cue and an account that asserts its preferred answer as settled fail this test for different reasons: no particular account, an unrecoverable question, or an answer-bearing account.
+
+Use §4.2 and §17 to judge whether that account supports entry into B.5.2 now. An account can remain identifiable after its grounds have failed or its question has been answered. Keep it available as the earlier entry and record the warranted continuation; its earlier admission does not authorize a new run without current grounds.
+
+The same question may have several accounts with different claims or effective schemes. Additional evidence changes account identity only when it changes one of C.2.1's identity constituents; adding an evidence relation alone need not do so. A reusable publication form can express different accounts. E.24.PUB governs the selected account's expression and publication; A.6.3.RT governs a prose-to-table transfer when that representation changes. A note containing several questions may express several prompt accounts in the same document.
+
+On return to an earlier abductive inquiry, determine what changed before restarting it:
+
+| Finding | Warranted continuation |
+|---|---|
+| Same question and account; different support or candidate ranking | Reconsider the affected rivals under B.5.2. |
+| Same question; changed claims in its account | Identify the revised account under C.2.1 and reassess entry on its current grounds. |
+| Changed explanatory demand, subject or relevant scope | State the new question and its relation to the earlier one; establish its own entry. |
+| Several distinct questions were bundled | Separate their accounts and use B.5.2's split return. |
+| An expression lost a condition needed to recover the question | Restore the expression before reusing the account or its answers. |
+| The initiating ground fails or an adequate answer is already available | Abort or retire the current attempt as appropriate; preserve the earlier account and the reason for stopping. |
 
 #### B.5.2.0:4.3 - Boundary rule
 Only a declared prompt species carrying an explanatory question enters B.5.2 through this form. For a choice among available probes, actions or specialist options, use C.11. Use C.38 to develop incomplete alternatives for the same intended result, C.11.DUA to examine an unclear evidence demand, and C.19 when the question is policy over a still-live candidate pool. C.18 records generation and comparison results; C.22.1 describes an adaptation signature. Neither performs the missing choice. An explanatory subquestion arising during planning can still enter B.5.2 on its own grounds.
@@ -49696,6 +49736,7 @@ The pattern broadens the entry form to abduction, but still keeps it typed and a
 - `CC-B.5.2.0-4` Prompt publication **SHALL** include the explanatory question, its scope and the motivating provenance that make abduction appropriate.
 - `CC-B.5.2.0-5` A publication that already fixes the answer or suppresses plausible rivals **SHALL NOT** remain in prompt status.
 - `CC-B.5.2.0-6` When a specialization-sensitive prompt species is used, the prompt package **SHALL** make explicit the declared task family or utility target, the threshold or success condition being probed, the current budget window, and the route or cue provenance that made the prompt admissible.
+- `CC-B.5.2.0-7` Before restarting an inquiry, or reusing its prompt after a change in wording, scope or motivating grounds that may affect the question or account, the user **SHALL** apply §4.2.1–4.2.2 to establish the affected continuity and entry conditions. Already established identity and unaffected grounds remain reusable while their basis holds; comparing another rival with an unchanged prompt requires no new continuity assessment.
 
 ### B.5.2.0:8 - Common Anti-Patterns and How to Avoid Them
 - **Prompt equals hypothesis.** Keep the prompt distinct from the abductive output.
@@ -49703,7 +49744,7 @@ The pattern broadens the entry form to abduction, but still keeps it typed and a
 - **Route amnesia.** A cue-derived prompt loses the early route provenance that explains why it entered here.
 
 ### B.5.2.0:9 - Consequences
-The benefit is cleaner, less brittle abduction-entry terms. The trade-off is one additional explicit prompt family head and one more declared publication form.
+The benefit is a common entry criterion for cue clarification, abductive comparison and later return to the inquiry. The cost is distinguishing the question from its account when either changes; a new form, file or question identifier is unnecessary when the existing publication makes that distinction recoverable.
 
 ### B.5.2.0:10 - Rationale
 A typed prompt lets a preserved cue contribute its explanatory question to `B.5.2` while retaining the grounds that made the question worth asking.
@@ -49711,8 +49752,11 @@ A typed prompt lets a preserved cue contribute its explanatory question to `B.5.
 ### B.5.2.0:11 - SoTA-Echoing
 An opportunity or a probe-related contrast can raise an explanatory question without being formulated as an anomaly.
 
+As a foundational semantic comparison, Ciardelli, *Why We Need a Question Semantics* (author preprint, 2021; published chapter, 2022), distinguishes an issue from its expression and from the act of asking, and develops resolution conditions for questions. His *Inquisitive Action Logic* (2026) continues to treat questions as semantic content used within a formal system. Here that distinction supports separating the question from an account about it. The local explanatory-question rule in §4.2.1 is an FPF construction; these sources do not supply its account-membership rule or a universal identity test for explanations. Sources: [chapter record](https://research.unipd.it/handle/11577/3466402), [2026 paper](https://arxiv.org/abs/2606.31866).
+
 ### B.5.2.0:12 - Relations
-- Builds on: `C.2.2a`, `A.16`, `A.16.1`, `B.4.1`, `C.2.LS`, `C.2.4`, `C.2.5`.
+- Builds on: `C.2.1`, `C.2.2a`, `A.16`, `A.16.1`, `B.4.1`, `C.2.LS`, `C.2.4`, `C.2.5`, `E.24.PUB`, `E.24.UK`.
+- Coordinates with `A.6.3.RT` for representation transfer and `B.5.QD` for developing or changing a question.
 - Coordinates with: `A.16.0`, `A.16.2`, `C.2.6`, `C.2.7`, `B.5.2`, `A.6.P`, `C.16.Q`, `A.6.A`, `F.9.1`.
 - Constrains: admissible prompt entry into abduction.
 ### B.5.2.0:13 - Worked Prompt Species
@@ -49728,6 +49772,14 @@ A probe-related observation may prompt an explanatory question: which rival expl
 
 #### B.5.2.0:13.4 - Specialization-sensitive prompt set
 Use a specialization-sensitive species for its explanatory question in §4.1.1. For example, a measured performance contrast can prompt rival explanations tied to a declared task family and budget. Acquiring a specialist Method or competence bundle instead requires the applicable option or alternative-development decision. Retain task family, threshold, budget and cue provenance in whichever receiving use needs them; prompt publication does not select the acquisition.
+
+#### B.5.2.0:13.5 - Same question, revised account and reused form
+
+Continue the constructed service case in §13.1. The question asks what explains the rise from 8 ms to 40 ms for the named service, workload and time window. A paragraph and a table preserve the same question when both retain that contrast and scope. If the table also preserves the account's claims and effective scheme, C.2.1 identifies the same account; E.24.PUB separately governs its new expression and availability. If the table omits the workload, restore that condition before treating its shortened question as equivalent.
+
+New contention logs can support one rival more strongly while the latency question stays unchanged. An assertion about that new support can belong to a revised account, or to a separate evidence account linked to the unchanged prompt. Determine which content actually changed. If corrected measurements establish that latency stayed at 8 ms, the current attempt to explain an actual rise loses its initiating ground. Asking why the monitor reported 40 ms is a different question about the report; its answer need not explain a real slowdown.
+
+The same `AnomalyStatement` layout can express that reporting question and a question about a real slowdown in another service. Its shared columns do not identify one common question. Record each subject, contrast and scope so that the two accounts and their rivals remain distinguishable; they may occupy two rows of one note. One hypothesis that happens to answer both questions would still not make the questions identical.
 
 ### B.5.2.0:14 - Prompt package discipline
 
@@ -49748,9 +49800,9 @@ This package lets downstream conjectures be tested against the same question rat
 
 For specialization-sensitive prompt species, the package should also make explicit the declared task family or utility target, the threshold or success condition being probed, the current budget window, the prior route provenance, and the rival prompt shapes still in play.
 
-#### B.5.2.0:14.2 - Prompts are questions, not claims
+#### B.5.2.0:14.2 - Claims about the question and an asserted answer
 
-A prompt may cue one explanation, but it remains a question-bearing entry form. If the text already asserts the answer, it has moved past prompt status and should be treated under `B.5.2` or another governing pattern that carries the asserted answer.
+A prompt account states what is being asked and why, while leaving the answer open. It may cue one explanation among rivals. If the text instead asserts the answer as settled, it has moved past prompt status and should be treated under `B.5.2` or another governing pattern that carries the asserted answer.
 
 #### B.5.2.0:14.3 - Prompt provenance remains load-bearing
 
@@ -83159,6 +83211,42 @@ For a source or framework adequacy question, recover the source's substantive di
 
 C.39.MF resolves the focus when the subject remains ambiguous. Do not turn the table into an obligation to investigate every possible cause. Return the supported remedy or precise unresolved distinction, and preserve unaffected results.
 
+##### C.39.WI:4.4.1 - Repair a failure that survives correction
+
+Use this branch when a consequential failure survives a correction, several results suggest a shared failure of method use, or an earlier repair leaves dependent work relying on a rejected basis. Restore the receiving work by changing the conditions that reproduce the failure and revising the affected results. A known sufficient correction can proceed directly. Protect a recipient who needs an immediate correction while resolving the remaining question.
+
+The failed use identifies what needs restoration. Evidence about how it was produced, checked and previously repaired selects the intervention. Dependence on the changed basis determines which earlier results need reconsideration. What happens after the intervention can reopen the explanation or the repair's reach. These connections let a repair finish with a usable result while retaining causal uncertainty that does not change the action.
+
+**Recover the episode and the result it had to supply.** Start with what the next participant needed to decide or do, the applicable Method and the condition that was not met. Establish that condition on the receiving practice's grounds. A useful result can be rejected by a mistaken local check; the checking criterion then needs examination.
+
+Follow available evidence from the input and its interpretation through the consequential choice and action to the result and its use. Recover the actual assignment, material and edition, available support and relevant constraints. A connected account from the performer can locate a missed transition; compare it with the passage, action or result that bears on the claim. Distinguish an observed operation, a participant's account and an inferred cause. Opening a document establishes access; a retrospective account from an AI agent does not expose its hidden reasoning. Keep unavailable history unknown and obtain a comparable present observation when it can distinguish the remedies.
+
+Locate the earliest supported loss while preserving later contributions that remain valid on their own grounds. A correct comparison can use an incorrectly narrowed assignment. Repairing the final comparison alone would leave that narrowing in place. When the assignment or acceptance criterion is itself disputed, recover how it was selected and what supported that choice.
+
+**Find what directed production, checking and the earlier correction.** Compare the governing operation with the instructions, examples, tool behavior and criteria available at the consequential decision. Trace a contributing input to its maintained source and to the working form actually used. A source that permits the wrong move and evidence that this source directed the observed move support different claims; retain that distinction in the diagnosis.
+
+If the result passed a check or returned after repair, include those interactions. Recover what the checker or previous repairer had to establish, the information and feedback they received, the criterion they applied and the relevant condition they changed. A shared mistaken criterion can direct both production and checking. A corrected source may never reach the working template. A previous intervention may reach its user yet address a different cause. Ask what would have interrupted the failed transition and whether the earlier correction could provide it under the observed conditions.
+
+When repeated authoring and checking share a disputed interpretation, obtain a separately formed account of the original question and relevant subject grounds before supplying that interpretation as the answer. This can reveal an omitted operation or an unjustified criterion. Verification of a proposed repair then uses the diagnosis and its evidence. Select the needed independence and reader preparation for the judgement being made; a second participant using the same unsupported basis supplies no independent ground.
+
+**Distinguish explanations when their difference changes the repair.** Use C.28.CM to construct or challenge an unresolved causal account: state the outcome contrast, proposed relations and serious alternatives, then derive what would differ in available evidence or an obtainable case. A missing operation, an unavailable current edition, a contrary criterion and a resource conflict can produce similar omissions while requiring different interventions. Several causes may contribute.
+
+Select further inquiry through C.11.DUA. Existing evidence may settle the choice. A contradiction between an operative criterion and its governing rule can be corrected on substantive grounds while its contribution to past recurrence remains uncertain. If the surviving accounts support the same sufficient repair, preserve that uncertainty and proceed. If they require incompatible actions, obtain the discriminating contribution or state which choice remains unsupported. The recurrence makes the earlier repair a matter to explain; it does not require a survey of every possible cause.
+
+**Change the contributing condition and make the change usable.** Choose the object of repair from the supported account. Use C.39 for a missing way or explanation; A.15.8.MS for method-use support; and the responsible provider for missing capability, inputs, resources or authority. A.15.10 helps restore lost continuation meaning, and A.15.11 brings an applicable Method into consideration. Use an already sufficient contribution directly.
+
+Correct a wrong criterion where it is maintained and in the working forms that supply it at the decision. Remove the obsolete instruction when leaving it alongside a reminder would preserve the conflict. A correct criterion that cannot be performed may instead need different provision. Preserve the useful operation while changing its support. When the remedy changes the Method, identify and qualify that change. A.3.1.MI connects introduction with the comparison of delivery, mechanism and context; IS.2 and IS.3 supply diagnosis and strategy within a helping undertaking. Their adequate results can enter this repair without repeating their work.
+
+Choose how to obtain the needed contribution. Qualified provision can supply an immediate result. When human mastery is promised, preserve the learner's own required operation and use the applicable HCD practice, feedback and assessment. For an AI system, distinguish changes to instructions, retrieval, external state, tools, an evaluation criterion and model parameters, and obtain the corresponding technical method. E.10.LRN explains why those changes support different learning claims.
+
+Make the corrected contribution obtainable at the relevant occasion, with its needed means and authority. Select verification that can expose the remaining failure: does the corrected criterion reach the user, is the intended operation performed, or does the proposed cause still defeat it? A changed condition is useful when it tests the relation being repaired. Reuse checks whose grounds still apply. Include diagnosis, transition, verification and continuing support in sections 4.2–4.5's comparison.
+
+**Restore dependent work and return what happened.** Establish the affected set from actual reliance on the changed basis: instructions derived from it, conclusions using it and results consumed later. Use existing source and use records, the work itself and relevant participants to establish this reach. Shared wording can locate candidates; their dependence determines inclusion. A sampled failure can expose a cause while leaving the affected population unknown.
+
+Use B.5.RR to revise the affected reasoning. A conclusion may survive on independent grounds, need a weaker or conditional form, or require withdrawal or reconstruction. Carry each changed result into its receiving use. Correcting a review criterion can require revising both the verdict and the published instruction altered to satisfy it. Restore every result in the established affected set and identify any unresolved boundary. A newly discovered dependence extends that set; several successful repairs do not settle its unexamined remainder.
+
+Keep source correction, restored outputs, changed ordinary performance and worthwhile effect distinguishable. An actual use establishes the supported performance under its stated conditions. A claim that the intervention reduced recurrence or improved the encompassing work needs evidence about that consequence, including relevant changes in demand, other causes and added burden. Obtain that evidence when the intended decision or claim requires it. If use contradicts the proposed explanation, return to the affected relation and preserve repairs and findings whose grounds still hold. A sufficient receiving result can close the bounded repair while a further effectiveness question remains open.
+
 #### C.39.WI:4.5 - Choose a worthwhile and attainable contribution
 
 Compare materially different remedies for the same receiving need. Include continuing current practice where admissible; removing or reducing work that the receiving result does not require; a direct repair or better use of existing means; developing a missing explanation or Method; changing the performance/provision arrangement; and deferral where timing changes the comparison. Include only real alternatives.
@@ -83227,6 +83315,26 @@ The next ordinary task is the relevant observation. It should complete its assig
 
 This is a proposed mechanism and observation design. Actual traces and receiving results are needed before claiming reduced recurrence or a measured saving. If the failure instead arises because the agent cannot recover its instruction after a context change, retention and re-entry are different necessary remedies.
 
+#### C.39.WI:5.4 - Choose the repair from what kept producing the failure
+
+In this constructed case, a software provider maintains five customer guides. Its writing method requires a caution when a credible mistaken use would change the customer's action or result. Two guides describe imports that overwrite stored settings; customers need that condition before importing. Three guides concern navigation and display layout, and the available use evidence supplies no comparable caution for those instructions.
+
+The review template nevertheless requires a caution in every guide. Revision records show that authors added generic cautions to the three navigation guides to obtain approval. Review accepted them by checking presence, without establishing the cautions' contribution. An editor later removed those cautions, improved the examples and explained the writing rule at a team meeting. The next review again rejects the three guides for lacking cautions. The provider still needs usable customer instructions and a warranted release judgement.
+
+The maintainer recovers the rejected passages, authors' recorded revisions, review decisions and the template actually used. The reviewer identifies the template item that governed the rejection. The earlier editor's changes and meeting account show what the correction supplied. The template remained unchanged at the required decision point. These observations connect production of the defect, its acceptance by review and the ineffective repair: improving the examples left the criterion that had induced and approved the extra text in place.
+
+The maintainer changes the criterion at its maintained source: inspect whether a credible mistaken use changes the reader's action or result, and require the corresponding caution when it does. The release form displaying that item is regenerated and compared with the source. Another meeting would add effort while preserving the known contradiction; deleting every caution would remove the two independently warranted overwrite instructions. The supported change repairs the criterion and its working form while retaining the useful subject judgements.
+
+Release history establishes that these five guides are the complete set produced under that template edition. The maintainer follows each review decision into the resulting customer text. The three unsupported rejection reasons are withdrawn; their guides keep the useful examples and omit the generic cautions. The two overwrite cautions and their supported acceptance decisions remain. The corrected five guides reach customer distribution. An additional guide used another criterion and remains outside this repair on that checked basis.
+
+At the next release in the constructed case, the reviewer applies the corrected criterion to a navigation instruction and to an import that overwrites settings. The first needs no caution; the second retains its overwrite instruction. This establishes a corrected source, restored affected guides and use of the new criterion in that release. Whether later releases require less rework remains a further question for ordinary release observations.
+
+**Change the source-use relation.** Suppose the maintained template already agrees with the rule, but a pinned link opens an obsolete copy. The same visible demand for generic cautions calls for repairing that access route and following the actual uses of the obsolete copy. Rewriting the correct source criterion would leave the failed relation unchanged. The affected set now follows use of that copy, so the earlier five-guide boundary must be reconsidered.
+
+**Change the performer's preparation.** A new editor reaches the current criterion, but the editor's comparison of two instructions treats every imaginable misunderstanding as credible misuse. A qualified helper uses that comparison to locate the missing distinction. If learning is the promised result, the HCD route supplies practice, feedback and assessment of the editor's own operation. If the immediate undertaking only needs a corrected guide, expert provision may suffice. The receiving promise selects between those contributions.
+
+For an AI-assisted review, inspect the instructions and evaluation material actually supplied. A corrected context can support an adequate review under that configuration. Performance after that context is replaced requires its own basis; the observed review establishes no parameter update. Across these changes, the reusable move is to return from the visible failure to the relation sustaining it, choose the repair that changes that relation, and restore the work that actually relied on it.
+
 ### C.39.WI:6 - Bias-Annotation
 
 Measured time favors visible repeated work and can undervalue prevention, informal coordination and opportunities never attempted. Complaint counts reflect reporting conditions as well as difficulty. Automation proposals can omit verification, recovery and supervision; familiar human allocations can also preserve unnecessary duplication after agent capability changes. Compare actual arrangements, including their supported capabilities and limits.
@@ -83240,6 +83348,7 @@ The examples simplify demand, cost and effects to expose consequential distincti
 - The comparison follows local change into encompassing work, including constraint, payment, capacity, human and future-use consequences that matter.
 - Overlapping effort and already counted foregone contributions are not added twice.
 - The remedy distinguishes a missing Method or connection, explanation, access, provision and execution as the evidence warrants.
+- When a failure survives correction, the repair addresses the supported conditions of production, checking and the earlier intervention, reaches the working forms, and restores the established dependent set while retaining independent grounds.
 - A source-based adequacy conclusion covers the assigned source and practitioner scope; successful examples do not silently redefine it.
 - Selection includes the full change and continuing burden, feasible alternatives, an attainable next action and a reconsideration condition.
 - Recognition, execution and useful effect receive their own supported conclusions.
@@ -83296,11 +83405,21 @@ The deliberate trade-off is that WI cannot prescribe one measurement regime or s
 
 Reopen a relied-on empirical or capability premise when the proposed performer, tools, demand or receiving work changes. A recent source date alone does not establish superiority. The chosen actual-use comparison supplies the evidence for the local effect.
 
+#### C.39.WI:11.2 - Connect causal repair with restoration of dependent work
+
+C.28.CM supplies causal alternatives and discriminating consequences; B.5.RR revises reasoning whose grounds changed; A.3.1.MI:4.5 separates delivery, mechanism and context when selecting an adaptation. Use their sufficient results directly. Section 4.4.1 connects those results for a failure that survives correction: explain production, checking and the earlier repair, change the operative condition and restore the results dependent on the rejected basis.
+
+The [RCA² guidance, Appendix 6, p.39](https://www.ihi.org/sites/default/files/RCA2_ImprovingRootCauseAnalysesandActionstoPreventHarm.pdf), requires a causal explanation beyond naming an error or procedural violation. The [NHS Safety Action Development Guide, pp.13–19](https://www.england.nhs.uk/wp-content/uploads/2022/08/B1465-Safety-action-development-v1.1.pdf), develops action selection and testing, separates introduction, actual use and effects, and includes unintended consequences and observation cost. These are established professional contributions. Their clinical investigation and reporting arrangements remain specific to that practice.
+
+This branch connects a supported cause repair with revision and delivery of results that relied on the defective basis. A sufficient specialist repair can finish directly. The wider connection is useful when changing a source leaves its working forms or earlier products unchanged. Its general explanation and constructed case support examination of that choice; effects in a particular practice require that practice's evidence.
+
 ### C.39.WI:12 - Relations
 
 C.39 supplies development of a missing way; C.39.MF settles the Method or non-Method focus; C.39.RP preserves a relevant repertoire; C.39.MC returns changed facts to the affected development question. C.40.NP continues from a qualified result to the next worthwhile problem.
 
 C.11.DUA governs the burden and useful contribution of additional inquiry. C.11.MV and the appropriate professional comparison govern Method worth. B.1.5.EW keeps encompassing Work conditions, and C.32.MWA.PP compares performance, provision and development arrangements. OPS.9, OPS.14 and OPS.16 supply operating constraint, financial and operating-change results where those questions apply.
+
+C.28.CM constructs and challenges a needed causal distinction; B.5.RR revises dependent reasoning while preserving independent grounds. A.3.1.MI introduces the selected change and examines an adaptation. A.15.8.MS, A.15.10 and A.15.11 supply method-use support, recovered continuation and recognition when their respective conditions select that repair.
 
 E.4.CM gives a reusable contribution its developed framework explanation. A.3.1 and A.3.2 retain the distinction between a Method, its candidate account and its description. This pattern's proposed remedies, plans and worked examples establish no performed Work, acquired capability or authority by themselves.
 
@@ -88220,7 +88339,7 @@ The arrangement favors visible, discussable omissions. It can underrepresent tac
 
 Checklist tables compress questions, answer meanings and their relation to the work. To interpret or adapt a table, recover the domain knowledge, subject states and work descriptions on which its questions depend. To explain its adoption or effects, examine the wider working conditions. Return to the criterion's domain source when a judgement exceeds the question set; to the named FPF patterns for stronger ontology or structure claims; to the supplying Core Method-development patterns or DPF for capability development, operations or administration.
 
-The source line combines the supplied Methodology manuscript's checklist practice (R7, chapter 6 and its Method, qualification and change context) and Systems Management manuscript's coordination practice (R10, operational and administration passages), Gawande's historical account of professional checklist use, later human outcome and documentation studies, and current primary work on AI criteria and checking arrangements. Their useful contributions converge on situated questions with accessible grounds. Their differences survive: a human conversation, an executable test and a model judgement supply different observations and burdens. The shared language connects these contributions without treating one as a universal substitute for the others.
+The source line combines the supplied Methodology manuscript's checklist practice (R7, chapter 5 and its Method, qualification and change context) and Systems Management manuscript's coordination practice (R10, operational and administration passages), Gawande's historical account of professional checklist use, later human outcome and documentation studies, and current primary work on AI criteria and checking arrangements. Their useful contributions converge on situated questions with accessible grounds. Their differences survive: a human conversation, an executable test and a model judgement supply different observations and burdens. The shared language connects these contributions without treating one as a universal substitute for the others.
 
 ### C.41:1 - Problem frame
 
@@ -88376,9 +88495,9 @@ Use direct skilled attention without a maintained list for an isolated simple qu
 
 ### C.41:11 - SoTA-Echoing
 
-How should questions be selected when expert attention, description-based extraction and generated refinement are all available? **Adapt** situated selection from the supplied *Methodology* manuscript (R7, chapter 6 and its Method/qualification context) and *Systems Management* manuscript (R10, operational and coordination passages) together with the proposal-and-challenge line in [AutoChecklist](https://arxiv.org/html/2603.07019v1): use the least costly way to expose the consequential difference, then judge the proposed question against the work and its grounds. The selected answer is conditional. An explicit, usable description favors extraction; a familiar local omission can favor direct expert selection; uncertain coverage can justify generated contrasts and refinement.
+How should questions be selected when expert attention, description-based extraction and generated refinement are all available? **Adapt** situated selection from the supplied *Methodology* manuscript (R7, chapter 5 and its Method/qualification context) and *Systems Management* manuscript (R10, operational and coordination passages) together with the proposal-and-challenge line in [AutoChecklist](https://arxiv.org/html/2603.07019v1): use the least costly way to expose the consequential difference, then judge the proposed question against the work and its grounds. The selected answer is conditional. An explicit, usable description favors extraction; a familiar local omission can favor direct expert selection; uncertain coverage can justify generated contrasts and refinement.
 
-These are serious alternatives with different costs. Extraction can preserve a description's blind spot; direct expertise can miss an unfamiliar case; generation can add duplicates or plausible but unsupported criteria. [SPECA](https://arxiv.org/html/2602.07513v1) supplies a concrete specification-derived audit alternative and counterevidence about mistaken scope assumptions. Its single case and correct-specification premise do not establish general coverage. AutoChecklist supplies evaluated generation/refinement methods in its stated tasks, not evidence that generation wins for this workshop or every domain. The supplied *Methodology* manuscript (R7, chapter 6 and its Method/qualification context) and *Systems Management* manuscript (R10, operational and coordination passages) supply the practice connection to subjects and work; they do not compare model performance.
+These are serious alternatives with different costs. Extraction can preserve a description's blind spot; direct expertise can miss an unfamiliar case; generation can add duplicates or plausible but unsupported criteria. [SPECA](https://arxiv.org/html/2602.07513v1) supplies a concrete specification-derived audit alternative and counterevidence about mistaken scope assumptions. Its single case and correct-specification premise do not establish general coverage. AutoChecklist supplies evaluated generation/refinement methods in its stated tasks, not evidence that generation wins for this workshop or every domain. The supplied *Methodology* manuscript (R7, chapter 5 and its Method/qualification context) and *Systems Management* manuscript (R10, operational and coordination passages) supply the practice connection to subjects and work; they do not compare model performance.
 
 Section 4.2 therefore selects the proposal method by the missing distinction and includes adjudication effort. For the three explicit importer properties in §5, extraction plus a practitioner's usefulness challenge supplies the stated questions without a generation loop. If a plausible imported result satisfies all three yet defeats the intended use, comparing that result can expose an additional question. **Reject** automatic iteration merely because more criteria can be produced. Accept the added examination cost when it can reveal such an unresolved consequential difference; retain direct selection when it already provides adequate coverage.
 
@@ -90408,6 +90527,26 @@ For that changed receiving condition, return `revise`: retain the bounded positi
 **Return what experience makes worth keeping.** First recover the input, action, result and changed condition. A.3.2.DE receives a needed explanation or candidate-account change. A changed one-action representation stays with its C.37 result; C.37.MP maintains a profile only when several unlike Method-related uses must remain related. A changed access, tool or support arrangement goes to A.15.8.MS; a proposed change in reusable operations, dependencies or applicability goes to A.3.1.MV with its origin and evidence limits. A successful variation can be a candidate contribution without a defect in its parent. Local improvisation can instead remain one Work observation. Keep the older way for situations it still serves, and make the reason for selecting either way available to the next recipient. Generation of that contribution, its later transmission and its retention are separately supported claims.
 
 The common move is to preserve the useful result and its enabling reasons while changing what the new situation requires, then make that decision available for another use. The domain supplies the actual requirements, operations and tests. A movement-design exercise and a coffee-making procedure do not share those domain rules merely because both can be adapted and taught; sections 5 and 5.4 show the shared move and this boundary.
+
+#### C.36.MC:4.6 - Follow transmission through human and technical participants
+
+Use this profile of sections 4.1–4.5 when the cultural claim crosses people and technical agents, or when a change in a participant's mechanism can defeat continuation. Retain the actual practice, value, transmitting and receiving participants, interval and evidence. The population can include human–human, human–AI, AI–human and AI–AI relations. “Human–AI culture” alone does not establish which of them obtains.
+
+Identify what is meant to become available to the receiver: a distinction, rule, operation, explanation, coordination convention or way of obtaining help. Determine how it enters the receiving work. For a person, the relevant change may require explanation, an attempt, feedback, variation and later use. For an agent system, it may require a selected source, changed procedure, retrieval, retained state, a tool or a changed model. Use the actual development or engineering Method. Do not infer a common acquisition mechanism from a common value or a successful interaction.
+
+Distinguish receipt from use. A delivered explanation can be ignored, misunderstood or unavailable at the consequential moment. A correct statement of the rule can coexist with an incorrect action. Follow a representative action and its result under the intended support. Retain help when it belongs to the practice; examine unsupported performance only when that is the receiving requirement.
+
+When the participants must work together, examine their common interpretation as well as each participant's individual result. Ask for a consequential continuation or use a contrasting case. A shared word can conceal different objects or criteria. Engineering.Reference:19.6 supplies repair of the partner interpretation. A disagreement about authority or obligation instead needs the corresponding coordination result; it is not necessarily a failed transmission.
+
+Consider a constructed practice in which a reviewer must preserve a distinction between an observed fact and an inferred explanation. A person learns it through contrasting reports and feedback. An agent is configured to retrieve the current criterion and expose its evidence and inference. Both correctly classify the initial cases. This supports those performances under their stated conditions. It does not yet establish retention after a gap, transfer to another report family or successful transmission to a newcomer.
+
+Now the agent restarts without the relevant task state, or the person encounters a report whose familiar visual cues have changed. Recover which contribution is missing. A.15.10 and the agent-engineering Methods address the first condition; human development and transfer Methods address the second. Preserve the earlier supported performances while keeping the changed-condition claim unresolved. If a repaired procedure or learning contribution later supports the relevant use, record that bounded result without claiming that either mechanism caused every improvement.
+
+Follow the return into the shared repertoire. A useful clarification may need to change the public account, the teaching material, an agent instruction or the access arrangement. Change the actual dependent use and preserve its correspondence to the governed value. A local shorthand can remain useful among familiar participants while requiring translation or explanation for newcomers. A technically retained memory can preserve an obsolete rule; preservation is not correctness.
+
+For an agent result, retain the model and operative configuration, context and memory conditions, tools, permitted assistance and interval that qualify it. A changed model or tool can reopen a relied-on result without proving failure. For a human result, retain the actual person or supported population, task conditions and assistance. Do not import a model benchmark as a ceiling on every agent, or a human-learning mechanism as a universal explanation of technical adaptation.
+
+Finally separate the cultural judgement from work output, individual capability and team capability. The team can legitimately continue supported work while one broader transmission or retention claim remains unknown. A successful team result is not a substitute for that claim, and the unresolved claim does not automatically require stopping the useful work.
 
 ### C.36.MC:5 - Archetypal Grounding - MeCaMinD Transmission
 
@@ -99287,7 +99426,7 @@ IDs and instances: **flat with delimiters** chosen by the exact local naming sch
 
 **L-EPI-PUB — episteme, publication, view, carrier, direct-relation, representation, and authority-reference discipline**
 * Use `U.Episteme` for the claim-bearing unit. `U.EpistemePublication` is a rejected kind name: when the selected edition is available as a published episteme, name or make recoverable its exact `EpistemePublicationRelation` occurrence, publication form, bounded use, and carrier under `E.24.PUB`. The rejected spelling may remain only in an explicit rejection explanation or a negative test, never as a positive object, kind, reference, or field.
-* Name the publication form separately from the episteme: for example `PreArticulationCuePack`, `U.AbductivePrompt`, typed bounded projection, partial normal form, endpoint-specific publication form, or another declared form. A publication form is not itself the governing FPF source.
+* Name the publication form separately from the episteme: for example `PreArticulationCuePack`, a form selected to express a `U.AbductivePrompt` account, typed bounded projection, partial normal form, endpoint-specific publication form, or another declared form. A publication form is not itself the governing FPF source.
 * Name `U.View` and MVPK face separately from the publication form. A `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane` is an episteme-level view or publication face, not the source claim, not the publication form itself, and not the SCR or RSCR carrier.
 * Name the carrier or rendering relation separately. Documents, dashboards, generated screens, trace files, cards, and transport formats hold or render a publication; they are not the `U.Episteme`, not the claim or effect being relied on, and do not supply the rule for that claim.
 * Name source-finding cues separately from source epistemes. A cue, badge, credential view, dashboard tile, heading, signature-looking mark, or generated explanation may help find a source; it does not by itself create an `authoritySourceRef` target, evidence relation, gate decision, assurance claim, exact `U.SystemRoleAssignment` occurrence, status assertion, Work occurrence, deontic permission, or Work authorization.
@@ -107856,7 +107995,7 @@ This pattern uses a small local vocabulary for review.
 - **Bridge references** = required `bridgeOccurrenceRef` and `boundedUseClaimRef` when the case depends on bridge-mediated correspondence rather than ordinary source interpretation alone. The use-claim reference resolves a claim whose `EntityOfConcern` is that Bridge occurrence and whose proposed use, direction, correspondence rule, tolerated loss, and polarity match this comparative unit. Optional `bridgeCardRef` cites reusable packaging, and optional `bridgeStanceRef` cites a separate F.9.1 episteme whose `EntityOfConcern` is that exact use claim.
 - **Bounded comparative use** = what this review unit can be used for while it remains only a bounded comparative review unit.
 - **Overread risk** = how the review unit is most likely to be overread into a bridge, action-selection, ontology, or authority claim that it does not carry.
-- **Prompt boundary** = the point at which an explanatory question with rival explanations still open becomes primary under `B.5.2.0` or `B.5.2`; `U.AbductivePrompt` names its initiating publication form.
+- **Prompt boundary** = the point at which an explanatory question with rival explanations still open becomes primary under `B.5.2.0` or `B.5.2`; `U.AbductivePrompt` classifies the published account of that initiating question under `B.5.2.0:4.2.1–4.2.2`.
 - **Ordinary minimum block** = the smallest ordinary record that keeps the review unit honest for working use.
 - **Load-bearing extension** = the fuller declaration record used when the case sits close to bridge, explanation, abductive, ontology, or authority boundaries.
 
@@ -116423,6 +116562,7 @@ Each R5 or bootstrap result is a C.2.1 episteme about the pre-judgment subject c
 | `E24UK-AR-USTRUCTURE-R12-01` | `U.Structure`; `root`, R1.2 | `A.22:4.1`; one selected organization identified only by exact constituents, selected obtaining relation occurrences, applied constraints, and one named selection-use frame | selected-structure and specialization uses; context, label, system, team, subsystem, method, work, result, description, view, representation, publication, or use alone is not the structure |
 | `E24UK-AR-BMUS-R12-01` | `BoundedModelUseStructure`; `same-individual-dependent` under `U.Structure`, R1.2 | `A.22:4.1c` with `A.1.1` and `A.2.6`; the same already identified structure is selected over one exact model episteme, exact admitted model-use holons, and the required obtaining A.1.1 relation occurrences under applied constraints for the named bounded-model-use frame | bounded model-use reasoning; a bounded-context or model-use label, model episteme, team, subsystem, scope, description, view, graph, table, or publication alone grants no membership |
 | `E24UK-AR-A22-CROSSING-RULE-R12-01` | A.22 conditional crossing-analysis specialization; `same-individual-dependent` rule under `U.Structure`, R1.2; public term pending | `A.22:4.1c`; the same already identified structure must have several bounded model-use structures as exact constituents and exact selected obtaining crossing occurrences among them under applied constraints for one named crossing-analysis use | the rule may support future crossing analysis; no current member, context-map label, mapping method or work, view, diagram, publication, shared participant, or selected use grants membership or a public specialization name |
+| `E24UK-AR-UABDUCTIVEPROMPT-QI-01` | `U.AbductivePrompt`; `same-individual-dependent` under `U.Episteme` | `B.5.2.0:4.2.1–4.2.2`; the same C.2.1 episteme concerns one recoverable explanatory question and records species, scope and motivating provenance while leaving rival answers open; membership implies `U.Episteme` for that individual. Decision `E24-CO-UABDUCTIVEPROMPT-QI-01` retains direct subject-pattern use without an additional ontic. | B.5.2 entry and return, A.16 next-use admission, and A.16.0 trajectory references; an unfilled form, unstable cue or settled-answer account fails membership. Historical membership supplies no current entry permission. |
 | `E24UK-AR-UWORKPLAN-RG-01` | `U.WorkPlan`; `same-individual-dependent` under `U.Episteme`, RG | `A.15.2:4`; intended-work membership plus root inclusion | planning and readiness; a calendar image, possible work, method description, or performed Work is not a WorkPlan |
 | `E24UK-AR-USYSTEMROLEASSIGNMENT-RPR-01` | `U.SystemRoleAssignment`; `same-individual-dependent` under `U.Relation`, RPR | `A.2.1:4`; the same identified relation occurrence has family membership through one declared assignment species. That species declares `HolderSystemSlot`, a declaration-local assigned-kind slot limited to one local system-role kind, its own predicate and applicability, maximal uninterrupted occurrence identity, and every commission, position, installation, or other participant on which its identity depends. Membership implies `U.Relation` for that same occurrence. | attribution and work-facing assignment use; the family has no permissive binary root signature, and a stronger species is not a generic holder-kind occurrence plus another occurrence. A holder-kind pair, interval, assertion, responsibility claim, or generic `U.Kind` domain is not an assignment occurrence. |
 | `E24UK-AR-UMETHODDESCRIPTION-RG-01` | `U.MethodDescription`; `same-individual-dependent` under `U.Episteme`, RG | `A.3.2:4`; substantive claims about one admitted method | method use and planning; mention, metadata, approval, publication, or representation is not membership |

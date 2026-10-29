@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__003_problem.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:2 — Problem"
-line_start: 107792
-line_end: 107801
+line_start: 107931
+line_end: 107940
 dependencies:
   - "A.15"
   - "A.15.2"

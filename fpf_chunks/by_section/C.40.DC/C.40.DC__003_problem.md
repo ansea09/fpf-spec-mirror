@@ -6,12 +6,12 @@ section_id: "C.40.DC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__003_problem.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:2 — Problem"
-line_start: 86582
-line_end: 86589
+line_start: 86701
+line_end: 86708
 dependencies:
   - "A.3.1"
   - "A.3.2"

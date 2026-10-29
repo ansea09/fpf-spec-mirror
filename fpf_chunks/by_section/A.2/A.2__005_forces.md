@@ -6,12 +6,12 @@ section_id: "A.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__005_forces.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:3 — Forces"
-line_start: 4421
-line_end: 4431
+line_start: 4423
+line_end: 4433
 dependencies:
   - "A.1"
   - "A.1.1"

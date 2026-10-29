@@ -6,12 +6,12 @@ section_id: "C.32.MWA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA/C.32.MWA__008_conformance-checklist.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.32.MWA — Synthesize an Architecture Account of Methods and Their Use"
   - "C.32.MWA:7 — Conformance Checklist"
-line_start: 78064
-line_end: 78079
+line_start: 78116
+line_end: 78131
 dependencies:
   - "A.13"
   - "A.15.1"

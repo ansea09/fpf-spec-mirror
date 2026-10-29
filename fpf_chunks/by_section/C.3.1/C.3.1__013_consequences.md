@@ -6,12 +6,12 @@ section_id: "C.3.1:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__013_consequences.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:11 — Consequences"
-line_start: 54619
-line_end: 54624
+line_start: 54671
+line_end: 54676
 dependencies:
   - "A.1"
   - "A.11"

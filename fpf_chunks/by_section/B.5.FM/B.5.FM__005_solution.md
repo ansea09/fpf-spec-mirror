@@ -6,12 +6,12 @@ section_id: "B.5.FM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__005_solution.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:4 — Solution"
-line_start: 48224
-line_end: 48305
+line_start: 48227
+line_end: 48308
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

@@ -6,12 +6,12 @@ section_id: "A.11.OP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__010_consequences.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:9 — Consequences"
-line_start: 27669
-line_end: 27680
+line_start: 27671
+line_end: 27682
 dependencies:
   - "A.10"
   - "A.11"

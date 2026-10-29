@@ -6,12 +6,12 @@ section_id: "A.2.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__004_problem.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:2 — Problem"
-line_start: 4823
-line_end: 4835
+line_start: 4825
+line_end: 4837
 dependencies:
   - "A.1.1"
   - "A.15"

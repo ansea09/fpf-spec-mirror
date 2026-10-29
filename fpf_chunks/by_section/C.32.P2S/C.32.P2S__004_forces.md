@@ -6,12 +6,12 @@ section_id: "C.32.P2S:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__004_forces.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:3 — Forces"
-line_start: 76326
-line_end: 76338
+line_start: 76378
+line_end: 76390
 dependencies:
   - "A.1"
   - "A.1.SCR"

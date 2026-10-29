@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.UA.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
-line_start: 88683
-line_end: 88825
+line_start: 88802
+line_end: 88944
 dependencies:
   - "A.10"
   - "A.15.1"

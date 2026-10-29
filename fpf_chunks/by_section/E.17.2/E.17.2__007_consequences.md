@@ -6,12 +6,12 @@ section_id: "E.17.2:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__007_consequences.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:6 — Consequences"
-line_start: 106534
-line_end: 106546
+line_start: 106673
+line_end: 106685
 dependencies:
   - "A.22"
   - "A.6.3"

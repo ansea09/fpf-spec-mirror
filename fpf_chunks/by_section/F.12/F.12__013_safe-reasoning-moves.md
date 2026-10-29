@@ -6,12 +6,12 @@ section_id: "F.12:12"
 section_title: "Safe reasoning moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__013_safe-reasoning-moves.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:12 — Safe reasoning moves"
-line_start: 121680
-line_end: 121694
+line_start: 121820
+line_end: 121834
 dependencies:
   - "A.10"
   - "A.15.1"

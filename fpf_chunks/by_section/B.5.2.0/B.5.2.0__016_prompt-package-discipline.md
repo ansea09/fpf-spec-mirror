@@ -6,28 +6,33 @@ section_id: "B.5.2.0:14"
 section_title: "Prompt package discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__016_prompt-package-discipline.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:14 — Prompt package discipline"
-line_start: 49732
-line_end: 49761
+line_start: 49784
+line_end: 49813
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.16.2"
+  - "A.6.3.RT"
   - "A.6.A"
   - "A.6.P"
   - "B.4.1"
   - "B.5.2"
+  - "B.5.QD"
   - "C.16.Q"
+  - "C.2.1"
   - "C.2.2a"
   - "C.2.4"
   - "C.2.5"
   - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.9.1"
 keywords:
 ---
@@ -51,9 +56,9 @@ This package lets downstream conjectures be tested against the same question rat
 
 For specialization-sensitive prompt species, the package should also make explicit the declared task family or utility target, the threshold or success condition being probed, the current budget window, the prior route provenance, and the rival prompt shapes still in play.
 
-#### B.5.2.0:14.2 - Prompts are questions, not claims
+#### B.5.2.0:14.2 - Claims about the question and an asserted answer
 
-A prompt may cue one explanation, but it remains a question-bearing entry form. If the text already asserts the answer, it has moved past prompt status and should be treated under `B.5.2` or another governing pattern that carries the asserted answer.
+A prompt account states what is being asked and why, while leaving the answer open. It may cue one explanation among rivals. If the text instead asserts the answer as settled, it has moved past prompt status and should be treated under `B.5.2` or another governing pattern that carries the asserted answer.
 
 #### B.5.2.0:14.3 - Prompt provenance remains load-bearing
 

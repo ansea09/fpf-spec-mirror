@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__006_solution.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:4 — Solution"
-line_start: 10185
-line_end: 10215
+line_start: 10187
+line_end: 10217
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"

@@ -6,12 +6,12 @@ section_id: "B.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__012_rationale.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:10 — Rationale"
-line_start: 41038
-line_end: 41043
+line_start: 41041
+line_end: 41046
 dependencies:
   - "A.1"
   - "A.14"

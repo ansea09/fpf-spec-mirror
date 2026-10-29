@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__012_sota-echoing.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:11 — SoTA-Echoing"
-line_start: 95447
-line_end: 95459
+line_start: 95586
+line_end: 95598
 dependencies:
   - "C.2.1"
   - "C.33"

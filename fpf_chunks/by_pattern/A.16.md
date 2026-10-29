@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
-line_start: 33228
-line_end: 33464
+line_start: 33230
+line_end: 33466
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -120,7 +120,7 @@ This is the one canonical move table. Later examples apply it; they do not defin
 | `respecify` | the broad family remains plausible but its framing scaffold, facet reading, or route specification is wrong | a revised framing or route specification replaces the earlier one | replaced commitments, invariants that stay fixed, and any episteme-identity change |
 | `retire` | a cue, route-bearing publication, episteme, or branch is no longer current for the named use because its grounds failed, a successor took over, or a current-use decision ended | retirement or withdrawal is explicit | reason, exact retired object, preserved history, and supported successor information or an unresolved successor question when the receiving use needs it |
 
-The table names moves, not the resulting objects. `PreArticulationCuePack`, `RoutedCueSet`, and `U.AbductivePrompt` are publication forms defined elsewhere. A claim-bearing episteme remains `U.Episteme`; `E.24.PUB` separately defines a bounded publication occurrence.
+The table names moves, not the resulting objects. `PreArticulationCuePack` and `RoutedCueSet` are publication forms defined elsewhere. `U.AbductivePrompt` is the question account defined by `B.5.2.0`; its publication form is selected separately. A claim-bearing episteme remains `U.Episteme`; `E.24.PUB` separately defines a bounded publication occurrence.
 
 `projection` means route-bounded partialization. Its result must be a typed publication form; an MVPK face alone or an untyped placeholder is not enough. `respecify` changes framing, route specification, or a facet-profile reading. Precision repair remains with `A.6.P` or `C.16.Q`; recovery of an ambiguous action-oriented claim or question remains with `A.6.A`.
 

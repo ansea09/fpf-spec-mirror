@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.ASV.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
-line_start: 72517
-line_end: 73362
+line_start: 72569
+line_end: 73414
 dependencies:
   - "A.1"
   - "A.10"

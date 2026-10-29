@@ -6,12 +6,12 @@ section_id: "A.6.S:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__008_bias-annotation.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.6.S — TargetSignature and optional ConstructorSignature - demand-driven signature engineering"
   - "A.6.S:6 — Bias-Annotation"
-line_start: 24922
-line_end: 24933
+line_start: 24924
+line_end: 24935
 dependencies:
   - "A.15"
   - "A.15.1"

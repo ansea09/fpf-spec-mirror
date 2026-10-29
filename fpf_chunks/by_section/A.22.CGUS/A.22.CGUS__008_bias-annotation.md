@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__008_bias-annotation.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:6 — Bias-Annotation"
-line_start: 40757
-line_end: 40766
+line_start: 40760
+line_end: 40769
 dependencies:
   - "A.10"
   - "A.15"

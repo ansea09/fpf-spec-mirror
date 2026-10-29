@@ -6,12 +6,12 @@ section_id: "F.14:12"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__013_conformance-checklist.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:12 — Conformance checklist"
-line_start: 122308
-line_end: 122322
+line_start: 122448
+line_end: 122462
 dependencies:
   - "A.10"
   - "A.15.1"

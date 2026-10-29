@@ -6,12 +6,12 @@ section_id: "A.19.CHR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__003_problem.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
   - "A.19.CHR:2 — Problem"
-line_start: 36726
-line_end: 36729
+line_start: 36729
+line_end: 36732
 dependencies:
   - "A.15.2"
   - "A.15.3"

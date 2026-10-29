@@ -6,12 +6,12 @@ section_id: "B.5.RA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__007_bias-annotation.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:6 — Bias-Annotation"
-line_start: 47918
-line_end: 47925
+line_start: 47921
+line_end: 47928
 dependencies:
   - "B.5"
   - "B.5.MPC"

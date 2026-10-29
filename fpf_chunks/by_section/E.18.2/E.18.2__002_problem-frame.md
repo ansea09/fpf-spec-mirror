@@ -6,12 +6,12 @@ section_id: "E.18.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__002_problem-frame.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:1 — Problem frame"
-line_start: 110579
-line_end: 110619
+line_start: 110718
+line_end: 110758
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.DSG.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.11.DSG — Architectural Reference"
-line_start: 103872
-line_end: 104135
+line_start: 104011
+line_end: 104274
 dependencies:
   - "C.2.1"
   - "C.2.P"

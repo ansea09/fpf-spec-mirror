@@ -6,12 +6,12 @@ section_id: "C.40.NU:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__013_relations.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:12 — Relations"
-line_start: 86352
-line_end: 86362
+line_start: 86471
+line_end: 86481
 dependencies:
   - "C.17"
   - "C.18"

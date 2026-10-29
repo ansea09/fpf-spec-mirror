@@ -6,33 +6,39 @@ section_id: "B.5.2.0:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__014_relations.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:12 — Relations"
-line_start: 49714
-line_end: 49717
+line_start: 49757
+line_end: 49761
 dependencies:
   - "A.16"
   - "A.16.0"
   - "A.16.1"
   - "A.16.2"
+  - "A.6.3.RT"
   - "A.6.A"
   - "A.6.P"
   - "B.4.1"
   - "B.5.2"
+  - "B.5.QD"
   - "C.16.Q"
+  - "C.2.1"
   - "C.2.2a"
   - "C.2.4"
   - "C.2.5"
   - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.9.1"
 keywords:
 ---
 
 ### B.5.2.0:12 - Relations
-- Builds on: `C.2.2a`, `A.16`, `A.16.1`, `B.4.1`, `C.2.LS`, `C.2.4`, `C.2.5`.
+- Builds on: `C.2.1`, `C.2.2a`, `A.16`, `A.16.1`, `B.4.1`, `C.2.LS`, `C.2.4`, `C.2.5`, `E.24.PUB`, `E.24.UK`.
+- Coordinates with `A.6.3.RT` for representation transfer and `B.5.QD` for developing or changing a question.
 - Coordinates with: `A.16.0`, `A.16.2`, `C.2.6`, `C.2.7`, `B.5.2`, `A.6.P`, `C.16.Q`, `A.6.A`, `F.9.1`.
 - Constrains: admissible prompt entry into abduction.

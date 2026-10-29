@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.2.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
-line_start: 49310
-line_end: 49620
+line_start: 49313
+line_end: 49623
 dependencies:
   - "A.10"
   - "A.16"
@@ -258,7 +258,7 @@ A conforming reopening note should identify:
 - which prior prime hypothesis is being reopened,
 - whether a stored rival is being reinstated or a new candidate is entering,
 - what change in evidence, scope, or internal contradiction triggered the reopening,
-- and whether the original prompt itself has changed or only the candidate ranking has changed.
+- and whether the explanatory question, its prompt account, or only the candidate ranking has changed. Apply `B.5.2.0:4.2.1–4.2.2`: a revised account may still concern the same question; a changed question needs its own entry grounds.
 
 
 #### B.5.2:14.4 - Scope discipline during iteration

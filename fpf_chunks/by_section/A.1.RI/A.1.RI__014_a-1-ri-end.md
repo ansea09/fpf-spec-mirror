@@ -6,12 +6,12 @@ section_id: "A.1.RI:End"
 section_title: "A.1.RI:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.RI/A.1.RI__014_a-1-ri-end.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.1.RI — Reidentifying an Object across Observations"
   - "A.1.RI:End — A.1.RI:End"
-line_start: 3092
-line_end: 3093
+line_start: 3094
+line_end: 3095
 dependencies:
   - "A.1"
   - "A.3.3.PI"

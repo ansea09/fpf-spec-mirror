@@ -6,12 +6,12 @@ section_id: "C.41:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41/C.41__014_relations.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
   - "C.41:12 — Relations"
-line_start: 88387
-line_end: 88392
+line_start: 88506
+line_end: 88511
 dependencies:
   - "A.3.1"
   - "A.3.2"

@@ -6,12 +6,12 @@ section_id: "C.32.LCA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__002_problem-frame.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:1 — Problem frame"
-line_start: 75795
-line_end: 75818
+line_start: 75847
+line_end: 75870
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"

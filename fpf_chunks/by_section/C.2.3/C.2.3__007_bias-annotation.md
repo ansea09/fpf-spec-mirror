@@ -6,12 +6,12 @@ section_id: "C.2.3:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__007_bias-annotation.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:6 — Bias-Annotation"
-line_start: 52482
-line_end: 52485
+line_start: 52534
+line_end: 52537
 dependencies:
   - "A.16"
   - "A.18"

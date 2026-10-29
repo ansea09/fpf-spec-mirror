@@ -6,12 +6,12 @@ section_id: "C.40.CD:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__011_architectural-rationale.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:10 — Architectural Rationale"
-line_start: 85003
-line_end: 85012
+line_start: 85122
+line_end: 85131
 dependencies:
   - "B.5.MPC"
   - "B.5.MPC.R"

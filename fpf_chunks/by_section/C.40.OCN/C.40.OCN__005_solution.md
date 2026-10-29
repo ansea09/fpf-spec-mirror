@@ -6,12 +6,12 @@ section_id: "C.40.OCN:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__005_solution.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:4 — Solution"
-line_start: 85334
-line_end: 85499
+line_start: 85453
+line_end: 85618
 dependencies:
   - "A.15.9"
   - "C.11"

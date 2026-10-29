@@ -6,12 +6,12 @@ section_id: "C.39.WI:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__012_sota-echoing.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:11 — SoTA-Echoing"
-line_start: 83272
-line_end: 83298
+line_start: 83381
+line_end: 83415
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"
@@ -47,4 +47,12 @@ For a service-toil problem adequately answered by that route, using WI again wou
 The deliberate trade-off is that WI cannot prescribe one measurement regime or service rule across those uses. It supplies the common choice and return, while professional suppliers retain their calculations and conditions. Reopen this boundary when an obtainable treatment supplies the same wider entry, choices and return at lower total burden, or when an actual use exposes a missing selection operation. Do not retain a second comparison merely because it belongs to a framework.
 
 Reopen a relied-on empirical or capability premise when the proposed performer, tools, demand or receiving work changes. A recent source date alone does not establish superiority. The chosen actual-use comparison supplies the evidence for the local effect.
+
+#### C.39.WI:11.2 - Connect causal repair with restoration of dependent work
+
+C.28.CM supplies causal alternatives and discriminating consequences; B.5.RR revises reasoning whose grounds changed; A.3.1.MI:4.5 separates delivery, mechanism and context when selecting an adaptation. Use their sufficient results directly. Section 4.4.1 connects those results for a failure that survives correction: explain production, checking and the earlier repair, change the operative condition and restore the results dependent on the rejected basis.
+
+The [RCA² guidance, Appendix 6, p.39](https://www.ihi.org/sites/default/files/RCA2_ImprovingRootCauseAnalysesandActionstoPreventHarm.pdf), requires a causal explanation beyond naming an error or procedural violation. The [NHS Safety Action Development Guide, pp.13–19](https://www.england.nhs.uk/wp-content/uploads/2022/08/B1465-Safety-action-development-v1.1.pdf), develops action selection and testing, separates introduction, actual use and effects, and includes unintended consequences and observation cost. These are established professional contributions. Their clinical investigation and reporting arrangements remain specific to that practice.
+
+This branch connects a supported cause repair with revision and delivery of results that relied on the defective basis. A sufficient specialist repair can finish directly. The wider connection is useful when changing a source leaves its working forms or earlier products unchanged. Its general explanation and constructed case support examination of that choice; effects in a particular practice require that practice's evidence.
 

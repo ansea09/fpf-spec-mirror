@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__005_solution.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:4 — Solution"
-line_start: 93436
-line_end: 93588
+line_start: 93575
+line_end: 93727
 dependencies:
   - "A.15.1"
   - "A.22"

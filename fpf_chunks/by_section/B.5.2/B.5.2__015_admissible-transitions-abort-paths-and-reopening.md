@@ -6,12 +6,12 @@ section_id: "B.5.2:14"
 section_title: "Admissible Transitions, Abort Paths, and Reopening"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__015_admissible-transitions-abort-paths-and-reopening.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:14 — Admissible Transitions, Abort Paths, and Reopening"
-line_start: 49515
-line_end: 49550
+line_start: 49518
+line_end: 49553
 dependencies:
   - "A.10"
   - "A.16"
@@ -54,7 +54,7 @@ A conforming reopening note should identify:
 - which prior prime hypothesis is being reopened,
 - whether a stored rival is being reinstated or a new candidate is entering,
 - what change in evidence, scope, or internal contradiction triggered the reopening,
-- and whether the original prompt itself has changed or only the candidate ranking has changed.
+- and whether the explanatory question, its prompt account, or only the candidate ranking has changed. Apply `B.5.2.0:4.2.1–4.2.2`: a revised account may still concern the same question; a changed question needs its own entry grounds.
 
 
 #### B.5.2:14.4 - Scope discipline during iteration

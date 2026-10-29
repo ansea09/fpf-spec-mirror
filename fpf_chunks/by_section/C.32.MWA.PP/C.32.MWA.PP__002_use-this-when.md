@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__002_use-this-when.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:0 — Use This When"
-line_start: 78140
-line_end: 78171
+line_start: 78192
+line_end: 78223
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"

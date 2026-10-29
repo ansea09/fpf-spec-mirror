@@ -6,12 +6,12 @@ section_id: "C.39.WI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__006_archetypal-grounding.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:5 — Archetypal Grounding"
-line_start: 83184
-line_end: 83229
+line_start: 83272
+line_end: 83337
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"
@@ -66,4 +66,24 @@ The actual decision trace instead shows that each returned source was treated as
 The next ordinary task is the relevant observation. It should complete its assigned substantive scope, use adequate existing evidence and stop optional inquiry whose possible answers do not change the decision. Merely obtaining the phrase “I applied DUA” proves none of those actions. A shorter turn that omits required content is not an improvement.
 
 This is a proposed mechanism and observation design. Actual traces and receiving results are needed before claiming reduced recurrence or a measured saving. If the failure instead arises because the agent cannot recover its instruction after a context change, retention and re-entry are different necessary remedies.
+
+#### C.39.WI:5.4 - Choose the repair from what kept producing the failure
+
+In this constructed case, a software provider maintains five customer guides. Its writing method requires a caution when a credible mistaken use would change the customer's action or result. Two guides describe imports that overwrite stored settings; customers need that condition before importing. Three guides concern navigation and display layout, and the available use evidence supplies no comparable caution for those instructions.
+
+The review template nevertheless requires a caution in every guide. Revision records show that authors added generic cautions to the three navigation guides to obtain approval. Review accepted them by checking presence, without establishing the cautions' contribution. An editor later removed those cautions, improved the examples and explained the writing rule at a team meeting. The next review again rejects the three guides for lacking cautions. The provider still needs usable customer instructions and a warranted release judgement.
+
+The maintainer recovers the rejected passages, authors' recorded revisions, review decisions and the template actually used. The reviewer identifies the template item that governed the rejection. The earlier editor's changes and meeting account show what the correction supplied. The template remained unchanged at the required decision point. These observations connect production of the defect, its acceptance by review and the ineffective repair: improving the examples left the criterion that had induced and approved the extra text in place.
+
+The maintainer changes the criterion at its maintained source: inspect whether a credible mistaken use changes the reader's action or result, and require the corresponding caution when it does. The release form displaying that item is regenerated and compared with the source. Another meeting would add effort while preserving the known contradiction; deleting every caution would remove the two independently warranted overwrite instructions. The supported change repairs the criterion and its working form while retaining the useful subject judgements.
+
+Release history establishes that these five guides are the complete set produced under that template edition. The maintainer follows each review decision into the resulting customer text. The three unsupported rejection reasons are withdrawn; their guides keep the useful examples and omit the generic cautions. The two overwrite cautions and their supported acceptance decisions remain. The corrected five guides reach customer distribution. An additional guide used another criterion and remains outside this repair on that checked basis.
+
+At the next release in the constructed case, the reviewer applies the corrected criterion to a navigation instruction and to an import that overwrites settings. The first needs no caution; the second retains its overwrite instruction. This establishes a corrected source, restored affected guides and use of the new criterion in that release. Whether later releases require less rework remains a further question for ordinary release observations.
+
+**Change the source-use relation.** Suppose the maintained template already agrees with the rule, but a pinned link opens an obsolete copy. The same visible demand for generic cautions calls for repairing that access route and following the actual uses of the obsolete copy. Rewriting the correct source criterion would leave the failed relation unchanged. The affected set now follows use of that copy, so the earlier five-guide boundary must be reconsidered.
+
+**Change the performer's preparation.** A new editor reaches the current criterion, but the editor's comparison of two instructions treats every imaginable misunderstanding as credible misuse. A qualified helper uses that comparison to locate the missing distinction. If learning is the promised result, the HCD route supplies practice, feedback and assessment of the editor's own operation. If the immediate undertaking only needs a corrected guide, expert provision may suffice. The receiving promise selects between those contributions.
+
+For an AI-assisted review, inspect the instructions and evaluation material actually supplied. A corrected context can support an adequate review under that configuration. Performance after that context is replaced requires its own basis; the observed review establishes no parameter update. Across these changes, the reusable move is to return from the visible failure to the relation sustaining it, choose the repair that changes that relation, and restore the work that actually relied on it.
 

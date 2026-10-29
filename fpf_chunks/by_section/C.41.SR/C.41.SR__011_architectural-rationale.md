@@ -6,12 +6,12 @@ section_id: "C.41.SR:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__011_architectural-rationale.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:10 — Architectural Rationale"
-line_start: 88982
-line_end: 88987
+line_start: 89101
+line_end: 89106
 dependencies:
   - "A.10"
   - "B.1.5"

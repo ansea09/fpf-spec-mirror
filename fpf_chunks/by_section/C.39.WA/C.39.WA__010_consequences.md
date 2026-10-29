@@ -6,12 +6,12 @@ section_id: "C.39.WA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__010_consequences.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:9 — Consequences"
-line_start: 82636
-line_end: 82641
+line_start: 82688
+line_end: 82693
 dependencies:
   - "C.20"
   - "C.39.QR"

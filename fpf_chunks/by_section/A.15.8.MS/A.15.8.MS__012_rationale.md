@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__012_rationale.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:10 — Rationale"
-line_start: 32107
-line_end: 32116
+line_start: 32109
+line_end: 32118
 dependencies:
   - "A.15.8"
   - "A.19"

@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology and Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__010_morphology-and-lexical-form-lex-morph.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:8 — Morphology and Lexical Form (LEX.Morph)"
-line_start: 99222
-line_end: 99464
+line_start: 99361
+line_end: 99603
 dependencies:
   - "A.10"
   - "A.15"
@@ -126,7 +126,7 @@ IDs and instances: **flat with delimiters** chosen by the exact local naming sch
 
 **L-EPI-PUB — episteme, publication, view, carrier, direct-relation, representation, and authority-reference discipline**
 * Use `U.Episteme` for the claim-bearing unit. `U.EpistemePublication` is a rejected kind name: when the selected edition is available as a published episteme, name or make recoverable its exact `EpistemePublicationRelation` occurrence, publication form, bounded use, and carrier under `E.24.PUB`. The rejected spelling may remain only in an explicit rejection explanation or a negative test, never as a positive object, kind, reference, or field.
-* Name the publication form separately from the episteme: for example `PreArticulationCuePack`, `U.AbductivePrompt`, typed bounded projection, partial normal form, endpoint-specific publication form, or another declared form. A publication form is not itself the governing FPF source.
+* Name the publication form separately from the episteme: for example `PreArticulationCuePack`, a form selected to express a `U.AbductivePrompt` account, typed bounded projection, partial normal form, endpoint-specific publication form, or another declared form. A publication form is not itself the governing FPF source.
 * Name `U.View` and MVPK face separately from the publication form. A `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane` is an episteme-level view or publication face, not the source claim, not the publication form itself, and not the SCR or RSCR carrier.
 * Name the carrier or rendering relation separately. Documents, dashboards, generated screens, trace files, cards, and transport formats hold or render a publication; they are not the `U.Episteme`, not the claim or effect being relied on, and do not supply the rule for that claim.
 * Name source-finding cues separately from source epistemes. A cue, badge, credential view, dashboard tile, heading, signature-looking mark, or generated explanation may help find a source; it does not by itself create an `authoritySourceRef` target, evidence relation, gate decision, assurance claim, exact `U.SystemRoleAssignment` occurrence, status assertion, Work occurrence, deontic permission, or Work authorization.

@@ -6,12 +6,12 @@ section_id: "A.2.7:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__008_conformance-checklist.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:6 — Conformance Checklist"
-line_start: 7935
-line_end: 7957
+line_start: 7937
+line_end: 7959
 dependencies:
   - "A.2"
   - "A.2.1"

@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__009_conformance-checklist.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:7 — Conformance Checklist"
-line_start: 32068
-line_end: 32085
+line_start: 32070
+line_end: 32087
 dependencies:
   - "A.15.8"
   - "A.19"

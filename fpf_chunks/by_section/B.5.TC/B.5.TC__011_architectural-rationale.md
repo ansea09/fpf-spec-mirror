@@ -6,12 +6,12 @@ section_id: "B.5.TC:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__011_architectural-rationale.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Working Question"
   - "B.5.TC:10 — Architectural Rationale"
-line_start: 48808
-line_end: 48815
+line_start: 48811
+line_end: 48818
 dependencies:
   - "B.5.RA"
   - "B.5.RR"

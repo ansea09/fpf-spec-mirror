@@ -6,12 +6,12 @@ section_id: "A.6.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__013_relations.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:12 — Relations"
-line_start: 16979
-line_end: 17007
+line_start: 16981
+line_end: 17009
 dependencies:
   - "A.1"
   - "A.1.1"

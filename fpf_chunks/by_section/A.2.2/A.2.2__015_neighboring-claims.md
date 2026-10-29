@@ -6,12 +6,12 @@ section_id: "A.2.2:14"
 section_title: "Neighboring Claims"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__015_neighboring-claims.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:14 — Neighboring Claims"
-line_start: 5459
-line_end: 5462
+line_start: 5461
+line_end: 5464
 dependencies:
   - "A.1"
   - "A.15"

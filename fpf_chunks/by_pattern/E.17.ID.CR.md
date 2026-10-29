@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.ID.CR.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
-line_start: 107743
-line_end: 108439
+line_start: 107882
+line_end: 108578
 dependencies:
   - "A.15"
   - "A.15.2"
@@ -154,7 +154,7 @@ This pattern uses a small local vocabulary for review.
 - **Bridge references** = required `bridgeOccurrenceRef` and `boundedUseClaimRef` when the case depends on bridge-mediated correspondence rather than ordinary source interpretation alone. The use-claim reference resolves a claim whose `EntityOfConcern` is that Bridge occurrence and whose proposed use, direction, correspondence rule, tolerated loss, and polarity match this comparative unit. Optional `bridgeCardRef` cites reusable packaging, and optional `bridgeStanceRef` cites a separate F.9.1 episteme whose `EntityOfConcern` is that exact use claim.
 - **Bounded comparative use** = what this review unit can be used for while it remains only a bounded comparative review unit.
 - **Overread risk** = how the review unit is most likely to be overread into a bridge, action-selection, ontology, or authority claim that it does not carry.
-- **Prompt boundary** = the point at which an explanatory question with rival explanations still open becomes primary under `B.5.2.0` or `B.5.2`; `U.AbductivePrompt` names its initiating publication form.
+- **Prompt boundary** = the point at which an explanatory question with rival explanations still open becomes primary under `B.5.2.0` or `B.5.2`; `U.AbductivePrompt` classifies the published account of that initiating question under `B.5.2.0:4.2.1–4.2.2`.
 - **Ordinary minimum block** = the smallest ordinary record that keeps the review unit honest for working use.
 - **Load-bearing extension** = the fuller declaration record used when the case sits close to bridge, explanation, abductive, ontology, or authority boundaries.
 

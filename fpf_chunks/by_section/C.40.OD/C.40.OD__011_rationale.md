@@ -6,12 +6,12 @@ section_id: "C.40.OD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__011_rationale.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:10 — Rationale"
-line_start: 87741
-line_end: 87746
+line_start: 87860
+line_end: 87865
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"

@@ -6,12 +6,12 @@ section_id: "A.19.UNM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__014_relations.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:12 — Relations"
-line_start: 37699
-line_end: 37717
+line_start: 37702
+line_end: 37720
 dependencies:
 keywords:
   - "CV→NCV"

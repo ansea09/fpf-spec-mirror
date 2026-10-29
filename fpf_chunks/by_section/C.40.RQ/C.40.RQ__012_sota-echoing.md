@@ -6,12 +6,12 @@ section_id: "C.40.RQ:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__012_sota-echoing.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:11 — SoTA-Echoing"
-line_start: 87451
-line_end: 87462
+line_start: 87570
+line_end: 87581
 dependencies:
   - "A.10"
   - "A.10.1"

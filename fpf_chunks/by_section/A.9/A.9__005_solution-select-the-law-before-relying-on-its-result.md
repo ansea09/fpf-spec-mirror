@@ -6,12 +6,12 @@ section_id: "A.9:4"
 section_title: "Solution — Select the Law Before Relying on Its Result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__005_solution-select-the-law-before-relying-on-its-result.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:4 — Solution — Select the Law Before Relying on Its Result"
-line_start: 26465
-line_end: 26490
+line_start: 26467
+line_end: 26492
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"

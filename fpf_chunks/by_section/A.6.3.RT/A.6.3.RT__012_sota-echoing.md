@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__012_sota-echoing.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:11 — SoTA-Echoing"
-line_start: 18809
-line_end: 18836
+line_start: 18811
+line_end: 18838
 dependencies:
   - "A.1.1"
   - "A.10"

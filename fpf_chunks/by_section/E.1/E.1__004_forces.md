@@ -6,12 +6,12 @@ section_id: "E.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__004_forces.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:3 — Forces"
-line_start: 91602
-line_end: 91619
+line_start: 91741
+line_end: 91758
 dependencies:
   - "E.2"
 keywords:

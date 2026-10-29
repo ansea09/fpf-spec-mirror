@@ -6,12 +6,12 @@ section_id: "E.8:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 96789
-line_end: 96811
+line_start: 96928
+line_end: 96950
 dependencies:
   - "E.10"
   - "E.10.MOVE"

@@ -6,12 +6,12 @@ section_id: "C.32.LCA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__013_relations.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:12 — Relations"
-line_start: 76175
-line_end: 76185
+line_start: 76227
+line_end: 76237
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"

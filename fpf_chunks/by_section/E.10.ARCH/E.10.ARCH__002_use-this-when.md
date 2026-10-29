@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__002_use-this-when.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:0 — Use This When"
-line_start: 100761
-line_end: 100778
+line_start: 100900
+line_end: 100917
 dependencies:
   - "A.10"
   - "A.15.1"

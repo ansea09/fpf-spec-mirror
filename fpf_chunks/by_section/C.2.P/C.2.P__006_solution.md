@@ -6,12 +6,12 @@ section_id: "C.2.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__006_solution.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:4 — Solution"
-line_start: 51390
-line_end: 51633
+line_start: 51442
+line_end: 51685
 dependencies:
   - "A.10"
   - "A.15"

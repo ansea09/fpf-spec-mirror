@@ -6,12 +6,12 @@ section_id: "C.11.DUA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DUA/C.11.DUA__008_conformance-checklist.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.11.DUA — Make Advice and Evidence Demands Worth Their Burden"
   - "C.11.DUA:7 — Conformance Checklist"
-line_start: 57259
-line_end: 57273
+line_start: 57311
+line_end: 57325
 dependencies:
   - "A.10"
   - "C.11"

@@ -6,12 +6,12 @@ section_id: "C.39.RO:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__012_sota-echoing.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:11 — SoTA-Echoing"
-line_start: 82862
-line_end: 82873
+line_start: 82914
+line_end: 82925
 dependencies:
   - "A.3.1"
   - "A.3.2"

@@ -6,12 +6,12 @@ section_id: "B.5.QD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD/B.5.QD__010_consequences.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "B.5.QD — Develop a New Question from a Result or Construction"
   - "B.5.QD:9 — Consequences"
-line_start: 49015
-line_end: 49020
+line_start: 49018
+line_end: 49023
 dependencies:
   - "B.5.MPC"
   - "B.5.RA"

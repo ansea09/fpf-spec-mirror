@@ -6,12 +6,12 @@ section_id: "C.33:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__001_intro.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:intro — Intro"
-line_start: 79897
-line_end: 79902
+line_start: 79949
+line_end: 79954
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

@@ -6,12 +6,12 @@ section_id: "E.18.NET:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__003_problem.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:2 — Problem"
-line_start: 111331
-line_end: 111344
+line_start: 111470
+line_end: 111483
 dependencies:
   - "A.1.STM"
   - "A.12"

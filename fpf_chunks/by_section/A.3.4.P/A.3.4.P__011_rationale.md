@@ -6,12 +6,12 @@ section_id: "A.3.4.P:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__011_rationale.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:10 — Rationale"
-line_start: 13437
-line_end: 13442
+line_start: 13439
+line_end: 13444
 dependencies:
   - "A.10"
   - "A.15.1"

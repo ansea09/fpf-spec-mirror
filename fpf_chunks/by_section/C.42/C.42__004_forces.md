@@ -6,12 +6,12 @@ section_id: "C.42:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__004_forces.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.42 — Reduce Avoidable Work While Preserving the Needed Result"
   - "C.42:3 — Forces"
-line_start: 89188
-line_end: 89199
+line_start: 89307
+line_end: 89318
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

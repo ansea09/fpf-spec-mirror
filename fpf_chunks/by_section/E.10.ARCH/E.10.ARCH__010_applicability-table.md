@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:4"
 section_title: "Applicability table"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__010_applicability-table.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:4 — Applicability table"
-line_start: 100932
-line_end: 100960
+line_start: 101071
+line_end: 101099
 dependencies:
   - "A.10"
   - "A.15.1"

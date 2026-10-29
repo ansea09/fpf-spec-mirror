@@ -6,12 +6,12 @@ section_id: "A.15.10:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.10/A.15.10__010_consequences.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.15.10 — Resume Interrupted Work"
   - "A.15.10:9 — Consequences"
-line_start: 32472
-line_end: 32477
+line_start: 32474
+line_end: 32479
 dependencies:
   - "A.15"
   - "A.15.5"

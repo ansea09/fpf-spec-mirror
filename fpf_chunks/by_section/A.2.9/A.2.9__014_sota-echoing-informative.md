@@ -6,12 +6,12 @@ section_id: "A.2.9:11"
 section_title: "SoTA-Echoing (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__014_sota-echoing-informative.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:11 — SoTA-Echoing (informative)"
-line_start: 9037
-line_end: 9045
+line_start: 9039
+line_end: 9047
 dependencies:
   - "A.10"
   - "A.13"

@@ -6,12 +6,12 @@ section_id: "B.5.TU:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__005_solution.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
   - "B.5.TU:4 — Solution"
-line_start: 48476
-line_end: 48529
+line_start: 48479
+line_end: 48532
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"

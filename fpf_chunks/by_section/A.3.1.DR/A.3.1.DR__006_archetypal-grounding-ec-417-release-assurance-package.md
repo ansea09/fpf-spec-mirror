@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:5"
 section_title: "Archetypal Grounding — EC-417 Release Assurance Package"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__006_archetypal-grounding-ec-417-release-assurance-package.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:5 — Archetypal Grounding — EC-417 Release Assurance Package"
-line_start: 10030
-line_end: 10069
+line_start: 10032
+line_end: 10071
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"

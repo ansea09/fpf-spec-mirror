@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.WA.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
-line_start: 82414
-line_end: 82674
+line_start: 82466
+line_end: 82726
 dependencies:
   - "C.20"
   - "C.39.QR"

@@ -6,12 +6,12 @@ section_id: "A.15.4:End"
 section_title: "A.15.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__015_a-15-4-end.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:End — A.15.4:End"
-line_start: 30744
-line_end: 30745
+line_start: 30746
+line_end: 30747
 dependencies:
   - "A.10"
   - "A.13"

@@ -6,12 +6,12 @@ section_id: "F.1:End"
 section_title: "F.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__014_f-1-end.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:End — F.1:End"
-line_start: 118020
-line_end: 118021
+line_start: 118160
+line_end: 118161
 dependencies:
   - "A.10"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "E.10.D2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__005_solution.md"
-commit_sha: "3f6e02840fe3a22427aed590f9688a9c8f6bf5c8"
+commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:4 — Solution"
-line_start: 101599
-line_end: 101653
+line_start: 101738
+line_end: 101792
 dependencies:
   - "A.7"
   - "C.2.1"
