@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.2a"
-pattern_title: "U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
+pattern_title: "Language-State Chart over U.CharacteristicSpace"
 section_id: "C.2.2a:0"
 section_title: "First useful chart"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__002_first-useful-chart.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
+  - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:0 — First useful chart"
-line_start: 52217
-line_end: 52232
+line_start: 52439
+line_end: 52454
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -31,7 +31,6 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
-  - "anchoring"
   - "articulation"
   - "characteristic space"
   - "closure"
@@ -42,6 +41,7 @@ keywords:
   - "partial coordinates"
   - "position claim"
   - "representation"
+  - "source and use conditions"
 ---
 
 ### C.2.2a:0 - First useful chart
@@ -50,11 +50,11 @@ Start with the smallest row that can change the next action:
 
 - the exact episteme publication being positioned;
 - only the currently relevant facet values or supported sets of possible values; use intervals where the Scale admits them and mark a decision-relevant unknown as `unknown`;
-- the grounds for those readings;
+- the grounds for those readings, with any source, evidence, access or action conditions on which the next use depends;
 - any local threshold used by the named next action and whether the readings meet it, fail it, or leave the result undecided;
 - publication form, face, or carrier only when that distinction changes interpretation, preservation, or the next action.
 
-**Filled example.** `Pump-alert-17` is the alerting episteme publication being positioned. Its affected asset and discrepant reading are visible, but the claim structure is not yet complete; rival diagnostic routes remain open; the alert is anchored in the operator loop; and its representation mixes text with telemetry. Formality is omitted because the present routing decision does not depend on it. The grounds are trace `T-17` and operator note `N-4`. The local rule permits routing to the diagnostic-question seam once the affected asset and discrepant reading are explicit. Form, face, and carrier are omitted because none changes that decision.
+**Filled example.** `Pump-alert-17` is the alerting episteme publication being positioned. Its affected asset and discrepant reading are visible, but the claim structure is not yet complete; rival diagnostic routes remain open; the alert enters the operator's acknowledgement-and-check procedure; and its representation mixes text with telemetry. Formality is omitted because the present routing decision does not depend on it. The grounds are trace `T-17` and operator note `N-4`. The local rule permits routing to the diagnostic-question seam once the affected asset and discrepant reading are explicit. Form, face, and carrier are omitted because none changes that decision.
 
 **Non-use.** If an existing chart already supplies the applicable values and threshold for the same next action, cite it instead of publishing another row. If `early` or `ready` is only ordinary prose and no routing, comparison, publication, or threshold decision depends on it, leave it as ordinary prose rather than creating a governed position.
 

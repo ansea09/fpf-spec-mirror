@@ -6,12 +6,12 @@ section_id: "F.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__001_intro.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "F.10 — Apply and Interpret Evidence, Standard and Requirement Statuses"
   - "F.10:intro — Intro"
-line_start: 121099
-line_end: 121104
+line_start: 121417
+line_end: 121422
 dependencies:
   - "A.10"
   - "A.15.1"

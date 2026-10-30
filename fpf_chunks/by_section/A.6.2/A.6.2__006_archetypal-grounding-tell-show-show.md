@@ -6,12 +6,12 @@ section_id: "A.6.2:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 17259
-line_end: 17340
+line_start: 17340
+line_end: 17423
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -41,8 +41,10 @@ The examples below show how EFEM is intended to be used across the EntityOfConce
 
 *Shape.*
 
-* Domain: exact episteme `X : U.MethodDescription` with `entityOfConcernRef(X) : U.MethodRef`, `content(X) : U.ClaimGraph_D`, and `ReferenceScheme_D`; when the named engineering validation use selects viewpoint P, identify that selection separately.
-* Codomain: exact episteme `Y : U.MethodSpec` concerning the same Method, with more structured `content(Y) : U.ClaimGraph_S` and a more explicit ReferenceScheme. If the same named validation use continues, it preserves its selected viewpoint P separately.
+* Domain: exact episteme `X : U.MethodDescription` with `entityOfConcernRef(X) : U.MethodRef`, its complete content `content_D = content(X)`, and effective rules `scheme_D = referenceScheme(X)`; when the named engineering validation use selects viewpoint P, identify that selection separately.
+* Codomain: exact episteme `Y : U.MethodSpec` concerning the same Method, with `content_S = content(Y)` and `scheme_S = referenceScheme(Y)`. Recover whether the effective rules stay the same or change; writing an existing rule more explicitly does not itself change it. If the same named validation use continues, it preserves its selected viewpoint P separately.
+
+The suffixes D and S distinguish these endpoint values. They declare no constituent kinds. Judge endpoint admissibility under the relevant description and specification-use criteria, compare complete identity under C.2.1, and test P2 separately. A checkable new requirement can satisfy the receiving specification-use conditions while changing the episteme and failing conservativity.
 
 `Specify_DescEp_SpecDesc` is a species of EFEM only when all of these hold:
 
@@ -92,13 +94,13 @@ The details belong to A.6.4 and E.18; EFEM provides the generic discipline.
 
 To make the C.2.1 value and EFEM law discipline concrete, consider an engineering episteme of a dependent system-description kind whose exact EntityOfConcern is one `U.System`:
 
-| Value named by the EFEM species | Kind or reference form | Use |
+| Value named by the EFEM species | How it is identified | Use |
 | --- | --- | --- |
 | exact EntityOfConcern | `U.Entity` constrained to `U.System`; designated by `U.EntityRef` | identifies the system that the claims concern |
-| claim content | `U.ClaimGraph` | carries the description or specification claims |
-| effective ReferenceScheme | `U.ReferenceScheme` | makes the claims and their designations interpretable |
+| claim content | the complete semantic content recovered under C.2.1:4.1.1 | carries the description or specification claims |
+| effective ReferenceScheme | the operative designation and interpretation rules recovered under C.2.1:4.1.1 | makes the claims and their designations interpretable |
 
-This table names the three values that identify an episteme; it is not a `RelationSignature` or SlotSpec table. `EntityOfConcernSlot`, `ClaimGraphSlot`, and `ReferenceSchemeSlot` are declaration-local SlotKinds only when the reusable C.2.1 `EpistemeConstitutionRelationSignature` is being inspected. An EFEM species states how the endpoint values compare. If its rule uses a selected viewpoint, empirical-grounding relation, or representation relation, it names the exact occurrence or use qualification separately and reads or compares the endpoint facts without changing the occurrence.
+This table names the three values that identify an episteme; it is not a `RelationSignature` or SlotSpec table. C.2.1:4.2.1 supplies `EntityOfConcernSlot` when a receiving use needs a designation of kind `U.EntityRef` that resolves to a `U.Entity`. A claim-content or scheme comparison uses the exact values above; additional typed substitution needs its own independently governed range and SlotSpec. An EFEM species states how the endpoint values compare. If its rule uses a selected viewpoint, empirical-grounding relation, or representation relation, it names the exact occurrence or use qualification separately and reads or compares the endpoint facts without changing the occurrence.
 
 Two typical EFEM species over this kind are:
 * `Specify_DescEp_SpecDesc_Sys : SystemDescription → SystemSpec` — an `EntityOfConcernChangeMode = preserve` species that:

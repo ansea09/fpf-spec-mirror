@@ -6,12 +6,12 @@ section_id: "A.6:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 14088
-line_end: 14101
+line_start: 14121
+line_end: 14134
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,7 +59,7 @@ keywords:
 
 | Anti‑pattern                   | Symptom                                                         | Why it fails                                                                     | How to avoid / repair                                                                        |
 | ------------------------------ | --------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| **Gate‑as‑law**                | Preconditions written as “laws” in the signature                | Breaks substitution; violates A.6.0’s separation of signature vs mechanism gates | Move predicates to Mechanism.AdmissibilityConditions; keep signature laws truth‑conditional. |
+| **Gate‑as‑law** | Preconditions written as “laws” in the signature | Violates A.6.0’s separation of signature and mechanism gates | Move predicates to Mechanism.AdmissibilityConditions; keep signature laws truth‑conditional. Assess behavioral compatibility by the conditions and outcomes in §4.7. |
 | **RFC‑keywords in invariants** | “MUST” appears inside `Definition:` blocks                      | Confuses deontics with mathematical admissibility; undermines auditability       | Rewrite as declarative predicate; reference predicates by ID or canonical location from CC when needed.               |
 | **Paraphrase drift** | Same constraint restated across faces with changed meaning | Creates hidden divergence; breaks L/A/D/E claim-classification discipline and evidence accountability | Cite claim IDs or canonical locations and preserve their meaning in readable face prose. Use a Claim Register when stable reuse needs it. |
 | **Interface-as-promiser and Work-result bundle** | “The interface promises delivery” assigns an individual commitment to the interface description, or “A.15.1 delivered the result” identifies Work with its result | A description is made an agent, while Work, result, transfer, evidence, and acceptance lose their own identity conditions | Name the actual bearer of the individual commitment; use A.6.C when ambiguity about promise, utterance, or governance changes interpretation or use. Use A.15.1 for dated Work; then exactly one applicable `A.15.1:4.6` row for each separate result, delivery, evidence, or acceptance claim. |

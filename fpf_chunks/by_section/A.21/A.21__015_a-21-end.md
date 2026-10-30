@@ -6,12 +6,12 @@ section_id: "A.21:End"
 section_title: "A.21:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__015_a-21-end.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:End — A.21:End"
-line_start: 39974
-line_end: 39975
+line_start: 40061
+line_end: 40062
 dependencies:
   - "A.10"
   - "A.15.5"

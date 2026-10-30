@@ -6,12 +6,12 @@ section_id: "A.10.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__006_archetypal-grounding.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:5 — Archetypal Grounding"
-line_start: 27155
-line_end: 27199
+line_start: 27238
+line_end: 27282
 dependencies:
   - "A.10"
   - "A.10.1"

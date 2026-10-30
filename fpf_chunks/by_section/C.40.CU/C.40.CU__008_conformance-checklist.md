@@ -6,12 +6,12 @@ section_id: "C.40.CU:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__008_conformance-checklist.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:7 — Conformance Checklist"
-line_start: 85354
-line_end: 85365
+line_start: 85654
+line_end: 85665
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"

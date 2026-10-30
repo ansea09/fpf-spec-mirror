@@ -6,12 +6,12 @@ section_id: "E.17:5"
 section_title: "Solution — the MVPK Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__006_solution-the-mvpk-kit.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:5 — Solution — the MVPK Kit"
-line_start: 106816
-line_end: 107146
+line_start: 107123
+line_end: 107453
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -285,7 +285,7 @@ This preservation rule also applies across extraction, translation, screenshotti
 
 Part E restricts exact `publication-face kind` values to the literals **publication face/form** and **interop publication form**. `PlainView`, `TechCard`, `InteropCard`, and `AssuranceLane` are face designators, not additional U-kinds or automatic `U.View` memberships.
 
-**USM linkage (normative when exact scope identity is current).** An ordinary face first states its bounded use. When that bound must be cited, exchanged, compared, or relied on independently, identify `U.PublicationScope` under A.2.6. For a face selecting episteme `E`, `PublicationScope(face_E) ⊆ ClaimScope(E)`. For a face selecting a capability-description episteme about `C`, `PublicationScope(face_C) ⊆ WorkScope(C)`. Neither inclusion grants permission to perform work or proves that work occurred. A cross-context semantic claim separately retains its F.17 endpoint senses, F.9 Bridge, bounded-use claim, and any current A.10 or B.3 reliance result. An optional F.9 `CL` summarizes evidence strength; it is not a relation or use condition.
+**USM linkage (normative when exact scope identity is current).** An ordinary face first states its bounded use. When that bound must be cited, exchanged, compared, or relied on independently, identify `U.PublicationScope` under A.2.6. For a face selecting episteme `E`, `PublicationScope(face_E) ⊆ ClaimScope(E)`. For a capability-description episteme `E`, the EntityOfConcern is holder System `H` (A.2.2). If the face presents a qualified holder-ability claim `C` about `H` from `E` for work admission, `PublicationScope(face_E) ⊆ WorkScope(C)`, where `WorkScope(C)` is the work-condition basis designated by `C`. Any relied-on `ClaimScope` remains a separate constraint. When both bounds apply, `PublicationScope(face_E) ⊆ ClaimScope(E) ∩ WorkScope(C)`. Neither inclusion grants permission to perform work or proves that work occurred. A cross-context semantic claim separately retains its F.17 endpoint senses, F.9 Bridge, bounded-use claim, and any current A.10 or B.3 reliance result. An optional F.9 `CL` summarizes evidence strength; it is not a relation or use condition.
 
 **Publication-face naming discipline.**
 

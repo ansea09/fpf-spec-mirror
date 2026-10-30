@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.5"
-pattern_title: "U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
+pattern_title: "Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
 section_id: "C.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__005_solution.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
+  - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:4 — Solution"
-line_start: 53262
-line_end: 53300
+line_start: 53527
+line_end: 53575
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -34,14 +34,24 @@ keywords:
 ---
 
 ### C.2.5:4 - Solution
-`U.LanguageStateClosureDegree` is an ordinal characteristic over how fixed the current candidate set, framing, and admissible next moves are in a published position claim in the declared language-state chart over `U.CharacteristicSpace`.
+Language-state closure degree (`CD`) characterizes how firmly a specified candidate space is fixed in the position expressed by an episteme for a named use. The candidates may be answers, frames or possible next moves. Identify which choice is being assessed and which alternatives remain live. The ordinal Scale in :4.2 describes the progression from open exploration to stronger fixation.
 
-#### C.2.5:4.0a - Kind and characteristic boundary
+#### C.2.5:4.0a - Characteristic, reading and assessment
 
-`U.LanguageStateClosureDegree` names the Characteristic assessed here. The `CD0`–`CD5` readings belong to its ordinal Scale. A language-state chart binds that Characteristic and Scale in a basis slot under A.19; the Characteristic, a value on its Scale and the chart slot remain distinct. Claims about local route commitments, gates, or authority states remain separate from the closure-degree claim. When one matters to the current use, test it against its applicable rule and current case facts.
+Closure degree is the Characteristic; `CD0`–`CD5` name values on its ordinal Scale. A reading attributes a supported value, or a set of remaining possible values, to an identified episteme edition within a stated assessment scope and receiving use. A language-state chart binds the Characteristic and Scale in a slot under A.19. The Characteristic, its Scale values, a reading and the chart slot remain distinct under A.18/A.19.
+
+A closure assessment states the actual fixity and its grounds. Claims about a binding route commitment, gate or authority relation follow their own rules and case facts. A note or C.2.LS profile can express the closure assessment; its reusable form and the filled assessment remain distinct.
+
+#### C.2.5:4.5 - Recover the choice before assigning a level
+
+Name the question or choice whose candidate space matters. Recover the live alternatives, any selected route or frame, and the reason that limits further choice. State the scope of that fixation and what would justify reopening it. The different sources of narrowing in :16.2 determine what must be reconsidered when conditions change.
+
+Use that ordinary account directly when it supplies the receiving decision's condition. Assign a `CD` reading when the work needs comparison on this Scale, a chart position or a test against a declared threshold. Match the actual narrowing and reopening conditions to :4.2; retain an unresolved reading when the available grounds do not establish them. A level does not replace the surviving alternatives or the reason for their treatment.
+
+The Scale's order describes greater fixity, not a universal improvement. Inquiry may need several alternatives kept live; a particular operational use may need one route fixed under a separately justified rule. C.2.4 assesses how explicit this content is. Writing out the alternatives and the decision rule can improve articulation without changing closure. New evidence or a changed use can instead reopen one choice while other commitments remain fixed. Preserve the supported observations and surviving choices, then revise only the conclusions affected by the change, using A.16.2 when a publication move is needed.
 
 #### C.2.5:4.1 - Characteristic specification
-- **Kind:** CHR characteristic.
+- **Assessed subject:** the identified episteme edition, with the candidate space, assessment scope and receiving use stated.
 - **Scale discipline:** ordinal.
 - **What rises:** the candidate space or selected route becomes more fixed for the named use. Any binding force comes from its separately established rule.
 - **What does not follow automatically:** truth, trust, formality, or quality.

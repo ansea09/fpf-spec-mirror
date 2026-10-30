@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.7"
-pattern_title: "U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
+pattern_title: "LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
 section_id: "C.2.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__004_forces.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
+  - "C.2.7 — LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:3 — Forces"
-line_start: 53625
-line_end: 53631
+line_start: 53910
+line_end: 53916
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,5 +39,5 @@ keywords:
 |---|---|
 | **Comparability vs reductionism** | Allow comparison while preserving the distinctions among factors. |
 | **Compact core vs extensibility** | Keep a minimal starter bundle while leaving room for domain-specific refinements. |
-| **Representation vs anchoring** | Describe how the current episteme is represented without hiding what it is anchored to. |
+| **Representation vs source and use** | Describe how information is represented while retaining the distinct claims about its source and use conditions. |
 

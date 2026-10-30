@@ -6,12 +6,12 @@ section_id: "A.16.1:13"
 section_title: "Worked Examples and Invalid Publications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__014_worked-examples-and-invalid-publications.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:13 — Worked Examples and Invalid Publications"
-line_start: 33899
-line_end: 33915
+line_start: 33982
+line_end: 33998
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -48,7 +48,7 @@ If an existing incident note already carries this content and the source return,
 
 
 #### A.16.1:13.2 - Inquiry cue pack
-An inquiry cue pack may preserve exemplars, contrasts, a felt or trace-anchored discrepancy cue nucleus, and candidate anchor fragments. This is admissible even before route publication is needed or an under-specified relation-bearing claim requires `A.6.P`.
+An inquiry cue pack may preserve exemplars, contrasts, a discrepancy cue nucleus from bodily observation or inspection of a trace, and candidate anchor fragments. This is admissible even before route publication is needed or an under-specified relation-bearing claim requires `A.6.P`.
 
 #### A.16.1:13.3 - Invalid publication to reject
 It is invalid to publish a cue pack and then cite it as if it were already an anomaly statement, a routed cue set, an explanatory bundle, or a control obligation. The cue pack is only the preservation form.

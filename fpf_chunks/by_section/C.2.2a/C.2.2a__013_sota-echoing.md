@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.2a"
-pattern_title: "U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
+pattern_title: "Language-State Chart over U.CharacteristicSpace"
 section_id: "C.2.2a:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__013_sota-echoing.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
+  - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:11 — SoTA-Echoing"
-line_start: 52373
-line_end: 52387
+line_start: 52594
+line_end: 52608
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -31,7 +31,6 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
-  - "anchoring"
   - "articulation"
   - "characteristic space"
   - "closure"
@@ -42,6 +41,7 @@ keywords:
   - "partial coordinates"
   - "position claim"
   - "representation"
+  - "source and use conditions"
 ---
 
 ### C.2.2a:11 - SoTA-Echoing
@@ -55,7 +55,7 @@ The external comparisons below concern publication distinctions and scoped profi
 
 **Architecture-description contribution.** Keep the position claim and the form and carrier through which it is published distinguishable when their identity changes interpretation or use.
 
-**Characteristic-space and profile discipline.** The multi-facet chart is grounded in FPF `A.19` and the current `C.2.3`–`C.2.7` facet patterns; it is not imported from an external modeling language. Current governance practice contributes the narrower discipline of publishing scoped profiles and thresholds.
+**Characteristic-space and profile discipline.** The multi-facet chart is grounded in FPF `A.19` and the Characteristics defined in `C.2.3`–`C.2.5` and `C.2.7`; it is not imported from an external modeling language. Current governance practice contributes the narrower discipline of publishing scoped profiles and thresholds.
 
 **Local stance.** The load-bearing architecture decision is FPF-native: governed language-state uses a multi-facet chart with explicit thresholds and the publication distinctions needed by the receiving use, not one maturity progression or one polished publication face. The external rows support the narrower view, publication, profile, and threshold disciplines stated above.
 

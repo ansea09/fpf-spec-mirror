@@ -6,12 +6,12 @@ section_id: "C.39.RO:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RO/C.39.RO__007_bias-annotation.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.39.RO — Turn a Construction into a Reusable Operation"
   - "C.39.RO:6 — Bias-Annotation"
-line_start: 82869
-line_end: 82874
+line_start: 83169
+line_end: 83174
 dependencies:
   - "A.3.1"
   - "A.3.2"

@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 102136
-line_end: 102524
+line_start: 102436
+line_end: 102827
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -332,13 +332,16 @@ ToC and lexical-query phrases remain finding aids, not alternate names, semantic
 
 When more than one selectable entry remains plausible, compare four things: recognizable-situation fit, difference among first results or exact public blockers, direct pattern, and stop or return condition. Keep the comparison in conversation for ordinary bounded use. Open the most promising direct pattern before constructing a project candidate.
 
+In the optional forms below, `claimGraph` carries the episteme's complete asserted content, including the reasons and qualifications that change what it says. The scheme designation resolves under C.2.1:4.2.6 to the rules actually governing that account. It can select another episteme's effective scheme or exact content defining those rules; a reference to a document alone does not choose between them. Preserve an unresolved interpretation rather than filling the field with a nearby name. These forms organize addressable writing when needed; ordinary conversation and partial notes remain sufficient under the entry conditions above.
+
 Materialize the rationale only when a named later use needs addressable comparison history; then it has one public-guidance subject and no fabricated project result:
+
 
 ```text
 PracticalUseEntryComparisonRationale@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing one PracticalUseGuidance@FPFReadme
-  claimGraph: U.ClaimGraph by value
-  effectiveReferenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  effectiveSchemeDesignation: C.2.1 SchemeDesignation
   editionId
   recognitionReasonDescriptionRef: U.Episteme
   firstResultDifferenceDescriptionRef: U.Episteme
@@ -352,8 +355,8 @@ Materialize comparison history only when a named receiving use relies on it:
 ```text
 PracticalUseEntryComparisonAccount@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the exact PracticalUseQuestion@Context being compared
-  claimGraph: U.ClaimGraph by value
-  effectiveReferenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  effectiveSchemeDesignation: C.2.1 SchemeDesignation
   editionId
   claimScopeRef?: U.EntityRef, referencing one U.ClaimScope
   modelUseStructureRef?: U.EntityRef, referencing one BoundedModelUseStructure
@@ -367,8 +370,8 @@ PracticalUseEntryComparisonAccount@Context <: U.Episteme:
 
 PracticalUseEntryComparison@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing one PracticalUseGuidance@FPFReadme
-  claimGraph: U.ClaimGraph by value
-  effectiveReferenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  effectiveSchemeDesignation: C.2.1 SchemeDesignation
   editionId
   comparisonAccountRef: PracticalUseEntryComparisonAccount@Context
   recognizableSituationFitRationaleRef: PracticalUseEntryComparisonRationale@Context

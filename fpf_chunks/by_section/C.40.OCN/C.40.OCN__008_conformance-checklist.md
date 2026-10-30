@@ -6,12 +6,12 @@ section_id: "C.40.OCN:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__008_conformance-checklist.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:7 — Conformance Checklist"
-line_start: 85681
-line_end: 85689
+line_start: 85981
+line_end: 85989
 dependencies:
   - "A.15.9"
   - "C.11"

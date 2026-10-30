@@ -6,12 +6,12 @@ section_id: "A.15.11:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__013_relations.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.15.11 — Make Applicable Methods Noticeable in Work"
   - "A.15.11:12 — Relations"
-line_start: 32727
-line_end: 32737
+line_start: 32810
+line_end: 32820
 dependencies:
   - "A.15"
   - "A.15.7"

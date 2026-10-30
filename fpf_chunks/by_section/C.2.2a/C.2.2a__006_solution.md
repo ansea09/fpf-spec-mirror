@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.2a"
-pattern_title: "U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
+pattern_title: "Language-State Chart over U.CharacteristicSpace"
 section_id: "C.2.2a:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__006_solution.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
+  - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:4 — Solution"
-line_start: 52258
-line_end: 52339
+line_start: 52480
+line_end: 52560
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -31,7 +31,6 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
-  - "anchoring"
   - "articulation"
   - "characteristic space"
   - "closure"
@@ -42,19 +41,20 @@ keywords:
   - "partial coordinates"
   - "position claim"
   - "representation"
+  - "source and use conditions"
 ---
 
 ### C.2.2a:4 - Solution
-`U.LanguageStateSpace` is the cluster-local name for the declared language-state chart over `U.CharacteristicSpace` as disciplined by `A.19`.
+A language-state chart is a declared `U.CharacteristicSpace` whose basis slots use selected language-state Characteristics and Scales under `A.19`. A profile containing several Characteristics expands into their separate slots; it is not one atomic Coordinate.
 
-It is not a second kernel state-space apparatus beside `A.19`. It is the particular declared `U.CharacteristicSpace` whose basis slots represent the selected language-state Characteristics. A profile containing several Characteristics expands into their separate slots; it is not one atomic Coordinate.
+#### C.2.2a:4.0a - Chart, position claims and publication
 
-#### C.2.2a:4.0a - Kind and chart boundary
+The space declaration identifies the chart and makes its basis, optional overlays and typing hooks recoverable under A.19. A position claim states facet readings about the selected published `U.Episteme` edition; the E.24.PUB publication occurrence remains separate. A score table or local route map can express the declaration and position claims. Its reusable form and carrier remain distinct from those contents.
 
-`U.LanguageStateSpace` is a dependent durable chart value under `U.CharacteristicSpace` and the episteme language-state boundary, not a new root state-space U-kind. Its identity is the declared characteristic-space chart for governed episteme publication positions. Here, the positioned episteme publication is the selected published `U.Episteme` edition being assessed; the E.24.PUB publication occurrence remains separate. Practitioners can publish or use the chart through score tables, publication forms, local route maps, and carriers, which remain distinct from the chart.
+Changing a slot's Characteristic, Scale or position requires a changed space declaration under A.19. Revising a reading changes the position claim and can use the same space. Changing a threshold changes the predicate under A.19:5.1.8. Changing only the form or carrier of these unchanged contents changes neither the space, reading nor predicate.
 
 #### C.2.2a:4.1 - Core use
-`U.LanguageStateSpace` gives FPF an explicit declared chart for answering five questions:
+Use the declared chart to answer five questions:
 
 - which basis slots define where the governed episteme stands;
 - what a position claim in that chart means;
@@ -65,7 +65,7 @@ It is not a second kernel state-space apparatus beside `A.19`. It is the particu
 #### C.2.2a:4.2 - Position reading under `A.19`
 A language-state position is a partial, slot-explicit coordinate claim in the declared language-state `U.CharacteristicSpace`.
 
-`ValueSet(Scale)` in A.19 is the full Scale domain. Publish each selected slot's reading as one value or as a supported set of remaining possible values within that domain. This set describes incomplete information about the slot's value. Use an interval only where the Scale admits it; state a decision-relevant `unknown` separately when the available information does not determine the needed reading. For anchoring, `{AM.TraceAnchored, AM.OperatorLoop}` can report two remaining possibilities; `AM.Mixed` instead requires identified component modes that both matter substantively (C.2.6:4.3).
+`ValueSet(Scale)` in A.19 is the full Scale domain. Publish each selected slot's reading as one value or as a supported set of remaining possible values within that domain. This set describes incomplete information about the slot's value. Use an interval only where the Scale admits it; state a decision-relevant `unknown` separately when the available information does not determine the needed reading. For closure, `{CD1, CD2}` can report two remaining possible values while the assessment is incomplete. Separate source and use claims follow C.2.6:4.3: two unresolved possible sources differ from an established contribution by both.
 
 `position` here abbreviates these slot-explicit `A.19` coordinate claims.
 
@@ -75,10 +75,9 @@ The language-state chart is coordinated by explicit facet subject patterns rathe
 - `C.2.3` for the selected expression properties in a formality assessment, or an explicitly justified local summary;
 - `C.2.4` for articulation explicitness;
 - `C.2.5` for language-state closure degree;
-- `C.2.6` for language-state anchoring mode;
 - `C.2.7` for the language-state representation-factor bundle.
 
-The selected basis slots together define the chart under A.19. Each actual Characteristic has its own Scale and slot. In particular, neither a formality profile nor a representation-factor bundle is silently treated as one Coordinate. `C.2.2a` does **not** govern the internal meanings or Scale semantics of those Characteristics.
+The selected basis slots together define the chart under A.19. Each actual Characteristic has its own Scale and slot. In particular, neither a formality profile nor a representation-factor bundle is silently treated as one Coordinate. `C.2.2a` does **not** govern the internal meanings or Scale semantics of those Characteristics. C.2.6 supplies the source, evidence, access and action-condition account needed beside the coordinates. That account contributes no slot by itself. A local summary contributes a slot only when its one aspect and Scale are defined under C.2.6:15.1 and A.18/A.19; changing that basis requires an explicit chart change.
 
 #### C.2.2a:4.4 - Position, grounds and publication
 Keep the positioned episteme publication separate from the grounds for its assessment and from its publication form and carrier:
@@ -88,13 +87,13 @@ Keep the positioned episteme publication separate from the grounds for its asses
 - **publication forms** - arrangements or notations used for publications such as cue packs, prompts, typed projections, partial normal forms and endpoint records; an MVPK face is a selected publication form, identified when that distinction matters;
 - **carriers** - physical or digital media, such as a paper sheet, file or console display, that bear the selected form.
 
-`U.LanguageStateSpace` governs only the coordinate reading of the position claim. Keep that claim distinct from its grounds, publication form and carrier.
+C.2.2a governs the coordinate reading of the position claim. Keep that claim distinct from its grounds, publication form and carrier. C.2.6 also distinguishes a reading's derivation from evidence for its target claim and from the conditions under which someone uses it.
 
 #### C.2.2a:4.5 - Position publication rule
 
 A published position states the exact episteme publication, the facet readings that matter to the present use, and the grounds for those readings. A decision-relevant unknown is stated as `unknown`; unrelated facets need not be filled merely to complete a form.
 
-Add the local threshold and named next action only when the row is used for movement, routing, comparison, or endpoint entry. Add publication form, MVPK face, carrier, or SCR/RSCR lane only when that distinction affects interpretation, preservation, distribution, or the next action.
+Add the local threshold and named next action only when the row is used for movement, routing, comparison, or endpoint entry. If that action also requires a source, evidence or interaction condition, state or cite its predicate beside the coordinate test; the condition does not become a Coordinate by being included in the same row. Add publication form, MVPK face, carrier, or SCR/RSCR lane only when that distinction affects interpretation, preservation, distribution, or the next action.
 
 The position is reviewable when the named or inherited episteme publication, relevant readings, grounds, and any relied-on threshold are recoverable, and when any form, face, or carrier actually mentioned remains distinct from the positioned episteme publication. A polished note or better carrier does not by itself prove a new chart position.
 
@@ -104,7 +103,7 @@ The formality assessment supplies the selected expression Characteristics, each 
 A conforming account shall not infer:
 
 - closure from formality alone;
-- anchoring from publication-face format alone;
+- source or use relations from publication-face format alone;
 - representation factors from articulation alone;
 - or routing admissibility from a lone `F` statement.
 

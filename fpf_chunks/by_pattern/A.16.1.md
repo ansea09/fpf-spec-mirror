@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.1.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
-line_start: 33766
-line_end: 33986
+line_start: 33849
+line_end: 34069
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -111,7 +111,7 @@ Use `primaryWitnessRef` or `primaryAnchor` when one witness or anchor carries th
 
 `laneCandidates` and `routeCandidateHints` are early directional hints only. They are **not** a selected route, route rationale, or route-selection status. Those belong to `RoutedCueSet` under `B.4.1`.
 
-The referenced facets keep their own definitions. `primaryAnchor`, `candidateAnchors`, contrasts, and exemplars commonly provide anchor material for `AE` under `C.2.4`; `languageStateClosureDegreeRef` docks to `C.2.5`; anchoring and representation-factor refs dock to `C.2.6` and `C.2.7`; `languageStateFacetProfileRef` may bundle them through `C.2.LS`.
+The referenced facets keep their own definitions. `primaryAnchor`, `candidateAnchors`, contrasts, and exemplars commonly provide anchor material for `AE` under `C.2.4`; `languageStateClosureDegreeRef` docks to `C.2.5`; source and use claims follow `C.2.6`, and representation-factor refs follow `C.2.7`; `languageStateFacetProfileRef` may bundle them through `C.2.LS`.
 
 In this cluster, a cue is a salient epistemic nucleus extracted from witnesses, traces, felt tensions, model outputs, work-possibility hints, reliance-possibility hints, contrasts, or other grounds and made preservable as a pack. A raw signal-like trace counts as a cue only when that salience and preservability have been made explicit; otherwise it remains a trace, not yet a cue. Any evidence use is separately qualified under A.10 for a named target claim.
 
@@ -133,7 +133,7 @@ A cue pack may admissibly feed:
 
 **Show (System).** A console alert with traces and tension indicators may be worth preserving as a cue pack before anyone can honestly publish route selection, gate logic, or work execution.
 
-**Show (Episteme).** A researcher's stabilized felt or trace-anchored discrepancy cue with exemplars and contrasts can be published as a cue pack before it becomes a routed cue set, an abductive prompt, or an anomaly statement.
+**Show (Episteme).** A researcher's stabilized discrepancy cue from bodily observation or inspection of a trace with exemplars and contrasts can be published as a cue pack before it becomes a routed cue set, an abductive prompt, or an anomaly statement.
 
 ### A.16.1:6 - Bias-Annotation
 This pattern biases authors toward preserving low-articulation meaningful cues instead of discarding them or disguising them as later publication forms with higher closure, a selected route, or a passed endpoint test. The counter-bias is deliberate as well: a cue pack must still name what is being preserved and why.
@@ -144,7 +144,7 @@ This pattern biases authors toward preserving low-articulation meaningful cues i
 - `CC-A.16.1-3` When one witness or anchor carries the preservation need, `primaryWitnessRef` or `primaryAnchor` **SHALL** be explicit. When several grounds are jointly essential, their joint contribution **SHALL** remain recoverable.
 - `CC-A.16.1-4` `laneCandidates` and `routeCandidateHints` **MAY** be published early, but `selectedRoute`, `routeRationale`, and route-selection status **SHALL NOT** be smuggled into the cue pack.
 - `CC-A.16.1-5` If route-candidate hints are not yet nameable, publication is still admissible only when `preservationRationale` and grounding make the preservation need explicit.
-- `CC-A.16.1-6` Language-state, anchoring, and representation-factor details **MAY** be referenced; use `C.2.LS` for the facet profile, `C.2.4` for articulation explicitness (`AE`), `C.2.6` for anchoring mode, `C.2.5` for closure degree, and `C.2.7` for representation factors.
+- `CC-A.16.1-6` Language-state readings, source and use claims, and representation-factor details **MAY** be referenced; use `C.2.LS` for the facet profile, `C.2.4` for articulation explicitness (`AE`), `C.2.6` for source and use conditions, `C.2.5` for closure degree, and `C.2.7` for representation factors.
 - `CC-A.16.1-7` A cue pack **SHALL NOT** claim that an endpoint test passed or that a stronger use is admitted; use the applicable endpoint pattern to test and publish that later result.
 
 ### A.16.1:8 - Common Anti-Patterns and How to Avoid Them
@@ -180,7 +180,7 @@ If an existing incident note already carries this content and the source return,
 
 
 #### A.16.1:13.2 - Inquiry cue pack
-An inquiry cue pack may preserve exemplars, contrasts, a felt or trace-anchored discrepancy cue nucleus, and candidate anchor fragments. This is admissible even before route publication is needed or an under-specified relation-bearing claim requires `A.6.P`.
+An inquiry cue pack may preserve exemplars, contrasts, a discrepancy cue nucleus from bodily observation or inspection of a trace, and candidate anchor fragments. This is admissible even before route publication is needed or an under-specified relation-bearing claim requires `A.6.P`.
 
 #### A.16.1:13.3 - Invalid publication to reject
 It is invalid to publish a cue pack and then cite it as if it were already an anomaly statement, a routed cue set, an explanatory bundle, or a control obligation. The cue pack is only the preservation form.

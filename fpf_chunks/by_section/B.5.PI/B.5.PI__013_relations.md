@@ -6,12 +6,12 @@ section_id: "B.5.PI:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__013_relations.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:12 — Relations"
-line_start: 50437
-line_end: 50445
+line_start: 50559
+line_end: 50567
 dependencies:
   - "A.15.11"
   - "A.16.1"

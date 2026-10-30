@@ -6,12 +6,12 @@ section_id: "A.6.B:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__014_consequences.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:12 — Consequences"
-line_start: 15222
-line_end: 15229
+line_start: 15307
+line_end: 15314
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -42,7 +42,6 @@ keywords:
   - "(ii) encode runtime entry predicates (those are A-)"
   - "Keeps normative content"
   - "MAY"
-  - "MUST"
   - "MUST NOT"
   - "SHALL"
   - "SHOULD"
@@ -51,7 +50,6 @@ keywords:
   - "accountable norms and grants"
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
-  - "and MAY"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -74,9 +72,6 @@ keywords:
   - "responsibility"
   - "then establish the E result under its own predicate"
   - "they report adjudicable results rather than obligations"
-  - "“commits to”)"
-  - "“is admissible”"
-  - "“is blocked”"
   - "”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
 ---
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.5"
-pattern_title: "U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
+pattern_title: "Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
 section_id: "C.2.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__011_rationale.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
+  - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:10 — Rationale"
-line_start: 53325
-line_end: 53327
+line_start: 53600
+line_end: 53602
 dependencies:
   - "A.16"
   - "A.16.0"

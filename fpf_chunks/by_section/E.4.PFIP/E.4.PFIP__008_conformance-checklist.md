@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__008_conformance-checklist.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:7 — Conformance Checklist"
-line_start: 95537
-line_end: 95555
+line_start: 95837
+line_end: 95855
 dependencies:
   - "C.2.1"
   - "C.33"

@@ -6,12 +6,12 @@ section_id: "E.24:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__006_solution.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:4 — Solution"
-line_start: 115155
-line_end: 115613
+line_start: 115462
+line_end: 115924
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -48,10 +48,12 @@ The defining `ClaimGraph` located here states `U.Ontic` as the FPF kind for a co
 
 Keep two layers explicit:
 
-1. **Instance layer.** For each included direct relation kind, name the actual participant meanings and admitted actual-participant kinds supplied by its exact defining `ClaimGraph`. An obtaining occurrence relates the actual participants admitted by that predicate. Kinds or declaration epistemes can themselves participate when the direct rule admits them; citing them in the decision establishes no such occurrence.
+1. **Instance layer.** For each included direct relation kind, state how its actual participants are identified under their subject rules, how they contribute to the obtaining predicate, and which kind conditions that predicate requires. The defining `ClaimGraph` supplies those conditions and the occurrence-identity rule. An obtaining occurrence relates the actual participants satisfying that predicate. Kinds or declaration epistemes can themselves participate when the direct rule admits them; citing them in the decision establishes no such occurrence.
 2. **Ontology and declaration layer.** The ontic-introduction decision episteme states which subject kind, identity rule, relation kinds, declaration epistemes, rule-content locators, and dependent-use reliance claims belong in this ontology unit. Those are typed claims in the decision episteme unless an independently defined declaration-dependency, inclusion, or reliance relation is actually current. Do not call them world-side direct relations merely because the ontology unit coordinates them.
 
-The ontology unit is connected when every included relation kind has its instance-layer participants, exact predicate, and defining `ClaimGraph`, every included declaration is tied to the relation use it declares, and every dependent use names the exact identity rule, direct relation rule, or declaration it relies on. The decision marks any identity-bearing edge explicitly. This typed account establishes ontology-level coordination; it fabricates no relation occurrence among kinds, declarations, pattern descriptions, or the ontic.
+The ontology unit is connected when every included relation kind has its instance-layer participants, exact predicate, and defining `ClaimGraph`, every included declaration is tied to the relation use it declares, and every dependent use names the exact identity rule, direct relation rule, or declaration it relies on. The decision marks any identity-bearing edge explicitly. This account of identities, relations, and dependencies establishes ontology-level coordination; it fabricates no relation occurrence among kinds, declarations, pattern descriptions, or the ontic.
+
+Precise coordination does not require a new public kind for every participant. It does require a rule that recovers which object participates, what counts as the same or a different participant, and how it contributes to the relation. Apply an existing kind criterion wherever the predicate depends on that classification. When a receiver additionally needs typed membership or substitution, A.6.5 requires independently established ValueKinds and complete SlotSpecs; an exact-value example cannot establish the whole range. A missing identity or obtaining basis blocks the affected relation claim. A missing required range blocks its typed use while leaving separately warranted exact-value uses available. An ontic supplies neither missing basis by being declared.
 
 Named dependent-use reliance states each dependent use, its pattern-description locator when useful, and the identified ontic identity, direct relation rule, or `RelationSignature` declaration on which it relies. A pattern name without that reliance basis is insufficient.
 
@@ -109,10 +111,10 @@ Build the decision evidence in this order; do not select a disposition first and
 1. **Current case and stable decision subject.** State the working expression or source claim, one independently identified pre-judgment candidate entity, proposal episteme, or source-construct entity with its direct identity governor, and the named receiving use. Use that fixed object as the decision episteme's EntityOfConcern. Record source-use status and provenance here when current; they do not settle the ontology disposition.
 2. **Existing-governor reuse and non-duplication.** Name the current direct patterns checked by value. State which current claim they already close, or the exact coordination they fail to supply. Reject a new umbrella when it would merely rename those governed objects or copy their rules.
 3. **Identity, constitution, or recognition.** State the exact rule supplied by the subject pattern and what would reidentify the subject across the receiving use. Do not replace several required facts with an invented universal relation.
-4. **Typed connectivity and dependent use.** Use `E.24:4.3a` to classify only the objects that the dependent use consumes. Name each needed direct relation, its exact predicate and definition source, any identity-bearing relation selected by its occurrence-identity rule, each declaration actually reused, and each dependent assertion's exact reliance basis. Omit every neighboring map row whose selection question is false.
+4. **Identity, relations, and dependent use.** Use `E.24:4.3a` to classify only the objects that the dependent use consumes. Name each needed direct relation, its exact predicate and definition source, any identity-bearing relation selected by its occurrence-identity rule, each declaration actually reused, and each dependent assertion's exact reliance basis. Omit every neighboring map row whose selection question is false.
 5. **Disposition, branch result, and boundary—fill last.** Keep the decision EntityOfConcern from step 1. From steps 1–4, record exactly one branch payload: the closing assertions and direct patterns; the bounded episteme, its declared use, and stop; the selected ontology-unit individual and subject pattern; or the unresolved reason and missing evidence. Add an explanatory overread only when it passes F.19:4's full independent-ground, plausible-reader, contribution, and smallest-clear-correction test.
 
-A relation-participant meaning belongs in one selected direct relation only when that relation's predicate depends on an actual participant having that meaning and the exact defining `ClaimGraph` states the admitted kind of that participant. When typed reuse is needed, a compatible `RelationSignature` declares that admitted kind as the SlotSpec's `ValueKind`. Another entity remains under its own direct relation when that relation already expresses the needed use. Reuse pressure can justify a `RelationSignature`; it cannot turn a neighboring relation, record field, or mathematical operand into a participant or SlotKind of another relation.
+A relation-participant meaning belongs in one selected direct relation only when its predicate depends on an actual participant making that contribution. The defining `ClaimGraph` must state how the participant is identified independently of a declaration field and state any classification condition the predicate uses. When typed reuse is needed, a compatible `RelationSignature` additionally declares an independently governed participant kind as the SlotSpec's `ValueKind`. Another entity remains under its own direct relation when that relation already expresses the needed use. Reuse pressure can justify a `RelationSignature`; it cannot turn a neighboring relation, record field, or mathematical operand into a participant or SlotKind of another relation.
 
 Optional-in-use status belongs to a declaration or description. It does not mean that a world-side relation occurrence has an unfilled participant. A missing designation leaves the assertion incomplete or the participant unknown to the current user. It does not show that the participant is absent, and it does not make the direct predicate obtain or cease.
 
@@ -155,7 +157,8 @@ E24FamilySettlementDecision:
     ExistingGovernorAndNonDuplicationResult:
     MinimalGovernedRelationSet:
       DirectRelationKind:
-      ParticipantMeaningsAndAdmittedActualParticipantKinds:
+      ParticipantMeaningsAndIdentificationRules:
+      KindConditionsRequiredByPredicate:
       ObtainingAndOccurrenceIdentityRule:
       DirectGovernor:
       DependentUseEnabled:
@@ -305,7 +308,7 @@ Open only rows whose selection question is true for the chosen branch. Later sec
 
 | Object class | Selection question | Record by value and subject pattern |
 | --- | --- | --- |
-| World-side participant | Does an obtaining predicate require this actual object in one participant meaning? | actual object, admitted kind, participant meaning, and the direct relation pattern; a SlotSpec or designation is not the participant |
+| World-side participant | Does an obtaining predicate require this actual object in one participant meaning? | actual object and its independent identity rule, participant meaning, any kind condition required by the predicate, and the direct relation pattern; a SlotSpec or designation is not the participant |
 | Relation occurrence | Is the current claim that one direct predicate obtains among actual participants? | relation kind, participants, obtaining condition, occurrence identity, and direct governor; use this row for the one readable claim that closes direct use |
 | Reusable declaration | Does another use need the same participant typing without asserting an occurrence? | `RelationSignature` episteme and only the reused `SlotSpec = <SlotKind, ValueKind, refMode>` declarations under A.6.5 |
 | Claim-bearing episteme | Does the receiving use need an assertion, description, decision, or several governed claims read together? | C.2.1 identity, exact EntityOfConcern, ClaimGraph, effective ReferenceScheme, declared use, and stop; a bounded episteme governs no new ontology |
@@ -342,9 +345,9 @@ OnticIntroductionDecisionReplay:
     existingUKindAdmissionResultRef: `E24UK-AR-UEPISTEME-RG-01`.
     onticSettlementResultRef: `E24-OS-EPISTEME-ONTIC-01`.
     atomicCoDecisionRef: none; no new public U-kind is proposed in this replay.
-  onticRootIfSelected: `EpistemeOntic`, one explicitly designated ontology-unit individual of kind `U.Ontic`. E.24 reidentifies it from the primary governed subject kind `U.Episteme` and the identity-bearing direct relation kind `EpistemeConstitutionRelation`, including that relation's predicate, participant meanings, and admitted actual-participant kinds. It is neither the `U.Episteme` kind nor any PumpStation37 episteme.
-  identityBearingDirectRelationIfSelected: `EpistemeConstitutionRelation`, governed by C.2.1. Its participant meanings are constitutive claim content, exact EntityOfConcern, and effective reference scheme; its admitted actual-participant kinds are `U.ClaimGraph`, `U.Entity`, and `U.ReferenceScheme`. It obtains when the scheme makes the claim graph interpretable and evaluable as claims about the exact entity and the three participants form one claim-bearing whole; the participant triple identifies the occurrence. The PumpStation37 consuming witness is the distinct occurrence among `MaintenanceClaims_v7`, `PumpStation37`, and `StationMaintenanceReferenceScheme_2026`; that project occurrence neither is nor identifies `EpistemeOntic`.
-  reusableDeclarationsIfNeeded: `EpistemeConstitutionRelationSignature` with the three SlotSpecs declared in `C.2.1`, only where another pattern needs reusable participant typing.
+  onticRootIfSelected: `EpistemeOntic`, one explicitly designated ontology-unit individual of kind `U.Ontic`. E.24 reidentifies it from the primary governed subject kind `U.Episteme` and the identity-bearing `EpistemeConstitutionRelation`: its participant meanings, participant-identification rules, obtaining predicate, and participant-determined occurrence identity. It is neither the `U.Episteme` kind nor any PumpStation37 episteme.
+  identityBearingDirectRelationIfSelected: `EpistemeConstitutionRelation`, governed by C.2.1. Its participants are the complete semantic claim content, one independently identified EntityOfConcern, and the effective designation and interpretation rules. C.2.1:4.1.1 recovers and compares the two epistemic constituents; the subject pattern identifies the entity. The relation obtains when the scheme makes that content interpretable and evaluable as claims about the entity and the three participants form one claim-bearing whole; their triple identifies the occurrence. The PumpStation37 witness uses the exact content `MaintenanceClaims_v7`, entity `PumpStation37`, and effective rules `StationMaintenanceReferenceScheme_2026`. Those labels require the corresponding content, entity identity, and rules; they are not a classification test for all claim contents or schemes. That project occurrence neither is nor identifies `EpistemeOntic`.
+  reusableDeclarationsIfNeeded: C.2.1:4.2.1 supplies the constitution declaration for reusable EntityOfConcern designation with `EntityOfConcernSlot`, `U.Entity`, and `U.EntityRef`; :4.3 and :4.5 supply grounding and edition declarations. Reuse each only when its stated interface is needed. Typed replacement of claim content or effective scheme requires additional independently governed ranges and A.6.5 SlotSpecs. The open `U.ClaimGraph` and `U.ReferenceScheme` admissions cannot supply those ranges, and no such general typing is a premise of this ontic settlement.
   minimalGovernedRelationSet:
     instanceLayer: `EpistemeConstitutionRelation` among actual claim graph, EntityOfConcern, and reference scheme is identity-bearing; `EpistemeEmpiricalGroundingRelation`, `EpistemeEditionRelation`, `EpistemeViewpointConformanceRelation`, and `EpistemePublicationRelation` retain the actual participants and predicates supplied by C.2.1, E.17.0, and E.24.PUB when their named use is current. A.6.3 construction and A.10 evidence use remain separate and join only under their own current governors.
     ontologyDeclarationLayer: this decision episteme says that `EpistemeOntic` coordinates the `U.Episteme` identity rule and those exact relation rules and declarations for the named dependent patterns. It asserts no world-side relation whose participants are `EpistemeOntic`, `U.Episteme`, a relation kind, a signature, or a pattern.
@@ -420,13 +423,14 @@ OnticIntroductionDecision:
     BranchSpecificResultRefIfRequired: the exact membership, dependence, reused-kind, local-declaration, or recovered-object result required by that disposition.
     LocalGainCostAndDuplicateOntologyRisk: the decision-changing rationale; not another disposition or decision form.
   MinimalGovernedRelationSet:
-    InstanceLayer: for every included direct relation, its actual participant meanings and kinds, predicate, occurrence identity, direct governor, and the named use it enables.
+    InstanceLayer: for every included direct relation, its actual participants and independent identity rules, participant meanings, required kind conditions, predicate, occurrence identity, direct governor, and named receiving use.
     OntologyDeclarationLayer: the exact decision claims that include each kind, relation rule, declaration, or pattern and state each dependent reliance; an actual declaration-side relation is named only when independently governed.
   IdentityBearingDirectRelationIfSelected:
     DirectRelationKind:
     DirectGoverningPattern:
     ParticipantMeanings:
-    AdmittedActualParticipantKinds:
+    ParticipantIdentificationRules:
+    KindConditionsRequiredByPredicate:
     ObtainingCondition:
     OccurrenceIdentityRule:
     RelationSignatureIfNeeded:

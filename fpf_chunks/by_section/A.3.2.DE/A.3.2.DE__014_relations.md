@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__014_relations.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:12 — Relations"
-line_start: 11845
-line_end: 11852
+line_start: 11863
+line_end: 11870
 dependencies:
   - "A.3.2"
   - "C.37"

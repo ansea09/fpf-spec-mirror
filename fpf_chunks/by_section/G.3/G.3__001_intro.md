@@ -6,12 +6,12 @@ section_id: "G.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__001_intro.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:intro — Intro"
-line_start: 127291
-line_end: 127300
+line_start: 127609
+line_end: 127618
 dependencies:
   - "A.10"
   - "A.15.2"

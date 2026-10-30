@@ -6,12 +6,12 @@ section_id: "A.6.B:14"
 section_title: "Source contributions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__016_source-contributions.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:14 — Source contributions"
-line_start: 15239
-line_end: 15251
+line_start: 15323
+line_end: 15328
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -42,7 +42,6 @@ keywords:
   - "(ii) encode runtime entry predicates (those are A-)"
   - "Keeps normative content"
   - "MAY"
-  - "MUST"
   - "MUST NOT"
   - "SHALL"
   - "SHOULD"
@@ -51,7 +50,6 @@ keywords:
   - "accountable norms and grants"
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
-  - "and MAY"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -74,22 +72,12 @@ keywords:
   - "responsibility"
   - "then establish the E result under its own predicate"
   - "they report adjudicable results rather than obligations"
-  - "“commits to”)"
-  - "“is admissible”"
-  - "“is blocked”"
   - "”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
 ---
 
 ### A.6.B:14 — Source contributions
 
-The following contributions help explain the separation; they do not replace the subject conditions of an FPF claim.
+A.6:11 gives the exact source contributions and their limits. Effects and handlers distinguish declared operations from handler semantics; contract and behavioral-subtyping work supplies preservation questions; session types supply protocol-specific conditions. ISO/IEC/IEEE 42010 supports concern-oriented descriptions and correspondences. OpenTelemetry and SRE distinguish the observations available from the service property being examined; Cedar gives an explicit rule-evaluation and decision construction.
 
-**Representative sources.** See also A.6:11.
-* ISO/IEC/IEEE 42010:2022 (`U.View` and `U.Viewpoint` discipline).
-* Leijen (2017) / Hillerström & Lindley (2018) (effects & handlers).
-* OpenTelemetry Specification (v1.0+, 2021–) (evidence carriers as traces, logs, and metrics).
-
-* **Effect systems & handlers:** clear separation between operation signature (L), handler and runtime behavior (A/E), and generic prescriptions or separately instituted duties (D); only the latter name an actual operating or implementing System as bearer.
-* **Behavioural and session typing:** protocol laws (L), admissibility (A), commitments (D) and runtime traces (E) answer distinct questions when interpreting progress or safety guarantees.
-* **SRE and observability:** traces, logs and metrics can support evaluated results, while retention and exposure duties are separate D claims. The support still requires the relevant evidence relation.
+FPF uses these contributions to organize boundary claims. The four jobs, their FPF placements and §6.4's dependency rules are the construction explained here. In particular, provider duties require their governing normative source or individual instituting basis, and evidence support uses A.10. A source's typing or telemetry guarantees retain their own stated scope.
 

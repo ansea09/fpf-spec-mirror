@@ -6,12 +6,12 @@ section_id: "A.3.4.P:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__008_conformance-checklist.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:7 — Conformance Checklist"
-line_start: 13405
-line_end: 13419
+line_start: 13423
+line_end: 13437
 dependencies:
   - "A.10"
   - "A.15.1"

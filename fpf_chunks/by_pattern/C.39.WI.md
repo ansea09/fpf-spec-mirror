@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.WI.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
-line_start: 83109
-line_end: 83427
+line_start: 83409
+line_end: 83727
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"

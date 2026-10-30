@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.4"
-pattern_title: "U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
+pattern_title: "Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
 section_id: "C.2.4:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__016_extension-and-migration-notes.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
+  - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:15 — Extension and Migration Notes"
-line_start: 53163
-line_end: 53172
+line_start: 53428
+line_end: 53437
 dependencies:
   - "A.13"
   - "A.15"
@@ -51,7 +51,7 @@ keywords:
 Contexts may refine the starter anchor set with subanchors, but the refinement must preserve the ordinal direction and the distinction from `F` and `CD`.
 
 #### C.2.4:15.2 - Migration from vague articulation prose
-When routing or use depends on articulation, statements such as "still vague", "more explicit now", or "ready for formalization" should be migrated into explicit `AE` claims plus the corresponding move or routing claim.
+When routing or use depends on words such as "still vague", "more explicit now", or "ready for formalization", recover the meaning already explicit, the missing content and the condition for the next use. Use that direct condition when it is sufficient. Add an `AE` reading only when the receiving work needs its Scale, with the grounds and any declared threshold. A claim about the resulting move or route still follows its own governing pattern.
 
 #### C.2.4:15.3 - Boundary reminder
 `AE` does not govern closure, confidence, or warrant. If authors want those meanings, they must publish them through their own governing patterns.

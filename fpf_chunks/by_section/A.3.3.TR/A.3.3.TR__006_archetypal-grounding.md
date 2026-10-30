@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__006_archetypal-grounding.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:5 — Archetypal Grounding"
-line_start: 12516
-line_end: 12575
+line_start: 12534
+line_end: 12593
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"

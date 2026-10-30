@@ -6,12 +6,12 @@ section_id: "B.5.RA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RA/B.5.RA__013_relations.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "B.5.RA — Recover an Argument for Its Next Use"
   - "B.5.RA:12 — Relations"
-line_start: 47999
-line_end: 48008
+line_start: 48121
+line_end: 48130
 dependencies:
   - "B.5"
   - "B.5.MPC"

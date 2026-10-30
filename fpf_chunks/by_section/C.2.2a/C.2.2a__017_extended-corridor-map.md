@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.2a"
-pattern_title: "U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
+pattern_title: "Language-State Chart over U.CharacteristicSpace"
 section_id: "C.2.2a:15"
 section_title: "Extended corridor map"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__017_extended-corridor-map.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
+  - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:15 — Extended corridor map"
-line_start: 52435
-line_end: 52440
+line_start: 52656
+line_end: 52661
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -31,7 +31,6 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
-  - "anchoring"
   - "articulation"
   - "characteristic space"
   - "closure"
@@ -42,6 +41,7 @@ keywords:
   - "partial coordinates"
   - "position claim"
   - "representation"
+  - "source and use conditions"
 ---
 
 ### C.2.2a:15 - Extended corridor map

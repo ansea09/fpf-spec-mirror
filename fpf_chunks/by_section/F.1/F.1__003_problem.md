@@ -6,12 +6,12 @@ section_id: "F.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__003_problem.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:2 — Problem"
-line_start: 117708
-line_end: 117720
+line_start: 118026
+line_end: 118038
 dependencies:
   - "A.10"
   - "A.7"

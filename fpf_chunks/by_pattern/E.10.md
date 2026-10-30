@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
-line_start: 98296
-line_end: 99953
+line_start: 98596
+line_end: 100253
 dependencies:
   - "A.10"
   - "A.15"
@@ -1223,7 +1223,7 @@ IDs and instances: **flat with delimiters** chosen by the exact local naming sch
 
 #### E.10:8.3 - Prefix discipline
 
-**M-P1 (Reserved prefixes).** `U.` is reserved for admitted U-kinds and dependent `U.*` forms admitted under their definitions; `Γ_` for algebraic operators; `CAL, LOG, and CHR` for **pattern packages**. A local glossary, scheme, source label, or use never mints `U.*`.
+**M-P1 (Reserved prefixes).** `U.` is reserved for U-kinds admitted under E.24.UK; `Γ_` for algebraic operators; `CAL, LOG, and CHR` for **pattern packages**. A local glossary, scheme, source label, or use never mints `U.*`.
 
 **M-P2 (Edition and version markers).** Use a model-use marker only when A.1.1's direct model-use relations or a selected `BoundedModelUseStructure` require it. Select one exact episteme edition only through a typed reference whose referent is that exact `U.Episteme`, with a narrow selector defined at its reference-pattern locator. Do not attach an edition selector to an EntityOfConcern-side `Method`, Space, system, bare `Service`, or their references. When a use depends on a defining, describing, CG-Spec, service-description, or service-offer episteme, reference that episteme separately. A service-access publication, publication occurrence, publication form, and carrier retain their own references and do not inherit the episteme selector. Tool and carrier versions remain separate. Authors may annotate local service labels for didactics only after every named value is recoverable.
 **Norms (edition, release, and version).**

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.2a"
-pattern_title: "U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
+pattern_title: "Language-State Chart over U.CharacteristicSpace"
 section_id: "C.2.2a:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__007_archetypal-grounding.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
+  - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:5 — Archetypal Grounding"
-line_start: 52340
-line_end: 52346
+line_start: 52561
+line_end: 52567
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -31,7 +31,6 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
-  - "anchoring"
   - "articulation"
   - "characteristic space"
   - "closure"
@@ -42,12 +41,13 @@ keywords:
   - "partial coordinates"
   - "position claim"
   - "representation"
+  - "source and use conditions"
 ---
 
 ### C.2.2a:5 - Archetypal Grounding
-**Tell.** One note can have operator-loop anchoring yet still low closure. Another can be document-mediated and symbol-heavy while still open on route choice. Both notes have positions in one language-state chart, but not on one maturity progression.
+**Tell.** One note can be used in an operator's acknowledgement procedure yet still have low closure. Another can report an architecture document's assertions in symbolic form while its route choice remains open. Both notes have positions in one language-state chart, but not on one maturity progression.
 
-**Show (System).** A service disturbance is a system-side phenomenon. The positioned governed `U.Episteme` publication is the alerting episteme published from that disturbance. In `Pump-alert-21` (:13.2), its position combines declared observation terms and unit-bearing values, `CD1`, `AM.OperatorLoop`, and local/sparse/symbolic readings for the defined indicator code.
+**Show (System).** A service disturbance is a system-side phenomenon. The positioned governed `U.Episteme` publication is the alerting episteme published from that disturbance. In `Pump-alert-21` (:13.2), its position combines declared observation terms and unit-bearing values, `CD1`, and local/sparse/symbolic readings for the defined indicator code. The account separately states the operator acknowledgement and diagnostic-check condition.
 
-**Show (Episteme).** A model-vs-observation discrepancy is a witness-level tension, not the positioned episteme publication itself. Once preserved as a cue pack, the resulting governed `U.Episteme` may be low in articulation, low in closure, trace-anchored, and only partly symbolic even when rendered into prose.
+**Show (Episteme).** A model-vs-observation discrepancy is a witness-level tension, not the positioned episteme publication itself. Once preserved as a cue pack, the resulting governed `U.Episteme` may be low in articulation, low in closure, derived from an identified trace, and only partly symbolic even when rendered into prose.
 

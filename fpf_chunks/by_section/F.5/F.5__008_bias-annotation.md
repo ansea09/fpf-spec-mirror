@@ -6,12 +6,12 @@ section_id: "F.5:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__008_bias-annotation.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:6 — Bias Annotation"
-line_start: 119154
-line_end: 119162
+line_start: 119472
+line_end: 119480
 dependencies:
   - "A.10"
   - "A.15"

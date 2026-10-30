@@ -6,12 +6,12 @@ section_id: "B.5.2.1:7"
 section_title: "Effort and first use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__008_effort-and-first-use.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:7 — Effort and first use"
-line_start: 49976
-line_end: 49983
+line_start: 50098
+line_end: 50105
 dependencies:
   - "A.17"
   - "A.18"

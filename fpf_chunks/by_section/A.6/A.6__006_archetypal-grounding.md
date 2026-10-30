@@ -6,12 +6,12 @@ section_id: "A.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__006_archetypal-grounding.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:5 — Archetypal Grounding"
-line_start: 14002
-line_end: 14068
+line_start: 14031
+line_end: 14101
 dependencies:
   - "A.10"
   - "A.15"
@@ -91,13 +91,17 @@ The two cases below distinguish declaration, admissibility, governance and actua
   * InteropCard: machine‑exchange oriented boundary details (canonical field names, schema refs, transport bindings).
   * AssuranceLane: evidence bindings (which carriers exist, how to adjudicate `E-*` claims, retention and access duties by reference).
 
-**Effects-and-handlers analogy.** In this software example, the signature exposes the operation interface. A.6.1 governs declared operation semantics and the separate realization relation; the realizing entity supplies the concrete handler implementation. Implementations can change while preserving the declared operation meanings and applicable constraints.
+**Effects-and-handlers analogy.** In this software example, the signature exposes the operation interface. A.6.1 governs declared operation semantics and the separate realization relation; the realizing entity supplies the concrete handler implementation. An effect interface can have handlers with different behavior. For a substitutable realization here, compare that behavior with the declared operation meanings and applicable constraints.
 
 **Classification example:**
 
 * “A request is admissible iff `tokenValid ∧ merchantActive ∧ amountWithinLimit`” belongs in Quadrant A (the declared admissibility gate).
 * “Clients MUST include Idempotency-Key” is a D prescription. If an admission rule also requires that header, reference that rule’s predicate; the three-condition predicate above does not include it. An obtaining individual `U.Commitment` additionally needs the actual bearer, constitutive rule, instituting basis and direct predicate under A.2.8.
 * “System emits AuthorizationRecord” is ambiguous between a generic emission rule and an actual event report. Only the actual-event reading belongs in E, with its occurrence basis supplied; the wording alone does not choose that reading.
+
+**Changing this API.** Suppose the proposed replacement keeps the fields and the three-condition admission predicate above, but changes `APPROVED` to mean only that a request was queued. Apply §4.7 to an existing client that relies on the stated reservation law. That law is no longer met at the response, so preserving the message type is insufficient for this replacement. Keeping `APPROVED` for an actual reservation preserves this particular claim; introducing `PENDING` requires an explicit protocol and changed client handling. Other compatibility conditions remain to be checked.
+
+Alternatively, suppose the replacement adds `hasHeader(Idempotency-Key)` to the admission predicate. The existing D prescription already requires that header, but the old A predicate admits requests without it. For clients promised the old admitted-input set, the added condition is a restriction. For a use explicitly limited to requests that already carry the header, this particular restriction excludes no additional input. The compatibility conclusion therefore names the receiving population. Changing only the `AuthorizationRecord` schema instead returns to its consumers and evidence links; it need not change either the reservation law or admission rule.
 
 #### A.6:5.3 - Published evaluation protocol
 

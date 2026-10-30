@@ -6,12 +6,12 @@ section_id: "A.3.4.P:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 13420
-line_end: 13432
+line_start: 13438
+line_end: 13450
 dependencies:
   - "A.10"
   - "A.15.1"

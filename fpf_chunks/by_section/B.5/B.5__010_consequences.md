@@ -6,12 +6,12 @@ section_id: "B.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__010_consequences.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:9 — Consequences"
-line_start: 46294
-line_end: 46299
+line_start: 46416
+line_end: 46421
 dependencies:
   - "A.10"
   - "B.5.1"

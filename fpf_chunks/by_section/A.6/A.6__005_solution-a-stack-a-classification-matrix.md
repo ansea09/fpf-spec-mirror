@@ -6,12 +6,12 @@ section_id: "A.6:4"
 section_title: "Solution — A stack + a classification matrix"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__005_solution-a-stack-a-classification-matrix.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:4 — Solution — A stack + a classification matrix"
-line_start: 13733
-line_end: 14001
+line_start: 13751
+line_end: 14030
 dependencies:
   - "A.10"
   - "A.15"
@@ -139,10 +139,9 @@ This placement supports change through the actual dependencies:
 
 A.6.B defines the matrix and cross-quadrant reference rules. Use the following summary to classify a claim and the examples to distinguish a source clause from added case assumptions.
 
-The **2×2 matrix** crosses **two independent distinctions**:
+The matrix distinguishes four jobs in a boundary account: defining meaning, declaring admission conditions, stating normative content or a deontic position, and reporting occurrences or evidence. Classify the exact claim by that job, then recover the conditions that settle it under A.6.B.
 
-* **Modality family:** truth-conditional versus governance content. For permission-looking wording, the selected `A6-AW-*` row states which side applies; A.2.8.PER membership alone does not.
-* **Adjudication position:** in-description versus in-work/in-execution. The latter includes actual evaluation or observation under the subject predicate; it does not require inventing Work for a non-Work change.
+A declared admission predicate and its evaluation have separate jobs: the predicate is A; a particular evaluation result is E. D includes both generic normative content and a claim about an individually obtaining duty or grant, with different grounds for each. These distinctions let the same subject appear in several connected claims. The selected `A6-AW-*` row supplies the corresponding permission-word distinction. Actual evaluation or observation does not require inventing Work for a non-Work change.
 
 Operational summary (quadrant → canonical claim layer in the stack):
 * **L** (Laws & Definitions) → `Signature.Laws` (truth‑conditional semantics, in‑description)
@@ -323,4 +322,16 @@ These are *writing diagnostics*, not tool requirements.
 - **`D-*` that re-states an `A-*`/`L-*` predicate instead of citing its ID or canonical location** → drift risk (prefer “MUST satisfy `A-…`”).
 - **A face introduces new L/A/D/E content not present in the canonical claim set** → view-fork. Recover the direct object and classify the new claim—duty/commitment/grant in D; exercise/evaluated finding/evidence in E; gate in A—then add it to its canonical source before face publication. Informative commentary may explain existing claims without adding boundary semantics.
 - **“The system or service SHALL …” where the phrase does not name a direct behavior claim, general prescription, or exact individual commitment with its actual bearer and constitutive basis** → unresolved subject and modality. Recover the System or other party, state an actual `E-*` behavior claim separately only when its actual basis is supplied, and state either the normative content or the direct A.2.8 commitment. A service label, system-role kind, or assignment proves none of these claims.
+
+#### A.6:4.7 - Use the claim dependencies to judge a boundary change
+
+Start with the receiving use: which clients, operations and observations must continue to work, under which conditions? Read the existing boundary claims and the proposed change against that use. The stack makes the different constraints findable; compatibility depends on their content and connections.
+
+1. **Recover what the receiver relies on.** Include the meaning of inputs and results, admitted inputs, relevant interaction order and state changes. Add a duty, grant or evidence requirement when this use depends on it. Preserve the conditions and exceptions attached to each claim.
+2. **Identify what changes.** Distinguish changing a definition, an admission condition, normative content, an implementation or an observation method. A change can affect several of these. Use the claim references to follow the consequences to the receiving use, including an A predicate that consumes a current D grant or E finding under A.6.B:6.4.
+3. **Compare the old and proposed behavior in that use.** For a replacement offered to existing clients, determine whether previously admitted inputs remain admitted and whether the results, interactions and state changes still satisfy the old claims. When representations differ, state the correspondence used for this comparison. A stronger entry condition can exclude an old valid call; a weaker result condition can remove a property its client needs. Preserving a protocol or mutable state also requires its own sequence or history conditions.
+4. **Establish the affected claims on their own grounds.** A declaration comparison can establish a conditional compatibility argument. Claims about an actual implementation, obtained grant, observed result or retained evidence need their corresponding grounds. A changed telemetry format can leave the operation semantics intact while breaking the auditor's ability to check a result.
+5. **Choose and communicate the continuation.** Preserve the old boundary, adapt the receiver or supply an adapter with a justified correspondence, or expose a changed contract and its affected uses. Reuse unaffected claims and evidence while their conditions hold. Keep an unresolved compatibility premise explicit.
+
+Use the smallest description that carries these dependencies. For one operation whose meaning and use are already clear, its existing preconditions, postconditions and invariants can supply the comparison. A protocol specification can carry the interaction constraints; a policy and its evaluation interface can carry an authorization decision. Add the L/A/D/E organization where connected semantic, admission, governance and evidence claims otherwise obscure what a change affects. The labels organize those claims; the relevant contract, protocol, policy or subject Method supplies the actual preservation test.
 

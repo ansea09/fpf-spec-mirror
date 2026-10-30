@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.7"
-pattern_title: "U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
+pattern_title: "LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
 section_id: "C.2.7:17"
 section_title: "Factor Interaction and Cross-Facet Reading Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__018_factor-interaction-and-cross-facet-reading-rule.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
+  - "C.2.7 — LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:17 — Factor Interaction and Cross-Facet Reading Rule"
-line_start: 53749
-line_end: 53759
+line_start: 54047
+line_end: 54057
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -40,7 +40,7 @@ keywords:
 Representation factors may be related under a particular code or model. State that relation and its conditions before inferring one reading from another. Locality and active-unit fraction are distinct, as :4.1 shows. Publish the readings needed for the comparison; assess articulation independently under C.2.4.
 
 #### C.2.7:17.2 - Cross-facet non-substitution
-Representation talk must not silently replace `AE`, `CD`, or `LanguageStateAnchoringMode`. A symbolic account of a distributed code may be easier to read while leaving interpretation unclear, closure open or anchoring operator-bound.
+Representation talk must not silently replace `AE`, `CD`, or the source and use claims recovered through C.2.6. A symbolic account of a distributed code may be easier to read while leaving interpretation unclear, closure open or an operator acknowledgement still required.
 
 #### C.2.7:17.3 - Bridge reminder
 If a representation shift matters in transport across contexts, note that the shift may alter what is preserved or salient. Use `F.9` for the Bridge and its bounded-use claim when the receiving use needs a semantic relation between local senses from different contexts; use `F.9.1` only for a separate optional stance note about that claim.

@@ -6,12 +6,12 @@ section_id: "B.5.PI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__008_conformance-checklist.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:7 — Conformance Checklist"
-line_start: 50383
-line_end: 50396
+line_start: 50505
+line_end: 50518
 dependencies:
   - "A.15.11"
   - "A.16.1"

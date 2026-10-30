@@ -6,12 +6,12 @@ section_id: "C.40.CD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__007_bias-annotation.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:6 — Bias-Annotation"
-line_start: 85092
-line_end: 85095
+line_start: 85392
+line_end: 85395
 dependencies:
   - "B.5.MPC"
   - "B.5.MPC.R"

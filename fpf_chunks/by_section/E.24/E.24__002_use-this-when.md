@@ -6,12 +6,12 @@ section_id: "E.24:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__002_use-this-when.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:0 — Use This When"
-line_start: 115093
-line_end: 115128
+line_start: 115400
+line_end: 115435
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -42,7 +42,7 @@ keywords:
 
 ### E.24:0 - Use This When
 
-Use this pattern when FPF work appears to need a durable ontic: a connected action-facing ontology unit whose stable identity and admissible uses depend on keeping several direct relation kinds, their relation-participant meanings and admitted actual-participant kinds, reusable declarations, and neighboring subject patterns coherent.
+Use this pattern when FPF work appears to need a durable ontic: a connected action-facing ontology unit whose stable identity and admissible uses depend on keeping several direct relation kinds, their participant identities and meanings, any required kind conditions, reusable declarations, and neighboring subject patterns coherent.
 
 Characterize the current candidate or source claim and run the existing-rule-content, identity, relation-or-constitution, dependent-use, and non-duplication tests below. Only then record the **ontology disposition**: introduce a durable ontic, coordinate already defined claims in a bounded local episteme, rely directly on current exact subject assertions and their `ClaimGraph` sources, or stop unresolved. A current source-use record states quote-only, reduced use, or a selected stronger source use with its exact provenance; omit it when source use is not current. Source use can accompany any resolved ontology disposition, but it is not a fourth ontology branch. Use source-only as a stop only when no exact payload assertion has been selected.
 

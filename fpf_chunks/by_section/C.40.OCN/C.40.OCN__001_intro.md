@@ -6,12 +6,12 @@ section_id: "C.40.OCN:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__001_intro.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:intro — Intro"
-line_start: 85419
-line_end: 85424
+line_start: 85719
+line_end: 85724
 dependencies:
   - "A.15.9"
   - "C.11"

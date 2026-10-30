@@ -6,12 +6,12 @@ section_id: "A.2.3:5"
 section_title: "Archetypal grounding (engineer‑manager friendly)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__007_archetypal-grounding-engineer-manager-friendly.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:5 — Archetypal grounding (engineer‑manager friendly)"
-line_start: 5730
-line_end: 5743
+line_start: 5746
+line_end: 5759
 dependencies:
   - "A.1.1"
   - "A.10"

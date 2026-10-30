@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__006_solution.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:4 — Solution"
-line_start: 10556
-line_end: 10622
+line_start: 10574
+line_end: 10640
 dependencies:
   - "A.10"
   - "A.15.8.MS"

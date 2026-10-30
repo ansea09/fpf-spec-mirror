@@ -6,12 +6,12 @@ section_id: "B.5.RC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__001_intro.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:intro — Intro"
-line_start: 47452
-line_end: 47457
+line_start: 47574
+line_end: 47579
 dependencies:
   - "A.6.3.RT"
   - "B.5"

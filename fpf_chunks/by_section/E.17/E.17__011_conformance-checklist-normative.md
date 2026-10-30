@@ -6,12 +6,12 @@ section_id: "E.17:9"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__011_conformance-checklist-normative.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:9 — Conformance Checklist (normative)"
-line_start: 107215
-line_end: 107258
+line_start: 107522
+line_end: 107565
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -77,7 +77,7 @@ A conformance check is kept only if it changes the next bounded use of the publi
 | **CC‑MVPK‑4g (No axis or dimension)** | Faces avoid “axis”, “dimension”, and “plane” metaphors except **ReferencePlane**; use CHR terms (**Characteristic**, slot, or **CharacteristicSpace**). | Lexical check flags none; only `ReferencePlane` appears. |
 | **CC‑MVPK‑4h (Edition pins on defs)** | Where maps, distances, or spaces are cited, the face pins `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `CharacteristicSpaceRef.edition?`. | Validation shows edition fields populated. |
 | **CC‑MVPK‑4i (Crossing references)** | A semantic crossing cites its F.9 Bridge and separate bounded-use claim; a plane-dependent value cites its selected `ReferencePlane` and applicable rule. A B.3 `CL`/`Φ(CL)` reference appears only when the current assurance use consumes that integration relation. | F.9 and plane references resolve; any B.3 penalty belongs to the assurance-bearing integration relation, not to the face. |
-| **CC‑MVPK‑4k (Subset‑of underlier)** | For views about epistemes or capabilities, `PublicationScope ⊆ ClaimScope or WorkScope`; reindexing **does not widen** it. | Subset witness passes; promotion diff shows no widening. |
+| **CC‑MVPK‑4k (Subset‑of underlier)** | A face selecting `E` retains each applicable `ClaimScope` bound. If it presents a qualified holder-ability claim `C` about holder System `H` for work admission, also require `PublicationScope ⊆ WorkScope(C)`; use the intersection when both bounds apply. Reindexing **does not widen** publication scope. | The capability description has EntityOfConcern `H`; `C` designates its work-condition basis. All applicable subset witnesses pass; promotion diff shows no widening. |
 | **CC‑MVPK‑6 (Γ‑separation)** | No cost, time, or data-spend on publication morphisms. | Inspection shows that any cost, time, or data-spend claim concerns separately identified Work. |
 | **CC‑MVPK‑7 (Reindexing monotone)** | If `s ⪯ t`, then `Emit_s(x) ⪯ Emit_t(x)`. | `TechCard` ≤ `InteropCard` (more structure, same claims). |
 | **CC‑MVPK‑8 (`publication-face kind` discipline)** | Only literal `publication-face kind` values **publication face/form** or **interop publication form** are used; faces are named **...View**, **...Card**, or **...Lane**. | Token scan; no “rendering” or “presentation” as `publication-face kind` values. |

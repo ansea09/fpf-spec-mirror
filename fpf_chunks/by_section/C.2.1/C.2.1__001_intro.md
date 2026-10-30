@@ -6,12 +6,12 @@ section_id: "C.2.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__001_intro.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:intro — Intro"
-line_start: 50761
-line_end: 50784
+line_start: 50883
+line_end: 50906
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -62,9 +62,9 @@ keywords:
 
 **Use this pattern when.** You need to identify or compare a body of knowledge: what it claims, the exact entity those claims concern, and the rules under which they are interpreted. A pump specification with a changed pressure threshold carries different claims. Publishing the same claims about the same pump under the same interpretation in another file preserves the episteme.
 
-**First useful move.** Ask: what is claimed; what exact entity are the claims about; and what designation and interpretation rules make those claims readable about that entity? Include measurement, comparison or evaluation rules where the claims use them. If identity is all the task needs, stop after those answers. Otherwise name the concrete receiving use and open only the corresponding branch in :4.0. An unresolved uncertainty or choice is needed only when the use involves a real inquiry or decision.
+**First useful move.** If the claim is still taking shape, use :4.1.1 to develop it in writing. Ask: what is claimed; what exact entity are the claims about; and what designation and interpretation rules make those claims readable about that entity? Include measurement, comparison or evaluation rules where the claims use them. If identity is all the task needs, stop after those answers. Otherwise name the concrete receiving use and open only the corresponding branch in :4.0. An unresolved uncertainty or choice is needed only when the use involves a real inquiry or decision.
 
-**One-line summary.** A `U.Episteme` is a knowledge holon identified by exact claim content, one exact EntityOfConcern, and the effective `U.ReferenceScheme` that makes the claims interpretable about that entity. Changing any of these three discriminators identifies another episteme.
+**One-line summary.** A `U.Episteme` is a knowledge holon identified by exact claim content, one exact EntityOfConcern, and the effective `ReferenceScheme` that makes the claims interpretable about that entity. Changing any of these three discriminators identifies another episteme.
 
 **Primary working reader and viewpoint.** The engineer or researcher comparing, revising, teaching, grounding or publishing that knowledge object. The working concern is to reidentify it through those uses and locate a change when it occurs.
 

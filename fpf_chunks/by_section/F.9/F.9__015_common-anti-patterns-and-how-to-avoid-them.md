@@ -6,12 +6,12 @@ section_id: "F.9:13"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__015_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:13 — Common Anti-Patterns and How to Avoid Them"
-line_start: 120600
-line_end: 120619
+line_start: 120918
+line_end: 120937
 dependencies:
   - "A.10"
   - "A.13"

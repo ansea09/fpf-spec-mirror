@@ -6,12 +6,12 @@ section_id: "C.2.1:14"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__015_rationale.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:14 — Rationale"
-line_start: 51310
-line_end: 51315
+line_start: 51532
+line_end: 51537
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -56,5 +56,5 @@ keywords:
 
 The three constitution discriminators identify the knowledge holon; empirical grounding, viewpoint, scope, edition, and publication remain separately governed. A change in one of those neighboring relations can therefore be examined without reidentifying an unchanged episteme.
 
-The constitution relation explains how the identity-bearing participants are organized. The episteme is the resulting holon with a whole-level capacity to carry interpretable claims. A relation declaration is first its own C.2.1 episteme; `A.6.0` independently recognizes that same individual as a `U.Signature`, and `RelationSignature` names its relation-facing use. Its claims declare the direct relation for typed reuse; an assertion claims that the relation obtains, and a publication occurrence makes a selected episteme edition available. None replaces another.
+The constitution relation explains how the identity-bearing participants are organized. The episteme is the resulting holon with a whole-level capacity to carry interpretable claims. A relation declaration is first its own C.2.1 episteme; `A.6.0` judges whether its complete content satisfies `U.Signature` membership, including the declared range, and `RelationSignature` names its relation-facing use. A complete declaration carries the direct relation for its stated typed reuse; an assertion claims that the relation obtains, and a publication occurrence makes a selected episteme edition available. None replaces another.
 

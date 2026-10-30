@@ -6,12 +6,12 @@ section_id: "E.15:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "E.15 — Pattern Change, Edition Continuity, and Impact Analysis"
   - "E.15:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 105117
-line_end: 105130
+line_start: 105424
+line_end: 105437
 dependencies:
   - "C.18"
   - "C.19"

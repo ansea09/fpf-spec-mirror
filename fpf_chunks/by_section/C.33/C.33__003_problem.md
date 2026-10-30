@@ -6,12 +6,12 @@ section_id: "C.33:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__003_problem.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.33 — Assess Structural Information for Architecture Use"
   - "C.33:2 — Problem"
-line_start: 80021
-line_end: 80034
+line_start: 80321
+line_end: 80334
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

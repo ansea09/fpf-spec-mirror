@@ -6,12 +6,12 @@ section_id: "A.6.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__005_solution.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:4 — Solution"
-line_start: 16117
-line_end: 16340
+line_start: 16194
+line_end: 16419
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -165,7 +165,9 @@ State a relation between two signatures directly as refinement, conservative ext
 
 #### A.6.0:4.6a - Rule-content actual-use predicate declaration
 
-`RuleContentBasisFindingDefinition@R7` is one ordinary `U.Signature` for two reusable predicates over claim content. Its exact EntityOfConcern is the reusable predicate definition; both `SubjectKind` and `RangedValueKind` are `U.ClaimGraph`. No distinct result kind is current because an ordinary C.2.1 assertion states whether a predicate obtains. The declaration is not a `RelationSignature`: `dependentContent` and `baseContent` are semantic parameters, not world-side relation participants or A.6.5 SlotSpecs.
+`RuleContentBasisFindingDefinition@R7` is one ordinary `U.Signature` for two reusable predicates over claim content. Its exact EntityOfConcern is the reusable predicate definition; both `SubjectKind` and `RangedValueKind` are `NonemptyClaimContent` under C.2.1:4.1.2. No distinct result kind is current because an ordinary C.2.1 assertion states whether a predicate obtains. The declaration is not a `RelationSignature`: `dependentContent` and `baseContent` are semantic parameters, not world-side relation participants or A.6.5 SlotSpecs.
+
+The C.2.1 range criterion identifies eligible semantic inputs; it establishes neither actual use nor candidate sufficiency. This range declaration leaves an earlier exact episteme-edition pin at its original source. Before reusing an earlier assertion with the present declaration, compare its exact dependent and base values, interpretation and applicable predicate law; carry forward only the conclusion that this comparison supports. The names R7 and R8 alone do not identify an unchanged declaration episteme or transfer acceptance.
 
 Its vocabulary includes `SelectedRuleContentSubgraphDesignation@RuleContentBasisFindingDefinition-R7`, `derivedUsingRuleContent@RuleContentBasisFindingDefinition-R7`, and `evaluatedAgainstRuleContent@RuleContentBasisFindingDefinition-R7`. The designation resolves one exact nonempty base subgraph selected for one identified use. `RuleContentDerivationProfile@R7`, `RuleContentEvaluationProfile@R7`, and `RuleContentBasisFamilyAlgebra@R7` are named subgraphs of this signature's ClaimGraph.
 

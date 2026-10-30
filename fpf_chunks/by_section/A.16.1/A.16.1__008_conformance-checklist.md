@@ -6,12 +6,12 @@ section_id: "A.16.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__008_conformance-checklist.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.16.1 — PreArticulationCuePack: Preserve an Early Cue Before Choosing Its Use"
   - "A.16.1:7 — Conformance Checklist"
-line_start: 33869
-line_end: 33877
+line_start: 33952
+line_end: 33960
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -42,6 +42,6 @@ keywords:
 - `CC-A.16.1-3` When one witness or anchor carries the preservation need, `primaryWitnessRef` or `primaryAnchor` **SHALL** be explicit. When several grounds are jointly essential, their joint contribution **SHALL** remain recoverable.
 - `CC-A.16.1-4` `laneCandidates` and `routeCandidateHints` **MAY** be published early, but `selectedRoute`, `routeRationale`, and route-selection status **SHALL NOT** be smuggled into the cue pack.
 - `CC-A.16.1-5` If route-candidate hints are not yet nameable, publication is still admissible only when `preservationRationale` and grounding make the preservation need explicit.
-- `CC-A.16.1-6` Language-state, anchoring, and representation-factor details **MAY** be referenced; use `C.2.LS` for the facet profile, `C.2.4` for articulation explicitness (`AE`), `C.2.6` for anchoring mode, `C.2.5` for closure degree, and `C.2.7` for representation factors.
+- `CC-A.16.1-6` Language-state readings, source and use claims, and representation-factor details **MAY** be referenced; use `C.2.LS` for the facet profile, `C.2.4` for articulation explicitness (`AE`), `C.2.6` for source and use conditions, `C.2.5` for closure degree, and `C.2.7` for representation factors.
 - `CC-A.16.1-7` A cue pack **SHALL NOT** claim that an endpoint test passed or that a stronger use is admitted; use the applicable endpoint pattern to test and publish that later result.
 

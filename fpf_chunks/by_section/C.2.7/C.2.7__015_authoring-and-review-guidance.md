@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.7"
-pattern_title: "U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
+pattern_title: "LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
 section_id: "C.2.7:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__015_authoring-and-review-guidance.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
+  - "C.2.7 — LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:14 — Authoring and Review Guidance"
-line_start: 53712
-line_end: 53727
+line_start: 54010
+line_end: 54025
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -48,5 +48,5 @@ To publish a representation-factor bundle, ask separately:
 Check whether the reported factors support the intended comparison. Do not infer unreported factors from one label without a relation that establishes them.
 
 #### C.2.7:14.3 - Cross-facet reminder
-Assurance readers should also watch for silent replacement of `LanguageStateAnchoringMode`, `AE`, or `CD` by representation talk.
+Assurance readers should also watch for silent replacement of the source and use claims recovered through C.2.6, `AE`, or `CD` by representation talk.
 

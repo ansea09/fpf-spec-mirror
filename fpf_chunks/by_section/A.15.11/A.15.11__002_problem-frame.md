@@ -6,12 +6,12 @@ section_id: "A.15.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__002_problem-frame.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.15.11 — Make Applicable Methods Noticeable in Work"
   - "A.15.11:1 — Problem frame"
-line_start: 32522
-line_end: 32535
+line_start: 32605
+line_end: 32618
 dependencies:
   - "A.15"
   - "A.15.7"

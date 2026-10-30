@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__013_sota-echoing.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:11 — SoTA-Echoing"
-line_start: 32119
-line_end: 32128
+line_start: 32202
+line_end: 32211
 dependencies:
   - "A.15.8"
   - "A.19"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.3.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
-line_start: 52443
-line_end: 52763
+line_start: 52664
+line_end: 52984
 dependencies:
   - "A.16"
   - "A.18"
@@ -351,7 +351,7 @@ When the same expression properties and conditions still answer the receiving qu
 
 #### C.2.3:19.3 - Boundary to language-state facets
 
-This pattern does not redefine `U.ArticulationExplicitness`, `U.LanguageStateClosureDegree`, `U.LanguageStateAnchoringMode` or `U.LanguageStateRepresentationFactorBundle`. C.2.LS and its subordinate patterns govern those facets. A formality assessment can refer to their results when relevant, but must not relabel them as steps of one rigor scale.
+C.2.4 governs articulation explicitness, C.2.5 governs closure degree, C.2.6 recovers source and use claims, and C.2.7 governs the representation-factor readings. C.2.LS brings selected results together in an optional profile. A formality assessment can refer to these results when relevant, but must not relabel them as steps of one rigor scale.
 
 ### C.2.3:End
 

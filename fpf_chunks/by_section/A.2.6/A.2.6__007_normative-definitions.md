@@ -6,12 +6,12 @@ section_id: "A.2.6:6"
 section_title: "Normative Definitions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__007_normative-definitions.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:6 — Normative Definitions"
-line_start: 6686
-line_end: 6898
+line_start: 6702
+line_end: 6916
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -60,7 +60,7 @@ Here `T : ContextSliceSet` is a finite target set, `F : Set[U.Scope]` is a finit
 **A.6.1 declaration A — `ScopeMembershipEvaluationMechanism`.**
 
 - `EntityOfConcernRef`: exact operation family `ScopeMembershipEvaluationOperationFamily = {evaluateMembership}`.
-- effective `U.ReferenceScheme`: the scheme under which this mechanism's argument, result, and application meanings are interpreted.
+- effective reference scheme: the scheme under which this mechanism's argument, result, and application meanings are interpreted.
 - `SubjectKind`: `U.Scope`.
 - `RangedValueKind`: `U.ContextSlice`.
 - `ResultKind`: declaration-local finite `U.Kind` `MembershipEvaluationValue = {true, false, unknown}` under C.3. Its membership rule admits exactly those three values. It is not a world-side third truth value, public U-kind, gate decision, or result episteme.
@@ -96,7 +96,7 @@ Here `T : ContextSliceSet` is a finite target set, `F : Set[U.Scope]` is a finit
 **A.6.1 declaration B — `ScopeDerivationMechanism`.**
 
 - `EntityOfConcernRef`: exact operation family `ScopeDerivationOperationFamily = {deriveIntersectionScope, deriveSpanUnionScope, deriveTranslatedScope}`.
-- effective `U.ReferenceScheme`: the scheme under which this mechanism's operation meanings and returned scopes are interpreted.
+- effective reference scheme: the scheme under which this mechanism's operation meanings and returned scopes are interpreted.
 - `SubjectKind`: `U.Scope`.
 - `RangedValueKind`: `U.Scope`; each derivation operation still returns a `U.Scope`, so no distinct mechanism-level `ResultKind` is current.
 - `SliceSet` and `ExtentRule`: absent for the same A.6.0 reason stated above.
@@ -111,8 +111,10 @@ Here `T : ContextSliceSet` is a finite target set, `F : Set[U.Scope]` is a finit
 | `deriveTranslatedScope` | argument `sourceScope` | exact source scope whose extension is mapped | `U.Scope` | `ByValue` | this application maps the bound scope value | exactly 1 |
 |  | argument `bridgeOccurrence` | exact obtaining F.9 Bridge whose direct semantic relation is used | `U.Relation` | `ByGovernedReference` | the reference resolves to the exact obtaining occurrence actually used by this application; it carries no use-specific rule, tolerance, or reliance | exactly 1 |
 |  | argument `scopeTranslationClaim` | exact current C.2.1 claim that says the bound Bridge is suitable for this named scope translation | `U.Episteme` | `ByGovernedReference` | the reference resolves to the exact affirmative claim whose EntityOfConcern is the bound Bridge and whose content names this use, direction, rule, and tolerance | exactly 1 |
-|  | argument `targetReferenceScheme` | exact scheme under which target slices and their local senses are interpreted | `U.ReferenceScheme` | `ByValue` | this application interprets the returned target-slice extension under the bound scheme | exactly 1 |
+|  | argument `targetReferenceScheme` | exact scheme under which target slices and their local senses are interpreted | `EpistemeInterpretationScheme` (C.2.1:4.1.2) | `ByValue` | this application interprets the returned target-slice extension under the bound scheme | exactly 1 |
 |  | result `derivedScope` | exact extensional scope returned for the target image selected by the claim's rule and tolerance | `U.Scope` | `ByValue` | this application returns this independently identifiable scope value | exactly 1 |
+
+The target scheme is the exact rule collection classified by C.2.1:4.1.2, including the rules needed to read the target slices and local senses. A scheme can pass that range test while the proposed translation lacks its required mapping or bounded-use basis. Apply the translated-scope law to the actual bound value; range membership supplies neither that mapping nor any additional scope support.
 
 **ApplicationPredicate rules.** `deriveIntersectionScope` returns the scope represented under C.29 by `intersection of extension(S) for S in scopeFamily`. `deriveSpanUnionScope` implements the already established `SpanUnion`: it is admitted only when `independenceBasis` establishes the section 7.3 independence condition and returns the scope represented by `SpanUnion(scopeFamily)`. `deriveTranslatedScope` is admitted only when the bound Bridge obtains and the bound C.2.1 claim has that Bridge as EntityOfConcern, affirmative polarity, and content naming this scope-translation use, its direction, rule, and tolerance. The application applies that rule within that tolerance and returns the scope represented by `translate(bridgeOccurrence, scopeTranslationClaim, sourceScope, targetReferenceScheme)`. The formulae and claim alone declare no application or result binding.
 

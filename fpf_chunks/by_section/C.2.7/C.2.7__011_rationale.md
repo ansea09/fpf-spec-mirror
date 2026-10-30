@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.7"
-pattern_title: "U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
+pattern_title: "LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
 section_id: "C.2.7:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__011_rationale.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
+  - "C.2.7 — LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:10 — Rationale"
-line_start: 53691
-line_end: 53693
+line_start: 53984
+line_end: 53986
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -35,5 +35,5 @@ keywords:
 ---
 
 ### C.2.7:10 - Rationale
-Separate representation factors let the reader compare code organization while assessing articulation, closure and anchoring on their own grounds.
+Separate representation factors let the reader compare code organization while assessing articulation and closure and establishing the required source or use claims on their own grounds. The starter triple earns its place through the three receiving questions in :4.1.1. A direct selection of other representation Characteristics is preferable when it answers the actual task with less irrelevant assessment.
 

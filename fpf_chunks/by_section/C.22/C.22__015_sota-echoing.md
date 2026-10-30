@@ -6,12 +6,12 @@ section_id: "C.22:12.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__015_sota-echoing.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:12.1 — SoTA-Echoing"
-line_start: 62457
-line_end: 62467
+line_start: 62755
+line_end: 62765
 dependencies:
   - "A.6.0"
   - "C.16"

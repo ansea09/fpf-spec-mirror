@@ -6,12 +6,12 @@ section_id: "C.16.IR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__007_bias-annotation.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:6 — Bias-Annotation"
-line_start: 58589
-line_end: 58594
+line_start: 58887
+line_end: 58892
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

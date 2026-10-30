@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.5"
-pattern_title: "U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
+pattern_title: "Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
 section_id: "C.2.5:18"
 section_title: "Review Matrix and Reopen Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__019_review-matrix-and-reopen-tests.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
+  - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:18 — Review Matrix and Reopen Tests"
-line_start: 53408
-line_end: 53427
+line_start: 53685
+line_end: 53704
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -48,7 +48,7 @@ An assurance reader should ask:
 When a receiving action relies on "final", "settled", or "decided", check the actual scope and source of fixation and any applicable guard. A final-sounding word alone does not establish those conditions.
 
 #### C.2.5:18.3 - Cross-facet reminder
-Low `CD` does not imply low articulation, low anchoring, or poor representation.
+Assess articulation under C.2.4 and representation under C.2.7 independently of closure. Source, evidence, access and action conditions retain their separate claims under C.2.6.
 
 #### C.2.5:18.4 - Split-closure review case
 A publication may be closed enough for immediate local work use or reliance use while remaining open about broader explanation, long-horizon consequences, or alternative classification. Allow the split when locality is explicit; reject prose that advertises whole-case finality when only one language-state segment is fixed.

@@ -6,12 +6,12 @@ section_id: "B.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__006_solution.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:4 — Solution"
-line_start: 43249
-line_end: 43379
+line_start: 43342
+line_end: 43486
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,6 +31,8 @@ dependencies:
   - "B.2.5"
   - "B.2.P"
   - "B.3"
+  - "B.5.TC"
+  - "B.5.TU"
   - "C.13"
   - "C.16"
   - "C.2.1"
@@ -47,7 +49,7 @@ keywords:
 
 Use B.2 as a world-side whole-reidentification pattern. Start with the actual wholes and the facts governed by their direct patterns; add records only when a receiving use needs them.
 
-Name what the receiving work needs from a whole: for example, a system bearing an operational capability or an episteme supporting a particular conclusion. Establish which prior whole, if any, is being compared. For a first constitution, obtain the construction facts under the applicable subject pattern and then apply A.1. For a first recognition of an existing whole, apply A.1 to the facts already obtaining; the recognition date does not establish when the whole came into existence. If the prior identity grounds are unavailable, leave that question unresolved. None of these situations supplies a prior holon for `existingWholeRef` by itself.
+Name what the receiving work needs from a whole: for example, a system bearing an operational capability or an episteme supporting a particular conclusion. Establish which prior whole, if any, is being compared. For a first constitution, obtain the construction facts under the applicable subject pattern and then apply A.1. For a first recognition of an existing whole, apply A.1 to the facts already obtaining; the recognition date does not establish when the whole came into existence. When the prior identity grounds are unavailable or disputed, use :4.0 to recover or compare their basis. Keep the identity question unresolved until that work supplies the deciding grounds. None of these situations supplies a prior holon for `existingWholeRef` by itself.
 
 With an established prior whole:
 
@@ -59,6 +61,20 @@ With an established prior whole:
 6. Materialize a trigger profile, optional explanation-result episteme, reidentification assertion, or record only when a named receiving use must inspect, cite, compare, or preserve that claim.
 
 The optional `MHTTriggerProfile`, `ExistingWholeExplanationResult`, and `HolonReidentificationRecord` are ordinary C.2.1 epistemes. Their content can designate exact wholes, facts, claims, and relation occurrences; the content fields are not world-side participants and supply no substitute for the preceding move.
+
+#### B.2:4.0 - Establish the identity grounds for the comparison
+
+Use this branch when the comparison needs an identity criterion that is unavailable or contested. A sufficient criterion already supplied by the admitted kind and subject practice can be used directly in :4.2. Here the useful result is a justified rule for the whole being compared, or the particular missing ground that prevents choosing one.
+
+**Recover the subject of the identity claim.** State what continuing whole the receiving question concerns and which construction makes it that whole. A commissioned installation, the resources currently performing an order and a supervisor's jurisdiction can overlap materially while answering different questions. Recover their constituents, organizing relations and relevant occasions before treating their descriptions as rival accounts of one individual. Use A.1 and the kind-specific pattern for the corresponding recognition question. When two accounts concern different subjects, keep each subject and its own continuity conditions.
+
+**Recover what warrants each proposed rule.** Find the domain account that makes the proposed conditions relevant to this whole: for example, the constitutive organization described by a design, an established lifecycle practice, or a theory of the object's persistence. Follow its reasons into what may change and what ends the individual. Distinguish a condition sufficient for continuity from one merely necessary for it. An identifier, observation or test can help recognize that condition; recover the connection that gives it identifying force. For an institutionally constituted object, the applicable constituting rule can itself supply identity conditions. For a physical organization, a proposed rule also has to fit the actual organization and changes. A convenient model boundary answers only the questions warranted by its correspondence to that subject.
+
+**Compare the consequential alternatives through B.5.TC.** Give each proposed account the same identity question and corresponding facts; recover its reasoning, then vary the condition on which the accounts disagree. Choose variations from the disputed claim. Replacement can expose whether the criterion preserves an organization or requires a fixed collection of parts. A temporary loss of functioning tests whether incapacity has been confused with the end of its bearer. A transfer of control tests whether the question follows the installation or a particular control relationship. Two independently constituted systems with the same output test whether a proposed condition distinguishes individuals or only capability. Division, merger or reconstruction matters when one of those events changes the receiving decision. For an episteme, compare its ClaimGraph, EntityOfConcern and effective ReferenceScheme under C.2.1 even when its carriers differ.
+
+Locate the first reason for disagreement, as B.5.TC:4.4 explains. It may be a different subject, an incompatible domain premise or a missing fact about one continuing whole. A counterexample can defeat a proposed criterion; the surviving proposal still needs the positive domain grounds that license its continuity claims. When a theory's application is unclear, B.5.TU supplies that recovery. Obtain a specialist result or further inquiry only for the consequential ground still missing, using C.11.DUA to judge its attainable contribution and burden.
+
+**Return the criterion to the identity comparison.** State the selected subject, the rule and its grounds, the changes it permits, and the event or condition that would end continuity. Keep a qualified or partial rule at the strength actually supported. Feed those results into :4.2 and use A.1.RI when observations still need to be associated under the rule. Complementary accounts keep their different subjects; unresolved competing criteria for the same subject retain their conditional answers and the fact or domain commitment needed to decide between them. If their difference cannot affect the receiving work, continue that work at its supported scope. A broader identity conclusion remains open.
 
 #### B.2:4.1 - MHTTriggerProfile
 
@@ -168,7 +184,7 @@ Keep these five distinctions explicit:
 
 - the existing whole and candidate new whole, their constituents, obtaining constructive relations, assemblies, characteristics, and identity rules are world-side objects and facts under their direct patterns;
 - a B.2 whole-reidentification assertion is a C.2.1 episteme about those objects;
-- evidence and assurance relations support or warrant the assertion's claim content but create neither whole and decide neither identity rule;
+- evidence and assurance relations support or warrant claims about construction and identity grounds, including the reasoned choice of an applicable criterion in :4.0;
 - use G.11 to determine whether the selected assertion or record edition is current for the receiving use;
 - a person or system performing the receiving work decides whether to rely, decline to rely, defer, or reopen.
 

@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__002_use-this-when.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:0 — Use This When"
-line_start: 10144
-line_end: 10164
+line_start: 10162
+line_end: 10182
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"

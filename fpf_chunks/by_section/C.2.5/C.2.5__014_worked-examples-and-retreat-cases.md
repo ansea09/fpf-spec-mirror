@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.5"
-pattern_title: "U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
+pattern_title: "Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
 section_id: "C.2.5:13"
 section_title: "Worked Examples and Retreat Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__014_worked-examples-and-retreat-cases.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?"
+  - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:13 — Worked Examples and Retreat Cases"
-line_start: 53335
-line_end: 53345
+line_start: 53610
+line_end: 53622
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,7 +36,9 @@ keywords:
 ### C.2.5:13 - Worked Examples and Retreat Cases
 
 #### C.2.5:13.1 - Explicit but still open
-A note may sit at `AE4` yet only `CD1` because rival explanatory frames are still live. Explicit publication does not imply settled closure.
+The constructed `Pump-alert-21` in C.2.LS:13.1 makes its diagnostic question and the contrasting implications of three alternatives explicit. It has `AE4` for that question and `CD1` because all three alternatives remain live. When an accepted reference-gauge reading excludes one alternative, the candidate field narrows to `CD2`; neither remaining route is selected. The question remains fully articulated at `AE4`.
+
+A practitioner choosing the next diagnostic question can use the stated alternatives and observations directly. A chart or comparison that needs both Scales can use the separate readings. The full case supplies the observations and discrimination rule; the two levels alone would not justify excluding a candidate.
 
 #### C.2.5:13.2 - Strong closure under policy guard
 An operator rule may be only moderate in `AE` but high in `CD` because policy already fixes the next step under the current horizon. This shows why closure is governance-facing, not merely stylistic.

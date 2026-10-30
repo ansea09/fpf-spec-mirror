@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__001_intro.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:intro — Intro"
-line_start: 9934
-line_end: 9938
+line_start: 9952
+line_end: 9956
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"

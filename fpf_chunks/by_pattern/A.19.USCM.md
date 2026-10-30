@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.USCM.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
-line_start: 38017
-line_end: 38356
+line_start: 38100
+line_end: 38439
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"

@@ -6,12 +6,12 @@ section_id: "E.10.INT:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__011_architectural-rationale.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:10 — Architectural Rationale"
-line_start: 100299
-line_end: 100304
+line_start: 100599
+line_end: 100604
 dependencies:
   - "C.11"
   - "C.16"

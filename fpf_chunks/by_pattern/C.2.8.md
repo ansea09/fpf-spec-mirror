@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "C.2.8"
-pattern_title: "U.ExtractableStructuralInformation — Structure This Reader Can Recover"
+pattern_title: "ExtractableStructuralInformation — Structure This Reader Can Recover"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.8.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.8 — U.ExtractableStructuralInformation — Structure This Reader Can Recover"
-line_start: 53781
-line_end: 54027
+  - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
+line_start: 54079
+line_end: 54325
 dependencies:
   - "A.17"
   - "A.18"
@@ -33,7 +33,7 @@ keywords:
   - "structural information"
 ---
 
-## C.2.8 - `U.ExtractableStructuralInformation` — Structure This Reader Can Recover
+## C.2.8 - `ExtractableStructuralInformation` — Structure This Reader Can Recover
 
 > **Type:** Definitional (D)
 > **Status:** Stable
@@ -83,7 +83,7 @@ Stop when that structural comparison answers the current question. If the select
 
 #### C.2.8:4.2 - Characteristic and arity
 
-**Tech name:** `U.ExtractableStructuralInformation`. **Plain name:** structure this reader or observer can extract. `ESI` is an abbreviation after the full name has been introduced.
+**Tech name:** `ExtractableStructuralInformation`. **Plain name:** structure this reader or observer can extract. `ESI` is an abbreviation after the full name has been introduced.
 
 This is an A.17 `U.RelationCharacteristic`, with arity three over the ordered tuple:
 
@@ -91,7 +91,7 @@ This is an A.17 `U.RelationCharacteristic`, with arity three over the ordered tu
 (expressed episteme E, expressing publication form P, reader or observer O)
 ```
 
-Its aspect is the amount of selected structure correctly extractable from E through P by O under stated comparison conditions. The characteristic is a dependent characteristic, not a root U-kind.
+Its aspect is the amount of selected structure correctly extractable from E through P by O under stated comparison conditions.
 
 E retains its C.2.1 identity. P is the entity expressing that episteme in the applicable E.24.PUB publication-form relation and retains the more specific kind supplied by its form pattern. O is the specified human or computational observer. An estimate about a reader class states the relevant preparation and variation among its members; it does not treat the class as another individual reader.
 
@@ -153,7 +153,7 @@ Use epiplexity as a formal specialization where that correspondence holds. Other
 
 #### C.2.8:4.7 - Articulation, effort and useful change
 
-C.2.4 `U.ArticulationExplicitness` orders progression from a cue to explicit branch-appropriate meaning and stable receiving use. ESI compares the selected structure extractable by an observer under a budget. Two complete descriptions at the same AE level can have different ESI; a reader's difficulty alone does not establish that the semantic branch was left unarticulated.
+Articulation explicitness (`AE`, C.2.4) orders progression from a cue to explicit branch-appropriate meaning and stable receiving use. ESI compares the selected structure extractable by an observer under a budget. Two complete descriptions at the same AE level can have different ESI; a reader's difficulty alone does not establish that the semantic branch was left unarticulated.
 
 Measure or compare extraction effort separately. Two expressions may expose the same structure at different cost. Additional selected structure may also be irrelevant to the next task or displace more valuable work. C.11.CRC/C.11 make the marginal choice using the structural result, cost, protected results and receiving value. The chosen result may be the current sufficient explanation.
 

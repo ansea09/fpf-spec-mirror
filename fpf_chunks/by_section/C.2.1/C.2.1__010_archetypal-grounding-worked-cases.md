@@ -6,12 +6,12 @@ section_id: "C.2.1:9"
 section_title: "Archetypal Grounding — Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__010_archetypal-grounding-worked-cases.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:9 — Archetypal Grounding — Worked Cases"
-line_start: 51196
-line_end: 51257
+line_start: 51403
+line_end: 51479
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -102,6 +102,15 @@ Wiring-model episteme `E1` concerns exact harness `H` under reference scheme `S1
 
 The wiring-diagram representation under its stated diagram scheme represents the connectivity of `H`; its mapping resolves connector marks and pin marks to the independently identified connectors and pins. A layout-only transition preserves connector identity, pin identity, and connection predicates. If the diagram omits a connection that remains in `E1`'s ClaimGraph, that representation loses one connection predicate. If a revised legend no longer resolves an earlier mark to its connector, that mark-to-connector reference is lost. The diagram remains admissible for maintenance diagnosis only while the connections on which that diagnosis depends are preserved and recoverable; stop that use or return to the source relation structure when they are not.
 
+For a concrete typed receiving use, let local kind `K_H` admit already identified epistemes about H whose complete content consists of affirmative or negative physical-connectivity claims between identified pins under S1. The criterion excludes other subjects, proximity readings, and additional claim families; it classifies whole epistemes, not claim-content or scheme individuals. C.3.2 judges candidates against that criterion. Let E1 assert that pin P1 is connected to pin P2.
+
+| Proposed replacement | Constitution and receiving-use result |
+| --- | --- |
+| a layout change preserving every connector, pin, connection claim, and S1 rule | the same E1; the receiver still checks that its representation exposes the connections needed for diagnosis |
+| the same claim field now denies that P1 is connected to P2 | a different episteme that still meets K_H; admissible input does not mean equal content or a conservative replacement of E1 |
+| the same marks now mean spatial proximity under S2 | a different episteme because interpretation changes; it fails K_H's fixed physical-connectivity criterion |
+| a proposed input whose governing legend is unavailable | membership and any identity comparison depending on that legend remain unresolved; a PDF carrier alone is not an episteme candidate |
+
 A readability score can improve while the diagram makes the connections needed for diagnosis harder to recover. When that score is used as the practical value, apply `E.13`: name the intended diagnostic value, the readability proxy, and what became worse. Use the representation branch in :4.0 for the transition and its preserved or lost structure.
 
 #### C.2.1:9.8 - Trained or probe-derived representation and tool-using inference
@@ -113,4 +122,10 @@ For a claim about particular inference or tool-call Work, open :4.0's Work branc
 An answer may carry a proposed solution, while an evaluation report states whether it passes a named test. To rely on the solution, inspect the support relevant to its claim; to assert empirical grounding, test :4.3's exact covered-claim mappings. A successful call or score does not supply those mappings.
 
 When a changed tool regime changes inference behavior, locate the changed method, Work or representation and the evidence used to assess it. Update the grounding occurrence if its coverage predicate changes. Reidentify an episteme only when claim content, EntityOfConcern or effective reference scheme changes.
+
+#### C.2.1:9.9 - Develop a naming claim in writing
+
+A naming note starts with a concern that the proposed name hides a distinction. Following C.2.4:4.6, the author writes competing interpretations, identifies what the name would designate, and states the reason for preferring one reading. The note helps obtain the claim; a completed NameCard is useful only when the naming work needs its arrangement and comparison. Identify the resulting claim-bearing whole under :4.1.1 once its content, subject, and interpretation are recoverable.
+
+Suppose the designation claim in that card stays the same, but `SelectionRationale` now asserts a different reason for the choice. The complete asserted content changed, so the card's episteme changed. Merely reordering fields or making the same reason easier to read can preserve it. A newly asserted reason needs its own support; preserving the designation does not transfer the earlier justification. If only an external evidence-use relation changes while every assertion in the card stays fixed, reconsider that relation and reliance without automatically changing the card's episteme.
 

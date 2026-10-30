@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.7"
-pattern_title: "U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
+pattern_title: "LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
 section_id: "C.2.7:18"
 section_title: "Review Matrix and Extension Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__019_review-matrix-and-extension-tests.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
+  - "C.2.7 — LanguageStateRepresentationFactorBundle — How Is the Representation Organized?"
   - "C.2.7:18 — Review Matrix and Extension Tests"
-line_start: 53760
-line_end: 53778
+line_start: 54058
+line_end: 54076
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -42,7 +42,7 @@ An assurance reader should ask:
 - are all claimed factors visible in the publication or cited source;
 - does any alias hide the factor bundle;
 - is one factor being used as if it summarized the whole representation state;
-- has representation talk started to replace articulation, closure, or anchoring claims.
+- has representation talk started to replace articulation, closure, or source and use claims.
 
 #### C.2.7:18.2 - Local extension test
 An additional factor is justified only if it captures a distinct representational question that cannot be reduced to locality, sparsity, or symbolicity. The extra factor should extend the bundle, not become a rival master factor.

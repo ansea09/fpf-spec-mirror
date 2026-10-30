@@ -6,12 +6,12 @@ section_id: "B.5.RR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__006_archetypal-grounding.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:5 — Archetypal Grounding"
-line_start: 48100
-line_end: 48133
+line_start: 48222
+line_end: 48255
 dependencies:
   - "B.5"
   - "B.5.MPC.R"

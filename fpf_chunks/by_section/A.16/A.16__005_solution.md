@@ -6,12 +6,12 @@ section_id: "A.16:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__005_solution.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:4 — Solution"
-line_start: 33273
-line_end: 33367
+line_start: 33356
+line_end: 33450
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -86,7 +86,7 @@ Do not use A.16 to decide measurement admissibility, Bridge substitution, endpoi
 
 #### A.16:4.2 - Guard discipline
 
-State the guard through named language-state facets and the route condition that matters. Use `AE` from `C.2.4`, `CD` from `C.2.5`, `LanguageStateAnchoringMode` from `C.2.6`, and `LanguageStateRepresentationFactorBundle` from `C.2.7`, separately or through one published facet profile. Add witnesses, scope, and `GammaTime` selectors when needed. “The idea matured” is not a guard.
+State the guard through named language-state facets and the route condition that matters. Use `AE` from `C.2.4`, `CD` from `C.2.5` and the representation-factor readings from `C.2.7`. State required source, evidence, access or action conditions separately under C.2.6. A guard can use both readings and direct relation claims, cited separately or through one published profile; a relation account is not a CharacteristicSpace slot. Add witnesses, scope, and `GammaTime` selectors when needed. “The idea matured” is not a guard.
 
 A summarized chain may omit repeated unchanged fields, but it must leave every move identity, endpoint-rule change, loss, and status change that affects interpretation reconstructible. A later higher-closure publication does not retroactively strengthen an earlier cue; later retreat does not erase the earlier publication.
 

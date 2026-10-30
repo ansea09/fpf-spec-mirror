@@ -6,12 +6,12 @@ section_id: "F.16:7"
 section_title: "Optional comparison panel"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__008_optional-comparison-panel.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:7 — Optional comparison panel"
-line_start: 123063
-line_end: 123071
+line_start: 123381
+line_end: 123389
 dependencies:
   - "A.10"
   - "A.15"

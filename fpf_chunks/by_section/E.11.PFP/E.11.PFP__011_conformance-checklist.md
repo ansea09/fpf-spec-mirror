@@ -6,12 +6,12 @@ section_id: "E.11.PFP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__011_conformance-checklist.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:7 — Conformance Checklist"
-line_start: 103932
-line_end: 103957
+line_start: 104239
+line_end: 104264
 dependencies:
   - "A.3.2"
   - "C.29"

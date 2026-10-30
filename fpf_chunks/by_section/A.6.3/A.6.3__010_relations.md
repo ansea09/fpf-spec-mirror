@@ -6,12 +6,12 @@ section_id: "A.6.3:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__010_relations.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:9 — Relations"
-line_start: 17654
-line_end: 17667
+line_start: 17737
+line_end: 17750
 dependencies:
   - "A.13"
   - "A.15.1"

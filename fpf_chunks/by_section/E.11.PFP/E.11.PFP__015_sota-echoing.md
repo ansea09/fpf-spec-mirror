@@ -6,12 +6,12 @@ section_id: "E.11.PFP:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__015_sota-echoing.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:11 — SoTA-Echoing"
-line_start: 103992
-line_end: 103999
+line_start: 104299
+line_end: 104306
 dependencies:
   - "A.3.2"
   - "C.29"

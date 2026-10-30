@@ -6,12 +6,12 @@ section_id: "A.15.4:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__012_rationale.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:7 — Rationale"
-line_start: 30699
-line_end: 30704
+line_start: 30782
+line_end: 30787
 dependencies:
   - "A.10"
   - "A.13"

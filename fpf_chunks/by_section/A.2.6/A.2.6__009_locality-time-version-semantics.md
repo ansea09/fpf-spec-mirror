@@ -6,12 +6,12 @@ section_id: "A.2.6:8"
 section_title: "Locality, Time & Version Semantics"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__009_locality-time-version-semantics.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:8 — Locality, Time & Version Semantics"
-line_start: 6999
-line_end: 7022
+line_start: 7017
+line_end: 7040
 dependencies:
   - "A.1.1"
   - "A.15.1"

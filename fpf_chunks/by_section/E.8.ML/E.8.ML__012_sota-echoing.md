@@ -6,12 +6,12 @@ section_id: "E.8.ML:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__012_sota-echoing.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:11 — SoTA-Echoing"
-line_start: 97185
-line_end: 97192
+line_start: 97485
+line_end: 97492
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"

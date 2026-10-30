@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.41.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.41 — Select Checklist Questions for a Work Result"
-line_start: 88273
-line_end: 88513
+line_start: 88573
+line_end: 88813
 dependencies:
   - "A.3.1"
   - "A.3.2"

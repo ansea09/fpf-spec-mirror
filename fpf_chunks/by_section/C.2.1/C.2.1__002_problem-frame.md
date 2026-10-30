@@ -6,12 +6,12 @@ section_id: "C.2.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__002_problem-frame.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:1 — Problem Frame"
-line_start: 50785
-line_end: 50795
+line_start: 50907
+line_end: 50917
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -57,7 +57,7 @@ keywords:
 FPF treats an episteme as a holon, not as a document class or a filled record. It is a claim-bearing whole about an exact EntityOfConcern under an effective reference scheme. Carriers, notations, and admissible operations can differ; the identity question is what makes this one episteme and what changes it.
 
 
-The core constructive question is whether an exact `U.ClaimGraph`, exact `U.Entity`, and effective `U.ReferenceScheme` stand in the relation that makes the claim content interpretable and evaluable as claims about that entity. When they do, their selected organization yields a whole-level epistemic characteristic: the resulting holon can be used as one defeasible or deductive body of knowledge. That characteristic is not supplied by any one participant alone.
+The core constructive question is whether an exact `ClaimGraph`, exact `U.Entity`, and effective `ReferenceScheme` stand in the relation that makes the claim content interpretable and evaluable as claims about that entity. When they do, their selected organization yields a whole-level epistemic characteristic: the resulting holon can be used as one defeasible or deductive body of knowledge. That characteristic is not supplied by any one participant alone.
 
 Any exact `U.Entity` can participate as the EntityOfConcern. An episteme can therefore concern another episteme or itself without changing the constitution relation.
 

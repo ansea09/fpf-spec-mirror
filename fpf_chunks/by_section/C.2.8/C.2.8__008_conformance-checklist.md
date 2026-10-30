@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.8"
-pattern_title: "U.ExtractableStructuralInformation — Structure This Reader Can Recover"
+pattern_title: "ExtractableStructuralInformation — Structure This Reader Can Recover"
 section_id: "C.2.8:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__008_conformance-checklist.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.8 — U.ExtractableStructuralInformation — Structure This Reader Can Recover"
+  - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:7 — Conformance Checklist"
-line_start: 53958
-line_end: 53972
+line_start: 54256
+line_end: 54270
 dependencies:
   - "A.17"
   - "A.18"

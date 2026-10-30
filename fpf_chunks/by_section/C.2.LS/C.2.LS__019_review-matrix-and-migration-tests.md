@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.LS"
-pattern_title: "U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
+pattern_title: "Language-State Facet Profile: Publish Readings and Use Conditions Together"
 section_id: "C.2.LS:18"
 section_title: "Review Matrix and Migration Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__019_review-matrix-and-migration-tests.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
+  - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:18 — Review Matrix and Migration Tests"
-line_start: 53010
-line_end: 53027
+line_start: 53251
+line_end: 53268
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -21,6 +21,7 @@ dependencies:
   - "A.19"
   - "B.4.1"
   - "B.5.2.0"
+  - "C.2.1"
   - "C.2.2a"
   - "C.2.3"
   - "C.2.4"
@@ -29,15 +30,16 @@ dependencies:
   - "C.2.6"
   - "C.2.7"
   - "E.18"
+  - "E.24.PUB"
   - "F.9"
   - "F.9.1"
 keywords:
-  - "anchoring"
   - "articulation"
   - "closure"
   - "facet profile"
+  - "local thresholds"
   - "representation factors"
-  - "threshold package"
+  - "source and use claims"
 ---
 
 ### C.2.LS:18 - Review Matrix and Migration Tests
@@ -53,7 +55,7 @@ An assurance reader should ask:
 - if viewpoint conformance is claimed, was it tested under `E.17.0`?
 
 #### C.2.LS:18.2 - Migration test for source prose
-When a receiving use depends on a source phrase such as "still immature" or "already stable enough", recover the claimed facet reading, its grounds, any threshold or route consequence, and the cited rule that warrants that consequence. Add an external `authoritySourceRef` only when an external authority actually supplies the rule.
+When a receiving use depends on a source phrase such as "still immature" or "already stable enough", recover the claimed reading or relation, its grounds, any threshold or route consequence, and the cited rule that warrants that consequence. Add an external `authoritySourceRef` only when an external authority actually supplies the rule.
 
 #### C.2.LS:18.3 - Comparative profile use
 Compare profiles on the named facets. A missing reading leaves that facet's comparison unresolved. A reporting aggregate needs a declared local model and operations admissible for the actual Scales under A.18/A.19; publishing an aggregation rule alone does not establish that basis. The aggregate remains secondary and must not replace the profile in norms, thresholds, or Bridge claims.

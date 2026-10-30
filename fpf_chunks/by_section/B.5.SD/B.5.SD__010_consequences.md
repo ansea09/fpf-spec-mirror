@@ -6,12 +6,12 @@ section_id: "B.5.SD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__010_consequences.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "B.5.SD — Construct a Useful Answer through Substantive Discussion"
   - "B.5.SD:9 — Consequences"
-line_start: 50608
-line_end: 50613
+line_start: 50730
+line_end: 50735
 dependencies:
   - "A.3.1"
   - "B.5.RA"

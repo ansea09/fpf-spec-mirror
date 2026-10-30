@@ -6,12 +6,12 @@ section_id: "A.6.B:5"
 section_title: "Quadrant specifications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__007_quadrant-specifications.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:5 — Quadrant specifications"
-line_start: 14640
-line_end: 14751
+line_start: 14686
+line_end: 14797
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -42,7 +42,6 @@ keywords:
   - "(ii) encode runtime entry predicates (those are A-)"
   - "Keeps normative content"
   - "MAY"
-  - "MUST"
   - "MUST NOT"
   - "SHALL"
   - "SHOULD"
@@ -51,7 +50,6 @@ keywords:
   - "accountable norms and grants"
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
-  - "and MAY"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -74,9 +72,6 @@ keywords:
   - "responsibility"
   - "then establish the E result under its own predicate"
   - "they report adjudicable results rather than obligations"
-  - "“commits to”)"
-  - "“is admissible”"
-  - "“is blocked”"
   - "”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
 ---
 
@@ -110,7 +105,7 @@ EntityOfConcern need not itself be a description and may be Work.
 
 **Applicability and admissibility.** Signature `Applicability` scopes intended use and bounded context; runtime entry predicates belong in `U.Mechanism.AdmissibilityConditions` as `A-*`. If prose says “clients must satisfy the applicability”, first recover whether it means the declared scope or an actual entry condition. State the generic `D-*` prescription, or the independently instituted individual duty, separately and reference the condition it actually requires. Classify that condition as `A-*` only when it is an entry predicate.
 
-**Adjudication.** In‑work: evaluated at mechanism entry (or operationally at the point the mechanism is applied).
+**Adjudication.** Inspect the declared entry rule and its inputs to establish the A claim. Evaluate that predicate at mechanism entry or the stated application point to obtain a particular satisfaction or gate-decision result; report that result separately in E.
 
 **Canonical form.** Predicate style, e.g.:
 
@@ -166,7 +161,7 @@ The assertion states and supports a claim about the relation. Its fields, public
 
 #### A.6.B:5.4 — Quadrant E: Work‑Effects & Evidence
 
-**Intent.** State a truth-conditional result that can be settled only from actual work, evaluation, observation, or produced carriers.
+**Intent.** State an actual occurrence, evaluated finding, observed condition or evidence-support claim. Settle it from the actual work, evaluation, observation, or carrier conditions required by its predicate.
 
 **Adjudication.** From actual work, evaluation or observation under the claim’s subject predicate. A record can support that judgment through its evidence relation; its presence alone does not settle the claim.
 

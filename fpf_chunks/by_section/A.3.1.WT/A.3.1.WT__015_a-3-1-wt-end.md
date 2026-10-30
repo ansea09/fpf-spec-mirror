@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:End"
 section_title: "A.3.1.WT:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__015_a-3-1-wt-end.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:End — A.3.1.WT:End"
-line_start: 10502
-line_end: 10503
+line_start: 10520
+line_end: 10521
 dependencies:
   - "A.10"
   - "A.15.1"

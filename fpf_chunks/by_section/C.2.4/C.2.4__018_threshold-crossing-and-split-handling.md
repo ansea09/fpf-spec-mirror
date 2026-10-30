@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.4"
-pattern_title: "U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
+pattern_title: "Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
 section_id: "C.2.4:17"
 section_title: "Threshold Crossing and Split Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__018_threshold-crossing-and-split-handling.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
+  - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:17 — Threshold Crossing and Split Handling"
-line_start: 53193
-line_end: 53214
+line_start: 53458
+line_end: 53479
 dependencies:
   - "A.13"
   - "A.15"

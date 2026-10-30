@@ -6,12 +6,12 @@ section_id: "B.2:11"
 section_title: "Decision-bearing SoTA account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__013_decision-bearing-sota-account.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:11 — Decision-bearing SoTA account"
-line_start: 43503
-line_end: 43513
+line_start: 43624
+line_end: 43634
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,6 +31,8 @@ dependencies:
   - "B.2.5"
   - "B.2.P"
   - "B.3"
+  - "B.5.TC"
+  - "B.5.TU"
   - "C.13"
   - "C.16"
   - "C.2.1"
@@ -52,5 +54,5 @@ keywords:
 | How should agency bear on whole reidentification? | Michael Levin, [*Technological Approach to Mind Everywhere*](https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2022.768201/full) (2022). | **Adopt** non-binary, multi-characteristic, empirically tested agency and multi-scale competency as possible evidence about a system. **Reject** an agency label or threshold as a root kind or automatic new-whole result. | Section 4.5 keeps agency as one possible trigger whose direct characteristics must affect closure, objective, supervision, or identity. |
 | What can a multiscale mathematical signal contribute? | Akhtyrchenko, Katsnelson, and Ustyuzhanin, [*Directing Open-Ended Evolution in Artificial Life via Multi-Scale Path Divergence*](https://arxiv.org/abs/2606.17091) (v2, 3 August 2026), defines MSPD over realized trajectories as a multiscale analytical and optimization measure. | **Adopt** MSPD as a possible exact analytical input when its trajectory assumptions match the case. **Reject** a high MSPD, RG-like score, graph pattern, or benchmark jump as whole reidentification. | Sections 0, 4.7, and 8 route the mathematical result through C.29 and still require the B.2 identity comparison. |
 
-These sources answer different questions. Use each contribution within its stated scope; the whole-reidentification conclusion still requires the comparison of identity and construction facts.
+Constructional ontology makes the identity consequences of inputs and organizing relations inspectable. Its applied use depends on the intended ontology and domain commitments; those grounds determine which proposed construction answers the identity question. Section :4.0 connects their recovery with B.5.TC's comparison of competing accounts. The manufacturing studies contribute reasons for control organization and reconfiguration; a production or recovery result supports the corresponding behavioral claim. Identifying the continuing individual additionally needs its construction and continuity grounds. The case in :5.7 develops that connection under explicit engineering premises.
 

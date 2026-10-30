@@ -6,12 +6,12 @@ section_id: "B.1.3:5"
 section_title: "Archetypal grounding (worked, didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__006_archetypal-grounding-worked-didactic.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:5 — Archetypal grounding (worked, didactic)"
-line_start: 41655
-line_end: 41694
+line_start: 41746
+line_end: 41787
 dependencies:
   - "A.1"
   - "A.10"
@@ -70,6 +70,8 @@ For **Γ_epist^compile**, map the retained claims into the journal's scheme, car
 * **Positive quantitative case:** if a receiving model actually establishes two necessary independent conditions, each with probability 0.9, their conjunction is 0.81. A 0.85 threshold is not met by replacing 0.81 with min(0.9, 0.9). If independence is unavailable, the joint probability needs the actual conditional model or remains unresolved; the formal proof is unchanged.
 
 For **Γ_epist^compile**, map the retained claims to the certification scheme. Where local meanings differ, identify exact source and receiving `SchemeSenseCell` values, test the F.9 Bridge, state the bounded certification use and permitted loss, and establish relied-on use separately. C.2.1 identifies the resulting episteme. Certification, authorization, a publication occurrence, and actual system protection remain separate claims.
+
+To make the target choice explicit, fix `S_cert` with two interpretation rules: “proved under A” states `A ⇒ P` in the named model; “protection established in service” states that the installed system delivers the protective function in the named operating conditions. The proof input can be compiled into the first statement with A retained. It cannot supply the second statement without the model-to-world and assurance basis already identified above. Reformatting the document that describes these two rules leaves `S_cert` unchanged. If another target reads “proved” as an unconditional claim about the installed system, that is a different scheme: the earlier mapping of the proof is inadmissible there, while the original theorem remains available. Selecting that target within one replaceable-scheme argument also requires the declared range membership; matching its document format establishes neither membership nor an admissible mapping.
 
 #### B.1.3:5.3 - Contrast (didactic)
 

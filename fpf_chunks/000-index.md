@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `c3b34de07a6bd2df85c7081a4c367fd09978079c`
+Commit SHA: `9fa2a3596dab58d282d736bcf413cdda4286db0a`
 
 Chunking method: `pattern-aware`
 
@@ -174,14 +174,14 @@ Patterns: `403`
 - [C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations](by_pattern/C.2.1.md)
 - [C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)](by_pattern/C.2.P.md)
 - [C.2.2 — Reliability R in the F–G–R triad](by_pattern/C.2.2.md)
-- [C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace](by_pattern/C.2.2a.md)
+- [C.2.2a — Language-State Chart over U.CharacteristicSpace](by_pattern/C.2.2a.md)
 - [C.2.3 — Formality of an Episteme](by_pattern/C.2.3.md)
-- [C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets](by_pattern/C.2.LS.md)
-- [C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?](by_pattern/C.2.4.md)
-- [C.2.5 — U.LanguageStateClosureDegree — How Fixed Is the Current Candidate Space?](by_pattern/C.2.5.md)
-- [C.2.6 — U.LanguageStateAnchoringMode — How Is the Episteme Anchored?](by_pattern/C.2.6.md)
-- [C.2.7 — U.LanguageStateRepresentationFactorBundle — How Is the Representation Organized?](by_pattern/C.2.7.md)
-- [C.2.8 — U.ExtractableStructuralInformation — Structure This Reader Can Recover](by_pattern/C.2.8.md)
+- [C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together](by_pattern/C.2.LS.md)
+- [C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?](by_pattern/C.2.4.md)
+- [C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?](by_pattern/C.2.5.md)
+- [C.2.6 — Sources, Evidence and Conditions for Using an Episteme](by_pattern/C.2.6.md)
+- [C.2.7 — LanguageStateRepresentationFactorBundle — How Is the Representation Organized?](by_pattern/C.2.7.md)
+- [C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover](by_pattern/C.2.8.md)
 - [C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)](by_pattern/C.2.P.DR.md)
 - [C.3 — Kinds, Intent and Extent, and Typed Reasoning](by_pattern/C.3.md)
 - [C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)](by_pattern/C.3.1.md)

@@ -6,12 +6,12 @@ section_id: "A.6.B:13"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__015_rationale.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:13 — Rationale"
-line_start: 15230
-line_end: 15238
+line_start: 15315
+line_end: 15322
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -42,7 +42,6 @@ keywords:
   - "(ii) encode runtime entry predicates (those are A-)"
   - "Keeps normative content"
   - "MAY"
-  - "MUST"
   - "MUST NOT"
   - "SHALL"
   - "SHOULD"
@@ -51,7 +50,6 @@ keywords:
   - "accountable norms and grants"
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
-  - "and MAY"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -74,18 +72,14 @@ keywords:
   - "responsibility"
   - "then establish the E result under its own predicate"
   - "they report adjudicable results rather than obligations"
-  - "“commits to”)"
-  - "“is admissible”"
-  - "“is blocked”"
   - "”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
 ---
 
 ### A.6.B:13 — Rationale
 
-The square is an authoring primitive that forces an explicit choice across two distinctions that are otherwise routinely conflated:
+Boundary changes need different comparisons. Changing an admission condition affects which applications can enter; changing a normative rule affects what is required or granted; changing an implementation can affect the result while leaving both declarations intact. The four claim jobs keep these questions and their connections recoverable. A.6:4.7 explains how to use them for a change decision.
 
-* **Truth vs governance** (what is the case vs what is required or committed), and
-* **Description vs actual application** (content settled in the description versus satisfaction dependent on actual work, evaluation or observation).
+The classification is an authoring convention, with one job assigned to each atomic claim. Modality and adjudication help recover that job, but neither supplies a two-way partition of every claim. In particular, A predicates are declarations, and an individual D claim requires actual constitutive grounds. The practical benefit comes from exposing the different grounds and preserving their dependencies across uses and publication faces.
 
-By requiring atomicity and explicit cross‑quadrant references, the square converts “contract talk” into a set of classified, evolvable claims with clear adjudication semantics.
+For a small boundary, ordinary atomic prose and its existing contract or policy can be sufficient. Claim IDs, a register and additional faces earn their cost when several uses need to refer to the same content or follow a consequential change. Keep the direct subject conditions available in either form.
 

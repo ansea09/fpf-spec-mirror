@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.4"
-pattern_title: "U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
+pattern_title: "Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
 section_id: "C.2.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
-  - "C.2.4 — U.ArticulationExplicitness — How Explicit Is an Episteme's Meaning for Its Use?"
+  - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 53113
-line_end: 53118
+line_start: 53370
+line_end: 53375
 dependencies:
   - "A.13"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "C.43:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__013_relations.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:12 — Relations"
-line_start: 89974
-line_end: 89985
+line_start: 90274
+line_end: 90285
 dependencies:
   - "A.12"
   - "C.11"

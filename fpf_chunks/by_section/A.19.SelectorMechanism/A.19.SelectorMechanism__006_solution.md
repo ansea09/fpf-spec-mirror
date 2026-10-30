@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__006_solution.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:4 — Solution"
-line_start: 39098
-line_end: 39247
+line_start: 39183
+line_end: 39334
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
@@ -65,7 +65,7 @@ Method semantics and SoTA algorithm families do not live inside the kernel: they
 
 * **EntityOfConcernRef:** the selection operation family declared by `Select` and `SelectEligibility` in this section.
 
-* **Effective `U.ReferenceScheme`:** the CHR suite reference scheme in which the A.19.CHR SlotKind lexicon, CN-Spec, CG-Spec, and any current TaskSignature tokens are interpreted.
+* **Effective reference scheme:** the CHR suite reference scheme in which the A.19.CHR SlotKind lexicon, CN-Spec, CG-Spec, and any current TaskSignature tokens are interpreted.
 
 * **Direct signature components:**
 
@@ -94,13 +94,15 @@ Each argument below is declared separately for Select and SelectEligibility, exc
 | Argument | claimScope | U.ClaimScope delimiting candidate universe and selection use | ByRef; 1 |
 | Argument | selectedSlices | Set of selected U.ContextSlice members of claimScope under A.2.6 | ByValue set of exact references; 1 set |
 | Argument | characteristicPredicate | A.19 CharacteristicSpacePredicate basis shared as required with the relevant CPM members | ByValue; 0..1, explicitly absent when none governs the use |
-| Argument | referenceScheme | Effective U.ReferenceScheme used to interpret the selection | ByRef; 1 |
+| Argument | referenceScheme | `EpistemeInterpretationScheme` (C.2.1:4.1.2), governing this selection | ByRef through C.2.1 SchemeDesignation; 1 |
 | Argument | referencePlane | CHR:ReferencePlane value qualifying selection | ByValue; 1 |
 | Argument | evaluationTime | Selection-evaluation point or interval in the declared time basis | ByValue; 1 |
 | Argument | selectorPolicy | Effective selection policy and resolved defaults, including exact candidate-level failure behavior when degrade is used | ByRef to the declared policy; 1, resolved through TaskSignature when it supplies that policy |
 | Select argument | eligibility | GuardDecision actually determined by SelectEligibility for these same proposal arguments, used to admit this selection | ByValue; 1, with its exact producing guard-result binding recoverable |
 | Select result | SelectionSlot | Set of candidate values selected under those criteria and policy | ByValue; 1 set on completed admitted selection, 0 on abstain |
 | SelectEligibility result | GuardDecision | Judgment determined by the eligibility predicates: pass, degrade or abstain | ByValue; 1 on completed evaluation |
+
+Resolve the scheme designation under C.2.1:4.2.6 to one exact rule collection, then check its C.2.1:4.1.2 range and the rules needed by these actual selection inputs. The reference token is not the bound scheme. An unresolved required interpretation cannot support a completed admitted selection; apply the guard and abstention rules below. Membership alone supplies neither successful selection nor a cross-scheme correspondence. The application and result bindings below remain independently required.
 
 For each argument row, its **bindingPredicate** holds when that application actually uses the resolved value for its stated purpose: candidates supply the selection universe, criteria/policy supply the choice rule, specifications/evidence requirements govern admission, and the basis, coverage and provenance supply the comparisons on which the choice relies. Scope, slices, predicate, scheme, plane and time bind only when they qualify that application. A nearby policy or copied comparison record does not supply those bindings.
 

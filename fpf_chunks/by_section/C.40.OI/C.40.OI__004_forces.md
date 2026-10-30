@@ -6,12 +6,12 @@ section_id: "C.40.OI:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__004_forces.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:3 — Forces"
-line_start: 85767
-line_end: 85778
+line_start: 86067
+line_end: 86078
 dependencies:
   - "A.15.9"
   - "B.5.PI"

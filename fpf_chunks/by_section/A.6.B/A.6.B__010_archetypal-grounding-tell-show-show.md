@@ -6,12 +6,12 @@ section_id: "A.6.B:8"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__010_archetypal-grounding-tell-show-show.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:8 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 14864
-line_end: 15190
+line_start: 14914
+line_end: 15275
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -42,7 +42,6 @@ keywords:
   - "(ii) encode runtime entry predicates (those are A-)"
   - "Keeps normative content"
   - "MAY"
-  - "MUST"
   - "MUST NOT"
   - "SHALL"
   - "SHOULD"
@@ -51,7 +50,6 @@ keywords:
   - "accountable norms and grants"
   - "actual exercise"
   - "an individual-duty D- claim MUST name its actual bearer and exact separately obtaining U.Commitment"
-  - "and MAY"
   - "and SHALL have their RFC 2119/8174 meanings only when capitalized as shown"
   - "and evaluated results distinct"
   - "as if it were an agent obligation"
@@ -74,9 +72,6 @@ keywords:
   - "responsibility"
   - "then establish the E result under its own predicate"
   - "they report adjudicable results rather than obligations"
-  - "“commits to”)"
-  - "“is admissible”"
-  - "“is blocked”"
   - "”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
 ---
 
@@ -93,9 +88,9 @@ later boundary evolution and audit.
 
 #### A.6.B:8.2 - Show #1: Effect signature vs handler (post‑2015 effect systems)
 
-A service boundary naturally mirrors **algebraic effects & handlers** practice (popularized broadly in the post‑2015 era, with mainstream effect handlers becoming especially prominent around OCaml 5):
+An effect interface declares operations; handlers supply computation behavior. To describe a deployed service using that interface, recover the additional semantic, admission, normative and observation claims that its use needs:
 
-* **L:** defines the operation vocabulary and laws (effect signature semantics).
+* **L:** defines the operation vocabulary and the semantic laws required of this service's realizations.
 * **A:** defines when the operation is admissible (runtime guard predicates).
 * **D:** states who must enforce guards and what the provider commits to (operator and implementer duties; SLAs).
 * **E:** ties “what happened” to observable carriers (traces, logs, metrics, and events) so commitments can be adjudicated.
@@ -115,11 +110,11 @@ The square keeps “must use dataset vX” (D) separate from “evaluation is ad
 
 #### A.6.B:8.4 — Worked Rewrite Kit (informative, recommended)
 
-> **Informative.** This kit is a worked, copy‑pasteable restatement of A.6.B’s rules (atomicity, L/A/D/E classification, explicit references, triangle decomposition, and no‑upward dependencies). If anything here conflicts with A.6.B, **A.6.B is authoritative**.
+> **Informative.** These cases apply the authoring method in §4.4 and the rules for atomicity, L/A/D/E classification, explicit references, triangle decomposition and grounded dependencies. Use the case whose receiving question matches the present work. If anything here conflicts with A.6.B, **A.6.B is authoritative**.
 
 ##### A.6.B:8.4.0 - Goal
 
-Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence” into:
+For the receiving question established in §4.4, recover the meaning of a boundary sentence that mixes “laws / gates / duties / evidence” and produce:
 
 1. **atomic L/A/D/E-classified claims** (L/A/D/E),
 2. **explicit references by claim ID or canonical location** (no paraphrase duplication),
@@ -128,18 +123,20 @@ Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence�
 
 ##### A.6.B:8.4.1 - Micro-procedure (Atomize → Classify → Triangle → Link → Bind References → Recompose)
 
+Use this procedure to recover and express the claims selected through §4.4. The permission-word branch below supplies the detailed distinctions when permissive wording matters to that answer.
+
 **Step 1 — Atomize.** Split mixed prose into atomic claims; each must classify to exactly one quadrant.
 
 **Step 2 — Classify (L/A/D/E).**
 
 * **L** if the claim is **truth‑conditional** and adjudicable *in‑description* (inspection, proof or type validation, or model reasoning **over declared assumptions**): definitions, invariants, typing and well-formedness constraints.
   **Guardrails:** `L-*` MUST NOT (i) use RFC deontic keywords as operators, (ii) encode runtime entry predicates (those are `A-*`), or (iii) assert evidence existence or measurement outcomes (those are `E-*`).
-* **A** if it is an *in‑work* **gate predicate**: what the mechanism admits at application time (“admissible iff …”). It is not a duty and MUST NOT be phrased as one.
+* **A** if it declares a **gate predicate**: what the mechanism admits at application time (“admissible iff …”). State the condition as a predicate; a duty to satisfy or enforce it is a separate D claim.
   **Guardrails:** `A-*` SHOULD be written in predicate form and MUST NOT (i) use RFC deontic keywords as if it were an agent obligation, (ii) claim that evidence carriers exist (that is `E-*`), or (iii) assign responsibility or enforcement (that is `D-*`).
   *(Do not confuse this with `Signature.Applicability`: applicability scopes intended meaning and intended use; it is not a runtime entry gate.)*
 * **D** if the exact atomic statement states either a generic prescription or an individual duty, recommendation-as-duty, prohibition, or commitment. A permissive sentence enters D only through the **Grant or norm** row below.
   **Guardrails:** a generic claim names the exact normative episteme and applicable rule content without inventing an individual relation. An individual-duty claim names its actual bearer and exact separately obtaining A.2.8 commitment. A grant claim instead follows the participant and ground test in the **Grant or norm** row. A system-role kind or assignment may be a rule ground but is neither bearer nor deontic relation. Writing any claim does not make its object obtain.
-* **E** if it is an *in-work* truth-conditional claim whose satisfaction requires actual work, evaluation, observation, or produced carriers.
+* **E** if it reports an actual occurrence, evaluated finding, observed condition or evidence support under §5.4. A claim stating the normative content or obtaining duty or grant itself follows D; an evaluation or occurrence concerning it has its separate E claim.
   **Predicate-specific minimum:** name the exact `E-*` predicate and object, then the actual work, evaluation, or observation, scope/window, comparison frame, and other settling conditions that this predicate needs. Add an evidence or source-use relation, carrier/schema, viewpoint, or consumer only when the receiving gate, plan, audit, assurance, or other reliance decision depends on that support.
   **Guardrails:** `E-*` SHOULD NOT use RFC deontic keywords and MUST NOT hide a gate predicate (that is `A-*`). A reference to `D-*` follows §6.4: identify the evidence target or normative evaluation input, then establish the E result under its own predicate.
   *(If the source sentence is “Role SHALL measure, retain, or expose …”, first decide whether it is a generic prescription about an exact system-role kind or a claim about one actual bearer. Classify either as **D**, but assert an individual commitment only on the second route.)*
@@ -149,7 +146,7 @@ and modality under §6.3. Use the A/D/E triangle only when the source states an
 entry condition, a generic prescription or individual duty, and an actual
 observation or result:
 
-* **A**: the admissibility predicate (what must be true to treat the claim as applicable),
+* **A**: the condition under which the mechanism admits this application,
 * **D → A**: which exact policy prescribes keeping or enforcing the predicate, or which actual bearer has that separately instituted duty; any responsibility relation is stated separately under its direct domain predicate
 * **E → A**: the actual observation or result and, when needed, the evidence or
   traces used to adjudicate the predicate.
@@ -176,7 +173,7 @@ Choose one row. If one sentence answers two questions, split it before classific
 cross-quadrant restrictions in §6.4, including its explicitly informative-note
 exception for L references to A/D/E. Same-quadrant references remain available.
 
-**Common link motifs (informative).** The most reusable boundary rewrites use `D→A`, `E→A`, `D→E`, `A/E→L`, and `D→L`; `E→D` identifies an evidence target or normative evaluation input under §6.4.
+**Common link motifs (informative).** Boundary rewrites use `D→A`, `E→A`, `D→E`, `A/E→L`, and `D→L`; `A→D/E` supplies a stated gate input, while `E→D` identifies an evidence target or normative evaluation input under §6.4.
 
 **Step 5 — Bind references (minimal A.7 discipline).**
 
@@ -187,8 +184,10 @@ exception for L references to A/D/E. Same-quadrant references remain available.
 **Optional drift-control.** Add each L/A/D/E-classified claim verbatim to a Claim Register row (A.6.B:7) with its canonical location and references when this helps maintain faithful faces.
 
 **Step 6 — Recompose into readable text.**
-Include only the claim classes present in the source. Use separate Tech and Plain
-forms when their readers need them; both may also serve as a teaching aid.
+Select the source claims and supporting detail needed for the receiving question
+under §4.4. Include only the claim classes present in the source. Use separate
+Tech and Plain forms when their readers need them; both may also serve as a
+teaching aid.
 
 * **Tech recomposition**: a short **L/A/D/E-classified claim bundle** listing the
   present claims and their ID or canonical-location references.
@@ -219,20 +218,34 @@ forms when their readers need them; both may also serve as a teaching aid.
 
 ###### A.6.B:8.4.3.2 - Atomize + Classify (L/A/D/E)
 
-The draft alone leaves open whether the author means a latency target, an obtaining duty, or an observed result, and under which measurement rule and operating conditions. With only that cue, return those questions. For the expanded worked case below, take the referenced definitions and envelope, the independently obtaining duties, and the dated evaluation and carrier-use facts as additional premises.
+The draft leaves open whether *guarantees* states a target, an obtaining duty or an observed result. The author first recovers the receiving question: the service reader wants to know what the dated evaluation established about latency. Recover the measurement definition, admitted operating envelope, actual evaluation and evidence support from the named sources. These are additional premises of this constructed case; the draft alone leaves them unresolved.
+
+**Explain the dated measurement.** Under steps 2–3 of §4.4, the observed value requires its computation meaning, operating conditions and actual basis. The author therefore selects these claims:
 
 **L-API-01 (Definition).**
 `p95_latency(window W, population P, unit U, method M)` is defined as … (formal measurement definition).
 *(Lives in Signature.Laws or a referenced measurement definition pack.)*
 
-**L-API-02 (Interface signature).**
-The API endpoints and parameters are as declared (including parameter passing discipline / units).
-*(Signature-level structure.)*
-
 **A-API-01 (Gate predicate: admissibility).**
 In this expanded case, the evaluation mechanism admits assessment of “p95 < 200ms” only under its declared load profile, deployment region, sampling method and window. Its entry predicate is:
 `AdmissibleLatencyClaim := (region=US) ∧ (concurrency≤X) ∧ (payload≤Y) ∧ (W=5m) ∧ (M=HDRHistogram@v…) ∧ (P=requests that match filter F)`
 *(References L-API-01 for definition.)*
+
+**E-API-01 (Evidence / carriers).**
+For `LatencyEvaluation-T1` over `Γ_time=[t1..t2]`, actual carriers `TraceBatch-T1`, `Histogram-H1`, `DashboardSnapshot-D1`, and `SamplingConfiguration-S1` were produced or observed under the operating and sampling conditions in `A-API-01`, using the metric and computation definition in `L-API-01`. An A.10 evidence-provenance path links those exact carriers to `LatencyEvaluation-T1` and its `LatencyResult-T1`.
+*(References `A-API-01` and `L-API-01` for the operating conditions and metric definition.)*
+
+**E-API-02 (Observed value claim).**
+For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and using carriers in `E-API-01`, `LatencyEvaluation-T1` produced `LatencyResult-T1` with observed `p95_latency = 173ms` (computed per `L-API-01`).
+*(References A-API-01, L-API-01 and E-API-01.)*
+
+**Return to the measurement question.** The author writes: “During `[t1..t2]`, the observed p95 latency was `173ms` under the operating and sampling conditions in **A-API-01**, using the definition in **L-API-01** and the evaluation evidence in **E-API-01** (**E-API-02**).” This connects the value to the conditions under which the reader can interpret it. The endpoint declaration and duty bearers do not change this bounded measurement answer. If the reader asks about another region or sampling method, return to the applicability of **A-API-01** and the basis of the corresponding evaluation.
+
+**Changed question: explain the service assurance arrangement.** The reader now needs the interface being covered, who owes the latency performance, who must publish incident notes and how the supporting evidence remains available. The author recovers the declared interface and the separately obtaining commitments. Those premises select the following additional claims; their inclusion follows the new question:
+
+**L-API-02 (Interface signature).**
+The API endpoints and parameters are as declared (including parameter passing discipline / units).
+*(Signature-level structure.)*
 
 **D-API-01 (Commitment).**
 Admitted service-maintaining system `ServiceOperations-A` is the actual duty bearer of separately obtaining `LatencyCommitment-API-01 : U.Commitment`; under that commitment it SHALL meet `p95_latency < 200ms` when `A-API-01` holds, adjudicated per `L-API-01` using the carriers and observation conditions in `E-API-01`.
@@ -242,19 +255,13 @@ Admitted service-maintaining system `ServiceOperations-A` is the actual duty bea
 Admitted operations system `SRE-A` is the actual duty bearer of separately obtaining `IncidentNoteCommitment-API-02 : U.Commitment`; it SHALL publish incident notes when `LatencyCommitment-API-01` is violated and SHALL avoid claiming compliance outside `A-API-01`.
 *(References D-API-01 and A-API-01 by ID.)*
 
-**E-API-01 (Evidence / carriers).**
-For `LatencyEvaluation-T1` over `Γ_time=[t1..t2]`, actual carriers `TraceBatch-T1`, `Histogram-H1`, `DashboardSnapshot-D1`, and `SamplingConfiguration-S1` were produced or observed under the operating and sampling conditions in `A-API-01`, using the metric and computation definition in `L-API-01`. An A.10 evidence-provenance path links those exact carriers to `LatencyEvaluation-T1` and its `LatencyResult-T1`.
-*(References `A-API-01` and `L-API-01` for the operating conditions and metric definition.)*
-
 **D-API-03 (Duty-to-evidence linkage).**
 Admitted telemetry-maintaining system `TelemetryOperations-A` is the actual duty bearer of separately obtaining `TelemetryRetentionCommitment-API-03 : U.Commitment`; it SHALL retain or expose the actual carriers referenced in `E-API-01` for the audit window required by policy.
 *(References E-API-01 by ID.)*
 
-**E-API-02 (Observed value claim).**
-For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and using carriers in `E-API-01`, `LatencyEvaluation-T1` produced `LatencyResult-T1` with observed `p95_latency = 173ms` (computed per `L-API-01`).
-*(References A-API-01, L-API-01 and E-API-01.)*
-
 ###### A.6.B:8.4.3.3 - Triangle decomposition (explicit)
+
+For that assurance question, the author uses §6 to connect the declared condition, the duties and the actual observations. Each link explains one dependency of the assurance account:
 
 * **A-API-01** is “the predicate”.
 * **D-API-01 → A-API-01** states the commitment under the gate or envelope.
@@ -263,8 +270,11 @@ For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and usin
 
 ###### A.6.B:8.4.3.4 - Readable recomposition
 
+The broader assurance question uses the following selection. The earlier measurement answer remains sufficient for its narrower question. A changed commitment requires reconsidering the duty and compliance conclusion while retaining an applicable measurement and its grounds.
+
 **Tech recomposition (L/A/D/E-classified claim bundle, short):**
 
+* `L-API-02` identifies the covered API endpoints and parameters.
 * `L-API-01` defines p95 latency computation.
 * `A-API-01` specifies when the latency claim is admissible.
 * `D-API-01` states the commitment under that envelope.
@@ -274,7 +284,7 @@ For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and usin
 * `E-API-02` reports observed performance under `A-API-01` for `Γ_time=[t1..t2]`.
 
 **Plain recomposition (one paragraph, readable):**
-“In this expanded case, the API’s latency target uses the p95 definition in **L-API-01**, and the mechanism admits its evaluation only under operating envelope **A-API-01**. `ServiceOperations-A` has the latency duty stated in **D-API-01**. Adjudication uses the telemetry carriers listed in **E-API-01**; `TelemetryOperations-A` has the retention duty in **D-API-03**, and `SRE-A` has the incident-note duty in **D-API-02**. Under that envelope, the observed p95 over `Γ_time=[t1..t2]` was `173ms` (**E-API-02**).”
+“For the API endpoints and parameters declared in **L-API-02**, the latency target uses the p95 definition in **L-API-01**, and the mechanism admits its evaluation only under operating envelope **A-API-01**. `ServiceOperations-A` has the latency duty stated in **D-API-01**. Adjudication uses the telemetry carriers listed in **E-API-01**; `TelemetryOperations-A` has the retention duty in **D-API-03**, and `SRE-A` has the incident-note duty in **D-API-02**. Under that envelope, the observed p95 over `Γ_time=[t1..t2]` was `173ms` (**E-API-02**).”
 
 ##### A.6.B:8.4.4 - Example 2 — Mechanical engineering (fit / coaxiality)
 
@@ -284,7 +294,7 @@ For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and usin
 
 ###### A.6.B:8.4.4.2 - Atomize + Classify
 
-First ask whether the draft concerns a geometric constraint, a process duty, or a measured result, and recover the datum, tolerance and applicable conditions. For the expanded worked case below, take the referenced definition and process envelope, the independently obtaining process and retention duties, and the dated measurement facts as additional premises.
+First recover which assertion *ensures* is meant to express. In this constructed case, a reader initially needs to interpret the geometric requirement at the shaft–bushing boundary. The author obtains the declared datum, tolerance and measurement convention, then uses steps 2–3 of §4.4 to select the two definitions that make that requirement interpretable:
 
 **L-FIT-01 (Definition).**
 `coaxiality` is defined relative to a declared base axis and measurement method (datum scheme, instrument, tolerance zone).
@@ -294,27 +304,37 @@ First ask whether the draft concerns a geometric constraint, a process duty, or 
 The boundary relation involves shaft, bushing, datum axis, tolerance class, temperature window, assembly procedure class.
 *(Signature-level arity recovery / slots.)*
 
+**Return to the interpretation question.** The author writes: “Interpret the coaxiality requirement for the shaft–bushing boundary using its declared datum scheme, measurement method and tolerance zone (**L-FIT-01**), with the participants and applicable temperature and assembly conditions in **L-FIT-02**.” The reader can now locate what the geometric requirement means. A measured claim about a particular lot needs a further answer.
+
+**Changed question: determine what was established for lot L123.** The author obtains the evaluation rule and the dated measurement facts. The admissible process envelope and actual evaluation connect the geometric meaning to this lot. Their source recovery supplies the next three claims:
+
 **A-FIT-01 (Gate predicate).**
 In this expanded case, the evaluation mechanism admits assessment of the coaxiality claim only when manufacturing and assembly satisfy the declared process envelope: material batch, temperature window, tool calibration validity, surface finish class and alignment procedure version.
 *(Gate predicate; can be checked using evidence, but is not itself evidence.)*
-
-**D-FIT-01 (Duty).**
-Admitted production-engineering system `ProcessEngineer-A` is the actual duty bearer of separately obtaining `ProcessEnvelopeCommitment-FIT-01 : U.Commitment`; it SHALL ensure `A-FIT-01` holds for the production lot and SHALL not release the lot for use when `A-FIT-01` is false.
-*(References A-FIT-01.)*
 
 **E-FIT-01 (Evidence carriers).**
 For `CoaxialityEvaluation-L123` over lot `L123` and `Γ_time=[t1..t2]`, actual carriers `CMMReport-L123`, `CalibrationCertificate-C7`, `AssemblyLog-L123`, `TemperatureTrace-L123`, and `DatumSchemePin-D4` were produced or observed. An A.10 evidence-provenance path links those exact carriers to `CoaxialityEvaluation-L123` and its `CoaxialityResult-L123`.
 *(References `A-FIT-01` and `L-FIT-01`; avoids RFC deontics.)*
 
-**D-FIT-02 (Duty-to-evidence linkage).**
-Admitted quality-engineering system `QualityEngineer-A` is the actual duty bearer of separately obtaining `FitEvidenceRetentionCommitment-02 : U.Commitment`; it SHALL retain or expose the carriers referenced in `E-FIT-01` for the production lot.
-*(References E-FIT-01 by ID.)*
-
 **E-FIT-02 (Observed).**
 For lot `L123` and window `Γ_time=[t1..t2]`, under conditions pinned to `A-FIT-01` and using carriers in `E-FIT-01`, `CoaxialityEvaluation-L123` produced `CoaxialityResult-L123`: measured coaxiality was within tolerance zone `T` (interpreted per `L-FIT-01`).
 *(References A-FIT-01, L-FIT-01, and E-FIT-01.)*
 
+The resulting account states: “For lot `L123` during `[t1..t2]`, the evaluation under **A-FIT-01** found coaxiality within tolerance zone `T`, interpreted through **L-FIT-01** and supported by the carriers in **E-FIT-01** (**E-FIT-02**).” If the datum scheme changes, the author reopens the interpretation and fitness of the measurement for that scheme. The earlier finding retains its stated datum and conditions.
+
+**Further question: explain the production and evidence duties.** A reader arranging release and later reliance also needs to know who is bound to maintain the process envelope and retain its evidence. Recovering the separately obtaining commitments supplies these additional claims:
+
+**D-FIT-01 (Duty).**
+Admitted production-engineering system `ProcessEngineer-A` is the actual duty bearer of separately obtaining `ProcessEnvelopeCommitment-FIT-01 : U.Commitment`; it SHALL ensure `A-FIT-01` holds for the production lot and SHALL not release the lot for use when `A-FIT-01` is false.
+*(References A-FIT-01.)*
+
+**D-FIT-02 (Duty-to-evidence linkage).**
+Admitted quality-engineering system `QualityEngineer-A` is the actual duty bearer of separately obtaining `FitEvidenceRetentionCommitment-02 : U.Commitment`; it SHALL retain or expose the carriers referenced in `E-FIT-01` for the production lot.
+*(References E-FIT-01 by ID.)*
+
 ###### A.6.B:8.4.4.3 - Readable recomposition
+
+For this broader question the author connects the definition, admissibility, duties and observation. This selection lets the reader distinguish what the lot evaluation established from what each duty requires.
 
 **Tech bundle:**
 
@@ -325,7 +345,7 @@ For lot `L123` and window `Γ_time=[t1..t2]`, under conditions pinned to `A-FIT-
 * What we observe and keep as carriers: `E-FIT-01` and measured outcome `E-FIT-02` (with retention duty `D-FIT-02`).
 
 **Plain paragraph:**
-“In this expanded case, ‘ensures coaxiality’ is made precise by fixing the definition and datum scheme (**L-FIT-01**) and by making the boundary participants explicit (**L-FIT-02**). The mechanism admits this coaxiality evaluation only under the declared manufacturing and assembly envelope (**A-FIT-01**). `ProcessEngineer-A` has the process-envelope duty stated in **D-FIT-01**. Compliance is adjudicated using the measurement and process carriers listed in **E-FIT-01**; for lot `L123` over `Γ_time=[t1..t2]`, the observed coaxiality was within tolerance **E-FIT-02**.”
+“In this expanded case, ‘ensures coaxiality’ is made precise by fixing the definition and datum scheme (**L-FIT-01**) and by making the boundary participants explicit (**L-FIT-02**). The mechanism admits this coaxiality evaluation only under the declared manufacturing and assembly envelope (**A-FIT-01**). `ProcessEngineer-A` has the process-envelope duty stated in **D-FIT-01**. `QualityEngineer-A` has the evidence-retention duty in **D-FIT-02**. Compliance is adjudicated using the measurement and process carriers listed in **E-FIT-01**; for lot `L123` over `Γ_time=[t1..t2]`, the observed coaxiality was within tolerance **E-FIT-02**.”
 
 ##### A.6.B:8.4.5 - Example 3 — Management (project “approved or aligned”)
 
@@ -335,7 +355,7 @@ For lot `L123` and window `Γ_time=[t1..t2]`, under conditions pinned to `A-FIT-
 
 ###### A.6.B:8.4.5.2 - Atomize + Classify
 
-With only the draft, ask which approval is claimed, which subsequent action depends on it, and what rule and actual result support that use. For the expanded worked case below, take the named sponsor-approval definition, gate profile, independently obtaining coordinator duty, four actual check-application results and evidence path as additional premises.
+With only the draft, ask which approval is claimed and which subsequent action the reader needs to decide. Here the question is whether the project may start execution. Recover the sponsor-approval definition, entry predicate, four actual check-application results and evidence path from the named sources. These additional premises let the author connect the prerequisite meanings to a current entry decision. The separately obtaining coordinator duty is needed for the broader question of who is bound to maintain this arrangement; it is also supplied in the constructed case below.
 
 **L-PRJ-01 (Definition).**
 For this case, the project-entry policy defines `RequiredProjectApproval(project)` as sponsor sign-off on the identified project. Risk-review completion, budget availability and staffing are separate prerequisites.
@@ -358,6 +378,10 @@ For reliance on `E-PRJ-01`, the exact observed carrier set is `{DecisionRecord-R
 
 ###### A.6.B:8.4.5.3 - Readable recomposition
 
+**Answer the entry question.** The author uses **L-PRJ-01** and **A-PRJ-01** to interpret the prerequisites, **E-PRJ-01** for the actual decision and **E-PRJ-02** for the support needed before reliance. The answer is: “At snapshot `t`, the project-entry decision is `pass`, allowing `StartExecution-P` within the stated window (**E-PRJ-01**, supported by **E-PRJ-02**). Recheck when a prerequisite or the decision's profile, scope or window changes.” A changed budget check returns the reader to the affected admission decision. The definition of sponsor approval remains usable.
+
+**Explain the wider arrangement when requested.** Adding **D-PRJ-01** answers who has the project-entry and registry-maintenance duties. The following recomposition addresses that wider question:
+
 **Tech bundle:**
 
 * The required sponsor approval is defined by `L-PRJ-01`; risk review, budget and staffing remain separate prerequisites.
@@ -369,6 +393,8 @@ For reliance on `E-PRJ-01`, the exact observed carrier set is `{DecisionRecord-R
 “In this expanded case, the required sponsor approval has the meaning defined in **L-PRJ-01**. Together with the separate risk-review, budget and staffing prerequisites, it supplies the inputs to the entry predicate **A-PRJ-01**. `ProjectCoordinator-A` has the project-entry and registry-maintenance duties stated in **D-PRJ-01**. At snapshot `t`, the current A.21 profile application maps every required check-application result to `pass`; **E-PRJ-01** records `decisionValue=pass` with the action consequence ‘start `StartExecution-P` within the stated window’, and **E-PRJ-02** supplies the evidence path for reliance on that result.”
 
 ###### A.6.B:8.4.5.4 - Filled permission case (each sentence classified)
+
+Apply §4.4 to each receiving question in this case. To explain the current grant, connect its instituting basis **E-CAL-01** to **D-CAL-01**. For an entry decision, also recover the entry predicate and the actual decision with its applicable inputs. A question about whether the technician used the grant selects **E-CAL-02–03**; later compliance and renewed entry require their own findings below. The detailed permission branch in §8.4.1 explains these selections. Preserve the distinct claims so a later question can use its own grounds.
 
 **E-CAL-01 (Instituting communicative Work).** Admitted system `MaintenanceCoordinator-A` performed dated `CalibrationGrantAct-17 : U.SpeechAct` under `MaintenanceCoordinator-A@DayShift`; that obtaining assignment has the system as holder and covers the act. In this filled case, `CalibrationGrantPolicy-v4` does not require a separate authority relation, so none is asserted. The assignment supplies no authority and performs no act. `CalibrationGrantAct-17` satisfies the policy in `PlantCalibrationContext` and is the actual instituting Work. A policy variant that does require grant authority must cite one exact obtaining authority relation under its direct predicate or stop at `missing-governor[grant authority]`.
 
@@ -396,8 +422,12 @@ For reliance on `E-PRJ-01`, the exact observed carrier set is `{DecisionRecord-R
 
 ##### A.6.B:8.4.6 - A compact recomposition aid
 
-Include only the claim classes present in the source; use separate Tech and Plain
-forms when their readers need them. Cite claim IDs or canonical locations.
+Select the source claims needed for the receiving question through §4.4. Cite
+claim IDs or canonical locations. For a measurement account, connect the value
+to its definition, conditions and actual basis; for an entry answer, connect the
+entry rule to its evaluated inputs and current decision. Use the broader forms
+below when the question also needs the normative arrangement and its evidence.
+Use separate Tech and Plain forms when their readers need them.
 
 ###### A.6.B:8.4.6.1 - Tech register
 

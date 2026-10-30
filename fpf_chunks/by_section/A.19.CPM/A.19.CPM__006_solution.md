@@ -6,12 +6,12 @@ section_id: "A.19.CPM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__006_solution.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:4 — Solution"
-line_start: 38715
-line_end: 38849
+line_start: 38798
+line_end: 38934
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -59,7 +59,7 @@ This pattern defines (governing-pattern, wiring‑friendly):
 
 * **EntityOfConcernRef:** the comparison operation family declared by `Compare` and `CompareEligibility` in this section.
 
-* **Effective `U.ReferenceScheme`:** the CHR suite reference scheme in which the A.19.CHR SlotKind lexicon, CN-Spec, CG-Spec, and ComparatorSpec tokens are interpreted.
+* **Effective reference scheme:** the CHR suite reference scheme in which the A.19.CHR SlotKind lexicon, CN-Spec, CG-Spec, and ComparatorSpec tokens are interpreted.
 
 * **Direct signature components:**
 
@@ -85,11 +85,13 @@ Each argument meaning is declared separately for Compare and CompareEligibility.
 | Argument | claimScope | U.ClaimScope delimiting this profile pair and comparison claim | ByRef; 1 |
 | Argument | selectedSlices | Set of selected U.ContextSlice members of claimScope under A.2.6 | ByValue set of exact slice references; 1 set |
 | Argument | characteristicPredicate | A.19 CharacteristicSpacePredicate used to restrict this comparison, if any | ByValue; 0..1, explicitly absent when unused |
-| Argument | referenceScheme | Effective U.ReferenceScheme used to interpret the comparison | ByRef; 1 |
+| Argument | referenceScheme | `EpistemeInterpretationScheme` (C.2.1:4.1.2), governing this comparison | ByRef through C.2.1 SchemeDesignation; 1 |
 | Argument | referencePlane | CHR:ReferencePlane value qualifying the comparison | ByValue; 1 |
 | Argument | evaluationTime | Evaluation point or interval in the declared time basis, qualifying what is compared | ByValue; 1 |
 | Compare result | ComparisonResultSlot | Set of relation or poset tokens returned by the declared comparator | ByValue; 1 set on completed admitted comparison, 0 without a result |
 | CompareEligibility result | GuardDecision | Judgment determined by the eligibility predicates: pass, degrade or abstain | ByValue; 1 on completed evaluation |
+
+Resolve the scheme designation under C.2.1:4.2.6 to one exact rule collection, then check its C.2.1:4.1.2 range and the rules needed by these actual comparison inputs. The reference token is not the bound scheme. An unresolved required interpretation cannot support a completed admitted comparison; apply the guard and abstention rules below. Membership alone supplies neither successful comparison nor a cross-scheme correspondence. The application and result bindings below remain independently required.
 
 The **argument bindingPredicate** for each row holds when that application actually uses the resolved value for the row's meaning: operand, comparison/admission rule, evidence condition or explicit comparison-use restriction. In particular, a scope, predicate or time appearing in nearby metadata is not bound unless it qualifies this comparison/evaluation. Each indicator-derived profile retains its selected UINDM positions and exact A.19 basis; equal indices or Characteristic names alone do not establish the comparator's required position/Scale match.
 

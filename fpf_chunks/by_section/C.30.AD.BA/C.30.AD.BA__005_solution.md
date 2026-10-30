@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__005_solution.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:2 — Solution"
-line_start: 71857
-line_end: 72005
+line_start: 72155
+line_end: 72305
 dependencies:
   - "A.1"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 
 Start with one intended architecture use, not with the available tool outputs. Name the exact built asset and selected A.22 structures that matter. Recover subject-relation occurrences when making actual-relation claims; a proposed arrangement can remain candidate content. Cite an obtaining `ArchitectureRelation` only when its C.30 predicate holds; otherwise keep required, desired, expected, candidate, negative, or unresolved content in a bounded `ArchitectureClaim`.
 
-Constitute each architecture description under C.2.1 about exactly one EntityOfConcern: the built asset, one obtaining `ArchitectureRelation` occurrence, or one exact selected structure. Keep its exact ClaimGraph and effective `U.ReferenceScheme` recoverable. The same episteme is a `U.View` only while a separately identified E.17.0 conformance relation to one exact viewpoint episteme obtains. Then recover reference designation, model exchange, source use, representation, publication, and currentness through their own objects and relations.
+Constitute each architecture description under C.2.1 about exactly one EntityOfConcern: the built asset, one obtaining `ArchitectureRelation` occurrence, or one exact selected structure. Keep its exact ClaimGraph and effective reference scheme recoverable. The same episteme is a `U.View` only while a separately identified E.17.0 conformance relation to one exact viewpoint episteme obtains. Then recover reference designation, model exchange, source use, representation, publication, and currentness through their own objects and relations.
 
 For a first use, make the relevant descriptions, structures, reference designations, sources and allowed use recoverable. Ordinary wording is sufficient when it answers the question; stop there. The following record can organize the references when that helps the receiving work:
 
@@ -65,12 +65,12 @@ BuiltAssetArchitectureDescriptionUse@Project:
   projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
   builtAssetDescriptionProjectUseRelationRef?: U.RelationRef governed by the exact description-use or work-use pattern
   architectureDescriptionRef: U.EpistemeRef constrained to ArchitectureDescription
-  descriptionClaimGraphRef: U.ClaimGraphRef
+  descriptionContentDesignation: C.2.1 ClaimContentDesignation, selecting the whole content of architectureDescriptionRef
   descriptionEntityOfConcernRef:
     exactly one builtAssetRef |
       ArchitectureRelation occurrence ref |
       selected U.Structure ref
-  effectiveReferenceScheme: U.ReferenceScheme, byValue
+  effectiveReferenceScheme: exact C.2.1 interpretation rules, byValue
   builtAssetRef: U.HolonRef
   architectureRelationOccurrenceRefs?: FinSet(U.RelationRef)
   architectureClaimRefs?: FinSet(U.EpistemeRef)
@@ -97,6 +97,8 @@ BuiltAssetArchitectureDescriptionUse@Project:
   nextGoverningPatternApplicationRef?:
   nonAdmissibleUse:
 ```
+
+Resolve `descriptionContentDesignation` under C.2.1:4.2.6 to the whole content of the same exact episteme selected by `architectureDescriptionRef`. Its by-value effective scheme must be the rules governing that content, not the rules of a document that merely describes the scheme. A missing or conflicting resolution leaves this use record unresolved; it does not reidentify the asset or establish view conformance.
 
 This is a project-side use record, not a description identity constructor or a new root kind. `@Project` is a compatibility and retrieval cue and establishes no project entity, Work occurrence, authority, context, viewpoint, parthood, or use relation. When the use is genuinely local to one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work`, and `builtAssetDescriptionProjectUseRelationRef` identifies the separately governed obtaining relation by which this description use concerns that Work. Otherwise both remain absent.
 
@@ -133,7 +135,7 @@ A reference designation is useful because it makes information about an entity r
 ```text
 BuiltAssetReferenceDesignationUse:
   designationValue: local designation value, byValue
-  referenceDesignationScheme: U.ReferenceScheme, byValue
+  referenceDesignationScheme: exact designation rules and their domain, byValue
   designatedEntityRef: U.EntityRef
   selectedAspectStructureRef: U.StructureRef
   designationOrReferenceRelationRef?: U.RelationRef

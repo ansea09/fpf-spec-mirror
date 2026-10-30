@@ -6,12 +6,12 @@ section_id: "C.3.1:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 54661
-line_end: 54670
+line_start: 54959
+line_end: 54968
 dependencies:
   - "A.1"
   - "A.11"

@@ -6,12 +6,12 @@ section_id: "A.3.3.TR:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.TR/A.3.3.TR__011_architectural-rationale.md"
-commit_sha: "c3b34de07a6bd2df85c7081a4c367fd09978079c"
+commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
 heading_path:
   - "A.3.3.TR — Construct a Rule for State Change"
   - "A.3.3.TR:10 — Architectural Rationale"
-line_start: 12610
-line_end: 12617
+line_start: 12628
+line_end: 12635
 dependencies:
   - "A.22.CGUS"
   - "A.3.3"

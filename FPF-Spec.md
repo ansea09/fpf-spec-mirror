@@ -12,6 +12,8 @@ Begin with the working question in your project; FPF helps make the reasoning ex
 
 Before selecting framework guidance, read and apply [Using FPF Library](https://github.com/ailev/FPF/blob/main/USING-FPF.md). It explains how to search the Table of Contents and available publications, then read and apply the relevant pattern to your project question. If a reading test explicitly limits its reader to an isolated excerpt, use only the materials supplied for that test; do not add USING-FPF.md unless the test includes it.
 
+Check that a link has opened the intended pattern or section. If it has not, treat that return as unresolved and follow [Resolve a portable reference](https://github.com/ailev/FPF/blob/main/USING-FPF.md#resolve-a-portable-reference) with the complete PatternID or SectionRef and any requested edition.
+
 The public FPF readme section after the Table of Contents provides one `Practical entries` set: ordinary examples show direct one-pattern help, while selected Practical-Use Cards show extended reasoning through several pattern contributions. For other FPF, DPF or LPF questions, use the Table of Contents and direct patterns. The FPF Architectural Reference explains the cross-cutting ideas and the ordinary pattern-use rhythm. **Big FPF Storylines** connects a worked question to the framework's Architectural Rationale, shared sources, profile choices and whole-combination conditions. Pattern bodies carry the normative Solutions, boundaries, worked slices, and checks. Pattern form is governed by E.8; concrete pattern application and pattern-use coordination are governed by E.11.PUA and E.11.PUR when those relations are current.
 
 # Table of Contents
@@ -302,14 +304,14 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | C.2.1 | **`U.Episteme`: Constitution, Empirical Grounding, and Edition Relations** | Stable | Identifies one episteme through exact claim content, exact EntityOfConcern, and effective ReferenceScheme under EpistemeConstitutionRelation; governs its empirical-grounding and edition relations while keeping declarations, views, publications, carriers, and representations separate. | **Builds on:** A.1, A.6.REL, A.6.0, A.6.5, A.7, C.29. **Coordinates with:** C.3.2, E.17.0, E.24.UK, E.24.PUB, A.10, B.3, G.11. |
 | C.2.P | **Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)** | Stable | Clarifies wording that leaves an episteme, publication, source-to-use, carrier, or use-disposition distinction unresolved. Recover the sentence's function and the missing distinction, then repair it or use the exact subject pattern; stop when that pattern and its current field are already clear. | **Builds on:** E.10, C.2.1, A.7, E.17.0, E.17, A.6.P, F.18. **Coordinates with:** E.8, E.12, E.17.AUD, E.17.EFP, E.17.ID.CR, A.10, A.15, A.20, A.21, B.3, C.11. |
 | C.2.2 | **Reliability R in the F–G–R triad** | Stable | *Keywords:* Reliability (R), warrant, evidence-bound, F–G–R, ClaimScope (G), support dependencies, non-aggregate synthesis, direct relation, Congruence Level (CL / CL^k / CL^plane), weakest-link limits, pathwise justification (PathId), TA/VA/LA lanes. *Queries:* "How strongly is this exact claim warranted for this use?", "Can its support be combined numerically, or should it remain a reasoned synthesis?", "What loss does the actual reuse relation justify?", "What is R in F–G–R?" | **Builds on:** C.2, A.2.6, C.2.3, B.3, B.1.3, C.3, F.9. **Coordinates with:** G.6, G.7, E.14, E.18. **Constrains:** any claim reuse whose actual changed scope, kind, plane, scheme, model use, source-local meaning, notation, or evidence basis changes `R_eff`. |
-| C.2.2a | **`U.LanguageStateSpace` - Language-state chart over `U.CharacteristicSpace`** | Stable | *Keywords:* language-state chart, characteristic space, position claim, partial coordinates, formality, articulation, closure, anchoring, representation, local thresholds, episteme publication. *Queries:* "Which separate facet readings lie behind 'early', 'ready', or 'settled'?", "What position and local threshold does the next action use?", "What is the language-state space in FPF?" | **Builds on:** A.19, E.10, F.18. **Used by:** C.2.LS, A.16, B.4.1, C.16.Q, A.6.A. |
-| C.2.3 | **Formality of an Episteme** | Stable | *Keywords:* Formality assessment, expression properties, partial order, local ordinal scale, proof, specification, language-state separation. *Queries:* "What is Formality F in FPF?", "How does F differ from articulation, closure, or anchoring?" | **Builds on:** C.2. **Constrains:** all patterns referencing F-G-R or language-state facets. |
-| C.2.LS | **`U.LanguageStateFacetProfile` - Thin profile bundle for language-state facets** | Stable | *Keywords:* facet profile, articulation, closure, anchoring, representation factors, threshold package. *Queries:* "How are language-state facets named together in FPF?", "What is a LanguageStateFacetProfile?" | **Builds on:** C.2.2a, C.2.4-C.2.7. **Coordinates with:** A.16. |
-| C.2.4 | **`U.ArticulationExplicitness` — How Explicit Is an Episteme's Meaning for Its Use?** | Stable | *Keywords:* articulation explicitness, AE0–AE5, semantic branch, stable cue, branch-appropriate expression, receiving use. *Queries:* "Is the meaning explicit enough for the receiving pattern?", "What is still missing between a stable cue and a complete branch-appropriate expression?", "How does articulation differ from formality and reader-specific structural recovery?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, A.16. |
-| C.2.5 | **`U.LanguageStateClosureDegree` — How Fixed Is the Current Candidate Space?** | Stable | *Keywords:* closure degree, CD0–CD5, candidate-space closure, route space, frame space, reopen, settledness. *Queries:* "How fixed are the current candidates, routes, or frames?", "What remains open, and what would justify reopening?", "How does closure differ from articulation and warrant?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, A.16. |
-| C.2.6 | **`U.LanguageStateAnchoringMode` — How Is the Episteme Anchored?** | Stable | *Keywords:* anchoring mode, embodiment, trace, model state, document, operator loop, source anchoring, receiving-episteme anchoring, mixed modes. *Queries:* "Does this episteme depend on bodily cues, traces, model state, documents, or an operator loop?", "Did publication change the anchoring visible to the receiving use?", "Which modes matter in a mixed regime?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, F.9.1. |
-| C.2.7 | **`U.LanguageStateRepresentationFactorBundle` — How Is the Representation Organized?** | Stable | *Keywords:* representation factors, locality, sparsity, symbolicity, factor bundle, representation organization. *Queries:* "How does FPF describe representation factors in language-state work?", "What is the representation-factor bundle?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, C.2.6. |
-| C.2.8 | **`U.ExtractableStructuralInformation` — Structure This Reader Can Recover** | Stable | *Keywords:* extractable structure, reader preparation, bounded observer, structural information, epiplexity, description comparison, reading budget. *Queries:* "How much selected structure can this reader recover?", "How does structural amount differ from explicit articulation or reading effort?" | **Builds on:** A.17, A.18, C.2.1, C.16. **Coordinates with:** C.2.4, C.29, C.33, A.6.3.NAR, E.17.EFP; A.2.2 and E.23.CDI when recovered Method structure must be used or acquired. |
+| C.2.2a | **Language-State Chart over `U.CharacteristicSpace`** | Stable | *Keywords:* language-state chart, characteristic space, position claim, partial coordinates, formality, articulation, closure, representation, source and use conditions, local thresholds, episteme publication. *Queries:* "Which separate facet readings lie behind 'early', 'ready', or 'settled'?", "What position and local threshold does the next action use?", "What is the language-state space in FPF?" | **Builds on:** A.19, E.10, F.18. **Used by:** C.2.LS, A.16, B.4.1, C.16.Q, A.6.A. |
+| C.2.3 | **Formality of an Episteme** | Stable | *Keywords:* Formality assessment, expression properties, partial order, local ordinal scale, proof, specification, language-state separation. *Queries:* "What is Formality F in FPF?", "How does F differ from articulation, closure, or source and use claims?" | **Builds on:** C.2. **Constrains:** all patterns referencing F-G-R or language-state facets. |
+| C.2.LS | **Language-State Facet Profile: Publish Readings and Use Conditions Together** | Stable | *Keywords:* facet profile, articulation, closure, representation factors, source and use claims, local thresholds. *Queries:* "How are language-state facets named together in FPF?", "What is a LanguageStateFacetProfile?" | **Builds on:** C.2.2a, C.2.4-C.2.7. **Coordinates with:** A.16. |
+| C.2.4 | **Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?** | Stable | *Keywords:* articulation explicitness, AE0–AE5, semantic branch, stable cue, branch-appropriate expression, receiving use. *Queries:* "Is the meaning explicit enough for the receiving pattern?", "What is still missing between a stable cue and a complete branch-appropriate expression?", "How does articulation differ from formality and reader-specific structural recovery?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, A.16. |
+| C.2.5 | **Language-State Closure Degree — How Fixed Is the Current Candidate Space?** | Stable | *Keywords:* closure degree, CD0–CD5, candidate-space closure, route space, frame space, reopen, settledness. *Queries:* "How fixed are the current candidates, routes, or frames?", "What remains open, and what would justify reopening?", "How does closure differ from articulation and warrant?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, A.16. |
+| C.2.6 | **Sources, Evidence and Conditions for Using an Episteme** | Stable | *Keywords:* provenance, evidence use, bodily observation, model derivation, document access, operator interaction, changed use. *Queries:* "What produced this claim and what supports it?", "What must remain available for its intended use?", "Which conclusion or action changes when a source or use condition changes?" | **Builds on:** C.2.1, C.2.P, A.2.4, A.10; A.6.6 and A.6.P for relation recovery. **Coordinates with:** C.2.2a, C.2.LS, C.2.7, A.16, F.9. |
+| C.2.7 | **`LanguageStateRepresentationFactorBundle` — How Is the Representation Organized?** | Stable | *Keywords:* representation factors, locality, sparsity, symbolicity, factor bundle, representation organization. *Queries:* "How does FPF describe representation factors in language-state work?", "What is the representation-factor bundle?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, C.2.6. |
+| C.2.8 | **`ExtractableStructuralInformation` — Structure This Reader Can Recover** | Stable | *Keywords:* extractable structure, reader preparation, bounded observer, structural information, epiplexity, description comparison, reading budget. *Queries:* "How much selected structure can this reader recover?", "How does structural amount differ from explicit articulation or reading effort?" | **Builds on:** A.17, A.18, C.2.1, C.16. **Coordinates with:** C.2.4, C.29, C.33, A.6.3.NAR, E.17.EFP; A.2.2 and E.23.CDI when recovered Method structure must be used or acquired. |
 | C.2.P.DR | **Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)** | Stable | Repairs declarative-shape overread by separating the visible expression or artifact, the exact current direct object or relation, an exact representation/correspondence use or `none`, and the blocked stronger action claim. Applies to graph and evidence paths, queries, dashboards, schemas, formal substrates, method descriptions, publication faces, tables, and pattern relations; uses four plain questions and exact direct owners. Procedure/code/solver/recipe form establishes no `U.MethodDescription`; required or desired change remains claim content, while an actual `U.Transformation` needs its independent A.3.4 basis. | **Builds on:** C.2.P, E.10, E.10.ARCH, F.19, C.29, C.2.1, A.3.1, A.3.2, A.3.4. **Coordinates with:** E.18, E.18.1, A.10, E.17, A.6.1, E.20, A.15.1, A.15.2, C.16, A.19, A.21. |
 | C.3 | **Kinds, Intent and Extent, and Typed Reasoning** | Stable | *Keywords:* admitted U.Kind individual, membership distinction, KindSignature, admissibility, true/false/unknown judgment, optional extension, SubkindOf preorder, distinct-kind KindBridge. *Queries:* "What makes this the same kind?", "Is this candidate applicable before I judge it?", "Did the kind definition change, or only its locality, declaration, scheme, or slice?" | **Builds on:** A.1, A.2.6, C.2.1, E.24.UK. **Coordinates with:** C.3.1, C.3.2, C.3.3, F.9. |
 | C.3.1 | **Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)** | Stable | *Keywords:* kind identity, membership criterion, continuity, U.SubkindOf direct relation, criterion entailment, closed finite domain, preorder, classification equivalence, participant-determined occurrence. *Queries:* "What makes this subkind relation obtain?", "Can the subkind relation hold in both directions while the kinds remain distinct?", "Does this declaration change preserve the same kind?" | **Builds on:** A.1, A.2.6, A.6.REL, C.2.1, E.24.UK. **Prerequisite for:** C.3.2, C.3.3. |
@@ -1272,41 +1274,53 @@ The useful next result may be a clearer problem, a justified comparison, a worka
 
 ## FPF.Reference:9 - Thinking Through Writing
 
-FPF uses written forms when reasoning needs to remain inspectable. Conversation, memory, chat logs, sketches or tool outputs can suffice for immediate work. Addressable records become useful when delegation, review, reuse, publication, AI assistance or delay requires durable access.
+Writing can help obtain an understanding as well as make its grounds inspectable. Putting claims beside one another, making a relation explicit or trying a provisional formulation can reveal a distinction that conversation or memory had left unclear. The useful result may be a better question, an alternative worth considering, a reasoned decision or a precise limit on what is known.
 
-Written forms can help develop reasoning as well as record it. For example:
+Choose the written form by the work it should help perform. When the subject is unclear, compare the relevant statements and what each would imply; use the difference to develop the question. When choosing, keep the alternatives and grounds comparable. When another person must continue or a premise may change, retain enough of the subject, reasoning and conditions to recover the affected conclusion. Revise the form if it hides the distinction that this work needs. Filling every field is not the purpose of these operations.
+
+Conversation, memory, chat logs, sketches or tool outputs can suffice for immediate work. Addressable records become useful when delegation, review, reuse, publication, AI assistance or delay requires durable access. An exploratory note can help develop the subject even when it does not constitute one episteme under C.2.1. A filled card can be an episteme; its selected layout can serve as a publication form under E.24.PUB. The claims and their form of expression remain different objects.
+
+Written forms support different reasoning actions. For example:
 
 - developing a problem card can turn an initial complaint into a formulation whose subject, constraints and unresolved relations later work can use;
 - a TaskSignature makes an accepted problem usable by later eligibility, acceptance, and method-family selection without selecting the method or planning the work inside the problem record;
 - a comparison frame makes explicit what is being compared, by which characteristics and under which conditions;
-- a characteristic space supplies dimensions and scales for a declared evaluation or comparison;
+- declaring a CharacteristicSpace makes its selected characteristics and Scales recoverable before their values are used in an evaluation or comparison;
 - a term sheet keeps local meanings from being flattened across teams;
 - a DRR makes the decision, its reasons and its intended consequences inspectable;
 - a pattern body explains reusable guidance for a recurring problem, with the conditions and limits of its use.
 
-The medium is not prescribed. A team may use paper, markdown, a wiki, a spreadsheet, a model repository, or a specialized tool. FPF is tool-agnostic. What matters is the conceptual structure of the durable publication unit and the relations it makes recoverable.
+Consider two handover statements that use the word *complete*. Placing them side by side may show that one refers to sending and the other to acceptance. The writer can now formulate the question of which event the receiving work requires and what supports the claim that it occurred. C.22.2 develops this move from an initial signal to a usable problem formulation. If examination shows that both statements mean the same event, the proposed contrast loses its ground: revise the question rather than preserve it because a ProblemCard has been filled. The written comparison helps obtain the next inquiry, and a changed premise sends that choice back.
 
-For an AI-generated proposal that needs inspection or reuse, identify what result it offers and its grounds—for example, an option comparison, an architecture question or a qualified model-use claim. Choose a form that keeps the necessary distinctions recoverable; completing that form does not supply missing support.
+The medium is not prescribed. Use paper or a digital tool that keeps the needed claims and relations recoverable. Changing the layout can preserve this work; removing a comparison or its grounds can lose it even when all the old field names remain.
 
-
+For an AI-generated proposal that needs inspection or reuse, identify what result it offers and its grounds—for example, an option comparison, an architecture question or a qualified model-use claim. Choose a form that keeps the necessary distinctions recoverable; completing that form does not supply missing support. The next section explains when the recovered subject needs classification or shared ontological coordination, and when an ordinary statement already suffices.
 
 ## FPF.Reference:10 - Thinking-Oriented Architecture, Not A Descriptive Upper Ontology
 
-FPF shares one ambition with upper ontologies: it tries to make reasoning travel across domains. But its primary task is different.
+FPF uses ontological distinctions to make reasoning usable across domains. Its practical question is what a person or agent must understand, distinguish, decide or do, and which meanings must remain stable for that use. The architecture connects distinctions with guidance for obtaining a result, inspecting its grounds and reconsidering it when conditions change.
 
-A descriptive upper ontology tries to give a consistent inventory of what exists. It asks "what kind of entity is this?" and gives a taxonomy, axioms, and relations. That work is valuable. FPF uses ontological discipline constantly. But FPF is not only an inventory of entities.
+Start from the receiving use and recover the subject and claim it needs. Identify what is being asserted, about which entities, between which participants and under which conditions. Writing can help obtain this meaning before a stable name or classification is available. F.19 restores the predicates and participants compressed by wording; E.10 directs an unresolved meaning to its subject pattern. A common heading or a list of values does not by itself establish one property or relation. For a Characteristic, A.18 requires a defined aspect and Scale; A.19 organizes already defined characteristics and Scales without supplying their missing subject meaning.
 
-FPF is a thinking-oriented architecture. It asks:
+When a current pattern already gives the needed claim or action, apply it directly. E.24.CD helps find that sufficient use. Several claims may need to be read together without requiring another kind or ontic. A single episteme must satisfy C.2.1; otherwise the claims can remain in separate epistemes or working notes. This choice preserves the subject and useful reasoning without making every statement undergo an ontology-introduction procedure.
 
-- what project entity is under concern in this project moment;
-- which claim, relation, decision, evidence path, work object or publication use is current;
-- which distinction needs to remain visible for an action to be responsible;
-- what action- or judgement-guiding content is needed for the next use, and, when actual method identity matters, what exact Method and pattern-description rule content are current;
-- what would make the result reviewable and reopenable.
+Classification becomes useful when the work needs to distinguish members from non-members under a stable criterion. C.3 and C.3.1 recover the candidate domain, membership condition and boundary; C.3.2 governs the relevant candidate judgement. The individual kind is an instance of `U.Kind`. A `KindSignature` describing its criterion, a judgement about a candidate and a representation of its members remain different objects. Use a reusable signature when a later use needs that declaration. Distinguish a supported non-member judgement from an unknown result or a candidate outside the declared applicability. A local kind can serve its context without acquiring a new public U-name.
 
-A taxonomy can distinguish a method description from performed Work. FPF also develops guidance for what a practitioner should do when they are confused: recover which object is current, state its supporting facts or missing basis, and use the pattern that answers the resulting question.
+E.24.UK governs the stronger proposal to introduce a durable U-kind. It requires an independently identified subject of classification, a defining identity or membership rule, practical need and dependent use, and comparison with sufficient existing expressions. Its root and two dependent-kind dispositions have different grounds: an additional classification may concern the same individual, or a distinct individual may have a separately defined identity dependence. Use that pattern for the full admission conditions. The prefix, a repeated form and the word *dependent* do not supply them.
 
-The ontology therefore serves action guidance. FPF does not replace domain ontologies, mathematics, standards, or evidence. It gives them a place in project reasoning so they can be used without collapsing local meanings or publication forms.
+An ontic answers a different question: which identity or constitution rule and which relations must remain coherent across named dependent uses? E.24 defines this connected ontology unit through its primary subject, the smallest necessary relation set, the defining rules and the reliance of its consumers. This lets several patterns reuse compatible meanings instead of repeatedly redefining them. A shared topic or nearby list of kinds does not establish that contribution. When existing direct rules already close the uses, keep those rules; when several governed claims need only a bounded joint account, use that account. Concrete cross-pattern disagreement or duplication can justify opening E.24 to determine whether a durable ontic is needed.
+
+A kind and an ontic are therefore not paired one for one. An ontic can coordinate several admitted kinds; a newly admitted kind can use existing coordination or sufficient direct rules. Where both are needed, E.24 and E.24.UK return separately grounded results in one decision. A card can help develop that decision without itself becoming the ontology unit it describes.
+
+These distinctions lead to different useful outcomes:
+
+- **Recorded values.** An evaluation may need several characteristic values, each on its declared Scale, together with the conditions for interpreting them. A selected space or a profile of those values can be named and reused without thereby admitting a new kind of spaces or profiles. Classifying such constructions is a further question only when a receiving use needs it.
+- **An admitted dependent kind.** B.5.2.0 defines `U.AbductivePrompt` as an additional classification of the same episteme about an unresolved explanatory question. Its consumers need the shared entry distinction and the returns when the question, account or grounds change; the general `U.Episteme` classification alone does not express that distinction. The subject pattern supplies membership and exclusion conditions. A blank prompt form does not satisfy them. This use retains an admitted kind without adding another ontic.
+- **Shared ontological coordination.** A.19 keeps a CharacteristicSpace's basis, characteristic-to-Scale bindings and Coordinate meanings coherent. A.19.ECS uses that organization to construct evaluations, while E.21, E.9.DA and E.2.DA keep their different evaluated subjects, evidence requirements and results. Reusing the common rules makes their meanings recoverable without making their evaluations interchangeable. Changing a selected Scale requires a changed space and reconsideration of comparisons that used the old one; it does not by itself change the common ontic.
+
+When revising any of these expressions, establish what changed. A clearer name or another publication form may preserve the subject and claims. A changed membership condition reopens dependent classifications; a changed characteristic, Scale or relation rule reopens the comparisons and actions that relied on it. Preserve unaffected results whose grounds still hold, and retain the written reasoning needed to locate the affected use. If the necessary subject meaning or evidence is missing, keep that specific question open rather than let a new name settle it.
+
+Ontology thus serves practical reasoning together with the writing described in section 9. It helps distinguish a method description from performed Work, a claim from its grounds and a subject from its presentation, then directs the practitioner to the contribution needed next. FPF uses domain ontologies, mathematics, standards and evidence with their own meanings and limits; it does not replace their subject knowledge.
 
 ## FPF.Reference:11 - When A Scale Claim Calls For Comparison
 
@@ -3247,14 +3261,16 @@ Scope delimitation is not another direct relation kind here. The `U.ClaimScope` 
 
 **Local predicate-value declaration.** `ModelExpressionCoherencePredicate` is an A.1.1-local `ValueKind`, not a U-kind and not an evaluation procedure. A by-value candidate belongs to this kind only when it declares (1) the ordered model-content and expression-content input meanings, (2) the exact comparison domain and local senses, (3) a Boolean truth condition, (4) the treatment of required congruence and permitted loss, and (5) every dependency whose absence makes application stop rather than return `false`. Two predicate values are identical exactly when those five by-value components are identical. A changed input meaning, domain, truth condition, congruence or loss rule, or dependency identifies another predicate value; a changed label, evaluator, evidence set, result episteme, representation, or publication does not. A label or procedure lacking the complete five-part declaration is not a member.
 
-**`ModelExpressionCoherenceRelation`.** Its participants are one exact model episteme, one exact expression episteme, one by-value criterion admitted as `ModelExpressionCoherencePredicate`, and one exact `U.ReferenceScheme` used as the comparison basis.
+**`ModelExpressionCoherenceRelation`.** Its participants are one exact model episteme, one exact expression episteme, one by-value criterion admitted as `ModelExpressionCoherencePredicate`, and one exact abstract rule-collection entity belonging to `EpistemeInterpretationScheme` under C.2.1:4.1.2, used as the comparison basis.
 
 | SlotKind | ValueKind | refMode | Participant meaning |
 |---|---|---|---|
 | `CoherenceModelEpistemeSlot` | `U.Episteme` | `U.EpistemeRef` | The model episteme whose fixed claims supply one side. |
 | `CoherentExpressionEpistemeSlot` | `U.Episteme` | `U.EpistemeRef` | The expression episteme assessed against that model. |
 | `ModelExpressionCoherencePredicateSlot` | `ModelExpressionCoherencePredicate` | `ByValue` | The admitted five-part criterion value; its label, evaluator, result, or evidence cannot substitute for it. |
-| `ModelExpressionCoherenceReferenceSchemeSlot` | `U.ReferenceScheme` | `ByValue` | The shared scheme or the receiving comparison basis used by the admitted bridged branch. |
+| `ModelExpressionCoherenceReferenceSchemeSlot` | `EpistemeInterpretationScheme` (C.2.1:4.1.2) | `ByValue` | The shared scheme or the receiving comparison basis used by the admitted bridged branch. |
+
+R is the abstract rule-collection entity individuated under C.2.1:4.1.1 and classified by the entity ValueKind in :4.1.2. That entity, rather than its description or designation, is the actual participant. Carrying its designation `ByValue` supplies the rules directly; a document or name for them is insufficient. Range membership does not establish scheme equality, the required correspondence, or P. Changing R changes the participant tuple; changing only its expression while preserving all operative rules does not.
 
 **Well-formedness constraint `WF-A1.1-COH`.** `ModelExpressionCoherenceRelation(M,E,P,R)` obtains exactly when either (a) `R` equals the C.2.1 effective schemes of both epistemes, or (b) `P` resolves every differing source and receiving F.17 `SchemeSenseCell` pair and names an obtaining F.9 `Bridge` for each required correspondence; and, after that semantic branch is established, the fixed predicate value `P` returns true for the fixed claim contents of `M` and `E` under `R`. An unresolved cell, missing Bridge, shared spelling, common label, Bridge Card, or mere interpretability establishes no bridged branch.
 
@@ -3312,7 +3328,7 @@ When the question is local meaning rather than joint model-use organization, rec
 
 | Exact practitioner question | Direct governed result | Subject pattern | Stop or return condition |
 |---|---|---|---|
-| What does this term or predicate mean here? | one exact claim-bearing episteme, its C.2.1 effective `U.ReferenceScheme`, and the needed F.17 `SchemeSenseCell` values | C.2.1 and F.17 | Return to the source expression or scheme when the exact meaning or a required sense-cell value is unavailable. |
+| What does this term or predicate mean here? | one exact claim-bearing episteme, its C.2.1 effective reference scheme, and the needed F.17 `SchemeSenseCell` values | C.2.1 and F.17 | Return to the source expression or scheme when the exact meaning or a required sense-cell value is unavailable. |
 | Over which slices is this claim made, and which slices belong? | one `U.ClaimScope` and its A.2.6 `member(slice, scope)` facts | A.2.6 | Keep the scope and membership facts as this result; select a structure separately only when its organization changes a receiving decision. |
 | Which system-role kind is assigned to which system, and when? | First recover the assignment occurrence and its declared `U.SystemRoleAssignment` species. The species declares participant meanings and rules; the occurrence supplies the holder System, assigned local system-role-kind value, and any other participant values that distinguish the occurrence. If the question also needs a reportable time, recover a separate assignment assertion or occurrence-description episteme whose content states the currently known `AssignmentInterval`. | A.2 and A.2.1; A.2.7 only for an independently current relation among system-role kinds | Return until the assignment species, all declared participant values, obtaining predicate, and any needed occurrence-description episteme are recovered. The occurrence retains its maximal uninterrupted extent. Context, scheme, and interval are not generic assignment participants; an organizational title supplies no assignment. |
 | Which rule, policy, invariant, or inference is local? | one C.2.1 episteme with the exact ClaimGraph and effective scheme, the A.2.6 claim scope, and the truth or admissibility predicate defined or constrained in the exact subject-pattern description | C.2.1, A.2.6, that exact predicate and its `SubjectPatternLocator` | If no exact predicate states when the rule or inference holds, preserve the claim at its current scope and stop. |
@@ -6712,7 +6728,7 @@ Here `T : ContextSliceSet` is a finite target set, `F : Set[U.Scope]` is a finit
 **A.6.1 declaration A — `ScopeMembershipEvaluationMechanism`.**
 
 - `EntityOfConcernRef`: exact operation family `ScopeMembershipEvaluationOperationFamily = {evaluateMembership}`.
-- effective `U.ReferenceScheme`: the scheme under which this mechanism's argument, result, and application meanings are interpreted.
+- effective reference scheme: the scheme under which this mechanism's argument, result, and application meanings are interpreted.
 - `SubjectKind`: `U.Scope`.
 - `RangedValueKind`: `U.ContextSlice`.
 - `ResultKind`: declaration-local finite `U.Kind` `MembershipEvaluationValue = {true, false, unknown}` under C.3. Its membership rule admits exactly those three values. It is not a world-side third truth value, public U-kind, gate decision, or result episteme.
@@ -6748,7 +6764,7 @@ Here `T : ContextSliceSet` is a finite target set, `F : Set[U.Scope]` is a finit
 **A.6.1 declaration B — `ScopeDerivationMechanism`.**
 
 - `EntityOfConcernRef`: exact operation family `ScopeDerivationOperationFamily = {deriveIntersectionScope, deriveSpanUnionScope, deriveTranslatedScope}`.
-- effective `U.ReferenceScheme`: the scheme under which this mechanism's operation meanings and returned scopes are interpreted.
+- effective reference scheme: the scheme under which this mechanism's operation meanings and returned scopes are interpreted.
 - `SubjectKind`: `U.Scope`.
 - `RangedValueKind`: `U.Scope`; each derivation operation still returns a `U.Scope`, so no distinct mechanism-level `ResultKind` is current.
 - `SliceSet` and `ExtentRule`: absent for the same A.6.0 reason stated above.
@@ -6763,8 +6779,10 @@ Here `T : ContextSliceSet` is a finite target set, `F : Set[U.Scope]` is a finit
 | `deriveTranslatedScope` | argument `sourceScope` | exact source scope whose extension is mapped | `U.Scope` | `ByValue` | this application maps the bound scope value | exactly 1 |
 |  | argument `bridgeOccurrence` | exact obtaining F.9 Bridge whose direct semantic relation is used | `U.Relation` | `ByGovernedReference` | the reference resolves to the exact obtaining occurrence actually used by this application; it carries no use-specific rule, tolerance, or reliance | exactly 1 |
 |  | argument `scopeTranslationClaim` | exact current C.2.1 claim that says the bound Bridge is suitable for this named scope translation | `U.Episteme` | `ByGovernedReference` | the reference resolves to the exact affirmative claim whose EntityOfConcern is the bound Bridge and whose content names this use, direction, rule, and tolerance | exactly 1 |
-|  | argument `targetReferenceScheme` | exact scheme under which target slices and their local senses are interpreted | `U.ReferenceScheme` | `ByValue` | this application interprets the returned target-slice extension under the bound scheme | exactly 1 |
+|  | argument `targetReferenceScheme` | exact scheme under which target slices and their local senses are interpreted | `EpistemeInterpretationScheme` (C.2.1:4.1.2) | `ByValue` | this application interprets the returned target-slice extension under the bound scheme | exactly 1 |
 |  | result `derivedScope` | exact extensional scope returned for the target image selected by the claim's rule and tolerance | `U.Scope` | `ByValue` | this application returns this independently identifiable scope value | exactly 1 |
+
+The target scheme is the exact rule collection classified by C.2.1:4.1.2, including the rules needed to read the target slices and local senses. A scheme can pass that range test while the proposed translation lacks its required mapping or bounded-use basis. Apply the translated-scope law to the actual bound value; range membership supplies neither that mapping nor any additional scope support.
 
 **ApplicationPredicate rules.** `deriveIntersectionScope` returns the scope represented under C.29 by `intersection of extension(S) for S in scopeFamily`. `deriveSpanUnionScope` implements the already established `SpanUnion`: it is admitted only when `independenceBasis` establishes the section 7.3 independence condition and returns the scope represented by `SpanUnion(scopeFamily)`. `deriveTranslatedScope` is admitted only when the bound Bridge obtains and the bound C.2.1 claim has that Bridge as EntityOfConcern, affirmative polarity, and content naming this scope-translation use, its direction, rule, and tolerance. The application applies that rule within that tolerance and returns the scope represented by `translate(bridgeOccurrence, scopeTranslationClaim, sourceScope, targetReferenceScheme)`. The formulae and claim alone declare no application or result binding.
 
@@ -13814,10 +13832,9 @@ This placement supports change through the actual dependencies:
 
 A.6.B defines the matrix and cross-quadrant reference rules. Use the following summary to classify a claim and the examples to distinguish a source clause from added case assumptions.
 
-The **2×2 matrix** crosses **two independent distinctions**:
+The matrix distinguishes four jobs in a boundary account: defining meaning, declaring admission conditions, stating normative content or a deontic position, and reporting occurrences or evidence. Classify the exact claim by that job, then recover the conditions that settle it under A.6.B.
 
-* **Modality family:** truth-conditional versus governance content. For permission-looking wording, the selected `A6-AW-*` row states which side applies; A.2.8.PER membership alone does not.
-* **Adjudication position:** in-description versus in-work/in-execution. The latter includes actual evaluation or observation under the subject predicate; it does not require inventing Work for a non-Work change.
+A declared admission predicate and its evaluation have separate jobs: the predicate is A; a particular evaluation result is E. D includes both generic normative content and a claim about an individually obtaining duty or grant, with different grounds for each. These distinctions let the same subject appear in several connected claims. The selected `A6-AW-*` row supplies the corresponding permission-word distinction. Actual evaluation or observation does not require inventing Work for a non-Work change.
 
 Operational summary (quadrant → canonical claim layer in the stack):
 * **L** (Laws & Definitions) → `Signature.Laws` (truth‑conditional semantics, in‑description)
@@ -13999,6 +14016,18 @@ These are *writing diagnostics*, not tool requirements.
 - **A face introduces new L/A/D/E content not present in the canonical claim set** → view-fork. Recover the direct object and classify the new claim—duty/commitment/grant in D; exercise/evaluated finding/evidence in E; gate in A—then add it to its canonical source before face publication. Informative commentary may explain existing claims without adding boundary semantics.
 - **“The system or service SHALL …” where the phrase does not name a direct behavior claim, general prescription, or exact individual commitment with its actual bearer and constitutive basis** → unresolved subject and modality. Recover the System or other party, state an actual `E-*` behavior claim separately only when its actual basis is supplied, and state either the normative content or the direct A.2.8 commitment. A service label, system-role kind, or assignment proves none of these claims.
 
+#### A.6:4.7 - Use the claim dependencies to judge a boundary change
+
+Start with the receiving use: which clients, operations and observations must continue to work, under which conditions? Read the existing boundary claims and the proposed change against that use. The stack makes the different constraints findable; compatibility depends on their content and connections.
+
+1. **Recover what the receiver relies on.** Include the meaning of inputs and results, admitted inputs, relevant interaction order and state changes. Add a duty, grant or evidence requirement when this use depends on it. Preserve the conditions and exceptions attached to each claim.
+2. **Identify what changes.** Distinguish changing a definition, an admission condition, normative content, an implementation or an observation method. A change can affect several of these. Use the claim references to follow the consequences to the receiving use, including an A predicate that consumes a current D grant or E finding under A.6.B:6.4.
+3. **Compare the old and proposed behavior in that use.** For a replacement offered to existing clients, determine whether previously admitted inputs remain admitted and whether the results, interactions and state changes still satisfy the old claims. When representations differ, state the correspondence used for this comparison. A stronger entry condition can exclude an old valid call; a weaker result condition can remove a property its client needs. Preserving a protocol or mutable state also requires its own sequence or history conditions.
+4. **Establish the affected claims on their own grounds.** A declaration comparison can establish a conditional compatibility argument. Claims about an actual implementation, obtained grant, observed result or retained evidence need their corresponding grounds. A changed telemetry format can leave the operation semantics intact while breaking the auditor's ability to check a result.
+5. **Choose and communicate the continuation.** Preserve the old boundary, adapt the receiver or supply an adapter with a justified correspondence, or expose a changed contract and its affected uses. Reuse unaffected claims and evidence while their conditions hold. Keep an unresolved compatibility premise explicit.
+
+Use the smallest description that carries these dependencies. For one operation whose meaning and use are already clear, its existing preconditions, postconditions and invariants can supply the comparison. A protocol specification can carry the interaction constraints; a policy and its evaluation interface can carry an authorization decision. Add the L/A/D/E organization where connected semantic, admission, governance and evidence claims otherwise obscure what a change affects. The labels organize those claims; the relevant contract, protocol, policy or subject Method supplies the actual preservation test.
+
 ### A.6:5 - Archetypal Grounding
 
 > **Informative.** Worked examples for learning the L/A/D/E claim-classification discipline; they do not add requirements beyond A.6:7.
@@ -14035,13 +14064,17 @@ The two cases below distinguish declaration, admissibility, governance and actua
   * InteropCard: machine‑exchange oriented boundary details (canonical field names, schema refs, transport bindings).
   * AssuranceLane: evidence bindings (which carriers exist, how to adjudicate `E-*` claims, retention and access duties by reference).
 
-**Effects-and-handlers analogy.** In this software example, the signature exposes the operation interface. A.6.1 governs declared operation semantics and the separate realization relation; the realizing entity supplies the concrete handler implementation. Implementations can change while preserving the declared operation meanings and applicable constraints.
+**Effects-and-handlers analogy.** In this software example, the signature exposes the operation interface. A.6.1 governs declared operation semantics and the separate realization relation; the realizing entity supplies the concrete handler implementation. An effect interface can have handlers with different behavior. For a substitutable realization here, compare that behavior with the declared operation meanings and applicable constraints.
 
 **Classification example:**
 
 * “A request is admissible iff `tokenValid ∧ merchantActive ∧ amountWithinLimit`” belongs in Quadrant A (the declared admissibility gate).
 * “Clients MUST include Idempotency-Key” is a D prescription. If an admission rule also requires that header, reference that rule’s predicate; the three-condition predicate above does not include it. An obtaining individual `U.Commitment` additionally needs the actual bearer, constitutive rule, instituting basis and direct predicate under A.2.8.
 * “System emits AuthorizationRecord” is ambiguous between a generic emission rule and an actual event report. Only the actual-event reading belongs in E, with its occurrence basis supplied; the wording alone does not choose that reading.
+
+**Changing this API.** Suppose the proposed replacement keeps the fields and the three-condition admission predicate above, but changes `APPROVED` to mean only that a request was queued. Apply §4.7 to an existing client that relies on the stated reservation law. That law is no longer met at the response, so preserving the message type is insufficient for this replacement. Keeping `APPROVED` for an actual reservation preserves this particular claim; introducing `PENDING` requires an explicit protocol and changed client handling. Other compatibility conditions remain to be checked.
+
+Alternatively, suppose the replacement adds `hasHeader(Idempotency-Key)` to the admission predicate. The existing D prescription already requires that header, but the old A predicate admits requests without it. For clients promised the old admitted-input set, the added condition is a restriction. For a use explicitly limited to requests that already carry the header, this particular restriction excludes no additional input. The compatibility conclusion therefore names the receiving population. Changing only the `AuthorizationRecord` schema instead returns to its consumers and evidence links; it need not change either the reservation law or admission rule.
 
 #### A.6:5.3 - Published evaluation protocol
 
@@ -14077,7 +14110,7 @@ This protocol description connects metric definitions with conditions for an eva
 | ID                                       | Requirement                                                                                                                                                                                                                                                                                    | Purpose                                                             |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | **CC‑A.6.1 (Stack declaration).** | A conforming boundary description **SHALL** identify placements for the claims it makes, distinguishing declaration, mechanism, governance, actual-occurrence/consequence/evidence and publication uses when present. A dated Work claim **SHALL** remain separate from any application result, production, change, delivery/transfer, evidence, or acceptance claim selected through `A.15.1:4.6`. | Preserves the distinct claims without requiring absent objects or intrinsic Work outputs. |
-| **CC‑A.6.2 (Square discipline).** | A conforming boundary description **SHALL** classify each atomic claim by its own modality and adjudication position. Every permission-looking claim **SHALL** cite one selected `A6-AW-*` row and that row's direct object; the selected subject pattern or kind of direct object alone never sets the quadrant. | Makes one actionable choice replace repeated permission catalogues. |
+| **CC‑A.6.2 (Square discipline).** | A conforming boundary description **SHALL** classify each atomic claim by its job and recover its own adjudication conditions under A.6.B. Every permission-looking claim **SHALL** cite one selected `A6-AW-*` row and that row's direct object; the selected subject pattern or kind of direct object alone never sets the quadrant. | Makes one actionable choice replace repeated permission catalogues. |
 | **CC‑A.6.5 (Actual-occurrence, description, and carrier separation).** | An `E-*` claim **SHALL** identify the exact actual occurrence or evaluated finding under its subject pattern and **SHALL NOT** infer Work merely because change or a carrier exists. Any carrier used for reliance **SHALL** enter the exact evidence relation. | Preserves non-Work change and blocks carrier-as-effect errors. |
 | **CC‑A.6.6 (Viewpoint accountability).** | Every published MVPK face use **SHALL** identify the selected episteme and bounded reader/use. When `U.View` membership or viewpoint identity is used, the face **SHALL** identify the exact `viewpointRef`. `U.View` membership still requires E.17.0 conformance. Normative face content **MUST** cite canonical L/A/D/E claims by ID or canonical location and name their direct objects; meaning-preserving prose may explain them. Face content **MUST NOT** introduce a new commitment or any new object or claim selected through `A6-AW-*`. | Preserves viewpoint discipline without letting a publication face create governance or permission claims. |
 | **CC‑A.6.6a (MVPK face‑kind discipline).**  | A publication that claims MVPK alignment **MUST** use E.17’s declared `publication-face kind` values: **publication face/form** and **interop publication form**. `PlainView`, `TechCard`, `InteropCard`, and `AssuranceLane` are face designators, with profiles selected under E.17. A publication **MUST NOT** mint additional MVPK face kinds. Local “cards” may exist only as headings or sections inside the selected faces. | Aligns with MVPK and publication-face or publication-form discipline; prevents new‑face drift.            |
@@ -14089,7 +14122,7 @@ This protocol description connects metric definitions with conditions for an eva
 
 | Anti‑pattern                   | Symptom                                                         | Why it fails                                                                     | How to avoid / repair                                                                        |
 | ------------------------------ | --------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| **Gate‑as‑law**                | Preconditions written as “laws” in the signature                | Breaks substitution; violates A.6.0’s separation of signature vs mechanism gates | Move predicates to Mechanism.AdmissibilityConditions; keep signature laws truth‑conditional. |
+| **Gate‑as‑law** | Preconditions written as “laws” in the signature | Violates A.6.0’s separation of signature and mechanism gates | Move predicates to Mechanism.AdmissibilityConditions; keep signature laws truth‑conditional. Assess behavioral compatibility by the conditions and outcomes in §4.7. |
 | **RFC‑keywords in invariants** | “MUST” appears inside `Definition:` blocks                      | Confuses deontics with mathematical admissibility; undermines auditability       | Rewrite as declarative predicate; reference predicates by ID or canonical location from CC when needed.               |
 | **Paraphrase drift** | Same constraint restated across faces with changed meaning | Creates hidden divergence; breaks L/A/D/E claim-classification discipline and evidence accountability | Cite claim IDs or canonical locations and preserve their meaning in readable face prose. Use a Claim Register when stable reuse needs it. |
 | **Interface-as-promiser and Work-result bundle** | “The interface promises delivery” assigns an individual commitment to the interface description, or “A.15.1 delivered the result” identifies Work with its result | A description is made an agent, while Work, result, transfer, evidence, and acceptance lose their own identity conditions | Name the actual bearer of the individual commitment; use A.6.C when ambiguity about promise, utterance, or governance changes interpretation or use. Use A.15.1 for dated Work; then exactly one applicable `A.15.1:4.6` row for each separate result, delivery, evidence, or acceptance claim. |
@@ -14123,21 +14156,25 @@ Reusable declarations constrain their realizations, while observations and evalu
 
 ### A.6:11 - SoTA-Echoing
 
-> **Informative.**
+> **Informative.** The sources below supply distinct techniques for declaration, substitution, interaction and observation. The L/A/D/E organization is FPF's authoring choice for keeping their boundary claims and dependencies recoverable. Historical foundations retain their stated scope; current documentation is identified where used.
 
-* **Algebraic effects and handlers / effect systems.** Effect systems distinguish operation signatures from handler semantics (e.g., Koka’s effect typing; effect handlers in OCaml 5). In this analogy, `U.Signature` carries the boundary declaration, A.6.1 governs operation declarations and their realization relation, and the realizing entity supplies the implementation. Substitution requires the declared meanings and applicability to be preserved.
+* **Algebraic effects and handlers / effect systems.** [Leijen (2017)](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/algeff.pdf) and [Hillerström and Lindley (2018)](https://www.pure.ed.ac.uk/ws/files/76099718/shallow_effect_handlers.pdf) distinguish declared operations, effect typing and handler semantics. A common interface permits different handlers, so behavior preservation needs the operation's semantic contract. [OCaml 5.4, §12.24](https://ocaml.org/manual/5.4/effects.html) also distinguishes runtime protocol enforcement from static effect safety. A.6 uses the declaration/realization distinction; provider duties and SLA claims require their separate FPF grounds.
 
-* **Session and behavioural types for protocol boundaries.** Behavioural typing treats boundaries as typed interaction protocols with progress and safety properties. A.6’s classification matrix makes protocol laws (Quadrant L) explicit and separates entry gates (Quadrant A) from general prescriptions or exact individual commitments (Quadrant D) and runtime evidence (Quadrant E), reducing ambiguity.
+* **Contracts and behavioral substitution.** [Meyer, *Applying “Design by Contract”* (1992)](https://www.kth.se/social/files/59526bfb56be5b4f17000807/meyer-92-contracts.pdf), pp. 40–42 and 46–49, develops preconditions, postconditions, invariants and optional runtime monitoring. [Liskov and Wing, *A Behavioral Notion of Subtyping* (1994)](https://www.cs.columbia.edu/~wing/publications/LiskovWing94.pdf), §§1–2 and 5.2, adds preservation of invariant and history properties under a stated abstraction. These historical foundations supply concrete preservation questions for §4.7. Their formal conclusions apply under their computational assumptions; an API replacement also needs its actual interaction and receiving-use conditions.
+
+* **Session types for protocol boundaries.** [Scalas and Yoshida (2019)](https://www.doc.ic.ac.uk/~ascalas/papers/scalas-yoshida-popl19.pdf) connects global protocols, participant types and process properties under explicit conditions. [Hou, Yoshida and Kuhn (2026)](https://mrg.cs.ox.ac.uk/publications/less_is_more_revisited_association_with_global_protocols_and_multiparty_sessions/main.pdf) revisits the association and liveness reasoning. This helps compare changed message order, choice and retry behavior. Safety, deadlock-freedom and liveness have different conditions; a protocol theorem supplies only its stated property. A.6 separately locates admission, duties and actual-result claims.
 
 * **Categorical optics, lenses, and bidirectional transformations.** Lenses supply useful construction expressions with coherence laws. FPF uses that lesson only for explicit A.6.3 construction or C.29 representation: a projection expression, publication face, and `U.View` remain different objects, while any cross-context reuse stays explicit.
 
-* **Model-based views-as-queries practice.** Query and projection operations can construct candidate epistemes and make omissions inspectable. E.17.0 still tests each candidate independently against one exact viewpoint episteme; generation, selection, or a `viewpointRef` alone supplies no `U.View` membership.
+* **Views and viewpoints.** [ISO/IEC/IEEE 42010:2022](https://www.iso.org/standard/74393.html), particularly its concepts in §5, distinguishes an architecture, its description, viewpoints, views and correspondences. That supports organizing an API description around concerns and relating its parts. FPF's particular stack and face rules are additional choices. Query and projection operations can construct candidate epistemes and make omissions inspectable; E.17.0 supplies the separate FPF test against the exact viewpoint episteme.
 
 * **DDD bounded contexts and microservice contract-language practice.** Architecture practice keeps meaning local and makes crossings explicit. A.6’s stack and L/A/D/E claim-classification discipline provide a precise placement scheme for what belongs to the context boundary claim set, what belongs at the entry gate, what belongs to governance duties, and what belongs to observability evidence.
 
-* **Observability as evidence discipline.** Traces, logs and metrics can supply evidence inputs for an exact claim. Use A.10 for the evidence-provenance relation and bounded reliance.
+* **Observability as evidence discipline.** [OpenTelemetry Trace API](https://opentelemetry.io/docs/specs/otel/trace/api/) and [Trace SDK](https://opentelemetry.io/docs/specs/otel/trace/sdk/) distinguish span identity, recording and export; sampling or dropped records can limit available observations. The [Metrics Data Model](https://opentelemetry.io/docs/specs/otel/metrics/data-model/) makes aggregation explicit. These are current specification contributions, not proof of a particular payment result. [Google SRE, *Monitoring Distributed Systems* (2016)](https://sre.google/sre-book/monitoring-distributed-systems/) supplies a historical practical distinction between a successful transport response and correct service content. A.10 connects the chosen observations to the exact claim and use; retention and exposure prescriptions belong to their own D claims.
 
-* **Zero Trust, dynamic authorization, and policy-as-code practice.** Authorization practice separates policy, API, or schema text from a decision over subject, requested policy operation or work class, affected resource or work target, context, policy or gate version, decision source, and evidence. Cedar-style policy language and Zanzibar-style relation authorization are useful practice references for this split: the wording is not the decision. A.6 keeps policy, API, or schema wording in classified `L-*`, `A-*`, `D-*`, and `E-*` claims and uses `A.15.4` while appearance hides a prerequisite for work or reliance; `A.15` retains the enactment-alignment question.
+* **Zero Trust, dynamic authorization, and policy as code.** Authorization practice separates policy, API, or schema text from a decision over subject, requested policy operation or work class, affected resource or work target, context, policy or gate version, decision source, and evidence. [Cedar's authorization semantics](https://docs.cedarpolicy.com/auth/authorization.html) separates a request's principal, action, resource and context from policies and entity data, policy evaluation, and the combined `Allow` or `Deny` response with diagnostics. The historical architecture in [NIST SP 800-207 (2020), §2.1 and §3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf) also distinguishes the policy decision from administration and enforcement, using policy and observable state as inputs. An institutional grant used by an FPF gate retains its own obtaining conditions. A.6 keeps the corresponding L/A/D/E claims connected; use A.15.4 when appearance leaves an action prerequisite unrecovered, and A.15 for enactment alignment.
+
+* **Relation-based authorization and consistent evaluation.** The historical Zanzibar design, described by [Pang et al. (2019), §§2.1–2.3 and 2.4.4](https://www.usenix.org/system/files/atc19-pang.pdf), combines relation tuples with configured rules to determine effective permissions. Its access checks use a consistent snapshot constrained by the relevant content version. This supplies a concrete reason to recover the decision's inputs and currentness conditions when reusing an authorization result after an access relation or protected content changes. The relation definitions, stored tuples, evaluation and returned decision make different contributions to that judgement.
 
 * **Markov blankets and active inference as probabilistic boundary views only after restoration.** Markov-blanket thinking can help pick observables and diagnose boundary-condition failures, but the source phrase must be restored before it carries an A.6 boundary claim. It may name accepted local Markov dynamics, a mathematical or probabilistic lens, a holon delimitation or crossing relation, an interface, an interface module, a physical component, a boundary description, or an agency-threshold claim. A.6 uses the phrase only after the boundary claim set is recovered; it does not replace deontics, invariants, admissibility gates, or the subject pattern of the physical or mathematical claim.
 
@@ -14528,11 +14565,11 @@ The following sources contribute to cue economy, recoverable definition and boun
 > **Normativity:** Normative (unless explicitly marked informative)
 > **Placement:** Part A → A.6.B (matrix module; referenced by A.6 cluster overview)
 > **Builds on:** E.8 (authoring template), A.6.0 (`U.Signature`), A.6.1 (`U.Mechanism`), A.6.3 (`U.EpistemicViewing`), E.17.0/E.17 (MVPK + “no new semantics” faces), A.7 (EntityOfConcern and Description-episteme boundary; specification-use and publication-carrier distinction), A.2.3 (promise content when contract language is current), A.2.8 (`U.Commitment`), A.2.8.PER (subject pattern selected by the permission-word branch), A.2.9 (`U.SpeechAct`), E.10.D2 (EntityOfConcern and Description-episteme boundary; specification-use and refinement discipline), E.10 publication face, form, unit, and carrier discipline
-> **Purpose (one line):** Provide a canonical 2×2 norm square that classifies boundary statements (L/A/D/E), constrains how each quadrant is written, and defines explicit cross‑quadrant reference rules to support later boundary evolution and audit.
+> **Purpose (one line):** Provide a canonical four-way boundary-claim classification that classifies boundary statements (L/A/D/E), constrains how each quadrant is written, and defines explicit cross‑quadrant reference rules to support later boundary evolution and audit.
 
 **Use this when.** Use `A.6.B` when boundary wording mixes definitions, runtime entry conditions, generic prescriptions, individual duties or grants, actual work or evaluation results, and evidence.
 
-**First useful move.** Split the live passage into atomic claims, classify each claim by modality and adjudication position, and replace any consequential paraphrase dependency with an ID or canonical-location reference.
+**First useful move.** Identify what the reader needs to decide or understand about the boundary. Use §4.4 to select the claims and grounds needed for that answer; split mixed claims, classify their jobs, and name consequential dependencies by ID or canonical location.
 
 **What changes in practice.** Laws, gates, governance, and work-and-evidence claims can change without silently changing one another; publication faces reuse the canonical claims instead of restating them.
 
@@ -14557,17 +14594,11 @@ These labels are **claim-classification labels for statements**, not MVPK face d
 
 **Atomic claim.** An **atomic claim** is a sentence (or bullet) that performs exactly one logical role and is classifiable under exactly one quadrant. If a sentence mixes roles, it is **not atomic** and **MUST** be split before it can be classified.
 
-**Adjudication substrate (for classification).** For the purposes of this square, an atomic claim is classified by where its own truth condition or governance content is settled. This tells you how to classify the sentence; it does not make an individual commitment, grant, or finding exist.
+**Claim job and adjudication basis.** A quadrant identifies what a boundary claim contributes. Its adjudication basis states how that claim can be settled. Definitions and declared entry predicates are both description content. Generic normative content is recovered from its exact source; an individual duty or grant requires its actual constitutive basis. An occurrence or evaluated-result claim requires the facts specified by its subject predicate.
 
-* **In-description or in-theory**: an `L-*` truth condition is settled by inspecting, proving, or type-validating the description; a generic `D-*` claim states exact normative content, while an individual `D-*` claim names the commitment or grant it concerns.
-* **In-work or in-execution**: satisfaction depends on actual work, evaluation, observation or produced carriers under the claim’s subject predicate.
+**Deontic claims.** Writing a `D-*` claim records either generic normative content or a claim about an individual duty, commitment, or grant. When the wording is about permission, use the permission-word branch in §8.4.1 to recover the exact object, what makes it obtain, and the evidence needed before reliance. The instituting act and any compliance finding have their separate claims.
 
-**Note (important).** Writing a `D-*` claim records either generic normative content or a claim about an individual duty, commitment, or grant; it does not institute an individual relation or establish compliance. When the wording is about permission, use the permission-word branch in §8.4.1 to recover the exact object, what makes it obtain, and the evidence needed before reliance.
-
-**Modality family.** A claim is either:
-
-* **Truth-conditional**: definitions, invariants, typing rules and claims about actual results or observations.
-* **Governance**: prescriptions, individual obligations or commitments, grants, and exclusions (the RFC keywords `MUST`, `SHOULD`, and `MAY`, “is admissible”, “is blocked”, “commits to”).
+**Modality.** Preserve whether a sentence defines, prescribes, permits, hypothesizes or reports. Use that meaning together with the claim's job under §4; a modal word alone leaves the classification unresolved.
 
 ### A.6.B:1 — Problem frame
 
@@ -14579,8 +14610,8 @@ The classification connects the strata already distinguished in FPF: Signature a
 
 When authors cannot reliably answer two questions—
 
-1. “Is this a truth‑conditional statement or a governance statement?”
-2. “Is its content settled in the description, or does satisfaction depend on actual work, evaluation or observation?”
+1. “What does this claim contribute: meaning, an admission condition, normative content or a deontic position, or an occurrence/evidence account?”
+2. “What grounds are needed to settle this exact claim?”
 
 —then boundary statements drift across layers, faces fork semantics, and “compliance” becomes a matter of interpretation rather than a property that can be checked.
 
@@ -14600,21 +14631,20 @@ A boundary needs a minimal, stable classification that:
 
 ### A.6.B:4 - Solution — the Boundary Norm Square
 
-#### A.6.B:4.1 - Two independent distinctions
+#### A.6.B:4.1 - Four claim jobs and their grounds
 
-The **Boundary Norm Square** is the cross product of two independent distinctions:
+The **Boundary Norm Square** distinguishes four jobs in a boundary account. A definition can remain fixed while a gate changes; a duty can obtain while its bearer fails to perform it. An earlier observation may still be valid evidence when a changed admission condition leads to refusal. Establish the observation’s fitness for the new check, then apply that condition to decide admission. Keeping those claims distinct makes their actual dependencies available for a change or audit decision.
 
-1. **Modality family:** Truth‑conditional vs Governance
-2. **Adjudication position:** In-description vs in-work
-
-The square yields four quadrants that are *mutually exclusive for atomic claims*.
+Classify what the exact sentence asserts, then establish its grounds. For example, a declared entry predicate belongs in A and the result of applying it to one request belongs in E. A claim that a grant currently permits an action belongs in D; the instituting act, an evaluation of that grant and an actual exercise of it have their own E claims. The predicate definition and the individual claims remain description content, with different subjects and adjudication conditions.
 
 #### A.6.B:4.2 — The square
 
-|                                | **Truth‑conditional** (definitions & invariants) | **Governance** (governance conditions & obligations) |
-| ------------------------------ | ------------------------------------------------ | ------------------------------------------ |
-| **In-description or in-theory** | **L — Laws & Definitions**                       | **D — Deontics & Commitments**             |
-| **In-work or in-execution**     | **E — Work‑Effects & Evidence**                  | **A — Admissibility & Gates**              |
+| Quadrant | Job of the claim | What settles it |
+| --- | --- | --- |
+| **L — Laws & Definitions** | Defines vocabulary, a semantic constraint, invariant or typing rule. | The declared definition or assumptions and the corresponding inspection, proof, type validation or model reasoning. |
+| **A — Admissibility & Gates** | Declares the condition for a mechanism application to enter. | The exact admission rule and its input meanings. A particular application's satisfaction or decision is a separate E claim. |
+| **D — Deontics & Commitments** | States generic normative content or a claim about an individual duty or grant. | The exact normative source for generic content; the subject pattern's constitutive conditions and actual basis for an individual relation. |
+| **E — Work‑Effects & Evidence** | Reports an occurrence, evaluated finding, observed condition or evidence support. | The actual facts and subject-specific conditions for that claim, with evidence support when the receiving use requires it. |
 
 **Clarification (classify the claim by its job, not by its subject pattern).**
 
@@ -14622,9 +14652,9 @@ The square yields four quadrants that are *mutually exclusive for atomic claims*
 * The exact ClaimGraph located through the subject pattern supplies the referenced object's predicate and obtaining conditions; it does not choose the claim's quadrant.
 * When permission wording is present, use the single permission-word branch in §8.4.1. It separates the possible jobs of that wording without inventing a common “permission result” kind.
 
-**Normative rule (single quadrant).** Each **atomic** claim **MUST** be classifiable under exactly one quadrant **L/A/D/E**.
+**Normative rule (single quadrant).** Each **atomic** boundary claim **MUST** be assigned exactly one job under L/A/D/E. Recover an unresolved meaning before assigning it. A condition or reference within one coherent claim does not by itself add another asserted claim.
 
-**Normative rule (no mixed sentences).** A conforming boundary text **SHALL** decompose any sentence that bundles multiple quadrants (typical form: “MUST … if … then … and it is logged …”) into multiple atomic claims before those claims are treated as normative.
+**Normative rule (mixed claims).** A conforming boundary text **SHALL** separate independently asserted claims with different jobs. For example, a duty to enforce an entry rule and a report of one enforcement result have separate D and E claims referring to the A rule. Preserve the logical connection when splitting the wording.
 
 #### A.6.B:4.3 — Canonical placements in the Signature Stack
 
@@ -14636,6 +14666,22 @@ The quadrants have canonical placements in the boundary stack:
 * **E → Work-Effects & Evidence layer:** truth-conditional claims whose satisfaction requires actual work, evaluation, observation, or produced carriers.
 
 A publication face **MUST NOT** introduce new semantic claims outside this L/A/D/E-classified claim set. **E.17 (MVPK)** enforces this rule for publication faces and their selected profiles.
+
+#### A.6.B:4.4 - Develop a boundary explanation for its receiving use
+
+Start with the boundary passage, its available sources and the reader's question. The square helps recover what each claim contributes and what would settle it. The explanation connects the claims needed for the reader to interpret, use or change that boundary.
+
+**1. Recover the question and the claims already made.** Establish which understanding or decision the text must support. Interpreting a metric, deciding whether a request may enter and determining whether a duty was fulfilled need different answers. Recover the draft's asserted content, modality and scope. If a word such as *guarantees* leaves the intended assertion open, use A.6.C:4.3 with the author or source to resolve that meaning. Keep a consequential unresolved meaning explicit until its source is available.
+
+**2. Establish the grounds of the answer.** Split independently asserted jobs and classify them through §§4.1–4.3. Use the detailed procedure and conditional permission-word branch in §8.4.1 where needed. Recover the definition for a meaning claim, the declared predicate for an entry condition, the normative or constitutive basis for a duty or grant, and the facts for an occurrence or finding. Preserve the source's conditions and qualifications. A missing ground requires a targeted return to the source or the responsible practice. If the work calls for a new rule or commitment, develop and establish it through its governing practice before treating it as current boundary content.
+
+**3. Select the claims and detail on which the reader's answer depends.** Work backward from that answer. A reported measurement needs its quantity, population, conditions and interpretation; judging fulfilment of a commitment additionally needs that commitment and its comparison rule. Follow such dependencies until the remaining premises are supplied by the text or by references the intended reader can obtain and understand. Use §6 for their actual relations. Include a detail when changing it could change the answer, when it explains why a step follows, or when the reader needs it to perform the stated use. A complete four-quadrant account is warranted when the question actually crosses all four jobs. Keep other valid claims in their canonical sources for their own uses.
+
+**4. Compose the explanation around that reasoning.** State the answer in the reader's working terms, connect its supporting claims, and make the conditions that limit its use recoverable. Place a definition beside the claim that needs it and an observation beside the inference it supports. IDs or canonical locations preserve material dependencies under §6.1; the accompanying explanation supplies their meaning for this reader. Use a Claim Register or separate Tech and Plain forms when the reuse or publication conditions call for them. Selection and recomposition preserve the source claims; a new semantic constraint first needs its own canonical claim.
+
+**5. Return the text to the reader's work.** Follow the intended interpretation or decision using the explanation. Identify any consequential premise the reader would still have to invent, obtain that premise or state the precise unresolved question, and revise the affected connection. Consider a relevant change of condition: show which claim must be reconsidered and which grounds remain usable. Stop when the text supports the assigned understanding or decision with its actual limits. A later question can require a different selection from the same canonical claims.
+
+The cases in §8.4 show these authoring choices. Their claims about latency, coaxiality and project entry are the material being explained; the reusable operation is selecting and connecting that material for a reader's question.
 
 ### A.6.B:5 — Quadrant specifications
 
@@ -14667,7 +14713,7 @@ EntityOfConcern need not itself be a description and may be Work.
 
 **Applicability and admissibility.** Signature `Applicability` scopes intended use and bounded context; runtime entry predicates belong in `U.Mechanism.AdmissibilityConditions` as `A-*`. If prose says “clients must satisfy the applicability”, first recover whether it means the declared scope or an actual entry condition. State the generic `D-*` prescription, or the independently instituted individual duty, separately and reference the condition it actually requires. Classify that condition as `A-*` only when it is an entry predicate.
 
-**Adjudication.** In‑work: evaluated at mechanism entry (or operationally at the point the mechanism is applied).
+**Adjudication.** Inspect the declared entry rule and its inputs to establish the A claim. Evaluate that predicate at mechanism entry or the stated application point to obtain a particular satisfaction or gate-decision result; report that result separately in E.
 
 **Canonical form.** Predicate style, e.g.:
 
@@ -14723,7 +14769,7 @@ The assertion states and supports a claim about the relation. Its fields, public
 
 #### A.6.B:5.4 — Quadrant E: Work‑Effects & Evidence
 
-**Intent.** State a truth-conditional result that can be settled only from actual work, evaluation, observation, or produced carriers.
+**Intent.** State an actual occurrence, evaluated finding, observed condition or evidence-support claim. Settle it from the actual work, evaluation, observation, or carrier conditions required by its predicate.
 
 **Adjudication.** From actual work, evaluation or observation under the claim’s subject predicate. A record can support that judgment through its evidence relation; its presence alone does not settle the claim.
 
@@ -14808,6 +14854,10 @@ When a generic prescription or individual obligation relies on precise term or m
 
 This keeps governance text from accidentally redefining semantics in prose.
 
+##### A.6.B:6.2.6 - (A → D/E) Normative or evaluated input to a gate
+
+When entry depends on a current grant or a separately established finding, reference that exact D or E claim and state how its subject enters the predicate. For example, `A-CAL-01` in §8.4.5.4 requires the grant stated by `D-CAL-01` to cover the plan and time, together with the required conflict finding. The grant, finding and entry decision retain their own obtaining conditions. A changed input reopens the admission evaluation that consumed it.
+
 #### A.6.B:6.3 — The “triangle decomposition” for mixed sentences
 
 **Normative rule (decomposition).** A conforming boundary text **SHALL** decompose
@@ -14824,21 +14874,21 @@ Preserve an expectation or plan as such; leave the actual E result absent until
 its basis exists. This repairs mixed validity, authorization, compliance, audit,
 and security claims without manufacturing a third claim.
 
-#### A.6.B:6.4 — Dependency direction (no “upward” imports)
+#### A.6.B:6.4 — Ground each dependency
 
-The square keeps laws and admissibility predicates independent of governance prose. An evidence or result claim may concern a prescription, duty, or grant, but its truth is settled by its own predicate and actual basis.
+Reusable laws retain their declared meaning, while an admission predicate can consume a normative position or an evaluated result. For each material link, state what it supplies: meaning, an input condition, an evaluation target or evidence support. Settle each depended-on claim under its own rule.
 
 These are cross-quadrant restrictions. They do not prohibit same-quadrant
 references, such as `L-* → L-*` or `E-* → E-*`.
 
-**Normative rule (no upward dependencies).**
+**Normative rule (dependency grounds).**
 
 * `L-*` claims **MUST NOT** depend on or reference `A-*`, `D-*`, or `E-*` claims (except for purely informative notes explicitly marked informative).
-* `A-*` claims **MUST NOT** depend on or reference `D-*` claims. (`A-*` may reference `L-*` for defined terms or invariants.)
+* An `A-*` claim **MAY** reference a `D-*` claim for the normative content, duty or grant used by its entry predicate, and an `E-*` claim for a separately established finding or observation. It **MUST** identify the actual input and required scope or currentness under §5.2; deciding that entry is permitted still requires the predicate to be satisfied. `A-*` may reference `L-*` for defined terms or invariants.
 * An `E-*` claim **MAY** reference a `D-*` claim as its evidence target or to identify the norm, duty, or grant used by its evaluation. The `E-*` result **MUST** still satisfy its own predicate and the actual-work, evaluation, or observation requirements of §5.4; the `D-*` claim alone establishes no result or compliance. (`E-*` may also reference `A-*` for conditioning and `L-*` for metric or term meanings.)
 * `D-*` claims **MAY** reference `L-*`, `A-*`, and `E-*` claims when needed, and **SHOULD** do so by ID or canonical location rather than restating content.
 
-**Rationale (informative).** Laws (L) and admission predicates (A) retain their own meanings. Governance (D) states prescriptions, duties, and grants. Evidence and results (E) may report on those claims or evaluate conduct against them; a prescribed result is not inferred from the prescription.
+**Rationale (informative).** The L restriction keeps the reusable definition or law independent of a particular gate application, deontic claim or observation. Expose a varying policy or state as a declared parameter; bind it where the particular condition or claim uses it. A and D may refer to one another for different reasons: a duty can require enforcing a gate, while that gate consumes a separately obtaining grant. Examine those reasons rather than treating every reference as one ordering relation. A grant justified only by a gate result that itself assumes that grant would leave both claims ungrounded. Evidence and results may report on normative claims or evaluate conduct against them under their own predicates.
 
 ### A.6.B:7 — Mini-register: Claim Register (informative, recommended)
 
@@ -14874,9 +14924,9 @@ later boundary evolution and audit.
 
 #### A.6.B:8.2 - Show #1: Effect signature vs handler (post‑2015 effect systems)
 
-A service boundary naturally mirrors **algebraic effects & handlers** practice (popularized broadly in the post‑2015 era, with mainstream effect handlers becoming especially prominent around OCaml 5):
+An effect interface declares operations; handlers supply computation behavior. To describe a deployed service using that interface, recover the additional semantic, admission, normative and observation claims that its use needs:
 
-* **L:** defines the operation vocabulary and laws (effect signature semantics).
+* **L:** defines the operation vocabulary and the semantic laws required of this service's realizations.
 * **A:** defines when the operation is admissible (runtime guard predicates).
 * **D:** states who must enforce guards and what the provider commits to (operator and implementer duties; SLAs).
 * **E:** ties “what happened” to observable carriers (traces, logs, metrics, and events) so commitments can be adjudicated.
@@ -14896,11 +14946,11 @@ The square keeps “must use dataset vX” (D) separate from “evaluation is ad
 
 #### A.6.B:8.4 — Worked Rewrite Kit (informative, recommended)
 
-> **Informative.** This kit is a worked, copy‑pasteable restatement of A.6.B’s rules (atomicity, L/A/D/E classification, explicit references, triangle decomposition, and no‑upward dependencies). If anything here conflicts with A.6.B, **A.6.B is authoritative**.
+> **Informative.** These cases apply the authoring method in §4.4 and the rules for atomicity, L/A/D/E classification, explicit references, triangle decomposition and grounded dependencies. Use the case whose receiving question matches the present work. If anything here conflicts with A.6.B, **A.6.B is authoritative**.
 
 ##### A.6.B:8.4.0 - Goal
 
-Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence” into:
+For the receiving question established in §4.4, recover the meaning of a boundary sentence that mixes “laws / gates / duties / evidence” and produce:
 
 1. **atomic L/A/D/E-classified claims** (L/A/D/E),
 2. **explicit references by claim ID or canonical location** (no paraphrase duplication),
@@ -14909,18 +14959,20 @@ Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence�
 
 ##### A.6.B:8.4.1 - Micro-procedure (Atomize → Classify → Triangle → Link → Bind References → Recompose)
 
+Use this procedure to recover and express the claims selected through §4.4. The permission-word branch below supplies the detailed distinctions when permissive wording matters to that answer.
+
 **Step 1 — Atomize.** Split mixed prose into atomic claims; each must classify to exactly one quadrant.
 
 **Step 2 — Classify (L/A/D/E).**
 
 * **L** if the claim is **truth‑conditional** and adjudicable *in‑description* (inspection, proof or type validation, or model reasoning **over declared assumptions**): definitions, invariants, typing and well-formedness constraints.
   **Guardrails:** `L-*` MUST NOT (i) use RFC deontic keywords as operators, (ii) encode runtime entry predicates (those are `A-*`), or (iii) assert evidence existence or measurement outcomes (those are `E-*`).
-* **A** if it is an *in‑work* **gate predicate**: what the mechanism admits at application time (“admissible iff …”). It is not a duty and MUST NOT be phrased as one.
+* **A** if it declares a **gate predicate**: what the mechanism admits at application time (“admissible iff …”). State the condition as a predicate; a duty to satisfy or enforce it is a separate D claim.
   **Guardrails:** `A-*` SHOULD be written in predicate form and MUST NOT (i) use RFC deontic keywords as if it were an agent obligation, (ii) claim that evidence carriers exist (that is `E-*`), or (iii) assign responsibility or enforcement (that is `D-*`).
   *(Do not confuse this with `Signature.Applicability`: applicability scopes intended meaning and intended use; it is not a runtime entry gate.)*
 * **D** if the exact atomic statement states either a generic prescription or an individual duty, recommendation-as-duty, prohibition, or commitment. A permissive sentence enters D only through the **Grant or norm** row below.
   **Guardrails:** a generic claim names the exact normative episteme and applicable rule content without inventing an individual relation. An individual-duty claim names its actual bearer and exact separately obtaining A.2.8 commitment. A grant claim instead follows the participant and ground test in the **Grant or norm** row. A system-role kind or assignment may be a rule ground but is neither bearer nor deontic relation. Writing any claim does not make its object obtain.
-* **E** if it is an *in-work* truth-conditional claim whose satisfaction requires actual work, evaluation, observation, or produced carriers.
+* **E** if it reports an actual occurrence, evaluated finding, observed condition or evidence support under §5.4. A claim stating the normative content or obtaining duty or grant itself follows D; an evaluation or occurrence concerning it has its separate E claim.
   **Predicate-specific minimum:** name the exact `E-*` predicate and object, then the actual work, evaluation, or observation, scope/window, comparison frame, and other settling conditions that this predicate needs. Add an evidence or source-use relation, carrier/schema, viewpoint, or consumer only when the receiving gate, plan, audit, assurance, or other reliance decision depends on that support.
   **Guardrails:** `E-*` SHOULD NOT use RFC deontic keywords and MUST NOT hide a gate predicate (that is `A-*`). A reference to `D-*` follows §6.4: identify the evidence target or normative evaluation input, then establish the E result under its own predicate.
   *(If the source sentence is “Role SHALL measure, retain, or expose …”, first decide whether it is a generic prescription about an exact system-role kind or a claim about one actual bearer. Classify either as **D**, but assert an individual commitment only on the second route.)*
@@ -14930,7 +14982,7 @@ and modality under §6.3. Use the A/D/E triangle only when the source states an
 entry condition, a generic prescription or individual duty, and an actual
 observation or result:
 
-* **A**: the admissibility predicate (what must be true to treat the claim as applicable),
+* **A**: the condition under which the mechanism admits this application,
 * **D → A**: which exact policy prescribes keeping or enforcing the predicate, or which actual bearer has that separately instituted duty; any responsibility relation is stated separately under its direct domain predicate
 * **E → A**: the actual observation or result and, when needed, the evidence or
   traces used to adjudicate the predicate.
@@ -14957,7 +15009,7 @@ Choose one row. If one sentence answers two questions, split it before classific
 cross-quadrant restrictions in §6.4, including its explicitly informative-note
 exception for L references to A/D/E. Same-quadrant references remain available.
 
-**Common link motifs (informative).** The most reusable boundary rewrites use `D→A`, `E→A`, `D→E`, `A/E→L`, and `D→L`; `E→D` identifies an evidence target or normative evaluation input under §6.4.
+**Common link motifs (informative).** Boundary rewrites use `D→A`, `E→A`, `D→E`, `A/E→L`, and `D→L`; `A→D/E` supplies a stated gate input, while `E→D` identifies an evidence target or normative evaluation input under §6.4.
 
 **Step 5 — Bind references (minimal A.7 discipline).**
 
@@ -14968,8 +15020,10 @@ exception for L references to A/D/E. Same-quadrant references remain available.
 **Optional drift-control.** Add each L/A/D/E-classified claim verbatim to a Claim Register row (A.6.B:7) with its canonical location and references when this helps maintain faithful faces.
 
 **Step 6 — Recompose into readable text.**
-Include only the claim classes present in the source. Use separate Tech and Plain
-forms when their readers need them; both may also serve as a teaching aid.
+Select the source claims and supporting detail needed for the receiving question
+under §4.4. Include only the claim classes present in the source. Use separate
+Tech and Plain forms when their readers need them; both may also serve as a
+teaching aid.
 
 * **Tech recomposition**: a short **L/A/D/E-classified claim bundle** listing the
   present claims and their ID or canonical-location references.
@@ -15000,20 +15054,34 @@ forms when their readers need them; both may also serve as a teaching aid.
 
 ###### A.6.B:8.4.3.2 - Atomize + Classify (L/A/D/E)
 
-The draft alone leaves open whether the author means a latency target, an obtaining duty, or an observed result, and under which measurement rule and operating conditions. With only that cue, return those questions. For the expanded worked case below, take the referenced definitions and envelope, the independently obtaining duties, and the dated evaluation and carrier-use facts as additional premises.
+The draft leaves open whether *guarantees* states a target, an obtaining duty or an observed result. The author first recovers the receiving question: the service reader wants to know what the dated evaluation established about latency. Recover the measurement definition, admitted operating envelope, actual evaluation and evidence support from the named sources. These are additional premises of this constructed case; the draft alone leaves them unresolved.
+
+**Explain the dated measurement.** Under steps 2–3 of §4.4, the observed value requires its computation meaning, operating conditions and actual basis. The author therefore selects these claims:
 
 **L-API-01 (Definition).**
 `p95_latency(window W, population P, unit U, method M)` is defined as … (formal measurement definition).
 *(Lives in Signature.Laws or a referenced measurement definition pack.)*
 
-**L-API-02 (Interface signature).**
-The API endpoints and parameters are as declared (including parameter passing discipline / units).
-*(Signature-level structure.)*
-
 **A-API-01 (Gate predicate: admissibility).**
 In this expanded case, the evaluation mechanism admits assessment of “p95 < 200ms” only under its declared load profile, deployment region, sampling method and window. Its entry predicate is:
 `AdmissibleLatencyClaim := (region=US) ∧ (concurrency≤X) ∧ (payload≤Y) ∧ (W=5m) ∧ (M=HDRHistogram@v…) ∧ (P=requests that match filter F)`
 *(References L-API-01 for definition.)*
+
+**E-API-01 (Evidence / carriers).**
+For `LatencyEvaluation-T1` over `Γ_time=[t1..t2]`, actual carriers `TraceBatch-T1`, `Histogram-H1`, `DashboardSnapshot-D1`, and `SamplingConfiguration-S1` were produced or observed under the operating and sampling conditions in `A-API-01`, using the metric and computation definition in `L-API-01`. An A.10 evidence-provenance path links those exact carriers to `LatencyEvaluation-T1` and its `LatencyResult-T1`.
+*(References `A-API-01` and `L-API-01` for the operating conditions and metric definition.)*
+
+**E-API-02 (Observed value claim).**
+For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and using carriers in `E-API-01`, `LatencyEvaluation-T1` produced `LatencyResult-T1` with observed `p95_latency = 173ms` (computed per `L-API-01`).
+*(References A-API-01, L-API-01 and E-API-01.)*
+
+**Return to the measurement question.** The author writes: “During `[t1..t2]`, the observed p95 latency was `173ms` under the operating and sampling conditions in **A-API-01**, using the definition in **L-API-01** and the evaluation evidence in **E-API-01** (**E-API-02**).” This connects the value to the conditions under which the reader can interpret it. The endpoint declaration and duty bearers do not change this bounded measurement answer. If the reader asks about another region or sampling method, return to the applicability of **A-API-01** and the basis of the corresponding evaluation.
+
+**Changed question: explain the service assurance arrangement.** The reader now needs the interface being covered, who owes the latency performance, who must publish incident notes and how the supporting evidence remains available. The author recovers the declared interface and the separately obtaining commitments. Those premises select the following additional claims; their inclusion follows the new question:
+
+**L-API-02 (Interface signature).**
+The API endpoints and parameters are as declared (including parameter passing discipline / units).
+*(Signature-level structure.)*
 
 **D-API-01 (Commitment).**
 Admitted service-maintaining system `ServiceOperations-A` is the actual duty bearer of separately obtaining `LatencyCommitment-API-01 : U.Commitment`; under that commitment it SHALL meet `p95_latency < 200ms` when `A-API-01` holds, adjudicated per `L-API-01` using the carriers and observation conditions in `E-API-01`.
@@ -15023,19 +15091,13 @@ Admitted service-maintaining system `ServiceOperations-A` is the actual duty bea
 Admitted operations system `SRE-A` is the actual duty bearer of separately obtaining `IncidentNoteCommitment-API-02 : U.Commitment`; it SHALL publish incident notes when `LatencyCommitment-API-01` is violated and SHALL avoid claiming compliance outside `A-API-01`.
 *(References D-API-01 and A-API-01 by ID.)*
 
-**E-API-01 (Evidence / carriers).**
-For `LatencyEvaluation-T1` over `Γ_time=[t1..t2]`, actual carriers `TraceBatch-T1`, `Histogram-H1`, `DashboardSnapshot-D1`, and `SamplingConfiguration-S1` were produced or observed under the operating and sampling conditions in `A-API-01`, using the metric and computation definition in `L-API-01`. An A.10 evidence-provenance path links those exact carriers to `LatencyEvaluation-T1` and its `LatencyResult-T1`.
-*(References `A-API-01` and `L-API-01` for the operating conditions and metric definition.)*
-
 **D-API-03 (Duty-to-evidence linkage).**
 Admitted telemetry-maintaining system `TelemetryOperations-A` is the actual duty bearer of separately obtaining `TelemetryRetentionCommitment-API-03 : U.Commitment`; it SHALL retain or expose the actual carriers referenced in `E-API-01` for the audit window required by policy.
 *(References E-API-01 by ID.)*
 
-**E-API-02 (Observed value claim).**
-For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and using carriers in `E-API-01`, `LatencyEvaluation-T1` produced `LatencyResult-T1` with observed `p95_latency = 173ms` (computed per `L-API-01`).
-*(References A-API-01, L-API-01 and E-API-01.)*
-
 ###### A.6.B:8.4.3.3 - Triangle decomposition (explicit)
+
+For that assurance question, the author uses §6 to connect the declared condition, the duties and the actual observations. Each link explains one dependency of the assurance account:
 
 * **A-API-01** is “the predicate”.
 * **D-API-01 → A-API-01** states the commitment under the gate or envelope.
@@ -15044,8 +15106,11 @@ For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and usin
 
 ###### A.6.B:8.4.3.4 - Readable recomposition
 
+The broader assurance question uses the following selection. The earlier measurement answer remains sufficient for its narrower question. A changed commitment requires reconsidering the duty and compliance conclusion while retaining an applicable measurement and its grounds.
+
 **Tech recomposition (L/A/D/E-classified claim bundle, short):**
 
+* `L-API-02` identifies the covered API endpoints and parameters.
 * `L-API-01` defines p95 latency computation.
 * `A-API-01` specifies when the latency claim is admissible.
 * `D-API-01` states the commitment under that envelope.
@@ -15055,7 +15120,7 @@ For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and usin
 * `E-API-02` reports observed performance under `A-API-01` for `Γ_time=[t1..t2]`.
 
 **Plain recomposition (one paragraph, readable):**
-“In this expanded case, the API’s latency target uses the p95 definition in **L-API-01**, and the mechanism admits its evaluation only under operating envelope **A-API-01**. `ServiceOperations-A` has the latency duty stated in **D-API-01**. Adjudication uses the telemetry carriers listed in **E-API-01**; `TelemetryOperations-A` has the retention duty in **D-API-03**, and `SRE-A` has the incident-note duty in **D-API-02**. Under that envelope, the observed p95 over `Γ_time=[t1..t2]` was `173ms` (**E-API-02**).”
+“For the API endpoints and parameters declared in **L-API-02**, the latency target uses the p95 definition in **L-API-01**, and the mechanism admits its evaluation only under operating envelope **A-API-01**. `ServiceOperations-A` has the latency duty stated in **D-API-01**. Adjudication uses the telemetry carriers listed in **E-API-01**; `TelemetryOperations-A` has the retention duty in **D-API-03**, and `SRE-A` has the incident-note duty in **D-API-02**. Under that envelope, the observed p95 over `Γ_time=[t1..t2]` was `173ms` (**E-API-02**).”
 
 ##### A.6.B:8.4.4 - Example 2 — Mechanical engineering (fit / coaxiality)
 
@@ -15065,7 +15130,7 @@ For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and usin
 
 ###### A.6.B:8.4.4.2 - Atomize + Classify
 
-First ask whether the draft concerns a geometric constraint, a process duty, or a measured result, and recover the datum, tolerance and applicable conditions. For the expanded worked case below, take the referenced definition and process envelope, the independently obtaining process and retention duties, and the dated measurement facts as additional premises.
+First recover which assertion *ensures* is meant to express. In this constructed case, a reader initially needs to interpret the geometric requirement at the shaft–bushing boundary. The author obtains the declared datum, tolerance and measurement convention, then uses steps 2–3 of §4.4 to select the two definitions that make that requirement interpretable:
 
 **L-FIT-01 (Definition).**
 `coaxiality` is defined relative to a declared base axis and measurement method (datum scheme, instrument, tolerance zone).
@@ -15075,27 +15140,37 @@ First ask whether the draft concerns a geometric constraint, a process duty, or 
 The boundary relation involves shaft, bushing, datum axis, tolerance class, temperature window, assembly procedure class.
 *(Signature-level arity recovery / slots.)*
 
+**Return to the interpretation question.** The author writes: “Interpret the coaxiality requirement for the shaft–bushing boundary using its declared datum scheme, measurement method and tolerance zone (**L-FIT-01**), with the participants and applicable temperature and assembly conditions in **L-FIT-02**.” The reader can now locate what the geometric requirement means. A measured claim about a particular lot needs a further answer.
+
+**Changed question: determine what was established for lot L123.** The author obtains the evaluation rule and the dated measurement facts. The admissible process envelope and actual evaluation connect the geometric meaning to this lot. Their source recovery supplies the next three claims:
+
 **A-FIT-01 (Gate predicate).**
 In this expanded case, the evaluation mechanism admits assessment of the coaxiality claim only when manufacturing and assembly satisfy the declared process envelope: material batch, temperature window, tool calibration validity, surface finish class and alignment procedure version.
 *(Gate predicate; can be checked using evidence, but is not itself evidence.)*
-
-**D-FIT-01 (Duty).**
-Admitted production-engineering system `ProcessEngineer-A` is the actual duty bearer of separately obtaining `ProcessEnvelopeCommitment-FIT-01 : U.Commitment`; it SHALL ensure `A-FIT-01` holds for the production lot and SHALL not release the lot for use when `A-FIT-01` is false.
-*(References A-FIT-01.)*
 
 **E-FIT-01 (Evidence carriers).**
 For `CoaxialityEvaluation-L123` over lot `L123` and `Γ_time=[t1..t2]`, actual carriers `CMMReport-L123`, `CalibrationCertificate-C7`, `AssemblyLog-L123`, `TemperatureTrace-L123`, and `DatumSchemePin-D4` were produced or observed. An A.10 evidence-provenance path links those exact carriers to `CoaxialityEvaluation-L123` and its `CoaxialityResult-L123`.
 *(References `A-FIT-01` and `L-FIT-01`; avoids RFC deontics.)*
 
-**D-FIT-02 (Duty-to-evidence linkage).**
-Admitted quality-engineering system `QualityEngineer-A` is the actual duty bearer of separately obtaining `FitEvidenceRetentionCommitment-02 : U.Commitment`; it SHALL retain or expose the carriers referenced in `E-FIT-01` for the production lot.
-*(References E-FIT-01 by ID.)*
-
 **E-FIT-02 (Observed).**
 For lot `L123` and window `Γ_time=[t1..t2]`, under conditions pinned to `A-FIT-01` and using carriers in `E-FIT-01`, `CoaxialityEvaluation-L123` produced `CoaxialityResult-L123`: measured coaxiality was within tolerance zone `T` (interpreted per `L-FIT-01`).
 *(References A-FIT-01, L-FIT-01, and E-FIT-01.)*
 
+The resulting account states: “For lot `L123` during `[t1..t2]`, the evaluation under **A-FIT-01** found coaxiality within tolerance zone `T`, interpreted through **L-FIT-01** and supported by the carriers in **E-FIT-01** (**E-FIT-02**).” If the datum scheme changes, the author reopens the interpretation and fitness of the measurement for that scheme. The earlier finding retains its stated datum and conditions.
+
+**Further question: explain the production and evidence duties.** A reader arranging release and later reliance also needs to know who is bound to maintain the process envelope and retain its evidence. Recovering the separately obtaining commitments supplies these additional claims:
+
+**D-FIT-01 (Duty).**
+Admitted production-engineering system `ProcessEngineer-A` is the actual duty bearer of separately obtaining `ProcessEnvelopeCommitment-FIT-01 : U.Commitment`; it SHALL ensure `A-FIT-01` holds for the production lot and SHALL not release the lot for use when `A-FIT-01` is false.
+*(References A-FIT-01.)*
+
+**D-FIT-02 (Duty-to-evidence linkage).**
+Admitted quality-engineering system `QualityEngineer-A` is the actual duty bearer of separately obtaining `FitEvidenceRetentionCommitment-02 : U.Commitment`; it SHALL retain or expose the carriers referenced in `E-FIT-01` for the production lot.
+*(References E-FIT-01 by ID.)*
+
 ###### A.6.B:8.4.4.3 - Readable recomposition
+
+For this broader question the author connects the definition, admissibility, duties and observation. This selection lets the reader distinguish what the lot evaluation established from what each duty requires.
 
 **Tech bundle:**
 
@@ -15106,7 +15181,7 @@ For lot `L123` and window `Γ_time=[t1..t2]`, under conditions pinned to `A-FIT-
 * What we observe and keep as carriers: `E-FIT-01` and measured outcome `E-FIT-02` (with retention duty `D-FIT-02`).
 
 **Plain paragraph:**
-“In this expanded case, ‘ensures coaxiality’ is made precise by fixing the definition and datum scheme (**L-FIT-01**) and by making the boundary participants explicit (**L-FIT-02**). The mechanism admits this coaxiality evaluation only under the declared manufacturing and assembly envelope (**A-FIT-01**). `ProcessEngineer-A` has the process-envelope duty stated in **D-FIT-01**. Compliance is adjudicated using the measurement and process carriers listed in **E-FIT-01**; for lot `L123` over `Γ_time=[t1..t2]`, the observed coaxiality was within tolerance **E-FIT-02**.”
+“In this expanded case, ‘ensures coaxiality’ is made precise by fixing the definition and datum scheme (**L-FIT-01**) and by making the boundary participants explicit (**L-FIT-02**). The mechanism admits this coaxiality evaluation only under the declared manufacturing and assembly envelope (**A-FIT-01**). `ProcessEngineer-A` has the process-envelope duty stated in **D-FIT-01**. `QualityEngineer-A` has the evidence-retention duty in **D-FIT-02**. Compliance is adjudicated using the measurement and process carriers listed in **E-FIT-01**; for lot `L123` over `Γ_time=[t1..t2]`, the observed coaxiality was within tolerance **E-FIT-02**.”
 
 ##### A.6.B:8.4.5 - Example 3 — Management (project “approved or aligned”)
 
@@ -15116,7 +15191,7 @@ For lot `L123` and window `Γ_time=[t1..t2]`, under conditions pinned to `A-FIT-
 
 ###### A.6.B:8.4.5.2 - Atomize + Classify
 
-With only the draft, ask which approval is claimed, which subsequent action depends on it, and what rule and actual result support that use. For the expanded worked case below, take the named sponsor-approval definition, gate profile, independently obtaining coordinator duty, four actual check-application results and evidence path as additional premises.
+With only the draft, ask which approval is claimed and which subsequent action the reader needs to decide. Here the question is whether the project may start execution. Recover the sponsor-approval definition, entry predicate, four actual check-application results and evidence path from the named sources. These additional premises let the author connect the prerequisite meanings to a current entry decision. The separately obtaining coordinator duty is needed for the broader question of who is bound to maintain this arrangement; it is also supplied in the constructed case below.
 
 **L-PRJ-01 (Definition).**
 For this case, the project-entry policy defines `RequiredProjectApproval(project)` as sponsor sign-off on the identified project. Risk-review completion, budget availability and staffing are separate prerequisites.
@@ -15139,6 +15214,10 @@ For reliance on `E-PRJ-01`, the exact observed carrier set is `{DecisionRecord-R
 
 ###### A.6.B:8.4.5.3 - Readable recomposition
 
+**Answer the entry question.** The author uses **L-PRJ-01** and **A-PRJ-01** to interpret the prerequisites, **E-PRJ-01** for the actual decision and **E-PRJ-02** for the support needed before reliance. The answer is: “At snapshot `t`, the project-entry decision is `pass`, allowing `StartExecution-P` within the stated window (**E-PRJ-01**, supported by **E-PRJ-02**). Recheck when a prerequisite or the decision's profile, scope or window changes.” A changed budget check returns the reader to the affected admission decision. The definition of sponsor approval remains usable.
+
+**Explain the wider arrangement when requested.** Adding **D-PRJ-01** answers who has the project-entry and registry-maintenance duties. The following recomposition addresses that wider question:
+
 **Tech bundle:**
 
 * The required sponsor approval is defined by `L-PRJ-01`; risk review, budget and staffing remain separate prerequisites.
@@ -15150,6 +15229,8 @@ For reliance on `E-PRJ-01`, the exact observed carrier set is `{DecisionRecord-R
 “In this expanded case, the required sponsor approval has the meaning defined in **L-PRJ-01**. Together with the separate risk-review, budget and staffing prerequisites, it supplies the inputs to the entry predicate **A-PRJ-01**. `ProjectCoordinator-A` has the project-entry and registry-maintenance duties stated in **D-PRJ-01**. At snapshot `t`, the current A.21 profile application maps every required check-application result to `pass`; **E-PRJ-01** records `decisionValue=pass` with the action consequence ‘start `StartExecution-P` within the stated window’, and **E-PRJ-02** supplies the evidence path for reliance on that result.”
 
 ###### A.6.B:8.4.5.4 - Filled permission case (each sentence classified)
+
+Apply §4.4 to each receiving question in this case. To explain the current grant, connect its instituting basis **E-CAL-01** to **D-CAL-01**. For an entry decision, also recover the entry predicate and the actual decision with its applicable inputs. A question about whether the technician used the grant selects **E-CAL-02–03**; later compliance and renewed entry require their own findings below. The detailed permission branch in §8.4.1 explains these selections. Preserve the distinct claims so a later question can use its own grounds.
 
 **E-CAL-01 (Instituting communicative Work).** Admitted system `MaintenanceCoordinator-A` performed dated `CalibrationGrantAct-17 : U.SpeechAct` under `MaintenanceCoordinator-A@DayShift`; that obtaining assignment has the system as holder and covers the act. In this filled case, `CalibrationGrantPolicy-v4` does not require a separate authority relation, so none is asserted. The assignment supplies no authority and performs no act. `CalibrationGrantAct-17` satisfies the policy in `PlantCalibrationContext` and is the actual instituting Work. A policy variant that does require grant authority must cite one exact obtaining authority relation under its direct predicate or stop at `missing-governor[grant authority]`.
 
@@ -15177,8 +15258,12 @@ For reliance on `E-PRJ-01`, the exact observed carrier set is `{DecisionRecord-R
 
 ##### A.6.B:8.4.6 - A compact recomposition aid
 
-Include only the claim classes present in the source; use separate Tech and Plain
-forms when their readers need them. Cite claim IDs or canonical locations.
+Select the source claims needed for the receiving question through §4.4. Cite
+claim IDs or canonical locations. For a measurement account, connect the value
+to its definition, conditions and actual basis; for an entry answer, connect the
+entry rule to its evaluated inputs and current decision. Use the broader forms
+below when the question also needs the normative arrangement and its evidence.
+Use separate Tech and Plain forms when their readers need them.
 
 ###### A.6.B:8.4.6.1 - Tech register
 
@@ -15201,12 +15286,12 @@ Scope: **Universal** for boundary descriptions.
 | ID                                       | Requirement                                                                                                                                                                                                      | Purpose                                                  |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
 | **CC‑A.6.B.1 (Atomicity).**              | A conforming boundary text **SHALL** decompose mixed sentences into **atomic claims** such that each atomic claim belongs to exactly one quadrant **L/A/D/E**.                                                    | Makes L/A/D/E classification unambiguous; prevents contract soup.       |
-| **CC‑A.6.B.2 (Quadrant classification).** | Each atomic claim **MUST** be classified by its own modality and adjudication position, not by its subject-pattern family. When permission wording is present, the single branch in §8.4.1 **MUST** select the claim's job before assigning L/A/D/E. | Prevents one pattern catalogue from replacing the square's decision. |
+| **CC‑A.6.B.2 (Quadrant classification).** | Each atomic claim **MUST** be classified by its job under §4 and have its own adjudication basis recovered, rather than taking a quadrant from its subject-pattern family. When permission wording is present, the single branch in §8.4.1 **MUST** select the claim's job before assigning L/A/D/E. | Prevents one pattern catalogue from replacing the square's decision. |
 | **CC‑A.6.B.3 (Form and obtaining constraints).** | `L-*` and `A-*` claims **MUST NOT** use RFC deontic keywords as operators. A generic-prescription `D-*` claim **MUST** name its exact normative source and applicable rule content without inventing an individual occurrence; an individual-duty `D-*` claim **MUST** name its actual bearer and exact separately obtaining `U.Commitment`; a grant `D-*` claim **MUST** satisfy §8.4.1. No claim text makes its relation obtain. Responsibility uses its direct predicate or exact missing governor. An `E-*` claim **MUST** name the work, evaluation, or observation that settles it and any evidence used for reliance. | Keeps normative content, individual institution, responsibility, and evaluated results distinct. |
 | **CC‑A.6.B.4 (Explicit references).** | Where a claim materially depends on another L/A/D/E-classified claim, that dependency **MUST** be expressed by explicit ID or canonical-location reference. An accompanying explanation must preserve the referenced meaning. | Makes the governing claim recoverable across layers and faces. |
 | **CC‑A.6.B.5 (E‑claim adjudicability).** | Each `E-*` claim names its exact predicate and object plus the actual work, evaluation, or observation, scope/window, comparison frame, and other conditions required to settle that predicate. It adds an evidence/source-use relation, carrier/schema, viewpoint, and consumer only when the receiving reliance decision depends on that support. | Makes work-effects adjudicable without forcing unrelated carrier apparatus into every result claim. |
 | **CC‑A.6.B.6 (No gate smuggling).**      | Operational admissibility predicates **MUST NOT** appear as `L-*` laws in the signature layer; they **MUST** be `A-*` claims in the mechanism layer.                                                             | Preserves substitution and signature stability.          |
-| **CC‑A.6.B.7 (No upward dependencies).** | `L-*` claims **MUST NOT** reference `A-*`, `D-*`, or `E-*`, except for purely informative notes explicitly marked informative; `A-*` claims **MUST NOT** reference `D-*`. An `E-*` reference to `D-*` **MUST** meet §6.4's evidence-target or evaluation-input rule and **MUST NOT** treat the D claim alone as an E result. | Keeps laws and gates independent while permitting evidence about normative claims. |
+| **CC‑A.6.B.7 (Dependency grounds).** | `L-*` claims **MUST NOT** reference `A-*`, `D-*`, or `E-*`, except for purely informative notes explicitly marked informative. An `A-*` reference to `D-*` or `E-*` **MUST** meet §6.4's input and scope/currentness conditions. An `E-*` reference to `D-*` **MUST** meet §6.4's evidence-target or evaluation-input rule and **MUST NOT** treat the D claim alone as an E result. | Keeps reusable laws stable and makes gate inputs and evaluation grounds explicit. |
 
 ### A.6.B:11 - Common Anti‑Patterns and How to Avoid Them
 
@@ -15229,25 +15314,17 @@ Scope: **Universal** for boundary descriptions.
 
 ### A.6.B:13 — Rationale
 
-The square is an authoring primitive that forces an explicit choice across two distinctions that are otherwise routinely conflated:
+Boundary changes need different comparisons. Changing an admission condition affects which applications can enter; changing a normative rule affects what is required or granted; changing an implementation can affect the result while leaving both declarations intact. The four claim jobs keep these questions and their connections recoverable. A.6:4.7 explains how to use them for a change decision.
 
-* **Truth vs governance** (what is the case vs what is required or committed), and
-* **Description vs actual application** (content settled in the description versus satisfaction dependent on actual work, evaluation or observation).
+The classification is an authoring convention, with one job assigned to each atomic claim. Modality and adjudication help recover that job, but neither supplies a two-way partition of every claim. In particular, A predicates are declarations, and an individual D claim requires actual constitutive grounds. The practical benefit comes from exposing the different grounds and preserving their dependencies across uses and publication faces.
 
-By requiring atomicity and explicit cross‑quadrant references, the square converts “contract talk” into a set of classified, evolvable claims with clear adjudication semantics.
+For a small boundary, ordinary atomic prose and its existing contract or policy can be sufficient. Claim IDs, a register and additional faces earn their cost when several uses need to refer to the same content or follow a consequential change. Keep the direct subject conditions available in either form.
 
 ### A.6.B:14 — Source contributions
 
-The following contributions help explain the separation; they do not replace the subject conditions of an FPF claim.
+A.6:11 gives the exact source contributions and their limits. Effects and handlers distinguish declared operations from handler semantics; contract and behavioral-subtyping work supplies preservation questions; session types supply protocol-specific conditions. ISO/IEC/IEEE 42010 supports concern-oriented descriptions and correspondences. OpenTelemetry and SRE distinguish the observations available from the service property being examined; Cedar gives an explicit rule-evaluation and decision construction.
 
-**Representative sources.** See also A.6:11.
-* ISO/IEC/IEEE 42010:2022 (`U.View` and `U.Viewpoint` discipline).
-* Leijen (2017) / Hillerström & Lindley (2018) (effects & handlers).
-* OpenTelemetry Specification (v1.0+, 2021–) (evidence carriers as traces, logs, and metrics).
-
-* **Effect systems & handlers:** clear separation between operation signature (L), handler and runtime behavior (A/E), and generic prescriptions or separately instituted duties (D); only the latter name an actual operating or implementing System as bearer.
-* **Behavioural and session typing:** protocol laws (L), admissibility (A), commitments (D) and runtime traces (E) answer distinct questions when interpreting progress or safety guarantees.
-* **SRE and observability:** traces, logs and metrics can support evaluated results, while retention and exposure duties are separate D claims. The support still requires the relevant evidence relation.
+FPF uses these contributions to organize boundary claims. The four jobs, their FPF placements and §6.4's dependency rules are the construction explained here. In particular, provider duties require their governing normative source or individual instituting basis, and evidence support uses A.10. A source's typing or telemetry guarantees retain their own stated scope.
 
 ### A.6.B:15 — Relations
 
@@ -16238,7 +16315,9 @@ State a relation between two signatures directly as refinement, conservative ext
 
 #### A.6.0:4.6a - Rule-content actual-use predicate declaration
 
-`RuleContentBasisFindingDefinition@R7` is one ordinary `U.Signature` for two reusable predicates over claim content. Its exact EntityOfConcern is the reusable predicate definition; both `SubjectKind` and `RangedValueKind` are `U.ClaimGraph`. No distinct result kind is current because an ordinary C.2.1 assertion states whether a predicate obtains. The declaration is not a `RelationSignature`: `dependentContent` and `baseContent` are semantic parameters, not world-side relation participants or A.6.5 SlotSpecs.
+`RuleContentBasisFindingDefinition@R7` is one ordinary `U.Signature` for two reusable predicates over claim content. Its exact EntityOfConcern is the reusable predicate definition; both `SubjectKind` and `RangedValueKind` are `NonemptyClaimContent` under C.2.1:4.1.2. No distinct result kind is current because an ordinary C.2.1 assertion states whether a predicate obtains. The declaration is not a `RelationSignature`: `dependentContent` and `baseContent` are semantic parameters, not world-side relation participants or A.6.5 SlotSpecs.
+
+The C.2.1 range criterion identifies eligible semantic inputs; it establishes neither actual use nor candidate sufficiency. This range declaration leaves an earlier exact episteme-edition pin at its original source. Before reusing an earlier assertion with the present declaration, compare its exact dependent and base values, interpretation and applicable predicate law; carry forward only the conclusion that this comparison supports. The names R7 and R8 alone do not identify an unchanged declaration episteme or transfer acceptance.
 
 Its vocabulary includes `SelectedRuleContentSubgraphDesignation@RuleContentBasisFindingDefinition-R7`, `derivedUsingRuleContent@RuleContentBasisFindingDefinition-R7`, and `evaluatedAgainstRuleContent@RuleContentBasisFindingDefinition-R7`. The designation resolves one exact nonempty base subgraph selected for one identified use. `RuleContentDerivationProfile@R7`, `RuleContentEvaluationProfile@R7`, and `RuleContentBasisFamilyAlgebra@R7` are named subgraphs of this signature's ClaimGraph.
 
@@ -16423,7 +16502,7 @@ The examples deliberately span physical modeling, medicine, learning, and formal
 12. **Progressive elaboration.** A direct assertion suffices when the task only asks whether the predicate holds. A signature opens when a receiving use needs reusable declaration content. Occurrence identity opens for same-occurrence reference, comparison, qualification, history/change or relation participation. A log or assertion identifier alone opens none of them.
 13. **CGUS boundary.** Judge any condition-governed unfolding claim through A.22.CGUS, using the independently identified structure and continuation conditions stated in §4.
 14. **Profile boundary.** FormalSubstrate and PrincipleFrame remain profiles of `U.Signature` rather than new root kinds. A PrincipleFrame names its postulates and the observable distinctions needed to check them, leaves operation and gate admission with their subject patterns, and uses F.9 for a relation between two exact F.17 local senses, citing a Bridge only when its direct predicate obtains.
-15. **Changed object.** Changed exact claim content carried by the `U.ClaimGraph`, exact EntityOfConcern, or effective reference scheme identifies another episteme. Judge A.6.0 membership for that episteme independently, and assert edition, refinement, supersession, or another continuity relation only when its own predicate obtains. A changed use, identifier, publication form, carrier, provider currentness, or G.11 refresh state does none of those things by itself.
+15. **Changed object.** Changed exact claim content carried by the ClaimGraph, exact EntityOfConcern, or effective reference scheme identifies another episteme. Judge A.6.0 membership for that episteme independently, and assert edition, refinement, supersession, or another continuity relation only when its own predicate obtains. A changed use, identifier, publication form, carrier, provider currentness, or G.11 refresh state does none of those things by itself.
 16. **F.19 self-application and reader use.** Apply F.19 by value to every materially changed technical declaration, mantra, checklist instruction, and worked case; revalidate the changed span with its meaning-dependent neighbours. The cold intended reader must be able to recover the same governed object, subject pattern, admissible use, and practical claim or action, including any result that changes that use. Keep ordinary technical wording when it already carries the needed distinctions; unpack terms or add an explanation only when recovery needs it. Use E.10:11 item 16 when the value-substitution question is selected. State a nearby non-use or contrasting case only when F.19:4's full guard test warrants it. A `Plain` label without that reader-visible recovery does not pass.
 17. **Case-level witness.** Each worked case names its exact EntityOfConcern, the direct pattern that defines or constrains the claim being made, and what the practitioner can now write, decide, or inspect. State the nearest category error it rejects only when F.19:4's full guard test warrants that contrast. A domain label or the presence of several case headings is not evidence of cross-domain fit.
 
@@ -17153,12 +17232,14 @@ For any arrow `f : X→Y` presented as an effect-free episteme morphism:
 1. **Typed epistemes.** `X` and `Y` are epistemes of declared kinds `K_X, K_Y : U.EpistemeKind`, each identified under C.2.1 by exact claim content, one EntityOfConcern, and one effective ReferenceScheme. Grounding and representation relations are added only when current; a viewpoint selected for a named describing use remains outside episteme identity.
 
 2. **Value and use projection.** For each episteme `E`—and separately for a named describing use when one is current—EFEM laws may refer to:
-   * `content(E) : U.ClaimGraph` — E's exact identity-bearing claim content;
+   * `content(E)` — E's exact identity-bearing claim content recovered under C.2.1:4.1.1;
    * `entityOfConcernRef(E) : U.EntityRef` — designates E's exact EntityOfConcern;
    * `selectedViewpointRef?(use) : U.ViewpointRef` — only when the named describing use selects one exact viewpoint; this is not a component of E's identity;
-   * `referenceScheme(E) : U.ReferenceScheme` — E's effective designation and interpretation scheme;
+   * `referenceScheme(E)` — the effective designation and interpretation rules recovered for E under C.2.1:4.1.1;
    * `representationSchemeRef?(E) : U.RepresentationSchemeRef` — only when an exact representation scheme and its correspondence relation are current for E under their direct governors; C.29 governs any mathematical-lens use; this is not a C.2.1 identity component;
    * a separately current neighboring fact — name the exact `EpistemeEditionRelation`, exact A.10 evidence or provenance relation, or other governed predicate and its participants when the arrow family reads or compares it; do not collect these facts in a generic projection. If E asserts such a fact, that assertion is already part of `content(E)`.
+
+   These are projections of the identified endpoint values. The arrow family's declared endpoint kinds and predicates determine admissibility. If its law additionally classifies content or scheme candidates for substitution, recover that classification's own domain and criterion; endpoint membership supplies no general constituent ValueKind. C.2.1:4.2.1 governs that stronger typed use.
 
    When grounding matters, name the exact grounding relation, its grounding holon, and the claims it covers; grounding is not another component of episteme identity.
 
@@ -17266,8 +17347,10 @@ The examples below show how EFEM is intended to be used across the EntityOfConce
 
 *Shape.*
 
-* Domain: exact episteme `X : U.MethodDescription` with `entityOfConcernRef(X) : U.MethodRef`, `content(X) : U.ClaimGraph_D`, and `ReferenceScheme_D`; when the named engineering validation use selects viewpoint P, identify that selection separately.
-* Codomain: exact episteme `Y : U.MethodSpec` concerning the same Method, with more structured `content(Y) : U.ClaimGraph_S` and a more explicit ReferenceScheme. If the same named validation use continues, it preserves its selected viewpoint P separately.
+* Domain: exact episteme `X : U.MethodDescription` with `entityOfConcernRef(X) : U.MethodRef`, its complete content `content_D = content(X)`, and effective rules `scheme_D = referenceScheme(X)`; when the named engineering validation use selects viewpoint P, identify that selection separately.
+* Codomain: exact episteme `Y : U.MethodSpec` concerning the same Method, with `content_S = content(Y)` and `scheme_S = referenceScheme(Y)`. Recover whether the effective rules stay the same or change; writing an existing rule more explicitly does not itself change it. If the same named validation use continues, it preserves its selected viewpoint P separately.
+
+The suffixes D and S distinguish these endpoint values. They declare no constituent kinds. Judge endpoint admissibility under the relevant description and specification-use criteria, compare complete identity under C.2.1, and test P2 separately. A checkable new requirement can satisfy the receiving specification-use conditions while changing the episteme and failing conservativity.
 
 `Specify_DescEp_SpecDesc` is a species of EFEM only when all of these hold:
 
@@ -17317,13 +17400,13 @@ The details belong to A.6.4 and E.18; EFEM provides the generic discipline.
 
 To make the C.2.1 value and EFEM law discipline concrete, consider an engineering episteme of a dependent system-description kind whose exact EntityOfConcern is one `U.System`:
 
-| Value named by the EFEM species | Kind or reference form | Use |
+| Value named by the EFEM species | How it is identified | Use |
 | --- | --- | --- |
 | exact EntityOfConcern | `U.Entity` constrained to `U.System`; designated by `U.EntityRef` | identifies the system that the claims concern |
-| claim content | `U.ClaimGraph` | carries the description or specification claims |
-| effective ReferenceScheme | `U.ReferenceScheme` | makes the claims and their designations interpretable |
+| claim content | the complete semantic content recovered under C.2.1:4.1.1 | carries the description or specification claims |
+| effective ReferenceScheme | the operative designation and interpretation rules recovered under C.2.1:4.1.1 | makes the claims and their designations interpretable |
 
-This table names the three values that identify an episteme; it is not a `RelationSignature` or SlotSpec table. `EntityOfConcernSlot`, `ClaimGraphSlot`, and `ReferenceSchemeSlot` are declaration-local SlotKinds only when the reusable C.2.1 `EpistemeConstitutionRelationSignature` is being inspected. An EFEM species states how the endpoint values compare. If its rule uses a selected viewpoint, empirical-grounding relation, or representation relation, it names the exact occurrence or use qualification separately and reads or compares the endpoint facts without changing the occurrence.
+This table names the three values that identify an episteme; it is not a `RelationSignature` or SlotSpec table. C.2.1:4.2.1 supplies `EntityOfConcernSlot` when a receiving use needs a designation of kind `U.EntityRef` that resolves to a `U.Entity`. A claim-content or scheme comparison uses the exact values above; additional typed substitution needs its own independently governed range and SlotSpec. An EFEM species states how the endpoint values compare. If its rule uses a selected viewpoint, empirical-grounding relation, or representation relation, it names the exact occurrence or use qualification separately and reads or compares the endpoint facts without changing the occurrence.
 
 Two typical EFEM species over this kind are:
 * `Specify_DescEp_SpecDesc_Sys : SystemDescription → SystemSpec` — an `EntityOfConcernChangeMode = preserve` species that:
@@ -19728,7 +19811,7 @@ Boundary rules:
 - if the receiving use requires a mapping, correspondence or route-equivalence claim whose direct governor is missing, resolve that missing basis before relying on the claim;
 - if the EntityOfConcern is preserved and the receiving item is useful only under narrower declared use with visible loss and source-bearing reopen, use `A.6.3.CSC`;
 - if a `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is present, use `E.18`, `A.20`, or `A.21` for graph, path, constraint, and gate relations. Those references do not prove semantic continuity or retargeting admissibility by themselves;
-- for decoded or latent output, use C.2.6 and C.2.7 for the anchoring mode and representation factors; keep the output report-only or exploratory until its exact source or model-state relation, decode or probe relation, recoverability evidence, admissible use, and source-return action are stated under their current governors;
+- for decoded or latent output, use C.2.6 for source and use claims and C.2.7 for representation-factor readings; keep the output report-only or exploratory until its exact source or model-state relation, decode or probe relation, recoverability evidence, admissible use, and source-return action are stated under their current governors;
 - B.5.2 governs changes within its abductive loop, including its prompt, candidate and rival sets, selected prime hypothesis, plausibility filtering, and reopen. Apply A.6.4 additionally only for an independently established EntityOfConcern change and bounded receiving use;
 - keep any other independently current claim under the pattern that defines or tests it; the Relations section names the main neighboring owners.
 
@@ -19828,7 +19911,7 @@ When you think you need retargeting, ask:
 
 * **Builds on.** A.6.0 for a reusable FormalSubstrate declaration; A.6.2 for the local arrow discipline; A.6.3 for the preserved-EntityOfConcern neighboring branch; C.2.1 for episteme, EntityOfConcern, and use-assertion identity; C.29 for mathematical-lens use; A.6.3.RT for preserved-EntityOfConcern representation transitions; A.6.5 for SlotSpecs inside a reusable direct-relation declaration; A.7 and E.10.D2 for Description and specification-use boundaries; C.2 and C.3 or the relevant domain pattern for the invariant; and F.9 only for a separately claimed relation between exact local senses.
 * **Consumed by.** E.18 may place r and q at a `StructuralReinterpretation` locus; A.20 may test the exact proposition carried by q; E.17 may publish an episteme that describes the case; KD-CAL and LOG-CAL may reason over a stated invariant. None redefines r or q.
-* **Neighbor boundaries.** `A.6.1` and `A.15` govern an actual application and Work; `A.10` governs evidence; `B.3` governs assurance and reliance; `A.21` governs gate decisions; `C.27` governs temporal adequacy; `A.3.3` governs dynamics; the applicable direct control pattern governs control; and `E.24.PUB` governs publication. C.2.6 and C.2.7 govern language-state anchoring and representation factors; B.5.2 governs its abductive-loop state.
+* **Neighbor boundaries.** `A.6.1` and `A.15` govern an actual application and Work; `A.10` governs evidence; `B.3` governs assurance and reliance; `A.21` governs gate decisions; `C.27` governs temporal adequacy; `A.3.3` governs dynamics; the applicable direct control pattern governs control; and `E.24.PUB` governs publication. C.2.6 recovers source and use claims, and C.2.7 governs representation factors; B.5.2 governs its abductive-loop state.
 
 ### A.6.4:End
 
@@ -21237,7 +21320,7 @@ If neither the exact subject nor the exact reusable predicate definition is the 
 
 #### A.6.RCD:4.5a - Reusable rule-content predicates stop before relation-kind admission
 
-`RuleContentBasisFindingDefinition@R7` is the disposition-3 declaration for two repeated cross-subject predicate semantics: `derivedUsingRuleContent(dependentContent, baseContent)` and `evaluatedAgainstRuleContent(dependentContent, baseContent)`. Its exact EntityOfConcern is that reusable predicate definition. Its `SubjectKind` and `RangedValueKind` are both `U.ClaimGraph`; satisfaction of either predicate is asserted in a C.2.1 episteme, so no separate result kind is introduced. The declaration may satisfy ordinary A.6.0 `U.Signature` membership. It is not a `RelationSignature`, relation kind, relation occurrence, registry, or claim that every definition or constraint was actually used.
+`RuleContentBasisFindingDefinition@R7` is the disposition-3 declaration for two repeated cross-subject predicate semantics: `derivedUsingRuleContent(dependentContent, baseContent)` and `evaluatedAgainstRuleContent(dependentContent, baseContent)`. Its exact EntityOfConcern is that reusable predicate definition. Its `SubjectKind` and `RangedValueKind` are both `NonemptyClaimContent` under C.2.1:4.1.2; satisfaction of either predicate is asserted in a C.2.1 episteme, so no separate result kind is introduced. The declaration may satisfy ordinary A.6.0 `U.Signature` membership. It is not a `RelationSignature`, relation kind, relation occurrence, registry, or claim that every definition or constraint was actually used.
 
 Use the first predicate only when an identified derivation claim names the exact nonempty base subgraph as a formal premise under a declared inference rule or application producing the exact dependent content. Use the second only when an identified criterion-selection claim selects that base for an exact bounded evaluation claim concerning the dependent content. The dependent and base values are predicate parameters, not A.6.5 SlotSpecs. Assertions of these predicates remain ordinary C.2.1 epistemes; consultation, influence, provenance, evidence, evaluation Work, and later sufficiency remain separate.
 
@@ -21729,7 +21812,7 @@ When the result selects a Method for enactment, identify that admitted U.Method.
 This recovery lets ecological psychology, phenomenology, active inference, control, interface design and robotics keep their distinct subject meanings while comparing a concrete action question.
 
 **Coordinates with.**
-**C.16.Q** for evaluative-language repair; **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, articulation and closure coordination, admissible moves, early cue classification, next-use docking, and admissible retreat when a published recovery result must be reopened; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **B.5.2.0** when the recovered result is an explanatory question or candidate inquiry; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for articulation, closure, anchoring, and representation-factor facets referenced but not governed here; **A.10** and **B.3** for evidence and assurance; **B.4** and **B.5** for anomaly-driven cycles; **E.17.0**, **E.17**, and **E.18** for viewpoint reference resolution, independent view conformance, and viewpoint publication; **F.9** for Bridges and bounded-use claims; **F.9.1** for optional stance notes about those claims; **C.3.3** for kind-bridge repair when endpoint kind mismatches appear.
+**C.16.Q** for evaluative-language repair; **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, articulation and closure coordination, admissible moves, early cue classification, next-use docking, and admissible retreat when a published recovery result must be reopened; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **B.5.2.0** when the recovered result is an explanatory question or candidate inquiry; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for articulation and closure readings, source and use claims, and representation-factor readings referenced but not governed here; **A.10** and **B.3** for evidence and assurance; **B.4** and **B.5** for anomaly-driven cycles; **E.17.0**, **E.17**, and **E.18** for viewpoint reference resolution, independent view conformance, and viewpoint publication; **F.9** for Bridges and bounded-use claims; **F.9.1** for optional stance notes about those claims; **C.3.3** for kind-bridge repair when endpoint kind mismatches appear.
 
 **E.10.ARCH relation.**
 A.6.A supplies the wording-recovery method when an `E.10` or `E.10.ARCH` use leaves an affordance-like or action-first phrase ambiguous. Recover the actual claim or question and then its direct governor. Evaluative content goes to `C.16.Q`; ability, Method, Work, duty, evidence, assurance, gate and decision claims use their own patterns. Keep a recovery note only when a later reader needs the interpretation or its grounds.
@@ -22294,7 +22377,7 @@ Reopen the affected recovery when a source-specific meaning or physical criterio
 * **Uses:** **A.6.P** when the recovered content is a relation claim; **A.6.REL** for its direct predicate and any needed occurrence identity.
 * **Builds on:** **A.3** and **A.7** for enactor discipline and EntityOfConcern and Description-episteme plus publication and carrier separation; **A.15** for keeping invitation distinct from enactment; **A.6.B** for boundary claim classification; **E.17.0**, **E.17**, and **E.18** for viewpoint reference resolution, independent view conformance, and viewpoint publication.
 * **Works alongside:** **C.16.Q** for evaluative language; the two are siblings, not substitutes.
-* **Coordinates with:** **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, admissible moves before post-threshold repair, and retreat when a published recovery result must be reopened; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **B.5.2.0** for probe-question cases that are still prompt-shaped; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facet governance.
+* **Coordinates with:** **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, admissible moves before post-threshold repair, and retreat when a published recovery result must be reopened; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **B.5.2.0** for probe-question cases that are still prompt-shaped; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state readings and the source or use claims required beside them.
 * **Must not replace:** **C.2.3** as the single subject pattern for **F**.
 * **Uses for shared naming:** **E.10, F.17, and F.18** when an interpretation label or reusable recovery designation needs a shared name.
 
@@ -22310,7 +22393,7 @@ Use this method when the wording can support a useful interpretation or a questi
 Apply `A.6.B` when the recovered claim is boundary-bearing and `A.15` when a Method, plan or performed Work question is live. Keep an alert-intervention or operator-intervention reading distinguishable from a generic interface cue when human factors, authority or the policy rule change the result. A common invitation record is not a prerequisite.
 
 #### A.6.A:12.3 - Governance boundary
-This pattern may cite an F.9 Bridge and bounded-use claim, an optional F.9.1 stance note, an A.16 articulation-state result, authority-reference fields, or language-state facet characteristics from `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7`; it does not redefine any of them.
+This pattern may cite an F.9 Bridge and bounded-use claim, an optional F.9.1 stance note, an A.16 articulation-state result, authority-reference fields, language-state Characteristic readings from `C.2.4`, `C.2.5` and `C.2.7`, source and use claims recovered through `C.2.6`, or their joint profile under `C.2.LS`; it does not redefine any of them.
 
 ### A.6.A:End
 
@@ -23635,7 +23718,7 @@ Different exact local kinds, F.17 senses, scopes, or ReferencePlanes are handled
 
 #### A.6.6:4.4a - Claim-scoped non-kind predicate-base branch
 
-When one identified derivation or criterion-selection claim uses exact claim content as its base, reuse A.6.6's endpoint, scope, time, witness, Bridge/loss, change, and overread discipline without pretending that a new relation kind or special base-declaration occurrence has been admitted. Identify the exact dependent `U.ClaimGraph`, exact nonempty selected base subgraph by value, the `derive` or `evaluate` mode, exact derivation or evaluation-and-selection claim identity, bounded receiving use, and effective reference scheme. Add an exact A.2.6 ClaimScope, temporal policy/domain, source or witness qualification, or cross-scheme Bridge and loss account only when that independently varying fact changes the assertion.
+When one identified derivation or criterion-selection claim uses exact claim content as its base, reuse A.6.6's endpoint, scope, time, witness, Bridge/loss, change, and overread discipline without pretending that a new relation kind or special base-declaration occurrence has been admitted. Identify the dependent ClaimGraph and selected nonempty base subgraph as exact by-value `NonemptyClaimContent` values under C.2.1:4.1.2. State the `derive` or `evaluate` mode, exact derivation or evaluation-and-selection claim identity, bounded receiving use, and effective reference scheme. Add an exact A.2.6 ClaimScope, temporal policy/domain, source or witness qualification, or cross-scheme Bridge and loss account only when that independently varying fact changes the assertion.
 
 The assertion is ordinary C.2.1 claim content under `derivedUsingRuleContent` or `evaluatedAgainstRuleContent`. The dependent and base are predicate parameters, not automatically A.6.5 SlotSpecs, participants of a reusable relation occurrence, or an intrinsic `rule-bearing` classification. Same-scheme use adds no Bridge. A source edition, designation, acceptance/currentness fact, trace, or witness qualifies the assertion but does not enter semantic-base identity. Equal graphs under the same scheme count as one semantic base with multiple qualifications; a changed graph is another base.
 
@@ -33301,7 +33384,7 @@ Do not use A.16 to decide measurement admissibility, Bridge substitution, endpoi
 
 #### A.16:4.2 - Guard discipline
 
-State the guard through named language-state facets and the route condition that matters. Use `AE` from `C.2.4`, `CD` from `C.2.5`, `LanguageStateAnchoringMode` from `C.2.6`, and `LanguageStateRepresentationFactorBundle` from `C.2.7`, separately or through one published facet profile. Add witnesses, scope, and `GammaTime` selectors when needed. “The idea matured” is not a guard.
+State the guard through named language-state facets and the route condition that matters. Use `AE` from `C.2.4`, `CD` from `C.2.5` and the representation-factor readings from `C.2.7`. State required source, evidence, access or action conditions separately under C.2.6. A guard can use both readings and direct relation claims, cited separately or through one published profile; a relation account is not a CharacteristicSpace slot. Add witnesses, scope, and `GammaTime` selectors when needed. “The idea matured” is not a guard.
 
 A summarized chain may omit repeated unchanged fields, but it must leave every move identity, endpoint-rule change, loss, and status change that affects interpretation reconstructible. A later higher-closure publication does not retroactively strengthen an earlier cue; later retreat does not erase the earlier publication.
 
@@ -33458,7 +33541,7 @@ Use this one checklist for authoring and review:
 
 ### A.16:11 - Relations
 
-- **Builds on:** `C.2.1` for episteme identity; `C.2.2a` for language-state positions; `C.2.LS` for facet profiles; `C.2.4` for articulation, `C.2.5` for closure, `C.2.6` for anchoring, and `C.2.7` for representation-factor readings; `A.18` for Scale semantics; and `A.19` for CharacteristicSpace and Coordinate semantics.
+- **Builds on:** `C.2.1` for episteme identity; `C.2.2a` for language-state positions; `C.2.LS` for facet profiles; `C.2.4` for articulation, `C.2.5` for closure, `C.2.6` for source and use conditions, and `C.2.7` for representation-factor readings; `A.18` for Scale semantics; and `A.19` for CharacteristicSpace and Coordinate semantics.
 - **Coordinates with:** `A.16.0` for accountable trajectories; `A.16.1` for early preservation; `A.16.2` for retreat and respecification; `B.4.1` for route publication; `B.5.2.0` for abductive prompting; `A.6.P`, `A.6.A`, `C.16.Q`, and `C.25` for endpoint-local questions; `E.11.PUR`, `A.15.5`, `A.15.1`, and `A.15.2` for non-A.16 move wording and project action; `E.24.PUB` for bounded publication availability; `E.18` for an independently selected TransformationFlowStructure and `E.18.2` for its mathematical description; and `E.10.MOVE` when source wording does not mean this local move.
 - **Constrained by:** A.2/A.2.1 and the applicable deontic or authority pattern for any actual relation change; A.13 followed by independent A.15.1 for precise performed Work, F.6 only afterward when precise assignment-bound attribution is current, A.15.PROD for production or inception, and the applicable domain predicate for result claims.
 
@@ -33839,7 +33922,7 @@ Use `primaryWitnessRef` or `primaryAnchor` when one witness or anchor carries th
 
 `laneCandidates` and `routeCandidateHints` are early directional hints only. They are **not** a selected route, route rationale, or route-selection status. Those belong to `RoutedCueSet` under `B.4.1`.
 
-The referenced facets keep their own definitions. `primaryAnchor`, `candidateAnchors`, contrasts, and exemplars commonly provide anchor material for `AE` under `C.2.4`; `languageStateClosureDegreeRef` docks to `C.2.5`; anchoring and representation-factor refs dock to `C.2.6` and `C.2.7`; `languageStateFacetProfileRef` may bundle them through `C.2.LS`.
+The referenced facets keep their own definitions. `primaryAnchor`, `candidateAnchors`, contrasts, and exemplars commonly provide anchor material for `AE` under `C.2.4`; `languageStateClosureDegreeRef` docks to `C.2.5`; source and use claims follow `C.2.6`, and representation-factor refs follow `C.2.7`; `languageStateFacetProfileRef` may bundle them through `C.2.LS`.
 
 In this cluster, a cue is a salient epistemic nucleus extracted from witnesses, traces, felt tensions, model outputs, work-possibility hints, reliance-possibility hints, contrasts, or other grounds and made preservable as a pack. A raw signal-like trace counts as a cue only when that salience and preservability have been made explicit; otherwise it remains a trace, not yet a cue. Any evidence use is separately qualified under A.10 for a named target claim.
 
@@ -33861,7 +33944,7 @@ A cue pack may admissibly feed:
 
 **Show (System).** A console alert with traces and tension indicators may be worth preserving as a cue pack before anyone can honestly publish route selection, gate logic, or work execution.
 
-**Show (Episteme).** A researcher's stabilized felt or trace-anchored discrepancy cue with exemplars and contrasts can be published as a cue pack before it becomes a routed cue set, an abductive prompt, or an anomaly statement.
+**Show (Episteme).** A researcher's stabilized discrepancy cue from bodily observation or inspection of a trace with exemplars and contrasts can be published as a cue pack before it becomes a routed cue set, an abductive prompt, or an anomaly statement.
 
 ### A.16.1:6 - Bias-Annotation
 This pattern biases authors toward preserving low-articulation meaningful cues instead of discarding them or disguising them as later publication forms with higher closure, a selected route, or a passed endpoint test. The counter-bias is deliberate as well: a cue pack must still name what is being preserved and why.
@@ -33872,7 +33955,7 @@ This pattern biases authors toward preserving low-articulation meaningful cues i
 - `CC-A.16.1-3` When one witness or anchor carries the preservation need, `primaryWitnessRef` or `primaryAnchor` **SHALL** be explicit. When several grounds are jointly essential, their joint contribution **SHALL** remain recoverable.
 - `CC-A.16.1-4` `laneCandidates` and `routeCandidateHints` **MAY** be published early, but `selectedRoute`, `routeRationale`, and route-selection status **SHALL NOT** be smuggled into the cue pack.
 - `CC-A.16.1-5` If route-candidate hints are not yet nameable, publication is still admissible only when `preservationRationale` and grounding make the preservation need explicit.
-- `CC-A.16.1-6` Language-state, anchoring, and representation-factor details **MAY** be referenced; use `C.2.LS` for the facet profile, `C.2.4` for articulation explicitness (`AE`), `C.2.6` for anchoring mode, `C.2.5` for closure degree, and `C.2.7` for representation factors.
+- `CC-A.16.1-6` Language-state readings, source and use claims, and representation-factor details **MAY** be referenced; use `C.2.LS` for the facet profile, `C.2.4` for articulation explicitness (`AE`), `C.2.6` for source and use conditions, `C.2.5` for closure degree, and `C.2.7` for representation factors.
 - `CC-A.16.1-7` A cue pack **SHALL NOT** claim that an endpoint test passed or that a stronger use is admitted; use the applicable endpoint pattern to test and publish that later result.
 
 ### A.16.1:8 - Common Anti-Patterns and How to Avoid Them
@@ -33908,7 +33991,7 @@ If an existing incident note already carries this content and the source return,
 
 
 #### A.16.1:13.2 - Inquiry cue pack
-An inquiry cue pack may preserve exemplars, contrasts, a felt or trace-anchored discrepancy cue nucleus, and candidate anchor fragments. This is admissible even before route publication is needed or an under-specified relation-bearing claim requires `A.6.P`.
+An inquiry cue pack may preserve exemplars, contrasts, a discrepancy cue nucleus from bodily observation or inspection of a trace, and candidate anchor fragments. This is admissible even before route publication is needed or an under-specified relation-bearing claim requires `A.6.P`.
 
 #### A.16.1:13.3 - Invalid publication to reject
 It is invalid to publish a cue pack and then cite it as if it were already an anomaly statement, a routed cue set, an explanatory bundle, or a control obligation. The cue pack is only the preservation form.
@@ -38748,7 +38831,7 @@ This pattern defines (governing-pattern, wiring‑friendly):
 
 * **EntityOfConcernRef:** the comparison operation family declared by `Compare` and `CompareEligibility` in this section.
 
-* **Effective `U.ReferenceScheme`:** the CHR suite reference scheme in which the A.19.CHR SlotKind lexicon, CN-Spec, CG-Spec, and ComparatorSpec tokens are interpreted.
+* **Effective reference scheme:** the CHR suite reference scheme in which the A.19.CHR SlotKind lexicon, CN-Spec, CG-Spec, and ComparatorSpec tokens are interpreted.
 
 * **Direct signature components:**
 
@@ -38774,11 +38857,13 @@ Each argument meaning is declared separately for Compare and CompareEligibility.
 | Argument | claimScope | U.ClaimScope delimiting this profile pair and comparison claim | ByRef; 1 |
 | Argument | selectedSlices | Set of selected U.ContextSlice members of claimScope under A.2.6 | ByValue set of exact slice references; 1 set |
 | Argument | characteristicPredicate | A.19 CharacteristicSpacePredicate used to restrict this comparison, if any | ByValue; 0..1, explicitly absent when unused |
-| Argument | referenceScheme | Effective U.ReferenceScheme used to interpret the comparison | ByRef; 1 |
+| Argument | referenceScheme | `EpistemeInterpretationScheme` (C.2.1:4.1.2), governing this comparison | ByRef through C.2.1 SchemeDesignation; 1 |
 | Argument | referencePlane | CHR:ReferencePlane value qualifying the comparison | ByValue; 1 |
 | Argument | evaluationTime | Evaluation point or interval in the declared time basis, qualifying what is compared | ByValue; 1 |
 | Compare result | ComparisonResultSlot | Set of relation or poset tokens returned by the declared comparator | ByValue; 1 set on completed admitted comparison, 0 without a result |
 | CompareEligibility result | GuardDecision | Judgment determined by the eligibility predicates: pass, degrade or abstain | ByValue; 1 on completed evaluation |
+
+Resolve the scheme designation under C.2.1:4.2.6 to one exact rule collection, then check its C.2.1:4.1.2 range and the rules needed by these actual comparison inputs. The reference token is not the bound scheme. An unresolved required interpretation cannot support a completed admitted comparison; apply the guard and abstention rules below. Membership alone supplies neither successful comparison nor a cross-scheme correspondence. The application and result bindings below remain independently required.
 
 The **argument bindingPredicate** for each row holds when that application actually uses the resolved value for the row's meaning: operand, comparison/admission rule, evidence condition or explicit comparison-use restriction. In particular, a scope, predicate or time appearing in nearby metadata is not bound unless it qualifies this comparison/evaluation. Each indicator-derived profile retains its selected UINDM positions and exact A.19 basis; equal indices or Characteristic names alone do not establish the comparator's required position/Scale match.
 
@@ -38897,7 +38982,7 @@ Apply the declaration checks to a CPM publication and the application checks to 
 
 | Check Id | Requirement (normative) | Notes (didactic and evidence) |
 | :--- | :--- | :--- |
-| **CC-A19CPM-0** | **Mechanism declaration completeness.** One `U.Mechanism` episteme, its exact comparison-operation-family `EntityOfConcernRef`, effective `U.ReferenceScheme`, operation-local argument/result declarations, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, Applicability, and optional `SignatureManifest` are recoverable. | An obtaining F.9 `Bridge`, its separate C.2.1 bounded-use claim when consumed, any applicable ReferencePlane relation and policy, dated `U.Work`, actual operation application and result binding, any result episteme, A.10 evidence-provenance, G.11 currentness, and G.9 parity objects remain separate. |
+| **CC-A19CPM-0** | **Mechanism declaration completeness.** One `U.Mechanism` episteme, its exact comparison-operation-family `EntityOfConcernRef`, effective reference scheme, operation-local argument/result declarations, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, Applicability, and optional `SignatureManifest` are recoverable. | An obtaining F.9 `Bridge`, its separate C.2.1 bounded-use claim when consumed, any applicable ReferencePlane relation and policy, dated `U.Work`, actual operation application and result binding, any result episteme, A.10 evidence-provenance, G.11 currentness, and G.9 parity objects remain separate. |
 | **CC‑A19CPM‑1** | **Single governing pattern.** The canonical CPM intension is governed here (`A.19.CPM:4.1`); other descriptions cite this section rather than restating the kernel law. | Prevents near-duplicate comparison semantics from drifting. |
 | **CC‑A19CPM‑2** | **Suite stage alignment.** `Compare` is the canonical stage‑op for CHR stage `compare`; ordering and optionality are taken only from `A.19.CHR:4.5`. | Never infer order from `mechanisms[]`. |
 | **CC‑A19CPM‑3** | **SlotKind discipline.** SlotKind tokens follow the suite lexicon (`A.19.CHR:4.2.1`). | No SlotKind drift across specializations and wiring. |
@@ -39124,7 +39209,7 @@ Method semantics and SoTA algorithm families do not live inside the kernel: they
 
 * **EntityOfConcernRef:** the selection operation family declared by `Select` and `SelectEligibility` in this section.
 
-* **Effective `U.ReferenceScheme`:** the CHR suite reference scheme in which the A.19.CHR SlotKind lexicon, CN-Spec, CG-Spec, and any current TaskSignature tokens are interpreted.
+* **Effective reference scheme:** the CHR suite reference scheme in which the A.19.CHR SlotKind lexicon, CN-Spec, CG-Spec, and any current TaskSignature tokens are interpreted.
 
 * **Direct signature components:**
 
@@ -39153,13 +39238,15 @@ Each argument below is declared separately for Select and SelectEligibility, exc
 | Argument | claimScope | U.ClaimScope delimiting candidate universe and selection use | ByRef; 1 |
 | Argument | selectedSlices | Set of selected U.ContextSlice members of claimScope under A.2.6 | ByValue set of exact references; 1 set |
 | Argument | characteristicPredicate | A.19 CharacteristicSpacePredicate basis shared as required with the relevant CPM members | ByValue; 0..1, explicitly absent when none governs the use |
-| Argument | referenceScheme | Effective U.ReferenceScheme used to interpret the selection | ByRef; 1 |
+| Argument | referenceScheme | `EpistemeInterpretationScheme` (C.2.1:4.1.2), governing this selection | ByRef through C.2.1 SchemeDesignation; 1 |
 | Argument | referencePlane | CHR:ReferencePlane value qualifying selection | ByValue; 1 |
 | Argument | evaluationTime | Selection-evaluation point or interval in the declared time basis | ByValue; 1 |
 | Argument | selectorPolicy | Effective selection policy and resolved defaults, including exact candidate-level failure behavior when degrade is used | ByRef to the declared policy; 1, resolved through TaskSignature when it supplies that policy |
 | Select argument | eligibility | GuardDecision actually determined by SelectEligibility for these same proposal arguments, used to admit this selection | ByValue; 1, with its exact producing guard-result binding recoverable |
 | Select result | SelectionSlot | Set of candidate values selected under those criteria and policy | ByValue; 1 set on completed admitted selection, 0 on abstain |
 | SelectEligibility result | GuardDecision | Judgment determined by the eligibility predicates: pass, degrade or abstain | ByValue; 1 on completed evaluation |
+
+Resolve the scheme designation under C.2.1:4.2.6 to one exact rule collection, then check its C.2.1:4.1.2 range and the rules needed by these actual selection inputs. The reference token is not the bound scheme. An unresolved required interpretation cannot support a completed admitted selection; apply the guard and abstention rules below. Membership alone supplies neither successful selection nor a cross-scheme correspondence. The application and result bindings below remain independently required.
 
 For each argument row, its **bindingPredicate** holds when that application actually uses the resolved value for its stated purpose: candidates supply the selection universe, criteria/policy supply the choice rule, specifications/evidence requirements govern admission, and the basis, coverage and provenance supply the comparisons on which the choice relies. Scope, slices, predicate, scheme, plane and time bind only when they qualify that application. A nearby policy or copied comparison record does not supply those bindings.
 
@@ -39307,7 +39394,7 @@ This pattern intentionally biases selection authoring toward explicitness and ad
 
 | ID | Requirement |
 | --- | --- |
-| **CC-A19SelectorMechanism-0** | **Mechanism declaration completeness:** one `U.Mechanism` episteme, its exact selection-operation-family `EntityOfConcernRef`, its effective `U.ReferenceScheme`, the operation-local argument/result declarations, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, and Applicability are recoverable under A.6.1. |
+| **CC-A19SelectorMechanism-0** | **Mechanism declaration completeness:** one `U.Mechanism` episteme, its exact selection-operation-family `EntityOfConcernRef`, its effective reference scheme, the operation-local argument/result declarations, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, and Applicability are recoverable under A.6.1. |
 | **CC‑A19SelectorMechanism‑1** | **Single governing pattern:** the canonical SelectorMechanism `U.Mechanism` declaration is governed by `A.19.SelectorMechanism:4.1`; other descriptions cite this section rather than restating the kernel law. |
 | **CC‑A19SelectorMechanism‑2** | **Set‑return default:** a conformant `Select` MUST be set‑returning by default; it MUST NOT silently collapse partial orders or incomparabilities to a single winner. |
 | **CC‑A19SelectorMechanism‑3** | **No hidden thresholds or constants:** a conformant SelectorMechanism publication MUST NOT smuggle thresholds, weights, dominance rules, tie‑breakers, or default `PortfolioMode` fields. Selection‑level commitments MUST be explicit in `CriteriaSlot` and explicit policy defaults when used (e.g., via `TaskSignatureSlot`). Acceptance thresholds remain governed by `AcceptanceClauses`, `TaskSignature`, or `GateProfile` records and MUST be applied only via `SelectEligibility`. |
@@ -41540,7 +41627,8 @@ Naive aggregation of knowledge holons causes recurring failures:
 
 #### B.1.3:4.1 - Terms (didactic recap)
 
-* **U.Episteme** — a claim-bearing knowledge holon. C.2.1 identifies it through the participant-determined `EpistemeConstitutionRelation` over `<claim content, exact EntityOfConcern, effective ReferenceScheme>`. `ClaimGraphSlot`, `EntityOfConcernSlot`, and `ReferenceSchemeSlot` name participant meanings only inside that relation's reusable declaration; they are not internal slots of the episteme. Empirical grounding uses the separate `EpistemeEmpiricalGroundingRelation`, while text, code, figures, datasets, SCR/RSCR references, publication forms, and presentation carriers remain separately governed provenance, representation, publication, or carrier material.
+* **U.Episteme** — a claim-bearing knowledge holon. C.2.1 identifies it through the participant-determined `EpistemeConstitutionRelation` over `<claim content, exact EntityOfConcern, effective ReferenceScheme>`. These three actual constituents determine its identity. Empirical grounding uses the separate `EpistemeEmpiricalGroundingRelation`, while text, code, figures, datasets, SCR/RSCR references, publication forms, and presentation carriers remain separately governed provenance, representation, publication, or carrier material.
+* **Constitution participants and typed positions.** When the receiving use needs a reusable designation of the EntityOfConcern, C.2.1:4.2.1 supplies `EntityOfConcernSlot` with `ValueKind=U.Entity` and `refMode=U.EntityRef`. It is a participant meaning in the relation declaration, not an internal slot of the episteme. Exact claim content and effective interpretation rules remain necessary constituents without being additional SlotKinds. A receiving relation declaration that needs `ClaimGraphSlot` or `ReferenceSchemeSlot` must supply each independently governed ValueKind and complete A.6.5 SlotSpec; the constituent name alone provides neither.
 * **Evidence/Provenance Graph** — an A.10 descriptive account whose edges cite independently established direct support, source, measurement or use relations. Display labels such as `evidences` do not create generic relation kinds.
 * **Semantic mapping** — the exact correspondence rule used by this composition. When it crosses semantic contexts, identify the source and receiving F.17 `SchemeSenseCell` values and an obtaining F.9 `Bridge`; keep the proposed use, direction, use-specific rule, permitted loss, reliance, and **CL** evidence summary separate. F.9 does not require CL for every Bridge; B.1.3 requires the summary for a mapping used in its support account. CL alone neither grants the use nor supplies a numerical penalty.
 * **SCR** — a `U.SCR` that lists all symbol carriers included in the aggregate; **never dropped**.
@@ -41566,15 +41654,18 @@ When one particular operation application matters, use A.6.1 for that applicatio
 * **Domain.** `D_know` designates exact source epistemes and the governed **ConstituentOf**, **UsageOf**, **ReferenceTo**, **evidences**, **derivesFrom**, and collection-specific belongs-to relations that obtain among them, together with the mappings used by the fold. The graph represents those objects and relations; it does not make them obtain.
 * **Result.** One synthesized episteme whose claim content, exact EntityOfConcern, and effective reference scheme satisfy C.2.1. Its ClaimGraph integrates the retained content; provenance and SCR keep contributing sources and carriers traceable. State its formal basis, scope, and supported conclusion with limitations. Calculate an aggregate R only where B.3 and C.2.2 establish the input meanings, scales, and dependency model. Otherwise keep support separate and return a bounded reasoned synthesis. Neither a higher formality level nor an axiomatic mode requires an invented numerical score or an irrelevant empirical study.
 
-**Compilation (target-scheme fold).** Map one synthesized episteme into one exact target reference scheme.
+**Compilation (target-scheme fold).** Map one synthesized episteme into one exact target reference scheme. Recover the operative target rules through C.2.1:4.1.1 and fix them as `S` for this compilation operation. A journal's name or the document describing its rules does not by itself identify those rules.
 
-```
-Γ_epist^compile : ( E_synth    : U.Episteme,
-                    TargetScheme : U.ReferenceScheme ) → U.Episteme
+```text
+Γ_epist^{compile,S} : ( E_synth : U.Episteme ) ⇀ U.Episteme
 ```
 
-* **Domain.** One synthesized episteme and the exact target reference scheme used to read the compiled claims—for example, the scheme used by a journal, standard, or program specification. For every meaning that crosses semantic contexts, the fold also relies on exact source and receiving `SchemeSenseCell` values, an obtaining F.9 Bridge, and a separately stated bounded-use claim; any relied-on use must pass A.10 or B.3.
-* **Result.** One compiled, target-scheme episteme with explicit mapping and loss information and a C.2.1 identity determined by its claim content, exact EntityOfConcern, and effective reference scheme. The result is not thereby a publication, release, carrier, or accepted artifact.
+`S` is fixed in the operation's declaration. The declaration states how input claims are mapped into `S` and the conditions for admitting the result. The partial arrow means that an identified input episteme alone does not establish an admissible compilation: the mapping, preservation, and reliance conditions in :4.5 must hold. An unresolved interpretation or required mapping leaves the affected compilation unresolved.
+
+* **Domain.** One synthesized episteme whose retained claims can be interpreted in `S` under the declared mapping. For every meaning that crosses semantic contexts, the fold also relies on exact source and receiving `SchemeSenseCell` values, an obtaining F.9 Bridge, and a separately stated bounded-use claim; any relied-on use must pass A.10 or B.3.
+* **Result.** One compiled episteme with explicit mapping and loss information and a C.2.1 identity determined by its claim content, exact EntityOfConcern, and effective target scheme `S`. The result is not thereby a publication, release, carrier, or accepted artifact.
+
+**When the target must be replaceable.** A receiving use that selects or substitutes a target scheme within one operation needs an independently governed range for that argument. Use C.3 to identify the candidate rules, their identity criterion, and the membership condition required by that use; then declare the argument and its binding conditions under A.6.1. Range membership does not establish that the chosen scheme can express this input's claims or that a proposed mapping preserves the required meaning. Those application conditions still need :4.5. E.24.UK:4.2c supplies no admitted general `U.ReferenceScheme` range. Fixing one `S` permits the compilation above without claiming that general range; changing the fixed rules requires reconsidering the declaration, mappings, and affected results.
 
 **Relationship to Γ_ctx / Γ_time.**
 If the knowledge fold explicitly depends on **argument order** (for example, a derivation), the internal fold uses **Γ_ctx** for the sequence. If a **temporal storyline** matters, first identify each exact episteme and any obtaining C.2.1 edition relation; then use B.1.4/**Γ_time** to aggregate only the recovered temporal restrictions, relation order, or applicability windows required by the use. Γ_epist composes exact selected episteme inputs, not a label-defined current slice. If the result changes claim content, EntityOfConcern, or effective reference scheme, C.2.1 identifies another episteme. Use B.2 only when exact construction facts leave a separate existing-whole versus candidate-new-whole question.
@@ -41639,13 +41730,13 @@ When computing **Γ_epist^synth(D_know)**:
 
 #### B.1.3:4.5 - Core rules for target-scheme compilation
 
-When computing **Γ_epist^compile(E_synth, TargetScheme)**:
+When computing **Γ_epist^{compile,S}(E_synth)**, retain the fixed rules `S` and the mapping used for this input:
 
 **1. Reference-scheme bindings.**
-   Map every operative concept, unit, and claim into **TargetScheme** and record the exact mapping and its **CL** evidence summary. For a meaning that crosses semantic contexts, name the source and receiving `SchemeSenseCell` values, the obtaining F.9 Bridge, the proposed use, direction, use-specific rule, and permitted loss; establish reliance separately. C.2.1 identifies the compiled episteme from its resulting claims, exact EntityOfConcern, and target scheme. A changed identity discriminator identifies another episteme; it does not by itself open a whole-reidentification question.
+   Map every operative concept, unit, and claim into **S** and record the exact mapping and its **CL** evidence summary. For a meaning that crosses semantic contexts, name the source and receiving `SchemeSenseCell` values, the obtaining F.9 Bridge, the proposed use, direction, use-specific rule, and permitted loss; establish reliance separately. C.2.1 identifies the compiled episteme from its resulting claims, exact EntityOfConcern, and target scheme. A changed identity discriminator identifies another episteme; it does not by itself open a whole-reidentification question.
 
 **2. Re-express the assurance basis.**
-   Re-express F, G, and the support account in **TargetScheme**. Preserve the formal conclusion and empirical limitations separately. Recalculate R or a mapping loss only if the target use has the required meanings, scales, and model under B.3/C.2.2; a change of vocabulary or increased formality is not additional warrant. Without a justified aggregate, carry the separate support and bounded synthesis. A quantitative or formal result needs grounds for its claimed calculations or derivations; its mode alone requires no additional numerical tuple.
+   Re-express F, G, and the support account in **S**. Preserve the formal conclusion and empirical limitations separately. Recalculate R or a mapping loss only if the target use has the required meanings, scales, and model under B.3/C.2.2; a change of vocabulary or increased formality is not additional warrant. Without a justified aggregate, carry the separate support and bounded synthesis. A quantitative or formal result needs grounds for its claimed calculations or derivations; its mode alone requires no additional numerical tuple.
 
 **3. Compilation trace.**
    Produce the compiled episteme's SCR and the carrier hashes needed to reconstruct this application. Require independent re-hash verification when the receiving claim needs independent carrier-integrity evidence under B.3 or an applicable B.3.3 assurance profile. A level label alone does not select that check. The trace establishes neither publication nor release.
@@ -41682,6 +41773,8 @@ For **Γ_epist^compile**, map the retained claims into the journal's scheme, car
 
 For **Γ_epist^compile**, map the retained claims to the certification scheme. Where local meanings differ, identify exact source and receiving `SchemeSenseCell` values, test the F.9 Bridge, state the bounded certification use and permitted loss, and establish relied-on use separately. C.2.1 identifies the resulting episteme. Certification, authorization, a publication occurrence, and actual system protection remain separate claims.
 
+To make the target choice explicit, fix `S_cert` with two interpretation rules: “proved under A” states `A ⇒ P` in the named model; “protection established in service” states that the installed system delivers the protective function in the named operating conditions. The proof input can be compiled into the first statement with A retained. It cannot supply the second statement without the model-to-world and assurance basis already identified above. Reformatting the document that describes these two rules leaves `S_cert` unchanged. If another target reads “proved” as an unconditional claim about the installed system, that is a different scheme: the earlier mapping of the proof is inadmissible there, while the original theorem remains available. Selecting that target within one replaceable-scheme argument also requires the declared range membership; matching its document format establishes neither membership nor an admissible mapping.
+
 #### B.1.3:5.3 - Contrast (didactic)
 
 | Aspect | Knowledge composition (B.1.3:4) | System aggregation decisions (B.1.2:4) |
@@ -41706,7 +41799,7 @@ For **Γ_epist^compile**, map the retained claims to the certification scheme. W
 
 **At compilation (Γ\_epist^compile):**
 
-1. **PO-COMP-SCHEME.** The exact target reference scheme **MUST** be declared. Every active concept and unit **MUST** have an explicit mapping; a cross-context meaning use **MUST** name the exact F.9 Bridge, separate bounded-use claim, permitted loss, and any relied-on A.10 or B.3 result.
+1. **PO-COMP-SCHEME.** The operative target rules **MUST** be identified and fixed in the compilation declaration. If the receiving operation instead accepts a replaceable scheme argument, its independently governed range and binding conditions **MUST** be declared and satisfied for that use. Every active concept and unit **MUST** have an explicit mapping; a cross-context meaning use **MUST** name the exact F.9 Bridge, separate bounded-use claim, permitted loss, and any relied-on A.10 or B.3 result.
 2. **PO-COMP-ASSUR.** The formal basis, scope, and support account **MUST** be re-expressed in the target scheme without losing their limitations. Any recalculated R or loss **MUST** satisfy the receiving model; otherwise preserve the separate support and bounded conclusion.
 3. **PO-COMP-SCR.** The compiled episteme **MUST** retain an SCR with the hashes, versions, and dates required to reconstruct the application. This obligation does not assert release or publication.
 4. **PO-COMP-ID.** The output **MUST** be identified through its C.2.1 claim content, exact EntityOfConcern, and effective target scheme. A changed discriminator identifies another episteme. B.2 is opened only for an independently current existing-whole versus candidate-new-whole question, never as a substitute for this identity rule.
@@ -41716,7 +41809,7 @@ For **Γ_epist^compile**, map the retained claims to the certification scheme. W
 
 | ID            | Requirement                                                                                                                                                         | Purpose                        |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
-| **CC‑B1.3.1** | Inputs to Γ\_epist MUST be `U.Episteme` holons; **ComponentOf** is forbidden; use **ConstituentOf**, **UsageOf**, or **ReferenceTo** for their different claims; use a collection's own belongs-to predicate only for collections. | Prevent category errors. |
+| **CC‑B1.3.1** | Every knowledge constituent supplied to Γ\_epist MUST be a `U.Episteme` holon; **ComponentOf** is forbidden; use **ConstituentOf**, **UsageOf**, or **ReferenceTo** for their different claims; use a collection's own belongs-to predicate only for collections. | Prevent category errors. |
 | **CC‑B1.3.2** | Provenance and **SCR** MUST be preserved in the aggregate; dropping sources or methods is non‑conformant.                                                      | Enforce Evidence Graph Referring.    |
 | **CC‑B1.3.3** | Any aggregate R MUST follow the justified input meanings, scales, support dependencies, and receiving model. No default min, max, or F-to-R conversion is supplied; absent a common model, retain a bounded synthesis and separate support. | Prevent unsupported assurance and preserve useful non-aggregate results. |
 | **CC-B1.3.4** | Contrary evidence MUST remain visible. An established scope or interpretation difference may separate claims; an unresolved conflict must qualify, narrow, or defeat the affected conclusion. Use B.2 only for a separately grounded whole-reidentification question. | Keep the practical effect of disagreement visible. |
@@ -43204,7 +43297,7 @@ Typical moments:
 - separately governed structure, functioning, method, and work facts support a capability envelope that the existing whole cannot explain; evidence separately supports the claim about those facts;
 - an architecture residual cannot be explained inside the existing whole.
 
-**First useful move.** Compare the observed gain or shift with explanations that preserve the existing whole. If better parts, corrected relations, improved measurement, Method or Work repair, richer phase coverage, or architecture-view repair is sufficient, stay with the existing whole and use that subject pattern. Proceed to a new-whole claim only when that comparison leaves whole reidentification necessary.
+**First useful move.** Compare the observed gain or shift with explanations that preserve the existing whole. If better parts, corrected relations, improved measurement, Method or Work repair, richer phase coverage, or architecture-view repair is sufficient, stay with the existing whole and use that subject pattern. Proceed to a new-whole claim only when that comparison leaves whole reidentification necessary. When the identity grounds themselves are missing or disputed, start with :4.0.
 
 **What goes wrong if missed.** Emergence becomes rhetoric, ordinary improvement is overclaimed as a new whole, or a genuinely new whole remains hidden under old part, evidence, assurance, architecture, or responsibility claims.
 
@@ -43250,7 +43343,7 @@ When whole identity and its grounds are unclear:
 
 Use B.2 as a world-side whole-reidentification pattern. Start with the actual wholes and the facts governed by their direct patterns; add records only when a receiving use needs them.
 
-Name what the receiving work needs from a whole: for example, a system bearing an operational capability or an episteme supporting a particular conclusion. Establish which prior whole, if any, is being compared. For a first constitution, obtain the construction facts under the applicable subject pattern and then apply A.1. For a first recognition of an existing whole, apply A.1 to the facts already obtaining; the recognition date does not establish when the whole came into existence. If the prior identity grounds are unavailable, leave that question unresolved. None of these situations supplies a prior holon for `existingWholeRef` by itself.
+Name what the receiving work needs from a whole: for example, a system bearing an operational capability or an episteme supporting a particular conclusion. Establish which prior whole, if any, is being compared. For a first constitution, obtain the construction facts under the applicable subject pattern and then apply A.1. For a first recognition of an existing whole, apply A.1 to the facts already obtaining; the recognition date does not establish when the whole came into existence. When the prior identity grounds are unavailable or disputed, use :4.0 to recover or compare their basis. Keep the identity question unresolved until that work supplies the deciding grounds. None of these situations supplies a prior holon for `existingWholeRef` by itself.
 
 With an established prior whole:
 
@@ -43262,6 +43355,20 @@ With an established prior whole:
 6. Materialize a trigger profile, optional explanation-result episteme, reidentification assertion, or record only when a named receiving use must inspect, cite, compare, or preserve that claim.
 
 The optional `MHTTriggerProfile`, `ExistingWholeExplanationResult`, and `HolonReidentificationRecord` are ordinary C.2.1 epistemes. Their content can designate exact wholes, facts, claims, and relation occurrences; the content fields are not world-side participants and supply no substitute for the preceding move.
+
+#### B.2:4.0 - Establish the identity grounds for the comparison
+
+Use this branch when the comparison needs an identity criterion that is unavailable or contested. A sufficient criterion already supplied by the admitted kind and subject practice can be used directly in :4.2. Here the useful result is a justified rule for the whole being compared, or the particular missing ground that prevents choosing one.
+
+**Recover the subject of the identity claim.** State what continuing whole the receiving question concerns and which construction makes it that whole. A commissioned installation, the resources currently performing an order and a supervisor's jurisdiction can overlap materially while answering different questions. Recover their constituents, organizing relations and relevant occasions before treating their descriptions as rival accounts of one individual. Use A.1 and the kind-specific pattern for the corresponding recognition question. When two accounts concern different subjects, keep each subject and its own continuity conditions.
+
+**Recover what warrants each proposed rule.** Find the domain account that makes the proposed conditions relevant to this whole: for example, the constitutive organization described by a design, an established lifecycle practice, or a theory of the object's persistence. Follow its reasons into what may change and what ends the individual. Distinguish a condition sufficient for continuity from one merely necessary for it. An identifier, observation or test can help recognize that condition; recover the connection that gives it identifying force. For an institutionally constituted object, the applicable constituting rule can itself supply identity conditions. For a physical organization, a proposed rule also has to fit the actual organization and changes. A convenient model boundary answers only the questions warranted by its correspondence to that subject.
+
+**Compare the consequential alternatives through B.5.TC.** Give each proposed account the same identity question and corresponding facts; recover its reasoning, then vary the condition on which the accounts disagree. Choose variations from the disputed claim. Replacement can expose whether the criterion preserves an organization or requires a fixed collection of parts. A temporary loss of functioning tests whether incapacity has been confused with the end of its bearer. A transfer of control tests whether the question follows the installation or a particular control relationship. Two independently constituted systems with the same output test whether a proposed condition distinguishes individuals or only capability. Division, merger or reconstruction matters when one of those events changes the receiving decision. For an episteme, compare its ClaimGraph, EntityOfConcern and effective ReferenceScheme under C.2.1 even when its carriers differ.
+
+Locate the first reason for disagreement, as B.5.TC:4.4 explains. It may be a different subject, an incompatible domain premise or a missing fact about one continuing whole. A counterexample can defeat a proposed criterion; the surviving proposal still needs the positive domain grounds that license its continuity claims. When a theory's application is unclear, B.5.TU supplies that recovery. Obtain a specialist result or further inquiry only for the consequential ground still missing, using C.11.DUA to judge its attainable contribution and burden.
+
+**Return the criterion to the identity comparison.** State the selected subject, the rule and its grounds, the changes it permits, and the event or condition that would end continuity. Keep a qualified or partial rule at the strength actually supported. Feed those results into :4.2 and use A.1.RI when observations still need to be associated under the rule. Complementary accounts keep their different subjects; unresolved competing criteria for the same subject retain their conditional answers and the fact or domain commitment needed to decide between them. If their difference cannot affect the receiving work, continue that work at its supported scope. A broader identity conclusion remains open.
 
 #### B.2:4.1 - MHTTriggerProfile
 
@@ -43371,7 +43478,7 @@ Keep these five distinctions explicit:
 
 - the existing whole and candidate new whole, their constituents, obtaining constructive relations, assemblies, characteristics, and identity rules are world-side objects and facts under their direct patterns;
 - a B.2 whole-reidentification assertion is a C.2.1 episteme about those objects;
-- evidence and assurance relations support or warrant the assertion's claim content but create neither whole and decide neither identity rule;
+- evidence and assurance relations support or warrant claims about construction and identity grounds, including the reasoned choice of an applicable criterion in :4.0;
 - use G.11 to determine whether the selected assertion or record edition is current for the receiving use;
 - a person or system performing the receiving work decides whether to rely, decline to rely, defer, or reopen.
 
@@ -43442,6 +43549,20 @@ A selected `BoundedModelUseStructure` organizes exact model-use relations. It is
 
 Several actual changes during assembly may each be exact `U.Transformation` occurrences. B.2 does not treat them as constituents of one composite transformation. If whole reidentification would require positive transformation composition, transformation parthood, or composite-transformation identity and no direct governor supplies contribution, compatibility, boundary, interfaces, and reidentification, retain the exact blocker and the independently identified changes. The missing composition facts do not show that any change is atomic.
 
+#### B.2:5.7 - Obtain a criterion before judging a production-cell change
+
+In this constructed case, a maintenance engineer must decide whether replacing a robot and transferring supervision continues the commissioned production cell or requires identifying another whole. Three proposed accounts track the listed components, the achieved output and the installed organization. The receiving question concerns the maintained installation; scheduling separately needs the resources currently assigned to an order.
+
+The available engineering material provides grounds for comparison. The design makes the robot exchangeable through specified mechanical, safety and control connections to the retained base, guards and fixtures. The maintenance procedure isolates the installation, replaces that module and tests those connections before return to service. The control arrangement permits supervision to be reassigned through the same interface. Separately commissioning another installation gives it its own construction and maintenance history. The practitioner must turn these commitments and the actual construction facts into a continuity rule for the installation.
+
+Apply B.5.TC to the three proposals. Requiring the same component individuals throughout conflicts with the design's exchangeable-module construction: it would terminate the cell's identity at the very substitution that the maintenance operation performs within the retained organization. Preserved output is also inadequate as an identity criterion. The isolated cell temporarily produces nothing, and a second independently assembled cell can produce the same output at the same time. A named supervisor identifies a control participant; the design permits that participant to change while retaining the installation and its control interface.
+
+The supported criterion therefore follows continuity of the installed assembly and its organizing connections, allowing the component substitutions those connections and the maintenance practice support. Its grounds are the design's organization and the lifecycle operations on that organization. Component serial numbers, production measurements and supervisor assignments supply different facts needed by that account; none of the three alone identifies the continuing installation.
+
+Now inspect the change. The base, guards and fixtures remain; the replacement robot fits the specified connections; the required connection checks pass; supervision transfers through the retained interface. Under the recovered criterion, the replacement is an admitted constituent change of the same cell. In :4.2, that supported maintenance explanation is sufficient, so keep the cell and update the changed component and responsibility claims under their subject patterns. The scheduling account can separately change its resource membership.
+
+Change the conditions. If the commissioned installation is dismantled and an independently assembled cell supplies the same output elsewhere, output recovery leaves the earlier installation's continuity unestablished. Recover the new assembly and its identity grounds under A.1 before claiming a new whole. If only output logs are available and the construction and maintenance grounds cannot be recovered, state the missing connection: whether the actual change preserves the installed organization under an applicable lifecycle rule. Retain the conditional identity alternatives. The logs can still support their bounded production claims.
+
 ### B.2:6 - Bias-Annotation
 
 | Bias risk | Failure | Mitigation |
@@ -43509,13 +43630,14 @@ Holonic work needs a way to recognize when the prior EntityOfConcern no longer c
 | How should agency bear on whole reidentification? | Michael Levin, [*Technological Approach to Mind Everywhere*](https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2022.768201/full) (2022). | **Adopt** non-binary, multi-characteristic, empirically tested agency and multi-scale competency as possible evidence about a system. **Reject** an agency label or threshold as a root kind or automatic new-whole result. | Section 4.5 keeps agency as one possible trigger whose direct characteristics must affect closure, objective, supervision, or identity. |
 | What can a multiscale mathematical signal contribute? | Akhtyrchenko, Katsnelson, and Ustyuzhanin, [*Directing Open-Ended Evolution in Artificial Life via Multi-Scale Path Divergence*](https://arxiv.org/abs/2606.17091) (v2, 3 August 2026), defines MSPD over realized trajectories as a multiscale analytical and optimization measure. | **Adopt** MSPD as a possible exact analytical input when its trajectory assumptions match the case. **Reject** a high MSPD, RG-like score, graph pattern, or benchmark jump as whole reidentification. | Sections 0, 4.7, and 8 route the mathematical result through C.29 and still require the B.2 identity comparison. |
 
-These sources answer different questions. Use each contribution within its stated scope; the whole-reidentification conclusion still requires the comparison of identity and construction facts.
+Constructional ontology makes the identity consequences of inputs and organizing relations inspectable. Its applied use depends on the intended ontology and domain commitments; those grounds determine which proposed construction answers the identity question. Section :4.0 connects their recovery with B.5.TC's comparison of competing accounts. The manufacturing studies contribute reasons for control organization and reconfiguration; a production or recovery result supports the corresponding behavioral claim. Identifying the continuing individual additionally needs its construction and continuity grounds. The case in :5.7 develops that connection under explicit engineering premises.
 
 ### B.2:12 - Relations
 - **Builds on:** `A.1` for world-side holon recognition, `B.1` for part-whole construction, `A.14` and `C.13` for relation and constructional grounding, and `E.24.UK` for one-time public-kind admission.
 - **Coordinates with:** `A.12` and `A.3.4` for acting-side and transformation, `A.3.1` and `A.15.1` for Method and Work, `A.15` when their alignment is the current question, `C.16` and `A.19` for characteristic space and threshold, `C.2.1` for optional claim and record epistemes, `A.10` and `B.3` for evidence and warrant, `G.11` for edition currentness, `C.29` for mathematical lenses, and `C.32.P2S` when architecturing pressure becomes whole reidentification rather than local structure repair.
 - **Specialized by:** `B.2.2` when the candidate new whole is a system, `B.2.3` when it is recognized under the admitted `U.Episteme` kind, and `B.2.4` when capability or functioning facts require whole reidentification.
 - **Can use neighboring evidence from:** `B.2.5` when a supervisor-subholon feedback relation is part of the B.2 case evidence or neighboring structure; that does not make B.2.5 a specialization for the candidate new holon's kind.
+- **Uses for disputed identity grounds:** `B.5.TC` for the comparison and `B.5.TU` when an application of a proposed account must first be constructed; :4.0 explains the identity-specific return.
 - **Uses:** `B.2.P` when emergence-family, MHT, MET, MFT, synergy, or metric-mirage wording hides which claim kind is current before B.2 is applied.
 
 ### B.2:End
@@ -45834,7 +45956,7 @@ A conforming routed cue set may publish:
 - `scope?`
 - `GammaTime?`
 
-`RoutedCueSet` is not itself the late endpoint. `articulationThresholdStatus` and `closureStatus` report guard state only; their governance remains with `C.2.4` and `C.2.5`, and route discrimination may additionally cite `C.2.6` or `C.2.7` when anchoring or representation-factor differences are load-bearing.
+`RoutedCueSet` is not itself the late endpoint. `articulationThresholdStatus` and `closureStatus` report guard state only; their governance remains with `C.2.4` and `C.2.5`, and route discrimination may additionally cite `C.2.6` or `C.2.7` when source or use conditions or representation-factor differences affect the route choice.
 
 `candidateRouteSet` is the load-bearing core here. `routeDecision`, `selectedRoute`, `routeRationale`, and `routeSelectionStatus` belong here when route selection is explicit. They do **not** belong in `PreArticulationCuePack`. The status says only whether plurality remains open or a route has been selected; endpoint admission, publication availability, current use or retirement, and any actual authority relation remain separate claims under A.16 and their direct patterns. Use `sourceCuePackRef` when the originating early form is a cue pack; otherwise identify the equivalent early form and the stabilized cue it preserves.
 
@@ -50768,9 +50890,9 @@ KD-CAL composes C.2.1 epistemes through the relations among their claims and sup
 
 **Use this pattern when.** You need to identify or compare a body of knowledge: what it claims, the exact entity those claims concern, and the rules under which they are interpreted. A pump specification with a changed pressure threshold carries different claims. Publishing the same claims about the same pump under the same interpretation in another file preserves the episteme.
 
-**First useful move.** Ask: what is claimed; what exact entity are the claims about; and what designation and interpretation rules make those claims readable about that entity? Include measurement, comparison or evaluation rules where the claims use them. If identity is all the task needs, stop after those answers. Otherwise name the concrete receiving use and open only the corresponding branch in :4.0. An unresolved uncertainty or choice is needed only when the use involves a real inquiry or decision.
+**First useful move.** If the claim is still taking shape, use :4.1.1 to develop it in writing. Ask: what is claimed; what exact entity are the claims about; and what designation and interpretation rules make those claims readable about that entity? Include measurement, comparison or evaluation rules where the claims use them. If identity is all the task needs, stop after those answers. Otherwise name the concrete receiving use and open only the corresponding branch in :4.0. An unresolved uncertainty or choice is needed only when the use involves a real inquiry or decision.
 
-**One-line summary.** A `U.Episteme` is a knowledge holon identified by exact claim content, one exact EntityOfConcern, and the effective `U.ReferenceScheme` that makes the claims interpretable about that entity. Changing any of these three discriminators identifies another episteme.
+**One-line summary.** A `U.Episteme` is a knowledge holon identified by exact claim content, one exact EntityOfConcern, and the effective `ReferenceScheme` that makes the claims interpretable about that entity. Changing any of these three discriminators identifies another episteme.
 
 **Primary working reader and viewpoint.** The engineer or researcher comparing, revising, teaching, grounding or publishing that knowledge object. The working concern is to reidentify it through those uses and locate a change when it occurs.
 
@@ -50787,7 +50909,7 @@ A theory, model, specification, proof or diagnosis can be an episteme when the s
 FPF treats an episteme as a holon, not as a document class or a filled record. It is a claim-bearing whole about an exact EntityOfConcern under an effective reference scheme. Carriers, notations, and admissible operations can differ; the identity question is what makes this one episteme and what changes it.
 
 
-The core constructive question is whether an exact `U.ClaimGraph`, exact `U.Entity`, and effective `U.ReferenceScheme` stand in the relation that makes the claim content interpretable and evaluable as claims about that entity. When they do, their selected organization yields a whole-level epistemic characteristic: the resulting holon can be used as one defeasible or deductive body of knowledge. That characteristic is not supplied by any one participant alone.
+The core constructive question is whether an exact `ClaimGraph`, exact `U.Entity`, and effective `ReferenceScheme` stand in the relation that makes the claim content interpretable and evaluable as claims about that entity. When they do, their selected organization yields a whole-level epistemic characteristic: the resulting holon can be used as one defeasible or deductive body of knowledge. That characteristic is not supplied by any one participant alone.
 
 Any exact `U.Entity` can participate as the EntityOfConcern. An episteme can therefore concern another episteme or itself without changing the constitution relation.
 
@@ -50828,13 +50950,13 @@ The mantra is a recall aid, not a work plan. The application method and stop con
 
 #### C.2.1:4.0 - First-use completeness questions
 
-Begin with the three questions that identify the episteme. They are identity questions, not fields to fill.
+Begin with the three questions that identify the episteme. They are identity questions, not fields to fill. When the answers are still being developed, :4.1.1 connects the writing work in C.2.4:4.6 to the resulting constitution judgment.
 
 | Always ask | Exact object recovered |
 | --- | --- |
-| What is being claimed? | the exact claim content carried by one `U.ClaimGraph` |
+| What is being claimed? | the exact claim content carried by one `ClaimGraph` |
 | What exact entity do those claims concern? | one identified `U.Entity` participating as the EntityOfConcern |
-| Under which designation and interpretation rules are the claims read, and, where the claims use them, which measurement, comparison, or evaluation rules apply? | the effective `U.ReferenceScheme` |
+| Under which designation and interpretation rules are the claims read, and, where the claims use them, which measurement, comparison, or evaluation rules apply? | the effective `ReferenceScheme` |
 
 If the task needs only the episteme's identity, stop after the three answers. Otherwise state the concrete receiving use. Ask for an unresolved uncertainty or choice only when that use is a real inquiry or decision.
 
@@ -50844,6 +50966,7 @@ Open a row below only when its first column names the reader's next sentence or 
 | --- | --- | --- |
 | A claim or relation must cite the exact constitution occurrence, not merely say that the episteme exists. | one exact obtaining `EpistemeConstitutionRelation` occurrence, reidentified by the participant triple; designate it when an epistemic receiver needs a reference, or use the occurrence itself as a participant when another direct relation is the receiver | C.2.1:4.2.3 and `A.6.REL` |
 | A reader must cite one exact claim inside one exact episteme edition, rather than the whole episteme. | one `ClaimAddress`: an exact episteme-edition reference plus an intrinsic claim identity declared by that edition's exact ClaimGraph; if no such identity resolves uniquely, cite the whole episteme or identify the claim as a separate episteme | C.2.1:4.2.5 |
+| A typed interface needs replaceable interpretation rules or exact content, or must recover that value from an addressable episteme. | the receiving range, exact constituent value and any required designation/resolution; keep membership separate from successful use | C.2.1:4.1.2 and :4.2.6 |
 | An observer must inspect designated empirical claims against current observation, intervention, measurement, or test relations involving one exact holon. | one exact `EpistemeEmpiricalGroundingRelation` occurrence, its covered claim subgraph, claim-to-world mappings, and grounding holon; recover supporting evaluation or evidence use separately | C.2.1:4.3 and the direct observation, intervention, measurement, test, evaluation, or evidence pattern |
 | A description must state the concern from which this episteme is read. | one exact `U.Viewpoint` episteme P and the named describing use that selects P; keep the episteme, its EntityOfConcern, the use, and P distinct | `E.10.D2` and `E.17.0` |
 | A team will validate a Description as a specification before relying on it. | the exact Description episteme, checkable claims, and named harness or validation relation; preserve or update the named describing-use viewpoint only when that selection affects reliance | `E.10.D2` and C.2.1:6 |
@@ -50872,19 +50995,64 @@ The shared C.2.1 identity of one `U.Episteme` is:
 <claim content, exact EntityOfConcern, effective ReferenceScheme>
 ```
 
-`claim content` is the identity-bearing `U.ClaimGraph` carried as the episteme's constitutive claim structure. Each episteme selects one exact `U.Entity` as the EntityOfConcern of the current claim-bearing whole. Its ClaimGraph may also designate other independently governed entities as participants in relational, comparative, negative, counterfactual, or modal claims.
+`claim content` is the identity-bearing `ClaimGraph` carried as the episteme's constitutive claim structure. Each episteme selects one exact `U.Entity` as the EntityOfConcern of the current claim-bearing whole. Its ClaimGraph may also designate other independently governed entities as participants in relational, comparative, negative, counterfactual, or modal claims.
 
 When the subject really is an admitted relation kind, an already individuated obtaining relation occurrence, an admitted collection-as-whole, or another independently identified joint entity, that object may be the EntityOfConcern. Several participant designations do not by themselves constitute such an object. A negative or counterfactual relation claim can designate the relation kind and its participants in the ClaimGraph without requiring an obtaining world-side occurrence.
 
 Split the ClaimGraph only when it combines independent subjects in a way that makes the selected EntityOfConcern untruthful or breaks the intended identity or comparison use; do not split merely because one predicate connects several participants. The reusable predicate-definition boundary is stricter: before publication, name one truthful exact EntityOfConcern and state what the definition claims about it. If no such single concern can be selected, remain at local compound-claim level.
 
-The effective `U.ReferenceScheme` supplies the designation and interpretation rules needed to read this ClaimGraph as claims about this EntityOfConcern. Add measurement, comparison, or evaluation rules only when the claims' meaning uses them. The corresponding measurement or evaluation entities and relation occurrences remain under their direct patterns.
+The effective `ReferenceScheme` supplies the designation and interpretation rules needed to read this ClaimGraph as claims about this EntityOfConcern. Add measurement, comparison, or evaluation rules only when the claims' meaning uses them. The corresponding measurement or evaluation entities and relation occurrences remain under their direct patterns.
 
 A theorem read under a formal vocabulary and calculus needs designation and interpretation rules; it needs measurement or evaluation rules only if its meaning uses them. By comparison, a pump-tolerance episteme uses the applicable units, measurement procedure, and pass/fail criterion to make its claim meaningful; the actual measurement and evaluation occurrences remain neighboring objects rather than episteme constituents.
 
 Changing any identity discriminator yields another episteme. Changing a carrier, layout, rendering, publication occurrence, evidence item, viewpoint assignment, or model-use setting does not by itself yield another episteme. A direct pattern may recognize the same individual as a dependent episteme kind through its stable membership condition, but it does not add another identity discriminator. `A.3.2` governs `U.MethodDescription` membership; `E.17.0` governs `U.Viewpoint` and `U.View` membership through fixed predicates over already identified epistemes. `A.6.3` governs an optional viewing construction between source and receiving epistemes, not view membership. If any work or construction changes claim content, EntityOfConcern, or effective reference scheme, those changed C.2.1 discriminators identify the resulting episteme, not the dependent-kind label.
 
 This identity is constructive. The claim graph and reference scheme are epistemic constituents; the EntityOfConcern remains an independently governed entity related through aboutness and reference. When `EpistemeConstitutionRelation` obtains, their organization yields the whole-level characteristic of being one interpretable claim-bearing whole. The relation occurrence and the resulting episteme are distinct but reidentified from the same three discriminators.
+
+##### C.2.1:4.1.1 - Obtain the content, recover its interpretation, and compare a change
+
+Writing can help obtain the content before it is a finished knowledge object. Following C.2.4:4.6, put the cue or earlier expression beside a proposed claim. Recover what it is about, what is asserted, and the conditions that make that assertion meaningful. Compare the proposal with the observations and reasons that prompted it; use the subject's Method when a missing distinction requires further investigation. Keep unresolved alternatives visible when they affect the next use. A note or partial card can support this work before its content satisfies the episteme-constitution predicate.
+
+**Recover the whole asserted content.** `ClaimGraph` names the semantic claim content organized as a whole: the claims, their participants and predicates, polarity, conditions, and the asserted relations among claims. Include quantification, modal force, and grounds asserted as part of that account where they change what it says. A field named `claim` may carry only part of this content. A graph representation can express it, but graph nodes and edges have the identity of that representation. An episteme describing this content is another object, with the described content as its EntityOfConcern. A separately obtaining justification or evidence relation remains separate unless the account also asserts something about it.
+
+**Recover the effective rules.** `ReferenceScheme` names the rules that actually govern designation and interpretation of this content about its EntityOfConcern. Recover what the expressions designate and how their combinations, qualifications, and inferential uses are read. Include measurement, comparison, or evaluation rules only where the claim's meaning uses them. A document describing those rules is an expression of the scheme; a rule elsewhere in that document enters the effective scheme only when it governs this account. A citation can identify the rules when its selected content is unambiguous; otherwise state the missing rule. An unresolved choice between materially different readings leaves that part of the constitution unresolved.
+
+**Individuate content and rules before assigning a kind.** An exact body of interpreted claim content and an exact collection of operative rules are abstract `U.Entity` individuals under A.1:4.1. For the content, the discriminator is the complete selected claims with their interpreted meanings and asserted organization; for the rule collection, it is the operative rules with their application domains and interpreted dependencies. These discriminators identify the individual independently of the text, graph, document or episteme through which a reader obtains it. Giving those claims or rules under an unambiguous interpretation can designate the individual directly; :4.2.6 also permits designation through an exact episteme edition and selection. Different such designations can return the same individual. Changing any of these identity discriminators identifies another content or rule collection; an expression change that preserves them does not.
+
+This individuation and reference basis permits the content or rules to be an actual relation participant or the EntityOfConcern of an episteme about them. Neither a slot assignment nor a classification judgment supplies that basis. Entity status alone establishes no holonhood, episteme membership or obtaining relation. When the needed interpretation or identity remains unresolved, preserve the partial written result and recover the missing distinction before using it as an exact participant. That limit on the exact use does not prevent writing from helping obtain the content.
+
+**Choose the precision the receiving work needs.** Express the claim and rules well enough to perform the named comparison, interpretation, or revision. Ordinary prose, a diagram with a clear interpretation, or a partial written comparison can be sufficient. Add a C.3.2 classification only when the receiver needs a membership, substitution, or quantified-range judgment; identify the candidates and criterion for that particular classification. Classifying whole epistemes does not establish a kind for each of their constituents. Section :4.2.1 governs a receiving use that specifically needs typed constitution participants.
+
+**Judge identity separately from admissibility and use.** For full episteme identity, compare the complete claim content and its semantic organization, the exact EntityOfConcern, and the effective interpretation rules. Supply the correspondence that makes the preserved claims and their conditions recoverable on both sides. In a formal subject, the declared semantics and a proof or exhaustive comparison may supply it. In ordinary language, use the subject's distinctions and stated bounds to compare what each account commits to; expose an ambiguity that prevents the comparison. Agreement on selected questions establishes only that bounded agreement. A conservative derivation may omit content and therefore does not by itself establish full identity.
+
+A change to asserted meaning or grounds is a content change even if the principal sentence remains. Choosing a different interpretation rule changes the effective scheme even if all signs remain. Making an already determined meaning easier to recover can preserve both; adding a previously unsettled condition or commitment requires a new identity judgment. When only part of the account has been compared, preserve that partial result without asserting equality of the whole. There is no general procedure here for deciding equality of arbitrary natural-language meanings.
+
+**Reconsider what depended on the changed value.** Use :4.8 to locate the change. A :4.2.5 ClaimAddress continues to designate its claim in the original exact episteme while the edition reference resolves and that ClaimGraph declares exactly one claim with the intrinsic identity. To use corresponding content in another episteme, establish the claim-to-claim correspondence and resolve an address in that episteme; the old address remains an address in the original episteme. Changed claims or interpretation can defeat a proposed transfer of empirical coverage, an A.6.6 claim selection, or a predicate evaluation. Retest the affected viewpoint-conformance, edition-continuity, or receiving-use conclusion under its own rule. Reuse an unaffected part only with the correspondence and conditions that support that reuse. A different expression or carrier with the same complete content and scheme leaves episteme identity intact, while its suitability for the receiving action still needs that action's criterion.
+
+##### C.2.1:4.1.2 - Declare the range needed by a receiving interface
+
+Use an exact value directly when the receiving question concerns that value alone. A fixed-scheme operation can put its rules in the operation declaration, as in B.1.3. A reusable typed interface with a variable argument or replaceable participant needs a range: the receiver must be able to distinguish an eligible replacement from an expression that merely looks similar. State that distinction before choosing a type name.
+
+For the recurring interpretation and claim-content uses below, the following declarations identify two C.3 kind individuals over the abstract entities individuated under :4.1.1. The candidate domains retain the distinction between those entities and their documents, graph representations or describing epistemes. Each row supplies the candidate interpretation and membership rule of its C.3.2 KindSignature; no context-slice-dependent extension is needed for these content-fixed individuals.
+
+| Kind individual and candidate domain | Operative membership condition | Value identity and relevant boundary |
+| --- | --- | --- |
+| `EpistemeInterpretationScheme`: abstract rule-collection entities, identified with their application domains | The collection contains rules determining designation or interpretation of claim expressions: what a designation refers to, how a predicate or combination is read, or how a qualification or inference contributes to the claim's meaning. Its rule domains and imported semantic dependencies belong to the identified collection. | Identify a value by the operative rules, their domains and interpreted dependencies. A collection prescribing only font, page placement or file encoding is a non-member. A document describing a scheme is not the rule collection. A precisely specified partial scheme can be a member while lacking a rule needed by a particular receiver. |
+| `NonemptyClaimContent`: abstract content entities, identified as collections of interpreted claims and their selected semantic relations | The collection contains at least one claim with its participant and predicate meanings, polarity, qualifications and asserted interclaim relations. A whole ClaimGraph or an exact nonempty semantic subgraph can satisfy this condition. | Identify a value by that content and semantic organization under the declared interpretation. An empty collection is a non-member. An uninterpreted graph, a carrier and an episteme about the content are not candidates of this content-entity domain. False, conflicting or insufficiently supported claims can still be members. |
+
+Under these candidate interpretations, `EpistemeInterpretationScheme` is a subkind of `U.Entity`, and `NonemptyClaimContent` is a subkind of `U.Entity`. C.3.1's criterion-entailment branch applies: every member must have the independent semantic identity and reference basis in :4.1.1 and therefore satisfies A.1:4.1. A.6.5 can use either range as an entity ValueKind; actual participation still requires the receiving relation's predicate to obtain.
+
+Recover the candidate independently of the classification. C.3.2 first checks that the proposed candidate is a value in the stated domain; then it judges membership as true, false or unknown. Missing knowledge of a needed rule or content relation leaves that judgment unknown. It does not turn a known document into a rule collection, nor turn an unidentified expression into a fully identified value.
+
+For scheme identity, compare the actual rules and domains, including the dependencies that determine their meaning. A restatement can preserve the scheme when an explicit alignment preserves those rules; agreement on a few outputs cannot establish that identity. A changed interpretation rule or domain identifies another scheme even if its name and document remain. For content identity, apply :4.1.1 to the whole selected content. Two designations from different source editions may return the same content under the same scheme. Source, acceptance, currentness and witness qualifications attached to a designation do not enter the designated semantic base merely because they accompany it, as in A.6.6. When the selected content itself asserts such a fact, that assertion belongs to the content being compared. A change of graph encoding preserves content only when the interpretation supplies the complete correspondence; graph shape alone supplies none.
+
+The kinds themselves continue when their candidate domains and operative membership distinctions remain the same under C.3.1's comparison. Rewording the declaration or citing it from another pattern need not create another kind. Replacing the semantic rule/content criterion with the presence of a schema label would create another classification distinction. A change of one member's rules or claims instead identifies another value; it need not change the kind.
+
+These declarations supply a shared range for the receiving interfaces that cite them. A.1.1 uses `EpistemeInterpretationScheme` for its coherence participant R; A.2.6, A.19.CPM and A.19.SelectorMechanism use it for a bound scheme argument. A.6.0's R7/R8 predicates use `NonemptyClaimContent` for exact dependent content and semantic bases. Reusing one criterion preserves the same meaning of admissible input across those interfaces. A receiver adds any narrower language, semantic-domain or representation condition its operation actually needs; that condition does not become another kind merely because another pattern states it. A recurring independently different classification requires its own C.3 declaration.
+
+**Test replacement in the receiving use.** Resolve the proposed value, check the declared range and any narrower input conditions, then apply the receiver's own predicate or operation law. An eligible scheme need not interpret every actual input. Two eligible schemes need not be equal or admit a meaning-preserving translation. An eligible content value need not be a sufficient basis or an actually used premise. Missing interpretation stops the dependent operation; a false subject predicate remains a different result. For a cross-scheme use, establish the required correspondence, F.9 Bridge and bounded-use assertion where the receiving rule requires them, with A.10 reliance or B.3 assurance only under their own conditions. Membership supplies none of these results.
+
+Retest dependent bindings and conclusions when the resolved value or a used rule changes. Reuse unchanged content only with its established correspondence and applicability. Keep the old value and its qualified conclusions available instead of rewriting them as statements about the replacement. These bounded C.3 declarations do not admit public `U.ReferenceScheme` or `U.ClaimGraph`; E.24.UK governs any separately needed durable U-kind proposal.
 
 #### C.2.1:4.2 - Govern the core direct relation
 
@@ -50894,19 +51062,27 @@ This identity is constructive. The claim graph and reference scheme are epistemi
 
 ##### C.2.1:4.2.1 - Participants and the shared reusable-declaration rule
 
-Before using any signature-local table, identify the declaration itself. Each of `EpistemeConstitutionRelationSignature`, `EpistemeEmpiricalGroundingRelationSignature`, and `EpistemeEditionRelationSignature` is first one exact C.2.1 episteme: its own `U.ClaimGraph` carries the declaration claims, its exact EntityOfConcern is the direct relation kind, and its effective `U.ReferenceScheme` makes those claims interpretable. For each of these three declarations the fixed `A.6.0` membership predicate obtains, so `A.6.0` independently recognizes that same episteme individual as a `U.Signature`. `RelationSignature` names the relation-facing use of that same individual; it is neither another U-kind nor another identity.
+The constitution predicate uses three actual participants, each an exact `U.Entity`. The content and rule collection have the independent semantic identities given in :4.1.1; the EntityOfConcern has its own subject-governed identity. Recover each before judging whether the relation obtains:
 
-A complete declaration claim names the direct relation-kind designator, the exact `A.6.5` SlotSpecs needed by reusable typed uses, the obtaining predicate, the occurrence-identity rule, applicability, and only its actual dependencies and provided names. The direct relation kind, its actual participants, an obtaining occurrence, an assertion about it, a relation-occurrence description episteme, the declaration episteme, its publication, and a representation of any of these remain distinct. A receiving need may justify typed reuse but does not identify the declaration. One readable assertion needs no signature or manifest. An A.6.0 manifest is optional and is used only when actual dependencies or provided names must be exposed; a manifest row, list, citation, identifier, or edition marker creates neither episteme identity nor dependency.
+| Relation-participant meaning | What identifies the participant for this constitution |
+| --- | --- |
+| constitutive claim content | the abstract content entity identified by its complete semantic content and organization under :4.1.1; a selected graph representation supplies an expression, not its identity by itself |
+| exact EntityOfConcern | one entity independently identified under its subject's rule |
+| effective reference scheme | the abstract rule-collection entity identified by the designation and interpretation rules governing this account, with their domains and dependencies, under :4.1.1 |
 
-Applying that shared rule locally, typed reuse of `EpistemeConstitutionRelation` uses the one declaration episteme `EpistemeConstitutionRelationSignature`, whose exact EntityOfConcern is `EpistemeConstitutionRelation` and whose declaration includes these SlotSpecs:
+This is sufficient for a direct constitution judgment with exact values. A reusable typed interface has an additional question: which candidates may replace a participant under its declared range? For that use, A.6.5 requires a complete SlotSpec with an independently governed ValueKind and designation mode. State the candidate domain, membership criterion, identity rule, and applicability needed by the receiver; use C.3.2 for a local classification and E.24.UK for a proposed public U-kind. Carrying the designation ByValue does not remove the membership requirement.
+
+For reusable designation of the EntityOfConcern, `EpistemeConstitutionRelationSignature` declares `EpistemeConstitutionRelation` as its subject and `U.Entity` as the ranged kind for that participant. Its vocabulary includes the relation designator and the SlotSpec below; its laws are the obtaining and participant-determined identity rules in :4.2.2. Its applicability is the reusable designation and typing of the EntityOfConcern in a constitution assertion or description whose claim content and effective rules are recovered under :4.1.1. This declaration's own claim content, relation-kind EntityOfConcern, and effective FPF interpretation identify one declaration episteme; these subject, range, vocabulary, laws, and applicability contents satisfy A.6.0's `U.Signature` predicate.
 
 | SlotKind | Relation-participant meaning | ValueKind | refMode |
 | --- | --- | --- | --- |
-| `ClaimGraphSlot` | constitutive claim content | `U.ClaimGraph` | `ByValue` |
 | `EntityOfConcernSlot` | exact entity the claims concern | `U.Entity` | `U.EntityRef` |
-| `ReferenceSchemeSlot` | effective designation and interpretation scheme | `U.ReferenceScheme` | `ByValue` |
 
-The SlotKinds belong only to this declaration. An actual claim graph, EntityOfConcern, or reference scheme is an actual relation participant under its independently governed kind. A card field or assertion designation corresponds to a SlotKind but does not become the participant.
+Use this SlotSpec for the EntityOfConcern designation in A.6.REL:5.5 or B.2:5.1. An eligible designation must resolve to an independently identified entity; that typing alone does not establish that the claims concern it or that the constitution predicate obtains. The other two participants remain necessary exact constituents. Section :4.1.2 supplies bounded C.3 ranges for a receiving typed use; this EOC declaration does not thereby acquire further SlotSpecs. A use that additionally needs `ClaimGraphSlot` or `ReferenceSchemeSlot` must select the range appropriate to its participants and complete its declaration under A.6.5. If the available range does not cover that use, establish the missing criterion before claiming the stronger interface. E.24.UK:4.2c separately retains the public U-kind questions. A card field or tuple position acquires none of this declaration meaning by its label alone.
+
+The separately needed `EpistemeEmpiricalGroundingRelationSignature` and `EpistemeEditionRelationSignature` remain declarations over the governed episteme and holon kinds stated in :4.3 and :4.5. Each declaration is first a C.2.1 episteme: its own claim content declares the relation, its EntityOfConcern is that direct relation kind, and its effective scheme gives those declarations meaning. The A.6.0 predicate judges that same individual's `U.Signature` membership; `RelationSignature` is its relation-facing use, with no second identity.
+
+A complete declaration states its relation-kind designator, the SlotSpecs required by its typed use, direct predicate, occurrence identity, applicability, and any actual dependencies or provided names. A manifest may expose those dependencies or names when a consumer needs them. A readable one-off assertion needs neither a signature nor a manifest; assertion wording does not make its relation obtain.
 
 ##### C.2.1:4.2.2 - Obtaining and occurrence identity
 
@@ -50965,6 +51141,36 @@ When a ClaimGraph declares no stable intrinsic identity for the needed claim, ci
 
 `C.2.1 ClaimAddress` designates claim content carried by the exact edition. It is neither a U-kind nor a RefKind, turns no claim content into a `U.Entity` or another `U.Episteme`, and carries none of the claim content itself. Use `U.EpistemeRef` for the whole episteme and the admitted reference kind for an independently identified entity or relation occurrence.
 
+##### C.2.1:4.2.6 - Resolve a constituent designation to its exact value
+
+Use a constituent designation when the receiving work needs to recover content or rules from an addressable episteme instead of carrying them by value. Ordinary writing can continue with the expressions and rules available in :4.1.1; it need not create a reference or a finished episteme merely to fit these forms.
+
+```text
+C.2.1 ClaimContentDesignation ::= <
+  exactEpistemeEditionRef: U.EpistemeRef,
+  selection: wholeClaimContent | intrinsic semantic selection declared by that ClaimGraph
+>
+
+C.2.1 SchemeDesignation ::= <
+  exactEpistemeEditionRef: U.EpistemeRef,
+  selection: effectiveScheme | schemeDefinedBy(intrinsic semantic selection)
+>
+```
+
+Resolve the exact episteme first under :4.2.5. For `ClaimContentDesignation`, recover its whole claim content or the uniquely declared selection, retaining the selected claims' semantic qualifications and selected interclaim relations. A single intrinsic claim can use a :4.2.5 ClaimAddress as the selection. A subgraph selection must likewise be declared by the exact ClaimGraph and resolve uniquely across its admissible representations. A row number, heading or diagram position alone supplies no such identity. When that selection is unavailable, carry the exact content by value, cite the whole episteme, or constitute the needed content as its own episteme.
+
+For `SchemeDesignation`, `effectiveScheme` selects the rules governing the source episteme itself. `schemeDefinedBy` selects content that defines one exact rule collection, with its domain and semantic dependencies; interpret that defining content under the source episteme's own effective scheme. A document can describe a different scheme from the one under which the document is read. A mention, name or example of a scheme is insufficient to select all of its rules. Follow an imported rule only through its exact source and interpretation; an unresolved or circular definition with no independently recoverable rules does not resolve the scheme.
+
+Resolution succeeds only when the exact edition, selection and interpretation determine one value. Preserve an unresolved result when the source is absent, selection is ambiguous or a required rule is missing; do not silently choose the latest edition or a nearby document. The receiving interface then checks its declared range and use conditions under :4.1.2. Resolution alone establishes neither membership nor successful use.
+
+These are composite designation values, not new U-kinds or RefKinds. Use an explicit designation field, such as `claimContentDesignation` or `schemeDesignation`, with the applicable C.2.1 form; an A.6.1 `ByRef` argument can specify this resolution method while keeping the resolved value as its argument range. The admitted `U.EpistemeRef` inside the form retains its own referent range. Two designations are the same designation only when they select the same constituent through the same exact episteme edition and selection. Different designations can resolve the same semantic value. Retargeting changes the designation and requires resolution again; it changes neither the old episteme nor the old value.
+
+**Apply the distinctions together.** A declaration D describes a rule set S in ordinary mathematical prose, while S declares a propositional language with material implication and the inference rule that permits `q` from `p` and `p => q`. Selecting D's `effectiveScheme` returns the rules for reading D; selecting the exact content that defines S returns S. A formatting-only stylesheet is an identified rule collection but fails `EpistemeInterpretationScheme` membership. An exact partial S can pass membership and still leave `unless` uninterpreted in a proposed input; a consuming operation requiring that interpretation stops.
+
+For an A.1.1 comparison, let R be the complete S and let M and E have the same effective S. Here the actual participant R is S, the abstract rule collection described by D. R passes the declared range; the coherence claim still requires its independently admitted predicate P to hold for the exact M and E content. Changing the interpretation of `=>` while retaining the signs yields another R and requires a new coherence judgment, including the bridged branch if its conditions now apply. Reprinting D while preserving its complete defining content changes no R.
+
+For an A.6.0 basis use, let the exact dependent content be `q` and the selected base be the two claims `p` and `p => q`, under the stated inference rule. Both are `NonemptyClaimContent`. The base can be sufficient for deriving `q`, but R7 actual use additionally needs the identified derivation claim that used those premises. Replacing the base with the single claim `p` preserves membership and loses that sufficiency under the stated rule. Adding an asserted new reason to the dependent account changes its content even if the field still displays `q`. Two exact editions that designate the same unchanged base under S provide two source qualifications of that semantic base, not two bases merely because the addresses differ. An episteme asserting that this two-claim base is sufficient for deriving `q` under S can take that exact abstract content entity as its EntityOfConcern. That assertion has its own claim content and effective scheme; it does not replace the base it concerns.
+
 #### C.2.1:4.3 - Add empirical grounding through its own relation
 **Tech name:** `EpistemeEmpiricalGroundingRelation`.
 
@@ -50976,7 +51182,7 @@ For every empirical claim in `C`, state a concrete claim-to-world mapping under 
 
 The selected claim subgraph is by-value predicate content drawn from the episteme's ClaimGraph; it is not a third world-side relation participant, another episteme constituent, or a new U-kind. An assertion about grounding designates that subgraph and the claim-to-world mappings but creates none of the mapped occurrences.
 
-Applying the shared declaration rule in 4.2.1, `EpistemeEmpiricalGroundingRelationSignature` is one declaration episteme whose exact EntityOfConcern is `EpistemeEmpiricalGroundingRelation`; the same individual has `U.Signature` membership and relation-facing `RelationSignature` use only under `A.6.0`. Its complete declaration includes the covered-claim-subgraph rule, obtaining predicate, maximal-continuous-interval identity rule, applicability, actual dependencies and provided names, and these participant SlotSpecs:
+Applying the declaration rule in 4.2.1, `EpistemeEmpiricalGroundingRelationSignature` is one declaration episteme whose exact EntityOfConcern is `EpistemeEmpiricalGroundingRelation`; the same individual has `U.Signature` membership and relation-facing `RelationSignature` use only under `A.6.0`. Its complete declaration includes the covered-claim-subgraph rule, obtaining predicate, maximal-continuous-interval identity rule, applicability, actual dependencies and provided names, and these participant SlotSpecs:
 
 | SlotKind | Relation-participant meaning | ValueKind | refMode |
 | --- | --- | --- | --- |
@@ -51012,7 +51218,7 @@ Names ending in `Slot` are admissible here only as SlotKinds inside the exact `R
 
 **Plain reading:** this later episteme continues this earlier episteme as an edition under one applicable continuity rule.
 
-`EpistemeEditionRelation` has exactly two direct participants. Applying the shared declaration rule in 4.2.1, `EpistemeEditionRelationSignature` is one declaration episteme whose exact EntityOfConcern is `EpistemeEditionRelation`; the same individual has `U.Signature` membership and relation-facing `RelationSignature` use only under `A.6.0`. Its complete declaration includes the direct predicate, participant-determined identity, applicability, actual dependencies and provided names, and these SlotSpecs:
+`EpistemeEditionRelation` has exactly two direct participants. Applying the declaration rule in 4.2.1, `EpistemeEditionRelationSignature` is one declaration episteme whose exact EntityOfConcern is `EpistemeEditionRelation`; the same individual has `U.Signature` membership and relation-facing `RelationSignature` use only under `A.6.0`. Its complete declaration includes the direct predicate, participant-determined identity, applicability, actual dependencies and provided names, and these SlotSpecs:
 
 | SlotKind | Relation-participant meaning | ValueKind | refMode |
 | --- | --- | --- | --- |
@@ -51051,7 +51257,7 @@ One completed inspection card shows why the distinctions matter. Its filled clai
 
 Republishing the same claims about the same subject under the same effective scheme with another form or carrier preserves the episteme. Changed claim content, subject or effective scheme identifies another episteme. If the account also needs the rendering Work, use the conditional Work branch in :4.0.
 
-A tuple can represent the identity triple and a graph or hypergraph can represent claim, justification, dependency, or relation structure. Use `C.29` for an unresolved mathematical-lens choice, transfer or reliance question. `U.ClaimGraph` and `JustificationGraph` remain graph-valued epistemic structures. Their nodes and edges remain representation elements. An explicit correspondence can relate one selected representation element to an independently recovered object, but it neither identifies the two nor makes the representation element a participant of the represented direct relation.
+A tuple can represent the identity triple and a graph or hypergraph can represent claim, justification, dependency, or relation structure. Use `C.29` for an unresolved mathematical-lens choice, transfer or reliance question. `ClaimGraph` names the semantic content being represented; `JustificationGraph` names the separately governed inferential organization. Nodes and edges in a selected graph remain representation elements. An explicit correspondence can relate one selected representation element to an independently recovered object, but it neither identifies the two nor makes the representation element a participant of the represented direct relation.
 
 #### C.2.1:4.7 - Preserve description and meta-description recursion
 
@@ -51094,10 +51300,11 @@ For an A.6.3 source-to-receiving viewing construction, the two identified episte
 | `EpistemeEmpiricalGroundingRelation` occurrence | the direct relation between one identified episteme and one exact grounding holon for one exact covered claim subgraph containing at least one empirical claim, while every empirical claim in that subgraph has a current mapping to the required observation, intervention, measurement, or test relations involving that holon; evaluation or evidence supports an assertion unless explicitly mapped as part of the empirical test | C.2.1 and the governing observation, intervention, measurement, test, evaluation, or evidence patterns |
 | classification assertion episteme needed as a separate claim-bearing object | a claim-bearing episteme whose EntityOfConcern is the exact candidate and whose claim content states a classification judgment under the exact governing criterion: `A.1` for an admitted holon kind or `C.3.2` for a local kind | C.2.1 for assertion identity; the pattern governing the criterion for the judgment; `E.24.UK` only for public U-kind admission |
 | `EpistemeEditionRelation` occurrence | the direct historical continuation relation between one exact earlier episteme and one exact later episteme; exact source use, the applicable continuation policy or rule, and the preserved and deliberately changed claim, EntityOfConcern, and scheme features decide whether it obtains; Work, Method, provenance, and change facts supply case facts only; apply the shared 4.9 inception boundary only when that separate fact is consumed | C.2.1, coordinated with `C.2.P`, A.3.1, A.3.4, and C.2.1:4.9 only for a separately current inception claim |
-| `EpistemeConstitutionRelationSignature`, `EpistemeEmpiricalGroundingRelationSignature`, or `EpistemeEditionRelationSignature` | one C.2.1 declaration episteme whose exact EntityOfConcern is its direct relation kind; the fixed `A.6.0` predicate gives that same individual `U.Signature` membership, and `RelationSignature` is its relation-facing use with complete direct semantics and exact A.6.5 SlotSpecs | C.2.1 for declaration identity, `A.6.0` for membership and reusable vocabulary, and `A.6.5` for SlotSpecs |
-| `SlotSpec` | one declaration-content component of that `RelationSignature` | `A.6.5` |
+| `EpistemeConstitutionRelationSignature` | the declaration episteme for reusable EntityOfConcern designation under :4.2.1, with `EntityOfConcernSlot`, `U.Entity`, and `U.EntityRef`; typed replacement of claim content or effective scheme needs additional independently governed ranges and SlotSpecs | C.2.1:4.2.1, `A.6.0`, and `A.6.5` |
+| `EpistemeEmpiricalGroundingRelationSignature` or `EpistemeEditionRelationSignature` | one C.2.1 declaration episteme whose EntityOfConcern is its direct relation kind; A.6.0 judges same-individual `U.Signature` membership, and `RelationSignature` is its relation-facing use with the complete semantics and SlotSpecs stated in :4.3 or :4.5 | C.2.1 for declaration identity, `A.6.0` for membership and reusable vocabulary, and `A.6.5` for SlotSpecs |
+| `SlotSpec` | one declaration-content component of an identified complete `RelationSignature` | `A.6.5` |
 | assertion or description episteme | a claim-bearing episteme that states or describes one of the direct relations | C.2.1 and the direct claim or description pattern |
-| `U.MethodDescription` | the same `U.Episteme` individual when A.3.2 recognizes one admitted `U.Method` as its exact EntityOfConcern and its claims, interpreted under the effective `U.ReferenceScheme`, make at least one substantive claim about that method as a way of doing; mention, bibliographic metadata, or approval alone does not establish membership, and adequacy for a receiving use is evaluated separately | C.2.1 for episteme identity; `A.3.2` for dependent-kind membership |
+| `U.MethodDescription` | the same `U.Episteme` individual when A.3.2 recognizes one admitted `U.Method` as its exact EntityOfConcern and its claims, interpreted under the effective `ReferenceScheme`, make at least one substantive claim about that method as a way of doing; mention, bibliographic metadata, or approval alone does not establish membership, and adequacy for a receiving use is evaluated separately | C.2.1 for episteme identity; `A.3.2` for dependent-kind membership |
 | `U.View` | the same `U.Episteme` individual when it conforms to at least one exact `U.Viewpoint` episteme; formally, when `EpistemeViewpointConformanceRelation(E,P)` obtains for that pair | C.2.1 for episteme identity; `E.17.0` for dependent-kind membership; `A.6.3` only when source-to-receiving construction is current. Conformance of E to P, that construction, current-use selection, and publication remain separate. |
 | describing-use viewpoint selection | one named describing use selects one already identified `U.Viewpoint` episteme through an exact reference; it selects no view | `E.10.D2` and `E.17.0` |
 | multi-view collection or organization | an exact C.13 collection only when a receiving use depends on the plurality as a collection, and an exact A.22 `U.Structure` only when that use additionally depends on organization among those views | `C.13`, `A.22`, and the direct organizing relations |
@@ -51116,7 +51323,7 @@ The Symbol-Concept-Object triangle is a teaching projection, not the episteme on
 | Triangle corner | C.2.1 projection | What the projection suppresses |
 | --- | --- | --- |
 | Symbol | selected representation elements and any publication carrier | representation scheme, admitted operations, publication occurrence, and correspondence to the episteme |
-| Concept | `U.ClaimGraph` interpreted under an effective `U.ReferenceScheme` | claim scope, justification, viewpoint, and edition relations |
+| Concept | `ClaimGraph` interpreted under an effective `ReferenceScheme` | claim scope, justification, viewpoint, and edition relations |
 | Object | exact EntityOfConcern and any current `EpistemeEmpiricalGroundingRelation` | the difference between what claims concern and the holon through which they are empirically inspectable |
 
 A triangle diagram may be used to introduce expression, meaning, and subject if its caption says that it compresses the C.2.1 episteme ontology. Its corners and arrows are representation elements. They supply no SlotKinds, direct relation occurrences, or identity rules.
@@ -51132,7 +51339,7 @@ For a description use, keep these values recoverable:
 | Value | Meaning | Identity status |
 | --- | --- | --- |
 | `entityOfConcernRef` | designation of the exact EntityOfConcern in the description episteme's constitution relation | its resolved exact EntityOfConcern, not the reference value or designation, is C.2.1 identity-bearing |
-| effective `U.ReferenceScheme` | rules by which the description claims refer to and can be checked against that entity | C.2.1 identity-bearing |
+| effective `ReferenceScheme` | rules by which the description claims refer to and can be checked against that entity | C.2.1 identity-bearing |
 | `viewpointRef`, when current | governed reference resolving to the exact `U.Viewpoint` episteme selected for this describing use under E.17.0 | use qualifier outside episteme identity; work that changes an identity discriminator identifies another episteme independently |
 | `claimScopeRef`, when current | designation of the exact `U.ClaimScope` under A.2.6 | claim-use qualifier |
 | `modelUseStructureRef`, when current | designation of one independently selected `BoundedModelUseStructure : U.Structure` | optional interpretation qualifier, not a context root |
@@ -51243,6 +51450,15 @@ Wiring-model episteme `E1` concerns exact harness `H` under reference scheme `S1
 
 The wiring-diagram representation under its stated diagram scheme represents the connectivity of `H`; its mapping resolves connector marks and pin marks to the independently identified connectors and pins. A layout-only transition preserves connector identity, pin identity, and connection predicates. If the diagram omits a connection that remains in `E1`'s ClaimGraph, that representation loses one connection predicate. If a revised legend no longer resolves an earlier mark to its connector, that mark-to-connector reference is lost. The diagram remains admissible for maintenance diagnosis only while the connections on which that diagnosis depends are preserved and recoverable; stop that use or return to the source relation structure when they are not.
 
+For a concrete typed receiving use, let local kind `K_H` admit already identified epistemes about H whose complete content consists of affirmative or negative physical-connectivity claims between identified pins under S1. The criterion excludes other subjects, proximity readings, and additional claim families; it classifies whole epistemes, not claim-content or scheme individuals. C.3.2 judges candidates against that criterion. Let E1 assert that pin P1 is connected to pin P2.
+
+| Proposed replacement | Constitution and receiving-use result |
+| --- | --- |
+| a layout change preserving every connector, pin, connection claim, and S1 rule | the same E1; the receiver still checks that its representation exposes the connections needed for diagnosis |
+| the same claim field now denies that P1 is connected to P2 | a different episteme that still meets K_H; admissible input does not mean equal content or a conservative replacement of E1 |
+| the same marks now mean spatial proximity under S2 | a different episteme because interpretation changes; it fails K_H's fixed physical-connectivity criterion |
+| a proposed input whose governing legend is unavailable | membership and any identity comparison depending on that legend remain unresolved; a PDF carrier alone is not an episteme candidate |
+
 A readability score can improve while the diagram makes the connections needed for diagnosis harder to recover. When that score is used as the practical value, apply `E.13`: name the intended diagnostic value, the readability proxy, and what became worse. Use the representation branch in :4.0 for the transition and its preserved or lost structure.
 
 #### C.2.1:9.8 - Trained or probe-derived representation and tool-using inference
@@ -51255,6 +51471,12 @@ An answer may carry a proposed solution, while an evaluation report states wheth
 
 When a changed tool regime changes inference behavior, locate the changed method, Work or representation and the evidence used to assess it. Update the grounding occurrence if its coverage predicate changes. Reidentify an episteme only when claim content, EntityOfConcern or effective reference scheme changes.
 
+#### C.2.1:9.9 - Develop a naming claim in writing
+
+A naming note starts with a concern that the proposed name hides a distinction. Following C.2.4:4.6, the author writes competing interpretations, identifies what the name would designate, and states the reason for preferring one reading. The note helps obtain the claim; a completed NameCard is useful only when the naming work needs its arrangement and comparison. Identify the resulting claim-bearing whole under :4.1.1 once its content, subject, and interpretation are recoverable.
+
+Suppose the designation claim in that card stays the same, but `SelectionRationale` now asserts a different reason for the choice. The complete asserted content changed, so the card's episteme changed. Merely reordering fields or making the same reason easier to read can preserve it. A newly asserted reason needs its own support; preserving the designation does not transfer the earlier justification. If only an external evidence-use relation changes while every assertion in the card stays fixed, reconsider that relation and reliance without automatically changing the card's episteme.
+
 ### C.2.1:10 - Bias-Annotation  *(informative)*
 
 
@@ -51266,9 +51488,9 @@ Finally, the pattern has a claim-bearing-holon bias. Decodability alone does not
 
 ### C.2.1:11 - Conformance Checklist  *(normative)*
 
-1. **Episteme identity.** Claim content, exact EntityOfConcern, and effective `U.ReferenceScheme` are recoverable, and the text states what changes each discriminator. A dependent episteme kind such as `U.MethodDescription` or `U.View` adds a governed membership judgment for the same individual, not another identity discriminator.
+1. **Episteme identity.** Complete claim content, exact EntityOfConcern, and effective `ReferenceScheme` are recoverable under :4.1.1. Distinguish obtaining that content in writing, candidate admissibility, full identity, and suitability for the receiving action. A dependent episteme kind such as `U.MethodDescription` or `U.View` adds a governed membership judgment for the same individual, not another identity discriminator.
 2. **Direct constitution and case judgment.** `EpistemeConstitutionRelation` has its three identified participants, obtaining predicate, and participant-determined occurrence-identity rule. C.2.1 defines that rule; current case facts satisfy or fail the predicate; an assertion states affirmative or negative polarity; and evaluation or evidence use states reliance only when needed. Designate an occurrence only after positive case facts and the identity rule individuate it.
-3. **Declaration identity and Slot discipline.** Each of the three named relation declarations is first a C.2.1 episteme whose exact EntityOfConcern is its direct relation kind; the fixed `A.6.0` predicate gives that same individual `U.Signature` membership and `RelationSignature` is its relation-facing use. Its complete declaration carries the direct predicate, occurrence identity, applicability, exact A.6.5 SlotSpecs, and only actual dependencies and provided names. Signature-local SlotKinds never become participants, and a one-off assertion needs no signature or manifest.
+3. **Declaration identity and Slot discipline.** A complete reusable declaration is first a C.2.1 episteme; A.6.0 independently judges its `U.Signature` membership. Grounding and edition declarations use the ranges in :4.3 and :4.5. The constitution declaration supplies the EntityOfConcern SlotSpec; any additional typed participant use needs its independently governed range and complete SlotSpec; a direct exact-value constitution judgment alone supplies no general ClaimGraph or ReferenceScheme ValueKind. Preserve predicate, occurrence identity, applicability, and actual dependencies. Signature-local SlotKinds never become participants, and a one-off assertion needs no signature or manifest.
 4. **Classification discipline.** `A.1` governs recognition under an admitted holon kind, `C.3.2` governs local-kind membership, and `E.24.UK` governs public U-kind admission. A classification assertion needed as a separate claim-bearing object is a C.2.1 episteme about the exact candidate; it states affirmative or negative polarity for the exact classification predicate and keeps supported, refuted, or unresolved reliance separately governed. It neither creates the candidate nor changes the kind's admission.
 5. **Empirical-grounding discipline.** `GroundingHolonSlot` occurs only inside `EpistemeEmpiricalGroundingRelationSignature`. Each occurrence names one exact covered claim subgraph containing at least one empirical claim and maps every empirical claim in it to the required current direct observation, intervention, measurement, or test relations involving the grounding holon. Unlisted claims receive no grounding from that occurrence. One occurrence is reidentified from the episteme, covered claim subgraph, grounding holon, and maximal continuous interval during which the complete coverage predicate is true; demonstrated coverage failure followed by restoration yields another occurrence. Evaluation counts in the empirical base only when its exact direct relation and use in the test are stated; otherwise evaluation and evidence support or challenge an assertion. Availability or loss of a report, store, or Work log alone neither makes nor unmakes grounding.
 6. **Edition discipline.** `EpistemeEditionRelation` has exactly the earlier and later epistemes as participants and is acyclic in that direction. Positive continuity requires exact source use, an applicable edition policy or rule, and preserved and deliberately changed claim, EntityOfConcern, and scheme features satisfying that rule. Fork, translation, retargeting, and independent reconstruction are explicit failure branches. Work, Method, provenance, and change facts supply case facts but no label makes continuity true.
@@ -51311,7 +51533,7 @@ Finally, the pattern has a claim-bearing-holon bias. Decodability alone does not
 
 The three constitution discriminators identify the knowledge holon; empirical grounding, viewpoint, scope, edition, and publication remain separately governed. A change in one of those neighboring relations can therefore be examined without reidentifying an unchanged episteme.
 
-The constitution relation explains how the identity-bearing participants are organized. The episteme is the resulting holon with a whole-level capacity to carry interpretable claims. A relation declaration is first its own C.2.1 episteme; `A.6.0` independently recognizes that same individual as a `U.Signature`, and `RelationSignature` names its relation-facing use. Its claims declare the direct relation for typed reuse; an assertion claims that the relation obtains, and a publication occurrence makes a selected episteme edition available. None replaces another.
+The constitution relation explains how the identity-bearing participants are organized. The episteme is the resulting holon with a whole-level capacity to carry interpretable claims. A relation declaration is first its own C.2.1 episteme; `A.6.0` judges whether its complete content satisfies `U.Signature` membership, including the declared range, and `RelationSignature` names its relation-facing use. A complete declaration carries the direct relation for its stated typed reuse; an assertion claims that the relation obtains, and a publication occurrence makes a selected episteme edition available. None replaces another.
 
 ### C.2.1:14.1 - SoTA-Echoing
 
@@ -52192,13 +52414,13 @@ The current methodological comparison is [Gutierrez, Glymour and Davey Smith, *E
 
 ### C.2.2:End
 
-## C.2.2a - `U.LanguageStateSpace` - Language-state chart over `U.CharacteristicSpace`
+## C.2.2a - Language-State Chart over `U.CharacteristicSpace`
 
 > **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Plain-name.** Language-state space.
+**Plain-name.** Language-state chart.
 
 **Builds on.**
 `A.19`, `E.10`, `F.18`.
@@ -52208,9 +52430,9 @@ The current methodological comparison is [Gutierrez, Glymour and Davey Smith, *E
 
 **Use this pattern when.** A team is about to route, compare, or publish a note by calling it `early`, `ready`, or `settled`, and the next action depends on what is actually known.
 
-**First question.** Which of the five aspects can change the next action—formality, articulation, closure, anchoring, or representation—and which readings or unknowns does that action need?
+**First question.** Which expression, articulation, closure or representation readings can change the next action, and which source or use conditions must be stated beside them?
 
-**What goes wrong if missed.** Teams flatten those five aspects, the grounds for judging them, and the publication lane into one maturity adjective. A polished document can then look ready although the claim is still open, or a useful early cue can be rejected because it is not yet polished.
+**What goes wrong if missed.** Teams flatten the relevant Characteristics, source and use conditions, grounds for assessment and publication lane into one maturity adjective. A polished document can then look ready although the claim is still open, or a useful early cue can be rejected because it is not yet polished.
 
 **What this buys.** One small chart row that shows only the distinctions needed by the next action while keeping the episteme publication separate from its grounds, publication form and carrier.
 
@@ -52220,11 +52442,11 @@ Start with the smallest row that can change the next action:
 
 - the exact episteme publication being positioned;
 - only the currently relevant facet values or supported sets of possible values; use intervals where the Scale admits them and mark a decision-relevant unknown as `unknown`;
-- the grounds for those readings;
+- the grounds for those readings, with any source, evidence, access or action conditions on which the next use depends;
 - any local threshold used by the named next action and whether the readings meet it, fail it, or leave the result undecided;
 - publication form, face, or carrier only when that distinction changes interpretation, preservation, or the next action.
 
-**Filled example.** `Pump-alert-17` is the alerting episteme publication being positioned. Its affected asset and discrepant reading are visible, but the claim structure is not yet complete; rival diagnostic routes remain open; the alert is anchored in the operator loop; and its representation mixes text with telemetry. Formality is omitted because the present routing decision does not depend on it. The grounds are trace `T-17` and operator note `N-4`. The local rule permits routing to the diagnostic-question seam once the affected asset and discrepant reading are explicit. Form, face, and carrier are omitted because none changes that decision.
+**Filled example.** `Pump-alert-17` is the alerting episteme publication being positioned. Its affected asset and discrepant reading are visible, but the claim structure is not yet complete; rival diagnostic routes remain open; the alert enters the operator's acknowledgement-and-check procedure; and its representation mixes text with telemetry. Formality is omitted because the present routing decision does not depend on it. The grounds are trace `T-17` and operator note `N-4`. The local rule permits routing to the diagnostic-question seam once the affected asset and discrepant reading are explicit. Form, face, and carrier are omitted because none changes that decision.
 
 **Non-use.** If an existing chart already supplies the applicable values and threshold for the same next action, cite it instead of publishing another row. If `early` or `ready` is only ordinary prose and no routing, comparison, publication, or threshold decision depends on it, leave it as ordinary prose rather than creating a governed position.
 
@@ -52241,7 +52463,7 @@ Practitioners still have to determine the relevant readings, any threshold used,
 Without an explicit language-state chart:
 
 1. teams collapse several facets into one maturity story;
-2. `F` is silently misused as a surrogate for articulation, closure, anchoring, and representation factors;
+2. `F` is silently misused as a surrogate for articulation, closure, source and use conditions, and representation factors;
 3. thresholds are published as vague readiness statements instead of explicit facet conditions;
 4. source phenomena, governed epistemes, publication forms, publication faces, and carriers are conflated;
 5. bridge and endpoint work inherit under-described upstream states.
@@ -52256,16 +52478,16 @@ Without an explicit language-state chart:
 | **Bridge reuse vs local authority** | Cross-context work benefits from a stable upstream chart, yet each context keeps local threshold authority. |
 
 ### C.2.2a:4 - Solution
-`U.LanguageStateSpace` is the cluster-local name for the declared language-state chart over `U.CharacteristicSpace` as disciplined by `A.19`.
+A language-state chart is a declared `U.CharacteristicSpace` whose basis slots use selected language-state Characteristics and Scales under `A.19`. A profile containing several Characteristics expands into their separate slots; it is not one atomic Coordinate.
 
-It is not a second kernel state-space apparatus beside `A.19`. It is the particular declared `U.CharacteristicSpace` whose basis slots represent the selected language-state Characteristics. A profile containing several Characteristics expands into their separate slots; it is not one atomic Coordinate.
+#### C.2.2a:4.0a - Chart, position claims and publication
 
-#### C.2.2a:4.0a - Kind and chart boundary
+The space declaration identifies the chart and makes its basis, optional overlays and typing hooks recoverable under A.19. A position claim states facet readings about the selected published `U.Episteme` edition; the E.24.PUB publication occurrence remains separate. A score table or local route map can express the declaration and position claims. Its reusable form and carrier remain distinct from those contents.
 
-`U.LanguageStateSpace` is a dependent durable chart value under `U.CharacteristicSpace` and the episteme language-state boundary, not a new root state-space U-kind. Its identity is the declared characteristic-space chart for governed episteme publication positions. Here, the positioned episteme publication is the selected published `U.Episteme` edition being assessed; the E.24.PUB publication occurrence remains separate. Practitioners can publish or use the chart through score tables, publication forms, local route maps, and carriers, which remain distinct from the chart.
+Changing a slot's Characteristic, Scale or position requires a changed space declaration under A.19. Revising a reading changes the position claim and can use the same space. Changing a threshold changes the predicate under A.19:5.1.8. Changing only the form or carrier of these unchanged contents changes neither the space, reading nor predicate.
 
 #### C.2.2a:4.1 - Core use
-`U.LanguageStateSpace` gives FPF an explicit declared chart for answering five questions:
+Use the declared chart to answer five questions:
 
 - which basis slots define where the governed episteme stands;
 - what a position claim in that chart means;
@@ -52276,7 +52498,7 @@ It is not a second kernel state-space apparatus beside `A.19`. It is the particu
 #### C.2.2a:4.2 - Position reading under `A.19`
 A language-state position is a partial, slot-explicit coordinate claim in the declared language-state `U.CharacteristicSpace`.
 
-`ValueSet(Scale)` in A.19 is the full Scale domain. Publish each selected slot's reading as one value or as a supported set of remaining possible values within that domain. This set describes incomplete information about the slot's value. Use an interval only where the Scale admits it; state a decision-relevant `unknown` separately when the available information does not determine the needed reading. For anchoring, `{AM.TraceAnchored, AM.OperatorLoop}` can report two remaining possibilities; `AM.Mixed` instead requires identified component modes that both matter substantively (C.2.6:4.3).
+`ValueSet(Scale)` in A.19 is the full Scale domain. Publish each selected slot's reading as one value or as a supported set of remaining possible values within that domain. This set describes incomplete information about the slot's value. Use an interval only where the Scale admits it; state a decision-relevant `unknown` separately when the available information does not determine the needed reading. For closure, `{CD1, CD2}` can report two remaining possible values while the assessment is incomplete. Separate source and use claims follow C.2.6:4.3: two unresolved possible sources differ from an established contribution by both.
 
 `position` here abbreviates these slot-explicit `A.19` coordinate claims.
 
@@ -52286,10 +52508,9 @@ The language-state chart is coordinated by explicit facet subject patterns rathe
 - `C.2.3` for the selected expression properties in a formality assessment, or an explicitly justified local summary;
 - `C.2.4` for articulation explicitness;
 - `C.2.5` for language-state closure degree;
-- `C.2.6` for language-state anchoring mode;
 - `C.2.7` for the language-state representation-factor bundle.
 
-The selected basis slots together define the chart under A.19. Each actual Characteristic has its own Scale and slot. In particular, neither a formality profile nor a representation-factor bundle is silently treated as one Coordinate. `C.2.2a` does **not** govern the internal meanings or Scale semantics of those Characteristics.
+The selected basis slots together define the chart under A.19. Each actual Characteristic has its own Scale and slot. In particular, neither a formality profile nor a representation-factor bundle is silently treated as one Coordinate. `C.2.2a` does **not** govern the internal meanings or Scale semantics of those Characteristics. C.2.6 supplies the source, evidence, access and action-condition account needed beside the coordinates. That account contributes no slot by itself. A local summary contributes a slot only when its one aspect and Scale are defined under C.2.6:15.1 and A.18/A.19; changing that basis requires an explicit chart change.
 
 #### C.2.2a:4.4 - Position, grounds and publication
 Keep the positioned episteme publication separate from the grounds for its assessment and from its publication form and carrier:
@@ -52299,13 +52520,13 @@ Keep the positioned episteme publication separate from the grounds for its asses
 - **publication forms** - arrangements or notations used for publications such as cue packs, prompts, typed projections, partial normal forms and endpoint records; an MVPK face is a selected publication form, identified when that distinction matters;
 - **carriers** - physical or digital media, such as a paper sheet, file or console display, that bear the selected form.
 
-`U.LanguageStateSpace` governs only the coordinate reading of the position claim. Keep that claim distinct from its grounds, publication form and carrier.
+C.2.2a governs the coordinate reading of the position claim. Keep that claim distinct from its grounds, publication form and carrier. C.2.6 also distinguishes a reading's derivation from evidence for its target claim and from the conditions under which someone uses it.
 
 #### C.2.2a:4.5 - Position publication rule
 
 A published position states the exact episteme publication, the facet readings that matter to the present use, and the grounds for those readings. A decision-relevant unknown is stated as `unknown`; unrelated facets need not be filled merely to complete a form.
 
-Add the local threshold and named next action only when the row is used for movement, routing, comparison, or endpoint entry. Add publication form, MVPK face, carrier, or SCR/RSCR lane only when that distinction affects interpretation, preservation, distribution, or the next action.
+Add the local threshold and named next action only when the row is used for movement, routing, comparison, or endpoint entry. If that action also requires a source, evidence or interaction condition, state or cite its predicate beside the coordinate test; the condition does not become a Coordinate by being included in the same row. Add publication form, MVPK face, carrier, or SCR/RSCR lane only when that distinction affects interpretation, preservation, distribution, or the next action.
 
 The position is reviewable when the named or inherited episteme publication, relevant readings, grounds, and any relied-on threshold are recoverable, and when any form, face, or carrier actually mentioned remains distinct from the positioned episteme publication. A polished note or better carrier does not by itself prove a new chart position.
 
@@ -52315,7 +52536,7 @@ The formality assessment supplies the selected expression Characteristics, each 
 A conforming account shall not infer:
 
 - closure from formality alone;
-- anchoring from publication-face format alone;
+- source or use relations from publication-face format alone;
 - representation factors from articulation alone;
 - or routing admissibility from a lone `F` statement.
 
@@ -52338,17 +52559,17 @@ If no Bridge obtains, preserve both local positions. Name the actual comparison 
 Compare the relevant readings with the local threshold named by the next action. Use the result to decide whether to keep the publication where it is, route it through a seam or prompt pattern, open a facet or endpoint question, or stop because a required reading is unknown. The receiving pattern governs the actual route, comparison, or publication decision; the chart row supplies only the position facts that decision uses.
 
 ### C.2.2a:5 - Archetypal Grounding
-**Tell.** One note can have operator-loop anchoring yet still low closure. Another can be document-mediated and symbol-heavy while still open on route choice. Both notes have positions in one language-state chart, but not on one maturity progression.
+**Tell.** One note can be used in an operator's acknowledgement procedure yet still have low closure. Another can report an architecture document's assertions in symbolic form while its route choice remains open. Both notes have positions in one language-state chart, but not on one maturity progression.
 
-**Show (System).** A service disturbance is a system-side phenomenon. The positioned governed `U.Episteme` publication is the alerting episteme published from that disturbance. In `Pump-alert-21` (:13.2), its position combines declared observation terms and unit-bearing values, `CD1`, `AM.OperatorLoop`, and local/sparse/symbolic readings for the defined indicator code.
+**Show (System).** A service disturbance is a system-side phenomenon. The positioned governed `U.Episteme` publication is the alerting episteme published from that disturbance. In `Pump-alert-21` (:13.2), its position combines declared observation terms and unit-bearing values, `CD1`, and local/sparse/symbolic readings for the defined indicator code. The account separately states the operator acknowledgement and diagnostic-check condition.
 
-**Show (Episteme).** A model-vs-observation discrepancy is a witness-level tension, not the positioned episteme publication itself. Once preserved as a cue pack, the resulting governed `U.Episteme` may be low in articulation, low in closure, trace-anchored, and only partly symbolic even when rendered into prose.
+**Show (Episteme).** A model-vs-observation discrepancy is a witness-level tension, not the positioned episteme publication itself. Once preserved as a cue pack, the resulting governed `U.Episteme` may be low in articulation, low in closure, derived from an identified trace, and only partly symbolic even when rendered into prose.
 
 ### C.2.2a:6 - Bias-Annotation
 The pattern favors separate facet readings over one stage adjective when a decision depends on them. Ordinary descriptions remain sufficient under the non-use boundary in :0.
 
 ### C.2.2a:7 - Conformance Checklist
-- `CC-C.2.2a-1` `U.LanguageStateSpace` **SHALL** be treated as the declared language-state chart over `U.CharacteristicSpace`, not as a rival kernel space and not as a disguised `F` progression.
+- `CC-C.2.2a-1` The language-state chart **SHALL** be a declared `U.CharacteristicSpace` under A.19, not a rival kernel space or a disguised `F` progression.
 - `CC-C.2.2a-2` Published positions **SHALL** cite explicit facet subject patterns when those positions matter for movement, routing, or endpoint entry.
 - `CC-C.2.2a-3` Position claims **SHALL** use slot-explicit values, supported sets of remaining possible values, or intervals admitted by the slot's Scale; uncertainty **SHALL NOT** be hidden inside stage words such as `ready`, `early`, or `mature`.
 - `CC-C.2.2a-4` A position claim in the chart **MUST NOT** be conflated with the current ground, witness, publication form (including an MVPK face), or carrier.
@@ -52357,8 +52578,8 @@ The pattern favors separate facet readings over one stage adjective when a decis
 - `CC-C.2.2a-7` If a position claim is used for routing, endpoint entry, or gate-adjacent reasoning, its relied-on threshold **SHALL** remain explicit or recoverable from the cited applicable upstream publication. The positioned episteme publication **SHALL** remain identifiable. Include form, MVPK face or carrier distinctions when they affect interpretation or the next action, as in :4.5.
 
 ### C.2.2a:8 - Common Anti-Patterns and How to Avoid Them
-- **Maturity monism.** Replace five facets with one stage word. Repair by publishing explicit slot placement.
-- **Formality capture.** Use `F` to stand in for articulation, closure, or anchoring. Repair by naming the actual facet subject pattern.
+- **Maturity monism.** Replace the needed distinctions with one stage word. Publish the relevant slot values and state any required source or use condition separately.
+- **Formality capture.** Use `F` to stand in for articulation, closure, or source and use conditions. Repair by naming the actual facet subject pattern.
 - **Carrier collapse.** Treat a document, cue pack, or routed note as if it were the position itself. Repair by distinguishing the position claim, publication form (including an MVPK face) and carrier.
 - **Threshold folklore.** Speak of readiness without any explicit threshold declaration. Repair by publishing relevant local threshold notes on explicit slots.
 - **Bridge by vibe.** Similar stage language is treated as equivalence. Recover the two exact F.17 local senses and test F.9; cite a Bridge only when its predicate obtains. Otherwise keep both positions local and route the actual comparison or translation question.
@@ -52381,7 +52602,7 @@ The external comparisons below concern publication distinctions and scoped profi
 
 **Architecture-description contribution.** Keep the position claim and the form and carrier through which it is published distinguishable when their identity changes interpretation or use.
 
-**Characteristic-space and profile discipline.** The multi-facet chart is grounded in FPF `A.19` and the current `C.2.3`–`C.2.7` facet patterns; it is not imported from an external modeling language. Current governance practice contributes the narrower discipline of publishing scoped profiles and thresholds.
+**Characteristic-space and profile discipline.** The multi-facet chart is grounded in FPF `A.19` and the Characteristics defined in `C.2.3`–`C.2.5` and `C.2.7`; it is not imported from an external modeling language. Current governance practice contributes the narrower discipline of publishing scoped profiles and thresholds.
 
 **Local stance.** The load-bearing architecture decision is FPF-native: governed language-state uses a multi-facet chart with explicit thresholds and the publication distinctions needed by the receiving use, not one maturity progression or one polished publication face. The external rows support the narrower view, publication, profile, and threshold disciplines stated above.
 
@@ -52398,24 +52619,24 @@ A position claim for a research cue note may state:
 - `F`: the terms needed for the inquiry are defined, while the proposed inferences remain in prose,
 - low articulation explicitness,
 - low closure,
-- `AM.EmbodiedFelt` or `AM.TraceAnchored`, according to the cue's actual anchor,
+- the relevant bodily observation or trace derivation, stated as a separate claim under C.2.6,
 - and mixed representation factors.
 
 Keep these readings explicit when testing entry into `A.6.P` or `C.25`; the note should remain upstream while the relevant receiving pattern's entry conditions remain unmet, even if its prose happens to look polished.
 
 #### C.2.2a:13.2 - Routed operator alert note
-Use `Pump-alert-21` from C.2.LS:13.1 to compare the three stated diagnostic alternatives before selecting a check. The alert names Pump P7, its indicated pressure of 70 kPa, the alarm condition `p_indicated(P7,t21) < 90 kPa`, and the contrasting implications of sensor bias, low supply, and an open bypass. Its chart readings are:
+Use `Pump-alert-21` from C.2.LS:13.1 to compare the three stated diagnostic alternatives before selecting a check. The alert names Pump P7, its indicated pressure of 70 kPa, the alarm condition `p_indicated(P7,t21) < 90 kPa`, and the contrasting implications of sensor bias, low supply, and an open bypass. Its chart readings and separate use condition are:
 
 - `F`: the pressure variables and units are defined, the alarm predicate is explicit, and the question and diagnostic contrasts are expressed in prose;
 - `AE = AE4`: the diagnostic question has the participants, conditions, and bounds needed for this comparison;
 - `CD = CD1`: the three alternatives have explicit contrasts, but none has yet been excluded and no diagnostic route has been selected;
-- `LanguageStateAnchoringMode = AM.OperatorLoop`: the alert is connected to the operator's console acknowledgement and diagnostic-check selection;
+- use condition under C.2.6: the console connects the alert to the operator's acknowledgement and diagnostic-check selection; this is stated beside the coordinates;
 - `RepresentationFactorBundle = {local, sparse, symbolic}` for the alert's indicator-code component only: one of eight named units is active, the fixed decoder gives its report label, and the active fraction `1/8` meets the example's local sparse criterion. C.2.LS:13.1 supplies the unit order, decoder, and criterion.
 
 If an accepted reference-gauge reading of 72 kPa for the same sample t21 excludes sensor bias under the stated case rule while the other two alternatives remain, update `CD` to `CD2`. The question remains fully stated and the code, expression properties, and operator-loop connection are unchanged. Keep the live responses explicit in the route-bearing seam publication. Before publishing an endpoint-subject-qualified work record or reliance record, test the applicable downstream pattern's conditions; these chart readings do not decide that result.
 
 #### C.2.2a:13.3 - Viewpoint-bound adequacy note
-A document-mediated adequacy note about an architecture description may state an explicit vocabulary and predicates for its claims, with articulation sufficient for the described comparisons, mid-level closure, document-mediated anchoring and symbolic representation. That position remains within the same language-state chart even though its carrier lane differs from an embodied inquiry cue.
+An adequacy note using identified assertions from an architecture description may state explicit vocabulary and predicates, articulation sufficient for the described comparisons, mid-level closure and symbolic representation. Its account names the document edition and accessible assertions needed for that judgement under C.2.6. Its position can be compared in the same chart as a bodily-observation cue when the selected Characteristics and Scales have the same meanings; source and access claims remain separate.
 
 #### C.2.2a:13.4 - Polished prose is not closure
 A prose rewrite may look cleaner, more compact, or more manager-readable than the source cue and still remain low in closure or articulation explicitness. If the underlying slot values, uncertainty, and route plurality remain unchanged, then publication polish changes the rendering or carrier lane, not the chart position by itself.
@@ -52757,11 +52978,11 @@ When the same expression properties and conditions still answer the receiving qu
 
 #### C.2.3:19.3 - Boundary to language-state facets
 
-This pattern does not redefine `U.ArticulationExplicitness`, `U.LanguageStateClosureDegree`, `U.LanguageStateAnchoringMode` or `U.LanguageStateRepresentationFactorBundle`. C.2.LS and its subordinate patterns govern those facets. A formality assessment can refer to their results when relevant, but must not relabel them as steps of one rigor scale.
+C.2.4 governs articulation explicitness, C.2.5 governs closure degree, C.2.6 recovers source and use claims, and C.2.7 governs the representation-factor readings. C.2.LS brings selected results together in an optional profile. A formality assessment can refer to these results when relevant, but must not relabel them as steps of one rigor scale.
 
 ### C.2.3:End
 
-## C.2.LS - `U.LanguageStateFacetProfile` - Thin profile bundle for language-state facets
+## C.2.LS - Language-State Facet Profile: Publish Readings and Use Conditions Together
 
 > **Type:** Definitional (D)
 > **Status:** Stable
@@ -52769,7 +52990,9 @@ This pattern does not redefine `U.ArticulationExplicitness`, `U.LanguageStateClo
 
 **Plain-name.** Language-state facet profile.
 
-**Use this pattern when.** Use C.2.LS when the next use of a published `U.Episteme` needs an explicit profile of selected language-state readings and local thresholds. Select from formality, articulation, closure, anchoring and representation factors.
+**Technical alias.** `LanguageStateFacetProfile` names the optional record form below. A filled profile is an assessment account governed by C.2.1.
+
+**Use this pattern when.** Use C.2.LS when the next use of a published `U.Episteme` needs an explicit profile of selected language-state readings and local thresholds. Select the required formality, articulation, closure and representation readings, together with any source or use conditions needed to interpret or apply them.
 
 **Sufficient result and non-use.** The profile can point to existing readings and include only the facets needed together. If ordinary wording, one direct facet reading or an applicable existing profile already serves the receiving use, use it without constructing another bundle.
 
@@ -52781,7 +53004,7 @@ This pattern does not redefine `U.ArticulationExplicitness`, `U.LanguageStateClo
 To publish or compare position claims in the language-state chart over `U.CharacteristicSpace`, collect the needed facet references and readings in one profile. This makes the readings and their contribution to a receiving threshold inspectable while each facet pattern supplies its own definition.
 
 ### C.2.LS:2 - Problem
-Without a dedicated profile bundle, authors blur articulation, closure, anchoring, and representation into one vague maturity story, or they silently reuse `F` as a surrogate. That blocks admissible threshold publication, undercuts `A.16` move guards, and makes school-to-school bridge work harder than it needs to be.
+When authors need several facet readings together, a vague maturity label can conceal their different contributions, or `F` can become their surrogate. That blocks admissible threshold publication, undercuts `A.16` move guards, and makes school-to-school bridge work harder than it needs to be.
 
 ### C.2.LS:3 - Forces
 | Force | Tension |
@@ -52791,38 +53014,46 @@ Without a dedicated profile bundle, authors blur articulation, closure, anchorin
 | **Local thresholds vs cross-context comparability** | Contexts need local thresholds, but the facet names must stay stable enough for bridge work and viewpoint bundles. |
 
 ### C.2.LS:4 - Solution
-`U.LanguageStateFacetProfile` is a typed profile bundle that names the facets needed to publish and interpret a position claim in the declared language-state chart over `U.CharacteristicSpace`. Select the applicable references from:
+A language-state facet profile records the selected readings and use conditions about one identified episteme edition. Characteristic readings use the declared language-state chart over `U.CharacteristicSpace`; a separate relation account keeps its own predicates. Use C.2.2a:0 and :4.2–4.5 to select the needed facets, obtain readings and grounds, and identify any conditions used by the receiving action. The profile brings those results together. Its fields can refer to existing readings or to the source and use account supplied by C.2.6. A reading reference makes its Characteristic, Scale, value and assessment scope recoverable; a reference to a source or use claim makes the predicate, participants and grounds recoverable. Select the applicable fields from:
 
 - `formalityRef` -> the expression-property assessment governed by `C.2.3`, including its selected basis and any justified local ordered summary
-- `articulationExplicitnessRef` -> `U.ArticulationExplicitness` from `C.2.4`
-- `languageStateClosureDegreeRef` -> `U.LanguageStateClosureDegree` from `C.2.5`
-- `languageStateAnchoringModeRef` -> `U.LanguageStateAnchoringMode` from `C.2.6`
-- `languageStateRepresentationFactorBundleRef` -> `U.LanguageStateRepresentationFactorBundle` from `C.2.7`
+- `articulationExplicitnessRef` -> the articulation reading governed by `C.2.4`
+- `languageStateClosureDegreeRef` -> the closure reading governed by `C.2.5`
+- `languageStateAnchoringModeRef` -> the source, evidence, access or action-condition claims selected under `C.2.6`; cite their account or an explicitly defined local summary with its criterion
+- `languageStateRepresentationFactorBundleRef` -> the selected representation-factor readings governed by `C.2.7`
 - `thresholdRefs?` -> context-local threshold declarations over the named facets
 - `routeNotes?` -> informative notes that help interpret routing or reopening decisions
 
-`C.2.LS` therefore defines only the **profile bundle**; it defines neither an individual characteristic nor a trajectory. A formality assessment or representation-factor bundle can contain several Characteristics. If placed in a CharacteristicSpace, each of those Characteristics receives its own declared Scale and slot; the reference to the assessment is not itself a Coordinate. `A.18/A.19` supply characteristic semantics, `A.16` defines admissible moves, and `E.18` governs an independently selected TransformationFlowStructure.
+`C.2.LS` therefore defines only the **profile bundle**; it defines neither an individual characteristic nor a trajectory. A formality assessment or representation-factor bundle can contain several Characteristics. If placed in a CharacteristicSpace, each of those Characteristics receives its own declared Scale and slot; the reference to the assessment is not itself a Coordinate. The C.2.6 account is likewise separate from those slots; a local summary needs its own declared Characteristic and Scale before it can supply a Coordinate. `A.18/A.19` supply characteristic semantics, `A.16` defines admissible moves, and `E.18` governs an independently selected TransformationFlowStructure.
 
 #### C.2.LS:4.0a - Kind and profile-bundle boundary
 
-`U.LanguageStateFacetProfile` is a dependent durable profile-bundle value under the declared `U.LanguageStateSpace` and `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the explicit bundle of language-state facet refs used for position reading and threshold publication. A dashboard or table can publish the bundle; its display or label does not determine the facet readings or their admissible use.
+The optional `LanguageStateFacetProfile` form expresses an ordinary C.2.1 assessment account. The episteme edition being assessed is its EntityOfConcern. Its claims give the selected readings under their chart and scope, their grounds, any required source or use conditions, and any thresholds used in the assessment. C.2.1 governs the account's identity; E.24.PUB governs its expression and publication. No additional profile individual or dependent U-kind is needed for this use.
+
+Distinguish the **selection of facets** from the **filled assessment**. A selection identifies the Characteristics and Scales in the A.19 basis and any separate C.2.6 questions needed by the receiving use. The same selection can be used for several assessments, just as the same record form can express them. A filled assessment states readings about its identified episteme edition and scope; changing a reading or a stated relation changes that claim content even if every definition reference stays the same. A threshold predicate has its own by-value identity under A.19:5.1.8. Reusing readings with a different predicate requires a new evaluation of that predicate, while the readings can remain unchanged.
+
+For reuse, recover the assessed edition, chart meanings, scope, readings and relied-on grounds from the profile or its applicable cited source. Recover a threshold or a separate source or action condition and its receiving use when the conclusion relies on it. Saying which of the selection, readings, threshold or whole assessment is being reused prevents an unchanged label from concealing changed content. Rearranging the same claims in a dashboard or table leaves their meanings available under the same account-identity rule.
+
+**Choose direct readings or a shared profile.**
+
+Use direct facet readings when they already provide the inputs for the receiving judgement. A shared profile is useful when several readings and their conditions must be interpreted, compared or reused together: the reader can recover their joint scope and see which of them a local threshold actually uses. This saves reassembling dispersed references. The profile adds no stronger warrant to the readings. Keep it partial when the task needs only part of the facet family, and reuse an existing applicable assessment rather than writing another.
 
 #### C.2.LS:4.1 - Contribution boundary
 `C.2.LS` defines only profile composition and requires the language-state facets to remain explicit and non-collapsed. It does **not**:
 
 - redefine `F`;
 - invent a universal formality progression or an undeclared local summary;
-- redefine the scale semantics of `AE`, `CD`, `LanguageStateAnchoringMode`, or `U.LanguageStateRepresentationFactorBundle`;
+- redefine the scale semantics of `AE`, `CD` or the representation factors in `C.2.7`, or replace the direct predicates recovered through C.2.6;
 - define reopen/backoff moves;
 - define endpoint classification or bridge kinds.
 
 #### C.2.LS:4.2 - Threshold publication discipline
-Any threshold used to choose a next question, constrain an admissible move, or begin `A.6.P` recovery shall be published on explicit named facets in the profile. Do not describe hidden sub-levels of `F` when the real issue is articulation, closure, anchoring, or the representation-factor bundle.
+Any threshold used to choose a next question, constrain an admissible move, or begin `A.6.P` recovery shall be published on explicit named facets in the profile. Do not describe hidden sub-levels of `F` when the real issue is articulation, closure, a source or use condition, or the representation-factor bundle. A required relation is tested under its direct predicate; only a declared Characteristic reading participates as a slot value in an A.19 threshold.
 
 #### C.2.LS:4.2.a - Local profile-reading witness
 For this pattern, a published facet profile is reviewable when:
 
-- the selected facet refs and readings are explicit or recoverable from a cited applicable upstream publication;
+- the assessed episteme edition, chart, scope, selected refs, readings and any relied-on source or use claims are explicit or recoverable from a cited applicable upstream publication;
 - any threshold-bearing use names the facet whose threshold is being invoked;
 - route notes or local overlays remain informative and visibly docked to the explicit facet bundle;
 - and any claimed move, Bridge, gate state or downstream result retains its own governing definition and test.
@@ -52834,7 +53065,7 @@ A language-state judgement may be composite, but the composite shall be decompos
 
 - low `AE`,
 - medium `CD`,
-- `AM.TraceAnchored`,
+- derived from an identified trace, with any evidential use separately qualified,
 - and representation-wise mixed rather than purely symbolic.
 
 A conforming profile makes this decomposition visible rather than hiding it under one stage label such as "early" or "raw".
@@ -52845,11 +53076,11 @@ A conforming profile makes this decomposition visible rather than hiding it unde
 That map does not change this boundary: `C.2.LS` still does not define cue preservation, route-bearing publication, prompt entry, or downstream endpoint use.
 
 ### C.2.LS:5 - Archetypal Grounding
-**Tell.** A team may say a draft is "still forming" for different reasons. `U.LanguageStateFacetProfile` forces the team to say whether the issue is low articulation, low candidate-space closure, an anchoring mismatch, or an unresolved representation-factor bundle.
+**Tell.** A team may say a draft is "still forming" for different reasons. The profile lets the team identify whether the issue is low articulation, low candidate-space closure, an unavailable observation or use condition, or an unresolved representation-factor bundle.
 
-**Show (System).** An operator alert note can have stable alert terms and structure, `AM.OperatorLoop` anchoring and low closure.
+**Show (System).** An operator alert note can have stable alert terms and structure and low closure, while participating in an operator acknowledgement-and-check procedure.
 
-**Show (Episteme).** An inquiry note can be low articulation yet anchored to exemplars and traces.
+**Show (Episteme).** An inquiry note can be low articulation while reporting identified exemplars and observations.
 
 ### C.2.LS:6 - Bias-Annotation
 Making selected facet readings explicit costs more than using one stage adjective. It lets the receiving reader test the actual threshold; retain the ordinary wording or existing reading when that already serves the use.
@@ -52866,7 +53097,7 @@ Making selected facet readings explicit costs more than using one stage adjectiv
 ### C.2.LS:8 - Common Anti-Patterns and How to Avoid Them
 - **Shadow progression.** Treating `early/late` as a master scale. Split the judgement into the named facets.
 - **Formality capture.** Letting `F` stand in for closure or articulation. Publish those facets explicitly.
-- **Bundle inflation.** Turning `U.LanguageStateFacetProfile` into a second `A.19`. Keep it thin and referential.
+- **Bundle inflation.** Turning the profile into a second `A.19`. Keep it thin and referential.
 - **Opaque readiness.** Using words such as `ready` or `mature` without naming which facet justifies the claim.
 - **Route-note capture.** Letting an informative route note act as a move rule, gate state, or endpoint rule. Keep route notes informative. Use `A.16` for admissible moves, the applicable pattern for a downstream definition or test, the applicable gate or Work pattern for those claims, and an `authoritySourceRef` only when an external authority actually supplies the rule.
 
@@ -52888,7 +53119,7 @@ The profile brings together the references needed to interpret facet readings an
 **Local stance.** The useful bounded result is a small explicit facet profile with local thresholds and decomposable readings, not one maturity adjective or one route-coloured bundle label.
 
 ### C.2.LS:12 - Relations
-- Builds on: `A.18`, `A.19`, `C.2.2a`, `C.2.3`.
+- Builds on: `A.18`, `A.19`, `C.2.1`, `C.2.2a`, `C.2.3`, `E.24.PUB`.
 - Coordinates with: `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `A.16.0`, `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `E.18`, `F.9` for any Bridge and bounded-use claim, and `F.9.1` only for an optional stance note about that claim.
 - Constrains: language-state threshold publication and profile composition.
 ### C.2.LS:13 - Worked Examples and Composition Notes
@@ -52915,7 +53146,7 @@ The profile states:
 - its formality assessment covers the displayed alert condition and question: the pressure variables and units are defined, the threshold predicate is explicit, and the question and diagnostic contrasts are expressed in prose;
 - `AE = AE4` for the initial diagnostic question, because its subject, indicated condition, alternatives, contrasting implications, and bounded receiving use give a complete branch-appropriate expression (C.2.4:4.2);
 - `CD = CD1`, because the contrasts weakly stabilize the stated candidate field while all three alternatives remain live and no route is selected (C.2.5:4.2);
-- `LanguageStateAnchoringMode = AM.OperatorLoop`, because the alert is directly connected to the operator's acknowledgement and diagnostic-check selection (C.2.6:4.1);
+- the C.2.6 account states that the console connects the alert to the operator's acknowledgement and diagnostic-check selection; this action condition is separate from the chart readings;
 - `RepresentationFactorBundle = {local, sparse, symbolic}` for the indicator-code component: one unit identifies the report, the active fraction `1/8` satisfies the stated local criterion, and the named units have an explicit decoding rule (C.2.7:4.1). These readings concern the code; assess the surrounding prose separately if its representation factors matter.
 
 **Changed condition.** Suppose an accepted reference-gauge reading for the same sample t21 becomes available: 72 kPa. Under the stated case implications it excludes sensor bias, while low supply and an open bypass remain live. The meaningful reduction from three candidates to two supports `CD2`; it selects neither remaining route. The updated diagnostic question still has its complete expression, and the pressure vocabulary, alarm predicate, indicator code, and operator-loop connection are unchanged. Apply the receiving pattern's own conditions when choosing the next question, check, or endpoint use.
@@ -52923,20 +53154,26 @@ The profile states:
 The alert has a complete question and still-open diagnostic alternatives. Its code factors and operator-loop connection answer different questions; no one facet replaces the others.
 
 #### C.2.LS:13.2 - Research cue before lexical repair
-A felt or trace-anchored mismatch cue in an inquiry note may be:
+An inquiry note reporting a mismatch noticed through bodily observation may state:
 
 - low `AE`,
 - very low `CD`,
-- `AM.EmbodiedFelt`,
+- the observer, bodily observation and reported mismatch, with a trace reference if an instrumental observation also contributes,
 - and representation-wise mixed because the cue is partly verbal, partly kinesthetic, partly exemplar-based.
 
 Use the profile to identify what the next question still needs. `A.16.1` preserves the cue; `A.6.P` can recover an unclear relation, and `B.5.2` starts from an admissible `U.AbductivePrompt`. Apply the receiving pattern's conditions when choosing the move.
 
 #### C.2.LS:13.3 - Architecture-description case
-A viewpoint-bound note about the adequacy of an architecture description may state its constraints through explicit typed predicates, be moderately high in `AE`, still mid-level in `CD`, document-mediated in `AM`, and symbolic in its representation-factor bundle. The profile keeps description-side adequacy distinct from system-side engineering quality.
+A viewpoint-bound note about the adequacy of an architecture description may state its constraints through explicit typed predicates, be moderately high in `AE`, still mid-level in `CD` and symbolic in its representation-factor bundle. Its C.2.6 account identifies the document edition and assertions used for the adequacy judgement. The profile keeps description-side adequacy distinct from system-side engineering quality.
 
 #### C.2.LS:13.4 - Same `F`, different profile
-Two notes may supply the same required expression properties and still differ sharply in articulation, closure, anchoring, and representation factors. One may be operator-loop anchored and low-closure; another may be document-mediated and comparatively closed. The profile bundle keeps that difference visible instead of letting `F` behave like a master factor.
+Two notes may supply the same required expression properties and still differ sharply in articulation, closure, source and use conditions, and representation factors. One may be used in an operator's check procedure with diagnostic alternatives still open; another may assess a document's assertions with comparatively closed alternatives. The profile bundle keeps that difference visible instead of letting `F` behave like a master factor.
+
+#### C.2.LS:13.5 - Reuse the selection while readings or thresholds change
+
+In :13.1, the facet definitions and record form remain available after the reference-gauge reading arrives. The closure assessment changes from `CD1` to `CD2`; retain the assessed alert edition and the new grounds in the updated assessment. This is reuse of the facet selection with changed claim content, not reuse of the earlier closure reading.
+
+Now consider two stipulated receiving rules for that same assessment. A diagnostic-comparison meeting requires an explicit question and contrasting alternatives; it can use the available `AE4` reading. An action-selection rule additionally requires a selected diagnostic route. `CD2` still leaves two alternatives live, so that rule's condition is not met. The same readings support these different conclusions because the receiving conditions differ. If both assessments publish their threshold conditions, their full contents differ; the common readings may be cited once. Neither rule changes what `AE4` or `CD2` means, and each applies only to the stated receiving use.
 
 ### C.2.LS:14 - Authoring and Review Guidance
 
@@ -52965,47 +53202,51 @@ Integrators should preserve the profile references. A local alias is acceptable 
 Contexts may extend the profile with local threshold refs, route notes, or additional descriptive aids, but they shall not add a new master facet that collapses the named facet set into one summary factor.
 
 #### C.2.LS:15.2 - Migration from surrogate prose
-When a stage label carries a claim used in routing, comparison or another decision, recover the readings it abbreviates. Examples include:
+When a stage label carries a claim used in routing, comparison or another decision, recover the readings and conditions it abbreviates. Examples include:
 
 - "the episteme is still early",
 - "the issue is not mature enough",
 - "the note is ready",
 - "the cue is still raw".
 
-For that use, state the facet reading and its grounds, whether any relied-on threshold is met, and the governing rule for the resulting move. An ordinary description with no such operational claim needs no profile expansion.
+For that use, state the relevant readings or relation claims and their grounds, whether any relied-on threshold is met, and the governing rule for the resulting move. An ordinary description with no such operational claim needs no profile expansion.
 
 #### C.2.LS:15.3 - Boundary reminder
 Use the profile to refer to facet readings and applicable thresholds. Definitions and tests for moves, Bridges, Scales and bundles remain with their governing patterns.
+#### C.2.LS:15.4 - Use a facet selection in an assessment
+
+A record containing only references to facet definitions supplies a selection of Characteristics and any separate source or use questions to be answered. To use it for a position assessment, add or cite the required readings and relation claims, identify the episteme edition being assessed and state the assessment scope. Retain the definition references so the meaning of each reading remains recoverable.
+
 ### C.2.LS:16 - Profile Publication Package Discipline
 
 #### C.2.LS:16.1 - Minimal publishable profile package
-A publishable `U.LanguageStateFacetProfile` carries what its receiving use needs:
+A publishable `LanguageStateFacetProfile` carries what its receiving use needs:
 
-- the selected facet refs from :4, with their readings or references to those readings;
+- the selected refs from :4, with the relevant readings or relation claims, stated here or cited;
 - any threshold refs that substantively affect routing, repair, bridge interpretation, or review load;
 - the relation to `F` when readers might otherwise treat `F` as a surrogate;
-- any missing or unknown reading that could change the receiving judgement.
+- any missing or unknown reading or unresolved source or use condition that could change the receiving judgement.
 
-One-line publication is admissible only if the facet definitions and tests remain legible.
+One-line publication is admissible only if the applicable facet definitions and tests, and the grounds of any relation claims, remain recoverable.
 
 #### C.2.LS:16.2 - Partial-profile rule
-A partial profile identifies its selected facets and any missing reading that could change the receiving judgement. Publishing `AE` and `CD` can suffice when anchoring is irrelevant to that use. When anchoring matters, report its value, a supported set of remaining possible modes, or a decision-relevant `unknown` under C.2.2a:4.2; `AM.Mixed` requires the identified components under C.2.6.
+A partial profile identifies its selected facets and any missing reading that could change the receiving judgement. Publishing `AE` and `CD` can suffice when a source or interaction condition is irrelevant to that use. When such a condition matters, state the relation and its grounds or the decision-relevant unknown under C.2.6:4.3. For an independently defined local Characteristic, use C.2.2a:4.2 for its reading and uncertainty.
 
 One facet can be sufficient for the named use. Refer to other readings only when that use needs them; no note about irrelevant omissions is required.
 
 #### C.2.LS:16.3 - Overlay discipline
-Local overlays such as "explicit-but-open", "trace-anchored", or "operator-loop anchored" are admissible only when their meanings are recoverable from the explicit facet readings and refs. Overlays remain secondary to the declared profile and must not replace the facet bundle.
+Local overlays such as "explicit-but-open", "derived from trace T", or "requires operator acknowledgement" are admissible only when their meanings are recoverable from the readings or relation claims stated or cited in the profile. Overlays remain secondary to the declared profile and must not replace the facet bundle.
 
 ### C.2.LS:17 - Cross-Facet Reading Rule
 
 #### C.2.LS:17.1 - No master-facet reading
-Do not infer the whole language-state profile from one facet. High `AE` does not entail high `CD`; `AM.OperatorLoop` does not fix `AE` or `CD`; symbolic representation does not establish the expression properties needed by the receiving use; low `CD` does not imply low operational consequence.
+Do not infer the whole language-state profile from one facet. High `AE` does not entail high `CD`; an operator acknowledgement condition does not fix `AE` or `CD`; symbolic representation does not establish the expression properties needed by the receiving use; low `CD` does not imply low operational consequence.
 
 #### C.2.LS:17.2 - Threshold interaction rule
 When a threshold is expressed over one facet, say whether the other facets are merely informative or also constraining. An applicable local rule may allow entry into `B.5.2.0` once `AE` suffices for an explicit open question while still capping `CD` so rival answers remain live; it may allow entry into `A.6.P` at `AE3+` while still capping `CD` so the move remains exploratory rather than endpoint-binding.
 
 #### C.2.LS:17.3 - Transition reading rule
-Read profile transitions facetwise. A note may become more explicit without becoming more closed. A shift from trace anchoring to document mediation can leave closure unchanged. A representation may become more symbolic without adding the expression properties needed by its receiving use. `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, and `B.5.2.0` should therefore cite the facet transition that actually justifies the move.
+Read changes in the profile's readings and source or use conditions separately. A note may become more explicit without becoming more closed. Replacing direct access to an observation with access to its written report can leave closure unchanged while changing which check the recipient can perform. A representation may become more symbolic without adding the expression properties needed by its receiving use. `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, and `B.5.2.0` should therefore cite the change in a reading or in a source or use condition that justifies the move.
 
 ### C.2.LS:18 - Review Matrix and Migration Tests
 
@@ -53020,14 +53261,14 @@ An assurance reader should ask:
 - if viewpoint conformance is claimed, was it tested under `E.17.0`?
 
 #### C.2.LS:18.2 - Migration test for source prose
-When a receiving use depends on a source phrase such as "still immature" or "already stable enough", recover the claimed facet reading, its grounds, any threshold or route consequence, and the cited rule that warrants that consequence. Add an external `authoritySourceRef` only when an external authority actually supplies the rule.
+When a receiving use depends on a source phrase such as "still immature" or "already stable enough", recover the claimed reading or relation, its grounds, any threshold or route consequence, and the cited rule that warrants that consequence. Add an external `authoritySourceRef` only when an external authority actually supplies the rule.
 
 #### C.2.LS:18.3 - Comparative profile use
 Compare profiles on the named facets. A missing reading leaves that facet's comparison unresolved. A reporting aggregate needs a declared local model and operations admissible for the actual Scales under A.18/A.19; publishing an aggregation rule alone does not establish that basis. The aggregate remains secondary and must not replace the profile in norms, thresholds, or Bridge claims.
 
 ### C.2.LS:End
 
-## C.2.4 - `U.ArticulationExplicitness` — How Explicit Is an Episteme's Meaning for Its Use?
+## C.2.4 - Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?
 
 > **Type:** Definitional (D)
 > **Status:** Stable
@@ -53055,19 +53296,35 @@ When articulation explicitness stays implicit, authors either overstate readines
 | **Branch readiness vs exploratory openness** | Say when a direct semantic branch can receive the episteme without forcing every cue through relation repair. |
 
 ### C.2.4:4 - Solution
-`U.ArticulationExplicitness` is an ordinal characteristic of the degree to which a governed episteme's semantic structure is explicitly articulated for its branch and receiving use. It orders progression from a cue to a complete branch-appropriate expression whose meaning remains stable in a named receiving use. The common direction is independent of the semantic branch.
+Articulation explicitness (`AE`) characterizes how explicitly an episteme's semantic structure is expressed for its semantic branch and receiving use. Its ordinal Scale orders progression from a cue to a complete branch-appropriate expression whose meaning remains stable in that use. The common direction is independent of the semantic branch.
 
-#### C.2.4:4.0a - Kind and characteristic boundary
+#### C.2.4:4.0a - Characteristic, reading and assessment
 
-`U.ArticulationExplicitness` names the Characteristic assessed here. The `AE0`–`AE5` readings belong to its declared ordinal Scale. A language-state chart binds that Characteristic and Scale in a basis slot under A.19; the Characteristic, a value on its Scale and the chart slot remain distinct. Local thresholds, route labels and table columns may reference them without introducing another U-kind.
+Articulation explicitness is the Characteristic; `AE0`–`AE5` name values on its ordinal Scale (:4.2). An `AE` reading attributes a supported value, or a set of remaining possible values, to an identified episteme edition within a stated assessment scope. Identify a selected fragment when only that fragment is assessed. The branch and receiving use determine which semantic structure must be recoverable. For a cue-bearing account, assess the meaning needed for the intended next use; the underlying observation or felt tension is part of its grounds.
+
+A.18 distinguishes the Characteristic from its Scale and values. A chart slot binds that Characteristic and Scale under A.19; an assessment states the reading and its grounds. A note, table or C.2.LS profile can express the assessment. Its form does not determine the reading.
+
+#### C.2.4:4.5 - Choose a sufficient articulation claim
+
+Start with the intended question or action and the meaning it requires. Read the available expression to recover its subject, semantic branch, and the participants, conditions and bounds that matter to that use. State what is already explicit and what is still missing. A direct condition can be sufficient for the next action; in that case, use it without assigning an `AE` level.
+
+Use an `AE` reading when the receiving work needs comparison on this Scale, a position in a declared chart, or a test against a declared `AE` threshold. Match the available content to the anchors in :4.2 and state the grounds for the reading. Reuse an applicable assessment when its edition, scope, branch and receiving conditions still match. If the grounds do not determine the needed value, retain the supported possibilities or a decision-relevant unknown. The applicable rule for the receiving action supplies its condition; an `AE` value supplies only the articulation input that condition uses.
+
+#### C.2.4:4.6 - Develop and revise the content in writing
+
+Writing can help obtain the meaning that will later be assessed. Put the cue or earlier wording beside a proposed statement, question or plan. Try to make the missing participant, distinction or condition explicit, then compare the expressions with the observations and reasons that motivated them. Retain what supports the next use and expose a gap that still prevents it. Use the relevant subject pattern when developing the missing content requires its method.
+
+Assess closure separately under C.2.5 when the use depends on which alternatives remain live or which route is fixed. Making a claim explicit can raise `AE` while leaving its warrant weak; restoring a lost alternative can improve the articulation while reducing closure. Preserve the observations, qualifications and rivals needed to reconsider the conclusion. A.16.0:14 shows this comparison across three written accounts; use a separate history account only when that history changes the next use.
+
+When the content, scope, branch or receiving use changes, reconsider the affected assessment and any decision that relied on it. A changed receiving requirement can make the earlier reading inapplicable even when the assessed episteme is unchanged. C.2.1 governs any claim-content or episteme-identity change; A.16 and A.16.2 govern a selected publication move or retreat.
 
 #### C.2.4:4.1 - Characteristic specification
-- **Kind:** CHR characteristic.
+- **Assessed subject:** the identified episteme edition, with assessment scope and receiving use stated.
 - **Scale discipline:** ordinal.
 - **What rises:** semantic shape becomes more explicit.
 - **What does not follow automatically:** truth, trust, closure, admissibility, or formality.
 
-`AE` is therefore independent from `F`, from `LanguageStateClosureDegree`, and from endpoint authority.
+`AE` is therefore independent from `F`, from closure degree (`CD`, C.2.5), and from endpoint authority.
 
 Use `C.2.8` to compare how much selected structure a reader can correctly extract under stated preparation, access and budget, including when both expressions already meet the same `AE` threshold. Reader recovery supports an `AE` judgment about explicit articulation; it does not turn the `AE0`–`AE5` progression into a scale of extractable structural amount.
 
@@ -53137,11 +53394,19 @@ A template may enforce precise syntax while leaving the meaning needed by the re
 #### C.2.4:13.2 - Plain plan, high articulation
 The note `At 14:00, Maintenance Team 2 will isolate Pump P-17, replace Seal S-4, and restore service only after Leak Test LT-9 passes` uses ordinary language and little formal notation. It can still reach `AE4`: the planned actor, affected entity, ordered actions, time, and completion condition are explicit enough for the planning branch. It routes to `A.15`; the note describes planned actions, while `A.15.1` governs any admitted Work occurrence. The note needs no relation repair merely to count as explicit.
 
+For a planning check whose required content is exactly those items, inspect them directly. Add the `AE4` reading only when a comparison, chart or declared threshold needs that Scale. The plan's explicitness still leaves the planned action and any authorization for it to their own tests.
+
 #### C.2.4:13.3 - Relation-looking but wrongly routed
 A row `Maintenance Team 2 | Pump P-17 | isolate | 14:00` looks slot-shaped. If it records intended action, however, it is a compact plan row rather than proof of a durable relation. Its layout does not raise `AE` until the planning meaning and conditions are recoverable, and it does not select `A.6.P`.
 
 #### C.2.4:13.4 - Threshold edge case
 A cue with a stable trigger and candidate anchors may still sit between `AE2` and `AE3` because its direct branch is unresolved. Keep the cue recoverable in `B.4.1` or `A.16.1` and state what is missing. An applicable first recognition or clarification step can help select the branch; use its required inputs and apply the receiving branch's threshold before claiming that result. There is no universal relation threshold.
+
+#### C.2.4:13.5 - Recovering what a clearer summary lost
+
+In the constructed case in A.16.0:14, an initial note preserves three timeouts just after a restart, a later successful request, and two rival explanations. A summary says that the system is permanently undersized and recommends adding replicas. That diagnosis and action are more explicit, but comparison with the original note reveals the lost observation window, success and rivals.
+
+The revised account returns to the original observations, withdraws the permanent-capacity conclusion and formulates a question about an observation that could distinguish the rivals. Under the case's stated readings, the summary raised `AE` from `AE2` to `AE3` and `CD` from `CD2` to `CD3`; the revision keeps `AE3` while reopening to `CD2`. Comparing the written contents supplies the reason for revision. The levels report different aspects of that change; neither a clearer summary nor its higher closure establishes the capacity claim. The full case distinguishes the supported edition-continuation claim from the rejected one and identifies the permitted next use.
 
 ### C.2.4:14 - Authoring and Review Guidance
 
@@ -53166,7 +53431,7 @@ If `AE` determines whether an episteme stays in `A.16.1`, passes through `B.4.1`
 Contexts may refine the starter anchor set with subanchors, but the refinement must preserve the ordinal direction and the distinction from `F` and `CD`.
 
 #### C.2.4:15.2 - Migration from vague articulation prose
-When routing or use depends on articulation, statements such as "still vague", "more explicit now", or "ready for formalization" should be migrated into explicit `AE` claims plus the corresponding move or routing claim.
+When routing or use depends on words such as "still vague", "more explicit now", or "ready for formalization", recover the meaning already explicit, the missing content and the condition for the next use. Use that direct condition when it is sufficient. Add an `AE` reading only when the receiving work needs its Scale, with the grounds and any declared threshold. A claim about the resulting move or route still follows its own governing pattern.
 
 #### C.2.4:15.3 - Boundary reminder
 `AE` does not govern closure, confidence, or warrant. If authors want those meanings, they must publish them through their own governing patterns.
@@ -53232,7 +53497,7 @@ Rigid templates, capitalized labels, or tidy sentence rhythm can simulate articu
 
 ### C.2.4:End
 
-## C.2.5 - `U.LanguageStateClosureDegree` — How Fixed Is the Current Candidate Space?
+## C.2.5 - Language-State Closure Degree — How Fixed Is the Current Candidate Space?
 
 > **Type:** Definitional (D)
 > **Status:** Stable
@@ -53260,14 +53525,24 @@ Closure is often hidden inside vague words such as "ready", "settled", or "open"
 | **Authority vs explicit retreat** | Let strong closure matter, but keep visible the moves that relax it. |
 
 ### C.2.5:4 - Solution
-`U.LanguageStateClosureDegree` is an ordinal characteristic over how fixed the current candidate set, framing, and admissible next moves are in a published position claim in the declared language-state chart over `U.CharacteristicSpace`.
+Language-state closure degree (`CD`) characterizes how firmly a specified candidate space is fixed in the position expressed by an episteme for a named use. The candidates may be answers, frames or possible next moves. Identify which choice is being assessed and which alternatives remain live. The ordinal Scale in :4.2 describes the progression from open exploration to stronger fixation.
 
-#### C.2.5:4.0a - Kind and characteristic boundary
+#### C.2.5:4.0a - Characteristic, reading and assessment
 
-`U.LanguageStateClosureDegree` names the Characteristic assessed here. The `CD0`–`CD5` readings belong to its ordinal Scale. A language-state chart binds that Characteristic and Scale in a basis slot under A.19; the Characteristic, a value on its Scale and the chart slot remain distinct. Claims about local route commitments, gates, or authority states remain separate from the closure-degree claim. When one matters to the current use, test it against its applicable rule and current case facts.
+Closure degree is the Characteristic; `CD0`–`CD5` name values on its ordinal Scale. A reading attributes a supported value, or a set of remaining possible values, to an identified episteme edition within a stated assessment scope and receiving use. A language-state chart binds the Characteristic and Scale in a slot under A.19. The Characteristic, its Scale values, a reading and the chart slot remain distinct under A.18/A.19.
+
+A closure assessment states the actual fixity and its grounds. Claims about a binding route commitment, gate or authority relation follow their own rules and case facts. A note or C.2.LS profile can express the closure assessment; its reusable form and the filled assessment remain distinct.
+
+#### C.2.5:4.5 - Recover the choice before assigning a level
+
+Name the question or choice whose candidate space matters. Recover the live alternatives, any selected route or frame, and the reason that limits further choice. State the scope of that fixation and what would justify reopening it. The different sources of narrowing in :16.2 determine what must be reconsidered when conditions change.
+
+Use that ordinary account directly when it supplies the receiving decision's condition. Assign a `CD` reading when the work needs comparison on this Scale, a chart position or a test against a declared threshold. Match the actual narrowing and reopening conditions to :4.2; retain an unresolved reading when the available grounds do not establish them. A level does not replace the surviving alternatives or the reason for their treatment.
+
+The Scale's order describes greater fixity, not a universal improvement. Inquiry may need several alternatives kept live; a particular operational use may need one route fixed under a separately justified rule. C.2.4 assesses how explicit this content is. Writing out the alternatives and the decision rule can improve articulation without changing closure. New evidence or a changed use can instead reopen one choice while other commitments remain fixed. Preserve the supported observations and surviving choices, then revise only the conclusions affected by the change, using A.16.2 when a publication move is needed.
 
 #### C.2.5:4.1 - Characteristic specification
-- **Kind:** CHR characteristic.
+- **Assessed subject:** the identified episteme edition, with the candidate space, assessment scope and receiving use stated.
 - **Scale discipline:** ordinal.
 - **What rises:** the candidate space or selected route becomes more fixed for the named use. Any binding force comes from its separately established rule.
 - **What does not follow automatically:** truth, trust, formality, or quality.
@@ -53335,7 +53610,9 @@ The facet aligns with iterative design, open-world reasoning, and exploratory se
 ### C.2.5:13 - Worked Examples and Retreat Cases
 
 #### C.2.5:13.1 - Explicit but still open
-A note may sit at `AE4` yet only `CD1` because rival explanatory frames are still live. Explicit publication does not imply settled closure.
+The constructed `Pump-alert-21` in C.2.LS:13.1 makes its diagnostic question and the contrasting implications of three alternatives explicit. It has `AE4` for that question and `CD1` because all three alternatives remain live. When an accepted reference-gauge reading excludes one alternative, the candidate field narrows to `CD2`; neither remaining route is selected. The question remains fully articulated at `AE4`.
+
+A practitioner choosing the next diagnostic question can use the stated alternatives and observations directly. A chart or comparison that needs both Scales can use the separate readings. The full case supplies the observations and discrimination rule; the two levels alone would not justify excluding a candidate.
 
 #### C.2.5:13.2 - Strong closure under policy guard
 An operator rule may be only moderate in `AE` but high in `CD` because policy already fixes the next step under the current horizon. This shows why closure is governance-facing, not merely stylistic.
@@ -53420,189 +53697,197 @@ An assurance reader should ask:
 When a receiving action relies on "final", "settled", or "decided", check the actual scope and source of fixation and any applicable guard. A final-sounding word alone does not establish those conditions.
 
 #### C.2.5:18.3 - Cross-facet reminder
-Low `CD` does not imply low articulation, low anchoring, or poor representation.
+Assess articulation under C.2.4 and representation under C.2.7 independently of closure. Source, evidence, access and action conditions retain their separate claims under C.2.6.
 
 #### C.2.5:18.4 - Split-closure review case
 A publication may be closed enough for immediate local work use or reliance use while remaining open about broader explanation, long-horizon consequences, or alternative classification. Allow the split when locality is explicit; reject prose that advertises whole-case finality when only one language-state segment is fixed.
 
 ### C.2.5:End
 
-## C.2.6 - `U.LanguageStateAnchoringMode` — How Is the Episteme Anchored?
+## C.2.6 - Sources, Evidence and Conditions for Using an Episteme
 
-> **Type:** Definitional (D)
+> **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Plain-name.** Language-state anchoring mode.
+**Plain-name.** Sources and conditions of episteme use.
 
-**Use this pattern when.** Use C.2.6 when how an episteme is anchored changes its interpretation, comparison or use. The mode can distinguish bodily enactment, traces, model state, document mediation, an operator loop or an explicit mixture. An ordinary description of the anchor is sufficient unless the receiving use needs a declared mode.
+**Use this pattern when.** A claim or cue is being reused, translated or published elsewhere, and the receiving work needs to know what produced it, what supports it, or how someone can use it. An analyst reading an operator's vibration report, for example, may need the operator's observation and its circumstances before treating the report as evidence about a machine.
 
-**What goes wrong if missed.** A prose note hides an embodied, trace-based, model-latent, or operator-loop cue; bridge-loss notes disappear; and the final publication face is mistaken for the original anchoring regime.
+**Sufficient result and non-use.** State the relations and conditions that can change the intended interpretation, check or action. Use an already sufficient description directly. A new account, classification or chart is unnecessary when the receiving work can recover those facts and conditions from the available text.
 
-**What this buys.** A nominal Characteristic for comparing how epistemes are anchored, independently of their publication forms. Evidence and loss accounts can then address the actual anchoring relation.
+**What goes wrong if missed.** A report can preserve a sentence while losing access to the observation, model state or interaction needed to use it. An unspecified claim that it is "anchored" leaves the reader to infer whether this means derivation, evidence or an actual condition of action.
+
+**What this buys.** The recipient can identify which conclusions remain supported, which action conditions still hold and what must be recovered before the intended use can continue.
 
 ### C.2.6:1 - Problem frame
-Published position claims in the declared language-state chart over `U.CharacteristicSpace` differ not only by articulation and closure, but by how the `U.Episteme` named in that claim is anchored to bodies, traces, model states, documents, or operator loops.
+A `U.Episteme` may be produced from observations, refer to a model state, report another document's assertions and participate in an operator's decision. These facts answer different questions about the same episteme. Their importance changes with the receiving use.
 
 ### C.2.6:2 - Problem
-When a comparison or use depends on anchoring, leaving it implicit can hide the difference between a bodily cue, a trace and a description of either. A representation label alone may leave that difference unresolved.
+A common label can conceal the particular relation on which a use depends. Knowing that a reading was computed from a trace establishes its provenance; using that trace as evidence for a claim also requires the relevant observation and target claim to match. Publishing the reading in a document supplies access to its expression. A separate interaction may make the reading available for an operator's next check.
 
 ### C.2.6:3 - Forces
 | Force | Tension |
 |---|---|
-| **Embodiment vs abstraction** | Preserve embodied and operator-facing cases while making their anchoring explicit. |
-| **Small core vs real diversity** | Keep the core compact while allowing multiple admissible anchoring regimes. |
-| **Comparability vs oversimplification** | Compare anchoring regimes while retaining distinctions that a text-vs-nontext split hides. |
+| **Embodiment vs abstraction** | Preserve bodily observations and operator participation while making their contribution explicit. |
+| **Compact description vs relevant detail** | Keep only the relations needed by the receiving use, with enough detail to establish them. |
+| **Comparability vs oversimplification** | Compare a shared aspect without treating different relations as values of one unspecified Scale. |
 
 ### C.2.6:4 - Solution
-`U.LanguageStateAnchoringMode` is a nominal characteristic that states the primary anchoring regime of the `U.Episteme` named by the current position claim: bodily enactment, trace, model state, document, operator loop, or an explicit mixed regime. When a receiving episteme has a different anchoring regime from its source, distinguish both. A change of publication form alone does not establish that difference.
+Recover the claims about sources, evidence, access and action conditions that the receiving work actually needs. State each with its participants and grounds. Then determine what publication, translation or a changed use preserves, changes or leaves unknown. The result is an ordinary account of those facts and conditions; C.2.1 governs the account and E.24.PUB governs its publication.
 
-#### C.2.6:4.0a - Kind and characteristic boundary
+#### C.2.6:4.0a - Relations, readings and a shared account
 
-`U.LanguageStateAnchoringMode` is the Characteristic of an episteme assessed in the declared language-state chart. Its readings belong to a nominal Scale; the chart slot binds that Characteristic to its Scale under A.18/A.19. The mode identifies how the episteme is anchored. Any evidence, currentness or action claim still needs the relation and conditions that establish it.
+A source relation, an evidence-use claim and an operator's use of an alert can hold together. Each keeps its own predicate and grounds. For empirical grounding, apply C.2.1:4.3 to the designated claim coverage and observation or test; apply A.2.4 to the relation between the evidence episteme and its target claim, and A.10 when provenance or bounded reliance must be established. Use C.2.P to distinguish the epistemic objects. When basedness is hidden by an umbrella word, apply A.6.6:4.0; A.6.P supplies the wider route to an unclear direct relation. Return their exact assertion or unresolved condition to the receiving use. An ordinary adequate statement can supply this account without a new formal record.
 
-#### C.2.6:4.1 - Starter family
-| Mode | Reading | Possible witness of anchoring |
+An account collecting several such statements is not one Coordinate. A language-state profile may cite it beside its Characteristic readings. A local summary can occupy a chart slot only when its single measured aspect, subject/input signature and Scale are defined under A.18/A.19, as :15.1 explains. The account's component relations remain recoverable.
+
+#### C.2.6:4.1 - Distinctions that can change use
+The following are recurring examples of questions to resolve, not a closed taxonomy or alternatives on one Scale. Select a question because its answer can change the intended use.
+
+| Working question | Claim to recover | Possible basis |
 |---|---|---|
-| `AM.EmbodiedFelt` | bodily or kinesthetic anchoring matters directly | embodiment note, felt trace, human witness |
-| `AM.TraceAnchored` | traces or observations anchor the episteme | trace references, measured events, observations |
-| `AM.ModelLatent` | latent or internal model state is the key anchor | model-state refs, probe results, latent summaries |
-| `AM.DocumentMediated` | document or description is the principal anchor | documents, cards, method-description text |
-| `AM.OperatorLoop` | the episteme is directly tied to operator intervention or console control | operator witness, console event, policy hook |
-| `AM.Mixed` | more than one anchoring mode matters substantively | explicit component list and why the mix matters |
+| What did someone experience or do? | The person's bodily sensation, observation or enactment, and what the resulting cue reports. | Witness account, observation circumstances or an observed performance. |
+| Where did this reading come from? | The source trace and the operation that produced the reading. If evidence is needed, separately establish what observation supports which target claim. | Trace references, measured events and the calculation or other derivation; evidence qualification for the target claim. |
+| What does this model-derived account report? | The identified model state, probe or decoding operation and its output; the grounds for the interpretation made from that output. | Model-state references, probe conditions and results, and interpretation evidence. |
+| What can the recipient recover from the document? | The particular assertions available to that recipient, and any source or evidence claim on which their use depends. | The identified document edition, accessible content and relevant cited sources. |
+| How is the information used in an operator's work? | Who acknowledges, interprets or acts on it, and which actual interaction or rule connects that act to a check or control action. | Operator observation, console event or an applicable action rule, with the implementation or performance needed for the claimed connection. |
+
+##### C.2.6:4.1.1 - Recover the relations needed for one receiving use
+
+1. Identify the episteme edition, the claim or cue being used and the receiving judgement or action. Keep a source episteme and an analyst's resulting account distinct under C.2.P when their contents or concerns differ.
+2. Ask which facts the receiving work needs: for example, the source of a reading when diagnosing a calculation, the relevant observation when checking a pressure claim, or an acknowledgement condition when arranging an operator's next check. Obtain only the relations that can change that work. The table in :4.1 helps locate common questions; the subject of the work determines the answer and can require another relation.
+3. State each needed relation with its actual participants, applicable scope and grounds. When a trace is used as evidence, establish its relation to the target claim as well as its provenance. When an action is claimed, establish the actual interaction or governing condition and the relevant performer. Preserve a consequential unknown instead of filling it from a neighbouring fact.
+4. Compare the source situation with the receiving situation. Identify what remains accessible and applicable, what changed and what those changes permit or prevent. Retain supported claims and return to a missing observation, interpretation or action condition where the proposed use depends on it.
+
+For example, an alert can be computed from a measurement, delivered in a report and acknowledged by an operator. Replacing the report file while preserving the accessible assertions can leave the derivation and evidence unchanged. Discovering that the measurement concerned another pump changes its evidential use for the pressure claim. Disabling an acknowledgement channel changes the interaction available to the operator. These changes call for different continuations, so the account must keep their predicates distinct.
 
 #### C.2.6:4.2 - Contribution boundary
 
-The mode characterizes anchoring of the episteme named in the position claim. Representation factors describe how information is represented; closure describes fixity. Neither follows from an anchoring mode. Apply the rule for any further claim, such as an evidence relation or permission to act.
+This pattern organizes the source and use questions; their direct patterns establish the individual claims. Representation factors describe how information is represented; closure describes fixity of the current candidate space. Assess those Characteristics under their own definitions. A required bodily observation or operator participation is stated here or in the cited account, with its actual contribution to the receiving work.
 
-If embodiment matters, it shall be declared here or immediately beside this characteristic rather than being hidden inside representation talk.
-
-#### C.2.6:4.3 - Mixed-mode rule
-`AM.Mixed` is admissible only when the component modes are named explicitly. "Mixed" shall not stand in for an undetermined anchoring mode.
+#### C.2.6:4.3 - Several relations and incomplete information
+When several relations matter together, name each and explain its contribution. Distinguish their established conjunction from alternatives left unresolved by the available evidence. For example, "the source was either a sensor reading or a simulation" leaves provenance uncertain; it does not establish that both sources contributed. A generic "mixed" label supplies neither the missing facts nor their conjunction.
 
 #### C.2.6:4.4 - Bridge implications
-An anchoring shift can matter when a receiving use needs a semantic relation between local senses from different semantic contexts. A receiving episteme anchored in a document may depend on a source anchored in bodily experience or model state. That difference may affect the evidence or loss account for the semantic correspondence. Use F.9 to state and test the Bridge and the separate bounded-use claim, with its evidence and loss account. Use F.9.1 only for a separate optional stance note about that claim.
+A receiving use may need a semantic relation between local senses from different semantic contexts. The recipient's access to a report can differ from the source practitioner's bodily observation or access to model state. That difference may affect the evidence or loss account for the proposed semantic correspondence. Use F.9 to state and test the Bridge and the separate bounded-use claim, with its evidence and loss account. Use F.9.1 only for a separate optional stance note about that claim.
 
 ### C.2.6:5 - Archetypal Grounding
-**Tell.** A felt cue, a controller-side probe score, and a textual design note may all be early cues, but they are anchored differently.
+**Tell.** A felt cue, a controller-side probe score and a textual design note can all help begin an inquiry. Recover the observation, computation or reported assertions that the intended inquiry needs.
 
-**Show (System).** An alert episteme directly tied to operator intervention or console control has mode `AM.OperatorLoop`, even when displayed as text.
+**Show (System).** A console alert is used in an acknowledgement-and-check procedure. Its use account identifies the operator's acknowledgement and how the next diagnostic check is selected. A text display can carry the alert while these action conditions remain essential.
 
-**Show (Episteme).** An episteme published from a model-probe cue grounded in latent state has mode `AM.ModelLatent` even when rendered into prose.
+**Show (Episteme).** A model probe produces a score from an identified internal state. A later prose account reports that result. Recovering the state and probe establishes the derivation; the account's interpretation needs its own stated grounds.
 
 ### C.2.6:6 - Bias-Annotation
-The pattern prompts authors to declare anchoring when wording such as "the system wants" or "the note suggests" leaves the anchor unclear.
+The questions favour explicit source and use claims when they affect a decision. Statements about bodily experience need an obtainable witness or other appropriate basis for the claim being made; describing that experience does not require reducing it to a document property.
 
 ### C.2.6:7 - Conformance Checklist
-- `CC-C.2.6-1` Anchoring mode **SHALL NOT** be inferred from publication phrasing alone when it matters for source use, reliance, or bridge interpretation.
-- `CC-C.2.6-2` Embodiment-sensitive or operator-loop cases **SHOULD** declare the embodiment or operator anchor explicitly.
-- `CC-C.2.6-3` `U.LanguageStateAnchoringMode` **MUST NOT** be collapsed into `U.LanguageStateRepresentationFactorBundle`.
-- `CC-C.2.6-4` Mixed-mode declarations **SHALL** list their component modes explicitly.
+- `CC-C.2.6-1` Source, evidence or action relations **SHALL NOT** be inferred from publication phrasing alone when they matter for source use, reliance or Bridge interpretation.
+- `CC-C.2.6-2` Embodiment-sensitive or operator-loop cases **SHOULD** declare the relevant observation, enactment or operator interaction explicitly.
+- `CC-C.2.6-3` Source and use claims **MUST NOT** be collapsed into the representation-factor readings governed by C.2.7.
+- `CC-C.2.6-4` A declaration that several relations jointly matter **SHALL** identify those relations and their contribution explicitly.
 
 ### C.2.6:8 - Common Anti-Patterns and How to Avoid Them
-- **Text-only illusion.** Treating every cue as document-mediated because it has been written down.
-- **Representation capture.** Using symbolic/distributed labels to hide world-anchoring distinctions.
-- **Embodiment mystification.** Treating bodily or operator-loop cues as beyond explicit publication.
+- **Text-only illusion.** Treating a written report as a sufficient account of the observation or interaction that its use needs. Recover the relevant claim and its basis.
+- **Representation capture.** Using symbolic/distributed labels to conceal a source or use condition. State that condition separately.
+- **Embodiment mystification.** Treating bodily or operator-loop cues as beyond explicit publication. Publish the relevant observation or action account and the limits of its recovery.
+- **Common-word classification.** Grouping provenance, evidence and interaction as alternative values because each has been called "anchoring". Establish the actual predicate before choosing a Scale.
 
 ### C.2.6:9 - Consequences
-The mode makes differences in anchoring available to comparison and use. Establishing a mode requires enough information about its anchor; a shift involved in a semantic Bridge also needs the applicable loss account.
+The recipient can inspect the facts that make the proposed use possible and return to the particular missing basis. This requires enough source and interaction detail for that use. An account can cite existing adequate descriptions; repeating them or filling every row of :4.1 adds no necessary assurance.
 
 ### C.2.6:10 - Rationale
-The declared language-state chart over `U.CharacteristicSpace` needs one explicit anchoring basis slot so that `A.16.0`, `A.16.1`, `B.4.1`, and `F.9.1` can refer to anchoring regime without redefining it.
+`A.16.0`, `A.16.1`, `B.4.1` and an applicable F.9 use need to preserve different facts when a cue is expressed or used elsewhere. An observation may remain the source after it is reported in text, while the recipient has access only to that report. An operator's interaction can change independently of either. Direct statements preserve these distinctions and explain which continuation changes. A common nominal summary is useful only when a specified comparison really consumes it and its criterion consistently measures one aspect (:15.1).
 
 ### C.2.6:11 - SoTA-Echoing
-The facet is motivated by embodied cognition, operator-facing interaction practice, active inference, and modern model-probing practice, all of which distinguish cue content from anchoring regime.
+The following sources contribute particular distinctions and alternatives for the use questions in :4.1.1. They do not establish one universal classification of the listed relations.
+
+| Source and status | Contribution and boundary |
+|---|---|
+| [Hutchins, *How a Cockpit Remembers Its Speeds* (1995)](https://pages.ucsd.edu/~c8johnson/COGS102B/Hutchins95.pdf), historical account, pp.13–16 | Coordinated instrument settings, spoken reports and pilot actions show why the actual working connections matter. This supports recovery of operator interaction and its conditions. |
+| [W3C PROV-DM (2013)](https://www.w3.org/TR/prov-dm/#term-Derivation), §§2.2.1.2 and 5.2.1, stable provenance comparator | Derivation exposes the entities, activity, usage and generation involved. Such explicit relations preserve the dependency needed to inspect where a result came from. |
+| [Fraser-Taliente et al., *Natural Language Autoencoders* (2026)](https://transformer-circuits.pub/2026/nla/index.html), Method and Discussion | Activation verbalization distinguishes model-state input from its textual explanation. Reported confabulations require a separate basis for the explanation's claims; identification of the input establishes the source connection only. |
+| [Denamganaï (October 2026)](https://arxiv.org/html/2610.18727v1), §§6.2–7, exploratory preprint | In limited transcript-level tests, activation identification and true-account discrimination differ. This reinforces the boundary between recovering a source connection and warranting an interpretation; processing-level claims remain untested. |
 
 ### C.2.6:12 - Relations
-- Builds on: `A.18`, `A.19`, `C.2.P`, `C.2.2a`, `C.2.LS`.
-- Coordinates with: `A.7`, `A.16.0`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, `C.2.7`, `F.9` for any Bridge and bounded-use claim, and `F.9.1` only for an optional stance note about that claim.
-- Constrains: cue publication and bridge loss notes.
+- Builds on: `C.2.1`, `C.2.P`, `A.2.4` and `A.10` for the relevant direct claims; `A.6.6` and `A.6.P` when the relation needs recovery; `A.18/A.19` for an independently defined local Characteristic.
+- Coordinates with: `A.7`, `A.16.0`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, `C.2.2a`, `C.2.LS`, `C.2.7`, `F.9` for any Bridge and bounded-use claim, and `F.9.1` only for an optional stance note about that claim.
+- Constrains: source and use accounts in cue publication and Bridge loss notes.
 ### C.2.6:13 - Worked Examples and Bridge-Loss Cases
 
-#### C.2.6:13.1 - Embodied-to-document shift
-An operator first notices vibration through bodily sensation. That cue has `AM.EmbodiedFelt` anchoring even after it is described in prose. A later analyst who has only the written account may form a receiving episteme anchored in that document, with mode `AM.DocumentMediated`. Distinguish the source cue from the analyst's episteme and assess any loss that matters to the intended comparison or use. Apply F.9 when the use claims a semantic correspondence between local senses from different semantic contexts.
+#### C.2.6:13.1 - Bodily observation and its written report
+An operator first notices vibration through bodily sensation. A prose report describes that observation. A later analyst who has only the report can recover its assertions but cannot repeat the operator's sensation from the text. Distinguish the source cue from the analyst's episteme; identify which observation circumstances the intended comparison or check needs and whether the report preserves them. Apply F.9 when the use claims a semantic correspondence between local senses from different semantic contexts.
 
-#### C.2.6:13.2 - Model-latent to operator-loop case
-An episteme recording a latent probe score is anchored in model state (`AM.ModelLatent`). A receiving alert episteme can have `AM.OperatorLoop` anchoring when it is directly tied to operator intervention or console control. Keep the model-side source and the operator-loop anchor visible. Merely displaying the score on a console does not establish the operator-loop relation.
+#### C.2.6:13.2 - Model-derived score used by an operator
+An episteme records a probe score obtained from a model state. A receiving alert reports that score in a procedure that requires operator acknowledgement before selection of the next diagnostic check. Keep both the source/probe derivation and the acknowledgement condition visible. A console display establishes the latter connection only when the required interaction is actually provided; the displayed score alone does not show that.
 
-#### C.2.6:13.3 - Mixed-mode publication
-An alert note may admissibly be `AM.Mixed` when it combines operator-loop anchoring, trace anchoring, and document mediation. The declaration must name each component mode explicitly.
+#### C.2.6:13.3 - Provenance, evidence and interaction in one alert
+An alert E asserts that Pump P's pressure is below 90 kPa. The software produced E from trace T. An operator has acknowledged E and selected a diagnostic check under the stated procedure. Inspection then shows that T was a measurement of Pump Q.
+
+The derivation from T remains established. T supplies no measurement of P for the claimed pressure: return to an appropriate observation of P before using that measurement as support for this claim. The acknowledgement and selected check remain facts about the operator's work. Whether to continue, suspend or change that check follows its actual rule and purpose; neither derivation nor acknowledgement settles the truth of the pressure claim. A report can publish all these statements together with their different grounds.
 
 ### C.2.6:14 - Authoring and Review Guidance
 
 #### C.2.6:14.1 - Author prompt
-When declaring anchoring mode, ask:
-
-- what is the primary anchor kind?
-- does bodily or operator participation matter directly?
-- is the key anchor trace-based, model-internal, or document-based?
-- if multiple modes matter, which ones and why?
+Start from the receiving judgement or action. Identify the particular claim, source or observation it needs and the conditions of access or interaction that can change its use. State several relations separately when each contributes; leave a consequential missing fact unresolved.
 
 #### C.2.6:14.2 - Review prompt
-Check whether a mode attributed to a prose publication describes its actual anchor or merely its format.
+Check that each relation attributed to a published account has the needed participants and grounds. Then change one condition in the case and determine which claim or continuation changes. If the wording cannot distinguish the changed relation from the retained ones, recover the objects through C.2.P and the relation through A.6.6 or A.6.P as applicable.
 
 #### C.2.6:14.3 - Bridge note
-If anchoring changes across publication or translation and the receiving use needs a semantic relation between local senses from different contexts, use F.9 for the Bridge, bounded-use claim, and its evidence and loss account. Use F.9.1 only when a separate stance note about that claim helps replace silent equivalence language with a bounded reading.
+If a changed source, access or interaction raises a semantic-correspondence question between local senses from different contexts, use F.9 for the Bridge, bounded-use claim and its evidence and loss account. Use F.9.1 only when a separate stance note helps explain that claim.
 
-### C.2.6:15 - Extension and Migration Notes
+### C.2.6:15 - Local Summaries and Precision Restoration
 
-#### C.2.6:15.1 - Local extension rule
-Contexts may add local anchoring modes, but they should do so by extension of the starter family rather than by collapsing the family into a text-vs-world binary.
+#### C.2.6:15.1 - Local summary rule
+A repeated comparison may benefit from a nominal Characteristic summarizing one aspect of the recovered facts. Define that aspect and its subject/input signature, the Scale, the rule mapping the relevant facts to a value, and the receiving comparison that uses it under A.18/A.19. Account for jointly satisfied conditions and keep incomplete information separate from a value. A new relation is not automatically a new value of an existing Scale.
 
-#### C.2.6:15.2 - Migration from metaphorical prose
-When wording such as "the system wants", "the note suggests", or "the operator-facing publication says" leaves anchoring unclear, it should be repaired by naming the anchoring mode and any detector, enactor, or witness needed to explain it.
+For example, a team comparing access to a designated primary check can define one nominal Characteristic for the tuple (claim, designated check, recipient, time): the recipient can perform that check at that time, or cannot. Establish the capability and access required by the check before assigning either value; otherwise leave the reading unknown. The value helps choose between performing the check and arranging the missing access. This local comparison concerns availability of that check; it does not classify the claim's provenance or evidence quality.
+
+Declare such a Characteristic as its own chart slot. A changed aspect or Scale changes the chart meaning under A.19:5.1.2; preserve or establish an explicit mapping when an old position must be compared with it. C.3.2 governs any separate classification using these readings.
+
+#### C.2.6:15.2 - Recover a relation hidden by metaphor
+When wording such as "the system wants" or "the note suggests" leaves the intended action or claim unclear, identify what the system does, what the note asserts, or who makes the interpretation. Recover the relevant detector, performer or witness through the direct subject pattern. An ordinary understood metaphor needs no expanded record.
 
 #### C.2.6:15.3 - Boundary reminder
-`U.LanguageStateAnchoringMode` does not decide representation, articulation, closure, or trust by itself. It only names how the episteme is anchored.
-### C.2.6:16 - Anchoring Publication Package Discipline
+Source and use relations answer their stated questions. Representation, articulation, closure and trust retain their own definitions and tests.
+### C.2.6:16 - Publishing the Required Account
 
-#### C.2.6:16.1 - Minimal anchoring package
-A publishable `U.LanguageStateAnchoringMode` claim should normally identify:
+#### C.2.6:16.1 - Minimal account
+Identify the episteme and the receiving use, then state or cite only the source, evidence, access or action conditions that use needs. Make their participants, grounds and any consequential uncertainty recoverable. Include a source transformation when it changes the claim or its use. For one unchanged relation, its adequate existing description can suffice.
 
-- the primary anchor kind;
-- any directly relevant embodiment, operator, trace, model, or document witness;
-- the source and transformations that affect the current anchoring claim;
-- any secondary modes that remain load-bearing.
+#### C.2.6:16.2 - Source-versus-form rule
+Distinguish the source episteme, any receiving episteme and their publication forms under C.2.P. State provenance, evidence and use claims about the actual participants. A prose form alone establishes neither a document as the original source nor a change in the observation or interaction being reported.
 
-For a single unchanged anchor, its identification and any witness needed by the use can suffice.
+#### C.2.6:16.3 - Joint-use account
+When several relations jointly enable the use, identify their separate contributions and which facts establish each. Retain the known relations while recovering a missing one; uncertainty about one does not erase the others or establish a mixture.
 
-#### C.2.6:16.2 - Source-versus-face rule
-Distinguish the source episteme, any receiving episteme and their publication forms under C.2.P. Assign anchoring modes to the epistemes. A prose form by itself establishes neither `AM.DocumentMediated` nor a shift from the source mode.
+### C.2.6:17 - Changed Sources, Access and Use
 
-#### C.2.6:16.3 - Mixed-mode decomposition rule
-`AM.Mixed` is admissible only when its component modes are named and the reason for the mixture is operationally real. The component modes must be determined before the mixed-mode declaration is used.
-
-### C.2.6:17 - Anchoring Shift and Transport Discipline
-
-#### C.2.6:17.1 - Shift declaration rule
-When the anchor changes, state the consequences for the intended comparison or use. In a report derived from an operator-loop cue, timing or bodily load may be omitted; identify the actual omission and its effect. If only the publication form changes, do not infer an anchoring shift or loss from that change alone.
+#### C.2.6:17.1 - State the change and its consequence
+When a source, access condition or interaction changes, state the consequences for the intended comparison or action. A report derived from an operator's cue may omit timing or bodily load; identify the actual omission and its effect. A change of publication form alone does not establish such an omission.
 
 #### C.2.6:17.2 - Bridge-loss rule
-If an anchoring shift raises a semantic-correspondence question between local senses from different contexts, use F.9 to state and test the Bridge and its bounded-use claim, with the loss account; add an F.9.1 stance note only when it helps explain that claim. `C.2.6` only requires the shift to be noticed and not misrepresented as lossless.
+If that change raises a semantic-correspondence question between local senses from different contexts, use F.9 to state and test the Bridge and its bounded-use claim, with the loss account; add an F.9.1 stance note only when it helps explain that claim. C.2.6 requires the relevant change to be noticed and represented accurately.
 
-#### C.2.6:17.3 - Same-content illusion test
-Two cues may be paraphrased into the same sentence while remaining differently anchored. If the anchoring regime differs, the cues are not automatically substitutable.
+#### C.2.6:17.3 - Same-content substitution test
+Two cues may be paraphrased into the same sentence while being produced by different observations or available under different conditions. Establish the relations required by the receiving use before substituting one for the other.
 
-### C.2.6:18 - Review Matrix and Extension Tests
+### C.2.6:18 - Review and Extension Tests
 
 #### C.2.6:18.1 - Review matrix
-An assurance reader should ask:
-
-- what the original anchoring regime was;
-- how the current episteme is anchored;
-- which source transformations affect that anchoring;
-- whether a semantic-correspondence claim needs an F.9 loss account and whether an optional stance note adds a useful qualification;
-- whether a declared mixed mode names its actual components.
+For the stated use, check the original source and relevant transformations, what the recipient can recover or do now, and the grounds for the resulting claims. Include the separate F.9 question when a semantic correspondence is claimed. A joint-use account identifies each relation that matters.
 
 #### C.2.6:18.2 - Local extension test
-A new local anchoring mode is justified only when it answers a distinct anchoring question that the starter family cannot express without distortion.
+Add another direct relation when the receiving work needs it. Introduce a nominal summary only when :15.1's aspect, mapping and comparison are actually supplied; a common word for several dependencies is insufficient.
 
 #### C.2.6:18.3 - Cross-facet reminder
-Anchoring mode often correlates with representation and articulation changes, but it does not define or test them. Reject prose that uses `AM.ModelLatent`, `AM.EmbodiedFelt`, or `AM.OperatorLoop` as shorthand for being vague, early, trustworthy, or closed.
+A changed source or interaction can accompany a change in representation or articulation. Test those changes separately. A model-derived score, a bodily observation or an operator's acknowledgement supplies no reading of vagueness, closure or trust without the corresponding criterion and grounds.
 
 ### C.2.6:End
 
-## C.2.7 - `U.LanguageStateRepresentationFactorBundle` — How Is the Representation Organized?
+## C.2.7 - `LanguageStateRepresentationFactorBundle` — How Is the Representation Organized?
 
 > **Type:** Definitional (D)
 > **Status:** Stable
@@ -53612,9 +53897,9 @@ Anchoring mode often correlates with representation and articulation changes, bu
 
 **Use this pattern when.** Use C.2.7 when a comparison or use depends on how an episteme is represented: the distribution of its code, its sparsity or its symbolic structure. Identify the representation and the units being assessed. An ordinary description can suffice when the receiving use needs no factor-bundle claim.
 
-**What goes wrong if missed.** One representation label such as `symbolic`, `distributed`, or `encoding basis` starts doing too much work: it hides articulation, closure, anchoring, bridge loss, or comparison assumptions.
+**What goes wrong if missed.** One representation label such as `symbolic`, `distributed`, or `encoding basis` starts doing too much work: it hides articulation, closure, source or use conditions, Bridge loss, or comparison assumptions.
 
-**What this buys.** A comparison of representation factors on explicit bases, without deriving articulation, closure or anchoring from a single label.
+**What this buys.** A comparison of representation factors on explicit bases, while keeping articulation, closure and source or use claims independently grounded.
 
 ### C.2.7:1 - Problem frame
 Published position claims in the declared language-state chart over `U.CharacteristicSpace` must keep representation factors such as locality, sparsity, and symbolicity distinct.
@@ -53627,20 +53912,20 @@ Using `EncodingBasis` without its underlying factors collapses several independe
 |---|---|
 | **Comparability vs reductionism** | Allow comparison while preserving the distinctions among factors. |
 | **Compact core vs extensibility** | Keep a minimal starter bundle while leaving room for domain-specific refinements. |
-| **Representation vs anchoring** | Describe how the current episteme is represented without hiding what it is anchored to. |
+| **Representation vs source and use** | Describe how information is represented while retaining the distinct claims about its source and use conditions. |
 
 ### C.2.7:4 - Solution
-`U.LanguageStateRepresentationFactorBundle` is a factor bundle, not one scalar characteristic. The minimal core starter set is:
+`LanguageStateRepresentationFactorBundle` is a factor bundle, not one scalar characteristic. The core starter set for the comparison questions below is:
 
-- `U.LocalityDistribution`
-- `U.Sparsity`
-- `U.Symbolicity`
+- `LocalityDistribution`
+- `Sparsity`
+- `Symbolicity`
 
 A local alias such as `EncodingBasis` shall identify the factors and readings it summarizes.
 
-#### C.2.7:4.0a - Kind and factor-bundle boundary
+#### C.2.7:4.0a - Factors and their readings
 
-`U.LanguageStateRepresentationFactorBundle` groups readings of distinct representation Characteristics. Each factor needs its own meaning and Scale, and the declared chart binds these under A.18/A.19. The bundle describes the representation identified in the position claim; a factor reading is distinct from that representation or its publication form.
+`LanguageStateRepresentationFactorBundle` groups readings of distinct representation Characteristics. Each factor needs its own meaning and Scale, and the declared chart binds these under A.18/A.19. The bundle describes the representation identified in the position claim; a factor reading is distinct from that representation or its publication form.
 
 #### C.2.7:4.1 - Minimal factor readings
 | Factor | Question it answers | Typical values |
@@ -53657,15 +53942,23 @@ In the second scheme, `[0,1,0,0,0,0,1,0]` and the list of active positions `{2,7
 
 When the list travels separately, supply the unit order and decoding rule needed for its next use, directly or through an accessible return to the exact source content. Counting written marks instead of active units requires a different comparison basis.
 
+##### C.2.7:4.1.1 - Why begin with these factors?
+
+The starter set separates three questions that often change how a representation can be read or transferred. **LocalityDistribution** concerns whether one selected unit distinguishes a represented value or whether a combination is needed. **Sparsity** concerns how much of the declared unit set is active or used; its reading depends on what is counted and on the local comparison criterion. **Symbolicity** concerns the explicit tokens and structures available to the receiving interpretation, including the applicable decoding or composition rules. These questions can matter separately: locating a report, estimating the units used to express it and recovering its interpretation require different information.
+
+The pair code in :4.1 explains why a count of active units cannot settle locality and why a compact inscription needs its decoder. The starter bundle keeps these distinctions available without requiring a complete model of the representation. Select only the factors that affect the receiving question, as :16.1 permits. Preserve the representation and unit basis for each reading; factors of a source model and factors of its explanation concern different representations.
+
+An assessment aimed at reconstruction error, robustness or the effect of a causal intervention may need other Characteristics directly. Use those Characteristics when they answer the question; retain a starter factor only when its reading contributes. The gain from the shared triple is a reusable starting vocabulary for code organization, use of units and explicit symbolic structure. It is not an exhaustive representation-quality model, and it supplies no universal thresholds or empirical claim that the factors are statistically independent. Add a needed factor under :4.3 while keeping the meanings of the factors already used.
+
 #### C.2.7:4.2 - Non-collapse rules
 
-Representation organization, anchoring, articulation and closure answer different questions. A distributed code can be trace-anchored; a symbolic note can leave its meaning unclear; a sparse representation can express a claim that remains open. Assess each relevant facet on its own grounds. The representation factors alone establish neither evidence for the claim nor permission to act on it.
+Representation organization, articulation and closure are assessed under their own Characteristics; source and use claims retain their direct predicates. A distributed code can be computed from an identified trace; a symbolic note can leave its meaning unclear; a sparse representation can express a claim that remains open. Assess each relevant facet on its own grounds. The representation factors alone establish neither evidence for the claim nor permission to act on it.
 
 #### C.2.7:4.3 - Extension rule
 Authors may add extra local representation factors only if the extension is published as a factor addition rather than as a new master factor that erases the core factor bundle.
 
 ### C.2.7:5 - Archetypal Grounding
-**Tell.** A model-state cue can be highly distributed but still trace-anchored; a symbolic note can be low articulation if its semantics are still vague.
+**Tell.** A model-state cue can use a highly distributed representation and be obtained from an identified recorded state; a symbolic note can be low articulation if its semantics are still vague.
 
 **Show (System).** An operator decision aid may mix sparse alert codes and symbolic method-description text.
 
@@ -53677,7 +53970,7 @@ The pattern resists folk theories that try to line up one representation factor 
 ### C.2.7:7 - Conformance Checklist
 - `CC-C.2.7-1` `LanguageStateRepresentationFactorBundle` **SHALL** be published as a factor bundle, not as a hidden scalar.
 - `CC-C.2.7-2` Local aliases such as `EncodingBasis` **MAY** exist only with an explicit docking to the governed factors.
-- `CC-C.2.7-3` Representation factors **MUST NOT** silently replace `LanguageStateAnchoringMode` or `LanguageStateClosureDegree`.
+- `CC-C.2.7-3` Representation factors **MUST NOT** silently replace the source and use claims recovered through C.2.6 or `LanguageStateClosureDegree`.
 - `CC-C.2.7-4` New local factors **SHALL** preserve the factor-bundle discipline.
 
 ### C.2.7:8 - Common Anti-Patterns and How to Avoid Them
@@ -53689,10 +53982,15 @@ The pattern resists folk theories that try to line up one representation factor 
 The benefit is cleaner comparison across schools, substrates, and publication forms. The trade-off is the effort needed to make the relevant factor readings explicit.
 
 ### C.2.7:10 - Rationale
-Separate representation factors let the reader compare code organization while assessing articulation, closure and anchoring on their own grounds.
+Separate representation factors let the reader compare code organization while assessing articulation and closure and establishing the required source or use claims on their own grounds. The starter triple earns its place through the three receiving questions in :4.1.1. A direct selection of other representation Characteristics is preferable when it answers the actual task with less irrelevant assessment.
 
 ### C.2.7:11 - SoTA-Echoing
-This factorization fits current work on sparse distributed representations, hybrid symbolic/neuro-symbolic representation practices, and interpretability practice.
+The triple is an FPF starting choice for :4.1.1, with bounded external comparisons:
+
+| Source and status | Contribution and boundary |
+|---|---|
+| [Elhage et al., *Toy Models of Superposition* (2022)](https://transformer-circuits.pub/2022/toy_model/toy_model.pdf), pp.1–5, historical research basis | Feature directions can differ from neuron basis directions. This supports identifying the units and basis before interpreting locality or sparsity; the toy models do not establish the FPF triple for all representations. |
+| [Fraser-Taliente et al., *Natural Language Autoencoders* (2026)](https://transformer-circuits.pub/2026/nla/index.html), Method and Discussion | The method maps activations to text and reconstructs activations from that text. Reconstruction and the interpretation of the explanation require their own assessment. This is a current case for selecting task-specific Characteristics alongside, or instead of, starter factors. |
 
 ### C.2.7:12 - Relations
 - Builds on: `A.18`, `A.19`, `C.2.2a`, `C.2.LS`.
@@ -53723,7 +54021,7 @@ To publish a representation-factor bundle, ask separately:
 Check whether the reported factors support the intended comparison. Do not infer unreported factors from one label without a relation that establishes them.
 
 #### C.2.7:14.3 - Cross-facet reminder
-Assurance readers should also watch for silent replacement of `LanguageStateAnchoringMode`, `AE`, or `CD` by representation talk.
+Assurance readers should also watch for silent replacement of the source and use claims recovered through C.2.6, `AE`, or `CD` by representation talk.
 
 ### C.2.7:15 - Extension and Migration Notes
 
@@ -53734,7 +54032,7 @@ Authors may add extra local factors, but each added factor should answer a disti
 Aliases such as `EncodingBasis` or similar should be unfolded into explicit factor dockings before they are relied upon for comparison, bridge claims, or downstream use.
 
 #### C.2.7:15.3 - Boundary reminder
-`U.LanguageStateRepresentationFactorBundle` describes representational organization only. It does not determine admissible use, closure, or anchoring by itself.
+`LanguageStateRepresentationFactorBundle` describes representational organization only. Admissible use, closure and source or interaction claims retain their own conditions and grounds.
 ### C.2.7:16 - Factor-Bundle Publication Discipline
 
 #### C.2.7:16.1 - Minimal representation package
@@ -53752,7 +54050,7 @@ Local aliases such as `EncodingBasis` are admissible only when their docking to 
 Representation factors may be related under a particular code or model. State that relation and its conditions before inferring one reading from another. Locality and active-unit fraction are distinct, as :4.1 shows. Publish the readings needed for the comparison; assess articulation independently under C.2.4.
 
 #### C.2.7:17.2 - Cross-facet non-substitution
-Representation talk must not silently replace `AE`, `CD`, or `LanguageStateAnchoringMode`. A symbolic account of a distributed code may be easier to read while leaving interpretation unclear, closure open or anchoring operator-bound.
+Representation talk must not silently replace `AE`, `CD`, or the source and use claims recovered through C.2.6. A symbolic account of a distributed code may be easier to read while leaving interpretation unclear, closure open or an operator acknowledgement still required.
 
 #### C.2.7:17.3 - Bridge reminder
 If a representation shift matters in transport across contexts, note that the shift may alter what is preserved or salient. Use `F.9` for the Bridge and its bounded-use claim when the receiving use needs a semantic relation between local senses from different contexts; use `F.9.1` only for a separate optional stance note about that claim.
@@ -53765,7 +54063,7 @@ An assurance reader should ask:
 - are all claimed factors visible in the publication or cited source;
 - does any alias hide the factor bundle;
 - is one factor being used as if it summarized the whole representation state;
-- has representation talk started to replace articulation, closure, or anchoring claims.
+- has representation talk started to replace articulation, closure, or source and use claims.
 
 #### C.2.7:18.2 - Local extension test
 An additional factor is justified only if it captures a distinct representational question that cannot be reduced to locality, sparsity, or symbolicity. The extra factor should extend the bundle, not become a rival master factor.
@@ -53778,7 +54076,7 @@ Representation bundles may be compared across contexts only after the compared f
 
 ### C.2.7:End
 
-## C.2.8 - `U.ExtractableStructuralInformation` — Structure This Reader Can Recover
+## C.2.8 - `ExtractableStructuralInformation` — Structure This Reader Can Recover
 
 > **Type:** Definitional (D)
 > **Status:** Stable
@@ -53828,7 +54126,7 @@ Stop when that structural comparison answers the current question. If the select
 
 #### C.2.8:4.2 - Characteristic and arity
 
-**Tech name:** `U.ExtractableStructuralInformation`. **Plain name:** structure this reader or observer can extract. `ESI` is an abbreviation after the full name has been introduced.
+**Tech name:** `ExtractableStructuralInformation`. **Plain name:** structure this reader or observer can extract. `ESI` is an abbreviation after the full name has been introduced.
 
 This is an A.17 `U.RelationCharacteristic`, with arity three over the ordered tuple:
 
@@ -53836,7 +54134,7 @@ This is an A.17 `U.RelationCharacteristic`, with arity three over the ordered tu
 (expressed episteme E, expressing publication form P, reader or observer O)
 ```
 
-Its aspect is the amount of selected structure correctly extractable from E through P by O under stated comparison conditions. The characteristic is a dependent characteristic, not a root U-kind.
+Its aspect is the amount of selected structure correctly extractable from E through P by O under stated comparison conditions.
 
 E retains its C.2.1 identity. P is the entity expressing that episteme in the applicable E.24.PUB publication-form relation and retains the more specific kind supplied by its form pattern. O is the specified human or computational observer. An estimate about a reader class states the relevant preparation and variation among its members; it does not treat the class as another individual reader.
 
@@ -53898,7 +54196,7 @@ Use epiplexity as a formal specialization where that correspondence holds. Other
 
 #### C.2.8:4.7 - Articulation, effort and useful change
 
-C.2.4 `U.ArticulationExplicitness` orders progression from a cue to explicit branch-appropriate meaning and stable receiving use. ESI compares the selected structure extractable by an observer under a budget. Two complete descriptions at the same AE level can have different ESI; a reader's difficulty alone does not establish that the semantic branch was left unarticulated.
+Articulation explicitness (`AE`, C.2.4) orders progression from a cue to explicit branch-appropriate meaning and stable receiving use. ESI compares the selected structure extractable by an observer under a budget. Two complete descriptions at the same AE level can have different ESI; a reader's difficulty alone does not establish that the semantic branch was left unarticulated.
 
 Measure or compare extraction effort separately. Two expressions may expose the same structure at different cost. Additional selected structure may also be irrelevant to the next task or displace more valuable work. C.11.CRC/C.11 make the marginal choice using the structural result, cost, protected results and receiving value. The chosen result may be the current sufficient explanation.
 
@@ -71858,7 +72156,7 @@ How can an engineer assemble a usable built-asset architecture description from 
 
 Start with one intended architecture use, not with the available tool outputs. Name the exact built asset and selected A.22 structures that matter. Recover subject-relation occurrences when making actual-relation claims; a proposed arrangement can remain candidate content. Cite an obtaining `ArchitectureRelation` only when its C.30 predicate holds; otherwise keep required, desired, expected, candidate, negative, or unresolved content in a bounded `ArchitectureClaim`.
 
-Constitute each architecture description under C.2.1 about exactly one EntityOfConcern: the built asset, one obtaining `ArchitectureRelation` occurrence, or one exact selected structure. Keep its exact ClaimGraph and effective `U.ReferenceScheme` recoverable. The same episteme is a `U.View` only while a separately identified E.17.0 conformance relation to one exact viewpoint episteme obtains. Then recover reference designation, model exchange, source use, representation, publication, and currentness through their own objects and relations.
+Constitute each architecture description under C.2.1 about exactly one EntityOfConcern: the built asset, one obtaining `ArchitectureRelation` occurrence, or one exact selected structure. Keep its exact ClaimGraph and effective reference scheme recoverable. The same episteme is a `U.View` only while a separately identified E.17.0 conformance relation to one exact viewpoint episteme obtains. Then recover reference designation, model exchange, source use, representation, publication, and currentness through their own objects and relations.
 
 For a first use, make the relevant descriptions, structures, reference designations, sources and allowed use recoverable. Ordinary wording is sufficient when it answers the question; stop there. The following record can organize the references when that helps the receiving work:
 
@@ -71867,12 +72165,12 @@ BuiltAssetArchitectureDescriptionUse@Project:
   projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
   builtAssetDescriptionProjectUseRelationRef?: U.RelationRef governed by the exact description-use or work-use pattern
   architectureDescriptionRef: U.EpistemeRef constrained to ArchitectureDescription
-  descriptionClaimGraphRef: U.ClaimGraphRef
+  descriptionContentDesignation: C.2.1 ClaimContentDesignation, selecting the whole content of architectureDescriptionRef
   descriptionEntityOfConcernRef:
     exactly one builtAssetRef |
       ArchitectureRelation occurrence ref |
       selected U.Structure ref
-  effectiveReferenceScheme: U.ReferenceScheme, byValue
+  effectiveReferenceScheme: exact C.2.1 interpretation rules, byValue
   builtAssetRef: U.HolonRef
   architectureRelationOccurrenceRefs?: FinSet(U.RelationRef)
   architectureClaimRefs?: FinSet(U.EpistemeRef)
@@ -71899,6 +72197,8 @@ BuiltAssetArchitectureDescriptionUse@Project:
   nextGoverningPatternApplicationRef?:
   nonAdmissibleUse:
 ```
+
+Resolve `descriptionContentDesignation` under C.2.1:4.2.6 to the whole content of the same exact episteme selected by `architectureDescriptionRef`. Its by-value effective scheme must be the rules governing that content, not the rules of a document that merely describes the scheme. A missing or conflicting resolution leaves this use record unresolved; it does not reidentify the asset or establish view conformance.
 
 This is a project-side use record, not a description identity constructor or a new root kind. `@Project` is a compatibility and retrieval cue and establishes no project entity, Work occurrence, authority, context, viewpoint, parthood, or use relation. When the use is genuinely local to one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work`, and `builtAssetDescriptionProjectUseRelationRef` identifies the separately governed obtaining relation by which this description use concerns that Work. Otherwise both remain absent.
 
@@ -71935,7 +72235,7 @@ A reference designation is useful because it makes information about an entity r
 ```text
 BuiltAssetReferenceDesignationUse:
   designationValue: local designation value, byValue
-  referenceDesignationScheme: U.ReferenceScheme, byValue
+  referenceDesignationScheme: exact designation rules and their domain, byValue
   designatedEntityRef: U.EntityRef
   selectedAspectStructureRef: U.StructureRef
   designationOrReferenceRelationRef?: U.RelationRef
@@ -72029,7 +72329,7 @@ When the operator compares an original design description with the as-maintained
 
 | ID | Check | Repair when absent |
 | --- | --- | --- |
-| `BA-1` | The exact built asset is recoverable, and every used architecture description has one exact ClaimGraph, one EntityOfConcern—built asset, obtaining `ArchitectureRelation`, or selected structure—and effective `U.ReferenceScheme`. | Recover the asset under `A.1`, subject relations and architecture relation under `C.30`, selected structure under `A.22`, and description identity under C.2.1; do not derive the subject from an optional architecture-claim field. |
+| `BA-1` | The exact built asset is recoverable, and every used architecture description has one exact ClaimGraph, one EntityOfConcern—built asset, obtaining `ArchitectureRelation`, or selected structure—and effective reference scheme. | Recover the asset under `A.1`, subject relations and architecture relation under `C.30`, selected structure under `A.22`, and description identity under C.2.1; do not derive the subject from an optional architecture-claim field. |
 | `BA-2` | Every asserted architecture structural view is the same exact description episteme whose selected-structure EntityOfConcern, structure kind, exact viewpoint, and independently obtaining E.17.0 conformance relation are named. | Apply `A.22`, `E.17.0`, and `C.30.ASV`; do not use the file, bundle, dashboard, representation, publication, or current use as the structure or view constructor. |
 | `BA-3` | Every relied-on designation names its scheme, designated entity, selected aspect structure, qualification window, and exact designation/reference relation when one is claimed; design/realization correspondence remains a separate claim or relation. | Recover the direct designation/reference owner and occurrence, or keep a bounded designation-use claim; never use repeated spelling as entity identity or parthood proof. |
 | `BA-4` | Exchange checking and architecture evaluation have different evaluated objects and governors; source episteme, representation, publication occurrence, form, carrier, actual subject relations, selected structures, and descriptions remain distinct. | Keep description conformance with the exchange use; return relation truth, architecture adequacy, evidence, and assurance to their direct patterns. |
@@ -81576,7 +81876,7 @@ Ask the reader to obtain the first useful result, not to rate which document loo
 - the source returns needed to support or correct it; and
 - the observed burden when time, source openings, attempts or other relevant effort were actually recorded.
 
-When the question is how much selected structure the reader can extract, use [`C.2.8 U.ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover). Identify the expressed account, its publication form and the reader, with selected relations, correctness criterion, prior knowledge, operations, help, access and budget qualified for this comparison. A qualitative account of recovered and missing relations often suffices. A number needs a declared structural scale and fixed units or denominator, not counts of words or arrows.
+When the question is how much selected structure the reader can extract, use [`C.2.8 ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover). Identify the expressed account, its publication form and the reader, with selected relations, correctness criterion, prior knowledge, operations, help, access and budget qualified for this comparison. A qualitative account of recovered and missing relations often suffices. A number needs a declared structural scale and fixed units or denominator, not counts of words or arrows.
 
 Keep a design estimate separate from an actual recovery observation or a mapped formal estimate. A response establishes recovery in that trial, not a maximum or population reliability. State what changed in content, what changed in expression, and what preparation, actual help or a source return supplied. Familiar relations can count; a reader's independent correction of false or absent instruction is not credited to the expression. Missing basis is not zero. A successful changed-condition return supports its own condition rather than increasing the original amount.
 
@@ -99459,7 +99759,7 @@ IDs and instances: **flat with delimiters** chosen by the exact local naming sch
 
 #### E.10:8.3 - Prefix discipline
 
-**M-P1 (Reserved prefixes).** `U.` is reserved for admitted U-kinds and dependent `U.*` forms admitted under their definitions; `Γ_` for algebraic operators; `CAL, LOG, and CHR` for **pattern packages**. A local glossary, scheme, source label, or use never mints `U.*`.
+**M-P1 (Reserved prefixes).** `U.` is reserved for U-kinds admitted under E.24.UK; `Γ_` for algebraic operators; `CAL, LOG, and CHR` for **pattern packages**. A local glossary, scheme, source label, or use never mints `U.*`.
 
 **M-P2 (Edition and version markers).** Use a model-use marker only when A.1.1's direct model-use relations or a selected `BoundedModelUseStructure` require it. Select one exact episteme edition only through a typed reference whose referent is that exact `U.Episteme`, with a narrow selector defined at its reference-pattern locator. Do not attach an edition selector to an EntityOfConcern-side `Method`, Space, system, bare `Service`, or their references. When a use depends on a defining, describing, CG-Spec, service-description, or service-offer episteme, reference that episteme separately. A service-access publication, publication occurrence, publication form, and carrier retain their own references and do not inherit the episteme selector. Tool and carrier versions remain separate. Authors may annotate local service labels for didactics only after every named value is recoverable.
 **Norms (edition, release, and version).**
@@ -101500,7 +101800,7 @@ Within FPF, E.10 and E.10.ARCH define trigger recognition and recovery distribut
 5. **Scope.** Prefixes are **globally reserved** within the Core; domain patterns **MAY** mint local shorthands only within a named local glossary and its effective scheme and **MUST NOT** collide with this registry.
 
 **Registered conceptual prefixes (Core).**
-* `U.` — namespace for admitted U-kinds and dependent `U.*` forms; spelling alone does not prove kindhood. *Anchors:* E.10:8.3, M-P1, reserves the namespace; E.24.UK:4.1 supplies the U-kind admission test. Each named value retains the identity or membership rule in its defining subject pattern.
+* `U.` — namespace for U-kinds admitted under E.24.UK, whose dispositions cover root and dependent kinds. Spelling, dependence or reuse alone does not establish U-kind admission. *Anchors:* E.10:8.3, M-P1, reserves the namespace; E.24.UK:4.1–4.3 governs admission. Each kind retains the identity or membership rule in its defining subject pattern.
 * `Γ_` — **calculus-operator notation**, for example `Γ_epist`, `Γ_ctx` and `Γ_time`. *Anchors:* E.10:8.3, M-P1, reserves the prefix; B.1.3:4.2 defines the synthesis and compilation operators; B.1.4:3 defines the optional notation for contextual and temporal aggregation. Other flavours cite their own operator definitions. For a system aggregation or delimitation decision, use B.1.2:4 to recover the separately governed results and any missing basis.
 * `ut:` — **Universal relation family** (e.g., `PartOf` sub‑relations). *Anchor:* A.14 (Mereology) — informative alias vocabulary.
 * `tv:` — **Trace & Validation vocabulary** (CT2R‑LOG): `tv:AliasOf`, `tv:groundedBy`. *Anchor:* B.3.5 (CT2R-LOG).
@@ -102433,13 +102733,16 @@ ToC and lexical-query phrases remain finding aids, not alternate names, semantic
 
 When more than one selectable entry remains plausible, compare four things: recognizable-situation fit, difference among first results or exact public blockers, direct pattern, and stop or return condition. Keep the comparison in conversation for ordinary bounded use. Open the most promising direct pattern before constructing a project candidate.
 
+In the optional forms below, `claimGraph` carries the episteme's complete asserted content, including the reasons and qualifications that change what it says. The scheme designation resolves under C.2.1:4.2.6 to the rules actually governing that account. It can select another episteme's effective scheme or exact content defining those rules; a reference to a document alone does not choose between them. Preserve an unresolved interpretation rather than filling the field with a nearby name. These forms organize addressable writing when needed; ordinary conversation and partial notes remain sufficient under the entry conditions above.
+
 Materialize the rationale only when a named later use needs addressable comparison history; then it has one public-guidance subject and no fabricated project result:
+
 
 ```text
 PracticalUseEntryComparisonRationale@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing one PracticalUseGuidance@FPFReadme
-  claimGraph: U.ClaimGraph by value
-  effectiveReferenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  effectiveSchemeDesignation: C.2.1 SchemeDesignation
   editionId
   recognitionReasonDescriptionRef: U.Episteme
   firstResultDifferenceDescriptionRef: U.Episteme
@@ -102453,8 +102756,8 @@ Materialize comparison history only when a named receiving use relies on it:
 ```text
 PracticalUseEntryComparisonAccount@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the exact PracticalUseQuestion@Context being compared
-  claimGraph: U.ClaimGraph by value
-  effectiveReferenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  effectiveSchemeDesignation: C.2.1 SchemeDesignation
   editionId
   claimScopeRef?: U.EntityRef, referencing one U.ClaimScope
   modelUseStructureRef?: U.EntityRef, referencing one BoundedModelUseStructure
@@ -102468,8 +102771,8 @@ PracticalUseEntryComparisonAccount@Context <: U.Episteme:
 
 PracticalUseEntryComparison@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing one PracticalUseGuidance@FPFReadme
-  claimGraph: U.ClaimGraph by value
-  effectiveReferenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  effectiveSchemeDesignation: C.2.1 SchemeDesignation
   editionId
   comparisonAccountRef: PracticalUseEntryComparisonAccount@Context
   recognizableSituationFitRationaleRef: PracticalUseEntryComparisonRationale@Context
@@ -102833,12 +103136,14 @@ In `ordinaryBounded` use, the subject, practical question, inspected pattern, us
 
 In `relianceBearing` use, materialize only the distinctions that the named reliance will use. Another reader may need a candidate basis and rationale. Automation may need an exact result kind, predicate, pattern locator, `ClaimGraph`, relative object, and category-correct basis. Delayed review may need a descriptive flow position and a separate later-use disposition. A receiver appears only for an actual communication or admitted route relation; an ordinary return needs only its condition and optional next-pattern locator. No profile causes every support record to be materialized.
 
+In the optional forms below, `claimGraph` carries the episteme's complete asserted content, including the reasons and qualifications that change what it says. The scheme designation resolves under C.2.1:4.2.6 to the rules actually governing that account. It can select another episteme's effective scheme or exact content defining those rules; a reference to a document alone does not choose between them. Preserve an unresolved interpretation rather than filling the field with a nearby name. These forms organize addressable writing when needed; ordinary conversation and partial notes remain sufficient under the entry conditions above.
+
 ```text
 CompactPatternUseTrace@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   claimScopeRef?: U.EntityRef, referencing one U.ClaimScope
   modelUseStructureRef?: U.EntityRef, referencing one BoundedModelUseStructure
   projectWorkRef?: U.EntityRef, referencing one composite U.Work
@@ -102901,8 +103206,8 @@ The defining `ClaimGraph` located at PUA states the practical-question, optional
 PracticalUseQuestion@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   claimScopeRef?: U.EntityRef, referencing one U.ClaimScope
   modelUseStructureRef?: U.EntityRef, referencing one BoundedModelUseStructure
   projectWorkRef?: U.EntityRef, referencing one composite U.Work
@@ -102911,8 +103216,8 @@ PracticalUseQuestion@Context <: U.Episteme:
 
 PatternUseBoundaryCondition@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the CandidatePatternUse@Context or PracticalUseQuestion@Context whose use is bounded
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   boundaryConditionKind: candidateAdmission | minimumUsableResult | stop | return | wrongTurnRecovery | strongerNeighbor | missingGovernor | missingInformation | costEscalation | reversibilityEscalation | receivingPatternContinuation
   conditionDescriptionRef: U.EpistemeRef
@@ -102924,8 +103229,8 @@ PatternUseBoundaryCondition@Context <: U.Episteme:
 
 PatternUseResultExpectation@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the CandidatePatternUse@Context whose result is expected
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   expectedResultKindRef: U.KindRef
   expectedResultPatternLocator: U.EntityRef, locating one exact FPF pattern episteme
@@ -102955,8 +103260,8 @@ An optional representation of the basis claim is:
 ```text
 Candidate basis claim:  // ordinary C.2.1 episteme; local description, no new U-kind
   entityOfConcernRef: U.EpistemeRef, referencing the exact CandidatePatternUse@Context
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   directPatternRef: U.EpistemeRef
   directSolutionContentRef: exact content supporting this candidate
   supportingClaimRefs[]?: U.EpistemeRef
@@ -102972,8 +103277,8 @@ Reference respelling that still designates the same source changes no source ref
 CandidatePatternUse@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   claimScopeRef?: U.EntityRef, referencing one U.ClaimScope
   modelUseStructureRef?: U.EntityRef, referencing one BoundedModelUseStructure
   projectWorkRef?: U.EntityRef, referencing one composite U.Work
@@ -102995,8 +103300,8 @@ The public template is absent when the candidate was formed by direct pattern in
 ```text
 CandidatePatternUseRationale@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing one CandidatePatternUse@Context
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   rationaleDescriptionRef: U.EpistemeRef
   rationaleBasisEpistemeRefs[]: U.EpistemeRef
@@ -103025,8 +103330,8 @@ PUA introduces no actual-result relation and no universal actual-use relation. K
 PatternUseResultClosureFinding@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the independently identified result entity or obtaining relation occurrence
   entityOfConcernKindRef: U.KindRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   candidatePatternUseRef: U.EpistemeRef, referencing one CandidatePatternUse@Context
   resultExpectationRef: U.EpistemeRef, referencing one PatternUseResultExpectation@Context
@@ -103055,8 +103360,8 @@ Record receiving-use disposition separately, and only for a named reliance:
 ```text
 PatternUseReceivingUseDispositionFinding@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the same result entity or relation occurrence as the closure finding
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   resultClosureFindingRef: U.EpistemeRef, referencing one PatternUseResultClosureFinding@Context
   receivingUseRealizationState: realized | intendedNotYetRealized
@@ -103091,8 +103396,8 @@ GroundingBasisPair:
 PreExistingResultGroundingFinding@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the pre-existing entity
   entityOfConcernKindRef: U.KindRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   candidatePatternUseRef: U.EpistemeRef, referencing one CandidatePatternUse@Context
   resultExpectationRef: U.EpistemeRef, referencing one PatternUseResultExpectation@Context
@@ -103114,8 +103419,8 @@ Use this test when the declared teaching, rehearsal, or evaluation use is to est
 ```text
 PatternUsePracticeContinuationDescription@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the selected CandidatePatternUse@Context
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   actionOrProposedUseDescriptionRef: U.EpistemeRef
   expectedResultDescriptionRef: U.EpistemeRef
@@ -103127,8 +103432,8 @@ PatternUsePracticeContinuationDescription@Context <: U.Episteme:
 
 FinalPracticePatternUseTestResult@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the selected CandidatePatternUse@Context
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   practicalUseQuestionRef: U.EpistemeRef, referencing one PracticalUseQuestion@Context
   selectedCandidateBasisClaimRef: U.EpistemeRef, whose EntityOfConcern is the selected CandidatePatternUse@Context and whose ClaimGraph states the §4.4 basis
@@ -103347,6 +103652,8 @@ Evaluate candidate uses against five distinct fit aspects. An ordinary reversibl
 
 #### E.11.PUR:4.1 - Fit and applicability
 
+In the optional forms below, `claimGraph` carries the episteme's complete asserted content, including the reasons and qualifications that change what it says. The scheme designation resolves under C.2.1:4.2.6 to the rules actually governing that account. It can select another episteme's effective scheme or exact content defining those rules; a reference to a document alone does not choose between them. Preserve an unresolved interpretation rather than filling the field with a nearby name. These forms organize addressable writing when needed; ordinary conversation and partial notes remain sufficient under the entry conditions above.
+
 ```text
 PatternUseFitCriterionValue =
   problemFrame | forces | solutionConditions | ordinaryBoundary | resultAndReceivingUse
@@ -103356,8 +103663,8 @@ PatternUseApplicabilityResultValue = applicable | inapplicable | insufficientBas
 
 PatternUseFitFinding@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing one CandidatePatternUse@Context
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   fitCriterion: PatternUseFitCriterionValue
   fitResult: PatternUseFitResultValue
@@ -103365,8 +103672,8 @@ PatternUseFitFinding@Context <: U.Episteme:
 
 PatternUseApplicabilityFinding@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing one CandidatePatternUse@Context
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   fitFindingRefs[5]: U.EpistemeRef, each referencing one PatternUseFitFinding@Context
   applicabilityResult: PatternUseApplicabilityResultValue
@@ -103393,8 +103700,8 @@ PatternUseRecommendationSupportProfileValue = ordinaryCompact | relianceBearing
 PatternUseRecommendation@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the selected CandidatePatternUse@Context
   entityOfConcernKindRef: U.KindRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   recommendationSupportProfile: PatternUseRecommendationSupportProfileValue
   applicabilityResult: PatternUseApplicabilityResultValue
@@ -103435,8 +103742,8 @@ PatternUseOrderingModeValue = unordered | partialOrder | totalOrder
 
 PatternUseCoordinationRationale@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the coordination-question episteme
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   subjectCandidatePatternUseRefs[2..*]: U.EpistemeRef, each referencing one CandidatePatternUse@Context
   coordinationRationaleDescriptionRef: U.EpistemeRef
@@ -103446,8 +103753,8 @@ PatternUseCoordinationRationale@Context <: U.Episteme:
 PatternUseCoordination@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the coordination-question episteme
   entityOfConcernKindRef: U.KindRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   memberCandidatePatternUseRefs[2..*]: U.EpistemeRef, each referencing one CandidatePatternUse@Context
   orderingMode: PatternUseOrderingModeValue
@@ -106182,7 +106489,7 @@ After a recurring family-level use is established, the pattern biases FPF toward
 
 ### E.17.1:10 - Rationale
 
-`MultiViewDescribing` supports viewpoint plurality. `E.17.1` supplies packaging and provenance discipline for that plurality, including cases where viewpoints are used to re-express positions in `U.LanguageStateSpace` or language-state history accounts through the `LanguageStateMoveTrajectory` form under `A.16.0`. It makes member provenance explicit across repeated uses. Semantic correspondence is a separate result: same-scheme comparison states its exact predicate and participants, while cross-context comparison uses F.9 and a bounded-use reliance path.
+`MultiViewDescribing` supports viewpoint plurality. `E.17.1` supplies packaging and provenance discipline for that plurality, including cases where viewpoints are used to re-express positions in a language-state chart declared under C.2.2a or language-state history accounts through the `LanguageStateMoveTrajectory` form under `A.16.0`. It makes member provenance explicit across repeated uses. Semantic correspondence is a separate result: same-scheme comparison states its exact predicate and participants, while cross-context comparison uses F.9 and a bounded-use reliance path.
 
 ### E.17.1:11 - Source status, local rationale, and reopen condition
 
@@ -107056,7 +107363,7 @@ This preservation rule also applies across extraction, translation, screenshotti
 
 Part E restricts exact `publication-face kind` values to the literals **publication face/form** and **interop publication form**. `PlainView`, `TechCard`, `InteropCard`, and `AssuranceLane` are face designators, not additional U-kinds or automatic `U.View` memberships.
 
-**USM linkage (normative when exact scope identity is current).** An ordinary face first states its bounded use. When that bound must be cited, exchanged, compared, or relied on independently, identify `U.PublicationScope` under A.2.6. For a face selecting episteme `E`, `PublicationScope(face_E) ⊆ ClaimScope(E)`. For a face selecting a capability-description episteme about `C`, `PublicationScope(face_C) ⊆ WorkScope(C)`. Neither inclusion grants permission to perform work or proves that work occurred. A cross-context semantic claim separately retains its F.17 endpoint senses, F.9 Bridge, bounded-use claim, and any current A.10 or B.3 reliance result. An optional F.9 `CL` summarizes evidence strength; it is not a relation or use condition.
+**USM linkage (normative when exact scope identity is current).** An ordinary face first states its bounded use. When that bound must be cited, exchanged, compared, or relied on independently, identify `U.PublicationScope` under A.2.6. For a face selecting episteme `E`, `PublicationScope(face_E) ⊆ ClaimScope(E)`. For a capability-description episteme `E`, the EntityOfConcern is holder System `H` (A.2.2). If the face presents a qualified holder-ability claim `C` about `H` from `E` for work admission, `PublicationScope(face_E) ⊆ WorkScope(C)`, where `WorkScope(C)` is the work-condition basis designated by `C`. Any relied-on `ClaimScope` remains a separate constraint. When both bounds apply, `PublicationScope(face_E) ⊆ ClaimScope(E) ∩ WorkScope(C)`. Neither inclusion grants permission to perform work or proves that work occurred. A cross-context semantic claim separately retains its F.17 endpoint senses, F.9 Bridge, bounded-use claim, and any current A.10 or B.3 reliance result. An optional F.9 `CL` summarizes evidence strength; it is not a relation or use condition.
 
 **Publication-face naming discipline.**
 
@@ -107247,7 +107554,7 @@ A conformance check is kept only if it changes the next bounded use of the publi
 | **CC‑MVPK‑4g (No axis or dimension)** | Faces avoid “axis”, “dimension”, and “plane” metaphors except **ReferencePlane**; use CHR terms (**Characteristic**, slot, or **CharacteristicSpace**). | Lexical check flags none; only `ReferencePlane` appears. |
 | **CC‑MVPK‑4h (Edition pins on defs)** | Where maps, distances, or spaces are cited, the face pins `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `CharacteristicSpaceRef.edition?`. | Validation shows edition fields populated. |
 | **CC‑MVPK‑4i (Crossing references)** | A semantic crossing cites its F.9 Bridge and separate bounded-use claim; a plane-dependent value cites its selected `ReferencePlane` and applicable rule. A B.3 `CL`/`Φ(CL)` reference appears only when the current assurance use consumes that integration relation. | F.9 and plane references resolve; any B.3 penalty belongs to the assurance-bearing integration relation, not to the face. |
-| **CC‑MVPK‑4k (Subset‑of underlier)** | For views about epistemes or capabilities, `PublicationScope ⊆ ClaimScope or WorkScope`; reindexing **does not widen** it. | Subset witness passes; promotion diff shows no widening. |
+| **CC‑MVPK‑4k (Subset‑of underlier)** | A face selecting `E` retains each applicable `ClaimScope` bound. If it presents a qualified holder-ability claim `C` about holder System `H` for work admission, also require `PublicationScope ⊆ WorkScope(C)`; use the intersection when both bounds apply. Reindexing **does not widen** publication scope. | The capability description has EntityOfConcern `H`; `C` designates its work-condition basis. All applicable subset witnesses pass; promotion diff shows no widening. |
 | **CC‑MVPK‑6 (Γ‑separation)** | No cost, time, or data-spend on publication morphisms. | Inspection shows that any cost, time, or data-spend claim concerns separately identified Work. |
 | **CC‑MVPK‑7 (Reindexing monotone)** | If `s ⪯ t`, then `Emit_s(x) ⪯ Emit_t(x)`. | `TechCard` ≤ `InteropCard` (more structure, same claims). |
 | **CC‑MVPK‑8 (`publication-face kind` discipline)** | Only literal `publication-face kind` values **publication face/form** or **interop publication form** are used; faces are named **...View**, **...Card**, or **...Lane**. | Token scan; no “rendering” or “presentation” as `publication-face kind` values. |
@@ -110553,7 +110860,7 @@ For one TFS, every valuation resolves to the same structure boundary and interna
 | Coffee service TFS | Accepted `ProblemCard@Context PC-COFFEE-SERVICE-17` keeps the service-temperature and throughput problem visible while each next claim opens separately: `C.29` returns `CoffeeHeatMassBalanceLensUse-17`; `A.6.0` returns `CoffeeFormalSubstrateSignature-v3` only for its declared subject and ranged value; `A.6.1` returns `CoffeeBrewHeatTransferMechanism-v2` and exact application bindings; `A.19.UNM` returns `CoffeeTemperatureNormalization-v4`; `A.3.1` returns `CoffeeBrewMethod-v5`; `A.15.2` returns `CoffeeShiftPlan-17`; `A.15.1` returns dated `CoffeeBrewWork-17-0815`; `C.16` returns the temperature and throughput measurements; and `G.11` reopens only a continuation relying on the changed source, normalization, Method or measurement. Treat them as positions or continuations of one TFS only while every use resolves to that same exact selected structure and internal transfers. | A signature supplies no mechanism or Method; a plan supplies no Work; telemetry supplies no measurement result until `C.16` applies it; another valuation or slice does not mint another TFS; refresh changes only the relation that relied on the changed value. |
 | Compiler design and run | Compiler preparation/build, later compiler use, release assurance and product operation retain independently identified TFS values when their boundaries, Work or change cadence differ. Release-assurance use, launch-gate use, reproducible-build currentness and `G.11` source-currentness remain separate claims. Select an E.18.NET network only after the exact source-use, production/inception, operation-application, evaluation or other cross-member occurrences and endpoint bindings independently obtain. | No collapse of build, run and product Work; no giant flow; no universal `produces`/`uses` edge; local `DesignRunTag`; and no transformation, production, gate or currentness result from a build arrow or intended realization. |
 | TAMP and MPC robotics | Method selection and `A.15.2` planning may be revised under a declared progress or budget condition before performed Work. That planning/replanning cycle may be one TFS valuation or path-slice family when the exact structure identity is shared; separately selected development, controller-execution and evaluation flows require E.18.NET and exact cross-member relations. | Branching and cycles without a fixed work procedure; a prospective launch decision remains distinct from later dated Work; and feedback cycles do not make membership cyclic. |
-| AutoML and QD | Method selection returns a Pareto, QD, front or archive set under comparator and descriptor editions. If generation, evaluation and deployment are independently selected flows, relate them only through exact direct occurrences in E.18.NET. A changed descriptor, comparator or retained-set relation reopens only the dependent selection or publication continuation. | Set-return discipline, comparator currentness, no hidden scalarization, retained-set refresh, and no evaluation label used as a universal edge. |
+| AutoML and QD | Method selection retains alternatives from a declared front or archive as a `Shortlist`, or as a `RankedShortlist` under an admissible order (G.5:4.4b–4.4e). The result preserves the source reference, comparison basis and ordering, with comparator and descriptor editions pinned. If generation, evaluation and deployment are independently selected flows, relate them only through exact direct occurrences in E.18.NET. A changed descriptor, comparator or retained-set relation reopens only the dependent selection or publication continuation. | Set-return discipline, comparator currentness, no hidden scalarization, retained-set refresh, and no evaluation label used as a universal edge. |
 | Freshness or physical-transport case | Work planning and performed Work depend on freshness windows, transport relations, units, reference planes and source-currentness. A detailed internal route remains a `SubflowRef`; independent transport and use flows require a network. | No implicit `latest`, no unbridged unit or plane comparison, exact member boundary, and smallest affected refresh. |
 | Integration under module-interface constraints | After assembly, a result phrase may say *role enactability* under module-interface constraints or may point to evidence, a gate, architecture, function-like wording, or a Work relation. | Treat *role enactability* as unresolved wording and apply E.10.ROLE; then recover the local system-role kind and classification, assignment occurrence, direct participation or functioning relation, ordinary non-use, or exact missing governor that the current claim needs. Recover module-interface, evidence, gate, architecture, and Work claims separately under their own patterns; route claim-bearing function-like wording through A.6.F. |
 | Tool-product-use network | One member contains exact dated tool-building Work, actual substrate changes, and only the local A.15.PROD production-work, inception, or completion claims that are current; another member uses the admitted tool through an exact operation-application or subject-use occurrence. In the concrete chain, a later member may use that tool to make a chair and another may use the chair as context for writing a text. Every current A.15.PROD claim and every direct tool-use or context relation must pass the test defined for it. | The same carried object may occupy a run-result, design-side input, tool, context, or constraint position in different members without changing kind. Exact source and use relations, together with the exact local A.15.PROD claims, connect members; a design tag, result label, or adjacency does not. |
@@ -115092,7 +115399,7 @@ Reopen this comparison when a direct-source correction removes a load-bearing co
 
 ### E.24:0 - Use This When
 
-Use this pattern when FPF work appears to need a durable ontic: a connected action-facing ontology unit whose stable identity and admissible uses depend on keeping several direct relation kinds, their relation-participant meanings and admitted actual-participant kinds, reusable declarations, and neighboring subject patterns coherent.
+Use this pattern when FPF work appears to need a durable ontic: a connected action-facing ontology unit whose stable identity and admissible uses depend on keeping several direct relation kinds, their participant identities and meanings, any required kind conditions, reusable declarations, and neighboring subject patterns coherent.
 
 Characterize the current candidate or source claim and run the existing-rule-content, identity, relation-or-constitution, dependent-use, and non-duplication tests below. Only then record the **ontology disposition**: introduce a durable ontic, coordinate already defined claims in a bounded local episteme, rely directly on current exact subject assertions and their `ClaimGraph` sources, or stop unresolved. A current source-use record states quote-only, reduced use, or a selected stronger source use with its exact provenance; omit it when source use is not current. Source use can accompany any resolved ontology disposition, but it is not a fourth ontology branch. Use source-only as a stop only when no exact payload assertion has been selected.
 
@@ -115160,10 +115467,12 @@ The defining `ClaimGraph` located here states `U.Ontic` as the FPF kind for a co
 
 Keep two layers explicit:
 
-1. **Instance layer.** For each included direct relation kind, name the actual participant meanings and admitted actual-participant kinds supplied by its exact defining `ClaimGraph`. An obtaining occurrence relates the actual participants admitted by that predicate. Kinds or declaration epistemes can themselves participate when the direct rule admits them; citing them in the decision establishes no such occurrence.
+1. **Instance layer.** For each included direct relation kind, state how its actual participants are identified under their subject rules, how they contribute to the obtaining predicate, and which kind conditions that predicate requires. The defining `ClaimGraph` supplies those conditions and the occurrence-identity rule. An obtaining occurrence relates the actual participants satisfying that predicate. Kinds or declaration epistemes can themselves participate when the direct rule admits them; citing them in the decision establishes no such occurrence.
 2. **Ontology and declaration layer.** The ontic-introduction decision episteme states which subject kind, identity rule, relation kinds, declaration epistemes, rule-content locators, and dependent-use reliance claims belong in this ontology unit. Those are typed claims in the decision episteme unless an independently defined declaration-dependency, inclusion, or reliance relation is actually current. Do not call them world-side direct relations merely because the ontology unit coordinates them.
 
-The ontology unit is connected when every included relation kind has its instance-layer participants, exact predicate, and defining `ClaimGraph`, every included declaration is tied to the relation use it declares, and every dependent use names the exact identity rule, direct relation rule, or declaration it relies on. The decision marks any identity-bearing edge explicitly. This typed account establishes ontology-level coordination; it fabricates no relation occurrence among kinds, declarations, pattern descriptions, or the ontic.
+The ontology unit is connected when every included relation kind has its instance-layer participants, exact predicate, and defining `ClaimGraph`, every included declaration is tied to the relation use it declares, and every dependent use names the exact identity rule, direct relation rule, or declaration it relies on. The decision marks any identity-bearing edge explicitly. This account of identities, relations, and dependencies establishes ontology-level coordination; it fabricates no relation occurrence among kinds, declarations, pattern descriptions, or the ontic.
+
+Precise coordination does not require a new public kind for every participant. It does require a rule that recovers which object participates, what counts as the same or a different participant, and how it contributes to the relation. Apply an existing kind criterion wherever the predicate depends on that classification. When a receiver additionally needs typed membership or substitution, A.6.5 requires independently established ValueKinds and complete SlotSpecs; an exact-value example cannot establish the whole range. A missing identity or obtaining basis blocks the affected relation claim. A missing required range blocks its typed use while leaving separately warranted exact-value uses available. An ontic supplies neither missing basis by being declared.
 
 Named dependent-use reliance states each dependent use, its pattern-description locator when useful, and the identified ontic identity, direct relation rule, or `RelationSignature` declaration on which it relies. A pattern name without that reliance basis is insufficient.
 
@@ -115221,10 +115530,10 @@ Build the decision evidence in this order; do not select a disposition first and
 1. **Current case and stable decision subject.** State the working expression or source claim, one independently identified pre-judgment candidate entity, proposal episteme, or source-construct entity with its direct identity governor, and the named receiving use. Use that fixed object as the decision episteme's EntityOfConcern. Record source-use status and provenance here when current; they do not settle the ontology disposition.
 2. **Existing-governor reuse and non-duplication.** Name the current direct patterns checked by value. State which current claim they already close, or the exact coordination they fail to supply. Reject a new umbrella when it would merely rename those governed objects or copy their rules.
 3. **Identity, constitution, or recognition.** State the exact rule supplied by the subject pattern and what would reidentify the subject across the receiving use. Do not replace several required facts with an invented universal relation.
-4. **Typed connectivity and dependent use.** Use `E.24:4.3a` to classify only the objects that the dependent use consumes. Name each needed direct relation, its exact predicate and definition source, any identity-bearing relation selected by its occurrence-identity rule, each declaration actually reused, and each dependent assertion's exact reliance basis. Omit every neighboring map row whose selection question is false.
+4. **Identity, relations, and dependent use.** Use `E.24:4.3a` to classify only the objects that the dependent use consumes. Name each needed direct relation, its exact predicate and definition source, any identity-bearing relation selected by its occurrence-identity rule, each declaration actually reused, and each dependent assertion's exact reliance basis. Omit every neighboring map row whose selection question is false.
 5. **Disposition, branch result, and boundary—fill last.** Keep the decision EntityOfConcern from step 1. From steps 1–4, record exactly one branch payload: the closing assertions and direct patterns; the bounded episteme, its declared use, and stop; the selected ontology-unit individual and subject pattern; or the unresolved reason and missing evidence. Add an explanatory overread only when it passes F.19:4's full independent-ground, plausible-reader, contribution, and smallest-clear-correction test.
 
-A relation-participant meaning belongs in one selected direct relation only when that relation's predicate depends on an actual participant having that meaning and the exact defining `ClaimGraph` states the admitted kind of that participant. When typed reuse is needed, a compatible `RelationSignature` declares that admitted kind as the SlotSpec's `ValueKind`. Another entity remains under its own direct relation when that relation already expresses the needed use. Reuse pressure can justify a `RelationSignature`; it cannot turn a neighboring relation, record field, or mathematical operand into a participant or SlotKind of another relation.
+A relation-participant meaning belongs in one selected direct relation only when its predicate depends on an actual participant making that contribution. The defining `ClaimGraph` must state how the participant is identified independently of a declaration field and state any classification condition the predicate uses. When typed reuse is needed, a compatible `RelationSignature` additionally declares an independently governed participant kind as the SlotSpec's `ValueKind`. Another entity remains under its own direct relation when that relation already expresses the needed use. Reuse pressure can justify a `RelationSignature`; it cannot turn a neighboring relation, record field, or mathematical operand into a participant or SlotKind of another relation.
 
 Optional-in-use status belongs to a declaration or description. It does not mean that a world-side relation occurrence has an unfilled participant. A missing designation leaves the assertion incomplete or the participant unknown to the current user. It does not show that the participant is absent, and it does not make the direct predicate obtain or cease.
 
@@ -115267,7 +115576,8 @@ E24FamilySettlementDecision:
     ExistingGovernorAndNonDuplicationResult:
     MinimalGovernedRelationSet:
       DirectRelationKind:
-      ParticipantMeaningsAndAdmittedActualParticipantKinds:
+      ParticipantMeaningsAndIdentificationRules:
+      KindConditionsRequiredByPredicate:
       ObtainingAndOccurrenceIdentityRule:
       DirectGovernor:
       DependentUseEnabled:
@@ -115417,7 +115727,7 @@ Open only rows whose selection question is true for the chosen branch. Later sec
 
 | Object class | Selection question | Record by value and subject pattern |
 | --- | --- | --- |
-| World-side participant | Does an obtaining predicate require this actual object in one participant meaning? | actual object, admitted kind, participant meaning, and the direct relation pattern; a SlotSpec or designation is not the participant |
+| World-side participant | Does an obtaining predicate require this actual object in one participant meaning? | actual object and its independent identity rule, participant meaning, any kind condition required by the predicate, and the direct relation pattern; a SlotSpec or designation is not the participant |
 | Relation occurrence | Is the current claim that one direct predicate obtains among actual participants? | relation kind, participants, obtaining condition, occurrence identity, and direct governor; use this row for the one readable claim that closes direct use |
 | Reusable declaration | Does another use need the same participant typing without asserting an occurrence? | `RelationSignature` episteme and only the reused `SlotSpec = <SlotKind, ValueKind, refMode>` declarations under A.6.5 |
 | Claim-bearing episteme | Does the receiving use need an assertion, description, decision, or several governed claims read together? | C.2.1 identity, exact EntityOfConcern, ClaimGraph, effective ReferenceScheme, declared use, and stop; a bounded episteme governs no new ontology |
@@ -115454,9 +115764,9 @@ OnticIntroductionDecisionReplay:
     existingUKindAdmissionResultRef: `E24UK-AR-UEPISTEME-RG-01`.
     onticSettlementResultRef: `E24-OS-EPISTEME-ONTIC-01`.
     atomicCoDecisionRef: none; no new public U-kind is proposed in this replay.
-  onticRootIfSelected: `EpistemeOntic`, one explicitly designated ontology-unit individual of kind `U.Ontic`. E.24 reidentifies it from the primary governed subject kind `U.Episteme` and the identity-bearing direct relation kind `EpistemeConstitutionRelation`, including that relation's predicate, participant meanings, and admitted actual-participant kinds. It is neither the `U.Episteme` kind nor any PumpStation37 episteme.
-  identityBearingDirectRelationIfSelected: `EpistemeConstitutionRelation`, governed by C.2.1. Its participant meanings are constitutive claim content, exact EntityOfConcern, and effective reference scheme; its admitted actual-participant kinds are `U.ClaimGraph`, `U.Entity`, and `U.ReferenceScheme`. It obtains when the scheme makes the claim graph interpretable and evaluable as claims about the exact entity and the three participants form one claim-bearing whole; the participant triple identifies the occurrence. The PumpStation37 consuming witness is the distinct occurrence among `MaintenanceClaims_v7`, `PumpStation37`, and `StationMaintenanceReferenceScheme_2026`; that project occurrence neither is nor identifies `EpistemeOntic`.
-  reusableDeclarationsIfNeeded: `EpistemeConstitutionRelationSignature` with the three SlotSpecs declared in `C.2.1`, only where another pattern needs reusable participant typing.
+  onticRootIfSelected: `EpistemeOntic`, one explicitly designated ontology-unit individual of kind `U.Ontic`. E.24 reidentifies it from the primary governed subject kind `U.Episteme` and the identity-bearing `EpistemeConstitutionRelation`: its participant meanings, participant-identification rules, obtaining predicate, and participant-determined occurrence identity. It is neither the `U.Episteme` kind nor any PumpStation37 episteme.
+  identityBearingDirectRelationIfSelected: `EpistemeConstitutionRelation`, governed by C.2.1. Its participants are the complete semantic claim content, one independently identified EntityOfConcern, and the effective designation and interpretation rules. C.2.1:4.1.1 recovers and compares the two epistemic constituents; the subject pattern identifies the entity. The relation obtains when the scheme makes that content interpretable and evaluable as claims about the entity and the three participants form one claim-bearing whole; their triple identifies the occurrence. The PumpStation37 witness uses the exact content `MaintenanceClaims_v7`, entity `PumpStation37`, and effective rules `StationMaintenanceReferenceScheme_2026`. Those labels require the corresponding content, entity identity, and rules; they are not a classification test for all claim contents or schemes. That project occurrence neither is nor identifies `EpistemeOntic`.
+  reusableDeclarationsIfNeeded: C.2.1:4.2.1 supplies the constitution declaration for reusable EntityOfConcern designation with `EntityOfConcernSlot`, `U.Entity`, and `U.EntityRef`; :4.3 and :4.5 supply grounding and edition declarations. Reuse each only when its stated interface is needed. Typed replacement of claim content or effective scheme requires additional independently governed ranges and A.6.5 SlotSpecs. The open `U.ClaimGraph` and `U.ReferenceScheme` admissions cannot supply those ranges, and no such general typing is a premise of this ontic settlement.
   minimalGovernedRelationSet:
     instanceLayer: `EpistemeConstitutionRelation` among actual claim graph, EntityOfConcern, and reference scheme is identity-bearing; `EpistemeEmpiricalGroundingRelation`, `EpistemeEditionRelation`, `EpistemeViewpointConformanceRelation`, and `EpistemePublicationRelation` retain the actual participants and predicates supplied by C.2.1, E.17.0, and E.24.PUB when their named use is current. A.6.3 construction and A.10 evidence use remain separate and join only under their own current governors.
     ontologyDeclarationLayer: this decision episteme says that `EpistemeOntic` coordinates the `U.Episteme` identity rule and those exact relation rules and declarations for the named dependent patterns. It asserts no world-side relation whose participants are `EpistemeOntic`, `U.Episteme`, a relation kind, a signature, or a pattern.
@@ -115532,13 +115842,14 @@ OnticIntroductionDecision:
     BranchSpecificResultRefIfRequired: the exact membership, dependence, reused-kind, local-declaration, or recovered-object result required by that disposition.
     LocalGainCostAndDuplicateOntologyRisk: the decision-changing rationale; not another disposition or decision form.
   MinimalGovernedRelationSet:
-    InstanceLayer: for every included direct relation, its actual participant meanings and kinds, predicate, occurrence identity, direct governor, and the named use it enables.
+    InstanceLayer: for every included direct relation, its actual participants and independent identity rules, participant meanings, required kind conditions, predicate, occurrence identity, direct governor, and named receiving use.
     OntologyDeclarationLayer: the exact decision claims that include each kind, relation rule, declaration, or pattern and state each dependent reliance; an actual declaration-side relation is named only when independently governed.
   IdentityBearingDirectRelationIfSelected:
     DirectRelationKind:
     DirectGoverningPattern:
     ParticipantMeanings:
-    AdmittedActualParticipantKinds:
+    ParticipantIdentificationRules:
+    KindConditionsRequiredByPredicate:
     ObtainingCondition:
     OccurrenceIdentityRule:
     RelationSignatureIfNeeded:
@@ -115619,6 +115930,11 @@ Use these slices as archetypes for the ontic-introduction decision. They are not
 
 The ontology-unit individual `EpistemeOntic` passes because multiple patterns reuse C.2.1 episteme identity and its exact direct relation rules without copying them. E.24.UK retains `U.Episteme` as the root kind, C.2.1 identifies each particular episteme, and neither is `EpistemeOntic`. The PumpStation37 specification is a consuming witness. Descriptions, availability, views, and representations use their rows in `E.24:4.3a` and do not change that identity.
 
+The coordination is needed because these uses must agree on which episteme they concern. Empirical grounding selects claims of that episteme; edition continuity compares distinct episteme identities; viewpoint conformance tests an identified episteme against an identified viewpoint; publication makes a selected edition available. C.2.1's constitution rule provides their common subject identity, while each direct pattern retains its own predicate. A content or interpretation change therefore reopens the dependent conclusions that use it, whereas a carrier change alone leaves that identity fixed. Without this shared rule, those patterns could silently evaluate, continue, or publish different knowledge objects under one name.
+
+This establishes useful `EpistemeOntic` coordination without assuming public admission of every possible constituent kind. Exact content and effective rules must still be recoverable under C.2.1. A receiver requiring general typed substitution of those constituents needs the additional classification basis in C.2.1:4.2.1 and E.24.UK:4.2c. The ontic does not grant it, and that open question does not cancel the common identity and the separately governed dependencies above.
+
+
 #### E.24:5.2 - Multi-Pattern Subject Matter as an Ontic-Candidate Archetype
 
 A project phrase such as "algorithm", "process", "solver", "workflow", "system", "quality", "time", "source", or "architecture" can point to one recognizable subject that is spread across several FPF values and patterns. The point of this archetype is not that all such subjects are one kind. The E.24 decision instead settles the status of the cross-pattern subject before patterns rely on it.
@@ -115641,7 +115957,7 @@ The fact that changes the result is one closing claim, several claims for one us
 The E.24 move is:
 1. name the working expression and identify the pre-judgment candidate entity, proposal episteme, or source-construct entity under its direct rule; keep that fixed object as the decision episteme's EntityOfConcern. If none is identifiable, retain inquiry material; a missing governed payload instead permits an unresolved result about the identified decision subject;
 2. list the direct entities and relations that currently carry the subject; for every reused declaration, separately list its RelationSignature and SlotSpecs;
-3. run the existing-rule-content, exact-identity, typed-connectivity-or-constitution, dependent-use, and non-duplication tests, then select one ontology disposition for the recovered payload—direct subject-assertion use, bounded local episteme under C.2.1, durable ontic, or unresolved stop—and record source-use status separately;
+3. run the existing-rule-content, exact-identity, relation-or-constitution, dependent-use, and non-duplication tests, then select one ontology disposition for the recovered payload—direct subject-assertion use, bounded local episteme under C.2.1, durable ontic, or unresolved stop—and record source-use status separately;
 4. if a durable ontic is selected, write or cite its exact defining or constraining `ClaimGraph` before dependent uses rely on it.
 
 The workflow fixture needs its method description, plan, Work, and structure because each changes the scheduling use. Select the objects needed by another case through `E.24:4.3a`; their co-occurrence alone supplies no durable-ontic result.
@@ -115684,13 +116000,13 @@ Activation rule: every candidate uses the cheap-card checks `CC-E24-1`, `CC-E24-
 | Check | Observable conformance condition |
 | --- | --- |
 | `CC-E24-1` | The cheap card names the recognizable situation, one exact receiving use, one ontology disposition, any current source use, and one independently identified pre-judgment EntityOfConcern with its identity governor. That subject stays fixed; exactly one typed result points to the closing assertions, bounded episteme, durable ontic, or unresolved reason. Ordinary direct, bounded, and unresolved cases close here unless a stated full-form guard is true. Work and decision are examples of receiving use, not universal prerequisites. A working phrase, topic cluster, heading, or list is never accepted as the EntityOfConcern merely because it opened the inquiry. |
-| `CC-E24-1a` | The decision keeps two layers explicit. At the instance layer, every included direct relation names actual participant meanings and kinds plus its direct governor. At the ontology/declaration layer, typed decision claims state why each kind, relation rule, declaration, pattern, and dependent reliance belongs; no world-side occurrence among those declaration-level objects is implied. Any identity-bearing relation is marked explicitly. |
-| `CC-E24-1b` | The author characterizes the current case, runs existing-governor reuse, exact-identity, typed-connectivity-or-constitution, dependent-use, and non-duplication tests, and fills the ontology disposition last. Its summary placement near the top of a card is not evidence that it was selected first. |
+| `CC-E24-1a` | The decision keeps two layers explicit. At the instance layer, every included direct relation names actual participant identities and meanings, any kind conditions required by its predicate, and its direct governor. At the ontology/declaration layer, typed decision claims state why each kind, relation rule, declaration, pattern, and dependent reliance belongs; no world-side occurrence among those declaration-level objects is implied. Any identity-bearing relation is marked explicitly. |
+| `CC-E24-1b` | The author characterizes the current case, runs existing-governor reuse, exact-identity, relation-or-constitution, dependent-use, and non-duplication tests, and fills the ontology disposition last. Its summary placement near the top of a card is not evidence that it was selected first. |
 | `CC-E24-1c` | Direct use is selected when one readable governed claim closes the receiving use; bounded episteme when that use needs several governed claims read together but no pattern consumes their package as ontology; durable ontic only when multiple current patterns must reuse one independently identified ontology unit and would otherwise duplicate or disagree about identity, constitution, or the minimal relation set. |
 | `CC-E24-1d` | One boundary fixture keeps the source expression, provenance, and independently identified decision subject fixed while showing the receiving use, changed evidence, exact branch payload, and stop for direct use, bounded episteme, the stronger durable-ontic threshold, and unresolved inquiry. |
 | `CC-E24-2` | Existing exact rule content is checked by value before a new ontic is selected. For a relation-kind candidate, the decision cites the exact direct relation pattern passage, which states participant meanings, obtaining, applicability, and occurrence identity, or an `A.6.RCD` result that returns a derived or primitive candidate with that proposed direct subject settlement. Local claim and predicate-definition results are not admitted as relation kinds. |
 | `CC-E24-3` | When the durable branch is selected, the decision states the proposed ontic's stable identity criteria and says what does and does not change that identity. |
-| `CC-E24-4` | A durable ontic names the subject's exact identity, constitution, or recognition rule and its minimal governed relation set. For every included relation it names the direct governor; when one is identity-bearing, it also names participant meanings, admitted actual-participant kinds, obtaining condition, and occurrence-identity rule. RelationSignatures and SlotSpecs are added only for typed reuse. |
+| `CC-E24-4` | A durable ontic names the subject's exact identity, constitution, or recognition rule and its minimal governed relation set. For every included relation it names the direct governor; when one is identity-bearing, it also names participant meanings, independent participant-identification rules, required kind conditions, obtaining condition, and occurrence identity. A typed use additionally requires independently governed participant ranges and complete A.6.5 SlotSpecs; ontic settlement supplies no missing kind admission. |
 | `CC-E24-4a` | When constructive grounding is claimed, the text names the direct grounding rule. Structural identity claims use the `E.14 -> B.3.5 -> C.13` chain with Working-Model, `tv:groundedBy`, and `Γ_m`; non-structural ontics use the identity, grounding, or recognition rule of their subject pattern. |
 | `CC-E24-4b` | Ontic introduction creates no project-side relation occurrence. A designator designates and a governed reference resolves only after the direct predicate and identity rule reidentify the occurrence; an assertion or description episteme carries the claim and designation. A publication occurrence makes a selected episteme edition available and neither designates nor creates the world-side occurrence. |
 | `CC-E24-4c` | E.24 and E.24.UK use one `E24FamilySettlementDecision`. Independent positive kind admission may return the explicit direct-use or bounded-coordination conclusion that no additional durable ontic is needed, with no `OnticSettlementResult`. When both new outputs are independently needed, one atomic decision returns separate result references from common inputs; neither is prior evidence for the other and both remain provisional while a required branch is unresolved. An empty relation set or a nearby relation added for form supplies no coordination contribution. |
@@ -116571,16 +116887,18 @@ Each R5 or bootstrap result is a C.2.1 episteme about the pre-judgment subject c
 
 ##### E.24.UK:4.2c - Open Prerequisites, Blocked Candidates, and Non-admission Results
 
-The shared decision can also encounter public kind names that do not yet have a resolvable accepted admission result. They remain explicit prerequisites rather than being smuggled into the accepted registry. Existing by-value use of an exact current value may continue under its subject pattern, but no new admission may cite the unsettled kind itself as already accepted.
+The shared decision can also encounter public kind names that do not yet have a resolvable accepted admission result. They remain explicit prerequisites rather than being smuggled into the accepted registry. C.2.1:4.1.1 supplies the practical route for obtaining claim content in writing, recovering its effective interpretation, and comparing exact values. Such use can remain sufficient without a classification of all possible constituents. C.2.1:4.1.2 supplies the positive C.3 declarations `EpistemeInterpretationScheme` and `NonemptyClaimContent` for the receiving ranges stated there. C.2.1:4.2.6 supplies exact constituent designations and their resolution without admitting another RefKind. A receiver needing a different membership or substitution distinction must state its candidate domain and criterion under C.3.2; a reusable typed relation declaration must supply the independently governed ValueKinds required by A.6.5. ByValue is a designation mode, not an exemption from those conditions. No new admission may cite an unsettled public kind as already accepted.
 
 | Exact result or blocker reference | Current disposition | Exact missing or closing basis |
 | --- | --- | --- |
-| `E24UK-OPEN-UREFERENCESCHEME-01` | `U.ReferenceScheme` prerequisite unsettled | F.18 identifies the current `FPFCoreReferenceScheme` value and C.2.1 consumes an effective scheme, but no current subject pattern and accepted result state the kind's identity, extent, and non-use boundary |
-| `E24UK-OPEN-UCLAIMGRAPH-01` | `U.ClaimGraph` prerequisite unsettled | C.2.1 consumes exact claim content and distinguishes it from graph representations, but no current accepted admission result and direct kind-admission pattern are resolvable from this host set |
+| `E24UK-OPEN-UREFERENCESCHEME-01` | `U.ReferenceScheme` prerequisite unsettled | C.2.1 governs precise use and comparison of effective interpretation rules; its :4.1.2 `EpistemeInterpretationScheme` declaration supplies the bounded C.3 range used by the named relation and mechanism interfaces. F.18 uses the concrete `FPFCoreReferenceScheme`. A general public classification still needs a demonstrated receiving need, a defined candidate range with identity and membership criteria, member/non-member and non-use boundaries, and an accepted admission result. A document describing rules is not automatically an instance of that proposed kind. |
+| `E24UK-OPEN-UCLAIMGRAPH-01` | `U.ClaimGraph` prerequisite unsettled | C.2.1 governs exact semantic content and distinguishes it from its graph expression and an episteme about it; its :4.1.2 `NonemptyClaimContent` declaration supplies the bounded C.3 range used by the R7/R8 predicates. General public typed reuse still needs a demonstrated classification need, a defined candidate range with identity and membership criteria, member/non-member and non-use boundaries, and a direct kind settlement with an accepted admission result. An endpoint episteme class supplies none of those constituent-kind grounds. |
 | `E24UK-NAR-U-CAPABILITY-01` | `U.Capability`; `reject` | A.2.2 planning, promise, fit and development uses require a holder System and qualified ability claims, not another individual or classificatory distinction. Use `U.System` and C.2.1 epistemes when an assertion needs an identified account. |
 | `E24UK-NAR-LSMT-01` | `U.LanguageStateMoveTrajectory`; `reject` | A.16.0 needs an ordinary C.2.1 history account and an E.24.PUB expression/publication form. The recovered branch, loss, lineage and responsibility uses require no additional individual or durable classification. |
 | `E24UK-NAR-AIPR-01` | `U.ActionInvitationPrecisionRestoration`; `reject` | A.6.A governs a precision-restoration move; the title admits no further kind, and any exact relation claim still needs its direct obtaining predicate and identity rule |
 | `E24UK-NAR-EPUB-01` | `U.EpistemePublication`; `reject` | for the availability-only use in section 5.0, C.2.1 identity and the exact E.24.PUB participation claim suffice; no additional classification is needed. A receiving classification use is assessed separately under C.3.2 and the admission tree. |
+
+E.24 may coordinate exact constitution and dependent relation rules in `EpistemeOntic` while these two admissions remain open. Its positive basis is the shared identity and the named cross-pattern dependencies, subject to E.24's participant-identification and predicate tests. That coordination admits neither proposed constituent kind and does not complete a typed interface whose required range is missing.
 
 Generic `reuse` and `local-kind` are decision exits, not accepted example results. Close `reuse` only with an exact `ReusedUKindRef` that resolves to this registry; close `local-kind` only with one exact current C.3.2 `LocalKindDeclarationRef`. If either reference is absent, keep the candidate unsettled.
 
