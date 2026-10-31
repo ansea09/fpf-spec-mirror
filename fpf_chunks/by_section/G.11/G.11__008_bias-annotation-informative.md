@@ -6,12 +6,12 @@ section_id: "G.11:6"
 section_title: "Bias-Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__008_bias-annotation-informative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:6 — Bias-Annotation (informative)"
-line_start: 131839
-line_end: 131846
+line_start: 132429
+line_end: 132436
 dependencies:
   - "A.10.1"
   - "A.6.RCD"

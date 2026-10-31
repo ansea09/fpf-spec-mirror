@@ -6,12 +6,12 @@ section_id: "E.18.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4 — Solution"
-line_start: 111084
-line_end: 111169
+line_start: 111567
+line_end: 111658
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,11 +63,17 @@ TransformationFlowMathematicalDescription@Context:
 
 Exactly one of `DescribedTransformationFlowStructureRef?` and `DescribedTransformationFlowStructureNetworkRef?` is present. The first points to one E.18 TFS; the second points to one already selected E.18.NET network. `DescribedSliceOrLocusRef?` may cite an existing path, slice, `FlowPositionRef`, `ExposedFlowPositionRef`, member path, E.18.NET `NetworkCrossFlowRelationRowRef`, or other independently identified part without copying the fields that define that object. `CandidateMathObject` identifies the mathematical object; `ExpressionKind` names its expression family. `MappingMode` states how its relevant elements and operations correspond to the described subject, the direction of inference, and the assumptions on which that correspondence relies. Distinguish analogy, fitted representation, simulation and an exact structure-preserving map as C.29 requires. `PreservedStructure`, `LostStructure`, `DeclaredUse`, and `BoundaryStop` follow the C.29 discipline when the expression is claim-bearing. `PublicationFaceRef?` points to a separate E.17 publication face. The compact record has no generic neighboring-object reference. When a neighboring claim is materially needed, cite its exact C.2.1 claim-bearing episteme in the subject-specific account; identify an ontic subject or relation occurrence only through a separately named, correctly typed reference supplied by the pattern for that claim.
 
+For a one-TFS description, recover the E.18 selection S and the mappings that its expression uses: beta resolves participant positions to constituents; rho resolves each connection q to one selected relation occurrence r. Retain the full incidences, participant meanings, order and multiplicity needed by the declared inference. If r also participates as a constituent, the expression must preserve its identity across the participant and relation representations when an inference follows that connection.
+
+A valuation claim uses E.18:5.2’s tagged connection/cut domain, declared channels and regime. A value on a drawn binary edge is not automatically a value on r or on a cut. Name the cut’s path family, boundary and crossing incidences, and declare any aggregation rule. A coarse drawing may omit detail, but an inference that needs an omitted n-ary argument, multiplicity or boundary must return to the complete representation. Record that loss and stop the unsupported inference.
+
+Empty-path identity and associative concatenation belong to the mathematical description. Check E.18’s complete-path admissibility separately, including required side inputs, editions, modes and budgets. Those laws establish neither actual execution nor a prescribed Work order.
+
 #### E.18.2:4.2 - Expression families
 
 | Expression family | Use when it describes | Required boundary |
 |---|---|---|
-| graph, hypergraph, network expression, DSM, DMM, MDM, or matrix | dependency, internal transfer, exact cross-member relation, adjacency, interface placement, clustering, or change propagation inside one selected TFS or across one selected TFS network | not the selected TFS or network: apply E.18's one-TFS identity and selection constraints or E.18.NET's membership, boundary, and cross-member relation rules to select that ontic subject; E.18.2 defines only this description; not work occurrence, gate passage, or evidence |
+| graph, hypergraph, network expression, DSM, DMM, MDM, or matrix | dependency, selected internal relation, exact cross-member relation, adjacency, interface placement, clustering, or change propagation inside one selected TFS or across one selected TFS network | not the selected TFS or network: apply E.18's one-TFS identity and selection constraints or E.18.NET's membership, boundary, and cross-member relation rules to select that ontic subject; E.18.2 defines only this description; not work occurrence, gate passage, or evidence |
 | mathematical path or path slice | reachability, carried relation, currentness slice, refresh locality, or crossing-local replay | not a project procedure or performed sequence |
 | tuple, record, slot relation, or typed relation expression | slot positions, relation arity, locus typing, and value placement | not a new U-kind and not a replacement for A.6.5 slot discipline |
 | morphism, composition, category, operad, optic, or wiring expression | composition, interface, substitution, transfer law, or decomposition of selected transformations | not proof that the represented work can be performed or that interfaces are semantically compatible |

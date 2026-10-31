@@ -6,12 +6,12 @@ section_id: "F.18:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__009_worked-cases.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:7 — Worked Cases"
-line_start: 125233
-line_end: 125399
+line_start: 125822
+line_end: 125988
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -193,7 +193,7 @@ Recovered candidates:
 - signature or SlotSpecs under `A.6.0` and `A.6.5`;
 - claim-bearing interface description under `C.2.1`;
 - multi-view publication face or form under `E.17`;
-- publication availability, form expression, or carrier bearing under `E.24.PUB`;
+- publication availability, exact expression, reusable form conformance, form-mediated expression, or carrier bearing under `E.24.PUB`;
 - a system-role assignment under A.2.1 only when an occurrence belongs to a declared species, has an admitted System as holder, and has the local kind as assigned-kind value; any responsibility or authority relation remains separate.
 
 F.18 settlement: do not mint `PaymentInterfaceRole`. First recover which governed value the phrase names. Then name that value through its subject pattern.

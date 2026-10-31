@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.4.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
-line_start: 118948
-line_end: 119277
+line_start: 119532
+line_end: 119861
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -63,7 +63,7 @@ Typical moments:
 - a kind name is starting to carry assignment, capability, Method, Work, permission, responsibility, evidence, publication, or status claims that belong elsewhere; or
 - source prose says that a report, standard, dataset, theorem, dashboard, publication, or requirement has a “role”, and the writer must recover whether that wording denotes a system-role kind at all.
 
-**Primary EntityOfConcern.** A `SystemRoleKindDescription` is one `U.Episteme` constituted under C.2.1. Its exact EntityOfConcern is one local system-role kind. Its ClaimGraph makes the C.3 recovery basis readable: the candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. It also names the current `KindSignature` edition, effective `U.ReferenceScheme`, useful source or practice provenance, and only the neighboring relations needed by the described use. Provenance helps readers locate and compare the definition; it does not identify the kind. The description is not the kind, a classification judgment, assignment occurrence, holder system, capability, MethodDescription, performed Work, status-use relation, or publication form.
+**Primary EntityOfConcern.** A `SystemRoleKindDescription` is one `U.Episteme` constituted under C.2.1. Its exact EntityOfConcern is one local system-role kind. Its ClaimGraph makes the C.3 recovery basis readable: the candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. It also names the current `KindSignature` edition, the description's effective reference scheme, useful source or practice provenance, and only the neighboring relations needed by the described use. Provenance helps readers locate and compare the definition; it does not identify the kind. The description is not the kind, a classification judgment, assignment occurrence, holder system, capability, MethodDescription, performed Work, status-use relation, or publication form.
 
 **Primary working reader.** The first reader is an engineer-manager, analyst, Method author, or pattern author who must help people recognize the kind while keeping kind, candidate classification, assignment, capability, Method, Work, evidence use, status use, and publication use distinct.
 
@@ -120,7 +120,7 @@ Without this pattern:
 
 ### F.4:4 - Solution
 
-Constitute one `SystemRoleKindDescription` through C.2.1. Its ClaimGraph describes one exact local system-role kind, and that kind is its EntityOfConcern. It makes the kind's candidate domain, operative membership condition, intended member/non-member boundary, continuity rule, current `KindSignature`, and effective `U.ReferenceScheme` recoverable. It may record source or practice provenance so readers can find and compare definitions, but provenance is not a kind-identity key. The description gives readers enough to recognize and check the kind while routing neighboring claims to their direct rules.
+Constitute one `SystemRoleKindDescription` through C.2.1. Its ClaimGraph describes one exact local system-role kind, and that kind is its EntityOfConcern. It makes the kind's candidate domain, operative membership condition, intended member/non-member boundary and continuity rule recoverable, together with its current `KindSignature`. State the description's effective reference scheme for interpreting those claims. It may record source or practice provenance so readers can find and compare definitions, but provenance is not a kind-identity key. The description gives readers enough to recognize and check the kind while routing neighboring claims to their direct rules.
 
 The following is a content checklist, not a relation signature or mandatory record.
 

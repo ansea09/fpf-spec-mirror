@@ -6,12 +6,12 @@ section_id: "A.1.STM:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__002_practitioner-entry.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:0 — Practitioner entry"
-line_start: 4099
-line_end: 4114
+line_start: 4102
+line_end: 4117
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -46,7 +46,7 @@ keywords:
 
 **Memorable reminder.**
 
-> Agree what system must succeed for whom and in what use. Connect the needed outside effect, functioning, construction, ways of obtaining it, capable creators and their cooperation. Repeat for the creators that must themselves be obtained. Make the answers fit together while keeping the common target in view. Follow results into use; when a premise changes, revise the answers that depend on it and renew the affected agreement.
+> Agree what must change outside and for whom. Ask what the system must do, name the system sought by that function, compare its possible constructions, then the ways to obtain them, the contributions needed and capable creators. Make their answers and working conditions fit together. Repeat for needed creators without losing the common target. Follow results into use; revise dependent answers and agreements when a premise changes.
 
 This is the Plain long mantra. Section 4 explains why the questions connect and how to use the reminder without treating it as a fixed work sequence.
 

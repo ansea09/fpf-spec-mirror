@@ -6,12 +6,12 @@ section_id: "E.21:5"
 section_title: "Archetypal Grounding - worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__006_archetypal-grounding-worked-slices.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:5 — Archetypal Grounding - worked slices"
-line_start: 113746
-line_end: 113853
+line_start: 114235
+line_end: 114342
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

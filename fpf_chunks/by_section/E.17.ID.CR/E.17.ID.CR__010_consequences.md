@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__010_consequences.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.ID.CR — Compare Sources Within a Shared Review Frame (ComparativeReviewUnit)"
   - "E.17.ID.CR:9 — Consequences"
-line_start: 108840
-line_end: 108847
+line_start: 109240
+line_end: 109247
 dependencies:
   - "A.15"
   - "A.15.2"

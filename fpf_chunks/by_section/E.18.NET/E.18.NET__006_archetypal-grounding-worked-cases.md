@@ -6,12 +6,12 @@ section_id: "E.18.NET:5"
 section_title: "Archetypal Grounding — worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__006_archetypal-grounding-worked-cases.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:5 — Archetypal Grounding — worked cases"
-line_start: 111949
-line_end: 112042
+line_start: 112438
+line_end: 112531
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -34,7 +34,6 @@ dependencies:
   - "E.18.2"
   - "E.18.3"
   - "F.18"
-  - "U.Transfer"
 keywords:
 ---
 
@@ -42,9 +41,9 @@ keywords:
 
 #### E.18.NET:5.1 - Same surface vocabulary, different ontic answers
 
-**Several valuations of one TFS.** A cooling-loop review compares nominal-load and emergency-load valuations of the same exact cooling-loop `TransformationFlowStructure`. Both valuations use the same structure positions and internal `U.Transfer` occurrences. The load value, path slice, and local tags differ; the TFS identity does not. E.18.NET is not used.
+**Several valuations of one TFS.** A cooling-loop review compares nominal-load and emergency-load valuations of the same exact cooling-loop `TransformationFlowStructure`. Both valuations retain the same A.22 selection O/R/C/F and use the E.18 connection/cut domain under their declared regimes. A counterfactual load value, path slice or local use tag may differ while those discriminators remain unchanged. Replacing an actual run, applied selection constraint or selected occurrence first reopens the TFS identity. E.18.NET is not used.
 
-**Internal coffee subflow.** A coffee-brewing TFS exposes a preparation portion containing grinding, dosing, and wetting positions plus their parent-internal `U.Transfer` occurrences. Its entry and exit remain positions of the brewing TFS. The practitioner uses E.18's `SubflowRef`; no second TFS or network is created.
+**Internal coffee subflow.** A coffee-brewing TFS exposes a preparation portion containing grinding, dosing, and wetting positions plus their selected parent-internal relation occurrences with all participants retained. Its entry and exit remain positions of the brewing TFS. The practitioner uses E.18's `SubflowRef`; no second TFS or network is created.
 
 **Independent network.** A roastery-production TFS and a café-brewing TFS concern different objects and have separate Work occurrences, valuation boundaries, and architecture change cadence. The applicable supply pattern defines its predicate and applicability, and the current delivery-and-acceptance facts satisfy that predicate for a dispatch position in the first and an accepted-stock position in the second. For ordinary first use, fill the selected network directly:
 

@@ -6,16 +6,18 @@ section_id: "E.17.1:4"
 section_title: "Solution - one catalogue episteme with local bundle declarations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__005_solution-one-catalogue-episteme-with-local-bundle-declarations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:4 — Solution - one catalogue episteme with local bundle declarations"
-line_start: 106350
-line_end: 106445
+line_start: 106745
+line_end: 106845
 dependencies:
   - "A.16.0"
   - "A.22"
   - "A.6.2-A.6.4"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.7"
   - "C.13"
   - "C.2.1"
@@ -53,9 +55,11 @@ This lets `MultiViewDescribing` import a finite viewpoint family from a stable c
 
 Open the complete constitution below for the affected catalogue edition when authoring or admitting a new L, when L or edition identity or reference resolution is disputed, or when a named later use needs the catalogue's ClaimGraph, subject, or scheme as inspectable premises. Reuse an existing check while that edition, its effective scheme, and the relied-on premises stay unchanged:
 
-- `G_L` is the exact `U.ClaimGraph` that states the catalogue scope, the local family declarations, the referenced viewpoint editions, their target-kind compatibility conditions, and the edition-change rule;
+- `G_L : NonemptyClaimContent` is the catalogue's complete interpreted claim content (`ClaimGraph`), stating its scope, local family declarations, referenced viewpoint editions, target-kind compatibility conditions, and edition-change rule;
 - `K_L` is the exact catalogue subject: the independently identified finite C.13 collection of already admitted viewpoint episteme editions whose recurring reuse groupings L describes. Its collection identity, exact members, obtaining membership relations, and identity rule are established before L; neither the catalogue nor a declaration creates them; and
-- `R_L : U.ReferenceScheme` is the exact effective scheme under which the catalogue's ordinary library, edition, and family designators resolve; each `U.ViewpointRef` resolves to exact P; target-kind criteria and compatibility claims are interpreted; and reference, omission, provenance, and edition-change rules are read.
+- `R_L : EpistemeInterpretationScheme` is the exact effective rule collection under which the catalogue's ordinary library, edition, and family designators resolve; each `U.ViewpointRef` resolves to exact P; target-kind criteria and compatibility claims are interpreted; and reference, omission, provenance, and edition-change rules are read. C.2.1:4.1.2 supplies both ranges; the catalogue requires the full content and rule coverage stated here.
+
+An eligible replacement for `R_L` must also resolve the actual catalogue designators and interpret its criteria; range membership alone supplies none of those results. A missing rule leaves the affected retrieval or compatibility judgement unresolved. Each referenced P retains its own effective scheme and E.17.0 membership; resolving its reference under `R_L` does not transfer the catalogue's scheme to P.
 
 `EpistemeConstitutionRelation(G_L, K_L, R_L)` must obtain. The participant-determined triple `<G_L, K_L, R_L>` identifies exact catalogue episteme L. If a proposed catalogue has only a file, label, list, or card but no truthful exact `K_L` or effective `R_L`, stop: L has not yet been constituted.
 
@@ -123,9 +127,12 @@ Construction, identity viewing, transformation, declaration membership, selectio
 
 A published library is the same selected C.2.1 episteme edition participating in exact E.24.PUB relations:
 
-- `PublicationFormExpressionRelation` relates that selected edition, one exact publication form, and one exact bounded-use declaration;
-- `PublicationFormBearingRelation` relates one exact `U.PresentationCarrier` and that form; and
-- `EpistemePublicationRelation` relates the selected edition, audience declaration, bounded-use declaration, form, and carrier for one maximal continuous availability interval.
+- `PublicationExpressionRelation` relates that selected edition, one independently identified expression, and one exact bounded-use declaration;
+- `PublicationExpressionBearingRelation` relates one independently identified physical or digital carrier to that expression;
+- `PublicationFormConformanceRelation` relates the expression to any selected reusable publication form whose rules it satisfies; and
+- `EpistemePublicationRelation` relates the selected edition, audience declaration, bounded-use declaration, expression, and carrier for one maximal continuous availability interval.
 
-Changing a participant or restoring availability after a gap yields another publication occurrence under E.24.PUB; it does not reidentify unchanged L or any member viewpoint. Rendering, printing, or uploading is separate system-performed `U.Work`. C.29 applies when a diagram or catalogue rendering represents independently recovered declarations or viewpoint epistemes. Publication, representation, form, carrier, or rendering grants no viewpoint or view membership and makes no represented world-side relation obtain.
+When form-mediated expression and bearing are claimed, retain E.24.PUB's corresponding relations with the same expression as witness. A change of exact publication need not interrupt broader availability of the library through its permitted expressions and carriers.
+
+Changing a participant or restoring availability after a gap yields another publication occurrence under E.24.PUB; it does not reidentify unchanged L or any member viewpoint. Rendering, printing, or uploading is separate system-performed `U.Work`. For a diagram or catalogue rendering, recover the correspondence between its elements and independently identified declarations or viewpoint epistemes. Use A.6.3.RT/A.6.3.RT.OE when constructing an expression or changing its representation scheme. Add C.29 when choosing or using a mathematical representation raises an inference or transfer question. Publication, representation, form, carrier, or rendering grants no viewpoint or view membership and makes no represented world-side relation obtain.
 

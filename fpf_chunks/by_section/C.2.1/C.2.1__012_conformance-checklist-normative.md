@@ -6,12 +6,12 @@ section_id: "C.2.1:11"
 section_title: "Conformance Checklist  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__012_conformance-checklist-normative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:11 — Conformance Checklist  (normative)"
-line_start: 51489
-line_end: 51506
+line_start: 51833
+line_end: 51850
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -64,7 +64,7 @@ keywords:
 8. **Description boundary.** Recover the EntityOfConcern and description episteme under their C.2.1 identities. Different constitution triples identify different epistemes. In permitted self-description, the EntityOfConcern designation resolves to that same episteme; self-reference supplies no assurance by itself.
 9. **Specification use.** Specification force is admitted only when the E.10.D2 conditions obtain: checkable claims and a named harness or validation relation. A selected viewpoint is preserved or updated only for the named describing use whose reliance depends on it. Naming and appearance do not grant specification force.
 10. **Agency, work-result, and identity-inception boundary.** Only systems perform Work. `A.6.1` declares typed argument and result positions; neither a position nor its binding says when the bound entity first existed. When a current claim asks that question, the subject's direct inception pattern must define the predicate and identity rule, and current case facts must satisfy them. When inception is attributed to Work, apply A.15.PROD:4.5 and retain the exact specification and applicability basis, actual effects, earliest satisfying boundary, and `identityClosingWork`; a missing required basis stops that positive claim. If no subject inception governor exists, return one `missing-governor` blocker naming the entity or candidate basis, facts, required predicate, and receiving use. When no first-existence claim is current, do not open the inception boundary. No morphism, heading, representation, form, bare A.6.1 `result`, generic work result, or universal production relation supplies that fact.
-11. **Publication boundary.** Distinguish the episteme from its publication occurrence, form and carrier. A `U.View` is that same episteme classified under E.17.0's conformance condition. Plain `published episteme` states publication participation; a receiving classification need follows C.3.2 and public-kind admission follows E.24.UK.
+11. **Publication boundary.** Distinguish the episteme from its publication occurrence, particular expression, reusable form and carrier. A `U.View` is that same episteme classified under E.17.0's conformance condition. Plain `published episteme` states publication participation; a receiving classification need follows C.3.2 and public-kind admission follows E.24.UK.
 12. **Representation boundary.** Tuple components, graph elements, schema fields, and notation tokens remain representation elements. An explicit correspondence may relate one to an independently recovered object without identifying the two or changing the represented direct relation's participants.
 13. **Transformation and Bridge-use boundary.** A morphing, viewing, or retargeting declaration states which C.2.1 identity discriminators are preserved or changed and names the exact correspondence or retargeting relation used. For cross-context sense use, F.9 separately establishes the exact Bridge; one C.2.1 assertion about that Bridge carries `<u,d,r,t>` and polarity; A.10 handles ordinary evidence reliance; B.3 adds a result only when an actual named assurance claim is current; and the direct receiver defines or tests any actual Work, assertion, publication, relation, or operation application. The mathematical morphism performs no work, and none of these objects authorizes another.
 14. **Recursive assurance.** Self-reference and meta-description do not form a minimal justification cycle; assurance terminates in independently governed evidence, observation, or formal derivation.

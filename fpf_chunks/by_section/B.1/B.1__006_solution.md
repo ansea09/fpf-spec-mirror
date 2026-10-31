@@ -6,12 +6,12 @@ section_id: "B.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__006_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:4 — Solution"
-line_start: 40975
-line_end: 41061
+line_start: 41064
+line_end: 41150
 dependencies:
   - "A.1"
   - "A.14"

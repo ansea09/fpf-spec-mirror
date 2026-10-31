@@ -6,12 +6,12 @@ section_id: "A.1.STM:3"
 section_title: "The attention map"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__005_the-attention-map.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:3 — The attention map"
-line_start: 4137
-line_end: 4155
+line_start: 4140
+line_end: 4163
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -40,20 +40,25 @@ keywords:
 
 ### A.1.STM:3 - The attention map
 
-Keep these regions visible. They are questions and result locations, not stages or fields of a record.
+Keep these connected questions available while reasoning about the project. Use the answers already sufficient for the current decision, and investigate a gap where it can change that decision. The rows are reminders, not mandatory fields or stages. One ordinary sentence can answer more than one question.
 
-| Region | Plain question | Subject pattern or honest stop |
+| Region | Plain question | What the answer enables |
 | --- | --- | --- |
-| Outside change and use | What should become different for a beneficiary or relying use? | Use the relevant problem, plan, decision, promise, or description pattern. Return a missing or contested rationale when the expected use is not supported. |
-| Common project target | Which system is the joint undertaking meant to make successful in that use, and which boundary are participants agreeing? | Use section 4.1 for the shared target basis, A.15.6 for plan or decision designation, and A.1/A.1.SCR for an actual holder. Keep a future holder in description content until identity inception. Test any technical system-role classification and assignment under A.2/A.2.1. A local system-of-interest need not be the project target. |
-| Runtime transformation and system participation | Which exact environment or input referent actually changes in use, and how does the already existing project target system participate? | Use A.3.4 for an actual bounded change of one continuing referent and the exact dynamics, interaction, causality, participation, or Work pattern for the system-side claim. Required behaviour, a use scenario, or an observed output proves no transformation. Causal or interaction participation supplies no work-facing assignment, Method, or Work. |
-| Inside and architecture | Which internal organization could support the outside use? | Use C.32.P2S and the C.30 family. Keep architecture choice, selected structures, actual structures, descriptions, and views distinct. |
-| Making or changing systems | Which Method, Work, existing materials or parts, production facts, and builder systems are needed? | Use A.3.1, A.3.4, the A.15 family, A.15.PROD, and A.12. Do not transform a system before it exists or infer change from Method or Work alone. |
-| Joint network and builders | Which independently identified transformation-flow structures must be considered together for operation, production, identity inception, later change, verification, feedback, and recursive builders? | Use E.18 for each TFS and E.18.NET only when exact cross-member relation occurrences and endpoint bindings obtain. Otherwise keep a Plain provisional map and name the missing member, governor, predicate result, occurrence, or binding. |
-| Local contribution | What is the team's exact subject and which supported relations connect its result to release or use? | Use the subject and relation patterns; use C.28 only for an actual causal-use claim. No generic `contributesTo` edge is implied. |
-| Evidence, assurance, and return | What supports each load-bearing answer, what reliance is claimed, and what changed fact reopens it? | Use A.10 for claim-bound evidence and B.3 only for a named assurance use. Reopen the smallest answer whose basis changed. |
+| Outside change and use | What should become different or remain possible, for whom and under what conditions? | Justify the result sought and its success conditions; preserve a missing or contested rationale. |
+| Common project target | Which system is the joint undertaking meant to make successful in that use, and what boundary are participants agreeing? | Connect local subjects and contributions to the same target through section 4.1. A future system can be described before an actual holder exists. |
+| Functioning and the system sought | What must the system do in use? What kind of system are we seeking by that function? | State the required behaviour, then a functional description such as "coolant circulator" and the conditions for a suitable candidate. Section 4.3 explains how this opens the choice of constructions. |
+| Construction | What organization, parts or materials could provide that functioning? | Compare possible constructions and their operating conditions through C.32.P2S and the C.30 family. |
+| Ways of obtaining the system | How could the chosen construction be produced, changed, verified and kept usable? | Identify applicable Methods and what they require. A.3.1 and the A.15 family distinguish a way of doing from its plan, performance and result. |
+| Creator contributions and fit | What work and results do those Methods require, and which people, teams, equipment or other systems can supply them here? | Select or develop capable creators. A.2.2 compares their qualified abilities with the demand; an occupation name or assignment does not settle that comparison. |
+| Cooperation and needed creators | How can the contributions be available together, and which creators must themselves be obtained or changed? | Resolve shared resources, access, authority, timing and handovers; repeat the reasoning for a missing builder while retaining the common target. Section 4.3 develops these connections. |
+| Local result and receiving use | What is our present subject, who or what uses the result next, and how does that use serve the target? | Preserve a useful component, instrument, description or argument at its own scope and establish the relation the next use needs. |
+| Grounds and revision | What supports the answers relied on together, what remains unknown, and what changed condition sends us back? | Use section 4.3.1 to compare whole proposals and revise affected answers. Use A.10 when evidence support is the question and B.3 for a named assurance use. |
 
-Use the connected reasoning in section 4 to establish the common basis. With that basis available, read **backward** across these regions to justify a needed result and locate the first unsupported answer. This is logical attention, not didactic order, a WorkPlan, dated Work order, `U.Transfer`, or transformation direction.
+With the common basis available, read **backward** to justify the result needed and locate an unsupported dependency. Read **forward** to ask whether the proposed combination could obtain that result, and later to follow what actually happened. Logical dependence, teaching order and planned or performed Work order remain distinct.
 
-Trace **forward** through independently grounded facts: performer systems and assignments, dated Work, changes of continuing referents, production participation, identity inception, completion, later use, and environment-side change. In the runtime region, identify the exact environment or input referent and its A.3.4 change separately from the direct causal, interaction, functioning, participation, or Work claim for the already existing project target system; add work-facing assignment, Method, or Work only when those claims separately obtain. These facts may occupy several TFS or network members. Shared identity or temporal adjacency connects none of them without a directly governed relation occurrence and its endpoint bindings.
+**When actual relations or a network are the question.** A proposal can be compared before it has been realized. An actuality claim needs the facts for that claim. For an actual runtime change, identify the environment or input referent that changed under A.3.4 separately from the existing target system's functioning, causal, interaction or participation claim. Add an assignment, Method or Work claim only when it is needed and independently supported. A required effect or an observed output alone does not establish that change or those system-side relations.
+
+For an actual production account, distinguish Work, changes of continuing materials or parts, production participation, the new entity's identity inception, completion and later use through A.15.PROD and the relevant subject patterns. A system cannot undergo a change before it exists. Use an available recognition result for an actual system; section 7 supplies the return when systemhood is unresolved.
+
+When the receiving question needs a transformation-flow structure or a network of such structures, use E.18 to identify each TFS and E.18.NET for the network. The latter requires independently identified members, exact obtaining cross-member relation occurrences, complete endpoint bindings, applied constraints and the use frame. Production, operation, verification, feedback and recursive builder branches can concern different members. A shared entity, temporal adjacency or a drawn arrow supplies no relation between them. Keep a proposed network provisional and name the missing member, governor, predicate result, occurrence or binding. An ordinary project explanation need not make this network claim.
 

@@ -6,12 +6,12 @@ section_id: "A.6.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__008_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:7 — Conformance Checklist"
-line_start: 16979
-line_end: 17002
+line_start: 17010
+line_end: 17033
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -53,7 +53,7 @@ keywords:
 ### A.6.1:7 - Conformance Checklist
 
 1. **Exact episteme.** One `U.Mechanism` episteme and its exact `EntityOfConcernRef` are recoverable.
-2. **Identity.** Content, EntityOfConcern, and effective `U.ReferenceScheme` remain recoverable.
+2. **Identity.** Content, EntityOfConcern, and effective `ReferenceScheme` remain recoverable.
 3. **Signature dependence and family-level anchors.** The mechanism uses A.6.0 signature content and adds operation and admission semantics without becoming a second root beside `U.Episteme`. One truthful family-level `SubjectKind` and `RangedValueKind` pair is connected to the exact argument or result meanings that realize those declarations; optional `ResultKind` is present only for one distinct family-level result kind. Additional operation-local ValueKinds remain local. If no common pair exists, split the declaration or stop instead of using a union or generic input or output list.
 4. **Typed operation declarations.** Every reused operation has declaration-local argument and result meanings, exact ValueKinds, binding designation rules, and semantic cardinalities when needed. None is an A.6.5 SlotSpec.
 5. **Application semantics.** Every claimed particular application has an exact application predicate, identity rule, extent rule, and recoverable occurrence boundary.

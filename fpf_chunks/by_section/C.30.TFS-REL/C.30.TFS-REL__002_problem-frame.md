@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:1 — Problem frame"
-line_start: 74294
-line_end: 74369
+line_start: 74678
+line_end: 74755
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,6 +67,8 @@ Use this pattern when an architecture discussion depends on one exact selected `
 
 First identify the architecture locus, the selected E.18 TFS or E.18.NET network, and what this use lets the practitioner inspect or decide. An adequate existing account can finish the question. `ArchitectureTransformationFlowStructureRelation` is an optional record for retaining those distinctions. The locus can be an actual `ArchitectureRelation` occurrence, exact selected architecture structure, exact architecture-description or structural-view episteme, or bounded architecture claim. For a network, distinguish an actual containing-holon relation, a bounded claim about one named holon, and a use spanning several named holons.
 
+When the optional scheme field is used, supply the rule collection by value in the C.2.1:4.1.2 range `EpistemeInterpretationScheme`. It must interpret the designations and claims used by this architecture-flow record.
+
 ```text
 ArchitectureTransformationFlowStructureRelation:
 architectureRelationOccurrenceRefs?:
@@ -76,16 +78,16 @@ architectureStructuralViewRefs?:
 architectureDescriptionRefs?:
 architectureUseConcernRefs?:
 claimScope?: U.ClaimScope, byValue
-effectiveReferenceScheme?: U.ReferenceScheme, byValue
-modelUseStructureRef?: U.StructureRef
+effectiveReferenceScheme?: EpistemeInterpretationScheme, byValue
+modelUseStructureRef?: SelectedStructureReference
 empiricalGroundingRelationRefs?:
 
 functionalStructureViewRefs?:
 functionalElementClaimRefs?:
 functionalBehaviorClaimRefs?:
 requiredOrDesiredEffectClaimRefs?:
-actualTransformationRefs?:
-transformerSideFillerRefs?:
+actualTransformations?:
+transformerSideSystems?:
 candidateBearerRefs?:
 inputConditionRefs?:
 outputConditionRefs?:

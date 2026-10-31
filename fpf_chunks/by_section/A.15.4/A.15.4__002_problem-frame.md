@@ -6,12 +6,12 @@ section_id: "A.15.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:1 — Problem Frame"
-line_start: 30402
-line_end: 30419
+line_start: 30437
+line_end: 30454
 dependencies:
   - "A.10"
   - "A.13"

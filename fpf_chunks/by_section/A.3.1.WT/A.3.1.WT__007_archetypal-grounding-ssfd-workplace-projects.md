@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:5"
 section_title: "Archetypal Grounding - SSFD Workplace Projects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__007_archetypal-grounding-ssfd-workplace-projects.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:5 — Archetypal Grounding - SSFD Workplace Projects"
-line_start: 10428
-line_end: 10455
+line_start: 10457
+line_end: 10484
 dependencies:
   - "A.10"
   - "A.15.1"

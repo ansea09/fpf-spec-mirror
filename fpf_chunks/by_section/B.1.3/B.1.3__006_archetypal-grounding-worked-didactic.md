@@ -6,12 +6,12 @@ section_id: "B.1.3:5"
 section_title: "Archetypal grounding (worked, didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__006_archetypal-grounding-worked-didactic.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:5 — Archetypal grounding (worked, didactic)"
-line_start: 41746
-line_end: 41787
+line_start: 41837
+line_end: 41878
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,7 +48,7 @@ keywords:
 This is a didactic evidence-composition case, not a clinical recommendation. The receiving question concerns a treatment's pain outcome for an identified acute low-back-pain population within six weeks. The exact population and outcome, not a label or taxonomy operation, identify the subject.
 
 * **Inputs:** `E₁` is a randomized trial, `E₂` an observational study, and `E₃` a mechanistic model. Retain their designs, findings, uncertainty, assumptions, and scope. A bare “R=0.84/0.55/0.60” list has no declared common quantity here and cannot support a numerical aggregate. Likewise, “medium/wide/narrow” is not a substitute for actual ClaimScope.
-* **Synthesis:** retain protocols, datasets, analysis scripts, and other participating carriers in the SCR. Establish any dosage or outcome mapping from its actual measurement basis; units named mg and IU do not themselves establish a conversion. Keep chronic cohorts and different outcomes separate unless a warranted transport relation supports the receiving claim.
+* **Synthesis:** record the protocols, datasets and analysis scripts used, together with the concrete carriers from which they were obtained, in the SCR. Establish any dosage or outcome mapping from its actual measurement basis; units named mg and IU do not themselves establish a conversion. Keep chronic cohorts and different outcomes separate unless a warranted transport relation supports the receiving claim.
 * **Necessary-premise case:** if the proposed inference requires an outcome mapping that is unsupported, withhold that mapped inference. Retain the trial's narrower source-scale conclusion rather than discard every source.
 * **Complementary case:** a limited `E₂` may help assess a confounding explanation left open by `E₁`; `E₃` may constrain a mechanism without establishing the clinical effect size. Explain those contributions and their limits. The minimum of three unexplained scores neither captures them nor defeats the existing trial conclusion.
 * **Dependence case:** if two reports reuse a cohort or share an outcome-measurement bias, do not count them as two independent confirmations. Different designs alone are insufficient to establish different biases.

@@ -6,12 +6,12 @@ section_id: "C.40.OD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OD/C.40.OD__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
   - "C.40.OD:4 — Solution"
-line_start: 87936
-line_end: 88092
+line_start: 88324
+line_end: 88480
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"

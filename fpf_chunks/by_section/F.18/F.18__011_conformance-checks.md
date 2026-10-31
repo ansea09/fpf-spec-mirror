@@ -6,12 +6,12 @@ section_id: "F.18:9"
 section_title: "Conformance Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__011_conformance-checks.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:9 — Conformance Checks"
-line_start: 125414
-line_end: 125439
+line_start: 126003
+line_end: 126028
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,7 +50,7 @@ Use these checks before a durable name is reused in a pattern. If an F.17 row is
 | Check | Passing condition |
 | --- | --- |
 | Governed value | The named value is recoverable and belongs to a subject pattern. |
-| Interpretation | The effective `U.ReferenceScheme` is carried by value and the local sense is named; model-use structure, claim scope, project work, and other locality relations remain separate. |
+| Interpretation | The effective `EpistemeInterpretationScheme` value interprets the complete naming content and named local sense; model-use structure, claim scope, project work, and other locality relations remain separate. |
 | Kind | The kind is not inferred from spelling, source, or practice. A system-role kind is already recoverable through its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. |
 | Candidate set | Unless a cited external standard fixes the label under §4.1, the smallest set covers at least two live head families. Every plausible neighbouring-object reading is examined; any forced untested exception is explicit in `CandidateCoverage` and `RefreshCondition`. |
 | System-role boundary | System-role kind, classification, assignment, holder, capability, Method, Work, evidence, status, participant meaning, declaration place, and representation position are not collapsed. |

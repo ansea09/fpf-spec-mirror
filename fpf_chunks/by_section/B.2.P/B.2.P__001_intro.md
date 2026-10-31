@@ -6,12 +6,12 @@ section_id: "B.2.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__001_intro.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:intro — Intro"
-line_start: 43645
-line_end: 43650
+line_start: 43736
+line_end: 43741
 dependencies:
   - "A.1.1"
   - "A.10"

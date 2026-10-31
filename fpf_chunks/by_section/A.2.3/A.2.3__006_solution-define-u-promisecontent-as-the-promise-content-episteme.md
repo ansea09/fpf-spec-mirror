@@ -6,12 +6,12 @@ section_id: "A.2.3:4"
 section_title: "Solution - Define U.PromiseContent as the promise-content episteme"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__006_solution-define-u-promisecontent-as-the-promise-content-episteme.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:4 — Solution - Define U.PromiseContent as the promise-content episteme"
-line_start: 5544
-line_end: 5745
+line_start: 5567
+line_end: 5768
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -58,7 +58,7 @@ keywords:
 ### A.2.3:4 - Solution - Define `U.PromiseContent` as the promise-content episteme
 
 **Definition (normative).**
-A **`U.PromiseContent`** is an externally oriented promise-content episteme. Its claim content states a promised consumer-side outcome, any eligibility predicate, and acceptance criteria by which fulfilment is evaluated. Its optional `accessSpec` describes the access method. Interpretation is fixed by its effective `U.ReferenceScheme`; `U.ClaimScope` states where the claims hold.
+A **`U.PromiseContent`** is an externally oriented promise-content episteme. Its claim content states a promised consumer-side outcome, any eligibility predicate, and acceptance criteria by which fulfilment is evaluated. Its optional `accessSpec` describes the access method. Interpretation is fixed by its effective `ReferenceScheme`; `U.ClaimScope` states where the claims hold.
 
 `U.PromiseContent` is not a deontic commitment relation. One or more explicit `U.Commitment` occurrences under A.2.8 may have the promise content in their referents position; the promise-content episteme does not obligate an actor by itself.
 
@@ -79,15 +79,15 @@ PromiseContentIdentity = <
 * **FPF kind:** `U.Episteme`.
 * **Time stance:** the promise content can be authored before delivery; later exact delivery-work facts, affected entities, post-work states, and any current delivery or acceptance relations are tested against the declared outcome and acceptance predicates. Evaluation work and the actual operation-result binding remain separate; when a verdict episteme is constituted, C.2.1 and A.15.PROD govern its identity and inception, while A.10 evidence relations support the relied-on assertions.
 * **Orientation:** consumer-facing promise claims, not provider capability claims.
-* **Publication boundary:** The selected promise-content `U.Episteme` may participate in an exact `EpistemePublicationRelation` for a declared audience and bounded use. `PublicationFormExpressionRelation` relates that selected edition to its publication form, and `PublicationFormBearingRelation` relates a `U.PresentationCarrier` to the form it bears. Promise-content identity follows the C.2.1 episteme identity rule; no publication-relation occurrence, form, or carrier enters that rule.
+* **Publication boundary:** The selected promise-content `U.Episteme` may participate in an exact `EpistemePublicationRelation` for a declared audience and bounded use. `PublicationExpressionRelation` relates that selected edition, an independently identified expression, and the bounded-use declaration; `PublicationExpressionBearingRelation` relates an independently identified carrier to that expression. A selected reusable form constrains the expression through `PublicationFormConformanceRelation`; E.24.PUB's form-mediated expression and bearing claims require that same expression as witness when used together for availability. Promise-content identity follows the C.2.1 episteme identity rule; no publication-relation occurrence, expression, form, or carrier enters that rule.
 
 #### A.2.3:4.1 - Promise-content schema
 
 ```text
 U.PromiseContent : U.Episteme {
-  content                  : U.ClaimGraph,
+  content                  : NonemptyClaimContent,
   promisedOutcomeSpecRef   : U.EpistemeRef, resolving to OutcomeSpec,
-  effectiveReferenceScheme: U.ReferenceScheme,
+  effectiveReferenceScheme: EpistemeInterpretationScheme,
   providerSystemRoleKindRef : U.KindRef,
   consumerSystemRoleKindRef?: U.KindRef,
   claimScope               : U.ClaimScope,
@@ -97,10 +97,10 @@ U.PromiseContent : U.Episteme {
 }
 ```
 
-* `content` carries the promised-outcome, eligibility, and acceptance claims together with the optional `accessSpec` value when an access-method description is current; it is not an untyped text slot.
+* `content` is the complete interpreted promise content: promised-outcome, eligibility, and acceptance claims together with the optional `accessSpec` value when an access-method description is current. It satisfies `NonemptyClaimContent` under C.2.1:4.1.2; a graph representation or document supplies it only through a recoverable interpretation.
 * `providerSystemRoleKindRef` and `consumerSystemRoleKindRef` are promise-content fields typed by the existing `U.KindRef`; each resolves to one exact local system-role kind. `accessSpec`, `acceptanceSpec`, and `unitOfDelivery` are episteme values carried by value in the claim graph; a publication or other declared representation may express them through `U.EpistemeRef` values that resolve to those same epistemes without changing their kinds. Changing one of these content values or resolved kind references changes `content` and therefore the promise-content identity.
 * `promisedOutcomeSpecRef` resolves to the A.2.3:4.1.1 `OutcomeSpec` episteme.
-* `effectiveReferenceScheme` makes the claim graph and its references interpretable.
+* `effectiveReferenceScheme` is a C.2.1:4.1.2 `EpistemeInterpretationScheme` value whose rules and domains interpret this complete claim content and its references. Establish that it covers every acceptance criterion used; then judge fulfilment separately from the selected work facts and post-work states under the stated evaluation Method.
 * `providerSystemRoleKindRef` and `consumerSystemRoleKindRef` identify local work-facing kinds, not particular providers or consumers. When an actual assignment is claimed, identify its occurrence and directly declared species under `U.SystemRoleAssignment`.
 * `claimScope` is the exact `U.ClaimScope` over which the promise claims hold; it states the applicable operating conditions, populations, locales, and other admitted slices instead of leaving extent implicit.
 * `accessSpec` describes the access Method for an eligible consumer. Actual requests follow the performer-and-Work conditions in §4.3; an access-point system remains separate.
@@ -210,7 +210,7 @@ This mini-schema is a recommendation only: it does not admit another U-kind. An 
 #### A.2.3:4.3 - Promise content, delivery work, and evaluation work
 
 * **Before delivery work:**
-  The promise-content episteme declares its effective `U.ReferenceScheme`, named `U.ClaimScope`, promised outcome specification, access specification when current, and acceptance specification. A.2.2 states the provider System's qualified ability. A separate capability-fit predicate compares that claim's work conditions and attained bounds with the conditions and thresholds selected for the planned delivery work, including any threshold stated by the chosen method description. Method-selection work may yield a C.11 `ChoiceResult`; `enactsMethod` obtains between the later delivery-work occurrence and the selected `U.Method`. A relied-on episteme is a `U.MethodDescription` only when it meets A.3.2 membership, and the promise-content or acceptance claim may cite it for the named use.
+  The promise-content episteme declares its effective `ReferenceScheme`, named `U.ClaimScope`, promised outcome specification, access specification when current, and acceptance specification. A.2.2 states the provider System's qualified ability. A separate capability-fit predicate compares that claim's work conditions and attained bounds with the conditions and thresholds selected for the planned delivery work, including any threshold stated by the chosen method description. Method-selection work may yield a C.11 `ChoiceResult`; `enactsMethod` obtains between the later delivery-work occurrence and the selected `U.Method`. A relied-on episteme is a `U.MethodDescription` only when it meets A.3.2 membership, and the promise-content or acceptance claim may cite it for the named use.
 
 * **Run‑time:**
   For request or visit Work, use A.13 to identify the actual consumer System `S`, then let A.15.1 admit `requestWork` independently. If the current use must also state under which assignment the request was performed, F.6 checks `performedUnderAssignment(requestWork, consumerRA)` against the same assignment used by A.13 and compares `S` with `consumerRA.HolderSystemSlot`.

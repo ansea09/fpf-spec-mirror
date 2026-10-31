@@ -6,12 +6,12 @@ section_id: "A.6.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__013_relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:12 — Relations"
-line_start: 23969
-line_end: 23992
+line_start: 24004
+line_end: 24027
 dependencies:
   - "A.10"
   - "A.14"
@@ -36,7 +36,6 @@ dependencies:
   - "F.18"
   - "F.9"
   - "U.KindBridge"
-  - "U.Transfer"
 keywords:
 ---
 
@@ -58,7 +57,7 @@ keywords:
 
 **Coordinates with A.2.6, A.7, and E.24.UK:** A.2.6 governs scope and Γ_time when the assertion or receiving use depends on them. A.7 distinguishes EntityOfConcern, description, specification and publication uses. E.24.UK supplies the U-kind admission boundary; an optional local record form admits no new kind.
 
-**Coordinates with C.3.3 and E.18.** C.3.3 supplies `U.KindBridge` only for an independently established cross-local kind correspondence, with its exact kinds, direction, declared `CL^k`, and use/loss conditions; different participant kinds alone establish no KindBridge or silent re-typing. E.18 retains the meanings of its assurance operations on `U.Transfer`, including `CalibrateTo`, `CiteEvidence`, `AttributeTo`, and `ConstrainTo`; A.6.6's declaration-change labels do not replace them.
+**Coordinates with C.3.3 and E.18.** C.3.3 supplies `U.KindBridge` only for an independently established cross-local kind correspondence, with its exact kinds, direction, declared `CL^k`, and use/loss conditions; different participant kinds alone establish no KindBridge or silent re-typing. E.18 retains the meanings and subject resolution of its assurance operations on connection(q), including `CalibrateTo`, `CiteEvidence`, `AttributeTo`, and `ConstrainTo`; A.6.6's declaration-change labels do not replace them.
 
 **Coordinates with E.8, F.0.1, F.15, and F.17:** E.8 governs pattern-authoring order and SoTA discipline. F.0.1 recovers exact source-local meaning; F.17 supplies an optional durable sense address or basis relation. F.15 supplies the carrier/source-currentness, provenance, and refresh validation harness when that validation is current.
 

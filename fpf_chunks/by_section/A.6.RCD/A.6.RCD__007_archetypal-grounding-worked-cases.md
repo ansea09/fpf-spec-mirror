@@ -6,12 +6,12 @@ section_id: "A.6.RCD:5"
 section_title: "Archetypal Grounding — Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__007_archetypal-grounding-worked-cases.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:5 — Archetypal Grounding — Worked Cases"
-line_start: 21390
-line_end: 21453
+line_start: 21423
+line_end: 21486
 dependencies:
   - "A.11"
   - "A.6.0"

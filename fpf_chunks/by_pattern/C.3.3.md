@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.3.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
-line_start: 55230
-line_end: 55425
+line_start: 55577
+line_end: 55772
 dependencies:
   - "A.2.6"
   - "A.6.REL"

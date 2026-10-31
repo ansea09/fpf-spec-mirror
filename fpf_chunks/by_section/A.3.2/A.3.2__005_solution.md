@@ -6,12 +6,12 @@ section_id: "A.3.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:4 — Solution"
-line_start: 11428
-line_end: 11547
+line_start: 11457
+line_end: 11578
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,9 +54,9 @@ keywords:
 
 #### A.3.2:4.1 - Definition
 
-`U.MethodDescription` is a same-individual dependent kind of `U.Episteme`. Membership holds when the already identified episteme has one admitted `U.Method` as its exact `EntityOfConcern` and its claims, interpreted under the effective `U.ReferenceScheme`, make at least one substantive claim about that method as a way of doing. Such a claim may state the method's transformation or enactment concern, generic participant meanings, applicability, precondition, intended effect or preserved condition, bound, or internal method composition. These are claims about method semantics, not planned assignments or actual participation. Naming the method, giving bibliographic metadata, or stating approval alone does not establish membership.
+`U.MethodDescription` is a same-individual dependent kind of `U.Episteme`. Membership holds when the already identified episteme has one admitted `U.Method` as its exact `EntityOfConcern` and its claims, interpreted under the effective `ReferenceScheme`, make at least one substantive claim about that method as a way of doing. Such a claim may state the method's transformation or enactment concern, generic participant meanings, applicability, precondition, intended effect or preserved condition, bound, or internal method composition. These are claims about method semantics, not planned assignments or actual participation. Naming the method, giving bibliographic metadata, or stating approval alone does not establish membership.
 
-The C.2.1 claim content, exact `EntityOfConcern`, and effective `U.ReferenceScheme` remain the identity discriminators of the episteme; A.3.2 adds no second identity. Whether the claims are detailed, current, or reliable enough for a particular planning, enactment, comparison, audit, revision, publication, or teaching use is a separate evaluation. A new receiving use alone neither creates a new method description nor removes membership.
+The C.2.1 claim content, exact `EntityOfConcern`, and effective `ReferenceScheme` remain the identity discriminators of the episteme; A.3.2 adds no second identity. Whether the claims are detailed, current, or reliable enough for a particular planning, enactment, comparison, audit, revision, publication, or teaching use is a separate evaluation. A new receiving use alone neither creates a new method description nor removes membership.
 
 If someone claims empirical grounding, state the C.2.1 `EpistemeEmpiricalGroundingRelation`. If a proposed use depends on a test, write the tested claim, criterion, evidence path, and result under the evaluation, evidence, or assurance pattern that defines them. Do not add these as method-description fields or let a test change membership.
 
@@ -66,9 +66,9 @@ An assertion or description episteme about one dated Work occurrence may cite `m
 
 Begin with the claim-bearing episteme, then distinguish how its claims are made available:
 
-* a `C.29` representation stands in a declared correspondence to the represented claims;
-* an `E.24.PUB` publication form expresses the selected episteme edition for one publication use;
-* a `U.PresentationCarrier` bears that publication form.
+* an expression can represent claims through an identifiable correspondence; A.6.3.RT and A.6.3.RT.OE explain its construction, and C.29 applies when a mathematical lens is used or remains to be chosen;
+* an `E.24.PUB` publication expression conveys the selected episteme for one bounded use and can conform to a reusable publication form;
+* an independently identified physical or digital carrier bears that expression.
 
 Only the claim-bearing episteme can meet the membership rule in 4.1; keep its representation, form, carrier, and publication occurrence separate.
 
@@ -109,7 +109,9 @@ Then inspect the claim concerns that matter for that named use:
 
 Calendars, assignees, work authorization, gate passage, and dated execution witnesses are governed by planning, assignment, gate, or work-occurrence patterns. They may cite a method description.
 
-A `U.MethodDescription` describes one admitted Method. It is not the `RelationSignature` that declares participants for one relation kind, the A.6.1 `OperationAlgebra` content that declares arguments and results for an operation family, the `U.WorkPlan` that states intended work, a dated Work occurrence, or any actual-participation relation of that occurrence.
+A `U.MethodDescription` describes one admitted Method. It is not the `RelationSignature` that declares participants for one relation kind, the A.6.1 `OperationAlgebra` content that declares arguments and results for an operation family, a dated Work occurrence, or any actual-participation relation of that occurrence.
+
+The same episteme can also satisfy A.15.2 as a `U.WorkPlan` when its claims about that admitted Method include the required substantive intended coordination. Establish both membership predicates on the same independently identified E. A plan that merely names a Method does not thereby supply the way-of-doing claims required here. Planning and actual-performance judgements retain their own conditions.
 
 #### A.3.2:4.4 - Method-description acceptance and use boundaries
 
@@ -117,7 +119,7 @@ A project may accept, regulate, prefer, deprecate, or forbid a method descriptio
 
 When a method description is used to prepare or enact work, distinguish the planned-use and actual-occurrence branches:
 
-1. C.2.1 identifies one episteme through its claim content, exact `EntityOfConcern`, and effective `U.ReferenceScheme`; A.3.2 judges that same episteme to be `U.MethodDescription`. Plainly saying that the method description describes the method is shorthand for this constitution and membership judgment, not another binary relation occurrence.
+1. C.2.1 identifies one episteme through its claim content, exact `EntityOfConcern`, and effective `ReferenceScheme`; A.3.2 judges that same episteme to be `U.MethodDescription`. Plainly saying that the method description describes the method is shorthand for this constitution and membership judgment, not another binary relation occurrence.
 2. `U.WorkPlan` may cite that episteme when preparing dated work.
 3. For a claim about actual Work, recover each performing `U.System` and its obtaining assignment of a local agential system-role kind under A.13. A.15.1 independently admits the dated Work and its `enactsMethod` relation to the Method. If precise assignment-bound attribution is claimed, F.6 `performedUnderAssignment` uses that same obtaining assignment of a separately declared `U.SystemRoleAssignment` species. A separate assertion cites `methodDescriptionRef` only when its claim depends on that edition.
 4. The word *result* is only a cue. Ask which claim is being made: an A.6.1 application returned a value, a referent changed under A.3.4, Work produced something under A.15.PROD, or a measurement, evaluation, delivery, or acceptance occurred. If the use needs a Work-to-result relation and no exact predicate is defined for it, keep Work and result separate and state `missing-predicate[work-to-result]`. A log, trace, measurement, or result episteme supports another claim only through its evidence relation.
@@ -168,5 +170,5 @@ Description nodes, workflow boxes, code blocks, proof-script blocks, diagram pat
 
 If a selected relation structure instead connects several methods as alternatives, substitutes, fallbacks, comparison candidates, or members of a family without constituting one composite method, the selected `U.Structure` is the exact `EntityOfConcern` under `A.22` and C.2.1. The resulting episteme can describe that structure, but the present rule does not classify it as `U.MethodDescription`.
 
-A mathematical or graphical representation can express or analyze either case. Its correspondence to claims is governed separately through `C.29`. A work plan, work occurrence, method-family registry, or selector result also keeps its own governed object and subject pattern.
+A mathematical or graphical representation can express or analyze either case. Its correspondence to claims is recovered through A.6.3.RT and A.6.3.RT.OE, with C.29 additionally governing a mathematical lens. A work plan, work occurrence, method-family registry, or selector result also keeps its own governed object and subject pattern.
 

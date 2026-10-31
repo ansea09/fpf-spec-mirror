@@ -6,12 +6,12 @@ section_id: "E.18.NET:1"
 section_title: "Problem frame — intent and first useful result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__002_problem-frame-intent-and-first-useful-result.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:1 — Problem frame — intent and first useful result"
-line_start: 111730
-line_end: 111776
+line_start: 112219
+line_end: 112265
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -34,7 +34,6 @@ dependencies:
   - "E.18.2"
   - "E.18.3"
   - "F.18"
-  - "U.Transfer"
 keywords:
 ---
 
@@ -83,5 +82,5 @@ networkSelectionBlocker:
 
 An unavailable fact yields the governing pattern's `missing-information` outcome; a sufficient case basis that fails its positive test yields `factually unsupported`. Neither outcome alone asserts a negative. Carry an inapplicable or negative result only when that pattern's applicable rule and case basis establish it. A missing member, applied constraint, or `networkUseFrame` remains its own network-selection blocker and never becomes a relation result. Keep `proposedNetworkDescriptionRef` until all four A.22 discriminators—members, selected obtaining relation occurrences, applied constraints, and use frame—are recoverable; only then assert `selectedNetworkRef`.
 
-Do not use E.18.NET merely because one flow branches, contains a detailed portion, has several valuations, or is drawn as a network. Use E.18 for one selected `TransformationFlowStructure`, its valuations and internal `U.Transfer` relations; use E.18's `SubflowRef` for one parent-relative internal portion. Use E.18.2 when the current object is a graph, wiring diagram, tuple, category-theory expression, or another mathematical description. Use A.22.CGUS and E.18.3 when the current object is an admitted demonstrative traversal rather than the network itself.
+Do not use E.18.NET merely because one flow branches, contains a detailed portion, has several valuations, or is drawn as a network. Use E.18 for one selected `TransformationFlowStructure`, its valuations and selected internal obtaining relations; use E.18's `SubflowRef` for one parent-relative internal portion. Use E.18.2 when the current object is a graph, wiring diagram, tuple, category-theory expression, or another mathematical description. Use A.22.CGUS and E.18.3 when the current object is an admitted demonstrative traversal rather than the network itself.
 

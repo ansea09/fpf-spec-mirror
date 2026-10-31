@@ -6,12 +6,12 @@ section_id: "C.2.8:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:1 — Problem frame"
-line_start: 54085
-line_end: 54098
+line_start: 54430
+line_end: 54443
 dependencies:
   - "A.17"
   - "A.18"
@@ -38,9 +38,9 @@ keywords:
 
 Use this pattern when an explanation, pattern text, architecture account or another expressed description must make selected structure recoverable by a particular reader or computational observer. You may be comparing two forms of the same account, deciding whether an added explanation exposes a missing dependency, or checking what an observer can extract with the available preparation and time.
 
-**First useful move.** Name the relation or distinction the reader needs, identify the available account and its form, and state the preparation, source access and budget that can change recovery. Compare what the reader can correctly recover under those conditions. A useful result can be two sentences: “Both accounts expose the dependency on a durable write. Only the second account exposes why the reporting replica was chosen; this is an author estimate for readers familiar with replication, with the same source access and three-minute budget.”
+**First useful move.** Name the relation or distinction the reader needs, identify the available account and its particular expression, and state the preparation, source access and budget that can change recovery. Compare what the reader can correctly recover under those conditions. A useful result can be two sentences: “Both accounts expose the dependency on a durable write. Only the second account exposes why the reporting replica was chosen; this is an author estimate for readers familiar with replication, with the same source access and three-minute budget.”
 
-The primary subject is **extractable structural information**: how much selected structure this reader or observer can correctly extract from this episteme through this form under the stated conditions. Here an *episteme* is the claim-bearing account; its *form* is how those claims are expressed. Prose, a diagram and a combined presentation may express the same claims differently.
+The primary subject is **extractable structural information**: how much selected structure this reader or observer can correctly extract from this episteme through this particular expression under the stated conditions. Here an *episteme* is the claim-bearing account; its *expression* is the particular arrangement of signs conveying those claims. A reusable *form* supplies rules that different expressions can follow. Two texts can follow the same form and arrange the same claims differently.
 
 **What goes wrong if missed.** Complete sentences or a shorter explanation can hide a needed condition. An expert may supply it from memory, so a correct answer can conceal what the account failed to explain. Comparing readers with different preparation or assistance can then make one text appear to expose more structure.
 

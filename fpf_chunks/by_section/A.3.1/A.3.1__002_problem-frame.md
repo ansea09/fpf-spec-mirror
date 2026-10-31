@@ -6,12 +6,12 @@ section_id: "A.3.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:1 — Problem frame"
-line_start: 9299
-line_end: 9321
+line_start: 9324
+line_end: 9350
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,7 +41,11 @@ keywords:
 
 Use this pattern when a project needs to say **how something is done in principle**.
 
-When several observed Work occurrences or named sources may show a reusable way but Method identity is still only a candidate, use `A.3.1.MR` first. It returns one source-traceable account per candidate, a distinguishing question, a record-only result, or a named blocker. Return here only when one candidate reusable way is ready for the `U.Method` identity test.
+When observed performances or evidence about performances may show a reusable way that still needs recovery, use `A.3.1.MR` first. It returns one source-traceable provisional account per candidate, a record-only result, or a named blocker. Include a distinguishing question only when it changes recovery or the receiving use.
+
+For reusable-way claims proposed or described in documentary guidance, use `A.3.1.DR` when their source meaning or status needs recovery. Choose by the source's role in the question: a document can contain both guidance and performance evidence.
+
+When one candidate reusable way is ready for the `U.Method` identity test, apply this pattern directly.
 
 Typical moments:
 

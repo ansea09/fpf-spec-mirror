@@ -6,12 +6,12 @@ section_id: "C.16:5"
 section_title: "Solution - Construct and interpret a measurement (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__006_solution-construct-and-interpret-a-measurement-normative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:5 — Solution - Construct and interpret a measurement (Normative)"
-line_start: 58237
-line_end: 58320
+line_start: 58584
+line_end: 58689
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -73,7 +73,11 @@ If a fact needed for that interpretation is unavailable, state which conclusion 
 
 #### C.16:5.2 - Fix Characteristic, Scale, unit and time stance
 
-**M‑CSLC‑1.** One `U.DHCMethod` binds exactly one Characteristic to exactly one Scale. A reading names its Coordinate or value on that Scale, and a Level when the Scale supplies that named category or tier.
+**M‑CSLC‑1.** One measurement specification binds exactly one Characteristic to exactly one Scale. A reading names its Coordinate or value on that Scale, and a Level when the Scale supplies that named category or tier.
+
+**Specification identity and resolution.** Identify the specification by its operative content: the selected Characteristic and Scale, applicable unit convention, method/model requirements, applicability, calibration and uncertainty rules, and time interpretation. A description expresses that content; its filename or template label does not identify it. A changed requirement produces a changed specification. An application can instead bind a new specimen, instrument, calibration instance or observation window under an unchanged specification when its rules permit that variation. Retain those actual bindings in the measurement account. A `DHCMethodRef`, when used as a measurement-definition reference, resolves to this exact specification and any requested description edition, rather than to the enacted Method or dated Work.
+
+Start writing before every choice is settled: identify the wanted distinction, possible Scales, alternative models and the observations that would discriminate them. Revise that account as the model is tested in :5.3.1. A draft with an unresolved choice remains useful inquiry material; a consumer that depends on that choice needs it before using the draft as a completed specification.
 
 **M‑CSLC‑2.** When units apply, name the quantity kind and presentation Unit. Conversions are admissible only when they preserve the quantity kind and the Scale supports the operation. Nominal and ordinal labels do not acquire interval or ratio arithmetic by being encoded as numbers.
 
@@ -113,13 +117,31 @@ When an observed discrepancy matters, compare its plausible sources in the subje
 
 **M‑RES‑1.** `MeasurementResult` is the value or set of values attributed to the measurand together with relevant information needed to interpret them. At minimum, recover the measurand, Characteristic, Scale, attributed value or values, Unit when relevant, uncertainty, method, model, calibration basis, time stance, and exact measurement work.
 
-**M‑RES‑2.** `MeasurementResultEpisteme` is one exact C.2.1 episteme. Its ClaimGraph states the C.16 result, subject, interpretation basis, polarity or domain status when current, and uncertainty. `U.Measure` may designate this retained reading claim. The episteme is not the measurand, actual subject state, raw output, indication, diagnosis, or criterion verdict.
+**M‑RES‑2.** `MeasurementResultEpisteme` is one exact C.2.1 episteme. Its ClaimGraph states the C.16 result, subject, interpretation basis, polarity or domain status when current, and uncertainty. The episteme is not the measurand, actual subject state, raw output, indication, diagnosis, or criterion verdict.
 
 **M‑RES‑3.** When exact work and governed actual changes first establish the episteme's identity and that inception matters, A.15.PROD supplies the local entity-identity inception claim. C.16 does not introduce a work-to-result relation.
 
+##### C.16:5.5.1 - Reading content and the range required by a receiver
+
+A Coordinate supplies a value on a Scale. To use it as a reading, recover what receives that value, which Characteristic is attributed, and under which interpretation and conditions. Write the attribution with its basis: observation, measurement model, prediction, content evaluation, normalization, scoring or another stated derivation. These bases support different conclusions. A conditional calculation may already answer the question; a claim that measurement occurred additionally needs :5.3–:5.5. A receiving comparison or transformation also supplies its own admission and operation rules.
+
+An ordinary sentence or existing table can express this content. Obtain the missing subject, Scale or interpretation by comparing the available records and their premises. Keep unresolved alternatives visible while doing so. A new form or finished result episteme is unnecessary merely to develop the account. When a claim-bearing episteme is needed, identify it through C.2.1 and distinguish its content from its EntityOfConcern, effective scheme, expression and external evidence.
+
+**The recurring typed range.** `ReadingContent` is a C.3 kind individual over the `NonemptyClaimContent` entities identified in C.2.1:4.1.1–:4.1.2. Its KindSignature uses that candidate domain and the following membership criterion under the FPF interpretation supplied by A.17, A.18 and this section: the content makes one identifiable principal attribution of a value, admissible value set or distribution on one declared Scale to one Characteristic of an identified subject, ordered subject tuple or specified modeled case. It includes the qualifications that determine that attribution's meaning, including the time/population interpretation, conditional premises and uncertainty interpretation when used. A supporting equation or referenced input can concern other Characteristics; a bundle of independent principal attributions is a profile of readings.
+
+This content-fixed criterion needs no extension enumeration. For a judgment, pin the candidate, this declaration edition and a C.3.2 slice with explicit versions and temporal selector. It applies where the candidate retains the interpretation of C.2.1, A.17 and A.18 used here; an unestablished interpretation alignment cannot support that classification. The criterion is not a measurement-validity test. A false or insufficiently supported attribution can be a member. A bare Coordinate, a graph encoding and a document carrier are outside the candidate content-entity domain and give C.3.2 not-applicable, not false. An interpreted claim that a measurement is required, without any value attribution, is a non-member. Missing knowledge needed to recover the attribution leaves membership unknown. A missing reading is an input status; it supplies no zero, category or fictitious Coordinate. An explicitly stated set of possible Scale values can be a reading when its interpretation is given, even if it leaves the receiving question unresolved.
+
+**Identity and replacement.** Apply C.2.1's content-identity rule to the whole selected attribution and its asserted qualifications. A change of subject, Scale meaning, attributed values, conditional premises or an asserted basis changes that content. A new encoding or wording can preserve it through an established interpretation correspondence. New external evidence for the unchanged claim need not change its content; adding or changing an assertion about that evidence does. The `ReadingContent` kind itself continues while its candidate domain and membership distinction remain the same; changing one reading does not change the kind.
+
+For a proposed replacement, first resolve its content and check membership. Then check the receiver's actual subject, basis position, Scale, scope/window, input domain and evidence conditions. Two members need not be equal or interchangeable. A unit conversion can provide a usable replacement on another Scale through its declared map; it does not make the two Scale-specific Coordinates identical. Preserve the original reading and the conversion or derivation used. An unresolved required condition blocks that dependent use, while a satisfied input test still does not perform the transformation or establish its result.
+
+**Profiles and calculation.** A profile keeps each component's reading content and the position or contributor by which the receiver uses it. Equal numeric values do not merge different subjects, basis positions or contributions. When the operation depends on multiplicity or order, retain it in that existing profile/grouping basis; do not reduce the operands to a bare set of numbers or content values. A copied assertion about one contributor supplies no additional physical contribution. Distinct observation occurrences or repeated uses count separately only when the declared aggregate meaning requires them. Repeating a calculation can return equal content while remaining another application under A.6.1; neither a new application nor a new result-episteme identifier creates another contributing subject. A reference to a reading resolves to the selected content, with its interpretation and any required source edition. A reference to its result episteme instead resolves that episteme; extracting its relevant content is a separate, explicit use.
+
+USCM reads the admitted Coordinates and conditions from `ReadingContent` and returns content attributing its declared Score. ULSAM does the same for a lawful aggregate, retaining the grouping basis; CPM consumes the interpreted profiles to return its own comparison result. UNM transforms a Scale-specific Coordinate; retaining its result as a reading also retains the subject, target Scale and transformation basis. UINDM chooses positions and supplies no missing reading. These are direct uses of shared rules. The bounded content range does not admit a universal measure kind or require another measurement ontic.
+
 #### C.16:5.6 - Keep comparability and scoring bounded
 
-**M‑CMP‑1.** Direct comparability is conservative: two readings cite the same `U.DHCMethodRef`, Characteristic, Scale and Unit semantics, compatible model and calibration regime, and a compatible time or population basis. Similar labels or units are insufficient.
+**M‑CMP‑1.** Direct comparability is conservative: two readings cite the same resolved measurement specification, Characteristic, Scale and unit semantics, compatible model and calibration regime, and a compatible time or population basis. Similar labels or units are insufficient.
 
 **M‑CMP‑2.** Cross-template conversion, normalization, scoring, aggregation, comparison, selection, or cross-context transport names its method, declaration, and loss or uncertainty consequence under the pattern for that operation. Name an F.9 Bridge when cross-context semantic correspondence is required. C.16 does not mint a common scale or corpus-wide migration relation.
 
@@ -127,7 +149,7 @@ When an observed discrepancy matters, compare its plausible sources in the subje
 
 #### C.16:5.7 - Route provenance and later use outward
 
-`U.EvidenceStub` may carry a type-of-ground and identifier that lead to the exact A.10/G.6 provenance path. The path can cite the method description, model, calibration, work, inputs, output, result episteme, source publications, and transformations. Neither the stub nor a graph edge establishes those objects or their obtaining relations.
+An evidence stub may carry a type-of-ground and identifier that lead to the exact A.10/G.6 provenance path. The path can cite the method description, model, calibration, work, inputs, output, result episteme, source publications, and transformations. Neither the stub nor a graph edge establishes those objects or their obtaining relations.
 
 A later comparison, diagnosis, criterion evaluation, acceptance action, or decision is a separately governed use of the measurement result. Recover its actual operation and any result under the direct pattern. Ground dated `U.Work` when the account asserts it or the receiving use requires it. The use relies on the result episteme through an exact premise, reference, operation-argument, decision-use, or other direct relation. Currentness belongs to G.11; bounded reliance to A.10 or B.3 under their entry conditions.
 

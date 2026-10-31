@@ -6,12 +6,12 @@ section_id: "A.15.1:13"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__015_consequences.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:13 — Consequences"
-line_start: 29661
-line_end: 29669
+line_start: 29696
+line_end: 29704
 dependencies:
   - "A.1"
   - "A.10"
@@ -39,7 +39,6 @@ dependencies:
   - "F.6"
   - "U.Method"
   - "U.MethodDescription"
-  - "U.ReferenceScheme"
   - "U.WorkPlan"
 keywords:
   - "A.13-qualified actual performer U.System"

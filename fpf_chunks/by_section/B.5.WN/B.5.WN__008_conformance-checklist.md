@@ -6,12 +6,12 @@ section_id: "B.5.WN:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__008_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
   - "B.5.WN:7 — Conformance Checklist"
-line_start: 46823
-line_end: 46833
+line_start: 46922
+line_end: 46932
 dependencies:
   - "A.15.10"
   - "A.15.11"

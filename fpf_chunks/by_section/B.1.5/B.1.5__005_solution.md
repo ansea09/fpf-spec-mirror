@@ -6,12 +6,12 @@ section_id: "B.1.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:4 — Solution"
-line_start: 42158
-line_end: 42358
+line_start: 42249
+line_end: 42449
 dependencies:
   - "A.1"
   - "A.15"
@@ -44,7 +44,6 @@ dependencies:
   - "F.6"
   - "G.5"
   - "U.MethodDescription"
-  - "U.PresentationCarrier"
   - "U.Signature"
   - "U.Structure"
   - "U.Work"
@@ -190,10 +189,10 @@ In B.1.5, *composite-Method boundary account* is the local Plain phrase for this
 
 1. A bounded-use-declaration episteme states the operations or decisions supported by this publication, the conditions of that use, and the excluded stronger use.
 2. An audience-declaration episteme states the audience criterion. The actual audience consists of entities admitted by that declaration; those entities are not substituted for the declaration episteme as a publication-relation participant.
-3. An independently identified reusable boundary-account arrangement is a publication-form participant only while E.24.PUB `PublicationFormExpressionRelation(description edition, boundary-account form, bounded-use declaration)` obtains.
-4. A paper card, poster, page, file, or screen must first be identified independently as a physical or digital `U.PresentationCarrier`; E.24.PUB `PublicationFormBearingRelation(carrier, boundary-account form)` then states which form it bears.
+3. Identify the reusable boundary-account form independently by its rules, then identify the particular expression that follows those rules and expresses the selected description edition for the bounded use. E.24.PUB `PublicationFormExpressionRelation(description edition, boundary-account form, bounded-use declaration)` is the corresponding form-mediated claim; that expression is its witness.
+4. Identify a paper card, poster, page, file, or screen independently under its physical or digital identity rule. `PublicationExpressionBearingRelation(carrier, expression)` states that its actual state or realization yields that exact expression. When the expression conforms to the boundary-account form, it also witnesses `PublicationFormBearingRelation(carrier, boundary-account form)`. Use the same expression witness for both form-mediated claims when establishing availability.
 5. An actual system performs separate rendering, printing, uploading, indexing, or access-granting publication Work. That Work may establish or restore availability, but it is not the publication occurrence or one of its participants.
-6. One `EpistemePublicationRelation` occurrence, with the exact five participants `<description edition, audience-declaration episteme, bounded-use-declaration episteme, boundary-account form, carrier>`, makes the edition available to the declared audience for the declared use throughout its maximal continuous interval of availability.
+6. One `EpistemePublicationRelation` occurrence, with the exact five participants `<description edition, audience-declaration episteme, bounded-use-declaration episteme, particular expression, carrier>`, makes the edition available to the declared audience for the declared use throughout its maximal continuous interval of availability.
 7. Names, labels, and links that designate the Method or description edition remain separately governed designation content. Neither the form nor the carrier establishes designation merely by displaying similar words.
 
 ```text

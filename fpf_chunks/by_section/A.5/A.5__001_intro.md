@@ -6,12 +6,12 @@ section_id: "A.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.5/A.5__001_intro.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.5 — Open-Ended FPF Kernel and Extension Layering"
   - "A.5:intro — Intro"
-line_start: 13592
-line_end: 13597
+line_start: 13623
+line_end: 13628
 dependencies:
 keywords:
   - "FPF architecture"

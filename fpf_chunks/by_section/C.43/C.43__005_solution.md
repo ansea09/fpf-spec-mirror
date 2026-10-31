@@ -6,12 +6,12 @@ section_id: "C.43:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:4 — Solution"
-line_start: 89904
-line_end: 90132
+line_start: 90292
+line_end: 90522
 dependencies:
   - "A.12"
   - "C.11"
@@ -178,6 +178,8 @@ These returns can also change the means of further action. When the receiving wo
 #### C.43:4.7 - Recover specialized theories without flattening their differences
 
 The common account makes theories comparable through the questions they answer. To use a specialization, identify its representation of the system and information, available actions, outcome criterion, execution assumptions and warranted conclusion. Preserve what its additional assumptions make possible and what it leaves to another contribution.
+
+**Compact improvement, decision and learning cycles.** First establish whether the source prescribes a way, offers an explanatory heuristic or reminds a prepared practitioner of a known way. Relate a prescription to its operations, actual or proposed performance, provision and authority. Use a heuristic to investigate the relationships it explains before selecting an intervention. One performer may supply several control contributions, and several performers may share one; recover the relationship before assigning a level. [Library.Reference:6.5](FPF-LIBRARY-REFERENCE.md#libraryreference65---compact-cycles-in-working-control-arrangements) develops the family connections, a sufficient short choice and the returns caused by changed conditions. Use an already adequate method directly; expand the arrangement where a missing dependency requires it.
 
 **Control engineering.** A state-space model specifies how state changes with input and disturbance and how observations depend on state. An estimator supplies a decision-relevant account from observations and applied inputs. A controller selects input; constraints and continuation conditions determine which choices remain permissible. Linear dynamics, bounded disturbances and a specified observation model can support set-based state reconstruction and robust feasibility calculations. These assumptions make a technical construction possible; they leave goal legitimacy, unknown mechanisms and unmodeled interference outside that construction.
 

@@ -6,12 +6,12 @@ section_id: "F.17:9"
 section_title: "Layouts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__011_layouts.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:9 — Layouts"
-line_start: 123767
-line_end: 123784
+line_start: 124353
+line_end: 124370
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -67,5 +67,5 @@ Row edition | Currentness condition | Notes
 
 Layout B, comparison-column: keep the scheme, local expression, and sense claim inside `SenseCellRefs` and use presentation columns such as tradition, discipline, language, publication family, or project family. For each compared entry, the reader must still be able to resolve its exact by-value scheme and local-sense claim. The column label helps organize the comparison; that recovered scheme and claim determine its interpretation.
 
-Never mix a scheme column and a discipline or project-family column as if they had the same kind. A `U.ReferenceScheme` is an interpretation basis carried by value; a comparison column is a didactic view.
+Never mix a scheme column and a discipline or project-family column as if they had the same kind. A `ReferenceScheme` is an interpretation basis carried by value; a comparison column is a didactic view.
 

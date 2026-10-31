@@ -6,12 +6,12 @@ section_id: "F.14:4"
 section_title: "Core idea"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__005_core-idea.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:4 — Core idea"
-line_start: 122555
-line_end: 122567
+line_start: 123139
+line_end: 123151
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -53,7 +53,7 @@ keywords:
 Use this sequence before minting a durable name or any supporting naming object:
 
 1. **Recover the governed value first.** Separate candidate expressions whenever they designate different governed values or relations. Recover each retained value's exact kind and direct pattern; keep an ordinary phrase local when no governed naming case is needed.
-2. **Name one proposed use and its interpretation basis.** State what the reader will do with the expression and the effective naming `U.ReferenceScheme`. An independently selected `BoundedModelUseStructure` appears only when that organization changes this exact naming use; it is never a generic locality field.
+2. **Name one proposed use and its interpretation basis.** State what the reader will do with the expression and the effective naming rules (`ReferenceScheme`). An independently selected `BoundedModelUseStructure` appears only when that organization changes this exact naming use; it is never a generic locality field.
 3. **Try the light dispositions in order.** Prefer no durable name, an existing designation, a recorded alias, a local expression, an existing direct-pattern name, or an existing public row. Stop as soon as the proposed use works without hiding a governed distinction.
 4. **Create only the next object that pays for itself.** A local `SchemeSenseCell` is useful only when the exact local sense needs a stable address; a NameCard only when the naming settlement itself must endure; an F.17 row only for public, Core-facing, durable, or cross-local reuse; E.24.PUB only when the selected row edition must actually be made available. None implies the next.
 5. **Use exact relations instead of fused names.** Bundles and incompatibilities among system-role kinds remain A.2.7 relations; assignment claims remain A.2.1. For precise performed Work, A.13 first recovers each exact actual performer and A.15.1 independently admits the dated occurrence; F.6 follows only when the naming case or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. Status families and windows remain F.10; qualifiers remain with their direct patterns.

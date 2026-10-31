@@ -6,12 +6,12 @@ section_id: "E.24.UK:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__009_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:7 — Conformance Checklist"
-line_start: 117083
-line_end: 117112
+line_start: 117667
+line_end: 117696
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -56,7 +56,7 @@ keywords:
 | `CC-E24UK-3c` | The practitioner-first admission tree tests exact existing-kind coverage and bounded C.3 classification before new admission; a resolved non-admission closes as `reuse` with its accepted result, `local-kind` with one exact C.3.2 declaration, or `reject` with the actual object and direct governor recovered under section 4.6. A missing required law or fact leaves admission unresolved rather than supplying one of those results. |
 | `CC-E24UK-3d` | Only when both a new ontic and a new public kind are independently needed does an atomic E24FamilySettlementDecision return separate results from common inputs, with neither used as prior evidence and both provisional while a required branch is unresolved. A justified no-additional-ontic conclusion uses U-kind-only and the existing direct-use or bounded-coordination disposition; it never admits an empty connected unit. |
 | `CC-E24UK-4` | A same-individual dependent kind states its root kind, direct membership predicate, and the implication from dependent to root membership for the same individual. An identity-dependent kind states an already governed two-place dependence relation to one exact root-kind individual plus every additional discriminator; a root reference alone never closes either case. |
-| `CC-E24UK-4a` | `U.MethodDescription` preserves C.2.1 identity and uses the exact stable A.3.2 membership condition: one admitted `U.Method` is the exact EntityOfConcern and at least one substantive claim concerns that method as a way of doing; mention-only content, use adequacy, C.29 representation, publication occurrence, publication form, `U.PresentationCarrier`, approval, and work do not establish membership. `U.Viewpoint` and `U.View` likewise preserve C.2.1 identity and use the exact stable E.17.0 membership predicates; structure selection, bundle membership, a describing use or its selected viewpoint, direct authoring, A.6.3 construction, form, carrier, publication, query execution, evaluation, and work do not substitute for those predicates. |
+| `CC-E24UK-4a` | `U.MethodDescription` preserves C.2.1 identity and uses the exact stable A.3.2 membership condition: one admitted `U.Method` is the exact EntityOfConcern and at least one substantive claim concerns that method as a way of doing; mention-only content, use adequacy, representation, publication occurrence, expression, reusable form, carrier, approval, and work do not establish membership. `U.Viewpoint` and `U.View` likewise preserve C.2.1 identity and use the exact stable E.17.0 membership predicates; structure selection, bundle membership, a describing use or its selected viewpoint, direct authoring, A.6.3 construction, form, carrier, publication, query execution, evaluation, and work do not substitute for those predicates. |
 | `CC-E24UK-4b` | `E24UK-NAR-EPUB-01` rejects `U.EpistemePublication` for the availability-only use in section 5.0. Plain `published episteme` states participation and identifies or permits recovery of the exact `EpistemePublicationRelation` occurrence; it is neither a reference nor a designator and does not resolve. A receiving classification use follows C.3.2 and the admission tree; changing membership alone does not decide admission. |
 | `CC-E24UK-4c` | Every retained public example resolves through one exact E24UK-AR-* admission-result reference to its direct membership/identity basis and decision provenance. Follow an ontic output only when the receiving use actually consumes it. The U.Kind R5 root result is preserved while its additional-ontic disposition is stated separately; a reconstructed result retains its cited direct passage and by-value basis. Labels, row shape and unresolved decisions establish no admission. |
 | `CC-E24UK-4d` | Under the effective reference scheme, `ViewpointId i` designates exact viewpoint episteme P and resolving `U.ViewpointRef r` that uses i yields P; i, r, and P remain distinct, and neither designation nor resolution grants membership. Membership follows only from E.17.0's predicate. A named describing use may select P, but the use and selection remain separate from designation, reference resolution, conformance, and membership. |

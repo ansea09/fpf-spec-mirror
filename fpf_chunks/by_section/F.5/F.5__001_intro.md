@@ -6,12 +6,12 @@ section_id: "F.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__001_intro.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.5 — Name U-kinds, Local System-Role Kinds and SystemRoleKindDescriptions"
   - "F.5:intro — Intro"
-line_start: 119278
-line_end: 119283
+line_start: 119862
+line_end: 119867
 dependencies:
   - "A.10"
   - "A.15"

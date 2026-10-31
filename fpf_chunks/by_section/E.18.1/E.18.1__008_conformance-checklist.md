@@ -6,12 +6,12 @@ section_id: "E.18.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__008_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:7 — Conformance Checklist"
-line_start: 110908
-line_end: 110934
+line_start: 111391
+line_end: 111417
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -63,7 +63,7 @@ keywords:
 - `CC-E18.1-4` One wording span from an admitted source may split into several FPF applications; the record does not compress them into one generic token.
 - `CC-E18.1-5` Result wording is unpacked into concrete result-related relations; a generic `WorkResult` kind is not admitted.
 - `CC-E18.1-6` `PrincipleFrame` references keep postulates and CHR observability distinct from units, planes, comparators, thresholds, ontology editions, CHR editions, plans, work, evidence, and gates.
-- `CC-E18.1-7` Measurement, `G.11` source-currentness relation, reference-plane, method-set, comparator, or problem-side changes return to the smallest affected application.
+- `CC-E18.1-7` Measurement, `G.11` source-currentness relation, reference-plane, method-set, comparator, or problem-side changes return to every actually dependent application, branch and join.
 - `CC-E18.1-8` The stable P2W core contains only accepted claim, receiving use and concrete question, applicable pattern contribution, returned result or honest stop, split, and local return. Reliance notes, explicit E.18.3 structure, development examples, and naming or publication are optional extensions. No extension may add a core input or change a returned result. Relation obtaining and identity, occurrence declarations, admission, production, evidence, gates, decisions, and other neighbouring algorithms remain in the patterns whose Solutions answer those exact questions.
 - `CC-E18.1-9` Local boundary wording remains only where it names a near-miss that changes the next P2W application.
 - `CC-E18.1-10` The pattern leaves one usable next move: apply the pattern that answers the question and use its result, write a compact note when another person or later action needs replay, split independent claims, keep a cue and stop, or reopen only the continuation affected by a changed relation.

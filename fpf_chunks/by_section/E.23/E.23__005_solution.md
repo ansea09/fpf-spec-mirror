@@ -6,12 +6,12 @@ section_id: "E.23:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:4 — Solution"
-line_start: 114421
-line_end: 114733
+line_start: 114912
+line_end: 115239
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -135,16 +135,18 @@ The next table names the local values used after this routing choice.
 | `CostAndRiskAccount` | Cost and risk account used to judge another pass or operation. |
 | `ImprovementLoopDecisionValue` | Local closed value set `stop | continue | switchMethodFamily | openNewFrame | holdUntilInformationBasisSufficient`. |
 | `QualityImprovementLoopRecord` | `U.Episteme` whose EntityOfConcern is the exact starting object version for one bounded improvement-loop application. Its ClaimGraph relates that version to one admitted unfolding structure, selected next-action proposals, independently identified evaluation and improvement Work, exact result bases and result epistemes, changed versions, evidence bases, trade-offs, cost and risk, and the selected continuation and boundaries. It describes those objects and relations; it is not the method, performer, Work occurrence, changed object, or structure. |
-| `QualitySideEvaluationChangeClaim` | Controlled claim-node form inside a `U.ClaimGraph`; it compares before and after evaluation results for named object versions on declared `Q` coordinates. Each result uses the evaluation-use declaration bound to its own object version; keep the evaluation criterion, scope, scale and qualification conditions comparable, or state the evaluation change adopted under E.23:4.1a and which results remain comparable. |
-| `SourceComposedResultClaim` | Controlled claim-node form inside a `U.ClaimGraph`; it relates one changed-object result claim to exact accepted source-use decisions and each source contribution. It is neither the changed object nor a source-use decision. |
+| `QualitySideEvaluationChangeClaim` | Controlled form for a claim within an episteme's claim content; it compares before and after evaluation results for named object versions on declared `Q` coordinates. Each result uses the evaluation-use declaration bound to its own object version; keep the evaluation criterion, scope, scale and qualification conditions comparable, or state the evaluation change adopted under E.23:4.1a and which results remain comparable. |
+| `SourceComposedResultClaim` | Controlled form for a claim within an episteme's claim content; it relates one changed-object result claim to exact accepted source-use decisions and each source contribution. It is neither the changed object nor a source-use decision. |
 | `KindRestorationCheck` | Conditionally present precision-repair check required by the selected restoration predicate and its evaluation result. |
+
+The `claimGraph` and `referenceScheme` positions in the episteme forms below carry, by value, the complete interpreted content and effective rule collection of that episteme. Their C.2.1:4.1.2 ranges are `NonemptyClaimContent` and `EpistemeInterpretationScheme`. The rules must interpret that form's version designations, predicates and qualifications, including the evaluation scale used by a prediction. Interpreted negative claims or predictions whose truth is unresolved can satisfy the content range; their evaluation and warranted use remain separate questions.
 
 ```text
 LoopEvaluationEvidenceBasis@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the exact object version evaluated in this loop pass
   entityOfConcernKindRef: U.KindRef, referencing the exact kind of that object version
-  claimGraph: U.ClaimGraph by value
-  referenceScheme: U.ReferenceScheme by value
+  claimGraph: NonemptyClaimContent by value
+  referenceScheme: EpistemeInterpretationScheme by value
   editionId
   qualityEvaluationUseDeclarationRef: U.EpistemeRef, referencing one QualityEvaluationUseDeclaration about that object version
   checkedEvidenceValueRefs[]: U.EntityRef, each referencing one evidence value actually checked
@@ -157,8 +159,8 @@ LoopEvaluationEvidenceBasis@Context <: U.Episteme:
 QualityImprovementLoopRecord <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the exact starting object version for this bounded loop application
   entityOfConcernKindRef: U.KindRef, referencing the exact kind of that starting object version
-  claimGraph: U.ClaimGraph by value
-  referenceScheme: U.ReferenceScheme by value
+  claimGraph: NonemptyClaimContent by value
+  referenceScheme: EpistemeInterpretationScheme by value
   editionId
   improvementUnfoldingStructureRef: U.EntityRef, referencing one admitted A.22 constraint-governed unfolding structure; when transformation-flow membership is current, this same selected U.Structure also satisfies E.18/E.18.3 rather than designating a second structure
   qualityEvaluationUseDeclarationRef: U.EpistemeRef, referencing one QualityEvaluationUseDeclaration
@@ -184,26 +186,29 @@ QualityImprovementLoopRecord <: U.Episteme:
   stopBoundaryRef: U.EntityRef, referencing one ImprovementLoopBoundaryCondition@Context
   reconsiderationBoundaryRefs[]: U.EntityRef, each referencing one ImprovementLoopBoundaryCondition@Context
   loopDecisionReasonDescriptionRef: U.EpistemeRef, referencing one loop-decision-reason description
-QualitySideEvaluationChangeClaim in U.ClaimGraph:
+QualitySideEvaluationChangeClaim within result or loop episteme claim content:
   beforeQualityEvaluationUseDeclarationRef and afterQualityEvaluationUseDeclarationRef
   beforeObjectVersionRef and afterObjectVersionRef
   beforeEvaluationResultRefs[] and afterEvaluationResultRefs[]
   evaluationCoordinateRefs[]
   qualificationWindowDescriptionRef
 
-SourceComposedResultClaim in U.ClaimGraph:
+SourceComposedResultClaim within result or loop episteme claim content:
   changedObjectVersionRef and changedObjectVersionKindRef
-  resultClaimNodeRef
+  resultClaimNodeRef?: C.2.1 ClaimAddress
+  resultClaimEpistemeRef?: U.EpistemeRef, referencing the whole result episteme
   acceptedSourceUseDecisionRefs[1..*]
   sourceContributionDescriptionRefs[1..*]
 ```
 
-The two named claims are node forms inside the claim graph of a result or loop episteme; a table row or serialization may publish them but does not become the claim.
+The two named forms organize claims within the claim content of a result or loop episteme; a table row or serialization may publish them but does not become the claim.
+
+A `SourceComposedResultClaim` uses exactly one of `resultClaimNodeRef` and `resultClaimEpistemeRef`. `resultClaimNodeRef` is the C.2.1:4.2.5 `ClaimAddress` pair: an exact episteme-edition reference and an intrinsic claim identity declared by that edition's ClaimGraph. Resolve the edition and then require exactly one claim with that identity. An unresolved edition, absent or non-unique identity, or display-only node token leaves the address unresolved. An edition change requires an explicit claim correspondence for any address migration. When no stable intrinsic claim identity exists, use `resultClaimEpistemeRef` if the receiving use can take the whole episteme's content; otherwise constitute the required result claim as its own C.2.1 episteme and reference that whole episteme. A row number or rendering label does not supply the missing claim identity.
 
 Checked evidence values stay paired with their kinds; evidence relations form a separate pair. Every actual Work reference points to an independently identified occurrence governed by the central §4 Work rule. A compact rendering may use only the omission allowed there.
 
 For an improvement pass, the changed-version reference appears only after that version exists. The `workResultOrChange...` fields keep the declared predicate, its pattern locator, and the obtaining basis distinct. That basis must be an A.6.1 result binding, a direct Work-to-result or Work-to-change relation, or a local relation claim that names its participants, conditions, and obtaining facts. If only the predicate or locator is known, keep the proposal, Work, changed object, and Transformation separate and return a missing-governor finding for the intended Work-to-result or Work-to-change relation. An A.15.PROD route points to its applicable local claim rather than to the pattern as a generic claim.
-The two record epistemes follow C.2.1 identity: claim content, exact EntityOfConcern, and effective `U.ReferenceScheme` determine each episteme edition. The listed loop fields contribute to claim content; `editionId` designates an already distinguished edition but does not constitute it. Empirical grounding, viewpoint membership, claim scope, model-use structure, applicability, qualification, evidence currentness, and source currentness remain separate relations or values defined elsewhere. A change in one of them changes a record episteme only when its claim content, EntityOfConcern, or reference scheme is revised; carrier and support serialization alone change neither episteme. These records do not create quality values, project evidence, release state, selected-set result declaration, actual publication, parity, refresh, Work, Transformation, or proof of quality.
+The two record epistemes follow C.2.1 identity: claim content, exact EntityOfConcern, and effective reference scheme determine each episteme edition. The listed loop fields contribute to claim content; `editionId` designates an already distinguished edition but does not constitute it. Empirical grounding, viewpoint membership, claim scope, model-use structure, applicability, qualification, evidence currentness, and source currentness remain separate relations or values defined elsewhere. A change in one of them changes a record episteme only when its claim content, EntityOfConcern, or reference scheme is revised; carrier and support serialization alone change neither episteme. These records do not create quality values, project evidence, release state, selected-set result declaration, actual publication, parity, refresh, Work, Transformation, or proof of quality.
 
 The `@Context` suffixes on support species such as `LoopEvaluationEvidenceBasis@Context`, `CandidateImprovementProposalRow@Context`, `TradeoffProtectionSet@Context`, and `ImprovementLoopBoundaryCondition@Context` are compatibility and retrieval spellings only. No suffix or context label supplies a container, participant, ClaimScope, applicability, or identity discriminator. Use the suffixless interface names `QualityEvaluationQuestionFrame`, `QualityEvaluationUseDeclaration`, and `QualityImprovementLoopRecord`.
 
@@ -255,8 +260,8 @@ E.23 governs the coordinate-qualified prediction episteme:
 ExpectedEvaluationResultChange@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the exact object version whose later evaluation result is predicted
   entityOfConcernKindRef: U.KindRef, referencing the exact kind of that object version
-  claimGraph: U.ClaimGraph by value
-  referenceScheme: U.ReferenceScheme by value
+  claimGraph: NonemptyClaimContent by value
+  referenceScheme: EpistemeInterpretationScheme by value
   editionId
   qualityEvaluationUseDeclarationRef: U.EpistemeRef, referencing one QualityEvaluationUseDeclaration about that object version
   evaluationCoordinateRef: U.EpistemeRef, referencing one governed evaluation-coordinate description
@@ -311,6 +316,16 @@ Treat the five decision values as current continuation dispositions, not as Work
 
 The selected family is justified by characteristic-space fit, the declared scale-qualified predicted evaluation-result changes, cost and risk, and protected trade-offs. Familiarity, automation, or current popularity is not enough.
 
+For `PDSAorPDCAFamily`, use the selected formulation. Deming's PDSA emphasizes study of a prediction; ASQ's PDCA also includes analysis and learning in Check. Distinguish maintaining work under an adequate standard, testing a change to it and organizing sustained use of the change. The relevant method supplies the operations needed by the improvement question.
+
+For `POOGIFamily`, distinguish selecting the system constraint, responding to a current buffer condition, changing buffer settings and organizing a transformation. The Cox–Boyd account connects Buffer Management, Five Focusing Steps and Change Question Sequence as distinct contributions. Their use does not impose a fixed number of control levels. Current buffer regulation remains a neighbouring operational method, not a compulsory step of every quality-improvement pass.
+
+Where recurring departures or changed conditions require more than current regulation, connect the selected inquiry to the change it can justify and to later performance that can test the change. A local improvement may require an agreement across organizations; tactical configuration may require reconsidering strategic assumptions; a proposed remedy may require inquiry into feedback and delayed effects. Library.Reference:6.5.3.2 explains these distinct extensions and their source conditions. Select the contribution needed by the improvement question, preserving the evaluation basis and the rights of affected participants.
+
+For `OODAFamily`, recover orientation, implicit guidance, explicit hypotheses and their tests through action. Common understanding and intent can support coordinated initiative under changing conditions. Preserve Boyd's own distinction between command/control and appreciation/leadership when relating these contributions to the general control account in C.43.
+
+If choosing the family requires clarification of the controlled subject, a changed goal, development of the performer or the organization needed for performance, use [Library.Reference:6.5](FPF-LIBRARY-REFERENCE.md#libraryreference65---compact-cycles-in-working-control-arrangements). It connects these family conditions to the subject methods and control arrangements that supply the missing contribution. An already adequate cycle can be used directly.
+
 #### E.23:4.5 - Operation-family selection
 
 An operation family is selected only when the loop account names:
@@ -337,7 +352,7 @@ Accepted `SoTA` is the working external front only when assigned by the object-u
 
 When an evaluation-result change depends on source use, source currentness, or a dated external front, the loop record cites the exact accepted source contribution and bounded use, including a `G.2` pack result when that route was used, or the relevant `G.11` currentness result, with the edition or date needed for replay. `E.23` carries that reference; it does not make the source-use or currentness decision.
 
-When several source anchors are used, retain each accepted source-use decision and contribution. If the improvement depends on their combined use, construct the needed connection under the subject Method; for framework Methods, use C.39 and E.4.CM. Preserve independently usable contributions when no composite Method is needed. The changed object's result episteme then carries a `SourceComposedResultClaim` node in its `U.ClaimGraph`, relating the result claim to those decisions and contributions, and the changed object version is re-evaluated.
+When several source anchors are used, retain each accepted source-use decision and contribution. If the improvement depends on their combined use, construct the needed connection under the subject Method; for framework Methods, use C.39 and E.4.CM. Preserve independently usable contributions when no composite Method is needed. The changed object's result episteme then carries a `SourceComposedResultClaim` in its claim content, relating the result claim to those decisions and contributions, and the changed object version is re-evaluated.
 
 For NQD and OEE, use `E.23` to change one object version or candidate and re-evaluate it on declared `Q` coordinates. Use `C.17` for novelty, diversity, descriptors, and distances, `C.18` for archive and front insertion, `C.19` for pool policy, `G.5` for selected-set result declaration, `G.9` for parity, and `G.11` for currentness and refresh. When audience availability is current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
 

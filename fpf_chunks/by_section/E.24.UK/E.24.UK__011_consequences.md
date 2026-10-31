@@ -6,12 +6,12 @@ section_id: "E.24.UK:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__011_consequences.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:9 — Consequences"
-line_start: 117125
-line_end: 117140
+line_start: 117709
+line_end: 117724
 dependencies:
   - "A.1.1"
   - "A.11"

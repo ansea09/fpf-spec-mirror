@@ -6,12 +6,12 @@ section_id: "C.2.8:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__006_archetypal-grounding.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:5 — Archetypal Grounding"
-line_start: 54207
-line_end: 54247
+line_start: 54554
+line_end: 54594
 dependencies:
   - "A.17"
   - "A.18"
@@ -49,7 +49,7 @@ API --write--> Store --update--> Replica --read by--> Reports
 API <--durable-write confirmation-- Store
 ```
 
-The reader is an engineer familiar with durable writes and replicas. Select the acknowledgment dependency, report-source/lag relation, rejected alternative with its reason, and reconsideration condition. Both forms expose the same claims; the described architecture is unchanged. Compare recovery with the same three-minute budget and source access. The diagram's presence alone establishes no advantage.
+The reader is an engineer familiar with durable writes and replicas. Select the acknowledgment dependency, report-source/lag relation, rejected alternative with its reason, and reconsideration condition. Both expressions expose the same claims; the described architecture is unchanged. Compare recovery with the same three-minute budget and source access. The diagram's presence alone establishes no advantage.
 
 Suppose a reading trial recovers three selected relations from the prose and all four from the combined expression. Report that bounded observed difference and identify the additional relation. If a source paragraph was supplied only before the second reading, the comparison also changed assistance. If the same reader encountered both forms, previous reading may contribute. These conditions prevent attributing the whole difference to form alone.
 
@@ -63,11 +63,11 @@ If the selected use is carrying out that test, the applicable procedure must be 
 
 #### C.2.8:5.3 - An observer with a two-statement budget
 
-Let E describe edges A→B, B→C, A→D and D→C. Form P1 lists them in that order. Form P2 lists A→B, A→D, B→C, D→C. Observer O reads the first two edge statements and returns every two-edge path supported by those edges. Select the paths A→B→C and A→D→C as the structural denominator.
+Let E describe edges A→B, B→C, A→D and D→C. Expression X1 lists them in that order. Expression X2 lists A→B, A→D, B→C, D→C. Here statement order is part of expression identity. Both expressions conform to the same reusable edge-list form F: one directed-edge statement per line, in any order.
 
-P1 gives O the edges needed for A→B→C; P2 gives two edges leaving A and no complete selected path. Under the declared count, the results are 1 and 0 out of two selected paths. With four statement reads, the same procedure recovers both paths from both forms.
+Observer O reads the first two edge statements and returns every two-edge path supported by those edges. Select the paths A→B→C and A→D→C as the structural denominator. X1 gives O the edges needed for A→B→C; X2 gives two edges leaving A and no complete selected path. Under the declared count, the results are 1 and 0 out of two selected paths. With four statement reads, the same procedure recovers both paths from both expressions.
 
-This result follows from the stated algorithm and budget. It is neither a human-comprehension observation nor a Finzi estimate. It shows one characteristic applied to the same expressed claims under a precisely bounded computational observation.
+The result follows from the stated algorithm and budget. It compares two X values at the same E, F and O, showing why selecting F alone leaves the supplied material unresolved. This is a bounded computational derivation; a claim about human comprehension or a Finzi estimate needs its own corresponding basis.
 
 #### C.2.8:5.4 - A whole-framework architectural rationale
 

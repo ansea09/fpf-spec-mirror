@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__008_conformance-and-counterexample-replay.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:7 — Conformance and counterexample replay"
-line_start: 19573
-line_end: 19603
+line_start: 19606
+line_end: 19636
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -53,7 +53,7 @@ keywords:
 | `CC-NAR-6` | Temporal posture, mediation, event-model support, viewpoint, engagement, and worker history appear only when each changes use or blocks a likely overread. |
 | `CC-NAR-7` | Evidence, assurance, ethics, policy, publication, decision, and Work claims use the patterns that define or test those exact claims. |
 | `CC-NAR-8` | The exact branch opens when the identified receiving use depends on claim identity and preservation. Citation, distribution or generated status alone does not establish that need. |
-| `CC-NAR-9` | In that branch, `X` and `Y` are independently identified by claim content, EntityOfConcern and effective `U.ReferenceScheme`; a model, file or prose label alone supplies none of those identities. |
+| `CC-NAR-9` | In that branch, `X` and `Y` are independently identified by claim content, EntityOfConcern and effective interpretation rules (`ReferenceScheme`); a model, file or prose label alone supplies none of those identities. |
 | `CC-NAR-10` | Exact `n : X -> Y` states same EntityOfConcern, claim construction, endpoint scheme relation, ordering, preservation, loss, prohibited strengthening, applicability, and return. |
 | `CC-NAR-11` | Additional source epistemes and correspondence dependencies are exact when used; actual Work, system, system-role kind or assignment, method, publication, carrier, evidence, assurance, and `U.View` membership remain separately identified and must satisfy their own definitions or tests. Completing the exact record does not itself authorize reliance. |
 | `CC-NAR-12` | Reuse is lowered or locally repaired when the source, selected structure, order, loss, use, exact identity, depended-on relation, or return changes. |

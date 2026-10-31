@@ -6,12 +6,12 @@ section_id: "C.30.AD:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__011_consequences.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:8 — Consequences"
-line_start: 72064
-line_end: 72079
+line_start: 72440
+line_end: 72455
 dependencies:
   - "A.1"
   - "A.10"

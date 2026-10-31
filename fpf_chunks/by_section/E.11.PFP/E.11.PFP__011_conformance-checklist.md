@@ -6,12 +6,12 @@ section_id: "E.11.PFP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__011_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:7 — Conformance Checklist"
-line_start: 104239
-line_end: 104264
+line_start: 104634
+line_end: 104659
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -36,7 +36,7 @@ keywords:
 
 | Check | Passing condition |
 | --- | --- |
-| CC-PFP.1 Scope truthful | The form expresses one named FPF, DPF, or LPF edition; no carrier or adjacent product is relabelled as that edition. |
+| CC-PFP.1 Scope truthful | The particular expression follows the selected publication-form rules and expresses one named FPF, DPF, or LPF edition; no carrier or adjacent product is relabelled as that edition. |
 | CC-PFP.2 Practitioner-first opening | The compact product-declared opening leads directly to the ToC; the common profile has not inserted a record or completeness block ahead of the reader's question. |
 | CC-PFP.3 Edition return works when needed | When exact edition return changes use or reliance, the shortest public designation and locator resolve without repository knowledge; otherwise no unused return field is mandatory. |
 | CC-PFP.4 Extra cues earn their place | Every cue before the ToC is projected from its exact record and changes a named reader decision or action; no common optional field is required merely for completeness. |

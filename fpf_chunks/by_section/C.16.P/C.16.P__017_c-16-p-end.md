@@ -6,12 +6,12 @@ section_id: "C.16.P:End"
 section_title: "C.16.P:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__017_c-16-p-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.16.P — Restore Precision to Characteristic and Scale Wording"
   - "C.16.P:End — C.16.P:End"
-line_start: 59391
-line_end: 59392
+line_start: 59770
+line_end: 59771
 dependencies:
   - "A.17"
   - "A.18"

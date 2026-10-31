@@ -6,12 +6,12 @@ section_id: "B.1.4:8.2"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__014_sota-echoing.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:8.2 — SoTA-Echoing"
-line_start: 42062
-line_end: 42070
+line_start: 42153
+line_end: 42161
 dependencies:
   - "A.1.1"
   - "A.14"

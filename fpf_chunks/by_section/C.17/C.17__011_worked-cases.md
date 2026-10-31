@@ -6,12 +6,12 @@ section_id: "C.17:9"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__011_worked-cases.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:9 — Worked cases"
-line_start: 60440
-line_end: 60471
+line_start: 60807
+line_end: 60838
 dependencies:
   - "A.0"
   - "A.1.1"

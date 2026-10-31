@@ -6,12 +6,12 @@ section_id: "F.17:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__003_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:2 — Problem frame"
-line_start: 123577
-line_end: 123590
+line_start: 124161
+line_end: 124174
 dependencies:
   - "A.1.1"
   - "A.10"

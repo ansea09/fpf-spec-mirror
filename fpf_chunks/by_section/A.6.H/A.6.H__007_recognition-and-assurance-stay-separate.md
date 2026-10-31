@@ -6,12 +6,12 @@ section_id: "A.6.H:6"
 section_title: "Recognition and assurance stay separate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__007_recognition-and-assurance-stay-separate.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:6 — Recognition and assurance stay separate"
-line_start: 25323
-line_end: 25341
+line_start: 25358
+line_end: 25376
 dependencies:
   - "A.1"
   - "A.10"

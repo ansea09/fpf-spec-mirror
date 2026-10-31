@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:5"
 section_title: "Archetypal Grounding (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__007_archetypal-grounding-informative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:5 — Archetypal Grounding (informative)"
-line_start: 37957
-line_end: 37994
+line_start: 38026
+line_end: 38063
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -35,7 +35,7 @@ UINDM selects basis positions. A projection to those positions retains their coo
 
 #### A.19.UINDM:5.2 - Show (U.System) — cross‑unit engineering dashboard
 
-A program manager maintains a `U.CharacteristicSpace` for manufacturing sites, including ~30 characteristics (quality, safety, cost, throughput, sustainability).
+A program manager maintains a `DeclaredCharacteristicSpace` for manufacturing sites, including ~30 characteristics (quality, safety, cost, throughput, sustainability).
 
 * The CN‑Spec’s `indicator_policy` for the “weekly executive dashboard” selects a subset:
   `{DefectRate, IncidentRate, UnitCost, LeadTime, EnergyPerUnit, OnTimeDelivery}`.
@@ -54,9 +54,9 @@ A research lead wants indicators for model robustness under distribution shift (
 
 #### A.19.UINDM:5.4 - One Characteristic at two Scale positions
 
-Let the exact space declaration `CS7` have ordered positions `i1=(Temperature, Celsius)` and `i2=(Temperature, kelvin)`, followed by an unrelated cost position. A state contains `x_i1=20 °C` and `x_i2=293.15 K`. The policy “select Celsius temperature” returns `S={i1}`. The explicit all-matches policy “all Temperature positions” returns `{i1,i2}`, with `x|_S` in the original order and both Scale meanings retained. UINDM converts neither value.
+Let the exact space declaration `CS7` have ordered positions `i1=(Temperature, Celsius)` and `i2=(Temperature, kelvin)`, followed by an unrelated cost position. A state contains `x_i1=20 °C` and `x_i2=293.15 K`. The policy “select Celsius temperature” returns `S={i1}`. The explicit all-matches policy “all Temperature positions” returns `{i1,i2}`, with `x|_S` in the original order and both Scale meanings retained. UINDM converts neither value. This use retains the reference to CS7 and a separate `characteristicSpaceDescriptionRef` to the exact episteme defining that basis.
 
 For the first policy, a separately admitted USCM scoring use can read the Celsius value under its declared method `g_C(c)=(c-0)/(40-0)` on Celsius interval `[0,40]`, returning `0.5` at 20. The interval endpoints are part of this illustrative scoring declaration. Supplying 293.15 as though it were Celsius violates that method's input basis; a TemperatureRef alone would not reveal the error. All-matches selection requires a receiving method that accepts those two Scale-specific positions, or a narrower selection; it is not a universal default.
 
-Suppose a new declaration `CS8` reverses these two positions. Resolving “Celsius temperature” now selects its CS8-local position i2. Reusing CS7's naked integer 1 would select kelvin and is invalid. If the policy merely says “Temperature” and supplies no rule for the two matches, return its unresolved/abstain disposition. A missing indicator policy retains the defined abstain result, and evidence gating still applies only when the selected policy requires it.
+Suppose a different space `CS8` reverses these two positions. Select CS8 and its description episteme explicitly, preserving CS7, its description and the earlier result. Resolving “Celsius temperature” now selects its CS8-local position i2. Reusing CS7's naked integer 1 would select kelvin and is invalid. If the policy merely says “Temperature” and supplies no rule for the two matches, return its unresolved/abstain disposition. A missing indicator policy retains the defined abstain result, and evidence gating still applies only when the selected policy requires it.
 

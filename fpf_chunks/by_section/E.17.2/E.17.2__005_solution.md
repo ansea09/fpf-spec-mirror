@@ -6,12 +6,12 @@ section_id: "E.17.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:4 — Solution"
-line_start: 106782
-line_end: 106928
+line_start: 107182
+line_end: 107328
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -168,11 +168,11 @@ A materialized local TEVB instance provides four exact project references; the t
 2. state the exact realization, allocation, dependency, consistency, trace, or other direct relation claimed;
 3. use the concrete pattern that defines and tests that relation, including its obtaining law;
 4. use A.6.RCD when no existing direct or derived relation is sufficient;
-5. use C.29 only for a representation of the recovered relation.
+5. recover any representation's correspondence to that relation; use A.6.3.RT/A.6.3.RT.OE for expression construction or representation-scheme transition, adding C.29 when a mathematical inference or transfer question requires it.
 
 If a separate receiving claim asserts dated `U.Work`, recover each exact actual performer through A.13 and use A.15.1 to establish the Work, Method, time, and containing System independently. Add F.6 only when that receiving claim also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact. Those Work and optional attribution facts are neither participants in the cross-view relation nor prerequisites for identifying it.
 
-E.17 and E.24.PUB may publish a selected TEVB view edition through three distinct relations: `PublicationFormExpressionRelation(selectedEdition,publicationForm,boundedUseDeclaration)`, `PublicationFormBearingRelation(presentationCarrier,publicationForm)`, and the five-participant `EpistemePublicationRelation(selectedEdition,audienceDeclaration,boundedUseDeclaration,publicationForm,presentationCarrier)`. Each retains its own participant set and maximal continuous obtaining interval; changing a participant or restoring availability after a gap yields another occurrence without reidentifying unchanged E or P.
+E.17 and E.24.PUB may publish a selected TEVB view edition through `PublicationExpressionRelation(selectedEdition,publicationExpression,boundedUseDeclaration)`, `PublicationExpressionBearingRelation(presentationCarrier,publicationExpression)`, and the five-participant `EpistemePublicationRelation(selectedEdition,audienceDeclaration,boundedUseDeclaration,publicationExpression,presentationCarrier)`. Identify the expression and carrier independently under their own domains. When a reusable publication form is selected, establish `PublicationFormConformanceRelation(publicationExpression,publicationForm)`; the same expression witnesses the corresponding form-mediated expression and bearing relations. Each exact relation retains its own participant set and maximal continuous obtaining interval; changing a participant or restoring its predicate after a gap yields another occurrence without reidentifying unchanged E or P. Broader availability through permitted expressions or carriers can continue when an exact publication changes.
 
-Rendering, printing, upload, or carrier manipulation is separate system-performed `U.Work`. Use C.29 only when a representation corresponds to independently recovered objects or relations. A publication-side viewpoint, when current, is another exact viewpoint episteme selected by reference—not a TEVB position label reused as a form or file name. View episteme, viewpoint episteme, construction, conformance, form, carrier, publication, rendering, and representation remain distinct; publication and representation make no represented world-side relation obtain.
+Rendering, printing, upload, or carrier manipulation is separate system-performed `U.Work`. A representation retains its correspondence to independently recovered objects or relations; C.29 adds the conditions for a mathematical inference or transfer. A publication-side viewpoint, when current, is another exact viewpoint episteme selected by reference—not a TEVB position label reused as a form or file name. View episteme, viewpoint episteme, construction, conformance, form, carrier, publication, rendering, and representation remain distinct; publication and representation make no represented world-side relation obtain.
 

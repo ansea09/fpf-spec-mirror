@@ -6,12 +6,12 @@ section_id: "E.17:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__005_forces.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:4 — Forces"
-line_start: 107114
-line_end: 107122
+line_start: 107514
+line_end: 107522
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -20,6 +20,8 @@ dependencies:
   - "A.22"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.9"
   - "A.7"
   - "B.3"
@@ -48,6 +50,6 @@ keywords:
 | --- | --- |
 | **Compositionality vs legibility** | Preserve arrow invariants across faces ↔ keep each face didactic and audience‑appropriate. |
 | **Neutral naming vs domain idioms** | Use vocabulary stable across domains ↔ allow local templates (SOPs, APIs, checklists). |
-| **Publication-face independence (A.7)** | Publication preserves EntityOfConcern, Description-episteme, and specification-use boundaries ↔ authors expect rich presentations. |
+| **Publication-face independence (A.7)** | Publication preserves EntityOfConcern, episteme, and specification-use boundaries ↔ authors expect rich presentations. |
 | **Evidence discipline** | Faces cite CG-Spec and CHR references when numeric or comparable claims are exposed ↔ authors want compact cards. |
 

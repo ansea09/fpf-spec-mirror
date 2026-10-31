@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.15.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Naming and Semantic Unification"
-line_start: 122812
-line_end: 123287
+line_start: 123396
+line_end: 123871
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -153,7 +153,7 @@ C.2.1 separately constitutes the result claims and optional conformance-record e
 
 A practitioner applying F.15 may check these exact objects together but redefines none:
 
-1. effective `U.ReferenceScheme` values and exact prior/later editions;
+1. effective reference scheme values and exact prior/later editions;
 2. independently governed local-sense claims and F.17 `SchemeSenseCell` coordinates;
 3. exact governed values and relation occurrences together with the rules that identify each value or say when each relation obtains, and the PatternIDs that locate those rules;
 4. F.4 `SystemRoleKindDescription` epistemes and their exact local system-role kinds;

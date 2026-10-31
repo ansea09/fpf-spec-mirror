@@ -6,12 +6,12 @@ section_id: "G.11:9"
 section_title: "Consequences (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__011_consequences-informative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:9 — Consequences (informative)"
-line_start: 131875
-line_end: 131881
+line_start: 132465
+line_end: 132471
 dependencies:
   - "A.10.1"
   - "A.6.RCD"

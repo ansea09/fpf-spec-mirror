@@ -6,12 +6,12 @@ section_id: "A.19.UNM:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__008_bias-annotation.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:6 — Bias‑Annotation"
-line_start: 37700
-line_end: 37709
+line_start: 37766
+line_end: 37775
 dependencies:
 keywords:
   - "CV→NCV"

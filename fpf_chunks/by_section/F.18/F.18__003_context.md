@@ -6,12 +6,12 @@ section_id: "F.18:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__003_context.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:1 — Context"
-line_start: 124622
-line_end: 124641
+line_start: 125209
+line_end: 125228
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 
 A name lets people refer to an independently governed value. The naming decision selects designations for that value; its subject pattern supplies the rules for identifying it and testing claims about it.
 
-`FPFCoreReferenceScheme` is the by-value `U.ReferenceScheme` used to interpret current FPF Core Tech labels and relation names; a name under another scheme carries that scheme by value. Most naming work stays within one `<ReferenceScheme, LocalSenseClaim>` projection and needs no Bridge. If one named use must relate different projections, follow the later cross-projection branch in section 4.4.1. Shared spelling, another scheme, or a selected model-use structure alone creates no Bridge, use claim, reliance, governed-value identity, or `U.BoundedContext`.
+`FPFCoreReferenceScheme` names the `EpistemeInterpretationScheme` value used to interpret current FPF Core Tech labels and relation names; a name under another scheme carries that scheme by value. C.2.1:4.1.1–4.1.2 identifies the actual rules, domains and semantic dependencies and supplies the range. Recover those rules for the naming claims being made; the scheme's label or a document about it does not supply the value. Most naming work stays within one `<ReferenceScheme, LocalSenseClaim>` projection and needs no Bridge. If one named use must relate different projections, follow the later cross-projection branch in section 4.4.1. Shared spelling, another scheme, or a selected model-use structure alone creates no Bridge, use claim, reliance, governed-value identity, or `U.BoundedContext`.
 
 `F.18` supplies the naming discipline for Part F and for any FPF pattern that needs a durable public term. It coordinates with:
 

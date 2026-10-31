@@ -6,12 +6,12 @@ section_id: "F.2:5"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__006_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
   - "F.2:5 — Minimal vocabulary (this pattern only)"
-line_start: 118523
-line_end: 118534
+line_start: 119107
+line_end: 119118
 dependencies:
   - "A.11"
   - "A.7"
@@ -33,7 +33,7 @@ keywords:
 
 ### F.2:5 - Minimal vocabulary (this pattern only)
 
-* **Exact source basis** — the selected source, edition or version, relevant passage, and effective `U.ReferenceScheme` needed to recover this use.
+* **Exact source basis** — the selected source, edition or version, relevant passage, and effective reference scheme needed to recover this use.
 * **Attested phrase** — a short verbatim cue showing how the expression is used in that source.
 * **LocalExpression** — the exact expression whose source-local meaning is being recovered.
 * **Local Normal Form (LNF)** — the minimally edited surface used to cite that expression while preserving the source’s spelling, hyphenation, and casing.

@@ -6,12 +6,12 @@ section_id: "E.4.FPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__006_archetypal-grounding.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.4.FPF — FPF Edition Assembly: Publication Forms, Carriers and Access Routes"
   - "E.4.FPF:5 — Archetypal Grounding"
-line_start: 93712
-line_end: 93750
+line_start: 94105
+line_end: 94143
 dependencies:
   - "C.33"
   - "C.34"
@@ -39,11 +39,11 @@ keywords:
 
 ### E.4.FPF:5 - Archetypal Grounding
 
-**Edition revision.** A later FPF edition updates its public front, Readme, Architectural Reference, ToC, and several pattern bodies. The FPF edition rebuildability record names one scoped edition, lists its Core pattern set, publication units and forms, exact presentation carriers, and access routes, records which entry text is only a projection, and points to `E.2.DA` for whole-FPF adequacy. It records Readme and Architectural Reference as publication units and names a presentation carrier only under an exact `PublicationFormBearingRelation`.
+**Edition revision.** A later FPF edition updates its public front, Readme, Architectural Reference, ToC, and several pattern bodies. The FPF edition rebuildability record names one scoped edition, lists its Core pattern set, publication units and forms, exact presentation carriers, and access routes, records which entry text is only a projection, and points to `E.2.DA` for whole-FPF adequacy. It records Readme and Architectural Reference as publication units and names a presentation carrier only under an exact `PublicationExpressionBearingRelation`; when the expression conforms to the selected form, it also witnesses `PublicationFormBearingRelation`.
 
 **Domain framework.** A domain principle framework for one practice depends on FPF Core and may cite architecture, representation, precision, and improvement patterns from FPF. Its publication units, forms, exact presentation carriers, and access routes belong to that DPF edition. Its package adequacy uses `E.4.DPF.DA`; FPF Core retains its transdisciplinary scope and its own amendment route.
 
-**Skill-pack access.** An FPF skill pack exposes pattern lookup, first-entry guidance, and short-use prompts. A versioned skill-pack bundle can be an access-facing `U.PresentationCarrier`; the service, endpoint, or assistant integration that returns it is an access route. Their descriptions name the FPF edition they expose and its refresh condition. Authority claims return to the named subject pattern and edition.
+**Skill-pack access.** An FPF skill pack exposes pattern lookup, first-entry guidance, and short-use prompts. A versioned skill-pack bundle can supply an access-facing carrier when its independently identified actual state or realization yields the selected expression; the service, endpoint, or assistant integration that returns it is an access route. Their descriptions name the FPF edition they expose and its refresh condition. Authority claims return to the named subject pattern and edition.
 
 #### E.4.FPF:5.1 - Rebuild an edition and catch a boundary error
 
@@ -60,13 +60,13 @@ The first useful result is rebuildability record **RC2**, which gives the assemb
 | Selected complete sources | DUA-2 replaces the whole C.11.DUA body; PUR-2 replaces the whole E.11.PUR body; Ways-1 inserts the whole C.39 body after C.38 and before C.40 |
 | Publication units | Opening O2, Readme R2, unchanged Architectural Reference P1, derived index I2 and body collection K2 |
 | Publication forms | A book arrangement: compact opening, contents and index, Readme, Architectural Reference, then bodies; a standalone Readme arrangement using R2 |
-| Particular carriers | Cedar-2-book-a, one assembled Markdown file; Cedar-2-readme-a, one rendered HTML file |
+| Particular expressions and carriers | Cedar-2-book-expression, the ordered Unicode text of the assembled Markdown, borne by managed file object Cedar-2-book-a; Cedar-2-readme-expression, the ordered Unicode text of the rendered HTML source, borne by managed file object Cedar-2-readme-a |
 | Access carrier and route | None selected for this assembly |
 | Reader-facing scope account | O2 names engineers and their working questions; R2 offers starting examples and returns to the bodies; P1 explains the wider reasoning practice |
 | Source and adequacy results | Q-DUA-2, Q-PUR-2 and Q-Ways-1 cover the three accepted source editions. Cedar 1's whole-edition assessment A1 does not assess Cedar 2 |
 | Reconsideration condition | A selected source, predecessor span, declared form or receiving use changes |
 
-Each carrier bears a form of the named units; neither file is the edition itself. The standalone HTML carries R2 without becoming another independently authored Readme. No access service has been selected.
+Each carrier's actual state yields its named expression; each expression follows the corresponding reusable arrangement rules and expresses the selected content. Neither file is the edition itself. The standalone HTML expresses R2 without becoming another independently authored Readme. No access service has been selected.
 
 Assembly replaces the two bounded bodies, inserts Ways-1, and derives I2 from that same membership. I2 must contain one row each for C.11.DUA, E.11.PUR and C.39, with no duplicate C.39 row. The full body inventory gains exactly C.39; all other membership and order stay as in Cedar 1.
 

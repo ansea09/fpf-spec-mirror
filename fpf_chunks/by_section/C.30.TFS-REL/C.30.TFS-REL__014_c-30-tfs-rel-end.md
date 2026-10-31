@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:End"
 section_title: "C.30.TFS-REL:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__014_c-30-tfs-rel-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:End — C.30.TFS-REL:End"
-line_start: 74699
-line_end: 74700
+line_start: 75087
+line_end: 75088
 dependencies:
   - "A.10"
   - "A.15"

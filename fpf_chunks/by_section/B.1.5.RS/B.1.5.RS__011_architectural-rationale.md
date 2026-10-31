@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__011_architectural-rationale.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:10 — Architectural Rationale"
-line_start: 42822
-line_end: 42827
+line_start: 42913
+line_end: 42918
 dependencies:
   - "A.3.1"
   - "B.1.5"

@@ -6,12 +6,12 @@ section_id: "A.6.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__004_forces.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:3 — Forces"
-line_start: 16626
-line_end: 16637
+line_start: 16657
+line_end: 16668
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -54,7 +54,7 @@ keywords:
 
 | Force | Tension |
 |---|---|
-| Reuse and semantic locality | Reusers need stable operation meaning, while every use has an effective `U.ReferenceScheme` and bounded Applicability. |
+| Reuse and semantic locality | Reusers need stable operation meaning, while every use has an effective `ReferenceScheme` and bounded Applicability. |
 | Law and admission | Laws state reusable regularities; admission predicates decide whether one proposed operation use is admissible. |
 | Declaration and realization | A declaration can have several realizers; changing one realizer does not by itself change declaration identity. |
 | Light use and typed reuse | One readable operation sentence is often enough, while repeated use may need exact argument and result declarations; a receiving claim about one use may additionally need a particular application and its bindings. |

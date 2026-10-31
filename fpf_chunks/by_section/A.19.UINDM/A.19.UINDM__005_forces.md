@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__005_forces.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:3 — Forces"
-line_start: 37843
-line_end: 37859
+line_start: 37909
+line_end: 37925
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -28,7 +28,7 @@ keywords:
 
 2. **Selection‑only vs “semantic alchemy.”** UINDM must not smuggle normalization, scaling, polarity flips, aggregation, or scoring inside “indicator choice.” It is a selection mechanism over the declared characteristic-space basis, not a transformation mechanism.
 
-3. **Declared-use locality vs reuse.** An indicator set is valid for its characteristic-space and CN-Spec editions, bearer, scope and window, evidence basis, policy, and intended use; a later use must recheck those premises and cite any source-local, kind, or plane relation it actually relies on.
+3. **Declared-use locality vs reuse.** An indicator set is valid for its characteristic space, its separately referenced description episteme and the CN-Spec edition, bearer, scope and window, evidence basis, policy, and intended use; a later use must recheck those premises and cite any source-local, kind, or plane relation it actually relies on.
 
 4. **Auditability vs authoring overhead.** Engineer‑managers need to see *why* an indicator set was chosen and *which editions/policies* were in effect, but FPF stays conceptual (no data governance, no tool‑enforced metadata). Audit obligations must therefore be minimal yet decisive.
 

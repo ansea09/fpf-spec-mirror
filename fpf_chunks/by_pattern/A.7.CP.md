@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.7.CP.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
-line_start: 26166
-line_end: 26358
+line_start: 26201
+line_end: 26393
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -116,7 +116,7 @@ RelationOccurrenceQualifiers:
   basisClaimAddress: ClaimAddress
   posture: ReasoningBasisPostureValue
   reasoningUseScope?: U.ClaimScope
-  modelUseStructureRef?: U.StructureRef
+  modelUseStructureRef?: SelectedStructureReference
 
 OccurrenceIdentity:
   <exact basis-claim edition and claim ID,

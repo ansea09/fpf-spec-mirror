@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__002_use-this-when.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:0 — Use This When"
-line_start: 42856
-line_end: 42877
+line_start: 42947
+line_end: 42968
 dependencies:
   - "A.3.1"
   - "B.1.5"

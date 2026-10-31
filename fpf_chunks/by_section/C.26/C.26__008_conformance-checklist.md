@@ -6,12 +6,12 @@ section_id: "C.26:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__008_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:7 — Conformance Checklist"
-line_start: 65422
-line_end: 65442
+line_start: 65793
+line_end: 65813
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,7 +65,7 @@ keywords:
 | CC-C26.9 | The support matches the receiving claim and reliance described in :12b. A prediction, model-adoption, assurance or comparative-performance conclusion receives its needed account; a conditional explanation reused under the same assumptions retains its sufficient account. |
 | CC-C26.10 | The text does not mint `U.Probe`, generic `U.State`, `U.DistributedState`, `U.Lens`, a new boundary kind, or a social-substance kind. |
 | CC-C26.11 | A cold reader can tell what changes in practice in the first minute. |
-| CC-C26.12 | Every quality ascription or model claim carried by C.26 names the exact bearer or C.2.1 claim-bearing episteme, effective `U.ReferenceScheme`, probe/model frame, comparison frame, `U.ClaimScope`, and the separately obtaining grounding relation or its explicit absence. |
+| CC-C26.12 | Every quality ascription or model claim carried by C.26 names the exact bearer or C.2.1 claim-bearing episteme, effective reference scheme, probe/model frame, comparison frame, `U.ClaimScope`, and the separately obtaining grounding relation or its explicit absence. |
 | CC-C26.13 | Any viewpoint use has one `U.ViewpointRef` resolving to exact P; the evaluator, P, and the reference remain distinct. |
 | CC-C26.14 | C.26 opens only for one named contextual-model obstruction that survives ordinary subject patterns and changes an admissible inference or action; local outputs stay in their own algebras unless an admitted comparison route exists. |
 | CC-C26.15 | A `BoundedModelUseStructure` is selected independently for a named receiving use, and any subject crossing has its own exact direct governor and occurrence. |

@@ -6,12 +6,12 @@ section_id: "A.6.RCD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__011_consequences.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:9 — Consequences"
-line_start: 21494
-line_end: 21501
+line_start: 21527
+line_end: 21534
 dependencies:
   - "A.11"
   - "A.6.0"

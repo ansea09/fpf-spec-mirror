@@ -6,12 +6,12 @@ section_id: "A.6.9:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__006_archetypal-grounding.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:5 — Archetypal Grounding"
-line_start: 24662
-line_end: 24704
+line_start: 24697
+line_end: 24739
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -90,7 +90,7 @@ When their basis is supplied, both claims concern the same obtaining Bridge; nei
 
 #### A.6.9:5.3 - Published NAICS language and a `Conformist` cue
 
-Consider a hypothetical application with the following independently identified objects. C.2.1 identifies exact model episteme edition `NAICS-2022-ClassificationEpisteme` by its exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme; A.1 independently identifies exact `IndustryClassificationApplication-7 : U.System`. If availability matters, E.24.PUB separately tests `EpistemePublicationRelation(NAICS-2022-ClassificationEpisteme, ClassificationAudienceDeclaration-2, ClassificationUseDeclaration-5, NAICS-2022-TableForm, NAICS-2022-PDFCarrier)` together with its exact form-expression and form-bearing occurrences. The episteme, publication occurrence, form, carrier, declarations, and application system keep different identities. Publication establishes availability to the exact audience and use declarations. Access, adoption, applicability, actual use, performed Work, and any application-side parthood remain claims under their own predicates and facts.
+Consider a hypothetical application with the following independently identified objects. C.2.1 identifies exact model episteme edition `NAICS-2022-ClassificationEpisteme` by its exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme; A.1 independently identifies exact `IndustryClassificationApplication-7 : U.System`. If availability matters, E.24.PUB separately tests `EpistemePublicationRelation(NAICS-2022-ClassificationEpisteme, ClassificationAudienceDeclaration-2, ClassificationUseDeclaration-5, NAICS-2022-TableExpression, NAICS-2022-PDFCarrier)` together with its exact expression and expression-bearing occurrences. Identify NAICS-2022-TableExpression independently as the particular keyed typed classification table, and test its conformance to reusable NAICS-2022-TableForm when that form matters. The episteme, publication occurrence, expression, form, carrier, declarations, and application system keep different identities. Publication establishes availability to the exact audience and use declarations. Access, adoption, applicability, actual use, performed Work, and any application-side parthood remain claims under their own predicates and facts.
 
 Recover the use branch before selecting structure. Establish the A.13 basis and independent A.15.1 admission of ClassificationWork-4. This model-use claim additionally consumes assignment-bound attribution: require `HolderSystem(ClassificationAssignment-3)=IndustryClassificationApplication-7`, exact F.6 `performedUnderAssignment(ClassificationWork-4, ClassificationAssignment-3)`, and the application's actual use of the selected NAICS content during that Work concerning exact `ClassifiedOrganization-42`; only then may `ModelUseRelation(ClassificationAssignment-3, NAICS-2022-ClassificationEpisteme, ClassificationWork-4, ClassifiedOrganization-42)` obtain. A positive `NAICSClassificationModelUseStructure` additionally requires exact `ModelApplicabilityRelation(NAICS-2022-ClassificationEpisteme, ClassifiedOrganization-42, ClassificationClaimScope)`, fixed-content coherence with the exact classification-expression episteme under a declared predicate and ReferenceScheme, exact applied constraint claims naming the edition and classification distinctions to preserve, and `NAICSClassificationFrame`: “Which NAICS edition and distinctions govern the classification of `ClassifiedOrganization-42` as a complete organization?” Model use comes from the actual-use facts above; any application-system parthood claim requires its own predicate and facts. Without the complete A.1.1/A.22 basis, stop at publication availability or the exact direct relation that does obtain.
 

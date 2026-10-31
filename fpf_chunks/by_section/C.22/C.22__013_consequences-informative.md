@@ -6,12 +6,12 @@ section_id: "C.22:11"
 section_title: "Consequences (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__013_consequences-informative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:11 — Consequences (informative)"
-line_start: 62744
-line_end: 62750
+line_start: 63115
+line_end: 63121
 dependencies:
   - "A.6.0"
   - "C.16"

@@ -6,12 +6,12 @@ section_id: "C.27:End"
 section_title: "C.27:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__015_c-27-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change"
   - "C.27:End — C.27:End"
-line_start: 67058
-line_end: 67059
+line_start: 67429
+line_end: 67430
 dependencies:
   - "A.10"
   - "A.3.3"

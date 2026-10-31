@@ -6,14 +6,16 @@ section_id: "E.24.PUB:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__004_problem.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:2 — Problem"
-line_start: 116462
-line_end: 116473
+line_start: 116971
+line_end: 116982
 dependencies:
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.REL"
   - "C.2.1"
   - "C.29"
@@ -40,9 +42,9 @@ The practical problem is change localization. When a reader sees only “the dia
 
 1. the selected episteme edition may have changed because its claim content, EntityOfConcern, or effective reference scheme changed;
 2. another episteme edition may have been constructed, or the exact episteme may conform to a different viewpoint edition;
-3. the publication form or C.29 representation may have changed while the claims stayed the same;
+3. the expression, reusable form or representation correspondence may have changed while the claims stayed the same;
 4. the presentation carrier or its availability may have changed;
-5. the declared audience or bounded use may have changed while the same edition, form, and carrier remained.
+5. the declared audience or bounded use may have changed while the same episteme, expression and carrier remained.
 
 Without the distinction, the receiving use cannot identify the smallest object or relation to inspect, revise, republish, or stop relying on.
 

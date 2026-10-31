@@ -6,12 +6,12 @@ section_id: "A.2.7:5"
 section_title: "Worked Slices and Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__007_worked-slices-and-archetypal-grounding.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:5 — Worked Slices and Archetypal Grounding"
-line_start: 7828
-line_end: 7954
+line_start: 7851
+line_end: 7977
 dependencies:
   - "A.2"
   - "A.2.1"

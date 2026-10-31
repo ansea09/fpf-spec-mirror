@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__010_consequences.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:9 — Consequences"
-line_start: 19617
-line_end: 19633
+line_start: 19650
+line_end: 19666
 dependencies:
   - "A.10"
   - "A.22.CGUS"

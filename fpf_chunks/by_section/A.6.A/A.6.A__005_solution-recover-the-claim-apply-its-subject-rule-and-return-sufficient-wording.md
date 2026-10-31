@@ -6,12 +6,12 @@ section_id: "A.6.A:4"
 section_title: "Solution - Recover the claim, apply its subject rule and return sufficient wording"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__005_solution-recover-the-claim-apply-its-subject-rule-and-return-sufficient-wording.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:4 — Solution - Recover the claim, apply its subject rule and return sufficient wording"
-line_start: 21890
-line_end: 22183
+line_start: 21923
+line_end: 22216
 dependencies:
   - "A.15"
   - "A.16"

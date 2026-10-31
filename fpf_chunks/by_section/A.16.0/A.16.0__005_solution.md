@@ -6,12 +6,12 @@ section_id: "A.16.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:4 — Solution"
-line_start: 33595
-line_end: 33729
+line_start: 33630
+line_end: 33765
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -62,15 +62,16 @@ The filled account has its own C.2.1 identity. Described source editions, positi
 Several unrelated sources displayed in one table do not become one history individual. A common carrier or form can support separately grounded accounts and expression claims. Each claimed E.24.PUB publication occurrence still concerns one exact selected episteme edition and one bounded use. Publishing a history account is also distinct from publishing each source edition that it describes.
 
 #### A.16.0:4.1 - Keep the account positions distinct
-Keep the account's own identity and publication distinct from these seven values described in its history:
+Keep the account's own identity and publication distinct from these values described in its history:
 
 - **selected episteme edition** - the current `U.Episteme` whose claims are being positioned or re-expressed;
 - **lineage links** - independently established derivation, supersession, fork, merge or retirement relations among the selected epistemes, each under its defining predicate; state a no-successor result when that is the supported account;
 - **grounds or witnesses** - disturbances, discrepancies, traces, model outputs, bodily tensions, contrasts, or exemplars that justify the history;
-- **publication form** - a cue pack, routed cue set, prompt form, typed route-bounded projection form, partial normal form, or endpoint-bound record used to express an edition;
+- **publication form** - the reusable rules for a cue pack, routed cue set, prompt, typed route-bounded projection, partial normal form, or endpoint-bound record;
+- **publication expression** - the particular sign construction that follows the selected form and expresses enough of the selected edition for the bounded use;
 - **publication occurrence** - an `EpistemePublicationRelation` occurrence only when availability to an audience for a bounded use matters;
 - **publication face** - the MVPK face on which a form is rendered when face typing matters;
-- **carrier** - the document, console note, card, trace file, model output, or other entity that bears the form.
+- **carrier** - the independently identified physical or digital entity whose actual state or realization yields that expression, such as a document file, physical card, or trace file.
 
 A form, face, carrier, or publication-occurrence change can leave the selected episteme unchanged. A changed C.2.1 discriminator identifies another episteme. Call it a continuing edition only when the exact C.2.1 EpistemeEditionRelation obtains; any other lineage claim requires its own defining predicate and obtaining facts. Publication alone creates neither the episteme nor a lineage link.
 

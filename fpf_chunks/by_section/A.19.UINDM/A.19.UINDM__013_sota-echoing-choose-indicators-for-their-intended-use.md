@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:11"
 section_title: "SoTA-Echoing — choose indicators for their intended use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__013_sota-echoing-choose-indicators-for-their-intended-use.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:11 — SoTA-Echoing — choose indicators for their intended use"
-line_start: 38071
-line_end: 38082
+line_start: 38140
+line_end: 38151
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

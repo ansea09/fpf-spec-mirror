@@ -6,12 +6,12 @@ section_id: "E.17.EFP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__008_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:7 — Conformance Checklist"
-line_start: 108090
-line_end: 108129
+line_start: 108490
+line_end: 108529
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,9 +47,9 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
 #### E.17.EFP:7.1 - EFP-Core ordinary checks
 
 0. **CC-EF-0 — Exact episteme and sufficient expression are recoverable.**
-   Identify the source through ClaimGraph, exact EntityOfConcern and effective ReferenceScheme. Its form expresses enough for the declared use, preserves answer-changing qualifications, returns to the source and discloses use-relevant omissions; whole-source coverage is not required. Insufficiency returns the exact gap, not an invented target. An actual changed target needs its own identity and an independently obtaining source-to-target relation; a speculative causal or counterfactual claim belongs to a separate B.5.2 hypothesis episteme.
+   Identify the source through ClaimGraph, exact EntityOfConcern and effective ReferenceScheme. Its expression expresses enough for the declared use, preserves answer-changing qualifications, returns to the source and discloses use-relevant omissions; whole-source coverage is not required. Insufficiency returns the exact gap, not an invented target. An actual changed target needs its own identity and an independently obtaining source-to-target relation; a speculative causal or counterfactual claim belongs to a separate B.5.2 hypothesis episteme.
 1. **CC-EF-1 — Explanation class follows identity.**
-   The class is explicitly named for the publication form after CC-EF-0; it is not used as episteme identity or source-to-target evidence.
+   The class is explicitly named for the publication expression after CC-EF-0; it is not used as episteme identity or source-to-target evidence.
 2. **CC-EF-3 — Source reference and blocked downstream use are explicit.**
    The compact note states source reference, bounded explanation-reader use, blocked downstream use, and reopen or boundary condition.
 4. **CC-EF-5 — No new A.6.B boundary claims on explanation faces.**
@@ -62,13 +62,13 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
 1. **CC-EF-4 — Interpretant-side block is explicit when reader-fit does real work.**
    Only the reader-fit distinctions that change the current class, bounded use, blocked use, or reopen condition are stated. The five optional prompts are not a required block.
 2. **CC-EF-2 — Face and `publication-face kind` boundary is explicit when present.**
-   State face, pinning, provenance, or reliability details only when the present form choice, dispute, derivative, or receiving use makes that boundary material and it is not already recoverable by source reference.
+   State face, pinning, provenance, or reliability details only when the present expression choice, dispute, derivative, or receiving use makes that boundary material and it is not already recoverable by source reference.
 3. **CC-EF-6 — Boundary to interpretation, retargeting, coarsening, and world or gate use is explicit.**
    The boundary is explicit, including `A.6.3.CSC Controlled Semantic Coarsening` when a narrower bounded claim or effect, blocked downstream claim or effect, or source-bearing reopen condition becomes primary.
 4. **CC-EF-8 — Bundle-local class differences are explicit.**
-   When one publication bundle carries different explanation classes across faces, that difference is stated explicitly rather than hidden under one bundle-wide label.
+   When one publication bundle carries expressions with different explanation classes under its selected faces, that difference is stated explicitly rather than hidden under one bundle-wide label.
 5. **CC-EF-9 — Source-loss or changed-claim cases retain exact identity and use boundaries.**
-   A didactic target names its exact A.6.3 or other relation; a speculative form names its exact B.5.2 hypothesis episteme. Any material source loss or reliability downgrade states its bounded and forbidden uses without pretending that the EFP class supplies identity or relation evidence.
+   A didactic target names its exact A.6.3 or other relation; a speculative expression names its exact B.5.2 hypothesis episteme. Any material source loss or reliability downgrade states its bounded and forbidden uses without pretending that the EFP class supplies identity or relation evidence.
 6. **CC-EF-10 — Reopen triggers match the class.**
    The published review note makes class-relevant reopen triggers visible when source claim set, pins, provenance, or face-use assumptions change.
 7. **CC-EF-11 — Every non-obvious source-linked connective has an actual basis.**

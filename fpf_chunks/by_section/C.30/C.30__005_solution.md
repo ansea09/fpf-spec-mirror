@@ -6,12 +6,12 @@ section_id: "C.30:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:4 — Solution"
-line_start: 71044
-line_end: 71560
+line_start: 71415
+line_end: 71932
 dependencies:
   - "A.1"
   - "A.10"
@@ -104,27 +104,27 @@ ArchitectureClaim ::= {
   claimEpistemeRef: U.EpistemeRef,
   entityOfConcernRef:
     describedHolonRef | architectureRelationRef | selectedStructureRef,
-  effectiveReferenceScheme: U.ReferenceScheme, byValue,
+  effectiveReferenceScheme: EpistemeInterpretationScheme, byValue,
   claimScope?: U.ClaimScope, byValue,
   content: {
     describedHolonRef: U.HolonRef,
     architectureRelationAssertion:
       obtains | doesNotObtain | unresolved | candidateOrExpectedOnly,
     architectureRelationRefs?: FinSet(U.RelationRef),
-    selectedStructureRefs?: FinSet(U.StructureRef),
-    candidateOrExpectedStructureRefs?: FinSet(U.StructureRef),
+    selectedStructureRefs?: FinSet(SelectedStructureReference),
+    candidateOrExpectedStructureClaimRefs?: FinSet(U.EpistemeRef),
     structureKindRefs: FinSet(ArchitectureStructureKindRef),
     architectureConcernClaimRefs?: FinSet(U.EpistemeRef),
     architectureConcernCue?: Plain recognition wording,
     admissibleUse,
     nonAdmissibleUse
   },
-  modelUseStructureRef?: U.StructureRef,
+  modelUseStructureRef?: SelectedStructureReference,
   empiricalGroundingRelationRef?: U.RelationRef
 }
 ```
 
-The C.2.1 identity basis is the exact content, one exact `entityOfConcernRef`, and effective `U.ReferenceScheme`. `claimScope` qualifies what the claim covers. `modelUseStructureRef` appears only when one independently selected bounded-model-use structure changes structure interpretation or selection for this receiving use. `empiricalGroundingRelationRef` names a separately obtaining grounding relation; neither grounding nor the optional model-use structure is an `ArchitectureRelation` participant.
+The C.2.1 identity basis is the exact content, one exact `entityOfConcernRef`, and effective reference scheme. Each by-value scheme in this pattern uses the C.2.1:4.1.2 range `EpistemeInterpretationScheme` and must supply the rules for reading the episteme or claim content named by that form, including its designations, predicate meanings and polarity. `claimScope` qualifies what the claim covers. `modelUseStructureRef` appears only when one independently selected bounded-model-use structure changes structure interpretation or selection for this receiving use. `empiricalGroundingRelationRef` names a separately obtaining grounding relation; neither grounding nor the optional model-use structure is an `ArchitectureRelation` participant.
 
 For an affirmative actual claim, every `architectureRelationRef` resolves to an obtaining occurrence whose participants and predicate satisfy the direct settlement above, and every `selectedStructureRef` is the exact structure participant of one of those occurrences. A negative, unresolved, candidate, required, desired, or expected claim can remain truthful claim content without an obtaining occurrence; it uses no invented positive reference. A description, diagram, graph, file, list, architecture decision, authoring act, or publication may state or carry the claim, but creates neither its truth nor the subject-side relation or structure.
 
@@ -152,8 +152,9 @@ ArchitectureCandidateMove:
   architectureClaimRef?: ArchitectureClaimRef
   describedHolonRef:
   currentArchitectureRelationRefs?: FinSet(U.RelationRef)
-  currentSelectedStructureRefs?: FinSet(U.StructureRef)
-  candidateStructureRefs: FinSet(U.StructureRef)
+  currentSelectedStructureRefs?: FinSet(SelectedStructureReference)
+  candidateStructureRefs?: FinSet(SelectedStructureReference), for independently identified structures
+  candidateStructureProposalRefs?: FinSet(U.EpistemeRef), when separate proposal epistemes are used
   candidateStructureKindRefs:
   affectedArchitectureCharacteristicRef:
   candidateMoveClaim:
@@ -168,9 +169,9 @@ ArchitectureCandidateMove:
   stopCondition:
 ```
 
-`ArchitectureCandidateMove` is a thin claim note about a possible structural change. It records why a generated, retained, front-member, or selected-set variant can be considered as architecture material; it is not an obtaining `ArchitectureRelation`, work plan, local choice result, declared selected-set result, publication occurrence, decision, performed Work, or new kind. Candidate structure content remains modal until the exact structure is constituted and the direct architecture predicate obtains.
+`ArchitectureCandidateMove` is a thin claim note about a possible structural change. It records why a generated, retained, front-member, or selected-set variant can be considered as architecture material; it is not an obtaining `ArchitectureRelation`, work plan, local choice result, declared selected-set result, publication occurrence, decision, performed Work, or new kind. Candidate structure content remains modal until the exact structure is constituted and the direct architecture predicate obtains. Recover the proposed organization from `candidateMoveClaim` or a named proposal episteme even when no selected structure can yet be identified. References to already identified structures can supply comparison targets without establishing the proposed architecture.
 
-For common exits from this architecture question, use `C.18` for archive generation or front maintenance, `C.19` for current-pool treatment, `G.5` for selected-set result declaration, and `C.11` for local choice. If that result is made available to an audience, use `E.17` for a source-backed publication face and return to source, and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability. Cite `E.11.PUR` for a recommended FPF pattern use. Use `A.15.2`, `A.15.5`, `A.21`, or `A.15.1` when the move enters planning, work-entry readiness, a gate decision, or performed Work. Keep only the architecture claim here: which holon and current relation are at issue, which candidate structure matters, which characteristic may change, and which next use is admissible.
+For common exits from this architecture question, use `C.18` for archive generation or front maintenance, `C.19` for current-pool treatment, `G.5` for selected-set result declaration, and `C.11` for local choice. If that result is made available to an audience, use `E.17` for a source-backed publication face and return to source, and `E.24.PUB` for the publication occurrence, particular expression, carrier, audience, bounded use, and availability; identify a reusable form separately when its rules are needed. Cite `E.11.PUR` for a recommended FPF pattern use. Use `A.15.2`, `A.15.5`, `A.21`, or `A.15.1` when the move enters planning, work-entry readiness, a gate decision, or performed Work. Keep only the architecture claim here: which holon and current relation are at issue, which candidate structure matters, which characteristic may change, and which next use is admissible.
 
 Architecture-move wording creates no root `U.Move`, structure, relation, WorkPlan, readiness relation, gate decision, performed work, decision, or source-use claim by itself. When source wording uses “move” outside this architecture-candidate use, restore the concern through `E.10.MOVE` and name the pattern that defines or tests the recovered claim.
 
@@ -187,7 +188,7 @@ C30ArchitectureDescriptionBridge minimum:
   architectureDescriptionRef: exact U.EpistemeRef
   entityOfConcernRef: exactly one described holon,
     obtaining ArchitectureRelation occurrence, or selected U.Structure
-  effectiveReferenceScheme: U.ReferenceScheme, byValue
+  effectiveReferenceScheme: EpistemeInterpretationScheme, byValue
   architectureClaimRefs?: bounded claim content or trace
   selectedStructureRefs or structureKindRefs:
   architectureStructuralViewRefs?: only for exact description epistemes
@@ -264,7 +265,7 @@ If a text says "<X> architecture", the phrase is precise only when the following
   effectiveReferenceScheme for any claim episteme,
   modelUseStructureRef? only when that structure changes interpretation or selection,
   structureKindRef = <X>StructureKind or a declared local classifier,
-  actual selectedStructureRefs or separately named candidateOrExpectedStructureRefs,
+  actual selectedStructureRefs or separately recoverable candidate/expected claim content,
   architectureStructuralViewRefs only when a conforming view episteme is being used,
   admissibleUse,
   nonAdmissibleUse.
@@ -323,7 +324,7 @@ ArchitectureStructuralCharacteristicQBundleClaimLine ::= {
     architectureBearingHolonRef | architectureRelationRef |
     selectedStructureRef | directStructuralRelationRef |
     structuralCharacteristicRef,
-  effectiveReferenceScheme: U.ReferenceScheme, byValue,
+  effectiveReferenceScheme: EpistemeInterpretationScheme, byValue,
   claimScope?: U.ClaimScope, byValue,
   structuralCharacteristicCueOrRef,
   affectedQBundleSlotRef,
@@ -376,7 +377,7 @@ ArchitectureCharacteristicQBundleClaim ::= {
     architectureBearingHolonRef | architectureRelationRef |
     selectedStructureRef | directStructuralRelationRef |
     structuralCharacteristicRef,
-  effectiveReferenceScheme: U.ReferenceScheme, byValue,
+  effectiveReferenceScheme: EpistemeInterpretationScheme, byValue,
   claimScope?: U.ClaimScope, byValue,
   architectureClaimRef?: ArchitectureClaimRef,
   architectureStructuralViewRef?,

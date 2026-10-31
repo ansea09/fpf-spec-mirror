@@ -6,12 +6,12 @@ section_id: "C.2.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:4 — Solution"
-line_start: 54115
-line_end: 54206
+line_start: 54460
+line_end: 54553
 dependencies:
   - "A.17"
   - "A.18"
@@ -40,7 +40,7 @@ keywords:
 
 Begin with the reader's needed understanding or action. Select the structure that matters to it: for example, a distinction between two alternatives, the dependency that orders two actions, or the reason a design choice changes under a new condition. A study of structural information may instead select a structure family for that research question. Selection need not assign task utility.
 
-Identify the account and form being used. State only the conditions that could change the comparison: relevant concepts and notation the reader can use, available inference or inspection operations, accessible sources and help, and the effort or computation budget. A qualification or course title may locate evidence of preparation; it does not specify the usable knowledge by itself.
+Identify the account and the particular expression being used. State only the conditions that could change the comparison: relevant concepts and notation the reader can use, available inference or inspection operations, accessible sources and help, and the effort or computation budget. A qualification or course title may locate evidence of preparation; it does not specify the usable knowledge by itself.
 
 Then recover or estimate the selected structure and compare it with the relevant source or correctness criterion. Retain what each expression contributes, what remains missing and what a source return or prerequisite supplies. Reuse a sufficient current result. A new reading trial is useful when its possible outcomes could change the explanation or receiving decision.
 
@@ -50,21 +50,23 @@ Stop when that structural comparison answers the current question. If the select
 
 **Tech name:** `ExtractableStructuralInformation`. **Plain name:** structure this reader or observer can extract. `ESI` is an abbreviation after the full name has been introduced.
 
-This is an A.17 `U.RelationCharacteristic`, with arity three over the ordered tuple:
+This is a relation Characteristic under A.17, with arity three over the ordered tuple:
 
 ```text
-(expressed episteme E, expressing publication form P, reader or observer O)
+(expressed episteme E, particular expression X, reader or observer O)
 ```
 
-Its aspect is the amount of selected structure correctly extractable from E through P by O under stated comparison conditions.
+Its aspect is the amount of selected structure correctly extractable from E through X by O under stated comparison conditions.
 
-E retains its C.2.1 identity. P is the entity expressing that episteme in the applicable E.24.PUB publication-form relation and retains the more specific kind supplied by its form pattern. O is the specified human or computational observer. An estimate about a reader class states the relevant preparation and variation among its members; it does not treat the class as another individual reader.
+E retains its C.2.1 identity. X is an independently identified `U.Entity`: the particular sign construction that expresses E, identified under its expression domain's formation and equality rules. If reading order affects the selected operation, those rules must preserve order as part of X. O is the specified human or computational observer. An estimate about a reader class states the relevant preparation and variation among its members; it does not treat the class as another individual reader.
 
-Where exact notation helps, write `ESI_C(E, P, O)`. C fixes the selected structure, correctness criterion, relevant prior knowledge, usable operations, available assistance and tools, access conditions, budget and any other qualification that changes interpretation. These conditions qualify the characteristic of the tuple; they are not an additional bearer or a universal record kind.
+Where exact notation helps, write `ESI_C(E, X, O)`. C fixes the selected structure, correctness criterion, relevant prior knowledge, usable operations, available assistance and tools, access conditions, budget and any other qualification that changes interpretation. These conditions qualify the characteristic of the tuple; they are not an additional bearer or a universal record kind.
 
-Changing only expression can retain E. Adding, omitting or changing substantive claims can identify another episteme; use C.2.1 and the applicable source-to-target rule for that claim. In an explanation use, E.17.EFP's first screen distinguishes those branches when the difference matters. A comparison of forms alone holds the expressed claims constant.
+E.24.PUB:4.1–4.2 distinguishes the particular expression X, reusable publication form F and carrier. When a comparison relies on F, identify its rules and how the selected X conforms to them. Several different expressions can follow the same F and yield different recovery results. A conclusion about a reusable form requires a stated selection of expressions and grounds for extending their results to that form. An unpublished draft can also supply X for an ESI comparison; identify the expression and available access directly.
 
-The presentation carrier belongs in the access conditions when rendering, resolution, searchability or availability affects extraction. Changing access can change the qualified result while E and P remain the same. Attribute that difference to the changed access conditions. Ordinary references to a page, diagram or file are sufficient when they identify the required account and expression without ambiguity.
+Changing only expression can retain E. Adding, omitting or changing substantive claims can identify another episteme; use C.2.1 and the applicable source-to-target rule for that claim. In an explanation use, E.17.EFP's first screen distinguishes those branches when the difference matters. A comparison intended to isolate a change of form holds the expressed claims constant and identifies the particular expressions compared.
+
+The presentation carrier belongs in the access conditions when rendering, resolution, searchability or availability affects extraction. Changing access can change the qualified result while E and X remain the same. Attribute that difference to the changed access conditions. Ordinary references to a page, diagram or file are sufficient when they identify the required account and expression without ambiguity.
 
 #### C.2.8:4.3 - Correct recovery and the expression's contribution
 
@@ -102,17 +104,17 @@ Absence of human validation restricts empirical claims about people. It does not
 
 A formal structural-information estimate is useful when a mathematical model can represent the selected account, observer and extraction question. Use C.29 for that correspondence and its preserved and lost structure.
 
-Finzi et al.'s computational epiplexity selects a time-bounded probabilistic program by a two-part coding criterion:
+Finzi et al.'s computational epiplexity selects a time-bounded probabilistic program by a two-part coding criterion. Writing D for the model's data variable gives:
 
 ```text
-P* = argmin over P in P_T of ( |P| + E[-log2 P(X)] )
-S_T(X) = |P*|
-H_T(X) = E[-log2 P*(X)]
+P* = argmin over P in P_T of ( |P| + E[-log2 P(D)] )
+S_T(D) = |P*|
+H_T(D) = E[-log2 P*(D)]
 ```
 
 Ties select the shorter program. The model term describes structural information; the residual is time-bounded entropy. Conditional versions allow side information, and practical estimators have their own assumptions. The execution bound and the effort of finding or estimating a model are distinct costs. [Finzi et al., v2, §3–4](https://arxiv.org/pdf/2601.03220v2)
 
-For an ESI estimate, explain how the episteme and expression map to X, how the model class represents the observer's available operations, and which selected structure the model term estimates. State how prior knowledge is represented. Conditional model description given side information need not count all familiar structure a reader can recover.
+For an ESI estimate, explain how the episteme E and expression X map to the data D, how the model class represents the observer's available operations, and which selected structure the model term estimates. State how prior knowledge is represented. Conditional model description given side information need not count all familiar structure a reader can recover.
 
 Use epiplexity as a formal specialization where that correspondence holds. Otherwise it motivates the structural-information question without supplying its value. Total code length, text length and arbitrary model size are not interchangeable ESI measures. Ordinary description comparisons may use an adequate domain method without a coding model.
 
@@ -124,5 +126,5 @@ Measure or compare extraction effort separately. Two expressions may expose the 
 
 Use the method appropriate to the proposed change: C.37 for selecting representations, A.6.3.NAR for narrative ordering and source carry-through, or the applicable domain description or instructional method. ESI states the aspect being compared; it does not prescribe adding a diagram, example or lesson.
 
-When the account describes a Method, carry the recovered operations and relations into A.2.2:2.1 if the next question is which of them the holder can use. Keep the extraction result about the episteme, form and observer: correctly explaining a rule supplies different evidence from performing it with specified support. E.23.CDI:4.2.1 uses the Method-relative profile to choose learning or provision and to revise an acquisition arrangement when its feedback and receiving result disagree. Stop at the ESI result when structural recovery alone answers the question.
+When the account describes a Method, carry the recovered operations and relations into A.2.2:2.1 if the next question is which of them the holder can use. Keep the extraction result about the episteme, expression and observer: correctly explaining a rule supplies different evidence from performing it with specified support. E.23.CDI:4.2.1 uses the Method-relative profile to choose learning or provision and to revise an acquisition arrangement when its feedback and receiving result disagree. Stop at the ESI result when structural recovery alone answers the question.
 

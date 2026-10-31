@@ -6,12 +6,12 @@ section_id: "A.1.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__014_relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:12 — Relations"
-line_start: 3539
-line_end: 3553
+line_start: 3542
+line_end: 3556
 dependencies:
   - "A.1"
   - "A.14"
@@ -47,7 +47,7 @@ keywords:
 - `A.3.1`, `A.15.1`, and `E.18` govern Context Mapping method, performed mapping Work, and transformation-flow structures. A.15.PROD enters only for a separately needed local entity-inception claim.
 - `F.17` and `F.18` govern sense cells, durable public labels, candidate-name history, public rows, lineage, and name refresh. A.1.1 consumes the settled names without copying their dossiers.
 - `F.9` defines an obtaining Bridge between exact F.17 `SchemeSenseCell` values. A Bridge carries relation semantics, not a receiving-use decision or a structure-to-structure crossing. A separate C.2.1 claim states bounded suitability. A.10 handles ordinary reliance; B.3 adds a bounded result only when an actual named assurance claim is current.
-- `E.17.0`, `E.24.PUB`, and `C.29` separately govern view conformance, publication occurrence and availability, representation, rendering, form, and carrier.
+- `E.17.0` governs view conformance; `E.24.PUB` governs publication through a particular expression and carrier, with a reusable form when selected. `A.6.3.RT` governs transitions between representation schemes; `A.6.3.RT.OE:4` constructs an expression for the needed operation; `C.29` applies when mathematical representation and inference are needed.
 - `C.2.P` recovers an exact source expression and routes any source-use relation to its direct governor.
 - `A.6.0` and `A.6.5` govern the `RelationSignature` and SlotSpecs declared here; `A.6.REL` governs progressive explicit individuation after the direct relation kind, obtaining condition, and occurrence-identity rule exist.
 

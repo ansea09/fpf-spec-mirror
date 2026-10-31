@@ -6,12 +6,12 @@ section_id: "E.10.D2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:1 — Problem frame"
-line_start: 101993
-line_end: 102018
+line_start: 102395
+line_end: 102420
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -44,7 +44,7 @@ Begin with the receiving use:
 2. What is the next unresolved question or choice for that use? Do not invent one for a use that has none.
 3. What exact claim content is being used?
 4. What exact `U.Entity` is the `EntityOfConcern` of that claim-bearing whole?
-5. Which effective `U.ReferenceScheme` supplies the designation and interpretation rules that make those claims readable about that entity?
+5. Which effective `ReferenceScheme` supplies the designation and interpretation rules that make those claims readable about that entity?
 
 The last three answers recover the C.2.1 `EpistemeConstitutionRelation`. If identity is all the receiving use needs, stop there. Otherwise open only the neighboring object or relation needed for the next visible sentence or action.
 

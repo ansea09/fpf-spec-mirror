@@ -6,12 +6,12 @@ section_id: "E.18:14"
 section_title: "Relations (explicit pattern-to-pattern relations)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__016_relations-explicit-pattern-to-pattern-relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:14 — Relations (explicit pattern-to-pattern relations)"
-line_start: 110381
-line_end: 110416
+line_start: 110864
+line_end: 110899
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -56,7 +56,7 @@ keywords:
 * **E.18 -> coordinates -> A.21 Gate decisions.** When an `OperationalGate(profile)` decision is current, it consumes independently identified check-application results under one exact profile application. An unsatisfied or incomplete A.20 input affects the aggregate under that current rule without making another applicable check inapplicable; each deferred required check remains `notRun`. A.21 defines check-application identity, mappings, aggregation, result and rationale, and optional publication or reuse records.
 * **E.18 -> uses -> USM.CompareGuard and USM.LaunchGuard.** Guards publish scope and responsible gate; guard failures are handled by the declared gate.
 * **E.18 -> coordinates with -> F.9 and F.17 only for a current cross-semantic use.** Use E.18 for the structural `GateCrossing`; F.17 identifies the two exact local sense cells and F.9 alone decides whether a semantic Bridge obtains. The proposed structural use, reliance, optional Bridge Card, optional `CL`, actual gate decision, and any policy-based penalty remain separately identified.
-* **Operational interpretation (default): Eulerian.** A flow is a **valuation** over `U.Transfer`; transfer relations carry **assurance-only operations** (see CC-E18-17); no token-passing semantics are assumed.
+* **Operational interpretation (default): Eulerian.** A flow valuation uses the typed connection/cut domain of 5.2. Declarative assurance operations annotate the resolved subject under 5.4; an actual transfer, receipt or displacement requires its direct predicate and facts.
 
 **UNM and comparability**
 * **E.18 -> constrains -> UNM declaration and use loci.** Declare `CG-Spec`, `ComparatorSet`, and `UNM.TransportRegistryPhi` only at the UNM declaration locus; normalize-then-compare is mandatory.
@@ -69,7 +69,7 @@ keywords:
 
 **Structure and reuse**
 * **E.18 -> provides selected-structure base for transformation-flow families.** Flow patterns such as P2W and EvaluatingAndRefreshing use E.18 for selected structure, valuation, crossings, guards, MVPK faces, and slice-local refresh. `A.3.4` defines and tests each independently identified actual bounded `U.Transformation`; E.18 defines the selected compound structure over transformations and adjacent identified loci without asserting transformation composition; and the named neighboring patterns define or test method, work, mechanism, work-to-change, production, evidence, publication, gate, decision, and refresh claims when those claims are current.
-* **E.18 -> coordinates with -> E.18.NET Network of Transformation-Flow Structures.** Use E.18 for one exact TFS, its `FlowPositionRef`, parent-relative `SubflowRef`, valuations, paths, slices, local state, and internal `U.Transfer`. E.18.NET starts only when independently identified TFS or nested-network members are selected with exact cross-member relation occurrences; it does not replace a detailed internal portion or several valuations of one TFS.
+* **E.18 -> coordinates with -> E.18.NET Network of Transformation-Flow Structures.** Use E.18 for one exact TFS, its `FlowPositionRef`, parent-relative `SubflowRef`, valuations, paths, slices, local state, and selected internal relation occurrences. E.18.NET starts only when independently identified TFS or nested-network members are selected with exact cross-member relation occurrences; it does not replace a detailed internal portion or several valuations of one TFS.
 * **E.18 -> coordinates with -> architecture transformation-flow relation patterns.** When a selected transformation-flow structure is used in an architecture-flow relation, the architecture transformation-flow relation pattern records the relation between `TransformationFlowStructure` and `ArchitectureOf@Context`; E.18 keeps selected structure, crossing, and flow-valuation discipline.
-* **E.18 -> publishes_on -> E.17 MVPK views** (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) for every transfer or locus where publication occurs; Lean mode applies only as per profile.
+* **E.18 -> publishes_on -> E.17 MVPK views** (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) when selected relation occurrences, resolved connection positions or participant uses are published; Lean mode applies only as per profile.
 

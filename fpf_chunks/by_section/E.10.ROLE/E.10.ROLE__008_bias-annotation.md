@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__008_bias-annotation.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:6 — Bias-Annotation"
-line_start: 101722
-line_end: 101725
+line_start: 102124
+line_end: 102127
 dependencies:
   - "A.2"
   - "A.2.1"

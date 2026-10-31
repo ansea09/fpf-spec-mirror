@@ -6,12 +6,12 @@ section_id: "C.2.5:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__015_authoring-and-review-guidance.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:14 — Authoring and Review Guidance"
-line_start: 53623
-line_end: 53638
+line_start: 53968
+line_end: 53983
 dependencies:
   - "A.16"
   - "A.16.0"

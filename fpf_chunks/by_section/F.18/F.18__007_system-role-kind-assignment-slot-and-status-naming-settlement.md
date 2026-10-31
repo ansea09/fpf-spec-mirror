@@ -6,12 +6,12 @@ section_id: "F.18:5"
 section_title: "System-Role-Kind, Assignment, Slot, and Status Naming Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__007_system-role-kind-assignment-slot-and-status-naming-settlement.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:5 — System-Role-Kind, Assignment, Slot, and Status Naming Settlement"
-line_start: 125105
-line_end: 125222
+line_start: 125694
+line_end: 125811
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -127,7 +127,7 @@ Status-like and evidence-like wording must go to direct patterns:
 - source use: `E.10.D2` or source-use patterns;
 - description-episteme identity: `C.2.1`;
 - multi-view publication face or form: `E.17`;
-- availability of one selected edition, expression by a form, and bearing by a carrier: `E.24.PUB`;
+- availability of one selected edition through a particular expression and carrier, with reusable form conformance and form-mediated claims when current: `E.24.PUB`;
 - gate or admission result: the relevant gate, decision, or assurance pattern.
 
 Do not name these as system-role kinds or assignments unless that separate work-facing classification or direct assignment occurrence is actually current. “This standard plays the role of evidence” is repaired to the appropriate evidence-use, source-use, or status-use relation; it is not an assignment of the standard.
@@ -143,7 +143,7 @@ If a name touches relation, slot, interface, port, boundary, protocol, API, or s
 - `A.6.C`, protocol, service-access, and commitment patterns define or constrain API, protocol, and service-access cases.
 - Use C.2.1 for the identity and content of a claim-bearing interface-description episteme.
 - Use E.17 for a multi-view publication face or form.
-- Use E.24.PUB for availability of the selected edition and for the separate form-expression and carrier-bearing relations.
+- Use E.24.PUB for availability of the selected edition, exact expression and carrier-bearing relations, and separate reusable-form conformance. A combined form-mediated availability claim retains one shared expression witness.
 
 Before naming a relation-facing object, keep these settlements distinct:
 

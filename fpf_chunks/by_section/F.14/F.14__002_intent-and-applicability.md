@@ -6,12 +6,12 @@ section_id: "F.14:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__002_intent-and-applicability.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:1 — Intent and applicability"
-line_start: 122511
-line_end: 122530
+line_start: 123095
+line_end: 123114
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -52,7 +52,7 @@ keywords:
 
 **Use this when.** Use F.14 when proposed names, aliases, cards, local-sense cells, or rows begin to multiply faster than the independently governed distinctions. Apply its stop question before minting any NameCard, `SchemeSenseCell`, Unified Term Sheet row, or durable name family: **does an existing designation, alias, local expression, or direct-pattern name already let the practitioner perform the proposed use?**
 
-**First useful move.** For every candidate expression, name the one independently recovered governed value or relation, its exact kind, its direct pattern, the proposed use, and the effective naming `U.ReferenceScheme`. If no such value or relation is independently recoverable, keep the expression local or keep it with the exact assertion that recovers its subject or value; do not pass a value-less expression to F.8 or manufacture an object so that the name has something to denote. F.8 receives only an unresolved naming disposition for an already recovered value-or-relation and proposed-use pair, with its exact kind and direct pattern.
+**First useful move.** For every candidate expression, name the one independently recovered governed value or relation, its exact kind, its direct pattern, the proposed use, and the effective naming rules (`ReferenceScheme`). If no such value or relation is independently recoverable, keep the expression local or keep it with the exact assertion that recovers its subject or value; do not pass a value-less expression to F.8 or manufacture an object so that the name has something to denote. F.8 receives only an unresolved naming disposition for an already recovered value-or-relation and proposed-use pair, with its exact kind and direct pattern.
 
 **Intent.** Keep system-role-facing, role-like, and status-like vocabularies small without losing real distinctions. F.14 is a control pass over candidate expressions and name families. It defines no system-role kind, status, assignment, sense, card, row, Bridge, or publication. It decides only whether naming pressure can stop at a smaller disposition.
 

@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.30.TFS-REL — Use Transformation-Flow Structures and Networks in Architecture"
   - "C.30.TFS-REL:4 — Solution"
-line_start: 74387
-line_end: 74612
+line_start: 74773
+line_end: 75000
 dependencies:
   - "A.10"
   - "A.15"
@@ -75,7 +75,7 @@ ArchitectureTransformationFlowStructureRelation minimum:
   flowLocusRef: exactly one E.18 TFS, E.18.NET network,
     unfolding, member-local path/slice/crossing, or valuation
   requiredOrDesiredEffectClaimRefs?: claim content only
-  actualTransformationRefs?: only with complete A.3.4 basis
+  actualTransformations?: only with complete A.3.4 basis
   networkArchitectureUseBranch?: one complete branch from section 4.4a
   admissibleUse:
   stopOrReturnCondition:
@@ -92,7 +92,7 @@ Use this pattern only when an actual `ArchitectureRelation` occurrence, bounded 
 - `TransformationFlowStructureNetworkRef`, when architecture use selects an E.18.NET-conforming network;
 - `PathId` or `PathSliceId`;
 - `CrossingBundleRef`;
-- flow valuation over the `U.Transfer` relation;
+- a flow valuation on the E.18:5.2 connection/cut domain, with its channels and regime and its resolution to the same selected structure;
 - edition, plane, or context pin;
 - no-hidden-scalarization or set-return discipline;
 - a correspondence claim or independently governed relation between functional structure and transformation-flow structure;
@@ -106,10 +106,12 @@ Use `transformationFlowUnfoldingStructureRef?` only when the architecture use de
 
 A `FunctionalStructureView` under C.30.ASV may cite `ArchitectureTransformationFlowStructureRelation` when a transformation-flow use is current. That record does not make the selected E.18 structure a functional element or actual transformation, and does not make a functional-element claim identical with the system, module, method, bearer, or flow. It states a bounded claim or trace that exact functional-view content corresponds to, or is declared relative to, one exact E.18 selected structure, member-local path, crossing, or valuation. Positive co-reference states that the functional-structure and flow-structure designations refer to the same selected `U.Structure`.
 
+`actualTransformations`, `transformerSideSystems`, and the single `transformerSideSystem` in the note below use the direct-value designation and external-address resolution rules in C.30.ASV:4.6.
+
 Keep the same three branches used by C.30.ASV:
 
 - `functionalBehaviorClaimRefs` and `requiredOrDesiredEffectClaimRefs` remain C.2.1 claim content under their requirement, architecture, capability, method, functional-view, or other direct owner;
-- `actualTransformationRefs` cite only independently identified A.3.4 occurrences with exact changed referent, boundary or extent, boundary conditions, actual before/during/after facts, and continuity or reidentification basis;
+- `actualTransformations` cite only independently identified A.3.4 occurrences with exact changed referent, boundary or extent, boundary conditions, actual before/during/after facts, and continuity or reidentification basis;
 - `selectedTransformationFlowStructureRefs` cite exact E.18 structures, which may organize several independently identified transformations and transfers but are not themselves required effects or actual transformations.
 
 A `FunctionalElementClaim` is a bounded C.2.1 claim about one exact selected functional structure. Its bearer or candidate-bearer locus, capability, port, allocation, transformation, and correspondence refs retain their direct owners. A graph-shaped expression, path, valuation, required-effect statement, or flow packet is therefore not the functional element by default.
@@ -120,9 +122,9 @@ functionalStructureViewRef:
 functionalElementClaimRef?:
 functionalBehaviorClaimRefs?:
 requiredOrDesiredEffectClaimRefs?:
-actualTransformationRefs?:
+actualTransformations?:
 selectedTransformationFlowStructureRefs?:
-transformerSideFillerRef?:
+transformerSideSystem?:
 candidateBearerRef?:
 inputConditionRefs?:
 outputConditionRefs?:
@@ -144,7 +146,7 @@ stopOrReturnCondition:
 nonAdmissibleUse?:
 ```
 
-**Required-cooling-effect / later-actual-cooling countercase.** `RequiredCoolingEffect-1` can require exact Rack 7 to be below 30 °C and can correspond to a selected cooling-flow structure before any change occurs. In that first use, fill `requiredOrDesiredEffectClaimRefs` and the selected TFS fields; leave `actualTransformationRefs` empty. A later `Rack7CoolingTransformation-42` is actual only when A.3.4 fixes Rack 7 as the changed referent, its thermal boundary and operating/ambient conditions, actual 38 °C before facts, actual heat-removal during facts, actual 27 °C after facts, and continuity or reidentification of Rack 7. Even then, a separate satisfaction or realization predicate is needed before claiming that the actual transformation satisfies the earlier requirement.
+**Required-cooling-effect / later-actual-cooling countercase.** `RequiredCoolingEffect-1` can require exact Rack 7 to be below 30 °C and can correspond to a selected cooling-flow structure before any change occurs. In that first use, fill `requiredOrDesiredEffectClaimRefs` and the selected TFS fields; leave `actualTransformations` empty. A later `Rack7CoolingTransformation-42` is actual only when A.3.4 fixes Rack 7 as the changed referent, its thermal boundary and operating/ambient conditions, actual 38 °C before facts, actual heat-removal during facts, actual 27 °C after facts, and continuity or reidentification of Rack 7. Even then, a separate satisfaction or realization predicate is needed before claiming that the actual transformation satisfies the earlier requirement.
 
 Use this note when the practitioner needs to see whether the function-to-transformation-flow relation changes inspection, split, relation-making, downgrade, selection of the governing pattern for the claim named by value, candidate generation, or stop. Use C.30.ASV for the functional structure view, A.6.F for function-like wording recovery, A.3.4 for an actual transformation, A.6.M for module-claim repair and the direct allocation/interface owner, and E.18 for selected transformation-flow structure.
 
@@ -208,9 +210,9 @@ functionalStructureViewRef: exact view episteme about required effects and depen
 functionalElementClaimRefs?: not used; no filled functional-element claim is current
 functionalBehaviorClaimRefs?: required-effect claim `authorize payment`
 requiredOrDesiredEffectClaimRefs?: required-effect claim `authorize payment`
-actualTransformationRefs?: not used; no A.3.4 actual change is claimed
+actualTransformations?: not used; no A.3.4 actual change is claimed
 selectedTransformationFlowStructureRefs: exact selected payment-authorization TFS
-transformerSideFillerRefs?: not used
+transformerSideSystems?: not used
 candidateBearerRefs?: not used
 inputConditionRefs?: not used
 outputConditionRefs?: not used
@@ -236,9 +238,9 @@ functionalStructureViewRefs: exact CheckoutRequiredEffects view episteme
 functionalElementClaimRefs: not used
 functionalBehaviorClaimRefs: required-effect claim `authorize payment`
 requiredOrDesiredEffectClaimRefs: required-effect claim `authorize payment`
-actualTransformationRefs: not used
+actualTransformations: not used
 selectedTransformationFlowStructureRefs: TransformationFlowStructure@Checkout-v3
-transformerSideFillerRefs: not used
+transformerSideSystems: not used
 candidateBearerRefs: not used
 inputConditionRefs: not used
 outputConditionRefs: not used
@@ -259,7 +261,7 @@ admissibleUse: inspect whether the functional structure view depends on the E.18
 stopOrReturnCondition: stop at the bounded architecture-to-flow correspondence and reopen when its source, path, observation class, or required-effect declaration changes
 ```
 
-Cooling countercase: a selected cooling-flow TFS and `RequiredCoolingEffect-1` may fill the required-effect and correspondence fields while `actualTransformationRefs` stays empty. Only a later A.3.4 occurrence with Rack 7 as exact changed referent, fixed thermal boundary and conditions, actual 38 °C before / heat-removal during / 27 °C after facts, and Rack 7 continuity can fill that field. A separate realization predicate is still needed to relate the actual cooling to the requirement.
+Cooling countercase: a selected cooling-flow TFS and `RequiredCoolingEffect-1` may fill the required-effect and correspondence fields while `actualTransformations` stays empty. Only a later A.3.4 occurrence with Rack 7 as exact changed referent, fixed thermal boundary and conditions, actual 38 °C before / heat-removal during / 27 °C after facts, and Rack 7 continuity can fill that field. A separate realization predicate is still needed to relate the actual cooling to the requirement.
 
 Near miss: if the selected transformation-flow structure has no exact C.30-side architecture reference named by value, the case stays in `E.18`. If the same sentence is a mathematical description, use `E.18.2`; if it is a math-lens-use claim, use `C.29`. If it is a Work log, evidence claim, gate decision, or benchmark result, that non-flow claim is governed by its governing pattern and this record keeps only the architecture-to-transformation-flow use.
 

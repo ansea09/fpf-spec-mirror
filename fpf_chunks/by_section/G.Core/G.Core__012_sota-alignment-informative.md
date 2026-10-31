@@ -6,12 +6,12 @@ section_id: "G.Core:11"
 section_title: "SoTA alignment (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__012_sota-alignment-informative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:11 — SoTA alignment (informative)"
-line_start: 126236
-line_end: 126245
+line_start: 126825
+line_end: 126834
 dependencies:
   - "A.15.3"
   - "A.19"

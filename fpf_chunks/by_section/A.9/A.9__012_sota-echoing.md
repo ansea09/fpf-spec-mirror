@@ -6,12 +6,12 @@ section_id: "A.9:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__012_sota-echoing.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:11 — SoTA-Echoing"
-line_start: 26631
-line_end: 26644
+line_start: 26666
+line_end: 26679
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"

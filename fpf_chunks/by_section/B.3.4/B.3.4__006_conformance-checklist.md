@@ -6,12 +6,12 @@ section_id: "B.3.4:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__006_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.3.4 — Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt"
   - "B.3.4:5 — Conformance Checklist"
-line_start: 45296
-line_end: 45303
+line_start: 45395
+line_end: 45402
 dependencies:
   - "A.10"
   - "B.3"

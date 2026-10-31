@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.2.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.2 — Source-Local Term Harvesting & Normalisation"
-line_start: 118480
-line_end: 118690
+line_start: 119064
+line_end: 119274
 dependencies:
   - "A.11"
   - "A.7"
@@ -69,13 +69,13 @@ F.2 prevents these mistakes by tying each expression and local-sense claim to th
 
 ### F.2:4 - Core idea (didactic)
 
-For each needed use, name the **exact source and edition**, the relevant passage, and the **effective `U.ReferenceScheme`** under which the passage is being read. Harvest an attested **LocalExpression**, choose a minimally edited **Local Normal Form (LNF)**, add Tech and Plain labels, and state the **LocalSenseClaim** in one sentence.
+For each needed use, name the **exact source and edition**, the relevant passage, and the **effective reference scheme** under which the passage is being read. Harvest an attested **LocalExpression**, choose a minimally edited **Local Normal Form (LNF)**, add Tech and Plain labels, and state the **LocalSenseClaim** in one sentence.
 
 That is the ordinary F.2 result. If later work needs a durable address, F.17 may represent it as `SchemeSenseCell = <ReferenceScheme, LocalExpression, LocalSenseClaim>` and record the basis relation. The cell is optional and does not replace the source, passage, or claim. F.2 establishes no relation to another source-local meaning.
 
 ### F.2:5 - Minimal vocabulary (this pattern only)
 
-* **Exact source basis** — the selected source, edition or version, relevant passage, and effective `U.ReferenceScheme` needed to recover this use.
+* **Exact source basis** — the selected source, edition or version, relevant passage, and effective reference scheme needed to recover this use.
 * **Attested phrase** — a short verbatim cue showing how the expression is used in that source.
 * **LocalExpression** — the exact expression whose source-local meaning is being recovered.
 * **Local Normal Form (LNF)** — the minimally edited surface used to cite that expression while preserving the source’s spelling, hyphenation, and casing.

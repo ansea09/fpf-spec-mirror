@@ -6,12 +6,12 @@ section_id: "D.4:3"
 section_title: "Mediation Moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__006_mediation-moves.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:3 — Mediation Moves"
-line_start: 91725
-line_end: 91737
+line_start: 92115
+line_end: 92127
 dependencies:
   - "A.1.CSD"
   - "A.10"

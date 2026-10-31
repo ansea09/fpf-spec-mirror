@@ -6,12 +6,12 @@ section_id: "B.5.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.5.1 — Coordinate Development States: Explore → Shape → Evidence → Operate"
   - "B.5.1:1 — Problem Frame"
-line_start: 49378
-line_end: 49383
+line_start: 49477
+line_end: 49482
 dependencies:
   - "B.3.3"
   - "B.4"

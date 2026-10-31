@@ -6,12 +6,12 @@ section_id: "C.30.AD:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__009_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:6 — Conformance checklist"
-line_start: 72038
-line_end: 72051
+line_start: 72414
+line_end: 72427
 dependencies:
   - "A.1"
   - "A.10"
@@ -78,7 +78,7 @@ keywords:
 
 | Check | Condition to establish | Repair if failed |
 | --- | --- | --- |
-| **CC-C30AD-1 Episteme identity.** | Every architecture description has one exact claim graph, one exact EntityOfConcern—holon, obtaining `ArchitectureRelation` occurrence, or selected structure—and an effective `U.ReferenceScheme`. | Add the missing C.2.1 identity component or use `C.30`/`A.22` until the subject-side object is recoverable. |
+| **CC-C30AD-1 Episteme identity.** | Every architecture description has one exact claim graph, one exact EntityOfConcern—holon, obtaining `ArchitectureRelation` occurrence, or selected structure—and an effective `ReferenceScheme`. | Add the missing C.2.1 identity component or use `C.30`/`A.22` until the subject-side object is recoverable. |
 | **CC-C30AD-2 Subject and holon recovery.** | The one EntityOfConcern is supplied directly. If it is an architecture-relation occurrence or selected structure, its participant trace recovers the exact holon without copying that holon into description identity; architecture-claim refs remain optional content or trace. | Restore the exact EntityOfConcern and participant trace; remove derived identity from an optional architecture-claim field. |
 | **CC-C30AD-2a Traceable multi-view chain.** | For a description use that relies on a view, the reader can recover the concern, viewpoint, conformance relation, same episteme as `U.View`, EntityOfConcern, selected structure, optional actual architecture relation, description use (or set use when current), and next architecture move or pattern needed for a separate claim. Add allocation, responsibility, source use, representation, publication, correspondence, project use, or stronger-use return only when it is current. Responsibility names its own predicate and participants or the missing governor; assignment and viewpoint establish neither responsibility nor authority. | Add the missing object or relation, narrow the allowed use, or use the pattern that defines how to recover it. |
 | **CC-C30AD-3 Viewpoint and structure kind.** | Every asserted architecture structural view identifies the candidate episteme, exact viewpoint episteme, independently obtaining five-part E.17.0 conformance relation, selected structure, and structure kind. | Use `E.17.0` and `C.30.ASV` before relying on the view; a label, query, bundle, diagram, or publication is insufficient. |

@@ -6,12 +6,12 @@ section_id: "C.2.LS:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__016_extension-and-migration-notes.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:15 — Extension and Migration Notes"
-line_start: 53199
-line_end: 53219
+line_start: 53544
+line_end: 53564
 dependencies:
   - "A.16"
   - "A.16.0"

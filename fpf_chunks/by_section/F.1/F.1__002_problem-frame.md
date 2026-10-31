@@ -6,12 +6,12 @@ section_id: "F.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.1 — Find and Select Sources for a Current Question"
   - "F.1:1 — Problem frame"
-line_start: 118012
-line_end: 118025
+line_start: 118596
+line_end: 118609
 dependencies:
   - "A.10"
   - "A.7"
@@ -38,7 +38,7 @@ keywords:
 
 When candidate sources are already inspectable and more than one may change the answer, use :4.2 to justify the smallest sufficient source cut. Ask how each exact source and edition can change the answer or its limits, and retain the distinct contributions that matter. Finding and source selection can be used separately: a sufficient known source can answer directly, and a justified cut can start without a new search.
 
-The source-selection branch returns one `SourceCutNote : U.Episteme`. Before treating the note as that episteme, identify the receiving question as one exact project entity. That question is the note's `EntityOfConcern`; the intended use remains in the ClaimGraph rather than becoming a second subject. Name the effective `U.ReferenceScheme` explicitly: it must resolve the question, the cited source-edition designators, and the answer-changing role claims. The ClaimGraph also names deliberate exclusions, known limits or source gaps, and reopen conditions. If the question or scheme is still missing, keep an ordinary working note and return that missing value instead of claiming a C.2.1 episteme. A one-screen source note may represent the same episteme when it carries the same claims; its compact form neither admits a source nor contains its local meaning.
+The source-selection branch returns one `SourceCutNote : U.Episteme`. Before treating the note as that episteme, identify the receiving question as one exact project entity. That question is the note's `EntityOfConcern`; the intended use remains in the ClaimGraph rather than becoming a second subject. Name the effective reference scheme explicitly: it must resolve the question, the cited source-edition designators, and the answer-changing role claims. The ClaimGraph also names deliberate exclusions, known limits or source gaps, and reopen conditions. If the question or scheme is still missing, keep an ordinary working note and return that missing value instead of claiming a C.2.1 episteme. A one-screen source note may represent the same episteme when it carries the same claims; its compact form neither admits a source nor contains its local meaning.
 
 **What this buys.** You can reach material under unfamiliar wording, explain what the available search could have missed, and return passages whose contribution to the current question can be inspected. Later source use can begin from an inspected reason for selecting each source.
 

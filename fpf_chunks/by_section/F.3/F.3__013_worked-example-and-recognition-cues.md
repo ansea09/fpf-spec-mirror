@@ -6,12 +6,12 @@ section_id: "F.3:12"
 section_title: "Worked example and recognition cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__013_worked-example-and-recognition-cues.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:12 — Worked example and recognition cues"
-line_start: 118841
-line_end: 118882
+line_start: 119425
+line_end: 119466
 dependencies:
   - "A.11"
   - "A.7"

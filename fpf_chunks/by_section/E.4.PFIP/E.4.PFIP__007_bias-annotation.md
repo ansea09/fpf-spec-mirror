@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__007_bias-annotation.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:6 — Bias-Annotation"
-line_start: 95823
-line_end: 95836
+line_start: 96223
+line_end: 96236
 dependencies:
   - "C.2.1"
   - "C.33"
@@ -34,7 +34,7 @@ keywords:
 | Lens | Likely drift | Repair |
 | --- | --- | --- |
 | Gov | Source parity, a successful build, or an accepted form change is read as permission to change or retire predecessor content. | Require an accepted content-change or content-retirement decision for that disposition. Keep the preservation conclusion as comparison evidence, not acceptance, release, landing, or assurance authority. |
-| Arch | Edition, form, expression relation, carrier, and publication occurrence collapse into one file or bundle, so a surviving carrier is treated as surviving content. | Keep the objects distinct; use eligible expression pairs for one-to-one continuity and allocation comparisons for every split or merge. |
+| Arch | Edition, particular expression, reusable form, expression relation, carrier, and publication occurrence collapse into one file or bundle, so a surviving carrier is treated as surviving content. | Keep the objects distinct; use eligible expression pairs for one-to-one continuity and allocation comparisons for every split or merge. |
 | Epist (Epistemological and Ontological) | A selected inventory is treated as complete knowledge of the publication because filenames, headings, or visible text were covered. | Select the inventory through the applicable FPF pattern or another accepted basis for the declared use. Return `missing form-comparison basis` when no complete inventory can be selected. |
 | Prag | Complete traversal grows into a written positive ledger, or cost pressure turns one proxy into preservation proof. | Traverse every inventory entry, reuse shared evidence, and write only losses, accepted changes or retirements that explain a difference, unexpected additions, blockers, and unresolved questions. |
 | Did | Retained content without a prose row looks unchecked, so reviewers ask for duplicate status text instead of inspecting the traversal boundary. | State once that the complete inventory is checkable and ordinary retained entries need no prose rows; use the unlike worked cases to teach where a separate result is required. |

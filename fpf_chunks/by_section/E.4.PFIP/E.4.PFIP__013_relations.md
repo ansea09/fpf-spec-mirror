@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__013_relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:12 — Relations"
-line_start: 95899
-line_end: 95907
+line_start: 96299
+line_end: 96307
 dependencies:
   - "C.2.1"
   - "C.33"
@@ -29,7 +29,7 @@ keywords:
 
 ### E.4.PFIP:12 - Relations
 
-- **Builds on:** `C.2.1` for framework-episteme identity and `EpistemeEditionRelation`, and `E.24.PUB` for `PublicationFormExpressionRelation`, `PublicationFormBearingRelation`, and `EpistemePublicationRelation`. Together they keep the selected edition, publication form, carrier, audience, bounded use, and publication occurrence distinct.
+- **Builds on:** `C.2.1` for framework-episteme identity and `EpistemeEditionRelation`, and `E.24.PUB` for `PublicationExpressionRelation`, `PublicationExpressionBearingRelation`, `PublicationFormConformanceRelation`, and `EpistemePublicationRelation`, together with the form-mediated `PublicationFormExpressionRelation` and `PublicationFormBearingRelation` when that broader claim is current. Keep the actual expression witnesses recoverable. These relations keep the selected edition, expression, reusable form, carrier, audience, bounded use, and publication occurrence distinct.
 - **Coordinates with:** `E.17` for several reader-facing forms and visible omissions; `E.11` for public entry and discovery; `C.33` for captured and lost selected structure; and `C.34` for declared structural correspondence.
 - **Coordinates with:** `E.8` for material-revision authoring and direct-consumer repair. A maintainer uses `E.4.PFIP` to compare an assembled principle-framework publication, not to replace pattern authoring.
 - **Entry from FPF and DPF authoring:** `E.4.FPF` refers maintainers here for integration or continuity of an FPF publication edition; `E.4.DPF` does the same for a DPF or LPF publication edition. Those two patterns continue to supply their respective authoring and publication-form guidance.

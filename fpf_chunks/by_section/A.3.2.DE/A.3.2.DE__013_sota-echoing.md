@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__013_sota-echoing.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:11 — SoTA-Echoing"
-line_start: 11854
-line_end: 11862
+line_start: 11885
+line_end: 11893
 dependencies:
   - "A.3.2"
   - "C.37"

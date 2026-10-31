@@ -6,12 +6,12 @@ section_id: "A.6.M:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.M — Module and Interface Claim Repair"
   - "A.6.M:1 — Problem frame"
-line_start: 22810
-line_end: 22858
+line_start: 22843
+line_end: 22893
 dependencies:
   - "A.10"
   - "A.20"
@@ -54,11 +54,11 @@ The first useful output is a sufficient account of the recovered claim or questi
 ModuleRelationRepairNote:
   wholeHolonRef:
   candidateModuleHolonRef:
-  effectiveReferenceScheme: U.ReferenceScheme, byValue
+  effectiveReferenceScheme: EpistemeInterpretationScheme, byValue
   claimScope?: U.ClaimScope, byValue
   modelUseStructureRef?: only when one selected model-use structure changes module meaning
   moduleInterfaceViewpointRef?: VP.ModuleInterface
-  selectedDependencyStructureRef?: U.StructureRef
+  selectedDependencyStructureRef?: SelectedStructureReference
   boundaryRef:
   interfaceSpecificationRef?: U.EpistemeRef constrained to InterfaceSpecification
   interfaceSpecificationGap?: exact missing-specification result
@@ -81,6 +81,8 @@ ModuleRelationRepairNote:
   governedNonModuleClaimPatternRefs?:
   stopCondition:
 ```
+In this note and the fuller form below, `effectiveReferenceScheme` carries a rule collection by value with the C.2.1:4.1.2 range `EpistemeInterpretationScheme`. It must supply the designation and interpretation rules used in the module-interface claim, including its holons, boundary, interface conditions and any asserted substitution or change policy.
+
 Exactly one of `interfaceSpecificationRef` and `interfaceSpecificationGap` is current. `noDirectRelationClaimed` leaves the direct-relation fields empty. `admittedPredicateClaim` names an already governed predicate, its participants and the affirmative, negative, modal or unresolved claim being made; it requires no invented obtaining occurrence. `admittedRelationAndOccurrence` additionally identifies one independently obtaining occurrence when its identity matters. `missingGovernor` names the participants, proposed predicate, affected use and missing rule. Missing case facts under an available rule leave a factual question, not a missing governor. A PatternID may locate the rule but cannot substitute for its predicate, participants or facts.
 
 Ordinary use stops when the whole, candidate module, boundary, interface specification or explicit gap, relation disposition, and conditions needed by the selected claim are clear enough to choose the next architecture move. Recover substitution or change policy when replacement or separate change is claimed, and a neighboring subject pattern when another claim remains current. Use the fuller `ModuleInterfaceClaim` record only when substitutability, conformance, publication, evidence, assurance, change policy, repeated reuse, or cross-team coordination requires durable claim content.

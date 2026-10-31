@@ -6,12 +6,12 @@ section_id: "E.24.UK:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__007_archetypal-grounding.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:5 — Archetypal Grounding"
-line_start: 117017
-line_end: 117078
+line_start: 117601
+line_end: 117662
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -83,9 +83,9 @@ In each closed replay, the `E24UK-*` reference identifies the exact admission-re
 **Rejected near-miss — `U.EpistemePublication`.**
 
 1. **Subject and use.** The EntityOfConcern is the proposed kind source construct for an episteme made available to an audience; the use is to speak plainly about that availability.
-2. **Coverage.** `U.Episteme` already identifies the episteme, while E.24.PUB defines the exact publication occurrence, selected edition, audience, use, and publication-form boundary.
+2. **Coverage.** `U.Episteme` already identifies the episteme, while E.24.PUB defines the exact E/A/U/X/C publication occurrence, expression and bearing, with optional form conformance and separately quantified availability.
 3. **Participation and classification.** The same episteme can participate in a publication occurrence at one time and cease participating later. A fixed criterion can classify it by that participation at the declared slice. An episteme outside the required publication relation at that slice fails the criterion. The present use asks only for the availability claim, so it needs no additional classification.
-4. **Failed test and settlement.** Non-duplication fails for the proposed public kind: `E24-OS-EPISTEME-ONTIC-01` and the E.24.PUB rules already supply the objects and publication relation needed to state availability. A.11 returns that existing expression; the E.24.UK decision records `reject` for this proposal and use. No A.8 core-placement test or new name is needed.
+4. **Failed test and settlement.** Non-duplication fails for the proposed public kind: `E24-OS-EPISTEME-ONTIC-02` and the E.24.PUB rules already supply the objects and publication relation needed to state availability. A.11 returns that existing expression; the E.24.UK decision records `reject` for this proposal and use. No A.8 core-placement test or new name is needed.
 5. **Result.** `E24UK-NAR-EPUB-01` records `reject`. Use Plain **published episteme** only in a claim that identifies or permits recovery of the obtaining `EpistemePublicationRelation`; admit no `U.EpistemePublication` name. Reopen when a receiving use needs classification by publication participation. For a project query over available epistemes, first establish the C.3.2 declaration, including its criterion and slice; return `local-kind` only with its `LocalKindDeclarationRef`. A proposed durable public kind still has to meet all eight conditions.
 
 #### E.24.UK:5.3 - Broad rule-content provision/support candidate

@@ -6,12 +6,12 @@ section_id: "A.7.CP:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__002_use-this-when.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:0 — Use this when"
-line_start: 26172
-line_end: 26181
+line_start: 26207
+line_end: 26216
 dependencies:
   - "A.7"
   - "A.7.1"

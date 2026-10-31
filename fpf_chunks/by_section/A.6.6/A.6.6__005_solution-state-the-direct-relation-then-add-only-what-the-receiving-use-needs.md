@@ -6,12 +6,12 @@ section_id: "A.6.6:4"
 section_title: "Solution - State the direct relation, then add only what the receiving use needs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__005_solution-state-the-direct-relation-then-add-only-what-the-receiving-use-needs.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:4 — Solution - State the direct relation, then add only what the receiving use needs"
-line_start: 23649
-line_end: 23821
+line_start: 23684
+line_end: 23856
 dependencies:
   - "A.10"
   - "A.14"
@@ -36,7 +36,6 @@ dependencies:
   - "F.18"
   - "F.9"
   - "U.KindBridge"
-  - "U.Transfer"
 keywords:
 ---
 
@@ -160,7 +159,7 @@ Operation classes (conceptual):
 
 **Relation to A.6.5 designation operations (informative).** Apply A.6.5 when the changed assertion designation is governed by a compatible RelationSignature SlotSpec. Other assertion or declaration fields retain their own C.2.1 or direct definition. State which content changed. A separately claimed world-side change uses the direct relation's rule; ordinary editing requires no invented Work occurrence.
 
-**Relation to E.18 assurance ops (informative).** On `U.Transfer`, `ConstrainTo`, `CalibrateTo`, `CiteEvidence`, and `AttributeTo` have their own declared meanings and constraints. A project may use the local declaration-change labels to describe changes in a represented assertion, but those labels neither subsume the E.18 operations nor create their relations.
+**Relation to E.18 assurance ops (informative).** E.18:5.4 applies `ConstrainTo`, `CalibrateTo`, `CiteEvidence` and `AttributeTo` to the annotation of a resolved connection(q), retaining the exact relation r and any participant subject the operation requires. Each operation keeps its own meaning and basis. A project may use the local declaration-change labels for changes in a represented assertion; those labels neither perform an assurance operation nor establish a subject relation.
 
 #### A.6.6:4.7 - Disambiguation guide for selecting the direct relation
 

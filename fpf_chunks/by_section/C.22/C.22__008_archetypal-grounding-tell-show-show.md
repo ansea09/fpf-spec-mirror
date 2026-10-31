@@ -6,12 +6,12 @@ section_id: "C.22:6"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__008_archetypal-grounding-tell-show-show.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:6 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 62658
-line_end: 62693
+line_start: 63029
+line_end: 63064
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -45,7 +45,7 @@ The examples show which TaskSignature fields supply eligibility or acceptance in
 > *Practice example:* the cited [SciML Problem Interface](https://docs.sciml.ai/DiffEqDocs/stable/basics/problem/) constructs an immutable problem value before solver use and supports explicit `remake` when problem fields change. C.22 adapts only that problem-before-selector separation; it does not import Julia types as FPF ontology.
 
 **C. Quality-Diversity archive and declared set (illumination).**
-*TaskSignature fields.* `DataShape=policy‑search; ObjectiveProfile={↑reward@ratio, ↑coverage@ratio (report‑only)}, DominanceRegime=ParetoOnly, PortfolioMode=Archive, CharacteristicSpaceRef(d=3, characteristics=CHR‑typed), ArchiveConfig(grid, res=32×32×16, K=1, InsertionPolicyRef=elite‑replace, DistanceDefRef.edition=v1), EmitterPolicyRef=v2, Budgeting{eval=1e6}, TelemetryHooks{PathSliceId=…}`. Include `PathSliceId` only when an E.18 path slice is current.
+*TaskSignature fields.* `DataShape=policy‑search; ObjectiveProfile={↑reward@ratio, ↑coverage@ratio (report‑only)}, DominanceRegime=ParetoOnly, PortfolioMode=Archive, CharacteristicSpaceRef(d=3, characteristics=CHR‑typed), characteristicSpaceDescriptionRef=CS-description-1, ArchiveConfig(grid, res=32×32×16, K=1, InsertionPolicyRef=elite‑replace, DistanceDefRef.edition=v1), EmitterPolicyRef=v2, Budgeting{eval=1e6}, TelemetryHooks{PathSliceId=…}`. Include `PathSliceId` only when an E.18 path slice is current.
 *Selection result.* The QD archive remains the declared source. G.5 returns a `Shortlist` of retained alternatives from it, with exact members, ordering and basis pins under G.5:4.4b–4.4e. **Coverage and illumination** are reported separately and excluded from dominance under the declared `ParetoOnly` policy. Changes to `DistanceDefRef.edition` or the emitter policy are editioned and logged in SCR.
 
 **D. Open‑ended environment generation (POET‑class).**

@@ -6,12 +6,12 @@ section_id: "A.2.3:6"
 section_title: "Mapping the common “service” picture to FPF (didactic bridge)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__009_mapping-the-common-service-picture-to-fpf-didactic-bridge.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:6 — Mapping the common “service” picture to FPF (didactic bridge)"
-line_start: 5766
-line_end: 5782
+line_start: 5789
+line_end: 5805
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -62,7 +62,7 @@ A common service diagram is a representation. Recover the represented systems, e
 * **Provider participation** -> when this mapping needs the provider's assignment, name its occurrence and declared species under `U.SystemRoleAssignment`. The occurrence supplies its holder System, assigned local kind, and any other participants; the species defines their meanings. For each selected delivery-work occurrence, follow the §4.3 route to identify the actual performer and admit the Work independently. Add F.6 only if the mapping must also say exactly under which assignment that delivery was performed; a missing or failed check leaves the delivery Work intact.
 * **Acceptance criterion** -> an evaluation-criterion episteme in `U.PromiseContent.acceptanceSpec`; its target values, verdict scale, and `GammaTimePolicyRef` remain explicit. A `U.WorkPlan` is added only when planned delivery or evaluation work is current.
 * **SLA obligation** -> one A.2.8 `U.Commitment` occurrence whose actual duty bearer is explicit and whose referents include the relevant `U.PromiseContent`; assert it only after the applicable constitutive rule and required instituting basis obtain. Use A.6.C when one SLA publication combines wording about commitment, promise content, evidence specification, and publication relations.
-* **Published SLA terms** -> the selected `U.PromiseContent` / `U.Episteme`, the exact publication form that expresses it for the bounded use, the `U.PresentationCarrier` bearing that form, and the obtaining `EpistemePublicationRelation` occurrence that makes the selected edition available to the declared audience. When publication work also communicates or institutes a commitment, add the named A.2.9 speech-act and A.2.8 commitment relation occurrences; publication alone neither creates the commitment nor establishes fulfilment.
+* **Published SLA terms** -> the selected `U.PromiseContent` / `U.Episteme`, the exact expression that expresses it for the bounded use, any selected reusable publication form whose rules that expression follows, the independently identified carrier bearing that expression, and the obtaining `EpistemePublicationRelation` occurrence that makes the selected edition available to the declared audience. When publication work also communicates or institutes a commitment, add the named A.2.9 speech-act and A.2.8 commitment relation occurrences; publication alone neither creates the commitment nor establishes fulfilment.
 * **Operating conditions** -> the named `U.ClaimScope` under A.2.6. The acceptance specification may cite that scope; it does not replace it.
 * **Promised subject** -> resolve `promisedOutcomeSpecRef` and follow the declared mode. Use `workSpec` for promised Work conditions and, when `resultSpec` is present, use its postcondition and any `entityOfConcernRef` to identify the required affected referent and post-work state. State only the direct delivery or acceptance relations required by the current claim.
 * **Customer material—“ours versus theirs.”** -> If the current claim depends on who owns or has custody of data, an asset, or a case, name the exact obtaining system-role assignment when work-facing assignment matters, and name the ownership or custody relation with its actual participants when that is the claim. Neither relation substitutes for the other, and neither becomes a kernel-global property of `U.PromiseContent`.

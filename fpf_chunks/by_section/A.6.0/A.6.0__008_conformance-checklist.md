@@ -6,12 +6,12 @@ section_id: "A.6.0:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__008_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:7 — Conformance Checklist"
-line_start: 16489
-line_end: 16508
+line_start: 16520
+line_end: 16539
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -44,7 +44,7 @@ keywords:
 ### A.6.0:7 - Conformance Checklist
 
 1. **Exact declaration object.** The text identifies one `U.Signature` episteme and one exact `EntityOfConcernRef`.
-2. **Identity.** Content, EntityOfConcern, and effective `U.ReferenceScheme` remain recoverable.
+2. **Identity.** Content, EntityOfConcern, and effective `ReferenceScheme` remain recoverable.
 3. **Minimum content.** `SubjectKind` and `RangedValueKind`, together with Vocabulary, Laws, and Applicability, carry semantic content rather than empty publication rows. `ResultKind`, `SliceSet`, and `ExtentRule` appear only when their declared distinctions are current.
 4. **Optional slice-dependent membership.** `SliceSet` names the addressable `U.ContextSlice` values to inspect and `ExtentRule` determines `Extension(SubjectKind, slice)` only when the same declared kind can have different members across those slices; neither field stands for a generic interval, range, changing dataset, or set representation.
 5. **Vocabulary boundary.** A declared token is not treated as durable U-kind admission without E.24.UK and its direct pattern.

@@ -6,12 +6,12 @@ section_id: "E.2.DA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.2.DA — Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)"
   - "E.2.DA:1 — Problem frame"
-line_start: 92282
-line_end: 92295
+line_start: 92672
+line_end: 92685
 dependencies:
   - "A.19.ECS"
   - "E.10"

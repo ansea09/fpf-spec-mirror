@@ -6,12 +6,12 @@ section_id: "F.12:6"
 section_title: "The binding, as eight practical rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__007_the-binding-as-eight-practical-rules.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:6 — The binding, as eight practical rules"
-line_start: 122015
-line_end: 122048
+line_start: 122599
+line_end: 122632
 dependencies:
   - "A.10"
   - "A.15.1"

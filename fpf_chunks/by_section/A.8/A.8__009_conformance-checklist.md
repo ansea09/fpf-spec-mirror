@@ -6,12 +6,12 @@ section_id: "A.8:4"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__009_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:4 — Conformance Checklist"
-line_start: 26480
-line_end: 26490
+line_start: 26515
+line_end: 26525
 dependencies:
   - "A.11"
   - "C.3"

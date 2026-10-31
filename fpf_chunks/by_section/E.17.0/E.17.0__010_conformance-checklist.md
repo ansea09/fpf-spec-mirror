@@ -6,15 +6,17 @@ section_id: "E.17.0:9"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__010_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:9 — Conformance checklist"
-line_start: 106269
-line_end: 106282
+line_start: 106664
+line_end: 106677
 dependencies:
   - "A.22"
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.5"
   - "C.13"
   - "C.2.1"
@@ -39,6 +41,6 @@ keywords:
 7. The current describing use is named. A singular viewpoint reference selects P only when that choice changes reading, checking, or a permitted conclusion; omission otherwise changes neither episteme identity nor conformance. Multi-selection uses a C.13 collection with exact membership.
 8. Optional local result values, evaluation, evidence, occurrence designation, decision-use D, and J exist only for a named receiving work or decision need; unsupported evaluation is not a third or negative value.
 9. For every multi-view collection, selected structure, or cross-view relation, apply the pattern that defines its identity or obtaining test; a table, graph, matrix, or shared subject proves none.
-10. Form expression, carrier bearing, five-participant publication availability and recurrence, rendering work, and C.29 representation remain distinct from E, P, view membership, and every represented world-side relation.
+10. Exact expression, carrier bearing, optional form conformance, five-participant publication availability and recurrence, rendering work, and mathematical representation under C.29 remain distinct from E, P, view membership, and every represented world-side relation.
 11. Ordinary use stops at a readable direct judgment unless a named consumer needs more structure; authoring stops at the shortest progressive path that produces exact P and its reference.
 

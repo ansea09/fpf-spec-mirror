@@ -6,15 +6,17 @@ section_id: "E.17.0:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__006_worked-cases.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:5 — Worked cases"
-line_start: 106200
-line_end: 106229
+line_start: 106595
+line_end: 106624
 dependencies:
   - "A.22"
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.5"
   - "C.13"
   - "C.2.1"
@@ -48,11 +50,11 @@ Adding a reference to unchanged viewpoint episteme P to another E.17.1 local fam
 
 #### E.17.0:5.5 - Two publications of one view
 
-View episteme E conforms to P. A web page and a printed sheet use exact forms F1 and F2 borne by exact carriers K1 and K2. Separate expression and bearing relations obtain, and two five-participant publication occurrences make the same E edition available under their own audience, bounded-use, and maximal availability intervals. E remains one view episteme; none of the forms, carriers, supporting relations, or occurrences becomes E or P.
+View episteme E conforms to P. A web publication uses exact expression X1 following reusable form F1, borne by carrier K1; a printed publication uses X2, F2 and K2. Expression, bearing and selected form conformance obtain for each. Two exact publications make the same E available under their own audience, bounded-use and maximal availability intervals. E remains one view episteme. Broader availability of E can continue when an alternative expression or carrier replaces one of these exact publications.
 
 #### E.17.0:5.6 - Cross-view correspondence
 
-A functional view names transformation F and a structural view names module M. A project claim says M realizes F. The shared system EntityOfConcern and aligned diagram positions do not establish realization. Recover exact F and M, apply the direct realization-relation pattern, then identify an assertion episteme about that occurrence if review needs it. A traceability matrix may represent the assertion and occurrence under C.29; its cell is not the realization relation.
+A functional view names transformation F and a structural view names module M. A project claim says M realizes F. The shared system EntityOfConcern and aligned diagram positions do not establish realization. Recover exact F and M, apply the direct realization-relation pattern, then identify an assertion episteme about that occurrence if review needs it. A traceability matrix may represent the assertion and occurrence through an explicit correspondence; C.29 applies when that use requires a mathematical lens. Its cell is not the realization relation.
 
 #### E.17.0:5.7 - Procedural view is not a method description
 

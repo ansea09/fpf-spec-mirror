@@ -6,12 +6,12 @@ section_id: "C.30.AD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__005_forces.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:3 — Forces"
-line_start: 71755
-line_end: 71766
+line_start: 72129
+line_end: 72140
 dependencies:
   - "A.1"
   - "A.10"
@@ -79,7 +79,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Useful description vs architecture overread | A good description guides architecture work, but it is not the architecture, an obtaining `ArchitectureRelation`, selected structure, decision claim, proof, or release authorization. |
-| Multi-view richness vs exact episteme identity | Several descriptions can be needed, but each keeps its exact claim graph, one EntityOfConcern, and effective `U.ReferenceScheme`; a description set does not blur those identities. |
+| Multi-view richness vs exact episteme identity | Several descriptions can be needed, but each keeps its exact claim graph, one EntityOfConcern, and effective `ReferenceScheme`; a description set does not blur those identities. |
 | Viewpoint utility vs automatic view membership | A viewpoint helps a practitioner or practice inspect an architecture, but only the independently obtaining E.17.0 conformance relation makes the same episteme a `U.View`; a viewpoint label or bundle does not. |
 | Viewpoint utility vs viewpoint-as-kind collapse | Viewpoints do not choose the selected structure kind. Use `C.30.ASV`, or the pattern for the particular structural view, to keep viewpoint conformance and structure-kind recovery separate. |
 | Reuse vs freshness | A reused architecture description names its source-to-use path and applicable source or structure edition. A source-return condition is added only when stronger use must return to a named source or the exact defining or constraining ClaimGraph. |

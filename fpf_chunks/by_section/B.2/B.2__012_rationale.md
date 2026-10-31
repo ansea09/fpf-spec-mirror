@@ -6,12 +6,12 @@ section_id: "B.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__012_rationale.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:10 — Rationale"
-line_start: 43620
-line_end: 43623
+line_start: 43711
+line_end: 43714
 dependencies:
   - "A.1"
   - "A.10"

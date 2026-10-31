@@ -6,12 +6,12 @@ section_id: "A.15.2:4"
 section_title: "Solution - U.WorkPlan as the time-bound intention for U.Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__005_solution-u-workplan-as-the-time-bound-intention-for-u-work.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:4 — Solution - U.WorkPlan as the time-bound intention for U.Work"
-line_start: 29777
-line_end: 29873
+line_start: 29812
+line_end: 29908
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,16 +63,16 @@ keywords:
 `U.WorkPlan` is a same-individual dependent kind under `U.Episteme`. C.2.1 first identifies exact episteme P by:
 
 ```text
-<exact ClaimGraph, one already identified present EntityOfConcern, effective U.ReferenceScheme>
+<exact ClaimGraph, one already identified present EntityOfConcern, effective ReferenceScheme>
 ```
 
-A.15.2 recognizes that same P as `U.WorkPlan` when its ClaimGraph substantively declares coordination of possible future performed work over one exact horizon through at least one `PlanItem` and, when it contains several items, their plan-content organization. The intended-performance designator may denote one proposed future performance, a named repeated-work family, or one bounded proposed group. It remains claim content: planning it neither asserts the existence of a dated Work occurrence nor makes a merely possible performance into C.2.1's already identified EntityOfConcern.
+A.15.2 recognizes that same P as `U.WorkPlan` when its ClaimGraph substantively declares coordination of work intended as future from the planning perspective recorded in P, over one exact horizon through at least one `PlanItem` and, when it contains several items, their plan-content organization. The intended-performance designator may denote one proposed future performance, a named repeated-work family, or one bounded proposed group. It remains claim content: planning it neither asserts the existence of a dated Work occurrence nor makes a merely possible performance into C.2.1's already identified EntityOfConcern. The unchanged P retains its original intended-coordination claims after performance, cancellation or passage of that horizon. Those claims provide the baseline for a later fulfilment or variance comparison. A revised intention changes the claim content; a later report of actual performance has its own claims.
 
 The present EntityOfConcern is the already identified existing entity that the plan's claims are about: for example, a system, asset, or promise-content episteme for which work is being coordinated. When the plan claims are expressly about their own coordination commitments, C.2.1's reflexive option permits P itself. The ClaimGraph may also designate other independently governed entities as participants. When the asserted subject is a joint entity, identify that entity independently. Split the ClaimGraph only when it combines independent subjects in a way that makes the selected EntityOfConcern untruthful or breaks the intended identity or comparison use; do not split merely because one predicate connects several participants.
 
 The stable positive membership condition is substantive intended-work content. At least one `PlanItem` must name its intended-performance designator, intended method or method family, planned window or entry condition, intended performer System or local system-role-kind condition, and enough constraints, resources, dependencies, commitments, targets, or baseline to make one coordination decision—for example, reserve a machine, order two items, staff a window, or set the target to be checked later. A calendar picture, ticket title, publication, approval cue, method description, forecast, or list of dates that supplies no such intended-work claims does not gain `U.WorkPlan` membership by format.
 
-The dependent kind supplies no second identity rule. Changing exact ClaimGraph content, the present EntityOfConcern, or the effective `U.ReferenceScheme` identifies another episteme under C.2.1. An explicit `EpistemeEditionRelation` may preserve historical continuity only when its own predicate obtains. Changing only a file path, carrier, layout, publication occurrence, ticket key, or version label leaves identity unchanged when the three C.2.1 discriminators are preserved.
+The dependent kind supplies no second identity rule. Changing exact ClaimGraph content, the present EntityOfConcern, or the effective `ReferenceScheme` identifies another episteme under C.2.1. An explicit `EpistemeEditionRelation` may preserve historical continuity only when its own predicate obtains. Changing only a file path, carrier, layout, publication occurrence, ticket key, or version label leaves identity unchanged when the three C.2.1 discriminators are preserved.
 
 The choices in §4.2 are intended-work content. Claims about actual occurrences, participants and effects retain their separate grounds under §9.
 

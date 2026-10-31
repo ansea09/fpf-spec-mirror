@@ -6,12 +6,12 @@ section_id: "C.3.1:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__014_rationale.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
   - "C.3.1:12 — Rationale"
-line_start: 54975
-line_end: 54978
+line_start: 55322
+line_end: 55325
 dependencies:
   - "A.1"
   - "A.11"

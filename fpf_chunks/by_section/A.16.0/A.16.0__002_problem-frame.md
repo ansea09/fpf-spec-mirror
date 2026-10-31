@@ -6,12 +6,12 @@ section_id: "A.16.0:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:1 — Problem frame"
-line_start: 33570
-line_end: 33576
+line_start: 33605
+line_end: 33611
 dependencies:
   - "A.16"
   - "A.16.1"

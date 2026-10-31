@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__006_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:4 — Solution"
-line_start: 37860
-line_end: 37956
+line_start: 37926
+line_end: 38025
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -35,23 +35,26 @@ Use the operation and guard declarations below for eligibility and actual bindin
 * **Scope note:** A.6.1 governs this declaration's operations, arguments, results, application identities and laws. An A.15.2 plan can select its editions; typed filling under A.15.3 is needed only for an independently declared receiving position. Actual application bindings are governed below. Indicatorization returns S; its guard and audit remain separate from GateDecision/GateLog.
 * **IntensionHeader:** `id = UINDM`, `version = 1.0.0`, `status = stable`.
 * **IntensionRef:** `UINDM.IntensionRef` (canonical target for the suite member named in `A.19.CHR:4.2`).
-* **Tell.** Policy‑bound indicatorization: select an indicator subset over an existing `U.CharacteristicSpace` under `CN‑Spec.indicator_policy`.
+* **Tell.** Policy‑bound indicatorization: select an indicator subset over an existing `DeclaredCharacteristicSpace` under `CN‑Spec.indicator_policy`.
 * **Purpose:** freeze a policy‑bound indicator subset early so downstream CHR mechanisms can assume a declared indicator profile (or explicitly `degrade/abstain`) rather than silently “choosing indicators” inside scoring/comparison/selection.
 * **Imports:** `A.19.CN (CN‑Spec.indicator_policy)`, `A.6.1 (operation declarations and actual bindings)`, `A.19.CHR:4.2.1 (CHR SlotKind Lexicon)`, and (when evidence‑gated) `G.0 (CG‑Spec.MinimalEvidence)`.
 * **SubjectBlock:**
 
-  * **SubjectKind:** `U.CharacteristicSpace`, supplied by CharacteristicSpaceSlot.
+  * **SubjectKind:** `DeclaredCharacteristicSpace`, supplied by CharacteristicSpaceSlot.
   * **RangedValueKind:** declaration-local basis positions of that space. Indicatorize selects from them; IndicatorizeEligibility assesses their selection under the policy.
   * **SliceBasis:** the declared `U.ClaimScope` and its selected `U.ContextSlice` members, together with the qualification window and intended use.
   * **Input qualification:** indicatorization ranges over the declared characteristic-space basis `CNSpecSlot.cs_basis` (within `CNSpecSlot.chart`) for the exact bearer, claim scope and selected slices, qualification window, evidence basis, and intended use; it never enlarges that basis.
   * Result kinds are declared per operation: a finite basis-position subset and a separate guard judgment.
+
+**Space range and resolution.** Use the `DeclaredCharacteristicSpace` criterion and paired reference resolution in A.19:5.1.1.1. `CharacteristicSpaceRef` selects the space; `CN_Spec.characteristicSpaceDescriptionRef: U.EpistemeRef` pins the exact description supplying its basis. Both must resolve and agree on that space before indicatorization; otherwise the dependent use remains unresolved and eligibility abstains. Membership establishes the input's space structure; the selected operation must still resolve its actual positions, Scales and applicable use conditions. A changed basis requires a new space reference and position resolution, even if its label or document path is unchanged. Preserve the preceding space, description and results; reuse requires the correspondence and operation conditions of the receiving use.
+
 **Operation-local declarations**
 
-Each argument row declares the same meaning separately for Indicatorize and IndicatorizeEligibility. References identify one exact value and edition under the declaration's effective reference scheme. Cardinalities below are for Indicatorize; the guard can assess a proposal with a missing required argument, which then has no binding and yields abstain.
+Each argument row declares the same meaning separately for Indicatorize and IndicatorizeEligibility. References identify one exact value under the declaration's effective reference scheme. An episteme reference selects its exact edition; the space reference and its separate description-episteme reference follow the rule above. Cardinalities below are for Indicatorize; the guard can assess a proposal with a missing required argument, which then has no binding and yields abstain.
 
 | Direction | Local designator | Meaning and ValueKind | Designation; cardinality |
 | --- | --- | --- | --- |
-| Argument | CharacteristicSpaceSlot | U.CharacteristicSpace whose exact basis I supplies the candidate positions, their Characteristic and Scale | CharacteristicSpaceRef; 1 |
+| Argument | CharacteristicSpaceSlot | DeclaredCharacteristicSpace whose exact basis I supplies the candidate positions, their Characteristic and Scale | CharacteristicSpaceRef; 1 |
 | Argument | CNSpecSlot | CN-Spec used to delimit that basis and the bearer, scope/slices, qualification window and intended use | CNSpecRef; 1 |
 | Argument | IndicatorChoicePolicySlot | IndicatorChoicePolicy whose rules select positions in I and govern unresolved choices and evidence failure | IndicatorChoicePolicyRef; 1 |
 | Argument | CGSpecSlot | CG-Spec supplying evidence conditions when the selected policy is evidence-gated | CGSpecRef; 0..1, required for evidence-gated use |
@@ -79,14 +82,14 @@ For example, select Celsius temperature twice from CS7 under the same policy in 
 * **LawSet** (CHR‑lawful indicatorization):
 
   1. **Selection‑only:** `Indicatorize` MUST NOT alter units, scales, and polarities; it only selects a subset (no implicit `UNM`).
-  2. **Declared-basis restriction:** return `S⊆I` for the exact A.19 basis identified by the space and CN-Spec editions. The projection `x|_S` retains the selected positions' original relative order, Characteristic, Scale and meaning. Re-resolve the policy after a basis change; naked indices from the preceding declaration do not identify positions in the new one.
+  2. **Declared-basis restriction:** return `S⊆I` for the exact A.19 basis of the resolved space, with its description episteme and CN-Spec edition selected separately. The projection `x|_S` retains the selected positions' original relative order, Characteristic, Scale and meaning. Re-resolve the policy after a basis change; naked indices from the preceding declaration do not identify positions in the new one.
   3. **No implicit NCV⇒indicator:** measurability/NCV is not sufficient; indicators exist only via `IndicatorChoicePolicySlot` (cites `A.19.CN` `indicator_policy`).
-  4. **Edition-determinism for the declared use:** for fixed editions of all **ByRef** inputs (`CharacteristicSpaceRef`, `CNSpecRef`, `IndicatorChoicePolicyRef`, and—when evidence-gated—`CGSpecRef` plus optional `MinimalEvidenceRef`) and fixed bearer, claim scope and selected slices, qualification window, evidence basis, and intended use, the `IndicatorSetSlot` result is stable.
+  4. **Fixed-input determinism for the declared use:** for one resolved `CharacteristicSpaceRef`, its separate `characteristicSpaceDescriptionRef`, and fixed editions of the remaining **ByRef** inputs (`CNSpecRef`, `IndicatorChoicePolicyRef`, and—when evidence-gated—`CGSpecRef` plus optional `MinimalEvidenceRef`), with fixed bearer, claim scope and selected slices, qualification window, evidence basis, and intended use, the `IndicatorSetSlot` result is stable.
   5. **No silent evidence coercion:** if evidence is insufficient/unknown under the chosen policy, the result MUST NOT be “silently emptied” nor silently treated as “pass”; use tri‑state guards.
 * **AdmissibilityConditions** (tri‑state guard; fail‑closed on missing admissibility/evidence):
 
   * `IndicatorizeEligibility(CharacteristicSpaceSlot, CNSpecSlot, IndicatorChoicePolicySlot, CGSpecSlot?, MinimalEvidenceSlot?) → GuardDecision ∈ {pass|degrade|abstain}`.
-  * `pass` requires: (i) `CNSpecSlot.indicator_policy` is present, (ii) `IndicatorChoicePolicySlot` matches that policy reference and edition, (iii) `CharacteristicSpaceSlot` matches the declared characteristic-space basis, and (iv) that policy's eligibility conditions hold for the exact bearer, claim scope and selected slices, qualification window, evidence basis, and intended use.
+  * `pass` requires: (i) `CNSpecSlot.indicator_policy` is present, (ii) `IndicatorChoicePolicySlot` matches that policy reference and edition, (iii) `CharacteristicSpaceSlot` matches the declared characteristic-space basis and its required description reference resolves to the episteme supplying that same basis, and (iv) that policy's eligibility conditions hold for the exact bearer, claim scope and selected slices, qualification window, evidence basis, and intended use.
   * If the chosen `IndicatorChoicePolicy` is evidence‑gated:
     (i) `CGSpecSlot` MUST be present,
     (ii) define `EffectiveMinimalEvidence := (MinimalEvidenceSlot if present, else CGSpecSlot.MinimalEvidence)`,
@@ -98,11 +101,11 @@ For example, select Celsius temperature twice from CS7 under the same policy in 
   * Pin-binding note: a P2W path records intended policy editions in its planned baseline. Every application consumes resolved references and keeps the effective ones in Audit; a direct use needs no invented WorkPlan.
 * **Relation boundary:** indicatorization creates no transfer relation. When a receiving use relies on an obtaining F.9 Bridge, kind relation, or plane relation, cite it with direction, preserved or lost meaning, and receiving use; supported penalties route to **`R_eff` only**.
 * **Γ_timePolicy:** `point` by default (no implicit “latest”).
-* **PlaneRegime:** the indicator set keeps the reference plane declared by the characteristic-space and CN-Spec editions; UINDM introduces no plane shift.
+* **PlaneRegime:** the indicator set keeps the reference plane declared by the characteristic space, its separately referenced description episteme and the CN-Spec edition; UINDM introduces no plane shift.
   When a receiving conclusion depends on a relation between different planes, cite that exact plane relation, its direction and loss, and keep its use separate from the indicator set.
 * **Audit:**
 
-  * MUST record: `CharacteristicSpaceRef.edition`, `CNSpecRef.edition`, `IndicatorChoicePolicyRef.edition`, exact bearer, claim scope and selected slices, qualification window, evidence basis, and intended use.
+  * MUST record: `CharacteristicSpaceRef`, the separate `characteristicSpaceDescriptionRef: U.EpistemeRef` pinned in CN-Spec, `CNSpecRef.edition`, `IndicatorChoicePolicyRef.edition`, exact bearer, claim scope and selected slices, qualification window, evidence basis, and intended use.
   * When evidence‑gated, MUST record: `CGSpecRef.edition` and effective MinimalEvidence (`MinimalEvidenceRef` when provided; otherwise `CGSpecSlot.MinimalEvidence`).
   * SHOULD record: the realized `GuardDecision` (`pass|degrade|abstain`) and, when non‑`pass`, the policy‑bound failure behavior reference that justified it.
   * SHOULD record: a stable description of `IndicatorSetSlot` (or an id reference to a **citable** indicator-set publication unit), plus any F.9 Bridge, kind relation, or plane relation only when the result or receiving use actually relies on it.

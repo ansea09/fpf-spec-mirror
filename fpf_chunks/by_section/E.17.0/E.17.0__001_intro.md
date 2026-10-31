@@ -6,15 +6,17 @@ section_id: "E.17.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__001_intro.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:intro — Intro"
-line_start: 105742
-line_end: 105767
+line_start: 106137
+line_end: 106162
 dependencies:
   - "A.22"
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.5"
   - "C.13"
   - "C.2.1"
@@ -50,7 +52,7 @@ keywords:
 
 `MultiViewDescribing` names this pattern's method. It is not a public U-kind, a family record, or an extra entity beside the epistemes and relations recovered below.
 
-**Builds on:** C.2.1 for episteme identity; C.13 for collections; A.22 for selected structures; A.6.5 for relation-signature participant SlotSpecs; A.6.3 for an optional source-to-view construction relation; E.10.D2 for Description epistemes and specification use; E.24.PUB for publication; C.29 for representations.
+**Builds on:** C.2.1 for episteme identity; C.13 for collections; A.22 for selected structures; A.6.5 for relation-signature participant SlotSpecs; A.6.3 for an optional source-to-view construction relation; C.2.1:6 for description and specification use, with E.10.D2 for naming; E.24.PUB for publication; A.6.3.RT/A.6.3.RT.OE for expression construction and C.29 for mathematical representation.
 
 **Used by:** E.17 publication, E.17.1 viewpoint bundles, E.17.2 TEVB, E.18 transformation-flow descriptions, and domain patterns that compare several views.
 

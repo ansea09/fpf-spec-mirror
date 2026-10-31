@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:4 — Solution"
-line_start: 17825
-line_end: 17960
+line_start: 17856
+line_end: 17991
 dependencies:
   - "A.15"
   - "A.20"
@@ -47,7 +47,7 @@ Use these Plain terms with that progressive boundary:
 
 Producing an ordinary candidate does not require a Work record. When the current claim needs the history of actual coarsening, use A.13 to establish each performer's agential basis and A.15.1 to admit the dated Work independently, including at least one Method actually followed. Add F.6 only if that use must also state exactly under which assignment the Work was performed. Name a separate capability claim, an additional enacted Method, source-use or A.6.1 bindings, and any A.15.PROD inception claim only when the receiving claim depends on them. Establish conservativity or controlled loss through the source-to-candidate comparison.
 
-E.24.PUB identifies an exact publication occurrence that makes one selected episteme edition available to a declared audience for a bounded use through one exact publication form and `U.PresentationCarrier`. Plain **published episteme** names the episteme in that contingent publication use. Establish `X`, `Y`, `c`, and their admissible use under the CSC rules above.
+E.24.PUB identifies an exact publication occurrence that makes one selected episteme edition available to a declared audience for a bounded use through one independently identified expression and the actual state or realization of its independently identified carrier. Any selected reusable publication form constrains that expression separately. Plain **published episteme** names the episteme in that contingent publication use. Establish `X`, `Y`, `c`, and their admissible use under the CSC rules above.
 
 #### A.6.3.CSC:4.1 - Ordinary mini-card
 
@@ -84,7 +84,7 @@ Ordinary cases should remain light. A short orientation summary, redacted partne
 
 Open the exact branch only when independent reuse, dispute, reliance, citation, cross-scheme interpretation, policy, bridge, work, gate, privacy, engineering justification, or assurance makes identity material. Then:
 
-1. identify exact source episteme `X` and exact receiving coarsened episteme `Y` by claim content, EntityOfConcern, and effective `U.ReferenceScheme`;
+1. identify exact source episteme `X` and exact receiving coarsened episteme `Y` by claim content, EntityOfConcern, and effective interpretation rules (`ReferenceScheme`);
 2. confirm that both concern the same exact EntityOfConcern;
 3. state exact `c : X -> Y`, including claim construction, endpoint-scheme relation, preservation, controlled loss, prohibited strengthening, applicability, narrower admissible use, and return; and
 4. keep any source set, model, graph, state representation, evidence set, publication occurrence, form, carrier, actual Work, viewpoint, representation, and grounding facts separate and add only those needed by the receiving use.

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.11.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
-line_start: 131485
-line_end: 131943
+line_start: 132075
+line_end: 132533
 dependencies:
   - "A.10.1"
   - "A.6.RCD"
@@ -337,7 +337,7 @@ Discipline-specific refresh strategies and generator-specific wiring use `GPatte
 **Required pins, edition pins, and policy pins (minimum):**
 
 * `DescriptorMapRef.edition`, `DistanceDefRef.edition`
-* `CharacteristicSpaceRef.edition?` (required when a domain-family coordinate is declared by the QD governing definition)
+* `CharacteristicSpaceRef` with separate `characteristicSpaceDescriptionRef: U.EpistemeRef` (required when a domain-family coordinate is declared by the QD governing definition; resolve the same-space pair under A.19:5.1.1.1)
 * `InsertionPolicyRef`, `EmitterPolicyRef` (policy-bound)
 * Exact archive or illumination scope and `policy-id` for emitted telemetry triggers: `PatternScopeId` for nongraph scope; `PathSliceId` when graph-expressed or required by an independently applicable parity, evidence or shipping contract.
 

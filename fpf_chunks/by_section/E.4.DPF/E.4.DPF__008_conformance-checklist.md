@@ -6,12 +6,12 @@ section_id: "E.4.DPF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__008_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:7 — Conformance Checklist"
-line_start: 94788
-line_end: 94818
+line_start: 95183
+line_end: 95213
 dependencies:
   - "A.1.1"
   - "A.13"

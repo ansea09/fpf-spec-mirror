@@ -6,12 +6,12 @@ section_id: "C.2.1:6"
 section_title: "Description and specification-use boundary  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__007_description-and-specification-use-boundary-normative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:6 — Description and specification-use boundary  (normative)"
-line_start: 51333
-line_end: 51351
+line_start: 51666
+line_end: 51695
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -54,9 +54,9 @@ keywords:
 
 ### C.2.1:6 - Description and specification-use boundary  *(normative)*
 
-A Description episteme is a `U.Episteme` whose exact EntityOfConcern is the entity being described. Description does not create a second kind beside ordinary epistemes; it names the current relation and use of one episteme.
+In a claim-bearing-result use, “description” designates episteme E, a `U.Episteme` identified by its claim content G, EntityOfConcern T and effective ReferenceScheme R. The word supplies no additional subtype criterion or relation. For a comparison of the claims alone, identify G; for a correction to wording or layout, identify the expression and the meaning it must preserve. Section :4.0.5 explains how to recover the intended object from the actual use.
 
-For a description use, keep these values recoverable:
+When these values affect the current description use, keep them recoverable:
 
 | Value | Meaning | Identity status |
 | --- | --- | --- |
@@ -67,7 +67,18 @@ For a description use, keep these values recoverable:
 | `modelUseStructureRef`, when current | designation of one independently selected `BoundedModelUseStructure : U.Structure` | optional interpretation qualifier, not a context root |
 
 
-Use `E.10.D2` to keep the EntityOfConcern, its Description episteme, and specification use distinct. A Description episteme is admitted for specification use only when its claims are checkable and a named harness or validation relation can test them. Preserve or update a selected viewpoint only for the named describing use whose reliance depends on it. The suffix `Spec`, formal notation, approval appearance, or publication in a repository does not grant that use.
+For specification use, recover all applicable conditions:
+
+1. the exact description episteme and its C.2.1 constitution;
+2. checkable claims, invariants, criteria, or acceptance conditions in its ClaimGraph;
+3. a named harness, validation, conformance, measurement, or evaluation relation capable of checking those claims for the stated use;
+4. when viewpoint selection affects reliance, the named describing use and its exact selected viewpoint are preserved or explicitly updated.
+
+Declared formality, notation discipline, comparators, tolerances, and measurement rules are named when the claims depend on them. They do not substitute for the checkable claims or the harness. If the conditions are absent, call the episteme a description and present proposed criteria as proposals; a `Spec` suffix, schema, signature, approval, or publication does not supply specification force.
+
+Specification use does not create another episteme identity. A revision that changes ClaimGraph, EntityOfConcern, or effective ReferenceScheme identifies another episteme under C.2.1; a changed harness, evaluation result, publication, or relying use changes its own neighboring object or relation.
+
+E.10.D2:4.1.3 applies these conditions to a proposed `...Spec` name.
 
 Self-description uses the same rule. If an episteme describes itself, its EntityOfConcern designation resolves to that episteme. If a review episteme describes it, the review episteme has the first episteme as EntityOfConcern and its own claim content and reference scheme.
 

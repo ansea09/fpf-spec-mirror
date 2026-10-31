@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "C.16"
 pattern_title: "Measurement & Metrics Characterization (MM‑CHR)"
-section_id: "C.16:15b"
-section_title: "C.29 mathematical-lens use relation"
+section_id: "C.16:14"
+section_title: "Rationale"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.16/C.16__019_c-29-mathematical-lens-use-relation.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+output_path: "by_section/C.16/C.16__016_rationale.md"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
-  - "C.16:15b — C.29 mathematical-lens use relation"
-line_start: 58514
-line_end: 58517
+  - "C.16:14 — Rationale"
+line_start: 58814
+line_end: 58817
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -53,7 +53,7 @@ keywords:
   - "uncertainty"
 ---
 
-### C.16:15b - C.29 mathematical-lens use relation
+### C.16:14 - Rationale
 
-If a mathematical lens depends on a measurement, recover the C.16 measurand, Scale, model, calibration, work, uncertainty, result episteme, and comparability basis first. C.29 may then state the lens-use admissibility claim; it does not construct the measurement, make values comparable, or provide provenance. A.10/G.6 retain provenance and B.3 retains assurance.
+Measurement is not merely reading a carrier. It is performed work under a method and model that attributes one or more values to a measurand and supplies the information required to interpret those values. That architecture explains why indication, actual subject state, measurement result, result episteme, diagnosis, and verdict must remain distinct.
 

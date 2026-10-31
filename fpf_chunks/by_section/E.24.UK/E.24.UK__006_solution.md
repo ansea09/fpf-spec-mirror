@@ -6,12 +6,12 @@ section_id: "E.24.UK:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__006_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:4 — Solution"
-line_start: 116773
-line_end: 117016
+line_start: 117355
+line_end: 117600
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -163,16 +163,18 @@ The shared decision can also encounter public kind names that do not yet have a 
 | --- | --- | --- |
 | `E24UK-OPEN-UREFERENCESCHEME-01` | `U.ReferenceScheme` prerequisite unsettled | C.2.1 governs precise use and comparison of effective interpretation rules; its :4.1.2 `EpistemeInterpretationScheme` declaration supplies the bounded C.3 range used by the named relation and mechanism interfaces. F.18 uses the concrete `FPFCoreReferenceScheme`. A general public classification still needs a demonstrated receiving need, a defined candidate range with identity and membership criteria, member/non-member and non-use boundaries, and an accepted admission result. A document describing rules is not automatically an instance of that proposed kind. |
 | `E24UK-OPEN-UCLAIMGRAPH-01` | `U.ClaimGraph` prerequisite unsettled | C.2.1 governs exact semantic content and distinguishes it from its graph expression and an episteme about it; its :4.1.2 `NonemptyClaimContent` declaration supplies the bounded C.3 range used by the R7/R8 predicates. General public typed reuse still needs a demonstrated classification need, a defined candidate range with identity and membership criteria, member/non-member and non-use boundaries, and a direct kind settlement with an accepted admission result. An endpoint episteme class supplies none of those constituent-kind grounds. |
+| `E24UK-OPEN-UMEASURE-01` | `U.Measure` public-kind admission unsettled | C.16:5.5.1 supplies the positive C.3 `ReadingContent` range for USCM, ULSAM and CPM, distinguishing interpreted attribution, Coordinate, result episteme and actual measurement grounds. These uses need that range, not an additional universal kind. Any broader public-kind proposal still needs its own candidate domain, membership, identity, non-duplication grounds and accepted admission result. |
+| `E24UK-OPEN-UCHARACTERISTICSPACE-01` | `U.CharacteristicSpace` public-kind admission unsettled | A.19:5.1.1.1 supplies independently identified spaces and the positive C.3 `DeclaredCharacteristicSpace` range for UNM/UINDM and receivers requiring that same criterion. Direct construction and this typed range remain usable. A public spelling or description edition supplies no further kind admission; a different receiving classification requires its own criterion and grounds. |
 | `E24UK-NAR-U-CAPABILITY-01` | `U.Capability`; `reject` | A.2.2 planning, promise, fit and development uses require a holder System and qualified ability claims, not another individual or classificatory distinction. Use `U.System` and C.2.1 epistemes when an assertion needs an identified account. |
 | `E24UK-NAR-LSMT-01` | `U.LanguageStateMoveTrajectory`; `reject` | A.16.0 needs an ordinary C.2.1 history account and an E.24.PUB expression/publication form. The recovered branch, loss, lineage and responsibility uses require no additional individual or durable classification. |
 | `E24UK-NAR-AIPR-01` | `U.ActionInvitationPrecisionRestoration`; `reject` | A.6.A governs a precision-restoration move; the title admits no further kind, and any exact relation claim still needs its direct obtaining predicate and identity rule |
 | `E24UK-NAR-EPUB-01` | `U.EpistemePublication`; `reject` | for the availability-only use in section 5.0, C.2.1 identity and the exact E.24.PUB participation claim suffice; no additional classification is needed. A receiving classification use is assessed separately under C.3.2 and the admission tree. |
 
-E.24 may coordinate exact constitution and dependent relation rules in `EpistemeOntic` while these two admissions remain open. Its positive basis is the shared identity and the named cross-pattern dependencies, subject to E.24's participant-identification and predicate tests. That coordination admits neither proposed constituent kind and does not complete a typed interface whose required range is missing.
+E.24 may coordinate exact constitution and dependent relation rules in `EpistemeOntic` while these two constituent admissions remain open. Its positive basis is the shared identity and the named cross-pattern dependencies, subject to E.24's participant-identification and predicate tests. That coordination admits neither proposed constituent kind and does not complete a typed interface whose required range is missing.
 
 Generic `reuse` and `local-kind` are decision exits, not accepted example results. Close `reuse` only with an exact `ReusedUKindRef` that resolves to this registry; close `local-kind` only with one exact current C.3.2 `LocalKindDeclarationRef`. If either reference is absent, keep the candidate unsettled.
 
-Consumer repair follows the disposition, not one replacement word. Method-description claims retain `U.MethodDescription`; exact viewpoint and view claims retain `U.Viewpoint` and `U.View` only under E.17.0 membership. For the availability-only use rejected by `E24UK-NAR-EPUB-01`, recover the selected `U.Episteme`, obtaining `EpistemePublicationRelation` occurrence, publication form, or `U.PresentationCarrier` that the claim concerns. When a source use instead requires classification by publication participation, preserve that need and follow the admission tree in section 4.3.
+Consumer repair follows the disposition, not one replacement word. Method-description claims retain `U.MethodDescription`; exact viewpoint and view claims retain `U.Viewpoint` and `U.View` only under E.17.0 membership. For the availability-only use rejected by `E24UK-NAR-EPUB-01`, recover the selected `U.Episteme`, obtaining `EpistemePublicationRelation` occurrence, particular expression, optional reusable form or independently identified carrier that the claim concerns. When a source use instead requires classification by publication participation, preserve that need and follow the admission tree in section 4.3.
 
 Thus `dependent` describes an admission and identity architecture. It is not a shorthand for every object named in a record, every participant of a relation, or every qualifier used to interpret an episteme.
 

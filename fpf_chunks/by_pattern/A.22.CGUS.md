@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.22.CGUS.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
-line_start: 40550
-line_end: 40917
+line_start: 40639
+line_end: 41006
 dependencies:
   - "A.10"
   - "A.15"
@@ -233,7 +233,7 @@ Potential branches and joins remain part of the structure even when the present 
 
 Before qualification, an ordinary explanation is about the domain question or proposed alternatives. If persistence is needed, its C.2.1 `EntityOfConcern` remains that question or proposed set, not a CGUS that has not yet qualified.
 
-After qualification, a whole-structure description may describe loci, bindings, relations, constraints, potential branches, case results, and relevant omissions. A separate demonstrative slice may show one traversal for a declared teaching or comparison use. That slice is a C.2.1 episteme: its exact claim content, the qualified CGUS as `EntityOfConcern`, and its effective `U.ReferenceScheme` jointly recover its identity. `DemonstrativeUnfoldingSlice@Context` is readable lineage for this possibility, not a `U.Kind` or an exact slice by itself. The slice neither creates nor reidentifies the structure. Use C.33 only when hidden or lost structure in its carrier matters to a declared architecture use within C.33's scope.
+After qualification, a whole-structure description may describe loci, bindings, relations, constraints, potential branches, case results, and relevant omissions. A separate demonstrative slice may show one traversal for a declared teaching or comparison use. That slice is a C.2.1 episteme: its exact claim content, the qualified CGUS as `EntityOfConcern`, and its effective reference scheme jointly recover its identity. `DemonstrativeUnfoldingSlice@Context` is readable lineage for this possibility, not a `U.Kind` or an exact slice by itself. The slice neither creates nor reidentifies the structure. Use C.33 only when hidden or lost structure in its carrier matters to a declared architecture use within C.33's scope.
 
 Where a slice shows one selected pattern use, it may recall the difficulty through the pattern's `Problem frame` or `Problem`, or recall the way of addressing it through the `Solution`. To show that same use in either form, preserve the selected pattern, working subject and question or proposed use, current conditions, expected result, stop or continuation, and relevant locus bindings. Changing between those formulations changes only the description when the selected pattern use and the qualified structure remain the same. A.22 structure identity still depends on its constituents, selected obtaining relations, applied constraints and named selection-use frame; CGUS membership additionally depends on its locus bindings and at least two potential continuations. Question or action labels establish neither.
 

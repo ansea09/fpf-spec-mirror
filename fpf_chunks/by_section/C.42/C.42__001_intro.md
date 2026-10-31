@@ -6,12 +6,12 @@ section_id: "C.42:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__001_intro.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.42 — Reduce Avoidable Work While Preserving the Needed Result"
   - "C.42:intro — Intro"
-line_start: 89579
-line_end: 89584
+line_start: 89967
+line_end: 89972
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

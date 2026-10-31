@@ -6,12 +6,12 @@ section_id: "C.2.8:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__008_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:7 — Conformance Checklist"
-line_start: 54256
-line_end: 54270
+line_start: 54603
+line_end: 54617
 dependencies:
   - "A.17"
   - "A.18"
@@ -40,9 +40,9 @@ Use this checklist when a characteristic claim or comparison must be relied on o
 
 | Check | Required content |
 | --- | --- |
-| `CC-C.2.8-1` Aspect and arity | An ESI claim SHALL retain the episteme, expressing form and observer, with the selected structure and material comparison conditions recoverable. |
+| `CC-C.2.8-1` Aspect and arity | An ESI claim SHALL retain the episteme, particular expression and observer, with the selected structure and material comparison conditions recoverable. |
 | `CC-C.2.8-2` Correctness | The claim SHALL state the relevant source or criterion and distinguish content recovery from a stronger warranted-world conclusion when that distinction matters. |
-| `CC-C.2.8-3` Comparison | A claimed difference SHALL identify changed claims, form, preparation, access, help, operations or budget where they can explain the result. |
+| `CC-C.2.8-3` Comparison | A claimed difference SHALL identify changed claims, expression, reusable-form rules, preparation, access, help, operations or budget where they can explain the result. |
 | `CC-C.2.8-4` Scale | A numerical value SHALL name its scale, structural unit or denominator and method. Ordered scales SHALL retain the positive structural direction; missing basis SHALL remain distinct from zero. |
 | `CC-C.2.8-5` Grounds | An observation, design estimate or formal-model estimate SHALL retain its grounds and their actual scope. Prior-expertise correction and additional assistance SHALL be attributed separately where consequential. |
 | `CC-C.2.8-6` Formal estimate | An epiplexity or other mathematical estimate used as ESI SHALL have the applicable C.29 correspondence; a claimed measurement SHALL satisfy C.16. |

@@ -6,12 +6,12 @@ section_id: "G.3:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__007_bias-annotation.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:6 — Bias‑Annotation"
-line_start: 127992
-line_end: 128001
+line_start: 128581
+line_end: 128590
 dependencies:
   - "A.10"
   - "A.15.2"

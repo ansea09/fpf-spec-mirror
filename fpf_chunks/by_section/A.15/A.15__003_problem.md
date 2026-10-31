@@ -6,12 +6,12 @@ section_id: "A.15:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__003_problem.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:2 — Problem"
-line_start: 28757
-line_end: 28769
+line_start: 28792
+line_end: 28804
 dependencies:
   - "A.10"
   - "A.13"

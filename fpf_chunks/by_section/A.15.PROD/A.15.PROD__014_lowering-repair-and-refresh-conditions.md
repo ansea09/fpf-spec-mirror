@@ -6,12 +6,12 @@ section_id: "A.15.PROD:13"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__014_lowering-repair-and-refresh-conditions.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:13 — Lowering, Repair, and Refresh Conditions"
-line_start: 33295
-line_end: 33310
+line_start: 33330
+line_end: 33345
 dependencies:
   - "A.1"
   - "A.10"

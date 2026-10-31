@@ -6,15 +6,17 @@ section_id: "E.17.0:8"
 section_title: "Relations and contribution boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__009_relations-and-contribution-boundaries.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:8 — Relations and contribution boundaries"
-line_start: 106253
-line_end: 106268
+line_start: 106648
+line_end: 106663
 dependencies:
   - "A.22"
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.5"
   - "C.13"
   - "C.2.1"
@@ -40,7 +42,7 @@ keywords:
 - **F.18** supplies the two relation-kind NameCards; naming metadata neither defines relation semantics nor grants admission. **F.9** applies only when an exact relation between distinct F.17 `SchemeSenseCell` values obtains.
 - **E.17.1** defines exact catalogue epistemes and local family declarations whose members are exact `U.ViewpointRef` values. **E.17.2** supplies the four-position project-local engineering viewpoint authoring template and, only after local materialization, its four exact bindings. A declaration, template position, or reference grants no viewpoint or view membership.
 - **E.24.UK** admits dependent `U.Viewpoint` and `U.View` once for public use; E.17.0 supplies their stable positive membership predicates.
-- **E.24.PUB** defines form expression, carrier bearing, publication availability, and recurrence. **C.29** defines representations and correspondence; neither makes the represented world-side relation obtain.
+- **E.24.PUB** defines exact expression and bearing, selected form conformance, form-mediated availability and publication recurrence. **A.6.3.RT** and **A.6.3.RT.OE** govern expression construction; **C.29** governs a mathematical lens. Their use retains the independent predicate for any represented subject relation.
 - **A.1, A.2, A.2.1, A.3.1, A.3.2, A.15.1, and F.6** distinguish performer Systems, local system-role kinds, exact assignments, Methods, MethodDescriptions, Work, and attribution. Responsibility remains under its direct predicate. Use **A.15.PROD** only for a separately needed local inception or completion claim.
 - **A.10, G.6, and B.3** retain provenance and assurance. Use **A.6.RCD** when no pattern defines a needed cross-view or use relation.
 

@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:4"
 section_title: "Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__005_solution-entityofconcernref-preserving-textual-re-expression-under-a-6-3.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:4 — Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
-line_start: 18149
-line_end: 18296
+line_start: 18180
+line_end: 18329
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -52,7 +52,9 @@ Use these local terms when distinguishing the source and rendering:
 - **Ordinary case** = a reviewable same-entity rewrite where a short account keeps the source tether, omission notes, and neighboring-pattern conditions readable.
 - **Case needing fuller review** = a case whose material preservation, correspondence or intended-use question requires more support than the short account supplies.
 
-`sourceSlice` and `publishedSlice` are local review labels for the source textual slice and resulting textual rendering in one rewrite case. A `publishedSlice` remains a rendering label. When one exact selected `U.Episteme` is made available, E.24.PUB separately requires its bounded-use declaration, publication form, carrier, and obtaining `EpistemePublicationRelation`; no publication kind or second episteme identity follows from the slice label.
+`sourceSlice` and `publishedSlice` are local review labels for the source textual slice and resulting textual rendering in one rewrite case. A `publishedSlice` remains a rendering label. When one exact selected `U.Episteme` is made available, E.24.PUB identifies its audience and bounded-use declarations, the particular expression and carrier, and the obtaining `EpistemePublicationRelation`. When a reusable publication form is selected, establish that expression's conformance to its rules. Form-mediated expression and bearing claims use the same expression as witness. The slice label establishes neither a publication kind nor another episteme identity.
+
+For example, a short restatement shared in a text file can identify the receiving episteme, audience, use, actual text and file without choosing a reusable form. If the receiving use requires a specified report form, the text must also satisfy that form's rules. The source tether, omission notes and conservative-rewrite conditions apply in both cases.
 
 These local review labels follow the `E.17:5.1e` local-field rule.
 

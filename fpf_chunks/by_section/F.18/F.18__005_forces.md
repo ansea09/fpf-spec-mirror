@@ -6,12 +6,12 @@ section_id: "F.18:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__005_forces.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:3 — Forces"
-line_start: 124655
-line_end: 124664
+line_start: 125242
+line_end: 125251
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 
 | Force | Naming tension |
 | --- | --- |
-| Local sense and reuse across different semantic-context projections | A name must be interpretable under one effective by-value `U.ReferenceScheme` while remaining bridgeable to a different `<ReferenceScheme, LocalSenseClaim>` projection without spelling-based identity. The projections can differ under one scheme. |
+| Local sense and reuse across different semantic-context projections | A name must be interpretable under one effective by-value `ReferenceScheme` while remaining bridgeable to a different `<ReferenceScheme, LocalSenseClaim>` projection without spelling-based identity. The projections can differ under one scheme. |
 | Brevity and ontology recovery | A short label helps conversation, but the `NameCard` must keep governed kind, effective reference scheme, local sense, subject pattern, and intended use recoverable. |
 | Continuity and correction | Readers need stable public names, while authors must be able to rename, split, merge, or retire names without erasing earlier uses. |
 | Familiarity and precision | Familiar words are easier to adopt, but some familiar words import wrong prototypes from another discipline. |

@@ -6,12 +6,12 @@ section_id: "C.40.OP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__007_bias-annotation.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:6 — Bias-Annotation"
-line_start: 87589
-line_end: 87594
+line_start: 87977
+line_end: 87982
 dependencies:
   - "A.15.9"
   - "C.11.CRC"

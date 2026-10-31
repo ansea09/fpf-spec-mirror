@@ -6,12 +6,12 @@ section_id: "A.3.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__007_archetypal-grounding.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:5 — Archetypal Grounding"
-line_start: 13117
-line_end: 13164
+line_start: 13148
+line_end: 13195
 dependencies:
   - "A.1"
   - "A.10"
@@ -70,7 +70,7 @@ At this resolution the case asserts neither finer transformation parts nor partl
 
 A safety specification is revised so that an emergency-stop boundary no longer permits two incompatible readings. **First result:** `EmergencyStopSpec-E1` and `EmergencyStopSpec-E2` are different C.2.1 epistemes because their claim content differs. `EpistemeEditionRelation(EmergencyStopSpec-E1, EmergencyStopSpec-E2)` may relate them when its historical-continuation predicate holds; neither is one continuing changed episteme.
 
-A.3.4 may instead identify a change of `EmergencyStopSpec-Carrier-17 : U.PresentationCarrier` if `E.24.PUB` identifies the same carrier across the editing interval and the before/during/after borne-expression facts plus carrier-continuity rule are present. If the carrier identity, facts, or rule are missing, no carrier transformation follows. If editing `U.Work` first constituted `EmergencyStopSpec-E2`, name that work and the transformation by which the later identity closed. Apply `4.2.4` to the work-to-change pair, then apply `A.15.PROD` to the change-to-identity pair. Each connection needs a matching predicate or valid local compound basis; preserve the applicable `A.6.RCD` stop for either pair that lacks its required basis. The repair method, ambiguity-removal assertion, review result, and publication of the later episteme remain separate.
+A.3.4 may instead identify a change of `EmergencyStopSpec-Carrier-17 : U.Entity` if its physical or digital domain identifies the same carrier across the editing interval and the before/during/after expression-bearing facts under `E.24.PUB` plus the carrier-continuity rule are present. If the carrier identity, facts, or rule are missing, no carrier transformation follows. If editing `U.Work` first constituted `EmergencyStopSpec-E2`, name that work and the transformation by which the later identity closed. Apply `4.2.4` to the work-to-change pair, then apply `A.15.PROD` to the change-to-identity pair. Each connection needs a matching predicate or valid local compound basis; preserve the applicable `A.6.RCD` stop for either pair that lacks its required basis. The repair method, ambiguity-removal assertion, review result, and publication of the later episteme remain separate.
 
 #### A.3.4:5.4 - Formal construction
 

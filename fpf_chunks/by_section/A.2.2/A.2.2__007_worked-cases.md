@@ -6,12 +6,12 @@ section_id: "A.2.2:6"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__007_worked-cases.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:6 — Worked Cases"
-line_start: 5299
-line_end: 5351
+line_start: 5322
+line_end: 5374
 dependencies:
   - "A.1"
   - "A.15"

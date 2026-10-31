@@ -6,14 +6,16 @@ section_id: "E.24.PUB:8"
 section_title: "Common Misuses and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__010_common-misuses-and-repairs.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:8 — Common Misuses and Repairs"
-line_start: 116662
-line_end: 116673
+line_start: 117221
+line_end: 117232
 dependencies:
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.REL"
   - "C.2.1"
   - "C.29"
@@ -42,7 +44,7 @@ keywords:
 | Diagram equals view | Graphical form or construction history is used as the `U.View` membership criterion. | Recover exact candidate episteme E, exact viewpoint episteme P, and E.17.0 conformance; keep any A.6.3 construction, selected use, form, and representation separate. |
 | Publication equals expression | The form or rendered expression is treated as the publication occurrence. | Name the five `EpistemePublicationRelation` participants and test availability. |
 | Available equals used | Publication is treated as proof of reading, reliance, decision, Work, or result. | Open the exact direct pattern only when that stronger claim is current; E.24.PUB supplies none of its admission or obtaining proof. |
-| Republished equals revised | A new carrier or form is treated as another episteme edition. | Apply C.2.1 identity; another edition exists only when a discriminator changes. |
+| Republished equals revised | A new expression, form or carrier is treated as another episteme edition. | Apply C.2.1 identity. A changed discriminator identifies another E; a later-edition claim additionally needs the :4.5 source and continuity conditions. |
 | Published-episteme kind | Temporary availability becomes a durable U-kind. | Keep `U.Episteme`; use Plain `published episteme` plus the exact publication occurrence. |
 | Warning pile-up | A subject pattern lists every publication-side object before explaining its subject. | Keep the subject first and add only the distinction on which the receiving use depends. |
 

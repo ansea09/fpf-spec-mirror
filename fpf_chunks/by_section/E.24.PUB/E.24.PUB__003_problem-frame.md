@@ -6,14 +6,16 @@ section_id: "E.24.PUB:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__003_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:1 — Problem Frame"
-line_start: 116452
-line_end: 116461
+line_start: 116961
+line_end: 116970
 dependencies:
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.REL"
   - "C.2.1"
   - "C.29"
@@ -36,9 +38,9 @@ keywords:
 
 ### E.24.PUB:1 - Problem Frame
 
-Ontics and other entities are usually encountered through epistemes and physical or digital carriers. One completed inspection card can carry claims and therefore be a `U.Episteme`; its reusable arrangement can be used as a publication form; selected graphical elements can participate in a C.29 representation; a file, screen, sheet, or volume can be a `U.PresentationCarrier`; and one publication occurrence can make the selected card-episteme edition available to a declared audience for a bounded use.
+Ontics and other entities are usually encountered through expressions of epistemes and physical or digital carriers. In a completed inspection card, the claims about the inspected subject can constitute a `U.Episteme`; the particular signs express those claims; reusable arrangement rules supply a publication form; and a file or sheet bears the expression. A publication occurrence makes the selected episteme available through that expression and carrier to a declared audience for a bounded use.
 
-Those are connected uses, not one presentation-side kind. E.24.PUB governs the publication relation and the two supporting relations needed to inspect that use. It keeps the described subject, description episteme, `U.View`, representation, publication form, carrier, and publication occurrence distinct without requiring every ordinary sentence to repeat the full stack.
+These relations connect separately identified objects. E.24.PUB defines exact publication through expression and bearing, and reusable-form conformance when a form is selected. It also supplies form-mediated claims and broader availability for uses that do not require one fixed expression. Ordinary publication can be stated in one sentence.
 
 Plain `published episteme` names an episteme while it participates as the selected edition in a current publication occurrence. C.2.1 continues to govern that episteme's identity. If the receiving use needs classification by publication participation, use C.3.2 with its declared criterion and slice. E.24.UK:5.0 rejects the additional public kind `U.EpistemePublication` for the availability-only use; a different classification need follows its admission tree.
 

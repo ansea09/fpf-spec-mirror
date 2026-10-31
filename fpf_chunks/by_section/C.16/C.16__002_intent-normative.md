@@ -6,12 +6,12 @@ section_id: "C.16:1"
 section_title: "Intent (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__002_intent-normative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:1 — Intent (Normative)"
-line_start: 58196
-line_end: 58209
+line_start: 58543
+line_end: 58556
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,5 +65,5 @@ keywords:
 
 **Local designators.** `MeasurementSpecification`, `MeasurementMethod`, `MeasurementModel`, `MeasurementWork`, `MeasurementResult`, and `MeasurementResultEpisteme` name exact objects in one case; they are not new public U-kinds or universal relation types. `MeasurementMethod` is one exact `U.Method`; `MeasurementWork` is one dated `U.Work`; `MeasurementResultEpisteme` is one C.2.1 episteme.
 
-**Compatibility with the retained measurement family.** `U.DHCMethod` remains the durable measurement-definition value that fixes the Characteristic, Scale and applicable unit and cites the method and model. A preference rule belongs to the evaluation that uses the result, when one is being made. `U.Measure` remains the durable reading claim: when persisted, it is the C.2.1 result episteme that states the C.16 measurement result. `U.Unit` carries quantity-kind and conversion semantics when the Scale requires them. `U.EvidenceStub` is only a compact locator into A.10/G.6 provenance; it is not the measurement result, an evidence carrier, a work record, or a relation that establishes measurement.
+**Objects used together.** A measurement specification fixes the Characteristic, Scale and applicable unit, and states which method, model and interpretation conditions govern the result. A reading attributes values to a subject under those conditions. Section :5.5.1 supplies `ReadingContent` when a reusable interface needs to classify that content; an episteme stating it has its separate C.2.1 identity. A unit supplies the adopted quantity reference and conversion meaning. An evidence stub is an optional compact locator into A.10/G.6 provenance. These objects can be expressed together while retaining the distinct specification, value, claim, episteme and performed measurement.
 

@@ -6,12 +6,12 @@ section_id: "E.17.2:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__006_worked-cases.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:5 — Worked cases"
-line_start: 106929
-line_end: 106979
+line_start: 107329
+line_end: 107379
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -78,5 +78,5 @@ Module-interface view E is published as an interactive model and as a printed in
 
 A team enacts DDD Context Mapping. The way of doing is one independently admitted `U.Method` under A.3.1; an episteme that substantively describes that method may separately be a `U.MethodDescription` with the method as its exact EntityOfConcern. Neither is a TEVB viewpoint or view by its label.
 
-First determine whether the product is a claim-bearing episteme or only a diagram, form, or carrier. A claim-bearing product called a Context Map is separately identified under C.2.1 as candidate episteme E with its own exact claim content, EntityOfConcern, and effective scheme. It becomes a `U.View` only if one exact viewpoint P admits E's EntityOfConcern and `EpistemeViewpointConformanceRelation(E,P)` obtains. Method enactment, product naming, diagram form, declaration position, publication, and visual resemblance grant no membership. If the map represents independently recovered domain regions or relations, C.29 defines that correspondence; a mere carrier remains with E.24.PUB, and the drawing makes no represented world-side relation obtain.
+First determine whether the product is a claim-bearing episteme or only a diagram, form, or carrier. A claim-bearing product called a Context Map is separately identified under C.2.1 as candidate episteme E with its own exact claim content, EntityOfConcern, and effective scheme. It becomes a `U.View` only if one exact viewpoint P admits E's EntityOfConcern and `EpistemeViewpointConformanceRelation(E,P)` obtains. Method enactment, product naming, diagram form, declaration position, publication, and visual resemblance grant no membership. If the map represents independently recovered domain regions or relations, recover how its elements correspond to those subjects. Use A.6.3.RT/A.6.3.RT.OE for constructing the expression or changing its representation scheme; add C.29 when a mathematical inference or transfer depends on that correspondence. A carrier remains with E.24.PUB, and the drawing makes no represented world-side relation obtain.
 

@@ -6,12 +6,12 @@ section_id: "A.2.6:15"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__016_consequences.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:15 — Consequences"
-line_start: 7246
-line_end: 7249
+line_start: 7269
+line_end: 7272
 dependencies:
   - "A.1.1"
   - "A.15.1"

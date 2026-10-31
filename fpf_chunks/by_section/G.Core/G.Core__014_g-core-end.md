@@ -6,12 +6,12 @@ section_id: "G.Core:End"
 section_title: "G.Core:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__014_g-core-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:End — G.Core:End"
-line_start: 126271
-line_end: 126272
+line_start: 126860
+line_end: 126861
 dependencies:
   - "A.15.3"
   - "A.19"

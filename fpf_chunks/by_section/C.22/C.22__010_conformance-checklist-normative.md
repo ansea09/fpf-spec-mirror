@@ -6,12 +6,12 @@ section_id: "C.22:9"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__010_conformance-checklist-normative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:9 — Conformance Checklist (normative)"
-line_start: 62700
-line_end: 62724
+line_start: 63071
+line_end: 63095
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -32,7 +32,7 @@ keywords:
 
 ### C.22:9 - Conformance Checklist (normative)
 
-0. **Minimal A.6.0 declaration.** `TaskSignature` exposes exact `EntityOfConcernRef`, effective `U.ReferenceScheme`, `SubjectKind`, `RangedValueKind`, optional `ResultKind`, `SliceSet`, and `ExtentRule`, plus Vocabulary, Laws, and Applicability. Add `SignatureManifest` only when dependency replay needs actual imports and provided names; it does not supply signature identity.
+0. **Minimal A.6.0 declaration.** `TaskSignature` exposes exact `EntityOfConcernRef`, effective reference scheme, `SubjectKind`, `RangedValueKind`, optional `ResultKind`, `SliceSet`, and `ExtentRule`, plus Vocabulary, Laws, and Applicability. Add `SignatureManifest` only when dependency replay needs actual imports and provided names; it does not supply signature identity.
 1. **Signature and assignment present.** Every exported selector-facing case names one TaskSignature identity and edition plus one `TaskSignatureAssignmentRelation` whose exact problem-side episteme, TaskSignature, receiving-use episteme, obtaining conditions, and occurrence extent are recoverable. No setting, carrier, or organization is added as a fourth participant. Current characteristic bindings are CHR-typed; a live unknown preserves `unknown`, while a non-current optional vocabulary item remains absent.
    1a. **Publication and designators do not define identity.** Two E.17 publications or serialized records that resolve to the same `<declaration content, EntityOfConcernRef, effectiveReferenceScheme>` identify the same TaskSignature episteme. Carrier, layout, serialization, `SignatureId`, or edition label alone does not create a new identity component.
 2. **CHR admissibility proven.** Any numeric comparison or aggregation **cites CG-Spec** by **Characteristic id** and proves **CSLC admissibility**; **no mean on ordinals; no unit mixing**.
@@ -44,9 +44,9 @@ keywords:
 8. **Bridge and use claims remain distinct.** For current cross-semantic reuse, cite the two exact local senses and an actual F.9 Bridge only when its predicate is true. State the action, direction, correspondence rule, tolerated loss, and polarity in a separate bounded-use claim; if the predicate is false, keep the local values separate.
 9. **Packaging is conditional.** Create an F.9 card, terminology row, Name Card, or reusable package only when a named receiving pattern independently needs that artifact. Packaging describes an already tested relation and separate use claim; it establishes neither.
 10. **Structure and gates are conditional.** Apply E.18 crossing checks only when a selected transformation-flow structure and exact `GateCrossing` are current. Apply A.21 only when a named gate decision is current. Each pattern supplies its own result; neither a structure nor a gate makes F.9 obtain, and C.22 requires no crossing or gate package otherwise.
-11. **QD fields (when QD is in scope).** A TaskSignature for an active QD search is complete only when it carries CHR-typed **CharacteristicSpaceRef** (d>=2), **ArchiveConfig** (topology, resolution, K, `InsertionPolicyRef`, `DistanceDefRef.edition`) and **EmitterPolicyRef**; every characteristic declares its **ReferencePlane**. `PortfolioMode=Archive` or a set-valued selector outcome alone activates none of these fields.
+11. **QD fields (when QD is in scope).** A TaskSignature for an active QD search is complete only when it carries CHR-typed **CharacteristicSpaceRef** (d>=2), the separate **characteristicSpaceDescriptionRef** to its exact defining episteme, **ArchiveConfig** (topology, resolution, K, `InsertionPolicyRef`, `DistanceDefRef.edition`) and **EmitterPolicyRef**; every characteristic declares its **ReferencePlane**. `PortfolioMode=Archive` or a set-valued selector outcome alone activates none of these fields.
 12. **DominanceRegime default.** `DominanceRegime` defaults to `ParetoOnly`. Illumination enters dominance only through a cited **CAL.Acceptance policy** enabling that relation; the SCR records the policy id.
-13. **Telemetry (when used).** The active telemetry record carries **PathSliceId** when an E.18 path slice is current, the applicable decay and refresh policy ids, and the editions of the space, distance and emitter definitions on which that telemetry depends. An illumination increase is traceable to its governing policy id. Ordinary evidence retention does not require an illumination record.
+13. **Telemetry (when used).** The active telemetry record carries **PathSliceId** when an E.18 path slice is current, the applicable decay and refresh policy ids, and the exact space-description episteme and the editions of the distance and emitter definitions on which that telemetry depends. An illumination increase is traceable to its governing policy id. Ordinary evidence retention does not require an illumination record.
 14. **GeneratorIntent (when OEE is in scope).** A TaskSignature supports the claimed OEE generator-family use only when `GeneratorIntent` cites **`EnvironmentValidityRegion`** and **`TransferRulesRef`** with ids resolvable in G.5 and C.23. Any downstream abstention is their result, not a C.22 output.
 15. **Budgets.** When `Budgeting` is live, its evaluation, time, and batch values carry declared units and the applicable E/E-LOG exploration-budget id.
 16. **Archive-comparison support.** The TaskSignature supplies the measurement and comparison basis required by the claimed comparison. When that comparison uses distance or novelty, its distance definition and novelty measures must be CSLC-admissible and editioned, including `DistanceDefRef.edition` when used. Retaining the alternatives in an archive does not by itself require distance. The archive or selector pattern defines or constrains any downstream abstention or returned-set result.

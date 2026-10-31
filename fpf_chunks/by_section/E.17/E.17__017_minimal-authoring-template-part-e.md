@@ -6,12 +6,12 @@ section_id: "E.17:14"
 section_title: "Minimal authoring template (Part E)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__017_minimal-authoring-template-part-e.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:14 — Minimal authoring template (Part E)"
-line_start: 107613
-line_end: 107628
+line_start: 108013
+line_end: 108028
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -20,6 +20,8 @@ dependencies:
   - "A.22"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.9"
   - "A.7"
   - "B.3"
@@ -54,7 +56,7 @@ keywords:
 * **Return to source:** `<where the reader checks or reopens the source>`
 * **Stop:** `<why no additional face or apparatus changes this use>`
 
-**Add only when triggered:** exact `publicationViewpointRef` and E.17.0 conformance for a material `U.View` claim; exact `U.PublicationScope`; E.24.PUB occurrence/form/carrier identities; pins; F.9 Bridge and bounded-use claim; selected `ReferencePlane` and applicable transfer or comparison rule; provenance, evidence, gate, release, or assurance references for the concrete receiving use.
+**Add only when triggered:** exact `publicationViewpointRef` and E.17.0 conformance for a material `U.View` claim; exact `U.PublicationScope`; E.24.PUB occurrence/expression/form/carrier identities; pins; F.9 Bridge and bounded-use claim; selected `ReferencePlane` and applicable transfer or comparison rule; provenance, evidence, gate, release, or assurance references for the concrete receiving use.
 
 **Optional morphism profile:** declare `F_face` and the exact source morphism; use `Emit_s` and `PromoteFace` witnesses only for faces that claim compositional publication.
 

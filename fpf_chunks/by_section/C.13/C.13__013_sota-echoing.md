@@ -6,12 +6,12 @@ section_id: "C.13:9.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__013_sota-echoing.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:9.1 — SoTA-Echoing"
-line_start: 58144
-line_end: 58151
+line_start: 58491
+line_end: 58498
 dependencies:
   - "A.1"
   - "A.14"

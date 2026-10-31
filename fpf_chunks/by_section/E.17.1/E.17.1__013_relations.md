@@ -6,16 +6,18 @@ section_id: "E.17.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__013_relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:12 — Relations"
-line_start: 106502
-line_end: 106512
+line_start: 106902
+line_end: 106912
 dependencies:
   - "A.16.0"
   - "A.22"
   - "A.6.2-A.6.4"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.7"
   - "C.13"
   - "C.2.1"
@@ -35,10 +37,10 @@ keywords:
 
 ### E.17.1:12 - Relations
 
-- **Builds on:** `C.2.1` for library and member-episteme identity; `E.17.0` for exact P membership, reference resolution, singular use selection, and sole E/P view-membership rule; `C.13` for explicit imported collections; `A.22` for any separately selected organization; `A.6.2-A.6.4` for optional episteme-construction histories; `A.7`, `E.7`, and `E.10` for carrier, authoring, and naming discipline; `E.24.PUB` for publication; and `C.29` for representation.
+- **Builds on:** `C.2.1` for library and member-episteme identity; `E.17.0` for exact P membership, reference resolution, singular use selection, and sole E/P view-membership rule; `C.13` for explicit imported collections; `A.22` for any separately selected organization; `A.6.2-A.6.4` for optional episteme-construction histories; `A.7`, `E.7`, and `E.10` for carrier, authoring, and naming discipline; `E.24.PUB` for publication; `A.6.3.RT`/`A.6.3.RT.OE` for expression construction and representation-scheme transition; and `C.29` for mathematical-lens use.
 - **Constrains:** E.17.0 consumers whenever they import a reusable family; an import narrows eligible references but neither selects one P for a use nor proves conformance.
 - **Coordinates with:** `C.2.2a`, `A.16.0`, `E.17`, `E.17.2`, `E.18:5.12`, `F.9`, `F.9.1`, and domain-specific families requiring stable reuse.
-- **Protects:** exact separation among catalogue triple `<G_L, K_L, R_L>`, catalogue episteme L, local declaration claim block, ordinary family designator, `U.ViewpointRef`, P designator, P, candidate/View E, any A.22 structure, form, carrier, publication occurrence, and C.29 representation.
+- **Protects:** exact separation among catalogue triple `<G_L, K_L, R_L>`, catalogue episteme L, local declaration claim block, ordinary family designator, `U.ViewpointRef`, P designator, P, candidate/View E, any A.22 structure, form, carrier, publication occurrence, and their representations.
 
 #### E.17.1:12.1 - Resolvable annex references for thin bundles
 

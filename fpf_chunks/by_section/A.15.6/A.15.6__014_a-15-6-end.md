@@ -6,12 +6,12 @@ section_id: "A.15.6:End"
 section_title: "A.15.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__014_a-15-6-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:End — A.15.6:End"
-line_start: 31470
-line_end: 31471
+line_start: 31505
+line_end: 31506
 dependencies:
   - "A.1"
   - "A.1.STM"

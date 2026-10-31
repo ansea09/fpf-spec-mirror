@@ -6,12 +6,12 @@ section_id: "E.10.D2:8"
 section_title: "Neighboring use routing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__009_neighboring-use-routing.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:8 — Neighboring use routing"
-line_start: 102137
-line_end: 102203
+line_start: 102531
+line_end: 102598
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -73,24 +73,25 @@ Use E.24.PUB to distinguish these actual publication-side objects and relations:
 | selected episteme edition | carries the claim content made available | publication occurrence, form, carrier, audience access, or reliance |
 | audience-declaration episteme | states the audience criterion | that a concrete receiver obtained, read, understood, or relied on the edition |
 | bounded-use-declaration episteme | states supported operations or decisions, conditions, and excluded stronger uses | permission, acceptance, assurance, or actual work by itself |
-| publication form | expresses the selected edition for the declared publication use | episteme identity or a durable public form kind by position |
-| `U.PresentationCarrier` | physically or digitally bears the publication form | the episteme, the form, or the EntityOfConcern |
+| particular expression X | conveys the required claims of E for U | carrier identity or availability to an audience |
+| reusable publication form F | constrains eligible expressions through its rules | which particular claims an expression contains |
+| independently identified carrier C | supplies an actual state or realization from which X can be recovered | episteme identity or truth of the expressed claims |
 | publication occurrence | makes the selected edition available to the declared audience for the declared bounded use | expression, bearing, access work, reading, or reliance |
 
-The subject pattern keeps the verbs exact: `PublicationFormExpressionRelation` relates edition, form, and bounded-use declaration; `PublicationFormBearingRelation` relates form and carrier; `EpistemePublicationRelation` governs bounded availability of the selected edition through that form and carrier. Rendering, printing, uploading, indexing, or access-control work remains dated `U.Work` performed by systems. Plain “published episteme” names contingent participation in a publication occurrence, not a durable `U.EpistemePublication` kind.
+E.24.PUB defines `PublicationExpressionRelation(E,X,U)`, `PublicationExpressionBearingRelation(C,X)` and exact `EpistemePublicationRelation(E,A,U,X,C)`. A selected reusable F adds X/F conformance. Its form-mediated relations preserve their quantified uses with the same X as witness for availability. Rendering, printing, uploading, indexing or access-control Work remains separately governed. Plain “published episteme” names contingent participation in a publication occurrence.
 
-One encountered thing can enter several relations without their objects collapsing. A completed inspection card may be a claim-bearing episteme; its reusable layout may be a publication form; a sheet or file may be a carrier; and a publication occurrence may make the selected card-episteme edition available to a maintenance team for one bounded use. Each claim is recovered independently.
+For an inspection card, distinguish the organized claims that constitute E, the filled expression X, reusable layout rules F and the sheet or file C. A publication occurrence can make E available through X and C to a maintenance team for one bounded use. Recover the object needed by the question and its actual predicate.
 
 #### E.10.D2:8.4 - Representation
 
-Use C.29 when notation elements, diagram elements, tuple positions, graph nodes, table cells, schemas, or tool structures stand in an explicit representation correspondence to independently recovered objects for a declared modeling or reasoning use. A representation can change what users can inspect or calculate without becoming the represented entity, episteme, direct relation occurrence, or proof that the represented predicate obtains.
+For a representation use, recover the identified expression, its correspondence to the subject, and the interpretation and operations supported by that correspondence. A.6.3.RT and A.6.3.RT.OE explain expression construction. C.29 supplies additional grounds for mathematical inference or transfer. What can be returned to the subject follows from those operations and their conditions.
 
 A diagram therefore has distinct branches:
 
 * if its exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme satisfy C.2.1, the selected claim-bearing whole is an episteme;
 * if that same episteme conforms to an exact viewpoint, E.17.0 may admit it as a `U.View`;
-* its graphical arrangement may separately be a publication form or a C.29 representation according to the receiving use;
-* a screen, sheet, or file may bear the form as a carrier;
+* its particular signs and arrangement supply expression X; reusable rules can supply F, and representation correspondence is checked for the intended operation;
+* a screen, sheet or file can bear X under its selected carrier identity;
 * a publication occurrence may make one selected episteme edition available.
 
 No branch follows from visual appearance, generation history, a heading, or a repository path.

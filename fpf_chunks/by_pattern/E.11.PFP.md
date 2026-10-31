@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.PFP.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
-line_start: 103947
-line_end: 104317
+line_start: 104342
+line_end: 104712
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -64,12 +64,12 @@ The opposite repair is also harmful. A rigid carrier template can put authorship
 | Whole and direct use | Readers need the language's shared problem, organization, reasons, and limits, while a direct question may be answered by one pattern. |
 | Product boundary | Support units may belong to one framework product; independently useful adjacent products need a truthful boundary and public return. |
 | Deterministic checking | Syntax checks should be reproducible, but they must not infer table purpose, product truth, or reader value from prose. |
-| Form and carrier separation | One form may be borne by several carriers, and one outer carrier may expose several products, without merging their identities. |
+| Form and carrier separation | Expressions following one reusable form may be borne by several carriers, and one outer carrier may expose several products, without merging their identities. |
 | Accessibility and translation | Predictable headings and navigation aid many readers and tools, while one English label set cannot silently stand in for every language or access need. |
 
 ### E.11.PFP:4 - Solution
 
-Apply one common reader-facing publication form to one FPF, DPF, or LPF edition. The profile is the reusable rule for that form. It is not the form itself, the presentation carrier that bears the form, the edition expressed by it, or the publication occurrence that makes the edition available.
+Apply common reader-facing publication-form rules to construct or inspect a particular expression of one FPF, DPF, or LPF edition. This profile states requirements for the selected reusable rules and their realization in the expression. Keep the expression, its reusable form, the independently identified presentation carrier whose actual state yields it, the expressed edition, and the publication occurrence distinct under E.24.PUB.
 
 #### E.11.PFP:4.1 - Preserve the compact product opening
 
@@ -318,7 +318,7 @@ Check what the reader can reconstruct from the publication. Can the reader expla
 | Lens | Likely drift | Repair |
 | --- | --- | --- |
 | Gov | A visible status or form pass is read as acceptance, authority, release, or currentness. | Keep those claims under their own decisions and relations; the form only exposes selected public cues. |
-| Arch | A file, website, or combined package is treated as the product or edition, or every nearby result is forced into the framework form. | Name edition, publication form, carrier, occurrence, support unit, and adjacent product separately; apply this profile only to framework constituents. |
+| Arch | A file, website, or combined package is treated as the product or edition, or every nearby result is forced into the framework form. | Name edition, particular expression, reusable publication form, carrier, occurrence, support unit, and adjacent product separately; apply this profile only to framework constituents. |
 | Epist (Epistemological and Ontological) | A date, filename, digest, or editable front block becomes edition identity or evidence that a relation obtains. | Use one stable public designation and edition-record return; project only exact facts from their own records. |
 | Prag | Administrative completeness displaces the reader's first question, or an optional cue appears without changing use. | Put the smallest useful edition cue first, then the ToC and practical entries; require a named reader decision for every extra front cue. |
 | Did | Predictable labels become rigid English-only machinery, terse navigation hides the patterns needed to act, examples read as a coverage catalogue, or compactness deletes a choice-changing distinction. | Keep recognizable headings, the five-field ordinary form and six-field card form, the entry guidance and unmatched-question return in §4.3, one product-language burden measure with mantra/card maxima, useful detail, and direct-pattern return; test translations, low-tool carriers, navigation, and mnemonic recall with intended readers. |
@@ -327,7 +327,7 @@ Check what the reader can reconstruct from the publication. Can the reader expla
 
 | Check | Passing condition |
 | --- | --- |
-| CC-PFP.1 Scope truthful | The form expresses one named FPF, DPF, or LPF edition; no carrier or adjacent product is relabelled as that edition. |
+| CC-PFP.1 Scope truthful | The particular expression follows the selected publication-form rules and expresses one named FPF, DPF, or LPF edition; no carrier or adjacent product is relabelled as that edition. |
 | CC-PFP.2 Practitioner-first opening | The compact product-declared opening leads directly to the ToC; the common profile has not inserted a record or completeness block ahead of the reader's question. |
 | CC-PFP.3 Edition return works when needed | When exact edition return changes use or reliance, the shortest public designation and locator resolve without repository knowledge; otherwise no unused return field is mandatory. |
 | CC-PFP.4 Extra cues earn their place | Every cue before the ToC is projected from its exact record and changes a named reader decision or action; no common optional field is required merely for completeness. |

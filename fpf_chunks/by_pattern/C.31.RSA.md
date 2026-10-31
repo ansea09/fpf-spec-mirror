@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.31.RSA.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
-line_start: 75087
-line_end: 75469
+line_start: 75475
+line_end: 75857
 dependencies:
   - "A.10"
   - "A.19"
@@ -111,7 +111,7 @@ C.31.RSA governs reusable-structure accounting as a typed description over decla
 ```text
 ReusableStructureAccountingDescription@Context:
   accountingBasisRef:
-  structureRefs: FinSet(U.StructureRef)
+  structureRefs: FinSet(SelectedStructureReference)
   structuralAspectRefs: FinSet(StructuralAspectDescriptionRef)
   reusableStructureSlots:
   bespokeResidueSlots:

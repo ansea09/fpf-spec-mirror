@@ -6,12 +6,12 @@ section_id: "C.17:2"
 section_title: "Keep the evaluation objects distinct"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__004_keep-the-evaluation-objects-distinct.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:2 — Keep the evaluation objects distinct"
-line_start: 60228
-line_end: 60262
+line_start: 60607
+line_end: 60629
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -73,19 +73,7 @@ keywords:
 
 Changing a space slot, corpus membership or inclusion rule, model claims or training basis, objective, criterion, constraint, Scale meaning, scope, or window reopens only the coordinate claims that depend on that change and any aggregate conclusion that uses them.
 
-#### C.17:2.1 - Retired predecessor heads
+#### C.17:2.1 - Preserve earlier results
 
-The following names no longer introduce root kinds:
-
-| Retired head | Use instead |
-| --- | --- |
-| `U.CreativitySpace` | the selected A.19 CharacteristicSpace, locally called `CreativityCharacteristicSpace` when a short name helps |
-| `U.CreativityProfile` | the optional local `CreativityProfile` payload, with any representation, publication form, or record identified separately |
-| `U.ReferenceBase` | the finite corpus or reference set and, when needed, its source-selection episteme |
-| `U.SimilarityKernel` | the Method used plus its model, encoder, distance definition, calibration, and limits |
-| `U.GenerativePrior` | the model episteme and its separate training basis |
-| `U.CreativeOutcome` | the bearer under its existing kind |
-| `U.CreativeEvaluation` | the separately recoverable configuration, coordinate claims, aggregate result, optional payload and record, and any actual assessment Work |
-
-Earlier results remain historical epistemes under their original editions. Relate an earlier and later result as editions only when both results and the continuity claim are recoverable; do not retype an old result merely because the current ontology is clearer.
+Preserve an earlier result under its original edition and evaluation basis. Relate an earlier and a later result as editions only when both results and the continuity claim are recoverable.
 

@@ -6,12 +6,12 @@ section_id: "A.15.8:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__012_relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:11 — Relations"
-line_start: 31890
-line_end: 31897
+line_start: 31925
+line_end: 31932
 dependencies:
   - "A.1"
   - "A.10"

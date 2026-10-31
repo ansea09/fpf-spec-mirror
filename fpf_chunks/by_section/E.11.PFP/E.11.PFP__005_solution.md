@@ -6,12 +6,12 @@ section_id: "E.11.PFP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:4 — Solution"
-line_start: 103983
-line_end: 104049
+line_start: 104378
+line_end: 104444
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -34,7 +34,7 @@ keywords:
 
 ### E.11.PFP:4 - Solution
 
-Apply one common reader-facing publication form to one FPF, DPF, or LPF edition. The profile is the reusable rule for that form. It is not the form itself, the presentation carrier that bears the form, the edition expressed by it, or the publication occurrence that makes the edition available.
+Apply common reader-facing publication-form rules to construct or inspect a particular expression of one FPF, DPF, or LPF edition. This profile states requirements for the selected reusable rules and their realization in the expression. Keep the expression, its reusable form, the independently identified presentation carrier whose actual state yields it, the expressed edition, and the publication occurrence distinct under E.24.PUB.
 
 #### E.11.PFP:4.1 - Preserve the compact product opening
 

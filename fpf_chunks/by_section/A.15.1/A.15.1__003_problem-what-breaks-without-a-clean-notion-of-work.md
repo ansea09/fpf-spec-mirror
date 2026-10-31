@@ -6,12 +6,12 @@ section_id: "A.15.1:2"
 section_title: "Problem (what breaks without a clean notion of Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__003_problem-what-breaks-without-a-clean-notion-of-work.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:2 — Problem (what breaks without a clean notion of Work)"
-line_start: 29127
-line_end: 29134
+line_start: 29162
+line_end: 29169
 dependencies:
   - "A.1"
   - "A.10"
@@ -39,7 +39,6 @@ dependencies:
   - "F.6"
   - "U.Method"
   - "U.MethodDescription"
-  - "U.ReferenceScheme"
   - "U.WorkPlan"
 keywords:
   - "A.13-qualified actual performer U.System"

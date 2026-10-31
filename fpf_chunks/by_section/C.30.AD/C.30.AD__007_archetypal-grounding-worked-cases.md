@@ -6,12 +6,12 @@ section_id: "C.30.AD:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__007_archetypal-grounding-worked-cases.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:5 — Archetypal Grounding (Worked Cases)"
-line_start: 72006
-line_end: 72027
+line_start: 72382
+line_end: 72403
 dependencies:
   - "A.1"
   - "A.10"
@@ -78,7 +78,7 @@ keywords:
 
 | Case | C.30.AD treatment |
 | --- | --- |
-| "The architecture is documented in this view set." | Treat the set as a package of separately identified architecture-description epistemes only if each has an exact claim graph, one EntityOfConcern, and effective `U.ReferenceScheme`. A member is a `U.View` only with its exact viewpoint episteme and independently obtaining E.17.0 conformance relation. The set is not the architecture, relation occurrence, or selected structure. |
+| "The architecture is documented in this view set." | Treat the set as a package of separately identified architecture-description epistemes only if each has an exact claim graph, one EntityOfConcern, and effective `ReferenceScheme`. A member is a `U.View` only with its exact viewpoint episteme and independently obtaining E.17.0 conformance relation. The set is not the architecture, relation occurrence, or selected structure. |
 | A transformation-flow graph expression is included in an architecture document. | Use `E.18.2` for the mathematical graph description, `E.18` for the selected flow structure, path, and crossing semantics, and `C.30.TFS-REL` when the graph is used by architecture. `C.30.AD` records the exact description and its path from the source expression into that use; add a source-return condition only if a stronger use must return to the named source or exact defining or constraining ClaimGraph. The graph expression or rendering creates no actual transformation. |
 | A model card claims deployment safety. | Use `C.30.AD` only if the card publishes or represents a description episteme about an exact architecture-side object. Use the direct domain pattern for the safety or release claim, `B.3` for a separate named safety-assurance claim, `A.10` for evidence, and `A.21` only for a named gate decision. |
 | A generated code-agent relation graph shows modules and calls. | Treat the graph as a generated representation or source publication. Recover observed, inferred, and unknown relations; use `C.30.ASV` or `C.30.TFS-REL` only when an exact architecture structural view or flow relation is being used. Generation and display alone establish neither relation occurrence nor view membership; observed relations still need the facts and predicate that identify them. |

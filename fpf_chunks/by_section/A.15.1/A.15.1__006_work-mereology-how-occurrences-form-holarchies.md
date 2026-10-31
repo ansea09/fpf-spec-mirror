@@ -6,12 +6,12 @@ section_id: "A.15.1:5"
 section_title: "Work mereology (how occurrences form holarchies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__006_work-mereology-how-occurrences-form-holarchies.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:5 — Work mereology (how occurrences form holarchies)"
-line_start: 29294
-line_end: 29377
+line_start: 29329
+line_end: 29412
 dependencies:
   - "A.1"
   - "A.10"
@@ -39,7 +39,6 @@ dependencies:
   - "F.6"
   - "U.Method"
   - "U.MethodDescription"
-  - "U.ReferenceScheme"
   - "U.WorkPlan"
 keywords:
   - "A.13-qualified actual performer U.System"
@@ -64,7 +63,7 @@ Work identity is occurrence-grounded and 4D. Start from the actual performance h
 * **Temporal-part (`TemporalPartOf_work`).** Both participants are independently admitted Work individuals. The first is a proper temporal sub-occurrence of the second under the §4.1a predicate, with its own exact extent and performed content. Use it when a later resource, evidence, KPI, acceptance, repair, or aggregation claim needs that Work part as an individual. A bare interval, telemetry window, or evidence slice stays a C.27.TA temporal aspect or its direct domain object; it is not the first participant of `TemporalPartOf_work`.
 * **Episode-part (`EpisodeOf_work`).** Both participants are independently admitted Work individuals. The first is an event-bounded performed sub-occurrence of the second under the §4.1a predicate. Entry, resumption, mode switch, switch-to-method, interruption, switch-away, completion, or a declared pause may supply candidate boundary events. Cite an exact `workContinuityPolicyRef` only when direct facts permit more than one grouping for the named use; timestamps, a policy, or an episode-looking label alone establish no episode relation.
 
-`workContinuityPolicyRef` designates the C.2.1 episteme stating the named use, boundary events, tolerated variation and branch criterion. Interpret it under its effective `U.ReferenceScheme`. Add claim scope, qualification window or model-use structure only when it changes the segmentation assertion. The policy supports classification of the existing history for that use; another policy can support a competing assertion. Apply §4.1's edition rule: unestablished continuity remains unresolved, rather than becoming a negative continuity claim. A policy is a `U.MethodDescription` only after A.3.2 admission.
+`workContinuityPolicyRef` designates the C.2.1 episteme stating the named use, boundary events, tolerated variation and branch criterion. Interpret it under its effective reference scheme. Add claim scope, qualification window or model-use structure only when it changes the segmentation assertion. The policy supports classification of the existing history for that use; another policy can support a competing assertion. Apply §4.1's edition rule: unestablished continuity remains unresolved, rather than becoming a negative continuity claim. A policy is a `U.MethodDescription` only after A.3.2 admission.
 
 * **Operational-part (`OperationalPartOf_work`).** A **work-part occurrence** that may enact a factor of a recovered `U.Method`, for example, an incision occurrence within an appendectomy occurrence, possibly **overlapping** with others in time. If a method-description reference is used, it identifies, describes, constrains, or evidences that method factor; the referenced `U.MethodDescription` is not enacted. If no `U.Method` factor is recovered, keep the material as the work part, evidence segment, telemetry segment, mechanism material, system-component behavior, or missing-source-relation note that was actually identified; do not infer a method factor from its label.
 * **Concurrent work parts (derived use-side reading; no fourth parthood relation).** First state each exact work-part relation to the same parent. Then use C.27.TA to state the exact temporal-overlap predicate, reference, intervals, and use. If a claim also says that the parts were coordinated, name its declared coordination predicate and actual participants. Shared parentage and overlap do not by themselves establish coordination, and `ConcurrentPartOf_work` is not introduced as a primitive work-part relation.

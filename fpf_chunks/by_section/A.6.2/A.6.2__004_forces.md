@@ -6,12 +6,12 @@ section_id: "A.6.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__004_forces.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:3 — Forces"
-line_start: 17150
-line_end: 17166
+line_start: 17181
+line_end: 17197
 dependencies:
   - "A.6.0"
   - "A.6.1"

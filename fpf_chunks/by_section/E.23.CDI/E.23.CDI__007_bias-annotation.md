@@ -6,12 +6,12 @@ section_id: "E.23.CDI:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23.CDI/E.23.CDI__007_bias-annotation.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.23.CDI — Developing Capability for a Named Work Family"
   - "E.23.CDI:6 — Bias-Annotation"
-line_start: 115034
-line_end: 115045
+line_start: 115543
+line_end: 115554
 dependencies:
   - "A.15.1"
   - "A.2.2"

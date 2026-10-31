@@ -6,12 +6,12 @@ section_id: "B.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__005_forces.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:3 — Forces"
-line_start: 43332
-line_end: 43341
+line_start: 43423
+line_end: 43432
 dependencies:
   - "A.1"
   - "A.10"

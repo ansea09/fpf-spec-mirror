@@ -6,12 +6,12 @@ section_id: "F.12:9"
 section_title: "Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__010_micro-examples.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:9 — Micro-examples"
-line_start: 122084
-line_end: 122101
+line_start: 122668
+line_end: 122685
 dependencies:
   - "A.10"
   - "A.15.1"

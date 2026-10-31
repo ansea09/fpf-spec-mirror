@@ -6,12 +6,12 @@ section_id: "E.18:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__014_rationale.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:11 — Rationale"
-line_start: 110355
-line_end: 110365
+line_start: 110838
+line_end: 110848
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -41,10 +41,10 @@ keywords:
 
 E.18 states **strict separation of concerns** (selected-structure scope only); **the patterns named below supply the definitions and tests for those current relations**:
 
-* **What the selected structure is:** structure-positioned transformation and slot-filler loci plus the single relation kind `U.Transfer`; graph, morphism, tuple, category, or algebra language is used only when a current mathematical description or lens expresses the relation.
+* **What the selected structure is:** one A.22 selection O/R/C/F, with independently identified participants and obtaining relations resolved through Pos_S/beta and Conn_S/rho. Graph, morphism, tuple, category and algebra descriptions express this subject only for the mathematical use at hand.
 * **Where and when structural state changes:** only at one `OperationalGate(profile)`, with exact source and receiving positions, changed `CtxState` bindings, a per-binding account for each change, and `CrossingRef`. GateDecision and any permission claim remain separate; an F.9 Bridge, bounded-use claim, reliance, optional card, and optional `CL` appear only for a separately established cross-semantic use.
 * **How comparability works:** UNM is the single declaration locus for unit, plane, and transport declarations, and selectors operate **only** on normalized, edition-pinned comparators, returning sets or archives rather than totals. Edition-aware pins and archive semantics are checked through `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` for current selector or archive cases.
-* **How change propagates:** sentinel-bounded `PathSlice` refresh; editions are monotone. When the selected structure contains an exact current `LaunchGate` relation for one prospective `workEntryClaimRef`, that gate is the pre-run decision locus for that claim. Actual launch values are established only through independently obtaining direct relations or A.6.1 bindings involving a later Work occurrence and may be cited by a separate finalization witness.
+* **How change propagates:** complete actual dependency closure under 5.13, addressed through the needed PathSlices; editions are monotone. When the selected structure contains an exact current `LaunchGate` relation for one prospective `workEntryClaimRef`, that gate is the pre-run decision locus for that claim. Actual launch values are established only through independently obtaining direct relations or A.6.1 bindings involving a later Work occurrence and may be cited by a separate finalization witness.
 
 This arrangement gives checkable conditions for functorial publication on crossings and keeps inner constraint validity distinct from profile fit. A.21 can therefore aggregate mapped check results without evaluation order changing which independently established facts remain available.
 

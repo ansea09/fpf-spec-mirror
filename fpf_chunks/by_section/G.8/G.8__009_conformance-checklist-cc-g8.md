@@ -6,12 +6,12 @@ section_id: "G.8:8"
 section_title: "Conformance Checklist (CC‑G8)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__009_conformance-checklist-cc-g8.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:8 — Conformance Checklist (CC‑G8)"
-line_start: 130415
-line_end: 130456
+line_start: 131005
+line_end: 131046
 dependencies:
   - "A.10"
   - "A.21"
@@ -65,7 +65,7 @@ keywords:
 
 * **CC‑G8‑6 (QD/OEE edition discipline).**
   When QD/OEE surfaces are declared, the bundle/ledger MUST pin the relevant editions and policies (`DescriptorMapRef.edition`, `DistanceDefRef.edition`, insertion/emitter policies, and `TransferRulesRef.edition` when applicable).
-  `CharacteristicSpaceRef.edition` is **required iff** cell boundaries / de‑dup rules / parity depend on the space definition, and MUST NOT be used as a substitute for `DescriptorMapRef.edition`.
+  The exact `CharacteristicSpaceRef` and separate `characteristicSpaceDescriptionRef: U.EpistemeRef` are **required iff** cell boundaries / de‑dup rules / parity depend on the space definition. Resolve the pair under A.19:5.1.1.1; neither substitutes for `DescriptorMapRef.edition`.
 
 * **CC‑G8‑7 (Maturity is ordinal/poset).**
   Maturity ladders SHALL be authored as ordinal/poset descriptions with **closed** rung ids (`MaturityRungs`, UTS‑registered) and a declared `ReferencePlane`, and SHALL be published as a citable UTS artefact (editioned; twin‑register safe).

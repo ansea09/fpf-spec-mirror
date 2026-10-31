@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:End"
 section_title: "A.6.RSIR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__015_a-6-rsir-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:End — A.6.RSIR:End"
-line_start: 21786
-line_end: 21787
+line_start: 21819
+line_end: 21820
 dependencies:
   - "A.10"
   - "A.15"

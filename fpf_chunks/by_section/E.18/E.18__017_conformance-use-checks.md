@@ -6,12 +6,12 @@ section_id: "E.18:15"
 section_title: "Conformance Use Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__017_conformance-use-checks.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:15 — Conformance Use Checks"
-line_start: 110417
-line_end: 110430
+line_start: 110900
+line_end: 110913
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -41,7 +41,7 @@ keywords:
 
 Choose tests from the current use, then apply the selected profile to those tests. The full CC-E18 table is available for combined or high-assurance uses; it is not an instruction to run every row for every selected structure.
 
-1. **Ordinary selected-structure check:** verify the selected structure, independently grounded locus values, one internal `U.Transfer` relation kind, and only the current position, path, path slice, or valuation. The cooling-loop first-use slice can close here when it asserts no crossing, launch, publication, comparison or selection, cycle or refresh, or assurance branch; missing faces, `LaunchGate`, selector, `DecisionLog`, and SquareLaw are then not defects.
+1. **Ordinary selected-structure check:** verify the selected structure, independently grounded locus values, selected obtaining relations with complete position resolution, and only the current position, path, path slice, or valuation. An ordinary first use can close here when it asserts no crossing, launch, publication, comparison or selection, cycle or refresh, or assurance branch; missing faces, `LaunchGate`, selector, `DecisionLog`, and SquareLaw are then not defects.
 2. **Crossing or launch check, when current:** for a `GateCrossing`, apply its crossing and gate rows, including the exact positions and changed-binding account; add launch rows only for a current `LaunchGate` or work-entry claim. Do not infer a Work occurrence from either gate.
 3. **Publication or assurance check, when current:** for a published face, apply the MVPK, pin, and no-new-claim rows. Inspect `DecisionLog`, evidence-lane, replay, or SquareLaw material only when the current decision, crossing, publication, or named downstream reliance needs it.
 4. **Comparison, selection, cycle, or refresh check, when current:** apply comparator and set-return tests to a current comparison or selection; apply budget, sentinel, edition, and slice-local replay tests to a current cycle or refresh. Hold editions fixed only for a replay claim, and test an edition bump only for a current refresh use.

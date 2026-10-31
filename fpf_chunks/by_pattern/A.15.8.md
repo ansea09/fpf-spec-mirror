@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.8.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
-line_start: 31677
-line_end: 31903
+line_start: 31712
+line_end: 31938
 dependencies:
   - "A.1"
   - "A.10"
@@ -135,7 +135,7 @@ When a current or later use needs an identified account, reuse a sufficient epis
 - An actual-branch account selects the exact `U.Work` occurrence as its one truthful EntityOfConcern.
 - A prospective-branch account selects the exact present `U.WorkPlan` as its one truthful EntityOfConcern. Its ClaimGraph may designate the declaration-local intended-performance content but does not turn that designator into an entity.
 - The ClaimGraph may also designate independently governed actual or intended performers, supports, state bearers, exact relation claims, and the direct governor's result. It may record the ordinary A.6.RCD blocker `factually unsupported`, `missing-information`, or `missing-governor` only under that pattern's three-way split; these phrases are not new kinds or relation values. Probe observations, uncertainty, and the repair or stop remain separate claim content.
-- The effective `U.ReferenceScheme` always supplies the designation and interpretation rules needed by those claims and adds only the measurement, comparison, or evaluation rules actually used. Any actual measurement, comparison, or evaluation occurrence remains under its direct pattern.
+- The effective reference scheme always supplies the designation and interpretation rules needed by those claims and adds only the measurement, comparison, or evaluation rules actually used. Any actual measurement, comparison, or evaluation occurrence remains under its direct pattern.
 - If one focus cannot truthfully carry the combined claims, keep claims local or use several epistemes. Do not invent a plural focus.
 
 The account describes the configuration or WorkPlan; it is distinct from its focus and carrier. Its content may supply evidence under A.10, while the presence of an account alone establishes no described relation or future performance.

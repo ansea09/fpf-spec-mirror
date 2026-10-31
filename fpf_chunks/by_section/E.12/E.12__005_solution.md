@@ -6,12 +6,12 @@ section_id: "E.12:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:4 — Solution"
-line_start: 104610
-line_end: 104647
+line_start: 105005
+line_end: 105042
 dependencies:
   - "C.11.DUA"
   - "E.13"
@@ -37,7 +37,7 @@ The primary purpose of the FPF is to enhance the cognitive capabilities (qualifi
 
 #### E.12:4.2 - Mechanism 1: The Rationale Mandate
 
-Every key assurance episteme or publication (such as a `U.AssuranceCase` or `Proof`) **MUST** contain a human-readable **`rationale`** component.
+Every key assurance episteme or publication, such as an assurance case or proof publication, **MUST** contain a human-readable **`rationale`** component. Use B.3:4.2 to develop and inspect the assurance case's argument for the stated use; the rationale explains its practical and cognitive benefit.
 
 *   **Nature:** The `rationale` is a narrative explanation of the cognitive benefit.
 *   **Content:** It **MUST** answer the question: *"How does achieving this level of formal assurance tangibly help the agent better understand the problem or make a more reliable decision?"*

@@ -6,12 +6,12 @@ section_id: "C.20:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__009_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:7 — Conformance Checklist"
-line_start: 62052
-line_end: 62072
+line_start: 62423
+line_end: 62443
 dependencies:
   - "A.1"
   - "A.14"
@@ -67,6 +67,6 @@ keywords:
 | `CC-C20-12` | A field, scheme, cell, or plane difference alone creates no F.9 Bridge. A use that relies on an obtaining Bridge separates it from its bounded-use proposition, direction, rule, tolerance, polarity, A.10 reliance or actual named B.3 assurance branch, observed loss when relevant, and actual comparison; a ReferencePlane-only crossing instead cites the applicable plane relation and policy. |
 | `CC-C20-13` | Comparison declares characteristic, scale, unit, polarity, comparator, scope, window, and admissible operation under C.16/A.19.CPM; C.20 performs no comparison and defines no reliability fold. |
 | `CC-C20-14` | A health value, state label, evidence profile, registry row, description edition, publication occurrence, form, or carrier changes no discipline construction fact by itself. |
-| `CC-C20-15` | Any C.13 trace names the already grounded candidate, exact parts, direct occurrences, assembly, identity rule, and whole characteristic; `Gamma_m.sum` or historical `Gamma_disc` syntax creates none of them. |
+| `CC-C20-15` | Any C.13 trace names the already grounded candidate, exact parts, direct occurrences, assembly, identity rule, and whole characteristic; `Gamma_m.sum` syntax creates none of them. |
 | `CC-C20-16` | Core prose and labels follow E.10 and remain notation- and tool-neutral; a didactic discipline column carries no hidden semantics. |
 

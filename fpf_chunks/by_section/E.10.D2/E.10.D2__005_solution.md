@@ -6,12 +6,12 @@ section_id: "E.10.D2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:4 — Solution"
-line_start: 102038
-line_end: 102092
+line_start: 102440
+line_end: 102486
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -39,7 +39,7 @@ keywords:
 For the current passage or artifact:
 
 1. **Name the receiving use.** State the exact work, decision, inquiry, comparison, preservation, teaching, publication, or other use and what it needs next.
-2. **Recover the episteme constitution.** Identify the exact `U.ClaimGraph`, exact EntityOfConcern, and effective `U.ReferenceScheme`; test whether `EpistemeConstitutionRelation` obtains under C.2.1.
+2. **Recover the episteme constitution.** Identify the exact claim content G, exact EntityOfConcern, and effective `ReferenceScheme`; test whether `EpistemeConstitutionRelation` obtains under C.2.1.
 3. **Classify the expression or use.** Decide whether the current object is the claim-bearing description episteme, a specification use of it, an assertion about another object, a publication form, a carrier, or a representation. Do not infer the answer from a suffix or medium.
 4. **Open only a needed neighbor.** Add empirical grounding, viewpoint, view, claim scope, model-use structure, evidence, edition, specification evaluation, publication, form, carrier, currentness, or representation only when the named receiving use depends on its direct relation.
 5. **Stop at the smallest sufficient result.** Do not produce a universal description card. A readable sentence naming the receiving use, the recovered episteme, its EntityOfConcern, and the one needed neighboring relation is normally enough.
@@ -60,7 +60,7 @@ A ClaimGraph may designate several other entities as participants in relational,
 
 ##### E.10.D2:4.1.2 - Description episteme
 
-A description episteme is an ordinary `U.Episteme` whose exact `U.ClaimGraph` contains descriptive claims about its exact EntityOfConcern under its effective `U.ReferenceScheme`. Its identity is the C.2.1 constitution triple; E.10.D2 adds no `subjectRef`, description slot, `isDescriptionOf` relation, context constituent, or peer description ontology.
+In “revise the description,” the word description can designate the same `U.Episteme` E identified under C.2.1: its claim content G states claims about its EntityOfConcern T under its effective ReferenceScheme R. The word description supplies no additional kind or identity criterion. Where the action concerns selected claims, wording, layout or describing work, recover that actual object instead. C.2.1:4.0.5 and :6 explain these readings and the specification-use boundary.
 
 Descriptive claims may assign designations, characterize the entity, state criteria, or describe structure or behavior. A diagram may express those claims under the effective scheme and separately serve a representation use under §8.4. Their expression does not by itself establish parts or properties of the EntityOfConcern; recover those subject-side facts under their direct patterns.
 
@@ -68,16 +68,8 @@ For one named describing use, state the exact viewpoint P it selects when that s
 
 ##### E.10.D2:4.1.3 - Specification-use admission
 
-Use a `...Spec` name only when the receiving use depends on specification force and all applicable conditions are recoverable:
+Use a `...Spec` name only when the receiving use depends on specification force and satisfies the applicable conditions in C.2.1:6. That section supplies the exact episteme, checkable claims, checking means and reliance-relevant viewpoint conditions. When those conditions are absent, use description for the account and present proposed criteria as proposals. A suffix alone supplies no specification force.
 
-1. the exact description episteme and its C.2.1 constitution;
-2. checkable claims, invariants, criteria, or acceptance conditions in its ClaimGraph;
-3. a named harness, validation, conformance, measurement, or evaluation relation capable of checking those claims for the stated use;
-4. when viewpoint selection affects reliance, the named describing use and its exact selected viewpoint are preserved or explicitly updated.
-
-Declared formality, notation discipline, comparators, tolerances, and measurement rules are named when the claims depend on them. They do not substitute for the checkable claims or the harness. If the conditions are absent, call the episteme a description and present proposed criteria as proposals; a `Spec` suffix, schema, signature, approval, or publication does not supply specification force.
-
-Specification use does not create another episteme identity. A revision that changes ClaimGraph, EntityOfConcern, or effective ReferenceScheme identifies another episteme under C.2.1; a changed harness, evaluation result, publication, or relying use changes its own neighboring object or relation.
 
 ##### E.10.D2:4.1.4 - Model-use structure
 

@@ -6,12 +6,12 @@ section_id: "A.15.1:8"
 section_title: "Conformance Checklist (admission checks)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__010_conformance-checklist-admission-checks.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:8 — Conformance Checklist (admission checks)"
-line_start: 29498
-line_end: 29588
+line_start: 29533
+line_end: 29623
 dependencies:
   - "A.1"
   - "A.10"
@@ -39,7 +39,6 @@ dependencies:
   - "F.6"
   - "U.Method"
   - "U.MethodDescription"
-  - "U.ReferenceScheme"
   - "U.WorkPlan"
 keywords:
   - "A.13-qualified actual performer U.System"
@@ -66,7 +65,7 @@ A conforming world-side Work account starts with one exact dated candidate actio
 A conforming assertion or description about one Work occurrence designates a world-side individual with a closed temporal extent `[t_start, t_end]`, or an explicitly open end while the occurrence is in flight. The episteme states or designates that extent and, where relevant, location or asset; neither an interval field nor the presence of the record creates the occurrence.
 
 **CC-A15.1-4 (Interpretation and policy basis).**
-A load-bearing work claim names direct occurrence facts first. It cites `workContinuityPolicyRef`, its effective `U.ReferenceScheme`, and applicable scope or qualification window only when a named identity, episode, retry, resumption, or aggregation use must resolve an ambiguous segmentation. Any selected method-description episteme, aggregation-policy episteme, selected model-use structure, acceptance criterion, evaluation work, result episteme, and evidence use remains a neighboring claim rather than a work-identity field.
+A load-bearing work claim names direct occurrence facts first. It cites `workContinuityPolicyRef`, its effective reference scheme, and applicable scope or qualification window only when a named identity, episode, retry, resumption, or aggregation use must resolve an ambiguous segmentation. Any selected method-description episteme, aggregation-policy episteme, selected model-use structure, acceptance criterion, evaluation work, result episteme, and evidence use remains a neighboring claim rather than a work-identity field.
 
 If two local senses must be related, F.9 receives two exact `SchemeSenseCell` endpoints and one `BridgePredicateProfile`; a Bridge is positive only when that profile's predicate obtains. State the proposed comparison, substitution, translation, or publication separately in a C.2.1 bounded-use claim, with its action, direction, correspondence rule, and tolerated loss. State reliance through the applicable A.10 account of independently established evidence-use relations or the B.3 assurance result. A different reference scheme, system-role assignment, selected description episteme, or model-use structure alone establishes none of these facts.
 **CC-A15.1-4b (No mandatory state-plane or delta).**

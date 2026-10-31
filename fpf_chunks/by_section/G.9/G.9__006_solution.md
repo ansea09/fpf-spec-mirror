@@ -6,12 +6,12 @@ section_id: "G.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__006_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:4 — Solution"
-line_start: 130577
-line_end: 130942
+line_start: 131167
+line_end: 131532
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -390,7 +390,7 @@ The following blocks store **wiring only** (pins/refs/policy‑ids, relevant tri
 * **RequiredPins/EditionPins/PolicyPins (minimum; conditional on use):**
   * `DescriptorMapRef.edition`
   * `DistanceDefRef.edition`
-  * `CharacteristicSpaceRef.edition?` *(when discretisation/topology is referenced)*
+  * `CharacteristicSpaceRef` with separate `characteristicSpaceDescriptionRef: U.EpistemeRef` *(when discretisation/topology is referenced; resolve the same-space pair under A.19:5.1.1.1)*
   * `EmitterPolicyRef`
   * `InsertionPolicyRef`
 * **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.TelemetryDelta}`

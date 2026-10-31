@@ -6,12 +6,12 @@ section_id: "F.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__006_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:4 — Solution"
-line_start: 120234
-line_end: 120409
+line_start: 120818
+line_end: 120993
 dependencies:
   - "A.11"
   - "A.15"
@@ -109,7 +109,7 @@ Use this order and stop at the first disposition that supports the proposed use 
 
 1. **Recover the four starting facts.** Name the expression, governed value or relation, its subject pattern, and the proposed use. If the value or relation is not available, stop and use its subject-recovery route; F.8 cannot establish it.
 2. **Split mixed candidates.** If one expression covers more than one governed subject or use—for example, a kind, assignment, evidence use, policy, Method, or Work—make separate naming decisions.
-3. **State the naming locality.** Carry the naming `U.ReferenceScheme` by value and state the local-sense claim. Cite a `SchemeSenseCell`, an obtaining `LocalSenseBasisRelation`, or a selected bounded-model-use Structure only when the naming use needs that object.
+3. **State the naming locality.** Supply the naming reference scheme's designation and interpretation rules by value, and state the local-sense claim. Cite a `SchemeSenseCell`, an obtaining `LocalSenseBasisRelation`, or a selected bounded-model-use Structure only when the naming use needs that object.
 4. **Apply F.14 and try a local phrase.** If ordinary local wording supports the use, choose `localPhraseOnly` and stop.
 5. **Try an existing designation.** Reuse it only when the value, kind, scope, occurrence identity, local sense, and proposed use match.
 6. **Try an alias.** Use `aliasOnly` when the governed meaning is unchanged and lineage can expose the wording variation. An alias may not change kind, scope, occurrence identity, use, or authority.
@@ -167,7 +167,7 @@ Keep these objects distinct in the accountable branch:
 
 - the governed value or relation and its subject pattern;
 - the candidate expression, selected designation, and any alias;
-- the effective naming `U.ReferenceScheme`, local-sense claim, optional `SchemeSenseCell`, and any obtaining two-participant `LocalSenseBasisRelation`;
+- the effective naming reference scheme, local-sense claim, optional `SchemeSenseCell`, and any obtaining two-participant `LocalSenseBasisRelation`;
 - the decision or choice occurrence and the pattern that admits it;
 - any C.2.1 decision-result episteme and the record or carrier that designates it;
 - any F.18 NameCard, F.17 row, policy specification, policy identifier, publication occurrence, form, or carrier; and
@@ -191,7 +191,7 @@ MintReuseDecisionResultEpisteme:
   GovernedKindOrRelationKindRef:
   GovernedValueSubjectPatternLocator:
   ProposedNamingUse:
-  EffectiveNamingReferenceScheme: [U.ReferenceScheme carried by value]
+  EffectiveNamingReferenceScheme: [EpistemeInterpretationScheme (C.2.1:4.1.2), carried by value; rules for this naming use]
   LocalSenseClaim:
   LocalSenseCellRef?: [only when a current SchemeSenseCell is needed]
   LocalSenseBasisRelationRef?: [only when the basis-episteme-to-cell support relation obtains]

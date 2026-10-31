@@ -6,12 +6,12 @@ section_id: "E.10.D2:10"
 section_title: "Anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__011_anti-patterns-and-repairs.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:10 — Anti-patterns and repairs"
-line_start: 102214
-line_end: 102228
+line_start: 102609
+line_end: 102623
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -43,7 +43,7 @@ keywords:
 | **Spec by name** | Any detailed, approved, or formal-looking write-up is called `...Spec`. | Use `...Description` until the named receiving use, checkable claims, and an exact harness or validation relation are recoverable. Add an exact selected viewpoint only when it changes what that use reads or checks or what a relying use may conclude; otherwise omit it. |
 | **Context as identity** | A project, viewpoint selection, or model-use setting is copied into episteme identity. | Keep the C.2.1 identity triple fixed; state only the exact use qualification or neighboring relation the receiver needs. |
 | **Describing-use erasure** | A description is read as globally viewpoint-free, or a prior use's selected viewpoint is silently reused. | Name the current receiving use and its exact selected viewpoint when that selection affects the reading; changing the selection alone does not reidentify the episteme. |
-| **View by appearance or construction** | A generated table, diagram, query result, or published face is called a `U.View`. | Apply E.17.0 conformance for view membership; use A.6.3 only for actual source-to-receiving construction and E.24.PUB/C.29 for form or representation uses. |
+| **View by appearance or construction** | A generated table, diagram, query result, or published face is called a `U.View`. | Apply E.17.0 conformance for view membership; use A.6.3 for actual source-to-receiving construction, E.24.PUB for publication, and A.6.3.RT/A.6.3.RT.OE for expression construction and correspondence; add C.29 when the use needs a mathematical lens. |
 | **Publication as authority** | Availability, an approval mark, card, dashboard, or file is treated as permission, evidence, assurance, gate result, decision, or work. | Recover the exact publication occurrence, then apply the direct governor for the stronger claim. |
 | **Carrier identity** | A file path, screen, sheet, or repository entry is treated as the episteme or EntityOfConcern. | Identify the exact carrier and bearing relation while keeping form, publication occurrence, episteme, and EntityOfConcern separate. |
 | **Status-state leakage** | Evidence, requirement, approval, or standard status becomes an assignment-state relation or runtime value. | Keep status claims on their exact epistemic or deontic subject; use A.2.5 only for one exact `U.SystemRoleAssignment` satisfying one `SystemRoleAssignmentStatePredicate`. |

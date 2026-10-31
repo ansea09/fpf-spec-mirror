@@ -6,12 +6,12 @@ section_id: "B.1.6:5"
 section_title: "Aggregation Rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__008_aggregation-rules.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:5 — Aggregation Rules"
-line_start: 43171
-line_end: 43202
+line_start: 43262
+line_end: 43293
 dependencies:
   - "A.1"
   - "A.10"

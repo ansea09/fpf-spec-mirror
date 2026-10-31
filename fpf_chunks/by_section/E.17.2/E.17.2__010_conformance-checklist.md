@@ -6,12 +6,12 @@ section_id: "E.17.2:9"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__010_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:9 — Conformance checklist"
-line_start: 107030
-line_end: 107046
+line_start: 107430
+line_end: 107446
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -42,7 +42,7 @@ keywords:
 9. Every procedural failure or recovery claim has an exact operational subject and admitted Method, state-transition, or transformation-flow basis. A safety-analysis episteme or A.10 evidence path appears only for a safety-bearing claim or named reliance. Within that branch, use B.3 only when an actual named assurance claim for that use is current. Procedural views remain distinct from MethodDescriptions and Work; allocation-responsibility views keep the local system-role kind, any four-input C.3.2 classification judgment, optional extension, assignment, performer System, and responsibility relation distinct; module-interface views remain distinct from direct module relations or functional views.
 10. DDD Context Mapping remains a `U.Method`; a product called Context Map is a separately identified episteme and becomes a View only through exact E/P conformance.
 11. Every cross-view relation names its exact predicate, participants, obtaining test, and applicable pattern; a diagram edge, correspondence label, citation, shared holon, or common template is insufficient.
-12. Form expression, carrier bearing, five-participant publication and recurrence, rendering work, C.29 representation, and any publication-side viewpoint remain distinct and make no represented world-side relation obtain.
+12. Form expression, carrier bearing, five-participant publication and recurrence, rendering work, mathematical representation under C.29, and any publication-side viewpoint remain distinct and make no represented world-side relation obtain.
 13. Cross-project reuse is claimed only for the same resolved L, declaration, and exact member references. Equal TEVB position labels or independently filled templates establish no shared family.
 14. Later ordinary reuse resolves the admitted L and declaration, then one needed P, and stops after the readable conformance judgment unless a named receiving work needs more structure. It reopens full catalogue constitution only under the E.17.1:4.2 triggers.
 

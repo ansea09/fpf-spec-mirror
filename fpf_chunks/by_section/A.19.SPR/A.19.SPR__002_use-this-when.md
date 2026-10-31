@@ -6,12 +6,12 @@ section_id: "A.19.SPR:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__002_use-this-when.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:0 — Use this when"
-line_start: 35212
-line_end: 35236
+line_start: 35272
+line_end: 35296
 dependencies:
   - "A.10"
   - "A.16"

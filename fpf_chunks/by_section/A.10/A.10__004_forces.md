@@ -6,12 +6,12 @@ section_id: "A.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__004_forces.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:3 — Forces"
-line_start: 26684
-line_end: 26692
+line_start: 26719
+line_end: 26727
 dependencies:
   - "A.10"
   - "A.13"

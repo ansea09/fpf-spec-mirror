@@ -6,12 +6,12 @@ section_id: "A.6.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__012_sota-echoing.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:11 — SoTA-Echoing"
-line_start: 23947
-line_end: 23968
+line_start: 23982
+line_end: 24003
 dependencies:
   - "A.10"
   - "A.14"
@@ -36,7 +36,6 @@ dependencies:
   - "F.18"
   - "F.9"
   - "U.KindBridge"
-  - "U.Transfer"
 keywords:
 ---
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.2.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
-line_start: 54992
-line_end: 55229
+line_start: 55339
+line_end: 55576
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -89,7 +89,7 @@ Author a reusable `KindSignature` only when a named receiving use needs the crit
 - the candidate `ValueKind` or exact value interpretation admitted as input;
 - the membership condition in terms of directly governed candidate qualities, relations, constructive grounding, epistemes, registrations, certifications, publications, legal statuses, or other exact conditions;
 - the exact `U.ContextSlice` applicability in which the evaluation may be formed;
-- the effective `U.ReferenceScheme`;
+- the effective reference scheme: designation and interpretation rules for reading that declaration;
 - named assumptions, dependencies, standards, versions, units, and temporal policy;
 - the expression properties needed for its intended use under C.2.3; and
 - an optional `ExtentRule` for a named extension-consuming use.

@@ -6,12 +6,12 @@ section_id: "E.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__001_intro.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:intro — Intro"
-line_start: 107049
-line_end: 107093
+line_start: 107449
+line_end: 107493
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -20,6 +20,8 @@ dependencies:
   - "A.22"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.9"
   - "A.7"
   - "B.3"
@@ -83,7 +85,7 @@ At the first screen, keep only the current source, named reader/use, minimum use
 
 > **Tech-name:** `MultiViewPublicationKit` (**MVPK**)
 
-> **General publication-face form:** In E.17, `MVPK face` refers by default to the publication form. The selected source episteme, any separately constructed receiving episteme, the bounded-use declaration, the publication occurrence, and the carrier remain different objects and are named explicitly whenever one of them is meant. A face is not a U-kind and does not become a `U.View`, evidence, assurance, gate decision, work occurrence, authority, or release permission by its label or readability. Source-edition, viewpoint, scope, occurrence, form, carrier, pin, or downstream-record identities are stated when they change the receiving use.
+> **General publication-face form:** In E.17, `MVPK face` refers by default to the reusable publication-form rules F. A constructed face expression X follows those rules and supplies particular content; name X when identifying what was rendered, compared or made available. The selected source episteme, any separately constructed receiving episteme, the bounded-use declaration, the publication occurrence and the carrier remain different objects and are named explicitly whenever one of them is meant. A face is not a U-kind and does not become a `U.View`, evidence, assurance, gate decision, work occurrence, authority, or release permission by its label or readability. Source-edition, viewpoint, scope, occurrence, form, carrier, pin, or downstream-record identities are stated when they change the receiving use.
 > **USM binding (overview):** when publication-scope identity must travel, `U.PublicationScope` under A.2.6 carries that bound; an ordinary bounded-use line can precede that exact record. See §5.0.
-> **Episteme-side view position.** MVPK can publish an already recognized `U.View`, or it can publish another selected episteme without claiming view membership. When `U.View` membership is material, E.17.0 tests that same episteme against the exact `U.Viewpoint` episteme resolved from `publicationViewpointRef`; `PublicationVPId` is the viewpoint episteme's designator, not the reference. A.6.3 construction, E.17.0 conformance, E.24.PUB publication occurrence/form/carrier, and C.29 representation remain separate relations.
+> **Episteme-side view position.** MVPK can publish an already recognized `U.View`, or it can publish another selected episteme without claiming view membership. When `U.View` membership is material, E.17.0 tests that same episteme against the exact `U.Viewpoint` episteme resolved from `publicationViewpointRef`; `PublicationVPId` is the viewpoint episteme's designator, not the reference. A.6.3 construction, E.17.0 conformance, E.24.PUB publication occurrence/expression/form/carrier, and C.29 mathematical representation remain separate relations.
 

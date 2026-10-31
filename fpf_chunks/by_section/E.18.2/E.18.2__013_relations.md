@@ -6,12 +6,12 @@ section_id: "E.18.2:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__013_relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:10 — Relations"
-line_start: 111240
-line_end: 111250
+line_start: 111729
+line_end: 111739
 dependencies:
   - "A.10"
   - "A.15"
@@ -38,7 +38,7 @@ keywords:
 
 ### E.18.2:10 - Relations
 
-- Apply E.18's one-TFS identity, allowed-locus, selection-constraint, and local-value rules to select one `TransformationFlowStructure` and identify the flow valuation, path, slice, crossing, transfer annotations, and refresh locality used by the claim.
+- Apply E.18's one-TFS identity, position-resolution, selection-constraint, and local-value rules to select one `TransformationFlowStructure` and identify the flow valuation, path, slice, crossing, resolved connection annotations, and actual dependent refresh used by the claim.
 - Apply E.18.NET's membership, boundary, and cross-member relation requirements to select one network of independently identified TFS or nested-network members and identify its obtaining cross-member relation occurrences.
 - Apply A.3.4 to identify an actual bounded `U.Transformation`, its changed referent, boundary, facts, and continuity or reidentification rule.
 - Apply C.29 to evaluate mathematical-lens use and retain its returned adequacy, preserved/lost structure, payoff, obstruction, or stop result when that claim is current.

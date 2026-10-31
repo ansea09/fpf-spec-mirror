@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__005_forces.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:3 — Forces"
-line_start: 39161
-line_end: 39182
+line_start: 39236
+line_end: 39257
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"

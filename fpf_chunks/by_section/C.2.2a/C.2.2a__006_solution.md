@@ -6,12 +6,12 @@ section_id: "C.2.2a:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__006_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:4 — Solution"
-line_start: 52480
-line_end: 52560
+line_start: 52825
+line_end: 52905
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -110,7 +110,7 @@ A conforming account shall not infer:
 Where operationally meaningful thresholds exist, they must be published on the relevant slots rather than being disguised as informal `F` sublevels.
 
 #### C.2.2a:4.7 - Position versus publication form
-A position claim states facet readings about the identified episteme. Witnesses provide grounds for those readings; a selected publication form, including an MVPK face, expresses the claim; a carrier bears that form. Changing the form or carrier does not by itself change a facet reading. Any later publication qualified under an endpoint subject pattern still needs that pattern's conditions.
+A position claim states facet readings about the identified episteme. Witnesses provide grounds for those readings; a particular expression expresses the claim for the bounded use and may follow a selected reusable publication form, including an MVPK face. An independently identified carrier actually bears that same expression under E.24.PUB. Changing the expression, form, or carrier does not by itself change a facet reading. Any later publication qualified under an endpoint subject pattern still needs that pattern's conditions.
 
 #### C.2.2a:4.8 - Threshold publication discipline
 If a threshold is used to justify a move or endpoint entry, that threshold shall be stated on explicit basis slots in the chart. Statements such as `this is now ready`, `this has matured`, or `this is still too early` are non-conformant when they substitute for undeclared slot conditions.

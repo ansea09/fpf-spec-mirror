@@ -6,12 +6,12 @@ section_id: "F.4:14"
 section_title: "Didactic Memory"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__016_didactic-memory.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:14 — Didactic Memory"
-line_start: 119272
-line_end: 119275
+line_start: 119856
+line_end: 119859
 dependencies:
   - "A.15"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "C.2.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__001_intro.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:intro — Intro"
-line_start: 54079
-line_end: 54084
+line_start: 54424
+line_end: 54429
 dependencies:
   - "A.17"
   - "A.18"

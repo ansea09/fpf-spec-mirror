@@ -6,12 +6,12 @@ section_id: "E.8.ML:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__007_bias-annotation.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:6 — Bias-Annotation"
-line_start: 97447
-line_end: 97452
+line_start: 97847
+line_end: 97852
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"

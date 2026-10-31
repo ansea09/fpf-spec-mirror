@@ -6,12 +6,12 @@ section_id: "A.19.CHR:End"
 section_title: "A.19.CHR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__014_a-19-chr-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
   - "A.19.CHR:End — A.19.CHR:End"
-line_start: 37364
-line_end: 37365
+line_start: 37427
+line_end: 37428
 dependencies:
   - "A.15.2"
   - "A.15.3"

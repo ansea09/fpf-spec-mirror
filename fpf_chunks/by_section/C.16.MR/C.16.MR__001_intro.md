@@ -6,12 +6,12 @@ section_id: "C.16.MR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.MR/C.16.MR__001_intro.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.16.MR — Construct a Measurement Relation"
   - "C.16.MR:intro — Intro"
-line_start: 58520
-line_end: 58525
+line_start: 58899
+line_end: 58904
 dependencies:
   - "A.3.3"
   - "B.5.FM"

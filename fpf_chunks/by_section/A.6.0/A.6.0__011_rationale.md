@@ -6,12 +6,12 @@ section_id: "A.6.0:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__011_rationale.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:10 — Rationale"
-line_start: 16541
-line_end: 16550
+line_start: 16572
+line_end: 16581
 dependencies:
   - "A.15.1"
   - "A.17"

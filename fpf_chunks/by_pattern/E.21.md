@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.21.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
-line_start: 113350
-line_end: 113956
+line_start: 113839
+line_end: 114445
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -217,7 +217,7 @@ An unfinished table, prose summary, or record with missing coordinate claims rem
 | 4 | `wellExpressedForDeclaredUse` | It is clear, evidenced, and bounded for the declared scope. |
 | 5 | `exceptionallyExpressedForDeclaredUse` | It is exceptional for the declared use across reinforcing loci and cases, without hidden cost or neighbour loss. |
 
-Values are ordinal content evaluations. They are not `U.Measure`s, averages, percentages, maturity-ladder steps, review votes, or landing status.
+Values are ordinal content evaluations. They are not C.16 measurement results, averages, percentages, maturity-ladder steps, review votes, or landing status.
 
 The result-bearing coordinate row has exactly this shape:
 

@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:4"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__007_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:4 — Conformance Checklist"
-line_start: 72328
-line_end: 72342
+line_start: 72704
+line_end: 72718
 dependencies:
   - "A.1"
   - "A.10"

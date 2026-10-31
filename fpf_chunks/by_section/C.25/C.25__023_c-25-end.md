@@ -6,12 +6,12 @@ section_id: "C.25:End"
 section_title: "C.25:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__023_c-25-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:End — C.25:End"
-line_start: 64943
-line_end: 64944
+line_start: 65314
+line_end: 65315
 dependencies:
   - "A.10"
   - "A.15"

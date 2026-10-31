@@ -6,12 +6,12 @@ section_id: "G.8:5"
 section_title: "Extensions (pattern‑scoped; non‑core)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__006_extensions-pattern-scoped-non-core.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:5 — Extensions (pattern‑scoped; non‑core)"
-line_start: 130284
-line_end: 130399
+line_start: 130874
+line_end: 130989
 dependencies:
   - "A.10"
   - "A.21"
@@ -115,7 +115,7 @@ keywords:
 * `DistanceDefRef.edition`
 * `EmitterPolicyRef`
 * `InsertionPolicyRef`
-* `CharacteristicSpaceRef.edition?` *(required iff cell boundaries / de‑dup / parity depend on the space definition)*
+* `CharacteristicSpaceRef` with separate `characteristicSpaceDescriptionRef: U.EpistemeRef` *(required iff cell boundaries / de‑dup / parity depend on the space definition; resolve the pair under A.19:5.1.1.1)*
 
 **RSCRTriggerKindIds:** `{RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.PolicyPinChange}`
 **Notes (wiring‑only):**

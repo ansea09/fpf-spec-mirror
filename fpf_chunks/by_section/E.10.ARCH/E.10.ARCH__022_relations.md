@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__022_relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:14 — Relations"
-line_start: 101577
-line_end: 101603
+line_start: 101979
+line_end: 102005
 dependencies:
   - "A.10"
   - "A.15.1"

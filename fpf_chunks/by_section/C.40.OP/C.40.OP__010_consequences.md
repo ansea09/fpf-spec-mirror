@@ -6,12 +6,12 @@ section_id: "C.40.OP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__010_consequences.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:9 — Consequences"
-line_start: 87621
-line_end: 87626
+line_start: 88009
+line_end: 88014
 dependencies:
   - "A.15.9"
   - "C.11.CRC"

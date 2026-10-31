@@ -6,12 +6,12 @@ section_id: "B.5.RR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__001_intro.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:intro — Intro"
-line_start: 48133
-line_end: 48138
+line_start: 48232
+line_end: 48237
 dependencies:
   - "B.5"
   - "B.5.MPC.R"

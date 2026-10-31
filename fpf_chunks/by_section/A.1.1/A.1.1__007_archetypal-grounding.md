@@ -6,12 +6,12 @@ section_id: "A.1.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__007_archetypal-grounding.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:5 — Archetypal Grounding"
-line_start: 3405
-line_end: 3469
+line_start: 3408
+line_end: 3472
 dependencies:
   - "A.1"
   - "A.14"
@@ -49,7 +49,7 @@ Section 0 gives the entry case. The following detail develops the relation ident
 4. **Fixed-content coherence decision.** `ControllerImplementsControlModelPredicate` is an admitted local predicate value. Its ordered inputs are the fixed claim contents of `PressControlModel-5` and `PressControllerCode-17`; it returns true exactly when the code expresses every controller-command and feedback distinction required by the model, and false when a required distinction is missing. Both epistemes have `PlantControlReferenceScheme` as their C.2.1 effective scheme, so the relation-side comparison scheme is that same value and no Bridge is inferred. The predicate returns true for these participants, so their participant-determined `ModelExpressionCoherenceRelation` occurrence obtains before any selected maintenance episode.
 5. **Maintenance and change stay separate.**
    - **Work:** `Engineer-4 : U.System` performs `ControllerCoherenceWork-22 : U.Work` under `ControllerEngineerAssignment-7`. First recover Engineer-4's A.13 core for this action, including the same obtaining assignment; A.15.1 then independently admits the dated Work from its performance history, enacted `ControllerAlignmentMethod-2`, extent, and containing-System relation. Because this case explicitly attributes performance under `ControllerEngineerAssignment-7`, F.6 afterward relates that already admitted Work to the assignment. The assignment obtains, names Engineer-4 as holder, and covers the Work.
-   - **Transformation and later episteme:** A.3.4 independently identifies `PressControllerCodeCarrierChange-24 : U.Transformation` as the bounded change of continuing `PressControllerCodeCarrier-6 : U.PresentationCarrier`, using the exact edit boundary, before-and-after code-expression facts, and the carrier-continuity rule. Changed claim content identifies later episteme `PressControllerCode-18` under C.2.1.
+   - **Transformation and later episteme:** A.3.4 independently identifies `PressControllerCodeCarrierChange-24 : U.Transformation` as the bounded change of continuing digital entity `PressControllerCodeCarrier-6 : U.Entity`, using the exact edit boundary, before-and-after code-expression facts, and the carrier-continuity rule. Changed claim content identifies later episteme `PressControllerCode-18` under C.2.1.
    - **Stop:** No current FPF relation says that `ControllerCoherenceWork-22` caused or realized `PressControllerCodeCarrierChange-24`, so return `missing work-to-change governor`; temporal overlap and a shared code referent do not supply it. A.15.PROD remains closed for a claim that the Work first constituted `PressControllerCode-18` until its exact entity-inception basis, including that missing link, is governed.
 6. **Evaluation and result stay separate.**
    - **Evaluation Work:** `Evaluator-2 : U.System` performs `CoherenceEvaluationWork-23 : U.Work` under `CoherenceEvaluatorAssignment-5`. First recover Evaluator-2's A.13 core for this action, including the same obtaining assignment; A.15.1 then independently admits the dated Work from its performance history, enacted `CoherenceEvaluationMethod-4`, extent, and containing-System relation. Because this case explicitly attributes performance under `CoherenceEvaluatorAssignment-5`, F.6 afterward relates that already admitted Work to the assignment. The assignment obtains, names Evaluator-2 as holder, and covers the Work. State any needed operation application through its A.6.1 binding.

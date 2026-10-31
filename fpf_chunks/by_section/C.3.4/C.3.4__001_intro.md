@@ -6,12 +6,12 @@ section_id: "C.3.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__001_intro.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:intro — Intro"
-line_start: 55426
-line_end: 55434
+line_start: 55773
+line_end: 55781
 dependencies:
   - "A.2.6"
   - "C.2.1"

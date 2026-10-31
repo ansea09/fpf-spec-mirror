@@ -6,12 +6,12 @@ section_id: "G.7:11"
 section_title: "SoTA-Echoing — calibrate a correspondence for its receiving use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__012_sota-echoing-calibrate-a-correspondence-for-its-receiving-use.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:11 — SoTA-Echoing — calibrate a correspondence for its receiving use"
-line_start: 130027
-line_end: 130038
+line_start: 130616
+line_end: 130627
 dependencies:
   - "A.21"
   - "B.3"

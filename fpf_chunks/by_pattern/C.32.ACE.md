@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.ACE.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
-line_start: 77390
-line_end: 77604
+line_start: 77778
+line_end: 77992
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -164,7 +164,7 @@ Work in this order:
 1. Reference the evaluated ACS criteria set, evaluated rows, and any Q-Bundle slots.
 2. State the eval purpose: current characterization, candidate comparison, portfolio-frontier work, post-change impact measurement, monitoring, or trigger for the next synthesis pass.
 3. Name the candidates, bearers, and selected structures being evaluated.
-4. Establish one exact `U.ClaimScope`, the relevant A.2.6 `U.ContextSlice` membership, effective `U.ReferenceScheme` and reference plane, evaluation window, input projections, resource budget, units (when required by the scale), admissible observation or evidence inputs, and missing-or-unknown policy. When the intended inference relies on parity, establish the required comparable conditions and use `parityFrameRef` if a record is useful. The frame does not replace the underlying bindings.
+4. Establish one exact `U.ClaimScope`, the relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and reference plane, evaluation window, input projections, resource budget, units (when required by the scale), admissible observation or evidence inputs, and missing-or-unknown policy. When the intended inference relies on parity, establish the required comparable conditions and use `parityFrameRef` if a record is useful. The frame does not replace the underlying bindings.
 5. Choose eval scope: one criterion, coupled criteria, one Q-Bundle slice, a candidate portfolio, or a holistic use slice.
 6. Choose eval operations. Use measurement, simulation, benchmark, scenario walkthrough, monitor, review, or evidence audit according to the claim. Use `test` only when the intended operation checks an expectation or hard constraint. When a particular actual evaluation Work occurrence is claimed, recover each evaluator's A.13 core and let A.15.1 independently admit the occurrence from its history, Method actually followed, extent and containing-System relation. Add `evaluationWorkAttributionRefs` only when the record or receiving use expressly represents precise assignment-bound attribution. Add an operation-application relation only when that claim is needed and its predicate obtains. Establish the typed result separately; the program record itself does not run.
 7. Declare the result form. Examples include a reading, band, rank, dominance relation, trade-off front, qualitative state, or evidence finding; use the definition and test for the actual result kind.

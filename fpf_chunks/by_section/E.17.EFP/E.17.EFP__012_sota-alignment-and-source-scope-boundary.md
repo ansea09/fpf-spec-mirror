@@ -6,12 +6,12 @@ section_id: "E.17.EFP:11"
 section_title: "SoTA Alignment and Source-Scope Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__012_sota-alignment-and-source-scope-boundary.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:11 — SoTA Alignment and Source-Scope Boundary"
-line_start: 108154
-line_end: 108174
+line_start: 108554
+line_end: 108574
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,7 +44,7 @@ keywords:
 
 | Claim need | Exact source and actual scope | Local use | Boundary or rejected transfer |
 |---|---|---|---|
-| Keep claim-bearing episteme, source-to-target relation, publication form, and carrier distinct. | Current FPF `C.2.1`, `A.6.3`, and `E.24.PUB`. | Identify claims, exact concern and effective scheme, then test expression sufficiency for the declared use before EFP classification. | This is current internal ontology, not a conclusion imported from an architecture-description standard. |
+| Keep claim-bearing episteme, source-to-target relation, particular expression, reusable publication form, and carrier distinct. | Current FPF `C.2.1`, `A.6.3`, and `E.24.PUB`. | Identify claims, exact concern and effective scheme, then test expression sufficiency for the declared use before EFP classification. | This is current internal ontology, not a conclusion imported from an architecture-description standard. |
 | Explanations of AI-system results are purpose- and recipient-sensitive and must state knowledge limits. | Phillips et al. (2021), *Four Principles of Explainable Artificial Intelligence*, NISTIR 8312, DOI `10.6028/NIST.IR.8312`; government-guidance lineage. | Adapt bounded reader use and explicit limits when an AI explanation is current. | Do not generalize this XAI guidance into mandatory fields or classes for every technical explanation, and do not present it as the whole current research line. |
 | Plausibility and faithfulness of model interpretations are different evaluation questions. | Jacovi & Goldberg (2020), *Towards Faithfully Interpretable NLP Systems*, ACL DOI `10.18653/v1/2020.acl-main.386`; research lineage. | For NLP/model interpretation, do not infer faithfulness from persuasive prose. | The paper studies interpretable NLP systems, not ordinary human engineering exposition; later work further distinguishes self-consistency and intervention-based evaluation. |
 | Output-level consistency tests for LLM explanations are not automatically tests of faithfulness to model internals. | Parcalabescu & Frank (2024), *On Measuring Faithfulness or Self-consistency of Natural Language Explanations*, ACL DOI `10.18653/v1/2024.acl-long.329`; later repair of an overclaim in the evaluation line. | Name the actual check as self-consistency when that is what it measures. | Apply only to generated/LLM explanation use; do not require it for human-authored notes. |

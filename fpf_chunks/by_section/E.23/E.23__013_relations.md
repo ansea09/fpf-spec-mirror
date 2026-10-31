@@ -6,12 +6,12 @@ section_id: "E.23:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__013_relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:12 — Relations"
-line_start: 114871
-line_end: 114904
+line_start: 115379
+line_end: 115413
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -61,4 +61,5 @@ keywords:
 | `E.10`, `E.10.ROLE`, `A.3.1`, `A.3.2`, `A.6.P`, `C.2.P`, `F.18`, `F.19` | Repair load-bearing wording and names introduced by loop records. `E.10.ROLE` resolves ambiguous source *role* before any system-role-kind, assignment, participant, or non-system use is asserted. A.3.1 supplies the Method admission test; A.3.2 supplies the membership test for a qualifying `U.MethodDescription`. Selected pattern content otherwise defines, constrains, tests, or guides without becoming the Method or its description. |
 | `E.23.CAE` | Supplies the separate observation-and-disposition probe when apparent capability loss or failed transfer leaves the object to improve ambiguous. It returns candidate routes, not an improvement-object choice or loop decision. |
 | `E.23.CDI` | Describes the separate Method for developing one admitted holder System's capability for a named Work family and checking transfer in representative Work after development is separately selected. E.23 routes to it but does not absorb its action sequence; member distributions and cultural propagation keep their own results. |
+| `C.43`, `Library.Reference:6.5` | Explain how a compact cycle connects observation, choice, action and learning, what its realization requires, and which changed relationship calls for a different method or arrangement. Use this comparison when family selection depends on those conditions; E.23 retains object-quality improvement and its evaluation discipline. |
 

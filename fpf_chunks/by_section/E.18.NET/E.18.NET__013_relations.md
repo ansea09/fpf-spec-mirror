@@ -6,12 +6,12 @@ section_id: "E.18.NET:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__013_relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:12 — Relations"
-line_start: 112130
-line_end: 112137
+line_start: 112619
+line_end: 112626
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -34,13 +34,12 @@ dependencies:
   - "E.18.2"
   - "E.18.3"
   - "F.18"
-  - "U.Transfer"
 keywords:
 ---
 
 ### E.18.NET:12 - Relations
 
-Builds on: `A.22` for selected-structure identity and non-agentivity; `E.18` for one TFS, internal `U.Transfer`, `FlowPositionRef`, valuations, paths, slices, and local state; `A.6.REL`, `A.6.RCD`, and `A.6.P.WMR` for exact relation recovery and `missing-governor`; `C.2.1` for the optional descriptive record; and `F.18` for the stable local name.
+Builds on: `A.22` for selected-structure identity and non-agentivity; `E.18` for one TFS, its selected internal relations and resolved connection positions, `FlowPositionRef`, valuations, paths, slices, and local state; `A.6.REL`, `A.6.RCD`, and `A.6.P.WMR` for exact relation recovery and `missing-governor`; `C.2.1` for the optional descriptive record; and `F.18` for the stable local name.
 
 Coordinates with: `A.15.6` for actual project Work, project system-of-interest designation, and subject- or claim-centred case closure; `A.1.STM` for a Plain provisional long-mantra display and backward/forward attention use; `E.18.2` and `C.29` for mathematical descriptions; `A.22.CGUS` and `E.18.3` for admitted demonstrative slices; `C.30.TFS-REL` for architecture use; `C.32.CONWAY` for one qualified architecture-influence pair; `A.3.4`, `A.12`, and the A.15 family for actual transformation, causal or acting positions, Work, production, and work-to-change claims; `E.17` for publication; `E.11` for public entry and recognition; and `E.11.PUA` for using one already selected pattern to reach its first useful result.
 

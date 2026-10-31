@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__006_archetypal-grounding.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:5 — Archetypal Grounding"
-line_start: 20946
-line_end: 21058
+line_start: 20979
+line_end: 21091
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -141,7 +141,7 @@ When only the content-basis question is current, A.6.RCD:4.5a's `derivedUsingRul
 
 Now remove the dependency information needed to bound the source change. Continued viewing use becomes unresolved too; absence of a visible edit cannot establish unaffectedness. Recover the affected dependencies or widen the recheck. This is a repeatable application of the qualification rule to a new situation. Claiming additionally that maintenance Work kept a condition true throughout an interval would require that Work's own predicate and interval facts. The useful preservation of an applicable result does not supply that further attribution.
 
-**Keep availability and transfer at their own scope.** `DraftFile_31` is a separately identified form-bearing entity, not DraftEpisteme_31. File inception and episteme inception are separate A.15.PROD questions. Rendering work or changed bits alone settles neither. When publication is current, exact occurrence `PUB-31` obtains under E.24.PUB while its five fixed participants—the selected episteme edition, audience declaration, bounded-use declaration, exact publication form and presentation carrier—satisfy its availability predicate. Together with the maximal continuous availability interval, they identify the occurrence. E.17 governs the multi-view face or form instead. The declaration-local phrase `selected episteme edition` creates no edition continuity.
+**Keep availability and transfer at their own scope.** `DraftFile_31` is a separately identified physical or digital entity whose actual state yields the selected expression, not DraftEpisteme_31. File inception and episteme inception are separate A.15.PROD questions. Rendering work or changed bits alone settles neither. When publication is current, exact occurrence `PUB-31` obtains under E.24.PUB while its five fixed participants—the selected episteme edition, audience declaration, bounded-use declaration, independently identified expression and presentation carrier—satisfy its availability predicate. Together with the maximal continuous availability interval, they identify the occurrence. Any reusable form constrains the expression separately; broader availability can survive a changed expression or carrier under E.24.PUB:4.2.1. E.17 governs the multi-view face or form instead. The declaration-local phrase `selected episteme edition` creates no edition continuity.
 
 Established availability lets the named audience obtain that content through that form and carrier. Actual access, delivery, acceptance, transfer, reliance and review use still need their own facts. If ordinary `handed off` wording already names one exact transfer relation, apply its direct pattern and stop. A package or handoff record alone establishes neither transfer nor receiving use; examine any asserted content and supporting facts under those relations' own rules. Apply E.10.MOVE only when the wording still hides an FPF-governed move, workflow, next action or readiness claim; its recovery creates none of those occurrences or permissions.
 

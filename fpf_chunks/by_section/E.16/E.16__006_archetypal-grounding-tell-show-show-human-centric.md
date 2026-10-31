@@ -6,12 +6,12 @@ section_id: "E.16:5"
 section_title: "Archetypal grounding (Tell-Show-Show; human-centric)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__006_archetypal-grounding-tell-show-show-human-centric.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:5 — Archetypal grounding (Tell-Show-Show; human-centric)"
-line_start: 105654
-line_end: 105680
+line_start: 106049
+line_end: 106075
 dependencies:
   - "A.10"
   - "A.13"

@@ -6,12 +6,12 @@ section_id: "F.14:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__015_relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:14 — Relations"
-line_start: 122785
-line_end: 122793
+line_start: 123369
+line_end: 123377
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -54,6 +54,6 @@ keywords:
 * Use **F.8** to make one candidate's smallest mint-or-reuse disposition after the F.14 stop test.
 * **F.9** defines only an actual relation between exact local senses. Shared spelling and cell presence establish none.
 * **F.17** defines the public term-row form and its entry threshold; **F.18** defines the durable naming-settlement NameCard form; neither defines the governed value.
-* Use **C.2.1** to identify every persisted NameCard, row, or control-record episteme and its `EpistemeEditionRelation`; use **E.24.PUB** to state row publication occurrence, expression form, and carrier bearing.
+* Use **C.2.1** to identify every persisted NameCard, row, or control-record episteme and its `EpistemeEditionRelation`; use **E.24.PUB** to state row publication occurrence, particular expression, any selected reusable form and its conformance, and actual carrier bearing.
 * Use **F.10, A.10, B.3, E.10.D2, and the direct policy, access, and source patterns** for the corresponding status, evidence, assurance, description, policy, access, and source claims that often arrive with role-like suffixes.
 

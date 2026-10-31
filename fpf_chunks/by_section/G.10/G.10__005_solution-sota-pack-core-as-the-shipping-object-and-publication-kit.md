@@ -6,12 +6,12 @@ section_id: "G.10:4"
 section_title: "Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__005_solution-sota-pack-core-as-the-shipping-object-and-publication-kit.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:4 — Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
-line_start: 131117
-line_end: 131406
+line_start: 131707
+line_end: 131996
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -274,7 +274,7 @@ All method‑/generator‑/interop‑specific shipping extension declarations li
 * `EmitterPolicyRef` *(policy‑id / ref)*
 * `InsertionPolicyRef` *(policy‑id / ref)*
 * `CharacteristicSpaceRef` *(id/ref; iff archive partitioning is declared)*
-* `CharacteristicSpaceRef.edition?` *(iff partitioning depends on an editioned space definition)*
+* `characteristicSpaceDescriptionRef: U.EpistemeRef` *(iff partitioning depends on an exact space-definition episteme; resolve it with `CharacteristicSpaceRef` under A.19:5.1.1.1)*
 * `PathSliceId[]` *(to bind telemetry/refresh scope when archive behaviour is present)*
 **RSCRTriggerSetIds:** `∅` *(covered by `G.10` core linkage via `GCoreTriggerSetId.RefreshOrchestration`)*
 **Notes (shipping-pin discipline):**

@@ -6,12 +6,12 @@ section_id: "C.2.1:9"
 section_title: "Archetypal Grounding — Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__010_archetypal-grounding-worked-cases.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:9 — Archetypal Grounding — Worked Cases"
-line_start: 51403
-line_end: 51479
+line_start: 51747
+line_end: 51823
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -115,7 +115,7 @@ A readability score can improve while the diagram makes the connections needed f
 
 #### C.2.1:9.8 - Trained or probe-derived representation and tool-using inference
 
-A distributed activation pattern observed during inference is a system-side phenomenon. A trained probe or decoded rendering can represent it for a declared use under `C.29` and `A.6.3.RT`. To identify a probe report as an episteme, recover what it claims about that exact phenomenon and the interpretation scheme that gives those claims meaning. Decodability or a readable label alone leaves that identity question unanswered. Use `E.10.LRN` when *learned representation* still leaves the subject or result unclear.
+A distributed activation pattern observed during inference is a system-side phenomenon. A trained probe or decoded rendering can represent it for a declared use through an identified correspondence. `A.6.3.RT` governs a same-subject representation transition; `C.29` supplies the additional conditions when a mathematical lens is used. To identify a probe report as an episteme, recover what it claims about that exact phenomenon and the interpretation scheme that gives those claims meaning. Decodability or a readable label alone leaves that identity question unanswered. Use `E.10.LRN` when *learned representation* still leaves the subject or result unclear.
 
 For a claim about particular inference or tool-call Work, open :4.0's Work branch. If a trace participates at an exact `A.6.1` result position, state that binding. When the trace carries claims about the call, identify its episteme through those claims, that Work as subject, and the effective scheme. A question about when the trace first existed separately opens :4.9.
 

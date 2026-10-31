@@ -6,12 +6,12 @@ section_id: "G.Core:7"
 section_title: "Conformance checklist (normative) — CC‑GCORE"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__008_conformance-checklist-normative-cc-gcore.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.Core — Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G)"
   - "G.Core:7 — Conformance checklist (normative) — CC‑GCORE"
-line_start: 126175
-line_end: 126200
+line_start: 126764
+line_end: 126789
 dependencies:
   - "A.15.3"
   - "A.19"

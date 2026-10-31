@@ -6,12 +6,12 @@ section_id: "E.10.D2:16"
 section_title: "Repair moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__017_repair-moves.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:16 — Repair moves"
-line_start: 102331
-line_end: 102347
+line_start: 102726
+line_end: 102742
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -44,7 +44,7 @@ Use these repairs on live prose; retain old spellings only as quoted source-side
 4. Replace peer-layer I-D-S wording with EntityOfConcern, description episteme, and admitted specification use; specification is not a third peer kind.
 5. Replace a positive source-side `DescriptionContext` with the named describing use and the exact viewpoint it selects when that selection changes the reading. Keep selection outside episteme identity, conformance, and view membership; do not recreate the rejected tuple under another name.
 6. Replace “the role contains a characteristic space, state relation, or checklist” with a precise claim: the system-role-kind-description episteme characterizes one exact local system-role kind using claims that cite those independently governed objects or relations.
-7. Replace carrier identity with the exact publication form, `U.PresentationCarrier`, bearing relation, and publication occurrence required by the current use.
+7. Recover the particular expression, selected reusable form, independently identified carrier, bearing relation and publication occurrence that the current use needs.
 8. Replace `...Spec` names lacking checkable claims and a named harness or validation relation with `...Description`. Preserve or update the selected viewpoint only when the relying describing use depends on it.
 9. Route permission, evidence, assurance, gate, decision, promise, commitment, work, publication, view, Bridge, retargeting, currentness, and representation claims to their exact direct governors.
 10. Replace “role of this description, source, standard, evidence, or publication” with the exact typed use relation. Use one exact occurrence of a directly declared `U.SystemRoleAssignment` species only for an independently admitted `U.System` assigned to one exact local system-role kind; an acting holon is eligible only after that exact entity has independently passed `U.System` admission for the claim.

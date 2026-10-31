@@ -6,12 +6,12 @@ section_id: "G.9:7"
 section_title: "Anti‑patterns and remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__009_anti-patterns-and-remedies.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:7 — Anti‑patterns and remedies"
-line_start: 131012
-line_end: 131021
+line_start: 131602
+line_end: 131611
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -53,6 +53,6 @@ keywords:
 * **AP‑3 Comparator semantics are “whatever the code did”.** Remedy: `ComparatorSpecRef.edition` (and any normalization/comparability refs) must be cited and pinned.
 * **AP‑4 Cross-sense or reference-plane reuse without its obtaining relation and visible pins.** Remedy: recover the exact F.17 cells and cite the obtaining F.9 relation when local meanings differ; cite the exact reference-plane crossing basis and visibility records when planes differ (delegated to G.Core).
 * **AP‑5 Parity report becomes a hidden scoring sheet.** Remedy: preserve CSLC-admissible outcome shape and keep telemetry as telemetry unless explicitly policy‑promoted by the governing policy pattern.
-* **AP‑6 “Metric” as a primitive in Tech.** Remedy: name the exact `CharacteristicRef`, `ScaleRef`, `UnitRef` when applicable, `DHCMethodRef`, `MethodRef`, and `U.Measure` or result episteme; add `DistanceDefRef` only when used. “Metric” may appear only in Plain with a pointer to those canonical objects.
+* **AP‑6 “Metric” as a primitive in Tech.** Remedy: name the exact `CharacteristicRef`, `ScaleRef`, `UnitRef` when applicable, `DHCMethodRef`, `MethodRef`, and the C.16 reading content or its result episteme; add `DistanceDefRef` only when used. “Metric” may appear only in Plain with a pointer to those canonical objects.
 * **AP‑7 Hidden DHC replay drift.** Remedy: carry every active field of the C.21 replay basis and refuse parity reuse when a required field is unresolved or differs across the compared readings. Register refresh tests only for a named receiver that consumes those changes.
 

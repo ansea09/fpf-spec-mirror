@@ -6,12 +6,12 @@ section_id: "B.1.3:10"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__011_rationale-informative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:10 — Rationale (informative)"
-line_start: 41848
-line_end: 41854
+line_start: 41939
+line_end: 41945
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__003_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:1 — Problem Frame"
-line_start: 78524
-line_end: 78533
+line_start: 78912
+line_end: 78921
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"

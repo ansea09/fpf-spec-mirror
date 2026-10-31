@@ -6,12 +6,12 @@ section_id: "A.19.SPR:5"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__007_worked-examples.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:5 — Worked examples"
-line_start: 35372
-line_end: 35407
+line_start: 35432
+line_end: 35467
 dependencies:
   - "A.10"
   - "A.16"

@@ -6,12 +6,12 @@ section_id: "E.18.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__003_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:1 — Problem Frame"
-line_start: 111271
-line_end: 111274
+line_start: 111760
+line_end: 111763
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,5 +41,5 @@ keywords:
 
 ### E.18.3:1 - Problem Frame
 
-`E.18` already gives FPF a rich language for transformation-flow structure: transfers, dependencies, paths, crossings, guards, valuations, publication faces, comparability, slice-local refresh, and structure-position bindings. `A.22.CGUS` supplies the broader constraint-governed structure. E.18.3 answers the narrow question: when does that CGUS use one E.18 substrate's positions, bindings, and obtaining occurrences in its potential continuation topology? Current continuation results and neighboring stronger claims remain separately testable.
+`E.18` already gives FPF a rich language for transformation-flow structure: selected relations, dependencies, paths, crossings, guards, valuations, publication faces, comparability, complete dependent refresh, and structure-position bindings. `A.22.CGUS` supplies the broader constraint-governed structure. E.18.3 answers the narrow question: when does that CGUS use one E.18 substrate's positions, bindings, and obtaining occurrences in its potential continuation topology? Current continuation results and neighboring stronger claims remain separately testable.
 

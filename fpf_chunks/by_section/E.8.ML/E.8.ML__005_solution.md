@@ -6,12 +6,12 @@ section_id: "E.8.ML:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:4 — Solution"
-line_start: 97368
-line_end: 97422
+line_start: 97768
+line_end: 97822
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"
@@ -75,7 +75,7 @@ When the promised use includes performing or learning a Method, show its relevan
 
 Use all twelve substantive E.8 functions for the connected account: working situation, problem, forces, selected solution, grounding, bias, practical checks, recurring failure, consequences, Architectural Rationale, source comparison and relations. E.11.PFP governs where readers reach those answers. An inherited answer can be cited precisely; shared whole conditions and profile-specific consequences still need an explanation.
 
-If a language is claimed to expose more structure to its reader, use C.37.CF with [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) for that specific comparison. Select the dependencies, alternatives or stops the reader needs, and distinguish new content from a different expression of the same claims. Identify the actual preparation, help and source returns. More patterns or links do not establish more extractable structure, and a larger amount does not establish that the language is worth its reading burden. Keep the direct description or smaller language when it suffices.
+If a language is claimed to expose more structure to its reader, use C.37.CF with [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover) for that specific comparison. Select the dependencies, alternatives or stops the reader needs, and distinguish new content from a different expression of the same claims. Identify the actual preparation, help and source returns. More patterns or links do not establish more extractable structure, and a larger amount does not establish that the language is worth its reading burden. Keep the direct description or smaller language when it suffices.
 
 Distinguish relations across scales. A specialization narrows conditions while retaining the relevant general claims. A bounded-use projection selects claims for a reader. Reuse can connect several profiles. Method composition establishes actual parts. A publication group provides navigation. There is no fixed maximum number of scales, and overlap does not establish a mathematical lattice; use C.29 only for that qualified representation.
 

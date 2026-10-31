@@ -6,12 +6,12 @@ section_id: "C.32.P2S:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:1 — Problem frame"
-line_start: 76546
-line_end: 76667
+line_start: 76934
+line_end: 77055
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -159,7 +159,7 @@ ProblemToStructureArchitecturingFlowCard@Project:
   patternForNextClaim:
 ```
 
-For `ProblemToStructureArchitecturingFlowCard@Project`, `flowId` designates the exact project-local P2S architecturing transformation flow that is the card's C.2.1 EntityOfConcern. The claims carried by the filled card and the effective `U.ReferenceScheme` for its designations remain recoverable; changed claim content, changed flow EntityOfConcern, or changed effective reference scheme identifies another card episteme. `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the card is genuinely used in one actual project, `projectWorkOccurrenceRef` identifies the exact composite Work occurrence admitted under `U.Work` and `architecturingFlowCardProjectUseRelationRef` identifies the direct relation by which architecturing work uses the card. The card, the architecturing work it helps coordinate, and the larger project work remain distinct.
+For `ProblemToStructureArchitecturingFlowCard@Project`, `flowId` designates the exact project-local P2S architecturing transformation flow that is the card's C.2.1 EntityOfConcern. The claims carried by the filled card and the effective reference scheme for its designations remain recoverable; changed claim content, changed flow EntityOfConcern, or changed effective reference scheme identifies another card episteme. `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the card is genuinely used in one actual project, `projectWorkOccurrenceRef` identifies the exact composite Work occurrence admitted under `U.Work` and `architecturingFlowCardProjectUseRelationRef` identifies the direct relation by which architecturing work uses the card. The card, the architecturing work it helps coordinate, and the larger project work remain distinct.
 
 The problem, architecting-side, realization, and architecture refs point to independently established objects; they are not P2S relation kinds. `acceptedProblemCardRef` resolves to one C.22.2 C.2.1 episteme; the nested signal and pressure fields neither constitute that card nor make an actual Problem obtain. An assignment claim uses `architectingAssignmentSpeciesRef` and `architectingSystemRoleAssignmentRef` for its separately declared species and obtaining occurrence; it supplies neither classification nor performance. When performance is current, each exact performer first has its A.13 core and each `performedWorkRef` names Work independently admitted through A.15.1. `performedWorkAttributionRefs` are optional and appear only when the flow or receiving use expressly represents precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 attribution alone leaves the Work refs intact while the independent A.13/A.15.1 grounds for each referenced Work still hold. Authority, responsibility, capability, Work, assignment, attribution, and result remain separate.
 

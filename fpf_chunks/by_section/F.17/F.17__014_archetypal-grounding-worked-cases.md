@@ -6,12 +6,12 @@ section_id: "F.17:12"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__014_archetypal-grounding-worked-cases.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.17 — Make a Settled Naming Decision Recoverable for Reuse (Unified Term Sheet)"
   - "F.17:12 — Archetypal Grounding - worked cases"
-line_start: 123820
-line_end: 124505
+line_start: 124406
+line_end: 125092
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -292,14 +292,14 @@ The two existing dependent-kind designations use the following F.18 naming-settl
 
 ```text
 NameCard:
-  NameCardId: NameCard.U.Viewpoint.FPFPublic.2026-08-02
+  NameCardId: NameCard.U.Viewpoint.FPFPublic.2026-10-30
   GovernedValueRef: U.Viewpoint
   GovernedValueKindRef: U.Kind
   SubjectPatternLocator: E.17.0
   ReferenceScheme: FPFCoreReferenceScheme
-  ClaimContent: NameCard.U.Viewpoint.FPFPublic.2026-08-02.ClaimGraph — complete naming-settlement graph constituted by the claims designated below
-  LocalSenseCellRef: SenseCell.U.Viewpoint.FPFCore.2026-08-02
-  LocalSenseBasisRelationRef: LocalSenseBasisRelation.U.Viewpoint.FPFCore.2026-08-02
+  ClaimContent: NameCard.U.Viewpoint.FPFPublic.2026-10-30.ClaimGraph — complete naming-settlement graph constituted by the claims designated below
+  LocalSenseCellRef: SenseCell.U.Viewpoint.FPFCore.2026-10-30
+  LocalSenseBasisRelationRef: LocalSenseBasisRelation.U.Viewpoint.FPFCore.2026-10-30
   TechLabel: U.Viewpoint
   PlainLabel: viewpoint
   CandidateSet: U.Viewpoint; ViewpointEpisteme; ViewpointConvention; ViewpointRecord; ViewpointStructure
@@ -352,40 +352,40 @@ GovernedValueKindRef: U.Kind
 SubjectPatternLocator: E.17.0
 UnifiedTechName: U.Viewpoint
 UnifiedPlainName: viewpoint
-NameCardRef: NameCard.U.Viewpoint.FPFPublic.2026-08-02
-SenseCellRefs: SenseCell.U.Viewpoint.FPFCore.2026-08-02
+NameCardRef: NameCard.U.Viewpoint.FPFPublic.2026-10-30
+SenseCellRefs: SenseCell.U.Viewpoint.FPFCore.2026-10-30
 BridgeRefs: none; this row makes no semantic-correspondence or substitution claim
-RowRationale: the governed value is the E.17.0/E.24.UK same-individual dependent-kind token, not P, S, a reference, or a designator; an admitted member is the same exact C.2.1 episteme P whose EntityOfConcern is independently selected viewpoint-convention Structure S_viewpoint and whose fixed ClaimGraph under its effective ReferenceScheme satisfies E.17.0's complete positive membership predicate; admission result E24UK-AR-UVIEWPOINT-RG-01 remains a separate decision projection
+RowRationale: the governed value is the E.17.0/E.24.UK same-individual dependent kind. Each admitted member is an independently identified C.2.1 episteme P whose fixed ClaimGraph and effective ReferenceScheme satisfy the complete E.17.0 predicate. Its EntityOfConcern is the independently admitted target kind in the ordinary branch, or independently selected viewpoint-convention Structure S_viewpoint when that organization itself must be maintained. Admission result E24UK-AR-UVIEWPOINT-RG-01 remains a separate decision projection.
 AdmissibleUse: Core-facing designation of the dependent kind and exact typing of a reference whose resolution yields an already admitted viewpoint episteme P
 BlockedUse: no viewpoint membership, episteme identity, Structure selection, method, Work, conformance, View membership, authority, or publication from the row, name, ViewpointId, viewpointRef, NameCard, bundle position, selected S, form, or carrier
-RowEditionId: 2026-08-02
-CurrentnessCondition: reopen when E.17.0 changes P's C.2.1 discriminators, exact S EntityOfConcern, fixed target/concern/admitted-kind/conformance claims, effective ReferenceScheme, same-individual predicate, E.24.UK admission, NameCard, or typed-reference use
+RowEditionId: 2026-10-30
+CurrentnessCondition: reopen when E.17.0 changes P's C.2.1 discriminators, target-kind or conditional S EntityOfConcern, fixed target/concern/admitted-kind/conformance claims, effective ReferenceScheme, same-individual predicate, E.24.UK admission, NameCard, or typed-reference use
 Notes: retain the exact field viewpointRef : U.ViewpointRef; under the effective scheme its resolution yields P, while ViewpointId only designates P and neither operation grants membership
 
-SenseCell.U.Viewpoint.FPFCore.2026-08-02:
+SenseCell.U.Viewpoint.FPFCore.2026-10-30:
   ReferenceScheme: FPFCoreReferenceScheme
-  LocalSenseId: U.Viewpoint-core
+  LocalSenseId: U.Viewpoint-core-2026-10-30
   LocalExpression: U.Viewpoint
-  LocalSenseClaim: the same-individual dependent kind of exact C.2.1 epistemes P whose exact EntityOfConcern is independently selected viewpoint-convention Structure S_viewpoint and whose fixed claims identify S, state the exact target-kind criterion, stakeholder or audience referents when current, concerns, admitted episteme kinds, coverage, semantic-form, completeness, consistency, omission and conformance rules without circular View premises, and the describing-use frame and fixed applicability qualifiers
+  LocalSenseClaim: the same-individual dependent kind of exact C.2.1 epistemes P whose exact EntityOfConcern is the independently admitted target kind, or independently selected viewpoint-convention Structure S_viewpoint when that organization itself must be maintained, and whose fixed claims identify the selected subject and state the exact target-kind criterion, stakeholder or audience referents when current, concerns, admitted episteme kinds, coverage, semantic-form, completeness, consistency, omission and conformance rules without circular View premises, and the describing-use frame and fixed applicability qualifiers
   senseFamily: MultiViewRecognition
-  NameCardRef: NameCard.U.Viewpoint.FPFPublic.2026-08-02
-  LocalSenseBasisRelationRefs: LocalSenseBasisRelation.U.Viewpoint.FPFCore.2026-08-02
+  NameCardRef: NameCard.U.Viewpoint.FPFPublic.2026-10-30
+  LocalSenseBasisRelationRefs: LocalSenseBasisRelation.U.Viewpoint.FPFCore.2026-10-30
 
-LocalSenseBasisRelation.U.Viewpoint.FPFCore.2026-08-02:
-  localSenseCellRef: SenseCell(FPFCoreReferenceScheme, U.Viewpoint-core)
+LocalSenseBasisRelation.U.Viewpoint.FPFCore.2026-10-30:
+  localSenseCellRef: SenseCell(FPFCoreReferenceScheme, U.Viewpoint-core-2026-10-30)
   basisEpistemeRef: E.17.0
 
-LocalSenseBasisRelationDescription.U.Viewpoint.FPFCore.2026-08-02:
-  entityOfConcernRef: LocalSenseBasisRelation.U.Viewpoint.FPFCore.2026-08-02
+LocalSenseBasisRelationDescription.U.Viewpoint.FPFCore.2026-10-30:
+  entityOfConcernRef: LocalSenseBasisRelation.U.Viewpoint.FPFCore.2026-10-30
   entityOfConcernKindRef: LocalSenseBasisRelation
   basisPublicationUnitRef: E.17.0:4.2,4.6.1-4.6.4
   viewpointRef: FPFCoreReaderViewpoint
   claimGraph:
-    supportedSenseClaim: U.Viewpoint names the same P identified under C.2.1 only when P's exact S EntityOfConcern and fixed convention claims satisfy E.17.0
+    supportedSenseClaim: U.Viewpoint names the kind whose members are the same epistemes P identified under C.2.1 when the target-kind or conditional S EntityOfConcern and fixed convention claims satisfy E.17.0
     admittedUseClaim: Core-facing designation, exact U.ViewpointRef typing, and retrieval of the direct membership rule
     nonAdmittedUseClaim: the basis relation, cell, NameCard, row, identifier, reference, Structure, bundle, or publication grants no membership
   referenceScheme: FPFCoreReferenceScheme
-  editionId: 2026-08-02
+  editionId: 2026-10-30
 ```
 
 ##### F.17:12.4f.2 - `U.View`
@@ -406,7 +406,7 @@ BridgeRefs: none; this row makes no semantic-correspondence or substitution clai
 RowRationale: the governed value is the E.17.0/E.24.UK same-individual dependent-kind token, not candidate episteme E, viewpoint P, conformance occurrence, reference, form, or carrier; an admitted member is the same exact C.2.1 episteme E only when EpistemeViewpointConformanceRelation(E,P) obtains for at least one exact admitted P; one unchanged E may conform to several viewpoint editions through distinct pair-determined occurrences while remaining one episteme; admission result E24UK-AR-UVIEW-RG-01 remains a separate decision projection
 AdmissibleUse: Core-facing designation of the dependent kind and exact typing of U.ViewRef values that resolve already conforming epistemes
 BlockedUse: no View membership, episteme identity, conformance occurrence, adequacy, authority, or publication from the row, name, viewRef, NameCard, direct authoring, A.6.3 construction, query execution, transformation, evaluation, selection, bundling, rendering, audience, form, carrier, or publication
-RowEditionId: 2026-08-02
+RowEditionId: 2026-10-30
 CurrentnessCondition: reopen when E.17.0 changes candidate-episteme identity, the exact conformance predicate or pair-determined occurrence rule, same-individual membership, E.24.UK admission, NameCard, FPFCoreReferenceScheme, or typed-reference use
 Notes: construction history and publication availability remain separately governed; neither creates membership, and no second View individual wraps E
 
@@ -429,12 +429,13 @@ LocalSenseBasisRelationDescription.U.View.FPFCore.2026-08-02:
   basisPublicationUnitRef: E.17.0:4.4-4.5
   viewpointRef: FPFCoreReaderViewpoint
   claimGraph:
-    supportedSenseClaim: U.View names the same E only when exact E/P conformance obtains; it never names a generated or published wrapper
+    supportedSenseClaim: U.View names the kind whose members are the same epistemes E when exact E/P conformance obtains; membership introduces no generated or published wrapper
     admittedUseClaim: Core-facing designation, exact U.ViewRef typing, and retrieval of the direct membership rule
     nonAdmittedUseClaim: the basis relation, cell, NameCard, row, reference, construction, evaluation, form, carrier, or publication grants no membership
   referenceScheme: FPFCoreReferenceScheme
-  editionId: 2026-08-02
+  editionId: 2026-10-30
 ```
+
 
 ##### F.17:12.4f.3 - `EpistemeViewpointConformanceRelation`
 

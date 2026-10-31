@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:End"
 section_title: "A.6.3.NAR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__014_a-6-3-nar-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:End — A.6.3.NAR:End"
-line_start: 19661
-line_end: 19662
+line_start: 19694
+line_end: 19695
 dependencies:
   - "A.10"
   - "A.22.CGUS"

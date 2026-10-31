@@ -6,12 +6,12 @@ section_id: "E.17.EFP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 108130
-line_end: 108142
+line_start: 108530
+line_end: 108542
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,10 +44,10 @@ keywords:
 |---|---|---|
 | Treating every explanatory prose block as equally faithful | rendering, reconstruction, didactic work, and speculation have different review loads | first try the simpler source-linked note; when class ambiguity changes the next action, name only the applicable class, bounded/blocked use, and reopen condition |
 | Letting reader-fit stay implicit when explanation is clearly tailored | a didactic or contrastive rendering can be overinterpreted as general or policy-bearing guidance | state only the audience, interaction, question, use, or overread distinction that changes the present class or boundary; do not publish a five-field block by default |
-| Using an EFP class as a second claim or relation track | changed claims hide behind reader-friendly prose | apply the full identity-and-bounded-sufficiency screen; identify any actual target and obtaining direct relation before classifying its form |
+| Using an EFP class as a second claim or relation track | changed claims hide behind reader-friendly prose | apply the full identity-and-bounded-sufficiency screen; identify any actual target and obtaining direct relation before classifying its expression |
 | Calling a connective source-linked because `addedLinkPolicy` names it | a policy declaration is mistaken for derivation or an obtaining relation | require exact source premises and effective scheme plus a derivation, or an exact relation claim already in the source plus an independently obtaining occurrence; otherwise constitute a target claim or leave EFP |
-| Treating speculative prose as a source rendering | a new causal or counterfactual claim is hidden inside a form label | constitute the separate B.5.2 hypothesis episteme, then restrict only its publication form's use |
+| Treating speculative prose as a source rendering | a new causal or counterfactual claim is hidden inside an expression label | constitute the separate B.5.2 hypothesis episteme, then restrict only its publication expression's use |
 | Collapsing MVPK face and `publication face/form` or `interop publication form` discipline | explanation appears to create a new publication family | stay on existing MVPK faces and keep named `publication face/form` or `interop publication form` and carrier policy explicit |
-| Derivative text as source replacement | a changed ClaimGraph is treated as the original source because the text is easier to read | identify same-source form versus exact target episteme and establish that its A.6.3 or other direct relation obtains before EFP classification |
-| Explanation as evidence or assurance | a fluent or source-linked explanation is cited as proof, approval, gate passage, release reliance, work authority, or assurance | identify the exact episteme and any required source-to-target relation before classifying its publication form; open `A.10`, `B.3`, `A.21`, `A.15`, or another direct record only for the exact operative claim and receiving use that need it |
+| Derivative text as source replacement | a changed ClaimGraph is treated as the original source because the text is easier to read | identify same-source expression versus exact target episteme and establish that its A.6.3 or other direct relation obtains before EFP classification |
+| Explanation as evidence or assurance | a fluent or source-linked explanation is cited as proof, approval, gate passage, release reliance, work authority, or assurance | identify the exact episteme and any required source-to-target relation before classifying its publication expression; open `A.10`, `B.3`, `A.21`, `A.15`, or another direct record only for the exact operative claim and receiving use that need it |
 

@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__003_problem.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:2 — Problem"
-line_start: 117839
-line_end: 117844
+line_start: 118423
+line_end: 118428
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"

@@ -6,12 +6,12 @@ section_id: "D.1:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__004_forces.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "D.1 — Clarify an Ethical Claim's Value Basis (Value Plurality)"
   - "D.1:1.1 — Forces"
-line_start: 91039
-line_end: 91048
+line_start: 91429
+line_end: 91438
 dependencies:
   - "A.1"
   - "A.1.CSD"

@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:End"
 section_title: "A.19.SelectorMechanism:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__015_a-19-selectormechanism-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:End — A.19.SelectorMechanism:End"
-line_start: 39506
-line_end: 39507
+line_start: 39581
+line_end: 39582
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"

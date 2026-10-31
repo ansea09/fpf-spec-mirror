@@ -6,12 +6,12 @@ section_id: "C.2.2a:0"
 section_title: "First useful chart"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__002_first-useful-chart.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:0 — First useful chart"
-line_start: 52439
-line_end: 52454
+line_start: 52784
+line_end: 52799
 dependencies:
   - "A.16"
   - "A.16.0"

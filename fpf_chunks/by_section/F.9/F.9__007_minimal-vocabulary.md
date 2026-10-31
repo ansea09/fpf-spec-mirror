@@ -6,12 +6,12 @@ section_id: "F.9:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__007_minimal-vocabulary.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:5 — Minimal vocabulary"
-line_start: 120746
-line_end: 120762
+line_start: 121330
+line_end: 121346
 dependencies:
   - "A.10"
   - "A.13"

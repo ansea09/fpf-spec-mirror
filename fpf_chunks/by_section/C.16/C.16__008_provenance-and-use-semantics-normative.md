@@ -6,12 +6,12 @@ section_id: "C.16:7"
 section_title: "Provenance and use semantics (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__008_provenance-and-use-semantics-normative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:7 — Provenance and use semantics (Normative)"
-line_start: 58340
-line_end: 58350
+line_start: 58709
+line_end: 58719
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,7 +57,7 @@ keywords:
 
 #### C.16:7.1 - What an EvidenceStub is and is not
 
-`U.EvidenceStub` is an optional compact locator from the reading claim to an exact provenance path. It may identify a source publication, calibration record, instrument output, model edition, work occurrence, transformation, or other ground, but A.10/G.6 govern the path and its citations.
+An evidence stub is an optional compact locator from the reading claim to an exact provenance path. It may identify a source publication, calibration record, instrument output, model edition, work occurrence, transformation, or other ground, but A.10/G.6 govern the path and its citations.
 
 - The stub is not evidence in the abstract, a result, an instrument output, a work record, an assurance claim, or a provenance-as-result object.
 - Several stubs form a list of locators, not a measurement algebra. Their union is not uncertainty propagation and does not guarantee stronger warrant.

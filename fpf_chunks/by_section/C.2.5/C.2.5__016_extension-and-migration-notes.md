@@ -6,12 +6,12 @@ section_id: "C.2.5:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__016_extension-and-migration-notes.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:15 — Extension and Migration Notes"
-line_start: 53639
-line_end: 53648
+line_start: 53984
+line_end: 53993
 dependencies:
   - "A.16"
   - "A.16.0"

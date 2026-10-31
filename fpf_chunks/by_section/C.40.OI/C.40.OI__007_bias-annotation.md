@@ -6,12 +6,12 @@ section_id: "C.40.OI:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__007_bias-annotation.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:6 — Bias-Annotation"
-line_start: 86210
-line_end: 86218
+line_start: 86598
+line_end: 86606
 dependencies:
   - "A.15.9"
   - "B.5.PI"

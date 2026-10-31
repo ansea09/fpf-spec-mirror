@@ -6,12 +6,12 @@ section_id: "F.11:6"
 section_title: "Solution — four questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__007_solution-four-questions.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.11 — Distinguish Method, MethodDescription, Work and Outputs"
   - "F.11:6 — Solution — four questions"
-line_start: 121785
-line_end: 121806
+line_start: 122369
+line_end: 122390
 dependencies:
   - "A.13"
   - "A.15"

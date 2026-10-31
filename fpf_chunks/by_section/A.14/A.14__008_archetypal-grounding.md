@@ -6,12 +6,12 @@ section_id: "A.14:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__008_archetypal-grounding.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:7 — Archetypal Grounding"
-line_start: 28483
-line_end: 28493
+line_start: 28518
+line_end: 28528
 dependencies:
   - "A.1"
   - "A.15"

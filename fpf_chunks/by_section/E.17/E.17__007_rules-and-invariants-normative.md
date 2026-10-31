@@ -6,12 +6,12 @@ section_id: "E.17:6"
 section_title: "Rules and Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__007_rules-and-invariants-normative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:6 — Rules and Invariants (normative)"
-line_start: 107454
-line_end: 107485
+line_start: 107854
+line_end: 107885
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -20,6 +20,8 @@ dependencies:
   - "A.22"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.9"
   - "A.7"
   - "B.3"
@@ -68,7 +70,7 @@ For composable arrows `X -f-> Y -g-> Z` and exact `s,t` in `F_face`:
    * Changed claim content, EntityOfConcern, or effective reference scheme identifies another episteme under C.2.1. Changed form, carrier, or publication occurrence does not by itself.
 4. **Pin discipline.** Numeric or comparable claims used from a face retain the unit, scale, reference-plane, and edition pins required by the applicable characteristic and measurement patterns.
 5. **Publication is not work.** Build, rendering, upload, or delivery is `U.Work` only when each exact actual performer has its A.13 core and A.15.1 independently admits the dated occurrence. F.6 enters only when the publication account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact.
-6. **Publication and carrier separation.** E.24.PUB identifies the selected episteme edition, publication occurrence, form, and presentation carrier separately. A.10 supplies the evidence/provenance source-to-use path, G.6 supplies addressable path citation, slicing, and local refresh, and B.3 supplies any assurance claim.
+6. **Publication and carrier separation.** E.24.PUB identifies the selected episteme edition, publication occurrence, expression, reusable form and carrier separately. A.10 supplies the evidence/provenance source-to-use path, G.6 supplies addressable path citation, slicing, and local refresh, and B.3 supplies any assurance claim.
 7. **Cross-context and reference-plane use.** For a semantic crossing, recover the F.17 endpoint senses, F.9 Bridge, and separate bounded-use claim. For a plane-dependent value, retain the characteristic, selected `ReferencePlane`, and applicable transfer or comparison rule. Add A.10 or B.3 only when reliance is current; an optional F.9 `CL` summarizes evidence strength and never grants use. Visual juxtaposition and scheme difference alone establish none of these claims.
 8. **PublicationScope discipline.** For a face use v selecting episteme E, `PublicationScope(v)` does not exceed the claim scope on which that publication relies. A capability description may also cite a work scope, but the publication scope does not grant work admissibility. `PromoteFace` does not widen either scope.
 

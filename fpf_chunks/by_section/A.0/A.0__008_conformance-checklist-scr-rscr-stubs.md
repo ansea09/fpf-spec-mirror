@@ -6,13 +6,14 @@ section_id: "A.0:7"
 section_title: "Conformance Checklist (SCR/RSCR stubs)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__008_conformance-checklist-scr-rscr-stubs.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:7 — Conformance Checklist (SCR/RSCR stubs)"
-line_start: 2377
-line_end: 2393
+line_start: 2378
+line_end: 2394
 dependencies:
+  - "A.19"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.5"
@@ -30,6 +31,7 @@ dependencies:
   - "G.5"
   - "G.9"
   - "G.9-G.12"
+  - "U.EpistemeRef"
 keywords:
   - "& queries. novelty"
   - "BLP"
@@ -58,7 +60,7 @@ keywords:
 | ID          | Requirement                                                                                                                                                                               | Purpose                                                                         |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | **CC‑A0‑1** | If a pattern/UTS row **describes a generator, selector, typed portfolio publication, or set-return publication surface**, it **MUST** surface the glossary values and policies used by its operation or independently required by the receiving use, with their applicable **units, scale, polarity, ReferencePlane and policy‑ids**. | Makes generative claims comparable and auditable (UTS as publication surface). |
-| **CC‑A0‑2** | For QD/OEE, **pin** the editions and policy‑ids used by the operation or required by the receiving use, including `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `CharacteristicSpaceRef.edition` and `TransferRulesRef.edition` where applicable. Log `PathSliceId` when required; follow **G.9**'s pin requirements for an actual parity use. | Enables admissible parity and refresh; edition-aware telemetry. |
+| **CC‑A0‑2** | For QD/OEE, **pin** the editions and policy‑ids used by the operation or required by the receiving use, including `DescriptorMapRef.edition`, `DistanceDefRef.edition`, the exact `CharacteristicSpaceRef` with its separate `characteristicSpaceDescriptionRef: U.EpistemeRef` under A.19:5.1.1.1 and `TransferRulesRef.edition` where applicable. Log `PathSliceId` when required; follow **G.9**'s pin requirements for an actual parity use. | Enables admissible parity and refresh; edition-aware telemetry. |
 | **CC‑A0‑3** | **No mixed‑scale roll‑ups**; ordinal data **SHALL NOT** be averaged; any roll‑up **MUST** live under a declared **CG‑frame**.                                                             | Prevents illegal scoring; keeps comparisons lawful.                             |
 | **CC‑A0‑4** | Where the G‑kit requires parity, **publish an Illumination Map** (coverage per niche); **single‑number leaderboards are non‑conformant** on the Core surface when a ParityReport is required. | Declared-set-first / typed portfolio-publication posture; avoids single‑winner bias.                         |
 | **CC‑A0‑5** | Keep **illumination/coverage** as **report‑only telemetry**; **dominance policy defaults to `ParetoOnly`**; any change is CAL‑authorised and cited by policy‑id.                                          | Separates fit from exploration; preserves auditability.                         |

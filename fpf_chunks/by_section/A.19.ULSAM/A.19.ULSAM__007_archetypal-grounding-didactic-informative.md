@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:5"
 section_title: "Archetypal grounding (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__007_archetypal-grounding-didactic-informative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:5 — Archetypal grounding (didactic, informative)"
-line_start: 38605
-line_end: 38630
+line_start: 38678
+line_end: 38703
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

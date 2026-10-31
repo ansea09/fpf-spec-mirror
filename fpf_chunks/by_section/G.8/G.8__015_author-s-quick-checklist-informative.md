@@ -6,12 +6,12 @@ section_id: "G.8:14"
 section_title: "Author’s quick checklist (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__015_author-s-quick-checklist-informative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:14 — Author’s quick checklist (informative)"
-line_start: 130504
-line_end: 130517
+line_start: 131094
+line_end: 131107
 dependencies:
   - "A.10"
   - "A.21"
@@ -48,7 +48,7 @@ keywords:
 * [ ] Evidence is citable: at run time use `PathId/PathSliceId` when available; at packaging time provide resolvable `A10EvidenceGraphRef?[]` / `EvidenceGraphId?`.
 * [ ] Every actual sense, kind or plane correspondence retains its relation and receiving-use grounds under G.Core:4.2.3. For F.9 reuse, `G.8:Ext.BridgeReuseWiring` keeps the Bridge, separate bounded-use claim and reliance basis citable. `CL/CL^k/CL^plane` and `Φ/Ψ/Φ_plane` ids and editions are pinned when the calibration or named assurance account requires them; policy ids resolve under `F.8:8.1`.
 * [ ] `PortfolioMode` and dominance defaults are not restated: cite each default's governing definition through `G.Core.DefaultGoverningDefinitionIndex` (governing definitions live outside `G.8`, typically `G.5`).
-* [ ] When the bundle binds an actual QD use, its required descriptor, distance, insertion and emitter definitions are edition/policy pinned (`DescriptorMapRef.edition`, `DistanceDefRef.edition`, insertion/emitter policies); `CharacteristicSpaceRef.edition` is pinned iff cell boundaries/de-dup/parity depend on it; **Spaces ≠ Maps**. `PortfolioMode=Archive` alone does not activate these QD fields.
+* [ ] When the bundle binds an actual QD use, its required descriptor, distance, insertion and emitter definitions are edition/policy pinned (`DescriptorMapRef.edition`, `DistanceDefRef.edition`, insertion/emitter policies); the exact space and its separate description-episteme reference are pinned iff cell boundaries/de-dup/parity depend on the space definition; **Spaces ≠ Maps**. `PortfolioMode=Archive` alone does not activate these QD fields.
 * [ ] If open‑ended surfaces are declared, pin `GeneratorFamilyRowRef`, `TransferRulesRef.edition`, and any validity/coupler policy ids; unknown transfer validity is recorded as `degrade`/branching (no “fourth status”).
 * [ ] `MaturityRungs` is a closed, UTS‑registered set; the maturity ladder is ordinal/poset with a declared `ReferencePlane`; rung transitions cite evidence.
 * [ ] RSCR triggers are emitted as canonical `RSCRTriggerKindId` values (no prose-only “reasons”).

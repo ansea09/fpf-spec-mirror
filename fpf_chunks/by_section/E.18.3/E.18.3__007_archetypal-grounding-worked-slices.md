@@ -6,12 +6,12 @@ section_id: "E.18.3:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__007_archetypal-grounding-worked-slices.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:5 — Archetypal Grounding — Worked Slices"
-line_start: 111475
-line_end: 111638
+line_start: 111964
+line_end: 112127
 dependencies:
   - "A.10"
   - "A.15"
@@ -201,5 +201,5 @@ The unresolved position refs and bindings, the full ClaimContents and current ba
 
 **Formal flow-expression boundary.** A team expresses the candidate-set repair use as a directed graph or DCR model to ask whether `DecisionRepairPosition` is reachable after `EditionAdmissionGuard`. The expression may preserve the dependency topology and a condition label plus the queried path, but it does not decide whether that condition is an applied claim, an E.18 guard event, or an independently defined relation occurrence. It also loses neighboring claims already shown to obtain, their concrete contributions, description omissions (including C.33 omissions for a declared architecture use), and currentness semantics unless those are separately mapped. Use `E.18.2` for the mathematical description and `C.29` for its declared use, preserved/lost structure, and stop. Positive reachability alone shows neither the condition's ontic type, currentness, retained-set validity, decision repair, Work order, nor selected-structure identity.
 
-**Reference-currentness repair.** A one-TFS path slice may depend on an admitted publication edition, a `G.2` source-use relation, a source pack or a telemetry window. E.18 supplies slice-local flow refresh. G.11 supplies the tests for source currentness, decay, edition shift, deprecation, reship and no-change claims. Connect these values only through exact obtaining occurrences and their predicate definitions, and reopen the smallest dependent use; do not create a combined currentness-refresh value.
+**Reference-currentness repair.** A one-TFS path slice may depend on an admitted publication edition, a `G.2` source-use relation, a source pack or a telemetry window. E.18:5.13 supplies the complete actual dependency closure, addressed through all needed PathSlices. G.11 supplies the tests for source currentness, decay, edition shift, deprecation, reship and no-change claims. Connect these values only through exact obtaining occurrences and their predicate definitions, and reconsider every dependent continuation, including both branches of a shared dependency and their join; do not create a combined currentness-refresh value.
 

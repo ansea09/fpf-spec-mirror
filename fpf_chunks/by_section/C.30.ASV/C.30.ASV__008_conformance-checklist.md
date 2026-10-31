@@ -6,12 +6,12 @@ section_id: "C.30.ASV:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__008_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:7 — Conformance Checklist"
-line_start: 73641
-line_end: 73660
+line_start: 74023
+line_end: 74042
 dependencies:
   - "A.1"
   - "A.10"
@@ -69,7 +69,7 @@ keywords:
 | --- | --- | --- |
 | **CC-ASV-1 Structure target.** | Every architecture structural view has one exact selected `U.Structure` as its C.2.1 EntityOfConcern. | Name and constitute the selected structure under A.22, or keep the inspected episteme or publication as an architecture question input that does not yet claim to be a structural view. |
 | **CC-ASV-2 Structure kind.** | Every architecture structural view names `structureKindRef`. | Identify the structure kind in ordinary wording or `ArchitectureStructureKindTriage@Project`; if no structure-kind claim is needed, keep the text as ordinary prose or a source note. |
-| **CC-ASV-3 Exact episteme and subject trace.** | The view preserves one exact claim graph, one selected-structure EntityOfConcern, effective `U.ReferenceScheme`, and the subject trace to the exact holon and any obtaining `ArchitectureRelation`; optional architecture claim, ClaimScope, empirical grounding, and model-use structure remain separate. | Restore the exact episteme identity and subject trace, or identify a new description before relying on it; do not derive identity from an architecture-claim field or context bundle. |
+| **CC-ASV-3 Exact episteme and subject trace.** | The view preserves one exact claim graph, one selected-structure EntityOfConcern, effective `ReferenceScheme`, and the subject trace to the exact holon and any obtaining `ArchitectureRelation`; optional architecture claim, ClaimScope, empirical grounding, and model-use structure remain separate. | Restore the exact episteme identity and subject trace, or identify a new description before relying on it; do not derive identity from an architecture-claim field or context bundle. |
 | **CC-ASV-4 Viewpoint conformance.** | The candidate episteme and exact viewpoint episteme satisfy the fixed five-part E.17.0 predicate, and `viewpointConformanceRelationRef` names the participant-determined obtaining occurrence. A bundle or viewpoint label is only discovery support. | Apply E.17.0. If the predicate does not obtain, keep a structural description or triage result and do not call it `U.View`. |
 | **CC-ASV-5 Lost structure.** | The view makes any hidden or lost structure relevant to its intended use recoverable. A use with no relevant omission needs no invented loss. | Add a one-line hidden-structure note or lost-structure note, or narrow the admissible use so omitted structure is not relied on. |
 | **CC-ASV-6 Correspondence.** | Cross-view use rests on a warranted correspondence claim or independently established obtaining relation. Ordinary prose can state that claim; shared packaging or graph adjacency alone cannot supply its basis. | Add a correspondence claim or direct relation, or stop at a single-view statement without a cross-view consistency claim. |

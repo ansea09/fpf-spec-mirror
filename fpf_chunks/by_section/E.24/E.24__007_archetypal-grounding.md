@@ -6,12 +6,12 @@ section_id: "E.24:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__007_archetypal-grounding.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5 — Archetypal Grounding"
-line_start: 115925
-line_end: 115980
+line_start: 116434
+line_end: 116489
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -46,11 +46,11 @@ Use these slices as archetypes for the ontic-introduction decision. They are not
 
 #### E.24:5.1 - Episteme Ontology Unit as Durable Ontic
 
-The ontology-unit individual `EpistemeOntic` passes because multiple patterns reuse C.2.1 episteme identity and its exact direct relation rules without copying them. E.24.UK retains `U.Episteme` as the root kind, C.2.1 identifies each particular episteme, and neither is `EpistemeOntic`. The PumpStation37 specification is a consuming witness. Descriptions, availability, views, and representations use their rows in `E.24:4.3a` and do not change that identity.
+The ontology-unit individual `EpistemeOntic` coordinates the shared episteme constitution and the minimal relation rules used across current patterns. E.24.UK retains `U.Episteme` as the primary kind; C.2.1 identifies each particular episteme. The ontology unit is identified under :4 by that kind, the exact constitution rule and the included relation meanings. The PumpStation37 specification is one consuming example. Changing the example's publication or view leaves the ontology unit unchanged; changing a governing relation in its minimal set reopens the ontology unit's identity.
 
 The coordination is needed because these uses must agree on which episteme they concern. Empirical grounding selects claims of that episteme; edition continuity compares distinct episteme identities; viewpoint conformance tests an identified episteme against an identified viewpoint; publication makes a selected edition available. C.2.1's constitution rule provides their common subject identity, while each direct pattern retains its own predicate. A content or interpretation change therefore reopens the dependent conclusions that use it, whereas a carrier change alone leaves that identity fixed. Without this shared rule, those patterns could silently evaluate, continue, or publish different knowledge objects under one name.
 
-This establishes useful `EpistemeOntic` coordination without assuming public admission of every possible constituent kind. Exact content and effective rules must still be recoverable under C.2.1. A receiver requiring general typed substitution of those constituents needs the additional classification basis in C.2.1:4.2.1 and E.24.UK:4.2c. The ontic does not grant it, and that open question does not cancel the common identity and the separately governed dependencies above.
+The coordination uses independently recoverable content and interpretation rules. C.2.1:4.1.2 supplies bounded ranges for their typed substitution; :4.2.1 and A.6.5 govern the receiving declaration. The ontology unit contributes the shared connection among these uses. It grants no missing participant identity, range membership or obtaining relation. A proposed general public U-kind still needs E.24.UK.
 
 
 #### E.24:5.2 - Multi-Pattern Subject Matter as an Ontic-Candidate Archetype

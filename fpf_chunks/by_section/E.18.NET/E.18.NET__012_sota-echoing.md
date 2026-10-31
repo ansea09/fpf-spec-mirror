@@ -6,12 +6,12 @@ section_id: "E.18.NET:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__012_sota-echoing.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:11 — SoTA-Echoing"
-line_start: 112117
-line_end: 112129
+line_start: 112606
+line_end: 112618
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -34,7 +34,6 @@ dependencies:
   - "E.18.2"
   - "E.18.3"
   - "F.18"
-  - "U.Transfer"
 keywords:
 ---
 
@@ -45,7 +44,7 @@ Each line below is inherited only while the cited current pattern version retain
 | Current pattern version and exact source-use locus | E.18.NET disposition | Use in E.18.NET | Qualification and smallest reopen |
 | --- | --- | --- | --- |
 | `A.22:4.1` and the `A.22:11` row beginning “FPF `C.2.1` and `E.10.D2` description discipline” | **Adopt** the four selected-structure discriminators and the separation of structure from its description, view, record, selecting system, and selection Work. | Network identity is the exact `directMemberRefs[]`, selected obtaining `selectedCrossFlowRelationOccurrenceRefs[]`, exact `selectedNetworkConstraintRefs[]`, and one `networkUseFrame`; the descriptive record and selection activity remain separate from the non-agentive network. | Applies while A.22 keeps those four discriminator meanings and that description/view boundary. Reopen this line if A.22 changes a discriminator or allows a description, view, record, or selection activity to identify or authorize the structure. |
-| `E.18:5.1` through `E.18:5.3` and the `E.18:12` rows `Applied category theory and compositional open systems`, `Operads, wiring diagrams, and hypergraph categories`, and `Open-graph and string-diagram rewriting` | **Adapt** one-TFS typed positions, valuation locality, exact internal `U.Transfer`, interface exposure, and replay-local rewrite discipline to recursively selected members. | A network keeps leaf-TFS position and valuation identity, resolves each exposed position through a finite member path, and leaves `U.Transfer` inside the TFS that contains it; cross-flow relations remain obtaining world-side occurrences under their applicable predicates. | Applies while E.18 keeps those position, valuation, `U.Transfer`, crossing, and replay-locality decisions. Reopen this line if E.18 changes any of them or its named source-use rows no longer support typed interfaces and localized rewrites. |
+| `E.18:5.1` through `E.18:5.3`, `E.18:5.13`, and the `E.18:12` rows `Applied category theory and compositional open systems`, `Operads, wiring diagrams, and hypergraph categories`, and `Open-graph and string-diagram rewriting` | **Adapt** resolved participant and connection positions, typed valuation locality, complete incidences, interface exposure and dependent refresh to recursively selected members. | A network keeps each leaf TFS identity, resolves exposed positions through finite member paths, and preserves the predicates and full participants of selected cross-member occurrences. | Apply while the selected-structure, mapping, valuation and refresh conditions remain those of E.18; reopen a use whose preserved or lost structure changes. |
 | `E.18.2:4.1` through `E.18.2:4.3` and the `E.18.2:9` rows `FPF strict-distinction, selected-structure, architecture-description, and view apparatus` and `Applied category theory, wiring diagrams, and graph rewriting` | **Adopt** the subject/description/lens separation and **adapt** the permitted expressions to member paths, n-ary relation views, quotients, and folds. | A mathematical description may expose or compare network structure only after naming its network subject, declared use, preserved structure, lost structure, and stop; it neither creates nor reidentifies the network or its relation occurrences. | Applies while E.18.2 keeps the five-way discriminator and the named rows' preserved/lost-structure and C.29 lens-use boundary. Reopen this line if the selected subject branch, preserved/lost account, mapping mode, or C.29 return condition changes. |
 | `A.22.CGUS:4.4` and its `A.22.CGUS:11` rows on OCPQ and JuliaHub Dyad 3.2 with Modelica 3.7 as historical lineage; plus `E.18.3:4.2a`, `E.18.3:4.4`, and its `E.18.3:11` OCPQ and ModelingToolkit/FMI rows | **Adapt** typed object-and-relation structure, Dyad's current separation of reusable component models from separately selected analyses, and post-admission demonstration discipline to a network locator. | A network-aware demonstration consumes already admitted positions and exact relation-reference epistemes, keeps member-local state, branches, omissions, and return visible, and never turns the displayed path into the network, model, analysis, WorkPlan, or performed Work. | Applies while A.22.CGUS keeps Dyad as its current engineering comparator and Modelica only as historical lineage, and while CGUS and E.18.3 keep post-admission slices and exact locator admission. Reopen this line if those object-relation, model-analysis, admission, or locator decisions change. |
 

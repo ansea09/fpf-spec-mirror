@@ -6,12 +6,12 @@ section_id: "A.15.2:7a"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__009_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:7a — Conformance Checklist"
-line_start: 29936
-line_end: 29952
+line_start: 29971
+line_end: 29987
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ keywords:
 
 | ID | Requirement | Practical test |
 | --- | --- | --- |
-| CC-A15.2-1 | Exact C.2.1 ClaimGraph, one already identified present EntityOfConcern, and effective `U.ReferenceScheme` identify the episteme; A.15.2 adds one stable intended-work membership condition and no second identity. | A possible future performance or PlanItem designator is not used as an existing EntityOfConcern merely because it appears in the plan. Carrier, layout, publication, ticket key, and version label can change without reidentification when the three discriminators remain fixed. |
+| CC-A15.2-1 | Exact C.2.1 ClaimGraph, one already identified present EntityOfConcern, and effective `ReferenceScheme` identify the episteme; A.15.2 adds one stable intended-work membership condition and no second identity. | A possible future performance or PlanItem designator is not used as an existing EntityOfConcern merely because it appears in the plan. Carrier, layout, publication, ticket key, and version label can change without reidentification when the three discriminators remain fixed. |
 | CC-A15.2-2 | A conforming `U.WorkPlan` makes substantive claims for coordinating possible future performed Work over an exact horizon through at least one `PlanItem`. | The plan states an intended-performance designator, Method, window or entry condition, the System intended to perform the Work or its local system-role-kind condition, and the constraints, resources, dependencies, commitments, targets, or baseline needed by its receiving use without asserting that a Work occurrence exists. |
 | CC-A15.2-3 | Every `PlanItem` remains declaration-local plan content and names the possible future performance and claims it coordinates. | Resolve the designator to the content component in the identified WorkPlan; establish a claimed occurrence or participant separately under its own predicate. |
 | CC-A15.2-4 | Claims about a System intended to perform the Work, its local system-role-kind conditions, and A.2.2 capability requirements remain planned. Cite an assignment occurrence and its declared species only when that assignment already obtains; the plan supplies no capability-fit result. | Publishing a proposed holder-and-kind pair or threshold creates neither assignment, capability, nor fit for the later Work interval. |

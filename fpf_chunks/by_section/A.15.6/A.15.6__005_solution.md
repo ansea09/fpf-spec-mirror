@@ -6,12 +6,12 @@ section_id: "A.15.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:4 — Solution"
-line_start: 31129
-line_end: 31330
+line_start: 31164
+line_end: 31365
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -60,9 +60,9 @@ When the result needs its own reference, identify its C.2.1 episteme through all
 
 | C.2.1 discriminator | Project-focus value |
 | --- | --- |
-| exact claim content | one `U.ClaimGraph` that states the current C.11 inventory and result together with the five project-focus content groups below |
+| exact claim content | the complete interpreted claims that state the current C.11 inventory and result together with the five project-focus content groups below (C.2.1:4.1.1) |
 | exact `EntityOfConcern` | the exact `DecisionSubject` whose current choice result is being recorded, at the declared `DecisionSubjectGranularity` |
-| effective `U.ReferenceScheme` | one named project-decision scheme and edition whose designation, interpretation, comparison, and evaluation rules give the C.11 terms, alternatives, focus content, and result their meaning |
+| effective reference scheme | one named project-decision scheme and edition whose designation, interpretation, comparison, and evaluation rules give the C.11 terms, alternatives, focus content, and result their meaning |
 
 This aboutness choice lets one chooser revise the selected problem. Authority, commitment, budget ownership, Agent status, and performed Work remain neighboring claims under their own governors; none changes the `EntityOfConcern` merely by appearing in the decision record. One chooser's C.11 result also does not establish a shared understanding or agreement among project participants. When that common basis is at issue, use A.1.STM:4.1 to compare their target and use accounts and resolve the consequential differences.
 
@@ -78,7 +78,7 @@ Keep any inquiry limitation or reason needed by the decision or its recipient in
 
 Apply the C.11 `ChoiceRule` to the available basis. `choose now` may retain a lawful tie-set, or select a bounded problem whose option explicitly leaves its later direct subject unresolved and names the next question. `reject current set` applies when the rule excludes every current option. `probe again` requires a named feasible probe within the remaining budget whose expected decision-changing contribution justifies its cost; `reroute` applies when the question changes. Close as `choose now` only when no feasible next probe is expected to change the survivor relation enough to justify its cost; close as `reject current set` only when no such probe is expected to rescue an option. In both cases retain C.11's stable-current-set and local-choice conditions. If the facts needed for a lawful result remain unavailable and no such probe or reroute is warranted, leave that premise and the unfinished comparison unresolved; this is not a fifth `ChoiceResult`. If the current set needs reframing, return to option formation at the start of this branch.
 
-Stop when the lawful `ChoiceResult` and the reason it is lawful are recoverable. Changing the selected problem, `OptionSet`, comparison or acceptance basis, direct-subject disposition, `ChoiceRule`, `ChoiceResult`, or receiving decision changes the identity-bearing `U.ClaimGraph` and therefore identifies another episteme even when the chooser remains the same. Another supporting item, evaluation, or publication does not reidentify the focus episteme unless claim content, `EntityOfConcern`, or effective scheme also changes.
+Stop when the lawful `ChoiceResult` and the reason it is lawful are recoverable. Changing the selected problem, `OptionSet`, comparison or acceptance basis, direct-subject disposition, `ChoiceRule`, `ChoiceResult`, or receiving decision changes the identity-bearing claim content and therefore identifies another episteme even when the chooser remains the same. Another supporting item, evaluation, or publication does not reidentify the focus episteme unless claim content, `EntityOfConcern`, or effective scheme also changes.
 
 Call a later focus episteme another edition only when an exact C.2.1 `EpistemeEditionRelation` obtains under the named **project-focus continuation rule**: the later episteme actually uses the earlier one as its revision source; preserves the exact `DecisionSubject` as `EntityOfConcern`, the receiving-use lineage, and the scheme features that keep the decision interpretable; explicitly records every deliberately changed focus-defining claim or permitted scheme feature; and is not a fork, translation, retargeting, or independent reconstruction. Shared chooser, performers, organization, budget source, label, or calendar alone establishes neither episteme identity nor edition continuity. Focus succession decides no performed-Work identity question.
 
@@ -239,5 +239,5 @@ The organization performing or coordinating project Work is a neighboring `U.Sys
 
 Section 4.0 is the first pass. Sections 4.1–4.6 add only the branch detail needed by the current question. The worked cases below point back to those tests instead of restating them as new admission rules.
 
-Stop when the direct subject, the required relation or claim, and its basis are clear. Continue to `A.15.7` only when ongoing Work now needs a next-action choice; continue to `A.3.1.MR` only when several Work occurrences or sources still support competing candidate Methods. A later decision, publication, evidence, or assurance question opens its own pattern rather than extending this recovery indefinitely.
+Stop when the direct subject, the required relation or claim, and its basis are clear. Continue to `A.15.7` only when ongoing Work now needs a next-action choice. When observations or evidence about several performances still support competing candidate ways, use `A.3.1.MR`. For a proposed way in documentary guidance, use `A.3.1.DR` when its source meaning or status needs recovery. Apply `A.3.1` directly when a candidate way is ready for the Method identity test. A later decision, publication, evidence, or assurance question opens its own pattern rather than extending this recovery indefinitely.
 

@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:2 — Solution"
-line_start: 72155
-line_end: 72305
+line_start: 72531
+line_end: 72681
 dependencies:
   - "A.1"
   - "A.10"
@@ -74,12 +74,12 @@ BuiltAssetArchitectureDescriptionUse@Project:
   builtAssetRef: U.HolonRef
   architectureRelationOccurrenceRefs?: FinSet(U.RelationRef)
   architectureClaimRefs?: FinSet(U.EpistemeRef)
-  selectedStructureRefs: FinSet(U.StructureRef)
+  selectedStructureRefs: FinSet(SelectedStructureReference)
   architectureStructuralViewRefs?: FinSet(U.EpistemeRef constrained to ArchitectureStructuralView)
   viewpointConformanceRelationRefs?: FinSet(EpistemeViewpointConformanceRelationRef)
   claimScope?: U.ClaimScope, byValue
   architectureConcernRefs?: FinSet(U.EpistemeRef)
-  modelUseStructureRef?: U.StructureRef
+  modelUseStructureRef?: SelectedStructureReference
   empiricalGroundingRelationRefs?: FinSet(U.RelationRef)
   referenceDesignationRelationRefs?: FinSet(U.RelationRef)
   assetInformationDescriptionRefs?: FinSet(U.EpistemeRef)
@@ -137,7 +137,7 @@ BuiltAssetReferenceDesignationUse:
   designationValue: local designation value, byValue
   referenceDesignationScheme: exact designation rules and their domain, byValue
   designatedEntityRef: U.EntityRef
-  selectedAspectStructureRef: U.StructureRef
+  selectedAspectStructureRef: SelectedStructureReference
   designationOrReferenceRelationRef?: U.RelationRef
   qualificationWindow:
   correspondingEntityRef?: U.EntityRef

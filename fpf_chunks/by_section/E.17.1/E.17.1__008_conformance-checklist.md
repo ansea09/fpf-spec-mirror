@@ -6,16 +6,18 @@ section_id: "E.17.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__008_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:7 — Conformance Checklist"
-line_start: 106459
-line_end: 106471
+line_start: 106859
+line_end: 106871
 dependencies:
   - "A.16.0"
   - "A.22"
   - "A.6.2-A.6.4"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.7"
   - "C.13"
   - "C.2.1"
@@ -43,6 +45,6 @@ keywords:
 - `CC-VBL-5` A family designator is not used as an id kind, publication-face/form kind, carrier kind, viewpoint reference, or substitute for an exact member.
 - `CC-VBL-6` Changes to member references, targets, family meaning, or compatibility constraints create another catalogue edition carrying the revised or new family declaration; publication or annex-only change does not reidentify unchanged P.
 - `CC-VBL-7` Multi-bundle imports preserve exact catalogue provenance and collisions only. Same-scheme comparison names its exact predicate and participants and applies the pattern that defines that predicate. Cross-context comparison resolves exact F.17 cells, obtaining F.9 Bridge, separate `<u,d,r,t>` claim, and required A.10 or B.3 reliance; otherwise it stops at lexical or structural contrast.
-- `CC-VBL-8` E.24.PUB expression, bearing, publication, recurrence, rendering work, and C.29 representation remain distinct, grant no viewpoint or view membership, and make no represented world-side relation obtain.
+- `CC-VBL-8` E.24.PUB expression, bearing, publication, recurrence, rendering work, and mathematical representation under C.29 remain distinct, grant no viewpoint or view membership, and make no represented world-side relation obtain.
 - `CC-VBL-9` A bundle intended for non-expert reuse should provide references that resolve under their applicable schemes to exact archetypal-grounding examples or sections for its member viewpoints; grounding aids recognition but grants no membership.
 

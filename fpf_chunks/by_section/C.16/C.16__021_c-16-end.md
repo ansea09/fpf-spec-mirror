@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "C.16"
 pattern_title: "Measurement & Metrics Characterization (MM‑CHR)"
-section_id: "C.16:14"
-section_title: "Rationale"
+section_id: "C.16:End"
+section_title: "C.16:End"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.16/C.16__015_rationale.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+output_path: "by_section/C.16/C.16__021_c-16-end.md"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
-  - "C.16:14 — Rationale"
-line_start: 58437
-line_end: 58440
+  - "C.16:End — C.16:End"
+line_start: 58897
+line_end: 58898
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -53,7 +53,5 @@ keywords:
   - "uncertainty"
 ---
 
-### C.16:14 - Rationale
-
-Measurement is not merely reading a carrier. It is performed work under a method and model that attributes one or more values to a measurand and supplies the information required to interpret those values. That architecture explains why indication, actual subject state, measurement result, result episteme, diagnosis, and verdict must remain distinct.
+### C.16:End
 

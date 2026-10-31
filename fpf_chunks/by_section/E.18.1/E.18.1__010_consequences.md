@@ -6,12 +6,12 @@ section_id: "E.18.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__010_consequences.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:9 — Consequences"
-line_start: 110951
-line_end: 110960
+line_start: 111434
+line_end: 111443
 dependencies:
   - "A.15"
   - "A.15.PROD"

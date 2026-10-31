@@ -6,12 +6,12 @@ section_id: "E.17:9"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__011_conformance-checklist-normative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:9 — Conformance Checklist (normative)"
-line_start: 107522
-line_end: 107565
+line_start: 107922
+line_end: 107965
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -20,6 +20,8 @@ dependencies:
   - "A.22"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.9"
   - "A.7"
   - "B.3"
@@ -54,8 +56,8 @@ A conformance check is kept only if it changes the next bounded use of the publi
 | --- | --- | --- |
 | **CC-MVPK-1 (Source, reader, and use visible)** | Each ordinary publication form points to the current source account and exposes the separate reader/use declaration it serves. | A cold reader can find the source, understand why this form exists, and see material omissions. |
 | **CC-MVPK-1b (`U.View` claim conditional)** | Only when the selected episteme exposed through a face is claimed as a `U.View` does the publication resolve an exact `publicationViewpointRef` and cite the obtaining E.17.0 conformance relation. | A form label, layout, or packaged reference alone is rejected as membership evidence. |
-| **CC-MVPK-1a (Publication relations explicit when load-bearing)** | When availability, recurrence, dispute, external exchange, or reliance depends on publication identity, name the selected edition, audience, bounded use, form, carrier, expression relation, bearing relation, and publication occurrence. | The exact values resolve only for that stronger use; an ordinary face is not rejected for lacking an unused identity dossier. |
-| **CC‑MVPK‑3 (No content extension)** | `PlainView`, `TechCard`, and `InteropCard` add **no new claims** beyond the underlying source epistemes, including Description epistemes admitted for specification use. | Red‑line vs source episteme, including any exact specification-use source, shows only formatting or indexing. |
+| **CC-MVPK-1a (Publication relations explicit when load-bearing)** | When availability, recurrence, dispute, external exchange, or reliance depends on publication identity, name the selected edition, audience, bounded use, expression, selected form, carrier, expression relation, bearing relation, and publication occurrence. | The exact values resolve only for that stronger use; an ordinary face is not rejected for lacking an unused identity dossier. |
+| **CC‑MVPK‑3 (No content extension)** | `PlainView`, `TechCard`, and `InteropCard` add **no new claims** beyond the underlying source epistemes, including those admitted for specification use. | Red‑line vs source episteme, including any exact specification-use source, shows only formatting or indexing. |
 | **CC-MVPK-4 (Pins and source references when material)** | Numeric or comparable claims relied on through a publication form retain the units, scale, reference plane, edition, and source references that change their interpretation; an ordinal-only claim stays comparison-only and is neither averaged nor converted to a z-score. | Relevant pins are visible, and an ordinal-only face contains no mean or z-score; a qualitative ordinary form carries no irrelevant pin dossier. |
 | **CC-MVPK-4j (Publication bound visible)** | Alongside every selected form, the separate bounded-use declaration is visible; identify exact `U.PublicationScope` when that bound must travel or constrain a stronger use. | The ordinary use line is readable, and any load-bearing scope reference resolves without granting work or reliance. |
 | **CC-MVPK-5 (Return and carrier boundary)** | Every selected form retains a return to source; identify the carrier, the needed A.10 evidence/provenance path or G.6 path citation, and any G.11 currentness result only when carrier identity, carrier work, reliance, evidence, replay, or currentness is material. | Source return is visible; stronger carrier/provenance references appear only where used. |
@@ -75,7 +77,7 @@ A conformance check is kept only if it changes the next bounded use of the publi
 | **CC-MVPK-4e (Signature names the actual object)** | Use **Signature** on a face only for an object that is a signature under its applicable pattern. Use **TechName** or **PlainName** for the face's name. | A cited signature remains identifiable; a face label is not presented as a signature. |
 | **CC‑MVPK‑4f (Numeric and optional-PC discipline)** | Numeric or comparable claims retain the source pins that affect interpretation; when the optional PC profile is selected, its PC and CHR/CG references are explicit. | Cards show the material unit, scale, reference-plane, and edition pins; selected PC fields resolve without making PC classification a prerequisite for an ordinary face. |
 | **CC‑MVPK‑4g (No axis or dimension)** | Faces avoid “axis”, “dimension”, and “plane” metaphors except **ReferencePlane**; use CHR terms (**Characteristic**, slot, or **CharacteristicSpace**). | Lexical check flags none; only `ReferencePlane` appears. |
-| **CC‑MVPK‑4h (Edition pins on defs)** | Where maps, distances, or spaces are cited, the face pins `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `CharacteristicSpaceRef.edition?`. | Validation shows edition fields populated. |
+| **CC‑MVPK‑4h (Edition pins on defs)** | Where maps, distances, or spaces are cited, the face pins `DescriptorMapRef.edition` and `DistanceDefRef.edition` as applicable. Identify the space by `CharacteristicSpaceRef`; when the use depends on its exact definition, pin the separate `characteristicSpaceDescriptionRef: U.EpistemeRef` under A.19:5.1.1.1. | Required references resolve; the description supplies the defining components of that same space. |
 | **CC‑MVPK‑4i (Crossing references)** | A semantic crossing cites its F.9 Bridge and separate bounded-use claim; a plane-dependent value cites its selected `ReferencePlane` and applicable rule. A B.3 `CL`/`Φ(CL)` reference appears only when the current assurance use consumes that integration relation. | F.9 and plane references resolve; any B.3 penalty belongs to the assurance-bearing integration relation, not to the face. |
 | **CC‑MVPK‑4k (Subset‑of underlier)** | A face selecting `E` retains each applicable `ClaimScope` bound. If it presents a qualified holder-ability claim `C` about holder System `H` for work admission, also require `PublicationScope ⊆ WorkScope(C)`; use the intersection when both bounds apply. Reindexing **does not widen** publication scope. | The capability description has EntityOfConcern `H`; `C` designates its work-condition basis. All applicable subset witnesses pass; promotion diff shows no widening. |
 | **CC‑MVPK‑6 (Γ‑separation)** | No cost, time, or data-spend on publication morphisms. | Inspection shows that any cost, time, or data-spend claim concerns separately identified Work. |

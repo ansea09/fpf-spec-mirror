@@ -6,12 +6,12 @@ section_id: "E.17:5"
 section_title: "Solution — the MVPK Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__006_solution-the-mvpk-kit.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:5 — Solution — the MVPK Kit"
-line_start: 107123
-line_end: 107453
+line_start: 107523
+line_end: 107853
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -20,6 +20,8 @@ dependencies:
   - "A.22"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.9"
   - "A.7"
   - "B.3"
@@ -50,18 +52,18 @@ keywords:
 * **Bounded use before exact scope.** Alongside each selected publication form, state the separate bounded-use declaration in ordinary prose. Identify an exact `U.PublicationScope` under A.2.6 when scope identity must travel across publication, comparison, exchange, dispute, or reliance. The scope establishes neither `U.View` membership nor permission, evidence, work, assurance, or release, and it encodes neither the selected source, viewpoint, publication-form profile, Publication Characteristics, nor carrier.
 * **Resolve before authoring.** Reuse an existing viewpoint when its concerns and rules fit the reader/use. Author a new reusable viewpoint, or create a project-local family declaration under E.17.1, only when the current need cannot be served truthfully by an existing viewpoint or a simple bounded publication face. E.17.0 tests viewpoint conformance. Use E.17.1 to identify the catalogue edition, ordinary family designator, local declaration claim block, and needed `U.ViewpointRef` subset.
 * **Optional profile.** A formal MVPK profile fixes exact publication-form designators, any declared partial order, Publication Characteristics and pins, and any cross-context or reference-plane constraints. These fields apply only to the optional formal or load-bearing branch, not to the ordinary first result.
-* **Canonical labels.** `PlainView`, `TechCard`, `InteropCard`, and `AssuranceLane` are historical MVPK face designators. None identifies a `U.View`, `U.Viewpoint`, evidence object, assurance result, or gate. Use only the designators needed by the current readers; MVPK-Max is the optional profile in which all four have an actual use.
+* **Canonical labels.** `PlainView`, `TechCard`, `InteropCard`, and `AssuranceLane` are MVPK face designators. None identifies a `U.View`, `U.Viewpoint`, evidence object, assurance result, or gate. Use only the designators needed by the current readers; MVPK-Max is the optional profile in which all four have an actual use.
 
 #### E.17:5.1 - Terminology (normative)
 
 * **View** (`U.View`): the same C.2.1 episteme individual for which `EpistemeViewpointConformanceRelation(E,P)` obtains under E.17.0 for an exact `U.Viewpoint` episteme `P`. A publication-form label, `viewpointRef`, direct authoring, A.6.3 construction, or publication occurrence does not establish that membership. An ordinary publication form exposes its current source reference and separate reader/use declaration; add the exact `publicationViewpointRef`, conformance relation, scope, occurrence, carrier, or pins only when those identities change publication or reliance.
 * **Publication vs expression vs bearing vs presentation vs rendering vs representation (guard):**
-    * **Publication occurrence** = the E.24.PUB `EpistemePublicationRelation` among the selected episteme edition, audience declaration, bounded-use declaration, publication form, and `U.PresentationCarrier`. Ontically these participants stay distinct; spell out their exact identities when availability, recurrence, dispute, cross-context exchange, or reliance depends on them. Preparing or inspecting an ordinary face need not begin with a five-participant dossier. A.6.3 construction and E.17.0 conformance remain separate.
-    * **Form expression** = `PublicationFormExpressionRelation` among the selected edition, exact publication form, and bounded-use declaration. It states that the form expresses enough of that edition for the use; omission, coarsening, or changed admitted operations can end it without changing the carrier.
-    * **Carrier bearing** = `PublicationFormBearingRelation` between the exact `U.PresentationCarrier` and exact publication form. It states that this carrier bears the recoverable form; it is neither publication availability nor episteme identity.
-    * **Presentation** = rhetorical arrangement of a published carrier; **notation-neutral**, adds no claims and is **not** a `publication-face kind`.
-    * **Rendering** = display layout of a carrier, purely graphical formatting; performed rendering is separate `U.Work` on its exact carrier, not a `publication-face kind` or publication occurrence.
-    * **Representation** = a C.29 representation and its exact correspondence to independently recovered objects or relations; it is not a publication occurrence, publication form, view-membership rule, or carrier. Publication or representation does not by itself make any represented object or relation exist.
+    * **Publication occurrence** = the E.24.PUB relation among exact E, audience declaration A, bounded-use declaration U, particular expression X and independently identified carrier C. Recover their identities when availability, recurrence, exchange or reliance depends on them. Preparing an ordinary face can stop with its useful expression; source construction and viewpoint conformance retain their own predicates.
+    * **Expression** = `PublicationExpressionRelation(E,X,U)`: the particular X conveys the required claims of E for U. A selected reusable form F constrains X through `PublicationFormConformanceRelation(X,F)`. `PublicationFormExpressionRelation(E,F,U)` states that an adequate X conforming to F exists; its three-participant occurrence can continue when the witness X changes.
+    * **Carrier bearing** = `PublicationExpressionBearingRelation(C,X)`: an actual state or realization of independently identified C yields exact X. `PublicationFormBearingRelation(C,F)` states that C bears an X conforming to F. Form-mediated availability requires the same X to witness expression, bearing and conformance.
+    * **Presentation** = the order, grouping and emphasis arranged for a recipient in an expression. In a source-preserving MVPK publication, these choices must preserve the required source claims and their qualifications. A different arrangement can change X while preserving E.
+    * **Rendering** produces or displays an expression through a carrier. Name the rendered construction when comparing X and the actual system-performed Work when its production matters. Its decoding, layout or graphical choices can affect recoverability and need the preservation test for the selected use.
+    * **Representation** relates an independently identified construction to its subject through a recoverable correspondence. A.6.3.RT and A.6.3.RT.OE govern constructing and using that expression; C.29 supplies the mathematical-lens branch. The correspondence and intended operation determine what can be returned to the represented subject.
 * **Architecture-description mapping note.** An architecture **viewpoint** maps to one exact `U.Viewpoint` episteme; `PublicationVPId` or `EngineeringVPId` designates it and a `U.ViewpointRef` resolves it. An architecture **view** maps to one exact episteme that passes E.17.0 conformance. An MVPK face is the separate publication form through which that episteme may be exposed for a separately declared bounded use and, when material, in an exact publication occurrence.
 * **Publication work:** Build, rendering, upload, or delivery may be actual `U.Work` performed by an exact System recovered through A.13. When such Work is current, A.15.1 independently identifies the Work, performers, Method, time, and containing System. Add F.6 only when the publication account expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact. Name a carrier relation separately only when the claim or downstream use depends on it.
 * **Viewpoint (`U.Viewpoint`)** - an exact claim-bearing episteme edition recognized under E.17.0's dependent-kind rule. Resolve an existing viewpoint when it already states the relevant concerns and conformance rules. Author a new reusable viewpoint, or create an E.17.1 local family declaration inside an exact catalogue episteme edition, only when the current reader/use cannot be served truthfully without that separate result. The declaration packages exact `U.ViewpointRef` values; it is not another bundle entity. `PublicationVPId` designates the viewpoint episteme; `U.ViewpointRef` resolves it.
@@ -97,21 +99,21 @@ For functional-description publications, E.17 covers only the publication relati
 
 Ordinary orientation and source-finding can stay as an inline note.
 
-**Functional-description guard (`CC-MVPK-FD`).** A functional-description publication separates the source `U.Episteme` or episteme-side `U.View`, the exact publication form (the MVPK face), any present carrier or rendering work, the separate bounded-use declaration, and unsupported neighboring use. The guard applies only when a functional-description face is present; it is not the first universal MVPK conformance gate.
+**Functional-description guard (`CC-MVPK-FD`).** A functional-description publication separates the source `U.Episteme` or episteme-side `U.View`, the particular expression and the exact reusable publication form (the MVPK face), any present carrier or rendering work, the separate bounded-use declaration, and unsupported neighboring use. The guard applies only when a functional-description face is present; it is not the first universal MVPK conformance gate.
 
-MVPK inherits the distinction among `U.Episteme`, contingent published-episteme use, publication occurrence, publication form, `U.View`, `U.PresentationCarrier`, and authority-reference relation. It introduces no durable published-episteme kind or other generic semio kind. A publication face does not define another relation's claim, supply authority, or become the source claim merely by being published; use the exact source or authority relation when one is current.
+MVPK inherits the distinction among `U.Episteme`, contingent published-episteme use, publication occurrence, particular expression, reusable publication form, `U.View`, carrier, and authority-reference relation. It introduces no durable published-episteme kind or other generic semio kind. A publication face does not define another relation's claim, supply authority, or become the source claim merely by being published; use the exact source or authority relation when one is current.
 
 When a morphism publication is encountered or reused, name only the relation positions needed by the current use:
 
 * the selected source `U.Episteme`, `D` episteme, or `S` episteme edition and the claims actually exposed; identify its exact ClaimGraph only when claim identity must travel;
-* the exact `PublicationFormExpressionRelation` occurrence among that selected edition, exact form, and exact bounded-use declaration;
-* the exact `PublicationFormBearingRelation` occurrence between the presentation carrier and form;
+* the exact `PublicationExpressionRelation` occurrence among that selected episteme, particular expression X and bounded-use declaration, with form conformance when the use depends on F;
+* the exact `PublicationExpressionBearingRelation` occurrence between independently identified C and X; use the form-mediated predicates when that quantified granularity answers the receiving question;
 * the exact five-participant `EpistemePublicationRelation` occurrence when that selected edition is available to the declared audience for the bounded use;
 * the selected episteme's independent E.17.0 `U.View` membership when the publication use calls it a view, plus any separate A.6.3 construction history when current;
 * the exact system-performed carrier or rendering Work; any A.10 evidence/provenance path or G.6 path citation needed to replay it; and any G.11 currentness result, only when those neighboring facts are current; and
 * the exact project-side object, reference, or authority relation when the next work or reliance claim depends on it.
 
-Changed claim content, EntityOfConcern, or effective reference scheme identifies another episteme edition under C.2.1. Re-evaluate `PublicationFormExpressionRelation` only when its selected edition, form, bounded-use declaration, or obtaining predicate changes; re-evaluate `PublicationFormBearingRelation` only when its carrier, form, or obtaining predicate changes. Independently, changing any of the five `EpistemePublicationRelation` participants identifies another publication occurrence without reidentifying an otherwise unchanged episteme. Publication availability lost and later restored creates a later occurrence; a file rename or layout change alone proves none of those changes.
+Changed claim content, EntityOfConcern or effective reference scheme identifies another episteme under C.2.1; a later-edition claim also requires its source and continuity rule. Re-evaluate expression, bearing and form conformance when their participants or predicates change. Changing any fixed E/A/U/X/C participant identifies another exact publication. For form-mediated availability, retain the common expression witness. For broader continuous availability, retain the permitted alternatives under E.24.PUB:4.2.1: changing one expression or losing one copy need not interrupt the broader availability. A file rename alone does not decide carrier identity.
 The practical payoff is that a reader can recover which object or relation is available for reliance: the episteme claim, the published form, the view, the carrier, the typed project-side FPF kind and reference named by value, or the authority-reference relation. A dashboard tile, generated explanation, card face, credential view, or carrier can guide source-finding, but it does not by itself establish the source claim or effect, gate decision, evidence relation, assurance claim, local system-role kind, separate System-classification judgment, assignment occurrence or state, direct status predicate, responsibility or authority predicate, Work occurrence, or permission. If its source uses *role or status* without making one of those claims clear, treat that phrase as unresolved recognition wording and route it through `E.10.ROLE`; then use the recovered direct pattern or return the exact missing governor.
 
 **Source-exposure rule.** A publication-facing unit or its carrier exposes a project-side object only when that exact object and its direct relation are recoverable. Appearance or production history alone establishes neither. If a real `SpeechAct`, `GateDecision`, evidence path, credential or status source, `U.Work` occurrence, `U.Episteme`, or publication occurrence is recoverable, rely on that object and relation; otherwise use the face only for orientation or source-finding.
@@ -291,7 +293,7 @@ Part E restricts exact `publication-face kind` values to the literals **publicat
 
 * The exact `publication-face kind` values remain **publication face/form** and **interop publication form**.
 * Concrete face designators end in **...View**, **...Card**, or **...Lane** only within this family; the suffix does not establish kind membership.
-* `PlainView` is a historical face name, not a `U.View` claim. Use `U.View` only for an episteme that passes E.17.0 conformance.
+* `PlainView` is a face designator, not a `U.View` claim. Use `U.View` only for an episteme that passes E.17.0 conformance.
 * `AssuranceLane` can expose evidence bindings or pins, but it is not an assurance claim, evidence-sufficiency result, confidence verdict, gate, or release permission.
 * **carrier**, **bearer**, and **holder** retain their exact carrier or relation meanings and do not name a view or publication entity.
 * Any legacy `ViewFamilyId` token is only the ordinary family designator used to retrieve one local E.17.1 declaration claim block inside an exact catalogue episteme edition; it is not a local id kind, `U.View`, `U.Viewpoint`, bundle-membership rule, or face kind.
@@ -310,13 +312,13 @@ The optional morphism-publication profile uses representation-side constructors,
 
 1. `FaceObj_s` is the conceptual object component for publication face designator `s`.
 2. `F_face` is the finite set of exact publication-form designators. Its default formality order is `PlainView <= TechCard <= InteropCard`; `AssuranceLane` remains independent.
-3. `Emit_s(-) : EpMorphism -> FaceMorph_s` constructs candidate publication-form content for `s` when this formal profile is current. If that work also constructs a different claim-bearing episteme, identify that receiving episteme and its source relation separately.
+3. `Emit_s(-) : EpMorphism -> FaceMorph_s` constructs candidate face expression content X under an identified expression domain for `s` when this formal profile is current. If that work also constructs a different claim-bearing episteme, identify that receiving episteme and its source relation separately.
 4. The coherence rules in section 6 and the pin policy constrain this representation-side construction.
 5. `InteropCard` may carry exact interoperability-concern references; concrete exchange schemas remain outside Part E.
 
 `FaceObj_s`, `FaceMorph_s`, and `Emit_s` are local conceptual-form symbols. They are not public U-kinds, `U.Viewpoint` epistemes, `U.View` individuals, publication occurrences, or presentation carriers.
 
-**Result.** `MVPK(f,F_face)` yields a C.13 collection of selected publication forms, each paired with a current source reference and separate bounded-use declaration. If publication work constructs a different claim-bearing episteme rather than only a form of the selected source edition, identify that receiving episteme and its A.6.3 or other exact source relation separately; it is not the face. For each actual publication, E.24.PUB separately tests form expression, carrier bearing, and the five-participant publication occurrence with its declared audience, bounded use, and recurrence rule. E.17.0 conformance, A.22 organization, and C.29 representation remain separate and are checked under their own patterns. If a current use depends on organization among selected forms or among separately identified epistemes, select the exact `U.Structure` under A.22 from the corresponding exact collection, obtaining organizing relations, applied constraints, and use frame; the face collection supplies no structure by itself. `PromoteFace[s->t]` changes publication-form explicitness; it changes neither episteme identity nor viewpoint membership and adds no claims.
+**Result.** `MVPK(f,F_face)` yields a C.13 collection of selected publication forms, each paired with a current source reference and separate bounded-use declaration. The construction also identifies the particular expression X made under each selected form, with its expression-domain equality and source/use binding. If publication work constructs a different claim-bearing episteme rather than only an expression of the selected source episteme, identify that receiving episteme and its A.6.3 or other exact source relation separately; it is not the face. For each actual publication, E.24.PUB separately tests expression, carrier bearing, selected form conformance and the E/A/U/X/C publication occurrence with its declared audience, bounded use, and recurrence rule. E.17.0 conformance, A.22 organization and any C.29 mathematical representation remain separate and are checked under their own patterns. If a current use depends on organization among selected forms or among separately identified epistemes, select the exact `U.Structure` under A.22 from the corresponding exact collection, obtaining organizing relations, applied constraints, and use frame; the face collection supplies no structure by itself. `PromoteFace[s->t]` changes publication-form explicitness; it changes neither episteme identity nor viewpoint membership and adds no claims. A change to X changes an exact publication when that X is its fixed participant. An unchanged E can remain continuously available through the permitted alternative expressions or carriers.
 
 #### E.17:5.4 - EntityOfConcern-side input and output vs publication (normative convention)
 

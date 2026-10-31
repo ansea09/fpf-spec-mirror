@@ -6,12 +6,12 @@ section_id: "E.11.PFP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PFP/E.11.PFP__004_forces.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.11.PFP — Framework Publication Form Profile for Markdown"
   - "E.11.PFP:3 — Forces"
-line_start: 103969
-line_end: 103982
+line_start: 104364
+line_end: 104377
 dependencies:
   - "A.3.2"
   - "C.29"
@@ -43,6 +43,6 @@ keywords:
 | Whole and direct use | Readers need the language's shared problem, organization, reasons, and limits, while a direct question may be answered by one pattern. |
 | Product boundary | Support units may belong to one framework product; independently useful adjacent products need a truthful boundary and public return. |
 | Deterministic checking | Syntax checks should be reproducible, but they must not infer table purpose, product truth, or reader value from prose. |
-| Form and carrier separation | One form may be borne by several carriers, and one outer carrier may expose several products, without merging their identities. |
+| Form and carrier separation | Expressions following one reusable form may be borne by several carriers, and one outer carrier may expose several products, without merging their identities. |
 | Accessibility and translation | Predictable headings and navigation aid many readers and tools, while one English label set cannot silently stand in for every language or access need. |
 

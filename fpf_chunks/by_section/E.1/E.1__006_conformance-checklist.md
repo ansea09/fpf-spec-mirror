@@ -6,12 +6,12 @@ section_id: "E.1:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__006_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.1 — Vision & Mission"
   - "E.1:5 — Conformance Checklist"
-line_start: 92083
-line_end: 92117
+line_start: 92473
+line_end: 92507
 dependencies:
   - "E.2"
 keywords:

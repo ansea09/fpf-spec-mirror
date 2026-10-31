@@ -6,12 +6,12 @@ section_id: "E.10:19"
 section_title: "E.10 regression cues (concept-only “diff” triggers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__021_e-10-regression-cues-concept-only-diff-triggers.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:19 — E.10 regression cues (concept-only “diff” triggers)"
-line_start: 100206
-line_end: 100224
+line_start: 100608
+line_end: 100626
 dependencies:
   - "A.10"
   - "A.15"
@@ -71,7 +71,7 @@ Re-review your prose when any of these happen:
 * **A verb or relational noun loses a needed participant** → restore the object, destination, source, bearer, or other operand when one value is not cheaply and uniquely recoverable; open a deeper FPF route only if that participant is itself governed.
 * **A generic head or support-headed compound acquires an FPF claim or bounded use** → restore the head kind first. If `support` still hides a direct predicate or participant, use the selected E.10 route; otherwise state the concrete sentence and apply its subject pattern.
 * **Wording about a way of doing or a neighboring object changes** → use the selected method-side rule in `E.10:0.2c` or section 9 to recover the exact object or relation. Do not replace one umbrella with `method`, `practice`, `mechanism`, `algorithm`, or `workflow`.
-* **A declarative representation starts to sound imperative** → recover the represented object and correspondence through `C.2.P.DR`, `C.29`, or the exact subject pattern. Treat a path, table, dashboard, formula, or pattern relation as action only when an action claim is actually established.
+* **A declarative representation starts to sound imperative** → recover the represented object and correspondence through `C.2.P.DR` or the exact subject pattern, with `C.29` for mathematical-lens use. Treat a path, table, dashboard, formula, or pattern relation as action only when an action claim is actually established.
 * **New token minted** → ensure `LEX.TokenClass` is declared and perform collision checks. If an enumeration is current, name its closed value set, classified kind, and classification rule; add a `CharacteristicSpace` only when the enumeration is the declared CSLC scale of one named `U.Characteristic`.
 * **Suffix drift** (e.g., `…Work` on a plan) → fix via **LEX.Morph**.
 * **A label is reused across local sources, practices, or schemes** → recover each local meaning. Keep them distinct unless an F.9 Bridge actually obtains between exact cells; state any proposed use and reliance separately.

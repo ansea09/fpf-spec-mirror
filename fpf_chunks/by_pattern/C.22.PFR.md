@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.PFR.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
-line_start: 62935
-line_end: 63265
+line_start: 63306
+line_end: 63636
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -223,7 +223,7 @@ An assertion about the exact PFR obtaining predicate has affirmative or negative
 
 A possible or anticipated problem remains an exact forecast, scenario, counterfactual, or anticipated-condition claim in `ProblemCard` or another episteme until an actual-condition relation, an applicability relation, and adverse predicate truth all obtain. `C.2.1` governs its assertion identity and polarity. Use `C.27` when a rate, rhythm, recovery, or regime claim is being used to change action and `C.28` when causal support is at issue. The exact direct claim pattern defines or constrains assumptions, horizon, and non-actual semantics. None of those claim-side facts establishes a current PFR.
 
-A `ProblemCard` is one C.2.1 episteme with one exact ClaimGraph, one independently identified `EntityOfConcern`, and one effective `U.ReferenceScheme`. It may carry claims designating several PFR occurrences only when those claims are jointly about that one EntityOfConcern under the direct pattern that identifies it. When two PFR references lack such a joint concern, split the ClaimGraph and card. Conversely, several cards may designate the same PFR through different ClaimGraphs, schemes, viewpoints, or receiving uses. Card count, merge or split, currentness, assessment window, publication, carrier, and edition change neither PFR actuality nor identity. C.22.2:20.1b replays all three branches with exact objects: two Robot-7 PFR episodes share one A.1-identified `Robot-7` and one card; Robot-7 and Robot-8 PFRs have no direct joint EntityOfConcern and force two ClaimGraphs and cards; and two differently qualified cards retain the unchanged `PFR-InspectionAssignment-17` reference.
+A `ProblemCard` is one C.2.1 episteme with one exact ClaimGraph, one independently identified `EntityOfConcern`, and one effective reference scheme. It may carry claims designating several PFR occurrences only when those claims are jointly about that one EntityOfConcern under the direct pattern that identifies it. When two PFR references lack such a joint concern, split the ClaimGraph and card. Conversely, several cards may designate the same PFR through different ClaimGraphs, schemes, viewpoints, or receiving uses. Card count, merge or split, currentness, assessment window, publication, carrier, and edition change neither PFR actuality nor identity. C.22.2:20.1b replays all three branches with exact objects: two Robot-7 PFR episodes share one A.1-identified `Robot-7` and one card; Robot-7 and Robot-8 PFRs have no direct joint EntityOfConcern and force two ClaimGraphs and cards; and two differently qualified cards retain the unchanged `PFR-InspectionAssignment-17` reference.
 
 A claim that no supported method is currently available concerns the admitted method set, evidence, constraints, and intended use. Selecting or discovering a method changes current solvability; it does not end PFR while the actual condition remains adverse. Performed repair work can end PFR only when an independently recovered actual change makes a participant cease or moves the selected condition point to the non-adverse side.
 

@@ -6,12 +6,12 @@ section_id: "C.2.1:End"
 section_title: "C.2.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__018_c-2-1-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:End — C.2.1:End"
-line_start: 51569
-line_end: 51570
+line_start: 51913
+line_end: 51914
 dependencies:
   - "A.1"
   - "A.1.1"

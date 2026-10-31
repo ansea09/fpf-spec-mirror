@@ -6,12 +6,12 @@ section_id: "C.32.HCS:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__003_problem.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:2 — Problem"
-line_start: 76958
-line_end: 76963
+line_start: 77346
+line_end: 77351
 dependencies:
   - "A.19"
   - "C.11"

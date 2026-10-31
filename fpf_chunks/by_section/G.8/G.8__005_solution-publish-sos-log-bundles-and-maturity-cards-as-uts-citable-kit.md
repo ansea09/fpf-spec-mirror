@@ -6,12 +6,12 @@ section_id: "G.8:4"
 section_title: "Solution — Publish SoS‑LOG bundles and maturity cards as UTS‑citable kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__005_solution-publish-sos-log-bundles-and-maturity-cards-as-uts-citable-kit.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.8 — Package Method-Family Admissibility Rules and Maturity Ladders (SoS-LOG)"
   - "G.8:4 — Solution — Publish SoS‑LOG bundles and maturity cards as UTS‑citable kit"
-line_start: 130087
-line_end: 130283
+line_start: 130676
+line_end: 130873
 dependencies:
   - "A.10"
   - "A.21"
@@ -128,7 +128,7 @@ Method-/generator‑specific payload pins are listed only inside the relevant `G
 
   * `DescriptorMapRef` is a **map‑reference** (typically used with QD archives).
   * `CharacteristicSpaceRef` is a **space‑reference** (grid/cell semantics, if used).
-* Editions are pinned on `…Ref.edition` fields (not on informal names).
+* A `CharacteristicSpaceRef` identifies the exact space. When the use depends on its defining episteme, carry `characteristicSpaceDescriptionRef: U.EpistemeRef` separately and resolve the pair under A.19:5.1.1.1. Other required edition pins follow their direct reference patterns; informal names supply no pin.
 
 #### G.8:4.3 - `SoS‑LOGBundle@Context` schema (conceptual; notation‑independent)
 
@@ -172,7 +172,8 @@ SoS-LOGBundle@Context :=
   DominanceRegime? ,
 
   // Optional: QD / OEE pins (only when those surfaces are declared)
-  CharacteristicSpaceRef.edition? ,
+  CharacteristicSpaceRef? ,
+  characteristicSpaceDescriptionRef? , // U.EpistemeRef; exact definition under A.19:5.1.1.1
   DescriptorMapRef.edition? ,
   DistanceDefRef.edition? ,
   EmitterPolicyRef? ,

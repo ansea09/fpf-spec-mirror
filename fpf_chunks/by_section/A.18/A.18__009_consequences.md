@@ -6,12 +6,12 @@ section_id: "A.18:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__009_consequences.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:8 — Consequences"
-line_start: 34499
-line_end: 34518
+line_start: 34545
+line_end: 34564
 dependencies:
   - "A.17"
   - "A.19"

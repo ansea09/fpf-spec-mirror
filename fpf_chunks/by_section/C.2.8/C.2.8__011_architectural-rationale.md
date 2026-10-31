@@ -6,12 +6,12 @@ section_id: "C.2.8:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__011_architectural-rationale.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:10 — Architectural Rationale"
-line_start: 54292
-line_end: 54299
+line_start: 54639
+line_end: 54646
 dependencies:
   - "A.17"
   - "A.18"
@@ -36,7 +36,7 @@ keywords:
 
 ### C.2.8:10 - Architectural Rationale
 
-The three-bearer definition explains why the same account can support different structural recoveries. The episteme distinguishes a content change, the form distinguishes expression, and the observer distinguishes who or what can extract the structure. Qualification conditions make comparison possible without inventing a new bearer for every resource limit.
+The three-bearer definition explains why the same account can support different structural recoveries. The episteme identifies the expressed account, the particular expression identifies the sign construction available for extraction, and the observer identifies who or what can extract the structure. Reusable-form conformance can hold for several such constructions; the two-statement case shows why those constructions need separate recovery comparisons. Qualification conditions retain the resources and access that make each comparison meaningful.
 
 Articulation explicitness, structural amount and task adequacy answer different questions. A plan can state its action condition completely while its reader lacks the prerequisite procedure. A diagram can expose additional relations while remaining insufficient for a design decision. Keeping these results separate preserves both the useful gain and the precise next question.
 

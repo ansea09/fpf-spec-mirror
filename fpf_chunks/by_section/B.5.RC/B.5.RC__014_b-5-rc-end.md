@@ -6,12 +6,12 @@ section_id: "B.5.RC:End"
 section_title: "B.5.RC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__014_b-5-rc-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:End — B.5.RC:End"
-line_start: 47762
-line_end: 47763
+line_start: 47861
+line_end: 47862
 dependencies:
   - "A.6.3.RT"
   - "B.5"

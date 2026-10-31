@@ -6,12 +6,12 @@ section_id: "C.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__002_use-this-when.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:0 — Use This When"
-line_start: 54671
-line_end: 54684
+line_start: 55018
+line_end: 55031
 dependencies:
   - "A.1"
   - "A.11"
@@ -52,7 +52,7 @@ Use this pattern when a claim needs a reusable kind, a subkind comparison, a jud
 
 **What this buys.** A practitioner can classify an admissible candidate under a known kind without confusing the kind, its declaration and the judgment. A represented set of current members remains available when a query needs it; the conditions being classified retain their own rules.
 
-**Primary EntityOfConcern.** One typed-reasoning question: the exact `U.Kind` individual, its intended candidate domain and membership distinction, any `U.SubkindOf` comparison needed by the claim, and the C.3.2 candidate question the use actually asks. The exact `KindSignature` edition carries the effective `U.ReferenceScheme` in its claim content; the scheme and practice/source provenance are not stored on the kind.
+**Primary EntityOfConcern.** One typed-reasoning question: the exact `U.Kind` individual, its intended candidate domain and membership distinction, any `U.SubkindOf` comparison needed by the claim, and the C.3.2 candidate question the use actually asks. The exact `KindSignature` edition makes its effective designation and interpretation rules recoverable; the scheme and practice/source provenance are not stored on the kind.
 
 **First useful move.** Write the ordinary conclusion first. For example: `Pump #14 counts as a cooling pump in this plant slice because it satisfies the declared cooling-pump condition.` Add a reusable declaration, admissibility detail, explicit judgment, support reference, or extension representation only when a named receiving use needs it.
 

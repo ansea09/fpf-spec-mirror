@@ -6,12 +6,12 @@ section_id: "F.8:7"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__009_archetypal-grounding-worked-cases.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:7 — Archetypal Grounding - worked cases"
-line_start: 120440
-line_end: 120488
+line_start: 121024
+line_end: 121072
 dependencies:
   - "A.11"
   - "A.15"
@@ -68,7 +68,7 @@ The source label `PatternReview_2026` is not a context object. Classify the actu
 
 - `ReviewWork-82` can be one dated `U.Work` occurrence under `A.15.1`;
 - `ReviewPlan-2026-v3` can be a separately constituted plan episteme or edition under its subject pattern;
-- `PatternReviewReferenceScheme-2026` can be an effective by-value `U.ReferenceScheme` for interpreting review terminology; and
+- `PatternReviewReferenceScheme-2026` can designate the effective rules carried by value for a review use, provided those rules and their semantic dependencies are recoverable and interpret the review terminology; and
 - "used while deciding the label for the 2026 review method" can be claim content describing the decision-use setting without minting any context entity.
 
 If the recovered `ReviewerSystemRole` kind needs a durable local designation, F.8 returns `openDurableNamingSettlement`: A.2 and C.3 keep governing the kind, F.5 governs its designation, and F.18 supplies the settlement. The recovered kind is the governed subject; F.4 enters only for a separately needed description, A.2.1 for an assignment, and A.15.1 for performed review Work.

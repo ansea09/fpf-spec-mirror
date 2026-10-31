@@ -6,12 +6,12 @@ section_id: "D.2:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__012_consequences.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "D.2 — Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)"
   - "D.2:7 — Consequences"
-line_start: 91367
-line_end: 91370
+line_start: 91757
+line_end: 91760
 dependencies:
   - "A.1"
   - "A.15"

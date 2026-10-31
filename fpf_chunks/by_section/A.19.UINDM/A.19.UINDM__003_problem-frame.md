@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__003_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.19.UINDM — Indicatorization (UINDM): Select Indicators Under a Declared Policy"
   - "A.19.UINDM:1 — Problem frame"
-line_start: 37824
-line_end: 37833
+line_start: 37890
+line_end: 37899
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -29,6 +29,6 @@ Suite membership is a **set** (order has no semantics); any intended ordering is
 
 Within the canonical suite‑closed protocol, UINDM appears as the `indicatorize` stage (after `normalize`, before `score/compare/select`; optional stages remain explicitly optional per `suite_protocols`).
 
-UINDM is governed by CN-Spec and, for an evidence-gated policy, CG-Spec: it selects an **indicator subset** over an existing `U.CharacteristicSpace` under `CN‑Spec.indicator_policy`, using the suite-wide SlotKind lexicon to prevent SlotKind drift across the CHR mechanism chain and across SoTA wiring modules.
+UINDM is governed by CN-Spec and, for an evidence-gated policy, CG-Spec: it selects an **indicator subset** over an existing `DeclaredCharacteristicSpace` under `CN‑Spec.indicator_policy`, using the suite-wide SlotKind lexicon to prevent SlotKind drift across the CHR mechanism chain and across SoTA wiring modules.
 A “subspace view” (if needed) is treated as a **derived support view** over the chosen set (see `A.19.UINDM:4.2`), not as an extra mandatory output of the kernel signature.
 

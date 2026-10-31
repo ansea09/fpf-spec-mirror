@@ -6,12 +6,12 @@ section_id: "E.18:7.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 110314
-line_end: 110323
+line_start: 110797
+line_end: 110806
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -45,5 +45,5 @@ keywords:
 | Flow as performed work | A valuation or path is treated as a work occurrence or work procedure. | Keep work planning and performed work with the A.15 family. |
 | Gate everywhere | Internal step validity, crossing, launch, and gate-decision publication are collapsed. | Use `A.20` for internal constraint validity, `A.21` for gate fit, aggregation, and decision, and `E.17` for publication. |
 | Publication face as evidence | An MVPK face or dashboard view is treated as evidence, gate passage, release authorization, or deontic permission. | Use `E.17` for publication, `A.10` for evidence/currentness, `A.21` for gate effects, `A.2.9` for an issuing act, `A.2.8.PER` for strong/weak permission, exercise, non-violation, or conflict, `A.2.8` only for an actual duty/recommendation/prohibition commitment, and the actual release authority for release. |
-| Whole-flow refresh | Any small edition, source-use relation, or source-publication relation change triggers a whole-structure rewrite. | Refresh the smallest affected path slice, crossing, edition pin, source-use relation, source-publication relation, or publication face. |
+| Whole-flow refresh | Any small edition or source-use change triggers a whole-structure rewrite, or the first detected slice is treated as the whole dependency scope. | Follow 5.13 through every actual dependent branch, join and consuming face; address the needed slices and preserve independent uses. |
 

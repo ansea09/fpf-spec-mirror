@@ -6,12 +6,12 @@ section_id: "A.19.CN:12"
 section_title: "Interaction summary (wiring to the rest of the kernel)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__013_interaction-summary-wiring-to-the-rest-of-the-kernel.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:12 — Interaction summary (wiring to the rest of the kernel)"
-line_start: 36720
-line_end: 36726
+line_start: 36783
+line_end: 36789
 dependencies:
   - "A.19"
   - "A.6.1"

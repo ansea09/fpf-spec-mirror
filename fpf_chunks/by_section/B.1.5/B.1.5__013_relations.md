@@ -6,12 +6,12 @@ section_id: "B.1.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__013_relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:12 — Relations"
-line_start: 42478
-line_end: 42501
+line_start: 42569
+line_end: 42592
 dependencies:
   - "A.1"
   - "A.15"
@@ -44,7 +44,6 @@ dependencies:
   - "F.6"
   - "G.5"
   - "U.MethodDescription"
-  - "U.PresentationCarrier"
   - "U.Signature"
   - "U.Structure"
   - "U.Work"
@@ -73,7 +72,7 @@ B.1.5.CM constructs the prospective whole, constituent contributions, joins and 
 - Uses `A.6.REL` only when an independently admitted relation kind has an obtaining occurrence whose identity a receiver consumes. B.1.5 does not manufacture occurrence semantics for ordinary claim content.
 - Uses `C.2.1` to identify predicate-definition, signature, and MethodDescription epistemes and any later episteme with changed identity-bearing content. Uses `EpistemeEditionRelation` only when C.2.1's exact historical-continuation predicate obtains; otherwise the later episteme is a non-continuing replacement. A predicate definition may satisfy ordinary A.6.0 `U.Signature` membership; only an admitted relation kind can have a `RelationSignature`.
 - Uses `B.1.4` only when a receiving use needs an explicit aggregation of already admitted, obtaining order relations, an `OrderSpec`, and join or independence conditions.
-- Uses `A.3.2` for each exact claim-bearing `U.MethodDescription` and `E.24.PUB` only when a named use requires publication detail: independently identified bounded-use- and audience-declaration epistemes, boundary-account form and `U.PresentationCarrier`; exact `PublicationFormExpressionRelation` and `PublicationFormBearingRelation`; separate publication Work performed by a system; and the five-participant `EpistemePublicationRelation` occurrence that makes the edition available. Raw audience and designation content remain separately governed.
+- Uses `A.3.2` for each exact claim-bearing `U.MethodDescription` and `E.24.PUB` only when a named use requires publication detail: independently identified bounded-use- and audience-declaration epistemes, particular expression, independently identified carrier and any selected boundary-account form; exact expression, bearing and applicable form-conformance relations, with one shared expression witness for combined form-mediated availability; separate publication Work performed by a system; and the five-participant `EpistemePublicationRelation` occurrence that makes the edition available. Raw audience and designation content remain separately governed.
 - Uses `A.22.CGUS` when a real first–then, guarded, branching, or returning unfolding is the useful result; an unfolding position is not a subject level or evidence that all contributions are sequential.
 - Uses `A.15`, `A.15.1`, and `A.15.2` for exact dated `U.Work`, `enactsMethod`, and plans; uses `A.2`, `A.2.1`, and F.6 for local system-role-kind and Method alignment, separately declared assignment species, actual assignment occurrences, and obtaining Work–assignment attributions. The Method does not act, Work is not a relying reader, and neither a system-role kind nor an assignment performs Work.
 - Uses `B.1.6` and `Gamma_work` only for occurrence-side work-resource aggregation after the Work and resource relations are recovered.

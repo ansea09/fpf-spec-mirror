@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.29 — Mathematical Lens Use"
-line_start: 68543
-line_end: 69556
+line_start: 68914
+line_end: 69927
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -207,7 +207,7 @@ When expected information gain determines which observation to obtain, choose a 
 
 Use this subcase when a mathematical lens estimates, compresses, codes, compares, or otherwise exposes how much selected structure a bounded observer can recover from a description, relation trace, generated graph, model, or reusable-structure accounting result. Typical examples include MDL-like two-part codes, epiplexity-style extracted-structure estimates, compression-complexity comparisons, and information-functionals over relation graphs.
 
-`C.2.8` defines extractable structural information for the episteme, expressing form and observer under stated conditions. When this lens output is used to estimate that characteristic, state how its mathematical objects, admissible models, selected structure and resource bound correspond to those conditions. A comparison that uses an adequate domain method directly needs no mathematical lens.
+`C.2.8` defines extractable structural information for the episteme, the particular expression conveying it and the observer under stated conditions. When this lens output is used to estimate that characteristic, state how its mathematical objects, admissible models, selected structure and resource bound correspond to that expressed account, observer and comparison conditions. A comparison that uses an adequate domain method directly needs no mathematical lens.
 
 For an epiplexity estimate, distinguish the selected model's description length from the residual data description, the model-execution bound from estimation effort, and conditional model information from all familiar structure a reader can recover. Use the existing source, mapping, preserved/lost-structure and stop fields to state the correspondence. The formal model and its application conditions are explained in `C.2.8:4.6`; a numerical measurement claim also uses `C.16`.
 

@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "C.16"
 pattern_title: "Measurement & Metrics Characterization (MM‑CHR)"
-section_id: "C.16:End"
-section_title: "C.16:End"
+section_id: "C.16:15b"
+section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.16/C.16__020_c-16-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+output_path: "by_section/C.16/C.16__020_c-29-mathematical-lens-use-relation.md"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
-  - "C.16:End — C.16:End"
-line_start: 58518
-line_end: 58519
+  - "C.16:15b — C.29 mathematical-lens use relation"
+line_start: 58893
+line_end: 58896
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -53,5 +53,7 @@ keywords:
   - "uncertainty"
 ---
 
-### C.16:End
+### C.16:15b - C.29 mathematical-lens use relation
+
+If a mathematical lens depends on a measurement, recover the C.16 measurand, Scale, model, calibration, work, uncertainty, result episteme, and comparability basis first. C.29 may then state the lens-use admissibility claim; it does not construct the measurement, make values comparable, or provide provenance. A.10/G.6 retain provenance and B.3 retains assurance.
 

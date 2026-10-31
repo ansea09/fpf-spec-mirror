@@ -6,12 +6,12 @@ section_id: "B.2.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__002_use-this-when.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:0 — Use This When"
-line_start: 44123
-line_end: 44142
+line_start: 44214
+line_end: 44233
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,7 +40,7 @@ Use this pattern when B.2 has identified one exact candidate new whole and that 
 
 Use `B.2` first to decide whether whole reidentification is current and to identify the one candidate new whole. Use `B.2.3` when that candidate is to be tested under `U.Episteme`. For a first constitution or recognition without an established prior whole, use A.1 and C.2.1 as explained in B.2:4.
 
-**First useful move.** For B.2's exact candidate, identify one `U.ClaimGraph`, one exact EntityOfConcern, and one effective `U.ReferenceScheme`, then test whether their `EpistemeConstitutionRelation` obtains under C.2.1. Keep grounding, viewpoint, view, publication, source use, representation, evidence, and assurance in their neighboring direct relations.
+**First useful move.** For B.2's exact candidate, identify its complete interpreted claim content, the independently identified EntityOfConcern, and the effective rules for designating that entity and interpreting those claims (C.2.1:4.1.1). Test whether their `EpistemeConstitutionRelation` obtains. Keep grounding, viewpoint, view, publication, source use, representation, evidence, and assurance in their neighboring direct relations.
 
 **What goes wrong if missed.** A catalogue, literature review, dashboard, model repository, or vocabulary is called a new theory without claim-graph reidentification; or a real new episteme whole is treated as a pile of publications.
 

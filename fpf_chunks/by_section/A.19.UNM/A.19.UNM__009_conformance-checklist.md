@@ -6,12 +6,12 @@ section_id: "A.19.UNM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__009_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:7 — Conformance Checklist"
-line_start: 37710
-line_end: 37724
+line_start: 37776
+line_end: 37790
 dependencies:
 keywords:
   - "CV→NCV"

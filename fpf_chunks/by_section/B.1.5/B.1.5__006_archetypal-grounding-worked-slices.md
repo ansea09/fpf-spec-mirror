@@ -6,12 +6,12 @@ section_id: "B.1.5:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:5 — Archetypal Grounding — Worked Slices"
-line_start: 42359
-line_end: 42406
+line_start: 42450
+line_end: 42497
 dependencies:
   - "A.1"
   - "A.15"
@@ -44,7 +44,6 @@ dependencies:
   - "F.6"
   - "G.5"
   - "U.MethodDescription"
-  - "U.PresentationCarrier"
   - "U.Signature"
   - "U.Structure"
   - "U.Work"
@@ -99,9 +98,9 @@ Suppose one dated training Work enacts the exact pipeline Method while three ind
 
 A paper draft, workflow diagram, repository, or notebook may be a claim-bearing episteme, a representation, or a carrier; its form does not make it the Method. Publication Work is `U.Work`. Compute, storage, reviewer time, artifact production, release, and acceptance stay with their subject patterns.
 
-`EvidenceSynthesisInterfaceDescription-v3 : U.MethodDescription` may state that the Method exposes `Submit()` and `ReleaseArtifacts()`, forwards `CrossValidate.Folds(k)`, and encapsulates ad hoc scrubbing utilities. Identify `SubmissionReleaseBoundaryAccountForm-v3` independently as the reusable arrangement entity selected as the boundary-account form. Identify `EvidenceSynthesisMethodsPage-2026-07 : U.PresentationCarrier` independently as the digital carrier. Identify `SubmissionAndArtifactReleaseUse : U.Episteme` as the bounded-use declaration whose claims state the supported submission and artifact-release operations, their conditions, and the excluded stronger use. Identify `SubmittingResearchersAudienceDeclaration-v1 : U.Episteme` as the audience declaration whose claims select the authorized submitting researchers; those researchers are the declared audience, not a participant substituted for the declaration episteme.
+`EvidenceSynthesisInterfaceDescription-v3 : U.MethodDescription` may state that the Method exposes `Submit()` and `ReleaseArtifacts()`, forwards `CrossValidate.Folds(k)`, and encapsulates ad hoc scrubbing utilities. Identify `SubmissionReleaseBoundaryAccountForm-v3` independently as the reusable arrangement entity selected as the boundary-account form. Identify `SubmissionReleaseBoundaryAccountExpression-v3 : U.Entity` as the independently specified ordered text that fills that arrangement with these interface claims, and establish its conformance to that form. Identify `EvidenceSynthesisMethodsPage-2026-07 : U.Entity` independently under its digital file-object identity rule as the carrier whose actual state yields that expression. Identify `SubmissionAndArtifactReleaseUse : U.Episteme` as the bounded-use declaration whose claims state the supported submission and artifact-release operations, their conditions, and the excluded stronger use. Identify `SubmittingResearchersAudienceDeclaration-v1 : U.Episteme` as the audience declaration whose claims select the authorized submitting researchers; those researchers are the declared audience, not a participant substituted for the declaration episteme.
 
-`PublicationFormExpressionRelation(EvidenceSynthesisInterfaceDescription-v3, SubmissionReleaseBoundaryAccountForm-v3, SubmissionAndArtifactReleaseUse)` must obtain for that form use, and `PublicationFormBearingRelation(EvidenceSynthesisMethodsPage-2026-07, SubmissionReleaseBoundaryAccountForm-v3)` must obtain for that bearing claim. `ResearchPublicationSystem` performs the separate `EvidenceSynthesisInterfacePublicationWork-2026-07 : U.Work`, which may establish or restore availability. The distinct `EvidenceSynthesisInterfacePublication-2026-07` occurrence of `EpistemePublicationRelation` has the five fixed participants `<EvidenceSynthesisInterfaceDescription-v3, SubmittingResearchersAudienceDeclaration-v1, SubmissionAndArtifactReleaseUse, SubmissionReleaseBoundaryAccountForm-v3, EvidenceSynthesisMethodsPage-2026-07>` and carries the description edition's enduring availability to the audience selected by the audience declaration for the bounded use. Publication Work is not a participant of that occurrence. None of these description, declaration, form, carrier, Work, or publication-relation objects creates an interaction, `SlotSpec`, Method part, or composition fact.
+`PublicationExpressionRelation(EvidenceSynthesisInterfaceDescription-v3, SubmissionReleaseBoundaryAccountExpression-v3, SubmissionAndArtifactReleaseUse)`, `PublicationExpressionBearingRelation(EvidenceSynthesisMethodsPage-2026-07, SubmissionReleaseBoundaryAccountExpression-v3)`, and `PublicationFormConformanceRelation(SubmissionReleaseBoundaryAccountExpression-v3, SubmissionReleaseBoundaryAccountForm-v3)` must obtain. The same expression witnesses the corresponding `PublicationFormExpressionRelation` and `PublicationFormBearingRelation` claims. `ResearchPublicationSystem` performs the separate `EvidenceSynthesisInterfacePublicationWork-2026-07 : U.Work`, which may establish or restore availability. The distinct `EvidenceSynthesisInterfacePublication-2026-07` occurrence of `EpistemePublicationRelation` has the five fixed participants `<EvidenceSynthesisInterfaceDescription-v3, SubmittingResearchersAudienceDeclaration-v1, SubmissionAndArtifactReleaseUse, SubmissionReleaseBoundaryAccountExpression-v3, EvidenceSynthesisMethodsPage-2026-07>` and carries the description edition's enduring availability to the audience selected by the audience declaration for the bounded use. Publication Work is not a participant of that occurrence. None of these description, declaration, expression, form, carrier, Work, or publication-relation objects creates an interaction, `SlotSpec`, Method part, or composition fact.
 
 #### B.1.5:5.5 - Ordered Preparation And Simultaneous Performance
 

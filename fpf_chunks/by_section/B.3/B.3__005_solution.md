@@ -6,12 +6,12 @@ section_id: "B.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:4 — Solution"
-line_start: 44836
-line_end: 44958
+line_start: 44927
+line_end: 45055
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -73,6 +73,12 @@ AssuranceResult:
 ```
 
 `targetClaimRef` identifies the exact C.2.1 episteme or one exact C.2.1 `ClaimAddress` when the use concerns one addressed claim inside a larger episteme. `basisRefs` cite the direct results, evidence-use relations, provenance paths, argument claims, or domain rules actually used. A compact result is complete when these fields decide the named use and another person can see why the stronger use is not carried.
+
+Keep the assurance argument readable beside its result or through references that let the recipient inspect it. Explain why the cited basis supports the target claim for this use, including applicable assumptions, limitations and relevant contrary results. This written account is an **assurance case**. Develop it while reasoning: start with the claim and use, state the proposed support, and revise the argument when a premise or inference proves inadequate. A short coherent paragraph can suffice; add detail when review, transfer or later reconsideration needs it.
+
+Use C.2.1 to identify the epistemes whose claims make up the case. A claim about a system retains that system as its subject. For an assurance-result episteme, the EntityOfConcern is the target claim content or episteme whose support is being judged; `targetClaimRef` locates that subject. A case can bring several such epistemes together, preserving their identities and argument relations. The text or diagram expresses their claims; E.24.PUB governs the expression and its carrier.
+
+An unfinished argument remains useful working material: identify the missing support and return the appropriate unresolved disposition. A positive assurance result requires an argument sufficient for the named use under the applicable domain rules.
 
 Add a claim scope, condition set, interpretation scheme, audience, or time window only when changing it could change the conclusion. Keep design and run conclusions separate whenever their inputs or conditions differ.
 

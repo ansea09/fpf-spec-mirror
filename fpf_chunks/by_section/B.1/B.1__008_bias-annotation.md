@@ -6,12 +6,12 @@ section_id: "B.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__008_bias-annotation.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:6 — Bias-Annotation"
-line_start: 41082
-line_end: 41090
+line_start: 41171
+line_end: 41179
 dependencies:
   - "A.1"
   - "A.14"

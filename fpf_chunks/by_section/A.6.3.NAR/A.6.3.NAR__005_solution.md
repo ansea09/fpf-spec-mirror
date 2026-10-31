@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:4 — Solution"
-line_start: 19329
-line_end: 19502
+line_start: 19362
+line_end: 19535
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -72,7 +72,7 @@ Open this branch when the identified receiving use depends on exact claim identi
 
 Then establish exact A.6.3 construction `n : X -> Y`:
 
-1. identify source episteme `X` and receiving narrative episteme `Y` independently under C.2.1 by claim content, exact EntityOfConcern, and effective `U.ReferenceScheme`;
+1. identify source episteme `X` and receiving narrative episteme `Y` independently under C.2.1 by claim content, exact EntityOfConcern, and effective interpretation rules (`ReferenceScheme`);
 2. require the same exact EntityOfConcern; a narrative about another concern requires A.6.4;
 3. state how exact claims in `X` and any named additional source epistemes construct the sequential claim content of `Y`;
 4. state the endpoint scheme relation, ordering rule, preserved and foregrounded content, admitted loss, prohibited strengthening, applicability, and return; and
@@ -123,11 +123,11 @@ StructureToNarrativeRenderingCase:
 
 Resolve `X` and `Y` to their complete C.2.1 identities and use this record only for the construction account. When actual production history matters, recover each precise performer's A.13 core and independently admit dated narrative-construction Work under A.15.1; add F.6 afterward only when precise assignment-bound attribution is current. `readerInterestOrUseHypothesis` remains the working hypothesis. Include each optional System, system-role-kind, or assignment reference only when its exact referent and direct claim obtain independently. Connect source epistemes, parameters, methods, tools, and `Y` through exact direct relations or A.6.1 bindings. If the Work first constitutes `Y` and that inception claim matters, use A.15.PROD to test that separate local claim.
 
-`epiplexityOrStructuralInformationRef?` refers to a qualified `C.2.8` comparison or estimate when the narrative use depends on structural amount. Identify the receiving narrative episteme, its expressing form, the observer and relevant preparation, access and budget. A formal epiplexity or other mathematical estimate uses the `C.29` model-to-characteristic correspondence; a domain estimate retains its scale and evaluation conditions. The field remains optional for the ordinary narrative and note.
+`epiplexityOrStructuralInformationRef?` refers to a qualified `C.2.8` comparison or estimate when the narrative use depends on structural amount. Identify the receiving narrative episteme, its particular expression, the observer and relevant preparation, access and budget. A formal epiplexity or other mathematical estimate uses the `C.29` model-to-characteristic correspondence; a domain estimate retains its scale and evaluation conditions. The field remains optional for the ordinary narrative and note.
 
 `nonAdmissibleDownstreamUse?`, also named `groundedNonAdmissibleDownstreamUse?`, is one optional explanatory field governed by F.19:4's plausible-reader test.
 
-Publication remains separate. E.24.PUB identifies any occurrence that makes selected episteme `Y` available to an audience and bounded use through a publication form and `U.PresentationCarrier`. C.2.1 identifies `Y`, A.6.3 governs the construction `n`, and E.17.0 independently decides whether `Y` has `U.View` membership.
+Publication remains separate. E.24.PUB identifies any occurrence that makes selected episteme `Y` available to an audience and bounded use through one independently identified expression and the actual state or realization of its independently identified carrier. Any selected reusable publication form constrains that expression separately. C.2.1 identifies `Y`, A.6.3 governs the construction `n`, and E.17.0 independently decides whether `Y` has `U.View` membership.
 
 Use this optional unfolding block when an independently identified selected structure must be carried into a reader-facing sequence with explicit loss and return:
 

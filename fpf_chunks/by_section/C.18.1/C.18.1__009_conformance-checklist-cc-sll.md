@@ -6,12 +6,12 @@ section_id: "C.18.1:6"
 section_title: "Conformance Checklist (CC-SLL)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__009_conformance-checklist-cc-sll.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:6 — Conformance Checklist (CC-SLL)"
-line_start: 60963
-line_end: 60970
+line_start: 61330
+line_end: 61337
 dependencies:
   - "C.16"
   - "C.17"

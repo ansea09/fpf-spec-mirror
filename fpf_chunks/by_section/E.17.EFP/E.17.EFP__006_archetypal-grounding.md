@@ -6,12 +6,12 @@ section_id: "E.17.EFP:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__006_archetypal-grounding.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:5 — Archetypal grounding"
-line_start: 107969
-line_end: 108083
+line_start: 108369
+line_end: 108483
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ This stays within `SourcePinnedExplanation` because the rendering changes readab
 
 **Published reconstruction.** `During standard load, CL-2 outlet temperature satisfies the IC-7 upper-bound criterion stated by D-18.`
 
-The connective is recoverable because both claims concern the same outlet and load context, `RS_plantThermal` supplies the Celsius order, and `65 <= 70`. The compact `addedLinkPolicy` points to `{D-14,D-18}`, `RS_plantThermal.order`, and that one-step derivation. It does not merely call the link implied. This form may be `SourceLinkedExplanationReconstruction` while those exact premises and rules remain current.
+The connective is recoverable because both claims concern the same outlet and load context, `RS_plantThermal` supplies the Celsius order, and `65 <= 70`. The compact `addedLinkPolicy` points to `{D-14,D-18}`, `RS_plantThermal.order`, and that one-step derivation. It does not merely call the link implied. This expression may be `SourceLinkedExplanationReconstruction` while those exact premises and rules remain current.
 
 #### E.17.EFP:5.2.a - Non-entailed link exits the profile
 
@@ -80,15 +80,15 @@ The selection relation and both limits are explicit in the source, so this is or
 
 **Source edition.** In this example, `ReservePathDescription-E4` concerns exact path `R-1` and its overload intervals under effective duration scheme `RS_duration`. It contains `D-31: R-1 is configured to remain available for overload intervals no longer than five minutes` and `T-8: Observed interval O-7 lasted two minutes`.
 
-**`PlainView` form.** `R-1 is configured for overload intervals up to five minutes. Source: ReservePathDescription-E4, D-31. Use: orientation to the configured duration; this form omits the O-7 observation.`
+**`PlainView` expression.** `R-1 is configured for overload intervals up to five minutes. Source: ReservePathDescription-E4, D-31. Use: orientation to the configured duration; this expression omits the O-7 observation.`
 
-For that use, D-31 is sufficient and the form may be `SourcePinnedExplanation` of the same source edition. It does not assert T-8, observed availability or a guarantee. The omitted T-8 does not constitute another episteme, and the class claims no whole-source coverage.
+For that use, D-31 is sufficient and the expression may be `SourcePinnedExplanation` of the same source edition. It does not assert T-8, observed availability or a guarantee. The omitted T-8 does not constitute another episteme, and the class claims no whole-source coverage.
 
-**`TechCard` form.** `O-7 falls within D-31's configured duration window. Sources: ReservePathDescription-E4, D-31 and T-8.`
+**`TechCard` expression.** `O-7 falls within D-31's configured duration window. Sources: ReservePathDescription-E4, D-31 and T-8.`
 
-That connective follows from `2 min <= 5 min` under `RS_duration`; the form may be `SourceLinkedExplanationReconstruction` with this derivation pointer. The bundle states the class difference. The PlainView form alone cannot answer whether O-7 fits: that use needs the omitted T-8 and must return to it. Neither comparison establishes that the path actually remained available.
+That connective follows from `2 min <= 5 min` under `RS_duration`; the expression may be `SourceLinkedExplanationReconstruction` with this derivation pointer. The bundle states the class difference. The PlainView expression alone cannot answer whether O-7 fits: that use needs the omitted T-8 and must return to it. Neither comparison establishes that the path actually remained available.
 
-**Missing qualification.** Suppose an identified source edition also states `D-32: This availability configuration applies only while the backup supply is energized`. A form giving only the true five-minute duration is insufficient for deciding whether the configuration applies during loss of that supply. Return D-32 and the supply-state facts before that use. This insufficiency creates no target episteme; a separate assertion of unconditional availability would be changed content requiring its own target and relation.
+**Missing qualification.** Suppose an identified source edition also states `D-32: This availability configuration applies only while the backup supply is energized`. An expression giving only the true five-minute duration is insufficient for deciding whether the configuration applies during loss of that supply. Return D-32 and the supply-state facts before that use. This insufficiency creates no target episteme; a separate assertion of unconditional availability would be changed content requiring its own target and relation.
 
 **Equal words, different subject.** The same duration sentence about path `R-2` does not identify the `R-1` source. Likewise, identical displayed duration words interpreted under another effective scheme do not establish the same source identity. Recover the exact concern and scheme and apply the relevant retargeting or scheme-change pattern before claiming a source-to-target relation.
 
@@ -96,9 +96,9 @@ That connective follows from `2 min <= 5 min` under `RS_duration`; the form may 
 
 **Source episteme claim.** `The pressure-control condition is satisfied whenever the reserve valve opens within 80 ms.`
 
-**Didactic publication form.** `For onboarding: opening the reserve valve within 80 ms is enough to satisfy the pressure-control condition. The exact condition and threshold remain in the pinned source edition.`
+**Didactic publication expression.** `For onboarding: opening the reserve valve within 80 ms is enough to satisfy the pressure-control condition. The exact condition and threshold remain in the pinned source edition.`
 
-The form expresses the same source ClaimGraph; `DidacticRetelling` qualifies only its teaching use. If the text instead says that the whole system is safe, that different safety claim requires its own target episteme, an obtaining source-to-target relation, and the applicable safety relation before publication. A didactic label cannot supply them.
+The expression expresses the same source ClaimGraph; `DidacticRetelling` qualifies only its teaching use. If the text instead says that the whole system is safe, that different safety claim requires its own target episteme, an obtaining source-to-target relation, and the applicable safety relation before publication. A didactic label cannot supply them.
 
 #### E.17.EFP:5.4 - Speculative retelling
 
@@ -106,9 +106,9 @@ The form expresses the same source ClaimGraph; `DidacticRetelling` qualifies onl
 
 That observation may frame an abductive prompt. If `B.5.2` produces exact hypothesis episteme `E_couplingHypothesis` with claim `A temporary coupling effect may have accelerated recovery`, that claim belongs to the new hypothesis ClaimGraph, not to the observed-source edition.
 
-**Speculative publication form of the hypothesis episteme.** `Exploratory hypothesis: a temporary coupling effect may have accelerated recovery. This is the separately identified hypothesis, not a claim of the incident source.`
+**Speculative publication expression of the hypothesis episteme.** `Exploratory hypothesis: a temporary coupling effect may have accelerated recovery. This is the separately identified hypothesis, not a claim of the incident source.`
 
-`SpeculativeRetelling` qualifies only this form's exploratory explanation use. It neither constitutes `E_couplingHypothesis` nor turns the form into a passive rendering of the observed source.
+`SpeculativeRetelling` qualifies only this expression's exploratory explanation use. It neither constitutes `E_couplingHypothesis` nor turns the expression into a passive rendering of the observed source.
 
 #### E.17.EFP:5.4.a - Anti-example: explanation that quietly becomes a new claim
 
@@ -123,24 +123,24 @@ The second sentence has a different ClaimGraph. To retain it, constitute an exac
 
 **Overreaching rendering on an `AssuranceLane`-facing use.** `This explanation is sufficient assurance that short overloads stay inside the tolerated window.`
 
-This assurance sentence has a different ClaimGraph. It requires an exact target episteme under C.2.1 and the applicable A.10/B.3 relations; until those obtain it is unsupported and receives no EFP class. The earlier onboarding form may retain its bounded didactic use, but that class neither carries nor weakens the assurance claim.
+This assurance sentence has a different ClaimGraph. It requires an exact target episteme under C.2.1 and the applicable A.10/B.3 relations; until those obtain it is unsupported and receives no EFP class. The earlier onboarding expression may retain its bounded didactic use, but that class neither carries nor weakens the assurance claim.
 
 #### E.17.EFP:5.4.c - Boundary to lighter explanatory note with source-bearing return
 **Source slice.** `The technical incident note says the reserve path remained available during the measured load band, but it also keeps one unresolved ambiguity about recovery latency.`
 
 **Lighter explanatory rendering.** `In plain terms: the reserve path stayed available during overload recovery.`
 
-For a use that needs the measured load band or the unresolved latency qualification, this lighter text is insufficient: return those source conditions. Omission alone does not constitute another episteme. If the text is instead intended to assert availability throughout overload recovery beyond the measured band, it makes a changed claim. Identify that target under C.2.1 and establish its `A.6.3.CSC` or other applicable source-to-target relation before EFP classifies a later target form.
+For a use that needs the measured load band or the unresolved latency qualification, this lighter text is insufficient: return those source conditions. Omission alone does not constitute another episteme. If the text is instead intended to assert availability throughout overload recovery beyond the measured band, it makes a changed claim. Identify that target under C.2.1 and establish its `A.6.3.CSC` or other applicable source-to-target relation before EFP classifies a later target expression.
 
 #### E.17.EFP:5.5 - Class-specific reopen cues in the worked slices
 - **`SourcePinnedExplanation`** reopens when the pinned source claim set, source pins, or face-use assumptions change so that the rendering can no longer remain claim-preserving and visibly source-bound.
 - **`SourceLinkedExplanationReconstruction`** reopens when any source premise, effective-scheme rule, derivation, context identity, source claim about the exact relation occurrence, or that occurrence's obtaining basis changes or disappears.
 - **`DidacticRetelling`** reopens when the exact source or target edition connected under A.6.3 changes, or when teaching use starts functioning as policy-bearing, design-bearing, or gate-bearing guidance.
-- **`SpeculativeRetelling`** reopens when its exact B.5.2 hypothesis edition, prompt link, or exploratory use changes; it never falls back to being a passive form of the observation source.
+- **`SpeculativeRetelling`** reopens when its exact B.5.2 hypothesis edition, prompt link, or exploratory use changes; it never falls back to being a passive expression of the observation source.
 
 #### E.17.EFP:5.6 - Boundary to interpretation and world or gate use
 
-If a text carries a new hypothesis or another changed claim, first constitute its exact target episteme and apply `B.5.2`, A.6.3, or the other direct source-to-target pattern. Comparative review, rival interpretation, bridge, world, gate, assurance, and engineering-justification uses likewise leave to their exact patterns; EFP can only qualify a later published form's explanation use.
+If a text carries a new hypothesis or another changed claim, first constitute its exact target episteme and apply `B.5.2`, A.6.3, or the other direct source-to-target pattern. Comparative review, rival interpretation, bridge, world, gate, assurance, and engineering-justification uses likewise leave to their exact patterns; EFP can only qualify a later published expression's explanation use.
 
 #### E.17.EFP:5.7 - Human-authored and generated task replay against the simpler alternative
 

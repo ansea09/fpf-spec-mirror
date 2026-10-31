@@ -6,12 +6,12 @@ section_id: "C.11.MV:5"
 section_title: "Archetypal Grounding - Field Evidence and Alternatives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__007_archetypal-grounding-field-evidence-and-alternatives.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:5 — Archetypal Grounding - Field Evidence and Alternatives"
-line_start: 57804
-line_end: 57850
+line_start: 58151
+line_end: 58197
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"

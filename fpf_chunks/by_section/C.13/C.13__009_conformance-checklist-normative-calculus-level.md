@@ -6,12 +6,12 @@ section_id: "C.13:7"
 section_title: "Conformance Checklist (normative, calculus‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__009_conformance-checklist-normative-calculus-level.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:7 — Conformance Checklist (normative, calculus‑level)"
-line_start: 58079
-line_end: 58098
+line_start: 58426
+line_end: 58445
 dependencies:
   - "A.1"
   - "A.14"

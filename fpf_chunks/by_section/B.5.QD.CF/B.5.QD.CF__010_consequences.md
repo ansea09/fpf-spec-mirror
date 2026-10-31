@@ -6,12 +6,12 @@ section_id: "B.5.QD.CF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.QD.CF/B.5.QD.CF__010_consequences.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.5.QD.CF — Reformulate a Problem by Examining Its Conflicting Assumptions"
   - "B.5.QD.CF:9 — Consequences"
-line_start: 49342
-line_end: 49347
+line_start: 49441
+line_end: 49446
 dependencies:
   - "B.1.5.EW"
   - "B.5.FM"

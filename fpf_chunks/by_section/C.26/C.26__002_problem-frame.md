@@ -6,12 +6,12 @@ section_id: "C.26:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:1 — Problem frame"
-line_start: 64951
-line_end: 65029
+line_start: 65322
+line_end: 65400
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ Use this pattern only after the ordinary FPF subject assertion and exact predica
 
 **What this buys.** The user keeps the ordinary FPF pattern in charge and adds only the minimum quantum-like lens needed to prevent that concrete representational mistake.
 
-**Identity before the lens.** When C.26 carries a quality ascription or model claim, first name the quality bearer or C.2.1 claim-bearing episteme, its effective `U.ReferenceScheme`, the probe or model frame, the comparison frame, and the applicable `U.ClaimScope`. State separately whether an `EpistemeEmpiricalGroundingRelation` obtains; a measurement, evidence reference, card, or label does not make it obtain.
+**Identity before the lens.** When C.26 carries a quality ascription or model claim, first name the quality bearer or C.2.1 claim-bearing episteme, its effective reference scheme, the probe or model frame, the comparison frame, and the applicable `U.ClaimScope`. State separately whether an `EpistemeEmpiricalGroundingRelation` obtains; a measurement, evidence reference, card, or label does not make it obtain.
 
 If a viewpoint matters, record one `U.ViewpointRef` that resolves to the `U.Viewpoint` episteme P.
 
@@ -90,7 +90,7 @@ Ordinary modeling questions that can expose a QL need are listed below. C.26.1�
 Plain glosses:
 - `quantum-like`: a detached mathematical or representational lens, not a claim about what the target is made of.
 - `probe`: an operation that both produces an output and may change the represented state or admissible use of the output.
-- `frame`: the exact probe frame, measurement frame, comparison frame, or model frame selected by its subject pattern; the effective `U.ReferenceScheme` remains a separate part of the claim-use account.
+- `frame`: the exact probe frame, measurement frame, comparison frame, or model frame selected by its subject pattern; the effective reference scheme remains a separate part of the claim-use account.
 - `state`: the represented condition relevant to the current decision.
 - `state update`: a typed update claim. When load-bearing, say whether the update is a system change, work change, epistemic reading update, carrier update, emitted-output update, formal model update, or update-law change; do not let one phrase carry all of them.
 - `context`: when locality may matter, recover the exact claim scope, reference scheme, local-sense endpoint, selected model-use structure, qualification window, viewpoint relation, or direct subject relation that the sentence actually needs.

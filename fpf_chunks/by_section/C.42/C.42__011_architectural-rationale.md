@@ -6,12 +6,12 @@ section_id: "C.42:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__011_architectural-rationale.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.42 — Reduce Avoidable Work While Preserving the Needed Result"
   - "C.42:10 — Architectural Rationale"
-line_start: 89828
-line_end: 89837
+line_start: 90216
+line_end: 90225
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

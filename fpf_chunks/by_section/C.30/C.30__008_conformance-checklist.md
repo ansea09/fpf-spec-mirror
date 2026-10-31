@@ -6,12 +6,12 @@ section_id: "C.30:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__008_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:7 — Conformance Checklist"
-line_start: 71583
-line_end: 71597
+line_start: 71955
+line_end: 71969
 dependencies:
   - "A.1"
   - "A.10"
@@ -81,7 +81,7 @@ keywords:
 | **CC-C30-1 Grounded architecture name.** | A conforming use distinguishes actual subject relations and selected A.22 structure from candidate or expected content, identifies an obtaining `ArchitectureRelation` only when its predicate is satisfied, and gives every `ArchitectureClaim` one exact EntityOfConcern and effective reference scheme. It also names concern, admissible-use frame, and the exact source, description, view, representation, publication form, or other direct use of inspected material. | Recover the direct relation for an actual claim, retain modal content at its supported scope, or keep a recognition cue. Ordinary prose can suffice; use the question card when its organization helps. |
 | **CC-C30-2 No `U.Architecture`.** | The pattern use does not mint or rely on a root `U.Architecture`. | Recover the exact A.22 structure and direct `ArchitectureRelation`, or keep candidate or expected content in a claim and use the pattern that defines or tests any other claim. |
 | **CC-C30-3 EntityOfConcern and Description-episteme boundary plus specification-use separation.** | Actual subject relation, selected structure, `ArchitectureRelation`, claim, description, view, representation, publication occurrence, publication form, carrier, decision, evidence, and Work stay distinct. | Recover the exact object doing each job; a description, specification use, diagram, list, file, or publication creates no subject-side architecture fact. |
-| **CC-C30-4 Exact description subject.** | Every architecture description has one exact C.2.1 EntityOfConcern—holon, obtaining `ArchitectureRelation`, or selected structure—and effective `U.ReferenceScheme`; architecture-claim refs remain optional content or trace. | Recover the exact subject and scheme, or split the description from the bounded architecture claim. |
+| **CC-C30-4 Exact description subject.** | Every architecture description has one exact C.2.1 EntityOfConcern—holon, obtaining `ArchitectureRelation`, or selected structure—and effective reference scheme; architecture-claim refs remain optional content or trace. | Recover the exact subject and scheme, or split the description from the bounded architecture claim. |
 | **CC-C30-5 View and publication boundary.** | The same description episteme is `U.View` only through an independently obtaining E.17.0 conformance relation to one exact viewpoint; representation, publication occurrence, form, carrier, and publication currentness remain separate. | Apply C.30.AD, E.17.0 or E.24.PUB to the respective description, view or publication question; use C.29 only for a remaining mathematical representation issue. Remove view membership inferred solely from authoring or presentation. |
 | **CC-C30-6 Small output before heavy record.** | Ordinary use may stop once the needed next architecture move and the basis for any separate claim are clear. Retain or share that account; use the question card when the receiver needs its additional organization. | Remove needless form expansion, or identify the missing content that the fuller account must supply. |
 | **CC-C30-7 Structure-kind boundary.** | Structural-view claims apply `C.30.ASV`; module, function, flow, control, work, evidence, scale, and decision claims do not collapse into C.30. | Name the structure kind, state the structural view if needed, or use the pattern that defines or tests the separate claim. |

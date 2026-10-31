@@ -6,12 +6,12 @@ section_id: "B.5.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:1 — Problem frame"
-line_start: 49449
-line_end: 49454
+line_start: 49548
+line_end: 49553
 dependencies:
   - "A.10"
   - "A.16"

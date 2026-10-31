@@ -6,12 +6,12 @@ section_id: "C.40.CD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CD/C.40.CD__013_relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.40.CD — Develop Problems and Ways of Solving Them Together"
   - "C.40.CD:12 — Relations"
-line_start: 85448
-line_end: 85460
+line_start: 85836
+line_end: 85848
 dependencies:
   - "B.5.MPC"
   - "B.5.MPC.R"

@@ -6,12 +6,12 @@ section_id: "A.2.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__002_use-this-when.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:0 — Use This When"
-line_start: 5487
-line_end: 5506
+line_start: 5510
+line_end: 5529
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -67,7 +67,7 @@ Typical moments:
 
 **Primary EntityOfConcern.** The EntityOfConcern of this pattern is `U.PromiseContent`: a consumer-facing promise-content episteme. For each PromiseContent episteme, the exact C.2.1 EntityOfConcern is the A.2.3:4.1.1 `OutcomeSpec` episteme designated by `promisedOutcomeSpecRef`. Its claim graph states the promised outcome, any eligibility predicate, and acceptance claims; `accessSpec` separately describes the access method when that description is current.
 
-**First useful move.** Write the promise content as a clause: what outcome is promised, under which exact effective `U.ReferenceScheme` and `U.ClaimScope`, which exact local consumer system-role kind or other eligibility predicate applies, how access is described when relevant, and which acceptance criteria selected work facts and post-work states must satisfy. For a fulfilment assertion, name the evaluation Method and the supporting evidence epistemes and A.10 relations separately. Use `U.Commitment` only for an actual duty bearer after the applicable constitutive rule and its required instituting basis obtain.
+**First useful move.** Write the promise content as a clause: what outcome is promised, under which exact effective `ReferenceScheme` and `U.ClaimScope`, which exact local consumer system-role kind or other eligibility predicate applies, how access is described when relevant, and which acceptance criteria selected work facts and post-work states must satisfy. For a fulfilment assertion, name the evaluation Method and the supporting evidence epistemes and A.10 relations separately. Use `U.Commitment` only for an actual duty bearer after the applicable constitutive rule and its required instituting basis obtain.
 
 **What goes wrong if missed.** The word "service" starts naming provider, API, method, ticket, work, department, and promise at once. Teams then judge work against an implicit promise, treat access systems as obligations, or count performed work without knowing which promised outcome it was meant to satisfy.
 

@@ -6,12 +6,12 @@ section_id: "A.1.STM:5"
 section_title: "Worked uses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__007_worked-uses.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:5 — Worked uses"
-line_start: 4242
-line_end: 4279
+line_start: 4255
+line_end: 4302
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -44,13 +44,7 @@ keywords:
 
 A pump-modernization project needs `PumpUnit-3` to restore reliable water delivery in its operating environment. The operator, controller supplier and maintenance team compare their accounts. They agree that the common target is the pump in the stated delivery conditions. The supplier's controller is its own local system; the maintenance team's test rig is a builder-side instrument. Faster testing and a completed controller are useful through their contribution to the pump's intended use. The plan designates the already existing pump as the **project target system**. A.1 recognition, that designation, any local system-role classification and any assignment remain separate questions.
 
-The team already supports the outside-use hypothesis and a controller-architecture choice. Reading backward exposes the first unsupported answer: can the planned controller result become an actual system ready for installation? The team leaves A.1.STM for the subject patterns. It identifies `ControllerSubassembly-7` and other pre-existing materials as the continuing subjects of any A.3.4 changes; recovers each actual fabricator's A.13 core; independently admits fabrication Work under A.15.1; and uses A.15.PROD separately for production participation, controller identity inception, and production completion. This minimal case consumes no exact assignment-bound attribution, so it does not open F.6. It does not describe transformation of the controller before the controller exists.
-
-For the controller-production case, the subject and closure basis are explicit. The case closes only when the independently governed identity-inception, completion or readiness, evidence, and decision claims needed here pass. The named downstream receiving use—installation and later operation in `PumpUnit-3`—is visible but remains outside the closed case.
-
-At project level, the team may select TFS members concerning controller production, pump modification, qualification, and pump operation together under E.18.NET only after each member is independently identified and the required production, installation, participation, use, or feedback occurrences and endpoint bindings obtain. Until then the network remains a Plain provisional explanation with the missing link named. Actual facts are then traced forward from fabrication Work and changes, through controller inception and pump modification, to later pump operation. When runtime use is claimed, the already existing `PumpUnit-3` and its direct participation claim remain separate. If dated runtime Work is claimed, recover every performer's A.13 core and independently admit the occurrence under A.15.1; add F.6 only when precise assignment-bound attribution is also current. Keep either actor-side claim separate from any A.3.4 change of one exact continuing delivery-side environment or input referent; the expected reliable-delivery hypothesis alone establishes neither actuality. A failed relation or missing binding stops that claim without erasing the valid local results.
-
-If later operation shows that reliable water delivery depends on an upstream reservoir-control assembly outside the proposed `PumpUnit-3` boundary, the team reopens the outside-use, project designation, and boundary hypotheses before revising the architecture and network selection. It does not preserve the old inside merely because Work has already begun.
+The required outside result is reliable delivery at the user's outlet. The pump must move water from the inlet and maintain the required flow and pressure under the specified demand and supply conditions. "Water-delivery unit" names the sought system by that contribution; `PumpUnit-3` identifies the existing system being modernized. This name leaves design choices open. For example, the team could investigate variable-speed regulation or a pressure-regulated bypass, with different energy, operating and maintenance conditions. These are proposals whose suitability needs engineering grounds, not interchangeable answers already proved by the functional name. The following inquiry concerns a candidate with a controller and sensor; its test arrangement must fit that construction.
 
 ##### A.1.STM:5.1.1 - Locally plausible answers that do not fit together
 
@@ -61,6 +55,22 @@ The team can now compare different whole proposals. It could change the housing 
 The teaching explanation may run from required delivery through functioning, construction, production and calibration capability. The actual discovery began at a calibration question and returned to construction. A drawing, experiment or qualified measurement may supply the missing answer. If the team changes the housing, it reopens the affected operating and production assumptions; if it changes the instrument, it reopens the measurement and provision assumptions. It retains unaffected knowledge and restores agreement among the contributors whose decisions changed.
 
 This case shows why the mantra must connect whole bodies of subject knowledge. Repeating "function, construction, method, creator" cannot supply the missing measurement argument. Conversely, a complete measurement argument for an inaccessible configuration cannot settle the project question. The connected account identifies what must be explained, which alternatives remain open, and where the answer will matter.
+
+For the next project step, suppose the proposed housing can still be revised, but no alternative calibration instrument with demonstrated fit is available. The team chooses to investigate an access feature in the housing: the designer develops an option, the production specialist checks whether it can be made, and the calibration specialist checks whether it permits the required measurement. Their next result is a jointly supported option or a reason to return to the other repairs, not a claim that the pump is already qualified. If sealing or strength rules out the access feature, that result reopens the pre-closure calibration or alternative-instrument question. The operating requirement remains in force until those entitled to change it agree otherwise.
+
+This also distinguishes a creator contribution from its performer. The chosen option may require housing redesign, manufacture and a calibration argument. Those descriptions guide the search for suitable people and equipment; naming a designer or assigning a laboratory does not establish their fit. If the measurement Method changes, compare its required access, range and conditions with the proposed laboratory and instrument again, then check that design, fabrication and calibration can obtain their shared inputs in time.
+
+##### A.1.STM:5.1.2 - When actual production and use must be established
+
+The design inquiry above can finish at its supported option. Later, an installation decision may ask whether the controller has actually been produced and is ready. Use A.15.PROD for the particular question: production participation, identity inception or completion. `ControllerSubassembly-7` and other pre-existing materials can be continuing subjects of changes; the future controller is not transformed before it exists. Identify the actual controller under its applicable identity rule when it first exists, and assess completion or readiness separately. Recover any claimed dated fabrication Work through A.13 and A.15.1; F.6 is needed only for precise assignment-bound attribution.
+
+For a closure claim about this controller-production case, state its subject, the claims and references needed for that question, and the applicable closure basis. The case closes only when the production, identity, completion or readiness claims required by its question are supported, including the required evidence and decisions, and its closure rule is satisfied. Installation and later operation in `PumpUnit-3` remain the named receiving use outside this local closure. The ordinary positive branch of A.15.PROD:4.7 can return a readable answer or a precise gap; its stronger semantic or assurance branch opens when the receiving claim requires it.
+
+If the project now needs a network of controller-production, pump-modification, qualification and operation flows, identify each member through E.18 and apply E.18.NET. Establish the actual production, installation, participation, use or feedback occurrences and their endpoint bindings; keep applied constraints and the use frame explicit. Until those conditions hold, retain the proposed network and its named missing link. A successful fabrication step does not provide a missing installation or feedback relation.
+
+Follow actual facts from fabrication and changes of existing subjects through controller inception and pump modification to pump operation. For a runtime claim, keep the existing `PumpUnit-3` and its functioning, causal, interaction or participation claim separate from an A.3.4 change of the identified continuing delivery-side environment or input referent. If dated runtime Work is also claimed, use A.13 and A.15.1 for that claim, adding F.6 only for precise assignment-bound attribution. The reliable-delivery hypothesis establishes neither actual claim. A failed relation or missing binding stops the dependent claim while preserving valid local results.
+
+If later operation shows that reliable water delivery depends on an upstream reservoir-control assembly outside the proposed `PumpUnit-3` boundary, the team reopens the outside-use, project designation and boundary hypotheses before revising the architecture and any network selection. Work already spent does not make the old boundary adequate.
 
 #### A.1.STM:5.2 - One-off service: a usable hairstyle
 

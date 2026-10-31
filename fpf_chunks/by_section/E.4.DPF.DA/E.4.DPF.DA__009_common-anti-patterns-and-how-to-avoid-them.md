@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.4.DPF.DA — Evaluate a DPF or LPF Package for Its Declared Use (Package-Adequacy CharacteristicSpace)"
   - "E.4.DPF.DA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 95235
-line_end: 95257
+line_start: 95633
+line_end: 95655
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -69,7 +69,7 @@ keywords:
 | Duplicate first-entry charge | One ToC, Readme, architectural-reference, or practical-entry defect is counted under both `PFM1` and `PFM12`, lowering the same coordinate twice without a second repair. | Keep practitioner entry and navigation in `PFM1`; keep only incremental common-form and edition-projection agreement in `PFM12`; record the shared observation and repair once. |
 | Publication carrier as package proof | The carrier is readable but relation, edition, source, and refresh structures are unrecoverable. | Add `E.4.PFAD`, `E.4.PFR`, source-use, quality, and refresh loci; keep the published artifact as carrier. |
 | Invisible carrier structure-account | The carrier never tells what domain or local structure it selected, coarsened, abstracted, or omitted for the intended reader, so readers mistake the package for the domain itself or cannot judge coverage. | Explain the carrier's selected structure and loss in the architectural reference, with appropriate Readme, ToC, skill-entry or access returns to it and to fuller sources, then rerun `PFM11`. |
-| Skill, route, or returned artifact as package proof | The package is callable, so a skill bundle, endpoint, route, or response is treated as proof of the framework edition, source, quality, or currentness. | Treat a form-bearing skill-pack, index, or response artifact as an exact `U.PresentationCarrier`; treat the service, endpoint, retrieval, search, or assistant integration as an access route; and keep actual access or use separate. Evaluate the framework edition and patterns through `E.4.DPF.DA` and `E.21`. Use `E.4.PFR` only when a named maintenance use needs a stable relation representation. |
+| Skill, route, or returned artifact as package proof | The package is callable, so a skill bundle, endpoint, route, or response is treated as proof of the framework edition, source, quality, or currentness. | Identify a skill-pack, index, or response artifact under its physical or digital domain and establish that its actual state or realization yields the selected expression; treat the service, endpoint, retrieval, search, or assistant integration as an access route; and keep actual access or use separate. Evaluate the framework edition and patterns through `E.4.DPF.DA` and `E.21`. Use `E.4.PFR` only when a named maintenance use needs a stable relation representation. |
 | Skeleton patterns as package proof | The package has pattern headings and canonical sections, but the bodies do not teach a working reader what to do, how to judge boundaries, or how source payload changes action. | Treat the package as `seedOnly`, then harden each body through `E.8` and `E.21` before public or reliance-bearing use. |
 | Ontology or conversation package as DPF | The package explains terms, roles, or ways to talk about the domain, but it does not help the intended practitioner resolve typical domain problems with SoTA moves. | Lower `D7` and usually `D11`; keep the ontology or conversation guide as support material and add problem frames, solution moves, worked cases, and anti-pattern repairs. |
 | Example inventory as coverage | A Readme lists many topics and the count is treated as proof that the framework serves its field. | Select a few examples for discoverability, say they are non-exhaustive, and judge actual field coverage under `D12` through the pattern network, external results, representative use, and omissions. |

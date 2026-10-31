@@ -6,12 +6,12 @@ section_id: "C.22.2:2"
 section_title: "Thin First Use and Output Kind"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__003_thin-first-use-and-output-kind.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:2 — Thin First Use and Output Kind"
-line_start: 63298
-line_end: 63461
+line_start: 63669
+line_end: 63832
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,7 +65,7 @@ The first substantive use is the Thin form. It is a practitioner-facing prompt f
 A `ProblemCard` is complete for its current use when it states:
 
 1. what signal or cue made the practitioner stop;
-2. the one exact joint `EntityOfConcern`, effective `U.ReferenceScheme`, and `U.ClaimScope` for the claims being carried;
+2. the one exact joint `EntityOfConcern`, effective reference scheme, and `U.ClaimScope` for the claims being carried;
 3. which claim family is current: actual-PFR assertion, anticipated-condition claim, method-availability or solvability claim, or another directly governed problem-side claim;
 4. what observation, need or constraint makes the concern worth addressing, independently of a proposed solution;
 5. what would count as improvement or as an acceptance probe when the next use needs one, or what remains missing; and

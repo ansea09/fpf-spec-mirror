@@ -6,14 +6,16 @@ section_id: "E.24.PUB:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__007_archetypal-grounding.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.24.PUB — Episteme Publication: Availability, Form and Carrier"
   - "E.24.PUB:5 — Archetypal Grounding"
-line_start: 116606
-line_end: 116635
+line_start: 117165
+line_end: 117194
 dependencies:
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.REL"
   - "C.2.1"
   - "C.29"
@@ -38,13 +40,13 @@ keywords:
 
 #### E.24.PUB:5.1 - Maintenance inspection card
 
-A completed pump-inspection card states measured clearances and identified defects about Pump #37 under the maintenance reference scheme. The completed card is a claim-bearing `U.Episteme`. Its reusable arrangement is the inspection-card publication form. The PDF file is a `U.PresentationCarrier`. One publication occurrence makes edition 4 of the card episteme available to the maintenance-planning team for planning the next repair.
+A completed pump-inspection card states measured clearances and identified defects about Pump #37 under the maintenance reference scheme. Those organized claims constitute the card episteme E. The filled card supplies expression X; its reusable layout rules supply F. The PDF file is C under its selected file-object or snapshot identity. One publication occurrence makes edition 4 of the card episteme available through X and C to the maintenance-planning team for planning the next repair.
 
-Changing the PDF filename changes neither the card episteme nor necessarily the carrier identity. Correcting a measured clearance changes the episteme edition. Replacing the card layout changes the form. Making the same edition available to a supplier for quotation creates another publication occurrence because the audience or bounded use changed.
+Changing the PDF filename changes neither E nor necessarily C. Correcting a measured clearance changes the claim content and therefore E; a later-edition claim also needs C.2.1:4.5 continuity. Replacing the layout changes F. If this changes X, it also changes the exact publication, while broader availability of E can continue. Making the same E available to a supplier for quotation creates another exact publication because A or U changes.
 
 #### E.24.PUB:5.2 - Architecture diagram
 
-An architecture diagram can carry claims about selected structures of one holon and therefore be an architecture-description episteme. When that exact episteme conforms to one exact architectural viewpoint episteme under E.17.0, the same individual is a `U.View`; direct authoring and A.6.3 construction are independent construction routes. Its graphical notation can be the publication form, selected nodes and edges can participate in a C.29 representation, and a screen or sheet can be the presentation carrier.
+An architecture diagram can express claims about selected structures of one holon. Those claims can constitute an architecture-description episteme. When that exact episteme conforms to an architectural viewpoint under E.17.0, the same individual is a `U.View`; direct authoring and A.6.3 construction are independent construction routes. Reusable graphical conventions can supply F; the constructed diagram supplies X. A correspondence connects its elements to the represented subject, with C.29 additionally governing any mathematical inference or transfer. A screen or sheet can supply C.
 
 The diagram does not become the architecture by being published. `C.30` governs the `ArchitectureOf@Context` claim and `A.22` governs selected `U.Structure` values. E.24.PUB lets the architect locate a publication defect without replacing the architectural question with a discussion of diagrams.
 
@@ -54,7 +56,7 @@ A hospital procedure description is an episteme about how a procedure is perform
 
 #### E.24.PUB:5.4 - FPF pattern host
 
-An E.24 pattern host can be a publication form expressing an ontic-description episteme about `U.Ontic`. The repository file is a presentation carrier. A selected edition becomes a published episteme only while an exact publication occurrence makes it available to the declared FPF audience and use. The host layout does not create `U.Ontic`, and changing the carrier does not by itself change the ontic-description episteme.
+An E.24 pattern host contains an expression X of an ontic-description episteme about `U.Ontic`; its layout follows a reusable form F. The repository file is C. The selected episteme participates in an exact publication occurrence while X and C make it available to the declared FPF audience for the stated use. Changing C alone leaves the episteme's claim content, subject and interpretation unchanged.
 
 #### E.24.PUB:5.5 - Training availability and later choice work
 

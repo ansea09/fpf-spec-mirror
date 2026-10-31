@@ -6,12 +6,12 @@ section_id: "C.22:5"
 section_title: "Solution — Problem CHR, TaskSignature, and assignment relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__007_solution-problem-chr-tasksignature-and-assignment-relation.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:5 — Solution — Problem CHR, TaskSignature, and assignment relation"
-line_start: 62475
-line_end: 62657
+line_start: 62846
+line_end: 63028
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -85,7 +85,7 @@ More fields, publication packaging, name cards, or telemetry do not make the pro
 
 Select these fields from the actual receiving use. A QD search constructs and maintains diverse candidates under its descriptor, archive and emitter rules; that use activates the QD fields below. Retaining exploration evidence under `PortfolioMode=Archive`, comparing a front, or returning several alternatives does not by itself require QD. An open-ended generator use activates `GeneratorIntent` and its own required fields; add the QD fields when that use also performs QD. Keep the source collection, its retention policy, the comparison and the emitted selector outcome distinct under G.5:4.4b–4.4e.
 
-* **`CharacteristicSpaceRef`** — reference to **`U.CharacteristicSpace`**, with declared **d≥2**; **characteristics are CHR‑typed**; **ReferencePlane** per characteristic; pin edition via **`CharacteristicSpaceRef.edition`**.
+* **`CharacteristicSpaceRef`** — reference to the exact **`U.CharacteristicSpace`**, with declared **d≥2**; **characteristics are CHR‑typed**; **ReferencePlane** per characteristic. Pin its defining episteme separately with **`characteristicSpaceDescriptionRef: U.EpistemeRef`** and resolve both to the same space under A.19:5.1.1.1.
 * **`ArchiveConfig`** — archive **topology** (grid, CVT, or graph), **resolution** (bins or centroids), **K‑capacity**, **`InsertionPolicyRef`** (elite replacement, dedup, or novelty), and **`DistanceDefRef.edition`** (declare **metric or pseudometric** status and invariances; normalisation is admissible only when the applied scale transform is admitted by **CG-Spec**); admissibility follows CG‑Spec.
 * **`EmitterPolicyRef`** — reference to the emitter policy governed by C.19 and applicable to this TaskSignature; **edition id** recorded.
 * **`DominanceRegime`** — `{ParetoOnly | ParetoPlusIllumination}`. **Default = `ParetoOnly`** (illumination remains report‑only telemetry unless CAL explicitly authorises `ParetoPlusIllumination`, policy‑id cited).
@@ -156,7 +156,7 @@ Values are CHR-typed and tied to the exact measurement, evidence-use, source-use
 
 **TaskSignature invariants.** A positive assignment satisfies all six conditions:
 
-1. The TaskSignature exposes its exact `EntityOfConcernRef`, effective `U.ReferenceScheme`, direct declaration fields, Vocabulary, Laws, and Applicability.
+1. The TaskSignature exposes its exact `EntityOfConcernRef`, effective reference scheme, direct declaration fields, Vocabulary, Laws, and Applicability.
 2. The exact problem-side episteme, exact TaskSignature, exact receiving-use episteme, obtaining conditions, and occurrence extent of the assignment relation are recoverable.
 3. Every live field has an admitted filler kind or scale discipline and, under reliance, an exact basis relation with a subject pattern.
 4. A live but unrecovered value is `unknown` only where the field's exact value rule permits it and a downstream policy states how the named use handles it.
@@ -167,7 +167,7 @@ Values are CHR-typed and tied to the exact measurement, evidence-use, source-use
 
 Stop relying on the assignment for the current use when its problem-side episteme, TaskSignature, receiving-use episteme, scheme, scope or qualification conditions cannot be recovered. Actual withdrawal of adoption or failure of an obtaining condition ends the occurrence under §5.2; missing access to its account does not by itself rewrite the assignment history. The TaskSignature may remain valid for another assignment. Use C.22.2 only when the problem-side representation itself is no longer stable enough.
 
-Identify the resulting episteme and apply C.22:5.2's signature-membership and edition-continuity checks when a direct declaration field, Vocabulary, Law, Applicability claim, `EntityOfConcernRef`, or effective `U.ReferenceScheme` changes. Lower or remove one vocabulary position when its filler kind, scale, unit, polarity, reference plane, direct basis relation, or subject pattern cannot support the claimed use. Preserve `unknown` only when the position remains live and admitted. Split any selected method, selector outcome, acceptance result, plan, or Work occurrence into its subject pattern.
+Identify the resulting episteme and apply C.22:5.2's signature-membership and edition-continuity checks when a direct declaration field, Vocabulary, Law, Applicability claim, `EntityOfConcernRef`, or effective reference scheme changes. Lower or remove one vocabulary position when its filler kind, scale, unit, polarity, reference plane, direct basis relation, or subject pattern cannot support the claimed use. Preserve `unknown` only when the position remains live and admitted. Split any selected method, selector outcome, acceptance result, plan, or Work occurrence into its subject pattern.
 
 A changed or invalid signature position reopens an earlier downstream result only when that result relied on the changed position. The downstream pattern repairs or supersedes its own result. A revised signature does not imply that the actual Problem disappeared or that prior Work did not occur.
 
@@ -189,7 +189,7 @@ When a low-human-overlap comparison matters to the receiving use, identify the t
 For example, suppose one of five equally weighted target task classes has a match in a completely examined finite reference set. Directional coverage is 1/5, below a declared threshold of 1/4. If one class is matched, two are known not to match and two remain unclassified, possible coverage instead ranges from 1/5 to 3/5, so that evidence cannot settle the same low-coverage claim. The result concerns this reference set and task correspondence. Task admissibility and the holder's specialization retain their own tests.
 #### C.22:5.3 - Provenance, schemes, and planes
 
-Record the effective `U.ReferenceScheme`, `U.ClaimScope`, and any `ReferencePlane` needed to interpret a relied-on value. A difference in scheme or plane opens a comparison question; it does not by itself establish a Bridge, forbid use, or impose a penalty.
+Record the effective reference scheme, `U.ClaimScope`, and any `ReferencePlane` needed to interpret a relied-on value. A difference in scheme or plane opens a comparison question; it does not by itself establish a Bridge, forbid use, or impose a penalty.
 
 For cross-semantic reuse, recover the two exact F.17 local senses and test the direct F.9 predicate. Cite a Bridge only when that predicate is true. Then state the proposed use separately: the action, direction, correspondence rule, tolerated loss, and polarity. If no Bridge obtains, keep the local values separate and return the missing comparison or translation question instead of manufacturing correspondence.
 
@@ -211,5 +211,5 @@ An identity position needed for positive closure cannot be replaced by `unknown`
 When a named receiving use needs a reader-facing publication of the **ProblemProfile** specified in C.22:5.0b, publish that accepted `C.2.1`-conformant episteme through E.17. Use E.24.PUB when that use depends on publication availability, its declared boundary, or publication-occurrence identity. The profile references the bound TaskSignature and only the evidence, currentness, F.9 bounded-use, and representation relations on which that use relies. Apply F.18 and F.17 Name Cards when a durable new name is actually being admitted; do not create a card merely because a local field or Bridge is present. Keep vendor or tool examples in Plain explanatory use rather than letting them become normative selector inputs. When no replay beyond the local assignment relation is needed, the TaskSignature closes without a separate ProblemProfile.
 
 #### C.22:5.7 - Open‑Ended tasks (GeneratorFamily) *(normative)*.
-When **open-ended generation** of tasks or environments is current, S2 is complete only when it includes `GeneratorIntent` with pointers to **`EnvironmentValidityRegion`** (admissible region for generated environments), **`TransferRulesRef`** (cross-environment transfer constraints), and **coverage and regret** telemetry expectations. G.5 declares its outcome over **{environment, method}** pairs under G.5:4.4b–4.4e; the generating archive remains a source. Report coverage and regret under their declared policies. Add **IlluminationSummary** when the active branch or receiving use requires that retained-set report, with the measurement basis specified in C.17:5.1. These telemetry results remain excluded from dominance unless a **CAL** policy promotes them (policy id recorded in SCR; see `DominanceRegime`). The SCR change record retains current editions and actual edition increments of the definitions on which the active generator or telemetry use depends. These include **`TransferRulesRef.edition`** and any characteristic space, descriptor map, distance or covering definition, and emitter policy used by that branch. An illumination increase retains its governing policy id; a generator use without illumination requires no illumination record.
+When **open-ended generation** of tasks or environments is current, S2 is complete only when it includes `GeneratorIntent` with pointers to **`EnvironmentValidityRegion`** (admissible region for generated environments), **`TransferRulesRef`** (cross-environment transfer constraints), and **coverage and regret** telemetry expectations. G.5 declares its outcome over **{environment, method}** pairs under G.5:4.4b–4.4e; the generating archive remains a source. Report coverage and regret under their declared policies. Add **IlluminationSummary** when the active branch or receiving use requires that retained-set report, with the measurement basis specified in C.17:5.1. These telemetry results remain excluded from dominance unless a **CAL** policy promotes them (policy id recorded in SCR; see `DominanceRegime`). The SCR change record retains current editions and actual edition increments of the definitions on which the active generator or telemetry use depends. These include **`TransferRulesRef.edition`** and any characteristic-space description, descriptor map, distance or covering definition, and emitter policy used by that branch. An illumination increase retains its governing policy id; a generator use without illumination requires no illumination record.
 

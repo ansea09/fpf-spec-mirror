@@ -6,12 +6,12 @@ section_id: "C.17:11"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__013_conformance-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:11 — Conformance checklist"
-line_start: 60495
-line_end: 60514
+line_start: 60862
+line_end: 60881
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -71,6 +71,6 @@ keywords:
 | `CC-C17-11` | Uncertainty, evidence, time window, model or corpus drift, and any cross-source or cross-scale loss are visible at the claim that depends on them. |
 | `CC-C17-12` | Dated overall-assessment Work is asserted only with its actual System, assignment, Method enactment, Work extent, and evidence. Do not infer an A.6.1 operation application from those facts. When an exact application or binding is separately claimed, satisfy the current A.6.1 application account and cite that application. Coordinate-measurement Work remains separate. |
 | `CC-C17-13` | Use C.17 to report characteristics and comparison results, C.18 for generation plus Archive and Front maintenance, C.19 for pool policy, G.5 for selector-facing declarations, and C.11 for choices. |
-| `CC-C17-14` | The seven retired predecessor heads are not used to create new kinds or actors. |
+| `CC-C17-14` | Earlier results retain their original editions and evaluation bases; an edition relation requires recoverable results and a recoverable continuity claim. |
 | `CC-C17-15` | A cold reader can tell what to inspect first, when to stop, and what additional evidence is required for the stronger branch. |
 

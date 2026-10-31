@@ -6,12 +6,12 @@ section_id: "A.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:4 — Solution"
-line_start: 34432
-line_end: 34465
+line_start: 34470
+line_end: 34511
 dependencies:
   - "A.17"
   - "A.19"
@@ -67,5 +67,13 @@ For a magnitude comparison, interpret values under the Characteristic and Scale,
 
 A mathematical relation can combine quantities into another quantity, as a measurement model does in C.16. Identify that relation, its conditions and the Scale of the resulting quantity. A unit conversion expresses the same quantity on another compatible Scale. A ScoringMethod instead supplies a Score for a declared evaluation and follows A.17-R7's preference rule. For example, multiplying resistance by current gives voltage; ranking designs by cost and reliability requires a choice of preference.
 
-For evaluative comparison or combination across different CSLC templates, the ScoringMethod must declare a bounded output range for its Score.
+For evaluative comparison or combination across different CSLC templates, the ScoringMethod must declare its Score Scale and output range. Supply finite bounds when the method or receiving use requires boundedness, as specified in A.19.USCM; do not invent bounds for a lawfully unbounded score.
+
+#### A.18:4.3 - Preserve value meaning through change
+
+A Scale is identified by its interpreted values and their domain, the equality or order structure it supplies, and, where applicable, its unit, reference and origin. A label or numeral alone supplies none of these. A Level denotes a value or declared category within that Scale; changing its spelling can preserve the Level, while moving a category boundary changes what it denotes. A Coordinate is a value of that particular Scale, not an independently measured object or the content that attributes the value to a subject. Keep the declared Scale recoverable when writing, comparing or passing Coordinates.
+
+A measurement unit is an adopted reference for expressing quantities of the applicable kind. Its symbol is a representation of that reference. A change of unit can preserve the quantity through an established conversion while changing the Scale-specific Coordinate; an unchanged symbol does not establish that the unit, quantity kind or Scale is the same. A changed measurement model or calibration can change the attributed result without changing the Scale. Recover which interpretation or assertion changed before revising a dependent calculation.
+
+For a proposed replacement, establish the required correspondence of Characteristics and Scales, then apply the conversion or evaluation rule actually used by the receiver. Being a Coordinate on some Scale is insufficient for filling a position on another Scale. Where no classification decision is needed, this exact declaration and correspondence suffice; recurring typed receivers can use the content and space ranges in C.16:5.5.1 and A.19:5.1.1.1. Membership in those ranges does not establish comparability or authorize arithmetic.
 

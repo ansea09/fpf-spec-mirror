@@ -6,12 +6,12 @@ section_id: "F.16:17"
 section_title: "Didactic checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__018_didactic-checklist.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:17 — Didactic checklist"
-line_start: 123529
-line_end: 123540
+line_start: 124113
+line_end: 124124
 dependencies:
   - "A.10"
   - "A.15"

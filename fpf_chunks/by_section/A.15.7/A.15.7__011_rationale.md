@@ -6,12 +6,12 @@ section_id: "A.15.7:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__011_rationale.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:10 — Rationale"
-line_start: 31654
-line_end: 31659
+line_start: 31689
+line_end: 31694
 dependencies:
   - "A.10"
   - "A.13"

@@ -6,12 +6,12 @@ section_id: "E.18:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__002_intent.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:1 — Intent"
-line_start: 109875
-line_end: 109931
+line_start: 110275
+line_end: 110315
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -39,46 +39,30 @@ keywords:
 
 ### E.18:1 - Intent
 
-E.18 identifies one selected `TransformationFlowStructure`: positions for independently identified transformations and adjacent values, one internal `U.Transfer` relation, and any path, slice or flow valuation needed by the current use. A transformation locus binds an actual `U.Transformation` only after `A.3.4` grounds its occurrence. Adjacent values keep their own definitions and relations; structure membership establishes neither their actuality nor transformation composition.
+E.18 helps a practitioner keep the organization of a result-producing or result-using situation clear: which independently identified things participate, which relations actually connect them, which values a particular use assigns, and which dependent decisions must be reconsidered after a change. A TransformationFlowStructure is one selected A.22 structure under the flow-use conditions in this pattern. Its constituents and relations retain their own kinds and identity rules.
 
-GateCrossings account for changed `CtxState` bindings at gates. Publication, comparison and refresh uses retain the pins and conditions they consume. An F.9 Bridge is additional only for an independently established correspondence between exact local senses from different semantic contexts. Use `E.18.2` for mathematical descriptions of the selected structure and `C.29` when their mathematical-lens adequacy matters.
+**Use this when.** Use E.18 when a decision needs that selected organization, several valuations of it, a revisitable internal portion, or a path, crossing or refresh scope whose connection to the real participants matters. Begin by naming the practical question and the actual source and receiving use. A readable note can be sufficient: “This check used the result of that measurement and this calibration; reconsider both dependent checks and their joint decision when the calibration changes.” Use A.6.1 to establish an actual operation binding and A.21 for a gate decision when those are the questions. A note need not first become a TFS or a complete record.
 
-**Use this when.** Use E.18 when project work needs one exact selected transformation-flow structure, an internal position or portion of it, a path or path slice, a crossing or gate, a flow valuation, or a refresh locus over its internal `U.Transfer` occurrences. Several valuations belong here only when they resolve to that same TFS; a detailed portion belongs here as a `SubflowRef` only while all of its positions and transfers resolve inside one exact parent TFS. If the case needs two independently identified TFS values, or nested networks of them, plus an exact relation across their boundaries, use `E.18.NET`. When the current EntityOfConcern is a work plan, performed work, method semantics, publication face, mathematical description, or wording-use cue rather than the selected structure, apply the pattern whose Solution answers that exact question.
+**First useful structure result.** When the organization itself is needed, identify its constituents and obtaining relation occurrences, the constraints applied in selecting them, and the use question with its action and stop condition. Then locate the participant or connection the current question uses. Section 5.1 supplies the position resolution; 5.2 adds a valuation and path only when they are needed. The result lets the practitioner distinguish another view or valuation of the same organization from a changed selected occurrence or another independently identified structure.
 
-**First useful structure use.** Name the selected transformation-flow structure, its locus kinds, the single internal `U.Transfer` relation, and the current position, path, or path slice when one is needed. Stop there when the application makes no separate crossing, launch, publication, comparison or selection, cycle or refresh, or assurance claim. A profile may strengthen a check for one of those current claims; it does not make an absent claim, object, record, or Work occurrence current.
+Several valuations remain in E.18 only while the same A.22 identity is retained. A detailed portion remains a parent-relative SubflowRef while its positions and included relation occurrences resolve inside that parent. Independently identified TFS values connected across their boundaries use E.18.NET. Actual Work, Transformation, production, source use and physical transfer each require the predicate and facts supplied by their direct pattern or declaration; membership in the organization does not establish them.
 
-First-use slice:
-
-```text
-TransformationFlowStructure:
-  selectedStructure: cooling-loop stabilization path for one reactor subsystem review.
-  loci:
-    L1: Transformation locus -> U.Transformation; actual cooling-loop operating-state stabilization only after A.3.4 occurrence grounding.
-    L2: U.Mechanism, control-law mechanism that stabilizes the controlled value.
-    L3: U.WorkPlan, planned measurement and setting-change work.
-    L4: one dated test-run Work individual admitted under U.Work, only after that world-side occurrence exists; any run record remains a separate U.Episteme.
-  transferRelationKind: U.Transfer.
-  currentPathSlice: emergency-load-change review slice.
-  crossingOrGate: safety-review gate only when one selected-structure state binding changes and its local account states the from/to values, establishing basis, and any applicable declaration, rule, and current application; no semantic Bridge is inferred.
-  mathematicalDescriptionRef?: E.18.2 only if a graph, algebra, or category expression is being used.
-```
-
-This slice names the selected structure and its identified loci first. If dated `L4` is claimed to cause or realize `L1`, first use A.6.RCD disposition 1 when a current exact work-to-change predicate and the case facts answer that question. Use disposition 2 only when no current direct predicate expresses the needed compound claim, the admitted base predicates and constructor semantics support it, and one local C.2.1 claim closes this receiving use. That local claim admits no reusable predicate, relation kind, `RelationSignature`, or occurrence semantics. Keep the dated Work, actual Transformation, and claim-bearing episteme distinct; shared time, adjacency, or structure membership is insufficient. If production-work participation, entity-identity inception, or production completion is current, cite the corresponding local `A.15.PROD` claim and the facts that satisfy its test. Those references do not become E.18 relation kinds or locus semantics. Publication faces, TEVB viewpoint mapping, GateDecision records, and conformance rows are applied only when that use actually publishes, maps viewpoints, crosses a gate, or consumes assurance checks.
+GateCrossings account for changed CtxState bindings at an OperationalGate. Publication, comparison and refresh retain the pins and conditions consumed by their actual use. An F.9 Bridge is added for an independently established correspondence between distinct recovered local senses. E.18.2 describes the selected subject mathematically; C.29 governs a claim that the mathematical lens is adequate for the proposed use. Neither the drawing nor its path creates the represented relations.
 
 **Structure ontology.** E.18 keeps these distinctions primary:
 
 | Construct | What it carries | Boundary |
 |---|---|---|
-| `TransformationFlowStructure` | the selected compound structure, positioned locus kinds, one `U.Transfer` relation, and structure-wide budgets or edition pins | not a work procedure, method sequence, mathematical graph expression, or one `U.Transformation` |
+| `TransformationFlowStructure` | one selected A.22 organization identified by O/R/C/F, with participant and connection positions resolved under 5.1 | a description and its valuations retain their own meanings; actual Work and Transformation require their direct grounds |
 | transformation locus | an E.18 locus, path, path slice, substructure, or valuation used to express, constrain, or locate one independently identified actual bounded `U.Transformation` | actual only after the `A.3.4` occurrence basis is grounded; placement, adjacency, shared work, or a common affected referent establishes neither actuality nor composition |
 | functional behavior in a flow | a required-behavior claim positioned in the selected structure, or an actual functioning claim whose bounded change is independently grounded as one `U.Transformation`, with any selected flow position, path, slice, crossing, or valuation named by value | required behavior is not actual change. A selected functional structure, its `ArchitectureStructuralView` and `FunctionalElementClaim` epistemes, an actual transformation, the transformer system, a module allocation, a method, and a Work occurrence remain distinct; C.30.ASV links view use by reference rather than merging them into one functional-element individual |
 | slot-filler locus | a structure-positioned signature, mechanism, work plan, performed work, check, structural reinterpretation, publication, evidence, independently identified result entity or relation occurrence, refresh, or other identified value | not a transformation or a result merely by structure membership. Before calling it a result, say what it is a result of or for and point to the exact fact or binding that makes that reading true. If either answer is missing, stop; the flow position supplies neither. |
-| flow valuation | an Eulerian or declarative valuation over a path, path slice, state, guard, comparator, or budget over one exact selected structure | not a flowing object, imperative action sequence, second structure kind, performed work, or evidence that two named flows share one TFS identity |
+| flow valuation | a typed partial mapping on the connection/cut domain in 5.2, with its declared channels, regime and interpretation basis | a new value or assessment does not replace an actual participant or selected relation occurrence |
 | `FlowPositionRef` | the pair `<transformationFlowStructureRef, localFlowPositionId>` locating one structural position in one exact TFS | a valuation, path, slice, filling, `DesignRunTag`, value kind, or reference mode may bind a use of the position but does not enter its identity |
-| `SubflowRef` | one parent-relative internal portion selected by exact parent-TFS, included-position, included-parent-transfer, and boundary-position refs | not a new U-kind, standalone structure, second TFS, valuation, graph, view, or generic containment relation |
+| `SubflowRef` | one parent-relative internal portion identified by the parent, included positions, selected internal relation occurrences and boundary positions | complete participants resolve in the parent; the reference adds no generic containment relation |
 | crossing or gate | one structure-local transition between exact source and receiving positions and `CtxState` bindings, selected at one `OperationalGate(profile)` | not an F.9 semantic Bridge, scope-membership fact, plane conversion, edition change, A.6.4 arrow or use claim, gate decision, permission, penalty, or publication merely by being drawn or named; each changed binding states its from/to values and establishing basis, while any rule application, gate decision, and permission claim remain separate |
 | MVPK face | publication of selected structure, path, or crossing material | not the structure semantics and not evidence by itself |
-| refresh locus | the smallest path slice, crossing, edition pin, or publication face affected by change | not a whole-flow rewrite unless the whole flow is the changed locus |
+| refresh locus | a position, connection, crossing or face addressed by one of the slices covering actual dependency closure under 5.13 | the first detected slice does not bound the closure; independent uses remain available |
 
 **Result-claim assurance.** Apply this expansion only after the Plain test above identifies what the value is a result of or for. The category-correct direct basis is exactly one of:
 
@@ -90,7 +74,7 @@ When a sentence says that a system performs an actual functional transformation 
 
 **Not this pattern when.** Use `A.20` for internal step validity, `A.21` for gate decisions, `E.20` for mechanism-governing-definition placement, `A.3.4` for bounded transformation under conditions, `E.18.2` for mathematical descriptions of the selected structure, `C.27.TA` for temporal aspects, `C.27` for temporal-claim adequacy or supported-use claims, the A.15 family for work planning, performed work, or work-entry readiness (`A.15.5`), `E.17` for publication faces, and `E.10` for wording-use repair when the current EntityOfConcern is not the selected structure, path, crossing, or flow valuation.
 
-**What goes wrong if missed.** A practitioner may treat a reference flow, a wording-use cue such as `transition`, or a tool pipeline as a new graph kind or a hidden prescribed procedure, then lose comparability, crossing evidence, and slice-local refresh boundaries.
+**What goes wrong if missed.** A practitioner may treat a reference flow, a wording-use cue such as `transition`, or a tool pipeline as a new graph kind or a hidden prescribed procedure, then lose comparability, crossing evidence, and the boundaries of actually dependent refresh.
 
 **What this buys.** E.18 keeps selected structure, publication pins, crossings, the separation of internal constraint results from GateFit results, and refresh locality in one structure pattern without turning every path into its own flow doctrine or every mathematical graph description into the selected structure.
 

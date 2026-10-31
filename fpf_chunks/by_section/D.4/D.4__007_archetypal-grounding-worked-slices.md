@@ -6,12 +6,12 @@ section_id: "D.4:4"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__007_archetypal-grounding-worked-slices.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:4 — Archetypal Grounding (Worked Slices)"
-line_start: 91738
-line_end: 91768
+line_start: 92128
+line_end: 92158
 dependencies:
   - "A.1.CSD"
   - "A.10"

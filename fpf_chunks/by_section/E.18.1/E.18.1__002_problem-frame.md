@@ -6,12 +6,12 @@ section_id: "E.18.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:1 — Problem frame"
-line_start: 110460
-line_end: 110494
+line_start: 110943
+line_end: 110977
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -58,7 +58,7 @@ Use this pattern when an accepted `ProblemCard@Context` is ready enough to guide
 
 Method selection, planning, dated work, actual change, result interpretation, and return remain separate continuations. For each current question, apply the pattern that answers it and carry its result or honest stop.
 
-Keep three objects separate. The **accepted ProblemCard** is the `EntityOfConcern` of a materialized P2W note. The note is identified under `C.2.1` by its ClaimGraph, the accepted card, and its effective `U.ReferenceScheme`; its ClaimGraph names the receiving use and designates a separately identified viewpoint or model-use structure only when the claim uses that object and its organization changes how the receiving claim is interpreted. Each cited PatternID locates the Solution passage needed for the question about its **subject EntityOfConcern**. A practitioner or another capable system applies that guidance to the project entity or relation—for example, a System, episteme, Method, Work occurrence, or direct relation. When source wording says *role*, apply E.10.ROLE before treating it as a local system-role kind, separate System-classification judgment, assignment occurrence, participation or functioning relation, ordinary non-use, or missing-governor case. The **compact note, diagram, plan, trace, and publication** are epistemes or publication-side values that describe, constrain, or make those claims inspectable. Later method enactment or dated work can change or preserve a subject EntityOfConcern; improving a P2W note or completing its fields does not establish that subject change, work occurrence, evidence, acceptance, or result.
+Keep three objects separate. The **accepted ProblemCard** is the `EntityOfConcern` of a materialized P2W note. The note is identified under `C.2.1` by its ClaimGraph, the accepted card, and its effective reference scheme; its ClaimGraph names the receiving use and designates a separately identified viewpoint or model-use structure only when the claim uses that object and its organization changes how the receiving claim is interpreted. Each cited PatternID locates the Solution passage needed for the question about its **subject EntityOfConcern**. A practitioner or another capable system applies that guidance to the project entity or relation—for example, a System, episteme, Method, Work occurrence, or direct relation. When source wording says *role*, apply E.10.ROLE before treating it as a local system-role kind, separate System-classification judgment, assignment occurrence, participation or functioning relation, ordinary non-use, or missing-governor case. The **compact note, diagram, plan, trace, and publication** are epistemes or publication-side values that describe, constrain, or make those claims inspectable. Later method enactment or dated work can change or preserve a subject EntityOfConcern; improving a P2W note or completing its fields does not establish that subject change, work occurrence, evidence, acceptance, or result.
 
 **So-what adoption test.** Use P2W only when keeping the accepted distinction changes which relation you assert, what result you write, or whether you continue, split, stop, or return. If the relation and result are already settled and P2W would add only another note, skip P2W and apply the pattern whose Solution answers the current question.
 

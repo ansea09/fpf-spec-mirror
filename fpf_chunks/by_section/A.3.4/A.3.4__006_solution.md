@@ -6,12 +6,12 @@ section_id: "A.3.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__006_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:4 — Solution"
-line_start: 12965
-line_end: 13116
+line_start: 12996
+line_end: 13147
 dependencies:
   - "A.1"
   - "A.10"
@@ -198,7 +198,7 @@ Keep these objects separate:
 - the proof is a claim-bearing episteme using a declared formal substrate;
 - when claim content changes, the earlier specification episteme and the later specification episteme are distinct C.2.1 identities; `EpistemeEditionRelation` relates them only when its historical-continuation predicate obtains;
 - dated editing or review is a `U.Work` occurrence admitted under `A.15.1`;
-- edition succession alone establishes no transformation of one continuing episteme. Open A.3.4 only for a separately continuing subject—such as a selected `U.PresentationCarrier` under `E.24.PUB` or a claim-bearing constituent organization—after naming its boundary, before/during/after facts, and continuity rule; otherwise stop without a transformation claim;
+- edition succession alone establishes no transformation of one continuing episteme. Open A.3.4 only for a separately continuing subject—such as a physical or digital carrier independently identified under its domain identity rule (with expression bearing governed by `E.24.PUB`) or a claim-bearing constituent organization—after naming its boundary, before/during/after facts, and continuity rule; otherwise stop without a transformation claim;
 - if revision `U.Work` first constitutes the later episteme, open a separate `A.15.PROD` first-existence question: name the exact `productIdentitySpecification` episteme, the named applicability predicate or filled local claim that applies it to the candidate basis, subject context, and boundary, the `identityClosingWork`, and the work-to-change and change-to-identity predicates or local compound claims. If that specification continues an earlier specification, state the separate C.2.1 `EpistemeEditionRelation` only when its historical-continuation predicate obtains; without that relation, treat it as a non-continuing replacement and evaluate its applicability independently. Return the applicable `A.6.RCD` stop for either named connection that lacks its required basis;
 - a plant change, safety evaluation, assurance claim, gate decision, and publication are separate objects and relations.
 

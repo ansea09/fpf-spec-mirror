@@ -6,12 +6,12 @@ section_id: "C.2.4:16"
 section_title: "Articulation Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__017_articulation-publication-package-discipline.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:16 — Articulation Publication Package Discipline"
-line_start: 53438
-line_end: 53457
+line_start: 53783
+line_end: 53802
 dependencies:
   - "A.13"
   - "A.15"

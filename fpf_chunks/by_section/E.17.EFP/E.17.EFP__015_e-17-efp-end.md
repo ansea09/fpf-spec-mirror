@@ -6,12 +6,12 @@ section_id: "E.17.EFP:End"
 section_title: "E.17.EFP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__015_e-17-efp-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:End — E.17.EFP:End"
-line_start: 108187
-line_end: 108188
+line_start: 108587
+line_end: 108588
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.10.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__007_bias-annotation.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:6 — Bias-Annotation"
-line_start: 27283
-line_end: 27288
+line_start: 27318
+line_end: 27323
 dependencies:
   - "A.10"
   - "A.10.1"

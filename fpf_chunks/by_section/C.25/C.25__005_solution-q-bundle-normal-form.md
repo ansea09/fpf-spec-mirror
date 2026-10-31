@@ -6,12 +6,12 @@ section_id: "C.25:4"
 section_title: "Solution - Q-Bundle normal form"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__005_solution-q-bundle-normal-form.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:4 — Solution - Q-Bundle normal form"
-line_start: 64573
-line_end: 64615
+line_start: 64944
+line_end: 64986
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,7 +65,7 @@ The full escalation form is:
 
 `Q-Bundle := <Name, QualityBearer, ClaimScope?, WorkScope?, Measures[CHR], QualificationWindow?, Mechanisms?, Status?, Evidence?>`
 
-`Q-Bundle` names a C.25-local record-shaped part of one exact `U.ClaimGraph`. It is not a new Kernel kind, an independently identified world object, or a second identity beside the enclosing episteme. That episteme supplies the exact claim content, one independently identified `QualityBearer` as its EntityOfConcern, and the effective `U.ReferenceScheme` under which the quality claim is read.
+`Q-Bundle` names a C.25-local record-shaped portion of one episteme's exact claim content. It is not a new Kernel kind, an independently identified world object, or a second identity beside the enclosing episteme. That episteme supplies the exact claim content, one independently identified `QualityBearer` as its EntityOfConcern, and the effective reference scheme under which the quality claim is read.
 
 The `?` is operative: omit any optional slot unless changing it could change the current claim or receiving action. A bundle may therefore contain only Name, QualityBearer, Measures, and one load-bearing scope or window. The full tuple is an escalation aid, not a form every author must fill.
 

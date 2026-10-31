@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:4"
 section_title: "Solution — preserve practical content across a representation change"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__005_solution-preserve-practical-content-across-a-representation-change.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: Change Representation of the Same EntityOfConcern"
   - "A.6.3.RT:4 — Solution — preserve practical content across a representation change"
-line_start: 18509
-line_end: 18699
+line_start: 18542
+line_end: 18732
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -85,13 +85,13 @@ Open this branch when the receiving use depends on exact claim identity or an ex
 
 Then establish exact A.6.3 construction `v : X -> Y`:
 
-1. identify source episteme `X` and receiving episteme `Y` independently under C.2.1 by claim content, exact EntityOfConcern, and effective `U.ReferenceScheme`;
+1. identify source episteme `X` and receiving episteme `Y` independently under C.2.1 by claim content, exact EntityOfConcern, and effective `ReferenceScheme`;
 2. require the same exact EntityOfConcern; a changed concern requires A.6.4;
 3. state how claims in `X` and any named additional source epistemes construct the claims in `Y`;
 4. state the relation between endpoint schemes, preserved and foregrounded content, admitted loss or recoverability, prohibited strengthening, applicability, use, and return; and
 5. cite every exact correspondence relation on which `v` actually depends. Scheme difference, similar content, adjacency, or a visible edge proves none.
 
-Identify `X` and `Y` from their claim content, EntityOfConcern and effective schemes. A model or decoded output can supply an endpoint if those C.2.1 conditions are established; its label, visible form or carrier does not establish them. When an endpoint cannot yet be identified, retain the useful rendering or candidate carrier without asserting the exact construction.
+Identify `X` and `Y` from their claim content, EntityOfConcern and effective schemes. A model or decoded output can supply an endpoint if those C.2.1 conditions are established; its label, visible form or carrier does not establish them. When an endpoint cannot yet be identified, retain the useful rendering or candidate carrier without asserting the exact construction. Apply C.2.1:4.1.1 to the boundary between effective semantic rules and expression conventions. Rewriting signs through an already interpreted equivalence can preserve the same rules and episteme. Changing a designation meaning, operator rule, qualification, domain or interpreted dependency changes the effective scheme even if one selected answer is preserved.
 
 An exact `v` performs no Work and is not a relation occurrence. A system may perform representation-transformation Work under A.15.1; methods, source-use relations, A.6.1 bindings, and any A.15.PROD inception claim remain separate. E.17.0 independently decides viewpoint conformance and dependent `U.View` membership. E.24.PUB independently identifies publication occurrence, form, carrier, audience, and bounded use. Completing the exact construction does not itself authorize reliance.
 
@@ -101,7 +101,7 @@ Use `RepresentationSchemeTransitionRelation@Context` only when the actual transi
 
 ```text
 RepresentationSchemeTransitionRelation@Context <: U.Relation:
-  TransitionModelUseStructureSlot = <TransitionModelUseStructureSlot, U.Structure, U.StructureRef constrained to one exact BoundedModelUseStructure>
+  TransitionModelUseStructureSlot = <TransitionModelUseStructureSlot, U.Structure, SelectedStructureReference constrained to one exact BoundedModelUseStructure>
   PreservedEntityOfConcernSlot = <PreservedEntityOfConcernSlot, U.Entity, U.EntityRef>
   SourceRepresentationEpistemeSlot = <SourceRepresentationEpistemeSlot, U.Episteme, U.EpistemeRef>
   ReceivingRepresentationEpistemeSlot = <ReceivingRepresentationEpistemeSlot, U.Episteme, U.EpistemeRef>
@@ -125,7 +125,7 @@ The occurrence is participant-determined by the complete six-participant tuple. 
 
 #### A.6.3.RT:4.1.c - Transition description and source-relation epistemes
 
-For a durable description of an obtaining occurrence, first establish that occurrence. Identify its description episteme under C.2.1 by claim content about the six-participant occurrence, that occurrence as EntityOfConcern and the description's effective `U.ReferenceScheme`. Editing the claim graph creates another description episteme without changing the occurrence.
+For a durable description of an obtaining occurrence, first establish that occurrence. Identify its description episteme under C.2.1 by claim content about the six-participant occurrence, that occurrence as EntityOfConcern and the description's effective `ReferenceScheme`. Editing the claim graph creates another description episteme without changing the occurrence.
 
 Its claim content may make these values recoverable; they are not extra participants or identity fields:
 

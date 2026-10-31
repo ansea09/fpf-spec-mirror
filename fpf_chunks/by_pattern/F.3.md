@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.3.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
-line_start: 118691
-line_end: 118947
+line_start: 119275
+line_end: 119531
 dependencies:
   - "A.11"
   - "A.7"
@@ -80,7 +80,7 @@ The cluster’s outcome is a **LocalSenseClaim**, with a Tech and Plain label pa
 
 ### F.3:5 - Minimal vocabulary (this pattern only)
 
-* **Interpretation basis** — the exact source and edition and the effective `U.ReferenceScheme` used to understand the selected passages.
+* **Interpretation basis** — the exact source and edition and the effective reference scheme used to understand the selected passages.
 * **Unit** — a source-local lexical note from F.2.
 * **LocalSenseClaim** — the one-sentence claim that a cluster of source uses supports under that basis.
 * **Supporting expressions** — the F.2 expressions consolidated by the claim.

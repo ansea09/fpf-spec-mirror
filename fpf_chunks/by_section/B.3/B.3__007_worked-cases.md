@@ -6,12 +6,12 @@ section_id: "B.3:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__007_worked-cases.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:6 — Worked cases"
-line_start: 44981
-line_end: 45014
+line_start: 45078
+line_end: 45113
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -64,6 +64,8 @@ Use A.21 and the release or permission pattern that consumes the gate decision. 
 Target claim: “Model edition M predicts response Y within the declared operating region.” Assurance use: whether an engineer may use that prediction as one input to a reversible design comparison.
 
 The engineer cites the exact model claim, its empirical-validation result, A.2.4 first-use classification and the direct support relation actually used, the A.10 provenance path, the operating region, and the expiry condition. No combination of unlike characteristics is needed. The compact disposition is `supported-for-use`, limited to the reversible comparison; release, safety, and operation are expressly not carried. No dated assessment Work or reusable record is added because the use does not depend on who performed the already cited validation.
+
+The engineer makes the supporting inference explicit: “The validation compared M's predictions with observations over the region needed for this comparison, and its stated error bounds meet the comparison's tolerance. Those predictions are therefore supported as one input to the reversible comparison within that region and the stated validity window.” These are premises of this worked case. If the validation does not establish that coverage or tolerance, narrow the use or return an unresolved disposition. Keep the argument beside the compact result or accessible through `basisRefs`. A later correction to the validation reopens the conclusions that depended on the corrected result.
 
 #### B.3:6.4 - Order-sensitive Method case
 

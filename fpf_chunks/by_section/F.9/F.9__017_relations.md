@@ -6,12 +6,12 @@ section_id: "F.9:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__017_relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.9 — Relate Local Meanings across Contexts (Alignment and Bridge)"
   - "F.9:15 — Relations"
-line_start: 121030
-line_end: 121049
+line_start: 121614
+line_end: 121633
 dependencies:
   - "A.10"
   - "A.13"
@@ -72,6 +72,6 @@ keywords:
 * **C.34.** Structural correspondence or morphism adequacy may cite an obtaining Bridge and a bounded-use claim but states its own preserved and lost architecture structure.
 * **A.6.REL.** Applies the F.9 recurrence and occurrence-identity rule only when a receiver must distinguish or reference the occurrence.
 * **C.2.1.** Independently constitutes assertions, modal proposals, occurrence-description epistemes, and filled Cards; none supplies the Bridge predicate or occurrence identity.
-* **E.24.PUB.** Use it for any `EpistemePublicationRelation` occurrence, publication form, and presentation carrier for a selected description/Card edition. Publishing creates neither Bridge nor receiving use.
+* **E.24.PUB.** Use it for any `EpistemePublicationRelation` occurrence, particular expression, any selected reusable publication form, and actual presentation carrier for a selected description/Card edition. Publishing creates neither Bridge nor receiving use.
 * **A.6.3.CSC, C.26.1, and C.26.2.** Govern coarsening, probe effects, and no-faithful-enough-report cases when those questions are live.
 

@@ -6,12 +6,12 @@ section_id: "C.41.SR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:4 — Solution"
-line_start: 89275
-line_end: 89324
+line_start: 89663
+line_end: 89712
 dependencies:
   - "A.10"
   - "B.1.5"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.20.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol: Introduce or Revise FPF Mechanisms"
-line_start: 112961
-line_end: 113349
+line_start: 113450
+line_end: 113838
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -129,7 +129,7 @@ Only the third outcome uses the manifest in `E.20:4.2`. The first two still name
 The author SHALL first classify the change, because different classes have different governing definitions:
 
 1. **New declared operation family or archetypal grounding.** The `EntityOfConcernRef` names an operation family not previously declared at the selected governing locus.
-2. **New mechanism declaration or semantic edition.** One A.6.1 `U.Mechanism` episteme receives new identity-bearing content or a new effective `U.ReferenceScheme`.
+2. **New mechanism declaration or semantic edition.** One A.6.1 `U.Mechanism` episteme receives new identity-bearing content or a new effective reference scheme.
 3. **Neighboring mechanism-relation change.** A realization, refinement, conservative extension, equivalence, bridge, evaluation, evidence-use, or publication relation changes while the mechanism content does not.
 4. **Suite change** (membership, obligations, spec pins, or suite protocols).
 5. **Planned-baseline change** (new or revised declaration-local planned-filling rows inside one exact `U.WorkPlan`, or changes to their pins).

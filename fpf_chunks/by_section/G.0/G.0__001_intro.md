@@ -6,12 +6,12 @@ section_id: "G.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__001_intro.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.0 — Define Admissible Comparison and Aggregation for a Frame (CG-Spec)"
   - "G.0:intro — Intro"
-line_start: 126273
-line_end: 126282
+line_start: 126862
+line_end: 126871
 dependencies:
   - "A.10"
   - "A.17"

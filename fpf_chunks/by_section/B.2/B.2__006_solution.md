@@ -6,12 +6,12 @@ section_id: "B.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__006_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:4 — Solution"
-line_start: 43342
-line_end: 43486
+line_start: 43433
+line_end: 43577
 dependencies:
   - "A.1"
   - "A.10"
@@ -97,7 +97,7 @@ Locate the first reason for disagreement, as B.5.TC:4.4 explains. It may be a di
 | `evidenceRelationRefs[]` | References to exact evidence relation occurrences supporting the trigger claims. |
 | `sourceUseRelationRefs[]` | References to exact source-use relation occurrences when a source is relied on. |
 
-The profile's exact ClaimGraph and effective `U.ReferenceScheme`, together with its existing-whole EntityOfConcern, constitute its C.2.1 identity. Any current `U.ClaimScope` and an independently selected model-use structure can qualify this episteme when its receiving use needs them. These identity values and qualifications do not identify either whole, become MHT trigger facts, or make any referenced relation obtain. A single cue warrants attention; it does not establish whole reidentification.
+The profile's complete interpreted claim content and effective reference scheme, together with its existing-whole EntityOfConcern, constitute its C.2.1 identity. Any current `U.ClaimScope` and an independently selected model-use structure can qualify this episteme when its receiving use needs them. These identity values and qualifications do not identify either whole, become MHT trigger facts, or make any referenced relation obtain. A single cue warrants attention; it does not establish whole reidentification.
 
 #### B.2:4.2 - Existing-whole comparison and optional result
 

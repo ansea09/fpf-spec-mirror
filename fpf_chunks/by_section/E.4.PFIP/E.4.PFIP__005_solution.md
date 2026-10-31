@@ -6,12 +6,12 @@ section_id: "E.4.PFIP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFIP/E.4.PFIP__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.4.PFIP — Principle-Framework Publication Integration and Preservation"
   - "E.4.PFIP:4 — Solution"
-line_start: 95709
-line_end: 95810
+line_start: 96107
+line_end: 96210
 dependencies:
   - "C.2.1"
   - "C.33"
@@ -38,13 +38,15 @@ The predecessor-to-candidate question has two branches. Use a one-to-one express
 
 These two comparisons and the two predecessor branches are parts of the method, not new FPF kinds. When a later use needs the conclusion as a reusable episteme, identify it under `C.2.1` and state the later reliance separately.
 
+A publication-form expression here is one independently identified expression under E.24.PUB that follows the selected reusable form. Fix its domain and equality rule before comparing it. The form-mediated relation can remain true while its expression witness changes, so a preservation comparison identifies the actual predecessor and candidate expressions rather than relying on that relation alone.
+
 #### E.4.PFIP:4.1 - Bound the candidate and accepted inputs
 
 Identify:
 
 - the candidate FPF, DPF, or LPF edition and declared publication use;
 - every accepted source contribution included in this candidate edition;
-- every candidate `PublicationFormExpressionRelation` occurrence and its selected edition, publication form, and bounded-use declaration;
+- every candidate `PublicationExpressionRelation` occurrence and its selected edition, independently identified expression, and bounded-use declaration, plus any selected form and its `PublicationFormConformanceRelation`; retain a current `PublicationFormExpressionRelation` claim with its actual expression witness;
 - the corresponding carriers and publication occurrences only when their identities affect the comparison; and
 - every predecessor expression whose continuity, replacement, retirement, split, merge, or use change is claimed.
 
@@ -54,7 +56,7 @@ Before assigning a receiving passage, recover the content architecture that make
 
 For each accepted source contribution, record the candidate publication-form expression and the passage, field, relation, cue, or selected structure intended to incorporate it. A source contribution with no corresponding predecessor content is an accepted addition. Changing or retiring predecessor content needs an accepted content decision; changing or retiring a publication form is not such a decision.
 
-Use `E.24.PUB` to keep the framework edition, publication form, expression relation, carrier, bearing relation, audience, bounded use, and publication occurrence distinct. Use the smallest explicit statement that supports the comparison.
+Use `E.24.PUB` to keep the framework edition, particular expression, reusable publication form, expression and conformance relations, carrier, bearing relation, audience, bounded use, and publication occurrence distinct. Use the smallest explicit statement that supports the comparison.
 
 #### E.4.PFIP:4.2 - Compare accepted sources with candidate expressions
 
@@ -74,7 +76,7 @@ The checkable traversal can retain an ordinary positive classification without a
 
 #### E.4.PFIP:4.3 - Compare one eligible expression pair
 
-One preservation comparison follows one eligible pair: one predecessor `PublicationFormExpressionRelation` occurrence and one candidate occurrence.
+One preservation comparison follows one eligible pair: one predecessor `PublicationExpressionRelation` occurrence and one candidate occurrence, with both expression identities fixed. Where form-mediated continuity is claimed, retain the corresponding `PublicationFormExpressionRelation` occurrences and identify the exact expression witnesses being compared.
 
 A pair is eligible only when both expressions have the same declared bounded use and either:
 
@@ -114,7 +116,7 @@ Without the form-change decision, stop at `missing publication-expression contin
 
 #### E.4.PFIP:4.5 - Complete the affected-publication comparison and return
 
-Identify every affected publication-form expression relation occurrence and, when carrier or publication identity affects the comparison, its bearing and publication relations. Run every applicable eligible-pair comparison and allocation comparison. Check each shared public entry or direct consumer once across the comparisons, while preserving the separate expression results that depend on it.
+Identify every affected exact expression relation occurrence, its selected reusable form when applicable, and any form-mediated relation whose continuity is claimed and, when carrier or publication identity affects the comparison, its bearing and publication relations. Run every applicable eligible-pair comparison and allocation comparison. Check each shared public entry or direct consumer once across the comparisons, while preserving the separate expression results that depend on it.
 
 Return a bounded preservation conclusion with:
 

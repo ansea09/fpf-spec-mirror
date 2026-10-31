@@ -6,12 +6,12 @@ section_id: "E.5.4:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__008_consequences.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:7 — Consequences"
-line_start: 96306
-line_end: 96312
+line_start: 96706
+line_end: 96712
 dependencies:
   - "E.3"
   - "E.5"

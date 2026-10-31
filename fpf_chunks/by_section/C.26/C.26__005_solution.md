@@ -6,12 +6,12 @@ section_id: "C.26:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:4 — Solution"
-line_start: 65048
-line_end: 65374
+line_start: 65419
+line_end: 65745
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ Start with the ordinary FPF pattern. Recover the exact claim, bearer or EntityOf
 Application sequence:
 
 1. Name the ordinary FPF pattern that already carries the baseline question.
-2. Recover the exact claim-bearing subject: quality bearer or C.2.1 model-claim episteme, effective `U.ReferenceScheme`, probe or model frame, comparison frame, and `U.ClaimScope`; record grounding and viewpoint only through their separately obtaining relations.
+2. Recover the exact claim-bearing subject: quality bearer or C.2.1 model-claim episteme, effective reference scheme, probe or model frame, comparison frame, and `U.ClaimScope`; record grounding and viewpoint only through their separately obtaining relations.
 3. Name the concrete representational mistake: passive read, shared comparison frame, false faithful-enough export claim for the intended use, exact-state shortcut, or unsupported coarsened representation.
 4. Apply the ordinary subject patterns and retain C.26 only if one named contextual-model obstruction survives and changes the admissible inference or action.
 5. Explain the surviving cue and its useful consequence in a QL-lite note; otherwise return to the ordinary subject pattern without QL wording. Ordinary prose can supply the note when its required content is recoverable.
@@ -127,7 +127,7 @@ For a retained QL use, the following questions organize a short note. Use ordina
 
 | Field | Question |
 | --- | --- |
-| Claim-bearing subject and scheme | What exact quality bearer and ascription, or exact C.2.1 model-claim episteme and EntityOfConcern, is at issue under which effective `U.ReferenceScheme`? |
+| Claim-bearing subject and scheme | What exact quality bearer and ascription, or exact C.2.1 model-claim episteme and EntityOfConcern, is at issue under which effective reference scheme? |
 | Claim-use boundary | Which exact probe or model frame, comparison frame, and `U.ClaimScope` govern this use? |
 | Grounding and viewpoint | Which exact `EpistemeEmpiricalGroundingRelation` obtains, or is grounding explicitly absent? If viewpoint matters, which `U.ViewpointRef` resolves to exact P? If evaluation Work is claimed, which System performs it? |
 | Ordinary FPF pattern | Which FPF pattern already carries the baseline question? |

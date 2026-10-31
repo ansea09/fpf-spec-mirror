@@ -6,15 +6,17 @@ section_id: "E.17.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:4 — Solution"
-line_start: 105805
-line_end: 106199
+line_start: 106200
+line_end: 106594
 dependencies:
   - "A.22"
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.5"
   - "C.13"
   - "C.2.1"
@@ -40,11 +42,11 @@ Recover candidate `E : U.Episteme` through C.2.1:
 
 - exact claim content;
 - exact EntityOfConcern `T`;
-- effective `U.ReferenceScheme`.
+- effective `ReferenceScheme`.
 
 These three discriminators identify E. A layout, file, query run, `viewpointRef`, selected project context, publication form, or carrier does not add another episteme identity discriminator.
 
-If the current thing is only a diagram element, graph node, form, or carrier, recover that object under C.29 or E.24.PUB first. Do not promote it to an episteme or view by appearance.
+Recover a diagram element or graph node under the chosen representation and its correspondence, adding C.29 when a mathematical lens is used. Recover a publication form or carrier under E.24.PUB. Do not promote it to an episteme or view by appearance.
 
 #### E.17.0:4.2 - Resolve one exact viewpoint episteme
 
@@ -196,7 +198,7 @@ In this branch, changed P claim content, exact S, or effective scheme identifies
 
 ##### E.17.0:4.6.3 - Keep explicit evaluation values optional
 
-The fixed `E17ViewpointSemanticsSlice@FPFEdition` selects the exact FPF and E.17.0 declaration editions, effective `U.ReferenceScheme`, and `Γ_time`. In that slice the admission predicates defined here permit exactly two optional C.3.2 local ValueKinds, each carried by its own C.2.1 KindSignature episteme:
+The fixed `E17ViewpointSemanticsSlice@FPFEdition` selects the exact FPF and E.17.0 declaration editions, effective `ReferenceScheme`, and `Γ_time`. In that slice the admission predicates defined here permit exactly two optional C.3.2 local ValueKinds, each carried by its own C.2.1 KindSignature episteme:
 
 | Local ValueKind | Exact extension | Admit an explicit value only when |
 |---|---|---|
@@ -304,7 +306,7 @@ The compact positive statement may stop at “this exact constituent depends on 
 |---|---|---|
 | `A_dependency` | a separately reviewable readable assertion is needed: one C.2.1 assertion episteme whose exact EntityOfConcern is `E_dependent` and whose claims state the direct predicate for exact `E_base` | authoring does not make r obtain; A is neither r, an occurrence description, nor a third participant |
 | `O_dependency` | an already recoverable r needs a separate description: one C.2.1 description episteme whose exact EntityOfConcern is r and whose claims may state endpoints and participant-determined identity | the description is not r, and endpoint mention without independently recoverable r is insufficient |
-| `D_dependencyUse` | one named A.22 structure-selection judgment needs a reviewable claim that exact r is admissible: one C.2.1 episteme identified through obtaining `EpistemeConstitutionRelation(G_dependencyUse,r,S_decl)`, where G is its exact `U.ClaimGraph`, r is its exact EntityOfConcern, and `S_decl` is its effective `U.ReferenceScheme` | D is not G, r, `S_decl`, an assertion, occurrence description, `U.Signature`, RelationSignature, selected structure, actor, or third dependency-relation participant; the participant triple does not constitute itself, and obtaining r does not entail use-specific admissibility |
+| `D_dependencyUse` | one named A.22 structure-selection judgment needs a reviewable claim that exact r is admissible: one C.2.1 episteme identified through obtaining `EpistemeConstitutionRelation(G_dependencyUse,r,S_decl)`, where G is its exact claim content G in the `NonemptyClaimContent` range, r is its exact EntityOfConcern, and `S_decl` is its effective `ReferenceScheme` | D is not G, r, `S_decl`, an assertion, occurrence description, `U.Signature`, RelationSignature, selected structure, actor, or third dependency-relation participant; the participant triple does not constitute itself, and obtaining r does not entail use-specific admissibility |
 | `J_dependency` | that named selection judgment needs inspectable inferential support | J is non-constitutive justification content, distinct from G; it carries the inferential account for the obtaining and selection-admissibility claims. Claim truth and r's occurrence identity remain governed by their direct rules |
 | empirical or formal evaluation package | a named receiving use needs a tested result or formal conclusion | its actors, work, methods, bases, results, evidence, production, and use relations remain separate from r and D |
 | later selection work and C.11 result | accountable selection or project choice is separately current | an exact system performs Work using the selected method; no generic acceptance relation follows |
@@ -347,7 +349,7 @@ If reusable target claims are needed, constitute them separately under C.2.1:
 - `C_dependencyDoesNotObtain` carries a distinct negative principal claim and is not a state of the positive episteme; and
 - `C_dependencyAdmissibleForSelection` concerns exact r under the named use frame and remains distinct from both obtaining claims.
 
-Co-representation in one ClaimGraph does not merge these epistemes. T carries its empirical conclusion locally; `E_dependencyProof` carries its formal conclusion locally. If a target-claim episteme separately represents one conclusion, use C.29 only when representation correspondence matters—never as truth, use, or r. Mint no duplicate evidence-bearing relation and no new A.10 ontology.
+Co-representation in one ClaimGraph does not merge these epistemes. T carries its empirical conclusion locally; `E_dependencyProof` carries its formal conclusion locally. If a target-claim episteme separately represents one conclusion, recover its correspondence to that conclusion; add C.29 when mathematical inference or transfer matters. That correspondence does not establish the conclusion's truth, its use, or r. Mint no duplicate evidence-bearing relation and no new A.10 ontology.
 
 Keep these three cases distinct:
 
@@ -359,7 +361,7 @@ For historical reliance on a claim or result, use `A.10` to recover its obtainin
 
 ##### E.17.0:4.7.4 - Schemes, scope, transformation, and change
 
-Recover `S_dep` from `E_dependent`, `S_base` from `E_base`, and `S_decl` from D. They are three uses of existing `U.ReferenceScheme`, outside r and its RelationSignature. G may designate exact endpoints, claim values, and declared names through those schemes; designation is neither occurrence obtaining, truth, nor historical participation.
+Recover `S_dep` from `E_dependent`, `S_base` from `E_base`, and `S_decl` from D. They are three uses of existing `ReferenceScheme`, outside r and its RelationSignature. G may designate exact endpoints, claim values, and declared names through those schemes; designation is neither occurrence obtaining, truth, nor historical participation.
 
 Keep claim-scope `widen`, `narrow`, and `refit` under A.2.6 when no local-sense translation is needed. Use `translate` only when scope membership must be expressed between exact local senses: require an obtaining F.9 Bridge between their exact `SchemeSenseCell` values, the separate affirmative claim for that translation's direction, rule, and tolerance, and the current A.10 or B.3 reliance branch. Scheme difference, same spelling, token reuse, or translation intent triggers no Bridge.
 
@@ -375,7 +377,7 @@ For one current describing use, always name the use. Add one singular `viewpoint
 
 When the viewpoint matters, that describing use selects P for itself only. The selection does not establish conformance or `U.View` membership, give E a new C.2.1 identity, reidentify E, or create a universal selection relation, legacy context tuple, bounded-context object, or generic model-use identity field. Another use may select another P while E remains unchanged. A use needing several viewpoints first identifies the C.13 collection and its exact membership; it does not overload `viewpointRef` with a collection value.
 
-The architecture therefore keeps exactly two positive dependent-kind rules—P as `U.Viewpoint` by its fixed self-contained content about an exact target kind or, conditionally, by fixed content about selected S; and E as `U.View` by obtaining conformance—and two direct relation kinds: viewpoint-convention dependence and E/P conformance. D remains optional for a named A.22 use; the two local explicit-result ValueKinds remain optional for named evaluation consumers. Families carry exact `U.ViewpointRef` values only when a named use needs viewpoint selection. C.2.1 identity, MethodDescription, A.6.3 construction, E.24.PUB publication, C.29 representation, and unrelated interfaces retain their separate identities and rules.
+The architecture therefore keeps exactly two positive dependent-kind rules—P as `U.Viewpoint` by its fixed self-contained content about an exact target kind or, conditionally, by fixed content about selected S; and E as `U.View` by obtaining conformance—and two direct relation kinds: viewpoint-convention dependence and E/P conformance. D remains optional for a named A.22 use; the two local explicit-result ValueKinds remain optional for named evaluation consumers. Families carry exact `U.ViewpointRef` values only when a named use needs viewpoint selection. C.2.1 identity, MethodDescription, A.6.3 construction, E.24.PUB publication, C.29 mathematical representation, and unrelated interfaces retain their separate identities and rules.
 
 #### E.17.0:4.9 - Add viewing construction only when its history matters
 
@@ -403,7 +405,7 @@ When cross-view correspondence matters:
 2. state the direct correspondence, consistency, realization, trace, or change-impact relation that is claimed;
 3. apply the concrete pattern that defines and tests that relation, including its obtaining and occurrence-identity rules;
 4. identify a C.2.1 assertion or description episteme only when the correspondence claim itself must be reviewed or used;
-5. use C.29 when a graph, matrix, or diagram represents the already recovered objects and relations.
+5. recover the correspondence by which a graph, matrix, or diagram represents those objects and relations; use A.6.3.RT/A.6.3.RT.OE for its construction and C.29 when a mathematical lens is required.
 
 Plain `correspondence model` may describe such a claim-bearing episteme after its exact EntityOfConcern and direct relations are recoverable. It is not a universal `U.CorrespondenceModel` kind, a substitute for the relations, or proof that they obtain. If no pattern defines and tests the needed direct relation, return the exact missing-relation blocker or use A.6.RCD; do not close the case with `linked`, `mapped`, or `consistent`.
 
@@ -413,13 +415,13 @@ Temporary inconsistency is represented by exact evaluation claims and, when curr
 
 E.24.PUB keeps three direct relation occurrences distinct:
 
-- `PublicationFormExpressionRelation(selectedEdition,publicationForm,boundedUseDeclaration)` states that the exact form expresses enough of that selected episteme edition for the declared use;
-- `PublicationFormBearingRelation(presentationCarrier,publicationForm)` states that the exact `U.PresentationCarrier` bears the recoverable form; and
-- `EpistemePublicationRelation(selectedEdition,audienceDeclaration,boundedUseDeclaration,publicationForm,presentationCarrier)` makes that edition available to entities admitted by the audience declaration for the bounded use, only while both supporting relations obtain and the audience can get the edition through the carrier.
+- `PublicationExpressionRelation(selectedEdition,expression,boundedUseDeclaration)` states that exact X conveys the required claims of E for U;
+- `PublicationExpressionBearingRelation(presentationCarrier,expression)` states that an actual state or realization of independently identified C yields that same X; and
+- `EpistemePublicationRelation(selectedEdition,audienceDeclaration,boundedUseDeclaration,expression,presentationCarrier)` makes E available through X and C to the declared audience for U while expression, bearing and audience access obtain.
 
-Expression has its exact three participants, bearing its exact two, and publication its exact five. Each occurrence retains its own maximal continuous obtaining or availability interval. Changing a participant identifies another occurrence; an availability gap followed by restoration creates a later publication occurrence. None of those changes reidentifies an otherwise unchanged C.2.1 episteme.
+Expression has its exact three participants, bearing its exact two, and publication its exact five. Each occurrence retains its own maximal continuous obtaining or availability interval. Changing a participant identifies another occurrence; an availability gap followed by restoration creates a later publication occurrence. None of those changes reidentifies an otherwise unchanged C.2.1 episteme. When reusable form F matters, establish X/F conformance. E.24.PUB retains form-mediated expression and bearing with the same-X witness, and broader availability over permitted expressions or carriers. A changed exact publication need not interrupt that broader availability.
 
-Rendering, upload, or carrier manipulation is `U.Work` only when an exact system performs it. C.29 separately defines representation and correspondence for mathematical, diagrammatic, or other representations of independently recovered objects and relations. A form, carrier, representation, rendering, or publication occurrence grants no `U.Viewpoint` or `U.View` membership and makes no world-side relation obtain.
+Rendering, upload, or carrier manipulation is `U.Work` only when an exact system performs it. A.6.3.RT and A.6.3.RT.OE govern construction and correspondence of expressions; C.29 supplies the additional mathematical-lens conditions. A form, carrier, representation, rendering, or publication occurrence grants no `U.Viewpoint` or `U.View` membership and makes no world-side relation obtain.
 
-Plain `published view` therefore means an already recognized view episteme participating as the selected edition in an exact publication occurrence. It is not another durable kind. One unchanged view may participate in several publications through different audiences, uses, forms, carriers, and availability intervals.
+Plain `published view` therefore means an already recognized view episteme participating as the selected edition in an exact publication occurrence. It is not another durable kind. One unchanged view may participate in several publications through different audiences, uses, expressions, carriers, and availability intervals.
 

@@ -6,12 +6,12 @@ section_id: "F.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__004_forces.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.7 — Display Source-Local Comparisons in a Concept-Set Table"
   - "F.7:3 — Forces"
-line_start: 119957
-line_end: 119965
+line_start: 120541
+line_end: 120549
 dependencies:
   - "A.6.9"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "A.2.9:5"
 section_title: "Worked Communication Uses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__008_worked-communication-uses.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:5 — Worked Communication Uses"
-line_start: 8913
-line_end: 8996
+line_start: 8938
+line_end: 9021
 dependencies:
   - "A.10"
   - "A.13"
@@ -122,7 +122,7 @@ The utterance is about `ChangeRequestId(4711)`; its policy-selected target and d
 * `utteranceSubjectRefs = {EpistemeRef(APISpec_v12)}`, `institutionalTargetRefs = {EpistemeRef(APISpec_v12)}`, `utteranceDescriptionLocators = {U.EpistemeRef(APISpec_v12)}`, and `carrierRefs = {CarrierRef(GitTag:v12), CarrierRef(SignedReleaseArtifact:v12)}`;
 * `institutes.publicationRelations = {EpistemePublicationRelationRef(APISpec-v12-Publication)}`.
 
-`APISpec-v12-Publication : EpistemePublicationRelation` separately names the selected `APISpec_v12` edition, audience declaration, bounded-use declaration, publication form, exact carrier, availability interval and governing publication conditions under E.24.PUB. It obtains only while that exact edition remains available under those conditions. Its interval need not equal the six-minute publishing act. The same episteme can be both utterance subject and publication object without those relations becoming identical.
+`APISpec-v12-Publication : EpistemePublicationRelation` separately names the selected `APISpec_v12` edition, audience declaration, bounded-use declaration, exact expression, exact carrier, availability interval and governing publication conditions under E.24.PUB. It obtains only while those five participants remain fixed and that expression remains available from that carrier under those conditions. A selected reusable form has its separate conformance relation; broader availability of the edition can continue through another exact publication. Its interval need not equal the six-minute publishing act. The same episteme can be both utterance subject and publication object without those relations becoming identical.
 
 Publication makes the selected `APISpec_v12` edition available with its claim content unchanged. If `D-StdStatus-APISpec_v12-Published` is needed, keep it as a separate C.2.1 claim about the exact publication relation and cite its evidence through A.10; do not put the claim in `institutes`. Norms live in the published utterance description, while `StandardsEditor_A` performs the publishing Work. Another audience or scheme needs F.9 only when a receiving use actually translates or substitutes the local act or policy meaning.
 

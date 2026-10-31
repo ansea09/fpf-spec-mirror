@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__006_archetypal-grounding-worked-slices.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.10.MOVE — Move, Readiness and Trajectory Wording Precision Restoration"
   - "E.10.MOVE:5 — Archetypal Grounding - Worked Slices"
-line_start: 101022
-line_end: 101104
+line_start: 101424
+line_end: 101506
 dependencies:
   - "A.1.STM"
   - "A.10"

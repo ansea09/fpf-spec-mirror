@@ -6,12 +6,12 @@ section_id: "C.30:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:1 — Problem frame"
-line_start: 70954
-line_end: 71009
+line_start: 71325
+line_end: 71380
 dependencies:
   - "A.1"
   - "A.10"
@@ -102,8 +102,8 @@ ArchitectureQuestionCard@Project:
   sourcePhrase?, if useful:
   questionDisposition:
     concernCueOnly | problemCardReady | architectureClaimReady | nonArchitectureClaimReady
-  selectedStructureRefs?: FinSet(U.StructureRef)
-  candidateOrExpectedStructureRefs?: FinSet(U.StructureRef)
+  selectedStructureRefs?: FinSet(SelectedStructureReference)
+  candidateOrExpectedStructureClaimRefs?: FinSet(U.EpistemeRef)
   selectedStructureKindRefs or candidateStructureKindRefs:
   inspectedMaterialUse, if current: claim content | description | view | representation | publication form | source | decision | mathematical lens | other exact use
   inspectedMaterialUseRelationRefs?: references to exact obtaining relations that establish the inspected-material use
@@ -113,7 +113,7 @@ ArchitectureQuestionCard@Project:
   non-admissible overread:
 ```
 
-The card can stop before a durable claim. An `actualRelationNamed` result requires exact obtaining `ArchitectureRelation` occurrences and their A.22 structure participants. A candidate, planned, required, desired, expected, modeled, or diagrammed structure remains in `candidateOrExpectedStructureRefs` and makes no subject relation obtain.
+The card can stop before a durable claim. An `actualRelationNamed` result requires exact obtaining `ArchitectureRelation` occurrences and their A.22 structure participants. Candidate, planned, required, desired, expected, modeled, or diagrammed organization remains claim content. When that content is carried by a separate identified episteme, `candidateOrExpectedStructureClaimRefs` refers to it. Use `selectedStructureRefs` only for independently identified A.22 structures; neither designation makes an architecture relation obtain.
 `architectureConcernCue` is recognition wording only until it helps choose one selected structure kind and one architecture move. When a controlled cue is useful, use `changeLocalization`, `substitutionOrReplacement`, `flowBottleneck`, `controlOrRateMismatch`, `dataCustodyOrStateResidence`, `physicalSeparationOrPlacement`, `evidenceReuseOrAssuranceReuse`, `scaleWindowOrCoarseningLoss`, `runtimeFailureMode`, `crossScopeResidual`, `descriptionViewLoss`, or `otherDeclared`. Local phrases such as change localization failure, hidden crossing, source return, generated-view loss, or state-residence uncertainty may remain in `sourcePhrase?` or Plain prose. If the described holon, distinction between actual and candidate structure, architecture concern, and first move cannot yet be named, set `questionDisposition` to `concernCueOnly` or `problemCardReady`; wording alone promotes neither a claim nor an obtaining relation.
 
 `ArchitectureQuestionCard@Project` is a triage aid for choosing one architecture move. `questionDisposition` records whether to keep a concern cue, prepare a separate `ProblemCard`, constitute an `ArchitectureClaim`, or name the pattern for a non-architecture claim. `architectureRelationDisposition` separately records whether an actual direct relation has been recovered or the content is candidate or expected only. `claimPatternRefs` contains PatternIDs whose content defines, constrains, or tests any separate claim; it does not identify a pattern-application occurrence. The card is not an evidence record, gate, decision, release record, quality score, risk rating, or publication-use authority claim.

@@ -6,12 +6,12 @@ section_id: "C.39.MC:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__011_architectural-rationale.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:10 — Architectural Rationale"
-line_start: 84300
-line_end: 84307
+line_start: 84688
+line_end: 84695
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"

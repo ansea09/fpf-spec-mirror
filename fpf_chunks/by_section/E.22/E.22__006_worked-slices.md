@@ -6,12 +6,12 @@ section_id: "E.22:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__006_worked-slices.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:5 — Worked slices"
-line_start: 114235
-line_end: 114265
+line_start: 114726
+line_end: 114756
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -55,7 +55,7 @@ Deleting the source's whole proposal because one inference lacks support is a po
 
 **Absorption.** External review returns many suggestions. The frame asks for `absorptionEvaluation`. The result says which changes improved coordinates, which were already satisfied, which introduced trade-offs, and which belong outside the evaluation.
 
-**Proposal portfolio.** A candidate improvement campaign needs alternatives before editing. The frame asks for `candidateImprovementProposalEvaluation`. The result returns bounded proposal rows; selection or generation stays with the pattern that defines or constrains that claim and is not decided by the evaluation frame.
+**Proposal portfolio.** A candidate improvement campaign needs alternatives before editing. The frame asks for `candidateImprovementProposalEvaluation`. The result returns bounded proposal rows. For example, a proposal to reduce latency and a proposal to reduce energy consumption remain two alternatives with their own trade-offs; listing the first twice or swapping their display order leaves the proposal set unchanged. A separate protection set can keep both latency and energy coordinates visible. Selection or generation uses its own governing pattern; the evaluation frame and proposal set perform neither action.
 
 **Physical-system proposal.** A vibration evaluation of `PumpAssembly@Prototype-3` selects the vibration `CharacteristicSpace`, RMS-vibration predicate and any comparator, one evaluation ClaimScope over the declared operating-point slices, and the design decision that will consume the result. Here the account includes dated test-bench evaluation Work, so the account first recovers the exact evaluator through A.13 and A.15.1 independently identifies the Work, Method, time, and containing System. If this test-bench account also needs the exact assignment under which the evaluator acted, add F.6 through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work and result route intact. An exact application of the declared vibration-evaluation operation returns the finding of excessive RMS vibration at one operating point under its result declaration. The result binding connects that application to the finding. The frame, subject-pattern reference, assignment, expected evidence basis, and result-form description remain separate. The proposal's `reviewLocationDescriptionRef` points to that evaluation row. Its `correctionTargetRef` points to `ImpellerBladeGeometryDescription@v3`, the design episteme that would change; the measurement row is not the correction target. The affected coordinate is RMS vibration. The coarse proposal effect is `repairFloor` because the proposal addresses excessive vibration. `kindRestorationCheckDisposition=notTriggered`; the protected trade-offs are efficiency and manufacturability. If the proposal is selected for a repeated loop, E.23 adds a scale-qualified `ExpectedEvaluationResultChange@Context`. Manufacturing a new impeller remains dated Work under A.15.1 rather than an E.22 result.
 

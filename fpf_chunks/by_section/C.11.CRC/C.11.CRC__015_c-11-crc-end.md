@@ -6,12 +6,12 @@ section_id: "C.11.CRC:End"
 section_title: "C.11.CRC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__015_c-11-crc-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:End — C.11.CRC:End"
-line_start: 57231
-line_end: 57232
+line_start: 57578
+line_end: 57579
 dependencies:
   - "A.1.CSD"
   - "A.10"

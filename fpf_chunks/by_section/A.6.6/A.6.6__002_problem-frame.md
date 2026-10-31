@@ -6,12 +6,12 @@ section_id: "A.6.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:1 — Problem frame"
-line_start: 23571
-line_end: 23600
+line_start: 23606
+line_end: 23635
 dependencies:
   - "A.10"
   - "A.14"
@@ -36,7 +36,6 @@ dependencies:
   - "F.18"
   - "F.9"
   - "U.KindBridge"
-  - "U.Transfer"
 keywords:
 ---
 

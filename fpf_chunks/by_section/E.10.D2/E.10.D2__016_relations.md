@@ -6,12 +6,12 @@ section_id: "E.10.D2:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__016_relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:15 — Relations"
-line_start: 102314
-line_end: 102330
+line_start: 102709
+line_end: 102725
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -47,7 +47,7 @@ keywords:
 * **E.17.0, E.17, and E.24.PUB.** Use E.17.0 for a named describing use's viewpoint selection, viewpoint membership, and view membership; use E.17 and E.24.PUB for publication occurrence, publication form, and carrier bearing. None of these changes C.2.1 identity.
 * **A.2.6 and A.1.1.** Govern claim scope and bounded model-use structure only when the receiving use depends on them.
 * **A.10, B.3, and G.11.** Govern evidence provenance, assurance reliance, and currentness for exact objects and relations.
-* **C.29, A.6.2, A.6.3, A.6.4, and F.9.** Govern representation, episteme morphing, source-to-receiving construction, retargeting, and cross-scheme Bridge semantics without label-only sameness.
+* **A.6.3.RT / A.6.3.RT.OE** govern expression construction and correspondence; **C.29** supplies the mathematical-lens branch. **A.6.2, A.6.3, A.6.4, and F.9** govern episteme morphing, source-to-receiving construction, retargeting, and cross-scheme Bridge semantics without label-only sameness.
 * **A.3.2, F.4, and F.5.** Define method-description membership, system-role-kind-description content, and naming after the exact object and local sense are recovered.
 * **A.15.1 and direct receiving-use patterns.** Govern performed work and the exact premise, reference, decision-use, or operation-argument relations through which work actually uses an episteme.
 

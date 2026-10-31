@@ -6,12 +6,12 @@ section_id: "C.2.1:13"
 section_title: "Consequences  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__014_consequences-informative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:13 — Consequences  (informative)"
-line_start: 51524
-line_end: 51531
+line_start: 51868
+line_end: 51875
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -54,7 +54,7 @@ keywords:
 
 ### C.2.1:13 - Consequences  *(informative)*
 
-**Benefits.** Episteme identity becomes stable across carrier and publication changes. Description, empirical grounding, viewing, edition, and representation questions can be repaired locally because each has a direct relation. Self-description and multi-view use need no second ontology. The same pattern works for physical engineering, medicine, learning, formal work, and computational modeling.
+**Benefits.** Episteme identity becomes stable across carrier and publication changes. Aboutness, empirical grounding, viewing, edition continuity and representation questions can be repaired locally through their respective relations. Self-description and multi-view use need no second ontology. The same pattern works for physical engineering, medicine, learning, formal work, and computational modeling.
 
 **Costs.** A load-bearing episteme use has a recoverable exact EntityOfConcern and effective reference scheme rather than relying on a title or file. Empirical-grounding and edition claims depend on their own obtaining and identity evidence. Existing record-shaped schemas sometimes need to distinguish their fields from actual relation participants.
 

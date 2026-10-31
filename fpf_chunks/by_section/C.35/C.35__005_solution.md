@@ -6,12 +6,12 @@ section_id: "C.35:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.35 — Assess Generated or Discovered Results for Architecture Use"
   - "C.35:4 — Solution"
-line_start: 80767
-line_end: 80784
+line_start: 81155
+line_end: 81172
 dependencies:
   - "A.13"
   - "A.15.1"

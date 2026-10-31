@@ -6,12 +6,12 @@ section_id: "A.3.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:4 — Solution"
-line_start: 11908
-line_end: 12047
+line_start: 11939
+line_end: 12078
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,9 +49,9 @@ keywords:
 
 #### A.3.3:4.1 - Definition
 
-`U.Dynamics` is a same-individual dependent kind of `U.Episteme`. Membership holds when one already identified episteme has the changing subject as its exact C.2.1 `EntityOfConcern` and its ClaimGraph, interpreted under the effective `U.ReferenceScheme`, substantively declares both a state space and a state-transition law for that subject. The law may include exogenous inputs, constraints, disturbances, and an observation relation.
+`U.Dynamics` is a same-individual dependent kind of `U.Episteme`. Membership holds when one already identified episteme has the changing subject as its exact C.2.1 `EntityOfConcern` and its ClaimGraph, interpreted under the effective reference scheme, substantively declares both a state space and a state-transition law for that subject. The law may include exogenous inputs, constraints, disturbances, and an observation relation.
 
-The C.2.1 ClaimGraph, exact `EntityOfConcern`, and effective `U.ReferenceScheme` remain the episteme's identity discriminators. A.3.3 adds no context field or second dynamics identity. A `U.ClaimScope`, operating region, applicability window, qualification interval, parameter regime, or scale band enters only through the exact claim that uses it and its subject pattern; changing one can change claim content without becoming an ambient container.
+The C.2.1 ClaimGraph, exact `EntityOfConcern`, and effective reference scheme remain the episteme's identity discriminators. A.3.3 adds no context field or second dynamics identity. A `U.ClaimScope`, operating region, applicability window, qualification interval, parameter regime, or scale band enters only through the exact claim that uses it and its subject pattern; changing one can change claim content without becoming an ambient container.
 
 `U.Dynamics` can declare a deterministic transition, permitted alternatives, a probability law over continuations, or a combination of these. Its time description can be continuous, discrete or hybrid. It can make state-change claims about physical systems, software services, organizations, epistemes, claim portfolios, resource states, architecture characteristics, or another exact EntityOfConcern. If several subjects are jointly modelled, the exact C.2.1 EntityOfConcern must itself be an independently identified collection, system, or other admitted subject.
 
@@ -105,13 +105,13 @@ Use a contribution below when its question arises while constructing or using th
 
 #### A.3.3:4.4 - State-space and transition-law fields
 
-The following optional view groups the claim content of one C.2.1 episteme:
+The following optional view groups the claim content of one C.2.1 episteme. Its scheme value has the C.2.1:4.1.2 range `EpistemeInterpretationScheme` and must interpret the state-space, transition-law and temporal expressions used by this candidate:
 
 ```text
 U.Dynamics membership view {
   candidateEpisteme: U.Episteme
   entityOfConcern: EntityOfConcern
-  effectiveReferenceScheme: U.ReferenceScheme
+  effectiveReferenceScheme: EpistemeInterpretationScheme
   claimGraph: {
     stateSpace: reference to an A.19 CharacteristicSpace with the admitted-state constraints
     transitionLaw: state-transition claim

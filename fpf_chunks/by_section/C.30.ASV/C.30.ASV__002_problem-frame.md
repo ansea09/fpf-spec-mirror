@@ -6,12 +6,12 @@ section_id: "C.30.ASV:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__002_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:1 — Problem frame"
-line_start: 72875
-line_end: 72915
+line_start: 73251
+line_end: 73291
 dependencies:
   - "A.1"
   - "A.10"
@@ -82,11 +82,11 @@ ArchitectureStructureKindTriage@Project:
   exactViewpointRef?: U.ViewpointRef
   viewpointConformanceRelationRef?: EpistemeViewpointConformanceRelationRef
   claimScope?: U.ClaimScope, byValue
-  effectiveReferenceScheme?: U.ReferenceScheme, byValue
-  modelUseStructureRef?: U.StructureRef
+  effectiveReferenceScheme?: EpistemeInterpretationScheme, byValue
+  modelUseStructureRef?: SelectedStructureReference
   candidateStructureKindRefs: FinSet(ArchitectureStructureKindRef)
   smallestUsefulStructureKindRefs: FinSet(ArchitectureStructureKindRef)
-  selectedStructureRefs?: FinSet(U.StructureRef)
+  selectedStructureRefs?: FinSet(SelectedStructureReference)
   claimPatternRefs?: FinSet(PatternRef), if another claim is being made
   admissibleArchitectureMove:
   stopCondition:

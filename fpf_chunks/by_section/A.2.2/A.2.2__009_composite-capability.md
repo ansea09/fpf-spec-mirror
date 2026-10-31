@@ -6,12 +6,12 @@ section_id: "A.2.2:8"
 section_title: "Composite Capability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__009_composite-capability.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.2.2 — System Capability: Conditions, Measures and Fit"
   - "A.2.2:8 — Composite Capability"
-line_start: 5368
-line_end: 5384
+line_start: 5391
+line_end: 5407
 dependencies:
   - "A.1"
   - "A.15"

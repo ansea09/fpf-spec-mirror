@@ -6,12 +6,12 @@ section_id: "G.11:8"
 section_title: "Common Anti-Patterns and How to Avoid Them (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__010_common-anti-patterns-and-how-to-avoid-them-informative.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:8 — Common Anti-Patterns and How to Avoid Them (informative)"
-line_start: 131864
-line_end: 131874
+line_start: 132454
+line_end: 132464
 dependencies:
   - "A.10.1"
   - "A.6.RCD"

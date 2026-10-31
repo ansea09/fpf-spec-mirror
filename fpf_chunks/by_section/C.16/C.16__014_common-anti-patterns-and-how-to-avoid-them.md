@@ -5,13 +5,13 @@ pattern_title: "Measurement & Metrics Characterization (MM‑CHR)"
 section_id: "C.16:11"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.16/C.16__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+output_path: "by_section/C.16/C.16__014_common-anti-patterns-and-how-to-avoid-them.md"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:11 — Common Anti-Patterns and How to Avoid Them"
-line_start: 58419
-line_end: 58428
+line_start: 58796
+line_end: 58805
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,10 +55,10 @@ keywords:
 
 ### C.16:11 - Common Anti-Patterns and How to Avoid Them
 
-- **Template as occurrence.** A reusable `U.DHCMethod`, model, signature, or calibration procedure is treated as proof that work occurred. Ground dated work and actual bindings.
+- **Template as occurrence.** A reusable measurement specification, model, signature, or calibration procedure is treated as proof that work occurred. Ground dated work and actual bindings.
 - **Generic result field.** A record has `result=...` without saying whether it is output, indication, measurement result, diagnosis, verdict, or decision. Name the direct result kind and governor.
 - **Evidence algebra.** Evidence locators are unioned as though idempotence or count determined uncertainty or warrant. Use measurement-model uncertainty propagation and exact A.10/B.3 reliance separately.
-- **Scale drift.** A template id survives changed Scale, model, unit, or calibration semantics. Publish a successor and state the relation; do not mutate historical readings.
+- **Scale drift.** A template id is reused as though changed Scale, model, unit, or calibration requirements preserved the same specification. Publish a successor and state the relation; do not mutate historical readings.
 - **Arithmetic on ordinal.** Encoded levels are averaged or ratio-compared. Stay with order-preserving operations or introduce a separately governed scoring method and Scale.
 - **Multi-Characteristic stuffing.** One reading carries a vector while pretending to be one measurement. Create separate results and declare any later aggregation.
 - **Result-to-verdict shortcut.** A value inside a tolerance is called accepted without performed criterion evaluation. Ground the separate evaluation work, exact clause application, verdict episteme, and later decision.

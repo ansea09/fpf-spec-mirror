@@ -6,12 +6,12 @@ section_id: "A.6.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:4 — Solution"
-line_start: 24075
-line_end: 24324
+line_start: 24110
+line_end: 24359
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -135,7 +135,7 @@ A MechSuiteDescription may state additional shared obligations within the member
    * When both an F.9 semantic correspondence and a C.3.3 kind correspondence are claimed, establish each under its direct rule. Any separately claimed plane relation keeps its own governor. Changing the EntityOfConcern alone creates neither relation. Retain the separate use conditions and applicable penalty policy; do not invent a second Bridge from the change label.
 
    1.2. **`transport_declarative_only`.**
-   * Well-formedness constraint: suite obligations do not introduce any additional graph edge kind beyond E.18 `U.Transfer` and do not embed CL/Φ/Ψ/Φ_plane tables. Any transport-related obligation is expressed only as referenced pins/anchors whose realization is mediated by E.18 / gate surfaces.
+   * Well-formedness constraint: suite obligations do not embed CL/Φ/Ψ/Φ_plane conversion or penalty tables. Transport obligations cite the applicable rules, pins and anchors; E.18 accounts for changed use bindings, and the applicable gate owns its decision. Distinct direct predicates retain their meanings and occurrence rules. Drawing an edge or declaring a suite obligation does not establish a relation, conversion or penalty.
 
 2. **`penalties_route_to_r_eff_only`.**
    Well-formedness constraint: CL/Φ/Ψ/Φ_plane penalties associated with crossing discipline route to `R/R_eff` only; suites do not define transport penalties that alter `F/G`.
@@ -283,7 +283,7 @@ This is a level error: `MechFamilyDescription` is reserved for realizations of a
 
 * The suite declares `GateDecision` values or embeds a `DecisionLog`.
 * The suite defines acceptance thresholds (“pass score ≥ 0.7”) as part of suite obligations.
-* The suite embeds Φ/CL tables or invents an additional graph edge kind beyond E.18 `U.Transfer`.
+* The suite embeds conversion or penalty tables, invents relation facts from a graph label, or treats referenced transport pins as an applied conversion or gate decision.
 
 All violate the separation between mechanism/suite descriptions and gate-level operational control.
 

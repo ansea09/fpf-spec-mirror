@@ -6,12 +6,12 @@ section_id: "G.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__004_forces.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:3 — Forces"
-line_start: 129677
-line_end: 129686
+line_start: 130266
+line_end: 130275
 dependencies:
   - "A.21"
   - "B.3"

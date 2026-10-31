@@ -6,13 +6,14 @@ section_id: "A.0:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__009_consequences.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:8 — Consequences"
-line_start: 2394
-line_end: 2404
+line_start: 2395
+line_end: 2405
 dependencies:
+  - "A.19"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.5"
@@ -30,6 +31,7 @@ dependencies:
   - "G.5"
   - "G.9"
   - "G.9-G.12"
+  - "U.EpistemeRef"
 keywords:
   - "& queries. novelty"
   - "BLP"

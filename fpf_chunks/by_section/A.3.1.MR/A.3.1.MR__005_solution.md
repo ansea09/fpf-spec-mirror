@@ -6,12 +6,12 @@ section_id: "A.3.1.MR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MR/A.3.1.MR__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.3.1.MR — Candidate-Method Recovery from Work Evidence"
   - "A.3.1.MR:4 — Solution"
-line_start: 9800
-line_end: 9852
+line_start: 9829
+line_end: 9881
 dependencies:
   - "A.10"
   - "A.13"
@@ -35,7 +35,7 @@ For every materially different reusable way that still fits the evidence, write 
 
 Each positive candidate account is one `U.Episteme`. Before Method admission, distinguish the possible reusable way as one provisionally identified candidate entity: give it a working designation and enough source-supported participant meanings, applicability hypothesis, intended result or preserved condition, variation, and limits to tell it from rivals. That candidate entity is the account's `EntityOfConcern`.
 
-The account's effective `U.ReferenceScheme` states only the designation and interpretation rules needed to read source terms such as performer, activity, cue, event, result, and stop. Add measurement or comparison rules only when the account uses them. This provisional entity identification admits neither a `U.Method` nor a `U.MethodDescription`.
+The account's effective reference scheme states only the designation and interpretation rules needed to read source terms such as performer, activity, cue, event, result, and stop. Add measurement or comparison rules only when the account uses them. This provisional entity identification admits neither a `U.Method` nor a `U.MethodDescription`.
 
 When two or more candidate reusable ways still fit the evidence, return one account episteme per candidate. Each account may mention the rivals while retaining its own `EntityOfConcern`. Compare them in ordinary working prose. If a later use depends on a selected comparison structure, use `A.22` to identify its candidate constituents, independently obtaining relations, applied constraints and selection-use frame; a separate episteme can describe that structure. Retaining or reusing a comparison does not by itself require this construction. Several candidates do not by themselves form one subject for a combined account.
 

@@ -6,12 +6,12 @@ section_id: "A.2.3:8"
 section_title: "Promise-content use, delivery, evaluation, and evidence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__011_promise-content-use-delivery-evaluation-and-evidence.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:8 — Promise-content use, delivery, evaluation, and evidence"
-line_start: 5855
-line_end: 5913
+line_start: 5878
+line_end: 5936
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -111,6 +111,6 @@ Until the membership judgements required by the selected counting rule and repor
 * **Availability and uptime claims:** select one declared characteristic instead of treating the labels as synonyms. Derive its observed characteristic value from selected work facts and telemetry observations through its C.16 measurement template, `Gamma_time` policy, and evidence relations; cite a `U.MethodDescription` when a particular measurement method affects the reading.
 * **Cost‑to‑serve:** sum of `Γ_work` over `W✓` per resource category (A.15.1).
 
-Each resulting `U.Measure` claim is derived from selected facts about `U.Work` occurrences through its C.16 measurement template and named A.10 evidence relations; when a particular measurement method matters, its `U.MethodDescription` is cited. Resource and time actuals belong to the performed `U.Work` occurrences.
+Each resulting measurement-result claim is derived from selected facts about `U.Work` occurrences through its C.16 measurement template and named A.10 evidence relations; when a particular measurement method matters, its `U.MethodDescription` is cited. Resource and time actuals belong to the performed `U.Work` occurrences.
 Aggregation across time uses the `Gamma_time` policy referenced by the named C.16 measurement template or acceptance specification; an unqualified KPI label does not select that policy. When a measure needs a B.1.4 temporal-phase aggregation of one carrier, name one `ContextTemporalAggregation@Context` record and its exact selected policy—for example, union of observed values or their convex hull—together with carrier identity, time window, coverage and non-overlap conditions, and admissible use. If those one-carrier conditions do not hold, this example is inapplicable; state the aggregation actually required and apply its defining rule. Union and convex hull are policy choices, not defaults; `Gamma_time` does not select either by itself.
 

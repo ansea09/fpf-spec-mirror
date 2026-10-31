@@ -6,12 +6,12 @@ section_id: "B.5.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__004_forces.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:3 — Forces"
-line_start: 49470
-line_end: 49479
+line_start: 49569
+line_end: 49578
 dependencies:
   - "A.10"
   - "A.16"

@@ -6,12 +6,12 @@ section_id: "E.4.DPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.4.DPF — Domain and Local Principle Frameworks: Whether and How to Author and Publish"
   - "E.4.DPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 94819
-line_end: 94851
+line_start: 95214
+line_end: 95246
 dependencies:
   - "A.1.1"
   - "A.13"
@@ -82,7 +82,7 @@ keywords:
 | Card-per-pattern fanout | Every DPF pattern or locator receives a mantra because the card form exists, increasing burden without changing first use. | Apply the `E.11` same-content-without-mantra comparison; keep locators and ordinary entries when they already support reliable choice and return. |
 | FPF card application copied or declaration avoided | The DPF copies FPF keys, card count, whitespace-token measure, numeric limits, or `@FPFReadme` records, or labels every rich entry ordinary so no card declaration is needed. | Keep one product-native example declaration, reading-burden measure, and two limits; reuse the shared field grammar from E.11.PFP, and check both selected cards and plausible non-card entries through E.11. |
 | External dependency hidden as closure | A first-edition set omits a needed same-framework prerequisite or silently assumes an FPF, DPF, or LPF edition, availability result, or compatibility result. | Include every same-framework prerequisite needed for the first use. For each external dependency, identify the result and relied-on content, edition or current state, receiving use, direction, reason, refresh condition, and any required availability or compatibility result with the basis on which it applies; return a missing requirement as a first-use blocker. |
-| Access route or returned artifact as framework | An access-facing artifact or route is treated as the framework because it is what a reader or System calls or sees. | Classify the exact artifact as a `U.PresentationCarrier` when it bears a selected form, and classify the service or other route separately. Use E.24.PUB and the direct access or use pattern for publication, availability, actual access, and use; expose the exact framework edition and currentness return. Concrete implementations such as skill packs, endpoints, retrieval or search routes, and assistant integrations use the same distinction. Use `E.4.PFR` only when a named maintenance use needs a stable relation representation. |
+| Access route or returned artifact as framework | An access-facing artifact or route is treated as the framework because it is what a reader or System calls or sees. | Identify the exact artifact under its physical or digital domain and establish that its actual state or realization yields the selected expression. Recover any form conformance separately, and identify the service or other route. Use E.24.PUB and the direct access or use pattern for publication, availability, actual access, and use; expose the exact framework edition and currentness return. Concrete implementations such as skill packs, endpoints, retrieval or search routes, and assistant integrations use the same distinction. Use `E.4.PFR` only when a named maintenance use needs a stable relation representation. |
 | Future framework fabricated | An optional organization proposal points to the absent framework or claims its actual structures. | Create a current intended-result description and one proposal episteme; wait for an accepted `E.9` framework-architecture answer and later realization before architecture-description use. |
 | Claim wrapper collection | Every candidate organization claim becomes another episteme. | Keep typed claim nodes in the proposal's one ClaimGraph unless a separately grounded claim episteme has its own EoC and use. |
 | Proposal layout as subject organization | Headings or ClaimGraph organization are treated as the proposed framework organization. | Recover described position kinds, proposed subject relation signatures, constraints, invariants, dependency directions, alternatives, basis, and questions. |

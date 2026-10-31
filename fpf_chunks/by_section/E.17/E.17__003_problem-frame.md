@@ -6,12 +6,12 @@ section_id: "E.17:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__003_problem-frame.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:2 — Problem frame"
-line_start: 107098
-line_end: 107106
+line_start: 107498
+line_end: 107506
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -20,6 +20,8 @@ dependencies:
   - "A.22"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.9"
   - "A.7"
   - "B.3"
@@ -49,5 +51,5 @@ keywords:
 * `PlainView`, `AssuranceLane`, and a packaged `viewpointRef` are easy to overread as `U.View` membership, assurance, or conformance even though none establishes those claims by itself.
 * Exact publication identity, pins, carrier relations, and evidence references matter for some receiving uses, but putting all of them before the first readable face makes ordinary publication unnecessarily hard.
 
-**MVPK** therefore starts from the current source, reader/use, and minimum useful face set. It then adds viewpoint conformance, E.24.PUB occurrence/form/carrier identity, pins, bridge records, evidence, or assurance only when a named use depends on those distinctions. The optional morphism profile retains the functorial publication discipline for Description epistemes, including Description epistemes admitted for specification use. **Part E is conceptual:** no machine-exchange formats are specified here.
+**MVPK** therefore starts from the current source, reader/use, and minimum useful face set. It then adds viewpoint conformance, E.24.PUB occurrence/expression/form/carrier identity, pins, bridge records, evidence, or assurance only when a named use depends on those distinctions. The optional morphism profile retains the functorial publication discipline for epistemes used as descriptions, including those admitted for specification use. **Part E is conceptual:** no machine-exchange formats are specified here.
 

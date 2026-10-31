@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.11.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.15.11 — Make Applicable Methods Noticeable in Work"
-line_start: 32599
-line_end: 32822
+line_start: 32634
+line_end: 32857
 dependencies:
   - "A.15"
   - "A.15.7"

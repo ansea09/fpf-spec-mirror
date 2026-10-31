@@ -6,12 +6,12 @@ section_id: "A.3.4:End"
 section_title: "A.3.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__015_a-3-4-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:End — A.3.4:End"
-line_start: 13238
-line_end: 13239
+line_start: 13269
+line_end: 13270
 dependencies:
   - "A.1"
   - "A.10"

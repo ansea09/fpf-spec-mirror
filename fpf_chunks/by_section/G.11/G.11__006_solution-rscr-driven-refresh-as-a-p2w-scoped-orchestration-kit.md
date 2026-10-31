@@ -6,12 +6,12 @@ section_id: "G.11:4"
 section_title: "Solution — RSCR-driven refresh as a P2W-scoped orchestration kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__006_solution-rscr-driven-refresh-as-a-p2w-scoped-orchestration-kit.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "G.11 — Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)"
   - "G.11:4 — Solution — RSCR-driven refresh as a P2W-scoped orchestration kit"
-line_start: 131551
-line_end: 131816
+line_start: 132141
+line_end: 132406
 dependencies:
   - "A.10.1"
   - "A.6.RCD"
@@ -272,7 +272,7 @@ Discipline-specific refresh strategies and generator-specific wiring use `GPatte
 **Required pins, edition pins, and policy pins (minimum):**
 
 * `DescriptorMapRef.edition`, `DistanceDefRef.edition`
-* `CharacteristicSpaceRef.edition?` (required when a domain-family coordinate is declared by the QD governing definition)
+* `CharacteristicSpaceRef` with separate `characteristicSpaceDescriptionRef: U.EpistemeRef` (required when a domain-family coordinate is declared by the QD governing definition; resolve the same-space pair under A.19:5.1.1.1)
 * `InsertionPolicyRef`, `EmitterPolicyRef` (policy-bound)
 * Exact archive or illumination scope and `policy-id` for emitted telemetry triggers: `PatternScopeId` for nongraph scope; `PathSliceId` when graph-expressed or required by an independently applicable parity, evidence or shipping contract.
 

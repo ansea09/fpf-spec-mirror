@@ -6,12 +6,12 @@ section_id: "E.10.D2:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__012_worked-examples.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:11 — Worked examples"
-line_start: 102229
-line_end: 102286
+line_start: 102624
+line_end: 102681
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -50,13 +50,13 @@ The receiving use needs recognizability, not specification force, so the practit
 
 A team wants to teach `BacklogRefinement`, an independently admitted `U.Method`. `BacklogRefinementMethodDescription` is one C.2.1 episteme about that exact method. A.3.2 admits the same episteme as `U.MethodDescription` only when its claims make a substantive statement about the method as a way of doing—for example its applicability, preconditions, effects, bounds, enactment concern, or internal composition.
 
-A practice card's claim-bearing content may be that episteme; its reusable layout may be a publication form or C.29 representation, and its sheet or file may be a carrier. Classify a calendar session, chat thread, or ticket update from its actual facts as a Work occurrence, assertion or record, publication-side object, or another object whose kind and applicable relation are already known; medium and label do not decide. An assertion or work record whose claim depends on the exact method-description edition may cite that edition through the exact premise, typed reference, or A.6.1 operation-argument binding required by the receiving claim. Separately, A.15.1 states the exact relation by which an actual dated Work occurrence enacts the admitted Method; the method-description episteme is not a participant of that relation. Bibliographic metadata, approval, or a method label alone grants neither method-description membership nor specification force.
+The organized claims expressed by a practice card may constitute that episteme. Its filled expression X can follow reusable form F and be borne by sheet or file C; any representation correspondence is established separately. Classify a calendar session, chat thread, or ticket update from its actual facts as a Work occurrence, assertion or record, publication-side object, or another object whose kind and applicable relation are already known; medium and label do not decide. An assertion or work record whose claim depends on the exact method-description edition may cite that edition through the exact premise, typed reference, or A.6.1 operation-argument binding required by the receiving claim. Separately, A.15.1 states the exact relation by which an actual dated Work occurrence enacts the admitted Method; the method-description episteme is not a participant of that relation. Bibliographic metadata, approval, or a method label alone grants neither method-description membership nor specification force.
 
 #### E.10.D2:11.3 - Architecture description and view
 
 An architecture review asks how `PaymentService` is organized for the operations concern. The architecture-description episteme has that exact holon as its EntityOfConcern; its claims identify the selected structure and state whether C.30's `ArchitectureRelation` obtains. The named review use selects the exact operations viewpoint because that concern changes which claims it reads and checks. If it did not change the reading, checking, or permitted conclusion, the use would remain named and the viewpoint selection would be omitted.
 
-The episteme is a `U.View` only if the E.17.0 conformance relation to an exact viewpoint obtains. A structural graph can be part of its interpreted claim content, a C.29 representation, or a publication form according to the named use; no visual branch makes the graph the architecture. An ADR or dashboard creates no permission, assurance, or work relevance without the corresponding direct claim. If work uses the description, state the exact premise, reference, decision-use, or operation-argument relation through which the performed work actually consumes it.
+The episteme is a `U.View` only if the E.17.0 conformance relation to an exact viewpoint obtains. Distinguish asserted structure in G, a graph expression X representing that structure, and reusable formation rules F. C.29 governs any mathematical inference from the graph; the architectural claim still needs its subject-side grounds. An ADR or dashboard creates no permission, assurance, or work relevance without the corresponding direct claim. If work uses the description, state the exact premise, reference, decision-use, or operation-argument relation through which the performed work actually consumes it.
 
 #### E.10.D2:11.4 - Specification use
 
@@ -66,7 +66,7 @@ The team may call the episteme `PaymentInterfaceSpec` for this use only after th
 
 #### E.10.D2:11.5 - Publication form and carrier
 
-A completed pump-inspection card is a claim-bearing episteme when its exact ClaimGraph, inspected pump as EntityOfConcern, and effective maintenance scheme satisfy C.2.1. The reusable card layout may fill the publication-form participant meaning for a maintenance use; one tablet file may be a `U.PresentationCarrier`; and an E.24.PUB publication occurrence may make the selected card-episteme edition available to a declared maintenance audience.
+The organized claims expressed by a completed pump-inspection card constitute E when its exact claim content, inspected pump T and effective maintenance scheme R satisfy C.2.1. A particular expression X can follow reusable card-layout rules F and be recoverable from tablet file C. E.24.PUB then tests availability of E through X and C to the declared maintenance audience for its stated use.
 
 The card episteme, layout, file, and availability occurrence retain different identities. Filling, uploading, or opening the card is dated work. Availability establishes neither that a technician read it nor that its claims are true or relied upon.
 

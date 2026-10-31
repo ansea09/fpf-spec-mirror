@@ -6,12 +6,12 @@ section_id: "C.20:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__014_relations.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:10 — Relations"
-line_start: 62118
-line_end: 62129
+line_start: 62489
+line_end: 62500
 dependencies:
   - "A.1"
   - "A.14"
@@ -57,7 +57,7 @@ keywords:
 
 **Conditional branches.** F.9 for exact Bridges; A.10 for ordinary evidence-bearing reliance and B.3 only for an actual named assurance claim; C.21 for discipline health; A.19.CPM for comparison and G.0 for its CG-Spec admissibility declaration; G.4 for acceptance thresholds; E.24.PUB for publication; G.5 for selector use of independently grounded discipline or method claims.
 
-**G.2 source-pack boundary.** When one current G.2 harvest or synthesis informs a discipline account, preserve the anti-monoculture intent by keeping plausible rival lineages and the semantic localities relevant to that named synthesis visible, with an explicit coverage or omission rationale and explicit crossings where needed. C.20 sets no minimum number of Traditions, local frames, cards, contexts, or matrix rows; G.2 alone governs conformance of its pack. A plural or conforming pack, `TraditionPalette`, `BridgeMatrix`, or historical `Gamma_disc` expression still constructs no discipline and supplies no part relation.
+**G.2 source-pack boundary.** When one current G.2 harvest or synthesis informs a discipline account, preserve the anti-monoculture intent by keeping plausible rival lineages and the semantic localities relevant to that named synthesis visible, with an explicit coverage or omission rationale and explicit crossings where needed. C.20 sets no minimum number of Traditions, local frames, cards, contexts, or matrix rows; G.2 alone governs conformance of its pack. A plural or conforming pack, `TraditionPalette`, or `BridgeMatrix` supplies neither a discipline construction nor a part relation.
 
 **Constrains.** A C.13 discipline trace consumes C.20 facts and creates none. C.21 evaluates an already identified discipline. G.5 may consume an independently identified Method together with exact discipline-relevant construction or classification, Characteristic, and evidence or assurance claims only through its own declared predicate. An ungrounded discipline name supplies none of field belonging, comparison value, evidence strength, selection, or truth. A registry or family row, selector request, policy, result or shortlist, CG-Spec reference, and EvidenceGraph row can make an actual G.5 use auditable; none lets G.5 infer Method membership, discipline parthood, actual selector application or selection, or claim truth. A selected structure, Bridge, comparison, publication, evidence graph, health reading, or label never supplies a missing C.20 part occurrence.
 

@@ -6,12 +6,12 @@ section_id: "E.18.NET:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__005_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:4 — Solution"
-line_start: 111802
-line_end: 111948
+line_start: 112291
+line_end: 112437
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -34,7 +34,6 @@ dependencies:
   - "E.18.2"
   - "E.18.3"
   - "F.18"
-  - "U.Transfer"
 keywords:
 ---
 
@@ -98,9 +97,9 @@ The parent network may compose the finite path and use the exposed boundary. It 
 
 #### E.18.NET:4.4 - Keep valuation and design/run state leaf-local
 
-Each `positionBindingRef` cites an E.18 position/valuation binding or a declaration-local binding whose pattern defines the needed participant meanings, value kind, and reference mode. A network introduces no universal cross-flow value kind.
+Each `positionBindingRef` cites the relevant E.18 participant-position/use binding or a declaration-local binding whose pattern defines the needed participant meanings, value kind, and reference mode. A network introduces no universal cross-flow value kind. Recover each leaf TFS under E.18:5.1, including its A.22 identity, beta resolution and the complete participants of its selected relations. Its valuations use E.18:5.2’s declared connection/cut domain and regime.
 
-`DesignRunTag` belongs to one exact position binding inside one exact leaf TFS. A network has no `FlowValuation` for the network as a whole, global design/run ladder, or automatic crossing that changes the carried entity's kind. If the same episteme fills local positions in different members—for example one position concerned with design work and another with production, verification, or later operation—record each leaf-local binding and the exact relation that obtains between them. Those ordinary member descriptions create no fixed TFS taxonomy or lifecycle phase.
+`DesignRunTag` belongs to one exact position binding inside one exact leaf TFS. A network has no `FlowValuation` for the network as a whole, global design/run ladder, or automatic crossing that changes the carried entity's kind. If the same episteme fills local positions in different members—for example one position concerned with design work and another with production, verification, or later operation—record each leaf-local binding and the exact relation that obtains between them. Those ordinary member descriptions create no fixed TFS taxonomy or lifecycle phase. When a changed basis is actually used across members, follow E.18:5.13 through the exact cross-member occurrences and every dependent branch and join. Cover the required leaf-local PathSlices; independent uses and each member’s local state remain separate.
 
 #### E.18.NET:4.5 - Preserve the direct cross-flow relations
 
@@ -115,7 +114,7 @@ For every relation used by the network, recover:
 
 An n-ary relation remains n-ary. Do not decompose it into invented binary arrows. A row, edge label, shared entity, temporal adjacency, operation result, plan row, or graph connection never makes the relation obtain.
 
-`U.Transfer` remains E.18's internal relation kind for one TFS. It is not a universal relation between network members. For any production, use, participation, evaluation, correspondence, feedback, dependency, supply, or other cross-flow relation, the relation kind must already be admitted. Use its applicable relation pattern to recover the participant meanings, predicate, applicability, and occurrence-identity rule; current case facts or constituting history must satisfy the predicate affirmatively. Only then does one world-side occurrence obtain. Use A.6.REL only when a named use must distinguish that occurrence from another. For ordinary network selection, the PatternID and exact relation occurrence are enough; add `relationFunctionClaimRef` to the defining or constraining `ClaimGraph` only when comparison, migration, or reliance depends on that exact rule identity. The network selects only the exact already-obtaining occurrence ref.
+E.18 resolves each internal connection(q) to its selected relation occurrence r. That position is local to one selected TFS; it supplies no universal cross-member predicate. For any production, use, participation, evaluation, correspondence, feedback, dependency, supply, or other cross-flow relation, the relation kind must already be admitted. Use its applicable relation pattern to recover the participant meanings, predicate, applicability, and occurrence-identity rule; current case facts or constituting history must satisfy the predicate affirmatively. Only then does one world-side occurrence obtain. Use A.6.REL only when a named use must distinguish that occurrence from another. For ordinary network selection, the PatternID and exact relation occurrence are enough; add `relationFunctionClaimRef` to the defining or constraining `ClaimGraph` only when comparison, migration, or reliance depends on that exact rule identity. The network selects only the exact already-obtaining occurrence ref.
 
 If no admitted relation kind and applicable predicate cover the intended participants and use, carry `missing-governor` from the pattern governing the relation claim. If required case facts are unavailable, carry its `missing-information` result; if the available basis is sufficient to apply the positive test but that test fails, carry `factually unsupported`. Neither result by itself establishes a negative. Carry an inapplicable or negative result only when the governing pattern defines that outcome and its current basis establishes it. Only a positive obtaining occurrence may fill `selectedCrossFlowRelationOccurrenceRefs[]`.
 
@@ -123,14 +122,14 @@ After a positive occurrence is established, test the E.18.NET endpoint and posit
 
 #### E.18.NET:4.6 - Record the network without replacing it
 
-When the selected answer must survive beyond the immediate work, describe it with a separate C.2.1 episteme:
+When the selected answer must survive beyond the immediate work, describe it with a separate C.2.1 episteme. Its effective scheme has the C.2.1:4.1.2 range `EpistemeInterpretationScheme`; recover the rules that interpret the record's network, member, relation and endpoint-binding designations and its claims:
 
 ```text
 TransformationFlowStructureNetworkRecord@Context <: U.Episteme:
   entityOfConcernRef: one exact TransformationFlowStructureNetwork ref
   entityOfConcernKindRef: TransformationFlowStructureNetwork
   claimScope?: U.ClaimScope
-  effectiveReferenceScheme: U.ReferenceScheme
+  effectiveReferenceScheme: EpistemeInterpretationScheme
   directMemberRows[]:
     memberRef: TransformationFlowStructureRef | TransformationFlowStructureNetworkRef
   exposedFlowPositionRows[]:

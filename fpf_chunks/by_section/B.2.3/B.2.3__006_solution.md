@@ -6,12 +6,12 @@ section_id: "B.2.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__006_solution.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:4 — Solution"
-line_start: 44172
-line_end: 44218
+line_start: 44263
+line_end: 44309
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,9 +42,9 @@ Use B.2.3 as the `U.Episteme` specialization of B.2. Reuse its existing whole, c
 
 Start with B.2's candidate designated as an exact `U.Entity`, proposed for the already admitted `U.Episteme` kind. Execute the complete A.1 criterion over that candidate, including the larger-assembly applicability and compatibility condition. Apply C.2.1 to the same individual:
 
-1. identify its exact claim content as one `U.ClaimGraph`;
+1. identify its complete interpreted claim content, including the semantic relations among its claims, under C.2.1:4.1.1;
 2. identify the exact independently governed `U.Entity` that those claims concern;
-3. identify the effective `U.ReferenceScheme` under which the claims are read about that entity; and
+3. identify the effective reference scheme: the designation and interpretation rules under which those claims are read about that entity; and
 4. test whether the direct `EpistemeConstitutionRelation` among those participants obtains and yields one interpretable claim-bearing whole.
 
 The candidate and its constitution relation are distinct, even though C.2.1 reidentifies them from the same participant triple. A card, tuple, repository, publication set, graph representation, or filled reference does not make the relation obtain. If A.1 or C.2.1 fails, do not identify the candidate as the episteme result; if a required dependency cannot be evaluated, return `unknown`. For an established episteme result, B.2's `resultHolonRef` designates that individual and `resultHolonKindRef` resolves to `U.Episteme`. Preserve a preliminary or unresolved judgment in an optional C.2.1 assertion only when a receiving use needs it; B.2:4.4 governs that distinction.

@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__008_conformance-and-counterexample-replay.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:7 — Conformance and counterexample replay"
-line_start: 17991
-line_end: 18034
+line_start: 18022
+line_end: 18065
 dependencies:
   - "A.15"
   - "A.20"
@@ -39,7 +39,7 @@ A check is retained only if it changes the next admissible use, blocks a concret
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | **CC-CSC-0 (Ordinary entry).** | The practitioner names the present use and must-retain distinctions, writes the shorter candidate, compares it with the source, rejects unsupported additions or strengthening, and records loss, non-use, and return before optional identity work. | Makes direct semantic compression the first useful move without admitting a fluent invention. |
-| **CC-CSC-1 (Exact endpoints when material).** | When the candidate must travel independently or exact content identity changes the receiving use, exact `X` and `Y` each have recoverable claim content, EntityOfConcern, and effective `U.ReferenceScheme`. | Blocks a source set, model, graph, evidence set, publication, form, carrier, or readable tile from replacing an episteme. |
+| **CC-CSC-1 (Exact endpoints when material).** | When the candidate must travel independently or exact content identity changes the receiving use, exact `X` and `Y` each have recoverable claim content, EntityOfConcern, and effective interpretation rules (`ReferenceScheme`). | Blocks a source set, model, graph, evidence set, publication, form, carrier, or readable tile from replacing an episteme. |
 | **CC-CSC-2 (Exact construction when material).** | The same trigger requires exact `c : X -> Y` with same EntityOfConcern, claim construction, endpoint-scheme relation, preservation, controlled loss, prohibited strengthening, applicability, and return. | Makes a load-bearing coarsening claim testable without making the formal account the ordinary entrance. |
 | **CC-CSC-3 (Admissible use).** | The ordinary candidate names its present use; exact `Y` has one stated narrower admissible use. | Keeps convenience from becoming broad authority. |
 | **CC-CSC-4 (Non-admissible use).** | The stronger downstream use that needs more than the ordinary candidate, exact `Y`, or its publication is explicit, together with the limiting loss or missing support. Apply `F.19:4` to how that boundary is expressed; retain the actual admissibility condition. | Blocks authority laundering. |

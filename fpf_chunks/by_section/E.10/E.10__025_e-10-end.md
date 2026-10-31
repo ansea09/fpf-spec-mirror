@@ -6,12 +6,12 @@ section_id: "E.10:End"
 section_title: "E.10:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__025_e-10-end.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:End — E.10:End"
-line_start: 100252
-line_end: 100253
+line_start: 100654
+line_end: 100655
 dependencies:
   - "A.10"
   - "A.15"

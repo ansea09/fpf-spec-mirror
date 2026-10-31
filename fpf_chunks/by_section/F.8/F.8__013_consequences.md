@@ -6,12 +6,12 @@ section_id: "F.8:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__013_consequences.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision for a Name"
   - "F.8:10 — Consequences"
-line_start: 120528
-line_end: 120555
+line_start: 121112
+line_end: 121139
 dependencies:
   - "A.11"
   - "A.15"

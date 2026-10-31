@@ -6,12 +6,12 @@ section_id: "C.39.RP:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__013_sota-echoing.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:11 — SoTA-Echoing"
-line_start: 83888
-line_end: 83896
+line_start: 84276
+line_end: 84284
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

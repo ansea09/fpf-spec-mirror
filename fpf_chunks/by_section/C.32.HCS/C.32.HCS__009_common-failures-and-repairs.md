@@ -6,12 +6,12 @@ section_id: "C.32.HCS:8"
 section_title: "Common failures and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__009_common-failures-and-repairs.md"
-commit_sha: "9fa2a3596dab58d282d736bcf413cdda4286db0a"
+commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:8 — Common failures and repairs"
-line_start: 77055
-line_end: 77064
+line_start: 77443
+line_end: 77452
 dependencies:
   - "A.19"
   - "C.11"
