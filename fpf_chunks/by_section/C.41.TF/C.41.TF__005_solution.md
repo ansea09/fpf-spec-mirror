@@ -6,12 +6,12 @@ section_id: "C.41.TF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__005_solution.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:4 — Solution"
-line_start: 89232
-line_end: 89275
+line_start: 89341
+line_end: 89384
 dependencies:
   - "C.37"
   - "C.41"
@@ -28,7 +28,7 @@ C.37 selects a representation for one receiving use. Here the construction binds
 
 Take the selected questions and coverage from C.41 or another adequate source. Identify information shared across the list, such as the physical set and comparison description. Place it where users can see its scope. Keep question-specific conditions with the question.
 
-Phrase the questions in the language practitioners use for their actual work: the card set, print run or catalogue import. Adapt the selected subjects, conditions and questions as well as their names. Replacing “target system” with “cards” is insufficient if “ready” still hides an unfamiliar or unsuitable account of readiness. Compare the wording with a real case and the recipient's way of working. An applicable explanation-design Method helps recover the explanation needed for that use. Framework distinctions can guide the author's reasoning without requiring every recipient to learn their terminology.
+Phrase the questions in the language practitioners use for their actual work: the card set, print run or catalogue import. Adapt the selected subjects, conditions and questions as well as their names. Replacing “system-of-interest” with “cards” is insufficient if “ready” still hides an unfamiliar or unsuitable account of readiness. Compare the wording with a real case and the recipient's way of working. An applicable explanation-design Method helps recover the explanation needed for that use. Framework distinctions can guide the author's reasoning without requiring every recipient to learn their terminology.
 
 Develop ambiguous headings with someone who understands the work. For a printing checklist, distinguish the person who wrote the comparison description, the system assigned to checking, and the system that actually performed this check. One person may occupy all three positions, but a name under “Responsible” does not tell the recipient which relation is asserted. A system's role kind and assignment, its capability and its performed work remain distinct; an applicable organizational Method helps when the assignment or enabling arrangement itself needs repair. For a file or description, name the actual relation, such as input to printing or basis of comparison. Use the resulting practitioner wording in the form and retain further explanation only where it helps interpretation.
 

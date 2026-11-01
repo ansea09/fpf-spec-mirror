@@ -6,17 +6,19 @@ section_id: "B.5.PI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__005_solution.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:4 — Solution"
-line_start: 50512
-line_end: 50567
+line_start: 50577
+line_end: 50646
 dependencies:
+  - "A.1.STM"
   - "A.15.11"
   - "A.16.1"
   - "B.5"
   - "B.5.EA"
+  - "B.5.MPC"
   - "B.5.QD"
   - "C.11.CRC"
   - "C.11.DUA"
@@ -44,6 +46,20 @@ Ask what makes an apparent difference acceptable or inevitable. “This always h
 Use subject knowledge to interpret the comparison. When that knowledge is missing, the question may concern what the result means or which conditions justify its use. Do not invent the missing observation or explanation. If the available account already explains the difference and supports the intended use, continue the work without creating a problem.
 
 An **anomaly** is a difference relative to an account, expectation, comparison class or intended use that merits consideration. Make that reference clear when it affects the next move. Statistical rarity, a breached requirement, a felt mismatch and an unused possibility are different reasons to look. **Problematization** develops or questions what is taken for granted so that a consequential question becomes possible. It can change the comparison itself: something previously normal can become questionable under a better account. Anomaly detection therefore need not be completed before problematization starts.
+
+##### B.5.PI:4.2.1 - Use a suitable mantra to look for an unrecognized problem
+
+An explanation of a Method, or of several connected Methods, shows which answers belong together and why their conditions matter. A **long mantra** recalls those connections in a short form. Applying it to ordinary work can reveal an unanswered consequential question before anyone experiences a failure. The reminder supplies a place to look; subject knowledge and comparison determine what the apparent gap means.
+
+Choose the mantra by the result being examined. For a project account, A.1.STM connects intended use, functioning, construction and creators. For a physical question whose answer depends on mathematics and computation, B.5.MPC connects the physical account, interpretation, mathematical consequence, computation and return. Recover the supplying Method's purpose, applicability, dependencies and order of justification. The system mantra's direction from receiving use and wider functioning to construction and creation belongs to its systemic question. Another Method can connect different subjects and require a different order. If the working question is already answered by a sufficient direct contribution, use that answer instead of adding a traversal.
+
+Apply the questions to a particular current episode or a possible case relevant to the work. An existing explanation, drawing, calculation or demonstration may supply enough material. Follow the connections that the decision consumes: what must each answer mean, what does the next operation need from it, and under which conditions can they be used together? Use the mantra's logical direction while admitting supported answers at their appropriate places and returning when a later condition changes an earlier premise. When a short phrase cannot explain the connection, obtain the developed Method or the missing subject knowledge. Merely reciting the questions cannot supply it.
+
+Keep a missing answer, an incompatible pair of answers and an adequately supported answer distinguishable. A blank can mean that the condition is unknown, irrelevant here, or absent in the situation; determine which consequence matters before calling it a defect. Work one discriminating consequence where useful: would the result still answer its use if this assumed connection failed or this ordinary condition changed? A constructed possible case can expose an unsupported general promise; it does not show that the failure has already occurred.
+
+Turn the consequential gap into an inquiry: what claim or condition needs to be established, why its answer could change the work, and what attainable observation, explanation or construction could resolve it? Continue through sections 4.3–4.5. C.22.2 is useful when the next operation needs an inspectable problem-side formulation; an actual Problem claim retains C.22.PFR's own conditions. Preserve a cue when that is all the occasion supports, and continue without change when the supplied grounds are already adequate.
+
+A felt difficulty can lead to the same questions by tracing what the work should enable and where its account fails. The mantra makes selected consequential dependencies available before that symptom is noticed. This explains the connection between the two entries without making either a universal diagnostic script. Keep the resulting question and useful continuation; the exercise succeeds by what it brings into consideration, not by finding an obligatory number of problems. Its speed, discovery rate and later effect depend on the actual use and require their own evidence.
 
 #### B.5.PI:4.3 - Keep the part that the familiar account loses
 

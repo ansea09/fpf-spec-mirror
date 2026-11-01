@@ -6,12 +6,12 @@ section_id: "C.11.MV:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__009_conformance-checklist.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:7 — Conformance Checklist"
-line_start: 58210
-line_end: 58224
+line_start: 58305
+line_end: 58319
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"

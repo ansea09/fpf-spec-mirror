@@ -6,12 +6,12 @@ section_id: "A.1.SCR:8"
 section_title: "Common Anti-Patterns and Exact Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__010_common-anti-patterns-and-exact-repairs.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:8 — Common Anti-Patterns and Exact Repairs"
-line_start: 3773
-line_end: 3785
+line_start: 3768
+line_end: 3780
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -34,6 +34,6 @@ keywords:
 | Unknown as a third ontic state | Missing information becomes world-side indeterminacy. | Name the missing input and blocked decision. |
 | Neighbor bundle | Different identity laws disappear. | Return the subject first, then separately governed claims needed now. |
 | Physical-realization identity | Co-location or one embodiment merges kinds. | Apply each identity rule and relation governor. |
-| Project designation inferred | Recognition or affectedness is mistaken for designation as the project system-of-interest. | Name the plan or decision; test any system-role kind and system-role assignment separately. |
+| Project designation inferred | Recognition or affectedness is mistaken for designation as the project system-of-interest. | Recover the product-use basis and designation under section 4.7; test any local system-role classification and assignment separately. |
 | Software *service* treated as system | Source-domain metonymy silently chooses a bearer. | Begin in A.6.P, name the exact referent, and enter here only for a system-dependent claim. |
 

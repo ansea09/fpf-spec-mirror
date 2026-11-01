@@ -6,12 +6,12 @@ section_id: "C.25:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__008_conformance-checklist.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.25 — Q-Bundle: Express a Quality Claim as One Characteristic or a Structured Bundle"
   - "C.25:7 — Conformance Checklist"
-line_start: 64999
-line_end: 65008
+line_start: 65094
+line_end: 65103
 dependencies:
   - "A.10"
   - "A.15"

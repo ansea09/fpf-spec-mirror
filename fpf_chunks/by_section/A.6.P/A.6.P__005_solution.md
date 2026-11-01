@@ -6,12 +6,12 @@ section_id: "A.6.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__005_solution.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:4 — Solution"
-line_start: 20007
-line_end: 20312
+line_start: 20072
+line_end: 20377
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"

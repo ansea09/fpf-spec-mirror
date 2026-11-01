@@ -6,12 +6,12 @@ section_id: "A.6.3.RT.OE:10"
 section_title: "Architectural Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT.OE/A.6.3.RT.OE__011_architectural-rationale.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.6.3.RT.OE — Construct an Operative Expression"
   - "A.6.3.RT.OE:10 — Architectural Rationale"
-line_start: 19255
-line_end: 19262
+line_start: 19320
+line_end: 19327
 dependencies:
   - "A.6.3.RT"
   - "B.5.RA"

@@ -6,12 +6,12 @@ section_id: "C.32.P2S:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__008_conformance-checklist.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:7 — Conformance Checklist"
-line_start: 77209
-line_end: 77224
+line_start: 77312
+line_end: 77327
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -51,7 +51,7 @@ keywords:
 
 | Check | Pass condition |
 |---|---|
-| `CC-C32P2S-1` | The account identifies the problem claim or pressure, described holon, architecture question and intended use, first pattern to use, and at least one architecture-relevant structure or unknown-structure slot; scope, window, and selected transformation-flow structure are named only when material. |
+| `CC-C32P2S-1` | The account identifies the problem claim or pressure, described holon, architecture question and intended use, first pattern to use, and at least one architecture-relevant structure or unknown-structure slot; scope, window, and selected transformation-flow structure are named only when material. Organizational architecture connects the product use, creator capability and finite local acceptance under A.1.STM:4.1.1; affected products and provision conditions remain in the comparison. |
 | `CC-C32P2S-2` | Each architecture use keeps the exact described holon, obtaining C.30 `ArchitectureRelation` occurrences and their selected-structure participants, and any affirmative, negative, unresolved, candidate, required, desired, or expected `ArchitectureClaim` content separate; no description or publication record carries the architecture by itself. |
 | `CC-C32P2S-3` | Architecture characteristics are separate from functional demands, measurements, eval programs, eval results, Q-bundles, comparison rules, and decisions. |
 | `CC-C32P2S-4` | The account distinguishes unknown, selected, expected and actual structure, and retained or lost information, wherever those distinctions change the receiving action. The corresponding card slots are optional means of recording them. |

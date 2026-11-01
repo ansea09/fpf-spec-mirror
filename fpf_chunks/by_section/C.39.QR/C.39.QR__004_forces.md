@@ -6,12 +6,12 @@ section_id: "C.39.QR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.QR/C.39.QR__004_forces.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.39.QR — Return Results to the Original Question"
   - "C.39.QR:3 — Forces"
-line_start: 82958
-line_end: 82968
+line_start: 83067
+line_end: 83077
 dependencies:
   - "C.11.DUA"
   - "C.39"

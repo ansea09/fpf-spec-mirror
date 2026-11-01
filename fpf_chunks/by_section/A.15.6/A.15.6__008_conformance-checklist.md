@@ -6,12 +6,12 @@ section_id: "A.15.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__008_conformance-checklist.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:7 — Conformance Checklist"
-line_start: 31416
-line_end: 31433
+line_start: 31481
+line_end: 31498
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -48,7 +48,7 @@ keywords:
 5. Preserve multi-object evidence until the current use selects a grouping, query, or constraint. Record what flattening omits. Identify the selection result from its actual claims under C.2.1; it can be a case subject when its independent identity and the closure question warrant that use. Method and Work claims retain their own admission grounds.
 6. For a case concern, name the subject or claim, the references used by closure and the closure basis. Name a downstream use when it matters to the current question and keep it outside that closure. Keep any case-record episteme under its own identity.
 7. Recover each description's claim content, EntityOfConcern, and effective scheme under C.2.1. Treat notation readability or simulation support as a representation-use question, not as subject identity, claim truth, case closure, or performed Work.
-8. Keep project system-of-interest designation, System identity, local system-role classification, and any assignment occurrence separate in every direction. Do not backdate a future System.
+8. Recover the common product-use basis for a SoI designation under section 4.1a, keeping the local system-in-hand and finite acceptance of organizational work distinct. System identity, designation, local system-role classification and any assignment occurrence remain separate in every direction. Do not backdate a future System.
 9. Use section 4.1a for a project-selection account. A direct designation may answer the ordinary case; a stronger compound claim needs recoverable constructor semantics, and `missing-substrate` blocks only that stronger claim.
 10. Keep performer, Work, change, result, success, acceptance, evidence, decision, description, publication, and later use as separate claims. Apply the pattern that defines or tests the current relation.
 11. For result wording, name the referent and say what it is a result of or for; then use the applicable A.6.P.WMR outcome. Whole-project aggregation also needs its Work-part basis and relation-and-measure policy.

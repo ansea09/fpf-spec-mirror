@@ -6,12 +6,12 @@ section_id: "A.15.8:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__002_problem-frame.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:1 — Problem frame"
-line_start: 31722
-line_end: 31742
+line_start: 31787
+line_end: 31807
 dependencies:
   - "A.1"
   - "A.10"

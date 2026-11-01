@@ -6,12 +6,12 @@ section_id: "C.30.LCA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 74370
-line_end: 74379
+line_start: 74465
+line_end: 74474
 dependencies:
   - "A.10"
   - "A.20"

@@ -6,12 +6,12 @@ section_id: "A.15.PROD:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 33272
-line_end: 33285
+line_start: 33337
+line_end: 33350
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "B.5.RC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RC/B.5.RC__002_problem-frame.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
   - "B.5.RC:1 — Problem frame"
-line_start: 47679
-line_end: 47688
+line_start: 47744
+line_end: 47753
 dependencies:
   - "A.6.3.RT"
   - "B.5"

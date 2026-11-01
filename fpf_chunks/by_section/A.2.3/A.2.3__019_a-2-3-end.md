@@ -6,12 +6,12 @@ section_id: "A.2.3:End"
 section_title: "A.2.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__019_a-2-3-end.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:End — A.2.3:End"
-line_start: 5994
-line_end: 5995
+line_start: 6059
+line_end: 6060
 dependencies:
   - "A.1.1"
   - "A.10"

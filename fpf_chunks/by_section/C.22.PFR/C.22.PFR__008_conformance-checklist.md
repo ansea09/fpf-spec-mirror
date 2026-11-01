@@ -6,12 +6,12 @@ section_id: "C.22.PFR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__008_conformance-checklist.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:7 — Conformance Checklist"
-line_start: 63562
-line_end: 63578
+line_start: 63657
+line_end: 63673
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -43,5 +43,5 @@ keywords:
 11. Method availability and solvability claims remain separate from PFR actuality and identity.
 12. Possible conditions remain exact forecast, scenario, counterfactual, or anticipated-condition claims under their direct governors until both participant relations and adverse predicate truth obtain; assertion polarity and reliance posture do not substitute for those obtaining conditions.
 13. Ordinary readable use can stop before explicit PFR materialization when no receiving claim needs Problem identity.
-14. Installed-component, battery-voltage, proof-gap, clinical-condition, missed-transfer and hot-surface cases remain explicitly non-conforming until their named direct condition and, where applicable, problem-for/applicability governors exist; a phrase, measurement, diagnosis, record, card, or structural transfer does not mint them.
+14. Installed-component, battery-voltage, proof-gap, clinical-condition, missed-transfer and hot-surface cases remain explicitly non-conforming until their named direct condition and, where applicable, problem-for/applicability governors exist; a phrase, measurement, diagnosis, record, card, or position in a flow structure does not supply those relations.
 

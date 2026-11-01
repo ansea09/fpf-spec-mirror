@@ -6,12 +6,12 @@ section_id: "A.15.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__001_intro.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:intro — Intro"
-line_start: 31095
-line_end: 31104
+line_start: 31160
+line_end: 31169
 dependencies:
   - "A.1"
   - "A.1.STM"

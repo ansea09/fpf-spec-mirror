@@ -6,12 +6,12 @@ section_id: "C.11.DBR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__008_conformance-checklist.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:7 — Conformance Checklist"
-line_start: 57709
-line_end: 57718
+line_start: 57804
+line_end: 57813
 dependencies:
   - "A.10"
   - "A.10.1"

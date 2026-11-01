@@ -6,12 +6,12 @@ section_id: "C.22.PFR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__006_archetypal-grounding.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:5 — Archetypal Grounding"
-line_start: 63524
-line_end: 63553
+line_start: 63619
+line_end: 63648
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -52,7 +52,7 @@ The by-value predicate `NoInspectorSystemRoleBeforeValidation-v2` uses one direc
 
 **Unestablished condition — clinical condition.** A diagnosis, assessment, measurement report, and patient label are epistemes or context-dependent cues, not the clinical-condition occurrence or patient identity. This case lacks a clinical-condition pattern supplying the needed participants, obtaining, recurrence, identity, and temporal extent. Until one does, keep the case non-conforming. If *patient* also names a work-facing classification, recover the classified System and local system-role kind. If an assignment is claimed, recover its holder System, assigned kind, occurrence, and declared `U.SystemRoleAssignment` species; none supplies the missing clinical-condition relation.
 
-**Unestablished condition and use — missed transfer.** First distinguish transfer Work, a world-side transfer or delivery relation, a commitment or acceptance relation, and a package or record episteme. E.18's structural `U.Transfer` cannot be reused merely by the phrase *hand-off failure*. This case lacks a direct pattern supplying the exact missed-transfer condition relation, and the phrase *receiving work* does not decide whether the problem-for entity is intended `U.WorkPlan`, dated `U.Work`, or another governed entity. The case therefore remains non-conforming until separate direct governors settle both questions.
+**Unestablished condition and use — missed transfer.** First distinguish transfer Work, a world-side transfer or delivery relation, a commitment or acceptance relation, and a package or record episteme. An E.18 connection position resolves to a selected relation; neither that position nor the phrase *hand-off failure* establishes a missed-transfer condition. This case lacks a direct pattern supplying the exact missed-transfer condition relation, and the phrase *receiving work* does not decide whether the problem-for entity is intended `U.WorkPlan`, dated `U.Work`, or another governed entity. The case therefore remains non-conforming until separate direct governors settle both questions.
 
 **Unestablished condition with two proposed uses — hot surface.** This case lacks a direct pattern supplying an individuated hot-surface condition relation; a temperature reading cannot substitute for it. If such a governor later exists, hold its one occurrence fixed and use two distinct applicability occurrences when an exact receiving `U.Work` and an exact `U.System` have different problem-for fillers, scopes, declared windows, or applicability continuity. Adverse truth would then yield two PFR occurrences sharing only the condition reference. Until the condition gate closes, this remains a multiplicity test, not an asserted example.
 

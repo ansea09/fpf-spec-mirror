@@ -6,12 +6,12 @@ section_id: "C.32.ADR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__007_bias-annotation.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:6 — Bias-Annotation"
-line_start: 80259
-line_end: 80269
+line_start: 80368
+line_end: 80378
 dependencies:
   - "A.10"
   - "A.15"

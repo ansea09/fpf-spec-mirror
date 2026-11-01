@@ -6,12 +6,12 @@ section_id: "C.37.CF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__010_consequences.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:9 — Consequences"
-line_start: 82401
-line_end: 82406
+line_start: 82510
+line_end: 82515
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"

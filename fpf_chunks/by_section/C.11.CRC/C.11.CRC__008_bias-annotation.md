@@ -6,12 +6,12 @@ section_id: "C.11.CRC:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__008_bias-annotation.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:6 — Bias Annotation"
-line_start: 57515
-line_end: 57523
+line_start: 57610
+line_end: 57618
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -49,5 +49,5 @@ keywords:
 - **Additivity bias:** inspect complements, substitutes, overlap, thresholds, congestion, and common causes.
 - **Empty-baseline bias:** start from the actual current configuration unless another baseline is explicitly the decision subject.
 - **Physics-prestige bias:** a variational or thermodynamic form does not establish a physical mechanism or decision authority.
-- **Information-as-result bias:** expected information and option value are inputs to choice, not already realized target-System benefit.
+- **Information-as-result bias:** expected information and option value are inputs to choice, not already realized benefit for the intended recipient System.
 

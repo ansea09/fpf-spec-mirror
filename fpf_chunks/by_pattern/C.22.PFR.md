@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.PFR.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
-line_start: 63306
-line_end: 63636
+line_start: 63401
+line_end: 63731
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -269,7 +269,7 @@ The by-value predicate `NoInspectorSystemRoleBeforeValidation-v2` uses one direc
 
 **Unestablished condition — clinical condition.** A diagnosis, assessment, measurement report, and patient label are epistemes or context-dependent cues, not the clinical-condition occurrence or patient identity. This case lacks a clinical-condition pattern supplying the needed participants, obtaining, recurrence, identity, and temporal extent. Until one does, keep the case non-conforming. If *patient* also names a work-facing classification, recover the classified System and local system-role kind. If an assignment is claimed, recover its holder System, assigned kind, occurrence, and declared `U.SystemRoleAssignment` species; none supplies the missing clinical-condition relation.
 
-**Unestablished condition and use — missed transfer.** First distinguish transfer Work, a world-side transfer or delivery relation, a commitment or acceptance relation, and a package or record episteme. E.18's structural `U.Transfer` cannot be reused merely by the phrase *hand-off failure*. This case lacks a direct pattern supplying the exact missed-transfer condition relation, and the phrase *receiving work* does not decide whether the problem-for entity is intended `U.WorkPlan`, dated `U.Work`, or another governed entity. The case therefore remains non-conforming until separate direct governors settle both questions.
+**Unestablished condition and use — missed transfer.** First distinguish transfer Work, a world-side transfer or delivery relation, a commitment or acceptance relation, and a package or record episteme. An E.18 connection position resolves to a selected relation; neither that position nor the phrase *hand-off failure* establishes a missed-transfer condition. This case lacks a direct pattern supplying the exact missed-transfer condition relation, and the phrase *receiving work* does not decide whether the problem-for entity is intended `U.WorkPlan`, dated `U.Work`, or another governed entity. The case therefore remains non-conforming until separate direct governors settle both questions.
 
 **Unestablished condition with two proposed uses — hot surface.** This case lacks a direct pattern supplying an individuated hot-surface condition relation; a temperature reading cannot substitute for it. If such a governor later exists, hold its one occurrence fixed and use two distinct applicability occurrences when an exact receiving `U.Work` and an exact `U.System` have different problem-for fillers, scopes, declared windows, or applicability continuity. Adverse truth would then yield two PFR occurrences sharing only the condition reference. Until the condition gate closes, this remains a multiplicity test, not an asserted example.
 
@@ -298,7 +298,7 @@ It also has a continuous-time bias for occurrence identity. Discrete-state and e
 11. Method availability and solvability claims remain separate from PFR actuality and identity.
 12. Possible conditions remain exact forecast, scenario, counterfactual, or anticipated-condition claims under their direct governors until both participant relations and adverse predicate truth obtain; assertion polarity and reliance posture do not substitute for those obtaining conditions.
 13. Ordinary readable use can stop before explicit PFR materialization when no receiving claim needs Problem identity.
-14. Installed-component, battery-voltage, proof-gap, clinical-condition, missed-transfer and hot-surface cases remain explicitly non-conforming until their named direct condition and, where applicable, problem-for/applicability governors exist; a phrase, measurement, diagnosis, record, card, or structural transfer does not mint them.
+14. Installed-component, battery-voltage, proof-gap, clinical-condition, missed-transfer and hot-surface cases remain explicitly non-conforming until their named direct condition and, where applicable, problem-for/applicability governors exist; a phrase, measurement, diagnosis, record, card, or position in a flow structure does not supply those relations.
 
 ### C.22.PFR:8 - Common Anti-Patterns and How to Avoid Them
 

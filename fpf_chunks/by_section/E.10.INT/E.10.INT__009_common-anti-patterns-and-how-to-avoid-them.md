@@ -6,12 +6,12 @@ section_id: "E.10.INT:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.INT/E.10.INT__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "E.10.INT — Recovering What Interest or Curiosity Means Here"
   - "E.10.INT:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 100986
-line_end: 100994
+line_start: 101095
+line_end: 101103
 dependencies:
   - "C.11"
   - "C.16"

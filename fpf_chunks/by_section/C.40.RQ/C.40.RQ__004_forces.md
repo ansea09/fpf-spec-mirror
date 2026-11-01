@@ -6,12 +6,12 @@ section_id: "C.40.RQ:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.RQ/C.40.RQ__004_forces.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.40.RQ — Requalify Changed Opportunities"
   - "C.40.RQ:3 — Forces"
-line_start: 88072
-line_end: 88082
+line_start: 88181
+line_end: 88191
 dependencies:
   - "A.10"
   - "A.10.1"

@@ -6,12 +6,12 @@ section_id: "B.1.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__010_consequences.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:9 — Consequences"
-line_start: 41925
-line_end: 41938
+line_start: 41990
+line_end: 42003
 dependencies:
   - "A.1"
   - "A.10"

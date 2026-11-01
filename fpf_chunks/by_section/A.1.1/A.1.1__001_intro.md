@@ -6,12 +6,12 @@ section_id: "A.1.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__001_intro.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:intro — Intro"
-line_start: 3111
-line_end: 3116
+line_start: 3104
+line_end: 3109
 dependencies:
   - "A.1"
   - "A.14"

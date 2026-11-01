@@ -6,12 +6,12 @@ section_id: "A.2.8:6"
 section_title: "Invariants and Reasoning Primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__009_invariants-and-reasoning-primitives.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:6 — Invariants and Reasoning Primitives"
-line_start: 8296
-line_end: 8323
+line_start: 8361
+line_end: 8388
 dependencies:
   - "A.10"
   - "A.15.1"

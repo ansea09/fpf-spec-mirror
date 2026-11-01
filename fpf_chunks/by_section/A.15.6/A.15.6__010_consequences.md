@@ -6,12 +6,12 @@ section_id: "A.15.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__010_consequences.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:9 — Consequences"
-line_start: 31453
-line_end: 31462
+line_start: 31518
+line_end: 31527
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -43,7 +43,7 @@ keywords:
 
 **Benefits.** Cost and completion claims can refer to one actual composite Work occurrence through their direct predicates. A responsibility assertion separately names its predicate and participants, then applies an existing or sufficient local rule; an absent required rule yields `missing-governor`. The project system-of-interest, selected project-relevant network, case subjects, system-role classifications and assignments, changed referents, produced entities, evaluations, deliveries, acceptance decisions, and downstream uses retain their own facts.
 
-A team can say plainly which System the project is about and can tell when that System is only intended. Process evaluation can use Work observations whose A.15.1 relation states which Method was enacted, or operation-application observations supported by a declared A.6.1 operation and typed binding, without turning observed Work into a Method or structure. Case Work can close around a continuing entity, episteme edition, characteristic inquiry, relation, decision, or result while keeping any relevant downstream use outside closure.
+A team can name the temporary work, its local subject and intended result, the performing organization and the common product-use purpose without treating them as one object. It can also tell when a described System is only intended. Process evaluation can use Work observations whose A.15.1 relation states which Method was enacted, or operation-application observations supported by a declared A.6.1 operation and typed binding, without turning observed Work into a Method or structure. Case Work can close around a continuing entity, episteme edition, characteristic inquiry, relation, decision, or result while keeping any relevant downstream use outside closure.
 
 **Costs.** Practitioners must distinguish intended from performed work and recover a continuity policy when an identity ambiguity requires it. A legacy `@Project` reference may need its actual relation made explicit; descriptions with different EntitiesOfConcern need separate identities rather than one project label.
 

@@ -6,12 +6,12 @@ section_id: "A.15.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__011_rationale.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:10 — Rationale"
-line_start: 31463
-line_end: 31470
+line_start: 31528
+line_end: 31535
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -45,5 +45,5 @@ Admit actual project Work through the full A.15.1:4.1 test for the same candidat
 
 Repeatability belongs to `U.Method`; direct method-side relations remain unbundled until the structure's constituents are identified independently, its selected relations obtain, its constraints are applied, and one use frame names the selection question, admissible action and stop or return condition. Only then select one `U.Structure` under `A.22` and, if useful for that question, call it `MethodRelationStructure`. Transformation-flow organization belongs to `TransformationFlowStructure`. None is the unique dated Work occurrence. A case remains centered on the subject or claim named by its closure question, even when several Methods, structures, Work occurrences, Systems, results, measures, and decisions are relevant. Direct recovery therefore preserves more engineering information than a three-label hierarchy.
 
-The system-of-interest and project-target distinctions follow the same economy. A plan or decision can designate a system; a shared systemic account additionally explains why that system's intended use organizes the participants' joint undertaking. A.1.STM develops that basis and the connection of local contributions to it, while A.2 separately answers whether an actual System is classified under a defined local system-role kind and `U.SystemRoleAssignment` answers which assignment occurrence obtains. Use that designation directly when it answers the question. For a one-case compound claim, recover the constructor semantics and direct facts; materialize or pin a substrate only for nontrivial derivation, interoperability, proof, or reuse. Return `missing-substrate` only for a needed stronger claim whose operator semantics are unavailable. An intended future System remains claim content until inception. Reopen A.6.RCD for a reusable predicate or relation kind only when a named receiver needs that stronger result.
+The common product SoI and local-subject distinctions follow the same economy. A plan or decision can designate a system; a shared systemic account additionally explains why that system's intended use organizes the participants' joint undertaking. A.1.STM develops that basis and the connection of local contributions to it, while A.2 separately answers whether an actual System is classified under a defined local system-role kind and `U.SystemRoleAssignment` answers which assignment occurrence obtains. Use that designation directly when it answers the question. For a one-case compound claim, recover the constructor semantics and direct facts; materialize or pin a substrate only for nontrivial derivation, interoperability, proof, or reuse. Return `missing-substrate` only for a needed stronger claim whose operator semantics are unavailable. An intended future System remains claim content until inception. Reopen A.6.RCD for a reusable predicate or relation kind only when a named receiver needs that stronger result.
 

@@ -6,13 +6,14 @@ section_id: "C.32.PAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__005_solution.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:4 — Solution"
-line_start: 79905
-line_end: 80007
+line_start: 80010
+line_end: 80114
 dependencies:
+  - "A.1.STM"
   - "A.10"
   - "A.15"
   - "A.15.6"
@@ -72,10 +73,10 @@ Work in this order:
 3. Cite comparison or selection input only when it exists. Use `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set result declaration, and `C.11` for local choice. For publication, use `E.24.PUB` for the occurrence and audience availability; add `E.17` when a source-backed face and source return are needed.
 4. State the selected architecture option or bounded exception. Name the affected selected structures and the subject pattern for each structure claim.
 5. Record the architecture-characteristic trade-off, or why no live trade-off is needed. Reuse adequate criteria, readings and explanations. Use `C.32.ACS`, `C.32.ACE`, `C.16`, `C.25` or `C.31` for the particular missing criterion, evaluation, measurement, quality bundle or modularity/scale claim. Recover description correspondence and relevant loss through `C.30.AD`; use `C.29` when a mathematical lens is relied on. None of these inputs decides the architecture by itself.
-6. Record rationale, rejected options, accepted losses, and consequences. A rejected option can remain useful as a stepping stone or archive item; do not turn it into a failure unless the receiving failure pattern is triggered.
+6. Record rationale, rejected options, accepted losses, and consequences. For organizational architecture, explain how the selected structure can provide the needed capability for the named products, which provision and cooperation it relies on, and who is entitled to accept a consequential change to their commitments. Keep expenditure, financing and expected product benefit distinguishable. A rejected option can remain useful as a stepping stone or archive item; do not turn it into a failure unless the receiving failure pattern is triggered.
 7. Relate the decision to architecture descriptions it uses. Use `C.30.AD` for architecture-description adequacy and `C.30.ASV` for selected-structure view adequacy. A diagram, model, file, or view can describe the decision basis; it does not become the decision relation.
 8. Bind the decision to method-use instructions when the architect needs developers to use a method, pattern, style, toolchain step, or work practice so the described or transformed-side holon is intended to gain or preserve the named structure. Use `A.15`, `A.15.1`, `A.15.2`, `A.15.5`, `A.6.M`, `E.8`, `E.11.PUR`, and `C.24` according to the live claim.
-9. State the architecture-to-refinement boundary. Name selected structures fixed by the decision, refinement scopes left open, source-return conditions, readiness exits, and patterns for any later governance question. When level or whole-change wording leaves the boundary unclear, use `C.30.STRAT` or `B.2.P` to recover its meaning. Use `B.2` only for a remaining whole-reidentification question after existing-whole explanations are insufficient; cite the resulting claim in `holonTransitionOrBOSCTriggerRefs?` when needed.
+9. State the architecture-to-refinement boundary. Name selected structures fixed by the decision, refinement scopes left open, source-return conditions, readiness exits, and patterns for any later governance question. For creator development, carry the finite local result and the evidence needed to accept its promised capability into the work boundary. Remaining product-use uncertainty does not make that local work endless; local completion does not establish every later product effect. When level or whole-change wording leaves the boundary unclear, use `C.30.STRAT` or `B.2.P` to recover its meaning. Use `B.2` only for a remaining whole-reidentification question after existing-whole explanations are insufficient; cite the resulting claim in `holonTransitionOrBOSCTriggerRefs?` when needed.
 10. Use `C.32.ADR` when an ADR-like description is needed, and `E.24.PUB` for actual publication and audience availability. Add `E.17` when a source-backed face and source return are needed. The description must retain whether the decision is proposed, made or superseded.
 11. Add evidence, assurance, gate, and governance exits only when those claims are being made. Use `A.10`, `B.3`, `A.21`, and the local governance pattern rather than adding those statuses to the decision relation by name.
 12. Write reopen and supersession conditions. Reopen when the candidate basis changes, a protected architecture characteristic crosses its guardrail, an independently typed influence-source structure or arrangement no longer fits the transformed-side actual or modal architecture content, a stronger source changes the accepted loss, or the decision's method-use instruction proves unusable.
@@ -87,6 +88,8 @@ If one project question uses an E.18.NET network, first preserve that network's 
 A C.32.PAD decision is ready to draft when the current decision relation identifies the composite project `U.Work` participant and can cite at least one candidate basis, one affected selected structure, one architecture-characteristic trade-off or declared reason for no live trade-off, one expected work consequence, one reopen condition, and any triggered `holonTransitionOrBOSCTriggerRefs?` or `structuralInformationLensUseRefs?` needed to preserve source return. When system-of-interest local-kind, separate System-classification, assignment, architecture-influence, or network fields are present, the applicable A.15.6, A.2 and A.2.1, C.32.CONWAY, E.18.NET, and C.30.TFS-REL preconditions must already be satisfied or the reference remains absent.
 
 If the candidate basis is absent, use `C.32` to obtain the missing contribution. If the decision lacks adequate architecture criteria, use `C.32.ACS` or `C.25`; a separate new row is unnecessary when the needed criterion is already recoverable. If the decision only says "the metric is best", recover the affected structure, criterion, loss and comparison basis through the applicable `C.32.ACE`, `C.16` or `A.19.CPM` contribution. If a required work Method is unclear, use its subject pattern and `A.15` for the relevant work claim. If an existing system, role assignment, project-network judgment, network selection, architecture use, or influence pair is unresolved, require its subject pattern and keep only the truthful designation, modal claim, candidate frame, or explicit stop in PAD.
+
+A creator-architecture decision uses the product-use, capability and local-result connection from A.1.STM:4.1.1. If the needed resources, cooperation or authority are unresolved, keep the dependent capability or implementation commitment conditional. The decision can still select bounded research with its own epistemic acceptance or another supported local result. For shared creators, an accepted loss must identify the affected product commitments and the decision basis that permits changing them; one product's improved metric supplies neither.
 
 #### C.32.PAD:4.2 - Constructive architecture decision path
 

@@ -6,12 +6,12 @@ section_id: "A.16:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__005_solution.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:4 — Solution"
-line_start: 33391
-line_end: 33485
+line_start: 33456
+line_end: 33550
 dependencies:
   - "A.13"
   - "A.15.1"

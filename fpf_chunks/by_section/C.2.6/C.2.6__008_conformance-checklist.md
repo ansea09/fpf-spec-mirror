@@ -6,12 +6,12 @@ section_id: "C.2.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__008_conformance-checklist.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.2.6 — Sources, Evidence and Conditions for Using an Episteme"
   - "C.2.6:7 — Conformance Checklist"
-line_start: 54130
-line_end: 54135
+line_start: 54225
+line_end: 54230
 dependencies:
   - "A.10"
   - "A.16"

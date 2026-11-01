@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.CRC.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
-line_start: 57383
-line_end: 57579
+line_start: 57478
+line_end: 57674
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -180,7 +180,7 @@ A project is compared with the current portfolio and financing/operating configu
 - **Additivity bias:** inspect complements, substitutes, overlap, thresholds, congestion, and common causes.
 - **Empty-baseline bias:** start from the actual current configuration unless another baseline is explicitly the decision subject.
 - **Physics-prestige bias:** a variational or thermodynamic form does not establish a physical mechanism or decision authority.
-- **Information-as-result bias:** expected information and option value are inputs to choice, not already realized target-System benefit.
+- **Information-as-result bias:** expected information and option value are inputs to choice, not already realized benefit for the intended recipient System.
 
 ### C.11.CRC:7 - Conformance Checklist
 

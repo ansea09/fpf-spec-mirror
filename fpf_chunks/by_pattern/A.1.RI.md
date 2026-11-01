@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.1.RI.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.1.RI — Reidentifying an Object across Observations"
-line_start: 2909
-line_end: 3110
+line_start: 2902
+line_end: 3103
 dependencies:
   - "A.1"
   - "A.3.3.PI"

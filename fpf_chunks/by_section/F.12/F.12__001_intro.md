@@ -6,12 +6,12 @@ section_id: "F.12:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__001_intro.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "F.12 — Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)"
   - "F.12:intro — Intro"
-line_start: 122532
-line_end: 122541
+line_start: 122641
+line_end: 122650
 dependencies:
   - "A.10"
   - "A.15.1"

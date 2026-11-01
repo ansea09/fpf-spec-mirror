@@ -6,12 +6,12 @@ section_id: "C.22:15"
 section_title: "Generator-specific difficulty targets"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__018_generator-specific-difficulty-targets.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:15 — Generator-specific difficulty targets"
-line_start: 63147
-line_end: 63151
+line_start: 63242
+line_end: 63246
 dependencies:
   - "A.6.0"
   - "C.16"

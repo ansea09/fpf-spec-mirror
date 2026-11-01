@@ -6,12 +6,12 @@ section_id: "A.1.SCR:7"
 section_title: "Conformance Checklist — Practical Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__009_conformance-checklist-practical-checks.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:7 — Conformance Checklist — Practical Checks"
-line_start: 3756
-line_end: 3772
+line_start: 3751
+line_end: 3767
 dependencies:
   - "A.1"
   - "A.1.CSD"
@@ -36,7 +36,7 @@ keywords:
 | `CC-A1-SCR-6` | Add a neighboring claim only under its subject pattern and only when the named decision needs that claim. |
 | `CC-A1-SCR-7` | Service/access ambiguity begins in A.6.P §4.11a and returns here only for a separate system-dependent claim about the exact entity recovered there—an exact bearer or access-providing arrangement. |
 | `CC-A1-SCR-8` | A missing relation preserves exact participants and dependent use and records the established A.6.RCD result `missing-governor[...]`. |
-| `CC-A1-SCR-9` | Designation follows a named plan or decision; local system-of-interest and common project target remain distinct. Recognition, designation, participants' agreement, technical classification and assignment are supported at their own scopes. |
+| `CC-A1-SCR-9` | A SoI designation has the product-use and cooperation basis in section 4.7 as well as its named plan or decision. The local system-in-hand, including an engineered creator, remains distinct. Recognition, designation, participants' agreement, technical classification and assignment are supported at their own scopes. |
 | `CC-A1-SCR-10` | Physical grounding creates no cross-kind identity or unrestricted composition. |
 
 

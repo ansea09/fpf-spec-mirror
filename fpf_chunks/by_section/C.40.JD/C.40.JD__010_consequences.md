@@ -6,12 +6,12 @@ section_id: "C.40.JD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__010_consequences.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:9 — Consequences"
-line_start: 88793
-line_end: 88796
+line_start: 88902
+line_end: 88905
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"

@@ -6,12 +6,12 @@ section_id: "E.10.DEV:End"
 section_title: "E.10.DEV:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__014_e-10-dev-end.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:End — E.10.DEV:End"
-line_start: 101250
-line_end: 101251
+line_start: 101359
+line_end: 101360
 dependencies:
   - "A.15"
   - "A.2.2"

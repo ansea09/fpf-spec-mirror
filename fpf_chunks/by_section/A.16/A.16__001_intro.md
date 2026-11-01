@@ -6,12 +6,12 @@ section_id: "A.16:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__001_intro.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.16 — Language-State Moves: Choose the Next Publication and Use of a Cue or Claim"
   - "A.16:intro — Intro"
-line_start: 33348
-line_end: 33369
+line_start: 33413
+line_end: 33434
 dependencies:
   - "A.13"
   - "A.15.1"

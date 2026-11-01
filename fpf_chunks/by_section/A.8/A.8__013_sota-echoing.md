@@ -6,12 +6,12 @@ section_id: "A.8:4.4"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__013_sota-echoing.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.8 — Universal Core Principle: Test a U-Kind Across Domains"
   - "A.8:4.4 — SoTA-Echoing"
-line_start: 26543
-line_end: 26546
+line_start: 26608
+line_end: 26611
 dependencies:
   - "A.11"
   - "C.3"

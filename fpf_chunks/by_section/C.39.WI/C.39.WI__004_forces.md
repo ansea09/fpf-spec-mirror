@@ -6,12 +6,12 @@ section_id: "C.39.WI:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__004_forces.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:3 — Forces"
-line_start: 83820
-line_end: 83831
+line_start: 83929
+line_end: 83940
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"

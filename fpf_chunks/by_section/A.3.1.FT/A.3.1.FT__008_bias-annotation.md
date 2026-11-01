@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__008_bias-annotation.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:6 — Bias-Annotation"
-line_start: 10878
-line_end: 10889
+line_start: 10943
+line_end: 10954
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"

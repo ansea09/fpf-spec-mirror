@@ -6,18 +6,19 @@ section_id: "A.1.STM:End"
 section_title: "A.1.STM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__016_a-1-stm-end.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.1.STM — Connect Project Reasoning (System-Thinking Long Mantra)"
   - "A.1.STM:End — A.1.STM:End"
-line_start: 4394
-line_end: 4395
+line_start: 4459
+line_end: 4460
 dependencies:
   - "A.1"
   - "A.1.CSD"
   - "A.1.SCR"
   - "A.10"
   - "A.12"
+  - "A.14"
   - "A.15"
   - "A.15.5"
   - "A.15.6"
@@ -30,8 +31,11 @@ dependencies:
   - "A.3.1"
   - "A.3.4"
   - "B.3"
+  - "B.5.PI"
+  - "C.22.2"
   - "C.28"
   - "C.30"
+  - "C.30.STRAT"
   - "C.32.P2S"
   - "E.18"
   - "E.18.NET"

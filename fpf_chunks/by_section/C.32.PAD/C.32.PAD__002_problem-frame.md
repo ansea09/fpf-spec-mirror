@@ -6,13 +6,14 @@ section_id: "C.32.PAD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__002_problem-frame.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:1 — Problem frame"
-line_start: 79763
-line_end: 79880
+line_start: 79866
+line_end: 79985
 dependencies:
+  - "A.1.STM"
   - "A.10"
   - "A.15"
   - "A.15.6"
@@ -82,6 +83,8 @@ Typical entry phrases:
 The primary `EntityOfConcern` is `ArchitectureDecisionRelation@Project`: an architecture decision relation over one bounded architecture question with one exact composite project `U.Work` as a participant. It links that work, the decision subject, candidate basis, selected architecture option, affected structures, architecture characteristics, rationale, accepted losses, consequences, method and work expectations, publication projection, evidence or eval exits, and reopen conditions.
 
 `ArchitectureDecisionRelation@Project` is not a new `U.*` kind. `@Project` is a compatibility and retrieval cue, not the source of project identity or scope. The relation is project-local only when `projectWorkOccurrenceRef` identifies the exact composite `U.Work` that participates in it. When another slot becomes load-bearing as an FPF object, recover the subject pattern for that object.
+
+The **system-of-interest (SoI)** is the system whose intended use and expected benefit give the relevant cooperation of creators its common purpose, as explained in A.1.STM:4.1. The decision's described holon can be the creator organization itself. Choose its architecture in light of the capability needed for the product use, and state which local result the work must establish and how it will be accepted under A.1.STM:4.1.1. The organization remains a creator when its development has a separate budget, contract or external provider, or when the business is sold. A distinct usable machine or component supply can have its own product SoI under that pattern's receiving-use and fitness grounds. Keep every product demand and shared condition that can change this decision. The singular System reference below addresses one designation; preserve other relevant designations and relations separately rather than binding a plurality to it.
 
 When this decision designates a **project system-of-interest**, `projectSystemOfInterestRef?` names only an independently admitted existing `U.System`. Before identity inception, keep the intended referent in `intendedProjectSystemClaimRef?` as `U.WorkPlan`, decision, system description, or other claim content. A local kind is named separately in `systemOfInterestKindRef?`, while `systemOfInterestClassificationRef?` cites an independently obtaining classification judgment; neither entails an assignment. A current assignment uses separate species and occurrence refs, and the occurrence's holder is that System. Route any source phrase such as `SystemOfInterestRole` through `E.10.ROLE` before filling these fields. A taxonomy or scheme is not assignment content. Designation, kind, classification, assignment, Work, change, use facts, and the decision remain distinct. The decision neither establishes a compound project-selection truth nor repairs its missing constructor; when that one truth is required, retain every direct fact and record the A.15.6 result `missing-substrate[project-selection-conjunction]`.
 

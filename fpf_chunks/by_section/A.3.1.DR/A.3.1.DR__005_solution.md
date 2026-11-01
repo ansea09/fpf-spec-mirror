@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__005_solution.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:4 — Solution"
-line_start: 10030
-line_end: 10078
+line_start: 10095
+line_end: 10143
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"

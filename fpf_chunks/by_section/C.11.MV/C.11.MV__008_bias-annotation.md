@@ -6,12 +6,12 @@ section_id: "C.11.MV:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__008_bias-annotation.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:6 — Bias-Annotation"
-line_start: 58198
-line_end: 58209
+line_start: 58293
+line_end: 58304
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"

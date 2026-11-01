@@ -6,12 +6,12 @@ section_id: "A.2.5:9"
 section_title: "Common Failure Modes and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__012_common-failure-modes-and-repairs.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:9 — Common Failure Modes and Repairs"
-line_start: 6546
-line_end: 6557
+line_start: 6611
+line_end: 6622
 dependencies:
   - "A.15"
   - "A.15.1"

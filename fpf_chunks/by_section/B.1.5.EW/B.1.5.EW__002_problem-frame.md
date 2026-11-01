@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__002_problem-frame.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:1 — Problem frame"
-line_start: 42602
-line_end: 42611
+line_start: 42667
+line_end: 42676
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"

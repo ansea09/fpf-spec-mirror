@@ -6,12 +6,12 @@ section_id: "A.15.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__002_problem-frame.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:1 — Problem frame"
-line_start: 31105
-line_end: 31142
+line_start: 31170
+line_end: 31207
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -43,10 +43,10 @@ keywords:
 
 **Use this when.** Use this pattern when project, process, case, program, initiative, or situation wording is about Work and change, but the claim does not yet reveal whether it concerns one performed Work whole, a reusable way, a selected structure, or another named subject or claim being followed to a closure decision.
 
-Use it also when a team cannot keep its problem-development, solution-development, and development-platform questions connected. This branch recovers the selected subjects without collapsing them into one project object. When a systemic account is needed, A.1.STM supplies its common target-system and intended-use basis; the local subjects may still be Methods, epistemes, Work, capabilities or other results.
+Use it also when a team cannot keep its problem-development, solution-development, and development-platform questions connected. This branch recovers the selected subjects without collapsing them into one project object. When a systemic account is needed, A.1.STM supplies its project system-of-interest and intended-use basis; the local subjects may still be Methods, epistemes, Work, capabilities or other results.
 
 
-Use it also when **project system-of-interest** wording leaves unclear whether the claim concerns a local focus or the common **project target system**, whether an actual `U.System` or only a future holder is intended, or whether designation is being inferred from a role label.
+Use it also when **project system-of-interest** wording leaves unclear whether the claim concerns the system whose use organizes the undertaking or the current local subject, whether an actual `U.System` or only a future holder is intended, or whether designation is being inferred from a role label.
 
 A claim of locality to one actual project requires a direct relation to its performed project Work, as section 4.5 states; an `@Project` name supplies only a label.
 
@@ -57,7 +57,7 @@ Otherwise ask what the next decision is about: the Work that happened, the reusa
 
 In the process branch, identify whether the question concerns `U.Method`, a `U.Structure` selected under `A.22`, or `TransformationFlowStructure`. Then choose any representation needed for that question.
 
-In the system branch, distinguish the common project target from a local system-of-interest and an actual holder from a future description. Keep designation, the participants' working agreement, technical classification and assignment as separate claims.
+In the system branch, distinguish the project's system-of-interest from the current subject of inquiry or local work, and an actual holder from a future description. Keep designation, the participants' working agreement, technical classification and assignment as separate claims.
 
 **Three short recognition cases.** Use these before the full pump example.
 

@@ -6,13 +6,14 @@ section_id: "C.32.PAD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__008_conformance-checklist.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:7 — Conformance Checklist"
-line_start: 80034
-line_end: 80049
+line_start: 80143
+line_end: 80158
 dependencies:
+  - "A.1.STM"
   - "A.10"
   - "A.15"
   - "A.15.6"
@@ -69,7 +70,7 @@ keywords:
 | `CC-PAD-2` | The decision cites candidate basis from `C.32` or a named receiving candidate pattern, or states why no candidate-set question is live. |
 | `CC-PAD-3` | The selected architecture option or bounded exception is named. |
 | `CC-PAD-4` | Affected selected structures are named with subject pattern refs. |
-| `CC-PAD-5` | Architecture-characteristic trade-offs, accepted losses, and guardrails are recorded. |
+| `CC-PAD-5` | Architecture-characteristic trade-offs, accepted losses, and guardrails are recorded. For creator development, the choice retains the affected product uses, promised capability, finite acceptance, provision conditions and authority to change commitments. |
 | `CC-PAD-6` | Architecture-description refs, method-use instructions, and performed-work boundaries remain distinct. |
 | `CC-PAD-7` | The architect-developer split, source-return condition, and reopen conditions are recorded. |
 | `CC-PAD-8` | Unresolved whole-transition wording uses `B.2.P`, and a remaining whole-reidentification claim uses `B.2`. A mathematical structural-information lens uses `C.29`; ordinary description correspondence and loss use their description rules. |

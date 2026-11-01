@@ -6,12 +6,12 @@ section_id: "A.2.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__001_intro.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
   - "A.2.8:intro — Intro"
-line_start: 8069
-line_end: 8073
+line_start: 8134
+line_end: 8138
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "A.3.3.PI:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.PI/A.3.3.PI__010_consequences.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "A.3.3.PI — Retain the Information Needed for Prediction"
   - "A.3.3.PI:9 — Consequences"
-line_start: 12894
-line_end: 12899
+line_start: 12959
+line_end: 12964
 dependencies:
   - "A.3.3"
   - "A.3.3.CC"

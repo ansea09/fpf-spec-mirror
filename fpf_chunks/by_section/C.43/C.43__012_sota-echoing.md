@@ -6,12 +6,12 @@ section_id: "C.43:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__012_sota-echoing.md"
-commit_sha: "5018da7d3b2b6a6e722fb76defe5cf991a64ba14"
+commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:11 — SoTA-Echoing"
-line_start: 90646
-line_end: 90663
+line_start: 90755
+line_end: 90772
 dependencies:
   - "A.12"
   - "C.11"
