@@ -6,12 +6,12 @@ section_id: "A.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__001_intro.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:intro — Intro"
-line_start: 13738
-line_end: 13797
+line_start: 13734
+line_end: 13793
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
   - "signature and mechanism declarations"
   - "six-way authority-word branch"
   - "undermines auditability"
-  - "“MUST” appears inside Definition: blocks"
+  - "“MUST” is used as an obligation operator inside a Definition: block"
 ---
 
 ## A.6 - Signature Stack: Classify and Place Boundary Claims
@@ -89,7 +89,7 @@ Use as much classification structure as the work or reliance claim needs. Split 
 | `A6-AW-CONFLICT` | Do a current grant and norm cover the same case, and has a rule or authorized decision selected the outcome? | **E**: `A.2.8.PER PermissionNormConflictFinding@Context` and its applicable rule or current resolution result. | A system-role kind, assignment, office, permit, or gate label alone leaves the conflict `unresolved`. |
 | `A6-AW-SOURCE` | Does the sentence only say that a permit, badge, registry entry, message, or carrier exists, displays, or supports a claim? | **E** for an observed publication or carrier fact; use A.10 when the claim concerns its evidence support. **L** for a definition. Keep the applicable publication or carrier identity. | A visible source alone leaves the separate grant, gate, exercise, finding or resolution claim unestablished. |
 
-**Concrete API/credential case.** A dashboard badge saying “API-7 approved for production” starts at `A6-AW-SOURCE`. It reaches `A6-AW-NORM-GRANT` only if a named policy-valid act instituted a current grant for a beneficiary and deployment action; the admission endpoint is separately `A6-AW-GATE`. Do not claim `A6-AW-EXERCISE` until a dated deployment Work occurrence matches that grant.
+**Concrete API/credential case.** The observation that a dashboard badge displays “API-7 approved for production” is an `A6-AW-SOURCE` claim. A separate claim that a current grant permits a beneficiary to deploy the API belongs under `A6-AW-NORM-GRANT`; establishing it requires a current grant instituted by a named policy-valid act for that beneficiary and deployment action. Classify the entry predicate or actual admission decision separately under `A6-AW-GATE`. Claim `A6-AW-EXERCISE` only when a dated deployment Work occurrence matches that grant.
 
 When agreement-like wording leaves an ambiguity that changes interpretation or use, use `A.6.C` to separate promise content, the instituting speech act, governance, Work, consequence, and evidence. For “recommended”, use A.16/A.6.A for a cue, `A6-AW-GATE` for an entry criterion, or A.2.8 only for recommendation-as-duty. Before action or reliance, return to the exact governing claim. Use A.15.4 while appearance hides the required prerequisite; use A.15 when the question is enactment alignment.
 

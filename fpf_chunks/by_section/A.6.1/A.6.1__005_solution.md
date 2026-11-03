@@ -6,12 +6,12 @@ section_id: "A.6.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__005_solution.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:4 — Solution"
-line_start: 16734
-line_end: 16969
+line_start: 16720
+line_end: 16955
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -56,7 +56,7 @@ Use `U.Mechanism` as the dependent durable U-kind for a reusable law-governed op
 
 **Local mechanism mantra.** *Name the operation family and subject. Declare exact arguments, results, application rules, laws, admission conditions, and applicability. Bind actual values only in one independently identified exact application. State a realization relation only when a named realizer satisfies its predicate. Keep method, work, evidence, description, and publication separate.*
 
-This mantra is Plain recall wording. Its imperatives summarize the distinctions; any prescribed order of performed work belongs to the direct method-description or work-plan pattern. Apply A.22.CGUS only when one independently identified A.22 structure has local loci and at least two potential continuations defined by selected relations and applied constraints. A post-qualification presentation may show one traversal as a separate `DemonstrativeUnfoldingSlice@Context`.
+This mantra is Plain recall wording. Its imperatives summarize the distinctions; any prescribed order of performed work belongs to the direct method-description or work-plan pattern. When a receiving question concerns available continuations and their conditions, use A.22.CGUS's ordinary branch. Continue to formal qualification only when a named later use needs structure identity or replayable results; then identify the A.22 structure, its local loci and at least two potential continuations under the selected relations and constraints. A post-qualification presentation may show one traversal as a separate `DemonstrativeUnfoldingSlice@Context`.
 
 #### A.6.1:4.1 - Admit and identify U.Mechanism
 
@@ -166,7 +166,7 @@ For example, let `BridgeDoseTerms-7` be the obtaining F.9 Bridge between exact c
 
 A changed effective `ReferenceScheme` identifies another mechanism episteme through C.2.1. A changed selected `CHR:ReferencePlane` reopens the exact CHR assertion; a changed `BoundedModelUseStructure` requires exact A.1.1/A.22 assertions. If the project also claims that a plane transition or model-use change relation occurred, name its admitted predicate and participants or stop that claim. For any comparison or change relation actually claimed, name its source and target objects, the comparison or relation asserted, and the meaning or structure it preserves and loses. Any reliability claim, including its Formality and Guarantee, remains under its direct reliability relation.
 
-Numeric comparison and aggregation use A.19 and the direct measurement and scale patterns. Orders are declared before arithmetic is applied, units are made compatible before values are combined, and any reduction to one score cites its governing scalarization relation.
+Use A.19 and the applicable measurement and scale patterns for numeric comparison or aggregation. Identify the permitted operations and any order they require before use, make units compatible where the operation requires it, and identify the governing scalarization relation for a reduction to one score.
 
 #### A.6.1:4.4 - Separate laws, admission, evaluation, and evidence
 
@@ -174,7 +174,7 @@ Numeric comparison and aggregation use A.19 and the direct measurement and scale
 
 A recognition-evaluation operation declares the finite result-value domain `true | false | unknown`. It returns `true` when its governed bound argument values determine that the candidate satisfies the selected world-side criterion, `false` when they determine that the candidate fails it, and `unknown` when missing evidence or an unavailable dependency prevents either determination. Here `unknown` means that the governed values determined neither satisfaction nor failure; the application may still be admitted and occur. Candidate status and any receiving-work disposition remain separately governed.
 
-World-side satisfaction or failure follows the direct criterion and candidate facts whether or not the project can currently determine them. Measurements, evidence, and assurance may support or warrant claims about those facts or about the returned judgment. If an exact evidence or interpretation-basis episteme is also a declared operation argument, its actual binding records only the application's use of that value under the declared argument meaning. Criterion satisfaction, evidence support or warrant, and candidate identity remain independently governed.
+World-side satisfaction or failure follows the direct criterion and candidate facts whether or not the project can currently determine them. Measurements, evidence, and assurance may support or warrant claims about those facts or about the returned judgment. If an exact evidence or interpretation-basis episteme is also a declared operation argument, its actual binding relates the application to that episteme as used under the declared argument meaning. Criterion satisfaction, evidence support or warrant, and candidate identity remain independently governed.
 
 A separately materialized evaluation-result or classification-assertion episteme remains under C.2.1. Its claim content may state the returned value, while exact evidence and assurance relations govern support or warrant and G.11 governs edition currentness. For this three-valued operation, neither the separately materialized episteme nor its currentness is the returned value itself. Thus a mechanism realization may obtain while current evidence is insufficient to rely on it, and an evaluation may return a value without changing mechanism identity.
 
@@ -193,9 +193,9 @@ An *operation-application binding* is an occurrence of one declaration-local bin
 
 One binding occurrence is identified by `<exactApplicationOccurrence, exactMechanismEpisteme, operationDesignator, argumentOrResultDesignator, exactBoundValue, maximalContinuousBindingExtent>`. The extent lies within the exact application extent; a result-binding extent cannot begin before that result is returned. Repeated applications remain distinct through their independently governed application identities, and the same value bound under two declaration-local meanings yields two distinct bindings. A declaration may state a different cardinality or binding-continuity rule only when that semantics is part of the exact operation declaration.
 
-The controlled phrase *operation-application binding* names only this family of declaration-local binding occurrences. Public work-participant, input, output, result, evidence, and production relations remain with their direct patterns. A result binding records the value the application returned. Production or entity-identity inception, a result episteme, and later reliance each require their own governing claims.
+The controlled phrase *operation-application binding* names only this family of declaration-local binding occurrences. Public work-participant, input, output, result, evidence, and production relations remain with their direct patterns. A result binding relates the application to the value it returned. Production or entity-identity inception, a result episteme, and later reliance each require their own governing claims.
 
-A dated performance is a separate Work individual. When a Work claim also relies on one already identified application and its bindings, recover each exact actual performer through A.13 and let A.15.1 independently admit `W : U.Work` from its performance history, temporal extent, at least one obtaining `enactsMethod -> U.Method` relation, and at least one obtaining locally declared Work-to-System containment relation with its exact boundary. Add the same obtaining A.13 assignment and F.6 `performedUnderAssignment(W, RA)` only when this application account or its receiving use expressly consumes precise assignment-bound attribution; then check holder equality and assignment coverage. F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Add any additional enactment, work-to-referent, performed resource use, continuity policy, or Work-mereology relation only when the claim asserts it and its own predicate obtains. A.6.1 does not identify the Work occurrence. If no direct subject-relation rule or declaration-local binding rule is defined for the claimed participation at the required granularity, retain the exact missing-governor blocker. When a governing rule is present, state any known predicate failure or the missing case facts that leave the participation claim unresolved.
+Treat a claim about dated Work separately from the application and its bindings. When that Work claim is current, recover each actual performer under A.13 and establish Work admission under A.15.1. Use F.6 through the same obtaining A.13 assignment only when this account or its receiving use needs precise assignment-bound attribution. Missing or failed F.6 alone leaves independently admitted Work intact; recheck an admission premise only when the same finding questions it. Any additional enactment, participation, resource-use, continuity or Work-mereology claim needs its own obtaining predicate. For the claimed participation at the required granularity, distinguish a missing subject-relation or declaration-local binding rule, a known predicate failure and missing case facts.
 
 #### A.6.1:4.6 - State realization as a direct relation
 
@@ -248,7 +248,7 @@ State a mechanism-declaration comparison only when its predicate is defined and 
 | conservative extension | Adds exact operation declarations or declared optional arguments or results while preserving the meanings, application predicates, identity and extent rules, laws, and admitted uses of inherited operations. |
 | equivalence | Supplies an explicit mapping that preserves and reflects the selected operation declarations, argument and result meanings, binding meanings, application predicates, identity and extent rules, and law and admission structure. |
 
-These rows test declaration content; they do not admit a relation kind or occurrence. If the corpus already admits the exact comparison relation, use its direct pattern. If one case-specific comparison claim is enough, use A.6.RCD disposition 2 only after its exact claim subject, constructor, endpoint facts, and preservation facts are recoverable; otherwise return A.6.RCD's exact missing-substrate or missing-governor result. When the same predicate must be reused across cases, apply A.6.RCD's reusable predicate-definition branch. If a downstream use instead needs comparison occurrences with their own identity and no relation kind has been admitted, return `missing-governor[mechanism-comparison-occurrence]`; a label such as *refinement* or the adjective *direct* does not fill that gap.
+These rows test declaration content; they do not admit a relation kind or occurrence. If the corpus already admits the exact comparison relation, use its direct pattern. If one case-specific comparison claim is enough, use A.6.RCD disposition 2 only after its exact claim subject, constructor, endpoint facts, and preservation facts are recoverable; otherwise preserve the applicable A.6.RCD result, distinguishing missing case information from a missing governor or derivation substrate and from a factually unsupported claim. When the same predicate must be reused across cases, apply A.6.RCD's reusable predicate-definition branch. If a downstream use instead needs comparison occurrences with their own identity and no relation kind has been admitted, return `missing-governor[mechanism-comparison-occurrence]`; a label such as *refinement* or the adjective *direct* does not fill that gap.
 
 In every branch, identify the exact endpoint mechanism epistemes, their effective `ReferenceScheme` values, claim scope, comparison predicate, and preserved and changed semantic content. Changed C.2.1 identity discriminators identify another episteme. If historical continuation matters to the comparison or receiving use, test the separate `EpistemeEditionRelation(earlierMechanismEpisteme, laterMechanismEpisteme)` under C.2.1. The two endpoint epistemes remain distinct participants; refinement, extension, equivalence, a shared name, or a later date establishes neither that relation nor one continuing episteme.
 
@@ -262,7 +262,7 @@ When a quotient, product, categorical morphism or similar construction serves as
 
 `U.Mechanism` is already an episteme. A second episteme that explains, summarizes, or compares it is a C.2.1 meta-description whose `EntityOfConcernRef` identifies the mechanism episteme. A diagram, equation set, program, or table is a representation governed by A.6.3 and A.6.3.RT when representation transition matters. An E.24.PUB publication occurrence makes one selected episteme edition available for its declared audience and use. An independently identified physical or digital carrier bears the particular expression under `PublicationExpressionBearingRelation`. When that expression conforms to a selected reusable publication form, it also witnesses `PublicationFormBearingRelation`; the same expression must witness any form-mediated expression claim used with it to establish availability.
 
-A grouping of several mechanism epistemes and realizations may be selected as a `U.Structure` or shown through a `U.View` when that structure or view is current. The grouping does not admit another root kind by itself.
+A grouping of several mechanism epistemes and realizations may be selected as a `U.Structure` or shown through a `U.View` when that structure or view is current.
 
 #### A.6.1:4.10 - Use progressive explicitness
 
@@ -274,7 +274,7 @@ Choose the explicitness needed by the current question:
 - One particular application and its exact argument or result bindings are identified only when a downstream claim asserts that the application occurred or that one exact value participated or was returned.
 - A mechanism-realization relation occurrence is explicitly individuated only when another claim relies on that occurrence identity.
 
-These conditions govern different objects. If entries, branches, returns, or stops form one reusable structure, apply A.22.CGUS only after its A.22 identity, local loci, selected relations and constraints, and potential continuations are recoverable.
+These conditions govern different objects. If the receiving question concerns available continuations and their conditions, use the ordinary branch of A.22.CGUS. Continue to formal qualification only when the receiving use needs structure identity or replayable results.
 
 #### A.6.1:4.11 - Change the exact object that changed
 

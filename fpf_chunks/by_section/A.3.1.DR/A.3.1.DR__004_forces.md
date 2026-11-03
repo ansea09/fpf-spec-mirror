@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__004_forces.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:3 — Forces"
-line_start: 10085
-line_end: 10094
+line_start: 10081
+line_end: 10090
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"

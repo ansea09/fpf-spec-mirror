@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.8.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.2.8 — U.Commitment — Individual Duties to Act or Refrain"
-line_start: 8134
-line_end: 8465
+line_start: 8131
+line_end: 8462
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -192,7 +192,7 @@ CommitmentAssertion:
 
 Before a commitment occurrence has been independently identified, express whether the commitment obtains as an ordinary C.2.1 assertion with an independently identified EntityOfConcern. Designate the relation kind and its participants in the claim content, and retain the failed or unknown obtaining condition. Do not invent a commitment occurrence or actual instituting-basis reference. Keep assertion polarity separate from the reliance judgement; unavailable evidence alone establishes no negation.
 
-Use the record to describe the relation. `evidenceClaimRefs` and carriers support reliance; they are not participants or instituting facts unless the identified constitutive rule makes one such fact current and the pattern for that subject supplies its test. If adjudication is intended, cite the exact evidence claims, criteria, and carriers. If no adjudication is claimed, do not invent an audit apparatus.
+Use the record to describe the relation. `evidenceClaimRefs` and carriers support reliance; they are not participants or instituting facts unless the identified constitutive rule requires the particular item in that role and the pattern for that subject supplies its test. If adjudication is intended, cite the exact evidence claims, criteria, and carriers. If no adjudication is claimed, do not invent an audit apparatus.
 
 When a later use must compare incompatible commitments, keep the commitments unchanged and carry the needed conflict inputs in one local claim:
 

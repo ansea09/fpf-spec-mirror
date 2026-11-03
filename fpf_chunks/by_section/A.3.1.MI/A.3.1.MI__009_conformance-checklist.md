@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__009_conformance-checklist.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:7 — Conformance Checklist"
-line_start: 11406
-line_end: 11421
+line_start: 11404
+line_end: 11419
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -25,7 +25,7 @@ keywords:
 
 - [ ] Claimed target subjects, the admitted introduction Method or candidate introduction account, any relied-on description, any separate WorkPlan, performed Work and relied-on relations are distinguished. A description is classified as `U.MethodDescription` only when A.3.2 establishes membership for an admitted Method.
 - [ ] Every organizational claim names the organizational System, selected structure, constituent organization, or relation organization actually relied on.
-- [ ] Every observation position names its maintained result and particular claim or edition, receiving Agent or governing pattern when current, and next action or stop.
+- [ ] For each decision-relevant observation, state what it supports and the next action or stop; name a maintained result, particular claim or edition, and receiving Agent or governing pattern when that return is current.
 - [ ] Introduction Work is stated as an attempt intended to establish named conditions, with any applicable authorization basis kept separate. A failed attempt remains recordable as Work.
 - [ ] Decision-relevant capability keeps its A.2.2 basis and currentness, or returns the missing basis. Adequate existing capability without a needed change requires no development result. Only a needed capability-change claim consumes a compatible development result or returns its missing/stale basis with a next governing action or stop; irrelevant capability detail is omitted.
 - [ ] Assignment, permission, authority, access, use, enactment, and other relations name predicates, participants, scope, and obtaining basis.
@@ -35,5 +35,5 @@ keywords:
 - [ ] A relied-on causal or contribution claim uses C.28 and preserves supported and unsupported uses, validity threat and residual uncertainty. An observational result carries only the qualification needed for its receiving use.
 - [ ] The comparison records the action supported by the available evidence, or the alternatives that remain unresolved and the reason they cannot yet be distinguished. Any further observation or probe has a useful obtainable answer worth its full burden and feasible conditions.
 - [ ] A.3.1.FT receives a bounded fit or transfer question, C.36.MC a bounded population-level cultural question, and A.3.1.MV/A.15.8.MS/A.15.2 a supported correction, refinement or alternative tied to the particular maintained claim or edition it affects. A.3.2.DE receives a needed correction of MethodDescription or candidate-Method-account content and preserves its status; other content returns to its own episteme or a local stop.
-- [ ] The result claims no adoption lifecycle, maturity ladder, phase gate, general effectiveness, causal superiority, or authority outside its boundary.
+- [ ] The introduction account and any causal, cultural or authorization conclusions retain their own grounds and scope.
 

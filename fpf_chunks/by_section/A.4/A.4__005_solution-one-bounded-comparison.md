@@ -6,12 +6,12 @@ section_id: "A.4:4"
 section_title: "Solution - One Bounded Comparison"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__005_solution-one-bounded-comparison.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:4 — Solution - One Bounded Comparison"
-line_start: 13603
-line_end: 13623
+line_start: 13599
+line_end: 13619
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -31,7 +31,7 @@ keywords:
 ### A.4:4 - Solution - One Bounded Comparison
 
 1. **Select the subject, account and use.** Identify the System, the design account edition and the decision this comparison must inform. Keep the System's identity under its own rule and the account's identity under C.2.1. Choose the relevant account claim rather than treating the entire design as one test.
-2. **Recover the operative criterion.** State the target or expected behavior, relevant conditions, units and tolerances, and the rule for comparing them with actual facts. Identify what force the account claim has:
+2. **Recover the operative criterion.** State the target or expected behavior, relevant conditions, any units and tolerances required by the comparison, and the rule for comparing the account claim with actual facts. Identify what force the account claim has:
 
    | Account claim | What the comparison can establish |
    |---|---|
@@ -47,5 +47,5 @@ keywords:
 
 An observation may involve dated measurement Work. Recover that Work under A.13 and A.15.1 only when the receiving claim needs the occurrence; identify the result and its relied-on evidence under their own patterns. A new record does not establish a target change. A.3.4 governs any actual before/during/after change claim, and A.12 distinguishes actual acting and changed participants when internal action is asserted.
 
-Changed account claim content identifies a different C.2.1 episteme. An obtaining edition relation is a further claim with its own conditions, including any actual branching. Neither an account edit nor overlapping operation and design work decides the System's continuity. Particular practices may define design and operating regimes where useful; these regimes do not partition every holon's existence.
+Changed account claim content identifies a different C.2.1 episteme. An obtaining edition relation is a further claim with its own conditions, including any actual branching. Neither an account edit nor overlapping operation and design work decides the System's continuity. Particular practices may define design and operating regimes where useful.
 

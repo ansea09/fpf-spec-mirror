@@ -6,12 +6,12 @@ section_id: "A.6:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__007_bias-annotation.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:6 — Bias-Annotation"
-line_start: 14198
-line_end: 14203
+line_start: 14185
+line_end: 14190
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
   - "signature and mechanism declarations"
   - "six-way authority-word branch"
   - "undermines auditability"
-  - "“MUST” appears inside Definition: blocks"
+  - "“MUST” is used as an obligation operator inside a Definition: block"
 ---
 
 ### A.6:6 - Bias-Annotation

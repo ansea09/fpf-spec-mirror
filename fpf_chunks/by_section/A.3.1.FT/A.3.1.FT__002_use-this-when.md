@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__002_use-this-when.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:0 — Use This When"
-line_start: 10823
-line_end: 10845
+line_start: 10819
+line_end: 10841
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"
@@ -22,11 +22,11 @@ keywords:
 
 ### A.3.1.FT:0 - Use This When
 
-Use this pattern when actual Work has supplied evidence in one or more situations and a practitioner must decide whether an admitted Method fits a named receiving situation, where its applicability stops, or whether a supported claim transfers from a source situation family. Begin with the source and receiving situations and the claim whose truth could change between them.
+Use this pattern when actual Work has supplied evidence in one or more situations and a practitioner must decide whether an admitted Method fits a named situation, where its applicability stops, or whether a supported claim transfers from a source situation family. Begin with the required result and the conditions of the situation in which the Method will be used. For a transfer question, also name the source situation and the claim whose support is being carried into the receiving situation.
 
-The first useful result is a bounded comparison of the source and receiving situations. It names the Method or candidate status, source and receiving situation families, actual Work used as evidence, matched and changed conditions, holder capabilities, Systems and direct relations, adaptations, domain results, semantic changes, evidence reach, and the bounded result or missing premise.
+The first useful result is a bounded assessment of fit, an applicability limit, or transfer, with the evidence used and any missing premise. Identify the Method or candidate status, the situation and required result, relevant actual Work, adaptations and evidence reach. Where the question requires comparison, also distinguish source and receiving situations, matched and changed conditions, and material differences in capability, support, domain results and burdens.
 
-Here *fit* and *transfer* are Plain practice names for two different decisions. Fit concerns a Method and a bounded situation or situation family. Transfer concerns whether a supported claim survives a stated move from source to receiving conditions. Neither word creates a universal FPF predicate or statistical generalization.
+Here *fit* and *transfer* are Plain practice names for two different decisions. Fit concerns a Method and a bounded situation or situation family. Transfer concerns whether a supported claim survives a stated move from source to receiving conditions.
 
 Do not use this pattern to infer practical worth, causal contribution, general effectiveness, capability, or cultural adoption. A Method can fit and still be a poor choice against current alternatives. C.11.MV owns that comparison. An account is never enacted, and a candidate whole remains a candidate even when separately admitted Work succeeds.
 

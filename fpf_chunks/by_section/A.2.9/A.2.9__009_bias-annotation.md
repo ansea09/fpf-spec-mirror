@@ -6,12 +6,12 @@ section_id: "A.2.9:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__009_bias-annotation.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:6 — Bias-Annotation"
-line_start: 9087
-line_end: 9094
+line_start: 9084
+line_end: 9090
 dependencies:
   - "A.10"
   - "A.13"
@@ -24,7 +24,6 @@ dependencies:
   - "A.6.C"
   - "A.7"
   - "F.6"
-  - "U.Method"
   - "U.Work"
 keywords:
   - "A.13-qualified actual performer"
@@ -49,6 +48,5 @@ keywords:
 The account favors explicit performers, recognizable communicative functions and evidence suited to a named use. Its limits are:
 
 * Exact occurrence and institutional claims need the performer and evidence basis, which adds modeling effort; an ordinary receiving-use judgement can remain conversational.
-* Institutional effects are separately referenceable, preserving the distinction between the act and its enduring consequences.
 * Recognition covers the functions needed by the use; the account does not provide a full model of intention, sincerity or perlocutionary psychology.
 

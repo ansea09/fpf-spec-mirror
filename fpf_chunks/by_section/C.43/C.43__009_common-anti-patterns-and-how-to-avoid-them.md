@@ -6,12 +6,12 @@ section_id: "C.43:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 90731
-line_end: 90740
+line_start: 90788
+line_end: 90797
 dependencies:
   - "A.12"
   - "C.11"

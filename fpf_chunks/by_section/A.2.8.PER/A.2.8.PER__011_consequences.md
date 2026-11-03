@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__011_consequences.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:9 — Consequences"
-line_start: 8754
-line_end: 8757
+line_start: 8751
+line_end: 8754
 dependencies:
   - "A.10"
   - "A.13"
@@ -35,5 +35,5 @@ keywords:
 
 ### A.2.8.PER:9 - Consequences
 
-Permission becomes inspectable without being inflated into a universal authorization ontology. Practitioners can distinguish a tentative frame-relative result from an enduring grant and from actual exercise, and can stop on unresolved conflict without letting a gate or permit display choose precedence. The cost is recording enough policy, identity, scope, window, and eligibility detail to support the intended use.
+Permission becomes inspectable. Practitioners can distinguish a frame-relative result from an enduring grant and from actual exercise, and can stop on unresolved conflict without letting a gate or permit display choose precedence. The cost is recording enough policy, identity, scope, window, and eligibility detail to support the intended use.
 

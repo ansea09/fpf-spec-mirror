@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__013_sota-echoing.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:11 — SoTA-Echoing"
-line_start: 11444
-line_end: 11457
+line_start: 11442
+line_end: 11455
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -31,7 +31,7 @@ keywords:
 | Proctor et al., [Outcomes for Implementation Research](https://doi.org/10.1007/s10488-010-0319-7) | keep acceptability/rejection, appropriateness/fit, feasibility, enactment/fidelity, burden/cost, reach, and sustainment as decision-relevant observation positions distinct from the outside result. | The source categories do not establish FPF health-service/client kinds, cultural adoption or a compulsory outcome set or stage order. Use only positions that can change the bounded decision. |
 | Stirman, Baumann, and Miller, [FRAME](https://doi.org/10.1186/s13012-019-0898-y) | for a Method-related target, record what changed, when, planned/proactive or unplanned/reactive status, decision-maker and applicable authority, affected level, reason and conditions, and whether Method semantics, description, support, or local use changed. | Fidelity labels do not establish Method identity or admission, and healthcare intervention kinds do not become FPF kinds. Return each target modification to its particular maintained claim or local decision. |
 | Miller et al., [FRAME-IS](https://doi.org/10.1186/s13012-021-01105-3) | distinguish modifications to the introduction strategy from modifications to the Method-related target; for the strategy, record the changed component or function, nature, timing, participants in the modification decision, rationale, and scope. | Healthcare intervention and implementation-strategy kinds are not imported as FPF kinds; neither Method admission nor a compulsory reporting module follows. Record the introduction strategy's status and keep its description, any WorkPlan, performed Work, and affected maintained result separate. |
-| Damschroder et al., [updated CFIR](https://doi.org/10.1186/s13012-022-01245-0) | ask which context and determinant observations can explain anticipated or actual success or failure. | These questions establish no universal determinant inventory, success score, maturity ladder or obtaining FPF relation. |
+| Damschroder et al., [updated CFIR](https://doi.org/10.1186/s13012-022-01245-0) | ask which context and determinant observations can explain anticipated or actual success or failure. | Select context and determinant questions for the receiving use; establish any claimed FPF relation through its own predicate and grounds. |
 | Skivington et al., [2021 MRC complex-intervention framework](https://doi.org/10.1136/bmj.n2061) | identify key uncertainty, context interaction, refinement, stakeholder perspective, and comparative resource/outcome consequence; permit repeat, reconsider, or stop. | The framework does not impose a phase sequence or gate on this Method. The source neither admits FPF Methods and Work nor supplies causal support; C.28 remains conditional. |
-| Moore et al., [MRC process-evaluation guidance](https://doi.org/10.1136/bmj.h1258), and Jolles et al., [core functions and forms](https://dworakpeck.usc.edu/sites/default/files/2020-10/Core%20Functions%20and%20Forms%20of%20Complex%20Health%20Interventions.pdf) | connect the proposed explanation to observations of implementation, mechanisms, context and outcomes; distinguish a contribution's function from its concrete form. | These are developed comparison sources, not a universal mechanism inventory. Recover the subject-specific function and the evidence for its preservation; an observed benefit does not confirm the originally proposed mechanism. |
+| Moore et al., [MRC process-evaluation guidance](https://doi.org/10.1136/bmj.h1258), and Jolles et al., [core functions and forms](https://dworakpeck.usc.edu/sites/default/files/2020-10/Core%20Functions%20and%20Forms%20of%20Complex%20Health%20Interventions.pdf) | connect the proposed explanation to observations of implementation, mechanisms, context and outcomes; distinguish a contribution's function from its concrete form. | Recover the subject-specific function and the evidence for its preservation; an observed benefit does not confirm the originally proposed mechanism. |
 

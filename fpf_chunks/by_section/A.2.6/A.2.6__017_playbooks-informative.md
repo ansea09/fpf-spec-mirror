@@ -6,12 +6,12 @@ section_id: "A.2.6:16"
 section_title: "Playbooks (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__017_playbooks-informative.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:16 — Playbooks (Informative)"
-line_start: 7338
-line_end: 7390
+line_start: 7335
+line_end: 7387
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 * **Make membership conditions explicit.** Name the parameters, ranges and standard editions that affect membership. Ordinary prose can express the predicate when its meaning is recoverable; name `gammaTime` only when time affects membership.
 * **Factor common conditions.** Use Refit to normalize units and factor shared predicates; do not widen by stealth.
 * **Partition support lines.** If you plan a **SpanUnion**, document independence up front.
-* **Publish supported scope.** Add slices as support appears (ΔG+).
+* **Publish supported scope.** When widening is needed, add only supported slices (ΔG+).
 * **Prepare needed translations.** When the receiving use needs a translation, establish the F.9 Bridge, then state the proposed use with its direction, mapping rule, tolerated loss and evidence plan. Establish the §7.5 reliance condition before using the mapping.
 
 #### A.2.6:16.3 - Minimal DSL snippet for scope blocks (illustrative)
@@ -74,7 +74,7 @@ receivingGuards:
 
 **Rules.**
 * **P1 (Expansion).** Profiles are macros: guards **MUST** expand them to explicit predicates before evaluating `Scope covers TargetSlice`.
-* **P2 (Edition).** Profiles are editioned. A changed predicate expression is a content change for a carrier that references the profile even when the exact scope extension is preserved; a changed extension additionally identifies another scope value.
+* **P2 (Edition).** Profiles are editioned. A changed predicate expression changes the profile declaration even when the exact scope extension is preserved; a changed extension additionally identifies another scope value.
 * **P3 (No stealth widen).** A profile update MUST NOT implicitly widen a carrier’s published scope; ΔG+ must be explicit in that carrier.
 * **P4 (Translation awareness).** If a profile expands to predicates whose exact local senses require translation, name the obtaining F.9 Bridge and the separate affirmative C.2.1 claim for that translation's direction, rule, and tolerance. The receiving guard must recover the current A.10 or B.3 reliance branch; a different label, scheme, profile, or Bridge Card alone is insufficient.
 * **P5 (No hidden context container).** A profile expands to predicates; it is not a context object, scope pattern, or additional scope kind.

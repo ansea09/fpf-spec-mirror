@@ -6,12 +6,12 @@ section_id: "A.2.3:4"
 section_title: "Solution - Define U.PromiseContent as the promise-content episteme"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__006_solution-define-u-promisecontent-as-the-promise-content-episteme.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.2.3 — U.PromiseContent — Promised Outcomes and Acceptance Criteria"
   - "A.2.3:4 — Solution - Define U.PromiseContent as the promise-content episteme"
-line_start: 5632
-line_end: 5833
+line_start: 5629
+line_end: 5830
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -169,7 +169,7 @@ UnitOfDeliverySpec : U.Episteme ::= {
 }
 ```
 
-The selector admits only Work occurrences for which the promise's delivery and acceptance predicates are satisfied. For a cross-promise aggregate using one Work occurrence, or when rework must not add another delivery unit, `dedupeKeyRef` or the cited counting policy states the intended boundary. Separate per-promise counts may use the default below. A measurement Method, its description, evidence-admissibility rule, evidence epistemes, and evidence-use relations appear only when the count depends on a measurement reading or relied-on evidence. Pure counting needs none of that apparatus.
+The selector admits only Work occurrences for which the promise's delivery and acceptance predicates are satisfied. For a cross-promise aggregate using one Work occurrence, or when rework must not add another delivery unit, `dedupeKeyRef` or the cited counting policy states the intended boundary. Separate per-promise counts may use the default below. When the count depends on a measurement reading, identify the measurement Method and the specification values needed to interpret that reading. Cite a MethodDescription only when the calculation or interpretation uses claims in that edition. Retain the evidence-admissibility conditions, evidence epistemes and evidence-use relations required for reliance on the count.
 
 If `unitOfDelivery` is absent, the local default is one unit per obtaining `PromiseContentFulfilmentRelation` occurrence. A separately governed charging relation may consume the resulting quantity but does not define this counting rule.
 
@@ -198,14 +198,14 @@ This mini-schema is a recommendation only: it does not admit another U-kind. An 
 
 #### A.2.3:4.2 - What `U.PromiseContent` is **not**
 
-* **Not a provider:** use an assignment occurrence and its declared species under `U.SystemRoleAssignment`. The occurrence identifies the provider System and assigned local kind; the species defines those participant meanings and the assigned-kind domain.
+* **Not a provider:** identify the provider; when the current claim is its system-role assignment, use an assignment occurrence and its declared species under `U.SystemRoleAssignment`. The occurrence identifies the provider System and assigned local kind; the species defines those participant meanings and the assigned-kind domain.
 * **Not an individual deontic commitment:** that is one obtaining `U.Commitment` under A.2.8 whose actual duty bearer, exact referents, constitutive rule, instituting basis, scope, and validity are established independently.
 * **Not an access point or bearer:** addressable *service*, server, desk, endpoint, process, component, application, host, or cluster wording first goes to A.6.P:4.11a. Recover whether it denotes code or another episteme, a Method, a Work occurrence or ordinary run, an exact bearer or access-providing arrangement, or another directly governed object; apply A.1 or A.1.SCR only when a separate repaired claim depends on an exact recovered entity being a system.
 * **Not a method or method description:** the semantic way of doing is `U.Method`; a recipe or other episteme describing that way is `U.MethodDescription`.
 * **Not delivery work or its description:** performed delivery is `U.Work`; a ticket, case description, or incident description is a separately governed episteme about planned or performed work.
 * **Not a work schedule:** use `U.WorkPlan` under A.15.2 when the content coordinates intended Work.
 * **Not a capability:** capability is the provider System's ability to perform a work family or produce a result class under declared conditions and attained bounds. A.2.2 separates that proposition from its assertion, qualification and fit. Delivery may depend on several qualified ability claims about the provider or other holders.
-* **Not its scope or use interval:** `U.ClaimScope` states where the promise claims hold, `U.WorkScope` states where a provider capability can deliver work, and `PromiseUseIntervalSlot` states when one `PromiseContentUse` occurrence obtains. These are three different values.
+* **Not its scope or use interval:** `U.ClaimScope` states where the promise claims hold, `U.WorkScope` states the work conditions covered by the provider's capability claim, and `PromiseUseIntervalSlot` states when one `PromiseContentUse` occurrence obtains. These are three different values.
 
 #### A.2.3:4.3 - Promise content, delivery work, and evaluation work
 
@@ -228,7 +228,7 @@ This mini-schema is a recommendation only: it does not admit another U-kind. An 
 >
 > `U.PromiseContent` states the promise. An A.2.8 `U.Commitment` relation may refer to that content; its duty-bearer position is filled by one System or separately identified party. The provider-assignment species defines holder and assigned-kind meanings. Delivery and evaluation follow the §4.3 route: A.13 identifies who actually performed the Work, and A.15.1 admits the dated occurrence independently. The diagram shows an F.6 edge only when this case also needs the exact assignment under which that Work was performed. Evidence relations support selected delivery-work facts and post-work states. The evaluation operation carries its result binding, while C.2.1 identifies any verdict episteme and A.15.PROD states any identity-inception claim.
 >
-> This informative diagram is a publication-side representation, not new ontology. It prevents two category errors: treating `U.PromiseContent` as the addressable access system, and treating a publication-side list or diagram of service senses as a relation occurrence that replaces the direct relations shown here.
+> This informative diagram is a publication-side representation, not new ontology.
 ```mermaid
 flowchart LR
   SC["Promise content<br/>(U.PromiseContent episteme)"]

@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__008_conformance-checklist.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:7 — Conformance Checklist"
-line_start: 118467
-line_end: 118476
+line_start: 118524
+line_end: 118533
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

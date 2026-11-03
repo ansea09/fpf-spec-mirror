@@ -6,12 +6,12 @@ section_id: "C.32.LCA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__006_archetypal-grounding.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:5 — Archetypal Grounding"
-line_start: 76871
-line_end: 76940
+line_start: 76926
+line_end: 76995
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"

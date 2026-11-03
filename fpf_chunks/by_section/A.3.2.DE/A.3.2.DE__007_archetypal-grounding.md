@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__007_archetypal-grounding.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:5 — Archetypal Grounding"
-line_start: 11863
-line_end: 11906
+line_start: 11859
+line_end: 11902
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -24,9 +24,9 @@ keywords:
 
 #### A.3.2.DE:5.1 - Stop at the Candidate Whole
 
-`C-EC-Release-v2` is a prospective account of a possible release-coordination whole. Its intended result, alternatives A, B2, and R, guards, authority boundaries, confidentiality, reversibility, and D0 stop make it useful, but the whole is not admitted as a `U.Method`. A.3.2.DE may improve those claims for a selection or trial-planning use; it does not return a `U.MethodDescription` for that candidate whole.
+`C-EC-Release-v2` is a prospective account of a possible release-coordination whole. It proposes waiting for signed supplier evidence before software integration, or integrating from a versioned provisional edition and reconciling it with signed evidence before safety closure. It also specifies recovery after failed closure, authority boundaries, confidentiality, reversibility and stops. The Method identity of this proposed whole remains unresolved; `B.1.5.CM:5` gives the full case.
 
-The improved account remains useful: users can compare A and B2 before integration and plan a bounded trial with recovery R after a failed B2 closure. Every downstream use keeps the account's candidate status.
+Improve the claims required for selection or trial planning and retain the unresolved Method-identification condition. The result remains a candidate account.
 
 #### A.3.2.DE:5.2 - A Bounded Description of an Admitted Constituent Method
 

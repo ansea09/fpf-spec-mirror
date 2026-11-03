@@ -6,12 +6,12 @@ section_id: "C.32.LCA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__001_intro.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:intro — Intro"
-line_start: 76624
-line_end: 76629
+line_start: 76679
+line_end: 76684
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"

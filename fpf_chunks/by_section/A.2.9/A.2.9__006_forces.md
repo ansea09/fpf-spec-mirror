@@ -6,12 +6,12 @@ section_id: "A.2.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__006_forces.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:3 — Forces"
-line_start: 8849
-line_end: 8860
+line_start: 8846
+line_end: 8857
 dependencies:
   - "A.10"
   - "A.13"
@@ -24,7 +24,6 @@ dependencies:
   - "A.6.C"
   - "A.7"
   - "F.6"
-  - "U.Method"
   - "U.Work"
 keywords:
   - "A.13-qualified actual performer"
@@ -54,5 +53,5 @@ keywords:
 | Multi-party reality    | Many real boundaries are multiparty (protocols, organizations); dyadic “speaker-hearer” is too narrow.                  |
 | Multi-function reality | One utterance can carry multiple recognizable functions; “one act = one force” is often false.                          |
 | Separation discipline  | Must preserve **kind** ≠ **actual act occurrence** ≠ **SpeechActRecord** ≠ **utterance description** ≠ **carrier or trace**. |
-| Use proportionality     | A receiving-use judgement must remain useful without a full occurrence record, while audit or institutional reliance still needs exact Work, assignment, Method, taxonomy, policy, and evidence. |
+| Use proportionality     | A receiving-use judgement must remain useful without a full occurrence record, while audit or institutional reliance still needs exact Work, assignment, Method, taxonomy, and evidence, plus a policy when recognition or institutional force depends on it. |
 

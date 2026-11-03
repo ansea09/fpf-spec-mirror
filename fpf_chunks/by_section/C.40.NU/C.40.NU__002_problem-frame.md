@@ -6,12 +6,12 @@ section_id: "C.40.NU:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__002_problem-frame.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:1 — Problem Frame"
-line_start: 87086
-line_end: 87095
+line_start: 87141
+line_end: 87150
 dependencies:
   - "C.17"
   - "C.18"

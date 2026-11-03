@@ -6,12 +6,12 @@ section_id: "C.16.RM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__010_consequences.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:9 — Consequences"
-line_start: 59626
-line_end: 59631
+line_start: 59681
+line_end: 59686
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"

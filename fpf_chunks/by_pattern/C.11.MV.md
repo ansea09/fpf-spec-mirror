@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.MV.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
-line_start: 58114
-line_end: 58361
+line_start: 58169
+line_end: 58416
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"

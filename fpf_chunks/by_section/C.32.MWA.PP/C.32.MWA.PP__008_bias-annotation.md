@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__008_bias-annotation.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:6 — Bias-Annotation"
-line_start: 79481
-line_end: 79500
+line_start: 79536
+line_end: 79555
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"

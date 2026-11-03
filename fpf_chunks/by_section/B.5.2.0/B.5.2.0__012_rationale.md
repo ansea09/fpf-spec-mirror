@@ -6,12 +6,12 @@ section_id: "B.5.2.0:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__012_rationale.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:10 — Rationale"
-line_start: 50035
-line_end: 50037
+line_start: 50088
+line_end: 50090
 dependencies:
   - "A.16"
   - "A.16.0"

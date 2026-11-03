@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 10968
-line_end: 10977
+line_start: 10966
+line_end: 10975
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"
@@ -27,6 +27,6 @@ keywords:
 | “It worked in automotive, so it transfers to health services.” | Recover evidence for the same Method under the receiving conditions. Tests of another Method in health services do not establish this transfer. |
 | “Project 32 proves the Method failed.” | Identify the representation or applicability claim and the missing receiving evidence first. |
 | “We tailored it, therefore it transferred.” | Check whether reusable semantics changed; if so, return a variant question. |
-| “The workshop participants liked it, so transfer is established.” | Preserve immediate self-report and return missing long-term Work and result evidence. |
-| “The candidate was enacted successfully.” | Admit the Work and enacted constituent Methods, not the candidate account. |
+| “The workshop participants liked it, so transfer is established.” | Return only what the immediate self-report supports; identify any missing Work, result or time evidence required by the transfer claim. |
+| “The candidate was enacted successfully.” | Admit the Work and enacted Methods, not the candidate account. |
 

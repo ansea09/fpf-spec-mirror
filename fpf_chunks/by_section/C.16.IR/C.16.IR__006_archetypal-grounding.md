@@ -6,12 +6,12 @@ section_id: "C.16.IR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__006_archetypal-grounding.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:5 — Archetypal Grounding"
-line_start: 59309
-line_end: 59360
+line_start: 59364
+line_end: 59415
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

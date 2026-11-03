@@ -6,12 +6,12 @@ section_id: "A.2.6:18"
 section_title: "Extended FAQ (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__019_extended-faq-informative.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:18 — Extended FAQ (informative)"
-line_start: 7427
-line_end: 7457
+line_start: 7424
+line_end: 7454
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -43,7 +43,7 @@ Declare each supported serial scope (`S₁, S₂, …`) and publish **SpanUnion(
 Formalization alone does not widen scope. Widening requires a changed extension and direct support for every added slice under §7.6; changing only the expression can preserve the same scope.
 
 **Q4. What is the difference between Work scope and SLOs?**
-**Work scope** is **where** the capability can deliver; **measures** within the guard are **what** it promises there (SLO targets). Both are required at use time (WG‑1..3).
+**Work scope** names the work conditions covered by the holder's ability claim; **SLO targets** name required performance levels. At use time, check scope coverage and compare the claimed performance bounds with those targets, together with the required qualification check (WG‑1..3).
 
 **Q5. Can we assign numeric coverage to G?**
 Not normatively. G is set‑valued. You MAY attach an **informative**, explicitly declared **`CoverageMetric(G)`** (e.g., a proportion under a pinned policy) to aid **R** assessment, but guards use set membership and **`CoverageMetric(G)` MUST NOT replace `G`**.

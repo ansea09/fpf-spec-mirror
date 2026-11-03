@@ -6,12 +6,12 @@ section_id: "E.18.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__001_intro.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:intro — Intro"
-line_start: 111041
-line_end: 111051
+line_start: 111098
+line_end: 111108
 dependencies:
   - "A.15"
   - "A.15.PROD"

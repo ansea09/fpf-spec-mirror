@@ -6,12 +6,12 @@ section_id: "B.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__002_problem-frame.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:1 — Problem frame"
-line_start: 46300
-line_end: 46313
+line_start: 46286
+line_end: 46299
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -28,7 +28,7 @@ Use this pattern when an engineer or researcher has a question, surprising resul
 
 When work continues without a question because its outcomes are treated as ordinary, B.5.PI provides an earlier entry. An ordinary handover or demonstration can yield a question or an early cue without an already recognized anomaly. Use that contribution here when reasoning can take it further.
 
-**First useful move.** State what you want to understand or make possible. Ask whether an available result already answers that question. If it does not, name the missing result and try one operation that could obtain it. Return what that operation established and the next question, if one remains.
+**First useful move.** State what you want to understand or make possible. Ask whether an available result already answers that question. If it does not, name the missing result and try one operation that could obtain it. Return what that operation established and the next question, if one remains. If the needed distinction or possible continuation is itself unknown, §4.1.2 explains how to develop that basis from accessible material before comparing inquiries.
 
 For example: “We need the highest component temperature, but our model reports a mean. Two states with the same mean can have different maxima. Next, determine which temperature differences this arrangement admits.” This already redirects the inquiry before another model fit.
 

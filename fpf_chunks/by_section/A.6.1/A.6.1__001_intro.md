@@ -6,12 +6,12 @@ section_id: "A.6.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__001_intro.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:intro — Intro"
-line_start: 16679
-line_end: 16688
+line_start: 16666
+line_end: 16674
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -58,5 +58,4 @@ keywords:
 
 **Builds on.** A.6.0 for signature identity and content, C.2.1 for episteme identity, and A.2.6 for claim scope.
 
-**Coordinates with.** A.6.REL for relation occurrences, A.6.RCD for the lightest honest comparison claim, A.6.5 for RelationSignature SlotSpec discipline, C.3 for local operation ValueKinds, A.1 for holon recognition, A.3.1 for Methods, A.15.1 for performed Work, F.9 for exact cross-scheme sense correspondence, C.2.1 for the separate claim that one Bridge suits one bounded use, A.10 for ordinary reliance on that claim, B.3 only for an actual named assurance claim, CHR for selected `CHR:ReferencePlane` values, A.1.1 and A.22 for a selected `BoundedModelUseStructure`, C.29 for mathematical-lens use, E.20 for mechanism introduction, E.24.PUB for publication, A.22.CGUS for a constraint-governed potential-continuation structure and its separate case results, and G.11 for currentness.
 

@@ -6,12 +6,12 @@ section_id: "C.39.WA:End"
 section_title: "C.39.WA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__014_c-39-wa-end.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:End — C.39.WA:End"
-line_start: 83522
-line_end: 83523
+line_start: 83577
+line_end: 83578
 dependencies:
   - "C.20"
   - "C.39.QR"

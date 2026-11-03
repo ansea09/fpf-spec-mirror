@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__001_intro.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:intro — Intro"
-line_start: 11782
-line_end: 11786
+line_start: 11778
+line_end: 11782
 dependencies:
   - "A.3.2"
   - "C.37"

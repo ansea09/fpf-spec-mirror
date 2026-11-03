@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:5"
 section_title: "Archetypal Grounding - SSFD Workplace Projects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__007_archetypal-grounding-ssfd-workplace-projects.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:5 — Archetypal Grounding - SSFD Workplace Projects"
-line_start: 10522
-line_end: 10549
+line_start: 10518
+line_end: 10545
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -29,14 +29,14 @@ The published paper supplies report evidence. A local application admits a parti
 
 #### A.3.1.WT:5.1 - Preserve the Status Branch
 
-Before using the replay, establish whether SSFD is an admitted Method for the current FPF use. If it is, each supported project occurrence may be tested for its own obtaining `enactsMethod` relation. If it is not, admit the workplace Work independently, retain the SSFD account as a candidate, and name only separately admitted constituent Methods as enacted. The report statement “used SSFD” does not perform either admission automatically.
+Before using the replay, establish whether SSFD is an admitted Method for the current FPF use. If it is, each supported project occurrence may be tested for its own obtaining `enactsMethod` relation. If it is not, admit the workplace Work independently, retain the SSFD account as a candidate, and name the independently admitted Methods whose enactment relations obtain. The report statement “used SSFD” does not perform either admission automatically.
 
 #### A.3.1.WT:5.2 - Representative and Discriminating Slices
 
 | Slice | Reported project facts used | Evidence returned | Stop retained |
 | --- | --- | --- | --- |
-| Project 11 | The report concerns functional analysis of a new by-wire steering system and records 48 failure modes for four system functions, 44 new requirements and design rules, 44 test cases for individual systems, and 33 requirements and test cases for the overall system. | One bounded application account for checking whether description, representation, and support claims were usable in that project situation, plus the reported results and burdens available from the source. | Do not infer that this project caused or preceded Project 32, that every programme participant had the same capability, or that the reported benefits came from SSFD alone. |
-| Project 32 | The report exposes difficulty representing the relation between a closed-loop sensor and controller. | A discriminating representation difficulty for A.3.1.CC and an unlike-situation comparison for A.3.1.FT. A.3.1.CC uses C.37 and the direct representation governor for one action; when several unlike Method-related actions are current, it checks the affected action and cross-use dependency in the complete C.37.MP profile defined in C.37.MP:4.2. The report establishes neither selection result by itself. | Do not turn the difficulty into general Method failure or claim that Project 11 supplies the counterfactual. |
+| Project 11 | The report concerns functional analysis of a new by-wire steering system and records 48 failure modes for four system functions, 44 new requirements and design rules, 44 test cases for individual systems, and 33 requirements and test cases for the overall system. | One bounded application account for checking whether description, representation, and support claims were usable in that project situation, plus the reported results and burdens available from the source. | Do not infer that every programme participant had the same capability or that the reported benefits came from SSFD alone. |
+| Project 32 | The report exposes difficulty representing the relation between a closed-loop sensor and controller. | A discriminating representation difficulty for A.3.1.CC and an unlike-situation comparison for A.3.1.FT. A.3.1.CC uses the direct representation governor for the affected action and C.37 when a selection question remains; when a Method-specific cross-use profile is needed, it checks the affected action and cross-use dependency under C.37.MP:4.2. The report establishes neither selection result by itself. | Do not turn the difficulty into general Method failure or claim that Project 11 supplies the counterfactual. |
 | 41-report evidence set | The review identifies 95 examples of evidenced individual benefits across business results, process improvement, and product-development-team capability improvement, while separating direct and indirect contribution. | Bounded report and review evidence for later comparison of results, burdens, and evidence strength in C.11.MV. | Counts and source classifications do not establish causality, universal superiority, transfer, or current capability for every participant. |
 
 The useful A.3.1.WT result is therefore not “SSFD works”. It is a set of reported workplace-project accounts, situation and support conditions, observed representation difficulties, reported results and burdens, evidence-source qualifications, and explicit gaps for three separate later judgments.

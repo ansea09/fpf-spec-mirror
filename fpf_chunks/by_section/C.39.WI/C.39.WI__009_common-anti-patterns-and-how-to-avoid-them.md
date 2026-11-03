@@ -6,12 +6,12 @@ section_id: "C.39.WI:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 84154
-line_end: 84165
+line_start: 84209
+line_end: 84220
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"

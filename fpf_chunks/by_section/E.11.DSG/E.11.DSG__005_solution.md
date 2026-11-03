@@ -6,12 +6,12 @@ section_id: "E.11.DSG:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.DSG/E.11.DSG__005_solution.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "E.11.DSG — Architectural Reference"
   - "E.11.DSG:4 — Solution"
-line_start: 104861
-line_end: 104979
+line_start: 104918
+line_end: 105036
 dependencies:
   - "C.2.1"
   - "C.2.P"

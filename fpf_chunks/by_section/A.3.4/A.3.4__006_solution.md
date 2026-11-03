@@ -6,12 +6,12 @@ section_id: "A.3.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__006_solution.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:4 — Solution"
-line_start: 13061
-line_end: 13212
+line_start: 13057
+line_end: 13208
 dependencies:
   - "A.1"
   - "A.10"
@@ -138,7 +138,7 @@ When the use needs the following contributions, keep their different objects and
 | facts about the changed subject | relation occurrences and characteristic-state facts that actually hold | each subject pattern defines the participants, obtaining rule, and identity |
 | reusable change semantics | one predicate-definition episteme when repeated use needs the same rule | A.3.4 or the subject pattern states how the listed base facts satisfy that predicate |
 | transformation assertion | one C.2.1 episteme asserting that the transformation or base facts obtain | C.2.1 identifies claim content, exact EntityOfConcern, and effective reference scheme; scope and viewpoint remain neighboring relations |
-| representation | formula, morphism, path, graph, diagram, trace, tuple, or state-plane expression | C.29 governs correspondence to independently recovered objects |
+| representation | a representation of the identified change or subject, such as a formula, diagram, or trace | C.29 governs correspondence to independently recovered objects |
 | evidence or evaluation result | an episteme used to support or evaluate the assertion | the measurement, evaluation, evidence, provenance, or assurance pattern defines or constrains that use |
 
 A verbal predicate does not turn every obtaining relation occurrence into a transformation. Assignment, availability, installation, and temporal order can obtain without change. Conversely, one actual transformation may require several relation facts without being identical to any one of them.
@@ -161,7 +161,7 @@ For each neighboring claim, identify the object it needs and state that object's
 | dynamics model | `A.3.3` governs the episteme |
 | evidence, measurement, evaluation, or assurance | apply the measurement, evaluation, evidence, provenance, or assurance pattern that states the support or judgment relation |
 | description, view, publication, form, or carrier | C.2.1, `E.17`, and `E.24.PUB` keep the episteme, view membership, publication occurrence, publication form, and carrier distinct |
-| `input`, `output`, `result`, `outcome`, `deliverable`, or `handoff` | name the participant and the relation actually claimed: method declaration, planned work, actual work, transformation, evaluation, commitment, delivery, acceptance, transfer, or receiving work. The source word is not a kind or universal slot. |
+| `input`, `output`, `result`, `outcome`, `deliverable`, or `handoff` | name the participant and state the relation actually claimed, using its governing pattern. The source word by itself identifies neither a kind nor a universal transformation slot. |
 
 A declared post-state is part of a transformation description. An actual post-boundary state or changed entity is a fact about the subject. When wording such as *result* carries a separate claim, make its participants and relation recoverable from that use. Acceptance, delivery, publication, and downstream effect remain separate. `U.Transformation` has no generic `ResultRef` or `OutputConditionOrPortRefs` slot.
 
@@ -199,7 +199,7 @@ Keep these objects separate:
 - when claim content changes, the earlier specification episteme and the later specification episteme are distinct C.2.1 identities; `EpistemeEditionRelation` relates them only when its historical-continuation predicate obtains;
 - dated editing or review is a `U.Work` occurrence admitted under `A.15.1`;
 - edition succession alone establishes no transformation of one continuing episteme. Open A.3.4 only for a separately continuing subject—such as a physical or digital carrier independently identified under its domain identity rule (with expression bearing governed by `E.24.PUB`) or a claim-bearing constituent organization—after naming its boundary, before/during/after facts, and continuity rule; otherwise stop without a transformation claim;
-- if revision `U.Work` first constitutes the later episteme, open a separate `A.15.PROD` first-existence question: name the exact `productIdentitySpecification` episteme, the named applicability predicate or filled local claim that applies it to the candidate basis, subject context, and boundary, the `identityClosingWork`, and the work-to-change and change-to-identity predicates or local compound claims. If that specification continues an earlier specification, state the separate C.2.1 `EpistemeEditionRelation` only when its historical-continuation predicate obtains; without that relation, treat it as a non-continuing replacement and evaluate its applicability independently. Return the applicable `A.6.RCD` stop for either named connection that lacks its required basis;
+- if revision `U.Work` first constitutes the later episteme, open a separate `A.15.PROD` first-existence question: name the exact `productIdentitySpecification` episteme, the named applicability predicate or filled local claim that applies it to the candidate basis, subject context, and boundary, the `identityClosingWork`, and the work-to-change and change-to-identity predicates or local compound claims. If the product-identity specification is claimed to continue an earlier identity-rule specification, test their separate C.2.1 `EpistemeEditionRelation`. When that relation is unestablished, leave continuity unresolved and evaluate the later identity-rule specification's applicability independently; call it non-continuing only when the applicable continuity rule supports that conclusion. Return the applicable `A.6.RCD` stop for either named connection that lacks its required basis;
 - a plant change, safety evaluation, assurance claim, gate decision, and publication are separate objects and relations.
 
 If only the proposed wording and proof are available, do not assert a project-world plant transformation. Different claim content gives two epistemes; test their `EpistemeEditionRelation` when historical continuation is claimed. Assert an A.3.4 specification-side transformation only for a separately continuing carrier or constituent organization with its boundary, before/during/after facts, and continuity rule. If the question instead concerns the later episteme's first existence, use `A.15.PROD` and stop when either direct connection lacks a basis. The proof can support an assertion only through its evidence or derivation use.

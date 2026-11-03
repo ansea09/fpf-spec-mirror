@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__005_forces.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:3 — Forces"
-line_start: 10858
-line_end: 10869
+line_start: 10854
+line_end: 10865
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"

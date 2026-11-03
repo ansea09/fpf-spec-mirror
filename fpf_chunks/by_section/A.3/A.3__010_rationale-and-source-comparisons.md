@@ -6,12 +6,12 @@ section_id: "A.3:9"
 section_title: "Rationale and Source Comparisons"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__010_rationale-and-source-comparisons.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:9 — Rationale and Source Comparisons"
-line_start: 9329
-line_end: 9341
+line_start: 9325
+line_end: 9337
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -41,5 +41,5 @@ When an agentic claim is current, active-inference and free-energy work motivate
 **Provenance and FAIR packaging (2016→).**
 FAIR, RO-Crate, OpenLineage, and ML Metadata motivate exact, machine-actionable provenance and evidence links when a receiving use relies on lineage, editions, runs, or jobs. A.3 therefore preserves those links as separately governed relations rather than making `{authority, justification, provenance}` constitutive fields of SystemRoleAssignment or Work. ([Nature][7], [researchobject.org][8], [SAGE Journals][9], [openlineage.io][10], [GitHub][11], [arXiv][12])
 
-Together, these lines of work support **explicit actor-side participants and, for performed Work, each performer System's A.13 basis and conditional F.6 attribution**, **method-description/Method/Work separation**, **directly governed participation and deltas**, and **traceable local interpretation**. They do not establish that every actual change has a performer, that broad physical agentivity supplies `TransformerRole`, or that coupling alone is `U.Work`.
+The source contributions above inform A.3's design. Its performer basis comes from A.13, Work admission from A.15.1, Method and MethodDescription distinctions from A.3.1/A.3.2, and conditional assignment-bound attribution from F.6. A.3.4 separately governs actual change, including cases without a performer.
 

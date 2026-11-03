@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.3.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "D.3 — Describe an Ethical Conflict Across Levels or Scopes"
-line_start: 91894
-line_end: 92120
+line_start: 91951
+line_end: 92177
 dependencies:
   - "A.1"
   - "A.10"

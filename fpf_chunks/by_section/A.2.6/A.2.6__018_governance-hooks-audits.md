@@ -6,12 +6,12 @@ section_id: "A.2.6:17"
 section_title: "Governance Hooks & Audits"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__018_governance-hooks-audits.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:17 — Governance Hooks & Audits"
-line_start: 7391
-line_end: 7426
+line_start: 7388
+line_end: 7423
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -37,7 +37,7 @@ keywords:
 
 When a scope-aware decision needs durable audit evidence, its C.2.1 result episteme may name:
 
-* **Using object and exact scope.** The claim-bearing episteme, capability, or publication object designates or uses the exact scope.
+* **Using object and exact scope.** The claim-bearing episteme, qualified holder-ability claim, or publication object designates or uses the exact scope.
 * **Exact target slice.** Designate the independently identified slice with its complete declared selector schema and values. Bind the full slice as `targetSlice`; put the selector resolutions and translation inputs needed by this evaluation in `interpretationBasis`. Include `gammaTime` in the schema only when that temporal selector is part of the exact slice being evaluated.
 * **Evaluation outcome.** Record `true`, `false`, or `unknown`, plus the evaluation method or work occurrence when replay needs it.
 * **Separate guard outcomes.** Record work measures, qualification windows, formality, or freshness only when the receiving use checks them; none is membership.

@@ -6,7 +6,7 @@ section_id: "A.1.CSD:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.CSD/A.1.CSD__003_problem-frame.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.1.CSD — Discovering Systems That May Bear Consequences"
   - "A.1.CSD:1 — Problem Frame"
@@ -40,7 +40,7 @@ keywords:
 
 A proposed change can affect Systems beyond its proposer's chosen boundary, for example through material transfers, information exchange or dependencies in the work being performed. Some paths already obtain; others are plausible claims awaiting observation.
 
-Find enough actual Systems or intended System referents whose changed states or characteristics can alter the named decision or investigation. Apply the ordinary A.1 criterion to each candidate; visibility and the ability to answer an inquiry do not determine systemhood or consequence relevance.
+Find enough actual Systems or intended System referents whose changed states or characteristics can alter the named decision or investigation. For an actual candidate whose systemhood matters to the receiving decision or investigation, use A.1.SCR or reuse its existing recognition basis; visibility and the ability to answer an inquiry do not determine systemhood or consequence relevance.
 
 Scale words do not solve the search. A constituent, containing System, neighboring whole, and later reidentified whole are relevant only through their actual construction, delimitation, direct relations, or a genuine whole-reidentification question. Consequences on several sides remain separate even when a domain calculation later compares them.
 

@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__002_use-this-when.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:0 — Use This When"
-line_start: 11015
-line_end: 11040
+line_start: 11013
+line_end: 11038
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"
@@ -27,7 +27,7 @@ Use this pattern when a Method has been adapted, branched, recombined, or revise
 
 For a first pass, state what reusable way of doing changed, if any; and, if none did, which object changed, which maintained result and exact claim or edition it affects, and what to maintain, reconsider, or stop. Use the fuller account only when later selection, reuse, comparison, or retirement needs it.
 
-The first useful result is an account of the variant and its derivation. It names the parent Method or candidate, the proposed child and status, preserved semantics, changed semantics, derivation basis, applicable situation claim, supporting and defeating evidence, descriptions and support editions, current selection uses, currentness, retirement condition, and the next decision. If the visible change is not a Method variant, the account instead names the changed object, the separately governed maintained result, the exact claim or edition affected, and the next maintenance, reconsideration, or stop action.
+The first useful result is an account of the variant decision and any derivation needed for the maintained use. A fuller account, when needed, names the parent Method or candidate, the proposed child and status, preserved semantics, changed semantics, derivation basis, applicable situation claim, available supporting and defeating evidence, relied-on descriptions and support editions, current selection uses, currentness, retirement condition, and the next decision. If the visible change is not a Method variant, the account instead names the changed object, the separately governed maintained result, the exact claim or edition affected, and the next maintenance, reconsideration, or stop action.
 
 Here *variant* is Plain practice wording for a Method whose reusable semantics differ in a way relevant to a named use while its derivation from another Method remains useful. The label alone does not admit a `U.Method`, establish provenance, or prove fit, worth, reuse, or superiority.
 

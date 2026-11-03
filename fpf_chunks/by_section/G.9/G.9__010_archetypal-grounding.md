@@ -6,12 +6,12 @@ section_id: "G.9:8"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__010_archetypal-grounding.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:8 — Archetypal grounding"
-line_start: 131721
-line_end: 131734
+line_start: 131778
+line_end: 131791
 dependencies:
   - "A.19"
   - "A.2.6"

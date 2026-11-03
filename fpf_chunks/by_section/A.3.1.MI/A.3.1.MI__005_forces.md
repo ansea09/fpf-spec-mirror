@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__005_forces.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:3 — Forces"
-line_start: 11252
-line_end: 11263
+line_start: 11250
+line_end: 11261
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -29,7 +29,7 @@ keywords:
 | Intervention clarity | Separate intended changes make learning possible, while one programme label can hide those changes. |
 | Capability | New Work may need development, while A.3.1.MI must not smuggle training in as capability. |
 | Authority and participation | A governed change needs its applicable authorization and actual performers, while sponsorship and attendance are weaker facts. |
-| Time | Later observation is needed, while waiting too long can make sources and alternatives stale. |
+| Time | Observation timing must fit the receiving decision, while delay can make sources and alternatives stale. |
 | Contribution | A decision needs a plausible account, while causal isolation is often unavailable. |
 | Revision locality | A defeated claim should reopen its owner and affected dependents, while bundled rollout invites whole-programme repair. |
 

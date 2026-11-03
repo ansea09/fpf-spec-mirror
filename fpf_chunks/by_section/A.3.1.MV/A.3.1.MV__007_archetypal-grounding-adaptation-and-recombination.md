@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:5"
 section_title: "Archetypal Grounding - Adaptation and Recombination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__007_archetypal-grounding-adaptation-and-recombination.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:5 — Archetypal Grounding - Adaptation and Recombination"
-line_start: 11116
-line_end: 11143
+line_start: 11114
+line_end: 11141
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"
@@ -25,7 +25,7 @@ keywords:
 
 The Halogen design-practice case reports conscious cyclic evolution and adaptation of Methods across safety-critical projects, practitioner skill sets, and organization of design activity. Use the evidence to recover proposed semantic changes, local Work deviations, situation conditions, and lineage candidates. The source concerns one 52-person multidisciplinary firm and does not supply a universal variant family or automatic Method admission.
 
-When reusable semantics can be recovered and a Method is independently admitted, maintain the variant with its derivation and applicability. When interviews, observations, or documents show only local departures or cannot distinguish changed Method semantics from changed support, capability, or organization, maintain a candidate lineage or return the missing semantic basis.
+When reusable semantics can be recovered and a Method is independently admitted, maintain the variant with its derivation and applicability. When the recovered change is only a local Work departure, retain the Work evidence and return the non-variant disposition. When the material leaves it unresolved whether Method semantics or support, capability, or organization changed, maintain a candidate lineage only if the proposed reusable semantic differences and derivation can be stated; otherwise return the missing semantic basis.
 
 The sustainable-design study reports activity- and mindset-level observations from separate workshops using The Natural Step, Whole System Mapping, or Biomimicry. Companies chose workshops, order varied, and participants could differ, so the publication supplies neither one current-alternative decision nor matched Work across the three Method families. Those immediate participant reports can motivate recombination candidates, but a preferred component set is not an admitted hybrid Method. Record the proposed preserved and changed semantics, parent contributions, situations and evidence limits; do not inherit worth or transfer from the source Methods.
 

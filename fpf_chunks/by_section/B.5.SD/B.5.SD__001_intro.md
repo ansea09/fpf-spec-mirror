@@ -6,12 +6,12 @@ section_id: "B.5.SD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.SD/B.5.SD__001_intro.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "B.5.SD — Construct a Useful Answer through Substantive Discussion"
   - "B.5.SD:intro — Intro"
-line_start: 50764
-line_end: 50769
+line_start: 50817
+line_end: 50822
 dependencies:
   - "A.3.1"
   - "B.5.RA"

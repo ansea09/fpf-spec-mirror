@@ -6,7 +6,7 @@ section_id: "A.1.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__006_solution.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)"
   - "A.1.1:4 — Solution"
@@ -126,7 +126,7 @@ Scope delimitation is not another direct relation kind here. The `U.ClaimScope` 
 | `ModelExpressionCoherencePredicateSlot` | `ModelExpressionCoherencePredicate` | `ByValue` | The admitted five-part criterion value; its label, evaluator, result, or evidence cannot substitute for it. |
 | `ModelExpressionCoherenceReferenceSchemeSlot` | `EpistemeInterpretationScheme` (C.2.1:4.1.2) | `ByValue` | The shared scheme or the receiving comparison basis used by the admitted bridged branch. |
 
-R is the abstract rule-collection entity individuated under C.2.1:4.1.1 and classified by the entity ValueKind in :4.1.2. That entity, rather than its description or designation, is the actual participant. Carrying its designation `ByValue` supplies the rules directly; a document or name for them is insufficient. Range membership does not establish scheme equality, the required correspondence, or P. Changing R changes the participant tuple; changing only its expression while preserving all operative rules does not.
+R is the abstract rule-collection entity individuated under C.2.1:4.1.1 and classified by the entity ValueKind in :4.1.2. That entity, rather than its description or designation, is the actual participant. Carrying its designation `ByValue` supplies the rules directly; a document or name for them is insufficient. Membership in EpistemeInterpretationScheme does not establish scheme equality, the required correspondence, or satisfaction of the declared coherence criterion. Changing R changes the participant tuple; changing only its expression while preserving all operative rules does not.
 
 **Well-formedness constraint `WF-A1.1-COH`.** `ModelExpressionCoherenceRelation(M,E,P,R)` obtains exactly when either (a) `R` equals the C.2.1 effective schemes of both epistemes, or (b) `P` resolves every differing source and receiving F.17 `SchemeSenseCell` pair and names an obtaining F.9 `Bridge` for each required correspondence; and, after that semantic branch is established, the fixed predicate value `P` returns true for the fixed claim contents of `M` and `E` under `R`. An unresolved cell, missing Bridge, shared spelling, common label, Bridge Card, or mere interpretability establishes no bridged branch.
 

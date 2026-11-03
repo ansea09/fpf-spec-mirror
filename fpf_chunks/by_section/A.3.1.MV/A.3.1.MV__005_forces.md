@@ -6,12 +6,12 @@ section_id: "A.3.1.MV:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MV/A.3.1.MV__005_forces.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.MV — Construct and Maintain a Method Variant"
   - "A.3.1.MV:3 — Forces"
-line_start: 11053
-line_end: 11064
+line_start: 11051
+line_end: 11062
 dependencies:
   - "A.3.1"
   - "A.3.1.MI"
@@ -31,5 +31,5 @@ keywords:
 | Evidence | Fit and worth results should follow the right semantics, while evidence often bundles Method, support, capability, and organization. |
 | Currentness | Users need current entries and editions, while retirement from one use must not erase history. |
 | Candidate continuity | Proposed changes need traceability, while detailed lineage can launder candidate status. |
-| Recombination | Components can inspire new Methods, while untested hybrids do not inherit component admission or worth. |
+| Recombination | Components can inspire new Methods, while hybrids do not inherit component admission or worth. |
 

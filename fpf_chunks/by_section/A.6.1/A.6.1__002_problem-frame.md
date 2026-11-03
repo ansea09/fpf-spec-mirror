@@ -6,12 +6,12 @@ section_id: "A.6.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__002_problem-frame.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:1 — Problem frame"
-line_start: 16689
-line_end: 16708
+line_start: 16675
+line_end: 16694
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -56,7 +56,7 @@ An engineer needs a reusable declaration of operations, their typed argument and
 
 Use this pattern when the working question is:
 
-> What operation family is being declared, which laws govern it, and under which claim scope, time, selected `CHR:ReferencePlane`, and mechanism conditions may its operations be used?
+> What operation family is being declared, which laws govern it, and under which claim scope, time and mechanism conditions may its operations be used, including a selected `CHR:ReferencePlane` when that distinction is current?
 
 **Primary governed object.** One claim-bearing episteme being identified as `U.Mechanism`. Inside that episteme's C.2.1 identity, its exact `EntityOfConcernRef` identifies the declared operation family. `U.Mechanism` is a dependent durable U-kind governed through the `U.Signature` identity and content settlement; it adds operation and admission semantics to the reusable declaration. The episteme and the declared operation family remain distinct: the episteme carries the declaration, while `EntityOfConcernRef` identifies the family.
 

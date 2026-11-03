@@ -6,12 +6,12 @@ section_id: "A.3.1.DR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.DR/A.3.1.DR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.DR — Recover Method Contributions from Documentary Sources"
   - "A.3.1.DR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 10207
-line_end: 10216
+line_start: 10203
+line_end: 10212
 dependencies:
   - "A.3.1.MR"
   - "A.3.1.QM"
@@ -28,5 +28,5 @@ keywords:
 | Everything actionable becomes a Method candidate. | Require a reusable way-of-doing account; keep support, capability, evidence, and authority under their direct kinds. |
 | The package is reduced to a procedure. | Recover rationale, framing, intended use, inputs/results, support, evidence, and authority only where they change the receiving decision. |
 | The whole package is copied for provenance. | Attach a bounded dependency slice to each Method/account and retain a source return to the package edition. |
-| Unknown relation is inferred from adjacency. | Record the relation as unresolved and state what observation or source would settle it. |
+| Unknown relation is inferred from adjacency. | Record the relation as unresolved and name any known source or observation that could settle it. |
 

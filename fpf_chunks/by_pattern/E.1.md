@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.1.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "E.1 — Vision & Mission"
-line_start: 92526
-line_end: 92638
+line_start: 92583
+line_end: 92695
 dependencies:
   - "E.2"
 keywords:

@@ -6,12 +6,12 @@ section_id: "C.39:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__005_solution.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:4 — Solution"
-line_start: 82779
-line_end: 82899
+line_start: 82834
+line_end: 82954
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"
@@ -101,7 +101,7 @@ The following remedies concern recurring failures of construction or connection.
 | Success relies on assistance omitted from the account | Separate what a trial revealed from what it supplied or changed; include the necessary preparation and support in the arrangement being explained. | C.40.CU:4.3–4.6. When the same holder has a qualified prior result or current capability claim but now fails or transfers poorly, E.23.CAE distinguishes support, applicability, access, expression, adaptation and enactment difficulties from capability change; the differential can remain unresolved. |
 | A replacement helps one use and breaks another | Compare it under each affected use and joint conditions; retain, restrict, adapt or reject it accordingly. | B.1.5.RS:4 |
 | Basic operations and purpose are known, but intermediate coordination cannot be performed | Distinguish a missing explanation from unavailable acquisition, access or support. Construct the former; develop or obtain the latter at the scale of the gap. | B.1.5.EW:4; E.23.CDI for capability development; C.36.RP:4 for continuing availability |
-| A branch returns a result but leaves the next action unclear | Explain which condition it answers, leaves open or contradicts; supply a conditional return, narrower use or affordable stop. | C.40.CD:4.4–4.6; C.40 for material retention and continuation |
+| A branch returns a result but leaves the next action unclear | State whether the result shows the next action's condition to hold or fail, or leaves it unknown. Name the next action or the earlier operation to revisit, or explain the narrower use or justified stop. | C.40.CD:4.4–4.6; C.40 for material retention and continuation |
 | The same words hide different objects or relations | Recover the actual input, output and claim; repair the distinction whose consequences decide the join. An indication needs an interpreting relation before it can support a judgement. | A.7.1; B.1.5 for the resulting composition |
 | A chain hides alternatives or imposes an unwarranted order | Recover the possible continuations and their conditions; prescribe order only where the Method or a dependency requires it. | A.22.CGUS; B.1.5 for order-sensitive composition |
 | A successful reconstruction remains private | Explain its reusable actions, reasons, limits and a changed use for the intended next practitioner, choosing a suitable description form. | C.39:4.5–4.6 |

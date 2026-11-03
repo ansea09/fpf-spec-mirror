@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.0.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
 line_start: 2270
@@ -145,7 +145,7 @@ Co‑evolve declared `{environment, method}` sets; publish **coverage/regret** a
 
 **Show‑Epi - Evidence synthesis (U.Episteme).**
 *Frame.* A living review compares rival **causal identification** methods (e.g., IV vs. DiD vs. RCT‑adjacent surrogates) across policy domains.
-*Glossary in action.* `U = external‑validity gain @ F/G‑declared lanes`, `C = ethics & data‑licence constraints`, `N = dissimilarity in **ClaimGraph** transformations`, `D_P = coverage of identification niches in the archive`. `ReferencePlane = episteme`. Illumination/coverage stays **report‑only telemetry**; selection returns a declared retained-set result or portfolio-publication view of methods per niche. *(Publish UTS rows only when **F.17**'s naming and reuse conditions hold; cite obtaining Bridges for cross‑domain semantic correspondence, with calibration and loss‑model pins when used or required under **G.Core:4.2.3**; edition‑pin the Descriptor/Distance defs used or required by the QD use.)*
+*Glossary in action.* `U = external‑validity gain @ F/G‑declared lanes`, `C = ethics & data‑licence constraints`, `N = dissimilarity in **ClaimGraph** transformations`, `D_P = coverage of identification niches in the archive`. `ReferencePlane = episteme`. Illumination/coverage stays **report‑only telemetry**; selection retains alternative methods as an unranked `Shortlist`, with the relevant identification niches stated for each method. When the receiving use calls for publication, publish a typed portfolio view of that result. *(Publish UTS rows only when **F.17**'s naming and reuse conditions hold; cite obtaining Bridges for cross‑domain semantic correspondence, with calibration and loss‑model pins when used or required under **G.Core:4.2.3**; edition‑pin the Descriptor/Distance defs used or required by the QD use.)*
 
 ### A.0:6 - Bias-Annotation
 
@@ -266,7 +266,7 @@ The current set/space reading terms should read plainly as follows:
   - the ordinary/common head of one optional interpretive-view family laid over one already-declared substrate-bearing line or one source set or one set result whose substrate remains recoverable
   - it helps the reader see the current inspection question; it does not replace the base source set or silently invent one new substrate
 - `DeclaredSubstrateAtlasView`
-  - one richer optional interpretive view that keeps several declared views, spaces, mappings, or qualifiers visible together
+  - one richer optional interpretive view that shows how several declared views, spaces, mappings or qualifications relate within the same substrate
   - use it only when the current reading truly needs that composite interpretation, and say why thinner interpretation is not enough; it is not the default meaning of palette, front, archive, shortlist, or candidate set
 - `TypedSetViews`
   - one explicit list of which declared set-view heads the current atlas/support reading is holding together
@@ -289,7 +289,7 @@ The current set/space reading terms should read plainly as follows:
 - If the question is “Which space are we searching or navigating?”, look for `SearchSpaceRef`.
 - If the question is “Which space are we judging outcomes in?”, look for `OutcomeSpaceRef`.
 - If the question is “What optional overlay helps me read several declared views or set results together?”, look for `DeclaredSubstrateInterpretiveView`.
-- If that overlay also keeps several declared views, spaces, mappings, or qualifiers together, it is the richer `DeclaredSubstrateAtlasView`.
+- Use `DeclaredSubstrateAtlasView` when answering the named inspection question requires showing how several declared views, spaces, mappings or qualifications relate within the same substrate.
 - If the atlas/support reading must keep several declared set views visible at once, look for `TypedSetViews`.
 - If the overlay depends on one explicit source-to-outcome mapping, look for `OutcomeMapRef`.
 - If the overlay depends on one metric, neighborhood, or reachability discipline inside one declared space, look for `SpaceMetricRef`.

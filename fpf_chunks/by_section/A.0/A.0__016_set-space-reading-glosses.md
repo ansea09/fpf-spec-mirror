@@ -6,7 +6,7 @@ section_id: "A.0:QF.2a"
 section_title: "Set/space reading glosses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__016_set-space-reading-glosses.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.2a — Set/space reading glosses"
@@ -69,7 +69,7 @@ The current set/space reading terms should read plainly as follows:
   - the ordinary/common head of one optional interpretive-view family laid over one already-declared substrate-bearing line or one source set or one set result whose substrate remains recoverable
   - it helps the reader see the current inspection question; it does not replace the base source set or silently invent one new substrate
 - `DeclaredSubstrateAtlasView`
-  - one richer optional interpretive view that keeps several declared views, spaces, mappings, or qualifiers visible together
+  - one richer optional interpretive view that shows how several declared views, spaces, mappings or qualifications relate within the same substrate
   - use it only when the current reading truly needs that composite interpretation, and say why thinner interpretation is not enough; it is not the default meaning of palette, front, archive, shortlist, or candidate set
 - `TypedSetViews`
   - one explicit list of which declared set-view heads the current atlas/support reading is holding together

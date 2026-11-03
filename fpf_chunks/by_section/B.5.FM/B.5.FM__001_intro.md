@@ -6,12 +6,12 @@ section_id: "B.5.FM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__001_intro.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:intro — Intro"
-line_start: 48481
-line_end: 48486
+line_start: 48534
+line_end: 48539
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

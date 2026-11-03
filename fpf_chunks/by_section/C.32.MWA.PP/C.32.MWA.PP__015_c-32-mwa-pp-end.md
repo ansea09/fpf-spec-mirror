@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:End"
 section_title: "C.32.MWA.PP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__015_c-32-mwa-pp-end.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:End — C.32.MWA.PP:End"
-line_start: 79633
-line_end: 79634
+line_start: 79688
+line_end: 79689
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"

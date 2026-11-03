@@ -6,12 +6,12 @@ section_id: "C.39:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39/C.39__007_bias-annotation.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.39 — Find and Develop a Way to Obtain a Result"
   - "C.39:6 — Bias-Annotation"
-line_start: 82973
-line_end: 82976
+line_start: 83028
+line_end: 83031
 dependencies:
   - "A.22.CGUS"
   - "A.3.1"

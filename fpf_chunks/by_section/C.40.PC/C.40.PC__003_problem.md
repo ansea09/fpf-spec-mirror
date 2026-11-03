@@ -6,12 +6,12 @@ section_id: "C.40.PC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.PC/C.40.PC__003_problem.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.40.PC — Construct a Worthwhile Problem and Proposed Contribution"
   - "C.40.PC:2 — Problem"
-line_start: 87299
-line_end: 87306
+line_start: 87354
+line_end: 87361
 dependencies:
   - "A.15.9"
   - "A.2.3"

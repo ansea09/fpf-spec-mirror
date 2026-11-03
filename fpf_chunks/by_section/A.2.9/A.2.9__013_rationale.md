@@ -6,12 +6,12 @@ section_id: "A.2.9:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__013_rationale.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.2.9 — U.SpeechAct — Communicative Work and Its Intended Use"
   - "A.2.9:10 — Rationale"
-line_start: 9143
-line_end: 9146
+line_start: 9139
+line_end: 9142
 dependencies:
   - "A.10"
   - "A.13"
@@ -24,7 +24,6 @@ dependencies:
   - "A.6.C"
   - "A.7"
   - "F.6"
-  - "U.Method"
   - "U.Work"
 keywords:
   - "A.13-qualified actual performer"

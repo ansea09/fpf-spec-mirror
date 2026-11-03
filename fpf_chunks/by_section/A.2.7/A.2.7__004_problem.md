@@ -6,12 +6,12 @@ section_id: "A.2.7:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__004_problem.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:2 — Problem"
-line_start: 7678
-line_end: 7688
+line_start: 7675
+line_end: 7685
 dependencies:
   - "A.2"
   - "A.2.1"
@@ -35,7 +35,7 @@ keywords:
 The practitioner needs a reusable relation for a later engineering check, but familiar shorthand collapses four different questions:
 
 1. Can an assignment to one system-role kind satisfy an admission condition written for another?
-2. Are assignments to two system-role kinds incompatible under a stated holder, Work, and time rule?
+2. Are assignments to two system-role kinds incompatible under a stated holder rule, actual-Work or proposed-action identity condition, and temporal test?
 3. Must assignments to a finite set of system-role kinds be present together, and how may holders be allocated?
 4. Does one kind monotonically narrow another, or does the restriction require a different relation?
 

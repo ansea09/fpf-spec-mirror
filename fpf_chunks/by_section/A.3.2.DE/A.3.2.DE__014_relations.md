@@ -6,12 +6,12 @@ section_id: "A.3.2.DE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2.DE/A.3.2.DE__014_relations.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.2.DE — Describe a Method for Its Intended Use"
   - "A.3.2.DE:12 — Relations"
-line_start: 11959
-line_end: 11966
+line_start: 11955
+line_end: 11962
 dependencies:
   - "A.3.2"
   - "C.37"
@@ -26,5 +26,5 @@ keywords:
 - B.1.5.CM can supply an admitted whole or a prospective candidate account. A.3.2.DE preserves the branch it receives.
 - RMP.10 can supply claim content and evidence limits for a candidate account; it does not admit the Method or create the description.
 - C.37.MP consumes A.3.2.DE's current MethodDescription or candidate-account claims only when several unlike named Method-related actions require a Method-specific profile. It returns one complete C.37 claim group per action and a separate result showing how the selections relate: source correspondences, conflicting omissions, edition relations, decisions to keep representations separate, and conditions that require reconsidering several selections. For one action, use C.37 or the pattern that governs it; for another represented entity, use that entity’s governing FPF pattern.
-- `A.15.2`, `A.15.1`, `A.10`, `A.2.2`, `C.29`, and `E.24.PUB` define or constrain the neighboring plan, Work, evidence, capability, representation, and publication claims that A.3.2.DE keeps separate.
+- `A.15.2`, `A.15.1`, `A.10`, `A.2.2`, and `E.24.PUB` define or constrain neighboring plan, Work, evidence, capability and publication claims. `A.6.3.RT` and `A.6.3.RT.OE` govern representation correspondence; `C.29` governs a mathematical lens.
 

@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:End"
 section_title: "A.3.1.MI:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__015_a-3-1-mi-end.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:End — A.3.1.MI:End"
-line_start: 11469
-line_end: 11470
+line_start: 11467
+line_end: 11468
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"

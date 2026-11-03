@@ -6,12 +6,12 @@ section_id: "C.39.MF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__011_consequences.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:9 — Consequences"
-line_start: 83875
-line_end: 83880
+line_start: 83930
+line_end: 83935
 dependencies:
   - "A.15.6"
   - "A.3.1"

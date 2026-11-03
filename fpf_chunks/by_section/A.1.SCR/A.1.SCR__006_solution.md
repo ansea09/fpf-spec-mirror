@@ -6,7 +6,7 @@ section_id: "A.1.SCR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__006_solution.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:4 — Solution"
@@ -86,7 +86,7 @@ Then apply the already admitted `U.System` condition: the whole has an actual ph
 
 After one candidate bearer is recognized, rejected, or left unresolved, use `A.1.CSD` only when the current question is which other Systems may undergo relevant changes and that discovery can change a named decision or investigation. A.1.SCR does not generate the bearer set or qualify consequence paths; it supplies only the load-bearing recognition result or blocker.
 
-These are response forms, not a schema.
+
  Persist a classification assertion or evaluation-result episteme only when another use must inspect or cite it; C.2.1 is then the pattern for that episteme. `true | false | unknown` describes an evaluation and changes no kind extent.
 
 #### A.1.SCR:4.5 - Add only the neighbors used now
@@ -118,7 +118,7 @@ A future SoI or a series of intended instances can likewise be described before 
 
 For a claim about a particular dated Work occurrence, first identify every actual performing System and recover its A.13 core. Independently admit that occurrence under A.15.1 from its performance history, at least one Method actually followed, temporal extent, and at least one locally declared containing-System relation. Apply this branch to the occurrence being asserted, whether it is Work represented on the map or a separately asserted Work of using the map. After admission, add F.6 only when the receiving claim also needs precise assignment-bound attribution through that performer's same obtaining assignment. A Work-only claim may stop after admission.
 
-Infer no project designation from system recognition, affectedness, familiar wording, a system-role label, or shared realization. If the decision needs the unsupported compound project-selection truth, preserve `missing-substrate[project-selection-conjunction]` until one constructor substrate and edition define that claim.
+Infer no project designation from system recognition, affectedness, familiar wording, a system-role label, or shared realization. When a decision needs one compound claim connecting the project designation with independently established Work, change or use facts, apply A.15.6:4.1a. Return `missing-substrate[project-selection-conjunction]` only when the needed operator semantics are unavailable; preserve the designation and direct facts.
 
 #### A.1.SCR:4.8 - Use physical grounding without cross-kind identity
 

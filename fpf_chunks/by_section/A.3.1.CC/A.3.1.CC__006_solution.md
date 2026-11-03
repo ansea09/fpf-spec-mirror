@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__006_solution.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:4 — Solution"
-line_start: 10668
-line_end: 10734
+line_start: 10664
+line_end: 10730
 dependencies:
   - "A.10"
   - "A.15.8.MS"
@@ -31,15 +31,15 @@ When the parts appear locally consistent but the required whole result still has
 
 #### A.3.1.CC:4.1 - Pattern-Use Unfolding
 
-Use steps 4–8 only for the claims and evidence that the named coherence question depends on.
+Use steps 4–8 only for the claims and evidence that the named coherence question depends on. Use steps 10–11 only when the finding warrants a correction; agreement or an unresolved gap can be returned at step 12.
 
 1. **Name the blocked use and possible contradiction.** Identify the reader or decision, the claim needed, its qualification window, and what would count as agreement, contradiction, missing information, or a stop. Do not begin with “verify the Method”.
 2. **Preserve the subject and status branch.** Identify the admitted Method under `A.3.1`, or keep the proposed whole as a candidate account. Keep Work, WorkPlan, description, representation, support, evidence, publication, and structure claims at their current statuses.
 3. **Recover the maintained claim and owner.** Record the claim text or predicate, owning result, edition or occurrence, source or construction basis, intended use, and currentness condition. If ownership cannot be recovered, return `owner-not-recoverable` before editing several carriers.
 4. **Check construction claims at B.1.5.CM.** Test construction requirements, component decisions, operation declarations, and obtaining-relation claims separately. Cite the governing FPF predicate where needed rather than recreating its admission test. A failed construction claim returns to that exact B.1.5.CM result.
 5. **Check MethodDescription claims at A.3.2.DE.** Test coverage, internal consistency, correspondence with admitted Method claims, navigation for the named use, stated evidence limits, omissions, stops, and any declared description-side conformance. Do not make section count or scheme passage a proxy for useful coverage.
-6. **Check representation-use results at the right owner.** For one action, recover its complete representation-use result under C.37 and stop without C.37.MP. For several unlike Method-related actions, recover the [complete C.37.MP profile](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37mp42---record-the-result), including its shared source and separate cross-use result. Test the contradicted action's claim group and whether the profile relation still holds. The direct FPF governor owns view, mathematical-lens, publication, and structure conformance; if a governed result fails, return that lower result and reopen only the affected use result and cross-use relations that actually depended on it.
-7. **Check support results at A.15.8.MS.** Use A.15.8.MS's result distinctions to locate the specific support claim contradicted by the evidence and the result that owns it. Return the repair there; one defeated claim is not a verdict on the whole support configuration.
+6. **Check representation-use results at the right owner.** Start from the affected representation result and its direct governor. Recover a C.37 selection account when the claimed use relies on one or still needs a cross-kind selection account. When the claim concerns a Method-specific organization of several uses, recover the [complete C.37.MP profile](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37mp42---record-the-result), including its shared source and separate cross-use result. Test the affected claim group and any profile relation that depends on it. The direct FPF governor owns view, mathematical-lens, publication, and structure conformance; if a governed result fails, return that lower result and reopen only the affected use result and cross-use relations that actually depended on it.
+7. **Check support results at A.15.8.MS.** Use A.15.8.MS's result distinctions to identify the support claim being checked and the result that owns it. Test that claim against the evidence and return any needed repair there; one defeated claim is not a verdict on the whole support configuration.
 8. **Use trial evidence to check the maintained claim.** From A.3.1.WT, recover the actual Work occurrence, performer, enacted admitted Method, situation, capability and support conditions, direct relations, result, burden, observation source, and evidence reach. Ask which named claim the observation bears on. A success or failure does not by itself identify the owner.
 9. **Classify the finding.** Distinguish: `agreement-within-window`; `contradicted-claim`; `missing-information`; `failed-declared-conformance`; `stale-source-or-edition`; and `owner-not-recoverable`. Do not turn uncertainty into contradiction or a local defect into a whole-Method verdict.
 10. **Select one correction owner.** Return the smallest correction to B.1.5.CM construction, A.3.2.DE description, one direct C.37 use row, one complete C.37.MP Method representation profile, one exact A.15.8.MS result, or the direct governor of a lower representation result. If one observation defeats several independent claims, create separate findings with separate owners; do not copy one vague correction into every upstream result.

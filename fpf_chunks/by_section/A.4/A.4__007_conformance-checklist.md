@@ -6,12 +6,12 @@ section_id: "A.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__007_conformance-checklist.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.4 — Compare a System's Intended Design with Its Operating Conditions"
   - "A.4:6 — Conformance Checklist"
-line_start: 13648
-line_end: 13657
+line_start: 13644
+line_end: 13653
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -36,5 +36,5 @@ keywords:
 | **CC-A.4.2** | Distinguish normative target, descriptive prediction and applicability condition; recover the comparison rule. | Prevent a failed target test from silently becoming an applicability or revision decision. |
 | **CC-A.4.3** | Use comparable actual facts with the required conditions, temporal reference, units and tolerances, or state the missing premise. | Give fit and discrepancy their warranted scope. |
 | **CC-A.4.4** | Return the bounded comparison before any separately selected adaptation. | Preserve a useful answer without compulsory change. |
-| **CC-A.4.5** | Keep account identity/edition, actual Work, target change, System continuity and response authority under their direct rules. | Allow overlapping activity and branching accounts without a universal phase or predecessor law. |
+| **CC-A.4.5** | Keep account identity/edition, actual Work, target change, System continuity and response authority under their direct rules. | Allow overlapping activity and branching accounts. |
 

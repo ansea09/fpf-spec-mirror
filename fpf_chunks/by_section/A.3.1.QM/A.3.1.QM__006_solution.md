@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__006_solution.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:4 — Solution"
-line_start: 10299
-line_end: 10329
+line_start: 10295
+line_end: 10325
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"
@@ -35,9 +35,9 @@ Qualify one subject at a time against the bounded receiving use. Preserve status
 2. **Bind the use.** State the receiving Work or result, situation family, scope, time window, non-negotiable criteria, acceptable variation, and decision that will consume the qualification.
 3. **Recover the individual contribution.** Name the input, result or preserved condition, procedure or invariant as far as known, applicability, and important source meaning. Do not credit the subject with another Method's result.
 4. **Check attributable conditions.** Inspect the conditions relevant to this contribution: timing and burden attributable to this subject; performer capability; support and provider access; authority or responsibility; evidence; and source or transfer limits.
-5. **Test local connections only.** Check an input/result handoff, schema correspondence, or adapter feasibility when it can be supported independently. Record its scope and failure case.
+5. **Test local connections only.** Check an input/result handoff, schema correspondence, or adapter feasibility when it can be assessed independently of a whole synthesis. Record its scope and any known failure condition relevant to the receiving use.
 6. **Return the truthful branch.** An identified Method is qualified or not qualified for the bounded use. For a not-qualified result, distinguish a failed criterion from an insufficient basis to judge it. A candidate account is retained or excluded *as an account*, with unresolved identification conditions unchanged. A local connection is supported, unsupported, or unresolved.
-7. **Choose the stop.** Stop after one usable Method, one retained account, or several independently usable subjects when no whole question remains. Enter C.32.MWA.PP only when a several-structure choice can change the decision.
+7. **Choose the stop.** Stop when the individual qualification or local-connection result is sufficient for the receiving decision and no whole question remains. Enter C.32.MWA.PP only when a several-structure choice can change the decision.
 
 #### A.3.1.QM:4.2 - Record the Result
 
@@ -47,10 +47,10 @@ Qualify one subject at a time against the bounded receiving use. Preserve status
 | bounded use | Receiving result or Work, situation, scope, window, criteria, and consuming decision. |
 | contribution | Inputs, result or preserved condition, known procedure/invariant, applicability, and variation. |
 | attributable conditions | Time/burden, capability, support/provider access, authority/responsibility, evidence, and source limits attributable to this subject and relevant to the receiving use. |
-| local connections | Independently tested input/result, schema, or adapter claims with scope and status. |
+| local connections | Independently assessed input/result, schema, or adapter claims with scope and status. |
 | verdict and stop | Qualified/not-qualified Method or retained/excluded account, failed criteria or missing qualification basis, open identity conditions, remaining whole question, and next action. |
 
 #### A.3.1.QM:4.3 - What Changes in Practice
 
-Teams stop scoring a methodology bundle as one object. They can reject one Method, retain a promising account without admitting it, and prove one schema mapping without calling the whole arrangement compatible. C.32.MWA.PP then receives only the genuinely combined timing, allocation, support, authority, or composition questions.
+Teams can use individual qualifications without treating them as a verdict on the whole arrangement. They can reject one Method, retain a promising account without admitting it, and prove one schema mapping without calling the whole arrangement compatible. C.32.MWA.PP then receives only the genuinely combined timing, allocation, support, authority, or composition questions.
 

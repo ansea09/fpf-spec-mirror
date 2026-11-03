@@ -6,12 +6,12 @@ section_id: "A.3.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__005_solution.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:4 — Solution"
-line_start: 11522
-line_end: 11643
+line_start: 11520
+line_end: 11639
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -23,6 +23,8 @@ dependencies:
   - "A.22"
   - "A.3.1"
   - "A.6.1"
+  - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "A.6.5"
   - "B.1.5"
   - "B.3"
@@ -88,7 +90,7 @@ Name the receiving use before asking whether this method-description edition is 
 | comparing, revising, or auditing claim content | C.2.1 identifies each episteme and any persisted comparison or audit result; the concrete evaluation, evidence, or assurance claim stays with its subject pattern | which method claims are preserved, absent, stale, or incompatible for this comparison or audit? |
 | publishing or teaching | C.2.1 is the pattern for the claim-bearing or teaching episteme; E.24.PUB is the pattern for publication occurrence and form; use A.15.1 only for teaching Work that actually happened | does this edition preserve the method distinctions needed by this audience or teaching use? |
 
-A.3.2 creates no universal method-description-use relation. Name the concrete receiving object and the pattern that defines or tests the current claim about it. Comparing claim sets, revising a publication, or checking teaching content does not require a fabricated Work occurrence or decision object.
+Name the concrete receiving object and the pattern that defines or tests the current claim about it.
 
 Then inspect the claim concerns that matter for that named use:
 
@@ -102,14 +104,12 @@ Then inspect the claim concerns that matter for that named use:
 | Bounds | Which latency, precision, cost, safety, reliability, uncertainty, or other local bounds constrain the method? |
 | System-role kinds and capabilities | Which local system-role kinds and capability thresholds matter for enactment? |
 | Parameters | Which values may vary between work occurrences, over which ranges, and when are they bound? |
-| Evaluation conditions | Which criterion compares which concrete Work occurrence, referent, measurement, or result, and which pattern contains the defining content for that comparison? |
+| Evaluation conditions | Which criterion is applied to the concrete Work occurrence, referent, measurement, or result, and which pattern defines that criterion? |
 | Internal composition | Which admitted methods are parts of one composite method, and what organization constructs that whole? |
 | Variation, edition, and refinement | Which claim content is preserved or changed, and is the current claim about another episteme edition, equivalence of claim content, or refinement of the method itself? |
 | Edition and publication use | Which episteme edition is relied on, and does its publication use affect currentness or availability? |
 
 Calendars, assignees, work authorization, gate passage, and dated execution witnesses are governed by planning, assignment, gate, or work-occurrence patterns. They may cite a method description.
-
-A `U.MethodDescription` describes one admitted Method. It is not the `RelationSignature` that declares participants for one relation kind, the A.6.1 `OperationAlgebra` content that declares arguments and results for an operation family, a dated Work occurrence, or any actual-participation relation of that occurrence.
 
 The same episteme can also satisfy A.15.2 as a `U.WorkPlan` when its claims about that admitted Method include the required substantive intended coordination. Establish both membership predicates on the same independently identified E. A plan that merely names a Method does not thereby supply the way-of-doing claims required here. Planning and actual-performance judgements retain their own conditions.
 
@@ -119,9 +119,9 @@ A project may accept, regulate, prefer, deprecate, or forbid a method descriptio
 
 When a method description is used to prepare or enact work, distinguish the planned-use and actual-occurrence branches:
 
-1. C.2.1 identifies one episteme through its claim content, exact `EntityOfConcern`, and effective `ReferenceScheme`; A.3.2 judges that same episteme to be `U.MethodDescription`. Plainly saying that the method description describes the method is shorthand for this constitution and membership judgment, not another binary relation occurrence.
+1. Identify the episteme under C.2.1 and apply the membership test in §4.1.
 2. `U.WorkPlan` may cite that episteme when preparing dated work.
-3. For a claim about actual Work, recover each performing `U.System` and its obtaining assignment of a local agential system-role kind under A.13. A.15.1 independently admits the dated Work and its `enactsMethod` relation to the Method. If precise assignment-bound attribution is claimed, F.6 `performedUnderAssignment` uses that same obtaining assignment of a separately declared `U.SystemRoleAssignment` species. A separate assertion cites `methodDescriptionRef` only when its claim depends on that edition.
+3. For a claim about actual Work, use the Work-admission and conditional assignment-attribution rules in §4.1. Cite `methodDescriptionRef` only when the claim depends on that edition.
 4. The word *result* is only a cue. Ask which claim is being made: an A.6.1 application returned a value, a referent changed under A.3.4, Work produced something under A.15.PROD, or a measurement, evaluation, delivery, or acceptance occurred. If the use needs a Work-to-result relation and no exact predicate is defined for it, keep Work and result separate and state `missing-predicate[work-to-result]`. A log, trace, measurement, or result episteme supports another claim only through its evidence relation.
 
 #### A.3.2:4.5 - Method, mechanism, and formal-substrate boundary

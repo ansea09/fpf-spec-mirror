@@ -6,12 +6,12 @@ section_id: "A.3.4.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__006_archetypal-grounding.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:5 — Archetypal Grounding"
-line_start: 13472
-line_end: 13514
+line_start: 13468
+line_end: 13510
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -62,7 +62,7 @@ keywords:
 
 Source wording says: "The refrigeration circuit moves heat through the cycle."
 
-Repair: recover whether the current claim is a refrigerator subsystem transformation, a `TransformationFlowStructure` over compressor, condenser, expansion, and evaporator transformations, a thermodynamic mechanism, a functional architecture view, or a schematic publication. The circuit label may stay as ordinary domain wording, but FPF use names the selected structure, mechanism, or publication relation.
+Repair: recover whether the current claim is a refrigerator subsystem transformation, a `TransformationFlowStructure` over compressor, condenser, expansion, and evaporator transformations, a thermodynamic mechanism, a functional architecture view, or a schematic publication. The circuit label may stay as ordinary domain wording, but FPF use names the recovered object and the relation being asserted.
 
 #### A.3.4.P:5.2 - Neural-network block
 
@@ -80,7 +80,7 @@ Repair: the target-gene edit is only a candidate `U.Transformation` until the ex
 
 Source wording says: "The evidence path lets the valve-change flow proceed."
 
-Repair: an evidence path may be a legitimate `A.10` provenance relation for a named claim. The valve change still needs its exact changed referent, boundary, boundary conditions, actual subject facts, and continuity or reidentification basis; work plan, dated work, gate, assurance, result, and receiving use remain exact neighboring relations when current. The path establishes no work authorization, release authorization, gate passage, performed work, or actual transformation by shape or name.
+Repair: identify the action meant by *proceed* and the condition the evidence is claimed to satisfy. Apply the governing rule to the available facts, and use `A.22.CGUS` if availability or ordering remains unclear. Preserve any established `A.10` provenance relation for the named claim. Use `A.3.4` only if an actual valve-change occurrence is also asserted.
 
 #### A.3.4.P:5.5 - Filled minimal repair note
 
@@ -92,10 +92,10 @@ TransformationWordingRepair:
   ActualTransformationDisposition: no actual occurrence claim is made; the current object is the selected `RefrigeratorHeatTransferFlowStructure-1`.
   NeighboringClaimAndExactRelation: the four named loci are positions in `RefrigeratorHeatTransferFlowStructure-1`; bindings to actual transformation occurrences have not been established.
   GoverningPattern: `E.18` governs `RefrigeratorHeatTransferFlowStructure-1`; use `A.3.4` when a claim about an actual component occurrence needs its basis established.
-  RetainedUse: "circuit" may remain ordinary domain wording for `RefrigeratorHeatTransferFlowStructure-1` after that exact selected structure is named.
-  StopOrReturnCondition: use the selected structure; a later claim about an actual occurrence needs the A.3.4 occurrence basis and remains unresolved while that basis is missing.
+  RetainedUse: "circuit" may remain ordinary domain wording for `RefrigeratorHeatTransferFlowStructure-1`; the source's heat-transfer claim remains unresolved.
+  StopOrReturnCondition: use the selected structure for the recovered structural question; if the receiving use needs the heat-transfer claim, recover its participants and relation under the relevant subject rules. A later actual-occurrence claim still needs the A.3.4 occurrence basis.
   RemainingReaderUse: use `E.18` for `RefrigeratorHeatTransferFlowStructure-1`; open the applicable subject pattern when an additional claim is needed.
 ```
 
-One rewritten sentence for this selected structure is: “RefrigeratorHeatTransferFlowStructure-1 has four positions: compressor, condenser, expansion and evaporator.”
+One rewrite for the recovered structural use is: “RefrigeratorHeatTransferFlowStructure-1 has four positions: compressor, condenser, expansion and evaporator. The relation asserted by ‘moves heat through the cycle’ remains to be recovered.”
 

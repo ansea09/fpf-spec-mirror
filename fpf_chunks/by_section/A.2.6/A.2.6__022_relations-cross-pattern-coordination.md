@@ -6,12 +6,12 @@ section_id: "A.2.6:21"
 section_title: "Relations - Cross-Pattern Coordination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__022_relations-cross-pattern-coordination.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:21 — Relations - Cross-Pattern Coordination"
-line_start: 7602
-line_end: 7629
+line_start: 7599
+line_end: 7626
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -36,7 +36,7 @@ keywords:
 #### A.2.6:21.1 - With F–G–R (C.2.2)
 
 * **G is Claim scope.** Use set algebra (∩ / SpanUnion).
-* **F** remains the expression rigor (C.2.3); **R** captures evidence currentness and bounded reliance. Observed loss may bear on the translation-use claim; its permitted-loss tolerance remains in that claim rather than in G or the Bridge profile.
+* **F** remains the expression rigor (C.2.3); **R** describes warrant strength under the declared scope, evidence and use conditions (C.2.2). Observed loss may bear on the translation-use claim; its permitted-loss tolerance remains in that claim rather than in G or the Bridge profile.
 * **Composition.** F follows C.2.3:15.1: the essential content and connecting inferences must provide the expression properties claimed for the whole. R follows the justified support-composition model or non-aggregate synthesis under C.2.2. G follows §7.2–§7.3 (set rules).
 
 #### A.2.6:21.2 - With Formality (C.2.3)
@@ -56,6 +56,6 @@ keywords:
 
 #### A.2.6:21.5 - With Capability governance (A.2.2)
 
-* Capabilities MUST declare **Work scope**, **measures**, **qualification windows**; gates MUST verify all three.
+* For operational capability use, the capability declaration MUST identify **Work scope**, **measure bounds** and the applicable **qualification-window policy**; gates MUST check coverage, target satisfaction and qualification under §10.3.
 * Capability refits that preserve the set (unit changes) are **Refit**, not Δ(WorkScope).
 

@@ -6,12 +6,12 @@ section_id: "B.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__006_archetypal-grounding.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:5 — Archetypal Grounding"
-line_start: 46454
-line_end: 46553
+line_start: 46479
+line_end: 46600
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -121,4 +121,26 @@ A square of n by n unit cells makes the same step visible. Add one row of n cell
 Now the requested sum has n terms beginning at 3: 3 + 5 + ... + (2n + 1). Recover which premise changed. These are the first n + 1 positive odd integers with the initial 1 removed. The retained argument therefore gives S(n + 1) - 1 = (n + 1) squared - 1 = n squared + 2n. For four terms, 3 + 5 + 7 + 9 = 24; the old n-squared formula would give 16.
 
 The reusable contribution is the initial-value and increment argument. It lets the reader obtain the changed sum by identifying the changed range and reusing the already established result. A different progression would require recovering its increment before selecting another formula.
+
+#### B.5:5.8 - An available report exposes a previously unknown condition of use
+
+In a constructed case, a coordinator asks whether an automatically produced attendance report can be sent to course leaders. The available material consists of one report, a copy of its source data and the documented transformation. No list of possible defects has been supplied.
+
+Read one row and recover how it was produced. The transformation counts attendance records grouped by the participant's displayed name. Ask a course leader to demonstrate the intended use: deciding whom to contact about missing sessions. This makes the relevant unit a participant, while the calculation groups by a name. The first question is now whether those identify the same thing in this use.
+
+Construct a small contrast from that relation. Two different participants called Alex, each present once, yield the same name and count as one Alex present twice. The report alone cannot tell the leader whom to contact. This conclusion follows from the grouping rule; it does not establish that a collision occurred in the actual course. A source check can establish whether that condition holds for the present cohort. The data documentation also describes a stable participant identifier, making a previously unconsidered continuation expressible: group by that identifier and retain a suitable display label.
+
+The correction needs its own conditions: the identifier must track the participant for the relevant period, and the receiving leader must be permitted to see the resulting information. Those are questions for the data owner and the actual arrangement. If the owner is unavailable today, the analyst can inspect the transformation and prepare a proposed change; that work supplies neither the missing qualification nor permission. A qualified manual source may support today's contact decision, or the dependent decision may have to wait. The total attendance count can remain usable if it is all the recipient needs and its own conditions hold.
+
+Suppose the owner later establishes that names are unique within this cohort. The current report can then support this cohort's participant distinction under that premise. The collision counterexample still exposes the limitation of a general claim about other cohorts; it does not oblige a redesign of every bounded use. Comparing those claims prevents both an unwarranted release and unnecessary work.
+
+The reusable move was to recover an operation from accessible material, connect its output with a demonstrated use, derive a contrast from the mismatched identities and construct a changed continuation. Neither the receiving criterion nor the alternatives had to be fully specified beforehand.
+
+#### B.5:5.9 - Inquiry obtains a distinction before there is an intervention to choose
+
+In a second constructed case, a researcher has measurement traces with an occasional unexplained step. There is no proposed intervention, known cause or useful list of future actions. A small accessible inquiry is to inspect one raw trace and reconstruct how the instrument's software obtains the displayed quantity. This can reveal a measurement operation or a distinction that the present account omits; it does not promise an explanation of the phenomenon.
+
+In this case the reconstruction finds that the display subtracts a reference value which can be updated during recording. Holding the raw reading fixed while changing the reference produces a step in the displayed quantity. This derives a candidate explanation from an exposed operation. It is not evidence that such an update caused the observed event. The next useful contribution is to compare the reference-update record and raw readings with the display at that event, accounting for timing and measurement conditions. If those records do not exist, arranging to retain them in a later observation may make the distinction testable. B.5.2 and the domain research Method govern rival explanations and their assessment.
+
+Had the software exposed no such operation, the inspection could finish with a more precise measurement account and an unresolved question. Further work would need its own attainable contribution and grounds. The value of the initial inspection was its plausible access to the measurement process at modest cost, not advance knowledge of the reference update. The inquiry's result concerns understanding; an operational change need not follow.
 

@@ -6,12 +6,12 @@ section_id: "A.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__004_forces.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:3 — Forces"
-line_start: 13835
-line_end: 13846
+line_start: 13831
+line_end: 13842
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
   - "signature and mechanism declarations"
   - "six-way authority-word branch"
   - "undermines auditability"
-  - "“MUST” appears inside Definition: blocks"
+  - "“MUST” is used as an obligation operator inside a Definition: block"
 ---
 
 ### A.6:3 - Forces
@@ -64,6 +64,6 @@ keywords:
 | **Declared conditions and actual facts** | Some claims are settled from definitions; others require actual observations or evaluations under their subject predicates. |
 | **View, viewpoint, and construction discipline** | A view is an episteme satisfying exact viewpoint conformance; a viewpoint is an exact convention-bearing episteme; optional A.6.3 construction and publication remain different relations. Losing any distinction makes omissions and provenance uninterpretable. |
 | **Local meaning vs cross‑context reuse** | Boundaries keep meaning local ↔ cross-context reuse needs its actual correspondence and bounded-use basis. Use an F.9 Bridge only for two exact local senses when its predicate obtains; `CL` is optional evidence shorthand. |
-| **Evolvability vs auditability**             | Evolving interfaces requires change; auditors require stable evidence trails.                                                                                      |
+| **Evolvability vs auditability**             | Auditors require stable evidence trails across interface revisions.                                                                                      |
 | **Human readability vs formal precision**    | Plain explanations vs tech‑register constraints; both must remain aligned.                                                                                         |
 

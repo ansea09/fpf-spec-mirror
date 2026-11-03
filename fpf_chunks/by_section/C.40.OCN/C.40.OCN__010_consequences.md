@@ -6,12 +6,12 @@ section_id: "C.40.OCN:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__010_consequences.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:9 — Consequences"
-line_start: 86496
-line_end: 86499
+line_start: 86551
+line_end: 86554
 dependencies:
   - "A.15.9"
   - "C.11"

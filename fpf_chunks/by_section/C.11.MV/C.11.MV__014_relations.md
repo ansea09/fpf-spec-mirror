@@ -6,12 +6,12 @@ section_id: "C.11.MV:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__014_relations.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:12 — Relations"
-line_start: 58351
-line_end: 58359
+line_start: 58406
+line_end: 58414
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"

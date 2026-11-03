@@ -6,12 +6,12 @@ section_id: "A.6.2:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 17436
-line_end: 17519
+line_start: 17422
+line_end: 17505
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -37,12 +37,12 @@ The examples below show how EFEM is intended to be used across the EntityOfConce
 
 #### A.6.2:5.1 - Typed specification-use refinement `Specify_DescEp_SpecDesc` (species of EFEM)
 
-*Context.* You have a `U.MethodDescription` for a safety check and want a more formal `U.MethodSpec` with checkable constraints or test-harness obligations about the same Method. Before calling the relation conservative, identify the exact claims that already support those constraints.
+*Context.* You have a `U.MethodDescription` for a safety check and want a more formal description of the same Method for a named specification use, with checkable constraints or test-harness obligations. Before calling the relation conservative, identify the exact claims that already support those constraints.
 
 *Shape.*
 
 * Domain: exact episteme `X : U.MethodDescription` with `entityOfConcernRef(X) : U.MethodRef`, its complete content `content_D = content(X)`, and effective rules `scheme_D = referenceScheme(X)`; when the named engineering validation use selects viewpoint P, identify that selection separately.
-* Codomain: exact episteme `Y : U.MethodSpec` concerning the same Method, with `content_S = content(Y)` and `scheme_S = referenceScheme(Y)`. Recover whether the effective rules stay the same or change; writing an existing rule more explicitly does not itself change it. If the same named validation use continues, it preserves its selected viewpoint P separately.
+* Codomain: exact episteme Y concerning the same Method and admitted for the named specification use, with `content_S = content(Y)` and `scheme_S = referenceScheme(Y)`. Recover whether the effective rules stay the same or change; writing an existing rule more explicitly does not itself change it. If the same named validation use continues, it preserves its selected viewpoint P separately.
 
 The suffixes D and S distinguish these endpoint values. They declare no constituent kinds. Judge endpoint admissibility under the relevant description and specification-use criteria, compare complete identity under C.2.1, and test P2 separately. A checkable new requirement can satisfy the receiving specification-use conditions while changing the episteme and failing conservativity.
 
@@ -50,7 +50,7 @@ The suffixes D and S distinguish these endpoint values. They declare no constitu
 
 * `entityOfConcernChangeMode(Specify_DescEp_SpecDesc) = preserve`. The shared Method establishes endpoint EntityOfConcern equality; the Method entity itself is not a logical premise.
 * P1 — effect-free: it is the declared arrow between the two epistemes; any operation application that produces Y is separate.
-* P2 — conservative: every behavioral claim, constraint, and test obligation in Y traces to exact claims in X, an additional named source episteme, or an independently current fact under its named relation and effective scheme.
+* P2 — conservative: every assertion in Y, including behavioral claims, constraints, and test obligations, traces to exact claims in X, an additional named source episteme, or an independently current fact under its named relation and effective scheme.
 * P3-P5 — category structure and scope: the declared arrows compose only when their exact endpoints and P3 mappings agree. P5 includes the named engineering scope, operating conditions, effective scheme, or selected viewpoint in the formal domain only insofar as the arrow law depends on them. Keep separately any such condition or viewpoint that changes the named validation or receiving-use claim.
 
 If an author chooses a new threshold, acceptance condition, harness obligation, or other commitment not supported by that basis, Y has been strengthened and the proposed arrow fails P2. Identify the new assertion in Y's changed ClaimGraph. When a particular application or Work accounts for that strengthening, identify that occurrence and the direct production relation separately. The new assertion remains outside the conservative arrow; the application, Work, and production relation account for its origin.
@@ -84,8 +84,8 @@ MVPK can reuse the EFEM laws for these normalization arrows. Claim the relevant 
 Inside EFEM, this becomes a species with `entityOfConcernChangeMode = retarget`:
 * the source episteme describes the physical assembly `S₁`;
 * the receiving episteme describes the independently identified functional network `S₂`;
-* one exact arrow `r` relates the two endpoint epistemes under its declared formal rule; a separate A.6.4 assertion `q` states the invariant, visible loss, bounded receiving use, conditions, and polarity; and a current-case judgement separately tests the exact facts;
-* P2 checks only the formal consequence relation declared for `r`; the ordinary current-case judgement tests the exact facts against `q`, and A.20 enters only when that proposition is an internal constraint.
+* one exact arrow `r` relates the two endpoint epistemes under its declared formal rule; for a claimed receiving use, a separate A.6.4 assertion `q` states the invariant, visible loss, bounded receiving use, conditions, and polarity; when a current case is judged, its exact facts are tested against `q`;
+* P2 checks only the formal consequence relation declared for `r`; when a current case is judged, the ordinary judgement tests its exact facts against `q`, and A.20 enters only when that proposition is an internal constraint.
 
 The details belong to A.6.4 and E.18; EFEM provides the generic discipline.
 
@@ -111,7 +111,7 @@ Two typical EFEM species over this kind are:
 * `Normalize_EngView` — a family of view-normalisation EFEM arrows `n_X : X -> Y` between exact `U.View` epistemes (again with `EntityOfConcernChangeMode = preserve`) that:
   * states how the formal relation uses the three C.2.1 identity values and makes the exact source-to-receiving ClaimGraph difference explicit; any difference between separately obtaining endpoint facts that it compares is named by the exact predicate and participants, and any normalization application remains separate;
   * is effect-free. A repeat claim identifies the next arrow `n_Y : Y -> Z` under the same rules, establishes `Z = Y` under C.2.1, and witnesses `compose(n_Y, n_X) ≃ n_X` under the declared arrow equivalence, as in §5.2;
-  * is conservative (P2) by construction: it never introduces new atoms about the selected system.
+  * is conservative (P2): every assertion in Y is recoverable from the identified source ClaimGraphs and admitted facts under the declared schemes, including any assertion about edition, provenance, or evidence.
 
 Concrete `A.6.3/A.6.4/E.17.*` patterns for engineering description and specification-use idioms state explicitly, under C.2.1:7.1 and `CC-EFEM.*`, which of the three C.2.1 endpoint values remain the same or differ and which exact separately obtaining relation occurrences their arrow rules read or compare.
 

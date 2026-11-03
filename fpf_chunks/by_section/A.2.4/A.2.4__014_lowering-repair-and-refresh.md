@@ -6,12 +6,12 @@ section_id: "A.2.4:12"
 section_title: "Lowering, Repair, and Refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__014_lowering-repair-and-refresh.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:12 — Lowering, Repair, and Refresh"
-line_start: 6320
-line_end: 6327
+line_start: 6317
+line_end: 6324
 dependencies:
   - "A.10"
   - "A.2"
@@ -43,7 +43,7 @@ keywords:
 
 Lower an attempted A.2.4 use when the episteme is known but the target claim, scope, polarity, status value, time window, or provenance constraints are not recoverable. The lowered result may be source-finding, orientation, an evidence-needed note, a status-source request, or a narrowed reliance use.
 
-Repair the use when a neighboring object is current: dated work and actual bindings, a domain-local result, its C.2.1 episteme, source/provenance, G.11 currentness, receiving work and direct use, A.10 reliance, B.3 assurance, gate passage, permission, commitment, publication, requirement, definition, or explanation.
+When the intended answer goes beyond evidence-use or status-use classification, obtain that answer through the direct pattern in §4.6–§4.7.
 
 Reconsider the classification when the episteme, target claim, grounding holon, scope, polarity or status value, window, or intended use changes. Reopen the affected reliance question when a change in source currentness, proof checking, measurement, MethodDescription, or assurance basis could alter that use.
 

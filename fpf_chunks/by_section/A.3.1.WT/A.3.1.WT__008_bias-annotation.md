@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__008_bias-annotation.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:6 — Bias-Annotation"
-line_start: 10550
-line_end: 10561
+line_start: 10546
+line_end: 10557
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,9 +25,9 @@ keywords:
 
 | Bias | Likely drift | Repair |
 | --- | --- | --- |
-| plan-completion bias | A scheduled or demonstrated task is recorded as trial Work. | Admit each actual Work occurrence separately; otherwise return `missing-performed-work`. |
+| plan-completion bias | Planned or represented activity is reported as performed trial Work. | Admit each actual Work occurrence separately; otherwise return `missing-performed-work`. |
 | candidate-laundering bias | Constituent activity is reported as enactment of the candidate whole. | Preserve the candidate account and name only separately admitted enacted Methods. |
-| success-selection bias | Convenient positive occurrences stand in for the intended situation family. | State representative criteria and add a discriminating situation when the later question needs one. |
+| success-selection bias | Convenient positive occurrences stand in for the intended situation family. | State the situation-selection criteria and select a discriminating situation when the later question needs one. |
 | instrument bias | Logs, reports, or telemetry are treated as the Work or result. | Keep the occurrence, result, record, and evidence-use relation separate. |
 | capability inflation | Training or one success becomes a holder capability claim. | Require the A.2.2 holder, Work family, envelope, measures, window, and evidence. |
 | causal inflation | Reported benefit or association becomes Method-caused effect. | State the observation level and missing comparison or causal basis. |

@@ -6,12 +6,12 @@ section_id: "A.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.5/A.5__003_problem.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.5 — Open-Ended FPF Kernel and Extension Layering"
   - "A.5:2 — Problem"
-line_start: 13704
-line_end: 13712
+line_start: 13700
+line_end: 13708
 dependencies:
 keywords:
   - "FPF architecture"
@@ -28,6 +28,6 @@ Admitting domain-specific primitives without their applicability boundaries can 
 
 | Problem | Practical effect |
 | --- | --- |
-| **Kernel bloat** | Adding unnecessary root U-kinds or local type vocabularies increases what every Kernel user must understand and maintain. |
+| **Kernel bloat** | Unnecessary root U-kinds or local type vocabularies can increase users' learning effort and maintainers' support work. |
 | **Conflicting assumptions** | Incompatible axioms presented as unconditional commitments leave the reader unable to select an applicable explanation. |
 

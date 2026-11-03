@@ -6,12 +6,12 @@ section_id: "B.5.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__007_bias-annotation.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
   - "B.5.4:6 — Bias-Annotation"
-line_start: 50481
-line_end: 50486
+line_start: 50534
+line_end: 50539
 dependencies:
   - "A.7.1"
   - "B.5"

@@ -6,7 +6,7 @@ section_id: "A.0:QF.2b"
 section_title: "Practitioner-facing reading cue"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__017_practitioner-facing-reading-cue.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.0 — Generative Search Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.2b — Practitioner-facing reading cue"
@@ -60,7 +60,7 @@ keywords:
 - If the question is “Which space are we searching or navigating?”, look for `SearchSpaceRef`.
 - If the question is “Which space are we judging outcomes in?”, look for `OutcomeSpaceRef`.
 - If the question is “What optional overlay helps me read several declared views or set results together?”, look for `DeclaredSubstrateInterpretiveView`.
-- If that overlay also keeps several declared views, spaces, mappings, or qualifiers together, it is the richer `DeclaredSubstrateAtlasView`.
+- Use `DeclaredSubstrateAtlasView` when answering the named inspection question requires showing how several declared views, spaces, mappings or qualifications relate within the same substrate.
 - If the atlas/support reading must keep several declared set views visible at once, look for `TypedSetViews`.
 - If the overlay depends on one explicit source-to-outcome mapping, look for `OutcomeMapRef`.
 - If the overlay depends on one metric, neighborhood, or reachability discipline inside one declared space, look for `SpaceMetricRef`.

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.43.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
-line_start: 90360
-line_end: 90786
+line_start: 90415
+line_end: 90843
 dependencies:
   - "A.12"
   - "C.11"
@@ -138,6 +138,8 @@ Recover what the retained information allows you to infer. If two possible situa
 Check the information needed at the moment of action. Prediction can permit a justified action before a delayed measurement arrives, or compensate for some consequences of that delay. Retain the actual delay and the model assumptions that make this response possible. Preserve the effects of actual inputs and relevant history when they affect what the current observation means. Use **C.30.LCA** to recover an unclear control structure and **C.29** to choose a suitable mathematical representation. Neither a mathematical vocabulary nor a detailed model supplies missing observations.
 
 #### C.43:4.3 - Construct possible continuations, including conditional future actions
+
+When you cannot yet formulate relevant alternatives or the conditions that would distinguish them, B.5:4.1.2 develops that basis from available material, a subject relation and a revealing consequence or trial. Use that construction here. An unknown condition of a described continuation differs from not yet having a useful continuation to describe; a classification of conditions alone cannot supply the latter.
 
 Construct alternatives from the available situation and from what must be obtained. Reason backward from the required result to the contributions it needs, and forward from available means to the results they could produce. Where the accounts fail to meet, obtain the missing contribution through **C.39**, revise the proposal, or retain the incompatibility as an explicit limit.
 

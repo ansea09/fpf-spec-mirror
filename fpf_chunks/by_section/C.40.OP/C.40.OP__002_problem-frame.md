@@ -6,12 +6,12 @@ section_id: "C.40.OP:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OP/C.40.OP__002_problem-frame.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.40.OP — Maintain Opportunities and Stepping Stones"
   - "C.40.OP:1 — Problem Frame"
-line_start: 87951
-line_end: 87960
+line_start: 88006
+line_end: 88015
 dependencies:
   - "A.15.9"
   - "C.11.CRC"

@@ -6,12 +6,12 @@ section_id: "A.6.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__007_bias-annotation.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:6 — Bias-Annotation"
-line_start: 17520
-line_end: 17529
+line_start: 17506
+line_end: 17515
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -33,7 +33,7 @@ keywords:
 
 ### A.6.2:6 - Bias-Annotation
 
-* **Episteme‑first, world‑second.** EFEM relates epistemes as mathematical objects. For measurement or execution, identify the capable system, the A.6.1 application when current, the Work it performs, the resulting episteme, and any production relation separately.
+* **Episteme-first, world-second.** EFEM relates epistemes as mathematical objects. For a claim about actual measurement or execution, identify the capable system, the A.6.1 application when its declaration applies, any independently admitted Work, and any resulting episteme or obtaining production relation separately.
 
 * **Actual values, not unnamed fields.** Laws name the exact claim content, EntityOfConcern, and effective ReferenceScheme they use and keep empirical grounding, representation, view conformance, and describing-use viewpoint selection separate. A SlotKind is mentioned only when the exact reusable relation declaration is current.
 

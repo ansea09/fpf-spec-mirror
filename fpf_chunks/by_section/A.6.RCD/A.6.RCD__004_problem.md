@@ -6,12 +6,12 @@ section_id: "A.6.RCD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__004_problem.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:2 — Problem"
-line_start: 21290
-line_end: 21298
+line_start: 21276
+line_end: 21284
 dependencies:
   - "A.11"
   - "A.6.0"

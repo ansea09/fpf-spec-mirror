@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.9.1.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "F.9.1 — Bridge Stance Note — Clarify a Bounded Use"
-line_start: 121907
-line_end: 122109
+line_start: 121964
+line_end: 122166
 dependencies:
   - "A.10"
   - "A.6.3.CSC"

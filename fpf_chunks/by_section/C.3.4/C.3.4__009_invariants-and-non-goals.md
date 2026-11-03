@@ -6,12 +6,12 @@ section_id: "C.3.4:7"
 section_title: "Invariants and Non-goals"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__009_invariants-and-non-goals.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:7 — Invariants and Non-goals"
-line_start: 55988
-line_end: 55993
+line_start: 56041
+line_end: 56046
 dependencies:
   - "A.2.6"
   - "C.2.1"

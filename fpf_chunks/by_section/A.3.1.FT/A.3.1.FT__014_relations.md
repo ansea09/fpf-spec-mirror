@@ -6,12 +6,12 @@ section_id: "A.3.1.FT:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.FT/A.3.1.FT__014_relations.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.FT — Qualify Method Fit and Transfer"
   - "A.3.1.FT:12 — Relations"
-line_start: 10999
-line_end: 11007
+line_start: 10997
+line_end: 11005
 dependencies:
   - "A.3.1"
   - "A.3.1.QM"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.3.1.FT:12 - Relations
 
-- A.3.1.WT supplies occurrence-level source and receiving evidence and explicit gaps. It does not make the fit or transfer conclusion.
+- A.3.1.WT supplies occurrence-level evidence for the selected situations and explicit gaps. It does not make the fit or transfer conclusion.
 - A.3.1.CC consumes any bounded observation that may contradict an A.3.2.DE description, direct C.37 representation-use result, C.37.MP Method representation profile row, A.15.8.MS support claim, or directly governed lower representation result; it identifies and rechecks the maintained correction owner. Passing coherence does not establish fit.
 - C.11.MV consumes fit, failure, applicability, burdens, alternatives, and evidence limits for a separate practical-worth decision.
 - A.3.1.MV owns reusable Method variants, provenance, applicability entries, and retirement. A semantic change returns there; a local Work, support, description, or representation change alone need not create a variant.

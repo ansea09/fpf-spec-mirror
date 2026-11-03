@@ -6,12 +6,12 @@ section_id: "A.3.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 13284
-line_end: 13297
+line_start: 13280
+line_end: 13293
 dependencies:
   - "A.1"
   - "A.10"
@@ -57,9 +57,9 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Method name as change | "This method transforms X" is treated as an actual occurrence. | Name the continuing changed subject, boundary, and before/during/after facts; keep the method under A.3.1. |
-| Process diagram as work | A workflow diagram is treated as enacted work. | Use `E.18` or `A.3.2` for the diagram; use `A.15.1` for dated work. |
-| Dynamics model as permission | A transition law is used to approve action. | Keep `A.3.3` for the model; use evidence, gate, decision, and assurance patterns for use authority. |
-| Temporal trend as intervention | A rate or rhythm trend is treated as proof of changed behavior under an intervention. | Use `C.27.TA` and `C.27`, then identify the continuing changed subject and its before/during/after facts separately. |
+| Process diagram as work | A workflow diagram is treated as enacted work. | Recover what the workflow diagram represents; use `E.18` for a claimed transformation-flow structure or `A.3.2` for a MethodDescription claim, and `A.15.1` to establish any claimed dated Work independently. |
+| Dynamics model as permission | A transition law is used to approve action. | Keep `A.3.3` for the model. Determine whether the action is permitted under the applicable rule; obtain evidence or assurance when that rule or the decision requires it. |
+| Temporal trend as intervention | A rate or rhythm trend is treated as proof of changed behavior under an intervention. | Use `C.27.TA` for the temporal aspect and `C.27` when an unresolved adequacy question changes the receiving action. Identify the transformation independently; if the claim attributes it to intervention Work, apply `4.2.4`. |
 | Formal construction as work | A morphism or proof construction is treated as work performed in a project-world object. | Use `C.29` or the direct formal pattern for the mathematical relation; name realization and work separately. |
 | Publication as transformation | A dashboard or report is treated as the changed state. | Use publication or source patterns for that artifact; identify the changed subject separately. |
 | Sliced trajectory as composition | Samples, subintervals, method steps, work parts, concurrent changes, or flow nodes are declared components of one transformation by containment or proximity. | Identify each actual transformation independently and require the governing rule and derivation basis in 4.2.1 for a positive composition claim. Sampling or subdivision also supplies no evidence of indivisibility. |

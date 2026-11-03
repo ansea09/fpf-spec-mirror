@@ -6,12 +6,12 @@ section_id: "C.39.RP:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__001_intro.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:intro — Intro"
-line_start: 84225
-line_end: 84231
+line_start: 84280
+line_end: 84286
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

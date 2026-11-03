@@ -6,12 +6,12 @@ section_id: "A.3.1.MI:5"
 section_title: "Archetypal Grounding - Workplace Introduction and Revision"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.MI/A.3.1.MI__007_archetypal-grounding-workplace-introduction-and-revision.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.MI — Introduce a Method into Practice and Decide What to Keep or Change"
   - "A.3.1.MI:5 — Archetypal Grounding - Workplace Introduction and Revision"
-line_start: 11357
-line_end: 11392
+line_start: 11355
+line_end: 11390
 dependencies:
   - "A.3.1"
   - "A.3.1.FT"
@@ -35,7 +35,7 @@ The Digital Vaccine case supplies three sequential action-research cycles in an 
 
 The Halogen and methodology-spread studies add observed adaptation, project demands, practitioner skills, identified organizational conditions where recoverable, drivers, and barriers. For each adaptation record whether it changed the Method-related target, the introduction strategy, its description, a separate WorkPlan, support, or local use, while preserving the recorded kind and status of each. Also record when, planned or reactive status, decision-maker and any applicable authorization basis, affected level, reason, and conditions. Neither source proves a universal sequence or one causal driver of spread.
 
-Implementation-science comparators sharpen this account without supplying its domain ontology. Proctor et al. motivate separate acceptability, appropriateness, feasibility, enactment/fidelity, burden/cost, reach, and sustainment questions. FRAME motivates recording changes to the Method-related target. FRAME-IS supplies the separate question of what changed in the introduction strategy itself. Updated CFIR motivates context and determinant questions; the 2021 MRC framework motivates iterative refinement around key uncertainty and decision usefulness. A.3.1.MI retains the target-versus-strategy distinction while rejecting health-specific entities, a maturity ladder, phase gate, compulsory adoption sequence, and any inference from those taxonomies to FPF Method admission, Work, relation, capability, authority, or culture.
+Implementation-science comparators sharpen this account without supplying its domain ontology. Proctor et al. motivate separate acceptability, appropriateness, feasibility, enactment/fidelity, burden/cost, reach, and sustainment questions. FRAME motivates recording changes to the Method-related target. FRAME-IS supplies the separate question of what changed in the introduction strategy itself. Updated CFIR motivates context and determinant questions; the 2021 MRC framework motivates iterative refinement around key uncertainty and decision usefulness. A.3.1.MI uses these comparators to distinguish the target, the introduction strategy and their observed effects. Method admission, Work, relation, capability, authority and cultural claims retain their separate FPF grounds.
 
 #### A.3.1.MI:5.1 - APP-ME-01 Early Stop
 
@@ -55,5 +55,5 @@ Suppose a receiving decision now concerns assigning newcomers independent review
 
 After such an authorized comparison, suppose the observed records show that newcomers detect familiar identifier mismatches unaided but require expert help for the unfamiliar unit convention. Return that differentiated result to the capability owner and to A.3.1.FT; it supports neither a blanket failure nor unrestricted transfer. C.11.MV includes the expert's time. A.3.1.MI can develop a proposed introduction variant using joint review and later independent rehearsal. A.3.1.MV determines whether its changed reusable operations constitute a variant; retaining the intended checking and learning functions does not settle that identity question.
 
-The adaptation account records when the joint-review change was chosen and when it actually operated. If rehearsal and coaching change together, the observed benefit belongs to that examined arrangement until a useful comparison separates their contributions. The original lesson remains a delivered event. Its proposed mechanism is reconsidered on the new evidence; the history is not rewritten as if the later strategy had been used from the start.
+The adaptation account records when the joint-review change was chosen and when it actually operated. If rehearsal and coaching change together, report the benefit observed under that examined arrangement; distinguish their contributions only to the extent supported by the evidence. The original lesson remains a delivered event. Its proposed mechanism is reconsidered on the new evidence; the history is not rewritten as if the later strategy had been used from the start.
 

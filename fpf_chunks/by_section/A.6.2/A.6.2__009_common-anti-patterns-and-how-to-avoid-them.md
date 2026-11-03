@@ -6,12 +6,12 @@ section_id: "A.6.2:7.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 17543
-line_end: 17551
+line_start: 17529
+line_end: 17537
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -37,6 +37,6 @@ keywords:
 |---|---|---|
 | EFEM as performed work | An episteme rewrite is treated as measurement, actuation, or work occurrence. | Use EFEM only for episteme-to-episteme morphisms; use A.15 when work in the world is current. |
 | EFEM as publication rendering | A face, carrier, or rendering change is treated as the episteme morphism itself. | Use E.17 for publication forms and use EFEM only for the episteme relation being represented. |
-| Retargeting as harmless view | Endpoint epistemes concern different entities, but the bounded-use proposition or current case remains unstated. | Identify the A.6.4 arrow; write `q` with its invariant, visible loss, use, conditions, and polarity; then report the current-case judgement from exact facts. Add F.9 only for a separate local-sense relation. |
+| Retargeting as harmless view | Endpoint EntitiesOfConcern differ, but the relation is classified as preserving their identity. | Identify the retargeting arrow under A.6.4. For a named receiving-use claim, state `q` with its invariant, visible loss, use, conditions, and polarity; when judging a current case, test its exact facts against `q`. Add F.9 only for a separate local-sense relation. |
 | Representation lens as ontology | A category arrow, graph, or mapping notation is treated as a new root U-kind. | Keep the mathematical object in its selected formal substrate; use C.29 when that object is used as a mathematical lens. Keep U-kind settlement in E.24/C.3. |
 

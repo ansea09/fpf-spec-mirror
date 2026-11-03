@@ -6,12 +6,12 @@ section_id: "A.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__008_conformance-checklist-normative.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3 — Transformer Quartet: Distinguish Work, Performer, Method and Method Description"
   - "A.3:7 — Conformance Checklist (normative)"
-line_start: 9280
-line_end: 9314
+line_start: 9276
+line_end: 9310
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -48,20 +48,20 @@ A conforming actor-side or work-to-change assertion MUST designate the exact dir
 Every Work individual admitted under `U.Work` stands in an exact actual `enactsMethod` relation to the `U.Method` it enacts; the assertion or description used by a receiving claim MUST designate both sides and that relation. Cite an exact `U.MethodDescription` edition only when the receiving claim depends on that edition to identify, constrain, or justify the Method. If actual enactment departs from a cited description, state the description-selection, override, exception, or deviation claim under its direct owner and apply the Work continuity policy to the actual occurrence facts. Absence of a description reliance claim is not silent drift.
 
 **CC‑A3‑5 - Episteme as object-under-change.**
-When Work on an episteme or its carrier is claimed, the performer is still a System; episteme identity, carrier continuity, edition succession, publication, and any actual carrier change remain under their direct owners. Do not infer a performer from the episteme change itself, and do not force every episteme history into one `PhaseOf` relation. See C.2.1, E.24.PUB, A.14's mereology firewalls, and direct epistemic aggregation owners when current.
+When Work on an episteme or its carrier is claimed, the performer is still a System; episteme identity, carrier continuity, edition succession, publication, and any actual carrier change remain under their direct owners. Do not infer a performer from the episteme change itself. See C.2.1, E.24.PUB, A.14's mereology firewalls, and direct epistemic aggregation owners when current.
 
 **CC‑A3‑6 - Units and measures for performed resource use.**
 Every performed resource-use fact relied on for a claim about Work MUST state its measure and units. A percentage that enters a resource aggregation must be grounded in the exact PortionOf measure needed by that use. Totals, allocation, overlap handling, deduplication, and optional `Gamma_work` notation belong to a separately recovered B.1.6 aggregation, not to Work identity.
 
 **CC‑A3‑7 - Authority, justification, and provenance boundary.**
-Authority, justification and provenance are not generic constitutive fields of a SystemRoleAssignment or Work occurrence. When a receiving use relies on one of them, identify the exact episteme and direct authority, justification, source, evidence or provenance relation and connect it to the assignment occurrence, Work individual, assertion or description. The assignment and Work must obtain under their own predicates.
+Authority, justification and provenance are not generic constitutive fields of a SystemRoleAssignment or Work occurrence. When a receiving use relies on one of them, identify the exact episteme and direct authority, justification, source, evidence or provenance relation and connect it to the assignment occurrence, Work individual, assertion or description. The assignment must obtain under its species predicate; the Work occurrence must meet the A.15.1 admission conditions.
 
 **CC‑A3‑8 - Agentic policy, planning, Work, and outcome separation.**
-An agentic case does not license a generic pipeline from policy, through a planned action, to an action. Recover each exact policy, objective, selection or decision, WorkPlan, SystemRoleAssignment, dated Work, actual change, and outcome claim under its direct owner when that claim is current. A policy does not create a plan or Work; a plan does not prove Work; and Work does not prove an outcome. Do not mint `U.PlannedAction` or `U.Action` from ordinary action wording.
+An agentic case does not license a generic pipeline from policy, through a planned action, to an action. Recover each exact policy, objective, selection or decision, WorkPlan, SystemRoleAssignment, dated Work, actual change, and outcome claim under its direct owner when that claim is current. A policy does not create a plan or Work; a plan does not prove Work; and Work does not prove an outcome.
 
 **CC‑A3‑9 - Local interpretation and exact crossings.**
 When interpretation depends on a taxonomy episteme or effective ReferenceScheme, identify that reference in the assertion about the SystemRoleAssignment occurrence. Test compatibility through the exact rule current for that assignment use. Similar labels across localities establish neither equivalence nor conflict. When a receiving use needs exact local-sense correspondence, use F.9 only for the exact `SenseCell` correspondence and its admitted use; local system-role-kind, policy, criterion, verdict, or other mappings retain their direct owners.
 
 **CC‑A3‑10 - Use-driven aggregation boundary.**
-A.3 does not require a MethodDescription or an assertion about Work to make every Gamma family runnable. When a receiving use needs order-sensitive Method composition, recover B.1.5 and optional `Gamma_method`; when it needs a temporal aggregate over exact Work intervals, recover B.1.4 and optional `Gamma_time`; when it needs a resource ledger, recover B.1.6 and optional `Gamma_work`. A system-boundary or epistemic aggregation likewise uses its exact direct owner. Each aggregation has its own EntityOfConcern, policy, evidence, and admissible use; none is a universal field or identity condition of MethodDescription, SystemRoleAssignment, or Work.
+When a receiving use needs order-sensitive Method composition, recover B.1.5 and optional `Gamma_method`; when it needs a temporal aggregate over exact Work intervals, recover B.1.4 and optional `Gamma_time`; when it needs a resource ledger, recover B.1.6 and optional `Gamma_work`. A system-boundary or epistemic aggregation likewise uses its exact direct owner. Each aggregation has its own EntityOfConcern, policy, evidence, and admissible use; none is a universal field or identity condition of MethodDescription, SystemRoleAssignment, or Work.
 

@@ -6,12 +6,12 @@ section_id: "A.3.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__009_conformance-checklist.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:7 — Conformance Checklist"
-line_start: 13265
-line_end: 13283
+line_start: 13261
+line_end: 13279
 dependencies:
   - "A.1"
   - "A.10"
@@ -61,7 +61,7 @@ keywords:
 | `CC-A34-3` | Every subject fact uses the pattern that defines its relation or characteristic; no union-valued `transformationRelation` field is used. |
 | `CC-A34-4` | Any additional method, operation, work, flow, representation, evidence, evaluation or publication claim retains its own objects and relations. |
 | `CC-A34-5` | A transformation assertion is a C.2.1 episteme about the actual transformation or exact base facts. |
-| `CC-A34-6` | Time, rate, rhythm, duration, and ordering claims use `C.27.TA` and `C.27` without replacing transformation identity. |
+| `CC-A34-6` | Use `C.27.TA` for temporal aspects and `C.27` when an unresolved adequacy question changes the receiving action; neither replaces transformation identity. |
 | `CC-A34-7` | Use E.18 for the selected flow structure and C.29 for mathematical representation; ground actual transformation and work claims separately through A.3.4 and A.15.1. |
 | `CC-A34-8` | Evidence, assurance, gate, acceptance, and decision authority are not inferred from the transformation or its description. |
 | `CC-A34-9` | `input`, `output`, `result`, `outcome`, `deliverable`, and `handoff` remain wording cues until the reader names the participant and relation being asserted. |

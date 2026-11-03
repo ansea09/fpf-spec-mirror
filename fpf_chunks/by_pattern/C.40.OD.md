@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.40.OD.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.40.OD — Construct and Continue Open-Ended Development"
-line_start: 88392
-line_end: 88688
+line_start: 88447
+line_end: 88743
 dependencies:
   - "C.32.MWA.PP"
   - "C.40.CD"

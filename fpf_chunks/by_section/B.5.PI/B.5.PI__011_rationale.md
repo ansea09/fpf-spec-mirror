@@ -6,12 +6,12 @@ section_id: "B.5.PI:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__011_rationale.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:10 — Rationale"
-line_start: 50732
-line_end: 50737
+line_start: 50785
+line_end: 50790
 dependencies:
   - "A.1.STM"
   - "A.15.11"

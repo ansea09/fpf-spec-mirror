@@ -6,12 +6,12 @@ section_id: "A.2.5:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__016_relations.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition for Work Admission"
   - "A.2.5:13 — Relations"
-line_start: 6663
-line_end: 6678
+line_start: 6660
+line_end: 6675
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -39,7 +39,7 @@ keywords:
 | `A.2` and `C.3` | Govern exact context-local system-role kinds and their `KindSignature`s; assignment-state predicates may name those kinds and signatures without making them relation participants. |
 | `A.2.1` | Use for the declared `U.SystemRoleAssignment` species and the obtaining occurrence referenced by every state relation. |
 | `A.2.2` | Governs capability and operating-envelope claims that a state predicate may reference but does not replace. |
-| `A.2.4` and `A.10` | Govern compact evidence use and full evidence-provenance support for a state assertion. |
+| `A.2.4` and `A.10` | A.2.4 governs first-use evidence classification; A.10 governs source/provenance recovery and bounded reliance. |
 | `A.2.7` | Use for relations among system-role kinds that may consume current assignment-state results without merging kinds, assignments, or states. |
 | `A.6.REL` | Governs progressive relation-occurrence individuation and occurrence-as-participant use. |
 | `A.6.5` | Governs SlotKind, ValueKind, and reference-mode discipline for the direct declaration. |

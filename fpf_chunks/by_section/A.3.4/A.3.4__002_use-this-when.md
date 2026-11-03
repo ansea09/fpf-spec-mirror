@@ -6,12 +6,12 @@ section_id: "A.3.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__002_use-this-when.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.4 — U.Transformation: Actual Bounded Change Under Conditions"
   - "A.3.4:0 — Use This When"
-line_start: 13006
-line_end: 13028
+line_start: 13002
+line_end: 13024
 dependencies:
   - "A.1"
   - "A.10"
@@ -70,7 +70,7 @@ Missing information about a neighboring claim leaves that claim unresolved; it n
 - If the issue is a law-governed operation algebra with admissibility predicates, use `A.6.1` and `E.20`.
 - If the issue is planned or dated work, use `A.15.2` or `A.15.1`.
 - If the issue is the selected compound transformation-flow structure, its locus, path, path slice, crossing, or flow valuation, use `E.18`.
-- If the issue is a graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, or wiring expression used to describe that structure mathematically, use `E.18.2` and `C.29`.
+- If the issue is a mathematical expression used to describe that structure, use `E.18.2` and `C.29`.
 - If the issue is a positive temporal aspect of an object or claim, use `C.27.TA`.
 - If the issue is adequacy or admissible use of a temporal claim, use `C.27`.
 - If the issue is holon recognition without a current actual-change identity or constructive transformation-parthood claim, use `A.1`.

@@ -6,12 +6,12 @@ section_id: "A.6.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__004_forces.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.6.2 — Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes"
   - "A.6.2:3 — Forces"
-line_start: 17246
-line_end: 17262
+line_start: 17232
+line_end: 17248
 dependencies:
   - "A.6.0"
   - "A.6.1"
@@ -34,10 +34,10 @@ keywords:
 ### A.6.2:3 - Forces
 
 * **Epistemic purity vs operational power.**
-  Effect-free episteme arrows are useful because their laws can be reasoned about algebraically and composed. If a use needs I/O, solver calls, measurements, or another effect, identify the operation application and Work separately instead of giving that activity to the arrow.
+  Effect-free episteme arrows are useful because their laws can be reasoned about algebraically and composed. If a use needs I/O, solver calls, measurements, or another effect, describe the needed activity separately. Identify any actual A.6.1 application when its declaration applies and any `U.Work` only under its independent admission conditions.
 
 * **Preserve vs retarget.**
-  A viewing arrow has endpoint epistemes with the same EntityOfConcern; a retargeting arrow has independently different ones. A separate A.6.4 bounded-use assertion states the invariant, visible loss, receiving use, conditions, and affirmative or negative polarity. A current-case judgement separately reports `satisfies`, `fails`, or `cannot decide` from exact facts.
+  A viewing arrow has endpoint epistemes with the same EntityOfConcern; a retargeting arrow has independently different ones. For a claimed receiving use, a separate A.6.4 bounded-use assertion states the invariant, visible loss, receiving use, conditions, and affirmative or negative polarity. When a current case is judged, compare its exact facts with that assertion and report `satisfies`, `fails`, or `cannot decide`.
 
 * **Conservativity vs usefulness.**
   EFEM should be **conservative**: no new commitments about the EntityOfConcern beyond what the identified source ClaimGraphs and exact admitted facts license under the named schemes. The receiving ClaimGraph may factor, aggregate, normalize, or re-express source content and may use a different representation when the loss and interpretation rule are explicit. Any operation or Work that produces that receiving episteme remains separate.

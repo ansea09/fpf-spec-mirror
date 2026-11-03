@@ -6,12 +6,12 @@ section_id: "C.41.UA:End"
 section_title: "C.41.UA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.UA/C.41.UA__014_c-41-ua-end.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.41.UA — Use a Checklist to Answer Questions and Act on the Results"
   - "C.41.UA:End — C.41.UA:End"
-line_start: 89740
-line_end: 89741
+line_start: 89795
+line_end: 89796
 dependencies:
   - "A.10"
   - "A.15.1"

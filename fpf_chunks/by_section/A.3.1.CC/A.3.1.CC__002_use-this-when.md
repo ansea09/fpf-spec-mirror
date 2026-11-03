@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__002_use-this-when.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:0 — Use This When"
-line_start: 10621
-line_end: 10643
+line_start: 10617
+line_end: 10639
 dependencies:
   - "A.10"
   - "A.15.8.MS"
@@ -25,7 +25,7 @@ keywords:
 
 Use this pattern when Method construction commitments, a MethodDescription, a selected representation, an enactment-support result, or trial evidence no longer agree well enough for a named use. Begin with the possible contradiction and the decision it blocks: which maintained claim may be wrong, incomplete, stale, or unsupported?
 
-The first useful result is a bounded coherence finding. It names the claim being checked, its maintained owner and edition, the comparison basis, the observed agreement or defect, the one result to reconsider, and the stop. A truthful `owner-not-recoverable` or `missing-comparison-basis` result is better than declaring the whole Method incoherent.
+The first useful result is a bounded coherence finding. It names the claim being checked, its maintained owner and edition, the comparison basis, the observed agreement or defect, and any correction or stop required. A truthful `owner-not-recoverable` or `missing-comparison-basis` result is better than declaring the whole Method incoherent.
 
 Here *coherence* is Plain practice wording for checking whether claims relied on for the declared use agree where they should. It is not a new FPF relation, Method admission, fit result, effectiveness result, or universal consistency proof.
 
@@ -41,6 +41,6 @@ Do not use this pattern to decide whether the Method fits another situation, tra
 | support claim | One A.15.8.MS task, configuration, A.22 proposal or selection position, collection, membership, edition, publication, direct-relation, test, or reliance claim. | A repository or successful tool task cannot repair a contradiction in another maintained result by being convenient. |
 | trial evidence | A.3.1.WT occurrence-level observations and gaps qualified for a named later use. | An observation can bear on a claim. Any correction belongs in the maintained result that owns that claim. |
 | coherence finding | A bounded agreement, contradiction, missing-information, failed-declared-conformance, or currentness result about one named claim. | “The Method is coherent” is too broad unless every claim relied on and its qualification window are actually in scope. |
-| maintained owner | The result whose claim must change if the finding is sustained: B.1.5.CM, A.3.2.DE, C.37.MP, one exact A.15.8.MS result, or another named governor. | The file that displays a claim is not necessarily its owner. |
+| maintained owner | The maintained result whose claim is being checked and where any warranted correction belongs: B.1.5.CM, A.3.2.DE, C.37.MP, one exact A.15.8.MS result, or another named governor. | The file that displays a claim is not necessarily its owner. |
 | declared conformance | A conformance claim with its named scheme, criteria, represented entity, use, and qualification window. | Passing description-side conformance does not establish Method fit, Work performance, or worth. |
 

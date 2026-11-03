@@ -6,12 +6,12 @@ section_id: "A.6.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__013_relations.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:12 — Relations"
-line_start: 17156
-line_end: 17184
+line_start: 17142
+line_end: 17170
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -60,7 +60,7 @@ keywords:
 
 #### A.6.1:12.1 - Transformation-flow use
 
-When E.18.1 reaches a mechanism question, A.6.1 supplies the reusable operation declaration and any current exact application, application binding, or realization relation. E.18.1 then carries that governed object to the next locus. Method selection, performed Work, evaluation and evidence, and gate passage retain their direct governors.
+When an E.18.1 question concerns a mechanism, use A.6.1 to obtain the needed declaration, application, binding or realization result, or its exact stop. Return that result or stop to the receiving decision or use; select any further question from what remains needed there. Method selection, performed Work, evaluation and evidence, and gate passage retain their direct governors.
 
 When selected relations and applied constraints connect signature, mechanism, method, Work, and evaluation constituents into one independently identified A.22 structure with local loci and at least two potential continuations, apply A.22.CGUS to that structure. A presentation of one traversal through a qualified CGUS is a separate demonstrative slice. The local mechanism mantra remains Plain mnemonic wording unless that wider structure actually qualifies and the later presentation is about it.
 

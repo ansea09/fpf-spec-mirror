@@ -6,12 +6,12 @@ section_id: "A.3.1.CC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.CC/A.3.1.CC__009_conformance-checklist.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.CC — Check the Coherence of a Method Claim"
   - "A.3.1.CC:7 — Conformance Checklist"
-line_start: 10766
-line_end: 10777
+line_start: 10762
+line_end: 10773
 dependencies:
   - "A.10"
   - "A.15.8.MS"
@@ -26,8 +26,8 @@ keywords:
 - [ ] The blocked use and one claim relied on for that use are named.
 - [ ] The Method is admitted or the proposed whole remains a candidate account.
 - [ ] Construction, MethodDescription, representation, support, Work, and evidence results retain separate identities and statuses.
-- [ ] The claim owner, edition or occurrence, intended use, source, and currentness window are recoverable.
-- [ ] Trial evidence is qualified, and the claim's maintained owner remains explicit.
+- [ ] The claim owner, edition or occurrence, intended use, source, and currentness window are recoverable, or the missing owner or comparison basis is explicitly returned.
+- [ ] Any trial evidence used is qualified for the named claim.
 - [ ] Agreement, contradiction, missing information, failed declared conformance, staleness, and missing owner are not merged.
 - [ ] Every correction returns to one maintained result and preserves unaffected claims.
 - [ ] A repaired claim is rechecked against the same basis, or a changed basis starts a new use.

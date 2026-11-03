@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.1.SCR.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
 line_start: 3552
@@ -45,7 +45,7 @@ keywords:
 
 **Honest unknown case.** `WorkshopController-9` is an exact boxed device, but the team cannot recover its internal assembly, reidentification rule, or operating boundary. The evaluation is **unknown** and names those missing inputs; the decision that assumes an acting controller remains blocked. The entity itself satisfies or fails the criterion independently of current knowledge.
 
-**What this buys.** A real actor, change bearer, lifecycle subject, capability holder, or project system-of-interest decision gets a tested identity and boundary. A direct Work, Method, capability, structure, episteme, or relation question leaves immediately without an unnecessary A.1 evaluation. Continue through A.1.STM when the shared project SoI and intended-use basis, or this result's connection to it, remains unresolved. Recognition alone does not require traversing the long map.
+**What this buys.** A real actor, change bearer, lifecycle subject, capability holder, or proposed project system of interest gets a tested identity and boundary. A direct Work, Method, capability, structure, episteme, or relation question leaves immediately without an unnecessary A.1 evaluation. Continue through A.1.STM when the shared project SoI and intended-use basis, or this result's connection to it, remains unresolved. Recognition alone does not require traversing the long map.
 
 **Not this pattern when.** If the subject and its admitted kind are already clear, use the subject pattern of the claim. If service or access wording hides a promise, participant, bearer, permission, Work occurrence, status, evidence, or direct relation, begin with A.6.P §4.11a. Enter A.1.SCR from that route only when the repaired claim itself depends on whether the exact entity recovered by A.6.P—an exact bearer or access-providing arrangement—is a system. If only a name for an already recoverable object is unclear, use F.18.
 
@@ -138,7 +138,7 @@ Then apply the already admitted `U.System` condition: the whole has an actual ph
 
 After one candidate bearer is recognized, rejected, or left unresolved, use `A.1.CSD` only when the current question is which other Systems may undergo relevant changes and that discovery can change a named decision or investigation. A.1.SCR does not generate the bearer set or qualify consequence paths; it supplies only the load-bearing recognition result or blocker.
 
-These are response forms, not a schema.
+
  Persist a classification assertion or evaluation-result episteme only when another use must inspect or cite it; C.2.1 is then the pattern for that episteme. `true | false | unknown` describes an evaluation and changes no kind extent.
 
 #### A.1.SCR:4.5 - Add only the neighbors used now
@@ -170,7 +170,7 @@ A future SoI or a series of intended instances can likewise be described before 
 
 For a claim about a particular dated Work occurrence, first identify every actual performing System and recover its A.13 core. Independently admit that occurrence under A.15.1 from its performance history, at least one Method actually followed, temporal extent, and at least one locally declared containing-System relation. Apply this branch to the occurrence being asserted, whether it is Work represented on the map or a separately asserted Work of using the map. After admission, add F.6 only when the receiving claim also needs precise assignment-bound attribution through that performer's same obtaining assignment. A Work-only claim may stop after admission.
 
-Infer no project designation from system recognition, affectedness, familiar wording, a system-role label, or shared realization. If the decision needs the unsupported compound project-selection truth, preserve `missing-substrate[project-selection-conjunction]` until one constructor substrate and edition define that claim.
+Infer no project designation from system recognition, affectedness, familiar wording, a system-role label, or shared realization. When a decision needs one compound claim connecting the project designation with independently established Work, change or use facts, apply A.15.6:4.1a. Return `missing-substrate[project-selection-conjunction]` only when the needed operator semantics are unavailable; preserve the designation and direct facts.
 
 #### A.1.SCR:4.8 - Use physical grounding without cross-kind identity
 
@@ -178,7 +178,7 @@ Ask what physically or operationally exists, where its boundary lies, and what p
 
 ### A.1.SCR:5 - Archetypal Grounding — Seven Heterogeneous Worked Cases
 
-Each row states whether the A.1.SCR trigger actually fires. The rows are examples.
+These examples distinguish readings that need A.1.SCR from readings handled directly by another pattern.
 
 | Source phrase | First useful result and route | Next move and governed additions | Near miss or stop |
 | --- | --- | --- | --- |

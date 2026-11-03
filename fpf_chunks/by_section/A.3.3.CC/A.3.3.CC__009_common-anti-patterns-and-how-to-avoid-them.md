@@ -6,12 +6,12 @@ section_id: "A.3.3.CC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3.CC/A.3.3.CC__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.3.CC — Construct a Configuration Description under Constraints"
   - "A.3.3.CC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 12467
-line_end: 12477
+line_start: 12463
+line_end: 12473
 dependencies:
   - "A.17"
   - "A.18"
@@ -33,6 +33,6 @@ keywords:
 | Carrying a fixed-total reduction into a model with arrivals | Make the changed total explicit or retain the counts needed to express it. |
 | Answering a job-order question from queue lengths alone | Retain the ordered identities used by the service rule. |
 | Treating a small coordinate count as a global representation | Supply coverage and equivalence information; use multiple charts or implicit constraints where needed. |
-| Rejecting a parking position because immediate sideways motion is forbidden | Keep the position and test a sequence of allowed motions under the relevant steering and obstacle conditions. |
+| Rejecting a parking position because immediate sideways motion is forbidden | Keep the position in the configuration description. Test a sequence of allowed motions under the relevant steering and obstacle conditions when the receiving question also asks about reachability. |
 | Treating a failed search as impossibility | Return the search limit, or obtain a complete argument or computation for the impossibility claim. |
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.2a.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
-line_start: 52857
-line_end: 53103
+line_start: 52910
+line_end: 53156
 dependencies:
   - "A.16"
   - "A.16.0"

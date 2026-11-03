@@ -6,12 +6,12 @@ section_id: "A.2.6:19"
 section_title: "Annexes (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__020_annexes-informative.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Test Scope Membership and Combine Scopes"
   - "A.2.6:19 — Annexes (informative)"
-line_start: 7458
-line_end: 7504
+line_start: 7455
+line_end: 7501
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -59,7 +59,7 @@ Interpret these source terms in their own use. In a guard or conformance claim, 
 `environmentSelectors`, `platformOrStandardEditions`, `resourceRegimeSelectors`, `exactLocalSenseRefs?`, and `gammaTime?` when time changes membership.
 
 **Publication-scope predicate block:**
-the exact audience, interface, availability, and other selectors that restrict publication use, always as a subset of the underlying claim or work scopes.
+the exact audience, interface, availability, and other selectors that restrict publication use, always within the underlying claim or work scope established under the applicable composition rule in §7.
 
 **Separate use-time guard:**
 work-measure targets, qualification windows, evidence freshness, and any decision threshold. These are not fields of the scope value.

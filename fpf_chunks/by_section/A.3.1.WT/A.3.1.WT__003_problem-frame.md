@@ -6,12 +6,12 @@ section_id: "A.3.1.WT:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.WT/A.3.1.WT__003_problem-frame.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.WT — Design and Interpret a Method Work Trial"
   - "A.3.1.WT:1 — Problem Frame"
-line_start: 10439
-line_end: 10444
+line_start: 10435
+line_end: 10440
 dependencies:
   - "A.10"
   - "A.15.1"

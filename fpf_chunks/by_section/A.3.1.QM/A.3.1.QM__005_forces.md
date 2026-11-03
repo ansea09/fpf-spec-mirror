@@ -6,12 +6,12 @@ section_id: "A.3.1.QM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1.QM/A.3.1.QM__005_forces.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1.QM — Qualify a Method for Its Intended Contribution"
   - "A.3.1.QM:3 — Forces"
-line_start: 10289
-line_end: 10298
+line_start: 10285
+line_end: 10294
 dependencies:
   - "A.3.1"
   - "A.3.1.CC"
@@ -27,7 +27,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Early rejection | Individual defects should stop early, while whole conflicts must remain visible for C.32.MWA.PP. |
+| Early rejection | An individual condition can rule out a subject for the receiving use before whole comparison; combined conflicts remain visible for C.32.MWA.PP. |
 | Status preservation | Candidate accounts need useful assessment, while qualification cannot identify their Methods. |
 | Comparable questions | A common set of questions aids choice, while not every question applies to every subject. |
 | Evidence proportionality | A bounded use may need little evidence, while safety, authority, or high burden can require stronger support. |

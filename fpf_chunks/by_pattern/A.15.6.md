@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.6.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
-line_start: 31160
-line_end: 31571
+line_start: 31146
+line_end: 31557
 dependencies:
   - "A.1"
   - "A.1.STM"

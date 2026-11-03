@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
-line_start: 28788
-line_end: 29181
+line_start: 28774
+line_end: 29167
 dependencies:
   - "A.10"
   - "A.13"

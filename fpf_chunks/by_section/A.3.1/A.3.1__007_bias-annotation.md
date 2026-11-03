@@ -6,12 +6,12 @@ section_id: "A.3.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__007_bias-annotation.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:6 — Bias-Annotation"
-line_start: 9735
-line_end: 9748
+line_start: 9731
+line_end: 9744
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,7 +41,7 @@ keywords:
 
 The following biases obscure method identity:
 
-* **description-as-method bias**: a publication, program, diagram, or protocol is treated as the method instead of a method description;
+* **description-as-method bias**: a document or representation is treated as the reusable way it describes;
 * **practice-as-method bias**: a source says "practice" and the repair silently chooses `U.Method` without checking whether the current claim is Work, system-role assignment, discipline, cultural-evolution, evidence, source label, or Method relation structure;
 * **run-as-method bias**: a trace, log, run, or result record is treated as the reusable way of doing;
 * **software-notation bias**: code, algorithm, workflow, or programming-paradigm language becomes the default ontology for every method;

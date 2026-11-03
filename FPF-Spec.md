@@ -147,9 +147,9 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | A.3.1.MR | **Candidate-Method Recovery from Work Evidence** | Stable | Use when observations or evidence about several performances may show a reusable way but Method identity remains a candidate. Returns one source-traceable account per candidate, real rivals and relevant gaps—or an honest record-only result. A useful distinguishing question is retained when it can change recovery or receiving use; completion requires no irrelevant follow-up study. | **Builds on:** C.2.1, A.3.1, A.15.1, A.10. **Coordinates with:** A.3.2, A.15.6, C.32.MWA, RMP.10 for a needed empirical programme and RMP.11 for historical inquiry. |
 | A.3.1.DR | **Recover Method Contributions from Documentary Sources** | Stable | Documents contain useful ways of working, but names and summaries do not recover their actions, conditions or limits. Reconstruct the source contribution while distinguishing an author claim from practice evidence. | F.0.1 for source meaning; A.3.1.MR for recovery from Work; F.0.2 for synthesis; A.3.1.QM for qualification. |
 | A.3.1.QM | **Qualify a Method for Its Intended Contribution** | Stable | One Method or candidate must supply a named contribution. Qualify its result, applicability, evidence and limits without inferring the adequacy of a combined arrangement. | A.3.1 for identity; A.3.1.DR and A.3.1.MR for recovered accounts; C.39.RQ; A.3.1.WT, A.3.1.CC and A.3.1.FT for the relevant check. |
-| A.3.1.WT | **Design and Interpret a Method Work Trial** | Stable | An unresolved Method question needs evidence from Work. Design the trial, variation, observation and stop, then interpret only the conclusion the observed occurrence supports. | A.15.1 for Work; A.10 for evidence; A.3.1.QM, A.3.1.CC and A.3.1.FT for distinct qualification questions. |
-| A.3.1.CC | **Check the Coherence of a Method Claim** | Stable | A Method-related claim may contradict its maintained basis. Compare the exact claim, source and use, then return correction to the responsible description, representation or support result. | A.10; A.3.1 and A.3.2; C.37; A.15.8.MS; the direct governor of the contradicted claim. |
-| A.3.1.FT | **Qualify Method Fit and Transfer** | Stable | A successful Method use is being carried to another situation. Compare source and receiving conditions, adaptations and retained evidence; return fit, a bounded transfer or the unresolved condition. | A.3.1 for identity; C.39.RQ; A.3.1.QM/WT; C.11 for a later choice. |
+| A.3.1.WT | **Design and Interpret a Method Work Trial** | Stable | An unresolved Method question needs evidence from Work. Use suitable existing Work evidence or design a trial with relevant variation, observations and stops; interpret only the conclusion the evidence supports. | A.15.1 for Work; A.10 for evidence; A.3.1.QM, A.3.1.CC and A.3.1.FT for distinct qualification questions. |
+| A.3.1.CC | **Check the Coherence of a Method Claim** | Stable | A Method-related claim may contradict its maintained basis. Compare the exact claim, source and use, then return any needed correction to the maintained result that owns the claim. | A.10; A.3.1 and A.3.2; C.37; A.15.8.MS; the direct governor of the contradicted claim. |
+| A.3.1.FT | **Qualify Method Fit and Transfer** | Stable | A practitioner must decide whether a Method fits a named situation, where its applicability stops, or whether a claim transfers to another situation. Assess relevant actual Work and the required result; compare situations when the selected claim needs it, preserving Method status, adaptations and evidence limits. | A.3.1 for identity; C.39.RQ; A.3.1.QM/WT; C.11 for a later choice. |
 | A.3.1.MV | **Construct and Maintain a Method Variant** | Stable | A reusable way changes, but the change may concern only its description, tool, support or one Work occurrence. Construct a semantic variant and maintain its evidence, applicability and relation to other variants. | A.3.1:4.7–4.8 for Method identity; B.1.5.RS; A.3.1.QM; A.3.1.MI and C.36.MC for distinct receiving uses. |
 | A.3.1.MI | **Introduce a Method into Practice and Decide What to Keep or Change** | Stable | Bring a selected Method into actual practice, distinguish Method use from changes in descriptions or provision, observe receiving results, and decide what to retain, revise or stop. | **Uses:** A.3.1, A.3.1.WT, A.3.1.FT, C.11.MV, C.32.MWA.PP. |
 | A.3.2 | **U.MethodDescription: Description Episteme for a Way of Doing** | Stable | *Keywords:* method-description membership, claim-bearing episteme, exact `U.Method` EntityOfConcern, substantive way-of-doing claim, same method versus equivalent descriptions, representation versus publication versus plan versus Work. *Queries:* "When does an episteme qualify as `U.MethodDescription`?", "Do these descriptions concern the same method, and are their claims equivalent?", "How do I keep a recipe or code artifact separate from enactment?" | **Builds on:** C.2.1, A.3.1, E.24.UK. **Coordinates with:** A.1.1 only when bounded model use is current, A.6.1, A.6.5, A.15.1, A.15.2, A.22, B.1.5, C.29, E.24.PUB, F.9. |
@@ -172,7 +172,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | A.6.REL | **Relation Obtaining and Individuation: Distinguish Occurrences When Needed** | Stable | Governs when a direct relation obtains, when a named receiving use needs one obtaining occurrence explicitly distinguished, and how assertions, descriptions, designations, references, publication occurrences, and representations remain distinct from the world-side occurrence. | **Builds on:** direct relation patterns for participant meanings, obtaining predicates, and occurrence-identity rules. **Coordinates with:** A.6.0, A.6.5, C.2.1, E.24, E.24.UK, F.18, C.29. |
 | A.6.0 | **U.Signature - Reusable Law-Governed Declaration Episteme** | Stable | Identifies one reusable declaration episteme by its claim content, exact EntityOfConcern, and effective ReferenceScheme; governs vocabulary, laws, applicability, relation-facing RelationSignature use, and only the specialized typed declarations needed by receiving uses. | **Builds on:** A.7, C.2.1, C.3, A.2.6, A.6.5. **Coordinates with:** A.6.REL, A.6.1, A.3.1, A.15.1, C.29, E.24.UK, E.24.PUB. |
 | A.6.1 | **U.Mechanism - Reusable Law-Governed Operation Declaration** | Stable | Keywords: U.Mechanism, operation declaration, OperationAlgebra, operation application, application binding, LawSet, AdmissibilityConditions, realization. Queries: "How do I declare a reusable operation family?", "When does one exact operation application or binding obtain?", "How do I separate declaration, realization, method, Work, evidence, and publication?" | **Builds on:** A.6.0, C.2.1, A.2.6. **Coordinates with:** A.6.REL for occurrence identity; A.6.5 only for contrasting RelationSignature SlotSpecs; A.3.1 and A.15.1 for method and dated Work; F.9 only for exact cross-context SenseCell correspondence; CHR, A.1.1 and A.22 for selected plane and model-use structure. |
-| A.6.2 | **Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes** | Stable | A local mathematical discipline for law-constrained arrows between exact epistemes. It compares their claims, EntityOfConcern, and interpreting schemes, declares the allowed ClaimGraph difference and preserve/retarget mode, and keeps the declaration, arrow, use claim, operation application, Work, and publication distinct. EFEM and EpMorphism are local C.29 classes, not admitted durable U-kinds. | **Builds on:** A.6.0, A.6.1, A.6.5, C.2.1, C.29, E.10.D2, C.3, F.9. **Used by:** A.6.3, A.6.4, E.17.0, E.17, E.18, and KD-CAL/LOG-CAL rules. |
+| A.6.2 | **Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes** | Stable | A local mathematical discipline for law-constrained arrows between exact epistemes. It compares their claims, EntityOfConcern, and interpreting schemes, declares the allowed ClaimGraph difference and preserve/retarget mode, and keeps the declaration, arrow, use claim, operation application, Work, and publication distinct. EFEM and EpMorphism are local mathematical classes in the selected formal substrate, not admitted durable U-kinds. | **Builds on:** A.6.0, A.6.1, A.6.5, C.2.1, C.29, E.10.D2, C.3, F.9. **Used by:** A.6.3, A.6.4, E.17.0, E.17, E.18, and KD-CAL/LOG-CAL rules. |
 | A.6.3 | **Episteme viewing - EntityOfConcern-preserving episteme construction** | Stable | Derives a smaller, reorganized, translated, or combined episteme from named source epistemes about the same exact EntityOfConcern. It states what is kept or omitted and adds no unsupported claim; view membership, production Work, and publication remain separate. *Queries:* "How was Y constructed from X about the same thing?", "What was kept or omitted?", "Does Y add any unsupported claim?". | **Builds on:** A.6.0, A.6.2, C.2.1, A.6.3.CR, A.6.3.RT, A.6.4, C.29. **Coordinates with:** E.17.0, A.15.1, A.15.PROD, E.24.PUB. **Used by:** E.17, E.17.0, E.18, and domain viewing patterns. |
 | A.6.3.CSC | **Controlled Semantic Coarsening: Shorten an Account for a Bounded Use** | Stable | Shorten a source account for a named present use: write a candidate, compare it with the source, preserve the distinctions needed now, expose loss or unsupported addition, block stronger downstream use, and state when to return. Open exact C.2.1 source and receiving epistemes and the A.6.3 construction only when independent reuse or consequential reliance makes them material; publication occurrence, form, and carrier remain separate under E.24.PUB. | **Builds on:** C.2.1, A.6.3. **Coordinates with:** A.6.3.CR, A.6.3.RT, A.6.3.NAR, E.17.EFP, E.24.PUB, E.17.ID.CR, F.9, F.9.1, A.15, A.6.4, A.20, A.21. |
 | A.6.3.CR | **ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression** | Stable | Textual re-expression, summary, report rewrite, translation, or filtering that preserves the same resolved EntityOfConcern, keeps source tether and omission/loss visible, and exits to explanation, representation change, retargeting, bridge, work, evidence, gate, or assurance patterns when those claims are being made. | **Builds on:** A.6.3, A.6.2, A.7, E.10.D2, E.17.0, E.17, F.9, F.18, E.10. **Coordinates with:** A.6.3.CSC, A.6.3.RT, E.17.EFP, E.17.ID.CR, A.6.4, B.5.2, A.15. |
@@ -2358,7 +2358,7 @@ Co‑evolve declared `{environment, method}` sets; publish **coverage/regret** a
 
 **Show‑Epi - Evidence synthesis (U.Episteme).**
 *Frame.* A living review compares rival **causal identification** methods (e.g., IV vs. DiD vs. RCT‑adjacent surrogates) across policy domains.
-*Glossary in action.* `U = external‑validity gain @ F/G‑declared lanes`, `C = ethics & data‑licence constraints`, `N = dissimilarity in **ClaimGraph** transformations`, `D_P = coverage of identification niches in the archive`. `ReferencePlane = episteme`. Illumination/coverage stays **report‑only telemetry**; selection returns a declared retained-set result or portfolio-publication view of methods per niche. *(Publish UTS rows only when **F.17**'s naming and reuse conditions hold; cite obtaining Bridges for cross‑domain semantic correspondence, with calibration and loss‑model pins when used or required under **G.Core:4.2.3**; edition‑pin the Descriptor/Distance defs used or required by the QD use.)*
+*Glossary in action.* `U = external‑validity gain @ F/G‑declared lanes`, `C = ethics & data‑licence constraints`, `N = dissimilarity in **ClaimGraph** transformations`, `D_P = coverage of identification niches in the archive`. `ReferencePlane = episteme`. Illumination/coverage stays **report‑only telemetry**; selection retains alternative methods as an unranked `Shortlist`, with the relevant identification niches stated for each method. When the receiving use calls for publication, publish a typed portfolio view of that result. *(Publish UTS rows only when **F.17**'s naming and reuse conditions hold; cite obtaining Bridges for cross‑domain semantic correspondence, with calibration and loss‑model pins when used or required under **G.Core:4.2.3**; edition‑pin the Descriptor/Distance defs used or required by the QD use.)*
 
 ### A.0:6 - Bias-Annotation
 
@@ -2479,7 +2479,7 @@ The current set/space reading terms should read plainly as follows:
   - the ordinary/common head of one optional interpretive-view family laid over one already-declared substrate-bearing line or one source set or one set result whose substrate remains recoverable
   - it helps the reader see the current inspection question; it does not replace the base source set or silently invent one new substrate
 - `DeclaredSubstrateAtlasView`
-  - one richer optional interpretive view that keeps several declared views, spaces, mappings, or qualifiers visible together
+  - one richer optional interpretive view that shows how several declared views, spaces, mappings or qualifications relate within the same substrate
   - use it only when the current reading truly needs that composite interpretation, and say why thinner interpretation is not enough; it is not the default meaning of palette, front, archive, shortlist, or candidate set
 - `TypedSetViews`
   - one explicit list of which declared set-view heads the current atlas/support reading is holding together
@@ -2502,7 +2502,7 @@ The current set/space reading terms should read plainly as follows:
 - If the question is “Which space are we searching or navigating?”, look for `SearchSpaceRef`.
 - If the question is “Which space are we judging outcomes in?”, look for `OutcomeSpaceRef`.
 - If the question is “What optional overlay helps me read several declared views or set results together?”, look for `DeclaredSubstrateInterpretiveView`.
-- If that overlay also keeps several declared views, spaces, mappings, or qualifiers together, it is the richer `DeclaredSubstrateAtlasView`.
+- Use `DeclaredSubstrateAtlasView` when answering the named inspection question requires showing how several declared views, spaces, mappings or qualifications relate within the same substrate.
 - If the atlas/support reading must keep several declared set views visible at once, look for `TypedSetViews`.
 - If the overlay depends on one explicit source-to-outcome mapping, look for `OutcomeMapRef`.
 - If the overlay depends on one metric, neighborhood, or reachability discipline inside one declared space, look for `SpaceMetricRef`.
@@ -2552,7 +2552,7 @@ When the next decision depends on which exact System acts, is intended to change
 
 Once the exact proposed or observed focus is current, use `A.1.CSD` when the next question is which other Systems may undergo relevant changes and omitting one could change a named decision or investigation. That branch discovers candidate bearers and qualified consequence claims; it does not repeat recognition of the focus or settle causality, evaluation, or choice.
 
-After recognition, use `A.1.STM` only when the remaining problem is loss of the long dependency from project use through architecture, Work, change, and recursive builders. Otherwise apply the rule that defines or tests the next claim.
+After recognition, use `A.1.STM` when a connected project account is still needed to explain the System's intended use, the functioning and construction required for that use, and how capable creators can obtain that System. Otherwise apply the rule that defines or tests the next claim.
 
 
 **What goes wrong if missed.** A claim attributes revision Work to a document, gives a theory physical ports, or treats a list as an organization. A lathe that changes a workpiece is treated as its containing whole without an obtaining part-whole relation. An architecture claim lacks the holon whose structure is selected.
@@ -2727,7 +2727,7 @@ A.1 governs constructive holon recognition. Exact part-relation patterns govern 
 
 Use A.14 and the direct relation patterns to identify collection belonging and any independently obtaining component, portion, aspect, phase, constituent, or other constructive part relation. Use C.13 to report how already grounded facts form a collection, assemble the candidate, or distinguish an aspect. If a C.13 trace is materialized, it is a C.2.1 episteme about that construction. Use B.3.5 only when a named assurance use elects its profile.
 
-Systems, epistemes, methods, dated work occurrences, and disciplines are admitted holon kinds under their direct patterns. C.13 may describe their construction only after those patterns supply exact parts and whole-forming relations for the candidate. A selected `U.Structure`, including `BoundedModelUseStructure`, organizes already identified relations for a use; selection or a diagram gives it no constituents, parthood, agency, holonhood, or B.2 transition.
+Systems, epistemes, methods, dated work occurrences, and disciplines are admitted holon kinds under their direct patterns. C.13 may describe their construction only after those patterns supply exact parts and whole-forming relations for the candidate. A selected `U.Structure`, including `BoundedModelUseStructure`, organizes already identified relations for a use; selecting or drawing that structure does not establish constructive part-whole relations or that its constituents form a holon; it supplies neither acting eligibility nor a B.2 whole-reidentification result.
 
 FPF avoids unrestricted composition. A set of nearby objects, graph, diagram, system-role-kind or assignment bundle, method algebra, work breakdown, or source table does not become a holon merely because it can be listed or represented as a whole. Several independently identified transformations likewise do not become parts of one composite transformation from shared timing, a changed referent, a method or work decomposition, or a C.13 trace. When the work requires positive transformation composition or transformation holonhood and no direct composition pattern supplies the candidate whole, constituents, contribution, compatibility, and reidentification rule, retain the exact blocker and stop before A.1 classification.
 
@@ -2785,7 +2785,7 @@ A system under an exact `U.SystemRoleAssignment` may explain, publish, compare, 
 
 A fleet register supports the claim that a vehicle belongs to the fleet only under its registration rule. In the register-only case the fleet is not thereby established as a holon: no vehicle-to-whole assembly or composition-grounded characteristic is claimed. Fleet availability is a separate collection characteristic. A fleet-coordination organization that coordinates vehicles, drivers, rules, and Work can be an acting collective `U.System` only after all six A.1 matters, including its constructive relations and assembly, have been recovered.
 
-If a source says "the fleet responded", recover the actual claim: individual vehicle work, fleet-coordination system work, collection-as-whole characteristic, or B.2 whole reidentification.
+If a source says "the fleet responded", determine whether it reports actions of individual vehicles, Work by the fleet-coordination System, or a collection-level characteristic; identify the actual performers when Work is claimed.
 
 #### A.1:5.4 - Lathe Changing A Workpiece
 
@@ -2840,7 +2840,7 @@ This pattern intentionally resists:
 | --- | --- | --- |
 | System as universal root | A theory, document, model, source, or dashboard receives physical system properties. | Re-type as `U.Episteme`, publication, source-use object, or another direct object before using system claims. |
 | Document edited itself | A model, theory, or document is said to perform a revision. | Name the revising `U.System`. If the account claims revision Work, first recover that System's A.13 core—local agential system-role kind and criterion, classification, and obtaining assignment with the required scope, situation, and window—then use A.15.1 to admit the Work. A short account may omit restating these facts only when they remain recoverable; add F.6 only for precise assignment-bound attribution. Changed claim content identifies another `U.Episteme`; test any edition relation separately, and distinguish publication or carrier changes under their own patterns. |
-| Collection as actor | A list, batch, pool, fleet, or community is said to decide or perform Work. | Recover who or what belongs to the collection under its own rule, a possible holon, a whole-level characteristic, an acting collective System, or B.2 whole reidentification. |
+| Collection as actor | A list, batch, pool, fleet, or community is said to decide or perform Work. | Identify the Systems claimed to decide or perform Work. If the collection is claimed to act as one System, establish its constructive recognition and acting eligibility; retain a mere membership or collection-characteristic claim at that scope. |
 | Interaction as one umbrella | Signal, source use, publication use, transformation, measurement, and control are all called interaction. | Recover the exact direct relation; use F.9 for a needed semantic correspondence or difference between two exact local senses from different semantic contexts, and `A.3.4` when bounded change is current. |
 | Omnibus participation relation | References to system-role-kind classification or assignment, capability, method, work, transformation, evidence, and time are packed into one additional relation-shaped record. | Keep the direct relation occurrences separate; select their organization as `U.Structure` only when that organization changes the receiving use. |
 | Boundary by drawing | A box, folder, section, dashboard view, or diagram is treated as the holon boundary. | Recover the exact delimitation relation, criterion, or selected structure from its direct pattern; keep the drawing as a description or view. |
@@ -2866,7 +2866,7 @@ Costs:
 
 A.1 prevents category errors by separating individuation, constructive part-whole recognition, acting eligibility, and claim-bearing. `U.Entity` gives the minimal referenceable object. `U.Holon` adds six separately recoverable constructive components: exact candidate, exact constituents, exact part relations and assembly, reidentification, a composition-grounded whole-level characteristic, and compatible possible participation in a governed larger assembly. `U.System` adds acting eligibility. `U.Episteme` adds claim-bearing structure without agentivity. `U.Work` and `U.Discipline` are holon-kind examples only through their subject patterns; `BoundedModelUseStructure` is selected `U.Structure`, not another holon kind.
 
-The recognition base cannot depend on a prior context object without recursion. It begins with the exact candidate and world-side construction facts. Public-kind admission is the separate one-time `E.24.UK` decision. Classification work may evaluate the criterion, but its `true | false | unknown` result, a C.2.1 assertion, evidence, currentness, and receiving disposition neither participate in a candidate-side relation nor alter the candidate's identity.
+The recognition base cannot depend on a prior context object without recursion. It begins with the exact candidate and world-side construction facts. Public-kind admission is the separate one-time `E.24.UK` decision. Classification work evaluates what its available inputs establish about those facts and may return `true`, `false`, or `unknown`; the evaluation and its record remain distinct from the construction and identity being judged.
 
 This also prevents ontology duplication. A theory under concern, a theory description, a publication of that description, and the system that edits the publication can all be named without turning the filling of one participant slot into a new kind. Architecture likewise starts from the exact holon recognized under an admitted kind whose selected structures matter; diagrams and structure descriptions remain epistemes.
 
@@ -2892,8 +2892,8 @@ For the Pump #37 and scientific-theory cases in A.1:5, the practical consequence
 - **A.1.RI** develops reidentification across observations and supplies a supported identifying result or the alternatives still relevant to use.
 
 - **Builds on:** `E.24.UK` for one-time public U-kind admission, `A.14` and `C.13` for exact part relations and constructive assembly, and `B.3.5` when Working-Model assurance grounding is current.
-- **Coordinates with:** `A.1.STM` only after recognition when the current problem is use of the system-thinking long attention map; `A.15.1` for dated classification work; `A.6.1` for a current typed evaluation operation and actual bindings; `C.2.1` for classification-assertion or evaluation-result episteme identity; `A.10` and `B.3` for evidence and warrant; `G.11` for assertion-edition currentness; `B.2` for the separate whole-reidentification question; `A.1.1` for bounded model-use structure; `A.22` for selected structure; `C.30` for architecture; `A.3.4` for transformation; `C.20` for discipline; and `E.10.ARCH` for wording-use restoration.
-- **Applied by:** Use `A.1.SCR` when a practitioner must find the exact acting or changed System for a decision that depends on systemhood. After an exact proposed or observed focus is current, use `A.1.CSD` when the next question is which other Systems may undergo relevant changes. Use `A.1.STM` only when the practitioner still cannot connect a recognized project System to the long dependency map. For a direct Work, Method, capability, structure, episteme, or relation question, apply the pattern that defines or tests that claim instead of invoking this complete criterion.
+- **Coordinates with:** `A.1.STM` after recognition when the System's intended use, required functioning and construction, and work of its creators still need to be connected; `A.15.1` for dated classification work; `A.6.1` for a current typed evaluation operation and actual bindings; `C.2.1` for classification-assertion or evaluation-result episteme identity; `A.10` and `B.3` for evidence and warrant; `G.11` for assertion-edition currentness; `B.2` for the separate whole-reidentification question; `A.1.1` for bounded model-use structure; `A.22` for selected structure; `C.30` for architecture; `A.3.4` for transformation; `C.20` for discipline; and `E.10.ARCH` for wording-use restoration.
+- **Applied by:** Use `A.1.SCR` when a practitioner must find the exact acting or changed System for a decision that depends on systemhood. After an exact proposed or observed focus is current, use `A.1.CSD` when the next question is which other Systems may undergo relevant changes. Use `A.1.STM` when the practitioner still needs to connect the recognized System's intended use, required functioning and construction, and the work of its creators. For a direct Work, Method, capability, structure, episteme, or relation question, apply the pattern that defines or tests that claim instead of invoking this complete criterion.
 - **Used by:** patterns that need an exact recognized holon, an already admitted holon kind, an acting system, a non-agentive episteme, a grounded part-whole claim, a collection-versus-collective distinction, a delimitation relation, or a boundary-crossing relation.
 
 
@@ -3141,7 +3141,7 @@ The named selection-use frame is developed in section 5.1. If the decision asks 
 | Clinical and billing terminology | Separate F.6 attributions, A.1.1 use occurrences, and A.2.6 scopes for diagnosis and billing Work. | Each positive structure has its own complete three-relation organization, applied constraints, and selection-use frame; a shared model does not merge them. |
 | Published classification model | Actual assigned-Work use of one published model concerning an organization. | Applicability, use, coherence, constraints, and one classification-use frame jointly change the classification decision; publication alone is insufficient. |
 
-**Short glosses.** A **model episteme** is one exact claim-bearing model edition. A **model-use holon** is one already admitted system or other concrete whole about which the model applies or is used; it is not a context container. **Work** (`U.Work`) is one exact dated doing, not its method, plan, or result. A **claim scope** (`U.ClaimScope`) is the set-valued boundary of context slices for one claim. A **relation occurrence** is a world-side relation actually obtaining under its predicate. A **reference scheme** is the interpretation basis for claim content. A **structure** here is a selected organization of already governed constituents, obtaining relations, applied constraints, and one exact selection-use frame; it is not another whole.
+**Short glosses.** A **model episteme** is one exact claim-bearing model edition. A **model-use holon** is one already admitted holon, such as a system, a performed Work occurrence or an episteme, about which the model applies or is used; it is not a context container. **Work** (`U.Work`) is one exact dated doing, not its method, plan, or result. A **claim scope** (`U.ClaimScope`) is the set-valued boundary of context slices for one claim. A **relation occurrence** is a world-side relation actually obtaining under its predicate. A **reference scheme** is the interpretation basis for claim content. A **structure** here is a selected organization of already governed constituents, obtaining relations, applied constraints, and one exact selection-use frame; it is not another whole.
 
 **Adoption test.** After applying A.1.1, name the exact organization that changes the present decision and the condition for stopping or returning to its direct relations. If either is missing, stop at the direct relation or the pattern that defines or tests it.
 
@@ -3266,7 +3266,7 @@ Scope delimitation is not another direct relation kind here. The `U.ClaimScope` 
 | `ModelExpressionCoherencePredicateSlot` | `ModelExpressionCoherencePredicate` | `ByValue` | The admitted five-part criterion value; its label, evaluator, result, or evidence cannot substitute for it. |
 | `ModelExpressionCoherenceReferenceSchemeSlot` | `EpistemeInterpretationScheme` (C.2.1:4.1.2) | `ByValue` | The shared scheme or the receiving comparison basis used by the admitted bridged branch. |
 
-R is the abstract rule-collection entity individuated under C.2.1:4.1.1 and classified by the entity ValueKind in :4.1.2. That entity, rather than its description or designation, is the actual participant. Carrying its designation `ByValue` supplies the rules directly; a document or name for them is insufficient. Range membership does not establish scheme equality, the required correspondence, or P. Changing R changes the participant tuple; changing only its expression while preserving all operative rules does not.
+R is the abstract rule-collection entity individuated under C.2.1:4.1.1 and classified by the entity ValueKind in :4.1.2. That entity, rather than its description or designation, is the actual participant. Carrying its designation `ByValue` supplies the rules directly; a document or name for them is insufficient. Membership in EpistemeInterpretationScheme does not establish scheme equality, the required correspondence, or satisfaction of the declared coherence criterion. Changing R changes the participant tuple; changing only its expression while preserving all operative rules does not.
 
 **Well-formedness constraint `WF-A1.1-COH`.** `ModelExpressionCoherenceRelation(M,E,P,R)` obtains exactly when either (a) `R` equals the C.2.1 effective schemes of both epistemes, or (b) `P` resolves every differing source and receiving F.17 `SchemeSenseCell` pair and names an obtaining F.9 `Bridge` for each required correspondence; and, after that semantic branch is established, the fixed predicate value `P` returns true for the fixed claim contents of `M` and `E` under `R`. An unresolved cell, missing Bridge, shared spelling, common label, Bridge Card, or mere interpretability establishes no bridged branch.
 
@@ -3474,7 +3474,7 @@ It also has a model-coherence bias. Actual systems, work, methods, transformatio
 ### A.1.1:7 - Conformance Checklist
 
 1. A positive `BoundedModelUseStructure` exposes all four A.22 discriminators: exact constituents, exact selected obtaining applicability/use/coherence occurrences, exact applied constraints, and one named question/action/stop-or-return selection-use frame.
-2. The three direct relation declarations satisfy `WF-A1.1-APP`, `WF-A1.1-USE`, and `WF-A1.1-COH`; any imported-sense receiving use additionally satisfies `WF-A1.1-APP-USE` or `WF-A1.1-COH-USE`. Missing conditions return the named stop rather than a positive assertion.
+2. For each claimed relation occurrence, establish that the corresponding obtaining conditions in `WF-A1.1-APP`, `WF-A1.1-USE`, or `WF-A1.1-COH` hold; any imported-sense receiving use additionally satisfies `WF-A1.1-APP-USE` or `WF-A1.1-COH-USE`. Missing conditions return the named stop rather than a positive assertion.
 3. Every `ModelExpressionCoherencePredicate` **value** satisfies the local five-part membership and value-identity rule. Every `ModelExpressionCoherenceRelation` **occurrence** is participant-determined by `<model episteme, expression episteme, predicate value, comparison scheme>` and has no interval discriminator.
 4. `BoundedModelUseStructure` is governed as `U.Structure`; its identity uses the four A.22 discriminators and their continuity rule.
 5. Reidentification compares all four discriminators and then applies A.1.1:4.3. A changed applied constraint or changed question/action/stop-or-return frame reopens identity even when constituents and relation occurrences are unchanged; an altered explanation reopens a discriminator only if it changes an applied constraint or frame value; a changed page, graph, rendering, or publication does not.
@@ -3506,7 +3506,7 @@ It also has a model-coherence bias. Actual systems, work, methods, transformatio
 
 ### A.1.1:10 - Rationale
 
-The selected object must survive two decisive tests. One subsystem under two models needs two bounded contexts without duplicating the subsystem. One model coherently used across several loci may need one bounded context without pretending those loci are parts of another whole. A dependent `U.Structure` over exact relations passes both tests.
+The selected object must survive two decisive tests. Two independently complete model-use organizations over one subsystem need distinct bounded contexts without duplicating the subsystem. One model coherently used across several loci may need one bounded context without pretending those loci are parts of another whole. A dependent `U.Structure` over exact relations passes both tests.
 
 The practical DDD lesson retained here is that boundaries matter because model applicability, actual use, expression consistency, and relationships can change engineering decisions. FPF does not copy that sentence as one ontology: it separates participant-determined fixed-content coherence from maintenance Work, identifies each bounded model-use structure without crossings, and includes an independently obtaining crossing only as a selected relation occurrence in a distinct A.22 structure over already identified endpoints.
 
@@ -3571,7 +3571,7 @@ The external sources therefore change recognition and the tests applied to the w
 
 **Honest unknown case.** `WorkshopController-9` is an exact boxed device, but the team cannot recover its internal assembly, reidentification rule, or operating boundary. The evaluation is **unknown** and names those missing inputs; the decision that assumes an acting controller remains blocked. The entity itself satisfies or fails the criterion independently of current knowledge.
 
-**What this buys.** A real actor, change bearer, lifecycle subject, capability holder, or project system-of-interest decision gets a tested identity and boundary. A direct Work, Method, capability, structure, episteme, or relation question leaves immediately without an unnecessary A.1 evaluation. Continue through A.1.STM when the shared project SoI and intended-use basis, or this result's connection to it, remains unresolved. Recognition alone does not require traversing the long map.
+**What this buys.** A real actor, change bearer, lifecycle subject, capability holder, or proposed project system of interest gets a tested identity and boundary. A direct Work, Method, capability, structure, episteme, or relation question leaves immediately without an unnecessary A.1 evaluation. Continue through A.1.STM when the shared project SoI and intended-use basis, or this result's connection to it, remains unresolved. Recognition alone does not require traversing the long map.
 
 **Not this pattern when.** If the subject and its admitted kind are already clear, use the subject pattern of the claim. If service or access wording hides a promise, participant, bearer, permission, Work occurrence, status, evidence, or direct relation, begin with A.6.P §4.11a. Enter A.1.SCR from that route only when the repaired claim itself depends on whether the exact entity recovered by A.6.P—an exact bearer or access-providing arrangement—is a system. If only a name for an already recoverable object is unclear, use F.18.
 
@@ -3664,7 +3664,7 @@ Then apply the already admitted `U.System` condition: the whole has an actual ph
 
 After one candidate bearer is recognized, rejected, or left unresolved, use `A.1.CSD` only when the current question is which other Systems may undergo relevant changes and that discovery can change a named decision or investigation. A.1.SCR does not generate the bearer set or qualify consequence paths; it supplies only the load-bearing recognition result or blocker.
 
-These are response forms, not a schema.
+
  Persist a classification assertion or evaluation-result episteme only when another use must inspect or cite it; C.2.1 is then the pattern for that episteme. `true | false | unknown` describes an evaluation and changes no kind extent.
 
 #### A.1.SCR:4.5 - Add only the neighbors used now
@@ -3696,7 +3696,7 @@ A future SoI or a series of intended instances can likewise be described before 
 
 For a claim about a particular dated Work occurrence, first identify every actual performing System and recover its A.13 core. Independently admit that occurrence under A.15.1 from its performance history, at least one Method actually followed, temporal extent, and at least one locally declared containing-System relation. Apply this branch to the occurrence being asserted, whether it is Work represented on the map or a separately asserted Work of using the map. After admission, add F.6 only when the receiving claim also needs precise assignment-bound attribution through that performer's same obtaining assignment. A Work-only claim may stop after admission.
 
-Infer no project designation from system recognition, affectedness, familiar wording, a system-role label, or shared realization. If the decision needs the unsupported compound project-selection truth, preserve `missing-substrate[project-selection-conjunction]` until one constructor substrate and edition define that claim.
+Infer no project designation from system recognition, affectedness, familiar wording, a system-role label, or shared realization. When a decision needs one compound claim connecting the project designation with independently established Work, change or use facts, apply A.15.6:4.1a. Return `missing-substrate[project-selection-conjunction]` only when the needed operator semantics are unavailable; preserve the designation and direct facts.
 
 #### A.1.SCR:4.8 - Use physical grounding without cross-kind identity
 
@@ -3704,7 +3704,7 @@ Ask what physically or operationally exists, where its boundary lies, and what p
 
 ### A.1.SCR:5 - Archetypal Grounding — Seven Heterogeneous Worked Cases
 
-Each row states whether the A.1.SCR trigger actually fires. The rows are examples.
+These examples distinguish readings that need A.1.SCR from readings handled directly by another pattern.
 
 | Source phrase | First useful result and route | Next move and governed additions | Near miss or stop |
 | --- | --- | --- | --- |
@@ -3866,7 +3866,7 @@ Affectedness creates no `AffectedSystem`, `ConsequenceBearingSystem`, `AffectedS
 
 A proposed change can affect Systems beyond its proposer's chosen boundary, for example through material transfers, information exchange or dependencies in the work being performed. Some paths already obtain; others are plausible claims awaiting observation.
 
-Find enough actual Systems or intended System referents whose changed states or characteristics can alter the named decision or investigation. Apply the ordinary A.1 criterion to each candidate; visibility and the ability to answer an inquiry do not determine systemhood or consequence relevance.
+Find enough actual Systems or intended System referents whose changed states or characteristics can alter the named decision or investigation. For an actual candidate whose systemhood matters to the receiving decision or investigation, use A.1.SCR or reuse its existing recognition basis; visibility and the ability to answer an inquiry do not determine systemhood or consequence relevance.
 
 Scale words do not solve the search. A constituent, containing System, neighboring whole, and later reidentified whole are relevant only through their actual construction, delimitation, direct relations, or a genuine whole-reidentification question. Consequences on several sides remain separate even when a domain calculation later compares them.
 
@@ -3905,11 +3905,11 @@ Discover outward from concrete possibilities, preserve the status of every relat
 3. **Generate change-producing possibilities.** Consider intended and plausible Work, realization, operation, use, maintenance, misuse, failure, recovery, adaptation, continuing change, retirement, and later conditions that matter here. These are examples of possibilities, not a lifecycle or mandatory sequence.
 4. **Trace paths and challenge the boundary.** Follow supported obtaining direct-relation occurrences separately from modal path claims. For a modal claim, name the proposed relation kind, candidate participants, conditions, support, and uncertainty. Then ask which Systems capable of bearing the stated change remain outside the current frame.
 5. **Recover relation status and holon basis.** Establish every claimed world-side relation occurrence—such as part-whole, participation, dependency, crossing, or exposure—only through its direct governor. Recover an environment from one focal System delimitation, exact external referents, supported crossing relations, and the selected use; recover a delimitation or boundary through its own FPF construction and supporting facts, retaining its kind under the direct pattern. A boundary label alone establishes no relation occurrence. Support a containing-System claim through the exact part-whole relation and construction. A context or declared scope remains a use-bounding fact and does not by itself make a world-side relation obtain. Use exact construction facts rather than a level word. Use B.2 or B.2.2 only when current facts create a real whole-reidentification question, then inspect possible bearers on both sides.
-6. **Recognize or retain bearer references.** Use `A.1.SCR` only when an actual candidate's systemhood is load-bearing. Keep a not-yet-present intended bearer as a designator inside modal content; retain an unidentified bearer as an explicit unknown without changing the claim's modality. Preserve a collection, place, scope, or other holon under its own kind or blocker.
+6. **Recognize or retain bearer references.** Use `A.1.SCR` only when an actual candidate's systemhood is load-bearing. Keep a not-yet-present intended bearer as a designator inside modal content; retain an unidentified bearer as an explicit unknown without changing the claim's modality. Preserve a collection, place, scope, or other referent under its own kind or blocker.
 7. **Qualify each consequence claim.** Name the changed state or characteristic, exact bearer, obtaining-occurrence or modal-path status, conditions, configuration, direction and magnitude cue when known, time, grounded whole/part or declared-scope coordinate when current, evidence, uncertainty, and causal status.
 8. **Keep cross-scale coordinates distinct.** Preserve each bearer's changed state or characteristic, conditions, horizon, evidence, uncertainty, and receiving use. A later domain aggregate may be added for its own use; it does not replace the original claims or set priority by scale.
 9. **Connect the result.** For each material claim, state whether the receiver needs a constraint, alternative, evidence-producing probe, specialist return, monitoring condition, reversible step, or explicit unresolved gap. Route a stronger claim to the pattern or practice that defines and tests it.
-10. **Select further inquiry by contribution and burden.** When a particular missing bearer or path could change the receiving use, apply `C.11.DUA` to what an attainable observation could establish and its full preparation, access, performer, interpretation, delay, displaced work, and downside. Compare it with the useful present account, retained constraint or alternative, and stop. Examine proposed observations separately and as a programme: individually useful requests can compete for the same capacity or jointly miss the window. Prioritize a selected inquiry by its consequences and reversibility, keeping poorly observed sides and their original coordinates visible.
+10. **Select further inquiry by contribution and burden.** When a particular missing bearer or path could change the receiving use, apply `C.11.DUA` to what an attainable observation could establish and its full preparation, access, performer, interpretation, delay, displaced work, and downside. Compare further inquiry with using the present account, retaining a constraint or alternative, or stopping. Examine proposed observations separately and as a programme: individually useful requests can compete for the same capacity or jointly miss the window. Prioritize a selected inquiry by its consequences and reversibility, keeping poorly observed sides and their original coordinates visible.
 11. **Stop and reopen.** Finish when the account gives the receiver the useful qualified answer and its material limit. Retain plausible missing bearers or paths and a reopen condition where they change interpretation or a later use. Name a next discovery action only when selected under step 10; an unresolved path requires no study proposal or separate explanation for omitting one.
 
 This sequence of actions is a reasoning aid. Discovery, observation, design, comparison, and specialist inquiry may proceed concurrently and reopen one another.
@@ -3956,7 +3956,7 @@ A thin account may contain one qualified consequence claim plus one unresolved b
 
 | Working situation | First action | First useful result or stop |
 | --- | --- | --- |
-| A flood-pump modernization may shift load, maintenance demand, downstream flow, and failure exposure. | Name the configuration decision, trace the finite change through supported plant relations and modal operating paths, and challenge the selected boundary. | Return an additional pump, maintenance, downstream, or containing-System claim when it changes a design constraint or monitoring condition. Finish if the current account already supports the configuration decision. If a missing relation blocks the next needed claim, stop that branch and name the exact missing relation. |
+| A flood-pump modernization may shift load, maintenance demand, downstream flow, and failure exposure. | Name the configuration decision, trace the finite change through supported plant relations and modal operating paths, and challenge the selected boundary. | Return an additional consequence claim naming the affected System and possible change when that claim changes a design constraint or monitoring condition. Finish if the current account already supports the configuration decision. If a missing relation blocks the next needed claim, stop that branch and name the exact missing relation. |
 | An on-call and platform arrangement is being reorganized. | Trace the proposed Work and assignment changes to employee, provider, service, customer, and neighboring organization Systems without treating those names as a level ladder. | Keep workload, capability, service, and organization consequences separate; return the missing bearer or relation to the organization-change Method. |
 | A public appointment service is being redesigned through facilitated inquiry. | Trace service and policy alternatives to applicant, staff, provider, transport, and other material Systems; use participation as a discovery source, not proof of systemhood or authority. | Return descriptive bearer claims to the facilitated inquiry; route participation, concern, and authority questions to their direct practice. |
 | A nutrient pulse in a bioreactor may change living and engineered Systems. | Trace supported feed and effluent relations separately from modal biological and operating paths, and recover actual whole/part facts. | Return the separate consequence claims and current limit; select spatial sampling, pressure observation, or effluent measurement only when their individual and combined contribution warrants the programme. |
@@ -4071,7 +4071,7 @@ Each row distinguishes a descriptive result, constructive Method, normative prem
 | NIST, [AI Risk Management Framework 1.0](https://doi.org/10.6028/NIST.AI.100-1) and [Map playbook](https://airc.nist.gov/airmf-resources/playbook/map/) | The framework and playbook add misuse, repurposing, downstream factors, external feedback, later conditions, and continuing remapping as prompts. | **Adapt.** Reject AI actor classes, ready scale lists, risk taxonomy, governance apparatus, and aggregate score as general FPF results. |
 | ISO/IEC/IEEE [24748-7000:2022](https://www.iso.org/standard/84893.html), IEEE [7000-2021](https://standards.ieee.org/ieee/7000/6781/), and ISO/IEC/IEEE [15288:2023](https://www.iso.org/standard/81702.html) | These normative engineering standards provide implementable traceability and iterative/lifecycle attention. They change practice by keeping selected concerns linked to concepts, requirements, design choices, and later observation. | **Adapt conditionally.** Conformance and involvement do not prove bearer completeness, discovery effectiveness, System construction, representation, or authority. The full processes stay in engineering practice. |
 | Friedman and Hendry, [Value Sensitive Design, 2nd ed.](https://mitpress.mit.edu/9780262553254/value-sensitive-design/), 2026, and the authors' [Method account](https://vsdesign.org/vsd/) | VSD retains direct/indirect stakeholder and value-scenario prompts and multi-lifespan attention. Value scenarios can widen social/design path generation. | **Adapt conditionally.** Human-value orientation is a normative premise, not the A.1.CSD admission test. Route Diverse Voices and tech-policy participation to the direct domain practice. |
-| U.S. EPA, [Conducting an Ecological Risk Assessment](https://www.epa.gov/risk/conducting-ecological-risk-assessment) and [EcoBox analysis material](https://www.epa.gov/ecobox/phases-era-analysis) | Laboratory, field, monitoring, and modeled practices support stressor-to-receptor tracing, exposure/effect separation, time, recovery, uncertainty, and evidence-producing questions. They provide the neutral living-System stress test. | **Adapt.** Organism, population, community, and ecosystem are prompts, not a ready FPF holarchy. Regulatory endpoints, adversity judgments, risk estimates, and the complete ecological procedure remain domain results. |
+| U.S. EPA, [Conducting an Ecological Risk Assessment](https://www.epa.gov/risk/conducting-ecological-risk-assessment) and [EcoBox analysis material](https://www.epa.gov/ecobox/phases-era-analysis) | Laboratory, field, monitoring, and modeled practices support stressor-to-receptor tracing, exposure/effect separation, time, recovery, uncertainty, and evidence-producing questions. | **Adapt.** Organism, population, community, and ecosystem are prompts, not a ready FPF holarchy. Regulatory endpoints, adversity judgments, risk estimates, and the complete ecological procedure remain domain results. |
 
 These sources converge on path tracing, boundary challenge, proportional inquiry, qualified uncertainty, and reopening. Their taxonomies, normative ends, calculations, evidence thresholds, and authority do not converge and are not imported.
 
@@ -4246,7 +4246,7 @@ The order below gives the direction of project justification: establish intended
 4. **From Methods to creator contributions and capable performers.** First state the kind of work and result required by the chosen Method: for example, joining the selected material by welding, producing a learned controller, or calibrating the assembled instrument. Name the corresponding creator contribution in familiar professional terms when this helps find the needed practice. The Method and its subject matter give that name its meaning; a job title alone does not supply the way of doing. Then compare concrete people, teams, equipment or other systems that could provide the contribution under the required conditions. A change from welding to another way of joining can change the needed contribution, tools and capable performers even while the intended product stays the same. Use A.2 for a needed system-role classification or assignment question and A.2.2 to establish qualified ability and fit. An able candidate can be considered before it is assigned. Tools can participate in production without being independent agential performers; A.13 and A.15.1 govern any actual performer and Work claims.
 5. **From capable creators to their cooperation.** Determine how their contributions can be made usable together. What must each receive from another, what shared conditions must remain true, and which decisions or changes must be agreed? Separate capability from availability and authority: each contributor may know how to perform its part while their combined work cannot obtain the result. Develop candidate arrangements of contributions, information, resources and decisions through C.32; use B.1.5.EW when the constituent and encompassing work is unclear. A common aim explains why to cooperate but does not settle how. If organization or supporting equipment must change, that becomes another creation question rather than a promise supplied by a team name.
 6. **Repeat for the creators that must themselves be obtained.** A missing instrument may need manufacture; a team may need training or organization; a production installation may need redesign. Apply the same questions to that local system while retaining its contribution to the original SoI. A builder's period of use can be a period in which another system is produced or changed. This connection is not composition: a factory is not a constituent of its product.
-7. **Follow each local result into its receiving use.** State what receives it next and what that use is expected to enable on the way to the common SoI. Inspect the resulting facts as work proceeds. Failed tests, new interests or an unworkable method may reopen the construction, functioning, SoI boundary or even the original purpose. Reopen the premise that failed rather than protect the earlier choice because work has already been spent. When the SoI, intended use, boundary or expected contribution materially changes, compare the affected participants' accounts again and trace which decisions rely on the changed premise. Restore the agreement needed by those decisions and make its revised basis available to the participants who must use it. Agreement between two teams does not update other dependent teams' decisions; resolve or expose that remaining difference before relying on their combined work. Unaffected decisions need not be reopened, and no particular meeting format is required.
+7. **Follow each local result into its receiving use.** State what receives it next and what that use is expected to enable on the way to the common SoI. Inspect the resulting facts as work proceeds. Failed tests, new interests or an unworkable method may reopen the construction, functioning, SoI boundary or even the original purpose. Reopen the premise that failed rather than protect the earlier choice because work has already been spent. When the SoI, intended use, boundary or expected contribution materially changes, compare the affected participants' accounts again and trace which decisions rely on the changed premise. Restore the agreement needed by those decisions and make its revised basis available to the participants who must use it. Agreement between two teams does not update other dependent teams' decisions; resolve or expose that remaining difference before relying on their combined work. Unaffected decisions need not be reopened.
 
 An inverse inquiry can begin with an available person, tool or scientific result and seek a worthwhile use. Once a possible application is found, recover its receiving effects and wider functioning before justifying the construction or provision proposal. This preserves the same direction of justification without pretending that use was known at the start. Negotiation, exploration, fabrication and testing may overlap or repeat. Use a WorkPlan for intended execution order and actual histories for what happened.
 
@@ -4760,7 +4760,7 @@ An editorial-review practice and a safety-assurance practice can each use `Revie
 
 Suppose a staffing dashboard proposes `u-reviewer-display`: show assignments from both practices in one `Reviewer` column. First recover the two exact local kinds and any F.17 cells needed by the displayed expressions; then establish only the C.3.3 kind relation and F.9 local-sense relation that the display actually consumes. State a separate C.2.1 bounded-use assertion with direction `d-safety-to-editorial-display`, rule `r-preserve-reviewer-differences`, and tolerance `t-shared-label-only`, plus polarity and effective scheme. The rule keeps the practices' admission, independence, evidence, and completion fields separate and tolerates only the shared display label.
 
-Current A.10 provenance and `RelianceDisposition=pass` can support that display use. They do not justify substitution between assignments or merge the two kinds. If an actual named assurance claim about that use is current, only its B.3 result can support that bounded assurance use; a non-positive disposition stops or narrows it. Consequence alone creates no assurance claim. A Bridge Card can package the Bridge, bounded-use assertion, evidence, and disposition, but it grants no assignment, eligibility, capability, use suitability, or performed-Work inference. A selected `BoundedModelUseStructure` is cited only in the receiving use whose interpretation it changes.
+Current A.10 provenance and `RelianceDisposition=pass` can support that display use. They do not justify substitution between assignments or merge the two kinds. If an actual named assurance claim about that use is current, only its B.3 result can support that bounded assurance use; a non-positive disposition stops or narrows it. A Bridge Card can package the Bridge, bounded-use assertion, evidence, and disposition, but it grants no assignment, eligibility, capability, use suitability, or performed-Work inference. A selected `BoundedModelUseStructure` is cited only in the receiving use whose interpretation it changes.
 
 #### A.2:5.5 - A Relation Participant Slot Named `role`
 
@@ -5435,7 +5435,7 @@ The monthly-close service promise is a promise-content claim. The actual close f
 
 Consider a constructed rhythmic case with eight pulses and audible attacks at pulses 0, 3 and 6. One Method alternates left and right on audible attacks; another alternates on every pulse, including silent ones. Both yield L,R,L in the first cycle. In the next cycle, attack-wise alternation yields R,L,R, while pulse-wise alternation yields L,R,L again. The first cycle therefore cannot distinguish control of these two state-update rules.
 
-Suppose a performer draws both traces correctly and performs the second rule while following a teacher, but reverts to attack-wise alternation without that demonstration. The comparison preserves the correct explanation as a recovery result. Its capability conclusion concerns execution with the demonstration; independent control of the silent-pulse transition remains unsupported. A pulse reference may remain if the receiving performance normally provides it. The next useful question is how to acquire or supply that transition, not how many correct notes to add to a mastery score; E.23.CDI develops that choice. A digital controller can be compared on the same selected relation using its input/output traces, but that comparison supplies neither a human learning mechanism nor evidence that either holder acquired the rule through training.
+Suppose a performer draws both traces correctly and performs the second rule while following a teacher, but reverts to attack-wise alternation without that demonstration. The comparison preserves the correct explanation as a recovery result. Its capability conclusion concerns execution with the demonstration; independent control of the silent-pulse transition remains unsupported. A pulse reference may remain if the receiving performance normally provides it. If the receiving work still needs a way to obtain correct execution of the pulse-wise rule, use E.23.CDI to decide how to develop the holder's ability, supply the missing contribution through another arrangement, or combine the two. A digital controller can be compared on the same selected relation using its input/output traces, but that comparison supplies neither a human learning mechanism nor evidence that either holder acquired the rule through training.
 
 ### A.2.2:7 - Reconsider the Claim, Its Support or Its Fit
 
@@ -5483,7 +5483,7 @@ The claim is about `Cell_3`. Justify its attained bounds under the stated compon
 | `CC-A2.2-07` | Are the exact system-role assignment, `SystemRoleAssignmentStateRelation`, Method-side admission or fit condition, performed Work, and promise content kept separate? |
 | `CC-A2.2-08` | For Work admission, are the exact system-role assignment, capability claim, and capability-fit predicate all visible when all are current? |
 | `CC-A2.2-09` | For composite holders, is the capability stated at the whole whose ability is being claimed? |
-| `CC-A2.2-10` | Are lowering and reopen conditions local enough to change only the affected ability proposition, assertion, evidence relation, currentness assessment or fit predicate? |
+| `CC-A2.2-10` | When conditions change, is it clear which ability proposition, assertion, evidence relation, currentness assessment or fit predicate needs reconsideration? |
 | `CC-A2.2-11` | When wording says that a holder possesses an algorithm, did the use dispatch separately to capability, exact Method, deployed-software or possession relation, or candidate episteme, and apply A.3.2's exact-Method `EntityOfConcern` plus substantive-claim threshold before admitting `U.MethodDescription`? For a dated Work claim, are the actual performer and Work independently established through A.13 and A.15.1, with F.6 added only when precise assignment-bound attribution is needed and Method enactment kept separate? |
 | `CC-A2.2-12` | When a Method-relative profile is used, are the selected Method relations, holder, help, comparison conditions and supported claims explicit, with unresolved evidence and acquisition history kept distinct from current ability? |
 
@@ -5597,9 +5597,6 @@ Typical moments:
 Across domains the word **service** is used for many different things: a server or **provider**, an **API**, a **procedure**, a **run**, a **department**, even a **product bundle**. Such polysemy is productive in everyday speech. In a normative model, the current claim must identify which referent is meant.
 
 FPF therefore reserves **`U.PromiseContent`** for one kernel meaning: a consumer-facing **promise content** clause. When *service* denotes something else, use **A.6.P:4.11a** to recover whether it denotes code or another episteme, a Method, a Work occurrence or ordinary run, provider participation, an exact bearer or access-providing arrangement, permission, status, or a direct relation. A product label chooses none of these readings, and bare *service* has no default system reading. After recovery, name the referent or relation. Apply A.1 or A.1.SCR only when the recovered referent is an entity and the claim depends on its being a system.
-
-This keeps the kernel minimal while keeping the prose readable to non‑mathematicians: the canonical symbol is `U.PromiseContent`, and the head kind in normative text is always *promise content*.
-
 
 **Plain reading.** A promise content says what a consumer may rely on. A provider System can be classified under a local provider system-role kind. When a claim needs exact delivery Work, use A.13 to identify the System that actually did it. A.15.1 then admits the dated occurrence as Work from its Method, history, extent, and containing System, without relying on F.6. If the current use also needs to say exactly under which assignment that Work was performed, F.6 checks the separate relation against the same assignment used by A.13. A `U.MethodDescription` describes the Method.
 
@@ -5743,7 +5740,7 @@ UnitOfDeliverySpec : U.Episteme ::= {
 }
 ```
 
-The selector admits only Work occurrences for which the promise's delivery and acceptance predicates are satisfied. For a cross-promise aggregate using one Work occurrence, or when rework must not add another delivery unit, `dedupeKeyRef` or the cited counting policy states the intended boundary. Separate per-promise counts may use the default below. A measurement Method, its description, evidence-admissibility rule, evidence epistemes, and evidence-use relations appear only when the count depends on a measurement reading or relied-on evidence. Pure counting needs none of that apparatus.
+The selector admits only Work occurrences for which the promise's delivery and acceptance predicates are satisfied. For a cross-promise aggregate using one Work occurrence, or when rework must not add another delivery unit, `dedupeKeyRef` or the cited counting policy states the intended boundary. Separate per-promise counts may use the default below. When the count depends on a measurement reading, identify the measurement Method and the specification values needed to interpret that reading. Cite a MethodDescription only when the calculation or interpretation uses claims in that edition. Retain the evidence-admissibility conditions, evidence epistemes and evidence-use relations required for reliance on the count.
 
 If `unitOfDelivery` is absent, the local default is one unit per obtaining `PromiseContentFulfilmentRelation` occurrence. A separately governed charging relation may consume the resulting quantity but does not define this counting rule.
 
@@ -5772,14 +5769,14 @@ This mini-schema is a recommendation only: it does not admit another U-kind. An 
 
 #### A.2.3:4.2 - What `U.PromiseContent` is **not**
 
-* **Not a provider:** use an assignment occurrence and its declared species under `U.SystemRoleAssignment`. The occurrence identifies the provider System and assigned local kind; the species defines those participant meanings and the assigned-kind domain.
+* **Not a provider:** identify the provider; when the current claim is its system-role assignment, use an assignment occurrence and its declared species under `U.SystemRoleAssignment`. The occurrence identifies the provider System and assigned local kind; the species defines those participant meanings and the assigned-kind domain.
 * **Not an individual deontic commitment:** that is one obtaining `U.Commitment` under A.2.8 whose actual duty bearer, exact referents, constitutive rule, instituting basis, scope, and validity are established independently.
 * **Not an access point or bearer:** addressable *service*, server, desk, endpoint, process, component, application, host, or cluster wording first goes to A.6.P:4.11a. Recover whether it denotes code or another episteme, a Method, a Work occurrence or ordinary run, an exact bearer or access-providing arrangement, or another directly governed object; apply A.1 or A.1.SCR only when a separate repaired claim depends on an exact recovered entity being a system.
 * **Not a method or method description:** the semantic way of doing is `U.Method`; a recipe or other episteme describing that way is `U.MethodDescription`.
 * **Not delivery work or its description:** performed delivery is `U.Work`; a ticket, case description, or incident description is a separately governed episteme about planned or performed work.
 * **Not a work schedule:** use `U.WorkPlan` under A.15.2 when the content coordinates intended Work.
 * **Not a capability:** capability is the provider System's ability to perform a work family or produce a result class under declared conditions and attained bounds. A.2.2 separates that proposition from its assertion, qualification and fit. Delivery may depend on several qualified ability claims about the provider or other holders.
-* **Not its scope or use interval:** `U.ClaimScope` states where the promise claims hold, `U.WorkScope` states where a provider capability can deliver work, and `PromiseUseIntervalSlot` states when one `PromiseContentUse` occurrence obtains. These are three different values.
+* **Not its scope or use interval:** `U.ClaimScope` states where the promise claims hold, `U.WorkScope` states the work conditions covered by the provider's capability claim, and `PromiseUseIntervalSlot` states when one `PromiseContentUse` occurrence obtains. These are three different values.
 
 #### A.2.3:4.3 - Promise content, delivery work, and evaluation work
 
@@ -5802,7 +5799,7 @@ This mini-schema is a recommendation only: it does not admit another U-kind. An 
 >
 > `U.PromiseContent` states the promise. An A.2.8 `U.Commitment` relation may refer to that content; its duty-bearer position is filled by one System or separately identified party. The provider-assignment species defines holder and assigned-kind meanings. Delivery and evaluation follow the §4.3 route: A.13 identifies who actually performed the Work, and A.15.1 admits the dated occurrence independently. The diagram shows an F.6 edge only when this case also needs the exact assignment under which that Work was performed. Evidence relations support selected delivery-work facts and post-work states. The evaluation operation carries its result binding, while C.2.1 identifies any verdict episteme and A.15.PROD states any identity-inception claim.
 >
-> This informative diagram is a publication-side representation, not new ontology. It prevents two category errors: treating `U.PromiseContent` as the addressable access system, and treating a publication-side list or diagram of service senses as a relation occurrence that replaces the direct relations shown here.
+> This informative diagram is a publication-side representation, not new ontology.
 ```mermaid
 flowchart LR
   SC["Promise content<br/>(U.PromiseContent episteme)"]
@@ -5847,7 +5844,7 @@ If the current claim is about invocation, connection, visitation, restart, or sc
 
 ### A.2.3:5.1 - Bias-Annotation
 
-A.2.3 repairs the collapse of several service-related referents into one service label. A visible service name often denotes provider, access point, method, work, commitment, ticket, evidence, and promised outcome without saying which claim is current. The pattern recovers the promise-content episteme first; A.2.8 then governs commitment, A.2.1 provider participation, A.3.2 access description, A.15.1 delivery work, A.10 evidence claims, and the direct outcome and acceptance patterns their respective relations.
+A.2.3 repairs the collapse of several service-related referents into one service label. A visible service name often denotes provider, access point, method, work, commitment, ticket, evidence, and promised outcome without saying which claim is current. A.2.3 governs the promise-content episteme. For neighboring claims that are current, use A.2.8 for commitment, A.2.1 for a provider's system-role assignment, A.3.2 for an access description admitted as `U.MethodDescription`, A.15.1 for delivery Work, A.10 for evidence relations, and the direct outcome and acceptance patterns for their respective relations.
 
 In an agreement or SLA, an A.2.8 `U.Commitment` may have promise content in its referents position. An agreement publication, service catalog, API page, or offer publication may provide a physical or digital carrier whose actual state or realization yields an expression of selected `U.Episteme` values about the agreement, promise content, commitment, or fulfilment work. Identify the expression independently and any reusable form whose rules it follows. An exact `EpistemePublicationRelation` may make each selected episteme available to its declared audience for its bounded use. These commitments, epistemes, expressions, forms, publication occurrences, and carriers retain separate identities.
 
@@ -5883,7 +5880,7 @@ Every promise content names its effective `ReferenceScheme`, `promisedOutcomeSpe
 
 **CC-A2.3-4 (Acceptance).**
 `acceptanceSpec` **MUST** be present and **MUST** define how delivered `U.Work` is judged as pass, fail, or a declared grade against named evaluation criteria and target values. Any SLA deontics are represented through `U.Commitment`. The promise content **MUST** declare **Claim scope (G)** where operating conditions, populations, locales, or another claim extent matter. Every verdict cites an explicit **Gamma_time** window.
-If the acceptance criteria mention measurable characteristics such as availability, latency, accuracy, cost, or safety, each characteristic MUST be introduced through C.16 with its scale, unit when applicable, and measurement specification under C.16:5.2. A relied-on measured verdict additionally names its supporting evidence and direct evidence relations. When a quality-family label hides several possible contributors, use C.25 to retain the one characteristic or structured bundle that the acceptance claim needs. If the reading depends on a particular way of measuring, cite the `U.MethodDescription` that describes that measurement method. The characteristic is referenced by its exact identifier rather than by an unqualified KPI label.
+If the acceptance criteria mention measurable characteristics such as availability, latency, accuracy, cost, or safety, each characteristic MUST be introduced through C.16 with its scale, unit when applicable, and measurement specification under C.16:5.2. A relied-on measured verdict additionally names its supporting evidence and direct evidence relations. When a quality-family label hides several possible contributors, use C.25 to retain the one characteristic or structured bundle that the acceptance claim needs. If the reading depends on a particular measurement Method, identify that Method. Cite its `U.MethodDescription` only when the acceptance claim depends on that edition's claims. The characteristic is referenced by its exact identifier rather than by an unqualified KPI label.
 
 **CC‑A2.3‑5 (Access).**
 When the promised use relies on a request-facing access Method, `accessSpec` **MUST** identify the A.3.2-admitted `U.MethodDescription` that describes it. Separately recover the endpoint, desk, manifold, or other exact bearer through A.6.P:4.11a. Apply A.1 or A.1.SCR only when a current claim depends on that bearer being an access-point `U.System`; otherwise keep the bearer without the stronger claim. If no access-method description is current because access is ambient, `accessSpec` may be omitted. In either branch, keep an eligibility predicate in the promise content when eligibility is promised; when eligibility depends on a separately obtaining admission relation, identify that relation and use the pattern that defines or tests it.
@@ -5932,13 +5929,13 @@ To determine whether a `U.Work` occurrence participating in `PromiseContentUse` 
 
 Assert delivery only after these mode-specific conditions are established. Explicitly individuate `PromisedOutcomeDeliveryRelation` only when a downstream relation or claim must refer to its occurrence identity; otherwise retain the readable `deliversPromisedOutcome(W, OS)` assertion.
 **CC-A2.3-18 (Acceptance evaluation supports rather than constitutes fulfilment).**
-Follow the §4.3 route: use A.13 to identify the actual evaluator and let A.15.1 admit the evaluation Work independently before saying that it enacts the Method selected in `acceptanceSpec` over the same Work facts and post-work states used to test delivery. Add F.6 only if this evaluation account must also state under which assignment the Work was performed. Cite a MethodDescription only when the claim depends on that exact edition. The actual operation application carries its argument and result bindings. Any durable verdict episteme, identity-inception claim, and evidence-use relation remains separate and supports the fulfilment assertion without constituting the relation.
+Follow the §4.3 route: use A.13 to identify the actual evaluator and let A.15.1 admit the evaluation Work independently before saying that it enacts the Method selected in `acceptanceSpec` over the same Work facts and post-work states used to test delivery. Add F.6 only if this evaluation account must also state under which assignment the Work was performed. Cite a MethodDescription only when the claim depends on that exact edition. The actual operation application carries its argument and result bindings. Any durable verdict episteme, any identity-inception claim, and evidence-use relations remain separate. Independently established A.10 evidence relations support reliance on the fulfilment assertion; they do not constitute fulfilment.
 
 **CC-A2.3-19 (OutcomeSpec ↔ unitOfDelivery coherence).**
 If `unitOfDelivery` is present, its counting rule states a `selectorRef` that selects only work occurrences eligible to satisfy `SC.promisedOutcomeSpecRef` in the declared mode. For a cross-promise aggregate using one occurrence, the rule states either `dedupeKeyRef` or cites the counting-policy episteme that defines the counting rule. A selector may denote work occurrences filling `FulfilmentWorkOccurrenceSlot` in obtaining `PromiseContentFulfilmentRelation` occurrences; it does not count work for which fulfilment has not been established.
 
 **CC-A2.3-20 (Unit-of-delivery is computable from work facts).**
-If `unitOfDelivery` is present, it follows A.2.3:4.1.2. A pure count needs only its selector, quantity rule, and any deduplication boundary. Add a measurement Method, MethodDescription, evidence-admissibility condition, evidence epistemes, and evidence-use relations only when the count actually depends on a measurement reading or relied-on evidence.
+If `unitOfDelivery` is present, it follows A.2.3:4.1.2. For a pure count, identify its selector, quantity rule and any deduplication boundary. When the count depends on a measurement reading, identify its Method and required specification values; cite a MethodDescription only when the calculation or interpretation uses claims in that edition. Retain the evidence-admissibility conditions, evidence epistemes and evidence-use relations required for reliance on the count.
 
 ### A.2.3:8 - Promise-content use, delivery, evaluation, and evidence
 
@@ -5979,9 +5976,9 @@ PromiseContentFulfilmentRelation : U.Relation
 
 The semantic predicate for this relation is satisfied only when `PromiseContentUse` obtains for the same work and promise-content participants, `PromisedOutcomeDeliveryRelation` obtains for that work and the `OutcomeSpec` resolved from that promise content, and the acceptance predicate declared by `acceptanceSpec` is satisfied for the exact delivery-work facts, affected or delivered entities, post-work state, and any direct delivery or acceptance relation required by the criterion. `PromiseContentFulfilmentRelation` obtains for the declared participants when that semantic predicate is satisfied. Its occurrence key is `<FulfilmentWorkOccurrenceSlot, FulfilledPromiseContentSlot>`. The readable predicate is `fulfilsPromiseContent(W, SC)`. A later evaluation may change the supported assertion about whether the relation obtains; it does not change relation identity. When satisfaction of any required predicate is unresolved, no positive fulfilment assertion is available for reliance.
 
-The explicit `RelationSignature` declarations are warranted only when `unitOfDelivery` selectors or fulfilment measures refer to relation-occurrence identity. Ordinary prose may stop at the readable predicates when no later relation refers to that occurrence identity.
+Expose a relation-occurrence reference only when a downstream relation or claim needs that identity, such as a unit-of-delivery selector or a fulfilment measure. Otherwise use the readable predicate.
 
-> **Invariant:** `fulfilsPromiseContent(W, SC)` implies `PromiseContentUse(W, SC, T)`, `deliversPromisedOutcome(W, resolve(SC.promisedOutcomeSpecRef))`, and satisfaction of the acceptance criteria declared in `SC.acceptanceSpec`. An exact evaluation-result episteme may support the corresponding assertion through independently established evidence-use relations cited in A.10's descriptive account; neither that episteme nor the account becomes a fulfilment-relation participant.
+> **Invariant:** `fulfilsPromiseContent(W, SC)` implies that `PromiseContentUse(W, SC, T)` obtains for some declared interval `T`, that `deliversPromisedOutcome(W, resolve(SC.promisedOutcomeSpecRef))` obtains, and that the acceptance criteria declared in `SC.acceptanceSpec` are satisfied. An exact evaluation-result episteme may support the corresponding assertion through independently established evidence-use relations cited in A.10's descriptive account; neither that episteme nor the account becomes a fulfilment-relation participant.
 > **Counting rule:** Separate per-promise counts may each use the default one-unit-per-fulfilment rule. When aggregating counts across promise contents for the same Work occurrence, each applicable counting rule must state its `dedupeKeyRef` or cite its counting-policy episteme so the resulting quantities are not silently double counted.
 
 #### A.2.3:8.2 - Promise-content delivery measures
@@ -5993,10 +5990,10 @@ Until the membership judgements required by the selected counting rule and repor
 * **Delivered units:** `delivered(SC, T)` is computed from `W✓(SC, T)` using the A.2.3:4.1.2 counting rule. When `unitOfDelivery` is absent, `delivered(SC, T) = |W✓(SC, T)|`, one unit per obtaining fulfilment occurrence.
 * **Rejection rate:** for nonempty `W(SC,T)`, `rejectRate(SC, T) = 1 − |W✓(SC,T)| / |W(SC,T)|` (declare handling of `partial`). When `W(SC,T)` is empty, declare a reporting rule before returning a value; this formula has a zero denominator.
 * **Lead time:** declare the characteristic definition and aggregation separately. The definition may use work duration or request-to-completion delta; the aggregation may use an average or named percentile.
-* **Availability and uptime claims:** select one declared characteristic instead of treating the labels as synonyms. Derive its observed characteristic value from selected work facts and telemetry observations through its C.16 measurement template, `Gamma_time` policy, and evidence relations; cite a `U.MethodDescription` when a particular measurement method affects the reading.
+* **Availability and uptime claims:** select one declared characteristic instead of treating the labels as synonyms. Derive its observed characteristic value from selected work facts and telemetry observations through its C.16 measurement template, `Gamma_time` policy, and evidence relations. Identify any measurement Method that changes the interpretation; cite a `U.MethodDescription` only when this claim uses that edition's claims.
 * **Cost‑to‑serve:** sum of `Γ_work` over `W✓` per resource category (A.15.1).
 
-Each resulting measurement-result claim is derived from selected facts about `U.Work` occurrences through its C.16 measurement template and named A.10 evidence relations; when a particular measurement method matters, its `U.MethodDescription` is cited. Resource and time actuals belong to the performed `U.Work` occurrences.
+Each resulting measurement-result claim is derived from selected facts about `U.Work` occurrences through its C.16 measurement template and named A.10 evidence relations. Make the measurement Method explicit when it affects interpretation; cite a `U.MethodDescription` only when the result claim depends on that edition's claims. Resource and time actuals belong to the performed `U.Work` occurrences.
 Aggregation across time uses the `Gamma_time` policy referenced by the named C.16 measurement template or acceptance specification; an unqualified KPI label does not select that policy. When a measure needs a B.1.4 temporal-phase aggregation of one carrier, name one `ContextTemporalAggregation@Context` record and its exact selected policy—for example, union of observed values or their convex hull—together with carrier identity, time window, coverage and non-overlap conditions, and admissible use. If those one-carrier conditions do not hold, this example is inapplicable; state the aggregation actually required and apply its defining rule. Union and convex hull are policy choices, not defaults; `Gamma_time` does not select either by itself.
 
 ### A.2.3:9 - Common misclassification repairs
@@ -6005,7 +6002,7 @@ Aggregation across time uses the `Gamma_time` policy referenced by the named C.1
 * **An API label is being used for the whole service claim.** If the referent is an interface specification, use the exact episteme and `U.MethodDescription` only when A.3.2 admits it. If it is an addressable endpoint, recover that bearer through A.6.P:4.11a and apply A.1 or A.1.SCR only when a current claim depends on systemhood. Neither the API label nor addressability establishes membership, and neither referent is the promise-content episteme.
 * **A process or procedure label is being used for the whole service claim.** Recover the semantic way of doing as `U.Method`, its description as `U.MethodDescription`, planned work as `U.WorkPlan`, and performed occurrences as `U.Work`. Keep the promised outcome and acceptance claims in `U.PromiseContent`.
 * **A ticket or case record is being used for the whole service claim.** Recover its claim-bearing content as a ticket or case-description `U.Episteme`; keep the particular expression, any selected reusable publication form, and its physical or digital carrier separate. Relate that episteme to the named `U.WorkPlan` or `U.Work` occurrence it describes.
-* **Cost or elapsed time is attached to the promise content.** Keep resource and time actuals on the performed `U.Work` occurrence. Derive a measure over work occurrences participating in `PromiseContentUse` only through its declared characteristic, C.16 measurement template, named A.10 evidence relations, aggregation rule, and `Gamma_time` policy; cite a `U.MethodDescription` when a particular measurement method affects the reading.
+* **Cost or elapsed time is attached to the promise content.** Keep resource and time actuals on the performed `U.Work` occurrence. Derive a measure over work occurrences participating in `PromiseContentUse` only through its declared characteristic, C.16 measurement template, named A.10 evidence relations, aggregation rule, and `Gamma_time` policy. Name the measurement Method when it affects interpretation; cite its `U.MethodDescription` only when this measurement claim depends on that edition's claims.
 * **Promise content is placed in a product or system breakdown.** Keep the promise content as an episteme. The access and delivery systems may have parts and selected structures under A.22 and C.30; the promise-content episteme is not one of those parts.
 * **A person or organization name is stored as the provider system-role kind.** Identify the local provider system-role kind through `providerSystemRoleKindRef`. When an actual provider assignment is claimed, identify the person or organization, establish its A.1 System membership, and name one occurrence of a directly declared `U.SystemRoleAssignment` species with its explicit interval. A.2.1 requires an admitted holder `U.System`; describing the promise alone does not require creating an assignment.
 
@@ -6014,7 +6011,7 @@ Aggregation across time uses the `Gamma_time` policy referenced by the named C.1
 1. **Name the promises.** Identify the consumer-facing promises needed by the project. Represent each as `U.PromiseContent` with effective reference scheme, promised outcome specification, acceptance specification, and claim scope, plus access specification and unit of delivery when current.
 2. **Separate provider from promise content.** Recover each provider, access point, or delivery bearer through A.6.P:4.11a. Apply A.1 or A.1.SCR only where a provider-assignment, access-point, delivery-system, performer, or other claim depends on systemhood. When an assignment is claimed, name its A.2.1 occurrence and declared species, with the provider System as holder.
 3. **Relate promise content to delivery and evidence.** Add `PromiseContentUse` for every delivery-work occurrence evaluated under the promise. Establish `PromisedOutcomeDeliveryRelation` only after exact work facts, affected or delivered entities, post-work states, and any direct delivery relation required by the resolved `OutcomeSpec` satisfy it; establish `PromiseContentFulfilmentRelation` only after those facts and states satisfy the declared acceptance criteria. Record the actual evaluation-operation result binding, any evaluation-result episteme, the evidence epistemes it cites, and the A.10 evidence relations separately.
-4. **Define evaluation characteristics.** Select the characteristics needed to evaluate the promise. Use an applicable §8.2 formula family—availability over a named window, lead time as a declared delta plus aggregation, rejection rate `1 − |W✓| / |W|`, or cost-to-serve as summed Work resource use—or state a declared alternative. For each characteristic, name its scale, unit when applicable, C.16 measurement template, `Gamma_time` policy, and formula. A relied-on measured verdict additionally names its supporting evidence and direct evidence relations; cite a `U.MethodDescription` when a particular measurement method affects the reading.
+4. **Define evaluation characteristics.** Select the characteristics needed to evaluate the promise. Use an applicable §8.2 formula family—availability over a named window, lead time as a declared delta plus aggregation, rejection rate `1 − |W✓| / |W|`, or cost-to-serve as summed Work resource use—or state a declared alternative. For each characteristic, name its scale, unit when applicable, C.16 measurement template, `Gamma_time` policy, and formula. A relied-on measured verdict additionally names its supporting evidence and direct evidence relations. Name a measurement Method when interpretation depends on it; cite a `U.MethodDescription` only when the evaluation claim depends on that edition's claims.
 5. **Bridge domain schemes.** If a domain ontology distinguishes business, technical, or internal service kinds and relations, retain its reference scheme and name the exact obtaining F.9 Bridge for each selected sense and FPF counterpart. Add the separate C.2.1 claim that the Bridge suits the named use, then require the A.10 evidence-provenance relation with `RelianceDisposition=pass`. Use B.3 only for an actual named assurance claim. Keep `PromiseContentUse`, Work, delivery, fulfilment, result, evidence, assurance, and publication separate.
 6. **Tidy relied-on language.** Apply **L-SERV** and **A.6.P:4.11a** only when *service* or access-like wording hides a concrete subject, participant, predicate, kind, permission, Work occurrence, or next route in the current relied-on use. State what the wording denotes and use the pattern that defines or constrains that claim, or stop the use; use A.1 or A.1.SCR only when a recovered bearer claim depends on systemhood. Reserve `U.PromiseContent` for the consumer-facing promise content, and leave clear, quoted, historical, illustrative, and harmless ordinary wording outside this step.
 
@@ -6269,7 +6266,7 @@ An evidence or status label can prompt readers to assume that the needed relatio
 | `CC-A2.4-2` Admitted job | The statement is only an evidence-use or status-use classification; no `U.EvidenceRole`, episteme-as-system-role-kind classification, assignment holder, or generic result kind is created. |
 | `CC-A2.4-3` Scope and interpretation | Effective source scheme when material, grounding holon, claim or status scope, polarity or value, and relevance or status window are explicit when they change the use. |
 | `CC-A2.4-4` Work | For any source-producing, measurement, proof-checking, evaluation, transformation, or receiving Work, A.13 identifies the actual performer and A.15.1 independently admits the dated occurrence. Add F.6 only when the result must also identify the assignment under which that Work was performed. The Method and direct-relation or A.6.1 bindings remain separate. |
-| `CC-A2.4-5` Local result | The domain-local result points to its exact formal, measurement, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, system-role-kind, assignment, or decision governor. |
+| `CC-A2.4-5` Local result | When a domain-local result is claimed, identify the pattern passage that defines or constrains it. |
 | `CC-A2.4-6` Result episteme | The C.2.1 episteme that states the local result remains distinct from that result, carrier, and work. |
 | `CC-A2.4-7` Provenance/currentness | Use A.10 and G.6 for source recovery and provenance; use G.11 for currentness when it affects use. |
 | `CC-A2.4-8` Receiving use | When a particular receiving Work or receiving-use relation is asserted, name that Work and relation. Citation or availability alone does not establish actual use. |
@@ -6290,7 +6287,7 @@ An evidence or status label can prompt readers to assume that the needed relatio
 
 ### A.2.4:9 - Consequences
 
-The positive consequence is a smaller ontology and clearer use. Admitted systems may be classified under exact local system-role kinds and may hold obtaining system-role assignments; epistemes are instead used through direct evidence-use, status-use, source-use, publication-use, requirement-use, definition-use, explanation-use, assurance-use, or causal-use relations.
+Admitted systems may be classified under exact local system-role kinds and may hold obtaining system-role assignments; epistemes are instead used through direct evidence-use, status-use, source-use, publication-use, requirement-use, definition-use, explanation-use, assurance-use, or causal-use relations.
 
 The cost is explicit relation recovery. A phrase such as "evidence role", "status role", "standard role", "proof role", or "benchmark role" no longer closes the claim. The user needs to recover which episteme, claim, scope, status, time window, provenance constraint, and direct pattern are current.
 
@@ -6304,8 +6301,8 @@ An episteme may be used for several claims or governed statuses. State each evid
 
 | Source | Practical distinction | Limit |
 | --- | --- | --- |
-| [C2PA Content Credentials 2.4, April 2026](https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html), [W3C Verifiable Credentials Data Model 2.0, Recommendation 15 May 2025](https://www.w3.org/TR/vc-data-model-2.0/), [SLSA 1.2](https://slsa.dev/spec/v1.2/), and [in-toto Attestation Framework 1.2 with `Statement/v1`](https://github.com/in-toto/attestation/blob/main/spec/README.md) | Distinguish subject, issuer or producer, verifier, proof or status, time, inputs, and relying context. Use A.10/G.6 for source and provenance and G.11 for currentness; first-use classification remains separate from those questions. | A valid credential, manifest, signature, attestation, SLSA level, or displayed status does not become truth, permission, gate passage, work, result, or assurance. |
-| [ISO/IEC/IEEE 15026-2:2022, *Systems and software assurance — Part 2: Assurance case*](https://www.iso.org/standard/80625.html) | Cited evidence is distinct from the structure and maintenance of an assurance case. For an actual named assurance claim, use B.3 after A.10 source/provenance and bounded-reliance recovery. | Evidence presence, a confidence label, or an A.2.4 classification is not an assurance claim, safety result, readiness result, compliance result, or release confidence. |
+| [C2PA Content Credentials 2.4, April 2026](https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html), [W3C Verifiable Credentials Data Model 2.0, Recommendation 15 May 2025](https://www.w3.org/TR/vc-data-model-2.0/), [SLSA 1.2](https://slsa.dev/spec/v1.2/), and [in-toto Attestation Framework 1.2 with `Statement/v1`](https://github.com/in-toto/attestation/blob/main/spec/README.md) | Distinguish subject, issuer or producer, verifier, proof or status, time, inputs, and relying context. Use A.10/G.6 for source and provenance and G.11 for currentness; first-use classification remains separate from those questions. | When the receiving claim goes beyond what the credential or provenance check establishes, obtain its required grounds under the direct pattern. |
+| [ISO/IEC/IEEE 15026-2:2022, *Systems and software assurance — Part 2: Assurance case*](https://www.iso.org/standard/80625.html) | Cited evidence is distinct from the structure and maintenance of an assurance case. For an actual named assurance claim, use B.3 after A.10 source/provenance and bounded-reliance recovery. | Citation alone does not establish support for the assurance claim. |
 | Hernán and Robins, [*Causal Inference: What If*, 2020 book, online 26 April 2024 edition](https://www.hsph.harvard.edu/miguel-hernan/wp-content/uploads/sites/1268/2024/04/hernanrobins_WhatIf_26apr24.pdf) | Distinguish observational data, interventions, target-trial questions, counterfactual outcomes and estimands, identification assumptions, and realized results. C.28 governs the evidence class and causal-use result. | A causal label, model, target-trial analogy, or simulated counterfactual does not establish intervention, identification, realized outcome, or a causal-use verdict. |
 | Guizzardi et al., [*UFO: Unified Foundational Ontology*, Applied Ontology 17(1), 2022](https://doi.org/10.3233/AO-210256); related implementation accounts: [gUFO usage specification](https://nemo-ufes.github.io/gufo/overview.html) and Almeida et al., [*gUFO: A Gentle Foundational Ontology for Semantic Web Knowledge Graphs*, 2026 preprint](https://arxiv.org/abs/2603.20948) | Distinguish kinds and types, roles, relators and relations, events, and situations. In FPF, evidence-use and status-use SlotKinds name relation positions; they do not classify an episteme under a work-facing system-role kind or make it an assignment holder. | External `Role`, `Relator`, `Situation`, or OWL class vocabulary does not import a new FPF kind, replace an obtaining direct relation, or authorize an episteme system-role assignment. |
 
@@ -6314,14 +6311,14 @@ An episteme may be used for several claims or governed statuses. State each evid
 
 * **Builds on:** `A.2` for exact local system-role kinds, `A.2.1` for `U.SystemRoleAssignment`, `A.6.5` for SlotSpec discipline, and `C.2.1` for episteme identity and its distinct constitution, empirical-grounding, and edition relations.
 * **Coordinates with:** `A.10` and `G.6` for descriptive source/provenance paths; `G.11` for currentness; `B.3` for assurance; `C.28` for causal-use results; `F.10` for status families; `C.2.1` for result epistemes; exact domain patterns for local results; and `E.17`/`E.10.D2` for publication, view, explanation, and description-use cases.
-* **Separates from:** A.13 for actual performers; A.15.1 for independently admitted performed Work; F.6 when a receiving result must also identify the assignment under which that Work was performed; A.6.1 for actual bindings; A.15.PROD for episteme inception when current; gate, permission, commitment, system-role-kind, assignment, measurement, formal, diagnostic, conformance, comparison, selection, acceptance, causal, and decision patterns for their local results; and receiving-work patterns for actual later use.
+* **Separates from:** A.13 for actual performers; A.15.1 for independently admitted performed Work; F.6 when a receiving result must also identify the assignment under which that Work was performed; A.6.1 for actual bindings; A.15.PROD for episteme inception when current; the patterns that define or constrain the domain-local results; and receiving-work patterns for actual later use.
 * **Precision-restoration route:** When source wording says "evidence role", "status role", "standard role", or another role-shaped phrase around an episteme, use `E.10.ROLE` to recover the governed object or relation. Use `A.6.RSIR` only when the result is a relation participant meaning, declaration place, interface place, or representation position; use `E.10.ARCH` for the wider ontology-first repair architecture.
 
 ### A.2.4:12 - Lowering, Repair, and Refresh
 
 Lower an attempted A.2.4 use when the episteme is known but the target claim, scope, polarity, status value, time window, or provenance constraints are not recoverable. The lowered result may be source-finding, orientation, an evidence-needed note, a status-source request, or a narrowed reliance use.
 
-Repair the use when a neighboring object is current: dated work and actual bindings, a domain-local result, its C.2.1 episteme, source/provenance, G.11 currentness, receiving work and direct use, A.10 reliance, B.3 assurance, gate passage, permission, commitment, publication, requirement, definition, or explanation.
+When the intended answer goes beyond evidence-use or status-use classification, obtain that answer through the direct pattern in §4.6–§4.7.
 
 Reconsider the classification when the episteme, target claim, grounding holon, scope, polarity or status value, window, or intended use changes. Reopen the affected reliance question when a change in source currentness, proof checking, measurement, MethodDescription, or assurance basis could alter that use.
 
@@ -6339,7 +6336,7 @@ Reconsider the classification when the episteme, target claim, grounding holon, 
 
 Use this pattern when one exact assignment to a system role already obtains, but a method step, Work occurrence, incompatibility check, or operational gate depends on that assignment satisfying a particular condition during a particular window.
 
-Start with the practical question: **Does this exact assignment satisfy this exact state condition throughout the window that matters now?** The first useful result is the current `SystemRoleAssignmentStateRelation` occurrence or its absence. Add an assertion and evidence-use relation only when a later decision must rely on that result.
+Start with the practical question: **Does this exact assignment satisfy this exact state condition throughout the window that matters now?** The first useful result identifies an obtaining `SystemRoleAssignmentStateRelation` occurrence or establishes its absence; if neither is established, keep that determination unresolved. Add an assertion and evidence-use relation only when a later decision must rely on that result.
 
 Typical working moments include these:
 
@@ -6464,7 +6461,7 @@ For a relied-on state claim, keep this order:
 2. when A.2.5 independently establishes obtaining and the receiving use needs occurrence identity, individuate the occurrence under section 4.3;
 3. state a `SystemRoleAssignmentStateAssertion : U.Episteme` whose ClaimGraph carries the predicate, direct claim-family reference, polarity, known `systemRoleAssignmentStateExtent` only for an affirmative claim about an established occurrence, and any separate `declaredSystemRoleAssignmentStateEvaluationWindow`;
 4. include a meaning-bearing semantic-basis reference in the predicate identity, while a non-meaning-changing receiving-use selection stays with that use;
-5. use `A.2.4` for compact evidence use and `A.10` only when fuller evidence-basis detail changes the relied-on use; and
+5. use `A.2.4` to state the evidence-use relation. When bounded reliance needs a judgement, obtain or reuse it under `A.10` or the directly governing evaluation pattern; add fuller source/provenance detail only when the use requires it.
 6. let the direct consumer apply the supported assertion under its own subject pattern.
 
 When the account makes a claim about a particular dated evaluation Work, recover the evaluator System through A.13 and let A.15.1 independently admit that evaluation `W_eval : U.Work`. Add F.6 `performedUnderAssignment(W_eval, RA_eval)` through the same obtaining A.13 assignment only when this account or its receiving use expressly consumes precise assignment-bound attribution; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the evaluation Work intact. A separately constituted evaluation result is a `C.2.1` episteme whose ClaimGraph states the judgment about the assignment or established occurrence. The evaluation and receiving use add no participants to the state relation: its participants remain the tested assignment and its predicate, and occurrence identity still follows §4.3.
@@ -6490,7 +6487,7 @@ The consumer's direct pattern defines any admit, deny, defer, or unresolved outc
 When substitution, incompatibility, bundle, or residual qualification among exact local system-role kinds is selected with `A.2.7`, test state sensitivity through exact assignments, state predicates, and windows.
 
 - Substitution supports one admission condition only when the candidate assignment's current predicate satisfies the selected receiving rule.
-- Incompatibility is stated for the exact same-holder or different-holder rule, Work identity condition, overlapping windows, and predicate conditions under which the conflict appears.
+- Incompatibility uses the selected species' holder rule, actual-Work or proposed-action identity condition, temporal test over the relevant windows, and state-predicate conditions under which the conflict appears.
 - A Work claim needing several system-role kinds uses the independently obtaining assignments and state occurrences needed by that claim. It does not require a Cartesian product of every possible state label.
 
 A conjunction for one Work claim creates no composite system-role kind, assignment, or state predicate by form.
@@ -6553,7 +6550,7 @@ SystemRoleAssignmentStateAssertion:
   systemRoleAssignmentStateExtent: [2026-08-10T09:20, 2026-08-10T12:00]
 ```
 
-A calibration report is a separate `U.Episteme`; an A.2.4 evidence-use relation can support reliance on this assertion. At noon calibration validity ends and the predicate becomes false, so the first state occurrence ends while the assignment continues. Recalibration at 12:30 can make the same predicate true again and begins a second occurrence under that assignment.
+A calibration report is a separate `U.Episteme`; an A.2.4 evidence-use relation can support reliance on this assertion. At noon calibration validity ends and the predicate becomes false, so the first state occurrence ends while the assignment continues. If recalibration at 12:30 makes the same predicate true again, a second occurrence begins under that assignment.
 
 #### A.2.5:6.2 - Drive Motor in a Pump Assembly
 
@@ -6595,7 +6592,7 @@ The main bias risk is label-first reasoning. A familiar state word invites the r
 
 | Check | Question |
 |---|---|
-| `CC-A2.5-01` | Is the current object one obtaining occurrence of `SystemRoleAssignmentStateRelation`? |
+| `CC-A2.5-01` | Does the claim concern whether the exact assignment satisfies the identified state predicate, with an occurrence named only when obtaining is established? |
 | `CC-A2.5-02` | Does `SystemRoleAssignmentSlot` use a `U.RelationRef` constrained to `U.SystemRoleAssignment` and resolve to the exact assignment occurrence being evaluated, with its declared species, holder, and extent established under A.2.1? |
 | `CC-A2.5-03` | Is `StatePredicateSlot` present by value with exact system-role-kind domain, normalized truth clauses, temporal reading, applicability, and only meaning-bearing semantic-basis refs? |
 | `CC-A2.5-04` | Is actual state extent derived from uninterrupted predicate truth while the assignment obtains, with any target evaluation window kept separate? |
@@ -6617,7 +6614,7 @@ The main bias risk is label-first reasoning. A familiar state word invites the r
 | Evidence-as-state | A certificate or dashboard display is entered as the state. | Keep the world-side relation separate and target its assertion with an evidence-use relation. |
 | Evidence-gap-as-false | A missing current report closes a state episode. | Record unresolved reliance; close the occurrence only when a truth-condition clause is demonstrated not to hold. |
 | Capability-as-admission | Tool exposure or measured ability admits a concrete action. | Keep capability in A.2.2 and evaluate current state and action-specific conditions separately. |
-| Method-order drift | Transition arrows are used as the procedure. | Name the Work, transformation, decision, or event occurrences that change predicate truth and put order in the Method description. |
+| Method-order drift | Transition arrows are used as the procedure. | Recover the represented change and its governing pattern; state any prescribed action order in the Method description. Identify particular Work or other occurrences only when the account claims they happened. |
 | Product-state explosion | A multi-assignment Work claim enumerates every combination of labels. | Use separate state occurrences and only the conjunction needed by the current claim; create no compound system-role kind or assignment by form. |
 
 ### A.2.5:10 - Consequences
@@ -6667,7 +6664,7 @@ The sources' transferable contribution is bounded: current action decisions need
 | `A.2` and `C.3` | Govern exact context-local system-role kinds and their `KindSignature`s; assignment-state predicates may name those kinds and signatures without making them relation participants. |
 | `A.2.1` | Use for the declared `U.SystemRoleAssignment` species and the obtaining occurrence referenced by every state relation. |
 | `A.2.2` | Governs capability and operating-envelope claims that a state predicate may reference but does not replace. |
-| `A.2.4` and `A.10` | Govern compact evidence use and full evidence-provenance support for a state assertion. |
+| `A.2.4` and `A.10` | A.2.4 governs first-use evidence classification; A.10 governs source/provenance recovery and bounded reliance. |
 | `A.2.7` | Use for relations among system-role kinds that may consume current assignment-state results without merging kinds, assignments, or states. |
 | `A.6.REL` | Governs progressive relation-occurrence individuation and occurrence-as-participant use. |
 | `A.6.5` | Governs SlotKind, ValueKind, and reference-mode discipline for the direct declaration. |
@@ -6749,7 +6746,7 @@ In **F–G–R**:
 
 * **F** (formality) is “how strictly a claim is expressed” (C.2.3).
 * **G** must be “**where it holds**,” not “how abstract it sounds.”
-* **R** carries evidence and reliance currentness. Observed semantic mismatch or loss may be evidence about a proposed translation, while the permitted-loss tolerance belongs to the separate C.2.1 claim about that use.
+* **R** describes how strongly the claim is warranted by its evidence under the declared scope and use conditions (C.2.2). Observed semantic mismatch or loss may be evidence about a proposed translation, while the permitted-loss tolerance belongs to the separate C.2.1 claim about that use.
 
 When **G** is a **set‑valued scope**, composition becomes precise: serial dependencies **intersect** scopes; parallel, independently supported lines can publish a **SpanUnion**—but only where each line is supported.
 
@@ -6988,15 +6985,15 @@ These facets are **separate** from `U.WorkScope` and belong to the evidence and 
 **Meaning.** The set of `U.ContextSlice` where a **publication** (a view, card, or lane about some object or morphism) is **admissible for use** within its underlying Claim scope or Work scope.
 
 **Relation to other scopes (normative).**
-* If the publication is **about an episteme `E`**:
-  `PublicationScope(view_E) ⊆ ClaimScope(E)`.
+* If the publication's admissible use **relies on claim `c` in episteme `E`**:
+  `PublicationScope(view_E) ⊆ ClaimScope(c)`.
 * If the publication presents **a qualified holder-ability claim `C`** for work admission:
   `PublicationScope(view_C) ⊆ WorkScope(C)`, where `WorkScope(C)` is the work-condition basis designated by that claim. Any relied-on episteme ClaimScope remains a separate constraint; stating the ability in an episteme does not turn its WorkScope into ClaimScope.
-* If the publication is **about a composition**, its scope is a subset of the intersection of the exact contributing scopes. When exact local senses require translation, use section 7.5 for each affected source scope: obtaining F.9 Bridge, separate affirmative C.2.1 use claim, and current A.10 or B.3 reliance before the returned scopes are intersected.
+* When publication use requires **all contributing claims or capabilities to apply together**, its scope is a subset of their intersection. For **independent support lines for the same claim or capability**, establish the supported SpanUnion under §7.3 and bound publication use by that resulting scope. When exact local senses require translation, use section 7.5 for each affected source scope: obtaining F.9 Bridge, separate affirmative C.2.1 use claim, and current A.10 or B.3 reliance before the returned scopes are combined under the applicable rule.
 
 **Expression.** Declare `U.PublicationScope` as an exact predicate over only the `U.ContextSlice` selectors that restrict publication use: for example versioned standards, environment, audience, interface availability, exact local senses, or `gammaTime` when time changes membership. It may be narrower than the underlying scope but must not be wider.
 
-**Algebra and Delta-moves.** Publication scope uses the USM algebra. A widened publication scope is admissible only when the resulting set remains a subset of every relevant underlying Claim scope or Work scope and the publication conditions support each added slice; the underlying scope need not change when it was already broader.
+**Algebra and Delta-moves.** Publication scope uses the USM algebra. A widened publication scope is admissible only when the resulting set remains a subset of the applicable underlying Claim scope or Work scope, using §7's composition rule when several scopes contribute, and the publication conditions support each added slice; the underlying scope need not change when it was already broader.
 
 **Orthogonality to measurement.** `U.PublicationScope` is a **USM scope object** (set‑valued), not a CHR Characteristic and MUST NOT appear as a slot in a `U.CharacteristicSpace`.
 
@@ -7351,7 +7348,7 @@ A correct USM use makes scope checks reproducible: every judgment names an exact
 * **Make membership conditions explicit.** Name the parameters, ranges and standard editions that affect membership. Ordinary prose can express the predicate when its meaning is recoverable; name `gammaTime` only when time affects membership.
 * **Factor common conditions.** Use Refit to normalize units and factor shared predicates; do not widen by stealth.
 * **Partition support lines.** If you plan a **SpanUnion**, document independence up front.
-* **Publish supported scope.** Add slices as support appears (ΔG+).
+* **Publish supported scope.** When widening is needed, add only supported slices (ΔG+).
 * **Prepare needed translations.** When the receiving use needs a translation, establish the F.9 Bridge, then state the proposed use with its direction, mapping rule, tolerated loss and evidence plan. Establish the §7.5 reliance condition before using the mapping.
 
 #### A.2.6:16.3 - Minimal DSL snippet for scope blocks (illustrative)
@@ -7378,7 +7375,7 @@ receivingGuards:
 
 **Rules.**
 * **P1 (Expansion).** Profiles are macros: guards **MUST** expand them to explicit predicates before evaluating `Scope covers TargetSlice`.
-* **P2 (Edition).** Profiles are editioned. A changed predicate expression is a content change for a carrier that references the profile even when the exact scope extension is preserved; a changed extension additionally identifies another scope value.
+* **P2 (Edition).** Profiles are editioned. A changed predicate expression changes the profile declaration even when the exact scope extension is preserved; a changed extension additionally identifies another scope value.
 * **P3 (No stealth widen).** A profile update MUST NOT implicitly widen a carrier’s published scope; ΔG+ must be explicit in that carrier.
 * **P4 (Translation awareness).** If a profile expands to predicates whose exact local senses require translation, name the obtaining F.9 Bridge and the separate affirmative C.2.1 claim for that translation's direction, rule, and tolerance. The receiving guard must recover the current A.10 or B.3 reliance branch; a different label, scheme, profile, or Bridge Card alone is insufficient.
 * **P5 (No hidden context container).** A profile expands to predicates; it is not a context object, scope pattern, or additional scope kind.
@@ -7394,7 +7391,7 @@ receivingGuards:
 
 When a scope-aware decision needs durable audit evidence, its C.2.1 result episteme may name:
 
-* **Using object and exact scope.** The claim-bearing episteme, capability, or publication object designates or uses the exact scope.
+* **Using object and exact scope.** The claim-bearing episteme, qualified holder-ability claim, or publication object designates or uses the exact scope.
 * **Exact target slice.** Designate the independently identified slice with its complete declared selector schema and values. Bind the full slice as `targetSlice`; put the selector resolutions and translation inputs needed by this evaluation in `interpretationBasis`. Include `gammaTime` in the schema only when that temporal selector is part of the exact slice being evaluated.
 * **Evaluation outcome.** Record `true`, `false`, or `unknown`, plus the evaluation method or work occurrence when replay needs it.
 * **Separate guard outcomes.** Record work measures, qualification windows, formality, or freshness only when the receiving use checks them; none is membership.
@@ -7436,7 +7433,7 @@ Declare each supported serial scope (`S₁, S₂, …`) and publish **SpanUnion(
 Formalization alone does not widen scope. Widening requires a changed extension and direct support for every added slice under §7.6; changing only the expression can preserve the same scope.
 
 **Q4. What is the difference between Work scope and SLOs?**
-**Work scope** is **where** the capability can deliver; **measures** within the guard are **what** it promises there (SLO targets). Both are required at use time (WG‑1..3).
+**Work scope** names the work conditions covered by the holder's ability claim; **SLO targets** name required performance levels. At use time, check scope coverage and compare the claimed performance bounds with those targets, together with the required qualification check (WG‑1..3).
 
 **Q5. Can we assign numeric coverage to G?**
 Not normatively. G is set‑valued. You MAY attach an **informative**, explicitly declared **`CoverageMetric(G)`** (e.g., a proportion under a pinned policy) to aid **R** assessment, but guards use set membership and **`CoverageMetric(G)` MUST NOT replace `G`**.
@@ -7483,7 +7480,7 @@ Interpret these source terms in their own use. In a guard or conformance claim, 
 `environmentSelectors`, `platformOrStandardEditions`, `resourceRegimeSelectors`, `exactLocalSenseRefs?`, and `gammaTime?` when time changes membership.
 
 **Publication-scope predicate block:**
-the exact audience, interface, availability, and other selectors that restrict publication use, always as a subset of the underlying claim or work scopes.
+the exact audience, interface, availability, and other selectors that restrict publication use, always within the underlying claim or work scope established under the applicable composition rule in §7.
 
 **Separate use-time guard:**
 work-measure targets, qualification windows, evidence freshness, and any decision threshold. These are not fields of the scope value.
@@ -7560,7 +7557,7 @@ These comparisons suggest two useful questions: which conditions matter to the r
 | ------------------------------- | ----------------------------------------------- | ------------------------------------ | -------------------- | --------------------------------------------------------------------- |
 | Addressable evaluation context  | **`U.ContextSlice`**                            | **Context slice**                    | *Slice* (when local) | “domain” (as guard input), “latest” time                              |
 | Extensional scope value | **`U.Scope`**                                   | **Scope**                            | —                    | “applicability”, “envelope”, “validity” (as characteristic names)     |
-| Episteme applicability          | **`U.ClaimScope`** (*nick **G**)               | **Claim scope**                      | **G**                | “generality”, “applicability/envelope (of claim)”                     |
+| Claim applicability             | **`U.ClaimScope`** (*nick **G**)               | **Claim scope**                      | **G**                | “generality”, “applicability/envelope (of claim)”                     |
 | Capability applicability        | **`U.WorkScope`**                               | **Work scope**                       | —                    | “capability envelope”, “operational applicability”, “operation scope” |
 | Time selector                   | **`Γ_time`**                                    | **Time selector**                    | —                    | implicit “latest”                                                     |
 | Exact local-sense translation | **Obtaining F.9 Bridge + separate affirmative C.2.1 use claim + current A.10 or B.3 reliance** | **Bridge, translation rule and tolerance, checked reliance** | — | automatic Bridge use or treating a loss score as permission |
@@ -7582,7 +7579,7 @@ These comparisons suggest two useful questions: which conditions matter to the r
 * When time changes membership, name exact **`gammaTime`** and its membership boundary; never say “latest.” A time-independent predicate need not inspect `gammaTime`, but keep every selector already declared in the slice.
 * To compose, say: **“intersection along dependency paths; SpanUnion across independent support lines.”**
 * When exact local-sense translation is current, say: **“through an obtaining F.9 Bridge and a separate affirmative C.2.1 claim for this direction, rule, and tolerance; rely on it only through the current A.10 or B.3 branch, then evaluate membership on the returned scope.”**
-* When widening/narrowing, write **“ΔG+ / ΔG−”** and log the support change; use **“Refit”** for unit/param normalization.
+* When widening/narrowing, write **“ΔG+ / ΔG−”**; use **“Refit”** for unit/parameter normalization only when the exact scope extension is preserved.
 
 ###### A.2.6:20.1.3.3 - Source-phrase comparison summary
 
@@ -7604,7 +7601,7 @@ Use these conditional paraphrases with the source distinctions in §20.1.2.
 #### A.2.6:21.1 - With F–G–R (C.2.2)
 
 * **G is Claim scope.** Use set algebra (∩ / SpanUnion).
-* **F** remains the expression rigor (C.2.3); **R** captures evidence currentness and bounded reliance. Observed loss may bear on the translation-use claim; its permitted-loss tolerance remains in that claim rather than in G or the Bridge profile.
+* **F** remains the expression rigor (C.2.3); **R** describes warrant strength under the declared scope, evidence and use conditions (C.2.2). Observed loss may bear on the translation-use claim; its permitted-loss tolerance remains in that claim rather than in G or the Bridge profile.
 * **Composition.** F follows C.2.3:15.1: the essential content and connecting inferences must provide the expression properties claimed for the whole. R follows the justified support-composition model or non-aggregate synthesis under C.2.2. G follows §7.2–§7.3 (set rules).
 
 #### A.2.6:21.2 - With Formality (C.2.3)
@@ -7624,7 +7621,7 @@ Use these conditional paraphrases with the source distinctions in §20.1.2.
 
 #### A.2.6:21.5 - With Capability governance (A.2.2)
 
-* Capabilities MUST declare **Work scope**, **measures**, **qualification windows**; gates MUST verify all three.
+* For operational capability use, the capability declaration MUST identify **Work scope**, **measure bounds** and the applicable **qualification-window policy**; gates MUST check coverage, target satisfaction and qualification under §10.3.
 * Capability refits that preserve the set (unit changes) are **Refit**, not Δ(WorkScope).
 
 ### A.2.6:End
@@ -7642,7 +7639,7 @@ Use these conditional paraphrases with the source distinctions in §20.1.2.
 Use this pattern when several exact context-local system-role kinds are already admitted, and a later admission, allocation, or interpretation check needs one of these results:
 
 - an assignment to one system-role kind may satisfy a condition written for another kind;
-- two system-role kinds are incompatible under one exact holder, Work, and time rule;
+- two system-role kinds are incompatible under a stated holder rule, actual-Work or proposed-action identity condition, and temporal test;
 - several independently obtaining assignments are required together under one allocation rule; or
 - one system-role kind narrows another, and the practitioner must decide whether that narrowing is monotonic `U.SubkindOf` or a different residual relation.
 
@@ -7655,11 +7652,11 @@ Typical working moments include these:
 
 **First useful result.** Write the readable direct relation or `U.SubkindOf` claim needed by the receiving use. Recover its exact predicate. Stop there unless another claim needs one relation occurrence as an identifiable object or needs several obtaining relations selected into one structure.
 
-**Primary EntityOfConcern.** For one direct question, the EntityOfConcern is the exact relation occurrence or exact `C.3.1 U.SubkindOf` occurrence. When several such occurrences must be selected together, it is one `SystemRoleKindRelationStructure`: a dependent `U.Structure` selected from exact local system-role-kind constituents and exact obtaining relations under the exact applied constraints and one named selection-use frame.
+**Primary EntityOfConcern.** For a direct question, first identify the exact relation kind or `C.3.1 U.SubkindOf`, the participant kinds and its predicate. An assertion about a recovered obtaining occurrence uses that occurrence as its EntityOfConcern; claims without such an occurrence follow §4.7. When several such occurrences must be selected together, it is one `SystemRoleKindRelationStructure`: a dependent `U.Structure` selected from exact local system-role-kind constituents and exact obtaining relations under the exact applied constraints and one named selection-use frame.
 
 The structure contains neither holder systems nor system-role-assignment occurrences. A graph, taxonomy table, policy file, or organization chart may describe it but does not become the structure or any selected relation by form.
 
-**What goes wrong if missed.** A job-title order is used as admission authority. An independence rule omits the holder, Work, or overlap condition. A bundle name hides whether one or several systems must hold the assignments. A semantic restriction is called `U.SubkindOf` although a known broader classification can be false. A scheme or taxonomy edition is then inserted as a participant of every relation even when it changes no meaning.
+**What goes wrong if missed.** A job-title order is used as admission authority. An independence rule omits the holder, the actual Work or proposed action, or the temporal condition. A bundle name hides whether one or several systems must hold the assignments. A semantic restriction is called `U.SubkindOf` although a known broader classification can be false. A scheme or taxonomy edition is then inserted as a participant of every relation even when it changes no meaning.
 
 **What this buys.** Admission substitution, incompatibility, joint allocation, monotonic kind order, and residual qualification remain different claims with different truth and identity laws. Actual holders remain systems, actual assignments remain direct species of `U.SystemRoleAssignment`, and the system performing a receiving check remains visible.
 
@@ -7680,7 +7677,7 @@ A system-role-kind description or taxonomy episteme may state a relation claim, 
 The practitioner needs a reusable relation for a later engineering check, but familiar shorthand collapses four different questions:
 
 1. Can an assignment to one system-role kind satisfy an admission condition written for another?
-2. Are assignments to two system-role kinds incompatible under a stated holder, Work, and time rule?
+2. Are assignments to two system-role kinds incompatible under a stated holder rule, actual-Work or proposed-action identity condition, and temporal test?
 3. Must assignments to a finite set of system-role kinds be present together, and how may holders be allocated?
 4. Does one kind monotonically narrow another, or does the restriction require a different relation?
 
@@ -7838,13 +7835,13 @@ Exact current assignments and the receiving window remain inputs to the later ch
 
 For substitution and residual qualification, one occurrence begins when fixed ordered kinds satisfy one fixed predicate. For incompatibility, the participant identity is the unordered pair. For a bundle, it is the order-insensitive finite set. In every case, the occurrence continues through the maximal uninterrupted interval during which the fixed predicate obtains for those fixed participants.
 
-A compatible declaration, scheme, `KindSignature`, Bridge, or other semantic-basis edition preserves the predicate only through an explicit continuity decision showing that the rule, orientation or set semantics, applicability, system-role-kind identities, and meaning-bearing semantic basis remain unchanged. Otherwise use another predicate and establish whether it obtains for those participants. A new relation occurrence begins only when it does. Equal displayed labels establish no continuity.
+When a declaration, scheme, `KindSignature`, Bridge or other cited semantic-basis edition changes, compare the rule, orientation or set semantics, applicability, system-role-kind identities and meaning-bearing semantic basis. If these identity-bearing values remain unchanged, predicate identity is preserved. If a value changes, identify the changed predicate and establish whether it obtains for its participants; a new relation occurrence begins only when it does. If the comparison is unresolved, leave predicate continuity unresolved. Equal displayed labels establish no continuity.
 
 An affirmative assertion or occurrence description may state the known `systemRoleKindRelationExtent` only after current facts or accepted constituting history satisfy the predicate and the identity rule recovers the occurrence. Closing an open extent refines the same occurrence when obtaining was uninterrupted. A demonstrated predicate-false gap ends it; later truth begins another. Missing evidence leaves reliance unresolved and does not demonstrate a truth gap.
 
 `systemRoleKindRelationExtent` is content of an affirmative assertion or occurrence description, not a temporal SlotSpec. A target `declaredSystemRoleKindRelationEvaluationWindow` belongs to the receiving assertion or check and is not part of the direct relation signature or occurrence identity.
 
-For `U.SubkindOf`, use C.3.1's own obtaining and identity law, including its exact effective-reference-scheme edition. Do not replace it with the generic A.2.7 interval rule.
+For `U.SubkindOf`, use C.3.1's own obtaining law and participant-determined occurrence identity. The exact effective-reference-scheme edition qualifies the obtaining judgment. Do not replace that identity rule with the generic A.2.7 interval rule.
 
 `SystemRoleKindRelationStructure` identity follows all four A.22 discriminators: exact kind constituents, exact selected relation occurrences, exact applied constraint claims, and the named selection-use frame. A scheme change that changes a constituent, selected relation, applied constraint, or use frame changes the structure; selecting System, Method, Work, result episteme, and publication remain outside identity.
 
@@ -7933,7 +7930,7 @@ RelationSignature:
     PlantPressureTestAdmissionSubstitutionPredicate, ByValue
 ```
 
-The predicate names the ordered two kinds, receiving Method family, `PressureTestReady` rule, 2026H2 applicability, and the exact semantic basis whose edition changes either clause. `PlantMaintenanceRoles-2026` and `Plant-A-Maintenance-Scheme` may be cited in the assertion; they are not extra relation participants. If a later compatible edition preserves all identity-bearing clauses, an explicit continuity decision preserves the predicate. Otherwise use another predicate and establish whether it obtains for those participants. A new relation occurrence begins only when it does.
+The predicate names the ordered two kinds, receiving Method family, `PressureTestReady` rule, 2026H2 applicability, and the exact semantic basis whose edition changes either clause. `PlantMaintenanceRoles-2026` and `Plant-A-Maintenance-Scheme` may be cited in the assertion; they are not extra relation participants. When a later edition is used, compare those identity-bearing clauses. If they remain unchanged, use the same predicate. If a clause changes, identify the changed predicate and establish whether it obtains for its participants; a new relation occurrence begins only when it does. If the comparison is unresolved, leave predicate continuity unresolved.
 
 ```text
 PlantPressureTestSubstitutionAssertion:
@@ -8044,7 +8041,7 @@ Vasya may separately hold assignments to `RoboticsEngineerSystemRole` and `Music
 
 | Check | Question |
 |---|---|
-| `CC-A2.7-01` | Is the current object one exact relation among system-role kinds, one `C.3.1 U.SubkindOf` occurrence, or one dependent `SystemRoleKindRelationStructure` whose exact kind constituents, selected obtaining relation occurrences, applied constraint claims, and named selection-use frame are all recoverable? |
+| `CC-A2.7-01` | For a direct question, are the exact relation kind or `C.3.1 U.SubkindOf`, participant kinds and predicate recoverable, with an occurrence identified only when obtaining and identity are established? For a dependent `SystemRoleKindRelationStructure`, are its exact kind constituents, selected obtaining relation occurrences, applied constraint claims and named selection-use frame recoverable? |
 | `CC-A2.7-02` | Are all individual kind-slot values and all members of the bundle set exact context-local system-role kinds? |
 | `CC-A2.7-03` | Does each direct context-local species declare exact SlotSpec ValueKinds and one by-value predicate? |
 | `CC-A2.7-04` | Does the predicate state the actual receiving, incompatibility, allocation, or residual-restriction rule, applicability, and only meaning-changing semantic basis? |
@@ -8056,7 +8053,7 @@ Vasya may separately hold assignments to `RoboticsEngineerSystemRole` and `Music
 | `CC-A2.7-10` | Is `U.SubkindOf` used only after independent paired judgments establish monotonicity under the exact C.3.1 basis? |
 | `CC-A2.7-11` | Does a non-monotonic restriction remain a separately predicated residual relation? |
 | `CC-A2.7-12` | When occurrence identity matters, does it use fixed kind participants, fixed predicate, and maximal continuous truth interval rather than a row, graph key, or temporal SlotSpec; and is any target evaluation window kept in the receiving assertion or check? |
-| `CC-A2.7-13` | Does an explicit continuity decision cover a compatible edition before predicate and occurrence identity are preserved? |
+| `CC-A2.7-13` | When an edition changes, is a claim of predicate or occurrence continuity supported by the comparison in §4.6, with an unresolved comparison left unresolved? |
 | `CC-A2.7-14` | Are current assignments and A.2.5 state occurrences inputs to the receiving check rather than relation participants? |
 | `CC-A2.7-15` | When the account asserts a particular dated checking Work, are its performer, independently admitted Work, selected Method and outcome recoverable under A.13 and A.15.1, with F.6 only for precise assignment attribution? |
 | `CC-A2.7-16` | Are graphs, tables, matrices, algebras, policies, taxonomies, and publications kept as descriptions, lenses, or epistemes? |
@@ -8070,7 +8067,7 @@ Vasya may separately hold assignments to `RoboticsEngineerSystemRole` and `Music
 | Job-title or taxonomy order used for admission | The order states neither the receiving rule nor its applicability. | Recover a directional admission-substitution predicate for the exact use. |
 | `RoboticsEngineerSystemRole` treated as a subkind because of its name | A proposed edge is used as its own membership premise. | Evaluate paired classifications independently and apply C.3.1 monotonicity. |
 | Non-monotonic restriction forced into `U.SubkindOf` | A true narrower judgment can coexist with a false broader judgment. | A known narrower-true/broader-false case refutes the proposed order. Leave it unresolved only when required information is missing; use a separately predicated residual relation if that non-monotonic restriction remains useful. |
-| Independence asserted without a joint condition | The checker cannot determine which holder, Work, and window combination is incompatible. | Put same- or different-holder, Work identity, overlap, applicability, and basis into the incompatibility predicate. |
+| Independence asserted without a joint condition | The checker cannot determine which holders, actual Work or proposed action, and windows make the allocation incompatible. | Put the holder rule, the species' actual-Work or proposed-action identity condition, temporal test, applicability and basis into the incompatibility predicate. |
 | Bundle name treated as one kind | Holder allocation and independent assignments disappear. | Keep an order-insensitive kind-set relation and exact allocation predicate. |
 | Taxonomy or scheme made a permanent participant | Interpretation support is turned into world-side relation identity even when meaning does not change. | Keep only kind participants and predicate; include an edition in semantic basis only when the rule depends on it. |
 | Positive assertion reference used to create an occurrence | A reference and interval appear before predicate truth and individuation. | Establish truth, apply the identity rule when needed, then designate the occurrence. |
@@ -8095,7 +8092,7 @@ When a receiving check needs several kind relations together, a dependent `Syste
 
 The families are separate because their laws differ. Substitution is directional. Incompatibility is symmetric under one joint condition. A bundle uses an order-insensitive finite set and an allocation rule. Monotonic qualification belongs to `U.SubkindOf`; non-monotonic restriction stays residual. One generic hierarchy cannot preserve those distinctions.
 
-Relation realism prevents a document model from becoming the ontology. Direct predicates determine obtaining, and identity laws determine whether the same world-side relation occurrence continues; assertions, policies, and diagrams describe those facts. Slot discipline makes context-local participant domains reviewable and keeps the system-role kind, holder, assignment, predicate, slot, and representation position distinct.
+Direct predicates determine obtaining, and identity laws determine whether the same world-side relation occurrence continues; assertions, policies, and diagrams describe those facts. Slot discipline makes context-local participant domains reviewable and keeps the system-role kind, holder, assignment, predicate, slot, and representation position distinct.
 
 ### A.2.7:10 - SoTA-Echoing
 
@@ -8104,7 +8101,7 @@ Relation realism prevents a document model from becoming the ontology. Direct pr
 | [gUFO 2026](https://arxiv.org/abs/2603.20948) | A foundational-ontology comparator with explicit type and relation reification distinctions. | Keep relation obtaining, occurrence individuation, assertion episteme, and representation separate without importing gUFO's upper taxonomy. |
 | [OpenFGA role-modeling guidance](https://openfga.dev/docs/best-practices/modeling-roles) | Distinguishes static role-like relations, user-defined role forms, and instance-specific assignments in authorization models. | Use it as a software stress case for separating kind relations, assignment inputs, and outcomes; do not make authorization the universal ontology. |
 | [Cedar policy construction](https://docs.cedarpolicy.com/policies/syntax-policy.html) | Evaluates concrete principal, action, resource, scope, and additional conditions. | Keep structure as one premise while the checking system, exact assignments, action condition, and outcome remain visible. |
-| Separation-of-duties practice across safety, clinical work, governance, and authorization | Useful independence claims depend on exact holder, Work, overlap, and applicability conditions rather than title intuition. | Put those conditions in the symmetric incompatibility predicate and test actual assignments separately. |
+| Separation-of-duties practice across safety, clinical work, governance, and authorization | Useful independence claims depend on the holder rule, actual-Work or proposed-action identity condition, temporal test and applicability rather than title intuition. | Put those conditions in the symmetric incompatibility predicate and test actual assignments separately. |
 | FPF `C.3.1`, `A.6.REL`, `A.6.5`, and `A.22` | Supply monotonic kind order, relation occurrence identity, declaration-local SlotSpecs, and dependent structure identity. | Reuse the existing apparatus instead of creating another role taxonomy or relation-record ontology. |
 
 The software sources are stress cases, not the universal subject. Their transferable contribution is the separation of kind definitions, instance assignments, evaluation inputs, and outcomes.
@@ -8285,7 +8282,7 @@ CommitmentAssertion:
 
 Before a commitment occurrence has been independently identified, express whether the commitment obtains as an ordinary C.2.1 assertion with an independently identified EntityOfConcern. Designate the relation kind and its participants in the claim content, and retain the failed or unknown obtaining condition. Do not invent a commitment occurrence or actual instituting-basis reference. Keep assertion polarity separate from the reliance judgement; unavailable evidence alone establishes no negation.
 
-Use the record to describe the relation. `evidenceClaimRefs` and carriers support reliance; they are not participants or instituting facts unless the identified constitutive rule makes one such fact current and the pattern for that subject supplies its test. If adjudication is intended, cite the exact evidence claims, criteria, and carriers. If no adjudication is claimed, do not invent an audit apparatus.
+Use the record to describe the relation. `evidenceClaimRefs` and carriers support reliance; they are not participants or instituting facts unless the identified constitutive rule requires the particular item in that role and the pattern for that subject supplies its test. If adjudication is intended, cite the exact evidence claims, criteria, and carriers. If no adjudication is claimed, do not invent an audit apparatus.
 
 When a later use must compare incompatible commitments, keep the commitments unchanged and carry the needed conflict inputs in one local claim:
 
@@ -8538,7 +8535,7 @@ The entity designated by the grant is its beneficiary. Apply the exercise-eligib
 - `beneficiarySystemRoleKindRef` names one exact local system-role kind; the policy states which current assignments to that kind make an actual performer eligible.
 - `PartyRef` covers work only when its exact performer or on-behalf-of relation satisfies the policy. Shared naming or organizational membership is insufficient.
 
-This is a closed ref union over admitted `U.Entity` values, not `U.PermissionBeneficiary`, `U.Authorization`, or another new U-kind. A materially different beneficiary meaning requires a separate decision under the applicable subject pattern.
+This is a closed ref union over admitted `U.Entity` values, not a new U-kind. A materially different beneficiary meaning requires a separate decision under the applicable subject pattern.
 
 #### A.2.8.PER:4.3 - Record weak permission and non-violation as findings
 
@@ -8634,7 +8631,7 @@ RelationOccurrenceQualifiers:
   exerciseInterval: QualificationWindowPolicy
 ```
 
-Decide exercise from two observable questions about the existing objects: **did this dated Work instantiate the grant's permitted-action specification, and did its actual performer satisfy the grant's beneficiary branch?** For a `beneficiarySystemRoleAssignmentRef` branch, the named assignment must cover the Work and have that performer as holder. For a `beneficiarySystemRoleKindRef` branch, `beneficiarySystemRoleAssignmentRef` names the exact covering assignment whose declaration-local kind slot contains that kind and which satisfies the policy's eligibility rule for that kind. For a `beneficiaryPartyRef` branch, the performer must be that party or `onBehalfOfRelationOccurrenceRef` must cite the already obtaining relation whose predicate is defined by its subject pattern and whose use is licensed by the policy. If either question fails, this exercise relation does not obtain.
+Decide exercise from two questions about the existing objects: **did this dated Work instantiate the grant's permitted-action specification, and did its actual performer satisfy the grant's beneficiary branch?** For a `beneficiarySystemRoleAssignmentRef` branch, the named assignment must cover the Work and have that performer as holder. For a `beneficiarySystemRoleKindRef` branch, `beneficiarySystemRoleAssignmentRef` names the exact covering assignment whose declaration-local kind slot contains that kind and which satisfies the policy's eligibility rule for that kind. For a `beneficiaryPartyRef` branch, the performer must be that party or `onBehalfOfRelationOccurrenceRef` must cite the already obtaining relation whose predicate is defined by its subject pattern and whose use is licensed by the policy. If either question fails, this exercise relation does not obtain.
 
 The match and eligibility are direct obtaining predicates over the Work, grant, action specification, performer, and cited assignment or on-behalf-of relation. If a receiving assurance or audit use needs a separately recorded evaluation or evidence item, identify that item through the applicable evaluation or evidence-use relation; do not mint a placeholder episteme merely to fill this relation.
 
@@ -8691,7 +8688,7 @@ Resolve the conflict through exactly one of two branches:
 
 | Neighboring object | Exact handshake |
 |---|---|
-| Grant or revoke act | `A.2.9 U.SpeechAct <: U.Work`; an admitted holder `U.System` performs the act under the exact grantor system-role assignment, and `institutes.permissions` cites the grant occurrence. The assignment supplies the holder and assigned-kind ground; any required authority is established through its own relation. The act and enduring grant retain their separate identities. |
+| Grant or revoke act | An admitted holder `U.System` performs the grant-instituting `A.2.9 U.SpeechAct` under the exact grantor system-role assignment, and `institutes.permissions` cites the obtaining grant occurrence. A revoking `U.SpeechAct` is cited through `revocationOrSupersessionRef` and ends the grant only under the policy's revocation conditions. Establish each act's performer and any required assignment attribution or authority under `A.2.9` and the applicable policy; the act and grant retain separate identities. |
 | Permit episteme and carrier | Use `C.2.1` for claims about the permission, `E.17` for a source-backed publication face, `G.11` for source currentness and publication refresh, and `A.10` for evidence used in reliance. Use `E.24.PUB` when the publication occurrence, form, or carrier identity matters. |
 | Duty or prohibition | `A.2.8 U.Commitment`; permission remains outside its modality family. |
 | Boundary claim or entry predicate | `A.6.B` classifies the claim; an `A-*` predicate may consume a separately established current permission result. |
@@ -8733,7 +8730,7 @@ The chief bias is document-and-display authority: a readable permit, badge, poli
 | `CC-A2.8.PER-3` | A strong grant names the admitted `U.System` that performs the instituting act, the exact grantor system-role assignment whose `HolderSystemSlot` resolves to that system, participants, policy edition, ClaimScope and validity window, currentness, and occurrence identity. Any required authority relation obtains independently. |
 | `CC-A2.8.PER-4` | Weak findings require a current frame explicitly complete enough for the intended use; incompleteness returns `unresolved`. |
 | `CC-A2.8.PER-5` | Exercise names dated work, the admitted `U.System` that performed it, the one current grant occurrence through a `U.RelationRef` constrained to `GrantedPermissionRelation@Context`, scope, and interval; it answers action match and beneficiary eligibility from those objects and the exact covering assignment or on-behalf-of relation. |
-| `CC-A2.8.PER-6` | Neither exercise nor non-exercise establishes `NonViolationFinding@Context`; non-exercise is not violation, and exercise is not obligation satisfaction and does not consume a grant without an explicit policy. |
+| `CC-A2.8.PER-6` | Neither exercise nor non-exercise establishes `NonViolationFinding@Context`; non-exercise does not violate the grant, exercise alone does not establish obligation satisfaction, and exercise does not consume a grant without an explicit policy. |
 | `CC-A2.8.PER-7` | A same-scope conflict is settled only by an applicable policy rule that selects the outcome or by a current resolution result produced by dated Work of an admitted system under a covering system-role assignment and independently obtaining decision-authority relation. Naming a policy, office, system-role kind, assignment, or “owner” alone leaves only the affected Work or reliance use `unresolved`. |
 | `CC-A2.8.PER-8` | Permit episteme, carrier, evidence, admissibility, readiness, gate, capability, Work, and result remain distinct and are handled under their respective subject patterns. |
 
@@ -8742,7 +8739,7 @@ The chief bias is document-and-display authority: a readable permit, badge, poli
 | Anti-pattern | Repair |
 |---|---|
 | `MAY` stored as a `U.Commitment` modality | Recover whether the claim is a strong grant, weak finding, entry predicate, or ordinary prose; use the applicable subject pattern. |
-| No prohibition found, therefore permission | Require currentness and frame completeness; otherwise return `unresolved`. |
+| No prohibition found, therefore permission | Return `nonProhibited` only for a current frame sufficiently complete for the use; otherwise return `unresolved`. Neither result establishes a grant. |
 | Permit document as permission | Recover the instituting act, current grant occurrence, policy, scope/window, and evidence relation. |
 | Gate pass as authorization | Keep `GateDecisionResult` in `A.21`; cite a separate grant/conflict result when the gate actually consumes one. |
 | Permission as readiness or capability | Keep readiness in `A.15.5` and capability in `A.2.2`; permission supplies neither. |
@@ -8753,7 +8750,7 @@ The chief bias is document-and-display authority: a readable permit, badge, poli
 
 ### A.2.8.PER:9 - Consequences
 
-Permission becomes inspectable without being inflated into a universal authorization ontology. Practitioners can distinguish a tentative frame-relative result from an enduring grant and from actual exercise, and can stop on unresolved conflict without letting a gate or permit display choose precedence. The cost is recording enough policy, identity, scope, window, and eligibility detail to support the intended use.
+Permission becomes inspectable. Practitioners can distinguish a frame-relative result from an enduring grant and from actual exercise, and can stop on unresolved conflict without letting a gate or permit display choose precedence. The cost is recording enough policy, identity, scope, window, and eligibility detail to support the intended use.
 
 ### A.2.8.PER:10 - Rationale
 
@@ -8856,7 +8853,7 @@ How can FPF represent communicative enactments so that:
 | Multi-party reality    | Many real boundaries are multiparty (protocols, organizations); dyadic “speaker-hearer” is too narrow.                  |
 | Multi-function reality | One utterance can carry multiple recognizable functions; “one act = one force” is often false.                          |
 | Separation discipline  | Must preserve **kind** ≠ **actual act occurrence** ≠ **SpeechActRecord** ≠ **utterance description** ≠ **carrier or trace**. |
-| Use proportionality     | A receiving-use judgement must remain useful without a full occurrence record, while audit or institutional reliance still needs exact Work, assignment, Method, taxonomy, policy, and evidence. |
+| Use proportionality     | A receiving-use judgement must remain useful without a full occurrence record, while audit or institutional reliance still needs exact Work, assignment, Method, taxonomy, and evidence, plus a policy when recognition or institutional force depends on it. |
 
 ### A.2.9:4 — Solution
 
@@ -8864,7 +8861,7 @@ When a receiving use is current, state who should understand or do what because 
 
 Repair the smallest thing that blocks the stated use—for example, wording, representation, prerequisites, medium, interaction, or a future receiving use—or stop. Judge earlier communicative Work against the use stated for that occurrence. A revised use applies to later communication or to a separately named reevaluation; it does not turn the earlier response into achievement of the earlier declared use. Authority, consent, permission, and ethical or institutional admissibility remain separate questions.
 
-When exact occurrence identity, governance, modeling, audit, or reliance is current, use the admitted kernel kind `U.SpeechAct`. For an individual `SA : U.SpeechAct`, §4.1 and SA-C0/SA-C1 give the admission and conditional attribution route: recover the A.13 performer core, independently admit the Work through A.15.1, and use F.6 afterward only for a needed precise assignment-bound claim through the same obtaining assignment. A separate recognition-taxonomy episteme and effective reference scheme make the act-type classification inspectable; an applicable policy or procedure defines any claimed institutional force. A `SpeechActRecord` may describe the occurrence and point to a MethodDescription, optional channel, utterance descriptions, or evidence carriers; none is the act or enacted Method.
+When exact occurrence identity, governance, modeling, audit, or reliance is current, use the admitted kernel kind `U.SpeechAct`. A separate recognition-taxonomy episteme and effective reference scheme make the act-type classification inspectable; an applicable policy or procedure defines any claimed institutional force. A `SpeechActRecord` may describe the occurrence and point to a MethodDescription, optional channel, utterance descriptions, or evidence carriers; none is the act or enacted Method.
 
 #### A.2.9:4.1 — Normative definition
 
@@ -8965,7 +8962,7 @@ InstitutedEffects ::=
 * **(SA‑C3) Time honesty and interval separation.** The occurrence **MUST** have an actual temporal extent so freshness can be evaluated; the record's `window` is a claim about that act extent. Every instituted commitment, grant, publication relation, status relation, or other effect keeps its own independently governed occurrence or validity interval. Coincident boundaries do not merge act and effect.
 * **(SA‑C3a) Policy, procedure, and channel remain neighbors.** A cited `policyOrProcedureRef` is a separate current C.2.1 episteme; its currentness, applicability, and any edition relation must be established under their subject patterns. An optional `channelRef` names an independently governed communication route or participating entity.
 
-Keep three questions separate. `utteranceSubjectRefs` answers **what the utterance or claim is about**. `institutionalTargetRefs` answers **which object or relation the act is intended to institute or update under the cited current policy or procedure**. Actual change or institutional effect is a third world-side fact and is stated only through its exact direct change/effect relation and the matching typed `institutes.*` reference when the record needs it. An informative notice or assertion may have a subject without any institutional target or changed entity. Shared reference values do not collapse these relation meanings.
+Keep three questions separate. `utteranceSubjectRefs` answers **what the utterance or claim is about**. `institutionalTargetRefs` answers **which object or relation the act is intended to institute or update, or which episteme edition it is intended to publish, under the cited current policy or procedure**. Actual change or institutional effect is a third world-side fact and is stated only through its exact direct change/effect relation and the matching typed `institutes.*` reference when the record needs it. An informative notice or assertion may have a subject without any institutional target or changed entity. Shared reference values do not collapse these relation meanings.
 
 **Record- and reliance-side constraints:**
 
@@ -9054,7 +9051,7 @@ The smallest repair may be a clearer threshold sentence or a changed table, foll
 The one-minute speech-act interval and seven-day grant interval are different facts even though the latter begins when the former ends.
 
 
-The utterance is about `ChangeRequestId(4711)`; its policy-selected target and demonstrated effect are the separately obtaining grant. Nothing here claims that the change-request entity itself changed. Gate predicate `A-Gate-Deploy-4711` may check `exists SpeechAct(type=Approval, utteranceSubjectRefs includes ChangeRequestId(4711), actualPerformerSystemRef=CAB_Chair_A, performedUnderAssignmentRef=PerformedUnderApprovalAssignment-4711, within 90d)`, consume the current grant, and apply other prerequisites; passing the gate neither institutes nor equals the grant. No F.9 Bridge is needed merely because a pipeline consumes the result: this case uses one exact taxonomy, scheme, and policy. A Bridge becomes current only if another receiving use actually translates or compares a different local meaning.
+The utterance is about `ChangeRequestId(4711)`; its policy-selected target and demonstrated effect are the separately obtaining grant. Nothing here claims that the change-request entity itself changed. Gate predicate `A-Gate-Deploy-4711` may check `exists SpeechAct(type=Approval, utteranceSubjectRefs includes ChangeRequestId(4711), actualPerformerSystemRef=CAB_Chair_A, performedUnderAssignmentRef=PerformedUnderApprovalAssignment-4711, within 90d)`, consume the current grant, and apply other prerequisites; passing the gate neither institutes nor equals the grant. No F.9 Bridge is needed merely because a pipeline consumes the result. A Bridge becomes current only if another receiving use actually translates or compares a different local meaning.
 
 **Near misses.** A ticket row alone is a carrier-backed claim, not the act. `ChangeApprovalProcedure_v3` is a MethodDescription, not what the act enacts. A current approver assignment does not prove that approval Work occurred. Without the exact current policies, the occurrence remains communicative Work but establishes no grant.
 
@@ -9089,7 +9086,6 @@ Publication makes the selected `APISpec_v12` edition available with its claim co
 The account favors explicit performers, recognizable communicative functions and evidence suited to a named use. Its limits are:
 
 * Exact occurrence and institutional claims need the performer and evidence basis, which adds modeling effort; an ordinary receiving-use judgement can remain conversational.
-* Institutional effects are separately referenceable, preserving the distinction between the act and its enduring consequences.
 * Recognition covers the functions needed by the use; the account does not provide a full model of intention, sincerity or perlocutionary psychology.
 
 ### A.2.9:7 — Conformance Checklist (normative)
@@ -9157,7 +9153,7 @@ FPF uses communicative acts both for ordinary receiving uses and as operationall
 
 **Uses / builds on**
 
-* Uses **A.13** and **A.15.1 (`U.Work`)** for the independent actual-occurrence backbone: exact actual performer System; local agential kind and criterion; classification; obtaining assignment, scope, working situation, and window; adequate core evidence and only a conditionally consumed profile; grounded communicative history; enacted `U.Method`; temporal extent; and at least one obtaining locally declared containing-System relation. Uses **F.6** only afterward for a precise `performedUnderAssignment` claim through the same obtaining assignment. Uses a separate optional `methodDescriptionRef` only when the receiving claim needs that episteme.
+* Uses **A.13** for the actual performer's agency basis and **A.15.1 (`U.Work`)** for independent admission of the communicative occurrence. Uses **F.6** only afterward for a needed precise `performedUnderAssignment` claim through the same obtaining assignment. Uses a separate optional `methodDescriptionRef` only when the receiving claim needs that episteme.
 * Uses **A.7** for the strict actual-act≠record/description≠carrier split.
 * Coordinates with **A.2.6** for scope/window discipline.
 * **F.18** can serve as a **lexical entry point** for naming `U.SpeechAct` and “utterance” in the promise/utterance/commitment triad.
@@ -9184,7 +9180,7 @@ The **Transformer Quartet** keeps those object families distinct; it does not re
 
 * **Holonic substrate.** FPF distinguishes *what things are* (Holon → {System, Episteme, …}) from a System's classification under local system-role kinds and its obtaining assignments of those kinds (A.2/A.2.1). Only **systems** can be holders of these assignments, enact methods, and perform Work occurrences admitted under `U.Work`; epistemes do not act. This work-facing rule does not imply that every actual change has an acting-system side.
 * **Local kind, assignment, Method, description, and occurrence stay distinct.** A local system-role kind classifies Systems by its criterion; an obtaining assignment of that kind is a separate relation (A.2/A.2.1). `U.Method` is a run-independent semantic way of doing, `U.MethodDescription` is an episteme that may describe that Method, and each individual admitted under `U.Work` is the dated performed occurrence that enacts it.
-* **Run-independent semantics vs dated occurrence.** A Method and any episteme that describes it are not the occurrence. When a claim about actual Work is current, its assertion or description designates the Work independently admitted by A.15.1 from its performance history, each performer System's A.13 basis including the obtaining assignment, actual enacted Method, temporal extent, and containing-System basis. Add F.6 assignment-bound attribution, affected-referent, binding, or resource-use relations only when they independently obtain and the receiving use relies on them. When actual change is also claimed, identify it independently under A.3.4 and use a separately governed work-to-change relation.
+* **Run-independent semantics vs dated occurrence.** A Method and any episteme that describes it are not the occurrence. Add F.6 assignment-bound attribution, affected-referent, binding, or resource-use relations only when they independently obtain and the receiving use relies on them. When actual change is also claimed, identify it independently under A.3.4 and use a separately governed work-to-change relation.
 * **Occurrence, assertion, evidence, and carrier.** One Work individual is the world-side occurrence. A separate `U.Episteme` may assert or describe it and designate the exact occurrence and obtaining relations. Logs, observations, evidence items, and publications have their own carriers and direct relations; neither a carrier nor a record becomes Work by referring to it.
 
 ### A.3:3 - Problem
@@ -9246,7 +9242,7 @@ For work on oneself, use the A.12 reflexive split only after two distinct intern
 
 * A `U.MethodDescription` is a separately identified episteme; cite its exact edition only when the receiving use relies on what that edition says, using C.2.1 for any claimed edition relation.
 * A `U.Method` is run-independent and may be enacted by many dated Work occurrences.
-* One Work individual admitted under `U.Work` has its own governed temporal extent and performer basis under A.13/A.15.1. Use F.6 with the same obtaining assignment only when precise assignment-bound attribution is claimed; an assertion or description may designate those facts, but is not the occurrence. No universal live `StateAssertion` is a Work or Method condition.
+* One Work individual admitted under `U.Work` has its own governed temporal extent and performer basis under A.13/A.15.1. Use F.6 with the same obtaining assignment only when precise assignment-bound attribution is claimed; an assertion or description may designate those facts, but is not the occurrence.
 * When a work-to-change claim is current, identify the world-side Work under A.15.1, the actual change under A.3.4, and the exact direct relation between them. A formal ordering boundary or natural change remains under A.3.4 without a work-facing inference.
 
 #### A.3:5.5 - Evidence Graph Referring
@@ -9272,7 +9268,7 @@ The world-side occurrence `lemma-42-check-2025-08-08` is independently admitted 
 When the calibration controller and sensor suite are independently grounded as distinct internal positions, split into **Regulator** (acting position) and **Regulated** (changed position), cite the exact interaction and independently obtaining relations involving any claimed Work occurrence, and cite the evidence-use relation supporting each relied-on claim.
 
 #### A.3:6.4 - Joint or non-separable physical participation
-A tide-related change of seawater can be one independently grounded `A.3.4` transformation. Moon–Earth–ocean gravitational coupling, joint dynamics, and causal participation are recovered through their direct relation, dynamics, interaction, and causality owners. Coupling or a minimal physical-agentivity reading alone does not make the Moon a holder of `TransformerRole@Context` and does not create `U.Work`. Use `C.26` only if a residual probe-, frame-, order-, incompatible-read-, or no-faithful-export lens issue remains; C.26 is not physical quantum ontology or a second transformation owner.
+A tide-related change of seawater can be one independently grounded `A.3.4` transformation. Moon–Earth–ocean gravitational coupling, joint dynamics, and causal participation are recovered through their direct relation, dynamics, interaction, and causality owners. Coupling or a minimal physical-agentivity reading alone does not make the Moon a holder of `TransformerRole@Context` and does not create `U.Work`. Use `C.26` only if a residual probe-, frame-, order-, incompatible-read-, or no-faithful-export lens issue remains.
 
 #### A.3:6.5 - Reflexive work — scratching oneself
 For a work-on-oneself claim, the containing holon is the person, the acting position is the grounded neural-control/right-arm subsystem, and the changed position is the grounded left-hand tissue or state. The exact `U.SystemRoleAssignment`, applicable method, dated work, work-to-change facts, and `A.3.4` occurrence remain separate. Selecting these already grounded subholons uses A.14/C.13; it is not an MHT unless the person as a whole is reidentified under B.2.
@@ -9295,22 +9291,22 @@ A conforming actor-side or work-to-change assertion MUST designate the exact dir
 Every Work individual admitted under `U.Work` stands in an exact actual `enactsMethod` relation to the `U.Method` it enacts; the assertion or description used by a receiving claim MUST designate both sides and that relation. Cite an exact `U.MethodDescription` edition only when the receiving claim depends on that edition to identify, constrain, or justify the Method. If actual enactment departs from a cited description, state the description-selection, override, exception, or deviation claim under its direct owner and apply the Work continuity policy to the actual occurrence facts. Absence of a description reliance claim is not silent drift.
 
 **CC‑A3‑5 - Episteme as object-under-change.**
-When Work on an episteme or its carrier is claimed, the performer is still a System; episteme identity, carrier continuity, edition succession, publication, and any actual carrier change remain under their direct owners. Do not infer a performer from the episteme change itself, and do not force every episteme history into one `PhaseOf` relation. See C.2.1, E.24.PUB, A.14's mereology firewalls, and direct epistemic aggregation owners when current.
+When Work on an episteme or its carrier is claimed, the performer is still a System; episteme identity, carrier continuity, edition succession, publication, and any actual carrier change remain under their direct owners. Do not infer a performer from the episteme change itself. See C.2.1, E.24.PUB, A.14's mereology firewalls, and direct epistemic aggregation owners when current.
 
 **CC‑A3‑6 - Units and measures for performed resource use.**
 Every performed resource-use fact relied on for a claim about Work MUST state its measure and units. A percentage that enters a resource aggregation must be grounded in the exact PortionOf measure needed by that use. Totals, allocation, overlap handling, deduplication, and optional `Gamma_work` notation belong to a separately recovered B.1.6 aggregation, not to Work identity.
 
 **CC‑A3‑7 - Authority, justification, and provenance boundary.**
-Authority, justification and provenance are not generic constitutive fields of a SystemRoleAssignment or Work occurrence. When a receiving use relies on one of them, identify the exact episteme and direct authority, justification, source, evidence or provenance relation and connect it to the assignment occurrence, Work individual, assertion or description. The assignment and Work must obtain under their own predicates.
+Authority, justification and provenance are not generic constitutive fields of a SystemRoleAssignment or Work occurrence. When a receiving use relies on one of them, identify the exact episteme and direct authority, justification, source, evidence or provenance relation and connect it to the assignment occurrence, Work individual, assertion or description. The assignment must obtain under its species predicate; the Work occurrence must meet the A.15.1 admission conditions.
 
 **CC‑A3‑8 - Agentic policy, planning, Work, and outcome separation.**
-An agentic case does not license a generic pipeline from policy, through a planned action, to an action. Recover each exact policy, objective, selection or decision, WorkPlan, SystemRoleAssignment, dated Work, actual change, and outcome claim under its direct owner when that claim is current. A policy does not create a plan or Work; a plan does not prove Work; and Work does not prove an outcome. Do not mint `U.PlannedAction` or `U.Action` from ordinary action wording.
+An agentic case does not license a generic pipeline from policy, through a planned action, to an action. Recover each exact policy, objective, selection or decision, WorkPlan, SystemRoleAssignment, dated Work, actual change, and outcome claim under its direct owner when that claim is current. A policy does not create a plan or Work; a plan does not prove Work; and Work does not prove an outcome.
 
 **CC‑A3‑9 - Local interpretation and exact crossings.**
 When interpretation depends on a taxonomy episteme or effective ReferenceScheme, identify that reference in the assertion about the SystemRoleAssignment occurrence. Test compatibility through the exact rule current for that assignment use. Similar labels across localities establish neither equivalence nor conflict. When a receiving use needs exact local-sense correspondence, use F.9 only for the exact `SenseCell` correspondence and its admitted use; local system-role-kind, policy, criterion, verdict, or other mappings retain their direct owners.
 
 **CC‑A3‑10 - Use-driven aggregation boundary.**
-A.3 does not require a MethodDescription or an assertion about Work to make every Gamma family runnable. When a receiving use needs order-sensitive Method composition, recover B.1.5 and optional `Gamma_method`; when it needs a temporal aggregate over exact Work intervals, recover B.1.4 and optional `Gamma_time`; when it needs a resource ledger, recover B.1.6 and optional `Gamma_work`. A system-boundary or epistemic aggregation likewise uses its exact direct owner. Each aggregation has its own EntityOfConcern, policy, evidence, and admissible use; none is a universal field or identity condition of MethodDescription, SystemRoleAssignment, or Work.
+When a receiving use needs order-sensitive Method composition, recover B.1.5 and optional `Gamma_method`; when it needs a temporal aggregate over exact Work intervals, recover B.1.4 and optional `Gamma_time`; when it needs a resource ledger, recover B.1.6 and optional `Gamma_work`. A system-boundary or epistemic aggregation likewise uses its exact direct owner. Each aggregation has its own EntityOfConcern, policy, evidence, and admissible use; none is a universal field or identity condition of MethodDescription, SystemRoleAssignment, or Work.
 
 ### A.3:8 - Consequences
 
@@ -9337,7 +9333,7 @@ When an agentic claim is current, active-inference and free-energy work motivate
 **Provenance and FAIR packaging (2016→).**
 FAIR, RO-Crate, OpenLineage, and ML Metadata motivate exact, machine-actionable provenance and evidence links when a receiving use relies on lineage, editions, runs, or jobs. A.3 therefore preserves those links as separately governed relations rather than making `{authority, justification, provenance}` constitutive fields of SystemRoleAssignment or Work. ([Nature][7], [researchobject.org][8], [SAGE Journals][9], [openlineage.io][10], [GitHub][11], [arXiv][12])
 
-Together, these lines of work support **explicit actor-side participants and, for performed Work, each performer System's A.13 basis and conditional F.6 attribution**, **method-description/Method/Work separation**, **directly governed participation and deltas**, and **traceable local interpretation**. They do not establish that every actual change has a performer, that broad physical agentivity supplies `TransformerRole`, or that coupling alone is `U.Work`.
+The source contributions above inform A.3's design. Its performer basis comes from A.13, Work admission from A.15.1, Method and MethodDescription distinctions from A.3.1/A.3.2, and conditional assignment-bound attribution from F.6. A.3.4 separately governs actual change, including cases without a performer.
 
 ### A.3:10 - Relations
 
@@ -9354,7 +9350,7 @@ When an agency claim is current, A.13 governs agenthood and the domain profile, 
 A.3.4 independently identifies one actual bounded transformation from the changed referent and subject-side occurrence facts. A.3 opens only when an actor-side enactment claim is additionally grounded. Natural, spontaneous, formal, relational, and joint-dynamics changes therefore need no fictive performer.
 
 **A.3.3, direct relation, interaction, and causality owners.**
-These patterns govern claims about participation and causal structure. Use an asymmetric actor-target factorization only when that result is independently grounded; retain a joint or non-separable account otherwise. `C.26` may test a residual probe, frame, order, incompatible-read, or no-faithful-export lens issue, but it is neither physical quantum ontology nor a second transformation owner.
+These patterns govern claims about participation and causal structure. Use an asymmetric actor-target factorization only when that result is independently grounded; retain a joint or non-separable account otherwise. `C.26` may test a residual probe, frame, order, incompatible-read, or no-faithful-export lens issue.
 
 **A.15 Role-Method-Work Alignment.**
 A.3 relies on A.15's separation of local system-role kind, System-classification claim, exact world-side SystemRoleAssignment occurrence, run-independent Method, conditional MethodDescription reliance, intended WorkPlan episteme, world-side dated Work occurrence, and any assertion, description, log, or evidence about that occurrence. The Work stands in an actual `enactsMethod` relation; use F.6 with the same A.13 assignment only when precise assignment-bound attribution is claimed. A MethodDescription may describe the Method; neither the description, plan, nor record proves that Work or actual change occurred.
@@ -9363,7 +9359,7 @@ A.3 relies on A.15's separation of local system-role kind, System-classification
 A.3 consumes A.14/C.13 only for independently grounded part or structure relations and forbids inferring System-part membership from a local system-role kind or recipe. Selecting grounded internal positions for a reflexive claim is not an MHT; B.2 opens only when the containing whole is actually reidentified.
 
 **B-cluster (Gamma sections).**
-A.3 supplies grounded actor-side facts and exact Work occurrences; receiving assertions may designate them, but A.3 does not require a universal bundle of Gamma calculations. B.1.5 governs order-sensitive Method composition and optional `Gamma_method`; B.1.4 governs a selected temporal aggregation and optional `Gamma_time`; B.1.6 governs a selected Work-resource aggregation and optional `Gamma_work`. System-boundary and epistemic aggregations use their exact direct patterns when current. Every such result has its own EntityOfConcern, policy, evidence, and admissible use rather than becoming a field or identity condition of MethodDescription, SystemRoleAssignment, or Work.
+A.3 supplies grounded actor-side facts and exact Work occurrences that receiving assertions may designate. B.1.5 governs order-sensitive Method composition and optional `Gamma_method`; B.1.4 governs a selected temporal aggregation and optional `Gamma_time`; B.1.6 governs a selected Work-resource aggregation and optional `Gamma_work`. System-boundary and epistemic aggregations use their exact direct patterns when current. Every such result has its own EntityOfConcern, policy, evidence, and admissible use rather than becoming a field or identity condition of MethodDescription, SystemRoleAssignment, or Work.
 
 [1]: https://royalsocietypublishing.org/doi/10.1098/rspa.2014.0540 "Constructor theory of information | Proceedings of the Royal Society A"
 [2]: https://arxiv.org/abs/1405.5563 "Constructor Theory of Information"
@@ -9411,7 +9407,7 @@ Typical moments:
 
 **What this buys.** The project can reuse, compare, describe, plan, enact, and audit a way of doing without confusing the method with its descriptions, runs, mechanisms, mathematical substrates, evidence relations, gates, or authority claims.
 
-**Not this pattern when.** If the sentence is about a document or representation that describes a method, schedules work, reports dated Work, declares a mechanism, presents a mathematical lens, cites evidence, decides a gate, asserts authority, or publishes a view, use the pattern that defines or tests that claim. For a claim-bearing episteme about one exact Method, apply A.3.2's same-individual membership test; a carrier or representation is not thereby linked directly to the Method. State any planning, enactment, realization, evidence, gate, authority, publication, or representation relation only under its subject pattern when it actually obtains.
+**Not this pattern when.** If the sentence is about a document or representation that describes a method, schedules work, reports dated Work, declares a mechanism, presents a mathematical lens, cites evidence, decides a gate, asserts authority, or publishes a view, use the pattern that defines or tests that claim. When method-description membership is in question, apply A.3.2's same-individual test to the already identified claim-bearing episteme; a carrier or representation is not thereby linked directly to the Method. State any planning, enactment, realization, evidence, gate, authority, publication, or representation relation only under its subject pattern when it actually obtains.
 
 ### A.3.1:2 - Problem
 
@@ -9453,7 +9449,7 @@ Do not begin by replacing *method* or *practice* with a preferred technical word
 | If the text is really about... | Govern it as... |
 | --- | --- |
 | semantic way of doing | `A.3.1 U.Method` |
-| relation or composition among methods, method families, method-description epistemes, or local method expressions | `C.2.1` or the exact comparison/direct-relation pattern for an actual relation among description epistemes; `A.22` only for a selected structure whose constituent relations already obtain; `G.5` and `A.19` for family selection; `A.15.1` for `enactsMethod`; `B.1.5` for order-sensitive method composition; `C.29` for graph or algebraic representation |
+| relation or composition among methods, method families, method-description epistemes, or local method expressions | `C.2.1` or the exact comparison/direct-relation pattern for an actual relation among description epistemes; `A.22` only for a selected structure whose constituent relations already obtain; `G.5` and `A.19` for family selection; `A.15.1` for `enactsMethod`; `B.1.5` for order-sensitive method composition; `A.6.3.RT` for representation correspondence, with `C.29` for mathematical-lens use |
 | description of that way of doing: SOP, program, proof script, solver model, protocol, diagram, process model, recipe text | `A.3.2 U.MethodDescription` |
 | source phrase such as *practice*, *technique*, *school*, *tradition*, or a local method label whose claim is unclear | leave it unresolved until the sentence identifies a reusable way, description, discipline or tradition, or model-use boundary; use `A.1.1` for the bounded-context or model-use claim and `C.36.P` for the cultural-evolution, tradition, style, canon, recognition, selection, or mediation claim |
 | selected formal declaration or mathematical lens | `A.6.0` for the declaration; `C.29` when a stated use applies the mathematical lens |
@@ -9487,7 +9483,7 @@ Start with the least apparatus that lets another reader recognize the same metho
 
 Moving to a heavier level must solve one of those concrete problems.
 
-The following is a Plain identification aid, not a record kind, ontic, serialization, or mandatory form. Omit every optional line that the stated decision does not use.
+The following Plain identification aid is optional and is not a data schema. Omit every entry that the stated decision does not use.
 
 ```text
 Method identification aid:
@@ -9508,7 +9504,7 @@ Method identification aid:
 
 Add `SemanticBasisIfMeaningVaries` only when the same words have different meanings under another effective reference scheme or set of local senses. Add a claim scope, context slice, selected structure, or model-use relation only when its identity and conditions are established under the applicable pattern and changing it would change the method identification or the later decision. Assert a relation only when its predicate obtains.
 
-For every relied-on relation, name its participants, the relation that must obtain, and the pattern that defines or constrains it. A generic `source`, `support`, `evidence`, or `current use` entry does not identify that relation. `RelianceWindow` states the temporal conditions under which the comparison is relied on. Identify the compared Method variants and relied-on description editions separately. `ReviewIf` names the concrete change that would make that comparison unsafe.
+For every relied-on relation, name its participants, the relation that must obtain, and the pattern that defines or constrains it. A generic `source`, `support`, `evidence`, or `current use` entry does not identify that relation. For the named receiving use, state the relevant temporal conditions in `RelianceWindow` and the concrete change that requires reconsidering that use in `ReviewIf`. For a comparison, identify the Method variants being compared and the description editions relied on separately.
 
 #### A.3.1:4.1a - Closure and bounded non-use
 
@@ -9531,7 +9527,7 @@ Do not decide from words such as *method*, *algorithm*, *process*, or *mechanism
 
 A method statement may cite a mechanism episteme whose content declares operations used by that method. A shared concern or operation name does not make the two values identical. A selector may choose a method, and an A.6.1 application may bind a method as an actual value. State that use only when the selector outcome, application binding, or another admitted direct relation is present; otherwise keep the method and neighboring object separate.
 
-Keep the nearby relation families distinct once, here. An F.9 Bridge between two exact F.17 `SchemeSenseCell` values states a cross-context sense correspondence; it does not change an effective reference scheme or establish identity. A claim that this Bridge suits one named use remains a separate C.2.1 bounded-use claim. A.10 governs bounded reliance on that claim; use B.3 only for an actual named assurance claim. An A.6.1 realization relation connects a mechanism declaration to a realizer; it is not the mechanism content. C.29 governs a mathematical preservation or representation claim. E.20 governs where mechanism meaning is maintained. Evaluation, measurement, and evidence-use patterns support their own claims; they do not add content to the method or mechanism.
+Keep these relation families distinct. An F.9 Bridge between two exact F.17 `SchemeSenseCell` values states a cross-context sense correspondence; it does not change an effective reference scheme or establish identity. A claim that this Bridge suits one named use remains a separate C.2.1 bounded-use claim. A.10 governs bounded reliance on that claim; use B.3 only for an actual named assurance claim. An A.6.1 realization relation connects a mechanism declaration to a realizer; it is not the mechanism content. C.29 governs a mathematical preservation or representation claim. E.20 governs where mechanism meaning is maintained. Evaluation, measurement, and evidence-use patterns support their own claims; they do not add content to the method or mechanism.
 
 When neither the reusable way nor the reusable operation declaration can be stated, keep the source wording unresolved. Replacing it with a more technical noun is not a repair.
 
@@ -9546,7 +9542,7 @@ Keep the four positions separate.
 | `U.WorkPlan` | planned dated work or work preparation | timeless method, generic recipe, proof that work happened |
 | `U.Work` | admitted kind for dated Work occurrences; one Work individual is one world-side occurrence | method, plan, result interpretation, evidence relation, or record about the occurrence |
 
-The same solver model, repository, protocol, diagram, or run packet may figure in several claims, so say what each sentence is about. The solver-model episteme may describe a method; its mathematical representation may expose a C.29 formal substrate; a dated solver run may be Work; and a measurement or evaluation result may support another claim through its evidence relation.
+The same solver model, repository, protocol, diagram, or run packet may figure in several claims, so say what each sentence is about. The solver-model episteme may describe a method; its mathematical representation may expose a formal substrate; a dated solver run may be Work; and a measurement or evaluation result may support another claim through its evidence relation.
 
 #### A.3.1:4.4 - Method statement fields
 
@@ -9580,7 +9576,7 @@ Choose by the claim being made:
 * If it schedules future work or reports a dated occurrence, use A.15.2 or A.15.1.
 * If it claims evidence, provenance, or support, use A.10 and the direct evaluation or measurement pattern. If a representation's form or layout is being treated as sufficient to prescribe or authorize action, apply C.2.P.DR before choosing the pattern for that claim.
 
-Keep cross-context and application claims separate from those five choices. F.9 governs a Bridge between two exact F.17 `SchemeSenseCell` values. A claim that this Bridge suits one named use remains separate under C.2.1. A.10 governs bounded reliance on that claim; use B.3 only for an actual named assurance claim. C.2.1, A.6.3, A.6.3.RT, A.6.4, or A.1.1 governs an actual change of episteme edition, reference scheme, representation scheme, retargeting, or model-use relation. A.6.1 governs a mechanism realization or application binding. State one of these only when its participants and predicate are present; otherwise stop at the source objects without asserting the relation.
+Use §4.2 for cross-context correspondence, bounded-use, assurance, and mechanism-realization claims. C.2.1, A.6.3, A.6.3.RT, A.6.4, or A.1.1 governs an actual change of episteme edition, reference scheme, representation scheme, retargeting, or model-use relation. A.6.1 governs an application binding. State one of these relations only when its participants and predicate are present; otherwise retain the source objects without asserting the relation.
 
 Thus *algorithm* and *practice* remain source cues. “The SQL query is the method” fails unless the project can state the reusable way of querying, its admissible inputs, intended result, and stop independently of that query text. “Our review practice is the method” fails when the sentence is actually about a team assignment, dated review, discipline, tradition, evidence record, or publication.
 
@@ -9614,7 +9610,7 @@ Two `U.MethodDescription` epistemes describe the same `U.Method` when their Enti
 
 Different control flow, proof notation, programming paradigm, diagram notation, or prose does not by itself make a different method. The converse also holds: the same name, repository, supplier label, or diagram family does not prove identity.
 
-Keep one method across parameter ranges, equipment envelopes, or representation variants only when its declared applicability and the bases used by the comparison admit that variation. A changed intended result, participant meaning, safety bound, semantic basis, or acceptance criterion requires a stated refinement, substitution, or distinct-method decision.
+Keep one method across parameter ranges, equipment envelopes, or representation variants only when its declared applicability and the bases used by the comparison admit that variation. A change to an intended result, participant meaning, safety bound, semantic basis, or acceptance criterion that matters to identity requires reconsidering the Method identification under §§4.7–4.8 before asserting refinement, substitution, or a distinct Method.
 
 **Same-name methods.** An emergency-department `Triage` method applies to patient presentations awaiting clinical assessment; a clinician enacting it uses clinical signs to assign urgency, escalates unsafe cases, and stops when the evidence cannot support that assignment. A software-defect `Triage` method applies to defect reports awaiting product handling; a product team enacting it uses reproduction evidence, severity, and ownership to choose routing and release impact, and stops when the report cannot support that choice. The shared label identifies neither method. Their participants, applicability, local senses, intended results, and stops distinguish them without a generic context object.
 
@@ -9670,7 +9666,7 @@ Work composition is occurrence-side. Work may interleave, split, retry, or fail 
 
 **Quick distinction.** A step label, graph node, detector component, event-log segment, telemetry interval, work-plan item, or document section is not a submethod by position. If it states a reusable way with method-level conditions and a relation to the whole method, test it under A.3.1 and B.1.5. If it states what happened, when it happened, what a component did, or what a record shows, use the direct Work, mechanism, evidence, or description pattern instead.
 
-Mathematical or graphical notation may describe the selected structure under C.29 or occur in a `U.MethodDescription`. A registry row lists or describes candidates; state any relation among them separately under its defining pattern.
+Mathematical or graphical notation may represent claims about the selected structure or an identified Method. A.6.3.RT governs the representation correspondence; C.29 additionally governs any mathematical lens. Apply A.3.2 when classifying the claim-bearing episteme as a method description. A registry row lists or describes candidates; state any relation among them separately under its defining pattern.
 
 ### A.3.1:5 - Archetypal Grounding
 
@@ -9710,19 +9706,19 @@ This result lets the engineer compare the two SOP claim sets against one method 
 
 #### A.3.1:5.2 - Optimization model
 
-**Situation and reusable way.** `JS_Schedule_v4` applies when the jobs, eligible machines, durations, precedence constraints, feasibility rules, and optimization objective are all stated for the scheduling problem. A planner or solver system enacting it constructs candidate assignments, rejects infeasible candidates, compares the remainder by the declared objective, and records the selected schedule or `no feasible schedule`. Missing precedence data, an unstated objective, or incompatible machine eligibility is a stop rather than permission to guess a method variant.
+**Situation and reusable way.** `JS_Schedule_v4` applies when the jobs, eligible machines, durations, precedence constraints, feasibility rules, and optimization objective are all stated for the scheduling problem. A planner or solver system enacting it constructs candidate assignments under the declared search and stopping rules, rejects infeasible candidates, and compares the remainder by the declared objective. It records the selected schedule, `no feasible schedule` when infeasibility is established, or `no feasible schedule found within the stated search bounds`. Missing precedence data, an unstated objective, or incompatible machine eligibility is a stop rather than permission to guess a method variant.
 
 This identification lets a planner compare two solver packages as descriptions of the same scheduling method. The MILP formulation and solver configuration are `U.MethodDescription` or formal-substrate candidates according to the claim. The selected production schedule is a `U.WorkPlan`; the dated solver run is Work; and its decision record is a separate result episteme.
 
 #### A.3.1:5.3 - Proof or derivation
 
-`Gauss_Elimination` applies to a matrix and right-hand side over a declared algebraic domain in which the required row operations and pivots are valid. A mathematician or proof system enacting it applies equivalence-preserving row operations until solved or echelon form is reached. A missing admissible pivot, unsupported division, or unspecified domain is a stop. The visible result here is a method identification that a later derivation may enact.
+`Gauss_Elimination` applies to a matrix and right-hand side over a declared algebraic domain in which the required row operations and pivots are valid. A mathematician or proof system enacting it applies equivalence-preserving row operations until solved or echelon form is reached. If the declared variant requires a pivot or division that is not admissible, follow its stated alternative or stop that step. An unspecified domain leaves the method identification incomplete. The visible result here is a method identification that a later derivation may enact.
 
 Recover the claim-bearing episteme expressed by a textbook explanation, proof-assistant script, or formal rule set; apply A.3.2's membership test for `Gauss_Elimination`. A concrete proof-assistant run is Work, and the algebraic structure may be a formal substrate. Using the resulting proof for a project decision additionally needs an evidence or assurance relation.
 
 #### A.3.1:5.4 - Graph or query overread
 
-A graph path, SQL query, checklist predicate, or dashboard table may itself be the current direct object or may represent a relation, state, evidence structure, provenance structure, or publication face. It supports a method identification only when the project can separately state the reusable action, admissible inputs, branch criterion, intended result, and stop. A query text that returns rows is still a description or executable representation until that semantic way is stated.
+A graph path, SQL query, checklist predicate, or dashboard table may itself be the current direct object or may represent a relation, state, evidence structure, provenance structure, or publication face. It supports a method identification only when the project can state the reusable action, admissible inputs, intended result, and any branch or stop condition that changes that identification. A query text that returns rows is still a description or executable representation until that semantic way is stated.
 
 Ordinary wording such as a graph “routes” or a query “calls” is usable when the operation and its participants are recoverable. Apply C.2.P.DR when a representation's form or layout is treated as sufficient to establish method order, dated Work, gate passage, or authority.
 
@@ -9736,7 +9732,7 @@ Recover the claim-bearing episteme expressed by the protocol PDF, order-set scre
 
 The following biases obscure method identity:
 
-* **description-as-method bias**: a publication, program, diagram, or protocol is treated as the method instead of a method description;
+* **description-as-method bias**: a document or representation is treated as the reusable way it describes;
 * **practice-as-method bias**: a source says "practice" and the repair silently chooses `U.Method` without checking whether the current claim is Work, system-role assignment, discipline, cultural-evolution, evidence, source label, or Method relation structure;
 * **run-as-method bias**: a trace, log, run, or result record is treated as the reusable way of doing;
 * **software-notation bias**: code, algorithm, workflow, or programming-paradigm language becomes the default ontology for every method;
@@ -9766,7 +9762,7 @@ Use one concrete test in every case: can the reader state the reusable action, i
 
 **CC-A3.1-9 (Graph and representation guard).** A graph path, path slice, query, predicate, table, dashboard, publication face, or pattern relation is not a method or work sequence by layout. Use `C.2.P.DR` when representation wording is overread as imperative action.
 
-**CC-A3.1-10 (Method parts, structures, and Work parts).** Call a candidate a submethod only when its reusable action, preconditions, intended result or preserved condition, boundary, and relation to the whole method are stated. Otherwise keep the step, graph node, description fragment, Work part, episode, component behavior, or telemetry slice under its own pattern. A selected method-side `U.Structure` must have all four A.22 discriminators; layout and list membership establish none of them. Mathematical or graphical notation remains a description or C.29 representation.
+**CC-A3.1-10 (Method parts, structures, and Work parts).** Call a candidate a submethod only when its reusable action, preconditions, intended result or preserved condition, boundary, and relation to the whole method are stated. Otherwise keep the step, graph node, description fragment, Work part, episode, component behavior, or telemetry slice under its own pattern. A selected method-side `U.Structure` must have all four A.22 discriminators; layout and list membership establish none of them. Use A.6.3.RT for representation correspondence and C.29 additionally for a mathematical lens.
 
 **CC-A3.1-11 (Practice wording recovery).** For a source word such as *practice*, ask what the sentence lets the reader do: reuse a way, inspect a description, schedule or report Work, allocate a holder, classify a discipline or tradition, cite evidence, or merely quote a label. Choose the corresponding subject pattern only when that action is stated; otherwise retain an unresolved source cue.
 
@@ -9778,8 +9774,8 @@ Use one concrete test in every case: can the reader state the reusable action, i
 
 | Anti-pattern | Repair |
 | --- | --- |
-| Treating executable text as sufficient Method identity. | Recover the claim-bearing episteme expressed by the repository or executable text and apply A.3.2's membership test; if it fails, use the pattern for the actual object. If the claim is about the semantic way of doing, name the `U.Method`, participant meanings, applicability, effects, and bounds. |
-| Treating a workflow diagram as the dated Work occurrence. | Recover the claim-bearing episteme expressed by the diagram and apply A.3.2's membership test; if it fails, use the pattern for the actual object. Use `U.WorkPlan` for planned work and one Work occurrence admitted under `U.Work` for the dated occurrence. |
+| Treating executable text as sufficient Method identity. | If the claim concerns the reusable way, name its participant meanings, applicability, effects, and bounds under A.3.1. When a method-description membership claim is needed, recover the claim-bearing episteme expressed by the executable text and apply A.3.2's membership test. |
+| Treating a workflow diagram as the dated Work occurrence. | For a claim about planned work, use A.15.2; for a claimed dated occurrence, use A.15.1 and its occurrence basis. Route the diagram by what it describes; apply A.3.2 when a method-description membership claim is needed. |
 | Inferring prescribed action from graph layout. | Use the pattern that defines the represented structure, such as E.18 for a transformation flow, and C.29 for a mathematical representation claim. Apply C.2.P.DR when layout is being made to prescribe action. State any gate passage or authority claim separately under its own rule. |
 | Leaving the optimization-model claim unresolved. | Ask whether the sentence states a formal object, a method description, a reusable way, a work plan, dated Work, or evidence; then keep only that claim in the method position. |
 | Inferring safe execution solely from protocol approval. | Separate publication-state claim, gate or authorization claim, evidence claim or assurance claim, work plan, and dated work. |
@@ -9794,7 +9790,7 @@ Use one concrete test in every case: can the reader state the reusable action, i
 
 #### A.3.1:9.1 - Lowering and local repair conditions
 
-Withdraw a `U.Method` identification when the text cannot answer the ordinary method question: what reusable action is meant, for which participant kinds and conditions, with what intended result or preserved condition, and where it stops. Also withdraw it when the supposed method is only a document, repository, diagram, model, run log, team, supplier label, or authorization; when one value is called both method and mechanism without a governing dual-typing rule; or when a graph or table is being read as an execution order without C.2.P.DR recovery.
+Withdraw a `U.Method` identification when the text cannot answer the ordinary method question: what reusable action is meant, for which participant kinds and conditions, with what intended result or preserved condition, and where it stops. Also withdraw it when the supposed method is only a document, repository, diagram, model, run log, team, supplier label, or authorization; when one value is called both method and mechanism without a governing dual-typing rule; or when graph or table layout is the sole basis for the asserted Method identity.
 
 Keep a source word such as *practice* unresolved when the sentence does not reveal whether it means a reusable way, a description, planned or performed Work, an assignment, a discipline or tradition, evidence, or a quoted label. Do not force one of those meanings merely to complete the form.
 
@@ -9893,7 +9889,7 @@ The practical gap lies between two existing results. `A.15.1` can identify what 
 
 ### A.3.1.MR:4 - Solution
 
-For every materially different reusable way that still fits the evidence, write a separate candidate account. Treat each account as one `U.Episteme`, keep it provisional until `A.3.1` admits the candidate as a Method, and keep MethodDescription membership separate until the account concerns that admitted Method and passes `A.3.2`.
+For every materially different reusable way that still fits the evidence, write a separate candidate account. Treat each account as one `U.Episteme`; use `A.3.1` to decide the candidate's Method identity while retaining the account's source support and limits. Apply `A.3.2` when the account concerns that admitted Method and a MethodDescription membership claim is needed.
 
 #### A.3.1.MR:4.1 - Identify each candidate account truthfully
 
@@ -9914,7 +9910,7 @@ If no candidate entity or truthful effective scheme can be recovered, lower the 
 5. **Distinguish each candidate subject.** For every materially different possible reusable way, state the provisional identity and scheme from §4.1. If two candidates cannot be told apart without unsupported claims, retain the ambiguity or lower the result.
 6. **Write one account per candidate.** Ask the `A.3.1` questions without granting Method membership: applicability, participant meanings, preconditions, intended result or preserved condition, reusable actions, supported parts or interfaces, allowed variation, and stops. Mark every unsupported position unknown rather than filling a familiar template.
 7. **Compare stability, variation, and alternatives.** Ask what recurs across independently grounded occurrences, what changes with the situation, what may be a performer-specific habit or local workaround, and whether another account explains the same evidence. Frequency alone establishes neither a Method part nor its value.
-8. **State a distinguishing question when it changes use.** If separating, repairing or lowering the candidates matters to the receiving use, identify the meaningful difference and the representative occurrence, trial, comparison or additional source that could expose it. A held-out question preserves its independence from account construction. The question need not be answerable now and is not a study commitment. A source-traceable provisional account can finish without designing unavailable or irrelevant follow-up. Separately select investigation only when its attainable contribution warrants its whole design, acquisition, interpretation and displaced-Work burden.
+8. **State a distinguishing question when it changes use.** If separating, repairing or lowering the candidates matters to the receiving use, identify the meaningful difference and the representative occurrence, trial, comparison or additional source that could expose it. When using held-out evidence to answer the question, keep it out of account construction. The question need not be answerable now and is not a study commitment. A source-traceable provisional account can finish without designing unavailable or irrelevant follow-up. Separately select investigation only when its attainable contribution warrants its whole design, acquisition, interpretation and displaced-Work burden.
 9. **Return the result warranted for the receiving use.** Return one or more candidate accounts ready for `A.3.1` identification or specialist work, with a separate comparison only when needed; or lower to a Work-related record, local regularity, performer-specific habit, observed sequence, or unresolved cue. Prepare MethodDescription-authoring input separately. The same account can qualify as `U.MethodDescription` only after its `EntityOfConcern` is admitted as one `U.Method` and its claims pass `A.3.2`.
 
 #### A.3.1.MR:4.3 - Select the result branch
@@ -9924,7 +9920,7 @@ If no candidate entity or truthful effective scheme can be recovered, lower the 
 | Several occurrences support one reusable account at the required grain, with visible source limits | One source-traceable candidate-account episteme about one independently distinguished possible reusable way. No answerable held-out question is required unless that answer is needed by the receiving claim. |
 | Several accounts still explain the observations | One account episteme per candidate with source support, gaps and real ambiguity; add a distinguishing question only when it changes recovery or downstream use, and a separate comparison episteme only for a named retained use. |
 | The material shows only what happened or one local regularity | A Work-related record, local regularity, observed sequence, or habit claim; no Method or MethodDescription. |
-| Candidate identity, scheme, Work occurrence, source support, or evidence construction cannot be grounded | The missing information, relation, Method, configuration, source, or interpretation rule and the blocked receiving use. |
+| A required candidate identity, scheme, claimed Work occurrence, source support, or evidence-construction premise cannot be grounded | The missing information, relation, Method, configuration, source, or interpretation rule and the dependent claim or receiving use it blocks. Retain any independently supported account or record-only result. |
 
 #### A.3.1.MR:4.4 - Keep process-mining contributions separate
 
@@ -9932,9 +9928,9 @@ Treat evidence preparation, process discovery, and candidate-Method recovery as 
 
 1. Named data-preparation Method or Methods select source events, name activities, correlate records and objects, choose event-state or start/complete encodings, and apply abstraction. Dated preparation Work uses named source data and produces an event-log episteme about the identified event-data collection or structure described by the log.
 2. A named discovery Method may return a behavioural-model episteme. Conformance checking may compare a log with a separate descriptive or normative model. Enhancement may add timing, organizational, performance, or prediction claims. Object-centric mining may preserve several typed objects and qualified relations.
-3. This recovery Method uses those well-scoped results with other evidence to return candidate reusable-way accounts, unrecorded contributions, lowering and a distinguishing question only when it changes the intended use.
+3. This recovery Method uses those well-scoped results with other evidence to return candidate reusable-way accounts or a narrower supported result, with any source-supported claims or gaps about unrecorded contributions. Include a distinguishing question only when it changes the intended use.
 
-None of the earlier contributions automatically recovers a Method. A discovered process model remains a `U.Episteme` about selected evidence unless another rule establishes a different kind or use. A conformance result relates a log and model; it does not prove that the model describes the obtaining Method or that every deviation is defective. Executability and visual process form do not satisfy `A.3.2`.
+None of the earlier contributions automatically recovers a Method. Identify the discovered model's claim-bearing episteme and its actual `EntityOfConcern`; keep that subject distinct from its evidential basis. A conformance result relates a log and model; it does not prove that the model describes the obtaining Method or that every deviation is defective. Executability and visual process form do not satisfy `A.3.2`.
 
 Treat *process*, *actual process*, *case*, *activity*, *event*, *variant*, *deviation*, and *process model* as cues to recover the direct subject, not as types supplied by the words. Use `E.10` and `A.15.6` when the source remains ambiguous.
 
@@ -9960,7 +9956,7 @@ If that held-out occurrence and the remaining evidence support the cue-responsiv
 
 The same team names its event-data preparation Method: select inspection start and completion events from the source files, name activities under the plant vocabulary, correlate records by pump and maintenance visit, and collapse duplicate sensor bursts under a stated rule. It cites the selected configuration because that configuration affects the result. Dated preparation Work on the named files produces an event-log episteme about the selected event-data collection.
 
-If the correlation key, configuration, or source window cannot be recovered, the result is that limitation—not a raw-fact log. A separately named discovery Method returns a behavioural-model episteme with observed variants. Candidate-Method recovery then adds the two candidate reusable-way accounts, the missing tactile contribution, the record-only branch, and the fifth-occurrence question.
+If the correlation key, configuration, or source window cannot be recovered, the result is that limitation—not a raw-fact log. A separately named discovery Method returns a behavioural-model episteme with observed variants. Candidate-Method recovery then adds the two candidate reusable-way accounts, the gap concerning the tactile check absent from the video, the record-only branch, and the fifth-occurrence question.
 
 #### A.3.1.MR:5.3 - Record-only lowering
 
@@ -9978,7 +9974,7 @@ If the receiving use changes to deciding whether to retain the fixed inspection 
 - **Frequency bias:** repeated order is evidence to examine, not a reusable Method part by count alone.
 - **Success bias:** favorable outcomes without failed or atypical cases may hide the real limits of the reusable way.
 - **Record bias:** unrecorded perceptual, embodied, conversational, and discretionary contributions remain possible gaps.
-- **Single-tradition bias:** process mining, routine dynamics, interviews, and Method Engineering each expose different evidence limits; none alone is sufficient for complete reconstruction.
+- **Single-tradition bias:** check whether the selected approach supplies what the receiving reconstruction needs; obtain another contribution only for a material remaining gap.
 - **Template-completion bias:** unsupported account positions remain unknown rather than being completed from familiar practice.
 
 ### A.3.1.MR:7 - Conformance Checklist
@@ -9989,7 +9985,7 @@ If the receiving use changes to deciding whether to retain the fixed inspection 
 - **CC-A3.1.MR-4 — Evidence construction.** Are selection, naming, correlation, abstraction, configuration, window, and likely missing contributions explicit when they matter?
 - **CC-A3.1.MR-5 — One candidate per account.** Does every candidate-account episteme have one candidate reusable-way EntityOfConcern and effective scheme?
 - **CC-A3.1.MR-6 — Rival retained.** Are real competing accounts or unresolved ambiguity visible without inventing a rival to complete the form?
-- **CC-A3.1.MR-7 — Useful distinguishing question.** Where discrimination changes recovery or downstream use, is the question clear and, if held out, independent of account construction? Does the account remain usable when no answerable investigation is needed or available, with stronger dependent claims withheld?
+- **CC-A3.1.MR-7 — Useful distinguishing question.** Where discrimination changes recovery or downstream use, is the question clear and any held-out evidence kept out of account construction? Does the account remain usable when no answerable investigation is needed or available, with stronger dependent claims withheld?
 - **CC-A3.1.MR-8 — Result branch.** Does the result stop at candidate account, separate comparison, record-only result, or named blocker without granting Method or MethodDescription membership?
 - **CC-A3.1.MR-9 — Specialist exit.** Is `RMP.10` used for complete reconstruction only when the receiving use needs its larger burden?
 - **CC-A3.1.MR-10 — Plain use.** Can a cold practitioner explain the candidate, evidence, real rivals, gaps and supported current use without a mandatory next-test plan?
@@ -9999,12 +9995,12 @@ If the receiving use changes to deciding whether to retain the fixed inspection 
 | Anti-pattern | Repair |
 | --- | --- |
 | “The common sequence is the Method.” | Recover applicability, participant meanings, intended result, variation, limits, rivals, and missing contributions first. |
-| “The mined model is the MethodDescription.” | Keep the model as a claim-bearing result about selected evidence until one Method is admitted and the episteme passes `A.3.2`. |
+| “The mined model is the MethodDescription.” | Keep the model as an episteme with its actual subject and claims. Apply `A.3.2` only when that same episteme concerns an admitted Method and makes a substantive claim about it as a way of doing. |
 | “Several candidates form one concern.” | Return one account per candidate; create a separate comparison subject only for a named use. |
 | “One expert performance proves the reusable way.” | Use it to open a hypothesis; seek several grounded occurrences or lower the result. |
 | “The log is raw fact.” | Name preparation Method, configuration, source, dated Work, correlation, encoding, window, and resulting event-log episteme. |
 | “Unknown means fill the standard field.” | Keep unsupported positions unknown and preserve their use limits. Add a distinguishing question only when it changes the receiving use; a missing field does not commission evidence collection. |
-| “Every recovery needs a full study.” | Stop at the smallest source-traceable candidate or record-only result; enter `RMP.10` only for specialist reconstruction. |
+| “Every recovery needs a full study.” | Stop when the source-traceable candidate or record-only result is sufficient for the receiving use; otherwise state its limit. Enter `RMP.10` only when that use needs specialist reconstruction. |
 
 ### A.3.1.MR:9 - Consequences
 
@@ -10029,7 +10025,7 @@ The one-account-per-candidate rule protects episteme subject truthfulness when e
 | Feldman and Pentland, [*Routine dynamics: Toward a critical conversation*](https://journals.sagepub.com/doi/10.1177/14761270221130876) (2022) | Separates particular performances from enduring or emergent patterns and keeps variation visible. | The performance/pattern distinction matters here: Repeated Work can support a candidate account without itself becoming the Method. |
 | Stacey et al., [*Methods as a form of engineering knowledge*](https://www.cambridge.org/core/journals/design-science/article/methods-as-a-form-of-engineering-knowledge/D126E520FCE6935C3DCBA703F89C24E4) | Distinguishes descriptive reconstruction from prescriptive method content and shows why the distinction can be difficult to maintain. | Coherent description does not establish Method admission or MethodDescription membership. |
 | Process-mining reference: [*Process Mining Handbook*](https://doi.org/10.1007/978-3-031-08848-3) (2022); exchange-format boundary: [OCEL 2.0 semantics and the 2.1 serialization revision](https://www.ocel-standard.org/specification/overview/) | Supplies preparation, discovery, conformance, enhancement, and multi-object event representation capabilities. | Event extraction, naming, correlation, object identity, encoding, abstraction, windows, and serialization remain modeling choices; mining alone establishes no applicability, intention, authority, tacit contribution, causal value, or Method identity. |
-| Object-centric recovery alternatives: [Adams et al., *Defining Cases and Variants for Object-Centric Event Data*](https://arxiv.org/abs/2208.03235) and [Küsters and van der Aalst, *OCPQ*](https://arxiv.org/abs/2506.11541) | Real event data may relate one event to several objects; selecting one case key or flattening can discard information, while queries and constraints produce use-bounded results. | Preserve the multi-object evidence and state the selected grouping, query, or constraint when it changes the candidate account. A graph-shaped execution, query result, or constraint result is still evidence or an episteme, not the reusable Method. |
+| Object-centric recovery alternatives: [Adams et al., *Defining Cases and Variants for Object-Centric Event Data*](https://arxiv.org/abs/2208.03235) and [Küsters and van der Aalst, *OCPQ*](https://arxiv.org/abs/2506.11541) | Real event data may relate one event to several objects; selecting one case key or flattening can discard information, while queries and constraints produce use-bounded results. | Preserve the multi-object evidence and state the selected grouping, query, or constraint when it changes the candidate account. Keep an execution, its representation, and any query or constraint result distinct. Their form alone does not identify the reusable Method. |
 
 ### A.3.1.MR:12 - Relations
 
@@ -10102,12 +10098,12 @@ Build a source-traceable dossier around the receiving decision. Recover each doc
 
 1. **Bound the receiving use and sources.** Name the decision, relevant viewpoint, scope, and exclusions. For each documentary source give its exact edition or snapshot, source-return locator, role in this use, selected recovery profile, and currentness or reopening condition. One package normally needs one compact source/use statement, not a separate register.
 2. **Choose how much to recover.** Use the profiles below. A maintained source's source-local recovery and comparison with current alternatives answer different questions; do not let the comparison erase a source contribution before it has been understood.
-3. **Read source meaning before placement.** For each selected contribution retain the source term and locator, difficulty or opportunity, asserted reusable action or change, first useful result or blocker, and receiving use. Keep its original status, limits, purpose, and explicit or implied relations. A source ambiguity remains an ambiguity.
+3. **Read source meaning before placement.** For each selected contribution retain the source term and locator, difficulty or opportunity, any asserted reusable action or change, any first useful result or blocker, and receiving use. Keep its original status, limits, purpose, and explicit or implied relations. A source ambiguity remains an ambiguity.
 4. **Preserve the subject and evidence role.** Distinguish identified Methods, individually scoped candidate accounts, MethodDescriptions or other epistemes, Systems and support/access, capabilities and assignments, inputs/results/premises, and direct relations. A source's report of evidence is recovered as that report, not as independently established Work or effectiveness. Send a new question about a reusable way in occurrence evidence to A.3.1.MR; specialist RMP.10 follows only under its entry condition.
 5. **Record intended use and possible loss.** Say what the receiving use proposes to keep, change, reject, or leave unresolved and what source meaning or context would be lost. These are source-local recovery dispositions. Do not yet assert cross-source sameness, perform semantic merging, allocate a remainder to a supplier, or design the resulting pattern language.
 6. **Recover direct relations and small dependency slices.** Retain supported production/use, schema correspondence, provider access, allocation, responsibility, authority, or other relevant relations. A line, container, chapter, lane, or local section supplies no relation. Attach only the source claims, conditions, and returns needed for the next judgement.
 7. **Prepare the actual downstream subjects.** A.3.1.QM receives only identified Methods and individually scoped candidate Method accounts, each with the smallest slice needed to judge contribution, inputs/results, applicability, burden, capability, support, authority/access, and evidence. B.1.5.CM receives a proposed-whole account when whole identity and relations are the question; retain its proposed semantics, participant statuses, relation boundary, and source slices. Other kinds remain in the dossier or accompany those subjects without becoming Methods.
-8. **Return the dossier and any blocking gaps.** Use open navigation sections when they help retrieval. Stop when the receiving decision can recover its subjects and source basis. If edition, role, receiving use, a needed current comparator, source return, kind, relation, or evidence is missing, name the affected contribution and the missing basis. Continue unaffected recovery when it can still serve the receiving decision; do not claim completeness beyond the recovered boundary.
+8. **Return the dossier and any blocking gaps.** Use open navigation sections when they help retrieval. Stop when the subjects and source basis needed for the receiving decision are recoverable. If edition, role, receiving use, a needed current comparator, source return, kind, relation, or evidence is missing, name the affected contribution and the missing basis. Continue unaffected recovery when it can still serve the receiving decision; do not claim completeness beyond the recovered boundary.
 
 ##### A.3.1.DR:4.1.1 - Select the Recovery Profile Per Source
 
@@ -10128,12 +10124,12 @@ For an ordinary package, the default is **decision-bounded recovery**: inspect o
 | --- | --- |
 | recovery boundary | Receiving decision, source set and exact editions/snapshots, viewpoint, scope, and exclusions. |
 | source/use statement | Per source: locator, role, recovery profile, receiving use, and currentness or reopening condition; combine this with the boundary for one ordinary package. |
-| entries | Local reference, source locator and meaning, difficulty/opportunity, asserted action/change, first result/blocker, existing kind or unresolved status, bounded use, and loss. |
+| entries | Local reference, source locator and meaning, difficulty/opportunity, any asserted action/change, any first result/blocker, existing kind or unresolved status, bounded use, and loss. |
 | direct relations | Related subjects, relation, source or evidence basis, truth status, and unresolved condition. |
 | occurrence-evidence return, when current | The A.3.1.MR or RMP.10 result with its own candidate statuses, real rivals, gaps and evidence limits. Include a distinguishing question only when it changes the receiving use, or a held-out result only when actually obtained. An ordinary account needs no prospective study to fill this row; raw observations are not documentary Method entries. |
 | navigation | Open local sections used only for finding contributions. |
 | downstream subjects | Identified Methods and individually scoped accounts with dependency slices for A.3.1.QM; a proposed-whole account with its identity/relation boundary for B.1.5.CM when needed. |
-| stop and return | Missing source, role, use, comparator, kind, relation, evidence, or the next receiving question. |
+| stop and return | Supported result for the receiving decision; any missing source, role, use, comparator, kind, relation, or evidence; any further question the decision requires. |
 
 Keep these distinctions in the dossier already being used; they are not a requirement for one file or row per field. A short one-source result can carry the source/use statement in its opening sentence.
 
@@ -10177,7 +10173,7 @@ This constructed case concerns a change to the release-assurance arrangement. Ha
 | C/2 §2; current comparator; SoTA-first for this decision; return if a rival or the comparison basis changes. | A separately reviewed evidence bundle is proposed to reduce reliance on one supplier account. Its first result is a reviewed bundle or a named evidence gap. The claim's tested reach is limited to the comparison's cases. | Retain this alternative and its limits separately from H. Do not decide that two differently supported activities are one Method or that either replaces the other. |
 | I/D1; occurrence evidence, not a third documentary recovery profile. | The interview reports one release episode but does not yet distinguish a reusable way from a one-off response. | For the one-occurrence question use A.15.1. If several occurrences create a candidate-recovery question, use A.3.1.MR; keep a record-only lower result when that is all the evidence supports. RMP.10 is not an automatic next step. |
 
-The first result is the two-source documentary dossier plus the honest occurrence-evidence return, not a merged release Method. A later semantic comparison must decide whether the two documentary contributions overlap, conflict, or complement one another.
+The first result is the two-source documentary dossier plus the honest occurrence-evidence return, not a merged release Method. When the receiving decision needs a semantic comparison, examine whether the two documentary contributions overlap, conflict or complement one another; leave unresolved relations explicit.
 
 If C's full argument becomes unavailable but a page-located excerpt remains, retain the excerpt and reopen only entries whose receiving use depends on the missing context. H's independent source-local result remains usable. Do not turn unavailable support into proof that C was false, or continue a gap-only recovery without its baseline.
 
@@ -10212,13 +10208,13 @@ If C's full argument becomes unavailable but a page-located excerpt remains, ret
 | Everything actionable becomes a Method candidate. | Require a reusable way-of-doing account; keep support, capability, evidence, and authority under their direct kinds. |
 | The package is reduced to a procedure. | Recover rationale, framing, intended use, inputs/results, support, evidence, and authority only where they change the receiving decision. |
 | The whole package is copied for provenance. | Attach a bounded dependency slice to each Method/account and retain a source return to the package edition. |
-| Unknown relation is inferred from adjacency. | Record the relation as unresolved and state what observation or source would settle it. |
+| Unknown relation is inferred from adjacency. | Record the relation as unresolved and name any known source or observation that could settle it. |
 
 ### A.3.1.DR:9 - Consequences
 
 The package becomes selectively reusable while its provenance and the kinds of its contributions remain explicit. Later qualification can inspect one Method or account together with the dependencies that make its use meaningful.
 
-The cost is explicit kind and relation recovery. Some familiar package headings will disappear from the action path, while important support, authority, or evidence conditions may become more visible than the source's headline procedure.
+The cost is explicit kind and relation recovery. Important support, authority, or evidence conditions may become more visible than the source's headline procedure.
 
 ### A.3.1.DR:10 - Architectural Rationale
 
@@ -10290,7 +10286,7 @@ The project then believes the architecture problem is solved even though no resu
 
 | Force | Tension |
 | --- | --- |
-| Early rejection | Individual defects should stop early, while whole conflicts must remain visible for C.32.MWA.PP. |
+| Early rejection | An individual condition can rule out a subject for the receiving use before whole comparison; combined conflicts remain visible for C.32.MWA.PP. |
 | Status preservation | Candidate accounts need useful assessment, while qualification cannot identify their Methods. |
 | Comparable questions | A common set of questions aids choice, while not every question applies to every subject. |
 | Evidence proportionality | A bounded use may need little evidence, while safety, authority, or high burden can require stronger support. |
@@ -10308,9 +10304,9 @@ Qualify one subject at a time against the bounded receiving use. Preserve status
 2. **Bind the use.** State the receiving Work or result, situation family, scope, time window, non-negotiable criteria, acceptable variation, and decision that will consume the qualification.
 3. **Recover the individual contribution.** Name the input, result or preserved condition, procedure or invariant as far as known, applicability, and important source meaning. Do not credit the subject with another Method's result.
 4. **Check attributable conditions.** Inspect the conditions relevant to this contribution: timing and burden attributable to this subject; performer capability; support and provider access; authority or responsibility; evidence; and source or transfer limits.
-5. **Test local connections only.** Check an input/result handoff, schema correspondence, or adapter feasibility when it can be supported independently. Record its scope and failure case.
+5. **Test local connections only.** Check an input/result handoff, schema correspondence, or adapter feasibility when it can be assessed independently of a whole synthesis. Record its scope and any known failure condition relevant to the receiving use.
 6. **Return the truthful branch.** An identified Method is qualified or not qualified for the bounded use. For a not-qualified result, distinguish a failed criterion from an insufficient basis to judge it. A candidate account is retained or excluded *as an account*, with unresolved identification conditions unchanged. A local connection is supported, unsupported, or unresolved.
-7. **Choose the stop.** Stop after one usable Method, one retained account, or several independently usable subjects when no whole question remains. Enter C.32.MWA.PP only when a several-structure choice can change the decision.
+7. **Choose the stop.** Stop when the individual qualification or local-connection result is sufficient for the receiving decision and no whole question remains. Enter C.32.MWA.PP only when a several-structure choice can change the decision.
 
 #### A.3.1.QM:4.2 - Record the Result
 
@@ -10320,12 +10316,12 @@ Qualify one subject at a time against the bounded receiving use. Preserve status
 | bounded use | Receiving result or Work, situation, scope, window, criteria, and consuming decision. |
 | contribution | Inputs, result or preserved condition, known procedure/invariant, applicability, and variation. |
 | attributable conditions | Time/burden, capability, support/provider access, authority/responsibility, evidence, and source limits attributable to this subject and relevant to the receiving use. |
-| local connections | Independently tested input/result, schema, or adapter claims with scope and status. |
+| local connections | Independently assessed input/result, schema, or adapter claims with scope and status. |
 | verdict and stop | Qualified/not-qualified Method or retained/excluded account, failed criteria or missing qualification basis, open identity conditions, remaining whole question, and next action. |
 
 #### A.3.1.QM:4.3 - What Changes in Practice
 
-Teams stop scoring a methodology bundle as one object. They can reject one Method, retain a promising account without admitting it, and prove one schema mapping without calling the whole arrangement compatible. C.32.MWA.PP then receives only the genuinely combined timing, allocation, support, authority, or composition questions.
+Teams can use individual qualifications without treating them as a verdict on the whole arrangement. They can reject one Method, retain a promising account without admitting it, and prove one schema mapping without calling the whole arrangement compatible. C.32.MWA.PP then receives only the genuinely combined timing, allocation, support, authority, or composition questions.
 
 ### A.3.1.QM:5 - Archetypal Grounding — EC-417 Individual Stops
 
@@ -10379,7 +10375,7 @@ Two honest stops are now available. A project needing only hardware verification
 
 ### A.3.1.QM:9 - Consequences
 
-Weak subjects fail early, promising accounts remain usable without ontological promotion, and local handoffs become inspectable. Architecture comparison is smaller because it receives only retained subjects and unresolved combined questions.
+Subjects can be excluded early when a relevant criterion rules out their use; promising accounts remain usable without ontological promotion, and local handoffs become inspectable. Architecture comparison uses the retained subjects and unresolved combined questions.
 
 The cost is keeping the different conditions visible even when a project needs one overall choice. Several qualified individual results may still leave no acceptable synthesis.
 
@@ -10415,13 +10411,13 @@ Revisit an individual qualification when its conclusion turns out to depend on a
 
 ### A.3.1.WT:0 - Use This When
 
-Use this pattern when a Method or candidate Method account is ready for a trial in actual Work and the next decisions need observations from named situations rather than another plan, demonstration, or document review. Begin with one trial question: what must be learned from actual Work for a later coherence, fit, transfer, or worth decision?
+Use this pattern when a Method or candidate Method account is ready for a trial in actual Work and the next decisions need observations from named situations. Begin with one trial question: what must be learned from actual Work for a later coherence, fit, transfer, or worth decision?
 
-The first useful result is an account of the selected trial Work and observations. It names the subject and its status, the situation-selection reason, the planned task, the Work that actually occurred, actual performers and enacted admitted Methods, relied-on Systems and capabilities, observations, gaps, and the later decision that may use them. A result that returns `missing-performed-work` is useful when the trial remains only planned.
+The first useful result is an account of the selected trial Work and observations. It names the subject and its status, the situation-selection reason, the task and any available plan, the Work that actually occurred, actual performers and enacted admitted Methods, relied-on Systems and capabilities, observations, gaps, and the later decision that may use them. A result that returns `missing-performed-work` is useful when the trial remains only planned.
 
 Here *trial* is Plain practice wording for intentionally selected Work and observation. It is not a new subtype of `U.Work`, a Method admission, an evaluation result, or a claim that the situation statistically represents a population.
 
-Do not use this pattern to declare description coherence, situational fit, transfer, practical worth, capability, causal contribution, or general effectiveness. A.3.1.WT makes later judgments possible; A.3.1.CC, A.3.1.FT, and C.11.MV make those judgments under their own questions and evidence.
+Do not use this pattern to declare description coherence, situational fit, transfer, practical worth, capability, causal contribution, or general effectiveness. It returns evidence for separately governed judgments, including A.3.1.CC coherence, A.3.1.FT fit or transfer, and C.11.MV practical worth.
 
 #### A.3.1.WT:0.1 - Working Distinctions
 
@@ -10432,7 +10428,7 @@ Do not use this pattern to declare description coherence, situational fit, trans
 | discriminating situation | A situation selected because one changed condition can expose a claimed limit, burden, or failure. | Difference alone is insufficient; state which claim the changed condition can test. |
 | WorkPlan | Intended performers, tasks, Methods, situations, observations, and stops. | A plan, script, simulation description, or scheduled demonstration is not performed Work. |
 | admitted Work | One dated Work occurrence admitted under `A.15.1` from its actual performers, action history, enacted Method, temporal extent, and required containing-System relation. | A report, trace, attendance record, or output can support the claim but does not create the occurrence. |
-| candidate-account trial branch | Actual Work is admitted separately while claims in a candidate Method account are compared with observations. | The candidate whole is not said to have been enacted. Only separately admitted constituent Methods may obtain in `enactsMethod` relations. |
+| candidate-account trial branch | Actual Work is admitted separately while claims in a candidate Method account are compared with observations. | The candidate whole is not said to have been enacted. Name each independently admitted Method actually followed and its grounded `enactsMethod` relation. |
 | capability input | A claim about a holder System, Work family or result class, operating envelope, measures, qualification or currentness window, and evidence used for reliance. | Training, availability, assignment, permission, authority, or one success does not substitute for it. |
 | trial evidence | Occurrence-level observations, source relations, burdens, adaptations, results, and gaps qualified for named later uses. | It is not itself coherence, fit, transfer, worth, contribution, or causal proof. |
 
@@ -10464,30 +10460,30 @@ These moves produce a positive story but weak evidence. Later reviewers cannot r
 
 A.15.1 identifies performed Work and A.10 governs a claimed evidence use. The trial construction below determines which Work, variation, observation and stopping condition can answer the unresolved Method question. Its result is distinct from coherence, transfer and comparative worth; reuse a matching existing observation before commissioning a trial.
 
-Select situations from the later evidence questions, arrange and observe actual Work, preserve every subject's status, and return occurrence-level evidence with explicit gaps and limits on the conclusions it supports.
+Select situations from the later evidence questions, use matching observations of existing Work or arrange and observe a new trial, preserve every subject's status, and return occurrence-level evidence with explicit gaps and limits on the conclusions it supports.
 
 #### A.3.1.WT:4.1 - Pattern-Use Unfolding
 
 1. **Name the later decisions and trial questions.** Separate the questions that may feed A.3.1.CC coherence, A.3.1.FT situational fit or transfer, and C.11.MV practical worth. Do not hide several conclusions inside “does the Method work?”.
-2. **Preserve the subject branch.** Identify the admitted Method under `A.3.1`, or keep the proposed whole as a candidate account. In the candidate branch, state which candidate claims are being compared and which constituent Methods, if any, are separately admitted and may be enacted.
-3. **Select one representative situation.** Name the intended-use characteristics that matter to the question: task purpose, development phase, technical or domain conditions, performer population, holder capabilities, participating Systems, direct relations, constraints, and qualification window. State why this situation covers the current question without claiming population representativeness.
+2. **Preserve the subject branch.** Identify the admitted Method under `A.3.1`, or keep the proposed whole as a candidate account. In the candidate branch, state which candidate claims are being compared and which Methods, if any, are separately admitted and may be enacted.
+3. **Select a representative situation when the trial question needs one.** Name the intended-use characteristics that matter to the question: task purpose, development phase, technical or domain conditions, performer population, holder capabilities, participating Systems, direct relations, constraints, and qualification window. State why this situation covers the current question without claiming population representativeness.
 4. **Select a discriminating situation when the decision needs one.** Change or seek one condition whose outcome can show whether a live claim holds in that situation: unfamiliar technical coupling, another domain, missing support relation, changed capability envelope, stale material, or another named alternative. State the claim that could fail. Do not require every trial to contain an artificial stress case.
-5. **Write the WorkPlan without backdating Work.** State intended tasks, performers, admitted Methods, support conditions, observation points, protected conditions, burdens to record, stop rules, and the later use of each observation. Keep simulation and demonstration as planned or separately typed activities unless independently admitted Work occurs.
+5. **Keep intention and performance distinct.** For a new trial, write the WorkPlan with intended tasks, performers, admitted Methods, support conditions, observation points, protected conditions, burdens to record, stop rules, and the later use of each observation. For existing Work, recover any available plan and leave unsupported claims about prior intentions unresolved. Distinguish planned or described activity from what was performed. A performed simulation or demonstration may itself be admitted as Work under §4.1(7); distinguish what was actually performed from what was only represented or planned.
 6. **Check capability and support inputs separately.** When reliance on capability changes interpretation, identify the holder System, Work family or result class, operating envelope, measures, qualification or currentness condition, and evidence. Recover only A.15.8.MS material, access, tool, provider, feedback, and decision conditions supported for the relevant task rows; preserve retained candidates, split boundaries, untested conditions, and gaps rather than treating them as configured inputs.
 7. **Admit only Work that occurred.** For each occurrence, recover every actual performer System and its A.13 basis, the action history, at least one admitted Method actually followed, temporal extent, and required containing-System relation under `A.15.1`. Use F.6 through the same obtaining A.13 assignment only when precise assignment-bound attribution is needed. Add System use, operation binding, affected referent, resource use, or result relations only when the claim needs them and their own predicates obtain.
-8. **Record conditions and departures.** For each Work occurrence, record the situation, relied-on Systems and direct relations, holder capabilities used in interpretation, deviations from the WorkPlan, adaptations, burdens, stops, domain results, and observations. Keep the domain result, report, log, and evidence-use relation separate from Work.
+8. **Record conditions and departures.** For each Work occurrence, record the situation, relied-on Systems and direct relations, holder capabilities used in interpretation, departures from any available WorkPlan, adaptations, burdens, stops, domain results, and observations. Keep the domain result, report, log, and evidence-use relation separate from Work.
 9. **Qualify the evidence reach.** Distinguish direct observation, participant report, source interpretation, observed association, contribution claim, and causal claim. Return the supported level needed by the receiving claim and name missing comparison, temporal, capability, relation, or alternative evidence.
-10. **Return evidence by later use.** For each selected receiving question, send contradicted description or relation claims to A.3.1.CC, situation comparisons and an unlike-situation result to A.3.1.FT, and results, burdens, alternatives, side effects, and evidence limits to C.11.MV. Return `missing-performed-work`, `missing-method-admission`, `missing-capability-basis`, `missing-direct-relation`, or the named missing premise when a required condition is absent.
+10. **Return evidence by later use.** For each selected receiving question, send description or relation evidence to A.3.1.CC, the situation evidence and any comparison needed for the selected fit or transfer question to A.3.1.FT, and results, burdens, alternatives, side effects, and evidence limits to C.11.MV. Return `missing-performed-work`, `missing-method-admission`, `missing-capability-basis`, `missing-direct-relation`, or the named missing premise when a required condition is absent.
 
 #### A.3.1.WT:4.2 - Record the Result
 
 | Result position | Required content |
 | --- | --- |
 | trial use | Later decision, bounded trial question, qualification window, and stop. |
-| subject status | Admitted Method, or candidate account plus each separately admitted constituent Method whose enactment is claimed. |
-| situations | Representative and any discriminating situation, selection criteria, matched conditions, changed conditions, and claim each can test. |
-| plan baseline | Intended Work, performers, Methods, support conditions, observations, burdens, protected conditions, and stop rules. |
-| actual Work | Each admitted Work occurrence, actual performers, enacted admitted Methods, temporal extent, containing System, and deviations from plan. |
+| subject status | Admitted Method, or candidate account plus each separately admitted Method whose enactment is claimed. |
+| situations | Representative or discriminating situations selected for the question, selection criteria, any relevant matched or changed conditions, and the question or claim each addresses. |
+| plan baseline | Available plan for existing Work, or intended Work for a new trial, with performers, Methods, support conditions, observations, burdens, protected conditions, stop rules and any missing plan basis relevant to the question. |
+| actual Work | Each admitted Work occurrence, actual performers, enacted admitted Methods, temporal extent, containing System, and departures from any available plan. |
 | relied-on conditions | Holder capabilities, Systems, Agent-performed Work, direct relations, access, assignments, permissions, authority, tools, providers, and support conditions that actually obtain or remain missing. |
 | observations | Domain results, burdens, adaptations, failures, participant reports, direct observations, and their source or evidence-use relations. |
 | reach and gaps | Supported observation level, missing evidence, material limits on contribution or causal claims, and conditions that would reopen the slice. |
@@ -10497,7 +10493,7 @@ Keep these distinctions in the account and its referenced records. A table is us
 
 #### A.3.1.WT:4.3 - What Changes in Practice
 
-Teams stop calling a scheduled exercise or positive report “the trial”. They can point to the actual Work, the admitted Method that was enacted, the conditions on which the result depended, and the named later question each observation can answer.
+Teams distinguish a planned or reported trial from the Work that actually occurred. They can point to the actual Work, the admitted Method that was enacted, the conditions on which the result depended, and the named later question each observation can answer.
 
 A failed or incomplete occurrence remains useful. It can expose a description defect, a representation difficulty, a missing support relation, a capability condition, or a situation boundary without being inflated into a universal verdict on the Method.
 
@@ -10527,14 +10523,14 @@ The published paper supplies report evidence. A local application admits a parti
 
 #### A.3.1.WT:5.1 - Preserve the Status Branch
 
-Before using the replay, establish whether SSFD is an admitted Method for the current FPF use. If it is, each supported project occurrence may be tested for its own obtaining `enactsMethod` relation. If it is not, admit the workplace Work independently, retain the SSFD account as a candidate, and name only separately admitted constituent Methods as enacted. The report statement “used SSFD” does not perform either admission automatically.
+Before using the replay, establish whether SSFD is an admitted Method for the current FPF use. If it is, each supported project occurrence may be tested for its own obtaining `enactsMethod` relation. If it is not, admit the workplace Work independently, retain the SSFD account as a candidate, and name the independently admitted Methods whose enactment relations obtain. The report statement “used SSFD” does not perform either admission automatically.
 
 #### A.3.1.WT:5.2 - Representative and Discriminating Slices
 
 | Slice | Reported project facts used | Evidence returned | Stop retained |
 | --- | --- | --- | --- |
-| Project 11 | The report concerns functional analysis of a new by-wire steering system and records 48 failure modes for four system functions, 44 new requirements and design rules, 44 test cases for individual systems, and 33 requirements and test cases for the overall system. | One bounded application account for checking whether description, representation, and support claims were usable in that project situation, plus the reported results and burdens available from the source. | Do not infer that this project caused or preceded Project 32, that every programme participant had the same capability, or that the reported benefits came from SSFD alone. |
-| Project 32 | The report exposes difficulty representing the relation between a closed-loop sensor and controller. | A discriminating representation difficulty for A.3.1.CC and an unlike-situation comparison for A.3.1.FT. A.3.1.CC uses C.37 and the direct representation governor for one action; when several unlike Method-related actions are current, it checks the affected action and cross-use dependency in the complete C.37.MP profile defined in C.37.MP:4.2. The report establishes neither selection result by itself. | Do not turn the difficulty into general Method failure or claim that Project 11 supplies the counterfactual. |
+| Project 11 | The report concerns functional analysis of a new by-wire steering system and records 48 failure modes for four system functions, 44 new requirements and design rules, 44 test cases for individual systems, and 33 requirements and test cases for the overall system. | One bounded application account for checking whether description, representation, and support claims were usable in that project situation, plus the reported results and burdens available from the source. | Do not infer that every programme participant had the same capability or that the reported benefits came from SSFD alone. |
+| Project 32 | The report exposes difficulty representing the relation between a closed-loop sensor and controller. | A discriminating representation difficulty for A.3.1.CC and an unlike-situation comparison for A.3.1.FT. A.3.1.CC uses the direct representation governor for the affected action and C.37 when a selection question remains; when a Method-specific cross-use profile is needed, it checks the affected action and cross-use dependency under C.37.MP:4.2. The report establishes neither selection result by itself. | Do not turn the difficulty into general Method failure or claim that Project 11 supplies the counterfactual. |
 | 41-report evidence set | The review identifies 95 examples of evidenced individual benefits across business results, process improvement, and product-development-team capability improvement, while separating direct and indirect contribution. | Bounded report and review evidence for later comparison of results, burdens, and evidence strength in C.11.MV. | Counts and source classifications do not establish causality, universal superiority, transfer, or current capability for every participant. |
 
 The useful A.3.1.WT result is therefore not “SSFD works”. It is a set of reported workplace-project accounts, situation and support conditions, observed representation difficulties, reported results and burdens, evidence-source qualifications, and explicit gaps for three separate later judgments.
@@ -10551,9 +10547,9 @@ For a release trial, apply §4.1(6–9) to the release's own occurrence, support
 
 | Bias | Likely drift | Repair |
 | --- | --- | --- |
-| plan-completion bias | A scheduled or demonstrated task is recorded as trial Work. | Admit each actual Work occurrence separately; otherwise return `missing-performed-work`. |
+| plan-completion bias | Planned or represented activity is reported as performed trial Work. | Admit each actual Work occurrence separately; otherwise return `missing-performed-work`. |
 | candidate-laundering bias | Constituent activity is reported as enactment of the candidate whole. | Preserve the candidate account and name only separately admitted enacted Methods. |
-| success-selection bias | Convenient positive occurrences stand in for the intended situation family. | State representative criteria and add a discriminating situation when the later question needs one. |
+| success-selection bias | Convenient positive occurrences stand in for the intended situation family. | State the situation-selection criteria and select a discriminating situation when the later question needs one. |
 | instrument bias | Logs, reports, or telemetry are treated as the Work or result. | Keep the occurrence, result, record, and evidence-use relation separate. |
 | capability inflation | Training or one success becomes a holder capability claim. | Require the A.2.2 holder, Work family, envelope, measures, window, and evidence. |
 | causal inflation | Reported benefit or association becomes Method-caused effect. | State the observation level and missing comparison or causal basis. |
@@ -10564,8 +10560,8 @@ For a release trial, apply §4.1(6–9) to the release's own occurrence, support
 - [ ] One later decision and bounded trial question are stated before the trial design.
 - [ ] The Method is admitted, or the proposed whole remains a candidate account throughout.
 - [ ] Every claimed enacted Method is independently admitted; no candidate whole is said to be enacted.
-- [ ] Representative criteria are named, and every discriminating situation states the claim it can distinguish.
-- [ ] WorkPlan, demonstration, simulation, report, trace, result, and actual Work remain separate.
+- [ ] Situation-selection criteria are named, and every discriminating situation states the claim it can distinguish.
+- [ ] Plans, reports, traces and results remain distinct from Work; for a simulation or demonstration, distinguish what was actually performed from what was only represented or planned.
 - [ ] Each claimed Work occurrence independently satisfies the admission basis in §4.1(7).
 - [ ] Capability, System use, assignment, permission, authority, support, operation binding, and result relations are asserted only from their own bases.
 - [ ] Conditions, deviations, adaptations, burdens, observations, and domain results are recorded per occurrence.
@@ -10577,7 +10573,7 @@ For a release trial, apply §4.1(6–9) to the release's own occurrence, support
 | Anti-pattern | Repair |
 | --- | --- |
 | “The rehearsal ran, so the Method was trialled.” | Recover actual Work and its enacted admitted Method; otherwise keep the rehearsal at its supported status. |
-| “The team enacted the candidate Method.” | Admit the Work, preserve the candidate account, and name only admitted constituent Methods whose enactment relations obtain. |
+| “The team enacted the candidate Method.” | Admit the Work, preserve the candidate account, and name only independently admitted Methods whose enactment relations obtain. |
 | “Everyone was trained, so capability was controlled.” | Record training separately and recover the holder capability input actually used in interpretation. |
 | “The log proves the task occurred and succeeded.” | Use the log as evidence for independently admitted Work and a separately established task result. |
 | “Most reports were favourable, so the Method transfers.” | Send the occurrence evidence and situation differences to A.3.1.FT; do not make the transfer judgment here. |
@@ -10593,7 +10589,7 @@ The cost is more explicit occurrence recovery and narrower conclusions. Projects
 
 Actual Work is the shared empirical base, but coherence, fit, transfer, worth, capability, contribution, and causality are different claims. Keeping them separate lets the same occurrence inform several decisions without allowing one decision to inherit another's conclusion.
 
-Representative situations answer typical-use questions; discriminating situations test a stated difference or boundary. Select the former for the intended use and add the latter when the decision requires it. Their selection does not create statistical representativeness or a universal situation taxonomy.
+Representative situations answer typical-use questions; discriminating situations test a stated difference or boundary. Select either or both according to the receiving question. Their selection does not create statistical representativeness or a universal situation taxonomy.
 
 ### A.3.1.WT:11 - SoTA-Echoing
 
@@ -10609,7 +10605,7 @@ Representative situations answer typical-use questions; discriminating situation
 - A.3.2.DE supplies MethodDescription content or candidate-account content for the trial question. A.15.8.MS supplies supported material and task conditions or a retained configuration set, split boundary, or gap; A.3.1.WT consumes only the obtaining support inputs and preserves every unresolved status. Neither pattern establishes trial Work or its result.
 - RMP.10 may supply a reconstructed candidate account and a trial question while preserving the candidate branch.
 - `A.3.1` governs Method admission; `A.15.2` keeps the WorkPlan separate; `A.15.1` governs each Work occurrence; `A.2.2` governs capability inputs; `A.10` governs relied-on evidence paths.
-- A.3.1.CC consumes evidence for construction and description coherence, A.3.1.FT consumes situation comparisons for fit or transfer, and C.11.MV consumes results, burdens, alternatives, and evidence strength for practical worth. None of those conclusions is returned by A.3.1.WT.
+- A.3.1.CC consumes evidence for construction and description coherence, A.3.1.FT consumes situation evidence and any comparisons needed for the selected fit or transfer question, and C.11.MV consumes results, burdens, alternatives, and evidence strength for practical worth. None of those conclusions is returned by A.3.1.WT.
 
 ### A.3.1.WT:End
 
@@ -10622,7 +10618,7 @@ Representative situations answer typical-use questions; discriminating situation
 
 Use this pattern when Method construction commitments, a MethodDescription, a selected representation, an enactment-support result, or trial evidence no longer agree well enough for a named use. Begin with the possible contradiction and the decision it blocks: which maintained claim may be wrong, incomplete, stale, or unsupported?
 
-The first useful result is a bounded coherence finding. It names the claim being checked, its maintained owner and edition, the comparison basis, the observed agreement or defect, the one result to reconsider, and the stop. A truthful `owner-not-recoverable` or `missing-comparison-basis` result is better than declaring the whole Method incoherent.
+The first useful result is a bounded coherence finding. It names the claim being checked, its maintained owner and edition, the comparison basis, the observed agreement or defect, and any correction or stop required. A truthful `owner-not-recoverable` or `missing-comparison-basis` result is better than declaring the whole Method incoherent.
 
 Here *coherence* is Plain practice wording for checking whether claims relied on for the declared use agree where they should. It is not a new FPF relation, Method admission, fit result, effectiveness result, or universal consistency proof.
 
@@ -10638,7 +10634,7 @@ Do not use this pattern to decide whether the Method fits another situation, tra
 | support claim | One A.15.8.MS task, configuration, A.22 proposal or selection position, collection, membership, edition, publication, direct-relation, test, or reliance claim. | A repository or successful tool task cannot repair a contradiction in another maintained result by being convenient. |
 | trial evidence | A.3.1.WT occurrence-level observations and gaps qualified for a named later use. | An observation can bear on a claim. Any correction belongs in the maintained result that owns that claim. |
 | coherence finding | A bounded agreement, contradiction, missing-information, failed-declared-conformance, or currentness result about one named claim. | “The Method is coherent” is too broad unless every claim relied on and its qualification window are actually in scope. |
-| maintained owner | The result whose claim must change if the finding is sustained: B.1.5.CM, A.3.2.DE, C.37.MP, one exact A.15.8.MS result, or another named governor. | The file that displays a claim is not necessarily its owner. |
+| maintained owner | The maintained result whose claim is being checked and where any warranted correction belongs: B.1.5.CM, A.3.2.DE, C.37.MP, one exact A.15.8.MS result, or another named governor. | The file that displays a claim is not necessarily its owner. |
 | declared conformance | A conformance claim with its named scheme, criteria, represented entity, use, and qualification window. | Passing description-side conformance does not establish Method fit, Work performance, or worth. |
 
 ### A.3.1.CC:1 - Problem Frame
@@ -10675,15 +10671,15 @@ When the parts appear locally consistent but the required whole result still has
 
 #### A.3.1.CC:4.1 - Pattern-Use Unfolding
 
-Use steps 4–8 only for the claims and evidence that the named coherence question depends on.
+Use steps 4–8 only for the claims and evidence that the named coherence question depends on. Use steps 10–11 only when the finding warrants a correction; agreement or an unresolved gap can be returned at step 12.
 
 1. **Name the blocked use and possible contradiction.** Identify the reader or decision, the claim needed, its qualification window, and what would count as agreement, contradiction, missing information, or a stop. Do not begin with “verify the Method”.
 2. **Preserve the subject and status branch.** Identify the admitted Method under `A.3.1`, or keep the proposed whole as a candidate account. Keep Work, WorkPlan, description, representation, support, evidence, publication, and structure claims at their current statuses.
 3. **Recover the maintained claim and owner.** Record the claim text or predicate, owning result, edition or occurrence, source or construction basis, intended use, and currentness condition. If ownership cannot be recovered, return `owner-not-recoverable` before editing several carriers.
 4. **Check construction claims at B.1.5.CM.** Test construction requirements, component decisions, operation declarations, and obtaining-relation claims separately. Cite the governing FPF predicate where needed rather than recreating its admission test. A failed construction claim returns to that exact B.1.5.CM result.
 5. **Check MethodDescription claims at A.3.2.DE.** Test coverage, internal consistency, correspondence with admitted Method claims, navigation for the named use, stated evidence limits, omissions, stops, and any declared description-side conformance. Do not make section count or scheme passage a proxy for useful coverage.
-6. **Check representation-use results at the right owner.** For one action, recover its complete representation-use result under C.37 and stop without C.37.MP. For several unlike Method-related actions, recover the [complete C.37.MP profile](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37mp42---record-the-result), including its shared source and separate cross-use result. Test the contradicted action's claim group and whether the profile relation still holds. The direct FPF governor owns view, mathematical-lens, publication, and structure conformance; if a governed result fails, return that lower result and reopen only the affected use result and cross-use relations that actually depended on it.
-7. **Check support results at A.15.8.MS.** Use A.15.8.MS's result distinctions to locate the specific support claim contradicted by the evidence and the result that owns it. Return the repair there; one defeated claim is not a verdict on the whole support configuration.
+6. **Check representation-use results at the right owner.** Start from the affected representation result and its direct governor. Recover a C.37 selection account when the claimed use relies on one or still needs a cross-kind selection account. When the claim concerns a Method-specific organization of several uses, recover the [complete C.37.MP profile](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37mp42---record-the-result), including its shared source and separate cross-use result. Test the affected claim group and any profile relation that depends on it. The direct FPF governor owns view, mathematical-lens, publication, and structure conformance; if a governed result fails, return that lower result and reopen only the affected use result and cross-use relations that actually depended on it.
+7. **Check support results at A.15.8.MS.** Use A.15.8.MS's result distinctions to identify the support claim being checked and the result that owns it. Test that claim against the evidence and return any needed repair there; one defeated claim is not a verdict on the whole support configuration.
 8. **Use trial evidence to check the maintained claim.** From A.3.1.WT, recover the actual Work occurrence, performer, enacted admitted Method, situation, capability and support conditions, direct relations, result, burden, observation source, and evidence reach. Ask which named claim the observation bears on. A success or failure does not by itself identify the owner.
 9. **Classify the finding.** Distinguish: `agreement-within-window`; `contradicted-claim`; `missing-information`; `failed-declared-conformance`; `stale-source-or-edition`; and `owner-not-recoverable`. Do not turn uncertainty into contradiction or a local defect into a whole-Method verdict.
 10. **Select one correction owner.** Return the smallest correction to B.1.5.CM construction, A.3.2.DE description, one direct C.37 use row, one complete C.37.MP Method representation profile, one exact A.15.8.MS result, or the direct governor of a lower representation result. If one observation defeats several independent claims, create separate findings with separate owners; do not copy one vague correction into every upstream result.
@@ -10736,9 +10732,9 @@ Return `CORR-C37-UR-1`: revise governed representation result `REP-UR-Flow-4` an
 
 The SSFD workplace evidence reports that Project 32 had difficulty representing the relation between a closed-loop sensor and controller. This is a useful coherence trigger because the difficulty may concern Method semantics, a MethodDescription claim, a selected representation, support material, or a situation-specific applicability boundary.
 
-The report does not by itself identify which maintained result owns the defect. Recover the receiving action, contradicted claim and its complete use basis through §4.1(3,6) before choosing a correction owner.
+The report does not by itself establish a defect in a maintained claim. Recover the receiving action, the claim that may be contradicted and its complete use basis through §4.1(3,6) before choosing a correction owner.
 
-For one sensor-controller representation use, inspect C.37 and the direct representation governor without invoking C.37.MP. If several unlike Method-related actions are current, use the complete C.37.MP profile identified in §4.1(6) and locate the affected action and dependent cross-use relation. The report does not establish that profile by itself.
+For the sensor-controller representation use, start from the direct representation result and its governor. Inspect C.37 when the use relies on its selection account or that account is still needed. If the claim concerns a Method-specific organization of several unlike actions, inspect the complete C.37.MP profile identified in §4.1(6) and locate the affected action and dependent cross-use relation. The report does not establish that profile by itself.
 
 If the facts locate a failed exposure claim, return the owning row and only the cross-use relations that depended on it; if they locate a construction or description contradiction, return it to B.1.5.CM or A.3.2.DE. If the report cannot distinguish the owner, return `owner-not-recoverable` rather than calling SSFD incoherent.
 
@@ -10750,7 +10746,7 @@ The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md
 
 `C-EC-Release-v2` remains a candidate account and the three-release statement remains a WorkPlan. A.3.1.CC may check current description, representation, A.15.8.MS task, collection, edition, reliance, permission, application, Work, result-binding, and proposed-organization claims against their own bases. It must not verify planned releases as performed Work or call the candidate whole coherent as a Method.
 
-For every correction, name the exact maintained position. A stale method-base edition returns to that edition result. A failed viewpoint rule returns the lower episteme and failed `E.17.0` rule to their direct governor. Recheck the action's complete C.37 basis when that use relied on the failed result. For a C.37.MP profile, follow §4.1(6) and recheck only its actually dependent cross-use relations. A missing A.22 selection-use basis remains the already named gap. Keep the observed support results separate from the missing tailoring definition and untested permission/authority stop; none supplies release evidence.
+For every correction, name the exact maintained position. A stale method-base edition returns to that edition result. A failed viewpoint rule returns the lower episteme and failed `E.17.0` rule to their direct governor. Recheck any C.37 use result that relied on the failed result. For a C.37.MP profile, follow §4.1(6) and recheck only its actually dependent cross-use relations. A missing A.22 selection-use basis remains the already named gap. Keep the observed support results separate from the missing tailoring definition and untested permission/authority stop; none supplies release evidence.
 
 ### A.3.1.CC:6 - Bias-Annotation
 
@@ -10768,8 +10764,8 @@ For every correction, name the exact maintained position. A stale method-base ed
 - [ ] The blocked use and one claim relied on for that use are named.
 - [ ] The Method is admitted or the proposed whole remains a candidate account.
 - [ ] Construction, MethodDescription, representation, support, Work, and evidence results retain separate identities and statuses.
-- [ ] The claim owner, edition or occurrence, intended use, source, and currentness window are recoverable.
-- [ ] Trial evidence is qualified, and the claim's maintained owner remains explicit.
+- [ ] The claim owner, edition or occurrence, intended use, source, and currentness window are recoverable, or the missing owner or comparison basis is explicitly returned.
+- [ ] Any trial evidence used is qualified for the named claim.
 - [ ] Agreement, contradiction, missing information, failed declared conformance, staleness, and missing owner are not merged.
 - [ ] Every correction returns to one maintained result and preserves unaffected claims.
 - [ ] A repaired claim is rechecked against the same basis, or a changed basis starts a new use.
@@ -10779,9 +10775,9 @@ For every correction, name the exact maintained position. A stale method-base ed
 
 | Anti-pattern | Repair |
 | --- | --- |
-| “The trial failed, so rewrite the Method.” | Locate the contradicted claim and rule out situation, capability, support, and relation gaps first. |
+| “The trial failed, so rewrite the Method.” | Identify which maintained claim, if any, the trial evidence contradicts, considering the relevant situation, capability, support and direct-relation conditions. |
 | “The standard checklist passed, so the Method is coherent.” | State the declared conformance use and its limits relevant to the intended decision. |
-| “Fix the diagram and the description together.” | Determine whether one or two independent claims are contradicted and route each separately. |
+| “Fix the diagram and the description together.” | Determine which claims, if any, are contradicted and route each correction to its owner. |
 | “Project 32 proves SSFD is inconsistent.” | Treat the reported representation difficulty as evidence that opens an owner-specific check. |
 | “No contradiction was observed, so coherence is proven.” | Return agreement only for the claims, evidence, and window actually checked. |
 
@@ -10803,7 +10799,7 @@ The same evidence may support several checks, but its use relation is different 
 | --- | --- | --- |
 | Ralyté, Koutsopoulos, and Stirna, [verification, validation, and evaluation of modeling methods](https://doi.org/10.1007/s10270-025-01304-2) | Keep verification, validation, and evaluation questions separate and use evidence to locate the claim under check. | The source is modeling-Method focused and does not supply one universal FPF owner map or prove practical worth. |
 | [ISO/IEC/IEEE 24774:2021](https://www.iso.org/standard/78981.html) | Use description elements, rules, views, and declared description-side conformance as selectable comparison bases. | The standard does not make description conformance a Method admission, fit, or performance result and is not imported as FPF ontology. |
-| Cash, Daalhuizen, and Hekkert, [method efficacy and effectiveness](https://doi.org/10.1016/j.destud.2023.101204) | Preserve the difference between internal or use-side adequacy questions and practical effect questions. | The contribution does not supply a universal coherence score or make one successful occurrence decisive. |
+| Cash, Daalhuizen, and Hekkert, [method efficacy and effectiveness](https://doi.org/10.1016/j.destud.2023.101204) | Preserve the difference between internal or use-side adequacy questions and practical effect questions. | The contribution does not make one successful occurrence decisive. |
 
 ### A.3.1.CC:12 - Relations
 
@@ -10822,11 +10818,11 @@ The same evidence may support several checks, but its use relation is different 
 
 ### A.3.1.FT:0 - Use This When
 
-Use this pattern when actual Work has supplied evidence in one or more situations and a practitioner must decide whether an admitted Method fits a named receiving situation, where its applicability stops, or whether a supported claim transfers from a source situation family. Begin with the source and receiving situations and the claim whose truth could change between them.
+Use this pattern when actual Work has supplied evidence in one or more situations and a practitioner must decide whether an admitted Method fits a named situation, where its applicability stops, or whether a supported claim transfers from a source situation family. Begin with the required result and the conditions of the situation in which the Method will be used. For a transfer question, also name the source situation and the claim whose support is being carried into the receiving situation.
 
-The first useful result is a bounded comparison of the source and receiving situations. It names the Method or candidate status, source and receiving situation families, actual Work used as evidence, matched and changed conditions, holder capabilities, Systems and direct relations, adaptations, domain results, semantic changes, evidence reach, and the bounded result or missing premise.
+The first useful result is a bounded assessment of fit, an applicability limit, or transfer, with the evidence used and any missing premise. Identify the Method or candidate status, the situation and required result, relevant actual Work, adaptations and evidence reach. Where the question requires comparison, also distinguish source and receiving situations, matched and changed conditions, and material differences in capability, support, domain results and burdens.
 
-Here *fit* and *transfer* are Plain practice names for two different decisions. Fit concerns a Method and a bounded situation or situation family. Transfer concerns whether a supported claim survives a stated move from source to receiving conditions. Neither word creates a universal FPF predicate or statistical generalization.
+Here *fit* and *transfer* are Plain practice names for two different decisions. Fit concerns a Method and a bounded situation or situation family. Transfer concerns whether a supported claim survives a stated move from source to receiving conditions.
 
 Do not use this pattern to infer practical worth, causal contribution, general effectiveness, capability, or cultural adoption. A Method can fit and still be a poor choice against current alternatives. C.11.MV owns that comparison. An account is never enacted, and a candidate whole remains a candidate even when separately admitted Work succeeds.
 
@@ -10847,7 +10843,7 @@ Do not use this pattern to infer practical worth, causal contribution, general e
 
 Methods are often moved by name: a team says that a Method worked in one project, industry, or organization and applies it to another. The label hides the conditions that mattered—project purpose, development phase, technical problem, performer capability, support Systems, direct relations, adaptations, and the domain result being judged.
 
-The reverse inference can also fail. Any adaptation or local failure is treated as evidence that the Method cannot transfer, even when the changed condition, support defect, or altered Method semantics has not been identified. A useful validation result must show what stayed the same, what changed, what actual Work occurred, and what claim survives.
+The reverse inference can also fail. Any adaptation or local failure is treated as evidence that the Method cannot transfer, even when the changed condition, support defect, or altered Method semantics has not been identified. A useful transfer result must show what stayed the same, what changed, what actual Work occurred, and what claim survives.
 
 ### A.3.1.FT:2 - Problem
 
@@ -10869,20 +10865,20 @@ These shortcuts produce confident but unreplayable applicability claims. Practit
 
 ### A.3.1.FT:4 - Solution
 
-Method identity under A.3.1 and one successful Work occurrence do not establish fit in another situation. The operation below compares source and receiving conditions, necessary adaptations and retained evidence, so that an independently usable transfer conclusion can be returned without silently inheriting the source qualification.
+Method identity under A.3.1 does not establish fit for a particular use. Assess the required result against relevant actual Work and the conditions under which it occurred. A local fit result can be sufficient for the named decision. To claim transfer or a broader applicability boundary, recover the additional situation evidence and comparison on which that claim depends.
 
-Compare actual source and receiving Work through a decision-relative situation account, include one condition capable of defeating the claim, preserve Method semantics and status, and return only the fit or transfer result supported by that comparison.
+Preserve Method semantics and status throughout. Compare source and receiving conditions when carrying a claim between them; use a situation capable of testing the asserted limit when qualifying an applicability boundary. Return the supported result at that scope, or the specific missing basis.
 
 #### A.3.1.FT:4.1 - Pattern-Use Unfolding
 
-1. **Name the decision, subject, and status.** State whether the question concerns fit in one receiving situation, an applicability boundary, or transfer of one supported claim. Identify the `A.3.1`-admitted Method, or preserve the candidate account and name only separately admitted constituent Methods whose enactment is claimed.
-2. **Bound the source and receiving situation families.** Record the conditions that matter to this claim: project purpose, development phase, technical or domain problem characteristics, performer population, holder capabilities, participating Systems, Agent-performed Work, direct relations, constraints, support conditions, qualification window, and the domain result relevant to the claim.
-3. **Recover source Work and evidence.** Use A.3.1.WT evidence only for actual Work whose performers, enacted admitted Method, temporal extent, containing System, conditions, deviations, burdens, adaptations, results, and evidence path are recoverable. A report can support the account but does not admit Work by citation.
-4. **Select a receiving or held-out situation that can discriminate.** Select or seek one named condition change capable of defeating the claim: technical coupling, project phase, domain, performer or capability envelope, support relation, organizational condition, information availability, authority boundary, or another named condition. State why it matters. If minimality matters, name the alternatives, ordering criterion, and basis for treating one change as smaller or weaker; otherwise record concurrent changes and unknowns without ranking them.
-5. **Separate matched, changed, and unknown conditions.** Do not call conditions controlled unless the basis supports it. Record concurrent changes and missing facts; use `missing-comparability-basis` when the comparison cannot distinguish the claimed boundary.
-6. **Recover receiving Work independently.** Admit the receiving Work occurrence and every claimed enacted Method under their direct governors. Preserve WorkPlan, simulation, demonstration, report, training, and support tasks as separate results. If receiving Work did not occur, return `missing-performed-work` rather than a transfer claim.
+1. **Name the decision, subject, and status.** State whether the question concerns fit in one receiving situation, an applicability boundary, or transfer of one supported claim. Identify the `A.3.1`-admitted Method, or preserve the candidate account and name only separately admitted Methods whose enactment is claimed.
+2. **Bound the situations needed for the decision.** For local fit, name the situation or situation family and required result. For transfer, name both source and receiving families; for an applicability boundary, name the situations that can establish that limit. Record the conditions that matter to the claim, such as project purpose, development phase, technical or domain problem, performer population, holder capabilities, participating Systems, direct relations, constraints, support, qualification window and domain result.
+3. **Recover the relevant Work and evidence.** Use A.3.1.WT evidence only for actual Work whose performers, enacted admitted Method, temporal extent, containing System, conditions, deviations, burdens, adaptations, results, and evidence path are recoverable. Recover capability inputs and other direct relations on which the assessment relies. A report can support the account but does not admit Work by citation.
+4. **Select discriminating evidence when the claim needs it.** To test a transfer or applicability boundary, select or seek a receiving or held-out situation with a condition capable of defeating the claim: technical coupling, project phase, domain, performer or capability envelope, support relation, organizational condition, information availability, authority boundary, or another named condition. State why it matters. If minimality matters, name the alternatives, ordering criterion, and basis for treating one change as smaller or weaker; otherwise record concurrent changes and unknowns without ranking them.
+5. **Qualify comparability when making a comparison.** Separate matched, changed, and unknown conditions. Do not call conditions controlled unless the basis supports it. Record concurrent changes and missing facts; use `missing-comparability-basis` when the comparison cannot distinguish the claimed boundary.
+6. **Establish any required receiving performance independently.** Admit receiving Work and every claimed enacted Method under their direct governors. Distinguish plans and reports from performed activity. For simulation, demonstration, training or support tasks, identify what was actually performed and what was only represented or planned; a demonstration may itself perform the Method in the required receiving situation. If the Work needed for the selected conclusion did not occur, return `missing-performed-work`.
 7. **Track adaptations and Method semantics.** Record changes to operations, dependencies, participant or responsibility conditions, stops, representations, support, and local Work. Ask whether reusable Method semantics stayed within the admitted Method. If they changed, return `variant-question[...]` to A.3.1.MV and evaluate the unchanged and changed branches separately.
-8. **Compare domain results and evidence reach.** Compare the result relevant to the fit claim together with burdens, deviations, failures, and limitations needed to interpret it. Distinguish direct observation, report, association, contribution, and causality. Do not use immediate self-report as long-term transfer without the missing time evidence.
+8. **Assess domain results and evidence reach.** Assess the required result and the burdens, deviations, failures and limitations that affect the fit decision. Compare results across situations when the selected claim requires it. Distinguish direct observation, report, association, contribution, and causality. Do not use immediate self-report as long-term transfer without the missing time evidence.
 9. **Classify the bounded result.** Return `fit-within[...]`, `failure-within[...]`, `applicable-if[...]`, `transfer-supported-between[...]`, `transfer-not-supported`, `missing-performed-work`, `missing-comparability-basis`, or the named missing premise. Plain labels may be used, but the situation, claim, evidence, and window must remain inspectable.
 10. **Route a defeated claim by result kind.** Return a failure directly only to the C.39.RQ situational requirement, C.32.MWA.PP architecture decision, B.1.5.CM construction result or admitted Method claim, or A.3.1.MV applicability or variant entry that the evidence contradicts. When the evidence may contradict an A.3.2.DE description, direct C.37 representation-use result or C.37.MP Method representation profile row, or A.15.8.MS support claim, return the bounded observation to A.3.1.CC; A.3.1.CC identifies and rechecks the maintained correction owner, including the direct governor of any lower representation result. Do not reopen every carrier.
 11. **State non-transfer and reopen conditions.** State the supported applicability boundary and any uncovered use that matters to the receiving decision. Reopen when one condition crosses the declared boundary, Method semantics change, evidence currentness expires, or a new unlike situation defeats the claim.
@@ -10892,19 +10888,19 @@ Compare actual source and receiving Work through a decision-relative situation a
 | Result position | Required content |
 | --- | --- |
 | validation use | Fit, applicability, or transfer question; receiver; decision; claim; qualification window; stop. |
-| subject status | Admitted Method, or candidate account plus separately admitted enacted constituent Methods. |
-| source situation | Situation-family conditions, actual Work, performers, capability inputs, Systems, Agent-performed Work, direct relations, adaptations, domain results, burdens, and evidence reach. |
-| receiving situation | The same positions for actual receiving or held-out Work, including missing facts. |
-| discrimination | Condition selected to challenge the claim, why it matters, matched conditions, changed conditions, and unknowns. |
+| subject status | Admitted Method, or candidate account plus separately admitted enacted Methods. |
+| situation and Work evidence | Conditions of the situation being assessed, actual Work, performers, relied-on capability inputs, Systems and direct relations, adaptations, domain results, burdens and evidence reach. |
+| source and receiving situations | For transfer, identify both families and their Work evidence independently. For a broader applicability boundary, identify the situations needed to test it. Preserve missing facts. |
+| discrimination | When a boundary or transfer claim needs a discriminating situation, state the selected condition and why it matters. In a comparison, separate matched, changed and unknown conditions. |
 | semantic continuity | Preserved Method semantics, local Work or support changes, and any reusable semantic change returned as a variant question. |
-| comparison | Result differences, burdens and deviations needed for interpretation, evidence strength, and material limits on contribution or causal claims. |
+| assessment | Result against the local fit criteria; differences across situations when needed; burdens and deviations needed for interpretation, evidence strength, and material limits on contribution or causal claims. |
 | return | Bounded fit, failure, applicability, transfer, or missing-evidence result; direct C.39.RQ, C.32.MWA.PP, B.1.5.CM, or A.3.1.MV return, or a bounded A.3.1.CC observation for a possible A.3.2.DE description, direct C.37 representation-use result, C.37.MP Method representation profile-row, or A.15.8.MS support contradiction; non-transfer and reopen conditions; unaffected results preserved. |
 
-Keep these distinctions in the comparison and its referenced evidence. A table is optional; no separate record is needed for each position.
+Keep the distinctions needed for the selected decision in the assessment and its referenced evidence. A table is optional; no separate record is needed for each position.
 
 #### A.3.1.FT:4.3 - What Changes in Practice
 
-Teams stop transferring a Method by title or rejecting it after an unexplained local failure. They can show the source conditions, receiving conditions, actual Work, semantic continuity, one discriminating change, and the exact claim that survived or failed.
+Practitioners can use a sufficient local fit result without arranging an unrelated comparison. When they transfer a claim or qualify an applicability boundary, they can show the relevant source and receiving conditions, actual Work, semantic continuity, discriminating evidence, and the exact claim that survived or failed.
 
 A narrow result such as “Fits this decision for this holder and support window; transfer untested” can support a decision to use the Method now while protecting later teams from a universal claim.
 
@@ -10916,15 +10912,17 @@ Continue the constructed A.3.1.WT evidence for admitted `M-Unit-Review-1`. The i
 
 Return `fit-within[Reviewer-17, temperature-sensor reports, edition 4, manual conversion table, through D30]` for the named release-review decision. Also return `transfer-not-tested` for other holders, product families, support routes, qualification windows, or organizations. The two occurrences do not establish causal superiority or practical worth.
 
+For the narrower decision about the same-unit report already reviewed in `W-Rep-1`, its observed acceptance can support fit for that named situation, reviewer and support window. `W-Disc-1` is not a prerequisite for this narrower result. Evidence about mixed-unit handling is needed when that condition enters the receiving question.
+
 If the reviewer had changed the reusable operation from unit normalization to an approximation rule absent from `M-Unit-Review-1`, preserve the observed Work but return `variant-question[approximation-rule]` to A.3.1.MV. Do not call the changed branch successful transfer of the unchanged Method.
 
 ### A.3.1.FT:5 - Archetypal Grounding - SSFD Situation Boundaries
 
 The SSFD workplace evidence supplies varied actual-project reports and a decision-relevant unlike-situation probe. Project 11 concerns functional analysis of a new by-wire steering system and reports 48 failure modes, 44 requirements and design rules, 44 individual-system test cases, and 33 overall-system requirements and test cases. Project 32 reports difficulty representing the relation between a closed-loop sensor and controller.
 
-Use Project 11 as a source situation only after the SSFD Method or candidate status, relevant Work evidence, performer and capability facts, support conditions, and relied-on claim are recovered. Use Project 32 as a discriminating unlike situation because the closed-loop relation can challenge a representation or applicability claim. Do not infer that Project 11 caused or preceded Project 32, that the same performers and capabilities were present, or that a difficulty establishes whole-Method failure.
+Use Project 11 as a source situation only after the SSFD Method or candidate status, relevant Work evidence, performer and capability facts, support conditions, and relied-on claim are recovered. Use Project 32 as a discriminating unlike situation because the closed-loop relation can challenge a representation or applicability claim. Do not infer that Project 11 preceded Project 32, that the same performers and capabilities were present, or that a difficulty establishes whole-Method failure.
 
-A defensible result may be narrow: Project 11 supplies bounded evidence for one functional-analysis situation; Project 32 defeats or leaves unsupported a broader representation claim until the owner-specific A.3.1.CC correction and receiving Work basis are recovered. The 41-report set broadens the evidence pool but does not establish transfer across every project stratum or causal contribution by SSFD alone.
+A defensible result may be narrow: Project 11 supplies bounded evidence for one functional-analysis situation; Project 32 raises a question about a broader representation claim. A.3.1.CC can determine whether correction is needed when the relevant claim and evidence are recoverable; a transfer conclusion still requires the receiving Work and comparison basis. The 41-report set broadens the evidence pool but does not establish transfer across every project stratum or causal contribution by SSFD alone.
 
 #### A.3.1.FT:5.1 - Unlike-Domain and Current-Alternative Probes
 
@@ -10936,9 +10934,9 @@ The sustainable-design workshops supply bounded applications of The Natural Step
 
 The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference169---choose-the-method-development-result-needed-for-release-ec-417) supplies the receiving problem, alternatives, calculations and the distinct limits used below.
 
-`C-EC-Release-v2` remains a candidate account. The three support-use Work occurrences from A.15.8.MS do not perform a release and cannot support release fit or transfer. Before any such result, recover one actual release Work occurrence, its performers, separately admitted enacted constituent Methods, capability inputs, Systems, Agent-performed Work, direct relations, support conditions, domain result, burdens, deviations, authority facts, and a performed held-out release situation.
+`C-EC-Release-v2` remains a candidate account. The three support-use Work occurrences from A.15.8.MS do not perform a release and cannot support release fit or transfer. To assess local release fit, recover actual release Work, its performers, separately admitted enacted Methods, capability inputs, Systems and direct relations, support conditions, domain result, burdens, deviations and authority facts needed for that decision. A transfer or applicability-boundary claim additionally requires the receiving or held-out release evidence capable of testing that claim.
 
-Until then return `missing-performed-work` and `missing-held-out-situation`. Preserve the candidate branch and the unsupported `CUR-EC417-CadenceEffect-1`; no cadence or transfer claim becomes supported by planning three releases.
+While the required release Work is absent, return `missing-performed-work`. Return `missing-held-out-situation` only when the selected boundary or transfer claim needs that missing situation. Preserve the candidate branch and the unsupported `CUR-EC417-CadenceEffect-1`; no cadence or transfer claim becomes supported by planning three releases.
 
 ### A.3.1.FT:6 - Bias-Annotation
 
@@ -10948,18 +10946,18 @@ Until then return `missing-performed-work` and `missing-held-out-situation`. Pre
 | success-generalization bias | One favourable occurrence becomes a situation-family claim. | Return the narrow fit result and name transfer evidence still missing. |
 | uncontrolled-sameness bias | Unrecorded capability, support, and organizational conditions are called matched. | Separate matched, changed, and unknown positions with their bases. |
 | adaptation laundering | Changed reusable semantics are called local tailoring. | Return an A.3.1.MV variant question and preserve both branches. |
-| failure-totalization bias | One difficulty becomes whole-Method failure. | Identify the claim, situation boundary, and repair owner actually defeated. |
+| failure-totalization bias | One difficulty becomes whole-Method failure. | Determine which claim, if any, the evidence contradicts, and identify that claim's situation boundary and correction owner. |
 | fit-as-worth bias | Usability in one situation becomes a keep or adoption decision. | Send results, burdens, alternatives, and evidence limits to C.11.MV. |
-| account-enactment bias | A candidate account is said to be enacted in receiving Work. | Admit Work and enacted constituent Methods separately; preserve candidate status. |
+| account-enactment bias | A candidate account is said to be enacted in receiving Work. | Admit Work and enacted Methods separately; preserve candidate status. |
 
 ### A.3.1.FT:7 - Conformance Checklist
 
 - [ ] The decision is explicitly fit, applicability, or transfer for one claim.
 - [ ] The Method is admitted or the proposed whole remains a candidate account.
-- [ ] Source and receiving situation families name decision-relevant conditions rather than labels alone.
-- [ ] Actual source and receiving Work, performers, enacted admitted Methods, capability inputs, Systems, direct relations, results, and evidence paths are recoverable or returned as gaps.
-- [ ] One changed condition is selected because it can expose a limit in the claim.
-- [ ] Matched, changed, and unknown conditions are separate.
+- [ ] The situation being assessed names decision-relevant conditions; transfer identifies source and receiving families, and an applicability boundary identifies the situations needed to test it.
+- [ ] Actual Work needed for the conclusion, performers, enacted admitted Methods, relied-on capability inputs, Systems, direct relations, results and evidence paths are recoverable or returned as gaps.
+- [ ] Any required discriminating situation is selected because its condition can expose a limit in the claim.
+- [ ] When situations are compared, matched, changed and unknown conditions are separate.
 - [ ] Adaptations are recorded, and reusable semantic change opens a variant question.
 - [ ] Direct observation, self-report, association, contribution, and causality are not merged.
 - [ ] The result is bounded by holder, situation, support, time, and evidence.
@@ -10972,8 +10970,8 @@ Until then return `missing-performed-work` and `missing-held-out-situation`. Pre
 | “It worked in automotive, so it transfers to health services.” | Recover evidence for the same Method under the receiving conditions. Tests of another Method in health services do not establish this transfer. |
 | “Project 32 proves the Method failed.” | Identify the representation or applicability claim and the missing receiving evidence first. |
 | “We tailored it, therefore it transferred.” | Check whether reusable semantics changed; if so, return a variant question. |
-| “The workshop participants liked it, so transfer is established.” | Preserve immediate self-report and return missing long-term Work and result evidence. |
-| “The candidate was enacted successfully.” | Admit the Work and enacted constituent Methods, not the candidate account. |
+| “The workshop participants liked it, so transfer is established.” | Return only what the immediate self-report supports; identify any missing Work, result or time evidence required by the transfer claim. |
+| “The candidate was enacted successfully.” | Admit the Work and enacted Methods, not the candidate account. |
 
 ### A.3.1.FT:9 - Consequences
 
@@ -10992,13 +10990,13 @@ Separating semantic continuity from local Work and support changes protects Meth
 | Source | Contribution | Boundary and practitioner implication |
 | --- | --- | --- |
 | Yildirim, Campean, and Uddin, [function-modeling evaluation in industry practice](https://doi.org/10.1017/dsj.2026.10056) | Workplace-project strata, reported applications and limitations, later report analysis, and the comparison of Project 11 and Project 32 supply an unlike-situation probe. | One automotive OEM, retrospective reports, and SSFD use within a broader methodology establish neither SSFD-only causality nor general transfer. |
-| Schønheyder and Nordby, [design-Method use and evolution in professional practice](https://doi.org/10.1016/j.destud.2018.04.001) | Project demands, practitioner skill sets, organization, and cyclic adaptation are conditions that can change a fit or variant decision. | One multidisciplinary design firm supplies no universal situation taxonomy, causal result, or admitted variant family. |
+| Schønheyder and Nordby, [design-Method use and evolution in professional practice](https://doi.org/10.1016/j.destud.2018.04.001) | Project demands, practitioner skill sets, organization, and cyclic adaptation are conditions that can change a fit or variant decision. | Keep the findings bounded to the studied firm and conditions; establish any causal claim or Method-variant identity separately. |
 | Tsai, Zdravkovic, and Söder, [DBE-design Method action research](https://doi.org/10.1007/s10270-022-01068-z) | Repeated plan-perform-evaluate cycles in an operating health-services ecosystem provide an unlike-domain example for the comparison method. | The evaluation is ex ante and case-specific; it does not prove long-term effect or transfer to the other elicited domains. |
 | Faludi, Yiu, and Agogino, [empirical tests of sustainable-design Methods](https://doi.org/10.1017/dsj.2020.17) | Several Methods, industries, activities, and immediate participant reports supply bounded situation-comparison inputs. | Immediate self-report establishes neither long-term product results nor causal superiority or transfer of recombined variants. |
 
 ### A.3.1.FT:12 - Relations
 
-- A.3.1.WT supplies occurrence-level source and receiving evidence and explicit gaps. It does not make the fit or transfer conclusion.
+- A.3.1.WT supplies occurrence-level evidence for the selected situations and explicit gaps. It does not make the fit or transfer conclusion.
 - A.3.1.CC consumes any bounded observation that may contradict an A.3.2.DE description, direct C.37 representation-use result, C.37.MP Method representation profile row, A.15.8.MS support claim, or directly governed lower representation result; it identifies and rechecks the maintained correction owner. Passing coherence does not establish fit.
 - C.11.MV consumes fit, failure, applicability, burdens, alternatives, and evidence limits for a separate practical-worth decision.
 - A.3.1.MV owns reusable Method variants, provenance, applicability entries, and retirement. A semantic change returns there; a local Work, support, description, or representation change alone need not create a variant.
@@ -11018,7 +11016,7 @@ Use this pattern when a Method has been adapted, branched, recombined, or revise
 
 For a first pass, state what reusable way of doing changed, if any; and, if none did, which object changed, which maintained result and exact claim or edition it affects, and what to maintain, reconsider, or stop. Use the fuller account only when later selection, reuse, comparison, or retirement needs it.
 
-The first useful result is an account of the variant and its derivation. It names the parent Method or candidate, the proposed child and status, preserved semantics, changed semantics, derivation basis, applicable situation claim, supporting and defeating evidence, descriptions and support editions, current selection uses, currentness, retirement condition, and the next decision. If the visible change is not a Method variant, the account instead names the changed object, the separately governed maintained result, the exact claim or edition affected, and the next maintenance, reconsideration, or stop action.
+The first useful result is an account of the variant decision and any derivation needed for the maintained use. A fuller account, when needed, names the parent Method or candidate, the proposed child and status, preserved semantics, changed semantics, derivation basis, applicable situation claim, available supporting and defeating evidence, relied-on descriptions and support editions, current selection uses, currentness, retirement condition, and the next decision. If the visible change is not a Method variant, the account instead names the changed object, the separately governed maintained result, the exact claim or edition affected, and the next maintenance, reconsideration, or stop action.
 
 Here *variant* is Plain practice wording for a Method whose reusable semantics differ in a way relevant to a named use while its derivation from another Method remains useful. The label alone does not admit a `U.Method`, establish provenance, or prove fit, worth, reuse, or superiority.
 
@@ -11060,7 +11058,7 @@ The resulting repertoire cannot guide selection. Users cannot tell which semanti
 | Evidence | Fit and worth results should follow the right semantics, while evidence often bundles Method, support, capability, and organization. |
 | Currentness | Users need current entries and editions, while retirement from one use must not erase history. |
 | Candidate continuity | Proposed changes need traceability, while detailed lineage can launder candidate status. |
-| Recombination | Components can inspire new Methods, while untested hybrids do not inherit component admission or worth. |
+| Recombination | Components can inspire new Methods, while hybrids do not inherit component admission or worth. |
 
 ### A.3.1.MV:4 - Solution
 
@@ -11073,14 +11071,14 @@ Identify variants only through changed reusable Method semantics, preserve admis
 1. **Name the maintenance use.** Identify the practitioner or decision that needs the repertoire, the Method family or candidate lineage in scope, the situation and qualification window, and what selection, reuse, comparison, or retirement action the entry must support.
 2. **Recover each subject and status.** Identify every `A.3.1`-admitted Method and every candidate account separately. A parent Method, candidate child, MethodDescription, representation, support configuration, and Work occurrence keep different identities and statuses.
 3. **Recover the semantic baseline.** From the parent or earlier candidate, record the reusable operations, dependencies, entry and stop rules, participant conditions, required relations, and applicability claims that matter to the maintenance use. Include the inclusion and decision rules that make professional judgments operational when those rules affect the reusable way of doing. Do not use a file diff as the semantic baseline.
-4. **Classify the observed change.** Separate changed reusable Method semantics from description wording, representation, publication, tool, prompt, support, capability, organizational System or selected structure, assignment, permission, authority, and local Work deviations. For every non-semantic change, name the changed object, the separately governed maintained result, the exact claim or edition affected, and the next maintenance, reconsideration, or stop action. For a representation change, locate the affected claim in the one-action C.37 result or, when several unlike Method-related actions are related, in the C.37.MP profile. Use step 8 for the complete maintained profile basis. Name a direct predicate and its participants only when the disposition relies on that obtaining relation; otherwise assert no path or relation occurrence.
+4. **Classify the observed change.** Separate changed reusable Method semantics from description wording, representation, publication, tool, prompt, support, capability, organizational System or selected structure, assignment, permission, authority, and local Work deviations. For every non-semantic change, name the changed object, the separately governed maintained result, the exact claim or edition affected, and the next maintenance, reconsideration, or stop action. For a representation change, locate the affected claim in its direct result, in a C.37 selection result when that selection is needed, or in a C.37.MP profile when several unlike Method-related uses must remain connected. When a profile is involved, use step 8 for its complete maintained basis. Name a direct predicate and its participants only when the disposition relies on that obtaining relation; otherwise assert no path or relation occurrence.
 5. **Construct the proposed child account.** State preserved semantics, changed semantics, reason for change, intended situations, required capability and support conditions, and the limits of the available evidence. A traceable candidate entry can complete the maintenance use. Select further evidence or a trial through C.11.DUA only when its obtainable result could change the receiving decision enough to warrant the full burden. If no reusable semantic difference remains, maintain an edition, support, or Work result rather than a variant.
 6. **Establish derivation without inheriting admission.** Record the source Method or candidate, change Work or source account, changed positions, chronology when relevant, and evidence supporting the derivation claim. Then admit the proposed child independently under `A.3.1` or keep it as a candidate.
 7. **Bind evidence to the right semantics and situation.** Attach available A.3.1.WT trial observations, A.3.1.CC corrections, A.3.1.FT fit or transfer results, and C.11.MV worth decisions only to the Method or candidate semantics, situation, support, capability, alternative set, and window they actually concern. Parent evidence does not automatically cover the child.
-8. **Maintain descriptions, representations and support relations separately.** Name the MethodDescription editions, direct one-action C.37 results or complete C.37.MP profiles, and A.15.8.MS method-base or support results relied on by the maintained use. Include publications, tools, prompts and access or use relations only when that use depends on them. For every [C.37.MP profile](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37mp42---record-the-result) retain the shared MethodDescription or candidate-account source, one complete C.37 claim group for each unlike action, cross-use correspondences, conflicting omissions, edition relations, decisions to keep representations separate, and conditions for reconsidering several selections. A changed result, edition, or relation does not by itself change variant identity.
-9. **State applicability and selection uses.** Record supported situations, defeated situations, missing evidence, capability and support conditions, current alternative set, and the receiving decision that may use the entry. Use A.19 selected-set semantics for a non-trivial repertoire choice; the entry itself selects nothing.
+8. **Maintain descriptions, representations and support relations separately.** Name the MethodDescription editions, direct representation results, any needed C.37 selection results or C.37.MP profiles, and A.15.8.MS method-base or support results relied on by the maintained use. Include publications, tools, prompts and access or use relations only when that use depends on them. For every [C.37.MP profile](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37mp42---record-the-result) retain the shared MethodDescription or candidate-account source, one complete C.37 claim group for each unlike action, cross-use correspondences, conflicting omissions, edition relations, decisions to keep representations separate, and conditions for reconsidering several selections. A changed result, edition, or relation does not by itself change variant identity.
+9. **State applicability and selection uses.** Record supported situations, situations in which an applicability claim is contradicted, missing evidence, capability and support conditions, current alternative set, and the receiving decision that may use the entry. Use A.19 selected-set semantics for a non-trivial repertoire choice; the entry itself selects nothing.
 10. **Maintain currentness and retirement.** State source, evidence, edition, situation, and qualification windows; superseding or defeating evidence; review trigger; and what retirement means for this use. Preserve historical and other-use access when the Method or candidate still matters elsewhere.
-11. **Return the maintained repertoire and non-variant dispositions.** Report admitted variants, candidate lineages, applicability and evidence gaps, current entries, retired entries, and the smallest repertoire claim reopened by defeated applicability, evidence, currentness, or retirement evidence. For every non-variant, report the changed object, separately governed maintained result, exact affected claim or edition, and next maintenance, reconsideration, or stop action. Do not assign repair authority or invent a relation when the governing result and next action are sufficient.
+11. **Return the maintained repertoire and non-variant dispositions.** Report admitted variants, candidate lineages, applicability and evidence gaps, current entries, retired entries, and the specific repertoire claim, if any, that findings about applicability, evidence, currentness or retirement require reconsidering. For every non-variant, report the changed object, separately governed maintained result, exact affected claim or edition, and next maintenance, reconsideration, or stop action. Do not assign repair authority or invent a relation when the governing result and next action are sufficient.
 
 #### A.3.1.MV:4.2 - Record the Result
 
@@ -11093,7 +11091,7 @@ Identify variants only through changed reusable Method semantics, preserve admis
 | derivation | Parent, proposed child, change basis, chronology when material, preserved semantics, changed semantics, and evidence reach. |
 | admission branch | Independent Method admission or status-preserved candidate account and missing admission basis. |
 | applicability and evidence | Situations, capability and support conditions, the available evidence and decisions from step 7, alternatives, gaps and qualification windows, all bound to the right semantics and receiving use. |
-| edition and support links | Relied-on descriptions; direct one-action C.37 results or C.37.MP profiles with the complete basis named in step 8; method-base editions, publications, tools, prompts, and support results for each maintained use. |
+| edition and support links | Relied-on descriptions; direct representation results and, when needed, C.37 selections or C.37.MP profiles with the complete basis named in step 8; method-base editions, publications, tools, prompts, and support results for each maintained use. |
 | currentness and retirement | Current selection uses, source and evidence windows, defeating conditions, retirement meaning, retained history, and reopen trigger. |
 | return | Maintained admitted-variant repertoire and candidate lineages; non-variant dispositions in the same four-part shape; the smallest defeated repertoire claim when one exists; and limits on what the repertoire establishes. |
 
@@ -11101,7 +11099,7 @@ Identify variants only through changed reusable Method semantics, preserve admis
 
 Teams stop using version labels and project names as Method identities. They can show which reusable semantics changed, which evidence belongs to which branch, why a child is admitted or still a candidate, and which description or support edition serves each use.
 
-The repertoire becomes smaller and more useful. Local departures can remain Work evidence, descriptions can evolve without multiplying Methods, and real semantic branches receive applicability, evidence, currentness, and retirement conditions.
+Local departures can remain Work evidence, descriptions can evolve without multiplying Methods, and real semantic branches receive applicability, evidence, currentness, and retirement conditions.
 
 #### A.3.1.MV:4.4 - Constructed Variant Case
 
@@ -11109,15 +11107,15 @@ Continue the temperature-sensor review chain. `M-Unit-Review-1` is admitted with
 
 A team proposes an approximation rule for missing conversion metadata: infer a likely scale from sensor range, mark the inference, and continue only when the tolerance decision is unchanged under both plausible scales. This is not merely a new checklist. It changes the reusable operation and stop conditions, so create candidate account `C-M-Unit-Review-Approx-1` derived from `M-Unit-Review-1`. Preserve identification, explicit normalization when metadata exists, tolerance comparison, and unresolved-mismatch stop; add the bounded inference operation and a two-scale invariance stop.
 
-Do not admit the candidate from parent status. Link candidate-account content `CA-M-Unit-Review-Approx-Content-1`, proposed representation `C-REP-Approx-1` of that candidate account, and the same conversion-table support result only as candidate-serving material; none is a `U.MethodDescription` for the candidate whole. Keep performance on missing-metadata reports unresolved. Retain that limit, the reviewer capability conditions and the comparison against stopping or metadata recovery where they matter to the entry’s use. To maintain the catalogue, record the proposed approximation rule, its origin in `M-Unit-Review-1`, its two-scale stopping condition and its untested candidate status. This is enough to retain the proposal in the catalogue. Choose a trial only when its useful attainable answer warrants the work and delay. Until independent admission and evidence exist, the repertoire contains admitted `M-Unit-Review-1` plus candidate lineage `C-M-Unit-Review-Approx-1`; no Work is said to enact the candidate whole.
+Do not admit the candidate from parent status. Link candidate-account content `CA-M-Unit-Review-Approx-Content-1`, proposed representation `C-REP-Approx-1` of that candidate account, and the same conversion-table support result only as candidate-serving material; none is a `U.MethodDescription` for the candidate whole. Keep performance on missing-metadata reports unresolved. Retain that limit, the reviewer capability conditions and the comparison against stopping or metadata recovery where they matter to the entry’s use. To maintain the catalogue, record the proposed approximation rule, its origin in `M-Unit-Review-1`, its two-scale stopping condition and its untested candidate status. This is enough to retain the proposal in the catalogue. Choose a trial only when its useful attainable answer warrants the work and delay. Until independent Method admission, the repertoire contains admitted `M-Unit-Review-1` plus candidate lineage `C-M-Unit-Review-Approx-1`; no Work is said to enact the candidate whole.
 
-If the team only updates the diagram to show the already-required normalization step, first identify its exact action. For one action, maintain the complete C.37 representation-use result and the diagram under its direct governor; C.37.MP is not invoked. When that result belongs to a complete C.37.MP profile for several unlike actions, also maintain only the cross-use correspondences, conflicting omissions, edition relations, decisions to keep representations separate, and conditions for reconsidering several selections affected by the diagram change. Neither case creates a variant. If the team replaces the manual table with a verified tool while operations and stops remain unchanged, maintain the A.15.8.MS support result and no variant.
+If the team only updates the diagram to show the already-required normalization step, first identify its exact action. For one action, maintain the diagram and the affected result under their direct governors; use C.37 only if a selection question remains. C.37.MP is not invoked for that one-action case. When that result belongs to a complete C.37.MP profile for several unlike actions, also maintain only the cross-use correspondences, conflicting omissions, edition relations, decisions to keep representations separate, and conditions for reconsidering several selections affected by the diagram change. Neither case creates a variant. If the team replaces the manual table with a verified tool while operations and stops remain unchanged, maintain the A.15.8.MS support result and no variant.
 
 ### A.3.1.MV:5 - Archetypal Grounding - Adaptation and Recombination
 
 The Halogen design-practice case reports conscious cyclic evolution and adaptation of Methods across safety-critical projects, practitioner skill sets, and organization of design activity. Use the evidence to recover proposed semantic changes, local Work deviations, situation conditions, and lineage candidates. The source concerns one 52-person multidisciplinary firm and does not supply a universal variant family or automatic Method admission.
 
-When reusable semantics can be recovered and a Method is independently admitted, maintain the variant with its derivation and applicability. When interviews, observations, or documents show only local departures or cannot distinguish changed Method semantics from changed support, capability, or organization, maintain a candidate lineage or return the missing semantic basis.
+When reusable semantics can be recovered and a Method is independently admitted, maintain the variant with its derivation and applicability. When the recovered change is only a local Work departure, retain the Work evidence and return the non-variant disposition. When the material leaves it unresolved whether Method semantics or support, capability, or organization changed, maintain a candidate lineage only if the proposed reusable semantic differences and derivation can be stated; otherwise return the missing semantic basis.
 
 The sustainable-design study reports activity- and mindset-level observations from separate workshops using The Natural Step, Whole System Mapping, or Biomimicry. Companies chose workshops, order varied, and participants could differ, so the publication supplies neither one current-alternative decision nor matched Work across the three Method families. Those immediate participant reports can motivate recombination candidates, but a preferred component set is not an admitted hybrid Method. Record the proposed preserved and changed semantics, parent contributions, situations and evidence limits; do not inherit worth or transfer from the source Methods.
 
@@ -11173,8 +11171,8 @@ A later change to the canvas alone returns to its representation owner. A change
 | --- | --- |
 | “Version 2.1 is a new Method variant.” | Show the changed reusable Method semantics or maintain an edition only. |
 | “The team adapted it, so the variant is admitted.” | Preserve the Work evidence and candidate account until independent admission. |
-| “The AI prompt defines the new Method.” | Recover the way of doing and support relation; a prompt can serve but not identify the Method by itself. |
-| “The hybrid inherits evidence from all three parent Methods.” | Preserve candidate status and bind each relied-on result to the hybrid’s own semantics and situation. Select a trial when its useful attainable answer warrants its full burden. |
+| “The prompt changed, so the Method changed.” | Recover the reusable semantics expressed by the prompt. Use A.3.1 to decide whether Method identity changed; maintain any separate support change under its own pattern. |
+| “The hybrid inherits evidence from all three parent Methods.” | Preserve the hybrid’s actual admission status and bind each relied-on result to the hybrid’s own semantics and situation. Select a trial when its useful attainable answer warrants its full burden. |
 | “Retired means obsolete everywhere.” | Name the selection use and defeating condition; preserve other supported uses and history. |
 
 ### A.3.1.MV:9 - Consequences
@@ -11257,7 +11255,7 @@ When several positions are compressed into one intervention label, the team cann
 | Intervention clarity | Separate intended changes make learning possible, while one programme label can hide those changes. |
 | Capability | New Work may need development, while A.3.1.MI must not smuggle training in as capability. |
 | Authority and participation | A governed change needs its applicable authorization and actual performers, while sponsorship and attendance are weaker facts. |
-| Time | Later observation is needed, while waiting too long can make sources and alternatives stale. |
+| Time | Observation timing must fit the receiving decision, while delay can make sources and alternatives stale. |
 | Contribution | A decision needs a plausible account, while causal isolation is often unavailable. |
 | Revision locality | A defeated claim should reopen its owner and affected dependents, while bundled rollout invites whole-programme repair. |
 
@@ -11282,12 +11280,12 @@ Prepare and perform a bounded introduction, observe its later use, and decide wh
    For a target change, name the affected Method semantics, description, support, capability input, fit claim, cultural question, or local-use condition. For an introduction-strategy change, name the admitted introduction Method or candidate introduction account, its admissibly classified description episteme, and any separate WorkPlan claim. An adaptation does not by itself change the kind or status of an account, description, plan, Method or Work.
 
    Return each modification to its own maintained result or local stop: A.3.1.MV for admitted Method semantics or candidate lineage; A.3.2.DE for a MethodDescription correction or improved candidate-account content, retaining the applicable subject and status; another named episteme or a local A.3.1.MI stop for other content; A.15.8.MS for support; A.15.2 for a WorkPlan; A.3.1.FT for fit; or C.36.MC for a population cultural question.
-8. **Perform and admit introduction Work.** Recover actual performers and A.13 bases, the independently admitted Method enacted by the introduction Work, action history, temporal extent, containing System, named changed subjects, used Systems, and relied-on relation occurrences. Use F.6 through the same obtaining A.13 assignment only when precise assignment-bound attribution is needed. Record the result as an attempt intended to establish named conditions. A completed failed attempt remains Work even if access, usability, or later enactment did not result. A candidate introduction Method is not enacted; name only the admitted constituent Methods actually followed.
-9. **Observe later actual Work, failed entry, and non-use.** Admit later Work independently. Record which admitted Method was enacted, or preserve candidate status and name only separately admitted constituent Methods. Also record failed entry, rejection, non-use, workaround, adaptation, support demand, and burden when observed; absence of a record is not automatically non-use.
+8. **Perform and admit introduction Work.** Recover actual performers and A.13 bases, the independently admitted Method enacted by the introduction Work, action history, temporal extent, containing System, named changed subjects, used Systems, and relied-on relation occurrences. Use F.6 through the same obtaining A.13 assignment only when precise assignment-bound attribution is needed. Record the result as an attempt intended to establish named conditions. A completed failed attempt remains Work even if access, usability, or later enactment did not result. A candidate introduction Method is not enacted; name only the admitted Methods actually followed.
+9. **Observe later actual Work, failed entry, and non-use.** Admit later Work independently. Record which admitted Method was enacted, or preserve candidate status and name only separately admitted Methods actually enacted. Also record failed entry, rejection, non-use, workaround, adaptation, support demand, and burden when observed; absence of a record is not automatically non-use.
 10. **Compare every selected position.** For each target, introduction-strategy object, and decision-relevant observation, state supported change, no change, uncertainty, inapplicability, or missing evidence. State the particular maintained claim or edition and next action. If a continuing subject is claimed to have changed, use A.3.4; a before/after table or performed Work alone does not establish that transformation.
 11. **Use C.28 for causal reliance.** Return observations or association at their supported strength, with the limit needed by the receiving decision. When that decision relies on a causal or contribution claim, use current C.28 for the bounded causal-use question, supported use, unsupported stronger use, population and conditions, validity threat and reopen trigger. Name a contribution relation or compound claim only with its predicate, participants, applicability, and obtaining basis. C.28 settles causal support; A.3.1.MI still makes the bounded revision decision.
 12. **Decide and return observations.** Return `keep`, `revise`, `branch`, `replace`, `stop`, or a retained set with its limitation and any supported present course. Select a further observation or probe through C.11.DUA only when its obtainable result could change the decision enough to warrant its full burden and the needed window, access and authority are available. Use A.3.2.DE when the observation requires correcting a MethodDescription or candidate Method account. Its candidate branch returns improved content with unresolved identification conditions retained. Other description content returns to its own episteme or a local stop. Send other observations to A.3.1.MV, A.15.8.MS, A.15.2, A.3.1.FT, C.36.MC, a named capability-development result, another admissible maintained result, or a receiving Agent only when the particular claim or edition and next action are stated; otherwise keep the observation as a local decision or stop.
-13. **State non-use and refresh.** The result establishes neither organization-wide adoption, cultural selection or retention, general effectiveness, causal superiority, nor authorization for another setting. Reopen when the setting, population, target, introduction-strategy or description status, separate WorkPlan, capability and support conditions, named authorization basis, alternative, outside result, evidence window, or maintained claim changes.
+13. **State limits and refresh.** State the scope supported by this introduction account, keeping the separate grounds of any causal, cultural or authorization claim used in the decision. Reopen when the setting, population, target, introduction-strategy or description status, separate WorkPlan, capability and support conditions, named authorization basis, alternative, outside result, evidence window, or maintained claim changes.
 
 #### A.3.1.MI:4.2 - Record the Result
 
@@ -11330,9 +11328,9 @@ Later `W-B-Review-1` is independently admitted as Work performed by `Reviewer-22
 
 Return `keep` for the D30–D60 attempt on the observed local conditions, later Work, mismatch detection and corrected report. The result supports that bounded continuation. A later claim that either Method caused fewer release escapes needs C.28 and the evidence for that stronger use.
 
-If table access failed, return the contradicted A.15.8.MS support claim and next support action. If the introduction sequence or briefing failed, return the observation to the maintained claim in `M-Introduce-Unit-Review-1`, `MethodDescription-Intro-B-1`, or `WorkPlan-Intro-B-1` and keep the target result separate. If `CDI-R22-1` expired, name that result and stop pending its governing development decision; if later Work changed reusable target or introduction semantics, reopen A.3.1.MV for the affected Method.
+If table access failed, return the support-gap account and any warranted correction to the maintained A.15.8.MS result. If the introduction sequence or briefing failed, return the observation to the maintained claim in `M-Introduce-Unit-Review-1`, `MethodDescription-Intro-B-1`, or `WorkPlan-Intro-B-1` and keep the target result separate. If `CDI-R22-1` expired, name that result and stop pending its governing development decision; if later Work changed reusable target or introduction semantics, reopen A.3.1.MV for the affected Method.
 
-If the failed lookup path has two proposed later repairs that the available evidence cannot distinguish, and no useful comparative observation is obtainable before the current decision, return both options with that limit and keep the failed support route stopped. Return the contradicted support claim and options to A.15.8.MS. This completes the current introduction result; further comparison is selected when its obtainable answer warrants the full burden.
+If the failed lookup path has two proposed later repairs that the available evidence cannot distinguish, and no useful comparative observation is obtainable before the current decision, return both options with that limit and keep the failed support route stopped. Return the account of the support failure, any contradicted claim and the options to A.15.8.MS. This completes the current introduction result; further comparison is selected when its obtainable answer warrants the full burden.
 
 In a separate constructed no-development case, the same admitted review Method is introduced to `Reviewer-23` by repairing the conversion-table lookup path. The current `A.2.2` basis `CAP-R23-1` identifies that holder, calibration-report-review Work, the mixed-unit envelope, the required detection measure, representative evidence, and a qualification window covering the attempt. It supports adequate existing capability; no capability change is required or claimed. The engineer repairs and checks the lookup path under separately supported configuration permission, and the independently admitted later review Work uses it successfully. Return `keep` for this bounded support change and preserve `CAP-R23-1` as a reliance condition. No CDI result is missing merely because none was supplied, and no training is commissioned. If the capability basis later expires, return its currentness question to `A.2.2`; if the Work envelope instead changes so that development is needed, open that separately governed question. This case changes neither the reliance on `CDI-R22-1` nor its expiry stop in the preceding case.
 
@@ -11368,7 +11366,7 @@ The Digital Vaccine case supplies three sequential action-research cycles in an 
 
 The Halogen and methodology-spread studies add observed adaptation, project demands, practitioner skills, identified organizational conditions where recoverable, drivers, and barriers. For each adaptation record whether it changed the Method-related target, the introduction strategy, its description, a separate WorkPlan, support, or local use, while preserving the recorded kind and status of each. Also record when, planned or reactive status, decision-maker and any applicable authorization basis, affected level, reason, and conditions. Neither source proves a universal sequence or one causal driver of spread.
 
-Implementation-science comparators sharpen this account without supplying its domain ontology. Proctor et al. motivate separate acceptability, appropriateness, feasibility, enactment/fidelity, burden/cost, reach, and sustainment questions. FRAME motivates recording changes to the Method-related target. FRAME-IS supplies the separate question of what changed in the introduction strategy itself. Updated CFIR motivates context and determinant questions; the 2021 MRC framework motivates iterative refinement around key uncertainty and decision usefulness. A.3.1.MI retains the target-versus-strategy distinction while rejecting health-specific entities, a maturity ladder, phase gate, compulsory adoption sequence, and any inference from those taxonomies to FPF Method admission, Work, relation, capability, authority, or culture.
+Implementation-science comparators sharpen this account without supplying its domain ontology. Proctor et al. motivate separate acceptability, appropriateness, feasibility, enactment/fidelity, burden/cost, reach, and sustainment questions. FRAME motivates recording changes to the Method-related target. FRAME-IS supplies the separate question of what changed in the introduction strategy itself. Updated CFIR motivates context and determinant questions; the 2021 MRC framework motivates iterative refinement around key uncertainty and decision usefulness. A.3.1.MI uses these comparators to distinguish the target, the introduction strategy and their observed effects. Method admission, Work, relation, capability, authority and cultural claims retain their separate FPF grounds.
 
 #### A.3.1.MI:5.1 - APP-ME-01 Early Stop
 
@@ -11388,7 +11386,7 @@ Suppose a receiving decision now concerns assigning newcomers independent review
 
 After such an authorized comparison, suppose the observed records show that newcomers detect familiar identifier mismatches unaided but require expert help for the unfamiliar unit convention. Return that differentiated result to the capability owner and to A.3.1.FT; it supports neither a blanket failure nor unrestricted transfer. C.11.MV includes the expert's time. A.3.1.MI can develop a proposed introduction variant using joint review and later independent rehearsal. A.3.1.MV determines whether its changed reusable operations constitute a variant; retaining the intended checking and learning functions does not settle that identity question.
 
-The adaptation account records when the joint-review change was chosen and when it actually operated. If rehearsal and coaching change together, the observed benefit belongs to that examined arrangement until a useful comparison separates their contributions. The original lesson remains a delivered event. Its proposed mechanism is reconsidered on the new evidence; the history is not rewritten as if the later strategy had been used from the start.
+The adaptation account records when the joint-review change was chosen and when it actually operated. If rehearsal and coaching change together, report the benefit observed under that examined arrangement; distinguish their contributions only to the extent supported by the evidence. The original lesson remains a delivered event. Its proposed mechanism is reconsidered on the new evidence; the history is not rewritten as if the later strategy had been used from the start.
 
 ### A.3.1.MI:6 - Bias-Annotation
 
@@ -11407,7 +11405,7 @@ The adaptation account records when the joint-review change was chosen and when 
 
 - [ ] Claimed target subjects, the admitted introduction Method or candidate introduction account, any relied-on description, any separate WorkPlan, performed Work and relied-on relations are distinguished. A description is classified as `U.MethodDescription` only when A.3.2 establishes membership for an admitted Method.
 - [ ] Every organizational claim names the organizational System, selected structure, constituent organization, or relation organization actually relied on.
-- [ ] Every observation position names its maintained result and particular claim or edition, receiving Agent or governing pattern when current, and next action or stop.
+- [ ] For each decision-relevant observation, state what it supports and the next action or stop; name a maintained result, particular claim or edition, and receiving Agent or governing pattern when that return is current.
 - [ ] Introduction Work is stated as an attempt intended to establish named conditions, with any applicable authorization basis kept separate. A failed attempt remains recordable as Work.
 - [ ] Decision-relevant capability keeps its A.2.2 basis and currentness, or returns the missing basis. Adequate existing capability without a needed change requires no development result. Only a needed capability-change claim consumes a compatible development result or returns its missing/stale basis with a next governing action or stop; irrelevant capability detail is omitted.
 - [ ] Assignment, permission, authority, access, use, enactment, and other relations name predicates, participants, scope, and obtaining basis.
@@ -11417,7 +11415,7 @@ The adaptation account records when the joint-review change was chosen and when 
 - [ ] A relied-on causal or contribution claim uses C.28 and preserves supported and unsupported uses, validity threat and residual uncertainty. An observational result carries only the qualification needed for its receiving use.
 - [ ] The comparison records the action supported by the available evidence, or the alternatives that remain unresolved and the reason they cannot yet be distinguished. Any further observation or probe has a useful obtainable answer worth its full burden and feasible conditions.
 - [ ] A.3.1.FT receives a bounded fit or transfer question, C.36.MC a bounded population-level cultural question, and A.3.1.MV/A.15.8.MS/A.15.2 a supported correction, refinement or alternative tied to the particular maintained claim or edition it affects. A.3.2.DE receives a needed correction of MethodDescription or candidate-Method-account content and preserves its status; other content returns to its own episteme or a local stop.
-- [ ] The result claims no adoption lifecycle, maturity ladder, phase gate, general effectiveness, causal superiority, or authority outside its boundary.
+- [ ] The introduction account and any causal, cultural or authorization conclusions retain their own grounds and scope.
 
 ### A.3.1.MI:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -11451,20 +11449,20 @@ Separating the Method-related target from the introduction strategy, its status 
 | Proctor et al., [Outcomes for Implementation Research](https://doi.org/10.1007/s10488-010-0319-7) | keep acceptability/rejection, appropriateness/fit, feasibility, enactment/fidelity, burden/cost, reach, and sustainment as decision-relevant observation positions distinct from the outside result. | The source categories do not establish FPF health-service/client kinds, cultural adoption or a compulsory outcome set or stage order. Use only positions that can change the bounded decision. |
 | Stirman, Baumann, and Miller, [FRAME](https://doi.org/10.1186/s13012-019-0898-y) | for a Method-related target, record what changed, when, planned/proactive or unplanned/reactive status, decision-maker and applicable authority, affected level, reason and conditions, and whether Method semantics, description, support, or local use changed. | Fidelity labels do not establish Method identity or admission, and healthcare intervention kinds do not become FPF kinds. Return each target modification to its particular maintained claim or local decision. |
 | Miller et al., [FRAME-IS](https://doi.org/10.1186/s13012-021-01105-3) | distinguish modifications to the introduction strategy from modifications to the Method-related target; for the strategy, record the changed component or function, nature, timing, participants in the modification decision, rationale, and scope. | Healthcare intervention and implementation-strategy kinds are not imported as FPF kinds; neither Method admission nor a compulsory reporting module follows. Record the introduction strategy's status and keep its description, any WorkPlan, performed Work, and affected maintained result separate. |
-| Damschroder et al., [updated CFIR](https://doi.org/10.1186/s13012-022-01245-0) | ask which context and determinant observations can explain anticipated or actual success or failure. | These questions establish no universal determinant inventory, success score, maturity ladder or obtaining FPF relation. |
+| Damschroder et al., [updated CFIR](https://doi.org/10.1186/s13012-022-01245-0) | ask which context and determinant observations can explain anticipated or actual success or failure. | Select context and determinant questions for the receiving use; establish any claimed FPF relation through its own predicate and grounds. |
 | Skivington et al., [2021 MRC complex-intervention framework](https://doi.org/10.1136/bmj.n2061) | identify key uncertainty, context interaction, refinement, stakeholder perspective, and comparative resource/outcome consequence; permit repeat, reconsider, or stop. | The framework does not impose a phase sequence or gate on this Method. The source neither admits FPF Methods and Work nor supplies causal support; C.28 remains conditional. |
-| Moore et al., [MRC process-evaluation guidance](https://doi.org/10.1136/bmj.h1258), and Jolles et al., [core functions and forms](https://dworakpeck.usc.edu/sites/default/files/2020-10/Core%20Functions%20and%20Forms%20of%20Complex%20Health%20Interventions.pdf) | connect the proposed explanation to observations of implementation, mechanisms, context and outcomes; distinguish a contribution's function from its concrete form. | These are developed comparison sources, not a universal mechanism inventory. Recover the subject-specific function and the evidence for its preservation; an observed benefit does not confirm the originally proposed mechanism. |
+| Moore et al., [MRC process-evaluation guidance](https://doi.org/10.1136/bmj.h1258), and Jolles et al., [core functions and forms](https://dworakpeck.usc.edu/sites/default/files/2020-10/Core%20Functions%20and%20Forms%20of%20Complex%20Health%20Interventions.pdf) | connect the proposed explanation to observations of implementation, mechanisms, context and outcomes; distinguish a contribution's function from its concrete form. | Recover the subject-specific function and the evidence for its preservation; an observed benefit does not confirm the originally proposed mechanism. |
 
 ### A.3.1.MI:12 - Relations
 
-- C.39.MF supplies the Method-of-interest and outside result. A.3.1.MV supplies an admitted variant or status-preserved candidate lineage with applicability and currentness. A candidate account is not enacted; later Work may enact only independently admitted constituent Methods.
+- C.39.MF supplies the Method-of-interest and outside result. A.3.1.MV supplies an admitted variant or status-preserved candidate lineage with applicability and currentness. A candidate account is not enacted; later Work may enact only independently admitted Methods.
 - A.3.1.MV governs admitted Method semantics and candidate lineage, provenance, evidence, applicability, currentness, and retirement claims for both target and introduction accounts. A.3.2.DE authors or revises a MethodDescription of an admitted Method, or improves a candidate Method account while retaining its unresolved status. Other description content stays with its own episteme. A.15.2 governs the separate introduction WorkPlan; A.15.8.MS particular support claims; A.3.1.FT bounded fit and transfer questions; and C.36.MC bounded population-level cultural questions. Return a correction, refinement or alternative with the affected maintained claim or edition and the next action.
 - `E.23.CDI` or a domain capability-development pattern governs capability change. `A.2.2` governs the relied-on capability result; A.3.1.MI records it as an input, observation, or named gap.
 - `A.3.1` governs admission of both target and introduction Methods, and `A.3.2` governs `U.MethodDescription` membership. A WorkPlan and performed Work neither admit nor enact a candidate Method. `A.13` governs precise Agent claims and `A.15.1` every introduction and later Work occurrence. Assignment, permission, authority, access, use, enactment, and other direct relations retain their own named predicates, participants, applicability, and obtaining tests.
 - `A.3.4` governs a claimed actual bounded change to a continuing subject. Introduction Work, a before/after account, an adaptation record, or a decision label does not by itself identify a `U.Transformation`.
 - `A.10` governs evidence use. When the A.3.1.MI decision relies on a causal or contribution claim, `C.28` governs the bounded causal-use question, supported and unsupported uses, conditions, validity threats, and reopen trigger. Without that reliance, A.3.1.MI stops at observation or association.
 - C.28.CM develops the proposed causal explanation and its rivals. A.3.1.WT can construct the bounded Method trial; a different or more extensive inquiry needs its own qualified design and operational protocol. A.15.9 obtains and qualifies any missing outside-practice result for this use. The selected design and protocol guide the actual trial or inquiry. Its actually obtained observations and their limits then inform the bounded introduction decision; A.3.1.MI:4.5 explains this connection for adaptation. F.0.2.RC is used when a change affects a source-coverage or reconstruction claim.
-- Proctor, FRAME, FRAME-IS, updated CFIR, and MRC supply bounded comparator questions only. FRAME and FRAME-IS support the target-versus-introduction-strategy distinction; none creates FPF health ontology, adoption lifecycle, maturity ladder, phase gate, Method admission, Work occurrence, relation occurrence, capability, authority, or culture claim.
+- The implementation-science comparators inform the selected introduction and observation questions. FRAME and FRAME-IS distinguish target changes from changes in their introduction; the corresponding FPF subjects and claims retain their own identification and evidential grounds.
 
 ### A.3.1.MI:End
 
@@ -11478,7 +11476,7 @@ Separating the Method-related target from the introduction strategy, its status 
 
 Use this pattern when practitioners need reusable claims about how one Method is carried out and must keep those claims distinct from the representation, publication, approval, plan, or actual Work through which the Method is discussed or enacted. In FPF terms, decide whether an already identified `U.Episteme` is a `U.MethodDescription`: whether its `EntityOfConcern` is one admitted `U.Method` and its claims say something substantive about that Method as a way of doing.
 
-**When the reusable way is still only a candidate.** A candidate account or mined behavioural model is not a `U.MethodDescription` merely because it is coherent, executable, process-shaped, or traceable to sources. Use `A.3.1.MR` when the question is recovery from performance evidence; use `A.3.1` when a candidate is ready for Method identification. Apply this pattern only after the account's `EntityOfConcern` has been admitted as one `U.Method`, and only when that same episteme makes a substantive claim about the Method as a way of doing.
+**When the reusable way is still only a candidate.** A candidate account or mined behavioural model is not a `U.MethodDescription` merely because it is coherent, executable, process-shaped, or traceable to sources. Use `A.3.1.MR` when the question is recovery from performance evidence; use `A.3.1` when a candidate is ready for Method identification. Positive `U.MethodDescription` membership requires an admitted `U.Method` as that episteme's `EntityOfConcern` and at least one substantive claim about the Method as a way of doing.
 
 **Plain reading.** A method description is the knowledge object whose claims say how one identified method is done. Code, text, or a diagram may represent those claims; a publication occurrence may make an edition available.
 
@@ -11496,7 +11494,7 @@ Recognizable working moments include:
 
 **What this buys.** The project can identify, compare, revise, and reuse claims about one Method while keeping representation, publication, planned use, enactment, and evidence use distinct.
 
-**Not this pattern when.** Do not infer membership from words such as `algorithm`, `program`, `proof`, `workflow`, `process`, `procedure`, `recipe`, or `model`. Ask what the sentence actually asserts. If its `EntityOfConcern` is not an admitted `U.Method`, or it says nothing substantive about that Method as a way of doing, A.3.2 does not apply. Use the pattern for the actual Method, selected structure, formal declaration, work plan, dated Work, evidence use, or publication use instead.
+**Not this pattern when.** Do not infer membership from words such as `algorithm`, `program`, `proof`, `workflow`, `process`, `procedure`, `recipe`, or `model`. Ask what the sentence actually asserts. If its `EntityOfConcern` is not an admitted `U.Method`, or it says nothing substantive about that Method as a way of doing, `U.MethodDescription` membership does not hold. Use the subject pattern for any further claim about the actual Method, selected structure, formal declaration, work plan, dated Work, evidence use, or publication use.
 
 ### A.3.2:2 - Problem
 
@@ -11557,7 +11555,7 @@ Name the receiving use before asking whether this method-description edition is 
 | comparing, revising, or auditing claim content | C.2.1 identifies each episteme and any persisted comparison or audit result; the concrete evaluation, evidence, or assurance claim stays with its subject pattern | which method claims are preserved, absent, stale, or incompatible for this comparison or audit? |
 | publishing or teaching | C.2.1 is the pattern for the claim-bearing or teaching episteme; E.24.PUB is the pattern for publication occurrence and form; use A.15.1 only for teaching Work that actually happened | does this edition preserve the method distinctions needed by this audience or teaching use? |
 
-A.3.2 creates no universal method-description-use relation. Name the concrete receiving object and the pattern that defines or tests the current claim about it. Comparing claim sets, revising a publication, or checking teaching content does not require a fabricated Work occurrence or decision object.
+Name the concrete receiving object and the pattern that defines or tests the current claim about it.
 
 Then inspect the claim concerns that matter for that named use:
 
@@ -11571,14 +11569,12 @@ Then inspect the claim concerns that matter for that named use:
 | Bounds | Which latency, precision, cost, safety, reliability, uncertainty, or other local bounds constrain the method? |
 | System-role kinds and capabilities | Which local system-role kinds and capability thresholds matter for enactment? |
 | Parameters | Which values may vary between work occurrences, over which ranges, and when are they bound? |
-| Evaluation conditions | Which criterion compares which concrete Work occurrence, referent, measurement, or result, and which pattern contains the defining content for that comparison? |
+| Evaluation conditions | Which criterion is applied to the concrete Work occurrence, referent, measurement, or result, and which pattern defines that criterion? |
 | Internal composition | Which admitted methods are parts of one composite method, and what organization constructs that whole? |
 | Variation, edition, and refinement | Which claim content is preserved or changed, and is the current claim about another episteme edition, equivalence of claim content, or refinement of the method itself? |
 | Edition and publication use | Which episteme edition is relied on, and does its publication use affect currentness or availability? |
 
 Calendars, assignees, work authorization, gate passage, and dated execution witnesses are governed by planning, assignment, gate, or work-occurrence patterns. They may cite a method description.
-
-A `U.MethodDescription` describes one admitted Method. It is not the `RelationSignature` that declares participants for one relation kind, the A.6.1 `OperationAlgebra` content that declares arguments and results for an operation family, a dated Work occurrence, or any actual-participation relation of that occurrence.
 
 The same episteme can also satisfy A.15.2 as a `U.WorkPlan` when its claims about that admitted Method include the required substantive intended coordination. Establish both membership predicates on the same independently identified E. A plan that merely names a Method does not thereby supply the way-of-doing claims required here. Planning and actual-performance judgements retain their own conditions.
 
@@ -11588,9 +11584,9 @@ A project may accept, regulate, prefer, deprecate, or forbid a method descriptio
 
 When a method description is used to prepare or enact work, distinguish the planned-use and actual-occurrence branches:
 
-1. C.2.1 identifies one episteme through its claim content, exact `EntityOfConcern`, and effective `ReferenceScheme`; A.3.2 judges that same episteme to be `U.MethodDescription`. Plainly saying that the method description describes the method is shorthand for this constitution and membership judgment, not another binary relation occurrence.
+1. Identify the episteme under C.2.1 and apply the membership test in §4.1.
 2. `U.WorkPlan` may cite that episteme when preparing dated work.
-3. For a claim about actual Work, recover each performing `U.System` and its obtaining assignment of a local agential system-role kind under A.13. A.15.1 independently admits the dated Work and its `enactsMethod` relation to the Method. If precise assignment-bound attribution is claimed, F.6 `performedUnderAssignment` uses that same obtaining assignment of a separately declared `U.SystemRoleAssignment` species. A separate assertion cites `methodDescriptionRef` only when its claim depends on that edition.
+3. For a claim about actual Work, use the Work-admission and conditional assignment-attribution rules in §4.1. Cite `methodDescriptionRef` only when the claim depends on that edition.
 4. The word *result* is only a cue. Ask which claim is being made: an A.6.1 application returned a value, a referent changed under A.3.4, Work produced something under A.15.PROD, or a measurement, evaluation, delivery, or acceptance occurred. If the use needs a Work-to-result relation and no exact predicate is defined for it, keep Work and result separate and state `missing-predicate[work-to-result]`. A log, trace, measurement, or result episteme supports another claim only through its evidence relation.
 
 #### A.3.2:4.5 - Method, mechanism, and formal-substrate boundary
@@ -11688,14 +11684,14 @@ If readers treat the diagram as a route that tokens or workers must follow, comp
 
 The following biases obscure method-description membership:
 
-* **carrier-as-description bias**: a PDF file, repository, screen, or presentation carrier is treated as the method description. Identify the episteme whose ClaimGraph is being read, then record any C.29 representation or publication relations on which the use depends separately;
+* **carrier-as-description bias**: a PDF file, repository, screen, or presentation carrier is treated as the method description. Identify the episteme whose ClaimGraph is being read, then distinguish the representation or publication relations on which the use depends under §4.2;
 * **description-as-method bias**: the representation is treated as the way of doing itself;
 * **description-as-work bias**: executable or operational-looking representation is treated as dated work;
 * **approval-as-proof bias**: accepted, approved, or regulated descriptions are treated as evidence, gate passage, or safe execution;
 * **notation-prestige bias**: code, formal notation, or solver files are treated as more authoritative than procedures, diagrams, or guidelines. Compare the actual method claims; representation form supplies no priority;
 * **imperative-metaphor bias**: graph, query, predicate, or process-model representation is treated as an ordered work-control claim.
 
-First identify the claim-bearing episteme, the claim it makes, and the Method it concerns. When the use needs them, keep its C.29 representation, publication occurrence, publication form, and presentation carrier separate. State each additional plan, Work, evidence, gate, authority, mechanism, formal, or mathematical claim under its exact predicate or constraint with an optional subject-pattern locator.
+First identify the claim-bearing episteme, the claim it makes, and the Method it concerns. When the use needs them, keep its representation, publication occurrence, publication form, and presentation carrier separate under §4.2. State each additional plan, Work, evidence, gate, authority, mechanism, formal, or mathematical claim under its exact predicate or constraint with an optional subject-pattern locator.
 
 ### A.3.2:7 - Conformance Checklist
 
@@ -11707,7 +11703,7 @@ First identify the claim-bearing episteme, the claim it makes, and the Method it
 
 **CC-A3.2-4 (Description not work).** Executable-looking material is not a Work occurrence. For a program run, proof-checking session, solver run, lab run, or clinical application, first recover every performing System's A.13 core, including its obtaining assignment of a separately declared species. Admit Work only after A.15.1 independently identifies the world-side occurrence, enacted Method, temporal extent, and containing System. Apply F.6 through that same assignment afterward only when precise assignment-bound attribution is claimed; a missing or failed F.6 attribution leaves independently admitted Work intact. Any participant, resource-use, or work-to-referent claim needs its own admitted relation; if none exists, return the corresponding missing-governor result.
 
-**CC-A3.2-5 (Description not plan or authority).** A method description is not a work plan, gate decision, permission, approval, external-rule authorization, or evidence relation. Those claims may cite the description but require their own subject patterns.
+**CC-A3.2-5 (Membership and additional claims).** Method-description membership does not establish WorkPlan membership, a gate decision, permission, approval, external-rule authorization, or an evidence relation. Test each additional claim under its subject pattern. The same episteme may also be a `U.WorkPlan` when it meets A.15.2.
 
 **CC-A3.2-6 (Description not mechanism or declaration).** A method description is neither a `RelationSignature` nor A.6.1 `OperationAlgebra` content and does not close a mechanism claim. If reusable direct-relation participant declaration is current, use A.6.0 and A.6.5. If operation algebra, law set, admissibility predicates, or applicability is current, use `A.6.1`; transport, audit, realization, evaluation, and evidence-use relations remain with their direct patterns.
 
@@ -11733,14 +11729,14 @@ First identify the claim-bearing episteme, the claim it makes, and the Method it
 
 | Anti-pattern | Repair |
 | --- | --- |
-| Treating executable text as sufficient Method identity. | Identify the claim-bearing episteme and the Method it concerns. Membership needs one substantive method claim; C.29 is the pattern for representation correspondence, E.24.PUB is the pattern for publication, and A.15.1 is the pattern for a run that actually happened. |
+| Treating executable text as sufficient Method identity. | Identify the reusable way under A.3.1. When method-description membership is claimed, identify the episteme and apply §4.1. Use §4.2 for representation and publication, and A.15.1 for a run that actually happened. |
 | Treating a Work log as a method description solely because it records a sequence. | The log is an episteme about dated Work, not the Work or a method description by being recorded. Identify the occurrence under A.15.1; cite or write a separate method description only when its claims pass the membership rule. |
 | Inferring safe use solely from protocol approval. | Separate method description, approval or gate claim, safety evidence, work plan, and work occurrence. |
 | Leaving the optimization-model claim unresolved. | Ask whether the episteme says how a scheduling Method works or instead states variables, constraints, and an objective for a formal model. Keep the solver run as Work and any selector mechanism under A.6.1/E.20. |
 | Inferring project-work dispatch from a query-plan layout. | A database plan or graph may represent ordering without commanding project Work. Use `C.2.P.DR` when layout is being read as dispatch; write a WorkPlan or ordered Method only when its own claim states that sequence. |
 | Inferring the workflow sequence solely from a diagram route. | Check whether the method claim states the sequence. If the route is only a graph path, event trace, or drawing convention, keep it in the representation; do not turn it into a WorkPlan or performed Work. |
 | Conflating a new file version with refinement of the Method. | Separate the C.2.1 edition relation, a comparison of description claims, and any refinement relation between Methods. A file version establishes none of them. |
-| "SOPs are notes, code is the real spec." | Neither notation establishes membership. Compare what each episteme claims about the Method. Ask adequacy only for a concrete proposed use; comparison, publication revision, and teaching-content review require no fabricated Work or decision. |
+| "SOPs are notes, code is the real spec." | Neither notation establishes membership. Compare what each episteme claims about the Method. Ask adequacy only for a concrete proposed use. |
 
 ### A.3.2:9 - Consequences
 
@@ -11756,7 +11752,7 @@ First identify the claim-bearing episteme, the claim it makes, and the Method it
 
 Projects need reusable claims about ways of doing before any dated work occurs. Treating a file as the method description by appearance hides two decisions that later work needs: which episteme is being relied on, and which admitted method its claims concern. The positive claim threshold makes this distinction usable without demanding a complete procedure card.
 
-The pattern is representation-agnostic because a method can be described through procedural text, code, diagrams, mathematical notation, protocols, or combinations of them. The episteme can be revised and evaluated while its C.29 representations, publication occurrences, publication forms, and presentation carriers change independently. This separation lets a project compare descriptions and judge fitness for a receiving use without turning notation, approval, publication, or enactment into kind membership.
+The pattern is representation-agnostic because a method can be described through procedural text, code, diagrams, mathematical notation, protocols, or combinations of them. The episteme can be revised and evaluated while its representations, publication occurrences, publication forms, and presentation carriers change independently. This separation lets a project compare descriptions and judge fitness for a receiving use without turning notation, approval, publication, or enactment into kind membership.
 
 ### A.3.2:11 - SoTA-Echoing
 
@@ -11765,7 +11761,7 @@ The pattern is representation-agnostic because a method can be described through
 | constructor-theory and process-theory work | Gogioso et al., "Constructor Theory as Process Theory", EPTCS 397, 2023, arXiv:2401.05364; Deutsch and Marletto, "Constructor theory of time", arXiv:2505.08692v3, revised 2026-06-05. | Descriptions stay close to transformation claims without becoming the transformation or Work occurrence. | The pattern separates MethodDescription, Method, mechanism, WorkPlan, Work, and evidence across physical, informational, organizational, and mathematical examples. |
 | scoped-effects and handlers work | Bosman et al., ["A Calculus for Scoped Effects & Handlers"](https://arxiv.org/abs/2304.09697), 2024; Matache et al., ["Scoped Effects as Parameterized Algebraic Theories"](https://arxiv.org/abs/2402.03103), 2024; Kura, ["On Complete Categorical Semantics for Effect Handlers"](https://arxiv.org/abs/2602.03275), 2026. | Separate syntax, handling, scope, resources, equations and semantic model; executable coherence does not establish uniquely determined semantics. | An executable-looking episteme may describe a Method, but form or one working interpretation does not by itself settle its Method, mechanism law, semantic equivalence, or success. |
 | binding-aware equality representation | Tiurin, Ghica, and Hu, ["E-Graphs With Bindings"](https://arxiv.org/abs/2505.00807), 2025; Zucker, ["Lifting E-Graphs: A Function Isn't a Constant"](https://arxiv.org/abs/2606.22734), 2026. | Variables, binders, and contexts need explicit representation semantics; ordinary graph equality is not enough. | When equivalence depends on binding or context, state that comparison basis. Alpha-equivalent or graph-equivalent representations do not automatically identify one Method or equivalent claim content. |
-| persistent equality representation | Merckx et al., ["E-Graphs as a Persistent Compiler Abstraction"](https://arxiv.org/abs/2602.16707), 2026. | An equality representation may persist across several intermediate-representation levels while its expression changes. | Persistence of one representation structure across compiler stages is a C.29 representation fact; it does not establish episteme-edition continuity, Method identity, MethodDescription membership, or performed Work. |
+| persistent equality representation | Merckx et al., ["E-Graphs as a Persistent Compiler Abstraction"](https://arxiv.org/abs/2602.16707), 2026. | An equality representation may persist across several intermediate-representation levels while its expression changes. | Persistence of one representation structure across compiler stages is a representation fact; it does not establish episteme-edition continuity, Method identity, MethodDescription membership, or performed Work. |
 | Historical declarative-versus-imperative programming contrasts | Codd 1970; Kowalski 1979; Selinger et al. 1979; van der Aalst, Pesic, and Schonenberg 2009; Van Roy and Haridi 2004. | Historical lineage and comparison cases; these anchors do not establish the current state of their fields. | Older slogans remain useful recognition cues, but the reader still asks what the artifact asserts and which FPF object that claim concerns. |
 
 ### A.3.2:12 - Relations
@@ -11773,7 +11769,7 @@ The pattern is representation-agnostic because a method can be described through
 A.3.2.DE develops the description for a declared receiving use, including explanation of the operation and its changed conditions. C.37.MP relates representations across different uses, and C.37.CF compares content and form changes. None changes MethodDescription membership merely by improving usefulness.
 
 * **Builds on:** `C.2.1` for the identity, grounding, and edition relations of the same claim-bearing episteme; `A.3.1` for the exact `U.Method`; and `E.24.UK` for admission of the dependent U-kind.
-* **Coordinates with:** `A.3.1` and `B.1.5` for actual Method parts, Method identity, and composite-Method organization; `A.22` for an independently selected structure among several Methods; `A.1.1` only when an independently selected `BoundedModelUseStructure` changes the proposed use; `F.9` only for cross-context `SchemeSenseCell` correspondence; `C.2.1` for the separate claim that one obtaining Bridge suits one bounded use; `A.10` for ordinary evidence reliance on that claim and `B.3` only when an actual named assurance claim is current; `C.29` for representation correspondence; `E.24.PUB` for publication occurrence and form; `A.15.2` for `U.WorkPlan`; `A.15.1` for `U.Work`; `A.2` for local system-role kinds and System-classification judgments; `A.2.1` for assignment species and obtaining assignment occurrences; F.6 for Work–assignment attribution; `A.2.2` for capability thresholds; and `C.28` for causal-use claims.
+* **Coordinates with:** `A.3.1` and `B.1.5` for actual Method parts, Method identity, and composite-Method organization; `A.22` for an independently selected structure among several Methods; `A.1.1` only when an independently selected `BoundedModelUseStructure` changes the proposed use; `F.9` only for cross-context `SchemeSenseCell` correspondence; `C.2.1` for the separate claim that one obtaining Bridge suits one bounded use; `A.10` for ordinary evidence reliance on that claim and `B.3` only when an actual named assurance claim is current; `A.6.3.RT` and `A.6.3.RT.OE` for representation correspondence, with `C.29` when a mathematical lens is used or remains to be chosen; `E.24.PUB` for publication occurrence and form; `A.15.2` for `U.WorkPlan`; `A.15.1` for `U.Work`; `A.2` for local system-role kinds and System-classification judgments; `A.2.1` for assignment species and obtaining assignment occurrences; F.6 for Work–assignment attribution; `A.2.2` for capability thresholds; and `C.28` for causal-use claims.
 * **Separates from:** `A.6.0` formal-substrate declarations; `C.29` mathematical-lens use; `A.6.1 U.Mechanism`; `E.20` mechanism-meaning introduction and revision.
 * **Uses for precision restoration:** `F.19` for the connected reading of wording that leaves the claim, object, or relation unclear; `E.10`, `E.10.ARCH`, `F.18`, or `C.2.P.DR` for a remaining word, kind, durable naming, or declarative-representation question.
 
@@ -11790,18 +11786,18 @@ Use this pattern when people need usable claims about an identified Method or a 
 
 The first useful result is a short use-coverage account. It names the Method or candidate account, the receiving use, the claims needed now, the claims deliberately omitted, and the stop. That account prevents a documentation project from expanding before its practical question is clear.
 
-Do not use this pattern merely to publish, diagram, approve, schedule, or record Work. A `U.MethodDescription` is the claim-bearing episteme whose exact `EntityOfConcern` is one Method already admitted under `A.3.1`; its code, diagram, form, carrier, approval, WorkPlan, and dated Work remain different things. If the proposed whole is still a candidate account, improve that account without classifying it as a `U.MethodDescription` for the whole.
+Do not use this pattern merely to publish, diagram, approve, schedule, or record Work. A `U.MethodDescription` is the claim-bearing episteme whose exact `EntityOfConcern` is one Method already admitted under `A.3.1`; its representations, carriers, and dated enactments remain separate objects. Planning and approval have their own claim conditions; the same episteme may also meet A.15.2 as a `U.WorkPlan`. If the proposed whole is still a candidate account, improve that account without classifying it as a `U.MethodDescription` for the whole.
 
 #### A.3.2.DE:0.1 - Working Distinctions
 
 | Item | Working meaning here | Boundary |
 | --- | --- | --- |
 | admitted Method | One reusable way of doing whose identity has been established under `A.3.1`. | A shared title, coherent document, WorkPlan, or successful occurrence does not establish it. |
-| `U.MethodDescription` | One C.2.1 episteme about that Method whose claims say something substantive about how the Method is carried out. | Membership is not a completeness, approval, currentness, publication, or effectiveness result. |
+| `U.MethodDescription` | One C.2.1 episteme with at least one substantive claim about that Method as a way of doing. | Membership is not a completeness, approval, currentness, publication, or effectiveness result. |
 | candidate account | Claims about a possible Method whose identity or obtaining relations remain unresolved. | It can be improved and used prospectively without being renamed a MethodDescription. |
 | named use | A particular planning, enactment, comparison, audit, revision, publication, or teaching need with a receiver and stop. | A generic wish to “document the method” is not yet a use boundary. |
 | use-coverage account | A C.2.1 account that states which Method claims an edition exposes for each named use and which it omits. | It does not prove that the claims are true enough for the use or that anyone used them. |
-| representation and publication | A `C.29` correspondence, `E.24.PUB` form or publication occurrence, and carrier through which claims may be expressed or made available. | Form and availability do not decide MethodDescription membership. |
+| representation and publication | A representation under `A.6.3.RT`/`A.6.3.RT.OE`, an `E.24.PUB` form or publication occurrence, and a carrier through which claims may be expressed or made available; `C.29` applies when a mathematical lens is used or remains to be chosen. | Form and availability do not decide MethodDescription membership. |
 
 ### A.3.2.DE:1 - Problem Frame
 
@@ -11864,9 +11860,9 @@ Authors stop treating “the method document” as one undifferentiated object. 
 
 #### A.3.2.DE:5.1 - Stop at the Candidate Whole
 
-`C-EC-Release-v2` is a prospective account of a possible release-coordination whole. Its intended result, alternatives A, B2, and R, guards, authority boundaries, confidentiality, reversibility, and D0 stop make it useful, but the whole is not admitted as a `U.Method`. A.3.2.DE may improve those claims for a selection or trial-planning use; it does not return a `U.MethodDescription` for that candidate whole.
+`C-EC-Release-v2` is a prospective account of a possible release-coordination whole. It proposes waiting for signed supplier evidence before software integration, or integrating from a versioned provisional edition and reconciling it with signed evidence before safety closure. It also specifies recovery after failed closure, authority boundaries, confidentiality, reversibility and stops. The Method identity of this proposed whole remains unresolved; `B.1.5.CM:5` gives the full case.
 
-The improved account remains useful: users can compare A and B2 before integration and plan a bounded trial with recovery R after a failed B2 closure. Every downstream use keeps the account's candidate status.
+Improve the claims required for selection or trial planning and retain the unresolved Method-identification condition. The result remains a candidate account.
 
 #### A.3.2.DE:5.2 - A Bounded Description of an Admitted Constituent Method
 
@@ -11962,7 +11958,7 @@ The claim-first order prevents representation and publication choices from selec
 - B.1.5.CM can supply an admitted whole or a prospective candidate account. A.3.2.DE preserves the branch it receives.
 - RMP.10 can supply claim content and evidence limits for a candidate account; it does not admit the Method or create the description.
 - C.37.MP consumes A.3.2.DE's current MethodDescription or candidate-account claims only when several unlike named Method-related actions require a Method-specific profile. It returns one complete C.37 claim group per action and a separate result showing how the selections relate: source correspondences, conflicting omissions, edition relations, decisions to keep representations separate, and conditions that require reconsidering several selections. For one action, use C.37 or the pattern that governs it; for another represented entity, use that entity’s governing FPF pattern.
-- `A.15.2`, `A.15.1`, `A.10`, `A.2.2`, `C.29`, and `E.24.PUB` define or constrain the neighboring plan, Work, evidence, capability, representation, and publication claims that A.3.2.DE keeps separate.
+- `A.15.2`, `A.15.1`, `A.10`, `A.2.2`, and `E.24.PUB` define or constrain neighboring plan, Work, evidence, capability and publication claims. `A.6.3.RT` and `A.6.3.RT.OE` govern representation correspondence; `C.29` governs a mathematical lens.
 
 ### A.3.2.DE:End
 
@@ -12177,7 +12173,7 @@ The instrument reports only their total, `y_n = a_n + b_n`. The model's state is
 
 Retain the two masses when they are available. If only totals are observed, two successive exact readings recover the composition in this model: solve `a_0 + b_0 = y_0` and `a_0/2 + b_0/4 = y_1`, giving `a_0 = 4y_1 - y_0` and `b_0 = 2y_0 - 4y_1`. These masses must be nonnegative. Substitution into the next-cycle law gives `y_2 = (3/4)y_1 - (1/8)y_0`; the same recurrence applies at every later cycle. The prediction now uses one previous total as well as the current one. Equivalently, take that pair of totals as the predictive state.
 
-If only the initial total is available, the model still gives a range: for integer `n ≥ 0`, `y_0/4^n ≤ y_n ≤ y_0/2^n`. Each extreme is attained by putting all the initial mass in one substance. Use this range when it answers the working question; otherwise obtain information about the composition. If the two substances instead have the same known retention factor `r` with `0 ≤ r ≤ 1`, the total alone obeys `y_(n+1) = r y_n`. Thus whether aggregation preserves the needed law depends on the modeled operations.
+If only the initial total is available, the model still gives a range: for integer `n ≥ 0`, `y_0/4^n ≤ y_n ≤ y_0/2^n`. Each extreme is attained by putting all the initial mass in one substance. Use this range when it answers the working question; otherwise identify the composition information needed for a narrower answer and decide whether to obtain it. If the two substances instead have the same known retention factor `r` with `0 ≤ r ≤ 1`, the total alone obeys `y_(n+1) = r y_n`. Thus whether aggregation preserves the needed law depends on the modeled operations.
 
 The calculation assumes exact readings and fixed retention factors. Applying it to treatment data requires accounting for measurement error and establishing the retention law over the intended operating range. [Lin and Lu, §§2.1–2.2](https://arxiv.org/html/1908.07725v5) explain the broader state/observation and model-reduction problem; the two-substance case here supplies an elementary construction.
 
@@ -12221,7 +12217,7 @@ A familiar equation or a well-fitting simulation can also encourage extrapolatio
 
 **CC-A3.3-1 (Membership and identity).** A.3.3 judges one already identified `U.Episteme`. That same individual is `U.Dynamics` only when its exact C.2.1 `EntityOfConcern` is the changing subject and its ClaimGraph, under its effective reference scheme, declares both a state space and a transition law. A.3.3 adds no second identity.
 
-**CC-A3.3-2 (Local meanings and applicability).** Interpret characteristic names under the effective reference scheme. State units, operating region, time base, approximation regime, claim scope when needed, qualification window and source-currentness condition as claim content or their separately governed values.
+**CC-A3.3-2 (Local meanings and applicability).** Interpret characteristic names under the effective reference scheme. State the units, operating region, time base, approximation regime, claim scope, qualification window and source-currentness conditions needed to interpret or rely on the model, as claim content or their separately governed values.
 
 **CC-A3.3-3 (EntityOfConcern).** Name the changing EntityOfConcern. Joint modeling uses the independently identified joint subject required by :4.1.
 
@@ -12231,7 +12227,7 @@ A familiar equation or a well-fitting simulation can also encourage extrapolatio
 
 **CC-A3.3-6 (Observation relation).** Evidence use states how exact Work-side facts when present and separately identified work records, telemetry, measurements, observation records, or source records become observed coordinates. Direct observation is declared rather than assumed.
 
-**CC-A3.3-7 (Constraints and applicability).** Constraints, invariants, operating region, approximation regime, parameter range, horizon, and scale window are stated before prediction or gate use.
+**CC-A3.3-7 (Constraints and applicability).** Before prediction or gate use, state the constraints, invariants, operating region, approximation regime, parameter range, horizon and scale window on which that use depends.
 
 **CC-A3.3-8 (Control or planning procedure).** When a reusable planning or control way uses the dynamics, identify that Method under A.3.1. Apply A.3.2 to an episteme claimed to describe it; the dynamics membership test remains :4.1.
 
@@ -12451,7 +12447,7 @@ A familiar coordinate system can make its convenient operations look like proper
 
 Minimal-coordinate preference can also hide a useful relation. In the linkage, fewer coordinates simplify position reconstruction, while the retained constraint equation is useful for a constraint-force question. Choose with that operation in view.
 
-Both biases can occur in a person's reasoning, an AI-generated model or a shared engineering calculation. Make the interpretation recoverable to the next participant, including when a computation is delegated.
+Make the interpretation recoverable to the next participant, including when a computation is delegated.
 
 ### A.3.3.CC:7 - Conformance Checklist
 
@@ -12472,14 +12468,14 @@ Both biases can occur in a person's reasoning, an AI-generated model or a shared
 | Carrying a fixed-total reduction into a model with arrivals | Make the changed total explicit or retain the counts needed to express it. |
 | Answering a job-order question from queue lengths alone | Retain the ordered identities used by the service rule. |
 | Treating a small coordinate count as a global representation | Supply coverage and equivalence information; use multiple charts or implicit constraints where needed. |
-| Rejecting a parking position because immediate sideways motion is forbidden | Keep the position and test a sequence of allowed motions under the relevant steering and obstacle conditions. |
+| Rejecting a parking position because immediate sideways motion is forbidden | Keep the position in the configuration description. Test a sequence of allowed motions under the relevant steering and obstacle conditions when the receiving question also asks about reachability. |
 | Treating a failed search as impossibility | Return the search limit, or obtain a complete argument or computation for the impossibility claim. |
 
 ### A.3.3.CC:9 - Consequences
 
 The description makes compatibility usable: a solver can seek a fitting arrangement, a practitioner can locate the condition excluding one, and another participant can reconstruct the represented values. A later law of change starts from interpretable configurations.
 
-Construction takes effort, particularly when constraints interact or a compact representation loses necessary detail. An implicit description may save modeling effort while making each computation harder; a parametrization reverses that trade-off. Reuse an adequate description until a changed operation, premise or required distinction defeats it.
+Construction takes effort, particularly when constraints interact or a compact representation loses necessary detail. An implicit description may save modeling effort while making each computation harder; a parametrization may reverse that trade-off for the receiving operation. Reuse an adequate description until a changed operation, premise or required distinction defeats it.
 
 ### A.3.3.CC:10 - Architectural Rationale
 
@@ -13021,7 +13017,7 @@ Missing information about a neighboring claim leaves that claim unresolved; it n
 - If the issue is a law-governed operation algebra with admissibility predicates, use `A.6.1` and `E.20`.
 - If the issue is planned or dated work, use `A.15.2` or `A.15.1`.
 - If the issue is the selected compound transformation-flow structure, its locus, path, path slice, crossing, or flow valuation, use `E.18`.
-- If the issue is a graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, or wiring expression used to describe that structure mathematically, use `E.18.2` and `C.29`.
+- If the issue is a mathematical expression used to describe that structure, use `E.18.2` and `C.29`.
 - If the issue is a positive temporal aspect of an object or claim, use `C.27.TA`.
 - If the issue is adequacy or admissible use of a temporal claim, use `C.27`.
 - If the issue is holon recognition without a current actual-change identity or constructive transformation-parthood claim, use `A.1`.
@@ -13144,7 +13140,7 @@ When the use needs the following contributions, keep their different objects and
 | facts about the changed subject | relation occurrences and characteristic-state facts that actually hold | each subject pattern defines the participants, obtaining rule, and identity |
 | reusable change semantics | one predicate-definition episteme when repeated use needs the same rule | A.3.4 or the subject pattern states how the listed base facts satisfy that predicate |
 | transformation assertion | one C.2.1 episteme asserting that the transformation or base facts obtain | C.2.1 identifies claim content, exact EntityOfConcern, and effective reference scheme; scope and viewpoint remain neighboring relations |
-| representation | formula, morphism, path, graph, diagram, trace, tuple, or state-plane expression | C.29 governs correspondence to independently recovered objects |
+| representation | a representation of the identified change or subject, such as a formula, diagram, or trace | C.29 governs correspondence to independently recovered objects |
 | evidence or evaluation result | an episteme used to support or evaluate the assertion | the measurement, evaluation, evidence, provenance, or assurance pattern defines or constrains that use |
 
 A verbal predicate does not turn every obtaining relation occurrence into a transformation. Assignment, availability, installation, and temporal order can obtain without change. Conversely, one actual transformation may require several relation facts without being identical to any one of them.
@@ -13167,7 +13163,7 @@ For each neighboring claim, identify the object it needs and state that object's
 | dynamics model | `A.3.3` governs the episteme |
 | evidence, measurement, evaluation, or assurance | apply the measurement, evaluation, evidence, provenance, or assurance pattern that states the support or judgment relation |
 | description, view, publication, form, or carrier | C.2.1, `E.17`, and `E.24.PUB` keep the episteme, view membership, publication occurrence, publication form, and carrier distinct |
-| `input`, `output`, `result`, `outcome`, `deliverable`, or `handoff` | name the participant and the relation actually claimed: method declaration, planned work, actual work, transformation, evaluation, commitment, delivery, acceptance, transfer, or receiving work. The source word is not a kind or universal slot. |
+| `input`, `output`, `result`, `outcome`, `deliverable`, or `handoff` | name the participant and state the relation actually claimed, using its governing pattern. The source word by itself identifies neither a kind nor a universal transformation slot. |
 
 A declared post-state is part of a transformation description. An actual post-boundary state or changed entity is a fact about the subject. When wording such as *result* carries a separate claim, make its participants and relation recoverable from that use. Acceptance, delivery, publication, and downstream effect remain separate. `U.Transformation` has no generic `ResultRef` or `OutputConditionOrPortRefs` slot.
 
@@ -13205,7 +13201,7 @@ Keep these objects separate:
 - when claim content changes, the earlier specification episteme and the later specification episteme are distinct C.2.1 identities; `EpistemeEditionRelation` relates them only when its historical-continuation predicate obtains;
 - dated editing or review is a `U.Work` occurrence admitted under `A.15.1`;
 - edition succession alone establishes no transformation of one continuing episteme. Open A.3.4 only for a separately continuing subject—such as a physical or digital carrier independently identified under its domain identity rule (with expression bearing governed by `E.24.PUB`) or a claim-bearing constituent organization—after naming its boundary, before/during/after facts, and continuity rule; otherwise stop without a transformation claim;
-- if revision `U.Work` first constitutes the later episteme, open a separate `A.15.PROD` first-existence question: name the exact `productIdentitySpecification` episteme, the named applicability predicate or filled local claim that applies it to the candidate basis, subject context, and boundary, the `identityClosingWork`, and the work-to-change and change-to-identity predicates or local compound claims. If that specification continues an earlier specification, state the separate C.2.1 `EpistemeEditionRelation` only when its historical-continuation predicate obtains; without that relation, treat it as a non-continuing replacement and evaluate its applicability independently. Return the applicable `A.6.RCD` stop for either named connection that lacks its required basis;
+- if revision `U.Work` first constitutes the later episteme, open a separate `A.15.PROD` first-existence question: name the exact `productIdentitySpecification` episteme, the named applicability predicate or filled local claim that applies it to the candidate basis, subject context, and boundary, the `identityClosingWork`, and the work-to-change and change-to-identity predicates or local compound claims. If the product-identity specification is claimed to continue an earlier identity-rule specification, test their separate C.2.1 `EpistemeEditionRelation`. When that relation is unestablished, leave continuity unresolved and evaluate the later identity-rule specification's applicability independently; call it non-continuing only when the applicable continuity rule supports that conclusion. Return the applicable `A.6.RCD` stop for either named connection that lacks its required basis;
 - a plant change, safety evaluation, assurance claim, gate decision, and publication are separate objects and relations.
 
 If only the proposed wording and proof are available, do not assert a project-world plant transformation. Different claim content gives two epistemes; test their `EpistemeEditionRelation` when historical continuation is claimed. Assert an A.3.4 specification-side transformation only for a separately continuing carrier or constituent organization with its boundary, before/during/after facts, and continuity rule. If the question instead concerns the later episteme's first existence, use `A.15.PROD` and stop when either direct connection lacks a basis. The proof can support an assertion only through its evidence or derivation use.
@@ -13271,7 +13267,7 @@ A familiar representation can draw attention away from the actual subject and it
 | `CC-A34-3` | Every subject fact uses the pattern that defines its relation or characteristic; no union-valued `transformationRelation` field is used. |
 | `CC-A34-4` | Any additional method, operation, work, flow, representation, evidence, evaluation or publication claim retains its own objects and relations. |
 | `CC-A34-5` | A transformation assertion is a C.2.1 episteme about the actual transformation or exact base facts. |
-| `CC-A34-6` | Time, rate, rhythm, duration, and ordering claims use `C.27.TA` and `C.27` without replacing transformation identity. |
+| `CC-A34-6` | Use `C.27.TA` for temporal aspects and `C.27` when an unresolved adequacy question changes the receiving action; neither replaces transformation identity. |
 | `CC-A34-7` | Use E.18 for the selected flow structure and C.29 for mathematical representation; ground actual transformation and work claims separately through A.3.4 and A.15.1. |
 | `CC-A34-8` | Evidence, assurance, gate, acceptance, and decision authority are not inferred from the transformation or its description. |
 | `CC-A34-9` | `input`, `output`, `result`, `outcome`, `deliverable`, and `handoff` remain wording cues until the reader names the participant and relation being asserted. |
@@ -13286,9 +13282,9 @@ A familiar representation can draw attention away from the actual subject and it
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Method name as change | "This method transforms X" is treated as an actual occurrence. | Name the continuing changed subject, boundary, and before/during/after facts; keep the method under A.3.1. |
-| Process diagram as work | A workflow diagram is treated as enacted work. | Use `E.18` or `A.3.2` for the diagram; use `A.15.1` for dated work. |
-| Dynamics model as permission | A transition law is used to approve action. | Keep `A.3.3` for the model; use evidence, gate, decision, and assurance patterns for use authority. |
-| Temporal trend as intervention | A rate or rhythm trend is treated as proof of changed behavior under an intervention. | Use `C.27.TA` and `C.27`, then identify the continuing changed subject and its before/during/after facts separately. |
+| Process diagram as work | A workflow diagram is treated as enacted work. | Recover what the workflow diagram represents; use `E.18` for a claimed transformation-flow structure or `A.3.2` for a MethodDescription claim, and `A.15.1` to establish any claimed dated Work independently. |
+| Dynamics model as permission | A transition law is used to approve action. | Keep `A.3.3` for the model. Determine whether the action is permitted under the applicable rule; obtain evidence or assurance when that rule or the decision requires it. |
+| Temporal trend as intervention | A rate or rhythm trend is treated as proof of changed behavior under an intervention. | Use `C.27.TA` for the temporal aspect and `C.27` when an unresolved adequacy question changes the receiving action. Identify the transformation independently; if the claim attributes it to intervention Work, apply `4.2.4`. |
 | Formal construction as work | A morphism or proof construction is treated as work performed in a project-world object. | Use `C.29` or the direct formal pattern for the mathematical relation; name realization and work separately. |
 | Publication as transformation | A dashboard or report is treated as the changed state. | Use publication or source patterns for that artifact; identify the changed subject separately. |
 | Sliced trajectory as composition | Samples, subintervals, method steps, work parts, concurrent changes, or flow nodes are declared components of one transformation by containment or proximity. | Identify each actual transformation independently and require the governing rule and derivation basis in 4.2.1 for a positive composition claim. Sampling or subdivision also supplies no evidence of indivisibility. |
@@ -13321,7 +13317,7 @@ Four source contributions address different questions about change.
 
 | Source and practice answer | Use in A.3.4 | Contribution and limits |
 | --- | --- | --- |
-| Marletto, Deutsch, and Vedral, ["Tests of constructor theory"](https://arxiv.org/abs/2606.07352v1), 2026, arXiv edition `2606.07352v1`, reviews the experimental-test branch of constructor theory in terms of possible and impossible tasks and constructors rather than ordinary program execution. | A.3.4:4.1 and 4.7 require an independently grounded actual bounded change even when a constructor-theory task or formal transformation is used; case 5.4 keeps the proof term or morphism expression as representation. | Use the task/constructor distinction to discipline possibility and governing conditions. A task, its description, a constructor label, or a formal expression does not establish the actual occurrence, project-world realization, evidence, or permission; this source branch is not treated as consensus ontology for every change. |
+| Marletto, Deutsch, and Vedral, ["Tests of constructor theory"](https://arxiv.org/abs/2606.07352v1), 2026, arXiv edition `2606.07352v1`, reviews the experimental-test branch of constructor theory in terms of possible and impossible tasks and constructors rather than ordinary program execution. | A.3.4:4.1 and 4.7 require an independently grounded actual bounded change even when a constructor-theory task or formal transformation is used; case 5.4 keeps the proof term or morphism expression as representation. | Use the task/constructor distinction to discipline possibility and governing conditions. A task, its description, a constructor label, or a formal expression does not establish the actual occurrence, project-world realization, evidence, or permission. |
 | Deutsch and Marletto, ["Constructor theory of time"](https://arxiv.org/abs/2505.08692v3), 2025, arXiv edition `2505.08692v3` revised in 2026, shows within that branch why duration and dynamics need an account distinct from task possibility. | A.3.4:4.1 identifies the occurrence through its extent or formal ordering boundary and actual subject facts; 4.4-4.5 use `C.27.TA` for temporal aspects, `C.27` for temporal-claim adequacy, and `A.3.3` for dynamics; case 5.1 keeps the control-law episteme separate from the cooling-loop change. | Preserve the separation among task, duration, dynamics, and actual occurrence without importing constructor theory as FPF temporal ontology. Duration, a dynamics model, or a task specification alone leaves actual occurrence identity unresolved. |
 | Guizzardi, Benevides, Fonseca, Porello, Almeida, and Sales, ["UFO: Unified Foundational Ontology"](https://doi.org/10.3233/AO-210256), 2022, develops the UFO account through distinct micro-theories that include events, situations, participation, causation, and change. | A.3.4:4.1 and 4.3-4.5 keep actual-change identity, subject facts, participation or work-to-change facts, causation, assertion, and representation as separate questions; case 5.6 applies that split to a system in a flow. | These distinctions help formulate separate participation, causation and change claims. Event mereology still requires its own construction basis. Identify one `U.Transformation` at the resolution needed by the use; open participation, causation, work, or representation only through the pattern for that claim. |
 | Borgo and Righetti, ["Towards Applied Constructional Ontology"](https://doi.org/10.3233/FAIA250480), 2025, argues that applied constructional ontology still requires explicit choices about mereology, dependence, identity, and application concerns. | A.3.4:4.2 and the PumpSkid case 5.7 independently identify the local changes, reject composition by timing or representation, and return the missing basis for a positive composition claim. | Temporal inclusion, graph adjacency, a shared referent, a construction label, or a selected structure supplies neither transformation composition nor part identity. |
@@ -13349,7 +13345,7 @@ Four source contributions address different questions about change.
 
 - If one bounded transformation is already identified and only its ordinary use continues, apply `A.3.4` directly.
 - If the current claim is already a selected transformation-flow structure, use `E.18`.
-- If the current claim is a graph, morphism, category, algebra, path, circuit expression, network expression, or other mathematical description, use `E.18.2` and `C.29`.
+- If the current claim is a mathematical description, use `E.18.2` and `C.29`.
 - If the current claim is only a semantic way of doing, method description, mechanism, work plan, dated work, evidence relation, publication relation, gate, decision, assurance, result, or temporal claim, use the subject pattern.
 - If the word is quoted source wording with no FPF-governed use, keep it quote-only.
 
@@ -13369,7 +13365,7 @@ Without this repair:
 2. **Selected structure becomes one actual transformation.** A flow, path, network, or circuit expression is treated as one actual `U.Transformation` or as proof of transformation composition without the exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification basis. Identifying one occurrence at the resolution needed by the current use establishes neither finer transformation parts nor partlessness.
 3. **Method, mechanism, and work collapse.** A method description, law-governed mechanism, work plan, dated work, or source diagram is selected by vocabulary rather than by current claim.
 4. **Functional wording overreaches.** A system, module, port, interface, signature, or function label is treated as the transformation or as proof of functioning.
-5. **Mathematical expression becomes world-side ontology.** A graph, morphism, algebra, category, path, network, or circuit expression is treated as the project-world change.
+5. **Mathematical expression becomes world-side ontology.** A mathematical expression is treated as the project-world change.
 6. **Description or evidence becomes transformation.** A publication, dashboard, source span, proof, or evidence path is treated as the changed object or the change itself.
 
 ### A.3.4.P:3 - Forces
@@ -13378,7 +13374,7 @@ Without this repair:
 | --- | --- |
 | Recognition and precision | Source labels help readers recognize a situation; an unresolved FPF claim needs its kind, participants, governing relation and applicable conditions recovered. |
 | One actual transformation and selected flow structure | `U.Transformation` identifies one independently grounded actual bounded change and establishes neither transformation parthood nor partlessness at the current resolution. `TransformationFlowStructure` positions, relates, or locates transformation loci and adjacent governed values; common structure membership establishes no transformation composition. |
-| Acting System and influence source | An assignment occurrence alone does not prove performance, and generic transformation participation does not prove action. Performed Work requires each precise performer's A.13 core and independent A.15.1 admission; add F.6 afterward only when precise assignment-bound attribution is current. Any Work-to-change relation required by the claim remains separate. A non-Work actor needs another exact direct actor-side relation. Every influence source keeps its own kind and exact relation. |
+| Acting System and influence source | An assignment occurrence alone does not prove performance, and generic transformation participation does not prove action. Any Work-to-change relation required by the claim remains separate. A non-Work actor needs its exact direct actor-side relation. Every influence source keeps its own kind and exact relation. |
 | Formal and project-world change | A formal construction may be a transformation over a formal object, or it may be a mathematical description of project-world structure; the current object decides. |
 | Repair and readability | Recover enough ontology for the current use. Record a repair note only when the receiving use needs inspectable detail. |
 
@@ -13437,8 +13433,8 @@ If an episteme asserts possible, intended, planned, modelled, predicted, or actu
 | pattern-use recommendation, work-entry readiness, language-state move, architecture candidate use, or call-planning next action | The applicable subject pattern; use `E.10.MOVE` when the move-like meaning remains unresolved | Move-like wording is not transformation wording unless a bounded `U.Transformation` or selected `TransformationFlowStructure` is actually current. |
 | function-like wording inside a change situation | `A.3.4.P` only to distinguish the actual transformation, selected `TransformationFlowStructure`, a System claimed to act under an exact actor-side relation, a differently typed influence source under its exact relation, boundary binding, or `FunctioningRef?`; use `A.6.F` for detailed function-kind discrimination | For an actual-transformation claim, recover its occurrence basis; for an actor claim, use the performed-Work or non-Work basis in 4.4. |
 | state-space and transition-law episteme | `A.3.3` | Dynamics can model possible or claimed change; recover any claimed actual occurrence independently under `A.3.4`. |
-| time window, cadence, duration, latency, freshness, currentness, trajectory, inertia, or effort | `C.27.TA`; use `C.27` for temporal-claim adequacy | `C.27.TA` supplies positive temporal subject matter; `C.27` governs temporal-claim adequacy. Recover transformation identity under `A.3.4` when that separate claim is current. |
-| evidence, provenance, source, publication, dashboard, view, gate, decision, assurance, result, or release claim | the direct governing evidence, source, publication, gate, decision, assurance, result, or release pattern | A visible record or path does not establish evidence sufficiency, assurance, gate passage, deontic permission, work authorization, release authorization, performed work, or acceptance by itself. |
+| a temporal aspect of an object or claim | `C.27.TA`; use `C.27` for temporal-claim adequacy | `C.27.TA` supplies positive temporal subject matter; `C.27` governs temporal-claim adequacy. Recover transformation identity under `A.3.4` when that separate claim is current. |
+| evidence, provenance, source, publication, dashboard, view, gate, decision, assurance, result, or release claim | the direct governing evidence, source, publication, gate, decision, assurance, result, or release pattern | Recover what the record or path states or represents, then apply the governing pattern's conditions to the claim being made. |
 
 #### A.3.4.P:4.3 - Common source-label settlements
 
@@ -13475,7 +13471,7 @@ A diagram or report, for example, may describe a transformation, state a claim a
 
 Source wording says: "The refrigeration circuit moves heat through the cycle."
 
-Repair: recover whether the current claim is a refrigerator subsystem transformation, a `TransformationFlowStructure` over compressor, condenser, expansion, and evaporator transformations, a thermodynamic mechanism, a functional architecture view, or a schematic publication. The circuit label may stay as ordinary domain wording, but FPF use names the selected structure, mechanism, or publication relation.
+Repair: recover whether the current claim is a refrigerator subsystem transformation, a `TransformationFlowStructure` over compressor, condenser, expansion, and evaporator transformations, a thermodynamic mechanism, a functional architecture view, or a schematic publication. The circuit label may stay as ordinary domain wording, but FPF use names the recovered object and the relation being asserted.
 
 #### A.3.4.P:5.2 - Neural-network block
 
@@ -13493,7 +13489,7 @@ Repair: the target-gene edit is only a candidate `U.Transformation` until the ex
 
 Source wording says: "The evidence path lets the valve-change flow proceed."
 
-Repair: an evidence path may be a legitimate `A.10` provenance relation for a named claim. The valve change still needs its exact changed referent, boundary, boundary conditions, actual subject facts, and continuity or reidentification basis; work plan, dated work, gate, assurance, result, and receiving use remain exact neighboring relations when current. The path establishes no work authorization, release authorization, gate passage, performed work, or actual transformation by shape or name.
+Repair: identify the action meant by *proceed* and the condition the evidence is claimed to satisfy. Apply the governing rule to the available facts, and use `A.22.CGUS` if availability or ordering remains unclear. Preserve any established `A.10` provenance relation for the named claim. Use `A.3.4` only if an actual valve-change occurrence is also asserted.
 
 #### A.3.4.P:5.5 - Filled minimal repair note
 
@@ -13505,12 +13501,12 @@ TransformationWordingRepair:
   ActualTransformationDisposition: no actual occurrence claim is made; the current object is the selected `RefrigeratorHeatTransferFlowStructure-1`.
   NeighboringClaimAndExactRelation: the four named loci are positions in `RefrigeratorHeatTransferFlowStructure-1`; bindings to actual transformation occurrences have not been established.
   GoverningPattern: `E.18` governs `RefrigeratorHeatTransferFlowStructure-1`; use `A.3.4` when a claim about an actual component occurrence needs its basis established.
-  RetainedUse: "circuit" may remain ordinary domain wording for `RefrigeratorHeatTransferFlowStructure-1` after that exact selected structure is named.
-  StopOrReturnCondition: use the selected structure; a later claim about an actual occurrence needs the A.3.4 occurrence basis and remains unresolved while that basis is missing.
+  RetainedUse: "circuit" may remain ordinary domain wording for `RefrigeratorHeatTransferFlowStructure-1`; the source's heat-transfer claim remains unresolved.
+  StopOrReturnCondition: use the selected structure for the recovered structural question; if the receiving use needs the heat-transfer claim, recover its participants and relation under the relevant subject rules. A later actual-occurrence claim still needs the A.3.4 occurrence basis.
   RemainingReaderUse: use `E.18` for `RefrigeratorHeatTransferFlowStructure-1`; open the applicable subject pattern when an additional claim is needed.
 ```
 
-One rewritten sentence for this selected structure is: “RefrigeratorHeatTransferFlowStructure-1 has four positions: compressor, condenser, expansion and evaporator.”
+One rewrite for the recovered structural use is: “RefrigeratorHeatTransferFlowStructure-1 has four positions: compressor, condenser, expansion and evaporator. The relation asserted by ‘moves heat through the cycle’ remains to be recovered.”
 
 ### A.3.4.P:6 - Bias-Annotation
 
@@ -13539,8 +13535,8 @@ Familiar domain words can bias kind selection before the actual claim is recover
 | Replacement by smoother umbrella | "Process" is replaced with "flow" or "operation" without recovered kind. | Run the replacement through the same recovery. If the kind is still hidden, leave it unresolved. |
 | Network head inflation | Frequent network or circuit wording becomes a peer durable head. | Use network or circuit as structure form, topology label, mathematical-expression family, domain label, or subject-domain system only when recovered by value. |
 | Selected structure as transformation composition | Common membership in one flow, path, network, circuit, or pipeline is treated as a composite transformation, transformation-part relation, or proof of indivisibility. | Use `E.18` only to position, relate, or locate transformation loci and adjacent governed values. Ground every actual `U.Transformation` independently under `A.3.4`; common structure membership establishes neither composition, parthood, nor partlessness. |
-| Workflow as performed work | A workflow diagram or process model is treated as dated work. | Use `A.3.2`, `E.18`, or `C.2.P.DR` for the description or structure; use `A.15.1` only for dated work. |
-| Function as proof of behavior | A module, port, participant, assignment occurrence, or "transformer" label is treated as proof of actual change or action. | Recover the actual transformation basis. For performed Work, recover each precise performer's A.13 core and independently admit the Work under A.15.1; add F.6 only when precise assignment-bound attribution is current, and name the required separate Work-to-change relation. Otherwise use the exact participant, operation-application, functioning, causal, or other direct actor-side relation. |
+| Workflow as performed work | A workflow diagram or process model is treated as dated work. | Use `C.2.P.DR` to recover the diagram's supported description or representation use; apply `A.3.2` or `E.18` only for the corresponding MethodDescription or selected-structure claim, and establish any claimed dated Work independently under `A.15.1`. |
+| Function as proof of behavior | A module, port, participant, assignment occurrence, or "transformer" label is treated as proof of actual change or action. | For an actual-change claim, recover its transformation basis. For an actor claim, use the performed-Work or non-Work test in `4.4`, including any Work-to-change relation that the claim actually needs. |
 | Architecture influence as action | A manufacturing or certification organization, design organization, Method or Method family, toolchain, communication System, selected structure, or other value is called the actor because it constrained or enabled a candidate. | Recover the value's exact kind first, then only its exact architecture, Work, communication, constraint, or candidate-synthesis relation. For an actor claim, apply the separate performed-Work or non-Work test in 4.4. |
 | Publication as change | A diagram, proof, dashboard, or source span is treated as the changed object or change occurrence. | Recover the cited object's kind and use under its subject pattern; use `A.3.4` for any claimed actual change. |
 
@@ -13603,7 +13599,7 @@ The first useful result is a fit, a stated discrepancy or the exact missing/inco
 ### A.4:4 - Solution - One Bounded Comparison
 
 1. **Select the subject, account and use.** Identify the System, the design account edition and the decision this comparison must inform. Keep the System's identity under its own rule and the account's identity under C.2.1. Choose the relevant account claim rather than treating the entire design as one test.
-2. **Recover the operative criterion.** State the target or expected behavior, relevant conditions, units and tolerances, and the rule for comparing them with actual facts. Identify what force the account claim has:
+2. **Recover the operative criterion.** State the target or expected behavior, relevant conditions, any units and tolerances required by the comparison, and the rule for comparing the account claim with actual facts. Identify what force the account claim has:
 
    | Account claim | What the comparison can establish |
    |---|---|
@@ -13619,7 +13615,7 @@ The first useful result is a fit, a stated discrepancy or the exact missing/inco
 
 An observation may involve dated measurement Work. Recover that Work under A.13 and A.15.1 only when the receiving claim needs the occurrence; identify the result and its relied-on evidence under their own patterns. A new record does not establish a target change. A.3.4 governs any actual before/during/after change claim, and A.12 distinguishes actual acting and changed participants when internal action is asserted.
 
-Changed account claim content identifies a different C.2.1 episteme. An obtaining edition relation is a further claim with its own conditions, including any actual branching. Neither an account edit nor overlapping operation and design work decides the System's continuity. Particular practices may define design and operating regimes where useful; these regimes do not partition every holon's existence.
+Changed account claim content identifies a different C.2.1 episteme. An obtaining edition relation is a further claim with its own conditions, including any actual branching. Neither an account edit nor overlapping operation and design work decides the System's continuity. Particular practices may define design and operating regimes where useful.
 
 ### A.4:5 - Archetypal Grounding
 
@@ -13653,7 +13649,7 @@ Selecting D2 changes the comparison basis; it does not physically change Pump37.
 | **CC-A.4.2** | Distinguish normative target, descriptive prediction and applicability condition; recover the comparison rule. | Prevent a failed target test from silently becoming an applicability or revision decision. |
 | **CC-A.4.3** | Use comparable actual facts with the required conditions, temporal reference, units and tolerances, or state the missing premise. | Give fit and discrepancy their warranted scope. |
 | **CC-A.4.4** | Return the bounded comparison before any separately selected adaptation. | Preserve a useful answer without compulsory change. |
-| **CC-A.4.5** | Keep account identity/edition, actual Work, target change, System continuity and response authority under their direct rules. | Allow overlapping activity and branching accounts without a universal phase or predecessor law. |
+| **CC-A.4.5** | Keep account identity/edition, actual Work, target change, System continuity and response authority under their direct rules. | Allow overlapping activity and branching accounts. |
 
 ### A.4:7 - Consequences
 
@@ -13707,16 +13703,16 @@ Admitting domain-specific primitives without their applicability boundaries can 
 
 | Problem | Practical effect |
 | --- | --- |
-| **Kernel bloat** | Adding unnecessary root U-kinds or local type vocabularies increases what every Kernel user must understand and maintain. |
+| **Kernel bloat** | Unnecessary root U-kinds or local type vocabularies can increase users' learning effort and maintainers' support work. |
 | **Conflicting assumptions** | Incompatible axioms presented as unconditional commitments leave the reader unable to select an applicable explanation. |
 
 ### A.5:3 - Forces
 
 | Force                            | Tension                                                                                                                  |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| **Stability vs. Evolvability**   | Stable core needed for trust ↔ constant domain innovation needed for relevance.                                       |
+| **Stability vs. Evolvability**   | Stable common commitments support reuse ↔ changed domain needs can require new or revised contributions.                                       |
 | **Universality vs. Specificity** | Single kernel language ↔ rich disciplinary idioms.                     |
-| **Parsimony vs. Coverage**       | Few primitives keep reasoning elegant ↔ framework must still model energy budgets, epistemic uncertainty, agentic goals. |
+| **Parsimony vs. Coverage**       | Fewer shared primitives can reduce learning and maintenance work ↔ domain uses still need their applicable distinctions and laws. |
 
 ### A.5:4 - Solution
 
@@ -13769,7 +13765,7 @@ Use as much classification structure as the work or reliance claim needs. Split 
 | `A6-AW-CONFLICT` | Do a current grant and norm cover the same case, and has a rule or authorized decision selected the outcome? | **E**: `A.2.8.PER PermissionNormConflictFinding@Context` and its applicable rule or current resolution result. | A system-role kind, assignment, office, permit, or gate label alone leaves the conflict `unresolved`. |
 | `A6-AW-SOURCE` | Does the sentence only say that a permit, badge, registry entry, message, or carrier exists, displays, or supports a claim? | **E** for an observed publication or carrier fact; use A.10 when the claim concerns its evidence support. **L** for a definition. Keep the applicable publication or carrier identity. | A visible source alone leaves the separate grant, gate, exercise, finding or resolution claim unestablished. |
 
-**Concrete API/credential case.** A dashboard badge saying “API-7 approved for production” starts at `A6-AW-SOURCE`. It reaches `A6-AW-NORM-GRANT` only if a named policy-valid act instituted a current grant for a beneficiary and deployment action; the admission endpoint is separately `A6-AW-GATE`. Do not claim `A6-AW-EXERCISE` until a dated deployment Work occurrence matches that grant.
+**Concrete API/credential case.** The observation that a dashboard badge displays “API-7 approved for production” is an `A6-AW-SOURCE` claim. A separate claim that a current grant permits a beneficiary to deploy the API belongs under `A6-AW-NORM-GRANT`; establishing it requires a current grant instituted by a named policy-valid act for that beneficiary and deployment action. Classify the entry predicate or actual admission decision separately under `A6-AW-GATE`. Claim `A6-AW-EXERCISE` only when a dated deployment Work occurrence matches that grant.
 
 When agreement-like wording leaves an ambiguity that changes interpretation or use, use `A.6.C` to separate promise content, the instituting speech act, governance, Work, consequence, and evidence. For “recommended”, use A.16/A.6.A for a cue, `A6-AW-GATE` for an entry criterion, or A.2.8 only for recommendation-as-duty. Before action or reliance, return to the exact governing claim. Use A.15.4 while appearance hides the required prerequisite; use A.15 when the question is enactment alignment.
 
@@ -13841,7 +13837,7 @@ These confusions can defeat substitution behind a stable signature: an implement
 | **Declared conditions and actual facts** | Some claims are settled from definitions; others require actual observations or evaluations under their subject predicates. |
 | **View, viewpoint, and construction discipline** | A view is an episteme satisfying exact viewpoint conformance; a viewpoint is an exact convention-bearing episteme; optional A.6.3 construction and publication remain different relations. Losing any distinction makes omissions and provenance uninterpretable. |
 | **Local meaning vs cross‑context reuse** | Boundaries keep meaning local ↔ cross-context reuse needs its actual correspondence and bounded-use basis. Use an F.9 Bridge only for two exact local senses when its predicate obtains; `CL` is optional evidence shorthand. |
-| **Evolvability vs auditability**             | Evolving interfaces requires change; auditors require stable evidence trails.                                                                                      |
+| **Evolvability vs auditability**             | Auditors require stable evidence trails across interface revisions.                                                                                      |
 | **Human readability vs formal precision**    | Plain explanations vs tech‑register constraints; both must remain aligned.                                                                                         |
 
 ### A.6:4 - Solution — A stack + a classification matrix
@@ -13859,11 +13855,11 @@ The first four positions below classify boundary claims; the final two distingui
 
 2. **Mechanism layer (A: admissibility gates).** `U.Mechanism` specializes `U.Signature` through the operation declarations, LawSet, AdmissibilityConditions and Applicability governed by A.6.1. Its admission predicates remain declaration content. Evidence-interface declarations and transport details keep their own claim classification; use A.10 for evidence sources and carriers, and name carrier-producing Work only when that occurrence is claimed.
 
-   *Audit vs AssuranceLane (avoid duplication):* a boundary's local **Audit and observability** section states its evidence-interface declarations: carrier classes and required fields, correlation keys, and exposure interface. `Mechanism.AuditObservability` below is a local publication-section locator, not an A.6.1 content component. **Retention, access, and enforcement are D-claims**. A general prescription remains a claim-bearing episteme; one obtaining individual duty cites the exact A.2.8 `U.Commitment`, its actual bearer, and its direct predicate. A system-role kind or assignment may be an applicability ground but is neither bearer nor commitment. An MVPK **AssuranceLane** is a publication face for auditors that explains how to adjudicate the evidence interface. Under CC-A.6.6, the `AssuranceLane` face references those evidence-interface declarations and relevant claim IDs or canonical locations; its explanation preserves their semantics.
+   *Audit vs AssuranceLane (avoid duplication):* a boundary's local **Audit and observability** section states its evidence-interface declarations: carrier classes and required fields, correlation keys, and exposure interface. `Mechanism.AuditObservability` below is a local publication-section locator, not an A.6.1 content component. **Prescriptions or claims about individual duties concerning retention, access or enforcement are D-claims**. A general prescription remains a claim-bearing episteme; a claim about one obtaining individual duty cites the exact A.2.8 `U.Commitment`, its actual bearer, and its direct predicate. A system-role kind or assignment may be an applicability ground but is neither bearer nor commitment. An MVPK **AssuranceLane** is a publication face for auditors that explains how to adjudicate the evidence interface. Under CC-A.6.6, the `AssuranceLane` face references those evidence-interface declarations and relevant claim IDs or canonical locations; its explanation preserves their semantics.
 
 3. **Deontic layer (D: duties, commitments, and grants).** Put here a general prescription or a claim about an exact individual duty, recommendation-as-duty, prohibition, commitment, or `A6-AW-NORM-GRANT`. For an individual duty, cite the exact A.2.8 `U.Commitment`, actual bearer, constitutive rule, required instituting basis, and direct predicate. Test any responsibility claim separately through its domain predicate or return the exact missing governor. Other `A6-AW-*` claims keep their own placement. Reference related `L-*`, `A-*`, or `E-*` claims by ID or canonical location rather than duplicating their constraints.
 
-4. **Observable-effects and evidence layer (E: Work-Effects & Evidence).** Each E claim names the actual occurrence or evaluated finding under its subject pattern and the observation/evidence basis needed by its receiving use. The subject may be Work under the conditions below, or a natural, spontaneous or formal change. The claim is placed in an Evidence-and-carriers section and may be presented in an `AssuranceLane`.
+4. **Observable-effects and evidence layer (E: Work-Effects & Evidence).** Each E claim names the actual occurrence or evaluated finding under its subject pattern and the observation/evidence basis needed by its receiving use. The subject may be Work under the conditions below, or a natural, spontaneous or formal change. When the publication uses separate sections, place the claim in Evidence-and-carriers; it may also be presented in an `AssuranceLane`.
 
 5. **Actual occurrences and realizations (outside the description stack).** Substitutable realizations are exercised through dated Work only when each actual performer has its A.13 core and A.15.1 independently admits the occurrence. Add F.6 only when the receiving description also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work intact. Work may participate in change, production, speech-act effect, evaluation, or evidence production, but each relation or claim must be established under the pattern that defines or constrains it. A.3 and A.3.4 also admit natural, spontaneous, and formal transformations without a performer, assignment, Method, or Work occurrence.
 
@@ -13917,7 +13913,7 @@ Default placements (quadrant → stack layer / section):
 **Related subject rules (informative):**
 * **A.6.1 ↔ A‑quadrant:** `U.Mechanism.AdmissibilityConditions` is the canonical claim layer for `A-*` gate and admissibility claims.
 * **A.10 / B.3 ↔ E‑quadrant:** for an `E-*` claim used for reliance, recover the A.10 evidence-provenance path and bounded use. A missing path narrows or blocks only the unsupported use. Open B.3 only for an actual named assurance claim about an exact target and assurance use.
-* **A.2.3 and F.12 ↔ D/E separation:** a `U.PromiseContent` promise is not evidence; promise acceptance is linked to Work evidence via F.12. A general duty remains normative content, while an obtaining individual duty is one A.2.8 `U.Commitment` borne by an actual System or other admitted party. Any system-role kind or assignment used to establish applicability stays separate. `D-*` claims reference `A-*` and `E-*` claims by ID or canonical location when needed.
+* **A.2.3 and F.12 ↔ D/E separation:** a `U.PromiseContent` states the promised outcome and acceptance criteria; F.12 evaluates fulfilment using Work evidence. A general duty remains normative content, while an obtaining individual duty is one A.2.8 `U.Commitment` borne by an actual System or other admitted party. Any system-role kind or assignment used to establish applicability stays separate. `D-*` claims reference `A-*` and `E-*` claims by ID or canonical location when needed.
 
 This placement supports change through the actual dependencies:
 
@@ -13946,19 +13942,10 @@ Micro‑template: **Atomize → Classify → Place → Identify EntityOfConcern 
 
 1. **Split when needed:** separate claims that perform different logical jobs.
 2. **Assign** each claim to exactly one quadrant (L/A/D/E) using the matrix.
-3. **Place** each claim into its correct section or publication form (stack layer + section).
+3. **Place** each claim in its canonical claim layer; use a separate section or publication form when the receiving use needs it.
 4. **Anchor A.7:** name what each claim is about, separately from the episteme carrying it. Add publication and carrier relations when they change interpretation. For permission-looking wording, bind the direct object and participants required by the selected `A6-AW-*` row; the selected subject pattern or kind of direct object never supplies the quadrant.
 5. **Register when useful:** add the atomic claim to the Claim Register if used. Downstream faces cite the claim by ID or canonical location and preserve its meaning in any explanation.
 
-Action outputs after classification:
-
-- implement or repair an admissibility predicate when the claim being made is `A-*`;
-- repair the exact normative source for a generic D claim, the actual duty bearer and A.2.8 result for an individual D claim, or the direct object named by the selected permission row;
-- recover the exact actual occurrence, evaluated finding, or evidence path named by an E claim; use the selected E-side `A6-AW-*` row when permission wording is current;
-- publish or update an MVPK face that cites L/A/D/E claims by ID or canonical location and explains them faithfully where its readers need prose;
-- reopen the exact subject pattern when the classified statement is used beyond boundary wording; the selected `A6-AW-*` row names the permission-side subject pattern;
-- downgrade the visible wording to cue use or source-finding only when the exact source is missing;
-- narrow the unsupported Work or reliance claim; allow a local or reversible use only on its own adequate basis and stated stop condition, or block the unsupported use while its source is repaired.
 
 > **Informative example.** Example rewrite (mixed → atomic):
 
@@ -14023,7 +14010,7 @@ Recover the approval's direct object and ground under the applicable `A6-AW-*` r
 * `D-API-1` (Quadrant D): the exact provider policy prescribes maintaining or enforcing `A-API-1` under the named window and exclusions. If the claim is instead that one actual provider or operator bears this duty, cite its separately instituted A.2.8 commitment.
 * `E-API-1` (Quadrant E): the named evaluation reported rollback success under its stated success criterion. Possible evidence inputs include the named work traces, audit records, or metrics. A gate decision carrier may support the exact gate-passage claim; rollback execution needs its own occurrence and evidence basis.
 
-In this additional case, `A-API-1` applies `A6-AW-GATE`, while an approval badge remains `A6-AW-SOURCE` unless another row's closing facts are present. The original production approval and safe-rollback guarantee remain unresolved. A success result alone does not establish the unspecified safety claim.
+In this additional case, `A-API-1` applies `A6-AW-GATE`. The observation of the approval badge is an `A6-AW-SOURCE` claim; any further approval claim needs separate classification and grounds. The original production approval and safe-rollback guarantee remain unresolved. A success result alone does not establish the unspecified safety claim.
 
 For a filled grant/exercise/evidence case and its near-misses, use `A.6.B:8.4.5.4`. It applies `A6-AW-NORM-GRANT`, `A6-AW-EXERCISE`, and the separate A.10 evidence claim by value.
 
@@ -14037,7 +14024,7 @@ Then:
 - if release, deployment, rollback, or execution Work is asserted, cite the exact A.15.1 dated occurrence; then use only the applicable `A.15.1:4.6` row for an application result, A.15.PROD production branch, delivery/transfer relation, evaluation/acceptance relation, or A.10 evidence path. None is an intrinsic Work field;
 - if the phrase is only an action invitation or cue, keep it in `A.6.A`, `A.16`, or `A.16.1` according to the current kind.
 
-Policy engines, credentials, registers, provenance, and attestations can supply policy decisions, source claims, currentness, or evidence. Start a visible permit, badge, or registry value at `A6-AW-SOURCE`; move to another branch only when its named direct object and participants are independently established.
+Policy engines, credentials, registers, provenance, and attestations can supply policy decisions, source claims, currentness, or evidence. Classify the observation of a visible permit, badge or registry value under `A6-AW-SOURCE`. Classify any further claim by what it asserts and check the required grounds for its named direct object and participants.
 
 #### A.6:4.3 - View membership needs exact viewpoint conformance
 
@@ -14064,7 +14051,7 @@ When “the API contract” leaves a consequential ambiguity, use **A.6.C** to a
 
 In A.6 terms:
 
-* The **signature** is the *utterance substrate* for the boundary; it is not itself a promiser or obligor (A.7).
+* The **signature** supplies the boundary's declared vocabulary, laws and applicability; it is not itself a promiser or obligor (A.7).
 * Deontic claims use A.2.8 for generic prescriptions or separately obtaining individual duties and commitments, and `A6-AW-NORM-GRANT` for the current norm/grant branch. Other permission-looking claims keep the placement and object named by their selected row.
 * Classify each atomic operational “guarantee” claim as **L** (truth-conditional law), **A** (entry predicate), **D** (generic prescription, individual commitment, or current grant), or **E** (actual exercise, evaluated result, work effect, or measured property with evidence).
 
@@ -14106,7 +14093,7 @@ Notes:
 
 These are *writing diagnostics*, not tool requirements.
 
-- **RFC keyword inside Definition, invariant, or admissibility predicate** → classification error (rephrase as predicate; move obligation to `D-*`).
+- **An RFC keyword is used as an obligation operator inside a Definition, invariant or admissibility predicate** → separate the D obligation from the L/A claim; write the definition or entry condition as a predicate.
 - **`E-*` with no exact actual occurrence or evaluated predicate, or with a carrier but no evidence relation for the claimed use** → incomplete effect/evidence claim. Ground Work through A.15.1 only when it actually obtains; otherwise use A.3/A.3.4 or the exact interaction or causal-use pattern. A carrier supports the claim but does not create the effect.
 - **`D-*` that re-states an `A-*`/`L-*` predicate instead of citing its ID or canonical location** → drift risk (prefer “MUST satisfy `A-…`”).
 - **A face introduces new L/A/D/E content not present in the canonical claim set** → view-fork. Recover the direct object and classify the new claim—duty/commitment/grant in D; exercise/evaluated finding/evidence in E; gate in A—then add it to its canonical source before face publication. Informative commentary may explain existing claims without adding boundary semantics.
@@ -14146,7 +14133,7 @@ The two cases below distinguish declaration, admissibility, governance and actua
 
   * Admissibility gate: request is admissible iff `tokenValid ∧ merchantActive ∧ amountWithinLimit`.
   * Boundary transport details: HTTP headers and idempotency-key carriage. Declare canonical currency-conversion operations under A.6.1.
-  * The local Audit and observability section specifies required evidence carriers (e.g., `AuthorizationRecord` event, log entry) and their fields, correlation IDs and retention class. Retention duties remain D-claims.
+  * The local Audit and observability section specifies required evidence carriers (e.g., `AuthorizationRecord` event, log entry) and their fields, correlation IDs and retention class. Retention prescriptions and claims about individual retention duties remain in D.
 
 * **Actual occurrence and work layer.**
 
@@ -14219,14 +14206,14 @@ This protocol description connects metric definitions with conditions for an eva
 | Anti‑pattern                   | Symptom                                                         | Why it fails                                                                     | How to avoid / repair                                                                        |
 | ------------------------------ | --------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | **Gate‑as‑law** | Preconditions written as “laws” in the signature | Violates A.6.0’s separation of signature and mechanism gates | Move predicates to Mechanism.AdmissibilityConditions; keep signature laws truth‑conditional. Assess behavioral compatibility by the conditions and outcomes in §4.7. |
-| **RFC‑keywords in invariants** | “MUST” appears inside `Definition:` blocks                      | Confuses deontics with mathematical admissibility; undermines auditability       | Rewrite as declarative predicate; reference predicates by ID or canonical location from CC when needed.               |
+| **RFC‑keywords in invariants** | “MUST” is used as an obligation operator inside a `Definition:` block                      | Confuses deontics with mathematical admissibility; undermines auditability       | Rewrite as declarative predicate; reference predicates by ID or canonical location from CC when needed.               |
 | **Paraphrase drift** | Same constraint restated across faces with changed meaning | Creates hidden divergence; breaks L/A/D/E claim-classification discipline and evidence accountability | Cite claim IDs or canonical locations and preserve their meaning in readable face prose. Use a Claim Register when stable reuse needs it. |
 | **Interface-as-promiser and Work-result bundle** | “The interface promises delivery” assigns an individual commitment to the interface description, or “A.15.1 delivered the result” identifies Work with its result | A description is made an agent, while Work, result, transfer, evidence, and acceptance lose their own identity conditions | Name the actual bearer of the individual commitment; use A.6.C when ambiguity about promise, utterance, or governance changes interpretation or use. Use A.15.1 for dated Work; then exactly one applicable `A.15.1:4.6` row for each separate result, delivery, evidence, or acceptance claim. |
 | **Carrier-as-effect guarantee** | “Guaranteed latency” or “the log proves the change” with no exact actual occurrence and evidence relation | A description or carrier is treated as creating Work, change, or another effect; natural or formal change may also be forced into Work | Name the actual occurrence first: A.15.1 for grounded Work, A.3/A.3.4 or the exact interaction or causal-use pattern for non-Work change; then add the minimum A.10 path needed for reliance. |
 | **Face called a view by form** | A face, diagram, query result, or publication form is called `U.View` without exact E.17.0 conformance | Appearance or construction history replaces the dependent-kind condition | Recover the exact candidate and viewpoint epistemes, test E.17.0 conformance, and keep optional A.6.3 construction and publication relations separate. |
 | **Unresolved deontic subject** | “The system or service SHALL …” is used without deciding whether the sentence states behavior, a general prescription, or an obtaining individual commitment. | The phrase hides the actual subject, constitutive basis, and direct predicate; a system-role kind or assignment may be mistaken for the duty bearer or for responsibility. | Recover the exact admitted System or other party; state an actual `E-*` behavior claim separately only when its actual basis is supplied; then state either normative content or one direct A.2.8 commitment. Test responsibility independently. |
-| **One‑doc monoculture**        | Same document mixes unclassified laws, gates, duties, and evidence           | Change impact is hard to isolate; updates can affect unrelated claim kinds                            | Use the stack: separate Signature, Mechanism, Norms, and Evidence sections; classify by matrix.           |
-| **Authority-word overread** | “Allowed”, “approved”, or a visible permit is treated as a complete authorization result | The word hides which claim exists and which source grounds it | Select one `A6-AW-*` row; if no row's closure condition is met, keep only `A6-AW-SOURCE` or stop the unsupported use. |
+| **Unclassified mixed claims** | Boundary prose mixes claim jobs without making their distinctions and dependencies recoverable | Change impact is hard to isolate; updates can affect unrelated claim kinds | Classify the claims present and make their dependencies clear; use separate sections only when the receiving use needs them. |
+| **Authority-word overread** | “Allowed”, “approved”, or a visible permit is treated as a complete authorization result | The word hides which claim exists and which source grounds it | Select the `A6-AW-*` row by the asserted claim and identify any missing grounds. Keep any established source/display claim separate and stop the unsupported use. |
 
 ### A.6:9 - Consequences
 
@@ -16293,7 +16280,7 @@ Use `U.Signature` as the dependent durable U-kind for a reusable law-governed de
 
 **Local signature mantra.** *Name the subject and value or result range. State the reusable terms, laws and applicability. Add participant declarations, operation parameters, slice-dependent membership or dependencies when a receiving use needs them. Distinguish the declared rules from particular applications, evaluations, Work and publication.*
 
-In FPF terms, the subject is identified by `EntityOfConcernRef`; `SubjectKind`, `RangedValueKind`, and optional `ResultKind` state the declared subject and range; and `Vocabulary`, `Laws`, and `Applicability` state the reusable terms, regularities, and use boundary. Add A.6.5 SlotSpecs only when a reusable `RelationSignature` must preserve the same participant meanings and types. Add A.6.1 operation arguments or results only for a current mechanism declaration. Add `SliceSet` and `ExtentRule` only when the same declared kind can have different members at selected context slices. Declare a dependency only when another signature actually relies on imported or provided names or laws. If the named reuse still works without an optional addition, leave that addition out. Implementations and realizations remain under A.6.1, evaluations under their direct evaluation patterns, work under A.15.1, and publication under E.24.PUB. The mantra is Plain recall wording. Apply A.22.CGUS only when one independently identified A.22 structure has local loci and at least two potential continuations defined by its selected relations and applied constraints.
+In FPF terms, the subject is identified by `EntityOfConcernRef`; `SubjectKind`, `RangedValueKind`, and optional `ResultKind` state the declared subject and range; and `Vocabulary`, `Laws`, and `Applicability` state the reusable terms, regularities, and use boundary. Add A.6.5 SlotSpecs only when a reusable `RelationSignature` must preserve the same participant meanings and types. Add A.6.1 operation arguments or results only for a current mechanism declaration. Add `SliceSet` and `ExtentRule` only when the same declared kind can have different members at selected context slices. Declare a dependency only when another signature actually relies on imported or provided names or laws. If the named reuse still works without an optional addition, leave that addition out. Mechanism implementations and realizations remain under A.6.1, evaluations under their direct evaluation patterns, work under A.15.1, and publication under E.24.PUB. The mantra is Plain recall wording. When a receiving question concerns available continuations and their conditions, use A.22.CGUS's ordinary branch. Continue to formal qualification only when a named later use needs structure identity or replayable results; then identify the A.22 structure, its local loci and at least two potential continuations under the selected relations and constraints.
 
 #### A.6.0:4.1 - Admit and identify U.Signature
 
@@ -16349,7 +16336,7 @@ A direct relation may obtain before anyone writes a signature. Ordinary prose ma
 
 > During Shift-17, Robot-7 is assigned as inspector through InspectionAssignment-17.
 
-This is an A.2.1 assertion about an occurrence of declared species `MaintenanceInspectionAssignment` under `U.SystemRoleAssignment`. A.2.1 defines the species' predicate and occurrence-identity rule. The occurrence has `Robot-7` as holder, `InspectorSystemRole` as assigned-kind value, and only the values required for any other declared participants. When several patterns must reuse those participant meanings, predicate, and identity rule, the species' `RelationSignature` becomes useful for typed assertions and F.6 attribution. When another claim must refer to this assignment episode, use A.6.REL for explicit individuation.
+This is an A.2.1 assertion about an occurrence of declared species `MaintenanceInspectionAssignment` under `U.SystemRoleAssignment`. Apply the species' declared predicate and occurrence-identity rule under A.2.1. The occurrence has `Robot-7` as holder, `InspectorSystemRole` as assigned-kind value, and only the values required for any other declared participants. When several patterns must reuse those participant meanings, predicate, and identity rule, the species' `RelationSignature` becomes useful for typed assertions and F.6 attribution. When another claim must refer to this assignment episode, use A.6.REL for explicit individuation.
 
 #### A.6.0:4.4 - Declare participant meanings and operation parameters under different specializations
 
@@ -16405,7 +16392,7 @@ A signature profile is a constrained use of the same `U.Signature` kind. The pro
 
 **`profile = FormalSubstrate`.** Declare vocabulary and terms, inference kinds, formal laws, applicability, and the actual declaration dependencies carried in the signature's claim content. A.6.1 separately governs `OperationAlgebra`, operation designators, typed argument and result positions, admission conditions, application, and realization. An A.6.1 declaration may cite the FormalSubstrate signature. When a mathematical object is selected as a lens for another entity, C.29 governs the lens-use claim.
 
-**`profile = PrincipleFrame`.** Write the postulates and invariants, then name the observable distinction each one requires: what must be observed or compared to tell whether the frame's claim holds. Cite the separately identified characteristic or measurement declaration that makes that distinction checkable; units, scales, `CHR:ReferencePlane` values, comparators, and normalizations remain under A.17, A.18, C.16, CHR, A.19.CPM, and A.19.UNM. If the text decides whether a proposed operation application, run, or gate may proceed, move that decision to A.6.1 or the direct evaluation and gate pattern, including A.21/C.11 where applicable. A PrincipleFrame may state what a decision must respect, but it is not that admission decision. For ordinary reuse, apply the frame's Applicability and the direct subject rules for any reference-plane or model-use-structure question. When the receiving claim needs an exact semantic relation between two local senses whose interpretation bases differ, first recover the two exact F.17 local senses; cite an F.9 Bridge only if its direct predicate obtains and state the bounded-use claim, direction, preservation, loss, and any required reliance separately. Cited declarations remain independently identified objects, not extra PrincipleFrame identity components.
+**`profile = PrincipleFrame`.** Write the postulates and invariants, then name the observable distinction each one requires: what must be observed or compared to tell whether the frame's claim holds. Cite a separately identified characteristic or measurement declaration when it is needed to state or check that distinction; units, scales, `CHR:ReferencePlane` values, comparators, and normalizations remain under A.17, A.18, C.16, CHR, A.19.CPM, and A.19.UNM. If the text decides whether a proposed operation application, run, or gate may proceed, move that decision to A.6.1 or the direct evaluation and gate pattern, including A.21/C.11 where applicable. A PrincipleFrame may state what a decision must respect, but it is not that admission decision. For ordinary reuse, apply the frame's Applicability and the direct subject rules for any reference-plane or model-use-structure question. When the receiving claim needs an exact semantic relation between two local senses whose interpretation bases differ, first recover the two exact F.17 local senses; cite an F.9 Bridge only if its direct predicate obtains and state the bounded-use claim, direction, preservation, loss, and any required reliance separately. Cited declarations remain independently identified objects, not extra PrincipleFrame identity components.
 
 State a relation between two signatures directly as refinement, conservative extension, equivalence, or another independently governed relation only when that relation's own predicate obtains. Before using the refinement label, compare all three reusable content duties: `Vocabulary`, `Laws`, and `Applicability`. Name the terms preserved, added, or removed; the laws preserved, strengthened, or changed; and whether the population, time, `CHR:ReferencePlane`, and claim scope stay the same, narrow, or widen. An unexplained applicability widening fails the refinement claim; use another direct relation whose predicate explicitly permits the widening instead of hiding it under `refinement`. Use a C.29 morphism only when a mathematical structure-preservation claim is actually current.
 
@@ -16482,7 +16469,7 @@ Make three decisions by naming the next sentence, comparison, tool, or declarati
 2. **Share one declaration.** Reuse or author a signature when the receiving use needs reusable participant meanings, vocabulary, laws or applicability. The declaration can be useful before a second consumer appears. For example, a staffing assertion and an F.6 Work-attribution consumer can cite the `MaintenanceInspectionAssignment` `RelationSignature` when both need its `HolderSystemSlot`, declaration-local `AssignedSystemRoleKindSlot` with `MaintenanceSystemRoleKindDomain` as ValueKind and `ByValue` as refMode, any real species-specific participants and the direct predicate. In `InspectionAssignment-17`, `InspectorSystemRole` is the assigned-kind participant value. Repeating the word `assigned` alone creates no declaration need. C.2.1 identifies an authored episteme through its claim content, EntityOfConcern and effective reference scheme; A.6.0 then judges signature membership.
 3. **Distinguish one occurrence.** Open occurrence identity only when a later claim must refer to that same occurrence, compare or qualify it, track its beginning, continuation, cessation, or change, or use it as a participant of another relation. For example, F.6 work attribution must cite the exact covering assignment episode, and a staffing history that compares Shift-17 with a later reassignment must apply A.2.1's uninterrupted-obtaining same-versus-new-occurrence rule. A roster-row identifier that merely designates an assertion identifies neither the assignment occurrence nor a new occurrence; use F.18 only after A.2.1 has distinguished the occurrence to which a reference should resolve.
 
-These are the `receiving-use` thresholds. They concern three different objects and are not stages that construct a relation or episteme from need. The stop is observable: the target direct assertion, shared declaration for the named consumers, or occurrence-referencing claim can be written without another unresolved object. That target motivates authoring, selection, reuse, or explicit individuation. Apply C.2.1 to episteme identity and the direct relation pattern to occurrence identity. Selecting or reusing an unchanged episteme leaves its identity unchanged. When entries, branches, returns, or stops form one reusable structure, apply A.22.CGUS only after the A.22 identity, local locus bindings, selected relations and constraints, and potential continuations are recoverable.
+These are the `receiving-use` thresholds. They concern three different objects and are not stages that construct a relation or episteme from need. The stop is observable: the target direct assertion, shared declaration for the named consumers, or occurrence-referencing claim can be written without another unresolved object. That target motivates authoring, selection, reuse, or explicit individuation. Apply C.2.1 to episteme identity and the direct relation pattern to occurrence identity. Selecting or reusing an unchanged episteme leaves its identity unchanged. When entries, branches, returns, or stops form one reusable structure, apply A.22.CGUS's formal qualification branch only after the A.22 identity, local locus bindings, selected relations and constraints, and potential continuations are recoverable.
 
 #### A.6.0:4.9 - Recover formal-substrate and PrincipleFrame uses by direct governing relation
 
@@ -16539,7 +16526,7 @@ During `AssessmentInterval_2026Q2`, learner `Learner_17` correctly diagnoses cav
 
 `Criterion_PumpCavitationDiagnosis_v3` is the reusable declaration governed here. Its `EntityOfConcernRef` identifies the pump-cavitation diagnosis criterion; `SubjectKind` names assessed pump-cavitation diagnostic performances and `RangedValueKind` names the results `meets` and `does not meet`. Vocabulary defines the cases, diagnosis, and corrective action; Laws say which observable response earns either result; Applicability limits the equipment family, task form, and assessment method. No current direct pattern supplies `DemonstratedCompetenceRelationKind`, so this case asserts neither that relation signature nor a world-side demonstrated-competence occurrence.
 
-For this bounded assessment use, the direct A.2.4/A.10 evidence-use relation names `PerformanceObservation_17A` as `EvidenceEpisteme`, the quoted competence claim as `EvidenceTargetClaim`, the two specified cases as `EvidenceClaimScope`, `supports` as `EvidencePolarity`, and `AssessmentInterval_2026Q2` as `EvidenceRelevanceWindow`. Its A.10 evidence-provenance path identifies the observation work, method, carrier, and assessor's relying context. That relation supports reliance on this exact competence claim; it does not authorize course progression. A self-report without that observation path, a performance on another task, or a performance outside the named interval does not support this bounded claim.
+For this bounded assessment use, the direct A.2.4/A.10 evidence-use relation names `PerformanceObservation_17A` as `EvidenceEpisteme`, the quoted competence claim as `EvidenceTargetClaim`, the two specified cases as `EvidenceClaimScope`, `supports` as `EvidencePolarity`, and `AssessmentInterval_2026Q2` as `EvidenceRelevanceWindow`. Its A.10 evidence-provenance path identifies the observation work, method, carrier, and assessor's relying context. That relation supports reliance on this exact competence claim; it does not authorize course progression. A self-report without that observation path, a performance on another task, or a performance outside the named interval does not by itself establish this bounded claim.
 
 Changing the publication form or making another publication occurrence for the unchanged criterion or competence assertion changes neither episteme. Changing the criterion's Vocabulary, Laws, or Applicability changes its claim content and identifies another declaration episteme; any edition or continuity relation must separately obtain. A new performance observation or assessor claim likewise identifies separate evidence or claim content rather than changing the criterion declaration.
 
@@ -16575,12 +16562,12 @@ The sentence `During Shift-17, Robot-7 is assigned as inspector through Inspecti
 - **Arch.** Favors a small declaration core with direct neighboring patterns. Counter-risk: the signature becomes a central container. Mitigation: keep realization, work, evaluation, and publication with their direct patterns.
 - **Onto-Epist.** Favors separation of declaration, subject, occurrence, assertion and representation. Counter-risk: excessive explicitness. Mitigation: keep the direct assertion unless the receiving use needs reusable declaration content or explicit occurrence identity.
 - **Prag.** Favors reusable named SlotSpecs and laws. Counter-risk: one-off work becomes formal paperwork. Mitigation: ordinary direct sentences remain sufficient.
-- **Did.** Favors the four content groups and local mantra. Counter-risk: readers treat the mnemonic order as a required execution order. Mitigation: apply A.22.CGUS only to an independently identified structure of potential continuations; actual execution remains a separate Work or Transformation claim.
+- **Did.** Favors the four content groups and local mantra. Counter-risk: readers treat the mnemonic order as a required execution order. Mitigation: use A.22.CGUS for a question about continuation conditions; actual execution remains a separate Work or Transformation claim.
 - **Context transport.** Interpret the signature's claims under the effective `ReferenceScheme` and use them within their stated scope. Counter-risk: the same label in another context is treated as equivalent or safely substitutable. Mitigation: when a proposed reuse relates two exact F.17 local senses, test the direct F.9 predicate and cite a Bridge only when it obtains; state direction, rule, tolerated loss, and polarity in a separate bounded-use claim. Without the needed semantic relation and use claim, do not transport the claim by label alone.
 - **Comparability.** Two declarations do not become comparable because both expose numbers. Counter-risk: numeric appearance hides incompatible characteristics, measurement procedures, units, scales, comparators, or normalization. Mitigation: apply the current A.17/A.18/C.16 characteristic, measurement, and unit-and-scale patterns and A.19.CPM/A.19.UNM comparison and normalization patterns as the case requires, then state the resulting comparison boundary; keep their detailed legality and result-shape rules with those subject patterns.
 - **Register.** Make technical declaration blocks and worked cases readable for their intended use. Counter-risk: a technically correct block remains unusable without private decoding. Mitigation: apply F.19's connected reading and local revalidation. Unpack decisive FPF terms or add an ordinary explanation only when needed to recover the claim or action and its relevant result; preserve the governed object, subject pattern, admissible use, and practical action.
 
-The examples deliberately span physical modeling, medicine, learning, and formal work. Each worked declaration has its own C.2.1 identity, which remains independent of its publication form.
+Each worked declaration has its own C.2.1 identity, which remains independent of its publication form.
 
 ### A.6.0:7 - Conformance Checklist
 
@@ -16596,7 +16583,7 @@ The examples deliberately span physical modeling, medicine, learning, and formal
 10. **Dependency truth.** Every import names the provider and exact term or law without which interpretation or law replay fails; every provide entry names a dependent declaration that relies on the introduced term or law. Citations and list order do not qualify. SM-1 through SM-4 hold, including E.5.3 acyclicity for explicit imports. A cycle in another semantic relation is judged under that relation's own governor.
 11. **Realization boundary.** Mechanism behavior and admission conditions remain with A.6.1.
 12. **Progressive elaboration.** A direct assertion suffices when the task only asks whether the predicate holds. A signature opens when a receiving use needs reusable declaration content. Occurrence identity opens for same-occurrence reference, comparison, qualification, history/change or relation participation. A log or assertion identifier alone opens none of them.
-13. **CGUS boundary.** Judge any condition-governed unfolding claim through A.22.CGUS, using the independently identified structure and continuation conditions stated in §4.
+13. **CGUS boundary.** Use the ordinary branch to clarify continuation conditions; continue to formal qualification only when a named later use needs structure identity or replayable results, using the structure and continuation conditions stated in §4.
 14. **Profile boundary.** FormalSubstrate and PrincipleFrame remain profiles of `U.Signature` rather than new root kinds. A PrincipleFrame names its postulates and the observable distinctions needed to check them, leaves operation and gate admission with their subject patterns, and uses F.9 for a relation between two exact F.17 local senses, citing a Bridge only when its direct predicate obtains.
 15. **Changed object.** Changed exact claim content carried by the ClaimGraph, exact EntityOfConcern, or effective reference scheme identifies another episteme. Judge A.6.0 membership for that episteme independently, and assert edition, refinement, supersession, or another continuity relation only when its own predicate obtains. A changed use, identifier, publication form, carrier, provider currentness, or G.11 refresh state does none of those things by itself.
 16. **F.19 self-application and reader use.** Apply F.19 by value to every materially changed technical declaration, mantra, checklist instruction, and worked case; revalidate the changed span with its meaning-dependent neighbours. The cold intended reader must be able to recover the same governed object, subject pattern, admissible use, and practical claim or action, including any result that changes that use. Keep ordinary technical wording when it already carries the needed distinctions; unpack terms or add an explanation only when recovery needs it. Use E.10:11 item 16 when the value-substitution question is selected. State a nearby non-use or contrasting case only when F.19:4's full guard test warrants it. A `Plain` label without that reader-visible recovery does not pass.
@@ -16611,8 +16598,8 @@ The examples deliberately span physical modeling, medicine, learning, and formal
 | Applicability as context label | One undefined context word hides reference scheme, claim scope, time, selected `CHR:ReferencePlane`, and model use. | Recover each current qualifier under its direct kind or relation. |
 | Citation as declaration dependency | A bibliography entry, shared term, or manifest row is treated as proof that one declaration depends on another. | Remove the candidate provider: if the consumer can still interpret every required term and replay every stated law, keep a citation rather than an import. Otherwise name the provider, exact term or law, direct dependency predicate, and named dependent use. |
 | Mandatory maximum form | Every sentence receives SlotSpecs, dependencies, editions, and occurrence records. | Name the receiving use and include only the declaration or occurrence-identity objects it needs. |
-| Mnemonic as executable sequence | Imperative wording is treated as a runnable continuation structure. | Keep it as Plain recall or declare the actual condition-governed structure with A.22.CGUS. |
-| PrincipleFrame as admission verdict | A postulate, invariant, measurement threshold, or comparator result is treated as permission for an operation, run, or gate to proceed. | Keep the postulate and observable distinction in the PrincipleFrame; cite the direct measurement or comparison declaration; use A.6.1 for operation admission and gate passage to A.21/C.11. |
+| Mnemonic as executable sequence | Imperative wording is treated as a runnable continuation structure. | Keep mnemonic wording as Plain recall. Use A.22.CGUS's ordinary branch to clarify continuation conditions; continue to formal qualification only when the receiving use needs structure identity or replayable results. |
+| PrincipleFrame as admission verdict | A postulate, invariant, measurement threshold, or comparator result is treated as permission for an operation, run, or gate to proceed. | Keep the postulate and observable distinction in the PrincipleFrame; cite any measurement or comparison declaration needed for that distinction; use A.6.1 for operation admission and A.21/C.11 for gate passage. |
 | Realization inside the declaration | Current mechanism behavior or test outcomes become signature laws. | Keep declared laws here; state the mechanism declaration or realization under A.6.1 and the evaluation claim under its direct evaluation pattern. |
 
 ### A.6.0:9 - Consequences
@@ -16662,7 +16649,7 @@ Sources:
 - W3C, [SHACL 1.2 Core](https://www.w3.org/TR/shacl12-core/).
 - Almeida, Guizzardi, Sales, and Fonseca, [gUFO: A Gentle Foundational Ontology for Semantic Web Knowledge Graphs](https://arxiv.org/abs/2603.20948).
 
-These sources test the separation among declaration, represented structure, realization, and use. FPF's constructive ontology, C.2.1 episteme identity, A.6.5 relation-slot discipline, A.6.1 operation declaration, and direct relation patterns remain authoritative for the solution.
+FPF's constructive ontology, C.2.1 episteme identity, A.6.5 relation-slot discipline, A.6.1 operation declaration, and direct relation patterns remain authoritative for the solution.
 
 ### A.6.0:12 - Relations
 
@@ -16684,7 +16671,6 @@ These sources test the separation among declaration, represented structure, real
 
 **Builds on.** A.6.0 for signature identity and content, C.2.1 for episteme identity, and A.2.6 for claim scope.
 
-**Coordinates with.** A.6.REL for relation occurrences, A.6.RCD for the lightest honest comparison claim, A.6.5 for RelationSignature SlotSpec discipline, C.3 for local operation ValueKinds, A.1 for holon recognition, A.3.1 for Methods, A.15.1 for performed Work, F.9 for exact cross-scheme sense correspondence, C.2.1 for the separate claim that one Bridge suits one bounded use, A.10 for ordinary reliance on that claim, B.3 only for an actual named assurance claim, CHR for selected `CHR:ReferencePlane` values, A.1.1 and A.22 for a selected `BoundedModelUseStructure`, C.29 for mathematical-lens use, E.20 for mechanism introduction, E.24.PUB for publication, A.22.CGUS for a constraint-governed potential-continuation structure and its separate case results, and G.11 for currentness.
 
 ### A.6.1:1 - Problem frame
 
@@ -16692,7 +16678,7 @@ An engineer needs a reusable declaration of operations, their typed argument and
 
 Use this pattern when the working question is:
 
-> What operation family is being declared, which laws govern it, and under which claim scope, time, selected `CHR:ReferencePlane`, and mechanism conditions may its operations be used?
+> What operation family is being declared, which laws govern it, and under which claim scope, time and mechanism conditions may its operations be used, including a selected `CHR:ReferencePlane` when that distinction is current?
 
 **Primary governed object.** One claim-bearing episteme being identified as `U.Mechanism`. Inside that episteme's C.2.1 identity, its exact `EntityOfConcernRef` identifies the declared operation family. `U.Mechanism` is a dependent durable U-kind governed through the `U.Signature` identity and content settlement; it adds operation and admission semantics to the reusable declaration. The episteme and the declared operation family remain distinct: the episteme carries the declaration, while `EntityOfConcernRef` identifies the family.
 
@@ -16729,7 +16715,7 @@ The repair is a small set of exact distinctions applied with progressive explici
 | Light use and typed reuse | One readable operation sentence is often enough, while repeated use may need exact argument and result declarations; a receiving claim about one use may additionally need a particular application and its bindings. |
 | Domain breadth and kind precision | The same form serves physical engineering, medicine, learning, and software without treating code or documents as the default object. |
 | Mathematical precision and ontology | Algebraic notation can expose preservation claims, but a mathematical lens does not decide the FPF kind by form. |
-| Recall and conditional structure | A short mantra helps a reader remember the distinctions; A.22.CGUS applies only when selected relations and constraints define one reusable structure with at least two potential continuations. |
+| Recall and conditional structure | A short mantra helps a reader remember the distinctions; use A.22.CGUS when available continuations and their conditions need clarification. |
 
 ### A.6.1:4 - Solution
 
@@ -16737,7 +16723,7 @@ Use `U.Mechanism` as the dependent durable U-kind for a reusable law-governed op
 
 **Local mechanism mantra.** *Name the operation family and subject. Declare exact arguments, results, application rules, laws, admission conditions, and applicability. Bind actual values only in one independently identified exact application. State a realization relation only when a named realizer satisfies its predicate. Keep method, work, evidence, description, and publication separate.*
 
-This mantra is Plain recall wording. Its imperatives summarize the distinctions; any prescribed order of performed work belongs to the direct method-description or work-plan pattern. Apply A.22.CGUS only when one independently identified A.22 structure has local loci and at least two potential continuations defined by selected relations and applied constraints. A post-qualification presentation may show one traversal as a separate `DemonstrativeUnfoldingSlice@Context`.
+This mantra is Plain recall wording. Its imperatives summarize the distinctions; any prescribed order of performed work belongs to the direct method-description or work-plan pattern. When a receiving question concerns available continuations and their conditions, use A.22.CGUS's ordinary branch. Continue to formal qualification only when a named later use needs structure identity or replayable results; then identify the A.22 structure, its local loci and at least two potential continuations under the selected relations and constraints. A post-qualification presentation may show one traversal as a separate `DemonstrativeUnfoldingSlice@Context`.
 
 #### A.6.1:4.1 - Admit and identify U.Mechanism
 
@@ -16847,7 +16833,7 @@ For example, let `BridgeDoseTerms-7` be the obtaining F.9 Bridge between exact c
 
 A changed effective `ReferenceScheme` identifies another mechanism episteme through C.2.1. A changed selected `CHR:ReferencePlane` reopens the exact CHR assertion; a changed `BoundedModelUseStructure` requires exact A.1.1/A.22 assertions. If the project also claims that a plane transition or model-use change relation occurred, name its admitted predicate and participants or stop that claim. For any comparison or change relation actually claimed, name its source and target objects, the comparison or relation asserted, and the meaning or structure it preserves and loses. Any reliability claim, including its Formality and Guarantee, remains under its direct reliability relation.
 
-Numeric comparison and aggregation use A.19 and the direct measurement and scale patterns. Orders are declared before arithmetic is applied, units are made compatible before values are combined, and any reduction to one score cites its governing scalarization relation.
+Use A.19 and the applicable measurement and scale patterns for numeric comparison or aggregation. Identify the permitted operations and any order they require before use, make units compatible where the operation requires it, and identify the governing scalarization relation for a reduction to one score.
 
 #### A.6.1:4.4 - Separate laws, admission, evaluation, and evidence
 
@@ -16855,7 +16841,7 @@ Numeric comparison and aggregation use A.19 and the direct measurement and scale
 
 A recognition-evaluation operation declares the finite result-value domain `true | false | unknown`. It returns `true` when its governed bound argument values determine that the candidate satisfies the selected world-side criterion, `false` when they determine that the candidate fails it, and `unknown` when missing evidence or an unavailable dependency prevents either determination. Here `unknown` means that the governed values determined neither satisfaction nor failure; the application may still be admitted and occur. Candidate status and any receiving-work disposition remain separately governed.
 
-World-side satisfaction or failure follows the direct criterion and candidate facts whether or not the project can currently determine them. Measurements, evidence, and assurance may support or warrant claims about those facts or about the returned judgment. If an exact evidence or interpretation-basis episteme is also a declared operation argument, its actual binding records only the application's use of that value under the declared argument meaning. Criterion satisfaction, evidence support or warrant, and candidate identity remain independently governed.
+World-side satisfaction or failure follows the direct criterion and candidate facts whether or not the project can currently determine them. Measurements, evidence, and assurance may support or warrant claims about those facts or about the returned judgment. If an exact evidence or interpretation-basis episteme is also a declared operation argument, its actual binding relates the application to that episteme as used under the declared argument meaning. Criterion satisfaction, evidence support or warrant, and candidate identity remain independently governed.
 
 A separately materialized evaluation-result or classification-assertion episteme remains under C.2.1. Its claim content may state the returned value, while exact evidence and assurance relations govern support or warrant and G.11 governs edition currentness. For this three-valued operation, neither the separately materialized episteme nor its currentness is the returned value itself. Thus a mechanism realization may obtain while current evidence is insufficient to rely on it, and an evaluation may return a value without changing mechanism identity.
 
@@ -16874,9 +16860,9 @@ An *operation-application binding* is an occurrence of one declaration-local bin
 
 One binding occurrence is identified by `<exactApplicationOccurrence, exactMechanismEpisteme, operationDesignator, argumentOrResultDesignator, exactBoundValue, maximalContinuousBindingExtent>`. The extent lies within the exact application extent; a result-binding extent cannot begin before that result is returned. Repeated applications remain distinct through their independently governed application identities, and the same value bound under two declaration-local meanings yields two distinct bindings. A declaration may state a different cardinality or binding-continuity rule only when that semantics is part of the exact operation declaration.
 
-The controlled phrase *operation-application binding* names only this family of declaration-local binding occurrences. Public work-participant, input, output, result, evidence, and production relations remain with their direct patterns. A result binding records the value the application returned. Production or entity-identity inception, a result episteme, and later reliance each require their own governing claims.
+The controlled phrase *operation-application binding* names only this family of declaration-local binding occurrences. Public work-participant, input, output, result, evidence, and production relations remain with their direct patterns. A result binding relates the application to the value it returned. Production or entity-identity inception, a result episteme, and later reliance each require their own governing claims.
 
-A dated performance is a separate Work individual. When a Work claim also relies on one already identified application and its bindings, recover each exact actual performer through A.13 and let A.15.1 independently admit `W : U.Work` from its performance history, temporal extent, at least one obtaining `enactsMethod -> U.Method` relation, and at least one obtaining locally declared Work-to-System containment relation with its exact boundary. Add the same obtaining A.13 assignment and F.6 `performedUnderAssignment(W, RA)` only when this application account or its receiving use expressly consumes precise assignment-bound attribution; then check holder equality and assignment coverage. F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. Add any additional enactment, work-to-referent, performed resource use, continuity policy, or Work-mereology relation only when the claim asserts it and its own predicate obtains. A.6.1 does not identify the Work occurrence. If no direct subject-relation rule or declaration-local binding rule is defined for the claimed participation at the required granularity, retain the exact missing-governor blocker. When a governing rule is present, state any known predicate failure or the missing case facts that leave the participation claim unresolved.
+Treat a claim about dated Work separately from the application and its bindings. When that Work claim is current, recover each actual performer under A.13 and establish Work admission under A.15.1. Use F.6 through the same obtaining A.13 assignment only when this account or its receiving use needs precise assignment-bound attribution. Missing or failed F.6 alone leaves independently admitted Work intact; recheck an admission premise only when the same finding questions it. Any additional enactment, participation, resource-use, continuity or Work-mereology claim needs its own obtaining predicate. For the claimed participation at the required granularity, distinguish a missing subject-relation or declaration-local binding rule, a known predicate failure and missing case facts.
 
 #### A.6.1:4.6 - State realization as a direct relation
 
@@ -16929,7 +16915,7 @@ State a mechanism-declaration comparison only when its predicate is defined and 
 | conservative extension | Adds exact operation declarations or declared optional arguments or results while preserving the meanings, application predicates, identity and extent rules, laws, and admitted uses of inherited operations. |
 | equivalence | Supplies an explicit mapping that preserves and reflects the selected operation declarations, argument and result meanings, binding meanings, application predicates, identity and extent rules, and law and admission structure. |
 
-These rows test declaration content; they do not admit a relation kind or occurrence. If the corpus already admits the exact comparison relation, use its direct pattern. If one case-specific comparison claim is enough, use A.6.RCD disposition 2 only after its exact claim subject, constructor, endpoint facts, and preservation facts are recoverable; otherwise return A.6.RCD's exact missing-substrate or missing-governor result. When the same predicate must be reused across cases, apply A.6.RCD's reusable predicate-definition branch. If a downstream use instead needs comparison occurrences with their own identity and no relation kind has been admitted, return `missing-governor[mechanism-comparison-occurrence]`; a label such as *refinement* or the adjective *direct* does not fill that gap.
+These rows test declaration content; they do not admit a relation kind or occurrence. If the corpus already admits the exact comparison relation, use its direct pattern. If one case-specific comparison claim is enough, use A.6.RCD disposition 2 only after its exact claim subject, constructor, endpoint facts, and preservation facts are recoverable; otherwise preserve the applicable A.6.RCD result, distinguishing missing case information from a missing governor or derivation substrate and from a factually unsupported claim. When the same predicate must be reused across cases, apply A.6.RCD's reusable predicate-definition branch. If a downstream use instead needs comparison occurrences with their own identity and no relation kind has been admitted, return `missing-governor[mechanism-comparison-occurrence]`; a label such as *refinement* or the adjective *direct* does not fill that gap.
 
 In every branch, identify the exact endpoint mechanism epistemes, their effective `ReferenceScheme` values, claim scope, comparison predicate, and preserved and changed semantic content. Changed C.2.1 identity discriminators identify another episteme. If historical continuation matters to the comparison or receiving use, test the separate `EpistemeEditionRelation(earlierMechanismEpisteme, laterMechanismEpisteme)` under C.2.1. The two endpoint epistemes remain distinct participants; refinement, extension, equivalence, a shared name, or a later date establishes neither that relation nor one continuing episteme.
 
@@ -16943,7 +16929,7 @@ When a quotient, product, categorical morphism or similar construction serves as
 
 `U.Mechanism` is already an episteme. A second episteme that explains, summarizes, or compares it is a C.2.1 meta-description whose `EntityOfConcernRef` identifies the mechanism episteme. A diagram, equation set, program, or table is a representation governed by A.6.3 and A.6.3.RT when representation transition matters. An E.24.PUB publication occurrence makes one selected episteme edition available for its declared audience and use. An independently identified physical or digital carrier bears the particular expression under `PublicationExpressionBearingRelation`. When that expression conforms to a selected reusable publication form, it also witnesses `PublicationFormBearingRelation`; the same expression must witness any form-mediated expression claim used with it to establish availability.
 
-A grouping of several mechanism epistemes and realizations may be selected as a `U.Structure` or shown through a `U.View` when that structure or view is current. The grouping does not admit another root kind by itself.
+A grouping of several mechanism epistemes and realizations may be selected as a `U.Structure` or shown through a `U.View` when that structure or view is current.
 
 #### A.6.1:4.10 - Use progressive explicitness
 
@@ -16955,7 +16941,7 @@ Choose the explicitness needed by the current question:
 - One particular application and its exact argument or result bindings are identified only when a downstream claim asserts that the application occurred or that one exact value participated or was returned.
 - A mechanism-realization relation occurrence is explicitly individuated only when another claim relies on that occurrence identity.
 
-These conditions govern different objects. If entries, branches, returns, or stops form one reusable structure, apply A.22.CGUS only after its A.22 identity, local loci, selected relations and constraints, and potential continuations are recoverable.
+These conditions govern different objects. If the receiving question concerns available continuations and their conditions, use the ordinary branch of A.22.CGUS. Continue to formal qualification only when the receiving use needs structure identity or replayable results.
 
 #### A.6.1:4.11 - Change the exact object that changed
 
@@ -16990,7 +16976,7 @@ A clinical team declares a dose-adjustment mechanism over one common patient sub
 
 Admission conditions state which measurements and qualification intervals make one calculation admissible. Applicability names the patient-population `U.ClaimScope`, qualification interval, selected `CHR:ReferencePlane` (normally `world` for the patient-side use claim), and clinical conditions under which the declaration is used.
 
-An exact claim-bearing clinical-protocol episteme is a `U.MethodDescription` only when it describes one admitted `U.Method` and satisfies A.3.2; its publication form and carrier remain separate. One clinician's treatment occurrence is work only when the A.15.1 occurrence basis obtains. Exact laboratory measurement values may be bound as arguments of one admitted calculation application, while the measurement and evidence relations that warrant their use remain separate. The returned dose-range binding records only the range returned by that application. A prescription and any materialized result episteme require their own governing claims.
+An exact claim-bearing clinical-protocol episteme is a `U.MethodDescription` only when it describes one admitted `U.Method` and satisfies A.3.2; its publication form and carrier remain separate. One clinician's treatment occurrence is work only when the A.15.1 occurrence basis obtains. Exact laboratory measurement values may be bound as arguments of one admitted calculation application, while the measurement and evidence relations that warrant their use remain separate. The dose-range result binding relates the application to the range it returned. A prescription and any materialized result episteme require their own governing claims.
 
 Practical payoff: protocol presentation, one treatment occurrence, and the declared calculation laws can change independently.
 
@@ -17014,7 +17000,7 @@ If a later claim needs this positive realization occurrence, its identity is `<F
 
 **Runtime contrast.** `FixtureSelectorRuntime-12-FastPath-E4 : U.System` exposes the same three operation names but accepts a loading-envelope comparison when `MeasurementQualificationCurrent` is false. It therefore bypasses one declared admission condition and does not realize `FixtureSelectionMechanism-E3` for that scope, even if its returned candidate set happens to match E3 in one run. A missing audit-log segment for E3 instead reopens evidence and warrant under A.10. Without demonstrated cessation or bypass, that gap does not make the world-side realization predicate false or split its occurrence, although the project may have to withhold its positive assertion until warrant recovers. Demonstrated cessation followed by later restored conformity would create a later maximal-continuous realization occurrence.
 
-Practical payoff: the team can replace the implementation without turning a scalar convenience score into the declared ordering law, and it can reject a look-alike implementation without rewriting the declaration.
+Practical payoff: the team can replace the implementation while preserving the declared partial-order law, and reject a look-alike implementation that fails the declaration's conditions.
 
 #### A.6.1:5.4 - FPF scope and normalization declarations
 
@@ -17058,7 +17044,7 @@ For this mechanism episteme, `ApplicationPredicate(P)` holds only when bounded e
 
 For the worked case, `Pump37RecognitionApplication-2026-07-21T100000Z` designates the evaluation act that began at 10:00:00 and returned at 10:00:04. It used `Pump_37_Ref -> Pump_37 : U.Entity`, admitted kind `U.System`, `A1-Holons-Criterion-E1_Ref`, `Pump37-Construction-Facts-E1_Ref`, `Pump37-Reidentification-Rule-E1_Ref`, and `Pump37-Interpretation-Basis-E1_Ref`. The six argument-binding predicates have maximal continuous extents from 10:00:00 through the terminal return. A required fastening-relation fact could not be resolved during this act, so the bound values could determine neither satisfaction nor failure. The act returned `unknown`; the extent of `recognitionJudgmentReturned(Pump37RecognitionApplication-2026-07-21T100000Z, unknown)` is the terminal return event at 10:00:04 and does not begin earlier. The application did occur; Pump #37's world-side satisfaction or failure did not change; and `unknown` is not an admission refusal.
 
-If the project also claims that dated classification Work occurred, first recover the exact actual performer `S : U.System` through A.13 and let A.15.1 independently admit a separate Work occurrence `W` from its performance history, temporal extent, at least one obtaining `enactsMethod -> U.Method` relation, and at least one obtaining locally declared containing-system relation with its exact boundary. Add the same obtaining A.13 assignment `RA` and F.6 `performedUnderAssignment(W, RA)` only when this classification-work claim or its receiving use expressly consumes precise assignment-bound attribution; then check `S = RA.HolderSystemSlot` and assignment coverage. F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves `W` intact. The candidate application binding above can establish Pump #37's participation in the application; add a separate work-to-candidate or resource-use claim only when its declared predicate obtains, and add `workContinuityPolicyRef` only when an identity or segmentation question needs it. Any materialized classification-assertion or evaluation-result episteme remains under C.2.1. Evidence and assurance support or warrant its claim content through their own relations, and G.11 tests edition currentness. That result binding records only the returned recognition judgment. Work and episteme identity, evidence and warrant, world-side criterion satisfaction, and B.2 whole reidentification each remain independently governed.
+If the project also claims dated classification Work, recover each actual performer under A.13 and establish Work admission under A.15.1. Use F.6 through the same obtaining A.13 assignment only when this claim or its receiving use needs precise assignment-bound attribution. Missing or failed F.6 alone leaves independently admitted Work intact; recheck an admission premise only when the same finding questions it. The candidate application binding above can establish Pump #37's participation in the application; add a separate work-to-candidate or resource-use claim only when its declared predicate obtains, and add `workContinuityPolicyRef` only when an identity or segmentation question needs it. Any materialized classification-assertion or evaluation-result episteme remains under C.2.1. Evidence and assurance support or warrant its claim content through their own relations, and G.11 tests edition currentness. The result binding relates this application to the judgment it returned. Work and episteme identity, evidence and warrant, world-side criterion satisfaction, and B.2 whole reidentification each remain independently governed.
 
 Practical payoff: another evaluation can reuse the same typed operation while binding another candidate or basis, and evidence loss can change the returned value to `unknown` without rewriting the candidate or criterion.
 
@@ -17070,7 +17056,7 @@ Practical payoff: another evaluation can reuse the same typed operation while bi
 - **Arch.** Favors separate declaration, realization, method, work, and publication relations. Counter-risk: too many linked objects. Mitigation: make an object's identity or a relation's obtaining explicit only when the current assertion or receiving use needs it.
 - **Onto-Epist.** Favors `U.Mechanism` as declaration episteme and preserves the direct kind of its subject and realizer. Counter-risk: the familiar word mechanism is overread as a machine part. Mitigation: the early object-and-relation guide and heterogeneous cases expose the distinction.
 - **Prag.** Favors explicit argument and result declarations, application rules, laws, admission conditions, and applicability. Counter-risk: formal apparatus outruns value. Mitigation: ordinary direct statements remain admissible, and an actual binding opens only when a downstream claim asserts which value participated or was returned.
-- **Did.** Favors a short mantra and concrete cases. Counter-risk: readers treat imperative recall as execution order. Mitigation: apply A.22.CGUS only to an independently identified potential-continuation structure and keep actual Work or Transformation separate.
+- **Did.** Favors a short mantra and concrete cases. Counter-risk: readers treat imperative recall as execution order. Mitigation: use A.22.CGUS for a question about continuation conditions, and keep actual Work or Transformation separate.
 
 ### A.6.1:7 - Conformance Checklist
 
@@ -17089,11 +17075,11 @@ Practical payoff: another evaluation can reuse the same typed operation while bi
 13. **Realization relation.** A realizer keeps its direct kind; the direct relation declares its participants, obtaining predicate, and maximal-continuous-interval identity rule.
 14. **Evaluation and evidence boundary.** Evidence availability can change evaluation or warrant without changing world-side satisfaction; an argument binding establishes use, not truth or warrant.
 15. **Method and work boundary.** Method, method description, work plan, dated work, actual application, and binding remain separately identifiable. A.6.1 defines neither dated-work identity nor work mereology.
-16. **Result boundary.** A result binding records the returned value. Production or entity-identity inception uses A.15.PROD; a materialized result episteme uses C.2.1.
+16. **Result boundary.** A result binding relates the application to the value it returned. Production or entity-identity inception uses A.15.PROD; a materialized result episteme uses C.2.1.
 17. **Mechanism comparison claims.** Every refinement, conservative-extension, or equivalence claim names exact endpoint mechanism epistemes, reference schemes, scope, predicate, and preserved and changed content. Historical continuation is stated only through a separately obtaining C.2.1 `EpistemeEditionRelation`; a comparison or shared label supplies none. The claim uses an already admitted direct relation, the applicable A.6.RCD branch, or the exact missing-governor stop. Generic mechanism `transport` is absent; exact cross-context `SchemeSenseCell` correspondence requires F.9.
 18. **Mathematical-lens boundary.** C.29 governs use of a mathematical object as a lens with selected preserved and lost structure. Mathematical notation or operand order alone does not open that use; a same-EntityOfConcern representation-scheme transition uses A.6.3.RT.
 19. **Progressive explicitness.** One-off direct use is not forced into a mechanism declaration or application-binding apparatus.
-20. **CGUS boundary.** Use A.22.CGUS only for a qualifying condition-governed continuation; mnemonic imperatives remain recall wording.
+20. **CGUS boundary.** Use the ordinary branch for a question about continuation conditions; continue to formal qualification only when a named later use needs structure identity or replayable results. Mnemonic imperatives remain recall wording.
 21. **Changed object.** Declaration, application, binding, realization, evaluation, evidence, work, representation, and publication changes return to the object that actually changed.
 
 ### A.6.1:8 - Common Failure Modes and Repairs
@@ -17109,8 +17095,8 @@ Practical payoff: another evaluation can reuse the same typed operation while bi
 | Evidence bound as an argument makes the criterion true. | Actual evidence use is confused with world-side satisfaction and warrant. | Keep the binding as an application-use fact; evaluate the direct criterion from governed candidate facts and state evidence or assurance relations separately. |
 | A returned value is called the entity produced by work. | Operation result binding is confused with production or entity-identity inception. | State only the returned-value binding; use A.15.PROD and the subject identity rule when production or inception is separately current. |
 | Applicability says only "in this context." | Reference scheme, claim scope, time, selected `CHR:ReferencePlane`, and conditions are hidden. | Recover each current value under its subject pattern and add a model-use structure only when its relations matter. |
-| F.9 is used for every reference-scheme, `CHR:ReferencePlane`, or model-use change. | Cross-context sense correspondence is collapsed with episteme identity and independently governed applicability or structure changes. | Apply the three-step split in 4.3: F.9 supplies only the exact `SchemeSenseCell` correspondence; a separate C.2.1 claim states whether that Bridge suits the named bounded use; then apply the ordinary A.10 or assurance-bearing B.3 branch selected there. Use C.2.1 for reference-scheme identity, the selected plane to CHR, and model-use organization to A.1.1/A.22. If an actual transition or use relation is asserted, name its predicate and participants or stop that claim. |
-| A graph or imperative list is called the executable mechanism. | Representation order is overread as condition-governed continuation. | Recover the declaration, realization, Method or WorkPlan, Work, or representation claim under §4.7. Use A.22.CGUS only when one independently identified A.22 structure has local loci and at least two potential continuations defined by selected relations and applied constraints. |
+| F.9 is used for every reference-scheme, `CHR:ReferencePlane`, or model-use change. | Cross-context sense correspondence is collapsed with episteme identity and independently governed applicability or structure changes. | Apply the three-step split in 4.3: F.9 supplies only the exact `SchemeSenseCell` correspondence; a separate C.2.1 claim states whether that Bridge suits the named bounded use; then apply the ordinary A.10 or assurance-bearing B.3 branch selected there. Use C.2.1 for reference-scheme identity, the applicable CHR pattern for the selected plane, and A.1.1/A.22 for model-use organization. If an actual transition or use relation is asserted, name its predicate and participants or stop that claim. |
+| A graph or imperative list is called the executable mechanism. | Representation order is overread as condition-governed continuation. | Recover the declaration, realization, Method or WorkPlan, Work, or representation claim under §4.7. If available continuations or their conditions remain unclear, use A.22.CGUS's ordinary branch; continue to formal qualification only when the receiving use needs structure identity or replayable results. |
 | An evaluation result changes mechanism identity. | Support for a claim is confused with declaration content. | Repair evaluation, binding, or evidence; revise the mechanism only when semantic content changed. |
 | A comparison returns one score from incomparable values. | Scalarization has replaced the declared order and scale relations. | Return the admissible set or cite the exact scorer and comparison pattern that defines or constrains reduction. |
 | A declaration materializes every optional component and neighboring relation before a receiving use needs them. | Apparatus completeness is substituting for use-value and blurring the mechanism boundary. | Add only the content needed to define the reusable operation family. Add a neighboring application, binding, dependency, Bridge, evaluation, evidence-use, or realization claim only when that exact occurrence or dependency is asserted and its own rule passes. |
@@ -17142,7 +17128,7 @@ The actual application and each binding are separate because the stable declarat
 
 The realization relation is separate because several entities can realize the same declaration and one entity can realize it only for a bounded scope and interval. Evidence can change without changing that world-side or semantic relation. This keeps mechanism evolution local and makes failure diagnosis practical.
 
-The practitioner begins with the operation question and adds typed content when reuse needs it. The mantra summarizes these distinctions. A.22.CGUS applies to an independently identified structure of potential continuations; an enabled continuation, a Work occurrence and an actual Transformation remain separate.
+The practitioner begins with the operation question and adds typed content when reuse needs it. The mantra summarizes these distinctions. A.22.CGUS can clarify continuation conditions; formal qualification is conditional on a later use needing structure identity or replayable results. An enabled continuation, a Work occurrence and an actual Transformation remain separate.
 
 ### A.6.1:11 - SoTA-Echoing
 
@@ -17163,7 +17149,7 @@ The practitioner begins with the operation question and adds typed content when 
 
 #### A.6.1:12.1 - Transformation-flow use
 
-When E.18.1 reaches a mechanism question, A.6.1 supplies the reusable operation declaration and any current exact application, application binding, or realization relation. E.18.1 then carries that governed object to the next locus. Method selection, performed Work, evaluation and evidence, and gate passage retain their direct governors.
+When an E.18.1 question concerns a mechanism, use A.6.1 to obtain the needed declaration, application, binding or realization result, or its exact stop. Return that result or stop to the receiving decision or use; select any further question from what remains needed there. Method selection, performed Work, evaluation and evidence, and gate passage retain their direct governors.
 
 When selected relations and applied constraints connect signature, mechanism, method, Work, and evaluation constituents into one independently identified A.22 structure with local loci and at least two potential continuations, apply A.22.CGUS to that structure. A presentation of one traversal through a qualified CGUS is a separate demonstrative slice. The local mechanism mantra remains Plain mnemonic wording unless that wider structure actually qualifies and the later presentation is about it.
 
@@ -17215,7 +17201,7 @@ FPF repeatedly needs to relate one exact episteme to another, often alongside a 
 * turning an informal method description into a more formal specification;
 * projecting a large system description into a smaller “for‑safety‑officer” view;
 * re‑expressing the same behavioural model in a different calculus or notation;
-* relating an analysis about one subsystem to an analysis about another, with the separate bounded-use assertion and current-case judgement required by A.6.4.
+* relating an analysis about one subsystem to an analysis about another; use A.6.4 for a claimed receiving use and for judging a current case against its bounded-use assertion.
 
 All of these can be described by **episteme-to-episteme mathematical arrows**. The arrow relates exact epistemes and states its laws; it does not itself change an episteme, measure, execute, or actuate. Any operation application and Work remain separate.
 
@@ -17241,15 +17227,15 @@ Concretely, without EFEM:
 4. **Slot/Ref confusion.**
    C.2.1 identifies an episteme through exact claim content, one exact EntityOfConcern, and one effective ReferenceScheme. A.6.5 SlotSpecs apply only inside an exact reusable relation declaration. Laws for projection or retargeting that rely on unnamed fields or tuple positions therefore hide which parts of the source and receiving epistemes are being compared and which separately obtaining facts the rule reads.
 
-The result: engineers and tool builders can no longer tell whether a mathematical relation keeps the same EntityOfConcern, identifies a different receiving one, or merely accompanies an operation. When the endpoints concern different entities, they also need a separate A.6.4 bounded-use assertion and a current-case judgement of whether the exact facts satisfy it.
+The result: engineers and tool builders can no longer tell whether a mathematical relation keeps the same EntityOfConcern, identifies a different receiving one, or merely accompanies an operation. For a receiving-use claim about an arrow whose endpoints concern different entities, state the separate A.6.4 bounded-use assertion. When judging a current case, compare its exact facts with that assertion.
 
 ### A.6.2:3 - Forces
 
 * **Epistemic purity vs operational power.**
-  Effect-free episteme arrows are useful because their laws can be reasoned about algebraically and composed. If a use needs I/O, solver calls, measurements, or another effect, identify the operation application and Work separately instead of giving that activity to the arrow.
+  Effect-free episteme arrows are useful because their laws can be reasoned about algebraically and composed. If a use needs I/O, solver calls, measurements, or another effect, describe the needed activity separately. Identify any actual A.6.1 application when its declaration applies and any `U.Work` only under its independent admission conditions.
 
 * **Preserve vs retarget.**
-  A viewing arrow has endpoint epistemes with the same EntityOfConcern; a retargeting arrow has independently different ones. A separate A.6.4 bounded-use assertion states the invariant, visible loss, receiving use, conditions, and affirmative or negative polarity. A current-case judgement separately reports `satisfies`, `fails`, or `cannot decide` from exact facts.
+  A viewing arrow has endpoint epistemes with the same EntityOfConcern; a retargeting arrow has independently different ones. For a claimed receiving use, a separate A.6.4 bounded-use assertion states the invariant, visible loss, receiving use, conditions, and affirmative or negative polarity. When a current case is judged, compare its exact facts with that assertion and report `satisfies`, `fails`, or `cannot decide`.
 
 * **Conservativity vs usefulness.**
   EFEM should be **conservative**: no new commitments about the EntityOfConcern beyond what the identified source ClaimGraphs and exact admitted facts license under the named schemes. The receiving ClaimGraph may factor, aggregate, normalize, or re-express source content and may use a different representation when the loss and interpretation rule are explicit. Any operation or Work that produces that receiving episteme remains separate.
@@ -17286,7 +17272,7 @@ The ordinary FPF objects remain separate:
 * a current-case judgement separately compares exact facts with `q` and returns `satisfies`, `fails`, or `cannot decide`;
 * an operation application and any Work that computes, authors, or changes an episteme are identified only when they actually occur.
 
-The A.6.3 viewing branch has endpoint epistemes about the same EntityOfConcern. The A.6.4 retargeting branch has endpoints about independently different entities and adds the separate bounded-use assertion `q` and current-case judgement defined above.
+The A.6.3 viewing branch has endpoint epistemes about the same EntityOfConcern. The A.6.4 retargeting branch has endpoints about independently different entities. A receiving-use claim adds the separate bounded-use assertion `q`; a judgement about a current case tests its facts against `q`.
 
 #### A.6.2:4.2 - Direct signature components (A.6.0 alignment)
 
@@ -17372,7 +17358,7 @@ An EFEM arrow may omit claims or conservatively reorganize and re-express them. 
 
 A separately obtaining edition, provenance, evidence, or status relation remains outside episteme identity. If the arrow family compares such a relation across X and Y, name the exact predicate and participants on each side. The arrow records that comparison; it does not create or update the relation. If Y asserts the relation, that assertion is identity-bearing `content_Y` and must pass the same source-to-result trace as every other assertion.
 
-Where `entityOfConcernChangeMode(f) = retarget`, the arrow declaration states its formal cross-entity correspondence; it does not itself establish conservativity for a receiving use. A separate A.6.4 bounded-use assertion `q` states the invariant, visible loss, receiving use, conditions, and polarity, and a current-case judgement separately tests the exact facts. An ordinary time-to-frequency representation of the same signal instead routes through A.6.3.RT; apply C.29 when the case also makes a mathematical-lens-use claim. A Fourier relation enters a retargeting case only after C.2.1 independently identifies a different receiving EntityOfConcern.
+Where `entityOfConcernChangeMode(f) = retarget`, the arrow declaration states its formal cross-entity correspondence; it does not itself establish conservativity for a receiving use. For a claimed receiving use, a separate A.6.4 bounded-use assertion `q` states the invariant, visible loss, receiving use, conditions, and polarity. When judging a current case, test its exact facts against `q`. An ordinary time-to-frequency representation of the same signal instead routes through A.6.3.RT; apply C.29 when the case also makes a mathematical-lens-use claim. A Fourier relation enters a retargeting case only after C.2.1 independently identifies a different receiving EntityOfConcern.
 
 ##### A.6.2:4.3.4 - P3 — Category structure and EntityOfConcern mapping
 
@@ -17412,7 +17398,7 @@ On objects, `α(X)` is the exact EntityOfConcern resolved through `entityOfConce
 
    A preserve-only or retarget-only subtype is not thereby closed under parent composition. A composite remains in that subtype only when its final mode and all additional subtype laws match; otherwise it remains an EFEM arrow in the parent class. When a receiving-use claim is made, a separate `q` states the final-use invariant, accumulated visible loss, receiving use, conditions, and polarity; a separate current-case judgement tests the final facts.
 
-3. **Scheme-aware composition.** If endpoint RepresentationSchemes or effective ReferenceSchemes differ, name the exact correspondence used by each route under its direct governor and state the equality or declared equivalence that makes the two routes agree. A.6.3.RT governs a same-EntityOfConcern representation-scheme transition; C.29 governs any mathematical-lens use. A scheme difference alone establishes neither. Use `natural`, `oplax`, or similar terminology only when the substrate supplies the actual mapping, comparison arrow, diagram, and working probe. Otherwise state the required two-route agreement in ordinary language. Any witness episteme remains separately identified.
+3. **Scheme-aware composition.** If endpoint RepresentationSchemes or effective ReferenceSchemes differ, name the exact correspondence used by each route under its direct governor and state the equality or declared equivalence that makes the two routes agree. A.6.3.RT governs a same-EntityOfConcern representation-scheme transition; C.29 governs any mathematical-lens use. A scheme difference alone establishes neither. Use `natural`, `oplax`, or similar terminology only when the substrate supplies the mappings and comparison structure required by that term and the claimed laws are established by a proof or an applicable formal check. Otherwise state the required two-route agreement in ordinary language. Any witness episteme remains separately identified.
 
 ##### A.6.2:4.3.5 - P4 — Arrow and repeat boundary
 
@@ -17439,12 +17425,12 @@ The examples below show how EFEM is intended to be used across the EntityOfConce
 
 #### A.6.2:5.1 - Typed specification-use refinement `Specify_DescEp_SpecDesc` (species of EFEM)
 
-*Context.* You have a `U.MethodDescription` for a safety check and want a more formal `U.MethodSpec` with checkable constraints or test-harness obligations about the same Method. Before calling the relation conservative, identify the exact claims that already support those constraints.
+*Context.* You have a `U.MethodDescription` for a safety check and want a more formal description of the same Method for a named specification use, with checkable constraints or test-harness obligations. Before calling the relation conservative, identify the exact claims that already support those constraints.
 
 *Shape.*
 
 * Domain: exact episteme `X : U.MethodDescription` with `entityOfConcernRef(X) : U.MethodRef`, its complete content `content_D = content(X)`, and effective rules `scheme_D = referenceScheme(X)`; when the named engineering validation use selects viewpoint P, identify that selection separately.
-* Codomain: exact episteme `Y : U.MethodSpec` concerning the same Method, with `content_S = content(Y)` and `scheme_S = referenceScheme(Y)`. Recover whether the effective rules stay the same or change; writing an existing rule more explicitly does not itself change it. If the same named validation use continues, it preserves its selected viewpoint P separately.
+* Codomain: exact episteme Y concerning the same Method and admitted for the named specification use, with `content_S = content(Y)` and `scheme_S = referenceScheme(Y)`. Recover whether the effective rules stay the same or change; writing an existing rule more explicitly does not itself change it. If the same named validation use continues, it preserves its selected viewpoint P separately.
 
 The suffixes D and S distinguish these endpoint values. They declare no constituent kinds. Judge endpoint admissibility under the relevant description and specification-use criteria, compare complete identity under C.2.1, and test P2 separately. A checkable new requirement can satisfy the receiving specification-use conditions while changing the episteme and failing conservativity.
 
@@ -17452,7 +17438,7 @@ The suffixes D and S distinguish these endpoint values. They declare no constitu
 
 * `entityOfConcernChangeMode(Specify_DescEp_SpecDesc) = preserve`. The shared Method establishes endpoint EntityOfConcern equality; the Method entity itself is not a logical premise.
 * P1 — effect-free: it is the declared arrow between the two epistemes; any operation application that produces Y is separate.
-* P2 — conservative: every behavioral claim, constraint, and test obligation in Y traces to exact claims in X, an additional named source episteme, or an independently current fact under its named relation and effective scheme.
+* P2 — conservative: every assertion in Y, including behavioral claims, constraints, and test obligations, traces to exact claims in X, an additional named source episteme, or an independently current fact under its named relation and effective scheme.
 * P3-P5 — category structure and scope: the declared arrows compose only when their exact endpoints and P3 mappings agree. P5 includes the named engineering scope, operating conditions, effective scheme, or selected viewpoint in the formal domain only insofar as the arrow law depends on them. Keep separately any such condition or viewpoint that changes the named validation or receiving-use claim.
 
 If an author chooses a new threshold, acceptance condition, harness obligation, or other commitment not supported by that basis, Y has been strengthened and the proposed arrow fails P2. Identify the new assertion in Y's changed ClaimGraph. When a particular application or Work accounts for that strengthening, identify that occurrence and the direct production relation separately. The new assertion remains outside the conservative arrow; the application, Work, and production relation account for its origin.
@@ -17486,8 +17472,8 @@ MVPK can reuse the EFEM laws for these normalization arrows. Claim the relevant 
 Inside EFEM, this becomes a species with `entityOfConcernChangeMode = retarget`:
 * the source episteme describes the physical assembly `S₁`;
 * the receiving episteme describes the independently identified functional network `S₂`;
-* one exact arrow `r` relates the two endpoint epistemes under its declared formal rule; a separate A.6.4 assertion `q` states the invariant, visible loss, bounded receiving use, conditions, and polarity; and a current-case judgement separately tests the exact facts;
-* P2 checks only the formal consequence relation declared for `r`; the ordinary current-case judgement tests the exact facts against `q`, and A.20 enters only when that proposition is an internal constraint.
+* one exact arrow `r` relates the two endpoint epistemes under its declared formal rule; for a claimed receiving use, a separate A.6.4 assertion `q` states the invariant, visible loss, bounded receiving use, conditions, and polarity; when a current case is judged, its exact facts are tested against `q`;
+* P2 checks only the formal consequence relation declared for `r`; when a current case is judged, the ordinary judgement tests its exact facts against `q`, and A.20 enters only when that proposition is an internal constraint.
 
 The details belong to A.6.4 and E.18; EFEM provides the generic discipline.
 
@@ -17513,13 +17499,13 @@ Two typical EFEM species over this kind are:
 * `Normalize_EngView` — a family of view-normalisation EFEM arrows `n_X : X -> Y` between exact `U.View` epistemes (again with `EntityOfConcernChangeMode = preserve`) that:
   * states how the formal relation uses the three C.2.1 identity values and makes the exact source-to-receiving ClaimGraph difference explicit; any difference between separately obtaining endpoint facts that it compares is named by the exact predicate and participants, and any normalization application remains separate;
   * is effect-free. A repeat claim identifies the next arrow `n_Y : Y -> Z` under the same rules, establishes `Z = Y` under C.2.1, and witnesses `compose(n_Y, n_X) ≃ n_X` under the declared arrow equivalence, as in §5.2;
-  * is conservative (P2) by construction: it never introduces new atoms about the selected system.
+  * is conservative (P2): every assertion in Y is recoverable from the identified source ClaimGraphs and admitted facts under the declared schemes, including any assertion about edition, provenance, or evidence.
 
 Concrete `A.6.3/A.6.4/E.17.*` patterns for engineering description and specification-use idioms state explicitly, under C.2.1:7.1 and `CC-EFEM.*`, which of the three C.2.1 endpoint values remain the same or differ and which exact separately obtaining relation occurrences their arrow rules read or compare.
 
 ### A.6.2:6 - Bias-Annotation
 
-* **Episteme‑first, world‑second.** EFEM relates epistemes as mathematical objects. For measurement or execution, identify the capable system, the A.6.1 application when current, the Work it performs, the resulting episteme, and any production relation separately.
+* **Episteme-first, world-second.** EFEM relates epistemes as mathematical objects. For a claim about actual measurement or execution, identify the capable system, the A.6.1 application when its declaration applies, any independently admitted Work, and any resulting episteme or obtaining production relation separately.
 
 * **Actual values, not unnamed fields.** Laws name the exact claim content, EntityOfConcern, and effective ReferenceScheme they use and keep empirical grounding, representation, view conformance, and describing-use viewpoint selection separate. A SlotKind is mentioned only when the exact reusable relation declaration is current.
 
@@ -17538,7 +17524,7 @@ Concrete `A.6.3/A.6.4/E.17.*` patterns for engineering description and specifica
 | **CC‑EFEM.5 (Category structure and repeat claims).** | Each arrow family names its exact endpoints, arrow rule or designator, declared equivalence, identity and composition conditions. Claim category `Ep` and mapping `α` only when identities and every matching composition close. The resolved endpoint EntitiesOfConcern uniquely determine the thin-base arrow `α(f)`, but they do not identify f itself. A retargeting round trip maps to the thin-base identity and is reclassified from its final endpoints. Idempotence or another self-composition claim requires an endomorphism whose declared domain makes composition meaningful, with its equivalence and witness stated. The normalization repeat claim in §5.2 instead names successive composable arrows and witnesses its stated endpoint equality and composite equivalence. Any evaluation operation, deterministic-execution claim, or repeat claim about an operation application is separate and follows that operation's rule. |
 | **CC‑EFEM.6 (Formal domain and separate use conditions).** | Each arrow family SHALL state its allowed endpoint EntityOfConcern kinds, any endpoint facts or grounding relations its formal rule reads, admitted schemes and correspondences, and any ClaimScope constraint required by the arrow law. When a receiving-use claim is made, use-specific scope, operating conditions, or selected viewpoint enter `q` only when they change its invariant, visible loss, receiving use, or conditions; `q` carries polarity, and the separate current-case judgement tests exact facts. When the use also relies on an obtaining Bridge between two exact F.17 local senses, cite F.9 and its separate bounded-use claim; when it crosses a ReferencePlane, cite the applicable plane relation. No context, scheme, plane, or operating-condition difference creates either relation automatically. |
 | **CC‑EFEM.7 (Description and specification-use discipline).** | For any `...Description` or `...Spec` episteme, identify exact E and its EntityOfConcern under C.2.1; admit specification use only under E.10.D2; and state which endpoint claim content, EntityOfConcern, and effective scheme are preserved or differ. Name any grounding occurrence and describing-use viewpoint qualification separately and compare only the facts the rule actually reads. Any occurrence change follows its direct relation pattern; viewpoint selection and E.17.0 conformance require their own claims. |
-| **CC-EFEM.8 (Endpoint-value and relation-read declaration).** | Any EFEM species SHALL declare its morphism family and change mode and compare the three C.2.1 endpoint identity values. It SHALL name every empirical-grounding, representation, or conformance occurrence and every describing-use viewpoint qualification that its rule reads, together with the endpoint facts compared. Those occurrences retain their separately governed current values. Any actual relation change follows its direct pattern, and any producing activity follows its exact application and Work. |
+| **CC-EFEM.8 (Endpoint-value and relation-read declaration).** | Any EFEM species SHALL declare its morphism family and change mode and compare the three C.2.1 endpoint identity values. It SHALL name every empirical-grounding, representation, or conformance occurrence and every describing-use viewpoint qualification that its rule reads, together with the endpoint facts compared. Those occurrences retain their separately governed current values. Any actual relation change follows its direct pattern. Any producing activity remains separate; identify an A.6.1 application when that declaration applies and any Work under its independent admission conditions. |
 
 ### A.6.2:7.1 - Common Anti-Patterns and How to Avoid Them
 
@@ -17546,7 +17532,7 @@ Concrete `A.6.3/A.6.4/E.17.*` patterns for engineering description and specifica
 |---|---|---|
 | EFEM as performed work | An episteme rewrite is treated as measurement, actuation, or work occurrence. | Use EFEM only for episteme-to-episteme morphisms; use A.15 when work in the world is current. |
 | EFEM as publication rendering | A face, carrier, or rendering change is treated as the episteme morphism itself. | Use E.17 for publication forms and use EFEM only for the episteme relation being represented. |
-| Retargeting as harmless view | Endpoint epistemes concern different entities, but the bounded-use proposition or current case remains unstated. | Identify the A.6.4 arrow; write `q` with its invariant, visible loss, use, conditions, and polarity; then report the current-case judgement from exact facts. Add F.9 only for a separate local-sense relation. |
+| Retargeting as harmless view | Endpoint EntitiesOfConcern differ, but the relation is classified as preserving their identity. | Identify the retargeting arrow under A.6.4. For a named receiving-use claim, state `q` with its invariant, visible loss, use, conditions, and polarity; when judging a current case, test its exact facts against `q`. Add F.9 only for a separate local-sense relation. |
 | Representation lens as ontology | A category arrow, graph, or mapping notation is treated as a new root U-kind. | Keep the mathematical object in its selected formal substrate; use C.29 when that object is used as a mathematical lens. Keep U-kind settlement in E.24/C.3. |
 
 ### A.6.2:9 - Consequences
@@ -17555,7 +17541,7 @@ Concrete `A.6.3/A.6.4/E.17.*` patterns for engineering description and specifica
   Effect-free arrow families used across KD‑CAL, MVPK, E.18, and discipline packs can reuse one local law set instead of re-inventing it. Each actual application and use claim remains separate.
 
 * **Clear separation from mechanisms & work.**
-  Measurement, execution, and simulation require a capable system, the applicable A.6.1 operation application when current, and performed `U.Work`; identify any resulting episteme and production relation separately. EFEM remains effect-free and compositional. Any semantic correspondence, temporal qualification, evidence, or reliance claim remains under its own pattern.
+  For actual measurement, execution, or simulation, identify the capable system, any A.6.1 application whose declaration applies, and any independently admitted `U.Work`; identify any resulting episteme and obtaining production relation separately. EFEM remains effect-free and compositional. Any semantic correspondence, temporal qualification, evidence, or reliance claim remains under its own pattern.
 
 * **Stable backbone for Viewing & Retargeting.**
   A.6.3 and A.6.4 do not need to repeat P0–P5; they specialise EFEM with additional constraints (preserve/retarget). Other patterns (e.g. MultiViewDescribing, MVPK, E.18 structural reinterpretation) can depend on EFEM as a stable base.
@@ -46303,7 +46289,7 @@ Use this pattern when an engineer or researcher has a question, surprising resul
 
 When work continues without a question because its outcomes are treated as ordinary, B.5.PI provides an earlier entry. An ordinary handover or demonstration can yield a question or an early cue without an already recognized anomaly. Use that contribution here when reasoning can take it further.
 
-**First useful move.** State what you want to understand or make possible. Ask whether an available result already answers that question. If it does not, name the missing result and try one operation that could obtain it. Return what that operation established and the next question, if one remains.
+**First useful move.** State what you want to understand or make possible. Ask whether an available result already answers that question. If it does not, name the missing result and try one operation that could obtain it. Return what that operation established and the next question, if one remains. If the needed distinction or possible continuation is itself unknown, §4.1.2 explains how to develop that basis from accessible material before comparing inquiries.
 
 For example: “We need the highest component temperature, but our model reports a mean. Two states with the same mean can have different maxima. Next, determine which temperature differences this arrangement admits.” This already redirects the inquiry before another model fit.
 
@@ -46368,6 +46354,45 @@ When the situation has no usable model yet, begin with the contrast the answer m
 4. **Challenge a consequential choice.** Ask what observation, omitted interaction or changed condition could defeat the answer. Compare a plausible alternative when the observations leave materially different explanations. Revise the model or obtain the missing observation when that difference matters.
 
 Return the provisional model and what follows under its assumptions. If a missing domain account or formal construction prevents the next contribution, use A.15.9 to request that specific help from the working description. Section 5.6 shows this entry before a heat-transfer calculation has been formulated. **B.5.FM** shows how to choose the model's participants and relations and use them to derive a consequence, in physical and formal problems.
+
+##### B.5:4.1.2 - Find useful questions and possible actions from incomplete information
+
+Sometimes neither the decisive distinction nor a useful set of alternatives is known. Asking which answer would change the work then leaves the practitioner to invent the very basis they need. Begin with something accessible: an episode of work, an artifact, an observation, a source argument, a proposed use or an available capability. The first result can be a better question or a conditional account. It need not be a forecast of the eventual discovery.
+
+The connection is constructive. Material lets the practitioner propose participants and relations; following a relation yields a consequence; a contrast or trial challenges that consequence; the changed account makes further inquiries or actions expressible. Their conditions and significance can then be examined. A new finding can return the work to any earlier contribution. Use an adequate supplied result at its point of entry instead of reproducing the whole connection.
+
+**Begin by examining an accessible case or source.** State the current purpose as far as it is understood: what is to be explained, used, made possible or explored? Keep that purpose revisable. Choose a suitable way to examine how the subject works, for example:
+
+- Follow one actual episode. Observe what arrives, what participants do or change, what result leaves, and how someone uses it. Ask about the adjustments that made the episode work. B.5.PI develops this examination of ongoing work before a problem is felt.
+- Recover the operation behind an existing answer, design or source example. Find what it takes as given, what it does with that input and what its result establishes. Work a small application through §4.3 or B.5.TU. A hidden assumption may become visible before its practical significance is known.
+- Try a proposed use, or reason forward from an available capability. Identify the interaction by which it could produce an effect. Reason back from that effect to the contributions it would require. The two directions can revise both the intended use and the proposed means; neither needs a complete future plan.
+- Where the subject is unfamiliar, inspect a representative case with a practitioner or seek an explanatory source through F.1. Ask for help identifying what happens and which distinctions the practice uses. A request to help formulate the question is legitimate before a request for a specific answer is possible.
+
+Choose an initial examination because the material and the way of examining it are accessible and relevant to the present purpose. Compare the kind of understanding it could produce and its burden with a smaller examination or use of an adequate existing answer. The particular finding need not be known before this exploration begins.
+
+Separate what was observed or supplied from the interpretation being proposed. A source description says what its author asserts; observing one episode says what happened there. A theory, calculation or domain Method supplies candidate relations and conditions for inference. None of these alone establishes that the same relation holds throughout a wider proposed use.
+
+**Make a relation do work.** Use B.5.FM to distinguish the participants and propose how they are related. Explain a local transition: this operation needs that input; this quantity changes that effect under these conditions; this person's contribution makes that next operation possible. Use subject knowledge to justify the transition. Where it is missing, retain a question for observation, a source or a qualified contributor. Naming two boxes or drawing an arrow does not supply their relation.
+
+Follow one relation to a small consequence, and use that consequence to seek a revealing contrast. For example, a calculation may assume a constant load, a handover may require a readable representation, or an experiment may rely on a measurement remaining comparable. The relation tells the practitioner what to vary or inspect. Trace what would follow with and without that premise, or compare two actual episodes in which it differs. Show the intermediate reason for any different result. A thought experiment creates a conditional implication; establish which conditions actually obtain through the appropriate subject inquiry.
+
+A useful contrast can also come from a failed attempt, an unfamiliar use, another participant's interpretation or two cases that the current representation merges. A relevant conceptual scheme or mantra can direct attention to such relations before anyone feels a problem. Apply its substantive questions to the available case; an empty slot in a scheme is not evidence of a defect. When neither a consequence nor a useful contrast can yet be constructed, return to a smaller case, another representation or subject assistance. Guessing possible answers does not replace that missing work.
+
+**Work out which inquiries and actions the revised account makes possible.** Keep four things distinguishable when they matter: an alternative action, an uncertain condition, a consequence under that condition, and an action chosen after an observation. They can be connected, but they are different answers. A participant being available is a condition; requesting their help is an action; a qualified answer is a possible result; changing the later choice in response is a further conditional action.
+
+To identify a possible next inquiry or action, find an operation or inference for which the present account supplies the needed input. Establish what its result would answer or enable for the original purpose. Alternatively, work back from a desired result and use C.39 to develop a missing operation or a way to connect operations. Compare retaining the present way, revising an assumption in the account, changing the corresponding condition in the situation, using another available means or obtaining the specific missing contribution. A changed operation can create an option that did not previously exist; it need not merely reveal which predetermined future will occur. B.5.QD and C.40.CD develop the question and the way together when either changes.
+
+Qualify a proposed continuation at the condition that remains unresolved. Its logical consequence may be established while feasibility, a person's agreement or applicability to the actual situation remains unknown. Distinguish an unknown condition of an already described continuation from not yet having a way to construct a useful continuation. The second calls for further construction, description or help; labeling it “unknown” does not perform that work. Several compatible contributions can be needed together. Do not turn them into mutually exclusive branches merely to draw a tree.
+
+**Establish what the new distinction changes and choose the next attainable result.** Return the new distinction or possibility to the original purpose. Does it change an answer, attainable result, supported claim, admissible use or worthwhile research direction? Show the consequence through the relation just developed. If a provisional distinction makes no difference to this purpose, it need not be elaborated. This is a reason to stop the present line, not evidence that no other consequential distinction exists.
+
+Now use C.11.DUA to compare an attainable further inquiry with continuing on the present basis or a narrower sufficient use. Include finding and learning the Method, obtaining help, access, waiting and checking. Where later action depends on an observation, C.43 relates the observation to the action that will still be available. An inquiry may instead change only what can responsibly be claimed. Keeping the same physical action can therefore accompany a useful change in its grounds.
+
+For open research, the attainable contribution may be a new description, candidate explanation, observation technique or question. Explain why the chosen material and operation could yield that kind of contribution and why this bounded effort is worthwhile. Do not promise an identified discovery or require its practical consequences in advance. After the attempt, use the actual result to choose continuation, reformulation or stop. Discovery and justification remain separate: a newly generated explanation still needs its applicable criticism and evidence.
+
+**Use help without inventing its delivery.** Ask for the missing contribution in terms of the available material and intended use; A.15.9 develops that exchange. When another person's work or response is unavailable, identify what can still be examined independently and what conclusion must remain conditional. A smaller supported answer, a different available source, an agreed joint attempt or a deferred dependent choice can be useful. Do not attribute a completed judgement or commitment to an unavailable person. If independent mastery is the purpose, obtaining an external answer alone does not fulfil it.
+
+Return the supported result, the reasoning that connects it to the purpose and the remaining consequential uncertainty. If a premise fails, re-examine the model or source used to support the affected inference. If an inquiry or action depends on unavailable help, seek another way to obtain the needed result, revise the work to use what is available or defer the dependent part. An unexpected possibility can change the question. A sufficient answer ends the present inquiry.
 
 #### B.5:4.2 - Perform the contribution that is missing
 
@@ -46551,6 +46576,28 @@ Now the requested sum has n terms beginning at 3: 3 + 5 + ... + (2n + 1). Recove
 
 The reusable contribution is the initial-value and increment argument. It lets the reader obtain the changed sum by identifying the changed range and reusing the already established result. A different progression would require recovering its increment before selecting another formula.
 
+#### B.5:5.8 - An available report exposes a previously unknown condition of use
+
+In a constructed case, a coordinator asks whether an automatically produced attendance report can be sent to course leaders. The available material consists of one report, a copy of its source data and the documented transformation. No list of possible defects has been supplied.
+
+Read one row and recover how it was produced. The transformation counts attendance records grouped by the participant's displayed name. Ask a course leader to demonstrate the intended use: deciding whom to contact about missing sessions. This makes the relevant unit a participant, while the calculation groups by a name. The first question is now whether those identify the same thing in this use.
+
+Construct a small contrast from that relation. Two different participants called Alex, each present once, yield the same name and count as one Alex present twice. The report alone cannot tell the leader whom to contact. This conclusion follows from the grouping rule; it does not establish that a collision occurred in the actual course. A source check can establish whether that condition holds for the present cohort. The data documentation also describes a stable participant identifier, making a previously unconsidered continuation expressible: group by that identifier and retain a suitable display label.
+
+The correction needs its own conditions: the identifier must track the participant for the relevant period, and the receiving leader must be permitted to see the resulting information. Those are questions for the data owner and the actual arrangement. If the owner is unavailable today, the analyst can inspect the transformation and prepare a proposed change; that work supplies neither the missing qualification nor permission. A qualified manual source may support today's contact decision, or the dependent decision may have to wait. The total attendance count can remain usable if it is all the recipient needs and its own conditions hold.
+
+Suppose the owner later establishes that names are unique within this cohort. The current report can then support this cohort's participant distinction under that premise. The collision counterexample still exposes the limitation of a general claim about other cohorts; it does not oblige a redesign of every bounded use. Comparing those claims prevents both an unwarranted release and unnecessary work.
+
+The reusable move was to recover an operation from accessible material, connect its output with a demonstrated use, derive a contrast from the mismatched identities and construct a changed continuation. Neither the receiving criterion nor the alternatives had to be fully specified beforehand.
+
+#### B.5:5.9 - Inquiry obtains a distinction before there is an intervention to choose
+
+In a second constructed case, a researcher has measurement traces with an occasional unexplained step. There is no proposed intervention, known cause or useful list of future actions. A small accessible inquiry is to inspect one raw trace and reconstruct how the instrument's software obtains the displayed quantity. This can reveal a measurement operation or a distinction that the present account omits; it does not promise an explanation of the phenomenon.
+
+In this case the reconstruction finds that the display subtracts a reference value which can be updated during recording. Holding the raw reading fixed while changing the reference produces a step in the displayed quantity. This derives a candidate explanation from an exposed operation. It is not evidence that such an update caused the observed event. The next useful contribution is to compare the reference-update record and raw readings with the display at that event, accounting for timing and measurement conditions. If those records do not exist, arranging to retain them in a later observation may make the distinction testable. B.5.2 and the domain research Method govern rival explanations and their assessment.
+
+Had the software exposed no such operation, the inspection could finish with a more precise measurement account and an unresolved question. Further work would need its own attainable contribution and grounds. The value of the initial inspection was its plausible access to the measurement process at modest cost, not advance knowledge of the reference update. The inquiry's result concerns understanding; an operational change need not follow.
+
 ### B.5:6 - Bias-Annotation
 
 The examples favor discrete construction and a simple physical representation. Other fields may need probabilistic, interpretive, historical or other arguments with different criticism demands. Select the contribution by the actual question and discipline.
@@ -46575,6 +46622,7 @@ Easy-to-produce outputs can dominate attention. Recover the intended epistemic o
 | Repeatedly improve the fit of a model that omits the intended quantity. | Test the representation against a small action-changing counterexample; recover the missing distinction or qualify a sufficient bound. |
 | Treat exploratory regularities as if they were independently predicted and tested. | Preserve their origin and use a design and inference that account for the selection and dependence. |
 | Produce an argument whose receiver cannot identify what the crucial step establishes. | Work backward from the needed conclusion and recover the decisive transition and its premises. If a premise changes, follow its effect through the argument. |
+| Demand a useful future branch before supplying any way to discover one. | Examine available material, recover a subject relation and derive a consequence or revealing contrast through §4.1.2; appraise further inquiry on the basis obtained. |
 | Generate more answers after the important question has changed. | State the changed formulation and which prior results still answer it before selecting further production. |
 
 ### B.5:9 - Consequences
@@ -46599,12 +46647,17 @@ Question formation belongs here because the result of one reasoning contribution
 
 **How can an inquiry begin before equations are available?** Adapt the qualitative entry described by Etkina and Brookes in [the ISLE method explanation](https://www.islephysics.net/why-isle.html): observations can lead to proposed mechanisms, consequences and discriminating tests before quantitative formalization. Section 4.1.1 makes a first provisional account available; section 5.6 works an engineering model choice. ISLE supplies an instructional method in a supported learning setting.
 
+**How do grounds and alternatives arise before a testable hypothesis?** Adapt [Ott and Hannah (2024), Emergent Findings and tables 3–4](https://doi.org/10.1287/stsc.2024.0178): open encounters, mental trials and interpretation can reveal participants and dependencies before a specific test is formulated. Their longitudinal study of nine ventures describes contingent combinations of practices, not a universally validated algorithm. Section 4.1.2 connects such constructive work to the existing first-model, reasoning and inquiry-appraisal Methods; that general connection is a methodological synthesis, with domain qualification still required.
+
+**What does exploring an intended use contribute?** Adapt [NASA's Stakeholder Expectations Definition, §4.1.1.2.4](https://www.nasa.gov/reference/4-1-stakeholder-expectations-definition/): exercising a concept of operations can expose missing interactions and return them to expectations. The engineering practice supports working through a use to discover conditions; it does not establish that a generic scheme finds all consequential distinctions in other fields.
+
 Reopen these choices when a better method at comparable effort changes the attainable result, a receiving use needs a different explanation or criticism regime, or changed tools alter the useful division of contributions.
 
 ### B.5:12 - Relations
 
 - **B.5.2** supplies the explanation-led abductive Method; **B.5.1** coordinates development states when that separate question is current.
 - **C.22.2** supplies an inspectable problem formulation and next use. **C.29** supplies mathematical-lens selection and correspondence, including preserved and lost structure.
+- **B.5.PI, B.5.EA and B.5.FM** supply inquiry entry, an expressible distinction and a first model. **B.5.QD, C.39 and C.40.CD** develop questions, missing operations and their connections. **C.11.DUA** appraises attainable further inquiry; **C.43** constructs observation-dependent action where control is the receiving use.
 - **A.15.9** supplies bounded use or acquisition of another practice's result, including help with a missing formulation.
 - **A.6.3.RT** prepares and compares an expression when its representation hinders the needed operation. The construction or argument obtained through that expression remains the result of the applicable subject Method.
 - **B.3, B.3.3 and A.10** govern claim-and-use-specific assurance and evidence reliance.
@@ -57918,6 +57971,8 @@ Keep three answers distinct:
 These are questions to resolve where live, not three mandatory output fields. A source limitation qualifies the attempted claim. It does not by itself choose evidence acquisition.
 
 #### C.11.DUA:4.2 - Compare attainable inquiry with its receiving value
+
+If the relevant distinction or possible result is not yet expressible, use B.5:4.1.2 to develop grounds from an accessible episode, source or attempt. The immediate comparison can concern a bounded exploration likely to improve the description or reveal a dependency. It need not promise a particular discovery. Return with the basis actually obtained before demanding a specific action-changing answer. Appraising an already formulated inquiry and constructing its missing basis are different contributions.
 
 When an inquiry is proposed or a consequential uncertainty, anomaly or applicable requirement makes one live, identify a plausible result that would change the conclusion, choice or warranted use. Compare obtaining that result with the feasible alternatives. These may include using present knowledge, a smaller reversible step, a different source, a narrower claim, deferral or stopping.
 
@@ -82846,7 +82901,7 @@ The following remedies concern recurring failures of construction or connection.
 | Success relies on assistance omitted from the account | Separate what a trial revealed from what it supplied or changed; include the necessary preparation and support in the arrangement being explained. | C.40.CU:4.3–4.6. When the same holder has a qualified prior result or current capability claim but now fails or transfers poorly, E.23.CAE distinguishes support, applicability, access, expression, adaptation and enactment difficulties from capability change; the differential can remain unresolved. |
 | A replacement helps one use and breaks another | Compare it under each affected use and joint conditions; retain, restrict, adapt or reject it accordingly. | B.1.5.RS:4 |
 | Basic operations and purpose are known, but intermediate coordination cannot be performed | Distinguish a missing explanation from unavailable acquisition, access or support. Construct the former; develop or obtain the latter at the scale of the gap. | B.1.5.EW:4; E.23.CDI for capability development; C.36.RP:4 for continuing availability |
-| A branch returns a result but leaves the next action unclear | Explain which condition it answers, leaves open or contradicts; supply a conditional return, narrower use or affordable stop. | C.40.CD:4.4–4.6; C.40 for material retention and continuation |
+| A branch returns a result but leaves the next action unclear | State whether the result shows the next action's condition to hold or fail, or leaves it unknown. Name the next action or the earlier operation to revisit, or explain the narrower use or justified stop. | C.40.CD:4.4–4.6; C.40 for material retention and continuation |
 | The same words hide different objects or relations | Recover the actual input, output and claim; repair the distinction whose consequences decide the join. An indication needs an interpreting relation before it can support a judgement. | A.7.1; B.1.5 for the resulting composition |
 | A chain hides alternatives or imposes an unwarranted order | Recover the possible continuations and their conditions; prescribe order only where the Method or a dependency requires it. | A.22.CGUS; B.1.5 for order-sensitive composition |
 | A successful reconstruction remains private | Explain its reusable actions, reasons, limits and a changed use for the intended next practitioner, choosing a suitable description form. | C.39:4.5–4.6 |
@@ -82955,11 +83010,11 @@ The practitioner has obtained a conditional preparation, explicit joins to two r
 
 **Recover the positive construction.** The source describes a person proposing an unusual action, exposing it to reasoned objections, answering an objection or changing the proposal, and then acting when no further objection is found in the discussion. It also distinguishes deciding what is to be learned from designing how to teach it. Merely extracting the words “logic”, “criticism” and “action” would lose the revisable proposal and the connection to a next move. Treating the anecdotes as proof of a universally successful method would add support they do not supply.
 
-The receiving author follows the proposed way on the present material: what would the next practitioner actually receive? The source supplies proposing, criticizing and revising. The instruction to proceed still needs the receiving action's applicable requirements and grounds. The fact that no participant produced another objection does not establish a missing prerequisite. Following the receiving use exposes the question: what further grounds would justify this action?
+The receiving author follows the proposed way on the present material: what would the next practitioner actually receive? The source supplies proposing, criticizing and revising. The instruction to proceed still needs the receiving action's applicable requirements and grounds. The absence of further objections does not show that the prerequisites for the proposed action are satisfied. Following the receiving use exposes the question: what further grounds would justify this action?
 
 **Construct the missing connection.** Keep the proposal and reasons for revising it. Name the result wanted from the proposed action and recover the conditions on which its usefulness depends. Connect each consequential claim to the actual grounds on which this use can rely through A.10. Obtain a separate assurance answer through B.3 only when that stronger claim is required. A critique can refute one reason, suggest an adaptation, or reveal an unanswered question; determine which it does before accepting or discarding the proposal.
 
-When complete-enough alternatives are available, C.11 compares them on the same basis. An available next inquiry is worth doing when its attainable answer could change that choice and warrants its burden. Otherwise choose under the adequate current basis or retain the precise unresolved condition. An absence of unlimited certainty does not demand unlimited inquiry. An absent indispensable condition does not become satisfied because inquiry is costly.
+When complete-enough alternatives are available, C.11 compares them on the same basis. An available next inquiry is worth doing when its attainable answer could change that choice and warrants its burden. Otherwise choose under the adequate current basis or retain the precise unresolved condition. An absent indispensable condition does not become satisfied because inquiry is costly.
 
 **Return a usable instruction.** For this use the author can now say: state the proposed result and action; expose the reasons that matter; examine substantive objections and revise the affected proposal or reason; establish the receiving action's necessary conditions; compare the available continuations; return the selected continuation with its grounds and the condition that would change it. A sufficiently qualified existing proposal can go directly to use. If the useful result is only a proposal worth testing, keep that narrower conclusion rather than claim completed performance.
 
@@ -90473,6 +90528,8 @@ Recover what the retained information allows you to infer. If two possible situa
 Check the information needed at the moment of action. Prediction can permit a justified action before a delayed measurement arrives, or compensate for some consequences of that delay. Retain the actual delay and the model assumptions that make this response possible. Preserve the effects of actual inputs and relevant history when they affect what the current observation means. Use **C.30.LCA** to recover an unclear control structure and **C.29** to choose a suitable mathematical representation. Neither a mathematical vocabulary nor a detailed model supplies missing observations.
 
 #### C.43:4.3 - Construct possible continuations, including conditional future actions
+
+When you cannot yet formulate relevant alternatives or the conditions that would distinguish them, B.5:4.1.2 develops that basis from available material, a subject relation and a revealing consequence or trial. Use that construction here. An unknown condition of a described continuation differs from not yet having a useful continuation to describe; a classification of conditions alone cannot supply the latter.
 
 Construct alternatives from the available situation and from what must be obtained. Reason backward from the required result to the contributions it needs, and forward from available means to the results they could produce. Where the accounts fail to meet, obtain the missing contribution through **C.39**, revise the proposal, or retain the incompatibility as an explicit limit.
 
@@ -107872,7 +107929,7 @@ This preservation rule also applies across extraction, translation, screenshotti
 
 Part E restricts exact `publication-face kind` values to the literals **publication face/form** and **interop publication form**. `PlainView`, `TechCard`, `InteropCard`, and `AssuranceLane` are face designators, not additional U-kinds or automatic `U.View` memberships.
 
-**USM linkage (normative when exact scope identity is current).** An ordinary face first states its bounded use. When that bound must be cited, exchanged, compared, or relied on independently, identify `U.PublicationScope` under A.2.6. For a face selecting episteme `E`, `PublicationScope(face_E) ⊆ ClaimScope(E)`. For a capability-description episteme `E`, the EntityOfConcern is holder System `H` (A.2.2). If the face presents a qualified holder-ability claim `C` about `H` from `E` for work admission, `PublicationScope(face_E) ⊆ WorkScope(C)`, where `WorkScope(C)` is the work-condition basis designated by `C`. Any relied-on `ClaimScope` remains a separate constraint. When both bounds apply, `PublicationScope(face_E) ⊆ ClaimScope(E) ∩ WorkScope(C)`. Neither inclusion grants permission to perform work or proves that work occurred. A cross-context semantic claim separately retains its F.17 endpoint senses, F.9 Bridge, bounded-use claim, and any current A.10 or B.3 reliance result. An optional F.9 `CL` summarizes evidence strength; it is not a relation or use condition.
+**USM linkage (normative when exact scope identity is current).** An ordinary face first states its bounded use. When that bound must be cited, exchanged, compared, or relied on independently, identify `U.PublicationScope` under A.2.6. For a face whose admissible use relies on claim `c` in episteme `E`, `PublicationScope(face_E) ⊆ ClaimScope(c)`. For a capability-description episteme `E`, the EntityOfConcern is holder System `H` (A.2.2). If the face presents a qualified holder-ability claim `C` about `H` from `E` for work admission, `PublicationScope(face_E) ⊆ WorkScope(C)`, where `WorkScope(C)` is the work-condition basis designated by `C`. Any relied-on `ClaimScope` remains a separate constraint. When both bounds apply, `PublicationScope(face_E) ⊆ ClaimScope(c) ∩ WorkScope(C)`. Neither inclusion grants permission to perform work or proves that work occurred. A cross-context semantic claim separately retains its F.17 endpoint senses, F.9 Bridge, bounded-use claim, and any current A.10 or B.3 reliance result. An optional F.9 `CL` summarizes evidence strength; it is not a relation or use condition.
 
 **Publication-face naming discipline.**
 

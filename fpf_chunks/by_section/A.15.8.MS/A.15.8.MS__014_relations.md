@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__014_relations.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:12 — Relations"
-line_start: 32312
-line_end: 32323
+line_start: 32298
+line_end: 32309
 dependencies:
   - "A.15.8"
   - "A.19"

@@ -6,12 +6,12 @@ section_id: "B.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__005_solution.md"
-commit_sha: "a3513ddf768f1e504658ce987d34ccecb751fa1c"
+commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
 heading_path:
   - "B.5 — Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)"
   - "B.5:4 — Solution"
-line_start: 46330
-line_end: 46453
+line_start: 46316
+line_end: 46478
 dependencies:
   - "A.10"
   - "B.5.1"
@@ -63,6 +63,45 @@ When the situation has no usable model yet, begin with the contrast the answer m
 4. **Challenge a consequential choice.** Ask what observation, omitted interaction or changed condition could defeat the answer. Compare a plausible alternative when the observations leave materially different explanations. Revise the model or obtain the missing observation when that difference matters.
 
 Return the provisional model and what follows under its assumptions. If a missing domain account or formal construction prevents the next contribution, use A.15.9 to request that specific help from the working description. Section 5.6 shows this entry before a heat-transfer calculation has been formulated. **B.5.FM** shows how to choose the model's participants and relations and use them to derive a consequence, in physical and formal problems.
+
+##### B.5:4.1.2 - Find useful questions and possible actions from incomplete information
+
+Sometimes neither the decisive distinction nor a useful set of alternatives is known. Asking which answer would change the work then leaves the practitioner to invent the very basis they need. Begin with something accessible: an episode of work, an artifact, an observation, a source argument, a proposed use or an available capability. The first result can be a better question or a conditional account. It need not be a forecast of the eventual discovery.
+
+The connection is constructive. Material lets the practitioner propose participants and relations; following a relation yields a consequence; a contrast or trial challenges that consequence; the changed account makes further inquiries or actions expressible. Their conditions and significance can then be examined. A new finding can return the work to any earlier contribution. Use an adequate supplied result at its point of entry instead of reproducing the whole connection.
+
+**Begin by examining an accessible case or source.** State the current purpose as far as it is understood: what is to be explained, used, made possible or explored? Keep that purpose revisable. Choose a suitable way to examine how the subject works, for example:
+
+- Follow one actual episode. Observe what arrives, what participants do or change, what result leaves, and how someone uses it. Ask about the adjustments that made the episode work. B.5.PI develops this examination of ongoing work before a problem is felt.
+- Recover the operation behind an existing answer, design or source example. Find what it takes as given, what it does with that input and what its result establishes. Work a small application through §4.3 or B.5.TU. A hidden assumption may become visible before its practical significance is known.
+- Try a proposed use, or reason forward from an available capability. Identify the interaction by which it could produce an effect. Reason back from that effect to the contributions it would require. The two directions can revise both the intended use and the proposed means; neither needs a complete future plan.
+- Where the subject is unfamiliar, inspect a representative case with a practitioner or seek an explanatory source through F.1. Ask for help identifying what happens and which distinctions the practice uses. A request to help formulate the question is legitimate before a request for a specific answer is possible.
+
+Choose an initial examination because the material and the way of examining it are accessible and relevant to the present purpose. Compare the kind of understanding it could produce and its burden with a smaller examination or use of an adequate existing answer. The particular finding need not be known before this exploration begins.
+
+Separate what was observed or supplied from the interpretation being proposed. A source description says what its author asserts; observing one episode says what happened there. A theory, calculation or domain Method supplies candidate relations and conditions for inference. None of these alone establishes that the same relation holds throughout a wider proposed use.
+
+**Make a relation do work.** Use B.5.FM to distinguish the participants and propose how they are related. Explain a local transition: this operation needs that input; this quantity changes that effect under these conditions; this person's contribution makes that next operation possible. Use subject knowledge to justify the transition. Where it is missing, retain a question for observation, a source or a qualified contributor. Naming two boxes or drawing an arrow does not supply their relation.
+
+Follow one relation to a small consequence, and use that consequence to seek a revealing contrast. For example, a calculation may assume a constant load, a handover may require a readable representation, or an experiment may rely on a measurement remaining comparable. The relation tells the practitioner what to vary or inspect. Trace what would follow with and without that premise, or compare two actual episodes in which it differs. Show the intermediate reason for any different result. A thought experiment creates a conditional implication; establish which conditions actually obtain through the appropriate subject inquiry.
+
+A useful contrast can also come from a failed attempt, an unfamiliar use, another participant's interpretation or two cases that the current representation merges. A relevant conceptual scheme or mantra can direct attention to such relations before anyone feels a problem. Apply its substantive questions to the available case; an empty slot in a scheme is not evidence of a defect. When neither a consequence nor a useful contrast can yet be constructed, return to a smaller case, another representation or subject assistance. Guessing possible answers does not replace that missing work.
+
+**Work out which inquiries and actions the revised account makes possible.** Keep four things distinguishable when they matter: an alternative action, an uncertain condition, a consequence under that condition, and an action chosen after an observation. They can be connected, but they are different answers. A participant being available is a condition; requesting their help is an action; a qualified answer is a possible result; changing the later choice in response is a further conditional action.
+
+To identify a possible next inquiry or action, find an operation or inference for which the present account supplies the needed input. Establish what its result would answer or enable for the original purpose. Alternatively, work back from a desired result and use C.39 to develop a missing operation or a way to connect operations. Compare retaining the present way, revising an assumption in the account, changing the corresponding condition in the situation, using another available means or obtaining the specific missing contribution. A changed operation can create an option that did not previously exist; it need not merely reveal which predetermined future will occur. B.5.QD and C.40.CD develop the question and the way together when either changes.
+
+Qualify a proposed continuation at the condition that remains unresolved. Its logical consequence may be established while feasibility, a person's agreement or applicability to the actual situation remains unknown. Distinguish an unknown condition of an already described continuation from not yet having a way to construct a useful continuation. The second calls for further construction, description or help; labeling it “unknown” does not perform that work. Several compatible contributions can be needed together. Do not turn them into mutually exclusive branches merely to draw a tree.
+
+**Establish what the new distinction changes and choose the next attainable result.** Return the new distinction or possibility to the original purpose. Does it change an answer, attainable result, supported claim, admissible use or worthwhile research direction? Show the consequence through the relation just developed. If a provisional distinction makes no difference to this purpose, it need not be elaborated. This is a reason to stop the present line, not evidence that no other consequential distinction exists.
+
+Now use C.11.DUA to compare an attainable further inquiry with continuing on the present basis or a narrower sufficient use. Include finding and learning the Method, obtaining help, access, waiting and checking. Where later action depends on an observation, C.43 relates the observation to the action that will still be available. An inquiry may instead change only what can responsibly be claimed. Keeping the same physical action can therefore accompany a useful change in its grounds.
+
+For open research, the attainable contribution may be a new description, candidate explanation, observation technique or question. Explain why the chosen material and operation could yield that kind of contribution and why this bounded effort is worthwhile. Do not promise an identified discovery or require its practical consequences in advance. After the attempt, use the actual result to choose continuation, reformulation or stop. Discovery and justification remain separate: a newly generated explanation still needs its applicable criticism and evidence.
+
+**Use help without inventing its delivery.** Ask for the missing contribution in terms of the available material and intended use; A.15.9 develops that exchange. When another person's work or response is unavailable, identify what can still be examined independently and what conclusion must remain conditional. A smaller supported answer, a different available source, an agreed joint attempt or a deferred dependent choice can be useful. Do not attribute a completed judgement or commitment to an unavailable person. If independent mastery is the purpose, obtaining an external answer alone does not fulfil it.
+
+Return the supported result, the reasoning that connects it to the purpose and the remaining consequential uncertainty. If a premise fails, re-examine the model or source used to support the affected inference. If an inquiry or action depends on unavailable help, seek another way to obtain the needed result, revise the work to use what is available or defer the dependent part. An unexpected possibility can change the question. A sufficient answer ends the present inquiry.
 
 #### B.5:4.2 - Perform the contribution that is missing
 
