@@ -6,12 +6,12 @@ section_id: "E.17:6"
 section_title: "Rules and Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__007_rules-and-invariants-normative.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:6 — Rules and Invariants (normative)"
-line_start: 108020
-line_end: 108051
+line_start: 107941
+line_end: 107972
 dependencies:
   - "A.10"
   - "A.15.4"

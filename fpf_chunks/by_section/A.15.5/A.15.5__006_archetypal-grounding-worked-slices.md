@@ -6,12 +6,12 @@ section_id: "A.15.5:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:5 — Archetypal Grounding - Worked Slices"
-line_start: 31041
-line_end: 31078
+line_start: 31000
+line_end: 31037
 dependencies:
   - "A.10"
   - "A.15"
@@ -81,5 +81,5 @@ At `10:05`, the current A.21 application of profile `Release-Core-E4` consumes t
 
 Separately, exact A.2.8.PER `GrantedPermissionRelation@Context` occurrence `DeployGrant-12` covers the named beneficiary and deployment action for `[09:00, 11:00)`. `DeployNonProhibitionFinding-E2` reports `nonProhibited` from its named current frame, explicitly complete for this use, in evaluation window `[10:00, 10:15)`; it is not the grant. A `PermissionNormConflictFinding@Context`, if an incompatible current norm is established over the same content and window, would be a third permission-side input and an unresolved disposition would stop the use. A policy that requires readiness, gate passage, a current grant, and the frame-relative non-prohibition result may rely on those distinct inputs at `10:10`; it must re-evaluate the relevant branch when any window ends or a conflict appears. None of them proves that deployment Work occurred. A.15.1 identifies that Work only after its dated occurrence basis obtains.
 
-If a dashboard shows green but the readiness result or its reliance window, the current A.21 profile application and gate result, or the required permission value and qualification window cannot be recovered, keep the display at source finding under A.15.4. Recover the gate result directly or through `ReleaseGateLog-12`; loss of the log alone need not block reliance on a fully recoverable result. Open the A.10 evidence-provenance and currentness question when that basis for a consumed claim is unresolved.
+If a dashboard shows green but the required readiness result or its reliance window, the current A.21 profile application and gate result, or the required permission value and qualification window cannot be recovered, resolve the missing basis under its subject pattern before relying on the affected claim. Recover the gate result directly or through `ReleaseGateLog-12`; loss of the log alone need not block reliance on a fully recoverable result. Open the A.10 evidence-provenance and currentness question when that basis for a consumed claim is unresolved.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.MR.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.16.MR — Construct a Measurement Relation"
-line_start: 59049
-line_end: 59259
+line_start: 58970
+line_end: 59180
 dependencies:
   - "A.3.3"
   - "B.5.FM"

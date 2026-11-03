@@ -6,12 +6,12 @@ section_id: "A.15.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__003_problem.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:2 — Problem"
-line_start: 31794
-line_end: 31801
+line_start: 31753
+line_end: 31760
 dependencies:
   - "A.1"
   - "A.10"
@@ -24,6 +24,7 @@ dependencies:
   - "A.15.8"
   - "A.2.1"
   - "A.2.2"
+  - "A.2.4"
   - "A.22"
   - "A.6.RCD"
   - "A.6.REL"
@@ -44,5 +45,5 @@ Performance often depends on relations among actual or intended performers, supp
 
 Umbrella words conceal different objects. “Attention” may mean sensing, selection, monitoring, search, checking, or a holder capability. “Memory” may mean internal state, a record, model state, retrieval, cultural continuation, or a relied-on claim. “Work state” may mix world state, epistemes, carriers, and cues. Treating these words as fields on one composite performer hides the relation that must change and can incorrectly assign System identity, Work, capability, authority, or evidence.
 
-The missing practical move is neither a theory of mind nor a universal resilience procedure. It is to recover the exact Work-dependent configuration, expose the minimum state needed to continue, challenge the weakest decision-changing dependency, and return the observation to its direct owner.
+The practical move is to recover the Work-dependent configuration, expose the minimum state needed to continue, test a representative dependency whose result can change the decision, and return that result to the pattern that defines or tests the affected claim.
 

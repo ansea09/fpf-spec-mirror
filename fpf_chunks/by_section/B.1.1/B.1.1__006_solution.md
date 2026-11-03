@@ -6,19 +6,18 @@ section_id: "B.1.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__006_solution.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:4 — Solution"
-line_start: 41347
-line_end: 41417
+line_start: 41274
+line_end: 41344
 dependencies:
   - "A.1"
   - "A.10"
   - "A.14"
   - "A.15.1"
   - "A.22"
-  - "A.6.5"
   - "B.1"
   - "B.1.4"
   - "B.3.5"
@@ -75,7 +74,7 @@ DependencyGraphRepresentation@Context:
   publicationOrViewRef?
 ```
 
-Use the graph to examine properties such as acyclicity, reachability, cutsets, weak links, flow, or traceability. These checks concern the graph expression; their results bear on the selected relation only when its rule admits the mapping. Use C.29 to state the mathematical representation correspondence, preserved and lost distinctions, and validation boundary on which that inference depends.
+Use the graph to examine properties such as acyclicity, reachability, cutsets, weak links, flow, or traceability. These checks concern the graph expression; their results bear on the selected relation only when its rule admits the mapping. State the mathematical representation correspondence, preserved and lost distinctions, and validation boundary on which that inference depends. Use C.29 when a mathematical representation-choice, transfer or reliance question remains unresolved.
 
 #### B.1.1:4.3 - Relation Grounding Guide
 
@@ -83,10 +82,10 @@ Use the graph to examine properties such as acyclicity, reachability, cutsets, w
 | --- | --- | --- |
 | part of the whole | part-whole relation over admitted holons | `A.14`, `C.13`, `B.1` |
 | an entity belongs to a world-side collection | the collection's own belongs-to occurrence, or a separately grounded collection-as-whole claim | `A.14`, `C.13`, `C.16`, and the pattern that defines that collection's rule |
-| phase of the same carrier | temporal phase relation | the carrier's identity and phase rules, `A.14`, and `B.1.4` |
-| ordered step or branch | method, process-view, Work, or order relation | `A.3.1`, `A.3.2`, `A.15.1`, or the pattern that defines the order relation; `B.1.4`, and `C.29` when a lens is current |
+| phase of the same carrier | temporal phase relation | the carrier's identity and phase rules and `A.14`; `B.1.4` when the claim aggregates temporal phases |
+| ordered step or branch | method, process-view, Work, or order relation | `A.3.1`, `A.3.2`, `A.15.1`, or the pattern that defines the order relation; `B.1.4` for an order-sensitive or temporal aggregation claim; `C.29` when a mathematical representation-choice, transfer or reliance question remains unresolved |
 | performed work part | work occurrence relation with evidence and timing | `A.15.1` |
-| external influence, signal, supply, measurement, or control | the exact obtaining relation and its participants; recover evidence provenance separately | `A.3.4` for an actual transformation, `C.16` for measurement, and the defining pattern for the particular supply or control relation; `A.10` recovers the independently established support and bounded use |
+| external influence, signal, supply, measurement, or control | the exact obtaining relation and its participants, with the support required by the receiving claim | `A.3.4` for an actual transformation, `C.16` for measurement, and the defining pattern for the particular supply or control relation; `A.10` when the claim needs an explicit source-to-use account for provenance or bounded reliance |
 | representation, dashboard, digital twin, or architecture description | description or representation relation, not parthood | `C.2.1`, `E.17`, `C.30.AD`, `C.30.AD.BA` |
 
 #### B.1.1:4.4 - Graph Checks Are Conditional

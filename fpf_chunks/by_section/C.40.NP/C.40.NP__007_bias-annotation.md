@@ -6,12 +6,12 @@ section_id: "C.40.NP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NP/C.40.NP__007_bias-annotation.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.40.NP — Continue from a Result to New Attainable Problems"
   - "C.40.NP:6 — Bias-Annotation"
-line_start: 89079
-line_end: 89082
+line_start: 89000
+line_end: 89003
 dependencies:
   - "C.18"
   - "C.19"

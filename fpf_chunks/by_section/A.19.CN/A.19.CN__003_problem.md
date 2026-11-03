@@ -6,12 +6,12 @@ section_id: "A.19.CN:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__003_problem.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:2 — Problem"
-line_start: 36510
-line_end: 36518
+line_start: 36439
+line_end: 36447
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -19,28 +19,30 @@ dependencies:
   - "F.9"
   - "G.0"
 keywords:
-  - "CL/loss notes"
   - "CN-Spec"
   - "CN-frame"
   - "RSG admission hooks"
   - "SCR/RSCR harness"
   - "WLNK discipline"
-  - "bridges"
   - "chart"
   - "comparability modes"
   - "conformance checklist"
   - "indicator policy refs"
+  - "loss evidence"
+  - "maintained editions"
   - "normalization refs"
-  - "registry"
+  - "optional CL"
+  - "semantic relations"
+  - "separate use claims"
   - "Γ-fold governance"
 ---
 
 ### A.19.CN:2 - Problem
 
-Absent a governance layer, four failure modes recur:
+When the comparison basis is missing or changes silently, these failures can occur:
 
 1. **Chartless numbers.** Measures move between teams without units, reference states, or declared normalization → **illusory comparability**.
 2. **Hidden normalization changes.** Re-parameterisation, such as normalising by batch size, can change the quantity being compared while a trend line still appears continuous.
 3. **CN-frame sprawl.** Unrelated dashboard definitions can leave receivers unable to establish a shared comparison basis.
-4. **Un‑bridgeable reports.** Cross‑team roll‑ups average **incongruent** CN‑frames, without a justified common comparison/aggregation model under B.3.
+4. **Incompatible roll-ups.** Cross-team roll-ups average **incongruent** CN-frames without a justified common comparison or aggregation model. Use B.3 when the result serves a named assurance claim.
 

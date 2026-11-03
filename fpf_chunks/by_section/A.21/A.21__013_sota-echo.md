@@ -6,12 +6,12 @@ section_id: "A.21:11"
 section_title: "SoTA echo"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__013_sota-echo.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.21 — Gate Decisions from Independent Check Results"
   - "A.21:11 — SoTA echo"
-line_start: 40167
-line_end: 40175
+line_start: 40098
+line_end: 40106
 dependencies:
   - "A.10"
   - "A.15.5"
@@ -34,10 +34,10 @@ keywords:
 
 ### A.21:11 - SoTA echo
 
-| Practice line already used by A.21 | Adopted move | Limit |
+| Basis or practice comparison | Move used in A.21 | Limit |
 | --- | --- | --- |
-| Join-semilattice aggregation in distributed-systems practice | Use an associative, commutative, idempotent worst-result join after explicit mapping. | Algebra does not make unknown or unrun input neutral. |
-| Policy evaluation and safety decision tables | Identify the applicable rule, subject, inputs, outcome mapping, and action consequence. | A profile label or default-looking branch is not policy application or authority. |
-| Attestation and provenance practice, including in-toto and SLSA lineage | Keep references and rationale available for the declared audit, transfer or reuse; publish them when that use requires publication. | An attestation, log, or dashboard does not create the gate decision or source truth. |
-| Compositional crossing checks | Apply crossing equations to an exact structural crossing when its rule requires them. | A structural crossing does not imply a semantic Bridge; each applies only when its own relation and use are current. |
+| The join-semilattice defined in §4.5 | Use the associative, commutative, idempotent worst-result join after explicit profile mapping. | Algebra does not make unknown or unrun input neutral. |
+| [Open Policy Agent: Rego policy evaluation](https://www.openpolicyagent.org/docs/policy-language), including undefined results and explicitly declared defaults | Keep the applicable policy, its inputs and evaluated result recoverable; A.21 separately specifies the mapping to a bounded action. | Rego values and undefined results do not themselves define A.21 decision values or authority. |
+| [in-toto Statement v1](https://github.com/in-toto/attestation/blob/main/spec/v1/statement.md) and [SLSA v1.2 provenance](https://slsa.dev/spec/v1.2/provenance) bind typed attestations and production information to identified artifacts | Retain the subject and claim references needed by the declared audit, transfer or reuse. Publication follows the receiving use. | Attestation or provenance information supplies neither the gate decision nor the truth of every source claim; A.21 keeps those judgements separate. |
+| Structural-crossing rules supplied by `E.18` | Apply crossing equations to the identified crossing when its rule requires them. | A structural crossing does not imply a semantic Bridge; each applies only when its own relation and use are current. |
 

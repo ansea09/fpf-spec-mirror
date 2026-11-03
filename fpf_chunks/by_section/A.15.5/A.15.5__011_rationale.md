@@ -6,12 +6,12 @@ section_id: "A.15.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__011_rationale.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:10 — Rationale"
-line_start: 31121
-line_end: 31126
+line_start: 31080
+line_end: 31085
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,7 +47,7 @@ keywords:
 
 ### A.15.5:10 - Rationale
 
-The readiness question is practical and recurrent: should this intended work enter the work boundary now? FPF already has the kinds needed to answer it. One local criterion and result claim keep the answer inspectable without collapsing the plan, its inputs, the checking Work, gate, permission, or target Work into one object.
+The readiness question is practical and recurrent: does this intended performance satisfy its work-entry criterion at the stated time? FPF already has the kinds needed to answer it. One local criterion and result claim keep the answer inspectable without collapsing the plan, its inputs, the checking Work, gate, permission, or target Work into one object.
 
 The result depends on the inputs actually consumed by its criterion. It may use an immediate A.15.4 disposition without making that note a new formal object. Later reliance needs the claim and its grounds recoverable under the relevant access and currentness conditions; a durable representation is one way to provide that access. A missing input may need preparation, clarification or a direct subject-pattern check, rather than automatically becoming a source-repair problem.
 

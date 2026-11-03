@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__008_bias-annotation.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:6 — Bias-Annotation"
-line_start: 32226
-line_end: 32238
+line_start: 32185
+line_end: 32197
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -24,12 +24,12 @@ keywords:
 
 | Recurring bias | Likely drift | Repair |
 | --- | --- | --- |
-| task-set omission bias | One visible task defines the arrangement while another mandatory use remains invisible. | Build one row per named user and use, then compare every candidate against the same bounded set. |
+| task-set omission bias | One visible task defines the arrangement while another mandatory use remains invisible. | Identify every named user and task; when comparing configurations, assess every candidate against that same bounded set. Use rows where they help keep the uses distinct. |
 | forced-winner bias | A local minimum or one observed pass becomes the single arrangement despite incomparability. | Preserve retained candidates, missing priorities, abstention, or a stated split boundary. |
 | evidence-status bias | No test evidence is reported as failure or insufficiency. | Separate observed pass, observed failure, untested, feature-level insufficiency, and missing information. |
 | repository bias | Uploading files is reported as a usable Method Base. | Test the declared task rows and retain the collection predicates separately. |
 | platform bias | Feature breadth replaces the failed task set. | Include an element only for a named criterion, stop, cross-task dependency, or directly supported relation. |
 | tool-authority bias | A recommendation or branch display becomes a decision or permission. | Keep tool interaction, user Work, permission, authority, and result separate. |
-| structure-selection bias | A complete proposal table becomes an A.22 selected structure. | Require the selecting System, Method, Work, and participation or binding facts. |
+| structure-selection bias | A complete proposal table becomes an A.22 selected structure. | Establish the four actual identity discriminators under A.22 for the named use. Add selecting-System, Method, Work and participation or binding grounds only for the corresponding dated-performance claims. |
 | success inflation | One task pass becomes capability or Method-effectiveness evidence. | Bound the result to observed Work and return neighboring claims separately. |
 

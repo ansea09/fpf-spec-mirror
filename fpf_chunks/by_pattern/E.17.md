@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
-line_start: 107615
-line_end: 108200
+line_start: 107536
+line_end: 108121
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -204,7 +204,7 @@ Use this vocabulary when a publication face, rendering, generated text, comparis
 | `source-relation-absent` | The needed source relation is known absent from the current publication-facing unit and available source set for the stated use. Block that use; do not infer that the underlying world claim is false merely from this absence. |
 | `source-available` | The cited source can be recovered or inspected for the current use. This does not yet show that the rendering used it correctly. |
 | `source-retrieved` | The cited source has actually been recovered for the current check. This still does not show that it was used correctly or makes the local claim recoverable. |
-| `source-used` | The named source, rather than only similar background, was actually used in the generation, rewrite, rendering, comparison, work, or reliance linked by the inspectable source relation. If that relation is unavailable, treat the unit as pointer-only or orientation-only until a source relation is recovered. |
+| `source-used` | The named source, rather than only similar background, was actually used in the generation, rewrite, rendering, comparison, work, or reliance linked by the inspectable source relation. If that relation is unavailable, leave the corresponding source-use claim unresolved and block only use that requires it. Retain independently established claim support and uses whose own requirements are satisfied. |
 | `source-faithful` | The publication-facing unit stays within the source claim relation for the stated use; omissions, declared source-loss modes, and additions are visible enough to inspect. |
 | `claim-recoverable-from-source` | The local claim is recoverable from the source, declared correspondence relation, or required typed project-side FPF kind and reference named by value for the stated use. |
 | `claim-not-recoverable-from-source` | The local claim is not recoverable from the source relation currently available. |

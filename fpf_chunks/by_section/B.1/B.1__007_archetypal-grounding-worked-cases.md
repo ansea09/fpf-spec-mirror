@@ -6,12 +6,12 @@ section_id: "B.1:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__007_archetypal-grounding-worked-cases.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:5 — Archetypal Grounding (Worked Cases)"
-line_start: 41202
-line_end: 41221
+line_start: 41130
+line_end: 41149
 dependencies:
   - "A.1"
   - "A.14"
@@ -47,5 +47,5 @@ The corpus does not become an acting system. A review board, running review tool
 
 A machining method has ordered steps and parameters. Those steps are method relation or method-description material. They do not prove that a performed machining run occurred, nor that the run had the same parts.
 
-If the current claim is the method structure, use Method patterns and C.29 when algebra is selected. If the current claim is the actual run, use A.15.1.
+If the current claim is the method structure, use Method patterns. Use C.29 when a separate mathematical representation-choice, transfer or reliance question remains unresolved. If the current claim is the actual run, use A.15.1.
 

@@ -6,12 +6,12 @@ section_id: "A.17:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__011_relations.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:10 — Relations"
-line_start: 34467
-line_end: 34476
+line_start: 34426
+line_end: 34435
 dependencies:
   - "A.17"
   - "A.18"
@@ -47,5 +47,5 @@ keywords:
 
 -   **Coordinates with:** **A.18 (CSLC-KERNEL)**, which defines the minimal **Characteristic/Scale/Level/Coordinate** Standard in detail. A.17 provides the vocabulary and basic distinctions (what is a Characteristic, and its arity), while A.18 applies this to ensure each measurement template is well-formed. Also coordinates with **C.2 KD-CAL** and the **A.19/C.16 characterization stack**; those patterns use the Characteristic/Scale constructs to build domain-specific metrics (e.g. knowledge quality scores) and rely on A.17’s canon for consistency.
 
-- **Coordinates with:** E.10 for governed terms and clear Plain aliases; F.7 for displaying source-local comparisons; F.9 for any justified cross-context alignment or Bridge. A common name alone establishes no equivalence between disciplinary meanings.
+- **Coordinates with:** E.10 for governed terms and clear Plain aliases; F.7 when a table helps display the named source-local comparison; F.9 when the receiving claim needs a semantic correspondence or difference between local meanings from different semantic contexts. A common name alone establishes no equivalence between disciplinary meanings.
 

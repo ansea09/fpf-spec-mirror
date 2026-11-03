@@ -6,12 +6,12 @@ section_id: "A.19.CPM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__014_relations.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:12 — Relations"
-line_start: 39199
-line_end: 39224
+line_start: 39132
+line_end: 39157
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -40,12 +40,12 @@ keywords:
 * `A.2.4`, `A.10`, and `G.11` for evidence-use scope, provenance, and currentness, separately from comparison scope and outcome
 * `E.10` (lexical and ontological authoring rules; kind suffix discipline)
 * `E.19` (checks; authoring discipline)
-* `E.20` (governing-pattern discipline)
+* `E.20` for mechanism introduction or revision and governing-definition assignment
 * `F.18` (alias docking; ID continuity)
-* `E.18` (project transformation-flow structures consume CPM instances; CPM does not create a parallel “card deck”)
+* `E.18` for a selected transformation-flow structure that includes a CPM comparison
 
 **Relates to (typical named patterns in the CHR Uses contour):**
 
 * `UNM.IntensionRef`, `UINDM.IntensionRef`, `USCM.IntensionRef`, `ULSAM.IntensionRef`, and `SelectorMechanism.IntensionRef` (downstream consumer of CPM results).
-* `G.5` (selection conformance), `G.9` (parity and benchmark harness), `G.10` and PTM (publication and telemetry outside suite closure).
+* `G.5` (selection conformance), `G.9` (parity and benchmark harness), `G.10` for Part-G pack shipping and `E.24.PUB` for episteme availability, form or carrier claims. Publication and telemetry remain outside suite closure.
 

@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__004_forces.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:3 — Forces"
-line_start: 18223
-line_end: 18230
+line_start: 18205
+line_end: 18212
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -35,7 +35,7 @@ keywords:
 ### A.6.3.CR:3 - Forces
 
 - **Same entity, different wording.** Readers need different textual forms without reopening the EntityOfConcern.
-- **Compression vs loss visibility.** Shorter or plainer forms are often useful, but omissions and source-loss modes must stay explicit.
+- **Compression vs loss visibility.** Shorter or plainer forms are often useful, but omissions and source-loss modes that affect interpretation or intended use must stay visible.
 - **Direct vs correspondence-mediated rewrites.** Some rewrites use one source episteme; others depend on claims about relations among sources.
 - **Restatement vs another construction.** Explanation, a material representation change and retargeting need their own conditions even when their outputs include text.
 - **Publication discipline.** Admissible MVPK faces and publication renderings still matter even when the transform looks like "just a rewrite."

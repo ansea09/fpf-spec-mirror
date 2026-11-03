@@ -6,12 +6,12 @@ section_id: "A.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__005_solution.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:4 — Solution"
-line_start: 28866
-line_end: 28967
+line_start: 28830
+line_end: 28929
 dependencies:
   - "A.10"
   - "A.13"
@@ -79,7 +79,7 @@ When wording about changing, producing, selecting, deriving, controlling or main
 * **`U.WorkPlan`.** A `U.Episteme` about possible future Work, including intended windows, dependencies, performers, and budgets. It does not bring a future Work occurrence into existence.
 * **`U.Work`.** The admitted kind for concrete dated Work occurrences. One Work individual has its own temporal extent, at least one obtaining A.15.1 `enactsMethod` relation, and at least one obtaining locally declared containing-system relation. It may stand in further enactment, affected-referent, binding, resource-use, production, and result relations when the receiving use needs those independently obtaining facts. Any log, ticket, assertion, description, or performed-work record is a separate episteme.
 
-**Work occurrence and record boundary.** Do not add a universal `primaryTarget` field, a local `kind` field, or an Operational, Communicative, and Epistemic enumeration to Work identity. Recover the exact affected-referent, transformation, speech-act effect, commitment effect, production, delivery, acceptance, or other relation under its direct pattern. Those adjectives can remain recognition cues; they do not define Work subkinds by enumeration.
+**Work occurrence and record boundary.** Recover the exact affected-referent, transformation, speech-act effect, commitment effect, production, delivery, acceptance, or other relation under its direct pattern. Labels such as *operational*, *communicative* and *epistemic* can remain recognition cues; they do not define Work subkinds by enumeration.
 
 **Didactic note for managers: the chef analogy.** `ChefSystemRole` is one local system-role kind. A kitchen-assignment species defines the holder and assigned-kind positions and adds shift, station, or commission only when it changes the assignment. A particular assignment fills those positions with the chef System, the kind, and any additional value. A cookbook can be a MethodDescription; the chef's skill can be a capability; a WorkPlan can schedule cooking; and making one souffle on Tuesday is dated Work. Its temporal and resource-use relations can state the 25-minute extent, eggs, butter, and consumed gas, while a kitchen log remains a separate episteme. A restaurant vocabulary or scheme can help interpret the claims without becoming a participant in every assignment. The cookbook, skill, plan, assignment, and log do not cook.
 
@@ -124,24 +124,22 @@ For a precise performed occurrence, first recover the A.13 core for the exact ac
 
 #### A.15:4.3 - Bounded specialization scouting and `CheckpointReturn`
 
-When one human-plus-AI pair faces a new task or solution family, identify each participating human or AI service as an admitted System before using this alignment. The pair may use four local system-role kinds for this bounded work: `OutcomeCriterionHolderSystemRole`, `AIScoutSystemRole`, `AISpecialistProbeSystemRole`, and `CommitAuthoritySystemRole`. Claim an assignment only by naming its occurrence and declared species under `U.SystemRoleAssignment`. The `CommitAuthoritySystemRole` name does not supply decision authority; any authority relation must obtain independently.
+For a human-plus-AI pair planning tool calls or probing a route, recover only the Systems, assignments, Methods, plans and Work needed by the alignment claim, with their applicable admission grounds. The pair may use four local system-role kinds for this bounded work: `OutcomeCriterionHolderSystemRole`, `AIScoutSystemRole`, `AISpecialistProbeSystemRole`, and `CommitAuthoritySystemRole`. Claim an assignment only by naming its occurrence and declared species under `U.SystemRoleAssignment`. The `CommitAuthoritySystemRole` name does not supply decision authority; any authority relation must obtain independently.
 
-First distinguish the probe's question. If another probe could change which option survives the `OptionSet`, return to C.11. If changed live facts or domain-Method limits could change the next action during ongoing Work, return to A.15.7. Use the enactment checkpoint below only when the action or option is fixed, tool or service calls must be planned, and route shape or rollout order is uncertain.
+First distinguish the current question. If another probe could change which option survives the `OptionSet`, return to C.11. If changed live facts or domain-Method limits could change the next action during ongoing Work, return to A.15.7. Use C.24 when an applicable domain prescription or a completed decision has fixed the action or option and tool or service calls must be planned.
 
-The pair declares one outcome criterion, explores several candidate routes for that fixed action or option, spends a bounded scouting or probing budget before commitment, and returns one `CheckpointReturn` comparing the tested routes. Keep scouting budget, probing budget, and commit checkpoint distinct. Use A.15 only for this dyadic assignment, Method, plan, and Work alignment; use C.24 for checkpoint-record semantics and E.16 for budget and guard enforcement.
+Use a sufficient existing `CallPlan` directly. When the fixed action's usable route remains unfamiliar, plan a bounded scout or probe under the applicable outcome criterion, budget and permission conditions. After its actual performance, return what was tested and observed in a `CheckpointReturn`. Use A.15 for the assignment, Method, plan and Work claims this use needs, and C.24 for call-plan and checkpoint semantics. When an E.16 autonomy budget governs this bounded scouting, retain its distinct scout budget, probe budget and commit checkpoint and its guard or override path.
 
-Every `CheckpointReturn` carries:
+After a bounded probe, its `CheckpointReturn` carries the C.24 action basis and:
 
-- the declared outcome criterion and current `TaskFamily`;
-- the candidate approaches actually tested;
-- evidence observed for each tested approach, including progress toward the work-measure threshold and important failure signals;
+- the objective or `TaskFamily` and the applicable outcome criterion;
+- the Methods actually tested, with approach descriptions when needed;
+- the evidence observed for those tests and important failure signals, including progress toward any work-measure threshold used by the decision;
 - burned and residual budget;
-- the recommended next use: continue probing, commit to planned Work, narrow the Method or claim, use the direct pattern for another claim, or stop; and
-- the commit trigger that would justify leaving the bounded probe.
+- the recommended next action, such as a further bounded probe, adoption of an identified `CallPlan`, a narrower supported claim, return to the applicable pattern or domain prescription, or stop; and
+- the commit trigger for considering whether to end the probe and adopt an identified `CallPlan`.
 
-The return is evidence about candidate approaches, observed results, budget, and the commit trigger. It is not the selected Method, `U.WorkPlan`, or actual Work. Execution-evidence, provenance, and rollout-decision claims need their own admitted values and relations before committed rollout.
-
-Low-human-overlap approaches remain admissible here only while they stay tied to the outcome criterion, budget limits, and the exact evidence or provenance relation used by the receiving claim.
+The return is evidence about the tested approaches, observed results, budget and proposed continuation. It is not the selected Method, `U.WorkPlan` or actual Work. Use the trigger, probe evidence, residual budget and any required safety or assurance result to decide whether to adopt the identified plan, probe further or stop. Plan adoption, permission to perform calls and actual Work remain separate. Recover the execution-evidence, provenance or rollout-decision claims consumed by that decision or later rollout under their applicable rules.
 
 #### A.15:4.4 - Boundary to A.15.4 Work-Relevant Appearance-Based Reliance Repair
 
@@ -155,7 +153,7 @@ A principle scheme, functional diagram, scenario, screen, or explanation that ex
 
 Do not create a linkage record merely because one unfolding structure mentions several Method- and Work-related values. Keep each direct relation under the pattern that defines it. When a receiving use must preserve an inspectable explanation across those relations, write one bounded `C.2.1` episteme whose EntityOfConcern is the exact selected unfolding `U.Structure`. Its ClaimGraph may cite, as separate claims, the selected Method and Method-relation structure, MethodDescription epistemes, relevant local system-role kinds and assignment occurrences, the Work that enacts the Method, Work-part relations, independently identified transformations and their direct Work-to-change claims, intended WorkPlans, readiness results, capability-fit conditions, evidence, assurance, and gate decisions. Include only claims needed by that receiving use.
 
-Call this episteme a *Method–Work alignment account* in ordinary prose. Its identity comes from its EntityOfConcern, ClaimGraph, and effective ReferenceScheme, not from a field bundle. Each claim in the account remains defined or tested by its own pattern: A.3.1 for Method, A.3.2 for MethodDescription, A.15.2 for planning, A.15.5 for readiness, A.15.1 for dated Work and Work relations, A.10 for evidence, B.3 for assurance, A.20 for internal-constraint results, and A.21 for gate decisions. If the useful account would need several unrelated entities of concern, split it instead of using one umbrella record.
+Call this episteme a *Method–Work alignment account* in ordinary prose. Its identity comes from its EntityOfConcern, ClaimGraph, and effective ReferenceScheme, not from a field bundle. Each claim in the account remains defined or tested by its own pattern: A.3.1 for Method, A.3.2 for MethodDescription, A.15.2 for planning, A.15.5 for readiness, A.15.1 for dated Work and Work relations, B.3 for assurance, A.20 for internal-constraint results, and A.21 for gate decisions. Assess evidence under the rule for the claim it bears on; use A.10 when a replayable source-to-use account is needed. If the useful account would need several unrelated entities of concern, split it instead of using one umbrella record.
 
 Another structure, such as CGUS, P2W, P2S, an improvement-loop slice or a transformation-flow slice, may cite the episteme when its receiving use needs the alignment explanation. Recover the cited claims under their source, identity and applicability conditions; reuse an established result while those grounds remain valid.
 
@@ -163,5 +161,5 @@ Another structure, such as CGUS, P2W, P2S, an improvement-loop slice or a transf
 
 Use `A.15.5` when the current question is whether intended Work is ready to enter its boundary. A.15 keeps system-role kind, assignment, Method, plan, and Work distinct; A.15.5 carries `WorkEntryReadiness@Context`, `FullKitCondition`, commitment disposition, resource-readiness references, WIP or flow-policy references, planned baselines, and launch-gate references when those values are current.
 
-Readiness is not performed Work, evidence sufficiency, or gate passage. A briefing, dashboard, source bundle, or P2W record may cue A.15.5, but a readiness result needs the WorkPlan being judged, the PlanItem content used by the criterion, missing inputs, any performed preparation Work, the planned baseline, and the stop or degraded-use condition. Address the PlanItem content through that WorkPlan; it is not another readiness target.
+Readiness is not performed Work, evidence sufficiency, or gate passage. A briefing, dashboard, source bundle, or P2W record may cue A.15.5. Ground the result in the WorkPlan being judged, the PlanItem content the criterion consumes, that criterion and the facts used to evaluate it. State the readiness result, its qualification window, and the applicable stop or degraded-use condition. Identify missing or unknown required inputs; include performed preparation Work or a planned baseline only when the criterion or receiving use consumes it. Address the PlanItem content through that WorkPlan; it is not another readiness target.
 

@@ -6,12 +6,12 @@ section_id: "A.16.0:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__003_problem.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:2 — Problem"
-line_start: 33663
-line_end: 33671
+line_start: 33622
+line_end: 33630
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -43,11 +43,11 @@ keywords:
 ---
 
 ### A.16.0:2 - Problem
-Without an explicit trajectory-account pattern for those heavier cases:
+When history needed for the receiving use is left implicit:
 
 1. history is mistaken for a generic one-pass process story rather than read as typed language-state moves over a declared `U.CharacteristicSpace`;
 2. an early seam form is confused with an endpoint-admitted episteme or with the publication occurrence that makes an episteme edition available;
 3. forks, merges, route retirement, supersession, and route-sensitive loss become implicit and unverifiable;
-4. every local move is either over-wrapped in ad hoc history prose or under-described in a way that hides a work boundary or a separately established responsibility or authority change;
+4. local move accounts may add unnecessary history detail or omit a work boundary or responsibility change that the receiving use needs;
 5. bridge and viewpoint docking inherit under-described upstream history.
 

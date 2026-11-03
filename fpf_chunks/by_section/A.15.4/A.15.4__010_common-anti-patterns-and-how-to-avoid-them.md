@@ -6,12 +6,12 @@ section_id: "A.15.4:5"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:5 — Common Anti-Patterns and How to Avoid Them"
-line_start: 30856
-line_end: 30859
+line_start: 30815
+line_end: 30818
 dependencies:
   - "A.10"
   - "A.13"
@@ -45,13 +45,14 @@ keywords:
   - "exact attempted use"
   - "generated explanation"
   - "governing pattern and direct object"
-  - "independent required-position rows"
+  - "optional comparison rows"
   - "orientation and source-finding"
+  - "prerequisites"
   - "project-side reference"
   - "publication face"
 ---
 
 ### A.15.4:5 - Common Anti-Patterns and How to Avoid Them
 
-- **Appearance as source relation.** A dashboard tile, credential display, copied approval, generated explanation, provenance label, command-like cue, or composed source-relation chain is used as if presentation itself carried the work-relevant source relation. First name the work or reliance claim under repair, work-relevant P2W claim under repair, or P2W chain position under repair, then recover the required relation or result, its `SubjectPatternLocator`, and project-side reference. If that value is missing, lower only the unsupported reliance.
+- **Appearance as source relation.** A dashboard tile, credential display, copied approval, generated explanation, provenance label, command-like cue, or composed source-relation chain is used as if presentation itself carried the work-relevant source relation. Name the attempted use, recover the required prerequisite and its test, and add a project-side reference when that rule or use requires it. If the basis is missing, lower only the unsupported reliance.
 

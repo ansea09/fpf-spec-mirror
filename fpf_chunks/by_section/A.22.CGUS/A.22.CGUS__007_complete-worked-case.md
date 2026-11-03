@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:5"
 section_title: "Complete Worked Case"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__007_complete-worked-case.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.22.CGUS — Which Continuations Are Available? — Constraint-Governed Unfolding Structure (CGUS)"
   - "A.22.CGUS:5 — Complete Worked Case"
-line_start: 40899
-line_end: 40986
+line_start: 40828
+line_end: 40915
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,7 +45,7 @@ keywords:
 
 ### A.22.CGUS:5 - Complete Worked Case
 
-Return to the design review from `4.1`. The ordinary card becomes formal only because the team now needs to retain and compare the review basis across editions.
+Return to the design review from `4.1`. The team now needs to determine whether reviews across editions use the same qualified unfolding structure or a different one. Recover the formal basis below for that comparison.
 
 ```text
 selectedCGUSRef: DesignReviewAlternatives@DR-27

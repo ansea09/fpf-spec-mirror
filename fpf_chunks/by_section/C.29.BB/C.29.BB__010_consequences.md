@@ -6,12 +6,12 @@ section_id: "C.29.BB:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__010_consequences.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:9 — Consequences"
-line_start: 71429
-line_end: 71434
+line_start: 71350
+line_end: 71355
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"

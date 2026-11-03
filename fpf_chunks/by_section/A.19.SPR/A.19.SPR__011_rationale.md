@@ -6,12 +6,12 @@ section_id: "A.19.SPR:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__011_rationale.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:9 — Rationale"
-line_start: 35560
-line_end: 35565
+line_start: 35521
+line_end: 35526
 dependencies:
   - "A.10"
   - "A.16"
@@ -45,7 +45,7 @@ keywords:
 
 ### A.19.SPR:9 - Rationale
 
-The problem is not the word `state`. The problem is a sentence that hides what has changed, what is being judged, or which rule makes the judgment meaningful. Recovering those facts first lets FPF keep short engineering language without creating a general status ontology.
+Recover the item and the value, relation, result or claim being stated; name the rule or criterion when the reader needs it to understand or act. These facts let practitioners use short engineering language while retaining each claim’s kind and conditions.
 
-Local fields such as `LensUseBoundaryValue` and `dynClaimPosture` remain useful when their object, possible values, and rule are clear. Broad phrases such as `source posture`, `evidence posture`, or `release posture` should instead become the direct sentence or project record the reader actually needs.
+A local field such as `LensUseBoundaryValue` remains useful when its object, possible values, and rule are clear. Broad phrases such as `source posture`, `evidence posture`, or `release posture` should instead become the direct sentence or project record the reader actually needs.
 

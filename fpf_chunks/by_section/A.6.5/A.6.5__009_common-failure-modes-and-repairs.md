@@ -6,12 +6,12 @@ section_id: "A.6.5:8"
 section_title: "Common Failure Modes and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__009_common-failure-modes-and-repairs.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:8 — Common Failure Modes and Repairs"
-line_start: 23581
-line_end: 23597
+line_start: 23560
+line_end: 23575
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -30,9 +30,8 @@ keywords:
 
 | Failure | Why it matters | Repair |
 |---|---|---|
-| Rule set treated as a root kind | A rule set is promoted into an unsupported world-side entity. | Keep A.6.5 as the rule set that constrains `SlotSpec` declarations; apply E.24.UK to any future U-kind candidate. |
 | Generic `byRef` without an exact RefKind | A later use cannot tell what referent kind can be resolved. | Declare the exact RefKind, or expand the compact sketch next to its use. |
-| Reference treated as the relation participant | A storage or publication choice changes the claimed world-side ontology. | Keep the referent as participant; state refMode only for the receiving assertion or description episteme that carries the designation. |
+| Reference substituted for the referent required by the direct participant meaning | A storage or publication choice changes the claimed world-side participant. | Keep that referent as participant; state refMode for the designation carried by the receiving assertion or description episteme. |
 | One SlotSpec contains a ValueKind written as a list of unrelated alternatives | Different predicate semantics are hidden behind one participant meaning. | Recover the real common ValueKind when one exists; otherwise split the relation kind. |
 | One source word names a SlotKind, participant ValueKind, reference and field | A reader cannot tell what may be substituted, resolved or renamed. | Distinguish the declaration, designation and referent. For example, HolderSystemSlot is local to the declaration, Robot_7_Ref is an entity reference and Robot_7 is its System referent. Keep the source field name and state the applicable correspondence. |
 | Active grammar treated as proof of literal agency | A grammatical subject is assumed to be the acting System without grounds. | Recover the actor when the claim depends on literal action. Keep clear ordinary metonymy; use the defining patterns only for a remaining relation, Work, Method or transformation question. |

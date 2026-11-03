@@ -6,12 +6,12 @@ section_id: "A.19.UNM:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__003_problem-frame.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:1 — Problem frame"
-line_start: 37523
-line_end: 37534
+line_start: 37458
+line_end: 37469
 dependencies:
 keywords:
   - "CV→NCV"
@@ -27,13 +27,13 @@ keywords:
 
 ### A.19.UNM:1 - Problem frame
 
-FPF needs a disciplined way to talk about **measurable slots** (coordinates/scales) such that engineers can reason about:
+To compare coordinate values, engineers need to establish:
 - **What it means** to compare values across charts, slices, bearers, or reference bases, and
-- **Where the “meaning-preserving” transformations live**, so comparisons are lawful and explainable.
+- **Which transformations preserve the required distinctions**, with their conditions and losses.
 
 In practice, teams routinely face a mismatch between:
 - values that look comparable (“they’re numbers”), and
 - values whose comparison basis differs, such as units, observation populations or validity windows. A supported normalization may make the needed values comparable; some differences instead require new measurements or evaluation grounds, a different comparison, or an unresolved result.
 
-FPF’s CHR family explicitly separates stages (normalize → indicatorize → score → fold → compare → select). UNM is the *normalization* stage, and its job is to make “compare-on-invariants” explicit and auditable.
+CHR distinguishes normalization, indicatorization, scoring, aggregation, comparison and selection. The chosen protocol determines which stages are needed; UNM supplies normalization when that comparison or characterization requires it.
 

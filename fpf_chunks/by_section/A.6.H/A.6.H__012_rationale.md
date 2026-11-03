@@ -6,12 +6,12 @@ section_id: "A.6.H:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__012_rationale.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:10 — Rationale"
-line_start: 25481
-line_end: 25488
+line_start: 25445
+line_end: 25452
 dependencies:
   - "A.1"
   - "A.10"
@@ -21,6 +21,8 @@ dependencies:
   - "A.15.1"
   - "A.15.2"
   - "A.15.PROD"
+  - "A.17"
+  - "A.2.4"
   - "A.22"
   - "A.3.1"
   - "A.3.2"

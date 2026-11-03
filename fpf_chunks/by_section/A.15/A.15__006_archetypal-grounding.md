@@ -6,12 +6,12 @@ section_id: "A.15:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__006_archetypal-grounding.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:5 — Archetypal Grounding"
-line_start: 28968
-line_end: 29015
+line_start: 28930
+line_end: 28977
 dependencies:
   - "A.10"
   - "A.13"
@@ -109,5 +109,5 @@ This publication can guide Method inspection and planning. Keep the selected Met
 
 **Published slice.** `Under scenario S, method family MF-2 is admissible for planning; choose the selected method and prepare the work plan before execution.`
 
-The scenario can guide Method-family selection and planning. Identify a selected Method or resulting WorkPlan in the account where that result is needed. Ground any later dated Work independently under A.15.1; a record may designate it but is not that occurrence. For evidence, gate or engineering-justification reliance, recover the required relation or decision under A.10, A.20, A.21 or B.3. If it is unavailable, narrow the use and keep the needed gap or continuation in the receiving account.
+The scenario can guide Method-family selection and planning. Identify a selected Method or resulting WorkPlan in the account where that result is needed. Ground any later dated Work independently under A.15.1; a record may designate it but is not that occurrence. For evidence, gate or engineering-justification reliance, establish the required claim, relation or decision under its direct rule, such as A.20 for internal-constraint results, A.21 for gate decisions or B.3 for assurance. Use A.10 when that reliance needs a replayable source-to-use account. If a required basis is unavailable, narrow the use and keep the needed gap or continuation in the receiving account.
 

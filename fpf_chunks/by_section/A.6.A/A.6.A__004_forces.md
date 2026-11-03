@@ -6,12 +6,12 @@ section_id: "A.6.A:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__004_forces.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:3 — Forces"
-line_start: 21963
-line_end: 21973
+line_start: 21945
+line_end: 21955
 dependencies:
   - "A.15"
   - "A.16"
@@ -35,7 +35,6 @@ dependencies:
   - "E.10"
   - "E.17"
   - "E.17.0"
-  - "E.18"
   - "F.17"
   - "F.18"
   - "F.9"

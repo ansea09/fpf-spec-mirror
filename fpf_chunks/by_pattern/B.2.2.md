@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.2.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
-line_start: 44035
-line_end: 44258
+line_start: 43956
+line_end: 44179
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__004_forces.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:3 — Forces"
-line_start: 17897
-line_end: 17906
+line_start: 17880
+line_end: 17889
 dependencies:
   - "A.15"
   - "A.20"
@@ -35,8 +35,8 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Reader economy vs source relation | Readers need short, useful renderings, but shortness must not erase the source-bearing side or its limits. |
-| Ordinary use vs exact reuse or reliance | A small summary should stay cheap, while independent transfer, dispute, citation, policy, bridge, work, gate, privacy, or consequential reliance needs the exact branch. Add evidence or assurance only if and to the extent the receiving use materially requires it. |
+| Ordinary use vs exact reuse or reliance | Independent transfer requires the exact branch; other reuse or reliance opens it when endpoint or construction identity matters. Add evidence or assurance only to the extent required by that use. |
 | Helpfulness vs non-admissible authority interpretation | A reader may propose the same short account for orientation and for a decision requiring evidence, a Bridge or substitution claim, approval, or execution authority. Those uses need their own support. |
 | Coarsening-chain reuse vs provenance reset | Reusing one coarsened rendering to make another saves effort, but it must not reset source path, loss envelope, uncertainty, or reopen duty. |
-| Neighbor clarity vs family sprawl | One shared controlled-coarsening account should prevent local repetition without stealing ordinary rewrite, representation, explanation, comparison, bridge, stance, work, or gate questions from the patterns that define or test them. |
+
 

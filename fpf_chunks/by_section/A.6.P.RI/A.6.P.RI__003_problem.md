@@ -6,12 +6,12 @@ section_id: "A.6.P.RI:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.RI/A.6.P.RI__003_problem.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.P.RI — Recover Agent-Relative References for Action"
   - "A.6.P.RI:2 — Problem"
-line_start: 20578
-line_end: 20585
+line_start: 20560
+line_end: 20567
 dependencies:
   - "A.6.3.RT"
   - "A.6.4"

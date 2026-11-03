@@ -6,12 +6,12 @@ section_id: "A.15.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__002_problem-frame.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:1 — Problem frame"
-line_start: 31156
-line_end: 31193
+line_start: 31115
+line_end: 31152
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -50,7 +50,7 @@ Use it also when **project system-of-interest** wording leaves unclear whether t
 
 A claim of locality to one actual project requires a direct relation to its performed project Work, as section 4.5 states; an `@Project` name supplies only a label.
 
-**First useful move.** If the project focus itself is unresolved, state the sought outside difference, relying use, conflicting interests, comparison-and-acceptance conditions, receiving decision, evidence horizon, and main uncertainty. Compare candidate project subjects and materially different solution forms before designating a project system-of-interest or Method-of-interest.
+**First useful move.** If the project focus itself is unresolved, state the sought outside difference, relying use, comparison-and-acceptance conditions and receiving decision. Include any conflicting interests, evidence horizon or uncertainty that can change the choice or qualify its use. Compare candidate project subjects and materially different solution forms before designating a project system-of-interest or Method-of-interest.
 
 Otherwise ask what the next decision is about: the Work that happened, the reusable way of doing, the organization of particular Method-side objects and relations, a TransformationFlowStructure, the referent being changed, or the System whose change or later use organizes the project.
 

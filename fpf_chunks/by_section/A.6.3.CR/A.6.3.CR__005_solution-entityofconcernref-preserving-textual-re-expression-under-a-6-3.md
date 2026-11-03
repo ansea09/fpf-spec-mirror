@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:4"
 section_title: "Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__005_solution-entityofconcernref-preserving-textual-re-expression-under-a-6-3.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:4 — Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
-line_start: 18231
-line_end: 18380
+line_start: 18213
+line_end: 18362
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -98,7 +98,7 @@ Only after these questions are answered does a fuller review record usually beco
 
 #### A.6.3.CR:4.3 - Working-model first; explicit review record only when the case needs fuller review
 
-Follow **E.14’s working-model-first discipline**: an ordinary report, summary, or translation states what stayed the same, what was omitted, when the rewrite stops being conservative, and which pattern to use next. Put only the support needed for the current review or reliance question beneath that account.
+Follow **E.14’s working-model-first discipline**: an ordinary report, summary, or translation keeps the source claims, preserved meaning and material omissions recoverable. When a changed claim needs another pattern, name that claim and its route. Put only the support needed for the current review or reliance question beneath that account.
 
 **Ordinary case (default).** For everyday entityOfConcernRef-preserving rewrites, it is usually enough that the text or its surrounding publication keeps explicit:
 - which source `U.Episteme` claims are being re-expressed;
@@ -153,7 +153,7 @@ Each example remains under A.6.3 only while the same-entity and conservativity l
 
 ##### A.6.3.CR:4.5.a. - Preservation rule
 
-A case under `ConservativeRetextualization` preserves the same resolved EntityOfConcern, the declared bounded context, and the already available claim-bearing source while changing wording, register, language, ordering, or density. It states what remains preserved about claim scope, publication scope, pins, provenance, grounding, and ontic scaffold, and it says whether the case is `Direct` or `Correspondence`.
+A case under `ConservativeRetextualization` preserves the same resolved EntityOfConcern, the declared bounded context and support from the identified available source claims while changing wording, register, language, ordering, or density. Keep conditions on claim scope, publication scope, pins, provenance, grounding and ontic scaffold recoverable where they affect interpretation or intended use. State whether the case is `Direct` or `Correspondence` when that distinction is not already obvious.
 
 ##### A.6.3.CR:4.5.b. - Loss and reliability rule
 
@@ -165,7 +165,7 @@ A case reviewed under this pattern stays about the same entity and remains an ep
 
 ##### A.6.3.CR:4.5.d. - Composition and reopen rule
 
-A repeat claim follows A.6.3:4.7: identify the first and next rewrite arrows, establish the same resulting episteme and the required composite equivalence, and supply a fixture or proof. Different rewrite orders may yield different results. Reopen the affected claims when a needed source, correspondence witness, provenance, publication-form condition or preservation basis is no longer recoverable. Revalidate them when such a dependency changes materially, even if it remains explicit; unaffected claims retain their grounds. E.17:5.1b–c supplies the applicable reopen conditions.
+For deterministic replay or composition, use A.6.3:4.7. To claim that a further normalization leaves the result unchanged, identify the first and next rewrite arrows, establish the same resulting episteme and the required composite equivalence, and supply a fixture or proof. Different rewrite orders may yield different results. Reopen the affected claims when a needed source, correspondence witness, provenance, publication-form condition or preservation basis is no longer recoverable. Revalidate them when such a dependency changes materially, even if it remains explicit; unaffected claims retain their grounds. E.17:5.1b–c supplies the applicable reopen conditions.
 
 ##### A.6.3.CR:4.5.e. - Correspondence and its receiving use
 

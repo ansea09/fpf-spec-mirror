@@ -6,12 +6,12 @@ section_id: "A.15.8:5"
 section_title: "Precision restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__006_precision-restoration.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:5 — Precision restoration"
-line_start: 31871
-line_end: 31887
+line_start: 31828
+line_end: 31844
 dependencies:
   - "A.1"
   - "A.10"
@@ -24,6 +24,7 @@ dependencies:
   - "A.15.8"
   - "A.2.1"
   - "A.2.2"
+  - "A.2.4"
   - "A.22"
   - "A.6.RCD"
   - "A.6.REL"
@@ -49,9 +50,9 @@ Recover the exact object or relation before relying on the umbrella word.
 | *memory* | Recover the exact holder capability, internal state, model state, record or episteme, persistent runtime state, cultural-continuation claim, or retrieval, update, and forgetting relation that is current. | Storage, retrieval, capability, knowledge, model state, and cultural continuation are one value. |
 | *computation* | Recover the exact operation, Method, performed Work, performing System, inputs, outputs, and resource relation when each is current. | A model, calculator, or service performs the containing Work merely because it computes. |
 | *checking* | Recover the actual observation, monitoring, evaluation, verification, validation, assurance, or decision and its separately governed result. Identify dated Work only when that occurrence is part of the claim. | A checklist or score performs checking, supplies authority, or proves fitness. |
-| *work state* | Recover the minimum exact world-side states, claims, intermediate results, commitments, configuration values, bearers, carriers, update/use relations, and currentness conditions needed for the named continuation. | One new `U.WorkState` object; a record is identical to world state; or persistence proves resumability. |
-| *cue* or *return point* | Recover the exact sign, representation, event, location, state condition, or source-finding aid; who or what interprets it; and the observation that it changes recovery. Use `A.10` when it is relied on as evidence and `A.15.4` when appearance-based reliance hides its owner. | A cue is evidence of correctness, a universal trigger, or an obtaining recovery relation by appearance alone. |
+| *work state* | Recover the minimum exact world-side states, claims, intermediate results, commitments, configuration values, bearers, carriers, update/use relations, and currentness conditions needed for the named continuation. | A record is identical to world state, or persistence proves resumability. |
+| *cue* or *return point* | Recover the exact sign, representation, event, location, state condition, or source-finding aid; who or what interprets it; and the observation that it changes recovery. Use `A.2.4` for a claim used as evidence, `A.10` when its source-to-use account must remain replayable, and `A.15.4` when appearance-based reliance hides its owner. | A cue is evidence of correctness, a universal trigger, or an obtaining recovery relation by appearance alone. |
 | *configuration* or *arrangement* | Recover the exact Systems, values, and obtaining or proposed relations needed by the branch. Use `A.22` or `C.30` only when a selected Structure or architecture claim is actually required. | A support list is already one Structure, architecture, whole, or performer. |
 
-**Bias check.** Human-centered cognitive vocabulary and anthropomorphic AI vocabulary are easy to recognize and therefore easy to overgeneralize. Begin with the exact Work or WorkPlan and direct relations. A bacterium, computation, machine, person, or team enters by the same FPF branch and relation rules; none requires mental, stakeholder, or ethical vocabulary unless the receiving question independently does.
+**Bias check.** Human-centered cognitive vocabulary and anthropomorphic AI vocabulary are easy to recognize and therefore easy to overgeneralize. Begin with the exact Work or WorkPlan and recover the concrete participants, values and relations needed for its result.
 

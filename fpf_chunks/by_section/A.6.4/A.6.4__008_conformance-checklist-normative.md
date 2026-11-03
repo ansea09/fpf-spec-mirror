@@ -6,12 +6,12 @@ section_id: "A.6.4:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__008_conformance-checklist-normative.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:7 — Conformance Checklist (normative)"
-line_start: 19926
-line_end: 19947
+line_start: 19908
+line_end: 19929
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,7 @@ keywords:
 
 **CC-A.6.4-2 - Arrow identity.** The selected formal substrate supplies r's exact endpoints, arrow rule or designator, and equivalence criterion. Same endpoints, a diagram, or a use claim alone does not identify r.
 
-**CC-A.6.4-3 - Separate use proposition and case judgement.** One C.2.1 assertion q names r, one receiving use, the invariant, visible loss, conditions, and affirmative or negative polarity. A separate current-case judgement reports `satisfies`, `fails`, or `cannot decide` from exact current facts. The same r may have another q and judgement for another use.
+**CC-A.6.4-3 - Separate use proposition and case judgement.** For a claimed receiving use, one C.2.1 assertion q names r, the receiving use, invariant, visible loss, conditions, and affirmative or negative polarity. When evaluating a current case, a separate judgement reports `satisfies`, `fails`, or `cannot decide` from exact current facts. The same r may have another q and judgement for another use.
 
 **CC-A.6.4-4 - Conservative receiving claim.** Every assertion in Y satisfies A.6.2 P2. For an affirmative q, `satisfies` additionally requires enough case basis for q's invariant, loss condition and stated use. For either polarity, facts contrary to q yield `fails`; a missing deciding fact yields `cannot decide` and names that fact and the reopen condition. Neither result changes q's polarity.
 

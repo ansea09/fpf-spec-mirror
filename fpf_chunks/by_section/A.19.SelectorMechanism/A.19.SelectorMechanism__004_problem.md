@@ -6,20 +6,20 @@ section_id: "A.19.SelectorMechanism:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__004_problem.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:2 — Problem"
-line_start: 39267
-line_end: 39286
+line_start: 39200
+line_end: 39219
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
   - "A.19.CPM"
   - "A.19.ULSAM"
   - "A.19.USCM"
+  - "A.6.0"
   - "A.6.1"
-  - "A.6.5"
   - "C.22"
   - "E.18"
   - "G.0"

@@ -6,12 +6,12 @@ section_id: "C.29.BB:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 71420
-line_end: 71428
+line_start: 71341
+line_end: 71349
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"

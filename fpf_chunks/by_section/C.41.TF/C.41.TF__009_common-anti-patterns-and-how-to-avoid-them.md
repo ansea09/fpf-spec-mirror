@@ -6,12 +6,12 @@ section_id: "C.41.TF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 89483
-line_end: 89491
+line_start: 89404
+line_end: 89412
 dependencies:
   - "C.37"
   - "C.41"

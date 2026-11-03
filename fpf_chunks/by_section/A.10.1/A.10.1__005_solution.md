@@ -6,12 +6,12 @@ section_id: "A.10.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10.1/A.10.1__005_solution.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes"
   - "A.10.1:4 — Solution"
-line_start: 27184
-line_end: 27323
+line_start: 27148
+line_end: 27287
 dependencies:
   - "A.10"
   - "A.10.1"
@@ -36,7 +36,7 @@ Use the outline in 4.1 to locate the current move; sections 4.2–4.7 give its c
 4. **State reproducible discovery coverage.** Name the source identifiers, aliases and claim addresses actually needed; the included search surfaces; the source-outward and receiver-oriented routes; and each known unsearched, inaccessible, stale, unindexed or identity-ambiguous surface within the frame.
 5. **Discover and then name candidate receiving uses.** Use search, citations, lineage, traces, indexes, owner knowledge, or tools to find candidates. Inspect the receiving content and recover the exact premise, evidence-use, operation-argument, specification, decision-basis, or other direct relation. Discovery alone establishes no reliance.
 6. **Classify and bound reach.** Distinguish actual dependence, irrelevant mentions and unresolved uses within the searched frame. Group equivalent irrelevant mentions when one inspected reason covers them. Retain the direct-use basis and gaps that can change the receiving conclusion, without a separate exclusion record for each mention. Follow a `depends` branch only through another exact use relation while a receiving action can change. Supply the discovery-and-reach content needed by each subject judgment.
-7. **Apply the direct subject pattern's guidance.** Use the discovery-and-reach statement to apply that guidance to the changed claim, exact direct use, current conditions, affected reach, coverage limits, and material subject facts. The practitioner or admitted System carrying out that application may find that the proposed dependence must be narrowed or rejected or that stronger evidence is required. Use adequate existing evidence and return the supported subject result or its scoped blocker directly to its existing consumers. Further inquiry is selected for the receiving question; a discovery gap alone does not commission Work.
+7. **Apply the direct subject pattern's guidance.** Use the discovery-and-reach statement to apply that guidance to the changed claim, exact direct use, current conditions, affected reach, coverage limits, and material subject facts. Applying that guidance may show that the proposed dependence must be narrowed or rejected or that stronger evidence is required. Use adequate existing evidence and return the supported subject result or its scoped blocker directly to its existing consumers. Further inquiry is selected for the receiving question; a discovery gap alone does not commission Work.
 8. **Supply a common account when a receiver needs it.** A sufficient direct subject result can finish the use. If another receiving question needs an overview, cite the independently governed results and summarize only the consequences it needs. That summary neither replaces those results nor changes `A.10 RelianceDisposition`.
 9. **Stop at the completed receiving answer.** Apply the branch conditions in 4.7. Preserve the coverage and direct-use basis needed for the conclusion actually returned, including material gaps. Name a next actor or reopen observation when the receiving use needs that continuation. An unresolved independent branch need not delay a completed one.
 
@@ -71,7 +71,7 @@ These fields apply when affected-use discovery is selected. Set the frame before
 | Receiving families | Decision, result, model, specification, plan, account, procedure, or other families in which a use would count. |
 | Conditions | Configurations, jurisdictions, populations, situations, intervals, horizons, or editions that bound applicability. |
 | Discovery surfaces | Repositories, registers, model stores, data catalogues, decision records, account stores, owner-held sources, and other included locations. |
-| Owners and access | Responsible contacts, access limits, and any surface whose owner or identity is unresolved. |
+| Owners and access | Contacts, access limits, and unresolved surface ownership or identity when they affect discovery, the conclusion, or a needed continuation. |
 | Explicit exclusions | The boundary and exclusion reasons needed to delimit this question. Group equivalent exclusions; do not enumerate every non-receiving product, period or mention. |
 
 Coverage is adequate only relative to that frame. Use complementary routes:
@@ -89,7 +89,7 @@ Search output supplies candidates. The receiving content supplies the reliance t
 | --- | --- | --- |
 | `depends` | The receiving action, interpretation, condition, result, check, specification, or public reference uses the changed claim through an exact direct relation and could change if that claim changes. | Include the use in affected reach and prepare a discovery-and-reach statement for application of its direct subject-pattern guidance. |
 | `mentions only` | The content cites, lists, stores, describes, or sits near the source, but its current action or result does not use the changed claim. | Exclude it from affected reach. Group equivalent irrelevant mentions and retain a short reason in the existing result when its receiver needs it; no separate certificate is required. |
-| `unresolved` | The premise, equivalent claim, applicability, direct relation, receiving content, or necessary access cannot yet be recovered or contested dependence remains. | Name the missing fact or owner. Continue independent resolved branches, but do not classify this candidate as unaffected. |
+| `unresolved` | The premise, equivalent claim, applicability, direct relation, receiving content, or necessary access cannot yet be recovered or contested dependence remains. | Name the gap that prevents deciding dependence; add a responsible contact when the next action needs one. Continue independent resolved branches, but do not classify this candidate as unaffected. |
 
 These discovery dispositions answer whether a found candidate belongs in the affected branch. They are not `A.10 RelianceDisposition` values. Use `A.10` to judge whether one bounded evidence use passes, degrades, abstains, reopens, needs evidence or assurance, or is blocked for current use.
 
@@ -111,7 +111,7 @@ The statement is usable claim content for that subject judgment, not a new manda
 
 #### A.10.1:4.5 - Apply Direct Subject Guidance and Keep the Result Independent
 
-Discovery and reach classification prepare the branch for subject judgment. A practitioner or admitted System applies the direct subject pattern's concrete rule or test to each `depends` branch. Recover or recheck facts about current conditions, evidence, authority, cost, and Work only where those facts can change the independently governed result.
+Discovery and reach classification prepare the branch for subject judgment. Apply the direct subject pattern's concrete rule or test to each `depends` branch. Recover or recheck facts about current conditions, evidence, authority, cost, and Work only where those facts can change the independently governed result.
 
 | Live question | Governing contribution to apply |
 | --- | --- |
@@ -125,7 +125,7 @@ Discovery and reach classification prepare the branch for subject judgment. A pr
 | Planned or performed Work and actual bindings | `A.15.2` for a current WorkPlan/PlanItem question; `A.13` and independent `A.15.1` for a deliberately asserted dated Work; `F.6` only for precise assignment-bound attribution; `A.6.1` for actual operation bindings |
 | FPF pattern-edition continuity | `E.15` |
 
-A practitioner or admitted System may, by applying the direct subject rule or test, narrow or reject the proposed affected reach. Keep the independently obtained result on its existing direct route: the engineering source-change result governed by `SYSE.19` goes to `SYSE.14`; revision feedback governed by `FIN.17` goes to `FIN.4`; and the assumption-impact result governed by `STR.2` goes to `STR.3` and `STR.4`.
+The practitioner may, by applying the direct subject rule or test, narrow or reject the proposed affected reach. Return the independently obtained result to its actual receiver: for example, `SYSE.14` for an engineering release decision, `FIN.4` for revising a financial account or forecast, `STR.3` for a needed strategic problem formulation, or `STR.4` for needed scenario construction.
 
 When a common account is needed, it cites independently governed subject results and is never their own input. The information dependency is:
 

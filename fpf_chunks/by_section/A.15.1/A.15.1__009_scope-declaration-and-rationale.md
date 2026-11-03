@@ -6,12 +6,12 @@ section_id: "A.15.1:7"
 section_title: "Scope Declaration and Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__009_scope-declaration-and-rationale.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:7 — Scope Declaration and Rationale"
-line_start: 29578
-line_end: 29583
+line_start: 29540
+line_end: 29545
 dependencies:
   - "A.1"
   - "A.10"
@@ -58,5 +58,5 @@ keywords:
 
 * **Applicability:** Use the same occurrence test for pragmatic costing, architecture use, teaching examples, and source or evidence questions; when the current claim is only about a description, publication, source, or evidence relation, apply the direct pattern for that claim.
 * **Scope declaration:** The occurrence head is universal. Temporal semantics use the declared temporal reference. A simple uninterrupted occurrence needs no continuity-policy episteme; identity, episode, retry, resumption, or aggregation claims cite `workContinuityPolicyRef` and its effective reference scheme only when the named use must resolve an ambiguous boundary. Add claim scope, a qualification window, model-use structure, evidence use, or source-currentness assessment only when changing that neighboring fact would change the receiving assertion or reliance; otherwise omit it.
-* **Rationale:** Gives FPF a clean, actionable notion of **occurrence** with an A.13 agency basis for every actual performer `U.System`, an independently grounded performance history, an obtaining `enactsMethod` relation, temporal extent, and containment. When precise assignment-bound attribution is current, a separately checked F.6 relation uses the covering occurrence of the exact directly declared `U.SystemRoleAssignment` species. Costing, quality, and audit then rest on independently identified Work occurrences rather than plans, recipes, assignments made to act, or a generic role-enactment fact.
+* **Rationale:** Gives FPF a notion of **occurrence** with an A.13 agency basis for every actual performer `U.System`, an independently grounded performance history, an obtaining `enactsMethod` relation, temporal extent, and containment. When precise assignment-bound attribution is current, a separately checked F.6 relation uses the covering occurrence of the exact directly declared `U.SystemRoleAssignment` species. Costing, quality, and audit then rest on independently identified Work occurrences rather than plans, recipes, assignments made to act, or a generic role-enactment fact.
 

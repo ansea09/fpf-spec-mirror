@@ -6,12 +6,12 @@ section_id: "A.19.UNM:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__004_problem.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:2 — Problem"
-line_start: 37535
-line_end: 37547
+line_start: 37470
+line_end: 37482
 dependencies:
 keywords:
   - "CV→NCV"
@@ -27,12 +27,12 @@ keywords:
 
 ### A.19.UNM:2 - Problem
 
-Without an explicit UNM governing pattern:
+Hidden or inadequately specified normalization causes four recurring difficulties:
 
 1) **Normalization drifts into hidden places.** It gets embedded inside scoring, comparison, or selection, making admissibility and governance non-local.
 
 2) **Comparability becomes rhetorical.** People say “we normalize” but cannot answer:
-   *Which method? Which invariants? Which bearer, comparison basis, scope and window? Which evidence? Does the receiving comparison rely on an actual Bridge, kind relation, or plane relation?*
+   *Which method and invariants? Which bearer, comparison basis and applicable scope or window? Which evidence? Does the receiving comparison rely on an obtaining Bridge, kind relation or plane relation?*
 
 3) **Basis and relation changes become invisible.** Teams reuse normalizations for another bearer, comparison basis, source-local meaning, or reference plane without naming what changed or the relation on which the new use depends.
 

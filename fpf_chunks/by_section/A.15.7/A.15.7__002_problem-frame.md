@@ -6,12 +6,12 @@ section_id: "A.15.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.7/A.15.7__002_problem-frame.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.7 — Situation-Responsive Work Steering and Next-Action Selection"
   - "A.15.7:1 — Problem frame"
-line_start: 31568
-line_end: 31603
+line_start: 31527
+line_end: 31562
 dependencies:
   - "A.10"
   - "A.13"
@@ -35,13 +35,13 @@ keywords:
 
 **Use this when.** Use this pattern when you are in the middle of Work, current facts can change what should happen next, and a domain Method still sets what is allowed.
 
-**First useful result.** Give a short answer with three visible parts:
+**First useful result.** Give a supported next-action answer in ordinary language, with the content needed for its use:
 
-1. **Decision now:** take this next action because the current facts and the Method's limits support it as an adequate continuation.
-2. **Performer:** name the intended System performer. If another System made the choice, name the chooser separately.
-3. **Stop and feedback:** say when to stop, fall back, or look again, and which resulting observation can inform the next choice.
+1. **Decision now:** state the selected continuation and its grounds, or the limitation that requires a stop or return to another question.
+2. **Performer:** identify the intended System performer when an action is selected. Name the chooser separately when it differs.
+3. **Stop and feedback:** retain the stop, fallback, reconsideration or observation condition that the selected continuation or receiving use needs.
 
-For a reversible local choice, ordinary project language is enough. When a use needs to cite, compare, audit, or rely on an identified claim, use an existing sufficient episteme or identify one under C.2.1. Preserve access when later reliance requires it. The answer states the selected action and its grounds.
+For a reversible local choice, ordinary project language is enough. When a use needs to cite, compare, audit, or rely on an identified claim, use an existing sufficient episteme or identify one under C.2.1. Preserve access when later reliance requires it. The answer states the supported result and its grounds.
 
 **Three recognition cases.**
 
@@ -51,7 +51,7 @@ For a reversible local choice, ordinary project language is enough. When a use n
 
 **What goes wrong if missed.** A plan, policy, score, case file, recommender output, dashboard, trace, or pattern body is treated as the chooser. Every cue is forced into a heavy decision record, or every adjustment is called improvisation. The team may also invent an option set after the real issue has become stale information, missing authority, missing capability, or no current Work at all.
 
-**What this buys.** The user gets one practical next action without losing the domain Method, current Work, deciding System, performer, authority, and stop or feedback condition. Familiar recognition, quick adaptation, explicit comparison, candidate generation, and tool-call planning remain different branches rather than one universal procedure.
+**What this buys.** The user gets a supported continuation or a named blocker, with the domain Method, current Work, deciding System, intended performer when one is needed, and applicable authority, stop and feedback conditions clear. Familiar recognition, quick adaptation, explicit comparison, candidate generation, and tool-call planning remain different branches rather than one universal procedure.
 
 **Not this pattern when.** Use the nearest applicable pattern instead:
 

@@ -6,12 +6,12 @@ section_id: "A.19:0"
 section_title: "First use: declare a space and one predicate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__002_first-use-declare-a-space-and-one-predicate.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19 — CharacteristicSpace: Coordinates, State Predicates and Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:0 — First use: declare a space and one predicate"
-line_start: 34657
-line_end: 34687
+line_start: 34618
+line_end: 34648
 dependencies:
   - "A.10"
   - "A.15"
@@ -23,7 +23,6 @@ dependencies:
   - "A.19.ULSAM"
   - "A.19.UNM"
   - "A.2.6"
-  - "A.6.5"
   - "B.1"
   - "C.16"
   - "C.2.1"
@@ -73,7 +72,7 @@ For this tuple, `ready(x)` is true. That is the practical result: a reader can r
 - If the Characteristic, Scale, or measurement chain is not sound yet, start with A.17, A.18, or C.16.
 - Use A.19.UNM for normalization, A.19.UINDM for indicator choice, A.19.USCM for scoring, A.19.ULSAM for scale aggregation, A.19.CPM for comparison, and A.19.SelectorMechanism for selection. Use B.1 for a separate holonic-composition claim. G.0 checks whether the numeric operation is admissible.
 - Use A.3.3 when the space types a dynamics model.
-- Use A.19.CHR with A.15.3 or E.18 only for a planned suite or baseline, and E.20 only for a project specialization.
+- Use A.19.CHR when a characterization task needs shared suite contracts; add A.15.3 for typed planned fillings of independently declared positions, and E.18 when the selected flow structure is needed. Use E.20 when an FPF change introduces or revises mechanism or suite semantics or their governing definitions.
 - Use the direct evaluation, gate, evidence, or assurance pattern for that separate use.
 
 If none of those questions is current, stop with the space and predicate above.

@@ -6,12 +6,12 @@ section_id: "C.16.IR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 59432
-line_end: 59442
+line_start: 59353
+line_end: 59363
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

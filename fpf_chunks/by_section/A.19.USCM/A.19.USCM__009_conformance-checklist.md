@@ -6,12 +6,12 @@ section_id: "A.19.USCM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__009_conformance-checklist.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:7 — Conformance Checklist"
-line_start: 38448
-line_end: 38471
+line_start: 38381
+line_end: 38404
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -41,9 +41,9 @@ A USCM publication or use is conformant if it satisfies:
 
 7. **Unknown and evidence handling is explicit.** Unknown / insufficient evidence is not coerced to `0/false`. Eligibility uses `GuardDecision ∈ {pass|degrade|abstain}` and evaluates evidence against the effective policy (`MinimalEvidenceSlot` override or `CGSpecSlot.MinimalEvidence`).
 
-8. **Planning and actual binding remain separate.** On a P2W path, A.15.2 carries the intended edition/policy baseline; A.15.3 governs typed filling only for independently declared positions. The actual application uses its effective bindings under §4.1, and Audit records their refs and pins. Planned selection alone does not establish actual use.
+8. **Planning and actual binding remain separate.** On a P2W path, A.15.2 carries the intended edition/policy baseline; A.15.3 governs typed filling only for independently declared positions. The actual application uses its effective bindings under §4.1, and Audit makes their refs and pins recoverable. Planned selection alone does not establish actual use.
 
-9. **Relation and plane discipline.** Another bearer, scope and window, basis, method, plane, or result use gets a fresh eligibility decision. Any F.9 Bridge, kind relation, or plane relation is cited only when the score or conclusion relies on that obtaining relation, and supported loss routes to `R_eff`.
+9. **Relation and plane discipline.** Another bearer, scope and window, basis, method, plane, or result use gets a fresh eligibility decision. Any F.9 Bridge, kind relation, or plane relation is cited only when the score or conclusion relies on that obtaining relation. Judge loss under the receiving-use rule; a numerical assurance penalty requires an applicable B.3 domain model.
 
 10. **Specialization discipline, if extended.** Retain inherited operation-position meanings, add no mandatory input to the inherited Score operation, and declare extra outputs or operations explicitly using the local extension notation `⊑⁺`. A claimed refinement, conservative extension or equivalence additionally needs its exact A.6.1 §4.8 predicate, endpoint facts and applicable preservation test; `⊑/⊑⁺` alone establishes none of them.
 

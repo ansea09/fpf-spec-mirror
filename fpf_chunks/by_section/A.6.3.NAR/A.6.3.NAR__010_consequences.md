@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__010_consequences.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:9 — Consequences"
-line_start: 19701
-line_end: 19717
+line_start: 19683
+line_end: 19699
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -55,6 +55,6 @@ Costs and trade-offs:
 
 - Authors must compare the narrative with the source rather than judging it by fluency alone.
 - Reliance-facing narratives require exact identity and preservation work proportionate to the receiver's use.
-- Some attractive narratives must be limited to orientation because selected structure or return is not recoverable.
+- If missing selected structure or source return makes the stated use unsupported, narrow the use to one whose requirements still hold, or keep the narrative as a draft.
 - Evidence, assurance, ethics or policy claims add their own required work.
 

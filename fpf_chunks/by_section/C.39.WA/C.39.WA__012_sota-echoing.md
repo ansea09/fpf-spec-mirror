@@ -6,12 +6,12 @@ section_id: "C.39.WA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__012_sota-echoing.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:11 — SoTA-Echoing"
-line_start: 83552
-line_end: 83563
+line_start: 83473
+line_end: 83484
 dependencies:
   - "C.20"
   - "C.39.QR"

@@ -6,12 +6,12 @@ section_id: "C.11.DBR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__006_archetypal-grounding.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:5 — Archetypal Grounding"
-line_start: 57818
-line_end: 57852
+line_start: 57739
+line_end: 57773
 dependencies:
   - "A.10"
   - "A.10.1"

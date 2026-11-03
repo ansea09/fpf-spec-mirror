@@ -6,20 +6,20 @@ section_id: "A.19.SelectorMechanism:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__013_sota-echoing.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:11 — SoTA-Echoing"
-line_start: 39589
-line_end: 39604
+line_start: 39522
+line_end: 39537
 dependencies:
   - "A.19.CHR"
   - "A.19.CN"
   - "A.19.CPM"
   - "A.19.ULSAM"
   - "A.19.USCM"
+  - "A.6.0"
   - "A.6.1"
-  - "A.6.5"
   - "C.22"
   - "E.18"
   - "G.0"
@@ -46,9 +46,9 @@ Concrete selector-family SoTA packages are cited through their current Part G pa
 
 | SoTA practice pointer, post‑2015+                                                                               | Primary source examples, post‑2015+                                                                           | Where it connects to SelectorMechanism                                                                             | Adoption status |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------- |
-| Retain several candidates under explicit criteria | Quality Diversity, e.g., Pugh et al. 2016; Vassiliades et al. 2018 | QD supplies one retained-set application family. Its archive criteria are not the general Pareto-selection rule; declare the actual choice rule in each use. | Adapt |
-| Use archive-based retained sets where diversity is part of the result, but do not silently promote it to dominance | Modern QD and archive practices post‑2015, including map-elites descendants and archive insertion policies | Expressed as policy‑bound criteria and report‑only telemetry unless explicitly promoted                            | Adapt           |
-| Pair environments and methods in open-ended or co-evolutionary settings without breaking kernel semantics       | Open-ended environment-method pairing, e.g., Wang et al. 2019 and successors                                  | Expressed as candidate and criteria structuring plus admissible specializations; kernel unchanged                      | Adapt           |
-| Admit a declared rejection option | Selective prediction, e.g., Geifman and El-Yaniv 2017 | The possibility of rejection informs FPF eligibility design. A selective-prediction rejection rule is not identical to this three-valued guard; apply each rule under its own conditions. | Adapt |
+| Retain several candidates under explicit criteria | Pugh, Soros and Stanley (2016), [Quality Diversity: A New Frontier for Evolutionary Computation](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2016.00040/full), §4.2 | QD supplies retained-set application families with different niche and retention rules. Declare the actual choice rule in each use; an archive rule is not the general Pareto-selection rule. | Adapt |
+| Use declared archive-insertion criteria | Vassiliades, Chatzilygeroudis and Mouret, [Using Centroidal Voronoi Tessellations to Scale Up the Multi-dimensional Archive of Phenotypic Elites Algorithm](https://arxiv.org/abs/1610.05729v2), author manuscript revised 2017 | CVT-MAP-Elites assigns a candidate to its nearest region and replaces a less-fit occupant. An FPF adaptation states the region and quality criteria explicitly; auxiliary telemetry supplies no undeclared dominance rule. | Adapt |
+| Organize candidates as environment–solution pairs | Wang et al. (2019), [Paired Open-Ended Trailblazer (POET)](https://arxiv.org/abs/1901.01753v3) | POET pairs generated environments with optimized agents and transfers solutions between environments. Candidate and criteria structuring is an FPF adaptation; the source does not establish this kernel's laws or FPF Method membership. | Adapt |
+| Admit a declared rejection option | Geifman and El-Yaniv (2017), [Selective Classification for Deep Neural Networks](https://arxiv.org/abs/1705.08500v2) | The possibility of rejection informs FPF eligibility design. A selective-prediction rejection rule is not identical to this three-valued guard; apply each rule under its own conditions. | Adapt |
 | Make architecture commitments traceable | ISO/IEC/IEEE 42010:2022 architecture description discipline | FPF assigns this declaration to one governing pattern; that assignment is an FPF design choice. | Adapt |
 

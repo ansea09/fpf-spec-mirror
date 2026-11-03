@@ -6,12 +6,12 @@ section_id: "A.15.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.11/A.15.11__006_archetypal-grounding.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.11 — Make Applicable Methods Noticeable in Work"
   - "A.15.11:5 — Archetypal Grounding"
-line_start: 32796
-line_end: 32835
+line_start: 32755
+line_end: 32794
 dependencies:
   - "A.15"
   - "A.15.7"

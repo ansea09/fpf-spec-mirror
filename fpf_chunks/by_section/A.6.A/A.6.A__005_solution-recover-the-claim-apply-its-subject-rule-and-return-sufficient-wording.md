@@ -6,12 +6,12 @@ section_id: "A.6.A:4"
 section_title: "Solution - Recover the claim, apply its subject rule and return sufficient wording"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__005_solution-recover-the-claim-apply-its-subject-rule-and-return-sufficient-wording.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:4 — Solution - Recover the claim, apply its subject rule and return sufficient wording"
-line_start: 21974
-line_end: 22267
+line_start: 21956
+line_end: 22248
 dependencies:
   - "A.15"
   - "A.16"
@@ -35,7 +35,6 @@ dependencies:
   - "E.10"
   - "E.17"
   - "E.17.0"
-  - "E.18"
   - "F.17"
   - "F.18"
   - "F.9"
@@ -228,8 +227,7 @@ A conforming `OptionSet` publishes:
 
 * explicit action members,
 * any local comparator, triage rule, or partial order,
-* admissible incomparability if no total order is admissible,
-* prohibition on hidden scalarisation.
+* admissible incomparability if no total order is admissible.
 
 **ANF-4 — `PolicyHook`.**
 Use when the receiving use needs an explicit reference to an existing controller, gate, playbook, Method or override protocol.
@@ -248,7 +246,7 @@ A.6.A SHALL prevent the collapse of action invitation language into neighbouring
 
 * A statement about **better, worse, fit, or merit** belongs to **C.16.Q**.
 * A statement about **what a system can do in general** belongs to capability wording, method wording, or method-description wording under **A.6.F** and the subject pattern for the asserted capability, method, or method-description claim.
-* For **what must or may be done**, distinguish a generic prescription, an individual duty, a grant and admission of a particular mechanism application. A.6.B distinguishes their boundary claims; the normative source, A.2.8 commitment rule, A.2.8.PER permission rule or application rule supplies the actual basis.
+* For **what must or may be done**, distinguish a generic prescription, an individual duty, a grant and admission of a named action or application. A.6.B distinguishes their boundary claims; the normative source, A.2.8 commitment rule, A.2.8.PER permission rule or admission rule supplies the actual basis.
 * Ordinary statements of **what someone did** may remain ordinary. A deliberately asserted dated U.Work follows A.13 and independent A.15.1 admission with its enactsMethod relation; precise assignment-bound attribution additionally uses F.6.
 * A result that selects a Method identifies that Method without becoming a plan or occurrence; any `methodDescriptionRef` remains auxiliary. A proposed action can remain a proposal without inventing its Method. A Description episteme never acts and is never what Work enacts.
 * When a sentence carries both evaluative and action-oriented content, make the two claims and their respective grounds distinguishable. Use linked records only when the receiving use needs them.
@@ -312,7 +310,7 @@ The technical retargeting forms apply only when a compatible declared SlotSpec m
 When the recovered claim is boundary-bearing, use its actual A.6.B classification:
 
 * **L** — the rule that defines or constrains the recovered subject, including an actual relation predicate when that is the claim; applicable enactor/site discipline and the F.9/F.9.1 boundary retain their direct governors.
-* **A** — a predicate checked at entry or during an identified mechanism application to admit, continue or reject that application. A statement of allowable claim use or general scope does not qualify by itself.
+* **A** — the admission predicate for a named action or application under the applicable rule. An actual satisfaction or admission-decision result is a separate E claim. A statement of allowable claim use or general scope does not qualify by itself.
 * **D** — a generic prescription under its normative source, an individual duty under A.2.8, or a grant under A.2.8.PER. Individual commitments and grants need their own participants and obtaining basis; a generic prescription does not establish them.
 * **E** — an observation, effect or evaluation result and the conditions under which it is obtained. A particular Work, evidence relation or carrier-condition claim uses its own rule. Cite a sensory result, event, probe or log only when its content supplies grounds for the claim; a reference list alone is insufficient.
 

@@ -6,12 +6,12 @@ section_id: "A.6.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__006_archetypal-grounding.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:5 — Archetypal Grounding"
-line_start: 20364
-line_end: 20419
+line_start: 20346
+line_end: 20401
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -54,7 +54,7 @@ If the adopted construction rule makes installation Work constitutive, identify 
 
 **Tell.** A care note says `the measurement supports the dose change`.
 
-**Show.** The repair distinguishes the measurement work occurrence, its measurement-result episteme, the work-plan claim, the measured characteristic, the applicable range, and the exact evidence relation. `C.16` governs measurement construction and applicability; `A.10` governs whether that episteme bears on the named dose-change claim for this use. The broad predicate is not replaced by a universal support relation.
+**Show.** Identify the measurement-result episteme, the named dose-change claim, and the evidence-use relation being asserted. Recover the measured characteristic and applicable range; `C.16` governs measurement construction and applicability. The direct rule for the dose-change claim determines what the result warrants about it. Use `A.2.4` for evidence-use classification and `A.10` when the source-to-use account must remain replayable. Identify measurement Work or a WorkPlan only when the receiving question needs those separate claims, under A.15.1 or A.15.2 respectively. The broad predicate is not replaced by a universal support relation.
 
 **Show the boundary.** If current evidence refutes the dose-change assertion or leaves reliance unresolved, the receiving evaluation records that posture. It does not create a negative world-side measurement, treatment, or evidence occurrence. A fresh publication of the same measurement-result episteme changes availability, not the measured condition or evidence relation by itself.
 
@@ -70,7 +70,7 @@ If the adopted construction rule makes installation Work constitutive, identify 
 
 **Edge meaning.** Under the selected graph convention, `AlignmentEdge_17` expresses the candidate sentence. Its presence does not establish one referent or a Bridge occurrence. Use C.29 only if a separate mathematical representation or transfer question remains.
 
-**Adjacent reading.** Record `ninety-seven percent of endpoint pairs passed the mapping test` with `C.16`. If approval relies on that measurement, `A.10` governs the evidence relation. The percentage does not establish the needed sentence.
+**Adjacent reading.** Record `ninety-seven percent of endpoint pairs passed the mapping test` with `C.16`. If approval relies on that result, classify the evidence use under `A.2.4` and use `A.10` when its source-to-use basis must remain replayable. The percentage does not establish the needed sentence.
 
 **Result.** Bearing-replacement approval is not yet supported. First recover what each label designates under its reference scheme and the grounding or identity evidence for those referents. If the applicable designation and subject-identity rules establish one independently identified bearing, return that bounded identity claim; it does not by itself authorize replacement. If the labels designate different referents, or a kind and an individual, revise or reject the candidate claim as warranted. Keep missing interpretation or evidence explicit. Return `A.6.RCD missing-governor` only when the exact remaining predicate or a required applicability or identity rule is absent, naming that gap and the affected use.
 

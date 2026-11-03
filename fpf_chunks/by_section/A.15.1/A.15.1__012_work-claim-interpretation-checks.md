@@ -6,12 +6,12 @@ section_id: "A.15.1:10"
 section_title: "Work-claim interpretation checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__012_work-claim-interpretation-checks.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:10 — Work-claim interpretation checks"
-line_start: 29709
-line_end: 29718
+line_start: 29671
+line_end: 29680
 dependencies:
   - "A.1"
   - "A.10"
@@ -62,5 +62,5 @@ When another decision relies on Work, apply only the following checks that its c
 2. **Performer and conditional assignment coverage.** For every admitted `U.System` named as performer, does section 4.0 recover its A.13 basis? If this receiving check expressly consumes precise assignment-bound attribution, does the account also cite the exact directly declared assignment species and the same obtaining occurrence `RA` already recovered through A.2.1 and A.13, and does F.6 obtain for the already admitted Work and that `RA`? Does `RA` carry the actual participant values, have that System as holder, and cover the Work or exact performed part? If no attribution is current, stop after the performer and Work checks. If the conditional attribution branch fails, repair or reject the unsupported attribution. Retain independently grounded Work and performer claims; under §4.1, recheck any admission premise also affected by that finding.
 3. **Evaluation or acceptance, when claimed.** Identify the criterion, its application to the required subject facts, returned value and evidence. Assert acceptance only under its own predicate and actual participants. Identify evaluation Work separately when its dated occurrence is claimed; keep result content and acceptance distinct. Historical criterion continuity requires the C.2.1 relation.
 
-These checks tell the reader which description, assignment, criterion, evaluation, and relation to cite. They neither create one judgment-context object nor make acceptance part of work identity.
+These checks tell the reader which description, assignment, criterion, evaluation, and relation to cite. They do not make acceptance part of work identity.
 

@@ -6,12 +6,12 @@ section_id: "C.39.RP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__011_consequences.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:9 — Consequences"
-line_start: 84428
-line_end: 84433
+line_start: 84349
+line_end: 84354
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

@@ -6,12 +6,12 @@ section_id: "C.28.MR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28.MR/C.28.MR__013_relations.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.28.MR — Derive an Intervention Consequence by Mechanism Replacement"
   - "C.28.MR:12 — Relations"
-line_start: 69053
-line_end: 69061
+line_start: 68974
+line_end: 68982
 dependencies:
   - "A.3.3.TR"
   - "B.5.MPC"

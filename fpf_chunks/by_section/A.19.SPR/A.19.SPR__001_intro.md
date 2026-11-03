@@ -6,12 +6,12 @@ section_id: "A.19.SPR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__001_intro.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:intro — Intro"
-line_start: 35315
-line_end: 35322
+line_start: 35276
+line_end: 35283
 dependencies:
   - "A.10"
   - "A.16"

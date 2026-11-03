@@ -6,12 +6,12 @@ section_id: "A.15.8:9"
 section_title: "Consequences and trade-offs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__010_consequences-and-trade-offs.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:9 — Consequences and trade-offs"
-line_start: 31950
-line_end: 31960
+line_start: 31907
+line_end: 31917
 dependencies:
   - "A.1"
   - "A.10"
@@ -24,6 +24,7 @@ dependencies:
   - "A.15.8"
   - "A.2.1"
   - "A.2.2"
+  - "A.2.4"
   - "A.22"
   - "A.6.RCD"
   - "A.6.REL"
@@ -45,7 +46,7 @@ keywords:
 | Named failure relation | Repairs target an assignment, interface, carrier, update rule, source pin, control link, support condition, or return condition rather than a vague lack of attention or memory. |
 | Neutral transfer | The same entry and result work for people, software, machines, organisms, teams, and mixed configurations. |
 | Preserved ownership | Work, plan, capability, System identity, representation, evidence, architecture, and choice remain independently checkable. |
-| Better handoff and degraded-mode evidence | A representative interruption or support-loss probe exposes dependencies hidden by a perfect run. |
-| Additional modeling cost | The practitioner must identify exact relations, carriers, currentness conditions, and the receiving decision instead of keeping one umbrella noun. |
-| Bounded conclusion | A result supports only the tested configuration, condition, and window; further assurance or transfer needs direct Methods and evidence. |
+| Better handoff and degraded-mode evidence | A representative interruption or support-loss probe can expose dependencies hidden by a perfect run. |
+| Additional modeling cost | Identifying the needed relations and recovery conditions takes more effort than using one umbrella noun. |
+| Bounded conclusion | A conclusion is bounded by the named configuration, condition, window and evidence actually available; further assurance or transfer needs its direct grounds. |
 

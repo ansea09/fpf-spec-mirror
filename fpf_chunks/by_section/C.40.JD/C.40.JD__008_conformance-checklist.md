@@ -6,12 +6,12 @@ section_id: "C.40.JD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JD/C.40.JD__008_conformance-checklist.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.40.JD — Develop a Way, Its Holder and Its Provision Together"
   - "C.40.JD:7 — Conformance Checklist"
-line_start: 88937
-line_end: 88946
+line_start: 88858
+line_end: 88867
 dependencies:
   - "A.12"
   - "C.32.MWA.PP"

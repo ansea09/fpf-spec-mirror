@@ -6,12 +6,12 @@ section_id: "A.19.CN:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__004_forces.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:3 — Forces"
-line_start: 36519
-line_end: 36527
+line_start: 36448
+line_end: 36456
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -19,19 +19,21 @@ dependencies:
   - "F.9"
   - "G.0"
 keywords:
-  - "CL/loss notes"
   - "CN-Spec"
   - "CN-frame"
   - "RSG admission hooks"
   - "SCR/RSCR harness"
   - "WLNK discipline"
-  - "bridges"
   - "chart"
   - "comparability modes"
   - "conformance checklist"
   - "indicator policy refs"
+  - "loss evidence"
+  - "maintained editions"
   - "normalization refs"
-  - "registry"
+  - "optional CL"
+  - "semantic relations"
+  - "separate use claims"
   - "Γ-fold governance"
 ---
 

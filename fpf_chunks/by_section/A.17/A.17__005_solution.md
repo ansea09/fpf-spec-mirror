@@ -6,12 +6,12 @@ section_id: "A.17:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__005_solution.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR-NORM): Name What Is Measured"
   - "A.17:4 — Solution"
-line_start: 34373
-line_end: 34408
+line_start: 34332
+line_end: 34367
 dependencies:
   - "A.17"
   - "A.18"
@@ -61,17 +61,17 @@ To enforce this solution, the following rules apply:
 
 - **A17-R7 (Scoring against preference).** A ScoringMethod **SHALL** state how its score order represents the declared preference. Where one input is higher-is-better or lower-is-better, improving that input while holding the others fixed **MUST NOT** worsen the score, for admissible inputs under the stated conditions. Target-based preference is checked against its declared target or loss rule; the preferred direction may change across the target. A quantity calculation or unit conversion uses its measurement relation and Scale rules under A.18/C.16.
 
-- **A17-R8 (Arity declaration).** Authors **SHALL** identify whether a Characteristic applies to exactly one bearer or to an ordered tuple of two or more bearers, and declare the tuple roles. Examples: *Cohesion* is unary; *Coupling* is relational. This arity declaration suffices for direct use; a receiving typed interface can require a C.3 classification when it needs a recurring membership decision.
+- **A17-R8 (Arity declaration).** Authors **SHALL** identify whether a Characteristic applies to exactly one bearer or to an ordered tuple of two or more bearers, and declare the tuple roles. For example, a cohesion Characteristic defined for one module is unary; a coupling Characteristic defined for an ordered pair of modules is relational. This arity declaration suffices for direct use; a receiving typed interface can require a C.3 classification when it needs a recurring membership decision.
 
-- **A17-R9 (Relational scale anchors).** For relation‑level cases, the Scale’s admissible values **SHALL** be defined over the **tuple** domain (e.g., distances, similarities, inter‑role latencies). Ambiguity that re‑reads a relational Characteristic as unary is **forbidden**.
+- **A17-R9 (Relational readings).** For a Relation-Characteristic, the admissible subject tuples belong to its declared domain; the Scale supplies the admissible values attributed to those tuples. A reading **SHALL** identify the tuple it concerns and express its result on that Scale.
 
 - **A17-R10 (Characteristic and description).** Distinguish the Characteristic from an episteme that describes it. A rubric, catalogue of levels or examples can contribute to that description; identify a separate episteme under C.2.1 when the receiving use needs its claim content, EntityOfConcern and effective ReferenceScheme.
 
 #### A.17:4.1 - CharacteristicSpace & Change Reasoning *(Normative/Clarifying)*
 
-**R17 - State-space use.** When a change model uses a CharacteristicSpace, declare its Characteristics, Scales, units and admitted combinations under A.19. Add topology, distance or another structure when the inference relies on it.
+**R17 - State-space use.** When a change model uses a CharacteristicSpace, declare its Characteristics, Scales, any applicable units and admitted combinations under A.19. Add topology, distance or another structure when the inference relies on it.
 
 **R18 - Allowed changes and state recognition.** For a model of change, state the allowed continuations and their conditions through A.3.3. Use a state predicate or checklist when the receiving use needs to recognize a condition. A.2.5 governs the particular case of a condition on an assignment to a system role; a gate or assurance use supplies its own required support.
 
-**I7 — Vector interpretation.** A vector may collect multiple Scale-specific Coordinates for multi‑Characteristic reasoning; composition into a single Score, if desired, is an **explicit new 𝒢** on that vector.
+**I7 — Vector interpretation.** A vector may collect multiple Scale-specific Coordinates for multi‑Characteristic reasoning; composition into a single Score, if desired, requires an explicitly identified applicable **ScoringMethod 𝒢** on that vector.
 

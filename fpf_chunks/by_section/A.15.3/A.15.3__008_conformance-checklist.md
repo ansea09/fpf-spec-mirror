@@ -6,12 +6,12 @@ section_id: "A.15.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__008_conformance-checklist.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:7 — Conformance Checklist"
-line_start: 30349
-line_end: 30367
+line_start: 30311
+line_end: 30329
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -46,7 +46,7 @@ keywords:
 | CC-A15.3-01 | The item is declaration-local WorkPlan content. | Its designator resolves inside one cited WorkPlan episteme; no independent PlanItem identity or row authority is claimed. |
 | CC-A15.3-02 | The WorkPlan keeps its already identified present EntityOfConcern; the item separately names the future performance being planned. | Use the intended-performance designator as plan content; the EntityOfConcern resolves to the already identified present subject. |
 | CC-A15.3-03 | Every row points to one declaration episteme and member whose pattern defines both member meaning and actual-use predicate. | The declaration reference, local member designator, family, defining pattern, and predicate route all resolve; A.15.3 states only the intention. |
-| CC-A15.3-04 | Relation rows use only conforming A.6.5 SlotSpecs inside cited `RelationSignature` epistemes. | Resolve `HolderSystemSlot` inside the particular species signature, including its predicate and participant meanings; the Robot_8 row in §5.1 awaits that declaration. Hypothetical `PartHolonSlot` and `WholeHolonSlot` retain their named blocker. |
+| CC-A15.3-04 | Relation rows use only conforming A.6.5 SlotSpecs inside cited `RelationSignature` epistemes. | Resolve the selected `SlotSpec` inside the cited `RelationSignature`, including the relation's predicate and participant meanings; the Robot_8 row in §5.1 awaits that declaration. Hypothetical `PartHolonSlot` and `WholeHolonSlot` retain their named blocker. |
 | CC-A15.3-05 | Operation rows use A.6.1 argument or result declarations. | Mechanism episteme, operation designator, member designator, ValueKind, designation rule, binding predicate, and cardinality resolve together. |
 | CC-A15.3-06 | Any other target has a pattern that explicitly defines it. | Missing member meaning, actual-use predicate, or defining pattern yields `missing-governor`, not a generic target. |
 | CC-A15.3-07 | The planned value follows the member's ValueKind, designation rule, and cardinality. | A single-valued target has at most one effective planned value; conditions and a resolution rule select among alternatives, while multivalued and ordering semantics come from the declaration. |

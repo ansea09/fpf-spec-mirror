@@ -6,12 +6,12 @@ section_id: "B.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__002_use-this-when.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:0 — Use This When"
-line_start: 43428
-line_end: 43456
+line_start: 43349
+line_end: 43377
 dependencies:
   - "A.1"
   - "A.10"
@@ -72,5 +72,5 @@ Typical moments:
 - If the claim is capability without whole reidentification, use the direct capability and characteristic patterns.
 - If the claim is transformation or work, use `A.3.4` for the change and `A.15.1` for the Work; use `A.12` when the acting side needs recovery and `A.15` when alignment across the neighboring objects is the question.
 - If the claim is only wording repair for emergence-family language, use `B.2.P` first.
-- If the claim is graph, RG-like, MSPD, or other mathematical expression, use `C.29` unless whole reidentification is also current.
+- If the claim concerns a graph, RG-like, MSPD or other mathematical expression, use its mathematical or subject pattern, with `C.29` for an unresolved representation-choice, transfer or reliance question. `B.2` applies separately when whole reidentification is also current.
 

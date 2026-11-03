@@ -6,12 +6,12 @@ section_id: "A.6.7:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__011_rationale.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Shared Conditions for Joint Use of Distinct Mechanisms"
   - "A.6.7:10 — Rationale"
-line_start: 24499
-line_end: 24509
+line_start: 24477
+line_end: 24487
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -42,9 +42,9 @@ keywords:
 Characterization and admissibility-gated selection pipelines are unified by:
 
 * shared governing spec refs (e.g., CN‑Spec / CG‑Spec),
-* shared conditions for actual semantic, kind and plane relations, independently governed flow/gate crossings, and any penalties routed to `R_eff`,
+* shared conditions for actual semantic, kind and plane relations, independently governed flow/gate crossings, and loss assessed under the receiving-use rule,
 * shared guard semantics (tri-state, no coercion),
 * and explicit protocol constraints (allowed pipelines).
 
-Encoding this unity as “one mechanism” or “one family” forces false commonality and invites hidden semantics. A dedicated **suite descriptor** preserves modularity and keeps the level separation clean.
+A suite descriptor keeps distinct contracts and their joint conditions explicit. Shared conditions alone establish neither one A.6.1 operation-family declaration nor realizations of one contract; assess any separately proposed mechanism declaration under A.6.1.
 

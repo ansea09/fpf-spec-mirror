@@ -6,12 +6,12 @@ section_id: "A.19.SPR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__006_solution.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.SPR — Repair State and Status Wording"
   - "A.19.SPR:4 — Solution"
-line_start: 35376
-line_end: 35482
+line_start: 35337
+line_end: 35443
 dependencies:
   - "A.10"
   - "A.16"
@@ -136,11 +136,11 @@ When `readiness` or `ready` still hides which governed value is meant, use `E.10
 | release or permission claim | the direct release or permission pattern; a readiness value establishes neither |
 | publication use, publication face, form, or unit value, source-finding use | `E.17`, `E.17.0`, `E.17.AUD`, or `E.24.PUB` as appropriate to the recovered claim |
 | Description episteme admitted for specification use or specification refinement | `A.7`, plus the specification-granting neighbouring pattern named by value: `A.6.2`, `C.2.3`, `A.21`, `C.16`, `E.17`, `E.10`, or another named pattern |
-| temporal claim status or temporal-use classification | `C.27`, retaining `dynClaimPosture` only as a declared C.27 field |
+| temporal-claim classification and adequacy of an intervention-sensitive use | `C.27`, using its Dyn0, Dyn1 or Dyn2 readings |
 | mathematical-lens use admissibility | `C.29`, retaining `LensUseBoundaryValue` only as a declared C.29 field |
 | `DRR` decision-adequacy result or source-use classification | `E.9.DA` |
 | pattern-quality result or pattern-quality review status | `E.21`, with `E.19` only as review or admission profile |
-| administrative, review, dispatch, release or admission, or source-control state | the project-side administrative, review, dispatch, release or admission, or source-control record; not pattern prose unless the pattern's own `EntityOfConcern` is that record |
+| administrative, review, dispatch, release or admission, or source-control state | the project record that carries the state. Keep current framework-development status there; retain reusable guidance and worked examples when they explain the pattern’s method. |
 
 #### A.19.SPR:4.3 - Keeping a technical state field
 

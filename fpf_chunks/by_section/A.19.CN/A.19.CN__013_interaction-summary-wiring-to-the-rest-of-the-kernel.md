@@ -6,12 +6,12 @@ section_id: "A.19.CN:12"
 section_title: "Interaction summary (wiring to the rest of the kernel)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__013_interaction-summary-wiring-to-the-rest-of-the-kernel.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:12 — Interaction summary (wiring to the rest of the kernel)"
-line_start: 36834
-line_end: 36840
+line_start: 36768
+line_end: 36774
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -19,19 +19,21 @@ dependencies:
   - "F.9"
   - "G.0"
 keywords:
-  - "CL/loss notes"
   - "CN-Spec"
   - "CN-frame"
   - "RSG admission hooks"
   - "SCR/RSCR harness"
   - "WLNK discipline"
-  - "bridges"
   - "chart"
   - "comparability modes"
   - "conformance checklist"
   - "indicator policy refs"
+  - "loss evidence"
+  - "maintained editions"
   - "normalization refs"
-  - "registry"
+  - "optional CL"
+  - "semantic relations"
+  - "separate use claims"
   - "Γ-fold governance"
 ---
 
@@ -39,6 +41,6 @@ keywords:
 
 * **A.2 / A.2.5 (Roles / RSG).** RSG **checklists** quote **CN‑Spec.acceptance**; enactment gates rely on **admitted** CN‑frame data.
 * **B.1 and A.9.** B.1 supplies any claimed whole/part construction; A.9 supplies an unresolved aggregation-law choice or property check. CN-Spec records the justified `Γ_fold`, including its model and time policy.
-* **B.3 (Assurance).** Where the receiving assurance use requires it, Bridge CL enters the **R** term; a safety roll-up requires the law or bound justified for its named outcome and dependency model.
-* **Current proof/inference support and the C.16/A.19 characterization stack.** Units, scales, and measurement templates come from C.16, A.17, A.18, and A.19. Claims about folds currently use C.2.1 for claim/episteme identity, A.10 for evidence and provenance, B.3 for assurance, and C.23 when method-family evidence or maturity is at issue.
+* **B.3 (Assurance).** For a named assurance claim, retain the relation and use evidence consumed by its argument. CL may serve as evidence shorthand; any quantitative effect needs a declared Scale and model. A safety roll-up requires the law or bound justified for its named outcome and dependency model.
+* **Current proof/inference support and the C.16/A.19 characterization stack.** Scales, applicable Units and measurement guidance come from C.16, A.17, A.18 and A.19. Claims about folds use C.2.1 when claim/episteme identity matters, A.10 when evidence or provenance must remain replayable, B.3 for a named assurance claim, and C.23 when method-family evidence or maturity is at issue.
 

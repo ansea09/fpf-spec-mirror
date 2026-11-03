@@ -6,12 +6,12 @@ section_id: "A.19.UNM:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 37842
-line_end: 37867
+line_start: 37777
+line_end: 37802
 dependencies:
 keywords:
   - "CV→NCV"
@@ -37,7 +37,7 @@ keywords:
    Avoid by naming the actual domain, transformation, preserved invariants and lost distinctions; supply a class or congruence claim only under its additional conditions.
 
 4) **Reusing a normalized value after its basis changed**
-   Avoid by checking the exact bearer, method and CN-Spec editions, scope/window, comparison basis, evidence, and intended use again; cite a Bridge, kind relation, or plane relation only when the new use actually relies on it.
+   Recover the bearer, method and CN-Spec editions, comparison basis, evidence, intended use and applicable scope/window. Recheck the conditions that changed, including any relation required by the new use.
 
 5) **Choosing a representative implicitly**
    Avoid by either keeping quotient objects abstract or declaring `NormalizationFix`.

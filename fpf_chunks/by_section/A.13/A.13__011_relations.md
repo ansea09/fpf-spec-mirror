@@ -6,12 +6,12 @@ section_id: "A.13:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__011_relations.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:9 — Relations"
-line_start: 28387
-line_end: 28397
+line_start: 28351
+line_end: 28361
 dependencies:
   - "A.10"
   - "A.12"
@@ -41,11 +41,11 @@ keywords:
 ### A.13:9 - Relations
 
 *   **Builds on:**
-    *   `A.1 Holonic Foundation`: Establishes that only `U.System`s can be bearers of behavioral roles.
+    *   `A.1 Holonic Foundation`: Supplies the constructive and acting-eligibility conditions for recognizing the holder as a `U.System`.
     *   `A.2 System-Role Kinds and Assignments`: Distinguishes an exact local system-role kind, classification by that kind, and an obtaining `U.SystemRoleAssignment`.
-    *   `A.12 Acting-Side Externalization and Reflexive Split: Identify Who Acts on What`: Separates acting and changed participants when that distinction matters; its precise frame is conditional on the claims needed.
+    *   `A.12 Acting-Side Externalization and Reflexive Split: Identify Who Acts on What`: Separates acting and changed participants when that distinction matters; its precise account is conditional on the claims needed.
 *   **Coordinates with:**
-    * `B.2 Meta-Holon Transition (MHT)`: New supervisory structure together with a documented agency-characteristic threshold crossing prompts the whole-reidentification inquiry. B.2 first tests whether the same whole suffices; only an established transition warrants the MHT declaration.
+    * `B.2 Meta-Holon Transition (MHT)`: Changed supervision and a documented agency-characteristic threshold crossing can raise a whole-reidentification question about an established prior whole. B.2 first tests whether that whole's identity rule accommodates the change and whether the whole meets the receiving use. Only an established transition warrants the MHT declaration.
     * `B.3 Trust & Assurance Calculus`: A profile can supply evidence-backed characteristic results when a named reliability, safety or other assurance argument uses them. Retain each result’s bearer, scale and basis; the didactic Grade is not the assurance input.
     * `D.2 Recognize Ethical Concerns Across Levels and Scopes (Multilevel Ethics)`: For a multilevel ethical concern, name the local gain, possible loss, affected levels or scopes and next subject question. State responsibility or accountability separately under the rule defining that relation and its participants; use an agency-characteristic input only if that rule calls for it.
 

@@ -6,12 +6,12 @@ section_id: "B.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__009_conformance-checklist.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:7 — Conformance Checklist"
-line_start: 41231
-line_end: 41243
+line_start: 41159
+line_end: 41171
 dependencies:
   - "A.1"
   - "A.14"
@@ -39,6 +39,6 @@ keywords:
 | `CC-B1-4` | Relations among local system-role kinds, classifications, assignments, direct participation relations, and Method relation structures are not treated as holonic parts merely because a label, graph, algebra, or naming convention composes them. `A.2.7` is used only for the first of those branches. |
 | `CC-B1-5` | Performed work occurrence parts require A.15.1. |
 | `CC-B1-6` | Mathematical and representation apparatus is named as lens or expression, not as ontology by spelling. |
-| `CC-B1-7` | B.2 is used only when the whole itself must be reidentified after existing-whole explanations fail. |
-| `CC-B1-8` | No generic `U.Boundary`, `U.Interaction`, `U.Level`, `U.Emergence`, or `U.Frustration` is introduced by aggregation wording. |
+| `CC-B1-7` | B.2 is selected when changed facts leave a consequential existing-whole versus new-whole question. A sufficient existing-whole explanation ends that inquiry; missing deciding grounds leave the comparison unresolved. |
+
 

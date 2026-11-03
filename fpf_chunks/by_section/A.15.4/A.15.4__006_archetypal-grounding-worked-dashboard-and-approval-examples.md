@@ -6,12 +6,12 @@ section_id: "A.15.4:3.1"
 section_title: "Archetypal Grounding - Worked Dashboard And Approval Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__006_archetypal-grounding-worked-dashboard-and-approval-examples.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3.1 — Archetypal Grounding - Worked Dashboard And Approval Examples"
-line_start: 30668
-line_end: 30741
+line_start: 30629
+line_end: 30700
 dependencies:
   - "A.10"
   - "A.13"
@@ -45,8 +45,9 @@ keywords:
   - "exact attempted use"
   - "generated explanation"
   - "governing pattern and direct object"
-  - "independent required-position rows"
+  - "optional comparison rows"
   - "orientation and source-finding"
+  - "prerequisites"
   - "project-side reference"
   - "publication face"
 ---
@@ -82,15 +83,13 @@ Situation viewpoint prompts:
 | Acting practitioner | What can I safely do next without turning the encountered episteme or episteme publication into unsupported work or reliance justification? |
 | Release engineer | Which gate decision is current, and does this question also require a separately established deployment Work or other prerequisite? |
 | Source, gate, evidence, or assignment-record contact | Which source-currentness value, assignment-state relation or assertion, credential-status value, decision ref, or evidence relation needs exposure? Which direct source, publication, register, communication, access, or contact fact supports that request? For an allocation or duty to repair, apply §3.4 to its distinct predicate and case facts. |
-| Audit or peer-review viewpoint | Which prerequisite, object, and test in the §3 lookup must be recoverable? If permission or authority is current, which one row in that branch answers the live question? |
+| Audit or peer-review viewpoint | Which prerequisite, object, and test in the §3 lookup must be recoverable? If permission or authority is current, which rows or direct governing rules answer the independently required claims? |
 | Boundary claimant | Is the operative claim clear? If wording still hides its predicate or governed value after F.19, use A.6 or A.6.B to recover it. |
 | Manager | Is repeated ambiguity prerequisite-lookup or source-relation repair work rather than another manual check for the acting practitioner? |
-| LLM user or tool user | Which required relation, result, or source relation does the explanation help find, and which operative claims still need an independently established source relation recovered through `A.10`? |
+| LLM user or tool user | Which required claim or result does the explanation help recover, and what basis does the proposed use require? Use A.10 when that evidence/provenance account must remain replayable. |
 | Security or compliance source contact | Which revocation relation, currentness relation, proof, credential-status record, system-role-assignment-state assertion, source-relation order, or supersession relation needs exposure, and which direct source, register, communication, access, or contact fact supports asking for it? For a repair allocation or duty, use §3.4 to recover that claim's rule and grounds and distinguish missing information from a failed test. |
 | Model or data documentation steward | Which intended use, evaluation condition, version, window, limitation, and evidence relation bound the model or data documentation? |
 | Assurance viewpoint | Which named claim actually has a `B.3` assurance claim, with what assurance tuple, evidence relation, limitations, and reopen condition? |
-
-Search cues for A.15.4 include: approval, approval-looking display, authorization, authorization-looking display, permission, permission display, allowed wording, green dashboard, release tile, release readiness, model card, datasheet, data card, provenance, provenance mark, attestation, attestation label, credential, credential badge, generated explanation, copied review, copied approval, review summary, compliance-looking mark, delegation, delegation display, revocation, revocation status, gate passed, gate passage, rollback successful, rollback cue, and assurance label. These are retrieval cues only; decide the required relation or result, the pattern whose content defines or tests it, and the project-side reference from the work or reliance question under repair, not from the displayed word, publication-carrier name, or source name.
 
 Use the prerequisite lookup in §3.5 once the direct question is clear; return to A.15.4 only if an appearance still hides that question or its basis.
 
@@ -105,9 +104,9 @@ Lintable overread cues:
 | Lint signal | Required relation or result named by value |
 | --- | --- |
 | Ambiguous `approved`, `authorized`, `allowed`, `recommended` or `guaranteed` wording | First read the full claim under F.19. If its governed meaning remains unclear, use A.6/A.6.B; route a permission or authority question through the branch above. A word alone selects no object. |
-| Dashboard tile, credential-status color, system-role-assignment-state color, or release tile used as release evidence or gate passage | Require `A.21` `GateDecisionResult` (recovered directly or through a `DecisionLogRef` that cites it) plus direct evidence and currentness relations recovered through `A.10`. A displayed assignment-state label is neither `SystemRoleAssignmentStateRelation` nor its assertion. |
+| Dashboard tile, credential-status color, system-role-assignment-state color, or release tile used as release evidence or gate passage | For a gate-passage claim, recover the A.21 `GateDecisionResult`; for another release claim, recover the result under its own governing pattern. Use A.10 when the needed evidence/currentness account must remain replayable. A displayed assignment-state label may express an assertion; evaluate that assertion's state claim under A.2.5. |
 | Register screenshot or entry used as status, permission, assignment or gate evidence | Recover the entry and publication, applicable register rule, direct object or finding, and required evidence/currentness. Identify any entry-producing, exercised or evaluation Work only when the rule or occurrence claim requires it, then apply A.13/A.15.1 and conditional F.6. A register entry may support the rule's exact claim; its presence alone establishes neither actual exercise nor non-violation. |
-| Generated explanation uses `authorized`, `approved`, or similar wording | Use `E.17.EFP` for explanation/source-finding and `A.10` to recover the independently established source relation for the claim; if permission or authority is current, choose one row in the single branch above. |
+| Generated explanation uses `authorized`, `approved`, or similar wording | Recover the claim and its governing rule. Use E.17.EFP when explanation-class ambiguity changes the use, and A.10 when a replayable evidence/provenance account is needed. For each required permission or authority claim, apply the matching row above or its direct governing rule. |
 | Model card, datasheet, label, or note cited as readiness, safety, compliance, or release confidence | Recover the direct readiness, safety, compliance, or release claim and its criterion, intended-use match, evidence, and limits. Use A.15.5 for work-entry readiness, A.21 for a gate decision, and B.3 only for an independently current named assurance claim. |
 | Provenance or attestation label cited as truth, safety, release, permission, or authority | Require the bounded `A.10` provenance/process-trace claim plus the applicable pattern and test for the relied-on truth, safety, release, permission, or authority claim. For the last two, use the single branch above; the label is not its result. |
 | Evidence, assurance, gate, or work-occurrence words without the relation or result that carries that claim or effect | Recover the independently established support relation through A.10, the separately named B.3 assurance claim, A.21 gate decision, or A.15.1 work-occurrence account as required by the attempted use. |
@@ -117,10 +116,10 @@ Stress cases for practice:
 | Case | Expected A.15.4 disposition |
 | --- | --- |
 | Green release dashboard tile with no `GateDecisionRef`. | Source-finding only; recover the `A.21` `GateDecisionResult`, directly or through a decision log that cites it, plus `A.10` evidence before gate-passage reliance. |
-| Copied approval from last month. | Treat the copy as a source-finding cue; use the permission/authority branch above to choose the one live question, then recover currentness and evidence for that selected object. |
+| Copied approval from last month. | Treat the copy as a source-finding cue. Recover each permission or authority claim actually consumed by the intended use under the matching row above or its direct governing rule, with the currentness and evidence basis it requires. |
 | Register-backed credential badge screenshot after revocation. | Recover the entry, publication, status rule, direct status and required evidence/currentness/revocation basis. Add entry-producing Work only when the rule consumes it. A valid revocation blocks reliance even while the old entry remains visible. |
 | Register entry says `grant exercised; no violation`, but matching actual Work is unavailable. | Keep those claims unresolved. Recover the acted-on Work under A.13/A.15.1, the exercise predicate and the sufficiently complete current checked frame. A separate evaluation Work is needed only when that occurrence is claimed; it then needs its own basis. Add F.6 only for consumed attribution. Entry presence establishes neither result. |
-| Generated explanation says `authorized by policy`. | Use `E.17.EFP` for explanation/source-finding and `A.10` to recover the independently established source relation for the claim; if permission or authority is current, choose and verify one row in the single branch above. |
+| Generated explanation says `authorized by policy`. | Recover the claim and its governing rule. Use E.17.EFP when explanation-class ambiguity changes the use, and A.10 when a replayable evidence/provenance account is needed. For each required permission or authority claim, apply the matching row above or its direct governing rule. |
 | Boundary wording says `guaranteed approved for production`. | Split the sentence through `A.6` or `A.6.B`; use `A.6.C` for agreement-like or promise-bearing content and the single permission/authority branch above only for the permission or authority claim that remains. |
 | Dashboard says green while decision log says blocked. | Treat as conflicting source relations; name source-relation order, the decision or rule establishing that order, freshness policy, and supersession rule before the work claim or reliance claim is used. |
 | CRISPR lab dashboard says the guide edit is ready. | Treat the dashboard as orientation or source-finding until the protocol publication or protocol record, approval record or gate record, exact direct system-role-assignment occurrence when assignment identity matters, evidence relation, current lab context record, and `U.WorkPlan` for the intended edit are recoverable. Recover capability, authority, responsibility, permission, and Work attribution separately when current. If the question is full-kit or work-entry readiness for the intended edit, use `A.15.5`; the readiness tile still does not create biological-intervention authorization, deontic permission, safety, or performed Work. |

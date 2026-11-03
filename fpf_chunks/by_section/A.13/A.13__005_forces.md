@@ -6,12 +6,12 @@ section_id: "A.13:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__005_forces.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:3 — Forces"
-line_start: 28229
-line_end: 28237
+line_start: 28193
+line_end: 28201
 dependencies:
   - "A.10"
   - "A.12"
@@ -45,5 +45,5 @@ keywords:
 | **Scientific Fidelity vs. Simplicity** | Spectrum accounts draw attention to different capacities and levels of agency. A teachable summary still needs to state which characteristics and measurement bases it uses. |
 | **Role vs. Type** | The same System can qualify for a local agential kind and hold its assignment in one situation but not another. Characteristic claims are additional when consumed by the use. |
 | **Measurement vs. Label** | A quick label such as "Level 3 agent" summarizes more detailed claims. When assurance consumes agency characteristics, it needs their evidence-backed values, not that label. |
-| **System-only Action vs. Collective Action** | A precise agency claim for a team or swarm needs the collective admitted as a `U.System`, not merely named as a group. |
+| **Collective Agency** | A precise agency claim for a team or swarm needs the collective admitted as a `U.System`, not merely named as a group. |
 

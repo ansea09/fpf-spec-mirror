@@ -6,12 +6,12 @@ section_id: "A.6.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__005_solution.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:4 — Solution"
-line_start: 24593
-line_end: 24747
+line_start: 24571
+line_end: 24725
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,11 +61,11 @@ Treat an umbrella sameness sentence as a **dispatch trigger**, not as an automat
 
 1. **Ordinary designation inside one semantic bounded context.** If both expressions resolve to the same exact `<ReferenceScheme, LocalSenseClaim>` projection, keep ordinary designation and stop; use F.18 only when a durable name is needed. When only the admitted extent of that claim changes, apply A.2.6 `widen`, `narrow`, or `refit`. No F.9 Bridge is current.
 2. **Lane or reference-plane repair.** If the sentence confuses Object, Description, Carrier, or `CHR:ReferencePlane`, restore the exact kinds under A.7 or the governing plane rule.
-3. **Identification or indexing.** If the sentence means same id, key, code, or index target, use A.6.6. Identifier equality does not establish meaning correspondence.
+3. **Identification or indexing.** If the sentence means same id, key, code, or index target, apply the actual identification or indexing rule. Use A.6.6 when the relation or its participants remain hidden. Identifier equality does not establish meaning correspondence.
 4. **Scope operation.** A.2.6 is the pattern for `widen`, `narrow`, `refit`, and `translate` over exact scope values; when the sentence concerns claim extent, recover the exact `U.ClaimScope`. `translate` may consume an independently obtaining F.9 Bridge and a separate affirmative claim for that exact direction, rule, and tolerance; it is neither representation Work nor a structure crossing.
 5. **Other locality hidden by context wording.** Route interpretation to the effective interpretation rules (`ReferenceScheme`); claim extent to `U.ClaimScope`; empirical grounding to one exact `EpistemeEmpiricalGroundingRelation`; time to the qualification window required by the temporal predicate; a deliberately asserted actual composite project Work to A.13, independent A.15.1 admission and A.15.6; viewpoint use to the E.17.0 viewpoint relation and one `U.ViewpointRef` resolving exact P; and any world-side subject claim to the pattern that defines its relation predicate and obtaining condition. A bare context word supplies none of these governed objects or claims.
-6. **Representation transition.** A representation change is not a Bridge. For ordinary A.6.3.RT use, name the same concern, content to survive, target representation, source comparison, admissible use boundary, and source-return trigger and destination. When cross-scheme dependency or reliance makes exact claim identity material, independently constitute source episteme `X` and receiving episteme `Y`, require `EntityOfConcern(X)=EntityOfConcern(Y)` exactly, and state exact `v : X -> Y` with scheme relation, preservation, loss, and prohibited strengthening. Assert `RepresentationSchemeTransitionRelation@Context` only when every six-participant obtaining condition and actual dated representation-transformation Work are present; performed Work alone neither proves `v` nor makes that relation obtain. A Bridge supplies neither `v` nor the Work and makes no transition occurrence obtain.
-7. **Structure comparison or crossing.** Recover each exact `BoundedModelUseStructure` independently, then apply the conditional A.22 cross-structure rule in §4.8 only if exact governed subject crossings and a named receiving use remain. A SenseCell Bridge, label, diagram, shared participant, or reference supplies neither structure selection nor crossing; without an exact direct crossing governor, return the A.6.RCD missing-governor stop.
+6. **Representation transition.** A representation change is not a Bridge. For ordinary A.6.3.RT use, name the same concern, content to survive, target representation, source comparison, and supported use with its material limits. Add a source-return condition when a limitation, representation feature, misunderstanding or risk makes return necessary for that use, and name its destination. When cross-scheme dependency or reliance makes exact claim identity material, independently constitute source episteme `X` and receiving episteme `Y`, require `EntityOfConcern(X)=EntityOfConcern(Y)` exactly, and state exact `v : X -> Y` with scheme relation, preservation, loss, and prohibited strengthening. Assert `RepresentationSchemeTransitionRelation@Context` only when every six-participant obtaining condition and actual dated representation-transformation Work are present; performed Work alone neither proves `v` nor makes that relation obtain. A Bridge supplies neither `v` nor the Work and makes no transition occurrence obtain.
+7. **Structure comparison or crossing.** Identify the structures and what the comparison must establish under their direct rules; use A.22 for `U.Structure` identity. Apply §4.8 only when the receiving question depends on the organization of actual subject crossings among several independently identified `BoundedModelUseStructure` values. A SenseCell Bridge, label, diagram, shared participant, or reference alone supplies neither structure selection nor a crossing. For a required crossing without an exact direct governor, return the A.6.RCD missing-governor stop.
 8. **Cross-local semantic relation.** Resolve two exact F.17 `SchemeSenseCell` values from different semantic bounded contexts, declare the F.9 relation-semantic profile, and cite a Bridge only when its predicate obtains. Scheme difference, same spelling, a mapping witness, or two endpoint references alone establishes no Bridge.
 9. **Proposed use of an obtaining Bridge.** In a second sentence, name action `u`, direction `d`, use-specific rule `r`, tolerated loss `t`, and claim polarity under C.2.1. When someone will rely on that claim, recover A.10 or B.3 reliance for the same use.
 10. **Explanation or unresolved proposal.** Say plainly what remains unestablished. A candidate or negative card carries no positive occurrence reference.
@@ -99,7 +99,7 @@ Bridge(SourceSenseCell, ReceivingSenseCell; BridgePredicateProfile)
 
 Use that notation only after the F.9 predicate passes. For a proposal, write `candidate Bridge(...)` or use a candidate card with no positive occurrence reference.
 
-Changing `u`, `d`, `r`, or `t` changes the bounded-use claim, not the Bridge. Changing evidence, an A.10 relation or local `RelianceDisposition`, or a B.3 claim, record, or disposition reopens reliance without reidentifying the Bridge or the bounded-use claim. A changed endpoint or relation-semantic profile identifies another Bridge candidate.
+Changing `u`, `d`, `r`, or `t` changes the bounded-use claim, not the Bridge. Changing evidence, an independently established relation cited by the A.10 path, the local `RelianceDisposition`, or a B.3 claim, record, or disposition reopens reliance without reidentifying the Bridge or the bounded-use claim. A changed endpoint or relation-semantic profile identifies another Bridge candidate.
 
 #### A.6.9:4.2 - Explicit claim skeleton
 
@@ -117,7 +117,7 @@ Use this table for the semantic branch. The action, direction, rule, and toleran
 | rule `r` | every proposed use | The correspondence rule the action will follow. |
 | tolerance `t` | every proposed use | Which semantic loss is acceptable for this action; observed loss remains evidence. |
 | polarity and effective ReferenceScheme | every bounded-use claim | Whether the claim is affirmative or negative and how its designations are interpreted. |
-| A.10 or B.3 branch | when someone will rely on the claim | The exact evidence-provenance relation plus local disposition, or the B.3 claim or explicit disposition selected by its trigger. |
+| A.10 or B.3 branch | when someone will rely on the claim | The descriptive A.10 path, the independently established direct relations it cites, and local disposition, or the B.3 claim or explicit disposition selected by its actual assurance trigger. |
 | permission result | only when permission is required | Cite the exact A.2.8.PER result the use needs: an obtaining strong grant, weak non-prohibition finding, exercise relation, or conflict result. Policy and predicates supply grounds; they are not that result. |
 | receiving-object ref | only when the use is said to have happened | Exact Work, assertion, publication, relation, application, or other object under its subject pattern. |
 | `ClaimMode` and card EntityOfConcern | only when a card pays | Actual card concerns the obtaining Bridge; candidate or negative card concerns the admitted F.9 Bridge relation kind and carries proposed endpoints and profile in its ClaimGraph. |
@@ -126,7 +126,7 @@ Only the two endpoint cells fill the direct relation's participant slots. Use co
 
 #### A.6.9:4.3 - Judgement and change
 
-Choose the least-committing truthful Bridge kind: `Equivalence`, `Narrower-than`, `Broader-than`, `Partial-overlap`, `Disjoint`, or one declared cross-family relation kind. The kind settles relation semantics only.
+State the F.9 kind warranted by the correspondence or difference at issue: `Equivalence`, `Narrower-than`, `Broader-than`, `Partial-overlap`, `Disjoint`, or one declared cross-family relation kind. The kind settles relation semantics only.
 
 If a Bridge obtains and a use is proposed, judge that use separately:
 
@@ -141,14 +141,14 @@ If a Bridge obtains and a use is proposed, judge that use separately:
 
 Narrate changes by the object that changed:
 
-1. `retargetEndpoint` for another source or receiving cell;
-2. `replaceBridgeProfile` for changed relation-semantic content;
-3. `reviseBoundedUseClaim` for changed `u`, `d`, `r`, `t`, effective scheme, or polarity;
-4. `retestObtaining` for changed endpoint facts or dependencies under the fixed profile;
-5. `reopenReliance` for changed evidence, currentness, A.10 relation or disposition, or B.3 claim, record, or disposition;
-6. `reviseBridgeCard` for changed package content;
-7. `publishBridgeCardEdition` for a publication occurrence; and
-8. `recoverReceivingObject` when the use is claimed to have happened.
+1. when an endpoint changes, identify the new source or receiving cell;
+2. replace the Bridge profile when its relation-semantic content changes;
+3. revise the bounded-use claim when `u`, `d`, `r`, `t`, effective scheme, or polarity changes;
+4. retest the fixed Bridge predicate when endpoint facts or dependencies change;
+5. reassess reliance when evidence, currentness, a direct relation cited by the A.10 path, the local `RelianceDisposition`, or a B.3 claim, record, or disposition changes;
+6. revise the Bridge Card when its package content changes;
+7. when reporting a publication occurrence, identify the published Bridge Card edition; and
+8. identify the actual receiving object when the use is claimed to have happened.
 
 An inverse asymmetric relation and any direct A-to-C relation require their own profiles and tests. Two chained Bridges do not entail a third.
 
@@ -172,18 +172,18 @@ Keep clear same, align or map wording, including in technical prose. Add a non-i
 
 | Trigger | First question | Default route | Stop |
 | --- | --- | --- | --- |
-| “A is the same as B” | Same local sense or relation between distinct senses? | designation first; otherwise least-committing F.9 kind | no exact cells or predicate -> explanatory only |
+| “A is the same as B” | Same local sense or relation between distinct senses? | designation first; otherwise test the F.9 relation at issue | no exact cells or predicate -> explanatory only |
 | “Align A and B” | Shared label, comparison, substitution, or structure use? | name the proposed action; test F.9 only if a semantic-correspondence claim remains | mapping score alone establishes neither relation nor use |
 | “Map A to B” | Semantic reading or operational transformation? | operational only: use its defining operation rule, with Work only when performance is claimed; semantic as well: keep code or ETL as potential evidence and test F.9 | code direction is not use suitability |
-| “Same ID/key/one-to-one” | Identifier relation or meaning relation? | A.6.6 first | collision-free ids do not establish sense identity |
-| “B is a view/projection of A” | View membership, representation, or sense reuse? | E.17.0, C.29, or representation pattern first | dropped constraints block stronger use claims |
-| “Equivalent” | What relation, action, direction, rule, and tolerance? | test overlap or inclusion before equivalence | symmetry alone grants no use |
+| “Same ID/key/one-to-one” | What is equal or one-to-one: identifiers, index targets, a mapping, or local senses? | apply that relation's actual rule; use A.6.6 when its relation or participants are hidden, and F.9 only for a remaining cross-local semantic claim | collision-free ids do not establish sense identity |
+| “B is a view/projection of A” | View membership, representation, or sense reuse? | E.17.0 for View membership; the applicable representation pattern for construction; C.29 for an unresolved mathematical-lens choice, correspondence, or transfer question | dropped constraints block stronger use claims |
+| “Equivalent” | Which local senses and relation predicate; if a use is proposed, what action, direction, rule, and tolerance? | test the claimed relation directly; assess another F.9 kind when the receiving question needs it | symmetry alone grants no use |
 
 #### A.6.9:4.6 - Mapping witnesses are not Bridges
 
 A lookup table, aligner model, transformation function, API or ETL step may implement or represent a mapping. Its content may express claims or supply grounds for a Bridge or a bounded-use judgment; its mere presence or successful execution does not establish either. Code may run A → B while the semantic relation is symmetric, oriented the other way or absent. Even an obtaining Bridge needs a separate judgment for the operation's rule and tolerated loss.
 
-When the mapping witness is used to support a semantic-correspondence claim, keep it in the A.10 evidence path or optional card. Test the F.9 predicate; if a Bridge obtains and a use is proposed, state the C.2.1 bounded-use claim and recover reliance when someone will rely on that claim.
+Assess a mapping witness's content and grounds against the F.9 predicate. Recover an A.10 account when provenance, currentness or reliance must remain replayable; use a Card when reusable packaging is warranted. If a Bridge obtains and a use is proposed, state the C.2.1 bounded-use claim and recover reliance when someone will rely on that claim.
 
 #### A.6.9:4.7 - Coordination boundaries
 
@@ -194,9 +194,9 @@ When the mapping witness is used to support a semantic-correspondence claim, kee
 - **Project wording:** keep an ordinary project label or plan under its own meaning. When an actual composite project Work is deliberately asserted, use A.13, independent A.15.1 admission, and A.15.6 with exact work parthood. A label, plan or Bridge alone establishes no such occurrence.
 - **Viewpoint:** E.17.0 governs the direct `EpistemeViewpointConformanceRelation`; one `U.ViewpointRef` resolves exact viewpoint episteme P. The viewpoint, its reference, candidate/View episteme, and evaluator remain distinct.
 - **Evidence and assurance:** A.10 is the pattern for evidence provenance and local reliance; B.3 is the pattern for assurance claims, records, and explicit dispositions.
-- **Representations and publications:** E.17.0 is the pattern for conformance-dependent View membership, E.24.PUB is the pattern for publication occurrence/form/carrier, and C.29 is the pattern for mathematical-representation objects. A.6.3.RT starts an ordinary same-concern representation move with content to survive, source comparison, loss, admissible use, and the source-return trigger and destination; its triggered exact construction independently identifies `X`, `Y`, and `v`; actual representation-transformation Work is required only for the six-participant occurrence.
+- **Representations and publications:** E.17.0 governs conformance-dependent View membership and E.24.PUB publication occurrence/form/carrier. Apply the direct representation rule; use C.29 for an unresolved mathematical-lens choice, correspondence, or transfer question. A.6.3.RT starts an ordinary same-concern representation move with content to survive, source comparison, material loss and supported use. Add a source-return condition and destination when return is needed for that use. Its triggered exact construction independently identifies `X`, `Y`, and `v`; actual representation-transformation Work is required only for the six-participant occurrence.
 - **Kinds and classifications:** C.3.3 establishes the exact `KindBridge` between source and target local kinds. C.3.2 separately judges the candidate under the target kind, target `KindSignature` edition, and target slice; the result may be `true`, `false`, or `unknown`. F.9 supplies only local-sense correspondence needed by that use.
-- **Structures:** A.1.1/A.22 independently select each exact `BoundedModelUseStructure`; §4.8 applies the descriptive A.22 conditional cross-structure rule only after exact governed crossings and all four structure discriminators are recoverable. A SenseCell Bridge cannot substitute for that architecture.
+- **Structures:** identify the structures under their defining rules and use A.22 for `U.Structure` identity. Ordinary comparison uses the criterion needed by the receiving question. When §4.8's crossing-organization question is current, A.1.1/A.22 independently establish each participating `BoundedModelUseStructure`; the conditional cross-structure rule additionally requires exact governed crossings and all four structure discriminators. A SenseCell Bridge cannot substitute for that architecture.
 - **Direct subject relations, Work, and system-role claims:** a world-side relation obtains under its own predicate and participant conditions, independently of whether an assertion describes it. A.2.1 governs assignment. Actual Work requires A.13 and independent A.15.1 admission; F.6 applies only for precise assignment-bound attribution, and A.15.6 for the separately claimed composite Work. A semantic relation or use claim establishes none of those occurrences by itself.
 - **Permission:** apply A.2.8.PER and cite the exact result the proposed use needs—an obtaining strong grant, weak non-prohibition finding, exercise relation, or conflict result. Policy and direct predicates supply conditions or grounds but are not the permission result. Any required authority relation remains separate.
 

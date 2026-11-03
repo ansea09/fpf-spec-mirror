@@ -6,12 +6,12 @@ section_id: "A.6.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__001_intro.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:intro — Intro"
-line_start: 17601
-line_end: 17617
+line_start: 17598
+line_end: 17614
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -37,7 +37,7 @@ keywords:
 
 **First useful result.** Write one source-to-result statement. For example:
 
-> `Result Y is made from source X. Both are about the same named thing. Y keeps [named claims], omits [named claims], and adds no claim unsupported by [named sources].`
+> `Under the declared viewing rule, the claims in result Y are licensed by X together with any additional named sources and admitted facts required by that rule. X and Y are about the same named thing. Y keeps [named claims], omits [named claims], and adds no claim unsupported by those premises.`
 
 Then name or show the rule that selects, rewrites, or combines the claims. Do not call the construction an A.6.3 viewing unless X and Y can be identified separately and this rule can be inspected.
 

@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__015_sota-echoing.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:11 — SoTA-Echoing"
-line_start: 36010
-line_end: 36018
+line_start: 35968
+line_end: 35975
 dependencies:
   - "A.0"
   - "A.17"
@@ -40,8 +40,7 @@ keywords:
 
 | SoTA practice | Primary source(s) | Practice demand disciplined here | Practical safeguard bought | Adoption stance |
 | --- | --- | --- | --- | --- |
-| The cited multilevel-evolutionary work offers a comparison for relating descriptions across levels. | Vanchurin (2026) on generally covariant evolutionary dynamics; Warrell et al. (2024) on unified multilevel evolutionary frameworks. | `SS-0`, `SS-2`, `CC-A19SS-1`, `CC-A19SS-2`. | Keeps one neutral substrate beside `A.19`, so one archive, front, or publication face cannot silently stand in for the whole substrate declaration load. | **Adapt.** Keep one neutral substrate, but bind it to FPF declaration discipline. |
-| The cited QD work distinguishes feature/behavior space, quality/objective side, archive/repertoire set results, and local competition rather than treating one vague "space" as enough. | 2026 QD review; IJCAI 2024 stepping-stone results; MOUR-QD (2025). | `SS-1`, `SS-3`, `CC-A19SS-3`, `CC-A19SS-4`, worked slices `5.1` and `5.2`. | Forces search-side ref, outcome-side ref, and source-to-outcome relation to stay explicit, so downstream search/evaluation claims remain auditable. | **Adopt/Adapt.** Adopt the split; adapt it to FPF declared-source-set discipline. |
-| The cited QD and adjacent work considers learned, adaptive, unstructured, and uncertainty-bearing spaces and qualifiers, so one heavy metric or transition stack should not be assumed everywhere. | Uncertain Quality-Diversity (2023); Extract-QD (2025); later adaptive-space and meta-competition lines. | `SS-4`, `SS-5`, `CC-A19SS-5`, `CC-A19SS-6`. | Makes uncertainty posture explicit while keeping declared map ref, metric, transition, and bridge-loss pins optional unless the case truly depends on them. | **Adopt/Adapt.** Adopt uncertainty honesty and optional heavier qualifiers; reject mandatory geometric monoculture. |
-| Atlas and manifold-qualifier lines are useful in some cases, but they are not the default meaning of every source-set/space-substrate line. | UMAP 2024 review; 2024-2025 atlas and manifold-optimization lines. | `SS-5`, `SS-6`, boundary anti-case `5.3`, `CC-A19SS-8`. | Preserves substrate semantics so later interpretive or atlas views can help interpretation without quietly becoming the ontology. | **Adapt.** Keep atlas-form interpretation as a later specialization, not the substrate's ordinary center. |
+| Evolutionary models relate genotype and phenotype descriptions or model selection across several levels. | [Vanchurin, *Geometric framework for biological evolution* (2026)](https://arxiv.org/abs/2603.15198); [Warrell et al., *Variational methods for Learning Multilevel Genetic Algorithms using the Kantorovich Monad* (2024)](https://arxiv.org/abs/2411.09779). | `SS-0`, `SS-2`, `CC-A19SS-1`, `CC-A19SS-2`. | Provides comparisons for making the represented objects and their connecting relations explicit. | **Adapt.** These are subject-specific mathematical constructions; the source-set declaration rules here are an FPF adaptation. |
+| MOUR-QD distinguishes candidate solutions, feature descriptions, objective values and an archive with local Pareto comparisons. | [Janmohamed and Cully, *Multi-Objective Quality-Diversity in Unstructured and Unbounded Spaces* (2025), Introduction and §2](https://arxiv.org/html/2504.03715v1). | `SS-1`, `SS-3`, `CC-A19SS-3`, `CC-A19SS-4`, worked cases `5.1` and `5.2`. | Keeps the source members, space uses and source-to-outcome relation distinguishable. | **Adopt/Adapt.** Preserve the subject distinctions; express the needed references and relations under FPF. |
+| Feature spaces may be learned or unstructured, while uncertain QD may require distributions of fitness and descriptor values rather than single deterministic values. | [Janmohamed and Cully (2025), Introduction and §2](https://arxiv.org/html/2504.03715v1); [Flageat et al., *Extract-QD Framework: A Generic Approach for Quality-Diversity in Noisy, Stochastic or Uncertain Domains* (2025), Introduction and §2.2](https://arxiv.org/html/2502.06585v1). | `SS-4`, `SS-5`, `CC-A19SS-5`, `CC-A19SS-6`. | Makes the applicable uncertainty and model limits explicit without prescribing one metric or transition model for every use. | **Adopt/Adapt.** Retain the stated qualifications; select additional models and references for the actual receiving use. |
 

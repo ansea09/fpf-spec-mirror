@@ -6,7 +6,7 @@ section_id: "A.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__002_problem-frame.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6 — Signature Stack: Classify and Place Boundary Claims"
   - "A.6:1 — Problem frame"
@@ -72,7 +72,7 @@ Connect the contributions in two steps:
 2. Classify each boundary claim through A.6.B and place it where its governing content can be maintained and reused.
 
 *Terminology note (informative):* In this pattern:
-* **Layer** names a position in the account: Signature, Mechanism, governance, consequence/evidence or Publication. Actual occurrences remain the subjects of claims rather than parts of their description.
+* **Layer** names a position in the account: Signature, Admission, governance, consequence/evidence or Publication. Actual occurrences remain the subjects of claims rather than parts of their description.
 * **View** (`U.View`) is the same C.2.1 episteme individual when E.17.0 conformance to at least one exact viewpoint episteme obtains; it is not a projection operation, publication file, or document.
 * **Viewpoint** (`U.Viewpoint`) is the same C.2.1 episteme individual when the fixed E.17.0 viewpoint-convention conditions obtain; its accountability use does not replace those membership conditions.
 * **Face** (MVPK sense) is a publication form for a bounded reader/use. `PlainView`, `TechCard`, `InteropCard`, and `AssuranceLane` are face designators, not additional `publication-face kind` values. A face may expose an episteme that independently has `U.View` membership; the form, rendering and carrier remain separate from that episteme.

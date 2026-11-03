@@ -6,12 +6,12 @@ section_id: "A.9:4"
 section_title: "Solution — Select the Law Before Relying on Its Result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__005_solution-select-the-law-before-relying-on-its-result.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:4 — Solution — Select the Law Before Relying on Its Result"
-line_start: 26636
-line_end: 26661
+line_start: 26600
+line_end: 26625
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"
@@ -31,7 +31,7 @@ keywords:
 ### A.9:4 - Solution — Select the Law Before Relying on Its Result
 
 1. **Name the intended result and operands.** State what the combination must mean, which inputs contribute and what operation is proposed. For reliability, distinguish joint success from alternative success. For a composed Method or function, retain the intended order and participant meanings.
-2. **Recover the subject model and conditions.** Identify dependence, overlap, interaction, grouping and numerical interpretation where they change the result. For quantities, also recover the Characteristic, Scale, units and measurement conditions. Use C.29 when the representation or its correspondence to the subject is unresolved; mathematical notation alone is not that correspondence.
+2. **Recover the subject model and conditions.** Identify dependence, overlap, interaction, grouping and numerical interpretation where they change the result. For quantities, also recover the Characteristic, Scale and any applicable units. Recover measurement conditions when measured values are used. Use C.29 when the representation or its correspondence to the subject is unresolved; mathematical notation alone is not that correspondence.
 3. **Select a justified law.** Use the direct domain source or Method that supports this operation for this result. Reuse its current applicability judgment when adequate. If no available law is justified, name the missing model or condition; do not pick a convenient average or a generic weakest-part rule.
 4. **Check the property needed by the current action.** A requested reorder needs an order-invariance claim; a repartition needs valid decomposition and recombination; a bound needs the model that warrants it. For a numerical reproducibility claim, state whether the use requires the same exact value, the same bits, or an error bound before accepting a regrouping. Use the applicable argument or warranted test under those conditions. The table below supplies possible questions, not a compulsory set of five checks.
 5. **Return the warranted answer and limit.** Apply the justified law, or return a supported bound, separate inputs or the exact missing/defeated premise. If a condition changes, withdraw only the conclusion that depended on it and recover the needed model. Pass an actual CHR measure fold to ULSAM when that mechanism use is current. Use B.3 only for a receiving claim that requires assurance.

@@ -6,12 +6,12 @@ section_id: "C.41.SR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__001_intro.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:intro — Intro"
-line_start: 89797
-line_end: 89802
+line_start: 89718
+line_end: 89723
 dependencies:
   - "A.10"
   - "B.1.5"

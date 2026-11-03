@@ -6,12 +6,12 @@ section_id: "C.39.MF:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__001_intro.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:intro — Intro"
-line_start: 83791
-line_end: 83797
+line_start: 83712
+line_end: 83718
 dependencies:
   - "A.15.6"
   - "A.3.1"

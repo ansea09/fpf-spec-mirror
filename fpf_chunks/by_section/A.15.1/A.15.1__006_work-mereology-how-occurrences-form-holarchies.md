@@ -6,12 +6,12 @@ section_id: "A.15.1:5"
 section_title: "Work mereology (how occurrences form holarchies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__006_work-mereology-how-occurrences-form-holarchies.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:5 — Work mereology (how occurrences form holarchies)"
-line_start: 29380
-line_end: 29463
+line_start: 29342
+line_end: 29425
 dependencies:
   - "A.1"
   - "A.10"
@@ -65,7 +65,7 @@ Work identity is occurrence-grounded and 4D. Start from the actual performance h
 
 `workContinuityPolicyRef` designates the C.2.1 episteme stating the named use, boundary events, tolerated variation and branch criterion. Interpret it under its effective reference scheme. Add claim scope, qualification window or model-use structure only when it changes the segmentation assertion. The policy supports classification of the existing history for that use; another policy can support a competing assertion. Apply §4.1's edition rule: unestablished continuity remains unresolved, rather than becoming a negative continuity claim. A policy is a `U.MethodDescription` only after A.3.2 admission.
 
-* **Operational-part (`OperationalPartOf_work`).** A **work-part occurrence** that may enact a factor of a recovered `U.Method`, for example, an incision occurrence within an appendectomy occurrence, possibly **overlapping** with others in time. If a method-description reference is used, it identifies, describes, constrains, or evidences that method factor; the referenced `U.MethodDescription` is not enacted. If no `U.Method` factor is recovered, keep the material as the work part, evidence segment, telemetry segment, mechanism material, system-component behavior, or missing-source-relation note that was actually identified; do not infer a method factor from its label.
+* **Operational-part (`OperationalPartOf_work`).** A **work-part occurrence** that may enact a factor of a recovered `U.Method`, for example, an incision occurrence within an appendectomy occurrence, possibly **overlapping** with others in time. If a method-description reference is used, it identifies, describes, constrains, or evidences that method factor; the referenced `U.MethodDescription` is not enacted. If no `U.Method` factor is recovered, retain the object actually identified; do not infer a Method factor from its label.
 * **Concurrent work parts (derived use-side reading; no fourth parthood relation).** First state each exact work-part relation to the same parent. Then use C.27.TA to state the exact temporal-overlap predicate, reference, intervals, and use. If a claim also says that the parts were coordinated, name its declared coordination predicate and actual participants. Shared parentage and overlap do not by themselves establish coordination, and `ConcurrentPartOf_work` is not introduced as a primitive work-part relation.
 
 **Naming threshold.** First identify the actual Work part under its occurrence and relation rules. Give it a stable name when a current or later use needs a distinct reference—for example for resources, evidence, KPI, acceptance, repair or aggregation. Otherwise retain the interval, evidence slice, telemetry or other object actually needed. A proposed new U-kind has its separate admission test.
@@ -81,7 +81,7 @@ Work identity is occurrence-grounded and 4D. Start from the actual performance h
 
 #### A.15.1:5.2 - Key relations among Work
 
-**Temporal order and overlap.** A.15.1 supplies each Work occurrence and its exact extent; it does not declare `precedes`, `happensBefore`, `overlaps`, `contains`, and `within` as interchangeable relation names. Use C.27.TA to name the temporal bearer, reference, exact intervals, direct temporal predicate, and use that needs it. A differently named predicate is used only when its own declaration gives the same participant meanings and law. Use B.1.4 after those temporal facts are recovered when the task asks for a roll-up.
+**Temporal order and overlap.** A.15.1 supplies each Work occurrence and its exact extent. Use C.27.TA to name the temporal bearer, reference, exact intervals, direct temporal predicate, and use that needs it. A differently named predicate is used only when its own declaration gives the same participant meanings and law. Use B.1.4 after those temporal facts are recovered when the task asks for a roll-up.
 
 **Retry and resumption.** Use only a locally declared retry or resumption species that passes §4.1a. Name that predicate and the actual later–earlier Work pair. Bare `retryOf` or `resumptionOf` wording is a prompt to recover the local relation, not a positive claim.
 

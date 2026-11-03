@@ -6,12 +6,12 @@ section_id: "A.11.OP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__005_solution.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:4 — Solution"
-line_start: 27687
-line_end: 27750
+line_start: 27651
+line_end: 27714
 dependencies:
   - "A.10"
   - "A.11"
@@ -79,7 +79,7 @@ A passing branch establishes only the named contribution. Every downstream claim
 
 #### A.11.OP:4.5 - Keep the result light and reopenable
 
-For ordinary use, say:
+For ordinary use, a short answer can be:
 
 > Keep `<requirement>` for `<declared use>` until `<nearest substantive horizon>` because `<named contribution and the basis for requiring this work>`.
 
@@ -89,7 +89,7 @@ or:
 
 If a proposed inquiry has a contribution but is unavailable or not worthwhile, finish with the current supported answer and selected continuation. Keep a short reason or limitation in that result when the recipient needs it; add no empty probe fields or separate omission account.
 
-Record the disposition in the existing record kind appropriate to a named later use when its recipient must cite, compare, audit or rely on it. Otherwise the one-sentence result is complete.
+Record the disposition in the existing record kind appropriate to a named later use when its recipient must cite, compare, audit or rely on it. Otherwise the supported answer is complete.
 
 Reopen the disposition when the horizon, plausible results, selected transformation, direct duty, assurance floor, recovery reliance, or burden-bearing alternative changes.
 

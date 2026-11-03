@@ -6,12 +6,12 @@ section_id: "C.40.JF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.JF/C.40.JF__007_bias-annotation.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.40.JF — Qualify Dependencies and Joint Reachability"
   - "C.40.JF:6 — Bias-Annotation"
-line_start: 87932
-line_end: 87937
+line_start: 87853
+line_end: 87858
 dependencies:
   - "A.10"
   - "A.15.9"

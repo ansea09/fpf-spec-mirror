@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__012_rationale.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:10 — Rationale"
-line_start: 32278
-line_end: 32287
+line_start: 32237
+line_end: 32246
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -22,7 +22,7 @@ keywords:
 
 ### A.15.8.MS:10 - Rationale
 
-Enactment assistance is relational and work-bound. A repository can hold material; a representation can expose a claim; a tool can return a value; a provider can offer a service; a user System can perform Work; a policy can institute permission; an assignment or authority relation can obtain. None substitutes for the others.
+Enactment assistance is relational and work-bound. A repository can hold material; a representation can expose a claim; a tool can return a value; a provider can offer a service; a user System can perform Work; a System can institute granted permission through an admitted SpeechAct under the conditions in A.2.8.PER; an assignment or authority relation can obtain. None substitutes for the others.
 
 FPF supplies the generic one-receiver/one-action representation-selection discipline in `C.37`, configuration-and-recovery in `A.15.8`, and comparison and set-valued selection in `A.19.CPM` and `A.19.SelectorMechanism`. A.15.8.MS specializes those moves for Method material and adds the bounded task-set bridge across Method or candidate status, A.3.2.DE results, Method Base collection and edition facts, retrieval, tailoring, provider and AI particulars, and their receiving uses.
 

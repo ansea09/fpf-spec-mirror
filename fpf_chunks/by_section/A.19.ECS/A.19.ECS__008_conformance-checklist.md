@@ -6,12 +6,12 @@ section_id: "A.19.ECS:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__008_conformance-checklist.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction: Define What Counts as Better"
   - "A.19.ECS:6 — Conformance checklist"
-line_start: 35234
-line_end: 35255
+line_start: 35195
+line_end: 35216
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -47,5 +47,5 @@ keywords:
 | `CC-A19ECS-14` | It SHALL define the evaluation evidence basis and any coordinate-specific evidence payload needed for source-currentness, comparator, corpus-projection, worked-case, retrieval, or external-currentness claims. Apply the declared missingness rule when evidence is missing or unchecked. Lower a value for that absence only when the coordinate's value rule evaluates evidence adequacy or otherwise makes that absence a lower value; do not infer a low property value merely from an unknown value. | Makes values replayable while preserving missingness and the declared coordinate coverage. |
 | `CC-A19ECS-15` | When different evaluators will reuse it, the specification SHALL provide calibration cases for common disagreements: adjacent-value cases where the Scale has them, or the applicable reference values, resolution and uncertainty for continuous readings. | Keeps calibration compatible with the Scale. |
 | `CC-A19ECS-16` | It SHALL declare where result evidence, corpus-projection evidence, retrieval evidence, comparator evidence, currentness evidence, and quality-status evidence live. These payloads SHALL stay in the evaluation result, evidence basis, projection carrier, or selected publication carrier unless the evaluated object itself is that carrier. If the payload implies a user-facing action for another evaluated object, publish that move or boundary, not the carrier proof. This is an evaluation-payload placement rule, not a lexical ban: evidence-use payloads do not enter live evaluated-object text merely because they are true or useful to authors or evaluators. | Prevents evaluation evidence from leaking into the evaluated object's method or live text. |
-| `CC-A19ECS-17` | If construction or repair changes coordinate wording or evaluation wording, the specification SHALL require a pre/post kind-restoration check for evaluated object kind, characteristic kind, relation or claim kind, current ontic slot, relation position, use relation, admissible use, and scope, plus the relevant definition or constraint from another pattern, with exact ClaimGraph identity only when that identity or edition affects use. | Prevents coordinate cleanup from changing what the evaluation evaluates. |
+| `CC-A19ECS-17` | If construction or repair changes coordinate wording or evaluation wording, perform a pre/post check of evaluated object kind, characteristic kind, relation or claim kind, current ontic slot, relation position, use relation, admissible use, and scope. Use the relevant definition or constraint from another pattern when it governs the repaired meaning; identify an exact ClaimGraph only when its identity or edition affects use. | Prevents coordinate cleanup from changing what the evaluation evaluates. |
 

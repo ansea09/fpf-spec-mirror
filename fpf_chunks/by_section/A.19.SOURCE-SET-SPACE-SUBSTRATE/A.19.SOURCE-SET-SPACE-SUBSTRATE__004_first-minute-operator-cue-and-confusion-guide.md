@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:0.b"
 section_title: "First-minute operator cue and confusion guide"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__004_first-minute-operator-cue-and-confusion-guide.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:0.b — First-minute operator cue and confusion guide"
-line_start: 35633
-line_end: 35655
+line_start: 35594
+line_end: 35616
 dependencies:
   - "A.0"
   - "A.17"
@@ -42,13 +42,13 @@ When the receiving use depends on the source set, search space and outcome space
 
 First recover:
 
-1. Name the active source set.
+1. Name the active source set, or the contributing source sets and their composition.
 2. Point `SearchSpaceRef` and `OutcomeSpaceRef` to declared `CharacteristicSpace`.
 3. Choose `sameDeclaredSpaceAs` or `distinctDeclaredSpaceFrom`.
 4. State the source-to-outcome relation in direction, mode, and carrier.
-5. State the applicable limitations; use a primary posture token to organize them without hiding other material qualifications.
+5. State the applicable limitations. A primary posture token may organize them; supply it when a selected interface requires one, without hiding other material qualifications.
 
-If one of those five cells cannot yet be filled honestly, do not improvise around it. Either you are still in `A.19`, or you have really moved into interpretive-view work, publication, or policy, or the current line is still missing one declared basis.
+If one of these facts cannot yet be recovered, preserve the established source and space facts, name the missing basis, and withhold the complete substrate claim and only the use that depends on that basis. Use the applicable subject pattern when it can supply the missing result.
 
 | If the question under repair sounds like... | Use now | Why |
 | --- | --- | --- |

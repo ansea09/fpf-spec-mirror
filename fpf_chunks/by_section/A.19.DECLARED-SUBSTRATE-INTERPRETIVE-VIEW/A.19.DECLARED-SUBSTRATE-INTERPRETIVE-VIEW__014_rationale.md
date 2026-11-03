@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__014_rationale.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:10 — Rationale"
-line_start: 36445
-line_end: 36461
+line_start: 36387
+line_end: 36390
 dependencies:
   - "A.0"
   - "A.19"
@@ -22,6 +22,7 @@ dependencies:
   - "C.24"
   - "E.17"
   - "E.17.0"
+  - "E.24.PUB"
   - "G.10"
   - "G.2"
   - "G.5"
@@ -39,18 +40,5 @@ keywords:
 
 ### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:10 - Rationale
 
-The family needs one common interpretive-view pattern because neither of the earlier extremes is good enough.
-
-If everything stays in the substrate, the substrate starts carrying interpretive and atlas-form requirements that are not part of its semantic center.
-
-If everything stays inside one local specialization such as `G.2`, the common interpretive requirement gets trapped inside one tradition-facing case and starts looking like a local accident rather than a reusable family.
-
-`A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` is the middle answer:
-
-- it keeps the interpretive layer generic and reusable;
-- it keeps the layer explicitly under existing view law;
-- it lets ordinary thinner interpretive views remain first-class;
-- and it reserves atlas-form reading for the cases that truly need it.
-
-That is why `DeclaredSubstrateAtlasView` appears here as one richer interpretive specialization, while `TraditionAtlasView` remains one `G.2` specialization of it rather than the common head.
+An inspection question determines which aspects and connections of a declared substrate need to be shown. Keeping the source sets, relevant results and material qualifications recoverable lets the reader inspect those connections without changing the substrate; thin or atlas form supplies the amount of explanation the question needs.
 

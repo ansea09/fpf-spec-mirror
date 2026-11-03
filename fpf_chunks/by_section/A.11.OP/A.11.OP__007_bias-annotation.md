@@ -6,12 +6,12 @@ section_id: "A.11.OP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11.OP/A.11.OP__007_bias-annotation.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.11.OP — Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement"
   - "A.11.OP:6 — Bias-Annotation"
-line_start: 27797
-line_end: 27808
+line_start: 27761
+line_end: 27772
 dependencies:
   - "A.10"
   - "A.11"
@@ -43,5 +43,5 @@ Scope: **Universal** for the cross-domain admission question governed by this pa
 | **Arch** | Every special case receives another owner, or this pattern absorbs Method, choice, Work, evidence, and assurance decisions. | Keep one three-branch admission screen and return every downstream claim to its direct pattern. |
 | **Onto/Epist** | An author declares ordinary words such as *action*, *apparatus*, or *horizon* as new kinds, or treats information volume as decision relevance. | Keep the words ordinary and name the exact receiving decision, result, reliance, or recovery condition. |
 | **Prag** | “Less is better” deletes exploration, deterministic realization, prevention, or recovery; “might help” preserves ceremony forever. | Compare keeping and removing at the nearest named substantive horizon through all three branches. |
-| **Did** | The branch table becomes a mandatory form that costs more than the judgement it supports. | Keep ordinary use to one disposition sentence and introduce durable evidence only for a named relying use. |
+| **Did** | The branch table becomes a mandatory form that costs more than the judgement it supports. | For ordinary use, give the disposition and its needed explanation; introduce durable evidence only for a named relying use. |
 

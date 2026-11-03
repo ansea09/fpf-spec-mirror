@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__003_problem.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening: Shorten an Account for a Bounded Use"
   - "A.6.3.CSC:2 — Problem"
-line_start: 17883
-line_end: 17896
+line_start: 17866
+line_end: 17879
 dependencies:
   - "A.15"
   - "A.20"
@@ -39,8 +39,8 @@ A coarsened rendering stays usable under these conditions:
 - the source-bearing side retains the fuller claim scope and remains directly reopenable;
 - the coarsened rendering has declared concrete loss or reduced recoverability;
 - the coarsened rendering makes only the narrower use admissible;
-- downstream use is non-admissible from the coarsened rendering alone;
-- downstream use reopens the source-bearing side or uses the pattern that supplies the needed definition, constraint, test, method, evidence rule, or genuine `authoritySourceRef` relation.
+- a use requiring a lost distinction or additional support is not admissible from the coarsened rendering alone;
+- such a use reopens the source-bearing side or uses the pattern that supplies the needed definition, constraint, test, method, evidence rule, or genuine `authoritySourceRef` relation.
 
 Without a named pattern for that relation, neighboring patterns repeat partial coarsening rules locally. The repetition hides the shared constraint and makes it too easy for coarsened renderings to travel as if they were the source-bearing side.
 

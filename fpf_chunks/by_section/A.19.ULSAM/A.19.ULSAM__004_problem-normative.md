@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:2"
 section_title: "Problem (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__004_problem-normative.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:2 — Problem (normative)"
-line_start: 38604
-line_end: 38614
+line_start: 38537
+line_end: 38547
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -37,6 +37,6 @@ How do we define an aggregation step that:
 3) is **Γ‑fold-policy-bound** (`CG‑Spec.Γ_fold` or explicit override),
 4) is **evidence-gated** with tri‑state guards (no `unknown → 0/false` coercions),
 5) is **auditable** (editions, effective fold, contributor surface),
-6) preserves **kernel stability** while allowing SoTA evolution via wiring,
-7) remains **didactically readable** (one governing pattern; no scavenger hunt).
+6) preserves **kernel stability** while allowing SoTA evolution via wiring.
+
 

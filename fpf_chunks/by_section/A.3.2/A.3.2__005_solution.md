@@ -6,7 +6,7 @@ section_id: "A.3.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__005_solution.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:4 — Solution"
@@ -68,13 +68,13 @@ An assertion or description episteme about one dated Work occurrence may cite `m
 
 Begin with the claim-bearing episteme, then distinguish how its claims are made available:
 
-* an expression can represent claims through an identifiable correspondence; A.6.3.RT and A.6.3.RT.OE explain its construction, and C.29 applies when a mathematical lens is used or remains to be chosen;
+* an expression can represent claims through an identifiable correspondence; A.6.3.RT and A.6.3.RT.OE explain its construction, and C.29 applies only when a separate mathematical-representation choice, transfer or reliance question remains;
 * an `E.24.PUB` publication expression conveys the selected episteme for one bounded use and can conform to a reusable publication form;
 * an independently identified physical or digital carrier bears that expression.
 
 Only the claim-bearing episteme can meet the membership rule in 4.1; keep its representation, form, carrier, and publication occurrence separate.
 
-The representation may use procedural text, code, diagrams, rules, constraints, mathematical notation, or combinations of them. Notation choice does not decide membership. Read each assertion separately: use A.6.0 or C.29 when it asserts a formal object, A.6.1 or E.20 when it declares an operation family and laws, A.15.2 when it states intended Work, and A.10 or B.3 when another claim relies on it as evidence or assurance.
+The representation may use procedural text, code, diagrams, rules, constraints, mathematical notation, or combinations of them. Notation choice does not decide membership. Read each assertion separately: use A.6.0 when reusable declaration content is the current object, C.29 only when a separate mathematical-representation choice, transfer or reliance question remains, A.6.1 or E.20 when it declares an operation family and laws, A.15.2 when it states intended Work, and A.10 or B.3 when another claim relies on it as evidence or assurance.
 
 #### A.3.2:4.3 - Method-description claim content
 

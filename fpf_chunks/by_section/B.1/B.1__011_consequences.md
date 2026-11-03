@@ -6,12 +6,12 @@ section_id: "B.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__011_consequences.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:9 — Consequences"
-line_start: 41254
-line_end: 41267
+line_start: 41182
+line_end: 41195
 dependencies:
   - "A.1"
   - "A.14"
@@ -41,5 +41,5 @@ Positive consequences:
 Costs:
 
 - Users must identify the claim kind before choosing a notation.
-- Using aggregation notation can require further grounds: work occurrence evidence uses `A.15.1`, work-resource aggregation uses `B.1.6`, mathematical-lens reliance uses `C.29`, and whole reidentification first uses `B.2.P` and then `B.2` when the problem remains current.
+- Further grounds depend on the claim: work occurrence evidence uses `A.15.1`; work-resource aggregation uses `B.1.6`; an unresolved mathematical representation-choice, transfer or reliance question uses `C.29`. Use `B.2.P` for unresolved emergence-family wording and `B.2` when changed facts leave a consequential existing-whole versus new-whole question.
 

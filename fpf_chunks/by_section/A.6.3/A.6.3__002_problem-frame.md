@@ -6,12 +6,12 @@ section_id: "A.6.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__002_problem-frame.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:1 — Problem frame"
-line_start: 17618
-line_end: 17633
+line_start: 17615
+line_end: 17630
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -37,7 +37,7 @@ Engineering work often needs a different body of claims about the same thing. Ex
 Several neighboring facts can all be true but are not the same fact:
 
 1. X and Y are identified as C.2.1 epistemes;
-2. Y was constructed from X under one declared viewing rule;
+2. a declared viewing rule licenses Y's claims from X and any additional named sources or admitted facts it requires;
 3. X and Y have the same EntityOfConcern;
 4. Y makes no stronger claims than the identified sources license;
 5. Y conforms to an exact viewpoint and is therefore a `U.View`;

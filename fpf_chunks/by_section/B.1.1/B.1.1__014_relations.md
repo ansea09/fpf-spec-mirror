@@ -6,19 +6,18 @@ section_id: "B.1.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__014_relations.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:12 — Relations"
-line_start: 41496
-line_end: 41501
+line_start: 41422
+line_end: 41427
 dependencies:
   - "A.1"
   - "A.10"
   - "A.14"
   - "A.15.1"
   - "A.22"
-  - "A.6.5"
   - "B.1"
   - "B.1.4"
   - "B.3.5"
@@ -32,7 +31,7 @@ keywords:
 
 ### B.1.1:12 - Relations
 
-- **Builds on:** `B.1`, `A.1`, `A.14`, `C.13`, and `A.6.5`.
+- **Builds on:** `B.1`, `A.1`, `A.14`, and `C.13`.
 - **Coordinates with:** `A.15.1` for work occurrence, `B.1.4` for contextual and temporal aggregation, `C.29` for graph as mathematical lens, `A.22` and `C.30` for selected structure and architecture, `C.30.AD` and `C.30.AD.BA` for architecture description and digital-twin cases.
-- **Can contribute evidence to:** `B.2` when dependency evidence bears on whole reidentification after existing-whole explanations fail.
+- **Can contribute evidence to:** `B.2` when dependency evidence bears on a consequential question about retaining or reidentifying the whole.
 

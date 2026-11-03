@@ -6,12 +6,12 @@ section_id: "B.1.2:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__011_consequences.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "B.1.2 — Coordinate Decisions About System Aggregation and Delimitation"
   - "B.1.2:8 — Consequences"
-line_start: 41682
-line_end: 41696
+line_start: 41608
+line_end: 41622
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,11 +45,11 @@ Positive consequences:
 - System aggregation remains practical for engineering systems and organizations.
 - Boundary and interface decisions expose the facts and rules they depend on.
 - Practitioners can distinguish functional architecture, module allocation, and physical parthood within a shared diagram.
-- A digital twin or publication remains a description unless a further relation is independently defined and established.
+- The description remains distinct from the system it describes; any further claimed relation between them needs its own grounds.
 
 Costs:
 
-- Engineering diagrams used for decisions need annotations that name the exact relation and its defining pattern or declaration.
+- A decision diagram needs clarification when a relevant relation or its basis cannot be recovered from the diagram and its available explanation.
 - Some familiar component lists must be split into physical parts, functional elements, external systems, sources, and descriptions.
 - Whole-level characteristic claims need scale and relation discipline.
 

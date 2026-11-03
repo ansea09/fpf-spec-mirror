@@ -6,19 +6,18 @@ section_id: "B.1.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__013_sota-echoing.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:11 — SoTA-Echoing"
-line_start: 41487
-line_end: 41495
+line_start: 41414
+line_end: 41421
 dependencies:
   - "A.1"
   - "A.10"
   - "A.14"
   - "A.15.1"
   - "A.22"
-  - "A.6.5"
   - "B.1"
   - "B.1.4"
   - "B.3.5"
@@ -32,10 +31,9 @@ keywords:
 
 ### B.1.1:11 - SoTA-Echoing
 
-| Source line | Practical implication for this pattern |
-| --- | --- |
-| Systems engineering dependency modeling | Dependency views are useful only when edge meaning is declared and traceable to the current engineering concern. |
-| Graph theory and mathematical-lens practice | A graph property applies to the graph expression; it bears on the object only through an admitted mapping to the selected relation. |
-| Applied ontology relation discipline | Part-whole, collection-specific belonging, representation, evidence, source-use, and influence relations have different admissibility conditions. |
-| FPF design-description and run-occurrence distinction | A design dependency expression and a performed-Work occurrence use separate patterns and evidence. |
+For the question "what whole-level claim follows from this dependency graph?", a generic graph can answer a reachability or cycle question about its edges. A claim about the represented system additionally needs the edge relation and its correspondence. A.14:4 and C.13:4.1 supply the part-whole and collection criteria used here; A.22:4.1 supplies the selected organization's identity discriminators.
+
+In B.1.1:5.1, the arrow `PowerGrid -> Plant` alone does not distinguish supply from parthood. Supply leaves parthood undecided; an independently grounded internal power subsystem can be both supplier and part. The generic edge account is sufficient for a graph property that does not depend on that distinction, but insufficient for a plant-parthood conclusion. Sections B.1.1:4.1–4.3 retain the graph calculation and add the relation facts, identity rule and correspondence required by the intended inference.
+
+The additional work is to recover those facts and rules, using the diagram or an accompanying explanation when the receiving use needs them inspectable. This conceptual comparison supports the distinction in these cases; it does not establish superiority over named engineering notations. Reconsider the required account when the relation, correspondence or intended inference changes.
 

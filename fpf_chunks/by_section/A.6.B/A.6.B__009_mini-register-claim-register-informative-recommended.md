@@ -6,7 +6,7 @@ section_id: "A.6.B:7"
 section_title: "Mini-register: Claim Register (informative, recommended)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__009_mini-register-claim-register-informative-recommended.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:7 — Mini-register: Claim Register (informative, recommended)"
@@ -32,7 +32,6 @@ dependencies:
   - "E.17.0"
   - "E.8"
   - "U.Commitment"
-  - "U.EpistemicViewing"
   - "U.Mechanism"
   - "U.Signature"
   - "U.SpeechAct"
@@ -85,7 +84,7 @@ A Claim Register is a drift‑control device that lists every classifiable state
 Guidance (informative):
 * The **Statement** cell should contain the normative text as authored (copied by value), not a paraphrase.
 * **Canonical location** should point to the one place the statement “lives” (e.g., `Signature.Laws`, `Mechanism.AdmissibilityConditions`, `TechCard.NormsCommitments`, `Evidence.Carriers`), so other faces can cite its ID or canonical location.
-* **Stack layer** should be one of `{Signature, Mechanism, Norms-and-commitments, Evidence-and-carriers}` to make classification auditable.
+* **Stack layer** should be one of `{Signature, Admission, Norms-and-commitments, Evidence-and-carriers}` to make classification auditable.
 * **A.7 primary layer** identifies the claim's EntityOfConcern, with its kind
   when needed. The concern may itself be a Description episteme or publication carrier;
   it remains distinct from the episteme carrying the claim.

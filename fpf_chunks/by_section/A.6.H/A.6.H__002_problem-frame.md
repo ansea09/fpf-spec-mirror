@@ -6,12 +6,12 @@ section_id: "A.6.H:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__002_problem-frame.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:1 — Problem frame"
-line_start: 25206
-line_end: 25222
+line_start: 25183
+line_end: 25199
 dependencies:
   - "A.1"
   - "A.10"
@@ -21,6 +21,8 @@ dependencies:
   - "A.15.1"
   - "A.15.2"
   - "A.15.PROD"
+  - "A.17"
+  - "A.2.4"
   - "A.22"
   - "A.3.1"
   - "A.3.2"

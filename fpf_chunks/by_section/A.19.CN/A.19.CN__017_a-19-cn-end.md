@@ -6,12 +6,12 @@ section_id: "A.19.CN:End"
 section_title: "A.19.CN:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__017_a-19-cn-end.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:End — A.19.CN:End"
-line_start: 36905
-line_end: 36906
+line_start: 36840
+line_end: 36841
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -19,19 +19,21 @@ dependencies:
   - "F.9"
   - "G.0"
 keywords:
-  - "CL/loss notes"
   - "CN-Spec"
   - "CN-frame"
   - "RSG admission hooks"
   - "SCR/RSCR harness"
   - "WLNK discipline"
-  - "bridges"
   - "chart"
   - "comparability modes"
   - "conformance checklist"
   - "indicator policy refs"
+  - "loss evidence"
+  - "maintained editions"
   - "normalization refs"
-  - "registry"
+  - "optional CL"
+  - "semantic relations"
+  - "separate use claims"
   - "Γ-fold governance"
 ---
 

@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__010_consequences.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:9 — Consequences"
-line_start: 18499
-line_end: 18506
+line_start: 18481
+line_end: 18488
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -36,7 +36,7 @@ keywords:
 
 - Readers can inspect the connection between the source claims and the rewritten text.
 - Direct and correspondence-mediated variants stay visibly separated.
-- Loss, provenance, and reliability transport become explicit instead of implicit editorial judgement.
+- Loss, provenance, and reliability conditions that affect interpretation or intended use remain recoverable.
 - Ordinary working-model use stays lightweight, while cases needing fuller review get the additional record content their risk and use warrant.
 - The pattern remains bounded by `A.6.3`, `A.6.4`, explanation-facing work, and representation-shift work.
 

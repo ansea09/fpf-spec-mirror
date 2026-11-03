@@ -6,12 +6,12 @@ section_id: "A.19.CN:13"
 section_title: "Minimal CN‑Spec template (copy/paste, informational)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__014_minimal-cn-spec-template-copy-paste-informational.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.CN — CN-frame: Specify and Maintain Comparability and Normalization"
   - "A.19.CN:13 — Minimal CN‑Spec template (copy/paste, informational)"
-line_start: 36841
-line_end: 36885
+line_start: 36775
+line_end: 36820
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -19,25 +19,27 @@ dependencies:
   - "F.9"
   - "G.0"
 keywords:
-  - "CL/loss notes"
   - "CN-Spec"
   - "CN-frame"
   - "RSG admission hooks"
   - "SCR/RSCR harness"
   - "WLNK discipline"
-  - "bridges"
   - "chart"
   - "comparability modes"
   - "conformance checklist"
   - "indicator policy refs"
+  - "loss evidence"
+  - "maintained editions"
   - "normalization refs"
-  - "registry"
+  - "optional CL"
+  - "semantic relations"
+  - "separate use claims"
   - "Γ-fold governance"
 ---
 
 ### A.19.CN:13 - Minimal CN‑Spec template (copy/paste, informational)
 
-**Template note (refs-only).** This template shows *slot placement* for governance. Token semantics for normalization belong to the A.19.UNM governing pattern (A.19.UNM); indicatorization semantics belong to the indicatorization governing pattern (e.g., A.19.UINDM); evidence/backing semantics belong to C.16; admissibility/evidence gates belong to G.0.
+**Template note.** This example arranges the information needed to specify the comparison basis. A.19.UNM defines normalization terms; A.19.UINDM defines indicatorization; C.16 governs measurement and evidence backing; G.0 supplies the applicable admission conditions.
 
 ```
 CN‑frame: <Name>      Edition: <edition>      Bearer: <bearer ref>
@@ -45,7 +47,7 @@ ComparisonBasis: <corpus, baseline, reference state, or declared comparison set>
 ScopeAndWindow: <scope ref and qualification interval, when used>
 IntendedUse: <claim, comparison, admission, or aggregation use>
 characteristics:
-  - <CharacteristicName> : <Scale; Unit when applicable>  [Polarity: up|down|target-range|none]
+  - <CharacteristicName> : <Scale; Unit when applicable>  [Polarity, when used: <preference rule>]
 Chart:
   reference_state: <text>
   coordinate_patch: <domain/subset>
@@ -62,21 +64,22 @@ Indicators (optional):
   resulting_indicators: [<IndicatorId>… ] // selection is policy‑defined; NCVs alone do not make an Indicator (see A.19.UINDM)
 Comparability:
   mode: coordinatewise | normalization-based
-  minimal_evidence: <what must be observed to compare>  # admissibility/evidence gate surface (see G.0 and C.16)
+  minimal_evidence: <basis required for this comparison>  # admission conditions under G.0; measurement/evidence backing under C.16
 Aggregation (when used):
   fold: <Γ_fold expr>   time_policy: <window, statistic>
   WLNK/COMM/LOC/MONO: <only selected property claims, with their model and applicability basis>
 Acceptance:
   checklist: [<observable criterion>… ]
   window?: <qualification interval when required>
-  evidence_anchors: [<Observation/Evaluation ids>… ]
+  evidence_anchors: [<required observation, evaluation or other support refs>… ]
 Alignment (optional):
-  bridges: [<BridgeId, CL, kept/lost characteristics, extra guards>… ]
+  semantic_uses: [<obtaining Bridge, separate use claim, required reliance, kept/lost distinctions, applicable guards, optional CL>… ]
+  plane_relations: [<applicable plane relation>… ]
 MaintenanceAndDeprecation (for a maintained edition):
-  source_maintenance_role_assignment: <RoleAssignmentRef>
-  DRR_links: [<DRR ids>… ]
+  responsibility: <responsible holder or maintenance arrangement>
+  DRR_links?: [<DRR ids for decisions that need them>… ]
   deprecation_plan: <short note>
 ```
 
-**Implementation note (non‑normative): conceptual audit fields.** (For implementation completeness only; not part of the CN‑Spec normative surface.) The goal is *auditability*: any implementation should be able to cite the relevant refs (CN‑Spec edition, evidence anchors, UNM instance refs, Bridge ids) when producing a `StateAssertion`. The normative semantics of normalization and evidence/backing are governed by the corresponding mechanism and evidence patterns (e.g., A.19.UNM and C.16). A.19.CN does not prescribe storage formats.
+
 

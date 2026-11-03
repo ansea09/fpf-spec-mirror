@@ -6,12 +6,12 @@ section_id: "A.6.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__004_forces.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:3 — Forces"
-line_start: 17642
-line_end: 17652
+line_start: 17639
+line_end: 17649
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -38,6 +38,6 @@ keywords:
 | Same concern vs changed expression | X and Y share one exact EntityOfConcern, while claim content or effective reference scheme may differ and therefore identify another episteme. |
 | Algebraic composition vs actual work | Viewings should compose and replay as mathematical constructions, while systems and work occurrences remain separate. |
 | Direct source vs several-source correspondence | Some constructions use X alone; others depend on exact relations among several source epistemes. |
-| Construction history vs stable kind membership | Viewpoint conformance depends on Y and the viewpoint, independently of how Y was constructed. |
+| Viewing construction vs stable kind membership | Viewpoint conformance depends on Y and the viewpoint, independently of any source-to-Y viewing claim. |
 | Lightweight assertion vs assurance | A readable source-to-receiving statement often suffices; disputed loss or correspondence requires exact declarations and evidence. |
 

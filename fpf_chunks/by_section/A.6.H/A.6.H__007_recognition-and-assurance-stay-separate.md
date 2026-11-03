@@ -6,12 +6,12 @@ section_id: "A.6.H:6"
 section_title: "Recognition and assurance stay separate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__007_recognition-and-assurance-stay-separate.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:6 — Recognition and assurance stay separate"
-line_start: 25409
-line_end: 25427
+line_start: 25373
+line_end: 25391
 dependencies:
   - "A.1"
   - "A.10"
@@ -21,6 +21,8 @@ dependencies:
   - "A.15.1"
   - "A.15.2"
   - "A.15.PROD"
+  - "A.17"
+  - "A.2.4"
   - "A.22"
   - "A.3.1"
   - "A.3.2"
@@ -68,12 +70,12 @@ keywords:
 - Does a selected structure or construction account matter to this use?
 - Does the same whole persist, or is reidentification current?
 
-**Evidence-use questions** under A.10 decide what the evidence supports for the stated relying use:
+**Evidence-use questions** ask how the evidence bears on the claim for the stated use. Apply the rule for the target claim, with A.2.4 for evidence-use classification. Use A.10 when provenance, currentness, or reliance requires a replayable source-to-use account, including carrier identity when material:
 
-- Which claim is being supported?
+- Which claim is being examined?
 - Which evidence bears on it through which relation?
 - What scope, limitation, time stance, and relying use apply?
-- Does the evidence support recognition, relation truth, measurement, completion, or another claim?
+- What judgement about recognition, relation truth, measurement, completion, or another claim does the evidence warrant?
 
 Apply B.3 only when an actual named assurance claim and assurance use are current. Evidence can make an assertion inspectable without becoming constitutive of the whole or relation.
 

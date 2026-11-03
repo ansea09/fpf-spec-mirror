@@ -6,12 +6,12 @@ section_id: "A.16.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__005_solution.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:4 — Solution"
-line_start: 33681
-line_end: 33816
+line_start: 33640
+line_end: 33775
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -166,7 +166,7 @@ A language-state trajectory account does not by itself establish an E.18 Transfo
 
 `A.16.0` standardizes only the heavier history package for cases where that history is itself worth publication.
 
-The word `move` remains inherited from `A.16` and means a typed language-state publication transition. `A.16.0` does not generalize it into project action, work-entry readiness, pattern-use recommendation, performed work, work plan, workflow, or transformation-flow path. If source wording uses move-like language outside this scope, restore the concern through `E.10.MOVE` before selecting `E.11.PUR`, `A.15.5`, the A.15 work family, or another applicable pattern.
+Here `move` names a typed language-state publication transition under A.16. For an already clear project-action, work-entry, pattern-use or other question, use its subject pattern directly. Use E.10.MOVE only while the wording still hides the governed claim.
 
 #### A.16.0:4.9 - Bridge and viewpoint entry
 A trajectory may later cross a viewpoint or context boundary. When that happens:

@@ -6,12 +6,12 @@ section_id: "A.19.UNM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__014_relations.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:12 — Relations"
-line_start: 37902
-line_end: 37920
+line_start: 37837
+line_end: 37855
 dependencies:
 keywords:
   - "CV→NCV"
@@ -29,7 +29,7 @@ keywords:
 
 **Builds on / cites**
 - `E.8` (pattern template)
-- `E.20` (governing-pattern discipline for mechanism‑intension content)
+- `E.20` for introduction or revision of a mechanism definition and its governing-pattern assignment
 - `A.15.2` for the edition/reference baseline on a P2W path; `A.15.3` only for typed planned filling of an independently declared position
 - `F.18` (alias docking / token continuity, when renaming or retiring legacy UNM tokens)
 - `A.6.1` (U.Mechanism shape; specialization discipline)
@@ -39,7 +39,7 @@ keywords:
 - `G.0` (CG-frame admissibility gates used downstream)
 - `G.2` (SoTA synthesis packs as the method‑family ingress; wiring‑only integration)
 - `E.18` (when UNM is used in transformation-flow structures/graphs; P2W freshness/work routing)
-- `C.29` for the mathematical account of the chosen function, equivalence or quotient; `B.3` only for an actual named assurance claim
+- `C.29` when the chosen function, equivalence or quotient leaves an unresolved representation or transfer question; use an adequate local calculation directly. `B.3` applies to an actual named assurance claim.
 
 **Used by**
 - CHR suite protocols (normalize stage), when `comparability.mode` requires normalization-based comparability.

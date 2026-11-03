@@ -6,12 +6,12 @@ section_id: "A.15.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__005_solution.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.6 — Recover What Project, Process, or Case Wording Refers To"
   - "A.15.6:4 — Solution"
-line_start: 31215
-line_end: 31416
+line_start: 31174
+line_end: 31375
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -54,7 +54,7 @@ Recover the direct subject selected by the working concern. Use the pattern whos
 
 Use this branch only while the next decision still depends on selecting or reopening the problem, direct project subject, solution form, Method relation, or development-platform contribution. If one already identified Work, Method, System, transformation, structure, episteme, capability, population, relation, or other subject answers the current question, use its direct pattern and stop rather than completing a project template.
 
-**Project-focus decision** is Plain wording for one conforming C.11 `ChoiceResult` over an already-current `OptionSet`. If options are still being invented, expanded, or reframed, complete that work under the Method that governs the project question. If the rows are only labels or fragments and the question is several complete ways to obtain the same result, stop here and apply `C.38`. If the hard work is open-ended invention, expansion, or reframing, apply `C.18`. Return when a current `OptionSet` exists.
+**Project-focus decision** is Plain wording for one conforming C.11 `ChoiceResult` over an already-current `OptionSet`. If options are still being invented, expanded, or reframed, complete that work under the Method that governs the project question. If the rows are only labels or fragments and the question is several complete ways to obtain the same result, stop here and apply `C.38`. Use `C.18` when candidate retention or a comparison front is the unresolved question. Return when a current `OptionSet` exists.
 
 When the result needs its own reference, identify its C.2.1 episteme through all three discriminators. Preserve a durable representation when later access requires it:
 
@@ -72,7 +72,7 @@ The minimally useful result carries the full C.11 choice discipline through five
 2. affected entities and interests, materially relevant alternatives, and one explicit comparison basis: a `PreferenceOrder` or `EvaluativeMeasure`, plus the current `BeliefState` and `OutcomeModel` and any decision-relevant dependence layer;
 3. the selected option's direct-subject disposition: one exact System, Method, capability, Work, episteme, population, relation, arrangement, or other admitted subject when that choice changes the decision, or an explicit unresolved-subject disposition;
 4. the identified `DecisionSubject` and `DecisionSubjectGranularity`, one explicit `ChoiceRule`, and, when an inquiry alternative is live under C.11, its probe-worthiness account using `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, and the applicable `ValueOfInformation` or `ValueOfComputation`; and
-5. one explicit `ChoiceResult`—`choose now`, `reject current set`, `probe again`, or `reroute`—with the receiving decision or use, evidence horizon, principal uncertainty, next question, and observation that reopens the choice.
+5. one explicit `ChoiceResult`—`choose now`, `reject current set`, `probe again`, or `reroute`—with the receiving decision or use and any limitation needed to interpret it. Name the next question when further work remains, and retain an evidence horizon, material uncertainty or reopen condition when the decision or its recipient needs it.
 
 Keep any inquiry limitation or reason needed by the decision or its recipient in the same result; inactive inquiry adds no placeholder or omission account.
 
@@ -96,7 +96,7 @@ Inspect the account through the lightest optional view that changes the decision
 | View | Working question | First useful result | Boundary |
 | --- | --- | --- | --- |
 | Problem factory | Which problem merits attention and resources, for whom, and under what comparison and acceptance conditions? | A lawful C.11 `ChoiceResult` over bounded problem options. | A lawful problem choice may leave its later direct subject unresolved. |
-| Solution factory | Which materially different System, Method, episteme, arrangement, or combined candidates should remain, be selected, or be rejected? | A `ChoiceResult` with alternatives, evidence needs, and reopen condition. | The result records the choice. Candidate realization, an actual selecting Work occurrence, and any Method claim each need their own grounds. |
+| Solution factory | Which materially different System, Method, episteme, arrangement, or combined candidates should remain, be selected, or be rejected? | A `ChoiceResult` with the current alternatives and the grounds supporting the result; include evidence needs and a reopen condition when the choice or its receiving use requires them. | The result records the choice. Candidate realization, an actual selecting Work occurrence, and any Method claim each need their own grounds. |
 | Factory of factories | Which provider Systems, Methods, capabilities, tools, assignments, organization arrangements, and cultural practices enable or distort the first two views? | One bounded platform or organization-change `ChoiceResult` and its receiving contribution claim. | A platform improvement is not project success without receiving contribution and outside consequence. |
 
 The development lemniscate is a didactic view of recurrent dependency and feedback among these questions. For a mantra or diagram, state whether the order shown is teaching order, logical dependency, Method unfolding, planned Work order, observed Work order, or feedback. Establish each ordering from its own grounds.
@@ -115,14 +115,14 @@ When precise assignment-bound attribution is current, use F.6 afterward to relat
 Apply these five project-specific qualification tests to the independently admitted Work:
 
 1. The composite work has a temporary or transient boundary with a start and a completion or termination condition.
-2. An accepted intention episteme states the intended objective and any intended product, service, result, or value. For this qualification, either an existing direct predicate connects its intended-performance designation to the admitted Work and obtains, or one local claim under A.15.2 or A.6.RCD names the plan or decision, designation, Work, applicable policy, and independently obtaining Work facts. If no predicate or claim constructor governs the needed connection, return `missing-governor` and name the unsupported relation; use test 5's `factually unsupported` or `missing-information` result when a governor exists but the case does not support the positive claim. Do not imply a generic plan-or-decision relation.
+2. An accepted intention episteme states the intended objective and any intended product, service, result, or value. For this qualification, either an existing direct predicate connects its intended-performance designation to the admitted Work and obtains, or one local claim under A.15.2 or A.6.RCD names the plan or decision, designation, Work, applicable policy, and independently obtaining Work facts. An absent predicate, applicability condition or required occurrence rule returns `missing-governor`; unavailable constructor semantics for a proposed local derivation return `missing-substrate` under A.6.RCD. When the governor exists, preserve its inapplicable result or use test 5's reason-specific result for the applicable test and available facts. Do not imply a generic plan-or-decision relation.
 3. Apply A.15.1's Work-part and identity rules. When interruption, resumption, split or merge leaves an identity question that the receiving use must resolve, use the applicable continuity policy to interpret the actual history.
 4. At least one independently admitted performed Work occurrence is connected to the composite Work by an obtaining work-part relation.
-5. For each claim used to qualify the project, name what the claim is about—the participating system, affected referent, transformation, result referent, or another subject actually asserted—and say how that subject matters to the Work. Choose a claim form whose rules fit that use: an obtaining direct relation; a typed `A.6.1` binding for a reusable-operation application; a local production, inception or completion claim under `A.15.PROD`; or another local claim under `A.6.RCD`. If the claim cannot be asserted, distinguish an unavailable deciding fact (`missing-information`), sufficient facts that fail its positive test (`factually unsupported`), and an absent governing rule (`missing-governor`). Determine applicability under the actual rule and retain an inapplicable outcome separately from these non-assertability reasons. A negative claim additionally needs its own non-obtaining criterion or complete closure basis and satisfying facts. A missing rule calls for the lightest sufficient contribution under A.6.RCD, not automatically a new relation kind or pattern.
+5. For each claim used to qualify the project, name what the claim is about—the participating system, affected referent, transformation, result referent, or another subject actually asserted—and say how that subject matters to the Work. Choose a claim form whose rules fit that use: an obtaining direct relation; a typed `A.6.1` binding for a reusable-operation application; a local production, inception or completion claim under `A.15.PROD`; or another local claim under `A.6.RCD`. If the claim cannot be asserted, preserve independently established facts and return the reason-specific outcome from `A.6.P.WMR`. Distinguish a failed applicable test for the attempted polarity, missing deciding facts, an absent governing rule, known inapplicability and missing constructor semantics. A negative claim additionally needs its own non-obtaining criterion or complete closure basis and satisfying facts. A missing rule calls for the lightest sufficient contribution under A.6.RCD, not automatically a new relation kind or pattern.
 
 No performed work means no actual project occurrence yet. A proposal, charter, authorization, schedule, budget decision, or funded intention can establish a `U.WorkPlan` and related commitments. It does not backdate performed work, a future system, an assignment, an actual change, or a result.
 
-The project occurrence uses the identity, temporal extent, parts, episodes, continuity, and relation-specific aggregation defined in `A.15.1`. Project wording adds no second identity rule. When a reader asks for the project result, ask first: **What exactly is the result, and result of or for what?** Keep that referent in the kind or claim already established for it, then apply test 5. If the required governor exists, the available case basis is sufficient to apply its positive test, and that test fails, return one non-assertability result with reason `factually unsupported`; if a fact needed to decide the test cannot be recovered, use `missing-information`; only when no predicate, applicability condition, or other rule defines the required relation or claim use `missing-governor`, name the missing rule, and obtain the lightest sufficient contribution under A.6.RCD. A negative additionally needs an applicable non-obtaining criterion or complete closure basis and satisfying facts. Otherwise keep an intended target in the plan.
+The project occurrence uses the identity, temporal extent, parts, episodes, continuity, and relation-specific aggregation defined in `A.15.1`. Project wording adds no second identity rule. When a reader asks for the project result, ask first: **What exactly is the result, and result of or for what?** Keep that referent in the kind or claim already established for it, then apply test 5 to the proposed relation or claim. A failed applicable test supports only non-assertability of the attempted polarity; a negative claim requires its own applicable non-obtaining criterion or complete closure basis and satisfying facts. Preserve any independently established actual subject and facts when the attempted result relation remains unsupported. Keep a merely intended target in the plan.
 
 Whole-project roll-up requires obtaining work-parthood plus an aggregation policy defined for the one relation and measure being aggregated. Outputs, effects, verdicts, epistemes, deliveries, and uses do not become one result merely because they share the project label.
 
@@ -181,7 +181,7 @@ A case label is a cue to read the closure question. Recover:
 
 The subject need not be one continuing changed entity. It may be any independently identified thing or claim needed by the closure question—for example, a maintained System, patient, material batch, episteme edition thread, characteristic bearer or assignment, measurement or result episteme, relation occurrence, decision, Work occurrence, or selected edition-lineage structure. Each keeps its own identity rule. Changed claim content identifies another episteme; a measurement claim identifies its own bearer and value.
 
-Do not infer the case subject from a log's case key or from one record format. Object-centric evidence may connect several objects and several possible groupings. Select the grouping the closure question needs and state the information lost by any flattening. CMMN, DCR, Declare, and similar notations can help represent flexible case work. Evaluate their usefulness and ease of use for that representation task; establish the case subject, closure and any asserted Work from their own grounds.
+Do not infer the case subject from a log's case key or from one record format. Object-centric evidence may connect several objects and several possible groupings. Select the grouping the closure question needs and state any information lost by flattening that limits that use or could mislead its reader. CMMN, DCR, Declare, and similar notations can help represent flexible case work. Evaluate their usefulness and ease of use for that representation task; establish the case subject, closure and any asserted Work from their own grounds.
 
 When case claims need separate reference, identify their C.2.1 epistemes from the actual claim-bearing whole. Several independently identified participants may occur in one account with one truthful `EntityOfConcern`. Split the account when that concern would be untruthful or the combination would break the identity or comparison needed by the use. A closure question may itself concern an independently identified grouping, query or result episteme. Select a structure under A.22 when a current or later use needs that organization and its four discriminators pass; otherwise keep the sufficient direct claims.
 
@@ -209,7 +209,7 @@ For process and case descriptions, readability, simulation support, and ease of 
 
 An existing `@Project` name is a compatibility and retrieval cue. It does not establish identity, parthood, authority, viewpoint, or locality.
 
-When a record or relation is genuinely local to one actual project, name the obtaining relation to the composite `U.Work` and use a typed reference:
+When a record or relation is genuinely local to one actual project, identify the composite `U.Work` and the obtaining relation that makes it local. Use the following typed references when the chosen representation needs explicit reference fields:
 
 | Current referenced object | Honest reference head |
 |---|---|
@@ -220,7 +220,7 @@ When a record or relation is genuinely local to one actual project, name the obt
 | a transformation-flow structure | `transformationFlowStructureRef : U.EntityRef`, constrained to ValueKind `U.Structure` |
 | the entity being changed | `affectedReferentRef : U.EntityRef`, narrowed to the ValueKind already admitted for that entity when the reference must carry that constraint |
 
-Use `projectWorkOccurrenceRef` only for the identified project-work occurrence. Do not use a generic project reference when the relation actually concerns a `U.Method`, selected `U.Structure`, `TransformationFlowStructure`, affected referent, description, publication, viewpoint, source use, evidence, or authority.
+Use `projectWorkOccurrenceRef` only for the identified project-work occurrence.
 
 #### A.15.6:4.6 - Apply work continuity rather than label or focus continuity
 

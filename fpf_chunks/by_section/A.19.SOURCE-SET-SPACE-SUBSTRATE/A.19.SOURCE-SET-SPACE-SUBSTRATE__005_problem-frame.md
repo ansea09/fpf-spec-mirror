@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__005_problem-frame.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:1 — Problem frame"
-line_start: 35656
-line_end: 35668
+line_start: 35617
+line_end: 35629
 dependencies:
   - "A.0"
   - "A.17"
@@ -40,7 +40,7 @@ keywords:
 
 In many search, synthesis, and source-set/space-substrate lines, the live substrate-bearing line is not just one `CharacteristicSpace` and not just one published shortlist or archive either. The line actually depends on a stack such as:
 
-- one declared source set, for example one front, archive, palette, or another declared source-set family;
+- one declared source set, such as a front, archive or palette, or a composition of identified source sets;
 - one search-side reference to an `A.19` `CharacteristicSpace`;
 - one outcome-side reference to an `A.19` `CharacteristicSpace`;
 - one explicit `SpaceRefRelationKind` over those two references, stating whether they resolve to the same declared space or to two different declared spaces;

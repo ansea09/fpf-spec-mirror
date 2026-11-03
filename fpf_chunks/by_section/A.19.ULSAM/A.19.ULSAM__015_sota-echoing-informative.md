@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "A.19.ULSAM"
 pattern_title: "Unified Lawful Scale Aggregation Mechanism (ULSAM)"
 section_id: "A.19.ULSAM:13"
-section_title: "SoTA-Echoing (informative; not a center of gravity)"
+section_title: "SoTA-Echoing (informative)"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.19.ULSAM/A.19.ULSAM__015_sota-echoing-informative-not-a-center-of-gravity.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+output_path: "by_section/A.19.ULSAM/A.19.ULSAM__015_sota-echoing-informative.md"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
-  - "A.19.ULSAM:13 — SoTA-Echoing (informative; not a center of gravity)"
-line_start: 38833
-line_end: 38852
+  - "A.19.ULSAM:13 — SoTA-Echoing (informative)"
+line_start: 38766
+line_end: 38785
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -29,7 +29,7 @@ keywords:
   - "ΓFoldRef"
 ---
 
-### A.19.ULSAM:13 - SoTA-Echoing (informative; not a center of gravity)
+### A.19.ULSAM:13 - SoTA-Echoing (informative)
 
 SoTA here is treated as **method-family source publications and `G.2` claim sheets to be wired** through `G.*:Ext.*` wiring, not as kernel semantics. ULSAM’s contribution is the stable boundary: explicit, admissible, auditable folding.
 

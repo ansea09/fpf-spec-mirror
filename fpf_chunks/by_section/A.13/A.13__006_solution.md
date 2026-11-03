@@ -6,12 +6,12 @@ section_id: "A.13:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__006_solution.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:4 — Solution"
-line_start: 28238
-line_end: 28309
+line_start: 28202
+line_end: 28273
 dependencies:
   - "A.10"
   - "A.12"
@@ -40,7 +40,7 @@ keywords:
 
 ### A.13:4 - Solution
 
-Establish the agency core first. Add the characteristic profile when the receiving claim requires it; use a Grade only as its didactic summary.
+Establish the agency core when making a precise agency claim. Build the characteristic profile when the receiving claim requires it; use a Grade only as its didactic summary.
 
 #### A.13:4.1 - The Core Definition: Agential participation through an exact system-role assignment
 
@@ -51,7 +51,7 @@ An ordinary-language **"agent"** is not a fundamental FPF type. When a precise a
 3. an occurrence of a directly declared `U.SystemRoleAssignment` species that assigns that kind to the holder and actually obtains; and
 4. any claim scope, working situation, and time window needed by the intended use, kept separate from the assignment's identity.
 
-This keeps a useful ordinary word without creating a universal `Agent` or `AgentialRole` kind. Classification by the local kind does not establish an assignment or performed Work. An episteme cannot be this assignment’s holder because the holder must be a `U.System`. Evidence supports the core facts independently of any profile; a characteristic-only claim about an admitted System need not add an assignment.
+This keeps a useful ordinary word without creating a universal `Agent` or `AgentialRole` kind. Classification by the local kind does not establish an assignment or performed Work. An episteme cannot be this assignment’s holder because the holder must be a `U.System`. Support each core fact under its own criterion, using characteristic results when that criterion requires them. A characteristic-only claim about an admitted System need not add an assignment.
 
 #### A.13:4.2 - Local Agential System-Role Kinds and Their Specializations
 

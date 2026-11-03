@@ -6,12 +6,12 @@ section_id: "A.6.A:7"
 section_title: "Conformance Checklist (CC-A.6.A)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__008_conformance-checklist-cc-a-6-a.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.A — Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:7 — Conformance Checklist (CC-A.6.A)"
-line_start: 22331
-line_end: 22399
+line_start: 22312
+line_end: 22380
 dependencies:
   - "A.15"
   - "A.16"
@@ -35,7 +35,6 @@ dependencies:
   - "E.10"
   - "E.17"
   - "E.17.0"
-  - "E.18"
   - "F.17"
   - "F.18"
   - "F.9"
@@ -61,7 +60,7 @@ A text or pattern conforms to A.6.A iff:
    Identify the would-be enactor when the claim or question depends on it.
 
 4. **CC-A.6.A-4 — Enactor discipline.**
-   Identify the System that would act. A cited assignment may designate its holder; it is not itself the enactor.
+   When the claim names an actual would-be enactor, identify the System that would act. A cited assignment may designate its holder; it is not itself the enactor.
 
 5. **CC-A.6.A-5 — Recoverable action and independently identified Method when selected.**
    State the action or inquiry being discussed. If the result selects a Method for enactment, identify its exact `U.Method` and keep any MethodDescription separate. A proposed action need not invent a Method, WorkPlan or actual Work.
@@ -103,7 +102,7 @@ A text or pattern conforms to A.6.A iff:
     A cross-tradition comparison first states whether it asserts or relies on semantic correspondence between exact senses in different semantic contexts. If yes, it cites an obtaining F.9 Bridge only after the predicate passes and adds a matching bounded-use claim only when a proposed use is live. If no, it uses E.17.ID.CR or the exact direct relation that supplies the contrast. Any F.9.1 stance note remains optional reader help for an already constituted claim.
 
 18. **CC-A.6.A-18 — Boundary-claim hook when needed.**
-    Apply L, A, D or E only when the recovered statement is an A.6.B boundary claim. For A, name the mechanism application and predicate checked at entry or during it; otherwise retain the direct rule for scope, claim use, duty, publication or the actual result.
+    Apply L, A, D or E only when the recovered statement is an A.6.B boundary claim. For A, identify the action or application and the predicate governing its admission under the applicable rule; otherwise retain the direct rule for scope, claim use, duty, publication or the actual result.
 
 19. **CC-A.6.A-19 — Consequential lexical ambiguity.**
     Action-first wording is repaired when its intended claim, participants or conditions remain unclear for the receiving use. A trigger token alone does not require replacement.

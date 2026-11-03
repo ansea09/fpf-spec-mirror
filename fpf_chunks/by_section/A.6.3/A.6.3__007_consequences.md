@@ -6,12 +6,12 @@ section_id: "A.6.3:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__007_consequences.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:6 — Consequences"
-line_start: 17786
-line_end: 17795
+line_start: 17783
+line_end: 17792
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -34,7 +34,7 @@ keywords:
 
 | Gain | Cost or boundary |
 |---|---|
-| Construction history is inspectable without defining view membership. | X and Y must be independently identified before the construction is asserted. |
+| The source-to-result construction is inspectable without defining view membership. | X and Y must be independently identified before the construction is asserted. |
 | Direct authoring and generated epistemes coexist. | A generated result needs a separate E.17.0 test before it can be called a view. |
 | Correspondence-mediated constructions can use exact domain relations. | A graph or trace table must supply the relevant claims and grounds; its presence alone does not establish the relation. |
 | Work and publication stay outside the mathematical construction. | Tool execution and availability require their own patterns when current. |

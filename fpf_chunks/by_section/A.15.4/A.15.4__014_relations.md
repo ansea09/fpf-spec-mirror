@@ -6,12 +6,12 @@ section_id: "A.15.4:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__014_relations.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:9 — Relations"
-line_start: 30889
-line_end: 30914
+line_start: 30848
+line_end: 30873
 dependencies:
   - "A.10"
   - "A.13"
@@ -45,8 +45,9 @@ keywords:
   - "exact attempted use"
   - "generated explanation"
   - "governing pattern and direct object"
-  - "independent required-position rows"
+  - "optional comparison rows"
   - "orientation and source-finding"
+  - "prerequisites"
   - "project-side reference"
   - "publication face"
 ---
@@ -66,13 +67,13 @@ keywords:
 
 When a P2W use under `E.18.1` produces result wording, use this pattern only when a reliance appearance such as publication, dashboard, generated explanation, copied statement, provenance mark, schema wording, API wording, or composed source-relation chain is about to justify result-related work or reliance by appearance.
 
-Recover the required relation or result and its project-side reference before relying on any result-related cue: result artifact, resource ledger, launch-values-bound record, substitution record, telemetry, acceptance record, quality-evaluation record, done-state update, feedback pin, result measurement, evidence relation, assurance claim, parity relation, refresh relation, or system-role-assignment enactability claim. If the applicable rule, relation, or result is missing, use the reliance appearance only for orientation or source-finding and block only the unsupported result-related work or reliance.
+For the result-related claim, recover the prerequisite and test its basis under its direct rule; retain a project-side reference when that rule or intended use requires it. If the applicable basis is missing, keep the appearance at orientation or source-finding and block only the unsupported result-related work or reliance.
 
 #### A.15.4:9.3 - Lowering, Repair, and Refresh Conditions
 
-Lower an `A.15.4` use when the attempted Work or reliance claim, required relation or result, relying context or window, or one required evidence, gate, assurance, system-role assignment, assignment state, Work, publication, boundary, permission, or authority object selected in §3 cannot be recovered. The lowered use is orientation, source-finding, contested use, bounded reversible probe, repair request, or blocked unsupported claim.
+Lower only the attempted use that depends on an unrecovered prerequisite or applicability condition; retain independently supported uses, including orientation, source-finding or a probe permitted under its own conditions.
 
-Repair the local note or persisted claim when its appearance, source currentness, revocation, source order, dashboard or credential publication, copied or generated source relation, boundary wording, or work-result cue changes. Repair the recovered value through the applicable evidence, assurance, gate, constraint, system-role-assignment, assignment-state, Work, publication, boundary, permission, or authority pattern named in §3; A.15.4 does not replace the repair defined there.
+When a change affects the appearance-to-use account, repair the local note or persisted claim. Apply the pattern governing each affected prerequisite to repair that value.
 
 Before a consequential reliance use, confirm that the needed grounds remain applicable and sufficiently current. Reopen a changed, missing or expired prerequisite and every dependent use affected by it; retain unchanged applicable results. Apply the direct pattern to repair the failed premise, then reconsider the narrow disposition under A.15.4.
 

@@ -6,12 +6,12 @@ section_id: "A.6.C:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__003_problem.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:2 — Problem"
-line_start: 15518
-line_end: 15526
+line_start: 15515
+line_end: 15523
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -60,6 +60,6 @@ How can an author write (or repair) contract-language so that:
 
 1. **Act and commitment claims name compatible participants**, without mistaking an interface description for the actual interface or its bearer,
 2. **Governance claims** are distinguishable from permission-looking gate, exercise, evaluation, conflict, and source claims by the job of each atomic statement rather than by A.2.8.PER membership,
-3. **Operational “guarantees”** become adjudicable by naming the exact Work, evaluation, or observation and its result, with an A.10 evidence path and exact carrier when a receiving decision relies on that support,
+3. **Operational “guarantees”** become adjudicable by recovering the exact claim, the facts its predicate requires, and the grounds for any receiving reliance; the answer may be a supported result or an unresolved claim with its missing basis,
 4. **Multi-view publication** (MVPK faces) does not create a parallel contract object or rival canonical claim set by paraphrase drift?
 

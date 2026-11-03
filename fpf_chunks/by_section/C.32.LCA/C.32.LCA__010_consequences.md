@@ -6,12 +6,12 @@ section_id: "C.32.LCA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.LCA/C.32.LCA__010_consequences.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.32.LCA — Construct and Compare a Control Architecture"
   - "C.32.LCA:9 — Consequences"
-line_start: 77029
-line_end: 77036
+line_start: 76950
+line_end: 76957
 dependencies:
   - "A.3.3.PI"
   - "B.2.5"

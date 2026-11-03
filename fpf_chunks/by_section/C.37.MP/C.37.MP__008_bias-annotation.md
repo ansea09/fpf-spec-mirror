@@ -6,12 +6,12 @@ section_id: "C.37.MP:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.MP/C.37.MP__008_bias-annotation.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.37.MP — Maintain a Method Representation Profile"
   - "C.37.MP:6 — Bias-Annotation"
-line_start: 82289
-line_end: 82300
+line_start: 82210
+line_end: 82221
 dependencies:
   - "A.10"
   - "A.3.1"

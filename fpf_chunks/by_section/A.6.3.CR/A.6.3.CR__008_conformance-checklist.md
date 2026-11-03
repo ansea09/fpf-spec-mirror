@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__008_conformance-checklist.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:7 — Conformance Checklist"
-line_start: 18471
-line_end: 18489
+line_start: 18453
+line_end: 18471
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -38,10 +38,10 @@ keywords:
    The EntityOfConcern values independently resolved by the source and receiving `entityOfConcernRef` values are equal.
 2. **CC-CR-2 — Textual re-expression remains the right family.**
    Textual restatement remains primary; explanation or a material representation-scheme change is not the primary move.
-3. **CC-CR-3 — Loss, provenance, pinning, and reliability are explicit or inherited by pinned reference.**
-   The case states these explicitly or inherits them through already-pinned content that remains visible to review.
-4. **CC-CR-4 — Direct vs correspondence split is explicit.**
-   The direct-vs-correspondence split is explicit and justified.
+3. **CC-CR-3 — Material loss, provenance, pinning, and reliability conditions remain recoverable.**
+   The case makes conditions that affect interpretation or intended use recoverable from the text, its surrounding publication, or the source references on which that use depends.
+4. **CC-CR-4 — Direct or correspondence-mediated construction is identifiable.**
+   The source relations make the profile recoverable; state and justify the distinction explicitly when it is not obvious.
 5. **CC-CR-5 — Correspondence witness is named where needed.**
    If correspondence-mediated, identify the relations and supporting claims; use `CorrespondenceModelRef` when their describing episteme must be cited.
 6. **CC-CR-6 — Local conservativity witness remains satisfied.**

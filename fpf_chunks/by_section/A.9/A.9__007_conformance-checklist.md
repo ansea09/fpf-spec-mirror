@@ -6,12 +6,12 @@ section_id: "A.9:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__007_conformance-checklist.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.9 — Choose and Check an Aggregation Law for the Intended Result"
   - "A.9:6 — Conformance Checklist"
-line_start: 26677
-line_end: 26687
+line_start: 26641
+line_end: 26651
 dependencies:
   - "A.19.CN"
   - "A.19.ULSAM"
@@ -32,7 +32,7 @@ keywords:
 
 | ID | Requirement | Purpose |
 |---|---|---|
-| **CC-A9-1** | Name the intended result, inputs, operation, subject model, applicability conditions and justified law. Add Characteristic, Scale, units and measurement conditions for the quantitative branch. | Recover what the result means without excluding non-quantitative composition. |
+| **CC-A9-1** | Name the intended result, inputs, operation, subject model, applicability conditions and justified law. Add Characteristic, Scale and any applicable units for the quantitative branch; recover measurement conditions when it uses measured values. | Recover what the result means without excluding non-quantitative composition. |
 | **CC-A9-2** | Select only the property needed by the current action and supply its applicable argument or warranted test. Distinguish singleton identity from idempotence and repeated-source handling. | Avoid a compulsory universal algebra. |
 | **CC-A9-3** | Claim order or partition independence only under the actual model and recombination/numerical conditions. | Preserve lawful sequential or parallel composition. |
 | **CC-A9-4** | Use a weakest-part bound only for a result and dependency model that justify it; distinguish a bound from a calculated value. | Prevent both unsupported optimism and a false universal cap. |

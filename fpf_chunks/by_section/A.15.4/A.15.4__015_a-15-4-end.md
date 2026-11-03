@@ -6,12 +6,12 @@ section_id: "A.15.4:End"
 section_title: "A.15.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__015_a-15-4-end.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:End — A.15.4:End"
-line_start: 30915
-line_end: 30916
+line_start: 30874
+line_end: 30875
 dependencies:
   - "A.10"
   - "A.13"
@@ -45,8 +45,9 @@ keywords:
   - "exact attempted use"
   - "generated explanation"
   - "governing pattern and direct object"
-  - "independent required-position rows"
+  - "optional comparison rows"
   - "orientation and source-finding"
+  - "prerequisites"
   - "project-side reference"
   - "publication face"
 ---

@@ -6,12 +6,12 @@ section_id: "A.6.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__005_solution.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:4 — Solution"
-line_start: 23335
-line_end: 23500
+line_start: 23315
+line_end: 23480
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -32,7 +32,7 @@ Apply relation-declaration slot discipline only after the direct relation and it
 
 #### A.6.5:4.0 - Ontological status of the discipline
 
-Relation-declaration slot discipline is a rule set, not a durable U-kind. This pattern reuses `RelationSignature`, `SlotSpec`, `SlotKind`, `ValueKind`, and `RefKind` from the existing signature and relation vocabulary; it introduces no U-kind. A.6.5 constrains one `SlotSpec` declaration belonging to one exact `RelationSignature`. Operation argument and result declarations remain under `A.6.1`; mathematical operands and their order remain representation elements; use `C.29` when that representation is used as a declared mathematical lens.
+A.6.5 constrains one `SlotSpec` declaration belonging to one exact `RelationSignature`. Operation argument and result declarations remain under `A.6.1`; mathematical operands and their order remain representation elements; use `C.29` when that representation is used as a declared mathematical lens.
 
 A.15.3 may cite one exact SlotSpec as the target of a planned participant designation inside a `U.WorkPlan`. That citation does not fill the SlotSpec, extend SlotSpec to another description family, make the planned designation an actual participant, or make the direct relation obtain. Planned operation arguments and results instead cite their exact A.6.1 declarations. Only a declaration-local participant specification inside one exact `RelationSignature` is a SlotSpec. Method-description, plan, work, evaluation, card, schema, and record fields retain the kinds and declaration rules supplied by their defining patterns. A field that receives relation semantics follows the applicable declaration or representation correspondence route in §4.2; the field, SlotSpec, designation, and actual participant remain distinct.
 
@@ -92,7 +92,7 @@ A6.5-S4 HonestReference:
 
 A6.5-S5 DirectPredicateDefinition:
   the identified direct-relation definition states the predicate,
-  applicability, and any relation occurrence-identity rule.
+  applicability, and the direct occurrence-identity rule.
 
 A6.5-S6 NoHiddenUnion:
   one ValueKind does not hide participant kinds for which the direct
@@ -103,7 +103,7 @@ A6.5-S7 RepresentationBoundary:
   world-side participant or relation occurrence by form.
 ```
 
-A system performing typed substitution keeps the SlotSpec fixed, resolves any reference under its declared scheme, and checks the designated entity against the exact ValueKind; the designation must still satisfy the declared refMode and, when applicable, RefKind. A system performing retargeting changes a reference value in an assertion or description while preserving SlotKind, ValueKind, and RefKind. Neither designation operation by itself changes a world-side participant or makes the direct predicate true. The identified direct-relation definition supplies that predicate and identity rule; the current case must supply the relevant facts or constituting history. A system applies the direct obtaining test to those facts or constituting history, and a claim-bearing episteme records the warranted affirmative or negative claim, or leaves the factual question unresolved. Only when an explicit reliance judgment is current does `A.10` or the receiving evaluation separately record supported, refuted, or unresolved reliance. Type compatibility and assertion form do not by themselves establish obtaining or occurrence identity. Evidence supporting the case conclusion and any constitutive contribution are governed separately by the relevant evidence and direct-relation rules.
+A system performing typed substitution keeps the SlotSpec fixed, resolves the designation under its declared scheme when refMode is a RefKind, and checks the designated entity against the exact ValueKind; the designation must still satisfy the declared refMode and, when applicable, RefKind. A system performing retargeting changes a reference value in an assertion or description while preserving SlotKind, ValueKind, and RefKind. Neither designation operation by itself changes a world-side participant or makes the direct predicate true. The identified direct-relation definition supplies that predicate and identity rule; the current case must supply the relevant facts or constituting history. A system applies the direct obtaining test to those facts or constituting history, and a claim-bearing episteme records the warranted affirmative or negative claim, or leaves the factual question unresolved. Only when an explicit reliance judgment is current does `A.10` or the receiving evaluation separately record supported, refuted, or unresolved reliance. Type compatibility and assertion form do not by themselves establish obtaining or occurrence identity. Evidence supporting the case conclusion and any constitutive contribution are governed separately by the relevant evidence and direct-relation rules.
 
 #### A.6.5:4.4 - Distinguish predicate grammar from holonhood and agency
 
@@ -124,7 +124,7 @@ Predicate grammar also decides neither claim polarity nor reliance. An ordinary 
 
 A reusable predicate definition may be an ordinary A.6.0 `U.Signature` without being a `RelationSignature`. Its semantic parameters are not SlotSpecs unless an independently admitted direct relation kind has world-side participant meanings that a typed receiver must reuse. In particular, the `dependentContent` and `baseContent` parameters of `RuleContentBasisFindingDefinition@R7` are `NonemptyClaimContent` values (C.2.1:4.1.2) in a predicate declaration, identified by their interpreted claims and selected semantic relations. They do not name relation participants, `SlotKind`s, occurrence positions, or a new relation kind.
 
-A C.2.1 assertion of `derivedUsingRuleContent` or `evaluatedAgainstRuleContent` designates those exact values and its exact derivation or criterion-selection claim. A record or formula may represent the parameters; use C.29 when that representation is used as a declared mathematical lens. Table shape does not turn the parameters into SlotSpecs. If later work proposes a relation kind, it needs an independent A.6.RCD account of participant meanings, obtaining, applicability and any required occurrence identity. E.24 governs a proposed framework pattern, and E.24.UK applies when a new U-kind is proposed; the predicate declaration supplies none by implication.
+A C.2.1 assertion of `derivedUsingRuleContent` or `evaluatedAgainstRuleContent` designates those exact values and its exact derivation or criterion-selection claim. A record or formula may represent the parameters; use C.29 when that representation is used as a declared mathematical lens. Table shape does not turn the parameters into SlotSpecs. If later work proposes a relation kind, it needs an independent A.6.RCD account of participant meanings, obtaining, applicability and a direct occurrence-identity rule. E.24 governs a proposed framework pattern, and E.24.UK applies when a new U-kind is proposed; the predicate declaration supplies none by implication.
 
 #### A.6.5:4.5 - Use progressive elaboration
 
@@ -184,8 +184,8 @@ Keep recognizable source words such as **interface**, **port**, **endpoint**, **
 | Operation | Exact change | Relevant defining or constraining content |
 |---|---|---|
 | supply a designation under one SlotSpec in an assertion or description | carry a value or reference that designates an entity of the declared ValueKind, without thereby asserting participation | A.6.5 supplies designation typing; the direct-relation definition supplies the participant meaning and predicate |
-| replace a participant designation in an assertion or description | change the designation associated with one SlotSpec while preserving that SlotSpec | resolve the new designation, then let a system apply the direct obtaining test to the relevant facts or constituting history before recording assertion polarity and any separate reliance posture |
-| substitute a participant designation in typed reasoning | replace one designation with another while preserving the SlotSpec, resolving any reference under its declared scheme, and checking the designated entity against the ValueKind while the designation satisfies refMode and, when applicable, RefKind; designation substitution by itself does not replace a world-side participant or establish predicate truth | A.6.5; C.3/C.3.1 only when a local participant-kind or subkind use is current, and C.3.2 for that kind's membership judgment |
+| replace a participant designation in an assertion or description | change the designation associated with one SlotSpec while preserving that SlotSpec | identify the entity designated under the SlotSpec's refMode, then let a system apply the direct obtaining test to the relevant facts or constituting history before recording assertion polarity and any separate reliance posture |
+| substitute a participant designation in typed reasoning | replace one designation with another while preserving the SlotSpec, resolving the designation under its declared scheme when refMode is a RefKind, and checking the designated entity against the ValueKind while the designation satisfies refMode and, when applicable, RefKind; designation substitution by itself does not replace a world-side participant or establish predicate truth | A.6.5; C.3/C.3.1 only when a local participant-kind or subkind use is current, and C.3.2 for that kind's membership judgment |
 | retarget a reference | replace one reference value in an episteme with another of the same RefKind | the receiving episteme's definition states how it carries the designation; the effective reference scheme supplies the resolution rules and the RefKind declaration constrains the referent range; F.18 enters only when a durable name changes; world-side change is a separate claim |
 | resolve a reference | obtain the designated referent from a reference under its reference scheme | the effective reference scheme supplies the resolution rules and the direct RefKind pattern constrains the referent range; F.18 enters only when durable naming is current |
 | revise or re-edition a referent | change the referred object or episteme under its own continuity rules | direct object and edition patterns |

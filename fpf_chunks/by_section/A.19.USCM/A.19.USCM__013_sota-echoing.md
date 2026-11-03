@@ -6,12 +6,12 @@ section_id: "A.19.USCM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__013_sota-echoing.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:11 — SoTA-Echoing"
-line_start: 38515
-line_end: 38536
+line_start: 38448
+line_end: 38469
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -41,7 +41,7 @@ The following research and architecture-description lines inform distinct choice
 **Notes per row**
 
 1. USCM does not "implement a particular scoring model"; it preserves a stable, admissibility‑gated surface on which such models can be wired.
-2. Calibration is treated as a lawful transform family that must live within SCP+CSLC; the kernel does not mandate a specific calibration method.
+2. A calibration transform must satisfy SCP+CSLC; USCM does not mandate a specific calibration method.
 3. A prediction interval and a vector of score measures carry different meanings. A downstream CPM/SelectorMechanism use needs a declared comparator for whichever result it consumes; neither form supplies an ordering automatically.
-4. Governing-pattern traceability is used here to keep the spec teachable and non-duplicative; it does not add new governance cards or admissibility gates.
+
 

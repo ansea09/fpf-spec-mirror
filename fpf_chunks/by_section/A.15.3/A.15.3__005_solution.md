@@ -6,12 +6,12 @@ section_id: "A.15.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__005_solution.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem: Plan a Value for an Existing Declaration Member"
   - "A.15.3:4 — Solution"
-line_start: 30172
-line_end: 30277
+line_start: 30134
+line_end: 30239
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -106,7 +106,7 @@ Omitting a row leaves that planned filling unstated by this item. It does not sa
 
 `intendedPerformanceDesignator` names the future use being planned. The enclosing WorkPlan keeps its already identified present EntityOfConcern under C.2.1 and A.15.2.
 
-Include a planning condition only when changing it would change whether the planned value applies or which value is selected. For example, cite an independently established readiness result when readiness controls the planned use. `planningConditions` points to these separately established claims under their governing patterns.
+Include a planning condition only when changing it would change whether the planned value applies or which value is selected. For example, state the readiness condition that a future use must satisfy; cite an independently established readiness result when the planned choice relies on that result. `planningConditions` names these conditions under their governing patterns.
 
 When a baseline or comparison policy selects a planned value or judges a match, identify its kind, defining pattern, applicable episteme, conditions and reference scheme. A generic `PolicyRef` or shared label supplies no policy. Pin a declaration or value when another resolution could change the planned meaning, and make the reference and pin agree. Such a pin identifies the selected episteme; it asserts historical continuity only when the C.2.1 `EpistemeEditionRelation` is separately established.
 
@@ -133,9 +133,9 @@ The row plans a value; it is not an application or binding. An actual argument b
 
 When actual use is compared with the plan, establish the relation participation under its obtaining predicate or the operation argument/result binding under A.6.1. A plan row, matching label, type or value supplies none of those facts by itself. Add an independently admitted A.15.1 Work identity only when the comparison also consumes that dated occurrence claim.
 
-If the team must state whether actual use matched the plan, name the comparison policy and the independently established actual facts. A one-off comparison may use A.6.RCD disposition 2 for a local compound assertion. Repeated parameterized comparisons may use disposition 3: keep a compound law subject-bounded when every reuse concerns one exact subject, or identify a reusable predicate-definition episteme when the rule is used across subjects. Do not admit a comparison relation kind unless a later calculation or decision needs distinct comparison occurrences as such; then name that use and follow relation-kind admission. None of these comparisons changes the WorkPlan or creates a universal planned-to-actual relation.
+If the team must state whether actual use matched the plan, name the comparison policy and the independently established actual facts. A one-off comparison may use A.6.RCD disposition 2 for a local compound assertion. Repeated parameterized comparisons may use disposition 3: keep a compound law subject-bounded when every reuse concerns one exact subject, or identify a reusable predicate-definition episteme when the rule is used across subjects. Do not admit a comparison relation kind unless a named receiving use needs distinct comparison occurrences as such; then name that use and follow relation-kind admission. None of these comparisons changes the WorkPlan or creates a universal planned-to-actual relation.
 
-An unplanned participant is still an actual participant when the relation's obtaining predicate holds for the complete participant set. To say that a planned value was missing, excluded, or substituted, apply the comparison policy's closure or negative criterion to the case facts. An absent log, unresolved reference, or unavailable fact yields `missing-information`, not a negative use or variance result; absent authority yields `missing-governor`.
+An unplanned participant is still an actual participant when the relation's obtaining predicate holds for the complete participant set. To say that a planned value was missing, excluded, or substituted, apply the comparison policy's closure or negative criterion to the case facts. Return `missing-information` when facts required to decide the comparison are unavailable; return `missing-governor` when the required comparison predicate or policy rule is absent.
 
 #### A.15.3:4.6 - Preserve revisions and replay
 

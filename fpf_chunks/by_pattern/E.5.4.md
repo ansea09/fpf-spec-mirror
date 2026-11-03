@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.5.4.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
-line_start: 96814
-line_end: 96892
+line_start: 96735
+line_end: 96813
 dependencies:
   - "E.3"
   - "E.5"

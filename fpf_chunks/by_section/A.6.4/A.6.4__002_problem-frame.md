@@ -6,12 +6,12 @@ section_id: "A.6.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__002_problem-frame.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.4 — EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities"
   - "A.6.4:1 — Problem frame"
-line_start: 19765
-line_end: 19776
+line_start: 19747
+line_end: 19758
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,7 @@ Several familiar moves can hide a real change of EntityOfConcern, but none prove
 
 * **Physical cabinet and selected functional structure.** An episteme about cabinet `Cab-7` and one about selected functional `U.Structure` `Route-A` concern different entities when C.2.1 identifies them independently. A behavior-test result can supply facts for a bounded retargeting judgement. The expression `Realises(Cab-7, Route-A)` contributes only if its own relation and obtaining conditions are established; §5 shows a case whose judgement needs no such relation.
 * **Signal and spectrum.** The ordinary Fourier case often concerns one signal in two representations. Use A.6.3.RT when the EntityOfConcern is preserved. Add C.29 only when the needed mathematical correspondence or its limits remain unsettled. A.6.4 opens only if the receiving episteme concerns a separately identified spectrum object and the use explains why that object, rather than the original signal under another representation, is current.
-* **Observations and fitted model.** A dataset and a learned model can be different exact entities. An affirmative q may state a predictive invariant and name a prediction use; exact fit and held-out test outcomes then supply current-case facts for the separate judgement. Individual observations and unmodelled distinctions remain visible losses. Model fitting itself is separate Work.
+* **Observations and fitted model.** A dataset and a learned model can be different exact entities. An affirmative q may state a predictive invariant and name a prediction use; exact fit and held-out test outcomes then supply current-case facts for the separate judgement. Individual observations and unmodelled distinctions remain visible losses. Model fitting is a separate activity.
 
 For a case used positively, the local arrow r relates two epistemes with different EntitiesOfConcern, q affirmatively states the bounded-use proposition, and the case facts satisfy it. Any claimed operation application or actual Work is identified separately under its own conditions.
 

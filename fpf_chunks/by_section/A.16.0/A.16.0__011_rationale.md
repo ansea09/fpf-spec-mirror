@@ -6,12 +6,12 @@ section_id: "A.16.0:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__011_rationale.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.16.0 — Keep an Episteme's Language-State and Publication History Recoverable"
   - "A.16.0:10 — Rationale"
-line_start: 33862
-line_end: 33864
+line_start: 33821
+line_end: 33823
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -43,5 +43,5 @@ keywords:
 ---
 
 ### A.16.0:10 - Rationale
-Language-state work needs one trajectory-account normal form for the subset of cases where history itself matters. Without it, readers have to reconstruct lineage, branch structure, retirement, next-use docking, and any actual responsibility handoff from fragments. With it overused, every local move becomes over-wrapped. The pattern exists to hold the middle line.
+A later use may depend on lineage, branch structure, retirement, next-use conditions or an actual responsibility history. The account makes those facts recoverable when local notes do not supply them. Reuse an adequate existing history; the selected form is useful when it exposes a needed connection without adding unnecessary reconstruction.
 

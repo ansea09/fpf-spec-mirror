@@ -6,7 +6,7 @@ section_id: "A.1.RI:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.RI/A.1.RI__008_conformance-checklist.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.1.RI — Reidentifying an Object across Observations"
   - "A.1.RI:7 — Conformance Checklist"

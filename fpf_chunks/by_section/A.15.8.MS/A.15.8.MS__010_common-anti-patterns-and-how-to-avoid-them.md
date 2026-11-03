@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 32257
-line_end: 32271
+line_start: 32216
+line_end: 32230
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -30,8 +30,8 @@ keywords:
 | “The PLM route passed, so manual lookup is insufficient.” | Record PLM as observed pass and manual lookup as untested unless a declared missing feature proves insufficiency. |
 | “Choose the smallest arrangement for each task and combine them.” | Check shared currentness, maintenance, confidentiality, latency, authority, and provider effects; return a retained set or stated split when the union has no supported order. |
 | “The interface gives users access.” | Establish the actual access relation and relevant permission; an interface is only one System or presentation element. |
-| “The AI supported the decision.” | Name the provider interaction, consumed suggestion, review, applicable permission and authority, and result; identify dated review Work only if needed. Return any missing premise. |
-| “All components are listed, so the structure is selected.” | Keep a proposed organization until A.22 selection-use facts obtain. |
+| An AI-use label leaves its contribution to a decision unclear. | For a claim that AI contributed to a decision, identify the actual AI System interaction, contribution used and resulting decision. Identify a provider interaction or review when it occurred or is required, and establish any required permission and authority. A missing required premise limits the dependent claim or use. Identify dated Work only when the claim needs that occurrence. |
+| “All components are listed, so the structure is selected.” | Establish all four actual A.22 discriminators for the named use; keep the proposal where that claim is not supported. Dated selection Work is a separate claim. |
 | “Three users passed, so the team is capable.” | Report the three Work-task observations and evaluate capability under `A.2.2` only when its holder, Work family, envelope, measures, and window are present. |
-| “Feedback is available through the form.” | Require actual feedback Work or SpeechAct and a named receiving use before claiming feedback occurred or was used. |
+| Feedback availability is confused with its occurrence or use. | Establish the usable channel for an availability claim. Identify the actual feedback and its recipient for an occurrence claim, and its contribution to the receiving result for a use claim. Supply Work or SpeechAct grounds when claiming those kinds. |
 

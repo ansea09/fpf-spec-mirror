@@ -6,12 +6,12 @@ section_id: "A.6.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__005_solution.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:4 — Solution"
-line_start: 17653
-line_end: 17759
+line_start: 17650
+line_end: 17756
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -97,7 +97,7 @@ EpistemeViewpointConformanceRelation(Y,P) obtains
   -> the same episteme Y is a U.View
 ```
 
-Directly authored Y can be a view without any A.6.3 source relation. Conversely, a valid A.6.3 construction can yield Y that fails P's concern-coverage or semantic-form rules and therefore is not a view under P.
+Directly authored Y can qualify as a view without establishing an A.6.3 source-to-Y construction. Conversely, a valid A.6.3 construction can yield Y that fails P's concern-coverage or semantic-form rules and therefore is not a view under P.
 
 #### A.6.3:4.5 - Distinguish direct and correspondence-mediated construction
 

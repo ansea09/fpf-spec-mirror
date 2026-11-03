@@ -6,12 +6,12 @@ section_id: "A.15.2:5"
 section_title: "What a good WorkPlan states (review checklist)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__006_what-a-good-workplan-states-review-checklist.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.2 — U.WorkPlan: Plan Content for Coordinating Future Work"
   - "A.15.2:5 — What a good WorkPlan states (review checklist)"
-line_start: 29960
-line_end: 29974
+line_start: 29922
+line_end: 29936
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,8 +66,8 @@ Apply the items needed by the coordination or comparison claim; this is a recogn
 4. **Safety envelopes**, constraints, and other admissibility conditions for planned work.
 5. **Resource budgets** and exact **reservation claims** on assets.
 6. **Acceptance targets** with their direct criteria and intended qualification windows.
-7. **Cross-context interpretation boundary:** before copying a planned value, target, or verdict into another context, pin both effective reference schemes and resolve the two F.17 `SchemeSenseCell` values. F.9 says only whether their Bridge obtains. A separate C.2.1 claim says whether this exact reuse is acceptable in this direction, under this correspondence rule and tolerated loss; A.10 governs ordinary evidence reliance and B.3 governs assurance-bearing reliance. A negative use claim leaves the Bridge true but stops the reuse; a non-passing reliance result stops or narrows it. Establish any value conversion, target comparison, commitment, acceptance, verdict reuse, plan coordination, or Work claim separately under the pattern that defines it.
+7. **Cross-context interpretation boundary:** when a proposed use depends on correspondence between local senses with different interpretation bases, pin both effective reference schemes and resolve the two F.17 `SchemeSenseCell` values. F.9 says only whether their Bridge obtains. A separate C.2.1 claim says whether this exact reuse is acceptable in this direction, under this correspondence rule and tolerated loss; A.10 governs ordinary evidence reliance and B.3 governs assurance-bearing reliance. A negative use claim leaves the Bridge true but stops the reuse; a non-passing reliance result stops or narrows it. Establish any value conversion, target comparison, commitment, acceptance, verdict reuse, plan coordination, or Work claim separately under the pattern that defines it.
 8. **Baseline when the receiving comparison needs one.** Keep the earlier plan identifiable. Claim edition continuity only when `EpistemeEditionRelation` obtains, and use a change note when the attributed difference needs explanation. If continuity is unestablished, leave it unresolved; a first plan has no earlier plan relation, and a negative continuity claim needs its own basis.
 9. **Policy pointers** to A.15.1 work continuity, B.1.4 temporal aggregation, B.1.6 resource aggregation, and any exact local comparison policy needed by the receiving KPI.
-10. **Exception question** stating how ad hoc or emergency Work will be handled by a local plan-use assertion; use one reusable predicate-definition episteme only for repeated semantics, and require an admitted direct relation kind before claiming fulfilment or exception occurrences.
+10. **Exception question** stating how ad hoc or emergency Work will be handled by a local plan-use assertion; use one reusable predicate-definition episteme when the receiving use needs a stable definition, and require an admitted direct relation kind before claiming fulfilment or exception occurrences.
 

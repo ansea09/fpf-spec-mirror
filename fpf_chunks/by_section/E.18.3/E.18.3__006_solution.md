@@ -6,12 +6,12 @@ section_id: "E.18.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__006_solution.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:4 — Solution"
-line_start: 111945
-line_end: 112129
+line_start: 111866
+line_end: 112050
 dependencies:
   - "A.10"
   - "A.15"
@@ -109,7 +109,7 @@ There is no generic method-to-work linkage here. When one named use relies on a 
 
 Begin with the ordinary branch: name the concrete thing being transformed, mark two recognizable places or states, state the proposed connection or guard in domain language, and ask which continuation depends on it. Return a provisional explanation that either answers the question or names the missing relation, fact, or constraint. If that is sufficient, stop; neither the explanation nor the flow card must first be constituted as an episteme, position mapping, or selected structure.
 
-Use the numbered recovery branch below only when the use must assert E.18.3 qualification, compare or publish the structure, or support a stronger downstream claim. It preserves the membership and current-result distinctions; it is not a prerequisite for understanding or correcting an ordinary route-like card.
+Use the numbered recovery branch below only when a named use depends on the identity and qualification of the unfolding organization as an E.18.3 structure. Comparison, publication and stronger reliance retain their own requirements for the claims actually made. That recovery preserves the membership and current-result distinctions; it is not a prerequisite for understanding or correcting an ordinary route-like card.
 
 1. Recover one selected A.22.CGUS and its four exact identity discriminators; do not create a reciprocal E.18.3 structure.
 2. Name the current transformation subject or subjects, their kinds and the exact E.18 positions and bindings used by the question.
@@ -184,7 +184,7 @@ An ordinary stop uses `stopCondition`; reconsideration uses `reconsiderationCond
 
 Before the selected A.22 structure passes admission and the E.18.3 membership condition, a path fragment, flow card, worked example, or first-use account may remain an ordinary provisional explanation. It can name the concrete subject, recognizable places or states, proposed relations, possible continuations, and the missing fact or constraint without asserting a structure, position, or relation occurrence.
 
-When replay, comparison, publication, or another current use needs that narrower account to persist as a claim, constitute one ordinary C.2.1 provisional episteme. Its exact EntityOfConcern is the actual transformation subject, current question, or proposed continuation set, never a not-yet-admitted structure. Its ClaimContent may name the visible candidate places, proposed relations, presentation form, unresolved coordinates, and the exact condition that would resolve each one. Use the explanation or episteme to guide discovery; any claim that the proposed structure, position, or relation occurrence exists still needs its own identity basis and applicable test.
+When replay, comparison, publication, or another current use needs that narrower account to persist as a claim, constitute one ordinary C.2.1 provisional episteme. Its exact EntityOfConcern is the independently identified subject actually designated by its claims; this may be the transformation subject, current question, proposed continuation set, or an A.22 structure whose CGUS or E.18.3 membership remains unresolved. Its ClaimContent may name the visible candidate places, proposed relations, presentation form, unresolved coordinates, and the exact condition that would resolve each one. Use the explanation or episteme to guide discovery; any claim that the proposed structure, position, or relation occurrence exists still needs its own identity basis and applicable test.
 
 After qualification, a separate ordinary C.2.1 demonstrative-slice episteme may teach one enabled traversal. Its EntityOfConcern is the same selected CGUS recognized by E.18.3. Its ClaimContent cites established `CGUSLocusBinding` values, the relevant current continuation judgements, relation-reference epistemes or obtaining occurrence refs, any omissions that matter to this carrier (under C.33 for a declared architecture use), alternatives, presentation claims, admissible and forbidden uses, and the return condition. The slice creates none of those values.
 
@@ -212,13 +212,13 @@ A source phrase or graph enters only through an exact source-to-use claim or rel
 
 E.18.3 recognizes one selected A.22.CGUS `U.Structure`; it is not a second transformation ontology or reciprocal narrower structure. That selected CGUS uses one independently identified E.18 substrate branch and its exact positions, bindings, and already-obtaining occurrences; the substrate is not the selected CGUS. The selected structure is not a workflow, Method, MethodDescription, WorkPlan, performed Work, actual Transformation, mathematical graph, publication, evidence relation, gate decision, architecture decision, or architecture description. It organizes independently identified constituents, already-obtaining relations, and constraints for one transformation-flow unfolding use.
 
-A graph, record, filled table, demonstration, imperative, selected continuation, recommendation, or intended realization is evidence of neither the A.22 identity nor the E.18.3 condition. It admits no MethodDescription or Work. A.3.2, A.15.1, A.3.4 and A.15.PROD supply the applicable membership or occurrence tests; every relation claim still needs its exact predicate definition, applicability conditions and current facts.
+A graph, record, table, or demonstration may carry claims relevant to A.22 identity or E.18.3 qualification. Its form alone supplies neither those grounds nor MethodDescription or Work admission. A.3.2, A.15.1, A.3.4 and A.15.PROD supply the applicable membership or occurrence tests; every relation claim still needs its exact predicate definition, applicability conditions and current facts.
 
 When a continuation is intended to perform work, apply A.22.CGUS:4.1.1 to its relevant constituent and encompassing conditions. The arrangement may need capabilities and shared resources that no single flow position reveals. Recover Method and Work parthood independently through B.1.5.EW; nested transformation-flow positions and temporal arcs retain their own meanings. Local completion supports the whole result only under the required coordination and result-use conditions. A description that omits those conditions answers a narrower question than whether the whole can be performed.
 
 #### E.18.3:4.4 - Replay and change localization
 
-Replay A.22 identity, CGUS membership, and E.18.3 membership separately. The first uses the four A.22 discriminators; the second uses local locus bindings and potential continuation topology; the third maps those bindings to one E.18 substrate case and its positions, bindings, and obtaining occurrences. Replay the current set from each candidate's condition or relation basis, applicability, case inputs, facts or evidence, dependent occurrences, window, outcome, and reason. Description loss and every stronger neighboring claim remain separate uses.
+Replay A.22 identity, CGUS membership, and E.18.3 membership separately. The first uses the four A.22 discriminators; the second uses local locus bindings and potential continuation topology; the third maps those bindings to one E.18 substrate case and its positions, bindings, and obtaining occurrences. Replay the current set from each candidate's basis rows, retaining the values required by each applicable condition-evaluation or obtaining-relation branch in `A.22.CGUS:4.2`, the relevant case inputs and facts or evidence, dependent occurrences, window, continuation result, and reason. Description loss and every stronger neighboring claim remain separate uses.
 
 Localize changes by the value they affect. A changed A.22 discriminator can reidentify the structure. A changed CGUS locus binding or potential row reopens CGUS membership. A changed E.18 substrate, flow position, binding, or selected occurrence reopens E.18.3 membership. A changed test, fact, evidence item, guard event, assignment fact, or window reopens only dependent continuation judgements and the current set unless it also changes one of those membership bases. A changed carrier omission reopens the affected description and, for a declared architecture use, its C.33 episteme; a changed neighboring use reopens its own claim.
 

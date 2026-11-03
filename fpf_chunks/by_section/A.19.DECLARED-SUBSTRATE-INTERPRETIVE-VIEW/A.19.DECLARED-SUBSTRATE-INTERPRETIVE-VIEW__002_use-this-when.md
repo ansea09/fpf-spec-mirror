@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__002_use-this-when.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Interpretive Views of Declared Source Sets and Search/Outcome Spaces"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0 — Use this when"
-line_start: 36040
-line_end: 36085
+line_start: 35997
+line_end: 36042
 dependencies:
   - "A.0"
   - "A.19"
@@ -22,6 +22,7 @@ dependencies:
   - "C.24"
   - "E.17"
   - "E.17.0"
+  - "E.24.PUB"
   - "G.10"
   - "G.2"
   - "G.5"
@@ -54,8 +55,8 @@ Not this pattern when:
 
 - you still need to declare the substrate itself, including source-set and search/outcome-space roles; use `A.19.SOURCE-SET-SPACE-SUBSTRATE`;
 - you only need `CharacteristicSpace`, its slots, or its typing hooks; use `A.19`;
-- you are publishing selector outcomes, shortlist identity, or shipping metadata; use `G.5` or `G.10`;
-- you are setting live pool policy, retained-set policy, or enactment/planning posture; use `C.19` or `C.24`;
+- you need to declare selector outcomes or shortlist identity; use `G.5`. Use `G.10` for shipping a Part-G SoTA pack and `E.24.PUB` for making an exact view or episteme available to an audience;
+- you are setting live candidate-pool or retained-set policy; use `C.19`. Use `C.24` for tool or service call planning after the action is fixed; other planning or enactment questions retain their own governing patterns;
 - you are defining a new generic view law, viewpoint bundle, or publication-view family rather than one domain-specific interpretive reading; use `A.6.3`, `E.17.0`, `E.17`, or `E.17.1`;
 - the line would change the EntityOfConcern rather than preserve it; use `A.6.4` or the appropriate retargeting pattern.
 

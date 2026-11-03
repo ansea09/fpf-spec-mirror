@@ -6,12 +6,12 @@ section_id: "A.6.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__006_archetypal-grounding.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:5 — Archetypal Grounding"
-line_start: 23501
-line_end: 23549
+line_start: 23481
+line_end: 23529
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -73,5 +73,5 @@ Only the direct relation selected by one of those concrete sentences receives a 
 
 #### A.6.5:5.5 - Formal reduced case
 
-The expression `3 < 5` is notation in a mathematical assertion. Its numerals, comparison sign and operand places are representation elements; they are not thereby SlotSpecs. An ordinary comparison can stop with its mathematical meaning. Suppose a later FPF use needs to substitute operands under one reusable typed lesser-than declaration. The direct-relation definition must then supply the entities denoted by the numerals, the lesser-number and greater-number participant meanings and the obtaining condition. A compatible `RelationSignature` may declare `LesserNumberSlot` and `GreaterNumberSlot`, with a correspondence from the representation's operand places and designations. Operand order remains local to the representation. The mathematical interpretation and applicable rule supply the comparison's grounds; notation shape alone supplies no FPF relation declaration. This receiving use needs typed substitution but no explicit occurrence identity, so the engineer stops there.
+The expression `3 < 5` is notation in a mathematical assertion. Its numerals, comparison sign and operand places are representation elements; they are not thereby SlotSpecs. An ordinary comparison can stop with its mathematical meaning. Suppose a later FPF use needs to substitute operands under one reusable typed lesser-than declaration. The direct-relation definition must then supply the entities denoted by the numerals, the lesser-number and greater-number participant meanings, obtaining condition and direct occurrence-identity rule. A compatible `RelationSignature` may declare `LesserNumberSlot` and `GreaterNumberSlot`, with a correspondence from the representation's operand places and designations. Operand order remains local to the representation. The mathematical interpretation and applicable rule supply the comparison's grounds; notation shape alone supplies no FPF relation declaration. This receiving use needs typed substitution but no explicit occurrence individuation, so the engineer stops there.
 

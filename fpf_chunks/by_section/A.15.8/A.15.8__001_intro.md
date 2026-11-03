@@ -6,12 +6,12 @@ section_id: "A.15.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__001_intro.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:intro — Intro"
-line_start: 31763
-line_end: 31772
+line_start: 31722
+line_end: 31731
 dependencies:
   - "A.1"
   - "A.10"
@@ -24,6 +24,7 @@ dependencies:
   - "A.15.8"
   - "A.2.1"
   - "A.2.2"
+  - "A.2.4"
   - "A.22"
   - "A.6.RCD"
   - "A.6.REL"

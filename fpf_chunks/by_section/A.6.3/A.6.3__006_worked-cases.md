@@ -6,12 +6,12 @@ section_id: "A.6.3:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__006_worked-cases.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:5 — Worked cases"
-line_start: 17760
-line_end: 17785
+line_start: 17757
+line_end: 17782
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -36,9 +36,9 @@ keywords:
 
 X is a rich system-description episteme about exact plant S. Y is a smaller episteme about the same S containing only safety-critical functions, hazards, and mitigations recoverable from X. The viewing declaration names the filter and omitted claim families. A.6.3 construction obtains. Y becomes a `U.View` only after exact safety viewpoint P is resolved and `EpistemeViewpointConformanceRelation(Y,P)` obtains.
 
-#### A.6.3:5.2 - Directly authored view without a source
+#### A.6.3:5.2 - Directly authored view
 
-Architecture episteme E is authored directly against maintainability viewpoint P and passes E.17.0 conformance. E is a `U.View`, but no A.6.3 viewing from another episteme exists. Inventing an identity source merely to satisfy this pattern would falsify the construction history.
+Architecture episteme E is authored directly against maintainability viewpoint P and passes E.17.0 conformance. E is a `U.View` on that basis; no source-to-E viewing claim is needed for this result. A mathematical viewing relation may be established separately, including identity viewing on E. Any claim that the authoring used a source needs its own historical basis; the mathematical arrow does not supply it.
 
 #### A.6.3:5.3 - Query result that fails conformance
 
@@ -54,5 +54,5 @@ Requirements episteme R and design episteme D concern exact system S. Exact real
 
 #### A.6.3:5.6 - Retargeting boundary
 
-X concerns pump P-14. A proposed Y concerns the whole cooling skid. Even if every Y claim is derived from X plus neighboring descriptions, A.6.3 does not apply because the exact EntityOfConcern changed. Use A.6.4 and state the retargeting invariant.
+X concerns pump P-14. A proposed Y concerns the whole cooling skid. Even if every Y claim is derived from X plus neighboring descriptions, A.6.3 does not apply because the exact EntityOfConcern changed. If declaring a retargeting arrow, use A.6.4. For a claimed receiving use, separately state its invariant, visible loss, use conditions and affirmative or negative proposition; assess that proposition against particular facts when a current-case judgement is needed.
 

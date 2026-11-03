@@ -6,12 +6,12 @@ section_id: "A.19.UNM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__011_consequences.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:9 — Consequences"
-line_start: 37868
-line_end: 37879
+line_start: 37803
+line_end: 37814
 dependencies:
 keywords:
   - "CV→NCV"
@@ -28,9 +28,9 @@ keywords:
 ### A.19.UNM:9 - Consequences
 
 **Benefits**
-- Makes “normalize-then-compare” a first-class governance choice.
-- Centralizes governing-pattern assignment, improving usability and reducing drift.
-- Supports evolvability: method families can evolve via packs/extensions without mutating the mechanism surface.
+- Makes the selected normalization and comparison basis inspectable.
+- Separates the common operation contract from each method's definition and applicability.
+- Allows a method family to change without changing the common operation contract when its meanings and conditions remain compatible.
 - Makes known admission failures explicit through the declared guard result; correctness still depends on the grounds used by the evaluation.
 
 **Costs**

@@ -6,12 +6,12 @@ section_id: "A.7:9"
 section_title: "Anti‑patterns (with fixes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__011_anti-patterns-with-fixes.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.7 — Strict Distinction: Repair Conflations of FPF Objects (Clarity Lattice)"
   - "A.7:9 — Anti‑patterns (with fixes)"
-line_start: 25769
-line_end: 25811
+line_start: 25733
+line_end: 25775
 dependencies:
   - "A.1"
   - "A.10"
@@ -75,7 +75,7 @@ keywords:
 10. **Carrier and episteme swap** — “we versioned the model” meaning a file was renamed.
     **Fix:** State whether the **episteme content** changed; if only a carrier was renamed, say so.
 
-11. **Publication-as-mechanism** — modelling “publication” as if it were a Method or Mechanism.
+11. **Publication relation versus publishing operation** — treating the availability relation as the Method or Mechanism used to publish.
     **Fix:** Identify the Description episteme through C.2.1 and keep specification use and publication separate. State any actual authoring, measurement, observation, model, source-use, representation or refinement relation needed by the claim. An asserted dated build, render or upload Work uses the basis in :2; the publishing System acts on carriers.
 
 12. **Form-first MethodDescription** — “this is an SOP/algorithm/script, therefore it is a MethodDescription.”

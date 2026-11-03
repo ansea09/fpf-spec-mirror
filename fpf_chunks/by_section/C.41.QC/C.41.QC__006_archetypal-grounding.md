@@ -6,12 +6,12 @@ section_id: "C.41.QC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.QC/C.41.QC__006_archetypal-grounding.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.41.QC — Qualify Checklist Criteria and Checking Means"
   - "C.41.QC:5 — Archetypal Grounding"
-line_start: 90047
-line_end: 90072
+line_start: 89968
+line_end: 89993
 dependencies:
   - "A.10"
   - "C.41"

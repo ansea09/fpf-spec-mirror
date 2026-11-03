@@ -6,12 +6,12 @@ section_id: "E.18.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__002_use-this-when.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:0 — Use This When"
-line_start: 111914
-line_end: 111925
+line_start: 111835
+line_end: 111846
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,5 +49,5 @@ Do not use this pattern merely because a visible record or description is a rout
 
 The first useful move is small and ordinary: name the concrete thing being transformed, mark two recognizable places or states on the flow card in domain language, state the proposed connection or guard, and ask which continuation depends on it. A useful result can be a provisional explanation that names the missing relation, fact, or constraint. It need not yet be asserted as a C.2.1 episteme, E.18 position mapping, or selected A.22 structure. If that explanation answers the current use, stop there.
 
-Only when the team must assert E.18.3 qualification, compare or publish the selected structure, or support a stronger downstream claim should it recover the A.22 identity, CGUS locus bindings and potential continuation rows, the E.18 or E.18.NET positions and bindings, obtaining relations, applied constraints, and current continuation judgements. Add replay fields, C.33 loss notes for a declared architecture use, publication material, or downstream assurance only when that named use needs them. Here `move` is Plain wording for the current action, not a universal kind or relation; a proposal, selection result, or formalized description does not establish that the proposed action was performed.
+Only when a named use depends on the identity and qualification of the unfolding organization as an E.18.3 structure should the team recover the A.22 identity, CGUS locus bindings and potential continuation rows, the E.18 or E.18.NET positions and bindings, obtaining relations, applied constraints, and current continuation judgements. Add replay fields, C.33 loss notes for a declared architecture use, publication material, or downstream assurance only when that named use needs them. Here `move` is Plain wording for the current action, not a universal kind or relation; a proposal, selection result, or formalized description does not establish that the proposed action was performed.
 

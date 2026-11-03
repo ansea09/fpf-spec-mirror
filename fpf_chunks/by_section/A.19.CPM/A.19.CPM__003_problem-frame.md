@@ -6,12 +6,12 @@ section_id: "A.19.CPM:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__003_problem-frame.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.CPM — Compare Admitted Profiles under a Declared Comparator (CPM)"
   - "A.19.CPM:1 — Problem frame"
-line_start: 38889
-line_end: 38898
+line_start: 38822
+line_end: 38831
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -29,7 +29,7 @@ FPF's Characterization (CHR) suite treats comparison as a **distinct** mechanism
 
 * a **mechanism** (an operation declaration under `A.6.1`),
 * that is **suite‑conformant** (per CHR obligations and protocol closure in `A.19.CHR`),
-* and **governing-spec-ref-respecting** (comparability and admission are governed by `CN-Spec` and admissibility is gated by `CG-Spec` rather than re-invented locally).
+* whose profile admission and comparability follow `CN-Spec`, and whose comparator admissibility follows `CG-Spec`.
 
 Within suite protocols, CPM appears as the explicit `compare` stage: it consumes admitted left and right profiles, including scores and folded measures when those upstream stages are present, and produces an admissible, replayable comparison result that downstream selection can consume without CPM smuggling selection or scoring semantics into comparison.
 

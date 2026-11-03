@@ -6,12 +6,12 @@ section_id: "E.18.3:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__007_archetypal-grounding-worked-slices.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:5 — Archetypal Grounding — Worked Slices"
-line_start: 112130
-line_end: 112293
+line_start: 112051
+line_end: 112214
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,9 +41,9 @@ keywords:
 
 ### E.18.3:5 - Archetypal Grounding — Worked Slices
 
-**Ordinary first use — heat-treatment card.** A practitioner reviewing the flow card for `GearBlank@Lot-14` marks “soak complete” and “quench candidate,” writes “quench remains an admissible continuation only when the measured soak state is within the allowed range,” and asks whether the card may show that continuation or which fact or constraint is missing. If the measured-state fact or range rule is unavailable, the useful result is a provisional explanation naming that gap. The team may use it to correct or discuss the card and stop; it authorizes no Work and asserts no C.2.1 episteme, A.22 structure, E.18 position, applied constraint claim, E.18 guard event, or relation occurrence. Continue to formal recovery only when the team must qualify, compare, publish, or rely more strongly on the structure.
+**Ordinary first use — heat-treatment card.** A practitioner reviewing the flow card for `GearBlank@Lot-14` marks “soak complete” and “quench candidate,” writes “quench remains an admissible continuation only when the measured soak state is within the allowed range,” and asks whether the card may show that continuation or which fact or constraint is missing. If the measured-state fact or range rule is unavailable, the useful result is a provisional explanation naming that gap. The team may use it to correct or discuss the card and stop; it authorizes no Work and asserts no C.2.1 episteme, A.22 structure, E.18 position, applied constraint claim, E.18 guard event, or relation occurrence. Continue to formal recovery only when the named use depends on the organization's identity and qualification as an E.18.3 structure.
 
-**Candidate-set replay entry.** When the team must compare or publish the candidate-set repair structure, name one proposed selected-structure use, `CandidateSetComparisonBasis@Review-2026-07` and its kind, then describe candidate `ReferenceEditionChangePosition` and `ComparisonRecalculationPosition` plus the proposed dependency `ComparisonDependsOnAdmittedEdition`. Because this use needs a replayable claim, constitute an ordinary C.2.1 provisional episteme whose EntityOfConcern is that comparison-basis question. Its ClaimContent names the G.11 currentness test and A.19.CPM comparison rule as needed contributions and states that the A.22 identity, exact E.18 bindings, and dependency occurrence remain unresolved. This prevents a stale-edition comparison from looking current without asserting a structure, typed position, or relation prematurely.
+**Candidate-set replay entry.** When the team must determine whether the proposed candidate-set repair organization qualifies as an E.18.3 structure, name one proposed selected-structure use, `CandidateSetComparisonBasis@Review-2026-07` and its kind, then describe candidate `ReferenceEditionChangePosition` and `ComparisonRecalculationPosition` plus the proposed dependency `ComparisonDependsOnAdmittedEdition`. Because this use needs a replayable claim, constitute an ordinary C.2.1 provisional episteme whose EntityOfConcern is the qualification question about that proposed organization. Its ClaimContent names the G.11 currentness test and A.19.CPM comparison rule as needed contributions and states that the A.22 identity, exact E.18 bindings, and dependency occurrence remain unresolved. This prevents a stale-edition comparison from looking current without asserting a structure, typed position, or relation prematurely.
 
 **P2W carry-through.** Accepted problem-side records may name distinctions, constraints and unresolved relation positions that guide later Method selection, planning, Work, interpretation and reconsideration. E.18.3 may organize independently current objects only after the selected A.22 structure, E.18 position bindings and direct relations are recovered. It does not authorize launch or performed Work, does not admit any MethodDescription from intended use, and does not replace E.18.1 carry-through.
 

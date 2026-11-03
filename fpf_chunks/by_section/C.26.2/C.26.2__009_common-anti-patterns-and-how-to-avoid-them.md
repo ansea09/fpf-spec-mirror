@@ -6,12 +6,12 @@ section_id: "C.26.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 66714
-line_end: 66723
+line_start: 66635
+line_end: 66644
 dependencies:
   - "A.10"
   - "A.15"

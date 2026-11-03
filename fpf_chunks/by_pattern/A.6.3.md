@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
-line_start: 17601
-line_end: 17834
+line_start: 17598
+line_end: 17831
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -36,7 +36,7 @@ keywords:
 
 **First useful result.** Write one source-to-result statement. For example:
 
-> `Result Y is made from source X. Both are about the same named thing. Y keeps [named claims], omits [named claims], and adds no claim unsupported by [named sources].`
+> `Under the declared viewing rule, the claims in result Y are licensed by X together with any additional named sources and admitted facts required by that rule. X and Y are about the same named thing. Y keeps [named claims], omits [named claims], and adds no claim unsupported by those premises.`
 
 Then name or show the rule that selects, rewrites, or combines the claims. Do not call the construction an A.6.3 viewing unless X and Y can be identified separately and this rule can be inspected.
 
@@ -53,7 +53,7 @@ Engineering work often needs a different body of claims about the same thing. Ex
 Several neighboring facts can all be true but are not the same fact:
 
 1. X and Y are identified as C.2.1 epistemes;
-2. Y was constructed from X under one declared viewing rule;
+2. a declared viewing rule licenses Y's claims from X and any additional named sources or admitted facts it requires;
 3. X and Y have the same EntityOfConcern;
 4. Y makes no stronger claims than the identified sources license;
 5. Y conforms to an exact viewpoint and is therefore a `U.View`;
@@ -64,7 +64,7 @@ Ordinary use may need only items 1 through 4. The remaining claims are opened in
 
 ### A.6.3:2 - Problem
 
-How can a project say that Y was constructed from X about the same thing while making clear what was preserved, what was lost, and why Y adds no unsupported claim?
+How can a project state how X and any additional named sources or admitted facts license Y under a viewing rule while making clear what was preserved, what was lost, and why Y adds no unsupported claim?
 
 Keep that construction separate from the work that produced Y, any publication of Y, and any separate check that Y qualifies as a `U.View`.
 
@@ -78,7 +78,7 @@ Without this distinction, a query execution is treated as view membership, a gen
 | Same concern vs changed expression | X and Y share one exact EntityOfConcern, while claim content or effective reference scheme may differ and therefore identify another episteme. |
 | Algebraic composition vs actual work | Viewings should compose and replay as mathematical constructions, while systems and work occurrences remain separate. |
 | Direct source vs several-source correspondence | Some constructions use X alone; others depend on exact relations among several source epistemes. |
-| Construction history vs stable kind membership | Viewpoint conformance depends on Y and the viewpoint, independently of how Y was constructed. |
+| Viewing construction vs stable kind membership | Viewpoint conformance depends on Y and the viewpoint, independently of any source-to-Y viewing claim. |
 | Lightweight assertion vs assurance | A readable source-to-receiving statement often suffices; disputed loss or correspondence requires exact declarations and evidence. |
 
 ### A.6.3:4 - Solution
@@ -148,7 +148,7 @@ EpistemeViewpointConformanceRelation(Y,P) obtains
   -> the same episteme Y is a U.View
 ```
 
-Directly authored Y can be a view without any A.6.3 source relation. Conversely, a valid A.6.3 construction can yield Y that fails P's concern-coverage or semantic-form rules and therefore is not a view under P.
+Directly authored Y can qualify as a view without establishing an A.6.3 source-to-Y construction. Conversely, a valid A.6.3 construction can yield Y that fails P's concern-coverage or semantic-form rules and therefore is not a view under P.
 
 #### A.6.3:4.5 - Distinguish direct and correspondence-mediated construction
 
@@ -194,9 +194,9 @@ Add a reusable declaration, explicit mathematical arrow, correspondence episteme
 
 X is a rich system-description episteme about exact plant S. Y is a smaller episteme about the same S containing only safety-critical functions, hazards, and mitigations recoverable from X. The viewing declaration names the filter and omitted claim families. A.6.3 construction obtains. Y becomes a `U.View` only after exact safety viewpoint P is resolved and `EpistemeViewpointConformanceRelation(Y,P)` obtains.
 
-#### A.6.3:5.2 - Directly authored view without a source
+#### A.6.3:5.2 - Directly authored view
 
-Architecture episteme E is authored directly against maintainability viewpoint P and passes E.17.0 conformance. E is a `U.View`, but no A.6.3 viewing from another episteme exists. Inventing an identity source merely to satisfy this pattern would falsify the construction history.
+Architecture episteme E is authored directly against maintainability viewpoint P and passes E.17.0 conformance. E is a `U.View` on that basis; no source-to-E viewing claim is needed for this result. A mathematical viewing relation may be established separately, including identity viewing on E. Any claim that the authoring used a source needs its own historical basis; the mathematical arrow does not supply it.
 
 #### A.6.3:5.3 - Query result that fails conformance
 
@@ -212,13 +212,13 @@ Requirements episteme R and design episteme D concern exact system S. Exact real
 
 #### A.6.3:5.6 - Retargeting boundary
 
-X concerns pump P-14. A proposed Y concerns the whole cooling skid. Even if every Y claim is derived from X plus neighboring descriptions, A.6.3 does not apply because the exact EntityOfConcern changed. Use A.6.4 and state the retargeting invariant.
+X concerns pump P-14. A proposed Y concerns the whole cooling skid. Even if every Y claim is derived from X plus neighboring descriptions, A.6.3 does not apply because the exact EntityOfConcern changed. If declaring a retargeting arrow, use A.6.4. For a claimed receiving use, separately state its invariant, visible loss, use conditions and affirmative or negative proposition; assess that proposition against particular facts when a current-case judgement is needed.
 
 ### A.6.3:6 - Consequences
 
 | Gain | Cost or boundary |
 |---|---|
-| Construction history is inspectable without defining view membership. | X and Y must be independently identified before the construction is asserted. |
+| The source-to-result construction is inspectable without defining view membership. | X and Y must be independently identified before the construction is asserted. |
 | Direct authoring and generated epistemes coexist. | A generated result needs a separate E.17.0 test before it can be called a view. |
 | Correspondence-mediated constructions can use exact domain relations. | A graph or trace table must supply the relevant claims and grounds; its presence alone does not establish the relation. |
 | Work and publication stay outside the mathematical construction. | Tool execution and availability require their own patterns when current. |

@@ -6,12 +6,12 @@ section_id: "C.29.BB:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__006_archetypal-grounding.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:5 — Archetypal Grounding"
-line_start: 71351
-line_end: 71404
+line_start: 71272
+line_end: 71325
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"

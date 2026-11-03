@@ -6,12 +6,12 @@ section_id: "C.39.MC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MC/C.39.MC__008_conformance-checklist.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.39.MC — Continue Method Development from Changed Conditions"
   - "C.39.MC:7 — Conformance Checklist"
-line_start: 84826
-line_end: 84835
+line_start: 84747
+line_end: 84756
 dependencies:
   - "A.15.7"
   - "A.22.CGUS"

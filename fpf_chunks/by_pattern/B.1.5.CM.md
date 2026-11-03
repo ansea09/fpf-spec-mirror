@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.CM.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
-line_start: 42991
-line_end: 43183
+line_start: 42912
+line_end: 43104
 dependencies:
   - "A.3.1"
   - "B.1.5"

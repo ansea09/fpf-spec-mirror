@@ -6,12 +6,12 @@ section_id: "A.19.USCM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__005_forces.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:3 — Forces"
-line_start: 38266
-line_end: 38281
+line_start: 38199
+line_end: 38214
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -25,7 +25,7 @@ keywords:
 
 ### A.19.USCM:3 - Forces
 
-1. **Admissibility discipline vs operational pressure.** Scoring is where "just compute a number" pressure is strongest, but admissibility must remain explicit and checkable: SCP and CSLC constraints must bound permissible transforms.
+1. **Admissibility discipline vs operational pressure.** Admissibility must remain explicit and checkable under operational pressure: SCP and CSLC constraints must bound permissible transforms.
 
 2. **Method diversity vs stable mechanism boundary.** Scoring methods evolve rapidly; USCM’s signature must remain stable so method families can be wired through SoTA packs and extensions without mutating the mechanism boundary.
 

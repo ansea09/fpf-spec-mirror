@@ -6,12 +6,12 @@ section_id: "A.6.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__003_problem.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.3 — Episteme viewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:2 — Problem"
-line_start: 17634
-line_end: 17641
+line_start: 17631
+line_end: 17638
 dependencies:
   - "A.13"
   - "A.15.1"
@@ -32,7 +32,7 @@ keywords:
 
 ### A.6.3:2 - Problem
 
-How can a project say that Y was constructed from X about the same thing while making clear what was preserved, what was lost, and why Y adds no unsupported claim?
+How can a project state how X and any additional named sources or admitted facts license Y under a viewing rule while making clear what was preserved, what was lost, and why Y adds no unsupported claim?
 
 Keep that construction separate from the work that produced Y, any publication of Y, and any separate check that Y qualifies as a `U.View`.
 

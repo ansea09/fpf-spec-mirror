@@ -6,12 +6,12 @@ section_id: "A.19.USCM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__014_relations.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:12 — Relations"
-line_start: 38537
-line_end: 38559
+line_start: 38470
+line_end: 38492
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -43,6 +43,6 @@ keywords:
 
   * `UNM` when `CN‑Spec.comparability` requires normalization‑based comparability (explicit choreography, no hidden UNM).
   * `ULSAM` when folding/aggregation is needed as a distinct, explicit step.
-  * `G.2` and `GPatternExtension` wiring modules for post‑2015 method families, without mutating the USCM kernel.
+  * `G.2` for scoring-method choices and `GPatternExtension` modules for their wiring, without mutating the USCM kernel.
   * `E.20` (governing-pattern discipline) and `F.18` (alias docking) for governing-source references and designation continuity.
 

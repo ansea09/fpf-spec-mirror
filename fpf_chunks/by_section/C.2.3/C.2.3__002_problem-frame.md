@@ -6,12 +6,12 @@ section_id: "C.2.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__002_problem-frame.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:1 — Problem frame"
-line_start: 53167
-line_end: 53172
+line_start: 53088
+line_end: 53093
 dependencies:
   - "A.16"
   - "A.18"

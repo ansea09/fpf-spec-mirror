@@ -6,12 +6,12 @@ section_id: "A.19.CHR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__008_conformance-checklist.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
   - "A.19.CHR:7 — Conformance Checklist"
-line_start: 37322
-line_end: 37407
+line_start: 37257
+line_end: 37342
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -19,7 +19,6 @@ dependencies:
   - "A.19.CHR"
   - "A.21"
   - "A.6.1"
-  - "A.6.5"
   - "A.6.7"
   - "A.6.RCD"
   - "C.23"
@@ -30,18 +29,18 @@ dependencies:
   - "G.10"
   - "G.5"
 keywords:
-  - "Bridge-only transport"
   - "CG-Spec"
   - "CHR suite"
   - "CN-Spec"
   - "P2W seam"
   - "SlotFillingsPlanItem"
-  - "admissibility gate"
+  - "admissibility conditions"
+  - "applicable correspondence and crossing conditions"
   - "characterization core"
   - "crossing visibility"
+  - "model-bound assurance penalties"
   - "no hidden scalarization"
   - "no hidden thresholds"
-  - "penalties→R_eff"
   - "planned baseline"
   - "set-return selection"
   - "suite obligations"
@@ -58,7 +57,7 @@ A CHR mechanism-suite publication set is conformant to **A.19.CHR** iff all appl
 A conforming `CHRMechanismSuiteDescription` SHALL be a `MechSuiteDescription` instance and SHALL NOT be encoded as a `MechFamilyDescription`.
 
 **CC‑A67CHR‑1a (Stable citation handle).**
-A conforming `CHRMechanismSuiteDescription` SHALL include a stable `mech_suite_id` suitable for downstream planning and `U.Work.Audit` citation.
+A conforming `CHRMechanismSuiteDescription` SHALL include a stable `mech_suite_id` suitable for downstream planning and audit citation.
 
 **CC‑A67CHR‑2 (Canonical membership).**
 A conforming `CHRMechanismSuiteDescription` SHALL enumerate exactly the six CHR mechanisms (UNM, UINDM, USCM, ULSAM, CPM, SelectorMechanism) as `MechanismDeclarationRef`s.
@@ -101,10 +100,10 @@ If `suite_protocols` is present, a conforming `CHRMechanismSuiteDescription` SHA
 If `suite_protocols` is present, a conforming `CHRMechanismSuiteDescription` SHALL include at least one protocol equivalent to:
 `normalize (UNM) → indicatorize (UINDM) → score (USCM) → fold_Γ? (ULSAM) → compare (CPM) → select (SelectorMechanism)`,
 where `fold_Γ` is explicitly optional.
-Any publish/telemetry continuation is governed externally (e.g., by G.10 and/or PTM) and MUST NOT be encoded as a `ProtocolStep` inside `suite_protocols` (to preserve WF‑MS‑2 closure).
+Any publish/telemetry continuation follows its applicable rules: G.10 for Part-G pack shipping and E.24.PUB for episteme availability, form or carrier claims. It MUST NOT be encoded as a `ProtocolStep` inside `suite_protocols` (to preserve WF-MS-2 closure).
 
 **CC‑A67CHR‑9 (Packaging separation).**
-A publish/telemetry continuation is outside `suite_protocols` and governed by G.10 and/or PTM. The suite description itself is not the shipping publication.
+A publish/telemetry continuation is outside `suite_protocols` and follows its applicable rules. G.10 governs Part-G pack shipping; E.24.PUB governs episteme availability, form and carrier claims. The suite description itself is not the shipping publication.
 
 #### A.19.CHR:7.2 - Planned baseline checks
 

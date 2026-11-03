@@ -6,12 +6,12 @@ section_id: "A.6.9:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__007_bias-annotation.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Restoring the concrete claim behind \"same\", \"equivalent\", and \"align\" (RPR-XCTX)"
   - "A.6.9:6 — Bias-Annotation"
-line_start: 24791
-line_end: 24801
+line_start: 24769
+line_end: 24779
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,5 +64,5 @@ This pattern is biased toward:
 * **Locality of meaning.** Exact scheme and local-sense claims provide the interpretation basis without a reified context bearer.
 * **Evidence humility.** Scores, counterexamples, and invariants inform claims and reliance but do not manufacture relation truth or permission.
 
-The dispatch stays cheap: same-context designation and direct-relation cases stop before F.9. The heavier path is reserved for a cross-local relation that a named use will actually consume.
+The dispatch stays cheap: same-context designation and other directly governed cases stop before F.9. Use the F.9 branch when the current question needs a cross-local semantic relation. A separate bounded-use claim is needed only when a use of an obtaining Bridge is proposed.
 

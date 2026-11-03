@@ -6,12 +6,12 @@ section_id: "A.15.8.MS:5"
 section_title: "Worked Build and Test Replays"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8.MS/A.15.8.MS__007_worked-build-and-test-replays.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.15.8.MS — Configure Methodological Support for Work"
   - "A.15.8.MS:5 — Worked Build and Test Replays"
-line_start: 32103
-line_end: 32225
+line_start: 32062
+line_end: 32184
 dependencies:
   - "A.15.8"
   - "A.19"
@@ -28,7 +28,7 @@ This constructed replay shows the cheap branch. The named Method and MethodDescr
 
 `CalibrationEngineer-5` must retrieve the current description of admitted Method `M-Calibrate-Sensor-B` for planned calibration Work. The pass criterion is: return `MD-Calibrate-Sensor-B-v4`, its current status, applicability to sensor family B, and the stop for an unknown serial class. The failure criterion is return of another edition or omission of status, applicability, or stop.
 
-This is one receiver and one exact action. Candidate `REP-Cal-B-Retrieval-1` is a `C.2.1` episteme constituted by the maintained index row. Its exact use claim is that v4 is the current family-B description and carries the unknown-serial stop for this retrieval. It exposes currentness, applicability, the stop, and publication link; it withholds a stable audit digest and makes no capability, permission, authority, Work, or calibration-result claim. The A.15.8.MS task row is the owning domain result for this use and carries the receiving task criterion, observation, and return. That one embedded realization supplies the complete one-result/one-use selection boundary, so the `C.37` direct exit applies: no C.37.MP profile row and no duplicate standalone C.37 account are created. If a later decision relies on the retrieved content as evidence, its exact A.10 path and disposition must be added for that later use.
+This is one receiver and one exact action. Candidate `REP-Cal-B-Retrieval-1` is a `C.2.1` episteme constituted by the maintained index row. Its exact use claim is that v4 is the current family-B description and carries the unknown-serial stop for this retrieval. It exposes currentness, applicability, the stop, and publication link; it withholds a stable audit digest and makes no capability, permission, authority, Work, or calibration-result claim. The A.15.8.MS task row is the owning domain result for this use and carries the receiving task criterion, observation, and return. That one embedded realization supplies the complete one-result/one-use selection boundary, so the `C.37` direct exit applies: no C.37.MP profile row and no duplicate standalone C.37 account are created. A later decision that relies on the retrieved content still needs the grounds and qualifications required by its claim. Add the A.10 path and disposition when that source-to-use account must remain replayable.
 
 The initial shared-folder route contains v3 and v4 but exposes neither currentness nor applicability. In `W-ME10-Retrieve-Cal-B-0`, the user retrieves v3; the task returns `task-fail[wrong-edition]` without changing either edition or admitting a capability claim.
 
@@ -104,7 +104,7 @@ The receiving relations remain direct: `TraceReviewer-17` retrieves the edition 
 | --- | --- | --- |
 | Published files and manual lookup only | The case supplies no performed task evidence for current status, `ATP-2`, D0, stale-edition rejection, signed-before-closure, or A/B2/R stops through this route. | Untested. Do not call it failed or insufficient from absent task evidence alone. |
 | Bounded PLM retrieval and selection aids plus the non-confidential CI tailoring fixture | Retrieval and branch-selection pass their declared checks through the identified PLM and CI Systems. Tailoring observations cover the fixture, signed-before-closure and stale-edition rejection, but not the permission/authority stop. | Supported for the observed actions; the missing tailoring definition and `missing-task-test[tailoring-permission-authority-stop]` prevent a pass for the complete three-task set. No claim of global minimality or parity superiority. |
-| Add an AI-provider route and feedback path | The case supplies no AI-provider interaction, used suggestion, review of such a suggestion, feedback Work, or feedback receiving use. No mandatory row currently requires this branch. | Outside the supported pass and untested; retain as named gaps, not features. |
+| Add an AI-provider route and feedback path | The case supplies no AI-provider interaction, used suggestion, review of such a suggestion, feedback Work, or feedback receiving use. No mandatory row currently requires this branch. | Untested and outside the supported result. Its absence is a gap only for a named task or additional claim that requires it. |
 
 The configured PLM/CI route includes the Method Base edition and status cues, PLM retrieval and branch-selection aids, the CI fixture and stale-edition rejection, `ATP-2`, and the confidentiality, signed-evidence, assignment, permission, authority, reversibility, and D0 stops. The manual and AI routes lack parity evidence, so this table does not select the globally smallest arrangement. It identifies the only configuration with performed observations across all three tasks; the missing tailoring definition and tailoring-stop test still prevent complete task-set support. It is not an A.22 selected structure.
 
@@ -135,7 +135,7 @@ No repair and rerun occurrence is asserted for EC-417: no performed task is repo
 3. current-edition, status, confidentiality, signed-before-closure, assignment, permission, authority, reversibility, and D0 constraints; and
 4. the use frame for retrieval, comparison, tailoring, and bounded PLM and CI use for `WP-EC417-B2-Trial-1`.
 
-The case supplies no selecting System, enacted selection Method, dated structure-selection Work, or direct participation or operation-binding facts. `ESA-EC417-B2-1` returns `missing-selection-basis` and designates no selected `U.Structure`. This gap does not erase the three task observations.
+This support account retains `PSO-EC417-B2-Use-1` as a proposal; it does not assert a selected `U.Structure`. If a named receiving use requires that stronger claim, establish the four A.22 values for that use from the case facts. `ESA-EC417-B2-1` returns `missing-selection-basis` only when a value or judgement required for that use remains unresolved. A separate claim of dated selection Work would need its selecting System, enacted Method, independently admitted Work and any claimed participation or operation binding. The three task observations and the separate missing tailoring test retain their own grounds.
 
 #### A.15.8.MS:5.6 - Collection and Edition Remain Subordinate Results
 

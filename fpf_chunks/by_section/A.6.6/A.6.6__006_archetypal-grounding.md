@@ -6,12 +6,12 @@ section_id: "A.6.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__006_archetypal-grounding.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.6.6 — Base Declaration Discipline: Say Exactly What Something Depends On"
   - "A.6.6:5 — Archetypal Grounding"
-line_start: 23908
-line_end: 23957
+line_start: 23886
+line_end: 23935
 dependencies:
   - "A.10"
   - "A.14"
@@ -59,7 +59,7 @@ gammaTime          = interval[2025-09-01, 2026-03-01] 〉
 
 When a later decision relies on this assertion, identify the calibration-certificate episteme and its A.2.4 evidence-use relation to the assertion. Use A.10 when the decision needs a bounded-reliance judgment or the producing Work, operation result, carrier, provenance or currentness path. Distinguish changes by what actually changed:
 
-* New standard ⇒ **rebase** + **refreshWitnesses**.
+* New standard ⇒ **rebase**; establish the evidence-use relation required for the new assertion, reusing suitable witnesses or refreshing them when needed.
 * Wider applicability window ⇒ **retime** and likely **refreshWitnesses**.
 * Relation-kind change (“not calibration, just normalisation”) ⇒ **changeDirectRelationKind** is not an edit; mint a new assertion or declaration. Claim continuity with the prior episteme only when that history is needed and C.2.1:4.5's rule and case facts establish it.
 

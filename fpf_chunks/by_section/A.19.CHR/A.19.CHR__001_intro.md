@@ -6,12 +6,12 @@ section_id: "A.19.CHR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__001_intro.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite: Shared Rules for Characterization and Selection"
   - "A.19.CHR:intro — Intro"
-line_start: 36907
-line_end: 36919
+line_start: 36842
+line_end: 36854
 dependencies:
   - "A.15.2"
   - "A.15.3"
@@ -19,7 +19,6 @@ dependencies:
   - "A.19.CHR"
   - "A.21"
   - "A.6.1"
-  - "A.6.5"
   - "A.6.7"
   - "A.6.RCD"
   - "C.23"
@@ -30,18 +29,18 @@ dependencies:
   - "G.10"
   - "G.5"
 keywords:
-  - "Bridge-only transport"
   - "CG-Spec"
   - "CHR suite"
   - "CN-Spec"
   - "P2W seam"
   - "SlotFillingsPlanItem"
-  - "admissibility gate"
+  - "admissibility conditions"
+  - "applicable correspondence and crossing conditions"
   - "characterization core"
   - "crossing visibility"
+  - "model-bound assurance penalties"
   - "no hidden scalarization"
   - "no hidden thresholds"
-  - "penalties→R_eff"
   - "planned baseline"
   - "set-return selection"
   - "suite obligations"

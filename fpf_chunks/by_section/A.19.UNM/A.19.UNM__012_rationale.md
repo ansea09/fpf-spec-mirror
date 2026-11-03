@@ -6,12 +6,12 @@ section_id: "A.19.UNM:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__012_rationale.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.UNM — Normalize Coordinate Values under Declared Invariants (UNM)"
   - "A.19.UNM:10 — Rationale"
-line_start: 37880
-line_end: 37889
+line_start: 37815
+line_end: 37824
 dependencies:
 keywords:
   - "CV→NCV"
@@ -27,11 +27,11 @@ keywords:
 
 ### A.19.UNM:10 - Rationale
 
-UNM is designed as a **minimal canonical semantic surface**:
-- Enough structure to prevent illegal comparisons and hidden transformations.
-- Explicit routing in CN-frame so normalization is governance, not an algorithmic trick.
-- Evidence/calibration are delegated to MM‑CHR to avoid redefining measurement meaning.
-- Exact bearer, basis, scope/window and intended-use checks prevent accidental global normalization; actual Bridge, kind, and plane relations are cited only when a conclusion relies on them.
+UNM separates three contributions needed to justify a normalized value:
+- The selected transformation defines its actual domain, output and preservation/loss conditions.
+- CN-Spec states when normalization is needed and which configured method applies to the comparison.
+- C.16 supplies measurement and calibration grounds for that use.
+The receiving use determines which distinctions must survive and whether a relation to another meaning, kind or plane is required. Those relations and any assurance calculation retain their own conditions; a common numeric range supplies none of these grounds.
 
-This balances evolvability (methods evolve) with didactic usability (one place to read what UNM is).
+
 

@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:3"
 section_title: "Forces (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__005_forces-normative.md"
-commit_sha: "c1926cf444afeb1994d6b1fe791593dc248b3838"
+commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:3 — Forces (normative)"
-line_start: 38615
-line_end: 38625
+line_start: 38548
+line_end: 38558
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -33,7 +33,7 @@ keywords:
 
 - **Lawfulness vs convenience.** The most “convenient” aggregation (e.g., weighted sums) is often illegal across scales/units; lawful folds require explicit constraints.
 - **Explicitness vs brevity.** A single scalar is short to discuss, but expensive in hidden assumptions.
-- **Kernel stability vs method evolution.** Aggregation methods evolve; the kernel must not.
+- **Stable declaration vs method variation.** Different realizers can use the same operation declaration while preserving its argument meanings, fold law and guard. Changing that content requires explicit selection of the changed declaration.
 - **Evidence gating vs “always return a number.”** The mechanism must support abstain/degrade rather than coercion.
 - **Optional stage vs pipeline clarity.** `fold_Γ?` is optional in CHR protocols; optionality must be explicit (not implicit “sometimes scoring folds”).
 - **Auditability vs minimal overhead.** Recording contributor sets and effective pins adds overhead but prevents semantic drift.
