@@ -6,7 +6,7 @@ section_id: "A.3.4.P:End"
 section_title: "A.3.4.P:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__014_a-3-4-p-end.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "A.3.4.P — Transformation Wording Repair: Recover Objects and Claims"
   - "A.3.4.P:End — A.3.4.P:End"

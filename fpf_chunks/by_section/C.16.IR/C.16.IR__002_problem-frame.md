@@ -6,12 +6,12 @@ section_id: "C.16.IR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.IR/C.16.IR__002_problem-frame.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.16.IR — Determine What a Measurement Indication Can Resolve"
   - "C.16.IR:1 — Problem frame"
-line_start: 59187
-line_end: 59198
+line_start: 59197
+line_end: 59208
 dependencies:
   - "A.3.3.PI"
   - "B.5.MPC.R"

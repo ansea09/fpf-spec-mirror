@@ -6,12 +6,12 @@ section_id: "C.2.2a:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__004_problem.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:2 — Problem"
-line_start: 52876
-line_end: 52884
+line_start: 52886
+line_end: 52894
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,7 +45,7 @@ keywords:
 ---
 
 ### C.2.2a:2 - Problem
-Without an explicit language-state chart:
+When relevant facets and use conditions remain implicit:
 
 1. teams collapse several facets into one maturity story;
 2. `F` is silently misused as a surrogate for articulation, closure, source and use conditions, and representation factors;

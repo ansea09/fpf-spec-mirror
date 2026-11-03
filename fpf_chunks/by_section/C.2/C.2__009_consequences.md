@@ -6,16 +6,17 @@ section_id: "C.2:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__009_consequences.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:8 — Consequences"
-line_start: 51029
-line_end: 51033
+line_start: 51043
+line_end: 51047
 dependencies:
   - "A.1"
   - "A.10"
   - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "B.3"
   - "C.2.1"
   - "C.29"
@@ -41,6 +42,6 @@ keywords:
 
 ### C.2:8 - Consequences
 
-**Benefits.** A compact map for knowledge epistemes; visible support dependencies and limitations; useful formal and qualitative results alongside justified calculations; disciplined reuse across domains with explicit CL; consistent separation of meaning from material carriers.
+**Benefits.** A compact map for knowledge epistemes; visible support dependencies and limitations; useful formal and qualitative results alongside justified calculations; disciplined reuse across domains with stated correspondence and preservation limits; consistent separation of meaning from material carriers.
 **Trade-offs.** Authors must identify the support relation and any calculation model; multi-notation work keeps its relation-specific basis. Some useful syntheses have no common scalar. *Mitigation:* the C.2.1 constitution test and direct neighboring patterns keep the ordinary entry brief while preserving recoverable precision.
 

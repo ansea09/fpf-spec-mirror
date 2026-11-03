@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.MPC.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.MPC — Connect Physical, Mathematical and Computational Reasoning"
-line_start: 47024
-line_end: 47460
+line_start: 47039
+line_end: 47475
 dependencies:
   - "A.15.9"
   - "A.3.3"

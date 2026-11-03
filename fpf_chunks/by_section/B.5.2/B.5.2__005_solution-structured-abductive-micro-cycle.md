@@ -6,12 +6,12 @@ section_id: "B.5.2:4"
 section_title: "Solution - Structured abductive micro-cycle"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__005_solution-structured-abductive-micro-cycle.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:4 — Solution - Structured abductive micro-cycle"
-line_start: 49618
-line_end: 49675
+line_start: 49633
+line_end: 49690
 dependencies:
   - "A.10"
   - "A.16"
@@ -27,20 +27,20 @@ keywords:
 
 ### B.5.2:4 - Solution - Structured abductive micro-cycle
 
-`B.5.2` begins from an admissible `U.AbductivePrompt`, expands a candidate set, compares it under explicit plausibility criteria, and publishes the selected conjecture as a hypothesis-bearing `U.Episteme`. Preserve the supports, rivals, limitations and allowed downstream use. Abduction alone assigns no `AssuranceLevel`.
+`B.5.2` begins from an account that meets `B.5.2.0`'s `U.AbductivePrompt` entry conditions, develops candidate explanations and compares them under explicit plausibility criteria. Return a qualified conjecture when the grounds support it, or an abort, defer or split outcome under §14.2. Preserve the prompt, candidates considered, supports, limitations and allowed downstream use. Abduction alone assigns no `AssuranceLevel`.
 
 #### B.5.2:4.1 - Nature of abduction in FPF
 
-In FPF, abduction proposes a presently most plausible candidate explanation, model or conjecture under a declared prompt. Its plausibility can justify keeping or using that conjecture for a bounded purpose, but does not establish its causal mechanism or a stronger empirical claim. Deduction, evidence synthesis and action choice keep their own questions.
+Abduction develops candidate explanations, models or conjectures for a declared explanatory prompt and compares their plausibility. Prefer a candidate only to the extent that the comparison warrants that preference. A conjecture's plausibility may justify keeping or using it for a bounded purpose; it does not establish its causal mechanism or a stronger empirical claim. Deduction, evidence synthesis and action choice keep their own questions.
 
 #### B.5.2:4.2 - Four-step micro-cycle
 
 | Step | Core activity | Required publication outcome |
 |---|---|---|
-| **1. Frame the prompt** | State the initiating `U.AbductivePrompt` precisely enough that the unexplained contrast, opportunity, or probe pressure is explicit. | A prompt record with open question, scope notes, and provenance. |
-| **2. Generate candidate hypotheses** | Produce multiple candidate conjectures that could resolve the prompt. | A visible candidate set, even if lightweight. |
-| **3. Apply plausibility filters** | Compare candidates against explicit plausibility criteria. | A short rationale that records why some candidates remain live and others are rejected. |
-| **4. Select and publish the prime hypothesis** | Choose the presently preferred conjecture where the comparison warrants one. | A hypothesis-bearing `U.Episteme` with its prompt, selection rationale, live rivals, supports, fragilities and allowed use. No universal level or mandatory next experiment follows. |
+| **1. Frame the prompt** | State the initiating explanatory question precisely enough that the unexplained contrast, opportunity, or probe pressure is explicit. | A prompt account with its open question, species, scope and motivating grounds under `B.5.2.0`; reuse an adequate existing account. |
+| **2. Generate candidate hypotheses** | Develop candidates that could explain the prompt and look for serious rivals. | The candidates actually considered, including any limit from not identifying a serious rival. |
+| **3. Apply plausibility filters** | Compare candidates against explicit plausibility criteria. | A short rationale stating why each considered candidate remains live, is deferred or is rejected, and what comparison those grounds support. |
+| **4. Return the supported result** | Select a conjecture when the comparison warrants it; otherwise return the applicable outcome in §14.2. | A hypothesis-bearing `U.Episteme` with its prompt, selection rationale, any live rivals, supports, fragilities and allowed use when a conjecture is selected; otherwise the justified abort, defer or split outcome. |
 
 The loop is intentionally iterable. A selected prime hypothesis may later be replaced, narrowed, or reopened if deduction, probe work, or evidence reveals a better rival.
 
@@ -58,13 +58,13 @@ The filtering step is local and context-sensitive, but the criteria used **SHALL
 - **Falsifiability / probeability.** What implication, deduction or possible observation could discriminate the candidate from its rivals? Keep that question separate from whether a check is obtainable and worth performing now.
 - **Scope fit.** Is the candidate framed for the declared prompt scope rather than for an inflated or shifted target?
 
-No one filter is universally decisive. The pattern only requires that at least two filters be declared when a prime hypothesis is selected.
+Select the filters needed to judge explanatory adequacy and preference for this prompt and intended use. Make their grounds, any decisive comparison and unresolved trade-offs explicit.
 
 When a causal hypothesis cannot yet yield a discriminating implication because its mechanisms and rival accounts are unspecified, use C.28.CM to construct comparable causal models. Return their conditional consequences and unresolved premises to these plausibility filters. A useful hypothesis whose present question is already answered needs no additional model merely to remain a candidate.
 
 #### B.5.2:4.5 - Abductive Unfolding Structure Block
 
-When the question concerns possible continuations of abductive work and their conditions, use A.22.CGUS's ordinary branch. Open its formal branch only when the receiving use needs the structure's identity or replay; reuse of a hypothesis note alone does not require that branch.
+When the question concerns possible continuations of abductive work and their conditions, use A.22.CGUS's ordinary branch. Open its formal branch only when the receiving use depends on the unfolding organization's CGUS identity or membership; reuse of a hypothesis note alone does not require that branch.
 
 ```text
 AbductiveUnfoldingStructureBlock:
@@ -79,7 +79,7 @@ AbductiveUnfoldingStructureBlock:
   poolPolicyOrSelectionRef?:
 ```
 
-Use `unfoldingStructureRef` to designate the selected structure. Recover its constituents, obtaining relation occurrences, applied constraints and selection-use frame under A.22; qualify its loci and potential continuations under A.22.CGUS. Keep the describing record separate from that identity. Use `cueSetWithDownstreamPatternAlternativesRef` when the prompt still carries several possible patterns for the next question. Use `rivalHypothesisSetRef` before selecting a prime hypothesis. Use `evidenceReturnLoci[]` to say where later evidence, deduction, probe design, or assurance work can return; do not use those loci as evidence. Abductive plausibility comparison remains here. Use C.18 for archive or front claims, C.19 for live-pool policy, G.5 for a selector's selected-set declaration, or the direct comparison method when that distinct result is needed.
+Use `unfoldingStructureRef` to designate the selected structure. Recover its constituents, obtaining relation occurrences, applied constraints and selection-use frame under A.22; qualify its loci and potential continuations under A.22.CGUS. Keep the describing record separate from that identity. Use `cueSetWithDownstreamPatternAlternativesRef` when the prompt still carries several possible patterns for the next question. Use `rivalHypothesisSetRef` for the candidates actually compared and preserve the comparison limit when no serious rival was identified. Use `evidenceReturnLoci[]` to say where later evidence, deduction, probe design, or assurance work can return; do not use those loci as evidence. Abductive plausibility comparison remains here. Use C.18 for archive or front claims, C.19 for live-pool policy, G.5 for a selector's selected-set declaration, or the direct comparison method when that distinct result is needed.
 
 `AbductiveSearchUnfoldingStructure` is a local designation for an A.22.CGUS structure selected for an abductive-search question; it supplies no additional identity rule.
 

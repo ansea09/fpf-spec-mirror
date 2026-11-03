@@ -6,12 +6,12 @@ section_id: "C.2.2a:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__013_sota-echoing.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:11 — SoTA-Echoing"
-line_start: 53008
-line_end: 53022
+line_start: 53018
+line_end: 53032
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -50,12 +50,12 @@ The external comparisons below concern publication distinctions and scoped profi
 
 | Claim need | Practice contribution | Primary source | Alignment with `C.2.2a` | Adoption status |
 |---|---|---|---|---|
-| Complex technical state should be published through explicit views, viewpoints, and model distinctions rather than one implicit maturity word. | Contemporary architecture-description governance separates source architecture description, view, viewpoint, and correspondence evidence instead of letting one visible adjective stand in for the whole state. | ISO/IEC/IEEE 42010:2022 | `C.2.2a` keeps chart position, publication form and carrier distinct; an MVPK face is a form under E.17. A stage adjective cannot substitute for the required facet readings. | **Adopt.** |
-| Governance-relevant readiness requires context-local profiles and thresholds, not one global adjective. | Current governance and risk frameworks use explicit profiles, thresholds, and scoped conditions rather than one blanket readiness label. | NIST AI RMF 1.0 (2023) | `C.2.2a` adopts the threshold-publication discipline and rejects the popular shortcut where `ready`, `early`, or `mature` replaces explicit slot conditions. | **Adopt/Reject-popular-shortcut.** |
+| Distinguish the represented subject from its description and chosen description conventions. | The 2022 standard distinguishes architecture from an architecture description and specifies requirements for architecture-description frameworks, languages, viewpoints and model kinds. | [ISO/IEC/IEEE 42010:2022, official abstract](https://www.iso.org/standard/74393.html) | The analogous FPF question is which episteme a position claim concerns and how it is expressed. C.2.1, A.19 and E.24.PUB supply those distinctions here. | **Adapt, bounded comparison.** |
+| Select profile content for the named use. | AI RMF 1.0 §6 describes use-case profiles based on requirements, risk tolerance and resources, and comparison of Current and Target Profiles. It leaves profile templates open. | [NIST AI RMF 1.0 (2023), §6](https://airc.nist.gov/airmf-resources/airmf/6-sec-profile/) | This supplies a comparison for tailoring selected readings to the receiving use. FPF chart slots and any threshold predicate follow A.19 and the applicable facet rule. | **Adapt, bounded comparison.** |
 
-**Architecture-description contribution.** Keep the position claim and the form and carrier through which it is published distinguishable when their identity changes interpretation or use.
+**FPF architecture-description use.** Keep the position claim and the expression, selected form and carrier through which it is published distinguishable when their identity changes interpretation or use, under C.2.1, A.19 and E.24.PUB.
 
-**Characteristic-space and profile discipline.** The multi-facet chart is grounded in FPF `A.19` and the Characteristics defined in `C.2.3`–`C.2.5` and `C.2.7`; it is not imported from an external modeling language. Current governance practice contributes the narrower discipline of publishing scoped profiles and thresholds.
+**Characteristic-space and profile discipline.** The multi-facet chart is grounded in FPF `A.19` and the Characteristics defined in `C.2.3`–`C.2.5` and `C.2.7`. The cited NIST profile method supplies the narrower comparison of tailoring an account to a specific use.
 
-**Local stance.** The load-bearing architecture decision is FPF-native: governed language-state uses a multi-facet chart with explicit thresholds and the publication distinctions needed by the receiving use, not one maturity progression or one polished publication face. The external rows support the narrower view, publication, profile, and threshold disciplines stated above.
+**Local stance.** When the receiving use needs a chart position, use A.19 with the selected facets, any threshold actually used, and the publication distinctions that affect that use. The ISO and NIST contributions above are bounded comparisons; A.19 and the facet patterns govern this chart.
 

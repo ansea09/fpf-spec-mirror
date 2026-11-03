@@ -6,12 +6,12 @@ section_id: "B.2.2:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__013_sota-echoing.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
   - "B.2.2:10 — SoTA-Echoing"
-line_start: 44162
-line_end: 44169
+line_start: 44173
+line_end: 44180
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,7 +42,7 @@ keywords:
 
 ### B.2.2:10 - SoTA-Echoing
 
-A new coordinated whole can become the relevant operating object. FPF's construction here uses B.2 for whole reidentification, then applies complete A.1 and `U.System` recognition to the same candidate (B.2.2:4.1). B.2.2 keeps the direct facts with their subject patterns when the claim concerns changed operational closure, coordination, external commitments, or assurance at the level of the exact new whole proposed for and then recognized under `U.System`. Each assurance claim is tested against that exact recognized system instead of transferring component support.
+A new coordinated whole can become the relevant operating object. Within B.2's whole-reidentification comparison, B.2.2 applies complete A.1 and `U.System` recognition to the same proposed candidate (B.2.2:4.1). B.2.2 keeps the direct facts with their subject patterns when the claim concerns changed operational closure, coordination, external commitments, or assurance at the level of the exact new whole proposed for and then recognized under `U.System`. Component support contributes to assurance for that recognized system only where it applies to the result claim.
 
 A historical comparison clarifies the coordination question. [Maier (1998), *Architecting Principles for Systems-of-Systems*, §§1 and 2.6–2.7](https://asymmetricleadership.com/wp-content/uploads/2020/04/architectingprinciplesofsystemofsystemsMAIER.pdf) distinguishes systems-of-systems whose components retain operational and managerial independence. In his collaborative category, central management lacks coercive power to run the system; treating it as a directed system can lead to unwarranted assumptions about component cooperation. FPF adapts this distinction in B.2.2:4.3 by recovering the actual controller or distributed-coordination facts and naming any protocol or governance claim separately. Maier's taxonomy does not supply the A.1 or `U.System` recognition tests.
 

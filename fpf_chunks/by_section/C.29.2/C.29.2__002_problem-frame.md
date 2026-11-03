@@ -6,12 +6,12 @@ section_id: "C.29.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.2/C.29.2__002_problem-frame.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.29.2 — Computational Formulation"
   - "C.29.2:1 — Problem frame"
-line_start: 70437
-line_end: 70454
+line_start: 70447
+line_end: 70464
 dependencies:
   - "A.10"
   - "A.3.1"

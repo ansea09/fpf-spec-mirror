@@ -6,12 +6,12 @@ section_id: "C.43:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.43/C.43__006_archetypal-grounding.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.43 — Connect Observation, Choice and Action in Control"
   - "C.43:5 — Archetypal Grounding"
-line_start: 90610
-line_end: 90686
+line_start: 90620
+line_end: 90696
 dependencies:
   - "A.12"
   - "C.11"

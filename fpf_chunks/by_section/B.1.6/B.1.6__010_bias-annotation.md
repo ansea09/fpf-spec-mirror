@@ -6,16 +6,15 @@ section_id: "B.1.6:6.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__010_bias-annotation.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:6.1 — Bias-Annotation"
-line_start: 43274
-line_end: 43283
+line_start: 43286
+line_end: 43295
 dependencies:
   - "A.1"
   - "A.10"
-  - "A.13"
   - "A.14"
   - "A.15.1"
   - "A.15.2"
@@ -36,32 +35,18 @@ dependencies:
   - "C.27"
   - "C.29"
   - "E.17"
-  - "F.6"
   - "G.11"
   - "G.6"
 keywords:
-  - "C.16 measurement work/result episteme"
-  - "Scale/Unit"
-  - "aggregation work"
-  - "allocation/deduplication"
-  - "dated work set"
-  - "edition-pinned aggregation policy"
-  - "provenance"
-  - "resource Characteristic"
-  - "typed aggregation result"
-  - "typed input"
-  - "uncertainty"
-  - "work parthood/phase/overlap"
-  - "work-resource aggregation"
 ---
 
 ### B.1.6:6.1 - Bias-Annotation
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
-| Plan becomes measurement or aggregation | Expected resource use is presented as performed work or an obtained total. | Keep the plan, dated work, C.16 measurement result, aggregation work, and B.1.6 result distinct. |
-| Boundary or phase word carries accounting | A port, interface, team, device, epoch, or phase label is used as Work parthood, overlap, or accounting boundary. | Establish the exact delimitation, A.15.1 Work relation or non-Work carrier identity and phase relation, stock, window, and policy before aggregation. |
+| Plan becomes evidence of actual use | Expected resource use is presented as evidence of performed resource use. | Keep the plan, any claimed dated Work, the actual value-attribution basis and the B.1.6 result distinct. |
+| Boundary or phase word carries accounting | A port, interface, team, device, epoch or phase label is used as Work parthood, overlap or accounting boundary. | Establish the accounting scope, time basis and operative rule, together with any delimitation, Work relation, carrier identity/PhaseOf, crossing or stock relation on which the account depends. |
 | Untyped total hides conversion | Hours, energy, material, money, and data are added as one number. | Keep resource vectors typed until an explicit conversion relation or model is declared admissible under the applicable measurement or mathematical-lens pattern. |
-| Shared stock is double-counted | The same person, tool, inventory, meter, dataset, or port appears in multiple work slices. | Declare overlap and deduplication policy, or narrow admissible use. |
-| Efficiency becomes emergence | Reduced resource use is treated as a new whole or synergy without reidentification. | Use measurement and evidence-use patterns first; use `B.2` when whole identity remains the question; use `B.2.P` for unresolved emergence-family wording. |
+| A resource contribution is double-counted | The same resource use, stock portion or attributed contribution is counted more than once. | Establish the repeated contribution and apply a justified allocation or deduplication rule, or restrict the result to the supported account. |
+| Efficiency becomes proof of a new whole | Reduced resource use is treated as proof of a new whole. | Use measurement and evidence-use patterns for the actual gain; use `B.2` when whole identity remains the question and `B.2.P` for unresolved emergence-family wording. |
 

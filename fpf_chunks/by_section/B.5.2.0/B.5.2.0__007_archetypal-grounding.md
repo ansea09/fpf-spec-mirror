@@ -6,12 +6,12 @@ section_id: "B.5.2.0:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__007_archetypal-grounding.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:5 — Archetypal Grounding"
-line_start: 49982
-line_end: 49988
+line_start: 49997
+line_end: 50003
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -42,5 +42,5 @@ keywords:
 
 **Show (System).** A control observation may raise competing explanations of an apparent response improvement without being framed as an anomaly. The abductive result qualifies those explanations; choosing a discriminating probe is a separate C.11 decision.
 
-**Show (Episteme).** A promising mismatch can begin an opportunity-style abductive prompt rather than only a problem statement.
+**Show (Episteme).** Suppose a revised theory appears to account for two previously separate results. An opportunity-style prompt asks what could explain this apparent gain in explanatory reach.
 

@@ -6,12 +6,12 @@ section_id: "B.5.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__008_conformance-checklist.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
   - "B.5.4:7 — Conformance Checklist"
-line_start: 50461
-line_end: 50469
+line_start: 50471
+line_end: 50479
 dependencies:
   - "A.7.1"
   - "B.5"
@@ -25,7 +25,7 @@ keywords:
 - The concrete question determines which distinctions matter.
 - The interpretation identifies the participants, relations and applicable conditions in the encountered situation.
 - A consequence connects the interpretation to an explanation, construction or action.
-- A consequential change is interpreted using the retained relation and its conditions.
+- When a relevant condition changes, recover what follows from the relation in those changed conditions.
 - The domain account, prerequisites and permitted assistance are accessible to the intended reader.
 - An independent-recognition claim is supported by an appropriately uncued attempt.
 

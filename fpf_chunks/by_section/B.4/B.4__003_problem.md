@@ -6,12 +6,12 @@ section_id: "B.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__003_problem.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:2 — Problem"
-line_start: 45805
-line_end: 45812
+line_start: 45818
+line_end: 45825
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -29,6 +29,6 @@ keywords:
 When use, observation, and change are disconnected, three failures can follow:
 
 1. **Design-reality divergence:** The subject in use diverges from its design-time account. Models and assurance cases can continue to describe conditions that no longer hold.
-2. **Unused findings:** Observation produces valuable findings, but no explicit change path carries them into a revised design or renewed use. "Lessons learned" remain static documents.
+2. **Unused findings:** A finding that calls for a response has no usable path to the needed decision, change or renewed use. "Lessons learned" remain static documents.
 3. **Unexplained change:** Reactive patches have no stated observed basis, identity decision, or return-to-use condition. Hidden dependencies and unintended consequences accumulate.
 

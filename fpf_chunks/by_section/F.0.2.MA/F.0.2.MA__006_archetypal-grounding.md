@@ -6,12 +6,12 @@ section_id: "F.0.2.MA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.MA/F.0.2.MA__006_archetypal-grounding.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "F.0.2.MA — Synthesize and Allocate Method Contributions"
   - "F.0.2.MA:5 — Archetypal Grounding"
-line_start: 118410
-line_end: 118438
+line_start: 118420
+line_end: 118448
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

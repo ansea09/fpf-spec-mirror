@@ -6,12 +6,12 @@ section_id: "B.4:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__013_relations.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:11 — Relations"
-line_start: 45956
-line_end: 45966
+line_start: 45971
+line_end: 45981
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -33,5 +33,5 @@ keywords:
 
 #### B.4:11.1 - Pre-abductive seam compatibility
 
-For early language-state routing, Observe does not have to jump directly into anomaly or hypothesis forms. Observe may publish a `PreArticulationCuePack` and a `RoutedCueSet` through `B.4.1`; a selected route then enters Refine or another fitting pattern. A downstream loop consumes the routed cue publication directly or a later typed publication such as `U.AbductivePrompt`, as appropriate.
+During Observe, use `A.16.1` when a cue needs publication while its interpretation remains open, and `B.4.1` when possible continuations or a justified route choice need publication. Keep multiple routes live while selection is unresolved. A selected route can enter Refine or another fitting pattern when the receiving work calls for that continuation and its entry conditions hold. The receiving operation can use the routed cue publication directly or an available later typed publication such as `U.AbductivePrompt`, as appropriate.
 

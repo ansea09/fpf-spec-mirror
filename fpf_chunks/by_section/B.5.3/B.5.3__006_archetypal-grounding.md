@@ -6,12 +6,12 @@ section_id: "B.5.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__006_archetypal-grounding.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.3 — Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)"
   - "B.5.3:5 — Archetypal Grounding"
-line_start: 50335
-line_end: 50374
+line_start: 50345
+line_end: 50384
 dependencies:
   - "A.13"
   - "A.15"
@@ -46,9 +46,9 @@ keywords:
 
 A thermodynamics team models a heat engine.
 
-* In the cited thermodynamics source, "thermodynamic system" names the engine under concern together with the boundary and state variables relevant to that local claim. Recover the same System already used elsewhere; the expression does not automatically name a kind or assignment.
+* For "thermodynamic system", recover the entity selected by the team's model and its boundary and state-variable claims. If the claim concerns the already identified heat engine, retain that System identity.
 * "Macrostate" makes a source-local claim about a state description or characteristic bundle over, for example, pressure, volume, temperature, and particle amount. State the effective scheme and units directly; recover an F.17 cell and its basis relation when the receiving claim needs them, and add a durable term row only when reuse needs one.
-* "Control volume" may name a boundary or region relation. The claim must say which entity is bounded and which exchanges cross the boundary.
+* In [Reynolds and Colonna's control-volume formulation](https://www.cambridge.org/core/books/abs/thermodynamics/control-volume-energy-analysis/420AFDFE9F5A1CA8ACE69378F42A4F2A), "control volume" denotes a selected region of space. Identify its boundary and the matter and energy transfers across it considered by the model.
 * "Free-energy objective" may name an objective claim, characteristic, or selection criterion. The claim must say which FPF value the decision uses.
 * If the engine control System is assigned a locally defined heat-source-controller system-role kind, establish a separate obtaining occurrence of the declared `U.SystemRoleAssignment` species. The source-local meaning, classification, assignment, Work, claim scope, and time window remain separate.
 
@@ -68,16 +68,16 @@ The same expression can be reused in an architecture view, a requirements docume
 **Conformance Checklist**
 
 * **CC-B5.3.1 (Recover the FPF value used by the claim):** The result names the exact FPF value or relation used by the current claim before treating a preferred expression as reusable.
-* **CC-B5.3.2 (No kindhood by spelling):** A local expression, dotted name, table row, or diagram label does not become a U-kind. A needed durable kind requires its own E.24/E.24.UK and C.3 settlement from independent ontic and membership evidence.
+* **CC-B5.3.2 (No kindhood by spelling):** A local expression, dotted name, table row, or diagram label does not become a U-kind. Recover a needed kind's candidate domain and membership distinction under C.3; use E.24.UK for another durable public FPF U-kind.
 * **CC-B5.3.3 (Role boundary):** When *role* wording changes the claim, E.10.ROLE first recovers whether it means a local system-role kind, classification, assignment, participation, responsibility, or ordinary language. Each resulting claim then uses its own FPF pattern.
-* **CC-B5.3.4 (Relation and use boundary):** Claim an F.9 Bridge only when its exact endpoint cells and predicate make it obtain. State the receiving use, direction, applicable scope, tolerated loss, evidence or reliance basis, and return condition separately; shared spelling proves none of them.
-* **CC-B5.3.5 (Description boundary):** If the local expression appears in a requirement, diagram, dashboard, report, or publication, use the direct description and publication patterns to keep the described entity, description episteme, publication form, and carrier distinct.
+* **CC-B5.3.4 (Relation and use boundary):** Claim an F.9 Bridge only when its exact endpoint cells and predicate make it obtain. Judge the named use separately under F.9:4.2, retaining its direction, correspondence rule, loss tolerance, polarity, and any required same-use reliance or assurance result. State other applicability and return conditions when they qualify the use; shared spelling proves none of them.
+* **CC-B5.3.5 (Description boundary):** When the current claim depends on distinguishing the described entity, description episteme, publication form, or carrier, use the applicable description or publication pattern to recover that distinction.
 
 **Common Anti-Patterns and How to Avoid Them**
 
 | Anti-Pattern | What it looks like | Better FPF move |
 | :--- | :--- | :--- |
-| **Subtype explosion** | Every domain expression becomes a new root kind. | Keep the source-local claim as wording unless E.24.UK and C.3 establish a needed kind from independent ontic evidence. |
+| **Subtype explosion** | Every domain expression becomes a new root kind. | Keep the source-local wording when it suffices. Use C.3 for a needed kind and E.24.UK for a proposed durable public FPF U-kind. |
 | **Magic synonym** | A table says "sensor = component" and is treated as identity or permission. | Recover each exact local claim and the FPF value used. If two distinct cells must be related, test the actual F.9 relation and judge the named use separately. |
 | **Role-for-everything** | Evidence, status, local meaning, responsibility, and document use are all called roles. | Apply E.10.ROLE, then name the actual value or relation and use its direct pattern. A local system-role kind or assignment is only one possible result. |
 | **Description collapse** | A diagram label is treated as the entity, interface, or method itself. | Keep entity, description episteme, representation scheme, and publication form distinct. |

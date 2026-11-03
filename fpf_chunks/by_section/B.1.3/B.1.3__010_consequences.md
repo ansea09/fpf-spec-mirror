@@ -6,12 +6,12 @@ section_id: "B.1.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__010_consequences.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:9 — Consequences"
-line_start: 41897
-line_end: 41910
+line_start: 41895
+line_end: 41908
 dependencies:
   - "A.1"
   - "A.10"
@@ -52,6 +52,6 @@ keywords:
 
 **Trade‑offs**
 
-* **Mapping overhead.** Declaring mappings and **CL** costs time and makes interpretation differences inspectable.
+* **Mapping overhead.** Establishing correspondences and their actual limitations costs time and makes interpretation differences inspectable.
 * **No forced single score.** Heterogeneous support may remain separate. This makes some comparisons less compact but avoids fictitious assurance and preserves a useful bounded conclusion. B.2 remains specific to a genuinely unresolved whole-reidentification question.
 

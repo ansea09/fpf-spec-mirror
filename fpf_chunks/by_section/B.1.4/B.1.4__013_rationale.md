@@ -6,12 +6,12 @@ section_id: "B.1.4:8.1"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__013_rationale.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:8.1 — Rationale"
-line_start: 42119
-line_end: 42124
+line_start: 42133
+line_end: 42138
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -36,7 +36,7 @@ keywords:
 
 ### B.1.4:8.1 - Rationale
 
-`B.1.4` exists because contextual order and temporal phase aggregation are neither ordinary part-whole construction nor generic process talk. One enduring carrier with a stated identity rule can be considered through proper temporal restrictions; a selected relation set can be order-sensitive; and both cases need admissible aggregation without inventing a new holon kind. The pattern therefore keeps relation discipline explicit: `PhaseOf` and the carrier's identity rule for legitimate phase aggregation; C.2.1 identity and independently obtaining edition relations for distinct episteme history; A.15.1 relations for Work; ordered relation refs and `OrderSpec` for contextual aggregation; and separate patterns for resource, transformation, evidence, and whole reidentification.
+Order-sensitive and temporal aggregation combine already grounded inputs under a selected operation. One continuing carrier may be considered through proper phases; separate Work occurrences or observations may supply intervals for a different temporal aggregate; and an order structure may be the desired result or an input to a further calculation. Each case keeps its direct grounds: carrier identity and `PhaseOf` for proper phases, C.2.1 identity and obtaining edition relations for episteme history, A.15.1 for Work, C.27.TA for temporal facts, and the actual ordered relations, operation and conditions for the aggregate. Resource, transformation, evidence and whole-reidentification claims retain their own rules.
 
-Keep design-time possible order and run-time history in separate aggregates. If both are needed, make two records and state their correspondence.
+Distinguish design-time possible order from run-time history. When both contribute to one use, state the correspondence between their claims; keep one or several accounts according to what that use needs.
 

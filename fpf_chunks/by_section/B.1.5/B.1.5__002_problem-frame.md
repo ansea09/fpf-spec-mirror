@@ -6,12 +6,12 @@ section_id: "B.1.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__002_problem-frame.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:1 — Problem Frame"
-line_start: 42150
-line_end: 42195
+line_start: 42163
+line_end: 42208
 dependencies:
   - "A.1"
   - "A.15"
@@ -24,7 +24,6 @@ dependencies:
   - "A.3.1"
   - "A.3.2"
   - "A.6.0"
-  - "A.6.1"
   - "A.6.RCD"
   - "A.6.REL"
   - "B.1"
@@ -35,17 +34,13 @@ dependencies:
   - "B.3"
   - "C.13"
   - "C.2.1"
-  - "C.29"
   - "E.10"
-  - "E.20"
   - "E.24"
   - "E.24.PUB"
   - "E.24.UK"
   - "F.6"
   - "G.5"
-  - "U.MethodDescription"
   - "U.Signature"
-  - "U.Structure"
   - "U.Work"
 keywords:
   - "A.6.RCD claim disposition"
@@ -89,7 +84,7 @@ Typical moments:
 - If the current claim is a claim-bearing episteme that describes a method or relations among methods, use `A.3.2` and `C.2.1`.
 - If the current claim is intended work, use `A.15.2`.
 - If the current claim is a dated occurrence, use `A.15.1`.
-- If the current claim is structural component parthood, use `A.14`, `C.13`, and `B.3.5`.
+- If the current claim is structural component parthood, use `A.14`; use `C.13` for a needed construction account and `B.3.5` only when its additional assurance profile is elected.
 - If the current claim is only a method-family registry, selector, fallback relation, or useful organization of already identified methods without one whole-method construction, use `G.5` or select a `U.Structure` under `A.22`.
 
 #### B.1.5:1.1 - Composition Question And Object Boundaries

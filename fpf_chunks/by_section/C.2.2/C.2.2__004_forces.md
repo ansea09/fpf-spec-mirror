@@ -6,18 +6,19 @@ section_id: "C.2.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__004_forces.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:3 — Forces"
-line_start: 52547
-line_end: 52557
+line_start: 52561
+line_end: 52571
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.2.6"
   - "A.21"
   - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "B.1.3"
   - "B.3"
   - "B.3.3"
@@ -46,8 +47,8 @@ keywords:
   - "TA/VA/LA lanes"
   - "direct relation"
   - "evidence-bound"
-  - "non-aggregate synthesis"
   - "pathwise justification (PathId)"
+  - "qualitative synthesis"
   - "support dependencies"
   - "warrant"
   - "weakest-link limits"
@@ -59,7 +60,7 @@ keywords:
 | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | **Single number vs multi-tradition evidence** | People want one scalar ↔ evidence comes from heterogeneous practices (proofs, tests, telemetry, expert review).    |
 | **Rigor vs humility**                         | Claims need to be usable in decisions ↔ overconfident scores are dangerous and hard to unwind.                     |
-| **Formal vs empirical warrant**               | Proof can be decisive in a formal theory ↔ real-world deployment requires empirical adequacy and drift management. |
+| **Formal vs empirical warrant** | Proof can be decisive for its formal consequence ↔ reliance on a real-world claim needs its empirical applicability and any use-dependent currentness conditions. |
 | **Scope realism vs marketing scope** | Restricting a claim can remove an unsupported scope extension ↔ a smaller scope alone creates no new evidence or automatic R increase. |
 | **Reuse vs relation-specific loss**           | Reuse is valuable ↔ a changed scope, kind, plane, notation, local meaning, model-use basis, or evidence basis can introduce a different and separately governed loss. |
 | **Toolability vs expressive freedom**         | A validator needs crisp rules ↔ authors want flexible narratives and domain nuance.                                |

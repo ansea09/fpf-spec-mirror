@@ -6,16 +6,15 @@ section_id: "B.1.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__011_conformance-checklist.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:7 — Conformance Checklist"
-line_start: 43284
-line_end: 43297
+line_start: 43296
+line_end: 43308
 dependencies:
   - "A.1"
   - "A.10"
-  - "A.13"
   - "A.14"
   - "A.15.1"
   - "A.15.2"
@@ -36,36 +35,21 @@ dependencies:
   - "C.27"
   - "C.29"
   - "E.17"
-  - "F.6"
   - "G.11"
   - "G.6"
 keywords:
-  - "C.16 measurement work/result episteme"
-  - "Scale/Unit"
-  - "aggregation work"
-  - "allocation/deduplication"
-  - "dated work set"
-  - "edition-pinned aggregation policy"
-  - "provenance"
-  - "resource Characteristic"
-  - "typed aggregation result"
-  - "typed input"
-  - "uncertainty"
-  - "work parthood/phase/overlap"
-  - "work-resource aggregation"
 ---
 
 ### B.1.6:7 - Conformance Checklist
 
 | ID | Requirement |
 | --- | --- |
-| CC-B1.6-1 | Every resource component names its Characteristic, Scale/Unit, subject, time stance, C.16 measurement work/result episteme, and uncertainty/provenance when current. |
-| CC-B1.6-2 | The included dated Work occurrences, every A.15.1 Work-part relation used by the aggregation, every C.27.TA overlap fact it uses, and every separately used shared-stock relation are independently grounded; a separately used non-Work `PhaseOf` passes that carrier's direct identity rule. |
-| CC-B1.6-3 | The aggregation policy names inclusion, conversion, weighting, missing values, boundary allocation, uncertainty, overlap/deduplication, and output kind. |
+| CC-B1.6-1 | Every resource component names its Characteristic, Scale, applicable Unit, subject, time stance and attribution basis, with uncertainty relevant to use. A claimed performed measurement retains its C.16 Work and result; an estimated or derived value retains its sources, model and conditions. |
+| CC-B1.6-2 | Included accounting subjects and each relation used by the aggregation are independently grounded. Every included Work occurrence and used A.15.1 Work-part relation has its own basis; temporal overlap follows C.27.TA, resource-use or stock overlap follows its direct rule, and an included non-Work phase satisfies its carrier's identity and PhaseOf conditions. |
+| CC-B1.6-3 | The operative policy names inclusion and output kind, every additional rule needed to interpret or justify the result, and an edition when the result or use depends on it. |
 | CC-B1.6-4 | For dated aggregation Work, A.13 identifies the actual performer and A.15.1 independently admits the occurrence. F.6 is present only when the result must also identify the assignment under which that Work was performed. The Method, actual direct/A.6.1 bindings, resources, and temporal extent remain separate. |
-| CC-B1.6-5 | The B.1.6 aggregation result and the distinct C.2.1 result episteme are recoverable; neither is a ledger row or generic result field. |
-| CC-B1.6-6 | A.10/G.6 provenance and G.11 currentness remain separate from measurement and aggregation results. |
+| CC-B1.6-5 | The typed aggregation result and its statement are recoverable. When a claim-bearing result episteme is needed, its claim content, exact EntityOfConcern and effective ReferenceScheme are identified through C.2.1. The resource value, claim content, episteme and expression remain distinct. |
+| CC-B1.6-6 | Sources and derivations needed for the result are recoverable. Any required A.10/G.6 provenance account or G.11 currentness result remains separate from the measurement and aggregation results. |
 | CC-B1.6-7 | Planned values and A.15.5 resource readiness are not presented as measured performed-work aggregation. |
-| CC-B1.6-8 | A ledger, policy, profile, clause, citation, dashboard, or graph edge establishes none of work, participation, measurement, part/overlap, aggregation, or result identity. |
-| CC-B1.6-9 | Any yield, efficiency, comparison, assurance, transformation, whole-reidentification, or decision claim names its exact subject pattern. |
+| CC-B1.6-9 | Any yield, efficiency, comparison, assurance, transformation, whole-reidentification or decision claim names its applicable subject pattern. |
 

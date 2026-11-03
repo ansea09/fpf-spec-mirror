@@ -6,18 +6,19 @@ section_id: "C.2.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__011_rationale.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:10 — Rationale"
-line_start: 52794
-line_end: 52805
+line_start: 52804
+line_end: 52815
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.2.6"
   - "A.21"
   - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "B.1.3"
   - "B.3"
   - "B.3.3"
@@ -46,8 +47,8 @@ keywords:
   - "TA/VA/LA lanes"
   - "direct relation"
   - "evidence-bound"
-  - "non-aggregate synthesis"
   - "pathwise justification (PathId)"
+  - "qualitative synthesis"
   - "support dependencies"
   - "warrant"
   - "weakest-link limits"
@@ -59,7 +60,7 @@ The triad separates expression, applicability and warrant so that improving one 
 
 * **G states applicability.** It states where the claim is asserted to apply. If G is implicit, teams argue about “what was meant” instead of updating scope.
 * **F describes expression properties.** It identifies what the claim's terms, semantics and inferential relations make available for interpretation, scrutiny and reuse. If these properties are conflated with R, formalisation becomes a rhetorical substitute for support.
-* **R carries warrant.** It describes support for this exact claim and use under a named meaning and scale. Its inputs must not erase the distinction between a necessary premise, complementary evidence, and a credible contrary result.
+* **R carries warrant.** It describes support for this exact claim and use under a stated meaning and any scale used. Its inputs must not erase the distinction between a necessary premise, complementary evidence, and a credible contrary result.
 
 Each changed value has its own rule. Route a traversed relation's declared congruence loss into **R**; change the claim's expression or scope only through the applicable expression or scope operation. Re-establish warrant for the receiving use instead of carrying it forward without a basis.
 

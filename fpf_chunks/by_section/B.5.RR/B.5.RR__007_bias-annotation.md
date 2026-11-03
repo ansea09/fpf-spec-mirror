@@ -6,12 +6,12 @@ section_id: "B.5.RR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.RR/B.5.RR__007_bias-annotation.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.RR — Revise Reasoning After a Premise or Question Changes"
   - "B.5.RR:6 — Bias-Annotation"
-line_start: 48394
-line_end: 48399
+line_start: 48409
+line_end: 48414
 dependencies:
   - "B.5"
   - "B.5.MPC.R"

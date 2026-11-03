@@ -6,12 +6,12 @@ section_id: "C.32.MWA.PP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MWA.PP/C.32.MWA.PP__007_archetypal-grounding.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.32.MWA.PP — Construct and Compare Method Performance and Provision Arrangements"
   - "C.32.MWA.PP:5 — Archetypal Grounding"
-line_start: 79277
-line_end: 79456
+line_start: 79287
+line_end: 79466
 dependencies:
   - "A.3.1.MI"
   - "A.3.1.QM"

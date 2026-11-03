@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__005_solution.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:4 — Solution"
-line_start: 42601
-line_end: 42659
+line_start: 42603
+line_end: 42661
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"
@@ -60,13 +60,13 @@ These moves need not end in one tree. Nor does following several connections est
 
 At the chosen moment, identify what must be coordinated and what can vary. Keep prior-result requirements: an operation can be a constituent of an ongoing whole and still have to wait for another constituent's output.
 
-Change one condition of the encompassing work in thought or in a suitable trial. Determine what must change in the constituent action. Then consider a limitation of that action and determine which encompassing performance it prevents or restricts. Use available knowledge when it answers these questions; a new experiment is not automatically required.
+Change one relevant condition of the encompassing work in thought or in a suitable trial. Determine whether and how the constituent action or its coordination must change. Then consider a relevant limitation of that action and determine whether and how it restricts the encompassing performance. Use available knowledge when it answers these questions; a new experiment is not automatically required.
 
 Where control is involved, first check whether the feedback concerns the response and interval being judged. Delayed or misleading feedback can make adequate execution look wrong. Then distinguish failure to follow the reference from accurate execution of a reference that is no longer feasible or useful. A reference may remain in force between updates; generating or revising it is separate work. C.30.LCA helps recover the control relations when those are unclear. Claims about dynamics, feasible response or timing need their subject-specific basis; a conflict requiring architecture change can continue through C.30.ILC.
 
 #### B.1.5.EW:4.5 - Use the explanation to continue or correct the work
 
-Choose the correction that the recovered connection supports:
+Where correction is needed, choose the correction that the recovered connection supports:
 
 | What prevents the encompassing performance? | Useful continuation |
 | --- | --- |

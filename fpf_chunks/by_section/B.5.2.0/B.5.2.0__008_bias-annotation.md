@@ -6,12 +6,12 @@ section_id: "B.5.2.0:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__008_bias-annotation.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:6 — Bias-Annotation"
-line_start: 49989
-line_end: 49991
+line_start: 50004
+line_end: 50006
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -38,5 +38,5 @@ keywords:
 ---
 
 ### B.5.2.0:6 - Bias-Annotation
-The pattern broadens the entry form to abduction, but still keeps it typed and auditable.
+The pattern admits several prompt species while keeping the explanatory question and its motivating grounds explicit.
 

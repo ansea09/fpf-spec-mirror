@@ -6,12 +6,12 @@ section_id: "B.1.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__008_conformance-checklist.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:7 — Conformance Checklist"
-line_start: 42482
-line_end: 42503
+line_start: 42484
+line_end: 42505
 dependencies:
   - "A.1"
   - "A.15"
@@ -24,7 +24,6 @@ dependencies:
   - "A.3.1"
   - "A.3.2"
   - "A.6.0"
-  - "A.6.1"
   - "A.6.RCD"
   - "A.6.REL"
   - "B.1"
@@ -35,17 +34,13 @@ dependencies:
   - "B.3"
   - "C.13"
   - "C.2.1"
-  - "C.29"
   - "E.10"
-  - "E.20"
   - "E.24"
   - "E.24.PUB"
   - "E.24.UK"
   - "F.6"
   - "G.5"
-  - "U.MethodDescription"
   - "U.Signature"
-  - "U.Structure"
   - "U.Work"
 keywords:
   - "A.6.RCD claim disposition"
@@ -72,11 +67,11 @@ keywords:
 | `CC-B1.5-4` | Every serial, parallel, guarded, iterative, fallback, adapter, substitution, or typed-join use states a concrete decidable claim and selects A.6.RCD's lightest sufficient disposition. A relation kind and occurrence are required only after independent admission for a named occurrence-semantics use. |
 | `CC-B1.5-5` | The already identified candidate Method states whole-level participant meanings, applicability, preconditions, intended effects or preserved conditions, invariants, bounds, accepted inputs and outputs, failure and stop conditions, interface decisions, and reidentification rule before its composite qualification is accepted. |
 | `CC-B1.5-6` | Exposed, forwarded, and encapsulated interactions are distinguished because changing the reusable action or admissible boundary changes Method identity. A named caller system, planner system, auditor, substituting-method selection use, or assurance use determines whether the boundary account must be explicit or published; reliance does not create its identity effect. |
-| `CC-B1.5-7` | Exact `U.MethodDescription` edition, independently identified boundary-account form, particular conforming expression and physical or digital carrier, bounded-use- and audience-declaration epistemes, separate publication Work, five-participant `EpistemePublicationRelation` occurrence, raw audience, and designation content remain distinct. `PublicationExpressionRelation` and `PublicationExpressionBearingRelation` state the exact supporting links, while `PublicationFormConformanceRelation` and the shared expression witness preserve the form-mediated claims; a system performs the Work, while the publication occurrence makes the edition available. |
-| `CC-B1.5-8` | A load-bearing A.22 selection names the selecting system, selection Method, dated Work and bindings, any persisted result episteme, and the structure's exact constituents, independently admitted obtaining relation occurrences, constraints, and use frame. A one-off hypothetical comparison asserts no selected `U.Structure`. |
+| `CC-B1.5-7` | A boundary account states the interactions and conditions needed by its receiver. For publication, distinguish the MethodDescription edition, audience declaration, bounded-use declaration, expression and carrier; add a reusable form when its conformance matters. E.24.PUB supplies expression/bearing predicates and availability identity when needed. Publication Work and designation content remain separate claims. |
+| `CC-B1.5-8` | A selected A.22 structure has its four identity discriminators: constituents, obtaining relation occurrences, applied constraints, and use frame. Dated selection Work, an operation binding, or a persisted result episteme has separate grounds when that claim is needed. A sufficient local comparison requires no selected `U.Structure`. |
 | `CC-B1.5-9` | When the composite method needs a separate higher-level reidentification or emergence explanation, use `B.2` in addition to the explicit B.1.5 method reidentification rule. |
 | `CC-B1.5-10` | A temporal slice, episode, event-log segment, telemetry interval, engine stroke, detector component, or `U.WorkPlan` item is neither a Work part nor a Method part by appearance. Keep each with its subject pattern. A genuine Work part enacts a submethod only through a separate exact A.15.1 `enactsMethod` occurrence; whole Work may enact the whole Method without mirrored Work parts. |
-| `CC-B1.5-11` | A receiving use that needs order aggregation names B.1.4's exact ordered relation designations, `OrderSpec`, and join or independence conditions; the aggregation record or notation does not enter method identity or make relations obtain. |
+| `CC-B1.5-11` | A needed order aggregation preserves B.1.4's selected inputs, combining rule, actual order relations and required join or independence conditions. The `OrderSpec` may be stated in ordinary prose; use a separate record when the receiver needs it; neither adds Method identity nor establishes relation facts. |
 | `CC-B1.5-12` | Typed joins name the upstream intended-result meaning and downstream precondition, plus an adapter or governed correspondence when those meanings differ, and a failure route; signatures do not establish the holder's actual ability. |
 | `CC-B1.5-13` | Dated Work, performing Systems, separately declared assignment species, actual assignment occurrences, obtaining F.6 attributions, resource use and costs, yields, dissipation, telemetry, results, and production, together with separate evidence-, publication-use-, evaluation-, delivery-, and acceptance claims, use their subject patterns and do not become Method identity fields. |
 | `CC-B1.5-14` | Assurance hooks name cutsets, fragile joins, adapter points, CL-sensitive mappings, and the exact envelope or claim scope consumed by B.3; no performance or quality claim follows from composition alone. |

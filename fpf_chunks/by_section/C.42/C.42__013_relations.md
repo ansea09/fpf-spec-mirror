@@ -6,12 +6,12 @@ section_id: "C.42:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.42/C.42__013_relations.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.42 — Reduce Avoidable Work While Preserving the Needed Result"
   - "C.42:12 — Relations"
-line_start: 90323
-line_end: 90333
+line_start: 90333
+line_end: 90343
 dependencies:
   - "A.11.OP"
   - "A.3.1.MI"

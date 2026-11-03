@@ -6,12 +6,12 @@ section_id: "B.5.FM:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__002_problem-frame.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:1 — Problem frame"
-line_start: 48461
-line_end: 48468
+line_start: 48476
+line_end: 48483
 dependencies:
   - "A.3.3"
   - "A.6.3.RT"

@@ -6,12 +6,12 @@ section_id: "C.13:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__006_solution.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:4 — Solution"
-line_start: 58383
-line_end: 58450
+line_start: 58393
+line_end: 58460
 dependencies:
   - "A.1"
   - "A.14"
@@ -91,7 +91,7 @@ The readable label and the trace answer different questions. The label states wh
 
 #### C.13:4.4 - Structural CT2R Typing-Grounding Use
 
-When a target kind or logical representation must reuse both a `Γ_m` construction account and an independently grounded Working-Model relation, use `StructuralCT2RTypingGroundingUnfoldingStructureBlock` from `B.3.5` or an equivalent `A.22.CGUS` specialization. The block describes an independently selected `A.22` structure; any CGUS qualification is established separately. C.13 supplies the subject-side construction relations and states which mereological structure the target preserves or loses. Recover any required bridge, kind intent, proof, empirical evidence and admissible reuse under their governing patterns. Apply `A.7.1` when an inadequate working account must be diagnosed against the subject construction.
+When a target kind or logical representation must reuse both a `Γ_m` construction account and an independently grounded Working-Model relation, explain their correspondence and which mereological structure the target preserves or loses. The `StructuralCT2RTypingGroundingUnfoldingStructureBlock` from `B.3.5` is an optional way to record that account. Use `A.22` when the receiving question needs a selected structure and `A.22.CGUS` when potential continuations and their conditions are at issue. C.13 supplies the subject-side construction relations. Recover any required bridge, kind intent, proof, empirical evidence and admissible reuse under their governing patterns. Apply `A.7.1` when an inadequate working account must be diagnosed against the subject construction.
 
 Use this split especially when a readable relation label such as ComponentOf, a collection's belongs-to predicate, AspectOf, ConstituentOf, or RepresentationOf is being reused beyond what its sentence warrants. The label does not by itself prove constructive grounding or a wider structural projection. Name the construction trace and Working-Model relation, the target kind or logical representation, any bridge used, the structure preserved and collapsed, and the proof or evidence relation required by the stronger claim. If the evidence instead diagnoses a mismatch that requires revision of the working ontology, apply `A.7.1`.
 

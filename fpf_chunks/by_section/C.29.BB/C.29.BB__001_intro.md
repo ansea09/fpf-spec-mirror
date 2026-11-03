@@ -6,12 +6,12 @@ section_id: "C.29.BB:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29.BB/C.29.BB__001_intro.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.29.BB — Construct a Balance across a Boundary"
   - "C.29.BB:intro — Intro"
-line_start: 71170
-line_end: 71175
+line_start: 71180
+line_end: 71185
 dependencies:
   - "A.3.3.TR"
   - "C.11.DUA"

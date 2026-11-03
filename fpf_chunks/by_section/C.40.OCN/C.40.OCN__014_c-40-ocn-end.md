@@ -6,12 +6,12 @@ section_id: "C.40.OCN:End"
 section_title: "C.40.OCN:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__014_c-40-ocn-end.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:End — C.40.OCN:End"
-line_start: 86496
-line_end: 86497
+line_start: 86506
+line_end: 86507
 dependencies:
   - "A.15.9"
   - "C.11"

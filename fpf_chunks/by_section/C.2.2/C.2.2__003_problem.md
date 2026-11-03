@@ -6,18 +6,19 @@ section_id: "C.2.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__003_problem.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:2 — Problem"
-line_start: 52538
-line_end: 52546
+line_start: 52552
+line_end: 52560
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.2.6"
   - "A.21"
   - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "B.1.3"
   - "B.3"
   - "B.3.3"
@@ -46,8 +47,8 @@ keywords:
   - "TA/VA/LA lanes"
   - "direct relation"
   - "evidence-bound"
-  - "non-aggregate synthesis"
   - "pathwise justification (PathId)"
+  - "qualitative synthesis"
   - "support dependencies"
   - "warrant"
   - "weakest-link limits"
@@ -57,8 +58,8 @@ keywords:
 
 FPF needs a reliability coordinate that is:
 
-1. **Auditable.** A reader can trace the supported conclusion to its formal or empirical basis and see the effect of actual reuse limitations.
-2. **Composable.** Support can be combined under its warranted meanings and dependencies without illegal scale arithmetic; where no aggregate is justified, the separate contributions remain usable.
+1. **Auditable.** A reader can recover the grounds for the supported conclusion, the argument connecting them to this claim and use, and the effect of actual reuse limitations.
+2. **Composable.** Support can be combined under its warranted meanings and dependencies without illegal scale arithmetic; where no numerical aggregate is justified, the separate contributions remain usable.
 3. **Orthogonal.** R is not conflated with F (expression) or G (scope).
 4. **Relation-aware.** Any loss declared by an actual scope-translation, kind, plane, notation, source-local, model-use, or evidence-reuse relation is explicit and affects **R only**.
 

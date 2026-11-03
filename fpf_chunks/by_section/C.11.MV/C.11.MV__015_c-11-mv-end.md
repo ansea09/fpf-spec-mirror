@@ -6,12 +6,12 @@ section_id: "C.11.MV:End"
 section_title: "C.11.MV:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__015_c-11-mv-end.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:End — C.11.MV:End"
-line_start: 58336
-line_end: 58337
+line_start: 58346
+line_end: 58347
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"

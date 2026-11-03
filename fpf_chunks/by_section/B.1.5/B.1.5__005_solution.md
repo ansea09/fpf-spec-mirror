@@ -6,11 +6,11 @@ section_id: "B.1.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__005_solution.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:4 — Solution"
-line_start: 42221
+line_start: 42234
 line_end: 42421
 dependencies:
   - "A.1"
@@ -24,7 +24,6 @@ dependencies:
   - "A.3.1"
   - "A.3.2"
   - "A.6.0"
-  - "A.6.1"
   - "A.6.RCD"
   - "A.6.REL"
   - "B.1"
@@ -35,17 +34,13 @@ dependencies:
   - "B.3"
   - "C.13"
   - "C.2.1"
-  - "C.29"
   - "E.10"
-  - "E.20"
   - "E.24"
   - "E.24.PUB"
   - "E.24.UK"
   - "F.6"
   - "G.5"
-  - "U.MethodDescription"
   - "U.Signature"
-  - "U.Structure"
   - "U.Work"
 keywords:
   - "A.6.RCD claim disposition"
@@ -98,9 +93,9 @@ Composite-method qualification:
     what keeps this whole the same and what identifies another method
   enactment boundary:
     exact U.Work may enact the method only through A.15.1 enactsMethod
-  lower disposition if construction is incomplete:
-    selected U.Structure | U.MethodDescription | U.WorkPlan | U.Work |
-    G.5 selector | lens | A.15.4 appearance-based reliance repair request
+  other independently supported results if composition is incomplete:
+    for example, a description, plan, selected structure, selector result, or Work claim
+    use A.15.4 when reliance on appearance needs repair
 ```
 
 #### B.1.5:4.1 - Recover Parts Before Composition
@@ -142,12 +137,12 @@ State each whole-forming fact in ordinary domain language before choosing its re
 | iteration | which part Method repeats, what establishes another iteration, and the exact stop or failure condition |
 | refinement or substitution | which Method may replace which other Method, for which use, and which whole semantics, joins, and exposed interactions must remain invariant |
 | fallback or dispatch | which primary and alternative Methods are involved, the exact trigger for using the alternative, and whether the statement belongs to this whole or only to a selector registry |
-| adapter or typed join | which exact adapter `U.Method`, upstream result meaning, downstream precondition, conversion condition, and failure route make the join admissible |
+| adapter or typed join | which upstream result meaning satisfies which downstream precondition, which adapter Method or governed correspondence is needed when those meanings differ, and which condition or failure route governs continuation |
 
 Before using a first–then or vertical list as Method architecture, make both checks.
 
 1. **Preserve real order.** Ask what must finish or become true before another Method can start or continue. Name the Methods, the required result or condition, any join or adapter, and the failure or stop route. Keep a genuine first–then result as an unfolding or order claim; its position does not make it a subject level.
-2. **Test simultaneous contribution.** Choose one bounded Work situation and ask whether several Methods contribute during it without all of them falling into one before-after chain. One Work whole may enact several Methods through separate A.15.1 relations. Alternatively, separately identified Work occurrences may overlap while enacting different Methods. State the Work identities and relations that actually obtain. Co-occurrence alone establishes no Method part, composite Method, Work part, or level.
+2. **Test simultaneous contribution.** Choose a representative working situation and ask whether several Methods contribute without forming one before-after chain. They may be enacted in one Work whole or in overlapping Work occurrences. When asserting particular dated occurrences, identify those Work individuals and their obtaining A.15.1 enactment relations. Co-occurrence alone establishes no Method part, composite Method, Work part, or level.
 
 Both answers may be true. A Method can contain a real ordered segment while other Methods contribute during the same broader Work. The source's reading order and the fact that several Methods are used together decide neither which Methods are parts of one whole nor whether any level exists.
 
@@ -155,7 +150,7 @@ Then use A.6.RCD. Reuse an existing direct predicate when one already governs th
 
 Keep definition, signature, kind, and edition distinct. A predicate-definition episteme may independently satisfy ordinary A.6.0 `U.Signature` membership. It is not a `RelationSignature`; that specialization opens only for an admitted relation kind. Changed predicate-definition or signature content identifies another episteme under C.2.1. Treat and connect the two epistemes as editions through `EpistemeEditionRelation` only when C.2.1's historical-continuation test passes: exact source use and the applicable continuation rule identify which claim, EntityOfConcern, and scheme features must be preserved or may deliberately change, and the current facts satisfy that rule. Revision or supersession Work, Method, provenance, and change facts are evidence for this test; no label establishes continuity. Otherwise the later episteme is a non-continuing replacement. The changed content triggers review of dependent claims; it does not by itself prove another relation kind or relation occurrence. If a relation kind is independently admitted, its direct pattern or declaration defines applicability and occurrence identity, while current case facts establish obtaining, continuation, or cessation where relevant.
 
-When several admitted order occurrences must be reviewed together, use B.1.4's `OrderSpec`, exact ordered-relation designations, and join or independence conditions in a separate bounded-use aggregation record. The record and optional `Gamma_ctx` notation neither participate in Method identity nor make any relation obtain. When the order statements remain local claims rather than admitted relation occurrences, compare those claim contents directly and do not pretend that an `OrderSpec` has occurrences to aggregate.
+When the receiving use needs to combine order information, apply B.1.4 to the selected inputs, actual combining rule, and required order, join or independence conditions. State the `OrderSpec`, the required ordering over the identified positions, in adequate prose or the representation consumed by the receiver; identify each claimed relation occurrence under its own predicate. An adequate explanation or existing account may suffice. Materialize a separate aggregation record only when the receiver needs it. The account and optional notation describe the composition facts; they add no Method identity discriminator and make no relation obtain.
 
 The composite-method qualification holds only when the candidate Method also has its own reusable semantic action, generic participant meanings, applicability, preconditions, intended effects or preserved conditions, invariants, bounds, accepted inputs and outputs, failure and stop conditions, and interface decisions. Its identity includes the exact part Methods and construction architecture on which those semantics depend. Cite an effective reference scheme or claim scope only when its variation changes a Method meaning or the use of a claim about that Method; neither is a generic container.
 
@@ -165,9 +160,9 @@ State the reidentification rule with the qualification. The same exact candidate
 
 Source cues such as `SerialStepOf`, `ParallelFactorOf`, guarded choice, iteration, fallback, adapter, and typed join call attention to possible whole-forming claims. They are not admission evidence, they need not become relation kinds, they are not A.14 component parthood, and they do not make `methodPartOf` obtain by themselves.
 
-Use A.14, C.13, and B.3.5 when the claim is about structural parts of a holon. Use B.1.5 when the claim is about how reusable ways of doing construct a larger reusable way of doing. The same project may need both, but the relation occurrences and truth conditions remain separate.
+Use A.14 for structural parts of a holon, C.13 for their construction account when needed, and B.3.5 when the additional assurance profile is elected. Use B.1.5 for the contribution of reusable ways of doing to a larger reusable way. A project may need both claims; each retains its own participants and truth conditions.
 
-Use B.1.4 when a receiving use needs an inspectable order aggregation, partial-order test, or join/independence account. Its `OrderSpec` and optional notation describe already recovered order occurrences; B.1.5 still decides whether those methods and relations construct one composite `U.Method`.
+B.1.4 can supply an order aggregation, partial-order test, or join/independence account. Recover the selected inputs and combining rule, including the required ordering specified by `OrderSpec`; B.1.5 still decides whether the Methods and their construction facts constitute one composite `U.Method`.
 
 When the current claim is a proper temporal restriction of one unchanged non-Work carrier, apply that subject's direct identity rule and A.14/B.1.4 rather than B.1.5. For MethodDescription history, compare the C.2.1 identity triples and assert `EpistemeEditionRelation` only when its historical-continuation predicate obtains. For Work intervals, episodes, performed parts, retries, resumptions, or later occurrences, apply A.15.1's exact relations; generic `PhaseOf` is not their substitute. A temporal boundary becomes a B.2-family question only when a separate whole-reidentification, closure, or supervision claim remains. Order, temporal restriction, episteme edition, Work segmentation, structural parthood, method composition, and whole reidentification remain different claims even when one source diagram uses one line for all of them.
 
@@ -183,40 +178,27 @@ An exposure decision contributes to Method identity whenever changing it changes
 
 ##### B.1.5:4.4.1 - Composite-Method Boundary Account and Publication Form
 
-When a named receiver must reuse the boundary account, first identify one exact claim-bearing `U.MethodDescription` episteme under A.3.2 and C.2.1. Its claim content concerns the exact composite Method and states the exposed, forwarded, and encapsulated interactions. Then keep the publication-side objects and designation content below separate.
+State the boundary decisions in clear sentences: what a caller may request, what it must supply, what result or preserved condition it may rely on, and what stops the interaction. Name any needed adapter, order condition, bound, or assurance limit. Explain an encapsulated interaction when a plausible caller could otherwise rely on it. This can complete an internal boundary account.
 
-In B.1.5, *composite-Method boundary account* is the local Plain phrase for this MethodDescription claim content. A *boundary-account form* is the separately identified reusable arrangement used to present that content when publication is load-bearing. Neither phrase creates a new kind or acronym.
+When a receiver needs the published account, say which MethodDescription edition is available, to which declared audience, for which bounded use, through which expression and carrier. A.3.2 and C.2.1 identify the description; E.24.PUB supplies the publication relations and their progressive explicitness. Name a reusable *boundary-account form* only when its arrangement rules matter. The form, its conforming expression and the carrier retain separate identities.
 
-1. A bounded-use-declaration episteme states the operations or decisions supported by this publication, the conditions of that use, and the excluded stronger use.
-2. An audience-declaration episteme states the audience criterion. The actual audience consists of entities admitted by that declaration; those entities are not substituted for the declaration episteme as a publication-relation participant.
-3. Identify the reusable boundary-account form independently by its rules, then identify the particular expression that follows those rules and expresses the selected description edition for the bounded use. E.24.PUB `PublicationFormExpressionRelation(description edition, boundary-account form, bounded-use declaration)` is the corresponding form-mediated claim; that expression is its witness.
-4. Identify a paper card, poster, page, file, or screen independently under its physical or digital identity rule. `PublicationExpressionBearingRelation(carrier, expression)` states that its actual state or realization yields that exact expression. When the expression conforms to the boundary-account form, it also witnesses `PublicationFormBearingRelation(carrier, boundary-account form)`. Use the same expression witness for both form-mediated claims when establishing availability.
-5. An actual system performs separate rendering, printing, uploading, indexing, or access-granting publication Work. That Work may establish or restore availability, but it is not the publication occurrence or one of its participants.
-6. One `EpistemePublicationRelation` occurrence, with the exact five participants `<description edition, audience-declaration episteme, bounded-use-declaration episteme, particular expression, carrier>`, makes the edition available to the declared audience for the declared use throughout its maximal continuous interval of availability.
-7. Names, labels, and links that designate the Method or description edition remain separately governed designation content. Neither the form nor the carrier establishes designation merely by displaying similar words.
+For disputed availability or publication identity, recover E.24.PUB's five participants `<description edition, audience declaration, bounded-use declaration, expression, carrier>`, its supporting expression and bearing relations, and the maximal continuous availability interval. If form conformance is used, the same expression must support the form-mediated claims. Publication activity is separate; identify dated publication Work only when that occurrence is asserted. Names and links retain their own designation meaning.
 
-```text
-Reader-facing boundary-account prompts:
-  described Method, exact MethodDescription edition, and effective reference scheme when its variation changes the Method meaning or claim use
-  named audience criterion and bounded use, including any excluded stronger use, when publication is load-bearing
-  exposed and forwarded interactions
-  accepted input or call meaning
-  preconditions and intended result or preserved condition
-  failure and stop routes
-  invariants
-  exact B.1.4 order aggregation or OrderSpec only when the receiver relies on its order, join, or independence limits
-  applicability, bounds, and quality or assurance envelope only when they limit the interaction on which the receiver relies
-  adapter, typed-join, and assurance references only when the receiver uses them
-  plain rationale for each encapsulated interaction on which misuse is likely
-```
+Optional prompts for the receiving account:
 
-These prompts organize presentation; they are not direct-relation `SlotSpec`s, relation participants, Method parts, or a schema that creates a Method. None supplies the world-side `methodPartOf` facts or any other whole-forming claim. For a lightweight internal use, state the boundary decisions in clear sentences and stop. Use the publication branch only when a receiver needs that published account.
+- the described Method and the description edition used;
+- exposed and forwarded interactions, accepted input meanings, preconditions, intended results or preserved conditions;
+- required invariants, failure routes and stops;
+- order or join conditions, adapters and applicable bounds that affect the receiver's use;
+- the audience and bounded use when the account is published.
+
+Use an existing adequate account without adding a form. These presentation prompts supply no Method parts or composition facts.
 
 #### B.1.5:4.5 - Keep Method Qualification And Work Occurrence Separate
 
 B.1.5 evaluates and grounds the composite-method qualification of an exact `U.Method` already identified under A.3.1. A separately constituted `U.MethodDescription` may state that composition claim. Neither object creates performed Work.
 
-One dated `U.Work` occurrence enacts one exact `U.Method` only when the A.15.1 method-enactment relation obtains. Recover each exact actual performer through A.13; A.15.1 then independently identifies the Work, time, containing System, and enacted Method. F.6 enters only when the Method-enactment account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work and enactment intact. The performing System acts under the recovered relations. An assertion or occurrence description may cite those facts and the MethodDescription used.
+One dated `U.Work` occurrence enacts one exact `U.Method` only when the A.15.1 method-enactment relation obtains. Recover each exact actual performer through A.13; A.15.1 then independently identifies the Work, time, containing System, and enacted Method. F.6 enters only when the Method-enactment account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 alone leaves independently grounded Work and enactment intact. If the same finding invalidates a premise consumed by A.13 or A.15.1 admission, recheck that premise and its dependent conclusions while preserving independently grounded history and relations. The performing System acts under the recovered relations. An assertion or occurrence description may cite those facts and the MethodDescription used.
 
 Parameter bindings, affected referents, resource use, telemetry, retries, results, actual transformations, production, evidence, evaluation, delivery, and acceptance remain separate objects and direct relations under their own governors. They do not become method parts, method identity fields, or generic Work outcomes merely because a report places them beside the Work.
 
@@ -236,8 +218,8 @@ For an ordinary working question—what larger work is being done through this a
 
 B.1.5 has three common use positions, but they are positions in use, not U-kinds:
 
-- **Planning or description-side use.** A planner system performing planning Work recovers the exact Methods, `methodPartOf` occurrences, whole-forming claims at their A.6.RCD dispositions, any justified order aggregation, typed joins or adapters, interface boundary, invariants, and whole-level commitments. A resulting exact `U.WorkPlan` may cite the MethodDescription edition on which it relies; neither the planning Work nor the plan is the reader that defines Method identity.
-- **Performed-work use.** Recover each exact actual performer through A.13, let A.15.1 independently admit the Work, and recover the exact `enactsMethod` occurrence for the whole Work. Add the exact covering A.2.1 assignment and F.6 relation only when this use expressly consumes precise assignment-bound attribution; missing or failed F.6 leaves the Work and enactment intact. Check capability fit or admission only when the work-entry decision consumes those claims; then check preconditions, order conformance, and exposed or forwarded interactions through their subject patterns. State resource use, evidence, and results only through their own obtaining relations. None becomes part of the method.
+- **Planning or description-side use.** To plan enactment, recover the Methods, `methodPartOf` facts, other whole-forming claims at their A.6.RCD dispositions, needed order and joins, interface boundary, invariants, and whole-level commitments. A resulting `U.WorkPlan` uses A.15.2 and may cite the MethodDescription edition on which it relies. Identify dated planning Work under A.13 and A.15.1 only when that occurrence is asserted; planning and its product remain separate from Method identity.
+- **Performed-work use.** Recover each exact actual performer through A.13, let A.15.1 independently admit the Work, and recover the exact `enactsMethod` occurrence for the whole Work. Add the exact covering A.2.1 assignment and F.6 relation only when this use expressly consumes precise assignment-bound attribution; missing or failed F.6 alone leaves independently grounded Work and enactment intact. If the same finding invalidates a premise consumed by A.13 or A.15.1 admission, recheck that premise and its dependent conclusions while preserving independently grounded history and relations. Check capability fit or admission only when the work-entry decision consumes those claims; then check preconditions, order conformance, and exposed or forwarded interactions through their subject patterns. State resource use, evidence, and results only through their own obtaining relations. None becomes part of the method.
 - **Assurance use.** Identify cutset submethods, fragile typed joins, adapter points, mapping congruence or CL-sensitive edges, and the envelope or scope in which the composite method is expected to hold. B.3 and related assurance patterns evaluate those hooks; B.1.5 only makes them visible.
 
 Useful invariants remain: a single recovered submethod composed alone does not create a surprising new Method; order is deterministic only under the exact order claims and conditions at their selected A.6.RCD dispositions; any throughput or quality bound must name its characteristic, critical path, and weakest-link basis; a claim that improving a submethod, adapter, or typed join improves the composite must name the characteristic and conditions under which that improvement transfers.
@@ -248,7 +230,7 @@ Method composition and Work decomposition establish no `U.Transformation` part, 
 
 #### B.1.5:4.6 - Select A Structure Below The Whole-Method Threshold
 
-Use A.22 when independently identified Methods and already obtaining relations are useful to one question or action but do not construct one whole Method. For an actual load-bearing selection, first name the selecting system, selection Method, dated selection Work and bindings, and any result episteme needed to preserve the decision. Then name all four structure discriminators: exact constituents, exact selected obtaining relation occurrences, applied constraints, and the use frame. For a one-off hypothetical comparison, state the comparison and stop without asserting a selected `U.Structure`. `MethodRelationStructure` may be used as a local readable designator only for an actually selected structure; it is not a U-kind, relation kind, Method holon, or identity field.
+When the organization itself answers a needed question, use A.22 to select a `U.Structure` over independently identified Methods and obtaining relations. State its four identity discriminators: constituents, selected relation occurrences, applied constraints, and use frame. Ordinary prose or an existing adequate description can supply them. A deliberately asserted dated selection Work needs its own A.13/A.15.1 grounds; add an operation binding or result episteme when the receiving claim needs one. A local comparison can also suffice without selecting a structure. `MethodRelationStructure` is a local designator for a selected structure, not a new U-kind.
 
 Typical cases:
 

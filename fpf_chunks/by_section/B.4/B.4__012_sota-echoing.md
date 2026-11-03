@@ -6,12 +6,12 @@ section_id: "B.4:10.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__012_sota-echoing.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:10.1 — SoTA-Echoing"
-line_start: 45950
-line_end: 45955
+line_start: 45965
+line_end: 45970
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -26,7 +26,7 @@ keywords:
 
 ### B.4:10.1 - **SoTA-Echoing**
 
-The phase rhythm has historical lineage in iterative cycles such as Plan-Do-Check-Act and Observe-Orient-Decide-Act. B.4 adapts that lineage rather than treating those labels as an ontology: it distinguishes design-time accounts from run-time use, applies a kind-specific identity rule, identifies actual Systems and dated Work, admits internal acting-side splits, and keeps evidence, deployment, publication, acceptance, and renewed use separate.
+The phase rhythm has historical lineage in iterative cycles such as Plan-Do-Check-Act and Observe-Orient-Decide-Act. B.4 adapts that lineage rather than treating those labels as an ontology: it distinguishes design-time accounts from run-time use, applies a kind-specific identity rule, identifies relevant activities and results, admits internal acting-side splits, and keeps evidence, deployment, publication, acceptance, and renewed use separate.
 
-The result is a practical review language for repeated adaptation. It avoids both agentless "self-evolution" stories and the opposite mistake of requiring every acting System to be external. Canonical means the four questions recur; it does not mean every subject or project follows one identical history.
+Canonical means the four questions recur across repeated adaptation; it does not mean every subject or project follows one identical history.
 

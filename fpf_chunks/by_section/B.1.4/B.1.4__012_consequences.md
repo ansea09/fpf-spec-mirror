@@ -6,12 +6,12 @@ section_id: "B.1.4:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__012_consequences.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:8 — Consequences"
-line_start: 42115
-line_end: 42118
+line_start: 42129
+line_end: 42132
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -36,5 +36,5 @@ keywords:
 
 ### B.1.4:8 - Consequences
 
-The practitioner obtains an inspectable account of ordered or temporal aggregation, with `Gamma_ctx` and `Gamma_time` available to express it. Naming the relations and their conditions takes work, but lets the practitioner distinguish the aggregation result from claims about performed work, resources, transformation, or whole reidentification.
+The practitioner obtains the aggregation specification or result needed by the receiving use, with its rule and conditions recoverable in a sufficient ordinary explanation or an inspectable account. `Gamma_ctx` and `Gamma_time` remain optional expressions. Recovering the actual inputs and conditions takes work, but makes the result distinguishable from claims about performed Work, resources, transformation and whole reidentification.
 

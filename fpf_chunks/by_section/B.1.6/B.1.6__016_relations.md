@@ -6,16 +6,15 @@ section_id: "B.1.6:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__016_relations.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:10 — Relations"
-line_start: 43331
-line_end: 43340
+line_start: 43342
+line_end: 43351
 dependencies:
   - "A.1"
   - "A.10"
-  - "A.13"
   - "A.14"
   - "A.15.1"
   - "A.15.2"
@@ -36,28 +35,14 @@ dependencies:
   - "C.27"
   - "C.29"
   - "E.17"
-  - "F.6"
   - "G.11"
   - "G.6"
 keywords:
-  - "C.16 measurement work/result episteme"
-  - "Scale/Unit"
-  - "aggregation work"
-  - "allocation/deduplication"
-  - "dated work set"
-  - "edition-pinned aggregation policy"
-  - "provenance"
-  - "resource Characteristic"
-  - "typed aggregation result"
-  - "typed input"
-  - "uncertainty"
-  - "work parthood/phase/overlap"
-  - "work-resource aggregation"
 ---
 
 ### B.1.6:10 - Relations
 
-- Builds on A.13 for actual performers, A.15.1 for independently admitted dated measurement or aggregation Work, F.6 when a result must also identify the assignment under which that Work was performed, and A.6.1 for declarations and actual bindings; C.2.1 governs measurement-result and aggregation-result epistemes.
+- For claims about dated measurement or aggregation Work, A.13 identifies actual performers and A.15.1 independently admits the occurrences. F.6 applies when assignment-bound attribution is needed; A.6.1 governs declarations and actual bindings when used. C.2.1 governs the measurement-result and aggregation-result epistemes.
 - Coordinates with `A.3.1`, `A.3.2`, and `A.15.2` for method, method description, and work plan.
 - Coordinates with `A.15.5` for work-entry readiness, full-kit condition, and resource readiness before work entry; B.1.6 may cite those refs but does not decide readiness.
 - Coordinates with `A.15.1` for exact Work temporal parts, episodes, operational parts, overlaps, retries, resumptions, and later occurrences; with `B.1.4` only for bounded aggregation of already recovered temporal relations; and with `C.27` for temporal-claim adequacy.

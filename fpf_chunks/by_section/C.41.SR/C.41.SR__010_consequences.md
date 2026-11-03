@@ -6,12 +6,12 @@ section_id: "C.41.SR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__010_consequences.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:9 — Consequences"
-line_start: 89870
-line_end: 89873
+line_start: 89880
+line_end: 89883
 dependencies:
   - "A.10"
   - "B.1.5"

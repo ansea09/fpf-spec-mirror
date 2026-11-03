@@ -6,18 +6,19 @@ section_id: "C.2.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 52770
-line_end: 52783
+line_start: 52780
+line_end: 52793
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.2.6"
   - "A.21"
   - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "B.1.3"
   - "B.3"
   - "B.3.3"
@@ -46,8 +47,8 @@ keywords:
   - "TA/VA/LA lanes"
   - "direct relation"
   - "evidence-bound"
-  - "non-aggregate synthesis"
   - "pathwise justification (PathId)"
+  - "qualitative synthesis"
   - "support dependencies"
   - "warrant"
   - "weakest-link limits"
@@ -60,10 +61,10 @@ Informative; non-binding.
 | Anti-pattern               | Symptom                                                                                       | Why it fails                                                     | How to avoid / repair                                                                                    |
 | -------------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | **Unsupported assurance fold** | A mean, minimum, maximum, or weighted sum is reported as confidence without its model | Boundedness and monotonicity do not warrant the input scale or dependency interpretation | Identify support roles and a justified receiving model; otherwise return separate support and a bounded synthesis. |
-| **Truth-by-score**         | `R=0.9` is treated as “the claim is true.”                                                    | R is warrant strength, not ontological truth.                    | Require explicit evidence links and scope; treat R as decision warrant only.                             |
-| **Scope laundering**       | The claim’s applicability grows by wording changes while `G` is unchanged.                    | It silently widens scope, making comparisons meaningless.        | Use A.2.6 operators and treat scope changes as explicit revisions.                                       |
+| **Truth-by-score**         | `R=0.9` is treated as “the claim is true.”                                                    | R is warrant strength, not ontological truth.                    | State the supporting grounds, scope and receiving use; interpret R under its declared warrant meaning.                             |
+| **Scope laundering**       | The claim’s applicability grows by wording changes while `G` is unchanged.                    | It silently widens scope, making comparisons meaningless.        | State the changed applicability conditions and preserve the exact old/new scope distinction under A.2.6.                                       |
 | **Relation laundering** | A claim or its evidence is reused after a change, and its old warrant is carried forward without establishing its applicability to the receiving use. | It hides the changed value and any relation-specific loss. | Name the actual relation or scope operation and apply its warranted loss, if any. Calculate `R_eff` only under a justified model; otherwise retain separate support and a qualified conclusion. Stop the reuse if a required relation is missing. |
-| **DesignRunTag chimera**     | Design-time proofs and run-time telemetry are mixed as if they were the same evidence object. | Evidence belongs to different stances and decays differently.    | Separate lanes and validity windows; treat crossings explicitly.                                         |
+| **DesignRunTag chimera** | Design-time proofs and run-time telemetry are mixed as if they were the same evidence object. | They support different claims under different applicability conditions. | Keep their claims, sources and qualifications distinct; establish any transfer needed by the receiving argument. |
 | **Ordinal arithmetic** | Local formality or CL ranks become a probability or loss merely by tagging, tabulating, or rescaling them | Ordered categories are not calibrated ratio quantities | Retain the ordinal meaning; any receiving conversion needs its actual model, meaning, scale, and assumptions. |
 | **Counting support labels** | More reports are treated as independent confirmation, or one weak additional study automatically defeats the whole | Duplicates, shared bias, complementary information, and counterevidence contribute differently | Recover their actual dependencies and effects on the claim; use neither study count nor a universal min/max fallback. |
 

@@ -6,12 +6,12 @@ section_id: "B.1.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__003_problem.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:2 — Problem"
-line_start: 42196
-line_end: 42209
+line_start: 42209
+line_end: 42222
 dependencies:
   - "A.1"
   - "A.15"
@@ -24,7 +24,6 @@ dependencies:
   - "A.3.1"
   - "A.3.2"
   - "A.6.0"
-  - "A.6.1"
   - "A.6.RCD"
   - "A.6.REL"
   - "B.1"
@@ -35,17 +34,13 @@ dependencies:
   - "B.3"
   - "C.13"
   - "C.2.1"
-  - "C.29"
   - "E.10"
-  - "E.20"
   - "E.24"
   - "E.24.PUB"
   - "E.24.UK"
   - "F.6"
   - "G.5"
-  - "U.MethodDescription"
   - "U.Signature"
-  - "U.Structure"
   - "U.Work"
 keywords:
   - "A.6.RCD claim disposition"
@@ -69,7 +64,7 @@ When the objects and composition grounds are left unclear:
 1. **Source-wording composition.** A label such as "step", "workflow", or "algorithm" is accepted as method composition without recovering the actual objects.
 2. **Description-as-method.** A workflow diagram, BPMN model, code repository, proof script, table, checklist, or graph path is treated as the composite method itself.
 3. **Order as mereology.** `SerialStepOf`, `ParallelFactorOf`, guarded choice, or fallback relation is placed in a structural part-whole chain.
-4. **Typed joins disappear.** One submethod's intended result is assumed to satisfy the next submethod's precondition without an adapter method, governed correspondence or equivalence, and an explicit failure route.
+4. **Typed joins disappear.** One submethod's intended result is assumed to satisfy the next submethod's precondition without checking their compatibility, any needed adapter Method or governed correspondence, and the applicable failure route.
 5. **Interface exposure is hidden.** Callers rely on internal interactions that should be encapsulated, or fail to see interactions that the composite method must expose.
 6. **Run-time leakage.** Resources, timestamps, telemetry, performed values, and results are baked into the method instead of remaining occurrence-side facts and separately governed resource, result, and evidence relations.
 7. **False whole method.** A method-family registry, fallback table, selector rule, or A.22-selected relation organization is treated as one whole method although no construction or whole identity has been recovered.

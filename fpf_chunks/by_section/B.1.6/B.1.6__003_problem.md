@@ -6,16 +6,15 @@ section_id: "B.1.6:1.0"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__003_problem.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:1.0 — Problem"
-line_start: 43125
-line_end: 43128
+line_start: 43131
+line_end: 43134
 dependencies:
   - "A.1"
   - "A.10"
-  - "A.13"
   - "A.14"
   - "A.15.1"
   - "A.15.2"
@@ -36,26 +35,12 @@ dependencies:
   - "C.27"
   - "C.29"
   - "E.17"
-  - "F.6"
   - "G.11"
   - "G.6"
 keywords:
-  - "C.16 measurement work/result episteme"
-  - "Scale/Unit"
-  - "aggregation work"
-  - "allocation/deduplication"
-  - "dated work set"
-  - "edition-pinned aggregation policy"
-  - "provenance"
-  - "resource Characteristic"
-  - "typed aggregation result"
-  - "typed input"
-  - "uncertainty"
-  - "work parthood/phase/overlap"
-  - "work-resource aggregation"
 ---
 
 ### B.1.6:1.0 - Problem
 
-Work-resource totals are often borrowed from plans, method descriptions, dashboards, or phase labels even when no performed-work evidence, resource-accounting basis, holon delimitation, time window, and overlap policy have been recovered. The failure is to treat a convenient total as a work-resource aggregation claim before the dated work occurrences and resource ledger are explicit.
+A convenient total becomes an unsupported resource claim when its input values, included subjects, accounting scope, time basis or combination rule are missing. Claims about performed Work also need evidence for those occurrences and their resource use; accounts that depend on holon delimitation, boundary crossing or stock relations need those relations established.
 

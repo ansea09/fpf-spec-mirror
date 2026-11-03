@@ -6,12 +6,12 @@ section_id: "B.5.2.0:16"
 section_title: "Boundary crossing and invalid drift"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__018_boundary-crossing-and-invalid-drift.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:16 — Boundary crossing and invalid drift"
-line_start: 50082
-line_end: 50089
+line_start: 50097
+line_end: 50104
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,9 +39,9 @@ keywords:
 
 ### B.5.2.0:16 - Boundary crossing and invalid drift
 
-A prompt should enter `B.5.2` only when the question is explicit enough that rival hypotheses can now be compared against it. If the question is still underspecified, the admissible continuation is further stabilization or routing, not premature abduction.
+Entry into `B.5.2` requires a question explicit enough to compare potential explanations under its scope. An underspecified question needs clarification before that entry. Continue stabilization or routing when needed for the receiving question.
 
-A routed cue may be close to prompt form but still missing one decisive contrast or witness. In such cases the candidate stays outside `U.AbductivePrompt` until its initiating question is stable.
+Determine what a missing contrast or witness prevents. If it leaves the explanatory question or other membership conditions unrecoverable, `U.AbductivePrompt` membership is not established. If the account meets those conditions but lacks grounds for entry now, retain the account with that current-use limit under §4.2.2.
 
 A common failure mode is drift from cue -> prompt -> hypothesis without anyone naming the boundary crossings. `B.5.2.0` blocks that drift by keeping the prompt package distinct from both the earlier cue pack and the downstream prime hypothesis.
 

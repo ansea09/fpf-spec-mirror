@@ -6,12 +6,12 @@ section_id: "C.16.MR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.MR/C.16.MR__013_relations.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.16.MR — Construct a Measurement Relation"
   - "C.16.MR:12 — Relations"
-line_start: 59169
-line_end: 59178
+line_start: 59179
+line_end: 59188
 dependencies:
   - "A.3.3"
   - "B.5.FM"

@@ -6,7 +6,7 @@ section_id: "A.15.8:End"
 section_title: "A.15.8:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.8/A.15.8__014_a-15-8-end.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "A.15.8 — Work-Performance Configuration and Recovery Testing"
   - "A.15.8:End — A.15.8:End"

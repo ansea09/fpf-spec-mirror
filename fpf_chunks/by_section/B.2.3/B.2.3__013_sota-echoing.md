@@ -6,12 +6,12 @@ section_id: "B.2.3:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__013_sota-echoing.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:10 — SoTA-Echoing"
-line_start: 44396
-line_end: 44403
+line_start: 44407
+line_end: 44414
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,5 +40,5 @@ The distinction between episteme constitution and neighboring relations is an FP
 
 A knowledge body can be represented as related claims, evidence, and sources. The actual ClaimGraph is a C.2.1 constitution participant. Keep its graph representation, evidence, and sources in the neighboring relations described in B.2.3:4.2; C.2.1 governs episteme identity and B.2 governs whole reidentification. Fields and theories can consolidate into named bodies with new scope and organizing principles. B.2.3 treats a named consolidation as a cue to inspect; use C.2.1 for the candidate's constitution and B.2 only for a whole-reidentification question.
 
-A standard, report, model, or dashboard use may concern claim content, a representation, a publication form, or its carrier; its name alone does not decide which. Publication and source use retain their own relations under E.17 and source-use patterns, separate from the episteme's constitution. The constructed case in B.2.3:5.1 applies these distinctions to a stronger claim about a deployment.
+A standard, report, model, or dashboard use may concern claim content, a representation, a publication form, or its carrier; its name alone does not decide which. Publication availability, form and carrier distinctions follow E.24.PUB; use E.17 when a reader needs a face of an accepted account. Source-use claims retain their direct relations; use A.10 when bounded reliance needs a source-to-use account. Those relations remain separate from the episteme's constitution. The constructed case in B.2.3:5.1 applies these distinctions to a stronger claim about a deployment.
 

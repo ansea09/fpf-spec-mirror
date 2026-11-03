@@ -6,12 +6,12 @@ section_id: "B.5.2.1:10a"
 section_title: "Trade‑offs & mitigations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__012_trade-offs-mitigations.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:10a — Trade‑offs & mitigations"
-line_start: 50281
-line_end: 50286
+line_start: 50291
+line_end: 50296
 dependencies:
   - "A.17"
   - "A.18"
@@ -29,6 +29,6 @@ keywords:
 ### B.5.2.1:10a - Trade‑offs & mitigations
 
 * **Cognitive effort.** Interpreting Pareto sets and coverage maps adds overhead. Use the compact comparison view in §7 with its coordinate meanings and provenance.
-* **Locality.** Novelty/diversity are **context‑local**; Cross‑context reuse requires **re‑measurement or an explicit mapping**.
-* **Metric gaming & collinearity.** Avoid making **N** and **S** redundant by policy; when strong collinearity is detected, freeze one as informative only and record rationale in the DRR.
+* **Locality.** Reuse novelty/diversity readings only where their declared comparison basis and supported use remain applicable. If a change affects that basis, obtain the needed new reading or establish a suitable mapping and its loss boundary.
+* **Metric gaming & collinearity.** Check whether using correlated Novelty and Surprise readings changes the intended comparison or pool treatment. Preserve both when their distinct meanings matter; revise an unsuitable joint-use rule through the declared policy and record the rationale.
 

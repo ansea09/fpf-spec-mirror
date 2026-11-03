@@ -6,12 +6,12 @@ section_id: "B.4.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__013_relations.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:12 — Relations"
-line_start: 46104
-line_end: 46108
+line_start: 46119
+line_end: 46123
 dependencies:
   - "A.15"
   - "A.16"
@@ -30,12 +30,11 @@ dependencies:
   - "C.2.7"
   - "C.2.LS"
   - "C.22.1"
-  - "F.9.1"
 keywords:
 ---
 
 ### B.4.1:12 - Relations
 - Builds on: `B.4`, `C.2.2a`, `A.16`, `A.16.1`, `C.2.LS`.
-- Coordinates with: `A.16.0`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `B.5.2.0`, `B.5.2`, `A.6.P`, `A.6.A`, `C.16.Q`, `A.15`, `F.9.1`.
+- Coordinates with: `A.16.0`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `B.5.2.0`, `B.5.2`, `A.6.P`, `A.6.A`, `C.16.Q`, `A.15`.
 - Constrains: pre-abductive route publication.
 

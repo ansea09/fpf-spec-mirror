@@ -6,16 +6,17 @@ section_id: "C.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__005_solution.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:4 — Solution"
-line_start: 50965
-line_end: 51006
+line_start: 50979
+line_end: 51020
 dependencies:
   - "A.1"
   - "A.10"
   - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "B.3"
   - "C.2.1"
   - "C.29"
@@ -46,13 +47,13 @@ keywords:
 **KD-CAL assessments for one exact episteme and use.**
 
 * **Formality F.** The relevant properties of the expressed claim or argument: terms, predicates, semantics and inferences. Litmus: *does this expression supply what the receiving interpretation, execution or check needs?* An expressed derivation and evidence that it passed a checker remain distinguishable.
-* **Claim scope (G), a set‑valued applicability over `U.ContextSlice`, with ∩/SpanUnion/translate algebra; CL penalties apply to R, not to F/G.** Litmus: *how wide is the declared scope, and under what minimal assumptions does the claim hold?*
-* **Reliability R.** Warrant for this exact claim and receiving use. Litmus: *what supports this conclusion, under which assumptions, and what limits it?* **R-claims MUST bind to their actual formal or empirical support.** A numerical R requires the B.3/C.2.2 meaning, scale, and model; otherwise retain separate support and a bounded reasoned conclusion. A proof under axioms needs no empirical score, and F cannot be substituted for R. Relevance windows and B.3.4 currentness rules apply where the relied-on support consumes them.
+* **Claim scope (G).** Set-valued applicability over `U.ContextSlice`, with ∩/SpanUnion/translate algebra. Litmus: *where is the claim asserted to apply, and under which assumptions?* An applicable C.2.2 warrant model routes congruence-loss penalties to R; formality and scope changes use their own operations.
+* **Reliability R.** Warrant for this exact claim and receiving use. Litmus: *what supports this conclusion, under which assumptions, and what limits it?* **R-claims MUST identify the grounds that support the claim for the receiving use.** A numerical R requires the B.3/C.2.2 meaning, scale, and model; otherwise retain separate support and a bounded reasoned conclusion. A proof under axioms needs no empirical score, and F cannot be substituted for R. Relevance windows and B.3.4 currentness rules apply where the relied-on support consumes them.
 
  **Congruence Level (CL), pairwise ladder.**
  `CL‑0` **Opposed/Disjoint** (contrastive; no substitution); `CL‑1` **Comparable / Naming‑only** (label similarity; no substitution); `CL‑2` **Translatable** (structure‑preserving correspondence in a declared fragment with **stated loss**); `CL‑3` **Near‑identity** (the declared invariants match). *CL is a characteristic of a relation between two epistemes; it is not a fourth member of the F–G–R assurance tuple and it is not a characteristic space of its own.* **KD-CAL substitution constraint:** plane preservation and **CL ≥ 2** are necessary for a substitution under this calculus; substituting **type‑structure** additionally requires **CL = 3**. These conditions do not establish suitability for the proposed use. State the exact substitution, direction, correspondence rule, and tolerated loss under the direct receiving pattern, and establish reliance separately. When local meanings cross semantic contexts, first test the F.9 Bridge predicate on exact F.17 cells; keep the obtaining Bridge, bounded-use claim, and reliance result distinct. A CL value establishes no local system-role-kind membership or assignment.
 
-**Constitution and neighboring relations.** For a KD-CAL F–G–R assessment, recover F, G, and R for one exact claim and use of one C.2.1 episteme. The episteme's exact claim content, EntityOfConcern, and effective reference scheme identify the episteme through `EpistemeConstitutionRelation`. F characterizes the claim's form; G is the separate `U.ClaimScope`; R relies on exact evaluation, evidence-use, and assurance relations. Empirical grounding and edition remain separate C.2.1 relations. Viewpoint selection and view conformance remain under E.17.0; notation and other representation structure remain under C.29/A.6.3.RT; publication occurrence, form, and carrier remain under E.17/E.24.PUB. Multiple notations are allowed only when their exact representation or notation relation is explicit and any declared loss is applied to R rather than hidden in an omnibus episteme field.
+**Constitution and neighboring relations.** For a KD-CAL F–G–R assessment, recover F, G, and R for one exact claim and use of one C.2.1 episteme. The episteme's exact claim content, EntityOfConcern, and effective reference scheme identify the episteme through `EpistemeConstitutionRelation`. F characterizes the claim's form; G is the separate `U.ClaimScope`; R relies on exact evaluation, evidence-use, and assurance relations. Empirical grounding and edition remain separate C.2.1 relations. Viewpoint selection and view conformance remain under E.17.0; expression construction and scheme changes use A.6.3.RT.OE/A.6.3.RT. Use C.29 when a question about choosing, transferring, or relying on a mathematical representation remains unresolved. Publication occurrence, form, and carrier remain under E.17/E.24.PUB. When reasoning between notations, establish their correspondence and the preservation or loss that the inference depends on. Apply C.2.2's R-only penalty rule when its warrant model applies; changes to formality or scope use their own governing operations.
 
 #### C.2:4.2 - Four Δ‑moves (epistemic motion)
 
@@ -79,5 +80,5 @@ For example, two necessary independent conditions with probabilities 0.9 each ha
 
 * **Representation structure ≠ carrier.** Files, PDFs, or repositories are **carriers** outside the episteme; they never count as parts of `U.Episteme` (**see C.2.1:4.1–4.2, :4.6, and :11 item 11**).
 * **Work and guidance.** **Systems** perform Work. Epistemes can guide or constrain that Work through their claim content; keep the guiding content distinct from its performer.
-* **CL is not a score.** It is a **qualitative ladder** of preservation classes; do not average it.
+* **CL is a qualitative ladder of preservation classes.** Do not average its values.
 

@@ -6,12 +6,12 @@ section_id: "C.41.SR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__006_archetypal-grounding.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:5 — Archetypal Grounding"
-line_start: 89798
-line_end: 89843
+line_start: 89808
+line_end: 89853
 dependencies:
   - "A.10"
   - "B.1.5"

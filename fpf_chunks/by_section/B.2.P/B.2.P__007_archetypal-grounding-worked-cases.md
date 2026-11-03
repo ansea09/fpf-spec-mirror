@@ -6,12 +6,12 @@ section_id: "B.2.P:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__007_archetypal-grounding-worked-cases.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:5 — Archetypal Grounding (Worked Cases)"
-line_start: 43839
-line_end: 43883
+line_start: 43850
+line_end: 43894
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -53,9 +53,9 @@ Recover:
 
 - Is "fleet" a membership set, collection-as-whole, acting collective system, or the candidate new system named by an MHT claim?
 - Does the agency wording name an admitted System, an agency-relevant characteristic or threshold, a local system-role kind, a separate System-classification judgment, an obtaining assignment, or only ordinary prose? Recover these independently: the characteristic can obtain without an assignment and the System may participate passively. Send unresolved claim-bearing “role” wording through `E.10.ROLE`.
-- Does the candidate new system have its own delimitation, objective, coordination, and capability envelope, and is the reidentification claim separately supported by evidence and assurance?
+- For a new-system candidate selected by the B.2 comparison, are the complete A.1 criterion and the direct B.2.2 System criterion satisfied? Recover the delimitation, objective, coordination and capability claims used in this fleet case with their supporting grounds. Add assurance for a named assurance question or binding requirement.
 
-If the candidate new whole is an acting system, use B.2 and B.2.2. If the case is only a managed collection with a whole-level metric, use A.14, C.13, B.3.5, and C.16.
+If whole identity remains in question, use B.2 and, for its new-system candidate, B.2.2. For a managed collection with a whole-level metric, recover membership, any required collection construction, and the characteristic bearer and value under A.14, C.13 and C.16 respectively. Use B.3.5 only when its assurance profile is elected.
 
 #### B.2.P:5.2 - "The Model Shows Emergent Robustness"
 
@@ -66,7 +66,7 @@ Recover:
 - Is the result a benchmark artifact?
 - Does the claim concern reidentifying the actual holon?
 
-For those direct claims, use `C.29`, `C.16`, `A.10`, and source-use patterns as applicable. Use B.2 when that whole's identity remains the question.
+Apply the direct model or evaluation rule to the recovered result and C.16 to its characteristic claim. Recover the assumptions, correspondence and evidence used by that inference; apply A.10 when a source-to-use account is needed, and C.29 for a remaining representation, transfer or reliance question. An adequate calculation can finish. Use B.2 when the actual whole's identity remains the question.
 
 #### B.2.P:5.3 - "A Meta-Functional Transition Happened"
 
@@ -80,7 +80,7 @@ Use B.2.4 only for the B.2-facing whole-reidentification case. Otherwise use `A.
 
 #### B.2.P:5.4 - "The Selected Context Became A Meta-System"
 
-Recover the exact selected relation organization. If it is `BoundedModelUseStructure`, keep it as dependent `U.Structure` under A.1.1 and A.22. A context label, Context Map, diagram, or selection decision supplies no constituents, part relations, agency, holonhood, or MHT. If the source instead concerns an actual system whole, identify that system and its construction independently before B.2.
+Recover the selected relation organization and its constituents from the account. If it is `BoundedModelUseStructure`, keep it as dependent `U.Structure` under A.1.1 and A.22. Naming, depicting or selecting that organization does not itself establish structural parthood, agency, holonhood or MHT; establish the needed facts under their direct predicates. If the source concerns an actual system whole, begin with B.2's comparison of the existing whole and changed facts; apply complete A.1 and System recognition when the new-whole branch is selected. First recognition without a prior whole remains with A.1 and the direct subject pattern.
 
 #### B.2.P:5.5 - "The Evidence For Emergence Was Lost"
 

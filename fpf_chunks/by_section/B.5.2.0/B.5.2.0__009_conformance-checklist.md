@@ -6,12 +6,12 @@ section_id: "B.5.2.0:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__009_conformance-checklist.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:7 — Conformance Checklist"
-line_start: 49992
-line_end: 50000
+line_start: 50007
+line_end: 50015
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -40,9 +40,9 @@ keywords:
 ### B.5.2.0:7 - Conformance Checklist
 - `CC-B.5.2.0-1` Every `U.AbductivePrompt` **SHALL** declare its prompt species.
 - `CC-B.5.2.0-2` A prompt **SHALL NOT** be confused with a finished hypothesis.
-- `CC-B.5.2.0-3` Cue-derived prompts **SHOULD** preserve route provenance.
+- `CC-B.5.2.0-3` Cue-derived prompts **SHOULD** preserve route provenance when it exists and contributes to their entry.
 - `CC-B.5.2.0-4` Prompt publication **SHALL** include the explanatory question, its scope and the motivating provenance that make abduction appropriate.
-- `CC-B.5.2.0-5` A publication that already fixes the answer or suppresses plausible rivals **SHALL NOT** remain in prompt status.
-- `CC-B.5.2.0-6` When a specialization-sensitive prompt species is used, the prompt package **SHALL** make explicit the declared task family or utility target, the threshold or success condition being probed, the current budget window, and the route or cue provenance that made the prompt admissible.
+- `CC-B.5.2.0-5` An account that asserts its answer as settled or suppresses plausible rivals **SHALL NOT** be used as the open prompt for that inquiry.
+- `CC-B.5.2.0-6` When a specialization-sensitive prompt species is used, the prompt account **SHALL** make explicit the declared task family or utility target and the grounds for its explanatory question. Include every threshold, budget or other condition needed to interpret that question or its proposed use, and preserve the cue, witness or route provenance actually used.
 - `CC-B.5.2.0-7` Before restarting an inquiry, or reusing its prompt after a change in wording, scope or motivating grounds that may affect the question or account, the user **SHALL** apply §4.2.1–4.2.2 to establish the affected continuity and entry conditions. Already established identity and unaffected grounds remain reusable while their basis holds; comparing another rival with an unchanged prompt requires no new continuity assessment.
 

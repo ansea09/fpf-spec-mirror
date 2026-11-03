@@ -6,12 +6,12 @@ section_id: "C.40.OI:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 86709
-line_end: 86721
+line_start: 86719
+line_end: 86731
 dependencies:
   - "A.15.9"
   - "B.5.PI"

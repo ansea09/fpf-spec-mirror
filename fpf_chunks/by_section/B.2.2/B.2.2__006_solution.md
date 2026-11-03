@@ -6,12 +6,12 @@ section_id: "B.2.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__006_solution.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.2.2 — Meta-System Transition: Test the Proposed New Whole as a System"
   - "B.2.2:4 — Solution"
-line_start: 44010
-line_end: 44083
+line_start: 44021
+line_end: 44094
 dependencies:
   - "A.1"
   - "A.10"
@@ -46,7 +46,7 @@ After B.2 leaves a whole-reidentification question open, continue with the same 
 
 #### B.2.2:4.1 - Reuse The B.2 Candidate And Complete System Recognition
 
-Start with B.2's candidate designated as an exact `U.Entity`, proposed for the already admitted `U.System` kind. After the recognition tests below establish the result, use B.2's one `resultHolonRef` for that individual and its one `resultHolonKindRef` resolving to `U.System`. The references may appear in B.2's optional `HolonReidentificationRecord` when a receiving use needs a durable account; B.2.2 adds no second record. Preliminary, failed, and unresolved evaluations follow B.2:4.4.
+Start with B.2's candidate designated as an exact `U.Entity`, proposed for the already admitted `U.System` kind. After the recognition tests below establish the result, use B.2's one `resultHolonRef` for that individual and its one `resultHolonKindRef` resolving to `U.System`. The references may appear in B.2's optional `HolonReidentificationRecord` when a receiving use needs a durable account. Preliminary, failed, and unresolved evaluations follow B.2:4.4.
 
 Before calling the candidate a system result:
 
@@ -60,17 +60,17 @@ If a required A.1 component or the acting-eligibility criterion fails, do not id
 
 #### B.2.2:4.2 - Carry Result-System Claims Through Subject Patterns
 
-When the candidate is recognized as `U.System`, state every changed result-system fact or claim under its subject pattern:
+When the candidate is recognized as `U.System`, state each additional result-system fact or claim needed by the concrete use under the pattern that defines or tests it:
 
 - system-role assignments through `A.2.1`, relations among system-role kinds through `A.2.7`, and other relations through the patterns that define them;
 - capabilities through `A.2.2` and their measured-characteristic claims through `C.16`;
 - methods through `A.3.1`, their descriptions through `A.3.2`, and mechanisms through `A.6.1`; use `A.15` when their alignment with roles and work is the question;
 - transformations through `A.3.4`;
 - work occurrences through `A.15.1`;
-- functioning and functional-structure wording through `A.6.F` to its direct subject pattern; selected transformation-flow structures through `E.18` and their bounded architecture use through `C.30.TFS-REL`;
-- architecture through `C.30`, `A.22`, and `C.30.ASV`;
-- evidence and assurance through `A.10`, `B.3`, and `B.3.5`;
-- temporal and dynamics claims through `C.27`, `A.19`, and the direct temporal patterns.
+- functioning claims through their direct subject patterns; use `A.6.F` for unresolved function-like wording, `E.18` for a selected transformation-flow structure, and `C.30.TFS-REL` for its bounded architecture use;
+- architecture through `C.30` and its selected `A.22` structure; use `C.30.ASV` when a structural description must also be assessed as a `U.View`;
+- evidence under its direct subject pattern; use `A.10` when a replayable source-to-use account is needed, `B.3` for a named assurance use or binding requirement, and `B.3.5` only when its additional relation-assurance profile is elected;
+- temporal claims under their direct patterns, with `C.27` for a dynamics question and `A.19` for a characteristic-space claim.
 
 Do not reuse old component evidence as if it automatically covered the proposed new whole after recognition under `U.System`. Carry an unchanged component claim only through its exact continuing relation; establish each changed result-system fact under its subject pattern. Where evidence is relied on, recover its relation to the result claim. Apply B.3 for a named assurance use or binding requirement as in B.2:4.3; reuse existing support when it is adequate for that claim and use.
 
@@ -81,9 +81,9 @@ When a receiving use has materialized B.2's optional `MHTTriggerProfile`, read i
 | Cue recorded in `MHTTriggerProfile` | System-case reading | Subject pattern kept visible |
 | --- | --- | --- |
 | Delimitation change | The operating whole now has an external delimitation and crossing relations that differ from the old aggregate. | `A.1`, `B.1.2`, `A.14`, `C.13` |
-| Objective or evaluation change | Recover the system-level objective, mission, or SLO used as an evaluation criterion; distinguish any safety case or viability claim from that criterion. | `C.16`, `E.13`, `A.10`, decision or assurance patterns |
+| Objective or evaluation change | Recover the system-level objective, mission, or SLO used as an evaluation criterion; distinguish any safety case or viability claim from that criterion. | `C.16`, `E.13`, decision or assurance patterns; `A.10` for a needed replayable source-to-use account |
 | Supervision or coordination change | Recover how constituent behavior is regulated for the result whole, including controller or distributed-coordination facts; name any protocol or governance claim separately. | `B.2.5` only for supervisor-subholon feedback; `A.12`, `A.3.4`, `A.15.1` for their separately current claims |
-| Capability or closure claim | Recover the exact capability envelope and closure relations of the proposed new whole after recognition under `U.System`; keep supporting evidence separate. | `A.2.2`, `C.16`, `A.10` for evidence use, and `B.2.4` when whole reidentification is current |
+| Capability or closure claim | Recover the exact capability envelope and closure relations of the proposed new whole after recognition under `U.System`; keep supporting evidence separate. | `A.2.2`, `C.16`, `B.2.4` when whole reidentification is current; `A.10` for a needed replayable source-to-use account |
 | Agency threshold | The result whole crosses a concern-specific agency threshold in characteristic space. | `A.13`, `A.19`, `C.16` |
 | Temporal consolidation | A commissioning, phase, release, or operating-time consolidation changes the current system identity claim. | `C.27`, `A.15.1`, temporal patterns |
 | Context reframe | A changed question or selected model-use structure changes which exact whole is under concern; it does not itself change that whole's identity. | `A.1.1`, `A.22`, `B.2`, and the whole's direct identity pattern |
@@ -103,7 +103,7 @@ A lathe making a workpiece, a controller steering a plant, or a teacher changing
 
 #### B.2.2:4.5 - Assurance Re-Basing
 
-When the exact candidate new whole is recognized as `U.System`, test old assurance against that system rather than transferring it by name.
+When a receiving use or binding requirement needs assurance about the recognized `U.System`, test whether existing support applies to that system and claim. Reuse a current applicability assessment when its claim, use and conditions match.
 
 Ask:
 
@@ -112,5 +112,5 @@ Ask:
 - Which assurance claims must be rewritten for the result system?
 - Which architecture, capability, functioning, work, temporal, or evidence claims now have different subject patterns?
 
-A claim about the recognized result system may reuse component evidence only through an exact correspondence or source-use relation and a fresh evaluation of applicability. That system does not inherit safety, reliability, responsibility, or performance claims by label.
+A claim about the recognized result system may reuse component evidence where its actual evidence or source-use relation supports that claim and applicability is established for the receiving use. Reuse a matching current judgment; reassess when the claim, basis or relevant conditions change. That system does not inherit safety, reliability, responsibility, or performance claims by label.
 

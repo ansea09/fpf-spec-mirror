@@ -6,16 +6,17 @@ section_id: "C.2:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__007_bias-annotation.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:6 — Bias‑Annotation"
-line_start: 51015
-line_end: 51020
+line_start: 51029
+line_end: 51034
 dependencies:
   - "A.1"
   - "A.10"
   - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "B.3"
   - "C.2.1"
   - "C.29"
@@ -41,7 +42,7 @@ keywords:
 
 ### C.2:6 - Bias‑Annotation
 
-* **Metric worship.** Treating `[F,G,R]` as ends rather than means; mitigation: require **evidence bindings** and narrative of limits in the claim scope and grounding envelope.
+* **Metric worship.** Treating `[F,G,R]` as ends rather than means; mitigation: state the supporting grounds and limits for the claim and its use.
 * **Category slip.** Equating a notation, view, publication form, or carrier with claim content, EntityOfConcern, effective reference scheme, or an empirical-grounding participant; mitigation: apply C.2.1 constitution and then the direct neighboring relation pattern.
-* **Analogy inflation.** Presenting CL‑0/1 as identity; mitigation: always name the **CL rung** for cross‑mappings.
+* **Analogy inflation.** Presenting naming similarity as identity; mitigation: establish the correspondence and preserved invariants. A claimed CL retains its rung and the substitution limits in §4.1.
 

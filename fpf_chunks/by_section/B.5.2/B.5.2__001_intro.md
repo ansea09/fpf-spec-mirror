@@ -6,12 +6,12 @@ section_id: "B.5.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__001_intro.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:intro — Intro"
-line_start: 49573
-line_end: 49586
+line_start: 49588
+line_end: 49601
 dependencies:
   - "A.10"
   - "A.16"
@@ -37,5 +37,5 @@ keywords:
 `B.5 Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)`, `B.5.1 Exploration`, `B.5.2.0 U.AbductivePrompt`, `A.10`, `B.3.3`.
 
 **Coordinates with.**
-`B.4.1 Observe-Notice-Stabilize-Route` for pre-abductive routing, `A.16` for admissible language-state moves, `A.6.P` for lexical repair before hypothesis publication, and `C.16.Q` / `A.6.A` when the initiating publication face or cue is evaluative or action-inviting rather than explanatory.
+`B.4.1` for needed route publication, `A.16` for admissible language-state moves, `A.6.P` for unresolved relation wording, `C.16.Q` for unresolved evaluative meaning, and `A.6.A` for unresolved action-first wording. Use these wording-restoration contributions when the unclear meaning affects the explanatory question or its scope.
 

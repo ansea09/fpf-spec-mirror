@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.RC.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.RC — Recover a Construction from Its Description"
-line_start: 47712
-line_end: 47901
+line_start: 47727
+line_end: 47916
 dependencies:
   - "A.6.3.RT"
   - "B.5"

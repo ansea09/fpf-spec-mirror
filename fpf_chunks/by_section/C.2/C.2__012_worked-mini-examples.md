@@ -6,16 +6,17 @@ section_id: "C.2:11"
 section_title: "Worked mini‑examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__012_worked-mini-examples.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:11 — Worked mini‑examples"
-line_start: 51043
-line_end: 51048
+line_start: 51057
+line_end: 51062
 dependencies:
   - "A.1"
   - "A.10"
   - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "B.3"
   - "C.2.1"
   - "C.29"
@@ -43,5 +44,5 @@ keywords:
 
 * **Formalization (ΔF).** Recasting a **variational free-energy** narrative into a typed calculus can make its variables, assumptions and inferential relations explicit. State those changes and any corrected scope. A correspondence between biological and ML formulations still needs its own mapping and preservation basis; formalization alone establishes neither that correspondence nor an empirical gain (**R**).
 * **Complementary hindcast evidence.** Two hindcast lines supporting a climate projection may address different errors, reuse data, or cover different conditions. Identify those relations before combining them; a maximum may select one attested argument only under that declared meaning, not measure their combined corroboration. Keep disagreement and unsupported scope visible. This illustration supplies no climate-specific reliability model.
-* **Notation bridge (CL drop).** Rendering a **type‑theoretic specification** in a semi‑formal DSL that omits a declared source invariant requires a `NotationBridge` stating those losses and a CL<3 value. Any transported theorem must respect the bridge’s declared preservation.
+* **Preservation across notations.** Suppose a rendering of a **type-theoretic specification** in a semi-formal DSL omits a declared source invariant. State the correspondence, omitted invariant and resulting limit on inference. On the KD-CAL ladder this preservation loss is below CL 3 and cannot justify type-structure substitution under §4.1. A transported theorem requires preservation of the invariants its proof uses.
 

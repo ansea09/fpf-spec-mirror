@@ -6,16 +6,15 @@ section_id: "B.1.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__013_consequences.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:9 — Consequences"
-line_start: 43308
-line_end: 43313
+line_start: 43319
+line_end: 43324
 dependencies:
   - "A.1"
   - "A.10"
-  - "A.13"
   - "A.14"
   - "A.15.1"
   - "A.15.2"
@@ -36,28 +35,14 @@ dependencies:
   - "C.27"
   - "C.29"
   - "E.17"
-  - "F.6"
   - "G.11"
   - "G.6"
 keywords:
-  - "C.16 measurement work/result episteme"
-  - "Scale/Unit"
-  - "aggregation work"
-  - "allocation/deduplication"
-  - "dated work set"
-  - "edition-pinned aggregation policy"
-  - "provenance"
-  - "resource Characteristic"
-  - "typed aggregation result"
-  - "typed input"
-  - "uncertainty"
-  - "work parthood/phase/overlap"
-  - "work-resource aggregation"
 ---
 
 ### B.1.6:9 - Consequences
 
-This pattern defines a conservative predicate and result form for typed resource aggregation while keeping each input measurement, performed work occurrence, aggregation policy/application, result episteme, work relation, and provenance path distinct.
+This pattern grounds typed resource aggregation in attributed input values, identified accounting subjects, operative rules and the conditions of the receiving use. Measurement, performed Work, aggregation policy/application, result episteme, subject relations and provenance retain their separate grounds whenever claimed or needed.
 
-The cost is establishing the accounting basis. A comparison can then use totals whose measurements, boundaries, and aggregation policies are compatible, within the limits of their evidence.
+The cost is establishing the accounting basis. A comparison can then use totals whose value-attribution bases, boundaries and aggregation rules are compatible, within the limits of their evidence.
 

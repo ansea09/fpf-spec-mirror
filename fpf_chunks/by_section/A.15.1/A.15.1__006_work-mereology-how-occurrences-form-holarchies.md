@@ -6,7 +6,7 @@ section_id: "A.15.1:5"
 section_title: "Work mereology (how occurrences form holarchies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__006_work-mereology-how-occurrences-form-holarchies.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:5 — Work mereology (how occurrences form holarchies)"
@@ -90,8 +90,8 @@ Work identity is occurrence-grounded and 4D. Start from the actual performance h
 #### A.15.1:5.3 - Work-occurrence relations used by Part B roll-ups
 `A.15.1` supplies the identity of each independently identified Work occurrence or Work part and makes its exact temporal and performed resource-use relations recoverable. It does not itself return a temporal aggregate or resource ledger.
 
-* **Temporal coverage.** When a receiving use needs utilization, elapsed time, phase coverage, or another roll-up over Work intervals, open `B.1.4`. Its recovered `ContextTemporalAggregation@Context`, coverage and non-overlap conditions, aggregation policy, and optional `Gamma_time` notation govern union, hull, or another admitted temporal aggregate. The work intervals remain A.15.1 facts.
-* **Resource aggregation.** When a receiving use needs a total over materials, energy, time, money, tool wear, or another performed resource value, open `B.1.6`. Its recovered `WorkResourceAggregation@Context`, typed resource-accounting basis, evidence refs, overlap or deduplication policy, ledger, aggregation rule, and optional `Gamma_work` notation govern the aggregate. Each contributing performed resource-use relation obtains separately with its exact Work occurrence as a participant; any ledger or assertion about that relation is a separate episteme.
+* **Temporal coverage.** When a receiving use needs utilization, elapsed time, phase coverage or another roll-up over Work intervals, apply `B.1.4` to those intervals and the selected combining rule. Preserve the temporal inputs, coverage and overlap conditions consumed by that rule. An adequate ordinary account can state the result; use a separate record or optional `Gamma_time` notation when the receiving use needs it. The Work intervals remain A.15.1 facts.
+* **Resource aggregation.** When a receiving use needs a total over performed resource values, apply `B.1.6` to the attributed inputs, included subjects, accounting scope, time basis and operative rule. Preserve the value-attribution grounds and any overlap, allocation or deduplication conditions used by that account. An adequate statement or existing ledger can convey the result; a separate record and optional `Gamma_work` notation are chosen by the receiving use. Each contributing performed resource-use relation obtains separately with its Work occurrence as a participant; an assertion about that relation remains distinct from the relation.
 
 **Manager's tip:** cite the exact `B.1.4` or `B.1.6` aggregation result and policy beside the KPI. A Work-part list, shared parent, or operator spelling supplies neither the aggregate nor its policy.
 

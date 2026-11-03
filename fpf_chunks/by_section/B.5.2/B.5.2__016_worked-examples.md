@@ -6,12 +6,12 @@ section_id: "B.5.2:15"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__016_worked-examples.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:15 — Worked Examples"
-line_start: 49814
-line_end: 49855
+line_start: 49829
+line_end: 49870
 dependencies:
   - "A.10"
   - "A.16"
@@ -65,5 +65,5 @@ The candidate set includes:
 - mistaken invariance assumption in the second,
 - and a more general missing mediating construct.
 
-The selected prime hypothesis is the mediating construct, but the scope-restriction candidate remains stored as a live rival because it could still outperform if later deductions fail. This example illustrates why `B.5.2` tracks the rival set rather than only the currently favored conjecture.
+Suppose the mediating construct accounts for both claims within their warranted scopes, while the current scope-restriction and invariance alternatives each explain only one side of the mismatch. On those stated grounds, retain it as the provisional prime hypothesis. Keep the scope-restriction rival available for comparison if later deductions expose a failure in that account; revise the preference when the new grounds warrant it.
 

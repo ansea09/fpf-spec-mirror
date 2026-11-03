@@ -6,12 +6,12 @@ section_id: "B.5.WN:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__005_solution.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
   - "B.5.WN:4 — Solution"
-line_start: 46803
-line_end: 46886
+line_start: 46818
+line_end: 46901
 dependencies:
   - "A.15.10"
   - "A.15.11"

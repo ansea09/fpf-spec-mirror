@@ -6,12 +6,12 @@ section_id: "B.5.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.4/B.5.4__006_archetypal-grounding.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.4 — Recognize a Reusable Concept in a Concrete Situation"
   - "B.5.4:5 — Archetypal Grounding"
-line_start: 50437
-line_end: 50454
+line_start: 50447
+line_end: 50464
 dependencies:
   - "A.7.1"
   - "B.5"
@@ -32,7 +32,7 @@ The interpretation tells you what to adjust. Moving the viewpoint changes incide
 
 A laboratory must place three tests in two simultaneous-run slots. Its operating conditions say that A and B need the same exclusive fixture throughout a run; B and C need the same exclusive power unit; A and C can run together. There are no other constraints in this constructed case.
 
-Represent tests by vertices and a pairwise inability to share a slot by an edge. The observations supply edges AB and BC. The construction in [B.5:5.1][fpf-b5-5-1-ref] produces slots {A,C} and {B}; reading the result back means that neither exclusive resource is double-booked.
+Represent tests by vertices and a pairwise inability to share a slot by an edge. The operating conditions imply edges AB and BC. The construction in [B.5:5.1][fpf-b5-5-1-ref] produces slots {A,C} and {B}; reading the result back means that neither exclusive resource is double-booked.
 
 Now change the conditions: A and C also require the same observer throughout a run. This adds edge AC. The triangle needs three slots under these conditions; two-colouring no longer supplies an arrangement.
 

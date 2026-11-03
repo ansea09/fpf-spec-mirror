@@ -6,12 +6,12 @@ section_id: "B.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__005_solution.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:4 — Solution"
-line_start: 44899
-line_end: 45027
+line_start: 44910
+line_end: 45040
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -72,7 +72,7 @@ AssuranceResult:
   reopenCondition:
 ```
 
-`targetClaimRef` identifies the exact C.2.1 episteme or one exact C.2.1 `ClaimAddress` when the use concerns one addressed claim inside a larger episteme. `basisRefs` cite the direct results, evidence-use relations, provenance paths, argument claims, or domain rules actually used. A compact result is complete when these fields decide the named use and another person can see why the stronger use is not carried.
+`targetClaimRef` identifies the exact C.2.1 episteme or one exact C.2.1 `ClaimAddress` when the use concerns one addressed claim inside a larger episteme. `basisRefs` cite the direct results, evidence-use relations, provenance paths, argument claims, or domain rules actually used. A compact result is complete when these fields decide the named use and its basis and limits are recoverable.
 
 Keep the assurance argument readable beside its result or through references that let the recipient inspect it. Explain why the cited basis supports the target claim for this use, including applicable assumptions, limitations and relevant contrary results. This written account is an **assurance case**. Develop it while reasoning: start with the claim and use, state the proposed support, and revise the argument when a premise or inference proves inadequate. A short coherent paragraph can suffice; add detail when review, transfer or later reconsideration needs it.
 
@@ -106,7 +106,7 @@ The letters `F`, `G`, `R`, and `CL` may appear inside a declared local scheme, b
 
 - **Formality or inspectability.** Formal structure can make assumptions and inference steps easier to check. It raises assurance only when the named argument explains which uncertainty or verification need it closes. Making a wrong model proof-grade does not improve truth or empirical adequacy.
 - **Claim scope.** `U.ClaimScope` stays an A.2.6 value. It is not a quality coordinate. Widening or narrowing scope changes the claim and its applicable use under the declared scope rules.
-- **Reliability-like characteristics.** Use the exact domain definition, bearer, population or trials, conditions, scale, unit, and qualification window. A system reliability measure and an evidence-quality judgment are not interchangeable.
+- **Reliability-like characteristics.** Use the exact domain definition, bearer and scale, with any applicable unit and the population or trials, conditions and qualification window required by that definition or the receiving use. A system reliability measure and an evidence-quality judgment are not interchangeable.
 - **Relation congruence.** Characterize one exact mapping, calibration, interface, or other relation occurrence only under a declared scale and interpretation. The value neither changes the participants nor supplies a universal penalty.
 
 Never average ordinal values. Do not subtract an ordinal value from a ratio quantity. Thresholds and order comparisons are valid only under the scale that defines them.
@@ -118,15 +118,17 @@ B.3 supplies no default fold. When the assurance argument combines quantitative 
 1. the exact result claims being combined;
 2. the dependency or alternative-path structure;
 3. the domain aggregation rule or model;
-4. independence, dependence, calibration, and unit assumptions;
+4. the assumptions required by the rule or model, including any independence, dependence, calibration or unit assumptions;
 5. the calculation or ordered comparison;
-6. the rival rule that would matter if an assumption fails.
+6. any rival rule that is plausible at comparable effort and could change the result or its warranted use.
 
 Use `min` only when the cited domain rule makes the weakest input a lower bound or bottleneck for the exact quantity. It is not universally conservative. If no applicable aggregation rule is available, report the inputs separately and return a bounded, non-positive, or unresolved disposition. Do not manufacture one score to make the result look complete.
 
 Several independent evidence lines may strengthen an argument only through the rule that states how their dependence and coverage are handled. Claim-scope intersection or union follows A.2.6 and the relevant evidence model; it is not an assurance arithmetic shortcut.
 
-#### B.3:4.5 - Choose one of three proof paths
+#### B.3:4.5 - Add the proof detail the assurance use needs
+
+Add calculated or model-bearing details, replay details, or both to the compact result when the named assurance use needs them.
 
 **Compact path.** Use the six-field result in 4.2. Stop when it decides the named use.
 
@@ -140,7 +142,7 @@ Do not select the replay path merely because the use is important. Importance ma
 
 A visible artifact, such as an attestation or dashboard tile, contributes to assurance only through a claim and basis relation used by the argument. Establish whether the artifact supplies a cue, source, evidence item, or representation for that use.
 
-If the visible item only reports a status, gate decision, permission, warning, or source location, use its direct pattern and produce no B.3 result. If an assurance claim is current, cite the item only for the property it actually establishes. A valid signature or provenance chain can establish origin and integrity without establishing safety, truth, compliance, or readiness.
+If the current question concerns only a status, gate decision, permission, warning, or source location, use its direct pattern and produce no B.3 result. If an assurance claim is current, cite the item only for the property it actually establishes. A valid signature or provenance chain can establish origin and integrity without establishing safety, truth, compliance, or readiness.
 
 #### B.3:4.7 - Leave domain obligations with their direct patterns
 

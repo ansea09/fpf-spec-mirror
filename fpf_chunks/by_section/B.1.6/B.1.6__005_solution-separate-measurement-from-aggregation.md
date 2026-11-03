@@ -6,16 +6,15 @@ section_id: "B.1.6:2"
 section_title: "Solution — separate measurement from aggregation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__005_solution-separate-measurement-from-aggregation.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:2 — Solution — separate measurement from aggregation"
-line_start: 43139
-line_end: 43204
+line_start: 43145
+line_end: 43214
 dependencies:
   - "A.1"
   - "A.10"
-  - "A.13"
   - "A.14"
   - "A.15.1"
   - "A.15.2"
@@ -36,34 +35,22 @@ dependencies:
   - "C.27"
   - "C.29"
   - "E.17"
-  - "F.6"
   - "G.11"
   - "G.6"
 keywords:
-  - "C.16 measurement work/result episteme"
-  - "Scale/Unit"
-  - "aggregation work"
-  - "allocation/deduplication"
-  - "dated work set"
-  - "edition-pinned aggregation policy"
-  - "provenance"
-  - "resource Characteristic"
-  - "typed aggregation result"
-  - "typed input"
-  - "uncertainty"
-  - "work parthood/phase/overlap"
-  - "work-resource aggregation"
 ---
 
 ### B.1.6:2 - Solution — separate measurement from aggregation
 
-Start with one direct sentence:
+Start with the resource question and the values needed to answer it. State the result directly:
 
-> Dated aggregation work `W_agg` applied policy `P` to the exact C.16 resource-result epistemes for work set `W_set`, under declared work-part/overlap relations and accounting boundary `B`, and obtained aggregation result `R_agg`; C.2.1 episteme `E_agg` states that result and A.10/G.6 record its provenance.
+> Under rule `P`, the resource values attributed to the included subjects `S` within accounting boundary `B` and time window `T` yield typed result `R`, with the stated qualifications. The result statement identifies those inputs and grounds.
 
-If any referenced resource value lacks its resource Characteristic, measurement work, result episteme, Scale/Unit, uncertainty when current, or provenance, it is not repaired by adding a ledger row.
+A sufficient ordinary sentence or table can state this claim. Stop when it answers the receiving resource question with the required basis. If a needed input or relation remains unresolved, keep the dependent result or use unresolved while retaining supported components or a sufficient narrower result.
 
-`WorkResourceAggregation@Context` is a descriptive account for one aggregation claim:
+For each input, retain its subject, resource Characteristic, Scale, applicable Unit, attribution basis and uncertainty relevant to the use. A claimed performed measurement retains its C.16 Work and result; an estimated or derived value retains the source values, model and conditions that warrant it. A ledger row supplies no missing basis merely by displaying the value.
+
+`WorkResourceAggregation@Context` is one possible descriptive outline for the aggregation claim. Use it when that organization helps the receiving use; ordinary prose or another adequate representation can carry the same content. Fields marked `?` are included when the corresponding claim or use needs them; the conditions below govern their required content:
 
 ```text
 WorkResourceAggregation@Context:
@@ -71,21 +58,23 @@ WorkResourceAggregation@Context:
   claimScopeRef?: U.ClaimScope
   accountingBoundaryRefs
   timeWindowRefs
-  aggregatedWorkOccurrenceRefs
-  resourceUseRelationRefs
-  workPartOrOverlapRelationRefs
+  includedSubjectRefs
+  aggregatedWorkOccurrenceRefs?
+  resourceUseRelationRefs?
+  workPartOrOverlapRelationRefs?
   nonWorkCarrierPhaseRelationRefs?
   resourceCharacteristicRefs
-  measurementWorkRefs
-  measurementResultEpistemeRefs
-  aggregationMethodRef
+  resourceValueBasisRefs
+  measurementWorkRefs?
+  measurementResultEpistemeRefs?
+  aggregationMethodRef?
   aggregationOperationDeclarationRef?
   aggregationPolicyRef
   conversionOrNormalizationRefs?
-  aggregationWorkRef
+  aggregationWorkRef?
   aggregationResultRef
-  aggregationResultEpistemeRef
-  provenancePathRefs
+  aggregationResultEpistemeRef?
+  provenancePathRefs?
   admissibleUse
   stopOrReturnCondition
   nonAdmissibleOverread?
@@ -93,30 +82,30 @@ WorkResourceAggregation@Context:
 
 `stopOrReturnCondition` states when to stop or return to another pattern. Include `nonAdmissibleOverread?` only when it passes F.19's plausible-reader test. `groundedNonAdmissibleOverread?` is an alias for that same optional value.
 
-Recover each of these objects and claims independently:
+Recover the following content for the claims actually made and the use being proposed:
 
 - a **resource Characteristic** says which quantity or property is accounted for;
-- **measurement work** and a **C.16 measurement-result episteme** supply each attributed resource value, Scale, Unit, uncertainty, model, calibration, and time stance;
-- the **aggregation policy** declares inclusion, conversion, weighting, missing-value, partition, overlap, and deduplication rules;
-- **aggregation work** has its actual performer identified through A.13 and is independently admitted as dated `U.Work` through A.15.1; if the aggregation account must also identify the assignment under which the Work was performed, F.6 checks that relation separately; Method, actual inputs through direct relations or A.6.1 bindings, resources, and temporal extent remain separate;
-- the **B.1.6 aggregation result** is the typed total, vector, interval, or bounded estimate obtained under that policy and work set;
-- a distinct **C.2.1 aggregation-result episteme** states the result, work set, policy, boundary, time window, qualifications, and uncertainty; and
-- **A.10/G.6 provenance** makes the measurement sources, transformations, aggregation work, and result episteme replayable.
+- each **resource value** retains its attribution basis: a claimed performed measurement has C.16 measurement Work and a measurement-result episteme; an estimated or derived value keeps its source values, model and conditions. Retain Scale, applicable Unit, time stance, and the calibration and uncertainty basis needed for the use;
+- the **aggregation policy** states the inclusion rule and output kind, together with the conversion, normalization, weighting, missing-value, allocation, uncertainty and overlap rules needed to interpret or justify this result. Identify the policy edition when the result or its use depends on that edition;
+- when the claim deliberately asserts **dated aggregation Work**, or the receiving use needs that occurrence, A.13 identifies its actual performer and A.15.1 independently admits it as `U.Work`. If assignment-bound attribution is also needed, F.6 checks that relation separately. The Method, actual inputs through direct relations or A.6.1 bindings, resources and temporal extent retain their own grounds;
+- the **B.1.6 aggregation result** is the typed total, vector, interval or bounded estimate warranted by the input values, included accounting subjects and operative rules;
+- the **result statement** conveys the result, included subjects, rule, boundary, time basis, qualifications and relevant uncertainty. When the receiving claim or use needs a claim-bearing episteme, identify it through C.2.1 by its claim content, exact EntityOfConcern and effective ReferenceScheme. Keep the resource value, claim content, episteme and expression distinct; and
+- keep the **source basis** recoverable: the measurement or estimate sources, operative rules and derivations needed to justify the result. Use A.10 when source-to-use reliance must be replayable, and G.6 when that chain needs a stable address for citation, replay, audit or refresh. Apply G.11 when currentness affects the use.
 
-A ledger or other representation may describe this chain. Establish the Work, participation, measurements, aggregation, and result identities from their own grounds before relying on that description.
+A ledger or other representation may describe this account. Establish each Work, participation, measurement, part/overlap or result-identity claim on which the proposed use depends under its own predicate; an adequate existing representation can then carry the warranted result.
 
 #### B.1.6:2.1 - Subject Pattern Map
 
 | Current claim | Subject pattern |
 | --- | --- |
-| Resource Characteristic, Scale, Unit, measurement model/calibration, measurement work and result | `C.16` for measurement; A.13 for each actual performer; A.15.1 for independent Work admission; F.6 when the result must also identify the assignment under which the Work was performed; and A.6.1 for actual bindings |
+| Resource Characteristic, Scale, applicable Unit and value-attribution basis | `C.16` for measurement and derived value attribution; for a claimed measurement Work, A.13 identifies its actual performer and A.15.1 independently admits the occurrence. Add F.6 when assignment-bound attribution is needed, and A.6.1 for actual bindings when used. |
 | Dated aggregation Work and actual performer | A.13 identifies the actual performer, then A.15.1 independently admits the Work. Add F.6 only if the result must also identify the assignment under which the Work was performed. Method enactment and actual inputs remain separately governed, including A.6.1 bindings when used. |
 | Work temporal part, episode, operational part, partition, overlap, retry, resumption, or later occurrence | `A.15.1` and the exact Work relation pattern; use `B.1.4` only to aggregate already recovered temporal relations |
 | Proper temporal restriction of another enduring carrier | that carrier's direct identity pattern plus `A.14` `PhaseOf`; never a substitute for Work relations |
 | Overlap, shared-stock, boundary, and deduplication facts | C.27.TA for interval overlap; the exact stock, resource-use, boundary, or accounting relation pattern for the other fact |
 | Aggregation policy and typed aggregation result | `B.1.6` |
 | Measurement-result and aggregation-result epistemes | `C.2.1`; A.15.PROD only when their inception through work matters |
-| Source recovery and provenance | `A.10` and `G.6`; `E.17` for publication |
+| Source recovery, replayable reliance, provenance or publication | Recover the sources needed for the claim. Use `A.10` for a needed replayable source-to-use reliance account, `G.6` for a needed stable address of that chain, and `E.17` for a publication question. |
 | Edition currentness | `G.11` |
 | Planned work or resource readiness | `A.15.2` or `A.15.5`, never a measured aggregation result |
 | Transformation, whole reidentification, assurance, comparison, or decision | the applicable A.3.4, B.2, B.3, A.19, C.11, or other pattern for that exact claim |

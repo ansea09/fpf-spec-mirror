@@ -6,12 +6,12 @@ section_id: "E.12:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__008_consequences.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:7 — Consequences"
-line_start: 105145
-line_end: 105153
+line_start: 105155
+line_end: 105163
 dependencies:
   - "C.11.DUA"
   - "E.13"

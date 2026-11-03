@@ -6,12 +6,12 @@ section_id: "C.39.RP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RP/C.39.RP__014_relations.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
   - "C.39.RP:12 — Relations"
-line_start: 84370
-line_end: 84378
+line_start: 84380
+line_end: 84388
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

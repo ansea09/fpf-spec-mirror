@@ -6,12 +6,12 @@ section_id: "B.1.5:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__012_sota-echoing.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:11 — SoTA-Echoing"
-line_start: 42530
-line_end: 42540
+line_start: 42532
+line_end: 42542
 dependencies:
   - "A.1"
   - "A.15"
@@ -24,7 +24,6 @@ dependencies:
   - "A.3.1"
   - "A.3.2"
   - "A.6.0"
-  - "A.6.1"
   - "A.6.RCD"
   - "A.6.REL"
   - "B.1"
@@ -35,17 +34,13 @@ dependencies:
   - "B.3"
   - "C.13"
   - "C.2.1"
-  - "C.29"
   - "E.10"
-  - "E.20"
   - "E.24"
   - "E.24.PUB"
   - "E.24.UK"
   - "F.6"
   - "G.5"
-  - "U.MethodDescription"
   - "U.Signature"
-  - "U.Structure"
   - "U.Work"
 keywords:
   - "A.6.RCD claim disposition"
@@ -64,12 +59,12 @@ keywords:
 
 ### B.1.5:11 - SoTA-Echoing
 
-These rows answer the B.1.5 practice question: how to decide and expose order-sensitive Method composition without mistaking descriptions, Work, event records, or construction diagrams for the composite Method.
+The following published treatments provide bounded comparisons for Method composition. Their models illuminate particular distinctions; applying those distinctions to FPF Methods uses the construction and identity tests above.
 
-| Current practice answer | Published source basis | B.1.5 adoption | Rejected shortcut |
-| --- | --- | --- | --- |
-| Current workflow, case, decision, process-mining, and object-centric event-log practice separates process models from event logs, telemetry, and resource records. | `A.15:11` — OMG CMMN 1.1 (2016) and OMG DMN 1.5 (2024); `A.15.1:13.1` — OCEL 2.0 Specification (2024) and OpenTelemetry Specification 1.58.0. | **Adopt and adapt.** Adopt the model, decision, occurrence, log, and telemetry separations; adapt them by requiring exact candidate and part Methods, `methodPartOf`, and separately grounded Work because a review must distinguish modeled composition from what happened. | **Reject.** A workflow notation, event log, trace, or telemetry span is neither the composite Method nor proof of Method parts or dated Work. |
-| Typed functional, scoped-effect, protocol, and workflow-composition practice treats composition as constrained by interfaces, preconditions, intended results, handlers, scope, and admissible order. | `A.3.1:11` — Gogioso et al., “Constructor Theory as Process Theory” (2023); Bosman et al., “A Calculus for Scoped Effects & Handlers” (2024); Matache et al., “Scoped Effects as Parameterized Algebraic Theories” (2024). | **Adapt.** Use preconditions, intended-result meanings, scope, order, typed joins, adapters, and failure routes as concrete tests of the whole-forming claim because a composition label alone cannot show that one reusable whole action works. Use A.6.RCD's lightest sufficient disposition for each resulting claim. | **Reject.** A type signature, handler calculus, process-theory description, edge label, or source-material description alone does not identify a Method part, admit a relation kind, or ground dated Work. |
-| Scoped software semantics makes operation declarations, handler scope, and boundary behavior explicit without supplying a general Method-identity rule. | `A.3.1:11` — Bosman et al., “A Calculus for Scoped Effects & Handlers” (2024), and Matache et al., “Scoped Effects as Parameterized Algebraic Theories” (2024), cited above. | **Adapt and delimit.** Use that boundary visibility to state exposed, forwarded, and encapsulated interactions. The rule that a boundary decision affects Method identity when it changes the reusable action or admissible boundary is an FPF decision; a named receiver triggers explicit statement or publication because callers and substituting-method uses need a stable boundary account. | **Reject.** Handler syntax, planner Work, publication layout, carrier choice, or diagram position does not decide whether an interaction is exposed, forwarded, or encapsulated. |
-| Current constructional-ontology practice requires explicit constituents, constructive relations, dependence, and identity choices rather than inferring a whole from a diagram or label. | `A.1:11` — Florio and Linnebo, *Introduction to Constructional Ontology* (2024), and Borgo and Righetti, “Towards Applied Constructional Ontology” (2025). | **Adapt.** Require exact part Methods, obtaining `methodPartOf` occurrences, other whole-forming claims at their A.6.RCD dispositions, a reusable whole action, and a reidentification rule because constituent names alone do not construct a Method whole. | **Reject.** Method-composition order is not A.14 structural parthood, and neither a C.13 notation nor one shared label creates the Method or a relation kind. |
+| Published treatment and its contribution | Use in B.1.5 | Applicability limit |
+| --- | --- | --- |
+| Case and decision models in [CMMN 1.1](https://www.omg.org/spec/CMMN/1.1/About-CMMN) (2016) and [DMN 1.5](https://www.omg.org/spec/DMN/1.5/About-DMN) (2024), object/event records in [OCEL 2.0](https://www.ocel-standard.org/), and traces in [OpenTelemetry 1.58.0](https://github.com/open-telemetry/opentelemetry-specification/blob/v1.58.0/specification/overview.md) describe different objects. These named editions supply historical comparison examples; A.15 and A.15.1 govern the Work claims. | Distinguish a reusable composition account from records about its enactment. Recover the Methods and construction facts, then use the appropriate Work or evidence predicates for what happened. | A model or telemetry representation can support a claim without itself being the Method or establishing Method parts. |
+| [Bosman et al., “A Calculus for Scoped Effects & Handlers”](https://arxiv.org/abs/2304.09697) (2024) separates syntax from handling semantics and provides explicit forwarding of scoped operations. [Matache et al., “Scoped Effects as Parameterized Algebraic Theories”](https://arxiv.org/abs/2402.03103) (2024) develops equational reasoning for scoped operations. | Use these software examples to examine scope, typed joins, forwarding and boundary behavior. Explain the preconditions, result meanings and failure routes of the proposed Method composition in its own domain. | These calculi supply no general Method identity for manufacturing, clinical or organizational work. An FPF boundary change affects identity when it changes the reusable action or admissible boundary under A.3.1. |
+| [Gogioso et al., “Constructor Theory as Process Theory”](https://arxiv.org/abs/2401.05364) (2023) connects abstract tasks to physical processes through a compositional formal treatment. A.3.1 develops the Method-side comparison. | Retain the distinction between a specified task and a process that realizes it when examining composition and enactment. | The formal bridge does not by itself identify an FPF Method part or dated Work; use their direct predicates. |
+| [Borgo and Righetti, “Towards Applied Constructional Ontology”](https://journals.sagepub.com/doi/10.3233/FAIA250480) (2025) examines choices and difficulties in applying constructional approaches to foundational ontologies. A.1 develops the construction-sensitive comparison. | State constituents, construction facts and identity choices instead of treating a diagram or label as a constructed whole. | Method composition retains its own predicate. Its order is not structural parthood, and the source's exploratory ontology comparison supplies no ready-made Method composition rule. |
 

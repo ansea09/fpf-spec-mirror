@@ -6,12 +6,12 @@ section_id: "B.5.TC:End"
 section_title: "B.5.TC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TC/B.5.TC__014_b-5-tc-end.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.TC — Compare Theoretical Accounts for a Working Question"
   - "B.5.TC:End — B.5.TC:End"
-line_start: 49099
-line_end: 49100
+line_start: 49114
+line_end: 49115
 dependencies:
   - "B.5.RA"
   - "B.5.RR"

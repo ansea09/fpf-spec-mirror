@@ -6,12 +6,12 @@ section_id: "B.5.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__005_solution.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.3 — Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)"
   - "B.5.3:4 — Solution"
-line_start: 50320
-line_end: 50334
+line_start: 50330
+line_end: 50344
 dependencies:
   - "A.13"
   - "A.15"
@@ -48,9 +48,9 @@ Use this bounded interpretation move when domain vocabulary leaves the FPF claim
 
 1. Start from the exact expression, source, edition, and relevant passage. Use F.0.1 to recover the source-local claim. Recover an F.17 cell and test its basis relation when the current claim needs them, including when an F.9 Bridge is claimed. Add a durable term row only when the receiving use needs that packaging under F.17.
 2. Ask which exact FPF value or relation the current claim needs, then use the pattern that defines or constrains it. For example, the answer may concern a System, characteristic, Method, Work occurrence, episteme, system-role assignment, or evidence-use relation.
-3. If the use really needs a new kind, apply E.24.UK and C.3. A label alone supplies no kindhood.
+3. Use C.3 when the claim needs a kind: recover its candidate domain and membership distinction. Use E.24.UK when another durable public FPF U-kind is proposed.
 4. If the recovered source-local claim already answers the question, return it and stop. If a receiving use must relate two distinct local-sense claims, use F.9 to test whether an exact Bridge between their F.17 cells actually obtains. Shared spelling alone proves no such relation.
-5. State the receiving use separately. Name the direction, scope or applicability boundary, tolerated loss, evidence or reliance basis, and reopen condition only when each changes that use. The semantic relation alone neither authorizes nor performs the use.
+5. For an F.9 bounded-use claim, state the proposed use, direction, correspondence rule, loss tolerance, and whether the claim is affirmative or negative. Evidence reliance requires the A.10 path, obtaining relations, and local RelianceDisposition for that same use under F.9:4.2; apply B.3 when an actual named assurance claim is current. State other applicability or reopen conditions when they qualify the use. The semantic relation alone neither authorizes nor performs the use.
 6. When *role* wording is material, use E.10.ROLE and A.2 to distinguish a local system-role kind, classification, assignment, participation, responsibility, or ordinary language before making the direct claim.
 
 The practical result can be one readable sentence. Use a note, row, or card only when a later reader or tool needs durable packaging. The package describes the result; it does not create the FPF value, local meaning, relation, or permitted use.

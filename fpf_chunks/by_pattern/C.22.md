@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
-line_start: 62839
-line_end: 63224
+line_start: 62849
+line_end: 63234
 dependencies:
   - "A.6.0"
   - "C.16"

@@ -6,12 +6,12 @@ section_id: "C.40.NU:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.NU/C.40.NU__004_forces.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.40.NU — Search Neighboring Uses and Means"
   - "C.40.NU:3 — Forces"
-line_start: 87080
-line_end: 87090
+line_start: 87090
+line_end: 87100
 dependencies:
   - "C.17"
   - "C.18"

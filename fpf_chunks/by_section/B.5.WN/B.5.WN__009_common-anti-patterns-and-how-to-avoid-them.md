@@ -6,12 +6,12 @@ section_id: "B.5.WN:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
   - "B.5.WN:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 46972
-line_end: 46982
+line_start: 46987
+line_end: 46997
 dependencies:
   - "A.15.10"
   - "A.15.11"

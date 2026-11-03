@@ -6,12 +6,12 @@ section_id: "B.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__004_forces.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.4 — Coordinate Repeated Adaptation (Canonical Evolution Loop)"
   - "B.4:3 — Forces"
-line_start: 45813
-line_end: 45820
+line_start: 45826
+line_end: 45833
 dependencies:
   - "A.12"
   - "A.15.1"
@@ -28,7 +28,7 @@ keywords:
 
 | Force | Tension |
 | :--- | :--- |
-| **Stability vs. Change** | How to adapt continuously while retaining the identity and assurance commitments that still hold. |
+| **Stability vs. Change** | How to adapt while retaining the identity and assurance commitments that still hold. |
 | **Learning vs. Operating** | How to keep use stable enough to serve its purpose while gathering and acting on evidence. |
 | **Top-Down Intent vs. Bottom-Up Reality** | How to connect intended improvement with what actual use reveals. |
 

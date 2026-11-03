@@ -6,12 +6,12 @@ section_id: "B.5.TU:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.TU/B.5.TU__012_sota-echoing.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.TU — Construct a Working Use of an Unfamiliar Theory"
   - "B.5.TU:11 — SoTA-Echoing"
-line_start: 48879
-line_end: 48888
+line_start: 48894
+line_end: 48903
 dependencies:
   - "A.15.9"
   - "A.6.3.RT"

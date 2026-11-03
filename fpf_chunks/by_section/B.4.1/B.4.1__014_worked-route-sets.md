@@ -6,12 +6,12 @@ section_id: "B.4.1:13"
 section_title: "Worked Route Sets"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__014_worked-route-sets.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:13 — Worked Route Sets"
-line_start: 46109
-line_end: 46134
+line_start: 46124
+line_end: 46149
 dependencies:
   - "A.15"
   - "A.16"
@@ -30,7 +30,6 @@ dependencies:
   - "C.2.7"
   - "C.2.LS"
   - "C.22.1"
-  - "F.9.1"
 keywords:
 ---
 
@@ -43,7 +42,7 @@ An operator alert note records a service-latency rise after a configuration chan
 - `ProblemAbductionRoute`,
 - and `RequirementCommitmentRoute`.
 
-Keep the plurality explicit until a selected route is justified. The missing discriminator for `RequirementCommitmentRoute` is whether the clause covers this service and incident window. If it does, use `A.2.8` for the question of an actual duty; the latency cue can still support intervention and explanatory inquiry.
+Keep the live routes explicit and state any selection with its grounds. The missing discriminator for `RequirementCommitmentRoute` is whether the clause covers this service and incident window. If it does, use `A.2.8` for the question of an actual duty; the latency cue can still support intervention and explanatory inquiry.
 
 #### B.4.1:13.2 - Inquiry case
 A conceptual mismatch may route simultaneously toward:
@@ -58,5 +57,5 @@ This is admissible only if the route rationale makes the plurality explicit rath
 It is invalid to treat a routed cue set as if it were already a hypothesis, a gate, or a work plan. The route-bearing publication form records candidate continuations; the applicable subject pattern governs the downstream result.
 
 #### B.4.1:13.4 - Specialization-route and nonhuman-utility split
-A routed cue set for a new task family may admissibly keep `ProblemAbductionRoute`, `TaskFamilySpecializationRoute`, and `NonHumanUtilityRoute` live together. The point is to preserve the declared task family, utility target, current budget window, missing discriminator, and possible corridor-entry load without presenting those candidates as an already justified prompt, selector, or policy choice.
+A routed cue set for a new task family may admissibly keep `ProblemAbductionRoute`, `TaskFamilySpecializationRoute`, and `NonHumanUtilityRoute` live together. The point is to preserve the declared task family, utility target, any qualifying budget conditions, any unresolved facts needed for use or selection, and any relevant corridor-entry conditions without presenting those candidates as an already justified prompt, selector, or policy choice.
 

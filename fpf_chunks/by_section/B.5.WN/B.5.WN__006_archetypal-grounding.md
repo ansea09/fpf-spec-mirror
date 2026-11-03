@@ -6,12 +6,12 @@ section_id: "B.5.WN:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.WN/B.5.WN__006_archetypal-grounding.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.WN — Develop Lines of Thought with Working Notes"
   - "B.5.WN:5 — Archetypal Grounding"
-line_start: 46887
-line_end: 46954
+line_start: 46902
+line_end: 46969
 dependencies:
   - "A.15.10"
   - "A.15.11"

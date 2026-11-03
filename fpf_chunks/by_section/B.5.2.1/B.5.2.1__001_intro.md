@@ -6,12 +6,12 @@ section_id: "B.5.2.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__001_intro.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:intro — Intro"
-line_start: 50109
-line_end: 50118
+line_start: 50124
+line_end: 50133
 dependencies:
   - "A.17"
   - "A.18"
@@ -34,5 +34,5 @@ keywords:
 
 **Method and records.** Use A.17/A.18 for Characteristics and A.3.1/A.3.2 for the Method and its description. Distinguish its input and seed conditions, conditions for any actual generation Work, and the generated candidate’s later admission to comparison. C.18 records the identified generator and its results; filling that record performs no generation.
 
-**Terminology discipline.** Use **NQD** consistently (Novelty–Quality–Diversity). Treat **S**/**I** as *secondary* metrics unless explicitly promoted by policy (see §3, §5).
+**Terminology discipline.** Use **NQD** consistently (Novelty–Quality–Diversity). Use Surprise and the IlluminationSummary report in comparison only under the declared policy (see §3, §5).
 

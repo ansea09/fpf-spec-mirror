@@ -6,18 +6,19 @@ section_id: "C.2.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__002_problem-frame.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:1 — Problem frame"
-line_start: 52518
-line_end: 52537
+line_start: 52532
+line_end: 52551
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.2.6"
   - "A.21"
   - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "B.1.3"
   - "B.3"
   - "B.3.3"
@@ -46,8 +47,8 @@ keywords:
   - "TA/VA/LA lanes"
   - "direct relation"
   - "evidence-bound"
-  - "non-aggregate synthesis"
   - "pathwise justification (PathId)"
+  - "qualitative synthesis"
   - "support dependencies"
   - "warrant"
   - "weakest-link limits"

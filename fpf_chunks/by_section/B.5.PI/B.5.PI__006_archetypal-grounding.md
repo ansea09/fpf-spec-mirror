@@ -6,12 +6,12 @@ section_id: "B.5.PI:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__006_archetypal-grounding.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:5 — Archetypal Grounding"
-line_start: 50621
-line_end: 50664
+line_start: 50631
+line_end: 50674
 dependencies:
   - "A.1.STM"
   - "A.15.11"

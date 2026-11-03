@@ -6,12 +6,12 @@ section_id: "B.2.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__003_problem-frame.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:1 — Problem Frame"
-line_start: 44440
-line_end: 44445
+line_start: 44451
+line_end: 44456
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,5 +39,5 @@ keywords:
 
 A new capability is not automatically a new whole. A function-like relation is not automatically a part-whole relation. A transformation-flow structure is not automatically MHT.
 
-B.2.4 is the narrow B.2 specialization for cases where exact capability, functioning, or transformation-flow facts defeat the existing-whole explanation and point to a candidate new holon. Evidence bears on claims about those facts; it does not make the explanation fail by itself.
+B.2.4 is the narrow B.2 specialization for cases where exact capability, functioning, or transformation-flow facts raise a consequential question about retaining or reidentifying the existing whole. Evidence bears on claims about those facts.
 

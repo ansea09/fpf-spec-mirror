@@ -6,12 +6,12 @@ section_id: "C.11.DBR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__010_consequences.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:9 — Consequences"
-line_start: 57798
-line_end: 57801
+line_start: 57808
+line_end: 57811
 dependencies:
   - "A.10"
   - "A.10.1"

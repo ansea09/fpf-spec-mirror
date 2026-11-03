@@ -6,7 +6,7 @@ section_id: "A.15.1:12"
 section_title: "Existing work-log repair applications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__014_existing-work-log-repair-applications.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:12 — Existing work-log repair applications"
@@ -61,8 +61,8 @@ keywords:
 3. **Record a continuity policy only for an actual ambiguity.** Cite exact `workContinuityPolicyRef` and its named use when an interruption, resumption, replacement, switch, or composite boundary could support more than one segmentation. If direct facts already close a simple uninterrupted case, omit the policy.
 4. **Separate temporal aspect, temporal Work part, episode, and operational part.** Keep a bare interval or aspect with C.27.TA or its direct domain object. Use `TemporalPartOf_work` only between independently admitted Work individuals when the proper temporal-sub-occurrence predicate passes; use `EpisodeOf_work` only for an independently admitted event-bounded Work sub-occurrence; and use `OperationalPartOf_work` only for an independently admitted performed constituent of the whole. Recover any Method factor separately.
 5. **Name only useful Work parts.** Apply §5.1's threshold to the current or later use. Preserve the independently established relation, evidence or telemetry slice when it is sufficient, without adding a Work-part identity.
-6. **Use B.1.4 for temporal roll-up.** Cite the exact temporal aggregation and its union, hull, coverage, and non-overlap policy in the KPI rather than recreating it on Work.
-7. **Use B.1.6 for resource roll-up.** Recover the typed resource ledger, evidence basis, allocation, and overlap or deduplication policy there; each contributing performed resource-use relation remains independently obtaining with an exact Work occurrence as a participant.
+6. **Use B.1.4 for temporal roll-up.** Cite the temporal aggregation's result and selected combining rule, including the coverage and overlap conditions it uses, in the KPI; keep that account separate from Work.
+7. **Use B.1.6 for resource roll-up.** Recover the typed resource result, its attribution basis and the aggregation rule, with any allocation, overlap or deduplication conditions used by that account; an adequate statement or existing ledger can suffice. Each contributing performed resource-use relation remains independently obtaining with a Work occurrence as a participant.
 8. **Pull plans out.** Keep calendars and planned fillings in exact `U.WorkPlan` content; establish performed values only through direct relations in which the Work occurrence participates and through exact A.6.1 bindings.
 9. **Bind actual values directly.** For an operation argument or result, name the identified A.6.1 application and its exact binding. For any other participant or parameter, name the declared subject predicate, participant order, and actual values; return the matching missing-governor result when that predicate is absent. Retain MethodDescription defaults and WorkPlan choices as non-actual neighbors.
 

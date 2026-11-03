@@ -6,12 +6,12 @@ section_id: "C.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:4 — Solution"
-line_start: 51111
-line_end: 51720
+line_start: 51125
+line_end: 51734
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -160,7 +160,7 @@ Here a particular **expression** X is the identified sign construction, an entit
 
 Start from the operation the recipient must perform. Choose an expression that makes the required distinctions available. Then recover its meaning and compare that meaning with the source or the developing account. Inspect consequential omissions and added connections. Try the intended operation with the expression. A.6.3.RT.OE develops these construction steps; A.6.3.RT governs a change between expression schemes and its preserved and changed content.
 
-In a **representation** use, an identified entity stands for an identified subject or selected content under a correspondence. The entity keeps the kind and identity supplied by its own domain. Establish what represents what, the correspondence between relevant elements and relationships, and the interpretation under which the intended operation is warranted. A route graph can represent passages in a building; the graph's edge and path rules determine which route conclusions can be returned to the building. C.29 supplies the additional grounds when a mathematical object and mathematical inference are used.
+In a **representation** use, an identified entity stands for an identified subject or selected content under a correspondence. The entity keeps the kind and identity supplied by its own domain. Establish what represents what, the correspondence between relevant elements and relationships, and the interpretation under which the intended operation is warranted. A route graph can represent passages in a building; the graph's edge and path rules determine which route conclusions can be returned to the building. Use C.29 for additional grounds when a question about choosing, transferring, or relying on a mathematical representation remains unresolved.
 
 An expression can represent a subject and express claims about it. Those are different relations of the same construction. For example, a table's rows can correspond to passages, while its entries assert their widths. The correspondence explains what the rows stand for; the interpreted entries explain what the table claims.
 

@@ -6,12 +6,12 @@ section_id: "B.5.2:14"
 section_title: "Admissible Transitions, Abort Paths, and Reopening"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__015_admissible-transitions-abort-paths-and-reopening.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.2 — Generate and Compare Candidate Explanations (Abductive Loop)"
   - "B.5.2:14 — Admissible Transitions, Abort Paths, and Reopening"
-line_start: 49778
-line_end: 49813
+line_start: 49793
+line_end: 49828
 dependencies:
   - "A.10"
   - "A.16"
@@ -33,16 +33,16 @@ The abductive loop keeps its outcomes distinct so the recipient can tell whether
 
 `B.4.1` and `A.16` can help preserve and clarify an initiating publication until it supplies an abductive prompt. `B.5.2` begins only once the current publication is ready to function as an abductive prompt. This boundary matters because it prevents two opposite errors:
 
-- **premature abduction**, where a low-articulation cue is treated as if it had already earned hypothesis form;
-- **delayed abduction**, where a now-stable prompt is kept indefinitely in early cue form even though rival conjectures should already be compared.
+- **premature abduction**, where a cue is used to begin rival comparison before its question account meets B.5.2.0's entry conditions;
+- **delayed abduction**, where an admissible prompt still needs candidate comparison for the receiving question but remains in early cue form without that contribution.
 
 #### B.5.2:14.2 - Abort, defer, and split cases
 
 Not every abductive run should end in a prime hypothesis. Three non-selection outcomes are admissible:
 
 1. **Abort.** The prompt dissolves because the initiating anomaly or opportunity was misread, duplicated, or already answered elsewhere.
-2. **Defer.** Several candidates remain live and the available comparison does not justify a winner, for example because a needed discriminator is unavailable. Preserve the unresolved set and its limits without inventing a winning explanation. A separately warranted present action may still proceed under C.11.
-3. **Split.** The original prompt turns out to contain several distinct questions. The run should fork into several narrower prompts rather than select one over-broad conjecture.
+2. **Defer.** The available candidates or grounds do not yet support a qualified conjecture or a warranted preference. Preserve any supported candidates and the unresolved explanatory or comparison question. A separately warranted present action may still proceed under C.11.
+3. **Split.** When distinct questions require separate explanatory comparisons, distinguish those questions and their entry grounds. Continue the needed questions under their own prompt-entry conditions.
 
 
 #### B.5.2:14.3 - Reopening and rival reinstatement

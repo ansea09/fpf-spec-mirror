@@ -6,12 +6,12 @@ section_id: "B.2.3:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__011_consequences.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:8 — Consequences"
-line_start: 44376
-line_end: 44389
+line_start: 44387
+line_end: 44400
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,6 +45,6 @@ Positive consequences:
 Costs:
 
 - A claimed synthesis must identify and test the current C.2.1 constitution, not only cite a portfolio.
-- Result-episteme assurance requires a fresh applicability judgment for the exact result claim; existing relations may be reused where that judgment warrants it.
+- Result-episteme assurance needs warranted applicability to the exact result claim and receiving use. A matching current applicability judgment may be reused; reassess when the claim, basis or relevant conditions change.
 - Some "new theory" claims return to publication, source-use, morphism, benchmark, or evidence-use patterns.
 

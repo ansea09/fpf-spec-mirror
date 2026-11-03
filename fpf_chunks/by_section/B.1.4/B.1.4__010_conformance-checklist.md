@@ -6,12 +6,12 @@ section_id: "B.1.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__010_conformance-checklist.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:6 — Conformance Checklist"
-line_start: 42094
-line_end: 42104
+line_start: 42108
+line_end: 42118
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -38,10 +38,10 @@ keywords:
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| CC-B1.4-1 | The aggregate names the EntityOfConcern, included positions or phases, aggregation mode, ClaimScope when needed, time window when temporal qualification matters, and admissible use. | Prevents a generic context or time label from standing in for the aggregation boundary. |
-| CC-B1.4-2 | Contextual aggregation names ordered relation refs and an `OrderSpec`; temporal aggregation names carrier identity, phase refs, and `TimeWindow`. | Keeps order and time as different relations. |
+| CC-B1.4-1 | The aggregation claim identifies its subject, included inputs and relations, combining rule, required result, aggregation mode, ClaimScope when needed, temporal reference/window when relevant, and admissible use. | Makes the aggregation usable without requiring a separate record when an ordinary answer suffices. |
+| CC-B1.4-2 | Contextual aggregation identifies its ordered relations and OrderSpec. Temporal aggregation identifies its intervals, bearers, temporal reference and TimeWindow; the proper-phase profile also establishes one-carrier identity and the direct phase relations. | Keeps order, temporal aggregation and proper-phase claims distinguishable. |
 | CC-B1.4-3 | Independence, join, coverage, and overlap-policy conditions are present when the claim uses them. | Keeps local composition reviewable. |
 | CC-B1.4-4 | Method, method-description, work-plan, work-occurrence, work-resource, transformation, and whole-reidentification claims use the patterns that define or test them. | Prevents B.1.4 from absorbing neighboring objects. |
 | CC-B1.4-5 | Mathematical notation is treated as a selected lens or expression, not as the in-life object or relation. | Keeps `Gamma_ctx`, `Gamma_time`, graph, and algebra language bounded. |
-| CC-B1.4-6 | If identity changes, coverage breaks, or a new whole is claimed, the record narrows use or names the pattern for the stronger claim. | Prevents temporal aggregation from becoming hidden MHT or transformation. |
+| CC-B1.4-6 | Use stays within the established operation, identity and coverage conditions. When a required condition fails or remains unknown, narrow the result or retain the unresolved conclusion; use the subject pattern for a distinct identity, change or whole-reidentification question. | Preserves actual stops without requiring a stronger claim merely to finish an ordinary aggregate. |
 

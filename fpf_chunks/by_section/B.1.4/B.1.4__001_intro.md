@@ -6,12 +6,12 @@ section_id: "B.1.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__001_intro.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:intro — Intro"
-line_start: 41930
-line_end: 41943
+line_start: 41928
+line_end: 41941
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -46,5 +46,5 @@ keywords:
 
 **What goes wrong if missed.** A reader may mistake an ordering for parthood, a planned sequence for performed work, a phase for a new whole, or temporal coverage for evidence currentness.
 
-**What this buys.** The practitioner can aggregate order-sensitive and temporal material while keeping method, work, transformation, work-resource, temporal-adequacy, and MHT claims with the patterns that define or test them.
+**What this buys.** The practitioner can specify or compute the order-sensitive or temporal aggregate needed by a receiving use, with its actual combining rule and limits. Method, Work, transformation, work-resource, temporal-adequacy and MHT claims retain the patterns that define or test them.
 

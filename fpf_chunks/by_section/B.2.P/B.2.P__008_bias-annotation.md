@@ -6,12 +6,12 @@ section_id: "B.2.P:5.7"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__008_bias-annotation.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:5.7 — Bias-Annotation"
-line_start: 43884
-line_end: 43893
+line_start: 43895
+line_end: 43904
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -51,7 +51,7 @@ keywords:
 | --- | --- |
 | Emergence-as-root-kind bias | The recovery starts from EntityOfConcern, claim kind, and subject pattern; no generic `U.Emergence` is introduced. |
 | Collection-agency bias | Collective nouns are separated into membership set, constructed whole, acting collective system, whole-level characteristic bearer, or candidate new holon named by an MHT claim. |
-| Metric-as-whole bias | Benchmark jumps and characteristic changes stay with `C.16`, `A.10`, `C.29`, source-use, and evaluation patterns unless B.2 whole reidentification is still live. |
+| Metric-as-whole bias | Identify the characteristic or benchmark and apply its measurement or evaluation rule with the source and correspondence grounds it uses. Open B.2 only when whole identity remains in question. |
 | Math-lens-as-ontology bias | Graph, scale, morphism, benchmark, and MSPD expressions stay mathematical-lens or evaluation material until the in-life EntityOfConcern is recovered. |
 | Source-mnemonic bias | `MET`, `MFT`, `promotion`, and `post*` spellings remain recognition cues until the concrete thing or claim and its direct pattern are named. |
 

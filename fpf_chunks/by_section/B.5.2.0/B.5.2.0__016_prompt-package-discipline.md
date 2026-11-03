@@ -6,12 +6,12 @@ section_id: "B.5.2.0:14"
 section_title: "Prompt package discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__016_prompt-package-discipline.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.2.0 — Question Form for Entering Abduction (U.AbductivePrompt)"
   - "B.5.2.0:14 — Prompt package discipline"
-line_start: 50044
-line_end: 50073
+line_start: 50059
+line_end: 50088
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -47,14 +47,14 @@ An abductive prompt should make explicit:
 
 - the **prompt species**,
 - the **open question**,
-- the **motivating cue or route provenance**,
+- the **motivating provenance actually used**,
 - the **contrast set**, if one is already visible,
 - the **scope** in which the question is being asked,
 - and the **witnesses or cue grounds** that justify beginning abduction.
 
-This package lets downstream conjectures be tested against the same question rather than against a rewritten paraphrase.
+This package lets downstream conjectures be assessed against the same identified explanatory question.
 
-For specialization-sensitive prompt species, the package should also make explicit the declared task family or utility target, the threshold or success condition being probed, the current budget window, the prior route provenance, and the rival prompt shapes still in play.
+For specialization-sensitive prompt species, preserve the declared task family or utility target, the conditions needed for the explanatory question, including any stated threshold or budget, and the motivating provenance actually used. Preserve alternative prompt shapes when they remain live and matter to entry.
 
 #### B.5.2.0:14.2 - Claims about the question and an asserted answer
 

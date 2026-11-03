@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__004_forces.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:3 — Forces"
-line_start: 42766
-line_end: 42774
+line_start: 42768
+line_end: 42776
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -28,6 +28,6 @@ keywords:
 - Several uses may require different guarantees from the same constituent.
 - Simplification saves effort when its lost detail is irrelevant to the receiving action.
 - Strong evidence can be expensive; a bounded argument or counterexample may already settle the next move.
-- A common replacement reduces maintenance, while separate variants can preserve otherwise incompatible uses.
+- A common replacement can reduce maintenance, while separate variants can preserve otherwise incompatible uses.
 - Method identity, description correspondence and performance evidence answer different questions.
 

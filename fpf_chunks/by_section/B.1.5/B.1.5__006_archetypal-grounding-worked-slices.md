@@ -6,12 +6,12 @@ section_id: "B.1.5:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:5 — Archetypal Grounding — Worked Slices"
 line_start: 42422
-line_end: 42469
+line_end: 42471
 dependencies:
   - "A.1"
   - "A.15"
@@ -24,7 +24,6 @@ dependencies:
   - "A.3.1"
   - "A.3.2"
   - "A.6.0"
-  - "A.6.1"
   - "A.6.RCD"
   - "A.6.REL"
   - "B.1"
@@ -35,17 +34,13 @@ dependencies:
   - "B.3"
   - "C.13"
   - "C.2.1"
-  - "C.29"
   - "E.10"
-  - "E.20"
   - "E.24"
   - "E.24.PUB"
   - "E.24.UK"
   - "F.6"
   - "G.5"
-  - "U.MethodDescription"
   - "U.Signature"
-  - "U.Structure"
   - "U.Work"
 keywords:
   - "A.6.RCD claim disposition"
@@ -78,7 +73,7 @@ The composite qualification additionally requires the candidate's generic partic
 
 `RegisterPatient`, `AssessVitals`, `ClassifyUrgency`, and `RouteToCare` are independently identified Methods. For a one-off protocol review, the practitioner may state two local claims in ordinary language: the intended vital-sign result meaning of `AssessVitals` must satisfy the admitted input meaning of `ClassifyUrgency`; and the declared triage rule decides which admitted urgency category holds from the declared vital-sign conditions and, when the protocol uses them, the declared symptom conditions, then maps that category to one compatible `RouteToCare`. If no category or several incompatible categories hold, the practitioner stops the routing decision and returns the guard rule for repair. These are useful claim contents, not `MethodResultPreconditionRelation` or `MethodDispatchRelation` admissions.
 
-This review is deliberately hypothetical and non-load-bearing. It compares the four Methods and the two claims but does not assert a persisted `U.Structure` or a selection judgment. If a later receiving use needs an A.22-selected structure, its selection must identify the exact selecting system, selection Method, dated selection Work and bindings, and—where the result must persist—the result episteme. The structure itself is then identified by all four A.22 discriminators: exact constituents, exact independently admitted obtaining relation occurrences, applied constraints, and use frame. The present local claims cannot be relabelled as such occurrences merely to fill that list.
+The two claims can finish this protocol comparison. If the receiving question instead needs a selected `U.Structure`, recover all four A.22 discriminators: constituents, independently obtaining relation occurrences, applied constraints, and use frame. The local claims cannot be relabelled as relation occurrences. Identify dated selection Work only when that occurrence is asserted, and a separate result episteme when the judgment must persist.
 
 The comparison still discriminates the non-composite case. No reusable whole action, complete precondition-to-result boundary, response to every guard conflict, or whole reidentification rule has been established. A wall poster may be a carrier bearing a publication form; an exact `U.MethodDescription` edition is a different claim-bearing episteme, and an actual publication occurrence is what makes that edition available to an audience. For intake Work, recover each actual performer through A.13 and admit the Work independently through A.15.1. Only if this comparison also consumes which assignment covered that Work should it separately check the A.2.1 occurrence and obtaining F.6 attribution; capability or admission claims consumed by entry remain separate. None of these facts is a Method part.
 
@@ -98,9 +93,11 @@ Suppose one dated training Work enacts the exact pipeline Method while three ind
 
 A paper draft, workflow diagram, repository, or notebook may be a claim-bearing episteme, a representation, or a carrier; its form does not make it the Method. Publication Work is `U.Work`. Compute, storage, reviewer time, artifact production, release, and acceptance stay with their subject patterns.
 
-`EvidenceSynthesisInterfaceDescription-v3 : U.MethodDescription` may state that the Method exposes `Submit()` and `ReleaseArtifacts()`, forwards `CrossValidate.Folds(k)`, and encapsulates ad hoc scrubbing utilities. Identify `SubmissionReleaseBoundaryAccountForm-v3` independently as the reusable arrangement entity selected as the boundary-account form. Identify `SubmissionReleaseBoundaryAccountExpression-v3 : U.Entity` as the independently specified ordered text that fills that arrangement with these interface claims, and establish its conformance to that form. Identify `EvidenceSynthesisMethodsPage-2026-07 : U.Entity` independently under its digital file-object identity rule as the carrier whose actual state yields that expression. Identify `SubmissionAndArtifactReleaseUse : U.Episteme` as the bounded-use declaration whose claims state the supported submission and artifact-release operations, their conditions, and the excluded stronger use. Identify `SubmittingResearchersAudienceDeclaration-v1 : U.Episteme` as the audience declaration whose claims select the authorized submitting researchers; those researchers are the declared audience, not a participant substituted for the declaration episteme.
+`EvidenceSynthesisInterfaceDescription-v3 : U.MethodDescription` states that the Method exposes `Submit()` and `ReleaseArtifacts()`, forwards `CrossValidate.Folds(k)`, and encapsulates ad hoc scrubbing utilities. A submitting researcher can use this boundary account to distinguish supported calls from internal operations.
 
-`PublicationExpressionRelation(EvidenceSynthesisInterfaceDescription-v3, SubmissionReleaseBoundaryAccountExpression-v3, SubmissionAndArtifactReleaseUse)`, `PublicationExpressionBearingRelation(EvidenceSynthesisMethodsPage-2026-07, SubmissionReleaseBoundaryAccountExpression-v3)`, and `PublicationFormConformanceRelation(SubmissionReleaseBoundaryAccountExpression-v3, SubmissionReleaseBoundaryAccountForm-v3)` must obtain. The same expression witnesses the corresponding `PublicationFormExpressionRelation` and `PublicationFormBearingRelation` claims. `ResearchPublicationSystem` performs the separate `EvidenceSynthesisInterfacePublicationWork-2026-07 : U.Work`, which may establish or restore availability. The distinct `EvidenceSynthesisInterfacePublication-2026-07` occurrence of `EpistemePublicationRelation` has the five fixed participants `<EvidenceSynthesisInterfaceDescription-v3, SubmittingResearchersAudienceDeclaration-v1, SubmissionAndArtifactReleaseUse, SubmissionReleaseBoundaryAccountExpression-v3, EvidenceSynthesisMethodsPage-2026-07>` and carries the description edition's enduring availability to the audience selected by the audience declaration for the bounded use. Publication Work is not a participant of that occurrence. None of these description, declaration, expression, form, carrier, Work, or publication-relation objects creates an interaction, `SlotSpec`, Method part, or composition fact.
+For the published account, `EvidenceSynthesisMethodsPage-2026-07` is the digital carrier of an ordered-text expression of that edition. `SubmittingResearchersAudienceDeclaration-v1` identifies the authorized submitting researchers; `SubmissionAndArtifactReleaseUse` states the supported submission and artifact-release operations, their conditions and any needed stronger-use boundary. If the selected `SubmissionReleaseBoundaryAccountForm-v3` constrains the arrangement, check that this expression conforms to it.
+
+E.24.PUB tests whether the same expression conveys the required claims, is recoverable from that carrier, and is available to the declared audience for that use. Its five participants and maximal continuous availability interval identify the publication occurrence. Uploading or granting access may establish that availability; an assertion of particular publication Work has separate A.13/A.15.1 grounds. Availability alone establishes neither actual use nor the Method's composition facts.
 
 #### B.1.5:5.5 - Ordered Preparation And Simultaneous Performance
 

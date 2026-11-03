@@ -6,12 +6,12 @@ section_id: "B.1.5.RS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.RS/B.1.5.RS__001_intro.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.5.RS — Evaluate a Constituent Method Replacement in Its Encompassing Uses"
   - "B.1.5.RS:intro — Intro"
-line_start: 42745
-line_end: 42749
+line_start: 42747
+line_end: 42751
 dependencies:
   - "A.3.1"
   - "B.1.5"

@@ -6,12 +6,12 @@ section_id: "B.2.4:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__013_sota-echoing.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:10 — SoTA-Echoing"
-line_start: 44594
-line_end: 44601
+line_start: 44605
+line_end: 44612
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,5 +41,5 @@ FPF's construction in B.2.4 preserves capability and functioning claims while de
 
 Obtaining functioning relations and selected in-life flow structures can make a new-whole question live; descriptions and diagrams remain distinct from those facts. Method, method description, work plan, and performed work occurrence must stay separate when capability evidence is interpreted.
 
-When a receiving use consumes agency-characteristic values, interpret the agency-like evidence through A.13's multi-characteristic profile and C.16's measurement discipline, with thresholds stated for that concern. B.2.4 does not create a binary agency kind. A.13:8 identifies the profile's FPF engineering choices and its research motivation.
+When a receiving use consumes agency-characteristic values, select the needed characteristics from A.13's profile and retain the grounds and uncertainty of those values. Use the applicable characteristic and measurement patterns; an actual measurement keeps C.16's measurement conditions. State a concern-specific threshold when the use makes a threshold judgment. B.2.4 does not create a binary agency kind. A.13:8 identifies the profile's FPF engineering choices and its research motivation.
 

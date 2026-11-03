@@ -6,12 +6,12 @@ section_id: "C.41.TF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.TF/C.41.TF__007_bias-annotation.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.41.TF — Construct a Checklist Template That Preserves Its Questions"
   - "C.41.TF:6 — Bias-Annotation"
-line_start: 89388
-line_end: 89393
+line_start: 89398
+line_end: 89403
 dependencies:
   - "C.37"
   - "C.41"

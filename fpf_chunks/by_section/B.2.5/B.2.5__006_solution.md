@@ -6,12 +6,12 @@ section_id: "B.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__006_solution.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:4 — Solution"
-line_start: 44670
-line_end: 44740
+line_start: 44681
+line_end: 44751
 dependencies:
   - "A.1"
   - "A.10"
@@ -110,5 +110,5 @@ Use:
 - `A.10` and `G.6` for evidence and provenance;
 - `B.3` for assurance;
 - `A.20` for its internal-constraint test in a transformation-flow structure and `A.21` for gate decisions;
-- `C.29` for mathematical-lens use.
+- `C.29` for a remaining mathematical representation, correspondence, transfer or reliance question.
 

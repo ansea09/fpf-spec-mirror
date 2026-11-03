@@ -6,16 +6,15 @@ section_id: "B.1.6:3"
 section_title: "Optional Gamma_work Notation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__006_optional-gamma-work-notation.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:3 — Optional Gamma_work Notation"
-line_start: 43205
-line_end: 43215
+line_start: 43215
+line_end: 43225
 dependencies:
   - "A.1"
   - "A.10"
-  - "A.13"
   - "A.14"
   - "A.15.1"
   - "A.15.2"
@@ -36,23 +35,9 @@ dependencies:
   - "C.27"
   - "C.29"
   - "E.17"
-  - "F.6"
   - "G.11"
   - "G.6"
 keywords:
-  - "C.16 measurement work/result episteme"
-  - "Scale/Unit"
-  - "aggregation work"
-  - "allocation/deduplication"
-  - "dated work set"
-  - "edition-pinned aggregation policy"
-  - "provenance"
-  - "resource Characteristic"
-  - "typed aggregation result"
-  - "typed input"
-  - "uncertainty"
-  - "work parthood/phase/overlap"
-  - "work-resource aggregation"
 ---
 
 ### B.1.6:3 - Optional `Gamma_work` Notation
@@ -61,8 +46,8 @@ keywords:
 
 ```text
 Gamma_work(workResourceAggregationRecord, resourceBasis, aggregationPolicy)
-  -> aggregationResultRef, aggregationResultEpistemeRef
+  -> aggregationResultRef [, aggregationResultEpistemeRef when required by the receiving claim or use]
 ```
 
-The notation applies only after the resource Characteristics, C.16 measurement Work and result epistemes, dated Work set, every A.15.1 Work-part relation used by the aggregation, any C.27.TA overlap fact used by it, any separately current non-Work carrier identity and `PhaseOf` relation, accounting boundary and time window, aggregation policy, and dated aggregation Work have been named. The notation then summarizes that recovered aggregation record.
+The notation summarizes an aggregation whose required basis has been recovered: resource Characteristics and input-value grounds; included accounting subjects and any Work-part, temporal-overlap, resource-use or stock relations used by the account; a non-Work carrier phase's identity and `PhaseOf` grounds when that phase is included; accounting scope, time basis and operative rules; and the typed result with its qualifications. Any deliberately asserted measurement or aggregation Work keeps its independent occurrence grounds. The notation adds none of those facts.
 

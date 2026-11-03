@@ -6,12 +6,12 @@ section_id: "B.1.4:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.4 — Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)"
   - "B.1.4:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 42105
-line_end: 42114
+line_start: 42119
+line_end: 42128
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -41,6 +41,6 @@ keywords:
 | A sequence is treated as physical parthood. | Recover ordered relation refs and use contextual aggregation; use part-whole patterns only for part-whole claims. |
 | A phase label is treated as a new system level. | Recover the carrier identity and phase relation. If a clear whole-reidentification question remains, use `B.2` directly; use `B.2.P` first only when emergence-family wording hides the claim kind. |
 | A planning order is treated as performed work. | Use `A.15.2` for work plan and `A.15.1` for dated work occurrence. |
-| A resource total is placed inside temporal aggregation. | Use `B.1.6` for the work-resource ledger. |
-| A diagram or table is treated as the aggregate. | Recover the Description episteme or publication relation and the EntityOfConcern separately. |
+| A resource total is inferred from temporal coverage without its resource-accounting rule. | Establish the resource claim under `B.1.6`. One account may state both the independently supported temporal and resource results. |
+| A diagram or table substitutes for the independently represented object or relation. | Establish that subject and the representation correspondence. A diagram or table may present or return the actual aggregate result; its form alone establishes neither the represented facts nor their identity. |
 

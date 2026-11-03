@@ -6,12 +6,12 @@ section_id: "C.32.ACS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__001_intro.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set"
   - "C.32.ACS:intro — Intro"
-line_start: 77567
-line_end: 77572
+line_start: 77577
+line_end: 77582
 dependencies:
   - "A.1.1"
   - "A.10"

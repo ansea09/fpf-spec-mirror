@@ -6,12 +6,12 @@ section_id: "C.11.CRC:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__003_problem-frame.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:1 — Problem Frame"
-line_start: 57474
-line_end: 57479
+line_start: 57484
+line_end: 57489
 dependencies:
   - "A.1.CSD"
   - "A.10"

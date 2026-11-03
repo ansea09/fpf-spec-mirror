@@ -6,12 +6,12 @@ section_id: "B.1.5.EW:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.EW/B.1.5.EW__008_conformance-checklist.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work"
   - "B.1.5.EW:7 — Conformance Checklist"
-line_start: 42690
-line_end: 42698
+line_start: 42692
+line_end: 42700
 dependencies:
   - "A.15.1"
   - "A.22.CGUS"
@@ -27,7 +27,7 @@ keywords:
 - Can the reader identify the action and actual or proposed work being explained?
 - Is each claimed encompassing connection explained through performed or proposed organization, rather than timing or importance alone?
 - Are the needed constituents recoverable without indefinite decomposition?
-- Does a consequential change in whole conditions produce an intelligible change in the action?
+- Does the account explain whether and how relevant changes in whole conditions affect the selected action or its coordination?
 - Are genuine result dependencies and relevant external support retained?
 - Does the result identify a useful continuation without claiming that recognition establishes success or assurance?
 

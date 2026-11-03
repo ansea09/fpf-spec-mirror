@@ -6,12 +6,12 @@ section_id: "F.0.2.RC:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.2.RC/F.0.2.RC__001_intro.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "F.0.2.RC — Test Constructive Coverage and Refresh Dependent Explanations"
   - "F.0.2.RC:intro — Intro"
-line_start: 118496
-line_end: 118501
+line_start: 118506
+line_end: 118511
 dependencies:
   - "A.10.1"
   - "A.3.1.CC"

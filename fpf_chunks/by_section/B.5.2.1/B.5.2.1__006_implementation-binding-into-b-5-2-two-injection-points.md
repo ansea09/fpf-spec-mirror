@@ -6,12 +6,12 @@ section_id: "B.5.2.1:5"
 section_title: "Implementation & Binding into B.5.2 (two injection points)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__006_implementation-binding-into-b-5-2-two-injection-points.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.5.2.1 — Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)"
   - "B.5.2.1:5 — Implementation & Binding into B.5.2 (two injection points)"
-line_start: 50170
-line_end: 50206
+line_start: 50185
+line_end: 50216
 dependencies:
   - "A.17"
   - "A.18"
@@ -36,7 +36,7 @@ When the pattern is imported, use NQD-Generate for the selected generation contr
 **Step 3 — Plausibility filters.** Apply B.5.2’s plausibility criteria, now with explicit hooks:
 
 * **Falsifiability / probeability** → require an interpretable implication or possible discriminating contrast under B.5.2. Keep a meaningful conjecture distinguishable from the present availability or worth of its check.
-* **Explanatory power** → prioritize candidates whose *Q‑improvements* (and attached rationales) align with the framed anomaly.
+* **Explanatory power** → prioritize candidates whose *Q-improvements* and attached rationales address the stated explanatory question.
 
 Apply B.5.2 to return a qualified prime conjecture when its comparison warrants one, or an explicit abort, defer or split result. Deduction, evidence acquisition and action choice remain separate questions.
 
@@ -47,19 +47,14 @@ Primary dominance test: compute the (ε-)Pareto front over the declared `Dominan
 > **Tie-breakers:** use only the constituted `Novelty@context`, `ΔDiversity_P` or `Surprise` results named by the active C.19 policy. `IlluminationSummary` remains report-only unless that policy names a tie-break or promoted use. Unused optional readings need not be produced.
 > **Archive:** `K=1`, `ε=0`, deduplication in `CharacteristicSpace`.
 > **Policy family:** one uncertainty-aware explore policy family with one declared regime key; `UCB`-class with moderate temperature and `explore_share ≈ 0.3–0.5` is one didactic starter profile, not the semantic default family.
-> **Provenance (minimum):** record `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `EmitterPolicyRef`, `TimeWindow`, `Seeds`.
+> **Provenance (minimum):** record `DescriptorMapRef.edition`, `EmitterPolicyRef`, `TimeWindow`, and the seeds used; include `DistanceDefRef.edition` when the run uses a distance definition.
 
-“**Scope‑of‑claim annotation (descriptive).** Record the **BoundedContext** and **TimeWindow** that delimit where each **N/Q/D** measurement is intended to hold; this is for reasoning traceability only (no operational gates).”
+**Scope of the coordinate claims.** Record the **BoundedContext** and **TimeWindow** that qualify each coordinate result.
 
 Note — Status `Surprise` (scope and default role):
 Use `Surprise` as a secondary tie-break only when the active C.19 policy names that use, among candidates otherwise Pareto-equivalent on the declared primary characteristics. A policy may explicitly promote `Surprise` into dominance with its constituted basis. If the policy does not use `Surprise`, omit that reading.
 
-#### B.5.2.1:5.1 - Creative-generation consistency with the declared dominance doctrine
+#### B.5.2.1:5.1 - Distinguish the returned results
 
-- When candidate generation speaks about fronts, use the declared `DominanceSet` for the front and keep archive retention separate when archive mode is active.
-- Do not write novelty or diversity terms into the front definition merely because they are important to archive quality or exploration value.
-- If one generator emits both a front-facing result and an archive-facing result, say which surface each result belongs to.
-- If one generator speaks about selected results, keep that language in the shortlist family rather than silently reusing front language.
-- Prefer wording like `front over the declared DominanceSet, plus the corresponding ExplorationArchive when archive mode is active` over wording that folds `Q`, novelty, and diversity into one default front by habit.
-- The local generation story should stay consistent with the declared `Front`, `Archive`, and `Shortlist` language so comparison stays intelligible and lawful.
+Keep three results distinct: the front records non-domination under the declared `DominanceSet`; the `ExplorationArchive` records retention under its policy; a shortlist records the set selected for a named receiving use. Label each result supplied by the generator and preserve the complete front before any thinning.
 

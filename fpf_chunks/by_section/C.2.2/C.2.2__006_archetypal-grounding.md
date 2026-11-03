@@ -6,18 +6,19 @@ section_id: "C.2.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__006_archetypal-grounding.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:5 — Archetypal Grounding"
-line_start: 52713
-line_end: 52742
+line_start: 52723
+line_end: 52752
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.2.6"
   - "A.21"
   - "A.6.3.RT"
+  - "A.6.3.RT.OE"
   - "B.1.3"
   - "B.3"
   - "B.3.3"
@@ -46,8 +47,8 @@ keywords:
   - "TA/VA/LA lanes"
   - "direct relation"
   - "evidence-bound"
-  - "non-aggregate synthesis"
   - "pathwise justification (PathId)"
+  - "qualitative synthesis"
   - "support dependencies"
   - "warrant"
   - "weakest-link limits"
@@ -68,10 +69,10 @@ Informative; non-binding.
 * Evidence:
 
   * VA: model-checking of a simplified plant/controller model (strong, but only for the simplified plant).
-  * LA: HIL simulation + track tests under sampled conditions with recorded telemetry windows (freshness required).
+  * LA: HIL simulation + track tests under sampled conditions, with the observation windows and any currentness qualification required by the receiving claim.
   * TA: typed alignment between “μ” in simulations, “μ” in the estimation pipeline, and “μ” inferred from real-world sensors.
 
-If track telemetry is used as evidence for the road claim, establish the exact A.10 or B.3 evidence-use and reliance claim, including the road claim, telemetry edition, operating scope, validity window, and intended use. Apply only the fit or loss declared for that evidence reuse; `G(c1)` changes only through a separate A.2.6 scope revision.
+If track telemetry is used as evidence for the road claim, establish the grounds for that reuse, including the road claim, telemetry edition, operating scope, intended use, and any validity window on which that use depends. Apply only the fit or loss declared for that evidence reuse; `G(c1)` changes only through a separate A.2.6 scope revision.
 
 #### C.2.2:5.2 - Episteme illustration
 
@@ -80,6 +81,6 @@ If track telemetry is used as evidence for the road claim, establish the exact A
 * `c2:` “A terminates for all inputs in domain D.” (axiomatic / proof-carrying)
 * `c3:` “A achieves ≥ 0.92 F1 on dataset family F under deployment preprocessing P.” (empirical)
 
-`c2` can achieve high VA with a proof carrier; its LA lane may be N/A, but its TA lane remains relevant because the intended meaning of “domain D” must align with the implementation’s input model.
-`c3` requires LA evidence and a freshness or shift policy because dataset and preprocessing drift can change both scope and warrant. For production use, state the exact dataset/preprocessing relation and the A.10 or B.3 evidence-reuse claim, then apply its declared loss to `R_eff`; change `G` separately if the production claim has another scope.
+`c2` can achieve high VA through its proof under the stated axioms and domain; an empirical LA contribution may be N/A. If the conclusion is also used for an implementation, establish the correspondence between “domain D,” the proved algorithm and that implementation’s input and execution model.
+`c3` needs empirical support for its stated dataset and preprocessing conditions. For production use, establish the dataset/preprocessing applicability and the grounds for reusing that evidence, then apply the warranted loss of that reuse to `R_eff`; change `G` separately if the production claim has another scope. Use B.3.4 when changed conditions or an applicable review rule can alter that support; retain any required validity window or shift condition. An unchanged bounded use with still-applicable support needs no new freshness policy.
 

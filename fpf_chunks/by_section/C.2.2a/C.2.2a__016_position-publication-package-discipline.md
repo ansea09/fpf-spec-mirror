@@ -6,12 +6,12 @@ section_id: "C.2.2a:14"
 section_title: "Position Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__016_position-publication-package-discipline.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:14 — Position Publication Package Discipline"
-line_start: 53058
-line_end: 53069
+line_start: 53068
+line_end: 53079
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -46,13 +46,13 @@ keywords:
 
 ### C.2.2a:14 - Position Publication Package Discipline
 
-A publishable row contains the exact episteme publication, the decision-relevant facet readings or intervals, their grounds, and any local threshold used by the named next action. Add form, face, carrier, freshness, or inherited pins only when the receiving use relies on them.
+An account of a chart position identifies the exact episteme publication, the decision-relevant facet readings or intervals, their grounds, and any local threshold used by the named next action. Add form, face, carrier, freshness, or inherited pins only when the receiving use relies on them.
 
 Minimum self-check:
 
-1. Does the row name the positioned episteme publication rather than a ground, form, face, or carrier?
+1. Does the account name the positioned episteme publication rather than a ground, form, face, or carrier?
 2. Does it state every facet that can change the named next action and mark a relevant unknown as unknown?
 3. Are the grounds and any relied-on local threshold recoverable?
-4. Does the row say whether its readings meet the named action's threshold, fail it, or leave the result undecided, while the receiving pattern governs the action?
+4. Does the account supply the position facts needed by the receiving question and, if a local threshold is used, say whether the readings meet it, fail it or leave the result undecided, while the receiving pattern governs the action?
 5. If the use depends on distinct local meanings, was F.9 tested on the two exact local senses rather than inferred from similar wording?
 

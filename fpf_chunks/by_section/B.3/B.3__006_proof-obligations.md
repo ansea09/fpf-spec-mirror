@@ -6,12 +6,12 @@ section_id: "B.3:5"
 section_title: "Proof obligations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__006_proof-obligations.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.3 — Is This Claim Supported for This Use? — Trust and Assurance Calculus"
   - "B.3:5 — Proof obligations"
-line_start: 45028
-line_end: 45049
+line_start: 45041
+line_end: 45062
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -43,7 +43,7 @@ Every positive or narrowed B.3 result:
 
 1. identifies the exact target claim and named assurance use;
 2. cites only basis results and relations that actually bear on that use;
-3. states assumptions, limitations, and unsupported stronger uses;
+3. states applicable assumptions and limitations, including any unsupported stronger use relevant to the receiving decision;
 4. keeps target fact, claim, evidence, assessment, result, record, publication, and later use distinct;
 5. names a reopen condition;
 6. uses the direct domain rule for every safety, permission, access, status, release, responsibility, or controlled-action premise;
@@ -51,7 +51,7 @@ Every positive or narrowed B.3 result:
 
 #### B.3:5.2 - Additional obligations for a calculated result
 
-A calculated result also names every bearer, characteristic, scale, unit, dependency, calibrated mapping, aggregation rule, and calculation. It shows at least one assumption whose failure changes the result. If a rival rule is plausible at comparable effort, show why the selected rule fits the declared dependency structure.
+A calculated result also names every bearer, characteristic, scale, applicable unit, dependency, calibrated mapping, aggregation rule and calculation it uses. Explain sensitivity to assumption failures when it matters for the named assurance use. If a rival rule is plausible at comparable effort and could change the result or its warranted use, show why the selected rule fits the declared dependency structure.
 
 #### B.3:5.3 - Additional obligations for replay
 

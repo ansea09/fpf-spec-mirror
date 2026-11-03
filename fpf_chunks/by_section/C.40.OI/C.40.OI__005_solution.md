@@ -6,12 +6,12 @@ section_id: "C.40.OI:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OI/C.40.OI__005_solution.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.40.OI — Bound an Opportunity Inquiry"
   - "C.40.OI:4 — Solution"
-line_start: 86552
-line_end: 86650
+line_start: 86562
+line_end: 86660
 dependencies:
   - "A.15.9"
   - "B.5.PI"

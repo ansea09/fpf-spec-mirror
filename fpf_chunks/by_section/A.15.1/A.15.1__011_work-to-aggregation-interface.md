@@ -6,7 +6,7 @@ section_id: "A.15.1:9"
 section_title: "Work-to-aggregation interface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__011_work-to-aggregation-interface.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:9 — Work-to-aggregation interface"
@@ -56,11 +56,11 @@ keywords:
 
 ### A.15.1:9 - Work-to-aggregation interface
 
-`A.15.1` makes the occurrence-side inputs recoverable without storing them in the occurrence: a separate assertion or description episteme designates exact Work individuals or work parts and states their temporal extents and the separately obtaining resource-use relations selected for aggregation. `B.1.4` identifies the temporal-aggregation claim and result; `B.1.6` identifies the resource-aggregation claim, ledger, and result. Neither becomes a Work field.
+`A.15.1` makes the occurrence-side inputs recoverable without storing them in the occurrence: a separate assertion or description episteme designates exact Work individuals or work parts and states their temporal extents and the separately obtaining resource-use relations selected for aggregation. `B.1.4` identifies the temporal-aggregation claim and result; `B.1.6` identifies the resource-aggregation claim and result; a ledger may convey that account. These aggregation accounts remain distinct from Work-occurrence identity.
 
 #### A.15.1:9.1 - Temporal aggregation return
 
-For utilization, lead time, cycle time, phase coverage, or another temporal roll-up, use `B.1.4`. Name the exact work refs, carrier or aggregation concern, time window, coverage and non-overlap conditions, aggregation policy, and admissible use there. Union, convex hull, and optional `Gamma_time` notation are properties of that recovered temporal aggregation, not fields or identity invariants of a Work occurrence.
+For utilization, lead time, cycle time, phase coverage or another temporal roll-up, use `B.1.4`. Recover the Work intervals, aggregation concern, time basis, selected combining rule, conditions it consumes and admissible use. An adequate ordinary account can state the result; a separate record is needed only by its receiving use. Union, convex hull and optional `Gamma_time` notation concern that temporal aggregation, not Work-occurrence identity.
 
 When the exact `B.1.4` result selects the Work-interval profile, retain these use-specific choices:
 
@@ -72,7 +72,7 @@ Never switch union and hull silently between KPIs. The formulas above profile a 
 
 #### A.15.1:9.2 - Resource aggregation return
 
-For a total or ledger over performed resource-use facts, use `B.1.6`. Name the exact work refs, typed resource-accounting basis, units, measurement or evidence refs, holon delimitation, time window, overlap or deduplication policy, aggregation rule, and admissible use there. Additivity, allocation, traceability, the aggregate ledger, and optional `Gamma_work` notation belong to that recovered resource-aggregation claim, not to Work-occurrence identity.
+For a total or ledger over performed resource-use facts, use `B.1.6`. Recover the Work participants, typed resource values with applicable units and attribution grounds, accounting scope, time basis, aggregation rule and admissible use. Establish any holon-delimitation, overlap, allocation or deduplication facts used by the account. An adequate existing statement or ledger can suffice. Additivity, allocation, traceability and optional `Gamma_work` notation concern the resource aggregate, not Work-occurrence identity.
 
 **Filled heterogeneous BuildOps route.** Published case-local specification `BuildOpsResourceUseRelations-v12` declares `BuildWorkUsesResource@BuildOps-v12(work, resource, amount, unit, extent)` with participant order `<work, resource, amount, unit, extent>`. Its test requires the named Work actually to occupy or consume the named resource during that extent, with the amount measured in the named unit. Separate case facts state that `ReleaseBinary12_BuildWork_2026-07-21T0900_0912` occupied `BuildPoolCPU_A` for `24` `runner-core-minute` during `09:00-09:12`, and consumed `0.84` `kWh` of `GridElectricity_BuildZone3` within `BuildService_A_Delimitation-v12` during the same extent. Those facts make relation occurrences `BuildRunUsedCPU_12` and `BuildRunUsedElectricity_12` obtain with those exact participant tuples. `BuildRunnerAllocationEvidence_12` and `BuildZone3EnergyMeasurement_12` support the facts; neither record is the resource use, and neither relation is a field of the Work.
 

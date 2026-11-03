@@ -6,12 +6,12 @@ section_id: "B.1.5.CM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5.CM/B.1.5.CM__001_intro.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.5.CM — Construct and Qualify a Composite Method"
   - "B.1.5.CM:intro — Intro"
-line_start: 42912
-line_end: 42918
+line_start: 42914
+line_end: 42920
 dependencies:
   - "A.3.1"
   - "B.1.5"
@@ -26,5 +26,5 @@ keywords:
 > **Type:** Method pattern
 > **Status:** Stable
 
-> **Primary working result:** either a bounded composition result whose whole, participants, and load-bearing relations are independently supported, or a **prospective candidate Method account** with proposed relation sets, guards, variation, recovery, stops and unresolved conditions needed by its receiving use. Writing the account creates neither the Method nor an obtaining architecture.
+> **Primary working result:** a bounded composition result whose whole, participants, and load-bearing relations are independently supported; a **prospective candidate Method account**; or a useful narrower claim. Include the proposed relation sets, conditions and unresolved questions needed by the receiving use. Writing the account creates neither the Method nor an obtaining architecture.
 

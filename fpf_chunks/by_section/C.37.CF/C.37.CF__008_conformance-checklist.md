@@ -6,12 +6,12 @@ section_id: "C.37.CF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.37.CF/C.37.CF__008_conformance-checklist.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.37.CF — Compare Content and Form Changes"
   - "C.37.CF:7 — Conformance Checklist"
-line_start: 82466
-line_end: 82475
+line_start: 82476
+line_end: 82485
 dependencies:
   - "A.3.2.DE"
   - "C.2.8"

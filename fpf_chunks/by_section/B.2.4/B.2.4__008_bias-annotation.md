@@ -6,12 +6,12 @@ section_id: "B.2.4:5.4"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__008_bias-annotation.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.2.4 — Do Capability or Functioning Changes Require Whole Reidentification?"
   - "B.2.4:5.4 — Bias-Annotation"
-line_start: 44543
-line_end: 44552
+line_start: 44554
+line_end: 44563
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,6 +42,6 @@ keywords:
 | Capability as emergence | A new capability label or supporting report declares a new whole. | Recover the exact capability facts and direct pattern, separate their evidence, and perform B.2's ordinary existing-whole comparison. |
 | Function as part | A function block or functioning relation becomes physical or organizational parthood. | Separate functioning relation, bearer allocation, selected structure, and part-whole claims. |
 | Method chain as whole | A sequence of methods or work stages is called a new holon. | Keep method, method description, work plan, and work occurrence with subject patterns. |
-| Diagram as flow structure | A diagram or graph is treated as the in-life transformation-flow structure. | Use the mathematical, description, publication, and selected-structure patterns before B.2. |
-| Metric jump as MHT | A benchmark, KPI, robustness, or threshold gain declares whole reidentification. | Use C.16, A.19, A.10, and B.2 existing-whole explanation before MHT. |
+| Diagram as flow structure | A diagram or graph is treated as the in-life transformation-flow structure. | Recover the described flow and distinguish it from its representation. Use description, publication or mathematical-lens guidance for a live question about those subjects; use E.18 for the selected structure and B.2 for a remaining whole-reidentification question. |
+| Metric jump as MHT | A benchmark, KPI, robustness, or threshold gain declares whole reidentification. | Recover the characteristic/value claim and its grounds, then perform B.2's existing-whole comparison. Use A.10 when a replayable source-to-use account is needed. |
 

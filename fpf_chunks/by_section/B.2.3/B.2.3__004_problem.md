@@ -6,12 +6,12 @@ section_id: "B.2.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__004_problem.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:2 — Problem"
-line_start: 44214
-line_end: 44224
+line_start: 44225
+line_end: 44235
 dependencies:
   - "A.1"
   - "A.10"
@@ -38,10 +38,10 @@ keywords:
 
 Confusing the episteme with its collection, representation, or publication can produce these errors:
 
-1. **Catalogues become theories.** Aggregated publications or dashboards are treated as a new episteme because they are stored together.
+1. **Collection as MHT.** Storing publications together is treated as sufficient for an episteme-result MHT without testing the candidate's constitution and the B.2 comparison.
 2. **Publication form becomes episteme.** A carrier or publication form is mistaken for the claim-bearing episteme it presents.
 3. **Episteme receives agency.** The theory, standard, or doctrine is described as if it performs work or enforces behavior by itself.
-4. **Morphing becomes MHT.** A view, retargeting, coarsening, translation, or model transformation is treated as a new episteme whole.
+4. **Morphing becomes MHT.** A view, retargeting, coarsening, translation, or model transformation is treated as establishing B.2 whole reidentification by itself.
 5. **Assurance is inherited silently.** Trust in constituent sources is treated as trust in the reidentified episteme whole.
 6. **Generic emergence replaces claim structure.** "Emergent theory" hides the actual claim graph, reference scheme, and grounding relation.
 

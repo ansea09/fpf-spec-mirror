@@ -6,7 +6,7 @@ section_id: "A.15.1:4"
 section_title: "Solution — admit dated Work occurrences under U.Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__005_solution-admit-dated-work-occurrences-under-u-work.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "A.15.1 — U.Work: Dated Performed Work Occurrence"
   - "A.15.1:4 — Solution — admit dated Work occurrences under U.Work"
@@ -179,9 +179,9 @@ Preparation is classifiable as one Work individual under `U.Work` only after it 
 
 #### A.15.1:4.5 - Crossing visibility for work publications
 
-When a work publication relies on another selected method-description episteme, name that episteme and the relation the publication actually uses; do not infer an edition from a version label or later date. For a semantic crossing, name the two F.17 sense cells and test the F.9 Bridge predicate profile, then state the proposed action, direction, rule, and tolerated loss in a separate C.2.1 bounded-use claim. For a reference-scheme, claim-scope, model-use, reference-plane, unit, or publication change, cite the direct relation that the publication actually uses. State reliance through the applicable A.10 account of independently established evidence-use relations or the B.3 assurance result.
+When a work publication relies on another selected method-description episteme, name that episteme and the relation the publication actually uses; do not infer an edition from a version label or later date. For a semantic crossing, name the two F.17 sense cells and test the F.9 Bridge predicate profile, then state the proposed action, direction, rule, and tolerated loss in a separate C.2.1 bounded-use claim. For a reference-scheme, claim-scope, model-use, reference-plane, unit, or publication change, cite the direct relation that the publication actually uses. State ordinary evidence reliance through the applicable A.10 account of independently established evidence-use relations, including the same-use RelianceDisposition required by F.9:4.2 for reliance on an affirmative Bridge-use claim. Add a B.3 assurance result only when an actual named assurance claim is current.
 
-When a Work assessment applies a penalty, cite the applicable rule, the conditions under which it applies, and the assessment value it changes. For a calculated adjustment, retain the value's bearer, characteristic, scale and unit, the required calibration or calculation, and the resulting value. Use B.3:4.3–4.4 when an assurance argument consumes that calculation. If its required rule or calibration is unavailable, report the available inputs and leave the adjustment unresolved. These assessments concern the same independently admitted Work occurrence.
+When a Work assessment applies a penalty, cite the applicable rule, the conditions under which it applies, and the assessment value it changes. For a calculated adjustment, retain the value's bearer, characteristic, scale and applicable unit, the required calibration or calculation, and the resulting value. Use B.3:4.3–4.4 when an assurance argument consumes that calculation. If its required rule or calibration is unavailable, report the available inputs and leave the adjustment unresolved. These assessments concern the same independently admitted Work occurrence.
 
 A claim that a planned, gate-selected, or launch-labelled value was actually used requires a named direct predicate with its actual participants to obtain, or an exact A.6.1 operation-application binding to connect one identified application to that value. If the required predicate or binding rule is undefined, keep the planned designation and return `missing-governor[actual-use]`. If the rule exists but its positive test fails or lacks a deciding fact, keep the planned designation and return `factually unsupported` or `missing-information`, respectively. Do not back-fill a plan or infer an actual binding from shared wording. Pre-state and post-state references remain with an independently governed transformation or comparison claim; bracketing the Work interval does not bind them to the occurrence.
 

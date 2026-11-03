@@ -6,12 +6,12 @@ section_id: "B.4.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__012_sota-echoing.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.4.1 — Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)"
   - "B.4.1:11 — SoTA-Echoing"
-line_start: 46101
-line_end: 46103
+line_start: 46116
+line_end: 46118
 dependencies:
   - "A.15"
   - "A.16"
@@ -30,10 +30,9 @@ dependencies:
   - "C.2.7"
   - "C.2.LS"
   - "C.22.1"
-  - "F.9.1"
 keywords:
 ---
 
 ### B.4.1:11 - SoTA-Echoing
-This matches practice in incident triage, exploratory design, model probing, and embodied cue work, where routing follows stabilization rather than appearing fully formed at first observation.
+For the operator question in §13.1, the response-time clause and the latency rise support different possible continuations. Calling the alert an established duty would settle clause applicability without grounds; retaining only the cue would leave the proposed continuations implicit. Adapting A.16's distinction between preservation and routing, §4 publishes those continuations and the grounds needed for any choice, while §13.1 retains intervention and inquiry alongside the duty question. This comparison supports that bounded gain at the cost of publishing and maintaining the route account. Existing content can serve as that publication when it already exposes the needed distinctions. Reconsider the route set when its grounds or the receiving question change.
 

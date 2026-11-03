@@ -6,12 +6,12 @@ section_id: "B.1.3:5"
 section_title: "Archetypal grounding (worked, didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__006_archetypal-grounding-worked-didactic.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.1.3 — Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation"
   - "B.1.3:5 — Archetypal grounding (worked, didactic)"
-line_start: 41809
-line_end: 41850
+line_start: 41807
+line_end: 41848
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,7 +48,7 @@ keywords:
 This is a didactic evidence-composition case, not a clinical recommendation. The receiving question concerns a treatment's pain outcome for an identified acute low-back-pain population within six weeks. The exact population and outcome, not a label or taxonomy operation, identify the subject.
 
 * **Inputs:** `E₁` is a randomized trial, `E₂` an observational study, and `E₃` a mechanistic model. Retain their designs, findings, uncertainty, assumptions, and scope. A bare “R=0.84/0.55/0.60” list has no declared common quantity here and cannot support a numerical aggregate. Likewise, “medium/wide/narrow” is not a substitute for actual ClaimScope.
-* **Synthesis:** record the protocols, datasets and analysis scripts used, together with the concrete carriers from which they were obtained, in the SCR. Establish any dosage or outcome mapping from its actual measurement basis; units named mg and IU do not themselves establish a conversion. Keep chronic cohorts and different outcomes separate unless a warranted transport relation supports the receiving claim.
+* **Synthesis:** record the source findings and the protocol, dataset or analysis details on which the synthesis relies. Include carrier information when the receiving use needs it. Establish any dosage or outcome mapping from its actual measurement basis; units named mg and IU do not themselves establish a conversion. Keep chronic cohorts and different outcomes separate unless a warranted transport relation supports the receiving claim.
 * **Necessary-premise case:** if the proposed inference requires an outcome mapping that is unsupported, withhold that mapped inference. Retain the trial's narrower source-scale conclusion rather than discard every source.
 * **Complementary case:** a limited `E₂` may help assess a confounding explanation left open by `E₁`; `E₃` may constrain a mechanism without establishing the clinical effect size. Explain those contributions and their limits. The minimum of three unexplained scores neither captures them nor defeats the existing trial conclusion.
 * **Dependence case:** if two reports reuse a cohort or share an outcome-measurement bias, do not count them as two independent confirmations. Different designs alone are insufficient to establish different biases.
@@ -57,9 +57,9 @@ This is a didactic evidence-composition case, not a clinical recommendation. The
 
 **Concrete completion of the case.** Use the following invented findings only to illustrate the synthesis. `P` is the trial's enrolled acute low-back-pain cohort; `S` is its identified high-baseline-severity subgroup. `E₁` reports lower pain at six weeks with intervention X than with its comparator, both in P and in S. `E₂` reports no such benefit in a separately observed cohort matching S; the sources have not resolved whether confounding or another difference explains the disagreement. `E₃` supplies a mechanism compatible with benefit but no clinical effect estimate. No common quantitative support model is available.
 
-The resulting guidance statement is: “The trial supports lower recorded pain at six weeks for X versus its comparator in P. The finding for S conflicts with the observational result and remains unresolved. The mechanism explains how benefit could occur but does not resolve that conflict or establish its magnitude. These sources support neither extrapolation beyond P and six weeks nor a combined reliability score.” The SCR retains all three contributions. A supported explanation of the disagreement or a corrected source result reopens the affected claim. A request for another population opens a separate question and synthesis. Identify the new claim, its subject and scope (C.2.1; A.2.6), and establish the evidence or warranted transport needed for that use. The request alone leaves the result for P unchanged. This is a completed bounded synthesis of the fictional findings, not advice to use X.
+The resulting guidance statement is: “The trial supports lower recorded pain at six weeks for X versus its comparator in P. The finding for S conflicts with the observational result and remains unresolved. The mechanism explains how benefit could occur but does not resolve that conflict or establish its magnitude. These sources support neither extrapolation beyond P and six weeks nor a combined reliability score.” The source-contribution account retains all three contributions. A supported explanation of the disagreement or a corrected source result reopens the affected claim. A request for another population opens a separate question and synthesis. Identify the new claim, its subject and scope (C.2.1; A.2.6), and establish the evidence or warranted transport needed for that use. The request alone leaves the result for P unchanged. This is a completed bounded synthesis of the fictional findings, not advice to use X.
 
-For **Γ_epist^compile**, map the retained claims into the journal's scheme, carry the same limitations and any justified recalculation, and produce the compilation SCR and required hashes. C.2.1 identifies the target-scheme episteme “Guidance Statement v1.0”; later journal publication remains a separate occurrence.
+For **Γ_epist^compile**, map the retained claims into the journal's scheme, carry the same limitations and any justified recalculation, and preserve the source-contribution account with any SCR or carrier-integrity details required by the receiving use. C.2.1 identifies the target-scheme episteme “Guidance Statement v1.0”; later journal publication remains a separate occurrence.
 
 #### B.1.3:5.2 - Episteme — **Controller proof and a real protective function**
 

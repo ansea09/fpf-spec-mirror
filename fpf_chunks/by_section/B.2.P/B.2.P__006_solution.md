@@ -6,12 +6,12 @@ section_id: "B.2.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__006_solution.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "B.2.P — Clarify Emergence and Meta-Holon Transition (MHT) Claims"
   - "B.2.P:4 — Solution"
-line_start: 43766
-line_end: 43838
+line_start: 43777
+line_end: 43849
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -71,14 +71,14 @@ Retain the source phrase beside the recovered claim and replacement only when th
 | Capability or functioning facts that make whole reidentification live; evidence separately supports the claim | `B.2.4` under B.2 | generic capability, generic function, or all functioning |
 | Ordinary capability claim | `A.2.2` and `C.16` | MHT |
 | Function or functioning claim | `A.6.F`, `A.3.4`, `C.30.TFS-REL`, `C.16`, or subject pattern named by value | `U.Emergence` or MHT by wording |
-| Whole-level characteristic or threshold | `C.16`, `A.19`, `A.13`, evidence-use patterns | new whole by metric alone |
-| Architecture-induced property or residual | `C.30`, `A.22`, `C.30.ASV`, `C.30.TFS-REL`, `C.30.ILC`, and `C.29` when mathematical lens is current | MHT unless B.2 reidentification is recovered |
+| Whole-level characteristic or threshold | `C.16` and `A.19` for the characteristic, bearer and criterion; `A.13` for a separate agency or agency-profile question; evidence-use patterns for a needed support or reliance account | new whole by metric alone |
+| Architecture-induced property or residual | `C.30` for the architecture contribution and `A.22` for a selected organization; `C.30.ASV` for a needed structural-view qualification, `C.30.TFS-REL` for a selected transformation-flow structure or network, and `C.30.ILC` for a cross-scope or interlevel residual. Use `C.29` for a remaining mathematical representation, correspondence, transfer or reliance question. | MHT unless B.2 reidentification is recovered |
 | Selected dependent `U.Structure`, including bounded model use | `A.22`, `A.1.1`, and the direct patterns for its selected relation occurrences | a holon, acting agent, system part, or new whole named by an MHT claim merely by selection or name |
 | Several actual changes in one work or flow | `A.3.4` for each independently identified change | a composite transformation, transformation parthood, holonhood, or atomism without a direct composition governor |
-| Mathematical emergence, scale, coarse-graining, graph, morphism, benchmark, or MSPD expression | `C.29` plus the direct subject pattern | ontology by mathematical spelling |
-| Metric or benchmark mirage | `C.16`, `A.10`, `C.29`, source-use, and evaluation patterns | MHT or system admission |
+| Mathematical emergence, scale, coarse-graining, graph, morphism, benchmark, or MSPD expression | Apply the mathematical rule and direct subject pattern to the recovered claim; an adequate calculation can finish. Use `C.29` for a remaining representation-choice, correspondence, transfer or reliance question. | ontology by mathematical spelling |
+| Metric or benchmark mirage | Identify the characteristic or benchmark and its measurement or evaluation rule, retaining the source and correspondence grounds the inference uses. Apply `A.10` for a needed source-to-use account and `C.29` for a remaining mathematical representation or transfer question. | MHT or system admission |
 | Collection or collective wording mixed with emergence, MHT, or synergy | First recover membership, collection-as-whole, acting collective, whole-level characteristic, or MHT | collection admission by B.2.P |
-| Publication, model, dashboard, theory-text, or report claim | `C.2.1`, `E.17`, `C.30.AD`, `E.17.*`, source-use, or episteme patterns | in-life whole by description alone |
+| Publication, model, dashboard, theory-text, or report claim | `C.2.1` for episteme identity and content; `E.17` for a needed publication face; `E.24.PUB` for publication, availability, expression or carrier distinctions; `C.30.AD` for an architecture-description question; a source-use pattern for the corresponding source claim | in-life whole by description alone |
 
 #### B.2.P:4.3 - Whole-Reidentification Recovery
 
@@ -88,7 +88,7 @@ When claim-kind recovery leaves a whole-reidentification question, first establi
 2. name each changed delimitation, constituent, constructive relation, assembly, supervision, objective, capability, characteristic, or temporal fact and its subject pattern;
 3. perform B.2:4.2's comparison: retain the whole when a supported explanation meets the use under its identity rule; establish insufficiency from a violated necessary condition or an independently closed comparison; otherwise leave the deciding question unresolved;
 4. when the comparison establishes that the prior whole is insufficient, require B.2 and execute the complete A.1 criterion: designate the candidate as an exact `U.Entity`; recover its constituents, obtaining constructive relations, assembly, reidentification rule, and composition-grounded whole characteristic; show that its actual boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy at least one applicable governed larger-assembly construction method or rule under which it can remain a constituent; then name its already admitted kind and satisfy the direct kind-specific criterion;
-5. state whether the direct identity rules preserve the same whole or require a new whole for the current subject claim;
+5. return the supported result: the existing whole suffices, its insufficiency is established, or a deciding question remains unresolved. In the new-whole branch, report the candidate recognition result separately; a failed or unresolved candidate test does not establish that the old whole suffices;
 6. only when a specific downstream task must inspect or cite the decision, identify any separate assertion or record, supporting evidence and warrant, G.11 currentness result, and rely, decline, defer, or reopen decision. Follow B.2:4.3–4.4 for conditional assurance and for typed references to an established result; a preliminary, failed, or unresolved evaluation can be retained in the optional assertion without declaring a positive holon result.
 
 Evidence availability, an evaluation value, a record field, and receiving reliance neither construct the candidate nor decide whether the existing whole continues or a new whole must be identified. If the candidate, a required constructive fact, or the larger-assembly compatibility condition lacks a defining rule or needed grounds, stop and name that gap.
@@ -101,7 +101,7 @@ If the claim is plain collection admission:
 
 - use `A.14` for membership and part-whole relation vocabulary;
 - use `C.13` for collection-as-whole constructional grounding;
-- use `B.3.5` for working-model assurance grounding;
+- use `B.3.5` for working-model assurance grounding when that profile is elected by publication choice or a named requirement;
 - use `A.1` for an acting collective admitted as `U.System`; use `A.15` for a separate alignment question and A.2 patterns for the exact system-role-kind or assignment claim when either is current;
 - use `C.16` for a whole-level characteristic.
 
@@ -114,7 +114,7 @@ Treat source labels and short forms as recognition cues until the concrete thing
 - `MET` may point to a claim that the candidate new whole is an episteme, source-title wording, episteme morphing, publication synthesis, or a source-only phrase. Identify the concrete claim before use.
 - `MFT` may point to capability and functioning whole reidentification, a functional-structure view, function-like wording, method and work collapse, or source-only phrase. Recover before use.
 - `promotion` may hide whole reidentification, status change, release, gate, publication, or project process wording. Recover before use.
-- `post*` fields do not survive as generic governed names. When B.2 is current, name the exact candidate new whole and its already admitted holon kind directly; cite an optional classification assertion or reidentification record only when receiving work needs that episteme.
+- `post*` fields do not survive as generic governed names. State the B.2 comparison result and remaining question directly. When the new-whole branch is selected, identify its candidate and test its kind under the direct subject pattern; cite a separate classification assertion or reidentification record only when receiving work needs that episteme.
 
 Do not treat the source label as a subject-pattern locator merely because it is recognizable.
 

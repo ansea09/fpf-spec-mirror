@@ -6,12 +6,12 @@ section_id: "C.2.2a:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__006_solution.md"
-commit_sha: "d5df418106507cff0972788834c0bf8825597de0"
+commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
 heading_path:
   - "C.2.2a — Language-State Chart over U.CharacteristicSpace"
   - "C.2.2a:4 — Solution"
-line_start: 52894
-line_end: 52974
+line_start: 52904
+line_end: 52984
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -93,7 +93,7 @@ C.2.2a governs the coordinate reading of the position claim. Keep that claim dis
 
 A published position states the exact episteme publication, the facet readings that matter to the present use, and the grounds for those readings. A decision-relevant unknown is stated as `unknown`; unrelated facets need not be filled merely to complete a form.
 
-Add the local threshold and named next action only when the row is used for movement, routing, comparison, or endpoint entry. If that action also requires a source, evidence or interaction condition, state or cite its predicate beside the coordinate test; the condition does not become a Coordinate by being included in the same row. Add publication form, MVPK face, carrier, or SCR/RSCR lane only when that distinction affects interpretation, preservation, distribution, or the next action.
+For a movement, routing, comparison or endpoint use, name the receiving action and any language-state threshold it actually uses. If that action also requires a source, evidence or interaction condition, state or cite its predicate beside the facet readings; the condition does not become a Coordinate by being included in the same account. Add publication form, MVPK face, carrier, or SCR/RSCR lane only when that distinction affects interpretation, preservation, distribution, or the next action.
 
 The position is reviewable when the named or inherited episteme publication, relevant readings, grounds, and any relied-on threshold are recoverable, and when any form, face, or carrier actually mentioned remains distinct from the positioned episteme publication. A polished note or better carrier does not by itself prove a new chart position.
 
@@ -121,7 +121,7 @@ Positions may be compared directly only under one shared chart meaning and the a
 
 If no Bridge obtains, preserve both local positions. Name the actual comparison or translation relation needed by the receiving use, or return the applicable missing-governor result instead of inventing correspondence.
 
-#### C.2.2a:4.10 - What changes after the row exists
+#### C.2.2a:4.10 - Use the recovered position
 
-Compare the relevant readings with the local threshold named by the next action. Use the result to decide whether to keep the publication where it is, route it through a seam or prompt pattern, open a facet or endpoint question, or stop because a required reading is unknown. The receiving pattern governs the actual route, comparison, or publication decision; the chart row supplies only the position facts that decision uses.
+Use the position facts for the named receiving question. If the next action uses a local threshold, compare the relevant readings with it and state whether they meet it, fail it or leave the result undecided. Use the supported result to decide whether to keep the publication where it is, route it through a seam or prompt pattern, or open a facet or endpoint question. An unknown reading prevents only the action or conclusion that requires it. The receiving pattern governs the actual route, comparison or publication decision.
 
