@@ -6,12 +6,12 @@ section_id: "C.3.4:6"
 section_title: "Norms and Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__008_norms-and-invariants.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:6 — Norms and Invariants"
-line_start: 55942
-line_end: 55971
+line_start: 55928
+line_end: 55957
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -39,7 +39,7 @@ keywords:
 
 **KUA-05 (Scope versus candidate).** Conditions of the candidate may enter the adaptation judgment. Claim- or Work-scope conditions remain under A.2.6. A declaration may cite both, but a guard routes them separately.
 
-**KUA-06 (Guard use).** A guard MAY designate a declaration only when its exact edition, base signature, dependencies, applicability, and candidate conditions are recoverable. It checks admissibility before the judgment and makes its use decision separately.
+**KUA-06 (Guard use).** A guard MAY designate a declaration only when its exact edition, base signature, dependencies, applicability, and candidate conditions are recoverable. For a candidate-bearing use, it checks admissibility before the judgment. It makes its use decision separately.
 
 #### C.3.4:6.3 - Stable Refinement and Catalog Representation
 
@@ -49,7 +49,7 @@ keywords:
 
 #### C.3.4:6.4 - Cross-local Use
 
-**KUA-09 (Identity check before bridge).** On a locality change, first compare exact base-kind definitions. Same-kind reuse needs no `KindBridge` but still uses the receiving declaration and a fresh judgment. Distinct-kind use establishes a `KindBridge` only when its directional correspondence predicate obtains. Differing adaptation constraints or bindings may additionally require an exact correspondence declaration. Source judgments are never copied as receiving truth; justified bridge consequences affect R only.
+**KUA-09 (Identity check before bridge).** On a locality change, first compare exact base-kind definitions. Same-kind reuse needs no `KindBridge` but still uses the receiving declaration and, when the receiving use is candidate-bearing, a fresh judgment. Distinct-kind use establishes a `KindBridge` only when its directional correspondence predicate obtains. Differing adaptation constraints or bindings may additionally require an exact correspondence declaration. Source judgments are never copied as receiving truth; justified bridge consequences affect R only.
 
 **KUA-10 (Definedness and fail-closed use).** Outside adaptation applicability, return `not-applicable` and form no judgment. For an admissible request, return `unknown` when an unavailable dependency leaves the conjunction unsettled under KUA-04; a known false conjunct still gives `false`. Outside correspondence definedness, the guard declines that cross-local use without rewriting an independently evaluated receiving result.
 

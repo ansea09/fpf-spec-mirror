@@ -6,12 +6,12 @@ section_id: "C.32.HCS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__005_solution.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:4 — Solution"
-line_start: 77451
-line_end: 77504
+line_start: 77445
+line_end: 77498
 dependencies:
   - "A.19"
   - "C.11"

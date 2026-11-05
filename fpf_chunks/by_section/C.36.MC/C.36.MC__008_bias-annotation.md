@@ -6,12 +6,12 @@ section_id: "C.36.MC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.MC/C.36.MC__008_bias-annotation.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.36.MC — Qualify and Develop a Method Culture"
   - "C.36.MC:6 — Bias-Annotation"
-line_start: 91402
-line_end: 91414
+line_start: 91396
+line_end: 91408
 dependencies:
   - "A.15.1"
   - "A.3.1"

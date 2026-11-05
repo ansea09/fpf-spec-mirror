@@ -6,12 +6,12 @@ section_id: "C.19.2:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__013_sota-echoing.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:11 — SoTA-Echoing"
-line_start: 62205
-line_end: 62215
+line_start: 62201
+line_end: 62211
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -43,5 +43,5 @@ keywords:
 | Do different questions warrant different apparatus and outputs? | Current competency-question work distinguishes purposes and expected products rather than imposing one ontology checklist (Keet & Khan 2024). | Eligibility is tied to one declared use/result/guarantee; the pattern does not universalize one method or checklist. | **Adapt.** Question differentiation changes candidate eligibility and return. |
 | How should concern and purpose constrain a model or architecture description? | ISO/IEC/IEEE 42010:2022 keeps concerns, stakeholders, viewpoints, and architecture descriptions explicit without prescribing one tool. | Declared use, guarantee, and direct result keep apparatus application purpose-bound while subject patterns retain their kinds. | **Adapt.** Use the purpose/concern discipline without importing architecture-description ontology into every apparatus. |
 
-These sources change the positive method: the user starts from a result, may obtain value before total configuration, opens choice only for a live set, and reopens when use economics or guarantee changes. They do not license prestige ranking, tool mandates, or a universal apparatus kind.
+These sources change the positive method: the user starts from a result, may obtain value before total configuration, opens choice only for a live set, and reopens when use economics or guarantee changes.
 

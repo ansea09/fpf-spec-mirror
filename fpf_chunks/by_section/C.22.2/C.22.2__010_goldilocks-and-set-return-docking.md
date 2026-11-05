@@ -6,12 +6,12 @@ section_id: "C.22.2:9"
 section_title: "Goldilocks and Set-Return Docking"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__010_goldilocks-and-set-return-docking.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:9 — Goldilocks and Set-Return Docking"
-line_start: 64018
-line_end: 64042
+line_start: 64017
+line_end: 64041
 dependencies:
   - "A.10"
   - "A.15"
@@ -75,7 +75,7 @@ A Goldilocks, stepping-stone, or archive-derived problem is represented by its s
 - expiry or refresh condition;
 - selected-set, archive, pool, front, or parity relation when that relation is being made.
 
-The local `solvability band` label means a scheme-and-scope-qualified, non-scalar interpretation of feasible-but-not-trivial fit under current capability, constraints, validation boundary, and optional set-return relation. It is not a universal difficulty claim, hidden readiness scale, or single-score ranking.
+The local `solvability band` label means a scheme-and-scope-qualified interpretation of feasible-but-not-trivial fit under current capability, constraints, validation boundary, and optional set-return relation. The declared search or learning policy supplies its difficulty and feasibility criteria; a scalar criterion or ranking remains usable with its measurement and policy basis. No universal difficulty or readiness scale is introduced.
 
 If the band cannot be tied to a characteristic, Q-bundle, comparison, retention, or capability relation and its qualification, treat Goldilocks wording as informal recognition only and bind any selection, set-return, or parity claim to its direct governor.
 

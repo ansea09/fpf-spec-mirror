@@ -6,12 +6,12 @@ section_id: "C.22.PFR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 63660
-line_end: 63674
+line_start: 63655
+line_end: 63669
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,7 +35,7 @@ keywords:
 | Card-created Problem | Creating or accepting a ProblemCard is treated as Problem actuality. | Test actual-condition obtaining, applicability obtaining, and adverse predicate truth; keep the card as an episteme about zero or more occurrences. |
 | Duplicated applicability | Predicate, entity, scope, or interval is writable in both applicability and PFR. | Keep those values only in `ProblemCriterionApplicabilityRelation` and derive PFR projections. |
 | Applicability conditioned on adversity | Criterion applicability is ended whenever the actual condition becomes non-adverse, so PFR tests the same predicate twice and cannot replay A-B-C with one applicability occurrence. | Let applicability state which criterion governs the entity and scope under the declared window; test adverse-condition satisfaction only in PFR §4.3. |
-| Relation-as-coordinate | An arbitrary condition relation is said to be adverse without naming the characteristic point, projection, or link to the problem-for entity. | Use the predicate's exact direct-input or governed-projection rule; reject the nearest plausible projection that does not meet that rule. |
+| Relation-as-coordinate | An arbitrary condition relation is said to be adverse without naming the characteristic point, projection, or link to the problem-for entity. | Use the predicate's direct-input or governed-projection rule. Reject a proposed projection if it fails that rule. |
 | Assessment-constituted PFR | Evaluation work or an assessment result becomes a universal PFR participant or is treated as starting or ending the world-side episode. | Let evaluation and evidence support a boundary claim; keep PFR participants, actual inception, and actual cessation world-side. |
 | Evidence-window splitting | Each measurement or assessment window creates a new Problem occurrence. | Use actual adverse inception and cessation for occurrence identity; keep support windows with the claims they warrant. |
 | Unknown-as-recovery or continuity | Missing evidence is treated as proof of recovery or as permission to bridge the gap. | Record `continuity unresolved`; later evidence may revise the boundary assertion but does not create the world-side episode. |

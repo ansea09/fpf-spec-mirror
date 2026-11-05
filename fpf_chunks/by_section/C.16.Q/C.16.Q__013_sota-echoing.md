@@ -6,12 +6,12 @@ section_id: "C.16.Q:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__013_sota-echoing.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:11 — SoTA-Echoing"
-line_start: 60582
-line_end: 60602
+line_start: 60567
+line_end: 60587
 dependencies:
   - "A.10"
   - "A.16"
@@ -62,7 +62,7 @@ keywords:
 
 ### C.16.Q:11 - SoTA-Echoing
 
-The source contributions below address different quality questions. Their common use here is to recover the evaluated subject, criteria and supported conclusion while retaining the distinctions among traditions.
+The source contributions below address different quality questions. Their common use here is to recover the subject, intended sense and supported conclusion while retaining the distinctions among traditions. Recover the criteria when an evaluation is made.
 
 | Source and scope | Contribution to quality-term interpretation | Use boundary |
 | --- | --- | --- |
@@ -79,5 +79,5 @@ The source contributions below address different quality questions. Their common
 
 **Source-local and cross-local use.** A vocabulary can be described or cited in its own sense. When a proposed use depends on semantic correspondence between different `<ReferenceScheme, LocalSenseClaim>` bases, resolve the exact F.17 cells and test F.9. The Bridge and bounded-use claim, direction, rule, tolerated loss, polarity, any evidence reliance and any cross-plane representation relation remain separately established. A stance label or loss note supplies none of those relations by itself.
 
-Earlier touchstones such as Pirsig, Popper and Deutsch remain useful for historical lineage and local terminology. Their concepts retain their source meanings. The shared word “quality” supplies a question to clarify, not a general identity across the evaluated subjects and practices.
+Earlier touchstones such as Pirsig, Popper and Deutsch remain useful for historical lineage and local terminology. Their concepts retain their source meanings. The shared word “quality” supplies a question to clarify, not a general identity across the subjects and practices.
 

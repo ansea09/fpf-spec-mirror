@@ -6,12 +6,12 @@ section_id: "C.11.DBR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.DBR/C.11.DBR__013_relations.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.11.DBR — Reconsider a Decision When Its Relied-on Basis Changes"
   - "C.11.DBR:12 — Relations"
-line_start: 57828
-line_end: 57836
+line_start: 57814
+line_end: 57822
 dependencies:
   - "A.10"
   - "A.10.1"

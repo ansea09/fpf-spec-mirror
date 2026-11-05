@@ -6,12 +6,12 @@ section_id: "C.2.4:17"
 section_title: "Threshold Crossing and Split Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__018_threshold-crossing-and-split-handling.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:17 — Threshold Crossing and Split Handling"
-line_start: 53882
-line_end: 53903
+line_start: 53875
+line_end: 53896
 dependencies:
   - "A.13"
   - "A.15"
@@ -54,7 +54,7 @@ At `AE3+`, use the local threshold of the direct branch rather than one universa
 - for a plan or intended activity, use `A.15`;
 - for a Method, use `A.3.1`; use `A.3.2` to test a `C.2.1` episteme's membership as a MethodDescription;
 - for a dated Work-occurrence claim, recover the performer under `A.13` and independently test Work admission under `A.15.1`; use `F.6` only when precise assignment-bound attribution is needed;
-- for a representation claim, use `C.29` and the represented subject's rule; use `C.2.P.DR` when declarative form is being overread, adding `A.6.3.RT` only when a representation transition is current;
+- for a representation claim, use the represented subject's rule and the representation's correspondence; use `C.29` when choosing or transferring a mathematical representation or relying on it beyond its supported correspondence leaves a separate question. Use `C.2.P.DR` when declarative form is being overread, adding `A.6.3.RT` only when a representation transition is current;
 - for an abductive prompt or explicit open question, use `B.5.2.0` or the direct question pattern;
 - for a Characteristic or Scale claim, use `A.17` and `A.18`, with `C.16.P` when its scalar wording hides the construction;
 - for an ordinary domain claim, use the domain pattern that governs its subject; use `C.2.1` when episteme identity is needed.

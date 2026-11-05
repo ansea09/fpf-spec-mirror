@@ -6,12 +6,12 @@ section_id: "C.2.1:8"
 section_title: "Multi-view description and publication  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__009_multi-view-description-and-publication-normative.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:8 — Multi-view description and publication  (normative)"
-line_start: 51818
-line_end: 51829
+line_start: 51817
+line_end: 51828
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -58,7 +58,7 @@ C.2.1 identifies each candidate episteme E and each viewpoint episteme P separat
 
 Several conforming views remain a plurality. Recover an exact C.13 collection only when a receiving use depends on that plurality as a collection. Recover an exact A.22 `U.Structure` only when the use additionally depends on organization among those views, and state the exact direct organizing relations. A shared EntityOfConcern, package, table, heading set, diagram, or carrier creates neither a view family, a collection, nor that structure.
 
-`A.6.3` governs only an obtaining source-to-receiving viewing construction when that history is current; direct authoring and query generation require no such relation. A system performs any viewing, authoring, query, comparison, or repair work. Neither that work route nor an A.6.1 result position grants `U.View` membership or identifies a multi-view family.
+Use `A.6.3` when the account needs the same-EntityOfConcern relation licensing receiving claims from named sources. Establish actual source-use history separately when that history matters. A system performs any viewing, authoring, query, comparison, or repair work; direct authoring or query generation can identify an episteme without a viewing claim. Neither that work route nor an A.6.1 result position grants `U.View` membership or identifies a multi-view family.
 
 `E.17` governs multi-view publication forms and uses, while `E.24.PUB` governs publication occurrences, forms, and carriers. The same recognized view can participate as the selected episteme in several publication occurrences without changing identity or conformance. Publication establishes no view membership and no cross-view subject relation.
 

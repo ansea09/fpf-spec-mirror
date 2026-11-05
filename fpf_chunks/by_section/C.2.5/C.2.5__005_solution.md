@@ -6,12 +6,12 @@ section_id: "C.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__005_solution.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:4 — Solution"
-line_start: 53951
-line_end: 53999
+line_start: 53944
+line_end: 53992
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -64,7 +64,7 @@ The Scale's order describes greater fixity, not a universal improvement. Inquiry
 | `CD2` | narrowed candidate space | explicit rivals remain, but the field is meaningfully reduced |
 | `CD3` | selected route or framing | one route is chosen, though reopening remains routine |
 | `CD4` | publication- or operation-fixed under guard | changes require named justification |
-| `CD5` | strongly fixed | relaxation requires an explicit `A.16.2` move and governance note |
+| `CD5` | strongly fixed under an explicit retreat rule | the applicable rule requires an explicit `A.16.2` move to relax the fixation; make its governance basis, reason and changed commitments recoverable, adding a note only when the existing publication content is insufficient |
 
 #### C.2.5:4.3 - Non-collapse rules
 `LanguageStateClosureDegree` is not:
@@ -78,7 +78,7 @@ The Scale's order describes greater fixity, not a universal improvement. Inquiry
 A text may be highly explicit but low-closure, or low-explicitness but already high-closure by policy. Those states shall not be collapsed.
 
 #### C.2.5:4.4 - Change discipline
-Increasing `CD` requires narrowing candidate space, route space, or frame space explicitly. Lowering `CD` is admissible only through a named move such as `reopen`, `sketchBackoff`, or `respecify`, with a retained-witness and discarded-assumption note.
+Increasing `CD` requires narrowing candidate space, route space, or frame space explicitly. When closure decreases, make the prior fixation, reason for reopening and still-binding remainder recoverable. Use `A.16.2` when a published framing, route or use claim must be revised or the applicable fixation rule requires that move; add a note only when the existing material is insufficient.
 
 An ordinary PatternID in `governingPatternRef` locates the FPF rule relevant to the closure claim. Use a separate `relationFunctionClaimRef` for its exact defining or constraining `ClaimGraph` only when admissible interpretation, comparison, migration, publication, or reuse depends on that exact rule identity (`E.10`, `E.4.PFR`). Use `authoritySourceRef` when a non-pattern source carries the relevant authority.
 

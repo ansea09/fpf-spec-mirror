@@ -6,12 +6,12 @@ section_id: "C.16.Q:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__003_problem-frame.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:1 — Problem frame"
-line_start: 59883
-line_end: 59906
+line_start: 59864
+line_end: 59887
 dependencies:
   - "A.10"
   - "A.16"
@@ -62,7 +62,7 @@ keywords:
 
 ### C.16.Q:1 - Problem frame
 
-Statements such as “the model quality improved” or “the architecture is high-quality” can concern different subjects and evaluative families. For example:
+Quality statements, including evaluation claims such as “the model quality improved” or “the architecture is high-quality”, can concern different subjects and senses. For example:
 
 1. **Phenomenal character or qualia** when the experienced quality itself is the topic of description rather than an externally measured characteristic.
 2. **Preconceptual fit or felt rightness** before stable EntityOfConcern characterization.
@@ -75,8 +75,8 @@ Statements such as “the model quality improved” or “the architecture is hi
 
 The failure modes are recurrent:
 
-* **Sense elision.** One broad evaluative noun hides several non-equivalent evaluative kinds.
-* **Bearer confusion.** The bearer of the evaluation is unclear: record, publication carrier when the carrier itself is evaluated, episode, model, policy, explanation, candidate, architecture, relation, or action loop.
+* **Sense elision.** One quality word hides several non-equivalent senses.
+* **Bearer confusion.** The subject of the quality statement is unclear: record, publication carrier when the carrier itself is described or evaluated, episode, model, policy, explanation, candidate, architecture, relation, or action loop.
 * **Form confusion.** A non-metric signal is rewritten as a metric; a bundle is treated as one scalar; an objective is mistaken for a characteristic.
 * **Substrate confusion.** Embodied and preconceptual, latent and distributed, and symbolic-local representations are silently collapsed.
 * **Plane confusion.** Quality of the EntityOfConcern being described, quality of the description, quality of the carrier, and quality of the publication face are silently collapsed across `ReferencePlane` values and A.7 lanes.

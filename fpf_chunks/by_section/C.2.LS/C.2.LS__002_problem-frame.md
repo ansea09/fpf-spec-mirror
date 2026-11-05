@@ -6,12 +6,12 @@ section_id: "C.2.LS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__002_problem-frame.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:1 — Problem frame"
-line_start: 53427
-line_end: 53429
+line_start: 53426
+line_end: 53428
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -43,5 +43,5 @@ keywords:
 ---
 
 ### C.2.LS:1 - Problem frame
-To publish or compare position claims in the language-state chart over `U.CharacteristicSpace`, collect the needed facet references and readings in one profile. This makes the readings and their contribution to a receiving threshold inspectable while each facet pattern supplies its own definition.
+When several language-state readings are needed together, collect their references, assessment scopes, grounds and use conditions in one recoverable account. This makes their separate contributions to the receiving judgement inspectable. If that judgement needs a language-state chart position, its declared `U.CharacteristicSpace` supplies the basis.
 

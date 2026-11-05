@@ -6,12 +6,12 @@ section_id: "C.17:8"
 section_title: "Evidence, uncertainty, and resistance to gaming"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__010_evidence-uncertainty-and-resistance-to-gaming.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:8 — Evidence, uncertainty, and resistance to gaming"
-line_start: 60859
-line_end: 60887
+line_start: 60844
+line_end: 60872
 dependencies:
   - "A.0"
   - "A.1.1"
@@ -56,7 +56,7 @@ keywords:
 
 ### C.17:8 - Evidence, uncertainty, and resistance to gaming
 
-Every quantitative result names its evidence, calibration, uncertainty, and validity window. Keep aleatory and epistemic uncertainty separate and state any rule that combines them. A claim imported from another source or scale states the preserved meaning, lost meaning, direction, receiving use, and evidence limit; use `F.9` only when an actual Bridge between reference-scheme senses is needed.
+Every quantitative result names its derivation or evidence and the calibration, uncertainty and validity window required by its construction and receiving use. Keep aleatory and epistemic uncertainty separate and state any rule that combines them. A claim imported from another source or scale states the preserved meaning, lost meaning, direction, receiving use, and evidence limit; use `F.9` only when an actual Bridge between reference-scheme senses is needed.
 
 Apply these anti-Goodhart guards:
 
@@ -67,7 +67,7 @@ Apply these anti-Goodhart guards:
 - connect `DiversityOfSearch` to the declared experimentation allowance and report overspend;
 - retain primitive coordinates and sensitivity when a composite index is used.
 
-When a corpus, inclusion rule, model, encoder, Scale, criterion, window, or cross-source premise changes, leave a compact change account: the previous and new editions, what changed in the basis, which coordinates and aggregate conclusions reopen, whether eligibility or frontier membership changed, and which next observation can settle the difference. *Latest* is not a reproducible selector. Use `B.4` and `G.11` for the refresh; the change account explains the comparison and does not replace the new result.
+When a corpus, inclusion rule, model, encoder, Scale, criterion, window, or cross-source premise changes, leave a compact change account: the previous and new editions, what changed in the basis, which coordinates and aggregate conclusions reopen, whether eligibility or frontier membership changed, and any further calculation or observation needed to settle an unresolved difference. *Latest* is not a reproducible selector. Use `B.4` and `G.11` for the refresh; the change account explains the comparison and does not replace the new result.
 
 Goodhart's law is a useful historical warning, not evidence for any result. The safeguards above do the operational work.
 

@@ -6,12 +6,12 @@ section_id: "C.3.2:6"
 section_title: "Admissibility and One Candidate Judgment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__008_admissibility-and-one-candidate-judgment.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:6 — Admissibility and One Candidate Judgment"
-line_start: 55488
-line_end: 55511
+line_start: 55474
+line_end: 55497
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -37,7 +37,7 @@ and, only when `A = admissible`:
 
 `J(candidate, kind, signatureEdition, slice) ∈ {true, false, unknown}`
 
-These are local result notations, not newly admitted kinds, A.14 membership occurrences, direct classification relations, or evidence relations. For a fixed candidate, kind, signature edition, and slice, unchanged governed conditions and the same available support and declared dependencies yield the same result; the slice resolves concrete versions and an explicit temporal selector rather than implicit `latest` or `current`.
+These are local result notations, not newly admitted kinds, A.14 membership occurrences, direct classification relations, or evidence relations. For a fixed candidate, kind, signature edition, and slice, unchanged governed conditions and the same available support and declared dependencies yield the same result; the slice resolves every selector in its declared schema, including any declared version or temporal selector, rather than implicit `latest` or `current`.
 
 1. **Recover the candidate first.** An entity is already individuated under its direct pattern. A non-entity value keeps the identity, unit, scale, and interpretation supplied by its governor.
 2. **Pin the inputs.** Name candidate, kind, exact signature edition, and exact slice; avoid implicit `latest` or `current`.

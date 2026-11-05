@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__008_conformance-checklist.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:6 — Conformance checklist"
-line_start: 55036
-line_end: 55050
+line_start: 55023
+line_end: 55037
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.4"
   - "A.19"
   - "A.19.SPR"
+  - "A.2.4"
   - "A.20"
   - "A.21"
   - "A.3.1"
@@ -52,7 +53,7 @@ keywords:
 | `CC-C2PDR-3` | The disputed operational claim is explicit. Its missing grounds remain distinct from a use blocked by an applicable rule. |
 | `CC-C2PDR-4` | Use the recovered subject pattern for the governed claim. Sufficient ordinary wording or a bounded source quotation may finish without further formalization. If recovery is incomplete, retain only the supported use and identify the unresolved claim; apply any actual stop under its governing rule. |
 | `CC-C2PDR-5` | Legitimate `A.10 evidence path`, `E.18` graph path, `PathSlice`, carrier file path, URL, or mathematical path use is preserved when its exact evidence, provenance, graph, carrier/source, or mathematical object or relation is current. |
-| `CC-C2PDR-6` | Method-like and algorithm-like wording identifies the visible expression, direct object or relation, current claim, and any exact representation use before selecting a subject pattern. If A.3.2 is selected, one already identified C.2.1 episteme has one admitted `U.Method` as its exact `EntityOfConcern` and at least one substantive way-of-doing claim; code, SOP, proof, solver, workflow, process, procedure, recipe, protocol, model, or diagram form alone does not pass. |
+| `CC-C2PDR-6` | Method-like and algorithm-like wording identifies the visible expression, direct object or relation, current claim, and any exact representation use before selecting a subject pattern. If A.3.2 is selected, test whether the identified C.2.1 episteme has one admitted `U.Method` as its exact `EntityOfConcern` and at least one substantive way-of-doing claim. Positive membership requires both conditions; retain a negative or unresolved result when the test warrants it. Representation form alone does not settle membership. |
 | `CC-C2PDR-7` | An `E.10.ARCH:3.1` project-concern recovery may connect method, mechanism, formal-substrate, work values, evidence relations, source relations, gate relations, or result relations, but each connected value keeps its own subject pattern and typed claim. |
 | `CC-C2PDR-8` | The repair preserves the supported use and delimits the unsupported inference. It leaves the reader with the needed result or a specific unresolved condition. |
 | `CC-C2PDR-9` | The repair stays within declarative-representation overread; separately governed questions use their own patterns. |

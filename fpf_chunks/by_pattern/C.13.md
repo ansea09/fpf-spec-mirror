@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.13.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
-line_start: 58348
-line_end: 58612
+line_start: 58334
+line_end: 58594
 dependencies:
   - "A.1"
   - "A.14"
@@ -165,7 +165,7 @@ A discipline may use C.13 only after C.20 and its direct relation owners identif
 
 #### C.13:5.4 - Selected Structure And Transformation Stops
 
-A selected `BoundedModelUseStructure` organizes exact model-use relations for a use. Selection does not give the dependent structure constituents, parthood, agency, holonhood, or an MHT. C.13 can discuss construction of an underlying system, episteme, method, or work whole when its direct facts are available; it does not turn the selected relation organization into that whole.
+A selected `BoundedModelUseStructure` organizes exact model-use relations for a use. Selection does not by itself establish constructive parthood, agency, holonhood, or an MHT. C.13 can discuss construction of an underlying system, episteme, method, or work whole when its direct facts are available; it does not turn the selected relation organization into that whole.
 
 Mounting, wiring, fluid-connection, and configuration changes may each be independently identified `U.Transformation` occurrences. A skid entity-construction trace does not make those changes constituents of one composite transformation. If a use requires transformation contribution, parthood, composite identity, or holonhood and no direct governor supplies the relevant compatibility and reidentification law, retain the separate changes and the exact blocker. Missing composition facts establish neither composition nor indivisibility.
 
@@ -251,10 +251,6 @@ The forms are intentionally small, but their inputs do not determine ontology by
 **Why order, time, selected structure, and transformation composition are outside.** Method order and temporal extent answer different questions from parthood. A selected `U.Structure` is an organization of relations for a use, not automatically another holon. Entity construction also supplies no law by which several actual changes compose into one transformation. Keeping these stops explicit prevents an economical notation from becoming an ungoverned ontology.
 
 ### C.13:9.1 - SoTA-Echoing
-
-Constructional ontology and applied mereology both require explicit choices about constructors, dependence, identity, and the relation between a construction account and the object constructed. C.13 adopts that pressure by requiring exact inputs, obtaining direct relations, assembly, and reidentification. It rejects the stronger shortcut that a term, graph, extensional input set, or written constructor expression alone settles the existence or identity of the whole.
-
-Model-based engineering likewise separates a readable structural model from the physical, operational, informational, method, or work organization it describes. C.13 keeps that model useful while routing representation, evidence, assurance, and currentness to their direct patterns.
 
 `A.14:14` supplies the source decision used by the `set` and `slice` forms. For `set`, it requires the collection's own belongs-to rule and blocks both automatic parthood and the conclusion that separate parthood is impossible. For the aspect profile of `slice`, it requires an obtaining `AspectOf` relation with its bearer, facet rule, and identity conditions. The portion profile instead uses A.14:5.1's same-stuff/content, extensive-measure and boundary conditions; it introduces no AspectOf claim. An ordinary change to a collection rule or occurrence, aspect or bearer, facet rule, portion boundary or measure, identity condition, or materialized trace reopens the affected construction account and the claim it reports.
 

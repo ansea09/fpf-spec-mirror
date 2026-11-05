@@ -6,12 +6,12 @@ section_id: "C.2.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__007_archetypal-grounding.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:5 — Archetypal Grounding"
-line_start: 52336
-line_end: 52375
+line_start: 52335
+line_end: 52374
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,7 +68,7 @@ keywords:
 
 **Questions:** Is the dashboard the decision, or does it display one? Which exact project object carries the approval claim?
 
-**Result when a decision exists:** “The dashboard shows `GateDecision GD-17` for release candidate R; the decision, not the display, records that the gate passed.” E.24.PUB separates publication form, carrier, and occurrence; use E.17 when publishing a reader-facing account of the accepted decision. A.21 supplies the gate-decision meaning. The reader may find and cite GD-17, but must use the direct release or permission rule for launch. Stop.
+**Result when a passing gate decision is established:** “The dashboard shows `GateDecisionResult GD-17` for release candidate R; the decision, not the display, records that the gate passed.” E.24.PUB separates publication form, carrier, and occurrence; use E.17 when publishing a reader-facing account of the accepted decision. A.21 supplies the gate-decision meaning. The reader may find and cite GD-17, but must use the direct release or permission rule for launch. Stop.
 
 **Result when no decision resolves:** “The dashboard is only a cue; launch approval is unresolved.” Block approval-bearing use until the required decision is recoverable under the direct approval rule.
 
@@ -76,7 +76,7 @@ keywords:
 | Boundary case | C.2.P result | Why this protects use |
 | --- | --- | --- |
 | Ordinary reader help | The sentence says a note helps a reader find another section, with no evidence, authority, use-boundary, work, gate, decision, or project reliance claim. Leave ordinary wording ordinary or make one local wording repair. | Keeps ordinary prose affordable; `support` as ordinary help is not forced into a record. |
-| Relation-only support wording | The sentence says one claim, source description, grounding relation, evidence record, `B.3` `AssuranceResult`, engineering-justification result, causal-use relation, mathematical-lens relation, characteristic relation, declared-use boundary, work relation, or publication-companion use bears on another claim, and source-relation use or publication construction is already clear. Apply `A.6.P`; no C.2.P recovery is needed. | Prevents this pattern from absorbing relation precision restoration. |
+| Relation-only support wording | The source-use and publication-construction distinctions are already clear. If the relation to the receiving claim or any of its participants remains unclear, apply `A.6.P`; otherwise use the direct subject pattern. No C.2.P recovery is needed. | Prevents this pattern from absorbing relation precision restoration. |
 | Known FPF kind named by value | The sentence already names the project-side FPF kind and reference, such as an evidence path, gate decision, decision record, Work occurrence, `B.3` `AssuranceResult`, or architecture pattern application. Apply the named pattern without an intermediate C.2.P step. | Avoids a needless logical hop and keeps the relevant neighboring-pattern application intact. |
 | Source phrase without recovered FPF-governed use | Source wording is interesting but its FPF kind, relation, or use disposition cannot be recovered. Keep it as reduced-use cue or block its FPF use. | Preserves source meaning without guessing FPF meaning. |
 | Replacement head is another umbrella | A proposed repair changes `support` to `basis`, `display` to `face`, or `route` to `path` while the kind and relation are still hidden. Mark repair incomplete. | Blocks lexical churn and forces the kind named by value, relation, and declared use boundary to be recovered. |

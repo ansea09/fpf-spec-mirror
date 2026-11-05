@@ -6,12 +6,12 @@ section_id: "C.3.A:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__011_rationale.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:10 — Rationale"
-line_start: 56464
-line_end: 56744
+line_start: 56450
+line_end: 56730
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -51,7 +51,7 @@ Regulations name categories such as Adult person, Class II medical device, Perso
 
 **C-REG-1 (Regulatory declarations).** Each used regulatory category SHALL be an exact authority-context local kind with a separately identified `KindSignature` declaration episteme edition. Any F value characterizes that episteme, not the kind.
 
-**C-REG-2 (Kind correspondence).** Cross-context category use SHALL first compare authority and local kind definitions. If the receiving policy relies on a directional correspondence between distinct kinds, it SHALL recover an obtaining KindBridge relation between exact authority and local kinds plus a separate bridge assertion with mapping, pinned editions, preservation/loss, `CL^k`, evidence, definedness, and admitted use.
+**C-REG-2 (Kind correspondence).** Cross-context category use SHALL first compare authority and local kind definitions. If the receiving policy relies on a directional correspondence between distinct kinds, it SHALL recover an obtaining KindBridge relation between exact authority and local kinds plus a separate bridge assertion with mapping, pinned editions, preservation/loss, evidence, definedness, admitted use, and any `CL^k` required by the consumed assurance or calibration account.
 
 **C-REG-3 (Scope).** Jurisdiction, effective dates, grace periods, and other genuinely contextual applicability conditions SHALL be Claim scope over exact context slices with explicit `Gamma_time`. A product-family or platform distinction belongs in Scope only when it is genuinely a context-slice dimension of the claim; when it classifies the target entity, recover it as an exact kind and, for candidate-bearing use, an exact candidate judgment. A direct candidate feature remains with its own governor and SHALL NOT be smuggled into Scope.
 
@@ -84,7 +84,7 @@ Regulations name categories such as Adult person, Class II medical device, Perso
 1. Decide whether the change alters criterion, reference scheme, applicability, or more than one.
 2. Author the required declaration episteme, check its signature qualification and any edition relation under C.3.2:5, and let C.3.1 settle kind continuity.
 3. Update Scope independently when jurisdiction/version/time coverage changes.
-4. Reassess whether the receiving use now requires a correspondence between distinct kinds, and, when it does, the obtaining KindBridge relation and its assertion's mapping, loss, `CL^k`, evidence, and admitted use.
+4. Reassess whether the receiving use now requires a correspondence between distinct kinds, and, when it does, the obtaining KindBridge relation and its assertion's mapping, loss, evidence, admitted use, and any `CL^k` required by the consumed assurance or calibration account.
 5. Evaluate affected exact candidates for the new receiving use under the new declaration edition while preserving every prior judgment indexed to its prior edition and slice; do not edit a set representation or rewrite historical judgments as a substitute.
 
 **Guard_RegXContextUse(P, candidate, sourceKind, targetKind, targetSignatureEdition, S_target).** Apply `Guard_XContext_Typed` with the exact candidate and use its receiving judgment. A missing target dependency yields `unknown`; it is not cured by a high bridge assessment.
@@ -147,7 +147,7 @@ VA can prove a claim quantified over an exact declared kind; LA can exercise exa
 
 **EA-4 (Independent unions).** SpanUnion SHALL include a support-line independence account and preserve per-line candidate judgments and bridge consequences.
 
-**EA-5 (Bridges).** Cross-context evidence use SHALL recover a Scope Bridge when the receiving claim requires Scope translation and a KindBridge relation/assertion when it relies on a correspondence between distinct kinds. It SHALL use the independently identified target declaration and evaluate target candidates afresh. Consequences affect R only.
+**EA-5 (Bridges).** Cross-context evidence use SHALL recover a Scope Bridge when the receiving claim requires Scope translation and a KindBridge relation/assertion when it relies on a correspondence between distinct kinds. It SHALL use the independently identified target declaration and, when the receiving use is candidate-bearing, evaluate the target candidates afresh. Consequences affect R only.
 
 **EA-6 (Freshness).** Evidence windows and tool/declaration editions SHALL be explicit and tied to the governed slice. Expiry causes refusal or `unknown` at the predicate it disables; it does not widen Scope.
 
@@ -163,7 +163,7 @@ A matrix can make declarations and slices jointly inspectable. A sufficient ordi
 
 | Rows | Columns | Cell content |
 | --- | --- | --- |
-| exact kind/subkind signature editions or RoleMask declaration editions | exact context slices with versions and `Gamma_time` | exact candidate(s) when current, judgment values, evidence units and support relations, freshness, bridge/assertion references, and receiving use |
+| exact kind/subkind signature editions or RoleMask declaration editions | exact context slices with all their declared selectors, including versions and `Gamma_time` when present | exact candidate(s) when current, judgment values, evidence units and support relations, freshness, bridge/assertion references, and receiving use |
 
 Rows plan declared distinctions; they do not classify every candidate. A proof-only row may remain declaration-level when it genuinely proves a universal claim. A test or monitoring row becomes candidate-bearing and records exact judgments for the exercised candidates.
 
@@ -206,7 +206,7 @@ Qualify provers, checkers, measurement pipelines, and classifiers separately. A 
 ##### C.3.A:B.7 - Evidence guards
 
 
-**Guard_EvidencePlan_Typed** SHALL check the plan's exact declaration editions and context slices, bridge/assertion needs, candidate-selection policy, freshness, independence, and TA declarations. These inputs may be supplied directly or through accessible exact returns. A planned classification does not count as a candidate judgment.
+**Guard_EvidencePlan_Typed** SHALL check the plan's exact declaration editions and context slices, its bridge/assertion needs, and the candidate-selection, freshness, independence, and TA conditions required by the planned use. These inputs may be supplied directly or through accessible exact returns. A planned classification does not count as a candidate judgment.
 
 **Guard_EvidenceAttach_Typed** SHALL make every evidence unit's binding to its exact claim/use, declaration edition, slice, candidate and judgment when current, support relation, freshness, and bridge consequences recoverable, directly or through accessible exact returns. It SHALL preserve `unknown` and the separate attach/refuse disposition.
 
@@ -221,7 +221,7 @@ Qualify provers, checkers, measurement pipelines, and classifiers separately. A 
 | a matrix row is treated as classification | name exact candidates and judgments in candidate-bearing cells |
 | “latest data” | pin freshness and time policy |
 | trusted tool substitutes for content support | keep TA separate and recover the governed candidate facts/support |
-| bridge presence substitutes for target evaluation | use the independent target declaration and fresh target judgment |
+| bridge presence substitutes for target evaluation | use the independent target declaration and, for a candidate-bearing use, a fresh target judgment |
 
 
 
@@ -241,11 +241,11 @@ When a state transition publishes or relies on a claim quantified over kinds, th
 
 1. pin the claim, exact quantified claim kind, receiving kind, and both needed `KindSignature` editions;
 2. establish the correct subkind restriction direction or, for a required correspondence between distinct kinds, the exact source-claim to target-receiving KindBridge relation and separate assertion;
-3. check Claim scope and explicit `Gamma_time`;
+3. check Claim scope against the exact slice with all its declared selectors, including any `Gamma_time` required by A.2.6;
 4. when one or more actual candidates are part of the transition, evaluate each exact four-input target receiving-kind judgment and preserve all three values;
-5. when a RoleMask is used, recover its declaration edition and evaluate the exact masked judgment;
+5. when a RoleMask is used, recover its declaration edition and, when the transition is candidate-bearing, evaluate the exact masked judgment;
 6. apply justified bridge consequences to R only;
-7. check formality and freshness on their actual owners; and
+7. check the policy-required expression properties and required freshness on their actual owners; and
 8. return a separate state-transition disposition.
 
 ESG MUST NOT widen G to hide incompatibility, treat a label as a candidate judgment, or convert `unknown` to `false`.

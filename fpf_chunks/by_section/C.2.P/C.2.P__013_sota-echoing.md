@@ -6,12 +6,12 @@ section_id: "C.2.P:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__013_sota-echoing.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.P — Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)"
   - "C.2.P:11 — SoTA-Echoing"
-line_start: 52453
-line_end: 52516
+line_start: 52452
+line_end: 52515
 dependencies:
   - "A.10"
   - "A.15"
@@ -108,7 +108,7 @@ Use this section for an E.19 judgment of a pattern edition. Select only the prof
 
 Run `PCP-TERM` when the repair changes episteme-publication-heavy naming, umbrella words, slash compounds, trigger-word replacements, or relation wording.
 
-Run `PCP-BRIDGE` when the repair imports terms, claims, norms, or authority expectations between named sources, practices, disciplines, reference schemes, publication forms, or project record kinds.
+Run `PCP-BRIDGE` when the repair imports claims, terms, or norms across contexts, disciplines, or reference planes under E.19.
 
 Run `PCP-ENTRY` only when the repair changes which FPF pattern a working reader should apply in a problem situation. Do not use `PCP-ENTRY` as a substitute for the epistemic precision restoration itself.
 

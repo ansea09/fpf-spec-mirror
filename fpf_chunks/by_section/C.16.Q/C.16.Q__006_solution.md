@@ -6,12 +6,12 @@ section_id: "C.16.Q:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__006_solution.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:4 — Solution"
-line_start: 59920
-line_end: 60278
+line_start: 59901
+line_end: 60259
 dependencies:
   - "A.10"
   - "A.16"
@@ -71,20 +71,20 @@ Inspect quality wording when its sense, bearer, comparison or consequence is unc
 #### C.16.Q:4.0a - Operational repair sequence
 
 1. **Read the whole assertion.** Recover what the sentence claims or asks. Retain its wording when an inspectable before/after comparison is needed.
-2. **Recover the evaluated subject.** Distinguish the EntityOfConcern being described from its description, publication face or carrier when that distinction changes the claim. Keep ordinary non-governed wording ordinary.
-3. **Distinguish the live meanings.** Use the stated purpose, interpretation scheme, evaluation conditions and comparison to resolve plausible alternatives. If an existing endpoint already conveys the intended claim, use it and stop this repair. Keep a short Candidate-Set Note only when unresolved alternatives need to remain inspectable for the receiving decision or publication; use an existing explanation when it already does that job.
+2. **Recover the subject being described or evaluated.** Distinguish the EntityOfConcern being described from its description, publication face or carrier when that distinction changes the claim. Keep ordinary non-governed wording ordinary.
+3. **Distinguish the live meanings.** Use the stated purpose and interpretation scheme, together with any relevant evaluation conditions or comparison, to resolve plausible alternatives. If an existing endpoint already conveys the intended claim, use it and stop this repair. Keep a short Candidate-Set Note only when unresolved alternatives need to remain inspectable for the receiving decision or publication; use an existing explanation when it already does that job.
 4. **Follow the recovered question.** For action-oriented wording, a relation, evidence, a gate or another non-quality question, apply its subject rule. Use A.6.A, A.6.P, C.16.P or another recovery pattern only while the corresponding meaning is still unclear. An adequately expressed question can finish without a `QualitySense`.
 5. **Choose a sense when a transitional ascription is needed.** Select the applicable `QualitySense` and retain consequential rival interpretations while they remain unresolved. Explain a rejected alternative only when that distinction helps recover the intended claim.
 6. **State the supported interpretation.** Use the known endpoint's form, or the transitional form under §4.1 with its required bearer, scheme, probe/model and comparison conditions, evaluator/viewpoint, scope and normal form. Add result, evidence, grounding or cross-local references only for independently established relations used by this claim.
 7. **Apply conditions for a further use.** A clarified quality statement can contribute to a decision, evidence claim or other result. Establish that further use under its own rule; the word “quality” and completion of the repair do not establish it.
 
-#### C.16.Q:4.1 - Transitional repair frame: evaluative classification anchored by `qualityTermAscription(...)`
+#### C.16.Q:4.1 - Transitional repair frame: quality-sense interpretation anchored by `qualityTermAscription(...)`
 
-A transitional ascription makes an unresolved evaluative interpretation explicit under one effective ReferenceScheme and a named endpoint pattern or source relation. It records the intended characterization without asserting a result or evidence relation merely through its fields.
+A transitional ascription makes an unresolved quality interpretation explicit under one effective ReferenceScheme and a named endpoint pattern or source relation. It records the intended characterization without asserting a result or evidence relation merely through its fields.
 
 `qualityTermAscription(...)` is the canonical transitional quality-term repair form when the endpoint choice is not yet fixed. It is not the universal resting place, not a relation kind by default, and not a shadow endpoint source.
 
-Use of `qualityTermAscription(...)` presupposes enough articulation explicitness to name the bearer, effective scheme, probe/model frame, comparison frame or explicit `none`, ClaimScope, and at least one candidate evaluative family. Closure degree may remain low while `qualityTermAscription(...)` is transitional, but content that is still only a cue pack, forwarded cue, or open explanatory probe stays in `A.16.1`, `B.4.1`, or `B.5.2.0`. If a published record later loses an interpretation-bearing scheme, frame, scope, or direct source relation required for its stated use, retreat via `A.16.2`; changed witnesses, evidence use, or grounding reopen only the exact neighboring result or reliance claim they bear on.
+Use of `qualityTermAscription(...)` presupposes enough articulation explicitness to name the bearer, effective scheme, probe/model frame, comparison frame or explicit `none`, ClaimScope, and at least one candidate quality-sense family. Closure degree may remain low while `qualityTermAscription(...)` is transitional, but content that is still only a cue pack, forwarded cue, or open explanatory probe stays in `A.16.1`, `B.4.1`, or `B.5.2.0`. If a published record later loses an interpretation-bearing scheme, frame, scope, or direct source relation required for its stated use, retreat via `A.16.2`; changed witnesses, evidence use, or grounding reopen only the exact neighboring result or reliance claim they bear on.
 
 The transitional form is:
 
@@ -127,7 +127,7 @@ The record designates, but does not embed, a viewpoint. A non-`none` `viewpointR
 For a use whose quality meaning remains consequentially ambiguous, “X has quality” is insufficient. State the supported interpretation, use the known endpoint, or retain the unresolved alternatives in the transitional form when its entry conditions are met.
 
 **Discipline note.**
-`QualitySense` is a slot value inside the transitional repair form; it is not a replacement for the endpoint FPF pattern or explicit endpoint source reference. The sense token refines what kind of evaluative characterization is being made while the endpoint source, applicable pattern, or EntityOfConcern remains explicit.
+`QualitySense` is a slot value inside the transitional repair form; it is not a replacement for the endpoint FPF pattern or explicit endpoint source reference. The sense token refines the intended quality sense while the endpoint source, applicable pattern, or EntityOfConcern remains explicit.
 
 **Separation note.**
 `evaluatorRef` and `viewpointRef` are not synonyms. The evaluator is the observing, criticizing, or selecting party or policy. `viewpointRef` is a governed reference whose resolution yields one exact `U.Viewpoint` episteme; selecting or resolving it grants no membership, conformance, authority, or evaluation result.
@@ -137,7 +137,7 @@ The checked bearer, any dated assessment work, the resulting claim episteme, wit
 #### C.16.Q:4.1b - Polarity discipline (bearer-centred; no silent inverse)
 
 `qualityTermAscription` is bearer-centred.
-A transitional ascription SHALL keep the evaluated participant in the bearer position and SHALL publish `evaluatorRef` and governed `viewpointRef` separately, using `none` when either is absent. A known endpoint retains its own form and the same participant distinctions.
+A transitional ascription SHALL keep the described or evaluated participant in the bearer position and SHALL publish `evaluatorRef` and governed `viewpointRef` separately, using `none` when either is absent. A known endpoint retains its own form and the same participant distinctions.
 
 * When the evaluating architects are identified as `ArchitectureReviewBoard`, “Architects rate the system highly” rewrites to `qualityTermAscription(bearerTuple={System}, evaluatorRef=ArchitectureReviewBoard, viewpointRef=none, …)`.
 * When the benchmark's evaluation policy is identified as `BenchmarkPolicy`, “The benchmark says model quality is high” rewrites to `qualityTermAscription(bearerTuple={Model}, evaluatorRef=BenchmarkPolicy, viewpointRef=none, …)`.
@@ -147,7 +147,7 @@ If inverse wording is used in Plain prose, rewrite it into the bearer-centred fo
 
 #### C.16.Q:4.1c - Endpoint-first discipline
 
-When the endpoint pattern or explicit endpoint source relation is already known, publish the evaluative form it defines directly. Keep `qualityTermAscription(...)` only when preserving the transitional ambiguity is itself informative. `qualityTermAscription(...)` is therefore a transitional characterization record, not a shadow endpoint source.
+When the endpoint pattern or explicit endpoint source relation is already known, publish the form it defines directly. Keep `qualityTermAscription(...)` only when preserving the transitional ambiguity is itself informative. `qualityTermAscription(...)` is therefore a transitional characterization record, not a shadow endpoint source.
 
 Typical direct endpoints are:
 
@@ -158,7 +158,7 @@ Typical direct endpoints are:
 
 #### C.16.Q:4.2 - Core construct: `QualitySense`
 
-Every transitional ascription SHALL identify an explicit **`QualitySense` token**. A known endpoint can express the intended evaluation directly without adding this token or record.
+Every transitional ascription SHALL identify an explicit **`QualitySense` token**. A known endpoint can express the intended claim directly without adding this token or record.
 
 A `QualitySense` token publishes at least:
 
@@ -187,8 +187,8 @@ Where:
   `{ embodied-kinesthetic, latent-distributed, symbolic-local, hybrid }`
 * **`defaultNormalForm`** ∈
   `{ SignalPack, Characteristic, Bundle, Objective }`
-* **`admissibleNormalForms`** is the explicitly declared set of admissible evaluative normal forms for the sense.
-  `defaultNormalForm` names the primary evaluative normal form; any additional endpoint forms MUST be declared here rather than inferred ad hoc. `probeOrModelFrameKind` constrains only the domain-local probe/model configuration, while `comparisonFrameRequired` states whether a separate A.19.CPM comparison configuration must be named. `bridgePolicy` can require F.9 recovery or forbid silent reuse, but it cannot establish a Bridge. If the quality ascription is published, handle publication face, form, unit, carrier, and rendering questions under E.17, E.8, or the applicable publication pattern.
+* **`admissibleNormalForms`** is the explicitly declared set of admissible normal forms for the sense.
+  `defaultNormalForm` names the primary normal form; any additional endpoint forms MUST be declared here rather than inferred ad hoc. `probeOrModelFrameKind` constrains only the domain-local probe/model configuration, while `comparisonFrameRequired` states whether a separate A.19.CPM comparison configuration must be named. `bridgePolicy` can require F.9 recovery or forbid silent reuse, but it cannot establish a Bridge. If the quality ascription is published, handle publication face, form, unit, carrier, and rendering questions under E.17, E.8, or the applicable publication pattern.
 
 #### C.16.Q:4.3 - Normative starter set of sense families
 
@@ -223,10 +223,10 @@ A declared local use under one effective ReferenceScheme MAY operationalize one 
 A conforming `qualityTermAscription` SHALL make explicit:
 
 1. **Bearer tuple.**
-   Name the exact evaluated bearer designator or tuple and its arity. A description, carrier, evaluator, or result claim cannot silently replace that bearer.
+   Name the exact subject designator or tuple and its arity. A description, carrier, evaluator, or result claim cannot silently replace that bearer.
 
 2. **`QualitySense`.**
-   Name the intended evaluative family.
+   Name the intended quality-sense family; retain the evaluative criteria when the claim evaluates that subject.
 
 3. **Effective ReferenceScheme.**
    State the effective reference scheme by value in the C.2.1:4.1.2 range `EpistemeInterpretationScheme`: supply the actual designation and interpretation rules with their semantic dependencies so every designator and local sense in the ascription is interpretable. A generic context label or a representation scheme is not a substitute.
@@ -260,9 +260,9 @@ A conforming `qualityTermAscription` SHALL make explicit:
 
 #### C.16.Q:4.5 - Normal-form discipline
 
-A `QualitySense` SHALL declare one admissible **default** evaluative normal form and MAY declare additional admissible evaluative normal forms explicitly.
+A `QualitySense` SHALL declare one admissible **default** normal form and MAY declare additional admissible normal forms explicitly.
 
-The normal forms in this section are endpoint or evaluative forms. They are not publication forms by themselves. Publication face, publication form, publication unit, carrier, rendering, export, and front-end questions remain with `E.17`, `E.8`, or the applicable endpoint-publication pattern.
+The normal forms in this section express the recovered quality sense. They are not publication forms by themselves. Publication face, publication form, publication unit, carrier, rendering, export, and front-end questions remain with `E.17`, `E.8`, or the applicable endpoint-publication pattern.
 
 **QNF-1 - `SignalPack`.**
 Use for `QS.PhenomenalCharacter`, `QS.PreconceptualFit`, and many cases of `QS.LatentFit`.
@@ -350,7 +350,7 @@ Changes to a transitional ascription SHALL preserve the distinctions in this cha
 
 * **`declareQualityTermAscription(...)`** — create a new explicit quality-ascription record.
 * **`withdrawQualityTermAscription(...)`** — retire a prior record.
-* **`retargetBearer(...)`** — retarget the evaluated bearer ref or tuple while keeping the repair-form schema.
+* **`retargetBearer(...)`** — retarget the bearer ref or tuple while keeping the repair-form schema.
 * **`reviseSense(...)`** — change the value in the `qualitySense` slot.
 * **`reArticulate(...)`** — change `articulationMode` while preserving the sense family.
 * **`reProxy(...)`** — change proxy, probe, or operationalization details.
@@ -398,7 +398,7 @@ In **Tech and normative prose**:
   * a source-local term whose cited standard or tradition supplies its meaning, with F.9 used only for a needed semantic correspondence, or
   * a family label immediately rewritten into one explicit `U.Characteristic` or `Q-Bundle`;
 * a claim using **quality requirement or quality requirements** SHALL make the required head and its requirement or acceptance relation recoverable. Use the applicable rule for that claim; a named Characteristic, Q-Bundle head or objective can supply the evaluated content. The phrase itself establishes no requirement or acceptance result;
-* **architecture quality or architectural quality** MUST NOT appear without an explicit bearer lane (`EntityOfConcern being described`, `description` or another `episteme`, publication face, or carrier when the carrier itself is evaluated) and, when omission changes meaning, an explicit `referencePlane`;
+* **architecture quality or architectural quality** MUST NOT appear without an explicit bearer lane (`EntityOfConcern being described`, `description` or another `episteme`, publication face, or carrier when the carrier itself is described or evaluated) and, when omission changes meaning, an explicit `referencePlane`;
 * in QD and NQD contexts, bare **quality** MUST default to **`QS.UseValue`**;
 * preconceptual uses MUST NOT be presented as if they were already Characteristics;
 * latent and distributed fit MUST NOT be presented as if it were automatically explanatory merit;

@@ -6,12 +6,12 @@ section_id: "C.22:7"
 section_title: "Bias-Annotation (lexical and discipline guards)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__009_bias-annotation-lexical-and-discipline-guards.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:7 — Bias-Annotation (lexical and discipline guards)"
-line_start: 63146
-line_end: 63151
+line_start: 63141
+line_end: 63146
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -32,7 +32,7 @@ keywords:
 
 ### C.22:7 - Bias-Annotation (lexical and discipline guards)
 
-* **Selector and policy relation precision.** When a source calls selection behavior a strategy, keep the Plain wording only for recognition. The governed claim cites the A.19.SelectorMechanism relation and the exact G.5 criteria, policy ref, or `SelectorOutcome`; no durable `Strategy` U-kind is introduced.
+* **Selector and policy references.** For selection behavior called a strategy, cite the A.19.SelectorMechanism relation and the G.5 criteria, policy or `SelectorOutcome` used in the claim.
 * **Transdiscipline vs domain.** Comparability uses the exact ReferenceScheme, ClaimScope, characteristic meanings, and `U.Discipline` relation when current. A Domain label is only a catalog mark; it supplies no norm, Bridge, scope, or comparison rule.
-* **Plain twins and head selection.** Use Description and Spec morphology correctly (I, D, S; E.10.D2).
+* **Descriptions and specification uses.** Use E.10.D2 when the wording must distinguish a description of an entity from the use of a description as a specification.
 

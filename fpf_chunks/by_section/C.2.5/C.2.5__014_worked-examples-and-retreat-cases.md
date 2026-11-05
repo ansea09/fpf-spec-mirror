@@ -6,12 +6,12 @@ section_id: "C.2.5:13"
 section_title: "Worked Examples and Retreat Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__014_worked-examples-and-retreat-cases.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:13 — Worked Examples and Retreat Cases"
-line_start: 54034
-line_end: 54046
+line_start: 54027
+line_end: 54039
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -44,5 +44,5 @@ A practitioner choosing the next diagnostic question can use the stated alternat
 An operator rule may be only moderate in `AE` but high in `CD` because policy already fixes the next step under the current horizon. This shows why closure is governance-facing, not merely stylistic.
 
 #### C.2.5:13.3 - Reopen case
-A route may move from `CD4` back to `CD2` when counter-evidence appears. Record the counter-evidence and the retreat as an admissible `A.16.2` move.
+A route may move from `CD4` back to `CD2` when counter-evidence appears. Make the counter-evidence and changed scope of closure recoverable; use `A.16.2` when the publication must be revised.
 

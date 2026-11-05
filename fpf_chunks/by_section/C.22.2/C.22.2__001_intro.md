@@ -6,12 +6,12 @@ section_id: "C.22.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__001_intro.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:intro — Intro"
-line_start: 63718
-line_end: 63737
+line_start: 63713
+line_end: 63732
 dependencies:
   - "A.10"
   - "A.15"
@@ -74,5 +74,5 @@ keywords:
 
 **C.2.1 constitution.** One ProblemCard is one `U.Episteme` constituted by one exact ClaimGraph, one independently identified joint `EntityOfConcern`, and one effective reference scheme. `U.ClaimScope`, assumptions, horizons, qualification windows, viewpoints, and receiving uses qualify only the exact claims and direct relations that need them. No setting, carrier, organization, card id, or publication is a fourth constitution component or identifies an actual Problem. An exact composite or component `U.Work` under A.15.6 may be referenced by a claim or receiving use; it neither constitutes the card nor identifies the Problem.
 
-**Claim-family, actuality, and solvability boundary.** A card may carry several claims only while their ClaimGraph has that one joint EntityOfConcern. An actual-problem assertion states affirmative or negative polarity for the exact `ProblematicForRelation` obtaining predicate. An affirmative assertion may designate an independently established occurrence only when both participants and its adverse episode are established under C.22.PFR; negative polarity creates, ends, erases, or reidentifies no occurrence. A.10, with B.3 only for an actual named assurance claim, separately governs whether one receiving use treats the assertion as supported, refuted, or unresolved; G.11 separately governs assertion-edition currentness. Forecast, scenario, counterfactual, and anticipated-condition claims retain their exact assumptions, horizon, and direct governor and do not assert a current PFR. A method-availability or solvability claim concerns the admitted method set, evidence, constraints, and intended use; selecting a method changes that claim, not an independently obtaining PFR. Only non-adversity or cessation of the actual-condition or criterion-applicability participant can end its maximal continuous adverse episode; missing, stale, refuted, or absent evidence cannot.
+**Claim-family, actuality, and solvability boundary.** A card may carry several claims only while their ClaimGraph has that one joint EntityOfConcern. An actual-problem assertion states affirmative or negative polarity for the exact `ProblematicForRelation` obtaining predicate. An affirmative assertion may designate an independently established occurrence only when both participants and its adverse episode are established under C.22.PFR; negative polarity creates, ends, erases, or reidentifies no occurrence. Judge support under the assertion's direct subject rule. A.2.4 governs a question about an episteme's evidence-use or status-use relation, A.10 supplies a replayable evidence, provenance or bounded-reliance account when needed, and B.3 applies only to an actual named assurance claim. G.11 separately governs assertion-edition currentness. Forecast, scenario, counterfactual, and anticipated-condition claims retain their exact assumptions, horizon, and direct governor and do not assert a current PFR. A method-availability or solvability claim concerns the admitted method set, evidence, constraints, and intended use; selecting a method changes that claim, not an independently obtaining PFR. Only non-adversity or cessation of the actual-condition or criterion-applicability participant can end its maximal continuous adverse episode; missing, stale, refuted, or absent evidence cannot.
 

@@ -6,12 +6,12 @@ section_id: "C.2.LS:13"
 section_title: "Worked Examples and Composition Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__014_worked-examples-and-composition-notes.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:13 — Worked Examples and Composition Notes"
-line_start: 53549
-line_end: 53601
+line_start: 53546
+line_end: 53598
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -78,8 +78,8 @@ An inquiry note reporting a mismatch noticed through bodily observation may stat
 
 - low `AE`,
 - very low `CD`,
-- the observer, bodily observation and reported mismatch, with a trace reference if an instrumental observation also contributes,
-- and representation-wise mixed because the cue is partly verbal, partly kinesthetic, partly exemplar-based.
+- the C.2.6 account of the observer, bodily observation and reported mismatch, including any exemplars or instrumental trace that contribute,
+- and any representation readings needed for the next use, assessed on the note's identified expression under C.2.7.
 
 Use the profile to identify what the next question still needs. `A.16.1` preserves the cue; `A.6.P` can recover an unclear relation, and `B.5.2` starts from an admissible `U.AbductivePrompt`. Apply the receiving pattern's conditions when choosing the move.
 

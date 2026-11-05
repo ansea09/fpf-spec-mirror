@@ -6,12 +6,12 @@ section_id: "C.16.Q:7"
 section_title: "Conformance Checklist (CC-C16Q)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__009_conformance-checklist-cc-c16q.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:7 — Conformance Checklist (CC-C16Q)"
-line_start: 60480
-line_end: 60522
+line_start: 60465
+line_end: 60507
 dependencies:
   - "A.10"
   - "A.16"
@@ -65,9 +65,9 @@ keywords:
 Apply the following conditions to the branch actually used. A known endpoint follows its own form. Requirements for ascription fields and records apply when the transitional form is used; the semantic distinctions remain relevant wherever they change the claim.
 
 1. **CC-C16Q-1 - Explicit endpoint classification and explicit sense.**
-   Every repaired claim makes its evaluated subject, intended sense and governing conditions recoverable. Use a known endpoint directly. A transitional `qualityTermAscription(...)` has an explicit `QualitySense` and endpoint classification; an adequate ordinary explanation needs no additional record.
+   Every repaired claim makes its subject, intended sense and governing conditions recoverable. Use a known endpoint directly. A transitional `qualityTermAscription(...)` has an explicit `QualitySense` and endpoint classification; an adequate ordinary explanation needs no additional record.
 2. **CC-C16Q-2 - Exact bearer and arity.**
-   The evaluated bearer designator or tuple is explicit; description, carrier, evaluator, viewpoint, work, and result are not substituted for it.
+   The bearer designator or tuple is explicit; description, carrier, evaluator, viewpoint, work, and result are not substituted for it.
 3. **CC-C16Q-3 - Exact probe/model and comparison frames.**
    The domain-local probe or model frame and the separately governed comparison frame or explicit `none` are stated and reviewable; no generic field silently selects either frame.
 4. **CC-C16Q-4 - Effective scheme, evaluator, and viewpoint reference.**
@@ -97,7 +97,7 @@ Apply the following conditions to the branch actually used. A known endpoint fol
 16. **CC-C16Q-16 - Transitional skeleton is complete.**
     The published skeleton carries bearer position and bearer-kind mismatch repair, sense, effective scheme, exact frames, evaluator, `U.ViewpointRef`, ClaimScope, qualifier expectations, normal form, result, witness/evidence/grounding discipline, admissible change classes, and cross-local boundaries without minting universal context, frame, evidence, or grounding kinds.
 17. **CC-C16Q-17 - Consequential alternatives remain inspectable.**
-    If sense selection, bearer facet, or the distinction between the evaluated EntityOfConcern, a description or other `episteme`, a publication face, and a carrier evaluated in its own right is non-obvious, the remaining alternatives are made inspectable before a decision or publication relies on their resolution. An adequate existing explanation can supply this; a separate Candidate-Set Note is optional.
+    If sense selection, bearer facet, or the distinction between the EntityOfConcern being described or evaluated, a description or other `episteme`, a publication face, and a carrier described or evaluated in its own right is non-obvious, the remaining alternatives are made inspectable before a decision or publication relies on their resolution. An adequate existing explanation can supply this; a separate Candidate-Set Note is optional.
 18. **CC-C16Q-18 - Reference resolution is not object substitution.**
     Designators, governed refs, their resolved viewpoint or bearer objects, evaluator, result, frame, scope, grounding holon, and any selected structure remain distinct.
 19. **CC-C16Q-19 - Change verbs dock cleanly with A.6.P and A.6.5.**

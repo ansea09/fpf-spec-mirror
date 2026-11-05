@@ -6,12 +6,12 @@ section_id: "C.2.LS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__004_forces.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:3 — Forces"
-line_start: 53433
-line_end: 53439
+line_start: 53432
+line_end: 53438
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -47,5 +47,5 @@ keywords:
 |---|---|
 | **Thin profile bundle vs practical coordination** | Keep the bundle small, but still give one stable place where the language-state facets are named together. |
 | **Reuse vs duplication** | Reuse A.18/A.19 characteristic machinery and A.16 moves; use E.18 only for an independently selected TransformationFlowStructure. |
-| **Local thresholds vs cross-context comparability** | Contexts need local thresholds, but the facet names must stay stable enough for bridge work and viewpoint bundles. |
+| **Local thresholds vs cross-context comparability** | Receiving uses can require different local thresholds; facet meanings must remain recoverable for comparison, bridge work and viewpoint bundles. |
 

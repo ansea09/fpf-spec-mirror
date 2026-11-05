@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__002_use-this-when.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:0 — Use this when"
-line_start: 54758
-line_end: 54787
+line_start: 54751
+line_end: 54780
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.4"
   - "A.19"
   - "A.19.SPR"
+  - "A.2.4"
   - "A.20"
   - "A.21"
   - "A.3.1"
@@ -66,10 +67,10 @@ Use this pattern especially when:
 **Not this pattern when.**
 
 - If the graph path, `PathSlice`, or flow valuation is already current as graph structure, use `E.18` directly.
-- If the evidence relation or provenance relation for a claim is already current, use `A.10` directly.
+- If the evidence-use or status-use classification of an episteme is already the question, use `A.2.4`. Use `A.10` when source recovery, provenance, currentness or bounded reliance must remain replayable.
 - If the publication face or source-use relation is already current, use `E.17`, `E.17.EFP`, `C.2.P`, or the direct publication pattern.
 - If the current claim concerns a semantic way of doing, use `A.3.1`; if it concerns the description of that way, use `A.3.2`.
-- If the current claim concerns operation algebra, laws, admissibility predicates, transport, audit, or governing-definition assignment, use `A.6.1` or `E.20`.
+- If the question concerns a reusable operation declaration or its applicability, use `A.6.1`. Use `E.20` when an FPF introduction or revision triggers its mechanism-introduction protocol.
 - If the current claim concerns planned work or dated work, use `A.15.2` or `A.15.1`.
 - If the word is only quoted source wording or ordinary navigation prose with no FPF-governed claim, keep it quote-only or ordinary.
 

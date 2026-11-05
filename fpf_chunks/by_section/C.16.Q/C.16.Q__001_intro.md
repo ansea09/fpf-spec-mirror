@@ -6,12 +6,12 @@ section_id: "C.16.Q:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__001_intro.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:intro — Intro"
-line_start: 59853
-line_end: 59866
+line_start: 59834
+line_end: 59847
 dependencies:
   - "A.10"
   - "A.16"
@@ -70,7 +70,7 @@ keywords:
 
 **Intent.** Recover what a quality statement means for its subject and intended use. Distinguish the sense, interpretation basis and kind of result before using the statement for evaluation or another decision.
 
-Use the evaluative form already defined for a known endpoint. When unresolved alternatives must remain inspectable, `qualityTermAscription(...)` supplies a transitional form with explicit participants and conditions. Its detailed fields do not apply to every occurrence of the word “quality.”
+Use the form already defined for a known endpoint. When unresolved alternatives must remain inspectable, `qualityTermAscription(...)` supplies a transitional form with explicit participants and conditions. Its detailed fields do not apply to every occurrence of the word “quality.”
 
 Philosophical, representation-learning, engineering and search uses can retain their different meanings. A recovered action question, relation, requirement or commitment follows its own subject rule.
 

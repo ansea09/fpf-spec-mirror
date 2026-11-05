@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "C.23"
 pattern_title: "MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
 section_id: "C.23:5"
-section_title: "Archetypal Grounding (Tell–Show–Show)"
+section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.23/C.23__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+output_path: "by_section/C.23/C.23__006_archetypal-grounding.md"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
-  - "C.23:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 64504
-line_end: 64545
+  - "C.23:5 — Archetypal Grounding"
+line_start: 64503
+line_end: 64539
 dependencies:
   - "A.10"
   - "B.3"
@@ -38,11 +38,11 @@ keywords:
   - "selector"
 ---
 
-### C.23:5 - Archetypal Grounding (Tell–Show–Show)
+### C.23:5 - Archetypal Grounding
 
 The following are constructed branch examples. For each later branch, stipulate that the named family and policy editions resolve and R0 passes; the QD case also passes R0.QD. Every Admit below additionally requires the complete R1 Eligibility, evidence and Acceptance basis. If a stipulated prerequisite is missing, use the early-Abstain result in §4.2.1 instead.
 
-**Show‑1 - Continuous dynamics (ODE task).**
+**Continuous dynamics (ODE task).**
 *S2 excerpt.* `DataShape=ODE; stiff?=unknown; Hamiltonian=unknown; Size≈10^3; Objective={↓error@ratio, ↑throughput@ratio}; Jacobian_sparsity=high; Missingness=MAR`. A declared safety predicate tests the required ordinal safety level.
 *Families.* `Implicit‑BDF` vs `Explicit‑RK` vs `Symplectic`.
 *Rules.*
@@ -51,9 +51,9 @@ The following are constructed branch examples. For each later branch, stipulate 
 - `Symplectic`: requires `Hamiltonian=true`; its declared branch for the live `unknown` returns `Abstain`, without reporting a false Hamiltonian judgement.
 *Didactic anchor.* This mirrors C.22’s typed‑signature discipline and CHR legality (no ordinal means; unit alignment for **ratio**).
 
-> The cited ecosystem examples of these families (post‑2015) are organised in **DifferentialEquations.jl**, which exposes multiple solver **families** under one call surface—precisely the pattern G.5 expects. ([Journal of Open Research Software][17])
+> Rackauckas and Nie (2017) describe **DifferentialEquations.jl** as a common problem-and-solve interface for different differential-equation methods. That interface illustrates how task description can remain stable while solver choice varies. The C.23 admission conditions above are FPF's conditions. ([Journal of Open Research Software][17])
 
-**Show‑2 - Planning/scheduling (MIP task).**
+**Planning/scheduling (MIP task).**
 *S2 excerpt.* `DataShape=MIP; NoiseModel=deterministic; Objective={↓cost@ratio, ↑service_level@ordinal}; Size≈10^5 vars; convex_relaxation=available`.
 *Families.* `MILP (branch‑and‑bound)`, `Constraint‑Programming`, `Heuristic meta‑search`.
 *Rules.*
@@ -62,21 +62,16 @@ The following are constructed branch examples. For each later branch, stipulate 
 - `Heuristic meta‑search`: **MaturityCard**=`L1`. The applicable AcceptanceClause and family failure policy decide between a permitted `Degrade(sandbox)` branch and `Abstain`; L1 alone supplies neither outcome.
 *Didactic anchor.* G.5 declares a `Shortlist` of the non-dominated retained candidates, with its comparison basis and unresolved ties; no cross-ordinal weighting is introduced.
 
-> The cited “single call / many solvers” packaging that motivates MethodFamily rows is exemplified by **JuMP** (2017–2022), which cleanly separates **model description** from solver choice. ([Miles Lubin][18])
+> Dunning, Huchette and Lubin (2017) describe **JuMP** as a modeling language that separates model expression from optimization-solver choice. This supplies a concrete software example of preserving a problem description while considering different solvers. ([SIAM Review][18])
 
-- *DifferentialEquations.jl* illustrates **family‑based** solver packaging (multi‑method under one interface), 2017–2024 ecosystem. ([Journal of Open Research Software][17])
-- *JuMP* illustrates **model/solver separation** and registry‑like selection (2021–2022 papers, site). ([Miles Lubin][18])
-- *Science of Science* review (2018) supports the emphasis on replication/benchmarks in maturity assessment. ([Science][19])
-
-**Show‑3 - QD archive (policy search).**
+**QD archive (policy search).**
 *S2 excerpt.* `PortfolioMode=Archive; CharacteristicSpaceRef(d=2); ArchiveConfig(CVT, res=1k cells, K=1, DistanceDefRef.edition=v2, InsertionPolicyRef=dyn‑elite); EmitterPolicyRef=v3; DominanceRegime=ParetoOnly`.
 *Rules.* After `Admit`, G.5 declares a `Shortlist` drawn from the QD archive, with exact members, ordering and basis under G.5:4.4b–4.4e. The archive remains its source. Illumination is reported separately; changes to `DistanceDef` or the emitter are editioned in SCR; dominance remains **ParetoOnly**.
 
-**Show‑4 - Open‑ended GeneratorFamily (POET‑class).**
+**Open‑ended GeneratorFamily (POET‑class).**
 *S2 excerpt.* `GeneratorIntent{GeneratorFamilyRef=GF‑01, EnvironmentValidityRegion=EVR‑A, TransferRulesRef=TR‑A, CoverageMetric=…}; PortfolioMode=Archive`.
 *Rules.* After `Admit`, G.5 declares a `Shortlist` over eligible `{environment, method}` pairs with its source and selection basis; `Degrade(scope-narrow)` if `TransferRules`=`unknown`, as permitted by the family policy under R7. Telemetry publishes the declared **coverage and regret** with their edition and policy basis. This use requires no QD search or illumination report. If a later receiving use needs **IlluminationSummary**, obtain its C.17:5.1 measurement basis and retain the governing policy id on improvements.
 
 [17]: https://openresearchsoftware.metajnl.com/articles/10.5334/jors.151 "DifferentialEquations.jl – A Performant and Feature-Rich … "
 [18]: https://mlubin.github.io/pdf/jump-sirev.pdf "JuMP: A Modeling Language for Mathematical Optimization"
-[19]: https://www.science.org/doi/10.1126/science.aao0185 "Science of science"
 

@@ -6,12 +6,12 @@ section_id: "C.22.2:4"
 section_title: "Problem, Task, Method, Work, and Result Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__005_problem-task-method-work-and-result-split.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:4 — Problem, Task, Method, Work, and Result Split"
-line_start: 63934
-line_end: 63952
+line_start: 63935
+line_end: 63953
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,14 +64,14 @@ keywords:
 |---|---|---|
 | `Problem` | Ordinary wording, ProblemCard claim content, or actual PFR according to the sentence | C.22.2 governs the card; C.22.PFR governs the actual relation. Label alone decides neither. |
 | `ProblemCard` | C.2.1 episteme about one joint EntityOfConcern | Compact problem-side result before P2W; not a work request or world-side Problem. |
-| `ProblemProfile` | C.2.1 episteme used by a named receiving selection use | Not the card, TaskSignature, method, or Work request. |
+| `ProblemProfile` | C.2.1 episteme used by a named receiving selection use | One episteme can serve as both ProblemCard and ProblemProfile when it satisfies both uses and C.2.1 constitution; TaskSignature membership and assignment remain separately tested under C.22. |
 | `TaskKind`, `TaskFamilyRef`, `TaskSignature` | C.22 selector-facing declaration content and episteme | Downstream typing values; not WorkPlan entries. |
 | `TaskSignatureAssignmentRelation` | Obtaining relation among exact problem-side episteme, TaskSignature, and receiving-use episteme | Separate from all three participants and from card fields. |
 | Method-family selection claim | G.5 comparison or selection result | Not a card field and not PFR cessation. |
 | `U.Method`, `U.MethodDescription` | Method and method-description values | Governed by their direct method patterns. |
 | `U.WorkPlan` and its declaration-local `SlotFillingsPlanItem` content | Intended Work and planned-filling rows addressed only through that WorkPlan | Defined and tested by A.15.2 and A.15.3; not a TaskSignature or ProblemCard. |
 | `U.Work` | Performed dated Work | Governed by A.15.1; its record or evidence is separate. |
-| Result, measurement, assertion, evidence, or reliance | Exact output under C.16, C.2.1, A.10, G.6, B.3, G.11, or the direct result pattern | Can support a card claim but neither constitutes the card nor makes PFR obtain. |
+| Result, measurement, assertion, evidence, or reliance | Output or claim governed by C.16, C.2.1, A.10, G.6, B.3, G.11, or its direct subject pattern | A claim-bearing result can supply card content or support. It can serve as the card when it satisfies the card's C.2.1 constitution and problem-side use; other results are represented by claims about them. |
 
 Use C.22 to prepare the TaskSignature from the exact problem-side episteme or `ProblemProfile` needed by one receiving use. Assert an assignment only when one TaskSignature is adequate for that use and C.22's obtaining rule holds. If several profiles or signatures remain plausible, preserve candidates rather than asserting one assignment. When the question becomes selection, planning, performed Work, result, gate, evidence, or reliance, apply its governor instead of expanding the card.
 

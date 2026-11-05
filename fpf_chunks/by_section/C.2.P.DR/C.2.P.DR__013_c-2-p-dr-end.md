@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:End"
 section_title: "C.2.P.DR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__013_c-2-p-dr-end.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:End — C.2.P.DR:End"
-line_start: 55089
-line_end: 55090
+line_start: 55075
+line_end: 55076
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.4"
   - "A.19"
   - "A.19.SPR"
+  - "A.2.4"
   - "A.20"
   - "A.21"
   - "A.3.1"

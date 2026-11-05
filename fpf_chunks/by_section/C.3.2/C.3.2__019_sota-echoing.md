@@ -6,12 +6,12 @@ section_id: "C.3.2:17"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__019_sota-echoing.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:17 — SoTA-Echoing"
-line_start: 55644
-line_end: 55647
+line_start: 55630
+line_end: 55633
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -29,5 +29,5 @@ keywords:
 
 ### C.3.2:17 - SoTA-Echoing
 
-Model theory and type systems distinguish intensional declarations, satisfaction judgments, and extensions; measurement and evidence disciplines distinguish the subject feature from its observation or support. C.3.2 combines those separations with FPF's episteme identity, context-slice, representation, and direct-object boundaries.
+A refusal can suffice when the receiver needs only the guard decision. If the receiver needs classification or a further action, `C.3.2:6` preserves the relevant differences: an unsuitable request yields `not-applicable` and no judgment; missing grounds for an admissible request yield `unknown`; an admissible candidate's known criterion failure yields `false`. Collapsing them into `false` would assert non-membership for a mismatch or missing grounds. Correct the request or seek missing grounds only when a further answer is needed; an adequate negative or unresolved answer can finish the work.
 

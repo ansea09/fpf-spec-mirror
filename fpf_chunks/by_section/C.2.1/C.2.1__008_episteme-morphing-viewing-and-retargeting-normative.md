@@ -6,12 +6,12 @@ section_id: "C.2.1:7"
 section_title: "Episteme morphing, viewing, and retargeting  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__008_episteme-morphing-viewing-and-retargeting-normative.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:7 — Episteme morphing, viewing, and retargeting  (normative)"
 line_start: 51779
-line_end: 51817
+line_end: 51816
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -61,9 +61,8 @@ C.2.1 governs episteme identity discriminators and neighboring relations. A.6.2-
 For a morphism from episteme `X` to episteme `Y`, state by value:
 
 1. which of claim content, EntityOfConcern, and effective reference scheme are preserved, restricted, bridged, or changed;
-2. which exact viewpoint selection the use names, which exact empirical-grounding, claim-scope, model-use, evidence, or representation occurrences the arrow rule reads, and which endpoint facts it compares; the arrow changes none of those occurrences and makes none obtain or cease;
-3. which claims in `Y` are preserved from or supported by `X` under the named morphism, the exact correspondence or retargeting relation governed by that morphism pattern, and any `F.9` Bridge that governs cross-context sense use when current;
-4. whether a separate operation application or Work actually produced or changed an episteme, and which direct pattern governs that occurrence.
+2. any exact viewpoint selected for the named use, and any empirical-grounding, claim-scope, model-use, evidence, or representation occurrences that the arrow rule reads or compares; name only those dependencies and the endpoint facts it uses; the arrow changes none of those occurrences and makes none obtain or cease;
+3. how claims in `Y` correspond to or are licensed by `X` and any additional sources or admitted facts required by the named morphism rule, the exact correspondence or retargeting relation governed by that pattern, and any `F.9` Bridge that governs cross-context sense use when current.
 
 The morphism declaration and its mathematical arrows are different objects. The declaration is a C.2.1 episteme, normally an A.6.0 FormalSubstrate signature, whose EntityOfConcern is the local mathematical family and whose claim content declares vocabulary, laws, and applicability. One arrow `f : X -> Y` is a local mathematical object identified inside that substrate by its exact endpoints, arrow rule or designator, and declared formal equivalence.
 
@@ -73,7 +72,7 @@ A claim that one arrow is suitable for one exact use is another C.2.1 assertion.
 
 #### C.2.1:7.2 - Epistemic viewing
 
-`A.6.3` governs an exact source-to-receiving viewing construction when one separately identified receiving episteme is constructed from one separately identified source episteme. That construction may preserve the exact EntityOfConcern while restricting claim content or specializing the effective reference scheme. It neither grants `U.View` membership nor performs work. Direct authoring and query generation can identify receiving epistemes without this construction relation.
+`A.6.3` governs a viewing construction between independently identified source and receiving epistemes with the same exact EntityOfConcern. Under its declared rule, the receiving claims are licensed by the source together with any additional named sources and admitted facts that rule requires; claim content or the effective reference scheme may be restricted. The relation can hold between already existing epistemes and does not establish their production history. It neither grants `U.View` membership nor performs work. Direct authoring and query generation can identify receiving epistemes without a viewing claim; any claim that their production used an earlier source needs its own historical grounds.
 
 `E.17.0` independently asks whether one fixed receiving episteme E conforms to one fixed viewpoint episteme P; formally, whether `EpistemeViewpointConformanceRelation(E,P)` obtains. Only an obtaining relation gives the same E dependent `U.View` membership. A system may perform viewing, query, authoring, or rendering work, but neither that work nor an A.6.1 result position grants `U.View` membership or supplies C.2.1 identity.
 
@@ -85,7 +84,7 @@ Empirical grounding continues only while every mapped direct relation required b
 
 For one receiving use, q states one proposition with affirmative or negative polarity: whether r preserves the named invariant and makes the stated loss acceptable under named conditions. A separate current-case judgement compares exact current facts with that proposition and reports `satisfies`, `fails`, or `cannot decide`. The same r can have different q assertions and case results for different uses without changing arrow identity. A missing deciding fact yields `cannot decide`, names that fact, and states what would reopen the question; it does not create unresolved assertion polarity or require an assurance record.
 
-Use A.20 only when the proposition is an internal constraint, A.10 only when an evidence-use claim is current, and B.3 only when an actual named assurance claim is current. Otherwise the named predicate and direct facts supply the case judgement. If the case also asserts a semantic relation between exact F.17 local senses, F.9 defines that separate Bridge and its bounded-use claim.
+Use A.20 when the proposition is an internal constraint, A.10 when the evidence source-to-use account must remain replayable, and B.3 when an actual named assurance claim is current. The named predicate and applicable direct facts supply the case judgement. If the case also asserts a semantic relation between exact F.17 local senses, F.9 defines that separate Bridge and its bounded-use claim.
 
 A system may perform exact retargeting work. Identify its enacted method, any exact A.6.1 operation application and binding, affected or newly constituted episteme, and actual change facts separately. The arrow itself performs no work, and the mathematical statement `r : X -> Y` infers no bare result or universal production relation.
 

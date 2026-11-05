@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.39.RP.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.39.RP — Organize a Repertoire for Method Development"
-line_start: 84211
-line_end: 84390
+line_start: 84205
+line_end: 84384
 dependencies:
   - "A.3.1.DR"
   - "A.3.1.MR"

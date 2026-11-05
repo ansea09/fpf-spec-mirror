@@ -6,12 +6,12 @@ section_id: "C.3.2:5"
 section_title: "KindSignature Declaration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__007_kindsignature-declaration.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:5 — KindSignature Declaration"
-line_start: 55473
-line_end: 55487
+line_start: 55459
+line_end: 55473
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -36,7 +36,7 @@ Author a reusable `KindSignature` only when a named receiving use needs the crit
 - the membership condition in terms of directly governed candidate qualities, relations, constructive grounding, epistemes, registrations, certifications, publications, legal statuses, or other exact conditions;
 - the exact `U.ContextSlice` applicability in which the evaluation may be formed;
 - the effective reference scheme: designation and interpretation rules for reading that declaration;
-- named assumptions, dependencies, standards, versions, units, and temporal policy;
+- the assumptions and dependencies on which the criterion relies, including any required standards, versions, units, or temporal policy;
 - the expression properties needed for its intended use under C.2.3; and
 - an optional `ExtentRule` for a named extension-consuming use.
 

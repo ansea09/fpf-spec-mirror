@@ -6,12 +6,12 @@ section_id: "C.11.MV:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__009_conformance-checklist.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:7 — Conformance Checklist"
-line_start: 58291
-line_end: 58305
+line_start: 58277
+line_end: 58291
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -33,7 +33,7 @@ keywords:
 - [ ] Trade-offs, non-dominated alternatives, branch discriminators, and non-compensable stops remain visible.
 - [ ] When requirement merits are disputed, the recommendation compares actual protection and burden, retains the threshold or evidence basis needed for that judgement, and separates it from current force and feasible amendment.
 - [ ] The result is a supported `keep`, `revise`, `replace`, `branch`, `stop`, or retained set with its limit and any supported present course. A further probe is selected only for a useful obtainable answer worth its whole burden.
-- [ ] A `revise`, `replace`, or `branch` result names the owning result under §4.1 step 10 and distinguishes a new situated choice from correction of an identified contradiction; `keep` adds no repair return; `stop` preserves the unresolved trade-off and stopped use.
+- [ ] A `revise`, `replace`, or `branch` result names the owning result under §4.1 step 10 and distinguishes a new situated choice from correction of an identified contradiction; `keep` adds no repair return; `stop` preserves any unresolved trade-off and stopped use.
 - [ ] A possible description, representation or support contradiction returns as bounded evidence to A.3.1.CC under §4.1 step 10 for the applicable owner-specific check.
 - [ ] Any evidence transferred to another repertoire decision states its source-use conditions and non-transfer boundary.
 

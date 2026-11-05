@@ -6,12 +6,12 @@ section_id: "C.39.RQ:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.RQ/C.39.RQ__008_bias-annotation.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.39.RQ — Construct Situated Method Requirements"
   - "C.39.RQ:6 — Bias-Annotation"
-line_start: 84542
-line_end: 84552
+line_start: 84536
+line_end: 84546
 dependencies:
   - "A.3.1"
   - "C.11"

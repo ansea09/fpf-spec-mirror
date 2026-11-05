@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.RM.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
-line_start: 59412
-line_end: 59648
+line_start: 59393
+line_end: 59629
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"
@@ -134,7 +134,7 @@ The wanted quantity is the optical power I from a beam at a detector. A supplied
 
 `r = g*(I + A) + b.`
 
-Here A is ambient optical power, g = 2 mV/mW is a known response coefficient and b is an electronic offset. The detector is unsaturated. During the following three observations, g, A and b remain unchanged:
+Here A is the ambient optical power reaching the exposed detector, g = 2 mV/mW is a known response coefficient and b is an electronic offset. The detector is unsaturated, and g and b remain unchanged across all three observations. A remains unchanged between the two exposed readings; the opaque cap blocks both optical contributions:
 
 | Condition | Reading |
 | --- | --- |

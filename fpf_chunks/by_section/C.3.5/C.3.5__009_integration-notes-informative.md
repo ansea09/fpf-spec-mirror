@@ -6,12 +6,12 @@ section_id: "C.3.5:8"
 section_title: "Integration notes (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__009_integration-notes-informative.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:8 — Integration notes (informative)"
-line_start: 56194
-line_end: 56201
+line_start: 56180
+line_end: 56187
 dependencies:
   - "A.2.6"
   - "C.2.2"
@@ -33,7 +33,7 @@ keywords:
 ### C.3.5:8 - Integration notes (informative)
 
 - **C.3.1/C.3.2.** KindAT may guide work on the signature declaration and assurance plan; it changes neither kind continuity nor the four-input judgment.
-- **C.3.3.** KindAT may suggest what preservation evidence to seek. The bridge assertion, not the tag, carries `CL^k`, loss, evidence, and admitted use.
+- **C.3.3.** KindAT may suggest what preservation evidence to seek. The bridge assertion carries loss, evidence, admitted use, and any `CL^k` required by the consumed assurance or calibration account.
 - **C.3.4.** Repeated adaptation-declaration use is a review cue only. A new local kind and any `U.SubkindOf` relation are established independently.
 - **A.2.6.** Scope remains G on the claim or Work use. KindAT never supplies coverage.
 - **C.2.3.** The relevant declaration or claim episteme owns F. KindAT can motivate investment but cannot assign the value.

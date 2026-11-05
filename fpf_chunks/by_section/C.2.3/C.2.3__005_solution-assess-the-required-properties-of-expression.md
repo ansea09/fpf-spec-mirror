@@ -6,12 +6,12 @@ section_id: "C.2.3:4"
 section_title: "Solution - Assess the required properties of expression"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__005_solution-assess-the-required-properties-of-expression.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:4 — Solution - Assess the required properties of expression"
-line_start: 53123
-line_end: 53170
+line_start: 53122
+line_end: 53169
 dependencies:
   - "A.16"
   - "A.18"
@@ -43,7 +43,7 @@ Formality is assessed on a named expression of an episteme's content. Establish 
 
 **F** names the formality assessment in an account that also uses G and R. It is not a globally ordered atomic `U.Characteristic`, and this pattern supplies no universal `U.Formality` value or `F0...F9` scale. The assessed subject is an exact claim, declaration, model or argument expressed by an episteme. State which parts and connecting inferences belong to that assessment.
 
-An ordinary assessment can be a sentence: “The budget condition has declared units, a typed variable and an explicit predicate; no derivation of its adequacy for the project is supplied.” That is enough when it answers the receiving question. For comparison, automation or repeated use, describe the selected expression properties and their values as a profile. The description remains an episteme; a reference such as `formalityRef` points to that assessment and its basis. This introduces no new root U-kind.
+An ordinary assessment can be a sentence: “The budget condition has declared units, a typed variable and an explicit predicate; no derivation of its adequacy for the project is supplied.” That is enough when it answers the receiving question. For comparison, automation or repeated use, describe the selected expression properties and their values as a profile. The description remains an episteme; a reference such as `formalityRef` points to that assessment and its basis.
 
 If a `CharacteristicSpace` is used, each assessed Characteristic has its own declared Scale and slot under A.18 and A.19. A profile is not one Coordinate containing several unnamed characteristics. Record missing or unknown assessments separately from values; unknown precision is not evidence of low precision. Keep the relevant calculus, assumptions and interpretation recoverable alongside the property assessments.
 
@@ -73,7 +73,7 @@ Express a formality requirement through what the recipient needs to do. “The i
 
 Normative content must make the expression conditions needed for its intended use recoverable. A suitable ordinary explanation can do this without a separate score, profile document or formal proof. A richer assessment is required when a comparison, assurance argument or automated consumer actually relies on it. Neither a satisfactory formality assessment nor a threshold result grants permission to act.
 
-Improving the expression changes the assessed content. Correcting an erroneous assessment can instead leave that content unchanged. When the receiving requirement changes, return to the property, formal apparatus, derivation or external support it actually needs; do not automatically raise every part of the expression.
+Improving an expression can change its assessed properties while preserving the episteme's claim content. Correcting an erroneous assessment can leave the expression unchanged. When the receiving requirement changes, return to the property, formal apparatus, derivation or external support it actually needs; do not automatically raise every part of the expression.
 
 #### C.2.3:4.5 - Assess and improve an expression
 

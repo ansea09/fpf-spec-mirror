@@ -6,12 +6,12 @@ section_id: "C.3:13"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__015_sota-echoing.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:13 — SoTA-Echoing"
-line_start: 55234
-line_end: 55237
+line_start: 55220
+line_end: 55223
 dependencies:
   - "A.1"
   - "A.11"
@@ -46,5 +46,5 @@ keywords:
 
 ### C.3:13 - SoTA-Echoing
 
-Model theory, type systems, ontology engineering, and schema practice distinguish intensional declarations, candidate evaluation, extensions, and assertion scope. C.3 adapts that separation to FPF's object discipline: declaration epistemes follow `A.6.0` and `C.2.1`, context slices and claim scope follow `A.2.6`, mathematical representations follow `C.29`, and durable kind admission follows `E.24.UK`.
+For one supported classification, the ordinary conclusion in `C.3:5` can be sufficient. Creating a reusable declaration and an extension for every such answer adds products that the receiver may not consume. Keep the criterion, admissibility and needed support recoverable in the lighter answer. Add the corresponding declaration or extension when repeated interpretation or a set-consuming question needs it.
 

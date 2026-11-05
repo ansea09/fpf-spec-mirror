@@ -6,12 +6,12 @@ section_id: "C.39.WI:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WI/C.39.WI__007_bias-annotation.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.39.WI — Discover Worthwhile Method Improvements"
   - "C.39.WI:6 — Bias-Annotation"
-line_start: 84121
-line_end: 84126
+line_start: 84115
+line_end: 84120
 dependencies:
   - "C.11.DUA"
   - "C.11.MV"

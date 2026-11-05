@@ -6,12 +6,12 @@ section_id: "C.2.1:9"
 section_title: "Archetypal Grounding — Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__010_archetypal-grounding-worked-cases.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:9 — Archetypal Grounding — Worked Cases"
-line_start: 51830
-line_end: 51906
+line_start: 51829
+line_end: 51905
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -70,9 +70,9 @@ A diagnostic model concerns one patient-state entity or one admitted patient coh
 
 A curriculum model concerns an exact competence structure under a scheme that relates assessment or performance evidence to competence claims. If *taught* or *learned* wording leaves the changed subject or result unclear, use `E.10.LRN` to recover the claim first: receiving an intervention and acquiring a capability call for different evidence.
 
-A learner-facing episteme is a `U.View` when it conforms to an exact learner-facing viewpoint under `E.17.0`. If its construction from the source curriculum model matters to the account, `A.6.3` supplies that viewing relation. Changing the selected competence claims changes the receiving episteme; changing only its display preserves it.
+A learner-facing episteme is a `U.View` when it conforms to an exact learner-facing viewpoint under `E.17.0`. If the account needs to establish how the source curriculum model licenses its claims, `A.6.3` tests that viewing relation; an assertion that authoring actually used the source requires its own historical grounds. Changing the selected competence claims changes the receiving episteme; changing only its display preserves it.
 
-If empirical grounding is needed, name the covered competence claims and their mappings to the relevant assessment or performance relations involving an exact admitted course-cohort or learning-environment holon, as required by :4.3. A later capability, transfer or retention claim uses `A.10` for its bounded reliance on the relevant result. If particular teaching, assessment or construction Work must be asserted, open :4.0's Work branch. The identity-only use finishes with the model's claims, exact subject and effective scheme.
+If empirical grounding is needed, name the covered competence claims and their mappings to the relevant assessment or performance relations involving an exact admitted course-cohort or learning-environment holon, as required by :4.3. A later capability, transfer or retention claim needs the applicable grounds connecting that result to the claimed use; use `A.10` when this source-to-use account must remain replayable. If particular teaching, assessment or construction Work must be asserted, open :4.0's Work branch. The identity-only use finishes with the model's claims, exact subject and effective scheme.
 
 #### C.2.1:9.4 - Episteme about an episteme
 
@@ -115,7 +115,7 @@ A readability score can improve while the diagram makes the connections needed f
 
 #### C.2.1:9.8 - Trained or probe-derived representation and tool-using inference
 
-A distributed activation pattern observed during inference is a system-side phenomenon. A trained probe or decoded rendering can represent it for a declared use through an identified correspondence. `A.6.3.RT` governs a same-subject representation transition; `C.29` supplies the additional conditions when a mathematical lens is used. To identify a probe report as an episteme, recover what it claims about that exact phenomenon and the interpretation scheme that gives those claims meaning. Decodability or a readable label alone leaves that identity question unanswered. Use `E.10.LRN` when *learned representation* still leaves the subject or result unclear.
+A distributed activation pattern observed during inference is a system-side phenomenon. A trained probe or decoded rendering can represent it for a declared use through an identified correspondence. `A.6.3.RT` governs a same-subject representation transition; `C.29` supplies the additional grounds when a mathematical-lens choice, transfer or reliance question remains. To identify a probe report as an episteme, recover what it claims about that exact phenomenon and the interpretation scheme that gives those claims meaning. Decodability or a readable label alone leaves that identity question unanswered. Use `E.10.LRN` when *learned representation* still leaves the subject or result unclear.
 
 For a claim about particular inference or tool-call Work, open :4.0's Work branch. If a trace participates at an exact `A.6.1` result position, state that binding. When the trace carries claims about the call, identify its episteme through those claims, that Work as subject, and the effective scheme. A question about when the trace first existed separately opens :4.9.
 

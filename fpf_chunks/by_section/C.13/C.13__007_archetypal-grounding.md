@@ -6,12 +6,12 @@ section_id: "C.13:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__007_archetypal-grounding.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:5 — Archetypal Grounding"
-line_start: 58461
-line_end: 58494
+line_start: 58447
+line_end: 58480
 dependencies:
   - "A.1"
   - "A.14"
@@ -53,7 +53,7 @@ A discipline may use C.13 only after C.20 and its direct relation owners identif
 
 #### C.13:5.4 - Selected Structure And Transformation Stops
 
-A selected `BoundedModelUseStructure` organizes exact model-use relations for a use. Selection does not give the dependent structure constituents, parthood, agency, holonhood, or an MHT. C.13 can discuss construction of an underlying system, episteme, method, or work whole when its direct facts are available; it does not turn the selected relation organization into that whole.
+A selected `BoundedModelUseStructure` organizes exact model-use relations for a use. Selection does not by itself establish constructive parthood, agency, holonhood, or an MHT. C.13 can discuss construction of an underlying system, episteme, method, or work whole when its direct facts are available; it does not turn the selected relation organization into that whole.
 
 Mounting, wiring, fluid-connection, and configuration changes may each be independently identified `U.Transformation` occurrences. A skid entity-construction trace does not make those changes constituents of one composite transformation. If a use requires transformation contribution, parthood, composite identity, or holonhood and no direct governor supplies the relevant compatibility and reidentification law, retain the separate changes and the exact blocker. Missing composition facts establish neither composition nor indivisibility.
 

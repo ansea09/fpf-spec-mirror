@@ -6,12 +6,12 @@ section_id: "C.3.3:7"
 section_title: "Interactions (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__008_interactions-informative.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:7 — Interactions (informative)"
-line_start: 55758
-line_end: 55781
+line_start: 55744
+line_end: 55767
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -41,9 +41,9 @@ After same-kind reuse or an obtaining bridge, use the receiving `KindSignature` 
 
 #### C.3.3:7.3 - With Kind-use Adaptations
 
-For same-kind reuse, select the receiving C.3.4 declaration and evaluate afresh without a bridge. For distinct-kind use, recover the obtaining `KindBridge`, bridge assertion, receiving adaptation declaration, and any exact adaptation-correspondence declaration needed for differing constraints or bindings. Source adaptation results are not receiving truth.
+For same-kind reuse, select the receiving C.3.4 declaration without a bridge; evaluate the receiving candidate afresh when that use is candidate-bearing. For distinct-kind use, recover the obtaining `KindBridge`, bridge assertion, receiving adaptation declaration, and any exact adaptation-correspondence declaration needed for differing constraints or bindings. Source adaptation results are not receiving truth.
 
 #### C.3.3:7.4 - With Guards
 
-A typed receiving guard first determines whether the same kind continues or a distinct-kind bridge is current. It then checks receiving admissibility and, when admissible, the fresh judgment. It independently checks any scope or sense relation the claim consumes and applies only justified consequences to R. `not-applicable`, `unknown`, absent bridge, and guard refusal remain different results.
+A typed receiving guard first determines whether the same kind continues or a distinct-kind bridge is current. When the guard's use is candidate-bearing, it checks receiving admissibility and, when admissible, the fresh judgment. It independently checks any scope or sense relation the claim consumes and applies only justified consequences to R. `not-applicable`, `unknown`, absent bridge, and guard refusal remain different results.
 

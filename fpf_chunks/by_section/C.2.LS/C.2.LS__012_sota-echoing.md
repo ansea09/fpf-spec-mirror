@@ -6,12 +6,12 @@ section_id: "C.2.LS:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__012_sota-echoing.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:11 — SoTA-Echoing"
-line_start: 53534
-line_end: 53544
+line_start: 53531
+line_end: 53541
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -48,8 +48,8 @@ keywords:
 
 | Claim need | Bounded comparison | Exact source | Use in `C.2.LS` | Disposition |
 |---|---|---|---|---|
-| Readiness claims should stay scoped instead of collapsing into one global adjective. | A profile can state scoped conditions and local thresholds rather than one blanket readiness label. | NIST AI RMF 1.0 (2023) | Require explicit facet-level thresholds and reject a polished profile label as a substitute for the facet values. | **Adopt/Adapt.** |
-| A publication can keep several named description elements visible without making their container identical to those elements. | Architecture-description vocabulary distinguishes named elements and their correspondence in a published description. | ISO/IEC/IEEE 42010:2022 | Use this only as a narrow publication comparator; it does not establish the language-state facet ontology. | **Narrow comparator only.** |
+| Conditions are selected for the receiving use. | AI RMF profiles are tailored to application requirements, risk tolerance and resources; the framework prescribes neither a universal tolerance nor a profile template. | [NIST AI RMF 1.0 (2023), §1.2.2 and §6](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) | Select needed language-state readings and make any relied-on threshold explicit. | **Adapt.** |
+| A publication can keep several named description elements visible without making their container identical to those elements. | Architecture-description vocabulary distinguishes named elements and their correspondence in a published description. | [ISO/IEC/IEEE 42010:2022, §§3.4 and 3.11](https://www.iso.org/standard/74393.html) | Use this only as a narrow publication comparator; it does not establish the language-state facet ontology. | **Narrow comparator only.** |
 
-**Local stance.** The useful bounded result is a small explicit facet profile with local thresholds and decomposable readings, not one maturity adjective or one route-coloured bundle label.
+**Local stance.** The useful result is a decomposable profile of the readings and conditions needed for the receiving use.
 

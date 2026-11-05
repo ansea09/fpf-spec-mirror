@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.1.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.1 — Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)"
-line_start: 55260
-line_end: 55417
+line_start: 55246
+line_end: 55403
 dependencies:
   - "A.1"
   - "A.11"
@@ -188,7 +188,7 @@ Kind identity, direct `U.SubkindOf` obtaining, assertion identity, declaration i
 
 ### C.3.1:13 - SoTA-Echoing
 
-Type theory, ontology engineering, and versioned schema practice distinguish intensional identity, preorders, equivalence classes, interpretation editions, and extensions. C.3.1 keeps that distinction but gives practitioners two replayable obtaining branches and a before/after continuity test; C.3.2 owns admissibility and judgment, C.3.3 owns distinct-kind correspondence, and E.24.UK owns the exact public admissions.
+For a subkind question restricted to a deliberately closed finite domain, the exhaustive branch in `C.3.1:4.1` can suffice: check every candidate's admissibility and evaluate those admissible under both declarations, leaving no `unknown` and no narrower `true` without a broader `true`. Requiring criterion entailment beyond that domain would demand a stronger result than this use needs. A non-exhaustive sample leaves unexamined candidates and cannot supply this warrant. Keep the domain and aligned interpretation on the conclusion; recheck it when either changes. An open-domain claim still needs criterion entailment.
 
 ### C.3.1:14 - Relations
 

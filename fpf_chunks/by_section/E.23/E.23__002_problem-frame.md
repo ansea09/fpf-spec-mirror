@@ -6,12 +6,12 @@ section_id: "E.23:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__002_problem-frame.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:1 — Problem frame"
-line_start: 114967
-line_end: 114987
+line_start: 114961
+line_end: 114983
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -32,6 +32,8 @@ keywords:
 Use `E.23` when an object version will be improved through repeated passes under a declared object-under-improvement evaluation. The object can be a pattern, `DRR`, FPF corpus object, engineering quality object, naming candidate, OEE and NQD candidate, archive or front member, selected set, parity report, refresh report, or declared transformation result, if an exact evaluation supplies values and stop meanings for that object kind.
 
 First useful move: name the object version under improvement, the exact evaluation that will re-evaluate it, the improvement aim, protected trade-offs, cost and risk account, and local stop condition.
+
+For improvement of an operating work process whose useful next condition is clearer than the way to reach it, §4.4.1 develops the Improvement Kata branch: study current work, establish a near target condition, and use observations and bounded experiments to discover an effective change. Preparing that basis can finish with a useful next observation. An actual improvement pass still needs the object, evaluation, protected qualities and continuation grounds above. Use the coached-practice application in HCD.9:4.10 when developing the learner's or coach's reasoning is also intended.
 
 Not this pattern when one direct quality evaluation is enough. Run that evaluation; use E.22 first only when its question needs clarification. Use `A.19.ECS` first if the needed evaluation characteristic space does not exist.
 

@@ -6,12 +6,12 @@ section_id: "C.2.4:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__012_sota-echoing.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.4 — Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?"
   - "C.2.4:11 — SoTA-Echoing"
-line_start: 53806
-line_end: 53808
+line_start: 53799
+line_end: 53801
 dependencies:
   - "A.13"
   - "A.15"
@@ -46,5 +46,5 @@ keywords:
 ---
 
 ### C.2.4:11 - SoTA-Echoing
-The distinction echoes work on sketching, focusing/TAE, embodied cue capture, and representation probing: a cue can be real and operationally relevant before it becomes fully explicit.
+[Gendlin's *Introduction to Thinking at the Edge* (2004)](https://focusing.org/gendlin/docs/gol_2160.html), pp.3–5, is a historical comparison for :4.6. It describes trying several words against an initially unclear felt meaning, then developing sentences that express what each attempted word left unsaid. The resulting distinctions can change what is being articulated; writing and reading back can further develop the meaning. The ordinal `AE` anchors are FPF's construction for assessing that content against the stated receiving use.
 

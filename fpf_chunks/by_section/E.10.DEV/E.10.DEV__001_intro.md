@@ -6,12 +6,12 @@ section_id: "E.10.DEV:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.DEV/E.10.DEV__001_intro.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "E.10.DEV — Recovering What Development or Evolution Means in the Current Claim"
   - "E.10.DEV:intro — Intro"
-line_start: 101131
-line_end: 101146
+line_start: 101125
+line_end: 101140
 dependencies:
   - "A.15"
   - "A.2.2"

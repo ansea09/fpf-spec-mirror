@@ -6,12 +6,12 @@ section_id: "C.11.CRC:8"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.CRC/C.11.CRC__010_common-anti-patterns-and-repairs.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.11.CRC — Configuration-Relative Contribution Comparison"
   - "C.11.CRC:8 — Common Anti-Patterns and Repairs"
-line_start: 57617
-line_end: 57628
+line_start: 57603
+line_end: 57614
 dependencies:
   - "A.1.CSD"
   - "A.10"
@@ -50,7 +50,7 @@ keywords:
 | Average benefit chooses the next element | Preserve result and resource coordinates and return the comparison to the governing choice Method. |
 | Derivative times step equals finite contribution | State smoothness region and remainder or perform the finite comparison. |
 | Shadow price equals asset value | Keep the local active-constraint result and model the finite intervention separately. |
-| Functional stationarity proves physical optimality | Use `C.29`, physical/domain evidence, sufficiency checks, and validation. |
+| Functional stationarity proves physical optimality | Establish the physical/domain claim and its required sufficiency and validation grounds. Use `C.29` when the mathematical correspondence or its transfer limits remain unresolved. |
 | Variational inference is calculus of variations or “learning” | Recover the target distribution, approximation family, objective, returned approximation, and diagnostics. |
 | More information is already more capability or value | Treat information as a decision input and test the target result separately. |
 

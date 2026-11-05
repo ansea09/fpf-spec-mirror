@@ -6,7 +6,7 @@ section_id: "B.5.PI:End"
 section_title: "B.5.PI:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.PI/B.5.PI__014_b-5-pi-end.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "B.5.PI — Initiate Inquiry from Ongoing Work"
   - "B.5.PI:End — B.5.PI:End"

@@ -6,12 +6,12 @@ section_id: "C.2.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__008_conformance-checklist.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.5 — Language-State Closure Degree — How Fixed Is the Current Candidate Space?"
   - "C.2.5:7 — Conformance Checklist"
-line_start: 54010
-line_end: 54015
+line_start: 54003
+line_end: 54008
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,6 +36,6 @@ keywords:
 ### C.2.5:7 - Conformance Checklist
 - `CC-C.2.5-1` Closure **SHALL** be declared independently from `F` and `AE` when it matters for routing, docking, or reopening.
 - `CC-C.2.5-2` Reopen/backoff moves **SHALL** cite the prior closure state they are relaxing.
-- `CC-C.2.5-3` Strong-closure states **SHOULD** name the guard, `governingPatternRef`, or `authoritySourceRef` that makes the closure binding.
+- `CC-C.2.5-3` A claim that strong closure is binding **SHOULD** name the applicable guard, `governingPatternRef`, or `authoritySourceRef` that establishes that binding force.
 - `CC-C.2.5-4` A closure drop **SHALL NOT** silently preserve an endpoint-use claim when the supporting route or publication form no longer supports it.
 

@@ -6,12 +6,12 @@ section_id: "E.8.ML:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ML/E.8.ML__004_forces.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "E.8.ML — Construct a Pattern Language for Connected Methods"
   - "E.8.ML:3 — Forces"
-line_start: 97855
-line_end: 97864
+line_start: 97849
+line_end: 97858
 dependencies:
   - "A.3.2.DE"
   - "B.1.5"

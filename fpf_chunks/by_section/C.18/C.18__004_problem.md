@@ -6,12 +6,12 @@ section_id: "C.18:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__004_problem.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:2 — Problem"
-line_start: 61049
-line_end: 61058
+line_start: 61036
+line_end: 61045
 dependencies:
   - "A.15"
   - "A.19"
@@ -53,7 +53,7 @@ keywords:
 
 ### C.18:2 - Problem
 
-Without C.18, a team often compresses several different objects into one word such as archive, front, Q-front, portfolio, style pool, or candidate set. That loses the distinctions between front, archive, and telemetry use:
+An undifferentiated label such as archive, front, Q-front, portfolio, style pool, or candidate set can hide which of these answers the reader needs:
 
 - a front answers current non-domination under a declared comparator or dominance set;
 - an archive answers retained exploration value, coverage, stepping-stone value, or future reachability under a declared retention policy;

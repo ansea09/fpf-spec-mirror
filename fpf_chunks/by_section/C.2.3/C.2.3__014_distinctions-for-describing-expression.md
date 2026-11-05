@@ -6,12 +6,12 @@ section_id: "C.2.3:13"
 section_title: "Distinctions for describing expression"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__014_distinctions-for-describing-expression.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:13 — Distinctions for describing expression"
-line_start: 53246
-line_end: 53293
+line_start: 53245
+line_end: 53292
 dependencies:
   - "A.16"
   - "A.18"
@@ -57,7 +57,7 @@ Constrained prose can stabilize interpretation and state acceptance or refusal c
 
 #### C.2.3:13.5 - Explicit predicates and constraints
 
-Typed entities, bound variables, units, domains and an interpretation make a predicate recoverable. The claim's consistency or consequence can then be examined under the declared semantics. A written formula with undefined symbols does not supply this contribution; an explicit predicate need not be executable or proved.
+Typed entities, bound variables, units where applicable, domains and an interpretation make a predicate recoverable. The claim's consistency or consequence can then be examined under the declared semantics. A written formula with undefined symbols does not supply this contribution; an explicit predicate need not be executable or proved.
 
 #### C.2.3:13.6 - Executable semantics
 

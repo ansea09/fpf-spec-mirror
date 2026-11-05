@@ -6,12 +6,12 @@ section_id: "C.3.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__002_use-this-when.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:0 — Use This When"
-line_start: 55861
-line_end: 55878
+line_start: 55847
+line_end: 55864
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -27,7 +27,7 @@ keywords:
 
 Use C.3.4 when a procedure needs a named local way of using an existing kind without claiming another kind. Typical cases include accepting `Vehicle` candidates only when they have ABS, using local spelling `X-Auth` for `AuthHeader`, or combining a candidate constraint with vocabulary bindings.
 
-First identify the base kind, exact `KindSignature` edition, receiving use, and meanings of local names or predicates. Write one declaration for candidate constraints or vocabulary bindings and route claim-scope conditions separately. Check candidate and slice admissibility, then evaluate one candidate. Stop with the declaration and first reproducible result. If the distinction becomes a stable kind, identify it separately and establish any obtaining `U.SubkindOf` fact under C.3.1.
+First identify the base kind, exact `KindSignature` edition, receiving use, and meanings of local names or predicates. Write one declaration for candidate constraints or vocabulary bindings and route claim-scope conditions separately. When the receiving use applies the declaration to a candidate, check candidate and slice admissibility, then evaluate that candidate. Stop when the declaration and any required candidate result are sufficient for the receiving use. If the distinction becomes a stable kind, identify it separately and establish any obtaining `U.SubkindOf` fact under C.3.1.
 
 Do not use C.3.4 merely to rename a kind, represent a catalog row, narrow claim scope, or avoid deciding whether another kind is needed. A vocabulary-only change adds no candidate predicate. `not-applicable`, `unknown`, and a guard refusal are different results.
 

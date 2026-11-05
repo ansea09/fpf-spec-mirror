@@ -6,12 +6,12 @@ section_id: "C.22.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__002_problem-frame.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:1 — Problem Frame"
-line_start: 63738
-line_end: 63749
+line_start: 63733
+line_end: 63742
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,13 +58,11 @@ keywords:
 
 ### C.22.2:1 - Problem Frame
 
-A working team can begin with symptoms, anomalies, stakeholder signals, constraints, risks, old solution evidence, comparison ideas, solution temptations, underused capabilities, new environments, opportunity-like cues, or members of a retained set. Opportunity-like signals still need an exact EntityOfConcern, effective ReferenceScheme, ClaimScope, claim family, not-wish reason, improvement or acceptance probe, and honest next use; they do not turn this pattern into an ideation pattern.
+A working team can begin with symptoms, anomalies, stakeholder signals, constraints, risks, old solution evidence, comparison ideas, solution temptations, underused capabilities, new environments, opportunity-like cues, or members of a retained set. Opportunity-like signals still need an exact EntityOfConcern, effective ReferenceScheme, ClaimScope, claim family, not-wish reason, improvement or acceptance probe when the next use needs one, and honest next use; they do not turn this pattern into an ideation pattern.
 
 Problematization becomes useful here when it produces claim content a practitioner can inspect. The card distinguishes the observed signal from the claim family being considered; the one joint EntityOfConcern from nearby affected entities; the effective scheme and scope from generic setting words; actual-PFR assertions from forecasts and solvability claims; and problem-side readiness from method, Work, gate, or evidence conclusions.
 
-Current FPF already governs archive, pool, front, selected set, parity, refresh, method selection, evidence, autonomy, gate, representation transition, Bridge, mathematical-lens use, TaskSignature, and actual PFR obtaining. ProblemCard carries only the signal, problem-side claims, exact references, and next-use cues needed to reach those patterns without duplicating their objects.
-
 The first-minute question is:
 
-> Can I state one exact concern, claim family, scheme, scope, improvement or acceptance probe, and honest next use without turning a signal, card field, setting label, evidence result, or proposed method into the actual Problem?
+> Can I state one exact concern, claim family, scheme, scope, improvement or acceptance probe when the next use needs one, and honest next use without turning a signal, card field, setting label, evidence result, or proposed method into the actual Problem?
 

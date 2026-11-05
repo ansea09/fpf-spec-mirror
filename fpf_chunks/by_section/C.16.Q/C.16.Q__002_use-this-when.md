@@ -6,12 +6,12 @@ section_id: "C.16.Q:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__002_use-this-when.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:0 — Use this when"
-line_start: 59867
-line_end: 59882
+line_start: 59848
+line_end: 59863
 dependencies:
   - "A.10"
   - "A.16"
@@ -64,11 +64,11 @@ keywords:
 
 Use this pattern when wording such as `quality`, `good`, `fit`, `high-quality`, `quality characteristic`, `quality improved`, or an evaluative `-ility` claim hides which quality or evaluative-characterization use is live.
 
-**First useful move.** Identify what is being evaluated and what the speaker means by “quality” here. Use the sentence and its receiving question to distinguish the live alternatives. If the meaning and applicable endpoint are already clear, use that endpoint directly.
+**First useful move.** Identify what the quality statement concerns and what “quality” means here. For an evaluation, also recover the criterion used to judge that subject. Use the sentence and its receiving question to distinguish the live alternatives. If the meaning and applicable endpoint are already clear, use that endpoint directly.
 
 **Lowest sufficient use.** Keep ordinary praise and source-local description ordinary when no further FPF-governed claim is made. A supported ordinary explanation can settle the ambiguity. Preserve an insufficiently articulated cue under A.16.1 or its possible continuations under B.4.1; do not invent the missing interpretation to complete a record. Use the transitional form only when the remaining ambiguity must be inspected or reused, with the required interpretation basis in §4.1.
 
-**Practical gain.** The reader can distinguish what improved, according to which comparison or evaluation, and what that result supports. A shared quality word no longer substitutes for the relation between different traditions or for a separate evidence or decision claim.
+**Practical gain.** The reader can recover what is described or evaluated, what any comparison establishes, and what the resulting claim supports. A shared quality word no longer substitutes for the relation between different traditions or for a separate evidence or decision claim.
 
 **Not this pattern when.**
 

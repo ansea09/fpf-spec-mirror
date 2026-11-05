@@ -6,7 +6,7 @@ section_id: "C.19.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__001_intro.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:intro — Intro"

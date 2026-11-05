@@ -6,12 +6,12 @@ section_id: "C.3.A:4"
 section_title: "Normative guard macros"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__005_normative-guard-macros.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:4 — Normative guard macros"
-line_start: 56276
-line_end: 56375
+line_start: 56262
+line_end: 56361
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -44,8 +44,8 @@ Names such as `Guard_TypedClaim` are editorial handles. A context may alias them
 1. recover the exact `KindSignature` declaration episteme editions whose respective `EntityOfConcern` values are `k_claim` and `k_receive`, and whose evaluation domains and effective reference schemes cover the declared use; when both roles use the same kind and edition, state that identity rather than duplicating the declaration;
 2. establish declaration-level kind compatibility:
    - the kinds are identical or `SubkindOfObtains(k_receive, k_claim; effectiveReferenceScheme)` holds under C.3.1, with an identified `R_sub : U.SubkindOf` occurrence only when occurrence identity is needed; or
-   - for a required directional correspondence between independently identified distinct kinds, an obtaining KindBridge relates exact source `k_claim` and target `k_receive` under the paired source and target `KindSignature` editions, and a separate current bridge assertion states the mapping, applicability, loss, `CL^k`, evidence, and admitted receiving use;
-3. require `U.ClaimScope(C)` to cover the exact `TargetSlice` and require an explicit `Gamma_time` selector;
+   - for a required directional correspondence between independently identified distinct kinds, an obtaining KindBridge relates exact source `k_claim` and target `k_receive` under the paired source and target `KindSignature` editions, and a separate current bridge assertion states the mapping, applicability, loss, evidence, admitted receiving use, and any `CL^k` required by the consumed assurance or calibration account;
+3. require `U.ClaimScope(C)` to cover the exact `TargetSlice`, preserve every declared slice selector, and name an explicit `Gamma_time` when membership depends on time under A.2.6;
 4. apply only the justified bridge consequences to R;
 5. check evidence freshness separately when the admission implies reliance; and
 6. check the policy-required expression properties on the exact claim or declaration episteme under C.2.3; a threshold is meaningful only on its named, justified local scale.
@@ -121,10 +121,10 @@ If lines quantify over genuinely different kinds, normalize through separately j
 
 `Guard_XContext_Typed(C, sourceKind, sourceSignatureEdition, targetKind, targetSignatureEdition, TargetSlice, candidate?)` SHALL:
 
-1. compare source and target kind identity and establish declaration-level compatibility under §4.1 steps 1–2; if that compatibility relies on a directional correspondence between distinct kinds, recover the obtaining KindBridge and its assertion with pinned scheme/signature editions, mapping, definedness, `CL^k`, loss, evidence, and admitted use;
+1. compare source and target kind identity and establish declaration-level compatibility under §4.1 steps 1–2; if that compatibility relies on a directional correspondence between distinct kinds, recover the obtaining KindBridge and its assertion with pinned scheme/signature editions, mapping, definedness, loss, evidence, admitted use, and any `CL^k` required by the consumed assurance or calibration account;
 2. recover the independently identified target `KindSignature` edition;
 3. when the receiving claim requires Scope translation, recover the obtaining Scope Bridge and its applicable congruence assessment, the separate affirmative translation-use claim, and the current reliance branch under A.2.6;
-4. require Claim scope, translated when needed, to cover `TargetSlice` with explicit `Gamma_time`;
+4. require Claim scope, translated when needed, to cover the exact `TargetSlice` with all its declared selectors, including any `Gamma_time` required by A.2.6;
 5. when an actual candidate is current, check receiving admissibility and evaluate `J(candidate, targetKind, targetSignatureEdition, TargetSlice)` only for an admissible request; continue candidate-bearing use only on `true`, retaining `not-applicable`, `false`, and `unknown` as distinct refusal grounds;
 6. apply only justified scope- and kind-bridge consequences to R and complete required freshness and policy checks; and
 7. make the separate allow/refuse decision.

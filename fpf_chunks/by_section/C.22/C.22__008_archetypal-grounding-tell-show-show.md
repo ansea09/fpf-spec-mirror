@@ -6,12 +6,12 @@ section_id: "C.22:6"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__008_archetypal-grounding-tell-show-show.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:6 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 63110
-line_end: 63145
+line_start: 63105
+line_end: 63140
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -63,6 +63,6 @@ The examples show which TaskSignature fields supply eligibility or acceptance in
 
 C.22 makes the comparison inputs explicit. Diagnosis and treatment recommendations remain claims governed by the applicable clinical patterns. For a separately current evidence or benefit claim, apply its evidence or clinical evaluation pattern; for a named gate decision, use A.21; for a care-permission claim, use A.2.8.PER and its `GrantedPermissionRelation@Context` predicate; for decision authority, recover the applicable authority predicate. Return `missing-governor` under A.6.RCD only when no governing rule can state or test that exact needed relation claim.
 
-If clinical Work occurs, recover each exact actual performer System through A.13 and let A.15.1 independently admit the dated Work and its enacted Method. Add an assignment occurrence, its declared species, and F.6 only when this clinical account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds still hold. A local system-role kind, classification, or assignment can remain a neighboring fact, but it establishes none of the permission or authority relations above.
+If clinical Work occurs, establish its actual performer System and obtaining assignment under A.13, then independently admit the dated Work and enacted Method under A.15.1. Expose the assignment identifier and declared species, and apply F.6, when this account or its receiving use consumes precise assignment-bound attribution through that assignment. Missing or failed F.6 attribution alone leaves independently admitted Work intact; recheck an admission premise and dependent conclusions if the same finding questions that premise. A local system-role classification or assignment supplies none of the separate permission or authority grounds above.
 *Assignment.* `RehabilitationInterventionFamilyComparisonUse-E1 : U.Episteme` states the exact receiving comparison use. `TaskSignatureAssignmentRelation(CohortRehabilitationProblemCard-E3, RehabilitationFamilyComparisonSignature-E1, RehabilitationInterventionFamilyComparisonUse-E1)` has exactly the problem-side episteme, signature, and receiving-use episteme as participants. It obtains only while that exact signature is actually adopted for that exact card and the use stated in `RehabilitationInterventionFamilyComparisonUse-E1`, under `ClinicalRehabilitation-Scheme-C`, the declared cohort and care ClaimScope, the qualification window above, and the stated evidence-use conditions. Withdrawal of that adoption or loss of a participant or qualification ends this assignment occurrence; cohort labels, records, carriers, and organizations add no signature field or fourth participant.
 

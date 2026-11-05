@@ -6,12 +6,12 @@ section_id: "C.3.4:8"
 section_title: "Interactions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__010_interactions.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:8 — Interactions"
-line_start: 55978
-line_end: 55998
+line_start: 55964
+line_end: 55984
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -38,7 +38,7 @@ Use an adaptation declaration for procedural tailoring. If the receiving uses ne
 
 #### C.3.4:8.3 - With KindBridge
 
-A locality change first prompts kind-identity comparison. When the same base kind continues, select the receiving signature and adaptation declaration and evaluate a fresh candidate result without a `KindBridge`. When two independently identified kinds are distinct and an exact directional correspondence is relied on, establish the C.3.3 `KindBridge`, its assertion, the receiving declaration, and any needed adaptation-correspondence declaration. Only justified bridge penalties affect R; F, G, admissibility, and classification truth remain unchanged.
+A locality change first prompts kind-identity comparison. When the same base kind continues, select the receiving signature and adaptation declaration without a `KindBridge`; evaluate the receiving candidate afresh when that use is candidate-bearing. When two independently identified kinds are distinct and an exact directional correspondence is relied on, establish the C.3.3 `KindBridge`, its assertion, the receiving declaration, and any needed adaptation-correspondence declaration. Only justified bridge penalties affect R; F, G, admissibility, and classification truth remain unchanged.
 
 #### C.3.4:8.4 - With Guards
 

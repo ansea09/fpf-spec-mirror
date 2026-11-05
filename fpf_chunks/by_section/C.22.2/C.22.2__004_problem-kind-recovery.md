@@ -6,12 +6,12 @@ section_id: "C.22.2:3"
 section_title: "Problem-Kind Recovery"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__004_problem-kind-recovery.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:3 — Problem-Kind Recovery"
-line_start: 63914
-line_end: 63933
+line_start: 63915
+line_end: 63934
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,7 +68,7 @@ keywords:
 | Forecast, scenario, counterfactual, or anticipated condition | Exact non-actual claim with assumptions, horizon, and direct governor | Preserve the claim family; do not turn affirmative wording into current PFR obtaining. |
 | Method availability or solvability | Claim over admitted methods, evidence, constraints, and one intended use | Selecting a method revises this claim but does not end an actual PFR. |
 | Framed problem-side representation | ClaimGraph about one joint EntityOfConcern under one effective ReferenceScheme and ClaimScope | Center of ProblemCard; representation change uses its direct transition, retargeting, Bridge, or wording-use governor. |
-| Candidate from archive or retained pool | Member of an exact source set under a retention relation | Preserve `sourceSetRef`, set kind, criterion, budget/window, and non-scalar next use; set semantics remain outside the card. |
+| Candidate from archive or retained pool | Member of an exact source set under a retention relation | Preserve `sourceSetRef`, set kind, criterion, budget/window, and declared next use; set semantics remain outside the card. |
 | Selected problem from a set-return treatment | Exact selected member under a direct selection relation | The card may carry the member, but selection, parity, archive, and set-return claims remain with G.5, C.18, C.19, G.9, G.11, A.6.P:7a, or C.16.Q as applicable. |
 | Problem ready for selector-facing use | Card sufficient to prepare or assign TaskSignature | C.22 constitutes and assigns TaskSignature; C.22.2 does not dump card content into it. |
 | Downstream task, method, plan, or performed-Work cue | Exact value or relation under C.22, G.5, A.15, or another direct pattern | Keep only the problem-side cue and stop before claiming the downstream result. |

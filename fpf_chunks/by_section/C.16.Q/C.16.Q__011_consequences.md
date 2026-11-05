@@ -6,12 +6,12 @@ section_id: "C.16.Q:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__011_consequences.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:9 — Consequences"
-line_start: 60539
-line_end: 60548
+line_start: 60524
+line_end: 60533
 dependencies:
   - "A.10"
   - "A.16"
@@ -63,8 +63,8 @@ keywords:
 ### C.16.Q:9 - Consequences
 
 **Benefits.**
-This pattern makes evaluative language auditable across phenomenology, engineering, and search and selection contexts.
-It also makes subsequent wording repair easier because one explicit quality-term repair form carries the open ambiguity while a reference to the applicable endpoint pattern closes it.
+The pattern makes a quality statement’s meaning and grounds inspectable across phenomenology, engineering, and search and selection contexts.
+A transitional ascription keeps consequential alternatives inspectable. Once their meaning is resolved, state the claim in the form supplied by the applicable endpoint.
 
 **Trade-offs and mitigations.**
 The pattern adds drafting overhead and can feel heavy in exploratory notes.

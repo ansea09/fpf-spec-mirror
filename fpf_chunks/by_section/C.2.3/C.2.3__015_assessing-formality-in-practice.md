@@ -6,12 +6,12 @@ section_id: "C.2.3:14"
 section_title: "Assessing formality in practice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__015_assessing-formality-in-practice.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.3 — Formality of an Episteme"
   - "C.2.3:14 — Assessing formality in practice"
-line_start: 53294
-line_end: 53319
+line_start: 53293
+line_end: 53318
 dependencies:
   - "A.16"
   - "A.18"
@@ -54,7 +54,7 @@ For repeated comparisons, use the same property meanings and conditions for ever
 #### C.2.3:14.3 - Typical improvements
 
 - Replace unstable terms with explicit definitions and consistent references when interpretation is blocked.
-- State a necessary acceptance condition as a predicate with its types, units and meaning when it must be evaluated or reasoned about.
+- State a necessary acceptance condition as a predicate with its types, applicable units and meaning when it must be evaluated or reasoned about.
 - Supply operational semantics when the result must be computed.
 - State the relations and obligations joining formal subsystems when the whole must be analysed.
 - Express the missing derivation when the result depends on a conclusion from premises, then obtain the checking evidence required for that use.

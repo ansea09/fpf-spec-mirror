@@ -6,12 +6,12 @@ section_id: "C.3.4:5"
 section_title: "Solution — Declaration, Correspondence, and Judgment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__007_solution-declaration-correspondence-and-judgment.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:5 — Solution — Declaration, Correspondence, and Judgment"
-line_start: 55914
-line_end: 55941
+line_start: 55900
+line_end: 55927
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -35,7 +35,7 @@ A `KindUseAdaptationDeclaration` is a named, versioned C.2.1 declaration epistem
 6. scope expectations routed separately through A.2.6; and
 7. intended guard use and this declaration episteme's formality, when current.
 
-First evaluate adaptation admissibility. A candidate rejected by the base signature's ValueKind, an adaptation-specific candidate requirement needed merely to form the question, or the declared slice applicability is `not-applicable`; no adaptation judgment is formed. For an admissible request, use:
+For a candidate-bearing use, first evaluate adaptation admissibility. A candidate rejected by the base signature's ValueKind, an adaptation-specific candidate requirement needed merely to form the question, or the declared slice applicability is `not-applicable`; no adaptation judgment is formed. For an admissible request, use:
 
 `J_kindUse(candidate, kind, kindSignatureEdition, adaptationDeclarationEdition, slice) ∈ {true, false, unknown}`
 
@@ -45,8 +45,8 @@ An optional pinned-edition representation may list admissible candidates judged 
 
 When a use moves to another practice, source, or team, compare the base-kind membership distinctions first:
 
-- if the same kind continues, use the declaration and signature edition selected for the receiving use and make a fresh receiving judgment; no `KindBridge` exists merely because locality changed;
-- if independently identified kinds are distinct and the use claims a directional correspondence, establish the C.3.3 `KindBridge`; use the receiving signature and adaptation declaration and make a fresh receiving judgment; and
+- if the same kind continues, use the declaration and signature edition selected for the receiving use and, when the receiving use is candidate-bearing, make a fresh receiving judgment; no `KindBridge` exists merely because locality changed;
+- if independently identified kinds are distinct and the use claims a directional correspondence, establish the C.3.3 `KindBridge`; use the receiving signature and adaptation declaration and, when the receiving use is candidate-bearing, make a fresh receiving judgment; and
 - if two adaptation declarations differ in constraints or bindings, a separate `KindUseAdaptationCorrespondenceDeclaration` may name source declaration as EntityOfConcern and state target, direction, deterministic rule, definedness, loss, and effective scheme. It creates no bridge or target truth.
 
 A stable conceptual refinement may justify another kind and an obtaining C.3.1 subkind fact. A declaration, correspondence, judgment, catalog row, or representation creates neither.

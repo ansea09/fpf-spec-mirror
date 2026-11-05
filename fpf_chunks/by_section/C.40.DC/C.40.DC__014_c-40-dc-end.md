@@ -6,12 +6,12 @@ section_id: "C.40.DC:End"
 section_title: "C.40.DC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.DC/C.40.DC__014_c-40-dc-end.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.40.DC — Construct Directions with Support Configurations"
   - "C.40.DC:End — C.40.DC:End"
-line_start: 87715
-line_end: 87716
+line_start: 87709
+line_end: 87710
 dependencies:
   - "A.3.1"
   - "A.3.2"

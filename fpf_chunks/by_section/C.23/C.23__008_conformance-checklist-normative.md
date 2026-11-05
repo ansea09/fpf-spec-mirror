@@ -6,12 +6,12 @@ section_id: "C.23:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__008_conformance-checklist-normative.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:7 — Conformance Checklist (normative)"
-line_start: 64550
-line_end: 64569
+line_start: 64544
+line_end: 64563
 dependencies:
   - "A.10"
   - "B.3"
@@ -52,7 +52,7 @@ keywords:
 | **CC‑C23.8** | Publish to **UTS** with twin labels. Run **GateCrossing visibility checks** only for a cited crossing of a selected **E.18** transformation-flow structure. Require **CrossingBundle** attestation only when the named receiving use needs it; apply **E.18/F.9/F.17/E.17** under their respective current uses. Apply **LanePurity** and **Lexical SD** (**E.10**); use GateChecks/GateProfile (**A.21**) only when a named gate decision is current. | Publication & crossing visibility hygiene. |
 | **CC‑C23.9** | All enumerations (e.g., `Degrade(mode)`, Maturity rungs) **SHALL** declare a **closed value set** and **Scale kind**, and be registered at UTS (LEX enum clarity).                          | Avoids lexical drift; lawful typing.          |
 | **CC‑C23.10** | **RSCR tests** cover negative/refusal paths (illegal CHR ops; CG‑Spec gate fail; Bridge missing when relied on; **Φ table/policy‑id missing** when that penalty policy is used; **Lexical SD violations (E.10)**); ensure **branch coverage** (Admit/Degrade/Abstain, unknown). | |
-| **CC‑C23.11** | For an active QD use, **R0.QD MUST** pass: lawful **CharacteristicSpaceRef** (d≥2, characteristics typed, planes declared), **ArchiveConfig** (topology, resolution, K, `InsertionPolicyRef`, editioned `DistanceDef`) and **EmitterPolicyRef**. Evidence retention or set-valued selection alone does not activate this gate. | QD requirements apply to the actual QD use. |
+| **CC‑C23.11** | For an active QD use, **R0.QD MUST** pass: lawful **CharacteristicSpaceRef** (coordinates typed, dimension sufficient for the declared descriptor and comparison rules, planes declared where interpretation or the receiving contract requires them), **ArchiveConfig** (topology, resolution, K, `InsertionPolicyRef`, editioned `DistanceDef`) and **EmitterPolicyRef**. Evidence retention or set-valued selection alone does not activate this gate. | QD requirements apply to the actual QD use. |
 | **CC‑C23.12** | **DominanceRegime** **SHALL** default to `ParetoOnly`; switching to `ParetoPlusIllumination` **MUST** be authorised by **CAL** and cited by id in SCR.                                    | Prevents implicit scalarisation.              |
 | **CC‑C23.13** | Resolve `PortfolioMode` through G.5 `CC-G5.23`. An archive remains a source; G.5 outcomes follow G.5:4.4b–4.4e after the applicable admission result. When illumination telemetry is used, it remains report-only unless CAL authorises its dominance contribution. | Separates retention, QD construction and selector outcome. |
 | **CC‑C23.14** | If `GeneratorIntent` is present, **R7 MUST** verify **EnvironmentValidityRegion** and **TransferRulesRef**. G.5 declares its outcome over **{environment, method}** pairs under G.5:4.4b–4.4e; coverage and regret remain telemetry. | OEE legality and telemetry. |

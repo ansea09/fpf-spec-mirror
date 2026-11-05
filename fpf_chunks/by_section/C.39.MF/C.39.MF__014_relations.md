@@ -6,12 +6,12 @@ section_id: "C.39.MF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.MF/C.39.MF__014_relations.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.39.MF — Choose and Reopen a Method Development Focus"
   - "C.39.MF:12 — Relations"
-line_start: 83882
-line_end: 83889
+line_start: 83876
+line_end: 83883
 dependencies:
   - "A.15.6"
   - "A.3.1"

@@ -6,12 +6,12 @@ section_id: "C.3.4:10"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__012_worked-examples.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:10 — Worked Examples"
-line_start: 56010
-line_end: 56025
+line_start: 55996
+line_end: 56011
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -31,7 +31,7 @@ keywords:
 
 #### C.3.4:10.2 - `AuthenticatedRequest@Frontend` Vocabulary Use
 
-`FrontendAuthHeaderUse-2026` binds `authHeader` to local spelling `X-Auth` and adds no candidate condition. Its judgment therefore equals the admissible base judgment. Moving the same exact request kind to another team requires a fresh receiving evaluation but no `KindBridge` merely because the team or spelling changed. If two independently identified request kinds differ, establish any bridge separately.
+`FrontendAuthHeaderUse-2026` binds `authHeader` to local spelling `X-Auth` and adds no candidate condition. Its judgment therefore equals the admissible base judgment. Moving the same exact request kind to another team requires a fresh receiving evaluation when the receiving use applies the declaration to a request, but no `KindBridge` merely because the team or spelling changed. If two independently identified request kinds differ, establish any bridge separately.
 
 #### C.3.4:10.3 - `AdultPatient@Clinic` Composite Use
 

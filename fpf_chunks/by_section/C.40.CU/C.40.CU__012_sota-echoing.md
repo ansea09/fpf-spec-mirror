@@ -6,12 +6,12 @@ section_id: "C.40.CU:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.CU/C.40.CU__012_sota-echoing.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.40.CU — Develop a Useful and Reproducible Use of a Construct"
   - "C.40.CU:11 — SoTA-Echoing"
-line_start: 86174
-line_end: 86184
+line_start: 86168
+line_end: 86178
 dependencies:
   - "B.1.5.EW"
   - "B.1.5.RS"

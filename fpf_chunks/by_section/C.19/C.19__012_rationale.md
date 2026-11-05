@@ -6,11 +6,11 @@ section_id: "C.19:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__012_rationale.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:10 — Rationale"
-line_start: 61847
+line_start: 61849
 line_end: 61854
 dependencies:
   - "A.10"
@@ -53,9 +53,7 @@ keywords:
 
 ### C.19:10 - Rationale
 
-`C.19` exists because pool governance is neither local choice nor execution. Once several candidate lines remain live, the key question is no longer which single option should survive now; it is how the pool should be governed next under one explicit lens or policy. That question needs its own explicit pool-policy result, otherwise frontier drift, silent scalarization, and policy amnesia return immediately.
+Pool governance decides how to treat several still-live lines over the relevant horizon. A local choice among fixed options can select an action without deciding which other lines to continue or retain; a pool-policy result makes those commitments and their change conditions explicit.
 
-- Post-2015 bandit and Bayesian-optimization practice treats explore and exploit policy as an explicit policy object, not as one hidden side effect of whichever candidate looked best first. The practical implication here is to emit one explicit pool treatment plus one change trigger, not one atmospheric frontier story.
-- Contemporary frontier and quality-diversity practice also distinguishes the live frontier from any scalarized pick taken under one declared lens. The practical safeguard is to keep `keep_frontier`, `narrow_to_subset`, and `sunset_line` as visible alternatives rather than silently totalizing the pool.
-- When an applicable policy independently admits coverage or heterogeneity pressure, keep that pressure explicit until one declared reason justifies retirement or use of a different subject pattern. The practical implication is simple: sunset a line only when the current pool-policy result states the policy reason for retiring that line; name the next subject pattern only when the next question no longer concerns pool policy under `C.19`.
+When an applicable policy independently admits coverage or heterogeneity pressure, keep that pressure explicit until one declared reason justifies retirement or use of a different subject pattern. The practical implication is simple: sunset a line only when the current pool-policy result states the policy reason for retiring that line; name the next subject pattern only when the next question no longer concerns pool policy under `C.19`.
 

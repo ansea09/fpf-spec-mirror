@@ -6,12 +6,12 @@ section_id: "C.22.2:7"
 section_title: "Source Record-Form Recovery"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__008_source-record-form-recovery.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:7 — Source Record-Form Recovery"
-line_start: 63979
-line_end: 63992
+line_start: 63980
+line_end: 63993
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,8 +62,8 @@ Source record names are recovered by use, not by label shape. This section preve
 
 | Source form family | `C.22.2` preservation | Subject pattern named by value for outside use |
 |---|---|---|
-| Problem card, problematization passport, problem-side note, or ordinary problem signal | Carry the signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, exact claim family, not-wish or not-preselected-work reason, improvement check or acceptance probe, and honest next use. | `C.22.2` governs only the problem-side episteme; downstream selector-facing use remains with `C.22`. |
-| Archive, portfolio, palette, front, shortlist, selected set, `LivePool`, set-return, or retained candidate | Preserve `sourceSetRef`, source-set kind, selection or retention criterion, budget or window when current, and non-scalar next use. | `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q` according to the relation named by value. |
+| Problem card, problematization passport, problem-side note, or ordinary problem signal | Carry the signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, exact claim family, not-wish or not-preselected-work reason, improvement check or acceptance probe when needed, and honest next use. | `C.22.2` governs only the problem-side episteme; downstream selector-facing use remains with `C.22`. |
+| Archive, portfolio, palette, front, shortlist, selected set, `LivePool`, set-return, or retained candidate | Preserve `sourceSetRef`, source-set kind, selection or retention criterion, budget or window when current, and declared next use. | `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q` according to the relation named by value. |
 | Characterization passport, characteristic card, parity plan, comparison note, rule-of-choice card, or acceptance-looking row | Preserve the cue, candidate criterion, comparator cue or window cue, and current reason the relation changes formulation. | `C.16`, `A.19`, `C.25`, `G.0`, `G.4`, `G.9`, or `C.11` according to the relation named by value. |
 | Evidence pack, provenance note, assurance row, gate log, autonomy budget, runbook, rollback plan, method selection, work plan, performed-work note, result record, or result measurement | Preserve only the problem-side cue, risk or validation boundary, source reference, and stop condition before that use. | `A.10`, `G.6`, `B.3`, `A.21`, `E.16`, `G.5`, `A.15`, `C.16`, or `G.11` according to the claim named by value. |
 | Candidate solution, described system, ordinary log, budget, ledger, protocol, plan, pack, or factory wording | Recover the use under repair: problem-side source material, problem-side source relation, selected-set material, work, evidence, gate, or autonomy material, or ordinary example. | Apply the subject pattern for the recovered relation; do not mint a local `C.22.2` kind from the label. |

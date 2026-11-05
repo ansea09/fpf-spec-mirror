@@ -6,12 +6,12 @@ section_id: "C.39.WA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.39.WA/C.39.WA__002_problem-frame.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.39.WA — Develop an Account of the Whole Subject"
   - "C.39.WA:1 — Problem frame"
-line_start: 83254
-line_end: 83261
+line_start: 83248
+line_end: 83255
 dependencies:
   - "C.20"
   - "C.39.QR"

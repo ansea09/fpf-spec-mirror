@@ -6,7 +6,7 @@ section_id: "A.3.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__005_solution.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:4 — Solution"
@@ -182,7 +182,7 @@ Choose by the claim being made:
 * If it points to code, prose, a protocol, diagram, solver model, or other episteme that describes the method, use A.3.2. Use A.6.0 or C.29 when the claim is instead about a formal declaration or mathematical representation.
 * If it declares a law-governed operation family or asks where that declaration is maintained, use A.6.1 or E.20.
 * If it schedules future work or reports a dated occurrence, use A.15.2 or A.15.1.
-* If it claims evidence, provenance, or support, use A.10 and the direct evaluation or measurement pattern. If a representation's form or layout is being treated as sufficient to prescribe or authorize action, apply C.2.P.DR before choosing the pattern for that claim.
+* If it claims evidence, provenance or support, use the direct pattern for that claim or relation. Add an A.10 source-to-use account when source recovery, provenance, currentness or bounded reliance must remain replayable. If a representation's form or layout is being treated as sufficient to prescribe or authorize action, apply C.2.P.DR before choosing the pattern for that claim.
 
 Use §4.2 for cross-context correspondence, bounded-use, assurance, and mechanism-realization claims. C.2.1, A.6.3, A.6.3.RT, A.6.4, or A.1.1 governs an actual change of episteme edition, reference scheme, representation scheme, retargeting, or model-use relation. A.6.1 governs an application binding. State one of these relations only when its participants and predicate are present; otherwise retain the source objects without asserting the relation.
 

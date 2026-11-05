@@ -6,12 +6,12 @@ section_id: "C.3:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__017_relations.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:15 — Relations"
-line_start: 55252
-line_end: 55257
+line_start: 55238
+line_end: 55243
 dependencies:
   - "A.1"
   - "A.11"
@@ -47,6 +47,6 @@ keywords:
 ### C.3:15 - Relations
 
 - **Builds on:** `A.2.6` context-slice and scope discipline, `A.6.0` reusable declaration discipline, `C.2.1` episteme identity, F-G-R, and direct subject patterns for candidate features.
-- **Coordinates with:** `C.3.1` through `C.3.5`, `C.3.A`, `C.29`, `E.24.UK`, `A.8`, `A.11`, `F.8` and `F.18`. Use `B.3.5:4.1` when constructional and typed or logical content must be inspected together; A.22 selects the structure and A.22.CGUS tests any required qualification separately. Use `A.7.1` for a general diagnostic return to the subject construction.
+- **Coordinates with:** `C.3.1` through `C.3.5`, `C.3.A`, `C.29`, `E.24.UK`, `A.8`, `A.11`, `F.8` and `F.18`. `B.3.5:4.1` provides an optional record when constructional and typed or logical content must be inspected together; use A.22 for a needed structure selection and A.22.CGUS for a remaining continuation question or required qualification. Use `A.7.1` for a general diagnostic return to the subject construction.
 - **Does not replace:** direct candidate-feature ontology, A.14 collection membership, `A.2.6` scope, `C.29` representation use, ontic settlement in `E.24`, U-kind admission in `E.24.UK`, or naming in Part F.
 

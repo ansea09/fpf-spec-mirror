@@ -6,12 +6,12 @@ section_id: "C.41.SR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.41.SR/C.41.SR__004_forces.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.41.SR — Reconcile Checklist Results Across Shared Work"
   - "C.41.SR:3 — Forces"
-line_start: 89748
-line_end: 89757
+line_start: 89742
+line_end: 89751
 dependencies:
   - "A.10"
   - "B.1.5"

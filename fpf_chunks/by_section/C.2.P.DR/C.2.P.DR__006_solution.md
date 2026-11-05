@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__006_solution.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.P.DR — Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)"
   - "C.2.P.DR:4 — Solution"
-line_start: 54817
-line_end: 54940
+line_start: 54810
+line_end: 54933
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.4"
   - "A.19"
   - "A.19.SPR"
+  - "A.2.4"
   - "A.20"
   - "A.21"
   - "A.3.1"
@@ -93,14 +94,14 @@ Use four plain questions before the claim-and-pattern table: What visible thing 
 | If recovery shows... | Use this subject pattern | Keep this boundary |
 | --- | --- | --- |
 | graph object, graph path, `PathSlice`, crossing, flow valuation, transformation-flow structure relation, or graph expression over that structure | `E.18`, `E.18.2`, or `E.18.1` when P2W carry-through is current | Graph structure or path structure is not work route, method narrative, evidence result, or pattern dispatch by layout. |
-| evidence relation or provenance relation for a claim, effect, or reliance use | `A.10` | Evidence path is not approval, permission, gate passage, release, safety, work occurrence, or assurance by itself. |
+| evidence use or provenance for a claim, effect, or reliance use | `A.2.4` for an episteme's evidence use; the direct pattern for the claim or relation; `A.10` when the source-to-use account must remain replayable | Evidence path is not approval, permission, gate passage, release, safety, work occurrence, or assurance by itself. |
 | state, status value, readiness, validity, or predicate-like value whose bearer and value frame is hidden | `A.19.SPR` or the direct status-value or state-value pattern | A predicate or state-like value is not a workflow, gate, or proof unless the subject pattern says so. |
 | publication face, source expression, generated explanation, dashboard face, publication unit, or source-chain relation | `E.17`, `E.17.EFP`, `C.2.P`, `A.15.4`, or source-use pattern named by value | Publication and source visibility do not create work, evidence, authority, release, or gate passage. |
-| mathematical representation, formal object, formal substrate, invariant, or mathematical-lens output | `A.6.0`, `C.29`, or direct mathematical pattern | Mathematical representation is not method, mechanism, proof of project result, or work execution until that claim is separately recovered. |
-| context-local semantic way of doing | `A.3.1 U.Method` | A method claim is not closed by code, diagram, proof script, plan, run, or mechanism declaration; use `E.10.ARCH:3.1` only to recover the project concern and then recover each linked typed value under its own subject pattern. |
-| already identified `U.Episteme` with one admitted `U.Method` as its exact `EntityOfConcern` and at least one substantive claim about that method as a way of doing | `A.3.2 U.MethodDescription` | Code, SOP, proof-script, solver-model, process-model, protocol, recipe, and diagram forms are clues only. A name, citation, approval, runnable form, or representation correspondence does not establish membership. |
-| law-governed operation algebra, laws, admissibility predicates, transport, audit, realization, or governing-definition assignment | `A.6.1` and `E.20` | Mechanism meaning is not selected by saying "algorithm" or "method"; it needs mechanism fields. |
-| planned work, intended window, resource budget, acceptance criterion, or source “role requirement” | `A.15.2 U.WorkPlan` for the plan. Resolve a “role requirement” separately to its exact local system-role kind, separate System-classification judgment, future assignment condition, capability, participant relation, or other direct condition; if unresolved, use `E.10.ROLE`. | A plan is not a Method, MethodDescription, evidence, gate passage, performed Work, or assignment occurrence. A required kind or condition does not create the future assignment. |
+| mathematical representation, formal object, formal substrate, invariant, or mathematical-lens output | `A.6.0` or the direct mathematical pattern; `C.29` when a separate representation choice, transfer or reliance question remains | Mathematical representation is not method, mechanism, proof of project result, or work execution until that claim is separately recovered. |
+| context-local semantic way of doing | `A.3.1 U.Method` | Recover the way of doing and its identity and applicability under A.3.1 from the substantive claims, which may be conveyed in code or another expression. Form alone does not settle Method identity. Use `E.10.ARCH:3.1` only while a linked object or claim remains unclear; otherwise use its subject pattern directly. |
+| a question about whether one independently identified `U.Episteme` is a `U.MethodDescription`, or about using its method claims | `A.3.2 U.MethodDescription` | Test the exact `EntityOfConcern` and substantive way-of-doing content. Positive membership requires the admitted Method and content specified by A.3.2; retain negative or unresolved outcomes when those conditions fail or remain unknown. Representation form alone does not settle membership. |
+| reusable operation declaration, or a neighboring realization, transport, audit or evaluation claim | `A.6.1` for declaration content; the direct pattern for a neighboring relation; `E.20` when an FPF introduction or revision triggers its protocol | Recover and test the declaration and its required content; an algorithm or method label supplies neither that qualification nor a neighboring relation. |
+| planned work, intended window, resource budget, acceptance criterion, or source “role requirement” | `A.15.2 U.WorkPlan` for the plan. Resolve a “role requirement” separately to its exact local system-role kind, separate System-classification judgment, future assignment condition, capability, participant relation, or other direct condition; if unresolved, use `E.10.ROLE`. | The same episteme may also qualify as `U.MethodDescription` under A.3.2, and its use as evidence depends on the claim and applicable grounds. Planning content alone establishes no gate passage, performed Work or obtaining assignment; recover any claimed Method identity under A.3.1. A required kind or condition does not create the future assignment. |
 | exact dated Work occurrence | Recover every exact actual performer and its obtaining A.2.1 system-role assignment through A.13, then let `A.15.1 U.Work` independently identify the dated occurrence, enacted Method, time, and containing System. A representation claiming the exact Work keeps every actual performer named or recoverable. Keep the underlying assignment facts recoverable; include an assignment identifier in the representation only when the receiving use needs it. Add an F.6 relation through that same obtaining assignment only when the representation or receiving use expressly represents precise assignment-bound attribution. Missing or failed F.6 attribution alone leaves the Work intact while its independent A.13/A.15.1 grounds still hold and blocks only that attribution. | The Work occurrence is not its trace, record, binding, resource use, result, diagram, plan, MethodDescription, source cue, or evidence path. |
 | run trace or performed-work record | `C.2.1` for the exact trace or record episteme, plus its direct description, publication, source-use, or evidence-use pattern only when that claim is current | The episteme may designate exact `W`, `RA`, holder `S`, and `performedUnderAssignment(W, RA)` when it makes that attribution; it neither is the Work occurrence nor makes the relation obtain. |
 | concrete parameter or participant binding | the exact direct subject-relation pattern, or `A.6.1` for one independently identified operation application and its actual argument or result binding | A declaration, call position, trace field, or type-compatible token establishes no actual binding. |
@@ -111,7 +112,7 @@ Use four plain questions before the claim-and-pattern table: What visible thing 
 
 #### C.2.P.DR:4.3 - Legitimate path and route settlement
 
-`A.10 evidence path for <claim, effect, or use>` is legitimate when the evidence relation or provenance relation for the named claim, effect, or reliance use is current. `E.18` graph path and `PathSlice` are legitimate when the graph object, path, slice, crossing, or flow valuation is current. Carrier file paths, URLs, mathematical paths, and quoted source paths are legitimate when their notation, source-use function, or use relation is current.
+`A.10 evidence path for <claim, effect, or use>` is legitimate when a descriptive source-to-use account is current under A.10. `E.18` graph path and `PathSlice` are legitimate when the graph object, path, slice, crossing, or flow valuation is current. Carrier file paths, URLs, mathematical paths, and quoted source paths are legitimate when their notation, source-use function, or use relation is current.
 
 Repair path wording when it carries an unsupported claim about what happens or what may be done. A clear ordinary reference or navigation instruction can remain unchanged.
 
@@ -122,7 +123,7 @@ For a route or unfolding expression, identify the object before selecting its ru
 | constraint-governed `U.Structure` across several constrained loci | `A.22.CGUS` |
 | transformation-flow structure, path, path slice, crossing, guard, or valuation | `E.18` and `E.18.3` when unfolding use is current |
 | description, diagram, table, graph, route card, slide, README line, or narrative that renders the structure | `A.22.CGUS:4.4` for descriptions of a qualified CGUS and post-qualification demonstrative slices, including the wording `ConstraintGovernedUnfoldingStructureDescription@Context` or `DemonstrativeUnfoldingSlice@Context`; `A.6.3.NAR` for narrative rendering; `E.17` for publication; or the direct description subject pattern |
-| reusable semantic way of doing, or a claim-bearing episteme that passes the A.3.2 MethodDescription membership test | `A.3.1` for the method; `A.3.2` for the qualifying episteme |
+| reusable semantic way of doing, or a MethodDescription membership or use question about one identified episteme | `A.3.1` for the way of doing; `A.3.2` for the MethodDescription question |
 | work plan, work readiness, or performed work | A.15 family |
 | evidence, assurance, gate, decision, architecture, publication, or currentness-refresh claim | the subject pattern for that claim |
 
@@ -132,7 +133,7 @@ Recover the relation the route expression conveys. Direct inspection of a graph 
 
 For method-like wording, recover the claimed way of doing and distinguish it from its expression and any actual performance.
 
-**Method-description membership guard.** A code file, SOP, proof script, solver model, process model, protocol, recipe, diagram, or query plan is only a representation clue. First identify the claim-bearing episteme under C.2.1. Apply A.3.2 only when that same episteme has one admitted `U.Method` as its exact `EntityOfConcern` and at least one claim says how that method is done, such as its transformation or enactment concern, applicability, precondition, intended effect or preserved condition, bound, generic participant meaning, or internal method composition. A name, author, citation, approval, file form, runnable configuration, or representation correspondence alone is a near-miss. If the test fails, do not assign `U.MethodDescription`; keep the representation, publication, plan, dated work, result, formal substrate, mechanism declaration, evidence, or source use with its subject pattern. A representation or publication change does not decide membership. If claim content, exact method, or effective reference scheme changes, C.2.1 first identifies the resulting episteme; then apply A.3.2 to that individual.
+**Method-description membership.** First identify the claim-bearing episteme under C.2.1. Use A.3.2 to determine whether that same individual is a `U.MethodDescription`. Positive membership requires one admitted `U.Method` as its exact `EntityOfConcern` and at least one substantive claim about that Method as a way of doing. Such a claim can state its transformation or enactment concern, applicability, precondition, intended effect or preserved condition, bound, generic participant meaning, or internal composition. When either condition is false, membership fails; when the available basis does not settle them, leave membership unresolved. Representation form, execution or approval alone does not supply these conditions. Keep any independently established representation, publication, plan, Work, result, formal declaration or evidence use under its own pattern. A representation or publication change does not decide membership. If claim content, exact subject or effective reference scheme changes, identify the resulting episteme under C.2.1 and apply the test to that individual.
 
 Recover what the source is actually about and what it asserts:
 
@@ -142,12 +143,12 @@ Recover what the source is actually about and what it asserts:
 | transformation or enactment kind stated inside a current method claim | keep it as one method-identity field or claim content under A.3.1; it is not a peer `U.Method` |
 | independently grounded actual bounded change | `A.3.4 U.Transformation` |
 | possible, required, desired, intended, planned, predicted, modeled, or asserted change | keep it as claim content under the exact requirement, architecture, capability-gap, functional-view, method, work-plan, dynamics-model, publication, or other subject pattern; wording alone admits no `U.Transformation` |
-| already identified episteme whose exact `EntityOfConcern` is one admitted `U.Method` and whose claims include at least one substantive way-of-doing claim | `A.3.2 U.MethodDescription` |
-| formal substrate, signature, postulates, laws, or mathematical declaration | `A.6.0`; use `C.29` when mathematical-lens use is current |
-| operation algebra, admissibility predicates, transport, audit, realization, or mechanism-governing-definition assignment | `A.6.1` and `E.20` |
+| a question about whether one identified episteme substantively describes an admitted Method, or about using those method claims | `A.3.2 U.MethodDescription` |
+| formal substrate, signature, postulates, laws, or mathematical declaration | `A.6.0`; use `C.29` when a separate mathematical-representation choice, transfer or reliance question remains |
+| reusable operation declaration, or a neighboring realization, transport, audit or governing-definition-assignment question | `A.6.1` for declaration content; the direct pattern for the neighboring relation; `E.20` when an FPF introduction or revision triggers its protocol |
 | planned work | `A.15.2 U.WorkPlan` |
 | dated performed work | `A.15.1 U.Work` |
-| evidence relation or provenance relation for a claim | `A.10` |
+| evidence-use or provenance question for a claim | `A.2.4` for an episteme's evidence use; the direct pattern for a provenance relation; `A.10` when source-to-use recovery or reliance must remain replayable |
 | wording quoted from source with no FPF-governed use | quote-only source wording |
 
 **Cooling contrast.** A reusable cooling procedure can be `U.Method` only after the context-local way of doing, its transformation or enactment kind, transformed referent or structure, preconditions, and intended effects are recovered. “Required cooling effect” alone is claim content, not a method. If a later cooling episode actually changes the governed loop state, that occurrence remains a separate A.3.4 `U.Transformation` and needs its own changed referent, boundary, conditions, actual facts, and continuity or reidentification basis.
@@ -158,12 +159,12 @@ When the source label hides method, mechanism, formal-substrate, work, evidence,
 
 A paradigm label helps locate the relevant source semantics. Those semantics, together with the claim being made, determine which FPF question to ask.
 
-The source treatments below expose different distinctions:
+The source distinctions below help identify what an expression is being used to claim:
 
-- constructor and process-theory lines keep computation, information, dynamics, and procedure close to possible or impossible transformations and compositional realization;
-- scoped effects and handlers separate operation syntax, semantic handling, scopes, resources, equations, type information, and effect information;
-- Declare-style process models and object-centric event logs distinguish constraints, events, objects, relations, ingestion, transformation, storage, and analysis;
-- e-graph and monoidal-rewriting work shows that computation or process representation may be equivalence or composition structure rather than instruction order.
+- constructor and process theories distinguish an abstract task from the physical processes proposed to implement it; recover whether the account specifies a transformation or asserts its performance;
+- scoped-effect calculi distinguish an operation, its handler and the rules governing scope and effects; recover which object and semantic relation the current claim concerns;
+- Declare constraints restrict admissible traces, while object-centric logs record events and object relations; data-ingestion and transformation pipelines are another subject, so identify which of these the account describes;
+- e-graphs and monoidal rewriting represent equivalence and composition; inspect that relation before treating an edge or rewrite as execution order.
 
 Use the distinction relevant to the case to recover the object or claim, then apply its subject pattern.
 

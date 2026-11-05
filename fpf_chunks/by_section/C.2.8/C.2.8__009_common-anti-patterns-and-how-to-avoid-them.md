@@ -6,12 +6,12 @@ section_id: "C.2.8:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 54697
-line_end: 54707
+line_start: 54690
+line_end: 54700
 dependencies:
   - "A.17"
   - "A.18"
@@ -41,7 +41,7 @@ keywords:
 | A fully articulated account is assumed equally recoverable by every reader | Retain its AE result and compare ESI for the selected reader preparation and budget. |
 | The expert fixes false text, and the corrected relation is credited to that text | Preserve the initial answer and identify the correction supplied by expertise; repair the expression against its source. |
 | Source-return links or a transfer test raise an amount score by their mere presence | Use source return as available support and transfer as its own tested result; compare the structure recovered under those conditions. |
-| A missing denominator is scored as little structure | Return the missing comparison basis. Assign zero only when the declared scale and observation support it. |
+| A missing denominator is scored as little structure | Return the missing comparison basis. Assign zero only when the declared scale and the result's grounds support it. |
 | Fewer words, more boxes or a larger model are used as the structural measure | Identify the selected semantic structure and justify the representation or model correspondence. |
 | A richer explanation is chosen despite a sufficient incumbent and no worthwhile gain | Compare the finite change's actual contribution and cost through C.11.CRC/C.11. |
 

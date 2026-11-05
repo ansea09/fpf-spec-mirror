@@ -6,12 +6,12 @@ section_id: "C.2.LS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__001_intro.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:intro — Intro"
-line_start: 53409
-line_end: 53426
+line_start: 53408
+line_end: 53425
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -52,11 +52,11 @@ keywords:
 
 **Technical alias.** `LanguageStateFacetProfile` names the optional record form below. A filled profile is an assessment account governed by C.2.1.
 
-**Use this pattern when.** Use C.2.LS when the next use of a published `U.Episteme` needs an explicit profile of selected language-state readings and local thresholds. Select the required formality, articulation, closure and representation readings, together with any source or use conditions needed to interpret or apply them.
+**Use this pattern when.** Use C.2.LS when the next use of a published `U.Episteme` needs selected language-state readings to be interpreted, compared or reused together. Select the required formality, articulation, closure and representation readings, together with any source or use conditions needed to interpret or apply them.
 
 **Sufficient result and non-use.** The profile can point to existing readings and include only the facets needed together. If ordinary wording, one direct facet reading or an applicable existing profile already serves the receiving use, use it without constructing another bundle.
 
 **What goes wrong if missed.** Teams replace the facet profile with a maturity adjective such as `ready`, `raw`, or `stable`, then use that label to choose routes, decide whether to reopen, interpret Bridges, or make publication decisions. The label hides the actual facet values.
 
-**What this buys.** A thin, decomposable profile bundle: each facet keeps the definition and tests supplied by its own pattern, while the profile gives authors, assurance readers, and integrators one place to publish a threshold-relevant language-state position.
+**What this buys.** A decomposable profile bundle: each facet keeps the definition and tests supplied by its own pattern, while the profile gives authors, assurance readers, and integrators one place to publish selected readings and the conditions on their joint use.
 

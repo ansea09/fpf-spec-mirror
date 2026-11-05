@@ -6,12 +6,12 @@ section_id: "C.22.2:22"
 section_title: "First Practical Entry Aid"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__023_first-practical-entry-aid.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:22 — First Practical Entry Aid"
-line_start: 64295
-line_end: 64320
+line_start: 64294
+line_end: 64319
 dependencies:
   - "A.10"
   - "A.15"
@@ -73,12 +73,12 @@ These likely practitioner entry phrases point to `C.22.2`:
 Direct-entry cues that are not `C.22.2`:
 
 - accepted method or work planning: use `A.15`;
-- proof, provenance, reliability, or assurance claim: use `A.10`, `G.6`, or `B.3`;
+- proof, provenance, reliability or assurance claim: use its direct subject rule; add `A.10` for a needed replayable account, `G.6` for a needed graph representation, or `B.3` for a named assurance claim;
 - local choice among explicit options: use `C.11`; use `G.5` when selector-facing set-result declaration is current; when that result already exists and actual audience availability is current, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability;
 - agent tool-call, gate, or autonomy claim: use `C.24`, `E.16`, or `A.21`; `ProblemCard` may only name the problem-side cue or relation named by value;
 - ordinary discussion with no downstream receiving use: no `C.22.2` use.
 
 First-use Thin-card test:
 
-Aim for a Thin card that fits on one page when only the core content is needed. Use `2.1` to recover: signal; one joint EntityOfConcern, effective ReferenceScheme, and ClaimScope; exact claim family; not-wish or not-preselected-Work reason; improvement check or acceptance probe; and one honest governed next use. That use may be `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstainOrNoChange`, or apply the FPF pattern that defines or constrains the claim, relation, or boundary outside the card.
+Aim for a Thin card that fits on one page when only the core content is needed. Use `2.1` to recover: signal; one joint EntityOfConcern, effective ReferenceScheme, and ClaimScope; exact claim family; not-wish or not-preselected-Work reason; improvement check or acceptance probe when needed; and one honest governed next use. That use may be `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstainOrNoChange`, or apply the FPF pattern that defines or constrains the claim, relation, or boundary outside the card.
 

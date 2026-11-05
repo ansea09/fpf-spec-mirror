@@ -6,12 +6,12 @@ section_id: "C.22.PFR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__013_relations.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:12 — Relations"
-line_start: 63702
-line_end: 63715
+line_start: 63697
+line_end: 63710
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -40,5 +40,5 @@ keywords:
 - `A.15.1` and `A.3.4` govern repair work and changes to the actual-condition relation.
 - `E.18.1`, `E.23`, and direct NQD and OEE patterns define or constrain repeated problematization, method search, work, evaluation, and continuation; relations locating or ordering those occurrences in a transformation-flow structure do not enter PFR identity.
 - `C.27.TA` governs temporal aspect statements when interval publication or temporal adequacy is current.
-- `A.10`, `B.3`, and `G.11` govern evidence use, assurance, and source or claim currentness.
+- `A.2.4` governs an episteme's evidence-use or status-use relation; `A.10` supplies a replayable evidence, provenance or bounded-reliance account when needed. `B.3` governs a named assurance claim, and `G.11` source or claim currentness.
 

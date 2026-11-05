@@ -6,12 +6,12 @@ section_id: "C.3:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__007_solution.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:5 — Solution"
-line_start: 55149
-line_end: 55162
+line_start: 55135
+line_end: 55148
 dependencies:
   - "A.1"
   - "A.11"
@@ -56,5 +56,5 @@ Use the lightest object that answers the current typed-reasoning question.
 6. **Materialize an extension only for use.** A query, quantification, comparison, or review may need `KindExtension(k, slice)`. It represents admissible candidates judged `true`; notation, rows, or set membership do not create an ontic collection or classification relation.
 7. **Keep scope, formality, Work, and publication separate.** Formality characterizes the declaration episteme. Scope belongs to claims or capabilities. `U.Work` is a kind and `W : U.Work` is one independently grounded dated work occurrence. Plans, logs, cards, field bundles, carriers, and rows remain their own objects.
 
-Typed reasoning composes with F-G-R and USM in this order: recover kind compatibility; check classification admissibility and, when admissible, the exact judgment; separately check claim-scope coverage; then apply support, assurance, freshness, and any justified bridge consequence required by the receiver.
+Typed reasoning composes with F-G-R and USM in this order: recover kind compatibility; check claim-scope coverage; when the receiving use is candidate-bearing, check classification admissibility and, when admissible, the exact judgment; then apply support, assurance, freshness, and any justified bridge consequence required by the receiver.
 

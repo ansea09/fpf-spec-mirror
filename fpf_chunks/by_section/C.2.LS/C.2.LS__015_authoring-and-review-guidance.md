@@ -6,12 +6,12 @@ section_id: "C.2.LS:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__015_authoring-and-review-guidance.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:14 — Authoring and Review Guidance"
-line_start: 53602
-line_end: 53622
+line_start: 53599
+line_end: 53615
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -53,12 +53,8 @@ When publishing a language-state facet profile:
 4. when a label such as "mature", "raw", or "ready" carries an operational claim, make the relevant facet readings and conditions visible.
 
 #### C.2.LS:14.2 - For assurance readers
-An assurance reader should ask:
 
-- is any facet silently replaced by `F`?
-- is a threshold published on an explicit facet rather than on a poetic surrogate?
-- do route or reopen claims actually match the published facet bundle?
-- do profile notes guide interpretation while preserving the definitions and tests supplied by the applicable patterns?
+Use :18.1 to check the profile's meanings, relied-on conditions and claimed consequences.
 
 #### C.2.LS:14.3 - For integrators
 Integrators should preserve the profile references. A local alias is acceptable when the underlying facet references remain recoverable and unambiguous.

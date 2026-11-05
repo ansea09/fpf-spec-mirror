@@ -6,12 +6,12 @@ section_id: "C.22.2:14"
 section_title: "Source and P2W Carry-Forward"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__015_source-and-p2w-carry-forward.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:14 — Source and P2W Carry-Forward"
-line_start: 64132
-line_end: 64155
+line_start: 64131
+line_end: 64154
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,8 +68,8 @@ Apply the following source details as constraints on `C.22.2` use and its P2W-fa
 | Characterization protocol: ReferenceScheme, ClaimScope or slice, compared set, exact system-role-kind, assignment, participation, or viewpoint qualification, scale, polarity, measurement Method, freshness, repeatability, budget, missing data, and comparison rules | `C.16`, `A.19`, `C.25`, `G.9`, and the exact qualification pattern | `ProblemCard` cites characterization, qualification, and comparability relations when current; available measurement or a visible label alone is not an accepted use relation. |
 | Indicator uses: mandatory constraints, optimization objectives for the current cycle, and risk signals | Characteristic and Q-bundle use under selected comparison or acceptance | `C.22.2` preserves whether an indicator is used as a mandatory constraint, optimization objective, or monitored risk signal when that distinction affects acceptance; the use is not a system-role kind or assignment. |
 | Problem portfolio as a period-bounded selected set with budget, assignment or participation cue, review cadence, and not-selected disposition | `G.5`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, `C.16.Q`, and E.10.ROLE when bare *role* is the source cue | `ProblemCard` preserves the source set or reference, selection or retention criterion, budget or window, review cadence, and not-selected or stepping-stone disposition. If an actual System, local system-role kind, assignment, participation, or responsibility relation matters, cite that independently obtaining direct claim rather than the portfolio wording. |
-| Goldilocks as zone-of-growth selection calibrated to current capability, effective ReferenceScheme, and ClaimScope | Problem-side entry to current NQD, OEE, and set-return family | `C.22.2` does not turn Goldilocks into one global difficulty scale or scalar readiness score. |
-| Stepping stones as option value: new actions, tools, data, interfaces, environments, or experiment modes that may expand downstream search | Retained archive, front, or pool member, or selected-set reason | `C.22.2` may record stepping-stone value only with a governing set-return, archive, or pool pattern and a retention or tie-break criterion. |
+| Goldilocks as zone-of-growth selection calibrated to current capability, effective ReferenceScheme, and ClaimScope | Problem-side entry to current NQD, OEE, and set-return family | `C.22.2` preserves the declared difficulty and feasibility criteria; it supplies no global difficulty scale or readiness verdict. |
+| Stepping stones as option value: new actions, tools, data, interfaces, environments, or experiment modes that may expand downstream search | A possible contribution to a later inquiry or action; retention or selection is a separate use when current | Explain what continuation the proposed stepping stone could enable and under which conditions. When claiming archive, pool or selected-set retention, also supply that pattern's retention or tie-break basis. |
 | P2W chain: signatures and principles help select formalism, ontology, characterization, and method-family material | `A.6.0`, `A.6.1`, `C.16`, `A.19`, `C.29`, `G.5`, and `E.18` | `C.22.2` supplies problem-side cues and relation references; it does not select the formalism, ontology, mechanism, or method family by itself. |
 | P2W chain: condition measurement and comparison help select a concrete method | `C.16`, `A.19`, `C.25`, `G.9`, `G.5`, and `A.15` | State the comparison-and-acceptance cue or acceptance-criterion reference and parity and characterization relations needed by downstream method selection. |
 | P2W chain: work planning makes planned work inspectable | `A.15.2` and `A.15.3` | `C.22.2` may supply problem-side input for `TaskSignature` preparation and assignment under C.22; the identifiable plan is one exact `U.WorkPlan`, and any planned-filling row remains declaration-local content addressed through that plan. |

@@ -6,12 +6,12 @@ section_id: "C.13:9.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__013_sota-echoing.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:9.1 — SoTA-Echoing"
-line_start: 58572
-line_end: 58579
+line_start: 58558
+line_end: 58561
 dependencies:
   - "A.1"
   - "A.14"
@@ -28,10 +28,6 @@ keywords:
 ---
 
 ### C.13:9.1 - SoTA-Echoing
-
-Constructional ontology and applied mereology both require explicit choices about constructors, dependence, identity, and the relation between a construction account and the object constructed. C.13 adopts that pressure by requiring exact inputs, obtaining direct relations, assembly, and reidentification. It rejects the stronger shortcut that a term, graph, extensional input set, or written constructor expression alone settles the existence or identity of the whole.
-
-Model-based engineering likewise separates a readable structural model from the physical, operational, informational, method, or work organization it describes. C.13 keeps that model useful while routing representation, evidence, assurance, and currentness to their direct patterns.
 
 `A.14:14` supplies the source decision used by the `set` and `slice` forms. For `set`, it requires the collection's own belongs-to rule and blocks both automatic parthood and the conclusion that separate parthood is impossible. For the aspect profile of `slice`, it requires an obtaining `AspectOf` relation with its bearer, facet rule, and identity conditions. The portion profile instead uses A.14:5.1's same-stuff/content, extensive-measure and boundary conditions; it introduces no AspectOf claim. An ordinary change to a collection rule or occurrence, aspect or bearer, facet rule, portion boundary or measure, identity condition, or materialized trace reopens the affected construction account and the claim it reports.
 

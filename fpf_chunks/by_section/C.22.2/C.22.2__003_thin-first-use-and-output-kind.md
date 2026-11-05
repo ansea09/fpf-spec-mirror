@@ -6,12 +6,12 @@ section_id: "C.22.2:2"
 section_title: "Thin First Use and Output Kind"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__003_thin-first-use-and-output-kind.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:2 — Thin First Use and Output Kind"
-line_start: 63750
-line_end: 63913
+line_start: 63743
+line_end: 63914
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,6 +61,14 @@ keywords:
 #### C.22.2:2.1 - Thin First-Use Form
 
 The first substantive use is the Thin form. It is a practitioner-facing prompt for the smallest reviewable card, not a demand to complete a schema.
+
+**Develop the content from accessible material.** If the concern is still a rough signal, use the constructive examination in B.5:4.1.2 at the scale needed here:
+
+1. Follow an actual episode, inspect the artifact or recover the source statement that prompted attention. Separate what it shows from a proposed cause or solution. Trace what result is used, by whom or by what next operation, and what happens there.
+2. Recover why that consequence matters. Read the applicable purpose, acceptance condition, commitment or constraint, or ask the participant responsible for that use. Connect the observed condition to that criterion through the relevant subject account. If the criterion or connection is unknown, preserve that specific inquiry rather than asserting an actual Problem.
+3. Form the claim at the extent the material supports. Identify the participants and relation, the cases or conditions covered, and the meaning of the terms used. Distinguish a reported current condition from a forecast, an explanation to test or a claim about available means. Inspect a contrasting case when it can distinguish materially different formulations; retain an adequate existing formulation directly.
+4. When the next use needs an improvement or acceptance check, derive it from the consequence and criterion: what observable result or argument would establish the needed difference, under what conditions, and by which available comparison or test? Use an adequate existing result or method; obtain the particular missing observation, interpretation or subject assistance when it prevents that check. A source inquiry can still be the sufficient next use before such a check is available.
+5. Carry the supported formulation and its consequential uncertainty into the Thin form below. Choose the next operation because its available inputs and attainable result answer the remaining question. If no useful operation can yet be described, return to the episode or request help on that missing connection.
 
 A `ProblemCard` is complete for its current use when it states:
 
@@ -114,7 +122,7 @@ If the claim, relation, or boundary does not change the current problem-card use
 | Current claim, relation, or boundary that changes the card use | Local `ProblemCard` content | Subject pattern |
 |---|---|---|
 | Characterization, measurement, indicator, Q-bundle, comparison, acceptance, or parity | Characterization cue, acceptance probe, candidate criterion, comparator cue or window cue, and the current reason the relation changes the problem formulation. | `C.16`, `A.19`, `C.25`, `G.0`, `G.4`, or `G.9` according to the relation named by value. |
-| Archive, pool, front, shortlist, selected set, retained candidate, or set-return source | `sourceSetRef`, source-set kind, selection or retention criterion, budget or window when current, and non-scalar next use. | `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, or `C.16.Q` according to the relation named by value. |
+| Archive, pool, front, shortlist, selected set, retained candidate, or set-return source | `sourceSetRef`, source-set kind, selection or retention criterion, budget or window when current, and declared next use. | `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, or `C.16.Q` according to the relation named by value. |
 | Method family, work planning, work-entry readiness, performed work, result record, evidence, provenance, assurance, gate, or autonomy | Problem-side cue, source reference when it changes formulation, and stop condition before that outside use. | `G.5`, `A.15`, `A.15.5`, `A.10`, `G.6`, `B.3`, `A.21`, or `E.16` according to the claim named by value. |
 | Temporal, causal-use, representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation | Relation reference plus the inheritance boundary: what can be reused from the old card and what relation is reopened. | `C.27`, `C.28`, `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, `E.18`, or `E.10` according to the relation named by value. |
 | First-principles or mathematical structure cue | Candidate structure, preserved and lost structure when current, practical payoff for problem formulation, problem-formulation follow-up reason, and stop condition. | `C.29` for mathematical-lens use; `A.6.0` for a `FormalSubstrate` `U.Signature` declaration when that signature declaration is current. |
@@ -128,11 +136,11 @@ Repair: return to the exact Thin form in `C.22.2:2.1` and complete only its core
 
 Use `C.22.2` when a signal is not yet a problem-side record and downstream task typing, P2W, method-family selection, work planning, evidence use, gate passage, autonomy control, or selected-set use depends on such a record. A known method does not close this pattern when the problem signal, scope, acceptance probe, or EntityOfConcern remains unstable.
 
-Use another pattern directly when the question under repair is already that pattern's `EntityOfConcern` or governed relation: `A.15` for work planning or performed work; `A.10`, `G.6`, or `B.3` for evidence, provenance, or assurance; `A.21` for gate decision; `E.16` for autonomy; `C.11` for a local choice among explicit options; and `C.18`, `C.19`, or `G.5` for archive, pool, front, or selected-set governance. `C.22.2` may still preserve the problem-side cue or reference that explains why that pattern is now current.
+Use another pattern directly when the question under repair is already that pattern's `EntityOfConcern` or governed relation: `A.15` for work planning or performed work; `A.2.4` for an episteme's evidence-use or status-use relation, `A.10` for a needed replayable evidence/provenance/reliance account, `G.6` for a needed evidence-graph representation, or `B.3` for a named assurance claim; `A.21` for gate decision; `E.16` for autonomy; `C.11` for a local choice among explicit options; and `C.18`, `C.19`, or `G.5` for archive, pool, front, or selected-set governance. `C.22.2` may still preserve the problem-side cue or reference that explains why that pattern is now current.
 
 Use record budgets:
 
-- Thin record budget: signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, exact claim family, not-wish, not-slogan, not-ticket, or not-preselected-work reason, provisional improvement check or acceptance probe, and one honest next use.
+- Thin record budget: signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, exact claim family, not-wish, not-slogan, not-ticket, or not-preselected-work reason, provisional improvement check or acceptance probe when needed, and one honest next use.
 - Standard record budget: Thin fields plus the current comparison, acceptance, risk, validation, freshness, unknown-handling, or P2W-readiness fields needed for downstream use.
 - High-relation record budget: Standard fields plus only the relation references needed when public, disputed, high-risk, set-derived, cross-scheme, cross-use-boundary, evidence-adjacent, autonomy-adjacent, gate-adjacent, agentic, temporal, causal, representation, or Part-G relations are current.
 
@@ -154,14 +162,14 @@ Use these readable labels only when current for the case:
 - problem-formulation follow-up reason when it changes review, discrimination, or receiving use;
 - representation-transition, retargeting, Bridge, structural-reinterpretation, or wording-use reference when an earlier disposition may no longer transfer;
 
-- `sourceSetRef`, source-set kind, selection or retention criterion, budget or window, and non-scalar next use when the signal comes from a set, pool, front, archive, shortlist, or selected set;
+- `sourceSetRef`, source-set kind, selection or retention criterion, budget or window, and declared next use when the signal comes from a set, pool, front, archive, shortlist, or selected set;
 - `firstPrinciplesCue` when a mathematical structure changes the formulation; and
 - subject-pattern cue naming the direct pattern, claim kind, exact receiving-use reference, and stop condition when an outside claim changes the card use.
 
 | Field current-use class | Required treatment |
 |---|---|
 | C.2.1 constitution | State the exact ClaimGraph, one joint EntityOfConcern, and effective ReferenceScheme. These constitute the card episteme; ClaimScope, viewpoint, assumptions, windows, and receiving use qualify the relevant claims and relations, while id, carrier, and publication remain outside constitution. |
-| Core problem-side claims | State the signal, ClaimScope, claim family, not-wish reason, improvement check or acceptance probe, and honest next use. |
+| Core problem-side claims | State the signal, ClaimScope, claim family, not-wish reason, improvement check or acceptance probe when needed, and honest next use. |
 | Conditional claims and references | Add only the exact characterization, comparison, risk, validation, freshness, set-source, representation, forecast, solvability, PFR, or other direct relation content that changes the move. |
 | Subject-pattern cue | Keep only the local cue or reference needed by the card, then name the direct pattern and claim kind that govern the outside use. |
 
@@ -182,7 +190,7 @@ problemCardWitnessRefs:
   representationOrWordingUseRelationRef?
 ```
 
-Generated variants, evaluator feedback, and open-ended mutation remain signal or source-set cues. They do not constitute the card, supply evidence sufficiency, make PFR obtain, or authorize action.
+Evaluate generated problem descriptions and evaluator feedback by their content and the support required for the receiving use. They may supply problem-side claims or supporting grounds; a generated description may itself serve as the card when it satisfies the C.2.1 constitution and current card use. Apply the relevant validation, currentness and action-entry conditions to the claims and proposed action.
 
 #### C.22.2:2.6 - Anti-Pattern Checks and Worked Slices
 
@@ -208,10 +216,10 @@ The checklist protects a completed or reviewed card from overread; the writing o
 | C.2.1 identity | The card has one exact ClaimGraph, one independently identified joint EntityOfConcern, and one effective ReferenceScheme. Unrelated PFRs or other concerns force ClaimGraph/card split. |
 | Claim-family separation | Actual-PFR assertion polarity, reliance result, anticipated-condition claim, and method-availability or solvability claim remain distinct. |
 | PFR boundary | Any affirmative actual-PFR assertion names an occurrence independently established by C.22.PFR. A card, signal, label, viewpoint, evidence item, method, or negative assertion creates or ends none. |
-| Core usability | The card states signal, ClaimScope, claim family, not-wish reason, improvement check or acceptance probe, and honest next use. |
+| Core usability | The card states signal, ClaimScope, claim family, not-wish reason, improvement check or acceptance probe when needed, and honest next use. |
 | `P2W-ready` reason | `P2W-ready` appears only with an improvement check or acceptance probe and one named downstream use; it is problem-side readiness only. |
 | Field budget | Conditional content appears only when current; absence and admitted `unknown` remain distinct. |
-| Exact source and set | A set-derived card preserves exact `sourceSetRef`, set kind, retention or selection criterion, and non-scalar next use without becoming an archive or portfolio object. |
+| Exact source and set | A set-derived card preserves exact `sourceSetRef`, set kind, retention or selection criterion, and declared next use without becoming an archive or portfolio object. |
 | Direct-governor cue | Claims outside C.22.2 remain local cues or references and name the exact pattern and claim kind used next. |
 | Constitution stays exact | Only ClaimGraph, one joint EntityOfConcern, and effective ReferenceScheme constitute the card. ClaimScope, assumptions, windows, viewpoint, receiving use, and any exact A.15.6 Work reference stay in their claims and direct relations; no setting, carrier, or organization is added as a participant. |
 | Currentness and change | Freshness, changed representation, retargeting, or unknown-blocked use states refresh, retirement, bounded use, `abstainOrNoChange`, or the exact relation reopened. |

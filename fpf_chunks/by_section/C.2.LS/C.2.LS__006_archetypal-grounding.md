@@ -6,12 +6,12 @@ section_id: "C.2.LS:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__006_archetypal-grounding.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.LS — Language-State Facet Profile: Publish Readings and Use Conditions Together"
   - "C.2.LS:5 — Archetypal Grounding"
-line_start: 53502
-line_end: 53508
+line_start: 53499
+line_end: 53505
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -43,9 +43,9 @@ keywords:
 ---
 
 ### C.2.LS:5 - Archetypal Grounding
-**Tell.** A team may say a draft is "still forming" for different reasons. The profile lets the team identify whether the issue is low articulation, low candidate-space closure, an unavailable observation or use condition, or an unresolved representation-factor bundle.
+A team may say a draft is "still forming" for different reasons. The profile lets the team identify whether the issue is low articulation, low candidate-space closure, an unavailable observation or use condition, or an unresolved representation-factor bundle.
 
-**Show (System).** An operator alert note can have stable alert terms and structure and low closure, while participating in an operator acknowledgement-and-check procedure.
+**Operator alert.** An operator alert note can have stable alert terms and structure and low closure, while participating in an operator acknowledgement-and-check procedure.
 
-**Show (Episteme).** An inquiry note can be low articulation while reporting identified exemplars and observations.
+**Inquiry note.** An inquiry note can be low articulation while reporting identified exemplars and observations.
 

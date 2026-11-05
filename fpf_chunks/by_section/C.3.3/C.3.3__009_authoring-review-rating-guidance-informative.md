@@ -6,12 +6,12 @@ section_id: "C.3.3:8"
 section_title: "Authoring, Review & Rating Guidance (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__009_authoring-review-rating-guidance-informative.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.3 — KindBridge and CL^k — Correspondence between Distinct Kinds"
   - "C.3.3:8 — Authoring, Review & Rating Guidance (informative)"
-line_start: 55782
-line_end: 55807
+line_start: 55768
+line_end: 55793
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -32,13 +32,13 @@ keywords:
 * **Prefer an existing suitable target kind.** If the target already has a suitable kind and declaration edition, relate that kind directly. If a new target declaration is required, author it separately before asserting bridge obtaining; list what the mapping predicate preserves, relaxes, or drops.
 * **Write loss notes in plain language.** Example: “EV vs ICE subkinds collapsed; battery‑health invariants dropped.”
 * **Fix the definedness area.** Bind to target Standards/versions and any environment selectors essential to classification.
-* **Assign `CL^k` from exemplars.** Calibrate on concrete counter‑examples and preserved properties; resist optimistic ratings.
+* **When `CL^k` is required, assess it from exemplars.** Calibrate on concrete counter-examples and preserved properties; resist optimistic ratings.
 
 #### C.3.3:8.2 - Review prompts
 
 1. **Identity checked first?** Same kind reused without a bridge, or two distinct kinds and the obtaining correspondence shown? Add Scope or F.9 relations only when the receiving use consumes them.
 2. **Order claims honest?** Any `⊑` inversions? Collapses disclosed?
-3. **`CL^k` plausible?** Based on preserved properties, not name similarity?
+3. **When `CL^k` is used, is it plausible?** Based on preserved properties, not name similarity?
 4. **Loss consequences clear?** Do they change the justified inference, require more basis or leave the intended use adequate?
 5. **Definedness area clear?** Outside it, does the guard decline this bridge use while preserving the independent classification result?
 6. **Reliance consequence justified?** Any numerical change to R needs its receiving model; F and G remain unchanged.

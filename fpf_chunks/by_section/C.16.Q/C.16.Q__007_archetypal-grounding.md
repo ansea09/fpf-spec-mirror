@@ -6,12 +6,12 @@ section_id: "C.16.Q:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__007_archetypal-grounding.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:5 — Archetypal Grounding"
-line_start: 60279
-line_end: 60469
+line_start: 60260
+line_end: 60454
 dependencies:
   - "A.10"
   - "A.16"
@@ -65,7 +65,9 @@ keywords:
 #### C.16.Q:5.1 - Tell
 
 If a draft uses *quality* for an FPF-governed claim without a recoverable sense, make that sense explicit.
-A conforming rewrite publishes either the evaluative form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, separate probe/model and comparison frames, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, bounded-use claim, optional Card, and optional stance note.
+
+**A completed ordinary repair.** A report says “architecture quality improved,” but its supplied comparison concerns two editions of an architecture description. Both describe the same system and serve the same three decision questions. AD1 supplies the required dependency information for two questions; AD2 supplies it for all three. The same coverage rule is applied to both descriptions. The supported statement is: “AD2 supplies the dependency information for all three declared decision questions; AD1 supplied it for two.” This can finish the wording repair. It asserts no change to the system's availability or security. If the decision questions change, compare both descriptions against the new question set before repeating the improvement claim.
+A conforming rewrite publishes either the form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, separate probe/model and comparison frames, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, bounded-use claim, optional Card, and optional stance note.
 
 #### C.16.Q:5.2 - Show (Latent fit and control adequacy)
 
@@ -123,7 +125,9 @@ qualityTermAscription(
 
 **Draft:** “Quality matters before definition.”
 
-**Repair A — preconceptual or phenomenological line**
+First recover what remains undefined and how quality is said to affect the work. For one constructed reading, suppose EpisodeNotes_3 states that participants noticed a felt mismatch, used it to revise the problem framing, and only then articulated the criterion for that mismatch. The ordinary repair is: “During PF3, the participants used a felt mismatch to revise the problem framing before they stated the criterion for that mismatch.” Once this is the intended account, the sentence can finish the repair without a transitional record. The records below show partial sense resolutions while the intended claim remains open.
+
+**Partial interpretation A — preconceptual fit**
 ```text
 qualityTermAscription(
   bearerTuple = {ProblemFramingEpisode_PF3},
@@ -147,7 +151,7 @@ qualityTermAscription(
 
 The explicit `none` values matter: episode notes are witnesses to articulation, not automatic provenance or empirical grounding.
 
-**Repair B — explanatory line**
+**Partial interpretation B — explanatory merit**
 ```text
 qualityTermAscription(
   bearerTuple = {Explanation_N5},
@@ -170,6 +174,8 @@ qualityTermAscription(
 ```
 
 `CriticismBundleDefinitionSource_CB4` cites the supplied definition of the explanatory-merit Bundle. Its criticism criteria determine that endpoint; the shared word “Bundle” does not make C.25 the governor of explanatory merit.
+
+This record identifies an explanatory-merit reading. What is to be defined, how that merit affects the work, and in what sense it precedes the definition remain unresolved until the criticism account supplies them. Preserve those parts of the draft; the sense ascription alone does not complete its repair.
 
 #### C.16.Q:5.3a - Show (System quality and architecture-description fitness)
 
@@ -248,6 +254,4 @@ qualityTermAscription(
 ```
 
 `ObjectiveDefinitionSource_CG9` cites the objective definition supplied by CG_Frame_9. C.17 can characterize the candidate's value under that objective; it does not supply the objective's definition merely by being named.
-
-**A completed ordinary repair.** A report says “architecture quality improved,” but its supplied comparison concerns two editions of an architecture description. Both describe the same system and serve the same three decision questions. AD1 supplies the required dependency information for two questions; AD2 supplies it for all three. The same coverage rule is applied to both descriptions. The supported statement is: “AD2 supplies the dependency information for all three declared decision questions; AD1 supplied it for two.” This can finish the wording repair. It asserts no change to the system's availability or security. If the decision questions change, compare both descriptions against the new question set before repeating the improvement claim.
 

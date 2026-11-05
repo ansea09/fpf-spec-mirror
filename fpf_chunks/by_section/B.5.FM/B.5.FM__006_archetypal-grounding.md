@@ -6,7 +6,7 @@ section_id: "B.5.FM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.FM/B.5.FM__006_archetypal-grounding.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "B.5.FM — Construct a First Model for the Working Question"
   - "B.5.FM:5 — Archetypal Grounding"

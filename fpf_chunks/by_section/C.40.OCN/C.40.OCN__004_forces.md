@@ -6,12 +6,12 @@ section_id: "C.40.OCN:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.40.OCN/C.40.OCN__004_forces.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.40.OCN — Construct a Bounded Opportunity"
   - "C.40.OCN:3 — Forces"
-line_start: 86226
-line_end: 86235
+line_start: 86220
+line_end: 86229
 dependencies:
   - "A.15.9"
   - "C.11"

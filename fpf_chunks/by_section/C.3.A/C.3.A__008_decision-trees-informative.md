@@ -6,12 +6,12 @@ section_id: "C.3.A:7"
 section_title: "Decision trees (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__008_decision-trees-informative.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:7 — Decision trees (informative)"
-line_start: 56411
-line_end: 56441
+line_start: 56397
+line_end: 56427
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -37,7 +37,7 @@ keywords:
 
 1. Pin the quantified claim kind, receiving kind, and both exact signature editions.
 2. Require the receiving kind to be identical to or a subkind of the claim kind, or establish the receiving use's required correspondence between distinct kinds through the exact source-claim to target-receiving KindBridge relation and assertion.
-3. Check Claim scope against the exact TargetSlice and `Gamma_time`.
+3. Check Claim scope against the exact TargetSlice, preserving its declared selectors and any `Gamma_time` required by A.2.6.
 4. Apply R consequences and freshness/threshold checks.
 5. Return the separate action disposition. Do not ask for a candidate unless the receiving use applies the claim to one.
 

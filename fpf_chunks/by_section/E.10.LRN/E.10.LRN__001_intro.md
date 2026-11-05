@@ -6,12 +6,12 @@ section_id: "E.10.LRN:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.LRN/E.10.LRN__001_intro.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "E.10.LRN — Recovering What “Learning” Means in the Current Claim"
   - "E.10.LRN:intro — Intro"
-line_start: 100753
-line_end: 100760
+line_start: 100747
+line_end: 100754
 dependencies:
   - "A.10"
   - "A.15"

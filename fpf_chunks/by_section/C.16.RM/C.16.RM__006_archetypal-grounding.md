@@ -6,12 +6,12 @@ section_id: "C.16.RM:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.RM/C.16.RM__006_archetypal-grounding.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.16.RM — Repair a Measurement Model or Arrangement"
   - "C.16.RM:5 — Archetypal Grounding"
-line_start: 59515
-line_end: 59584
+line_start: 59496
+line_end: 59565
 dependencies:
   - "B.5.MPC.R"
   - "B.5.RR"
@@ -32,7 +32,7 @@ The wanted quantity is the optical power I from a beam at a detector. A supplied
 
 `r = g*(I + A) + b.`
 
-Here A is ambient optical power, g = 2 mV/mW is a known response coefficient and b is an electronic offset. The detector is unsaturated. During the following three observations, g, A and b remain unchanged:
+Here A is the ambient optical power reaching the exposed detector, g = 2 mV/mW is a known response coefficient and b is an electronic offset. The detector is unsaturated, and g and b remain unchanged across all three observations. A remains unchanged between the two exposed readings; the opaque cap blocks both optical contributions:
 
 | Condition | Reading |
 | --- | --- |

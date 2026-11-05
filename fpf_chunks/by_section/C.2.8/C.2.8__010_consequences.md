@@ -6,12 +6,12 @@ section_id: "C.2.8:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__010_consequences.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:9 — Consequences"
-line_start: 54708
-line_end: 54717
+line_start: 54701
+line_end: 54710
 dependencies:
   - "A.17"
   - "A.18"
@@ -38,7 +38,7 @@ keywords:
 
 A shared characteristic lets an author compare forms without confusing them with the account's identity or the described architecture. It also lets a domain evaluation consume structural recovery while keeping its other results intact.
 
-The practical cost is making material preparation, selection and access conditions explicit. That cost is small when the working situation already supplies them. Exact measurement or a causal claim about an explanation's effect requires more evidence because it answers a stronger question.
+The practical cost is making material preparation, selection and access conditions explicit. A measurement or a causal claim about an explanation's effect needs grounds appropriate to that claim; reuse an adequate existing basis.
 
 An additional example, prerequisite, diagram or changed order is useful when it exposes worthwhile structure under the actual conditions. Sometimes the current expression already supplies the needed structure. Both outcomes are compatible with this characteristic.
 

@@ -6,12 +6,12 @@ section_id: "C.2.8:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__013_relations.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:12 — Relations"
-line_start: 54738
-line_end: 54749
+line_start: 54731
+line_end: 54742
 dependencies:
   - "A.17"
   - "A.18"
@@ -39,7 +39,7 @@ keywords:
 - **A.17/A.18 and C.16:** arity, characteristic/scale legality and the measurement chain for an actual measurement claim.
 - **C.2.1 and E.24.PUB:** identity of the expressed episteme and the distinctions among its particular expression, reusable publication form and presentation carrier.
 - **C.2.4:** degree of explicit articulation and its receiving-use thresholds.
-- **C.29:** mathematical-lens correspondence for a formal structural-information estimate.
+- **C.29:** choosing or transferring a mathematical representation, or resolving reliance beyond its supported correspondence, when that question remains for a formal structural-information estimate.
 - **A.2.2:2.1 and E.23.CDI:4.2.1:** Method-relative capability and the acquisition or provision choice that can consume a recovered Method structure.
 - **C.33:** captured and missing structure, sufficiency and source return for an architecture use.
 - **A.6.3.NAR and E.17.EFP:** narrative construction and explanation-faithfulness uses that consume structural recovery.

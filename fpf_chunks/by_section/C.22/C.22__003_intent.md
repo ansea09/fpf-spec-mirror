@@ -6,12 +6,12 @@ section_id: "C.22:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__003_intent.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:1 — Intent"
-line_start: 62870
-line_end: 62905
+line_start: 62865
+line_end: 62900
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -51,7 +51,7 @@ Make the task distinctions relevant to a selector decision explicit in a typed `
 | `ProblemSideEpistemeRef` and `ReceivingUseEpistemeRef` | Participant designations in an assertion or description of `TaskSignatureAssignmentRelation`, not content or identity positions of TaskSignature | C.22.2 or the direct problem-side pattern defines or constrains the first episteme; the receiving-use episteme states the use but does not prove that an assignment obtains. |
 | `TaskKind` | TaskSignature position filled by one exact C.3 `U.Kind` value that types the current task or work target | C.3 governs the kind value; the field does not mint `U.Task`. |
 | `TaskFamilyRef` | Optional reference position for the comparison-relevant task family | C.22 and C.22.1 govern task-family anchoring; the reference is not the family or a selected method. |
-| `ProblemProfile` | C.2.1-conformant `U.Episteme` that describes the stabilized problem and may reference the TaskSignature assignment | It is not the actual Problem, TaskSignature, assignment relation, method, plan, or Work occurrence. |
+| `ProblemProfile` | C.2.1-conformant `U.Episteme` that describes the stabilized problem and may reference the TaskSignature assignment | TaskSignature membership requires its A.6.0 declaration content; the assignment is a separate obtaining relation. One episteme may serve both descriptive uses only when their content and C.2.1 constitution conditions hold. |
 | `ScopeSlice(G)` | Local position whose filler is the exact A.2.6 `U.ClaimScope` value that bounds claims about the exact `EntityOfConcernRef` | A.2.6 governs membership; the position is not an E.18 path slice or a new slice kind. |
 | CHR field heads in `5.1` | TaskSignature positions filled by characteristics, scales, units, polarity values, scope values, evidence relations, and currentness conditions | C.16 and each subject-pattern locator identify the exact definitions and constraints for the fillers; C.22 states why the selector-facing use needs them. |
 | QD and OEE extension heads in `5.1` | Optional TaskSignature positions filled by exact characteristic-space, archive, policy, telemetry, generator-family, validity-region, and transfer-rule values or references | C.18, C.19, G.5, G.11, and the named direct patterns keep authority over those fillers. `ArchiveConfig`, `TelemetryHooks`, and `GeneratorIntent` do not become root kinds here. |

@@ -6,12 +6,12 @@ section_id: "C.2.8:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__008_conformance-checklist.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:7 — Conformance Checklist"
-line_start: 54682
-line_end: 54696
+line_start: 54675
+line_end: 54689
 dependencies:
   - "A.17"
   - "A.18"
@@ -45,7 +45,7 @@ Use this checklist when a characteristic claim or comparison must be relied on o
 | `CC-C.2.8-3` Comparison | A claimed difference SHALL identify changed claims, expression, reusable-form rules, preparation, access, help, operations or budget where they can explain the result. |
 | `CC-C.2.8-4` Scale | A numerical value SHALL name its scale, structural unit or denominator and method. Ordered scales SHALL retain the positive structural direction; missing basis SHALL remain distinct from zero. |
 | `CC-C.2.8-5` Grounds | An observation, design estimate or formal-model estimate SHALL retain its grounds and their actual scope. Prior-expertise correction and additional assistance SHALL be attributed separately where consequential. |
-| `CC-C.2.8-6` Formal estimate | An epiplexity or other mathematical estimate used as ESI SHALL have the applicable C.29 correspondence; a claimed measurement SHALL satisfy C.16. |
+| `CC-C.2.8-6` Formal estimate | An epiplexity or other mathematical estimate used as ESI SHALL have the model correspondence required by :4.6; a claimed measurement SHALL satisfy C.16. |
 | `CC-C.2.8-7` Distinct results | Amount SHALL remain distinguishable from articulation, extraction effort, task utility, evidence strength, learning and robustness. |
 | `CC-C.2.8-8` Cold recovery | A publication-reading claim SHALL distinguish case facts from an explanation of the instruction supplied only by the test. |
 

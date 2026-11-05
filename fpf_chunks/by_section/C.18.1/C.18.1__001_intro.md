@@ -6,12 +6,12 @@ section_id: "C.18.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__001_intro.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:intro — Intro"
-line_start: 61333
-line_end: 61348
+line_start: 61320
+line_end: 61335
 dependencies:
   - "C.16"
   - "C.17"
@@ -46,11 +46,11 @@ keywords:
 > **Status:** Stable
 > **Type:** Pattern
 
-**Use this pattern when.** Use C.18.1 when a generator, selector, method family, benchmark, or comparison claims that behavior changes with scale—for example, with resource budget, data, model capacity, iteration budget or freedom of action. First name what is scaled, the window and the outcome being compared. Reuse an applicable probe account; new probing is needed only when the required scale claim remains unsupported. If no scale claim is needed, use the ordinary comparison directly.
+**Use this pattern when.** Use C.18.1 when a generator, selector, method family, benchmark, or comparison makes an empirical claim that behavior changes with scale—for example, with resource budget, data, model capacity, iteration budget or freedom of action. First name what is scaled, the window and the outcome being compared. Reuse an applicable probe account; new probing is needed only when the required scale claim remains unsupported. If no scale claim is needed, use the ordinary comparison directly. A conditional scale derivation within a stated mathematical model can use its derivation and assumptions directly, without a scale probe. That result supports the model-conditional claim; a claim about observed behavior or the model’s adequacy needs its own applicable evidence.
 
 **What goes wrong if missed.** Teams compare unequal budgets, call coverage telemetry an objective, claim a knee without probe evidence, or assume more scale means linear improvement across a window where the behavior has already changed.
 
-**What this buys.** A compact scale-law lens: declare the scale variables, ScaleWindow, probe points, elasticity class, parity notes, and policy thresholds before treating a scale claim as usable in selection, parity, refresh, shipping, or mathematical-lens work.
+**What this buys.** A compact scale-law lens: declare the scale variables, ScaleWindow, probe points, elasticity class, parity notes, and policy thresholds before treating an empirical scale claim as usable in selection, parity, refresh, shipping, or mathematical-lens work.
 
 **Purpose.** Declare which scale variables change, the ScaleWindow and the supported behavior class. Numeric fits remain domain work. G.9 governs parity, and a selector policy must admit any decision use of illumination.
 

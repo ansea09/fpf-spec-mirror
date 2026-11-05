@@ -6,12 +6,12 @@ section_id: "C.3.4:11"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__013_authoring-and-review-guidance.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Tailor the Use of an Existing Kind"
   - "C.3.4:11 — Authoring and Review Guidance"
-line_start: 56026
-line_end: 56047
+line_start: 56012
+line_end: 56033
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -42,6 +42,6 @@ Reviewer questions:
 3. Are candidate conditions, applicability, and ClaimScope separated?
 4. Does evaluation distinguish `not-applicable`, `true`, `false`, `unknown`, and guard refusal?
 5. On locality change, was kind identity compared before any bridge was claimed?
-6. For distinct-kind use, do the bridge predicate, receiving declaration, fresh judgment, any adaptation correspondence, and only justified R consequence remain separate?
+6. For distinct-kind use, do the bridge predicate, receiving declaration, any required candidate judgment, any adaptation correspondence, and only justified R consequence remain separate?
 7. Does a stable conceptual distinction warrant another kind, or is the declaration sufficient?
 

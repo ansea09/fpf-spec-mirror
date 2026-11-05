@@ -6,12 +6,12 @@ section_id: "C.22.PFR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__005_solution.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:4 — Solution"
-line_start: 63428
-line_end: 63604
+line_start: 63423
+line_end: 63599
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -138,7 +138,7 @@ The selected direct consumer supplies the governed input projection or consumes 
 
 A Problem can therefore obtain unnoticed. Later detection can involve work, evidence, and claims about the already obtaining relation; it does not create retroactive actuality.
 
-When an account asserts a particular dated evaluation `U.Work`, recover its actual performer `U.System` through A.13, independently admit the Work under A.15.1, and name the `U.Method` actually followed. Name any declared A.6.1 operation application separately when its returned-value binding is claimed. Add F.6 only when the evaluation account or a receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 attribution alone leaves the evaluation Work intact while its independent A.13/A.15.1 grounds still hold. A short PFR explanation may omit an assignment identifier that no later claim uses. That Work may return the separate evaluation result `true`, `false`, or `unknown` defined by the selected evaluation pattern; a C.2.1 assertion may state the result. A.10 governs evidence use for reliance on that assertion, B.3 governs any named assurance claim, and G.11 may qualify the assertion's current edition. The practitioner may rely on the assertion for the receiving Work, decline or defer that reliance, or reopen its basis. `unknown` is an evaluation result, never a world-side PFR value; test PFR obtaining through the three conditions in §4.3.
+When an account asserts a particular dated evaluation `U.Work`, recover its actual performer `U.System` through A.13, independently admit the Work under A.15.1, and name the `U.Method` actually followed. Name any declared A.6.1 operation application separately when its returned-value binding is claimed. Add F.6 only when the evaluation account or a receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 attribution alone leaves the evaluation Work intact while its independent A.13/A.15.1 grounds still hold. A short PFR explanation may omit an assignment identifier that no later claim uses. That Work may return the separate evaluation result `true`, `false`, or `unknown` defined by the selected evaluation pattern; a C.2.1 assertion may state the result. Establish support for reliance under the assertion's direct subject rule; use A.10 when the evidence, provenance or bounded reliance needs a replayable account. B.3 governs any named assurance claim, and G.11 may qualify the assertion's current edition. The practitioner may rely on the assertion for the receiving Work, decline or defer that reliance, or reopen its basis. `unknown` is an evaluation result, never a world-side PFR value; test PFR obtaining through the three conditions in §4.3.
 
 
 #### C.22.PFR:4.4 - Identify repeated adverse episodes from world-side continuity
@@ -175,11 +175,11 @@ Consider three successive condition intervals A, B and C while holding one conti
 - During B, the condition is actually non-adverse, so the first PFR does not obtain.
 - During C, the condition is actually adverse again, so a later PFR begins at `C.start` with the same two participant references and a different stable occurrence reference.
 
-Evidence that supports A, B, and C warrants the corresponding two-occurrence assertion. A missing assessment, unavailable measurement, stale evidence item, or support gap warrants `continuity unresolved`; it neither proves recovery nor licenses continuity. Adjacent or overlapping assessment windows likewise do not split or join world-side episodes by themselves.
+Evidence that supports A, B, and C warrants the corresponding two-occurrence assertion. Return `continuity unresolved` when the available evidence cannot decide whether cessation or restart occurred. A missing assessment, unavailable measurement or stale item alone settles neither continuity nor recovery; other adequate evidence may settle the claim. Adjacent or overlapping assessment windows likewise do not split or join world-side episodes by themselves.
 
 #### C.22.PFR:4.6 - Keep assertions, reliance, anticipated conditions, solvability, and cards separate
 
-An assertion about the exact PFR obtaining predicate has affirmative or negative claim polarity. An affirmative assertion may designate an independently established occurrence; a negative assertion denies predicate satisfaction for the named participants and qualification but does not erase or reidentify an earlier occurrence. A.10 governs the evidence-use account for treating that assertion as supported, refuted, or unresolved in one receiving use; B.3 applies only when a named assurance claim is current. Assertion polarity, support, and reliance therefore answer different questions.
+An assertion about the exact PFR obtaining predicate has affirmative or negative claim polarity. An affirmative assertion may designate an independently established occurrence; a negative assertion denies predicate satisfaction for the named participants and qualification but does not erase or reidentify an earlier occurrence. Judge support for that assertion under its obtaining predicate and the applicable subject rule. Use A.2.4 for a question about an episteme's evidence-use or status-use relation, and A.10 when evidence, provenance or bounded reliance needs a replayable account; B.3 applies only when a named assurance claim is current. Assertion polarity, support, and reliance therefore answer different questions.
 
 A possible or anticipated problem remains an exact forecast, scenario, counterfactual, or anticipated-condition claim in `ProblemCard` or another episteme until an actual-condition relation, an applicability relation, and adverse predicate truth all obtain. `C.2.1` governs its assertion identity and polarity. Use `C.27` when a rate, rhythm, recovery, or regime claim is being used to change action and `C.28` when causal support is at issue. The exact direct claim pattern defines or constrains assumptions, horizon, and non-actual semantics. None of those claim-side facts establishes a current PFR.
 

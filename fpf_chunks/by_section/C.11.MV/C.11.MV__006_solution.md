@@ -6,12 +6,12 @@ section_id: "C.11.MV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__006_solution.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:4 — Solution"
-line_start: 58155
-line_end: 58231
+line_start: 58141
+line_end: 58217
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -26,7 +26,7 @@ keywords:
 
 C.11 and C.11.DUA supply choice and the appraisal of demanded work. The comparison here constructs their Method-option input: the attainable receiving contribution, all relevant bearers of learning, transition and recurring burden, feasible alternatives and the condition under which keeping the current way is preferable.
 
-Compare feasible current alternatives in the named decision situation using separate consequence and evidence positions, preserve incomparability and branch conditions, and return one bounded action with its result-specific follow-up: no repair return for `keep`, a named decision or maintained result to create or change for `revise`, `replace`, or `branch`, and the stopped use plus unresolved trade-off for `stop`.
+Compare feasible current alternatives in the named decision situation using separate consequence and evidence positions, preserve incomparability and branch conditions, and return one bounded action with its result-specific follow-up: no repair return for `keep`, a named decision or maintained result to create or change for `revise`, `replace`, or `branch`, and the stopped use plus any unresolved trade-off for `stop`.
 
 #### C.11.MV:4.1 - Pattern-Use Unfolding
 
@@ -38,8 +38,8 @@ Compare feasible current alternatives in the named decision situation using sepa
 6. **Compare capability, System, Work, and relation demands explicitly.** For every alternative, name holder-capability inputs, participating Systems, Agent-performed Work, direct relations, assignments, permissions, authority, access, provider and confidentiality boundaries, maintenance, recovery, and evidence Work that changes the decision. Do not let availability or assignment substitute for capability.
 7. **Keep trade-offs visible.** Show where one alternative improves a domain result but increases burden, side effect, exposure, or opportunity cost. Use current `A.19.CPM` for non-trivial multi-criteria comparison and `A.19.SelectorMechanism` when a set-valued selection is needed. Do not invent a total order or scalar winner.
 8. **Compare branch and further-inquiry options where they matter.** Ask whether alternatives serve different situation families and what information, retained material, capability, support or rollback a branch needs. Name its situation discriminator. Select a further trial or inquiry through C.11.DUA only when its obtainable result could change the choice enough to warrant its full burden, including displaced Work and the available window. An adequate current choice can finish directly.
-9. **Return the strongest supported action.** `keep` retains the present course for the named window; `revise` names the decision or maintained result to reconsider under step 10; `replace` names the selected alternative and transition conditions; `branch` names the situation discriminator and retained alternatives; `stop` names the stopped use or change, what happens to current Work, and the unresolved trade-off. If the available basis cannot distinguish the possible actions, return the retained set and the limitation, together with any supported present course. Select a further probe only under step 8. A stronger choice can remain unresolved when no worthwhile inquiry is feasible.
-10. **Route each action according to its kind.** For `revise`, `replace`, or `branch`, name the receiving C.39.RP repertoire choice, C.39.RQ requirement, C.32.MWA.PP architecture decision, B.1.5.CM construction result, or A.3.1.MV entry and the change needed there. If an existing claim is contradicted, identify that claim and reopen only its owning result. If this is a first situated choice or a new applicability distinction, create the needed decision or entry through its owner; do not invent an earlier claim or contradiction. `keep` adds no repair return. `stop` preserves the unresolved trade-off and stopped use without inventing a correction owner. If the comparison exposes a possible A.3.2.DE description, C.37.MP Method representation profile-row, A.15.8.MS support, or directly governed lower representation contradiction, return the bounded evidence to A.3.1.CC; A.3.1.CC identifies and rechecks the maintained correction owner. A worth result does not rewrite that owner automatically.
+9. **Return the strongest supported action.** `keep` retains the present course for the named window; `revise` names the decision or maintained result to reconsider under step 10; `replace` names the selected alternative and transition conditions; `branch` names the situation discriminator and retained alternatives; `stop` names the stopped use or change, what happens to current Work, and any unresolved trade-off. If the available basis cannot distinguish the possible actions, return the retained set and the limitation, together with any supported present course. Select a further probe only under step 8. A stronger choice can remain unresolved when no worthwhile inquiry is feasible.
+10. **Route each action according to its kind.** For `revise`, `replace`, or `branch`, name the receiving C.39.RP repertoire choice, C.39.RQ requirement, C.32.MWA.PP architecture decision, B.1.5.CM construction result, or A.3.1.MV entry and the change needed there. If an existing claim is contradicted, identify that claim and reopen only its owning result. If this is a first situated choice or a new applicability distinction, create the needed decision or entry through its owner; do not invent an earlier claim or contradiction. `keep` adds no repair return. `stop` preserves any unresolved trade-off and stopped use without inventing a correction owner. If the comparison exposes a possible A.3.2.DE description, C.37.MP Method representation profile-row, A.15.8.MS support, or directly governed lower representation contradiction, return the bounded evidence to A.3.1.CC; A.3.1.CC identifies and rechecks the maintained correction owner. A worth result does not rewrite that owner automatically.
 11. **Return evidence to another Method-repertoire decision only when needed.** Supply the situated Method-worth evidence and limits needed for a compatible decision in engineering or another subject practice. This return transfers neither the C.11.MV action, authority, Method rank, causal claim, nor evidence beyond its source-use conditions.
 12. **State refresh conditions.** Reopen when alternatives, domain consequences, capability or support demands, direct relations, evidence reach, costs, reversibility, situation fit, or the receiving decision window changes.
 
@@ -56,7 +56,7 @@ Ordinary prose or an existing comparison can carry this content. Use the table t
 | disputed requirement, when its merits are the question | Protective contribution, threshold or evidence-demand basis, burden and displaced risk; supported retention or change recommendation, current force and the feasible amendment route or limit. |
 | trade-offs | Non-dominated positions, conflicts, incomparability, branch discriminators, sensitivity to missing evidence, and any selected reversible probe. |
 | decision | `keep`, `revise`, `replace`, `branch`, `stop`, or retained set with its limitation and any supported present course; reasons, unresolved risks, transition or rollback conditions. A selected further inquiry carries its worthwhile obtainable contribution and needed conditions. |
-| action follow-up | The result-specific return under §4.1 step 10: the decision or maintained result to create/change, whether it is a new choice or correction of an identified contradiction, and any bounded contradiction evidence for A.3.1.CC. `keep` adds no repair return; `stop` retains the stopped use and unresolved trade-off. Preserve unaffected results. |
+| action follow-up | The result-specific return under §4.1 step 10: the decision or maintained result to create/change, whether it is a new choice or correction of an identified contradiction, and any bounded contradiction evidence for A.3.1.CC. `keep` adds no repair return; `stop` retains the stopped use and any unresolved trade-off. Preserve unaffected results. |
 | evidence for another repertoire decision | When needed, the bounded evidence, receiving use, source-use conditions, non-transfer, and reopen condition. |
 
 #### C.11.MV:4.3 - What Changes in Practice

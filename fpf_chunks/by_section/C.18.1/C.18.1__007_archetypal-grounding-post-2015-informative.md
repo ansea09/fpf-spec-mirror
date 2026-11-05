@@ -6,12 +6,12 @@ section_id: "C.18.1:9"
 section_title: "Archetypal Grounding (post-2015; informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__007_archetypal-grounding-post-2015-informative.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:9 — Archetypal Grounding (post-2015; informative)"
-line_start: 61395
-line_end: 61402
+line_start: 61382
+line_end: 61391
 dependencies:
   - "C.16"
   - "C.17"
@@ -48,4 +48,6 @@ keywords:
 * **QD/OEE.** MAP-Elites, **CMA-ME**, **DQD**, **QDax**; **POET/Enhanced-POET** families: coverage/illumination as telemetry metrics; parity uses fixed grids/spaces and edition pins.
 
 **Constructed classification case.** A matched-probe account supports unchanged performance across the declared resource window, with uncertainty small enough for the comparison's stated tolerance. Report `flat`; the absence of a knee does not turn it into `rising`. In a second account, the uncertainty still permits both an increase and a decrease that would matter to the choice. Leave `χ` unassigned and retain that limitation. A supported monotone increase without a confirmed slope drop can instead support `rising`. These supplied accounts illustrate classification and its limit; they are not empirical scaling results.
+
+**Constructed bounded-error knee.** At resource counts `1, 2, 3`, deterministic throughputs are `10, 18, 19`, each with absolute error at most `0.1`, under the same tested conditions and admissible linear scales. The first adjacent slope is in `[7.8, 8.2]`; the second is in `[0.8, 1.2]`. Both rises are positive and the slope drop is in `[6.6, 7.4]`. A declared drop threshold of `5` is therefore exceeded throughout these bounds, supporting a knee over these three probe counts. No interpolation beyond the admitted counts is claimed. If wider error bounds admit a drop of `5` or less, this knee conclusion is no longer established; use only the behavior class still supported by those observations and bounds.
 

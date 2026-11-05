@@ -6,12 +6,12 @@ section_id: "C.3:14"
 section_title: "Detail Map"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__016_detail-map.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:14 — Detail Map"
-line_start: 55238
-line_end: 55251
+line_start: 55224
+line_end: 55237
 dependencies:
   - "A.1"
   - "A.11"
@@ -51,7 +51,7 @@ C.3 is the head pattern for typed reasoning. It leaves each detailed mechanism a
 | --- | --- | --- |
 | Kind identity, subkind relation, and continuity | `C.3.1` | admitted `U.Kind` and `U.SubkindOf`, criterion-entailment or exhaustive closed-domain obtaining, preorder and classification equivalence, participant-determined relation identity, and operational before/after continuity. |
 | Declaration, candidate judgment, and extension | `C.3.2` | `KindSignature`, exact four-key judgment, `true`/`false`/`unknown`, optional `KindExtension`, and scope/formality/evidence boundaries. |
-| Cross-local kind use | `C.3.3` | identity comparison first; same-kind reuse without a bridge; for distinct kinds, an obtaining directional `KindBridge`, its separate assertion, preservation/loss, and a fresh admissible receiving judgment. |
+| Cross-local kind use | `C.3.3` | identity comparison first; same-kind reuse without a bridge; for distinct kinds, an obtaining directional `KindBridge`, its separate assertion, preservation/loss, and a fresh admissible receiving judgment when the receiving use is candidate-bearing. |
 | Local adaptation without cloning a kind | `C.3.4` | A `KindUseAdaptationDeclaration` for one named local use of an exact base kind, its pinned base-kind judgment and additional candidate-feature constraints, the exact three-valued `KindUseAdaptationJudgment`, and any separately declared `KindUseAdaptationCorrespondenceDeclaration` between two exact adaptation declarations. |
 | Abstraction facet | `C.3.5` | `KindAT` as an editorial planning facet on one exact local kind, with no effect on the kind, declaration, judgment, extension, bridge assessment, guard, or F–G–R. |
 | Typed guards and applied examples | `C.3.A` | Declaration-level kind compatibility and exact candidate-use judgments kept separate across regulatory, assurance, ESG, and Method–Work uses, including the independently grounded actual `W : U.Work` boundary. |

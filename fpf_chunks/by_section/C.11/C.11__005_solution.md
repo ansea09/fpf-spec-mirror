@@ -6,12 +6,12 @@ section_id: "C.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__005_solution.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:4 — Solution"
-line_start: 56804
-line_end: 57266
+line_start: 56790
+line_end: 57252
 dependencies:
   - "A.10"
   - "A.13"
@@ -82,7 +82,7 @@ A conforming `C.11` pass does not stop at naming schools of decision theory. It 
 
 1. **Fix the chooser and the choice-bearing level.**
    State one `DecisionSubject` and one `DecisionSubjectGranularity`.
-   If the real dispute is still about who or what counts as the chooser, coordinate with `A.13` instead of hiding that dispute inside one local choice.
+   If who or what carries the choice is disputed, recover the applicable basis for that attribution. Use `A.13` when the unresolved claim concerns precise agency.
 
 2. **Freeze the current option set.**
    State the already-available options being compared now as one `OptionSet`.
@@ -292,15 +292,15 @@ Exact syntax is unnecessary. The chooser, options, shared comparison basis, `Cho
 
 Use branch language only when it changes the actual comparison being performed.
 
-##### C.11:4.2.6 - Resource-aware choice is one lens over declared source families
+##### C.11:4.2.6 - Resource-aware choice over an archive or front
 
-- Start from one declared source family or one declared source-family composition such as `Front`, `Archive`, or `Front+Archive`.
+- When the `OptionSet` is drawn from a `Front`, `Archive`, or their composition, identify that source basis.
 - Apply one declared decision lens over that source family rather than inventing one hidden universal winner rule.
 - `CostToProbe`, `ValueOfInformation`, and `ValueOfComputation` belong to that lens-side choice doctrine.
 - They may justify another probe, one changed local comparison outcome, or one stop decision, but they do not rename the current `DominanceSet` and do not declare one shortlist-family result.
 - If one candidate remains worth probing because its expected information value still exceeds its expected cost, say that explicitly as one lens-side choice judgement.
 - If one archive point remains worth probing because it may change the frontier later, keep that as one resource-aware choice claim, not as evidence that the point is already on the current front.
-- The kernel floor here is:
+- For an actual `A.19.SelectorMechanism` application, retain its set-returning declaration and bindings:
   - `A.19.SelectorMechanism` remains the cited set-return floor
   - `SelectionSlot` remains the selector output floor
   - if later selector-facing set-result declaration is required, that set-returning floor may support one `Shortlist` or one `RankedShortlist` in `G.5` rather than one forced single winner
@@ -325,7 +325,7 @@ The baseline is still unfinished when the current comparison invokes it but cann
 
 Switch on one `InterventionModel` when taking one option changes the world through intervention rather than merely signaling which outcome was already likely.
 
-What changes here is not the prestige label of the theory line, but the comparative question itself: the working question is no longer only what this option indicates about the outcome, but what this option causes in the outcome structure.
+The comparative question changes: the working question is no longer only what this option indicates about the outcome, but what this option causes in the outcome structure.
 
 Typical practical cash-outs are:
 
@@ -353,7 +353,7 @@ If that coupled structure is not live, do not activate this branch. If a predict
 
 Bring the active-inference line into view when the chooser is embodied, online, and socially coupled, and when the decision cannot be understood as one disembodied choose-then-act moment.
 
-What changes here is practical choice logic, not one neighboring-school label. The comparison is no longer over one frozen snapshot alone. The comparison must now ask whether one more observation, one more coupled update, or one more socially mediated or role-expectation clarification actually changes what should be done now.
+The comparison is no longer over one frozen snapshot alone. The comparison must now ask whether one more observation, one more coupled update, or one more socially mediated or role-expectation clarification actually changes what should be done now.
 
 This minimal choice doctrine makes that social-expectation pressure explicit, but it does not yet operationalize one full `ROE` or `SocialExpectationRegime` object model inside `C.11`. If that heavier machinery is itself what the case hinges on, the decision record should say so honestly rather than pretending the local `C.11` floor has already settled it.
 

@@ -6,12 +6,12 @@ section_id: "C.2.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.8/C.2.8__005_solution.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.2.8 — ExtractableStructuralInformation — Structure This Reader Can Recover"
   - "C.2.8:4 — Solution"
-line_start: 54539
-line_end: 54632
+line_start: 54532
+line_end: 54625
 dependencies:
   - "A.17"
   - "A.18"
@@ -102,7 +102,7 @@ Absence of human validation restricts empirical claims about people. It does not
 
 #### C.2.8:4.6 - Relation to epiplexity and MDL
 
-A formal structural-information estimate is useful when a mathematical model can represent the selected account, observer and extraction question. Use C.29 for that correspondence and its preserved and lost structure.
+A formal structural-information estimate is useful when a mathematical model can represent the selected account, observer and extraction question. Establish that correspondence and what structure it preserves or loses. Use C.29 for an unresolved question about choosing or transferring the representation, or relying on it beyond its supported correspondence.
 
 Finzi et al.'s computational epiplexity selects a time-bounded probabilistic program by a two-part coding criterion. Writing D for the model's data variable gives:
 

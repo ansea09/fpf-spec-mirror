@@ -6,12 +6,12 @@ section_id: "C.11.MV:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11.MV/C.11.MV__012_rationale.md"
-commit_sha: "d73588bdcb52ed173d7b4c1552b2ce199a548c64"
+commit_sha: "4260875dd8bc4595bbca3b6dbfa61e6f35afa013"
 heading_path:
   - "C.11.MV — Compare the Worth of a Method Option"
   - "C.11.MV:10 — Rationale"
-line_start: 58322
-line_end: 58327
+line_start: 58308
+line_end: 58313
 dependencies:
   - "A.3.1.FT"
   - "A.3.1.QM"
@@ -26,5 +26,5 @@ keywords:
 
 Worth is relational: a Method-related course is worth something for a receiver, situation, domain result, alternative set, and time. Coherence and fit can be necessary inputs to the decision, but they do not settle it. A visible trade-off is more actionable than a score whose composition and evidence reach are hidden.
 
-The five actions distinguish maintenance from change. `Keep` preserves a situated course and adds no repair return; `revise`, `replace`, and `branch` identify the owning decision or entry and distinguish a newly needed choice from correction of an existing claim; `stop` protects against unsupported or dominated continuation while preserving the unresolved trade-off and stopped use without inventing a correction owner. None supplies implementation authority.
+The five actions distinguish maintenance from change. `Keep` preserves a situated course and adds no repair return; `revise`, `replace`, and `branch` identify the owning decision or entry and distinguish a newly needed choice from correction of an existing claim; `stop` protects against unsupported or dominated continuation while preserving any unresolved trade-off and stopped use without inventing a correction owner. None supplies implementation authority.
 
